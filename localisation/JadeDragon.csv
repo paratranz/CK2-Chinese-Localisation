@@ -972,7 +972,7 @@ MODIFIER_LEVY_REINFORCEMENT_TO_SUZERAIN;至宗主;;;;;;;;;;x
 MODIFIER_LEVY_REINFORCEMENT_FROM_TRIBUTARIES;来自朝贡者;;;;;;;;;;x
 DESTROY_ARTIFACT_BUTTON;§Y销毁[From.GetName]§!;;;;;;;;;;x
 destroy_artifact_desc;§Y[From.GetName]§!从§Y[This.GetBestName]§!'的§Y宝库§!中被§R摧毁§!和§Y移除§!。;;;;;;;;;;x
-ARTIFACT_DESTRUCTION_CONFIRMATION;你确定你要§R摧毁§§Y[From.GetName]§!？它将永远消失，并从§Y[This.GetBestName]§!的§Y宝库§!中移除！;;;;;;;;;;x
+ARTIFACT_DESTRUCTION_CONFIRMATION;你确定要§R摧毁§!§Y[From.GetName]§!吗？它将永远消失，并从§Y[This.GetBestName]§!的§Y宝库§!中移除！;;;;;;;;;;x
 DUPLICATE_ARTIFACT_DESTROYED_SETUP;多出的宝物被摧毁;;;;;;;;;;x
 DUPLICATE_ARTIFACT_DESTROYED_LOG;$CHARACTER|Y$获得的新$ARTIFACT|Y$被摧毁了，因为他们已经有了一个。;;;;;;;;;;x
 NEW_ARTIFACT_RECEIVED_SETUP;获得了新宝物;;;;;;;;;;x
@@ -1814,7 +1814,7 @@ secret_religious_society_bon_rank_1_male;虔信者;;;;;;;;;;x
 secret_religious_society_bon_rank_2_male;追随者;;;;;;;;;;x
 secret_religious_society_bon_rank_3_male;布道者;;;;;;;;;;x
 secret_religious_society_bon_rank_4_male;先驱者;;;;;;;;;;x
-secret_religious_society_bon_currency;奉献;;;;;;;;;;x
+secret_religious_society_bon_currency;奉献值;;;;;;;;;;x
 secret_religious_society_bon_leader_desc;在大祭司的领导下，各地的秘密组织都努力传播福音，希求更多人加入我们的行列;;;;;;;;;;x
 secret_religious_society_khurmazta_rank_1_female;虔信者;;;;;;;;;;x
 secret_religious_society_khurmazta_rank_2_female;追随者;;;;;;;;;;x
@@ -1824,7 +1824,7 @@ secret_religious_society_khurmazta_rank_1_male;虔信者;;;;;;;;;;x
 secret_religious_society_khurmazta_rank_2_male;追随者;;;;;;;;;;x
 secret_religious_society_khurmazta_rank_3_male;布道者;;;;;;;;;;x
 secret_religious_society_khurmazta_rank_4_male;先驱者;;;;;;;;;;x
-secret_religious_society_khurmazta_currency;奉献;;;;;;;;;;x
+secret_religious_society_khurmazta_currency;奉献值;;;;;;;;;;x
 secret_religious_society_khurmazta_desc;胡天相信宇宙有两种原始的元素——代表善良的光明和代表邪恶的黑暗。在宇宙起源之后，这两者混在一起，一切都被玷污了，除了上帝。人类存在的目的是传播他们仁慈的上帝的智慧，通过行善释放他们自己内心的光明。;;;;;;;;;;x
 secret_religious_society_khurmazta_leader_desc;在大祭司的领导下，各地的秘密组织都努力传播福音，希求更多人加入我们的行列;;;;;;;;;;x
 secret_religious_society_taoist_rank_1_female;虔信者;;;;;;;;;;x
@@ -1835,7 +1835,7 @@ secret_religious_society_taoist_rank_1_male;虔信者;;;;;;;;;;x
 secret_religious_society_taoist_rank_2_male;追随者;;;;;;;;;;x
 secret_religious_society_taoist_rank_3_male;布道者;;;;;;;;;;x
 secret_religious_society_taoist_rank_4_male;先驱者;;;;;;;;;;x
-secret_religious_society_taoist_currency;奉献;;;;;;;;;;x
+secret_religious_society_taoist_currency;奉献值;;;;;;;;;;x
 secret_religious_society_taoist_leader_desc;在祭酒的领导下，各地的秘密组织都努力传播教化，希求更多人加入我们的行列;;;;;;;;;;x
 confucian_bureaucracy_desc;儒家官僚体系依靠一套严格的科举考试来选择他们的统治者。候选人在儒家经典知识方面接受了测试，尽管德行、先前的成就和名门望族的建议也在选择过程中起着重要的作用。统治者往往是非常熟练的管理者。;;;;;;;;;;x
 silk_road_province_desc;只能在§Y丝绸之路§!的特定地区修建§Y丝路贸易站§!，请打开§Y贸易地图§!查看。 ;;;;;;;;;;x
@@ -2334,9 +2334,9 @@ EVT_DESC_JD_60004;在[chinese_guest.GetFullName]离开之后，我发现有个�
 request_to_rank_up_within_society_virtues1;持有者必须有至少一个§Y美德§!\n;;;;;;;;;;x
 request_to_rank_up_within_society_virtues2;持有者必须有至少两个§Y美德§!\n;;;;;;;;;;x
 request_to_rank_up_within_society_virtues3;持有者必须有至少三个§Y美德§!\n;;;;;;;;;;x
-GetSocietyRankUpTooltip2_MOBuddhistJain_Rank1;无 §Y残忍§!属性.\n;;;;;;;;;;x
-GetSocietyRankUpTooltip2_MOBuddhistJain_Rank2;不能为§Y残忍§!或§Y愤世嫉俗§!\n;;;;;;;;;;x
-GetSocietyRankUpTooltip2_MOBuddhistJain_Rank3;没有§Y残忍§!、§Y愤世嫉俗§!或其它§Y恶习§!\;;;;;;;;;;x
+GetSocietyRankUpTooltip2_MOBuddhistJain_Rank1;没有§Y残暴§!。\n;;;;;;;;;;x
+GetSocietyRankUpTooltip2_MOBuddhistJain_Rank2;没有§Y残暴§!或§Y愤世嫉俗§!\n;;;;;;;;;;x
+GetSocietyRankUpTooltip2_MOBuddhistJain_Rank3;没有§Y残暴§!、§Y愤世嫉俗§!或其它§Y恶习§!\n;;;;;;;;;;x
 EVTDESC20272;致[Root.GetTitledFirstName]，\n \n您是最明智的，我今后将继续秘密修行[From.SecretReligion.GetName]。\n\n您的[From.GetTrueReligionHighGod]的追随者，\n [From.GetTitledFirstName];;;;;;;;;;x
 EVTOPTA20272;我知道[From.GetSheHe] 会明白的！;;;;;;;;;;x
 EVTDESC20273;给[Root.GetTitledFirstName],\n\n我不会因为退缩并躲藏在恐惧里，我会锻炼我的[From.Religion.GetName]信仰给全世界看，和那些有强烈的意愿公开加入我的人们。\n\n您的[From.GetTrueReligionHighGod]同主仆人,\n[From.GetTitledFirstName];;;;;;;;;;x

@@ -530,8 +530,8 @@ ABANDON_HERESY_EFFECT;放弃§Y$HERESY$§!的异端信仰。\n;;;;;;;;;;x
 NAMED_CHARACTER_CREATED;$TYPE$ 名叫 §Y$NAME$§! 出现在 §Y$EMPLOYER$§!的宫廷内。\n;;;;;;;;;;x
 INFANT_CREATED;一个叫做§Y$NAME$§!的孩子出现在§Y$EMPLOYER$§!的宫廷。\n;;;;;;;;;;x
 CHARACTER_CREATED;$TYPE$出现在§Y$EMPLOYER$§!的宫廷。\n;;;;;;;;;;x
-HEALTH_EFFECT;§Y$WHO$§! $DIRECTION$ $VALUE$健康。\n;;;;;;;;;;x
-FERTILITY_EFFECT;§Y$WHO$§! $DIRECTION$ $PERC$生育能力。\n;;;;;;;;;;x
+HEALTH_EFFECT;§Y$WHO$§W $DIRECTION$ $VALUE$健康。\n;;;;;;;;;;x
+FERTILITY_EFFECT;§Y$WHO$§W $DIRECTION$ $PERC$生育能力。\n;;;;;;;;;;x
 CHANGECULTUREEFFECT;$WHERE$成为$NAME$。\n;;;;;;;;;;x
 RELIGION_CHANGE;$WHERE$成为$NAME$。\n;;;;;;;;;;x
 ACTIVATE_TITLE_EFFECT;§Y$TITLE$§!现在存在。\n;;;;;;;;;;x
@@ -564,8 +564,8 @@ ALLOW_FREE_REVOKATION_ON;随意撤回头衔\n;;;;;;;;;;x
 ALLOW_FREE_REVOKATION_OFF;不能随意撤回头衔\n;;;;;;;;;;x
 ENEMY_TROOPS;§Y敌人§!: ;;;;;;;;;;x
 INHERIT_EFFECT;§Y$ABDICATOR$§!禅让予§Y$HEIR$§!.\n;;;;;;;;;;x
-FATHER_EFFECT;§Y$FATHER$§!收养§Y$WHO$§!.\n;;;;;;;;;;x
-MOTHER_EFFECT;§Y$MOTHER$§!收养§Y$WHO$§!.\n;;;;;;;;;;x
+FATHER_EFFECT;§Y$FATHER$§!收养§Y$WHO$§W。\n;;;;;;;;;;x
+MOTHER_EFFECT;§Y$MOTHER$§!收养§Y$WHO$§W。\n;;;;;;;;;;x
 DISEASE_INCREASED;患病时间增加了$VAL$月.\n;;;;;;;;;;x
 DISEASE_DECREASED;患病时间减少了$VAL$月.\n;;;;;;;;;;x
 COMBATEND_SURVIVORS;幸存;;;;;;;;;;x
@@ -586,7 +586,7 @@ COMBATVIEW_PHASE_DAMAGE;在 $PHASE$阶段时这一翼每天每名士兵将平均
 COMBATVIEW_PHASE_DESC_SKIRMISH;在射击阶段两军将保持距离\n§Y弓箭手§!,§Y骑射手§!和§Y轻骑兵§!擅长§Y射击阶段§!;;;;;;;;;;x
 COMBATVIEW_PHASE_DESC_MELEE;在肉搏阶段两军面对面厮杀\n§Y重步兵§!,§Y长枪兵§!和§Y骑士§!擅长§Y肉搏阶段§!;;;;;;;;;;x
 COMBATVIEW_PHASE_DESC_PURSUE;在追击阶段败军溃散，胜者追亡逐北\n§Y骑士§!,§Y轻骑兵§!和§Y骑射手§!擅长§Y追击阶段§!;;;;;;;;;;x
-COMBATVIEW_TROOP_DEFENCE;(本阶段的平均防御力:§Y$DEF$§!);;;;;;;;;;x
+COMBATVIEW_TROOP_DEFENCE;(本阶段的平均防御力:§Y$DEF$§W);;;;;;;;;;x
 COMBATVIEW_AVERAGE_MORALE;平均士气： §Y$MORALE$§!（每周§Y+$DELTA$§!）;;;;;;;;;;x
 ENDGAME_DYNA1;一些随机的家族;;;;;;;;;;x
 ENDGAME_STARTOFGAME;游戏开始;;;;;;;;;;x
@@ -4851,7 +4851,7 @@ IMPRISON_INTERACTION_TITLE;逮捕;;;;;;;;;;x
 IMPRISON_INTERACTION_DESC;尝试逮捕[Recipient.GetBestName].\n我们有 §Y$CHANCE$%§! 的机会成功，基于我们的 §Y国家密谋能力§!.\n如果失败，[Recipient.GetSubjectPronoun]可能对我们宣战或者逃往国外.;;;;;;;;;;x
 IMPRISON_INTERACTION_LONG_DESC;把某些人扔进监狱可以让你感觉舒服，但也会使你被视为暴君.;;;;;;;;;;x
 IMPRISON_INTERACTION_0;尝试逮捕 §Y[Recipient.GetBestName]§!.我们有 §Y$CHANCE$%§! 的机会成功，基于我们的 §Y国家密谋能力§!.\n如果失败，[Recipient.GetSubjectPronoun]可能对我们宣战或者逃往国外.;;;;;;;;;;x
-IMPRISON_INTERACTION_2;由于 §Y[Recipient.GetTitledFirstName]§被绝罚，没有人会关心。;;;;;;;;;;x
+IMPRISON_INTERACTION_2;由于 §Y[Recipient.GetTitledFirstName]§W被绝罚，没有人会关心。;;;;;;;;;;x
 IMPRISON_INTERACTION_3;由于 §Y[Recipient.GetTitledFirstName]§! 对你做出了不名誉的行为，没有人会关心.;;;;;;;;;;x
 IMPRISON_INTERACTION_4;由于我们有证据证明 §Y[Recipient.GetTitledFirstName]§! 是一个阴谋的策划者，没有人会反对.;;;;;;;;;;x
 IMPRISON_INTERACTION_5;由于 §Y[Recipient.GetTitledFirstName]§! 来自敌国，没有人会反对.;;;;;;;;;;x
@@ -4866,7 +4866,7 @@ EXECUTE_IMPRISONED_INTERACTION_TITLE;处决囚犯;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_DESC;处决§Y[Recipient.GetBestName]§!。\n这会被视作暴君所为。;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_LONG_DESC;砍掉某个人的头是摆脱他的最有效的方法.不过，这必然会使很多人感到失望，而且不像放逐一样可以没收头衔和财产.;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_0;处决§Y[Recipient.GetBestName]§!。;;;;;;;;;;x
-EXECUTE_IMPRISONED_INTERACTION_2;由于§Y[Recipient.GetTitledFirstName]§被绝罚，没有人会关心。;;;;;;;;;;x
+EXECUTE_IMPRISONED_INTERACTION_2;由于§Y[Recipient.GetTitledFirstName]§W被绝罚，没有人会关心。;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_3;这会激怒§Y[Recipient.TopLiege.PrimaryTitle.GetFullName]§!领主们, 降低他们对你的好感度 §R$OPINION$§!;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_4;由于 §Y[Recipient.GetTitledFirstName]§! 来自敌国，没有人会反对.;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_ACCEPT_SETUP;处决囚犯;;;;;;;;;;x
