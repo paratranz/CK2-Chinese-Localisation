@@ -581,13 +581,13 @@ COMBATEND_REST;其他指挥官: ;;;;;;;;;;x
 COMBATEND_PIETY;§Y[Player.Religion.GetPietyName]战斗中获得的虔诚§!;;;;;;;;;;x
 COMBATEND_WEALTH_STOLEN;§Y围城劫掠的金钱§!;;;;;;;;;;x
 COMBATVIEW_TOTALTROOPS_FLANK;这一翼的剩余部队:;;;;;;;;;;x
-COMBATVIEW_PHASE_NAME;这一翼正在 §Y$PHASE$阶段§!;;;;;;;;;;x
-COMBATVIEW_PHASE_DAMAGE;在 $PHASE$阶段时这一翼每天每名士兵将平均造成§Y$AVERAGE$§!伤害;;;;;;;;;;x
+COMBATVIEW_PHASE_NAME;这一翼正在 §Y$PHASE$阶段§W;;;;;;;;;;x
+COMBATVIEW_PHASE_DAMAGE;在 $PHASE$阶段时这一翼每天每名士兵将平均造成§Y$AVERAGE$§W伤害;;;;;;;;;;x
 COMBATVIEW_PHASE_DESC_SKIRMISH;在射击阶段两军将保持距离\n§Y弓箭手§!,§Y骑射手§!和§Y轻骑兵§!擅长§Y射击阶段§!;;;;;;;;;;x
-COMBATVIEW_PHASE_DESC_MELEE;在肉搏阶段两军面对面厮杀\n§Y重步兵§!,§Y长枪兵§!和§Y骑士§!擅长§Y肉搏阶段§!;;;;;;;;;;x
+COMBATVIEW_PHASE_DESC_MELEE;在肉搏阶段两军面对面厮杀\n§Y重步兵§W,§Y长枪兵§W和§Y骑士§W擅长§Y肉搏阶段§W;;;;;;;;;;x
 COMBATVIEW_PHASE_DESC_PURSUE;在追击阶段败军溃散，胜者追亡逐北\n§Y骑士§!,§Y轻骑兵§!和§Y骑射手§!擅长§Y追击阶段§!;;;;;;;;;;x
 COMBATVIEW_TROOP_DEFENCE;(本阶段的平均防御力:§Y$DEF$§W);;;;;;;;;;x
-COMBATVIEW_AVERAGE_MORALE;平均士气： §Y$MORALE$§!（每周§Y+$DELTA$§!）;;;;;;;;;;x
+COMBATVIEW_AVERAGE_MORALE;平均士气： §Y$MORALE$§W（每周§Y+$DELTA$§W ）;;;;;;;;;;x
 ENDGAME_DYNA1;一些随机的家族;;;;;;;;;;x
 ENDGAME_STARTOFGAME;游戏开始;;;;;;;;;;x
 ENDGAME_TEXT_DEATH;历经$NUMCHARS$代统治者后，你的家族于无后的$ENDCHAR$处终结. ;;;;;;;;;;x
@@ -4780,8 +4780,8 @@ INTERACTION_REQUIRES_INVALID_CHOICE;§Y[ThirdPartyCharacter.GetTitledFirstName]�
 INTERACTION_REQUIRES_NO_ADULT;两个成年人不能订婚;;;;;;;;;;x
 INTERACTION_REQUIRES_NO_ACTIVE_BETROTHAL;§Y[Recipient.GetTitledFirstName]§!不能拥有一个现成的婚约 ;;;;;;;;;;x
 INTERACTION_REQUIRES_WE_CAN_BREAK_BETROTHAL;§Y[Recipient.GetTitledFirstName]§!是§Y[Actor.GetTitledFirstName]§!的孩子或者与其孩子有婚约;;;;;;;;;;x
-INTERACTION_REQUIRES_DIFFERENT_GENDER;§Y$ACTOR_PERSON$§! 不能与 §Y$RECIPIENT_PERSON$§!同性;;;;;;;;;;x
-INTERACTION_REQUIRES_BOTH_ADULT;§Y$ACTOR_PERSON$§!和§Y$RECIPIENT_PERSON$§!都是成年人;;;;;;;;;;x
+INTERACTION_REQUIRES_DIFFERENT_GENDER;§Y$ACTOR_PERSON$§W 不能与 §Y$RECIPIENT_PERSON$§W同性;;;;;;;;;;x
+INTERACTION_REQUIRES_BOTH_ADULT;§Y$ACTOR_PERSON$§!和§Y$RECIPIENT_PERSON$§W都是成年人;;;;;;;;;;x
 INTERACTION_REQUIRES_NO_LEGAL_HEIR;§Y[Actor.GetTitledFirstName]§!没有合法继承人;;;;;;;;;;x
 INTERACTION_REQUIRES_NO_SUCCESSION_MARRIAGE;§Y[Recipient.GetTitledFirstName]§!不是一个母系婚姻的一部分;;;;;;;;;;x
 INTERACTION_REQUIRES_DAUGHTER;§Y[Recipient.GetTitledFirstName]§!是[Actor.GetDynName]的女儿;;;;;;;;;;x
@@ -4814,8 +4814,8 @@ INTERACTION_REQUIRES_ACTOR_HIGHER_TIER;§Y[Recipient.GetTitledFirstName]§!级�
 INTERACTION_REQUIRES_RECIPIENT_HIGHER_TIER;§Y[Actor.GetTitledFirstName]§!级别低于§Y[Recipient.GetTitledFirstName]§!;;;;;;;;;;x
 INTERACTION_REQUIRES_RECIPIENT_HIGHER_TIER_THAN_THIRD;[ThirdPartyCharacter.GetDynName]的等级比[Recipient.GetDynName]低;;;;;;;;;;x
 INTERACTION_REQUIRES_NO_RAISED_UNITS;征召兵已动员时不能宣战;;;;;;;;;;x
-INTERACTION_REQUIRES_RANSOM;§Y[Recipient.GetTitledFirstName]§!能负担得起的赎金§Y$GOLD$§!黄金;;;;;;;;;;x
-INTERACTION_REQUIRES_CB_SELECTED;我们必须选择一个有根据的§Y宣战理由§!来宣战;;;;;;;;;;x
+INTERACTION_REQUIRES_RANSOM;§Y[Recipient.GetTitledFirstName]§!能负担得起的赎金§Y$GOLD$§W黄金;;;;;;;;;;x
+INTERACTION_REQUIRES_CB_SELECTED;我们必须选择一个有根据的§Y宣战理由§W来宣战;;;;;;;;;;x
 INTERACTION_REQUIRES_BOTH_INDEPENDENT;§Y[Recipient.GetTitledFirstName]§!是独立的;;;;;;;;;;x
 INTERACTION_REQUIRES_NO_HOSTAGES;§Y[Recipient.GetTitledFirstName]§!没有你的近亲人质$WHO$;;;;;;;;;;x
 INTERACTION_REQUIRES_SAME_LIEGE;§Y[Recipient.GetTitledFirstName]§!必须是我们的君主或者君主的封臣;;;;;;;;;;x
@@ -4831,7 +4831,7 @@ INTERACTION_CANNOT_DISQUALIFY_HEIR;不能通过给[Recipient.GetObjectPronoun]�
 INTERACTION_CANNOT_BE_GRANTED_TITLE;§Y[Recipient.GetTitledFirstName]§!可以根据目前的继承法赐予土地;;;;;;;;;;x
 INTERACTION_NO_WAR_ON_SPOUSE;不能对你的配偶宣战;;;;;;;;;;x
 INTERACTION_NOT_BETROTHED_TO_CLOSE_RELATIVE;不能与近亲订婚;;;;;;;;;;x
-INTERACTION_REQUIRES_MORE_AUTHORITY;宗教权威必须达到§Y$VALUE$§!;;;;;;;;;;x
+INTERACTION_REQUIRES_MORE_AUTHORITY;宗教权威必须达到§Y$VALUE$§W;;;;;;;;;;x
 INTERACTION_REQUIRES_NO_WARS;§Y[Recipient.GetTitledFirstName]§!必须处于和平中;;;;;;;;;;x
 INTERACTION_REQUIRES_VALID_MINOR_TITLES;我们有能授予§Y[Recipient.GetTitledFirstName]§!的荣誉头衔;;;;;;;;;;x
 INTERACTION_FEMALE_BASTARD_MUST_MARRY_REGULARLY;女性私生子不能招赘;;;;;;;;;;x
@@ -4852,31 +4852,31 @@ IMPRISON_INTERACTION_DESC;尝试逮捕[Recipient.GetBestName].\n我们有 §Y$CH
 IMPRISON_INTERACTION_LONG_DESC;把某些人扔进监狱可以让你感觉舒服，但也会使你被视为暴君.;;;;;;;;;;x
 IMPRISON_INTERACTION_0;尝试逮捕 §Y[Recipient.GetBestName]§!.我们有 §Y$CHANCE$%§! 的机会成功，基于我们的 §Y国家密谋能力§!.\n如果失败，[Recipient.GetSubjectPronoun]可能对我们宣战或者逃往国外.;;;;;;;;;;x
 IMPRISON_INTERACTION_2;由于 §Y[Recipient.GetTitledFirstName]§W被绝罚，没有人会关心。;;;;;;;;;;x
-IMPRISON_INTERACTION_3;由于 §Y[Recipient.GetTitledFirstName]§! 对你做出了不名誉的行为，没有人会关心.;;;;;;;;;;x
-IMPRISON_INTERACTION_4;由于我们有证据证明 §Y[Recipient.GetTitledFirstName]§! 是一个阴谋的策划者，没有人会反对.;;;;;;;;;;x
+IMPRISON_INTERACTION_3;由于 §Y[Recipient.GetTitledFirstName]§W 对你做出了不名誉的行为，没有人会关心.;;;;;;;;;;x
+IMPRISON_INTERACTION_4;由于我们有证据证明 §Y[Recipient.GetTitledFirstName]§W 是一个阴谋的策划者，没有人会反对.;;;;;;;;;;x
 IMPRISON_INTERACTION_5;由于 §Y[Recipient.GetTitledFirstName]§! 来自敌国，没有人会反对.;;;;;;;;;;x
 IMPRISON_INTERACTION_ACCEPT_SETUP;逮捕尝试;;;;;;;;;;x
-IMPRISON_INTERACTION_ACCEPT_LOG;§Y[Actor.GetDynName]§! 试图逮捕 §Y[Recipient.GetDynName]§!;;;;;;;;;;x
+IMPRISON_INTERACTION_ACCEPT_LOG;§Y[Actor.GetDynName]§W 试图逮捕 §Y[Recipient.GetDynName]§W;;;;;;;;;;x
 RELEASE_FROM_PRISON_INTERACTION_TITLE;释放囚犯;;;;;;;;;;x
 RELEASE_FROM_PRISON_INTERACTION_DESC;从监狱里释放 §Y[Recipient.GetBestName]§! ;;;;;;;;;;x
 RELEASE_FROM_PRISON_INTERACTION_LONG_DESC;释放囚犯是光荣的，但请记住，在地牢他们是不会造成任何麻烦的;;;;;;;;;;x
 RELEASE_FROM_PRISON_INTERACTION_ACCEPT_SETUP;释放囚犯;;;;;;;;;;x
-RELEASE_FROM_PRISON_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 决定从监狱里释放 §Y[Recipient.GetBestName]§! ;;;;;;;;;;x
+RELEASE_FROM_PRISON_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W 决定从监狱里释放 §Y[Recipient.GetBestName]§W;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_TITLE;处决囚犯;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_DESC;处决§Y[Recipient.GetBestName]§!。\n这会被视作暴君所为。;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_LONG_DESC;砍掉某个人的头是摆脱他的最有效的方法.不过，这必然会使很多人感到失望，而且不像放逐一样可以没收头衔和财产.;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_0;处决§Y[Recipient.GetBestName]§!。;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_2;由于§Y[Recipient.GetTitledFirstName]§W被绝罚，没有人会关心。;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_3;这会激怒§Y[Recipient.TopLiege.PrimaryTitle.GetFullName]§!领主们, 降低他们对你的好感度 §R$OPINION$§!;;;;;;;;;;x
-EXECUTE_IMPRISONED_INTERACTION_4;由于 §Y[Recipient.GetTitledFirstName]§! 来自敌国，没有人会反对.;;;;;;;;;;x
+EXECUTE_IMPRISONED_INTERACTION_4;由于 §Y[Recipient.GetTitledFirstName]§W 来自敌国，没有人会反对.;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_ACCEPT_SETUP;处决囚犯;;;;;;;;;;x
-EXECUTE_IMPRISONED_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 决定处决 [Recipient.GetDynName];;;;;;;;;;x
+EXECUTE_IMPRISONED_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W 决定处决 [Recipient.GetDynName];;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_TITLE;驱逐囚犯;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_DESC;驱逐 [Recipient.GetBestName] 出境;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_0;驱逐 §Y[Recipient.GetBestName]§! 出境.;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_1;§Y$GOLD$§! 金钱将被没收.;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_ACCEPT_SETUP;驱逐囚犯;;;;;;;;;;x
-EXILE_IMPRISONED_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 决定驱逐 §Y[Recipient.GetDynName]§!;;;;;;;;;;x
+EXILE_IMPRISONED_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W 决定驱逐 §Y[Recipient.GetDynName]§!;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_TITLE;要求改宗;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_DESC;要求[Recipient.GetBestName]皈依[Actor.Religion.GetName]信仰;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_LONG_DESC;你可以要求封臣改宗，但是如果他们拒绝，对你的好感度将下降.;;;;;;;;;;x
@@ -15130,7 +15130,7 @@ cynical_pos;赞赏愤世嫉俗;;;;;;;;;;x
 zealous_neg;鄙视狂热;;;;;;;;;;x
 zealous_pos;赞赏狂热;;;;;;;;;;x
 trusting_pos;相互信任;;;;;;;;;;x
-trusting_neg;厌恶信任;;;;;;;;;;x
+trusting_neg;讨厌轻信;;;;;;;;;;x
 paranoid_neg;鄙视多疑;;;;;;;;;;x
 paranoid_pos;多疑;;;;;;;;;;x
 diligent_pos;赞赏勤奋;;;;;;;;;;x
@@ -18837,7 +18837,7 @@ ambitious;野心勃勃;;;;;;;;;;x
 ambitious_desc;野心勃勃的人工作更勤奋，在各领域都能出类拔萃.不过，他们永不满足的野心意味着他们不会是称职的封臣……;;;;;;;;;;x
 content;安于现状;;;;;;;;;;x
 content_desc;安于现状的人对生命中的一切都感到满意.他们是忠诚的封臣，但不适合承担密谋工作.;;;;;;;;;;x
-trusting;值得信任;;;;;;;;;;x
+trusting;轻信;;;;;;;;;;x
 trusting_desc;值得信任的人不是称职的间谍总管，不过可以当好朋友.;;;;;;;;;;x
 hunchback;驼背;;;;;;;;;;x
 hunchback_desc;此人身体佝偻，不仅饱受封臣蔑视，而且在异性眼中极为丑陋.;;;;;;;;;;x
