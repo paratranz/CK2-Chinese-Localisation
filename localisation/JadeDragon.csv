@@ -220,7 +220,7 @@ EVTOPTA_JD_20006_SUCCESS_TT;今晚的学习大获成功，我敢保证您明天�
 student_of_language_tt;§Y[Root.GetTitledFirstName]§!得到 '§Y语言学习者§!'，§G+1§! 学习。;;;;;;;;;;x
 multilingual_tt;§Y[Root.GetTitledFirstName]§!获得了'§Y外语掌握者§!'，并取得了§G+1§!点学习能力以及§G+1§!点外交能力。;;;;;;;;;;x
 EVTOPTA_JD_20006_FAILURE_TT;你学着学着居然睡着了，结果第二天觐见时迟到了。;;;;;;;;;;x
-EVTOPTB_JD_20006_SUCCESS_TT;你在问候时做了个很好的尝试。;;;;;;;;;;x
+EVTOPTB_JD_20006_SUCCESS_TT;你在觐见时举止得体。;;;;;;;;;;x
 EVTOPTB_JD_20006_FAILURE_TT;你在觐见时有不当之举。;;;;;;;;;;x
 EVTOPTC_JD_20006_TT;你用多种语言滴水不漏地招待了客人。\n;;;;;;;;;;x
 EVTDESC_JD_20007;我要求翻译官不仅要教我正确的发音，还得教我一些语法和成语的意思。这花费了几个小时，但是在我用完美的汉语向[FromFrom.GetHerHim]问好时，[FromFrom.GetJobTitle] [FromFrom.GetDynName][FromFrom.GetFaceDescription]那张脸上露出的欣慰的笑容证明了之前的努力都是值得的。;;;;;;;;;;x
@@ -908,13 +908,13 @@ sapper_desc;这个角色非常熟悉豹韬，专注于如何最好地利用地�
 MODIFIER_DAYS_OF_SUPPLY;补给天数;;;;;;;;;;x
 create_followers_arjuna;创设阿周那军众;;;;;;;;;;x
 create_followers_arjuna_desc;创建阿周那军众，所有[Root.Religion.GetName]的统治者将有权雇佣他们并投入对那些曾伤害我们的宗教的战争！;;;;;;;;;;x
-create_followers_arjuna_tooltip;骑士团§Y阿周那军众§!已经建立.;;;;;;;;;;x
+create_followers_arjuna_tooltip;圣战士§Y阿周那军众§!已经建立.;;;;;;;;;;x
 create_ashokas_chosen;创设无忧王精兵;;;;;;;;;;x
 create_ashokas_chosen_desc;创建无忧王精兵，所有[Root.Religion.GetName]的统治者都将有权雇佣他们并与与那些曾伤害过我们的宗教作战！;;;;;;;;;;x
-create_ashokas_chosen_tooltip;骑士团§Y无忧王精兵§!已经建立.。;;;;;;;;;;x
+create_ashokas_chosen_tooltip;圣战士§Y无忧王精兵§!已经建立.。;;;;;;;;;;x
 create_bulls_rishabha;创设勒舍波神牛军;;;;;;;;;;x
 create_bulls_rishabha_desc;创建勒舍波神牛军，所有[Root.Religion.GetName]的统治者都将有权雇佣他们并与那些曾伤害过我们的宗教作战！;;;;;;;;;;x
-create_bulls_rishabha_tooltip;骑士团§Y勒舍波神牛军§!已经建立.;;;;;;;;;;x
+create_bulls_rishabha_tooltip;圣战士§Y勒舍波神牛军§!已经建立.;;;;;;;;;;x
 EVTDESC_HO_110;虽然[leader_of_arjuna.Religion.GetName]信仰是世界上其中一个最古老的宗教之一，但是如果它不被保卫就不能保持长久。为此，一队骑士团成立了。他们称他们自己为[leader_of_arjuna.PrimaryTitle.GetName]。\n\n在一位名为[leader_of_arjuna.GetFirstName]的无畏战士的带领下，这群骑士誓死守护[leader_of_arjuna.Religion.GetHighGodName]。他们这么做也为了证明自己配得上阿周那神的荣誉。;;;;;;;;;;x
 EVTOPTA_HO_100;赞美[Root.Religion.GetRandomGodName]！他们将带领我们取得胜利！;;;;;;;;;;x
 EVTOPTB_HO_100;我们需要他们捍卫我们的信仰。;;;;;;;;;;x
@@ -1558,9 +1558,9 @@ ASSAULT_FORT_LEVEL_TOO_HIGH;不能攻击要塞等级在$LEVEL|Y$或以上的领�
 COMBATVALUE_MORALE_SIEGE;§Y士气：§! $MORALE$\n每$FREQ|Y$天减少$DELTA|R$;;;;;;;;;;x
 SIEGE_TECH_DIFF;围城科技的差异;;;;;;;;;;x
 assyrian;亚述人;;;;;;;;;;x
-form_st_addai_desc;召集勇士们守护东方亚述教会信仰。;;;;;;;;;;x
+form_st_addai_desc;召集勇士们守护景教信仰。;;;;;;;;;;x
 form_st_addai;成立圣亚戴骑士团;;;;;;;;;;x
-EVTDESC39811;在这个风起云涌的时代，伟大的圣战正在酝酿。[From.GetTitledName] 召集了全国最精锐的勇士，来保卫我们的聂斯托利派信仰。这支全新的军队被命名为圣亚戴骑士团，他们将迎着异教徒的刀剑，为信仰而战。;;;;;;;;;;x
+EVTDESC39811;在这个风起云涌的时代，伟大的圣战正在酝酿。[From.GetTitledName] 召集了全国最精锐的勇士，来保卫我们的景教信仰。这支全新的军队被命名为圣亚戴骑士团，他们将迎着异教徒的刀剑，为信仰而战。;;;;;;;;;;x
 EVTTITLE39811;圣亚戴骑士团;;;;;;;;;;x
 EVT_39811_TT;圣亚戴骑士团成立;;;;;;;;;;x
 manichean_DESC;摩尼教是由所谓的先知摩尼所创立的诺斯底主义（或称灵知派）宗教，他于公元277年被萨珊王朝巴赫拉姆一世处决。他的“光之宗教”综合了基督教、祆教、佛教和灵知派的元素。在游戏中，摩尼教被认为是祆教的异端，教首被称为阎摩，通常定驻于撒马尔罕。;;;;;;;;;;x
@@ -1809,32 +1809,32 @@ pet_otter_desc;这个角色是一只水獭的守护者，水獭保证了国内�
 secret_religious_society_bon_rank_1_female;虔信者;;;;;;;;;;x
 secret_religious_society_bon_rank_2_female;追随者;;;;;;;;;;x
 secret_religious_society_bon_rank_3_female;布道者;;;;;;;;;;x
-secret_religious_society_bon_rank_4_female;先驱;;;;;;;;;;x
+secret_religious_society_bon_rank_4_female;先驱者;;;;;;;;;;x
 secret_religious_society_bon_rank_1_male;虔信者;;;;;;;;;;x
 secret_religious_society_bon_rank_2_male;追随者;;;;;;;;;;x
 secret_religious_society_bon_rank_3_male;布道者;;;;;;;;;;x
-secret_religious_society_bon_rank_4_male;先驱;;;;;;;;;;x
+secret_religious_society_bon_rank_4_male;先驱者;;;;;;;;;;x
 secret_religious_society_bon_currency;奉献;;;;;;;;;;x
 secret_religious_society_bon_leader_desc;在大祭司的领导下，各地的秘密组织都努力传播福音，希求更多人加入我们的行列;;;;;;;;;;x
 secret_religious_society_khurmazta_rank_1_female;虔信者;;;;;;;;;;x
 secret_religious_society_khurmazta_rank_2_female;追随者;;;;;;;;;;x
 secret_religious_society_khurmazta_rank_3_female;布道者;;;;;;;;;;x
-secret_religious_society_khurmazta_rank_4_female;先驱;;;;;;;;;;x
+secret_religious_society_khurmazta_rank_4_female;先驱者;;;;;;;;;;x
 secret_religious_society_khurmazta_rank_1_male;虔信者;;;;;;;;;;x
 secret_religious_society_khurmazta_rank_2_male;追随者;;;;;;;;;;x
 secret_religious_society_khurmazta_rank_3_male;布道者;;;;;;;;;;x
-secret_religious_society_khurmazta_rank_4_male;先驱;;;;;;;;;;x
+secret_religious_society_khurmazta_rank_4_male;先驱者;;;;;;;;;;x
 secret_religious_society_khurmazta_currency;奉献;;;;;;;;;;x
 secret_religious_society_khurmazta_desc;胡天相信宇宙有两种原始的元素——代表善良的光明和代表邪恶的黑暗。在宇宙起源之后，这两者混在一起，一切都被玷污了，除了上帝。人类存在的目的是传播他们仁慈的上帝的智慧，通过行善释放他们自己内心的光明。;;;;;;;;;;x
 secret_religious_society_khurmazta_leader_desc;在大祭司的领导下，各地的秘密组织都努力传播福音，希求更多人加入我们的行列;;;;;;;;;;x
 secret_religious_society_taoist_rank_1_female;虔信者;;;;;;;;;;x
 secret_religious_society_taoist_rank_2_female;追随者;;;;;;;;;;x
 secret_religious_society_taoist_rank_3_female;布道者;;;;;;;;;;x
-secret_religious_society_taoist_rank_4_female;先驱;;;;;;;;;;x
+secret_religious_society_taoist_rank_4_female;先驱者;;;;;;;;;;x
 secret_religious_society_taoist_rank_1_male;虔信者;;;;;;;;;;x
 secret_religious_society_taoist_rank_2_male;追随者;;;;;;;;;;x
 secret_religious_society_taoist_rank_3_male;布道者;;;;;;;;;;x
-secret_religious_society_taoist_rank_4_male;先驱;;;;;;;;;;x
+secret_religious_society_taoist_rank_4_male;先驱者;;;;;;;;;;x
 secret_religious_society_taoist_currency;奉献;;;;;;;;;;x
 secret_religious_society_taoist_leader_desc;在祭酒的领导下，各地的秘密组织都努力传播教化，希求更多人加入我们的行列;;;;;;;;;;x
 confucian_bureaucracy_desc;儒家官僚体系依靠一套严格的科举考试来选择他们的统治者。候选人在儒家经典知识方面接受了测试，尽管德行、先前的成就和名门望族的建议也在选择过程中起着重要的作用。统治者往往是非常熟练的管理者。;;;;;;;;;;x
