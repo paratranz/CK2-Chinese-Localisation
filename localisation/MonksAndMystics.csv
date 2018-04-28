@@ -1305,8 +1305,8 @@ NUM_ARTIFACTS;拥有至少$VAL|Y$的宝物（当前：$CUR$）;;;;;;;;;;x
 NUM_ARTIFACTS_LESS;拥有少于$VAL|Y$ 的宝物（当前：$CUR$）;;;;;;;;;;x
 ALL_ARTIFACTS;所有宝物;;;;;;;;;;x
 ADD_ARTIFACT_TO;将$ARTIFACT|Y$加入$CHAR|Y$的宝库\n;;;;;;;;;;x
-ARTIFACT_QUALITY;$WHAT|Y$的质量比$COMP|Y$更$VAL|Y$;;;;;;;;;;x
-ARTIFACT_QUALITY_NOT;$WHAT|Y$的质量§RNOT§! 比$COMP|Y$更$VAL|Y$ ;;;;;;;;;;x
+ARTIFACT_QUALITY;$WHAT|Y$的品质比$COMP|Y$更$VAL|Y$;;;;;;;;;;x
+ARTIFACT_QUALITY_NOT;$WHAT|Y$的品质§RNOT§! 比$COMP|Y$更$VAL|Y$ ;;;;;;;;;;x
 ARTIFACT_HAS_FLAG;$WHAT|Y$拥有旗标"$FLAG|Y$";;;;;;;;;;x
 ARTIFACT_HAS_FLAG_NOT;$WHAT|Y$没有旗标"$FLAG|Y$";;;;;;;;;;x
 IS_ACTIVE;激活;;;;;;;;;;x
@@ -2785,7 +2785,7 @@ nick_the_goldsmith;金器匠;;;;;;;;;;x
 crown_of_majesty;庄严王冠;;;;;;;;;;x
 crown_of_majesty_desc;王冠主体由黄金制成，外围镶嵌着四种名贵的宝石-祖母绿、红宝石、蓝宝石和钻石，都有鹌鹑蛋大小。;;;;;;;;;;x
 emerald_scepter;翡翠权杖;;;;;;;;;;x
-emerald_scepter_desc;这柄权杖因它上面装饰的翡翠而得名。这些翡翠的数量和质量都不同寻常，它们来源已经不可考，而关于它们的故事像星星一样多。;;;;;;;;;;x
+emerald_scepter_desc;这柄权杖因它上面装饰的翡翠而得名。这些翡翠的数量和品质都不同寻常，它们来源已经不可考，而关于它们的故事像星星一样多。;;;;;;;;;;x
 sword_of_heroes;英雄之剑;;;;;;;;;;x
 sword_of_heroes_desc;这件装饰性武器令人印象深刻。刀片镀上了金，剑柄装饰着来自异域的宝石，如红宝石和蓝宝石，还有描绘了传说中的战士的玛瑙浮雕。;;;;;;;;;;x
 crown_of_pearls;珍珠王冠;;;;;;;;;;x
@@ -2890,19 +2890,19 @@ EVTOPTE_MNM_9118;我会用狼牙棒击碎我的敌人！;;;;;;;;;;x
 EVTOPTE_MNM_9118_TT;钉锤除了提供§Y军事§!，§Y个人实战技能§!和§Y每月威望§!外，还会在指挥§Y重步兵§!时提供加成。\n;;;;;;;;;;x
 EVTOPTF_MNM_9118;一把弓和我肯定很配。;;;;;;;;;;x
 EVTOPTF_MNM_9118_TT;长弓除了提供§Y军事§!，§Y个人实战技能§!和§Y每月威望§!外，还会在指挥§Y骑兵§!时提供较多加成。\n;;;;;;;;;;x
-EVTDESC_MNM_9120;“[From.GetWeaponsmithWeapon]，我明白了，一个很好的选择，我的[Root.GetTitle]”[From.GetMasterMistressCap] [From.GetFirstName]叫助手取来三把 [From.GetWeaponsmithWeapon]抱在[From.GetHerHis]怀里，继续说：“我这里有三个不同质量等级的样品，一个人必须确定自己需要什么，愿意付出多少。不论如何，它们都质量很好。”;;;;;;;;;;x
+EVTDESC_MNM_9120;“[From.GetWeaponsmithWeapon]，我明白了，一个很好的选择，我的[Root.GetTitle]”[From.GetMasterMistressCap] [From.GetFirstName]叫助手取来三把 [From.GetWeaponsmithWeapon]抱在[From.GetHerHis]怀里，继续说：“我这里有三个不同品质等级的样品，一个人必须确定自己需要什么，愿意付出多少。不论如何，它们都品质很好。”;;;;;;;;;;x
 EVTOPTA_MNM_9120;除非状况绝佳，我不会参与任何战斗。;;;;;;;;;;x
-EVTOPTA_MNM_9120_TT_SWORDSCIMITAR;订购一件质量极佳的[From.GetWeaponsmithWeapon]，这件武器将会提供§G+0.75§! §Y每月威望§!，§G+3§! §Y军事§! a和 §G+2§! §Y个人实战技能§!。\n;;;;;;;;;;x
-EVTOPTA_MNM_9120_TT_LANCE;订购一件质量极佳的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+10%§! 指挥§Y骑兵§!加成，§G+0.75§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+2§! §Y个人实战技能§!。\n;;;;;;;;;;x
-EVTOPTA_MNM_9120_TT_AXE;订购一件质量极佳的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+10%§! §Y轻步兵§!指挥加成，§G+0.75§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+2§! §Y个人实战技能§!。\n;;;;;;;;;;x
-EVTOPTA_MNM_9120_TT_MACE;订购一件质量极佳的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+10%§!  §Y重步兵§!指挥加成，§G+0.75§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+2§! §Y个人实战技能§!。\n;;;;;;;;;;x
-EVTOPTA_MNM_9120_TT_BOW;订购一件质量极佳的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+15%§! 指挥§Y骑兵§!加成，§G+1§! §Y每月威望§! 和 §G+2§! §Y个人实战技能§!。\n;;;;;;;;;;x
+EVTOPTA_MNM_9120_TT_SWORDSCIMITAR;订购一件品质极佳的[From.GetWeaponsmithWeapon]，这件武器将会提供§G+0.75§! §Y每月威望§!，§G+3§! §Y军事§! a和 §G+2§! §Y个人实战技能§!。\n;;;;;;;;;;x
+EVTOPTA_MNM_9120_TT_LANCE;订购一件品质极佳的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+10%§! 指挥§Y骑兵§!加成，§G+0.75§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+2§! §Y个人实战技能§!。\n;;;;;;;;;;x
+EVTOPTA_MNM_9120_TT_AXE;订购一件品质极佳的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+10%§! §Y轻步兵§!指挥加成，§G+0.75§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+2§! §Y个人实战技能§!。\n;;;;;;;;;;x
+EVTOPTA_MNM_9120_TT_MACE;订购一件品质极佳的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+10%§!  §Y重步兵§!指挥加成，§G+0.75§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+2§! §Y个人实战技能§!。\n;;;;;;;;;;x
+EVTOPTA_MNM_9120_TT_BOW;订购一件品质极佳的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+15%§! 指挥§Y骑兵§!加成，§G+1§! §Y每月威望§! 和 §G+2§! §Y个人实战技能§!。\n;;;;;;;;;;x
 EVTOPTB_MNM_9120;我用不着什么装饰，来点儿有用的吧。;;;;;;;;;;x
-EVTOPTB_MNM_9120_TT_SWORDSCIMITAR;订购一件质量上乘的[From.GetWeaponsmithWeapon]，这件武器将会提供§G+0.5§! §Y每月威望§!，§G+2§! §Y军事§! 和 §G+1§! §Y个人实战技能!。\n;;;;;;;;;;x
-EVTOPTB_MNM_9120_TT_LANCE;订购一件质量不错的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+5%§! 指挥§Y骑兵§!加成， §G+0.5§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+1§! §Y个人实战技能§!。\n;;;;;;;;;;x
-EVTOPTB_MNM_9120_TT_AXE;订购一件质量不错的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+5%§! §Y轻步兵§! 指挥加成，§G+0.5§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+1§! §Y个人实战技能§!。\n;;;;;;;;;;x
-EVTOPTB_MNM_9120_TT_MACE;订购一件质量不错的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+5%§! §Y重步兵§!指挥加成，§G+0.5§! §Y每月威望§!, §G+1§! §Y军事§! 和 §G+1§! §Y个人实战技能§!。\n;;;;;;;;;;x
-EVTOPTB_MNM_9120_TT_BOW;订购一件质量不错的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+7.5%§! 指挥§Y骑兵§!加成，§G+0.75§! §Y每月威望§! 和 §G+1§! §Y个人实战技能§!。\n;;;;;;;;;;x
+EVTOPTB_MNM_9120_TT_SWORDSCIMITAR;订购一件品质上乘的[From.GetWeaponsmithWeapon]，这件武器将会提供§G+0.5§! §Y每月威望§!，§G+2§! §Y军事§! 和 §G+1§! §Y个人实战技能!。\n;;;;;;;;;;x
+EVTOPTB_MNM_9120_TT_LANCE;订购一件品质不错的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+5%§! 指挥§Y骑兵§!加成， §G+0.5§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+1§! §Y个人实战技能§!。\n;;;;;;;;;;x
+EVTOPTB_MNM_9120_TT_AXE;订购一件品质不错的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+5%§! §Y轻步兵§! 指挥加成，§G+0.5§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+1§! §Y个人实战技能§!。\n;;;;;;;;;;x
+EVTOPTB_MNM_9120_TT_MACE;订购一件品质不错的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+5%§! §Y重步兵§!指挥加成，§G+0.5§! §Y每月威望§!, §G+1§! §Y军事§! 和 §G+1§! §Y个人实战技能§!。\n;;;;;;;;;;x
+EVTOPTB_MNM_9120_TT_BOW;订购一件品质不错的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+7.5%§! 指挥§Y骑兵§!加成，§G+0.75§! §Y每月威望§! 和 §G+1§! §Y个人实战技能§!。\n;;;;;;;;;;x
 EVTOPTC_MNM_9120;我相信你无论做什么都足够好，[From.GetMasterMistressCap]。;;;;;;;;;;x
 EVTOPTC_MNM_9120_TT_SWORDSCIMITAR;订购一件最廉价的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+0.25§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+1§! §Y个人实战技能§!。\n;;;;;;;;;;x
 EVTOPTC_MNM_9120_TT_BOW;订购一件最廉价的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+0.5§! §Y每月威望§! 和 §G+1§! §Y个人实战技能§!。\n;;;;;;;;;;x
@@ -3510,7 +3510,7 @@ sword_tier_3_vengeance_desc;剑用最好的钢材锻造，它被命名为复仇�
 sword_tier_3_fury;狂怒;;;;;;;;;;x
 sword_tier_3_fury_desc;狂怒是一把巨大而华丽的剑。它一定会给挥舞它的人带来胜利，无论是在决斗抑或战场中。;;;;;;;;;;x
 scimitar_tier_1;弯刀;;;;;;;;;;x
-scimitar_tier_1_desc;一把比普通长刀质量稍高的弯刀。;;;;;;;;;;x
+scimitar_tier_1_desc;一把比普通长刀品质稍高的弯刀。;;;;;;;;;;x
 scimitar_tier_2;精工弯刀;;;;;;;;;;x
 scimitar_tier_2_desc;一把反复锻铸的剑刃，可以抵抗大多数武器。;;;;;;;;;;x
 scimitar_tier_3_golden;黄金弯刀;;;;;;;;;;x
@@ -3554,7 +3554,7 @@ bow_tier_1_desc;由一块上好木材制成的弓。;;;;;;;;;;x
 bow_tier_2;复合弓;;;;;;;;;;x
 bow_tier_2_desc;复合弓是用木芯构成，用角筋粘在一起制成的弓。这种工艺使得较小的弓具有更大的力量。;;;;;;;;;;x
 bow_tier_3_silent_wind;静风;;;;;;;;;;x
-bow_tier_3_silent_wind_desc;一张质量最高的复合弓，被称做静风，能够无声的让敌人毙命。;;;;;;;;;;x
+bow_tier_3_silent_wind_desc;一张品质最高的复合弓，被称做静风，能够无声的让敌人毙命。;;;;;;;;;;x
 bow_tier_3_lightning;闪电;;;;;;;;;;x
 bow_tier_3_lightning_desc;以闪电为名，这张弓能以令人惊讶的力量射出箭矢，在瞬间杀死对手。;;;;;;;;;;x
 bow_tier_3_eagle;雄鹰;;;;;;;;;;x
@@ -5107,9 +5107,9 @@ hermetic_glasses_desc;这些“眼镜”由两片玻璃透镜合组而成，镶�
 giant_crossbow;巨型十字弩;;;;;;;;;;x
 giant_crossbow_desc;在城堡的城墙上，竖起了一个巨型十字弩。这种可怕的武器提供了一种无情而有效的防御手段。;;;;;;;;;;x
 blast_furnace;先进鼓风机;;;;;;;;;;x
-blast_furnace_desc;该郡建有一座高炉，它可以提供大量质量上成的铁。;;;;;;;;;;x
+blast_furnace_desc;该郡建有一座高炉，它可以提供大量品质上成的铁。;;;;;;;;;;x
 great_mill;先进的风力机;;;;;;;;;;x
-great_mill_desc;这个郡有一个很棒的风车。它的构造超前于时代，可以以优异的质量研磨大量的谷物。;;;;;;;;;;x
+great_mill_desc;这个郡有一个很棒的风车。它的构造超前于时代，可以以优异的品质研磨大量的谷物。;;;;;;;;;;x
 EVTDESC_MNM_1460;虽然我当然是一位出色的学者，并且以我的名字发现了许多优秀的发现，但我并不能与志趣相投的同行合作时太过骄傲。我已经打算邀请一些来自[Root.Society.GetName]的同行参加一个知识聚会。;;;;;;;;;;x
 EVTOPTA_MNM_1460;时候到了。我会邀请一些我认可的同僚。;;;;;;;;;;x
 EVTOPTA_MNM_1460_TT;你开始准备在 §Y[Root.Capital.Capital.GetName]§ 的知识集会。;;;;;;;;;;x
@@ -5699,9 +5699,9 @@ EVTOPTA_MNM_1630_TT;风险与机遇并存，你既没有时间也没有资源供
 EVTOPTB_MNM_1630;我会请求身边的人帮助。;;;;;;;;;;x
 EVTOPTB_MNM_1630_TT;在其他聪明人的帮助下，你可能会有更高的成功几率！;;;;;;;;;;x
 EVTOPTC_MNM_1630;要是我抄了其他著作，一定没有人会发现吧？;;;;;;;;;;x
-EVTOPTC_MNM_1630_TT;其他更聪慧的头脑得出的研究结果也许有助于提高你的论文质量。;;;;;;;;;;x
+EVTOPTC_MNM_1630_TT;其他更聪慧的头脑得出的研究结果也许有助于提高你的论文品质。;;;;;;;;;;x
 EVTOPTD_MNM_1630;我将付出空前的努力！;;;;;;;;;;x
-EVTOPTD_MNM_1630_TT;你将花费额外的时间和资源来撰写这篇论文，即使这会损害你领地的治理。当然，这将会产生高质量的论文！;;;;;;;;;;x
+EVTOPTD_MNM_1630_TT;你将花费额外的时间和资源来撰写这篇论文，即使这会损害你领地的治理。当然，这将会产生高品质的论文！;;;;;;;;;;x
 theory_paper_heavy_investment;专注于论文;;;;;;;;;;x
 theory_paper_heavy_investment_desc;这个角色专注于撰写论文，因此没有足够的时间来进行实际治理。;;;;;;;;;;x
 EVTDESCA_MNM_1640_RITUALS;我写完了！我写出了关于法术仪式的[Root.GetTheoryPaperQuality]的论文！文章探讨了召唤神灵的新型高回报的方法，这种方法会带来新的神通术尝试。接下来的工作就是把它交给其他赫尔墨斯同僚评审了。;;;;;;;;;;x

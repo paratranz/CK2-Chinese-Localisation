@@ -57,7 +57,7 @@ EVTOPTA_ZE_2131;[FromFrom.GetSubjectPronounCap] 将会得到良好的教育。;;
 GIVE_ARTIFACT_INTERACTION_TITLE;赐予宝物;;;;;;;;;;x
 GIVE_ARTIFACT_INTERACTION_DESC;将你国库里的一件宝物赠给§Y[Recipient.GetBestName]§!;;;;;;;;;;x
 GIVE_ARTIFACT_INTERACTION_LONG_DESC;用一件精美的宝物作为礼物显然是不失礼节的好选择;;;;;;;;;;x
-GIVE_ARTIFACT_INTERACTION_0;选择一件宝物作为礼物——对方感激的程度会随着宝物质量和对于收礼者的意义而变化。;;;;;;;;;;x
+GIVE_ARTIFACT_INTERACTION_0;选择一件宝物作为礼物——对方感激的程度会随着宝物品质和对于收礼者的意义而变化。;;;;;;;;;;x
 GIVE_ARTIFACT_INTERACTION_1;将$ARTIFACT|Y$作为礼物赠与§Y[Recipient.GetBestName]§!，增加§G+$OPINION$§!好感。;;;;;;;;;;x
 GIVE_ARTIFACT_INTERACTION_2;给予§Y[Recipient.GetBestName]§!$ARTIFACT|Y$作为礼物。§R但这并不能更进一步提高[Recipient.GetPossPronoun]对你的好感。§!;;;;;;;;;;x
 GIVE_ARTIFACT_INTERACTION_ACCEPT_SETUP;接受宝物赠礼;;;;;;;;;;x
@@ -559,8 +559,8 @@ EVTOPTB_MNM_5110;我将为此任务使用元素的组合。;;;;;;;;;;x
 EVTOPTC_MNM_5110;我要用神圣的符号来描绘我的整个城堡！这是唯一的方法!;;;;;;;;;;x
 EVTOPTD_MNM_5110;这就是胡猜乱想;;;;;;;;;;x
 must_have_ingredients_tt;拥有至少两个§Y原料§!;;;;;;;;;;x
-EVTDESC_MNM_5115_self;在这种状态下，我几乎不能对药水的质量有所苛求，然而翻遍抽屉我仍然不知道应该使用哪种配料。我尝试[GetSelectedIngredient_1] [GetSelectedIngredient_1_property]吧;;;;;;;;;;x
-EVTDESC_MNM_5115_other;不管我的药水质量如何，[potion_target.GetTitledFirstName]都会服用。但是在仔细查阅了配方后，我不确定该用哪种原料…不晓得我的[potion_target.GetRootRelation]会对[GetSelectedIngredient_1] [GetSelectedIngredient_1_property]怎么看。;;;;;;;;;;x
+EVTDESC_MNM_5115_self;在这种状态下，我几乎不能对药水的品质有所苛求，然而翻遍抽屉我仍然不知道应该使用哪种配料。我尝试[GetSelectedIngredient_1] [GetSelectedIngredient_1_property]吧;;;;;;;;;;x
+EVTDESC_MNM_5115_other;不管我的药水品质如何，[potion_target.GetTitledFirstName]都会服用。但是在仔细查阅了配方后，我不确定该用哪种原料…不晓得我的[potion_target.GetRootRelation]会对[GetSelectedIngredient_1] [GetSelectedIngredient_1_property]怎么看。;;;;;;;;;;x
 EVTOPTA_MNM_5115_herb;一些[GetSelectedIngredient_1]的碎屑感觉是正确的。;;;;;;;;;;x
 EVTOPTA_MNM_5115_animal_part;一些粗糙的地面[GetSelectedIngredient_1]感觉是对的。;;;;;;;;;;x
 EVTOPTA_MNM_5115_powder;几片 [GetSelectedIngredient_1] 感觉对了。;;;;;;;;;;x
