@@ -29,7 +29,7 @@ AIREASON_DARE_NOT_REFUSE;不敢拒绝;;;;;;;;;;x
 AIREASON_CONFLICTING_INTERESTS;利益冲突;;;;;;;;;;x
 AIREASON_SAME_REALM;相同势力;;;;;;;;;;x
 AIREASON_GREED;贪婪;;;;;;;;;;x
-AIREASON_LAND_IS_GOOD;寸土不让;;;;;;;;;;x
+AIREASON_LAND_IS_GOOD;寸土必争;;;;;;;;;;x
 AIREASON_FEAR;害怕 §Y[GetTitledFirstName]§!;;;;;;;;;;x
 AIREASON_GOLD_IS_GOOD;君子爱财;;;;;;;;;;x
 AIREASON_CONSANGUINITY;同一家族;;;;;;;;;;x
@@ -45,19 +45,19 @@ AIREASON_WE_LIKE_ENEMY_BETTER;我们更喜欢你的敌人;;;;;;;;;;x
 AIREASON_WE_LIKE_YOU_BETTER;我们喜欢你多于你的敌人;;;;;;;;;;x
 AIREASON_BASE_RELUCTANCE;基础不情愿;;;;;;;;;;x
 AIREASON_SMALL_TIER_DIFF;地位上的微小差异;;;;;;;;;;x
-AIREASON_NOT_NEIGHBOR;距离多远;;;;;;;;;;x
+AIREASON_NOT_NEIGHBOR;距离太远;;;;;;;;;;x
 AIREASON_INFERTILE;未必能生育;;;;;;;;;;x
-alert_casus_belli_will_expire_instant;§Y临时宣战借口针对:§!;;;;;;;;;;x
-alert_casus_belli_will_expire_delayed;$LIST$.;;;;;;;;;;x
+alert_casus_belli_will_expire_instant;§Y临时宣战借口针对：§!;;;;;;;;;;x
+alert_casus_belli_will_expire_delayed;$LIST$。;;;;;;;;;;x
 alert_build_province_improvement_instant;§Y你能建设郡里的提升设施！§!;;;;;;;;;;x
 alert_build_province_improvement_delayed;$LIST$;;;;;;;;;;x
 alert_troops_in_foreign_territory_instant;§Y你在外国领地有军队。§!;;;;;;;;;;x
 alert_troops_in_foreign_territory_delayed;在 $LIST$。;;;;;;;;;;x
-alert_revoltrisk_in_provinces_instant;§Y叛乱几率§!;;;;;;;;;;x
-alert_revoltrisk_in_provinces_delayed;下列郡有叛乱的危险：\n$LIST$;;;;;;;;;;x
+alert_revoltrisk_in_provinces_instant;§Y可能的叛乱§!;;;;;;;;;;x
+alert_revoltrisk_in_provinces_delayed;下列省份有叛乱的危险：\n$LIST$;;;;;;;;;;x
 alert_noheir_delayed;当前人物死亡将结束游戏！;;;;;;;;;;x
-alert_court_not_filled_instant;§Y宫廷成员空缺§!;;;;;;;;;;x
-alert_court_not_filled_delayed;以下职务需要有人担任：\n$LIST$\n§G点击进入宫廷查看§!;;;;;;;;;;x
+alert_court_not_filled_instant;§Y内阁成员空缺§!;;;;;;;;;;x
+alert_court_not_filled_delayed;以下职务需要有人担任：\n$LIST$\n§G点击进入宫廷界面§!;;;;;;;;;;x
 alert_lose_title_on_succ_instant;§Y继承时将失去头衔§!;;;;;;;;;;x
 alert_lose_title_on_succ_delayed;以下头衔将在继承时失去：\n$LIST$;;;;;;;;;;x
 alert_should_nominate_heir_instant;§Y提名继承人§!;;;;;;;;;;x
@@ -76,7 +76,7 @@ alert_adult_sons_notitle_instant;§Y有儿子未获得土地§!;;;;;;;;;;x
 alert_adult_sons_notitle_delayed;以下成年儿子没有任何土地：\n$LIST$;;;;;;;;;;x
 alert_betrothed_should_marry_instant;§Y订婚者可以结婚§!;;;;;;;;;;x
 alert_betrothed_should_marry_delayed;以下订婚者可以结婚：\n$LIST$;;;;;;;;;;x
-alert_can_imprison_instant;§Y拘禁逮捕§!;;;;;;;;;;x
+alert_can_imprison_instant;§Y合理逮捕§!;;;;;;;;;;x
 alert_can_imprison_delayed;你能拘禁以下人士，而不会得到恶名：\n$LIST$;;;;;;;;;;x
 alert_titles_may_pass_from_realm_instant;§Y封臣继承危机§!;;;;;;;;;;x
 alert_titles_may_pass_from_realm_delayed;有封臣面临继承危机。\n一旦死亡，他们的头衔会被外国继承：\n$LIST$;;;;;;;;;;x
@@ -133,7 +133,7 @@ city_barracks_2;扩大的民兵军营;;;;;;;;;;x
 city_stable;民兵马厩;;;;;;;;;;x
 ct_marketplace_1;市集;;;;;;;;;;x
 ct_marketplace_2;同业行会;;;;;;;;;;x
-ct_marketplace_3;收费所;;;;;;;;;;x
+ct_marketplace_3;收费站;;;;;;;;;;x
 ct_marketplace_4;法院;;;;;;;;;;x
 ct_marketplace_5;货币检验所;;;;;;;;;;x
 ct_marketplace_6;大型市场;;;;;;;;;;x
@@ -150,7 +150,7 @@ tp_town_4;堂区;;;;;;;;;;x
 tp_town_5;铎区;;;;;;;;;;x
 tp_town_6;教区;;;;;;;;;;x
 GIVEN_GOLD;$NAME$ 收到 $GOLD$¤;;;;;;;;;;x
-CB_NAME_CLAIM;宣称[Title.GetBaseName];;;;;;;;;;x
+CB_NAME_CLAIM;宣称 [Title.GetBaseName];;;;;;;;;;x
 WAR_NAME_CLAIM;$ORDER$$FIRST_ADJ$夺取$OTHER_TITLE$的战争;;;;;;;;;;x
 CB_NAME_SENIORITY_SUCCESSION_LAW;年长者继承法;;;;;;;;;;x
 WAR_NAME_SENIORITY_SUCCESSION_LAW;$ORDER$$SECOND_ADJ$年长者继承法内战;;;;;;;;;;x
@@ -158,17 +158,17 @@ CB_NAME_PRIMOGENITURE_SUCCESSION_LAW;长子继承法;;;;;;;;;;x
 WAR_NAME_PRIOGENITURE_SUCCESSION_LAW;$ORDER$$SECOND_ADJ$长子继承法内战;;;;;;;;;;x
 CB_NAME_FEUDAL_ELECTIVE_SUCCESSION_LAW;选举继承法;;;;;;;;;;x
 WAR_NAME_FEUDAL_ELECTIVE_SUCCESSION_LAW;$ORDER$$SECOND_ADJ$选举继承法内战;;;;;;;;;;x
-CB_NAME_RELIGIOUS;[Title.GetBaseName]圣战;;;;;;;;;;x
+CB_NAME_RELIGIOUS;[Title.GetBaseName] 圣战;;;;;;;;;;x
 WAR_NAME_RELIGIOUS;$ORDER$$FIRST_ADJ$对$OTHER_TITLE$圣战;;;;;;;;;;x
-CB_NAME_CRUSADE;[Title.GetBaseName]$HOLY_WAR$;;;;;;;;;;x
+CB_NAME_CRUSADE;[Title.GetBaseName] $HOLY_WAR$;;;;;;;;;;x
 CB_NAME_EXCOMMUNICATED_RULER;被绝罚的统治者;;;;;;;;;;x
 WAR_NAME_EXCOMMUNICATED_RULER;$ORDER$$FIRST_ADJ$——$SECOND_ADJ$的绝罚战争;;;;;;;;;;x
 CB_NAME_INDEPENDENCE;独立;;;;;;;;;;x
-WAR_NAME_INDEPENDENCE;$ORDER$$FIRST_ADJ$独立战争;;;;;;;;;;x
+WAR_NAME_INDEPENDENCE;$ORDER$$FIRST_ADJ$ 独立战争;;;;;;;;;;x
 CB_NAME_OVERTHROWRULER;推翻统治;;;;;;;;;;x
 WAR_NAME_OVERTHROWRULER;$ORDER$推翻暴君$DEFENDER$的战争;;;;;;;;;;x
 CB_NAME_SUCCESSION;继承争议;;;;;;;;;;x
-WAR_NAME_SUCCESSION;$ORDER$$SECOND_ADJ$继承危机;;;;;;;;;;x
+WAR_NAME_SUCCESSION;$ORDER$$SECOND_ADJ$ 继承危机;;;;;;;;;;x
 ON_CB_ADD_DESC;§Y当我们发动战争：§W\n;;;;;;;;;;x
 ON_CB_SUCCESS_DESC;§Y如果我们赢得战争：§W\n;;;;;;;;;;x
 ON_CB_FAIL_DESC;§Y如果我们无条件和平：§W\n;;;;;;;;;;x
@@ -183,13 +183,13 @@ claim_on_liege_desc;§Y$CLAIMANT$§!可以用这个宣战理由夺取§Y$TITLE$�
 other_claim_on_liege_desc;§Y$PRESSER$§!可以用这个宣战理由帮§Y$CLAIMANT$§!夺取§Y$TITLE$§!;;;;;;;;;;x
 invasion_desc;§Y$CLAIMANT$§!有权利入侵§Y$TITLE$§!。如果成功，可以夺取这个头衔下辖的所有领地。;;;;;;;;;;x
 excommunicated_ruler_desc;§Y$TARGET$§!已被绝罚，这是个很难得的战争理由！;;;;;;;;;;x
-bid_for_independence_desc;§Y$CLAIMANT$§!可以试图从§Y$TARGET$§!的通知下独立;;;;;;;;;;x
+bid_for_independence_desc;§Y$CLAIMANT$§!可以试图从§Y$TARGET$§!的统治下独立;;;;;;;;;;x
 overthrow_ruler_desc;§Y$TARGET$§!未能成功拘禁§Y$CLAIMANT$§!，引发了一场武装冲突;;;;;;;;;;x
-dejure_county_claim_desc;这个 §Y$TITLE$§!是§Y$CLAIMANT$§!的法理封臣，有足够理由发动战争。;;;;;;;;;;x
+dejure_county_claim_desc;这个§Y$TITLE$§!是§Y$CLAIMANT$§!的法理封臣，有足够理由发动战争。;;;;;;;;;;x
 change_seniority_succession_law_desc;§Y$CLAIMANT$§!可以发动战争以将§Y$TITLE$§!的继承法改为年长者继承！;;;;;;;;;;x
 change_primogeniture_succession_law_desc;§Y$CLAIMANT$§!可以发动战争以将§Y$TITLE$§!的继承法改为长子继承！;;;;;;;;;;x
 change_feudal_elective_succession_law_desc;§Y$CLAIMANT$§!可以发动战争以将§Y$TITLE$§!的继承法改为选举继承！;;;;;;;;;;x
-crusade_desc;§Y$CLAIMANT$§!可以用这个宣战理由夺取异教徒§Y$TARGET$§!在§Y$TITLE$§!的所有领地。神的旨意！;;;;;;;;;;x
+crusade_desc;§Y$CLAIMANT$§!可以用这个宣战理由夺取异教徒§Y$TARGET$§!在§Y$TITLE$§!法理内的所有领地。;;;;;;;;;;x
 change_gavelkind_succession_law_desc;§Y$CLAIMANT$§!可以发动战争以将§Y$TITLE$§!的继承法改为均分继承！;;;;;;;;;;x
 CB_NAME_GAVELKIND_SUCCESSION_LAW;均分继承法;;;;;;;;;;x
 WAR_NAME_GAVELKIND_SUCCESSION_LAW;$ORDER$$SECOND_ADJ$均分继承法内战;;;;;;;;;;x
@@ -220,20 +220,20 @@ no_tactic;无战术;;;;;;;;;;x
 generic_skirmish_tactic;普通射击战术;;;;;;;;;;x
 harass_tactic;骚扰战术;;;;;;;;;;x
 volley_tactic;齐射战术;;;;;;;;;;x
-swarm_volley_tactic;密集射击战术;;;;;;;;;;x
-swarm_tactic;密集袭击战术;;;;;;;;;;x
+swarm_volley_tactic;蜂群齐射战术;;;;;;;;;;x
+swarm_tactic;蜂群战术;;;;;;;;;;x
 shieldwall_tactic;盾墙战术;;;;;;;;;;x
-fient_tactic;详攻;;;;;;;;;;x
-prepare_tactic;准备;;;;;;;;;;x
-charge_of_opportunity_tactic;冲锋;;;;;;;;;;x
+fient_tactic;佯攻战术;;;;;;;;;;x
+prepare_tactic;准备战术;;;;;;;;;;x
+charge_of_opportunity_tactic;时机冲锋;;;;;;;;;;x
 charge_tactic;冲锋战术;;;;;;;;;;x
-wait_tactic;等待;;;;;;;;;;x
+wait_tactic;等待战术;;;;;;;;;;x
 advance_tactic;推进战术;;;;;;;;;;x
-awesome_advance_tactic;突破战术;;;;;;;;;;x
+awesome_advance_tactic;急速推进;;;;;;;;;;x
 stand_fast_tactic;固守战术;;;;;;;;;;x
 slow_advance_tactic;缓慢推进;;;;;;;;;;x
-barrage_tactic;集中火力战术;;;;;;;;;;x
-raid_tactic;突然袭击;;;;;;;;;;x
+barrage_tactic;弹幕战术;;;;;;;;;;x
+raid_tactic;突袭战术;;;;;;;;;;x
 pursue_tactic;追击战术;;;;;;;;;;x
 CHAR_BORN_AND_DEATH_DATE;[GetBornAndDeathDate];;;;;;;;;;x
 CHAR_INSTANT_PLAYER_OPINION;[GetInstantPlayerOpinion];;;;;;;;;;x
@@ -600,7 +600,7 @@ MONTHS_OF_RULE;统治了$MONTHS$个月;;;;;;;;;;x
 YEARS_OF_RULE;统治了$YEARS$年;;;;;;;;;;x
 FAILED_TO; 没能;;;;;;;;;;x
 DYN1_DESC;最终分数：$SCORE$.你$FAILED$超过卡佩家族.卡佩家族由秃头查理的重臣强者罗伯特所创建，最终在1066年获得法兰西王位.尽管在1322年时直系后裔断绝，卡佩家族的分支依然在1337年时拥有法兰西，葡萄牙，那不勒斯，匈牙利和纳瓦拉的王位.其他分支还拥有布列塔尼，勃艮第，波旁，普罗旺斯和阿凯亚公爵头衔.一个更远的分支是君士坦丁堡拉丁帝国的皇帝.这真是中世纪欧洲史最伟大的家族..;;;;;;;;;;x
-DYN2_DESC;最终分数：$SCORE$.你$FAILED$超过哈布斯堡家族.一开始，在1066年，哈布斯堡家族前景十分暗淡.比起11世纪日耳曼诸多呼风唤雨的庞大家族，哈布斯堡只是一个瑞士的小伯爵，在帝国内部无足轻重.但是一连串精心策划的政治联姻使家族领地不断扩大，最终在13世纪末14世纪初的大混乱中被选为神圣罗马帝国皇帝，获得了帝国的统治权.尽管皇位并不长久，哈布斯堡还是借机攫取了奥地利公爵头衔.依靠奥地利，哈布斯堡家族在中欧的统治持续到了1918年.;;;;;;;;;;x
+DYN2_DESC;最终分数：$SCORE$。你$FAILED$超过哈布斯堡家族。一开始，在1066年，哈布斯堡家族前景十分暗淡。比起11世纪日耳曼诸多呼风唤雨的庞大家族，哈布斯堡只是一个瑞士的小伯爵，在帝国内部无足轻重。但是一连串精心策划的政治联姻使家族领地不断扩大，最终在13世纪末14世纪初的大混乱中被选为神圣罗马帝国皇帝，获得了帝国的统治权。尽管皇位并不长久，哈布斯堡还是借机攫取了奥地利公爵头衔。依靠奥地利，哈布斯堡家族在中欧的统治持续到了1918年。;;;;;;;;;;x
 DYN3_DESC;最终分数：$SCORE$.你$FAILED$超过留里克家族.9世纪时，来自瑞典的维京人留里克在罗斯（今天的俄罗斯和乌克兰）建立了一个国家.在继承人中分割领地的政策导致了国家的分裂和不同支系之间的争斗不休.这使他们在13世纪时过于分裂，无法抵挡住蒙古入侵.成吉思汗之孙拔都逐个征服了这些公国，强迫他们向蒙古人纳贡.不过留里克家族还是保存下来了，等待着重新崛起的时机……...;;;;;;;;;;x
 DYN4_DESC;最终分数：$SCORE$.你$FAILED$超过伊夫雷亚家族.伊夫雷亚家族有着杰出的祖先，但在1066年，尽管他们取得了从意大利国王到勃艮第伯爵的头衔，仍然在走下坡路.看起来这个家族已经过气了，不过一次幸运的联姻将卡斯蒂利亚和莱昂国王的头衔拱手送上，使伊夫雷亚家族重新成为欧洲舞台上的关键人物之一.;;;;;;;;;;x
 DYN5_DESC;最终分数：$SCORE$.你$FAILED$超过皮亚斯特家族.皮亚斯特家族的创建者在成为波兰国王之前据说是个轮匠.尽管波兰王国四分五裂，皮亚斯特家族还是在这一时期稳居王位，并逐渐将波兰变得统一而强盛.家族的其他成员包括神圣罗马帝国的西里西亚公爵.在1337年，有史以来最伟大的国王卡齐米日三世统治着波兰，正在秣马厉兵准备反击蒙古汗国.;;;;;;;;;;x
@@ -2609,7 +2609,7 @@ EVTDESC36020;我们的围猎团队在森林里碰见了一头熊.对于到底让
 EVTOPTA36020;现在就去除掉它!;;;;;;;;;;x
 EVTOPTB36020;把猎熊矛给我!;;;;;;;;;;x
 EVTOPTC36020;你们谁想去谁去，不要找我来.;;;;;;;;;;x
-EVTDESC36025;今天早晨猎犬表现的异常警觉，肯定有什么不寻常的东西在等待着我们.;;;;;;;;;;x
+EVTDESC36025;今天早晨猎犬表现的异常警觉，肯定有什么不寻常的东西在等待着我们。;;;;;;;;;;x
 EVTOPTA36025;我们还愣着干什么现在就出发;;;;;;;;;;x
 EVTOPTB36025;我的马出了点问题.;;;;;;;;;;x
 EVTOPTC36025;我不管那是什么东西，我们会捕获它！;;;;;;;;;;x
@@ -4231,7 +4231,7 @@ EVTDESC70006;比武结束了，我在前几轮就被淘汰了.就我个人来说
 EVTOPTA70006;我知道他们在背后嘲笑我.;;;;;;;;;;x
 EVTDESC70007;比武结束了，尽管我没赢，但是我汲取了很多教训.;;;;;;;;;;x
 EVTOPTA70007;真是值得.;;;;;;;;;;x
-EVTDESC70008;比武结束了，我的战绩很糟糕，现在人们在怀疑我的能力.;;;;;;;;;;x
+EVTDESC70008;比武结束了，我的战绩很糟糕，现在人们在怀疑我的能力。;;;;;;;;;;x
 EVTOPTA70008;哦，上帝;;;;;;;;;;x
 EVTDESC70009;我觉得我的盔甲很坚固，我的技术是一流的，但是很不幸，我感觉到冰冷的利刃切入了我的肌肉.我的眼皮变得沉重，视线变得模糊.;;;;;;;;;;x
 EVTOPTA70009;然后我死了;;;;;;;;;;x
@@ -4756,12 +4756,12 @@ HINT_UNIT_VIEW_TEXT_3;军队在无法补给他们的省份上会受到损耗，�
 HINT_COMBAT_VIEW_TITLE;战斗界面 ;;;;;;;;;;x
 HINT_COMBAT_VIEW_TEXT_1;在战斗中，军队的三个部分面对面交锋——左翼面对右翼，中央对抗中央，右翼面对左翼. ;;;;;;;;;;x
 HINT_COMBAT_VIEW_TEXT_2;战斗在遭遇战阶段开始，这时弓箭手和马弓手是主要的兵种.最终，军队将互相接近并进入肉搏阶段，这时重步兵和骑士将闪耀光芒.当一支军队撤退时，他的对手将进入追击阶段，试图消灭尽可能多的敌人，这时，轻骑兵将是最好的. ;;;;;;;;;;x
-HINT_COMBAT_VIEW_TEXT_3;在每个战斗阶段，各个部分的指挥官会根据他们的军事能力选定一个战术，这将很大程度上决定他们军队战斗的效率. ;;;;;;;;;;x
+HINT_COMBAT_VIEW_TEXT_3;在每个战斗阶段，各个部分的指挥官会根据他们的军事能力选定一个战术，这将很大程度上决定他们军队战斗的效率。;;;;;;;;;;x
 HINT_SIEGE_VIEW_TITLE;围城界面 ;;;;;;;;;;x
 HINT_SIEGE_VIEW_TEXT_1;一次围城的长度主要取决于男爵领的堡垒等级，守军的数量和围城者的数量. ;;;;;;;;;;x
 HINT_SIEGE_VIEW_TEXT_2;如果围城者的数量比防守者少，围城将不是很有效. ;;;;;;;;;;x
 HINT_SIEGE_VIEW_TEXT_3;当防守者的士气为零（或者攻击者离去或被赶走），围城就会结束. ;;;;;;;;;;x
-HINT_CONFIRM_DISABLE_TITLE;关闭提示;;;;;;;;;;x
+HINT_CONFIRM_DISABLE_TITLE;确定要关闭提示？;;;;;;;;;;x
 HINT_CONFIRM_DISABALE_DESC;你确定要永远关闭提示吗\n(你可以在设置面板里重新打开提示);;;;;;;;;;x
 INTERACTION_MESSAGE_ACTOR_PORTRAIT;来自[Actor.GetBestName]的消息;;;;;;;;;;x
 INTERACTION_REQUIRES_RECIPIENT_IN_COURT;§Y[Recipient.GetTitledFirstName]§!现在§Y[Actor.GetTitledFirstName]的§!宫廷里;;;;;;;;;;x
@@ -17758,7 +17758,7 @@ TECH_SIEGE_EQUIPMENT_DESC;制造更大更好的攻城器械.;;;;;;;;;;x
 TECH_CASTLES;军事工程;;;;;;;;;;x
 TECH_CASTLES_DESC;为城堡建设更大更好的城墙;;;;;;;;;;x
 TECH_TACTICS;战术;;;;;;;;;;x
-TECH_TACTICS_DESC;更好的战术可以减少伤亡.;;;;;;;;;;x
+TECH_TACTICS_DESC;更好的战术可以减少伤亡。;;;;;;;;;;x
 TECH_CASTLE_TAXES;农业;;;;;;;;;;x
 TECH_CASTLE_TAXES_DESC;改进的农业技术可以为城堡带来更多收入;;;;;;;;;;x
 TECH_CITY_TAXES;贸易;;;;;;;;;;x
@@ -18694,8 +18694,8 @@ BISHOP_LOYALTY_DESC;天主教的地区主教们并没有义务向他们的世俗
 OPINION_OF_POPE;对教宗的好感;;;;;;;;;;x
 OPINION_OF_SEC_LIEGE;对领主的好感;;;;;;;;;;x
 HINTS_CLOSE;关闭;;;;;;;;;;x
-HINTS_DISABLE_ALL_HINTS;不再显示所有提示;;;;;;;;;;x
-HINTS_DISABLE_HINT;不再显示这个提示;;;;;;;;;;x
+HINTS_DISABLE_ALL_HINTS;关闭所有提示;;;;;;;;;;x
+HINTS_DISABLE_HINT;关闭提示;;;;;;;;;;x
 NO_HEAD;没有领导;;;;;;;;;;x
 MIL_NUM_ARMIES;$NUM$军队;;;;;;;;;;x
 MIL_NUM_NAVIES;$NUM$舰队;;;;;;;;;;x
@@ -18714,7 +18714,7 @@ LAG_DECREASE_SPEED;$PLAYER$ 处于延迟，减速（赶快重开吧你们）;;;;
 CLICK_TO_APPOINT_LEADER;点击任命将领;;;;;;;;;;x
 LEADER_APP_NEEDS_LAW;§Y$TITLE$§!的贵族有权利拒绝更换将领.\n(王权太低);;;;;;;;;;x
 WRONG_GOVERNMENT_TYPE;§R辖有错误的领地类型!§!;;;;;;;;;;x
-COMBAT_TACTICS_AVAILABLE;这一翼可以用下列战术:;;;;;;;;;;x
+COMBAT_TACTICS_AVAILABLE;这一翼可以用下列战术：;;;;;;;;;;x
 COMBAT_DEFENDERS;防御方;;;;;;;;;;x
 COMBAT_ATTACKERS;进攻方;;;;;;;;;;x
 PLOT_PLOT_POWER;阴谋力量;;;;;;;;;;x
@@ -18887,7 +18887,7 @@ misguided_warrior_desc;鲁莽的战士在战争和军事技艺方面受过训练
 tough_soldier;坚强的战士;;;;;;;;;;x
 tough_soldier_desc;坚强的战士在战场上令人生畏，不过指挥官资质则非常平庸。;;;;;;;;;;x
 skilled_tactician;优秀战术家;;;;;;;;;;x
-skilled_tactician_desc;优秀战术家是战争艺术的行家，既是勇敢的战士，又是可靠的将领.;;;;;;;;;;x
+skilled_tactician_desc;优秀战术家是战争艺术的行家，既是勇敢的战士，又是可靠的将领。;;;;;;;;;;x
 brilliant_strategist;天才战略家;;;;;;;;;;x
 brilliant_strategist_desc;天才战略家有着超乎寻常的军事天分，是绝佳的军事总管和军事导师的候选人.;;;;;;;;;;x
 detached_priest;清高的牧师;;;;;;;;;;x
@@ -19641,9 +19641,9 @@ tut_5c_4;雇佣兵是由你聘请并直接控制的军队.单击雇佣兵选项�
 tut_5c_5;圣战士;;;;;;;;;;x
 tut_5c_6;你现在还无法雇佣他们.当你能使用时，他们的存在类似于这样：;;;;;;;;;;x
 tut_5c_8;侧翼;;;;;;;;;;x
-tut_5c_9;军队划分为三部分，每部分都拥有将领和自己的战术.当一侧赢了，它可以加入到其它两个之一，以加强他们.请点击继续.;;;;;;;;;;x
+tut_5c_9;军队划分为三部分，每部分都拥有将领和自己的战术。当一侧赢了，它可以加入到其它两个之一，以加强他们。请点击继续。;;;;;;;;;;x
 tut_5c_10;策略;;;;;;;;;;x
-tut_5c_11;每个翼都有一个指挥官，会选择使用的战术.决定这一点时，他会考虑军队的构成，敌人的军队种类，并作出改变.他做的好不好取决于他的军事技能.点击下一步以结束本节.;;;;;;;;;;x
+tut_5c_11;每个翼都有一个指挥官，会选择使用的战术。决定这一点时，他会考虑军队的构成，敌人的军队种类，并作出改变。他做的好不好取决于他的军事技能。点击下一步以结束本节。;;;;;;;;;;x
 tut_6a_1;战争 - 基础;;;;;;;;;;x
 tut_6a_2;在游戏中，战争是外交的延续.这是一个用以增长领土和保护领土的重要工具.请点击继续.;;;;;;;;;;x
 tut_6a_3;宣称所有权和开战理由;;;;;;;;;;x
@@ -19769,7 +19769,7 @@ SELECT_UNIT;选择单位;;;;;;;;;;x
 SELECT_UNIT_DRO;取消其它选中的单位;;;;;;;;;;x
 LOAD_CAPACITY;运输能力;;;;;;;;;;x
 LOAD_CAPACITY_DESC;这支舰队的军队运输能力;;;;;;;;;;x
-COMBATVALUE_TACTIC;战术;;;;;;;;;;x
+COMBATVALUE_TACTIC;作战战术;;;;;;;;;;x
 LIGHT_INFANTRY;轻步兵;;;;;;;;;;x
 LIGHT_INFANTRY_MORALE;轻步兵士气;;;;;;;;;;x
 LIGHT_INFANTRY_DISCIPLINE;轻步兵训练度;;;;;;;;;;x
