@@ -133,7 +133,7 @@ MELEE_ATTACK;近战伤害;;;;;;;;;;x
 MELEE_DEFENCE;近战防御;;;;;;;;;;x
 PURSUIT_ATTACK;追击伤害;;;;;;;;;;x
 PURSUIT_DEFENCE;追击防御;;;;;;;;;;x
-PHASE_COMBAT_MODIFIER;$PHASE$ 伤害修正: $PERC$;;;;;;;;;;x
+PHASE_COMBAT_MODIFIER;$PHASE$ 伤害修正：$PERC$;;;;;;;;;;x
 ANY_NEIGHBOR_INDEPENDENT_RULER_STARTS;任何相邻的独立统治者;;;;;;;;;;x
 DEMESNE_SIZE_PERCENTAGE;已有领地大小占领地上限的§Y$COMPARISON$ $VALUE$%§! ;;;;;;;;;;x
 TRIBUTARY_RELATIONSHIP;§Y$SUZERAIN$§!的$TYPE|Y$;;;;;;;;;;x
@@ -2813,7 +2813,7 @@ EVT_OPTA_JD_60400;天朝上国应该属于[Root.GetOnlyDynastyName]!家族;;;;;;
 EVT_OPTB_JD_60400;[FromFrom.GetSheHe]能够驯服东方巨龙吗？;;;;;;;;;;x
 EVTDESC_JD_60401;[From.GetBestName]的军队取得完全胜利！[FromFrom.GetTitledFirstName]被粉碎，中原战事平息，旧朝的[offmap_china.PrevRuler.GetEmperorEmpress]， [offmap_china.PrevRuler.GetOnlyDynastyName][offmap_china.PrevRuler.GetBirthName]已经退位，并且[offmap_china.PrevRuler.GetHerHis]传位给[offmap_china.Ruler.GetLongChineseEmperorName]继承大统！\n [From.GetOnlyDynastyName]家成功地入侵东土，君临天下。\n[offmap_china.Ruler.GetEmperorEmpress]万岁万岁万万岁！;;;;;;;;;;x
 EVT_OPT_JD_60401;因此新的天子已经践祚。;;;;;;;;;;x
-EVTDESC_JD_60402;[From.GetBestName]的军队被击败了！在跨越[offmap_china.GetShortName]核心地区的战场上，他们被[offmap_china.Ruler.GetEmperorEmpress]的部队在一场接一场的交战中击溃。\n现在西面军在[FromFrom.GetTitledFirstName]的领导下，在战场上取得了胜利，同时结束了这场愚蠢的入侵，彻底瓦解了[From.PrimaryTitle.GetName]。;;;;;;;;;;x
+EVTDESC_JD_60402;[From.GetBestName]的军队被击败了！在跨越[offmap_china.GetShortName]核心地区的战场上，他们被[offmap_china.Ruler.GetEmperorEmpress]的部队在一场接一场的交战中击溃。\n现在征西军在[FromFrom.GetTitledFirstName]的领导下，在战场上取得了胜利，同时结束了这场愚蠢的入侵，彻底瓦解了[From.PrimaryTitle.GetName]。;;;;;;;;;;x
 EVT_OPT_JD_60402;于是[offmap_china.Ruler.GetOnlyDynastyName]朝继续当皇帝;;;;;;;;;;x
 EVTDESC_JD_60403;来自东方的小道消息声称，近来[offmap_china.Ruler.GetLongChineseEmperorName]龙颜大悦，因为[invasion_of_china_claimant.GetBestName]，[From.GetBestName]的[invasion_of_china_claimant.GetRootRelation]，已经死了。\n[invasion_of_china_claimant.GetHerHisCap]之死动摇了[From.Culture.GetName]军队的军心，现在他们已经撤回[From.PrimaryTitle.GetName]本地。\n正如[invasion_of_china_claimant.GetBestName]一样，对[offmap_china.GetShortName]的入侵现在已经偃旗息鼓了。;;;;;;;;;;x
 EVT_OPTA_JD_60403;也许是 [offmap_china.Ruler.GetEmperorEmpress] 暗中派出刺客？;;;;;;;;;;x
@@ -4767,7 +4767,7 @@ CANNOT_MARRY_DEAD;已经死去的人物不能结婚;;;;;;;;;;x
 CANNOT_MARRY_IMPRISON;处于囚禁状态时不能结婚;;;;;;;;;;x
 CANNOT_MARRY_HIDING;处于藏匿状态时不能结婚;;;;;;;;;;x
 CANNOT_MARRY_LANDLESS;没有土地的统治者不能结婚;;;;;;;;;;x
-CANNOT_MARRY_HOLY_ORDER;圣职者不能结婚。;;;;;;;;;;x
+CANNOT_MARRY_HOLY_ORDER;骑士团成员不能结婚。;;;;;;;;;;x
 CANNOT_MARRY_TRAITS;拥有不能结婚的特质;;;;;;;;;;x
 CANNOT_MARRY_PRIEST;神职人员不能结婚。;;;;;;;;;;x
 RD_FAIL_READY;§R准备就绪时无法使用人物设计器 §!;;;;;;;;;;x
