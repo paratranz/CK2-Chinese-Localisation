@@ -1,7 +1,7 @@
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
 create_aragon_desc;在这些土地建立阿拉贡王国，我将开启一个新纪元。;;;;;;;;;;x
 create_portugal_desc;在这些土地建立葡萄牙王国，我将开启一个新纪元。;;;;;;;;;;x
-create_castille_desc;在这些土地建立卡斯蒂利亚王国，我将开启一个新纪元。;;;;;;;;;;x
+create_castille_desc;在这些土地建立卡斯提尔王国，我将开启一个新纪元。;;;;;;;;;;x
 EVTDESC_39617;致[GetFromRootCompliment] [Root.GetTitledFirstName]：\n\n我们的领主，[GetRootFromCompliment] [From.GetTitledNameWithNick]，经过[From.GetHerHis]伟大智慧思考后，决定皈依[From.Religion.GetName]信仰。作为[From.GetHerHis] [From.GetLordSpiritualName]，我建议你也考虑皈依该信仰。\n\n愿受[From.Religion.GetRandomGodName]驱策，\n[convert_lord_spiritual.GetBestName]，[From.PrimaryTitle.GetName]之[From.GetLordSpiritualName];;;;;;;;;;x
 EVTOPTA_39617;正合我意，我会皈依这一新的信仰！;;;;;;;;;;x
 EVTOPTB_39617;不，[Root.Religion.GetRandomGodName]始终与我同在！;;;;;;;;;;x
@@ -17,7 +17,7 @@ DISBAND_SUBUNIT;解散军团;;;;;;;;;;x
 CONFIRM_DISBAND_TITLE_SUBUNIT;你想要解散这支军团吗？;;;;;;;;;;x
 create_aragon;创建阿拉贡;;;;;;;;;;x
 create_portugal;创建葡萄牙;;;;;;;;;;x
-create_castille;创建卡斯蒂利亚;;;;;;;;;;x
+create_castille;创建卡斯提尔;;;;;;;;;;x
 EVTTOOLTIP72035;[This.GetTitledFirstName]已知道与你作对的下场。;;;;;;;;;;x
 MERCHANT_REPUBLICS_CANNOT_MOVE_CAPITAL;商业共和国不允许迁都，除非是从没有港口的省份迁往有港口的省份;;;;;;;;;;x
 PRESTIGE_LAW_PASSED_SETUP;法律制定;;;;;;;;;;x
@@ -81,7 +81,7 @@ CHRONICLE_ADOPTED_FEUDALISM;[From.GetDynName]在[From.GetHerHis]境内放弃了�
 b_poskam;泽普;;;;;;;;;;x
 b_yopurga;岳普湖;;;;;;;;;;x
 b_atush;阿图什;;;;;;;;;;x
-b_akto;阿克土;;;;;;;;;;x
+b_akto;阿克托;;;;;;;;;;x
 b_ulugqat;乌恰;;;;;;;;;;x
 b_uqturpan;乌什;;;;;;;;;;x
 b_aral;阿拉尔;;;;;;;;;;x
@@ -107,7 +107,7 @@ b_kumtag;库姆塔格;;;;;;;;;;x
 b_yingpan;营盘;;;;;;;;;;x
 b_yiwu;伊吾;;;;;;;;;;x
 b_dahe;大河;;;;;;;;;;x
-b_piqan;蒲昌;;;;;;;;;;x
+b_piqan;皮羌;;;;;;;;;;x
 b_yanghai;洋海;;;;;;;;;;x
 b_toyuq;吐峪沟;;;;;;;;;;x
 b_nanhu_tarim;南湖;;;;;;;;;;x
@@ -149,7 +149,7 @@ STAT_MANPOWER_MENU;§Y人力§!;;;;;;;;;;x
 TECHNOLOGY;科技;;;;;;;;;;x
 LAW;法律;;;;;;;;;;x
 MILITARY;军事;;;;;;;;;;x
-INTRIGUE;阴谋;;;;;;;;;;x
+INTRIGUE;密谋;;;;;;;;;;x
 DEMESNE_INTERFACE_LABEL;§Y直辖领§!;;;;;;;;;;x
 TRADE_INTERFACE_LABEL;§Y贸易§!;;;;;;;;;;x
 FORTS_INTERFACE_LABEL;§Y堡垒§!;;;;;;;;;;x
@@ -209,7 +209,7 @@ b_ertis;额尔齐斯;;;;;;;;;;x
 b_koktobe;科克托别;;;;;;;;;;x
 b_abaza;阿巴扎;;;;;;;;;;x
 b_tashtyp;塔什特普;;;;;;;;;;x
-b_terkhiin_tsagaan;查干淖;;;;;;;;;;x
+b_terkhiin_tsagaan;特尔金查干;;;;;;;;;;x
 b_ogii;额吉;;;;;;;;;;x
 b_tsetserleg;车车尔勒格;;;;;;;;;;x
 b_uliastai;乌里雅苏台;;;;;;;;;;x
@@ -218,8 +218,8 @@ b_erdenet;额尔登特;;;;;;;;;;x
 b_luut;都特;;;;;;;;;;x
 b_noin_ula;诺颜乌拉;;;;;;;;;;x
 b_zuunmod;宗莫德;;;;;;;;;;x
-b_khamag;蒙兀;;;;;;;;;;x
-b_lun;伦;;;;;;;;;;x
+b_khamag;哈木黑;;;;;;;;;;x
+b_lun;隆;;;;;;;;;;x
 b_bayan;巴彦;;;;;;;;;;x
 b_darkhan;达尔汗;;;;;;;;;;x
 b_bargujin;巴尔古津;;;;;;;;;;x
@@ -228,13 +228,13 @@ b_kyakhta;恰克图;;;;;;;;;;x
 b_uda;乌达;;;;;;;;;;x
 b_galuuta;嘎卢特;;;;;;;;;;x
 b_barkul;巴里坤;;;;;;;;;;x
-b_khoid;科伊;;;;;;;;;;x
+b_khoid;辉特;;;;;;;;;;x
 b_erdene;额尔德尼;;;;;;;;;;x
 b_gurvantes;古尔班特斯;;;;;;;;;;x
 b_khereid;克烈;;;;;;;;;;x
 b_zubu;阻卜;;;;;;;;;;x
 b_nuuruudyn_hondij;浅海子;;;;;;;;;;x
-b_arguut;塔拉格特;;;;;;;;;;x
+b_arguut;额勒济特;;;;;;;;;;x
 b_khuld;呼勒德;;;;;;;;;;x
 b_naiman;乃蛮;;;;;;;;;;x
 b_khovd;科布多;;;;;;;;;;x
@@ -249,7 +249,7 @@ CONFIRM_BUILD_EXTRA_PRESTIGE_OR_PIETY_HOLDING_DESC;你确定想建立一座$TYPE
 EVTDESC_HL_10501B;[eloper.GetFirstName]与臭名昭著的雇佣兵[From.GetFirstName]私奔了。;;;;;;;;;;x
 PRESTIGE_LAW_PASSED_LOG;§Y$RULER$§!已经在§Y$TITLE$§!制订了§Y$LAW$§!法。;;;;;;;;;;x
 EVTTITLE_HL_1031;狼之[From.GetSonDaughter]？;;;;;;;;;;x
-EVTNAME62923;卡斯蒂利亚之[From.PrimaryTitle.GetTier];;;;;;;;;;x
+EVTNAME62923;卡斯提尔之[From.PrimaryTitle.GetTier];;;;;;;;;;x
 EVTNAME62925;葡萄牙之[From.PrimaryTitle.GetTier];;;;;;;;;;x
 EVTNAME62927;阿拉贡之[From.PrimaryTitle.GetTier];;;;;;;;;;x
 CONTAINS_UNAVAILABLE_DECISION_UNLOCKS;解锁尚未对你角色开放的决议。;;;;;;;;;;x

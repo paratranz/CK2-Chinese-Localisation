@@ -150,7 +150,7 @@ EVTDESC_ADV_3_A;致尊敬的[Root.GetTitledFirstName]，\n[Root.GetLordLady]，�
 EVTDESC_ADV_3_B;致尊贵的[Root.GetTitledFirstName]，\n[Root.GetLordLady]，您繁荣兴旺的领地彰显了您作为 [Root.GetTitle]的出众能力。我向您提出一项将臻至你我之间长久和平的请求：让我以您的名义管理[selling_province.GetName]省份，从此再也不会有人敢于染指这片土地了。\n\n 此致，\n [From.GetTitledName];;;;;;;;;;x
 EVTOPTA_ADV_3;[selling_province.GetName]确实是一块不错的领地。付出合适的价钱，你就可以拥有它。;;;;;;;;;;x
 EVTOPTA_ADV_3_TT;以 §G[selling_province.price.GetValue]§!¤ 的价格将你的领地提供给 §Y[selling_province.GetName]§! 的冒险家 §Y[From.GetTitledFirstName]§! 。如果[From.GetSheHe]接受，[From.GetSheHe]将成为你的附属，你将在10年内免受劫掠.\n;;;;;;;;;;x
-EVTOPTB_ADV_3_TT;将你的封臣§Y[selling_province.Holder.GetTitledFirstName]§!统治的省份§Y[selling_province.GetName]§!作价§G[selling_province.price.GetValue]§!¤卖给冒险家§Y[From.GetTitledFirstName]§! 。如果[From.GetSheHe]接受了这一请求，[From.GetSheHe] 将成为你的封臣而你将在十年内免于冒险活动的威胁。\n\n然而，你的其他封臣对此将感到不快，事件将持续发酵。:\n;;;;;;;;;;x
+EVTOPTB_ADV_3_TT;将你的封臣§Y[selling_province.Holder.GetTitledFirstName]§!统治的省份§Y[selling_province.GetName]§!以§G[selling_province.price.GetValue]§!¤的价格卖给冒险家§Y[From.GetTitledFirstName]§! 。如果[From.GetSheHe]接受了这一请求，[From.GetSheHe] 将成为你的封臣而你将在十年内免于冒险活动的威胁。\n\n然而，你的其他封臣对此将感到不快，事件将持续发酵。:\n;;;;;;;;;;x
 EVTOPTC_ADV_3;[marriage_child.GetFirstName]会教你如何成为一个出色的[marriage_child.GetHusbandWife]。;;;;;;;;;;x
 EVTOPTC_ADV_3_TT;通过联姻，你与§Y[From.GetTitledFirstName]§!签订了互不侵犯条约。;;;;;;;;;;x
 EVTOPTD_ADV_3;[GetRootFromInsult]！话说得再好听，也还不是在威胁我！;;;;;;;;;;x
@@ -447,7 +447,7 @@ chu_china;大楚;;;;;;;;;;x
 yue_china;大越;;;;;;;;;;x
 yin_china;大殷;;;;;;;;;;x
 shun_china;大顺;;;;;;;;;;x
-china_china;中国;;;;;;;;;;x
+china_china;中华;;;;;;;;;;x
 china_china_full;中华帝国;;;;;;;;;;x
 EVTDESC_JD_10011;我的[adventurous_spirit.GetRootRelation] [adventurous_spirit.GetFirstName]提议前往[the_protector_general.Offmap.GetFullName]，执行一项给[Root.PrimaryTitle.GetFullName]增添荣耀的任务。“求求您，我的[Root.GetLordLady]，“[adventurous_spirit.GetSheHe]说，“让一位谦卑的仆人加深您与[the_protector_general.Offmap.Ruler.GetShortChineseEmperorName]的关系！“;;;;;;;;;;x
 EVTOPTA_JD_10011;好主意！带着我的祝福出发吧。;;;;;;;;;;x
@@ -692,12 +692,12 @@ INDIAN_MUSLIM_KINGDOM;[Root.GetFirstName] [Prev.GetName];;;;;;;;;;x
 nick_the_tiger;猛虎;;;;;;;;;;x
 nick_the_world_burner;焚世者;;;;;;;;;;x
 RULE_CHINESE_INVASIONS;§B玉龙:§! 中国入侵;;;;;;;;;;x
-RULE_CHINESE_INVASIONS_ALL_DESC;中国既会发起要求朝贡的战争，也会发动大规模入侵。也会出现中国的冒险者。;;;;;;;;;;x
+RULE_CHINESE_INVASIONS_ALL_DESC;中国既会发起要求朝贡的战争，也会发动大举入侵。也会出现中国的冒险者。;;;;;;;;;;x
 RULE_OPTION_ADVENTURERS_ONLY;只有冒险家;;;;;;;;;;x
-RULE_ADVENTURERS_ONLY_DESC;中国无法发起朝贡战争或大规模入侵，但她仍会孕育冒险者。;;;;;;;;;;x
-RULE_OPTION_NO_MAJOR_INVASIONS;没有重大的入侵;;;;;;;;;;x
-RULE_NO_MAJOR_INVASIONS_DESC;中国会发起要求朝贡的战争，但不会发动大规模入侵。会出现中国的冒险者。;;;;;;;;;;x
-RULE_CHINESE_INVASIONS_NONE_DESC;中国不会发起朝贡战争或大规模入侵。中国的冒险者不会产生。;;;;;;;;;;x
+RULE_ADVENTURERS_ONLY_DESC;中国无法发起朝贡战争或大举入侵，但她仍会孕育冒险者。;;;;;;;;;;x
+RULE_OPTION_NO_MAJOR_INVASIONS;没有大举入侵;;;;;;;;;;x
+RULE_NO_MAJOR_INVASIONS_DESC;中国会发起要求朝贡的战争，但不会发动大举入侵。会出现中国的冒险者。;;;;;;;;;;x
+RULE_CHINESE_INVASIONS_NONE_DESC;中国不会发起朝贡战争或大举入侵。中国的冒险者不会产生。;;;;;;;;;;x
 RULE_CHINESE_INTERACTIONS;§B玉龙:§! 中国交互;;;;;;;;;;x
 RULE_OPTION_WITHIN_RANGE;在范围内;;;;;;;;;;x
 RULE_WITHIN_RANGE_DESC;只有中国的外交距离内的角色可以使用皇恩行为。;;;;;;;;;;x
@@ -1001,11 +1001,11 @@ king_female_bodpa;杰蒙;;;;;;;;;;x
 count_bodpa;拿普;;;;;;;;;;x
 count_female_bodpa;拿蒙;;;;;;;;;;x
 job_chancellor_bodpa;论茝;;;;;;;;;;x
-job_spiritual_bodpa;钵阐布;;;;;;;;;;x
-job_treasurer_bodpa;仲尼;;;;;;;;;;x
+job_spiritual_bodpa;钵阐普;;;;;;;;;;x
+job_treasurer_bodpa;准聂;;;;;;;;;;x
 job_chancellor_tangut;论茝;;;;;;;;;;x
 job_spiritual_tangut;钵阐布;;;;;;;;;;x
-job_treasurer_tangut;仲尼;;;;;;;;;;x
+job_treasurer_tangut;准聂;;;;;;;;;;x
 world_himalayas;喜马拉雅;;;;;;;;;;x
 tangut;党项人;;;;;;;;;;x
 bodpa;博巴人;;;;;;;;;;x
@@ -1752,7 +1752,7 @@ String_Nanjing;南京;;;;;;;;;;x
 String_Changan;长安;;;;;;;;;;x
 String_End_Stable;中国的现状被打破了;;;;;;;;;;x
 String_End_Unrest;中国的动荡时期已经结束, 幸存的叛乱农民已重返各自的耕地;;;;;;;;;;x
-String_End_Famine;中国的大瘟疫终于结束了;;;;;;;;;;x
+String_End_Famine;中国的大饥荒终于结束了;;;;;;;;;;x
 String_End_Plague;苍白的死神完成了他在中国的可怕收割，毁灭性的瘟疫似乎已经消退;;;;;;;;;;x
 String_End_Mongols;蒙古部落已经放弃了他们对中国坎坷重重的入侵;;;;;;;;;;x
 String_End_Jurchen;女真部落已经放弃了他们对中国的坎坷重重的入侵;;;;;;;;;;x
@@ -3987,7 +3987,7 @@ b_jarf;贾尔夫;;;;;;;;;;x
 b_usfan;乌斯范;;;;;;;;;;x
 b_zamr_i_atish_parast;拜火城;;;;;;;;;;x
 job_chancellor_female_bodpa;论茝;;;;;;;;;;x
-job_treasurer_female_bodpa;格尼耶;;;;;;;;;;x
+job_treasurer_female_bodpa;女准聂;;;;;;;;;;x
 job_chancellor_female_tangut;论茝;;;;;;;;;;x
 job_treasurer_female_tangut;格尼耶;;;;;;;;;;x
 baron_nepali;达马帕蒂;;;;;;;;;;x
@@ -3995,7 +3995,7 @@ baron_female_nepali;达马帕特尼;;;;;;;;;;x
 duke_bodpa;塔普;;;;;;;;;;x
 duke_female_bodpa;塔蒙;;;;;;;;;;x
 job_spiritual_female_tangut;班钦莫;;;;;;;;;;x
-job_spiritual_female_bodpa;班钦莫;;;;;;;;;;x
+job_spiritual_female_bodpa;钵阐蒙;;;;;;;;;;x
 job_spiritual_female_indian_group;女传戒师;;;;;;;;;;x
 emperor_female_bodpa;赞蒙;;;;;;;;;;x
 temple_baron_female_buddhist;比丘尼;;;;;;;;;;x
