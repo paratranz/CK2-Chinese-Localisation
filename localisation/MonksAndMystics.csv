@@ -163,7 +163,7 @@ EVTDESC_MNM_7017_A;[satanists_inductor.GetFirstName]将我护送到我的卧室�
 EVTOPTA_7017;我喜欢那个东西的声音！;;;;;;;;;;x
 EVTOPTA_7017_TT;你参加了仪式.\n;;;;;;;;;;x
 EVTOPTB_7017;我……我不能这么做！;;;;;;;;;;x
-EVTOPTC_7017;我不能这么做，我已经结婚了。;;;;;;;;;;x
+EVTOPTC_7017;我不能这么做，我已经结婚了！;;;;;;;;;;x
 EVTOPTB_7017_TT;你拒绝了这个恶魔仪式并试图逃跑！\n;;;;;;;;;;x
 EVTDESC_MNM_7018;我醒来时，披斗篷的身影已经不见了，[satanists_inductor.GetFirstName]躺在我身边， [satanists_inductor.GetHerHis] 嘴角露出微笑。“欢迎加入[satanists_inductor.Society.GetName]， [Root.GetTitledFirstName]。”[satanists_inductor.GetSheHe] 说。我紧紧抱住[satanists_inductor.GetHerHim]，不知今后会对这段回忆作何感想。;;;;;;;;;;x
 EVTOPTA_7018;真希望你能早点来找我。;;;;;;;;;;x
@@ -255,10 +255,10 @@ GetRelation_Granddaughter;（外）孙女;;;;;;;;;;x
 GetRelation_Grandson;（外）孙子;;;;;;;;;;x
 GetRelation_Brother;兄弟;;;;;;;;;;x
 GetRelation_Sister;姊妹;;;;;;;;;;x
-GetRelation_Niece;侄女;;;;;;;;;;x
+GetRelation_Niece;侄甥女;;;;;;;;;;x
 GetRelation_Nephew;侄甥;;;;;;;;;;x
 GetRelation_Aunt;姑姨;;;;;;;;;;x
-GetRelation_Uncle;叔伯;;;;;;;;;;x
+GetRelation_Uncle;叔舅;;;;;;;;;;x
 GetRelation_Cousin;堂表亲;;;;;;;;;;x
 GetRelation_SisterInLaw;配偶之姐妹;;;;;;;;;;x
 GetRelation_BrotherInLaw;配偶之兄弟;;;;;;;;;;x
@@ -273,8 +273,8 @@ GetRelation_Courtier;廷臣;;;;;;;;;;x
 GetRelation_Acquaintance;熟人;;;;;;;;;;x
 GetRelation_Courtier_Male;廷臣;;;;;;;;;;x
 GetRelation_Courtier_Female;廷臣;;;;;;;;;;x
-GetRelation_Cousin_Male;堂表亲;;;;;;;;;;x
-GetRelation_Cousin_Female;堂表亲;;;;;;;;;;x
+GetRelation_Cousin_Male;堂表兄弟;;;;;;;;;;x
+GetRelation_Cousin_Female;堂表姐妹;;;;;;;;;;x
 GetRelation_Lover_Male;情人;;;;;;;;;;x
 GetRelation_Lover_Female;情人;;;;;;;;;;x
 GetRelation_Friend_Male;朋友;;;;;;;;;;x
@@ -1147,7 +1147,7 @@ String_Jain;耆那教;;;;;;;;;;x
 String_Hindu;印度教;;;;;;;;;;x
 String_men;人们;;;;;;;;;;x
 String_women;女人们;;;;;;;;;;x
-String_man;人;;;;;;;;;;x
+String_man;男人;;;;;;;;;;x
 String_woman;女人;;;;;;;;;;x
 String_doing_penance;进行忏悔;;;;;;;;;;x
 String_in_meditation;冥想中;;;;;;;;;;x
@@ -2022,7 +2022,7 @@ quest_monastic_order_theology_focus_desc;只要[Root.Society.GetName]中的成�
 quest_monastic_order_theology_focus_tooltip;在角色界面选择§Y「神学」§!焦点以完成这项任务。;;;;;;;;;;x
 monastic_orders_temple_construction;建造一个[Root.GetHouseOfWorship];;;;;;;;;;x
 monastic_orders_temple_construction_desc;对[Root.Society.GetName]的每一位成员来讲，[Root.GetHouseOfWorship]就像是自己的家一样。我们聚集在此学习、礼拜以及 默念我们的[Root.GetPrayers]。建立一个新的[Root.GetHouseOfWorship]会给本地的信徒们一个安全港并且作为一个信仰的前哨站，给那些走上歧途的人们伸出一双手。;;;;;;;;;;x
-monastic_orders_temple_construction_tooltip;在你国土的一个伯爵领上建造一座修道院以完成这项任务。;;;;;;;;;;x
+monastic_orders_temple_construction_tooltip;在你领地的一个省份上建造一座修道院以完成这项任务。;;;;;;;;;;x
 devil_worshipers_summon_familiar_desc;身为[Root.GetDWDarkMagic],的执掌者，§Y[Root.GetTitledFirstName]§!可以根据[Root.GetHerHis]选择召唤一个使魔。这个超自然的守护者会将它的力量赋予§Y[Root.GetTitledFirstName]§!，从而增加[Root.GetHerHis]属性。;;;;;;;;;;x
 EVTOPTA_MNM_7507;如此以来，完成了;;;;;;;;;;x
 EVTOPTA_MNM_7507_TOOLTIP;现在你只能等待即将到来的出生;;;;;;;;;;x
@@ -2144,8 +2144,8 @@ ALLY_ORDER_ENTRY_REPLACE_ORDER;§R这会取消当前的命令§!：;;;;;;;;;;x
 ALLY_ORDER_ENTRY_CANCEL_ORDER;取消这个指令;;;;;;;;;;x
 ATTACH_TO_UNIT_ALLY_ORDER_BUTTON;命令友军跟随这支军队;;;;;;;;;;x
 ATTACH_TO_UNIT_ALLY_ORDER_ENTRY;命令$NAME|Y$跟随这支军队;;;;;;;;;;x
-TAKE_PROVINCE_ALLY_ORDER_BUTTON;命令友军围攻这个伯爵领;;;;;;;;;;x
-FRIENDLY_TAKE_PROVINCE_ALLY_ORDER_BUTTON;§R不能命令盟友包围这个省份§!;;;;;;;;;;x
+TAKE_PROVINCE_ALLY_ORDER_BUTTON;命令友军围攻这个省份;;;;;;;;;;x
+FRIENDLY_TAKE_PROVINCE_ALLY_ORDER_BUTTON;§R不能命令友军包围这个省份§!;;;;;;;;;;x
 TAKE_PROVINCE_ALLY_ORDER_ENTRY;命令$NAME|Y$包围这个省份;;;;;;;;;;x
 attach_to_unit_order_desc;跟随 $ARMY|Y$;;;;;;;;;;x
 take_province_order_desc;包围$PROV|Y$;;;;;;;;;;x
@@ -2337,7 +2337,7 @@ EVTOPTA_MNM_3227;这不是我预料之内的。;;;;;;;;;;x
 EVTDESC_MNM_3228_A;我踏入祭坛并迅速做出决定 当到达了讲坛中央时，我瘫倒在地。作为他们的[Root.GetTitle]，当我开始引用[Root.Religion.GetScriptureName]，身边的崇拜者们喘不过气来。当我说话的时候，我翻着白眼，好像在对峙上天。当我说完最后一句话，每个人似乎都屏住了呼吸。 有一刻我担心自己的演技失败了。 然后，[Root.Religion.GetPriestTitle]惊呼道：“是神示！我的[Root.GetLordLady]，让我帮您站起来！”;;;;;;;;;;x
 EVTDESC_MNM_3228_G;我踏入祭坛并迅速做出决定 当走近毗湿奴大雕像时，我瘫倒在地。作为他们的[Root.GetTitle]，当我开始引用[Root.Religion.GetScriptureName]，身边的崇拜者们喘不过气来。当我说话的时候，我翻着白眼，好像在对峙上天。当我说完最后一句话，每个人似乎都屏住了呼吸。 有一刻我担心自己的演技失败了。 然后，[Root.Religion.GetPriestTitle]惊呼道：“是神示！我的[Root.GetLordLady]，让我帮您站起来！”;;;;;;;;;;x
 EVTDESC_MNM_3228_H;当我步入祭坛时，我迅速做了一个决定。我戏剧性地倒在了一尊雕像的怀里，面对着旁观的礼拜者的喘息。然后我开始引用[Root.Religion.GetScriptureName]，同时眼睛翻转好像在面对天空。当我说完最后一句话，每个人似乎都屏住呼吸。有一瞬间我担心我加的特技失败了。然后[Root.Religion.GetPriestTitle]惊叹：“天父下凡！我的[Root.GetLordLady]，我来扶您起来！”;;;;;;;;;;x
-EVTDESC_MNM_3228_O;在我踏入祭坛时，我当机立断----夸张地瘫倒在了[Root.Religion.GetPriestTitle]怀里，被围观的崇拜者的喘息声环绕。随后我开始引述[Root.Religion.GetScriptureName]中的语句，一边讲一边翻白眼，仿佛置身空灵之境。当我发出最后一句话时，在场的每个人都屏住了呼吸。片刻间，我以为我浮夸的演技失败了。但[Root.Religion.GetPriestTitle]高呼道“是神示！我的[Root.GetLordLady]，让我帮你站起来。”;;;;;;;;;;x
+EVTDESC_MNM_3228_O;在我踏入祭坛时，我当机立断----夸张地瘫倒在了[Root.Religion.GetPriestTitle]怀里，被围观的崇拜者的喘息声环绕。随后我开始引述[Root.Religion.GetScriptureName]中的语句，一边讲一边翻白眼，仿佛置身空灵之境。当我发出最后一句话时，在场的每个人都屏住了呼吸。片刻间，我以为我浮夸的演技失败了。但[Root.Religion.GetPriestTitle]高呼道「这是神示！我的[Root.GetLordLady]，请振作一点！」;;;;;;;;;;x
 EVTOPTA_MNM_3228;噢，谢谢。;;;;;;;;;;x
 EVTDESC_MNM_3229_A;我走向祭坛，并在心中做出了一个大胆的决定当我走到祭坛中央时，我突然瘫倒在地。在场的礼拜者则是震惊地如我一般喘息着，而他们的[Root.GetTitle]开始援引[Root.Religion.GetScriptureName]的片段。我如同天父附体般开始表演起来。当最后一个字从我口中吐出，围观者开始窃窃私语。我确信我的表演已经成功了。之后[Root.Religion.GetPriestTitle]过来戳了戳我。“唔嗯，我的[Root.GetLordLady]？请振作一点。”;;;;;;;;;;x
 EVTDESC_MNM_3229_C;我走向祭坛，并在心中做出了一个大胆的决定当我走到祭坛中央时，我突然瘫倒在地。在场的礼拜者则是震惊地如我一般喘息着，而他们的[Root.GetTitle]开始援引[Root.Religion.GetScriptureName]的片段。我如同天父附体般开始表演起来。当最后一个字从我口中吐出，围观者开始窃窃私语。我确信我的表演已经成功了。之后[Root.Religion.GetPriestTitle]过来戳了戳我。“唔嗯，我的[Root.GetLordLady]？请振作一点。”;;;;;;;;;;x
@@ -2553,7 +2553,7 @@ EVTOPTA_MNM_3405;如此无谓的暴力！我真替他们感到心疼。;;;;;;;;;
 EVTOPTB_MNM_3405;他们只能怪他们自己是[From.GetTrueReligionGroupPersons]！;;;;;;;;;;x
 EVTDESC_MNM_3406;[From.GetTitledFirstName]被这个贫困家庭的故事打动了，从[From.GetHerHis]脸上可以看出来。我们谈话过后，[From.GetSheHe]变得一言不发，有人和[From.GetHerHis]说话时只简短地回几句心不在焉的话。在我们动身之前，[From.GetFirstName]把我拉到一旁，感谢我让[From.GetSheHe]睁眼看清了世界。;;;;;;;;;;x
 EVTOPTA_MNM_3406;我知道我们会在[From.GetFirstName]找到一个盟友！;;;;;;;;;;x
-EVTDESC_MNM_3407;[From.GetTitledFirstName] 只是嘲笑我的故事，并傲慢地宣称，作为“一群肮脏的异教徒”，这个家族只能怪责于他们自己。然后[From.GetSheHe] 转向 [From.GetHerHis] 另一侧的 [From.GetManWomanOpp]，在晚上的其余时间继续无视我。;;;;;;;;;;x
+EVTDESC_MNM_3407;[From.GetTitledFirstName]只是嘲笑我的故事，并傲慢地宣称：作为「一群肮脏的异教徒」，这个家族只能怪责于他们自己。然后[From.GetSheHe]转向[From.GetHerHis] 另一侧的[From.GetManWomanOpp]人，在晚上的其余时间继续无视我。;;;;;;;;;;x
 EVTOPTA_MNM_3407;[From.GetFirstName]还没有准备好接受真相。;;;;;;;;;;x
 EVTDESC_MNM_3401;[Root.GetSRGreeting]，[Root.GetSocietyRank] [Root.GetFirstName]，\n\n我们希望[induction_target.GetTitledFirstName]具有正确的心态和品格以成为我们中的一员。 因为我们的事业需要强大的盟友，所以您的任务是给[induction_target.GetHerHim]指明方向。\n\n[Root.GetSRFarewell]，\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
 quest_secret_religious_societies_induct_ruler;引导[FromFrom.GetTitledFirstName]到真正的信仰中;;;;;;;;;;x
@@ -2567,15 +2567,15 @@ secret_religions_induct_character;引导到[From.TrueReligion.GetName]信仰中;
 secret_religions_induct_character_desc;[Root.GetTitledFirstName]试图成为一个[From.TrueReligion.GetName]信仰的秘密信徒。;;;;;;;;;;x
 secret_religions_induct_character_cd_tt;近期还没有被人接触并招募去另一个信仰\n;;;;;;;;;;x
 secret_religions_induct_character_effect_tt;§Y[From.GetTitledFirstName]§! 尝试寻找方法，让§Y[Root.GetTitledFirstName]§!考虑 [From.TrueReligion.GetName] 信仰。\n;;;;;;;;;;x
-EVTDESC_MNM_3408;我已经安排我的一名密探在 [secret_religion_inductee.GetChamber] 的 [secret_religion_inductee.GetTitledFirstName] 中的一卷 [Root.GetTrueReligionScriptureName] 留下匿名笔记。 如果这卷书被翻开并留在 [secret_religion_inductee.GetFirstName] 认为很重要的一页上， 我对 [secret_religion_inductee.GetSheHe] 将找到圣言中的真理抱有希望——但什么才能吸引 [secret_religion_inductee.GetHerHis] 注意力呢...？;;;;;;;;;;x
-EVTOPTA_MNM_3408;一部歌颂传奇的武士的史诗。;;;;;;;;;;x
-EVTOPTA_MNM_3408_TT; 把[Root.GetTrueReligionScriptureName] 翻开在有关战争和勇士的章节留给 §Y[secret_religion_inductee.GetTitledFirstName]§!，希望这能引起他的兴趣.\n;;;;;;;;;;x
-EVTOPTB_MNM_3408;强调社团重要性的东西。;;;;;;;;;;x
-EVTOPTB_MNM_3408_TT;把[Root.GetTrueReligionScriptureName] 翻开在有关社区的章节留给 §Y[secret_religion_inductee.GetTitledFirstName]§!，希望这能引起他的兴趣.\n;;;;;;;;;;x
+EVTDESC_MNM_3408;我已经安排我的一名密探在[secret_religion_inductee.GetChamber]的[secret_religion_inductee.GetTitledFirstName] 中的一卷[Root.GetTrueReligionScriptureName]上面留下匿名笔记。 如果这卷书被翻开并留在[secret_religion_inductee.GetFirstName]认为很重要的一页上，我对[secret_religion_inductee.GetSheHe]将找到圣言中的真理抱有希望——但什么才能吸引[secret_religion_inductee.GetHerHis]注意力呢...…？;;;;;;;;;;x
+EVTOPTA_MNM_3408;一部歌颂传奇战士的史诗。;;;;;;;;;;x
+EVTOPTA_MNM_3408_TT;给§Y[secret_religion_inductee.GetTitledFirstName]§!翻开[Root.GetTrueReligionScriptureName]中有关战争与勇士的章节，希望这能引起他的兴趣。\n;;;;;;;;;;x
+EVTOPTB_MNM_3408;一些强调社团重要性的内容。;;;;;;;;;;x
+EVTOPTB_MNM_3408_TT;给§Y[secret_religion_inductee.GetTitledFirstName]§!翻开[Root.GetTrueReligionScriptureName]中有关社团的章节，希望这能引起他的兴趣。\n;;;;;;;;;;x
 EVTOPTC_MNM_3408;一篇论述伦理和哲学的论文。;;;;;;;;;;x
-EVTOPTC_MNM_3408_TT;把[Root.GetTrueReligionScriptureName] 翻开在有关哲学的章节留给 §Y[secret_religion_inductee.GetTitledFirstName]§!，希望这能引起他的兴趣.\n;;;;;;;;;;x
-EVTOPTD_MNM_3408;一段讲述公正而威严的统治者的故事。;;;;;;;;;;x
-EVTOPTD_MNM_3408_TT;把[Root.GetTrueReligionScriptureName] 翻开在有关传奇君主的章节留给 §Y[secret_religion_inductee.GetTitledFirstName]§!，希望这能引起他的兴趣.\n;;;;;;;;;;x
+EVTOPTC_MNM_3408_TT;给§Y[secret_religion_inductee.GetTitledFirstName]§!翻开[Root.GetTrueReligionScriptureName]中有关伦理学和哲学的章节，希望这能引起他的兴趣。\n;;;;;;;;;;x
+EVTOPTD_MNM_3408;一段讲述公正而威严的君主的故事。;;;;;;;;;;x
+EVTOPTD_MNM_3408_TT;给§Y[secret_religion_inductee.GetTitledFirstName]§!翻开[Root.GetTrueReligionScriptureName]中有关传奇君主的章节，希望这能引起他的兴趣。\n;;;;;;;;;;x
 EVTDESC_MNM_3409;当我回到我的[secret_religion_inductee.GetChamber]时，我震惊地在我的床上发现[secret_religion_inductor.TrueReligion.GetName] [secret_religion_inductor.GetTrueReligionScriptureName]的抄本！一开始，我以为有人把它放在那里是为了陷害我，但后来我注意到有人在打开的书上留下了一个小纸条。「我想你会觉得这很有趣。拜托，请看一眼。此致，一位朋友。」;;;;;;;;;;x
 EVTOPTA_MNM_3409;真有趣，我猜读上一点不会有什么坏处……;;;;;;;;;;x
 EVTOPTA_MNM_3409_TT;阅读[secret_religion_inductor.TrueReligion.GetName] [secret_religion_inductor.GetTrueReligionScriptureName]。;;;;;;;;;;x
@@ -2964,7 +2964,7 @@ EVTDESC_MNM_6907_B;有那么一会儿，世界都静止了。我无法呼吸。�
 EVTOPTC_MNM_6907;成为你的朋友是我的荣幸，[From.GetFirstName]。;;;;;;;;;;x
 EVTOPTA_MNM_6907;我...我不认为我能做那个。;;;;;;;;;;x
 EVTOPTB_MNM_6907;噢，我的[GetRootFromCompliment]！;;;;;;;;;;x
-focused_on_training;专注训练;;;;;;;;;;x
+focused_on_training;专注于训练;;;;;;;;;;x
 focused_on_training_desc;这个角色把所有的时间都花在了集中训练上，用伪装和匕首来掌握他们的技能，以及对外国语言和风俗习惯的了解。;;;;;;;;;;x
 won_duel;在对决中获胜;;;;;;;;;;x
 won_duel_desc;这个角色赢得了对决;;;;;;;;;;x
@@ -3140,7 +3140,7 @@ EVTDESC_MNM_3890;经过许多的工作、奉献和祈祷后，在[target_provinc
 EVTOPTA_MNM_3890;你们都寄托在[Root.TrueReligion.GetHighGodName]的信奉中！;;;;;;;;;;x
 EVTDESC_MNM_3901;[Root.GetSRGreeting], [Root.GetSocietyRank] [Root.GetFirstName],\n\n我们的社团在阴影中稳定地发展，但是为了我们能存在于阳光下的终极目标，我们需要当地民众的支持。你应当在[target_province.GetName]传播我们的教诲。\n\n[Root.GetSRFarewell]，\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
 quest_secret_religions_societies_prepare_grounds;在[FromFrom.GetName]准备训练场;;;;;;;;;;x
-secret_religions_prepare_grounds;预备的地面;;;;;;;;;;x
+secret_religions_prepare_grounds;做好准备;;;;;;;;;;x
 secret_religions_prepare_grounds_desc;命令一个忠诚的间谍秘密地把我们的教诲传到一个目标省份。;;;;;;;;;;x
 secret_religions_personally_adopt_secret_religion;亲自接受信仰;;;;;;;;;;x
 secret_religions_personally_adopt_secret_religion_desc;放弃你虚伪的宗教伪装，公开宣布你的真实信仰。;;;;;;;;;;x
@@ -3149,7 +3149,7 @@ secret_religions_renounce_secret_religion_desc;你放弃了你的秘密信仰并
 secret_religions_prepare_grounds_effect_tooltip;一个忠实的仆人已经被派往[Root.GetName]去寻找信奉真正信仰的社团;;;;;;;;;;x
 EVTOPTA_MNM_3850;在适当的时候，这些美丽的种子将开花。;;;;;;;;;;x
 EVTOPTA_MNM_3858;我们再也不能在这方面安全地运作。;;;;;;;;;;x
-EVTTOOLTIP_MNM_3850;我们的代理商将向我们汇报它的改建进度。;;;;;;;;;;x
+EVTTOOLTIP_MNM_3850;我们的特工将向我们汇报省份的改信进度。;;;;;;;;;;x
 hermetics_rank_1_female;新进;;;;;;;;;;x
 hermetics_rank_2_female;发蒙;;;;;;;;;;x
 hermetics_rank_3_female;达者;;;;;;;;;;x
@@ -3278,7 +3278,7 @@ EVTDESC_MNM_20004_ODD_SEX;我对过去几天的回忆就像梦一样。有很多
 EVTOPTA_MNM_20004_CANNIBAL;但最重要的是，我向厨师致敬！;;;;;;;;;;x
 EVTOPTA_MNM_20004_GOOD;我感觉很棒！;;;;;;;;;;x
 EVTOPTA_MNM_20004_BAD;我感到筋疲力尽。;;;;;;;;;;x
-EVTOPTA_MNM_20004_CHANGE;我感觉自己改变了 [Root.GetManWoman]...;;;;;;;;;;x
+EVTOPTA_MNM_20004_CHANGE;我感觉自己是个脱胎换骨的[Root.GetManWoman]人……;;;;;;;;;;x
 EVTOPTA_MNM_20004;让我们改日再做一次吧。;;;;;;;;;;x
 satyric_blessing;萨梯祝福;;;;;;;;;;x
 satyric_blessing_desc;这个人受到了萨蒂斯的阳刚之气和野性魅力的青睐。;;;;;;;;;;x
@@ -4416,7 +4416,7 @@ UNKNOWN_DATE;未知的日期;;;;;;;;;;x
 SOCIETY_RANK_UP_EFFECT_DESC;$NAME|Y$ 在$SOCIETY|Y$内被提拔为 $RANK|Y$;;;;;;;;;;x
 SOCIETY_RANK_DOWN_EFFECT_DESC;$NAME|Y$ 在$SOCIETY|Y$内降级为 $RANK|Y$;;;;;;;;;;x
 MIL_WAR_ALLIES;战时同盟;;;;;;;;;;x
-SPECIAL_EVENTOPTION_MODIFIER;因为你拥有 §Y$MODIFIERNAME$§! 修正，所以可以选择这一项;;;;;;;;;;x
+SPECIAL_EVENTOPTION_MODIFIER;这个选项可用是因为你拥有§Y$MODIFIERNAME$§!修正;;;;;;;;;;x
 TRIGGER_NEW_ARTIFACT;新的宝物;;;;;;;;;;x
 SET_ARTIFACT_ORIGINAL_OWNER;将此件物品的原主设为 $WHO|Y$;;;;;;;;;;x
 NO;No;;;;;;;;;;x
@@ -4839,13 +4839,13 @@ EVTDESC933;[Root.Location.GetName]中的一位贵族在我进行间谍行为时�
 EVTDESC20330;[From.Liege.GetTitledName]的间谍管理员[From.GetTitledName]被发现在[From.Location.GetName]进行活动！;;;;;;;;;;x
 EVTDESC20331;我收到消息你的间谍总管[FromFrom.GetTitledName]一直在我的一个领地进行谍报活动。这是不能容忍的，为了阻止进一步的干扰，我已经逮捕了[FromFrom.GetHerHim]！\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTDESC20332;我收到消息称你正在我的领地上进行间谍活动。我不会追究，下不为例。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
-decrease_prosperity_custom_tooltip;稍微降低这个伯爵领的§Y繁荣度§!\n;;;;;;;;;;x
+decrease_prosperity_custom_tooltip;稍微降低这个省份的§Y繁荣度§!\n;;;;;;;;;;x
 sabotaged_buildings;破坏建筑;;;;;;;;;;x
 sabotaged_defences;破坏城防;;;;;;;;;;x
 sabotaged_unrest;煽动骚乱;;;;;;;;;;x
-sabotaged_buildings_desc;一个间谍破坏了这个郡的建筑工地。;;;;;;;;;;x
-sabotaged_defences_desc;一个间谍破坏了这个郡的防御设施。;;;;;;;;;;x
-sabotaged_unrest_desc;一个间谍煽动了这个郡的动乱。;;;;;;;;;;x
+sabotaged_buildings_desc;一个间谍破坏了这个省份的建筑工地。;;;;;;;;;;x
+sabotaged_defences_desc;一个间谍破坏了这个省份的防御设施。;;;;;;;;;;x
+sabotaged_unrest_desc;一个间谍煽动了这个省份的骚乱。;;;;;;;;;;x
 MNM.70020.d;我已经成功破坏了[Root.Location.GetName]的省份。我应该告诉我的君主！;;;;;;;;;;x
 MNM.70020.t;破坏省份;;;;;;;;;;x
 action_organize_spies_mystics_desc;让你的[GetSpymasterName]把注意力集中在郡里的当地贵族身上，增加对他们发生阴谋事件的可能性。这也会阻止封臣加入派系，或者让你有机会为自己的派系增加新成员。;;;;;;;;;;x
@@ -5105,11 +5105,11 @@ hermetic_plate_armor_desc;这套令人印象深刻的盔甲显然领先于时代
 hermetic_glasses;眼镜;;;;;;;;;;x
 hermetic_glasses_desc;这些“眼镜”由两片玻璃透镜合组而成，镶嵌在金属镜框之中。它们使那些眼花的老人可以阅读和辨物;;;;;;;;;;x
 giant_crossbow;巨型十字弩;;;;;;;;;;x
-giant_crossbow_desc;在城堡的城墙上，竖起了一个巨型十字弩。这种可怕的武器提供了一种无情而有效的防御手段。;;;;;;;;;;x
+giant_crossbow_desc;在省份首府的城墙上，竖起了一个巨型十字弩。这种可怕的武器提供了一种无情而有效的防御手段。;;;;;;;;;;x
 blast_furnace;先进鼓风机;;;;;;;;;;x
-blast_furnace_desc;该郡建有一座高炉，它可以提供大量品质上成的铁。;;;;;;;;;;x
+blast_furnace_desc;该省份建有一座高炉，它可以提供大量品质上成的铁。;;;;;;;;;;x
 great_mill;先进的风力机;;;;;;;;;;x
-great_mill_desc;这个郡有一个很棒的风车。它的构造超前于时代，可以以优异的品质研磨大量的谷物。;;;;;;;;;;x
+great_mill_desc;这个省份有一个很棒的风车。它的构造超前于时代，可以以优异的品质研磨大量的谷物。;;;;;;;;;;x
 EVTDESC_MNM_1460;虽然我当然是一位出色的学者，并且以我的名字发现了许多优秀的发现，但我并不能与志趣相投的同行合作时太过骄傲。我已经打算邀请一些来自[Root.Society.GetName]的同行参加一个知识聚会。;;;;;;;;;;x
 EVTOPTA_MNM_1460;时候到了。我会邀请一些我认可的同僚。;;;;;;;;;;x
 EVTOPTA_MNM_1460_TT;你开始准备在 §Y[Root.Capital.Capital.GetName]§ 的知识集会。;;;;;;;;;;x
@@ -5230,31 +5230,31 @@ ARTIFACT_DISPLAY_DATE_OBTAINED;获得：\n$DATE$;;;;;;;;;;x
 SET_ARTIFACT_CREATION_DATE;将创建日期设置为$DATE|Y$;;;;;;;;;;x
 WOL_6170_OPINION_EFFECT;所有在你领地内虔诚或狂热的角色都会在§Y5§!年内改变对你的态度§R-25§!§Y(异端)§!;;;;;;;;;;x
 TRANSFER_ARTIFACT;把$WHAT|Y$从$FROM|Y$的宝库转移到$TO|Y$的宝库中;;;;;;;;;;x
-ingredient_herb2;原料:姜根;;;;;;;;;;x
+ingredient_herb2;原料：姜根;;;;;;;;;;x
 ingredient_herb2_desc;姜根是炼金配方中的有效成分.;;;;;;;;;;x
-ingredient_herb3;原料:曼德拉草;;;;;;;;;;x
+ingredient_herb3;原料：曼德拉草;;;;;;;;;;x
 ingredient_herb3_desc;曼德拉草是炼金配方中的有效成分.;;;;;;;;;;x
 ingredient_herb4;原料：柠檬草;;;;;;;;;;x
 ingredient_herb4_desc;柠檬草是炼金配方中的有效成分.;;;;;;;;;;x
-ingredient_herb5;原料:荨麻;;;;;;;;;;x
+ingredient_herb5;原料：荨麻;;;;;;;;;;x
 ingredient_herb5_desc;荨麻是炼金配方中的有效成分.;;;;;;;;;;x
-ingredient_herb6;原料:苦艾草;;;;;;;;;;x
+ingredient_herb6;原料：苦艾草;;;;;;;;;;x
 ingredient_herb6_desc;苦艾草是炼金配方中的有效成分.;;;;;;;;;;x
-ingredient_herb7;原料:缬草;;;;;;;;;;x
+ingredient_herb7;原料：缬草;;;;;;;;;;x
 ingredient_herb7_desc;缬草是炼金配方中的有效成分.;;;;;;;;;;x
-ingredient_herb8;原料:紫罗兰;;;;;;;;;;x
+ingredient_herb8;原料：紫罗兰;;;;;;;;;;x
 ingredient_herb8_desc;紫罗兰是炼金配方中的有效成分.;;;;;;;;;;x
-ingredient_herb9;原料:蓍草;;;;;;;;;;x
+ingredient_herb9;原料：蓍草;;;;;;;;;;x
 ingredient_herb9_desc;蓍草是炼金配方中的有效成分.;;;;;;;;;;x
-ingredient_animal1;原料:胆囊;;;;;;;;;;x
+ingredient_animal1;原料：胆囊;;;;;;;;;;x
 ingredient_animal1_desc;动物胆囊是炼金配方中的有效成分.;;;;;;;;;;x
-ingredient_animal2;原料:肾脏;;;;;;;;;;x
+ingredient_animal2;原料：肾脏;;;;;;;;;;x
 ingredient_animal2_desc;动物肾脏是炼金配方中的有效成分.;;;;;;;;;;x
-ingredient_animal3;原料:眼球;;;;;;;;;;x
+ingredient_animal3;原料：眼球;;;;;;;;;;x
 ingredient_animal3_desc;动物眼球是炼金配方中的有效成分.;;;;;;;;;;x
-ingredient_animal4;原料:偶蹄;;;;;;;;;;x
+ingredient_animal4;原料：偶蹄;;;;;;;;;;x
 ingredient_animal4_desc;偶蹄是炼金配方中的有效成分.;;;;;;;;;;x
-ingredient_animal5;原料:鹿角;;;;;;;;;;x
+ingredient_animal5;原料：鹿角;;;;;;;;;;x
 ingredient_animal5_desc;鹿角是炼金配方中的有效成分.;;;;;;;;;;x
 ingredient_animal6;原料：鼻子;;;;;;;;;;x
 ingredient_animal6_desc;鼻子是炼金配方中的有效成分.;;;;;;;;;;x
@@ -5282,7 +5282,7 @@ ingredient_metal_exotic8;原料：铁;;;;;;;;;;x
 ingredient_metal_exotic8_desc;铁是炼金配方中的有效成分.;;;;;;;;;;x
 ingredient_metal_exotic9;原料：锡;;;;;;;;;;x
 ingredient_metal_exotic9_desc;锡是炼金配方中的有效成分.;;;;;;;;;;x
-quest_hermetic_gather_ingredients;收集原材料;;;;;;;;;;x
+quest_hermetic_gather_ingredients;收集原料;;;;;;;;;;x
 quest_hermetic_gather_ingredients_desc;为了进行炼金术实验，赫尔墨斯学会的成员往往会对那些具有特殊属性的稀有原材料有所需求。;;;;;;;;;;x
 quest_hermetic_gather_ingredients_tooltip;为了完成这项任务，你必须成功地获取那些能够用于你炼金实验的原材料。;;;;;;;;;;x
 mediator_desc;此人很擅长在社交场合平息争端。;;;;;;;;;;x
@@ -5487,8 +5487,8 @@ COMPLETELY_CONTROLLED;完全控制§Y$TITLE$§!;;;;;;;;;;x
 NOT_COMPLETELY_CONTROLLED;并没有完全控制住§Y$TITLE$§!;;;;;;;;;;x
 has_not_recently_performed_stargazing;在过去的三年里没有被邀请去观察过星文\n;;;;;;;;;;x
 opinion_stargazing;观星;;;;;;;;;;x
-AVAILABLE_DUE_TO_OBSERVATORY;由于你拥有天文台，所以这个选项是可用的\n;;;;;;;;;;x
-AVAILABLE_DUE_TO_OBSERVATORY_EQUIPMENT;这个选项可用是因为你拥有一套观察天文设备仪器\n;;;;;;;;;;x
+AVAILABLE_DUE_TO_OBSERVATORY;这个选项可用是因为你拥有一座天文台\n;;;;;;;;;;x
+AVAILABLE_DUE_TO_OBSERVATORY_EQUIPMENT;这个选项可用是因为你拥有一套天文观测设备\n;;;;;;;;;;x
 PREPARE_STARGAZING;为即将到来的夜晚做必要的准备;;;;;;;;;;x
 invite_hermetic_to_stargazing;邀请去观星;;;;;;;;;;x
 invite_hermetic_to_stargazing_desc;邀请§Y[Root.GetTitledFirstName]§!来共度一个观星和学习的夜晚，从而试图更好地理解它是如何工作的。这同样也是一个来让我们彼此认识的好机会。;;;;;;;;;;x

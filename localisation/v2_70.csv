@@ -54,7 +54,7 @@ ask_wards_liege_to_allow_culture_religion_swap_desc;送一封信给 §Y[Root.Lie
 change_wards_focus_to_heritage_desc;改变§Y[Root.GetFirstName]§!的培养重心。 重心设置为§Y传统§!会使§Y[Root.GetFirstName]§!接受监护者的宗教和文化。;;;;;;;;;;x
 EVTDESC_ZE_2131;亲爱的 [Root.GetTitledNameWithNick],\n\n你的关于 [FromFrom.GetFirstName] 传统教育的提议我是十分欢迎的;;;;;;;;;;x
 EVTOPTA_ZE_2131;[FromFrom.GetSubjectPronounCap] 将会得到良好的教育。;;;;;;;;;;x
-GIVE_ARTIFACT_INTERACTION_TITLE;赐予宝物;;;;;;;;;;x
+GIVE_ARTIFACT_INTERACTION_TITLE;赠予宝物;;;;;;;;;;x
 GIVE_ARTIFACT_INTERACTION_DESC;将你国库里的一件宝物赠给§Y[Recipient.GetBestName]§!;;;;;;;;;;x
 GIVE_ARTIFACT_INTERACTION_LONG_DESC;用一件精美的宝物作为礼物显然是不失礼节的好选择;;;;;;;;;;x
 GIVE_ARTIFACT_INTERACTION_0;选择一件宝物作为礼物——对方感激的程度会随着宝物品质和对于收礼者的意义而变化。;;;;;;;;;;x
@@ -473,25 +473,25 @@ String_Copper;铜;;;;;;;;;;x
 String_Iron;铁;;;;;;;;;;x
 String_Tin;锡;;;;;;;;;;x
 String_crescent;新月标志;;;;;;;;;;x
-EVTOPTD_MNM_1200_herb;镇压 [GetSelectedIngredient_1] 将有助于形成模式。;;;;;;;;;;x
+EVTOPTD_MNM_1200_herb;镇压[GetSelectedIngredient_1]将有助于形成榜样。;;;;;;;;;;x
 EVTOPTD_MNM_1200_animal_part;其实，我应该添加一些[ getselectedingredient_1 ]打基础帮助形成图案。;;;;;;;;;;x
-EVTOPTD_MNM_1200_powder;当然，在 [GetSelectedIngredient_1] 会增加模式。;;;;;;;;;;x
+EVTOPTD_MNM_1200_powder;当然，在[GetSelectedIngredient_1]会增加模式。;;;;;;;;;;x
 EVTOPTD_MNM_1200_liquid;唔...几滴[ getselectedingredient_1 ]应该形成一个华丽的图案。;;;;;;;;;;x
 EVTOPTD_MNM_1200_tt;使用 §Y[GetSelectedIngredient_1]§!会增加你对水中伪装产生积极反应的机会。\n;;;;;;;;;;x
 destroy_selected_ingredient_1_tt;§Y[GetSelectedIngredient_1]§!将从宝库中移除。\n;;;;;;;;;;x
 destroy_selected_ingredient_2_tt;§Y[GetSelectedIngredient_2]§!将从宝库中移除。\n;;;;;;;;;;x
 destroy_selected_ingredient_1_and_2_tt;§Y[GetSelectedIngredient_1]§!和§Y[GetSelectedIngredient_2]§!将从宝库中移除。\n;;;;;;;;;;x
 destroy_selected_ingredient_1_plus_random_other_ingredient_tt;§Y[GetSelectedIngredient_1]§!和随机一个原料将从宝库中移除。\n;;;;;;;;;;x
-ingredient_option_available_tt;你可以使用这个选项是因为你的宝库中拥有一个§Y原料§!。\n \n;;;;;;;;;;x
-multiple_ingredient_option_available_tt;你可以使用这个选项是因为你的宝库中拥有多个§Y原料§!。\n \n;;;;;;;;;;x
+ingredient_option_available_tt;这个选项可用是因为你的宝库中拥有一个§Y原料§!。\n \n;;;;;;;;;;x
+multiple_ingredient_option_available_tt;这个选项可用是因为你的宝库中拥有多个§Y原料§!。\n \n;;;;;;;;;;x
 EVTDESC_MNM_1200_B;我把碗放在我面前，等待水完全静止。另一方面，合格的占卜可以让我为自己的思想选择一个思路，我可以使用我炼金术的货架上的东西来创造前所未见的东西......当我放出深处时，水面上的倒影涟漪起伏。;;;;;;;;;;x
 EVTDESC_MNM_5208;[fellow_member_target.GetTitledFirstName]的自大演讲惹人心烦，[fellow_member_target.GetSheHe]什么时候成了[Root.GetHermeticDebateSubject]的专家了？\n我叹口气，握紧了口袋里的小瓶。;;;;;;;;;;x
 EVTOPTC_MNM_5211;我应该调制一些东西来放松我，或者帮助我更专注！;;;;;;;;;;x
 EVTOPTA_MNM_1622_use_ingredients;我有一些可以治病的有趣烧瓶！;;;;;;;;;;x
 EVTOPTC_MNM_1842_herb;冷静点，孩子。我会用一点[GetSelectedIngredient_1]来酿造些喝的。;;;;;;;;;;x
 EVTOPTC_MNM_1842_animal_part;别发愁，孩子。我会给你从[GetSelectedIngredient_1]里弄点肉汤来。;;;;;;;;;;x
-EVTOPTC_MNM_1842_powder;孩子，服下这药水会有帮助。;;;;;;;;;;x
-EVTOPTC_MNM_1842_liquid;嘘,孩子。我给你做点什么，从...呃,这里 [GetSelectedIngredient_1];;;;;;;;;;x
+EVTOPTC_MNM_1842_powder;嘘，孩子，服下这药水会有帮助。;;;;;;;;;;x
+EVTOPTC_MNM_1842_liquid;嘘，孩子。我给你做点什么，呃……用这个[GetSelectedIngredient_1]。;;;;;;;;;;x
 EVTOPTC_MNM_1844_herb;让我们去舒适的环境里谈谈这个。;;;;;;;;;;x
 EVTOPTC_MNM_1844_animal_part;我会补偿你的！让我们共享[GetSelectedIngredient_1]里的肉汤。;;;;;;;;;;x
 EVTOPTC_MNM_1844_powder;哦，朋友。 你显然需要这个[GetSelectedIngredient_1]注入我的酿造。;;;;;;;;;;x
@@ -502,8 +502,8 @@ opinion_apologized;道歉;;;;;;;;;;x
 opinion_cheered_up;高兴起来;;;;;;;;;;x
 opinion_calmed;平静;;;;;;;;;;x
 EVTDESC_MNM_1855;在思考我目前的研究的同时，我发现我有几件物品可以加入实验，以增强我对天堂的理解......！;;;;;;;;;;x
-EVTOPTA_MNM_1855;我会燃烧 [GetSelectedIngredient_1], 让气味淹没我的感官。;;;;;;;;;;x
-EVTOPTB_MNM_1855;我会做一锅 [GetSelectedIngredient_2]…！;;;;;;;;;;x
+EVTOPTA_MNM_1855;我会燃烧[GetSelectedIngredient_1]，让气味淹没我的感官。;;;;;;;;;;x
+EVTOPTB_MNM_1855;我会做一锅[GetSelectedIngredient_2]……！;;;;;;;;;;x
 EVTOPTC_MNM_1855;我会把一块 [GetSelectedIngredient_2] 放在枕头下面睡觉。;;;;;;;;;;x
 EVTOPTD_MNM_1855;我会试试新东西...！;;;;;;;;;;x
 EVTOPTE_MNM_1855;我宁可不;;;;;;;;;;x
@@ -639,15 +639,15 @@ secret_norse_pagan_community;秘密日耳曼多神教社团;;;;;;;;;;x
 secret_norse_pagan_community_desc;日耳曼多神教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
 secret_tengri_pagan_community;秘密长生天社团;;;;;;;;;;x
 secret_tengri_pagan_community_desc;长生天的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
-secret_baltic_pagan_community;秘密洛姆瓦社团;;;;;;;;;;x
+secret_baltic_pagan_community;秘密洛姆瓦团体;;;;;;;;;;x
 secret_baltic_pagan_community_desc;洛姆瓦教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
 secret_finnish_pagan_community;秘密索米多神教社团;;;;;;;;;;x
 secret_finnish_pagan_community_desc;索米多神教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
-secret_aztec_community;秘密阿兹特克信仰社团;;;;;;;;;;x
+secret_aztec_community;秘密阿兹特克信仰团体;;;;;;;;;;x
 secret_aztec_community_desc;阿兹特克教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
-secret_aztec_reformed_community;秘密阿兹特克信仰社团;;;;;;;;;;x
+secret_aztec_reformed_community;秘密阿兹特克信仰团体;;;;;;;;;;x
 secret_aztec_reformed_community_desc;阿兹特克教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
-secret_slavic_pagan_community;秘密斯拉夫多神教社团;;;;;;;;;;x
+secret_slavic_pagan_community;秘密斯拉夫多神教团体;;;;;;;;;;x
 secret_slavic_pagan_community_desc;斯拉夫多神教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
 secret_west_african_pagan_community;秘密西非信仰社团;;;;;;;;;;x
 secret_west_african_pagan_community_desc;西非信仰的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x

@@ -211,13 +211,13 @@ TOG.3322.d;人皆称你为海王[GetFirstName]，因你能从任何地方拿走�
 TOG.3322.a;我不耕种。;;;;;;;;;;x
 death_text_default;虽然并非特别有福，我们仍祝福[GetFirstName]在死后获得安宁;;;;;;;;;;x
 death_text_neutral;虽然并非特别有福，我们仍祝福[GetFirstName]在死后获得安宁;;;;;;;;;;x
-death_text_lustful;[GetSheHe]以特别容易堕入肉欲的罪恶而声名在外，生前常常不能对[GetHerHis][GetHusbandWifeOpp]忠贞。作为一个堕落的[GetManWoman]，[GetFirstName]定然会为[GetHerHis]罪在死后付出代价;;;;;;;;;;x
-death_text_gluttonous;人皆知其饕餮之本性，[GetSheHe]生前经常暴食并超重。作为一个堕落的[GetManWoman]，[GetFirstName]定然会为[GetHerHis]罪在死后付出代价;;;;;;;;;;x
-death_text_greedy;[GetSheHe]是一个贪婪的[GetManWoman]，生前常常强调把[GetHerHis]人民课税到天上的需要。作为一个堕落的[GetManWoman]，[GetFirstName]定然会为[GetHerHis]罪在死后付出代价;;;;;;;;;;x
-death_text_slothful;[GetSheHe]太容易犯懒，生前从不做任何事情，除非是[GetSheHe]不得不做的。作为一个堕落的[GetManWoman]，[GetFirstName]定然会为[GetHerHis]罪在死后付出代价;;;;;;;;;;x
-death_text_envious;[GetSheHe]嫉妒永无止尽，生前总想要获得其他人拥有的东西。作为一个堕落的[GetManWoman]，[GetFirstName]定然会为[GetHerHis]罪在死后付出代价;;;;;;;;;;x
-death_text_wroth;易怒的[GetManWoman]，人们害怕遇到[GetHerHim]——更不用说带来坏消息了。作为一个堕落的[GetManWoman]，[GetFirstName]定然会为[GetHerHis]罪在死后付出代价;;;;;;;;;;x
-death_text_proud;[GetSheHe]犯下了骄傲的罪孽，生前总希望所有人知道[GetHerHis]伟大。作为一个堕落的[GetManWoman]，[GetFirstName]定然会为[GetHerHis]罪在死后付出代价;;;;;;;;;;x
+death_text_lustful;[GetSheHe]以特别容易堕入肉欲的罪恶而声名在外，生前常常不能对[GetHerHis][GetHusbandWifeOpp]忠贞。作为一个堕落的[GetManWoman]，[GetFirstName]定然会在死后为[GetHerHis]罪付出代价;;;;;;;;;;x
+death_text_gluttonous;人皆知其饕餮之本性，[GetSheHe]生前经常暴食并超重。作为一个堕落的[GetManWoman]，[GetFirstName]定然会在死后为[GetHerHis]罪付出代价;;;;;;;;;;x
+death_text_greedy;[GetSheHe]是一个贪婪的[GetManWoman]，生前常常强调把[GetHerHis]人民课税到天上的需要。作为一个堕落的[GetManWoman]，[GetFirstName]定然会在死后为[GetHerHis]罪付出代价;;;;;;;;;;x
+death_text_slothful;[GetSheHe]太容易犯懒，生前从不做任何事情，除非是[GetSheHe]不得不做的。作为一个堕落的[GetManWoman]，[GetFirstName]定然会在死后为[GetHerHis]罪付出代价;;;;;;;;;;x
+death_text_envious;[GetSheHe]嫉妒永无止尽，生前总想要获得其他人拥有的东西。作为一个堕落的[GetManWoman]，[GetFirstName]定然会在死后为[GetHerHis]罪付出代价;;;;;;;;;;x
+death_text_wroth;易怒的[GetManWoman]，人们害怕遇到[GetHerHim]——更不用说带来坏消息了。作为一个堕落的[GetManWoman]，[GetFirstName]定然会在死后为[GetHerHis]罪付出代价;;;;;;;;;;x
+death_text_proud;[GetSheHe]犯下了骄傲的罪孽，生前总希望所有人知道[GetHerHis]伟大。作为一个堕落的[GetManWoman]，[GetFirstName]定然会在死后为[GetHerHis]罪付出代价;;;;;;;;;;x
 death_text_chaste;作为一位忠贞的[GetManWoman]，[GetHerHis]的荣誉无可置疑。作为一位虔诚敬神的[GetManWoman]，[GetFirstName]现在定然已到了[Religion.GetRandomGodName]身边;;;;;;;;;;x
 death_text_temperate;[GetSheHe]始终节制自己，从未让[GetHerHis]低等欲望控制[GetHerHim]。作为一位虔诚敬神的[GetManWoman]，[GetFirstName]现在定然已到了[Religion.GetRandomGodName]身边;;;;;;;;;;x
 death_text_charitable;人皆知其慷慨，[GetSheHe]生前慷慨地给予[GetHerHis]亲朋好友钱财。作为一位虔诚敬神的[GetManWoman]，[GetFirstName]现在定然已到了[Religion.GetRandomGodName]身边;;;;;;;;;;x
@@ -331,8 +331,8 @@ HOSPITAL_TAX_MODIFIER;医院税;;;;;;;;;;x
 HOSPITAL_LEVY_SIZE;医院征召兵规模;;;;;;;;;;x
 HOSPITAL_LEVEL;医院等级;;;;;;;;;;x
 BUILD_PRESTIGE_OR_PIETY_HOSPITAL_DESC;医院可以建造在你控制的任意省份上，只要你有所需的科技或医院骑士团存在于省份内。医院需要§Y$COST$§!去建造。医院减少省份在瘟疫流行期间受感染的概率，并缓解人口减少的效果。;;;;;;;;;;x
-HOSPITAL_LEVEL_LESSTHAN;§Y医院等级§! 在此省份低于$VALUE|Y$;;;;;;;;;;x
-HOSPITAL_LEVEL_ATLEAST;§Y医院等级§! 在此省份至少有$VALUE|Y$;;;;;;;;;;x
+HOSPITAL_LEVEL_LESSTHAN;§Y医院等级§!在此省份低于$VALUE|Y$;;;;;;;;;;x
+HOSPITAL_LEVEL_ATLEAST;§Y医院等级§!在此省份至少有$VALUE|Y$;;;;;;;;;;x
 PROVINCE_HOSPITAL_LEVEL;此省份的§Y医院等级§!是$VALUE|G$;;;;;;;;;;x
 DISEASE_DEFENSE_LESSTHAN;此省份的§Y疾病抵御§!值低于$VALUE|Y$;;;;;;;;;;x
 DISEASE_DEFENSE_ATLEAST;此省份的§Y疾病抵御§!值至少等于$VALUE|Y$;;;;;;;;;;x
@@ -532,7 +532,7 @@ food_poisoning_desc;这个角色食物中毒了———严重的上吐下泻，
 rabies;狂犬病;;;;;;;;;;x
 rabies_desc;这个角色患有狂犬病———脑部发炎肿胀，导致了极为怪异且富有攻击性的举止。;;;;;;;;;;x
 flu_death;因一次严重的流感;;;;;;;;;;x
-dysentery_death;处理『卧室事务（痢疾）』;;;;;;;;;;x
+dysentery_death;处理「卧室事务（痢疾）」;;;;;;;;;;x
 gout_death;因痛风引发的并发症;;;;;;;;;;x
 food_poisoning_death;在同腹中的饭菜进行了一次争吵之后（食物中毒）;;;;;;;;;;x
 rabies_death;口吐白沫;;;;;;;;;;x
@@ -942,7 +942,7 @@ EVTOPTA_RIP_20020;我-我的……鼻子？不！不要！！！;;;;;;;;;;x
 EVTDSC_RIP_20021;你命令狱卒把[From.GetTitledFirstName]从[From.GetHerHis]牢中拖出来，期间你可以有条不紊地准备你的工具。没人可以反对你后而毫发无伤，[From.GetFirstName]将成为一个活生生的例子。至少这目前还只是个打算，但谁知道呢？你可以……手滑一下。;;;;;;;;;;x
 EVTOPTA_RIP_20021;我对你的脑袋不感兴趣。你的男性象征就够了。;;;;;;;;;;x
 EVTDSC_RIP_20022;当你安静地揣测你的命运的时候，狱卒突然走进来把你从牢里拖出去。在外面，[From.GetTitledFirstName]正等着。你全身的血一瞬间变冷了，当你看到[From.GetHerHis]残忍的微笑。“别担心，[GetFromRootInsult]。我对你的脑袋不感兴趣。你的男性象征就够了。”;;;;;;;;;;x
-EVTOPTA_RIP_20022;男—男性象征？不！不要！！！;;;;;;;;;;x
+EVTOPTA_RIP_20022;我的……男性象征？不！不要！！！;;;;;;;;;;x
 mutilate_castrated_tooltip;§Y[From.GetTitledFirstName]§!是阉人。;;;;;;;;;;x
 mutilate_leg_tooltip;§Y[From.GetTitledFirstName]§!是独腿的。;;;;;;;;;;x
 mutilate_hand_tooltip;§Y[From.GetTitledFirstName]§!是独手的。;;;;;;;;;;x
@@ -1696,7 +1696,7 @@ EVTNAME_GBC_143;宛如梦境;;;;;;;;;;x
 EVTDSC_GBC_143;你们几个月前在花园里一起散步。互相取笑对方的急中生智，偷看着对方……这都感觉像完全不同的人生。现在，已经结束了，而且永远不会像以前一样。\n\n也许一个人也没什么不好。孤独让你有更多时间锻炼你的技能并且让你建设你的领地……不再分心, 没有限制。什么会比这个更重要？;;;;;;;;;;x
 EVTOPTA_GBC_143;但是，我还是不能停止思念[gbc_lover.GetHerHim]……;;;;;;;;;;x
 EVTDESC500;[New.GetTitledFirstName] 和 [From.GetTitledFirstName] 刚刚结婚。我们可以收取王室税用来支付婚礼花费.;;;;;;;;;;x
-EVTDESC100000;厨师指责我偷了饼干, 间谍总管坚持声称我偷了他的鹅毛笔, 而且我还被指责做了很多其他恶作剧. 但是这次, 我是清白的! 我看到了真正的作恶者在马厩外玩着鹅毛笔并且吃的 [troublemaker_child.GetHerHis] 脸上都是饼干渣...;;;;;;;;;;x
+EVTDESC100000;厨师指责我偷了饼干，间谍总管坚持声称我偷了他的鹅毛笔，而且我还被指责做了很多其他恶作剧。但是这次，我是清白的！我看到了真正的作恶者在马厩外玩着鹅毛笔并且吃的 [troublemaker_child.GetHerHis] 脸上都是饼干渣……;;;;;;;;;;x
 EVTOPTA_HL_10700_TOOLTIP;§Y[From.GetTitledFirstName]§! 增加了 [From.GetHerHis]军队数量 §G5%§!;;;;;;;;;;x
 EVTDESC78020;我的受监护人[From.GetTitledFirstName]跑着来找我, 眼泪从[From.GetHerHis]脸上滑落而且鼻涕慢慢地爬行到[From.GetHerHis]嘴里.\n"[Root.GetFirstName], 求你帮帮我! 其他小孩对我很不友好!";;;;;;;;;;x
 EVTOPTC78020;我会教训 [child_bully.GetFirstName], 不要担心;;;;;;;;;;x
@@ -1827,8 +1827,8 @@ EVTOPTA_RIP_21010_TOOLTIP;§Y[From.GetTitledFirstName]§!将得到额外的资�
 EVTOPTB_RIP_21010;我要回去睡觉了;;;;;;;;;;x
 EVTOPTB_RIP_21010_TOOLTIP;你将§Y[From.GetFirstName]§!嘘走。\n;;;;;;;;;;x
 EVTNAME_RIP_21011;神圣之叹;;;;;;;;;;x
-EVTDSC_RIP_21011;当你去探查[Root.job_spiritual.GetTitledFirstName]并询问研究进展时，你发现[From.GetHerHim]趴在[From.GetHerHis]书籍上，陷入了熟睡。你请了清你的嗓子，[From.GetSheHe]立刻坐直，困倦的双眼惊恐地扫射整个房间，发现是你才停止压抑自己的哈欠。\n\n“不好意思，[Root.GetMasterMistress]我刚才肯定是昏睡过去了。实话实说吧，我开始想要放弃了……要翻遍这些文献，我想我需要一个助手。或者十个吧。”[From.GetSheHeCap]转了转他的双眼，又看向地下，非常羞愧。“我很抱歉，我的[Root.GetLordLady]，我一个人当然也可以做到。”;;;;;;;;;;x
-EVTOPTA_RIP_21011;胡说！你去休息去。我会雇一些抄写员;;;;;;;;;;x
+EVTDSC_RIP_21011;当你去探查[Root.job_spiritual.GetTitledFirstName]并询问研究进展时，你发现[From.GetHerHim]趴在[From.GetHerHis]书籍上，陷入了熟睡。你大声清了清你的嗓子，[From.GetSheHe]立刻坐直，困倦的双眼惊恐地扫射整个房间，发现是你才停止压抑自己的哈欠。\n\n「不好意思，[Root.GetMasterMistress]我刚才肯定是昏睡过去了。实话实说吧，我开始想要放弃了……要翻遍这些文献，我想我需要一个助手。或者十个吧。」[From.GetSheHeCap]转了转他的双眼，又看向地下，非常羞愧。「我很抱歉，我的[Root.GetLordLady]，我一个人当然也可以做到。」;;;;;;;;;;x
+EVTOPTA_RIP_21011;胡说！你去休息去。我会雇一些抄写员。;;;;;;;;;;x
 EVTOPTB_RIP_21011;不要怀疑自己的能力，[From.GetFirstName]。睡一觉就不困了！;;;;;;;;;;x
 EVTNAME_RIP_21013;神秘人出现;;;;;;;;;;x
 EVTOPTA_RIP_21013_TOOLTIP;神秘人被邀请到宫廷。;;;;;;;;;;x
@@ -2937,7 +2937,7 @@ EVTOPT_WoL_7091_CHASTE;我两腰间如同着火！赞美[Root.Religion.GetRandom
 EVTOPT_WoL_7091_POX;疱疹……消失了！赞美[Root.Religion.GetRandomGodName]！;;;;;;;;;;x
 EVTOPT_WoL_7091_LEPER;我又能感受到我的脸了！我的麻风治好了！;;;;;;;;;;x
 EVTOPT_WoL_7091_LUNATIC;那可怕的哀嚎……现在几乎安静了。;;;;;;;;;;x
-EVTOPT_WoL_7091;我决定成为更好的[Root.GetManWoman]人;;;;;;;;;;x
+EVTOPT_WoL_7091;我决定成为一个更好的[Root.GetManWoman];;;;;;;;;;x
 RULE_DEJURE_DURATION;法理同化历时;;;;;;;;;;x
 RULE_DEJURE_DURATION_DEFAULT_DESC;次级领地需要100年去变为上级法理领地的一部分。;;;;;;;;;;x
 RULE_OPTION_LONGER;长;;;;;;;;;;x
@@ -3344,7 +3344,7 @@ heir_text_traits_proud_brave;[GetFirstName]总穿着闪耀华丽的盔甲，想�
 heir_text_traits_cynical_cruel;从不畏惧[Religion.GetHighGodName]的怒火，只要[GetSheHe]觉得合适，[GetFirstName]不太可能饶恕任何臣民的刑罚;;;;;;;;;;x
 heir_text_traits_humble_stubborn;坚持以[GetHerHis]的方式做礼拜，在[GetHerHis]的统治下，信仰和传统或将得到促进;;;;;;;;;;x
 heir_text_traits_deceitful_envious;拥有一个狡猾且不满足的灵魂，[GetHerHis] 的统治很可能充满怨恨和阴谋;;;;;;;;;;x
-heir_text_traits_patient_trusting;作为一个轻信而有耐心的[GetManWoman]，[GetFirstName]确信好事终将降临到[GetHerHim]身上;;;;;;;;;;x
+heir_text_traits_patient_trusting;作为一个信任他人而有耐心的[GetManWoman]，[GetFirstName]确信好事终将降临到[GetHerHim]身上;;;;;;;;;;x
 heir_text_traits_paranoid_stressed;被无处不在的黑影折磨着，[GetSheHe]很可能被恐惧击垮;;;;;;;;;;x
 heir_text_piety;作为一个虔诚的[GetManWoman]，[GetFirstName]凭借[GetHerHis]对[Religion.GetScriptureName]的深入了解，肯定可以给[Religion.GetPriestTitle]们留下深刻印象;;;;;;;;;;x
 heir_text_prestige;作为一个闻名于世的[GetManWoman]，世界各处来此的贵族都会在[GetHerHim]面前鞠躬;;;;;;;;;;x
@@ -3388,7 +3388,7 @@ heir_text_traits_envious;作为一个嫉妒怀疑的[GetManWoman]，领地内的
 heir_text_traits_craven;作为一个懦夫，[GetHerHis]臣民不大可能尊重[GetHerHim];;;;;;;;;;x
 heir_text_traits_greedy;这个[GetManWoman]如此的贪婪，王国的穷苦农民很可能不满;;;;;;;;;;x
 heir_text_traits_cruel;作为心胸狭窄的[GetManWoman]，我们担心[GetFirstName]的宫廷将生活在[GetHerHim]恐怖之中;;;;;;;;;;x
-heir_text_traits_trusting;[GetFirstName]的内阁可能比轻信自满的[GetHerHim]拥有更大的权力，即使不应如此;;;;;;;;;;x
+heir_text_traits_trusting;[GetFirstName]的内阁可能比轻信且自满的[GetHerHim]拥有更大的权力，即使不应如此;;;;;;;;;;x
 heir_text_traits_honest;由于没能力去撒谎，我们担心有人会轻视[GetHerHis]的诚实;;;;;;;;;;x
 heir_text_traits_slothful;作为一个懒惰的[GetManWoman]，我们担心没有事会在 [GetFirstName]的治下发生;;;;;;;;;;x
 heir_text_traits_charitable;这个[GetManWoman]慷慨大方，我们希望领地所有的财富最后不会都落到[Religion.GetPriestTitle]们的口袋里;;;;;;;;;;x
