@@ -122,12 +122,12 @@ depressed_death;抑郁症;;;;;;;;;;x
 ill_death;长期疾病;;;;;;;;;;x
 pneumonic_death;肺炎;;;;;;;;;;x
 syphilitic_death;梅毒;;;;;;;;;;x
-leper_death;终末期麻风;;;;;;;;;;x
+leper_death;晚期麻风;;;;;;;;;;x
 wounded_death;伤口感染;;;;;;;;;;x
 maimed_death;肢体伤残;;;;;;;;;;x
 infirm_death;卧床体虚;;;;;;;;;;x
 incapable_death;昏迷在床;;;;;;;;;;x
-has_tuberculosis_death;慢性肺痨;;;;;;;;;;x
+has_tuberculosis_death;肺结核;;;;;;;;;;x
 has_typhoid_fever_death;伤寒高烧;;;;;;;;;;x
 has_typhus_death;斑疹伤寒;;;;;;;;;;x
 has_bubonic_plague_death;腺鼠疫;;;;;;;;;;x
@@ -147,7 +147,7 @@ DEATH_DUNGEON;死在$KILLER$的地牢里;;;;;;;;;;x
 DEATH_SUICIDE;自杀身亡;;;;;;;;;;x
 DEATH_RABBLE;被暴民戮杀;;;;;;;;;;x
 DEATH_DUEL;在与$KILLER$的决斗中被杀死;;;;;;;;;;x
-CHARACTER_DEAD_TOOLTIP;在§Y[GetDeathDate]§! [GetDeathReasonCap]，时年§Y[GetAgeYears]§!岁（出生于§Y[GetBirthDate]§!）。;;;;;;;;;;x
+CHARACTER_DEAD_TOOLTIP;于§Y[GetDeathDate]§! [GetDeathReasonCap]，时年§Y[GetAgeYears]§!岁（出生于§Y[GetBirthDate]§!）。;;;;;;;;;;x
 CHAR_DEATH_LETTER;在$AGE$岁时，我的$RELATION$ $NAME$ $CAUSE$.;;;;;;;;;;x
 NOT_READY_TO_PLAY_MP;§Y$PLAYER$§!尚未准备就绪;;;;;;;;;;x
 DESTROY_LANDED_TITLE_EFFECT;§Y$TITLE$§!被收回.\n;;;;;;;;;;x

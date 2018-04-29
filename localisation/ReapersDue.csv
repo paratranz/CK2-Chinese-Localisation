@@ -278,7 +278,7 @@ center_of_worship_province;崇拜中心;;;;;;;;;;x
 RIP.11713.d;愚民们在这里建造了一个巨大的雕像。把它镀金拆下来卖，应该能卖几枚硬币。;;;;;;;;;;x
 ENFORCE_PEACE_BUTTON_DESC_INSTANT;执行全境和平将强制结束你直属封臣之间的所有战争。和平会在命令颁布3个月后生效，并持续五年。通过使用这个权力，可以让封臣不会在你的领地内过于壮大。;;;;;;;;;;x
 nick_the_nun;修女;;;;;;;;;;x
-DEATH_EXECUTION_LION;受令于$KILLER$，被狮子咬死;;;;;;;;;;x
+DEATH_EXECUTION_LION;因$KILLER$的命令被狮子咬死;;;;;;;;;;x
 DEATH_EXECUTION_LION_NO_KILLER;被狮子咬死;;;;;;;;;;x
 pet_cat_desc;你可爱的猫咪在你走近时轻柔地咕噜咕噜叫唤，它总是待在你身边，让你宽慰和温暖。;;;;;;;;;;x
 execute_eat;吃掉囚徒;;;;;;;;;;x
@@ -353,7 +353,7 @@ RULE_OPTION_ALL;所有;;;;;;;;;;x
 RULE_MONGOL_INVASION;蒙古入侵;;;;;;;;;;x
 RULE_RAIDING;劫掠;;;;;;;;;;x
 RULE_OPTION_UNRESTRICTED;无限制;;;;;;;;;;x
-RULE_EPIDEMICS;§B死神索命：§!主要瘟疫;;;;;;;;;;x
+RULE_EPIDEMICS;§B死神索命：§!大型瘟疫;;;;;;;;;;x
 RULE_EPIDEMICS_DYNAMIC;动态;;;;;;;;;;x
 RULE_EPIDEMICS_DEADLY;致命;;;;;;;;;;x
 RULE_SUPERNATURAL;超自然事件;;;;;;;;;;x
@@ -531,10 +531,10 @@ food_poisoning;食物中毒;;;;;;;;;;x
 food_poisoning_desc;这个角色食物中毒了———严重的上吐下泻，情况很糟但一般不会持续很久。;;;;;;;;;;x
 rabies;狂犬病;;;;;;;;;;x
 rabies_desc;这个角色患有狂犬病———脑部发炎肿胀，导致了极为怪异且富有攻击性的举止。;;;;;;;;;;x
-flu_death;因一次严重的流感;;;;;;;;;;x
+flu_death;一次严重的流感;;;;;;;;;;x
 dysentery_death;处理「卧室事务（痢疾）」;;;;;;;;;;x
 gout_death;因痛风引发的并发症;;;;;;;;;;x
-food_poisoning_death;在同腹中的饭菜进行了一次争吵之后（食物中毒）;;;;;;;;;;x
+food_poisoning_death;食物中毒;;;;;;;;;;x
 rabies_death;口吐白沫;;;;;;;;;;x
 cancer_death;癌症;;;;;;;;;;x
 cough_death;把[GetHerHis]肺都咳了出来;;;;;;;;;;x
@@ -542,16 +542,16 @@ fever_death;高烧不退，大汗淋漓;;;;;;;;;;x
 diarrhea_death;因腹泻导致的脱水;;;;;;;;;;x
 vomiting_death;喷射性呕吐;;;;;;;;;;x
 chest_pain_death;痛苦地抓着[GetHerHis]胸口，被心脏病杀死;;;;;;;;;;x
-cramps_death;因绞痛而不停抽搐;;;;;;;;;;x
+cramps_death;痉挛抽搐;;;;;;;;;;x
 rash_death;把[GetHerHis]自己的皮肤抓得血肉模糊;;;;;;;;;;x
-headache_death;从眼睛和耳朵中流出了鲜血;;;;;;;;;;x
+headache_death;眼耳流血;;;;;;;;;;x
 abdominal_pain_death;紧抓着[GetHerHis]肠子;;;;;;;;;;x
 fatigue_death;精疲力竭，动弹不得;;;;;;;;;;x
-malaise_death;不知道身体哪里出了问题;;;;;;;;;;x
+malaise_death;不知道身体哪里出的问题;;;;;;;;;;x
 infection_death;伤口感染;;;;;;;;;;x
 severely_injured;身受重伤;;;;;;;;;;x
 severely_injured_desc;这个角色伤重致残，生命垂危。如能伤愈，他将恢复健康，但已造成的伤害永远不能彻底治愈。;;;;;;;;;;x
-severely_injured_death;被[GetHerHis]重伤所压垮;;;;;;;;;;x
+severely_injured_death;[GetHerHis]重伤;;;;;;;;;;x
 mangled;血肉模糊;;;;;;;;;;x
 mangled_desc;这个角色曾身受恐怖的重伤，而今拖着残破的身躯生活。;;;;;;;;;;x
 mangled_death;身体血肉模糊;;;;;;;;;;x
@@ -865,7 +865,7 @@ EVTOPTB_RIP_14020;当时应该有更好的处理办法。;;;;;;;;;;x
 EVTDESCD_RIP_14020;住在[capital.GetName]的大多数人们态度发生了变化。唯一能解释的原因是'末日'已经变成了一个遥远的苦难未来。\n\n[Root.Religion.GetRandomGodName]帮助人们理顺了他们的生活，而且感觉变得纯洁，让人们感觉他们将被拯救。无论发生什么，即便继续有人死亡，剩下的人也将无所畏惧。;;;;;;;;;;x
 EVTDESCE_RIP_14020;住在[capital.GetName]的大多数人们态度发生了变化。唯一能解释的原因是'末日'已经变成了一个遥远的苦难未来。\n\n人们丝毫没有感谢我的努力，反而我的努力造成了更糟糕的后果。我想我的软弱让他们觉得还是得靠自己，采取强有力的行动而不是一味向我抱怨。现在情况好转，他们应该感激我，说真的。;;;;;;;;;;x
 EVTDESCF_RIP_14020;住在[capital.GetName]的大多数人们态度发生了变化。唯一能解释的原因是'末日'已经变成了一个遥远的苦难未来。\n\n我的演讲激发了人们战胜困难的勇气，并集中力量放在他们需要做的事情上，让日子一天天好转起来。甚至一位[Root.GetManWomanOpp]走过来告诉我说，我是如此的有魅力。;;;;;;;;;;x
-DEATH_EXECUTION_AZTEC_SACRIFICE;以$KILLER$的命令被祭天;;;;;;;;;;x
+DEATH_EXECUTION_AZTEC_SACRIFICE;因$KILLER$的命令被祭天;;;;;;;;;;x
 DEATH_EXECUTION_AZTEC_SACRIFICE_NO_KILLER;被用来祭天;;;;;;;;;;x
 DEATH_ACCIDENT_BOAR;被野猪撞死;;;;;;;;;;x
 break_non_aggression_pact;打破互不侵犯条约;;;;;;;;;;x
@@ -1117,8 +1117,8 @@ DEATH_EXECUTION_BACK_BREAKING;因$KILLER$的命令被折断[GetHerHis]背部;;;;
 DEATH_EXECUTION_BACK_BREAKING_NO_KILLER;被折断[GetHerHis]背部;;;;;;;;;;x
 DEATH_EXECUTION_WHEEL;因$KILLER$的命令被车轮碾碎;;;;;;;;;;x
 DEATH_EXECUTION_WHEEL_NO_KILLER;被车轮碾碎;;;;;;;;;;x
-DEATH_EXECUTION_BOAR;因$KILLER$的命令被野猪刺死;;;;;;;;;;x
-DEATH_EXECUTION_BOAR_NO_KILLER;被野猪刺死;;;;;;;;;;x
+DEATH_EXECUTION_BOAR;因$KILLER$的命令被野猪撞死;;;;;;;;;;x
+DEATH_EXECUTION_BOAR_NO_KILLER;被野猪撞死;;;;;;;;;;x
 opinion_took_my_advice;接受了我的建议;;;;;;;;;;x
 opinion_did_not_take_my_advice;未接受我的建议;;;;;;;;;;x
 opinion_did_not_trust_me;不信任我;;;;;;;;;;x
@@ -1513,7 +1513,7 @@ inspired_warriors;优秀的战士;;;;;;;;;;x
 respected_by_the_people;受人民尊重;;;;;;;;;;x
 bad_person;恶人;;;;;;;;;;x
 blessing_of_health;祝福健康;;;;;;;;;;x
-DEATH_SACRIFICED_ANCESTORS;被$KILLER$当做祭品祭献给了先祖;;;;;;;;;;x
+DEATH_SACRIFICED_ANCESTORS;被$KILLER$献祭给了先祖;;;;;;;;;;x
 EVTDESC_TOG_7000;你决定拜访神圣树林中的祭坛并为你祖先的荣耀奉上牺牲，以求取他们的帮助。对你的[Root.GetFatherMother]们你会要求什么呢？;;;;;;;;;;x
 EVTOPTA_TOG_7000;健康长寿;;;;;;;;;;x
 EVTOPTB_TOG_7000;我希望有爱和陪伴。;;;;;;;;;;x
@@ -2196,7 +2196,7 @@ EVTOPTA_77803_TOOLTIP;胆子真大！;;;;;;;;;;x
 pet_owl_desc;此鸟拥有大自然的优雅，以善意和好奇启迪所有看见它的人。;;;;;;;;;;x
 move_crown_focus;设定统治重心;;;;;;;;;;x
 move_crown_focus_desc;设定[Root.Location.GetName]为你的统治重心。[Root.Location.GetName] will be more likely to Prosper, and may receive special events. Only one County may be Crown Focus at a time.;;;;;;;;;;x
-feeble_death;因虚弱体质;;;;;;;;;;x
+feeble_death;体质虚弱;;;;;;;;;;x
 vsync;垂直同步;;;;;;;;;;x
 ADDHOLDING_EFFECT;增加$VAL|Y0$地产空格给$NAME|Y$;;;;;;;;;;x
 SET_TRUCE_EFFECT;在$CHAR|Y$和$TARGET|Y$之间执行停战协定直到$DATE|Y$。;;;;;;;;;;x
@@ -3460,7 +3460,7 @@ ALL_COURTIERS_AND_VASSALS;所有廷臣和封臣;;;;;;;;;;x
 ANY_PLAYER_STARTS;任何玩家;;;;;;;;;;x
 ALL_PLAYERS;所有玩家;;;;;;;;;;x
 DEATH_ACCIDENT_BEAR;死于暴熊;;;;;;;;;;x
-DEATH_ACCIDENT_DROWNING;死于溺水;;;;;;;;;;x
+DEATH_ACCIDENT_DROWNING;死于意外溺水;;;;;;;;;;x
 DEATH_ACCIDENT_ARROW;死于流矢;;;;;;;;;;x
 DEATH_ACCIDENT_FALL;死于意外坠落;;;;;;;;;;x
 DEATH_ACCIDENT_SNAKES;死于毒蛇咬伤;;;;;;;;;;x
@@ -3501,7 +3501,7 @@ severe_illness;严重病症;;;;;;;;;;x
 severe_illness_desc;这个人病得比想象中的严重。;;;;;;;;;;x
 bedridden_illness;卧床不起;;;;;;;;;;x
 bedridden_illness_desc;这个人病倒了并且几乎失去意识，不确定他是否能活下来。;;;;;;;;;;x
-RULE_MINOR_EPIDEMICS;§B 死神索命: §!小型瘟疫;;;;;;;;;;x
+RULE_MINOR_EPIDEMICS;§B死神索命：§!小型瘟疫;;;;;;;;;;x
 RULE_EPIDEMICS_DEFAULT_DESC;小型瘟疫会以默认概率出现。小而正常的爆发经常出现，大爆发很罕见。;;;;;;;;;;x
 RULE_OPTION_FEWER;更少;;;;;;;;;;x
 RULE_EPIDEMICS_FEWER_DESC;小型瘟疫以较低概率出现，大爆发的可能性完全去除。;;;;;;;;;;x

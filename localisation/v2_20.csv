@@ -560,11 +560,11 @@ CHRONICLE_FILL0006;在 [Root.GetName] 郡, 村民们见到血从天降下;;;;;;;
 CHRONICLE_FILL0007;在 [Root.GetName] 郡, 一股奇怪的瘟疫导致了上千野兔的死亡.;;;;;;;;;;x
 CHRONICLE_FILL0008; [Root.GetName] 发生了一场持续三天的地震.致使两百名农民和教士死亡.;;;;;;;;;;x
 CHRONICLE_FILL0009;春季,[Root.GetName]江洪爆发,波及面甚广.;;;;;;;;;;x
-CHRONICLE_DEATH_OF_LIEGE;领主[Player.GetTitledFirstNameWithNick] [Root.GetLordLady][Root.GetTitledName]大人,由于[From.GetDeathReason]而于 [GetDateText]逝世.;;;;;;;;;;x
-CHRONICLE_DEATH_OF_SPOUSE;[Root.GetTitledFirstNameWithNick], [Player.GetTitledName][Root.GetHusbandWife],因为[From.GetDeathReason]而逝世于  [GetDateText].;;;;;;;;;;x
-CHRONICLE_DEATH_OF_PARENT;[Root.GetTitledFirstNameWithNick],  [Player.GetTitledName] [Root.GetFatherMother],因为[From.GetDeathReason]而逝世于 [GetDateText].;;;;;;;;;;x
-CHRONICLE_DEATH_OF_HEIR;[Root.GetTitledFirstNameWithNick],[Player.GetTitledName]的继承人,因为[From.GetDeathReason]而逝世于 [GetDateText].;;;;;;;;;;x
-CHRONICLE_DEATH_OF_RELIGION_HEAD;[Root.GetBestName],[Root.Religion.GetName]忠诚而虔信的引领者, 因为[Root.GetDeathReason]而逝世于[GetDateText].;;;;;;;;;;x
+CHRONICLE_DEATH_OF_LIEGE;[Root.GetTitledName]，领主[Root.GetLordLady][Player.GetTitledFirstNameWithNick]，于[GetDateText][From.GetDeathReason]。;;;;;;;;;;x
+CHRONICLE_DEATH_OF_SPOUSE;[Root.GetTitledFirstNameWithNick]，[Player.GetTitledName]的[Root.GetHusbandWife]，于  [GetDateText][From.GetDeathReason]。;;;;;;;;;;x
+CHRONICLE_DEATH_OF_PARENT;[Root.GetTitledFirstNameWithNick]，[Player.GetTitledName] [Root.GetFatherMother]，于 [GetDateText][From.GetDeathReason]。;;;;;;;;;;x
+CHRONICLE_DEATH_OF_HEIR;[Root.GetTitledFirstNameWithNick]，[Player.GetTitledName]的继承人，于[GetDateText][From.GetDeathReason]。;;;;;;;;;;x
+CHRONICLE_DEATH_OF_RELIGION_HEAD;[Root.GetBestName]，[Root.Religion.GetName]忠诚而虔信的引领者，于[GetDateText][Root.GetDeathReason]。;;;;;;;;;;x
 CHRONICLE_BIRTH_FATHER;[Root.GetFirstName],[Root.Father.GetTitledName]的第一个[Root.GetSonDaughter]出生了.;;;;;;;;;;x
 CHRONICLE_BIRTH_MOTHER;[Root.GetFirstName],[Root.Mother.GetTitledName]的第一个[Root.GetSonDaughter]出生了.;;;;;;;;;;x
 CHRONICLE_WAR_DECLARED_ATTACKER;[From.GetTitledName]征伐 [Prev.GetTitledName].;;;;;;;;;;x
