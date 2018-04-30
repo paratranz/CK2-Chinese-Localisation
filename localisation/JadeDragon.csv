@@ -766,7 +766,7 @@ force_vassalization_desc;§Y$TARGET$§!现在积弱而又急切地寻求庇护�
 dejure_duchy_claim_desc;§Y$TITLE$§!是§Y$CLAIMANT$§!的一个法理封臣。我们可以消耗一大笔§Y威望§!来发动战争夺取整块公爵领！;;;;;;;;;;x
 CB_NAME_GREATREALMCONFLICT;[Title.GetBaseName]大征服;;;;;;;;;;x
 WAR_NAME_GREATREALMCONFLICT;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ $OTHER_TITLE$ 大征服;;;;;;;;;;x
-great_realm_conflict_desc;你很有权势，§Y$TARGET$§也是如此 —— 是时候向他们展示谁才是最强之人！通过消耗一大笔§Y威望§!和§Y虔诚§!，你可以为了整个王国宣战，只要他们不比你弱小。;;;;;;;;;;x
+great_realm_conflict_desc;你很有权势，§Y$TARGET$§!也是如此——是时候向他们展示谁才是最强之人！通过消耗一大笔§Y威望§!和§Y虔诚§!，你可以为了整个王国宣战，只要他们不比你弱小。;;;;;;;;;;x
 CB_NAME_DUCALCOUNTYCONQUEST;[Title.GetBaseName]公爵领征服;;;;;;;;;;x
 WAR_NAME_DUCALCOUNTYCONQUEST;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ $OTHER_TITLE$ 公爵领征服;;;;;;;;;;x
 ducal_county_conquest_desc;你拥有§Y$TARGET$§!公国的宣称。 通过花费§Y虔诚§! 和§Y金钱§! ，你就可以发起获取该公国下属土地的战争。 这开战理由只提供给伯爵或公爵级的角色;;;;;;;;;;x
@@ -2037,7 +2037,7 @@ emperor_has_ambiguous_feelings_of_THIS_tt;（§G皇帝喜欢 [This.GetLike]§! �
 send_eunuch_potential_tt;§Y宦官要求§!：\n必须是有卓越才能的成年男性，或者是你年满十二岁的近亲\n不可持有领地\n不可有以下任何特质：§Y无能§!， §Y近亲缺陷§!，或者§Y低能§!;;;;;;;;;;x
 send_concubine_potential_tt;§Y侍妾要求§!:\n必须是你的近亲\n必须成年\n必须小于45岁\n不能结婚或者订婚\n不可有以下任何特质：§Y无能§!， §Y近亲缺陷§!，或者§Y低能§!;;;;;;;;;;x
 SAVE_LOAD_RESTART_NEEDED;§R加载多个存档会导致OOS问题。\n重启游戏或主机以选择其它的剧本或存档§!;;;;;;;;;;x
-OFFMAP_VIEW_BUTTON_DELAYED;§G右键点击§!以打开$OFFMAP_SHORT|Y$§G地图模式。;;;;;;;;;;x
+OFFMAP_VIEW_BUTTON_DELAYED;§G点击右键§!以打开$OFFMAP_SHORT|Y$§G地图模式。;;;;;;;;;;x
 DEATH_IN_CHINA_NO_KILLER;死在中国;;;;;;;;;;x
 DEATH_IN_CHINA;在中国死于 $KILLER$ 之手;;;;;;;;;;x
 OFFMAP_HISTORY_TOOLTIP;§Y查看历史§!;;;;;;;;;;x
@@ -2485,7 +2485,7 @@ EVTOPTA_JD_3021;我们将鞠躬尽瘁地辅佐皇帝！;;;;;;;;;;x
 d_army_light;光之军;;;;;;;;;;x
 chinese_artifact;请赐中国宝物;;;;;;;;;;x
 chinese_artifact_desc;§Y[Root.Offmap.GetFullName]§!的工匠和艺术家以创造高超和美丽的艺术而闻名。 您可以要求获得一件宝物。 你将会随机收到一个品质从§Y1§! 到 §Y3§!的宝物。;;;;;;;;;;x
-chinese_artifact_has_all_tt;已经没有任何等级 §Y1§ 到 等级  §Y3§ 的中国宝物了;;;;;;;;;;x
+chinese_artifact_has_all_tt;已经没有任何等级 §Y1§! 到等级 §Y3§! 的中国宝物了;;;;;;;;;;x
 chinese_artifact_effect_tt;您将收到一个 §Y中国宝物§!!;;;;;;;;;;x
 EVTDESC_JD_3031;[Root.GetGovernorLetterGreeting]. [Root.GetChineseLetterBlessing].\n\n神圣的[From.Offmap.Ruler.GetLongChineseEmperorName]慷慨地满足了你的愿望。一件出自[From.Offmap.Ruler.Culture.GetName]匠人之手的惊人工艺品将被你妥善保管。;;;;;;;;;;x
 EVTOPTA_JD_3031;真是个绝妙的物品！;;;;;;;;;;x
@@ -2823,7 +2823,7 @@ china_tribute_send_eunuch_congenital_tt;有一个 §Y正面的§! 先天特质;;
 china_tribute_send_eunuch_non_inherit_congenital_tt;具有§Y正面的§!不可遗传的先天特质;;;;;;;;;;x
 china_tribute_send_eunuch_gift_tt;一个阉人被作为礼物送给你。;;;;;;;;;;x
 courtier_from_china_trigger_tt;是一位来自中国的廷臣;;;;;;;;;;x
-is_ascetic_tooltip;有 §苦行者§! 特质;;;;;;;;;;x
+is_ascetic_tooltip;有§Y苦行者§!特质;;;;;;;;;;x
 china_tribute_send_concubine_preference_tt;被§Y[offmap_china.Ruler.GetEmperorEmpress]§!看中了;;;;;;;;;;x
 send_artifact_potential_tt;是一件优质宝物 (不是被诅咒或出自中国);;;;;;;;;;x
 chinese_request_invasion_rel_head_tt;不能持有§Y公爵§!以上级别的宗教领袖头衔;;;;;;;;;;x
@@ -4589,7 +4589,7 @@ EVTOPTC_JD_15002_tt;在[other_ruler.GetTitle]还没来的及完成傻笑前，�
 EVTOPTB_JD_15002;我不会屈服于怠惰。卫兵，把我的剑给我，现在！;;;;;;;;;;x
 you_get_away_tt;你活了下来，继续走上了你的旅程\n;;;;;;;;;;x
 you_dont_get_away_tt;你躲开了，但还是受伤了！\n;;;;;;;;;;x
-you_will_be_killed_in_a_duel_tt;在和§Y[From.GetTitledFirstName]§的决斗中被杀害！！\n;;;;;;;;;;x
+you_will_be_killed_in_a_duel_tt;在和§Y[From.GetTitledFirstName]§!的决斗中被杀害！\n;;;;;;;;;;x
 EVTDESC_JD_15003;“啊，同行的旅行者们！”一个[other_ruler.GetManWoman]军人大声喊道，同时一大群士兵伴随着他出现，包围了我们的营地。“我是[other_ruler.GetTitledFirstName]。我们在护送[Root.GetLordLady]到[Root.GetRandomChineseRegion]。”[other_ruler.GetSheHeCap]示意让[Root.GetHerHis]的部队加入我的随行人员，一起过夜。;;;;;;;;;;x
 EVTOPTA_JD_15003;哦，[other_ruler.GetTitledFirstName]！此一时彼一时嘛。;;;;;;;;;;x
 EVTOPTA_JD_15003_tt;虽然你没有雇佣这些雇佣军， 但你的车队会得到更强大的军事力量的保护。\n;;;;;;;;;;x
