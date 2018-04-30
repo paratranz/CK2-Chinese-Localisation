@@ -568,7 +568,7 @@ CHRONICLE_DEATH_OF_RELIGION_HEAD;[Root.GetBestName]，[Root.Religion.GetName]忠
 CHRONICLE_BIRTH_FATHER;[Root.GetFirstName],[Root.Father.GetTitledName]的第一个[Root.GetSonDaughter]出生了.;;;;;;;;;;x
 CHRONICLE_BIRTH_MOTHER;[Root.GetFirstName],[Root.Mother.GetTitledName]的第一个[Root.GetSonDaughter]出生了.;;;;;;;;;;x
 CHRONICLE_WAR_DECLARED_ATTACKER;[From.GetTitledName]征伐 [Prev.GetTitledName].;;;;;;;;;;x
-CHRONICLE_WAR_DECLARED_DEFENDER;[Prev.PrimaryTitle.GetName] 被 [From.PrimaryTitle.GetName][From.Culture.GetName]进攻,进攻方的统治者为 [From.GetTitledFirstNameWithNick].;;;;;;;;;;x
+CHRONICLE_WAR_DECLARED_DEFENDER;[Prev.PrimaryTitle.GetName] 被[From.Culture.GetName]国家[From.PrimaryTitle.GetName]进攻，进攻方的统治者为 [From.GetTitledFirstNameWithNick]。;;;;;;;;;;x
 CHRONICLE_FRIENDLY_CRUSADE_STARTED;[Root.GetTitledName]发起了一次 [Root.Religion.GetCrusadeName]，其中所有虔诚的 [Root.Religion.GetName]们受到感召而前来[From.GetName] 从[New.Religion.GetName]掌控下重新夺回。;;;;;;;;;;x
 CHRONICLE_UNFRIENDLY_CRUSADE_STARTED;[Root.GetTitledName]发起了一次 [Root.Religion.GetCrusadeName]，一众亵渎神灵的[Root.Religion.GetName]受到络绎不绝的号召，前去从[New.Religion.GetName]的手中征服[From.GetName]。;;;;;;;;;;x
 CHRONICLE_CRUSADE_WON;[From.RelHead.GetDynName]发动的[From.Religion.GetCrusadeName]结束。成功地从[New.Religion.GetName]手中占领了[Root.GetName]。;;;;;;;;;;x
@@ -579,10 +579,10 @@ CHRONICLE_AZTECS_FIRST_CONTACT;奇怪船只上的陌生人在 [FromFromFrom.Hold
 CHRONICLE_AZTEC_INVASION;阿兹台克皇帝带领着部众与军队跨海而来,他们犹如一场可怕的灾难席卷[FromFromFrom.Holder.PrimaryTitle.GetName],除了杀戮与破坏,别无所予.;;;;;;;;;;x
 CHRONICLE_CREATED_TITLE;[Root.GetDynName]正式创建头衔[From.GetFullName],并通过一系列仪式和庆典以确认[Root.GetHerHis]权势不断地成长.;;;;;;;;;;x
 CHRONICLE_USURPED_TITLE;[Root.GetDynName]从[FromFrom.GetDynName]名下篡夺了[From.GetFullName] 的头衔.;;;;;;;;;;x
-CHRONICLE_RUNESTONE_FATHER;[Root.GetTitledName]在符石上记下了[Root.GetHerHis]父亲[Root.Father.GetTitledFirstNameWithNick]的荣光时刻.;;;;;;;;;;x
-CHRONICLE_RUNESTONE_MOTHER;[Root.GetTitledName]在符石上记下了[Root.GetHerHis]父亲[Root.Mother.GetTitledFirstNameWithNick]的荣光时刻.;;;;;;;;;;x
+CHRONICLE_RUNESTONE_FATHER;[Root.GetTitledName] 在符石上记下了[Root.GetHerHis]父亲 [Root.Father.GetTitledFirstNameWithNick]的荣光时刻.;;;;;;;;;;x
+CHRONICLE_RUNESTONE_MOTHER;[Root.GetTitledName] 在符石上记下了[Root.GetHerHis]父亲 [Root.Mother.GetTitledFirstNameWithNick]的荣光时刻.;;;;;;;;;;x
 CHRONICLE_RUNESTONE_GENERIC;[Root.GetTitledName]在符石上记下了[Root.GetHerselfHimself]记忆中的荣光时刻.;;;;;;;;;;x
-CHRONICLE_RUNESTONE_LUNATIC;[Root.GetTitledNameWithNick]在符石上记下了[Root.GetHerHis]记忆中曾经在龙头长船上探险过的种种.;;;;;;;;;;x
+CHRONICLE_RUNESTONE_LUNATIC;[Root.GetTitledNameWithNick]在符石上记下了[Root.GetHerHis]记忆中曾经在龙头长船上探险过的种种。;;;;;;;;;;x
 CHRONICLE_RUNESTONE_DRUNKARD;[Root.GetTitledName]在符石上记下了庆幸[Root.GetHerHis]爱好是蜂蜜酒.;;;;;;;;;;x
 CHRONICLE_RUNESTONE_FAIR;[Root.GetTitledName]在符石上记下了,他曾盛赞[Root.GetHerHis]惊人美貌.(论美貌你是敌不过我的);;;;;;;;;;x
 CHRONICLE_RUNESTONE_DWARF;[Root.GetTitledName]在符石上记下,[Root.GetHerHis]意志力曾被赞誉像巨人一样强大.;;;;;;;;;;x
@@ -648,7 +648,7 @@ CHRONICLE_PILGRIMAGE_TO_KOLN;[Root.GetTitledName]往科隆,进行了一趟说走
 CHRONICLE_PILGRIMAGE_TO_SANTIAGO;[Root.GetTitledName]往圣地亚哥,进行了一场说走就走的朝圣之旅.;;;;;;;;;;x
 CHRONICLE_WENT_ON_HAJJ;[Root.GetTitledName]前往麦加城朝圣.;;;;;;;;;;x
 CHRONICLE_HELD_BLOT;[Root.GetTitledName]在[Root.Location.GetName]举行了一场盛大的牺牲祭典活动.;;;;;;;;;;x
-CHRONICLE_PLAYER_ACQUIRED_NICKNAME;[Root.GetTitledName],由于他的行为与	性格,成为了人们众所周知的[Root.GetTitledFirstNameWithNick].;;;;;;;;;;x
+CHRONICLE_PLAYER_ACQUIRED_NICKNAME;[Root.GetTitledName]，由于他的行为与性格，成为了人们众所周知的 [Root.GetTitledFirstNameWithNick]。;;;;;;;;;;x
 CHRONICLE_HERESY_SPREAD;[From.Religion.GetName] 传播到了这个郡 [From.GetName];;;;;;;;;;x
 CHRONICLE_BECAME_KSHATRIYA;[Root.GetTitledFirstNameWithNick]上升成为了刹帝利种姓,使得[Root.GetHerHis]家族王朝在[Root.Religion.GetName]君主当中,获得了新的威望.;;;;;;;;;;x
 CHRONICLE_CAPTURED_MAJOR_SETTLEMENT_MYSELF; [Root.GetTitledName] 成功地带领着[Root.GetHerHis]军队,从敌人手中夺取了[From.GetName].;;;;;;;;;;x
@@ -1024,15 +1024,15 @@ EVTOPTA_CM_63599;该死!;;;;;;;;;;x
 FE_LOAD_GAME;载入游戏;;;;;;;;;;x
 START_GAME;开始游戏;;;;;;;;;;x
 CUSTOM_GAME;传统开始界面;;;;;;;;;;x
-EVTDESC_CM_2022;[From.Guardian.GetTitledFirstNameWithNick]对于你的[From.GetSonDaughter] [From.GetFirstName]具有非同寻常的影响力. 通过[From.GetHerHis]监护人的以身作则,[From.GetSheHe]逐渐变成一位勇敢的年轻[From.GetManWoman].;;;;;;;;;;x
+EVTDESC_CM_2022;[From.Guardian.GetTitledFirstNameWithNick]对于你的[From.GetSonDaughter] [From.GetFirstName] 具有非同寻常的影响力。通过[From.GetHerHis]监护人的以身作则，[From.GetSheHe]逐渐变成一位勇敢的年轻[From.GetManWoman]。;;;;;;;;;;x
 EVTOPTA_CM_2022;太棒了!;;;;;;;;;;x
 EVTOPTB_CM_2022;[From.GetSheHe]应该清楚自己的地位...;;;;;;;;;;x
-EVTDESC_CM_2024;[From.Guardian.GetTitledFirstNameWithNick]对于你的[From.GetSonDaughter] [From.GetFirstName]具有非同寻常的影响力.通过不断的联系骑术与剑术,[From.GetSheHe]逐渐成为一名精壮而年轻的[From.GetManWoman].;;;;;;;;;;x
-EVTDESC_CM_2026;由于[From.Guardian.GetTitledFirstNameWithNick]对于你的[From.GetSonDaughter] [From.GetFirstName]具有巨大的影响力. [From.GetSheHe]逐渐的对剑术十分感兴趣.;;;;;;;;;;x
+EVTDESC_CM_2024;[From.Guardian.GetTitledFirstNameWithNick]对于你的[From.GetSonDaughter] [From.GetFirstName] 具有非同寻常的影响力。通过不断的联系骑术与剑术，[From.GetSheHe]逐渐成为一名精壮而年轻的[From.GetManWoman]。;;;;;;;;;;x
+EVTDESC_CM_2026;由于 [From.Guardian.GetTitledFirstNameWithNick]对于你的[From.GetSonDaughter] [From.GetFirstName] 具有巨大的影响力。[From.GetSheHe]逐渐地对剑术十分感兴趣。;;;;;;;;;;x
 EVTOPTA_CM_2026;有利有弊吧...;;;;;;;;;;x
 EVTOPTB_CM_2026;很棒我的好儿子!;;;;;;;;;;x
 EVTOPTC_CM_2026;很棒我的好女儿!;;;;;;;;;;x
-EVTDESC_CM_2028;由于[From.Guardian.GetTitledFirstNameWithNick]对于你的[From.GetSonDaughter] [From.GetFirstName]具有巨大的影响力.通过[From.GetHerHis]监护人的循循教诲,[From.GetSheHe]正在学习一名公正统治者该有的精神.;;;;;;;;;;x
+EVTDESC_CM_2028;由于[From.Guardian.GetTitledFirstNameWithNick]对于你的[From.GetSonDaughter] [From.GetFirstName] 具有巨大的影响力。通过[From.GetHerHis]监护人的循循教诲，[From.GetSheHe]正在学习一名公正统治者该有的精神。;;;;;;;;;;x
 EVTOPTA_CM_2028;[From.GetSheHe]真令我自豪!;;;;;;;;;;x
 EVTOPTB_CM_2028;这种想法真愚蠢!;;;;;;;;;;x
 EVTDESC_CM_2030;我的[Root.GetLordLady]，您的[From.GetSonDaughter] [From.GetFirstName]在和[From.Guardian.GetTitledFirstName]练习骑马与砍杀的时候,[From.GetHerHis]坐骑突然失控把他重重地摔在了地上.!;;;;;;;;;;x
