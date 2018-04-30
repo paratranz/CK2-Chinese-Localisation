@@ -272,10 +272,10 @@ RIP.11711.b;能让[Root.Religion.GetHighGodNameCap]付钱吗？;;;;;;;;;;x
 jewish_settlement_province;犹太定居点;;;;;;;;;;x
 glorious_monument_province;光荣的丰碑;;;;;;;;;;x
 merchant_harbor_province;商业港口;;;;;;;;;;x
-scholar_foundation_province;学者的研究会;;;;;;;;;;x
+scholar_foundation_province;学者基金会;;;;;;;;;;x
 great_library_province;大图书馆;;;;;;;;;;x
-center_of_worship_province;崇拜中心;;;;;;;;;;x
-RIP.11713.d;愚民们在这里建造了一个巨大的雕像。把它镀金拆下来卖，应该能卖几枚硬币。;;;;;;;;;;x
+center_of_worship_province;崇拜的中心;;;;;;;;;;x
+RIP.11713.d;愚民们在这里建造了一个巨大的雕像。拆了它，并且把它的镀金层拿去卖了，应该能得到几枚硬币。;;;;;;;;;;x
 ENFORCE_PEACE_BUTTON_DESC_INSTANT;执行全境和平将强制结束你直属封臣之间的所有战争。和平会在命令颁布3个月后生效，并持续五年。通过使用这个权力，可以让封臣不会在你的领地内过于壮大。;;;;;;;;;;x
 nick_the_nun;修女;;;;;;;;;;x
 DEATH_EXECUTION_LION;因$KILLER$的命令被狮子咬死;;;;;;;;;;x
@@ -287,21 +287,21 @@ DEATH_EXECUTION_EATEN;被$KILLER$大口吞食;;;;;;;;;;x
 DEATH_EXECUTION_EATEN_NO_KILLER;被吞噬;;;;;;;;;;x
 EVTDESC_RIP_11510;吸收了[From.GetTitledFirstName]的生命之力，我亦获得了[From.GetHerHis]一部分人格和力量！;;;;;;;;;;x
 EVTOPTA_RIP_11510;无限的力量！;;;;;;;;;;x
-EVTDESC_RIP_11511;我刚收到消息，疯狂的食人者[FromFrom.GetTitledName]吃掉了我的[GetFromRelation][From.GetFirstName]！[Root.Religion.GetRandomGodNameCap]啊！这是人干的事？;;;;;;;;;;x
+EVTDESC_RIP_11511;我刚收到消息，疯狂的食人者[FromFrom.GetTitledName]吃掉了我的[GetFromRelation] [From.GetFirstName]！[Root.Religion.GetRandomGodNameCap]啊！这是人干的事？;;;;;;;;;;x
 EVTOPTA_RIP_11511;是可忍孰不可忍！;;;;;;;;;;x
 crazy_cannibal;疯狂的食人者;;;;;;;;;;x
 crazy_cannibal_desc;这个堕落的角色被认为是一个恶毒的食人魔，这家伙甚至不试图隐藏事实！;;;;;;;;;;x
 RULE_AI_INTRIGUE;§B生活之道：§! AI密谋;;;;;;;;;;x
-RULE_AI_INTRIGUE_ON_DESC;AI统治者若开启密谋生活重心，会阴谋并尝试绑架或谋杀其他角色。;;;;;;;;;;x
+RULE_AI_INTRIGUE_ON_DESC;AI统治者若开启密谋生活重心，他们会进行阴谋并尝试绑架或谋杀其他角色。;;;;;;;;;;x
 RULE_AI_INTRIGUE_OFF_DESC;AI统治者绝不会选择密谋生活重心;;;;;;;;;;x
 HAS_SYMPTOM;$VICTIM|Y$患有$SYMPTOM|Y$;;;;;;;;;;x
 HAS_SYMPTOM_NOT;$VICTIM|Y$没有$SYMPTOM|Y$;;;;;;;;;;x
-HAS_ANY_SYMPTOM;有病症$VICTIM|Y$;;;;;;;;;;x
+HAS_ANY_SYMPTOM;$VICTIM|Y$有病症;;;;;;;;;;x
 HAS_ANY_SYMPTOM_NOT;$VICTIM|Y$没有任何病症;;;;;;;;;;x
 PROVINCE_INFECTED_WITH;正在肆虐的瘟疫：;;;;;;;;;;x
 PROVINCE_PROTECTED_BY;有$VALUE|G$%的瘟疫抗性;;;;;;;;;;x
 PROVINCE_MIGHT_GET;可能感染下列疾病：;;;;;;;;;;x
-PROVINCE_MIGHT_GET_LINE;-$VALUE|Y$的几率感染$DISEASE|Y$;;;;;;;;;;x
+PROVINCE_MIGHT_GET_LINE;感染$DISEASE|Y$的几率-$VALUE|Y$;;;;;;;;;;x
 EPIDEMICS_TOOLTIP_TITLE;§Y瘟疫§!;;;;;;;;;;x
 EPIDEMICS_TOOLTIP_TOTAL;世界正受到$VALUE|Y$个瘟疫肆虐，包括$MAJOR|R$主要瘟疫。;;;;;;;;;;x
 EPIDEMICS_TOOLTIP_TOTAL_MAJOR_ONLY;世界正受$MAJOR|R$主要瘟疫肆虐。;;;;;;;;;;x
@@ -309,7 +309,7 @@ EPIDEMICS_TOOLTIP_TOTAL_MINOR_ONLY;世界正受$VALUE|Y$个瘟疫肆虐。;;;;;;
 EPIDEMICS_TOOLTIP_PLAYER_MAJOR_MINOR;你的领地正受$MAJOR|R$主要瘟疫和$MINOR|Y$其他瘟疫肆虐;;;;;;;;;;x
 EPIDEMICS_TOOLTIP_PLAYER_MAJOR_ONLY;你的领地正受$MAJOR|R$主要瘟疫肆虐;;;;;;;;;;x
 EPIDEMICS_TOOLTIP_PLAYER_MINOR_ONLY;你的领地正受$MINOR|Y$瘟疫肆虐;;;;;;;;;;x
-EPIDEMICS_TOOLTIP_DELAYED_PLAYER;现在你领地内的瘟疫：;;;;;;;;;;x
+EPIDEMICS_TOOLTIP_DELAYED_PLAYER;现在在你领地内的瘟疫：;;;;;;;;;;x
 EPIDEMICS_TOOLTIP_DELAYED_VALUE;- $DISEASE$开始于$PROVINCE|Y$，$START_DATE|Y$;;;;;;;;;;x
 EPIDEMICS_TOOLTIP_DELAYED_OTHERS;世界其他瘟疫：;;;;;;;;;;x
 EPIDEMICS_TOOLTIP_DELAYED_OTHERS_NOPLAYER;全世界正在肆虐的瘟疫：;;;;;;;;;;x
@@ -320,9 +320,9 @@ MAPMODE_EPIDEMICS_DESC;此地图模式展示所有受瘟疫肆虐的省份。;;;
 YEARS_PLAYED_TRIGGER_LESSTHAN;此局游戏持续时间少于$VALUE|Y$年;;;;;;;;;;x
 YEARS_PLAYED_TRIGGER_ATLEAST;此局游戏持续时间至少$VALUE|Y$年;;;;;;;;;;x
 NO_REGION;无区域;;;;;;;;;;x
-opinion_alliance_breaker;违背盟约;;;;;;;;;;x
+opinion_alliance_breaker;背盟者;;;;;;;;;;x
 alliance_breaker;背盟者;;;;;;;;;;x
-AIREASON_ALLIANCE_BREAKER;无法信任的§Y背盟者§!;;;;;;;;;;x
+AIREASON_ALLIANCE_BREAKER;靠不住的§Y背盟者§!;;;;;;;;;;x
 PV_HOSPITAL;医院;;;;;;;;;;x
 HOSPITAL_PROV;$PROV$的医院;;;;;;;;;;x
 ANY_HOSPITAL_STARTS;任何医院;;;;;;;;;;x
@@ -375,22 +375,22 @@ RULE_AZTEC_INVASION_RANDOM_DESC;阿兹特克入侵会在游戏开始后随机发
 RULE_AZTEC_INVASION_OFF_DESC;阿兹特克入侵将不会发生。;;;;;;;;;;x
 RULE_DEFENSIVE_PACTS_ON_DESC;人物可以加入防御协定以对抗极具威胁的势力。如果盟约内的一名成员遭到目标的进攻，其他成员将加入战争一同对抗。;;;;;;;;;;x
 RULE_DEFENSIVE_PACTS_OFF_DESC;人物将不能加入共同防御协定以对抗极具威胁的势力。这一般会使得游戏更为简单。;;;;;;;;;;x
-RULE_GENDER_DEFAULT_DESC;各种性别法是否可选将与默认一致，一些特定的文化与信仰或许会允许或禁止某些性别法。与秘密会议'女性地位'相关的一系列法案都可用。;;;;;;;;;;x
-RULE_GENDER_HISTORICAL_DESC;各种性别法是否可选将与默认一致，一些特定的文化与信仰或许会允许或禁止某些性别法。与秘密会议'女性地位'相关的一系列法案都将关闭。;;;;;;;;;;x
-RULE_GENDER_ALL_DESC;游戏中，'女性地位'法将对所有人开启至最大，而内阁会议DLC中'女性地位'相关的一系列法案对所有人都不可用。;;;;;;;;;;x
+RULE_GENDER_DEFAULT_DESC;各种性别法是否可选将与默认一致，一些特定的文化与信仰或许会允许或禁止某些性别法。与秘密会议「女性地位」相关的一系列法案都可用。;;;;;;;;;;x
+RULE_GENDER_HISTORICAL_DESC;各种性别法是否可选将与默认一致，一些特定的文化与信仰或许会允许或禁止某些性别法。与秘密会议「女性地位」相关的一系列法案都将禁用。;;;;;;;;;;x
+RULE_GENDER_ALL_DESC;游戏中，「女性地位」法将对所有人开启至最大，而内阁会议DLC中「女性地位」相关的一系列法案对所有人都不可用。;;;;;;;;;;x
 RULE_MONGOL_INVASION_HISTORICAL_DESC;蒙古部落将于1210至1218年间发动入侵。;;;;;;;;;;x
 RULE_MONGOL_INVASION_RANDOM_DESC;蒙古部落将于随机的日期发动入侵，但最早会在游戏开始50年后。;;;;;;;;;;x
 RULE_MONGOL_INVASION_OFF_DESC;蒙古部落将不会发动入侵，但这依旧可以通过选择决议来开启。;;;;;;;;;;x
 RULE_RAIDING_HISTORICAL_DESC;在政体、文化和/或信仰允许的情况下，角色可以发动劫掠。;;;;;;;;;;x
 RULE_RAIDING_UNRESTRICTED_DESC;所有角色都能发动劫掠，不受政体、文化和/或信仰的限制。;;;;;;;;;;x
-RULE_RAIDING_OFF_DESC;所有角色都不能发动掠夺，唯一的例外即是袭击冒险者。 §R警告：这将同样阻止维京入侵！§!;;;;;;;;;;x
+RULE_RAIDING_OFF_DESC;所有角色都不能发动掠夺，唯一的例外即是劫掠冒险者。§R警告：这将同样阻止维京入侵！§!;;;;;;;;;;x
 RULE_EPIDEMICS_DEADLY_DESC;腺鼠疫将频繁出现并伴有极高的致死性。 §R警告：常规游戏不推荐选择本项！§!;;;;;;;;;;x
 RULE_SUPERNATURAL_ON_DESC;可被视为超自然现象的事件会出现在游戏中。;;;;;;;;;;x
 RULE_SUPERNATURAL_OFF_DESC;可被视为超自然现象的事件不会出现在游戏中。;;;;;;;;;;x
 RULE_FLANDERS_HRE_DESC;佛兰德斯是神圣罗马帝国的法理领土。;;;;;;;;;;x
 RULE_ADVENTURERS_NORMAL_DESC;默认会出现宣称者与劫掠冒险者。;;;;;;;;;;x
 RULE_ADVENTURERS_RARE_DESC;宣称者与劫掠冒险者的出现频率会下降。;;;;;;;;;;x
-RULE_ADVENTURERS_NONE_DESC;除了没有领地的游牧民和特殊事件产生的冒险者之外，宣称者与袭击冒险者将不会出现。;;;;;;;;;;x
+RULE_ADVENTURERS_NONE_DESC;除了没有领地的游牧民和特殊事件产生的冒险者之外，宣称者与劫掠冒险者将不会出现。;;;;;;;;;;x
 RULE_PROVINCE_REVOLTS_NORMAL_DESC;随机省份叛乱将以正常的频率暴发。;;;;;;;;;;x
 RULE_PROVINCE_REVOLTS_RARE_DESC;随机省份叛乱将以较低的频率暴发。;;;;;;;;;;x
 RULE_PROVINCE_REVOLTS_NONE_DESC;禁止随机省份叛乱。;;;;;;;;;;x

@@ -154,7 +154,7 @@ FACTION_MEMBER_JOINS_LOG;§Y$CHARNAME$§! 已经加入了 '$OBJECTIVE$' 派系.;
 FACTION_MEMBER_LEAVES_SETUP;贵族离开派系;;;;;;;;;;x
 FACTION_MEMBER_LEAVES_LOG;§Y$CHARNAME$§! 已经离开了 '$OBJECTIVE$' 派系.;;;;;;;;;;x
 FACTIONS_LABEL;在 $TITLE$ 的派系;;;;;;;;;;x
-RETINUE_OF;$CHARACTER$ 的亲卫队;;;;;;;;;;x
+RETINUE_OF;$CHARACTER$ 的近卫军;;;;;;;;;;x
 TECH_RECRUITMENT;军事组织;;;;;;;;;;x
 TECH_RECRUITMENT_DESC;强化征募和战场组织.;;;;;;;;;;x
 START_A_FACTION;发起一个派系;;;;;;;;;;x
@@ -214,14 +214,14 @@ holy_warrior;圣战士;;;;;;;;;;x
 holy_warrior_desc;这个人物在同野蛮人和异教徒作战时战斗力最强，但在同相同信仰的敌人作战时犹豫不决.;;;;;;;;;;x
 unyielding_leader;不屈的;;;;;;;;;;x
 unyielding_leader_desc;这个人物会顽强的战斗到最后一刻，并且强迫他的部下同他一起这样做，拒绝任何妥协.;;;;;;;;;;x
-MIN_RETINUE;所有有领地的贵族的最小亲卫队: $MIN_RET$;;;;;;;;;;x
+MIN_RETINUE;所有有领地的贵族的最小近卫军：$MIN_RET$;;;;;;;;;;x
 BUY_RETINUE;建立一只名为§Y$NAME$§! 的亲卫队, 开始几乎是没有人力但会慢慢补充起来的.;;;;;;;;;;x
 RETTYPE_INF1;冲击;;;;;;;;;;x
 RETTYPE_INF2;防御;;;;;;;;;;x
 RETTYPE_CAV1;骑兵;;;;;;;;;;x
 RETTYPE_SKIR1;小冲突;;;;;;;;;;x
 LEVY_UPKEEP;征召兵维护费;;;;;;;;;;x
-RETINUE_UPKEEP;亲卫队维护费;;;;;;;;;;x
+RETINUE_UPKEEP;近卫军维护费;;;;;;;;;;x
 LIEGE_LEVY_OF;领主征召 $VASSAL$ 的部队;;;;;;;;;;x
 LIEGE_LEVY_DESC_COULD_SUPPLY;§Y$VASSAL$§! 能够提供最多 §Y$NUM$§! $TYPE$\n;;;;;;;;;;x
 LIEGE_LEVY_DESC_LIEGE_TOTAL;你最多能够征集 $PERC$ ( §Y$NUM$§! ) 由于:\n;;;;;;;;;;x
@@ -232,7 +232,7 @@ TROOPS;部队;;;;;;;;;;x
 LIEGE_COSTS;领主征召兵维护费: §Y$LEVY$§!\n领主税收: §Y$TAX$§!;;;;;;;;;;x
 LIEGE_EXPENSE;领主;;;;;;;;;;x
 CONFIRM_DISBAND_NO_RET;\n近卫军不会被解散。;;;;;;;;;;x
-CONFIRM_DISBAND_RET;\n§R所有亲卫队将解除戒备状态.§!;;;;;;;;;;x
+CONFIRM_DISBAND_RET;\n§R所有近卫军将解除戒备状态.§!;;;;;;;;;;x
 obj_improve_martial_title;提升军事能力;;;;;;;;;;x
 obj_improve_martial_desc;[This.GetTitledFirstName]想要提升[This.GetHerHis]军事能力，因为它少的可怜(低于 §Y8§!).;;;;;;;;;;x
 improve_martial_quit;你寻找其他的提升你的军事能力的方法.;;;;;;;;;;x
@@ -658,11 +658,11 @@ RAISE_LIEGEFLEET;调集领主的征召舰队;;;;;;;;;;x
 RAISE_LIEGELEVY_LONG; §Y$VASSAL$§! 的 ( §Y$SIZE$§! $TYPE$ )\n;;;;;;;;;;x
 DISMISS_LIEGELEVY;解散领主军队;;;;;;;;;;x
 CANNOT_BUY_RET_ROOM;\n你不能创建这支亲卫队，你已经达到了最大的亲卫队数量.;;;;;;;;;;x
-CANNOT_BUY_RET_WEALTH;\n你不能创建这支亲卫队，你不能负担它的费用.;;;;;;;;;;x
+CANNOT_BUY_RET_WEALTH;\n你不能创建这支近卫军，你不能负担它的费用。;;;;;;;;;;x
 COST_TO_CREATE;建造需要花费的代价: §Y$COST$§!\n;;;;;;;;;;x
-RETINUE_CAP_USAGE;目前的可用亲卫队: §Y$SIZE$§!\n;;;;;;;;;;x
-RETINUE_CAP;亲卫队规模: §Y$SIZE$§!\n;;;;;;;;;;x
-RETINUE_CAP_USAGE_BUY;可用亲卫队: §Y$SIZE$§!\n;;;;;;;;;;x
+RETINUE_CAP_USAGE;目前的可用近卫军：§Y$SIZE$§!\n;;;;;;;;;;x
+RETINUE_CAP;近卫军规模: §Y$SIZE$§!\n;;;;;;;;;;x
+RETINUE_CAP_USAGE_BUY;可用近卫军：§Y$SIZE$§!\n;;;;;;;;;;x
 RETTYPE_CUL_ENG;长弓手;;;;;;;;;;x
 RETTYPE_CUL_SCOT;苏格兰传统长矛圆阵;;;;;;;;;;x
 RETTYPE_CUL_BALT;波罗的海战士;;;;;;;;;;x
@@ -684,9 +684,9 @@ MAKE_CAPITAL_EFFECT;将都城搬迁至 §Y$CAPITAL$§!\n;;;;;;;;;;x
 MAKE_PROVINCE_CAPITAL_EFFECT;把 §Y$CAPITAL$§! 作为§Y$PROVINCE$§!的首府\n;;;;;;;;;;x
 ARMY_LEVIES;军队征募;;;;;;;;;;x
 FLEET_LEVIES;舰队征募;;;;;;;;;;x
-CREATE_RETINUE_EFFECT;$WHO$ 得到了一个 §Y$RETINUE$§! 的亲卫队;;;;;;;;;;x
-CAN_BUY_RETINUE_TRIGGER_NOT;$WHO$ 没有至少 §Y$NEED$ §!亲卫队空余;;;;;;;;;;x
-CAN_BUY_RETINUE_TRIGGER;$WHO$ 有至少§Y$NEED$§!亲卫队空余;;;;;;;;;;x
+CREATE_RETINUE_EFFECT;$WHO$得到了一个§Y$RETINUE$§!的近卫军;;;;;;;;;;x
+CAN_BUY_RETINUE_TRIGGER_NOT;$WHO$没有至少§Y$NEED$§!近卫军空余;;;;;;;;;;x
+CAN_BUY_RETINUE_TRIGGER;$WHO$有至少§Y$NEED$§!近卫军空余;;;;;;;;;;x
 TROOPTYPE_RETCOST_ENTRY;$TYPE$: §Y$COST$§! ( §Y$EACH$§! 块每名士兵 )\n;;;;;;;;;;x
 TECH_RECRUIT_DESC;§Y$BONUS$ 近卫军;;;;;;;;;;x
 TECH_RECRUIT_DESC2;征召兵 §Y$BONUS$§! ;;;;;;;;;;x
