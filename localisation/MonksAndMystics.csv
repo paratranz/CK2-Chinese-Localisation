@@ -749,7 +749,7 @@ MNM.7502.d;[From.GetTitledFirstName]被五花大绑着从牢房里带了出来�
 MNM.7502.a;缺少好的祭品;;;;;;;;;;x
 MNM.7503.d;你的手下把可怜的[From.GetFirstName]丢到了祭坛上，并将其紧紧地绑在了上面。你走上前去。在看到你手中的刀之前，[From.GetHerHis] 先是十分困惑，随后就又马上变得惊恐万分。[From.GetHerHisCap]痛苦地尖叫着，直到你的利刃割开了这个人的喉咙。;;;;;;;;;;x
 MNM.7503.a;[Root.GetDWDevil] 渴望无辜的灵魂;;;;;;;;;;x
-MNM.7504.a;一个[Root.GetDWDevil]的处子！;;;;;;;;;;x
+MNM.7504.a;一个献给[Root.GetDWDevil]的处男（或处女）！;;;;;;;;;;x
 MNM.7505.d;[From.GetTitledFirstName]看上去还有些茫然，当[From.GetSheHe]被拖拽到了祭坛之中，似乎[From.GetHerHis]终于察觉到了你要做些什么，你无视了[From.GetHerHis]的祈求，将他牢牢绑好，开始高唱起对[Root.GetDWDevil]的颂词，终于时候到了，你的匕首在你手中高高举起，挥舞闪烁着银光，彻底终结了[From.GetTitledFirstName]心脏的跳动。;;;;;;;;;;x
 MNM.7505.a;[Root.GetDWDevil]万岁!;;;;;;;;;;x
 MNM.7506.d;你与把你绑在祭坛上的束缚奋力搏斗，但桎梏没有任何松懈。当邪恶的吟唱渐强并越发疯狂时，你看到[From.GetTitledFirstName]拿着匕首渐渐走近。你加倍努力想要逃跑，但是[From.GetTitledFirstName]的双手已经握紧匕首，在[From.GetHerHis]头顶高高举起。在[From.GetTitledFirstName]把刀刃刺进你的心脏前，火光电石之间，你意识到自己右手的绳索开始松动。;;;;;;;;;;x
@@ -1171,7 +1171,7 @@ String_the_Advaita_Matha;阿得韦陀·摩陀;;;;;;;;;;x
 String_the_Savaka_Sangha;声闻僧伽;;;;;;;;;;x
 String_powerful_ruler;强力的统治者;;;;;;;;;;x
 String_servant_of_GetHighGodName;[This.Religion.GetHighGodName]的仆人;;;;;;;;;;x
-String_virgin;处女;;;;;;;;;;x
+String_virgin;处男（或处女）;;;;;;;;;;x
 String_dwarf;侏儒;;;;;;;;;;x
 opinion_successful_corruption;将我的堕落释放出来;;;;;;;;;;x
 opinion_failed_corruption;提出堕落的建议;;;;;;;;;;x
@@ -1998,9 +1998,9 @@ quest_the_devil_worshipers_sacrifice_ruler_tooltip;在你监狱里的一个有�
 quest_the_devil_worshipers_sacrifice_holy_person;献祭一位圣人;;;;;;;;;;x
 quest_the_devil_worshipers_sacrifice_holy_person_desc;强大无比的[Root.GetDWDevil]施与也同样索取，我们得到了大多数国王女王做梦也想象不到的权利，然而凡事都有代价。[Root.GetDWDevil] 所要求的报酬是献祭某个宣誓将生命供奉给[Root.Religion.GetHighGodName]的人，他的肉体与灵魂。;;;;;;;;;;x
 quest_the_devil_worshipers_sacrifice_holy_person_tooltip;§G右键点击§!你牢狱中的一个[Root.Religion.GetPriestTitle]或苦行者囚犯头像并选择§Y献祭给 [Root.GetDWDevil]§!以完成该任务。;;;;;;;;;;x
-quest_the_devil_worshipers_sacrifice_virgin;献祭处女;;;;;;;;;;x
+quest_the_devil_worshipers_sacrifice_virgin;献祭处男（或处女）;;;;;;;;;;x
 quest_the_devil_worshipers_sacrifice_virgin_desc;强大而威武的[Root.GetDWDevil]时而索取时而给予。虽然我们获得了比诸多君王梦寐以求的还要强大的力量，但任何事情都有代价。[Root.GetDWDevil]要求支付血液和灵魂。献祭未经人事者的生命以兹享用。;;;;;;;;;;x
-quest_the_devil_worshipers_sacrifice_virgin_tooltip;在你监狱里的一个童贞囚犯的头像上§G点击右键§!并选择§Y献祭给[Root.GetDWDevil]§!以完成任务。儿童、忠贞者以及苦行者很有可能是处女。;;;;;;;;;;x
+quest_the_devil_worshipers_sacrifice_virgin_tooltip;在你监狱里的一个处男（或处女）囚犯的头像上§G点击右键§!并选择§Y献祭给[Root.GetDWDevil]§!以完成任务。儿童、忠贞者以及苦行者很有可能是处男（或处女）。;;;;;;;;;;x
 quest_the_devil_worshipers_sacrifice_dwarf;献祭一个侏儒;;;;;;;;;;x
 quest_the_devil_worshipers_sacrifice_dwarf_desc;强大而威武的[Root.GetDWDevil]时而索取时而给予。虽然我们获得了比诸多君王梦寐以求的还要强大的力量，但任何事情都有代价。[Root.GetDWDevil]要求支付血液和灵魂。献祭矮人的生命以兹享用。;;;;;;;;;;x
 quest_the_devil_worshipers_sacrifice_dwarf_tooltip;在你监狱里的一个侏儒囚犯的头像上§G右键点击§!并选择§Y献祭给[Root.GetDWDevil]§!以完成任务。;;;;;;;;;;x
@@ -2894,13 +2894,13 @@ EVTDESC_MNM_9120;“[From.GetWeaponsmithWeapon]，我明白了，一个很好的
 EVTOPTA_MNM_9120;除非状况绝佳，我不会参与任何战斗。;;;;;;;;;;x
 EVTOPTA_MNM_9120_TT_SWORDSCIMITAR;订购一件品质极佳的[From.GetWeaponsmithWeapon]，这件武器将会提供§G+0.75§! §Y每月威望§!，§G+3§! §Y军事§! a和 §G+2§! §Y个人实战技能§!。\n;;;;;;;;;;x
 EVTOPTA_MNM_9120_TT_LANCE;订购一件品质极佳的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+10%§! 指挥§Y骑兵§!加成，§G+0.75§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+2§! §Y个人实战技能§!。\n;;;;;;;;;;x
-EVTOPTA_MNM_9120_TT_AXE;订购一件品质极佳的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+10%§! §Y轻步兵§!指挥加成，§G+0.75§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+2§! §Y个人实战技能§!。\n;;;;;;;;;;x
+EVTOPTA_MNM_9120_TT_AXE;订购一件品质极佳的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+10%§! §Y轻步兵§!指挥加成，§G+0.75§! §Y每月威望§!，§G+1§! §Y军事§!和 §G+2§! §Y个人实战技能§!。\n;;;;;;;;;;x
 EVTOPTA_MNM_9120_TT_MACE;订购一件品质极佳的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+10%§!  §Y重步兵§!指挥加成，§G+0.75§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+2§! §Y个人实战技能§!。\n;;;;;;;;;;x
 EVTOPTA_MNM_9120_TT_BOW;订购一件品质极佳的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+15%§! 指挥§Y骑兵§!加成，§G+1§! §Y每月威望§! 和 §G+2§! §Y个人实战技能§!。\n;;;;;;;;;;x
 EVTOPTB_MNM_9120;我用不着什么装饰，来点儿有用的吧。;;;;;;;;;;x
 EVTOPTB_MNM_9120_TT_SWORDSCIMITAR;订购一件品质上乘的[From.GetWeaponsmithWeapon]，这件武器将会提供§G+0.5§! §Y每月威望§!，§G+2§! §Y军事§! 和 §G+1§! §Y个人实战技能!。\n;;;;;;;;;;x
 EVTOPTB_MNM_9120_TT_LANCE;订购一件品质不错的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+5%§! 指挥§Y骑兵§!加成， §G+0.5§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+1§! §Y个人实战技能§!。\n;;;;;;;;;;x
-EVTOPTB_MNM_9120_TT_AXE;订购一件品质不错的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+5%§! §Y轻步兵§! 指挥加成，§G+0.5§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+1§! §Y个人实战技能§!。\n;;;;;;;;;;x
+EVTOPTB_MNM_9120_TT_AXE;订购一件品质不错的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+5%§! §Y轻步兵§!指挥加成，§G+0.5§! §Y每月威望§!，§G+1§! §Y军事§!和 §G+1§! §Y个人实战技能§!。\n;;;;;;;;;;x
 EVTOPTB_MNM_9120_TT_MACE;订购一件品质不错的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+5%§! §Y重步兵§!指挥加成，§G+0.5§! §Y每月威望§!，§G+1§! §Y军事§! 和 §G+1§! §Y个人实战技能§!。\n;;;;;;;;;;x
 EVTOPTB_MNM_9120_TT_BOW;订购一件品质不错的[From.GetWeaponsmithWeapon]，这件武器将会提供 §G+7.5%§! 指挥§Y骑兵§!加成，§G+0.75§! §Y每月威望§! 和 §G+1§! §Y个人实战技能§!。\n;;;;;;;;;;x
 EVTOPTC_MNM_9120;我相信你无论做什么都足够好，[From.GetMasterMistressCap]。;;;;;;;;;;x
@@ -4571,7 +4571,7 @@ EVTDESC_MNM_1446_A;我发现[From.GetSocietyRank] [From.GetFirstName]正在把�
 EVTDESC_MNM_1446_B;我沿着翻倒的箱子和打碎的小瓶一路摸索着，直到我找到了[From.GetSocietyRank] [From.GetFirstName]。我向[From.GetHerHim]招手示意一起离开——该走了！[From.GetSheHeCap]连忙把附近的一些工具装进[From.GetHerHis]口袋里，然后追上我的步伐。;;;;;;;;;;x
 EVTDESC_MNM_1448;当我关上我的书包时，我听到另一个房间发出一声巨响。 当我在门口窥视时，我眼前的景象令人印象深刻。 [From.GetSocietyRank] [From.GetFirstName]的火炬照亮了被炸毁的房间，房间里面是翻倒的桌子，破旧的书本和砸碎的乐器。 我赞赏地点头说道：“该离开了。”;;;;;;;;;;x
 EVTOPTA_MNM_1448;当[infiltration_target.GetSheHe]意识到我们所做的事情时，我希望能看到[infiltration_target.GetFirstName]的脸。;;;;;;;;;;x
-EVTDESC_MNM_1449;当我去附近找书时，一道可怕的咆哮扫过了实验室，脚下的地板传来阵阵颤抖。我的脑海中闪现过龙和奇美拉的图像，直到我发觉了真相。肯定是 [From.GetSocietyRank] [From.GetFirstName] 搞出了爆炸。没时间找[From.GetHerHim]了。;;;;;;;;;;x
+EVTDESC_MNM_1449;当我去附近找书时，一道可怕的咆哮扫过了实验室，脚下的地板传来阵阵颤抖。我的脑海中闪现过龙和奇美拉的图像，直到我发觉了真相。肯定是[From.GetSocietyRank] [From.GetFirstName]搞出了爆炸。没时间找[From.GetHerHim]了。;;;;;;;;;;x
 EVTOPTA_MNM_1449;没有人能够通过这里。我必须逃跑！;;;;;;;;;;x
 EVTDESC_MNM_1450;实验室离我们的距离越来越远了，我和[infiltration_companion.GetFirstName]忽然瘫软在地上，四肢颤抖，汗流浃背。我们做到了，我们真的做到了，我们也侥幸逃离了！当笑声从我的唇边溢出时，我的身体总算放松了下来。紧接着，[infiltration_companion.GetFirstName]沉重的呼吸声也变成了愉悦的笑声。;;;;;;;;;;x
 EVTOPTA_MNM_1450;我们确实给[infiltration_target.GetHerHim]看了，不是吗？;;;;;;;;;;x
@@ -4862,7 +4862,7 @@ MNM.78008.d;你无能的[From.GetJobTitle]让一群走私者进入了[smuggler_p
 MNM.70015.t;指挥官争吵;;;;;;;;;;x
 MNM.70015.d;在训练指挥官们的时候， [commander_character.GetFirstName] 开始嘲笑你的技术。在你知道之前，情况升级成一场全面的争吵！;;;;;;;;;;x
 MNM.70016.d;相比于操练，[From.GetJobTitle] [From.GetFirstName]选择在用实战来训练他的军队！ 反观你的部队，确实是纪律涣散了一些...;;;;;;;;;;x
-RULE_DEVIL_WORSHIPERS;§B僧侣与神秘主义：§! 魔鬼崇拜者;;;;;;;;;;x
+RULE_DEVIL_WORSHIPERS;§B僧侣与神秘主义：§!魔鬼崇拜者;;;;;;;;;;x
 RULE_DEVIL_WORSHIPERS_DEFAULT_DESC;魔鬼崇拜者们将在世界各地修习他们的邪恶魔法。;;;;;;;;;;x
 RULE_DEVIL_WORSHIPERS_NONE_DESC;不会出现魔鬼崇拜者。;;;;;;;;;;x
 MNM.70012.d;我找到了一个很有才能的人，愿意作为指挥官为我的君主服务，我应该马上写一封信。;;;;;;;;;;x
@@ -4992,7 +4992,7 @@ quest_secret_religions_societies_prepare_grounds_desc;为了建立我们信仰�
 quest_secret_religions_societies_prepare_grounds_tooltip;通过右击伯爵领的盾徽，在这个省份中使用准备好的力量。你将开始尝试去在这里建立一个信徒们的社团。成功地建立一个社团将完成任务。;;;;;;;;;;x
 quest_secret_religions_societies_blend_in_desc;在最好的时候保持虚假的信念是一种挑战，但是那些不理解你的人比以往任何时候都更加怀疑你。你必须毫无疑问的向他们展示你所告诉他们的一切。;;;;;;;;;;x
 quest_secret_religions_societies_blend_in_tooltip;决定融入其中开始你的尝试。成功地说服你周围的人，让他们相信你是他们的信仰，就能完成这一使命。;;;;;;;;;;x
-EVTDESC_MNM_5201;在与[This.Society.GetName]的同伴进行的最后一次谈话中，我发现自己正在讨论一个人的措辞的力量。 当我开玩笑地建议我应该尝试用诗句来表达我的观点时，[fellow_debater_target.GetTitledFirstName]让我惊讶地点头赞赏地点头。 “不要低估一首好韵的力量，”[fellow_debater_target.GetSheHe]说。;;;;;;;;;;x
+EVTDESC_MNM_5201;在与[This.Society.GetName]的同伴进行的最后一次谈话中，我发现自己正在讨论一个人的措辞的力量。 当我开玩笑地建议我应该尝试用诗句来表达我的观点时，[fellow_debater_target.GetTitledFirstName]让我惊讶地点头赞赏地点头。「不要低估一首好韵的力量，」[fellow_debater_target.GetSheHe]说。;;;;;;;;;;x
 EVTOPTA_MNM_5201;也许这正是我的主题所需要的！;;;;;;;;;;x
 EVTOPTA_MNM_5201_TT;你晚上的剩余时间都在谈论诗歌更精细的点。\n;;;;;;;;;;x
 EVTOPTB_MNM_5201;废话！ 我将专注于事实，而不是点缀。;;;;;;;;;;x
@@ -5141,7 +5141,7 @@ EVTOPTB_MNM_1466;如果你认为那样最好， [From.GetSisterBrother];;;;;;;;;
 EVTOPTB_MNM_1466_TT;让§Y[From.GetTitledFirstName]§!用[From.GetHerHis]方式进行吧。每个人开始进行这个有着[From.GetHermeticInvention]焦点的项目吧。\n;;;;;;;;;;x
 EVTOPTC_MNM_1466;我是主持人，决定在我的手中!;;;;;;;;;;x
 EVTOPTC_MNM_1466_TT;你强加了自己的想法。每个人都开始进行这个项目，聚焦在 [Root.GetHermeticInvention] 。\n;;;;;;;;;;x
-EVTDESC_MNM_1467;当我环顾桌旁时，每个人都同意点头。「一个很好的建议，亲爱的[Root.GetSisterBrother]，」[great_minds_guest_1.GetSocietyRank] [great_minds_guest_1.GetFirstName]欢呼，在[great_minds_guest_1.GetHerHis] [great_minds_guest_1.GetFaceDescription]脸上露出宽广的笑容。「明天，我们将在日出之后开始首先处理这个事项。」;;;;;;;;;;x
+EVTDESC_MNM_1467;当我环顾桌旁时，每个人都同意点头。「一个很好的建议，亲爱的[Root.GetSisterBrother]，」[great_minds_guest_1.GetSocietyRank][great_minds_guest_1.GetFirstName]欢呼，在[great_minds_guest_1.GetHerHis][great_minds_guest_1.GetFaceDescription]脸上露出宽广的笑容。「明天，我们将在日出之后开始首先处理这个事项。」;;;;;;;;;;x
 EVTOPTA_MNM_1467_TT;每个人都开始进行这个项目，聚焦在 [Root.GetHermeticInvention] 。\n;;;;;;;;;;x
 EVTDESC_MNM_1468;正如我所怀疑的，[FromFrom.GetFirstName]的论点很薄弱。在我们辩论的时候，人们很清楚，[FromFrom.GetHerHis]的所有观点都是出于恶意和没来由的自我意识。最终，[FromFrom.GetSheHe]被迫承认了我的观点。;;;;;;;;;;x
 EVTOPTA_MNM_1468;现在这个小小的中断已经被处理了...;;;;;;;;;;x
@@ -5153,7 +5153,7 @@ EVTOPTA_MNM_1470;我同意[great_minds_guest_2.GetFirstName]的观点。安全�
 EVTOPTA_MNM_1470_TT;你将采取安全的选项\n;;;;;;;;;;x
 EVTOPTB_MNM_1470;[great_minds_guest_1.GetFirstName] 是对的。我们应该试探我们的极限！;;;;;;;;;;x
 EVTOPTB_MNM_1470_TT;你选择了更加冒险，但更有创造力的选项\n;;;;;;;;;;x
-EVTDESC_MNM_1471;我正在努力专注于我的工作，但这变得越来越困难！ [arguer_1.GetSocietyRank] [arguer_1.GetFirstName]和[arguer_2.GetSocietyRank] [arguer_2.GetFirstName]永远不会就任何事情达成一致。 如果有人说一件事，另一件肯定立即表示不同意。 有时我不禁想知道他们是不是都被恶魔附身了！;;;;;;;;;;x
+EVTDESC_MNM_1471;我正在努力专注于我的工作，但这变得越来越困难！[arguer_1.GetSocietyRank][arguer_1.GetFirstName]和[arguer_2.GetSocietyRank][arguer_2.GetFirstName]永远不会就任何事情达成一致。 如果有人说一件事，另一件肯定立即表示不同意。 有时我不禁想知道他们是不是都被恶魔附身了！;;;;;;;;;;x
 EVTOPTA_MNM_1471;听我说，朋友们，你们之间的龌龊显然是一个误会...;;;;;;;;;;x
 EVTOPTA_MNM_1471_TT;你尝试去帮助§Y[arguer_1.GetTitledFirstName]§!和§Y[arguer_2.GetTitledFirstName]§! 达成和解。;;;;;;;;;;x
 EVTOPTA_MNM_1471_SUCCESS_TT;你的努力获得成功\n;;;;;;;;;;x
@@ -5162,7 +5162,7 @@ EVTOPTB_MNM_1471;够了！ [arguer_1.GetFirstName]，装好你的东西给我滚
 EVTOPTB_MNM_1471_TT;决定了§Y[arguer_1.GetTitledFirstName]§!必须离开。虽然破坏性的争论将成为过去，但每个人都会牢记这一失败。;;;;;;;;;;x
 EVTOPTC_MNM_1471;消失吧！你的存在已然无有理由，[arguer_2.GetFirstName]!;;;;;;;;;;x
 EVTOPTC_MNM_1471_TT;决定了§Y[arguer_2.GetTitledFirstName]§!必须离开。虽然破坏性的争论将成为过去，但每个人都会牢记这一失败。;;;;;;;;;;x
-EVTDESC_MNM_1472;当我第一次冷静的尝试没能奏效时，我的怒火瞬间爆发了。暴力反应最终使[arguer_1.GetSocietyRank] [arguer_1.GetFirstName]和[arguer_2.GetSocietyRank] [arguer_2.GetFirstName] 恢复了理智。几个小时后的现在，他们为自己卑鄙粗俗的争吵向我表示歉意。;;;;;;;;;;x
+EVTDESC_MNM_1472;当我第一次冷静的尝试没能奏效时，我的怒火瞬间爆发了。暴力反应最终使[arguer_1.GetSocietyRank][arguer_1.GetFirstName]和[arguer_2.GetSocietyRank][arguer_2.GetFirstName]恢复了理智。几个小时后的现在，他们为自己卑鄙粗俗的争吵向我表示歉意。;;;;;;;;;;x
 EVTOPTA_MNM_1472;如释重负！;;;;;;;;;;x
 EVTOPTA_MNM_1472_TT;争论结束了，每个人都可以不受干扰地继续工作。\n;;;;;;;;;;x
 EVTDESC_MNM_1473;我努力去冷静地解释他们争论的荒唐性，以及他们持续不断的消极行为是如何扰乱我计划的。令人遗憾的是，我的话语似乎没有任何卵用。实际上，我可能让情势恶化了。“[arguer_1.GetFirstName]，你听到了吧？你就是在添乱，”[arguer_2.GetFirstName]冷嘲热讽。然后他们又开始争吵……;;;;;;;;;;x
@@ -5598,7 +5598,7 @@ opinion_debate_participant;隆重地举行一个的盛大辩论会;;;;;;;;;;x
 opinion_debate_winner;盛大辩论的胜者;;;;;;;;;;x
 held_grand_debate_modifier;举办大辩论;;;;;;;;;;x
 held_grand_debate_modifier_stacked;举行盛大的辩论会;;;;;;;;;;x
-EVTDESC_MNM_1980;正如我期望 [Root.Society.GetName] 的许多成员出现在大辩论中一样，最重要的是，一切都要尽可能完美无瑕。 本着这种精神，筹备工作正在有序进行——我的工作人员已经看过了住所，厨师将食品囤积于食品柜。 现在剩下的就是发出邀请了。;;;;;;;;;;x
+EVTDESC_MNM_1980;正如我期望[Root.Society.GetName]的许多成员出现在大辩论中一样，最重要的是，一切都要尽可能完美无瑕。 本着这种精神，筹备工作正在有序进行——我的工作人员已经看过了住所，厨师将食品囤积于食品柜。 现在剩下的就是发出邀请了。;;;;;;;;;;x
 EVTOPTA_MNM_1980;展示我知识最好的机会！;;;;;;;;;;x
 EVTDESC_MNM_1981;一位信使刚刚到达并带来[FromFrom.GetSocietyRank] [FromFrom.GetFirstName]的一封信。读毕这封信后，这是邀请[FromFrom.Society.GetName]的所有成员出席大辩论的邀请。;;;;;;;;;;x
 EVTOPTA_MNM_1981;展示我学识的绝好机会！;;;;;;;;;;x
@@ -5724,17 +5724,17 @@ String_simplistic;论文太简单了，不能够给人留下深刻印象。;;;;;
 String_average;论文很平凡，并不出众。;;;;;;;;;;x
 String_excellent;你提出了一些很优秀的、引人注目的观点！;;;;;;;;;;x
 String_revolutionary;你的论文会颠覆我们对这个问题的理解！;;;;;;;;;;x
-EVTDESCA_MNM_1641_RITUALS;几天前，[From.GetSocietyRank] [From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于神通术仪式的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
-EVTDESCA_MNM_1641_ASCENSION;几天前，[From.GetSocietyRank] [From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于飞升的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
-EVTDESCA_MNM_1641_MIND_OF_GOD;几天前，[From.GetSocietyRank] [From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于[From.Religion.GetHighGodName]意志的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
-EVTDESCA_MNM_1641_TRANSLATING_HIEROGLYPHICS;几天前，[From.GetSocietyRank] [From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于象形文字翻译的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
-EVTDESCA_MNM_1641_DISTILLATION;几天前，[From.GetSocietyRank] [From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于蒸馏的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
-EVTDESCA_MNM_1641_FERMENTATION;几天前，[From.GetSocietyRank] [From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于发酵的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
-EVTDESCA_MNM_1641_ELIXIR_OF_LIFE;几天前，[From.GetSocietyRank] [From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于仙丹的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
-EVTDESCA_MNM_1641_PILOSOPHERS_STONE;几天前，[From.GetSocietyRank] [From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于贤者之石的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
-EVTDESCA_MNM_1641_PLANETS;几天前，[From.GetSocietyRank] [From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于行星重要性的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
-EVTDESCA_MNM_1641_STARS;几天前，[From.GetSocietyRank] [From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于恒星隐秘意义的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
-EVTDESCA_MNM_1641_MOON;几天前，[From.GetSocietyRank] [From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于月亮在占星学中重要性的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
+EVTDESCA_MNM_1641_RITUALS;几天前，[From.GetSocietyRank][From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于神通术仪式的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
+EVTDESCA_MNM_1641_ASCENSION;几天前，[From.GetSocietyRank][From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于飞升的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
+EVTDESCA_MNM_1641_MIND_OF_GOD;几天前，[From.GetSocietyRank][From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于[From.Religion.GetHighGodName]意志的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
+EVTDESCA_MNM_1641_TRANSLATING_HIEROGLYPHICS;几天前，[From.GetSocietyRank][From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于象形文字翻译的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
+EVTDESCA_MNM_1641_DISTILLATION;几天前，[From.GetSocietyRank][From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于蒸馏的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
+EVTDESCA_MNM_1641_FERMENTATION;几天前，[From.GetSocietyRank][From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于发酵的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
+EVTDESCA_MNM_1641_ELIXIR_OF_LIFE;几天前，[From.GetSocietyRank][From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于仙丹的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
+EVTDESCA_MNM_1641_PILOSOPHERS_STONE;几天前，[From.GetSocietyRank][From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于贤者之石的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
+EVTDESCA_MNM_1641_PLANETS;几天前，[From.GetSocietyRank][From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于行星重要性的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
+EVTDESCA_MNM_1641_STARS;几天前，[From.GetSocietyRank][From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于恒星隐秘意义的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
+EVTDESCA_MNM_1641_MOON;几天前，[From.GetSocietyRank][From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于月亮在占星学中重要性的论文，并递交了一份副本供审查。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
 EVTDESCA_MNM_1641_SUN;几天前，[From.GetSocietyRank][From.GetFirstName]告诉我[From.GetSheHe]写了一篇关于太阳在占星术中的重要性的论文，并交给我一份副本以供评论。读过之后，很明显这篇文章是[Root.GetTheoryPaperQualityExpanded]。不过，我应该通过这篇文章吗？;;;;;;;;;;x
 EVTOPTA_MNM_1641;是，我赞同！;;;;;;;;;;x
 EVTTOOLTIPA_MNM_1641;告诉§Y[From.GetTitledFirstName]§!你认可[From.GetHerHis]论文。;;;;;;;;;;x

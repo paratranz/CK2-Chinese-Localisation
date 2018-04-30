@@ -796,7 +796,7 @@ EVTOPTA_JD_2003;战争还在继续。;;;;;;;;;;x
 EVTOPTB_JD_2003;让我们看看，当[From.GetHerHim]都死了的时候，这意味着什么？;;;;;;;;;;x
 EVTDESC_JD_2004;灾祸！作为对我们的宣战的回复，[GetRootFromInsult] [From.GetBestName] 已经将[chosen_captive.GetFirstName]斩首！我们本应想到这一点的.......;;;;;;;;;;x
 EVTOPTA_JD_2004;哦，现在是我的咯！;;;;;;;;;;x
-EVTDESC_JD_2005;作为对我们的宣战行为的回应，[GetRootFromInsult] [From.GetBestName] 已经将所有俘虏斩首！我们本应预见到这一点的......;;;;;;;;;;x
+EVTDESC_JD_2005;作为对我们的宣战行为的回应，[GetRootFromInsult][From.GetBestName]已经将所有俘虏斩首！我们本应预见到这一点的......;;;;;;;;;;x
 EVTOPTA_JD_2005;这是一场复仇之战！;;;;;;;;;;x
 strengthened_religion;加强宗教;;;;;;;;;;x
 obj_strengthen_religion_title;强化 [This.Religion.GetName] 信仰;;;;;;;;;;x
@@ -2095,10 +2095,10 @@ OVER_MAX_DEMESNE_SIZE_TRIGGER;超过最大领地数量$COMPARISON$ $VALUE|Y$;;;;
 OVER_MAX_VASSAL_SIZE_TRIGGER;超过最大封臣数量限制;;;;;;;;;;x
 OPINION_TRIGGER;好感度是 $COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 PERSONAL_OPINION_TRIGGER;个人好感度是 $COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-CLAN_OPINION_TRIGGER;部族观感 $COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+CLAN_OPINION_TRIGGER;部族观感$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 OPINION_DIFF_TRIGGER;$FIRST|Y$和$SECOND|Y$之间的观点不同有$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 PERSONAL_OPINION_DIFF_TRIGGER;$FIRST|Y$ 和 $SECOND|Y$ 的意见分歧是$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-CLAN_OPINION_DIFF_TRIGGER;$FIRST|Y$与$SECOND|Y$部族观感差距 $COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+CLAN_OPINION_DIFF_TRIGGER;$FIRST|Y$与$SECOND|Y$部族观感差距$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 AGE_DIFF_TRIGGER;年龄差距$COMPARISON$$VALUE|Y$;;;;;;;;;;x
 NUM_HOLDING_TRIGGER;$COMPARISON$ $VALUE|Y$ $TYPE$占有该土地;;;;;;;;;;x
 NUM_REALM_HOLDING_TRIGGER;领地内有$COMPARISON$ $VALUE|Y$ $TYPE$;;;;;;;;;;x
@@ -2344,10 +2344,10 @@ EVTOPTA20273;真是个傻瓜！[From.GetSheHeCap] 会因我而死！;;;;;;;;;;x
 EVTDESC_MNM_7855_F;屋外人们的尖叫和武器的碰撞声吵醒了我！他们冲了进来，慢慢的接近我的床。一个人说我“中了魔障”，另一个人说我“勾搭上[Root.Religion.GetRandomEvilGodName]”。一些人对他们即将要做的事情很不安，但他们的领头人制止了他们。一个袋子被套在我的脑袋上，然后我被他们拽走了......;;;;;;;;;;x
 EVTOPTE_MNM_7855;*流口水*;;;;;;;;;;x
 EVTTOOLTIP3201;§Y[This.GetTitledFirstName]§!将考虑你的建议。;;;;;;;;;;x
-String_offmap_cost_prestige_count;每月1威望;;;;;;;;;;x
-String_offmap_cost_prestige_duke;每月2威望;;;;;;;;;;x
-String_offmap_cost_prestige_king;每月4威望;;;;;;;;;;x
-String_offmap_cost_prestige_emperor;每月8威望;;;;;;;;;;x
+String_offmap_cost_prestige_count;每月 1 威望;;;;;;;;;;x
+String_offmap_cost_prestige_duke;每月 2 威望;;;;;;;;;;x
+String_offmap_cost_prestige_king;每月 4 威望;;;;;;;;;;x
+String_offmap_cost_prestige_emperor;每月 8 威望;;;;;;;;;;x
 EVTDESC_JD_40011_C;[Root.GetGovernorLetterGreeting]. [Root.GetChineseLetterBlessing].\n\nThe [From.Offmap.Ruler.GetChineseComplimentAdjective] [From.Offmap.Ruler.GetTitle] [From.Offmap.Ruler.GetFullName]注意到你对周围的人很尊重。为了表示[offmap_china.Ruler.GetHerHisCap]感谢，[offmap_china.Ruler.GetSheHeCap]决定赐你一件稀有的[From.Offmap.Ruler.Culture.GetName] 宝物。;;;;;;;;;;x
 EVTDESC_JD_40011_D;[Root.GetGovernorLetterGreeting]. [Root.GetChineseLetterBlessing].\n\n[From.Offmap.Ruler.GetChineseComplimentAdjective] [From.Offmap.Ruler.GetTitle] [From.Offmap.Ruler.GetFullName]注意到你对周围的人很尊重。[offmap_china.Ruler.GetChineseComplimentAdjective] [offmap_china.Ruler.GetLongChineseEmperorName]很看好你。;;;;;;;;;;x
 EVTOPT39830_SCHOLAR_TT;这个选项可用是因为你拥有§Y渊博的神学家§!或§Y神学的大师§!特质。;;;;;;;;;;x
@@ -2775,13 +2775,13 @@ PROV1529;贝尔加湖;;;;;;;;;;x
 chinese_imperial_marriage_peace_deal_tt;你将与 §Y[offmap_china.GetFullName]§!达成和平协议。;;;;;;;;;;x
 chinese_imperial_marriage_peace_deal_effect_tt;这个婚约将会使你们签订一个和平条约，使§Y[offmap_china.GetFullName]§!和§Y[offmap_china.Governor.GetTitle]§!不能对你宣战。这个条约会存在§Y50§!年或者直到[offmap_china.Ruler.GetTitle]，[offmap_china.Ruler.GetOnlyDynastyName]的王朝灭亡。;;;;;;;;;;x
 china_tributary_break_free;释放朝贡国;;;;;;;;;;x
-china_tributary_break_free_desc;你可以对 §Y[offmap_china.GetFullName]§! 宣战来解除你与它的 §Y朝贡关系§!。如果 §Y[offmap_china.GetShortName]§! 正在遭受 §R入侵§! 或者 §R内战§! 那么你可以通过密谋界面的 §Y决议§! 来获得独立。;;;;;;;;;;x
+china_tributary_break_free_desc;你可以对§Y[offmap_china.GetFullName]§!宣战来解除你与它的§Y朝贡关系§!。如果§Y[offmap_china.GetShortName]§!正在遭受§R入侵§!或者§R内战§!那么你可以通过密谋界面的§Y决议§!来获得独立。;;;;;;;;;;x
 COMPL_VIKING_adj;维京海盗;;;;;;;;;;x
 chinese_imperial_trade_contract_desc;这些国家的商人正在享受贸易协定所带来的红利。;;;;;;;;;;x
 chinese_favored_in_trade;在丝绸之路上很受欢迎;;;;;;;;;;x
 chinese_favored_in_trade_desc;由于他们的君主控制了丝绸之路，商人们可以享受贸易带来的利润了。;;;;;;;;;;x
-String_offmap_cost_prestige_king_nomad;每月1威望;;;;;;;;;;x
-String_offmap_cost_prestige_emperor_nomad;每月3威望;;;;;;;;;;x
+String_offmap_cost_prestige_king_nomad;每月 1 威望;;;;;;;;;;x
+String_offmap_cost_prestige_emperor_nomad;每月 3 威望;;;;;;;;;;x
 EVTDESC_MNM_1221_C;所以我猜测这幻象是关于我怎么得[From.GetDisease]的。我知道会有坏事发生!;;;;;;;;;;x
 EVTDESC_MNM_1221_D;大概这幻象展示了我是怎么得[From.GetDisease]的…这样一来就明白多了！;;;;;;;;;;x
 title_china_emperor_female;女皇;;;;;;;;;;x
@@ -4329,7 +4329,7 @@ codex_dynasty_name_desc;汇编了几个篇章，每章重点介绍[From.Original
 the_sword_and_buckler;剑盾手册;;;;;;;;;;x
 the_sword_and_buckler_desc;这份手稿详细地描述了[From.OriginalOwner.Culture.GetName]的剑术，并附有详尽的步骤插图。;;;;;;;;;;x
 on_government_type_warfare_rename; [Root.Government.GetName]战争;;;;;;;;;;x
-on_government_type_warfare_desc;这部著作每一章都强调了 [Root.Government.GetName] 战术的优越性。有些人认为这是主观看法。;;;;;;;;;;x
+on_government_type_warfare_desc;这部著作每一章都强调了[Root.Government.GetName]战术的优越性。有些人认为这是主观看法。;;;;;;;;;;x
 on_government_type_warfare_desc_rename;这本书有多个章节突出强调了[Root.Government.GetName]采取的战争策略有诸多优势。但从教育的角度上来说，有些批评者们认为这有一点[Root.GetPublicOpinionOfWork]。;;;;;;;;;;x
 lessons_taught_to_me_by_rival_1;我的敌人启发的经验;;;;;;;;;;x
 lessons_taught_to_me_by_rival_1_desc;在这份手稿中，[From.OriginalOwner.GetName]谈论到在战场上遇到[From.OriginalOwner.GetHerHis]仇人是最令其愉悦的事情。;;;;;;;;;;x
@@ -4676,7 +4676,7 @@ the_republic_rename;[Root.Government.GetName]之国;;;;;;;;;;x
 the_republic;[Root.Government.GetName]之国;;;;;;;;;;x
 horse_opinion;马好感;;;;;;;;;;x
 religious_head_culture_courtesy;关于礼节的书;;;;;;;;;;x
-JD_60002_likes_tt;这会§G增加§!从使节那里收到更好的工艺品的几率，因为[offmap_china.Ruler.GetTitle]§G喜欢 [This.GetLike]§!;;;;;;;;;;x
+JD_60002_likes_tt;这会§G增加§!从使节那里收到更好的工艺品的几率，因为[offmap_china.Ruler.GetTitle]§G喜欢[This.GetLike]§!;;;;;;;;;;x
 JD_60002_dislikes_tt;这会§R减少§!从使节那里收到更好的工艺品的几率，因为[offmap_china.Ruler.GetTitle]§R讨厌 [This.GetDislike]§!;;;;;;;;;;x
 EVTTITLE_JD_10060;决定写一本书;;;;;;;;;;x
 EVTTITLE_JD_10061;撰写著作;;;;;;;;;;x
