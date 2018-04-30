@@ -47,7 +47,7 @@ HOLY_SITES_LESS;没有控制着至少§Y$VAL$§!的圣地\n;;;;;;;;;;x
 HOLY_SITES_LEAST;掌控着至少 §Y$VAL$§! 圣地\n;;;;;;;;;;x
 MAJOR_RIVER_SHORT;在§Y$TO$§!渡过§Y$RIVER$§!;;;;;;;;;;x
 MAJOR_RIVER_DESC;当进攻一条主要河流的时候，进攻者会有一个很大的作战减成;;;;;;;;;;x
-RETCAP_FROM_REALM;来自领地: §G$REALM$§!\n   地产: §Y$HOLDINGS$§!\n   每块地产的上限: §Y$PERHOLDING$§!\n;;;;;;;;;;x
+RETCAP_FROM_REALM;来自领地: §G$REALM$§!\n地产: §Y$HOLDINGS$§!\n每块地产的上限: §Y$PERHOLDING$§!\n;;;;;;;;;;x
 RETCAP_FROM_BUILDINGS;来自建筑: §G$AMOUNT$§!\n;;;;;;;;;;x
 RETCAP_FROM_TECH;来自科技: §G+$PERCENT$%§!\n;;;;;;;;;;x
 RETCAP_MINIMUM_RETINUE;最少随从数: §Y$MIN$§!\n;;;;;;;;;;x
@@ -203,7 +203,7 @@ title_courtesan;侍妾;;;;;;;;;;x
 REVOLT_SHARED_TICKING_WS_DESC;$PERC$: 叛军已经控制了他们所有的地盘;;;;;;;;;;x
 REFORMED;改革;;;;;;;;;;x
 BM_THE_OLD_GODS;逝往神灵;;;;;;;;;;x
-BM_THE_OLD_GODS_DESC;§Y「如果小猪仔知道老猪的遭遇，他们又怎可能睡得着呢」§!这是传说中的海盗§Y朗纳尔·洛德布罗克§!奄奄一息地躺在诺森伯兰之王§Y伊利亚§!的蛇穴中的最后一个预言。在867年，有着强烈报复心理的洛德布罗克之子跟他们的「异教徒大军」蜂拥到不列颠王国，让 §Y伊利亚§!变成了「血鹰」。同时，另外两个诺斯之王-§Y瑞克§!跟§Y迪勒§!，在芬兰跟斯堪的纳维亚半岛开创了他们的国家，这是现代俄罗斯的雏形。这时候古老的信仰依然根深蒂固，军队依然强悍无比！;;;;;;;;;;x
+BM_THE_OLD_GODS_DESC;§Y「如果小猪仔知道老猪的遭遇，他们又怎可能睡得着呢。」§!这是传说中的海盗§Y朗纳尔·洛德布罗克§!奄奄一息地躺在诺森伯兰之王§Y伊利亚§!的蛇穴中的最后一个预言。在867年，有着强烈报复心理的洛德布罗克之子跟他们的「异教徒大军」蜂拥到不列颠王国，让 §Y伊利亚§!变成了「血鹰」。同时，另外两个诺斯之王-§Y瑞克§!跟§Y迪勒§!，在芬兰跟斯堪的纳维亚半岛开创了他们的国家，这是现代俄罗斯的雏形。这时候古老的信仰依然根深蒂固，军队依然强悍无比！;;;;;;;;;;x
 k_magyar;马扎尔;;;;;;;;;;x
 k_magyar_adj;马扎尔;;;;;;;;;;x
 d_grodno;格罗德诺;;;;;;;;;;x
@@ -413,7 +413,7 @@ EVTOPTA_TOG_1000;诅咒那些叛徒!;;;;;;;;;;x
 EVTDESC_TOG_1001;在一个心怀不满的退役士兵带领下，[From.GetName] 的农民揭竿而起. 叛军谋求独立!;;;;;;;;;;x
 EVTDESC_TOG_1010;胡言乱语的一群异端暴民在 [Root.GetName] 爆发叛乱，对如火如荼的叛乱火上添油!;;;;;;;;;;x
 EVTOPTA_TOG_1010;奸诈的混蛋!;;;;;;;;;;x
-EVTDESC_TOG_1011;更多的农民已经在 [From.GetName] 叛乱，对如火如荼的叛乱火上添油！;;;;;;;;;;x
+EVTDESC_TOG_1011;更多的农民已经在[From.GetName]叛乱，对如火如荼的叛乱火上添油！;;;;;;;;;;x
 EVTDESC_TOG_1020;在一群武装起来的狂信者带领下，异端[Root.Religion.GetName] 在[Root.GetName]叛乱，如果不尽快镇压的话，星星之火，可以燎原!;;;;;;;;;;x
 EVTOPTA_TOG_1020;可耻的叛徒!;;;;;;;;;;x
 EVTDESC_TOG_1021;在一群武装起来的狂信者带领下，异端[From.Religion.GetName] 在[From.GetName]叛乱，如果不尽快镇压的话，星星之火，可以燎原!;;;;;;;;;;x
@@ -698,7 +698,7 @@ CANT_LOOT;无法掠夺;;;;;;;;;;x
 LOOT_DESC_DESTROY;掠夺将摧毁贸易站，毁坏建筑有时甚至整个领地.;;;;;;;;;;x
 CAN_LOOT_RELIGION;宗教允许掠夺;;;;;;;;;;x
 CAN_NOT_LOOT_RELIGION;你的宗教不允许掠夺;;;;;;;;;;x
-CAN_LOOT_OWNER;\n  被不是 §Y$RELIGION$§!的敌人拥有\n  由你控制\n  没有 §Y被劫掠§! 惩罚;;;;;;;;;;x
+CAN_LOOT_OWNER;\n被不是 §Y$RELIGION$§!的敌人拥有\n由你控制\n没有 §Y被劫掠§! 惩罚;;;;;;;;;;x
 CAN_LOOT_OWNER_SETTLEMENT;这块领地:;;;;;;;;;;x
 CAN_LOOT_OWNER_PROVINCE;任意领地:;;;;;;;;;;x
 LOADING_CALC_NAVAL;计算海军范围...;;;;;;;;;;x
@@ -974,13 +974,13 @@ OFF_RELIGION;进攻型宗教;;;;;;;;;;x
 DEF_RELIGION;防御型宗教;;;;;;;;;;x
 DEF_RELIGION_HOME_TERRITORY;在家乡保护信仰;;;;;;;;;;x
 EVTNAME_TOG_400;新发现!;;;;;;;;;;x
-EVTDESC_TOG_400;在冰岛西方的大海彼岸发现了一片新的陆地! 贡比约恩 武尔夫松及其船员在从挪威往雷克雅未克航行时被强风吹离了航线. 他们发现了一个比冰岛大得多的岛屿，也许是一个新大陆.\n\n 尽管贡比约恩并没有登岸，但这座岛屿似乎是无主乃至于无人岛.冰岛的水手们声称要对这个发现做进一步的调查.;;;;;;;;;;x
+EVTDESC_TOG_400;在冰岛西方的大海彼岸发现了一片新的陆地! 贡比约恩 武尔夫松及其船员在从挪威往雷克雅未克航行时被强风吹离了航线. 他们发现了一个比冰岛大得多的岛屿，也许是一个新大陆.\n\n尽管贡比约恩并没有登岸，但这座岛屿似乎是无主乃至于无人岛.冰岛的水手们声称要对这个发现做进一步的调查.;;;;;;;;;;x
 EVTOPTA_TOG_400;我想知道岛上有什么;;;;;;;;;;x
 EVTNAME_TOG_401;移民格陵兰;;;;;;;;;;x
-EVTDESC_TOG_401;在冰岛西面发现的陆地似乎确实是一座新发现的岛屿. 在红胡子埃里克	一个被驱逐出冰岛的杀人犯	的领导下	一群移民们宣布拥有了这座岛屿的西南海岸.为了吸引更多的移民，埃里克做了个明智的决定	那便是以一个充满希望的名字来命名这座未开发岛屿——这便是格陵兰.\n\n 格陵兰已经开始向其冰岛及其他地方出口海象象牙、密封鲸油以及毛皮.除了勇敢的维京殖民者外	这座岛上似乎并没有其他人类居住.;;;;;;;;;;x
+EVTDESC_TOG_401;在冰岛西面发现的陆地似乎确实是一座新发现的岛屿. 在红胡子埃里克	一个被驱逐出冰岛的杀人犯	的领导下	一群移民们宣布拥有了这座岛屿的西南海岸.为了吸引更多的移民，埃里克做了个明智的决定	那便是以一个充满希望的名字来命名这座未开发岛屿——这便是格陵兰.\n\n格陵兰已经开始向其冰岛及其他地方出口海象象牙、密封鲸油以及毛皮.除了勇敢的维京殖民者外	这座岛上似乎并没有其他人类居住.;;;;;;;;;;x
 EVTOPTA_TOG_401;是叫格陵兰吧;;;;;;;;;;x
 EVTNAME_TOG_402;发现文兰;;;;;;;;;;x
-EVTDESC_TOG_402;在听说在格陵兰的西面的远方还有陆地的传说后	红胡子埃里克的儿子列夫 埃里克松偕同他手下的三十五名船员蹬上了一条维京长船	在经过多日的漂泊之后	他们终于发现了陆地并开始沿着海岸南下.他们命名这片土地为文兰并决定在此越冬.当他们回到格陵兰时	他们带回了一舱葡萄以及木材.\n\n 列夫回来后	他的兄弟托尔瓦尔德驶向同样的航线并试图进一步绘制新发现大陆的海岸图	但他的登陆小队遭到了当地生番"着皮者"的袭击	托尔瓦尔德本人也在战斗中丧生.尽管如此	对这片富饶的土地的征服已纳入了维京人的计划之中.;;;;;;;;;;x
+EVTDESC_TOG_402;在听说在格陵兰的西面的远方还有陆地的传说后	红胡子埃里克的儿子列夫 埃里克松偕同他手下的三十五名船员蹬上了一条维京长船	在经过多日的漂泊之后	他们终于发现了陆地并开始沿着海岸南下.他们命名这片土地为文兰并决定在此越冬.当他们回到格陵兰时	他们带回了一舱葡萄以及木材.\n\n列夫回来后	他的兄弟托尔瓦尔德驶向同样的航线并试图进一步绘制新发现大陆的海岸图	但他的登陆小队遭到了当地生番"着皮者"的袭击	托尔瓦尔德本人也在战斗中丧生.尽管如此	对这片富饶的土地的征服已纳入了维京人的计划之中.;;;;;;;;;;x
 EVTOPTA_TOG_402;伟大的发现!;;;;;;;;;;x
 EVTNAME_TOG_403;"着皮者"的领地;;;;;;;;;;x
 EVTDESC_TOG_403;西海彼岸传来了悲惨的消息! 探险家索尔芬.卡尔塞尔芬率领着三艘满载的维京长船试图在文兰这个新大陆建立永久性定居点.不幸的是	当他们沿着文兰海岸驶向南方的时候	遭遇到了一大群全副武装的"着皮者".\n\n着皮者们对维京移民实施了屠杀并夺取了两艘长船. 索尔芬本人则在战斗中牺牲	但他们中有几个人成功地逃了出来并将这个不幸的消息传达到了格陵兰. 根据幸存者们的报告，着皮者们驾着他们夺来的船只向南航行到他们强大的王国	也许我们先进的造船技术会被他们学走..;;;;;;;;;;x
@@ -1649,14 +1649,14 @@ EVTOPTB200;我们不关心...;;;;;;;;;;x
 EVTOPTC200;愚蠢的异端！;;;;;;;;;;x
 EVTOPTD200;拿起武器！;;;;;;;;;;x
 EVTOPTE200;可怕的消息！;;;;;;;;;;x
-EVTDESC320;伟大的[Root.Religion.GetName] [Root.GetTitledFirstName]决定在[From.GetFullBaseName]发起一场对抗异教徒的吉哈德.他号召所有正义的[Root.Religion.GetName]穆斯林为了伊斯兰拿起武器反抗堕落的[New.GetTitledName].\n\n 仁慈的安拉！;;;;;;;;;;x
+EVTDESC320;伟大的[Root.Religion.GetName] [Root.GetTitledFirstName]决定在[From.GetFullBaseName]发起一场对抗异教徒的吉哈德.他号召所有正义的[Root.Religion.GetName]穆斯林为了伊斯兰拿起武器反抗堕落的[New.GetTitledName].\n\n仁慈的安拉！;;;;;;;;;;x
 EVTOPTA320;安拉至大！;;;;;;;;;;x
-EVTDESC322;[Root.Religion.GetName] [Root.GetTitledFirstName]决定在[From.GetFullBaseName]发起对抗异教的吉哈德.他号召所有正义的[Root.Religion.GetName]穆斯林为了伊斯兰拿起武器反抗堕落的[New.GetTitledName].\n\n 伟大的安拉！;;;;;;;;;;x
-EVTDESC323;至正的[Root.Religion.GetName] [Root.GetTitledFirstName]深深的担心[From.GetFullBaseName]迷失信仰的人们，他们中的多数都难以称之为穆斯林.他号召所有真正的([Root.Religion.GetName])穆斯林为了伊斯兰的荣光拿起武器反抗异教徒[New.GetTitledName].\n\n 仁慈的安拉！;;;;;;;;;;x
-EVTDESC324;伟大的[Root.GetTitledFirstName]认为是时候教教[New.GetTitledName]以及那些信仰钉死在十字架上的神的信徒什么是谦虚.所有自由的[Root.Religion.GetName]都被邀请加入洗劫[From.GetFullBaseName]！\n\n [Root.Religion.GetRandomGodNameCap]与我们同在！;;;;;;;;;;x
+EVTDESC322;[Root.Religion.GetName] [Root.GetTitledFirstName]决定在[From.GetFullBaseName]发起对抗异教的吉哈德.他号召所有正义的[Root.Religion.GetName]穆斯林为了伊斯兰拿起武器反抗堕落的[New.GetTitledName].\n\n伟大的安拉！;;;;;;;;;;x
+EVTDESC323;至正的[Root.Religion.GetName] [Root.GetTitledFirstName]深深的担心[From.GetFullBaseName]迷失信仰的人们，他们中的多数都难以称之为穆斯林.他号召所有真正的([Root.Religion.GetName])穆斯林为了伊斯兰的荣光拿起武器反抗异教徒[New.GetTitledName].\n\n仁慈的安拉！;;;;;;;;;;x
+EVTDESC324;伟大的[Root.GetTitledFirstName]认为是时候教教[New.GetTitledName]以及那些信仰钉死在十字架上的神的信徒什么是谦虚.所有自由的[Root.Religion.GetName]都被邀请加入洗劫[From.GetFullBaseName]！\n\n[Root.Religion.GetRandomGodNameCap]与我们同在！;;;;;;;;;;x
 EVTOPTA324;为了[Root.Religion.GetRandomGodName]！;;;;;;;;;;x
-EVTDESC325;[Root.GetTitledFirstName]梦见了[Root.Religion.GetRandomGodName]，命令[Root.GetObjectPronoun]宣布伟大的[Root.Religion.GetCrusadeName]在[New.GetTitledName].所有自由的[Root.Religion.GetName]人都被邀请到圣地的盛宴中！\n\n [Root.Religion.GetRandomGodNameCap]伟大！;;;;;;;;;;x
-EVTDESC326;根据预兆 - [Root.GetTitledFirstName]宣布[Root.Religion.GetCrusadeName]在[New.GetTitledName]和[New.Religion.GetRandomGodName]的追随者在[From.GetFullBaseName]！所有自由的[Root.Religion.GetName]人都被鼓励在圣地的战斗中提供帮助！\n\n [Root.Religion.GetRandomGodNameCap]将打倒[New.Religion.GetRandomGodName]！;;;;;;;;;;x
+EVTDESC325;[Root.GetTitledFirstName]梦见了[Root.Religion.GetRandomGodName]，命令[Root.GetObjectPronoun]宣布伟大的[Root.Religion.GetCrusadeName]在[New.GetTitledName].所有自由的[Root.Religion.GetName]人都被邀请到圣地的盛宴中！\n\n[Root.Religion.GetRandomGodNameCap]伟大！;;;;;;;;;;x
+EVTDESC326;根据预兆 - [Root.GetTitledFirstName]宣布[Root.Religion.GetCrusadeName]在[New.GetTitledName]和[New.Religion.GetRandomGodName]的追随者在[From.GetFullBaseName]！所有自由的[Root.Religion.GetName]人都被鼓励在圣地的战斗中提供帮助！\n\n[Root.Religion.GetRandomGodNameCap]将打倒[New.Religion.GetRandomGodName]！;;;;;;;;;;x
 opinion_mutual_respect;不情愿的共识;;;;;;;;;;x
 GREAT_HOLY_WAR;伟大的圣战;;;;;;;;;;x
 roman;罗马人;;;;;;;;;;x
