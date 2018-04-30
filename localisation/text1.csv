@@ -481,7 +481,7 @@ REMOVE_TITLE_EFFECT;$CHAR$不再是$TITLE$。\n;;;;;;;;;;x
 IMPLEMENT_LAW;制定并执行;;;;;;;;;;x
 REVOKE_LAW;废除;;;;;;;;;;x
 CHARBANISHEFFECT;§Y$NAME$§!被驱逐到§Y$TARGET$§!\n;;;;;;;;;;x
-MODIFIER_ADDED;§Y$WHERE$§!获得'§Y$WHAT$§!'直到§Y$DATE$§!，得到如下效果：\n$EFFECT$\n\n;;;;;;;;;;x
+MODIFIER_ADDED;§Y$WHERE$§!获得「§Y$WHAT$§!」直到§Y$DATE$§!，效果如下：\n$EFFECT$\n\n;;;;;;;;;;x
 MODIFIER_REMOVED;§Y$WHAT$§!将从§Y$WHERE$§!移除\n;;;;;;;;;;x
 DIPLOMACYEFFECT;$DIRECTION$ $VALUE$外交\n;;;;;;;;;;x
 INTRIGUEEFFECT;$DIRECTION$ $VALUE$密谋\n;;;;;;;;;;x
@@ -579,7 +579,7 @@ COMBATEND_PRESTIGE;§Y战斗中获得的威望§!;;;;;;;;;;x
 COMBATEND_TOTAL;总计：;;;;;;;;;;x
 COMBATEND_REST;其他指挥官：;;;;;;;;;;x
 COMBATEND_PIETY;§Y[Player.Religion.GetPietyName]战斗中获得的虔诚§!;;;;;;;;;;x
-COMBATEND_WEALTH_STOLEN;§Y围城劫掠的金钱§!;;;;;;;;;;x
+COMBATEND_WEALTH_STOLEN;§Y围攻劫掠的金钱§!;;;;;;;;;;x
 COMBATVIEW_TOTALTROOPS_FLANK;这一翼的剩余部队：;;;;;;;;;;x
 COMBATVIEW_PHASE_NAME;这一翼正在 §Y$PHASE$阶段§W;;;;;;;;;;x
 COMBATVIEW_PHASE_DAMAGE;在 $PHASE$阶段时这一翼每天每名士兵将平均造成§Y$AVERAGE$§W伤害;;;;;;;;;;x
@@ -2069,7 +2069,7 @@ EVTOPTA6502;轻拍小猫;;;;;;;;;;x
 EVTTOOLTIP6502;获得§Y1§!稳定;;;;;;;;;;x
 EVTDESC150;为避免被[From.GetTitledFirstName]的军队抓获，我被迫举起叛乱的旗帜;;;;;;;;;;x
 EVTOPTA150;揭竿而起！;;;;;;;;;;x
-EVTDESC40000;我的警卫未能抓住[From.GetTitledFirstName]，现在[From.GetPossPronoun]举起了叛乱的旗帜！;;;;;;;;;;x
+EVTDESC40000;我的卫兵未能抓住[From.GetTitledFirstName]，现在[From.GetPossPronoun]举起了叛乱的旗帜！;;;;;;;;;;x
 EVTOPTA40000;揭竿而起！;;;;;;;;;;x
 EVTDESC151;我的主君似乎想把我扔到地牢.我的生活可能会终结;;;;;;;;;;x
 EVTDESC40001;[From.GetTitledFirstName]被安全地锁在我的地牢里，等待[From.GetPossPronoun]的命运……;;;;;;;;;;x
@@ -2084,7 +2084,7 @@ EVTDESC156;我在房外走廊的惊呼中醒来.我的卫士杀了一个刺客�
 EVTOPTA156;谁会要我死;;;;;;;;;;x
 EVTDESC40003;我请来的杀手刺杀[From.GetTitledFirstName]失败了，但是他不知道是我干的.;;;;;;;;;;x
 EVTOPTA40003;没用的杀手……;;;;;;;;;;x
-EVTDESC157;三个刺客在我回房间时跳了出来想杀我.警卫救了我的命，但是我被刺伤了;;;;;;;;;;x
+EVTDESC157;三个刺客在我回房间时跳了出来想杀我。卫兵救了我的命，但是我被刺伤了。;;;;;;;;;;x
 EVTOPTA157;该死的凶手！;;;;;;;;;;x
 EVTOPTA40004;至少[From.GetSubjectPronoun]受伤了;;;;;;;;;;x
 EVTDESC158;疼痛太让我难受了.愿[Root.Religion.GetRandomGodName]诅咒那个要杀我的人！;;;;;;;;;;x
@@ -2094,7 +2094,7 @@ EVTDESC159;我信赖的厨师抓住了一个试图向我酒中下毒的厨房帮
 EVTOPTA159;我就知道;;;;;;;;;;x
 EVTDESC40006;我的刺客刺杀[From.GetTitledFirstName]失败了.更糟的是，他们透露我的名字！;;;;;;;;;;x
 EVTOPTA40006;这不利于我的名声;;;;;;;;;;x
-EVTDESC160;我醒来时，发现一个朦胧的身影正爬过窗口.我大声求救，警卫破门而入，就在他刺中了我的肩膀的那一刻抓住了刺客;;;;;;;;;;x
+EVTDESC160;我醒来时，发现一个朦胧的身影正爬过窗口。我大声求救，卫兵破门而入，就在他刺中了我的肩膀的那一刻抓住了刺客。;;;;;;;;;;x
 EVTOPTA160;[From.GetTitledFirstName]派他来的;;;;;;;;;;x
 EVTOPTA40007;[From.GetSubjectPronoun]受伤了;;;;;;;;;;x
 EVTDESC161;我的新侍女用一个小匕首袭击了我.在卫兵制服她之前，她刺瞎了我的眼睛，在她被处决之前，她说出了她的雇主的名字 - [From.GetBestName];;;;;;;;;;x
@@ -4757,10 +4757,10 @@ HINT_COMBAT_VIEW_TITLE;战斗界面 ;;;;;;;;;;x
 HINT_COMBAT_VIEW_TEXT_1;在战斗中，军队的三个部分面对面交锋——左翼面对右翼，中央对抗中央，右翼面对左翼. ;;;;;;;;;;x
 HINT_COMBAT_VIEW_TEXT_2;战斗在遭遇战阶段开始，这时弓箭手和弓骑兵是主要的兵种。最终，军队将互相接近并进入肉搏阶段，这时重步兵和骑士将闪耀光芒。当一支军队撤退时，他的对手将进入追击阶段，试图消灭尽可能多的敌人，这时，轻骑兵将是最好的。;;;;;;;;;;x
 HINT_COMBAT_VIEW_TEXT_3;在每个战斗阶段，各个部分的指挥官会根据他们的军事能力选定一个战术，这将很大程度上决定他们军队战斗的效率。;;;;;;;;;;x
-HINT_SIEGE_VIEW_TITLE;围城界面 ;;;;;;;;;;x
-HINT_SIEGE_VIEW_TEXT_1;一次围城的长度主要取决于男爵领的堡垒等级，守军的数量和围城者的数量. ;;;;;;;;;;x
-HINT_SIEGE_VIEW_TEXT_2;如果围城者的数量比防守者少，围城将不是很有效. ;;;;;;;;;;x
-HINT_SIEGE_VIEW_TEXT_3;当防守者的士气为零（或者攻击者离去或被赶走），围城就会结束. ;;;;;;;;;;x
+HINT_SIEGE_VIEW_TITLE;围攻界面;;;;;;;;;;x
+HINT_SIEGE_VIEW_TEXT_1;一次围攻的长度主要取决于男爵领的堡垒等级，守军的数量和围攻者的数量.;;;;;;;;;;x
+HINT_SIEGE_VIEW_TEXT_2;如果围攻者的数量比防守者少，围攻将不是很有效.;;;;;;;;;;x
+HINT_SIEGE_VIEW_TEXT_3;当防守者的士气为零（或者攻击者离去或被赶走），围攻就会结束.;;;;;;;;;;x
 HINT_CONFIRM_DISABLE_TITLE;确定要关闭提示？;;;;;;;;;;x
 HINT_CONFIRM_DISABALE_DESC;你确定要永远关闭提示吗\n(你可以在设置面板里重新打开提示);;;;;;;;;;x
 INTERACTION_MESSAGE_ACTOR_PORTRAIT;来自[Actor.GetBestName]的消息;;;;;;;;;;x
@@ -5437,7 +5437,7 @@ EVTOPTA20380;哦，天啊……;;;;;;;;;;x
 EVTDESC20381;我的领主，我恳求把我派往另一个郡！[From.Location.GetName]的那群傻逼已经让我失去了一条手臂，我不想再因为他们拿反了弓箭而失去另一条手臂了！\n\n你忠诚的元帅,\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA20381;我怎么能用这些农夫作战呢！;;;;;;;;;;x
 EVTNAME939;军事机密泄露;;;;;;;;;;x
-EVTDESC939;我行至[Root.Location.GetName]尽力帮助教导人们他们所任意使用的军事装备的知识，以防万一他们遭围城或者主上需要从该省份补充兵员.但我感觉我一事无成……;;;;;;;;;;x
+EVTDESC939;我行至[Root.Location.GetName]尽力帮助教导人们他们所任意使用的军事装备的知识，以防万一他们遭围攻或者主上需要从该省份补充兵员.但我感觉我一事无成……;;;;;;;;;;x
 EVTOPTA939;要是事如我愿该多好;;;;;;;;;;x
 EVTTOOLTIP20390;一个会见当地贵族的机会;;;;;;;;;;x
 EVTDESC20390;去[From.Location.GetName]的路上我会见了[From.GetTitledName]，[From.Liege.GetTitledName]的军事总管.我知道[From.GetSheHe]会对我最近做出的军事进展感兴趣.我该同[From.GetHerHim]分享吗;;;;;;;;;;x
@@ -14757,7 +14757,7 @@ SIEGETHEM_SETUP;当我国军队包围敌国城市;;;;;;;;;;x
 LANDBATTLEOVER_SETUP;当一场陆战结束;;;;;;;;;;x
 LANDBATTLEOVER_LOG;我们$RESULT$$NAME$战役.;;;;;;;;;;x
 SIEGEOVER_SETUP;当一个围攻结束;;;;;;;;;;x
-SIEGEOVER_LOG;我们$RESULT$$NAME$围城战.;;;;;;;;;;x
+SIEGEOVER_LOG;我们$RESULT$$NAME$围攻战.;;;;;;;;;;x
 CHATMESSAGE_SETUP;当你收到聊天消息;;;;;;;;;;x
 CHATMESSAGE_LOG;$TEXT$;;;;;;;;;;x
 UNITARRIVED_SETUP;当我国部队到达目的地;;;;;;;;;;x
@@ -14814,14 +14814,14 @@ TITLE_GAINED_JOB_LETTER;我们决定授予你成为$JOB_TITLE$的荣誉.;;;;;;;;
 TITLE_GAINED_MINOR_SETUP;得到下级头衔;;;;;;;;;;x
 TITLE_GAINED_MINOR_LOG;§Y$NEWHOLDER$§!成为了$JOB_TITLE$.;;;;;;;;;;x
 TITLE_GAINED_MINOR_LETTER;我们认可你的贡献，决定授予你$JOB_TITLE$.\n\n你的$TITLE$;;;;;;;;;;x
-SIEGEOVER_WIN_SETUP;围城战胜利;;;;;;;;;;x
-SIEGEOVER_WIN_LOG;我们取得了§Y$SETTLEMENT$§!围城战的胜利，成功从§Y$DEFENDER$§!手中得到了这个领地.;;;;;;;;;;x
-SIEGEOVER_LOSS_SETUP;围城战失败;;;;;;;;;;x
-SIEGEOVER_LOSS_LOG;我们输掉了§Y$SETTLEMENT$§!的围城战，这个领地被§Y$ATTACKER$§!占领了.;;;;;;;;;;x
-SIEGEOVER_OTHER_SETUP;（第三方）围城战结束;;;;;;;;;;x
-SIEGEOVER_OTHER_LOG;§Y$SETTLEMENT$§!的围城战胜利了，§Y$ATTACKER$§!从§Y$DEFENDER$§!手中得到了这个领地.;;;;;;;;;;x
-SIEGEOVER_ABANDON_SETUP;发起围城;;;;;;;;;;x
-SIEGEOVER_ABANDON_LOG;对§Y$SETTLEMENT$§!的围城取消了，§Y$ATTACKER$§!不再对§Y$DEFENDER$§!发起进攻.;;;;;;;;;;x
+SIEGEOVER_WIN_SETUP;围攻战胜利;;;;;;;;;;x
+SIEGEOVER_WIN_LOG;我们取得了§Y$SETTLEMENT$§!围攻战的胜利，成功从§Y$DEFENDER$§!手中得到了这个领地.;;;;;;;;;;x
+SIEGEOVER_LOSS_SETUP;围攻战失败;;;;;;;;;;x
+SIEGEOVER_LOSS_LOG;我们输掉了§Y$SETTLEMENT$§!的围攻战，这个领地被§Y$ATTACKER$§!占领了.;;;;;;;;;;x
+SIEGEOVER_OTHER_SETUP;（第三方）围攻战结束;;;;;;;;;;x
+SIEGEOVER_OTHER_LOG;§Y$SETTLEMENT$§!的围攻战胜利了，§Y$ATTACKER$§!从§Y$DEFENDER$§!手中得到了这个领地.;;;;;;;;;;x
+SIEGEOVER_ABANDON_SETUP;发起围攻;;;;;;;;;;x
+SIEGEOVER_ABANDON_LOG;对§Y$SETTLEMENT$§!的围攻取消了，§Y$ATTACKER$§!不再对§Y$DEFENDER$§!发起进攻.;;;;;;;;;;x
 LANDBATTLEOVER_WIN_SETUP;陆战胜利;;;;;;;;;;x
 LANDBATTLEOVER_WIN_LOG;我们在$BATTLE$中对§Y$LOOSER$§!取得了胜利.;;;;;;;;;;x
 LANDBATTLEOVER_LOSS_SETUP;陆战失败;;;;;;;;;;x
@@ -14976,7 +14976,7 @@ REGIMENT_REINFORCEMENT_SPEED;补充速度;;;;;;;;;;x
 LAND_ORGANISATION;陆军组织度;;;;;;;;;;x
 NAVAL_ORGANISATION;海军组织度;;;;;;;;;;x
 SIEGE_SPEED;围攻速度;;;;;;;;;;x
-MODIFIER_SIEGE_DEFENCE;围城战防御;;;;;;;;;;x
+MODIFIER_SIEGE_DEFENCE;围攻防御;;;;;;;;;;x
 DIPLOMATIC_MISSIONS;外交成功;;;;;;;;;;x
 INTRIGUE_MISSIONS;阴谋成功;;;;;;;;;;x
 MAX_RIVALS;最大对手数量;;;;;;;;;;x
@@ -15783,7 +15783,7 @@ TRUCE_WITH;和$WHO$的停战协议到$DATE$结束;;;;;;;;;;x
 PEACEDESC;商议和平条约;;;;;;;;;;x
 VASSAL_GIVEUP;$WHO$停止向$WHAT$上贡.;;;;;;;;;;x
 EXPENSES;开支;;;;;;;;;;x
-UNDER_SIEGE;省份被包围! ;;;;;;;;;;x
+UNDER_SIEGE;省份被围攻!;;;;;;;;;;x
 April;四月;;;;;;;;;;x
 August;八月;;;;;;;;;;x
 December;十二月;;;;;;;;;;x
@@ -15892,7 +15892,7 @@ BASE;基准;;;;;;;;;;x
 UNIT_STATUS_STANDING;闲置中;;;;;;;;;;x
 UNIT_STATUS_MOVING;移动中;;;;;;;;;;x
 UNIT_STATUS_COMBAT;战斗中;;;;;;;;;;x
-UNIT_STATUS_SIEGE;围城中;;;;;;;;;;x
+UNIT_STATUS_SIEGE;围攻中;;;;;;;;;;x
 UNIT_STATUS_RETREATING;撤退中;;;;;;;;;;x
 TRAITS;特质;;;;;;;;;;x
 CHARACTER_UNEMPLOYED;无职业;;;;;;;;;;x
@@ -16044,7 +16044,7 @@ ICON_ANNEX;§Y合并§!要求;;;;;;;;;;x
 ICON_TRIBUTE;§Y上贡§!提议;;;;;;;;;;x
 ICON_CALLALLY;§Y履行盟约§!请求;;;;;;;;;;x
 HASCOMBAT;这个郡处于战火中;;;;;;;;;;x
-UNDERSIEGE;这个郡正在被围攻;;;;;;;;;;x
+UNDERSIEGE;这个省份正在被围攻;;;;;;;;;;x
 LEDGER_CATEGORY;种类;;;;;;;;;;x
 LEDGER_LAST_YEAR;去年;;;;;;;;;;x
 LEDGER_THIS_YEAR;今年;;;;;;;;;;x
@@ -16471,7 +16471,7 @@ CH_GAINED_TITLE;成为$TITLE$.;;;;;;;;;;x
 Objective;目标;;;;;;;;;;x
 EFFECT;效果;;;;;;;;;;x
 maneuver;机动;;;;;;;;;;x
-SIEGES;围城;;;;;;;;;;x
+SIEGES;围攻;;;;;;;;;;x
 COMBATS;陆战;;;;;;;;;;x
 ARMY_RECRUITMENTS;招募陆军;;;;;;;;;;x
 NAVY_RECRUITMENTS;建造舰船;;;;;;;;;;x
@@ -16503,7 +16503,7 @@ TAX_INCOME;税收;;;;;;;;;;x
 OL_MISSION_DESC;我们的传教活动有§Y$CHANCE$§!%的成功率.;;;;;;;;;;x
 OL_BUILD_ARMY;我们正在§Y$PROV$§!招募§Y$TYPE$§!.;;;;;;;;;;x
 OL_BUILD_NAVY;我们正在§Y$PROV$§!建造§Y$TYPE$§!.;;;;;;;;;;x
-ENEMY_SIEGES;敌军围城;;;;;;;;;;x
+ENEMY_SIEGES;敌军围攻;;;;;;;;;;x
 ARMIES;陆军;;;;;;;;;;x
 NAVIES;海军;;;;;;;;;;x
 MESSAGERULES;消息设置;;;;;;;;;;x
@@ -16536,7 +16536,7 @@ MESSAGESETTINGS_CHAR_DONTADD;你将不会从以下角色处收到消息：;;;;;;
 MESSAGESETTINGS_GENERAL_TOOLTIP_END;点击更改;;;;;;;;;;x
 MESSAGESETTINGS_REMOVE_TOOLTIP;取消特例;;;;;;;;;;x
 OL_COMBAT_DESC;$PROV$的战斗\n攻击方：§Y$ATT$\n$ATT_SIZE$§!人\n防守方：§Y$DEF$\n$DEF_SIZE$§!人;;;;;;;;;;x
-OL_SIEGE_DESC;$PROV$郡$SETT$的围城战\n攻击方：§Y$ATT$\n$ATT_SIZE$§! 人\n防守方：§Y$DEF_SIZE$ 人\n$MORALE$§!士气;;;;;;;;;;x
+OL_SIEGE_DESC;$PROV$郡$SETT$的围攻战\n攻击方：§Y$ATT$\n$ATT_SIZE$§! 人\n防守方：§Y$DEF_SIZE$ 人\n$MORALE$§!士气;;;;;;;;;;x
 EVTDESC7000;收到了一封未署名的信件.\n\n“我的$HONORIFIC$，一只小鸟在我耳边轻声告诉我你想让你的$SPOUSE$消失，你可能需要帮助.或者说的直接点，一场暗杀……如果你选择接受我们的服务，只需要把装有钱和目标名字的包放到城北的桥下就好了.”;;;;;;;;;;x
 EVTOPTA7000;主回应了我的祈祷！;;;;;;;;;;x
 EVTOPTB7000;很诱人……但是太冒险了.;;;;;;;;;;x
@@ -18624,7 +18624,7 @@ SUPPLY_NEIGHBOR;控制的邻近领地: $VALUE$;;;;;;;;;;x
 SUPPLY_BASE_MODIFIED;基础值: §Y$VALUE$§!;;;;;;;;;;x
 ATTRITION_MAX;本地的每月最大损耗：§Y$VALUE$%§!;;;;;;;;;;x
 ATTRITION_LEADER_REDUCTION;$NAME$: $VALUE$;;;;;;;;;;x
-TOGGLE_SIEGE_VIEW;切换围城面板;;;;;;;;;;x
+TOGGLE_SIEGE_VIEW;切换围攻面板;;;;;;;;;;x
 TOTAL_COUNTY_TAX;全郡总税收;;;;;;;;;;x
 TOTAL_COUNTY_TAX_DESC;每年上缴给我们的税收 / 每年总收入;;;;;;;;;;x
 TOTAL_COUNTY_LEVY;全郡总兵力;;;;;;;;;;x
@@ -19068,8 +19068,8 @@ HAVE_AT_LEAST_ONE_PROVINCE;至少有一个郡;;;;;;;;;;x
 HAVE_NO_PROVINCES;没有郡;;;;;;;;;;x
 HAVE_AT_LEAST_ONE_CHARACTER;至少有一个角色;;;;;;;;;;x
 HAVE_NO_CHARACTERS;没有角色;;;;;;;;;;x
-HAVE_NOT_SIEGE_IN;没有围城;;;;;;;;;;x
-HAVE_SIEGE_IN;围城;;;;;;;;;;x
+HAVE_NOT_SIEGE_IN;没有在围攻;;;;;;;;;;x
+HAVE_SIEGE_IN;在围攻;;;;;;;;;;x
 HAVE_A_PORT_IN;有一个港口;;;;;;;;;;x
 HAVE_NOT_A_PORT_IN;没有港口;;;;;;;;;;x
 HAVE_COUNTRY_FLAG;有国家标志 ;;;;;;;;;;x
@@ -19110,8 +19110,8 @@ IS_AT_PEACE_WITH;和平与 ;;;;;;;;;;x
 IS_AT_WAR_WITH;战争与 ;;;;;;;;;;x
 HAVE_NO_UNITS_IN_BATTLE;在战斗中没有单位;;;;;;;;;;x
 HAVE_UNITS_IN_BATTLE;在战斗中有单位;;;;;;;;;;x
-HAVE_UNITS_IN_SIEGE;在围城中有单位;;;;;;;;;;x
-HAVE_NO_UNITS_IN_SIEGE;在围城中没有单位;;;;;;;;;;x
+HAVE_UNITS_IN_SIEGE;有单位在围攻;;;;;;;;;;x
+HAVE_NO_UNITS_IN_SIEGE;没有单位在围攻;;;;;;;;;;x
 HAVE_A_UNITS_WITH_A_LEADER;拥有一个已率领部队的将领;;;;;;;;;;x
 HAVE_NO_UNITS_WITH_A_LEADER;拥有一个未率领部队的将领;;;;;;;;;;x
 HAS_FEWER_CHILDREN_THAN;有子女数少于 ;;;;;;;;;;x
@@ -19475,8 +19475,8 @@ DEMESNE_EFF_LESS_THAN;直辖领地效率少于 ;;;;;;;;;;x
 DEMESNE_EFF_AT_LEAST;直辖领地效率至少 ;;;;;;;;;;x
 IS_NOT_IN_BATTLE;没有处于战斗中;;;;;;;;;;x
 IS_IN_BATTLE;在战斗中;;;;;;;;;;x
-IS_NOT_IN_SIEGE;没有在围城中;;;;;;;;;;x
-IS_IN_SIEGE;在围城中;;;;;;;;;;x
+IS_NOT_IN_SIEGE;没有在围攻中;;;;;;;;;;x
+IS_IN_SIEGE;在围攻中;;;;;;;;;;x
 CANNOT_CHANGE_RELIGION;不能改宗;;;;;;;;;;x
 CAN_CHANGE_RELIGION;可以改宗;;;;;;;;;;x
 VASSALS_FEWER_THAN;封臣数少于 ;;;;;;;;;;x
@@ -19621,11 +19621,11 @@ tut_5a_31;什么邻国已经对我们宣战！我们必须保卫自己，让我�
 tut_5a_32;战斗;;;;;;;;;;x
 tut_5a_33;当我们的部队遭遇敌人部队时，战斗即刻开始.战斗阶段包括在高级教程中，所以现在，我们只需要等待，直到显示战斗结束画面.;;;;;;;;;;x
 tut_5a_34;胜利！;;;;;;;;;;x
-tut_5a_35;你赢了！你可以看到你有多少部队被投入到战斗中，双方有多少伤亡，剩下多少部队.单击“确定”，现在我们的军队站在敌人的省份上，它没有军队，则意味着我们的部队会自动开始围城.点击省份继续.;;;;;;;;;;x
-tut_5a_36;围城;;;;;;;;;;x
-tut_5a_37;省份窗口看起来有些不同了，我们正在围城.你能看到有多少人正在攻击城堡，你可以看到有多少防守者.攻击者必须超过防守者，否则围城将没有进展.现在，让我们把游戏速度加快一点，围城的进度看起来更快了，请继续增加速度直至最大.;;;;;;;;;;x
+tut_5a_35;你赢了！你可以看到你有多少部队被投入到战斗中，双方有多少伤亡，剩下多少部队.单击“确定”，现在我们的军队站在敌人的省份上，它没有军队，则意味着我们的部队会自动开始围攻.点击省份继续.;;;;;;;;;;x
+tut_5a_36;围攻;;;;;;;;;;x
+tut_5a_37;省份窗口看起来有些不同了，我们正在围攻.你能看到有多少人正在攻击地产，你可以看到有多少防守者.攻击者必须超过防守者，否则围攻将没有进展.现在，让我们把游戏速度加快一点，围攻的进度看起来更快了，请继续增加速度直至最大.;;;;;;;;;;x
 tut_5a_38;胜利;;;;;;;;;;x
-tut_5a_39;最终的围城即将结束，因为敌人没有增援部队且你的军队数量大于他的.所以我们知道你会赢的.一旦最终结果在屏幕上显示出来，你会看到胜利之后赢得了多少威信和黄金、你和敌人的伤亡人数等.点击继续以结束本节.;;;;;;;;;;x
+tut_5a_39;最终的围攻即将结束，因为敌人没有增援部队且你的军队数量大于他的.所以我们知道你会赢的.一旦最终结果在屏幕上显示出来，你会看到胜利之后赢得了多少威信和黄金、你和敌人的伤亡人数等.点击继续以结束本节.;;;;;;;;;;x
 tut_5b_1;军事 - 中级;;;;;;;;;;x
 tut_5b_2;征召兵是王国风云II中最常见的军队类型.在这个中级教程中将讨论其它的类型.你从封臣手里能征召多大数量和哪些种类的军队取决于领地类型和他对你的好感度.点击军事按钮以继续.;;;;;;;;;;x
 tut_5b_3;征召;;;;;;;;;;x
@@ -19672,7 +19672,7 @@ tut_6b_7;点击继续结束本节.;;;;;;;;;;x
 tut_6c_1;战争 - 高级;;;;;;;;;;x
 tut_6c_2;作为战争的高级部分，我们讨论一些战争得分的细节和法理上的宣称权.请点击继续.;;;;;;;;;;x
 tut_6c_3;战争得分;;;;;;;;;;x
-tut_6c_4;在战争中，你赢得战斗和围城能获得战争得分，分值在获得之后并不会有多少变化.为了更容易的从一个庞大帝国获取这块土地，被占领的敌人领土，所带来的战争得分在占领三年后会开始提升.;;;;;;;;;;x
+tut_6c_4;在战争中，你赢得战斗和围攻能获得战争得分，分值在获得之后并不会有多少变化.为了更容易的从一个庞大帝国获取这块土地，被占领的敌人领土，所带来的战争得分在占领三年后会开始提升.;;;;;;;;;;x
 tut_6c_5;超过三年后，战争得分将会开始升高，问题只在于能否坚守，这已足以让你获取这块土地。如果其统治者不打算，或无能力出兵保卫他的领土.而你也不必继续围攻他所有的其它领地.点击继续.;;;;;;;;;;x
 tut_6c_6;法理;;;;;;;;;;x
 tut_6c_7;法理是一个术语，用来描叙什么是合法的被承认的头衔，即便这块土地被另一个统治者所事实拥有.这意味着，例如某地法理上被承认属于你所拥有的头衔，那你将永远拥有一个宣战理由以获取它.这个法理制度是静态且无法变更的.例如法兰西王国，在法理上永远由那几个公国组成，包含着特定的那些地区.请点击继续以结束本节.;;;;;;;;;;x
@@ -19822,7 +19822,7 @@ COMBATVALUE_MOD_SETT;来自保有地:;;;;;;;;;;x
 COMBATVALUE_MOD_CAPI;来自首都：;;;;;;;;;;x
 LEVY_UNDER_THRESHOLD;税额必须大于 $PERC$% 才能征收;;;;;;;;;;x
 LEVY_OTHER_OCCUPIED;当§Y$SETTLEMENT$§R被占领时, 我们无法对其征税;;;;;;;;;;x
-SIEGE_TO_FEW_MEN;围城将暂时停止，在攻击力量大于防御力量之前无法恢复;;;;;;;;;;x
+SIEGE_TO_FEW_MEN;围攻将暂时停止，在攻击力量大于防御力量之前无法恢复;;;;;;;;;;x
 COURTIER_MALE;廷臣;;;;;;;;;;x
 COURTIER_FEMALE;廷臣;;;;;;;;;;x
 REL_COUSIN_MALE;堂表兄弟;;;;;;;;;;x

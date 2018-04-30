@@ -84,7 +84,7 @@ OFFMAP_NEWS_TRIGGER;正收到来自$OFFMAP|Y$的消息;;;;;;;;;;x
 MAPMODE_OFFMAP_GOVERNOR;§Y$OFFMAP$ 的都护§!;;;;;;;;;;x
 MAPMODE_OFFMAP_TRIBUTARY;§Y$OFFMAP$的朝贡国§!;;;;;;;;;;x
 MAPMODE_OFFMAP_RANGE;§Y在$OFFMAP$的外交距离内§!;;;;;;;;;;x
-TRADE_ROUTE_VALUE_REDUCED;围城和占领贸易线路将会降低整个省份 $VALUE|Y$% 的贸易利润。;;;;;;;;;;x
+TRADE_ROUTE_VALUE_REDUCED;围攻和占领贸易线路将会降低整个省份 $VALUE|Y$% 的贸易利润。;;;;;;;;;;x
 TRADE_ROUTE_VALUE_REDUCED_BY_THIS;这个省份的战乱减少了这条贸易路线下游$VALUE|Y$%的贸易利润;;;;;;;;;;x
 OFFMAP_NEWS;接收消息;;;;;;;;;;x
 OFFMAP_NEWS_TOOLTIP;§Y接收消息§!;;;;;;;;;;x
@@ -1550,13 +1550,13 @@ form_st_anthony;成立圣安东尼骑士团;;;;;;;;;;x
 EVTDESC39810;由于世界陷入了圣战的时代，[From.GetTitledName]召集了这片土地最伟大的战士们来保卫亚历山大牧首。最新成立的圣安东尼骑士团会保卫基督合性派信仰，抵抗所有异教徒。;;;;;;;;;;x
 EVTTITLE39810;圣安东尼的指示;;;;;;;;;;x
 EVT_39810_TT;圣安东尼骑士团成立了;;;;;;;;;;x
-RULE_SIEGE_ASSAULTS;围城攻击;;;;;;;;;;x
-RULE_SIEGE_ASSAULTS_ON_DESC;如果包围中的领地要塞等级低于 6，军队可以尝试强攻。;;;;;;;;;;x
+RULE_SIEGE_ASSAULTS;围攻攻击;;;;;;;;;;x
+RULE_SIEGE_ASSAULTS_ON_DESC;如果围攻中的领地要塞等级低于 6，军队可以尝试强攻。;;;;;;;;;;x
 RULE_SIEGE_ASSAULTS_UNLIMITED_DESC;军队可以随时尝试采取强攻攻取领地。;;;;;;;;;;x
 RULE_SIEGE_ASSAULTS_OFF_DESC;军队无法采取强攻攻取领地。;;;;;;;;;;x
 ASSAULT_FORT_LEVEL_TOO_HIGH;不能攻击要塞等级在$LEVEL|Y$或以上的领地;;;;;;;;;;x
 COMBATVALUE_MORALE_SIEGE;§Y士气：§! $MORALE$\n每$FREQ|Y$天减少$DELTA|R$;;;;;;;;;;x
-SIEGE_TECH_DIFF;围城科技的差异;;;;;;;;;;x
+SIEGE_TECH_DIFF;围攻科技差异;;;;;;;;;;x
 assyrian;亚述人;;;;;;;;;;x
 form_st_addai_desc;召集勇士们守护景教信仰。;;;;;;;;;;x
 form_st_addai;成立圣亚戴骑士团;;;;;;;;;;x
@@ -1633,10 +1633,10 @@ SET_OFFMAP_LIKE_RANDOM;$OFFMAP|Y$ 现在喜爱其他东西;;;;;;;;;;x
 SET_OFFMAP_LIKE;$OFFMAP|Y$ 现在喜爱 $LIKE|Y$;;;;;;;;;;x
 SET_OFFMAP_DISLIKE_RANDOM;$OFFMAP|Y$ 现在喜欢其他东西了;;;;;;;;;;x
 SET_OFFMAP_DISLIKE;$OFFMAP|Y$ 现在讨厌 $LIKE|Y$;;;;;;;;;;x
-RULE_SIEGE_EVENTS;围城事件;;;;;;;;;;x
-RULE_SIEGE_EVENTS_ON_DESC;围城战期间攻防双方都有可能发生各种事件。;;;;;;;;;;x
-RULE_SIEGE_EVENTS_OFF_DESC;任何一方都不会出现常规围城事件.;;;;;;;;;;x
-RULE_SIEGE_EVENTS_DEFENDERS_DESC;围城事件仅可能影响防御方.;;;;;;;;;;x
+RULE_SIEGE_EVENTS;围攻事件;;;;;;;;;;x
+RULE_SIEGE_EVENTS_ON_DESC;围攻战期间攻防双方都有可能发生各种事件。;;;;;;;;;;x
+RULE_SIEGE_EVENTS_OFF_DESC;任何一方都不会出现常规围攻事件.;;;;;;;;;;x
+RULE_SIEGE_EVENTS_DEFENDERS_DESC;围攻事件仅可能影响防御方.;;;;;;;;;;x
 RULE_OPTION_DEFENDERS;防御方;;;;;;;;;;x
 RULE_GROUP_MP;多人游戏;;;;;;;;;;x
 RULE_OPTION_NO_CLOSE_PLAYER_RELATIVES;非玩家亲属;;;;;;;;;;x
@@ -2441,14 +2441,14 @@ ca_government_monastery_3;贡巴寺院;;;;;;;;;;x
 ca_government_monastery_4;贡巴寺院;;;;;;;;;;x
 ca_government_monastery_1_desc;筑防的贡巴保护坐落其内的寺院与学舍.;;;;;;;;;;x
 OFFMAP_GIFTS_DESC;如果§Y[offmap_china.GetName]§!有意与异邦结交，你可以派遣使者向皇帝献上顺从的象征。进贡能提升你的§Y皇恩§!。;;;;;;;;;;x
-chinese_siege_engineers_effect_tt;三位围城专家加入了你的宫廷。他们精通于使用炸药暗中破坏防御工事以及建造攻城塔来攀登城墙。;;;;;;;;;;x
-chinese_siege_engineers;请赐围城专家;;;;;;;;;;x
-chinese_siege_engineers_desc;§Y[Root.Offmap.GetFullName]§!因为他们的战争与工程学院而声名远播，你可以请求几名围城专家担任你的指挥官为你作战。这些角色都有§Y豹韬§!特质(围攻速度: §G50%§!).;;;;;;;;;;x
+chinese_siege_engineers_effect_tt;三位围攻专家加入了你的宫廷。他们精通于使用炸药暗中破坏防御工事以及建造攻城塔来攀登城墙。;;;;;;;;;;x
+chinese_siege_engineers;请赐围攻专家;;;;;;;;;;x
+chinese_siege_engineers_desc;§Y[Root.Offmap.GetFullName]§!因为他们的战争与工程学院而声名远播，你可以请求几名围攻专家担任你的指挥官为你作战。这些角色都有§Y豹韬§!特质(围攻速度: §G50%§!).;;;;;;;;;;x
 EVTDESC_JD_3001;[Root.GetGovernorLetterGreeting]. [Root.GetChineseLetterBlessing].\n\n天子陛下[From.Offmap.Ruler.GetLongChineseEmperorName]将和蔼地满足你的心愿。匠作大将[chinese_siege_engineer_1.GetDynName]及[chinese_siege_engineer_1.GetHerHis]两位学徒，[chinese_siege_engineer_2.GetDynName]和[chinese_siege_engineer_3.GetDynName]，也已前往你的宫廷;;;;;;;;;;x
 EVTOPTA_JD_3001;向[From.Offmap.Ruler.GetTitle]致以衷心的感谢。;;;;;;;;;;x
 EVTOPTB_JD_3001;我会立即使用它们！;;;;;;;;;;x
-EVTOPTB_JD_3001_tt;围城专家将会占用一个未使用的指挥官名额，如果没有空余的指挥官名额，请尽快空出一个来！;;;;;;;;;;x
-EVTOPTA_JD_3001_tt;将所有目前开放的指挥官名额分配给围城专家。;;;;;;;;;;x
+EVTOPTB_JD_3001_tt;围攻专家将会占用一个未使用的指挥官名额，如果没有空余的指挥官名额，请尽快空出一个来！;;;;;;;;;;x
+EVTOPTA_JD_3001_tt;将所有目前开放的指挥官名额分配给围攻专家。;;;;;;;;;;x
 chinese_grace_offer_physician;派遣医生;;;;;;;;;;x
 chinese_grace_offer_physician_desc;因为§Y[Root.Offmap.GetFullName]§!正在被一场毁灭性的瘟疫蹂躏，您可以建议送出一名受过医学教育的学者并保护皇室远离疾病和感染的威胁。这项行动一个角色只能接受一次;;;;;;;;;;x
 china_tribute_send_physician_tt;尚未派送医生;;;;;;;;;;x
@@ -3162,12 +3162,12 @@ EVTDESC_JD_4020_normal_raid_outcome_character;我们派去 [offmap_china.GetFull
 EVTOPT_JD_4020_normal_raid_outcome_character;绝世美人！;;;;;;;;;;x
 EVTOPT_JD_4020_normal_raid_outcome_character_b;我要让 [captured_character.GetHerHim] 成为我的侍妾;;;;;;;;;;x
 EVTDESC_JD_4020_normal_raid_outcome_siege_engineer;我们派去[offmap_china.GetFullName]的劫掠者回来了。这次他们洗劫了一个围攻工程师的工坊，在那里他们设法捉住了工程师的一个弟子。这个徒弟，[captured_engineer.GetFullName]，被带回来为你服务了。;;;;;;;;;;x
-EVTOPT_JD_4020_normal_raid_outcome_siege_engineer;我自己的围城专家？这太棒了！;;;;;;;;;;x
+EVTOPT_JD_4020_normal_raid_outcome_siege_engineer;我自己的围攻专家？这太棒了！;;;;;;;;;;x
 EVTOPT_JD_4020_normal_raid_outcome_siege_engineer_b;立刻让他做指挥官。;;;;;;;;;;x
 EVTDESC_JD_4020_normal_raid_outcome_extra;我们派去[offmap_china.GetFullName] 的劫掠者已经回来了。从中国回来的路上，他们遇到了一个满载珍贵丝绸和瓷器的商队—— [Root.Religion.GetHighGodName] 真的对他们微笑了！;;;;;;;;;;x
 EVTOPT_JD_4020_normal_raid_outcome_extra;好极了！我全都要！;;;;;;;;;;x
 artifact_raid_tt;一件中国宝物加入了您的库存。;;;;;;;;;;x
-fire_commander_tt;开除一位现有的指挥官以让围城专家就任;;;;;;;;;;x
+fire_commander_tt;开除一位现有的指挥官以让围攻专家就任;;;;;;;;;;x
 EVTDESC_JD_4020_normal_raid_outcome_extra_plus;我们派去 [offmap_china.GetFullName] 的劫掠队回来了——他们带回了数不清的财宝！他们辨识出了一个微服出行的汉人贵族并劫持了他，之后用他勒索了巨额的黄金、丝绸和瓷器！;;;;;;;;;;x
 EVTOPT_JD_4020_normal_raid_outcome_extra_plus;那些财宝 [offmap_china.GetShortName] 都是我的！;;;;;;;;;;x
 EVTDESC_JD_4020_normal_raid_outcome_bad;我们派去 [offmap_china.GetFullName]的劫掠队被[offmap_china.GetShortName]的巡逻队攻击了，几乎全军覆没！只有一个幸存者逃了回来，告诉了我他们惨败的消息……;;;;;;;;;;x
@@ -4624,7 +4624,7 @@ EVTOPTB_JD_15015_TT;你的知识使大臣们敬仰。\n;;;;;;;;;;x
 EVTOPTC_JD_15015;废话！我想看看宫殿四周  也许是一次旅行？;;;;;;;;;;x
 EVTOPTC_JD_15015_TT;要员们看到你们在首都公共场合相伴经过。\n;;;;;;;;;;x
 EVT_OPTA_JD_60208;能称万世之君的只能有一个人。;;;;;;;;;;x
-String_siege_engineer;围城专家;;;;;;;;;;x
+String_siege_engineer;围攻专家;;;;;;;;;;x
 String_chinese_royalty;天朝皇室;;;;;;;;;;x
 String_chinese_character_role_fallback;廷臣;;;;;;;;;;x
 EVT_DESC_JD_60312;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子[From.Offmap.Ruler.GetLongChineseEmperorName]，对[FromFrom.GetTitledName]，你的[FromFrom.GetChineseCharacterRole]，的去世表示深深的悲痛，对你致以最深切的慰问。“;;;;;;;;;;x
