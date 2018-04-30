@@ -55,7 +55,7 @@ alert_troops_in_foreign_territory_instant;§Y你在外国领地有军队。§!;;
 alert_troops_in_foreign_territory_delayed;在 $LIST$。;;;;;;;;;;x
 alert_revoltrisk_in_provinces_instant;§Y可能的叛乱§!;;;;;;;;;;x
 alert_revoltrisk_in_provinces_delayed;下列省份有叛乱的危险：\n$LIST$;;;;;;;;;;x
-alert_noheir_delayed;当前人物死亡将结束游戏！;;;;;;;;;;x
+alert_noheir_delayed;当前角色死亡将结束游戏！;;;;;;;;;;x
 alert_court_not_filled_instant;§Y内阁成员空缺§!;;;;;;;;;;x
 alert_court_not_filled_delayed;以下职务需要有人担任：\n$LIST$\n§G点击进入宫廷界面§!;;;;;;;;;;x
 alert_lose_title_on_succ_instant;§Y继承时将失去头衔§!;;;;;;;;;;x
@@ -517,7 +517,7 @@ PLOT_IS_REVEALED;阴谋败露\n;;;;;;;;;;x
 BACK_PLOT_EFFECT;$BACKER$加入$PLOTTER$的阴谋$TITLE$\n;;;;;;;;;;x
 LEAVE_PLOT_EFFECT;$BACKER$退出$PLOTTER$的阴谋$TITLE$\n;;;;;;;;;;x
 IMPREGNATE_EFFECT;$WHO$怀上了$FATHER$的孩子\n;;;;;;;;;;x
-DEFAULT_SENDEVENT_EVENTOPTION_TOOLTIP;人物发生事件\n;;;;;;;;;;x
+DEFAULT_SENDEVENT_EVENTOPTION_TOOLTIP;角色发生事件\n;;;;;;;;;;x
 LOSE_CLAIM_ON;$WHO$失去了对头衔§Y$TITLE$§!的宣称权\n;;;;;;;;;;x
 EARNS_NICKNAME;从此被称为;;;;;;;;;;x
 CHARRELEASEEFFECT;从监狱释放。\n;;;;;;;;;;x
@@ -602,7 +602,7 @@ FAILED_TO; 没能;;;;;;;;;;x
 DYN1_DESC;最终分数：$SCORE$。你$FAILED$超过卡佩家族。卡佩家族由秃头查理的重臣强者罗伯特所创建，最终在1066年获得法兰西王位。尽管在1322年时直系后裔断绝，卡佩家族的分支依然在1337年时拥有法兰西，葡萄牙，那不勒斯，匈牙利和纳瓦拉的王位。其他分支还拥有布列塔尼，勃艮第，波旁，普罗旺斯和亚该亚公爵头衔。一个更远的分支是君士坦丁堡拉丁帝国的皇帝。这真是中世纪欧洲史最伟大的家族。;;;;;;;;;;x
 DYN2_DESC;最终分数：$SCORE$。你$FAILED$超过哈布斯堡家族。一开始，在1066年，哈布斯堡家族前景十分暗淡。比起11世纪日耳曼诸多呼风唤雨的庞大家族，哈布斯堡只是一个瑞士的小伯爵，在帝国内部无足轻重。但是一连串精心策划的政治联姻使家族领地不断扩大，最终在13世纪末14世纪初的大混乱中被选为神圣罗马帝国皇帝，获得了帝国的统治权。尽管皇位并不长久，哈布斯堡还是借机攫取了奥地利公爵头衔。依靠奥地利，哈布斯堡家族在中欧的统治持续到了1918年。;;;;;;;;;;x
 DYN3_DESC;最终分数：$SCORE$.你$FAILED$超过留里克家族。9世纪时，来自瑞典的维京人留里克在罗斯（今天的俄罗斯和乌克兰）建立了一个国家。在继承人中分割领地的政策导致了国家的分裂和不同支系之间的争斗不休。这使他们在13世纪时过于分裂，无法抵挡住蒙古入侵。成吉思汗之孙拔都逐个征服了这些公国，强迫他们向蒙古人纳贡。不过留里克家族还是保存下来了，等待着重新崛起的时机……...;;;;;;;;;;x
-DYN4_DESC;最终分数：$SCORE$.你$FAILED$超过伊夫雷亚家族.伊夫雷亚家族有着杰出的祖先，但在1066年，尽管他们取得了从意大利国王到勃艮第伯爵的头衔，仍然在走下坡路.看起来这个家族已经过气了，不过一次幸运的联姻将卡斯蒂利亚和莱昂国王的头衔拱手送上，使伊夫雷亚家族重新成为欧洲舞台上的关键人物之一.;;;;;;;;;;x
+DYN4_DESC;最终分数：$SCORE$.你$FAILED$超过伊夫雷亚家族.伊夫雷亚家族有着杰出的祖先，但在1066年，尽管他们取得了从意大利国王到勃艮第伯爵的头衔，仍然在走下坡路.看起来这个家族已经过气了，不过一次幸运的联姻将卡斯蒂利亚和莱昂国王的头衔拱手送上，使伊夫雷亚家族重新成为欧洲舞台上的关键角色之一.;;;;;;;;;;x
 DYN5_DESC;最终分数：$SCORE$。你$FAILED$超过皮亚斯特家族。皮亚斯特家族的创建者在成为波兰国王之前据说是个轮匠。尽管波兰王国四分五裂，皮亚斯特家族还是在这一时期稳居王位，并逐渐将波兰变得统一而强盛。家族的其他成员包括神圣罗马帝国的西里西亚公爵。在1337年，有史以来最伟大的国王卡齐米日三世统治着波兰，正在秣马厉兵准备反击蒙古汗国。;;;;;;;;;;x
 DYN6_DESC;最终分数：$SCORE$。你$FAILED$超过科穆宁家族。如果我们将1057年通过政变成为皇帝的伊萨克一世排除在外，科穆宁家族一直是拜占庭帝国的忠诚仆人。在曼奇刻尔特惨败于塞尔柱人之后的大混乱中，科穆宁家族坚守其引以为傲的家族传统，发动了另一场政变。在接下来的100年里，科穆宁家族遏制住了拜占庭帝国的衰落，为帝国带来了所谓的科穆宁复兴。讽刺的是，科穆宁家族同样被宫廷政变所推翻，不过他们在小亚细亚的特拉布宗建立了新的帝国。;;;;;;;;;;x
 DYN7_DESC;最终分数：$SCORE$。你$FAILED$超过金雀花家族。金雀花家族是安茹家族的分支。家族创建者杰弗里在父亲从法国动身前往耶路撒冷加冕为王后脱离了本家。金雀花家族的核心领地在法国，通过联姻继承了英格兰国王和法国的大片领土。不过，在法国继承的领地最终引发了与法兰西国王的冲突，最后演变为百年战争。;;;;;;;;;;x
@@ -4615,7 +4615,7 @@ FE_NEW_GAME;新游戏;;;;;;;;;;x
 FE_SAVE_GAME;存档;;;;;;;;;;x
 FE_HISTORICAL_START;历史开局;;;;;;;;;;x
 FE_SAVED_GAMES;存档;;;;;;;;;;x
-FE_SELECT_NATION;点击地图选择一个人物……;;;;;;;;;;x
+FE_SELECT_NATION;点击地图选择一个角色……;;;;;;;;;;x
 FE_NO_COUNTRY_SELECTED;尚未选择;;;;;;;;;;x
 FE_MILITARY;军事;;;;;;;;;;x
 FE_ECONOMY;经济;;;;;;;;;;x
@@ -4700,19 +4700,19 @@ STORE_MUST_RESTART;需要重启;;;;;;;;;;x
 STORE_MUST_RESTART_DESC;已购买DLC需要重启王国风云II才能生效;;;;;;;;;;x
 HINT_SPLASH_TITLE;欢迎来到王国风云II的世界！ ;;;;;;;;;;x
 HINT_SPLASH_TIME;王国风云II是一个可以随时暂停的即时游戏.这意味着您即可以在游戏暂停时和时间流逝时下达指令.点击右上角的日期或者按空格键来暂停或者继续游戏.使用加号和减号来加速减速. ;;;;;;;;;;x
-HINT_CHAR_VIEW_TITLE;人物界面 ;;;;;;;;;;x
-HINT_CHAR_VIEW_TEXT_3;游戏里的每个人物都有对其他人的态度。态度的弹出提示解释这些态度的详细原因。计算机控制的人物会按照他们的态度行动。;;;;;;;;;;x
-HINT_CHAR_VIEW_TEXT_4;人物的家族在界面的右上部分显示。一个合格的继承人必须来自您自己的家族。您应该尽力扩展您的家族并确保他们获得尽可能多的头衔。;;;;;;;;;;x
-HINT_CHAR_VIEW_TEXT_5;有些人物头像上有小图标，一个五角星表示这是您正在扮演的人物，一个皇冠凸显出您的继承人，一个小血滴则意味着这个人物来自您的家族。;;;;;;;;;;x
+HINT_CHAR_VIEW_TITLE;角色界面 ;;;;;;;;;;x
+HINT_CHAR_VIEW_TEXT_3;游戏里的每个角色都有对其他人的态度。态度的弹出提示解释这些态度的详细原因。计算机控制的角色会按照他们的态度行动。;;;;;;;;;;x
+HINT_CHAR_VIEW_TEXT_4;角色的家族在界面的右上部分显示。一个合格的继承人必须来自您自己的家族。您应该尽力扩展您的家族并确保他们获得尽可能多的头衔。;;;;;;;;;;x
+HINT_CHAR_VIEW_TEXT_5;有些角色头像上有小图标，一个五角星表示这是您正在扮演的角色，一个皇冠凸显出您的继承人，一个小血滴则意味着这个角色来自您的家族。;;;;;;;;;;x
 HINT_COUNCIL_VIEW_TITLE;宫廷界面 ;;;;;;;;;;x
 HINT_COUNCIL_VIEW_TEXT_1;每个统治者都有一个内阁（御前会议）来协助治理领地。内阁里的五个职位都有一个主要的属性——外交，军事，财政，密谋和学习。这些廷臣的技能值将在领主处理国家事务时直接增加到领主的能力上。;;;;;;;;;;x
-HINT_COUNCIL_VIEW_TEXT_2;廷臣可以被派遣到地图上的某个地区去执行各种任务.例如，宫廷的宗教导师可以被派遣去把某个区域和其中的人物转换为您的宗教. ;;;;;;;;;;x
-HINT_COUNCIL_VIEW_TEXT_3;别的人物被指派为廷臣后会对您更好，但是他们也会在被解职时觉得不满.;;;;;;;;;;x
+HINT_COUNCIL_VIEW_TEXT_2;廷臣可以被派遣到地图上的某个地区去执行各种任务.例如，宫廷的宗教导师可以被派遣去把某个区域和其中的角色转换为您的宗教. ;;;;;;;;;;x
+HINT_COUNCIL_VIEW_TEXT_3;别的角色被指派为廷臣后会对您更好，但是他们也会在被解职时觉得不满.;;;;;;;;;;x
 HINT_LAW_VIEW_TITLE;法律界面 ;;;;;;;;;;x
 HINT_LAW_VIEW_TEXT_1;这个界面允许您改变您领地的法律.有两种主要类型的法律——继承法和常规法律.继承法决定了谁是合法的继承人，而普通法则关注管理统治的一些事务.;;;;;;;;;;x
 HINT_LAW_VIEW_TEXT_2;继承法很难被改变，因为不同的继承法将完全改变游戏的互动。不同的人群会倾向于喜欢或厌恶不同的继承法，取决于法律将怎么影响他们的继承机会。;;;;;;;;;;x
-HINT_LAW_VIEW_TEXT_4;王国在继承法上是独特的.即时受到同一个君主统治，他们也可以有独立的继承法.所以，在老国王去世时，联合王国完全可能分裂并再次被两个人物统治.;;;;;;;;;;x
-HINT_LAW_VIEW_TEXT_5;目前处于第二或者第三继承顺位的人物被称为声称王位者.他们通常不喜欢当前的继承人甚至当前的统治者.当统治者死亡时，声称王位者将会在五年内获得一个特殊的宣战理由，允许他们尝试改变继承.;;;;;;;;;;x
+HINT_LAW_VIEW_TEXT_4;王国在继承法上是独特的.即时受到同一个君主统治，他们也可以有独立的继承法.所以，在老国王去世时，联合王国完全可能分裂并再次被两个角色统治.;;;;;;;;;;x
+HINT_LAW_VIEW_TEXT_5;目前处于第二或者第三继承顺位的角色被称为觊觎者.他们通常不喜欢当前的继承人甚至当前的统治者。;;;;;;;;;;x
 HINT_TECH_VIEW_TITLE;科技界面 ;;;;;;;;;;x
 HINT_TECH_VIEW_TEXT_1;科技在中世纪基本是静止的.然而，几个世纪里还是有着一些进步的.在王国风云II中，地图上的每个郡都有独立的科技等级. ;;;;;;;;;;x
 HINT_TECH_VIEW_TEXT_3;当处于科技界面中，在地图中的省份上滑动鼠标将显示当地的科技等级而不是您自己首都的等级. ;;;;;;;;;;x
@@ -4723,21 +4723,21 @@ HINT_MIL_VIEW_TEXT_3;“雇佣兵”标签列出了所有您可以雇佣的雇�
 HINT_PLOT_VIEW_TITLE;密谋界面 ;;;;;;;;;;x
 HINT_PLOT_VIEW_TEXT_3;阴谋是一个达成一些不可告人的目的的阴暗但是有效的手段.和野心不同，阴谋需要一些幕后主使和同谋来达成.一个阴谋的进度由它的势力来衡量，表现了参与者的协同影响力和职位.;;;;;;;;;;x
 HINT_PLOT_VIEW_TEXT_4;您的间谍总管会发现别人的阴谋，这取决于他的密谋能力（除非他本人就参与其中）当你知道阴谋的时候，你可以尝试让主谋者放弃他/她的阴谋或者你可以使用其他手段.;;;;;;;;;;x
-HINT_DIPLO_VIEW_TEXT_1;这个界面列出了所有您可以向其他人物采取的行动。注意，除非一个人物本身是一位统治者，通常是他的宗主来回应您的提议。;;;;;;;;;;x
-HINT_DIPLO_VIEW_TEXT_2;当您向一个人物提出了一项建议，通常他们需要一些时间来反应。然而，您可以在提出建议前看到他们可能的反应及其原因。;;;;;;;;;;x
+HINT_DIPLO_VIEW_TEXT_1;这个界面列出了所有您可以向其他角色采取的行动。注意，除非一个角色本身是一位统治者，通常是他的宗主来回应您的提议。;;;;;;;;;;x
+HINT_DIPLO_VIEW_TEXT_2;当您向一个角色提出了一项建议，通常他们需要一些时间来反应。然而，您可以在提出建议前看到他们可能的反应及其原因。;;;;;;;;;;x
 HINT_DIPLO_VIEW_TEXT_3;在目标的接受程度的提示框中，如果绿色的加号(§G+§!) 的数量超过了红色的减号(§R-§!)，这个提案将可能被接受。;;;;;;;;;;x
 HINT_REL_VIEW_TITLE;宗教界面 ;;;;;;;;;;x
-HINT_REL_VIEW_TEXT_1;这个界面提供了您的宗教状态的总结.多数宗教有一个正式的领袖，例如教宗，哈里发或者君士坦丁堡普世牧首.宗教同时还有一个“宗教权威”的值，影响宗教的传播速度以及把地区和人物转换成这个宗教的难易度. ;;;;;;;;;;x
+HINT_REL_VIEW_TEXT_1;这个界面提供了您的宗教状态的总结.多数宗教有一个正式的领袖，例如教宗，哈里发或者君士坦丁堡普世牧首.宗教同时还有一个“宗教权威”的值，影响宗教的传播速度以及把地区和角色转换成这个宗教的难易度. ;;;;;;;;;;x
 HINT_REL_VIEW_TEXT_2;宗教的首领用各种特殊能力，例如发动一场圣战，或者允许一次离婚.如果一个宗教的权威过低的话，这些能力将无法被执行.和您的宗教领袖保持良好关系是一个好主意，如果您想利用他的力量的话.;;;;;;;;;;x
-HINT_REALM_VIEW_TITLE;国家界面 ;;;;;;;;;;x
+HINT_REALM_VIEW_TITLE;头衔界面 ;;;;;;;;;;x
 HINT_REALM_VIEW_TEXT_1;这个界面的上半部分显示了一个拥有领土的头衔的信息。头衔以一个树状的结构组织起来，帝国级别的头衔在最上方，男爵在最下方。您可以在实际或是法理的结构树之间切换。;;;;;;;;;;x
 HINT_REALM_VIEW_TEXT_2;在这个界面里有一些快捷的按钮来创建、篡夺或是剥夺头衔，如果可实施的话。同时也有显示一个头衔所有活着的宣称者和过去的拥有者的按钮。;;;;;;;;;;x
 HINT_REALM_VIEW_TEXT_3;这个界面的下半部分显示了头衔拥有者的直辖领和财政预算。;;;;;;;;;;x
-HINT_BROWSER_VIEW_TITLE;人物浏览器;;;;;;;;;;x
-HINT_BROWSER_VIEW_TEXT_1;人物浏览器允许您按不同分类寻找人物. ;;;;;;;;;;x
-HINT_BROWSER_VIEW_TEXT_2;“搜索全部”包括所有游戏中的所有人物，除了死亡的.;;;;;;;;;;x
-HINT_BROWSER_VIEW_TEXT_3;“搜索领地”包括所有在您最高宗主下的所有人物. ;;;;;;;;;;x
-HINT_BROWSER_VIEW_TEXT_4;“搜索封臣”包括您属下的所有人物. ;;;;;;;;;;x
+HINT_BROWSER_VIEW_TITLE;角色浏览器;;;;;;;;;;x
+HINT_BROWSER_VIEW_TEXT_1;角色浏览器允许您按不同分类寻找角色. ;;;;;;;;;;x
+HINT_BROWSER_VIEW_TEXT_2;“搜索全部”包括所有游戏中的所有角色，除了死亡的。;;;;;;;;;;x
+HINT_BROWSER_VIEW_TEXT_3;“搜索领地”包括所有在您最高宗主下的所有角色。 ;;;;;;;;;;x
+HINT_BROWSER_VIEW_TEXT_4;“搜索封臣”包括您属下的所有角色. ;;;;;;;;;;x
 HINT_PROV_VIEW_TITLE;省份（伯爵领）界面 ;;;;;;;;;;x
 HINT_PROV_VIEW_TEXT_1;地图被分为许多省份，每个都包含一些土地——城堡，城市和寺院.省份（伯爵领）由伯爵统治，而下属的土地（男爵领）则由男爵（或相应文化中同等的位置）来统治. ;;;;;;;;;;x
 HINT_PROV_VIEW_TEXT_2;男爵领是游戏经济和军事系统的基础.男爵领提供税收和征召兵.城堡拥有最好的征召兵但提供最少的税收.城市很富裕，却没有很好的征召兵.寺院既富裕又提供良好的征召兵.但是很难防守. ;;;;;;;;;;x
@@ -4746,7 +4746,7 @@ HINT_PROV_VIEW_TEXT_4;郡也拥有不同的科技进步，这倾向于从一个�
 HINT_PROV_VIEW_TEXT_5;伯爵领的首府总是由伯爵控制，其他的男爵领可能被任何人拥有. ;;;;;;;;;;x
 HINT_HOLDING_VIEW_TITLE;男爵领界面 ;;;;;;;;;;x
 HINT_HOLDING_VIEW_TEXT_1;这个界面显示了一个男爵领的详细情况并允许拥有者建造各种设施. ;;;;;;;;;;x
-HINT_HOLDING_VIEW_TEXT_2;一个人物的男爵领的集合称为领地.你可以通过箭头在你的领地中的男爵领内循环. ;;;;;;;;;;x
+HINT_HOLDING_VIEW_TEXT_2;一个角色的男爵领的集合称为领地.你可以通过箭头在你的领地中的男爵领内循环. ;;;;;;;;;;x
 HINT_HOLDING_VIEW_TEXT_3;一些建筑物只有在一个郡存在某个科技时才能建造。有些还可能需要另外一个建筑物做为前置条件。;;;;;;;;;;x
 HINT_HOLDING_VIEW_TEXT_4;男爵领的拥有者，或者他的宗主或更高层，可以通过点击编辑改变男爵领的名字. ;;;;;;;;;;x
 HINT_UNIT_VIEW_TITLE;单位界面 ;;;;;;;;;;x
@@ -4975,7 +4975,7 @@ ARRANGE_BETROTHAL_INTERACTION_TITLE;订婚;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_DESC;安排订婚;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_LONG_DESC;未成年的儿童可以互相订立婚约.婚约将持续到双方成婚，一方去世，或是被撕毁为止.;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_0;选择未来的新郎和新娘.;;;;;;;;;;x
-ARRANGE_BETROTHAL_INTERACTION_1;选择一位 §Y$CHAR$§!宫廷里的人物.;;;;;;;;;;x
+ARRANGE_BETROTHAL_INTERACTION_1;选择一位 §Y$CHAR$§!宫廷里的角色.;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_ACCEPT_SETUP;接受订婚;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 接受 §Y[Actor.GetBestName]§! 的提议， §Y[ActorExtra.GetBestName]§! 和 §Y[RecipientExtra.GetBestName]§! 将订立婚约.;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_DECLINE_SETUP;拒绝订婚;;;;;;;;;;x
@@ -4994,7 +4994,7 @@ OFFER_SUCCESSION_MARRIGE_INTERACTION_TITLE;入赘;;;;;;;;;;x
 OFFER_SUCCESSION_MARRIGE_INTERACTION_DESC;安排入赘婚姻;;;;;;;;;;x
 OFFER_SUCCESSION_MARRIGE_INTERACTION_LONG_DESC;入赘会使夫妻生育的孩子成为母亲家族的成员。如果统治者是女性的话，这是保证家族延续的一种很好的方法。;;;;;;;;;;x
 OFFER_SUCCESSION_MARRIGE_INTERACTION_0;选择新郎和新娘.;;;;;;;;;;x
-OFFER_SUCCESSION_MARRIGE_INTERACTION_1;选择一位 §Y$CHAR$§!宫廷里的人物.;;;;;;;;;;x
+OFFER_SUCCESSION_MARRIGE_INTERACTION_1;选择一位 §Y$CHAR$§!宫廷里的角色.;;;;;;;;;;x
 OFFER_SUCCESSION_MARRIGE_INTERACTION_ACCEPT_SETUP;接受入赘;;;;;;;;;;x
 OFFER_SUCCESSION_MARRIGE_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 接受 §Y[Actor.GetBestName]§! 的提议， §Y[ActorExtra.GetBestName]§! 和 §Y[RecipientExtra.GetBestName]§! 将缔结入赘婚姻.;;;;;;;;;;x
 OFFER_SUCCESSION_MARRIGE_INTERACTION_DECLINE_SETUP;拒绝入赘;;;;;;;;;;x
@@ -5005,7 +5005,7 @@ OFFER_MARRIGE_INTERACTION_TITLE;普通婚姻;;;;;;;;;;x
 OFFER_MARRIGE_INTERACTION_DESC;安排普通婚姻;;;;;;;;;;x
 OFFER_MARRIGE_INTERACTION_LONG_DESC;婚姻和配偶的选择非常重要，因为：\n- 你需要继承人以防止血脉断绝。\n- 配偶能力的一半将加到你的能力上。\n- 你可以召唤你的姻亲在战争中支援你（包括你孩子和兄弟姐妹的姻亲）。\n- 与等级更高的贵族联姻可以获得威望。\n- 与声名显赫的家族联姻可以获得威望。;;;;;;;;;;x
 OFFER_MARRIGE_INTERACTION_0;选择新郎和新娘.;;;;;;;;;;x
-OFFER_MARRIGE_INTERACTION_1;选择一位 §Y$CHAR$§!宫廷里的人物.;;;;;;;;;;x
+OFFER_MARRIGE_INTERACTION_1;选择一位 §Y$CHAR$§!宫廷里的角色.;;;;;;;;;;x
 OFFER_MARRIGE_INTERACTION_ACCEPT_SETUP;接受联姻;;;;;;;;;;x
 OFFER_MARRIGE_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 接受 §Y[Actor.GetBestName]§! 的提议， §Y[ActorExtra.GetBestName]§! 和 §Y[RecipientExtra.GetBestName]§! 将结为夫妻;;;;;;;;;;x
 OFFER_MARRIGE_INTERACTION_DECLINE_SETUP;拒绝联姻;;;;;;;;;;x
@@ -14691,9 +14691,9 @@ GENDER_LAW;性别继承权法;;;;;;;;;;x
 GENDER_LAW_DESC;性别继承权法和其他继承权法互补，决定女性是否拥有继承权.;;;;;;;;;;x
 LEDGER_HEADER_DEMESNE;直辖领地;;;;;;;;;;x
 LEDGER_HEADER_PROVINCES;省份;;;;;;;;;;x
-LEDGER_HEADER_REALM;国家;;;;;;;;;;x
+LEDGER_HEADER_REALM;领地;;;;;;;;;;x
 LEDGER_HEADER_RELIGIONS;信仰;;;;;;;;;;x
-LEDGER_HEADER_CHARACTERS;人物;;;;;;;;;;x
+LEDGER_HEADER_CHARACTERS;角色;;;;;;;;;;x
 LEDGER_HEADER_DYNASTY;你的家族;;;;;;;;;;x
 LEDGER_HEADER_IND_STATES;独立国家;;;;;;;;;;x
 LEDGER_HEADER_WARS;战争;;;;;;;;;;x
@@ -14704,7 +14704,7 @@ LEDGER_CHARACTER_GOLD;财富;;;;;;;;;;x
 LEDGER_CHARACTER_PRESTIGE;声望;;;;;;;;;;x
 LEDGER_CHARACTER_PIETY;虔诚;;;;;;;;;;x
 LEDGER_CHARACTER_SCORE;得分;;;;;;;;;;x
-LEDGER_CHARACTER_REALMSIZE;国土;;;;;;;;;;x
+LEDGER_CHARACTER_REALMSIZE;领地规模;;;;;;;;;;x
 LEDGER_RELIGION_HEAD;领袖;;;;;;;;;;x
 LEDGER_RELIGION_HEAD_AUTH;权威;;;;;;;;;;x
 LEDGER_RELIGION_SIZE;大小;;;;;;;;;;x
@@ -14716,7 +14716,7 @@ LEDGER_WARS_STARTDATE;开始日期;;;;;;;;;;x
 LEDGER_WARS_ATTACKER;进攻方;;;;;;;;;;x
 LEDGER_WARS_DEFENDER;防守方;;;;;;;;;;x
 LOADING_TIP_1;年长者继承法是很有效的联合家族土地的方法，但同时出于某种原因会减少你的预期寿命;;;;;;;;;;x
-LOADING_TIP_2;右键点击人物头像会出现快捷菜单;;;;;;;;;;x
+LOADING_TIP_2;右键点击角色头像会出现快捷菜单;;;;;;;;;;x
 LOADING_TIP_4;入赘的话，出生的孩子属于母亲的家族;;;;;;;;;;x
 LOADING_TIP_5;非法的私生子不能延续你的家族血脉;;;;;;;;;;x
 LOADING_TIP_6;第二和第三顺序继承人被称作觊觎者，他们容易带来麻烦;;;;;;;;;;x
@@ -14776,9 +14776,9 @@ NEWBORN_SETUP;生子;;;;;;;;;;x
 NEWBORN_LOG;§Y$CHAR1$§!和§Y$CHAR2$§!生下了一个§Y$SEX$§!，取名为§Y$CHILD$§!.;;;;;;;;;;x
 NEWBORN_LETTER;$MOTHER$生下了一个$SEX$，取名为$CHILD$;;;;;;;;;;x
 NEWBORN_TO_PLAYER;你有了一个$SEX$！$CHAR2$建议给孩子取这个名字：;;;;;;;;;;x
-CHARESCAPE_SETUP;人物越狱;;;;;;;;;;x
+CHARESCAPE_SETUP;角色越狱;;;;;;;;;;x
 CHARESCAPE_LOG;§Y$NAME$§!逃到了§Y$TARGET$§!.;;;;;;;;;;x
-CHAR_DEATH_SETUP;人物死亡;;;;;;;;;;x
+CHAR_DEATH_SETUP;角色死亡;;;;;;;;;;x
 CHAR_EDUCATED_SETUP;一个孩子完成了学业;;;;;;;;;;x
 APPOINTREGENT_SETUP;摄政开始;;;;;;;;;;x
 APPOINTREGENT_LOG;§Y$NAME$§! 被指定为 §Y$MONARCHNAME$§! 的摄政.;;;;;;;;;;x
@@ -14797,7 +14797,7 @@ LAW_APPROVED_SETUP;封臣通过了一个法律;;;;;;;;;;x
 LAW_APPROVED_LOG;§Y$VASSAL$§!通过了§Y$TITLE$§!§Y$LAW$§!.;;;;;;;;;;x
 LAW_PASSED_SETUP;我们通过了法律;;;;;;;;;;x
 LAW_PASSED_LOG;§Y$TITLE$§!的封臣们通过了§Y$LAW$§!.;;;;;;;;;;x
-CHARACTER_CONTRACTED_DISEASE_SETUP;人物染病;;;;;;;;;;x
+CHARACTER_CONTRACTED_DISEASE_SETUP;角色染病;;;;;;;;;;x
 CHARACTER_CONTRACTED_DISEASE_LOG;§Y$NAME$§!得了§Y$DIS_NAME$§!.;;;;;;;;;;x
 DISEASE_OUTBREAK_SETUP;疾病暴发;;;;;;;;;;x
 DISEASE_OUTBREAK_LOG;在§Y$PROV_NAME$§!暴发了§Y$NAME$§!.;;;;;;;;;;x
@@ -14852,9 +14852,9 @@ MY_GUARDIAN_LOST_LETTER;$GUARDIAN$已经不再是我的监护人了;;;;;;;;;;x
 NOMINATION_SETUP;提名继承人;;;;;;;;;;x
 NOMINATION_LOG;§Y$VOTER$§!现在认为§Y$NOMINEE$§!应该继承§Y$TITLE$§!.;;;;;;;;;;x
 PLAYER_SUCCESSOR_CHANGED_SETUP;继承人变更;;;;;;;;;;x
-EXILE_TO_PLAYER_SETUP;新人物来到你的宫廷;;;;;;;;;;x
+EXILE_TO_PLAYER_SETUP;新角色来到你的宫廷;;;;;;;;;;x
 EXILE_TO_PLAYER_LOG;§Y$NAME$§!来到了你的宫廷;;;;;;;;;;x
-EXILE_FROM_PLAYER_SETUP;人物离开你的宫廷;;;;;;;;;;x
+EXILE_FROM_PLAYER_SETUP;角色离开你的宫廷;;;;;;;;;;x
 PROV_CULTURECHANGE_SETUP;郡文化变更;;;;;;;;;;x
 PROV_CULTURECHANGE_LOG;§Y$NAME$§!郡的文化变成了§Y$CULTURENAME$§!;;;;;;;;;;x
 PROV_RELIGIONCHANGE_SETUP;郡信仰变更;;;;;;;;;;x
@@ -15431,7 +15431,7 @@ opinion_horrified;恐慌;;;;;;;;;;x
 opinion_impressed;印象深刻;;;;;;;;;;x
 suspect_of_murder;被怀疑谋杀;;;;;;;;;;x
 accused_of_murder;被指控谋杀;;;;;;;;;;x
-MODIFIER_SHORT_REIGN_LENGTH;统治时间短暂;;;;;;;;;;x
+MODIFIER_SHORT_REIGN_LENGTH;短暂统治年数;;;;;;;;;;x
 opinion_not_release_prisoner;无视请求拒绝释放囚犯;;;;;;;;;;x
 opinion_love_rival;情敌;;;;;;;;;;x
 opinion_happy_with_guardian;对教育满意;;;;;;;;;;x
@@ -15683,7 +15683,7 @@ DEMANDTRIBUTEINFORM;$MONARCHTITLE$，一个来自他国的大使表示他们将�
 OFFERTRIBUTEINFORM;$MONARCHTITLE$，一个来自他国的大使表示他们将不再向对我国的贡金抱有兴趣.\n很高兴解决了负担，不过现在我们要注意保护自己;;;;;;;;;;x
 ASSASSINATETITLE;暗杀;;;;;;;;;;x
 ASSASSINATENEWDESC;你要派遣§Y$ASSASSIN$§!去暗杀§Y$TARGET$§!吗\n这么做可以帮我们解决掉他.不过，如果被发现我们会被他的朋友和盟友谴责.;;;;;;;;;;x
-ASSASINATE_DESC;暗杀你或者他人宫廷里的一个人物;;;;;;;;;;x
+ASSASINATE_DESC;暗杀你或者他人宫廷里的一个角色;;;;;;;;;;x
 DIP_SELECT_CHARACTER;选择受害人;;;;;;;;;;x
 ASSASSIN_INFORM;我们发现了一个$ACTOR$派来的刺客，他$SUCCESS$暗杀$TARGET$.\n;;;;;;;;;;x
 SUPPORTREBTITLE;支持叛军;;;;;;;;;;x
@@ -16139,7 +16139,7 @@ LEDGER_STRENGTH;力量;;;;;;;;;;x
 LEDGER_MORALE;士气;;;;;;;;;;x
 LEDGER_MANEUVER;机动;;;;;;;;;;x
 LEDGER_EXPERIENCE;战术;;;;;;;;;;x
-LEDGER_CHARACTER_OVERVIEW;人物;;;;;;;;;;x
+LEDGER_CHARACTER_OVERVIEW;角色;;;;;;;;;;x
 LEDGER_TITLE;头衔;;;;;;;;;;x
 LEDGER_AGE;年龄;;;;;;;;;;x
 LEDGER_TRADE_ROUTES;商路;;;;;;;;;;x
@@ -16162,8 +16162,8 @@ LEDGER_COUNTRY_OVERVIEW;国家概况;;;;;;;;;;x
 LEDGER_MILITARY_OVERVIEW;军事概况;;;;;;;;;;x
 AS_RULER;作为领主：\n;;;;;;;;;;x
 AS_PERSONAL;作为个人：\n;;;;;;;;;;x
-NO_WAR_ON_OTHERS_AS_VASSAL;上贡国不能向宗主以外的任何国家开战.;;;;;;;;;;x
-SUBJECT;上贡国不能与宗主以外的任何国家同盟.;;;;;;;;;;x
+NO_WAR_ON_OTHERS_AS_VASSAL;朝贡国不能向宗主以外的任何国家开战。;;;;;;;;;;x
+SUBJECT;朝贡国不能与宗主以外的任何国家结盟。;;;;;;;;;;x
 NAVY_COMBAT_TOOLTIP;类型：$TYPE$\n战斗力：$STR$;;;;;;;;;;x
 CHANGERELIGIONEFFECT;$WHO$将会成为$TRAIT$.\n;;;;;;;;;;x
 LOYALTY_GAIN_CHANCE;单位忠诚概率;;;;;;;;;;x
@@ -16191,7 +16191,7 @@ MP_FEW_PLAYERS;你需要至少两个玩家进行游戏.;;;;;;;;;;x
 VASALLACCEPTOTHER_BTN3;转到;;;;;;;;;;x
 VASALLWEREJECT_BTN3;转到;;;;;;;;;;x
 VASALLWEACCEPT_BTN3;转到;;;;;;;;;;x
-no_char_avail;未选择人物;;;;;;;;;;x
+no_char_avail;没有可用角色.;;;;;;;;;;x
 SCREENSHOT_TAKEN;截图已保存;;;;;;;;;;x
 UV_SHIPS;船只: ;;;;;;;;;;x
 foreign_rebels;外国支持叛乱;;;;;;;;;;x
@@ -16200,8 +16200,8 @@ NEED_CASH;我们需要 $CASH$¤ 来做这件事;;;;;;;;;;x
 ICON_VASSAL;要求§Ytribute§!;;;;;;;;;;x
 CHAT_NONE;无;;;;;;;;;;x
 base_values;基础值;;;;;;;;;;x
-LEDGER_CHARACTERS_AWAY;暂居国外的人物;;;;;;;;;;x
-LEDGER_FOREIGN_CHARACTERS;外国的人物;;;;;;;;;;x
+LEDGER_CHARACTERS_AWAY;暂居国外的角色;;;;;;;;;;x
+LEDGER_FOREIGN_CHARACTERS;外国的角色;;;;;;;;;;x
 LEDGER_STATUS;状态;;;;;;;;;;x
 LEDGER_BACK;回来;;;;;;;;;;x
 LEDGER_LEAVING;离开;;;;;;;;;;x
@@ -16256,7 +16256,7 @@ IS_NOT_A_SIBLING;不是以下人的兄弟姐妹：;;;;;;;;;;x
 IS_A_SIBLING;不是以下人的兄弟姐妹：;;;;;;;;;;x
 BLOCKADED_PEACE;港口被封锁;;;;;;;;;;x
 DEFENSIVENESS_ON_SIEGE;城堡等级决定围攻时间，并且决定面对突击时的防御.数值受到全国和本地防御加成.一些商品、国家理念和建筑也会提高这个数值.;;;;;;;;;;x
-NO_CHAR;没有人物;;;;;;;;;;x
+NO_CHAR;无角色;;;;;;;;;;x
 EV_HE;他;;;;;;;;;;x
 EV_HIM;他;;;;;;;;;;x
 EV_HIS;他的;;;;;;;;;;x
@@ -16273,7 +16273,7 @@ PROVINCE;省;;;;;;;;;;x
 FROM;从;;;;;;;;;;x
 PAY_CASH;$WHO$将支付$WHAT$金币.;;;;;;;;;;x
 PAY_TRIBUTE;$WHO$将支付每月$WHAT$金币的贡金.;;;;;;;;;;x
-NO_CHAR_AVAIL;没有可用的人物.;;;;;;;;;;x
+NO_CHAR_AVAIL;没有可用角色.;;;;;;;;;;x
 DESELECT_UNIT;取消选中单位;;;;;;;;;;x
 DESELECT_UNIT_DRO;这个按钮将关闭当前部队窗口;;;;;;;;;;x
 TRANSFER_SUB;转移;;;;;;;;;;x
@@ -16348,7 +16348,7 @@ ICON_TRIBUTE_CANCEL;取消§Y贡金§!;;;;;;;;;;x
 ICON_TRIBUTE_DEMAND;§Y要求贡金§!;;;;;;;;;;x
 SUBJECT_PAYING_TRIBUTE;已经在向其他人上贡了;;;;;;;;;;x
 BATTLES_SCORE;战役：;;;;;;;;;;x
-SELECT_VICTOR;选择人物;;;;;;;;;;x
+SELECT_VICTOR;选择角色;;;;;;;;;;x
 ALREADY_CALLED_ALLY;我们已经都和同一个敌人开战了;;;;;;;;;;x
 MAY_NOT_RETREAT;战斗才刚刚开始就撤退是不可能的，也是可耻的.;;;;;;;;;;x
 CH_NBATTLE_RESULT_LONG;他以§Y$US$§!面对§Y$ENEMY$§!的§Y$THEM$§!.他以§Y$OUR_LOSSES$§!的损失对敌人造成§Y$THEIR_LOSSES$§!的损失.;;;;;;;;;;x
@@ -16362,7 +16362,7 @@ DIPRELCH_CULTURE;相同文化;;;;;;;;;;x
 TERM_OF_OFFICE;任期;;;;;;;;;;x
 DISBAND_FLEET;$PROV$的舰队将解散;;;;;;;;;;x
 BECOMES_RULER;$WHO$将成为新的$TITLE$;;;;;;;;;;x
-INVOLVED_CHARACTERS;受到影响的人物;;;;;;;;;;x
+INVOLVED_CHARACTERS;受到影响的角色;;;;;;;;;;x
 RELATION_CAPPED;关系已经非常好了，只有通过额外行动才能获得更大的提升.;;;;;;;;;;x
 MONTHLY_BALANCE;每月结余;;;;;;;;;;x
 INTRIGUE_NOT_AFFORD;我们无法支付;;;;;;;;;;x
@@ -16370,7 +16370,7 @@ INTRIGUE_COST;花费;;;;;;;;;;x
 land_province;基础;;;;;;;;;;x
 CHAR_MEN;男性;;;;;;;;;;x
 CHAR_WOMEN;女性;;;;;;;;;;x
-IMPRISONED_BY;被以下人物囚禁：;;;;;;;;;;x
+IMPRISONED_BY;被以下角色囚禁：;;;;;;;;;;x
 LANDMORALE_IRO;陆军基础士气是§Y$CURRENT$§!.\n;;;;;;;;;;x
 LANDMORALE_DRO;当前陆军科技基础士气是§Y$CURRENT$§!.\n;;;;;;;;;;x
 NAVALMORALE_IRO;海军基础士气是§Y$CURRENT$§!.\n;;;;;;;;;;x
@@ -16413,7 +16413,7 @@ MODIFIERS;修正:;;;;;;;;;;x
 DECISIONS;决定;;;;;;;;;;x
 no_mission_title;没有任务;;;;;;;;;;x
 no_mission_desc;我们当前没有激活的任务;;;;;;;;;;x
-CHARACTERS_MENU;人物;;;;;;;;;;x
+CHARACTERS_MENU;角色;;;;;;;;;;x
 CHAR_LOCATION;位置;;;;;;;;;;x
 CHAR_FREE;全部;;;;;;;;;;x
 CHAR_EMPLOYED;被雇佣的;;;;;;;;;;x
@@ -16437,7 +16437,7 @@ INTRIGUE_NOT_AGAINST_OFFSPRING;不能针对你的子嗣.;;;;;;;;;;x
 INTRIGUE_NOT_AGAINST_RULER;不能针对你自己！;;;;;;;;;;x
 SUCCESS_CHANCE;成功率;;;;;;;;;;x
 IF_DISCOVERED;如果被发现;;;;;;;;;;x
-INTRIGUE_USE_DIPLO_ACTION;对外国的人物你必须使用外交.;;;;;;;;;;x
+INTRIGUE_USE_DIPLO_ACTION;对外国的角色你必须使用外交.;;;;;;;;;;x
 SENATE_INFLUENCE;参议院影响;;;;;;;;;;x
 LEADER;领导人;;;;;;;;;;x
 CHAR_BRIBE;贿赂;;;;;;;;;;x
@@ -16462,7 +16462,7 @@ THREATENEDBY;感到来自$LIST$的威胁.;;;;;;;;;;x
 ON_MISSION;有任务;;;;;;;;;;x
 BASE_COST;基础花费;;;;;;;;;;x
 BASE_TIME;基础时间;;;;;;;;;;x
-ALLOW_DESCRIPTION;人物可以成为§Y$TITLE$§!，如果满足下列条件：\n;;;;;;;;;;x
+ALLOW_DESCRIPTION;角色可以成为§Y$TITLE$§!，如果满足下列条件：\n;;;;;;;;;;x
 CHAR_IMPRISON_FOREIGNERS;当你允许外国高官入境后，你不能逮捕他们.;;;;;;;;;;x
 NOT_DURING_TRUCE;停战期间不能取消贡金.;;;;;;;;;;x
 GRANT_TITLE_NONE;你没有头衔可以授予给这个人.;;;;;;;;;;x
@@ -16531,8 +16531,8 @@ MESSAGESETTING_LIEGE2;你将会收到关于直属领主以及以上领主的消�
 MESSAGESETTING_LIEGE_SHORT0;无领主消息;;;;;;;;;;x
 MESSAGESETTING_LIEGE_SHORT1;直属领主消息;;;;;;;;;;x
 MESSAGESETTING_LIEGE_SHORT2;所有领主消息;;;;;;;;;;x
-MESSAGESETTINGS_CHAR_ADD;你将会从以下人物出收到消息：;;;;;;;;;;x
-MESSAGESETTINGS_CHAR_DONTADD;你将不会从以下人物出收到消息：;;;;;;;;;;x
+MESSAGESETTINGS_CHAR_ADD;你将会从以下角色处收到消息：;;;;;;;;;;x
+MESSAGESETTINGS_CHAR_DONTADD;你将不会从以下角色处收到消息：;;;;;;;;;;x
 MESSAGESETTINGS_GENERAL_TOOLTIP_END;点击更改;;;;;;;;;;x
 MESSAGESETTINGS_REMOVE_TOOLTIP;取消特例;;;;;;;;;;x
 OL_COMBAT_DESC;$PROV$的战斗\n攻击方：§Y$ATT$\n$ATT_SIZE$§!人\n防守方：§Y$DEF$\n$DEF_SIZE$§!人;;;;;;;;;;x
@@ -17799,7 +17799,7 @@ TECH_PROGRESS;显示下一级别的进展: §G$PROGRESS$%§!;;;;;;;;;;x
 TECH_HIGHEST_AND_AVERAGE;最高级别: §G$HIGHEST$§! (平均§G$AVRG$§!);;;;;;;;;;x
 TECH_AVRG_INC_CHANCE;平均增长几率: §G$CHANCE$%§!;;;;;;;;;;x
 TECH_DEMESNE;领主;;;;;;;;;;x
-TECH_REALM;王国;;;;;;;;;;x
+TECH_REALM;领地;;;;;;;;;;x
 INDEPENDENT;独立君主;;;;;;;;;;x
 VASSAL_SUBJECT;$LORD$的封臣;;;;;;;;;;x
 CH_STEWARDSHIP_CHANGE;财政 $DIRECTION$  $CHANGE$;;;;;;;;;;x
@@ -17829,12 +17829,12 @@ STAT_DESC_3;像样的;;;;;;;;;;x
 STAT_DESC_4;胜任的;;;;;;;;;;x
 STAT_DESC_5;杰出的;;;;;;;;;;x
 STAT_PRESTIGE;威望;;;;;;;;;;x
-STAT_PRESTIGE_DESC;威望用于衡量你有多成功，可以被用于某些特殊行动。你扮演的每个人物的威望都将被累加起来，计入你的最终得分。;;;;;;;;;;x
+STAT_PRESTIGE_DESC;威望用于衡量你有多成功，可以被用于某些特殊行动。你扮演的每个角色的威望都将被累加起来，计入你的最终得分。;;;;;;;;;;x
 STAT_PIETY;虔诚;;;;;;;;;;x
-STAT_PIETY_DESC;虔诚为宗教领袖和你手下的神职人员所看重，可以被用于向宗教领袖情愿。像威望一样，虔诚在你扮演的人物死后将被计入总分。;;;;;;;;;;x
+STAT_PIETY_DESC;虔诚为宗教领袖和你手下的神职人员所看重，可以被用于向宗教领袖情愿。像威望一样，虔诚在你扮演的角色死后将被计入总分。;;;;;;;;;;x
 STAT_DEMESNE_SIZE;直辖领地数;;;;;;;;;;x
 STAT_DEMESNE_SIZE_DESC;直辖领地包括你个人统治的所有伯爵和男爵领地（包括城堡，城市和修道院。）如果直辖领地过大，你将遭受税收惩罚，封臣也会表示不满。;;;;;;;;;;x
-STAT_REALM_SIZE;王国领地;;;;;;;;;;x
+STAT_REALM_SIZE;领地规模;;;;;;;;;;x
 STAT_REALM_SIZE_DESC;这是你和你的所有封臣统治的领地数量，包括城堡，城市和修道院.;;;;;;;;;;x
 STAT_WEALTH;财富;;;;;;;;;;x
 OF;-;;;;;;;;;;x
@@ -18097,7 +18097,7 @@ NUDGE_3;Text;;;;;;;;;;x
 CHAR_LIEGE;领主;;;;;;;;;;x
 CHAR_AGE;年龄;;;;;;;;;;x
 CHAR_OPINION;好感;;;;;;;;;;x
-CHAR_CHARACTERS;人物;;;;;;;;;;x
+CHAR_CHARACTERS;角色;;;;;;;;;;x
 TITLE_CREATION_EMPEROR;皇帝不能建立王国或帝国.;;;;;;;;;;x
 TITLE_CREATION_WRONG_RELIGION;该头衔不能被非§Y$RELIGION$§!角色持有.;;;;;;;;;;x
 STAT_SCORE;分数;;;;;;;;;;x
@@ -18175,9 +18175,9 @@ static_learning_mod;学习能力;;;;;;;;;;x
 static_stewardship_mod;财政技能;;;;;;;;;;x
 static_martial_mod;军事技能;;;;;;;;;;x
 STAT_CULTURE;文化;;;;;;;;;;x
-STAT_CULTURE_DESC;人物的文化背景决定了他的封臣和其他人是否将其看作外国人.;;;;;;;;;;x
+STAT_CULTURE_DESC;角色的文化背景决定了他的封臣和其他人是否将其看作外国人.;;;;;;;;;;x
 STAT_RELIGION;宗教;;;;;;;;;;x
-STAT_RELIGION_DESC;宗教是人物的特有属性，决定他们属于哪个教会，无论他们是否严守教规.异教徒总是被认为不可相信……;;;;;;;;;;x
+STAT_RELIGION_DESC;宗教是角色的特有属性，决定他们属于哪个教会，无论他们是否严守教规.异教徒总是被认为不可相信……;;;;;;;;;;x
 ACTION_DESC;在§Y$LOCATION$§!§Y$ACTION$§!;;;;;;;;;;x
 BESIEGED_LEADER_DESC;在§Y$LOCATION$§!守卫§Y$BARONY$§!;;;;;;;;;;x
 GENERAL_LEADER_DESC;在§Y$LOCATION$§!率领军队;;;;;;;;;;x
@@ -18188,7 +18188,7 @@ HOLDING_COURT_DESC;在§Y$LOCATION$§!统治§Y$BARONY$§!;;;;;;;;;;x
 LANDLESS_COURT_DESC;居住在§Y$LOCATION$§!;;;;;;;;;;x
 DEAD_SINCE_DESC;死亡日期$DATE$;;;;;;;;;;x
 CIW_GOTOLOCATION;§Y前往§!\n$WHERE$;;;;;;;;;;x
-CIW_GOTOCHARREL;§Y查看人物关系§!;;;;;;;;;;x
+CIW_GOTOCHARREL;§Y查看角色关系§!;;;;;;;;;;x
 CIW_GOTOARRANGEMARRIAGE;安排婚姻;;;;;;;;;;x
 CIW_GOTOEDUCATECHILD;教育孩子;;;;;;;;;;x
 CIW_GOTOREVOKETITLE;收回头衔;;;;;;;;;;x
@@ -18334,7 +18334,7 @@ ALLIES_TEXT;盟友;;;;;;;;;;x
 BATTLE_OF;$PROVINCE$之战;;;;;;;;;;x
 VICTORY;§G胜利!§!;;;;;;;;;;x
 DEFEAT;§R失败...§!;;;;;;;;;;x
-CHARACTER_VIEW;人物信息;;;;;;;;;;x
+CHARACTER_VIEW;角色信息;;;;;;;;;;x
 REALM_VIEW;国家;;;;;;;;;;x
 COUNCIL_VIEW;宫廷;;;;;;;;;;x
 BRIDE;新娘;;;;;;;;;;x
@@ -18350,7 +18350,7 @@ CHAR_KNIGHT;一位骑士;;;;;;;;;;x
 KINGDOM_LAW;§Y王权法§!;;;;;;;;;;x
 KINGDOM_LAW_DESC;王权法只有国王和皇帝才能通过，一旦通过就会影响到这个王国或帝国法理领地上的所有领主，即便这个领主不是事实上的封臣.;;;;;;;;;;x
 EV_HERSELF;她自己;;;;;;;;;;x
-EV_HIMSELF;他自己;;;;;;;;;;x
+EV_HIMSELF;他本人;;;;;;;;;;x
 REL_MOTHER;母亲;;;;;;;;;;x
 REL_FATHER;父亲;;;;;;;;;;x
 REL_SON;儿子;;;;;;;;;;x
@@ -18552,7 +18552,7 @@ GUARDIAN_IRO;监护人是儿童的老师和顾问.监护人的技能，特质，
 WARD_IRO;成年人可以指导两个被监护人，影响他们的技能，特质，文化和宗教.;;;;;;;;;;x
 REGENT_IRO;由于过于年幼，疾病或者不在国内而不能亲自统治领地的君主会任命一个摄政.在摄政期间，摄政者的技能将代替君主的技能.;;;;;;;;;;x
 SPOUSE_IRO;配偶技能的一半将增加给君主以更好地统治领地.;;;;;;;;;;x
-DYNASTY_DRO;这是人物的家族。一些家族比另外一些更显赫，这取决于已去世和尚健在的家族成员所拥有的头衔等级和数量。新生儿在出生时将同时得到父母家族威望的一部分。夫妻结婚时也能得到对方家族威望的一部分。;;;;;;;;;;x
+DYNASTY_DRO;这是角色的家族。一些家族比另外一些更显赫，这取决于已去世和尚健在的家族成员所拥有的头衔等级和数量。新生儿在出生时将同时得到父母家族威望的一部分。夫妻结婚时也能得到对方家族威望的一部分。;;;;;;;;;;x
 BETROTHED_IRO;这两人已经订婚，除非撕毁约定，否则不能另寻新欢.;;;;;;;;;;x
 TITLE_CANNOT_USURP_AT_WAR;不能篡夺战争中领主的头衔;;;;;;;;;;x
 ALAS;警报!;;;;;;;;;;x
@@ -18641,7 +18641,7 @@ REQUIREMENTS;要求;;;;;;;;;;x
 CLAIMANTS;宣称者;;;;;;;;;;x
 CLAIMANT;宣称者;;;;;;;;;;x
 INVITE;邀请;;;;;;;;;;x
-INVITE_TO_PLOT;邀请有用的人物参与你的阴谋;;;;;;;;;;x
+INVITE_TO_PLOT;邀请有用的角色参与你的阴谋;;;;;;;;;;x
 POTENTIAL_PLOTTERS;潜在的阴谋支持者;;;;;;;;;;x
 SELECT_A_CLAIMANT;对$TITLE$的宣称者;;;;;;;;;;x
 SHOW_CLAIMANTS_DESC;显示所有 §Y[GetFullName]§!的宣称者;;;;;;;;;;x
@@ -18705,7 +18705,7 @@ UNKNOWN_SUCCESSOR;继承人未知;;;;;;;;;;x
 ENEMY_OCCUPATION;敌军占领;;;;;;;;;;x
 CANNOT_FIRE_YOUR_REGENT;你不能解除摄政者的职务!;;;;;;;;;;x
 FE_INTERESTING_CHARACTERS;有趣的选择;;;;;;;;;;x
-FE_CHARACTER;人物;;;;;;;;;;x
+FE_CHARACTER;角色;;;;;;;;;;x
 FE_PLAYERS;玩家;;;;;;;;;;x
 FE_DIPLOMATIC_RELATIONS;外交关系:;;;;;;;;;;x
 PAUSED_BY;§Y$PLAYER$§! 暂停游戏;;;;;;;;;;x
@@ -19066,8 +19066,8 @@ HAVE_AT_LEAST_ONE_EMPTY_NEIGHBORING_PROVINCE;临近的郡至少有一个空地;;
 HAVE_NO_EMPTY_NEIGHBORING_PROVINCE;临近的郡没有空地;;;;;;;;;;x
 HAVE_AT_LEAST_ONE_PROVINCE;至少有一个郡;;;;;;;;;;x
 HAVE_NO_PROVINCES;没有郡;;;;;;;;;;x
-HAVE_AT_LEAST_ONE_CHARACTER;至少有一个人物;;;;;;;;;;x
-HAVE_NO_CHARACTERS;没有人物;;;;;;;;;;x
+HAVE_AT_LEAST_ONE_CHARACTER;至少有一个角色;;;;;;;;;;x
+HAVE_NO_CHARACTERS;没有角色;;;;;;;;;;x
 HAVE_NOT_SIEGE_IN;没有围城;;;;;;;;;;x
 HAVE_SIEGE_IN;围城;;;;;;;;;;x
 HAVE_A_PORT_IN;有一个港口;;;;;;;;;;x
@@ -19158,8 +19158,8 @@ IS_NOT_PRISONER;不是囚犯;;;;;;;;;;x
 IS_PRISONER;是囚犯;;;;;;;;;;x
 IS_NOT_AN_ENVOY;不是使者;;;;;;;;;;x
 IS_AN_ENVOY;是使者;;;;;;;;;;x
-HAVE_CHARACTER_FLAG;拥有人物标志;;;;;;;;;;x
-HAVE_NOT_CHARACTER_FLAG;没有人物标志;;;;;;;;;;x
+HAVE_CHARACTER_FLAG;拥有角色标志;;;;;;;;;;x
+HAVE_NOT_CHARACTER_FLAG;没有角色标志;;;;;;;;;;x
 CHECKING;校验 ;;;;;;;;;;x
 CONTROLLED_BY;控制者 ;;;;;;;;;;x
 NOT_CONTROLLED_BY;控制者不是 ;;;;;;;;;;x
@@ -19233,7 +19233,7 @@ TRIGGER_RELIGION_HEAD;宗教领袖;;;;;;;;;;x
 TRIGGER_PLOT_TARGET_CHAR;阴谋目标任务;;;;;;;;;;x
 TRIGGER_PLOT_TARGET_TITLE;阴谋目标头衔;;;;;;;;;;x
 TRIGGER_GUARDIAN;监护人;;;;;;;;;;x
-TRIGGER_NEW_CHAR;新人物;;;;;;;;;;x
+TRIGGER_NEW_CHAR;新角色;;;;;;;;;;x
 ISNT_STATE_RELIGION;信仰与领主不一样;;;;;;;;;;x
 IS_STATE_RELIGION;信仰与领主一样;;;;;;;;;;x
 NEVER;绝不;;;;;;;;;;x
@@ -19411,7 +19411,7 @@ IS_PREGNANT;已怀孕;;;;;;;;;;x
 ISNT_HERETIC;非异教徒;;;;;;;;;;x
 IS_HERETIC;是异教徒;;;;;;;;;;x
 ANY_REALM_LORD_STARTS;任何国家领主;;;;;;;;;;x
-ANY_REALM_CHAR_STARTS;任何国家人物;;;;;;;;;;x
+ANY_REALM_CHAR_STARTS;任何领地角色;;;;;;;;;;x
 ANY_VASSAL_STARTS;有封臣;;;;;;;;;;x
 ANY_LIEGE_STARTS;有领主;;;;;;;;;;x
 ANY_WAR_STARTS;处于战争;;;;;;;;;;x
@@ -19509,7 +19509,7 @@ tut_menu_2_description;了解顾问和他们的工作;;;;;;;;;;x
 tut_menu_3;继承;;;;;;;;;;x
 tut_menu_3_description;了解继承、法律和家族;;;;;;;;;;x
 tut_menu_4;外交;;;;;;;;;;x
-tut_menu_4_description;人物好感、特质和联姻;;;;;;;;;;x
+tut_menu_4_description;角色好感、特质和联姻;;;;;;;;;;x
 tut_menu_7;阴谋;;;;;;;;;;x
 tut_menu_7_description;了解野心、叛乱和阴谋界面;;;;;;;;;;x
 tut_menu_8;宗教;;;;;;;;;;x
@@ -19687,7 +19687,7 @@ tut_7b_1;阴谋 - 中级;;;;;;;;;;x
 tut_7b_3;你的野心;;;;;;;;;;x
 tut_7b_5;一旦你完成了野心，你可以选择一个新的.但必须要注意，有些野心真的是非常难以完成的，所以一开始就要有计划，以确定未来能够完成.点击下一步继续.;;;;;;;;;;x
 tut_7b_6;封臣的野心;;;;;;;;;;x
-tut_7b_7;不只是你拥有野心，所有的领主都可能会有.有些时候这些东西是你能操纵的，有些时候则不行.例如某个人物有结婚的野心，你可以为他们安排婚姻，他们也会更喜欢你.他们一直会有某种野心，你可以选择为此做些什么，也可以什么也不做.;;;;;;;;;;x
+tut_7b_7;不只是你拥有野心，所有的领主都可能会有.有些时候这些东西是你能操纵的，有些时候则不行.例如某个角色有结婚的野心，你可以为他们安排婚姻，他们也会更喜欢你.他们一直会有某种野心，你可以选择为此做些什么，也可以什么也不做.;;;;;;;;;;x
 tut_7b_8;想要看一个封臣的野心，点击他们的头像，将会列出来.点击继续，可以结束这一节.;;;;;;;;;;x
 tut_7c_1;阴谋 - 高级;;;;;;;;;;x
 tut_7c_2;阴谋在王国风云II里能帮你完成很多困难的，甚至是几乎不可能的事情.例如在战争中对抗敌人的优势兵力.不同于野心，阴谋往往是针对别人的侵略行为，往往是秘密的、非法的.单击阴谋按钮以继续.;;;;;;;;;;x

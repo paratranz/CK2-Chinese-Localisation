@@ -21,11 +21,11 @@ AIREASON_EAGER_TO_MURDER;不道德;;;;;;;;;;x
 AIREASON_RELUCTANT_TO_MURDER;道德疑虑;;;;;;;;;;x
 TITLE_CANNOT_USURP_SAME_REALM;无法剥夺同一领地的他人头衔，除非你拥有强宣称;;;;;;;;;;x
 REASONING;推理;;;;;;;;;;x
-RulerDesignerDLC;人物设计器;;;;;;;;;;x
+RulerDesignerDLC;角色设计器;;;;;;;;;;x
 PLOT_CONDITION_FOR_YOU;对你而言一定如此;;;;;;;;;;x
 PLOT_CONDITION_FOR_TARGET;对$TARGET$而言一定如此;;;;;;;;;;x
 ALREADY_HAVE_AMBITION;正在努力实现$PLOT$野心;;;;;;;;;;x
-SEND_GIFT_INTERACTION_LONG_DESC;送礼给他人会提高他人对你的好感，提高值基于国家外交能力和收礼者的贪婪程度. 别国人收到您的礼物后会比您领地中的人物收到您的礼物后感到更加高兴;;;;;;;;;;x
+SEND_GIFT_INTERACTION_LONG_DESC;送礼给他人会提高他人对你的好感，提高值基于国家外交能力和收礼者的贪婪程度. 别国人收到您的礼物后会比您领地中的角色收到您的礼物后感到更加高兴;;;;;;;;;;x
 JOIN_ATTACKER_WARS_EFFECT;将加入[GetTitledName]侵略[GetPossPronoun]的战争;;;;;;;;;;x
 JOIN_DEFENDER_WARS_EFFECT;将加入[GetTitledName]保卫[GetPossPronoun]的战争;;;;;;;;;;x
 IS_NOT_PRIMARY_WAR_ATTACKER;不是一场战争中的主要进攻者;;;;;;;;;;x
@@ -97,14 +97,14 @@ REPUBLIC_GRAND_CAPITAL_CITY;尊贵共和国首都;;;;;;;;;;x
 MATRILINEAL_MARRIAGE;入赘婚姻;;;;;;;;;;x
 MATRILINEAL;入赘;;;;;;;;;;x
 BETROTHAL_SUCC;入赘订婚;;;;;;;;;;x
-BETROTHED_SUCC_IRO;这些人物已经许配给对方，他们不能与其他人结婚除非婚约被毁弃。他们同意缔结入赘婚姻，这意味着这对夫妇所生下的所有孩子都随母姓。;;;;;;;;;;x
+BETROTHED_SUCC_IRO;这些角色已经许配给对方，他们不能与其他人结婚除非婚约被毁弃。他们同意缔结入赘婚姻，这意味着这对夫妇所生下的所有孩子都随母姓。;;;;;;;;;;x
 OFFER_SUCCESSION_MARRIGE_INTERACTION_3;§R这对夫妇所生的孩子将不属于您的家族 - 请考虑下通常的婚姻!§!;;;;;;;;;;x
 OFFER_MARRIGE_INTERACTION_3;§R这对夫妇所生的孩子将不属于您的家族 - 请考虑下入赘婚姻!§!;;;;;;;;;;x
 ARRANGE_SUCC_BETROTHAL_INTERACTION_TITLE;安排入赘订婚;;;;;;;;;;x
-ARRANGE_SUCC_BETROTHAL_INTERACTION_DESC;在为两个人物安排入赘订婚;;;;;;;;;;x
-ARRANGE_SUCC_BETROTHAL_INTERACTION_LONG_DESC;孩童不能被安排结婚,但他们可以订婚.订婚关系会持续到人物结婚,或者其中一人死亡, 或是婚约被撕毁.;;;;;;;;;;x
+ARRANGE_SUCC_BETROTHAL_INTERACTION_DESC;为两个角色安排入赘订婚;;;;;;;;;;x
+ARRANGE_SUCC_BETROTHAL_INTERACTION_LONG_DESC;孩童不能被安排结婚,但他们可以订婚.订婚关系会持续到角色结婚,或者其中一人死亡, 或是婚约被撕毁.;;;;;;;;;;x
 ARRANGE_SUCC_BETROTHAL_INTERACTION_0;选择未来的新娘和新郎.;;;;;;;;;;x
-ARRANGE_SUCC_BETROTHAL_INTERACTION_1;从§Y$CHAR$§!的宫廷中选择一位人物.;;;;;;;;;;x
+ARRANGE_SUCC_BETROTHAL_INTERACTION_1;从§Y$CHAR$§!的宫廷中选择一位角色.;;;;;;;;;;x
 ARRANGE_SUCC_BETROTHAL_INTERACTION_ACCEPT_SETUP;入赘订婚的提议被接受;;;;;;;;;;x
 ARRANGE_SUCC_BETROTHAL_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§!接受了§Y[Actor.GetBestName]§!提出的关于让§Y[ActorExtra.GetBestName]§!和§Y[RecipientExtra.GetBestName]§!缔结入赘婚约的提议;;;;;;;;;;x
 ARRANGE_SUCC_BETROTHAL_INTERACTION_DECLINE_SETUP;入赘婚姻提议被拒绝;;;;;;;;;;x
@@ -1228,7 +1228,7 @@ action_advance_cul_tech_desc;将你的 [GetLordSpiritualName] 派到一个省份
 action_improve_rel_relations_desc;让你的[GetLordSpiritualName]带领一个修士代表团去与当地的神职人员（尤其对宗教领袖有用）进行宗教辩论。;;;;;;;;;;x
 job_spiritual;宫廷牧师;;;;;;;;;;x
 mastermind_theologian_desc;神学大师被认为是最顶尖的宗教方面的学者之一。;;;;;;;;;;x
-CHOOSE_AMBITION;§G点击以选择一项目标§!;;;;;;;;;;x
+CHOOSE_AMBITION;§G点击以选择一个野心§!;;;;;;;;;;x
 CHOOSE_PLOT;选择一项密谋;;;;;;;;;;x
 NO_VALID_PLOTS;没有可选的密谋;;;;;;;;;;x
 DYN9_DESC; 最终分数：$SCORE$.你$FAILED$超过比耶博家族。比耶博家族是现代瑞典国家的缔造者.在比耶博家族掌权前，瑞典是一个高度分权的国家，国王政令不行。比耶博家族制定了规章制度，征服了芬兰，并在1337年联合统治和挪威，将瑞典推上了她在中世纪的巅峰。;;;;;;;;;;x
