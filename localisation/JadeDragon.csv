@@ -146,8 +146,8 @@ TOTAL_REALM_SIZE;领地规模: $SIZE|Y$;;;;;;;;;;x
 AIREASON_ATTACK_ON_TRIBUTARY;反抗征贡战争;;;;;;;;;;x
 sold_my_province;出售我的省份;;;;;;;;;;x
 sold_vassal_province;出售封臣省份;;;;;;;;;;x
-EVTDESC_ADV_3_A;致尊敬的[Root.GetTitledFirstName]，\n[Root.GetLordLady]，愿您的土地富饶、家庭圆满！如果能让我管理[selling_province.GetName]，或照顾您的 [marriage_child.GetDaughterSon][marriage_child.GetTitledFirstName]，将会是我莫大的荣幸。 这会确保我们之间的长久和平。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
-EVTDESC_ADV_3_B;致尊贵的[Root.GetTitledFirstName]，\n[Root.GetLordLady]，您繁荣兴旺的领地彰显了您作为 [Root.GetTitle]的出众能力。我向您提出一项将臻至你我之间长久和平的请求：让我以您的名义管理[selling_province.GetName]省份，从此再也不会有人敢于染指这片土地了。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTDESC_ADV_3_A;致尊敬的 [Root.GetTitledFirstName]，\n[Root.GetLordLady]，愿您的土地富饶、家庭圆满！如果能让我管理[selling_province.GetName]，或照顾您的[marriage_child.GetDaughterSon] [marriage_child.GetTitledFirstName]，将会是我莫大的荣幸。 这会确保我们之间的长久和平。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTDESC_ADV_3_B;致尊贵的 [Root.GetTitledFirstName]，\n[Root.GetLordLady]，您繁荣兴旺的领地彰显了您作为[Root.GetTitle]的出众能力。我向您提出一项将臻至你我之间长久和平的请求：让我以您的名义管理[selling_province.GetName]省份，从此再也不会有人敢于染指这片土地了。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA_ADV_3;[selling_province.GetName]确实是一块不错的领地。付出合适的价钱，你就可以拥有它。;;;;;;;;;;x
 EVTOPTA_ADV_3_TT;以 §G[selling_province.price.GetValue]§!¤ 的价格将你的领地提供给 §Y[selling_province.GetName]§! 的冒险家 §Y[From.GetTitledFirstName]§! 。如果[From.GetSheHe]接受，[From.GetSheHe]将成为你的附属，你将在10年内免受劫掠.\n;;;;;;;;;;x
 EVTOPTB_ADV_3_TT;将你的封臣§Y[selling_province.Holder.GetTitledFirstName]§!统治的省份§Y[selling_province.GetName]§!以§G[selling_province.price.GetValue]§!¤的价格卖给冒险家§Y[From.GetTitledFirstName]§! 。如果[From.GetSheHe]接受了这一请求，[From.GetSheHe] 将成为你的封臣而你将在十年内免于冒险活动的威胁。\n\n然而，你的其他封臣对此将感到不快，事件将持续发酵。:\n;;;;;;;;;;x
@@ -474,7 +474,7 @@ EVTDESC_JD_10017;[adventurous_spirit.GetTitledName]终于从[the_protector_gener
 EVTOPTA_JD_10017;我应该派人去接替 [adventurous_spirit.GetFirstName]。;;;;;;;;;;x
 EVTOPTA_JD_10017_TT;你损失了一些皇恩。\n;;;;;;;;;;x
 EVTOPTA_JD_10018;噢,真可爱啊!欢迎来到[Root.PrimaryTitle.GetFullName]!;;;;;;;;;;x
-EVTOPTA_JD_10018_TT;一位来自§Y[new_found_lover.GetTitledName]§!的[new_found_lover.GetManWoman]加入了你的宫廷。\n;;;;;;;;;;x
+EVTOPTA_JD_10018_TT;一位名叫 §Y[new_found_lover.GetTitledName]§! 的[new_found_lover.GetManWoman]加入了你的宫廷。\n;;;;;;;;;;x
 EVTOPTB_JD_10018;你邀请了一个陌生人到我们 [Root.GetCapitalHolding]这里来？;;;;;;;;;;x
 EVTOPTB_JD_10018_TT;你获得了一些皇恩。§Y[adventurous_spirit.GetTitledFirstName]§!很不高兴。\n;;;;;;;;;;x
 EVTDESC_JD_10019;正当我们讨论起[adventurous_spirit.GetHerHis]前往[the_protector_general.Offmap.GetFullName]的旅程时，[adventurous_spirit.GetTitledFirstName]表现得有些不同。[adventurous_spirit.GetSheHe]激动地讲起了[adventurous_spirit.GetChineseConvoTopic]。「哦，我的[Root.GetLordLady]。您必须让我回去」。[adventurous_spirit.GetSheHe]请求道。;;;;;;;;;;x
@@ -489,13 +489,13 @@ EVTOPTB_JD_10019_TT;§Y[adventurous_spirit.GetTitledFirstName]§! 不满意。\n
 EVTOPTC_JD_10019;哦， [adventurous_spirit.GetFirstName]。当然了，你难道不是那个意思吗？;;;;;;;;;;x
 EVTOPTC_JD_10019_TT;你获得了一些皇恩。§Y[adventurous_spirit.GetTitledFirstName]§!将克服它。\n;;;;;;;;;;x
 EVTOPTD_JD_10019;但是......你怎么能要求我再次送你回去，[adventurous_spirit.GetFirstName]？;;;;;;;;;;x
-EVTOPTD_JD_10019_TT;这个选项可用是因为你与§Y[adventurous_spirit.GetTitledName]§!的良好关系。\n\n你的[adventurous_spirit.GetRootRelation]羞愧地低下了头，向你保证[adventurous_spirit.GetSheHe]会留在宫廷里。\n;;;;;;;;;;x
+EVTOPTD_JD_10019_TT;这个选项可用是因为你与 §Y[adventurous_spirit.GetTitledName]§! 的良好关系。\n\n你的[adventurous_spirit.GetRootRelation]羞愧地低下了头，向你保证[adventurous_spirit.GetSheHe]会留在宫廷里。\n;;;;;;;;;;x
 EVTOPTA_JD_10020_TT;也许[adventurous_spirit.GetSheHe]至少享受了在国外最后的日子。\n;;;;;;;;;;x
 opinion_sent_my_lover_away;抛弃我的情人;;;;;;;;;;x
 opinion_feels_appreciated;感到感激;;;;;;;;;;x
 DEATH_WENT_TO_CHINA_NO_KILLER;抛弃了过去的生活，旅行到中国开启了新的人生。;;;;;;;;;;x
 DEATH_WENT_TO_CHINA;在$KILLER$令下抛弃了过去的生活，旅行到中国开启了新的人生。;;;;;;;;;;x
-will_leave_for_china_tt;§Y[This.GetTitledName]§!将会抛下[This.GetHerHis]一切，在遥远的东方开启[This.GetHerselfHimself]新的生活。\n;;;;;;;;;;x
+will_leave_for_china_tt;§Y[This.GetTitledName]§! 将会抛下[This.GetHerHis]一切，在遥远的东方开启[This.GetHerselfHimself]新的生活。\n;;;;;;;;;;x
 String_such_a_wealthy_realm;多么富饶的国度，中国的每一寸土地似乎都盖了房子，或者被用来滋养着它的人民。;;;;;;;;;;x
 String_such_white_papers;他们用来写的纸白得不可思议而且很柔软;;;;;;;;;;x
 String_so_full_of_life;中原是如此的富庶安康，人口殷实。;;;;;;;;;;x
@@ -4581,7 +4581,7 @@ has_martial_education_tt;拥有一种§Y军事§!教育特质;;;;;;;;;;x
 has_stewardship_education_tt;有§Y财政§!教育背景;;;;;;;;;;x
 has_intrigue_education_tt;拥有§Y密谋§!教育背景;;;;;;;;;;x
 has_learning_education_tt;拥有 §Y学习§! 教育背景;;;;;;;;;;x
-EVTDESC_JD_15002;「站住！」，我们快走到桥上时一个尖锐的声音说。\n「我是[other_ruler.GetTitledName]。我们正在守卫这条通往[offmap_china.GetFullName]的路……您，尊贵的[Root.GetLordLady]，需要付一点过桥费。」那个[other_ruler.GetManWoman]脸上的诡笑让我犹豫了。;;;;;;;;;;x
+EVTDESC_JD_15002;「站住！」，我们快走到桥上时一个尖锐的声音说。\n「我是 [other_ruler.GetTitledName]。我们正在守卫这条通往[offmap_china.GetFullName]的路……您，尊贵的[Root.GetLordLady]，需要付一点过桥费。」那个[other_ruler.GetManWoman]脸上的诡笑让我犹豫了。;;;;;;;;;;x
 EVTOPTA_JD_15002;人在屋檐下......;;;;;;;;;;x
 EVTOPTA_JD_15002_tt;你和你的随行人员都可以通过。\n;;;;;;;;;;x
 EVTOPTC_JD_15002;我们不会接受这个。;;;;;;;;;;x

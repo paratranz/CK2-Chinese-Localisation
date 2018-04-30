@@ -41,13 +41,13 @@ DISOBEDIENT_DAUGHTER_MERC_BAND;[This.GetFirstName] 的猎犬;;;;;;;;;;x
 nick_the_red;红脸;;;;;;;;;;x
 nick_the_sea_devil;海上恶魔;;;;;;;;;;x
 nick_the_lioness;母狮;;;;;;;;;;x
-nick_the_flail_of;[Root.Liege.PrimaryTitle.GetName] 之枷;;;;;;;;;;x
-nick_the_scourge_of;[Root.Liege.PrimaryTitle.GetName] 之鞭;;;;;;;;;;x
+nick_the_flail_of;[Root.Liege.PrimaryTitle.GetName]之枷;;;;;;;;;;x
+nick_the_scourge_of;[Root.Liege.PrimaryTitle.GetName]之鞭;;;;;;;;;;x
 EVTTITLE_ZE_1011;不孝之女;;;;;;;;;;x
 EVTDESC_ZE_1011;你的女儿[FromFrom.GetFirstName]过来见你。她对你安排的婚姻非常不高兴：“[Root.GetFatherMother]，我不爱我的新丈夫，我不会接受这件事！所以我恳求您，取消这桩婚事吧！”;;;;;;;;;;x
 EVTOPTA_ZE_1011;你的思维还不清晰， [FromFrom.GetFirstName] 。;;;;;;;;;;x
 EVTOPTB_ZE_1011;好吧，我不会强迫你。;;;;;;;;;;x
-EVTDESC_ZE_1012;正当你筹备婚礼时， [From.GetTitledName] 通知你 [From.GetHerHis] 不接受与 [target_spurned_spouse] 结婚， [From.GetSheHe] 已经决定取消这桩婚事了！;;;;;;;;;;x
+EVTDESC_ZE_1012;正当你筹备婚礼时，[From.GetTitledName] 通知你[From.GetHerHis]女儿不接受与 [target_spurned_spouse.GetTitledName] 结婚，[From.GetSheHe]已经决定取消这桩婚事了！;;;;;;;;;;x
 EVTOPTA_ZE_1012;什么？真是骇人听闻！;;;;;;;;;;x
 EVTOPTA_ZE_1031;我认为你不会介意……;;;;;;;;;;x
 EVTDESC_ZE_1120;仆人们之间传言，降临在你女儿 [From.GetFirstName] 前夫身上的悲剧事实上是你女儿一手策划的。她可能在他熟睡时下了毒。;;;;;;;;;;x
@@ -145,7 +145,7 @@ EVTDESC_ZE_9000;随着战争激烈的进行，你发现你所谓的盟友 [ally_
 ze_9000_letter_sent;寄一封信到[ally_not_active_in_war.GetTitledNameWithNick]。;;;;;;;;;;x
 EVTOPTA_ZE_9000; 自上次以来[ally_not_active_in_war.GetSheHeCap]已经辜负了我的期望。;;;;;;;;;;x
 EVTOPTB_ZE_9000;我只是假装没注意到。;;;;;;;;;;x
-EVTDESC_ZE_9001;致[GetFromRootInsult][Root.GetTitledFirstName]，\n我很痛心的告诉你我发现了当我与其他人战斗的时候，你的军队没有出现在战场上。既然我不需要懦弱且背信弃义的盟友，今后我们就不再是同盟关系了。\n\n希望你早日灭亡的，\n[From.GetTitledName];;;;;;;;;;x
+EVTDESC_ZE_9001;致[GetFromRootInsult] [Root.GetTitledFirstName]，\n我很痛心的告诉你我发现了当我与其他人战斗的时候，你的军队没有出现在战场上。既然我不需要懦弱且背信弃义的盟友，今后我们就不再是同盟关系了。\n\n希望你早日灭亡的，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA_ZE_9001;我从来不。。。;;;;;;;;;;x
 marauding_pirates;海盗肆虐;;;;;;;;;;x
 EVTDESC_ZE_9100;近来发生在[Root.PrimaryTitle.GetName]的海岸线上海盗劫掠事件正在不断增加。更糟糕的是一般民众中流传着这些海盗是受到[pirate_alliance_friction_ally.PrimaryTitle.GetAdjective]支持的谣言。;;;;;;;;;;x
@@ -155,7 +155,7 @@ EVTOPTA_ZE_9101;我必须让[From.GetHerHim]安心。;;;;;;;;;;x
 EVTOPTB_ZE_9101;一个奇怪的指控。 [From.GetSheHeCap]不过是。。。;;;;;;;;;;x
 ze_9101_cordial;诚挚的回复。;;;;;;;;;;x
 ze_9101_angry;带有责备的回复。;;;;;;;;;;x
-EVTDESC_ZE_9110;亲爱的[Root.GetTitledFirstName]，\n\n我已经听说了你所遇到的麻烦。然而，我可以保证我没有支持这些掠夺你海岸的海盗。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTDESC_ZE_9110;亲爱的 [Root.GetTitledFirstName]，\n\n我已经听说了你所遇到的麻烦。然而，我可以保证我没有支持这些掠夺你海岸的海盗。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA_ZE_9110;嗯，这真让我放心。;;;;;;;;;;x
 EVTOPTB_ZE_9110;[From.GetSheHeCap]在说谎！;;;;;;;;;;x
 EVTDESC_ZE_9111;[Root.GetTitledFirstName]，\n你是个[GetFromRootInsult]和骗子，我告诉你我们之间的协议将不再生效，责任不在我方，这一切都是你奸诈的行为所导致的。\n\n希望你今后生活在苦难之中，\n[From.GetTitledName];;;;;;;;;;x
@@ -490,7 +490,7 @@ EVTDESC_ZE_8012;亲爱的[Root.GetTitledName]，\n我非常抱歉的听到令您
 EVTOPTA_ZE_8012;对付冒名顶替者，然后道歉。;;;;;;;;;;x
 EVTOPTB_ZE_8012;我不是傻瓜，我敢说他是从[target_ruler_capital.GetName]来的。;;;;;;;;;;x
 EVTOPTA_ZE_8012_TOOLTIP;发送一封道歉信给[From.GetTitledName];;;;;;;;;;x
-EVTDESC_ZE_8013;亲爱的[Root.GetTitledName]，\n我觉得你第一件侮辱我的事情就是谴责了我的人民行为不端。你有没有考虑过他可能是个骗子？当然没有！你个[GetFromRootInsult]。\n\n祝你一路顺风，\n[From.GetTitledName];;;;;;;;;;x
+EVTDESC_ZE_8013;亲爱的 [Root.GetTitledName]，\n我觉得你第一件侮辱我的事情就是谴责了我的人民行为不端。你有没有考虑过他可能是个骗子？当然没有！你个[GetFromRootInsult]。\n\n祝你一路顺风，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA_ZE_8013;神经病！这改变了事态。;;;;;;;;;;x
 EVTOPTB_ZE_8013;我将放手不管，现在。;;;;;;;;;;x
 EVTOPTA_ZE_8013_TOOLTIPA;撕毁互不侵犯条约。;;;;;;;;;;x
