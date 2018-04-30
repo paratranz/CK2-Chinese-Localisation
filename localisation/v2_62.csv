@@ -38,7 +38,7 @@ RIP.30300.b;我不喜欢这声音！;;;;;;;;;;x
 RIP.30300.c;我不剥人的皮。通常。;;;;;;;;;;x
 RIP.30301.title;你的对手发现了你！;;;;;;;;;;x
 RIP.30301.d.highlander;当你走出房间，尚未开始疑惑你的守卫们都去了哪里便迎面碰见了[immortal_rival.GetFirstName]。\n“你命绝今日！”他大喝一声，举起了剑。;;;;;;;;;;x
-RIP.30301.d.evildude;当你走出房间，尚未开始疑惑你的守卫们都去了哪里便迎面碰见了[immortal_rival.GetFirstName]。\n“时候到了，你这[GetFromRootInsult]！”他咆哮着，高举长剑。;;;;;;;;;;x
+RIP.30301.d.evildude;当你走出房间，尚未开始疑惑你的守卫们都去了哪里便迎面碰见了[immortal_rival.GetFirstName]。\n「时候到了，你这[GetFromRootInsult]！」他高举长剑咆哮着。;;;;;;;;;;x
 RIP.30301.d.goodguy;你走出房间，发现你的守卫少得可怜，立刻发现[immortal_rival.GetFirstName]慢步走到你的面前。\n“你的生命将在此终结。”他说道，带着几分伤感，“愿你与你的神一同安息。”;;;;;;;;;;x
 RIP.30301.d.shieldmaiden;门厅中的众人皆四散离去，只剩下一个全副武装的女人，你觉得那大概是[immortal_rival.GetFirstName]。她的自我介绍证实了你的猜想，随后向你提出决斗。;;;;;;;;;;x
 RIP.30301.d.horse;走廊中洒满了鲜血，目之所及皆是你的守卫们残破的尸体。一匹高头大马矗立在这片修罗场的中央，两肋升腾着蒸汽。你注意到他的蹄下踩着[immortal_horse_victim.GetBestName]破布般的尸体。\n“我乃音西塔图斯，万国的践踏者！”他大声宣告，“我绝不容忍赝品，接下来到你了。”;;;;;;;;;;x
@@ -134,7 +134,7 @@ change_wards_focus_to_faith;变更童年焦点为信仰;;;;;;;;;;x
 change_wards_focus_to_faith_desc;改变§Y[Root.GetFirstName]§!的重心。以信仰作为重心将使得§Y[Root.GetFirstName]§!改信你的宗教。;;;;;;;;;;x
 EVTDESC_ZE_2140;致[GetFromFromRootCompliment][Root.GetTitledNameWithNick]，\n\n我向你写这封信以征求你的许可，去给予我的受监护人，[From.GetFirstName]，以适当的[FromFrom.Religion.GetName]抚养环境并学习[FromFrom.Religion.GetScriptureName]的生活方式。\n\n签名[FromFrom.GetTitledFirstName]。;;;;;;;;;;x
 EVTDESC_ZE_2141;亲爱的[Root.GetTitledNameWithNick]，\n\n你主动提出教导[FromFrom.GetFirstName]有关你的宗教的内容，我表示最大程度的欢迎，同意你的请求。;;;;;;;;;;x
-EVTDESCB_ZE_2142;致[GetFromRootInsult][Root.GetTitledFirstName],\n\n我相信你知道这是何等亵渎的言辞！[FromFrom.GetFirstName]应当成长为一名优秀尽职的[FromFrom.GetManWoman]，但你那些奇怪的仪式和渎神的行为明显会让我的期盼落空。;;;;;;;;;;x
+EVTDESCB_ZE_2142;致[GetFromRootInsult][Root.GetTitledFirstName]，\n\n我相信你知道这是何等亵渎的言辞！[FromFrom.GetFirstName]应当成长为一名优秀尽职的[FromFrom.GetManWoman]，但你那些奇怪的仪式和渎神的行为明显会让我的期盼落空。;;;;;;;;;;x
 RULE_VASSAL_LIMIT;封臣上限;;;;;;;;;;x
 RULE_VASSAL_LIMIT_DEFAULT_DESC;统治者的封臣上限以及无惩罚时能控制的封臣数量设为默认水平。;;;;;;;;;;x
 RULE_VASSAL_LIMIT_HALF_DESC;封臣上限降到默认水平的一半。;;;;;;;;;;x
@@ -211,12 +211,12 @@ EVTOPTA_RIP_30200_TOOLTIP;你一场决斗中挑战你的仇敌§Y[suicide_duel_t
 EVTOPTB_RIP_30200;饮毒自尽是最美好的解脱。;;;;;;;;;;x
 EVTOPTC_RIP_30200;希望绞索能给我一个快速无痛的死亡。;;;;;;;;;;x
 EVTOPTD_RIP_30200;城堡最高处的阳台至少能让我在最后的时刻再看一眼我的领地。;;;;;;;;;;x
-EVTDESC_RIP_30202;致[GetFromRootInsult][Root.GetBestName]，\n你的存在污染这个的世界太久了，一个月之内我将与你在[From.Location.GetName]进行一场光明正大的决斗。带上你的剑，或者像一个没有荣誉可言的懦夫逃走。我们之中只有一个人能活着离开。\n\n此致，[From.GetBestName];;;;;;;;;;x
-EVTOPTA_RIP_30202;我要取[GetFromRootInsult]的项上人头！;;;;;;;;;;x
+EVTDESC_RIP_30202;致[GetFromRootInsult][Root.GetBestName]，\n你的存在污染这个的世界太久了，一个月之内我将与你在[From.Location.GetName]进行一场光明正大的决斗。要么带上你的剑，要么像一个没有荣誉可言的懦夫逃走。我们之中只有一个人能活着离开。\n\n此致，[From.GetBestName];;;;;;;;;;x
+EVTOPTA_RIP_30202;我要取那[GetFromRootInsult]的项上人头！;;;;;;;;;;x
 EVTOPTB_RIP_30202;不，这太危险了……;;;;;;;;;;x
 EVTDESC_RIP_30203;致[GetFromRootInsult][Root.GetBestName]，\n我很愿意将你这个肮脏下流的脓包从这个世界上清除。快去办好后事吧，我不会手下留情的。\n\n此致，[From.GetBestName];;;;;;;;;;x
 EVTOPTA_RIP_30203;我正将[From.GetSheHeCap]玩弄在鼓掌之中。;;;;;;;;;;x
-EVTDESC_RIP_30204;致[GetFromRootInsult] [Root.GetBestName]，\n我既没时间也不想迁就你去沉浸在你可悲的过去时光中。难道你就没有类似于管理领地之类的正事可干吗？\n\n此致，[From.GetBestName];;;;;;;;;;x
+EVTDESC_RIP_30204;致[GetFromRootInsult][Root.GetBestName]，\n我既没时间也不想迁就你去沉浸在你可悲的过去时光中。难道你就没有类似于管理领地之类的正事可干吗？\n\n此致，[From.GetBestName];;;;;;;;;;x
 EVTOPTA_RIP_30204;那个可恶的胆小鬼……;;;;;;;;;;x
 EVTOPTA_RIP_30204_TOOLTIP;你试图自尽的企图失败了，你没准还会在合适的时机继续尝试自杀……\n;;;;;;;;;;x
 EVTDESC_RIP_30205_LOST;[suicide_duel_target.GetTitledFirstName]真好骗。[suicide_duel_target.GetSheHeCap]太过渴求你的鲜血，[suicide_duel_target.GetSheHe]都没注意到你故意软弱无力地防御自己。没几下[suicide_duel_target.GetHerHis]利刃就找到了你的喉下凹陷。;;;;;;;;;;x
@@ -320,7 +320,7 @@ EVTDESC_RIP_30230_DRINKING;你几乎无法相信，但事实就是如此——�
 EVTDESC_RIP_30230_SEDUCTION;你几乎无法相信，但事实就是如此————计划成功了！你是对的，即使是[From.GetFirstName]也无法抵挡你的魅力，[From.GetHerHis]精力已经有点无法集中了。当你隔着桌子探出身去，假装冥思苦想下一合该怎么走时，你能听到[From.GetHerHis]呼吸都停滞了。;;;;;;;;;;x
 EVTDESC_RIP_30230_INTIMIDATION;你几乎无法相信，但事实就是如此————计划成功了！一边下棋，你一边绘声绘色地告诉[From.GetFirstName]你手下受害者的故事，把棋子狠砸在棋盘上来强调最吓人的部分。[From.GetFirstName]看上去无法集中[From.GetHerHis]精神。;;;;;;;;;;x
 EVTDESC_RIP_30230_BRAG;你几乎无法相信，但事实就是如此————计划成功了！一边下棋，你一边告诉[From.GetFirstName]你大师级棋艺的故事，同时用妙招来证明这些故事。[From.GetFirstName]看上去无法集中[From.GetHerHis]精神。;;;;;;;;;;x
-EVTDESC_RIP_30230_GOOD_TRICK;你几乎无法相信，但事实就是如此————计划成功了！红酒整个洒在[From.GetFirstName]的粗布衣服上。看见[From.GetSheHe]用一块布擦拭那片巨大的红印子，在[From.GetHerHis]呼吸声中诅咒你，你迅速放回了你的一只车。就算被人骂一声[GetFromRootInsult]肯定也值了！;;;;;;;;;;x
+EVTDESC_RIP_30230_GOOD_TRICK;你几乎无法相信，但事实就是如此——计划成功了！红酒整个洒在[From.GetFirstName]的粗布衣服上。看见[From.GetSheHe]用一块布擦拭那片巨大的红印子，在[From.GetHerHis]呼吸声中诅咒你，你迅速放回了你的一只车。就算被人骂一声[GetFromRootInsult]肯定也值了！;;;;;;;;;;x
 EVTDESC_RIP_30230_BAD_TRICK;红酒整个洒在[From.GetFirstName]的粗布衣服上。看见[From.GetSheHe]用一块布擦拭那片巨大的红印子，在[From.GetHerHis]呼吸声中诅咒你，你试图放回你的一只车。一瞬间，你觉得自己的动作没被发现，但接着[From.GetFirstName]扫了一眼棋盘叹息道：“啊，我多么瞧不起作弊者……”;;;;;;;;;;x
 EVTOPTA_RIP_30230;我感觉我最后能赢！;;;;;;;;;;x
 EVTOPTB_RIP_30230;不，等等，这不是你想的那样！;;;;;;;;;;x
@@ -442,7 +442,7 @@ follower_of_orunmila;欧伦米拉的信徒;;;;;;;;;;x
 follower_of_orunmila_desc;这个角色是西非信仰中知识与纯洁之神欧伦米拉的虔诚信徒。;;;;;;;;;;x
 follower_of_shango;桑戈的信徒;;;;;;;;;;x
 follower_of_shango_desc;这个角色是西非信仰中雷电、公正和战争之神桑戈的虔诚信徒。;;;;;;;;;;x
-EVTDESC_RIP_12099_A;致[GetFromRootInsult] [Root.GetTitledFirstName]，\n\n由于在[Root.PrimaryTitle.GetName]不断扩散的灾祸，我被迫在[From.Location.GetName]的宫廷中被隔离。因此直到此次危机结束之前我将不能履行作为[From.GetJobTitle]的职责。\n\n此致，[From.GetTitledFirstName];;;;;;;;;;x
+EVTDESC_RIP_12099_A;致[GetFromRootInsult][Root.GetTitledFirstName]，\n\n由于在[Root.PrimaryTitle.GetName]不断扩散的灾祸，我被迫在[From.Location.GetName]的宫廷中被隔离。因此直到此次危机结束之前我将不能履行作为[From.GetJobTitle]的职责。\n\n此致，[From.GetTitledFirstName];;;;;;;;;;x
 EVTDESC_RIP_12099_B;致可敬的[Root.GetTitledFirstName]，\n\n由于在[Root.PrimaryTitle.GetName]不断扩散的灾祸，我被迫在[From.Location.GetName]的宫廷中被隔离，因此，很不幸，直到此次危机结束之前我将不能履行作为[From.GetJobTitle]的职责。\n\n此致，[From.GetTitledFirstName];;;;;;;;;;x
 EVTOPTA_RIP_12099_A;我就不该让那个[GetRootFromInsult]待在我的内阁里！;;;;;;;;;;x
 EVTOPTA_RIP_12099_B;令人遗憾，虽然可以理解……;;;;;;;;;;x
