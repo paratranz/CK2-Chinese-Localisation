@@ -1,0 +1,16 @@
+name = "阿赫拉卜征服西西里"
+casus_belli = {
+    actor = 163096
+    recipient = 1700
+    casus_belli = religious
+    landed_title = d_sicily
+    date = 867.1.1
+}
+867.1.1 = {
+    add_attacker = 163096
+    add_defender = 1700
+}
+871.2.1 = {
+    rem_attacker = 163096
+    rem_defender = 1700
+}
