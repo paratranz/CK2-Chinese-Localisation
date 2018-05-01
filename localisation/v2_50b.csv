@@ -22,7 +22,7 @@ focus_ch_duty_title;使命;;;;;;;;;;x
 focus_ch_duty_desc;[This.GetTitledFirstName]在宫廷中由守卫与随从教导，专注于使命与勤勉。此焦点通常的特质结果是§Y尽责§!。;;;;;;;;;;x
 focus_ch_etiquette;礼仪;;;;;;;;;;x
 focus_ch_etiquette_title;礼仪;;;;;;;;;;x
-focus_ch_etiquette_desc;[This.GetTitledFirstName]由枢密大臣与其他廷臣教导，专注于彬彬有礼的举止与礼仪. 此重心通常的特质结果是 §Y调皮§!和 §Y懒散§!。;;;;;;;;;;x
+focus_ch_etiquette_desc;[This.GetTitledFirstName]由枢密大臣与其他廷臣教导，专注于彬彬有礼的举止与礼仪. 此重心通常的特质结果是§Y调皮§!和§Y懒散§!。;;;;;;;;;;x
 focus_ch_thrift;节俭;;;;;;;;;;x
 focus_ch_thrift_title;节俭;;;;;;;;;;x
 focus_ch_thrift_desc;[This.GetTitledFirstName]由工匠和商人教导，专注于数学与发明. 此重心通常的特质结果是 §Y好奇§!和 §Y挑剔§!。;;;;;;;;;;x
@@ -1401,14 +1401,14 @@ obj_build_a_war_chest_desc;[This.GetTitledFirstName]想要建立一个战争金�
 obj_build_a_war_chest_success_custom_tooltip;已经在[This.GetHerHis]领地聚敛了一笔数额可观的金钱：如统治一个伯爵领，需要300¤；统治一个公爵领，需要500¤；统治一个王国，需要700¤；统治一个帝国，需要 1000¤。;;;;;;;;;;x
 extort_consequences_custom_tooltip;看看你手头有什么选项;;;;;;;;;;x
 extort_cooldown_custom_tooltip;不可在最近六个月内敲诈过你的臣属;;;;;;;;;;x
-EVTTOOLTIP_ZE_21100;开征一项‘额外’税 对[extra_tax_target.GetName]的农民;;;;;;;;;;x
+EVTTOOLTIP_ZE_21100;对[extra_tax_target.GetName]的农民开征一项「额外」税;;;;;;;;;;x
 EVTDESC_ZE_21000;战争金库的钱不会自己增加！你必须决定是你自己动手搞钱还是让你忠心的臣属主动用‘捐款’填满。你会怎么选？;;;;;;;;;;x
 EVTOPTA_ZE_21000;[extra_tax_target.GetName]的农民可以交上一笔额外的税！;;;;;;;;;;x
 EVTOPTB_ZE_21000;[extortion_target.GetFullName]挺有钱的，[extortion_target.GetSheHe]可以给一些金子来！;;;;;;;;;;x
 EVTOPTC_ZE_21000;[seize_church_target.GetName]的教士肯定不需要那么多财产！;;;;;;;;;;x
 EVTOPTD_ZE_21000;也许这不是个好主意……;;;;;;;;;;x
 extort_tyrant_custom_tooltip;这么做会被视为暴虐，也会让所有臣民对你的好感度下降§R-10§!。\n;;;;;;;;;;x
-EVTDESC_ZE_21100;和预想的一样，[extra_tax_target.GetName]的农民并不喜欢我们强加给他们的‘额外’税。农民们甚至从他们中间选出了一个领袖来代表他们质问为什么这笔税是必要的，并宣称他们现在要开始挨饿了！也许在他们拿起锄头前该做点什么？;;;;;;;;;;x
+EVTDESC_ZE_21100;和预想的一样，[extra_tax_target.GetName]的农民并不喜欢我们强加给他们的「额外」税。农民们甚至从他们中间选出了一个领袖来代表他们质问为什么这笔税是必要的，并宣称他们现在要开始挨饿了！也许在他们拿起锄头前该做点什么？;;;;;;;;;;x
 EVTOPTA_ZE_21100;向他们解释这笔税的必要性，并给他们临时的减税;;;;;;;;;;x
 EVTOPTB_ZE_21100;这笔税很显然有必要啊，农民真是贪婪成性！;;;;;;;;;;x
 EVTTOOLTIP_ZE_21200;使用强力来勒索 [extortion_target.GetFullName];;;;;;;;;;x
@@ -1703,7 +1703,7 @@ EXILE_IMPRISONED_DISCONTENT_REASON; [Actor.GetBestName]驱逐了 [Recipient.GetB
 CB_NAME_INCREASE_COUNCIL_POWER;增加内阁权力;;;;;;;;;;x
 WAR_NAME_INCREASE_COUNCIL_POWER; $ORDER$$SECOND_ADJ$ 内战用来增加内阁权力;;;;;;;;;;x
 council_off_custom;不能使用 §Y 全境和平 §! ;;;;;;;;;;x
-council_on_custom;解锁额外内阁权力法律\n允许使用 §Y 全境和平 §! ;;;;;;;;;;x
+council_on_custom;解锁额外内阁权力法律\n允许使用§Y全境和平§!;;;;;;;;;;x
 EVTDESC8215;长久以来，你一直限制着封臣的政治影响。但这一切都将结束，是时候给 [Root.GetCouncilName]更多权力了！和平地提出这项要求或面对这将带来的后果。最后确认我已经把那些感到不安的人集中了起来……\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 opinion_childhood_sweetheart;青梅竹马;;;;;;;;;;x
 pattern_loyalist_vote_as_liege_custom_tooltip;这个投票者是保皇派，他会支持领主\n;;;;;;;;;;x
