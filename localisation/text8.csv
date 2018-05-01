@@ -47,7 +47,7 @@ ASK_TO_JOIN_WAR_INTERACTION_LETTER;你的要求是正当的!请接受我在$WAR$
 INTERACTION_CANNOT_JOIN_LIEGE_WAR;无法加入领主的战争;;;;;;;;;;x
 INTERACTION_REQUIRES_RECIPIENT_IS_SAME_RELIGION;§Y[Recipient.GetTitledFirstName]§! 是 [Actor.Religion.GetName];;;;;;;;;;x
 EVTDESC293;我非常高兴您能对我施以援手.让我们的敌人颤抖吧!\n\n[From.GetTitledFirstName];;;;;;;;;;x
-EVTDESC294;您的好意我心领了,但是我确实不想麻烦您插手我的这场战争.\n\n[From.GetTitledFirstName];;;;;;;;;;x
+EVTDESC294;您的好意我心领了，但是我确实不想麻烦您插手我的这场战争.\n\n[From.GetTitledFirstName];;;;;;;;;;x
 CALL_ALLY_INTERACTION_TITLE;请求盟友;;;;;;;;;;x
 CALL_ALLY_INTERACTION_DESC;请求§Y[Recipient.GetBestName]§!在当前的鏖战中加入我方.;;;;;;;;;;x
 CALL_ALLY_INTERACTION_LONG_DESC;只有当出身同一家族或者有亲密的婚姻关系时，领主才能被召唤加入战争.;;;;;;;;;;x
@@ -68,7 +68,7 @@ EVTTOOLTIP8030;[Root.PlotTarget.GetTitledName]收到了一封信.;;;;;;;;;;x
 EVTDESC8030;我已经决定[From.GetPlot]。领地中的封臣都研究过这个情形中的法律文件，其中的大多数领主都认为我的要求是公正合理、童叟无欺的，你要么乖乖地和平下台，要么就不得不让我采取军事手段捍卫我的合法权利了。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTDESC8068;与其让内战撕碎我们的国家，我宁可向您屈膝，双手奉上我的头衔给你，但是这起阴险毒辣的敲诈行动永远不会被忘记...\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA8068;妙极了!;;;;;;;;;;x
-EVTDESC8096;因为不愿意让内战分裂我们的国土，[FromFrom.PlotTarget.GetTitledName]已经同意屈膝投降，让我[FromFrom.GetPlot].在这场冲突中您弥足珍贵的支持绝不会被忘记.\n\nSincerely,\n[FromFrom.GetTitledName];;;;;;;;;;x
+EVTDESC8096;因为不愿意让内战分裂我们的国土，[FromFrom.PlotTarget.GetTitledName]已经同意屈膝投降，让我[FromFrom.GetPlot].在这场冲突中您弥足珍贵的支持绝不会被忘记.\n\nSincerely，\n[FromFrom.GetTitledName];;;;;;;;;;x
 EVTOPTA8096;好得很;;;;;;;;;;x
 EVTDESC8118;你这可耻的敲诈企图绝不会得逞.无论你收买了多少腐败的卑鄙小人来支持你的阴谋，我绝不会不战而降.我的就是我的，你休想夺走!\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA8118;那就让战争来裁决吧!;;;;;;;;;;x
@@ -78,10 +78,10 @@ CRUSADE_DESC_DRO_2;既然§Y$TITLE$§!的王冠不再被信仰$RELIGION$的领�
 PARTICIPATION_SCORE;为$CRUSADE$作出贡献;;;;;;;;;;x
 CLICK_TO_OPEN_WAR_VIEW;§G点击打开战争一览§!;;;;;;;;;;x
 EVTNAME620;[Root.GetBaseName][From.Religion.GetCrusadeName]大功告成!;;;;;;;;;;x
-EVTDESC620;在对抗[New.GetTitledName]的[Root.GetBaseName][From.Religion.GetCrusadeName]中，[From.Religion.GetRandomGodNameCap]赢得了[From.GetTitledName] 胜利. [From.RelHead.GetTitledName]谕令整个[From.Religion.GetGroupName]世界欢庆一个月!;;;;;;;;;;x
+EVTDESC620;在对抗[New.GetTitledName]的[Root.GetBaseName][From.Religion.GetCrusadeName]中，[From.Religion.GetRandomGodNameCap]赢得了[From.GetTitledName]胜利. [From.RelHead.GetTitledName]谕令整个[From.Religion.GetGroupName]世界欢庆一个月!;;;;;;;;;;x
 EVTOPTA620;赞美[From.Religion.GetRandomGodName]！;;;;;;;;;;x
 EVTNAME621;对[Root.GetBaseName]的[From.Religion.GetCrusadeName]失败了!;;;;;;;;;;x
-EVTDESC621;[From.Religion.GetRandomGodNameCap] 似乎不再眷顾 [From.Religion.GetGroupName] 了。 在反复的拉锯和转进之后，[From.GetTitledName] 下令取消了对抗 [New.GetTitledName] 旨在夺取 [Root.GetBaseName] 的 [From.Religion.GetCrusadeName]。;;;;;;;;;;x
+EVTDESC621;[From.Religion.GetRandomGodNameCap] 似乎不再眷顾 [From.Religion.GetGroupName]了。在反复的拉锯和转进之后，[From.GetTitledName]下令取消了对抗 [New.GetTitledName]旨在夺取 [Root.GetBaseName]的 [From.Religion.GetCrusadeName]。;;;;;;;;;;x
 TITLE_CREATION_NOT_PRIMARY_TYPE;特殊头衔持有者无法创建或篡夺相等或更高级别的头衔。;;;;;;;;;;x
 IS_NOT_LOCATED_IN_AREA;不在;;;;;;;;;;x
 IS_LOCATED_IN_AREA;在;;;;;;;;;;x
@@ -102,7 +102,7 @@ OFFER_SUCCESSION_MARRIGE_INTERACTION_3;§R这对夫妇所生的孩子将不属�
 OFFER_MARRIGE_INTERACTION_3;§R这对夫妇所生的孩子将不属于您的家族 - 请考虑下入赘婚姻!§!;;;;;;;;;;x
 ARRANGE_SUCC_BETROTHAL_INTERACTION_TITLE;安排入赘订婚;;;;;;;;;;x
 ARRANGE_SUCC_BETROTHAL_INTERACTION_DESC;为两个角色安排入赘订婚;;;;;;;;;;x
-ARRANGE_SUCC_BETROTHAL_INTERACTION_LONG_DESC;孩童不能被安排结婚,但他们可以订婚.订婚关系会持续到角色结婚,或者其中一人死亡，或是婚约被撕毁.;;;;;;;;;;x
+ARRANGE_SUCC_BETROTHAL_INTERACTION_LONG_DESC;孩童不能被安排结婚，但他们可以订婚.订婚关系会持续到角色结婚，或者其中一人死亡，或是婚约被撕毁.;;;;;;;;;;x
 ARRANGE_SUCC_BETROTHAL_INTERACTION_0;选择未来的新娘和新郎.;;;;;;;;;;x
 ARRANGE_SUCC_BETROTHAL_INTERACTION_1;从§Y$CHAR$§!的宫廷中选择一位角色.;;;;;;;;;;x
 ARRANGE_SUCC_BETROTHAL_INTERACTION_ACCEPT_SETUP;入赘订婚的提议被接受;;;;;;;;;;x
@@ -187,56 +187,56 @@ EVTOPTA65115;我很聪明，姑娘很笨.;;;;;;;;;;x
 EVTOPTB65115;笨人做笨事.;;;;;;;;;;x
 EVTDESC65120;今天在操场上习练了一整天的剑术.当练习结束时发现手上见了红.原来我全程握在了剑刃上! 哈哈哈.;;;;;;;;;;x
 EVTOPTA65120;呦!;;;;;;;;;;x
-EVTDESC65125;骑马时感觉今天的马儿表现的很奇怪.它的头不见了，一直往后倒行. 就这样一路骑到了[Root.Location.GetName] ;;;;;;;;;;x
-EVTOPTA65125;哎呀.我错了...;;;;;;;;;;x
+EVTDESC65125;骑马时感觉今天的马儿表现的很奇怪.它的头不见了，一直往后倒行. 就这样一路骑到了[Root.Location.GetName];;;;;;;;;;x
+EVTOPTA65125;哎呀.我错了……;;;;;;;;;;x
 EVTOPTB65125;上我的路更容易.;;;;;;;;;;x
-EVTDESC65126;今天早上忘了穿裤子了.很多人尖叫,很多人烦恼.俺不明白这是为啥.;;;;;;;;;;x
+EVTDESC65126;今天早上忘了穿裤子了.很多人尖叫，很多人烦恼.俺不明白这是为啥.;;;;;;;;;;x
 EVTOPTA65126;淡定! Simple mistake!;;;;;;;;;;x
-EVTDESC65130;今天我偶然发现了一幅画，画着我这辈子见过的最邪恶、最狰狞的生物.这种对于自然的亵渎使我不寒而栗.且不提那交错的牙齿,丑陋的耳朵... [Root.GetHerHis]光是那超大的鼻子就足够让我恶心!这时候一个路过的廷臣问我，对于我的新画像是否满意.;;;;;;;;;;x
-EVTOPTA65130;我需要一面镜子...;;;;;;;;;;x
+EVTDESC65130;今天我偶然发现了一幅画，画着我这辈子见过的最邪恶、最狰狞的生物.这种对于自然的亵渎使我不寒而栗.且不提那交错的牙齿，丑陋的耳朵... [Root.GetHerHis]光是那超大的鼻子就足够让我恶心!这时候一个路过的廷臣问我，对于我的新画像是否满意.;;;;;;;;;;x
+EVTOPTA65130;我需要一面镜子……;;;;;;;;;;x
 EVTOPTB65130;这昏暗的光线误导了我. 这鼻子还是挺有型的嘛!;;;;;;;;;;x
 EVTDESC65135;我今天得知[Root.Location.GetName]地方的母亲，为了让她们的女儿平时乖乖的，办法就是威胁把她们嫁给一个最最可怕的人... 我.;;;;;;;;;;x
-EVTOPTA65135;我的多花点时间呆在家里...;;;;;;;;;;x
+EVTOPTA65135;我的多花点时间呆在家里……;;;;;;;;;;x
 EVTOPTB65135;她们还能做得更糟!;;;;;;;;;;x
 EVTDESC65140;流传在[Root.Location.GetName]的恶毒传言说我是一个邪恶的巫师，源于我... 独特的外表.至少我的军队防止了那些农民针对这些毫无根据的指控采取进一步行动.;;;;;;;;;;x
 EVTOPTA65140;那些坏人很快会找到些更丑的人去骚扰.;;;;;;;;;;x
 EVTOPTB65140;诅咒他们!诅咒他们生儿子没屁眼.;;;;;;;;;;x
 EVTDESC65145;从小到大，那些亲近我的人从来都不把我长得特别丑当作一个秘密看待。现在，我成长为一位[Root.GetManWoman]，他们对我外表的反应似乎在悄悄地变化……;;;;;;;;;;x
-EVTOPTA65145;丑小鸭变成了白天鹅...;;;;;;;;;;x
-EVTDESC65150;今天我在六个马厩仆从的帮助下骑上我最爱的宝马,它发出了一阵奇怪的喘息然后轰然垮倒.马厩主人说这匹马已经死了,它的背脊折断了. 他暗示，从今以后无论在什么场合下，我都还是步行的好，这让每一个关心我的人都放心.;;;;;;;;;;x
-EVTOPTA65150;我可能稍微长胖了点...;;;;;;;;;;x
+EVTOPTA65145;丑小鸭变成了白天鹅……;;;;;;;;;;x
+EVTDESC65150;今天我在六个马厩仆从的帮助下骑上我最爱的宝马，它发出了一阵奇怪的喘息然后轰然垮倒.马厩主人说这匹马已经死了，它的背脊折断了. 他暗示，从今以后无论在什么场合下，我都还是步行的好，这让每一个关心我的人都放心.;;;;;;;;;;x
+EVTOPTA65150;我可能稍微长胖了点……;;;;;;;;;;x
 EVTOPTB65150;闭嘴! 给老子再找匹马!;;;;;;;;;;x
 EVTDESC65151;确实不能再胖了.我已经决定了要少吃多锻炼. 我想我最终一定可以看到自己的脚的!;;;;;;;;;;x
-EVTDESC65155;我正在视察[Root.Location.GetName]的防御工事，当我试图走进其中一座塔楼时,我居然在塔门那卡住了!我发现我进退不能，最后靠了四个壮汉才把我拉出来.;;;;;;;;;;x
+EVTDESC65155;我正在视察[Root.Location.GetName]的防御工事，当我试图走进其中一座塔楼时，我居然在塔门那卡住了!我发现我进退不能，最后靠了四个壮汉才把我拉出来.;;;;;;;;;;x
 EVTOPTA65155;我都胖成什么样了? 别再给我烤乳猪了.;;;;;;;;;;x
 EVTOPTB65155;这座塔楼市给小孩子设计的吗? 给我把所有的门都砸开!;;;;;;;;;;x
 EVTDESC65160;我穿过[Root.Location.GetName]纵横交错的街头时，遇上了当地的‘钱包搜查官’，他说看我形迹可疑，要检查检查我的钱包，于是我老实听从了.;;;;;;;;;;x
-EVTOPTA65160;等下... 那不是什么钱包搜查官...;;;;;;;;;;x
+EVTOPTA65160;等下…… 那不是什么钱包搜查官……;;;;;;;;;;x
 EVTDESC3460;一位圣职人员今天来到了宫廷，谈论信仰的问题，但他很快就露出了非正统基督信徒的真实面目。作为任何时候、任何地点的坚定的卫教者，我相信我做了正确的事情——把这个胆敢亵渎我的信仰和我的教堂的异教徒关进监狱.;;;;;;;;;;x
 EVTOPTA3460;主的旨意!;;;;;;;;;;x
-EVTDESC61100;作为[Root.Liege.GetTitledFirstName]的摄政,我的职责是捍卫这个疆域.我感觉[Root.Liege.GetHerHis]的某块领土在我的直接管理下会更加繁荣.;;;;;;;;;;x
+EVTDESC61100;作为[Root.Liege.GetTitledFirstName]的摄政，我的职责是捍卫这个疆域.我感觉[Root.Liege.GetHerHis]的某块领土在我的直接管理下会更加繁荣.;;;;;;;;;;x
 EVTOPTA61100;[Root.Liege.GetTitledFirstName]希望如此!;;;;;;;;;;x
 EVTOPTB61100;还是算了，我必须得知道我权力的界限.;;;;;;;;;;x
 EVTTOOLTIP61101;你从[Root.Liege.GetTitledFirstName]手中篡夺了一个头衔.;;;;;;;;;;x
-EVTDESC61101;[Root.Regent.GetTitledName],您的摄政，以[Root.Regent.GetHerHis]无穷的智慧决定，您的一个头衔如果被直接赐予给[Root.Regent.GetHerHim]，将会更有利于您的领地.;;;;;;;;;;x
+EVTDESC61101;[Root.Regent.GetTitledName]，您的摄政，以[Root.Regent.GetHerHis]无穷的智慧决定，您的一个头衔如果被直接赐予给[Root.Regent.GetHerHim]，将会更有利于您的领地.;;;;;;;;;;x
 EVTOPTA61101;*流口水*;;;;;;;;;;x
 EVTOPTB61101;*茫然地凝视着前方*;;;;;;;;;;x
-EVTDESC61105;在[Root.Liege.GetTitledFirstName]的统治之下，领地简直贫穷得一塌糊涂. 作为[Root.Liege.GetHerHis]的摄政,我决定要还给人民一些东西.;;;;;;;;;;x
+EVTDESC61105;在[Root.Liege.GetTitledFirstName]的统治之下，领地简直贫穷得一塌糊涂. 作为[Root.Liege.GetHerHis]的摄政，我决定要还给人民一些东西.;;;;;;;;;;x
 EVTOPTA61105;原来你在这啊... 承蒙[Root.Liege.GetTitledFirstName]的关照!;;;;;;;;;;x
-EVTOPTB61105;诱人的建议,但这些金子不应该由我来花.;;;;;;;;;;x
+EVTOPTB61105;诱人的建议，但这些金子不应该由我来花.;;;;;;;;;;x
 EVTTOOLTIP61106;以[Root.Liege.GetTitledFirstName]的名义，你给了穷人们一些捐赠.;;;;;;;;;;x
-EVTDESC61106;[Root.Regent.GetTitledName],你的摄政,似乎向[Root.Regent.GetHerHis] 慈善的本性所屈服，从您的库房中支取了一些金子捐赠给了穷人. 最糟糕的是，[Root.Regent.GetSheHe]是以您的名义做了这些事情!;;;;;;;;;;x
+EVTDESC61106;[Root.Regent.GetTitledName]，你的摄政，似乎向[Root.Regent.GetHerHis] 慈善的本性所屈服，从您的库房中支取了一些金子捐赠给了穷人. 最糟糕的是，[Root.Regent.GetSheHe]是以您的名义做了这些事情!;;;;;;;;;;x
 EVTOPTA61106;呃 呃 呃..不 不 不...!;;;;;;;;;;x
 EVTDESC61110;您的领地的管理水平显著上升了，自从[Root.Regent.GetTitledFirstName]成为了您的摄政. 如果您拥有 [Root.Regent.GetHerHis]那样的能力就好了!;;;;;;;;;;x
 EVTOPTA61110;*口齿不清地发出咕噜声*;;;;;;;;;;x
-EVTDESC61120;[Root.Liege.GetTitledFirstName]是一个衰老的蠢货和[Root.Liege.GetManWoman]的一个可悲的空壳.作为[Root.Liege.GetHerHis]制定的摄政,我想宫廷中需要一个新的小丑...;;;;;;;;;;x
+EVTDESC61120;[Root.Liege.GetTitledFirstName]是一个衰老的蠢货和[Root.Liege.GetManWoman]的一个可悲的空壳.作为[Root.Liege.GetHerHis]制定的摄政，我想宫廷中需要一个新的小丑……;;;;;;;;;;x
 EVTOPTA61120;在廷臣面前羞辱[Root.Liege.GetHerHim].;;;;;;;;;;x
 EVTOPTB61120;我想我最好还是别这样.;;;;;;;;;;x
 EVTTOOLTIP61121;那些在宫廷中不待见[Root.Liege.GetHerHim]的人赞成.;;;;;;;;;;x
-EVTDESC61121;当你虚弱无力地坐在王座上时,你的摄政，[Root.Regent.GetTitledName],当着廷臣的面作出了一系列侮辱你的行为 - [Root.Regent.GetSheHe]将[Root.Regent.GetHerHis]的外套挂在了你的脑袋上，[Root.Regent.GetSheHe]用木炭在你的额头上写了许多污言秽语，甚至有一次[Root.Regent.GetSheHe]用你的牙齿弄开了一个核桃. 可耻啊!;;;;;;;;;;x
+EVTDESC61121;当你虚弱无力地坐在王座上时，你的摄政，[Root.Regent.GetTitledName]，当着廷臣的面作出了一系列侮辱你的行为 - [Root.Regent.GetSheHe]将[Root.Regent.GetHerHis]的外套挂在了你的脑袋上，[Root.Regent.GetSheHe]用木炭在你的额头上写了许多污言秽语，甚至有一次[Root.Regent.GetSheHe]用你的牙齿弄开了一个核桃. 可耻啊!;;;;;;;;;;x
 EVTOPTA61121;*遭受了一系列不自主的抽搐*;;;;;;;;;;x
-EVTOPTB61121;*鲁莽地摆头,作出不可预知的行为*;;;;;;;;;;x
-EVTDESC61122;[Root.Liege.Regent.GetTitledName],[Root.Liege.GetTitledFirstName]的摄政,在公共场合下对[Root.Liege.GetHerHim]进行了肉体羞辱.受制于[Root.Liege.GetTitle]的体弱衰微，[Root.Liege.GetSheHe]对此无力反抗.荣誉驱使你对此种奇耻大辱做一个了结!;;;;;;;;;;x
+EVTOPTB61121;*鲁莽地摆头，作出不可预知的行为*;;;;;;;;;;x
+EVTDESC61122;[Root.Liege.Regent.GetTitledName]，[Root.Liege.GetTitledFirstName]的摄政，在公共场合下对[Root.Liege.GetHerHim]进行了肉体羞辱.受制于[Root.Liege.GetTitle]的体弱衰微，[Root.Liege.GetSheHe]对此无力反抗.荣誉驱使你对此种奇耻大辱做一个了结!;;;;;;;;;;x
 EVTOPTA61122;接近[Root.Liege.GetTitledFirstName]寻找[Root.Liege.GetHerHis]祝福的指引.;;;;;;;;;;x
 EVTOPTB61122;啊，这个蠢货咎由自取.;;;;;;;;;;x
 EVTTOOLTIP61123;你与[Root.Liege.GetTitle]交谈.;;;;;;;;;;x
@@ -244,14 +244,14 @@ EVTDESC61123;您的摄政对待您的方式并没有被无视. 在一个深夜[F
 EVTOPTA61123;*几乎是毫无知觉地点了点头*;;;;;;;;;;x
 EVTOPTB61123;*垂下头，陷入了沉睡之中*;;;;;;;;;;x
 EVTTOOLTIP61124;你给了[From.GetTitledName]你最衷心的祝福.;;;;;;;;;;x
-EVTDESC61124;虽然这些日子[Root.Liege.GetSheHe]并不表现得特别[Root.Liege.GetHerselfHimself],但你仍然感受到了你的主君给予你的[Root.Liege.GetHerHis]祝福，以采取果决地行动去对抗[Root.Liege.Regent.GetTitledName].召集一些靠得住的勇士!这个国家需要一个新的摄政!;;;;;;;;;;x
+EVTDESC61124;虽然这些日子[Root.Liege.GetSheHe]并不表现得特别[Root.Liege.GetHerselfHimself]，但你仍然感受到了你的主君给予你的[Root.Liege.GetHerHis]祝福，以采取果决地行动去对抗[Root.Liege.Regent.GetTitledName].召集一些靠得住的勇士!这个国家需要一个新的摄政!;;;;;;;;;;x
 EVTOPTA61124;只有让我担任[Root.Liege.GetTitledFirstName]的摄政，才是唯一公平的做法.;;;;;;;;;;x
 EVTOPTB61124;任何人都比[Root.Liege.Regent.GetFirstName]强.;;;;;;;;;;x
 EVTTOOLTIP61125;你成为了下一任摄政.;;;;;;;;;;x
 EVTTOOLTIP61126;宫廷任命了一位新摄政.;;;;;;;;;;x
 EVTDESC61125;我们在城堡的一座塔楼离抓住了[Root.Liege.Regent.GetFirstName]，他就像一只走投无路的丧家之犬! 宫廷里少数几个支持[Root.Liege.Regent.GetHerHim] 的守卫不是逃走就是被干掉了.;;;;;;;;;;x
 EVTOPTA61125;将[Root.Liege.Regent.GetHerHim]投入地牢!;;;;;;;;;;x
-EVTDESC61127;[Root.Liege.Regent.GetFirstName]在宫廷里的支持者比预想的要多.我们为了保卫这个国家英勇的战斗,但是大部分的守卫都站在了 [Root.Liege.Regent.GetFirstName]的一边.一切全完了!;;;;;;;;;;x
+EVTDESC61127;[Root.Liege.Regent.GetFirstName]在宫廷里的支持者比预想的要多.我们为了保卫这个国家英勇的战斗，但是大部分的守卫都站在了 [Root.Liege.Regent.GetFirstName]的一边.一切全完了!;;;;;;;;;;x
 EVTOPTA61127;放开我，以[Root.Liege.GetTitledFirstName]的名义!;;;;;;;;;;x
 EVTTOOLTIP61127;你被扔进了地牢.;;;;;;;;;;x
 EVTDESC61128;出于对[Root.Liege.GetTitledFirstName]的错误的同情心，[From.GetTitledName]，这个傻瓜，决心要结束你的摄政统治.幸运的是足够多的卫兵站在你这边挫败了[From.GetHerHis]小小阴谋.;;;;;;;;;;x
@@ -271,16 +271,16 @@ EVTOPTB61135;不，我是一个好[Root.GetLadLass].;;;;;;;;;;x
 EVTDESC61140;一个事实突然摆在你的面前，当[Root.Liege.GetTitledFirstName]长大的时候，你就会失去王国摄政的头衔.为了国家的利益，或许可以做些事情.;;;;;;;;;;x
 EVTOPTA61140;这个小崽子不适合统治——现在不适合，以后也不适合！;;;;;;;;;;x
 EVTOPTB61140;不管是好是坏，当[Root.Liege.GetLadLass]准备好的时候我都会下台.;;;;;;;;;;x
-EVTDESC61141;事实正变得越来越明显，[Root.Liege.GetTitledFirstName]是一个非常“特殊”的小孩.你无法仅用年轻人的怪癖来解释清楚[Root.Liege.GetHerHis]日渐增长的疯狂.;;;;;;;;;;x
+EVTDESC61141;事实正变得越来越明显，[Root.Liege.GetTitledFirstName]是一个非常「特殊」的小孩.你无法仅用年轻人的怪癖来解释清楚[Root.Liege.GetHerHis]日渐增长的疯狂.;;;;;;;;;;x
 EVTOPTA61141;这不是我轻易做出的决定，而是必须去做的事情.;;;;;;;;;;x
-EVTOPTB61141;也许这种疯狂会随着年龄增大和逐渐成熟而消失...;;;;;;;;;;x
+EVTOPTB61141;也许这种疯狂会随着年龄增大和逐渐成熟而消失……;;;;;;;;;;x
 EVTDESC61142;疯王[Root.Liege.GetTitledFirstName]已经被囚禁在城堡的一座塔楼里，直到这个孩子被确认头脑正常为止，你的摄政权会一直继续下去，与[Root.Liege.GetHerHis]的年龄无关.;;;;;;;;;;x
 EVTOPTA61142;这对王国是个好事.;;;;;;;;;;x
 EVTTOOLTIP61145;宣称[Root.Liege.GetTitledFirstName]精神错乱.;;;;;;;;;;x
 EVTDESC61145;你成功地宣称[Root.Liege.GetTitledFirstName]精神错乱.在[Root.Liege.GetHerHis]精神状态好转之前，这个孩子将会被一直锁在城堡的塔楼里，与此同时你可以继续你的辉煌摄政.;;;;;;;;;;x
 EVTOPTA61145;哈！那一天永不会到来.;;;;;;;;;;x
-EVTDESC61146;你宣称[Root.Liege.GetTitledFirstName]精神错乱的企图全部失败了.很快[Root.Liege.GetLadLass]就会成长为一个成熟的[Root.Liege.GetManWoman]，你为自己制造了一个强有力的敌人...;;;;;;;;;;x
-EVTOPTA61146;好吧，在我看来[Root.Liege.GetSheHe]精神不正常...;;;;;;;;;;x
+EVTDESC61146;你宣称[Root.Liege.GetTitledFirstName]精神错乱的企图全部失败了.很快[Root.Liege.GetLadLass]就会成长为一个成熟的[Root.Liege.GetManWoman]，你为自己制造了一个强有力的敌人……;;;;;;;;;;x
+EVTOPTA61146;好吧，在我看来[Root.Liege.GetSheHe]精神不正常……;;;;;;;;;;x
 EVTTOOLTIP61146;没有如愿.;;;;;;;;;;x
 EVTDESC61150;您的摄政[Root.Regent.GetTitledName]，似乎想要密谋宣称您精神不正常，他在徒劳的试图延长[Root.Regent.GetHerHis]摄政.对[Root.Regent.GetHerHim]非常不幸的是，所有人都认识到您的精神明显十分正常.;;;;;;;;;;x
 EVTOPTA61150;总有一天[Root.Regent.GetSheHe]会为这次背叛感到后悔.;;;;;;;;;;x
@@ -302,27 +302,27 @@ EVTDESC61160;你不忠的摄政似乎吞下了超出[Root.Regent.GetSheHe]的承
 EVTOPTA61160;那...那是太阳吗？;;;;;;;;;;x
 EVTTOOLTIP61160;[Root.Liege.GetTitle]得到自由！;;;;;;;;;;x
 EVTDESC61161;在您被监禁期间，您的摄政一直在忙于从宫廷中获得足够的支持来最终窃取您的头衔.这件可耻的偷窃你与生俱来的权力的行为已经成功了.;;;;;;;;;;x
-EVTOPTA61161;这不是真的...;;;;;;;;;;x
+EVTOPTA61161;这不是真的……;;;;;;;;;;x
 EVTTOOLTIP61161;一位新的[Root.Liege.GetTitle].;;;;;;;;;;x
 EVTDESC61165;你狡猾的骗走了你所在塔楼的一名守卫，并且他忘了锁门.在逃入城堡之后，你踢开了通往主厅的门，您的骗子摄政[Root.Regent.GetFirstName]正手足无措的坐在您的王位上.在迷惑的大臣们互相耳语的时候，您用尽肺里的每一分空气大喊：;;;;;;;;;;x
 EVTOPTA61165;听着！我是这片土地真正的[Root.GetLordLady]！;;;;;;;;;;x
 EVTOPTB61165;一篇冠冕堂皇，冗长难懂的空话！;;;;;;;;;;x
-EVTDESC61166;卫兵把你押送回你的塔楼，并且从外面把门钉上了...;;;;;;;;;;x
+EVTDESC61166;卫兵把你押送回你的塔楼，并且从外面把门钉上了……;;;;;;;;;;x
 EVTOPTA61166;如果我的王国要变成这样，那么就让它这样吧.;;;;;;;;;;x
-EVTTOOLTIP61166;好吧，你做出了最好的一次尝试...;;;;;;;;;;x
+EVTTOOLTIP61166;好吧，你做出了最好的一次尝试……;;;;;;;;;;x
 EVTDESC61170;灾难! [Root.Liege.GetTitledFirstName]设法逃离了他的塔楼并召集到了足够把你从摄政的位置上赶下去的支持者！卫兵转身朝你攻击，并把你投入了地牢.;;;;;;;;;;x
 EVTOPTA61170;不应该发生这样的事情.;;;;;;;;;;x
 EVTTOOLTIP61170;你的摄政被抓了起来.;;;;;;;;;;x
-EVTDESC61190;只要[Root.Liege.GetTitledFirstName]还活着，王位就不应该是你的.如果一场事故降临在这个小崽子身上……毕竟意外事故是很常见的.作为[Root.Liege.GetHerHis]摄政，或许你应该指派[Root.Liege.GetLadLass]做一些简单的劳动.城堡的屋顶已经很久没有清洗过了，上面堆满了鸟粪...;;;;;;;;;;x
+EVTDESC61190;只要[Root.Liege.GetTitledFirstName]还活着，王位就不应该是你的.如果一场事故降临在这个小崽子身上……毕竟意外事故是很常见的.作为[Root.Liege.GetHerHis]摄政，或许你应该指派[Root.Liege.GetLadLass]做一些简单的劳动.城堡的屋顶已经很久没有清洗过了，上面堆满了鸟粪……;;;;;;;;;;x
 EVTOPTA61190;这种事能够塑造人格.;;;;;;;;;;x
 EVTOPTB61190;不，这种事不值得由[Root.Liege.GetTitle]去做.;;;;;;;;;;x
-EVTDESC61191;有时这种感觉在你心头徘徊不去，你的摄政[Root.Regent.GetTitledName]对你不怀好意.[Root.Regent.GetSheHe]交给你一项危险的任务，让你去清洗城堡屋顶上的鸟粪，并宣称这可以塑造人格，.只要你稍一失去平衡...;;;;;;;;;;x
+EVTDESC61191;有时这种感觉在你心头徘徊不去，你的摄政[Root.Regent.GetTitledName]对你不怀好意.[Root.Regent.GetSheHe]交给你一项危险的任务，让你去清洗城堡屋顶上的鸟粪，并宣称这可以塑造人格，.只要你稍一失去平衡……;;;;;;;;;;x
 EVTOPTA61191;这不是仆人做的事情么？;;;;;;;;;;x
 EVTTOOLTIP61191;你也许会在一次不幸的事故中死去.;;;;;;;;;;x
 EVTDESC61192;好几次你都差点摔下去，但是现在屋顶干净的闪闪发光，好像一个整体一样.如果这些讨厌的鸟又飞回来，你将有机会来磨练自己的箭术.;;;;;;;;;;x
 EVTOPTA61192;一整天辛勤的劳动.;;;;;;;;;;x
 EVTTOOLTIP61192;没有鸟粪的屋顶.;;;;;;;;;;x
-EVTDESC61195;这个孩子有着出色的平衡感.没关系.也许一次乡村旅行对[Root.Liege.GetTitledFirstName]有好处.在那旁边不远有一片茂密的树林，林中有成群的狼和盗贼，一个人很容易有去无回...;;;;;;;;;;x
+EVTDESC61195;这个孩子有着出色的平衡感.没关系.也许一次乡村旅行对[Root.Liege.GetTitledFirstName]有好处.在那旁边不远有一片茂密的树林，林中有成群的狼和盗贼，一个人很容易有去无回……;;;;;;;;;;x
 EVTOPTA61195;来吧，[Root.Liege.GetFirstName].你将会进行一次短途旅行.;;;;;;;;;;x
 EVTOPTB61195;风险太大了.;;;;;;;;;;x
 EVTDESC61196;您的摄政[Root.Regent.GetFirstName]为您安排了一次去临近乡村的旅行，您可以拜访那里的臣民.当您进入一片密林的时候，您的大臣神秘的消失在丛林中，您被一个人留在那里.;;;;;;;;;;x
@@ -330,15 +330,15 @@ EVTOPTA61196;你-你好？有人在么？;;;;;;;;;;x
 EVTDESC61197;当你拼尽全力终于回到城堡的时候，门口的守卫差点把你当作暴乱的农民赶跑.你的脸上沾满灰尘，您带有花边的精致衣服被撕破了，但是你戒指上的图章证明了你的身份.全靠运气你才能把戒指藏起来，而没有让你路上碰到的盗贼抢走.;;;;;;;;;;x
 EVTOPTA61197;我的脚疼.;;;;;;;;;;x
 EVTTOOLTIP61197;安全的回到了文明世界(这多么美好啊).;;;;;;;;;;x
-EVTDESC61200;难以相信...这个矮子成功的生还了！好吧，这次我安排了一辆特殊的马车送[Root.Liege.GetTitledFirstName]去与一位外国显贵见面.车夫已经接到指示，让他在路上的特定地点故意让马车失去控制，把整辆车送入山谷...;;;;;;;;;;x
+EVTDESC61200;难以相信……这个矮子成功的生还了！好吧，这次我安排了一辆特殊的马车送[Root.Liege.GetTitledFirstName]去与一位外国显贵见面.车夫已经接到指示，让他在路上的特定地点故意让马车失去控制，把整辆车送入山谷……;;;;;;;;;;x
 EVTOPTA61200;你在清晨出发，[Root.Liege.GetFirstName].;;;;;;;;;;x
 EVTOPTB61200;这不会成功的.;;;;;;;;;;x
-EVTDESC61201;你的讨厌的老摄政[Root.Regent.GetFirstName]，想让你同一位外国的显贵在一个偏僻的地方会面.当你的马车顺着一条深深的山谷行走时，突然间车夫好像失去了对马匹的控制...;;;;;;;;;;x
+EVTDESC61201;你的讨厌的老摄政[Root.Regent.GetFirstName]，想让你同一位外国的显贵在一个偏僻的地方会面.当你的马车顺着一条深深的山谷行走时，突然间车夫好像失去了对马匹的控制……;;;;;;;;;;x
 EVTOPTA61201;*像个女孩一样尖叫*;;;;;;;;;;x
 EVTDESC61202;你赶在马车失去一个轮子之前安全地跳了出去，马车头朝下笔直坠落到山谷里.车夫在事故发生的第一时间就跳下了车，他紧皱眉头看着你，好像很失望的样子.;;;;;;;;;;x
 EVTOPTA61202;因为这件事情，应该把这个笨手笨脚的人吊死.;;;;;;;;;;x
 EVTTOOLTIP61202;从一场悲惨的车祸中生还.;;;;;;;;;;x
-EVTDESC61205;你在城堡的城墙上安静片刻来思考你在对付[Root.Liege.GetTitledFirstName]的事情上的坏运气，你突然看见那个无忧无虑的小流氓在城墙下大摇大摆的走着.在你身旁是一个异常肥胖的卫兵，他正靠着他的戟打盹.轻轻的一推就能把他推下去砸在[Root.Liege.GetFirstName]的头上...;;;;;;;;;;x
+EVTDESC61205;你在城堡的城墙上安静片刻来思考你在对付[Root.Liege.GetTitledFirstName]的事情上的坏运气，你突然看见那个无忧无虑的小流氓在城墙下大摇大摆的走着.在你身旁是一个异常肥胖的卫兵，他正靠着他的戟打盹.轻轻的一推就能把他推下去砸在[Root.Liege.GetFirstName]的头上……;;;;;;;;;;x
 EVTOPTA61205;*尽全力把这个卫兵推下去*;;;;;;;;;;x
 EVTOPTB61205;不，运气显然站在这位[Root.Liege.GetLadLass]一边.;;;;;;;;;;x
 EVTDESC61206;你在城堡的庭院中散步，思考着属于你的产业，这时一个阴影突然在你身旁出现.时间仅够你抬头看见那个尖叫着的过度肥胖的卫兵从城墙上向你头顶摔下来.;;;;;;;;;;x
@@ -346,10 +346,10 @@ EVTOPTA61206;我的天.;;;;;;;;;;x
 EVTDESC61207;好像是神在眷顾你，那个卫兵紧挨着你撞向地面，跟着传来一声沉重的骨头破裂的声音.城墙上卫兵掉落的位置站着你的摄政[Root.Regent.GetFirstName].[Root.Regent.GetSheHe]用颤抖的声音询问你是否平安无恙.;;;;;;;;;;x
 EVTOPTA61207;比那个卫兵强.;;;;;;;;;;x
 EVTTOOLTIP61207;没让自己成为卫兵的肉垫.;;;;;;;;;;x
-EVTDESC61210;受够这些把戏了.如果你想让[Root.Liege.GetLadLass]死掉，显然你必须采取更加直接的行动！被愤怒蒙蔽了双眼，你拿着你最好的短剑冲向[Root.Liege.GetHerHis]卧室...;;;;;;;;;;x
+EVTDESC61210;受够这些把戏了.如果你想让[Root.Liege.GetLadLass]死掉，显然你必须采取更加直接的行动！被愤怒蒙蔽了双眼，你拿着你最好的短剑冲向[Root.Liege.GetHerHis]卧室……;;;;;;;;;;x
 EVTOPTA61210;死吧！！！;;;;;;;;;;x
-EVTOPTB61210;我必须让自己冷静的思考.这样做我会失去所有的东西...;;;;;;;;;;x
-EVTDESC61211;你回到你的卧室，思考最近发生在你身上的一系列不可思议的事故.砰的一声，门突然被撞开.你的摄政[Root.Regent.GetTitledName]站在你的面前，[Root.Regent.GetHerHis]双眼中燃烧着仇恨.[Root.Regent.GetHerHis]手里拿着一把锋利的短剑一声不吭，[Root.Regent.GetSheHe]向你猛刺过来...;;;;;;;;;;x
+EVTOPTB61210;我必须让自己冷静的思考.这样做我会失去所有的东西……;;;;;;;;;;x
+EVTDESC61211;你回到你的卧室，思考最近发生在你身上的一系列不可思议的事故.砰的一声，门突然被撞开.你的摄政[Root.Regent.GetTitledName]站在你的面前，[Root.Regent.GetHerHis]双眼中燃烧着仇恨.[Root.Regent.GetHerHis]手里拿着一把锋利的短剑一声不吭，[Root.Regent.GetSheHe]向你猛刺过来……;;;;;;;;;;x
 EVTOPTA61211;救命！卫兵！;;;;;;;;;;x
 EVTTOOLTIP61211;也许会不幸地死在一场疯狂的刺杀之中.;;;;;;;;;;x
 EVTOPTA61212;我...我刚才避开了什么东西么？;;;;;;;;;;x
@@ -368,7 +368,7 @@ EVTTOOLTIP61216;摄政遭到质疑.;;;;;;;;;;x
 EVTDESC61217;宫廷通过了你的申请，并任命你为[Root.Liege.GetTitledFirstName]的新的摄政.王国从无能的[Root.Liege.Regent.GetTitledName]手上平安地移交出来.;;;;;;;;;;x
 EVTOPTA61217;[Root.Liege.GetTitledFirstName]应该为此感到高兴.;;;;;;;;;;x
 EVTTOOLTIP61217;成为新的摄政.;;;;;;;;;;x
-EVTDESC61218;看来[Root.Liege.Regent.GetTitledName]在宫廷中有很多支持者.你取代[Root.Liege.Regent.GetHerHim]成为摄政的企图遭到失败，而且[Root.Liege.Regent.GetSheHe]对你感到非常气愤...;;;;;;;;;;x
+EVTDESC61218;看来[Root.Liege.Regent.GetTitledName]在宫廷中有很多支持者.你取代[Root.Liege.Regent.GetHerHim]成为摄政的企图遭到失败，而且[Root.Liege.Regent.GetSheHe]对你感到非常气愤……;;;;;;;;;;x
 EVTOPTA61218;我是为了[Root.Liege.GetTitledFirstName]而做这样的事情！;;;;;;;;;;x
 EVTOPTA61219;那些质疑我的人会后悔的.;;;;;;;;;;x
 EVTTOOLTIP61219;成功守卫了你的摄政权.;;;;;;;;;;x
@@ -407,8 +407,8 @@ EVTTOOLTIP61230;免于死亡.;;;;;;;;;;x
 EVTDESC61231;你抵达了约定的决斗场地，却找不见[From.GetTitledName]的身影.这个胆小鬼根本不敢来见你！;;;;;;;;;;x
 EVTOPTA61231;那个懦夫.;;;;;;;;;;x
 EVTTOOLTIP61231;得知你可耻的怯懦.;;;;;;;;;;x
-EVTDESC61232;你的仇敌将他的剑深深的插入你的侧肋，你错愕片刻才发现鲜血是从你的身体中冒出的.你跪倒在地，感到生命从你的身体中流逝...;;;;;;;;;;x
-EVTOPTA61232;事情不应该这样结束...;;;;;;;;;;x
+EVTDESC61232;你的仇敌将他的剑深深的插入你的侧肋，你错愕片刻才发现鲜血是从你的身体中冒出的.你跪倒在地，感到生命从你的身体中流逝……;;;;;;;;;;x
+EVTOPTA61232;事情不应该这样结束……;;;;;;;;;;x
 EVTTOOLTIP61232;结束了他的痛苦.;;;;;;;;;;x
 EVTDESC61235;你的前任摄政在一场决斗中被击败.决斗的胜利者[Root.Liege.Regent.GetTitledName]已经接过了他的权位.;;;;;;;;;;x
 EVTDESC61236;由于宫廷中超出你现在的理解范围的密谋，你目前的摄政被另一个人所取代.;;;;;;;;;;x
@@ -425,7 +425,7 @@ NEW_DLC_AVAILABLE;新的内容已经可供购买;;;;;;;;;;x
 EVTDESC1980;女人不能引起我的兴趣，相反我被其他男人所吸引。;;;;;;;;;;x
 EVTDESC1990;男人不能引起我的兴趣，相反我被其他女人所吸引。;;;;;;;;;;x
 EVTDESC20292;我的领主，\n我的信给您带来一个惊人的消息! [FromFrom.GetTitledName]想要暗杀我，以此确保我不会发现[FromFrom.GetHerHis]想要[FromFrom.GetPlot]的阴谋.\n\n您谦卑的间谍总管，\n[From.GetTitledName];;;;;;;;;;x
-EVTOPTB8118;实际上，我并不想开战...;;;;;;;;;;x
+EVTOPTB8118;实际上，我并不想开战……;;;;;;;;;;x
 WAR_NAME_CLAIM_VASSAL;$ATTACKER$的$ORDER$废除$OTHER_TITLE$的战争;;;;;;;;;;x
 EVTOPTA100000;告诉他们是你偷的糕点和羽毛笔！;;;;;;;;;;x
 EVTTOOLTIP100001;[Root.GetTitledFirstName]和[This.GetTitledFirstName]成为仇敌;;;;;;;;;;x
@@ -580,7 +580,7 @@ EVTTOOLTIP100066;[Root.GetTitledFirstName]拳打[This.GetTitledFirstName];;;;;;;
 EVTOPTB100065;用一块糖果贿赂欺负我的人;;;;;;;;;;x
 EVTTOOLTIP100067;[This.GetTitledFirstName]拿到的糖果能否让[This.GetHerHim]不再找[Root.GetTitledFirstName]的麻烦？;;;;;;;;;;x
 EVTOPTC100065;尝试不去理会;;;;;;;;;;x
-EVTDESC100066;折磨 [From.GetFirstName] 真是一件令人愉悦的事情，可以叫[From.GetHerHim]「小鶸 [From.GetFirstName]」或者其他的外号，如果这不奏效的话，就拳打脚踢，或者毁坏[From.GetHerHis]东西。[From.GetFirstName]一直是个很好的出气筒，直到[From.GetSheHe]突然挥拳还击！;;;;;;;;;;x
+EVTDESC100066;折磨 [From.GetFirstName]真是一件令人愉悦的事情，可以叫[From.GetHerHim]「小鶸 [From.GetFirstName]」或者其他的外号，如果这不奏效的话，就拳打脚踢，或者毁坏[From.GetHerHis]东西。[From.GetFirstName]一直是个很好的出气筒，直到[From.GetSheHe]突然挥拳还击！;;;;;;;;;;x
 EVTOPTA100066;哦，我的鼻子！你要为此付出代价！;;;;;;;;;;x
 EVTDESC100067;我正期待着在新的一天里可以继续欺负[From.GetFirstName]，叫他的外号，尽情的踢他，这时[From.GetSheHe]向我走来递给我一块糖果。;;;;;;;;;;x
 EVTOPTA100067;把糖果扔掉，踢[From.GetHerHis]屁股！;;;;;;;;;;x
@@ -662,8 +662,8 @@ EVTDESC100096;尽管我放下身段，同意其他女人关于[From.GetFirstName
 EVTOPTA100096;什么！这不是真的，收回那句话！;;;;;;;;;;x
 EVTDESC100100;我把我的玩偶弄丢了！到处都找不到，是不是被人捡走了？我十分想念她，她是我最好的朋友！;;;;;;;;;;x
 EVTOPTA100100;我会找到拿走她的人并让他们把她还给我！;;;;;;;;;;x
-EVTTOOLTIP100101;[Root.GetTitledFirstName] 直面 [This.GetTitledFirstName];;;;;;;;;;x
-EVTOPTB100100;我再也找不到她了...;;;;;;;;;;x
+EVTTOOLTIP100101;[Root.GetTitledFirstName]直面 [This.GetTitledFirstName];;;;;;;;;;x
+EVTOPTB100100;我再也找不到她了……;;;;;;;;;;x
 EVTDESC100101;我正在同我的新玩偶玩耍，它是我在厨房里捡到的，这时[From.GetFirstName]袭击我并想把玩偶从我手里夺走.[From.GetFirstName]向我尖叫让我把她的玩偶还给她，当她看到我仍然抱着玩偶的时候，她变得更加激动.;;;;;;;;;;x
 EVTOPTA100101;我能偶尔同她一起玩玩么？;;;;;;;;;;x
 EVTTOOLTIPA100102;[Root.GetTitledFirstName]把玩偶还给[This.GetTitledFirstName];;;;;;;;;;x
@@ -672,7 +672,7 @@ EVTOPTC100101;现在这个玩偶是我的了！;;;;;;;;;;x
 EVTTOOLTIPB100102;[Root.GetTitledFirstName]拒绝把玩偶还给[Root.GetTitledFirstName];;;;;;;;;;x
 EVTDESC100102;我看见我的玩偶夹在[From.GetFirstName]的胳膊底下，我尖声叫喊着让[From.GetHerHim]把娃娃还给我！我感到十分沮丧，[From.GetFirstName]在哪里找到我的玩偶的为什么[From.GetSheHe]还没有把它还给我;;;;;;;;;;x
 EVTOPTA100102;我把我的玩偶要回来了！我决定我们可以一起同她玩耍，作为对你的感谢;;;;;;;;;;x
-EVTOPTB100102;[From.GetFirstName]说我的娃娃丑陋！但是[From.GetSheHe]把她还给了我...;;;;;;;;;;x
+EVTOPTB100102;[From.GetFirstName]说我的娃娃丑陋！但是[From.GetSheHe]把她还给了我……;;;;;;;;;;x
 EVTOPTC100102;[From.GetFirstName]拒绝归还我的娃娃！;;;;;;;;;;x
 EVTDESC100105;在[Root.Location.GetName]进行十字军远征，远离朋友和家人的生活让人疲倦.很幸运我有一批可以信任的下属，我可以同这些指挥官意其愉快的交谈和欢笑.我们都是为了同一件事情而来到这里：;;;;;;;;;;x
 EVTOPTA100105;上帝的意志！为了上帝的荣耀！;;;;;;;;;;x
@@ -693,12 +693,12 @@ EVTOPTB100107;你还敢自称十字军战士！;;;;;;;;;;x
 EVTDESC100108;每一个在[Root.Location.GetName]同异教徒们进行十字军战争的人，都有各自来到这里的理由，有些人是为了上帝的荣耀，有些人是为了获取土地和财富，还有人是为了赢得声望.[From.GetTitledFirstName]和我来到这里，一同冒着生命的危险，都是为了同样的原因：;;;;;;;;;;x
 EVTOPTA100108;为了友谊和上帝的荣耀！;;;;;;;;;;x
 EVTOPTB100108;这场十字军战争带给我们友谊和声望！;;;;;;;;;;x
-EVTOPTA100110;第一步，同一位财政大臣成为朋友...;;;;;;;;;;x
-EVTOPTB100110;我不会比[Root.Liege.GetChancellorName] [Root.Liege.job_chancellor.GetTitledFirstName]做的更好;;;;;;;;;;x
-EVTOPTC100110;我不会比[Root.Liege.GetMarshalName] [Root.Liege.job_marshal.GetTitledFirstName]做的更好;;;;;;;;;;x
-EVTOPTD100110;我不会比[Root.Liege.GetTreasurerName] [Root.Liege.job_treasurer.GetTitledFirstName]做的更好;;;;;;;;;;x
-EVTOPTE100110;我不会比[Root.Liege.GetSpymasterName] [Root.Liege.job_spymaster.GetTitledFirstName]做的更好;;;;;;;;;;x
-EVTOPTF100110;我不会比[Root.Liege.GetLordSpiritualName] [Root.Liege.job_spiritual.GetTitledFirstName]做的更好;;;;;;;;;;x
+EVTOPTA100110;第一步，同一位财政大臣成为朋友……;;;;;;;;;;x
+EVTOPTB100110;我不会比[Root.Liege.GetChancellorName][Root.Liege.job_chancellor.GetTitledFirstName]做的更好;;;;;;;;;;x
+EVTOPTC100110;我不会比[Root.Liege.GetMarshalName][Root.Liege.job_marshal.GetTitledFirstName]做的更好;;;;;;;;;;x
+EVTOPTD100110;我不会比[Root.Liege.GetTreasurerName][Root.Liege.job_treasurer.GetTitledFirstName]做的更好;;;;;;;;;;x
+EVTOPTE100110;我不会比[Root.Liege.GetSpymasterName][Root.Liege.job_spymaster.GetTitledFirstName]做的更好;;;;;;;;;;x
+EVTOPTF100110;我不会比[Root.Liege.GetLordSpiritualName][Root.Liege.job_spiritual.GetTitledFirstName]做的更好;;;;;;;;;;x
 EVTOPTA100111;[From.GetTitledFirstName]向我细心的询问，我喜欢上了[From.GetHerHim];;;;;;;;;;x
 EVTTOOLTIP100112;[Root.GetTitledFirstName]的乐于助人让[This.GetTitledFirstName]对[Root.GetHerHim]变得更加尊敬;;;;;;;;;;x
 EVTOPTB100111;我会帮助[From.GetTitledFirstName]但是我会密切注意[From.GetHerHim]！;;;;;;;;;;x
@@ -706,7 +706,7 @@ EVTTOOLTIP100113;[Root.GetTitledFirstName]拒绝帮助[This.GetTitledFirstName]�
 EVTDESC100112;起初我只想让[From.GetTitledFirstName]教给我更多关于[From.GetHerHis]财政大臣工作的经验，这是我想要得到的职位，但是当我们谈论起来并且彼此深入了解之后，我发现我们已经成了朋友.;;;;;;;;;;x
 EVTOPTA100112;难道这意味着我不能偷走你的职位了么？;;;;;;;;;;x
 EVTDESC100113;我想让[From.GetTitledFirstName]教给我更多关于[From.GetHerHis]财政大臣工作的经验，虽然我的这一目的十分任性，在[From.GetSheHe]拒绝教我的时候，我也没有真的想从[From.GetTitledFirstName]得到什么反应.我的抱负众所周知，所以[From.GetTitledFirstName]怕我会偷走[From.GetHerHis]职位！;;;;;;;;;;x
-EVTOPTA100113;好吧，我确实会这样做...;;;;;;;;;;x
+EVTOPTA100113;好吧，我确实会这样做……;;;;;;;;;;x
 EVTDESC100115;我有幸与宫廷里的其中一位廷臣同时怀孕。我们一起谈论怀孕，讨论我们面对的一些诸如晨吐、脚肿的问题，并且谈及我们将为我们的孩子起什么样的名字。;;;;;;;;;;x
 EVTOPTA100115;我们这些做母亲的应该待在一起;;;;;;;;;;x
 EVTTOOLTIP100116;[Root.GetTitledFirstName]觉得[This.GetTitledFirstName]是一位值得信赖的朋友;;;;;;;;;;x
@@ -720,7 +720,7 @@ EVTOPTA100117;可我……我真的觉得我们是朋友啊！;;;;;;;;;;x
 opinion_very_disappointed;非常失望;;;;;;;;;;x
 opinion_very_grateful;非常感激;;;;;;;;;;x
 EVTDESC100150;一场接一场战役，一场接一场围攻……我的朋友一定对这场战争感到筋疲力尽，也许我能够以一些方式帮助我的朋友？;;;;;;;;;;x
-EVTOPTA100150;正好我的部队可以做些“锻炼”！;;;;;;;;;;x
+EVTOPTA100150;正好我的部队可以做些「锻炼」！;;;;;;;;;;x
 EVTTOOLTIP100151;[This.GetTitledFirstName]对[Root.GetTitledFirstName]给予的任何帮助都会报以感激之心;;;;;;;;;;x
 EVTOPTB100150;一些金钱应该能够帮助我的朋友赢得这场战争！;;;;;;;;;;x
 EVTOPTC100150;一切尽在我的朋友掌握之中，他并不需要我的帮助;;;;;;;;;;x
@@ -752,7 +752,7 @@ EVTOPTA100163;……[From.GetSheHe]加入了我的战争！;;;;;;;;;;x
 EVTOPTB100163;……为我的部队提供资金！;;;;;;;;;;x
 EVTDESC100164;亲爱的[From.GetTitledFirstName]，为了对我的家庭和封臣们负责，此刻我不能帮助你。我希望胜利的天平将会向你一边倾斜并且祝愿你能很快赢得这场战争。\n\n希望你能理解，\n你的朋友，\n[From.GetTitledFirstName];;;;;;;;;;x
 EVTOPTA100164;我会自己想办法的，虽然我也不知道能以何种方式……;;;;;;;;;;x
-EVTDESC100170;我试图以'我的朋友的朋友就是我的朋友'作为我的人生信条，有时候这并不困难. 一位朋友的朋友被引荐给我，我立刻就感觉到我与这位陌生人间存在某种联系...;;;;;;;;;;x
+EVTDESC100170;我试图以'我的朋友的朋友就是我的朋友'作为我的人生信条，有时候这并不困难. 一位朋友的朋友被引荐给我，我立刻就感觉到我与这位陌生人间存在某种联系……;;;;;;;;;;x
 EVTOPTA100170;……我希望我们能够成为朋友！;;;;;;;;;;x
 EVTTOOLTIP100171;[Root.GetTitledFirstName]希望[Root.GetSheHe]和[friends_friend.GetTitledFirstName]会成为朋友;;;;;;;;;;x
 EVTTOOLTIP100172;[Root.GetTitledFirstName]的朋友[my_friend.GetTitledFirstName]乐见[my_friend.GetHerHis]朋友相互之间成为朋友;;;;;;;;;;x
@@ -770,7 +770,7 @@ EVTTOOLTIP100175;[Root.GetTitledFirstName]和[This.GetTitledFirstName]从陌生�
 EVTOPTC100172;虽然[From.GetManWoman]是个好人，但我并不想与[From.GetHerHim]成为朋友;;;;;;;;;;x
 EVTTOOLTIPB100174;今天，[Root.GetTitledFirstName]和[This.GetTitledFirstName]间并没有产生友谊;;;;;;;;;;x
 EVTDESC100173;在我与[From.GetTitledFirstName]交谈后，我发现我们之间几乎毫无共通之处，而且[From.GetSheHe]是一个十分令人讨厌的[From.GetManWoman]，我再也不想与[From.GetTitledFirstName]一起做任何事！虽然我们的共同好友并不高兴，但能够理解我永远也不可能与[From.GetTitledFirstName]成为朋友。;;;;;;;;;;x
-EVTOPTA100173;再也不要引荐你的“好朋友”给我了！;;;;;;;;;;x
+EVTOPTA100173;再也不要引荐你的「好朋友」给我了！;;;;;;;;;;x
 EVTDESC100174;虽然我们间有些异议、有些争论，但一旦我们达成共识以后，我真的很享受与[From.GetTitledFirstName]间的谈话。我一定不能忘记感谢我的朋友把我引荐给[From.GetTitledFirstName]，我已经很久没有遇到一个这么有趣的[From.GetManWoman]！;;;;;;;;;;x
 EVTOPTA100174;朋友一生一齐走，[From.GetTitledFirstName]，你怎么说呢？;;;;;;;;;;x
 EVTOPTB100174;[From.GetTitledFirstName]并不认为我们可以成为朋友;;;;;;;;;;x
@@ -805,10 +805,10 @@ EVTDESC100184;完全正如我之前所担心的那样——[From.GetTitledFirstN
 EVTOPTA100184;[From.GetTitledFirstName]认为[From.GetSheHe]无法与异端交朋友;;;;;;;;;;x
 EVTDESC100185;我试过与[From.GetTitledFirstName]交流、讨论、争执以及其他一切手段！但无论我说什么、无论我做什么，都无法说服[From.GetTitledFirstName]放弃[From.GetHerHis]异端言行、皈依正统信仰[Root.Religion.GetName]信仰。我们间关于宗教的分歧无法调停，于是[From.GetTitledFirstName]决定我不再是[From.GetHerHis]朋友…;;;;;;;;;;x
 EVTOPTA100185;我接受，我们无法再成为朋友;;;;;;;;;;x
-EVTDESC100186;“[Root.Religion.GetName]和[From.Religion.GetName]的差异有这些那些……”\n我与[From.GetTitledFirstName]讨论[From.GetHerHis]信仰，并试图解释为何在现在这个时代做一位[From.Religion.GetName]信徒是一个不好的想法。;;;;;;;;;;x
+EVTDESC100186;「[Root.Religion.GetName]和[From.Religion.GetName]的差异有这些那些……」\n我与[From.GetTitledFirstName]讨论[From.GetHerHis]信仰，并试图解释为何在现在这个时代做一位[From.Religion.GetName]信徒是一个不好的想法。;;;;;;;;;;x
 EVTOPTA100186;[From.GetTitledFirstName]决定皈依[Root.Religion.GetName];;;;;;;;;;x
 EVTOPTB100186;[From.GetTitledFirstName]并不在意我的警告;;;;;;;;;;x
-EVTDESC100190;我有一件不希望[Root.GetChancellorName]过问的“小私事”需要帮助。有些人老是认为我缺乏外交能力，我也担心他们说的是确如其事。如今，我真的需要表现出外交手腕，否则那个勒索我的[Root.GetManWomanOpp]将会到处散播[Root.GetHerHisOpp]‘我没有能力处理这种小事’的谣言。;;;;;;;;;;x
+EVTDESC100190;我有一件不希望[Root.GetChancellorName]过问的「小私事」需要帮助。有些人老是认为我缺乏外交能力，我也担心他们说的是确如其事。如今，我真的需要表现出外交手腕，否则那个勒索我的[Root.GetManWomanOpp]将会到处散播[Root.GetHerHisOpp]‘我没有能力处理这种小事’的谣言。;;;;;;;;;;x
 EVTOPTA100190;我亲爱的朋友，你的外交能力备受认可，烦请您帮帮我吧？;;;;;;;;;;x
 EVTTOOLTIP100191;[Root.GetTitledFirstName]恳求[This.GetTitledFirstName]帮忙应对勒索敲诈者;;;;;;;;;;x
 EVTOPTB100190;没有人，哪怕是我的朋友，也不能够知道这件事！;;;;;;;;;;x
@@ -823,7 +823,7 @@ EVTDESC100192;[From.GetTitledFirstName]和我设法阻止那个疯狂的[Root.Ge
 EVTOPTA100192;我终于摆脱了那个疯子！;;;;;;;;;;x
 EVTDESC100193;如果没有[From.GetTitledFirstName]的帮助，我就无法阻止那么敲诈勒索者继续散播关于我的恶毒谣言。可现在所有人都认为我真的对那个疯狂的[Root.GetManWomanOpp]做了什么可怕的事情！为什么啊[Root.Religion.GetRandomGodName]，什么？！;;;;;;;;;;x
 EVTOPTA100193;我感觉非常羞耻，我不知道该怎么做才好……;;;;;;;;;;x
-EVTDESC100194;我小心翼翼地向[From.GetTitledFirstName]说明情况、不想让[From.GetHerHim]知道得太多，但对那个疯狂的[Root.GetManWomanOpp]散播恶毒谣言的恐惧让我相当地多嘴，所以我很可能已经对[From.GetTitledFirstName]说得太多了。 [From.GetTitledFirstName]答应帮助我这真是再好不过了，只是他想要得到报酬、以防万一会发生点什么……;;;;;;;;;;x
+EVTDESC100194;我小心翼翼地向[From.GetTitledFirstName]说明情况、不想让[From.GetHerHim]知道得太多，但对那个疯狂的[Root.GetManWomanOpp]散播恶毒谣言的恐惧让我相当地多嘴，所以我很可能已经对[From.GetTitledFirstName]说得太多了。[From.GetTitledFirstName]答应帮助我这真是再好不过了，只是他想要得到报酬、以防万一会发生点什么……;;;;;;;;;;x
 EVTOPTA100194;朋友之间互相帮助是不需要酬劳的！;;;;;;;;;;x
 EVTTOOLTIPA100195;试图让[Root.GetTitledFirstName]为[This.GetHerHis]帮助付钱;;;;;;;;;;x
 EVTOPTB100194;我将给予任何你想要的，只要你肯帮我！;;;;;;;;;;x
@@ -831,7 +831,7 @@ EVTTOOLTIPB100195;为[This.GetHerHis]帮助处理[Root.GetTitledFirstName]那疯
 EVTDESC100195;只要得到酬劳、我就会同意帮助[From.GetTitledFirstName]处理[From.GetHerHis]那疯狂勒索者的事情。在[From.GetTitledFirstName]答复我：我的帮助是否值回要求的报酬前，我早已想到了一个解决的计划。;;;;;;;;;;x
 EVTOPTA100195;没钱就休想得到我的帮助;;;;;;;;;;x
 EVTOPTB100195;我已经得到了要求的报酬，现在我们应该要这样做……;;;;;;;;;;x
-EVTDESC100200;我对刀刀剑剑的了解就只到了“当你想杀死某人，就把这件又长又尖的东西捅进他的身体里，尤其是在决斗中或者战场上”的程度，这正变成一件令人尴尬的事。如果有人能够告诉我任何有关这些刀刀剑剑的知识、并且教会我如何使用它们，那个人一定得是我最好的朋友之一、这样我才能信任他永不会嘲笑我缺乏能力。;;;;;;;;;;x
+EVTDESC100200;我对刀刀剑剑的了解就只到了「当你想杀死某人，就把这件又长又尖的东西捅进他的身体里，尤其是在决斗中或者战场上」的程度，这正变成一件令人尴尬的事。如果有人能够告诉我任何有关这些刀刀剑剑的知识、并且教会我如何使用它们，那个人一定得是我最好的朋友之一、这样我才能信任他永不会嘲笑我缺乏能力。;;;;;;;;;;x
 EVTOPTA100200;我真的应该请他帮忙;;;;;;;;;;x
 EVTOPTB100200;我应该能够自己解决……哎呦！我戳到了我的手！;;;;;;;;;;x
 EVTDESC100201;我看过[From.GetTitledFirstName]是怎样使剑的，那看起来可不是什么好看的景象。有一半的时间里[From.GetSheHe]都好像忘记了哪边是才是刀锋！看到[From.GetTitledFirstName]如此毫无剑技，我真不知道应该笑好还是哭好？现在[From.GetTitledFirstName]好像认为我能够将毕生所学传授给[From.GetHerHim]。;;;;;;;;;;x
@@ -865,12 +865,12 @@ EVTOPTB100211;没什么可做的了！赶紧在它们崩塌以前推倒他们;;;
 EVTTOOLTIP100213;为[Root.GetTitledFirstName]无法给予更好的建议而感到沮丧;;;;;;;;;;x
 EVTOPTC100211;重建它们的费用不是一笔小数目，我需要有人与我共同分担这笔费用;;;;;;;;;;x
 EVTTOOLTIP100214;考虑[Root.GetTitledFirstName]的提议;;;;;;;;;;x
-EVTDESC100212;“我们别无选择，只能够把它们推倒并使用那些还能够挽救的材料去建造新的有更好防御工事的建筑。这就是我的规划……”\n有了[From.GetTitledFirstName]的点子和我们计划挽救的材料，新的建筑物无疑会比旧的那些更加更加出色。;;;;;;;;;;x
+EVTDESC100212;「我们别无选择，只能够把它们推倒并使用那些还能够挽救的材料去建造新的有更好防御工事的建筑。这就是我的规划……」\n有了[From.GetTitledFirstName]的点子和我们计划挽救的材料，新的建筑物无疑会比旧的那些更加更加出色。;;;;;;;;;;x
 EVTOPTA100212;这计划真是完美！谢谢你，[From.GetTitledFirstName]！;;;;;;;;;;x
 friendly_innovations;朋友帮助的改革创新;;;;;;;;;;x
-EVTDESC100213;我一遍又一遍地谈及我认为什么类型的强化是能够从中获益的，但[From.GetTitledFirstName]却对我所有的想法表示怀疑。[From.GetSheHeCap]把那些建筑物称为“不可救药的”或者“所有人安全的威胁”。“把他们推倒重建些新的建筑”是[From.GetTitledFirstName]的建议。;;;;;;;;;;x
+EVTDESC100213;我一遍又一遍地谈及我认为什么类型的强化是能够从中获益的，但[From.GetTitledFirstName]却对我所有的想法表示怀疑。[From.GetSheHeCap]把那些建筑物称为「不可救药的」或者「所有人安全的威胁」。「把他们推倒重建些新的建筑」是[From.GetTitledFirstName]的建议。;;;;;;;;;;x
 EVTOPTA100213;可是……那将会耗资过大！;;;;;;;;;;x
-EVTDESC100214;“修复这些古老的建筑物将会将会耗资巨大，即便他们真的能够修好、我也无法保证它们能够挺过一场围攻。应该把他们推倒，尽你全力挽救更多的材料来建造新的建筑。这同样会耗点钱，如果你想得到我的帮助、那还需要更多一点钱。”\n[From.GetTitledFirstName]数落那些旧建筑和我打算强化它们的计划。;;;;;;;;;;x
+EVTDESC100214;「修复这些古老的建筑物将会将会耗资巨大，即便他们真的能够修好、我也无法保证它们能够挺过一场围攻。应该把他们推倒，尽你全力挽救更多的材料来建造新的建筑。这同样会耗点钱，如果你想得到我的帮助、那还需要更多一点钱。」\n[From.GetTitledFirstName]数落那些旧建筑和我打算强化它们的计划。;;;;;;;;;;x
 EVTOPTA100214;那么我就什么都做不了;;;;;;;;;;x
 EVTTOOLTIPA100215;[Root.GetTitledFirstName]否决[This.GetTitledFirstName]的建议;;;;;;;;;;x
 EVTOPTB100214;如果那是最好的办法，我将不得不照做;;;;;;;;;;x
@@ -891,7 +891,7 @@ EVTOPTC100221;给我点钱，我就立刻帮你弄明白！;;;;;;;;;;x
 EVTTOOLTIP100224;仔细考虑这是否值得;;;;;;;;;;x
 EVTDESC100222;[From.GetTitledFirstName]的确同意我说的食物尝起来怪异，但无法完全确定有人试图谋害我。我向[From.GetTitledFirstName]保证——与[From.GetSheHe]认为任何有嫌疑的人交谈并盘问他们，最后厨子坦白他曾炖过腐烂的肉并用很多香料掩盖其臭味，而这些香料如果不是被适度使用就会成了毒药……;;;;;;;;;;x
 EVTOPTA100222;这个厨子虽然不是故意想毒害我，但也差不多了;;;;;;;;;;x
-EVTDESC100223;“你在说什么？毒药？你一定是在开玩笑，这些炖肉尝试起来没什么问题。可能要多下点盐巴，但这肉一点问题都没有！” \n[From.GetTitledFirstName]否定了我的忧虑，让我感觉孤立无援而且为自己的生命忧心忡忡。;;;;;;;;;;x
+EVTDESC100223;「你在说什么？毒药？你一定是在开玩笑，这些炖肉尝试起来没什么问题。可能要多下点盐巴，但这肉一点问题都没有！」\n[From.GetTitledFirstName]否定了我的忧虑，让我感觉孤立无援而且为自己的生命忧心忡忡。;;;;;;;;;;x
 EVTOPTA100223;那个投毒者就在外面，想要杀掉我！;;;;;;;;;;x
 EVTDESC100224;为了完全确定那些食物是否有毒，[From.GetTitledFirstName]要求我要为一些昂贵的设备付钱。虽然那些食物尝起来很奇怪，但我并没有感觉自己跟以前有什么不同的。所以问题就在于，我是不是真的想要知道真相？这是否是必要的？;;;;;;;;;;x
 EVTOPTA100224;不，我不在乎。这些设备要价太高了！;;;;;;;;;;x
@@ -908,14 +908,14 @@ EVTDESC100230;[Root.Religion.GetName]神职人员经常因为宗教、[Root.Reli
 EVTOPTA100230;行行好吧，找个人来帮帮我，让那些神职人员消停一下吧！;;;;;;;;;;x
 EVTTOOLTIP100231;听到了[Root.GetTitledFirstName]的求救;;;;;;;;;;x
 EVTOPTB100230;噢，[Root.Religion.GetRandomGodName]，帮助我吧，我将变成一个更好的[Root.Religion.GetName]信徒！;;;;;;;;;;x
-EVTDESC100231;我觉得很奇怪的一点是，那些[From.Religion.GetName]神职人员还是经常纠缠[From.GetTitledFirstName],无论[From.GetSheHe]答应去做什么或者[From.GetSheHe]捐赠多少钱给[From.Religion.GetName]教会。;;;;;;;;;;x
+EVTDESC100231;我觉得很奇怪的一点是，那些[From.Religion.GetName]神职人员还是经常纠缠[From.GetTitledFirstName]，无论[From.GetSheHe]答应去做什么或者[From.GetSheHe]捐赠多少钱给[From.Religion.GetName]教会。;;;;;;;;;;x
 EVTOPTA100231;我知道[From.GetTitledFirstName]可以怎么做！;;;;;;;;;;x
 EVTTOOLTIP100232;为[Root.GetTitledFirstName]有解决[This.GetHerHis]问题的方法而感到释然;;;;;;;;;;x
 EVTOPTB100231;我不想做任何会令神职人员们不安的事情;;;;;;;;;;x
 EVTTOOLTIP100233;为那些[This.Religion.GetName]神职人员如此令[Root.GetTitledFirstName]恐惧而感到泄气;;;;;;;;;;x
 EVTOPTC100231;你想得到我的建议？这可需要你给点钱;;;;;;;;;;x
 EVTTOOLTIP100234;去听[Root.GetTitledFirstName]有什么要说的;;;;;;;;;;x
-EVTDESC100232;“那些[Root.Religion.GetName]神职人员所在意的只有钱，无论他们何时前来拜访就给他们些施舍，然后他们就会在几周内不再来纠缠你，因为不过月再拜访会被认为有罪：没有神职人员想要承认自己是贪婪的罪人。” '\n[From.GetTitledFirstName]给我明智的建议，我决定一试。;;;;;;;;;;x
+EVTDESC100232;「那些[Root.Religion.GetName]神职人员所在意的只有钱，无论他们何时前来拜访就给他们些施舍，然后他们就会在几周内不再来纠缠你，因为不过月再拜访会被认为有罪：没有神职人员想要承认自己是贪婪的罪人。」'\n[From.GetTitledFirstName]给我明智的建议，我决定一试。;;;;;;;;;;x
 EVTOPTA100232;所以这个计划所要需要的就只有钱？太好了！;;;;;;;;;;x
 EVTOPTB100232;并不是仅仅只有贪婪的神职人员纠缠我啊……;;;;;;;;;;x
 pious_priests;贪财的神职人员;;;;;;;;;;x
@@ -942,9 +942,9 @@ EVTOPTB100241;大家都应该试试禁欲主义！;;;;;;;;;;x
 EVTTOOLTIP100244;感激[Root.GetTitledFirstName]百忙之中抽空回答[This.GetHerHis]禁欲主义问题;;;;;;;;;;x
 EVTDESC100242;我觉得[From.GetTitledFirstName]在大庭广众之下批评别人的生活方式毫不得体，尤其那是一个朋友的生活方式。我是一个禁欲主义者、而且我为之自豪，我永不会指责任何人的生活方式，不管我对这问题是什么看法！;;;;;;;;;;x
 EVTOPTA100242;下一次，在把这事情闹得变成一个公众问题之前，麻烦先跟我谈谈！;;;;;;;;;;x
-EVTDESC100243;“我选择禁欲主义的生活方式，但这个决定并不容易。无论我跟你说说些什么，我不能代替你选择，说实话，我并不觉得禁欲主义适合你……”\n从[From.GetTitledFirstName]口中说出的逆耳之言让我不得不再三考虑是否真的要成为禁欲主义者。;;;;;;;;;;x
+EVTDESC100243;「我选择禁欲主义的生活方式，但这个决定并不容易。无论我跟你说说些什么，我不能代替你选择，说实话，我并不觉得禁欲主义适合你……」\n从[From.GetTitledFirstName]口中说出的逆耳之言让我不得不再三考虑是否真的要成为禁欲主义者。;;;;;;;;;;x
 EVTOPTA100243;你是对的，独身主义并不适合我;;;;;;;;;;x
-EVTDESC100244;“你一定要选择禁欲主义，如果你真是这么做了，在余生的每一天、你都将不得不与诱惑对抗。你将无法获得比你现在已知的更多欢愉，但却将得到比任何欢愉都要宝贵的回报。[Root.Religion.GetRandomGodName]的爱将会帮助你遵守你的承诺……”\n[From.GetTitledFirstName]对于禁欲主义的问题知无不言，这让我意识到这个决定的重要性。;;;;;;;;;;x
+EVTDESC100244;「你一定要选择禁欲主义，如果你真是这么做了，在余生的每一天、你都将不得不与诱惑对抗。你将无法获得比你现在已知的更多欢愉，但却将得到比任何欢愉都要宝贵的回报。[Root.Religion.GetRandomGodName]的爱将会帮助你遵守你的承诺……」\n[From.GetTitledFirstName]对于禁欲主义的问题知无不言，这让我意识到这个决定的重要性。;;;;;;;;;;x
 EVTOPTA100244;我要选择[Root.Religion.GetRandomGodName]的爱！;;;;;;;;;;x
 EVTTOOLTIP5062;正走向禁欲主义;;;;;;;;;;x
 EVTOPTB100243;我将不会随随便便做这个决定，只不过……现在还不是时候……;;;;;;;;;;x
@@ -994,7 +994,7 @@ EVTTOOLTIP100351;[Root.GetTitledFirstName]和[This.GetTitledFirstName]不再是�
 EVTOPTB100350;告诉我，我们还能够继续做朋友吗？;;;;;;;;;;x
 EVTTOOLTIP100352;[Root.GetTitledFirstName]能够与[This.GetTitledFirstName]继续做朋友，即便他们有这么多的差别？;;;;;;;;;;x
 EVTOPTC100350;不！你是我的朋友，这永远不会改变！;;;;;;;;;;x
-EVTDESC100351;我曾经与[From.GetTitledFirstName]是好朋友，但[From.GetSheHe]现在认为我们已经没有任何共同点、并且我们间的分歧已经太过巨大以至于无法跨越，这可真是伤透我心。\n“我不会再把你当成朋友了。” [From.GetTitledFirstName]这么对我说。;;;;;;;;;;x
+EVTDESC100351;我曾经与[From.GetTitledFirstName]是好朋友，但[From.GetSheHe]现在认为我们已经没有任何共同点、并且我们间的分歧已经太过巨大以至于无法跨越，这可真是伤透我心。\n「我不会再把你当成朋友了。」[From.GetTitledFirstName]这么对我说。;;;;;;;;;;x
 EVTOPTA100351;我会怀念你的……;;;;;;;;;;x
 EVTOPTB100351;如果你不想与我做朋友，那么我们只能成为仇敌！;;;;;;;;;;x
 EVTTOOLTIP100353;[Root.GetTitledFirstName]声明[This.GetTitledFirstName]与[Root.GetHerHis]不再是朋友;;;;;;;;;;x
@@ -1029,13 +1029,13 @@ EVTTOOLTIP100412;为你同意这场与[This.GetHerHis]仇敌间的决斗而感�
 EVTOPTB100411;否决这项要求，但不做其他事情;;;;;;;;;;x
 EVTTOOLTIP100413;结束你的否决，但非常沮丧;;;;;;;;;;x
 EVTOPTC100411;否决这项要求，并把煽动者驱逐出境;;;;;;;;;;x
-EVTDESC100412;“虽然我无法完全确定你想要与你的仇敌决斗的理由，你似乎清楚地感觉到自己必须要为你的荣誉而战。你得到我的同意。”\n[From.GetTitledFirstName]和蔼地接受我的请求。;;;;;;;;;;x
+EVTDESC100412;「虽然我无法完全确定你想要与你的仇敌决斗的理由，你似乎清楚地感觉到自己必须要为你的荣誉而战。你得到我的同意。」\n[From.GetTitledFirstName]和蔼地接受我的请求。;;;;;;;;;;x
 EVTOPTA100412;太糟糕了，我只被允许打伤我的仇敌;;;;;;;;;;x
 EVTTOOLTIP100415;被[Root.GetTitledFirstName]在决斗中所伤;;;;;;;;;;x
 EVTOPTB100412;我已经冷静下来了，并且意识到这场决斗非常不必要;;;;;;;;;;x
-EVTDESC100413;“带着我的祝福，我已经决定否决你与仇敌间的决斗。虽然你感觉到自己的荣誉受到损害，但我不可能允许你与你的仇敌在血泊中决斗……”\n[From.GetTitledFirstName]不管我名誉受损，并禁止我与仇敌决斗！;;;;;;;;;;x
+EVTDESC100413;「带着我的祝福，我已经决定否决你与仇敌间的决斗。虽然你感觉到自己的荣誉受到损害，但我不可能允许你与你的仇敌在血泊中决斗……」\n[From.GetTitledFirstName]不管我名誉受损，并禁止我与仇敌决斗！;;;;;;;;;;x
 EVTOPTA100413;可是……难道我就这样接受侮辱吗？;;;;;;;;;;x
-EVTDESC100414;“我已经决斗否决你要与仇敌决斗的请求，并且把你驱逐出境。我不能允许封臣像你一样试图与任何侮辱自己的人决斗——造成的骚乱将会耗费大量时间解决、并且在我的国土内造成严重破坏！”\n[From.GetTitledFirstName]仅仅为了一个简单的决斗请求而驱逐我？！;;;;;;;;;;x
+EVTDESC100414;「我已经决斗否决你要与仇敌决斗的请求，并且把你驱逐出境。我不能允许封臣像你一样试图与任何侮辱自己的人决斗——造成的骚乱将会耗费大量时间解决、并且在我的国土内造成严重破坏！」\n[From.GetTitledFirstName]仅仅为了一个简单的决斗请求而驱逐我？！;;;;;;;;;;x
 EVTOPTA100414;这不可能啊！;;;;;;;;;;x
 EVTDESC100415;[From.GetTitledFirstName]请求[From.GetHerHis]领主[From.Liege.GetTitledFirstName]给予与我决斗的许可。我当然接受，不然还能怎么做？;;;;;;;;;;x
 EVTOPTA100415;那个禽兽打算伤了我！;;;;;;;;;;x
@@ -1050,7 +1050,7 @@ EVTTOOLTIP100422;[Root.GetTitledFirstName]质问[Root.GetHerHis]仇敌[This.GetT
 EVTOPTC100420;每个人都应该知道他是一个怎样的骗子！;;;;;;;;;;x
 EVTTOOLTIP100423;不喜欢你的诋毁;;;;;;;;;;x
 EVTOPTD100420;我将守口如瓶、不跟别人说;;;;;;;;;;x
-EVTDESC100421;“我的领主，我有证据证明其中一位骑士比武大会的参赛者作弊了！” \n[From.GetTitledFirstName]和作弊嫌疑者之间的仇敌关系可是众人皆知，但我无法想象[From.GetTitledFirstName]会在如此严重的问题上撒谎！;;;;;;;;;;x
+EVTDESC100421;「我的领主，我有证据证明其中一位骑士比武大会的参赛者作弊了！」\n[From.GetTitledFirstName]和作弊嫌疑者之间的仇敌关系可是众人皆知，但我无法想象[From.GetTitledFirstName]会在如此严重的问题上撒谎！;;;;;;;;;;x
 EVTOPTA100421;囚禁骗子;;;;;;;;;;x
 EVTTOOLTIP100424;因为在骑士比武大会中作弊而被囚禁;;;;;;;;;;x
 EVTOPTB100421;驱逐骗子;;;;;;;;;;x
@@ -1058,14 +1058,14 @@ EVTTOOLTIP100425;因为在骑士比武大会中作弊而被驱逐;;;;;;;;;;x
 EVTOPTC100421;[From.GetTitledFirstName]，我需要比你的言语更充分的证据！;;;;;;;;;;x
 EVTDESC100422;骑士比武会本来进行得非常顺利——[From.GetTitledFirstName]在我们共同参加的马上枪术比赛竞技场上无法容忍[From.GetHerHis]失败——[From.GetSheHe]却指责我作弊并且提出一种可笑的理论以证明我作弊！;;;;;;;;;;x
 EVTOPTA100422;我赢得的每场比赛都是光明正大的！;;;;;;;;;;x
-EVTOPTB100422;你的“证据”毫无名誉科研，我要与你决斗！;;;;;;;;;;x
+EVTOPTB100422;你的「证据」毫无名誉科研，我要与你决斗！;;;;;;;;;;x
 EVTTOOLTIP100427;被要求决斗挑战;;;;;;;;;;x
 EVTDESC100423;在[From.Liege.GetTitledFirstName]举办的骑士比武大会上的每个人都听到了[From.GetTitledFirstName]指责我在比赛中作弊。我不认为有人会相信[From.GetTitledFirstName]的胡乱指控，但那些看起来怀疑的面孔和窃窃私语却似乎在告诉我其他情况……;;;;;;;;;;x
 EVTOPTA100423;金子能够把制止这些流言！;;;;;;;;;;x
 EVTOPTB100423;为什么我要在乎他们的想法？;;;;;;;;;;x
 EVTDESC100424;[FromFrom.GetTitledFirstName]指责我在骑士比武大会上作弊了，而且[From.GetTitledFirstName]相信[FromFrom.GetHerHim]的话。我因为仇敌[FromFrom.GetTitledFirstName]无正当理由的指责而被投进大牢里！;;;;;;;;;;x
 EVTOPTA100424;[FromFrom.GetTitledFirstName]，我将为此杀了你！;;;;;;;;;;x
-EVTDESC100425;[FromFrom.GetTitledFirstName] 错误地指控我在比赛中作弊 是完全莫须有的 但是 [From.GetTitledFirstName] 相信那个蠢货告诉 [From.GetHerHim] 每一个字. 尽管我大声抗议并要求举办一场公平的审判 ，到那时 [FromFrom.GetTitledFirstName] 可以呈上 [FromFrom.GetHerHis] 所谓的 '证据' . 然而 [From.GetTitledFirstName] 还是选择了放逐我!;;;;;;;;;;x
+EVTDESC100425;[FromFrom.GetTitledFirstName]错误地指控我在比赛中作弊 是完全莫须有的 但是 [From.GetTitledFirstName]相信那个蠢货告诉 [From.GetHerHim] 每一个字. 尽管我大声抗议并要求举办一场公平的审判 ，到那时 [FromFrom.GetTitledFirstName]可以呈上 [FromFrom.GetHerHis] 所谓的 '证据' . 然而 [From.GetTitledFirstName]还是选择了放逐我!;;;;;;;;;;x
 EVTOPTA100425;当我回来了，[FromFrom.GetTitledFirstName]将不会再有任何安宁！;;;;;;;;;;x
 EVTDESC100426;在我告诉[From.GetTitledFirstName]、我的仇敌在骑士比武大会上作弊以后，我满怀渴望之情等待[From.GetHerHis]回应……;;;;;;;;;;x
 EVTOPTA100426;[From.GetTitledFirstName]决定什么都不做！;;;;;;;;;;x
@@ -1087,7 +1087,7 @@ EVTOPTA100440;[Root.Religion.GetRandomGodName]肯定需要坚定的捍卫者与�
 EVTTOOLTIP100441;[Root.GetTitledFirstName]向[Root.RelHead.GetTitledFirstName]寻求[Root.GetHerHis]帮助以对抗像[Root.GetHerHis]仇敌那样的异端;;;;;;;;;;x
 EVTOPTB100440;我对他的怨恨是完全与宗教无关的世俗之事;;;;;;;;;;x
 EVTOPTC100440;在他的看法中也可能存在某些真实的东西;;;;;;;;;;x
-EVTDESC100441;“心怀着悲痛之情，我必须向您报告：一个犯错的人选择变成一名异端信徒。我相信圣父阁下将希望看到没有其他人被这种异端所诱惑。”\n[From.GetTitledFirstName]向我们警告一个人走向了堕落之道。;;;;;;;;;;x
+EVTDESC100441;「心怀着悲痛之情，我必须向您报告：一个犯错的人选择变成一名异端信徒。我相信圣父阁下将希望看到没有其他人被这种异端所诱惑。」\n[From.GetTitledFirstName]向我们警告一个人走向了堕落之道。;;;;;;;;;;x
 EVTOPTA100441;对这个可怜的灵魂，我们除了绝罚已经没有什么可以做的了;;;;;;;;;;x
 EVTTOOLTIP100443;收到一封来信告知[This.GetTitledFirstName]：[From.GetSheHe]已经被[Root.GetTitledFirstName]绝罚;;;;;;;;;;x
 EVTTOOLTIP100444;收到一封来信：[Root.GetTitledFirstName]保证会收拾你们这群异端信众;;;;;;;;;;x
@@ -1110,10 +1110,10 @@ EVTOTPA100451;我毫不知情！;;;;;;;;;;x
 EVTTOOLTIP100453;[Root.Liege.GetTitledFirstName]避开[Root.Liege.GetHerHis]旧友[This.GetTitledFirstName];;;;;;;;;;x
 EVTOTPB100451;我不相信你！你只是嫉妒罢了……;;;;;;;;;;x
 EVTTOOLTIP100452;[Root.GetTitledFirstName]无视令人担忧的信息;;;;;;;;;;x
-EVTDESC100452;我告诉[From.GetTitledFirstName]越多我曾亲眼目睹仇敌干过的恶劣行径以及其他背信弃义和卑鄙的事情，[From.GetTitledFirstName]就越是沉默和不安. 我担心自己做得太过火了，以致于我的领主将不会相信我...;;;;;;;;;;x
+EVTDESC100452;我告诉[From.GetTitledFirstName]越多我曾亲眼目睹仇敌干过的恶劣行径以及其他背信弃义和卑鄙的事情，[From.GetTitledFirstName]就越是沉默和不安. 我担心自己做得太过火了，以致于我的领主将不会相信我……;;;;;;;;;;x
 EVTOPTA100452;[From.GetTitledFirstName]相信我说的每字每句！;;;;;;;;;;x
 EVTOPTB100452;[From.GetTitledFirstName]称呼我为骗子！;;;;;;;;;;x
-EVTDESC100453;“[From.GetTitledFirstName]告诉我[From.GetSheHe]曾用[From.GetHerHis]的双眼目睹你干过的恶劣行径以及其他背信弃义和卑鄙的事情！我曾认为我们是朋友，但现在我终于知道你是个怎样的人了……”\n我无法说服[FromFrom.GetTitledFirstName]去相信我而不是相信[From.GetTitledFirstName]的谎言。;;;;;;;;;;x
+EVTDESC100453;「[From.GetTitledFirstName]告诉我[From.GetSheHe]曾用[From.GetHerHis]的双眼目睹你干过的恶劣行径以及其他背信弃义和卑鄙的事情！我曾认为我们是朋友，但现在我终于知道你是个怎样的人了……」\n我无法说服[FromFrom.GetTitledFirstName]去相信我而不是相信[From.GetTitledFirstName]的谎言。;;;;;;;;;;x
 EVTOPTA100453;我诅咒你，[From.GetTitledFirstName]！;;;;;;;;;;x
 EVTDESC100460;「你知道吗，我听说你的仇敌正迷恋一个[Root.GetManWoman]！」\n我听到流言说我的仇敌是个鸡奸者，那一刻我简直惊了！;;;;;;;;;;x
 EVTOTPA100460;最后，我总算找到些可以用来中伤我仇敌名誉的事情了！;;;;;;;;;;x
@@ -1132,7 +1132,7 @@ EVTDESC100471;[From.GetTitledFirstName]和我已经做了很长时间仇敌了�
 EVTOPTA100471;总算！;;;;;;;;;;x
 EVTOPTB100471;是不是[From.GetTitle]，我们之前的对立关系依然强烈！;;;;;;;;;;x
 EVTTOOLTIP100472;[Root.GetTitledFirstName]拒绝让[Root.GetHerHim]和[This.GetTitledFirstName]间的对立关系释然;;;;;;;;;;x
-EVTDESC100472;我很乐意去终结我们之间的对立关系，并把过往的种种小事、仇敌之间互相损害对方名誉的事情统统埋葬在属于它们的地方，但[From.GetTitledFirstName]并不像我一样大度。\n“[Root.GetTitle] 抑或[From.GetTitle]，我们间的对立将一直持续下去、直到永远！”;;;;;;;;;;x
+EVTDESC100472;我很乐意去终结我们之间的对立关系，并把过往的种种小事、仇敌之间互相损害对方名誉的事情统统埋葬在属于它们的地方，但[From.GetTitledFirstName]并不像我一样大度。\n「[Root.GetTitle] 抑或[From.GetTitle]，我们间的对立将一直持续下去、直到永远！」;;;;;;;;;;x
 EVTOPTA100472;天啊……;;;;;;;;;;x
 EVTDESC100480;我与我的领主[Root.Liege.GetTitledFirstName]之间的对立关系让我履行封建义务变得异常纠结。认识到我的辛勤努力只是在确保我的仇敌过上更安全、更好的生活没完没了地困扰着我！;;;;;;;;;;x
 EVTOPTA100480;[Root.Liege.GetTitledFirstName]永远是我的仇敌，直到死亡把我们分开！;;;;;;;;;;x
@@ -1140,7 +1140,7 @@ EVTOPTB100480;我应该试着接受这一切;;;;;;;;;;x
 EVTOPTC100480;为了秩序，我们应该要和好;;;;;;;;;;x
 opinion_stubborn_rival;顽固的仇敌;;;;;;;;;;x
 opinion_respects_liege;尊重领主;;;;;;;;;;x
-EVTDESC100481;我的领主，我担忧我们之间的对立关系将会让我履行封建义务变得异常困难. 认识到我的辛勤努力只是在确保我的仇敌过上更安全、更好的生活没完没了地让我倍感压力，我希望能够去掉这种压力感，我希望我们能够终结我们之间的对立和差别，好让我尽我所能地为您效劳.\n您忠诚的仆人,\n[From.GetTitledFirstName];;;;;;;;;;x
+EVTDESC100481;我的领主，我担忧我们之间的对立关系将会让我履行封建义务变得异常困难. 认识到我的辛勤努力只是在确保我的仇敌过上更安全、更好的生活没完没了地让我倍感压力，我希望能够去掉这种压力感，我希望我们能够终结我们之间的对立和差别，好让我尽我所能地为您效劳.\n您忠诚的仆人，\n[From.GetTitledFirstName];;;;;;;;;;x
 EVTOPTA100481;好的，这再好不过了……;;;;;;;;;;x
 EVTDESC100490;我凶残的仇敌正准备一场针对我的领主[Root.Liege.GetTitledFirstName]的叛乱！;;;;;;;;;;x
 EVTOPTA100490;我将不会让我的仇敌介入到我的事业中;;;;;;;;;;x
@@ -1161,13 +1161,13 @@ EVTTOOLTIP100502;[Root.GetTitledFirstName]结束[Root.GetHerHis]和[This.GetTitl
 EVTOPTB100501;[Root.Religion.GetRandomGodNameCap]会宽恕我们的敌对关系！;;;;;;;;;;x
 EVTTOOLTIP100503;[Root.GetTitledFirstName]拒绝接受[This.GetTitledFirstName]关于结束敌对关系的提议;;;;;;;;;;x
 opinion_continued_rivalry;继续敌对;;;;;;;;;;x
-EVTDESC100502;“为了[Root.Religion.GetRandomGodName]的爱，我接受！让我们不再斗争或者争吵，让我们遵循[Root.Religion.GetRandomGodName]要爱你的仇敌的教导！”\n[From.GetTitledFirstName]统一结束我们间那琐碎的敌对关系！;;;;;;;;;;x
+EVTDESC100502;「为了[Root.Religion.GetRandomGodName]的爱，我接受！让我们不再斗争或者争吵，让我们遵循[Root.Religion.GetRandomGodName]要爱你的仇敌的教导！」\n[From.GetTitledFirstName]统一结束我们间那琐碎的敌对关系！;;;;;;;;;;x
 EVTOPTA100502;这是个欢乐的日子！;;;;;;;;;;x
-EVTDESC100503;“[Root.Religion.GetRandomGodName]会对我们间的敌对关系做些什么？难道我们成为仇敌之时，[Root.Religion.GetRandomGodName]也在场？不！我看不出我们的[Root.Religion.GetName]有任何理由让我们成为朋友。”\n[From.GetTitledFirstName]并不愿放下我们间的敌对关系。;;;;;;;;;;x
+EVTDESC100503;「[Root.Religion.GetRandomGodName]会对我们间的敌对关系做些什么？难道我们成为仇敌之时，[Root.Religion.GetRandomGodName]也在场？不！我看不出我们的[Root.Religion.GetName]有任何理由让我们成为朋友。」\n[From.GetTitledFirstName]并不愿放下我们间的敌对关系。;;;;;;;;;;x
 EVTOPTA100503;我以为我们的共同信仰会让我们成为朋友……;;;;;;;;;;x
 EVTOPTB6502;踢飞那只小猫;;;;;;;;;;x
 opinion_killed_father;杀父仇人;;;;;;;;;;x
-EVTDESC100510;这真是一个完美的机会 — 我的领主[Root.Liege.GetTitledFirstName]邀请我和我的仇敌一起去[Root.Liege.Location.GetName]的森林参加[Root.Liege.GetHerHis]狩猎. 一个小小的失误就能造成破坏性的后果，一支误射的箭就有可能穿透我的仇敌的心脏...;;;;;;;;;;x
+EVTDESC100510;这真是一个完美的机会 — 我的领主[Root.Liege.GetTitledFirstName]邀请我和我的仇敌一起去[Root.Liege.Location.GetName]的森林参加[Root.Liege.GetHerHis]狩猎. 一个小小的失误就能造成破坏性的后果，一支误射的箭就有可能穿透我的仇敌的心脏……;;;;;;;;;;x
 EVTOPTA100510;机不可失！;;;;;;;;;;x
 EVTOPTB100510;农民，听我的命令射击！;;;;;;;;;;x
 EVTTOOLTIP100511;[Root.GetTitledFirstName]贿赂[This.GetTitledFirstName]去用箭射杀[Root.GetHerHis]仇敌;;;;;;;;;;x
@@ -1185,7 +1185,7 @@ EVTOPTC100512;箭矢没有击中[From.GetTitledFirstName]！;;;;;;;;;;x
 EVTDESC100513;那箭真的射中了[From.GetTitledFirstName]的心脏，我敢肯定[From.GetSheHe]在掉下马之前[From.GetSheHe]就已经死了。没有人想要指证是谁的箭射中了[From.GetTitledFirstName]，所以[From.GetTitledFirstName]的死仅仅只是一场令人悲伤的狩猎事故。;;;;;;;;;;x
 EVTOPTA100513;完美一击！;;;;;;;;;;x
 EVTTOOLTIP100514;[This.GetTitledFirstName]发誓会找杀害[This.GetHerHis]父亲[This.Father.GetTitledFirstName]的凶手[Root.GetTitledFirstName]报仇;;;;;;;;;;x
-EVTDESC100514;导致我的父亲[Root.Father.GetTitledFirstName]死亡的“狩猎事故”一定不是一场简单的事故。一定是[From.GetTitledFirstName]——我父亲的仇敌——朝我父亲的心脏射出了那支箭！;;;;;;;;;;x
+EVTDESC100514;导致我的父亲[Root.Father.GetTitledFirstName]死亡的「狩猎事故」一定不是一场简单的事故。一定是[From.GetTitledFirstName]——我父亲的仇敌——朝我父亲的心脏射出了那支箭！;;;;;;;;;;x
 EVTOPTA100514;总有一天，我将会为此复仇！;;;;;;;;;;x
 the_content;安于现状者;;;;;;;;;;x
 the_failed_poisoner;投毒未遂者;;;;;;;;;;x
@@ -1223,8 +1223,8 @@ EVTOTPB100527;因为毒害宾客，[From.GetTitledFirstName]把我驱逐出境;;
 EVTDESC72038;我听说[From.GetTitledFirstName]挑战我的其中一位宾客进行决斗，但在我有机会出面干涉时，那两个决斗者早已走到外面……;;;;;;;;;;x
 EVTOPTA72038;我要试着在为时已晚之前赶上他们……;;;;;;;;;;x
 opinion_revoked_lord_spiritual_title;撤换宫廷牧师;;;;;;;;;;x
-action_inquisition_desc;将你的 [GetLordSpiritualName] 派到那群迷失的羔羊所在的省份，转化异端和异教徒.;;;;;;;;;;x
-action_advance_cul_tech_desc;将你的 [GetLordSpiritualName] 派到一个省份工作以发展文化科技.;;;;;;;;;;x
+action_inquisition_desc;将你的 [GetLordSpiritualName]派到那群迷失的羔羊所在的省份，转化异端和异教徒.;;;;;;;;;;x
+action_advance_cul_tech_desc;将你的 [GetLordSpiritualName]派到一个省份工作以发展文化科技.;;;;;;;;;;x
 action_improve_rel_relations_desc;让你的[GetLordSpiritualName]带领一个修士代表团去与当地的神职人员（尤其对宗教领袖有用）进行宗教辩论。;;;;;;;;;;x
 job_spiritual;宫廷牧师;;;;;;;;;;x
 mastermind_theologian_desc;神学大师被认为是最顶尖的宗教方面的学者之一。;;;;;;;;;;x
@@ -1236,7 +1236,7 @@ entertaining_entertainment;有趣的娱乐节目;;;;;;;;;;x
 fabulous_feast;绝妙的宴会;;;;;;;;;;x
 poor_revenge_seeker;可怜的复仇者;;;;;;;;;;x
 hot_revenge;冷血的复仇者;;;;;;;;;;x
-EVTDESC100530;是时候要复仇了！我已经筹划了如此众多的“美妙的”恶毒点子，但我必须要让计划保持简单以确保一切都在计划之内。;;;;;;;;;;x
+EVTDESC100530;是时候要复仇了！我已经筹划了如此众多的「美妙的」恶毒点子，但我必须要让计划保持简单以确保一切都在计划之内。;;;;;;;;;;x
 EVTOPTA100530;我应该要诋毁我仇敌的好名声！;;;;;;;;;;x
 EVTTOOLTIP100531;[Root.GetTitledFirstName]抹黑[Root.GetHerHis]仇敌[This.GetTitledFirstName]的名声;;;;;;;;;;x
 EVTTOOLTIP100532;没有人相信[This.GetTitledFirstName];;;;;;;;;;x
@@ -1294,12 +1294,12 @@ EVTOPTA100545;死了？太好了，这就是我想要的结果……;;;;;;;;;;x
 EVTOPTB100545;[From.GetTitledFirstName]逃了？！这是怎么做到的？！;;;;;;;;;;x
 EVTOPTC100545;只是打伤了？但我可是想要[From.GetTitledFirstName]死啊！;;;;;;;;;;x
 EVTOPTD100545;残废了？好吧，这就够了……;;;;;;;;;;x
-EVTDESC100546;“打伤、如果你觉得需要甚至可以打残[From.GetTitledFirstName]，但不能杀害[From.GetHerHim]！我希望看到[From.GetTitledFirstName]要活着受苦……”\n那群打手得到了我的清晰指示，他们知道应该要对[From.GetTitledFirstName]干什么，希望他们将确切记得我是为什么要雇佣他们的……;;;;;;;;;;x
+EVTDESC100546;「打伤、如果你觉得需要甚至可以打残[From.GetTitledFirstName]，但不能杀害[From.GetHerHim]！我希望看到[From.GetTitledFirstName]要活着受苦……」\n那群打手得到了我的清晰指示，他们知道应该要对[From.GetTitledFirstName]干什么，希望他们将确切记得我是为什么要雇佣他们的……;;;;;;;;;;x
 EVTOPTA100546;我说了，我想要[From.GetTitledFirstName]受伤、最多也就残废，而不是死亡！;;;;;;;;;;x
 EVTOPTB100546;你们甚至无法杀到[From.GetTitledFirstName]？！没用的家伙！;;;;;;;;;;x
 EVTOPTC100546;干得好！[From.GetTitledFirstName]将会从[From.GetHerHis]创伤中吃到足够的苦……;;;;;;;;;;x
 EVTOPTD100546;[From.GetTitledFirstName]断了一条腿？简直完美！;;;;;;;;;;x
-EVTDESC100547;人们总是朝[From.GetTitledFirstName]扔腐烂的水果，并且追着[From.GetHerHim]喊道“凶手！禽兽！恶魔！无论[From.GetSheHe]往哪里逃。我散播的流言和真相到了那些爱说闲话的人耳朵里，很快，整个国家都将知道[From.GetTitledFirstName]的罪行！;;;;;;;;;;x
+EVTDESC100547;人们总是朝[From.GetTitledFirstName]扔腐烂的水果，并且追着[From.GetHerHim]喊道「凶手！禽兽！恶魔！无论[From.GetSheHe]往哪里逃。我散播的流言和真相到了那些爱说闲话的人耳朵里，很快，整个国家都将知道[From.GetTitledFirstName]的罪行！;;;;;;;;;;x
 EVTOPTA100547;真是一个美妙的复仇！;;;;;;;;;;x
 EVTOPTB100547;甚至连[From.GetTitledFirstName]也不知道是我散播的流言，我得抑制抑制情绪！;;;;;;;;;;x
 UNREADY;未准备好;;;;;;;;;;x

@@ -20,8 +20,8 @@ ASK_TO_EMBARGO_INTERACTION_0;选择一个敌对的商业共和国以对其下达
 ASK_TO_EMBARGO_INTERACTION_1;让§Y[Recipient.GetTitledFirstName]§!一起和你宣布禁运战争，目标：§Y[ThirdPartyCharacter.GetTitledFirstName]§!和§Y[ThirdPartyCharacter.TopLiege.PrimaryTitle.GetName]§!。给他们 §Y$GOLD$§!¤来促进达成交易。§R输掉战争将要支付战败赔款§!;;;;;;;;;;x
 ASK_TO_EMBARGO_INTERACTION_ACCEPT_SETUP;封港令请求已获通过;;;;;;;;;;x
 ASK_TO_EMBARGO_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetTitledName]§! 和 §Y[Actor.GetTitledName]§! 已宣布对§Y[ThirdPartyCharacter.GetDynName]§!联合发动禁运战争;;;;;;;;;;x
-ASK_TO_EMBARGO_INTERACTION_OFFER;[Actor.GetTitledName] 给我们 $COST$¤，希望能够对 [ThirdPartyCharacter.GetTitledFirstName] 和[ThirdPartyCharacter.TopLiege.PrimaryTitle.GetName]下达贸易禁运。;;;;;;;;;;x
-ASK_TO_EMBARGO_INTERACTION_LETTER;狡猾的[ThirdPartyCharacter.PrimaryTitle.GetAdjective]商贩必须从你的土地驱逐出去。如果你同意对 [ThirdPartyCharacter.GetTitledName] 发动贸易禁运，我们不仅会在战争中加入你方，你也会获得$COST$¤。如果我们的战争失败了，[Actor.PrimaryTitle.GetName]将会承担全部战争赔款。;;;;;;;;;;x
+ASK_TO_EMBARGO_INTERACTION_OFFER;[Actor.GetTitledName]给我们 $COST$¤，希望能够对 [ThirdPartyCharacter.GetTitledFirstName]和[ThirdPartyCharacter.TopLiege.PrimaryTitle.GetName]下达贸易禁运。;;;;;;;;;;x
+ASK_TO_EMBARGO_INTERACTION_LETTER;狡猾的[ThirdPartyCharacter.PrimaryTitle.GetAdjective]商贩必须从你的土地驱逐出去。如果你同意对 [ThirdPartyCharacter.GetTitledName]发动贸易禁运，我们不仅会在战争中加入你方，你也会获得$COST$¤。如果我们的战争失败了，[Actor.PrimaryTitle.GetName]将会承担全部战争赔款。;;;;;;;;;;x
 INTERACTION_REQUIRES_TARGET_IS_MERCHANT_REPUBLIC;§Y[ThirdPartyCharacter.PrimaryTitle.GetName]§!是一个商业共和国。;;;;;;;;;;x
 ANY_ATTACKER_STARTS;任何进攻方;;;;;;;;;;x
 ANY_DEFENDER_STARTS;任何防守方;;;;;;;;;;x
@@ -42,7 +42,7 @@ EVTOPTA_REP_601;所言甚是！纠众行暴！;;;;;;;;;;x
 EVTOPTB_REP_601;不！局面会演变到难以控制……;;;;;;;;;;x
 tp_spare;你不打算对该贸易节点采取行动。;;;;;;;;;;x
 EVTTOOLTIP_REP_602;激愤的民众向贸易节点行进。;;;;;;;;;;x
-EVTDESC_REP_602;确切地说，你和 [From.GetTitledName] 现在关系还不是很要好。而且，现在[From.GetSheHe]似乎已鼓动一伙暴民将你在[FromFrom.GetName]的贸易节点夷为平地!你人数极少的卫戍部队已被他们包围。他们还威胁到，除非你撤出[FromFrom.GetName]，否则他们将会把你的部队屠杀殆尽。;;;;;;;;;;x
+EVTDESC_REP_602;确切地说，你和 [From.GetTitledName]现在关系还不是很要好。而且，现在[From.GetSheHe]似乎已鼓动一伙暴民将你在[FromFrom.GetName]的贸易节点夷为平地!你人数极少的卫戍部队已被他们包围。他们还威胁到，除非你撤出[FromFrom.GetName]，否则他们将会把你的部队屠杀殆尽。;;;;;;;;;;x
 EVTOPTA_REP_602;我们已山穷水尽。拆除贸易节点吧！;;;;;;;;;;x
 EVTOPTB_REP_602;向[From.GetFirstName]行贿。;;;;;;;;;;x
 EVTOPTC_REP_602;指出贸易节点带给[FromFrom.GetName]的财富。;;;;;;;;;;x
@@ -54,9 +54,9 @@ EVTDESC_REP_604;[FromFrom.GetTitledName]使节以大笔金额贿赂你，希望�
 EVTOPTA_REP_604;好吧！驱散这些民众吧！;;;;;;;;;;x
 EVTOPTB_REP_604;哈哈！那白痴不仅会损失一笔钱财，也会失去他的贸易节点！;;;;;;;;;;x
 EVTTOOLTIP_REP_605;暴民散去。;;;;;;;;;;x
-EVTDESC_REP_605;[From.GetTitledName] 非常善于经营。有赖于此，[From.GetSheHe]想方设法地安抚那些暴民， 告诉他们财富会从贸易节点流入该省份。这动摇了他们，人群散开了，贸易节点也安全无虞。;;;;;;;;;;x
-EVTOPTA_REP_605;唉！成事不足......;;;;;;;;;;x
-EVTDESC_REP_606;[From.GetTitledName] 运用高超的外交手段想方设法让那些暴民做出了让步！人群散开，贸易节点也未遭受任何破坏！;;;;;;;;;;x
+EVTDESC_REP_605;[From.GetTitledName]非常善于经营。有赖于此，[From.GetSheHe]想方设法地安抚那些暴民， 告诉他们财富会从贸易节点流入该省份。这动摇了他们，人群散开了，贸易节点也安全无虞。;;;;;;;;;;x
+EVTOPTA_REP_605;唉！成事不足……;;;;;;;;;;x
+EVTDESC_REP_606;[From.GetTitledName]运用高超的外交手段想方设法让那些暴民做出了让步！人群散开，贸易节点也未遭受任何破坏！;;;;;;;;;;x
 EVTTOOLTIP_REP_607;贸易节点被摧毁了。;;;;;;;;;;x
 EVTDESC_REP_607;[From.GetTitledFirstName][From.GetSheHe]这个衣冠禽兽，[From.GetHerHim]收了你给的贿赂，却没放过你的贸易节点。暴民们以风卷残云之势歼灭了卫戍部队。几个幸存者逃回[Root.MercRepCapital.GetName]痛斥他们的暴行。;;;;;;;;;;x
 EVTOPTA_REP_607;蛮族！人渣！原始人！;;;;;;;;;;x
