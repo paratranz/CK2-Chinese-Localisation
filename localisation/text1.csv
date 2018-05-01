@@ -587,7 +587,7 @@ COMBATVIEW_PHASE_DESC_SKIRMISH;在射击阶段两军将保持距离\n§Y弓箭�
 COMBATVIEW_PHASE_DESC_MELEE;在肉搏阶段两军面对面厮杀\n§Y重步兵§W，§Y长枪兵§W和§Y骑士§W擅长§Y肉搏阶段§W;;;;;;;;;;x
 COMBATVIEW_PHASE_DESC_PURSUE;在追击阶段败军溃散，胜者追亡逐北\n§Y骑士§!，§Y轻骑兵§!和§Y弓骑兵§!擅长§Y追击阶段§!;;;;;;;;;;x
 COMBATVIEW_TROOP_DEFENCE;(本阶段的平均防御力：§Y$DEF$§W);;;;;;;;;;x
-COMBATVIEW_AVERAGE_MORALE;平均士气： §Y$MORALE$§W（每周§Y+$DELTA$§W ）;;;;;;;;;;x
+COMBATVIEW_AVERAGE_MORALE;平均士气： §Y$MORALE$§W（每周 §Y+$DELTA$§W ）;;;;;;;;;;x
 ENDGAME_DYNA1;一些随机的家族;;;;;;;;;;x
 ENDGAME_STARTOFGAME;游戏开始;;;;;;;;;;x
 ENDGAME_TEXT_DEATH;历经$NUMCHARS$代统治者后，你的家族于无后的$ENDCHAR$处终结。;;;;;;;;;;x
@@ -4760,7 +4760,7 @@ HINT_COMBAT_VIEW_TEXT_3;在每个战斗阶段，各个部分的指挥官会根�
 HINT_SIEGE_VIEW_TITLE;围攻界面;;;;;;;;;;x
 HINT_SIEGE_VIEW_TEXT_1;一次围攻的长度主要取决于男爵领的堡垒等级，守军的数量和围攻者的数量.;;;;;;;;;;x
 HINT_SIEGE_VIEW_TEXT_2;如果围攻者的数量比防守者少，围攻将不是很有效.;;;;;;;;;;x
-HINT_SIEGE_VIEW_TEXT_3;当防守者的士气为零（或者攻击者离去或被赶走），围攻就会结束.;;;;;;;;;;x
+HINT_SIEGE_VIEW_TEXT_3;当防守者的士气为零（或者攻击者离去或被赶走），围攻就会结束。;;;;;;;;;;x
 HINT_CONFIRM_DISABLE_TITLE;确定要关闭提示？;;;;;;;;;;x
 HINT_CONFIRM_DISABALE_DESC;你确定要永远关闭提示吗\n(你可以在设置面板里重新打开提示);;;;;;;;;;x
 INTERACTION_MESSAGE_ACTOR_PORTRAIT;来自[Actor.GetBestName]的消息;;;;;;;;;;x
@@ -14675,12 +14675,12 @@ investiture_law;神职法;;;;;;;;;;x
 investiture_law_desc;神职法（主教任命法）决定主教的任命权归谁——教宗还是君主本人.;;;;;;;;;;x
 investiture_law_0;教宗授职;;;;;;;;;;x
 investiture_law_0_option;教宗;;;;;;;;;;x
-investiture_law_0_desc;由教宗任命领内的主教。这项法案将使统治者向教宗求助比如离婚和绝罚）时减免§G50%§!虔诚。;;;;;;;;;;x
+investiture_law_0_desc;由教宗任命领内的主教。这项法案将使统治者向教宗求助比如离婚和绝罚）时减免 §G50%§! 虔诚。;;;;;;;;;;x
 investiture_law_1;自由授职;;;;;;;;;;x
 investiture_law_1_option;自由;;;;;;;;;;x
 investiture_law_1_desc;由君主任命王国内的主教。主教们会加倍效忠君主，教宗则会非常失望。;;;;;;;;;;x
 crown_city_charters_only;皇家城市授权法;;;;;;;;;;x
-crown_city_charters_only_desc;王国内的城市只能由国王授权（只能是国王的封臣）.;;;;;;;;;;x
+crown_city_charters_only_desc;王国内的城市只能由国王授权（只能是国王的封臣）。;;;;;;;;;;x
 REVOKE_EFFECTS;废除效果;;;;;;;;;;x
 PASS_EFFECTS;效果;;;;;;;;;;x
 REVOKE_TRIGGER;废除将触发;;;;;;;;;;x
@@ -15757,7 +15757,7 @@ PO_PD_NEG_25;敌人胜利了。你必须送出一小笔钱或者一个无关紧�
 PO_PD_NEG_60;敌人获得了完全的胜利。你必须送出至少两个郡和一大笔钱来获得和平。;;;;;;;;;;x
 PO_PD_NEG_99;敌人获得了巨大的胜利。你必须付出足够多的领地来满足他们，不然事情可能会更加糟糕。;;;;;;;;;;x
 PO_PD_NEG_100;我们彻底失败，敌人可以随心所欲地处置我们.;;;;;;;;;;x
-PEACEBETTER_US;\n（这些条件要比对方期望的优厚得多.如果对方拒绝，将引起该国民众的强烈不满.）;;;;;;;;;;x
+PEACEBETTER_US;\n（这些条件要比对方期望的优厚得多。如果对方拒绝，将引起该国民众的强烈不满）;;;;;;;;;;x
 ANNEX;对方要求完全吞并我国.(游戏结束);;;;;;;;;;x
 WHITE_PEACE;无条件和平;;;;;;;;;;x
 SECEDE_PROVINCES;$WHO$将割让$WHAT$.;;;;;;;;;;x
@@ -16027,7 +16027,7 @@ CH_GAIN_TRAIT;得到「$TRAIT$」特质。;;;;;;;;;;x
 DIPLO_ACTION;显示可用的外交任务;;;;;;;;;;x
 RELATION_CHANGE_VALUE;预计年变化额：;;;;;;;;;;x
 RELATION_IRO;当前外交关系;;;;;;;;;;x
-RELATION_DRO;外交关系说明两个政权之间的感情，范围从§R-200§!（仇恨）到§G200§!（融洽）;;;;;;;;;;x
+RELATION_DRO;外交关系说明两个政权之间的感情，范围从 §R-200§!（仇恨）到 §G200§!（融洽）;;;;;;;;;;x
 TIES_IRO;当前外交联系;;;;;;;;;;x
 TIES_DRO;外交联系是两个政权之间的联系，例如同盟和军事通行权;;;;;;;;;;x
 CANNOT_AFFORD;我们无法支付！;;;;;;;;;;x
@@ -17729,13 +17729,13 @@ LOAD_EVENTS;读取事件……;;;;;;;;;;x
 ADAPTING_HISTORY;读取历史;;;;;;;;;;x
 LOAD_CITY;读取城市……;;;;;;;;;;x
 CALC_PATHS;计算路径;;;;;;;;;;x
-LOAD_GFX_PDXMAP_SHADERS;读取地图（创建特效）……;;;;;;;;;;x
-LOAD_GFX_PDXMAP_TERRAIN;读取地图（创建地形）……;;;;;;;;;;x
-LOAD_GFX_PDXMAP_BORDERS;读取地图（创建边界）……;;;;;;;;;;x
-LOAD_GFX_PDXMAP_TEXTURES;读取地图（创建纹理）……;;;;;;;;;;x
-LOAD_GFX_PDXMAP_TREES;读取地图（创建树木）……;;;;;;;;;;x
-LOAD_GFX_PDXMAP_RIVERS;读取地图（创建河流）……;;;;;;;;;;x
-LOAD_GFX_PDXMAP_STATIC_OBJECTS;读取地图（创建物体）……;;;;;;;;;;x
+LOAD_GFX_PDXMAP_SHADERS;读取地图（创建特效）;;;;;;;;;;x
+LOAD_GFX_PDXMAP_TERRAIN;读取地图（创建地形）;;;;;;;;;;x
+LOAD_GFX_PDXMAP_BORDERS;读取地图（创建边界）;;;;;;;;;;x
+LOAD_GFX_PDXMAP_TEXTURES;读取地图（创建纹理）;;;;;;;;;;x
+LOAD_GFX_PDXMAP_TREES;读取地图（创建树木）;;;;;;;;;;x
+LOAD_GFX_PDXMAP_RIVERS;读取地图（创建河流）;;;;;;;;;;x
+LOAD_GFX_PDXMAP_STATIC_OBJECTS;读取地图（创建物体）;;;;;;;;;;x
 LOAD_INIT;初始化游戏;;;;;;;;;;x
 TECHNOLOGY_NAME_LABEL;科技名称:;;;;;;;;;;x
 TECHNOLOGY_LEVEL_LABEL;最高水平: (直辖/国家/世界);;;;;;;;;;x
@@ -18495,7 +18495,7 @@ SELECT_A_LEADER;选择一个将领;;;;;;;;;;x
 CURRENT_LEADER;现在的将领;;;;;;;;;;x
 SM_CAMERA_TILT;视角倾斜;;;;;;;;;;x
 IMPRISONED_YEARS;监禁§Y$YEARS$§!年;;;;;;;;;;x
-SUPPLY_LIMIT_DESC;补给上限是一个郡能支持的部队数量（以千为单位），超过上限的部队会遭受损耗.;;;;;;;;;;x
+SUPPLY_LIMIT_DESC;补给上限是一个郡能支持的部队数量（以千为单位），超过上限的部队会遭受损耗。;;;;;;;;;;x
 REVOLT_RISK_DESC;叛乱风险是这个省份的农民叛乱的几率.;;;;;;;;;;x
 WARO_BATTLES;战斗:;;;;;;;;;;x
 WARO_OCCUPATION;占领:;;;;;;;;;;x
