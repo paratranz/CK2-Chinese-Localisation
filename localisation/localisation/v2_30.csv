@@ -1,0 +1,765 @@
+ACQUISITION_CLAIM;作为宣称者而征服;;;;;;;;;;x
+ACQUISITION_HOST;作为冒险者而征服;;;;;;;;;;x
+ACQUISITION_REVOLT;作为叛乱领袖而征服;;;;;;;;;;x
+ACQUISITION_USURP;和平地篡夺;;;;;;;;;;x
+ACQUISITION_FACTION_DEMAND;被派系所拥立;;;;;;;;;;x
+PERSONAL_OPINION_LOWER_THAN;个人好感低于;;;;;;;;;;x
+PERSONAL_OPINION_AT_LEAST;个人好感至少有;;;;;;;;;;x
+PERS_OPINION_DIFF_LOWER_THAN;对§Y$FIRST$§!和§Y$SECOND$§!的个人好感差异低于§Y$VAL$§!;;;;;;;;;;x
+PERS_OPINION_DIFF_AT_LEAST;对§Y$FIRST$§!和§Y$SECOND$§!的个人好感差异至少为§Y$VAL$§!;;;;;;;;;;x
+RULER_OF_TITLE;$TITLE$$RULER$;;;;;;;;;;x
+EVTDESC38305;我变得更加容易信任别人，无论等待着我的命运如何，我都从容接受。我已不再多疑。;;;;;;;;;;x
+EVTDESC38306;我变得对人们奸诈的行为更加警觉。我不再轻易信任他人。;;;;;;;;;;x
+EVTDESC38307;我已经经受了太多的痛苦的背叛。为什么我要去帮助那些回过头就会伤害我的人？我不再和蔼。;;;;;;;;;;x
+EVTDESC38308;这道伤疤将烙印在我身上、伴随我终生。我变得伤痕累累。;;;;;;;;;;x
+MEN;男士们;;;;;;;;;;x
+WOMEN;女士们;;;;;;;;;;x
+MALE;男性;;;;;;;;;;x
+FEMALE;女性;;;;;;;;;;x
+ADULTERER;奸夫;;;;;;;;;;x
+ADULTERESS;淫妇;;;;;;;;;;x
+nick_the_unfaithful;不忠者;;;;;;;;;;x
+nick_the_beguiling;迷人者;;;;;;;;;;x
+nick_the_temptress;魅惑者;;;;;;;;;;x
+nick_the_seducer;勾引者;;;;;;;;;;x
+nick_the_lewd;猥亵者;;;;;;;;;;x
+nick_the_lecher;色鬼;;;;;;;;;;x
+nick_the_unchaste;不贞洁者;;;;;;;;;;x
+COMPL_GREAT;伟人;;;;;;;;;;x
+COMPL_LORD;贵族;;;;;;;;;;x
+COMPL_LADY;夫人;;;;;;;;;;x
+AIREASON_UNFAITHFULNESS;不忠;;;;;;;;;;x
+HAS_NOT_POLYGAMY;没有一夫多妻制;;;;;;;;;;x
+HAS_POLYGAMY;有一夫多妻制;;;;;;;;;;x
+HAS_NOT_CONCUBINAGE;没有纳妾制;;;;;;;;;;x
+HAS_CONCUBINAGE;有纳妾制;;;;;;;;;;x
+DIVORCE_INTERACTION_2;离婚 §Y[Recipient.GetTitledFirstName]§! 因为 [Recipient.GetPossPronoun] 证明不忠! [Recipient.GetPossPronounCap] 近亲仍将被侮辱 (§R$OPINION$§! 意见)……;;;;;;;;;;x
+ASK_FOR_DIVORCE_INTERACTION_2;请求§Y[Actor.RelHead.GetTitledFirstName]§!批准我与§Y[Actor.Spouse.GetFirstName]§!离婚。由于[Actor.Spouse.GetPossPronoun]不忠，这项请求将无法被拒绝并且不会带来任何代价。即便如此，这将依然被[Actor.Spouse.GetPossPronoun]亲戚认为是侮辱。;;;;;;;;;;x
+EVTOPTA301_DESC;[From.GetFirstName]被宣告为拥有完全继承权的合法[From.GetSonDaughter]。\n;;;;;;;;;;x
+EVTOPTB301_DESC;[From.GetFirstName]仍然不合法的私生子，但被承认为我的[From.GetSonDaughter]并能与别的贵族联姻结盟。一旦[From.GetSubjectPronoun]有了自己的孩子，一个新的家族将会从这一支系中开创出来。\n;;;;;;;;;;x
+EVTOPTC301_DESC;[From.GetFirstName]被谴责为一个不知其父的野种，与我毫无半点正式的关系。\n;;;;;;;;;;x
+EVTDESC404_KF;我的 [GetFromRelation] [From.GetFirstName]怀孕了，然而我不可能是孩子的父亲！全国都在传这个八卦——所有人都知道 [From.FatherOfUnborn.GetTitledName]才是孩子真正的父亲。;;;;;;;;;;x
+EVTDESC404_2;我的[GetFromRelation][From.GetFirstName]告诉我她怀孕了，但那是不可能的，难道不是吗？;;;;;;;;;;x
+EVTOPTB404;谴责他们两个为叛徒！;;;;;;;;;;x
+EVTDESC21001;我已经仔细考虑过这件事了，我不可能是我的[GetFromRelation][From.GetFirstName]肚子里的孩子的父亲。一想到它在她的肚子里一天一天地长大，我就无法安然入睡。我必须要把这件事平息掉！;;;;;;;;;;x
+EVTOPTA21001;雇佣某人去查清这一切;;;;;;;;;;x
+EVTOPTB21001;不，我相信她的话！;;;;;;;;;;x
+EVTDESC21003;那个我付钱雇佣去跟踪我的[GetFromRelation]的侍女证实了我的怀疑 - [From.FatherOfUnborn.GetTitledName]是[From.GetFirstName]的情人以及那个孩子真正的父亲！;;;;;;;;;;x
+EVTDESC21003_CR;那个我付钱雇佣去跟踪我的[GetFromRelation][From.GetFirstName]的女人发现了关于她的怀孕令人震惊的真相。我是对的，那个孩子的父亲并非是我......而是[From.FatherOfUnborn.GetTitledFirstName]，那可是她自己的[GetFromVsFatherOfUnbornRelation]啊！;;;;;;;;;;x
+EVTOPTA21003;[Root.Religion.GetRandomGodName]保佑，我必须保守这个秘密！;;;;;;;;;;x
+EVTOPTB21003;亵渎神灵！揭露这两个叛徒！;;;;;;;;;;x
+EVTOPTC21003;这虽然神圣...但依然是不忠的行径。揭露他们！;;;;;;;;;;x
+EVTOPTD21003;这是极其严重的叛国罪！;;;;;;;;;;x
+EVTDESC21005;我的[GetFromRelation]正怒不可遏、大吼大叫、还把椅子砸个稀巴烂。他知道了我和[Root.FatherOfUnborn.GetTitledFirstName]之间的风流韵事，他知道我肚子里的那个孩子并非他亲生的……;;;;;;;;;;x
+EVTOPTA21005;血肉之躯是脆弱的……;;;;;;;;;;x
+EVTDESC21006;[From.GetTitledName]知道了我与[FromFrom.GetTitledFirstName]之间的风流韵事，他也知道了她肚子里的孩子实际上是我亲生的……;;;;;;;;;;x
+EVTOPTA21006;这可能意味着我的厄运将至！;;;;;;;;;;x
+EVTOPTB21006;这可真是尴尬！;;;;;;;;;;x
+EVTDESC21010;那个我付钱雇佣去获取[GetFromRelation][From.GetFirstName]秘密的侍女并没有发现任何有关她的怀孕令人怀疑的地方。;;;;;;;;;;x
+EVTOPTA21010;这下我就放心了！;;;;;;;;;;x
+EVTOPTB21010;我必须要知道！我要当面质问她！;;;;;;;;;;x
+EVTOPTC21010;雇佣更多的探子！;;;;;;;;;;x
+EVTOPTD21010;给她设下一个「陷阱」;;;;;;;;;;x
+EVTDESC21011;那些我花了大价钱雇佣的探子，他们试图寻找任何有关我的[GetFromRelation][From.GetFirstName]和她怀孕的可疑之处，结果全都失败了，没有找到任何东西。;;;;;;;;;;x
+EVTOPTA21011;然后，我猜那孩子的确是我的……？;;;;;;;;;;x
+EVTDESC21012;我亲爱的[GetFromRelation][From.GetFirstName]对我的怀孕生了疑心。他正在质问我那个孩子是不是他亲生的！;;;;;;;;;;x
+EVTOPTA21012;向他保证我的忠诚！;;;;;;;;;;x
+EVTOPTB21012;泪眼汪汪地承认我和[Root.FatherOfUnborn.GetTitledFirstName]之间的风流韵事;;;;;;;;;;x
+EVTOPTC21012;他不过是个善妒的孩子，把他搂在怀里。;;;;;;;;;;x
+EVTDESC21013;当我质问[From.GetFirstName]是否不忠于我时，她开始哭泣。她一再地向我保证她忠贞的爱、为人妻的美德以及矢志不渝的坚定……;;;;;;;;;;x
+EVTOPTA21013;我永远无法完全肯定……;;;;;;;;;;x
+EVTDESC21003_CONF;在我彻底地质问下，我的[GetFromRelation][From.GetFirstName]崩溃了，并含泪承认了她与[From.FatherOfUnborn.GetTitledName]之间的风流韵事，哭求我的仁慈与宽恕！;;;;;;;;;;x
+EVTDESC21003_CONF_CR;在我彻底地质问下，我的[GetFromRelation][From.GetFirstName]崩溃了，并含泪承认了她与[From.FatherOfUnborn.GetTitledName]之间的风流韵事 - 那可是她自己的[GetFromVsFatherOfUnbornRelation]！;;;;;;;;;;x
+EVTDESC21015;当我质问[From.GetFirstName]的怀孕时，她变得愤怒，说她就像生活在监狱里并且我拒绝给她哪怕是最基本的自由……;;;;;;;;;;x
+EVTOPTA21015;好吧，现在我觉得惭愧了……;;;;;;;;;;x
+EVTDESC21016;我发现了我亲爱的[Root.FatherOfUnborn.GetTitledFirstName]给我的留言，他让我今天在铁匠铺后面与他碰面，但在那等着我的却是我的[GetFromRelation][From.GetFirstName]！;;;;;;;;;;x
+EVTOPTA21016;亲爱的，请听我解释！;;;;;;;;;;x
+EVTTOOLTIP21003_TRAP;[This.GetFirstName]气得快要飞起来了！;;;;;;;;;;x
+EVTDESC21003_TRAP;我在我[GetFromRelation]的房间里放下了一份留言，指引她去铁匠铺后面与她的情人碰面。我在那等着，心里祈祷她不会前来......但她真的来了。她向我坦白，她与[From.FatherOfUnborn.GetTitledName]有一段风流韵事！;;;;;;;;;;x
+EVTDESC21003_TRAP_CR;我在我[GetFromRelation]的房间里放下了一份留言，指引她去铁匠铺后面与她的情人碰面。她来了，并且失控地向我坦白她与[From.FatherOfUnborn.GetTitledName]之间的风流韵事 - 那可是她自己的[GetFromVsFatherOfUnbornRelation]！;;;;;;;;;;x
+EVTTOOLTIP64046;[This.GetFirstName]和[Root.GetTitledFirstNameNoRegnal]不再爱着对方了;;;;;;;;;;x
+alert_no_focus_name;选择一个生活重心;;;;;;;;;;x
+alert_no_focus_instant;§Y挑选一个生活重心§!;;;;;;;;;;x
+alert_no_focus_delayed;你应当为你的角色挑选一个生活重心;;;;;;;;;;x
+opinion_unfaithful_wife;不忠的荡妇;;;;;;;;;;x
+opinion_unfaithful_husband;不忠的色鬼;;;;;;;;;;x
+opinion_cuckolded;被戴绿帽子;;;;;;;;;;x
+opinion_chasing_friend;勾引我的朋友;;;;;;;;;;x
+opinion_chasing_spouse;勾引我的配偶;;;;;;;;;;x
+opinion_chasing_child;勾引我的孩子;;;;;;;;;;x
+adulterer;奸夫;;;;;;;;;;x
+adulteress;淫妇;;;;;;;;;;x
+known_sodomite;被发现的鸡奸者;;;;;;;;;;x
+cradle_robber;吃嫩草的老牛;;;;;;;;;;x
+incestuous_adulterer;乱伦通奸者;;;;;;;;;;x
+incestuous_adulteress;乱伦通奸者;;;;;;;;;;x
+opinion_suspected_adultery;涉嫌通奸;;;;;;;;;;x
+opinion_regrets_accusation;令人懊悔的指控;;;;;;;;;;x
+opinion_advance_rejected;拒绝更进一步;;;;;;;;;;x
+opinion_killed_lover;杀害我的爱人;;;;;;;;;;x
+adulterous_priest;通奸的牧师;;;;;;;;;;x
+wol_seducer_1;入门的勾引者;;;;;;;;;;x
+desc_wol_seducer_1;这个角色正在学习诱惑的艺术和勾引的兴奋……;;;;;;;;;;x
+wol_seducer_2;勾引者;;;;;;;;;;x
+desc_wol_seducer_2;这个角色以其作为一个勾引者和负心人而闻名。;;;;;;;;;;x
+wol_court_tomcat;宫廷种马;;;;;;;;;;x
+desc_wol_court_tomcat;这个男人是一个臭名昭著的尾随者，在嫉妒的丈夫们和情人们之间游刃有余。;;;;;;;;;;x
+wol_court_vixen;宫廷肉便器;;;;;;;;;;x
+desc_wol_court_vixen;这个女人是一个臭名昭著的狐狸精，懂得如何摆平那些嫉妒的妻子们和情人们。;;;;;;;;;;x
+wol_refused_duel;拒绝一场决斗;;;;;;;;;;x
+desc_wol_refused_duel;被他人要求以一场荣誉的决斗作为挑战，但这个角色怯懦地拒绝了。;;;;;;;;;;x
+FOCUS;生活重心;;;;;;;;;;x
+MILADY;夫人;;;;;;;;;;x
+MILORD;大人;;;;;;;;;;x
+CHOOSE_FOCUS_OR_AMBITION;选择生活重心或野心;;;;;;;;;;x
+FOCUSABORTED_SETUP;被放弃的生活重心;;;;;;;;;;x
+FOCUSABORTED_LOG;§Y$CHARNAME$§!不能继续以§Y$FOCUS$§!为生活重心。;;;;;;;;;;x
+FOCUSABORTED_LETTER;我现在的处境让我无法以$FOCUS$为生活重心。;;;;;;;;;;x
+HAS_FOCUS;以§Y$FOCUS$§!为生活重心;;;;;;;;;;x
+HAS_A_FOCUS;拥有一个生活重心;;;;;;;;;;x
+HAS_NO_FOCUS;没有生活重心;;;;;;;;;;x
+SET_FOCUS_EFFECT;$CHAR$以§Y$FOCUS$§!为生活重心\n;;;;;;;;;;x
+focus_rulership_title;统治;;;;;;;;;;x
+focus_rulership_desc;[This.GetTitledFirstName]决定花费[This.GetPossPronoun]时间和精力到统治上，以期治理好自己的国家和领地。;;;;;;;;;;x
+RULERSHIP_FOCUS;统治生活重心;;;;;;;;;;x
+focus_business_title;商业;;;;;;;;;;x
+focus_business_desc;[This.GetTitledFirstName]与市民们和商人们亲近，试图找到生钱之道。;;;;;;;;;;x
+BUSINESS_FOCUS;商业生活重心;;;;;;;;;;x
+focus_seduction_title;勾引;;;;;;;;;;x
+focus_seduction_desc;[This.GetTitledFirstName]为了刺激和权力而磨练[This.GetPossPronoun]诱惑技巧。这个生活重心解锁§Y勾引§!这一互动选项，让你勾引合适的「猎物」。;;;;;;;;;;x
+SEDUCTION_FOCUS;勾引生活重心;;;;;;;;;;x
+focus_intrigue_title;密谋;;;;;;;;;;x
+INTRIGUE_FOCUS;密谋生活重心;;;;;;;;;;x
+focus_hunting_title;狩猎;;;;;;;;;;x
+focus_hunting_desc;[This.GetTitledFirstName]游行全国，在旅途中结交好友与猎杀[This.Religion.GetHighGodName]的造物。这个生活重心会让你解锁狩猎这一活动选项.;;;;;;;;;;x
+HUNTING_FOCUS;狩猎生活重心;;;;;;;;;;x
+focus_war_title;战争;;;;;;;;;;x
+focus_war_desc;[This.GetTitledFirstName]从事一切有关军事的事情，从近战训练到阅读古代名将的作品。这个生活重心解锁§Y决斗§!这一互动选项，让你与竞争对手或仇敌决斗。;;;;;;;;;;x
+WAR_FOCUS;战争生活重心;;;;;;;;;;x
+focus_carousing_title;狂欢;;;;;;;;;;x
+focus_carousing_desc;[This.GetTitledFirstName]努力通过举办狂野的派对使自己变得更加受欢迎和爱交际。这个生活重心解锁§Y邀请狂欢§!这一互动选项，让你邀请合适的对象参加派对。;;;;;;;;;;x
+CAROUSING_FOCUS;狂欢生活重心;;;;;;;;;;x
+focus_family_title;家庭;;;;;;;;;;x
+focus_family_desc;[This.GetTitledFirstName]集中精力到家庭生活，确保自己所有家庭成员之间能够有更好的关系。;;;;;;;;;;x
+FAMILY_FOCUS;家庭生活重心;;;;;;;;;;x
+focus_scholarship_title;学术;;;;;;;;;;x
+focus_scholarship_desc;[This.GetTitledFirstName]把 [This.GetPossPronoun] 身心投入到破旧的书卷里，追寻着知识和学问。解锁§Y建造天文台§!的决议——你的研究生涯的起点。;;;;;;;;;;x
+SCHOLARSHIP_FOCUS;学术生活重心;;;;;;;;;;x
+focus_theology_title;神学;;;;;;;;;;x
+focus_theology_desc;[This.GetTitledFirstName]过着充满沉思、祈祷和冥想的宗教生活。;;;;;;;;;;x
+THEOLOGY_FOCUS;神学生活重心;;;;;;;;;;x
+seduce_decision;勾引;;;;;;;;;;x
+seduce_decision_desc;为了获得一个新的情人，把你的勾引工作聚焦到§Y[This.GetTitledFirstName]§!身上……;;;;;;;;;;x
+DIP_PERFORM_ACTION;上吧！;;;;;;;;;;x
+opinion_seducing;正在勾引;;;;;;;;;;x
+opinion_seduced_attracted;被吸引;;;;;;;;;;x
+opinion_seduced_repelled;拒绝勾引;;;;;;;;;;x
+opinion_seduced_yearning;渴望;;;;;;;;;;x
+seducer;勾引大师;;;;;;;;;;x
+seducer_desc;这个男人是个臭名昭著的放荡堕落者，当他醒来时，便留下一堆破碎的心 - 以及野种 - 扬长而去。;;;;;;;;;;x
+seductress;魅惑大师;;;;;;;;;;x
+seductress_desc;这个女人是一个声名狼藉的女妖和荡妇，她的品德令人怀疑……;;;;;;;;;;x
+administrator;管理者;;;;;;;;;;x
+administrator_desc;这个角色是一个热爱秩序和效率胜过其他任何东西的全心全意的管理者。;;;;;;;;;;x
+architect;建筑师;;;;;;;;;;x
+architect_desc;这个角色热爱建筑、建筑物以及大型机械，尤其是与围攻战有关的任何东西。;;;;;;;;;;x
+strategist;策略家;;;;;;;;;;x
+strategist_desc;这个角色热爱策划战役和分析目前的形势。;;;;;;;;;;x
+socializer;社交者;;;;;;;;;;x
+socializer_desc;这个角色被认为受到大众的欢迎，并花费大部分闲暇时间在陪伴他人上。;;;;;;;;;;x
+schemer_desc;这个角色过着充满密谋和操纵他人的生活。;;;;;;;;;;x
+HAS_ANY_OPINION_MOD;任何人对你有「§Y$MOD$§!」这一好感修正;;;;;;;;;;x
+HAS_NO_OPINION_MOD;没有人对你有「§Y$MOD$§!」这一好感修正;;;;;;;;;;x
+AGE_DIFF_AT_LEAST;年龄差异至少有;;;;;;;;;;x
+AGE_DIFF_LESS_THAN;年龄差异少于;;;;;;;;;;x
+EVTTITLE_WOL_55;一个肮脏的秘密;;;;;;;;;;x
+EVTDESC_WOL_55;就在前几天 - 我如常地潜伏了起来 - 我把[FromFrom.GetTitledName]和我的[GetFromRelation][From.GetFirstName]抓个现行！由于沉浸在激情之中，他们并没有注意到我，但我依然感到非常震惊！;;;;;;;;;;x
+EVTDESC_WOL_55_CR;就在前几天 - 我如常地潜伏了起来 - 我把[FromFrom.GetTitledName]和我的[GetFromRelation][From.GetFirstName]抓个现行！我简直不敢相信......[GetFromVsFromFromRelation]和[GetFromFromVsFromRelation]！他们并没有注意到我，但我依然感到非常震惊！;;;;;;;;;;x
+EVTDESC_WOL_55_M_HOMO;就在前几天 - 我如常地潜伏了起来 - 我发现[FromFrom.GetTitledName]和我的[GetFromRelation][From.GetFirstName]正在做男人之间不应该做的事情！他们并没有注意到我，但我依然感到非常震惊！;;;;;;;;;;x
+EVTDESC_WOL_55_F_HOMO;就在前几天 - 我如常地潜伏了起来 - 我发现[FromFrom.GetTitledName]和我的[GetFromRelation][From.GetFirstName]正在赤裸地做一个非常奇怪且过分亲昵的......「运动」。他们并没有注意到我，但我依然感到非常震惊！;;;;;;;;;;x
+EVTDESC_WOL_55_PRIEST;就在前几天 - 我如常地潜伏了起来 - 我把[FromFrom.GetTitledName]和我的[GetFromRelation][From.GetFirstName]抓个现行！[From.GetManWoman]可是神的仆人！他们并没有注意到我，但我依然感到非常震惊！;;;;;;;;;;x
+EVTDESC_WOL_55_AGE_YOUNG;就在前几天 - 我如常地潜伏了起来 - 我把[FromFrom.GetTitledName]和我的[GetFromRelation][From.GetFirstName]抓个现行！真不害臊，[From.GetSubjectPronoun]都能当[FromFrom.GetPossPronoun][From.GetSonDaughter]了！他们并没有注意到我，但我依然感到非常震惊！;;;;;;;;;;x
+EVTDESC_WOL_55_AGE_OLD;就在前几天 - 我如常地潜伏了起来 - 我把[FromFrom.GetTitledName]和我的[GetFromRelation][From.GetFirstName]抓个现行！真不害臊，[From.GetSubjectPronoun]都能当[FromFrom.GetPossPronoun][From.GetFatherMother]了！他们并没有注意到我，但我依然感到非常震惊！;;;;;;;;;;x
+EVTDESC_WOL_55_F_MARRIED;就在前几天，我像以往一样潜伏了起来。我将 [FromFrom.GetTitledName]和我的 [GetFromRelation] [From.GetFirstName]抓了个现行！他们并没有注意到我，但是我仍然感到非常震惊！ [Root.Religion.GetRandomGodName]在上， [From.GetSubjectPronounCap] 可是个已婚的 [From.GetManWoman] ！;;;;;;;;;;x
+EVTOPTA_WOL_55;真不要脸！他们必须被曝光！;;;;;;;;;;x
+EVTOPTA_WOL_55_UNHOLY;邪恶的罪人！他们必须被曝光！;;;;;;;;;;x
+EVTOPTB_WOL_55;血肉之躯是脆弱的。既往不咎。;;;;;;;;;;x
+EVTOPTC_WOL_55;我闻到了金子的味道！;;;;;;;;;;x
+EVTTOOLTIP_WoL_60;[This.GetBestName]的风流韵事被曝光;;;;;;;;;;x
+EVTTOOLTIP_WoL_56;[This.GetTitledName]被敲诈;;;;;;;;;;x
+EVTDESC_WOL_56;致[Root.GetTitledFirstName]。我知道你在和我的[GetFromVsFromFromRelation][FromFrom.GetTitledFirstName]干什么，你这个[GetFromRootInsult]！即便如此，我依然明白血肉之躯的脆弱，对这段风流韵事，我愿意闭上我的嘴巴，只要得到一点……捐款。\n\n[From.GetBestName];;;;;;;;;;x
+EVTDESC_WOL_56_CR;致 [Root.GetTitledFirstName]，我知道你和你的[GetFromFromRelation]在干什么，你这[GetFromRootInsult]！虽然你们俩令我感到恶心，但是我正迫切地需要点资金。只要你肯出这笔小钱，我就会把这一切忘掉。\n\n[From.GetBestName];;;;;;;;;;x
+EVTDESC_WOL_56_HOMO;致[Root.GetTitledFirstName]。我看到了你和我的[GetFromVsFromFromRelation]互相在干什么，你这个[GetFromRootInsult]！真是令人厌恶！即便如此，你们应该庆幸我是一个宽容的[From.GetManWoman]，只要得到一笔小小的捐款，我愿意把这一切忘掉。\n\n[From.GetBestName];;;;;;;;;;x
+EVTOPTA_WOL_56;那个[GetRootFromInsult]！我会出钱……;;;;;;;;;;x
+EVTOPTB_WOL_56;我宁愿忍受流言蜚语！;;;;;;;;;;x
+EVTTOOLTIP_WoL_57;钱被送到了[This.GetBestName];;;;;;;;;;x
+EVTDESC_WOL_57;致你这个[GetFromRootInsult][Root.GetFirstName]！给你，拿着我的钱。如果你不学会闭上你的嘴，我将会对你做你想都不敢想的事情！\n\n[From.GetFirstName];;;;;;;;;;x
+EVTOPTA_WOL_57;窥探别人也能获得如此奖励！;;;;;;;;;;x
+EVTDESC_WOL_59;致[GetFromFromRootInsult] [Root.GetFirstName]。这算什么变态玩笑？[From.GetFirstName]的品德没人能够质疑！你就为所欲为吧，反正无论如何都没人会相信你的谎言。\n\n[FromFrom.GetFirstName];;;;;;;;;;x
+EVTOPTA_WOL_59;很好。我喜欢这样！;;;;;;;;;;x
+EVTOPTB_WOL_59;虽然这值得一试，但我没有那么残忍。;;;;;;;;;;x
+EVTTITLE_WOL_60;通奸丑闻;;;;;;;;;;x
+EVTDESC_WOL_60;[From.GetBestName]告诉所有人：[From.GetSubjectPronoun]看见我和[FromFrom.GetFirstName]通奸。这个丑闻的确是事实。;;;;;;;;;;x
+EVTOPTA_WOL_60_F;可怜的[FromFrom.GetFirstName]。我并非打算要伤害[FromFrom.GetObjectPronoun]。;;;;;;;;;;x
+EVTOPTA_WOL_60_M;噢，好吧。这就是中世纪！;;;;;;;;;;x
+EVTDESC_WOL_61;[FromFrom.GetBestName]告诉所有人 [FromFrom.GetSubjectPronoun] 看见了我和 [From.GetFirstName]上床。这个丑闻的确属实。;;;;;;;;;;x
+EVTOPTA_WOL_61_F;我的名誉被彻底毁了！;;;;;;;;;;x
+EVTDESC_WOL_62;[FromFrom.GetBestName]把我的[GetFromRelation][From.GetFirstName]和[FromFromFrom.GetTitledName]之间的风流韵事给曝光了！;;;;;;;;;;x
+EVTOPTA_WOL_62;我的心要碎了！;;;;;;;;;;x
+EVTOPTA_WOL_62_CR;[From.GetSubjectPronounCap]与[From.GetPossPronoun]自己的[GetFromVsFromFromFromRelation]通奸！？;;;;;;;;;;x
+EVTDESC_WOL_63;[FromFromFrom.GetBestName]把我的[GetFromRelation][From.GetFirstName]和[FromFrom.GetTitledName]之间的风流韵事给曝光了。;;;;;;;;;;x
+EVTOPTA_WOL_63_CR;[From.GetSubjectPronounCap]与[From.GetPossPronoun]自己的[GetFromVsFromFromRelation]通奸！？;;;;;;;;;;x
+EVTDESC_WOL_81_F;要与每一个为我着迷的男人上床可不是一件易事。吃醋的妻子，警惕的母亲，爱管闲事的廷臣，意外的怀孕 - 在这样危险的海域游刃有余地航行需要高超的技巧！;;;;;;;;;;x
+EVTDESC_WOL_81_M;泡妞可是一件危险的工作。善妒的丈夫，警惕的父母，偷听的侍女......还有那些小杂种。[Root.Religion.GetRandomGodName]在上，我能活到今天简直就是个奇迹！;;;;;;;;;;x
+EVTDESC_WOL_81_HOMO;在这个愚昧的时代，追求其他[Root.GetMenWomen]是充满危险的。即便如此，被传丑闻的风险让这一切更令人兴奋。除此以外，这可没有意外怀孕的风险！;;;;;;;;;;x
+EVTOPTA_WOL_81;我多少学会了一些关于密谋的东西！;;;;;;;;;;x
+EVTDESC_WOL_99;我的自信如山一样高，我的魅力不可抗拒，我的功绩就像传奇一般。我就是[Root.GetFirstName]- 魅惑的化身。;;;;;;;;;;x
+EVTOPTA_WOL_99;胜过埃及艳后！;;;;;;;;;;x
+EVTOPTA_WOL_99_PERS;胜过谢赫拉莎德！;;;;;;;;;;x
+EVTOPTB_WOL_99;我难以抵挡自己的魅力！;;;;;;;;;;x
+EVTOPTC_WOL_99;但...这世上还有如此众多的罪恶等待我去探索！;;;;;;;;;;x
+EVTOPTD_WOL_99;这是自然地，但我不会让罪恶去定义我自己。;;;;;;;;;;x
+EVTTITLE_WOL_100;追逐开始！;;;;;;;;;;x
+EVTDESC_WOL_100;我应该把所有勾引技巧都用在[From.GetTitledFirstName]身上，直到我最终与[From.GetObjectPronoun]十指相缠！;;;;;;;;;;x
+EVTOPTA_WOL_100;[From.GetSubjectPronounCap]会是我的！;;;;;;;;;;x
+EVTDESC_WOL_101;我目不转睛地看着[From.GetTitledFirstName]，但如果那些宫廷八卦注意到了我的努力，年龄的差距就会招来刺耳的丑闻……;;;;;;;;;;x
+EVTOPTA_WOL_101;但我就是喜欢那些皱纹！;;;;;;;;;;x
+EVTOPTB_WOL_101;但[From.GetSubjectPronoun]是那么地娇小！;;;;;;;;;;x
+EVTOPTC_WOL_101;我应该寻找其他猎物……;;;;;;;;;;x
+EVTTITLE_WOL_102;全家的游戏;;;;;;;;;;x
+EVTDESC_WOL_102;我决定勾引我自己的[GetFromRelation][From.GetFirstName]。其纯粹的禁忌令人兴奋不已，但丑闻......[Root.Religion.GetRandomGodName]在上，这起丑闻将会成为史诗。;;;;;;;;;;x
+EVTOPTA_WOL_102;它的风险使之更加令人兴奋！;;;;;;;;;;x
+EVTOPTB_WOL_102;再三考虑，我又不是什么不正常的人。;;;;;;;;;;x
+EVTDESC_WOL_103;勾引[From.GetTitledFirstName]- 一个发誓侍奉神的[From.GetManWoman] - 的想法真是令人兴奋！然而，我肯定要承担这丑闻的风险……;;;;;;;;;;x
+EVTOPTA_WOL_103;这样做是值得的！;;;;;;;;;;x
+EVTOPTB_WOL_103;不，我太过惧怕[Root.Religion.GetRandomGodName]了。;;;;;;;;;;x
+EVTDESC_WOL_104;社会大众可能对我这一偏爱保持反对的态度，但冒着丑闻的风险，我依然要勾引[From.GetTitledFirstName]。;;;;;;;;;;x
+EVTOPTA_WOL_104;骄傲地！;;;;;;;;;;x
+EVTOPTB_WOL_104;这并不值得冒这个险;;;;;;;;;;x
+EVTTOOLTIP_WoL_110;我开始计划我的下一步。;;;;;;;;;;x
+EVTDESC_WOL_111;我勾引的目标 - [FromFromFrom.GetTitledFirstName]- 已经不幸地去世！;;;;;;;;;;x
+EVTOPTA_WOL_111;那好吧，天涯何处无芳草！;;;;;;;;;;x
+EVTDESC_WOL_112;我对[FromFromFrom.GetTitledFirstName]的勾引有了个意想不到的结局 - [FromFromFrom.GetSubjectPronoun]最终被关在大牢里！;;;;;;;;;;x
+EVTOPTA_WOL_112;我要到别处寻找我的激情;;;;;;;;;;x
+EVTDESC_WOL_113;[FromFromFrom.GetTitledFirstName]，我献殷勤的目标，悲剧地陷入了昏迷之中，现在已经完全失去了欣赏我努力的能力。;;;;;;;;;;x
+EVTOPTA_WOL_113;勾引一个植物人毫无挑战性可言！;;;;;;;;;;x
+EVTTITLE_WOL_200;一封情书;;;;;;;;;;x
+EVTDESC_WOL_200;今天，我在我的枕头上发现了一封散发这芳香的信件。看起来[From.GetTitledFirstName]已经完全为我着迷！;;;;;;;;;;x
+EVTDESC_WOL_200_CR;今天，我在我的枕头上发现了一封散发这芳香的信件......我不太知道如何去回应 - 看起来我自己的[GetFromRelation][From.GetFirstName]已经完全为我着迷！;;;;;;;;;;x
+EVTOPTA_WOL_200;噢，这是多么浪漫啊！;;;;;;;;;;x
+EVTOPTB_WOL_200;虽然变态，但令人高兴！;;;;;;;;;;x
+EVTOPTC_WOL_200;干什么傻事！;;;;;;;;;;x
+EVTOPTD_WOL_200;愚蠢。我已经结婚了！;;;;;;;;;;x
+EVTOPTE_WOL_200;我被冒犯了！;;;;;;;;;;x
+EVTOPTF_WOL_200;多么恶心变态！;;;;;;;;;;x
+EVTTOOLTIP_WoL_201;得到鼓励……;;;;;;;;;;x
+EVTTOOLTIP_WoL_202;我的沉默将劝阻[This.GetObjectPronoun]。;;;;;;;;;;x
+EVTTOOLTIP_WoL_203;强烈劝阻[This.GetObjectPronoun]！;;;;;;;;;;x
+EVTTITLE_WOL_201;回信;;;;;;;;;;x
+EVTDESC_WOL_201;我在[From.GetFirstName]的枕头上留下了一封充满芳香的情书以赢得[From.GetObjectPronoun]的芳心......这一切看起来好像真的成功了 - [From.GetSubjectPronoun]同样留下了一封情书在我的枕头上，向我表白：[From.GetPossPronoun]以深深地被我吸引了！;;;;;;;;;;x
+EVTOPTA_WOL_201;太好了！是时候要增加赌注了？;;;;;;;;;;x
+EVTOPTB_WOL_201;太好了，可惜我已经不再渴望[From.GetObjectPronoun];;;;;;;;;;x
+WOL_SEDUCE_END_TOOLTIP;追逐结束\n;;;;;;;;;;x
+EVTDESC_WOL_202;[From.GetFirstName]没有对我留在[From.GetPossPronoun]枕头上的情书作任何回应。;;;;;;;;;;x
+EVTOPTB_WOL_202;是时候要放弃了;;;;;;;;;;x
+EVTDESC_WOL_203;我在[From.GetFirstName]的枕头上留下了一封充满芳香的情书以赢得[From.GetObjectPronoun]的芳心.....今天，我发现在厕所里发现了[From.GetPossPronoun]的回函。它毫无玫瑰的芳香。;;;;;;;;;;x
+EVTOPTA_WOL_203;暂时的挫折！;;;;;;;;;;x
+EVTOPTB_WOL_203;该是重新出发的时候了！;;;;;;;;;;x
+EVTTITLE_WOL_210;一份爱的礼物;;;;;;;;;;x
+EVTDESC_WOL_210;我的卧室布满野花！而且，这是什么？一串缀满宝石的美丽项链！这里也有一张纸条：「来自你谦卑的倾慕者，[From.GetTitledFirstName]，它与你迷人的眼睛相配」。;;;;;;;;;;x
+EVTDESC_WOL_210_CR;我的卧室布满野花！而且，这是什么？一串缀满宝石的美丽项链！这里也有一张纸条：「来自你谦卑的倾慕者，[From.GetFirstName]，它与你迷人的眼睛相配」。等等，什么，这不可能是我的[GetFromRelation][From.GetFirstName]？！;;;;;;;;;;x
+EVTDESC_WOL_210_M;今天，一个侍从给我带来了一个包装精美的礼物 - 一把镀金柄的完美平衡的剑。随附的纸条上写着：这是一份来自我的倾慕者[From.GetTitledFirstName]的礼物！;;;;;;;;;;x
+EVTDESC_WOL_210_CR_M;今天，一个侍从给我带来了一个包装精美的礼物 - 一把镀金柄的完美平衡的剑。随附的纸条上写着：这是一份来自我的倾慕者[From.GetFirstName]的礼物！我自己的[GetFromRelation][From.GetFirstName]？！;;;;;;;;;;x
+EVTOPTA_WOL_210;多么浪漫！;;;;;;;;;;x
+EVTOPTB_WOL_210;多么变态......多么令人激动！;;;;;;;;;;x
+EVTTITLE_WOL_211;爱的礼物;;;;;;;;;;x
+EVTDESC_WOL_211;我送给[From.GetFirstName]一条漂亮的项链并把她的房间覆满野花。这个策略似乎收到了成效，因为今天我在马厩发现了一个刻有她的浮雕印章的壮丽的新马鞍！;;;;;;;;;;x
+EVTDESC_WOL_211_M;我送给[From.GetFirstName]一把壮丽的剑作为礼物。它似乎温暖了他的内心，因为他送我一把相衬的匕首作为回礼！;;;;;;;;;;x
+EVTOPTA_WOL_211;我会说，这是相当明确的象征！;;;;;;;;;;x
+EVTOPTB_WOL_211;我是无法抗拒的！当我已经改变了我的心意……;;;;;;;;;;x
+EVTDESC_WOL_212;我送给[From.GetFirstName]一条漂亮的项链并把她的房间覆满野花，但我没有收到她的任何回音……;;;;;;;;;;x
+EVTDESC_WOL_212_M;我送给[From.GetFirstName]一把壮丽的剑作为礼物，但我所得到的回礼只有无尽的沉默。;;;;;;;;;;x
+EVTOPTA_WOL_212;还有比这更糟的呢！;;;;;;;;;;x
+EVTOPTB_WOL_212;我们不会再有任何发展空间。;;;;;;;;;;x
+EVTDESC_WOL_213;我送给[From.GetFirstName]一条漂亮的项链并把她的房间覆满野花......今天，我发现我的床上覆满枯萎的花瓣，还有一个弯曲的锈钉扎在我的枕头上！;;;;;;;;;;x
+EVTDESC_WOL_213_M;不久之前，我送给[From.GetFirstName]一把壮丽的剑作为礼物。今天，我发现那把剑扎进了我的织布机中，编织完全毁了！;;;;;;;;;;x
+EVTOPTA_WOL_213;[From.GetSubjectPronounCap]真是精力充沛！我热爱挑战！;;;;;;;;;;x
+EVTOPTB_WOL_213;就这样吧，我在浪费自己的才华！;;;;;;;;;;x
+EVTTITLE_WOL_220;迷恋的传言;;;;;;;;;;x
+EVTDESC_WOL_220;当我的侍女宣称听说[From.GetTitledFirstName]无法入眠是因为他总是想着我时，我实在无法相信，但现在，我所有的朋友也都如是说！;;;;;;;;;;x
+EVTDESC_WOL_220_CR;那个卧室侍女宣称听到传言说[From.GetTitledFirstName]无法入眠是因为他总是想着我......他可是我自己的[GetFromRelation]啊，[Root.Religion.GetRandomGodName]保佑！;;;;;;;;;;x
+EVTDESC_WOL_220_M;当我的侍从宣称听说[From.GetTitledFirstName]受那些激情的梦境所控制而在夜里辗转反侧并呼喊着我的名字时，我实在无法相信，但现在，我所有的朋友也都如是说！;;;;;;;;;;x
+EVTDESC_WOL_220_CR_M;当我的侍从宣称听说[From.GetTitledFirstName]受那些激情的梦境所控制而在夜里辗转反侧并呼喊着我的名字时，我实在无法相信，但现在，我所有的朋友也都如是说！[Root.Religion.GetRandomGodName]在上，她可是我自己的[GetFromRelation]啊！;;;;;;;;;;x
+EVTOPTA_WOL_220;多么讨人喜欢！;;;;;;;;;;x
+EVTOPTB_WOL_220;这是反常的！但为何我又对此感到兴奋？;;;;;;;;;;x
+EVTTITLE_WOL_221;被传言征服;;;;;;;;;;x
+EVTDESC_WOL_221;在容易被那些臭名昭著的八卦者们偷听到的地方有意地说一些话，胜过一封情书！[From.GetTitledFirstName]一定收到了我所传达的讯息，因为今天我在自己的卧室里找到了一缕被丝绸手帕包好的头发，手帕上还缝着[From.GetPossPronoun]私人印章。;;;;;;;;;;x
+EVTOPTA_WOL_221;哈哈！我将得到[From.GetObjectPronoun]！;;;;;;;;;;x
+EVTOPTB_WOL_221;不巧的是，我对[From.GetObjectPronoun]不再感兴趣了;;;;;;;;;;x
+EVTDESC_WOL_222;在容易被那些臭名昭著的八卦者们偷听到的地方有意地说一些话，胜过一封情书。至少我是这么想的，但我的猎物，[From.GetTitledFirstName]，并没有对我作任何回应。;;;;;;;;;;x
+EVTOPTA_WOL_222;我需要另一个战术。;;;;;;;;;;x
+EVTOPTB_WOL_222;是时候结束尝试了！;;;;;;;;;;x
+EVTDESC_WOL_223;我认为，在容易被那些臭名昭著的八卦者们偷听到的地方有意地说一些话，胜过一封情书......嗯，[From.GetTitledFirstName]清晰地收到了我的讯息，因为[From.GetSubjectPronoun]开始了散播[From.GetPossPronoun]自己对我的谣言！;;;;;;;;;;x
+EVTOPTA_WOL_223;有心计嘛，但我不会那么轻易地放弃！;;;;;;;;;;x
+EVTOPTB_WOL_223;我和一匹马？！我受够了！;;;;;;;;;;x
+EVTTITLE_WOL_300;一个非正式的社交场合;;;;;;;;;;x
+EVTDESC_WOL_300;当[From.GetTitledName]抓住我的手再跳一支舞时，我的心跳得更加快了。天色渐晚，但这个[From.GetManWoman]是多么地使人着迷！我的脸一定红得像甜菜根。;;;;;;;;;;x
+EVTDESC_WOL_300_CR;我的[GetFromRelation][From.GetFirstName]整晚与我共舞。我想[From.GetSubjectPronoun]仅仅只是体贴，但我们之间越发莫名紧张。某些肉欲的，被禁止的......而又令人兴奋不已的东西.......;;;;;;;;;;x
+EVTDESC_WOL_300_M;这个小小的社交活动不过是件枯燥无味的事情，但[From.GetTitledName]刚刚又对着我扫了几下她自己的胸部。她是不是在跟我调情...？那绝对是在对我打眼色！从这分钟开始，这里变得越来越有趣了！;;;;;;;;;;x
+EVTOPTA_WOL_300;说些有趣的事情！;;;;;;;;;;x
+EVTOPTA_WOL_300_F;朝[From.GetObjectPronoun]挤挤胸部……;;;;;;;;;;x
+EVTOPTA_WOL_300_CR;美丽的罪恶！稍微把手摆下一点……;;;;;;;;;;x
+EVTOPTB_WOL_300;让[From.GetObjectPronoun]自讨没趣。;;;;;;;;;;x
+EVTOPTB_WOL_300_MAR;我是个有家室的[Root.GetManWoman]！请允许我离开一下。;;;;;;;;;;x
+EVTOPTB_WOL_300_OLD;[From.GetSubjectPronounCap]对我而言太过年轻了！;;;;;;;;;;x
+EVTOPTB_WOL_300_YOUNG;[From.GetSubjectPronounCap]对我而言太老了！;;;;;;;;;;x
+EVTOPTB_WOL_300_CR;[GetFromRelation]，这绝对不行！;;;;;;;;;;x
+EVTTOOLTIP_WoL_301;[This.GetFirstName]的求爱受到鼓舞;;;;;;;;;;x
+EVTTOOLTIP_WoL_302;[This.GetFirstName]的求爱收到拒绝;;;;;;;;;;x
+EVTTITLE_WOL_301;一个非正式的社交场合;;;;;;;;;;x
+EVTDESC_WOL_301;我确保自己得以参加这个在[From.Capital.Capital.GetName]举办的小聚会，以便勾引[From.GetTitledFirstName]。我们整晚都在跳舞和聊天，[From.GetSubjectPronoun]清晰地回应了我的求爱……;;;;;;;;;;x
+EVTDESC_WOL_301_DISTANT;我不远千里地来到[From.Employer.GetTitledName]在[From.Capital.Capital.GetName]的宫廷，以便让我得以在一个小型的庆祝晚宴上与[From.GetFirstName]见面。我们整晚都在跳舞和聊天，[From.GetSubjectPronoun]清晰地回应了我的求爱……;;;;;;;;;;x
+EVTOPTA_WOL_301;[From.GetMilordMilady]，来我的房间吧？;;;;;;;;;;x
+EVTOPTB_WOL_301;离开，好让[From.GetObjectPronoun]更加渴望……;;;;;;;;;;x
+EVTOPTC_WOL_301;我获得了肯定，这就够了，现在我要结束这一切。;;;;;;;;;;x
+EVTTOOLTIP_WoL_303;设法使[This.GetObjectPronoun]成为我的情人;;;;;;;;;;x
+EVTTOOLTIP_WoL_304;提升[This.GetPossPronoun] 对我的好感;;;;;;;;;;x
+EVTDESC_WOL_302;我参加了在 [From.Capital.Capital.GetName] 举办的一场小型活动,期望能勾引到[From.GetTitledFirstName]，即便我尽力而为，[From.GetSubjectPronoun]仍不感兴趣.;;;;;;;;;;x
+EVTOPTA_WOL_302;我需要更多的练习;;;;;;;;;;x
+EVTDESC_WOL_303;在庆祝活动就要结束的时候，[From.GetFirstName]牵起了我的手、望着我的眼睛。'[Root.GetMilordMilady]，你愿意陪我回到我的房间吗？';;;;;;;;;;x
+EVTDESC_WOL_303_F;晚上的狂欢即将结束. [From.GetFirstName] 指使侍从向我传达信息. '她甚至不会注意到我们离开...' [From.GetSubjectPronounCap] 色眯眯地笑着拍了拍我的臀部.;;;;;;;;;;x
+EVTOPTA_WOL_303;这真是甜蜜的诱惑!;;;;;;;;;;x
+EVTOPTB_WOL_303;我不是那种 [Root.GetLadLass]!;;;;;;;;;;x
+EVTOPTC_WOL_303;大声嘲笑和侮辱 [From.GetObjectPronoun]!;;;;;;;;;;x
+EVTOPTC_WOL_303_F;掌掴 [From.GetObjectPronoun] 并当众大吵大闹!;;;;;;;;;;x
+EVTTOOLTIP_WoL_306;有一个难忘的夜晚!;;;;;;;;;;x
+EVTDESC_WOL_304;多么美妙的一个夜晚啊! 我想我爱上 [From.GetFirstName]……;;;;;;;;;;x
+EVTOPTA_WOL_304;我必须拥有 [From.GetObjectPronoun]!;;;;;;;;;;x
+EVTDESC_WOL_305;只是当事情真的升温后，[From.GetFirstName]原谅了 [From.GetReflexivePronoun] 并离开了!;;;;;;;;;;x
+EVTOPTA_WOL_305;我做了什么?;;;;;;;;;;x
+EVTDESC_WOL_306;我当然知道如何引诱 [From.GetMenWomen]! [From.GetFirstName]和我在 [From.GetPossPronoun] 的床上偷情，并度过了甜蜜的一夜. 凌晨我神不知鬼不觉的偷偷离开了... 但愿如此!;;;;;;;;;;x
+EVTDESC_WOL_306_CR;我当然知道如何引诱 [From.GetMenWomen]! [Root.Religion.GetRandomEvilGodNameCap] 一定会索取我们充满罪孽的灵魂，但 [From.GetFirstName]依然和我在 [From.GetPossPronoun] 的床上偷情，并度过了甜蜜的一夜. 凌晨我神不知鬼不觉的偷偷离开了... 但愿如此!;;;;;;;;;;x
+EVTOPTA_WOL_306;我来，我见，我征服;;;;;;;;;;x
+EVTOPTA_WOL_306_CUSTOM;虽然爱着 [From.GetObjectPronoun] 但是不得不离开 [From.GetObjectPronoun].;;;;;;;;;;x
+EVTOPTB_WOL_306;让我们继续相爱!;;;;;;;;;;x
+EVTDESC_WOL_307;当庆祝节目快结束的时候，我把 [From.GetFirstName]带到一边并建议我们一起离开... 我无法相信 [From.GetSubjectPronoun] 竟然拒绝了我!;;;;;;;;;;x
+EVTOPTA_WOL_307;这人的美德显而易见;;;;;;;;;;x
+EVTOPTB_WOL_307;我没有这个耐心;;;;;;;;;;x
+EVTDESC_WOL_308;我以为 [From.GetFirstName]已经被我迷住了，但是当我建议两人一起离开时，[From.GetSubjectPronoun] loudly mocked me and walked off with [From.GetPossPronoun] rather inebriated attendant，laughing cruelly!;;;;;;;;;;x
+EVTOPTA_WOL_308;哈. 我的猎物真是争强好胜!;;;;;;;;;;x
+EVTOPTB_WOL_308;我受够了这个泼妇!;;;;;;;;;;x
+EVTOPTB_WOL_308_F;我受够了这个小丑!;;;;;;;;;;x
+EVTTITLE_WOL_351;一份宵夜;;;;;;;;;;x
+EVTDESC_WOL_351;我"偶然"在 [From.GetFirstName]在 [From.GetSubjectPronoun] 惯常去厨房找 [From.GetPossPronoun] 夜宵时碰上了. 我们愉快的聊天，几个小时过去了，我知道感情已经萌生. 为了知道是否读 [From.GetObjectPronoun] 心正确，我靠到 [From.GetPossPronoun] 耳边……;;;;;;;;;;x
+EVTDESC_WOL_351_DISTANT;去往 [From.Employer.GetTitledName]处的旅程十分枯燥，但我"偶然"在 [From.GetFirstName]在 [From.GetSubjectPronoun] 惯常去厨房找 [From.GetPossPronoun] 夜宵时碰上了. 我们愉快的聊天，几个小时过去了，我知道[From.GetSubjectPronoun]的感情已经萌生. 为了知道是否读 [From.GetObjectPronoun] 心正确，我靠到 [From.GetPossPronoun] 耳边…;;;;;;;;;;x
+EVTOPTA_WOL_351;坦白我的爱;;;;;;;;;;x
+EVTOPTB_WOL_351;提出一个下流的提议;;;;;;;;;;x
+EVTOPTC_WOL_351;朗诵情诗;;;;;;;;;;x
+EVTOPTD_WOL_351;把我的嘴唇靠近 [From.GetPossPronoun] 的耳边并温柔地吐息;;;;;;;;;;x
+EVTTOOLTIP_WoL_352_LOVE;我打赌 [This.GetFirstName]是一个天真浪漫的人;;;;;;;;;;x
+EVTTOOLTIP_WoL_352_LEWD;我打赌 [This.GetFirstName]是一个性经验丰富而且淫荡的人;;;;;;;;;;x
+EVTTOOLTIP_WoL_352_POET;我打赌 [This.GetFirstName]会以诗歌和学识应对;;;;;;;;;;x
+EVTTOOLTIP_WoL_352_BREATH;使用一个经久不衰的伎俩来诱惑;;;;;;;;;;x
+EVTDESC_WOL_352;当我悄悄地走进了平时为我准备宵夜的厨房，我遇见了 [From.GetTitledFirstNameNoRegnal]. 我们谈笑了好几个小时而且话题越来越暧昧，我们的手也握在了一起…… 突然，[From.GetSubjectPronoun] 靠了过来并在我的耳边轻声低语……;;;;;;;;;;x
+EVTDESC_WOL_352_DISTANT;当我悄悄地走进了平时为我准备宵夜的厨房，我遇见了一位来自远方的客人，[From.GetTitledFirstName]. 我们谈笑了好几个小时而且话题越来越暧昧，我们的手也握在了一起…… 突然，[From.GetSubjectPronoun] 靠了过来并在我的耳边轻声低语……;;;;;;;;;;x
+EVTDESC_WOL_352_HOMO;当我悄悄地走进了平时为我准备宵夜的厨房，我遇见了 [From.GetTitledFirstNameNoRegnal]. 我们谈笑了好几个小时，暧昧的气氛在我们之间滋生. 吸引力? 来自另一个 [From.GetManWoman]..?! 在我们将要离开的时候，[From.GetSubjectPronoun] 突然靠了过来并在我的耳边轻声低语……;;;;;;;;;;x
+EVTDESC_WOL_352_CR;当我悄悄地走进了平时为我准备宵夜的厨房，我遇见了我的 [GetFromRelation] [From.GetFirstName]. 我们谈笑了好几个小时，暧昧的气氛在我们之间滋生. 吸引力? 来自我的 [GetFromRelation]..?! 在我们将要离开的时候，[From.GetSubjectPronoun] 突然靠了过来并在我的耳边轻声低语……;;;;;;;;;;x
+EVTOPTA_WOL_352_POET;多么博学! 我难以抵御诗歌的魅力……;;;;;;;;;;x
+EVTOPTA_WOL_352_LEWD;多么下流，[From.GetFirstName]! 来吧，让我们一起承担这份罪孽……;;;;;;;;;;x
+EVTOPTA_WOL_352_LOVE;爱情如此甜蜜! 我的心怎能抗拒?;;;;;;;;;;x
+EVTOPTA_WOL_352_BREATH;[From.GetPossPronounCap] 灼热的气息像电流一样穿过我的身体!;;;;;;;;;;x
+EVTTOOLTIP_WoL_306_2;跟着 [This.GetFirstName]上了床……;;;;;;;;;;x
+EVTOPTB_WOL_352_POET;诗歌? 我根本不在乎这样的废话!;;;;;;;;;;x
+EVTOPTB_WOL_352_LEWD;多么无礼! 我难以想象有这样猥亵的词语存在!;;;;;;;;;;x
+EVTOPTB_WOL_352_LOVE;爱的表白? 多么幼稚的废话!;;;;;;;;;;x
+EVTOPTB_WOL_352_BREATH;欲望淹没了我，但我必须要坚强!;;;;;;;;;;x
+EVTDESC_WOL_353;[From.GetFirstName] 离开了我，在离开之前一边红着脸一边结结巴巴地说抱歉.;;;;;;;;;;x
+EVTDESC_WOL_353_CR;[From.GetFirstName]带着震惊和厌恶的表情猛地离开我，并惊呼道 '看在 [From.Religion.GetRandomGodName]的份上，[Root.GetFirstName]，我是你的 [GetFromRelation]!';;;;;;;;;;x
+EVTDESC_WOL_353_OLD_M;[From.GetFirstName] 猛地远离我并露出了吃惊的表情，感叹道 '[Root.GetTitledFirstNameNoRegnal]! 你老的足以做我的父亲!' 然后 [From.GetSubjectPronoun] 咯咯地笑着跑开了.;;;;;;;;;;x
+EVTDESC_WOL_353_OLD_F;[From.GetFirstName] 猛地远离我并露出了吃惊的表情，感叹道 '抱歉 [Root.PrimaryTitle.GetRulerTitle]，但你对我而言太老了!' 然后匆匆离开了.;;;;;;;;;;x
+EVTDESC_WOL_353_YOUNG;[From.GetFirstName]慢慢地摇了摇 [From.GetPossPronoun] 的脑袋，笑嘻嘻地 [From.GetSubjectPronoun] 轻轻把我推开. '抱歉 [Root.GetLadLass]，你仍然有很多东西需要学习关于 [From.GetMenWomen]!';;;;;;;;;;x
+EVTTITLE_WOL_401;野外的诱惑;;;;;;;;;;x
+EVTDESC_WOL_401;我和 [From.GetTitledFirstNameNoRegnal] 参加了一场郊游活动. 遗憾的是，超过半数的宫廷人员也都在场，我没法同我多情的猎物单独相处……;;;;;;;;;;x
+EVTDESC_WOL_401_DISTANT;我离家和 [From.GetTitledFirstNameNoRegnal] 参加了一场郊游活动. 遗憾的是，[From.Employer.PrimaryTitle.GetName] 超过半数的宫廷人员也都在场，我没法同我多情的猎物单独相处……;;;;;;;;;;x
+EVTDESC_WOL_401_CR;我和 [From.GetFirstName]参加了一场郊游活动. 超过半数的宫廷人员陪同，这导致我很难有时间同我的目标单独相处，[From.GetFirstName]是我的 [GetFromRelation]，所以我应该避嫌……;;;;;;;;;;x
+EVTDESC_WOL_401_HOMO;我和[From.GetFirstName]参加了一场郊游活动。因为超过半数的宫廷人员陪同，这导致我很难有时间同我的目标单独相处，但是[From.GetFirstName]是另一个 [Root.GetManWoman]，所以这不会引起怀疑……;;;;;;;;;;x
+EVTOPTA_WOL_401;从 [From.GetPossPronoun] 的朋友中寻找盟友;;;;;;;;;;x
+EVTOPTB_WOL_401;留给 [From.GetObjectPronoun] 一张纸条约定在小溪见面;;;;;;;;;;x
+EVTOPTC_WOL_401;和 [From.GetObjectPronoun] 一起单独散步;;;;;;;;;;x
+EVTOPTD_WOL_401;悄悄和 [From.GetObjectPronoun] 调情;;;;;;;;;;x
+EVTDESC_WOL_403;我发现 [From.GetBestName]对我浪漫事业有好感. [From.GetSubjectPronounCap] 和 [FromFromFrom.GetFirstName]"偶然"在河边撞见了我，我们三个度过了美妙的时光. 我觉得 [FromFromFrom.GetSubjectPronoun] 对我有好感，因为 [FromFromFrom.GetSubjectPronoun] 几乎没发现 [FromFromFrom.GetPossPronoun] 朋友走了. 我靠到 [FromFromFrom.GetPossPronoun] 耳边……;;;;;;;;;;x
+EVTDESC_WOL_404;在一次野外踏青活动中，我发现我和 [From.GetTitledFirstNameNoRegnal] 在一条小溪旁独处，所有我的朋友和仆人似乎都不在我身边. 几个小时在我和迷人的 [From.GetTitledFirstNameNoRegnal] 的谈笑中渡过. 突然，[From.GetSubjectPronoun] 斜靠过来并在我的耳边轻声耳语……;;;;;;;;;;x
+EVTDESC_WOL_404_DISTANT;在一次野外踏青活动中，我发现我和远方的来客 [From.GetTitledFirstName]在一条小溪旁独处. 所有我的朋友和仆人似乎都不在我身边. 几个小时在我和迷人的 [From.GetTitledFirstNameNoRegnal] 的谈笑中渡过. 突然，[From.GetSubjectPronoun] 斜靠过来并在我的耳边轻声耳语……;;;;;;;;;;x
+EVTDESC_WOL_404_HOMO;在一次野外踏青活动中，[From.GetTitledFirstName]离开了众人所在的地方走到了附近的小溪旁愉快的聊天. 几个小时过去了，我们坐在山崖上看着水流，暧昧的气氛在我们之中滋生. 吸引力? 来自另一个 [From.GetManWoman]..?! 当我们起身离开时，[From.GetSubjectPronoun] 突然靠过来并在我的耳边轻声耳语……;;;;;;;;;;x
+EVTDESC_WOL_404_CR;在一次野外踏青活动中，我的 [GetFromRelation] [From.GetFirstName]和我离开了众人所在的地方走到了附近的小溪旁. 紧挨着坐在山崖上，流言和家族的提醒都抛之脑后…… 欲望? 来自我自己的 [GetFromRelation]..?! 突然，[From.GetSubjectPronoun] 把手放到了我的腿上，凑到我的耳边轻声细语……;;;;;;;;;;x
+EVTTOOLTIP_WoL_405;跟着 [This.GetObjectPronoun] 走入温暖的溪水中……;;;;;;;;;;x
+EVTDESC_WOL_405;[From.GetFirstName]和我花了很多时间在水中和温暖的悬崖上做爱. 当我们在晚上笑嘻嘻和衣着整洁地回到宴会上时，我们发现大家都在找我们. 侍从们冲了过来，而更多的人则充满怀疑地扬起了眉毛……;;;;;;;;;;x
+EVTDESC_WOL_405_SIN;在那河温暖的水中，[From.GetFirstName]和我把灵魂献给了 [Root.Religion.GetRandomEvilGodName]，得到了罪恶. 当那晚上我们回到派对上，面露红光喜笑颜开，侍者急着过来. 他们是不是知道了...[Root.Religion.GetRandomGodName]他们可不要知道!;;;;;;;;;;x
+EVTDESC_WOL_407;我要求 [FromFrom.GetBestName]帮助我追求 [From.GetTitledFirstNameNoRegnal]，但是 [FromFrom.GetSubjectPronoun] 一点都不友善. 事实上，我感觉 [FromFrom.GetSubjectPronoun] 从现在开始会密切地关注我……;;;;;;;;;;x
+EVTOPTA_WOL_407;我应该给 [From.GetFirstName]留张纸条!;;;;;;;;;;x
+EVTOPTB_WOL_407;我厌倦了这场游戏;;;;;;;;;;x
+EVTDESC_WOL_409;我的 [GetFromFromRelation] [FromFrom.GetBestName]告诉我 [FromFromFrom.GetTitledName]试图招揽 [FromFrom.GetObjectPronoun] 来协助他勾引我的 [GetFromRelation] [From.GetFirstName]!;;;;;;;;;;x
+EVTOPTA_WOL_409_M;那个色鬼!;;;;;;;;;;x
+EVTOPTA_WOL_409_M_OLD;那个老色鬼!;;;;;;;;;;x
+EVTOPTA_WOL_409_F;那个放荡的女人!;;;;;;;;;;x
+EVTOPTA_WOL_409_F_OLD;那个放荡的老巫婆!;;;;;;;;;;x
+EVTDESC_WOL_412;这个我试图招揽来帮助我勾引 [From.GetTitledFirstNameNoRegnal] 的廷臣很不友善，而且还向 [From.GetPossPronoun] [GetFromVsFromFromFromRelation] 告密，现在我得到了一个新的敌人!;;;;;;;;;;x
+EVTDESC_WOL_414;我花了大部分郊游的时间去诱惑 [From.GetFirstName]的朋友，但收效甚微. 看上去没人愿意帮我追求 [From.GetObjectPronoun]……;;;;;;;;;;x
+EVTOPTA_WOL_414;我不会轻易放弃的!;;;;;;;;;;x
+EVTDESC_WOL_415;在一次野外郊游活动中，我发现我和 [From.GetTitledFirstNameNoRegnal] 谈了很多. 我觉得我被 [GetRootFromCompliment] 吸引了!;;;;;;;;;;x
+EVTDESC_WOL_415_DISTANT;在一次野外郊游活动中，我同正在我们的宫廷作客的 [From.GetTitledFirstNameNoRegnal] 谈了很多. 我觉得自己吸引到了 [GetRootFromCompliment]!;;;;;;;;;;x
+EVTDESC_WOL_416;尽管没有机会和 [From.GetTitledFirstNameNoRegnal] 单独相处，我还是相信我的个性给 [From.GetObjectPronoun] 留下了深刻印象!;;;;;;;;;;x
+EVTOPTA_WOL_416;我需要一个新的计划!;;;;;;;;;;x
+EVTDESC_WOL_418;在一次野外郊游活动中，我在帐篷周围的花丛中发现了一条信息! 它要求我一个人去小溪旁去见 [FromFrom.GetTitledFirstNameNoRegnal] !;;;;;;;;;;x
+EVTDESC_WOL_418_DISTANT;在一次野外郊游活动中，我在帐篷周围的花丛中发现了一条信息! 它要求我一个人去小溪旁去见我们远方的来客，[FromFrom.GetTitledFirstNameNoRegnal] !;;;;;;;;;;x
+EVTOPTA_WOL_418_F;多么让人兴奋! 我的佣人可以掩护我.;;;;;;;;;;x
+EVTOPTA_WOL_418_M;多么让人兴奋! 我的朋友可以掩护我.;;;;;;;;;;x
+EVTOPTB_WOL_418;找一个没有风险的方法去追求 [FromFrom.GetFirstName]!;;;;;;;;;;x
+EVTDESC_WOL_419;我没有在小溪附近等待 [From.GetTitledFirstNameNoRegnal] 太久. 我们花了好几个小时谈笑聊天，我相信 [From.GetSubjectPronoun] 爱上了我! 我倚在 [From.GetPossPronoun] 身上耳语……;;;;;;;;;;x
+EVTDESC_WOL_404_NOTE;我溜出帐篷去了小溪旁. 我发现 [From.GetTitledFirstNameNoRegnal] 正等着我，当 [From.GetSubjectPronoun] 看着我时看上去是如此的耀眼. 几个小时的时间在我和 [GetRootFromCompliment] 的谈笑中渡过了. 突然，[From.GetSubjectPronoun] 斜靠过来并在我的耳边轻声低语……;;;;;;;;;;x
+EVTDESC_WOL_404_HOMO_NOTE;我溜出帐篷去了小溪旁. 我发现 [From.GetTitledFirstNameNoRegnal] 正等着我，当 [From.GetSubjectPronoun] 看着我时看上去是如此的耀眼. 我们坐在山崖上并友好地交谈了好几个小时，一种暧昧的气氛在我们之间滋生. 吸引力? 来自另一个 [From.GetManWoman]..?! 当我们要离开时，[From.GetSubjectPronoun] 突然斜靠过来并在我的耳边轻声低语……;;;;;;;;;;x
+EVTDESC_WOL_420;我在小溪旁等了好几个小时，希望 [From.GetTitledFirstNameNoRegnal] 能够摆脱 [From.GetPossPronoun] 的朋友来见我，但是直到日落. [From.GetSubjectPronounCap] 还是没有来.;;;;;;;;;;x
+EVTDESC_WOL_421;在一次野外郊游活动中，我在帐篷旁边的花丛中发现了一条给我的 [GetFromFromFromRelation] [FromFromFrom.GetFirstName] 的信息! 一个骗子，[GetRootFromFromInsult] [FromFrom.GetTitledFirstName]，看来正在附近等着 [FromFromFrom.GetObjectPronoun] .;;;;;;;;;;x
+EVTOPTB_WOL_421;卫兵！抓住[FromFrom.GetObjectPronoun]！;;;;;;;;;;x
+EVTDESC_WOL_423;唉，我留在[From.GetTitledFirstNameNoRegnal]帐篷里的信息被她的[GetFromVsFromFromRelation] [FromFrom.GetTitledFirstNameNoRegnal]发现了。[FromFrom.GetSubjectPronounCap]很不高兴...…我很幸运没有被抓起来，但我给自己制造了一个敌人！;;;;;;;;;;x
+EVTDESC_WOL_423_PRISON;唉，我留在[From.GetTitledFirstNameNoRegnal]帐篷里的信息被她的[GetFromVsFromFromRelation][FromFrom.GetTitledFirstNameNoRegnal]发现了。[FromFrom.GetSubjectPronounCap]带着六个卫兵冲到了小溪旁把我抓了起来!;;;;;;;;;;x
+EVTOPTA_WOL_423;我喜欢高度危险的游戏!;;;;;;;;;;x
+EVTOPTA_WOL_423_PRISON;诅咒你! 当我出去后我打算再试一次!;;;;;;;;;;x
+EVTDESC_WOL_424;在一次野外郊游活动中，我在花丛中发现了一条给我的 [GetFromFromFromRelation] [FromFromFrom.GetTitledFirstNameNoRegnal] 的信息. 一个情人，[FromFrom.GetTitledFirstNameNoRegnal]，正在营地附近的小溪旁等着 [FromFromFrom.GetObjectPronoun] ……;;;;;;;;;;x
+EVTOPTB_WOL_424;我必须在这样危险的关系中保护 [FromFromFrom.GetFirstName]!;;;;;;;;;;x
+EVTOPTC_WOL_424;这[GetRootFromFromCompliment] [FromFrom.GetFirstName]？我自己去！;;;;;;;;;;x
+EVTDESC_WOL_426;我徒劳地在小溪旁等了好几个小时. 回到营地后我注意到 [From.GetFirstName]的 [GetFromVsFromFromRelation] 愤怒地瞪着我，[FromFrom.GetPossPronoun] 摇着头. 我猜我的信息被他发现了……;;;;;;;;;;x
+EVTDESC_WOL_428;我在河边不用等很久就见到 [FromFrom.GetMaleFemale] 身体在树丛间出现... 但那不是 [From.GetTitledFirstNameNoRegnal]，而是 [From.GetPossPronoun] [GetFromVsFromFromRelation] [FromFrom.GetTitledFirstNameNoRegnal]! 似乎[GetRootFromFromCompliment]是在寻找一场艳遇.;;;;;;;;;;x
+EVTOPTA_WOL_428;我想我可以帮忙……;;;;;;;;;;x
+EVTOPTB_WOL_428;谢谢，我的 [FromFrom.GetLordLady]，但不需要!;;;;;;;;;;x
+EVTTOOLTIP_WoL_430;[This.GetFirstName]很沮丧而且并不认同我……;;;;;;;;;;x
+EVTDESC_WOL_429;我在河边遇到了多情的 [From.GetTitledFirstNameNoRegnal] . [From.GetSubjectPronounCap] 很惊讶看到我而不是 [FromFrom.GetTitledFirstNameNoRegnal]，但勾引 [GetRootFromCompliment] 并没有花太多时间. 我们在水中和树下度过了一个激情神奇的下午.;;;;;;;;;;x
+EVTOPTA_WOL_429;我需要那个!;;;;;;;;;;x
+EVTDESC_WOL_430;我在河边遇到了多情的[From.GetTitledFirstNameNoRegnal]。[From.GetSubjectPronounCap]很惊讶看到我而不是[FromFrom.GetTitledFirstNameNoRegnal]，至少可以这么说！不幸的是，我的财富和魅力不足以勾引那个[GetRootFromInsult]！;;;;;;;;;;x
+EVTOPTA_WOL_430;[From.GetSubjectPronounCap] 会后悔的!;;;;;;;;;;x
+EVTDESC_WOL_1003;我的[GetFromFromRelation][FromFrom.GetFirstName]已经很久没有在深夜抱过我了，最近甚至连看都不看我一眼。而现在又开始传出[FromFrom.GetObjectPronoun]和那[GetRootFromInsult][From.GetBestName]的谣言…我再也受不了了！;;;;;;;;;;x
+EVTDESC_WOL_1003_CR;我的 [GetFromFromRelation] [FromFrom.GetFirstName] 不再抚摸我，或是看我. 而且[FromFrom.GetFirstName] 和 [FromFrom.GetPossPronoun] [GetFromFromVsFromRelation] [From.GetTitledFirstNameNoRegnal] 握手，森林中散步都有点不对... 真让我感到恶心.;;;;;;;;;;x
+EVTDESC_WOL_1003_TIP;今天我从 [FromFromFrom.GetTitledName]那得到一个消息. [FromFromFrom.GetSubjectPronounCap] 告诉我 [FromFromFrom.GetPossPronoun] 怀疑他的配偶，[From.GetTitledFirstNameNoRegnal] 和我的 [GetFromFromRelation] [FromFrom.GetFirstName]有私情，但是 [FromFromFrom.GetSubjectPronoun] 什么都不敢做!;;;;;;;;;;x
+EVTOPTA_WOL_1003;面对 [FromFrom.GetFirstName]!;;;;;;;;;;x
+EVTOPTB_WOL_1003_M;面对 [From.GetTitledFirstNameNoRegnal]!;;;;;;;;;;x
+EVTOPTB_WOL_1003_F;面对这个妓女，[From.GetTitledFirstNameNoRegnal]!;;;;;;;;;;x
+EVTOPTC_WOL_1003;专注于更重要的事情;;;;;;;;;;x
+EVTOPTC_WOL_1003_HOMO_F;女人的情人? 让他们搞吧……;;;;;;;;;;x
+EVTDESC_WOL_1004;我的 [GetFromRelation] [From.GetFirstName]刚刚问我是否与 [FromFrom.GetTitledName]有染. [From.GetPossPronounCap] 岩石般的表情并没有透露 [From.GetSubjectPronoun] 到底是真的知道了还是仅仅是猜测……;;;;;;;;;;x
+EVTOPTA_WOL_1004;含泪忏悔，并请求原谅;;;;;;;;;;x
+EVTOPTB_WOL_1004;承认这一点，但拒绝与 [FromFrom.GetFirstName]分手;;;;;;;;;;x
+EVTOPTC_WOL_1004;对 [From.GetPossPronoun] 撒谎;;;;;;;;;;x
+EVTOPTD_WOL_1004;撒谎并使 [From.GetObjectPronoun] 感到内疚!;;;;;;;;;;x
+EVTTOOLTIP_WoL_1005;我和 [This.GetTitledFirstNameNoRegnal] 的私情结束了;;;;;;;;;;x
+EVTDESC_WOL_1005;我的情人，[From.GetTitledFirstNameNoRegnal] 同我分手了! 显然，[From.GetPossPronoun] 嫉妒 [GetFromVsFromFromRelation] 和 [From.GetObjectPronoun] 之间的私情……;;;;;;;;;;x
+EVTOPTA_WOL_1005_F;那个爱管闲事的巫婆!;;;;;;;;;;x
+EVTOPTA_WOL_1005_M;那个可恶的恶棍!;;;;;;;;;;x
+EVTTOOLTIP_WoL_1006;[This.GetFirstName]感到沮丧;;;;;;;;;;x
+EVTTOOLTIP_WoL_1009;[This.GetFirstName]感到沮丧而且可能有些反应过度……;;;;;;;;;;x
+EVTTOOLTIP_WoL_1022;[This.GetFirstName]回应了我的谎言……;;;;;;;;;;x
+EVTTOOLTIP_WoL_1010;[This.GetFirstName]被操纵了;;;;;;;;;;x
+EVTDESC_WOL_1006;我的 [GetFromRelation] [From.GetFirstName]含泪承认 [From.GetPossPronoun] 与 [FromFromFrom.GetTitledFirstNameNoRegnal] 有染并下跪乞求我原谅 [From.GetPossPronoun] ……;;;;;;;;;;x
+EVTOPTA_WOL_1006;果然如此，我感到非常失望.;;;;;;;;;;x
+EVTOPTB_WOL_1006;绝不原谅! 公开谴责他们!;;;;;;;;;;x
+EVTDESC_WOL_1007;我的情人 [FromFrom.GetTitledFirstNameNoRegnal] 的 [GetFromFromVsFromRelation] 发现被戴了绿帽，公开谴责我们的通奸行为!;;;;;;;;;;x
+EVTDESC_WOL_1007_LOVER_ADM;那个[GetRootFromInsult][From.GetTitledFirstNameNoRegnal]不接受我真诚的歉意，选择公开谴责我和[From.GetPossPronoun][GetFromVsFromFromRelation][FromFrom.GetTitledFirstNameNoRegnal]的私情 !;;;;;;;;;;x
+EVTDESC_WOL_1007_SPYING;[From.GetTitledFirstNameNoRegnal]雇佣间谍探查我和[From.GetPossPronoun][GetFromVsFromFromRelation][FromFrom.GetTitledFirstNameNoRegnal]。他们发现了我们的恋情，而那个[GetRootFromInsult] 选择公开戳穿我们的私情！;;;;;;;;;;x
+EVTDESC_WOL_1008;无论我说什么,我愤怒的 [GetFromRelation] [From.GetFirstName] 都不接受我真诚的道歉. [From.GetSubjectPronounCap] 公开谴责了我和我的情人 [FromFromFromFrom.GetTitledFirstNameNoRegnal] .;;;;;;;;;;x
+EVTDESC_WOL_1008_CRUEL;我那坏心的[GetFromRelation][From.GetFirstName]没法接受我对[GetFromFromFromFromRelation][FromFromFromFrom.GetTitledFirstNameNoRegnal]爱的宣言. 那个[GetRootFromInsult]公开说我们的坏话。;;;;;;;;;;x
+EVTDESC_WOL_1009;欺骗了我的[GetFromRelation]——那个[GetRootFromInsult]——只是傻笑并公开承认自己与[FromFromFrom.GetTitledName]有私情！;;;;;;;;;;x
+EVTOPTA_WOL_1009_M;这是一个男人的世界. 我只能放下我的自尊.;;;;;;;;;;x
+EVTOPTA_WOL_1009_F;我现在承担不起这样的丑闻……;;;;;;;;;;x
+EVTOPTB_WOL_1009;公开谴责他们!;;;;;;;;;;x
+EVTDESC_WOL_1022;我的 [GetFromRelation] [From.GetFirstName] 坚决否认与 [FromFromFrom.GetTitledFirstNameNoRegnal] 有私情并承诺会花更多的时间在我身上.;;;;;;;;;;x
+EVTOPTA_WOL_1022;这算是一种解脱，但我仍有疑虑……;;;;;;;;;;x
+EVTOPTB_WOL_1022;[FromFromFrom.GetFirstName] 已经结婚了. 要求 [FromFromFrom.GetPossPronoun] 的配偶 [FromFromFrom.Spouse.GetTitledFirstNameNoRegnal] 进行调查.;;;;;;;;;;x
+EVTOPTC_WOL_1022;花钱请人监视那二人;;;;;;;;;;x
+EVTTOOLTIP_WoL_1023;[This.Spouse.GetFirstName] 通风报信了.;;;;;;;;;;x
+EVTDESC_WOL_1025;[From.GetTitledFirstNameNoRegnal] 感谢我让 [From.GetObjectPronoun] 意识到了我们的配偶可能的欺骗行径. [From.GetSubjectPronounCap] 承诺调查此事……;;;;;;;;;;x
+EVTOPTA_WOL_1025;我希望这就是全部!;;;;;;;;;;x
+EVTDESC_WOL_1027;我的间谍仔细探查 [GetFromFromFromRelation] [FromFromFrom.GetFirstName] 和 [From.GetTitledFirstNameNoRegnal]，据此他们可以确定，他们没有通奸行为.;;;;;;;;;;x
+EVTDESC_WOL_1028;我的间谍报告说他们在靠近 [From.Location.Capital.GetName]的林间空地上把正在偷情的 [GetFromFromFromRelation] 和 [FromFromFrom.GetPossPronoun] 的情人，[From.GetTitledFirstNameNoRegnal] 抓个正着!;;;;;;;;;;x
+EVTOPTA_WOL_1028;不! 但是... 我不想要这样的丑闻.;;;;;;;;;;x
+EVTOPTB_WOL_1028;肮脏! 公开谴责他们!;;;;;;;;;;x
+EVTDESC_WOL_1031;我多疑的 [GetFromRelation] [From.GetFirstName]不相信我的抵赖并雇佣间谍拆穿了我和 [FromFrom.GetTitledFirstNameNoRegnal] 的私情. [From.GetSubjectPronounCap] 公开谴责了我们!;;;;;;;;;;x
+EVTDESC_WOL_1010_F;当我询问她的绯闻对象 [FromFromFrom.GetTitledName] 的事情时 [From.GetFirstName] 很生气，说她简直生活在监狱里而我甚至不给她最基本的自由.;;;;;;;;;;x
+EVTDESC_WOL_1010_M;当我询问她的绯闻对象 [FromFromFrom.GetTitledName] 的事情时 [From.GetFirstName] 很生气 ，说我不仅越来越冷漠和疏远而且还怀疑她.;;;;;;;;;;x
+EVTDESC_WOL_1033;[From.GetBestName]，我的情人 [FromFromFrom.GetTitledFirstNameNoRegnal] 的 [GetFromFromFromVsFromRelation] 令人吃惊地当面问我我和我的情人是否有私情!;;;;;;;;;;x
+EVTDESC_WOL_1033_DISTANT;[From.GetBestName]，我的情人 [FromFromFrom.GetTitledFirstNameNoRegnal] 的 [GetFromFromFromVsFromRelation]  给我写了一封信并直接地问我我和我的情人是否有私情!;;;;;;;;;;x
+EVTOPTA_WOL_1033;断然否认;;;;;;;;;;x
+EVTOPTB_WOL_1033;承认并保证结束这段私情;;;;;;;;;;x
+EVTOPTC_WOL_1033_F;我要杀了那个婊子!;;;;;;;;;;x
+EVTOPTC_WOL_1033_M;[GetRootFromInsult]！我要杀了他！;;;;;;;;;;x
+EVTTOOLTIP_WoL_1011_ATTACK;[From.GetTitledFirstNameNoRegnal]被袭击了而且可能伤得很重！;;;;;;;;;;x
+EVTDESC_WOL_1012;[FromFrom.GetTitledFirstNameNoRegnal] 表现得十分惊奇,拒绝承认与我的 [GetFromRelation] [From.GetFirstName]有恋情.;;;;;;;;;;x
+EVTDESC_WOL_1012_ATTACKED;当被问及 [FromFrom.GetPossPronoun] 和我的 [GetFromRelation] [From.GetFirstName]的私情时，[FromFrom.GetTitledFirstNameNoRegnal] 勃然大怒并殴打了我!;;;;;;;;;;x
+EVTOPTA_WOL_1012;哦. 好吧.;;;;;;;;;;x
+EVTOPTA_WOL_1012_ATTACKED;这样的愤怒应该意味着清白... 是吧?;;;;;;;;;;x
+EVTOPTB_WOL_1012;我不需要证明，我会用毒药对付他!;;;;;;;;;;x
+EVTTOOLTIP_WoL_1013;一有机会就毒死 [This.GetFirstName] .;;;;;;;;;;x
+EVTOPTC_WOL_1012_DUEL;我们的武器将裁决 [FromFrom.GetPossPronoun] 有罪!;;;;;;;;;;x
+EVTTOOLTIP_WoL_1032;[This.GetFirstName] 遭到挑战，被要求决斗.;;;;;;;;;;x
+EVTDESC_WOL_1014;多么美好的夜晚! 美味的食物，精彩的表演，朋友们也陪在我的身边. 但是... 我感觉不太好. 我不能呼吸了. 我不能呼吸了!;;;;;;;;;;x
+EVTOPTA_WOL_1014;[FromFrom.GetTitledFirstNameNoRegnal]，在临死之前我用最后一口气诅咒你!;;;;;;;;;;x
+EVTDESC_WOL_1015;多么美好的夜晚! 美味的食物，精彩的表演，朋友们也陪在我的身边. 但是... 我感觉不太好. 我中毒了吗?;;;;;;;;;;x
+EVTOPTA_WOL_1015;这贝类食物是被下毒了还是坏掉了?;;;;;;;;;;x
+EVTDESC_WOL_1016;下流的 [From.GetAdultererAdulteress]，[From.GetTitledFirstNameNoRegnal]，没有吃下了毒的贝类，但我听说一个在厨房干活的男孩当晚死去了.;;;;;;;;;;x
+EVTOPTA_WOL_1016;可能 [Root.Religion.GetRandomEvilGodName]诅咒了 [From.GetObjectPronoun]!;;;;;;;;;;x
+EVTDESC_WOL_1017;我看到下流的 [From.GetAdultererAdulteress]，[From.GetTitledFirstNameNoRegnal]躺在画廊的地板上窒息而死，仆人们为了救他忙得团团转. 当然，这是徒劳的……;;;;;;;;;;x
+EVTOPTA_WOL_1017;我希望我的 [FromFromFromFrom.GetHusbandWife] 得到了暗示!;;;;;;;;;;x
+EVTDESC_WOL_1018;下流的 [From.GetAdultererAdulteress]，[From.GetTitledFirstNameNoRegnal]，没有被毒死，但至少 [From.GetSubjectPronoun] 得了病.;;;;;;;;;;x
+EVTOPTA_WOL_1018;我需要和药剂师进行一次危险的谈话;;;;;;;;;;x
+EVTDESC_WOL_1019;我的情人 [From.GetTitledFirstNameNoRegnal]，同我分手了! 显然，[From.GetSubjectPronoun] 同我多疑的 [GetFromFromRelation] [FromFrom.GetFirstName] 谈过了并保证离开我.;;;;;;;;;;x
+EVTDESC_WOL_1019_DUEL;我愤怒的 [GetFromFromRelation] [FromFrom.GetFirstName]提出了决斗，我的情人，[From.GetTitledFirstNameNoRegnal]，决定承认 [From.GetPossPronoun] 有罪并同我分手!;;;;;;;;;;x
+EVTOPTA_WOL_1019;没有了 [From.GetFirstName]我该怎么活下去?;;;;;;;;;;x
+EVTDESC_WOL_1020; [GetRootFromFromInsult] [FromFrom.GetTitledFirstNameNoRegnal] 承认同我的 [GetFromRelation] [From.GetFirstName] 有私情，并真诚地向我道歉同时承诺离开我的 [GetFromRelation].;;;;;;;;;;x
+EVTOPTA_WOL_1020;好吧，那就让我做一个更好的[Root.GetManWoman]吧。;;;;;;;;;;x
+EVTDESC_WOL_1021;虽然我的情人真诚地道歉，我愤怒的 [GetFromRelation] [From.GetFirstName]依然选择公开的羞辱我和 [FromFromFrom.GetTitledFirstNameNoRegnal] 的通奸行为!;;;;;;;;;;x
+EVTDESC_WOL_1032;愤怒的 [From.GetTitledFirstNameNoRegnal] 不接受我的抵赖 并向我发起决斗来确定我和 [From.GetPossPronoun] [GetFromVsFromFromRelation]，我的情人，[FromFrom.GetTitledFirstNameNoRegnal] 有罪!;;;;;;;;;;x
+EVTOPTA_WOL_1032;接受挑战!;;;;;;;;;;x
+EVTOPTB_WOL_1032;决斗? 多么滑稽，多么可笑!;;;;;;;;;;x
+EVTOPTC_WOL_1032;我不是战士. 乞求宽恕.;;;;;;;;;;x
+EVTDESC_WOL_1034;胆怯的 [From.GetTitledFirstNameNoRegnal] 拒绝同我战斗!;;;;;;;;;;x
+EVTOPTA_WOL_1034;侮辱 [From.GetPossPronoun] 的荣誉!;;;;;;;;;;x
+EVTDESC_WOL_1036;经过几次试探交手，我意识到 [FromFrom.GetTitledFirstNameNoRegnal] 不精通武器. 我轻松地打败了 [FromFrom.GetObjectPronoun] ，证明了 [FromFrom.GetPossPronoun] 和我的 [GetFromFromFromFromRelation] [FromFromFromFrom.GetFirstName]有罪……;;;;;;;;;;x
+EVTDESC_WOL_1036_WOUND;和[FromFrom.GetTitledFirstNameNoRegnal]的决斗是场苦战，但最后我证明了我是个更强的[Root.GetManWoman]。尽管[FromFrom.GetSubjectPronoun]试图砍伤我，最后我还是证明了[FromFrom.GetPossPronoun]和我的[GetFromFromFromFromRelation] [FromFromFromFrom.GetFirstName]有罪。;;;;;;;;;;x
+EVTDESC_WOL_1036_MAIM;[FromFrom.GetTitledFirstNameNoRegnal] 被证明是一个强大的对手. 虽然我最后获得了胜利，但我失去了三根手指同时受了一些伤. 我证明了 [FromFrom.GetPossPronoun] 和我的 [GetFromFromFromFromRelation] [FromFromFromFrom.GetFirstName]有罪!;;;;;;;;;;x
+EVTOPTA_WOL_1036;我准许 [FromFrom.GetObjectPronoun] 毫发无伤地屈服，在 [FromFrom.GetPossPronoun] 失去武器之后;;;;;;;;;;x
+EVTOPTB_WOL_1036;[FromFrom.GetSubjectPronoun] 在我划伤 [FromFrom.GetPossPronoun] 的肩膀后屈服了;;;;;;;;;;x
+EVTOPTC_WOL_1036;[FromFrom.GetSubjectPronoun] 仅仅使我受了轻伤 当我砍断了 [FromFrom.GetPossPronoun] 的手时!;;;;;;;;;;x
+EVTOPTD_WOL_1036;我刺穿了[FromFrom.GetPossPronoun] 的心脏。这对[GetRootFromInsult]来说是一个合适的结局！;;;;;;;;;;x
+EVTDESC_WOL_1037;我野蛮的 [GetFromRelation] [From.GetFirstName] 在决斗中打败了我心爱的 [FromFromFrom.GetTitledFirstNameNoRegnal] ，从而证明了我们有罪.;;;;;;;;;;x
+EVTDESC_WOL_1037_WOUND;我野蛮的 [GetFromRelation] [From.GetFirstName] 在决斗中击败并打伤了我心爱的 [FromFromFrom.GetTitledFirstNameNoRegnal] ，从而证明了我们有罪.;;;;;;;;;;x
+EVTDESC_WOL_1037_MAIM;我恶毒的 [GetFromRelation] [From.GetFirstName] 在决斗中击败并致使我心爱的 [FromFromFrom.GetTitledFirstNameNoRegnal] 残废，从而证明了我们有罪.;;;;;;;;;;x
+EVTDESC_WOL_1037_DEATH;我魔鬼一般的[GetFromRelation]，[GetRootFromInsult][From.GetFirstName]，在决斗中杀了我心爱的[FromFromFrom.GetTitledFirstNameNoRegnal] ，从而证明了我们有罪.。从此之后我不得不活在屈辱中。;;;;;;;;;;x
+EVTOPTA_WOL_1037;我们必须赎罪……;;;;;;;;;;x
+EVTOPTB_WOL_1037;多么残酷的世界!?;;;;;;;;;;x
+EVTDESC_WOL_1038;虽然我奋勇战斗，但一心报复的 [FromFrom.GetTitledFirstNameNoRegnal] 在公平决斗中打败了我，从而证明了我和我的情人 [From.GetFirstName] 犯有通奸罪. 我们都感到羞耻.;;;;;;;;;;x
+EVTDESC_WOL_1038_WOUND;一心报复的 [FromFrom.GetTitledFirstNameNoRegnal] 在公平决斗中打败了我. 我在肩膀被刺穿后屈服了，从而证明了我和我的情人 [From.GetFirstName] 犯有通奸罪. 我们都感到羞耻.;;;;;;;;;;x
+EVTDESC_WOL_1038_MAIM;一心报复的 [FromFrom.GetTitledFirstNameNoRegnal] 在这场恶毒的决斗中切断了我的手，从而证明了我和我的情人 [From.GetFirstName] 犯有通奸罪. 残废和流血的伤口，让我不得不接受了屈辱.;;;;;;;;;;x
+EVTDESC_WOL_1038_DEATH;我和 [FromFrom.GetTitledFirstNameNoRegnal] 苦战了大概好几个小时，但是当我刚看到突破口的时候，[FromFrom.GetSubjectPronoun] 刺穿了我的心脏. 黑暗降临了.;;;;;;;;;;x
+EVTOPTA_WOL_1038;[Root.Religion.GetRandomGodNameCap] 公正地评判了我们. 我们必须赎罪.;;;;;;;;;;x
+EVTOPTB_WOL_1038;诅咒 [FromFrom.GetObjectPronoun]! 我一定会复仇的!;;;;;;;;;;x
+EVTOPTC_WOL_1038;[From.GetFirstName]，我羞辱你……;;;;;;;;;;x
+EVTDESC_WOL_1039;经过几次试探交手，我意识到 [From.GetTitledFirstNameNoRegnal] 不精通武器. 我轻松地打败了 [From.GetObjectPronoun] ，证明了我和我的 [GetFromFromFromFromRelation] [FromFromFromFrom.GetFirstName]的清白.;;;;;;;;;;x
+EVTDESC_WOL_1039_WOUND;和[From.GetTitledFirstNameNoRegnal]的决斗是场苦战，但最后我证明了我是个更强的[Root.GetManWoman]。尽管[From.GetSubjectPronoun]砍伤了我，但最后我依然证明了我和我的[GetFromFromFromFromRelation] [FromFromFromFrom.GetFirstName]的清白。;;;;;;;;;;x
+EVTDESC_WOL_1039_MAIM;[From.GetTitledFirstNameNoRegnal] 被证明是一个强大的对手. 虽然我最后获得了胜利，但我失去了三根手指同时受了一些伤. 但我最终证明了我和我的 [GetFromFromFromFromRelation] [FromFromFromFrom.GetFirstName]的清白!;;;;;;;;;;x
+EVTDESC_WOL_1040;我英勇的 [GetFromRelation] [From.GetTitledFirstNameNoRegnal] 在决斗中击败了 [GetFromFromRelation] [FromFrom.GetFirstName] ，从而证明了我们的清白.;;;;;;;;;;x
+EVTDESC_WOL_1040_WOUND;我英勇的 [GetFromRelation] [From.GetTitledFirstNameNoRegnal] 在决斗中击败了 [GetFromFromRelation] [FromFrom.GetFirstName] ，从而证明了我们的清白.;;;;;;;;;;x
+EVTDESC_WOL_1040_MAIM;我的 [GetFromRelation] [From.GetTitledFirstNameNoRegnal] 在决斗中击败了我的 [GetFromFromRelation] [FromFrom.GetFirstName] ，在战斗中他的手被砍断了. 我们的清白得到了证明.;;;;;;;;;;x
+EVTDESC_WOL_1040_DEATH;我的 [GetFromRelation] [From.GetTitledFirstNameNoRegnal] 为了捍卫我的名誉在决斗中杀死了我的 [GetFromFromRelation] [FromFrom.GetFirstName] . 我们的清白得到了证明.;;;;;;;;;;x
+EVTOPTA_WOL_1040;[Root.Religion.GetRandomGodNameCap] 支持我们的爱情!;;;;;;;;;;x
+EVTOPTB_WOL_1040;我的 [Root.Religion.GetRandomGodName]宽恕了我们!;;;;;;;;;;x
+EVTDESC_WOL_1041;我奋勇战斗，心中充斥着正义之怒，然而 [FromFrom.GetTitledFirstNameNoRegnal] 在公平的决斗中打败了我，从而证明了 [FromFrom.GetPossPronoun] 和我的 [GetFromRelation] [From.GetFirstName]的清白.;;;;;;;;;;x
+EVTDESC_WOL_1041_WOUND;我奋勇战斗，心中充斥着正义之怒，然而 [FromFrom.GetTitledFirstNameNoRegnal] 一次又一次地砍伤了我. 血流如注的我不得不屈服. [Root.Religion.GetRandomGodNameCap] 已经证明了 [FromFrom.GetPossPronoun] 和我的 [GetFromRelation] [From.GetFirstName]的清白.;;;;;;;;;;x
+EVTDESC_WOL_1041_MAIM;[FromFrom.GetTitledFirstNameNoRegnal] 一次又一次地砍伤了我，但我毫不示弱. 突然，[FromFrom.GetPossPronoun] 的武器反射的强光令我目眩，[FromFrom.GetSubjectPronoun] 趁机砍伤了我的手! [Root.Religion.GetRandomGodNameCap] 已经证明了 [FromFrom.GetPossPronoun] 和我的 [GetFromRelation] [From.GetFirstName]的清白.;;;;;;;;;;x
+EVTDESC_WOL_1041_DEATH;我和 [FromFrom.GetTitledFirstNameNoRegnal] 艰难地战斗了大概好几个小时，我的怒火已经被疲惫取代，[FromFrom.GetSubjectPronoun] 刺穿了我的心脏. 黑暗降临了.;;;;;;;;;;x
+EVTOPTA_WOL_1041;[Root.Religion.GetRandomGodNameCap] 公正地评判了他们. [From.GetFirstName] 原谅了我.;;;;;;;;;;x
+EVTOPTC_WOL_1041;[Root.Religion.GetRandomGodNameCap] 公正地评判了我!;;;;;;;;;;x
+EVTDESC_WOL_1102;今天早上醒来的时候我意识到我对 [GetFromRelation] [From.GetTitledFirstNameNoRegnal]的感情已经冷却了.;;;;;;;;;;x
+EVTOPTA_WOL_1102;人生就是这样. 我应该告诉 [From.GetObjectPronoun].;;;;;;;;;;x
+EVTOPTB_WOL_1102;我们是 [GetFromRelation] 和 [GetFromReverseRelation]. 爱需要什么?;;;;;;;;;;x
+EVTOPTC_WOL_1102;我将重新点燃我们的爱火!;;;;;;;;;;x
+EVTDESC_WOL_1103;我的 [GetFromRelation] [From.GetTitledFirstNameNoRegnal] 进来一直在避开我，偶尔的相遇从一夜激情变成了彻夜吵闹. 当 [From.GetSubjectPronoun] 告诉我 [From.GetSubjectPronoun] 不再爱我时,我并没有感到十分意外，但却着实痛心.;;;;;;;;;;x
+EVTOPTC_WOL_1103;是时候重新勾引 [From.GetObjectPronoun]!;;;;;;;;;;x
+EVTTOOLTIP_WoL_1104;[This.GetSheHeCap] 度过了 [This.GetSubjectPronoun] 终身难忘的一夜！;;;;;;;;;;x
+EVTDESC_WOL_1104;我让[From.GetFirstName]知道我对 [From.GetObjectPronoun]不再有感觉，之后 [From.GetSubjectPronoun] 便去把我房间放满了花... [Root.Religion.GetRandomGodName]在上，[From.GetSubjectPronoun] 穿的是什么啊?!;;;;;;;;;;x
+EVTOPTA_WOL_1104;我爱 [From.GetObjectPronoun]! 或者仅仅是欲望? 谁在乎!;;;;;;;;;;x
+EVTOPTB_WOL_1104;对不起亲爱的，这不只是为了我.;;;;;;;;;;x
+EVTTOOLTIP_WoL_1105;[This.GetFirstName]依然是我的情人!;;;;;;;;;;x
+EVTDESC_WOL_1105;我用玫瑰铺满了 [From.GetFirstName]的房间并在 [From.GetPossPronoun] 的床上等他而且穿的... 非常少. 这给 [From.GetSubjectPronounCap] 留下了非常深刻的印象.;;;;;;;;;;x
+EVTOPTA_WOL_1105;我依然拥有它！;;;;;;;;;;x
+EVTDESC_WOL_1106;我用玫瑰铺满了 [From.GetFirstName]的房间并在 [From.GetPossPronoun] 的床上等他而且穿的... 非常少. [From.GetSubjectPronounCap] 只是叹了一口气然后走进了另一间卧室去休息.;;;;;;;;;;x
+EVTOPTA_WOL_1106;我失去了他吗?;;;;;;;;;;x
+converts_to_castle;将转换为 §Y$NAME$§! 当升级到城堡时.;;;;;;;;;;x
+converts_to_city;将转换为 §Y$NAME$§! 当升级到城市时.;;;;;;;;;;x
+converts_to_temple;将转换为 §Y$NAME$§! 当升级到寺庙时.;;;;;;;;;;x
+converts_to_tribal;将转换为 §Y$NAME$§! 当升级到部落时.;;;;;;;;;;x
+convert_settlement_to_castle;§Y$SETTLEMENT$§! 将升级为城堡。\n;;;;;;;;;;x
+convert_settlement_to_city;§Y$SETTLEMENT$§! 将升级为城市。\n;;;;;;;;;;x
+convert_settlement_to_temple;§Y$SETTLEMENT$§! 将升级为寺庙。\n;;;;;;;;;;x
+convert_settlement_to_tribal;§Y$SETTLEMENT$§! 将升级为部落。\n;;;;;;;;;;x
+NOT_ENOUGH_GOLD;(§R*§!)拥有 §G$COST$§! 金币;;;;;;;;;;x
+IS_BUILDING;(§R*§!)领地没有建造任何建筑;;;;;;;;;;x
+NOT_ENOUGH_PRESTIGE;(§RX§!) 拥有 §G$COST$§! 威望;;;;;;;;;;x
+ALLOW_FREE_VICEROY_REVOKATION_ON;可以任意收回总督公国头衔\n;;;;;;;;;;x
+ALLOW_FREE_VICEROY_REVOKATION_OFF;不再能任意收回总督公国头衔\n;;;;;;;;;;x
+REVOKE_TITLE_INTERACTION_2J;帝国行政法准许回收总督和大总督的头衔,无人会有意见.;;;;;;;;;;x
+action_build_zeal_desc;让你的[GetLordSpiritualName]鞭策人们更加虔诚，增加你自身的虔诚并有机会吸引来狂热的战士。如果你不让这些勇士参与圣战，你反而会失去虔诚。;;;;;;;;;;x
+action_organize_raid_desc;让你的 [GetMarshalName] 组织人们参加劫掠,赢取荣耀和财富! 如果你不利用这些勇士去劫掠，他们会愤怒地抢走你的钱.;;;;;;;;;;x
+action_build_legend_desc;让你的 [GetTreasurerName] 在人民中宣传你的传奇事迹，增加你的威望并吸引勇士. 如果你不利用这些勇士作战，你会失去威望.;;;;;;;;;;x
+INSULT_OLD;老头;;;;;;;;;;x
+INSULT_HARELIP;兔唇儿;;;;;;;;;;x
+COMPL_SWEET;宝贝儿;;;;;;;;;;x
+COMPL_SEDUCER;诱奸者;;;;;;;;;;x
+INSULT_TADPOLE;小蝌蚪;;;;;;;;;;x
+INSULT_CHILD;小屁孩;;;;;;;;;;x
+INSULT_VILE;卑鄙的;;;;;;;;;;x
+INSULT_FOUL;肮脏的;;;;;;;;;;x
+INSULT_FILTHY;下流的;;;;;;;;;;x
+INSULT_CLOWN;小丑;;;;;;;;;;x
+INSULT_COW;牛;;;;;;;;;;x
+INSULT_INFIDEL;异教徒;;;;;;;;;;x
+INSULT_HERETIC;异端者;;;;;;;;;;x
+INSULT_GROTESQUE;怪诞的;;;;;;;;;;x
+INSULT_DWARF;侏儒;;;;;;;;;;x
+INSULT_CLUBFOOT;畸形足;;;;;;;;;;x
+INSULT_CLEFT_LIPPED;唇裂的;;;;;;;;;;x
+INSULT_BASTARD;杂种;;;;;;;;;;x
+INSULT_BASEBORN;卑微的;;;;;;;;;;x
+INSULT_KINSLAYER;弑亲禽兽;;;;;;;;;;x
+INSULT_SODOMITE;鸡奸者;;;;;;;;;;x
+INSULT_DULLARD;夯货;;;;;;;;;;x
+INSULT_DIM;傻子;;;;;;;;;;x
+INSULT_VACUOUS;空虚的;;;;;;;;;;x
+INSULT_NITWIT;笨蛋;;;;;;;;;;x
+INSULT_IMBECILE;白痴;;;;;;;;;;x
+INSULT_FREAK;怪胎;;;;;;;;;;x
+INSULT_ABOMINATION;可憎之人;;;;;;;;;;x
+INSULT_MONSTROUS;怪物;;;;;;;;;;x
+INSULT_HIDEOUS;令人厌恶的;;;;;;;;;;x
+INSULT_WEAKLING;弱者;;;;;;;;;;x
+INSULT_LESBIAN;女同性恋;;;;;;;;;;x
+INSULT_SAPPHIC;女同性恋的;;;;;;;;;;x
+INSULT_HUNCHBACK;驼子;;;;;;;;;;x
+INSULT_CROOKED;扭曲的;;;;;;;;;;x
+INSULT_LISPER;大舌头;;;;;;;;;;x
+INSULT_FALTERING;支支吾吾的;;;;;;;;;;x
+INSULT_STUTTERING;口吃的;;;;;;;;;;x
+INSULT_GORGON;女妖;;;;;;;;;;x
+INSULT_IDIOT;笨蛋;;;;;;;;;;x
+INSULT_TORTURER;虐待者;;;;;;;;;;x
+INSULT_LECHER;色鬼;;;;;;;;;;x
+INSULT_LECHEROUS;好色的;;;;;;;;;;x
+INSULT_GLUTTON;贪吃者;;;;;;;;;;x
+INSULT_GORGING;狼吞虎咽的;;;;;;;;;;x
+INSULT_VENAL;见利忘义的;;;;;;;;;;x
+INSULT_INDOLENT;懒惰的;;;;;;;;;;x
+INSULT_EVIL;魔鬼;;;;;;;;;;x
+INSULT_ENVIOUS;妒忌的;;;;;;;;;;x
+INSULT_HARRIDAN;泼妇;;;;;;;;;;x
+INSULT_RAGING;暴怒的;;;;;;;;;;x
+INSULT_DECEITFUL;狡诈的;;;;;;;;;;x
+INSULT_CRAVEN;怯懦的;;;;;;;;;;x
+INSULT_COWARD;懦夫;;;;;;;;;;x
+INSULT_SCATTERBRAIN;糊涂鬼;;;;;;;;;;x
+INSULT_ERRATIC;反复无常的;;;;;;;;;;x
+INSULT_BIGOT;偏执者;;;;;;;;;;x
+INSULT_BIGOTED;偏执的;;;;;;;;;;x
+INSULT_PARANOID;妄想症;;;;;;;;;;x
+INSULT_FOOL;傻瓜;;;;;;;;;;x
+INSULT_GULLIBLE;轻信的;;;;;;;;;;x
+INSULT_CRUEL;残酷的;;;;;;;;;;x
+INSULT_BRUTE;禽兽;;;;;;;;;;x
+INSULT_FIEND;魔头;;;;;;;;;;x
+INSULT_CALLOUS;冷酷无情的;;;;;;;;;;x
+INSULT_WANTON;放肆的;;;;;;;;;;x
+INSULT_SENILE;年老糊涂的;;;;;;;;;;x
+INSULT_CRIPPLE;瘸子;;;;;;;;;;x
+INSULT_VEGETABLE;植物人;;;;;;;;;;x
+INSULT_BESOTTED;糊涂的;;;;;;;;;;x
+INSULT_DRUNKARD;酒鬼;;;;;;;;;;x
+INSULT_UNCLEAN;污秽的;;;;;;;;;;x
+INSULT_LEPER;麻风病人;;;;;;;;;;x
+INSULT_BAT;蝙蝠;;;;;;;;;;x
+INSULT_DEMONIC;恶魔般的;;;;;;;;;;x
+INSULT_DEMENTED;痴呆的;;;;;;;;;;x
+INSULT_LUNATIC;疯子;;;;;;;;;;x
+INSULT_LUGUBRIOUS;丧气脸;;;;;;;;;;x
+INSULT_CRAZED;发狂的;;;;;;;;;;x
+INSULT_DEVIL_WOMAN;鬼婆;;;;;;;;;;x
+INSULT_WARLOCK;男巫;;;;;;;;;;x
+INSULT_EFFEMINATE;娘娘腔的;;;;;;;;;;x
+INSULT_UNMANNED;被阉的;;;;;;;;;;x
+INSULT_EUNUCH;阉人;;;;;;;;;;x
+INSULT_BLIND;盲人;;;;;;;;;;x
+INSULT_PEASANT;乡巴佬;;;;;;;;;;x
+INSULT_PEASANT_WOMAN;农妇;;;;;;;;;;x
+INSULT_LOWBORN;出身低微的;;;;;;;;;;x
+INSULT_HERESIARCH;异端头目;;;;;;;;;;x
+INSULT_SYBARITE;纵情逸乐者;;;;;;;;;;x
+INSULT_DECADENT;堕落者;;;;;;;;;;x
+INSULT_WHOREMONGER;嫖客;;;;;;;;;;x
+INSULT_WHORING;娼妓;;;;;;;;;;x
+INSULT_DEBASED;下贱的;;;;;;;;;;x
+INSULT_TEMPTRESS;荡妇;;;;;;;;;;x
+INSULT_DODDERER;步履蹒跚者;;;;;;;;;;x
+INSULT_DEBAUCHER;放荡者;;;;;;;;;;x
+INSULT_LITTLE;小子;;;;;;;;;;x
+INSULT_DEGENERATE;堕落的;;;;;;;;;;x
+INSULT_PERVERTED;变态的;;;;;;;;;;x
+INSULT_TROLLOP;邋遢的女人;;;;;;;;;;x
+INSULT_PRUNE;过于正经的女人;;;;;;;;;;x
+INSULT_PRUDE;正经过度的人;;;;;;;;;;x
+INSULT_PRUDISH;伪善的;;;;;;;;;;x
+INSULT_BORE;令人厌烦的人;;;;;;;;;;x
+INSULT_IDLER;无所事事者;;;;;;;;;;x
+INSULT_COVETOUS;贪婪的;;;;;;;;;;x
+INSULT_SOFT;软骨头;;;;;;;;;;x
+INSULT_SPIDER;蜘蛛;;;;;;;;;;x
+INSULT_WUSSY;懦弱的;;;;;;;;;;x
+INSULT_TIMID;没勇气的;;;;;;;;;;x
+INSULT_COY;害羞的;;;;;;;;;;x
+INSULT_RAPACIOUS;强取的;;;;;;;;;;x
+INSULT_GRASPING;一味攫取的;;;;;;;;;;x
+INSULT_UNBELIEVER;不信主者;;;;;;;;;;x
+INSULT_NARROWMINDED;小心眼的;;;;;;;;;;x
+COMPL_VIVACIOUS;生气勃勃的;;;;;;;;;;x
+COMPL_DEMURE;端庄的;;;;;;;;;;x
+COMPL_SINCERE;真诚的;;;;;;;;;;x
+COMPL_FORTHRIGHT;直率的;;;;;;;;;;x
+COMPL_ROGUE;小淘气;;;;;;;;;;x
+COMPL_RAFFISH;放荡不羁的;;;;;;;;;;x
+COMPL_AFFABLE;平易近人的;;;;;;;;;;x
+COMPL_WIT;智慧的;;;;;;;;;;x
+COMPL_DEVIL;魔王;;;;;;;;;;x
+COMPL_IMPISH;淘气的;;;;;;;;;;x
+COMPL_PIRATE;海盗;;;;;;;;;;x
+COMPL_BERSERKER;狂战士;;;;;;;;;;x
+COMPL_SAOSHYANT;救世主;;;;;;;;;;x
+COMPL_VALKYRIE;女武神;;;;;;;;;;x
+COMPL_VIKING;维京人;;;;;;;;;;x
+COMPL_FAIR;美男子;;;;;;;;;;x
+COMPL_BEAUTY;美人;;;;;;;;;;x
+COMPL_HANDSOME;帅气的;;;;;;;;;;x
+COMPL_BRILLIANT;才华横溢的;;;;;;;;;;x
+COMPL_GENIUS;天才;;;;;;;;;;x
+COMPL_STRONG;强壮的;;;;;;;;;;x
+COMPL_SCHOLAR;学者;;;;;;;;;;x
+COMPL_LEARNED;有学问的;;;;;;;;;;x
+COMPL_MYSTIC;神秘主义者;;;;;;;;;;x
+COMPL_POET;诗人;;;;;;;;;;x
+COMPL_CHASTE;贞洁的;;;;;;;;;;x
+COMPL_GOOD;好人;;;;;;;;;;x
+COMPL_DILIGENT;勤勉的;;;;;;;;;;x
+COMPL_KINDLY;体贴的;;;;;;;;;;x
+COMPL_KINDHEARTED;心地善良的;;;;;;;;;;x
+COMPL_BRAVE;勇敢的;;;;;;;;;;x
+COMPL_PROUD;骄傲的;;;;;;;;;;x
+COMPL_HUMBLE;谦卑的;;;;;;;;;;x
+COMPL_JUST;公正的;;;;;;;;;;x
+COMPL_RIGHTEOUS;正直的;;;;;;;;;;x
+COMPL_SAYYID;赛义德;;;;;;;;;;x
+COMPL_SAYYIDA;赛义达;;;;;;;;;;x
+COMPL_PILGRIM;朝觐者;;;;;;;;;;x
+COMPL_MIRZA;米尔扎;;;;;;;;;;x
+COMPL_HAJJAJ;哈伊;;;;;;;;;;x
+COMPL_MUJAHID;穆加希德;;;;;;;;;;x
+COMPL_CRUSADER;十字军战士;;;;;;;;;;x
+COMPL_HAFIZ;哈菲兹;;;;;;;;;;x
+COMPL_FAQIH;教法学家;;;;;;;;;;x
+COMPL_WISE;英明的;;;;;;;;;;x
+COMPL_PURPLE_BORN;生于紫宫的;;;;;;;;;;x
+COMPL_AUGUSTUS;奥古斯都;;;;;;;;;;x
+COMPL_HOLY_WARRIOR;圣战士;;;;;;;;;;x
+COMPL_MONK;僧侣;;;;;;;;;;x
+COMPL_NUN;修女;;;;;;;;;;x
+COMPL_CHARMER;有魅力的人;;;;;;;;;;x
+COMPL_CHARMING;迷人的;;;;;;;;;;x
+COMPL_RAVISHING;极其美丽的;;;;;;;;;;x
+COMPL_ENCHANTRESS;迷人的女子;;;;;;;;;;x
+COMPL_FETCHING;迷人的;;;;;;;;;;x
+COMPL_DEAR;亲爱的;;;;;;;;;;x
+COMPL_PLEASANT;吸引人的;;;;;;;;;;x
+COMPL_LEVELHEADED;头脑冷静的;;;;;;;;;;x
+COMPL_WRY;挖苦的;;;;;;;;;;x

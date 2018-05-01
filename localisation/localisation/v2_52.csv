@@ -1,0 +1,441 @@
+character_owe_favor;此人将会欠你一个§Y人情§!。;;;;;;;;;;x
+EVTDESC_ZE_22300;正当审判威胁你王座的罪犯时，一个年轻的贵族被带到你面前。你迅速得出了结论：这个人的的确有罪。向他问罪可能不是最明智的选择，毕竟他是个贵族出身。如果你赦免了这个人，他会证明他自己是对你有用处的，毕竟他欠了你罪债。;;;;;;;;;;x
+EVTOPTA_ZE_22300;放了他！你可别忘了我为你所做的这一切……;;;;;;;;;;x
+EVTOPTB_ZE_22300;贵族身份一文不值！跟他一起去地牢吧！;;;;;;;;;;x
+EVTDESC_ZE_22400;内阁争辩不休，正当你快要出丑时，[target_saved_voter.GetTitledFirstName]走进来了。[target_saved_voter.GetSheHeCap]不仅可以为你的观点争辩从而挽回你的颜面，而且还能为你赢得这场争论！显然[target_saved_voter.GetFirstName]的巧舌如簧是你成功的唯一原因，而否认这一点或许会使你声誉不佳。;;;;;;;;;;x
+EVTOPTA_ZE_22400;谢谢！我确实欠你一回！;;;;;;;;;;x
+EVTOPTB_ZE_22400;我呸！我自己本来能赢得那场争论！;;;;;;;;;;x
+EVTDESC_ZE_22410;内阁争辩不休，正当[From.GetBestName]快要出丑时，你走了进来。在你帮助下[From.GetHerHim]赢了辩论。这是很好的手段，现在[From.GetSheHe] 欠你一份人情！;;;;;;;;;;x
+EVTOPTA_ZE_22410;现在，何时去兑现人情呢……;;;;;;;;;;x
+EVTDESC_ZE_22420;内阁争辩不休，正当[From.GetBestName]快要出丑时，你走了进来。在你的帮助下[From.GetHerHim]赢了辩论。这激怒了[From.GetHerHim]，[From.GetSheHe]想依靠[From.GetHerHis]能力赢得辩论！这样等于公开羞辱[From.GetFirstName]。;;;;;;;;;;x
+EVTOPTA_ZE_22420;忘恩负义是这个世界的奖励。;;;;;;;;;;x
+EVTDESC_ZE_22500;内阁讨论结束时，[target_pious_voter.GetTitledFirstName]把你拉到一边。[target_pious_voter.GetSheHeCap]跟你大谈特谈要尊重[Root.Religion.GetScriptureName]在内阁中做决定的权威性。显然内阁对你的怠慢态度看法一致，但幸好[target_pious_voter.GetFirstName]愿意帮你！;;;;;;;;;;x
+EVTOPTA_ZE_22500;你真为会为我那样做吗？我欠你太多了！;;;;;;;;;;x
+EVTOPTB_ZE_22500;不，没有位置给[Root.Religion.GetScriptureName]从政！;;;;;;;;;;x
+EVTDESC_ZE_22510;内阁一致认为[From.GetBestName]的行为非常不虔诚，无视了[Root.Religion.GetScriptureName]的许多智训。作为一个虔诚的[Root.GetManWoman]，你决定防止[From.GetHerHim]重蹈覆辙。[From.GetFirstName]对你的帮助十分感激，并且说[From.GetSheHe]欠你许多！;;;;;;;;;;x
+EVTOPTA_ZE_22510;太好了！我可以用上这个人情了。;;;;;;;;;;x
+EVTDESC_ZE_22520;内阁一致认为[From.GetBestName]的行为非常不虔诚，无视了[Root.Religion.GetScriptureName]的许多智训。作为一个虔诚的[Root.GetManWoman]，你决定防止[From.GetHerHim]重蹈覆辙。但[From.GetFirstName]被激怒了，因为[From.GetSheHe]以为你在试图诓骗[From.GetHerHim]！;;;;;;;;;;x
+EVTOPTA_ZE_22520;还不如一个异教徒...…;;;;;;;;;;x
+EVTDESC_ZE_22600;你听到传言说在国外有一位[target_foreign_voter.GetJobTitle]，有超凡才能并且处理[target_foreign_voter.GetHerHis]事务游刃有余。鉴于你本身的能力经常被同僚质疑，或许你该写封信给这位「[target_foreign_voter.GetBestName]」，向其寻求[target_foreign_voter.GetHerHis]建议？;;;;;;;;;;x
+EVTOPTA_ZE_22600;好，我会写信给[target_foreign_voter.GetHerHim]的！;;;;;;;;;;x
+EVTOPTB_ZE_22600;不，何必呢...…;;;;;;;;;;x
+EVTDESC_ZE_22610;致超凡的 [Root.GetTitledFirstName]，\n\n我是 [From.GetTitledFirstName]，[From.Liege.GetTitledFirstName]的[From.GetJobTitle]。\n作为 [Root.Liege.GetTitledFirstName]内阁中的[Root.GetJobTitle]，你的才能被深远流传。我恳求你给我一些政治方面的建议，使我可以像你一样令人钦佩地为我的领主效劳。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_ZE_22610;真是感人至深的请求，我会帮助你的！;;;;;;;;;;x
+EVTOPTB_ZE_22610;跟敌人称兄道弟？我看还是算了吧！;;;;;;;;;;x
+EVTDESC_ZE_22620;致[GetFromRootCompliment] [Root.GetFirstName]，\n\n我愿意给你些建议，使你如何更有效的在内阁中效劳。随信附上一本书，讲述了我自己作为一位[From.GetJobTitle]的经验，希望里面的内容可以帮到你！\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_ZE_22620;真是个伟大的[From.GetManWoman]！;;;;;;;;;;x
+EVTDESC_ZE_22630;致[GetFromRootInsult] [Root.GetFirstName]，\n\n你真的以为我会把我的秘诀告诉你？你这个可悲的[From.GetJobTitle]，我看你不会有长进了！\n\n真诚的，\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_ZE_22630;我真是自取其辱...…;;;;;;;;;;x
+EVTOPTB_ZE_22630;为什么...…![From.GetSheHeCap]怎敢在我寻求帮助时说出如此粗鄙之语？;;;;;;;;;;x
+EVTOPTC_ZE_22630;或许用点钱可以改变[From.GetHerHis]主意？;;;;;;;;;;x
+EVTDESC_ZE_22640;致[GetFromRootCompliment] [Root.GetFirstName]，\n\n要知道我永远不会忘记你为我所做的！如果有什么可以为你做的，请尽管开口。而且要知道，我会把你当最亲密的朋友。\n\n真诚的，\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_ZE_22640;完美！;;;;;;;;;;x
+EVTDESC_ZE_22650;致 [Root.GetTitledFirstName]，\n\n要知道我只是出于好奇心，并无恶意。但我还是要为我所做的致以歉意。\n真诚的，\n\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_ZE_22650;或许我在回信中过于刻薄……;;;;;;;;;;x
+EVTDESC_ZE_22660;致[GetFromRootInsult] [Root.GetFirstName]，\n\n你竟敢拒绝帮我？要知道我可不会忘了你对我名誉的损坏。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_ZE_22660;真是个傻瓜……;;;;;;;;;;x
+EVTDESC_ZE_22670;致[GetFromRootCompliment] [Root.GetFirstName]，\n\n请原谅我提出的请求，或许来点金子会让你重新考虑一下我的提议？\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_ZE_22670;嗯，就等你这句话！;;;;;;;;;;x
+EVTOPTB_ZE_22670;再多的金子也没用。;;;;;;;;;;x
+EVTDESC_ZE_22680;致[GetFromRootCompliment] [Root.GetFirstName]，\n\n请原谅我之前的行为！随信附上一本书，讲述了我自己作为一位[From.GetJobTitle]的经验，希望里面的内容可以帮到你！\n\n致以最真挚的问候，\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_ZE_22680;我就知道金子能撬开[From.GetHerHis]口！;;;;;;;;;;x
+EVTDESC_ZE_22690;致[GetFromRootInsult] [Root.GetFirstName]，\n\n你真以为可以收买我？拿上你的脏钱别再来烦我，你永远都不会知晓我的秘诀！\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_ZE_22690;值得一试...…!;;;;;;;;;;x
+stats_increased_tooltip;§Y[From.GetTitledFirstName]§!的属性提高了。\n;;;;;;;;;;x
+EVTDESC_ZE_22702;你的朋友，[target_unlanded_friend.GetTitledFirstName]，没有准备继承[target_unlanded_friend.GetHerHis]任何土地。你一直把[target_unlanded_friend.GetHerHim]视作一个[GetRootFromCompliment]，而且看着[target_unlanded_friend.GetHerHim]日渐淡出人们视线真是个耻辱。如果你向[target_unlanded_friend.GetHerHim]提供[target_friend_land.GetFullName]，不仅可以让你的朋友关系更密切，还能赢得一个你全家族都可以信任的封臣！;;;;;;;;;;x
+EVTOPTA_ZE_22702;我该向[target_unlanded_friend.GetHerHim]提供土地！;;;;;;;;;;x
+EVTOPTB_ZE_22702;唉，[target_unlanded_friend.GetFirstName]从未想过要当个统治者...…;;;;;;;;;;x
+indebted_to_family_tooltip;§Y[target_unlanded_friend.GetFirstName]§!对你所有§Y家族成员§!的看法改变了§G50§!§Y（忠实的仆人）§!\n;;;;;;;;;;x
+INFAMY;§Y威胁值§!;;;;;;;;;;x
+INFAMY_DESC;§Y威胁值§!是一个表示对某一领地畏惧程度的数值。这个值越高，附近的统治者就越可能签订§Y共同防御协定§!来阻碍其进一步扩张。领地向外扩张太快会增加§Y威胁值§! - 领地面积越大，就会得到更多的§Y威胁值§!。当领地面积收缩，§Y威胁值§!也会降低，随着时间的推移而衰退。领地实力越强大，衰退就越慢。;;;;;;;;;;x
+INTERACTION_CANT_DOW_IN_COALITION;作为防御性协议的一方，没有在战斗;;;;;;;;;;x
+INTERACTION_CANT_LEAVE_COALITION_AT_WAR;不是反§Y[Recipient.GetTitledFirstName]§!共同防御协定战争中的成员;;;;;;;;;;x
+MAPMODE_COALITIONS;§Y共同防御协定§!;;;;;;;;;;x
+MAPMODE_COALITIONS_DESC;这个地图模式可以显示出针对所选国家的所有共同防御协定。;;;;;;;;;;x
+COALITION_TARGET;已签订针对这个国家的共同防御协定;;;;;;;;;;x
+VALID_COALITION_TARGET;形成足够的威胁从而签订一个共同防御协定来与之对抗;;;;;;;;;;x
+COALITION_TARGETS;参与反$TARGETS|Y$的共同防御协定;;;;;;;;;;x
+PACTS_TAB_DRO;联盟、互不侵犯协议、共同防御协定等协议在这里显示。;;;;;;;;;;x
+REMOVE_ACTOR_FROM_COALITION;这会把我从反§Y[Recipient.GetTitledFirstName]§!的共同防御协定中踢出。;;;;;;;;;;x
+REMOVE_RECIPIENT_FROM_COALITION;这会把§Y[Recipient.GetTitledFirstName]§!从反我方的共同防御协定中踢出。;;;;;;;;;;x
+JOINED_WAR_DEFENSIVE_COALITION_SETUP;加入共同防御协定战争;;;;;;;;;;x
+JOINED_WAR_DEFENSIVE_COALITION_LOG;$ALLY|Y$已经接受$CALLER|Y$的反$TARGET|Y$军事召唤。由于共同防御协定，$ALLY|Y$别无选择。;;;;;;;;;;x
+START_COALITION;签订共同防御协定对抗;;;;;;;;;;x
+LEAVE_COALITION;撤出共同防御协定;;;;;;;;;;x
+JOIN_COALITION;加入现存的共同防御协定;;;;;;;;;;x
+START_COALITION_LONG_DESC;共同防御协定是一个联合的群体去对抗一个扩张过大以至于形成巨大威胁的公敌。如果共同防御协定针对的目标攻打任何一个签订协议的成员，所有成员将会在战争中联合以阻止他们的公敌。;;;;;;;;;;x
+start_coalition_opposing;你要开始一个反$TARGET|Y$的共同防御协定吗？;;;;;;;;;;x
+leave_coalition_opposing;你要撤出反$TARGET|Y$的共同防御协定吗？;;;;;;;;;;x
+join_coalition_opposing;你要加入现存的反$TARGET|Y$共同防御协定吗？;;;;;;;;;;x
+coalition_title;针对$TARGET$的共同防御协定;;;;;;;;;;x
+RELATION_COALITION_TARGET;$TARGET|Y$是共同防御协定的针对目标，$MEMBER|Y$是协议中的一员。;;;;;;;;;;x
+RELATION_COALITION_MEMBER;$MEMBER|Y$是反$TARGET|Y$的共同防御协定的一员;;;;;;;;;;x
+COALITION_STARTED_SETUP;共同防御协定已签订;;;;;;;;;;x
+COALITION_STARTED_LOG;$MEMBER|Y$签订了反$TARGET|Y$的共同防御协定;;;;;;;;;;x
+COALITION_JOINED_SETUP;已加入共同防御协定;;;;;;;;;;x
+COALITION_JOINED_LOG;§Y$MEMBER$§!加入现存的反§Y$TARGET$§!共同防御协定;;;;;;;;;;x
+COALITION_LEFT_SETUP;撤出了共同防御协定;;;;;;;;;;x
+COALITION_LEFT_LOG;§Y$MEMBER$§!撤出了反§Y$TARGET$§!的共同防御协定;;;;;;;;;;x
+COALITION_DISSOLVED_SETUP;共同防御协定解散;;;;;;;;;;x
+COALITION_DISSOLVED_LOG;反§Y$TARGET$§!的共同防御协定已解散。;;;;;;;;;;x
+GAME_SETUP_COALITION_TARGET_ICON;是由$NUM_MEMBERS|Y$个成员组成的共同防御协定的目标;;;;;;;;;;x
+GAME_SETUP_COALITION_MEMBER_ICON;是与其他$NUM_MEMBERS|Y$个成员组成的反$TARGET|Y$的共同防御协定。;;;;;;;;;;x
+BADBOY_EFFECT;$DIRECTION$ $VALUE$ 威胁值。\n;;;;;;;;;;x
+TRANSFER_INFAMY;$SOURCE$ 的威胁值;;;;;;;;;;x
+INFAMY_NON_RULER_DESC;不能获得威胁值因为$CHARACTER|Y$不是统治者。;;;;;;;;;;x
+alert_high_infamy_instant;§Y你正在造成威胁！§!;;;;;;;;;;x
+RELEASE_VASSAL_INTERACTION_0;准许§Y[Recipient.GetTitledFirstName]§!独立。[Recipient.GetSubjectPronounCap]会非常感激(§G+$OPINION$§!好感， §G$INFAMY$%§! 威胁程度)。;;;;;;;;;;x
+GRANT_LANDED_TITLE_INTERACTION_6;把§Y[ThirdPartyTitle.GetFullName]§!及其下属所有头衔授予§Y[Recipient.GetTitledFirstName]§!，这会让[Recipient.GetPossPronoun]对你的好感提高§G$OPINION$§!，并降低你 §G$INFAMY$%§!的威胁度。;;;;;;;;;;x
+GRANT_LANDED_TITLE_INTERACTION_1;把§Y[ThirdPartyTitle.GetFullName]§!授予给§Y[Recipient.GetTitledFirstName]§!，这会让 [Recipient.GetPossPronoun]对你的好感提高 §G$OPINION$§!，并降低你§G$INFAMY$%§!的威胁度。;;;;;;;;;;x
+INTERACTION_COALITION_REQUIRES_INFAMY_LIMIT;§Y[Recipient.GetTitledFirstName]§!至少要有 $NUM|Y0%$的威胁度;;;;;;;;;;x
+COALITION_SIZE;威胁程度：$INFAMY|%Y0$/$LIMIT|%Y0$;;;;;;;;;;x
+INFAMY_LOWER_TRIGGER;$CHAR|Y$的威胁度低于$VALUE|Y$ 。;;;;;;;;;;x
+INFAMY_HIGHER_TRIGGER;$CHAR|Y$的威胁度高于$VALUE|Y$ 。;;;;;;;;;;x
+CHANGE_INFAMY_EFFECT;$CHAR|Y$的威胁度增加了$VALUE|Y$。\n;;;;;;;;;;x
+nogovernment;没有政体;;;;;;;;;;x
+nogovernment_desc;没有政体;;;;;;;;;;x
+alert_council_discontent_name;内阁不满;;;;;;;;;;x
+alert_liege_council_discontent_name;领主内阁不满;;;;;;;;;;x
+alert_peace_soon_enforced_name;国内即将执行强制和平;;;;;;;;;;x
+alert_peace_being_enforced_name;国内执行强制和平;;;;;;;;;;x
+alert_my_peace_soon_enforced_name;我们国内马上会迎来和平;;;;;;;;;;x
+alert_high_infamy_name;威胁严重;;;;;;;;;;x
+EVTDESC_ZE_23000;在你领主的内阁中任职并不一直是那么容易。相当大量的工作需要你去关注、需要你去做，看起来无休无止。就当你快要放弃时，[target_help_councillor.GetTitledFirstName]走进来询问你是否需要帮助。尽管这很诱人，但是这样做会让你为此欠下[target_help_councillor.GetHerHis]人情。;;;;;;;;;;x
+EVTOPTA_ZE_23000;我想我确实需要些帮助……;;;;;;;;;;x
+EVTOPTB_ZE_23000;不！我能应付！;;;;;;;;;;x
+EVTDESC_ZE_23001;当你正如往常一样闲逛时，你看到[From.GetTitledFirstName]坐在[From.GetHerHis]的房间里，进行着繁重的工作。你决定有偿的帮助[From.GetHerHim]完成工作，这会让他欠你一个人情。[From.GetSheHeCap]用沉重的眼神看了你一会儿后，决定接受你的提议！;;;;;;;;;;x
+EVTOPTA_ZE_23001;其实我没做什么重要的事情。;;;;;;;;;;x
+EVTDESC_ZE_23002;当你正如往常一样闲逛时，你看到[From.GetTitledFirstName]坐在[From.GetHerHis]房间里，进行着繁重的工作。你决定有偿的帮助[From.GetHerHim]完成工作，这会让他欠你一个人情。但令你惊讶的是，[From.GetSheHe]不仅拒绝了你的帮助还侮辱你！;;;;;;;;;;x
+EVTOPTA_ZE_23002;哈！那就祝您的工作一切顺利！;;;;;;;;;;x
+EVTDESC_ZE_23005;每个统治者都需要时不时亲自外出接见农民们。没别的事，就是为了确保他们知道你还在。当你访问[helping_vassal.Capital.GetName]当地居民时，你非常真诚地表达了你对他们的看法。看起来，他们非常生气。你回头确认了一下你的卫兵是否还在保护你，却发现他们全都跑去了当地酒馆！在你反应过来之前，那些农民开始扔东西砸你！;;;;;;;;;;x
+EVTOPTA_ZE_23005;我要跑到[helping_vassal.GetTitledFirstName]那里并且躲起来！;;;;;;;;;;x
+EVTOPTB_ZE_23005;也许我能从他们手中逃脱？;;;;;;;;;;x
+EVTOPTA_ZE_23005_custom_tooltip_a;跑向附近[helping_vassal.GetTitledFirstName]的住处，希望[helping_vassal.GetSheHe]能提供帮助。;;;;;;;;;;x
+EVTOPTA_ZE_23005_custom_tooltip_b;[Root.GetTitledName]安全逃脱了;;;;;;;;;;x
+EVTDESC_ZE_23006;当你平静地思考人生时，你突然听见外面有可怕的喧嚣。你打开了门，看到了[From.GetTitledFirstName]向你跑来，而[From.GetHerHis]身后跟着一大群愤怒的农民！如果你能够给[From.GetHerHim]提供一个躲避的地方，[From.GetSheHe]会欠下你一个人情。;;;;;;;;;;x
+EVTOPTA_ZE_23006;快！躲在这！;;;;;;;;;;x
+EVTOPTB_ZE_23006;我才不要被卷入这种麻烦！;;;;;;;;;;x
+EVTDESC_ZE_23007;当你跑近时，你看到[From.GetTitledFirstName]站在门口向你挥手！你奔向了[From.GetHerHim]并马上进了屋。[From.GetFirstName]迅速关上了门。终于安全了。谁能想到那些农民会这么容易被激怒啊！;;;;;;;;;;x
+EVTOPTA_ZE_23007;谢谢你！这是我欠你的。;;;;;;;;;;x
+EVTDESC_ZE_23008;你尽可能地飞奔，看到[From.GetTitledFirstName]正站在门口。但[From.GetSheHe]没有给你提供一个庇护所，而是迅速地在你面前关上了大门！你只能自救了！;;;;;;;;;;x
+EVTOPTA_ZE_23008;竟然……;;;;;;;;;;x
+change_composition_mercenary_company_feudal;提供装备给佣兵团;;;;;;;;;;x
+change_composition_mercenary_company_feudal_desc;通过向佣兵团提供装备，他们会把轻型单位武装成重型单位。这会改变佣兵团的兵力构成。;;;;;;;;;;x
+send_troops_mercenary_company_feudal;提供兵力给佣兵团;;;;;;;;;;x
+send_troops_mercenary_company_feudal_desc;通过向佣兵团提供更多部队，你可以扩大它的规模。;;;;;;;;;;x
+EVTDESC_ZE_23101;我可以给[From.PrimaryTitle.GetName]送一些高品质的装备以改变它的兵力构成，这会使他们在战斗中表现得更好。;;;;;;;;;;x
+EVTOPTA_ZE_23101;提供重步兵装备。;;;;;;;;;;x
+EVTOPTB_ZE_23101;提供枪兵装备。;;;;;;;;;;x
+EVTOPTC_ZE_23101;提供重骑兵装备。;;;;;;;;;;x
+EVTOPTD_ZE_23101;我改变主意了。;;;;;;;;;;x
+EVTDESC_ZE_23106;我可能给[From.GetFirstName]和他的[From.PrimaryTitle.GetName]提供兵力来强化他们。;;;;;;;;;;x
+EVTOPTA_ZE_23106;提供更多士兵。;;;;;;;;;;x
+EVTOPTB_ZE_23106;提供更多骑兵。;;;;;;;;;;x
+EVTDESC_ZE_23152;当[From.GetTitledFirstName]为你效劳时，他一直在对你说他的雇主，[merc_band_employer.GetTitledFirstName]。至今为止，你只听到了关于[merc_band_employer.GetHerHim]的正面评价，这使你非常好奇。也许应该联系一下这位雇主，建立一个协定或者只是会上一面？;;;;;;;;;;x
+EVTOPTA_ZE_23152;我将马上写一封信！;;;;;;;;;;x
+EVTOPTB_ZE_23152;我对这个人没兴趣。;;;;;;;;;;x
+EVTDESC_ZE_23154;致[GetFromRootCompliment] [Root.GetFirstName]，\n\n您的仆人 [FromFrom.GetTitledFirstName]对您的美德赞不绝口。我想请您参加一场特邀宴会，如果您能来和我见一面，我将会非常高兴。\n\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_ZE_23154;我当然会参加！;;;;;;;;;;x
+EVTOPTB_ZE_23154;我对这种安排没兴趣。;;;;;;;;;;x
+EVTDESC_ZE_23155;致[GetFromRootCompliment] [Root.GetFirstName]，\n\n很高兴收到您的来信！我非常愿意参加您的宴会。容我稍作准备，我很快就出发。\n\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_ZE_23155;棒极了！;;;;;;;;;;x
+EVTDESC_ZE_23156;致[GetFromRootCompliment] [Root.GetFirstName]，\n\n很感谢您的来信，我收到了您的心意。但是非常遗憾，我恐怕这次不能来参加您的宴会。\n\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_ZE_23156;真令人失望。;;;;;;;;;;x
+EVTDESC_ZE_23157;当[FromFrom.GetTitledFirstName]到达时，你热烈地欢迎了[FromFrom.GetHerHim]，并表达了你能邀请到[FromFrom.GetHerHim]的喜悦之情。你们两人一同进餐，聊起了各种各样的话题。当[FromFrom.GetFirstName]离开时，你们不仅达成了一个互不侵犯的联盟，还成为了朋友！;;;;;;;;;;x
+EVTOPTA_ZE_23157;将来再聚一次吧！;;;;;;;;;;x
+EVTTITLE_ZE_23157;一起参加宴会;;;;;;;;;;x
+EVTDESC_ZE_23158;当你到达时，[From.GetTitledFirstName]用最热烈的方式迎接了你。[From.GetSheHe] 把你领进了室内，你们一同进餐、谈笑风生，度过了相当美好的时光。你们二人不仅建立了互不侵犯联盟，还成为了朋友！;;;;;;;;;;x
+EVTOPTA_ZE_23158;很荣幸得到您的邀请！;;;;;;;;;;x
+RESTORE_SUCCESSION_EFFECT;$TITLE|Y$ 恢复了 $LAW|Y$ 法案。;;;;;;;;;;x
+succ_council_elective;内阁选举法;;;;;;;;;;x
+COUNCIL_SUCCESSION_VOTE_ON;允许内阁针对继承法投票;;;;;;;;;;x
+COUNCIL_SUCCESSION_VOTE_OFF;不允许内阁针对继承法投票;;;;;;;;;;x
+ATTRITION_SHATTERED_HOSTILE_TERRITORY;在敌军领土上溃退：§R+$VALUE$%§!;;;;;;;;;;x
+ATTRITION_SHATTERED_NEUTRAL_TERRITORY;在中立领土上溃退：§R+$VALUE$%§!;;;;;;;;;;x
+ATTRITION_SHATTERED_FRIENDLY_TERRITORY;在友方领土上溃退：§R+$VALUE$%§!;;;;;;;;;;x
+SHATTERED_IGNORES_LEADER_ATTRITION;溃退中的军队不再受领导者损耗减少技能影响;;;;;;;;;;x
+INTERACTION_CANNOT_BREAK_FAVOR_BETROTHAL;婚约不是用人情建立的;;;;;;;;;;x
+haughty_desc;这个孩子骄傲、虚荣、自大。可能发展成：§Y骄傲§!、§Y专断§! 或 §Y残暴§!。;;;;;;;;;;x
+affectionate_desc;这个孩子和善、经常流露喜好。可能发展成：§Y和善§!、§Y安于现状§! 或 §Y值得信任§!。;;;;;;;;;;x
+timid_desc;这个孩子害羞、安静、通常避免引起冲突。可能发展成：§Y谦卑§!、§Y害羞§! 或 §Y怯懦§!。;;;;;;;;;;x
+rowdy_desc;这个孩子吵闹、活泼、相比安静的工作经常更喜欢粗野的体力活动。可能发展成：§Y强壮§!、§Y诚实§! 或 §Y笨拙§!。;;;;;;;;;;x
+willful_desc;这个孩子顽固、执拗，从不轻易遵从他人或作出让步。可能发展成：§Y野心勃勃§!、§Y勇敢§! 或 §Y顽固§!。;;;;;;;;;;x
+brooding_desc;这个孩子是一个安静的思考者。别的孩子白天在外玩时，这个孩子经常坐在屋内沉思。可能发展成：§Y正直§!、§Y易怒§! 或 §Y嫉妒§!。;;;;;;;;;;x
+indolent_desc;这个孩子反感任何形式的努力，无论是精神上的还是身体上的。可能发展成§Y慷慨§!、§Y懒惰§! 或 §Y暴食§!。;;;;;;;;;;x
+playful_desc;这个孩子喜欢沉浸在娱乐和游戏中，总是能找到去玩耍的借口。可能发展成：§Y合群§!、§Y狡诈§! 或  §Y精神错乱§!(稀少)。;;;;;;;;;;x
+conscientious_desc;这个孩子异乎寻常地细心、负责，乐于把繁琐的杂活、任务做得完美。可能发展成：§Y勤奋§! 或 §Y节制§!。;;;;;;;;;;x
+fussy_desc;这个孩子很讲究其他人觉得琐碎的细节，有时会因此沮丧、遭遇挫折。可能发展成：§Y耐心§!、§Y贪婪§! 或 §Y多疑§!。;;;;;;;;;;x
+curious_desc;这个孩子有着好奇的天性，不断地提问题、探索新奇事物。可能发展成：§Y精明§!、§Y愤世嫉俗§! 或 §Y同情其他宗教§!。;;;;;;;;;;x
+idolizer_desc;这个孩子容易被感情影响，有着强烈的探求真理的欲望。可能发展成：§Y狂热§!、§Y博学§! 或 §Y脆弱§!;;;;;;;;;;x
+CHRONICLE_RUNESTONE_POSSESSED;[Root.GetTitledName]树立起一块符石，警示魔界葅罗摩罗诃的邪魔大君诃葅摩罗兹会在千年之后，将破坏和混乱带回到这个可怜的世界。;;;;;;;;;;x
+CHRONICLE_HELD_NERGE;[Root.GetTitledName]在[Root.Location.GetName]举办了一场盛大的捏儿格。;;;;;;;;;;x
+EVTDESC_ZE_10076;致[GetFromRootInsult][Root.GetTitledFirstName]。\n\n我和我的部下们已经忍受你残酷的剥削很久了。你无数次不给予我们应得的尊重，因此我们将不再遵守与你的协议。我很高兴能帮助你的敌人，在战场上打败你的军队。;;;;;;;;;;x
+EVTOPTA_ZE_10076;这个忘恩负义的[GetRootFromInsult] ！;;;;;;;;;;x
+tooltip_disables_advisors;\n在王国、帝国禁用荣誉头衔「顾问」\n;;;;;;;;;;x
+tooltip_enables_advisors;\n在王国、帝国可以授予荣誉头衔「顾问」\n;;;;;;;;;;x
+opinion_denied_request;请求被拒绝;;;;;;;;;;x
+EVTOPTX_ZE_6021;不，我有些别的想法。;;;;;;;;;;x
+EVTOPTY_ZE_6021;[From.GetSheHeCap] 应当成为我的顾问。;;;;;;;;;;x
+well_mannered;有风度;;;;;;;;;;x
+ask_for_pardon;请求原谅;;;;;;;;;;x
+ask_for_pardon_desc;以消耗§Y人情§!为交换，使你的领主可能拥有的驱逐、处决、逮捕或收回头衔的借口失效。;;;;;;;;;;x
+EVTDESC_ZE_8120;阴险的 [pardon_target.GetBestName]以你欠 [pardon_target.GetHerHim] 的人情为理由，强迫你原谅 [pardon_target.GetHerHis] 见不得人的罪恶！你不再可以对 [pardon_target.GetHerHim] 实施敌对行为，除非你想被全国当成暴君。;;;;;;;;;;x
+EVTOPTA_ZE_8120;原谅它，忘掉它。;;;;;;;;;;x
+faction_powerful_vassal_takeover_title;推翻 [From.Liege.GetBestName];;;;;;;;;;x
+opinion_abdicated;应要求退位;;;;;;;;;;x
+EVTDESC8220;你是暴君，是[GetFromRootInsult]！你一直无视内阁、无视你臣民的福祉，我们将不再袖手旁观。是时候让你让位给 [new_title_holder.GetFullName]了！和平接受这个提议，不然就让你尝点苦头。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTDESC8223;为了避免让国家陷入内战、领土分裂，我决定服从你的要求放弃王位。但是这个背信弃义的敲诈行径我永远也不会忘记……\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+faction_powerful_vassal_takeover_ultimatum;要求退位;;;;;;;;;;x
+faction_powerful_vassal_takeover_ultimatum_desc;给 §Y[Root.Liege.GetBestName]§! 发出最后通牒，要求 [Root.Liege.GetSheHe] 让位给境内最受欢迎的封臣。如果 [Root.Liege.GetSubjectPronoun] 拒绝遵从，你的派系将会发起反叛。;;;;;;;;;;x
+CB_NAME_POWERFUL_VASSAL_TAKEOVER;推翻统治者;;;;;;;;;;x
+WAR_NAME_POWERFUL_VASSAL_TAKEOVER;$ORDER$ 战争以剥夺 $DEFENDER$ 的权力;;;;;;;;;;x
+AIREASON_IS_MY_VASSAL;是我的封臣;;;;;;;;;;x
+EVTOPTREFUSE_WOL100;这永远也不会发生。;;;;;;;;;;x
+EVTDESC_WOL_119;显然 [FromFromFrom.GetBestName]不喜调情的性格声名远播。花再多时间去追求 [FromFromFrom.GetHerHim] 也是浪费。;;;;;;;;;;x
+EVTOPTA_WOL_119;继续。;;;;;;;;;;x
+EVTDESC_WOL_120;[From.GetBestName]的答复跟我期望的完全不一样，显然我只能「永远地离开」。;;;;;;;;;;x
+EVTOPTA_WOL_120;就这样吧。;;;;;;;;;;x
+opinion_seduced_refused;勾引被拒绝;;;;;;;;;;x
+dismissed_proposal;拒绝了勾引企图;;;;;;;;;;x
+EVTDESC8225;我很谦恭地接下您今天给我的重任。我接受 [new_title_holder.GetTitle] 这个头衔，并将尽我所能效忠于您。您作出改变的壮举会被铭记。\n\n[new_title_holder.GetTitledName];;;;;;;;;;x
+EVTOPTA8225;棒极了。;;;;;;;;;;x
+EVTDESC8226;[From.GetBestName]领导的派系赢得了他们的战争，并钦点我来当 [Root.GetTitle] 的继承人。将来我会向帮助我的所有人展现我的宽宏慷慨。;;;;;;;;;;x
+EVTOPTA8226;无上的荣耀。;;;;;;;;;;x
+EVTOPTHAU;可能导致§Y傲慢§!;;;;;;;;;;x
+EVTOPTAFF;可能导致§Y亲切§!;;;;;;;;;;x
+EVTOPTTIM;可能导致§Y怯懦§!;;;;;;;;;;x
+EVTOPTROW;可能导致§Y粗暴§!;;;;;;;;;;x
+EVTOPTWIL;可能导致§Y任性§!;;;;;;;;;;x
+EVTOPTBRO;可能导致§Y沉思§!;;;;;;;;;;x
+EVTOPTIND;可能导致§Y怠惰§!;;;;;;;;;;x
+EVTOPTPLA;可能导致§Y调皮§!;;;;;;;;;;x
+EVTOPTCON;可能导致§Y尽责§!;;;;;;;;;;x
+EVTOPTFUS;可能导致§Y挑剔§!;;;;;;;;;;x
+EVTOPTIDO;可能导致§Y狂信者§!;;;;;;;;;;x
+EVTOPTHAU_FROM;§Y[From.GetFirstName]§! 可能获得 §Y自大§!;;;;;;;;;;x
+EVTOPTAFF_FROM;§Y[From.GetFirstName]§! 可能获得 §Y亲切§!;;;;;;;;;;x
+EVTOPTTIM_FROM;§Y[From.GetFirstName]§! 可能获得 §Y怯懦§!;;;;;;;;;;x
+EVTOPTROW_FROM;§Y[From.GetFirstName]§! 可能获得 §Y粗暴§!;;;;;;;;;;x
+EVTOPTWIL_FROM;§Y[From.GetFirstName]§! 可能获得 §Y任性§!;;;;;;;;;;x
+EVTOPTIND_FROM;§Y[From.GetFirstName]§! 可能获得 §Y懒散§!;;;;;;;;;;x
+EVTOPTPLA_FROM;§Y[From.GetFirstName]§! 可能获得 §Y调皮§!;;;;;;;;;;x
+EVTOPTCON_FROM;§Y[From.GetFirstName]§! 可能获得 §Y尽责§!;;;;;;;;;;x
+EVTOPTFUS_FROM;§Y[From.GetFirstName]§!可能获得§Y挑剔§!;;;;;;;;;;x
+EVTOPTIDO_FROM;§Y[From.GetFirstName]§!可能获得§Y狂信者§!;;;;;;;;;;x
+pattern_selfish_affects_council_stability_tooltip;这影响内阁的稳定性！\n;;;;;;;;;;x
+pattern_glory_hound_weakening_ruling_dynasty_tooltip;我不想让你使你的家族衰弱！\n;;;;;;;;;;x
+pattern_glory_hound_weakening_powerful_vassal_tooltip;我不想让你弱化权臣！\n;;;;;;;;;;x
+pattern_glory_hound_defenseless_child_tooltip;太不光彩了，这可是一个手无寸铁的孩子！\n;;;;;;;;;;x
+pattern_pragmatist_dislike_landing_ruling_family_tooltip;我不想让你把土地授予给你的家族！\n;;;;;;;;;;x
+pattern_pragmatist_were_already_busy_fighting_tooltip;我们已经忙于另一场战争了\n;;;;;;;;;;x
+pattern_pragmatist_were_not_already_busy_fighting_tooltip;我们没有被另一场战争缠住\n;;;;;;;;;;x
+pattern_zealot_should_focus_on_great_holy_war;我想专注于正在进行的[Root.Religion.GetCrusadeName]\n;;;;;;;;;;x
+pattern_zealot_fromfrom_is_pious_tooltip;战争目标很虔诚，并且是我的同宗\n;;;;;;;;;;x
+pattern_vastly_over_demesne_tooltip;你严重超出了直辖上限，应该分出一个男爵领或伯爵领\n;;;;;;;;;;x
+out_of_patience;失去耐心;;;;;;;;;;x
+chattermouth;喋喋不休;;;;;;;;;;x
+too_honest;诚实过度;;;;;;;;;;x
+impious_teachings;不虔诚的教义;;;;;;;;;;x
+opinion_hypocrite;伪君子;;;;;;;;;;x
+opinion_boring;无聊;;;;;;;;;;x
+EVTOPTC_ZE_13620;[From.GetFirstName]必须靠[From.GetHerHis]自学。;;;;;;;;;;x
+EVTDESC_ZE_13625;[From.GetSheHe]在逐渐长大，我觉得可以在擅长的领域内对[From.GetFirstName]进行一些指导。这可能费力不讨好，但这是为了[From.GetFirstName]的利益作出一些自我牺牲的机会。;;;;;;;;;;x
+EVTDESC_ZE_13620;[From.GetSheHe]在逐渐长大，我觉得可以在外交领域内对[From.GetFirstName]进行一些指导，为了[From.GetHerHis]的教育，我能提供什么?;;;;;;;;;;x
+EVTDESC_ZE_13621;[From.GetSheHe]在逐渐长大，我觉得可以在军事领域内对[From.GetFirstName]进行一些指导，为了[From.GetHerHis]的教育，我能提供什么?;;;;;;;;;;x
+EVTDESC_ZE_13622;[From.GetSheHe]在逐渐长大，我觉得可以在管理领域内对[From.GetFirstName]进行一些指导，为了[From.GetHerHis]的教育，我能提供什么?;;;;;;;;;;x
+EVTDESC_ZE_13623;[From.GetSheHe]在逐渐长大，我觉得可以在阴谋领域内对[From.GetFirstName]进行一些指导，为了[From.GetHerHis]的教育，我能提供什么?;;;;;;;;;;x
+EVTDESC_ZE_13624;[From.GetSheHe]在逐渐长大，我觉得可以在学识领域内对[From.GetFirstName]进行一些指导，为了[From.GetHerHis]的教育，我能提供什么?;;;;;;;;;;x
+EVTDESC_ZE_22800;很显然，[Root.Liege.GetTitledFirstName]的指挥官们有就是一群莽夫，不比暴民强到哪去。另一方面，你恰恰是一个出色的战术家，也是一个好老师！也许你应该提出训练[Root.Liege.GetFirstName]的指挥官们，以换取[Root.Liege.GetHerHis]的一份人情？;;;;;;;;;;x
+EVTOPTA_ZE_22800;我马上给[Root.Liege.GetHerHim]写封信以提议！;;;;;;;;;;x
+EVTOPTB_ZE_22800;不值得我这样做。;;;;;;;;;;x
+EVTDESC_ZE_22801;致我的领主，[GetFromRootCompliment] [Root.GetFirstName]，\n我有个念头挥之不去。您的指挥官们缺少一些正规的战术训练。我提议由我来教给 [commander_one.GetFirstName]、[commander_two.GetFirstName]和 [commander_three.GetFirstName]一些优秀的战场策略！\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_ZE_22801;这是一个非常慷慨的提议，我会因此欠下[From.GetHerHim]一份人情！;;;;;;;;;;x
+EVTOPTB_ZE_22801;不！[From.GetSheHeCap]只是在我和讨价还价！;;;;;;;;;;x
+EVTDESC_ZE_22802;致我忠诚的臣子， [GetFromRootCompliment] [Root.GetFirstName]，\n\n您的提议非常慷慨！我欣然接受您的提议，在将来我会记住您这份功绩。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_ZE_22802;棒极了！现在我可以利用[From.GetHerHim]了……;;;;;;;;;;x
+EVTDESC_ZE_22803;致我的臣子，[GetFromRootInsult] [Root.GetFirstName]，\n\n你的提议是赤裸裸的欺诈。你竟然认为我的指挥官们不称职！这是对他们的无耻污蔑。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_ZE_22803;这不是我想要的结果！;;;;;;;;;;x
+EVTOPTA_ZE_13620;保持诚实，如果可以的话。;;;;;;;;;;x
+EVTOPTB_ZE_13620;善于交际是关键。;;;;;;;;;;x
+EVTOPTA_ZE_13621;展现勇气以激励他人。;;;;;;;;;;x
+EVTOPTB_ZE_13621;我会使[From.GetHerHim]坚强起来……;;;;;;;;;;x
+EVTOPTA_ZE_13622;平等对待一切。;;;;;;;;;;x
+EVTOPTB_ZE_13622;自制，让生活得到节制。;;;;;;;;;;x
+EVTOPTA_ZE_13623;知识就是别人不需要的力量。;;;;;;;;;;x
+EVTOPTB_ZE_13623;其他人可能会欺骗你。;;;;;;;;;;x
+EVTOPTA_ZE_13624;知识就是力量，学习永不止步。;;;;;;;;;;x
+EVTOPTB_ZE_13624;不要被性欲扰乱心智。;;;;;;;;;;x
+EVTOPTA_ZE_13625;[From.GetSheHeCap]应该追求伟大！去追寻它吧！;;;;;;;;;;x
+EVTOPTB_ZE_13625;为人周密，使他人依靠你。;;;;;;;;;;x
+EVTOPTC_ZE_13625;学会伺机而动。;;;;;;;;;;x
+obj_groom_an_heir_title;培养一个继承人;;;;;;;;;;x
+obj_groom_an_heir_desc;[This.GetTitledFirstName]想拥有一个儿子并把他养大。\n\n如果[This.GetFirstName]的继承法是§Y男女平等§!，那么培养儿子或女儿都可以完成这个野心。\n\n选择这个野心时，§Y生育能力§!会增加§Y20%§!。;;;;;;;;;;x
+opinion_boost_child;§Y[Root.GetFullName]§!的成年孩子对[Root.GetHerHim]的好感增加§G15§!，持续§Y240个月§!！\n;;;;;;;;;;x
+introduce_heir;向封臣引见继承人;;;;;;;;;;x
+introduce_heir_named;向封臣引见继承人;;;;;;;;;;x
+introduce_heir_desc;你的继承人就要成年了，把他（她）引见给你辖下的封臣们。这可以帮助他们建立信任，将来会大有帮助。;;;;;;;;;;x
+introduce_heir_custom_tooltip;发出请柬。;;;;;;;;;;x
+EVTDESC_ZE_22900;你邀请你的封臣前来，为他们介绍你的继承人，[introduced_heir.GetTitledFirstName]。[introduced_heir.GetSheHeCap]不得不和许多人寒暄交谈，留意举止是否得体。年轻的[introduced_heir.GetHerHim]可能不太喜欢这样的场合。但是，你相信[introduced_heir.GetSheHe]不会让你失望！;;;;;;;;;;x
+EVTOPTA_ZE_22900;他们马上就会来了！;;;;;;;;;;x
+EVTDESC_ZE_22901;你的最后一个封臣离开了，看起来[introduced_heir.GetTitledFirstName]终于解脱了。显然[introduced_heir.GetSheHeCap]因拘谨礼节而筋疲力尽，但是希望一个个向封臣引见[introduced_heir.GetHerHim]能够对将来有帮助！;;;;;;;;;;x
+EVTOPTA_ZE_22901;我已经尽全力去把 [introduced_heir.GetHerHim] 培养成一个合格的继承人了。;;;;;;;;;;x
+groomed_to_perfection;培养完成;;;;;;;;;;x
+EVTDESC_ZE_22902;[vassal_teacher.GetBestName]在你的封臣里以博学多才赫赫有名。在给[introduced_heir.GetFirstName]自我介绍之后，[vassal_teacher.GetFirstName]向你提出建议。[vassal_teacher.GetFirstName]愿意花一段时间教给[introduced_heir.GetFirstName]一些关于[Root.Religion.GetScriptureName]更加深奥的部分，这会使你欠下人情。;;;;;;;;;;x
+EVTOPTA_ZE_22902;我可以为 [introduced_heir.GetTitledFirstName]做任何事！;;;;;;;;;;x
+EVTOPTB_ZE_22902;没有必要。;;;;;;;;;;x
+EVTDESC_ZE_22903;当[introduced_heir.GetFirstName]介绍[introduced_heir.GetHerselfHimself]给[compliment_vassal.GetBestName]的时候[introduced_heir.GetSheHe]不止优雅地介绍了[introduced_heir.GetHerselfHimself]，也成功地令[compliment_vassal.GetFirstName]印象深刻，通过有技巧地向 [compliment_vassal.GetHerHim]拍马屁！;;;;;;;;;;x
+EVTOPTA_ZE_22903;我教给[introduced_heir.GetHerHim]一切[introduced_heir.GetSheHe]所知道的!;;;;;;;;;;x
+EVTDESC_ZE_22904;当[introduced_heir.GetFirstName]介绍[introduced_heir.GetHerselfHimself]给[insult_vassal.GetBestName]的时候[introduced_heir.GetSheHe]不仅不小心把饮料撒到[insult_vassal.GetFirstName]的鞋子上，还冒犯了[insult_vassal.GetFirstName]所有的祖先！;;;;;;;;;;x
+EVTOPTA_ZE_22904;这熊孩子就是个祸患！;;;;;;;;;;x
+EVTDESC_ZE_22905;看上去好像[introduced_heir.GetFirstName]跟一个来访封臣的小孩相处的非常融洽！很显然[introduced_heir.GetFirstName]和[befriended_child.GetBestName]很快成了好朋友。;;;;;;;;;;x
+EVTOPTA_ZE_22905;真不错！;;;;;;;;;;x
+EVTDESC_ZE_22906;你正在惬意地与人交谈，忽然被一阵鬼哭狼嚎所打断，打探一下发现好像是[introduced_heir.GetFirstName]跟一位来访封臣的小孩打起来了！你把两个小孩分开，但很显然[introduced_heir.GetFirstName]跟[rival_child.GetBestName]在这次遭遇之后再也不可能成为朋友了……;;;;;;;;;;x
+EVTOPTA_ZE_22906;到底是谁先动手的？;;;;;;;;;;x
+EVTDESC_ZE_22907;几个小时过去了 你发现 [introduced_heir.GetFirstName]的心情非常低落。[introduced_heir.GetSheHeCap]很明显努力想要尽[introduced_heir.GetHerHis]最大努力来打动访问的封臣，但很明显这让[introduced_heir.GetHerHim]精疲力竭。希望[introduced_heir.GetFirstName]的低落情绪早点儿过去。;;;;;;;;;;x
+EVTOPTA_ZE_22907;接下来还有更多的封臣要接待……;;;;;;;;;;x
+EVTDESC_ZE_22908;[vassal_teacher_martial.GetBestName]是一位赫赫有名的战士和战术大师。在介绍[vassal_teacher_martial.GetHerselfHimself]给[introduced_heir.GetFirstName]之后，[vassal_teacher_martial.GetFirstName]接近你，并跟你提议：[vassal_teacher_martial.GetFirstName]愿意花一段时间教[introduced_heir.GetFirstName]如何与人搏斗以博得你的好感。;;;;;;;;;;x
+EVTOPTA_ZE_22908;这会很有用，我当然愿意欠你这个人情！;;;;;;;;;;x
+EVTOPTB_ZE_22908;学习怎么打架？学这个有什么用！;;;;;;;;;;x
+EVTDESC_ZE_22909;所有来访的封臣都察觉到[introduced_heir.GetTitledFirstName]非常痴迷于[husband_target.GetTitledFirstName]的妻子，[wife_target.GetTitledFirstName]。虽然没有过分的接触，[introduced_heir.GetFirstName]还是整天像狗一样地跟着她。[husband_target.GetFirstName]看起来很不高兴。;;;;;;;;;;x
+EVTOPTA_ZE_22909;真是胡闹！;;;;;;;;;;x
+COUNCIL_VOTE_WAR_ACCEPT_SETUP;内阁对战争的投票结果;;;;;;;;;;x
+STOP_ENFORCE_PEACE_INTERACTION_ACCEPT_SETUP;要求停止执行强制和平被接受;;;;;;;;;;x
+STOP_ENFORCE_PEACE_INTERACTION_DECLINE_SETUP;要求停止执行强制和平被否决;;;;;;;;;;x
+ASK_REALM_PEACE_INTERACTION_ACCEPT_SETUP;执行强制和平的要求被接受;;;;;;;;;;x
+ASK_COUNCIL_POSITION_INTERACTION_ACCEPT_SETUP;接受内阁提出的要求;;;;;;;;;;x
+FORCE_JOIN_FACTION_INTERACTION_ACCEPT_SETUP;强制加入派系;;;;;;;;;;x
+ASSIGN_VOTER_TITLE_INTERACTION_DECLINE_SETUP;内阁成员拒绝;;;;;;;;;;x
+succession_voting_power;内阁权力;;;;;;;;;;x
+succession_voting_power_desc;内阁关于维持自身职位和选择领主继承人的权力;;;;;;;;;;x
+succession_voting_power_0_desc;领主拥有选择继承法的至高权力，并可凭借自己的意愿更换内阁成员。\n;;;;;;;;;;x
+succession_voting_power_1_desc;内阁的权利膨胀到了极限，领主无法随心所欲地替换内阁成员，而且无法完全控制领地内的继承法。\n;;;;;;;;;;x
+succession_voting_power_0_option;受限;;;;;;;;;;x
+succession_voting_power_1_option;完全;;;;;;;;;;x
+succession_voting_power_0;有限内阁权力;;;;;;;;;;x
+succession_voting_power_1;完全内阁权力;;;;;;;;;;x
+succession_voting_power_1_effect_tooltip;§Y强力的封臣§!无法从§Y内阁§!被开除\n§Y选举继承法§!对印度宗教和穆斯林可用\n如果§Y选举继承法§!已开启，将无法更改继承法;;;;;;;;;;x
+succession_voting_power_0_effect_tooltip;§Y强力的封臣§!可以从§Y内阁§!被开除\n印度宗教和穆斯林禁用§Y选举继承法§!\n可以更改继承法即使§Y选举继承法§!已被选择;;;;;;;;;;x
+MATRILINEAL_MARRIAGE_CONCLAVE;两方必须都允许入赘婚姻;;;;;;;;;;x
+STEAM_SUBSCRIBER_AGREEMENT;同意Steam订户协议;;;;;;;;;;x
+VICE_ROYALTY_CHANGE_PRIMARY_FORBIDDEN;总督不被允许更改主头衔;;;;;;;;;;x
+CONFIRM_ABANDON_GAME_TITLE;放弃游戏;;;;;;;;;;x
+CONFIRM_ABANDON_GAME_DESC;你确定你要放弃游戏吗？;;;;;;;;;;x
+SM_CONTEXTMUSIC;情景相关音乐;;;;;;;;;;x
+MINIMAP_NEXTSONG;下一曲;;;;;;;;;;x
+MINIMAP_NEXTSONG_DELAYED;正在播放：$SONG|Y$;;;;;;;;;;x
+PEACE_ENFORCE_COUNCIL_DISCONTENT;内阁必须处于满意状态;;;;;;;;;;x
+COUNCIL_DISCONTENT_EFFECT;在内阁处于§Y满意§!状态并且§Y宣战§!法被设定为§Y内阁§!的时候，内阁成员将无法加入或者组织§Y派系§!(游牧和部落的内阁成员无论何时都可加入或者组织派系)。\n在内阁处于 §Y不满§! 状态的时候，领主无法§Y强制领内和平§!。;;;;;;;;;;x
+alert_council_discontent_delayed;您的内阁已经处于不满状态长达 $DISCONTENT_DURATION|Y$ 个月，并将持续到 §Y$DISCONTENT_END_DATE$§!。这意味着如果有内阁成员曾经因法律被禁止创建跟加入派系，那么他们现在可以这么做。这将很可能会动摇国本。;;;;;;;;;;x
+alert_liege_council_discontent_delayed;您领主的内阁已经处于不满状态长达 $DISCONTENT_DURATION$ 个月，并将持续到 §Y$DISCONTENT_END_DATE$§!。这意味着如果有内阁成员曾经因法律被禁止创建跟加入派系，那么他们现在可以这么做。这将很可能会动摇国本。;;;;;;;;;;x
+coalitions_title;$GROUP$针对$TARGET$的共同防御协定;;;;;;;;;;x
+coalition_group;§Y成员：§!$MEMBERS$;;;;;;;;;;x
+gov_bad_pope;教廷;;;;;;;;;;x
+gov_pope;[Religion.GetName]教廷;;;;;;;;;;x
+gov_patriarchate;[Religion.GetName]牧首;;;;;;;;;;x
+gov_theocracy;[Religion.GetName]神权制;;;;;;;;;;x
+gov_republic;共和国;;;;;;;;;;x
+gov_elective_muslim_aristocratic_monarchy;选举贵族制[PrimaryTitle.GetTier];;;;;;;;;;x
+gov_elective_muslim_despotic_monarchy;选举独裁制[PrimaryTitle.GetTier];;;;;;;;;;x
+gov_elective_muslim_absolute_monarchy;选举绝对君主制[PrimaryTitle.GetTier];;;;;;;;;;x
+gov_elective_muslim_absolute_autocracy;选举绝对帝国专制;;;;;;;;;;x
+gov_elective_muslim_despotic_autocracy;选举独裁帝国专制;;;;;;;;;;x
+gov_elective_muslim_aristocratic_autocracy;选举贵族帝国专制;;;;;;;;;;x
+INTERACTION_COALITION_RANGE;对我们的威胁近在眼前;;;;;;;;;;x
+GAME_SETUP_COALITIONS_TARGET_ICON;是一个或多个§Y共同防御协定§!的针对目标，总共有$NUM_MEMBERS|Y$位成员。;;;;;;;;;;x
+GAME_SETUP_COALITIONS_MEMBER_ICON;处于针对$TARGET|Y$的§Y共同防御协定§!中。总共$NUM_MEMBERS|Y$角色已加入§Y共同防御协定§!以对抗同一目标。;;;;;;;;;;x
+alert_high_infamy_delayed;§Y威胁度§!效果：\n\n- 当§Y威胁度§!超过 $COALITION_INFAMY_LIMIT|%Y0$ 时，其他领主会签订§Y共同防御协定§!来保护自己。每个宗教组有各自分开的§Y共同防御协定§!且只会保卫来自相同§Y共同防御协定§!的成员。\n\n- 当§Y威胁度§!超过 $OTHER_COALITION_JOIN_INFAMY|%Y0$ 时，所有来自其他宗教组的§Y共同防御协定§!成员将会在您进攻某个成员时集体反击。\n\n- 当§Y威胁度§!超过 $EVERY_COALITION_EXCEPT_HEADS_JOIN_INFAMY|%Y0$ 时，包括您自己宗教组在内的所有§Y共同防御协定§!成员都会在您发动进攻某个成员时集体反击。\n\n- 当§Y威胁度§!超过 $EVERY_COALITION_JOIN_INFAMY|%Y0$ 时，你将被认为臭名昭著，连你自己的宗教首领和本宗教的圣战士都会主动加入针对你的§Y共同防御协定§!。\n\n- 随着你§Y威胁度§!的提升，更大或者更遥远的国度将被允许加入针对你的§Y共同防御协定§!。\n\n- 当你的§Y威胁度§!下降时，更大或者更遥远的国度将被强制离开针对你的§Y共同防御协定§!。\n\n--------------\n§Y威胁度§!随着时间会缓慢下降，但是你可以通过给予非法理领地独立手动降低威胁度。;;;;;;;;;;x
+INTERACTION_COALITION_REQUIRES_COUNTY_COMPARE;§Y[Actor.GetTitledFirstName]§!最大不超过§Y[Recipient.GetTitledFirstName]§!土地大小的 $RATIO|Y%0$;;;;;;;;;;x
+COUNCIL_ELECTIVE;内阁选举法;;;;;;;;;;x
+WANTS_PARDON;我不想坐牢;;;;;;;;;;x
+COUNCIL_ELECTIVE_DESC;内阁选举法是一种独特的继承法，仅可通过颁布特定法律而实现。领主和每名内阁成员均可从直属封臣、婚生子女、以及领主的配偶中选择并提名一位继承人。每位内阁成员拥有一票，不管他们是否拥有领地。这种选举继承法将不考虑投票者的头衔，无论领主还是内阁成员每人都只有一票。内阁选举法非常受封臣的欢迎。;;;;;;;;;;x
+IS_POWERFUL_VASSAL_TRIGGER;$CHAR$是一位强力封臣。\n;;;;;;;;;;x
+IS_NOT_POWERFUL_VASSAL_TRIGGER;$CHAR$ 不是一位强力封臣。\n;;;;;;;;;;x
+CANNOT_JOIN_FACTION_COUNCIL_CONTENT;§R你是内阁成员并且内阁投票决定宣战与否，你只能在内阁不满的时候创建或者加入派系。§!;;;;;;;;;;x
+INTERACTION_REQUIRES_NOT_IS_IN_PRISON;§Y[Recipient.GetTitledFirstName]§!未被囚禁;;;;;;;;;;x
+INTERACTION_REQUIRES_RECIPIENT_NOT_INCAPABLE;§Y[Recipient.GetTitledFirstName]§!不是无能;;;;;;;;;;x
+EVTDESCHL1;[FromFrom.GetTitledName]已经决定放弃游牧生活并和[FromFrom.GetHerHis]追随者们定居在[FromFrom.PrimaryTitle.GetName]，使之成为 [FromFrom.Culture.GetName]的新家园。;;;;;;;;;;x
+FORM_NON_AGGRESSION_PACT_INTERACTION_TITLE;提出互不侵犯条约;;;;;;;;;;x
+malcontent_desc;愤愤不平的内阁成员对国事现状会非常不满。他们是内阁中的麻烦，除非立即能够获得权力，否则他们会一直反对领主的意愿。;;;;;;;;;;x
+zealot_desc;宗教狂热的内阁成员会努力把宗教事务摆在领内政治议程的优先项。如果存在宗教战争的目标，这位内阁成员将反对对其他目标开战。这位内阁成员也会更倾向于支持对异端和异教角色敌对的行为。;;;;;;;;;;x
+robust;健壮;;;;;;;;;;x
+feeble;脆弱;;;;;;;;;;x
+robust_desc;此角色身体健壮。;;;;;;;;;;x
+feeble_desc;此角色身体抱恙。;;;;;;;;;;x
+weak_desc;此角色天生体弱多病。;;;;;;;;;;x
+shrewd;精明;;;;;;;;;;x
+shrewd_desc;此角色发展出了敏锐精明的心智。;;;;;;;;;;x
+dull;笨拙;;;;;;;;;;x
+dull_desc;这人不可能脱颖而出。;;;;;;;;;;x
+suicide;自杀;;;;;;;;;;x
+INSULT_SCARECROW;稻草人;;;;;;;;;;x
+INSULT_LOVER_OF_HEATHENS;异教徒的情人;;;;;;;;;;x
+INSULT_UNPRINCIPLED;无原则的;;;;;;;;;;x
+INSULT_STUPID;愚蠢的;;;;;;;;;;x
+INSULT_LAZY;懒惰;;;;;;;;;;x
+INSULT_FARTMASTER;放屁高手;;;;;;;;;;x
+INSULT_JUNGLE_SNAKE;林中毒蛇;;;;;;;;;;x
+INSULT_SNEAKING;鬼鬼祟祟;;;;;;;;;;x
+COMPL_ARCHITECT;建筑大师;;;;;;;;;;x
+INSULT_SCHEMING;狡诈的;;;;;;;;;;x
+INSULT_BLABBERER;废话大师;;;;;;;;;;x
+INSULT_SILLY;蠢材;;;;;;;;;;x
+INSULT_INSTIGATOR;煽动者;;;;;;;;;;x
+INSULT_BOOKWORM;书呆子;;;;;;;;;;x
+INSULT_SQUINTEYED;斜眼;;;;;;;;;;x
+INSULT_UPSTART;暴发户;;;;;;;;;;x
+INSULT_PEABRAIN;傻瓜;;;;;;;;;;x
+INSULT_HAYBRAIN;草包;;;;;;;;;;x
+INSULT_CRUMMY;肮脏;;;;;;;;;;x
+COMPL_CONQUEROR;征服者;;;;;;;;;;x
+COMPL_AUDACIOUS;勇者;;;;;;;;;;x
+INSULT_GRABBING;抢劫犯;;;;;;;;;;x
+INSULT_BRAT;黄口小儿;;;;;;;;;;x
+INSULT_ARROGANT;傲慢的;;;;;;;;;;x
+INSULT_GROUCHY;玻璃心;;;;;;;;;;x
+INSULT_CLINGY;跟屁虫;;;;;;;;;;x
+INSULT_FLOPPY;懒冲;;;;;;;;;;x
+INSULT_TICK;讨厌鬼;;;;;;;;;;x
+INSULT_CREEPY;诡异;;;;;;;;;;x
+INSULT_RUFFIAN;痞子;;;;;;;;;;x
+INSULT_MONGREL;杂种;;;;;;;;;;x
+INSULT_CRAZY;发疯的;;;;;;;;;;x
+INSULT_WILD;蛮子;;;;;;;;;;x
+COMPL_CLEVER;聪慧;;;;;;;;;;x
+COMPL_LOVELY;可爱;;;;;;;;;;x
+INSULT_SCURRYING;多动的;;;;;;;;;;x
+INSULT_WORM;虫子;;;;;;;;;;x
+INSULT_DESERT_RAT;沙鼠;;;;;;;;;;x
+INSULT_FANATIC;狂热分子;;;;;;;;;;x
+INSULT_TROLL;丑八怪;;;;;;;;;;x
+INSULT_UGLY;丑陋的;;;;;;;;;;x
+INSULT_TWOFACED;表里不一的;;;;;;;;;;x
+INSULT_MISERLY;吝啬的;;;;;;;;;;x
+COMPL_ELOQUENT;雄辩;;;;;;;;;;x
+COMPL_NICE;善良的;;;;;;;;;;x
+COMPL_THRIFTY;节俭;;;;;;;;;;x
+INSULT_GROVELING;卑躬屈膝的;;;;;;;;;;x
+INSULT_DEVIL;恶魔;;;;;;;;;;x
+INSULT_GRUMBLER;牢骚满腹;;;;;;;;;;x
+INSULT_SYPHILITIC;梅毒患者;;;;;;;;;;x
+INSULT_DECAYING;腐朽的;;;;;;;;;;x
+INSULT_SMELLY;臭气熏天;;;;;;;;;;x
+INSULT_RENEGADE;叛徒;;;;;;;;;;x
+INSULT_GODLESS;不信神;;;;;;;;;;x
+COMPL_PRETTY;漂亮;;;;;;;;;;x
+COMPL_SMARTY;智慧;;;;;;;;;;x
+INSULT_FRIGID;冷冰冰;;;;;;;;;;x
+INSULT_UNMANLY;懦弱的;;;;;;;;;;x
+COMPL_VIRTUOUS;品德高尚的;;;;;;;;;;x
+INSULT_TREEHUGGER;环保狂;;;;;;;;;;x
+INSULT_WEIRD;怪人;;;;;;;;;;x
+INSULT_DRIVELING;满嘴胡言的;;;;;;;;;;x
+COMPL_BLADEMASTER;刀剑大师;;;;;;;;;;x
+COMPL_CHAMPION;冠军;;;;;;;;;;x
+COMPL_HUNTMASTER;捕猎大师;;;;;;;;;;x
+INSULT_FLABBY;软弱的;;;;;;;;;;x
+INSULT_MEANIE;小气鬼;;;;;;;;;;x
+INSULT_DONKEY;蠢驴;;;;;;;;;;x
+INSULT_WICKED;邪恶的;;;;;;;;;;x
+COMPL_HERO;英雄;;;;;;;;;;x
+INSULT_SPINELESS;没骨气的;;;;;;;;;;x
+INSULT_NASTY;下流的;;;;;;;;;;x
