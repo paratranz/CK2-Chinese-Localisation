@@ -4466,7 +4466,7 @@ great_adventure;伟大冒险;;;;;;;;;;x
 nice_adventure;不错的冒险;;;;;;;;;;x
 emerald_tablet;翠玉录;;;;;;;;;;x
 EVTDESC_MNM_1418;致[Root.GetFromThisHermeticsRank] [Root.GetFirstName]，\n\n我的[Root.GetSisterBrother]，我有一个你可能会感兴趣的提议。不久前一封信落到了我的手里，它详细描述了一些遗失的赫尔墨斯文献的可能地点。如果你资助这场探险，我们可以一起寻找这些宝藏！\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致， [From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
-EVTDESC_MNM_1420_A;致[Root.GetFromThisHermeticsRank][Root.GetFirstName]，\n信上提到了三个遗失的文本：本地古董商所持有的一本厚书，一张藏在[temple_site.GetName]内的[temple_site.Holder.GetHouseOfWorship]的卷轴，以及位于[ruin_site.Holder.TopLiege.PrimaryTitle.GetName]内的[ruin_site.GetName]古图书馆遗址的一块碑。在远方和过去进一步探险，我们可能会发现更大的秘密。这将由你来做决定。\n\n此致， [From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_1420_A;致[Root.GetFromThisHermeticsRank][Root.GetFirstName]，\n信上提到了三个遗失的文本：本地古董商所持有的一本厚书，一张藏在[temple_site.GetName]内的[temple_site.Holder.GetHouseOfWorship]的卷轴，以及位于[ruin_site.Holder.TopLiege.PrimaryTitle.GetName]内的[ruin_site.GetName]古图书馆遗址的一块碑。我们探索得越远，追溯得越久，就越可能会发现更大的秘密。这将由你来做决定。\n\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 EVTDESC_MNM_1420_B;致 [Root.GetFromThisHermeticsRank] [Root.GetFirstName]，\n我有一个好消息！自从我们上次通信后，我获得了一张通往亚历山大大图书馆废墟的一个幸存房间的地图。尽管之前的选项依然可以考虑。一本古籍在 [Root.Capital.GetName]，一份卷轴在 [temple_site.GetName]以及一块碑在 [ruin_site.Holder.TopLiege.PrimaryTitle.GetName]我认为这是一个绝好的机会，不能放弃。.\n\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
 EVTOPTA_MNM_1420;确实不错！我们将前往亚历山大！;;;;;;;;;;x
 EVTOPTA_MNM_1420_TT;你和 §Y[From.GetTitledFirstName]§! 出发前往亚历山大港，希望能找到大图书馆的废墟。\n;;;;;;;;;;x
@@ -4518,10 +4518,10 @@ EVTOPTD_MNM_1435_TT;这个是糟糕的主意。你退回了你[Root.Capital.GetH
 EVTDESC_MNM_1436_A;当我们走出阴影，卫兵们把剑出鞘。不过当我从口袋里掏出沉重的钱包时，他们的姿势和脸色都变了。在短暂的交涉、送上金钱之后，[infiltration_companion.GetSocietyRank] [infiltration_companion.GetFirstName]和我穿过了沉重的大门。「现在，[Root.GetSisterBrother]，你建议我们下一步采取什么行动？」;;;;;;;;;;x
 EVTDESC_MNM_1436_B;通过一些神迹，[infiltration_companion.GetSocietyRank][infiltration_companion.GetFirstName]设法在水壶在给卫兵前在里面倒了一小瓶药水。不到一刻钟，他们就开始打鼾。「我们必须尽快，药效不会永远持续下去。」在我们偷溜进去时我小声说道。「现在我们要干什么，[Root.GetSisterBrother]？」我们刚进去[infiltration_companion.GetFirstName]就问道。;;;;;;;;;;x
 EVTOPTA_MNM_1436;如果你致力于毁灭，我将会去寻找有价值的东西。;;;;;;;;;;x
-EVTOPTA_MNM_1436_TT;你们分开去覆盖更多地方。更有效，但有些冒险。;;;;;;;;;;x
+EVTOPTA_MNM_1436_TT;你们分头行动以覆盖更大的范围。这更有效，但更加冒险。;;;;;;;;;;x
 EVTOPTB_MNM_1436;我来搞破坏。你去收集见到的有用的东西。;;;;;;;;;;x
 EVTOPTC_MNM_1436;帮我找到[infiltration_target.GetFirstName]的[infiltration_target.GetHerHis]贵重物品都放在哪。;;;;;;;;;;x
-EVTOPTC_MNM_1436_TT;你们待在一起。更安全，但不那么有效率。\n;;;;;;;;;;x
+EVTOPTC_MNM_1436_TT;你们一起行动。这更安全，但效率并不高。\n;;;;;;;;;;x
 EVTOPTD_MNM_1436;我们的目标是达到最大的破坏。让我们开始吧！;;;;;;;;;;x
 EVTDESC_MNM_1437;起初，一切都很顺利，有如神助一般，[infiltration_companion.GetFirstName]设法把一小瓶药水弄进了卫兵们喝水的罐子里。那可是半个小时前的事了！卫兵们还是一点睡意都没有，我们快没时间了。我们离开时我低声道歉，但是 [infiltration_companion.GetFirstName]没有回答。;;;;;;;;;;x
 EVTOPTA_MNM_1437;那个配方从来没有失败过，我发誓……;;;;;;;;;;x
@@ -5478,7 +5478,7 @@ theoretical_alchemist;理论炼金术师;;;;;;;;;;x
 theoretical_alchemist_desc;一位更喜欢理论性研究方法的炼金术师。;;;;;;;;;;x
 experimenting_alchemist;实验炼金术师;;;;;;;;;;x
 experimenting_alchemist_desc;一位更喜欢实验性研究方法的炼金术师。;;;;;;;;;;x
-divine_spirit_alliance;恶魔联盟;;;;;;;;;;x
+divine_spirit_alliance;神圣同盟;;;;;;;;;;x
 divine_spirit_alliance_desc;这个角色通过向圣灵祈祷来更深入理解[Religion.GetHighGodName]。;;;;;;;;;;x
 demon_alliance;恶魔联盟;;;;;;;;;;x
 demon_alliance_desc;这个角色通过向恶魔祈祷来更深入理解[Religion.GetHighGodName]。;;;;;;;;;;x
