@@ -290,7 +290,7 @@ chinese_master_engineer_allow_tt;未拥有将作大匠;;;;;;;;;;x
 chinese_master_engineer_effect_tt;一个将作大匠会加入您的宫廷。在雇佣期内，他将会在您的各个直辖领内建造建筑和机械，并且对您的经济，军事和科技给予多种增益。;;;;;;;;;;x
 title_master_engineer;将作大匠;;;;;;;;;;x
 title_master_engineer_desc;将作大匠会在你的领地建设那些充满中国智慧的奇迹，如干船坞和高炉。;;;;;;;;;;x
-EVTDESC_JD_20032;[Root.GetGovernorLetterGreeting]. [Root.GetChineseLetterBlessing].\n\n天子[From.Offmap.Ruler.GetLongChineseEmperorName]慷慨地答应了你的请求。将作大匠[chinese_master_engineer.GetDynName]将来教化你的国家。;;;;;;;;;;x
+EVTDESC_JD_20032;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子[From.Offmap.Ruler.GetLongChineseEmperorName]慷慨地答应了你的请求。将作大匠[chinese_master_engineer.GetDynName]将来教化你的国家。;;;;;;;;;;x
 EVTOPTA_JD_20032_TT;§Y[chinese_master_engineer.GetDynName]§!出现在你的宫廷。;;;;;;;;;;x
 title_master_engineer_modifier_tt;是一位来自天朝的将作大匠;;;;;;;;;;x
 EVTDESC_JD_20034;将作大匠§Y[From.GetDynName]§!在§Y[jd_build_province.GetName]§!建成了一座造纸坊。;;;;;;;;;;x
@@ -472,7 +472,7 @@ EVTOPTA_JD_10016_TT;你损失了一些皇恩。\n;;;;;;;;;;x
 EVTDESC_JD_10017;[adventurous_spirit.GetTitledName]终于从[the_protector_general.Offmap.GetFullName]回到了故乡！然而，当被问及[adventurous_spirit.GetHerHis]的冒险经历时，[adventurous_spirit.GetSheHe]只是嘟囔几句[adventurous_spirit.GetNegativeChineseConvoTopic]的事;;;;;;;;;;x
 EVTOPTA_JD_10017;我应该派人去接替[adventurous_spirit.GetFirstName]。;;;;;;;;;;x
 EVTOPTA_JD_10017_TT;你损失了一些皇恩。\n;;;;;;;;;;x
-EVTOPTA_JD_10018;噢，真可爱啊!欢迎来到[Root.PrimaryTitle.GetFullName]!;;;;;;;;;;x
+EVTOPTA_JD_10018;噢，真好啊!欢迎来到[Root.PrimaryTitle.GetFullName]!;;;;;;;;;;x
 EVTOPTA_JD_10018_TT;一位名叫 §Y[new_found_lover.GetTitledName]§! 的[new_found_lover.GetManWoman]加入了你的宫廷。\n;;;;;;;;;;x
 EVTOPTB_JD_10018;你邀请了一个陌生人到我们 [Root.GetCapitalHolding]这里来？;;;;;;;;;;x
 EVTOPTB_JD_10018_TT;你获得了一些皇恩。§Y[adventurous_spirit.GetTitledFirstName]§!很不高兴。\n;;;;;;;;;;x
@@ -2475,7 +2475,7 @@ chinese_grace_peace_deal_desc;向§Y[Root.Offmap.Ruler.GetMediumChineseEmperorNa
 chinese_grace_doctor_desc;§Y[Root.Offmap.GetFullName]§!因为他们知识丰富的居民而声名远播，你可以请求一名当地学者来到你的宫廷成为你的私人医生。这个角色一定会有 §Y医生§!特质;;;;;;;;;;x
 chinese_strategist_desc;在过去的几个世纪里，§Y[Root.Offmap.GetFullName]§!的军事天赋使他掌握了战争的艺术。你可以要求一个精通中国战略的指挥官加入你的宫廷。这个§Y兵法家§!将会教导你现有的指挥官们关于中国的军事战术，给予他们特殊的§Y指挥官特质§!。;;;;;;;;;;x
 chinese_administrator_desc;通过严格的科举，§Y[Root.Offmap.GetFullName]§!造就了一批受过良好教育的士大夫。您可以请求其中一个作为大臣为你服务。雇佣一个§Y士大夫§!会减少§G建造花费§!和§G建设时间§!。;;;;;;;;;;x
-chinese_master_engineer_desc;§Y[Root.Offmap.GetFullName]§! 是无数奇妙技术的发源地。你可以邀请一位中国的总工程师加入你的宫廷。一位 §Y将作大匠§! 会为你的领地提供强力的 §G省份加成§!。;;;;;;;;;;x
+chinese_master_engineer_desc;§Y[Root.Offmap.GetFullName]§!是无数奇妙技术的发源地。你可以邀请一位中国的将作大匠加入你的宫廷。一位§Y将作大匠§!会为你的领地提供强力的§G省份加成§!。;;;;;;;;;;x
 chinese_silk_road_favored_status_desc;请求一份皇家贸易合同，这样我们的贸易站就将吸引了四面八方的商人来贩卖异国商品。一份§Y皇家贸易合同§!将提高您在§Y丝路贸易站§! §G100%§!的贸易价值，持续 §Y25年§!。;;;;;;;;;;x
 chinese_imperial_marriage_desc;被§Y[Root.Offmap.Ruler.GetMediumChineseEmperorName]§!真心喜欢的人可以以代表自己的人或近亲请求嫁娶皇帝的亲戚。举行一场§Y皇室联姻§!将增加你§G500§! §Y威望§!同时与天朝签订§G和平协议§!。公主或王子的配偶可以在战争时招募§G仪仗队§!。;;;;;;;;;;x
 opinion_forced_tributary;使我成为朝贡国;;;;;;;;;;x
@@ -4146,7 +4146,7 @@ kow_tow_tooltip_already_went;并没有表现出他们要臣服于[offmap_china.R
 chinese_kow_tow_pilgrimage;朝觐[offmap_china.Ruler.GetEmperorEmpress];;;;;;;;;;x
 chinese_kow_tow_pilgrimage_desc;去§Y[offmap_china.GetFullName]§! 腹地的旅行和向[offmap_china.Ruler.GetEmperorEmpress]鞠躬是恭顺的行为。跪拜礼将给你赢得§Y[offmap_china.GetFullName]§!的§G皇恩§!，但是这么做也会话花费你的§R威望§! 。;;;;;;;;;;x
 EVTTITLE_JD_32113;致命的款待;;;;;;;;;;x
-EVTTOOLTIP_JD_BAD_INFLUENCE_ON_EMPEROR_EVALUATION;在皇帝眼中，这可能反映了你的表现§G不好§!。;;;;;;;;;;x
+EVTTOOLTIP_JD_BAD_INFLUENCE_ON_EMPEROR_EVALUATION;在皇帝眼中，这可能反映了你的表现§R不好§!。;;;;;;;;;;x
 EVTTOOLTIP_JD_GOOD_INFLUENCE_ON_EMPEROR_EVALUATION;在皇帝眼中，这可能反映了你的表现§G很好§!。;;;;;;;;;;x
 EVTTOOLTIPA_JD_32200;你开始沿着御道前往皇宫.;;;;;;;;;;x
 EVTTOOLTIP_MNM_1812_ILL;胃部不适;;;;;;;;;;x
