@@ -148,8 +148,8 @@ sold_vassal_province;出售封臣省份;;;;;;;;;;x
 EVTDESC_ADV_3_A;致尊敬的 [Root.GetTitledFirstName]，\n[Root.GetLordLady]，愿您的土地富饶、家庭圆满！如果能让我管理[selling_province.GetName]，或照顾您的[marriage_child.GetDaughterSon] [marriage_child.GetTitledFirstName]，将会是我莫大的荣幸。这会确保我们之间的长久和平。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTDESC_ADV_3_B;致尊贵的 [Root.GetTitledFirstName]，\n[Root.GetLordLady]，您繁荣兴旺的领地彰显了您作为[Root.GetTitle]的出众能力。我向您提出一项将臻至你我之间长久和平的请求：让我以您的名义管理[selling_province.GetName]省份，从此再也不会有人敢于染指这片土地了。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA_ADV_3;[selling_province.GetName]确实是一块不错的领地。付出合适的价钱，你就可以拥有它。;;;;;;;;;;x
-EVTOPTA_ADV_3_TT;以 §G[selling_province.price.GetValue]§!¤ 的价格将你的领地提供给 §Y[selling_province.GetName]§! 的冒险家 §Y[From.GetTitledFirstName]§! 。如果[From.GetSheHe]接受，[From.GetSheHe]将成为你的附属，你将在10年内免受劫掠.\n;;;;;;;;;;x
-EVTOPTB_ADV_3_TT;将你的封臣§Y[selling_province.Holder.GetTitledFirstName]§!统治的省份§Y[selling_province.GetName]§!以§G[selling_province.price.GetValue]§!¤的价格卖给冒险家§Y[From.GetTitledFirstName]§! 。如果[From.GetSheHe]接受了这一请求，[From.GetSheHe] 将成为你的封臣而你将在十年内免于冒险活动的威胁。\n\n然而，你的其他封臣对此将感到不快，事件将持续发酵。:\n;;;;;;;;;;x
+EVTOPTA_ADV_3_TT;以 §G[selling_province.price.GetValue]§!¤ 的价格将你的领地提供给§Y[selling_province.GetName]§!的冒险家§Y[From.GetTitledFirstName]§!。如果[From.GetSheHe]接受，[From.GetSheHe]将成为你的附属，你将在10年内免受劫掠。\n;;;;;;;;;;x
+EVTOPTB_ADV_3_TT;将你的封臣§Y[selling_province.Holder.GetTitledFirstName]§!统治的省份§Y[selling_province.GetName]§!以 §G[selling_province.price.GetValue]§!¤ 的价格卖给冒险家§Y[From.GetTitledFirstName]§! 。如果[From.GetSheHe]接受了这一请求，[From.GetSheHe]将成为你的封臣而你将在十年内免于冒险活动的威胁。\n\n然而，你的其他封臣对此将感到不快，造成以下效果：\n;;;;;;;;;;x
 EVTOPTC_ADV_3;[marriage_child.GetFirstName]会教你如何成为一个出色的[marriage_child.GetHusbandWife]。;;;;;;;;;;x
 EVTOPTC_ADV_3_TT;通过联姻，你与§Y[From.GetTitledFirstName]§!签订了互不侵犯条约。;;;;;;;;;;x
 EVTOPTD_ADV_3;[GetRootFromInsult]！话说得再好听，也还不是在威胁我！;;;;;;;;;;x
