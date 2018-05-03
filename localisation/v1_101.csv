@@ -1,4 +1,4 @@
-NAME_W_NICK;$TITLE$$NAME$「$NICK$」;;;;;;;;;;x
+NAME_W_NICK;$TITLE$ $NAME$「$NICK$」;;;;;;;;;;x
 VASSAL_RETRACTION_LOG;$TOP_LIEGE$已收回了$OLD_LIEGE$的封臣$VASSAL$;;;;;;;;;;x
 opinion_retracted_my_vassal;收回我的封臣;;;;;;;;;;x
 opinion_retracted_my_de_jure_vassal;收回我的法理封臣;;;;;;;;;;x
@@ -24,7 +24,7 @@ EVTDESC274;主上，我接受您收回我的封臣[Root.GetBestName]的决定，
 EVTDESC275;您违背了封臣法，真让人难以接受！我不惜一战也要捍卫我的头衔！;;;;;;;;;;x
 CANNOT_DESTROY_GAVELKIND_TITLE;根据均分继承法，您不能收回头衔。;;;;;;;;;;x
 INTERACTION_REQUIRES_PIETY;§Y[Actor.GetTitledFirstName]§!可以负担§Y$COST$§![Player.Religion.GetPietyName];;;;;;;;;;x
-INTERACTION_REQUIRES_MONEY;§Y[Actor.GetTitledFirstName]§!可以支付§Y$COST$§W¤;;;;;;;;;;x
+INTERACTION_REQUIRES_MONEY;§Y[Actor.GetTitledFirstName]§!可以支付 §Y$COST$§W¤;;;;;;;;;;x
 INTERACTION_REQUIRES_PRESTIGE;§Y[Actor.GetTitledFirstName]§!可以承受§Y$COST$§!点威望的损失;;;;;;;;;;x
 CelticUnitPackDLC;凯尔特单元包;;;;;;;;;;x
 CelticPortraitsDLC;凯尔特肖像;;;;;;;;;;x

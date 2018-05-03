@@ -180,14 +180,14 @@ DYNASTY_CONTROLS_RELIGIOUS_HEAD;家族成员控制$RELIGION$：§G+$VALUE$§!;;;
 opinion_generous_donation;慷慨的捐赠;;;;;;;;;;x
 opinion_defending_vs_foreigners;抵抗异国侵略者;;;;;;;;;;x
 donate_money_to_knights_hospitaler;捐赠 300¤ 给医院骑士团;;;;;;;;;;x
-donate_money_to_teutonic_order;捐赠300¤给条顿骑士团;;;;;;;;;;x
+donate_money_to_teutonic_order;捐赠 300¤ 给条顿骑士团;;;;;;;;;;x
 donate_money_to_jomsvikings;捐赠 300¤ 给约姆斯维京人;;;;;;;;;;x
 donate_money_to_jomsvikings_desc;我可以捐款给约姆斯维京人以换取[Player.Religion.GetPietyName]，这会让我一生受到神官的尊敬。;;;;;;;;;;x
 donated_to_holy_order;捐款给骑士团;;;;;;;;;;x
-borrow_money_knights_templar;向圣殿骑士团借300¤;;;;;;;;;;x
+borrow_money_knights_templar;向圣殿骑士团借 300¤;;;;;;;;;;x
 borrow_money_knights_templar_desc;我可以向圣殿骑士团借款，这笔债务没有时限也没有利息。但是只要我没有还清欠款，大团长就有可能向我提出各种要求，比如要求我的一个儿子加入他们军团。;;;;;;;;;;x
-borrowed_from_knights_templar;欠圣殿骑士团300¤;;;;;;;;;;x
-borrow_money_assassins;向阿萨辛派借款 300¤;;;;;;;;;;x
+borrowed_from_knights_templar;欠圣殿骑士团 300¤;;;;;;;;;;x
+borrow_money_assassins;向阿萨辛派借 300¤;;;;;;;;;;x
 borrow_money_assassins_desc;我可以向阿萨辛派借款，这笔债务没有时限也没有利息。但是只要我没有还清欠款，长老就有可能向我提出各种要求，比如要求我的一个儿子加入他们军团。;;;;;;;;;;x
 borrowed_from_assassins;欠阿萨辛派 300¤;;;;;;;;;;x
 borrow_money_bektashi;向拜克塔什教团借 300¤;;;;;;;;;;x
@@ -322,7 +322,7 @@ EVTOPTC_SOA_4122;撤销[From.Holder.TopLiege.GetTitledFirstName]的绝罚;;;;;;;
 EVTTOOLTIP_SOA_4123;[This.GetTitledFirstName]收到了我的礼物;;;;;;;;;;x
 EVTTOOLTIP_SOA_4124;[This.GetTitledFirstName]获得了200虔诚;;;;;;;;;;x
 EVTTOOLTIP_SOA_4125;[This.GetTitledFirstName]撤销了绝罚;;;;;;;;;;x
-EVTDESC_SOA_4123;圣座[From.PrimaryTitle.GetRulerTitle]送给我 100¤ 为表扬我清除[FromFrom.GetName]的异端做出的工作;;;;;;;;;;x
+EVTDESC_SOA_4123;圣座[From.PrimaryTitle.GetRulerTitle]送给我 100¤ 为表扬我清除[FromFrom.GetName]的异端做出的工作。;;;;;;;;;;x
 EVTOPTA_SOA_4123;赞美[Root.Religion.GetRandomGodName];;;;;;;;;;x
 EVTDESC_SOA_4124;[From.GetPossPronounCap][From.PrimaryTitle.GetRulerTitle]公开赞扬了我对清除[FromFrom.GetName]的异端做出的工作，.;;;;;;;;;;x
 EVTDESC_SOA_4125;[From.GetPossPronounCap][From.PrimaryTitle.GetRulerTitle]因为我对清除[FromFrom.GetName]的异端做出的工作，恢复了我的教籍。;;;;;;;;;;x
@@ -458,7 +458,7 @@ EVTTOOLTIP_SOA_1732;[This.GetTitledFirstName]成为了一名圣安东尼的骑�
 EVTDESC_SOA_1754;圣安东尼骑士团在[Root.GetName]建起了一座城堡！;;;;;;;;;;x
 expel_d_saint_anthony;驱逐圣安东尼骑士团;;;;;;;;;;x
 expel_d_saint_anthony_desc;我可以将圣安东尼骑士团赶出我的国土，没收他们的城堡。只是这么做非常不虔诚……;;;;;;;;;;x
-donate_money_to_saint_anthony;捐赠300¤给圣安东尼骑士团;;;;;;;;;;x
+donate_money_to_saint_anthony;捐赠 300¤ 给圣安东尼骑士团;;;;;;;;;;x
 expelled_d_saint_anthony;曾驱逐圣安东尼骑士团;;;;;;;;;;x
 EVTTITLE_SOA_1809;长生军;;;;;;;;;;x
 EVTOPTA_SOA_1809;传奇的战士们回来了！;;;;;;;;;;x
@@ -567,7 +567,7 @@ EVTDESC_SOA_2554;维齐洛波奇特利教派在[Root.GetName]建起了一座城�
 EVTDESC_SOA_2561;陛下，您对我们的敌意毫无道理！维齐洛波奇特利教派教派奉行维齐洛波奇特利教派日耳曼，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n大祭司 [From.GetFirstName]谨上;;;;;;;;;;x
 expel_huitzilopochtli;驱逐维齐洛波奇特利教派;;;;;;;;;;x
 expel_huitzilopochtli_desc;我可以将维齐洛波奇特利教派赶出我的国土，没收他们的城堡。只是这么做非常不虔诚……;;;;;;;;;;x
-donate_money_to_huitzilopochtli;捐 300¤ 给维齐洛波奇特利教派;;;;;;;;;;x
+donate_money_to_huitzilopochtli;捐赠 300¤ 给维齐洛波奇特利教派;;;;;;;;;;x
 donate_money_to_huitzilopochtli_desc;我可以捐款给维齐洛波奇特利教派以换取[Player.Religion.GetPietyName]，这会让我一生受到祭司的尊敬。;;;;;;;;;;x
 expelled_d_huitzilopochtli;曾驱逐维齐洛波奇特利教派;;;;;;;;;;x
 EVTTITLE_SOA_2609;圣地亚哥骑士团;;;;;;;;;;x
@@ -580,7 +580,7 @@ EVTDESC_SOA_2654;圣地亚哥骑士团在[Root.GetName]建起了一座城堡！;
 EVTDESC_SOA_2661;陛下，您对我们的敌意毫无道理！圣地亚哥骑士团侍奉基督，而您却对此有所怀疑是吗？\n悲愤交加的，\n\n大团长 [From.GetFirstName]谨上;;;;;;;;;;x
 expel_knights_santiago;驱逐圣地亚哥骑士团;;;;;;;;;;x
 expel_knights_santiago_desc;我可以将圣地亚哥骑士团赶出我的国土，没收他们的城堡。只是这么做非常不虔诚……;;;;;;;;;;x
-donate_money_to_knights_santiago;捐赠300¤给圣地亚哥骑士团;;;;;;;;;;x
+donate_money_to_knights_santiago;捐赠 300¤ 给圣地亚哥骑士团;;;;;;;;;;x
 expelled_d_knights_santiago;曾驱逐圣地亚哥骑士团;;;;;;;;;;x
 EVTTITLE_SOA_2709;卡勒多拉巴骑士团;;;;;;;;;;x
 EVTOPTA_SOA_2709;愿他们得到最后的胜利！;;;;;;;;;;x
@@ -592,7 +592,7 @@ EVTDESC_SOA_2754;卡勒多拉巴骑士团在[Root.GetName]建起了一座城堡�
 EVTDESC_SOA_2761;陛下，您对我们的敌意毫无道理！卡勒多拉巴骑士团侍奉基督，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n大团长 [From.GetFirstName]谨上;;;;;;;;;;x
 expel_knights_calatrava;驱逐卡勒多拉巴骑士团;;;;;;;;;;x
 expel_knights_calatrava_desc;我可以将卡勒多拉巴骑士团赶出我的国土，没收他们的城堡。只是这么做非常不虔诚……;;;;;;;;;;x
-donate_money_to_knights_calatrava;捐赠300¤给卡勒多拉巴骑士团;;;;;;;;;;x
+donate_money_to_knights_calatrava;捐赠 300¤ 给卡勒多拉巴骑士团;;;;;;;;;;x
 expelled_d_knights_calatrava;曾驱逐卡勒多拉巴骑士团;;;;;;;;;;x
 catholic_pilgrimage;去朝圣;;;;;;;;;;x
 catholic_pilgrimage_desc;一些虔诚的基督徒会在在一生中进行一次重要的朝圣。虔诚的朝圣将会选择去远方，拜访信仰中最神圣的圣地。;;;;;;;;;;x
@@ -776,9 +776,9 @@ EVTDESC_SoA_5092; 你终于结束朝圣回家。这次旅程让你很失望，�
 EVTOPTA_SoA_5092;我不会告诉家里人真相的.;;;;;;;;;;x
 EVTDESC_SoA_5093; 你终于结束朝圣回家了。尽管家中的粗野的老鼠未给你丝毫敬意——肆无忌惮的窜来窜去，这次旅程仍让你感觉获益匪浅。现在有大把时间准备开始清帐了。;;;;;;;;;;x
 EVTOPTA_SoA_5093;他们会为错误的信仰付出代价。;;;;;;;;;;x
-INTERACTION_REQUIRES_MONEY_RECIPIENT;§Y[Actor.RelHead.GetTitledFirstName]§W 可以损失 §Y$WEALTH$§!¤;;;;;;;;;;x
+INTERACTION_REQUIRES_MONEY_RECIPIENT;§Y[Actor.RelHead.GetTitledFirstName]§W可以损失 §Y$WEALTH$§!¤;;;;;;;;;;x
 ASK_FOR_MONEY_INTERACTION_TITLE;请求资助;;;;;;;;;;x
-ASK_FOR_MONEY_INTERACTION_DESC;花费 §Y$PIETY$§W [Player.Religion.GetPietyName]，向§Y[Actor.RelHead.GetTitledFirstName]§W 请求资助 §Y$WEALTH$§!¤;;;;;;;;;;x
+ASK_FOR_MONEY_INTERACTION_DESC;花费 §Y$PIETY$§W [Player.Religion.GetPietyName]，向§Y[Actor.RelHead.GetTitledFirstName]§W请求资助 §Y$WEALTH$§!¤。;;;;;;;;;;x
 ASK_FOR_MONEY_INTERACTION_LONG_DESC;宗教首领可以给他所赏识的领主赏赐。不过，这种请求通常会花费[Player.Religion.GetPietyName]。;;;;;;;;;;x
 ASK_FOR_MONEY_INTERACTION_ACCEPT_SETUP;申请款项获批;;;;;;;;;;x
 ASK_FOR_MONEY_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!收到了来自§Y[Recipient.GetBestName]§!的资助。;;;;;;;;;;x

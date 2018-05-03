@@ -489,7 +489,7 @@ LEARNINGEFFECT;$DIRECTION$ $VALUE$学习\n;;;;;;;;;;x
 MARTIALEFFECT;$DIRECTION$ $VALUE$军事\n;;;;;;;;;;x
 SET_TITLE_HOLDER_GAIN_EFFECT;§Y$CHAR$§!得到头衔§Y$TITLE$§!\n;;;;;;;;;;x
 SET_TITLE_HOLDER_INHERIT_EFFECT;§Y$CHAR$§!继承头衔§Y$TITLE$§!\n;;;;;;;;;;x
-SET_TITLE_HOLDER_GRANT_EFFECT;§Y$CHAR$§!被授予头衔 §Y$TITLE$§!\n;;;;;;;;;;x
+SET_TITLE_HOLDER_GRANT_EFFECT;§Y$CHAR$§!被授予头衔§Y$TITLE$§!\n;;;;;;;;;;x
 REBEL_DEFECTION_EFFECT;§Y$TITLE$§!叛逃到§Y$CHAR$§!\n;;;;;;;;;;x
 END_WAR_EFFECT;战争结束条件如下：\n;;;;;;;;;;x
 PHASE_CHANGE_TO;战斗阶段变为;;;;;;;;;;x
@@ -3681,7 +3681,7 @@ EVTOPTB63030;不，我会支撑过去的;;;;;;;;;;x
 EVTTOOLTIP63031;送出我对[This.Liege.GetTitledFirstName]的请求;;;;;;;;;;x
 EVTDESC63031;我的领主，我很犹豫该不该说这件事，但是我的金库就快空了，这都是为了维持您从我的领地征收的税款.鉴于我在我的领主的战争上付出的代价，任何补偿都会是巨大的安慰.\n\n您忠诚的[From.GetTitledFirstName];;;;;;;;;;x
 EVTOPTA63031;30¤ 应该可以;;;;;;;;;;x
-EVTOPTB63031;15¤就够了;;;;;;;;;;x
+EVTOPTB63031;15¤ 就够了;;;;;;;;;;x
 EVTOPTC63031;金钱那是他的义务！;;;;;;;;;;x
 EVTOPTD63031;用恭维话安慰[From.GetObjectPronoun];;;;;;;;;;x
 EVTDESC63032;我最重要的封臣，你的请求十分合理。这份 30¤ 的礼物将让你度过难关。\n\n[From.GetTitledFirstName];;;;;;;;;;x
@@ -4942,8 +4942,8 @@ OFFER_PEACE_INTERACTION_DECLINE_SETUP;拒绝和平协议;;;;;;;;;;x
 OFFER_PEACE_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝 §Y[Actor.GetBestName]§!的和平协议.;;;;;;;;;;x
 OFFER_PEACE_INTERACTION_OFFER;[Actor.GetBestName]向我们提供下列和平条件:;;;;;;;;;;x
 SEND_GIFT_INTERACTION_TITLE;赠送礼物;;;;;;;;;;x
-SEND_GIFT_INTERACTION_DESC;赠送价值 §Y$COST$§W¤ 的礼物给 §Y[Recipient.GetBestName]§!。\n这将改善我们的关系。;;;;;;;;;;x
-SEND_GIFT_INTERACTION_0;赠送价值  §Y$COST$§W¤的礼物给§Y[Recipient.GetBestName]§!，提高[Recipient.GetPossPronoun]好感度§G$OPINION$§!;;;;;;;;;;x
+SEND_GIFT_INTERACTION_DESC;赠送价值 §Y$COST$§W¤ 的礼物给§Y[Recipient.GetBestName]§!。\n这将改善我们的关系。;;;;;;;;;;x
+SEND_GIFT_INTERACTION_0;赠送价值 §Y$COST$§W¤ 的礼物给§Y[Recipient.GetBestName]§!，提高[Recipient.GetPossPronoun]好感度 §G$OPINION$§!。;;;;;;;;;;x
 SEND_GIFT_INTERACTION_1;从教会礼物获得虔诚：§G$PIETY$§!;;;;;;;;;;x
 SEND_GIFT_INTERACTION_ACCEPT_SETUP;接受礼物;;;;;;;;;;x
 SEND_GIFT_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 接受了 §Y[Actor.GetBestName]§!赠送的礼物;;;;;;;;;;x
@@ -5021,7 +5021,7 @@ RANSOM_CHARACTER_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 将 §Y[Th
 RANSOM_CHARACTER_INTERACTION_DECLINE_SETUP;拒绝支付赎金;;;;;;;;;;x
 RANSOM_CHARACTER_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝将 §Y[ThirdPartyCharacter.GetTitledFirstName]§!  赎出 §Y[Actor.GetBestName]§!的地牢;;;;;;;;;;x
 RANSOM_CHARACTER_INTERACTION_OFFER;[Actor.GetBestName]为[ThirdPartyCharacter.GetBestName]支付$RANSOM$赎金;;;;;;;;;;x
-RANSOM_CHARACTER_INTERACTION_LETTER;为了让 [ThirdPartyCharacter.GetBestName]得到安全释放，我们谦卑的向您支付赎金 $RANSOM$¤;;;;;;;;;;x
+RANSOM_CHARACTER_INTERACTION_LETTER;为了让[ThirdPartyCharacter.GetBestName]得到安全释放，您只需支付赎金 $RANSOM$¤;;;;;;;;;;x
 EDUCATE_CHARACTER_INTERACTION_DESC;教育一个孩子;;;;;;;;;;x
 ABANDON_AMBITION_INTERACTION_TITLE;放弃阴谋;;;;;;;;;;x
 ABANDON_AMBITION_INTERACTION_DESC;要求此人放弃正在策划的阴谋.;;;;;;;;;;x
@@ -15616,9 +15616,9 @@ DIP_CHAR_AVAILABLE;$NAME$可以执行这个任务.;;;;;;;;;;x
 CANCELTRADEDESC;取消一个已经存在的商路.;;;;;;;;;;x
 TRADEROUTEDESC;建立一条商路不仅是生财之道，沿途各郡也可以获得货物流通带来的好处。;;;;;;;;;;x
 TRADEROUTETITLE;建立商路;;;;;;;;;;x
-TRADEROUTEOFFDESC;$COUNTRY$向我们提议建立从$FROM$($FROM_GOODS$)到$TO$($TO_GOODS$)的商路.\n双方每月都会获得$CASH$¤ \n$FROM$触发效果：$FROM_EFFECT$\n$TO$触发效果：$TO_EFFECT$;;;;;;;;;;x
+TRADEROUTEOFFDESC;$COUNTRY$向我们提议建立从$FROM$($FROM_GOODS$)到$TO$($TO_GOODS$)的商路。\n双方每月都会获得 $CASH$¤ \n$FROM$触发效果：$FROM_EFFECT$\n$TO$触发效果：$TO_EFFECT$;;;;;;;;;;x
 CANCELTRADEROUTETITLE;取消商路;;;;;;;;;;x
-TRADEROUTEREQDESC;建立从$FROM$($GOODS_FROM$)到$TO$($GOODS_TO$)的商路除了每月增加 $CASH$¤， 还会让$FROM$获得$TO_EFFECT$，让$TO$获得$FROM_EFFECT$.;;;;;;;;;;x
+TRADEROUTEREQDESC;建立从$FROM$($GOODS_FROM$)到$TO$($GOODS_TO$)的商路除了每月增加 $CASH$¤，还会让$FROM$获得$TO_EFFECT$，让$TO$获得$FROM_EFFECT$。;;;;;;;;;;x
 DIP_NONE;<无>;;;;;;;;;;x
 TRADEROUTECONSTRDESC;我们希望用$GOODS$金币和$PROV$省份，交换$PROV_OTHER$省份和$GOODS_OTHER$金币.;;;;;;;;;;x
 DIP_SEND_OFFER;送出;;;;;;;;;;x
@@ -15662,7 +15662,7 @@ OFFERMILACCREQDESC;$COUNTRY$打算给予我们军事通行.这将使我们的部
 CANCELOFFERMILACCINFORM;$COUNTRY$宣布他们的军队将会离开我们的领土，而且下次回来的时候将不会是有好的……;;;;;;;;;;x
 DECWARINFORM;$MONARCHTITLE$，$COUNTRY$的大使带来了宣战声明.他说我们的首都一周之内就会化为焦土！;;;;;;;;;;x
 VASSALTITLE;索要贡金;;;;;;;;;;x
-VASSALNEWDESC;你想要强迫 $COUNTRY$ 每个月进贡 $CASH$¤  来换取我们的"保护"吗？;;;;;;;;;;x
+VASSALNEWDESC;你想要强迫$COUNTRY$每个月进贡 $CASH$¤ 来换取我们的「保护」吗？;;;;;;;;;;x
 VASSALBREAKDESC;你要停止向$COUNTRY$上贡吗\n这将会伤害两国关系，而且他们会得到一个针对我国的宣战理由.;;;;;;;;;;x
 VASSALCANCELDESC;你要停止接受$COUNTRY$的贡金吗;;;;;;;;;;x
 VASSALDESC;建议他们向我们上贡.;;;;;;;;;;x
@@ -15676,8 +15676,8 @@ BREAKVASSALDESC;停止进贡;;;;;;;;;;x
 CANCELVASSALTITLE;取消贡金;;;;;;;;;;x
 BREAKVASSALTITLE;取消贡金;;;;;;;;;;x
 OFFERTRIBUTETITLE;索要贡金;;;;;;;;;;x
-OFFERTRIBUTENEWDESC;你愿意每个月向 $COUNTRY$ 进贡 $CASH$¤ 来换取和平吗？;;;;;;;;;;x
-OFFERTRIBUTEREQDESC;$COUNTRY$提议每个月向我们进贡$CASH$¤。如果我们接受，他们将被认为受我们的保护。;;;;;;;;;;x
+OFFERTRIBUTENEWDESC;你愿意每个月向$COUNTRY$进贡 $CASH$¤ 来换取和平吗？;;;;;;;;;;x
+OFFERTRIBUTEREQDESC;$COUNTRY$提议每个月向我们进贡 $CASH$¤。如果我们接受，他们将被认为受我们的保护。;;;;;;;;;;x
 DEMANDTRIBUTEINFORM;$MONARCHTITLE$，一个来自他国的大使表示他们将不再向我国进贡.\n太傲慢了！;;;;;;;;;;x
 OFFERTRIBUTEINFORM;$MONARCHTITLE$，一个来自他国的大使表示他们将不再向对我国的贡金抱有兴趣.\n很高兴解决了负担，不过现在我们要注意保护自己;;;;;;;;;;x
 ASSASSINATETITLE;暗杀;;;;;;;;;;x
@@ -15710,8 +15710,8 @@ WCRD_ATT;这场战争是他们挑起的.;;;;;;;;;;x
 WCRD_DEF;这是一场自卫战争，我们需要帮助我们的盟友.;;;;;;;;;;x
 RANSOMTITLE;要求赎金;;;;;;;;;;x
 RANSOM_DESC;支付赎金让他们的囚徒得到释放;;;;;;;;;;x
-RANSOM_REQDESC;你打算用 §Y$PRISONER$§W 换取 §Y$CASH$§W¤ 吗?;;;;;;;;;;x
-RANSOM_ASK_DESC;§Y$ACTOR$§W的大使前来请求我们释放我们的「客人」§Y$NAME$§W 以换取§Y$CASH$§W¤。\n我们应该怎么做？;;;;;;;;;;x
+RANSOM_REQDESC;你打算用§Y$PRISONER$§W换取 §Y$CASH$§W¤ 吗?;;;;;;;;;;x
+RANSOM_ASK_DESC;§Y$ACTOR$§W的大使前来请求我们释放我们的「客人」§Y$NAME$§W以换取他们的 §Y$CASH$§W¤。\n我们应该怎么做？;;;;;;;;;;x
 RELEASETITLE;释放囚犯;;;;;;;;;;x
 RELEASE_DESC;将囚犯释放;;;;;;;;;;x
 RELEASENEWDESC;你打算释放$NAME$，让他回到$COUNTRY$吗;;;;;;;;;;x
@@ -15884,7 +15884,7 @@ LEVEL;当前等级;;;;;;;;;;x
 ARMY_LOCATION;单位在§Y$PROV$§!.;;;;;;;;;;x
 NO_LEADER;无将领;;;;;;;;;;x
 SELECT_LEADER;单击更换将领.;;;;;;;;;;x
-MIL_VIEW_MAINT;我们的基础支出为§Y$COST$§W¤，另外需要多支出§Y$EXTRACOST$§W% 作为扩军过度的惩罚。总计§Y$TOTAL$§W¤;;;;;;;;;;x
+MIL_VIEW_MAINT;我们的基础支出为 §Y$COST$§W¤，另外需要多支出 §Y$EXTRACOST$§W% 作为扩军过度的惩罚。总计§Y$TOTAL$§W¤。;;;;;;;;;;x
 UNIT_MORALE;士气;;;;;;;;;;x
 UNIT_SUPPORT_USAGE;$UNITS_TYPE$/支持限制：$COUNT$/$SUPPORT$;;;;;;;;;;x
 BASE;基准;;;;;;;;;;x
@@ -15920,7 +15920,7 @@ BUILD_BUILDINGS;完成的工程;;;;;;;;;;x
 NOTHING;什么都没有;;;;;;;;;;x
 FINISHED_ON;于$DATE$完成.;;;;;;;;;;x
 ONGOINGBUILD;有一个建筑正在建造中.;;;;;;;;;;x
-COST_DAYS;花费: §Y$AMOUNT$§! ¤ \n建造时间: §Y$TIME$§! 天;;;;;;;;;;x
+COST_DAYS;花费：§Y$AMOUNT$§!¤ \n建造时间：§Y$TIME$§! 天;;;;;;;;;;x
 ALREADY_BUILT;这个郡已经有这个建筑了;;;;;;;;;;x
 RESEARCH_NEEDED;我们没有掌握相关科技;;;;;;;;;;x
 MAXIMIZE_MESSAGELOG;最大化;;;;;;;;;;x
@@ -16011,7 +16011,7 @@ CH_RELIGION_CHANGE;皈依了$RELIGION$.;;;;;;;;;;x
 CH_INC;增加;;;;;;;;;;x
 CH_DEC;减少;;;;;;;;;;x
 CH_LOYALTY_CHANGE;忠诚$DIRECTION$了$CHANGE$.;;;;;;;;;;x
-CH_WEALTH_CHANGE;财富 $DIRECTION$ 了 $CHANGE$¤.;;;;;;;;;;x
+CH_WEALTH_CHANGE;财富 $DIRECTION$ 了 $CHANGE$¤。;;;;;;;;;;x
 CH_POPULARITY_CHANGE;受欢迎度$DIRECTION$了$CHANGE$.;;;;;;;;;;x
 CH_DIVORCE;与$WHO$离婚.;;;;;;;;;;x
 CH_MARRIED;与$WHO$结婚.;;;;;;;;;;x
@@ -16228,8 +16228,8 @@ JOINED_CHANNEL;加入$CHAN$频道.;;;;;;;;;;x
 USER_JOINED_CHANNEL;$NAME$加入频道.;;;;;;;;;;x
 USER_LEFT_CHANNEL;$NAME$离开频道.;;;;;;;;;;x
 METASERVER_GAME_INFO;创建人：$CREATOR$\n日期：$DATE$;;;;;;;;;;x
-SENDGIFTTITLE;赠送 ($COST$¤);;;;;;;;;;x
-SENDGIFTNEWDESC;你要向 $COUNTRY$ 提供一份礼物吗? 这将花费我们 $COST$¤ 并改善双方的关系。;;;;;;;;;;x
+SENDGIFTTITLE;赠送 （$COST$¤）;;;;;;;;;;x
+SENDGIFTNEWDESC;你要向$COUNTRY$提供一份礼物吗? 这将花费我们 $COST$¤ 并改善双方的关系。;;;;;;;;;;x
 SENDGIFTDESC;这将改善双方的关系.;;;;;;;;;;x
 SENDGIFTNOCASH;我们缺乏所需的金钱.;;;;;;;;;;x
 BAD_VERSION;你和主机版本不一致，无法加入游戏.;;;;;;;;;;x
@@ -16340,7 +16340,7 @@ COMBAT_FIRE;我军将领与敌军将领军事能力的差距影响.;;;;;;;;;;x
 PLAYER_KICKED;$NAME$被主机踢除了.;;;;;;;;;;x
 PLAYER_BANNED;$NAME$被主机禁止了.;;;;;;;;;;x
 ICON_RANSOM;§Y赎回囚犯§!提议;;;;;;;;;;x
-AFFORD_SHIP_COST;你没有钱造这艘船，你至少需要 $COST$ ¤;;;;;;;;;;x
+AFFORD_SHIP_COST;你没有钱造这艘船，你至少需要 $COST$¤;;;;;;;;;;x
 FOR_PLAYER;对玩家:;;;;;;;;;;x
 FOR_AI;对电脑:;;;;;;;;;;x
 ICON_TRIBUTE_CANCEL;取消§Y贡金§!;;;;;;;;;;x
@@ -16479,7 +16479,7 @@ BUILDING_CONSTRUCTIONS;建筑;;;;;;;;;;x
 MISSIONARY_CONSTRUCTIONS;传教士;;;;;;;;;;x
 COTS;贸易中心;;;;;;;;;;x
 DAYS_LEFT;天剩余.;;;;;;;;;;x
-OL_COT_DESC;这个贸易中心每年贸易额为 §Y$TOTAL$§W¤。我们的§Y$NUM$§W个商人从中获得 §Y$VALUE$§W¤;;;;;;;;;;x
+OL_COT_DESC;这个贸易中心每年贸易额为 §Y$TOTAL$§W¤。我们的§Y$NUM$§W 个商人从中获得 §Y$VALUE$§W¤。;;;;;;;;;;x
 OL_ENROUTE_COT_DESC;当我们§Y$NUM$§!个后续的商人抵达，我们的收入将增加.\n其中第一个将在$DATE$抵达.;;;;;;;;;;x
 NAVAL_COMBAT;海战;;;;;;;;;;x
 OL_SHIPS;舰船;;;;;;;;;;x
