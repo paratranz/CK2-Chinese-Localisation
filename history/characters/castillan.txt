@@ -160,6 +160,7 @@
     culture = "castillan"
     trait = "diligent"
     trait = "patient"
+    trait = "tough_soldier"
     trait = "brave"
     father = 107510
     mother = 107511
@@ -343,6 +344,8 @@
     culture = "castillan"
     trait = "diligent"
     trait = "patient"
+    trait = "charitable"
+    trait = "brave"
     trait = "brilliant_strategist"
     father = 107600
     mother = 107601
@@ -424,6 +427,8 @@
     culture = "castillan"
     trait = "diligent"
     trait = "honest"
+    trait = "cynical"
+    trait = "patient"
     trait = "tough_soldier"
     father = 107620
     mother = 107621
@@ -784,6 +789,7 @@
     culture = "castillan"
     trait = "patient"
     trait = "deceitful"
+    trait = "cynical"
     trait = "elusive_shadow"
     father = 107510
     mother = 107511
@@ -802,6 +808,8 @@
     1072.10.7 = {
         remove_claim = k_leon
         remove_claim = k_spanish_galicia
+        remove_claim = d_leon
+        remove_claim = d_asturias
         remove_claim = d_galicia
         give_nickname = nick_the_brave
         capital = k_leon
@@ -843,6 +851,7 @@
     culture = "castillan"
     trait = "lustful"
     trait = "wroth"
+    trait = "deceitful"
     trait = "flamboyant_schemer"
     father = 107510
     mother = 107511
@@ -1042,6 +1051,7 @@
     stewardship = 6
     trait = chaste
     trait = cynical
+    trait = ill
     trait = charismatic_negotiator
     953.1.1 = {
         birth = yes
@@ -1127,6 +1137,8 @@
     culture = "castillan"
     trait = "honest"
     trait = "wroth"
+    trait = "arbitrary"
+    trait = "zealous"
     trait = "naive_appeaser"
     father = 107510
     mother = 107511
@@ -1183,6 +1195,7 @@
     culture = "castillan"
     trait = "bastard"
     trait = "deceitful"
+    trait = "envious"
     trait = "misguided_warrior"
     father = 106030
     mother = 106031
@@ -1377,11 +1390,13 @@
     1134.9.7 = {
         add_claim = k_aragon
         add_claim = d_aragon
+        add_claim = k_navarra
         add_claim = d_navarra
     }
     1135.1.1 = {
         remove_claim = k_aragon
         remove_claim = d_aragon
+        remove_claim = k_navarra
         remove_claim = d_navarra
     }
     1152.10.1 = {
@@ -1403,6 +1418,7 @@
     culture = "castillan"
     trait = "temperate"
     trait = "brave"
+    trait = "bastard"
     trait = "thrifty_clerk"
     father = 207500
     1132.1.1 = {
@@ -1661,7 +1677,7 @@
     }
 }
 207546 = {
-    name = "�lvar"
+    name = "阿尔瓦"
     dynasty = 776
     martial = 7
     diplomacy = 4
@@ -2033,6 +2049,7 @@
     culture = "castillan"
     trait = "kind"
     trait = "zealous"
+    trait = "diligent"
     trait = "scholarly_theologian"
     father = 208532
     1149.1.1 = {
@@ -2053,6 +2070,8 @@
     culture = "castillan"
     trait = "gluttonous"
     trait = "lustful"
+    trait = "proud"
+    trait = "brave"
     trait = "tough_soldier"
     father = 208532
     1169.1.2 = {
@@ -2073,6 +2092,7 @@
     culture = "castillan"
     trait = "temperate"
     trait = "charitable"
+    trait = "proud"
     trait = "tough_soldier"
     1133.1.2 = {
         birth = "1133.1.2"
@@ -2605,6 +2625,7 @@
     culture = "castillan"
     trait = "greedy"
     trait = "deceitful"
+    trait = "wroth"
     trait = "tough_soldier"
     father = 457530
     mother = 457666
@@ -2671,6 +2692,7 @@
     culture = "castillan"
     trait = "lustful"
     trait = "diligent"
+    trait = "craven"
     trait = "flamboyant_schemer"
     father = 457530
     mother = 457666
@@ -2748,6 +2770,10 @@
     1284.4.4 = {
         add_claim = k_castille
         add_claim = k_leon
+        add_claim = d_badajoz
+        add_claim = d_castilla
+        add_claim = d_toledo
+        add_claim = d_cordoba
         add_claim = d_sevilla
     }
     1290.1.1 = {
@@ -2761,6 +2787,7 @@
     1304.1.1 = {
         remove_claim = k_castille
         remove_claim = d_castilla
+        remove_claim = d_toledo
         remove_claim = d_cordoba
     }
     1324.12.23 = {
@@ -3533,6 +3560,7 @@
     culture = "castillan"
     trait = "patient"
     trait = "kind"
+    trait = "gluttonous"
     trait = "tough_soldier"
     father = 457662
     mother = 72775
@@ -3793,6 +3821,7 @@
     father = 73130
     trait = "proud"
     trait = "zealous"
+    trait = "bastard"
     trait = "skilled_tactician"
     1256.1.24 = {
         birth = "1256.1.24"
@@ -4128,6 +4157,7 @@
     culture = "castillan"
     trait = "honest"
     trait = "zealous"
+    trait = "wroth"
     trait = "amateurish_plotter"
     father = 207510
     mother = 204512
@@ -4780,7 +4810,7 @@
     }
 }
 70097 = {
-    name = "�neca"
+    name = "欧米加"
     female = yes
     dynasty = 8620
     father = 70094
@@ -5052,7 +5082,7 @@
     }
 }
 70212 = {
-    name = "�lvar"
+    name = "阿尔瓦"
     dynasty = 407
     martial = 4
     diplomacy = 7
@@ -5397,7 +5427,7 @@
     }
 }
 70264 = {
-    name = "�lvar"
+    name = "阿尔瓦"
     dynasty = 776
     father = 70250
     mother = 70251
@@ -5630,7 +5660,7 @@
     }
 }
 71329 = {
-    name = "�lvaro"
+    name = "阿尔瓦"
     dynasty = 8740
     religion = "catholic"
     culture = "castillan"
@@ -5772,7 +5802,7 @@
     }
 }
 71360 = {
-    name = "�lvaro"
+    name = "阿尔瓦"
     dynasty = 437
     religion = "catholic"
     culture = "castillan"
@@ -6116,7 +6146,7 @@
     }
 }
 71391 = {
-    name = "�lvar"
+    name = "阿尔瓦"
     dynasty = 8747
     religion = "catholic"
     culture = "castillan"
@@ -8219,6 +8249,7 @@
     culture = "castillan"
     trait = "just"
     trait = "humble"
+    trait = "wroth"
     trait = "mastermind_theologian"
     1042.1.2 = {
         birth = "1042.1.2"
@@ -9741,7 +9772,7 @@
     }
 }
 72510 = {
-    name = "�lvar"
+    name = "阿尔瓦"
     dynasty = 776
     religion = "catholic"
     culture = "castillan"
@@ -9840,7 +9871,7 @@
     }
 }
 72517 = {
-    name = "�lvar"
+    name = "阿尔瓦"
     dynasty = 776
     religion = "catholic"
     culture = "castillan"
@@ -10266,7 +10297,7 @@
     }
 }
 72545 = {
-    name = "�lvar"
+    name = "阿尔瓦"
     dynasty = 776
     father = 72544
     mother = 71574
@@ -10363,7 +10394,7 @@
     }
 }
 72555 = {
-    name = "�lvar"
+    name = "阿尔瓦"
     dynasty = 776
     father = 72553
     mother = 71534
@@ -10856,7 +10887,7 @@
     }
 }
 72589 = {
-    name = "�lvar"
+    name = "阿尔瓦"
     dynasty = 776
     father = 72580
     mother = 72583
@@ -11000,7 +11031,7 @@
     }
 }
 72599 = {
-    name = "�lvar"
+    name = "阿尔瓦"
     dynasty = 776
     father = 72575
     mother = 71398
@@ -11404,7 +11435,7 @@
     }
 }
 72626 = {
-    name = "�lvaro"
+    name = "阿尔瓦"
     dynasty = 781
     religion = "catholic"
     culture = "castillan"
@@ -12291,7 +12322,7 @@
     }
 }
 72696 = {
-    name = "�lvaro"
+    name = "阿尔瓦"
     dynasty = 437
     religion = "catholic"
     culture = "castillan"
@@ -12451,7 +12482,7 @@
     }
 }
 72707 = {
-    name = "�lvaro"
+    name = "阿尔瓦"
     dynasty = 12156
     religion = "catholic"
     culture = "castillan"
@@ -13148,7 +13179,7 @@
     }
 }
 72758 = {
-    name = "�lvaro"
+    name = "阿尔瓦"
     dynasty = 401
     religion = "catholic"
     culture = "castillan"
@@ -13213,7 +13244,7 @@
     }
 }
 72762 = {
-    name = "�lvaro"
+    name = "阿尔瓦"
     dynasty = 401
     religion = "catholic"
     culture = "castillan"
@@ -14901,7 +14932,7 @@
     }
 }
 72982 = {
-    name = "�lvar"
+    name = "阿尔瓦"
     dynasty = 7025
     religion = "catholic"
     culture = "castillan"
@@ -14995,7 +15026,7 @@
     }
 }
 72988 = {
-    name = "�lvar"
+    name = "阿尔瓦"
     dynasty = 7025
     religion = "catholic"
     culture = "castillan"
@@ -16646,7 +16677,7 @@
     }
 }
 73103 = {
-    name = "�lvar"
+    name = "阿尔瓦"
     dynasty = 7010
     religion = "catholic"
     culture = "castillan"
@@ -17107,7 +17138,7 @@
     }
 }
 73133 = {
-    name = "�lvar"
+    name = "阿尔瓦"
     dynasty = 7010
     religion = "catholic"
     culture = "castillan"
@@ -17141,7 +17172,7 @@
     }
 }
 73135 = {
-    name = "�lvar"
+    name = "阿尔瓦"
     dynasty = 7010
     religion = "catholic"
     culture = "castillan"
@@ -17212,7 +17243,7 @@
     }
 }
 73140 = {
-    name = "�lvar"
+    name = "阿尔瓦"
     dynasty = 7010
     religion = "catholic"
     culture = "castillan"
@@ -17238,7 +17269,7 @@
     }
 }
 73142 = {
-    name = "�lvaro"
+    name = "阿尔瓦"
     dynasty = 7010
     religion = "catholic"
     culture = "castillan"
@@ -17268,7 +17299,7 @@
     }
 }
 73144 = {
-    name = "�lvaro"
+    name = "阿尔瓦"
     dynasty = 7010
     religion = "catholic"
     culture = "castillan"

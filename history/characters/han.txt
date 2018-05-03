@@ -224,6 +224,7 @@
     culture = han
     trait = elusive_shadow
     trait = fair
+    trait = poet
     trait = erudite
     female = yes
     father = 247803
@@ -260,7 +261,7 @@
         birth = yes
     }
     710.7.8 = {
-        name = "殇"
+        name = "殇帝"
     }
     714.9.5 = {
         death = {
@@ -823,6 +824,15 @@
     769.1.1 = {
         add_claim = d_kumul
         add_claim = c_yungguan
+        add_claim = c_kumtag
+        add_claim = c_lopnor
+        add_claim = c_loulan
+        add_claim = c_yuni
+        add_claim = c_charkliq
+        add_claim = c_cherchen
+        add_claim = c_cadota
+        add_claim = c_mingoi
+        add_claim = c_karashar
         add_claim = c_yumen
     }
     787.9.16 = {
@@ -1296,6 +1306,7 @@
     culture = "han"
     trait = skilled_tactician
     trait = brave
+    trait = sympathy_pagans
     trait = sympathy_christendom
     1150.1.1 = {
         birth = yes
@@ -1314,6 +1325,7 @@
     culture = "han"
     trait = skilled_tactician
     trait = brave
+    trait = sympathy_pagans
     trait = sympathy_christendom
     father = 242100
     1170.1.1 = {
@@ -1336,6 +1348,8 @@
     culture = "han"
     trait = brilliant_strategist
     trait = brave
+    trait = sympathy_pagans
+    trait = sympathy_christendom
     trait = siege_leader
     father = 242101
     1217.1.1 = {
@@ -1366,8 +1380,9 @@
     culture = "sogdian"
     trait = tough_soldier
     trait = desert_terrain_leader
-    trait = "mahayana_buddhist"
+    trait = brave
     martial = 10
+    trait = "mahayana_buddhist"
     730.1.1 = {
         birth = yes
     }
@@ -1590,7 +1605,7 @@
         }
     }
     581.3.4 = {
-        name = "文"
+        name = "文帝"
     }
     604.8.13 = {
         death = {
@@ -2529,7 +2544,7 @@
 }
 247784 = {
     dynasty = 1051150
-    name = "文"
+    name = "瑰"
     religion = taoist
     culture = han
     father = 247779
@@ -4587,6 +4602,8 @@
     culture = han
     trait = honest
     trait = just
+    trait = kind
+    trait = diligent
     trait = child_of_consort
     father = 217702
     mother = 217704
@@ -6129,6 +6146,15 @@
     martial = 14
     trait = grey_eminence
     trait = peasant_leader
+    trait = shrewd
+    trait = just
+    trait = humble
+    trait = patient
+    trait = diligent
+    trait = gregarious
+    trait = ambitious
+    trait = master_of_flame
+    trait = inspiring_leader
     trait = administrator
     1030.1.1 = {
         birth = yes
@@ -6147,6 +6173,9 @@
     disallow_random_traits = yes
     trait = brilliant_strategist
     trait = strong
+    trait = master_of_flame
+    trait = diligent
+    trait = just
     trait = inspiring_leader
     1030.1.1 = {
         birth = yes
@@ -6167,6 +6196,10 @@
     disallow_random_traits = yes
     trait = brilliant_strategist
     trait = trickster
+    trait = logistics_expert
+    trait = genius
+    trait = strategist
+    trait = deceitful
     trait = patient
     1030.1.1 = {
         birth = yes
@@ -6203,6 +6236,7 @@
     culture = "han"
     trait = tough_soldier
     trait = strong
+    trait = robust
     trait = logistics_expert
     1030.1.1 = {
         birth = yes
@@ -6223,6 +6257,7 @@
     disallow_random_traits = yes
     trait = tough_soldier
     trait = master_of_flame
+    trait = cavalry_leader
     trait = brave
     1030.1.1 = {
         birth = yes
@@ -6243,6 +6278,8 @@
     disallow_random_traits = yes
     trait = brilliant_strategist
     trait = duelist
+    trait = logistics_expert
+    trait = robust
     trait = holy_warrior
     1030.1.1 = {
         birth = yes
@@ -6339,6 +6376,7 @@
     disallow_random_traits = yes
     trait = tough_soldier
     trait = patient
+    trait = brave
     trait = sapper
     1030.1.1 = {
         birth = yes
@@ -6360,6 +6398,11 @@
     disallow_random_traits = yes
     trait = brilliant_strategist
     trait = drunkard
+    trait = gluttonous
+    trait = shrewd
+    trait = wroth
+    trait = robust
+    trait = strong
     trait = logistics_expert
     1030.1.1 = {
         birth = yes
@@ -6381,6 +6424,10 @@
     disallow_random_traits = yes
     trait = tough_soldier
     trait = drunkard
+    trait = cannibal_trait
+    trait = just
+    trait = wroth
+    trait = strong
     trait = chaste
     1030.1.1 = {
         birth = yes
@@ -6418,6 +6465,8 @@
     disallow_random_traits = yes
     trait = tough_soldier
     trait = trickster
+    trait = feeble
+    trait = deceitful
     trait = shrewd
     1030.1.1 = {
         birth = yes
@@ -6437,6 +6486,8 @@
     disallow_random_traits = yes
     trait = skilled_tactician
     trait = humble
+    trait = master_of_flame
+    trait = robust
     trait = duelist
     1030.1.1 = {
         birth = yes
@@ -6490,6 +6541,9 @@
     disallow_random_traits = yes
     trait = charismatic_negotiator
     trait = zealous
+    trait = patient
+    trait = quick
+    trait = mystic
     trait = sapper
     1030.1.1 = {
         birth = yes
@@ -6530,6 +6584,15 @@
     martial = 20
     trait = tough_soldier
     trait = drunkard
+    trait = gluttonous
+    trait = shrewd
+    trait = wroth
+    trait = robust
+    trait = strong
+    trait = cruel
+    trait = lunatic
+    trait = trusting
+    trait = brave
     trait = aggressive_leader
     1030.1.1 = {
         birth = yes
@@ -6551,6 +6614,7 @@
     disallow_random_traits = yes
     trait = misguided_warrior
     trait = duelist
+    trait = wroth
     trait = master_of_flame
     1040.1.1 = {
         birth = yes
@@ -6590,6 +6654,7 @@
     disallow_random_traits = yes
     trait = tough_soldier
     trait = just
+    trait = robust
     trait = gregarious
     1040.1.1 = {
         birth = yes
@@ -6609,6 +6674,7 @@
     culture = "han"
     trait = skilled_tactician
     trait = master_of_flame
+    trait = greedy
     trait = deceitful
     1040.1.1 = {
         birth = yes
@@ -6816,6 +6882,8 @@
     culture = "han"
     trait = charismatic_negotiator
     trait = duelist
+    trait = gregarious
+    trait = fair
     trait = shrewd
     1040.1.1 = {
         birth = yes
@@ -6918,6 +6986,7 @@
     female = yes
     trait = charismatic_negotiator
     trait = mystic
+    trait = cannibal_trait
     trait = shrewd
     1040.1.1 = {
         birth = yes
