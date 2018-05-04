@@ -444,15 +444,15 @@ EVTDESC_MNM_7057;黑暗慢慢地蔓延到我身上，我意识不到发生什么
 EVTDESC_MNM_7058;腐败缓慢地蔓延到我身上-在我意识不到自己身上发生了什么事情之前就已经太迟了。现在 [Root.GetDWDevil]的黑暗卷须的魔力已经侵入了我的身体，侵蚀我的精力并且造成各种各样的疼痛和疾病。无论我睡了多久，我都感觉不到好转。;;;;;;;;;;x
 EVTDESC_MNM_7059;腐败缓慢地蔓延到我身上-在我意识不到自己身上发生了什么事情之前就已经太迟了。现在 [Root.GetDWDevil]的黑暗卷须的魔力已经侵入了我的身体，逐渐消耗了我全部的精力和力量。我经常觉得自己饥饿，但我尽量保持自己的食物储备……;;;;;;;;;;x
 String_garden;花园;;;;;;;;;;x
-String_Hibiscus;木槿;;;;;;;;;;x
-String_Ginger_Root;生姜根;;;;;;;;;;x
+String_Hibiscus;木槿花;;;;;;;;;;x
+String_Ginger_Root;姜根;;;;;;;;;;x
 String_Mandrake;曼德拉草;;;;;;;;;;x
 String_Lemon_Grass;柠檬草;;;;;;;;;;x
 String_Nettles;荨麻;;;;;;;;;;x
-String_Wormwood;苦艾;;;;;;;;;;x
+String_Wormwood;苦艾草;;;;;;;;;;x
 String_Valerian;缬草;;;;;;;;;;x
 String_Violet;紫罗兰;;;;;;;;;;x
-String_Yarrow;西洋蓍草;;;;;;;;;;x
+String_Yarrow;蓍草;;;;;;;;;;x
 String_Gall_Bladder;胆囊;;;;;;;;;;x
 String_Kidney;肾脏;;;;;;;;;;x
 String_Eyeballs;眼球;;;;;;;;;;x
@@ -461,7 +461,7 @@ String_Antlers;鹿角;;;;;;;;;;x
 String_Snout;鼻子;;;;;;;;;;x
 String_Heart;心脏;;;;;;;;;;x
 String_Liver;肝脏;;;;;;;;;;x
-String_Intestines;肠子;;;;;;;;;;x
+String_Intestines;肠;;;;;;;;;;x
 String_Silver;银;;;;;;;;;;x
 String_Mercury;水银;;;;;;;;;;x
 String_Aqua_Regia;王水;;;;;;;;;;x
@@ -472,10 +472,10 @@ String_Copper;铜;;;;;;;;;;x
 String_Iron;铁;;;;;;;;;;x
 String_Tin;锡;;;;;;;;;;x
 String_crescent;新月标志;;;;;;;;;;x
-EVTOPTD_MNM_1200_herb;一些压碎的[GetSelectedIngredient_1]将有助于形成模型。;;;;;;;;;;x
-EVTOPTD_MNM_1200_animal_part;其实，我应该添加一些[ getselectedingredient_1 ]打基础帮助形成图案。;;;;;;;;;;x
-EVTOPTD_MNM_1200_powder;当然，再来几滴[GetSelectedIngredient_1]会增加到模型之中。;;;;;;;;;;x
-EVTOPTD_MNM_1200_liquid;唔...几滴[ getselectedingredient_1 ]应该形成一个华丽的图案。;;;;;;;;;;x
+EVTOPTD_MNM_1200_herb;一些压碎的[GetSelectedIngredient_1]将有助于成型。;;;;;;;;;;x
+EVTOPTD_MNM_1200_animal_part;其实，我应该添加一些[GetSelectedIngredient_1]打基础帮助形成图案。;;;;;;;;;;x
+EVTOPTD_MNM_1200_powder;当然，再来几滴[GetSelectedIngredient_1]会增加到配方之中。;;;;;;;;;;x
+EVTOPTD_MNM_1200_liquid;唔……几滴[GetSelectedIngredient_1]应该形成一个华丽的图案。;;;;;;;;;;x
 EVTOPTD_MNM_1200_tt;使用 §Y[GetSelectedIngredient_1]§!会增加你对水中伪装产生积极反应的机会。\n;;;;;;;;;;x
 destroy_selected_ingredient_1_tt;§Y[GetSelectedIngredient_1]§!将从宝库中移除。\n;;;;;;;;;;x
 destroy_selected_ingredient_2_tt;§Y[GetSelectedIngredient_2]§!将从宝库中移除。\n;;;;;;;;;;x
@@ -493,8 +493,8 @@ EVTOPTC_MNM_1842_powder;嘘，孩子，服下这药水会有帮助。;;;;;;;;;;x
 EVTOPTC_MNM_1842_liquid;嘘，孩子。我给你做点什么，呃……用这个[GetSelectedIngredient_1]。;;;;;;;;;;x
 EVTOPTC_MNM_1844_herb;让我们去舒适的环境里谈谈这个。;;;;;;;;;;x
 EVTOPTC_MNM_1844_animal_part;我会补偿你的！让我们共享[GetSelectedIngredient_1]里的肉汤。;;;;;;;;;;x
-EVTOPTC_MNM_1844_powder;哦，朋友。你显然需要这个[GetSelectedIngredient_1]注入我的酿造。;;;;;;;;;;x
-EVTOPTC_MNM_1844_liquid;那么...你要试一下我实验性的加入 [GetSelectedIngredient_1] 的啤酒吗？;;;;;;;;;;x
+EVTOPTC_MNM_1844_powder;哦，朋友。你显然需要我的这个[GetSelectedIngredient_1]浸酿。;;;;;;;;;;x
+EVTOPTC_MNM_1844_liquid;那么……你要试一下我做的[GetSelectedIngredient_1]浸酿吗？;;;;;;;;;;x
 nauseous_from_potion;令人作呕的;;;;;;;;;;x
 nauseous_from_potion_desc;这个角色看上去不太好受。;;;;;;;;;;x
 opinion_apologized;道歉;;;;;;;;;;x
@@ -503,7 +503,7 @@ opinion_calmed;平静;;;;;;;;;;x
 EVTDESC_MNM_1855;在思考我目前的研究的同时，我发现我有几件物品可以加入实验，以增强我对天堂的理解......！;;;;;;;;;;x
 EVTOPTA_MNM_1855;我会燃烧[GetSelectedIngredient_1]，让气味淹没我的感官。;;;;;;;;;;x
 EVTOPTB_MNM_1855;我会做一锅[GetSelectedIngredient_2]……！;;;;;;;;;;x
-EVTOPTC_MNM_1855;我会把一块 [GetSelectedIngredient_2] 放在枕头下面睡觉。;;;;;;;;;;x
+EVTOPTC_MNM_1855;我会把一块[GetSelectedIngredient_2]放在枕头下面睡觉。;;;;;;;;;;x
 EVTOPTD_MNM_1855;我会试试新东西...！;;;;;;;;;;x
 EVTOPTE_MNM_1855;我宁可不;;;;;;;;;;x
 destroy_all_ingredients_tt;所有§Y原料§!将被摧毁并从宝库中移除。\n;;;;;;;;;;x
@@ -553,25 +553,25 @@ String_reek;我的鼻子在它们的臭气中抽搐;;;;;;;;;;x
 String_glitters;微微闪烁;;;;;;;;;;x
 String_glitter;闪闪发光;;;;;;;;;;x
 EVTDESC_MNM_5110;我的社团同僚们有时候会念出复杂的咒语和配方来辟邪，也许我也应该采需预防措施。考虑到[GetWesternZodiacSign]之星，我觉得需要确认放在自己书架上的[GetSelectedIngredient_1_property]里的 [GetSelectedIngredient_1] 。;;;;;;;;;;x
-EVTOPTA_MNM_5110;[GetSelectedIngredient_1]战略地在我的住处就够了。;;;;;;;;;;x
+EVTOPTA_MNM_5110;[GetSelectedIngredient_1]战略地放在我的住处就够了。;;;;;;;;;;x
 EVTOPTB_MNM_5110;我将为此任务使用元素的组合。;;;;;;;;;;x
 EVTOPTC_MNM_5110;我要用神圣的符号来描绘我的整个城堡！这是唯一的方法!;;;;;;;;;;x
 EVTOPTD_MNM_5110;这就是胡猜乱想;;;;;;;;;;x
 must_have_ingredients_tt;拥有至少两个§Y原料§!;;;;;;;;;;x
 EVTDESC_MNM_5115_self;在这种状态下，我几乎不能对药水的品质有所苛求，然而翻遍抽屉我仍然不知道应该使用哪种配料。我尝试[GetSelectedIngredient_1][GetSelectedIngredient_1_property]吧;;;;;;;;;;x
 EVTDESC_MNM_5115_other;不管我的药水品质如何，[potion_target.GetTitledFirstName]都会服用。但是在仔细查阅了配方后，我不确定该用哪种原料…不晓得我的[potion_target.GetRootRelation]会对[GetSelectedIngredient_1] [GetSelectedIngredient_1_property]怎么看。;;;;;;;;;;x
-EVTOPTA_MNM_5115_herb;一些[GetSelectedIngredient_1]的碎屑感觉是正确的。;;;;;;;;;;x
-EVTOPTA_MNM_5115_animal_part;一些粗糙的地面[GetSelectedIngredient_1]感觉是对的。;;;;;;;;;;x
-EVTOPTA_MNM_5115_powder;几片 [GetSelectedIngredient_1] 感觉对了。;;;;;;;;;;x
-EVTOPTA_MNM_5115_liquid;几片 [GetSelectedIngredient_1] 感觉对了。;;;;;;;;;;x
+EVTOPTA_MNM_5115_herb;一些[GetSelectedIngredient_1]的碎屑感觉是对的。;;;;;;;;;;x
+EVTOPTA_MNM_5115_animal_part;一些粗研[GetSelectedIngredient_1]感觉是对的。;;;;;;;;;;x
+EVTOPTA_MNM_5115_powder;几片[GetSelectedIngredient_1]感觉就对了。;;;;;;;;;;x
+EVTOPTA_MNM_5115_liquid;加点[GetSelectedIngredient_1]就对了。;;;;;;;;;;x
 EVTOPTB_MNM_5115_herb;一点点[GetSelectedIngredient_2]的碎屑会产生这种特殊的气味。;;;;;;;;;;x
-EVTOPTB_MNM_5115_animal_part;一些干燥的[GetSelectedIngredient_2]树叶有很强的余味;;;;;;;;;;x
-EVTOPTB_MNM_5115_powder; [GetSelectedIngredient_2] 的某些成分应该奏效的！;;;;;;;;;;x
+EVTOPTB_MNM_5115_animal_part;一些干燥的[GetSelectedIngredient_2]树叶有很强的余味。;;;;;;;;;;x
+EVTOPTB_MNM_5115_powder;[GetSelectedIngredient_2]的某些成分应该奏效的！;;;;;;;;;;x
 EVTOPTB_MNM_5115_liquid;几滴[GetSelectedIngredient_2]可能是最好的选择。;;;;;;;;;;x
-EVTOPTC_MNM_5115_herb;一瓶[GetSelectedIngredient_2]的粉末应该够了。;;;;;;;;;;x
-EVTOPTC_MNM_5115_animal_part;适当的土地会使[GetSelectedIngredient_2]满足。;;;;;;;;;;x
+EVTOPTC_MNM_5115_herb;一剂[GetSelectedIngredient_2]应该够了。;;;;;;;;;;x
+EVTOPTC_MNM_5115_animal_part;适当的研磨[GetSelectedIngredient_2]就够了。;;;;;;;;;;x
 EVTOPTC_MNM_5115_powder;一些[GetSelectedIngredient_2]的粉末正是我所需要的。;;;;;;;;;;x
-EVTOPTC_MNM_5115_liquid;一块[GetSelectedIngredient_2]可能是最好的选择;;;;;;;;;;x
+EVTOPTC_MNM_5115_liquid;一块[GetSelectedIngredient_2]可能是最好的选择。;;;;;;;;;;x
 EVTOPTD_MNM_5115;我可能只是将两者结合起来！;;;;;;;;;;x
 EVTOPTD_MNM_5115_duplicate;我也可以用到两倍！;;;;;;;;;;x
 EVTOPTE_MNM_5115;事实上，我只是将内阁清空。让他们见鬼去吧！;;;;;;;;;;x
