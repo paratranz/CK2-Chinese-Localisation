@@ -2226,7 +2226,7 @@ assassins_raise_ships_power_desc;花费§Y[Root.Society.GetCurrency]§!，使征
 assassins_raise_troops_power_desc;花费§Y[Root.Society.GetCurrency]§!，使召集特殊军队的决议可用。;;;;;;;;;;x
 assassins_scare_ruler_power_desc;允许§G右键点击§!其他统治者头像以威胁他们欠你一个人情。;;;;;;;;;;x
 assassins_mark_for_death_power_desc;花费§Y[Root.Society.GetCurrency]§!，允许在一个成年角色头像上§G点击右键§!以标记他们并刺杀。这将激励§Y阿萨辛§!的其他成员去刺杀你标记的目标。;;;;;;;;;;x
-EVTDESC_3398_BLEND_IN;[Root.GetSRGreeting]，[Root.GetSocietyRank] [Root.GetFirstName]\n\n作为我们教会的秘密推行者，我们一直处在严格的监视之下。我们要求你花一些时间来融入到你领地的宗教团体中去，从而分散任何可能发现我们真实信仰的有害力量。\n\n[Root.GetSRFarewell]，\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
+EVTDESC_3398_BLEND_IN;[Root.GetSRGreeting]，[Root.GetSocietyRank][Root.GetFirstName]\n\n作为我们教会的秘密推行者，我们一直处在严格的监视之下。我们要求你花一些时间来融入到你领地的宗教团体中去，从而分散任何可能发现我们真实信仰的有害力量。\n\n[Root.GetSRFarewell]，\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 quest_secret_religions_societies_blend_in;融入;;;;;;;;;;x
 quest_secret_religions_conduct_secret_ceremony;进行秘密的仪式;;;;;;;;;;x
 quest_secret_religions_conduct_secret_ceremony_desc;为了完成这项任务，你需要§G右键点击§!你的头像并选择§Y准备秘密仪式§!。;;;;;;;;;;x
@@ -2252,9 +2252,9 @@ EVTDESC_MNM_3206;我对[stubborn_courtier.GetTitledName]清楚地表明，对于
 EVTOPTA_MNM_3206;[stubborn_courtier.GetSheHeCap]理解了我含蓄的威胁。;;;;;;;;;;x
 EVTDESC_MNM_3207;我的嗓音一定不会像我以为的那样有威胁。当我告诉[stubborn_courtier.GetTitledFirstName]提出错误的问题会是如何危险，[stubborn_courtier.GetSheHe]只是笑笑。当我继续讲故事描述质疑领主信仰的可怜人时，[stubborn_courtier.GetHerHis]还是在笑。当[stubborn_courtier.GetSheHe]终于离开时，留下一句更令人不安的话。「我确切知道我的灵魂属于哪里，但我不确定您的。」;;;;;;;;;;x
 EVTOPTA_MNM_3207;不，等等！我知道[Root.Religion.GetScriptureName]的行数！;;;;;;;;;;x
-EVTDESC_MNM_3251;[Root.GetSRGreeting]，[Root.GetSocietyRank] [Root.GetFirstName]\n\n我们自豪地听闻您为了保护[This.Society.GetName]秘密成员所做出的不懈努力。我们很荣幸能够将您列为我们自己的一员。\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_3251;[Root.GetSRGreeting]，[Root.GetSocietyRank][Root.GetFirstName]\n\n我们自豪地听闻您为了保护[This.Society.GetName]秘密成员所做出的不懈努力。我们很荣幸能够将您列为我们自己的一员。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 EVTOPTA_MNM_3251;很好。;;;;;;;;;;x
-EVTDESC_MNM_3252;[Root.GetSRGreeting]，[Root.GetSocietyRank] [Root.GetFirstName]\n\n得知您为了保护[This.Society.GetName]的低调成员所做出的薄弱努力，我们感到很遗憾。我们对您的期待不止于此。\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_3252;[Root.GetSRGreeting]，[Root.GetSocietyRank][Root.GetFirstName]\n\n得知您为了保护[This.Society.GetName]的低调成员所做出的薄弱努力，我们感到很遗憾。我们对您的期待不止于此。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 EVTOPTA_MNM_3252;该死！;;;;;;;;;;x
 EVTDESC_MNM_3209;[concerned_friend.GetTitledFirstName]我的朋友前来问候我：「是什么让你感觉头晕眼花，以至于让我感觉再也见不到你了。」[concerned_friend.GetSheHe] 回答到\n我想到我真正的信仰，我应该对他们保密，就算他们是我最亲密的人;;;;;;;;;;x
 EVTOPTA_MNM_3209;哦，我一直在做这些可怕的梦。;;;;;;;;;;x
@@ -2410,7 +2410,7 @@ embarrassed_believer;难堪的信徒;;;;;;;;;;x
 embarrassed_believer_desc;这个角色正在从一些羞辱的事情中恢复过来。;;;;;;;;;;x
 opinion_unimpressed;不为所动;;;;;;;;;;x
 conducted_secret_ceremony;进行秘密仪式;;;;;;;;;;x
-EVTDESC_3398_CONDUCT_SECRET_CEREMONY;[Root.GetSRGreeting]，[Root.GetSocietyRank] [Root.GetFirstName]\n\n作为我们宗教的秘密践行者，有时你很容易忽视你的真实自我。为了你和[This.Society.GetName]好，我们要求你举行秘密仪式以向[Root.TrueReligion.GetHighGodName]表示敬意。\n\n[Root.GetSRFarewell]，\n此致， [From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
+EVTDESC_3398_CONDUCT_SECRET_CEREMONY;[Root.GetSRGreeting]，[Root.GetSocietyRank][Root.GetFirstName]\n\n作为我们宗教的秘密践行者，有时你很容易忽视你的真实自我。为了你和[This.Society.GetName]好，我们要求你举行秘密仪式以向[Root.TrueReligion.GetHighGodName]表示敬意。\n\n[Root.GetSRFarewell]，\n此致， [From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 quest_secret_religions_conduct_secret_ceremony_allow_tt;最近没有尝试过;;;;;;;;;;x
 EVTDESC_MNM_3237;[From.GetTitledFirstName]提议到我的[Root.Capital.GetCapitalHolding]来协助我进行秘密典礼。「为了所有的[Root.GetTrueReligionAdherent]」，[From.GetSheHe]写道。我一边思考怎么回答，一边把这封信放在了炉火上。炉火把纸烧成了灰，我把手插回了口袋，口袋里藏着我的[Root.GetSRTrinketSymbol]，它很安全，不会被一双双窥探的眼睛看到。;;;;;;;;;;x
 EVTDESC_MNM_3237_COURT;[From.GetTitledFirstName]提议协助我进行秘密典礼。「为了所有的[Root.GetTrueReligionAdherent]」，[From.GetSheHe]写道。我一边思考怎么回答，一边把这封信放在了炉火上。炉火把纸烧成了灰，我把手插回了口袋，口袋里藏着我的[Root.GetSRTrinketSymbol]，它很安全，不会被一双双窥探的眼睛看到。;;;;;;;;;;x
@@ -2443,8 +2443,8 @@ EVTOPTA_MNM_3239_BIG_SUCCESS_TT_2;你完成了仪式并带着新的力量，以�
 String_Cross;圣十字架;;;;;;;;;;x
 String_six_pointed_star;六芒星;;;;;;;;;;x
 String_figurine_of_Buddha;佛像;;;;;;;;;;x
-String_figurine_of_Ganesha;象头神雕像;;;;;;;;;;x
-String_figurine_of_jain_god;雕像;;;;;;;;;;x
+String_figurine_of_Ganesha;象头神像;;;;;;;;;;x
+String_figurine_of_jain_god;耆那神像;;;;;;;;;;x
 String_fire_symbol;火焰标志;;;;;;;;;;x
 String_Thors_hammer;雷神之锤;;;;;;;;;;x
 String_hatchet_amulet;斧形护身符;;;;;;;;;;x
@@ -2554,7 +2554,7 @@ EVTDESC_MNM_3406;[From.GetTitledFirstName]被这个贫困家庭的故事打动�
 EVTOPTA_MNM_3406;我知道我们会在[From.GetFirstName]找到一个盟友！;;;;;;;;;;x
 EVTDESC_MNM_3407;[From.GetTitledFirstName]只是嘲笑我的故事，并傲慢地宣称：作为「一群肮脏的异教徒」，这个家族只能怪责于他们自己。然后[From.GetSheHe]转向[From.GetHerHis] 另一侧的[From.GetManWomanOpp]人，在晚上的其余时间继续无视我。;;;;;;;;;;x
 EVTOPTA_MNM_3407;[From.GetFirstName]还没有准备好接受真相。;;;;;;;;;;x
-EVTDESC_MNM_3401;[Root.GetSRGreeting]，[Root.GetSocietyRank] [Root.GetFirstName]，\n\n我们希望[induction_target.GetTitledFirstName]具有正确的心态和品格以成为我们中的一员。因为我们的事业需要强大的盟友，所以您的任务是给[induction_target.GetHerHim]指明方向。\n\n[Root.GetSRFarewell]，\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_3401;[Root.GetSRGreeting]，[Root.GetSocietyRank][Root.GetFirstName]，\n\n我们希望[induction_target.GetTitledFirstName]具有正确的心态和品格以成为我们中的一员。因为我们的事业需要强大的盟友，所以您的任务是给[induction_target.GetHerHim]指明方向。\n\n[Root.GetSRFarewell]，\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 quest_secret_religious_societies_induct_ruler;引导[FromFrom.GetTitledFirstName]到真正的信仰中;;;;;;;;;;x
 quest_secret_religious_societies_induct_ruler_desc;我们相信[FromFrom.PrimaryTitle.GetName][FromFrom.GetTitle][FromFrom.GetDynName]有潜力被转化为我们事业的支持者。你的任务是让[FromFrom.GetTitledFirstName]暗中皈依[Root.TrueReligion.GetName]信仰。;;;;;;;;;;x
 quest_secret_religious_societies_induct_ruler_tooltip;要完成这项任务，请在§Y[FromFrom.GetTitledFirstName]§!的肖像上§G右击§!，选择§Y'引入[Root.TrueReligion.GetName]信仰'§! 并且成功使[FromFrom.GetHerHim]成为[Root.TrueReligion.GetName]信仰的秘密信徒。如果§Y[FromFrom.GetTitledFirstName]§!没有§Y[Root.GetTrueReligionGroupPersons]同情者§!特质，必须先§Y'唤起对[Root.GetTrueReligionGroupPersons]的同情'§!\n;;;;;;;;;;x
@@ -3025,7 +3025,7 @@ devil_worshiper_desecrate_temple_decision_tt;§Y[From.GetTitledFirstName]§!  �
 quest_devil_worshipers_desecrate_temple_tooltip;欲完成此项任务，请§G右键点击§! §Y[FromFrom.GetName]§!的盾徽，选择§Y亵渎神殿§!并成功亵渎§Y[FromFrom.GetName]§!的[FromFrom.GetHolding]。;;;;;;;;;;x
 EVTDESC_MNM_10023_ASSASSINS;致[Root.GetTitledFirstName]，\n\n我们注意到你不再坚持真正的信仰。捍卫什叶派宗教及其追随者是我们生存的意义和最重大的义务，这是最高程度的背叛行为。如果你想维持你现在的生活，下次别让我们再碰上你。\n\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
 EVTDESC_MNM_10023_MO;致[Root.GetTitledFirstName]，\n\n我们注意到你不再坚持真正的信仰。虽然我们希望你会意识到你的严重错误并回到[From.Religion.GetHighGodName]，但我们不能对你宽大处之。你被禁止留在[From.Society.GetName]。\n\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
-EVTDESC_MNM_10023_SR_A;致[Root.GetTitledFirstName]，\n\n我们注意到你已公开接受[From.TrueReligion.GetName]信仰。虽然你的献身精神是令人钦佩的，但这使你处于危险的境地，我们不能再与你保持联系。\n\n[From.GetSRFarewell]，\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_10023_SR_A;致[Root.GetTitledFirstName]，\n\n我们注意到你已公开接受[From.TrueReligion.GetName]信仰。虽然你的献身精神是令人钦佩的，但这使你处于危险的境地，我们不能再与你保持联系。\n\n[From.GetSRFarewell]，\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 EVTDESC_MNM_10023_SR_B;致[Root.GetTitledFirstName]，\n\n我们注意到你不再坚持真正的信仰。虽然我们希望你会意识到你的严重错误并回到[From.Religion.GetHighGodName]，但我们不能对你宽大处之。我们必须保护自己。如果你出卖了我们的秘密，我们会拉你一起陪葬。\n\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
 EVTOPTA_MNM_10023;看起来我今天结下了几个仇家。;;;;;;;;;;x
 EVTDESC_MNM_10019;你不再满足加入[From.GetName]的要求。;;;;;;;;;;x
@@ -3137,7 +3137,7 @@ EVTOPTA_MNM_3880;我会提供他们需要的所有支持。;;;;;;;;;;x
 EVTOPTB_MNM_3880;我们现在应该暂时放弃[target_province.GetName]。;;;;;;;;;;x
 EVTDESC_MNM_3890;经过许多的工作、奉献和祈祷后，在[target_province.GetName]的[Root.GetTrueReligionAdherent]社团规模已经今非昔比。众多的信徒们分享他们的欢悦与艰辛，同时确保他们的信仰不被外面更宽广的世界察觉。会众们已经汇成了一个笃信的小世界，每天都有新的皈依者寻找到[Root.TrueReligion.GetHighGodName]的真相。;;;;;;;;;;x
 EVTOPTA_MNM_3890;你们都寄托在[Root.TrueReligion.GetHighGodName]的信奉中！;;;;;;;;;;x
-EVTDESC_MNM_3901;[Root.GetSRGreeting]，[Root.GetSocietyRank] [Root.GetFirstName]，\n\n我们的社团在阴影中稳定地发展，但是为了我们能存在于阳光下的终极目标，我们需要当地民众的支持。你应当在[target_province.GetName]传播我们的教诲。\n\n[Root.GetSRFarewell]，\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_3901;[Root.GetSRGreeting]，[Root.GetSocietyRank][Root.GetFirstName]，\n\n我们的社团在阴影中稳定地发展，但是为了我们能存在于阳光下的终极目标，我们需要当地民众的支持。你应当在[target_province.GetName]传播我们的教诲。\n\n[Root.GetSRFarewell]，\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 quest_secret_religions_societies_prepare_grounds;在[FromFrom.GetName]准备训练场;;;;;;;;;;x
 secret_religions_prepare_grounds;做好准备;;;;;;;;;;x
 secret_religions_prepare_grounds_desc;命令一个忠诚的间谍秘密地把我们的教诲传到一个目标省份。;;;;;;;;;;x
@@ -3183,7 +3183,7 @@ EVTTOOLTIPB_MNM_3911;你将尽你所能在这幅画中加入一些[Root.TrueReli
 EVTOPTC_MNM_3911;这应该展示给我所有的杰出嘉宾。;;;;;;;;;;x
 magnificent_painting;华丽的画作 ;;;;;;;;;;x
 magnificent_painting_desc;这幅非凡的画几乎栩栩如生，即使你在屋檐下欣赏，也让你感觉身处在户外的大自然。一件真正迷人的艺术品。;;;;;;;;;;x
-EVTDESC_MNM_3912;当我炫耀我最新的艺术收藏时，某个人花了很长时间研究这幅画。原来是[society_art_observer.GetSocietyRank] [society_art_observer.GetFirstName]。这之后他握了握我的手，在我手掌上留下一个[Root.GetSRTrinketSymbol]。;;;;;;;;;;x
+EVTDESC_MNM_3912;当我炫耀我最新的艺术收藏时，某个人花了很长时间研究这幅画。原来是[society_art_observer.GetSocietyRank][society_art_observer.GetFirstName]。这之后他握了握我的手，在我手掌上留下一个[Root.GetSRTrinketSymbol]。;;;;;;;;;;x
 EVTOPTA_3912;我很高兴有其他开明的人。;;;;;;;;;;x
 EVTOPTA_3914;我希望某人能欣赏这个。;;;;;;;;;;x
 EVTOPTB_3914;我必须掩盖这次惨剧;;;;;;;;;;x
@@ -3914,18 +3914,18 @@ String_Muslims;穆斯林;;;;;;;;;;x
 String_As_salam_alaykum;愿平安常伴你;;;;;;;;;;x
 String_Shalom_aleikhem;祝你平安;;;;;;;;;;x
 String_Hamazor_hama_asho_bed;愿我们强大而正义;;;;;;;;;;x
-String_Allfathers_strength;奥丁之力;;;;;;;;;;x
-String_Svarogs_blessings;神的祝福;;;;;;;;;;x
+String_Allfathers_strength;众神之父庇佑;;;;;;;;;;x
+String_Svarogs_blessings;斯瓦罗格保佑;;;;;;;;;;x
 String_Ancestors_blessings;先祖保佑;;;;;;;;;;x
-String_Dievas_blessings;神的祝福;;;;;;;;;;x
-String_Ukkos_blessings;雷神乌戈的祝福;;;;;;;;;;x
-String_Zuns_blessings;尊神的祝福;;;;;;;;;;x
+String_Dievas_blessings;狄厄瓦斯保佑;;;;;;;;;;x
+String_Ukkos_blessings;雷神乌戈保佑;;;;;;;;;;x
+String_Zuns_blessings;尊神保佑;;;;;;;;;;x
 String_May_Allah_guide_you;愿安拉指引你;;;;;;;;;;x
-String_May_Yehovah_guide_you;愿上帝指引你;;;;;;;;;;x
+String_May_Yehovah_guide_you;愿耶和华指引你;;;;;;;;;;x
 String_Humata_Hukta_Huvarashta;善思，善言，善行;;;;;;;;;;x
-String_May_the_Ancestors_guide_you;先祖将指引你;;;;;;;;;;x
-String_May_Zun_illuminate_your_path;愿尊日神指引你;;;;;;;;;;x
-String_May_the_Gods_protect_you;愿上帝保护你;;;;;;;;;;x
+String_May_the_Ancestors_guide_you;愿先祖指引你;;;;;;;;;;x
+String_May_Zun_illuminate_your_path;愿尊日神照亮你的道路;;;;;;;;;;x
+String_May_the_Gods_protect_you;愿神保护你;;;;;;;;;;x
 String_Jewish;犹太教;;;;;;;;;;x
 String_Orthodox;东正教;;;;;;;;;;x
 String_Sunni;逊尼派;;;;;;;;;;x
@@ -4229,12 +4229,12 @@ best_laboratory_desc;同样的光辉、深厚的财力和严格的纪律使得�
 quest_hermetics_build_laboratory;建造一个实验室;;;;;;;;;;x
 quest_hermetics_build_laboratory_desc;你必须建造一个实验室。通过这个实验室，你可以去探索蕴藏在星空之中的奥秘。;;;;;;;;;;x
 quest_hermetics_build_laboratory_tooltip;欲完成此任务，需在密谋界面启动决议§Y「建设实验室」§! ，成功完成实验室的建设。;;;;;;;;;;x
-EVTDESC_MNM_1121;致[Root.GetSocietyRank] [Root.GetFirstName]，\n\n您仍然缺乏一间正式的炼金室的事引起了我的注意！没有合适的工具和成员您怎么能够揭示[Root.GetHermesThriceBlessed]的奥秘呢？请您应该建一座炼金室，要不你的工作将默默无闻。\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
-EVTDESC_MNM_1121_apprentice;致[Root.GetSocietyRank] [Root.GetFirstName]，\n\n大师，我感觉我们因为缺乏一座正式的炼金室而推迟了进展。如果我们想揭开[Root.GetHermesThriceBlessed]的奥秘，我们就需要合适的工具和炼金场所。除非您建了一座实验室，否则我们的工作将默默无闻。\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_1121;致[Root.GetSocietyRank] [Root.GetFirstName]，\n\n您仍然缺乏一间正式的炼金室的事引起了我的注意！没有合适的工具和成员您怎么能够揭示[Root.GetHermesThriceBlessed]的奥秘呢？请您应该建一座炼金室，要不你的工作将默默无闻。\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_1121_apprentice;致[Root.GetSocietyRank] [Root.GetFirstName]，\n\n大师，我感觉我们因为缺乏一座正式的炼金室而推迟了进展。如果我们想揭开[Root.GetHermesThriceBlessed]的奥秘，我们就需要合适的工具和炼金场所。除非您建了一座实验室，否则我们的工作将默默无闻。\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 EVTDESC_MNM_1122_normal;有了我自己的实验室，我就可以进行比以前更大的工作了。如果没有一个专用的工作空间和正确的工具，我将永远无法理解。[Root.GetHermesThriceBlessed]的秘密，将是我的。;;;;;;;;;;x
 EVTDESC_MNM_1122_rich;我的新实验室折服了我身边所有的人，我打赌就算是[Root.GetHermesThriceBlessed]他自己都会被这个实验室所打动。现在，我可以利用这个实验室去探索物质和精神的奥秘了。;;;;;;;;;;x
 EVTOPTA_MNM_1122;我的工作刚刚开始。;;;;;;;;;;x
-String_hermes_trismegistus;赫尔墨斯，三倍有福;;;;;;;;;;x
+String_hermes_trismegistus;三重伟大者赫尔墨斯;;;;;;;;;;x
 String_idris;翻译家伊德里斯;;;;;;;;;;x
 EVTDESC_MNM_1113;整个城堡都在摇晃着，使我从几个小时的实验室准备工作后的睡梦中惊醒。难道我忘记锁门了吗？;;;;;;;;;;x
 EVTOPTA_MNM_1113;啊，为了科学牺牲！;;;;;;;;;;x
@@ -4247,7 +4247,7 @@ EVTOPTB_MNM_1114;为何要听愚民之言？;;;;;;;;;;x
 EVTDESC_MNM_1115;灾难降临了！厨房里越来越臭的臭味导致守卫们调查我储存的炼金术原料。因为我一直把精力集中在组装实验室的工作上，以致于原料开始腐烂！;;;;;;;;;;x
 EVTOPTA_MNM_1115;挽救可以挽救的东西。;;;;;;;;;;x
 EVTOPTB_MNM_1115;将来我们必须建造一座更好的仓库！;;;;;;;;;;x
-EVTDESC_MNM_102;致[Root.GetTitledFirstName]，\n祝您平安。得知您已经迈出了开化的第一步，我们感到十分高兴。现在赫尔墨斯文集的奥秘对于你可能是晦涩的，但您终将会像我一样理解它们。\n\n牢记汝所知，[Root.GetHermesThriceBlessed]，将谆谆诲汝。\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_102;致[Root.GetTitledFirstName]，\n祝您平安。得知您已经迈出了开化的第一步，我们感到十分高兴。现在赫尔墨斯文集的奥秘对于你可能是晦涩的，但您终将会像我一样理解它们。\n\n牢记汝所知，[Root.GetHermesThriceBlessed]，将谆谆诲汝。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 EVTOPTA_MNM_102;这就是我希望听到的！ ;;;;;;;;;;x
 EVTDESC_MNM_3914;在花了几个星期的时间改进这幅画之后，我自豪地退后一步来看我的作品。当我意识到我把这幅画添补成了什么样子时，我的额头满是冷汗：原画无法被修复了！现在整幅画上都是简笔人物，随便的图形和其余的艺术灾难。;;;;;;;;;;x
 acquire_ingredients_decision_cooldown_timer_tt;最近没有获取过原材料;;;;;;;;;;x
@@ -4449,7 +4449,7 @@ EVTDESC_MNM_1416_A;我遭受到了巨大的损失。[From.GetTitledFirstName]的
 EVTDESC_MNM_1416_B;[From.GetTitledFirstName]的去世让我失去了学徒和助手。理所当然，我会为[From.GetHerHis]的离世哀悼，但是我收到这个消息的时候我却同样有了一种如释重负的感觉。现在我终于可以有一个合适的弟子了。;;;;;;;;;;x
 EVTOPTA_MNM_1416;信仰[Root.Religion.GetHighGodName]，[From.GetFirstName]。;;;;;;;;;;x
 title_hermetics_apprentice;学徒;;;;;;;;;;x
-EVTDESC_MNM_1405;致[Root.GetFromThisHermeticsRank] [Root.GetFirstName]，\n\n亲爱的同事，我必须坦言，我不明白您是如何在没有一名合适的助手的情况下进行工作的！我的助手聪慧且听话。我一次也没有发现过[From.GetHerHisOpp]的呼吸带有酒味。请您采纳我的建议，并且找一个学徒来辅助您。\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_1405;致[Root.GetFromThisHermeticsRank][Root.GetFirstName]，\n\n亲爱的同事，我必须坦言，我不明白您是如何在没有一名合适的助手的情况下进行工作的！我的助手聪慧且听话。我一次也没有发现过[From.GetHerHisOpp]的呼吸带有酒味。请您采纳我的建议，并且找一个学徒来辅助您。\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 quest_hermetics_find_apprentice;找一名学徒;;;;;;;;;;x
 quest_hermetics_find_apprentice_desc;每个受人尊敬的赫尔墨斯学者都应该有一个学徒。炼金实验是复杂的操作，需要额外的人手，况且身为[Root.GetTitle]，你有足够的时间来到积灰的图书馆搜索资料，在阴暗的市场和遥远的森林里寻找稀有的炼金术原料吗？;;;;;;;;;;x
 quest_hermetics_find_apprentice_tooltip;§Y[Root.GetTitledFirstName]§!必须授予§Y荣誉头衔§!或者等待潜力候选人出现从而指派学徒去完成这项任务。;;;;;;;;;;x
@@ -4465,9 +4465,9 @@ epic_adventure;史诗冒险;;;;;;;;;;x
 great_adventure;伟大冒险;;;;;;;;;;x
 nice_adventure;不错的冒险;;;;;;;;;;x
 emerald_tablet;翠玉录;;;;;;;;;;x
-EVTDESC_MNM_1418;致[Root.GetFromThisHermeticsRank] [Root.GetFirstName]，\n\n我的[Root.GetSisterBrother]，我有一个你可能会感兴趣的提议。不久前一封信落到了我的手里，它详细描述了一些遗失的赫尔墨斯文献的可能地点。如果你资助这场探险，我们可以一起寻找这些宝藏！\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致， [From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_1418;致[Root.GetFromThisHermeticsRank][Root.GetFirstName]，\n\n我的[Root.GetSisterBrother]，我有一个你可能会感兴趣的提议。不久前一封信落到了我的手里，它详细描述了一些遗失的赫尔墨斯文献的可能地点。如果你资助这场探险，我们可以一起寻找这些宝藏！\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致， [From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 EVTDESC_MNM_1420_A;致[Root.GetFromThisHermeticsRank][Root.GetFirstName]，\n信上提到了三个遗失的文本：本地古董商所持有的一本厚书，一张藏在[temple_site.GetName]内的[temple_site.Holder.GetHouseOfWorship]的卷轴，以及位于[ruin_site.Holder.TopLiege.PrimaryTitle.GetName]内的[ruin_site.GetName]古图书馆遗址的一块碑。我们探索得越远，追溯得越久，就越可能会发现更大的秘密。这将由你来做决定。\n\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
-EVTDESC_MNM_1420_B;致 [Root.GetFromThisHermeticsRank] [Root.GetFirstName]，\n我有一个好消息！自从我们上次通信后，我获得了一张通往亚历山大大图书馆废墟的一个幸存房间的地图。尽管之前的选项依然可以考虑。一本古籍在 [Root.Capital.GetName]，一份卷轴在 [temple_site.GetName]以及一块碑在 [ruin_site.Holder.TopLiege.PrimaryTitle.GetName]我认为这是一个绝好的机会，不能放弃。.\n\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_1420_B;致 [Root.GetFromThisHermeticsRank][Root.GetFirstName]，\n我有一个好消息！自从我们上次通信后，我获得了一张通往亚历山大大图书馆废墟的一个幸存房间的地图。尽管之前的选项依然可以考虑。一本古籍在[Root.Capital.GetName]，一份卷轴在[temple_site.GetName]以及一块碑在[ruin_site.Holder.TopLiege.PrimaryTitle.GetName]。我认为这是一个绝好的机会，不能放弃。\n\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 EVTOPTA_MNM_1420;确实不错！我们将前往亚历山大！;;;;;;;;;;x
 EVTOPTA_MNM_1420_TT;你和 §Y[From.GetTitledFirstName]§! 出发前往亚历山大港，希望能找到大图书馆的废墟。\n;;;;;;;;;;x
 EVTOPTB_MNM_1420;让我们前往[ruin_site.GetName]的废墟。;;;;;;;;;;x
@@ -4493,13 +4493,13 @@ EVTDESC_MNM_1426_D;[From.GetSocietyRank] [From.GetFirstName]和我在满是灰�
 quest_hermetics_find_text;寻找一份赫尔墨斯文献;;;;;;;;;;x
 quest_hermetics_find_text_desc;你的同事[FromFrom.GetSocietyRank][FromFrom.GetFirstName]发现了一封信，详细描述了赫尔墨斯学会的一些伟大作品的可能位置。一项协议达成了——[FromFrom.GetSocietyRank][FromFrom.GetFirstName]将和你分享信里的内容，而你将资助这场远征探险。;;;;;;;;;;x
 quest_hermetics_find_text_tooltip;如果§Y[Root.GetTitledFirstName]§!启程前往§Y[From.GetTitledFirstName]§!推荐的其中一处地点并找到一个古老的赫尔墨斯文献，任务就完成了。;;;;;;;;;;x
-EVTDESC_MNM_1431_A;致[Root.GetFromThisHermeticsRank] [Root.GetFirstName]，\n\n[infiltration_target.GetSocietyRank] [infiltration_target.GetFirstName]是个自大而轻浮的混账，我想您明白这一点，[Root.GetSisterBrother]！是时候让[infiltration_target.GetHerHim]为[infiltration_target.GetHerHis]罪过负责了。让我们捣毁[infiltration_target.GetHerHis]实验室并且窃取[infiltration_target.GetHerHis]的秘密吧！\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
-EVTDESC_MNM_1431_B;致[Root.GetFromThisHermeticsRank] [Root.GetFirstName]，\n\n我的朋友，我们有着共同的敌人。您也知道我说的就是[infiltration_target.GetSocietyRank] [infiltration_target.GetFirstName]那个卑鄙的蠢货！[infiltration_target.GetHerHim]成为我们这一受人尊敬的协会的一员的想法真是…让我作呕！让我们捣毁[infiltration_target.GetHerHis]实验室并且窃取[infiltration_target.GetHerHis]秘密吧！\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
-EVTDESC_MNM_1431_C;致[Root.GetFromThisHermeticsRank] [Root.GetFirstName]，\n\n[infiltration_target.GetSocietyRank] [infiltration_target.GetFirstName]这个贪婪而懒惰的蠢货不配继续占有他的资产。[Root.GetSisterBrother]，我们一起去查抄[infiltration_target.GetHerHis]实验室并宣称它应为我们所有，您意下如何？\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_1431_A;致[Root.GetFromThisHermeticsRank][Root.GetFirstName]，\n\n[infiltration_target.GetSocietyRank] [infiltration_target.GetFirstName]是个自大而轻浮的混账，我想您明白这一点，[Root.GetSisterBrother]！是时候让[infiltration_target.GetHerHim]为[infiltration_target.GetHerHis]罪过负责了。让我们捣毁[infiltration_target.GetHerHis]实验室并且窃取[infiltration_target.GetHerHis]的秘密吧！\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_1431_B;致[Root.GetFromThisHermeticsRank][Root.GetFirstName]，\n\n我的朋友，我们有着共同的敌人。您也知道我说的就是[infiltration_target.GetSocietyRank][infiltration_target.GetFirstName]那个卑鄙的蠢货！[infiltration_target.GetHerHim]成为我们这一受人尊敬的协会的一员的想法真是……让我作呕！让我们捣毁[infiltration_target.GetHerHis]实验室并且窃取[infiltration_target.GetHerHis]秘密吧！\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_1431_C;致[Root.GetFromThisHermeticsRank][Root.GetFirstName]，\n\n[infiltration_target.GetSocietyRank][infiltration_target.GetFirstName]这个贪婪而懒惰的蠢货不配继续占有他的资产。[Root.GetSisterBrother]，我们一起去查抄[infiltration_target.GetHerHis]实验室并宣称它应为我们所有，您意下如何？\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 quest_hermetics_infiltrate_laboratory;潜入[FromFrom.GetSocietyRank][FromFrom.GetFirstName]的实验室;;;;;;;;;;x
 quest_hermetics_infiltrate_laboratory_desc;贪婪多疑的[FromFrom.GetSocietyRank][FromFrom.GetFirstName]小心翼翼地守着[FromFrom.GetHerHis]秘密。这真是一种最可耻的行为！与[FromFrom.GetHerHim]不同，你懂得如何分享。本着合作精神，你和一个同僚商定潜入[FromFrom.GetFirstName]的实验室，并窃取或摧毁任何有价值的东西。也许鱼和熊掌可以兼得！;;;;;;;;;;x
 quest_hermetics_infiltrate_laboratory_tooltip;你的同事会带你到§Y[FromFrom.GetTitledFirstName]§!的实验室。如果你能设法偷窃或者摧毁任何东西而不被注意到，任务就完成了。;;;;;;;;;;x
-EVTDESC_MNM_1433;最尊敬的[Root.GetFromThisHermeticsRank] [Root.GetFirstName]，\n\n虽然我的密探没有找到[infiltration_target.GetSocietyRank] [infiltration_target.GetFirstName]的实验室的准确位置。但你无需担心，朋友，他们掌握着一些有希望的线索。我们只需要保持耐心。\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_1433;最尊敬的[Root.GetFromThisHermeticsRank][Root.GetFirstName]，\n\n虽然我的密探没有找到[infiltration_target.GetSocietyRank][infiltration_target.GetFirstName]的实验室的准确位置。但你无需担心，朋友，他们掌握着一些有希望的线索。我们只需要保持耐心。\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 EVTOPTA_MNM_1433;我要准备迅速离开了;;;;;;;;;;x
 EVTOPTA_MNM_1433_TT;一旦§Y[From.GetTitledFirstName]§!的间谍找到实验室，你就得离开。;;;;;;;;;;x
 EVTDESC_MNM_1435_A;[infiltration_target.GetSocietyRank] [infiltration_target.GetFirstName]一定是太过多疑了，[infiltration_target.GetHerHis] 研究室是一座隐藏在遥远岛屿上的要塞。当我们穿过夜幕掩盖下的暗色河流时 [From.GetFirstName]告诉我关于卫兵轮换的事。我们只有一次突破这道防线的机会。;;;;;;;;;;x
@@ -4874,13 +4874,13 @@ MNM.70013.o;我想我知道他可以替换谁…;;;;;;;;;;x
 MNM.70031.t;发现叛教者！;;;;;;;;;;x
 the_devil_worshipers_tainted_touch_allow_2_tt;§Y[Root.GetTitledFirstName]§!在过去十年内没有受过诅咒;;;;;;;;;;x
 String_Universal_Theology;普世神学的真相;;;;;;;;;;x
-String_origin_of_the_Trinity_before_Messiah;在弥赛亚时代之前三位一体的起源;;;;;;;;;;x
+String_origin_of_the_Trinity_before_Messiah;前弥赛亚时代三位一体的起源;;;;;;;;;;x
 String_Qabalah;赫尔墨斯·特利斯墨吉斯忒斯之秘传;;;;;;;;;;x
-String_unity_with_the_One;如何实现与人的统一;;;;;;;;;;x
+String_unity_with_the_One;如何实现与主的同一;;;;;;;;;;x
 String_nature_of_Prima_materia;原初物质的本质;;;;;;;;;;x
 String_nature_of_the_Inner_and_the_Outer_cosmos;内外宇宙的本质;;;;;;;;;;x
-String_Prisca_theologia;通过古代神学之镜达成统一;;;;;;;;;;x
-String_esoteric_meaning_of_the_Caduceus;节杖的深意;;;;;;;;;;x
+String_Prisca_theologia;通过古代神学之镜达成同一;;;;;;;;;;x
+String_esoteric_meaning_of_the_Caduceus;双蛇杖的深意;;;;;;;;;;x
 String_truth_inherent_to_Divine_Consciousness;神性意识的内在真理;;;;;;;;;;x
 String_interaction_of_the_soul_and_alchemy;灵魂与炼金术的互动;;;;;;;;;;x
 String_very_definition_of_a_true_magnum_opus;真正杰作的定义;;;;;;;;;;x
@@ -5310,7 +5310,7 @@ opinion_forgot_important_occasion;遗忘的时刻;;;;;;;;;;x
 opinion_forgot_important_occasion_mild;遗忘的时刻;;;;;;;;;;x
 failed_to_predict_star_fall;预测 失败;;;;;;;;;;x
 failed_to_predict_star_fall_desc;这个角色的自尊心在一次失败的公开预言星坠的活动中遭到了严重打击。;;;;;;;;;;x
-EVTDESC_MNM_1829;致[Root.GetFromThisHermeticsRank] [Root.GetFirstName]，\n\n亲爱的同事，在我的研究过程中，我通过观星，发现了最迷人的现象。我坚信宇宙的基本规律隐藏在其中某个地方。为了达到更高层次的认知，您应该听取我的建议并仔细研究星辰。\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank];;;;;;;;;;x
+EVTDESC_MNM_1829;致[Root.GetFromThisHermeticsRank][Root.GetFirstName]，\n\n亲爱的同事，在我的研究过程中，我通过观星，发现了最迷人的现象。我坚信宇宙的基本规律隐藏在其中某个地方。为了达到更高层次的认知，您应该听取我的建议并仔细研究星辰。\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank];;;;;;;;;;x
 EVTDESCA_MNM_1837;在经过许多天的观星后，我确信云层后面正在发生许多事情。但为了我的其他职责，我可能要放弃这方面的努力了。;;;;;;;;;;x
 EVTDESCB_MNM_1837;在经过许多天的观星后，我已经确定，天体在依照一种我还没有发现的模式运动。但为了我的其他职责，我可能要放弃这方面的努力了。;;;;;;;;;;x
 EVTDESCC_MNM_1837;在经过许多天的观星后，我开始绘制星图以及某些行星的运动轨迹。有那么多东西要学！然而，我的内阁不停地抱怨我的缺席。也许是时候结束我的研究了。;;;;;;;;;;x
