@@ -1,33 +1,33 @@
 nick_the_inquisitor;审判者;;;;;;;;;;x
 nick_the_purifier;净化者;;;;;;;;;;x
-String_man_at_arm;重骑兵;;;;;;;;;;x
-String_spahi;轻骑兵;;;;;;;;;;x
+String_man_at_arm;甲士;;;;;;;;;;x
+String_spahi;骑兵;;;;;;;;;;x
 MNM.6668.d;你最近完全不谨慎地频繁迟到和毫无保密意识地经常公然使用[Root.Society.GetName]的权力使得[Root.Religion.GetPriestTitle]们公开指责你叛教！;;;;;;;;;;x
 opinion_accused_apostate;被指控叛教;;;;;;;;;;x
 accused_apostate;打上烙印的叛教者;;;;;;;;;;x
 accused_apostate_desc;这个家伙被指控犯下了叛教的大罪，至于罪名是否属实？那就是另一回事了……;;;;;;;;;;x
 accuse_rival_tooltip;抓住这个机会报复你的对手并且控告 [rival_target.GetHerHim] 叛徒。§Y[rival_target.GetBestName]§!可能无罪——但是你的君主是无法明智判别的。;;;;;;;;;;x
 apostate_found_tooltip;你把§Y[accused_apostate.GetBestName]§!带到§Y[Root.Liege.GetTitle][Root.Liege.GetFirstName]§!的法庭，[Root.Liege.GetSheHe]将决定背教者的命运！;;;;;;;;;;x
-MNM.70110.d.highly_suspected_society_member;在听取了多位目击者的证词，并且仔细观察了 [accused_apostate.GetHerHis] 的一举一动之后，你已经收集到了足够的证据来指控 [accused_apostate.GetBestName]是叛教者——[accused_apostate.GetSheHe] 显然效忠于 [accused_apostate.Society.GetName]！你的 [Root.GetReligionWarriorPlural] 已经准备就绪，随时可以将 [accused_apostate.GetHerHim] 捉拿归案。;;;;;;;;;;x
+MNM.70110.d.highly_suspected_society_member;在听取了多位目击者的证词，并且仔细观察了[accused_apostate.GetHerHis]一举一动之后，你已经收集到了足够的证据来指控[accused_apostate.GetBestName]是叛教者——[accused_apostate.GetSheHe]显然效忠于[accused_apostate.Society.GetName]！你的[Root.GetReligionWarriorPlural]已经准备就绪，随时可以将[accused_apostate.GetHerHim]捉拿归案。;;;;;;;;;;x
 MNM.70110.d.suspected_society_member;在听取了众多目击者的陈述，以及对[accused_apostate.GetHerHis]一举一动的严格审查后。你以及设法收集到了足够的证据来表明[accused_apostate.GetFirstName]是一个叛教者，他加入了[accused_apostate.Society.GetName]！你的[Root.GetReligionWarriorPlural]已经准备就绪，随时可以将[accused_apostate.GetHerHim]捉拿归案。;;;;;;;;;;x
 MNM.70110.d.suspected_apostate;在监视[accused_apostate.GetBestName]时你发现了数不清的异端饰品和书籍。现在你有足够的证据来指责[accused_apostate.GetHerHim]叛教。[accused_apostate.GetSheHeCap]称自己是虔诚的[accused_apostate.Religion.GetName]，但[accused_apostate.GetSheHe]明显在说谎。[accused_apostate.GetSheHe]在秘密地追随[accused_apostate.GetTrueReligionAdherent] ！你的[Root.GetReligionWarriorPlural]已经备好，正准备将[accused_apostate.GetHerHim]锁着带到你的身边。;;;;;;;;;;x
 MNM.70110.d.no_suspicion;在从一些儿童目击者和相关农民那里录完口供后，你已经收集到了一些指向[accused_apostate.GetBestName]是一个叛教者的证据——毫无疑问[accused_apostate.GetFirstName]的灵魂已经被[Root.Religion.GetRandomEvilGodName]污染了！你的[Root.GetReligionWarriorPlural]已经做好了准备，随时可以将[accused_apostate.GetHerHim]缉拿到你面前。;;;;;;;;;;x
 MNM.70110.d.innocent_victim;在从一些儿童目击者和相关农民那里录完口供后，你已经收集到了一些指向[accused_apostate.GetBestName]是一个叛教者的证据——毫无疑问[accused_apostate.GetFirstName]的灵魂已经被[Root.Religion.GetRandomEvilGodName]污染了！你的[Root.GetReligionWarriorPlural]已经做好了准备，随时可以将[accused_apostate.GetHerHim]缉拿到你面前。;;;;;;;;;;x
 MNM.70110.a;抓住[accused_apostate.GetHerHim]！ [accused_apostate.GetSheHeCap]将面临[Root.Liege.GetTitle][Root.Liege.GetFirstName]的正义审判。;;;;;;;;;;x
 MNM.70110.b;我知道我要指控哪个家伙……;;;;;;;;;;x
-MNM.70200.d.highly_suspected_society_member;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的 [Root.GetChamber]，身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊贵的[Root.GetTitle]，这个 [accused_apostate.GetManWoman]人已经公开宣布忠于[accused_apostate.Society.GetName]！ 我们要怎么处置[accused_apostate.GetHerHim] ？」;;;;;;;;;;x
+MNM.70200.d.highly_suspected_society_member;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的 [Root.GetChamber]，身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊贵的[Root.GetTitle]，这个[accused_apostate.GetManWoman]已经公开宣布忠于[accused_apostate.Society.GetName]！ 我们要怎么处置[accused_apostate.GetHerHim] ？」;;;;;;;;;;x
 MNM.70200.d.suspected_society_member;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的[Root.GetChamber]， 身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊贵的[Root.GetTitle]，我已经有足够的证据证明 [accused_apostate.GetManWoman]参与了[accused_apostate.Society.GetName]！我们该怎么处置[accused_apostate.GetHerHim]？」;;;;;;;;;;x
-MNM.70200.d.suspected_apostate;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的 [Root.GetChamber]，身边跟着几个[Root.GetReligionWarriorPlural]拖着披枷带锁的[accused_apostate.GetBestName]。「我的 [Root.GetTitle]，我们在这个叛教者读[accused_apostate.TrueReligion.GetName][accused_apostate.GetTrueReligionScriptureName]，宣扬 [accused_apostate.TrueReligion.GetHighGodName]的时候当场抓住了[accused_apostate.GetHerHim] ！我们应该怎么处理[accused_apostate.GetHerHim]？;;;;;;;;;;x
+MNM.70200.d.suspected_apostate;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的 [Root.GetChamber]，身边跟着几个[Root.GetReligionWarriorPlural]拖着披枷带锁的[accused_apostate.GetBestName]。「我的 [Root.GetTitle]，我们在这个叛教者读[accused_apostate.TrueReligion.GetName][accused_apostate.GetTrueReligionScriptureName]，宣扬[accused_apostate.TrueReligion.GetHighGodName]的时候当场抓住了[accused_apostate.GetHerHim] ！我们应该怎么处理[accused_apostate.GetHerHim]？;;;;;;;;;;x
 MNM.70200.d.no_suspicion;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的[Root.GetChamber]，身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊敬的[Root.GetTitle]，有很多忧虑的农民声称他们的孩子被这个[accused_apostate.GetManWoman]的噩梦所折磨——[accused_apostate.GetSheHe]显然是一个[accused_apostate.GetWarlockWitch]！我们该怎么处置 [accused_apostate.GetHerHim]？」;;;;;;;;;;x
 MNM.70200.d.innocent_victim;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的[Root.GetChamber]，身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊敬的[Root.GetTitle]，有很多忧虑的农民声称他们的孩子被这个[accused_apostate.GetManWoman]的噩梦所折磨——[accused_apostate.GetSheHe]显然是一个[accused_apostate.GetWarlockWitch]！我们该怎么处置[accused_apostate.GetHerHim]？」;;;;;;;;;;x
 MNM.70200.a;烧死叛教者！;;;;;;;;;;x
 MNM.70200.b;将这个叛教者关进地牢。;;;;;;;;;;x
 MNM.70200.c;拿老子的烙铁来！;;;;;;;;;;x
 MNM.70200.d;给予[accused_apostate.GetHerHim]自由吧，这还能有什么害处呢？;;;;;;;;;;x
-MNM.70300.d;诅咒那个该死的[my_liege.GetLordSpiritualName][my_liege.job_spiritual.GetFullName]！[my_liege.job_spiritual.GetSheHeCap]带着一大群[my_liege.job_spiritual.GetHerHis][my_liege.job_spiritual.GetReligionWarriorPlural]冲进了我的[Root.GetChamber]，把我铐起来，指控我是个叛教者。现在[my_liege.GetBestName]决定判处把我活活烧死！;;;;;;;;;;x
+MNM.70300.d;诅咒那个该死的[my_liege.GetLordSpiritualName][my_liege.job_spiritual.GetFullName]！[my_liege.job_spiritual.GetSheHeCap]带着一大群[my_liege.job_spiritual.GetHerHis][my_liege.job_spiritual.GetReligionWarriorPlural]冲进了我的[Root.GetChamber]，把我铐起来，指控我是个叛教者。现在[my_liege.GetBestName]决定把我活活烧死！;;;;;;;;;;x
 MNM.70300.a;[accused_apostate.GetDWDevil]，为我报仇！;;;;;;;;;;x
 MNM.70300.b;[Root.Religion.GetHighGodName]，请拯救我的灵魂！;;;;;;;;;;x
-MNM.70310.d;诅咒那个该死的[my_liege.GetLordSpiritualName][my_liege.job_spiritual.GetFullName]！[my_liege.job_spiritual.GetSheHeCap]带着一大群[my_liege.job_spiritual.GetHerHis][my_liege.job_spiritual.GetReligionWarriorPlural]冲进了我的[Root.GetChamber]，把我铐起来，指控我是个叛教者。现在[my_liege.GetBestName]决定判处让我烂在[my_liege.GetHerHis]地牢里！;;;;;;;;;;x
+MNM.70310.d;诅咒那个该死的[my_liege.GetLordSpiritualName][my_liege.job_spiritual.GetFullName]！[my_liege.job_spiritual.GetSheHeCap]带着一大群[my_liege.job_spiritual.GetHerHis][my_liege.job_spiritual.GetReligionWarriorPlural]冲进了我的[Root.GetChamber]，把我铐起来，指控我是个叛教者。现在[my_liege.GetBestName]决定让我烂在[my_liege.GetHerHis]地牢里！;;;;;;;;;;x
 MNM.70310.a;等我获得自由后，你们都会为此付出代价！;;;;;;;;;;x
 MNM.70320.d;诅咒那该死的[my_liege.GetLordSpiritualName]，[my_liege.job_spiritual.GetFullName]！[my_liege.job_spiritual.GetSheHeCap]和[my_liege.job_spiritual.GetHerHis]一帮[my_liege.job_spiritual.GetReligionWarriorPlural]冲进了我的[Root.GetChamber]并用枷锁囚禁了我，指控我叛教。足够幸运的是[my_liege.GetBestName]决定放我自由——然而我将被打上叛教者的标签。;;;;;;;;;;x
 MNM.70320.a;从某方面来说，很幸运。;;;;;;;;;;x
@@ -35,7 +35,7 @@ MNM.70330.d;诅咒那该死的[my_liege.GetLordSpiritualName]，[my_liege.job_sp
 MNM.70330.a;我自由了！;;;;;;;;;;x
 MNM.70400.d.executed;这真是灾难啊！一位同你一样在[Root.Society.GetName]的成员，[From.GetBestName]，已被[my_liege.GetLordSpiritualName][my_liege.job_spiritual.GetFullName]和[my_liege.job_spiritual.GetHerHis][my_liege.job_spiritual.GetReligionWarriorPlural]抓到了！他们毫不犹豫立刻把他[From.GetHerHim]烧死在了木架上……;;;;;;;;;;x
 MNM.70400.d.imprisoned;这真是灾难啊！一位同你一样在[Root.Society.GetName]的成员，[From.GetBestName]，已被[my_liege.GetLordSpiritualName][my_liege.job_spiritual.GetFullName]和[my_liege.job_spiritual.GetHerHis][my_liege.job_spiritual.GetReligionWarriorPlural]抓到了！[From.GetSheHeCap]现在在[my_liege.GetTitle][my_liege.GetFirstName]的地牢里烂掉……;;;;;;;;;;x
-MNM.70400.d.caught;这真是灾难啊！一位同你一样在[Root.Society.GetName]的成员，[From.GetBestName]，已被[my_liege.GetLordSpiritualName][my_liege.job_spiritual.GetFullName]和[my_liege.job_spiritual.GetHerHis][my_liege.job_spiritual.GetReligionWarriorPlural]抓到了！他们用烧热的铁具在[From.GetFirstName]的身上烙上叛教者的标志，幸运的是他们饶恕了[From.GetHerHis]的性命……;;;;;;;;;;x
+MNM.70400.d.caught;这真是灾难啊！一位同你一样在[Root.Society.GetName]的成员，[From.GetBestName]，已被[my_liege.GetLordSpiritualName][my_liege.job_spiritual.GetFullName]和[my_liege.job_spiritual.GetHerHis][my_liege.job_spiritual.GetReligionWarriorPlural]抓到了！他们用烧热的铁具在[From.GetFirstName]的身上烙上叛教者的标志，幸运的是他们饶恕了[From.GetHerHis]性命……;;;;;;;;;;x
 MNM.70400.a;我应该低调一些……;;;;;;;;;;x
 alert_close_gates_name;关闭大门;;;;;;;;;;x
 alert_open_gates_name;打开大门;;;;;;;;;;x
@@ -423,7 +423,7 @@ String_Karaite;圣经派;;;;;;;;;;x
 String_Mazdaki;马兹达克派;;;;;;;;;;x
 String_Manichean;摩尼教;;;;;;;;;;x
 String_Aztec;阿兹特克信仰;;;;;;;;;;x
-String_Asceticus;禁欲主义;;;;;;;;;;x
+String_Asceticus;苦行;;;;;;;;;;x
 String_Book_of_Illumination;启示书;;;;;;;;;;x
 String_Epistles_of_Wisdom;智慧书;;;;;;;;;;x
 String_Great_Secret;重要秘密;;;;;;;;;;x
@@ -648,8 +648,8 @@ secret_aztec_reformed_community;秘密阿兹特克信仰团体;;;;;;;;;;x
 secret_aztec_reformed_community_desc;阿兹特克教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
 secret_slavic_pagan_community;秘密斯拉夫多神教团体;;;;;;;;;;x
 secret_slavic_pagan_community_desc;斯拉夫多神教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
-secret_west_african_pagan_community;秘密西非信仰社团;;;;;;;;;;x
-secret_west_african_pagan_community_desc;西非信仰的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
+secret_west_african_pagan_community;秘密西非泛灵教社团;;;;;;;;;;x
+secret_west_african_pagan_community_desc;西非泛灵教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
 secret_zun_pagan_community;秘密尊日神教团体;;;;;;;;;;x
 secret_zun_pagan_community_desc;尊日神教忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
 secret_samaritan_community;秘密撒马利亚派社团;;;;;;;;;;x
@@ -810,10 +810,10 @@ secretly_convert_to_finnish_pagan_holy_site;秘密皈依索米多神教;;;;;;;;;
 secretly_convert_to_finnish_pagan_holy_site_desc;§Y索米多神教§! 的朝圣者们蜂拥到了 §Y[Root.Location.GetName]§! 的圣地，他们对于信仰的忠诚和热情让我大为感动。我被怂恿着秘密地皈依了……;;;;;;;;;;x
 secretly_convert_to_finnish_pagan_reformed_holy_site;秘密皈依索米多神教;;;;;;;;;;x
 secretly_convert_to_finnish_pagan_reformed_holy_site_desc;§Y索米多神教§! 的朝圣者们蜂拥到了 §Y[Root.Location.GetName]§! 的圣地，他们对于信仰的忠诚和热情让我大为感动。我被怂恿着秘密地皈依了……;;;;;;;;;;x
-secretly_convert_to_west_african_pagan_holy_site;秘密皈依西非信仰;;;;;;;;;;x
-secretly_convert_to_west_african_pagan_holy_site_desc;§Y西非信仰§! 的朝圣者们蜂拥到了 §Y[Root.Location.GetName]§! 的圣地，他们对于信仰的忠诚和热情让我大为感动。我被怂恿着秘密地皈依了……;;;;;;;;;;x
-secretly_convert_to_west_african_pagan_reformed_holy_site;秘密皈依西非信仰;;;;;;;;;;x
-secretly_convert_to_west_african_pagan_reformed_holy_site_desc;§Y西非信仰§! 的朝圣者们蜂拥到了 §Y[Root.Location.GetName]§! 的圣所，他们对于信仰的忠诚和热情让我大为感动。我被怂恿着秘密地皈依了……;;;;;;;;;;x
+secretly_convert_to_west_african_pagan_holy_site;秘密皈依西非泛灵教;;;;;;;;;;x
+secretly_convert_to_west_african_pagan_holy_site_desc;§Y西非泛灵教§!的朝圣者们蜂拥到了 §Y[Root.Location.GetName]§! 的圣地，他们对于信仰的忠诚和热情让我大为感动。我被怂恿着秘密地皈依了……;;;;;;;;;;x
+secretly_convert_to_west_african_pagan_reformed_holy_site;秘密皈依西非泛灵教;;;;;;;;;;x
+secretly_convert_to_west_african_pagan_reformed_holy_site_desc;§Y西非泛灵教§!的朝圣者们蜂拥到了 §Y[Root.Location.GetName]§! 的圣所，他们对于信仰的忠诚和热情让我大为感动。我被怂恿着秘密地皈依了……;;;;;;;;;;x
 secretly_convert_to_aztec_holy_site;秘密皈依阿兹特克信仰;;;;;;;;;;x
 secretly_convert_to_aztec_holy_site_desc;§Y阿兹特克信仰§! 的朝圣者们蜂拥到了 §Y[Root.Location.GetName]§! 的圣地，他们对于信仰的忠诚和热情让我大为感动。我被怂恿着秘密地皈依了……;;;;;;;;;;x
 secretly_convert_to_aztec_reformed_holy_site;秘密皈依阿兹特克信仰;;;;;;;;;;x

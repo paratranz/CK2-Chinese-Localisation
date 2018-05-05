@@ -1,9 +1,9 @@
 EVTDESC6350;我刚躺着床上时，我最爱的猫突然叫了起来，把我给闹醒了.我的卧室好像有生命似的，从墙壁里传来一阵又一阵搔抓，乱窜的声音.我从床上弹了起来，但声音马上就消失了，随后的调查却什么都没有发现，依然是只有一堵石墙在那.;;;;;;;;;;x
-EVTOPTA6350;可能是有一只大老鼠在墙里面;;;;;;;;;;x
-EVTOPTB6350;只是一个梦而已;;;;;;;;;;x
+EVTOPTA6350;可能是有老鼠在墙里面？;;;;;;;;;;x
+EVTOPTB6350;只是一个梦，别多想;;;;;;;;;;x
 EVTDESC6351;我叫去打水的仆人再也没有回来，当我想去看一下发生了啥事的时候，我注意到了一束从井里传上来的奇怪的光.我往井里看去，发现一种我从来没见过的颜色.它就像烟，而且又湿又冷，但却像烫着我的皮肤一样.;;;;;;;;;;x
-EVTOPTA6351;那种颜色并不存在于这个世界!;;;;;;;;;;x
-EVTOPTB6351;那个井肯定有问题;;;;;;;;;;x
+EVTOPTA6351;那颜色并不存在于这个世界!;;;;;;;;;;x
+EVTOPTB6351;那口井肯定有问题;;;;;;;;;;x
 EVTDESC6352;我一次次的询问我的仆人，询问他那个在城堡下锁着的陵墓的事情，但一直到今天，直到我找到了那条藏在一座腐烂的城堡塔里面的钥匙.在那座陵墓里布满灰尘的通道中，我发现了一副空的石棺材，刻着'[Root.GetFirstName] [Root.GetOnlyDynastyName]'.;;;;;;;;;;x
 EVTOPTA6352;这棺材看上去睡里面会很舒服;;;;;;;;;;x
 EVTOPTB6352;呃，那个恐怖的，密封着的棺材!;;;;;;;;;;x
@@ -13,10 +13,10 @@ EVTOPTB6353;只是一个巧合而已;;;;;;;;;;x
 EVTTOOLTIP6354;想太多了……;;;;;;;;;;x
 EVTDESC6354;在这件事发生后的几个星期，我一直感到不安.我想要让头脑清醒一点，于是就到了海边散步，却意外发现了一个村庄，里面的人声称他们信仰一个名为「古老存在」的神.上帝甚至要比那些 [Root.Religion.GetName] 的信仰漫长地多.他们邀请我去加入他们的仪式，同时向我展示了一本由一个疯狂的撒拉逊人写的布满灰尘的古老魔法书.;;;;;;;;;;x
 EVTOPTA6354;我一定要学这本魔法书;;;;;;;;;;x
-EVTTOOLTIP6355;[Root.GetBestName]知道了被尘封的秘密;;;;;;;;;;x
+EVTTOOLTIP6355;[Root.GetBestName]知道了尘封的秘密;;;;;;;;;;x
 EVTDESC6355;通过对这本魔法书没日没夜的学习，我了解了许多新知识.为了唤醒那个正在沉睡在海底坟墓的最强的古老存在，我筹划了一个仪式.这教派已经准备好了仪式所需的服装和收集好了必要的祭品.;;;;;;;;;;x
-EVTOPTA6355;今晚，它就会醒过来!;;;;;;;;;;x
-EVTTOOLTIP6356;[Root.GetBestName]穿上了黑色的长袍和干瘪的老帽子;;;;;;;;;;x
+EVTOPTA6355;今晚，它就会醒来!;;;;;;;;;;x
+EVTTOOLTIP6356;[Root.GetBestName]穿上了黑色长袍和干瘪的老帽子;;;;;;;;;;x
 EVTDESC6356;那教派为了举行这个仪式，已经聚集到了一片黑暗而且暴躁的海洋岸边.他们开始念咒，菠萝菠萝蜜……	在一片黑暗的海底，有些东西出来了……;;;;;;;;;;x
 EVTOPTA6356;他来了! 他来了!;;;;;;;;;;x
 EVTOPTB6356;我都干了啥! 我要阻止这一切!;;;;;;;;;;x
@@ -42,7 +42,7 @@ HOLYSITE_CONTROL_NOT;这个圣地§Y$SITENAME$§!并不在§Y$RELIGION$§!的掌
 HOLYSITE_LOCATION;圣地§Y$SITENAME$§!位于§Y$COUNTY$§!省份;;;;;;;;;;x
 INTERACTION_REQUIRES_NO_LOOTING_HOSTILITY;当我们在劫掠他们的时候	不能对 §Y[Recipient.GetTitledFirstName]§! 宣战;;;;;;;;;;x
 FROM_ATTRIBUTES;属性加成: §G+$AMOUNT$§!;;;;;;;;;;x
-HOLY_SITES_LESS;没有控制着至少§Y$VAL$§!的圣地\n;;;;;;;;;;x
+HOLY_SITES_LESS;没有控制至少§Y$VAL$§!的圣地\n;;;;;;;;;;x
 HOLY_SITES_LEAST;掌控着至少 §Y$VAL$§! 圣地\n;;;;;;;;;;x
 MAJOR_RIVER_SHORT;在§Y$TO$§!渡过§Y$RIVER$§!;;;;;;;;;;x
 MAJOR_RIVER_DESC;当进攻一条主要河流的时候，进攻者会有一个很大的作战减成;;;;;;;;;;x
@@ -144,8 +144,8 @@ d_finnish_pagan_reformed;索米多神教教团;;;;;;;;;;x
 d_finnish_pagan_reformed_adj;索米多神教;;;;;;;;;;x
 d_aztec_pagan_reformed;阿兹特克多神教教团;;;;;;;;;;x
 d_aztec_pagan_reformed_adj;阿兹特克多神教;;;;;;;;;;x
-d_west_african_pagan_reformed;西非信仰教团;;;;;;;;;;x
-d_west_african_pagan_reformed_adj;西非信仰;;;;;;;;;;x
+d_west_african_pagan_reformed;西非泛灵教教会;;;;;;;;;;x
+d_west_african_pagan_reformed_adj;西非泛灵教;;;;;;;;;;x
 e_wendish_empire;文德帝国;;;;;;;;;;x
 e_wendish_empire_adj;文德;;;;;;;;;;x
 e_tartaria;鞑靼;;;;;;;;;;x
@@ -373,8 +373,8 @@ tengri_pagan_reformed;长生天;;;;;;;;;;x
 baltic_pagan_reformed;洛姆瓦教;;;;;;;;;;x
 finnish_pagan_reformed;索米多神教;;;;;;;;;;x
 aztec_reformed;阿兹特克多神教;;;;;;;;;;x
-west_african_pagan;西非信仰;;;;;;;;;;x
-west_african_pagan_reformed;西非信仰;;;;;;;;;;x
+west_african_pagan;西非泛灵教;;;;;;;;;;x
+west_african_pagan_reformed;西非泛灵教;;;;;;;;;;x
 TT_NOT_UNREFORMED_PAGAN;是改革过的异教徒\n;;;;;;;;;;x
 REBELS;叛军;;;;;;;;;;x
 GOD_PERUN;佩龙;;;;;;;;;;x
@@ -1521,8 +1521,8 @@ aztec_reformed_DESC;改革的阿兹特克信仰有一本真正的圣书	一套�
 aztec_DESC;阿兹特克信仰的创世神话里充满着献祭 - 为了让太阳保持运转甚至诸神也要被献祭. 这反映在许多该宗教的节日和仪式里的大规模人祭上. 主神包括战神人祭之神维齐洛波奇特利Huitzilopochtli	雷神雨神特拉洛克Tlaloc	火神修堤库特里	剥皮之主西佩托堤克Xipe Totec	以及智慧之神羽蛇神奎兹特克Quetzalcoatl.;;;;;;;;;;x
 slavic_pagan_reformed_DESC;改革的斯拉夫信仰有一本圣书	包括创世神话	诸神章节以及一本预言书. 该教会有一套标准化的礼拜仪式以及由佩龙大祭司为首领的正规教会结构	首领可以被世俗统治者附庸.;;;;;;;;;;x
 slavic_pagan_DESC;斯拉夫异教信仰是一种多神信仰，主神是雷电之神佩龙，类似日耳曼人的雷神托尔. 其他重要的神灵包括大地水和冥界之神维列斯，火神斯瓦洛格，繁衍植物生长战争与丰收之神亚利洛以及Svantevit。此外许多部落崇拜当地的神灵。;;;;;;;;;;x
-west_african_pagan_reformed_DESC;改革的西非宗教信仰是许多种流行信仰的熔合	有一本圣书记述了创世神话	诸灵	动物图腾和诸神的传说. 该教会有一套标准化的礼拜仪式以及由大祭司(或者女祭司)为首领的正规教会结构	首领可以被世俗统治者附庸.;;;;;;;;;;x
-west_african_pagan_DESC;西非宗教信仰是对撒哈拉沙漠以南的西非部落各种原始宗教的泛称. 以祖先崇拜	泛灵论	图腾崇拜以及萨满教为主	除此还有很多很多的神.;;;;;;;;;;x
+west_african_pagan_reformed_DESC;改革的西非泛灵教是许多种流行信仰的熔合，有一本圣书记述了创世神话、诸灵、动物图腾和诸神的传说，该教会有一套标准化的礼拜仪式以及由大祭司（或者女祭司）为首领的正规教会结构，首领可以被世俗统治者附庸。;;;;;;;;;;x
+west_african_pagan_DESC;西非泛灵教是对撒哈拉沙漠以南的西非部落各种原始宗教的泛称。以祖先崇拜、泛灵论、图腾崇拜以及萨满教为主，除此还有很多很多的神。;;;;;;;;;;x
 zoroastrian_DESC;祆教崇拜阿胡拉·马兹达	古伊朗先知琐罗亚斯德认为阿胡拉·马兹达是创世神. 直到公元651年穆斯林征服萨珊王朝为止	它是所有波斯帝国的国教(除了希腊的塞琉古帝国). 古老的宗教礼仪包括圣山顶上的圣火	天葬	以及效仿阿胡拉·马兹达和琐罗亚斯德的近亲结婚.;;;;;;;;;;x
 mazdaki_DESC;马兹达克是祆教的祭司，他声称自己是阿胡拉·马兹达的先知。他尝试以诺斯替元素进行宗教改革，并主张财产公有制和福利项目。公元524年他的教义失去了萨珊皇帝卡瓦特一世的垂青，但在偏远地区仍然有异端隐匿着。这个异端没有正式的首脑也没有特殊的游戏机制.;;;;;;;;;;x
 title_cherbi;阇里必;;;;;;;;;;x
