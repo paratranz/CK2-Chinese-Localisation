@@ -176,7 +176,7 @@ ON_CB_ATTACKERDEATH_DESC;§Y如果进攻方领导人去世：§W\n;;;;;;;;;;x
 ON_CB_DEFENDERDEATH_DESC;§Y如果防守方领导人去世：§W\n;;;;;;;;;;x
 ON_CB_THIRDPARTY_DESC;§Y如果$CHARACTER$去世：§W\n;;;;;;;;;;x
 CB_NAME_CLAIM_ALL;索取所有宣称;;;;;;;;;;x
-WAR_NAME_CLAIM_LIEGE;$ATTACKER$$ORDER$夺取$OTHER_TITLE$战争;;;;;;;;;;x
+WAR_NAME_CLAIM_LIEGE;$ATTACKER$为$ORDER$夺取$OTHER_TITLE$战争;;;;;;;;;;x
 claim_desc;§Y$CLAIMANT$§!可以用这个宣战理由夺取§Y$TITLE$§!;;;;;;;;;;x
 claim_on_liege_desc;§Y$CLAIMANT$§!可以用这个宣战理由夺取§Y$TITLE$§!;;;;;;;;;;x
 other_claim_on_liege_desc;§Y$PRESSER$§!可以用这个宣战理由帮§Y$CLAIMANT$§!夺取§Y$TITLE$§!;;;;;;;;;;x
@@ -14741,7 +14741,7 @@ SUCCESSION_LOG;§Y$SUCCESSOR$§!从§Y$PREDECESSOR$§!那里继承了§Y$TITLES$
 SUCCESSION_ALL_VASSALS;以及其他的头衔;;;;;;;;;;x
 LOSTVASSAL_SETUP;封臣失去头衔;;;;;;;;;;x
 LOSTVASSAL_LOG;$TITLE$不再是$OLDLIEGE$的封臣.;;;;;;;;;;x
-BUILDING_DONE_SETUP;当一座建筑完成;;;;;;;;;;x
+BUILDING_DONE_SETUP;一座建筑完成;;;;;;;;;;x
 BUILDING_DONE_LOG;$NAME$ 在 $PROV$ 建成.;;;;;;;;;;x
 TRIGMOD_SETUP;当我国受到修正因素影响;;;;;;;;;;x
 TRIGMOD_LOG;$NAME$开始影响我国.;;;;;;;;;;x
