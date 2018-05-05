@@ -652,9 +652,9 @@ EVTDESC_MNM_6221;愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]�
 EVTDESC_MNM_6222;[infidel_holding.GetHolding][infidel_holding.GetName]已经处于我的控制下了。以刺客之名！我给了 [infidel_holding_owner.GetTitledName]沉重的一击。我的任务完成了。;;;;;;;;;;x
 EVTOPTA_MNM_6221;我将高举我们的旗帜在[infidel_holding.GetHolding]上!;;;;;;;;;;x
 assassins_scare_ruler;威逼统治者使其顺从;;;;;;;;;;x
-EVTDESC_MNM_6840;[FromFrom.GetTitledFirstName]有些奇怪甚至不详。有一天，当我们正在寒暄的时候，[FromFrom.GetSheHe]问我关于[Root.GetMatterOfImportance]。通常，这不会令我不安，但[FromFrom.GetHerHis] 说话的声调有点问题。不管蒙不蒙面，威胁终究是威胁，并且这是确定的一个。;;;;;;;;;;x
+EVTDESC_MNM_6840;[FromFrom.GetTitledFirstName]有些奇怪甚至不祥。有一天，当我们正在寒暄的时候，[FromFrom.GetSheHe]问起我的[Root.GetMatterOfImportance]。通常，这不会令我不安，但[FromFrom.GetHerHis]说话的声调有点问题。不管蒙不蒙面，威胁终究是威胁，而且这的确不可忽视。;;;;;;;;;;x
 EVTOPTA_MNM_6840;我不能冒险渡过[FromFrom.GetFirstName]。;;;;;;;;;;x
-EVTDESC_MNM_6841;前几天遇到[From.GetTitledFirstName]的时候，我询问[From.GetHerHis][From.GetMatterOfImportance]。她似乎显然注意到我隐藏的威胁——[From.GetHerHis][From.GetFaceDescription]脸变得面如死灰，因为想起我们的谈话，[From.GetSheHe]一直避开我的视线。;;;;;;;;;;x
+EVTDESC_MNM_6841;前几天遇到[From.GetTitledFirstName]时，我询问了[From.GetHerHis][From.GetMatterOfImportance]。当然[From.GetSheHeCap]似乎注意到我含蓄的威胁——[From.GetHerHis][From.GetFaceDescription]脸变得面如死灰，因为想起我们的谈话，[From.GetSheHe]一直避开我的视线。;;;;;;;;;;x
 EVTOPTA_MNM_6841;[From.GetFirstName]不敢超越我。;;;;;;;;;;x
 assassins_mark_for_death;死亡标记;;;;;;;;;;x
 assassins_mark_for_death_desc;阿萨辛的大长老§Y[From.GetTitledFirstName]§!已经把§Y[Root.GetTitledFirstName]§!定为了暗杀目标。一名刺客将动身去刺杀§Y[Root.GetTitledFirstName]§!。;;;;;;;;;;x
@@ -1025,8 +1025,8 @@ MEMBER_SCORE_FROM_CURRENCY;货币：$VALUE|Y0$;;;;;;;;;;x
 CHANCE_SOCIETY_CURRENCY_EFFECT;$CHARACTER|Y$ $GAINLOSS$ $VALUE|0$ $VALUENAME|Y$\n;;;;;;;;;;x
 LOSES;失去;;;;;;;;;;x
 GAINS;获得;;;;;;;;;;x
-CAN_RANK_UP_TRIGGER;可以提升社团地位;;;;;;;;;;x
-CAN_NOT_RANK_UP_TRIGGER;不能提高社团地位;;;;;;;;;;x
+CAN_RANK_UP_TRIGGER;可以提升社团位阶;;;;;;;;;;x
+CAN_NOT_RANK_UP_TRIGGER;不能提升社团位阶;;;;;;;;;;x
 CAN_RANK_DOWN_TRIGGER;可以降低社团地位;;;;;;;;;;x
 CAN_NOT_RANK_DOWN_TRIGGER;不能降低社团地位;;;;;;;;;;x
 INTERESTED_IN_SOCIETY_TRIGGER;表示有兴趣加入$SOCIETY$;;;;;;;;;;x
@@ -1370,7 +1370,7 @@ DEMAND_RELIGIOUS_CONVERSION_INTERACTION_SHORT_DESC;要求§Y[Recipient.GetBestNa
 INVITE_TO_COURT_INTERACTION_SHORT_DESC;邀请§Y[Recipient.GetBestName]§!到宫廷。;;;;;;;;;;x
 TRANSFER_VASSAL_INTERACTION_SHORT_DESC;使 §Y[ThirdPartyCharacter.GetBestName]§! 成为 §Y[Recipient.GetBestName]§W 的封臣。;;;;;;;;;;x
 JOIN_AMBITION_INTERACTION_SHORT_DESC;邀请§Y[Recipient.GetBestName]§!参与阴谋§Y[Actor.GetPlot]§W。;;;;;;;;;;x
-TEST_DECISION_TOOLTIP;[This.GetBestName]将消耗100 [This.Society.GetCurrency]来从[This.Society.GetNameCap] ( [This.Society.GetName]) 的 [This.GetSocietyRank] 升阶。;;;;;;;;;;x
+TEST_DECISION_TOOLTIP;[This.GetBestName]将消耗 100 [This.Society.GetCurrency]来从[This.Society.GetNameCap]（[This.Society.GetName]）的[This.GetSocietyRank]升阶。;;;;;;;;;;x
 EVTDESC_MNM_8000;我要去[Root.Religion.GetName]的一个圣地朝圣，希望能启迪心智，净化心灵。;;;;;;;;;;x
 EVTOPTA_MNM_8000;我要开始规划行程了。;;;;;;;;;;x
 EVTDESC_MNM_8001;这场朝圣里有很多地方等着虔诚的[Root.Religion.GetName]去拜访，他们无疑将提供神的启示，但是选择近一些的地点会让旅途更加安全。;;;;;;;;;;x
@@ -1889,7 +1889,7 @@ sanyasini_desc;这个女人选择了一种朴素而独身的生活方式，所�
 GetSocietyRankUpTooltip1_Standard_Rank1;§Y750§!;;;;;;;;;;x
 GetSocietyRankUpTooltip1_Standard_Rank2;§Y1000§!;;;;;;;;;;x
 GetSocietyRankUpTooltip1_Standard_Rank3;§Y2000§!;;;;;;;;;;x
-GetSocietyRankUpTooltip2_Standard;.\n;;;;;;;;;;x
+GetSocietyRankUpTooltip2_Standard;。\n;;;;;;;;;;x
 opinion_thief;小偷;;;;;;;;;;x
 opinion_useless_moron;废物;;;;;;;;;;x
 EVTDESC_MNM_9004;我的 [rumor_councillor.GetJobTitle]，[rumor_councillor.GetTitledFirstName]，给我给我带来了离奇的消息！显然，[rumor_councillor.GetSheHe] 发现了一个关于极特殊的手工制品的消息。[rumor_councillor.GetFirstName]的消息并不确定，但[rumor_councillor.GetSheHe]认为这些故事有一定真实性;;;;;;;;;;x
@@ -2041,9 +2041,9 @@ EVTDESC_MNM_4014;[Root.GetMOGreeting]，[Root.GetSocietyRank][Root.GetFirstName]
 EVTOPT_MNM_4014;我尽力了,[From.GetSocietyRank].;;;;;;;;;;x
 EVTDESC_MNM_4018;[Root.GetMOGreeting]，[Root.GetSocietyRank][Root.GetFirstName]\n\n我们很高兴地得知了你花费了大量的时间致力于神学之上。愿你在未来几年的研究生活中能够领悟一些新的见解。\n\n[Root.GetMOFarewell]，\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 EVTOPT_MNM_4018;[Root.Religion.GetScriptureName]将是我最重要的伙伴。;;;;;;;;;;x
-request_to_rank_up_within_society;要求升职;;;;;;;;;;x
-request_to_rank_up_within_society_desc;寄一封信给[Root.Society.GetName]的领导者，请求让你升职。;;;;;;;;;;x
-must_be_allowed_to_rank_up_tooltip;必须担任§Y[Root.GetSocietyRank]§!职位至少三年\n;;;;;;;;;;x
+request_to_rank_up_within_society;要求提升位阶;;;;;;;;;;x
+request_to_rank_up_within_society_desc;寄一封信给[Root.Society.GetName]的领导者，请求让你提升位阶。;;;;;;;;;;x
+must_be_allowed_to_rank_up_tooltip;必须担任§Y[Root.GetSocietyRank]§!位阶至少三年\n;;;;;;;;;;x
 must_not_have_sent_request_already_tooltip;不能已经在等待这个请求的答复\n;;;;;;;;;;x
 EVTDESC_MNM_10001_A;尊敬的[Root.GetSocietyRank] [Root.GetFirstName]，\n我特此授予您[Root.Society.GetName]内的下一个阶位的权限。\n\n此致，\n[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
 EVTOPTA_10001;这是我的荣幸;;;;;;;;;;x
@@ -3076,7 +3076,7 @@ SOCIETY_PLOT_IF;能够邀请社团成员假如;;;;;;;;;;x
 request_to_rank_up_within_society_currency_tt;拥有的§Y[Root.Society.GetCurrency]§!大于或等于[Root.GetSocietyRankUpTooltip1]\n;;;;;;;;;;x
 request_to_rank_up_within_society_vices_tt;[Root.GetSocietyRankUpTooltip3];;;;;;;;;;x
 request_to_rank_up_within_society_virtues_tt;[Root.GetSocietyRankUpTooltip4];;;;;;;;;;x
-request_to_rank_up_within_society_no_vices;必须没有罪恶的特质\n;;;;;;;;;;x
+request_to_rank_up_within_society_no_vices;必须没有恶习特质\n;;;;;;;;;;x
 COUNCIL_POSITION_HUMAN;§Y可能的内阁席位§!\n一位人类玩家的内阁席位是不可预料的。;;;;;;;;;;x
 COUNCIL_POSITION_SCORES;§YLikely Council Positions§!\n得分越高，角色选择所给内阁职位的可能性越大。请注意，内阁的实际委任可能会改变一些相关因素。.\n--------------;;;;;;;;;;x
 MOD_OPINION_OF;对$WHO|Y$的好感度乘以$FACTOR|Y$;;;;;;;;;;x
@@ -3297,7 +3297,7 @@ blessing_of_vetis;韦蒂什的祝福;;;;;;;;;;x
 blessing_of_vetis_desc;维提斯是圣灵的诱惑者，用一颗狡猾的心赐福于这个角色。;;;;;;;;;;x
 HIDDEN_MODIFIER_DESC;(隐藏在整个世界...);;;;;;;;;;x
 String_Mammon;玛门;;;;;;;;;;x
-String_Beelzebub;巴力西卜;;;;;;;;;;x
+String_Beelzebub;别西卜;;;;;;;;;;x
 String_Abaddon;亚巴顿;;;;;;;;;;x
 String_Belphegor;贝尔芬格;;;;;;;;;;x
 String_Asmodeus;阿斯蒙蒂斯;;;;;;;;;;x
@@ -5131,22 +5131,22 @@ EVTOPTB_MNM_1464;目标必须设定为增进我们土地的繁荣！;;;;;;;;;;x
 EVTOPTB_MNM_1464_TT;建议一项聚焦繁荣的工程\n;;;;;;;;;;x
 EVTOPTD_MNM_1464;最高尚的动机就是扩展我们对宇宙的认识;;;;;;;;;;x
 EVTOPTD_MNM_1464_TT;建议一项聚焦学术的工程\n;;;;;;;;;;x
-EVTDESC_MNM_1466;在我环顾桌子时，我注意到了[From.GetFirstName][From.GetSocietyRank]面带不悦。我们对视了几秒，然后，他挑衅地站了起来。「真的，[Root.GetHermeticInvention]？很抱歉，但你的建议似乎……毫无新意。纯属山寨。我建议我们应该把项目的焦点放在[From.GetHermeticInvention] 上。」;;;;;;;;;;x
+EVTDESC_MNM_1466;在我环顾桌子时，我注意到了[From.GetSocietyRank][From.GetFirstName]面带不悦。我们对视了几秒，然后，他挑衅地站了起来。「真的，[Root.GetHermeticInvention]？很抱歉，但你的建议似乎……毫无新意。纯属山寨。我建议我们应该把项目的焦点放在[From.GetHermeticInvention] 上。」;;;;;;;;;;x
 EVTOPTA_MNM_1466;你已经忽视了重要一点，[From.GetSocietyRank]……;;;;;;;;;;x
 EVTOPTA_MNM_1466_TT;在辩论中加入 §Y[From.GetTitledFirstName]§! \n;;;;;;;;;;x
 EVTOPTA_MNM_1466_SUCCESS_TT;你赢得了辩论。\n;;;;;;;;;;x
 EVTOPTA_MNM_1466_FAILURE_TT;你输掉了辩论。\n;;;;;;;;;;x
 EVTOPTB_MNM_1466;如果你认为那样最好，[From.GetSisterBrother];;;;;;;;;;x
-EVTOPTB_MNM_1466_TT;让§Y[From.GetTitledFirstName]§!用[From.GetHerHis]方式进行吧。每个人开始进行这个有着[From.GetHermeticInvention]焦点的项目吧。\n;;;;;;;;;;x
+EVTOPTB_MNM_1466_TT;让§Y[From.GetTitledFirstName]§!用[From.GetHerHis]方式进行吧。每个人开始进行这个有着[From.GetHermeticInvention]焦点的项目。\n;;;;;;;;;;x
 EVTOPTC_MNM_1466;我是主持人，决定在我的手中!;;;;;;;;;;x
-EVTOPTC_MNM_1466_TT;你强加了自己的想法。每个人都开始进行这个项目，聚焦在 [Root.GetHermeticInvention] 。\n;;;;;;;;;;x
+EVTOPTC_MNM_1466_TT;你强加了自己的想法。每个人开始进行这个有着[Root.GetHermeticInvention]焦点的项目。\n;;;;;;;;;;x
 EVTDESC_MNM_1467;当我环顾桌旁时，每个人都同意点头。「一个很好的建议，亲爱的[Root.GetSisterBrother]，」[great_minds_guest_1.GetSocietyRank][great_minds_guest_1.GetFirstName]欢呼，在[great_minds_guest_1.GetHerHis][great_minds_guest_1.GetFaceDescription]脸上露出宽广的笑容。「明天，我们将在日出之后开始首先处理这个事项。」;;;;;;;;;;x
-EVTOPTA_MNM_1467_TT;每个人都开始进行这个项目，聚焦在 [Root.GetHermeticInvention] 。\n;;;;;;;;;;x
+EVTOPTA_MNM_1467_TT;每个人开始进行这个有着[Root.GetHermeticInvention]焦点的项目。\n;;;;;;;;;;x
 EVTDESC_MNM_1468;正如我所怀疑的，[FromFrom.GetFirstName]的论点很薄弱。在我们辩论的时候，人们很清楚，[FromFrom.GetHerHis]的所有观点都是出于恶意和没来由的自我意识。最终，[FromFrom.GetSheHe]被迫承认了我的观点。;;;;;;;;;;x
 EVTOPTA_MNM_1468;现在这个小小的中断已经被处理了……;;;;;;;;;;x
 EVTDESC_MNM_1469;虽然我的想法更好，但是我的论点似乎让我失望了。至少其他人似乎并不相信他们。另一方面，[FromFrom.GetFirstName]证明[FromFrom.GetHerselfHimself]是一个真正的操纵大师！在一刻钟之内，我就知道自己被击败了。;;;;;;;;;;x
 EVTOPTA_MNM_1469;我们会按照你的方式去做，接着……;;;;;;;;;;x
-EVTOPTA_MNM_1469_TT;每个人都开始进行这个项目，聚焦在 [Root.GetHermeticInvention] 。\n;;;;;;;;;;x
+EVTOPTA_MNM_1469_TT;每个人开始进行这个有着[FromFrom.GetHermeticInvention]焦点的项目。\n;;;;;;;;;;x
 EVTDESC_MNM_1470;一天早晨，当我走进实验室的时候，我听到了激烈的争论声。[great_minds_guest_1.GetSocietyRank] [great_minds_guest_1.GetFirstName]和[great_minds_guest_2.GetSocietyRank] [great_minds_guest_2.GetFirstName]在一组草图上疯狂地比划。他们对这个项目的方向意见不一致。[great_minds_guest_1.GetFirstName]认为风险更高，但可能更有收获，而[great_minds_guest_2.GetFirstName]则希望保证安全。;;;;;;;;;;x
 EVTOPTA_MNM_1470;我同意[great_minds_guest_2.GetFirstName]的观点。安全胜过遗憾。;;;;;;;;;;x
 EVTOPTA_MNM_1470_TT;你将采取安全的选项\n;;;;;;;;;;x
@@ -5886,7 +5886,7 @@ EVTDESC_MNM_6001;愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]�
 EVTOPTA_MNM_1441_steal_text;你偷到了一份重要的赫尔墨斯文献。将添加到你的宝库。\n;;;;;;;;;;x
 EVTOPTA_MNM_1441_steal_ingredient;你偷到了一种炼金原材料。将添加到你的宝库。\n;;;;;;;;;;x
 assassins_scare_ruler_desc;在为阿萨辛执行任务时，§Y[From.GetTitledFirstName]§!已经熟练掌握了勒索和恐吓的技巧。[From.GetSheHeCap]可以利用这种经验恐吓§Y[Root.GetTitledFirstName]§!以便得到人情。;;;;;;;;;;x
-EVTDESC_MNM_6980;当我前几天遇到[From.GetTitledFirstName]时，我询问[From.GetHerHis] [From.GetMatterOfImportance]。当然[From.GetSheHeCap]似乎注意到了我含蓄的威胁，但[From.GetHerHis]反应并非是我所期望的。[From.GetFirstName]当着我的面大笑出来！;;;;;;;;;;x
+EVTDESC_MNM_6980;前几天遇到[From.GetTitledFirstName]时，我询问了[From.GetHerHis][From.GetMatterOfImportance]。当然[From.GetSheHeCap]似乎注意到了我含蓄的威胁，但[From.GetHerHis]反应并非是我所期望的。[From.GetFirstName]当着我的面大笑出来！;;;;;;;;;;x
 assassins_scare_ruler_fail;未能恐吓§Y[Root.GetTitledFirstName]§!\n;;;;;;;;;;x
 becomes_zunist_effect;§Y[This.GetTitledFirstName]§!成为尊日神教信徒。\n;;;;;;;;;;x
 EVTDESC_MNM_6950;我的目标，卑鄙的[FromFrom.GetTitledFirstName]已经死在了我的手中。[FromFrom.GetSheHeCap]得到了[fromFrom.GetSheHe]应得的结果。大团长会很高兴的。;;;;;;;;;;x
