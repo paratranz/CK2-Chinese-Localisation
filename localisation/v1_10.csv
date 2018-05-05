@@ -122,7 +122,7 @@ INTERACTION_REQUIRES_RECIPIENT_CAN_MARRY;§Y[Recipient.GetTitledFirstName]§! �
 INTERACTION_PREP_INV_ALREADY_TARGETTED;§Y[Recipient.GetTitledFirstName]§! 没有成为准备入侵的目标;;;;;;;;;;x
 INTERACTION_PREP_INV_ONLY_ONCE;§Y[Actor.GetTitledFirstName]§! 只能在 [Actor.GetPossPronoun]一生中发动一次准备入侵;;;;;;;;;;x
 MORAL_AUTHORITY_OF_RELIGION;§Y$RELIGION$§!信仰的宗教权威:§Y$AUTHORITY$%§!;;;;;;;;;;x
-EVTNAME670; _[Root.Religion.GetName]改革;;;;;;;;;;x
+EVTNAME670;_[Root.Religion.GetName]改革;;;;;;;;;;x
 EVTDESC670;古老的 [Root.Religion.GetName]宗教已经被证明无法抵御十字架与月亮的冲击.比起完全放弃旧模式，[Root.GetTitledName]跟一些最有势力的牧师已经决定对 [Root.Religion.GetName]信仰进行改革.随着新的礼拜式的编排，一部圣经跟在一个领导者领导下的教廷严格等级制度也面世了，他们希望通过对[Root.Religion.GetName]信仰的改革，可以更好地对抗外国宗教信仰!;;;;;;;;;;x
 EVTOPTA670;为了 [Root.Religion.GetRandomGodName]!;;;;;;;;;;x
 EVTOPTB670;迎接改革!;;;;;;;;;;x
@@ -132,8 +132,8 @@ NUM_CULTURE_REALM_PROVS_LESS;领土内少于§Y$NUM$§! 个§Y$CULTURE$§! 封�
 NUM_CULTURE_REALM_PROVS_MORE;领土内至少有§Y$NUM$§!§Y$CULTURE$§!个封国;;;;;;;;;;x
 NUM_TITLE_REALM_PROVS_LESS;小于§Y$TITLE$§! 领土内的§Y$NUM$§! 封国数目;;;;;;;;;;x
 NUM_TITLE_REALM_PROVS_MORE;§Y$TITLE$§! 领土内至少有§Y$NUM$§! 封国;;;;;;;;;;x
-d_norse_pagan_reformed;英雄王国 ;;;;;;;;;;x
-d_norse_pagan_reformed_adj;英雄王国 ;;;;;;;;;;x
+d_norse_pagan_reformed;英雄王国;;;;;;;;;;x
+d_norse_pagan_reformed_adj;英雄王国;;;;;;;;;;x
 d_baltic_pagan_reformed;洛姆瓦教团;;;;;;;;;;x
 d_baltic_pagan_reformed_adj;洛姆瓦教;;;;;;;;;;x
 d_slavic_pagan_reformed;斯拉夫多神教教团;;;;;;;;;;x
@@ -215,7 +215,7 @@ d_dregovichi;卓戈维奇;;;;;;;;;;x
 d_radimichi;吕迪米奇;;;;;;;;;;x
 c_viken_adj_norse;阿尔法斯;;;;;;;;;;x
 RAIDER_ARMY;入侵者;;;;;;;;;;x
-RAIDER_ARMY_NAME; $NAME$的入侵者;;;;;;;;;;x
+RAIDER_ARMY_NAME;$NAME$的入侵者;;;;;;;;;;x
 DEMESNE_TITLE_STARTS;任意持有头衔;;;;;;;;;;x
 truce_breaker;破坏停战协定者;;;;;;;;;;x
 create_hungary;建立匈牙利;;;;;;;;;;x
@@ -278,7 +278,7 @@ INTERACTION_IS_VALID_CONSORT;§Y[ThirdPartyCharacter.GetTitledFirstName]§! 可�
 INTERACTION_CANT_DOW_PREPARED_INVADER;§Y[Recipient.GetTitledFirstName]§! 没有准备入侵你;;;;;;;;;;x
 INTERACTION_PREP_INV_NO_TARGET;没有找到§Y[Recipient.GetTitledFirstName]§!控制着§Y$MIN$§!到§Y$MAX$§!之间地产的有效王国;;;;;;;;;;x
 INTERACTION_REQUIRES_RECIPIENT_NOT_DE_JURE_VASSAL;§Y[Recipient.GetTitledFirstName]§! 不是 [Actor.Religion.GetName]一个法理上的封臣;;;;;;;;;;x
-INTERACTION_PAGANS_CANNOT_DEMAND_CONVERSION; §Y[Actor.GetTitledFirstName]§! 不是一个未经改革的原始宗教;;;;;;;;;;x
+INTERACTION_PAGANS_CANNOT_DEMAND_CONVERSION;§Y[Actor.GetTitledFirstName]§! 不是一个未经改革的原始宗教;;;;;;;;;;x
 INTERACTION_PREP_INV_REQ_PRESTIGE;§Y[Actor.GetTitledFirstName]§! 至少要有 §Y$PRESTIGE$§! 威望;;;;;;;;;;x
 INTERACTION_PREP_INV_ATT_HOLDING_LIMIT;§Y[Actor.GetTitledFirstName]§!在此领地内不得超过§Y$NUM$§!个地产;;;;;;;;;;x
 REL_CONSORT;侍妾;;;;;;;;;;x
@@ -393,7 +393,7 @@ nick_the_stranger;陌生人;;;;;;;;;;x
 nick_the_stammerer;口吃者;;;;;;;;;;x
 nick_the_german;日耳曼人;;;;;;;;;;x
 nick_the_younger;年轻人;;;;;;;;;;x
-LOOTED_HOLDING; §R(洗劫一空)§!;;;;;;;;;;x
+LOOTED_HOLDING;§R(洗劫一空)§!;;;;;;;;;;x
 baron_norse_pagan;市民;;;;;;;;;;x
 baron_norse_pagan_reformed;市民;;;;;;;;;;x
 baron_norse;市民;;;;;;;;;;x
@@ -589,7 +589,7 @@ b_minori;米诺丽;;;;;;;;;;x
 b_turris_octava;托雷德尔格雷科;;;;;;;;;;x
 b_eboli;埃博丽;;;;;;;;;;x
 REFILL_HOLDING_LEVY;恢复§Y$HOLDING$§!内的征召兵。\n;;;;;;;;;;x
-CAPTURED_CLOSE_RELATIVE;$PERC$: 逮捕 §Y$CHAR$§! ;;;;;;;;;;x
+CAPTURED_CLOSE_RELATIVE;$PERC$: 逮捕 §Y$CHAR$§!;;;;;;;;;;x
 AIREASON_PREPARING_INVASION;准备入侵 §Y[GetTitledName]§!;;;;;;;;;;x
 INVASION_TARGET;入侵目标;;;;;;;;;;x
 IS_REBEL;是叛乱;;;;;;;;;;x
@@ -600,8 +600,8 @@ IS_TEMPORARY_TITLE;是临时头衔;;;;;;;;;;x
 ISNT_TEMPORARY_TITLE;不是临时头衔;;;;;;;;;;x
 CB_NAME_VIKING_INVASION;准备好入侵 [Title.GetBaseName];;;;;;;;;;x
 WAR_NAME_VIKING_INVASION;$ORDER$$FIRST_ADJ$ 准备好入侵 $OTHER_TITLE$;;;;;;;;;;x
-CB_NAME_PEASANT_CONQUEST; [Title.GetBaseName]农民叛乱;;;;;;;;;;x
-WAR_NAME_PEASANT_CONQUEST; $OTHER_TITLE$农民叛乱;;;;;;;;;;x
+CB_NAME_PEASANT_CONQUEST;[Title.GetBaseName]农民叛乱;;;;;;;;;;x
+WAR_NAME_PEASANT_CONQUEST;$OTHER_TITLE$农民叛乱;;;;;;;;;;x
 peasant_revolt_desc;农民领袖有时会反叛并试图将他们的村庄从压迫中「解放」出来 .;;;;;;;;;;x
 PEASANT_REVOLT;[Root.County.GetAdjective] 农民叛乱;;;;;;;;;;x
 CB_NAME_HERETIC_UPRISING;[Actor.Religion.GetName]叛乱;;;;;;;;;;x
@@ -679,7 +679,7 @@ TECH_MAPMODE_BUTTON_DRO;目前世界上的发展深蓝是最低等级的、白�
 TECH_MARTIAL_VALUE;基础军事科技点数成长;;;;;;;;;;x
 TECH_STEWARDSHIP_VALUE;基础经济科技点数成长;;;;;;;;;;x
 TECH_DIPLOMACY_VALUE;基础文化科技点数成长;;;;;;;;;;x
-TECH_POINTS_PER_MONTH; 点 / 月;;;;;;;;;;x
+TECH_POINTS_PER_MONTH;点 / 月;;;;;;;;;;x
 TECHPOINT_EFFECT;$DIRECTION$ $VALUE$ $TYPE$.\n;;;;;;;;;;x
 TECH_POINTS_PER_ATTRIBUTE;科技点每属性点;;;;;;;;;;x
 PARTIALLY_FILLED;研究能力;;;;;;;;;;x
@@ -714,11 +714,11 @@ LOOT_SHIP_RETURNED_SETUP;船只载着战利品返回;;;;;;;;;;x
 LOOT_SHIP_RETURNED_LOG;一只 $AMOUNT$ 舰队从突袭中返回. §Y$OWNER$§! 获得了 §Y$GOLD$§! 金钱和 §Y$PRESTIGE$§! 威望;;;;;;;;;;x
 LOOT_SHIP_RETURNED_AMOUNT_FULL;满仓的战利品;;;;;;;;;;x
 LOOT_SHIP_RETURNED_AMOUNT_EMPTY;丁点战利品;;;;;;;;;;x
-LOOT_CONSTRUCTION; $NAME$的建筑;;;;;;;;;;x
+LOOT_CONSTRUCTION;$NAME$的建筑;;;;;;;;;;x
 HOLDING_DESTROYED_BY_LOOTING_SETUP;领地被掠夺毁坏;;;;;;;;;;x
 HOLDING_DESTROYED_BY_LOOTING_LOG;掠夺者完全破坏了 $END$;;;;;;;;;;x
 HOLDING_DESTROYED_BY_LOOTING_FINISHED;$TYPE$  $NAME$ 在 $PROVINCE$;;;;;;;;;;x
-HOLDING_DESTROYED_BY_LOOTING_CONSTRUCTION; $TYPE$ 的建筑在 $PROVINCE$;;;;;;;;;;x
+HOLDING_DESTROYED_BY_LOOTING_CONSTRUCTION;$TYPE$ 的建筑在 $PROVINCE$;;;;;;;;;;x
 TRADE_POST_DESTROYED_BY_LOOTING_SETUP;贸易站被掠夺破坏了;;;;;;;;;;x
 TRADE_POST_DESTROYED_BY_LOOTING_LOG;掠夺者会破坏了在 $PROVINCE$的贸易站;;;;;;;;;;x
 LOOT_HOLDING;掠夺这块领地;;;;;;;;;;x
@@ -1009,7 +1009,7 @@ EVTOPTA_TOG_102;让围猎开始吧!;;;;;;;;;;x
 EVTDESC_TOG_103;捏儿格已经准备完毕	[From.GetTitle]的部队已经进驻到了指定地点! 你要同别人一同会列队前进	驱赶猎物并把它们赶入一片[From.GetTitle]指定的巨大空地.之后	一场盛大的屠戮就开始了.;;;;;;;;;;x
 EVTDESC_TOG_110;在指挥你的部队为捏儿格围猎而列队前进时	从旁边的草窠里窜出来一只狐狸	你的马惊了. 你被甩下了马鞍	当你醒来后你感觉你的胳膊剧痛无比然后发现它拐成了一个怪异的角度了. 貌似这场围猎对于你来说已经结束了.;;;;;;;;;;x
 EVTOPTA_TOG_110;真倒霉.;;;;;;;;;;x
-EVTDESC_TOG_111; [From.GetTitledFirstName]在指挥他的部队为捏儿格围猎而列队前进时	从旁边的草窠里窜出来一只狐狸	他的马惊了.他从马上甩了下来并把胳膊给摔断了.他的围猎已经结束了.;;;;;;;;;;x
+EVTDESC_TOG_111;[From.GetTitledFirstName]在指挥他的部队为捏儿格围猎而列队前进时	从旁边的草窠里窜出来一只狐狸	他的马惊了.他从马上甩了下来并把胳膊给摔断了.他的围猎已经结束了.;;;;;;;;;;x
 EVTOPTA_TOG_111;我们更有得玩喽.;;;;;;;;;;x
 EVTDESC_TOG_112;你的部队在将猎物驱赶向围猎场	但当他们在渡过一条小溪的时候	他们的战线同 [From.GetTitledFirstName]的部队撞到了一起! 你部队的阵列被彻底打乱了	当 [From.GetFirstName]当着你部下的面前指责你的时候	你打了他!;;;;;;;;;;x
 EVTOPTA_TOG_112;这个傲慢的笨蛋.;;;;;;;;;;x
@@ -1025,7 +1025,7 @@ EVTDESC_TOG_116;英明的 [Root.Liege.GetTitle]，[Root.Liege.GetHerHis]决定	�
 EVTOPTA_TOG_116;让我们以此结束这件事吧……;;;;;;;;;;x
 EVTDESC_TOG_117;你在行军的路上在一片空地里遇见了一头体格巨大的雄鹿	你想都没想就拈弓搭箭	朝它射了出去	雄鹿应声倒地.但正因为如此	你遇上大麻烦了	因为在驱赶猎物阶段是不允许射杀任何猎物的.;;;;;;;;;;x
 EVTOPTA_TOG_117;糟了.;;;;;;;;;;x
-EVTDESC_TOG_118; [From.GetTitledFirstName] 在率军行进途中射死了一头雄鹿. 这是不能容忍的.依照传统	在捏儿格的包围圈彻底完成之前不能射杀任何动物. 这种严重违纪行为必须受到惩罚.;;;;;;;;;;x
+EVTDESC_TOG_118;[From.GetTitledFirstName] 在率军行进途中射死了一头雄鹿. 这是不能容忍的.依照传统	在捏儿格的包围圈彻底完成之前不能射杀任何动物. 这种严重违纪行为必须受到惩罚.;;;;;;;;;;x
 EVTOPTA_TOG_118;惩罚那个笨蛋!;;;;;;;;;;x
 EVTOPTB_TOG_118;训诫就足够了.;;;;;;;;;;x
 EVTDESC_TOG_150;成群惊恐的猎物被你的部队赶入了指定的区域并被包围了起来.作为 [Root.GetTitle]	你和你的侍从们将首先参与进这场围猎之中. 只有你的围猎结束后，你的臣属们才有权开始他们的狩猎.;;;;;;;;;;x
@@ -1078,7 +1078,7 @@ EVTDESC_TOG_601;你英明的主君	[From.GetTitledFirstName]	召唤你及[From.G
 EVTOPTA_TOG_601;我可不想误了这等好事.;;;;;;;;;;x
 EVTDESC_TOG_602;你的主君	[From.GetTitledFirstName]	于[From.GetHerHis]错误的信仰中不能自拔	现在[From.GetSheHe]召唤[From.GetHerHis]所有的臣属[From.GetSheHe]打算向[From.GetHerHis]异端邪神献祭.由于你无意参加这等亵渎之事	你将为此支付贡金来免除参与他们的祭典.;;;;;;;;;;x
 EVTOPTA_TOG_602;我没有选择的余地.;;;;;;;;;;x
-EVTOPTB_TOG_602; [This.Religion.GetRandomGodNameCap] 在上	我不会为异端邪神付钱!;;;;;;;;;;x
+EVTOPTB_TOG_602;[This.Religion.GetRandomGodNameCap] 在上	我不会为异端邪神付钱!;;;;;;;;;;x
 EVTTOOLTIP_TOG_603;你的贡金上交了.;;;;;;;;;;x
 EVTDESC_TOG_603;你的臣属[From.GetTitledFirstName]顽固地宣扬[From.GetHerHis]所信仰之神[From.Religion.GetRandomGodNameCap]的神圣	但[From.GetSheHe]很明智地决定想你提供一笔贡金来免除参与祭典的义务.;;;;;;;;;;x
 EVTOPTA_TOG_603;以[From.GetSheHe]所愿.;;;;;;;;;;x
@@ -1088,7 +1088,7 @@ EVTOPTA_TOG_636;我不会忘记如此之亵渎.;;;;;;;;;;x
 EVTDESC_TOG_604;客人们已经来	你们聚集在圣殿之外	献上动物以为神之牺牲. 它们的血将浇在奥丁	托尔	芙蕾娅以及其他众神的神像之上	以及献祭众人自己的身上. 那些动物的肉则会成为之后宴会的食材.;;;;;;;;;;x
 EVTOPTA_TOG_604;下面是人祭的时候啦……;;;;;;;;;;x
 EVTDESC_TOG_605;[From.GetTitledFirstName]主持的祭典开始啦! 你们聚集在圣殿之外	献上动物以为神之牺牲. 它们的血将浇在奥丁	托尔	芙蕾娅以及其他众神的神像之上	以及献祭众人自己的身上. 那些动物的肉则会成为之后宴会的食材.;;;;;;;;;;x
-EVTDESC_TOG_606;虽然你之前听到了一点风声	但地牢外的嘈杂声告诉你	抓到你的[Root.Host.GetTitledFirstName]， [Root.Host.GetSheHe]正在举办一场祭典并准备为[Root.Host.GetHerHis]信仰之神献上牺牲. 卫兵突然冲进了你的牢房并把你拖到了大庙外的绞架上... ;;;;;;;;;;x
+EVTDESC_TOG_606;虽然你之前听到了一点风声	但地牢外的嘈杂声告诉你	抓到你的[Root.Host.GetTitledFirstName]，[Root.Host.GetSheHe]正在举办一场祭典并准备为[Root.Host.GetHerHis]信仰之神献上牺牲. 卫兵突然冲进了你的牢房并把你拖到了大庙外的绞架上...;;;;;;;;;;x
 EVTOPTA_TOG_606;不!不要这样!;;;;;;;;;;x
 EVTDESC_TOG_610;[From.GetTitledFirstName] 已经从你的地牢里押往圣殿. 绞索已经套到了[From.GetHerHis]脖子上	绳子则已经摆到了附近的一颗结实的橡树的旁边. 此时	[From.GetFirstName]脚下出现一个黄色的小水泡（尿了）.;;;;;;;;;;x
 EVTOPTA_TOG_610;众神之神	我们在此为您献上牺牲……;;;;;;;;;;x
@@ -1144,14 +1144,14 @@ EVTOPTA_TOG_634;总比什么都没有强.;;;;;;;;;;x
 EVTDESC_TOG_635;因为 [From.GetTitledFirstName] 在[From.GetHerHis] 的地牢没有合适的祭品，你的领主必须从买到的这种随机挑选出来一些来作为代替品.他们被带到神庙外的橡树旁.不久，他们的遗体就歪歪斜斜地吊在大树的枝桠上面了.;;;;;;;;;;x
 EVTOPTA_TOG_635;我觉得总比什么都没有强.;;;;;;;;;;x
 EVTTOOLTIP_TOG_637;暂缓执行死刑;;;;;;;;;;x
-EVTDESC_TOG_637;正当你的脖子被套上项圈发抖的时候， [From.GetTitledFirstName]似乎突然改变了主意.项圈被拿了下来，你被拉回了地牢内.看起来你又能多活一天了.;;;;;;;;;;x
+EVTDESC_TOG_637;正当你的脖子被套上项圈发抖的时候，[From.GetTitledFirstName]似乎突然改变了主意.项圈被拿了下来，你被拉回了地牢内.看起来你又能多活一天了.;;;;;;;;;;x
 EVTOPTA_TOG_637;我…怎么….什么！;;;;;;;;;;x
 EVTDESC_TOG_640;祭祀结束后宴会就可以开始了，一盘盘早就准备好的肉被端了上来.当然，宴会还准备了许多珍藏的蜂蜜酒.;;;;;;;;;;x
 EVTOPTA_TOG_640;开始庆祝吧！;;;;;;;;;;x
 EVTOPTA_TOG_641;是时候了!;;;;;;;;;;x
 EVTDESC_TOG_642;宴会结束了，下次举行最少要等到九年后吧.毫无疑问整个仪式相当成功，你的封臣们回家后都表示不虚此行.;;;;;;;;;;x
 EVTOPTA_TOG_642;下次再见!;;;;;;;;;;x
-EVTDESC_TOG_643; 宴会结束了，下次参加至少要等到九年后.当你和其他封臣回家之后，大部分人都同意整个祭祀仪式相当成功，真是不虚此行.;;;;;;;;;;x
+EVTDESC_TOG_643;宴会结束了，下次参加至少要等到九年后.当你和其他封臣回家之后，大部分人都同意整个祭祀仪式相当成功，真是不虚此行.;;;;;;;;;;x
 EVTDESC_TOG_650;宴会给你提供了上好的蜂蜜酒，它的诱惑实在是太大了.你尽了最大的力量让自己精神上保持冷静，可是…;;;;;;;;;;x
 EVTOPTA_TOG_650;*hic* 再…再来一杯…;;;;;;;;;;x
 EVTDESC_TOG_651;[From.GetTitledFirstName]喝的太多了	[From.GetSheHe]现在已经喝高了	[From.GetSheHe] 再喝就连站都站不起来了 [From.GetHerHis]的身边全是空酒瓶，[From.GetFirstName]在盛宴面前倒下了;;;;;;;;;;x
@@ -1166,9 +1166,9 @@ EVTDESC_TOG_655;[From.GetTitledFirstName]贪婪的把桌上的佳肴装进[From.
 EVTOPTA_TOG_655;那本有可能是我……;;;;;;;;;;x
 EVTDESC_TOG_656;当你享受你的晚宴之时，你的身边环绕的都是温暖而善良的人们.但这显得有点过于温暖了， 你脱下了衣服，在桌上跳了起来，着火了！你用尽力气呼喊，挥舞着你的双臂，其他人还在一头雾水之中…;;;;;;;;;;x
 EVTOPTA_TOG_656;放我出去！放我出去！;;;;;;;;;;x
-EVTDESC_TOG_657; 当你享受你的晚宴之时，房间的另一头突然传来一阵尖利的叫声，这吸引力了你的注意力.一丝不挂的[From.GetTitledFirstName] 绕着桌子乱跑，挥舞着[From.GetHerHis] 的手臂，高呼 [From.GetSheHe] 着火了. 你用手捂住了你的脸.;;;;;;;;;;x
+EVTDESC_TOG_657;当你享受你的晚宴之时，房间的另一头突然传来一阵尖利的叫声，这吸引力了你的注意力.一丝不挂的[From.GetTitledFirstName] 绕着桌子乱跑，挥舞着[From.GetHerHis] 的手臂，高呼 [From.GetSheHe] 着火了. 你用手捂住了你的脸.;;;;;;;;;;x
 EVTOPTA_TOG_657;这是个疯子;;;;;;;;;;x
-EVTOPTB_TOG_657; [From.GetSheHe] 也是! 我…也是!啊哈哈哈哈哈!!!!!!;;;;;;;;;;x
+EVTOPTB_TOG_657;[From.GetSheHe] 也是! 我…也是!啊哈哈哈哈哈!!!!!!;;;;;;;;;;x
 EVTDESC_TOG_658;有一个侍女从你到场之后就一直在看着你.喝了许多酒之后，你的手抓住了她，她也回应了你.你们脱光了衣服，开始进行爱的互动.正当你愉悦的时候，你突然发现自己在众目睽睽之下…;;;;;;;;;;x
 EVTOPTA_TOG_658;额……;;;;;;;;;;x
 EVTOPTB_TOG_658;[Root.Spouse.GetFirstName]会不高兴的...…;;;;;;;;;;x
@@ -1196,13 +1196,13 @@ opinion_homosexual_sympathy;对性取向深表同情;;;;;;;;;;x
 opinion_ukon_juhla;庆祝乌戈节;;;;;;;;;;x
 opinion_uzgavenes;庆祝乌兹加维节;;;;;;;;;;x
 hold_ukon_juhla;举办乌戈节宴会;;;;;;;;;;x
-hold_ukon_juhla_desc; 举办乌戈节宴会以庆祝即将到来的夏天，向天空及谷物之神乌戈献上祭品.;;;;;;;;;;x
+hold_ukon_juhla_desc;举办乌戈节宴会以庆祝即将到来的夏天，向天空及谷物之神乌戈献上祭品.;;;;;;;;;;x
 prepare_ukon_juhla;你开始着手准备乌戈节宴会.;;;;;;;;;;x
 EVTDESC_TOG_700;我们已经向封臣们发出了参加今年夏天乌戈节的邀请函.你希望让神灵和参加的宾客们都能在很多年内记住这次节日，这个宴会.;;;;;;;;;;x
 EVTOPTA_TOG_700;开始准备吧.;;;;;;;;;;x
 EVTTOOLTIP_TOG_701;邀请已经送出去了;;;;;;;;;;x
 EVTDESC_TOG_701;你的领主[From.GetTitledFirstName]邀请你去[From.GetHerHim]那里庆祝今年夏天的乌戈节.你将庆祝夏季的来临，向天空及谷物之神乌戈提供祭品.;;;;;;;;;;x
-EVTOPTA_TOG_701;我会去的 ;;;;;;;;;;x
+EVTOPTA_TOG_701;我会去的;;;;;;;;;;x
 EVTOPTB_TOG_701;这种没意思的活动我才不去呢.;;;;;;;;;;x
 EVTDESC_TOG_702;[From.GetTitledFirstName]拒绝了你参加乌戈节的提议！很明显，[From.GetSheHe]根本就不相信乌戈，久米以及其他的神灵，而是去相信什么外国的宗教去了！;;;;;;;;;;x
 EVTOPTA_TOG_702;愚蠢的错误;;;;;;;;;;x
@@ -1211,55 +1211,55 @@ EVTOPTA_TOG_703;我们崇拜你，乌戈;;;;;;;;;;x
 EVTDESC_TOG_704;乌戈节终于快要到了.夏天的时候黑夜很短，但夜幕降临的时候，你的领主点燃的篝火照亮了整个森林.篝火中最大的被称作乌戈之火，这是为了乌戈神的荣耀，并祈求来年能有丰富的收成.;;;;;;;;;;x
 EVTDESC_TOG_705;在温暖的夏天夜里，篝火照亮着外面的树木，你把你的封臣们聚集起来，准备享受你的仆人们准备的大餐.;;;;;;;;;;x
 EVTOPTA_TOG_705;来！一起喝酒！;;;;;;;;;;x
-EVTDESC_TOG_706; 在温暖的夏天夜里，篝火照亮着外面的树木，领主把你和[From.GetHerHis]封臣们聚集起来，准备享受[From.GetSheHe]准备的大餐.;;;;;;;;;;x
+EVTDESC_TOG_706;在温暖的夏天夜里，篝火照亮着外面的树木，领主把你和[From.GetHerHis]封臣们聚集起来，准备享受[From.GetSheHe]准备的大餐.;;;;;;;;;;x
 EVTDESC_TOG_707;篝火已经烧完了，宴会也就要结束了.你的封臣们一一准备回家，他们中的绝大多数都觉得这次乌戈节宴会真是不虚此行.;;;;;;;;;;x
 EVTOPTA_TOG_707;下次再来！;;;;;;;;;;x
-EVTDESC_TOG_708; 篝火已经烧完了，宴会也就要结束了.你和其他封臣们开始准备回家，你们都觉得来参加这次乌戈节真是不虚此行.;;;;;;;;;;x
-hold_uzgavenes; 庆祝乌兹加维节;;;;;;;;;;x
-hold_uzgavenes_desc; 乌兹加维节一般在春季，这是为了庆祝冬天的结束和夏天的开始.;;;;;;;;;;x
+EVTDESC_TOG_708;篝火已经烧完了，宴会也就要结束了.你和其他封臣们开始准备回家，你们都觉得来参加这次乌戈节真是不虚此行.;;;;;;;;;;x
+hold_uzgavenes;庆祝乌兹加维节;;;;;;;;;;x
+hold_uzgavenes_desc;乌兹加维节一般在春季，这是为了庆祝冬天的结束和夏天的开始.;;;;;;;;;;x
 prepare_uzgavenes;你开始为乌兹加维节做准备.;;;;;;;;;;x
-EVTDESC_TOG_750; 我们已经向封臣们发出了参加今年春天乌兹加维节的邀请函.你希望让神灵和参加的宾客们都能在很多年内记住这次节日，这个宴会.;;;;;;;;;;x
+EVTDESC_TOG_750;我们已经向封臣们发出了参加今年春天乌兹加维节的邀请函.你希望让神灵和参加的宾客们都能在很多年内记住这次节日，这个宴会.;;;;;;;;;;x
 EVTTOOLTIP_TOG_751;乌兹加维节的请柬已经发出去了.;;;;;;;;;;x
 EVTDESC_TOG_751;你的领主[From.GetTitledFirstName]邀请你参加今年春天参加[From.GetHerHim] 主持的乌兹加维节.你庆祝夏天的来临，冬之神拉西尼尼斯被打败，我们迎来了春天之神卡纳皮尼斯.;;;;;;;;;;x
-EVTDESC_TOG_752;[From.GetTitledFirstName]拒绝了参加乌兹加维节的提议！很明显， [From.GetSheHe]根本就不相信春之神，冬之神以及其他的神灵，而是接受了一些奇奇怪怪的外国信仰！;;;;;;;;;;x
+EVTDESC_TOG_752;[From.GetTitledFirstName]拒绝了参加乌兹加维节的提议！很明显，[From.GetSheHe]根本就不相信春之神，冬之神以及其他的神灵，而是接受了一些奇奇怪怪的外国信仰！;;;;;;;;;;x
 EVTDESC_TOG_753;你的封臣们已经到了，乌兹加维节的具体时间现在取决于我们.我们烧掉了一个代表冬之神的雕像，在舞台上演了春之神卡纳皮尼斯和冬之神拉西尼尼斯之间的决斗.让观众们高兴的是，卡纳皮尼斯每次都能获得最终的胜利.;;;;;;;;;;x
 EVTOPTA_TOG_753;接招吧，拉西尼尼斯！;;;;;;;;;;x
 EVTDESC_TOG_754;乌兹嘉维纳斯节终于到了. 随着代表冬季的巨大人像被烧毁	人们表演着冬之精灵拉希尼尼斯与春之精灵卡纳皮尼斯之间的战斗. 人们为卡纳皮尼斯那不出意料的胜利而欢呼.;;;;;;;;;;x
 EVTDESC_TOG_755;冬之雕像继续熊熊燃烧，夏天的脚步越来越快，你和你的封臣们开始准备参加晚宴了！;;;;;;;;;;x
-EVTDESC_TOG_756; 冬之雕像继续熊熊燃烧，夏天的脚步越来越快，你和你的领主和 [From.GetHerHis]其他的封臣们已经要准备享受[From.GetSheHe]准备的晚宴了！;;;;;;;;;;x
+EVTDESC_TOG_756;冬之雕像继续熊熊燃烧，夏天的脚步越来越快，你和你的领主和 [From.GetHerHis]其他的封臣们已经要准备享受[From.GetSheHe]准备的晚宴了！;;;;;;;;;;x
 EVTDESC_TOG_757;雕像已经烧完了，拉西尼尼斯之神已经被打败了，宴会也结束了.你的封臣们一个个回家了，他们中的绝大多数都觉得这次节日真是不虚此行.;;;;;;;;;;x
-EVTDESC_TOG_758; 雕像已经烧完了，拉西尼尼斯之神已经被打败了，宴会也结束了.你和其他的封臣们都回去了，你们都觉得这次节日真是不虚此行.;;;;;;;;;;x
-opinion_refused_blot; 拒绝参加祭祀;;;;;;;;;;x
-opinion_refused_ukon_juhla; 拒绝参加乌戈节;;;;;;;;;;x
-opinion_refused_uzgavenes; 拒绝参加乌兹加维节;;;;;;;;;;x
-convert_to_swedish; 接收瑞典文化;;;;;;;;;;x
-convert_to_swedish_desc; 我们的挪威和丹麦兄弟开始接受越来越多的外来习俗，口音也是越来越重了.也许我们也该发展些我们自己的文化了.;;;;;;;;;;x
+EVTDESC_TOG_758;雕像已经烧完了，拉西尼尼斯之神已经被打败了，宴会也结束了.你和其他的封臣们都回去了，你们都觉得这次节日真是不虚此行.;;;;;;;;;;x
+opinion_refused_blot;拒绝参加祭祀;;;;;;;;;;x
+opinion_refused_ukon_juhla;拒绝参加乌戈节;;;;;;;;;;x
+opinion_refused_uzgavenes;拒绝参加乌兹加维节;;;;;;;;;;x
+convert_to_swedish;接收瑞典文化;;;;;;;;;;x
+convert_to_swedish_desc;我们的挪威和丹麦兄弟开始接受越来越多的外来习俗，口音也是越来越重了.也许我们也该发展些我们自己的文化了.;;;;;;;;;;x
 convert_to_norwegian;归附挪威文化;;;;;;;;;;x
-convert_to_norwegian_desc; 我们的瑞典和丹麦兄弟开始接受越来越多的外来习俗，口音也是越来越重了.也许我们也该发展些我们自己的文化了.;;;;;;;;;;x
+convert_to_norwegian_desc;我们的瑞典和丹麦兄弟开始接受越来越多的外来习俗，口音也是越来越重了.也许我们也该发展些我们自己的文化了.;;;;;;;;;;x
 convert_to_danish;接受丹麦文化;;;;;;;;;;x
-convert_to_danish_desc; 我们的挪威和瑞典兄弟开始接受越来越多的外来习俗，口音也是越来越重了.也许我们也该发展些我们自己的文化了.;;;;;;;;;;x
+convert_to_danish_desc;我们的挪威和瑞典兄弟开始接受越来越多的外来习俗，口音也是越来越重了.也许我们也该发展些我们自己的文化了.;;;;;;;;;;x
 convert_to_norman;接受诺曼文化;;;;;;;;;;x
 convert_to_norman_desc;会说我们祖先的语言的人越来越少，但是我们并没有忘记过去的习俗.他们给了我们一个新的名字：「诺曼人」.;;;;;;;;;;x
-EVTDESC_TOG_2000; [Root.GetName]的人们发展了他们自己的语言和习俗，现在他们已经可以看成维京人分化出来的一个新的族群了.他们自称瑞典人.;;;;;;;;;;x
+EVTDESC_TOG_2000;[Root.GetName]的人们发展了他们自己的语言和习俗，现在他们已经可以看成维京人分化出来的一个新的族群了.他们自称瑞典人.;;;;;;;;;;x
 EVTOPTA_TOG_2000;我很想知道他们接下来会怎么改变;;;;;;;;;;x
 EVTOPTB_TOG_2000;我来自瑞典的兄弟姐妹们，欢迎你们.;;;;;;;;;;x
-EVTDESC_TOG_2001; [Root.GetName]的人们发展了他们自己的语言和习俗，现在他们已经可以看成维京人分化出来的一个新的族群了.他们自称挪威人.;;;;;;;;;;x
-EVTOPTA_TOG_2001; 我很想知道他们接下来会怎么改变;;;;;;;;;;x
-EVTOPTB_TOG_2001; 我来自挪威的兄弟姐妹们，欢迎你们.;;;;;;;;;;x
-EVTDESC_TOG_2002; [Root.GetName]的人们发展了他们自己的语言和习俗，现在他们已经可以看成维京人分化出来的一个新的族群了.他们自称丹麦人.;;;;;;;;;;x
-EVTOPTA_TOG_2002; 我很想知道他们接下来会怎么改变;;;;;;;;;;x
-EVTOPTB_TOG_2002; 我来自丹麦的兄弟姐妹们，欢迎你们.;;;;;;;;;;x
-EVTDESC_TOG_2003; [Root.GetName]的人们发展了他们自己的语言和习俗，现在他们已经可以看成维京人分化出来的一个新的族群了.他们自称诺曼人;;;;;;;;;;x
-EVTOPTA_TOG_2003; 我很想知道他们接下来会怎么改变;;;;;;;;;;x
-EVTOPTB_TOG_2003; 我的诺曼兄弟姐妹们，欢迎你们.;;;;;;;;;;x
+EVTDESC_TOG_2001;[Root.GetName]的人们发展了他们自己的语言和习俗，现在他们已经可以看成维京人分化出来的一个新的族群了.他们自称挪威人.;;;;;;;;;;x
+EVTOPTA_TOG_2001;我很想知道他们接下来会怎么改变;;;;;;;;;;x
+EVTOPTB_TOG_2001;我来自挪威的兄弟姐妹们，欢迎你们.;;;;;;;;;;x
+EVTDESC_TOG_2002;[Root.GetName]的人们发展了他们自己的语言和习俗，现在他们已经可以看成维京人分化出来的一个新的族群了.他们自称丹麦人.;;;;;;;;;;x
+EVTOPTA_TOG_2002;我很想知道他们接下来会怎么改变;;;;;;;;;;x
+EVTOPTB_TOG_2002;我来自丹麦的兄弟姐妹们，欢迎你们.;;;;;;;;;;x
+EVTDESC_TOG_2003;[Root.GetName]的人们发展了他们自己的语言和习俗，现在他们已经可以看成维京人分化出来的一个新的族群了.他们自称诺曼人;;;;;;;;;;x
+EVTOPTA_TOG_2003;我很想知道他们接下来会怎么改变;;;;;;;;;;x
+EVTOPTB_TOG_2003;我的诺曼兄弟姐妹们，欢迎你们.;;;;;;;;;;x
 berserker;狂战士;;;;;;;;;;x
 berserker_desc;狂战士这种人会在战斗中进入完全的癫狂状态，对于敌人完全无所畏惧.;;;;;;;;;;x
 opinion_went_berserk;进入发狂状态;;;;;;;;;;x
 EVTDESC_TOG_3000;战场上，敌人越来越近了，于是无法控制的愤怒吞噬了你，你一口咬在盾牌上，几乎想要吞噬它.接着，愤怒的你举起了大斧向敌人的阵列砍去.懦夫们一看到你就开始逃跑，但是你手中的大斧早就饥渴难耐了.;;;;;;;;;;x
-EVTOPTA_TOG_3000; 让我…再杀一个人…;;;;;;;;;;x
-EVTDESC_TOG_3001; 狂战士之怒下嗜血的你用斧头劈开了另一个敌人的头骨.当你想杀掉更多的人时，你突然注意到有一只长矛刺穿了你的大腿.;;;;;;;;;;x
+EVTOPTA_TOG_3000;让我…再杀一个人…;;;;;;;;;;x
+EVTDESC_TOG_3001;狂战士之怒下嗜血的你用斧头劈开了另一个敌人的头骨.当你想杀掉更多的人时，你突然注意到有一只长矛刺穿了你的大腿.;;;;;;;;;;x
 EVTOPTA_TOG_3001;就是个新的伤口而已么……;;;;;;;;;;x
-EVTDESC_TOG_3002; ;;;;;;;;;;x
+EVTDESC_TOG_3002;Consumed by bloodlust and shaking with berserker rage, you cleave the skull of yet another foe with your axe. That was a worthy opponent, and only when you turn to seek more fodder for your axe do you notice the long arrow impaling your thigh.;;;;;;;;;;x
 EVTDESC_TOG_3003;狂战士之怒使你脱离了部队，被敌人环绕.当你的大斧砍向最近的敌人之时，一只箭射进了你的简报，而另外两只命中了你的胸膛.你把盾牌扔开，双手握住斧头，劈开了另一个敌人的头颅.不久，一队敌人像狗一样，开始拼命讨好你.;;;;;;;;;;x
 EVTOPTA_TOG_3003;今天是个杀人的好日子……;;;;;;;;;;x
 EVTDESC_TOG_3004;你的眼前变成了红色，忘记了自己的安危.离你最近的伙伴向你呼喊坚持下去，于是你完全被狂战士之怒所唾沫，用大斧在敌人的阵列中划下了一道深深的痕迹.战斗结束之后，他们发现你站在半打敌人的尸体上.;;;;;;;;;;x
@@ -1283,30 +1283,30 @@ EVTNAME_TOG_3100;瓦兰吉卫队;;;;;;;;;;x
 EVTDESC_TOG_3100;从极北地区沿着河流航行到黑海的瓦兰吉劫掠者已经被证明是可怕的战士. 你成功雇佣了很多瓦兰吉人作为你的卫兵	他们只对[Root.GetTitle]效忠.\n\n这支新组建的瓦兰吉卫队不仅将成为一支威慑帝国敌人们的强大力量	而且他们的外国出身使他们不会同[Root.Capital.GetName]常见的宫廷阴谋和权力斗争牵涉太深.;;;;;;;;;;x
 EVTOPTA_TOG_3100;他们是很好的仆人.;;;;;;;;;;x
 EVTDESC_TOG_3101;[From.GetFirstName]，罗马人的皇帝，非常担心他的子民们糟糕的精神状态.对国民战斗能力有着深刻理解的他决定组建一支只由维京人战士组成的卫队.\n\n在君士坦丁堡向他效忠的人们获得了很高的报酬，现在我们中的很多向往财富和冒险的年轻人，已经在前往希腊的途中，梦想着举起他们的旗帜了.;;;;;;;;;;x
-EVTOPTA_TOG_3101; 希望他们能够得到他们想要的.;;;;;;;;;;x
+EVTOPTA_TOG_3101;希望他们能够得到他们想要的.;;;;;;;;;;x
 EVTDESC_TOG_3110;你的儿子[From.GetTitledFirstName]已经决定试试运气，去应征瓦兰吉卫队了！毫无疑问他能够通过效忠于希腊的国王得到财富和战场上的宝贵经验，但这也是一种冒险，一不小心就会把命搭进去。;;;;;;;;;;x
 EVTOPTA_TOG_3110;我不允许！;;;;;;;;;;x
-EVTOPTB_TOG_3110; 去君士坦丁堡吧，儿子.我为你骄傲.;;;;;;;;;;x
+EVTOPTB_TOG_3110;去君士坦丁堡吧，儿子.我为你骄傲.;;;;;;;;;;x
 EVTDESC_TOG_3112;今天一个头发花白的老兵带着[From.GetTitledFirstName]的信息回来了。尽管已经离开了瓦兰吉卫队，但你的儿子已经找了一个希腊人妻子，决定留在君士坦丁堡开始新生活。不知道你们以后还能不能再见面了。;;;;;;;;;;x
 EVTOPTA_TOG_3112;我的孩子……;;;;;;;;;;x
-EVTDESC_TOG_3113;完成了瓦兰吉卫队的服役之后， [From.GetTitledFirstName]和一个当地的妇女结了婚，决定不再回到遥远，冰冷而野蛮的北国故土，而是留在君士坦丁堡。他希望继续为你效劳。;;;;;;;;;;x
+EVTDESC_TOG_3113;完成了瓦兰吉卫队的服役之后，[From.GetTitledFirstName]和一个当地的妇女结了婚，决定不再回到遥远，冰冷而野蛮的北国故土，而是留在君士坦丁堡。他希望继续为你效劳。;;;;;;;;;;x
 EVTOPTA_TOG_3113;非常好;;;;;;;;;;x
-EVTDESC_TOG_3115; 一个满身伤痕的带甲战士缓缓地接近在王座上的你.在他卸下装备之前，这个陌生人极其熟练地将你的护卫手上的长矛夺了过来，并丢在一边.其他护卫匆忙赶了上来，但是你伸出手制止了他们.这个人是[From.GetTitledFirstName]	他从希腊回来了！;;;;;;;;;;x
+EVTDESC_TOG_3115;一个满身伤痕的带甲战士缓缓地接近在王座上的你.在他卸下装备之前，这个陌生人极其熟练地将你的护卫手上的长矛夺了过来，并丢在一边.其他护卫匆忙赶了上来，但是你伸出手制止了他们.这个人是[From.GetTitledFirstName]	他从希腊回来了！;;;;;;;;;;x
 EVTOPTA_TOG_3115;[From.GetFirstName]！你…变了！;;;;;;;;;;x
 EVTDESC_TOG_3117;你的儿子[From.GetTitledFirstName]完成了他在瓦兰吉卫队的服役，已经归来！ 尽管你还没有完全弄明白究竟是怎么回事，但他看起来变了很多……他刚才提到的这个希腊词是什么意思？;;;;;;;;;;x
-EVTOPTA_TOG_3117; 不管怎么样，他回来了，我非常高兴！;;;;;;;;;;x
-EVTDESC_TOG_3119; 一个憔悴的，穿着长袍的人被带到了你的房间.护卫说他刚乘船从君士坦丁堡回来.他只是一遍又一遍重复着你的名字，所以他被送回来了.你惊讶地发现，他居然是 [From.GetTitledFirstName]！;;;;;;;;;;x
+EVTOPTA_TOG_3117;不管怎么样，他回来了，我非常高兴！;;;;;;;;;;x
+EVTDESC_TOG_3119;一个憔悴的，穿着长袍的人被带到了你的房间.护卫说他刚乘船从君士坦丁堡回来.他只是一遍又一遍重复着你的名字，所以他被送回来了.你惊讶地发现，他居然是 [From.GetTitledFirstName]！;;;;;;;;;;x
 EVTOPTA_TOG_3119;[From.GetFirstName]，他们对你做了什么！;;;;;;;;;;x
 EVTDESC_TOG_3121;[From.GetTitledFirstName]在漫长而成功的瓦兰吉卫队生活之后光荣回家了！他参加了好几场战斗，从希腊人和阿拉伯人那里学到了大量的战略和战术技巧。;;;;;;;;;;x
-EVTOPTA_TOG_3121; [From.GetFirstName]，说说你参加过的战斗吧……;;;;;;;;;;x
+EVTOPTA_TOG_3121;[From.GetFirstName]，说说你参加过的战斗吧……;;;;;;;;;;x
 EVTDESC_TOG_3123;[From.GetTitledFirstName]从希腊的瓦兰吉卫队回来了，但他不愿意提及他过去的经历。你知道他参加过好几次战斗，杀了不少敌军，但他并没有陶醉于他所取得的成就，相反，[From.GetFirstName]每天都生活在噩梦之中，稍有响声就会惊醒。;;;;;;;;;;x
 EVTOPTA_TOG_3123;好奇怪……;;;;;;;;;;x
 EVTDESC_TOG_3125;[From.GetTitledFirstName]结束了瓦兰吉卫队的生活，从君士坦丁堡回来了，但他不是一个人，他把他的希腊人妻子也带回来了。她并不熟悉我们的习俗和语言，而且似乎也很不适应这边的气候，但她似乎很愿意适应这个新家。;;;;;;;;;;x
 EVTOPTA_TOG_3125;各人有各人的选择;;;;;;;;;;x
 EVTDESC_TOG_3127;在希腊呆了许多年之后，[From.GetTitledFirstName]结束了在瓦兰吉卫队的服役，回到了家。但他完全变了，不再相信我们的神灵，而是转信基督教，而且不断的提及不信基督教的人所要受到的惩罚……;;;;;;;;;;x
-EVTOPTA_TOG_3127; 我就知道这些希腊人不是什么好东西;;;;;;;;;;x
+EVTOPTA_TOG_3127;我就知道这些希腊人不是什么好东西;;;;;;;;;;x
 EVTDESC_TOG_3129;[From.GetTitledFirstName]从君士坦丁堡的瓦兰吉卫队回来了，整个人都变了。他变得更聪明，更自信，而且对于战争显得更加博学。似乎在希腊的这几年真的很值得。;;;;;;;;;;x
-EVTOPTA_TOG_3129; [From.GetFirstName]，欢迎回家！;;;;;;;;;;x
+EVTOPTA_TOG_3129;[From.GetFirstName]，欢迎回家！;;;;;;;;;;x
 EVTDESC_TOG_3131;几个前瓦兰吉卫队的成员最近回来了，带来了关于你勇敢的儿子[From.GetTitledFirstName]的新闻。你的儿子陷入了与阿拔斯王朝的战斗中，他们向你保证，你的儿子战斗地非常英勇，在被包围之前杀了好多敌人……;;;;;;;;;;x
 EVTOPTA_TOG_3131;他像一个英雄般地阵亡了.;;;;;;;;;;x
 EVTDESC_TOG_3133;[From.GetTitledFirstName] 带着一船的战利品从希腊回来了！希腊的皇帝对于他勇敢的手下们非扯慨，于是他获得了许多希腊和阿拉伯人的黄金.你的儿子决定将这些财富和他敬爱的父亲共享.;;;;;;;;;;x
@@ -1785,7 +1785,7 @@ found_chest;你安全地把箱子保存了起来.;;;;;;;;;;x
 chest_empty;你失望地走开了.;;;;;;;;;;x
 seraphims;你把箱子烧了并发誓决不吐露此事.;;;;;;;;;;x
 d_galloway_adj_welsh;斯特拉斯克莱德;;;;;;;;;;x
-EVTDESC_TOG_3320;在你名义下的劫掠使你并称作维京海盗.在欧洲沿岸	父母们为了吓唬他们的孩子	都用那个可怕的名字 [Root.GetFirstName]海上之鞭，会和他的不死战士上岸吃人. ;;;;;;;;;;x
+EVTDESC_TOG_3320;在你名义下的劫掠使你并称作维京海盗.在欧洲沿岸	父母们为了吓唬他们的孩子	都用那个可怕的名字 [Root.GetFirstName]海上之鞭，会和他的不死战士上岸吃人.;;;;;;;;;;x
 EVTOPTA_TOG_3320;听着不错！;;;;;;;;;;x
 viking;维京;;;;;;;;;;x
 viking_desc;这个角色获得了可怕的维京海盗称号;;;;;;;;;;x

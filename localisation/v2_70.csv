@@ -15,9 +15,9 @@ MNM.70110.d.no_suspicion;在从一些儿童目击者和相关农民那里录完�
 MNM.70110.d.innocent_victim;在从一些儿童目击者和相关农民那里录完口供后，你已经收集到了一些指向[accused_apostate.GetBestName]是一个叛教者的证据——毫无疑问[accused_apostate.GetFirstName]的灵魂已经被[Root.Religion.GetRandomEvilGodName]污染了！你的[Root.GetReligionWarriorPlural]已经做好了准备，随时可以将[accused_apostate.GetHerHim]缉拿到你面前。;;;;;;;;;;x
 MNM.70110.a;抓住[accused_apostate.GetHerHim]！ [accused_apostate.GetSheHeCap]将面临[Root.Liege.GetTitle][Root.Liege.GetFirstName]的正义审判。;;;;;;;;;;x
 MNM.70110.b;我知道我要指控哪个家伙……;;;;;;;;;;x
-MNM.70200.d.highly_suspected_society_member;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的 [Root.GetChamber]，身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊贵的[Root.GetTitle] ，这个 [accused_apostate.GetManWoman]人已经公开宣布忠于[accused_apostate.Society.GetName]！ 我们要怎么处置[accused_apostate.GetHerHim] ？」;;;;;;;;;;x
+MNM.70200.d.highly_suspected_society_member;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的 [Root.GetChamber]，身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊贵的[Root.GetTitle]，这个 [accused_apostate.GetManWoman]人已经公开宣布忠于[accused_apostate.Society.GetName]！ 我们要怎么处置[accused_apostate.GetHerHim] ？」;;;;;;;;;;x
 MNM.70200.d.suspected_society_member;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的[Root.GetChamber]， 身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊贵的[Root.GetTitle]，我已经有足够的证据证明 [accused_apostate.GetManWoman]参与了[accused_apostate.Society.GetName]！我们该怎么处置[accused_apostate.GetHerHim]？」;;;;;;;;;;x
-MNM.70200.d.suspected_apostate;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的 [Root.GetChamber] ，身边跟着几个[Root.GetReligionWarriorPlural]拖着披枷带锁的[accused_apostate.GetBestName]。「我的 [Root.GetTitle] ，我们在这个叛教者读[accused_apostate.TrueReligion.GetName][accused_apostate.GetTrueReligionScriptureName]，宣扬 [accused_apostate.TrueReligion.GetHighGodName]的时候当场抓住了[accused_apostate.GetHerHim] ！我们应该怎么处理[accused_apostate.GetHerHim]？;;;;;;;;;;x
+MNM.70200.d.suspected_apostate;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的 [Root.GetChamber]，身边跟着几个[Root.GetReligionWarriorPlural]拖着披枷带锁的[accused_apostate.GetBestName]。「我的 [Root.GetTitle]，我们在这个叛教者读[accused_apostate.TrueReligion.GetName][accused_apostate.GetTrueReligionScriptureName]，宣扬 [accused_apostate.TrueReligion.GetHighGodName]的时候当场抓住了[accused_apostate.GetHerHim] ！我们应该怎么处理[accused_apostate.GetHerHim]？;;;;;;;;;;x
 MNM.70200.d.no_suspicion;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的[Root.GetChamber]，身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊敬的[Root.GetTitle]，有很多忧虑的农民声称他们的孩子被这个[accused_apostate.GetManWoman]的噩梦所折磨——[accused_apostate.GetSheHe]显然是一个[accused_apostate.GetWarlockWitch]！我们该怎么处置 [accused_apostate.GetHerHim]？」;;;;;;;;;;x
 MNM.70200.d.innocent_victim;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的[Root.GetChamber]，身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊敬的[Root.GetTitle]，有很多忧虑的农民声称他们的孩子被这个[accused_apostate.GetManWoman]的噩梦所折磨——[accused_apostate.GetSheHe]显然是一个[accused_apostate.GetWarlockWitch]！我们该怎么处置[accused_apostate.GetHerHim]？」;;;;;;;;;;x
 MNM.70200.a;烧死叛教者！;;;;;;;;;;x
@@ -407,7 +407,7 @@ String_Lollard;罗拉德派;;;;;;;;;;x
 String_Bogomilist;波格米勒派;;;;;;;;;;x
 String_Monothelite;基督一志派;;;;;;;;;;x
 String_Iconoclast;圣像破坏派;;;;;;;;;;x
-String_Paulician;保禄派 ;;;;;;;;;;x
+String_Paulician;保禄派;;;;;;;;;;x
 String_Miaphysite;基督合性派;;;;;;;;;;x
 String_Monophysite;基督一性论派;;;;;;;;;;x
 String_Nestorian;景教;;;;;;;;;;x
@@ -513,7 +513,7 @@ EVTOPTB_MNM_1435_single_ingredient;我会配置简单的药水。;;;;;;;;;;x
 EVTDESC_MNM_5109_hermetic;我最近得到了几种炼金术素材。作为赫尔墨斯学会的一员，我想我应该把他们分类一下……无论如何，这种[GetSelectedIngredient_1][GetSelectedIngredient_1_property]。;;;;;;;;;;x
 EVTDESC_MNM_5109_other_society;我最近得到了一些炼金原料。我不确定这些该怎么用。不管怎样，[GetSelectedIngredient_1][GetSelectedIngredient_1_property]。;;;;;;;;;;x
 EVTDESC_MNM_5109_no_society;近期我有了炼金的习惯，虽然我承认我有些着迷了，[GetSelectedIngredient_1][GetSelectedIngredient_1_property]。;;;;;;;;;;x
-EVTDESC_MNM_5109_child;我被告知，我最近开始得到了一些「炼金原料」。虽然我不确定那是什么意思， [GetSelectedIngredient_1][GetSelectedIngredient_1_property].;;;;;;;;;;x
+EVTDESC_MNM_5109_child;我被告知，我最近开始得到了一些「炼金原料」。虽然我不确定那是什么意思，[GetSelectedIngredient_1][GetSelectedIngredient_1_property].;;;;;;;;;;x
 EVTOPTA_MNM_5109;我没有用[GetSelectedIngredient_1]和[GetSelectedIngredient_2]之类的东西。;;;;;;;;;;x
 EVTOPTB_MNM_5109;这些几乎是异端邪说！;;;;;;;;;;x
 EVTOPTC_MNM_5109;我真的不介意把他们放在附近。;;;;;;;;;;x
@@ -665,7 +665,7 @@ religion_openly_baltic_or_reformed_tooltip;公开皈依了 §Y洛姆瓦§!;;;;;;
 religion_openly_finnish_or_reformed_tooltip;公开信奉§Y索米多神教§!;;;;;;;;;;x
 religion_openly_slavic_or_reformed_tooltip;公然追随 §Y斯拉夫多神教§! 信仰;;;;;;;;;;x
 religion_openly_tengri_or_reformed_tooltip;公然追随 §Y长生天§!信仰;;;;;;;;;;x
-religion_openly_west_african_or_reformed_tooltip;公开追随 §Y西非信仰§! ;;;;;;;;;;x
+religion_openly_west_african_or_reformed_tooltip;公开追随 §Y西非信仰§!;;;;;;;;;;x
 religion_openly_zun_or_reformed_tooltip;公开追随§Y尊日神教§! 信仰;;;;;;;;;;x
 religion_openly_aztec_or_reformed_tooltip;公开皈依了 §Y阿兹特克信仰§!;;;;;;;;;;x
 FOLLOWS_SECRET_RELIGION_TOOLTIP;这名角色私下里信奉着$RELIGION|Y$。;;;;;;;;;;x
