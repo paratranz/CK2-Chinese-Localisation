@@ -760,7 +760,7 @@ WELCOME_PLAY_NORMAL_GAME;不，谢谢;;;;;;;;;;x
 opinion_poor_accommodations;糟糕的住宿;;;;;;;;;;x
 custom_tooltip_choose_patron_diety;选择一个守护神;;;;;;;;;;x
 CB_NAME_FORCE_VASSALIZATION;强迫成为封臣;;;;;;;;;;x
-WAR_NAME_FORCE_VASSALIZATION;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$附庸战争;;;;;;;;;;x
+WAR_NAME_FORCE_VASSALIZATION;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$封臣战争;;;;;;;;;;x
 force_vassalization_desc;§Y$TARGET$§!现在积弱而又急切地寻求庇护，在你的治下他们会生活得更好，通过花费特定数量的§Y威望§!，只要他们仍处于比你更低的§Y阶层§!，或他们的领土面积小于或等于§Y30§!，你可以通过战争强令他们成为你的附庸，支配此地的封臣需要与你与你处于相同的§Y宗教组§!，或属于与你相同的§Y文化组§!。;;;;;;;;;;x
 dejure_duchy_claim_desc;§Y$TITLE$§!是§Y$CLAIMANT$§!的一个法理封臣。我们可以消耗一大笔§Y威望§!来发动战争夺取整块公爵领！;;;;;;;;;;x
 CB_NAME_GREATREALMCONFLICT;对[Title.GetBaseName]的伟大征服;;;;;;;;;;x
@@ -781,7 +781,7 @@ cb_opportunity_liberate_deny;因为你决定把时间花在别的地方，所以
 CB_NAME_HOSTAGES;解救俘虏;;;;;;;;;;x
 WAR_NAME_HOSTAGES;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ 解救俘虏战争;;;;;;;;;;x
 EVTDESC_JD_2000;那个[GetRootFromInsult][From.GetBestName]已经以解救人质这个未经考虑的借口对我悍然发动战争，而那些人本是被合法扣押的！这恰好给了我处决他们的理由，如果我愿意的话……;;;;;;;;;;x
-EVTOPTA_JD_2000;这场战争必须结束，提议送还他们的百姓。;;;;;;;;;;x
+EVTOPTA_JD_2000;这场战争必须结束，提议他们班师回国。;;;;;;;;;;x
 EVTOPTB_JD_2000;我必须杀鸡儆猴，处死[chosen_captive.GetFirstName]。;;;;;;;;;;x
 EVTOPTC_JD_2000;他们竟敢如此？处决所有俘虏！;;;;;;;;;;x
 EVTOPTD_JD_2000;我们在战场上见面吧。;;;;;;;;;;x
@@ -808,10 +808,10 @@ unjust_conquest_desc;你可以选择任何与你接壤的省份。值得注意�
 opinion_declared_unjust_conquest;发动了非正义战争;;;;;;;;;;x
 custom_opinion_hit_tooltip;所有在你§Y境内§!属于你的§Y宗教组§!的§Y有地的领主§!以及§Y[From.GetTitledFirstName]§!境内对你的意见将改变§R-15§!持续§Y10§!年。§Y(发动不义战争)§!;;;;;;;;;;x
 custom_opinion_hit_tooltip_enemy;你的§Y领地§!和§Y[From.GetTitledFirstName]§!领地内所有的信仰§Y[From.Religion.GetName]§!的§Y有地角色§!在§Y10§!年内对你的好感§R-15§!。§Y(宣布不义战争)§!;;;;;;;;;;x
-offmap_submission_desc;中国可以通过战争迫使国家屈从于他们.;;;;;;;;;;x
+offmap_submission_desc;天朝可以通过战争迫使他国屈从。;;;;;;;;;;x
 CB_NAME_OFFMAP_SUBMISSION;服从;;;;;;;;;;x
 WAR_NAME_OFFMAP_SUBMISSION;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$附庸战争;;;;;;;;;;x
-tributary_offmap_cb_desc;中国可以通过战争迫使国家向他们朝贡.;;;;;;;;;;x
+tributary_offmap_cb_desc;天朝可以通过战争迫使他国朝贡。;;;;;;;;;;x
 TRIBUTARY_OFFMAP_NAME;帝国朝贡国;;;;;;;;;;x
 TRIBUTARY_OFFMAP_PLURAL;帝国朝贡国;;;;;;;;;;x
 SUZERAIN_OFFMAP_NAME;帝国领主;;;;;;;;;;x
@@ -2164,9 +2164,9 @@ REALM_SIZE_TRIGGER;领地大小$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 REALM_LEVIES_TRIGGER;当前领地征召兵$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 MAX_REALM_LEVIES_TRIGGER;最大领地征召兵$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 NUM_OF_TITLES_TRIGGER;持有头衔数目为$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-NUM_OF_TITLES_OF_TIER_TRIGGER;持有 $TIER|Y$ 级头衔的数量 $COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+NUM_OF_TITLES_OF_TIER_TRIGGER;持有$TIER|Y$级头衔的数量$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 NUM_OF_TITLES_IN_REALM_TRIGGER;境内的头衔数目$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-NUM_OF_TITLES_OF_TIER_IN_REALM_TRIGGER;境内的$TIER|Y$级头衔数量 $COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+NUM_OF_TITLES_OF_TIER_IN_REALM_TRIGGER;境内的$TIER|Y$级头衔数量$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 RELATIVE_TROOP_TRIGGER;侧翼$TROOP|Y$ $COMPARISON$ $ENEMY|Y$ $MAXTROOP|Y$的$VALUE|Y$%;;;;;;;;;;x
 TROOP_TRIGGER;侧翼有 $COMPARISON$ $VALUE|Y$% $TROOP|Y$;;;;;;;;;;x
 NUM_SETTLEMENTS_TRIGGER;省份拥有 $COMPARISON$ $VALUE|Y$ 定居点;;;;;;;;;;x
@@ -2192,7 +2192,7 @@ REGIONAL_PERCENTAGE_TRIGGER;$COMPARISON$ $PERCENT|Y$ ($VALUE|Y$) 县的 $REGION$
 YEARS_PLAYED_TRIGGER;游戏已持续$COMPARISON$ $VALUE|Y$年;;;;;;;;;;x
 HOSPITAL_LEVEL_TRIGGER;医院等级是$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 DISEASE_DEFENSE_TRIGGER;防疫是$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-HAS_ASSIGNED_MINOR_TITLE_COUNT;$WHO|Y$ 赐予了 $COMPARISON$ $VALUE|Y$  $TITLE|Y$ 的荣誉头衔;;;;;;;;;;x
+HAS_ASSIGNED_MINOR_TITLE_COUNT;$WHO|Y$赐予了$COMPARISON$ $VALUE|Y$ 个$TITLE|Y$的荣誉头衔;;;;;;;;;;x
 WAR_PARTICIPATION_TRIGGER;$WHO|Y$ 参加了一场战争 $COMPARISON$ $VALUE|Y$%;;;;;;;;;;x
 NUM_ARTIFACTS_TRIGGER;拥有 $COMPARISON$ $VALUE|Y$ 宝物 (目前: $CUR|Y$);;;;;;;;;;x
 DAY_OF_BIRTH_TRIGGER;出生日 $COMPARISON$ 该月的 $VALUE|Y$ 天;;;;;;;;;;x
@@ -2370,7 +2370,7 @@ EVTDESCB_MNM_6993;看起来就算是[satanists_inductor.GetBestName]也不能把
 EVTOPTB_MNM_6993;[satanists_inductor.GetDWDevil]有着多么强大的力量啊……;;;;;;;;;;x
 EVTDESCB_MNM_6995;看起来就算是[satanists_recruiter.GetBestName]也不能把我从牢房中救出去，真令人失望，我很好奇我们会在哪见面。我尝试去适应我的新家，希望当我自由时能再次见到[satanists_recruiter.GetHerHim] 。;;;;;;;;;;x
 EVTOPTB_MNM_6995;[satanists_recruiter.GetDWDevil]的力量是多么强大啊……;;;;;;;;;;x
-title_court_jester_desc;宫廷小丑被留在领主左右以娱乐廷中大众。在宫廷里被视作丑角，总之不是什么德高望重的臣属;;;;;;;;;;x
+title_court_jester_desc;宫廷小丑被留在领主左右以娱乐廷中大众。在宫廷里也被视作丑角，总之不是什么德高望重的臣属。;;;;;;;;;;x
 monastic_order_education_power_tt;能力：§Y[From.GetMOSaint]的智慧§!\n你的被监护人在教育中有机会增加一个能力点，在他变成成人的途中，还可能会失去一些奇怪的属性并得到一些美德。;;;;;;;;;;x
 EVT_DESCA_MNM_4301;一天当我和我的[From.GetRootRelation][From.GetFirstName]坐在一起时，我决定向[From.GetHerHim]展示来自[GetMOCode]的摘录，希望能向[From.GetHerHim]传授[GetMOGod]的理念。[From.GetSheHeCap]听得非常认真，我确信[From.GetSheHe]会逐渐理解并加入我所在的[Root.Society.GetName]。;;;;;;;;;;x
 EVT_DESCB_MNM_4301;我决定今天独自与[From.GetFirstName]相处，因为我向人们传达了[GetMOGod]以及他们应该如何根据[GetMOCode]尝试过自己的生活。[From.GetFirstName]始终都很专心，我相信[From.GetSheHe]今天已经学到了一些关于[GetMOGod]和[Root.Society.GetName]的宝贵经验。;;;;;;;;;;x
@@ -2530,7 +2530,7 @@ primary_defender_or_attacker_tt;必须是战争的§Y主进攻方§!或者§Y主
 chinese_grace_offer_commander;进贡指挥官;;;;;;;;;;x
 chinese_grace_offer_commander_desc;当 §Y[Root.Offmap.GetFullName]§! 正处于动荡期时，你能派遣你最有天赋的将军加入[Root.Offmap.GetShortName]军队成为一名辅助官。;;;;;;;;;;x
 china_tribute_send_commander_cooldown_tt;20年内没有进贡指挥官;;;;;;;;;;x
-send_commander_potential_tt;§Y指挥官要求§!：\n必须是一个拥有十二点以上军事能力的指挥官\n必须是不拥有任何土地的\n必须是没有结婚或订婚的\n必须不是任意头衔的继承人\n必须没有以下这些特质： §Y无能§!，§Y近亲缺陷§!，或者 §Y弱智§!;;;;;;;;;;x
+send_commander_potential_tt;§Y指挥官要求§!：\n必须是一个拥有十二点以上军事能力的指挥官\n必须是不拥有任何土地的\n必须是没有结婚或订婚的\n必须不是任意头衔的继承人\n必须没有以下这些特质： §Y无能§!，§Y近亲缺陷§!，或者 §Y痴呆§!;;;;;;;;;;x
 china_commander_cd;§Y最近赠送了指挥官§!;;;;;;;;;;x
 china_commander_cd_desc;你最近已经送过一个指挥官给中国，如果中国内乱持续，你将能继续送另一个指挥官: §Y[Root.chinese_grace_send_commander_timer.GetExpiryDate]§!;;;;;;;;;;x
 reclaim_nomad_province;解放游牧省份;;;;;;;;;;x
@@ -3303,7 +3303,7 @@ BATTLE_WARSCORE_LIMIT_ATTACKERS;这个战争借口允许进攻方从战斗中获
 BATTLE_WARSCORE_LIMIT_DEFENDERS;这个战争借口允许防御方从战斗中获取$VALUE$点战争分数;;;;;;;;;;x
 JOB_PROSELYTIZE_DIFFERENT_RELIGION;传教：§G省份信仰可被转化。当前宗教：§!§Y[Root.Religion.GetName]§!;;;;;;;;;;x
 JOB_PROSELYTIZE_CONVERT_INDEPENDENT;传教：§G独立领主信仰可被转化。当前宗教：§!§Y[Root.Holder.Religion.GetName]§!;;;;;;;;;;x
-AIREASON_PLAYER_CONTROLS_MARRIAGE;朝廷依你;;;;;;;;;;x
+AIREASON_PLAYER_CONTROLS_MARRIAGE;对玩家家族尊重;;;;;;;;;;x
 AIREASON_ANOTHER_PLAYER_CONTROLS_MARRIAGE;被其他玩家控制的婚姻;;;;;;;;;;x
 DISABLE_MARRIAGE_AI;§Y限制婚姻§!;;;;;;;;;;x
 DISABLE_MARRIAGE_AI_DESC;§Y你现在还未决定这个角色将与谁结婚！§!\n启用§Y限制婚姻§!意味着即使他们有封地，你也将完全控制他的婚姻。角色不会接受任何结婚提议，除了您发送的结婚提议。以此来确保你的家族后代只结下你认可的婚姻。注意，由事件和决议引发的婚姻仍然会发生。;;;;;;;;;;x
@@ -3441,7 +3441,7 @@ b_dzongka;宗喀;;;;;;;;;;x
 b_egage;盖奇;;;;;;;;;;x
 b_exi;鄂西;;;;;;;;;;x
 b_fordongianus;福尔东贾努斯;;;;;;;;;;x
-b_foshan;佛山;;;;;;;;;;x
+b_foshan;Foshan;;;;;;;;;;x
 b_gaba;伽巴;;;;;;;;;;x
 b_gacha;加查;;;;;;;;;;x
 b_gaduo;嘎朵;;;;;;;;;;x
@@ -3771,7 +3771,7 @@ b_zhamo;扎木;;;;;;;;;;x
 b_zhangdu;章都;;;;;;;;;;x
 b_zhangja;张嘉;;;;;;;;;;x
 b_zhaqi;扎其;;;;;;;;;;x
-b_zhaqing;扎清;;;;;;;;;;x
+b_zhaqing;扎青;;;;;;;;;;x
 b_zhari;扎里;;;;;;;;;;x
 b_zhaxigang;扎西岗;;;;;;;;;;x
 b_zhegu;哲固;;;;;;;;;;x

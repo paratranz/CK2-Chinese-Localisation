@@ -60,7 +60,7 @@ ACTOR_WARS;[GetPossPronoun]战争;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_3;§R[Recipient.GetTitledFirstName]正在反抗[Recipient.GetPossPronoun]的领主. 如果这场冲突结束了，我们的战争也会结束! 因为这名领主和这些造反者的军队都会变成我军的敌人.§!;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_4;§R附近的[Recipient.Religion.GetName]地区的统治者可能会要求加入[Recipient.GetTitledName]，以此捍卫他们的信仰.§!;;;;;;;;;;x
 plot_gain_vassal_title_title;收回[This.GetFullBaseName];;;;;;;;;;x
-plot_gain_vassal_title_desc;[From.GetBestName]正在密谋收回[This.GetFullBaseName]的头衔.;;;;;;;;;;x
+plot_gain_vassal_title_desc;[From.GetBestName]正在密谋收回[This.GetFullBaseName]的头衔。;;;;;;;;;;x
 plot_gain_vassal_title_decision;[Root.GetPlot];;;;;;;;;;x
 plot_gain_vassal_title_decision_desc;将密谋付诸行动，下达最后通牒给[Root.PlotTarget.GetTitledName].;;;;;;;;;;x
 EVTTOOLTIP8030;[Root.PlotTarget.GetTitledName]收到了一封信.;;;;;;;;;;x
@@ -1304,4 +1304,4 @@ EVTOPTB100547;甚至连[From.GetTitledFirstName]也不知道是我散播的流�
 UNREADY;未准备好;;;;;;;;;;x
 Did, and found
 EVTOPTA65125;啊哦，我做了坏事;;;;;;;;;;x
-EVTTOOLTIP100481; ;;;;;;;;;;x
+EVTTOOLTIP100481;;;;;;;;;;;x
