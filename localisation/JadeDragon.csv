@@ -109,7 +109,7 @@ OFFMAP_GRACE;皇恩;;;;;;;;;;x
 TRADE_ROUTE_TRADE_CENTER_UNOWNED;§Y潜在的贸易站§!;;;;;;;;;;x
 TRADE_ROUTE_TRADE_CENTER_OWNED;§Y此贸易站属于§! $OWNER|Y$;;;;;;;;;;x
 TRADE_ROUTE_TRADE_CENTER_DESC;由于其在贸易线路上的战略位置，有些省份具有巨大的贸易潜力。\n省份的拥有者可以建立贸易站以获得巨大的经济效益。;;;;;;;;;;x
-TXT_GRACE_desc;\n皇恩可以通过向皇帝§Y进贡§!获取，你可以用积累的皇恩来§G请求恩赐§!。你积累的皇恩可以继承。\n§R但是如果中国改朝换代，你所有的皇恩都会清零！§!;;;;;;;;;;x
+TXT_GRACE_desc;\n皇恩可以通过向天子§Y进贡§!获取，你可以用积累的皇恩来§G请求恩赐§!。你积累的皇恩可以继承。\n§R但是如果中国改朝换代，你所有的皇恩都会清零！§!;;;;;;;;;;x
 INTERESTED_IN_SOCIETY_TRIGGER_NOT;对加入$SOCIETY$不感兴趣;;;;;;;;;;x
 confucian_bureaucracy;儒家官僚制;;;;;;;;;;x
 GOV_TOLERATES_RELIGIONS_DESC;不在乎别人是否信仰他们的宗教;;;;;;;;;;x
@@ -554,11 +554,11 @@ String_GetMediumDisabilityDesc_one_eyed;独眼;;;;;;;;;;x
 String_GetMediumDisabilityDesc_clubfooted;下肢畸形;;;;;;;;;;x
 String_GetMediumDisabilityDesc_hunchback;无法保持背部挺直;;;;;;;;;;x
 String_GetMediumDisabilityDesc_dwarf;比平均身高矮很多;;;;;;;;;;x
-chinese_grace_offer_concubine;进贡侍妾;;;;;;;;;;x
-chinese_grace_offer_concubine_desc;将一位廷臣送去§Y[Root.Offmap.GetFullName]§!为天朝皇帝服务，他将在中国度过余生。\n;;;;;;;;;;x
+chinese_grace_offer_concubine;进贡侍妾/面首;;;;;;;;;;x
+chinese_grace_offer_concubine_desc;将一位廷臣送去§Y[Root.Offmap.GetFullName]§!为天子服务，他将在中国度过余生。\n;;;;;;;;;;x
 china_tribute_send_concubine_cooldown_tt;过去20年里没有进贡侍妾;;;;;;;;;;x
 chinese_grace_offer_eunuch;进贡宦官;;;;;;;;;;x
-chinese_grace_offer_eunuch_desc;将一位廷臣送去§Y[Root.Offmap.GetFullName]§!为天朝皇帝服务，他将在中国度过余生。\n;;;;;;;;;;x
+chinese_grace_offer_eunuch_desc;将一位廷臣送去§Y[Root.Offmap.GetFullName]§!为天子服务，他将在中国度过余生。\n;;;;;;;;;;x
 china_tribute_send_eunuch_cooldown_tt;过去20年里没有派遣宦官;;;;;;;;;;x
 tribute_interaction_level3_education_tt;受过良好的教育;;;;;;;;;;x
 tribute_interaction_level4_education_tt;受过非凡的教育;;;;;;;;;;x
@@ -1532,7 +1532,7 @@ patron_wishaghn;守护神：乌鲁斯拉格纳;;;;;;;;;;x
 patron_zurvan;守护神：楚尔凡;;;;;;;;;;x
 VAYNPAT;威因皮特;;;;;;;;;;x
 job_spiritual_khurmazta;穆贝德;;;;;;;;;;x
-secret_khurmazta_community;胡天派秘密社团;;;;;;;;;;x
+secret_khurmazta_community;胡天派秘密团体;;;;;;;;;;x
 secret_khurmazta_community_desc;胡天的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
 tb_desert_stable_1;沙漠骑士;;;;;;;;;;x
 tb_desert_stable_2;沙漠骑士;;;;;;;;;;x
@@ -1621,11 +1621,11 @@ likes_bon;苯教徒;;;;;;;;;;x
 likes_tt;（§G喜欢[This.GetLike]§!）;;;;;;;;;;x
 dislikes_tt;（§R讨厌[This.GetDislike]§!）;;;;;;;;;;x
 likes_but_dislikes_tt;（§G喜欢[This.GetLike]§!但是§R讨厌[This.GetDislike]§!）;;;;;;;;;;x
-EMPEROR_LIKES_LABEL;皇帝喜欢;;;;;;;;;;x
-EMPEROR_DISLIKES_LABEL;皇帝不喜欢;;;;;;;;;;x
-OFFMAP_LIKES_TOOLTIP;皇帝喜欢 $CURRENT|Y$;;;;;;;;;;x
-OFFMAP_LIKES_AND_DISLIKES_DESC;§L天朝皇帝有着不同的兴趣和品味。这对所有试图获取皇恩的的行为有着很大的影响。皇帝会同时关注你的特质（例如文化）和你的特别贡品（例如侍妾）...§!;;;;;;;;;;x
-OFFMAP_DISLIKES_TOOLTIP;皇帝讨厌$CURRENT|Y$;;;;;;;;;;x
+EMPEROR_LIKES_LABEL;天子喜欢;;;;;;;;;;x
+EMPEROR_DISLIKES_LABEL;天子厌恶;;;;;;;;;;x
+OFFMAP_LIKES_TOOLTIP;天子喜欢 $CURRENT|Y$;;;;;;;;;;x
+OFFMAP_LIKES_AND_DISLIKES_DESC;§L天子有着不同的兴趣和品味。这对所有试图获取皇恩的的行为有着很大的影响。天子会同时关注你的特质（例如文化）和你的特别贡品（例如侍妾）...§!;;;;;;;;;;x
+OFFMAP_DISLIKES_TOOLTIP;天子厌恶$CURRENT|Y$;;;;;;;;;;x
 OFFMAP_DYNASTY_DESC;现在的皇朝是$DYNASTY|Y$，出自$CULTURE|Y$。;;;;;;;;;;x
 OFFMAP_RULER_DESC;§Y皇帝 $NAME$§!\n年龄：$AGE|Y$\n文化：$CULTURE|Y$\n宗教：$RELIGION|Y$;;;;;;;;;;x
 SET_OFFMAP_LIKE_RANDOM;$OFFMAP|Y$ 现在喜爱其他东西;;;;;;;;;;x
@@ -1718,7 +1718,7 @@ china_open_desc;天朝现在正在开放商路并且积极获取盟友及朝贡�
 china_isolationist;闭关锁国;;;;;;;;;;x
 china_isolationist_desc;中华帝国已经关上了他的国门，不再允许外国使臣朝贡与觐见，同时也拒绝给予外国赏赐，即使有国家希望能成为中华帝国的附属，也极有可能被拒绝。;;;;;;;;;;x
 china_expansionist;扩张;;;;;;;;;;x
-china_expansionist_desc;皇帝对天下之外的世界展现出罕见的兴趣。中国也许会激进地寻求一个新朝贡国，甚至主持一场入侵以「经略西域」。;;;;;;;;;;x
+china_expansionist_desc;天子对天下之外的世界展现出罕见的兴趣。中国也许会激进地寻求一个新朝贡国，甚至主持一场入侵以「经略西域」。;;;;;;;;;;x
 china_jurchen_invasion_desc;一个拥有大量女真骑兵的巨大部族正从冰冷无情的东北南下中原。强大的中国军队正专注于防卫其这孤注一掷的猛烈入侵。这场战争破坏了沿丝绸之路的贸易，并造成了大量难民外逃。如果女真人胜利，那么当朝皇族有可能与他们残存的军力向西流亡。;;;;;;;;;;x
 NEWS_FROM_CHINA;来自中国的消息;;;;;;;;;;x
 EVTDESC_JD_50001_NEW_DYN;随着[FromFrom.GetOnlyDynastyName]朝被[From.GetOnlyDynastyName]朝取代，一个崭新的王朝在中国兴起。而这位[From.GetDynName]王朝的[From.GetEmperorEmpress]显然与前朝的[From.GetPossPronoun]有着同样的[From.Offmap.GetPolicy]追求。[From.GetDynName]偏好[From.Offmap.GetLike]，厌恶[From.Offmap.GetDislike]。;;;;;;;;;;x
@@ -2030,9 +2030,9 @@ EVTOPTA_JD_10130;我們將謙卑的侍奉偉大的[From.Offmap.GetFullName];;;;;
 EVTOPTB_JD_10130;沒有決鬥的話，[Root.PrimaryTitle.GetFullName]將不會跪下的;;;;;;;;;;x
 EVTOPTB_JD_10130_TT;§Y[From.GetTitledName]§!将向你宣战。\n;;;;;;;;;;x
 GetRelation_Concubine;侍妾;;;;;;;;;;x
-emperor_likes_THIS_tt;（§G皇帝喜欢[This.GetLike]§!）;;;;;;;;;;x
-emperor_dislikes_THIS_tt;（§R皇帝讨厌[This.GetDislike]§!）;;;;;;;;;;x
-emperor_has_ambiguous_feelings_of_THIS_tt;（§G皇帝喜欢[This.GetLike]§!但 §R讨厌[This.GetDislike]§!）;;;;;;;;;;x
+emperor_likes_THIS_tt;（§G天子喜欢[This.GetLike]§!）;;;;;;;;;;x
+emperor_dislikes_THIS_tt;（§R天子厌恶[This.GetDislike]§!）;;;;;;;;;;x
+emperor_has_ambiguous_feelings_of_THIS_tt;（§G天子喜欢[This.GetLike]§!但 §R厌恶[This.GetDislike]§!）;;;;;;;;;;x
 send_eunuch_potential_tt;§Y宦官要求§!：\n必须是有卓越才能的成年男性，或者是你年满十二岁的近亲\n不可持有领地\n不可有以下任何特质：§Y无能§!， §Y近亲缺陷§!，或者§Y低能§!;;;;;;;;;;x
 send_concubine_potential_tt;§Y侍妾要求§!：\n必须是你的近亲\n必须成年\n必须小于45岁\n不能结婚或者订婚\n不可有以下任何特质：§Y无能§!， §Y近亲缺陷§!，或者§Y低能§!;;;;;;;;;;x
 SAVE_LOAD_RESTART_NEEDED;§R加载多个存档会导致OOS问题。\n重启游戏或主机以选择其它的剧本或存档§!;;;;;;;;;;x
@@ -2267,7 +2267,7 @@ EVTDESC_JD_70008;在你写信给中国皇帝后不久，一位密使带着几名
 EVTOPTA_JD_70008;我看起来多傻啊。;;;;;;;;;;x
 EVTDESC_JD_70009;今早，有人发现[escaped_chinese_noble.GetFullName]被一段品质上佳的中国丝绸勒死在位于[escaped_chinese_noble.GetHerHis]房间里。杀手不知所踪，但我确信我知道谁应当为此负责。;;;;;;;;;;x
 EVTOPTA_JD_70009;我早该料到你无法逃离皇帝陛下。;;;;;;;;;;x
-DEATH_EXECUTED_BY_CHINESE_EMPEROR;被中国皇帝$KILLER$下令处死;;;;;;;;;;x
+DEATH_EXECUTED_BY_CHINESE_EMPEROR;被天子$KILLER$下令处死;;;;;;;;;;x
 DEATH_EXECUTED_BY_CHINESE_EMPEROR_NO_KILLER;在中国被处决;;;;;;;;;;x
 UNFORTUNATE;不幸……;;;;;;;;;;x
 EVTDESC_MNM_9031_A;我得到了[relic_hunter.GetJobTitle] [relic_hunter.GetFirstName]传来的消息，[relic_hunter.GetSheHe]在寻找古文物上有大进展。[relic_hunter.GetFirstName]认为[relic_hunter.GetSheHe]很快就能结束这条线索，[relic_hunter.GetSheHe]将亲自向我展示这个古遗迹。;;;;;;;;;;x
@@ -2713,9 +2713,9 @@ EVTDESC75111;一位显赫的人物向我申诉，请求公正：据说他的女�
 OFFMAP_TRIBUTARIES_TOOLTIP_DESC;当[Root.GetName]处于稳定期或黄金期时，中国的朝贡国可以在战争中向中国请求一支军队。;;;;;;;;;;x
 EVTDESC_JD_50031_STABLE;[FromFrom.GetChinaPreviousStatusEnd]。一切都在走向正轨，中原王朝似乎已经趋于稳定。;;;;;;;;;;x
 String_Indians;东方人;;;;;;;;;;x
-secret_bon_community;苯教秘密社团;;;;;;;;;;x
+secret_bon_community;苯教秘密团体;;;;;;;;;;x
 secret_bon_community_desc;苯教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
-secret_taoist_community;道教秘密社团;;;;;;;;;;x
+secret_taoist_community;道教秘密团体;;;;;;;;;;x
 secret_taoist_community_desc;道教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
 war_with_other_tributary_tt;你并没有在抵御另一个 [offmap_china.GetShortName]的朝贡国;;;;;;;;;;x
 force_open_china_cb_desc;[offmap_china.GetShortName]关闭了国境，迫使丝绸之路上的贸易中断。这是不可接受的！贸易必须流通！;;;;;;;;;;x
@@ -4146,8 +4146,8 @@ kow_tow_tooltip_already_went;并没有表现出他们要臣服于[offmap_china.R
 chinese_kow_tow_pilgrimage;朝觐[offmap_china.Ruler.GetEmperorEmpress];;;;;;;;;;x
 chinese_kow_tow_pilgrimage_desc;去§Y[offmap_china.GetFullName]§! 腹地的旅行和向[offmap_china.Ruler.GetEmperorEmpress]鞠躬是恭顺的行为。跪拜礼将给你赢得§Y[offmap_china.GetFullName]§!的§G皇恩§!，但是这么做也会话花费你的§R威望§! 。;;;;;;;;;;x
 EVTTITLE_JD_32113;致命的款待;;;;;;;;;;x
-EVTTOOLTIP_JD_BAD_INFLUENCE_ON_EMPEROR_EVALUATION;在皇帝眼中，这可能反映了你的表现§R不好§!。;;;;;;;;;;x
-EVTTOOLTIP_JD_GOOD_INFLUENCE_ON_EMPEROR_EVALUATION;在皇帝眼中，这可能反映了你的表现§G很好§!。;;;;;;;;;;x
+EVTTOOLTIP_JD_BAD_INFLUENCE_ON_EMPEROR_EVALUATION;在天子眼中，这可能反映了你的表现§R不好§!。;;;;;;;;;;x
+EVTTOOLTIP_JD_GOOD_INFLUENCE_ON_EMPEROR_EVALUATION;在天子眼中，这可能反映了你的表现§G很好§!。;;;;;;;;;;x
 EVTTOOLTIPA_JD_32200;你开始沿着御道前往皇宫.;;;;;;;;;;x
 EVTTOOLTIP_MNM_1812_ILL;胃部不适;;;;;;;;;;x
 bear;熊;;;;;;;;;;x
