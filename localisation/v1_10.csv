@@ -45,7 +45,7 @@ FROM_ATTRIBUTES;属性加成: §G+$AMOUNT$§!;;;;;;;;;;x
 HOLY_SITES_LESS;没有控制至少§Y$VAL$§!的圣地\n;;;;;;;;;;x
 HOLY_SITES_LEAST;掌控着至少 §Y$VAL$§! 圣地\n;;;;;;;;;;x
 MAJOR_RIVER_SHORT;在§Y$TO$§!渡过§Y$RIVER$§!;;;;;;;;;;x
-MAJOR_RIVER_DESC;当进攻一条主要河流的时候，进攻者会有一个很大的作战减成;;;;;;;;;;x
+MAJOR_RIVER_DESC;当跨过一条大河进攻时，进攻者会有一个很大的作战减成;;;;;;;;;;x
 RETCAP_FROM_REALM;来自领地: §G$REALM$§!\n地产: §Y$HOLDINGS$§!\n每块地产的上限: §Y$PERHOLDING$§!\n;;;;;;;;;;x
 RETCAP_FROM_BUILDINGS;来自建筑: §G$AMOUNT$§!\n;;;;;;;;;;x
 RETCAP_FROM_TECH;来自科技: §G+$PERCENT$%§!\n;;;;;;;;;;x
@@ -99,13 +99,13 @@ tp_shipyard_2;船坞;;;;;;;;;;x
 tp_shipyard_3;航道;;;;;;;;;;x
 tp_shipyard_4;港口;;;;;;;;;;x
 shipyard_desc;熟练的造船工人在这里努力工作，建造各种远航船舶.;;;;;;;;;;x
-TOGGLE_LOOTER;转换成劫掠模式;;;;;;;;;;x
+TOGGLE_LOOTER;§Y切换成劫掠模式§!;;;;;;;;;;x
 REL_AUTHORITY_CHANGE;§Y$RELIGION$§!: $PERC$  宗教权威 §Y$TIME$§! $TIMEUNIT$.\n;;;;;;;;;;x
 IS_HOLY_CITY_FOR_RELIGION;§Y$RELIGION$§!信仰认为§Y$HOLDING$§!是一处圣地;;;;;;;;;;x
 IS_HOLY_CITY_FOR_RELIGION_2;他们控制了这块土地;;;;;;;;;;x
 IS_HOLY_ORDER;是圣战士;;;;;;;;;;x
 IS_NOT_HOLY_ORDER;不是圣战士;;;;;;;;;;x
-opinion_looted;我的土地遭到劫掠;;;;;;;;;;x
+opinion_looted;劫掠了我的领地;;;;;;;;;;x
 opinion_heir_guardian_my_culture;用正确的文化去教导继承人;;;;;;;;;;x
 opinion_heir_guardian_foreign_culture;用外国的文化去教导继承人;;;;;;;;;;x
 PORTAGE;§Y$FROM$§!与§Y$TO$§!之间的陆上运输点;;;;;;;;;;x
@@ -382,7 +382,7 @@ GOD_VELES;韦莱斯;;;;;;;;;;x
 GOD_JARILO;雅里洛;;;;;;;;;;x
 GOD_SVAROG;斯瓦罗格;;;;;;;;;;x
 GOD_TRIGLAV;特里格拉夫;;;;;;;;;;x
-nick_whiteshirt;白衬衫;;;;;;;;;;x
+nick_whiteshirt;白衫;;;;;;;;;;x
 nick_the_bald;秃头;;;;;;;;;;x
 nick_fairhair;金发;;;;;;;;;;x
 nick_lodbrok;洛德布洛克;;;;;;;;;;x
@@ -750,15 +750,15 @@ opinion_abducted_spouse;被绑架的配偶;;;;;;;;;;x
 opinion_forced_consort;绑架者;;;;;;;;;;x
 opinion_forced_relative_consort;绑架关系;;;;;;;;;;x
 opinion_forced_wife_consort;和绑架者结婚;;;;;;;;;;x
-child_of_consort;侍妾的孩子;;;;;;;;;;x
-child_of_consort_desc;这名角色是统治者侍妾的孩子.侍妾的孩子有继承权但是被他人轻视.;;;;;;;;;;x
+child_of_consort;庶子;;;;;;;;;;x
+child_of_consort_desc;这名角色是统治者的庶子。庶子有继承权但是被他人轻视.;;;;;;;;;;x
 peasant_leader;农民领袖;;;;;;;;;;x
-EVTDESC660;那下流的畜生 [From.GetBestName]强迫我成为他的侍妾!;;;;;;;;;;x
+EVTDESC660;那下流的畜生 [From.GetBestName]强迫我成为他的侍妾！;;;;;;;;;;x
 EVTOPTA660;哦	残酷的命运……;;;;;;;;;;x
-EVTDESC661;[FromFrom.GetBestName]强迫我的 [GetFromRelation] [From.GetBestName]成为他的小老婆!;;;;;;;;;;x
-EVTOPTA661;[FromFrom.GetSheHeCap] 将为这付出代价!;;;;;;;;;;x
-EVTDESC662;[FromFrom.GetBestName]强迫我的妻子 [From.GetBestName]成为他的小老婆!;;;;;;;;;;x
-EVTOPTA662;[FromFrom.GetSheHeCap] 将为这付出代价!;;;;;;;;;;x
+EVTDESC661;[FromFrom.GetBestName]强迫我的 [GetFromRelation] [From.GetBestName]成为他的侍妾！;;;;;;;;;;x
+EVTOPTA661;[FromFrom.GetSheHeCap] 将为此付出代价！;;;;;;;;;;x
+EVTDESC662;[FromFrom.GetBestName]强迫我的妻子[From.GetBestName]成为他的小老婆！;;;;;;;;;;x
+EVTOPTA662;[FromFrom.GetSheHeCap] 将为此付出代价！;;;;;;;;;;x
 EVTDESC297;我已经决定接受你的建议使 [Root.GetTitledFirstName]成为你的侍妾;;;;;;;;;;x
 EVTDESC298;我拒绝你无礼的建议.[Root.GetTitledFirstName]永远不会是你的小老婆;;;;;;;;;;x
 EVTDESC304;[FromFrom.Mother.GetFirstName]生了另一个男人的小孩!我无法相信这次背叛!;;;;;;;;;;x
