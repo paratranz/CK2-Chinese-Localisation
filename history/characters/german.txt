@@ -7375,7 +7375,7 @@
 	culture="german"
 	trait="lustful"
 	trait="just"
-	trait="arbitrary"
+	#trait="arbitrary"
 	trait="misguided_warrior"
 	father=212363
 	1156.1.2 = {
@@ -7443,7 +7443,7 @@
 	religion="catholic"
 	culture="german"
 	trait="zealous"
-	trait="cynical"
+	#trait="cynical"
 	trait="martial_cleric"
 	father=30717
 	1146.1.1 = {
@@ -9531,22 +9531,18 @@
 212607 = {
 	name="Otto"
 	dynasty=650
-	martial=6
-	diplomacy=8
-	intrigue=8
-	stewardship=8
 	religion="catholic"
 	culture="german"
-	trait="just"
-	trait="diligent"
-	trait="thrifty_clerk"
 	father=212600
 	mother=204509
 	1175.1.2 = {
-		birth="1175.1.2"
+		birth=yes
 	}
-	1225.1.2 = {
-		death="1225.1.2"
+	1214.5.19={
+		add_spouse=106556
+	}
+	1218.5.19 = {
+		death=yes
 	}
 }
 
@@ -23184,128 +23180,95 @@
 }
 
 462350 = {
-	name="Friedrich"
-	# AKA: Friedrich IX
+	name="Friedrich" # VIII
 	dynasty=12476
-	martial=5
-	diplomacy=6
-	intrigue=8
-	stewardship=5
 	religion="catholic"
 	culture="german"
-	trait="charitable"
-	trait="fortune_builder"
-	father=462351
-	1320.1.1 = {
-		birth="1320.1.1"
+	father=462352
+	mother=462317
+	1290.1.1 = {
+		birth=yes
 	}
-	1370.1.1 = {
-		death="1370.1.1"
+	1333.1.1 = {
+		death=yes
 	}
 }
 
 462351 = {
-	name="Friedrich"
+	name="Friedrich" # VII
 	dynasty=12476
-	martial=7
-	diplomacy=6
-	intrigue=8
-	stewardship=5
 	religion="catholic"
 	culture="german"
-	trait="intricate_webweaver"
 	father=462352
 	mother=462317
 	1285.1.1 = {
-		birth="1285.1.1"
+		birth=yes
 	}
-	1333.1.1 = {
-		death="1333.1.1"
+	1310.1.1 = {
+		death=yes
 	}
 }
 
 462352 = {
-	name="Friedrich"
+	name="Friedrich" # VI
 	dynasty=12476
-	martial=5
-	diplomacy=6
-	intrigue=8
-	stewardship=5
 	religion="catholic"
 	culture="german"
-	trait="intricate_webweaver"
 	father=462355
 	mother=33634
 	1260.1.1 = {
-		birth="1260.1.1"
+		birth=yes
 	}
 	1280.1.1 = {
 		add_spouse=462317
 	}
 	1298.5.4 = {
-		death="1298.5.4"
+		death=yes
 	}
 }
 
 462353 = {
-	name="Friedrich"
-	# AKA: Friedrich Ostertag
+	name="Friedrich" # IX
 	dynasty=12476
-	martial=9
-	diplomacy=7
-	intrigue=8
-	stewardship=4
 	religion="catholic"
 	culture="german"
-	trait="brave"
-	trait="tough_soldier"
-	father=462351
+	father=462350
 	1323.1.1 = {
-		birth="1323.1.1"
+		birth=yes
 	}
-	1373.1.1 = {
-		death="1373.1.1"
+	1378.1.1 = {
+		death=yes
 	}
 }
 
 462354 = {
 	name="Friedrich"
 	dynasty=12476
-	martial=6
-	diplomacy=6
-	intrigue=5
-	stewardship=5
 	religion="catholic"
 	culture="german"
-	trait="tough_soldier"
-	father=462351
+	father=462350
 	1330.1.1 = {
-		birth="1330.1.1"
+		birth=yes
 	}
 	1380.1.1 = {
-		death="1380.1.1"
+		death=yes
 	}
 }
 
 462355 = {
-	name="Friedrich" #Zollern
-	dynasty=12476
-	martial=7
-	diplomacy=7
-	intrigue=8
-	stewardship=6
+	name="Friedrich" # V 
+	dynasty=12476 # Zollern
 	religion="catholic"
 	culture="german"
-	trait="intricate_webweaver"
 	father=462356
 	1220.1.1 = {
-		birth="1220.1.1"
+		birth=yes
 	}
 	1258.1.1 = {
 		add_spouse=33634
 	}
 	1289.5.24 = {
-		death="1289.5.24"
+		death=yes
 	}
 }
 
@@ -24102,19 +24065,15 @@
 462398 = {
 	name="Otto"
 	dynasty=226
-	martial=9
-	diplomacy=6
-	intrigue=7
-	stewardship=8
 	religion="catholic"
 	culture="german"
 	father=462390
-	mother=462396
-	1335.1.1 = {
-		birth="1335.1.1"
+	# mother= Matilda, daughter of Magnus I of Brunswick-Gottingen
+	1343.1.1 = { 
+		birth=yes
 	}
-	1385.1.1 = {
-		death="1385.1.1"
+	1404.2.27 = {
+		death=yes
 	}
 }
 
@@ -26986,7 +26945,7 @@
 	religion="catholic"
 	culture="german"
 	trait="wroth"
-	trait="patient"
+	#trait="patient"
 	trait="thrifty_clerk"
 	father=462930
 	mother=462931
@@ -27186,7 +27145,7 @@
 	religion="catholic"
 	culture="german"
 	trait="deceitful"
-	trait="honest"
+	#trait="honest"
 	trait="underhanded_rogue"
 	1300.1.1 = {
 		birth="1300.1.1"
@@ -34479,7 +34438,7 @@
 	dynasty=7282
 	religion="catholic"
 	culture="german"
-	father=33250
+	# father=33250, Widukind
 	780.1.1 = {
 		birth="780.1.1"
 	}
@@ -45692,7 +45651,7 @@
 	religion="catholic"
 	culture="german"
 	trait="wroth"
-	trait="patient"
+	#trait="patient"
 	trait="harelip"
 	trait="amateurish_plotter"
 	father=11037
@@ -54656,3 +54615,17 @@
 	}
 }
 
+214107={
+	name="Vitiges"
+	religion="catholic"
+	culture="german"
+	500.1.1={
+		birth=yes
+	}
+	536.1.1={
+		add_spouse = 168789
+	}
+	540.1.1={
+		death=yes
+	}
+}

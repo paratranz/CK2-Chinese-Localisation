@@ -133,25 +133,25 @@
 }
 
 1113 = {
-	name="Berta"
-	female=yes
-	dynasty=681
-	martial=4
-	diplomacy=5
-	intrigue=8
-	stewardship=4
-	religion="catholic"
-	culture="italian"
-	trait="patient"
-	trait="proud"
-	trait="amateurish_plotter"
-	father=1110
-	978.1.2 = {
-		birth="978.1.2"
-	}
-	1046.1.2 = {
-		death="1046.1.2"
-	}
+   name="Berta"
+   female=yes
+   dynasty=681
+   martial=4
+   diplomacy=5
+   intrigue=8
+   stewardship=4
+   religion="catholic"
+   culture="italian"
+   trait="patient"
+   trait="proud"
+   trait="amateurish_plotter"
+   father=1110
+   970.1.2 = {
+     birth=yes
+   }
+   1046.1.2 = {
+     death=yes
+   }
 }
 
 1115 = {
@@ -225,262 +225,318 @@
 }
 
 144251 = {
-	name="Salusio"
-	dynasty=100326
-	religion="catholic"
-	culture="italian"
-	father = 20326
-	1058.1.1 = {
-		birth="1058.1.1"
-	}
-	1102.1.1 = {
-		death="1102.1.1"
-	}
+   name="Costantìnu" #I
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father = 20326
+   mother=235105 #Vera Salusiu
+   1050.1.1 = {
+     birth=yes
+   }
+   1065.1.1 = {
+     add_spouse=235102 #Giorgia Salusiu de Lacon
+   }
+   1102.1.1 = {
+     death=yes
+   }
 }
 144252 = {
-	name="Torchitorio"
-	dynasty=100326
-	religion="catholic"
-	culture="italian"
-	father = 144251
-	1078.1.1 = {
-		birth="1078.1.1"
-	}
-	1130.1.1 = {
-		death="1130.1.1"
-	}
+   name="Marianu" #II
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father = 144251
+   mother=235102 #Giorgia Salusiu de Lacon
+   1066.1.1 = {
+     birth=yes
+   }
+   1098.1.1 = {
+     add_spouse=235142 #Preciosa de Lacon Zori of Arborea
+   }
+   1130.1.1 = {
+     death=yes
+   }
 }
-
-
 144253 = {
-	name="Salusio"
-	dynasty=100326
-	religion="catholic"
-	culture="italian"
-	father = 144252
-	1100.1.1 = {
-		birth="1100.1.1"
-	}
-	1163.1.1 = {
-		death="1163.1.1"
-	}
+   name="Costantìnu" #II
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father = 144252
+   mother=235142 #Preciosa de Lacon Zori of Arborea
+   1100.1.1 = {
+     birth=yes
+   }
+   1120.1.1 = {
+     add_spouse=235011 #Giorgia de Unale of Naples
+   }
+   1125.1.1 = {
+     add_spouse=235231 #Sardinia de Thori (Zori) of Gallura
+   }
+   1163.1.1 = {
+     death=yes
+   }
 }
-
 144524 = {
-	name="Mariam"
-	dynasty=100326
-	female=yes
-	religion="catholic"
-	culture="italian"
-	father = 144253
-	1119.1.1 = {
-		birth="1119.1.1"
-	}
-	1170.1.1 = {
-		death="1170.1.1"
-	}
+   name="Marianna"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   female=yes
+   religion="catholic"
+   culture="italian"
+   father = 144253
+   mother=235231 #Sardinia de Thori (Zori)
+   1130.1.1 = {
+     birth=yes
+   }
+   1170.1.1 = {
+     death=yes
+   }
 }
-
 144525 = {
-	name="Gonario"
-	dynasty=8691
-	religion="catholic"
-	culture="italian"
-	1113.1.1 = {
-		birth="1113.1.1"
-	}
-	1139.1.1 = {
-		add_spouse=144524
-	}
-	1190.1.1 = {
-		death="1190.1.1"
-	}
+   name="Gonariu" #II
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235183 #Costantìnu I of Torres
+   mother=235186 #Marcusa de Gunale
+   1112.12.1 = {
+     birth=yes
+   }
+   1127.1.1 = {
+     effect={
+       add_friend=235188 #Ittocorre Gambella
+     }
+   }
+   1129.1.1 = {
+     add_spouse=235032 #Maria da Parlascio of Pisa
+   }
+   1185.1.1 = {
+     death=yes
+   }
 }
 
 144526 = {
-	name="Torchitorio"
-	dynasty=8691
-	religion="catholic"
-	culture="italian"
-	1140.1.1 = {
-		birth="1140.1.1"
-	}
-
-	1188.1.1 = {
-		death="1188.1.1"
-	}
+   name="Perdu" #Peter I of Cagliari
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=144525
+   mother=235032 #Maria da Parlascio of Pisa
+   1133.1.1 = {
+     birth=yes
+   }
+   1155.1.1 = {
+     add_spouse=144524
+   }
+   1188.1.1 = {
+     death=yes
+   }
 }
 
 144527 = {
-	name="Orzocorre"
-	dynasty=13037
-	religion="catholic"
-	culture="italian"
-	father = 20325
-	1039.1.1 = {
-		birth="1039.1.1"
-	}
-	1100.1.1 = {
-		death="1100.1.1"
-	}
+   name="Orsocorre" #I
+   dynasty=1040103 #de Lacon Zori
+   religion="catholic"
+   culture="italian"
+   father = 20325
+   1030.1.1 = {
+     birth=yes
+   }
+   1045.1.1 = {
+     add_spouse=235137 #Nivata de Orrubu
+   }
+   1100.1.1 = {
+     death=yes
+   }
 }
-
 144528 = {
-	name="Orzocorre"
-	dynasty=13037
-	religion="catholic"
-	culture="italian"
-	father = 144527
-	1059.1.1 = {
-		birth="1059.1.1"
-	}
-	1122.1.1 = {
-		death="1122.1.1"
-	}
+   name="Orsocorre" #II
+   dynasty=1040103 #de Lacon Zori
+   religion="catholic"
+   culture="italian"
+   father=235140 #Torbinu of Arborea
+   mother=235215 #Anna de Zori of Gallura
+   1062.1.1 = {
+     birth=yes
+   }
+   1077.1.1 = {
+     add_spouse=235139 #Maria de Orrubu
+   }
+   1122.1.1 = {
+     death=yes
+   }
 }
-
 144529 = {
-	name="Comita"
-	dynasty=13037
-	religion="catholic"
-	culture="italian"
-	father = 144528
-	1089.1.1 = {
-		birth="1089.1.1"
-	}
-	1147.1.1 = {
-		death="1147.1.1"
-	}
+   name="Comita" #II
+   dynasty=1040103 #de Lacon Zori
+   religion="catholic"
+   culture="italian"
+   father = 144528
+   mother=235139 #Maria de Orrubu
+   1078.1.1 = {
+     birth=yes
+   }
+   1124.1.1 = {
+     death=yes
+   }
 }
-
 144530 = {
-	name="Benedetta"
-	dynasty=679
-	female = yes
-	religion="catholic"
-	culture="italian"
-	father=71311
-	1194.1.1 = {
-		birth="1194.1.1"
-	}
-	1233.1.1 = {
-		death="1233.1.1"
-	}
+   name="Benedetta"
+   dynasty=102017
+   female = yes
+   religion="catholic"
+   culture="italian"
+   father=71311
+   mother=235014 #Adelasia di Malaspina
+   1185.1.1 = {
+     birth=yes
+   }
+   1233.1.1 = {
+     death=yes
+   }
 }
 
 144531 = {
-	name="Guglielmo"
-	dynasty=794
-	religion="catholic"
-	culture="italian"
-	father=71634
-	mother=144530
-	1215.1.1 = {
-		birth="1215.1.1"
-	}
-	1254.1.1 = {
-		death="1254.1.1"
-	}
+   name="Guglielmu" #II of Cagliari
+   dynasty=794
+   religion="catholic"
+   culture="italian"
+   father=71634
+   mother=144530
+   1216.1.1 = {
+     birth=yes
+   }
+   1254.1.1 = {
+     death=yes
+   }
 }
 
 144532 = {
-	name="Chiano"
-	dynasty=794
-	religion="catholic"
-	culture="italian"
-	father=144531
-	1235.1.1 = {
-		birth="1235.1.1"
-	}
-	1256.1.1 = {
-		death="1256.1.1"
-	}
+   name="Chiano" #John of Cagliari
+   dynasty=794
+   religion="catholic"
+   culture="italian"
+   father=144531
+   1235.1.1 = {
+     birth=yes
+   }
+   1256.1.1 = {
+     death=yes
+   }
 }
 
 144533 = {
-	name="Marianus"
-	dynasty=8758
-	religion="catholic"
-	culture="italian"
-	father=71636
-	1218.1.1 = {
-		birth="1218.1.1"
-	}
-	1297.1.1 = {
-		death="1297.1.1"
-	}
+   name="Marianu" #II
+   dynasty=1040106 #Bas Serra
+   religion="catholic"
+   culture="italian"
+   father=71636
+   mother=235157 #Sardinia de Salanis
+   1228.1.1 = {
+     birth=yes
+   }
+   1297.1.1 = {
+     death=yes
+   }
 }
 
 144534 = {
-	name="Chiano"
-	dynasty=8758
-	religion="catholic"
-	culture="italian"
-	father=144533
-	1248.1.1 = {
-		birth="1248.1.1"
-	}
-	1304.3.23 = {
-		death="1304.3.23"
-	}
+   name="Chiano"
+   dynasty=1040106 #Bas Serra
+   religion="catholic"
+   culture="italian"
+   father=144533
+   trait="lustful"
+   1248.1.1 = {
+     birth=yes
+   }
+   1266.1.1 = {
+     effect = {
+       add_lover = 235023 #Vera Cappai
+     }
+   }
+   1287.1.1 = {
+     add_spouse=180058
+   }
+   1304.3.23 = {
+     death=yes
+   }
 }
 
 144535 = {
-	name="Amdreotto"
-	dynasty=8758
-	religion="catholic"
-	culture="italian"
-	father=144534
-	1288.1.1 = {
-		birth="1288.1.1"
-	}
-	1308.4.3 = {
-		death="1308.4.3"
-	}
+   name="Andria"
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   trait="bastard"
+   father=144534
+   mother=235023 #Vera Cappai
+   1268.1.1 = {
+     birth=yes
+   }
+   1308.4.3 = {
+     death=yes
+   }
 }
 
 144536 = {
-	name="Mariano"
-	dynasty=8758
-	religion="catholic"
-	culture="italian"
-	father=144534
-	1289.1.1 = {
-		birth="1289.1.1"
-	}
-	1321.1.1 = {
-		death="1321.1.1"
-	}
+   name="Marianu" #III
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   trait="bastard"
+   trait="lustful"
+   father=144534
+   mother=235023 #Vera Cappai
+   1272.1.1 = {
+     birth=yes
+   }
+   1295.1.1 = {
+     effect = {
+       add_lover = 235161 #Padulesa de Serra
+     }
+   }
+   1321.1.1 = {
+     death=yes
+   }
 }
 
 144537 = {
-	name="Ugone"
-	#AKA Hugh
-	dynasty=8758
-	religion="catholic"
-	culture="italian"
-	father=144536
-	1309.1.1 = {
-		birth="1309.1.1"
-	}
-	1336.1.1 = {
-		death="1336.1.1"
-	}
+   name="Ugu" #II
+   #AKA Hugh
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   trait="bastard"
+   trait="lustful"
+   father=144536
+   mother=235161 #Padulesa de Serra
+   1296.1.1 = {
+     birth=yes
+   }
+   1324.1.1 = {
+     add_spouse=235162 #Benedetta de Kerki
+   }
+   1336.1.1 = {
+     death=yes
+   }
 }
 
 144538 = {
-	name="Pietro"
-	#AKA Peter
-	dynasty=8758
-	religion="catholic"
-	culture="italian"
-	father=144537
-	1325.1.1 = {
-		birth="1325.1.1"
-	}
-	1347.1.1 = {
-		death="1347.1.1"
-	}
+   name="Perdu" #III
+   #AKA Peter
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   father=144537
+   mother=235162 #Benedetta de Kerki
+   1325.1.1 = {
+     birth=yes
+   }
+   1347.1.1 = {
+     death=yes
+   }
 }
 
 144539 = {
@@ -1146,42 +1202,35 @@
 		death="1085.1.1"
 	}
 }
-
 20325 = {
-	name="Mariano"
-	dynasty=13037
-	martial=5
-	diplomacy=5
-	intrigue=5
-	stewardship=7
-	religion="catholic"
-	culture="italian"
-	trait="envious"
-	trait="fortune_builder"
-	1019.1.1 = {
-		birth="1019.1.1"
-	}
-	1073.1.1 = {
-		death="1073.1.1"
-	}
+   name="Marianu" #I
+   dynasty=1040103 #de Lacon Zori
+   religion="catholic"
+   culture="italian"
+   father=235136 #Alessandru
+   mother=235212 #Teresa de Zori of Gallura
+   1014.1.1 = {
+     birth=yes
+   }
+   1073.1.1 = {
+     death=yes
+   }
 }
-
 20326 = {
-	name="Torcotore"
-	dynasty=100326
-	martial=8
-	diplomacy=8
-	intrigue=4
-	stewardship=4
-	religion="catholic"
-	culture="italian"
-	trait="scholarly_theologian"
-	1038.1.1 = {
-		birth="1038.1.1"
-	}
-	1089.1.1 = {
-		death="1089.1.1"
-	}
+   name="Orsocorre"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father=235113 #Gonariu
+   1030.1.1 = {
+     birth=yes
+   }
+   1049.1.1 = {
+     add_spouse=235105 #Vera Salusiu de Lacon
+   }
+   1089.1.1 = {
+     death=yes
+   }
 }
 
 20330 = {
@@ -3064,10 +3113,10 @@
 30830 = {
 	name="Gaita" 
 	female=yes
-	dynasty=676
+	# dynasty=676
 	religion="catholic"
 	culture="italian"
-	father=190003
+	# father=190003
 	1058.1.1 = {
 		birth="1058.1.1"
 	}
@@ -4878,14 +4927,14 @@
 	1284.1.1 = {
 		birth="1284.1.1"
 	}
+	1315.1.1 = {
+		add_spouse=71188
+	}
 	1316.1.1 = {
 		add_spouse=70786
 	}
 	1319.1.1 = {
 		add_spouse=70787
-	}
-	1339.1.1 = {
-		add_spouse=71188
 	}
 	1349.1.24 = {
 		death="1349.1.24"
@@ -5354,21 +5403,19 @@
 	name="Obizzo" # Obizzo Spinola di Lucoli, doge of Genoa
 	# AKA: Obizizzino
 	dynasty=50 # Spinola
-
 	religion="catholic"
 	culture="italian"
-
 	father = 91353 # Corrado Spinola
 	mother = 167545 # Argentina Fieschi, d. of Opizzone Fieeschi and Simona.
 	
-	1265.1.1 = {
-		birth="1265.1.1"
+	1266.1.1 = {
+		birth=yes
 	}
 	1285.1.1 = {
 		add_spouse=71188 # Violante di Saluzzo, d. of Tommaso I, marchese di Saluzzo and Aloisia di Ceva
 	}
 	1315.1.1 = {
-		death="1315.1.1"
+		death=yes
 	}
 }
 
@@ -5577,6 +5624,9 @@
 	961.1.2 = {
 		birth="961.1.2"
 	}
+	982.1.1 = {
+		add_spouse = 541
+	}
 	1008.1.2 = {
 		death="1008.1.2"
 	}
@@ -5706,6 +5756,9 @@
 	mother=541
 	983.1.2 = {
 		birth="983.1.2"
+	}
+	1001.1.1={
+		add_spouse=545
 	}
 	1005.1.2 = {
 		death="1005.1.2"
@@ -6652,27 +6705,27 @@
 }
 
 70668 = {
-	name="Guglielmo"
-	dynasty=101830
-	martial=6
-	diplomacy=7
-	intrigue=4
-	stewardship=5
-	religion="catholic"
-	culture="italian"
-	trait="arbitrary"
-	trait="falconer"
-	trait="brilliant_strategist"
-	
-	1225.1.1 = {
-		birth="1225.1.1"
-	}
-	1248.1.1 = {
-		add_spouse=70667
-	}
-	1302.1.1 = {
-		death="1302.1.1"
-	}
+   name="Guglielmo"
+   dynasty=101830
+   martial=6
+   diplomacy=7
+   intrigue=4
+   stewardship=5
+   religion="catholic"
+   culture="italian"
+   trait="arbitrary"
+   trait="falconer"
+   trait="brilliant_strategist"
+   father=235015 #Isnard di Malaspina
+   1225.1.1 = {
+     birth=yes
+   }
+   1248.1.1 = {
+     add_spouse=70667
+   }
+   1302.1.1 = {
+     death=yes
+   }
 }
 
 70669 = {
@@ -10479,7 +10532,7 @@
 	stewardship=5
 	religion="catholic"
 	culture="italian"
-	trait="slow"
+	#trait="slow"
 	trait="imbecile"
 	trait="naive_appeaser"
 	1200.1.1 = {
@@ -11347,7 +11400,7 @@
 	stewardship=7
 	religion="catholic"
 	culture="italian"
-	father=213030
+	#father=213030
 	1122.1.1 = {
 		birth="1122.1.1"
 	}
@@ -13375,11 +13428,11 @@
 	culture="italian"
 	father=71056
 	mother=71058
-	1182.1.1 = {
-		birth="1182.1.1"
+	1183.1.1 = {
+		birth=yes
 	}
 	1210.10.1 = {
-		death="1210.10.1"
+		death=yes
 	}
 }
 
@@ -13940,19 +13993,19 @@
 }
 
 71108 = {
-	name="Caracosa"
-	female=yes
-	dynasty=13041 # doria
-	religion="catholic"
-	culture="italian"
-	father = 71151 # Niccolo Doria
-	# Preziosa di Torres (1208-1231)
-	1222.1.1 = {
-		birth="1222.1.1"
-	}
-	1246.1.1 = {
-		death="1246.1.1"
-	}
+   name="Caracosa"
+   female=yes
+   dynasty=13041 # doria
+   religion="catholic"
+   culture="italian"
+   father = 71151 # Niccolo Doria
+   mother=235205 #Preziosa di Torres (1208-1231)
+   1222.1.1 = {
+     birth=yes
+   }
+   1246.1.1 = {
+     death=yes
+   }
 }
 
 71109 = {
@@ -14760,99 +14813,102 @@
 }
 
 71146 = {
-	name="Comita"
-	dynasty=8691
-	martial=4
-	diplomacy=5
-	intrigue=6
-	stewardship=4
-	religion="catholic"
-	culture="italian"
-	trait="craven"
-	trait="cynical"
-	trait="flamboyant_schemer"
-	#father = 144255
-	#mother = 144254 
-	1154.1.1 = {
-		birth="1154.1.1"
-	}
-	1186.1.1 = {
-		add_spouse=71632
-	}
-	1200.1.1 = {
-		add_spouse=213551
-	}
-	1217.12.1 = {
-		death="1217.12.1"
-	}
+   name="Comita" #III of Torres
+   dynasty=1040099 #de Lacon Gunale
+   martial=4
+   diplomacy=5
+   intrigue=6
+   stewardship=4
+   religion="catholic"
+   culture="italian"
+   trait="craven"
+   trait="cynical"
+   trait="flamboyant_schemer"
+   father = 235193 #Barusone II of Torres
+   mother=235151 #Preziosa de Orrubu
+   1160.1.1 = {
+     birth=yes
+   }
+   1186.1.1 = {
+     add_spouse=71632
+   }
+   1210.1.1 = {
+     add_spouse=213551
+   }
+   1218.1.1 = {
+     death=yes
+   }
 }
 
 71147 = {
-	name="Mariano"
-	dynasty=8691
-	martial=4
-	diplomacy=4
-	intrigue=7
-	stewardship=7
-	religion="catholic"
-	culture="italian"
-	trait="deceitful"
-	trait="quick"
-	trait="fortune_builder"
-	father=71146
-	mother=71632
-	1187.1.1 = {
-		birth="1187.1.1"
-	}
-	1233.1.1 = {
-		death="1233.1.1"
-	}
+   name="Marianu" #II
+   dynasty=1040099 #de Lacon Gunale
+   martial=4
+   diplomacy=4
+   intrigue=7
+   stewardship=7
+   religion="catholic"
+   culture="italian"
+   trait="deceitful"
+   trait="quick"
+   trait="fortune_builder"
+   father=71146
+   mother=71632
+   1189.1.1 = {
+     birth=yes
+   }
+   1206.1.1 = {
+     add_spouse=235017 #Agnesia of Massa
+   }
+   1233.1.1 = {
+     death=yes
+   }
 }
 
 71148 = {
-	name="Maria"
-	female=yes
-	dynasty=8691
-	martial=5
-	diplomacy=6
-	intrigue=6
-	stewardship=4
-	religion="catholic"
-	culture="italian"
-	trait="humble"
-	trait="gregarious"
-	trait="intricate_webweaver"
-	father=71146
-	mother=71632
-	1188.1.1 = {
-		birth="1188.1.1"
-	}
-	1215.1.1 = {
-		death="1215.1.1"
-	}
+   name="Maria"
+   female=yes
+   dynasty=1040099 #de Lacon Gunale
+   martial=5
+   diplomacy=6
+   intrigue=6
+   stewardship=4
+   religion="catholic"
+   culture="italian"
+   trait="humble"
+   trait="gregarious"
+   trait="intricate_webweaver"
+   father=71146
+   mother=71632
+   1187.1.1 = {
+     birth=yes
+   }
+   1215.1.1 = {
+     death=yes
+   }
 }
 
 71149 = {
-	name="Giorgia"
-	female=yes
-	dynasty=8691
-	martial=4
-	diplomacy=6
-	intrigue=4
-	stewardship=7
-	religion="catholic"
-	culture="italian"
-	trait="just"
-	trait="kind"
-	trait="naive_appeaser"
-	father=71146
-	mother=71632
-	1189.1.1 = {
-		birth="1189.1.1"
-	}
-	1240.1.1 = {
-		death="1240.1.1"
-	}
+   name="Giorgia"
+   female=yes
+   dynasty=1040099 #de Lacon Gunale
+   martial=4
+   diplomacy=6
+   intrigue=4
+   stewardship=7
+   religion="catholic"
+   culture="italian"
+   trait="just"
+   trait="kind"
+   trait="naive_appeaser"
+   father=71146
+   mother=71632
+   1188.1.1 = {
+     birth=yes
+   }
+   1240.1.1 = {
+     death=yes
+   }
 }
 
 71150 = {
@@ -14862,91 +14918,95 @@
 	culture="italian"
 	father = 91417 # Niccolo Doria
 	1180.1.1 = {
-		birth="1180.1.1"
+		birth=yes
 	}
-	1205.1.1 = {
+	1204.1.1 = {
 		add_spouse=71149 # Giorgia di Torres
 	}
 	# spouse Alda Vento
 	1260.1.1 = {
-		death="1260.1.1" # before 1287.12.23
+		death=yes # before 1287.12.23
 	}
 }
 
 71151 = {
-	name="Niccolò" # Niccolo Doria
-	dynasty=13041 # Doria
-	religion="catholic"
-	culture="italian"
-	father=71150  # Emmanuele Doria
-	mother=71149 # Giorgia di Torres
-	1207.1.1 = {
-		birth="1207.1.1"
-	}
-	# spouse  Preziosa di Torres (1208-1231)
-	1276.1.1 = {
-		death="1276.1.1"
-	}
+   name="Niccolò" # Niccolo Doria
+   dynasty=13041 # Doria
+   religion="catholic"
+   culture="italian"
+   father=71150  # Emmanuele Doria
+   mother=71149 # Giorgia di Torres
+   1205.1.1 = {
+     birth=yes
+   }
+   1221.1.1 = {
+     add_spouse=235205 #Preziosa di Torres (1208-1231)
+   }
+   1276.1.1 = {
+     death=yes
+   }
 }
 
 71152 = {
-	name="Barisone"
-	dynasty=8691
-	martial=5
-	diplomacy=4
-	intrigue=5
-	stewardship=5
-	religion="catholic"
-	culture="italian"
-	trait="just"
-	trait="chaste"
-	trait="mastermind_theologian"
-	father=71147
-	1210.1.1 = {
-		birth="1210.1.1"
-	}
-	1236.1.1 = {
-		death="1236.1.1"
-	}
+   name="Barusone" #III
+   dynasty=1040099 #de Lacon Gunale
+   martial=5
+   diplomacy=4
+   intrigue=5
+   stewardship=5
+   religion="catholic"
+   culture="italian"
+   trait="just"
+   trait="chaste"
+   trait="mastermind_theologian"
+   father=71147
+   mother=235017 #Agnesia of Massa
+   1210.1.1 = {
+     birth=yes
+   }
+   1236.1.1 = {
+     death=yes
+   }
 }
 
 71153 = {
-	name="Preziosa"
-	female=yes
-	dynasty=8691
-	martial=6
-	diplomacy=6
-	intrigue=4
-	stewardship=6
-	religion="catholic"
-	culture="italian"
-	trait="diligent"
-	trait="quick"
-	trait="martial_cleric"
-	father=71147
-	1219.1.1 = {
-		birth="1219.1.1"
-	}
-	1288.1.1 = {
-		death="1288.1.1"
-	}
+   name="Benedetta"
+   female=yes
+   dynasty=1040099 #de Lacon Gunale
+   martial=6
+   diplomacy=6
+   intrigue=4
+   stewardship=6
+   religion="catholic"
+   culture="italian"
+   trait="diligent"
+   trait="quick"
+   trait="martial_cleric"
+   father=71147
+   mother=235017 #Agnesia of Massa
+   1219.1.1 = {
+     birth=yes
+   }
+   1288.1.1 = {
+     death=yes
+   }
 }
 
 71154 = {
-	name="Brancaleone" # Brancaleone Langudoro
-	# AKA: Ottone
-	dynasty=13041 # Doria
-	religion="catholic"
-	culture="italian"
-	father=71151  # Niccolo Doria
-	# Preziosa di Torres
-	1233.1.1 = {
-		birth="1233.1.1"
-	}
-	# spouse Catarina Zanche (1237-1316), d. of Michele Zanche
-	1325.1.1 = {
-		death="1325.1.1"
-	}
+   name="Brancaleone" # Brancaleone Langudoro
+   # AKA: Ottone
+   dynasty=13041 # Doria
+   religion="catholic"
+   culture="italian"
+   father=71151  # Niccolo Doria
+   mother=235205 #Preziosa di Torres (1208-1231)
+   1230.1.1 = {
+     birth=yes
+   }
+   # spouse Catarina Zanche (1237-1316), d. of Michele Zanche
+   1325.1.1 = {
+     death=yes
+   }
 }
 
 71155 = {
@@ -15070,19 +15130,20 @@
 }
 
 71162 = {
-	name="Adelasia"
-	# wife of Ubaldo II Visconti
-	female=yes
-	dynasty=8691
-	religion="catholic"
-	culture="italian"
-	father=71147
-	1207.1.1={
-		birth="1207.1.1"
-	}
-	1259.1.1={
-		death="1259.1.1"
-	}
+   name="Adelàsia"
+   # wife of Ubaldo II Visconti
+   female=yes
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=71147
+   mother=235017 #Agnesia of Massa
+   1207.1.1={
+     birth=yes
+   }
+   1259.1.1={
+     death=yes
+   }
 }
 
 71163 = {
@@ -15164,20 +15225,20 @@
 }
 
 71167 = {
-	name="Diana"
-	# wife of Peter II of Arborea
-	female=yes
-	dynasty=1042014
-	religion="catholic"
-	culture="italian"
-	father=71165
-	mother=180405
-	1176.1.1={
-		birth="1176.1.1"
-	}
-	1266.1.1={
-		death="1266.1.1"
-	}
+   name="Diana"
+   # wife of Peter II of Arborea
+   female=yes
+   dynasty=1042014
+   religion="catholic"
+   culture="italian"
+   father=71165
+   mother=180405
+   1195.1.1={
+     birth=yes
+   }
+   1226.1.1={
+     death=yes
+   }
 }
 
 71168 = {
@@ -15492,6 +15553,7 @@
 	culture="italian"
 	trait="detached_priest"
 	trait="gregarious"
+	trait=twin
 	father=71181
 	mother=70900
 	1245.1.1 = {
@@ -15516,6 +15578,7 @@
 	culture="italian"
 	trait="naive_appeaser"
 	trait="honest"
+	trait=twin
 	father=71181
 	mother=70900
 	1245.1.1 = {
@@ -15617,10 +15680,10 @@
 	father=71185
 	mother=71038
 	1269.1.1 = {
-		birth="1269.1.1"
+		birth=yes
 	}
-	1313.1.1 = {
-		death="1313.1.1"
+	1315.6.1 = {
+		death=yes
 	}
 }
 
@@ -16193,14 +16256,14 @@
 	culture="italian"
 	trait="bastard"
 	father=420302
-	1300.1.1 = {
-		birth="1300.1.1"
+	1305.1.1 = {
+		birth=yes
 	}
 	1322.1.1 = {
 		add_spouse=71215
 	}
 	1358.1.1 = {
-		death="1358.1.1"
+		death=yes
 	}
 }
 
@@ -16875,10 +16938,10 @@
 	culture="italian"
 	father=71248
 	1070.1.1 = {
-		birth="1070.1.1"
+		birth=yes
 	}
-	1172.1.1 = {
-		death="1172.1.1"
+	1160.1.1 = {
+		death=yes
 	}
 }
 
@@ -18092,28 +18155,27 @@
 }
 
 71307 = {
-	name="Oberto"
-	dynasty=679
-	martial=5
-	diplomacy=7
-	intrigue=4
-	stewardship=5
-	religion="catholic"
-	culture="italian"
-	trait="diligent"
-	trait="gluttonous"
-	trait="underhanded_rogue"
-	father=71306
-	
-	1119.1.1 = {
-		birth="1119.1.1"
-	}
-	1136.1.1 = {
-		add_spouse=71310
-	}
-	1155.1.1 = {
-		death="1155.1.1"
-	}
+   name="Oberto"
+   dynasty=679
+   martial=5
+   diplomacy=7
+   intrigue=4
+   stewardship=5
+   religion="catholic"
+   culture="italian"
+   trait="diligent"
+   trait="gluttonous"
+   trait="underhanded_rogue"
+   father=71306
+   1119.1.1 = {
+     birth=yes
+   }
+   1155.1.1 = {
+     add_spouse=71310
+   }
+   1160.1.1 = {
+     death=yes
+   }
 }
 
 71308 = {
@@ -18161,48 +18223,51 @@
 }
 
 71310 = {
-	name="Giorgia"
-	dynasty=100326
-	female=yes
-	martial=3
-	diplomacy=6
-	intrigue=5
-	stewardship=4
-	religion="catholic"
-	culture="italian"
-	trait="cynical"
-	trait="strong"
-	trait="naive_appeaser"
-	father = 144253
-	1120.1.1 = {
-		birth="1120.1.1"
-	}
-	1180.1.1 = {
-		death="1180.1.1"
-	}
+   name="Giorgia"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   female=yes
+   religion="catholic"
+   culture="italian"
+   trait="strong"
+   father = 144253
+   mother=235231 #Sardinia de Thori (Zori)
+   1132.1.1 = {
+     birth=yes
+   }
+   1180.1.1 = {
+     death=yes
+   }
 }
 
 71311 = {
-	name="Guglielmo"
-	dynasty=679
-	martial=6
-	diplomacy=7
-	intrigue=4
-	stewardship=5
-	religion="catholic"
-	culture="italian"
-	trait="hedonist"
-	trait="wroth"
-	trait="naive_appeaser"
-	father=71307
-	mother=71310
-	
-	1137.1.1 = {
-		birth="1137.1.1"
-	}
-	1214.1.1 = {
-		death="1214.1.1"
-	}
+   name="Guglielmo"
+   dynasty=679
+   martial=6
+   diplomacy=7
+   intrigue=4
+   stewardship=5
+   religion="catholic"
+   culture="italian"
+   trait="hedonist"
+   trait="wroth"
+   trait="naive_appeaser"
+   father=71307
+   mother=71310
+   1160.1.1 = {
+     birth=yes
+   }
+   1182.1.1 = {
+     add_spouse=235014 #Adelasia di Malaspina
+   }
+   1182.1.1 = {
+     dynasty=102017
+   }
+   1207.1.1 = {
+     add_spouse=235016 #Guisiana Guidi
+   }
+   1214.1.1 = {
+     death=yes
+   }
 }
 
 71459 = {
@@ -18232,140 +18297,150 @@
 		death="1368.1.1"
 	}
 }
-
 71631 = {
-	name="Barisone"
-	dynasty=794
-	martial=7
-	diplomacy=6
-	intrigue=5
-	stewardship=5
-	religion="catholic"
-	culture="italian"
-	trait="ambitious"
-	trait="flamboyant_schemer"
-	
-	1121.1.1 = {
-		birth="1121.1.1"
-	}
-	1150.1.1 = {
-		add_spouse=71623
-	}
-	1185.1.1 = {
-		death="1185.1.1"
-	}
+   name="Barusone" #II
+   dynasty=794
+   religion="catholic"
+   culture="italian"
+   trait="ambitious"
+   trait="flamboyant_schemer"
+   father=235147 #Comita III
+   mother=235150 #Elena de Orrubu
+   1130.1.1 = {
+     birth=yes
+   }
+   1145.1.1 = {
+     add_spouse=235194 #Pellegrina de Lacon Gunale of Torres
+   }
+   1157.1.1 = {
+     remove_spouse=235194 #Pellegrina de Lacon Gunale of Torres
+   }#repudiated
+   1157.1.1 = {
+     add_spouse=71623
+   }
+   1185.1.1 = {
+     death=yes
+   }
 }
-
 71632 = {
-	name="Sinispella"
-	dynasty=794
-	female=yes
-	
-	religion="catholic"
-	culture="italian"
-	
-	father=71631
-	mother=71623
-	
-	1151.1.1 = {
-		birth="1151.1.1"
-	}
-	1215.1.1 = {
-		death="1215.1.1"
-	}
+   name="Sinispella"
+   dynasty=794
+   female=yes
+   religion="catholic"
+   culture="italian"
+   father=71631
+   mother=235194 #Pellegrina de Lacon Gunale of Torres
+   1151.1.1 = {
+     birth=yes
+   }
+   1209.1.1 = {
+     death=yes
+   }
 }
-
 71633 = {
-	name="Pietro"
-	dynasty=794
-	martial=5
-	diplomacy=6
-	intrigue=4
-	stewardship=5
-	religion="catholic"
-	culture="italian"
-	trait="bastard"
-	trait="duelist"
-	trait="misguided_warrior"
-	father=71631
-	1153.1.1 = {
-		birth="1153.1.1"
-	}
-	1214.1.1 = {
-		death="1214.1.1"
-	}
+   name="Perdu" #I
+   dynasty=794
+   martial=5
+   diplomacy=6
+   intrigue=4
+   stewardship=5
+   religion="catholic"
+   culture="italian"
+   trait="lustful"
+   trait="duelist"
+   trait="misguided_warrior"
+   father=71631
+   mother=235194 #Pellegrina de Lacon Gunale of Torres
+   1146.1.1 = {
+     birth=yes
+   }
+   1189.1.1 = {
+     add_spouse=235203 #Bina de Lacon Gunale of Torres
+   }
+   1191.1.1 = {
+     remove_spouse=235203 #Bina de Lacon Gunale of Torres
+   }#divorced
+   1214.1.1 = {
+     death=yes
+   }
 }
-
 71634 = {
-	name="Barisone"
-	dynasty=794
-	martial=5
-	diplomacy=7
-	intrigue=6
-	stewardship=4
-	religion="catholic"
-	culture="italian"
-	trait="greedy"
-	trait="envious"
-	trait="intricate_webweaver"
-	father=71633	
-	1179.1.1 = {
-		birth="1179.1.1"
-	}
-	1210.1.1={
-		add_spouse = 144530
-	}
-	1217.1.1 = {
-		death="1217.1.1"
-	}
+   name="Barusone" #III
+   dynasty=794
+   martial=5
+   diplomacy=7
+   intrigue=6
+   stewardship=4
+   religion="catholic"
+   culture="italian"
+   trait="greedy"
+   trait="envious"
+   trait="intricate_webweaver"
+   father=71633
+   mother=235203 #Bina de Lacon Gunale of Torres
+   1190.1.1 = {
+     birth=yes
+   }
+   1214.6.14={
+     add_spouse = 144530
+   }
+   1217.4.20 = {
+     death=yes
+   }
 }
-
 71635 = {
-	name="Ugone"
-	dynasty=8758
-	martial=5
-	diplomacy=6
-	intrigue=6
-	stewardship=6
-	religion="catholic"
-	culture="italian"
-	trait="ambitious"
-	trait="charismatic_negotiator"
-	
-	father=71624
-	mother=71632
-	
-	1168.1.1 = {
-		birth="1168.1.1"
-	}
-	1211.1.1 = {
-		death="1211.1.1"
-	}
+   name="Ugu" #Hugh I
+   dynasty=8758
+   martial=5
+   diplomacy=6
+   intrigue=6
+   stewardship=6
+   religion="catholic"
+   culture="italian"
+   trait="ambitious"
+   trait="charismatic_negotiator"
+   father=71624
+   mother=71632
+   1178.1.1 = {
+     birth=yes
+   }
+   1185.1.1 = {
+     dynasty=1040106 #Bas Serra
+   }
+   1206.1.1 = {
+     add_spouse=235018 #Preziosa of Massa
+   }
+   1211.1.1 = {
+     death=yes
+   }
 }
-
 71636 = {
-	name="Pietro"
-	dynasty=8758
-	martial=6
-	diplomacy=4
-	intrigue=6
-	stewardship=4
-	religion="catholic"
-	culture="italian"
-	trait="just"
-	trait="charitable"
-	trait="indulgent_wastrel"
-	
-	father=71635
-	
-	1198.1.1 = {
-		birth="1198.1.1"
-	}
-	1241.1.1 = {
-		death="1241.1.1"
-	}
+   name="Perdu" #II
+   dynasty=1040106 #Bas Serra
+   martial=6
+   diplomacy=4
+   intrigue=6
+   stewardship=4
+   religion="catholic"
+   culture="italian"
+   trait="just"
+   trait="charitable"
+   trait="indulgent_wastrel"
+   father=71635
+   mother=235018 #Preziosa of Massa
+   1207.1.1 = {
+     birth=yes
+   }
+   1222.1.1 = {
+     add_spouse=71167 #Diana Visconti
+   }
+   1227.1.1 = {
+     add_spouse=235157 #Sardinia de Salanis
+   }
+   1241.1.1 = {
+     death=yes
+   }
 }
-
 71717={
 	name="Violante"
 	female=yes
@@ -20945,6 +21020,9 @@
 	846.1.1 = {
 		birth="846.1.1"
 	}
+	888.1.1={
+		add_spouse=7914
+	}
 	924.1.1 = {
 		death="924.1.1"
 	}
@@ -20963,11 +21041,11 @@
 	trait="patient"
 	trait="zealous"
 	trait="charismatic_negotiator"
-	870.1.1 = {
-		birth="870.1.1"
+	867.1.1 = {
+		birth=yes
 	}
 	916.1.1 = {
-		death="916.1.1"
+		death=yes
 	}
 }
 
@@ -22206,11 +22284,11 @@
 	father = 91353 # Corrado Spinola
 	mother = 167545 # Argentina Fieschi, d. of Opizzone Fieeschi and Simona.
 	
-	1264.1.1 = {
-		birth="1264.1.1"
+	1264.6.1 = {
+		birth=yes
 	}
 	1314.1.1 = {
-		death="1314.1.1"
+		death=yes
 	}
 }
 
@@ -23270,11 +23348,11 @@
 	culture="italian"
 	father=32559
 	mother=32560
-	1244.1.1={
-		birth="1244.1.1"
+	1246.1.1={
+		birth=yes
 	}
 	1302.1.1={
-		death="1302.1.1"
+		death=yes
 	}
 }
 
@@ -29147,10 +29225,10 @@
 	culture="italian"
 	father=170078
 	1278.1.2 = {
-		birth="1277.1.2"
+		birth=yes
 	}
 	1350.1.2 = {
-		death="1350.1.2"
+		death=yes
 	}
 }
 
@@ -29286,15 +29364,12 @@
 	name="Aloisia" # name unknown
 	female=yes
 	dynasty=50 # Spinola
-
 	religion="catholic"
 	culture="italian"
-	
 	father=463550 # Obizzo Spinola di Lucoli, doge of Genoa
 	mother=71188 # Violante di Saluzzo, d. of Tommaso I, marchese di Saluzzo and Aloisia di Ceva
-	
 	1295.1.1 = {
-		birth="1290.1.1"
+		birth=yes #"1290.1.1"
 	}
 	# spouse Filippo di Langusco, count of Pavia
 	1360.1.1 = {
@@ -29394,34 +29469,26 @@
 91361 = {
 	name="Enrico" # Enrico Spinola
 	dynasty=50 # Spinola
-
 	religion="catholic"
 	culture="italian"
-	
 	father = 91358 # Niccolò Spinola
-	
 	1220.1.1 = {
-		birth="1220.1.1"
+		birth=yes
 	}
-	
 	1240.1.1 = {
 		add_spouse = 91364 # Simonetta
 	}
-	
-	1275.1.1 = {
-		death="1280.1.1" # after 1258.11.26
+	1280.1.1 = {
+		death=yes # after 1258.11.26
 	}
 }	
 
 91362 = {
 	name="Bonifazio" # Bonifazio Spinola
 	dynasty=50 # Spinola
-
 	religion="catholic"
 	culture="italian"
-	
 	father = 91358 # Niccolò Spinola
-	
 	1230.1.1 = {
 		birth="1230.1.1"
 	}
@@ -29433,13 +29500,10 @@
 91363 = {
 	name="Cristiano" # Cristiano Spinola
 	dynasty=50 # Spinola
-
 	religion="catholic"
 	culture="italian"
-	
 	father = 91361 # Enrico Spinola
 	mother = 91364 # Simonetta
-	
 	1280.1.1 = {
 		birth="1280.1.1"
 	}
@@ -29612,7 +29676,7 @@
 	}
 	# spouse Pietra Lomellini
 	1345.1.1 = {
-		death="1325.1.1"
+		death=yes
 	}
 }
 
@@ -29663,12 +29727,12 @@
 	religion="catholic"
 	culture="italian"
 	
-	1260.1.1 = {
-		birth="1260.1.1"
+	1252.1.1 = {
+		birth=yes
 	}
 
 	1340.1.1 = {
-		death="1340.1.1"
+		death=yes
 	}
 }
 
@@ -31924,8 +31988,6 @@
 	}
 }
 
-
-
 167535 = {
 	name="Filippa"
 	female=yes
@@ -31972,7 +32034,6 @@
 	}
 }
 
-
 167538 = {
 	name="Robaldo"
 	dynasty=13028
@@ -31987,8 +32048,6 @@
 		death="1128.1.1"
 	}
 }
-
-
 
 167539 = {
 	name="Tedisio"
@@ -32005,8 +32064,6 @@
 	}
 }
 
-
-
 167540 = {
 	name="Ugo"
 	dynasty=13028
@@ -32021,9 +32078,6 @@
 		death="1205.1.1"
 	}
 }
-
-
-
 
 167541 = {
 	name="Opizzone"
@@ -32040,8 +32094,6 @@
 	}
 }
 
-
-
 167542 = {
 	name="Tedisio"
 	dynasty=13028
@@ -32057,8 +32109,6 @@
 	}
 }
 
-
-
 167543 = {
 	name="Gerardo"
 	dynasty=13028
@@ -32073,9 +32123,6 @@
 		death="1158.10.4"
 	}
 }
-
-
-
 
 167544 = {
 	name="Enrico"
@@ -32093,9 +32140,6 @@
 	}
 }
 
-
-
-
 167545 = {
 	name="Argentina"
 	dynasty=13028
@@ -32111,9 +32155,6 @@
 	}
 }
 
-
-
-
 167546 = {
 	name="Ugolino"
 	dynasty=13028
@@ -32127,7 +32168,6 @@
 		death="1281.1.1"
 	}
 }
-
 
 167547 = {
 	name="Tedisio"
@@ -32159,9 +32199,6 @@
 	}
 }
 
-
-
-
 167549 = {
 	name="Vittoria"
 	dynasty=13028
@@ -32176,8 +32213,6 @@
 		death="1292.1.1"
 	}
 }
-
-
 
 167550 = {
 	name="Tedisio" 
@@ -32195,8 +32230,6 @@
 	}
 }
 
-
-
 167551 = {
 	name="Leonardo" 
 	dynasty=8733 #Zaccaria
@@ -32205,16 +32238,13 @@
 	father=31450
 	mother=167548
 	1270.1.1 = {
-		birth="1270.1.1"
+		birth=yes
 	}
 	
 	1291.5.9 = {
-		death="1391.5.9"
+		death=yes
 	}
 }
-
-
-
 
 167552 = {
 	name="Odoardo" 
@@ -32232,10 +32262,6 @@
 	}
 }
 
-
-
-
-
 167553 = {
 	name="Manfredo" 
 	dynasty=8733 #Zaccaria
@@ -32252,8 +32278,6 @@
 	}
 }
 
-
-
 167554 = {
 	name="Alberto"
 	dynasty=13028
@@ -32268,9 +32292,6 @@
 		death="1270.1.1"
 	}
 }
-
-
-
 
 167555 = {
 	name="Federigo"
@@ -32287,8 +32308,6 @@
 	}
 }
 
-
-
 167556 = {
 	name="Eliana"
 	dynasty=13028
@@ -32303,8 +32322,6 @@
 		death="1325.1.1"
 	}
 }
-
-
 
 167557 = {
 	name="Percivallio"
@@ -32321,8 +32338,6 @@
 	}
 }
 
-
-
 167558 = {
 	name="Agnese"
 	dynasty=13028
@@ -32337,9 +32352,6 @@
 		death="1283.1.1"
 	}
 }
-
-
-
 
 167559 = {
 	name="Carlo"
@@ -32357,9 +32369,6 @@
 	}
 }
 
-
-
-
 167560 = {
 	name="Carlo"
 	dynasty=13028
@@ -32375,8 +32384,6 @@
 	}
 }
 
-
-
 167561 = {
 	name="Federigo"
 	dynasty=13028
@@ -32391,8 +32398,6 @@
 		death="1315.1.1"
 	}
 }
-
-
 
 167562 = {
 	name="Teodoro"
@@ -32410,9 +32415,6 @@
 	}
 }
 
-
-
-
 167563 = {
 	name="Ugo"
 	#placeholder
@@ -32428,9 +32430,6 @@
 		death="1354.1.1"
 	}
 }
-
-
-
 
 167564 = {
 	name="Ottobuono"
@@ -32448,9 +32447,6 @@
 	}
 }
 
-
-
-
 167565 = {
 	name="Tedisio"
 	#placeholder
@@ -32466,8 +32462,6 @@
 		death="1360.1.1"
 	}
 }
-
-
 
 167566 = {
 	name="Ugo"
@@ -32485,8 +32479,6 @@
 	}
 }
 
-
-
 167567 = {
 	name="Gerardo"
 	#placeholder
@@ -32502,8 +32494,6 @@
 		death="1110.1.1"
 	}
 }
-
-
 
 167568 = {
 	name="Oppizone"
@@ -32521,7 +32511,6 @@
 	}
 }
 
-
 167569 = {
 	name="Oberto"
 	#placeholder
@@ -32537,8 +32526,6 @@
 		death="1150.1.1"
 	}
 }
-
-
 
 167570 = {
 	name="Carlo"
@@ -32613,8 +32600,6 @@
 	}
 }
 
-
-
 167575 = {
 	name="Benedetto"
 	dynasty=514
@@ -32628,9 +32613,6 @@
 		death="1207.1.1"
 	}
 }
-
-
-
 
 167576 = {
 	name="Marino"
@@ -32646,9 +32628,6 @@
 	}
 }
 
-
-
-
 167577 = {
 	name="Francesco"
 	dynasty=514
@@ -32663,7 +32642,6 @@
 	}
 }
 
-
 167578 = {
 	name="Leonardo"
 	dynasty=514
@@ -32677,8 +32655,6 @@
 		death="1305.1.1"
 	}
 }
-
-
 
 167579 = {
 	name="Vitale"
@@ -32695,8 +32671,6 @@
 	}
 }
 
-
-
 167580 = {
 	name="Michele"
 	#placeholder
@@ -32711,8 +32685,6 @@
 		death="1120.1.1"
 	}
 }
-
-
 
 167581 = {
 	name="Ordelaffo"
@@ -32729,8 +32701,6 @@
 	}
 }
 
-
-
 167582 = {
 	name="Domenico"
 	#placeholder
@@ -32742,12 +32712,9 @@
 		birth="1095.1.1"
 	}
 	1150.1.1 = {
-		death="1155.1.1"
+		death=yes
 	}
 }
-
-
-
 
 167583 = {
 	name="Ordelaffo"
@@ -32762,9 +32729,6 @@
 		death="1065.1.1"
 	}
 }
-
-
-
 
 167584 = {
 	name="Pietro"
@@ -32781,7 +32745,6 @@
 	}
 }
 
-
 167585 = {
 	name="Ordelaffo"
 	dynasty=514
@@ -32796,8 +32759,6 @@
 	}
 }
 
-
-
 167586 = {
 	name="Jacopo"
 	dynasty=514
@@ -32811,8 +32772,6 @@
 		death="1240.1.1"
 	}
 }
-
-
 
 167587 = {
 	name="Bianca"
@@ -32829,8 +32788,6 @@
 	}
 }
 
-
-
 167588 = {
 	name="Marino"
 	dynasty=514
@@ -32845,8 +32802,6 @@
 	}
 }
 
-
-
 167589 = {
 	name="Vitale"
 	dynasty=514
@@ -32860,9 +32815,6 @@
 		death="1355.1.1"
 	}
 }
-
-
-
 
 167590 = {
 	name="Ipolitta"
@@ -32879,10 +32831,6 @@
 	}
 }
 
-
-
-
-
 167591 = {
 	name="Domenico"
 	dynasty=514
@@ -32897,9 +32845,6 @@
 	}
 }
 
-
-
-
 167592 = {
 	name="Pietro"
 	dynasty=514
@@ -32913,9 +32858,6 @@
 		death="1340.1.1"
 	}
 }
-
-
-
 
 167593 = {
 	name="Bonifacio"
@@ -32960,8 +32902,6 @@
 	}
 }
 
-
-
 167596 = {
 	name="Andrea"
 	#placeholder
@@ -32976,8 +32916,6 @@
 		death="1080.1.1"
 	}
 }
-
-
 
 167597 = {
 	name="Carlo"
@@ -32994,7 +32932,6 @@
 	}
 }
 
-
 167598 = {
 	name="Domenico"
 	#placeholder
@@ -33009,7 +32946,6 @@
 		death="1115.1.1"
 	}
 }
-
 
 167599 = {
 	name="Ambrogio"
@@ -33026,9 +32962,6 @@
 	}
 }
 
-
-
-
 167600 = {
 	name="Giacomo"
 	#placeholder
@@ -33043,9 +32976,6 @@
 		death="1155.1.1"
 	}
 }
-
-
-
 
 167601 = {
 	name="Iacopo"
@@ -33062,8 +32992,6 @@
 	}
 }
 
-
-
 167602 = {
 	name="Domenico"
 	dynasty=516
@@ -33077,9 +33005,6 @@
 		death="1215.1.1"
 	}
 }
-
-
-
 
 167603 = {
 	name="Domenico"
@@ -33096,9 +33021,6 @@
 	}
 }
 
-
-
-
 167604 = {
 	name="Gaspare"
 	#placeholder
@@ -33113,9 +33035,6 @@
 		death="1310.1.1"
 	}
 }
-
-
-
 
 167605 = {
 	name="Andrea"
@@ -33132,8 +33051,6 @@
 	}
 }
 
-
-
 167606 = {
 	name="Nicola"
 	dynasty=516
@@ -33148,9 +33065,6 @@
 	}
 }
 
-
-
-
 167607 = {
 	name="Andrea"
 	dynasty=516
@@ -33164,8 +33078,6 @@
 		death="1382.6.5"
 	}
 }
-
-
 
 167608 = {
 	name="Abbondanzio"
@@ -33182,8 +33094,6 @@
 	}
 }
 
-
-
 167609 = {
 	name="Galeotto"
 	#placeholder
@@ -33198,7 +33108,6 @@
 		death="1115.1.1"
 	}
 }
-
 
 167610 = {
 	name="Ricciarda"
@@ -33216,9 +33125,6 @@
 	}
 }
 
-
-
-
 167611 = {
 	name="Gaspare"
 	#placeholder
@@ -33233,8 +33139,6 @@
 		death="1110.1.1"
 	}
 }
-
-
 
 167612 = {
 	name="Giacomo"
@@ -33251,9 +33155,6 @@
 	}
 }
 
-
-
-
 167613 = {
 	name="Abbondanzio"
 	#placeholder
@@ -33268,9 +33169,6 @@
 		death="1170.1.1"
 	}
 }
-
-
-
 
 167614 = {
 	name="Galeotto"
@@ -33287,10 +33185,6 @@
 	}
 }
 
-
-
-
-
 167615 = {
 	name="Giacomo"
 	#placeholder
@@ -33305,8 +33199,6 @@
 		death="1205.1.1"
 	}
 }
-
-
 
 167616 = {
 	name="Fausta"
@@ -33324,8 +33216,6 @@
 	}
 }
 
-
-
 167617 = {
 	name="Amalia"
 	female=yes
@@ -33342,8 +33232,6 @@
 	}
 }
 
-
-
 167618 = {
 	name="Simone"
 	#placeholder
@@ -33358,9 +33246,6 @@
 		death="1190.1.1"
 	}
 }
-
-
-
 
 167619 = {
 	name="Pietro"
@@ -33377,8 +33262,6 @@
 	}
 }
 
-
-
 167620 = {
 	name="Giberto"
 	#placeholder
@@ -33394,10 +33277,6 @@
 	}
 }
 
-
-
-
-
 167621 = {
 	name="Oberto"
 	#placeholder
@@ -33412,10 +33291,6 @@
 		death="1280.1.1"
 	}
 }
-
-
-
-
 
 167622 = {
 	name="Maddalena"
@@ -33433,8 +33308,6 @@
 	}
 }
 
-
-
 167623 = {
 	name="Abbondanzio"
 	#placeholder
@@ -33450,8 +33323,6 @@
 	}
 }
 
-
-
 167624 = {
 	name="Domenico"
 	dynasty=516
@@ -33465,11 +33336,6 @@
 		death="1315.1.1"
 	}
 }
-
-
-
-
-
 
 167625 = {
 	name="Iacopo"
@@ -33486,9 +33352,6 @@
 	}
 }
 
-
-
-
 167626 = {
 	name="Domenico"
 	#placeholder
@@ -33503,9 +33366,6 @@
 		death="1357.1.1"
 	}
 }
-
-
-
 
 167627 = {
 	name="Giuseppa"
@@ -33523,8 +33383,6 @@
 	}
 }
 
-
-
 167628 = {
 	name="Gaspare"
 	#placeholder
@@ -33539,9 +33397,6 @@
 		death="1362.1.1"
 	}
 }
-
-
-
 
 167629 = {
 	name="Oberto"
@@ -33883,7 +33738,7 @@
 	religion="catholic"
 	culture="italian"
 	father=182017
-	1240.1.1= {
+	1230.1.1= {
 		birth=yes
 	}
 	1301.1.1 = {
@@ -33925,11 +33780,11 @@
 	religion="catholic"
 	culture="italian"
 	father=182020
-	1243.1.1= {
-		birth="1243.1.1"
+	1248.1.1= {
+		birth=yes
 	}
 	1314.1.1 = {
-		death="1314.1.1"
+		death=yes
 	}
 }
 182024 = {
@@ -34024,11 +33879,11 @@
 	culture="italian"
 	father=182029
 	1308.1.1= {
-		birth="1308.1.1"
+		birth=yes
 	}
 	#doge from june to death
 	1382.10.16 = {
-		death="1382.1.1"
+		death=yes
 	}
 }
 182031 = {
@@ -34559,22 +34414,22 @@
 	}
 }
 180025 = {
-	name="Tedice"
-	# Tedice V, Count of Castagneto & Settimo
-	dynasty=13031
-	religion="catholic"
-	culture="italian"
-	father=180024
-	mother=180511
-	1093.1.1={
-		birth="1093.1.1"
-	}
-	1142.1.1={
-		add_spouse=180183
-	}
-	1157.1.1={
-		death="1157.1.1"
-	}
+   name="Tedice"
+   # Tedice V, Count of Castagneto & Settimo
+   dynasty=13031
+   religion="catholic"
+   culture="italian"
+   father=180024
+   mother=180511
+   1093.1.1={
+     birth=yes
+   }
+   1150.1.1={
+     add_spouse=180183
+   }
+   1157.1.1={
+     death=yes
+   }
 }
 180026 = {
 	name="Tedice"
@@ -34874,8 +34729,8 @@
 	culture="italian"
 	father=180025
 	mother=180183
-	1145.1.1={
-		birth="1145.1.1"
+	1151.1.1={
+		birth=yes
 	}
 	1185.1.1={
 		add_spouse=180509
@@ -34901,18 +34756,18 @@
 	}
 }
 180058 = {
-	name="Enrico"
-	female=yes
-	dynasty=13031
-	religion="catholic"
-	culture="italian"
-	father=73454
-	1238.1.1={
-		birth="1238.1.1"
-	}
-	1306.1.1={
-		death="1306.1.1"
-	}
+   name="Giacomina" #d. of Ugolino della Gherardesca, wife of John of Arborea
+   female=yes
+   dynasty=13031
+   religion="catholic"
+   culture="italian"
+   father=73454
+   1258.1.1={
+     birth=yes
+   }
+   1329.2.12={
+     death=yes
+   }
 }
 180059 = {
 	name="Bianca"
@@ -35251,10 +35106,10 @@
 	culture="italian"
 	father=180081
 	1220.1.1={
-		birth="1220.1.1"
+		birth=yes
 	}
-	1254.1.1={
-		death="1254.1.1"
+	1259.1.1={
+		death=yes
 	}
 }
 180083 = {
@@ -35413,19 +35268,19 @@
 	}
 }
 180093 = {
-	name="Contessa"
-	# wife of Anselmo, Count of Capraia
-	female=yes
-	dynasty=13031
-	religion="catholic"
-	culture="italian"
-	father=180081
-	1228.1.1={
-		birth="1228.1.1"
-	}
-	1265.1.1={
-		death="1265.1.1"
-	}
+   name="Teccia"
+   # wife of Anselmo, Count of Capraia
+   female=yes
+   dynasty=13031
+   religion="catholic"
+   culture="italian"
+   father=180081
+   1228.1.1={
+     birth=yes
+   }
+   1265.1.1={
+     death=yes
+   }
 }
 180094 = {
 	name="Tancredi"
@@ -35572,12 +35427,12 @@
 	religion="catholic"
 	culture="italian"
 	father=180096
-	1232.1.1={
-		birth="1232.1.1"
+	1220.1.1={
+		birth=yes
 	}
 	# married Nella Todini
 	1268.1.1={
-		death="1268.1.1"
+		death=yes
 	}
 }
 180105 = {
@@ -36286,7 +36141,9 @@
 	1105.1.1={
 		birth="1105.1.1"
 	}
-	# married Ermilia Latereto
+	1134.1.1={
+		add_spouse=180506
+	}
 	1182.1.1={
 		death="1182.1.1"
 	}
@@ -36615,19 +36472,20 @@
 	}
 }
 180183 = {
-	name="Preziosa"
-	# daughter of Salusio III, Giudice of Cagliari, wife of Tedice della Gherardesca
-	female=yes
-	dynasty=100326
-	religion="catholic"
-	culture="italian"
-	father=144253
-	1125.1.1={
-		birth="1125.1.1"
-	}
-	1193.1.1={
-		death="1193.1.1"
-	}
+   name="Preziosa"
+   # daughter of Salusio III, Giudice of Cagliari, wife of Tedice della Gherardesca
+   female=yes
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father=144253
+   mother=235231 #Sardinia de Thori (Zori)
+   1133.1.1={
+     birth=yes
+   }
+   1193.1.1={
+     death=yes
+   }
 }
 180184 = {
 	name="Matea"
@@ -36721,12 +36579,13 @@
 	religion="catholic"
 	culture="italian"
 	father=91353
-	mother=167545
-	1280.1.1={
-		birth="1290.1.1"
+	#mother=167545 # date's too late
+	trait="legit_bastard" # guess
+	1290.1.1={
+		birth=yes
 	}
 	1349.1.1={
-		death="1349.1.1"
+		death=yes
 	}
 }
 180191 = {
@@ -36758,18 +36617,19 @@
 	}
 }
 180193 = {
-	name="Giulitta"
-	# wife of Ugo della Gherardesca, Count of Suvereto
-	female=yes
-	dynasty=13021
-	religion="catholic"
-	culture="italian"
-	1020.1.1={
-		birth="1020.1.1"
-	}
-	1101.1.1={
-		death="1101.1.1"
-	}
+   name="Giulitta"
+   # wife of Ugo della Gherardesca, Count of Suvereto
+   female=yes
+   dynasty=13021
+   religion="catholic"
+   culture="italian"
+   father=235006 #Guglielmo, Margrave of Massa
+   1020.1.1={
+     birth=yes
+   }
+   1101.1.1={
+     death=yes
+   }
 }
 180194 = {
 	name="Matilde"
@@ -37151,76 +37011,91 @@
 	}
 }
 180405 = {
-	name="Giuseppa"
-	# daughter of Torchitorio III, Giudice of Cagliari, wife of Eldizio Visconti
-	female=yes
-	dynasty=8691
-	religion="catholic"
-	culture="italian"
-	father=144526
-	1156.1.1={
-		birth="1156.1.1"
-	}
-	1221.1.1={
-		death="1221.1.1"
-	}
+   name="Giuseppa"
+   # daughter of Torchitorio III, Giudice of Cagliari, wife of Eldizio Visconti
+   female=yes
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=144526
+   mother=144524
+   1156.1.1={
+     birth=yes
+   }
+   1221.1.1={
+     death=yes
+   }
 }
 180409 = {
-	name="Constantino"
-	# Constantine III, Giudice of Gallura 1146-1161
-	dynasty=1042015
-	religion="catholic"
-	culture="italian"
-	1119.1.1={
-		birth="1119.1.1"
-	}
-	1172.1.1={
-		death="1172.1.1"
-	}
+   name="Costantìnu"
+   # Constantine III, Giudice of Gallura
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235230 #Izocor
+   mother=235225 #Maria Spanu
+   1141.1.1={
+     birth=yes
+   }
+   1155.1.1={
+     add_spouse=235152 #Elena de Lacon Serra of Arborea
+   }
+   1160.1.1={
+     add_spouse=235195 #Sardinia de Lacon Gunale Torres
+   }
+   1173.1.1={
+     death=yes
+   }
 }
 180410 = {
-	name="Barisone"
-	# Barisone II, Giudice of Gallura 1161-1203
-	dynasty=1042015
-	religion="catholic"
-	culture="italian"
-	father=180409
-	1145.1.1={
-		birth="1145.1.1"
-	}
-	1203.1.1={
-		death="1203.1.1"
-	}
+   name="Barusone"
+   # Barisone II, Giudice of Gallura
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=180409
+   mother=235152 #Elena de Lacon Serra of Arborea
+   1156.1.1={
+     birth=yes
+   }
+   1175.1.1={
+     add_spouse=180413
+   }
+   1203.1.1={
+     death=yes
+   }
 }
 180411 = {
-	name="Elena"
-	# Giudicessa of Gallura, 1203-1217, wife of Lamberto Visconti
-	female=yes
-	dynasty=1042015
-	religion="catholic"
-	culture="italian"
-	father=180410
-	mother=180413
-	1185.1.1={
-		birth="1185.1.1"
-	}
-	1218.1.1={
-		death="1218.1.1"
-	}
+   name="Elena"
+   # Giudicessa of Gallura, 1203-1217, wife of Lamberto Visconti
+   female=yes
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=180410
+   mother=180413
+   1185.1.1={
+     birth=yes
+   }
+   1218.1.1={
+     death=yes
+   }
 }
 180413 = {
-	name="Elena"
-	# wife of Barisone II, Giudice of Gallura
-	female=yes
-	dynasty=8691
-	religion="catholic"
-	culture="italian"
-	1157.1.1={
-		birth="1157.1.1"
-	}
-	1205.1.1={
-		death="1205.1.1"
-	}
+   name="Elena"
+   # wife of Barisone II, Giudice of Gallura
+   female=yes
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235193 #Barusone II of Torres
+   mother=235151 #Preziosa de Orrubu
+   1157.1.1={
+     birth=yes
+   }
+   1205.1.1={
+     death=yes
+   }
 }
 
 170109 = {
@@ -37457,13 +37332,13 @@
 	father = 91412 # Genualdo
 	
 	1090.1.1={
-		birth="1090.1.1" # unknown
+		birth=yes # unknown
 	}
 	1130.1.1 = {
 		add_spouse = 73706 # Anna Grimaldi
 	}
 	1177.1.1={
-		death="1077.1.1" # after 1163
+		death=yes # after 1163
 	}
 }
 
@@ -37847,24 +37722,22 @@
 	}
 }
 
-
-# New 
 91435 = {
-	name="Mariano" # Mariano Doria
-	dynasty=13041 # Doria
+   name="Mariano" # Mariano Doria
+   dynasty=13041 # Doria
 
-	religion="catholic"
-	culture="italian"
+   religion="catholic"
+   culture="italian"
 
-	father=71151  # Niccolo Doria
-	# Preziosa di Torres
+   father=71151  # Niccolo Doria
+   mother=235205 #Preziosa di Torres (1208-1231)
 
-	1235.1.1 = {
-		birth="1235.1.1"
-	}
-	1285.1.1 = {
-		death="1285.1.1" #  before 23 dec 1287
-	}
+   1231.1.1 = {
+     birth=yes
+   }
+   1285.1.1 = {
+     death=yes #  before 23 dec 1287
+   }
 }
 
 91436 = { 
@@ -37942,10 +37815,8 @@
 91440 = {
 	name="Niccolò" # Niccolo Doria
 	dynasty=13041 # Doria
-
 	religion="catholic"
 	culture="italian"
-
 	father=91435  # Mariano Doria
 
 	1260.1.1 = {
@@ -37957,76 +37828,62 @@
 }
 
 91441 = {
-	name="Andrea" # Andrea Doria
-	dynasty=13041 # Doria
-
-	religion="catholic"
-	culture="italian"
-
-	father=71151  # Niccolo Doria
-	# Preziosa di Torres (1208-1231)
-
-	1224.1.1 = {
-		birth="1224.1.1"
-	}
-	# spouse  Susanna di Lacon, d. of Barisone II judge of Torres
-	1290.1.1 = {
-		death="1290.1.1"
-	}
+   name="Andrea" # Andrea Doria
+   dynasty=13041 # Doria
+   religion="catholic"
+   culture="italian"
+   father=71151  # Niccolo Doria
+   mother=235205 #Preziosa di Torres (1208-1231)
+   1224.1.1 = {
+     birth=yes
+   }
+   1290.1.1 = {
+     death=yes
+   }
 }
 
 91442 = {
-	name="Niccolò" # Niccolo Doria
-	dynasty=13041 # Doria
-
-	religion="catholic"
-	culture="italian"
-
-	father=71151  # Niccolo Doria
-	# Preziosa di Torres (1208-1231)
-
-	1225.1.1 = {
-		birth="1225.1.1" # unknown
-	}
-	1285.1.1 = {
-		death="1285.1.1" # before 1287.12.23
-	}
+   name="Niccolò" # Niccolo Doria
+   dynasty=13041 # Doria
+   religion="catholic"
+   culture="italian"
+   father=71151  # Niccolo Doria
+   mother=235205 #Preziosa di Torres (1208-1231)
+   1225.1.1 = {
+     birth=yes # unknown
+   }
+   1285.1.1 = {
+     death=yes # before 1287.12.23
+   }
 }
 
 91443 = {
-	name="Barisone" # Barisone Doria
-	dynasty=13041 # Doria
-
-	religion="catholic"
-	culture="italian"
-
-	father=71151  # Niccolo Doria
-	# Preziosa di Torres (1208-1231)
-
-	1226.1.1 = {
-		birth="1226.1.1" # unknown
-	}
-	1285.1.1 = {
-		death="1285.1.1" # before 1287.12.23
-	}
+   name="Barisone" # Barisone Doria
+   dynasty=13041 # Doria
+   religion="catholic"
+   culture="italian"
+   father=71151  # Niccolo Doria
+   mother=235205 #Preziosa di Torres (1208-1231)
+   1226.1.1 = {
+     birth=yes # unknown
+   }
+   1285.1.1 = {
+     death=yes# before 1287.12.23
+   }
 }
-
 91444 = {
-	name="Petriono" # Petriono Doria
-	dynasty=13041 # Doria
-
-	religion="catholic"
-	culture="italian"
-
-	father=71151  # Niccolo Doria
-	# Preziosa di Torres (1208-1231)
-
-	1227.1.1 = {
-		birth="1227.1.1" # unknown
-	}
-	1285.1.1 = {
-		death="1285.1.1" # before 1287.12.23
-	}
+   name="Petriono" # Petriono Doria
+   dynasty=13041 # Doria
+   religion="catholic"
+   culture="italian"
+   father=71151  # Niccolo Doria
+   mother=235205 #Preziosa di Torres (1208-1231)
+   1227.1.1 = {
+     birth=yes # unknown
+   }
+   1285.1.1 = {
+     death=yes # before 1287.12.23
+   }
 }
 
 91445 = {
@@ -38456,18 +38313,19 @@
 	}
 }
 180514 = {
-	name="Maddalena"	# fictional placeholder
-	# wife of Guido Visconti
-	female=yes
-	dynasty=1042036
-	religion="catholic"
-	culture="italian"
-	1101.1.1={
-		birth="1101.1.1"
-	}
-	1147.1.1={
-		death="1147.1.1"
-	}
+   name="Maddalena"   # fictional placeholder
+   # wife of Guido Visconti
+   female=yes
+   dynasty=1042036
+   religion="catholic"
+   culture="italian"
+   father=235031 #Ugo da Parlascio Ebriaco
+   1101.1.1={
+     birth=yes
+   }
+   1147.1.1={
+     death=yes
+   }
 }
 180515 = {
 	name="Virginia"	# fictional placeholder
@@ -38626,10 +38484,10 @@
 	father = 91343 # Guido
 	mother = 91344 # Alda
 	1130.1.1 = {
-		birth="1130.1.1" # unknown
+		birth=yes # unknown
 	}
 	1185.1.1 = {
-		death="1200.1.1" # after 1159
+		death=yes # "1200.1.1" # after 1159
 	}
 }
 
@@ -39457,28 +39315,28 @@
 }
 
 184008 = {
-	name="Gavino"
-	dynasty=1042807
-	religion="catholic"
-	culture="italian"
-	845.1.1={
-		birth="845.1.1"
-	}
-	890.1.1={
-		death="890.1.1"
-	}
+   name="Gavini"
+   dynasty=1042807
+   religion="catholic"
+   culture="italian"
+   840.1.1={
+     birth=yes
+   }
+   900.1.1={
+     death=yes
+   }
 }
 184009 = {
-	name="Lucio"
-	dynasty=1042808
-	religion="catholic"
-	culture="italian"
-	839.1.1={
-		birth="839.1.1"
-	}
-	880.1.1={
-		death="880.1.1"
-	}
+   name="Loce"
+   dynasty=1042808
+   religion="catholic"
+   culture="italian"
+   839.1.1={
+     birth=yes
+   }
+   900.1.1={
+     death=yes
+   }
 }
 
 20380 = {
@@ -39510,14 +39368,14 @@
 	religion=catholic
 	culture=italian
 	father=145926
-	765.1.1={
-		birth=765.1.1
+	761.1.1={
+		birth=yes
 	}
 	777.1.1={
 		add_spouse=184021
 	}
 	827.1.1={
-		death=827.1.1
+		death=yes
 	}
 }
 184021={
@@ -39525,8 +39383,8 @@
 	female=yes
 	religion=catholic
 	culture=italian
-	766.1.1={
-		birth=766.1.1
+	760.1.1={
+		birth=yes
 	}
 	830.1.1={
 		death=830.1.1
@@ -39766,13 +39624,13 @@
 	religion=catholic
 	culture=italian
 	780.1.1={
-		birth=780.1.1
+		birth=yes
 	}
 	812.1.1={
 		add_spouse=184035
 	}
 	850.1.1={
-		death=870.1.1
+		death=yes
 	}
 }
 184035={
@@ -39809,8 +39667,8 @@
 	female=yes
 	religion=catholic
 	culture=italian
-	828.1.1={
-		birth=828.1.1
+	824.1.1={
+		birth=yes
 	}
 	890.1.1={
 		death=890.1.1
@@ -39991,11 +39849,11 @@
 	female=yes
 	religion=catholic
 	culture=italian
-	945.1.1={
-		birth=945.1.1
+	940.1.1={
+		birth=yes
 	}
 	975.1.1={
-		death=975.1.1
+		death=yes
 	}
 }
 184050={
@@ -40239,10 +40097,10 @@
 	religion=catholic
 	culture=italian
 	996.1.2 = {
-		birth="996.1.1"
+		birth=yes
 	}
 	1060.1.1 = {
-		death="1053.1.1"
+		death=yes #"1053.1.1"
 	}
 }
 184073={
@@ -40539,20 +40397,18 @@
 }
 
 167896 = {
-	name="Bonifacio"
-	dynasty=803
-	religion="catholic"
-	culture="italian"
-	760.1.1 = {
-		birth="760.1.1"
-	}
-	823.10.5 = {
-		death="823.10.5"
-	}
+   name="Bonifacio"
+   dynasty=803
+   religion="catholic"
+   culture="italian"
+   father=235007 #Adalberto
+   760.1.1 = {
+     birth=yes
+   }
+   823.10.5 = {
+     death=yes
+   }
 }
-
-
-
 
 167897 = {
 	name="Bonifacio"
@@ -40838,7 +40694,7 @@
 	}
 	
 	911.9.1 = {
-		death="911.1.1"
+		death=yes
 	}
 }
 
@@ -41699,10 +41555,10 @@
 	father=167981
 	mother=168006
 	923.1.1 = {
-		birth="923.1.1"
+		birth=yes
 	}
 	957.7.1 = {
-		death="957.1.1"
+		death=yes
 	}
 }
 
@@ -42257,31 +42113,29 @@
 }
 
 145908 = {
-	name="Lucio"
-	dynasty=1022320
-	religion="catholic"
-	culture="italian"
-
-	741.1.1={
-		birth="741.1.1"
-	}
-	804.1.1={
-		death="804.1.1"
-	}
+   name="Lucia"
+   dynasty=1022322
+   religion="catholic"
+   culture="italian"
+   741.1.1={
+     birth=yes
+   }
+   804.1.1={
+     death=yes
+   }
 }
 
 145909 = {
-	name="Euphemio"
-	dynasty=1022321
-	religion="catholic"
-	culture="italian"
-
-	749.1.1={
-		birth="749.1.1"
-	}
-	809.1.1={
-		death="809.1.1"
-	}
+   name="Euphemio"
+   dynasty=1022321
+   religion="catholic"
+   culture="italian"
+   749.1.1={
+     birth=yes
+   }
+   809.1.1={
+     death=yes
+   }
 }
 
 145910 = {
@@ -42592,22 +42446,6 @@
 		death=yes
 	}
 }
-200140={
-	name="Mariano"
-	dynasty=8758
-
-	father=144537
-
-	religion=catholic
-	culture=italian
-
-	1329.1.1={
-		birth=yes
-	}
-	1375.1.1={
-		death=yes
-	}
-}
 200334={
 	name=Teodora
 	female=yes
@@ -42754,13 +42592,13 @@
 	1266.1.1={
 		employer = 217266
 	}#First meeting with Kublai
-	1269.1.1={
-		employer = 32127
-	}#Return to Venice
 	1266.1.1={
 		employer = 217266
 		effect={add_friend=217266}
 	}#Return to Kublai's Court
+	1269.1.1={
+		employer = 32127
+	}#Return to Venice
 	1295.1.1={
 		employer = 32130
 	}#Return to Venice
@@ -42920,7 +42758,7 @@
 
 214090 = {
 	name="Leonardo"
-	dynasty=214020 # Fibonacci
+	dynasty=1044407 # Fibonacci
 	religion="catholic"
 	culture="italian"
 	trait=genius
@@ -42944,7 +42782,7 @@
 
 214091 = {
 	name="Durante" # Dante
-	dynasty=214021 # degli Alighieri
+	dynasty=1044410 # degli Alighieri
 	religion="catholic"
 	culture="italian"
 	trait=genius
@@ -42958,6 +42796,7 @@
 	}
 	1266.2.26={ employer=455406 }
 	1280.1.1= { employer=73411 }
+	1287.1.1 = { effect={ add_friend=73460 } } #Nino Visconti
 	1300.1.1= { employer=73412	}
 	1302.3.1= { employer=70802 } # Verona
 	1308.1.1= { employer=412072 } # Parma
@@ -42969,7 +42808,7 @@
 
 214092 = {
 	name="Franceso" # Petrarch
-	dynasty=214022
+	dynasty=1044406
 	religion="catholic"
 	culture="italian"
 	trait=genius
@@ -42991,7 +42830,7 @@
 
 214093 = {
 	name="Giovanni"
-	dynasty=214023 # Boccaccio
+	dynasty=1044405 # Boccaccio
 	religion="catholic"
 	culture="italian"
 	trait=genius
@@ -43191,4 +43030,3285 @@
 	1062.2.2={
 		death=yes
 	}
+}
+
+235000 = {
+   name="Druda" #first wife of Costantino II of Torres
+   female=yes
+   dynasty=269
+   religion="catholic"
+   culture="catalan"
+   1152.1.1 = {
+     birth=yes
+   }
+   1171.1.1 = {
+     death=yes
+   }
+}
+235001 = {
+   name="Prunisinda" #second wife of Costantino II of Torres
+   female=yes
+   dynasty=10025
+   religion="catholic"
+   culture="catalan"
+   1155.1.1 = {
+     birth=yes
+   }
+   1195.1.1 = {
+     death=yes
+   }
+}
+
+235004 = {
+   name="Adalberto" #II of Ivrea
+   dynasty=681
+   religion="catholic"
+   culture="italian"
+   father=1110
+   945.1.1 = {
+     birth=yes
+   }
+   990.1.1 = {
+     death=yes
+   }
+}
+235005 = {
+   name="Sambucuccio" #I
+   dynasty=1040082 #di Alando
+   religion="catholic"
+   culture="italian"
+   940.1.1 = {
+     birth=yes
+   }
+   1012.1.1 = {
+     death=yes
+   }
+}
+235006 = {
+   name="Guglielmo"
+   # Guglielmo, Margrave of Massa, father of 180193
+   dynasty=13021
+   religion="catholic"
+   culture="italian"
+   father=70632
+   978.1.1={
+     birth=yes
+   }
+   1021.1.1={
+     death=yes
+   }
+}
+235007 = {
+   name="Adalberto"
+   dynasty=803
+   religion="catholic"
+   culture="italian"
+   737.1.1 = {
+     birth=yes
+   }
+   776.1.1 = {
+     death=yes
+   }
+}
+235008 = {
+   name="Ghiberto"
+   dynasty=13021
+   religion="catholic"
+   culture="italian"
+   father=235006 #Guglielmo of Massa
+   998.1.1={
+     birth=yes
+   }
+   1062.1.1={
+     death=yes
+   }
+}
+235009 = {
+   name="Giovanni"
+   dynasty=13021
+   religion="catholic"
+   culture="italian"
+   father=235008 #Ghiberto of Massa
+   1040.1.1={
+     birth=yes
+   }
+   1094.1.1={
+     death=yes
+   }
+}
+235010 = {
+   name="Marco"
+   dynasty=13021
+   religion="catholic"
+   culture="italian"
+   father=235009 #Giovanni of Massa
+   1060.1.1={
+     birth=yes
+   }
+   1112.1.1={
+     death=yes
+   }
+}
+235011 = {
+   name="Giorgia"
+   female=yes
+   dynasty=1040083 #de Unale of Naples
+   religion="catholic"
+   culture="italian"
+   1105.1.1 = {
+     birth=yes
+   }
+   1124.1.1 = {
+     death=yes
+   }
+}
+235012 = {
+   name="Moroello" ##Moroello di Malaspina
+   dynasty=101830
+   religion="catholic"
+   culture="italian"
+   1122.1.1={
+     birth=yes
+   }
+   1186.1.1={
+     death=yes
+   }
+}
+235013 = {
+   name="Guglielmo" ##Guglielmo I di Malaspina
+   dynasty=101830
+   religion="catholic"
+   culture="italian"
+   father=235012 #Moroello
+   1153.1.1={
+     birth=yes
+   }
+   1209.1.1={
+     death=yes
+   }
+}
+235014 = {
+   name="Adelasia" ##first wife of Guglielmo I of Cagliari
+   female=yes
+   dynasty=101830
+   religion="catholic"
+   culture="italian"
+   father=235012 #Moroello
+   1165.1.1={
+     birth=yes
+   }
+   1206.1.1={
+     death=yes
+   }
+}
+235015 = {
+   name="Isnard" ##Isnard di Malaspina, father of 70668
+   dynasty=101830
+   religion="catholic"
+   culture="italian"
+   father=235013 #Guglielmo I
+   1177.1.1={
+     birth=yes
+   }
+   1237.1.1={
+     death=yes
+   }
+}
+235016 = {
+   name="Guisiana"   # fictional placeholder
+   # daughter of Count Guido Guerra III Guidi, second wife of William I of Cagliari
+   female=yes
+   dynasty=1042027
+   religion="catholic"
+   culture="italian"
+   1176.1.1={
+     birth=yes
+   }
+   1229.1.1={
+     death=yes
+   }
+}
+235017 = {
+   name="Agnesia" #Wife of Mariano II of Torres
+   dynasty=102017
+   female = yes
+   religion="catholic"
+   culture="italian"
+   father=71311
+   mother=235014 #Adelasia di Malaspina
+   1187.1.1 = {
+     birth=yes
+   }
+   1252.1.1 = {
+     death=yes
+   }
+}
+235018 = {
+   name="Preziosa" #Wife of Hugh I of Arborea
+   dynasty=102017
+   female = yes
+   religion="catholic"
+   culture="italian"
+   father=71311
+   mother=235014 #Adelasia di Malaspina
+   1190.1.1 = {
+     birth=yes
+   }
+   1241.1.1 = {
+     death=yes
+   }
+}
+235019 = {
+   name="Giovanni" #Father of William III of Cagliari
+   dynasty=1040084 #Cipolla
+   religion="catholic"
+   culture="italian"
+   1210.1.1 = {
+     birth=yes
+   }
+   1230.1.1 = {
+     add_spouse=235156 #Maria de Lacon Serra
+   }
+   1258.1.1 = {
+     death=yes
+   }
+}
+235020 = {
+   name="Guglielmo" #William III of Cagliari
+   dynasty=1040084 #Cipolla
+   religion="catholic"
+   culture="italian"
+   father=235019 #Giovanni Cipolla
+   mother=235156 #Maria de Lacon Serra
+   1231.1.1 = {
+     birth=yes
+   }
+   1256.1.1 = {
+     death=yes
+   }
+}
+235021 = {
+   name="Rinaldo"
+   dynasty=1040084 #Cipolla
+   religion="catholic"
+   culture="italian"
+   father=235019 #Giovanni Cipolla
+   mother=235156 #Maria de Lacon Serra
+   1234.1.1 = {
+     birth=yes
+   }
+   1284.1.1 = {
+     death=yes
+   }
+}
+
+235022 = {
+   name="Rinaldo" #Fourth Husband of Benedetta of Cagliari
+   dynasty=1040085 #Glandi
+   religion="catholic"
+   culture="italian"
+   1184.1.1={
+     birth=yes
+   }
+   1230.1.1 = {
+     add_spouse=144530 #Benedetta of Cagliari
+   }
+   1240.1.1={
+     death=yes
+   }
+}
+
+235023 = {
+   name="Vera" #lover of John of Arborea
+   female=yes
+   dynasty=1040086 #Cappai
+   religion="catholic"
+   culture="italian"
+   trait="lustful"
+   1250.1.1={
+     birth=yes
+   }
+   1314.1.1={
+     death=yes
+   }
+}
+
+#Capraia Family
+235024 = {
+   name="Ugo" #Henry Capraia Count of Prato
+   dynasty=1040087 #Capraia
+   religion="catholic"
+   culture="italian"
+   1170.1.1={
+     birth=yes
+   }
+   1193.1.1 = {
+     add_spouse=235203 #Bina de Lacon Gunale of Torres
+   }
+   1227.1.1 = {
+     add_spouse=144530 #Benedetta of Cagliari
+   }
+   1228.1.1={
+     death=yes
+   }
+}
+235025 = {
+   name="Guglielmo" #William Capraia Count of Prato
+   dynasty=1040087 #Capraia
+   religion="catholic"
+   culture="italian"
+   father=235024 #Ugo
+   mother=235203 #Bina de Lacon Gunale of Torres
+   1195.1.1={
+     birth=yes
+   }
+   1264.1.1={
+     death=yes
+   }
+}
+235026 = {
+   name="Niccolò" #Nicholas Capraia Count of Prato
+   dynasty=1040087 #Capraia
+   religion="catholic"
+   culture="italian"
+   father=235025 #Guglielmo
+   1221.1.1={
+     birth=yes
+   }
+   1274.1.1={
+     death=yes
+   }
+}
+235027 = {
+   name="Bertoldo" #Berthold Capraia
+   dynasty=1040087 #Capraia
+   religion="catholic"
+   culture="italian"
+   father=235024 #Ugo
+   mother=235203 #Bina de Lacon Gunale of Torres
+   1197.1.1={
+     birth=yes
+   }
+   1237.1.1={
+     add_spouse= 180063
+   }
+   1255.1.1={
+     death=yes
+   }
+}
+235028 = {
+   name="Anselmo" #Anselm Capraia
+   dynasty=1040087 #Capraia
+   religion="catholic"
+   culture="italian"
+   father=235024 #Ugo
+   mother=235203 #Bina de Lacon Gunale of Torres
+   1202.1.1={
+     birth=yes
+   }
+   1255.1.1={
+     death=yes
+   }
+}
+235029 = {
+   name="Anselmo" #Anselm Capraia Count of Prato
+   dynasty=1040087 #Capraia
+   religion="catholic"
+   culture="italian"
+   father=235027 #Bertoldo
+   mother= 180063
+   1238.1.1={
+     birth=yes
+   }
+   1253.1.1={
+     add_spouse=180093
+   }
+   1287.1.1={
+     death=yes
+   }
+}
+235030 = {
+   name="Anselmo" #mentionned in Dante's Inferno
+   dynasty=1040087 #Capraia
+   religion="catholic"
+   culture="italian"
+   father=235029 #Anselmo
+   mother= 180093
+   trait="kind"
+   trait="just"
+   trait="honest"
+   1254.1.1={
+     birth=yes
+   }
+   1288.1.1={
+     death=yes
+   }
+}
+
+235031 = {
+   name="Ugo" #Ugo da Parlascio Ebriaco
+   dynasty=1042036 #da Parlascio
+   religion="catholic"
+   culture="italian"
+   1078.1.1={
+     birth=yes
+   }
+   1136.5.30={
+     death=yes
+   }
+}
+235032 = {
+   name="Maria" #wife of Gonario II of Torres
+   female=yes
+   dynasty=1042036 #da Parlascio
+   religion="catholic"
+   culture="italian"
+   father=235031 #Ugo da Parlascio Ebriaco
+   1114.1.1={
+     birth=yes
+   }
+   1173.1.1={
+     death=yes
+   }
+}
+235033 = {
+   name="Andrea" # Andrea Doria
+   dynasty=13041 # Doria
+   religion="catholic"
+   culture="italian"
+   father=91417  # Niccolo Doria
+   1176.1.1 = {
+     birth=yes
+   }
+   1192.1.1 = {
+     add_spouse=235201
+   } #Susanna de Lacon Gunale, d. of Barisone II judge of Torres
+   1235.1.1 = {
+     death=yes
+   }
+}
+
+#Counts of Cinarca
+
+235034 = {
+   name="Cinarco"
+   dynasty=803
+   religion="catholic"
+   culture="italian"
+   father=167896
+   795.1.1 = {
+     birth=yes
+   }
+   828.1.1 = {
+     dynasty=1040088 #di Cinarca
+   }
+   854.1.1 = {
+     death=yes
+   }
+}
+235035 = {
+   name="Oliviero"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235034 #Cinarco
+   833.1.1 = {
+     birth=yes
+   }
+   889.1.1 = {
+     death=yes
+   }
+}
+235036 = {
+   name="Rinaldo"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235035 #Oliviero
+   864.1.1 = {
+     birth=yes
+   }
+   928.1.1 = {
+     death=yes
+   }
+}
+235037 = {
+   name="Guglielmo"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235036 #Rinaldo
+   898.1.1 = {
+     birth=yes
+   }
+   963.1.1 = {
+     death=yes
+   }
+}
+235038 = {
+   name="Forte"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235037 #Guglielmo
+   936.1.1 = {
+     birth=yes
+   }
+   1001.1.1 = {
+     death=yes
+   }
+}
+235039 = {
+   name="Antonio"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235038 #Forte
+   988.1.1 = {
+     birth=yes
+   }
+   1014.1.1 = {
+     add_spouse=235040 #Bianca Colonna
+   }
+   1062.1.1 = {
+     death=yes
+   }
+}
+235040 = {
+   name="Bianca"
+   female=yes
+   dynasty=13019 #Colonna
+   religion="catholic"
+   culture="italian"
+   998.1.1 = {
+     birth=yes
+   }
+   1069.1.1 = {
+     death=yes
+   }
+}
+235041 = {
+   name="Andrea"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235039 #Antonio
+   mother=235040 #Bianca Colonna
+   1020.1.1 = {
+     birth=yes
+   }
+   1092.1.1 = {
+     death=yes
+   }
+}
+235042 = {
+   name="Arrigo" #Arrigo I da Cuzza
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235039 #Antonio
+   mother=235040 #Bianca Colonna
+   1035.1.1 = {
+     birth=yes
+   }
+   1113.1.1 = {
+     death=yes
+   }
+}
+235043 = {
+   name="Arrigo" #II
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235041 #Andrea
+   1060.1.1 = {
+     birth=yes
+   }
+   1101.1.1 = {
+     add_spouse=235217
+   }#Francesca of Gallura
+   1132.1.1 = {
+     death=yes
+   }
+}
+235044 = {
+   name="Diotiaiuti"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235043 #Arrigo II
+   mother=235217 #Francesca of Gallura
+   1102.1.1 = {
+     birth=yes
+   }
+   1189.1.1 = {
+     death=yes
+   }
+}
+235045 = {
+   name="Arrigo" #III
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235044 #Diotiaiuti
+   1145.1.1 = {
+     birth=yes
+   }
+   1185.1.1 = {
+     add_spouse=235047 #Agnesina Biancolaccio
+   }
+   1201.1.1 = {
+     death=yes
+   }
+}
+235046 = {
+   name="Opizzo"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235044 #Diotiaiuti
+   1150.1.1 = {
+     birth=yes
+   }
+   1201.1.1 = {
+     add_spouse=235047 #Agnesina Biancolaccio
+   }
+   1225.1.1 = {
+     death=yes
+   }
+}
+235047 = {
+   name="Agnesina"
+   female=yes
+   dynasty=1040089 #Biancolaccio
+   religion="catholic"
+   culture="italian"
+   1165.1.1 = {
+     birth=yes
+   }
+   1215.1.1 = {
+     death=yes
+   }
+}
+235048 = {
+   name="Arrigo" #IV
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235045 #Arrigo III
+   1178.1.1 = {
+     birth=yes
+   }
+   1198.1.1 = {
+     add_spouse=235049 #Sibilia
+   }
+   1255.1.1 = {
+     death=yes
+   }
+}
+235049 = {
+   name="Sibilia"
+   female=yes
+   dynasty=1040090 #di Cozzi
+   religion="catholic"
+   culture="italian"
+   1183.1.1 = {
+     birth=yes
+   }
+   1243.1.1 = {
+     death=yes
+   }
+}
+235050 = {
+   name="Guglielmo"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235045 #Arrigo III
+   1182.1.1 = {
+     birth=yes
+   }
+   1212.1.1 = {
+     add_spouse=235051 #Filidora da Covasina
+   }
+   1257.1.1 = {
+     death=yes
+     give_nickname = nick_the_martyr
+   }
+}
+235051 = {
+   name="Filidora"
+   female=yes
+   dynasty=1040091 #da Covasina
+   religion="catholic"
+   culture="italian"
+   1196.1.1 = {
+     birth=yes
+   }
+   1242.1.1 = {
+     death=yes
+   }
+}
+235052 = {
+   name="Guido"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235045 #Arrigo III
+   1184.1.1 = {
+     birth=yes
+   }
+   1258.1.1 = {
+     death=yes
+   }
+}
+235053 = {
+   name="Rinieri" #II
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235052 #Guido
+   1245.1.1 = {
+     birth=yes
+   }
+   1325.1.1 = {
+     death=yes
+   }
+}
+235054 = {
+   name="Arrigo"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235052 #Guido
+   1228.1.1 = {
+     birth=yes
+   }
+   1295.1.1 = {
+     death=yes
+   }
+}
+235055 = {
+   name="Arrigo" #V
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235048 #Arrigo IV
+   mother=235049 #Sibilia
+   1204.1.1 = {
+     birth=yes
+   }
+   1285.1.1 = {
+     death=yes
+   }
+}
+235056 = {
+   name="Arrigo" #VI
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235055 #Arrigo V
+   1264.1.1 = {
+     birth=yes
+   }
+   1330.1.1 = {
+     death=yes
+   }
+}
+235057 = {
+   name="Ristoruccio"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235056 #Arrigo VI
+   1280.1.1 = {
+     birth=yes
+   }
+   1355.1.1 = {
+     death=yes
+   }
+}
+235058 = {
+   name="Guglielminuccio"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235056 #Arrigo VI
+   1283.1.1 = {
+     birth=yes
+   }
+   1360.1.1 = {
+     death=yes
+   }
+}
+235059 = {
+   name="Lupacciolo"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235058 #Guglielminuccio
+   1303.1.1 = {
+     birth=yes
+   }
+   1337.1.1 = {
+     death=yes
+   }
+}
+235060 = {
+   name="Arriguccio"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235056 #Arrigo VI
+   1285.1.1 = {
+     birth=yes
+   }
+   1322.1.1 = {
+     death=yes
+   }
+}
+235061 = {
+   name="Branca"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235056 #Arrigo VI
+   1290.1.1 = {
+     birth=yes
+   }
+   1369.1.1 = {
+     death=yes
+   }
+}
+235062 = {
+   name="Giudice"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235061 #Branca
+   1326.1.1 = {
+     birth=yes
+   }
+   1393.1.1 = {
+     death=yes
+   }
+}
+235063 = {
+   name="Giudicello"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235056 #Arrigo VI
+   1292.1.1 = {
+     birth=yes
+   }
+   1357.1.1 = {
+     death=yes
+   }
+}
+235064 = {
+   name="Ghilfuccio"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235056 #Arrigo VI
+   1330.1.1 = {
+     birth=yes
+   }
+   1387.1.1 = {
+     death=yes
+   }
+}
+235065 = {
+   name="Giudicello"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235056 #Arrigo VI
+   1292.1.1 = {
+     birth=yes
+   }
+   1357.1.1 = {
+     death=yes
+   }
+}
+235066 = {
+   name="Opessinello"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235055 #Arrigo V
+   1268.1.1 = {
+     birth=yes
+   }
+   1325.1.1 = {
+     death=yes
+   }
+}
+235067 = {
+   name="Rinuccio"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235055 #Arrigo V
+   1273.1.1 = {
+     birth=yes
+   }
+   1320.1.1 = {
+     death=yes
+   }
+}
+235068 = {
+   name="Rinieri" #I di Cozzi
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235048 #Arrigo IV
+   mother=235049 #Sibilia
+   1209.1.1 = {
+     birth=yes
+   }
+   1265.1.1 = {
+     add_spouse=235080 #Torquatella di Cinarca
+   }
+   1290.11.1 = {
+     death=yes
+   }
+}
+235069 = {
+   name="Giudice" #aka Sinucello
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235050 #Guglielmo
+   mother=235051 #Filidora da Covasina
+   1213.1.1 = {
+     birth=yes
+   }
+   1304.1.1 = {
+     death=yes
+   }
+}
+235070 = {
+   name="Truffetta" #Lord of Ornano
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235050 #Guglielmo
+   mother=235051 #Filidora da Covasina
+   1215.1.1 = {
+     birth=yes
+   }
+   1236.1.1 = {
+     add_spouse=235071 #Nicrosa di Ornano
+   }
+   1289.1.1 = {
+     death=yes
+   }
+}
+235071 = {
+   name="Nicrosa"
+   female=yes
+   dynasty=1040092 #di Ornano
+   religion="catholic"
+   culture="italian"
+   1219.1.1 = {
+     birth=yes
+   }
+   1267.1.1 = {
+     death=yes
+   }
+}
+235072 = {
+   name="Guglielmo" #Lord of Ornano
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235070 #Truffetta
+   mother=235071 #Nicrosa di Ornano
+   1246.1.1 = {
+     birth=yes
+   }
+   1268.1.1 = {
+     add_spouse=235073 #Rinalda di Istria
+   }
+   1312.1.1 = {
+     death=yes
+   }
+}
+235073 = {
+   name="Rinalda"
+   female=yes
+   dynasty=1040093 #di Istria
+   religion="catholic"
+   culture="italian"
+   1252.1.1 = {
+     birth=yes
+   }
+   1301.1.1 = {
+     death=yes
+   }
+}
+235074 = {
+   name="Lupo" #Lord of Ornano
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235072 #Guglielmo
+   mother=235073 #Rinalda di Istria
+   1272.1.1 = {
+     birth=yes
+   }
+   1340.1.1 = {
+     death=yes
+   }
+}
+235075 = {
+   name="Orlando" #Lord of Ornano
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235074 #Lupo
+   1290.1.1 = {
+     birth=yes
+   }
+   1347.1.1 = {
+     death=yes
+   }
+}
+235076 = {
+   name="Nicolò" #Lord of Ornano
+   dynasty=1040092 #di Ornano
+   religion="catholic"
+   culture="italian"
+   father=235075 #Orlando
+   1312.1.1 = {
+     birth=yes
+   }
+   1370.1.1 = {
+     death=yes
+   }
+}
+235077 = {
+   name="Giovanni" #Lord of Ornano
+   dynasty=1040093 #di Ornano
+   religion="catholic"
+   culture="italian"
+   father=235075 #Orlando
+   1316.1.1 = {
+     birth=yes
+   }
+   1348.1.1 = {
+     death=yes
+   }
+}
+235078 = {
+   name="Restorcello" #Lord of Bozzi
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235072 #Guglielmo
+   mother=235073 #Rinalda di Istria
+   1289.1.1 = {
+     birth=yes
+   }
+   1362.1.1 = {
+     death=yes
+   }
+}
+235079 = {
+   name="Latro"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235072 #Guglielmo
+   mother=235073 #Filidora da Covasina
+   1293.1.1 = {
+     birth=yes
+   }
+   1367.1.1 = {
+     death=yes
+   }
+}
+235080 = {
+   name="Torquatella"
+   female=yes
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235069 #Giudice Sinucello
+   1250.1.1 = {
+     birth=yes
+   }
+   1318.1.1 = {
+     death=yes
+   }
+}
+235081 = {
+   name="Arriguccio" #originator of the della Rocca
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   add_trait="bastard"
+   father=235069 #Giudice Sinucello
+   1260.1.1 = {
+     birth=yes
+   }
+   1325.1.1 = {
+     death=yes
+   }
+}
+235082 = {
+   name="Guglielmo"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235081 #Arriguccio
+   1289.1.1 = {
+     birth=yes
+   }
+   1310.1.1 = {
+     dynasty=101840 #della Rocca
+   }
+   1354.1.1 = {
+     death=yes
+   }
+}
+235083 = {
+   name="Arrigo"
+   dynasty=101840 #della Rocca
+   religion="catholic"
+   culture="italian"
+   father=235082 #Guglielmo
+   1330.1.1 = {
+     birth=yes
+   }
+   1401.6.1 = {
+     death=yes
+   }
+}
+235084 = {
+   name="Rosterello"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235081 #Arriguccio
+   1292.1.1 = {
+     birth=yes
+   }
+   1318.1.1 = {
+     death=yes
+   }
+}
+235085 = {
+   name="Gottifredo"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235081 #Arriguccio
+   1295.1.1 = {
+     birth=yes
+   }
+   1347.1.1 = {
+     death=yes
+   }
+}
+235086 = {
+   name="Rinieri" #III di Cozzi
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235068 #Rinieri I
+   mother=235080 #Torquatella di Cinarca
+   1270.1.1 = {
+     birth=yes
+   }
+   1355.1.1 = {
+     death=yes
+   }
+}
+235087 = {
+   name="Guglielmo"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235068 #Rinieri I
+   mother=235080 #Torquatella di Cinarca
+   1272.1.1 = {
+     birth=yes
+   }
+   1319.1.1 = {
+     death=yes
+   }
+}
+235088 = {
+   name="Artilia"
+   female=yes
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235068 #Rinieri I
+   mother=235080 #Torquatella di Cinarca
+   1275.1.1 = {
+     birth=yes
+   }
+   1348.1.1 = {
+     death=yes
+   }
+}
+235089 = {
+   name="Guglielmo"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235086 #Rinieri III di Cozzi
+   1328.1.1 = {
+     birth=yes
+   }
+   1402.1.1 = {
+     death=yes
+   }
+}
+235090 = {
+   name="Suzzone"
+   dynasty=1040088 #di Cinarca
+   religion="catholic"
+   culture="italian"
+   father=235086 #Rinieri III di Cozzi
+   1330.1.1 = {
+     birth=yes
+   }
+   1407.1.1 = {
+     death=yes
+   }
+}
+
+#Pre-Giudicadi
+
+235091 = {
+   name="Salluri"
+   dynasty=100326
+   religion="catholic"
+   culture="italian"
+   790.1.1={
+     birth=yes
+   }
+   860.1.1={
+     death=yes
+   }
+}
+235092 = {
+   name="Matia"
+   dynasty=100325
+   religion="catholic"
+   culture="italian"
+   793.1.1={
+     birth=yes
+   }
+   862.1.1={
+     death=yes
+   }
+}
+235093 = {
+   name="Saraginu"
+   dynasty=1040094 #di Gallura
+   religion="catholic"
+   culture="italian"
+   842.1.1={
+     birth=yes
+   }
+   900.1.1={
+     death=yes
+   }
+}
+235094 = {
+   name="Austinu"
+   dynasty=1040095 #di Logudoro
+   religion="catholic"
+   culture="italian"
+   839.1.1={
+     birth=yes
+   }
+   900.1.1={
+     death=yes
+   }
+}
+235095 = {
+   name="Nicola"
+   dynasty=1040096 #di Agugliastra
+   religion="catholic"
+   culture="italian"
+   832.1.1={
+     birth=yes
+   }
+   900.1.1={
+     death=yes
+   }
+}
+
+#Agugliastra
+235096 = {
+   name="Salusiu"
+   dynasty=1040097 #Salusiu de Lacon
+   religion="catholic"
+   culture="italian"
+   885.1.1 = {
+     birth=yes
+   }
+   949.1.1 = {
+     death=yes
+   }
+}
+235097 = {
+   name="Ambròsu"
+   dynasty=1040097 #Salusiu de Lacon
+   religion="catholic"
+   culture="italian"
+   father=235096 #Salusiu
+   915.1.1 = {
+     birth=yes
+   }
+   976.1.1 = {
+     death=yes
+   }
+}
+235098 = {
+   name="Gòsamu"
+   dynasty=1040097 #Salusiu de Lacon
+   religion="catholic"
+   culture="italian"
+   father=235097 #Ambròsu
+   942.1.1 = {
+     birth=yes
+   }
+   998.1.1 = {
+     death=yes
+   }
+}
+235099 = {
+   name="Alessandro"
+   dynasty=1040097 #Salusiu de Lacon
+   religion="catholic"
+   culture="italian"
+   father=235098 #Gòsamu
+   960.1.1 = {
+     birth=yes
+   }
+   1029.1.1 = {
+     death=yes
+   }
+}
+235100 = {
+   name="Basili"
+   dynasty=1040097 #Salusiu de Lacon
+   religion="catholic"
+   culture="italian"
+   father=235099 #Alessandro
+   980.1.1 = {
+     birth=yes
+   }
+   1048.1.1 = {
+     death=yes
+   }
+}
+235101 = {
+   name="Armannu"
+   dynasty=1040097 #Salusiu de Lacon
+   religion="catholic"
+   culture="italian"
+   father=235100 #Basili
+   1015.1.1 = {
+     birth=yes
+   }
+   1070.1.1 = {
+     death=yes
+   }
+}
+235102 = {
+   name="Giorgia"
+   female=yes
+   dynasty=1040097 #Salusiu de Lacon
+   religion="catholic"
+   culture="italian"
+   father=235101 #Armannu
+   1050.1.1 = {
+     birth=yes
+   }
+   1109.1.1 = {
+     death=yes
+   }
+}
+235103 = {
+   name="Ubertu"
+   dynasty=1040097 #Salusiu de Lacon
+   religion="catholic"
+   culture="italian"
+   father=235099 #Alessandro
+   982.1.1 = {
+     birth=yes
+   }
+   1029.1.1 = {
+     death=yes
+   }
+}
+235104 = {
+   name="Mariano" #I
+   dynasty=1040097 #Salusiu de Lacon
+   religion="catholic"
+   culture="italian"
+   father=235103 #Ubertu
+   1000.1.1 = {
+     birth=yes
+   }
+   1018.1.1 = {
+     add_spouse=235110 #Bibiana Torchitoriu de Ugunale
+   }
+   1058.1.1 = {
+     death=yes
+   }
+}
+235105 = {
+   name="Vera"
+   female=yes
+   dynasty=1040097 #Salusiu de Lacon
+   religion="catholic"
+   culture="italian"
+   father=235104 #Mariano I
+   mother=235110 #Bibiana Torchitoriu de Ugunale
+   1034.1.1 = {
+     birth=yes
+   }
+   1098.1.1 = {
+     death=yes
+   }
+}
+
+#Cagliari
+
+235106 = {
+   name="Torchitoriu"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   882.1.1 = {
+     birth=yes
+   }
+   945.1.1 = {
+     death=yes
+   }
+}
+235107 = {
+   name="Thurungone"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father=235106 #Torchitoriu
+   920.1.1 = {
+     birth=yes
+   }
+   974.1.1 = {
+     death=yes
+   }
+}
+235108 = {
+   name="Ramundu"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father=235107 #Thurungone
+   947.1.1 = {
+     birth=yes
+   }
+   999.1.1 = {
+     death=yes
+   }
+}
+235109 = {
+   name="Bernardu"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father=235108 #Ramundu
+   970.1.1 = {
+     birth=yes
+   }
+   1020.1.1 = {
+     death=yes
+   }
+}
+235110 = {
+   name="Bibiana"
+   female=yes
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father=235109 #Bernardu
+   1003.1.1 = {
+     birth=yes
+   }
+   1067.1.1 = {
+     death=yes
+   }
+}
+235111 = {
+   name="Egizu"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father=235107 #Thurungone
+   953.1.1 = {
+     birth=yes
+   }
+   995.1.1 = {
+     death=yes
+   }
+}
+235112 = {
+   name="Carule"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father=235111 #Egizu
+   988.1.1 = {
+     birth=yes
+   }
+   1019.1.1 = {
+     death=yes
+   }
+}
+235113 = {
+   name="Gonariu"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father=235112 #Carule
+   1012.1.1 = {
+     birth=yes
+   }
+   1050.1.1 = {
+     death=yes
+   }
+}
+235114 = {
+   name="Pedru"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father = 20326
+   mother=235105 #Vera Salusiu
+   1052.1.1 = {
+     birth=yes
+   }
+   1120.1.1 = {
+     death=yes
+   }
+}
+235115 = {
+   name="Serighe"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father = 20326
+   mother=235105 #Vera Salusiu
+   1055.1.1 = {
+     birth=yes
+   }
+   1121.1.1 = {
+     death=yes
+   }
+}
+235116 = {
+   name="Orsocorre"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father = 20326
+   mother=235105 #Vera Salusiu
+   1058.1.1 = {
+     birth=yes
+   }
+   1123.1.1 = {
+     death=yes
+   }
+}
+235117 = {
+   name="Gonariu"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father = 20326
+   mother=235105 #Vera Salusiu
+   1061.1.1 = {
+     birth=yes
+   }
+   1125.1.1 = {
+     death=yes
+   }
+}
+235118 = {
+   name="Torbinu"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father = 20326
+   mother=235105 #Vera Salusiu
+   trait="gluttonous"
+   trait="underhanded_rogue"
+   trait="indulgent_wastrel"
+   trait="brave"
+   trait="inspiring_leader"
+   1065.1.1 = {
+     birth=yes
+   }
+   1130.2.13 = {
+     death=yes
+   }
+}
+235119 = {
+   name="Elena"
+   female=yes
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father = 144251
+   mother=235102 #Giorgia Salusiu de Lacon
+   1067.1.1 = {
+     birth=yes
+   }
+   1088.1.1 = {
+     death=yes
+   }
+}
+235120 = {
+   name="Ittocorre"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father = 144251
+   mother=235102 #Giorgia Salusiu de Lacon
+   1069.1.1 = {
+     birth=yes
+   }
+   1112.1.1 = {
+     death=yes
+   }
+}
+235121 = {
+   name="Vera"
+   female=yes
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father = 144251
+   mother=235102 #Giorgia Salusiu de Lacon
+   1072.1.1 = {
+     birth=yes
+   }
+   1126.1.1 = {
+     death=yes
+   }
+}
+235122 = {
+   name="Serighe"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father = 144251
+   mother=235102 #Giorgia Salusiu de Lacon
+   1075.1.1 = {
+     birth=yes
+   }
+   1141.1.1 = {
+     death=yes
+   }
+}
+235123 = {
+   name="Orsocorre"
+   dynasty=1040098 #Torchitoriu de Ugunale
+   religion="catholic"
+   culture="italian"
+   father = 144251
+   mother=235102 #Giorgia Salusiu de Lacon
+   1095.1.1 = {
+     birth=yes
+   }
+   1164.1.1 = {
+     death=yes
+   }
+}
+
+#Arborea
+235124 = {
+   name="Abisatu"
+   dynasty=8691 #de Lacon
+   religion="catholic"
+   culture="italian"
+   884.1.1 = {
+     birth=yes
+   }
+   943.1.1 = {
+     death=yes
+   }
+}
+235125 = {
+   name="Enzu"
+   dynasty=8691 #de Lacon
+   religion="catholic"
+   culture="italian"
+   father=235124 #Abisatu
+   903.1.1 = {
+     birth=yes
+   }
+   973.1.1 = {
+     death=yes
+   }
+}
+235126 = {
+   name="Gajetànu"
+   dynasty=8691 #de Lacon
+   religion="catholic"
+   culture="italian"
+   father=235125 #Enzu
+   932.1.1 = {
+     birth=yes
+   }
+   991.1.1 = {
+     death=yes
+   }
+}
+235127 = {
+   name="Sadurru"
+   dynasty=8691 #de Lacon
+   religion="catholic"
+   culture="italian"
+   father=235126 #Gajetànu
+   948.1.1 = {
+     birth=yes
+   }
+   1002.1.1 = {
+     death=yes
+   }
+}
+235128 = {
+   name="Comita" #I
+   dynasty=8691 #de Lacon
+   religion="catholic"
+   culture="italian"
+   father=235127 #Sadurru
+   964.1.1 = {
+     birth=yes
+   }
+   979.1.1 = {
+     add_spouse = 235179 #Nivatora de Gunale of Torres
+   }
+   1020.1.1 = {
+     death=yes
+   }
+}
+235129 = {
+   name="Gonariu" #I of Arborea and Torres
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235128 #Comita I of Arborea
+   mother=235179 #Nivatora de Gunale of Torres
+   980.1.1 = {
+     birth=yes
+   }
+   1038.1.1 = {
+     death=yes
+   }
+}
+235130 = {
+   name="Giorgia"
+   female=yes
+   dynasty=8691 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235128 #Comita I of Arborea
+   mother=235179 #Nivatora de Gunale of Torres
+   993.1.1 = {
+     birth=yes
+   }
+   1042.1.1 = {
+     death=yes
+   }
+}
+235131 = {
+   name="Tocode"
+   dynasty=1040101 #de Athen
+   religion="catholic"
+   culture="italian"
+   985.1.1 = {
+     birth=yes
+   }
+   1011.1.1 = {
+     add_spouse=235130 #Giorgia de Lacon Gunale
+   }
+   1045.1.1 = {
+     death=yes
+   }
+}
+235132 = {
+   name="Barusone" #I of Arborea and Torres
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235129 #Gonariu I of Arborea and Torres
+   996.1.1 = {
+     birth=yes
+   }
+   1011.1.1 = {
+     add_spouse=235134 #Preziosa de Orrubu
+   }
+   1073.1.1 = {
+     death=yes
+   }
+}
+235133 = {
+   name="Baldu"
+   dynasty=1040102 #de Orrubu
+   religion="catholic"
+   culture="italian"
+   975.1.1 = {
+     birth=yes
+   }
+   1031.1.1 = {
+     death=yes
+   }
+}
+235134 = {
+   name="Preziosa"
+   female=yes
+   dynasty=1040102 #de Orrubu
+   religion="catholic"
+   culture="italian"
+   father=235133 #Baldu de Orrubu
+   996.1.1 = {
+     birth=yes
+   }
+   1050.1.1 = {
+     death=yes
+   }
+}
+235135 = {
+   name="Doménico"
+   dynasty=1040102 #de Orrubu
+   religion="catholic"
+   culture="italian"
+   father=235133 #Baldu de Orrubu
+   1009.1.1 = {
+     birth=yes
+   }
+   1068.1.1 = {
+     death=yes
+   }
+}
+235136 = {
+   name="Alessandro" #I of Arborea and Torres
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235129 #Gonariu I of Arborea and Torres
+   998.1.1 = {
+     birth=yes
+   }
+   1013.1.1 = {
+     add_spouse=235212 #Teresa de Zori of Gallura
+   }
+   1058.1.1 = {
+     death=yes
+   }
+}
+235137 = {
+   name="Nivata"
+   female=yes
+   dynasty=1040102 #de Orrubu
+   religion="catholic"
+   culture="italian"
+   father=235135 #Doménico de Orrubu
+   1029.1.1 = {
+     birth=yes
+   }
+   1103.1.1 = {
+     death=yes
+   }
+}
+235138 = {
+   name="Costantino"
+   dynasty=1040102 #de Orrubu
+   religion="catholic"
+   culture="italian"
+   father=235135 #Doménico de Orrubu
+   1038.1.1 = {
+     birth=yes
+   }
+   1111.1.1 = {
+     death=yes
+   }
+}
+235139 = {
+   name="Maria"
+   female=yes
+   dynasty=1040102 #de Orrubu
+   religion="catholic"
+   culture="italian"
+   father=235138 #Costantino de Orrubu
+   1061.1.1 = {
+     birth=yes
+   }
+   1123.1.1 = {
+     death=yes
+   }
+}
+235140 = {
+   name="Torbinu"
+   dynasty=1040103 #de Lacon Zori
+   religion="catholic"
+   culture="italian"
+   father = 144527
+   mother=235137 #Nivata de Orrubu
+   1046.1.1 = {
+     birth=yes
+   }
+   1061.1.1 = {
+     add_spouse=235215 #Anna de Zori of Gallura
+   }
+   1110.1.1 = {
+     death=yes
+   }
+}
+235141 = {
+   name="Comita"
+   dynasty=1040103 #de Lacon Zori
+   religion="catholic"
+   culture="italian"
+   father = 144527
+   mother=235137 #Nivata de Orrubu
+   1047.1.1 = {
+     birth=yes
+   }
+   1107.1.1 = {
+     death=yes
+   }
+}
+235142 = {
+   name="Preciosa"
+   female=yes
+   dynasty=1040103 #de Lacon Zori
+   religion="catholic"
+   culture="italian"
+   father= 235140 #Torbinu of Arborea
+   mother=235215 #Anna de Zori of Gallura
+   1074.1.1 = {
+     birth=yes
+   }
+   1133.1.1 = {
+     death=yes
+   }
+}
+235143 = {
+   name="Elena"
+   female=yes
+   dynasty=1040103 #de Lacon Zori
+   religion="catholic"
+   culture="italian"
+   father = 144528
+   mother = 235139
+   1080.1.1 = {
+     birth=yes
+   }
+   1155.1.1 = {
+     death=yes
+   }
+}
+#de Lacon Serra house of Arborea
+235144 = {
+   name="Gonariu" #II
+   dynasty=794
+   religion="catholic"
+   culture="italian"
+   1080.1.1 = {
+     birth=yes
+   }
+   1096.1.1 = {
+     add_spouse=235143 #Elena de Lacon Zori
+   }
+   1125.1.1 = {
+     death=yes
+   }
+}
+235145 = {
+   name="Costantino" #III
+   dynasty=794
+   religion="catholic"
+   culture="italian"
+   father=235144 #Gonariu II
+   mother=235143 #Elena de Lacon Zori
+   1097.1.1 = {
+     birth=yes
+   }
+   1113.1.1 = {
+     add_spouse=235232 #Anna de Zori of Gallura
+   }
+   1131.1.1 = {
+     death=yes
+   }
+}
+235146 = {
+   name="Elena"
+   female=yes
+   dynasty=794
+   religion="catholic"
+   culture="italian"
+   father=235144 #Gonariu II
+   mother=235143 #Elena de Lacon Zori
+   1118.1.1 = {
+     birth=yes
+   }
+   1152.1.1 = {
+     death=yes
+   }
+}
+235147 = {
+   name="Comita" #III
+   dynasty=794
+   religion="catholic"
+   culture="italian"
+   father=235145 #Costantino I
+   mother=235232 #Anna de Zori of Gallura
+   1114.1.1 = {
+     birth=yes
+   }
+   1129.1.1 = { ##?
+     add_spouse=235150 #Elena de Orrubu
+   }
+   1147.1.1 = {
+     death=yes
+   }
+}
+235148 = {
+   name="Izocor"
+   dynasty=1040102 #de Orrubu
+   religion="catholic"
+   culture="italian"
+   father=235138 #Costantino de Orrubu
+   1091.1.1 = {
+     birth=yes
+   }
+   1139.1.1 = {
+     death=yes
+   }
+}
+235149 = {
+   name="Patrizio"
+   dynasty=1040102 #de Orrubu
+   religion="catholic"
+   culture="italian"
+   father=235148 #Izocor de Orrubu
+   1112.1.1 = {
+     birth=yes
+   }
+   1166.1.1 = {
+     death=yes
+   }
+}
+235150 = {
+   name="Elena"
+   female=yes
+   dynasty=1040102 #de Orrubu
+   religion="catholic"
+   culture="italian"
+   father=235148 #Izocor de Orrubu
+   1114.1.1 = {
+     birth=yes
+   }
+   1158.1.1 = {
+     death=yes
+   }
+}
+235151 = {
+   name="Preziosa"
+   female=yes
+   dynasty=1040102 #de Orrubu
+   religion="catholic"
+   culture="italian"
+   father=235149 #Patrizio de Orrubu
+   1134.1.1 = {
+     birth=yes
+   }
+   1194.1.1 = {
+     death=yes
+   }
+}
+235152 = {
+   name="Elena" #first wife of Constantine III of Gallura
+   female=yes
+   dynasty=794
+   religion="catholic"
+   culture="italian"
+   father=235147 #Comita III
+   mother=235150 #Elena de Orrubu
+   1131.1.1 = {
+     birth=yes
+   }
+   1159.1.1 = {
+     death=yes
+   }
+}
+235153 = {
+   name="Orsocorre" #III
+   dynasty=794
+   religion="catholic"
+   culture="italian"
+   father=235145 #Costantino III
+   mother=235232 #Anna de Zori of Gallura
+   1128.1.1 = {
+     birth=yes
+   }
+   1145.1.1 = {
+     death=yes
+   }
+}
+235154 = {
+   name="Barusone"
+   dynasty=794
+   religion="catholic"
+   culture="italian"
+   father=71631
+   mother=235194 #Pellegrina de Lacon Gunale of Torres
+   1148.1.1 = {
+     birth=yes
+   }
+   1189.1.1 = {
+     death=yes
+   }
+}
+235155 = {
+   name="Susanna"
+   dynasty=794
+   female=yes
+   religion="catholic"
+   culture="italian"
+   father=71631
+   mother=71623 #Agalbursa
+   1158.1.1 = {
+     birth=yes
+   }
+   1207.1.1 = {
+     death=yes
+   }
+}
+235156 = {
+   name="Maria" #Mother of William III of Cagliari
+   female=yes
+   dynasty=794
+   religion="catholic"
+   culture="italian"
+   father=71634
+   mother=144530
+   1215.1.1 = {
+     birth=yes
+   }
+   1260.1.1 = {
+     death=yes
+   }
+}
+235157 = {
+   name="Sardinia" #second wife of Peter II, mother of Mariano II
+   female=yes
+   dynasty=1040105 #de Salanis
+   religion="catholic"
+   culture="italian"
+   1212.1.1 = {
+     birth=yes
+   }
+   1264.1.1 = {
+     death=yes
+   }
+}
+235158 = {
+   name="Luna"
+   female=yes
+   dynasty=1040106 #Bas Serra
+   religion="catholic"
+   culture="italian"
+   father=144533
+   1250.1.1 = {
+     birth=yes
+   }
+   1295.1.1 = {
+     death=yes
+   }
+}
+235159 = {
+   name="Barusone"
+   female=yes
+   dynasty=1040106 #Bas Serra
+   religion="catholic"
+   culture="italian"
+   trait="bastard"
+   father=144533
+   1255.1.1 = {
+     birth=yes
+   }
+   1300.1.1 = {
+     death=yes
+   }
+}
+235160 = {
+   name="Joanna"
+   female=yes
+   dynasty=1040106 #Bas Serra
+   religion="catholic"
+   culture="italian"
+   father=144533
+   1290.1.1 = {
+     birth=yes
+   }
+   1308.1.1 = {
+     death=yes
+   }
+}
+235161 = {
+   name="Padulesa" #lover of Mariano III of Arborea
+   female=yes
+   dynasty=1040100 #de Serra
+   religion="catholic"
+   culture="italian"
+   trait="lustful"
+   1277.1.1={
+     birth=yes
+   }
+   1314.1.1={
+     death=yes
+   }
+}
+235162 = {
+   name="Benedetta" #wife of Hugh II of Arborea
+   female=yes
+   dynasty=1040107 #de Kerki
+   religion="catholic"
+   culture="italian"
+   1304.1.1={
+     birth=yes
+   }
+   1345.1.1={
+     death=yes
+   }
+}
+200140 = {
+   name="Mariano" #IV the Great of Arborea
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   trait="strong"
+   trait="brave"
+   trait="just"
+   father=144537
+   mother=235162 #Benedetta de Kerki
+   1329.1.1 = {
+     birth=yes
+   }
+   1345.1.1 = {
+     add_spouse=72295 #Timbor
+   }
+   1347.1.1 = {
+     give_nickname=nick_the_great
+   }
+   1376.1.1 = {
+     death=yes
+   }
+}
+235164 = {
+   name="Bonaventura" #Bonaventure
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   father=144537
+   mother=235162 #Benedetta de Kerki
+   1330.1.1 = {
+     birth=yes
+   }
+   1375.1.1 = {
+     death=yes
+   }
+}
+235165 = {
+   name="Francesco" #Francis
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   father=144537
+   mother=235162 #Benedetta de Kerki
+   1331.1.1 = {
+     birth=yes
+   }
+   1342.1.1 = {
+     death=yes
+   }
+}
+235166 = {
+   name="Maria"
+   female=yes
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   father=144537
+   mother=235162 #Benedetta de Kerki
+   1332.1.1 = {
+     birth=yes
+   }
+   1392.1.1 = {
+     death=yes
+   }
+}
+235167 = {
+   name="Lorenzo" #Lawrence
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   trait="bastard"
+   father=144537
+   1334.1.1 = {
+     birth=yes
+   }
+   1337.1.1 = {
+     remove_trait="bastard"
+     add_trait="legit_bastard"
+   }#Legitimized
+   1370.1.1 = {
+     death=yes
+   }
+}
+235168 = {
+   name="Chiano" #John
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   father=144537
+   mother=235162 #Benedetta de Kerki
+   1333.1.1 = {
+     birth=yes
+   }
+   1375.1.1 = {
+     death=yes
+   }
+}
+235169 = {
+   name="Nicola" #Nicholas
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   father=144537
+   mother=235162 #Benedetta de Kerki
+   1334.1.1 = {
+     birth=yes
+   }
+   1370.1.1 = {
+     death=yes
+   }
+}
+235170 = {
+   name="Angiolesa"
+   female=yes
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   father=144537
+   mother=235162 #Benedetta de Kerki
+   1335.1.1 = {
+     birth=yes
+   }
+   1387.1.1 = {
+     death=yes
+   }
+}
+235171 = {
+   name="Preciosa"
+   female=yes
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   father=144537
+   mother=235162 #Benedetta de Kerki
+   1336.1.1 = {
+     birth=yes
+   }
+   1395.1.1 = {
+     death=yes
+   }
+}
+235172 = {
+   name="Ugo" #III
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   father=200140 #Mariano IV of Arborea
+   mother=72295
+   1346.1.1 = {
+     birth=yes
+   }
+   1383.3.3 = {
+     death=yes
+   }
+}
+235173 = {
+   name="Benedetta"
+   female=yes
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   father=235172 #Ugo II
+   1364.1.1 = {
+     birth=yes
+   }
+   1402.1.1 = {
+     death=yes
+   }
+}
+235174 = {
+   name="Elianora" #Eleanor
+   female=yes
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   father=200140 #Mariano IV of Arborea
+   mother=72295
+   1347.6.6 = {
+     birth=yes
+   }
+   1404.9.23 = {
+     death=yes
+   }
+}
+235175 = {
+   name="Beatrice" #Beatrice
+   female=yes
+   dynasty=1040108 #Cappai de Bas
+   religion="catholic"
+   culture="italian"
+   father=200140 #Mariano IV of Arborea
+   mother=72295
+   1349.1.1 = {
+     birth=yes
+   }
+   1377.1.1 = {
+     death=yes
+   }
+}
+
+#Torres
+235176 = {
+   name="Lussuria"
+   dynasty=1042015 #de Gunale
+   religion="catholic"
+   culture="italian"
+   880.1.1 = {
+     birth=yes
+   }
+   945.1.1 = {
+     death=yes
+   }
+}
+235177 = {
+   name="Pirillu"
+   dynasty=1042015 #de Gunale
+   religion="catholic"
+   culture="italian"
+   father=235176 #Lussuria
+   926.1.1 = {
+     birth=yes
+   }
+   969.1.1 = {
+     death=yes
+   }
+}
+235178 = {
+   name="Comita" #I of Torres
+   dynasty=1042015 #de Gunale
+   religion="catholic"
+   culture="italian"
+   father=235177 #Pirillu
+   946.1.1 = {
+     birth=yes
+   }
+   1015.1.1 = {
+     death=yes
+   }
+}
+235179 = {
+   name="Nivatora" #I of Torres
+   female=yes
+   dynasty=1042015 #de Gunale
+   religion="catholic"
+   culture="italian"
+   father=235178 #Comita I
+   962.1.1 = {
+     birth=yes
+   }
+   1025.1.1 = {
+     death=yes
+   }
+}
+235180 = {
+   name="Comita" #II of Torres
+   dynasty=1042015 #de Gunale
+   religion="catholic"
+   culture="italian"
+   father=235178 #Comita I
+   997.1.1 = {
+     birth=yes
+   }
+   1060.1.1 = {
+     death=yes
+   }
+}
+235181 = {
+   name="Andrea Tanca" # of Torres
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235132 #Barusone I of Arborea and Torres
+   mother=235134 #Preziosa de Orrubu
+   1020.1.1 = {
+     birth=yes
+   }
+   1073.1.1 = {
+     death=yes
+   }
+}
+235182 = {
+   name="Mariano" #I of Torres
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235181 #Andrea Tanca
+   1042.1.1 = {
+     birth=yes
+   }
+   1082.1.1 = {
+     death=yes
+   }
+}
+235183 = {
+   name="Costantino" #I of Torres
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235182 #Mariano I
+   1067.1.1 = {
+     birth=yes
+   }
+   1085.1.1 = {
+     effect={
+       add_friend=235188 #Ittocorre Gambella
+     }
+   }
+   1100.1.1 = {
+     add_spouse=235186 #Marcusa de Gunale
+   }
+   1127.1.1 = {
+     death=yes
+   }
+}
+235184 = {
+   name="Stefano"
+   dynasty=1042015 #de Gunale
+   religion="catholic"
+   culture="italian"
+   father=235180 #Comita II
+   1020.1.1 = {
+     birth=yes
+   }
+   1055.1.1 = {
+     death=yes
+   }
+}
+235185 = {
+   name="Paolo"
+   dynasty=1042015 #de Gunale
+   religion="catholic"
+   culture="italian"
+   father=235184 #Stefano
+   1050.1.1 = {
+     birth=yes
+   }
+   1109.1.1 = {
+     death=yes
+   }
+}
+235186 = {
+   name="Marcusa"
+   female=yes
+   dynasty=1042015 #de Gunale
+   religion="catholic"
+   culture="italian"
+   father=235185 #Paolo
+   1080.1.1 = {
+     birth=yes
+   }
+   1135.1.1 = {
+     death=yes
+   }
+}
+235187 = {
+   name="Saltaro"
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235183 #Costantino I of Torres
+   mother=235186 #Marcusa de Gunale
+   1114.1.1 = {
+     birth=yes
+   }
+   1150.1.1 = {
+     death=yes
+   }
+}
+235188 = {
+   name="Ittocorre"
+   dynasty=1040109 #Gambella
+   religion="catholic"
+   culture="italian"
+   1070.1.1 = {
+     birth=yes
+   }
+   1142.1.1 = {
+     death=yes
+   }
+}
+235189 = {
+   name="Bassu"
+   dynasty=1040101 #de Athen
+   religion="catholic"
+   culture="italian"
+   father=235131 #Tocode
+   mother=235130 #Giorgia de Lacon Gunale
+   1020.1.1 = {
+     birth=yes
+   }
+   1089.1.1 = {
+     death=yes
+   }
+}
+235190 = {
+   name="Corrado"
+   dynasty=1040101 #de Athen
+   religion="catholic"
+   culture="italian"
+   father=235189 #Bassu
+   1051.1.1 = {
+     birth=yes
+   }
+   1119.1.1 = {
+     death=yes
+   }
+}
+235191 = {
+   name="Saltaro"
+   dynasty=1040101 #de Athen
+   religion="catholic"
+   culture="italian"
+   father=235190 #Corrado
+   1075.1.1 = {
+     birth=yes
+   }
+   1130.1.1 = {
+     death=yes
+   }
+}
+235192 = {
+   name="Luisa"
+   female=yes
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=144526
+   mother=144524
+   1160.1.1={
+     birth=yes
+   }
+   1163.1.1={
+     death=yes
+   }
+}
+235193 = {
+   name="Barusone" #Barisone II of Torres
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=144525 #Gonariu II
+   mother=235032 #Maria da Parlascio of Pisa
+   1130.1.1 = {
+     birth=yes
+   }
+   1149.1.1 = {
+     add_spouse= 235151 #Preziosa de Orrubu
+   }
+   1191.6.10 = {
+     death=yes
+   }
+}
+235194 = {
+   name="Pellegrina" #wife of Barisone II of Arborea
+   female=yes
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=144525 #Gonariu II
+   mother=235032 #Maria da Parlascio of Pisa
+   1131.1.1={
+     birth=yes
+   }
+   1192.1.1={
+     death=yes
+   }
+}
+235195 = {
+   name="Sardinia" #second wife of Constantine III of Gallura
+   female=yes
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=144525 #Gonariu II
+   mother=235032 #Maria da Parlascio of Pisa
+   1135.1.1={
+     birth=yes
+   }
+   1185.1.1={
+     death=yes
+   }
+}
+235196 = {
+   name="Ittocorre"
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=144525 #Gonariu II
+   mother=235032 #Maria da Parlascio of Pisa
+   1137.1.1 = {
+     birth=yes
+   }
+   1188.1.1 = {
+     death=yes
+   }
+}
+235197 = {
+   name="Comita"
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=144525 #Gonariu II
+   mother=235032 #Maria da Parlascio of Pisa
+   1140.1.1 = {
+     birth=yes
+   }
+   1198.1.1 = {
+     death=yes
+   }
+}
+235198 = {
+   name="Costantino" #Costantino II of Torres
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235193 #Barusone II of Torres
+   mother=235151 #Preziosa de Orrubu
+   1150.1.1 = {
+     birth=yes
+   }
+   1170.1.1 = {
+     add_spouse=235000 #Druda
+   }
+   1175.1.1 = {
+     add_spouse=235001 #Prunisinda
+   }
+   1198.1.1 = {
+     death=yes
+   }
+}
+235199 = {
+   name="Ittocorre"
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235193 #Barusone II of Torres
+   mother=235151 #Preziosa de Orrubu
+   1152.1.1 = {
+     birth=yes
+   }
+   1198.1.1 = {
+     death=yes
+   }
+}
+235200 = {
+   name="Pellegrino"
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235193 #Barusone II of Torres
+   mother=235151 #Preziosa de Orrubu
+   1155.1.1 = {
+     birth=yes
+   }
+   1190.1.1 = {
+     death=yes
+   }
+}
+235201 = {
+   name="Susanna" #wife of a Andrea Doria
+   female=yes
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235193 #Barusone II of Torres
+   mother=235151 #Preziosa de Orrubu
+   1173.1.1 = {
+     birth=yes
+   }
+   1228.1.1 = {
+     death=yes
+   }
+}
+235202 = {
+   name="Preziosa"
+   female=yes
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=71146
+   mother=71632
+   1190.1.1 = {
+     birth=yes
+   }
+   1222.1.1 = {
+     death=yes
+   }
+}
+235203 = {
+   name="Bina" #wife of Peter I of Arborea and Hugh of Capraia
+   female=yes
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235199 #Ittocorre de Lacon Gunale, son of Barusone II
+   1172.1.1={
+     birth=yes
+   }
+   1225.1.1={
+     death=yes
+   }
+}
+235204 = {
+   name="Pretu"
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235200 #Pellegrino
+   1175.1.1 = {
+     birth=yes
+   }
+   1228.1.1 = {
+     death=yes
+   }
+}
+235205 = {
+   name="Preziosa" #wife of Niccolo Doria
+   female=yes
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235204 #Pretu
+   1205.1.1 = {
+     birth=yes
+   }
+   1231.1.1 = {
+     death=yes
+   }
+}
+
+
+#Gallura
+235206 = {
+   name="Gallu"
+   dynasty=1040104 #de Zori
+   religion="catholic"
+   culture="italian"
+   881.1.1={
+     birth=yes
+   }
+   934.1.1={
+     death=yes
+   }
+}
+235207 = {
+   name="Porcellu"
+   dynasty=1040104 #de Zori
+   religion="catholic"
+   culture="italian"
+   father=235206 #Gallu
+   913.1.1={
+     birth=yes
+   }
+   967.1.1={
+     death=yes
+   }
+}
+235208 = {
+   name="Iginu"
+   dynasty=1040104 #de Zori
+   religion="catholic"
+   culture="italian"
+   father=235207 #Porcellu
+   932.1.1={
+     birth=yes
+   }
+   993.1.1={
+     death=yes
+   }
+}
+235209 = {
+   name="Barusone" #I of Gallura
+   dynasty=1040104 #de Zori
+   religion="catholic"
+   culture="italian"
+   father=235208 #Iginu
+   950.1.1={
+     birth=yes
+   }
+   1019.1.1={
+     death=yes
+   }
+}
+235210 = {
+   name="Saltaro" #I
+   dynasty=1040104 #de Zori
+   religion="catholic"
+   culture="italian"
+   father=235209 #Barusone
+   969.1.1={
+     birth=yes
+   }
+   1020.1.1={
+     death=yes
+   }
+}
+235211 = {
+   name="Manfredu"
+   dynasty=1040104 #de Zori
+   religion="catholic"
+   culture="italian"
+   father=235210 #Saltaro
+   988.1.1={
+     birth=yes
+   }
+   1040.1.1={
+     death=yes
+   }
+}
+235212 = {
+   name="Teresa"
+   female=yes
+   dynasty=1040104 #de Zori
+   religion="catholic"
+   culture="italian"
+   father=235210 #Saltaro
+   996.1.1={
+     birth=yes
+   }
+   1036.1.1={
+     death=yes
+   }
+}
+235213 = {
+   name="Baldu"
+   dynasty=1040104 #de Zori
+   religion="catholic"
+   culture="italian"
+   father=235211 #Manfredu
+   1011.1.1={
+     birth=yes
+   }
+   1060.1.1={
+     death=yes
+   }
+}
+235214 = {
+   name="Costantino"
+   # Constantine I, Giudice of Gallura
+   dynasty=1040104 #de Zori
+   religion="catholic"
+   culture="italian"
+   father=235213 #Baldu
+   1034.1.1={
+     birth=yes
+   }
+   1103.1.1={
+     death=yes
+   }
+}
+235215 = {
+   name="Anna" #wife of Torbinu of Arborea
+   female=yes
+   dynasty=1040104 #de Zori
+   religion="catholic"
+   culture="italian"
+   father=235213 #Baldu
+   1043.1.1={
+     birth=yes
+   }
+   1097.1.1={
+     death=yes
+   }
+}
+235216 = {
+   name="Torchitoriu"
+   dynasty=1040104 #de Zori
+   religion="catholic"
+   culture="italian"
+   father=235214 #Constantine I of Gallura
+   1051.1.1 = {
+     birth=yes
+   }
+   1090.1.1 = {
+     add_spouse=235220 #Padulesa de Lacon Gunale
+   }
+   1110.1.1 = {
+     death=yes
+   }
+}
+235217 = {
+   name="Francesca" #wife of Arrigo II of Cinarca
+   female=yes
+   dynasty=1040104 #de Zori
+   religion="catholic"
+   culture="italian"
+   father=235214 #Constantine I of Gallura
+   1070.1.1 = {
+     birth=yes
+   }
+   1145.1.1 = {
+     death=yes
+   }
+}
+235218 = {
+   name="Saltaro"
+   dynasty=1040104 #de Zori
+   religion="catholic"
+   culture="italian"
+   father=235216 #Torchitoriu
+   1075.1.1 = {
+     birth=yes
+   }
+   1112.1.1 = {
+     death=yes
+   }
+}
+235219 = {
+   name="Subia" #wife of Constantine II Spanu of Gallura
+   female=yes
+   dynasty=1040104 #de Zori
+   religion="catholic"
+   culture="italian"
+   father=235218 #Saltaro
+   1093.1.1 = {
+     birth=yes
+   }
+   1144.1.1 = {
+     death=yes
+   }
+}
+235220 = {
+   name="Padulesa" #of Gallura
+   female=yes
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235182 #Mariano I of Torres
+   1075.1.1 = {
+     birth=yes
+   }
+   1120.1.1 = {
+     death=yes
+   }
+}
+235221 = {
+   name="Ittocorre" #of Gallura
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235182 #Mariano I of Torres
+   1072.1.1 = {
+     birth=yes
+   }
+   1132.1.1 = {
+     death=yes
+   }
+}
+235222 = {
+   name="Costantino" #Constantine II Spanu
+   dynasty=1040110 #Spanu
+   religion="catholic"
+   culture="italian"
+   1090.1.1 = {
+     birth=yes
+   }
+   1108.1.1 = {
+     add_spouse=235219 #Subia
+   }
+   1133.1.1 = {
+     death=yes
+   }
+}
+235223 = {
+   name="Comita" #Comita Spanu
+   dynasty=1040110 #Spanu
+   religion="catholic"
+   culture="italian"
+   father=235222 #Costantino Spanu
+   mother=235219 #Subia
+   1109.1.1 = {
+     birth=yes
+   }
+   1124.1.1 = {
+     add_spouse=235224 #Giulia
+   }
+   1146.1.1 = {
+     death=yes
+   }
+}
+235224 = {
+   name="Giulia"
+   female=yes
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235221 #Ittocorre
+   1105.1.1 = {
+     birth=yes
+   }
+   1153.1.1 = {
+     death=yes
+   }
+}
+235225 = {
+   name="Maria"
+   female=yes
+   dynasty=1040110 #Spanu
+   religion="catholic"
+   culture="italian"
+   father=235223 #Comita Spanu
+   mother=235224 #Giulia
+   1125.1.1 = {
+     birth=yes
+   }
+   1173.1.1 = {
+     death=yes
+   }
+}
+235226 = {
+   name="Comita"
+   dynasty=1040110 #Spanu
+   religion="catholic"
+   culture="italian"
+   father=235223 #Comita Spanu
+   mother=235224 #Giulia
+   1130.1.1 = {
+     birth=yes
+   }
+   1185.1.1 = {
+     death=yes
+   }
+}
+235227 = {
+   name="Elena"
+   female=yes
+   dynasty=1040110 #Spanu
+   religion="catholic"
+   culture="italian"
+   father=235223 #Comita Spanu
+   mother=235224 #Giulia
+   1133.1.1 = {
+     birth=yes
+   }
+   1159.1.1 = {
+     death=yes
+   }
+}
+235228 = {
+   name="Furatu"
+   dynasty=1040110 #Spanu
+   religion="catholic"
+   culture="italian"
+   father=235223 #Comita Spanu
+   mother=235224 #Giulia
+   1138.1.1 = {
+     birth=yes
+   }
+   1167.1.1 = {
+     death=yes
+   }
+}
+235229 = {
+   name="Costantino" #acting judge of Arborea in 1199
+   dynasty=1040110 #Spanu
+   religion="catholic"
+   culture="italian"
+   father=235223 #Comita Spanu
+   mother=235224 #Giulia
+   1146.1.1 = {
+     birth=yes
+   }
+   1173.1.1 = {
+     add_spouse=235155 #Susanna daughter of Barisone II of Arborea
+   }
+   1202.1.1 = {
+     death=yes
+   }
+}
+235230 = {
+   name="Izocor"
+   dynasty=1040099 #de Lacon Gunale
+   religion="catholic"
+   culture="italian"
+   father=235221 #Ittocorre
+   1117.1.1 = {
+     birth=yes
+   }
+   1140.1.1 = {
+     add_spouse=235225 #Maria Spanu
+   }
+   1153.1.1 = {
+     death=yes
+   }
+}
+235231 = {
+   name="Sardinia"
+   female=yes
+   dynasty=1040104 #de Zori
+   religion="catholic"
+   culture="italian"
+   father=235216 #Torchitoriu
+   mother=235220 #Padulesa de Lacon Gunale
+   1105.1.1 = {
+     birth=yes
+   }
+   1154.1.1 = {
+     death=yes
+   }
+}
+235232 = {
+   name="Anna"
+   female=yes
+   dynasty=1040104 #de Zori
+   religion="catholic"
+   culture="italian"
+   father=235218 #Saltaro
+   1097.1.1 = {
+     birth=yes
+   }
+   1162.1.1 = {
+     death=yes
+   }
 }

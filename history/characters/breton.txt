@@ -252,7 +252,7 @@
 	trait="tough_soldier"
 	father=10056
 	mother=1357
-	1000.1.1={
+	990.1.1={
 		birth=yes
 	}
 	1038.1.1={
@@ -342,10 +342,13 @@
 	father=178
 	mother=347
 	1060.1.2={
-		birth="1060.1.2"
+		birth=yes
+	}
+	1087.1.1={
+		add_spouse=127016
 	}
 	1112.1.8={
-		death="1112.1.8"
+		death=yes
 	}
 }
 
@@ -931,14 +934,13 @@
 	father=205751 #Alan de Penthièvre
 	mother=205825 #Berthe de Bretagne
 	1138.1.1={
-		birth="1138.1.1"
+		birth=yes
 	}
 	1160.1.1={
 		add_spouse = 203510 #Marguerite de Huntinton
 	}
 	1171.2.21={
-		remove_spouse = 203510 #Marguerite de Huntinton
-		death="1171.2.21"
+		death=yes
 	}
 }
 
@@ -1187,11 +1189,11 @@
 	religion="catholic"
 	culture="breton"
 	father=159679
-	990.1.1={
-		birth="990.1.1"
+	988.1.1={
+		birth=yes
 	}
 	1041.1.1={
-		death="1041.1.1"
+		death=yes
 	}
 }
 
@@ -1568,11 +1570,11 @@
 	culture="breton"
 	father=342 #Jafrez I de Bretagne
 	mother=257 #Havise de Normandie
-	997.1.1={
-		birth="997.1.1"
+	998.1.1={
+		birth=yes
 	}
 	1040.1.1={
-		death="1040.1.1" #after 1037
+		death=yes #after 1037
 	}
 }
 
@@ -2619,11 +2621,11 @@
 	culture="breton"
 	father=205782
 	mother=205801
-	1185.1.1={
-		birth="1185.1.1"
+	1187.1.1={
+		birth=yes
 	}
 	1230.1.1={
-		death="1230.1.1"
+		death=yes
 	}
 }
 
@@ -3492,16 +3494,13 @@
 	dynasty=1029042 #
 	religion="catholic"
 	culture="breton"
-	father=161281
+	father=161281 # source?
 	mother=161283
-	1089.1.1={
-		birth="1089.1.1"
-	}
-	1103.1.1={
-		add_spouse=158
+	1081.6.1={
+		birth=yes
 	}
 	1130.1.1={
-		death="1130.1.1"
+		death=yes
 	}
 }
 159743 = {
@@ -3644,10 +3643,10 @@
 	dynasty=1029101 #Domnonea
 	father=159635
 	435.1.1={
-		birth="435.1.1"
+		birth=yes
 	}
-	470.1.1={
-		death="470.1.1"
+	480.1.1={
+		death=yes
 	}
 }
 159637 = {
@@ -4160,11 +4159,11 @@
 	culture="breton"
 	dynasty=20124 #Breizh
 	father=159665
-	600.1.1={
-		birth="600.1.1"
+	590.1.1={
+		birth=yes
 	}
-	620.1.1={
-		death="620.1.1"
+	658.12.17={
+		death=yes
 	}
 }
 159668 = {
@@ -4367,7 +4366,7 @@
 	religion="catholic"
 	culture="breton"
 	dynasty=20017 # de Leon
-	father=159680
+	father=159690
 	957.1.1={
 		birth="957.1.1"
 	}

@@ -20,6 +20,8 @@
 	name="Alberada"
 	female=yes
 	dynasty=102000
+	father=210
+	mother=375
 	martial=5
 	diplomacy=5
 	intrigue=7
@@ -415,31 +417,33 @@
 	dna = cdbcdogibck
 	properties = 0c0cbd000000
 	martial=9
-	diplomacy=4
-	intrigue=6
+	diplomacy=6
+	intrigue=7
 	stewardship=6
 	religion="catholic"
 	culture="norman"
 	trait="deceitful"
 	trait="envious"
 	trait="patient"
+	trait="strong"
 	trait="brilliant_strategist"
 	father=1120
 	mother=10008
 	1015.1.1 = {
-		birth="1015.1.1"
+		birth=yes
 	}
 	1051.1.1 = {
 		add_spouse=10003
 	}
 	1057.1.1 = {
 		remove_spouse=10003
+		give_nickname = nick_the_fox
 	}
 	1058.1.1 = {
 		add_spouse=1123
 	}
 	1085.7.17 = {
-		death="1085.7.17"
+		death=yes
 	}
 }
 
