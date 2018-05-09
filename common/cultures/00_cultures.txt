@@ -26,7 +26,7 @@ north_germanic = {
             "白奇"   # Bagge
             "巴尔德尔_巴尔德尔"   # Baldr_Balder
             "巴里德"   # Barid
-            "本格特_本笃"   # Bengt_Benedict
+            "本格特_贝内迪克特"   # Bengt_Benedict
             "贝尔斯"   # Bersi
             "贝提尔"   # Bertil
             "贝尔吉尔"   # Birger
@@ -254,7 +254,7 @@ north_germanic = {
             "阿祖尔"   # Azur
             "白治"   # Bagge
             "巴尔德尔_巴尔德尔"   # Balder_Balder
-            "本格特_本笃"   # Bengt_Benedict
+            "本格特_贝内迪克特"   # Bengt_Benedict
             "伯迪"   # Bertil
             "伯格"   # Birger
             "比约恩_比奥恩"   # Björn_Beorn
@@ -563,7 +563,7 @@ north_germanic = {
             "阿农德_阿农德"   # Anund_Anund
             "埃斯基尔"   # Asger
             "巴尔德尔_巴尔德尔"   # Balder_Balder
-            "贝内迪克_本笃"   # Benedikt_Benedict
+            "贝内迪克_贝内迪克特"   # Benedikt_Benedict
             "比约恩_比奥恩"   # Bjørn_Beorn
             "波"   # Bo
             "克里斯蒂安_克里斯蒂安"   # Christian_Christian
@@ -2180,7 +2180,7 @@ west_germanic = {
             "维特博赫"   # Wihtburh
         }
         dukes_called_kings = yes
-        from_dynasty_prefix = "希 "   # of 
+        from_dynasty_prefix = ""   # of 
         male_patronym = "森"   # sson
         female_patronym = "斯多特"   # sdohtor
         prefix = no
@@ -2221,7 +2221,7 @@ west_germanic = {
             "鲍德温_鲍德温"   # Balduin_Baldwin
             "巴尔萨泽_巴尔塔萨"   # Balthasar_Baltasar
             "班兹雷布"   # Banzleib
-            "贝内克_本尼迪克特"   # Beneke_Benedict
+            "贝内克_贝内迪克特"   # Beneke_Benedict
             "本诺_伯纳德"   # Benno_Bernard
             "贝恩德_伯纳德"   # Bernd_Bernard
             "本纳德_伯纳德"   # Bernhard_Bernard
@@ -2864,9 +2864,9 @@ latin = {
         }
         male_names = {
             "爱德华_爱德华"   # Édouard_Edward
-            "埃拉德"   # Érrard
+            "埃拉尔"   # Érrard
             "艾蒂安_斯蒂芬"   # Étienne_Stephen
-            "阿达尔贝尔_阿尔伯特"   # Adalbert_Albert
+            "阿达尔贝_阿尔伯特"   # Adalbert_Albert
             "阿德玛"   # Adémar
             "阿德里安"   # Adrien
             "艾默里_艾默里克"   # Aimery_Aymeric
@@ -2878,17 +2878,17 @@ latin = {
             "阿梅代"   # Amédée
             "安塞尔"   # Ancel
             "安德烈_安德鲁"   # André_Andrew
-            "安吉尔伯特"   # Angelbert
+            "安热贝尔"   # Angelbert
             "安托万_安东尼努斯"   # Antoine_Antoninus
-            "阿尚博德_阿奇博尔德"   # Archambaud_Archibald
+            "阿尔尚博_阿奇博尔德"   # Archambaud_Archibald
             "阿诺_阿诺德"   # Arnaud_Arnold
             "阿诺_阿诺德"   # Arnault_Arnold
-            "阿努尔_阿努尔夫"   # Arnoul_Arnulf
+            "阿尔努_阿努尔夫"   # Arnoul_Arnulf
             "奥布里"   # Aubry
             "艾玛"   # Aymar
             "巴塞勒米_巴尔托洛缪斯"   # Barthélémi_Bartolomeus
-            "鲍德温_鲍德温"   # Baudouin_Baldwin
-            "贝努特_贝尼迪克特"   # Benoît_Benedict
+            "博杜安_鲍德温"   # Baudouin_Baldwin
+            "伯努瓦_贝内迪克特"   # Benoît_Benedict
             "贝伦格尔_贝伦加尔"   # Bérenger_Berengar
             "贝尔纳_伯纳德"   # Bernard_Bernard
             "贝特朗_贝特朗"   # Bertrand_Bertrand
@@ -2917,8 +2917,8 @@ latin = {
             "吉尔贝_吉尔伯特"   # Gilbert_Gilbert
             "吉勒_埃吉迪乌斯"   # Gilles_Egidius
             "戈德弗雷_戈弗雷"   # Godefroy_Godfrey
-            "吉沙尔"   # Guichard
-            "吉格斯"   # Guiges
+            "吉夏尔"   # Guichard
+            "吉格"   # Guiges
             "吉扬_威廉"   # Guilhem_William
             "纪尧姆_威廉"   # Guillaume_William
             "居伊_盖伊"   # Guy_Guy
@@ -2937,58 +2937,58 @@ latin = {
             "茹尔丹_乔丹"   # Jourdain_Jordan
             "朱利安_尤里安"   # Julien_Julian
             "莱昂"   # Léon
-            "莱奥纳德"   # Léonard
+            "莱昂纳尔"   # Léonard
             "洛泰尔"   # Lothaire_Lothar
             "路易_路易"   # Louis_Louis
             "卢普_卢波"   # Loup_Lupo
             "玛拿西"   # Manassès
             "马修_马修"   # Mathieu_Matthew
             "莫里斯"   # Maurice
-            "尼古拉斯_尼古拉斯"   # Nicolas_Nicholas
-            "奥吉尔"   # Ogier
-            "翁弗瓦"   # Onfroy
+            "尼古拉_尼古拉斯"   # Nicolas_Nicholas
+            "奥吉耶"   # Ogier
+            "翁弗鲁瓦"   # Onfroy
             "奥尔森"   # Orson
             "奥顿_奥托"   # Othon_Otto
-            "培恩_帕甘"   # Payen_Pagan
+            "帕扬_帕甘"   # Payen_Pagan
             "腓力_腓力"   # Philippe_Philip
             "皮埃尔_彼得"   # Pierre_Peter
-            "兰博特"   # Raimbaut
-            "拉奥尔_拉尔夫"   # Raoul_Ralph
-            "雷蒙德_雷蒙德"   # Raymond_Raymond
-            "雷诺德_莱因霍尔德"   # Raynaud_Reinhold
-            "理查_理查"   # Renaud_Reinhold
-            "罗贝尔_罗伯特"   # Richard_Richard
-            "罗宾"   # Robert_Robert
-            "罗杰_罗杰"   # Robin
-            "洛冈"   # Roger_Roger
-            "洛古厄斯"   # Rorgon
-            "鲁博"   # Rorgues
-            "萨瓦里"   # Roubaud
-            "西吉斯蒙德_西格蒙德"   # Savary
-            "西蒙_西蒙"   # Sigismond_Sigmund
-            "狄保尔特_西奥博尔德"   # Simon_Simon
-            "狄埃博_西奥博尔德"   # Thibault_Theobald
-            "狄埃里_狄埃里"   # Thiébaut_Theobald
-            "托马斯_托马斯"   # Thierry_Thierry
-            "托马斯_托马斯"   # Thomas_Thomas
-            "伊福斯"   # Valeran
-            "伊福斯"   # Yves
+            "兰博"   # Raimbaut
+            "拉乌尔_拉尔夫"   # Raoul_Ralph
+            "雷蒙_雷蒙德"   # Raymond_Raymond
+            "雷诺_莱因霍尔德"   # Raynaud_Reinhold
+            "雷诺_莱因霍尔德"   # Renaud_Reinhold
+            "里夏尔_理查德"   # Richard_Richard
+            "罗贝尔_罗伯特"   # Robert_Robert
+            "罗宾"   # Robin
+            "罗歇_罗杰"   # Roger_Roger
+            "洛冈"   # Rorgon
+            "罗尔格"   # Rorgues
+            "鲁博"   # Roubaud
+            "萨瓦里"   # Savary
+            "西吉斯蒙_西格蒙德"   # Sigismond_Sigmund
+            "西蒙_西蒙"   # Simon_Simon
+            "蒂博_西奥博尔德"   # Thibault_Theobald
+            "蒂埃博_西奥博尔德"   # Thiébaut_Theobald
+            "蒂埃里_狄埃里"   # Thierry_Thierry
+            "托马_托马斯"   # Thomas_Thomas
+            "瓦莱朗"   # Valeran
+            "伊夫"   # Yves
         }
         female_names = {
             "埃莉诺_埃莉诺"   # Éléonore_Eleanor
             "埃洛迪"   # Élodie
             "艾蒂安内特"   # Étiennette
-            "阿黛尔_阿黛拉"   # Adèle_Adela
+            "阿黛勒_阿黛拉"   # Adèle_Adela
             "艾妲尔莫德_艾尔莫狄斯"   # Adalmode_Almodis
             "阿德莱德_阿德莱德"   # Adelaide_Adelaide
             "艾德琳德"   # Adelinde
-            "阿嘉特_阿廖沙"   # Agathe_Agatha
-            "艾格妮丝_艾格妮丝"   # Agnès_Agnes
+            "阿嘉特_阿加莎"   # Agathe_Agatha
+            "阿涅丝_艾格妮丝"   # Agnès_Agnes
             "阿莱雅德"   # Aléarde
             "爱丽丝_爱丽丝"   # Alice_Alice
             "艾丽诺_埃莉诺"   # Aliénor_Eleanor
             "爱丽克斯_爱丽丝"   # Alix_Alice
-            "艾尔莫狄斯_艾尔莫狄斯"   # Almodis_Almodis
+            "艾尔莫狄_艾尔莫狄斯"   # Almodis_Almodis
             "艾米丽_艾米丽娅"   # Amelie_Amelia
             "安妮_安娜"   # Anne_Anna
             "安托瓦内特"   # Antoinette
@@ -3002,30 +3002,30 @@ latin = {
             "贝伦格尔"   # Bérengère
             "培德"   # Berthe
             "布兰琪_布兰琪"   # Blanche_Blanche
-            "博恩_博恩"   # Bonne_Bonne
+            "博内_博恩"   # Bonne_Bonne
             "布尔格妮"   # Bourgogne
             "布尔吉妮"   # Bourguigne
             "塞西尔_塞西莉亚"   # Cécile_Cecilia
-            "凯瑟琳_凯瑟琳"   # Cathèrine_Catherine
+            "卡特琳_凯瑟琳"   # Cathèrine_Catherine
             "夏洛特"   # Charlotte
             "康斯坦丝_康斯坦丝"   # Constance_Constance
             "丹尼丝"   # Denise
             "杜斯_杜斯"   # Douce_Douce
             "阿基薇"   # Echive
-            "埃格兰塔因"   # Eglantine
+            "埃格朗蒂纳"   # Eglantine
             "伊丽莎白_伊丽莎白"   # Elisabeth_Elisabeth
             "艾玛_艾玛"   # Emma_Emma
             "埃蒙嘉德_埃蒙嘉德"   # Ermengarde_Ermengarde
             "埃尔梅辛德_埃尔梅辛妲"   # Ermessinde_Ermesinda
             "埃斯克拉蒙德_埃斯克拉蒙妲"   # Esclarmonde_Esclarmunda
-            "欧芙洛希尼_欧芙洛绪涅"   # Euphrosine_Euphrosyne
-            "欧斯塔西娅"   # Eustachie
+            "厄弗洛西纳_尤弗罗西尼"   # Euphrosine_Euphrosyne
+            "厄斯塔谢"   # Eustachie
             "伊芙_爱娃"   # Eve_Eva
             "格贝尔戈_格贝尔嘉"   # Gerberge_Gerberga
-            "吉赛尔_吉塞拉"   # Gisèle_Gisela
+            "吉赛勒_吉塞拉"   # Gisèle_Gisela
             "吉约梅特"   # Guillaumette
-            "埃洛伊兹_海勒薇兹"   # Héloise_Eloise
-            "赫尔薇丝"   # Helvis
+            "埃鲁瓦丝_海勒薇兹"   # Héloise_Eloise
+            "埃尔薇"   # Helvis
             "荷狄尔妮"   # Hodierne
             "伊德_伊妲"   # Ide_Ida
             "伊妲_伊妲"   # Ida_Ida
@@ -3037,7 +3037,7 @@ latin = {
             "朱莉安妮_朱莉安娜"   # Julienne_Juliana
             "玛法尔妲"   # Mafalda
             "玛奥_玛奥"   # Mahaut_Mahaut
-            "玛戈特"   # Margot
+            "玛戈"   # Margot
             "玛格丽特_玛格丽特"   # Marguerite_Margaret
             "玛丽_玛丽亚"   # Marie_Maria
             "玛尔特_玛莎"   # Marthe_Martha
@@ -3046,14 +3046,14 @@ latin = {
             "梅丽珊德_梅丽森德"   # Mélisande_Melisende
             "梅丽珊德_梅丽森德"   # Mélisende_Melisende
             "梅露希尼"   # Mélusine
-            "佩尔妮特"   # Péronelle_Peronella
-            "普莱珊丝_普莱珊丝"   # Pernelle_Peronella
+            "佩罗内勒_佩罗妮拉"   # Péronelle_Peronella
+            "佩尔内勒_佩罗妮拉"   # Pernelle_Peronella
             "佩琳妮"   # Perinne
             "佩娜特"   # Pernette
             "普莱桑斯_普莱桑斯"   # Plaisance_Plaisance
             "蕾蒙德"   # Raymonde
             "莎拉兹妮"   # Sarrazine
-            "Solène"   # Solène
+            "索莱娜"   # Solène
             "索菲_索菲亚"   # Sophie_Sophia
             "斯蒂芬妮_斯蒂芬妮"   # Stéphanie_Stephania
             "西比尔_西比拉"   # Sybille_Sibylla
@@ -3340,7 +3340,7 @@ latin = {
             "巴索"   # Basso
             "巴提斯塔"   # Battista
             "贝尔特拉诺"   # Beltrano
-            "贝内代托_贝尼迪克特"   # Benedetto_Benedict
+            "贝内代托_贝内迪克特"   # Benedetto_Benedict
             "本韦努托"   # Benvenuto
             "贝拉多"   # Berardo
             "贝尔纳波_伯纳德"   # Bernabò_Bernard
@@ -3743,7 +3743,7 @@ latin = {
             "贝纳特_伯纳德"   # Barral
             "贝特朗_贝特朗"   # Bartoumiéu_Bartolomeus
             "巴拉斯_布莱斯"   # Baudoïn_Baldwin
-            "博雷尔"   # Beneset_Benedict
+            "博雷尔_贝内迪克特"   # Beneset_Benedict
             "贝拉尔_伯纳德"   # Bérard_Bernard
             "克莱门赤_克莱门特"   # Berenguié_Berengar
             "琴托尔_琴图勒"   # Bermond_Vermudo
@@ -3881,7 +3881,7 @@ latin = {
             "埃斯克拉蒙妲_埃斯克拉蒙妲"   # Esclarmonda_Esclarmunda
             "埃斯特法尼娅_斯蒂芬妮"   # Estefania_Stephania
             "尤菲米娅"   # Eufèmia
-            "欧弗罗西娜_欧芙洛绪涅"   # Eufrosina_Euphrosyne
+            "欧弗罗西娜_尤弗罗西尼"   # Eufrosina_Euphrosyne
             "费迪妲"   # Faidida
             "菲莉帕_菲莉帕"   # Filipa_Philippa
             "菲萝梅娜"   # Filomena
@@ -4964,7 +4964,7 @@ byzantine = {
             "欧妮可"   # Eunike
             "尤菲米娅"   # Euphemia
             "欧芙拉茜娅"   # Euphrasia
-            "欧芙洛绪涅_欧芙洛绪涅"   # Euphrosyne_Euphrosyne
+            "欧芙洛绪涅_尤弗罗西尼"   # Euphrosyne_Euphrosyne
             "欧普拉克茜娅"   # Eupraxia
             "尤塞比娅"   # Eusebia
             "尤斯塔茜娅"   # Eustathia
@@ -7081,7 +7081,7 @@ celtic = {
             "布洛马尔"   # Bronmael
             "布德古热德"   # Budguoret
             "布德霍亚"   # Budhoiarn
-            "布迪克_本内迪克"   # Budic_Benedict
+            "布迪克_贝内迪克特"   # Budic_Benedict
             "布多克"   # Budoc
             "布赫多克"   # Buhedoc
             "布谷尔"   # Butgual
@@ -12126,7 +12126,7 @@ east_slavic = {
             "多布罗尼加"   # Dobronega
             "多布罗斯拉娃"   # Dobroslava
             "叶菲米娅_尤菲米娅"   # Yefimia_Euphemia
-            "叶夫罗西尼娅_欧芙洛绪涅"   # Yefrosinia_Euphrosyne
+            "叶夫罗西尼娅_尤弗罗西尼"   # Yefrosinia_Euphrosyne
             "叶卡捷琳娜_凯瑟琳"   # Yekaterina_Catherine
             "伊丽莎白_伊丽莎白"   # Yelizaveta_Elisabeth
             "叶夫多基娅_尤多茜娅"   # Yevdokia_Eudocia
@@ -12723,7 +12723,7 @@ west_slavic = {
             "阿尔诺斯特_欧内斯特"   # Arnost_Ernest
             "巴沃尔"   # Bavor
             "贝德里希_弗雷德里克"   # Bedrich_Frederick
-            "贝尼斯_贝尼迪克特"   # Benes_Benedict
+            "贝尼斯_贝内迪克特"   # Benes_Benedict
             "博切克"   # Bocek
             "博胡斯拉夫_博古斯劳"   # Bohuslav_Boguslaw
             "博列斯拉夫_博列斯拉夫"   # Boleslav_Boleslav
@@ -13420,7 +13420,7 @@ south_slavic = {
             "埃琳娜_海伦"   # Elena_Helen
             "伊丽莎白_伊丽莎白"   # Elisabeta_Elisabeth
             "艾米莉娅_艾米丽"   # Emilia_Emily
-            "欧芙洛茜娜_欧芙洛绪涅"   # Eufroysina_Euphrosyne
+            "欧芙洛茜娜_尤弗罗西尼"   # Eufroysina_Euphrosyne
             "菲莉茜雅"   # Felicia
             "弗洛阿雷娅_芙萝拉"   # Floarea_Flora
             "雅各巴"   # Iacoba
@@ -13612,7 +13612,7 @@ magyar = {
             "巴林特"   # Bálint
             "贝拉_阿尔伯特"   # Béla_Albert
             "鲍拉日"   # Balázs
-            "拜奈代克_贝尼迪克特"   # Benedek_Benedict
+            "拜奈代克_贝内迪克特"   # Benedek_Benedict
             "贝尔纳特_伯纳德"   # Bernát_Bernard
             "拜尔托克"   # Bertók
             "拜尔陶隆"   # Bertalan
