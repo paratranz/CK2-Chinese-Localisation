@@ -405,9 +405,9 @@ CHANGE_SIEGE;$WHERE$的守卫者会得到$SIZE$的惩罚。;;;;;;;;;;x
 SIEGE_MINOR;小;;;;;;;;;;x
 SIEGE_AVERAGE;中;;;;;;;;;;x
 SIEGE_MAJOR;大;;;;;;;;;;x
-SPAWN_EVENT;发生‘$WHICH$’事件。\n;;;;;;;;;;x
+SPAWN_EVENT;「$WHICH$」事件已发生。\n;;;;;;;;;;x
 TREASURY_EFFECT;$DIRECTION$ $VALUE$金钱。\n;;;;;;;;;;x
-PRESTIGE_EFFECT;$DIRECTION$ $VALUE$威望。\n;;;;;;;;;;x
+PRESTIGE_EFFECT;$DIRECTION$ $VALUE$ 威望。\n;;;;;;;;;;x
 WAREXHAUSTION_EFFECT;$DIRECTION$ $VALUE$厌战。\n;;;;;;;;;;x
 MANPOWER_EFFECT;$DIRECTION$ $VALUE$ 人力。;;;;;;;;;;x
 ARMYTRADITION_EFFECT;$DIRECTION$ $VALUE$陆军传统。\n;;;;;;;;;;x
@@ -526,7 +526,7 @@ DIVORCEEFFECT;§Y$WHO$§!与§Y$SPOUSE$§!离婚。\n;;;;;;;;;;x
 SET_GUARDIAN_EFFECT;$GUARDIAN$成为了$WHO$的监护人。\n;;;;;;;;;;x
 BECOME_HERETIC_EFFECT;接受§Y$HERESY$§!的异端信仰。\n;;;;;;;;;;x
 ABANDON_HERESY_EFFECT;放弃§Y$HERESY$§!的异端信仰。\n;;;;;;;;;;x
-NAMED_CHARACTER_CREATED;$TYPE$ 名叫 §Y$NAME$§! 出现在 §Y$EMPLOYER$§!的宫廷内。\n;;;;;;;;;;x
+NAMED_CHARACTER_CREATED;$TYPE$名叫§Y$NAME$§!将会出现在§Y$EMPLOYER$§!的宫廷内。\n;;;;;;;;;;x
 INFANT_CREATED;一个叫做§Y$NAME$§!的孩子出现在§Y$EMPLOYER$§!的宫廷。\n;;;;;;;;;;x
 CHARACTER_CREATED;$TYPE$出现在§Y$EMPLOYER$§!的宫廷。\n;;;;;;;;;;x
 HEALTH_EFFECT;§Y$WHO$§W $DIRECTION$ $VALUE$健康。\n;;;;;;;;;;x
@@ -3256,7 +3256,7 @@ EVTOPTB62015;在后方指挥进攻;;;;;;;;;;x
 EVTDESC63000;我的主君 [This.Liege.GetTitledFirstName]，手下有一名封臣，但他本应是臣服于我的，这让我怨恨不已.;;;;;;;;;;x
 EVTOPTA63000;要求赔偿;;;;;;;;;;x
 EVTOPTB63000;我觉得 [This.Liege.GetSubjectPronoun] 会答应的……;;;;;;;;;;x
-EVTTOOLTIP63001;要求获得 [This.Liege.GetTitledFirstName]的接见.;;;;;;;;;;x
+EVTTOOLTIP63001;要求获得[This.Liege.GetTitledFirstName]的接见.;;;;;;;;;;x
 EVTDESC63001;我的封臣，[From.GetTitledName]，向我申述一名我的一名低级封臣本应是他的 [From.GetObjectPronoun] 属下……;;;;;;;;;;x
 EVTOPTA63001;[From.GetSubjectPronounCap] 说得对;;;;;;;;;;x
 EVTOPTB63001;让我想想……我拒绝你的要求!;;;;;;;;;;x
@@ -4196,11 +4196,11 @@ EVTDESC72099;我儿子和[From.GetTitledFirstName]的女儿调情，结果不小
 EVTOPTA72099;我的儿子必须吸取教训，我接受;;;;;;;;;;x
 EVTTOOLTIP72100;[This.GetTitledFirstName]被迫娶了封臣怀孕的女儿;;;;;;;;;;x
 EVTOPTB72099;我的儿子绝对不会娶你的女儿！;;;;;;;;;;x
-EVTDESC72100;我从没想过我的[GetFromRelation]会强迫我娶那个在宴会上勾引过的女孩！她怀孕了,且她的父亲要求我娶她.;;;;;;;;;;x
+EVTDESC72100;我从没想过我的[GetFromRelation]会强迫我娶那个我在宴会上勾引过的女孩！她怀孕了，而且她父亲要求我娶她。;;;;;;;;;;x
 EVTOPTA72100;看上去我没有别的选择……;;;;;;;;;;x
-EVTDESC72109;我命令在[Root.Location.GetName]举办一个盛大的宴会.我们开始准备吧……;;;;;;;;;;x
-EVTOPTA72109;我的所有封臣都会去那里……;;;;;;;;;;x
-EVTDESC72110;最后一个客人回家了，所有人都同意这是今年最好的一次宴会.;;;;;;;;;;x
+EVTDESC72109;我下令在[Root.Location.GetName]举办一场盛大的宴会。让我们开始准备吧……;;;;;;;;;;x
+EVTOPTA72109;我所有的封臣都会去那里……;;;;;;;;;;x
+EVTDESC72110;最后一个客人回家了，所有人都同意这是今年最好的一次宴会。;;;;;;;;;;x
 EVTOPTA72110;我玩的很愉快，所有人都是;;;;;;;;;;x
 EVTTOOLTIP72111;离开宴会;;;;;;;;;;x
 EVTDESC72111;[From.GetTitledFirstName]的宴会结束了，是时候踏上回家的路了.在品食，享乐和热情之后，真实的世界让人觉得无比寒冷和充满敌意.;;;;;;;;;;x
@@ -5647,7 +5647,7 @@ b_stockholm;斯德哥尔摩;;;;;;;;;;x
 b_enkoping;恩雪平;;;;;;;;;;x
 b_alsno;阿勒斯诺;;;;;;;;;;x
 b_vaksala;弗萨拉;;;;;;;;;;x
-c_vastergotland_adj;西约特兰;;;;;;;;;;x
+c_vastergotland_adj;西哥特兰;;;;;;;;;;x
 b_galakvist;约勒维斯特;;;;;;;;;;x
 b_lodose;勒德塞;;;;;;;;;;x
 b_skara;斯卡拉;;;;;;;;;;x
@@ -5660,7 +5660,7 @@ b_lena;利恩娜;;;;;;;;;;x
 b_skalunda;斯卡隆达;;;;;;;;;;x
 b_lindholmen;林德霍尔姆;;;;;;;;;;x
 b_alvsborg;艾尔夫斯堡;;;;;;;;;;x
-c_ostergotland_adj;东约特兰;;;;;;;;;;x
+c_ostergotland_adj;东哥特兰;;;;;;;;;;x
 b_stegeborg;斯丁格堡;;;;;;;;;;x
 b_skanninge;谢宁厄;;;;;;;;;;x
 b_vadstena;瓦斯泰纳;;;;;;;;;;x
@@ -15809,7 +15809,7 @@ FAM_CHILDREN;子嗣;;;;;;;;;;x
 FAM_SIBLINGS;兄弟姐妹;;;;;;;;;;x
 FAM_MOTHER;母亲;;;;;;;;;;x
 FAM_FATHER;父亲;;;;;;;;;;x
-SAVE_LOADED;读取储存的游戏……;;;;;;;;;;x
+SAVE_LOADED;读取储存的游戏;;;;;;;;;;x
 SAVE_PROG;游戏储存进度：$VALUE$%;;;;;;;;;;x
 FAM_SPOUSE;配偶;;;;;;;;;;x
 VIEWING_REL_FOR;查看关系：与;;;;;;;;;;x
@@ -16335,7 +16335,7 @@ ATTR_HOME_WATERS;0% 在本国水域;;;;;;;;;;x
 ATTR_BASE;基础值;;;;;;;;;;x
 ATTR_TIME_AT_SEA;航行时间;;;;;;;;;;x
 ATTR_OPEN_SEA;公海;;;;;;;;;;x
-LOAD_CAPACITY_LABEL;可运载$NUM$支团队.;;;;;;;;;;x
+LOAD_CAPACITY_LABEL;可运载$NUM$单位;;;;;;;;;;x
 COMBAT_FIRE;我军将领与敌军将领军事能力的差距影响.;;;;;;;;;;x
 PLAYER_KICKED;$NAME$被主机踢除了.;;;;;;;;;;x
 PLAYER_BANNED;$NAME$被主机禁止了.;;;;;;;;;;x
@@ -17716,17 +17716,17 @@ CREATING_CHKSUM;读取检验信息;;;;;;;;;;x
 LOADING_HISTORY;读取历史文件;;;;;;;;;;x
 LOADING_SOUNDS;读取语音;;;;;;;;;;x
 PROC_FLAGS;处理旗帜;;;;;;;;;;x
-LOAD_FLAGS;读取旗帜……;;;;;;;;;;x
-LOAD_GFX;读取图像……;;;;;;;;;;x
+LOAD_FLAGS;读取旗帜;;;;;;;;;;x
+LOAD_GFX;读取图像;;;;;;;;;;x
 CREATING_THE_WORLD;创建世界;;;;;;;;;;x
 CREATING_TREES;创建树木;;;;;;;;;;x
 CREATING_BORDERS;创建边界;;;;;;;;;;x
 CREATING_RIVERS;创建河流;;;;;;;;;;x
 MAP_PROPERLY_INIT;初始化地图;;;;;;;;;;x
 CREATING_TEXTS;创建文本;;;;;;;;;;x
-LOAD_EVENTS;读取事件……;;;;;;;;;;x
+LOAD_EVENTS;读取事件;;;;;;;;;;x
 ADAPTING_HISTORY;读取历史;;;;;;;;;;x
-LOAD_CITY;读取城市……;;;;;;;;;;x
+LOAD_CITY;读取城市;;;;;;;;;;x
 CALC_PATHS;计算路径;;;;;;;;;;x
 LOAD_GFX_PDXMAP_SHADERS;读取地图（创建特效）;;;;;;;;;;x
 LOAD_GFX_PDXMAP_TERRAIN;读取地图（创建地形）;;;;;;;;;;x

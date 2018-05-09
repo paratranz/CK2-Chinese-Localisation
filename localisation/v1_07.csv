@@ -1,7 +1,7 @@
-ADD_AMBITION_EFFECT;$CHAR$ 获得野心 §Y$OBJECTIVE$§!\n;;;;;;;;;;x
-CANCEL_AMBITION_EFFECT;$CHAR$ 失去野心 §Y$OBJECTIVE$§!\n;;;;;;;;;;x
-ADD_PLOT_EFFECT;$CHAR$ 获得密谋 §Y$OBJECTIVE$§!\n;;;;;;;;;;x
-CANCEL_PLOT_EFFECT;$CHAR$ 失去密谋 §Y$OBJECTIVE$§!\n;;;;;;;;;;x
+ADD_AMBITION_EFFECT;$CHAR$获得野心§Y$OBJECTIVE$§!\n;;;;;;;;;;x
+CANCEL_AMBITION_EFFECT;$CHAR$失去野心§Y$OBJECTIVE$§!\n;;;;;;;;;;x
+ADD_PLOT_EFFECT;$CHAR$获得密谋§Y$OBJECTIVE$§!\n;;;;;;;;;;x
+CANCEL_PLOT_EFFECT;$CHAR$失去密谋§Y$OBJECTIVE$§!\n;;;;;;;;;;x
 HAS_AMBITION;有野心;;;;;;;;;;x
 HAS_AN_AMBITION;拥有一个野心;;;;;;;;;;x
 HAS_NO_AMBITION;没有野心;;;;;;;;;;x
@@ -50,12 +50,12 @@ LEADS_NO_FACTION;不领导派系;;;;;;;;;;x
 IN_FACTION;参加「§Y$FACTION$§!」派系;;;;;;;;;;x
 IN_A_FACTION;参加一个派系;;;;;;;;;;x
 IN_NO_FACTION;不参加派系;;;;;;;;;;x
-HAS_LOWER_FACTION_POWER;派系强度比封君的 §Y$VAL$%§! 弱.;;;;;;;;;;x
+HAS_LOWER_FACTION_POWER;派系强度小于封君的 §Y$VAL$%§!。;;;;;;;;;;x
 HAS_HIGHER_FACTION_POWER;派系强度至少是领主的 §Y$VAL$%§!。;;;;;;;;;;x
 ANY_FACTION_BACKER_STARTS;任何派系成员;;;;;;;;;;x
 LegacyOfRomeDLC;罗马的遗产;;;;;;;;;;x
 GOOD;好;;;;;;;;;;x
-OPINION_OF_CHAR_AS_LIEGE;对 §Y$CHAR$§! 的好感(作为封君);;;;;;;;;;x
+OPINION_OF_CHAR_AS_LIEGE;对 §Y$CHAR$§! 的好感（作为封君）;;;;;;;;;;x
 RULER_HAS_MOVED_CAPITAL;§Y[GetTitledFirstName]§!在[GetPossPronoun]一生中不允许再次迁都 - 除非是回到[PrimaryTitle.GetName]的传统首都。;;;;;;;;;;x
 RULER_CAN_MOVE_CAPITAL_TO_OLD;即使§Y[GetTitledFirstName]§!已经迁都过一次，[GetSubjectPronoun]可以把首都迁回到[PrimaryTitle.GetName]的传统首都。;;;;;;;;;;x
 CAN_ONLY_LEAD_X_FACTIONS;最多可以领导 §Y$NUM$§! 个派系!;;;;;;;;;;x
@@ -98,100 +98,100 @@ EVTDESC8091;§Y[From.GetTitledName]§! 已经同意了§Y均分继承派§!的�
 EVTDESC8095;为了避免国家因内战而分裂，[From.GetTitledName]已经同意降低王权。你在此次冲突中的宝贵支持我们将谨记于心。\n\n真诚的，\n[FromFrom.GetTitledName];;;;;;;;;;x
 EVTDESC8094;在一个强大派系的压力下，§Y[From.GetTitledName]§!已经同意§Y降低王权§!。;;;;;;;;;;x
 EVTDESC8097;为了避免无价值的内战，[From.GetTitledName]已经明智地同意解除我们的封臣义务。你在此次冲突中的宝贵支持我们将谨记于心。\n\nS真诚的，\n[FromFrom.GetTitledName];;;;;;;;;;x
-EVTDESC8093;在一个强大的独立派系压力下，[From.GetTitledName] 已经同意解除 [FromFrom.PrimaryTitle.GetFullName] 和其他成员的封臣义务.;;;;;;;;;;x
+EVTDESC8093;在一个强大的独立派系压力下，[From.GetTitledName] 已经同意解除[FromFrom.PrimaryTitle.GetFullName]和其他成员的附庸关系。;;;;;;;;;;x
 EVTDESC8098;真不可思议！[From.GetTitledName]已经明智地同意你的要求并承认 [FromFrom.SupportedClaimant.GetTitledName]作为[FromFrom.SupportedClaimantTitle.GetName]的领主。开始庆祝吧！\n\n此致，\n[FromFrom.GetTitledName];;;;;;;;;;x
-EVTDESC8099;[From.GetTitledName] 已经向派系屈服并且认同 [FromFrom.SupportedClaimant.GetTitledName] 作为 [FromFrom.SupportedClaimantTitle.GetName] 的统治者.;;;;;;;;;;x
+EVTDESC8099;[From.GetTitledName]已经向派系屈服并且认同[FromFrom.SupportedClaimant.GetTitledName]作为[FromFrom.SupportedClaimantTitle.GetName]的统治者。;;;;;;;;;;x
 WAR_NAME_FACTION_INDEPENDENCE;$ORDER$$FIRST_ADJ$联盟独立战争;;;;;;;;;;x
-cb_faction_independence_desc;受 §Y$CLAIMANT$§! 领导的独立派系的成员，可以一起向 §Y$TARGET$§! 宣称独立战争;;;;;;;;;;x
+cb_faction_independence_desc;受§Y$CLAIMANT$§!领导的独立派系的成员，可以一起向§Y$TARGET$§!宣称独立战争;;;;;;;;;;x
 alert_powerful_factions_instant;§Y危险的派系§!;;;;;;;;;;x
 alert_powerful_factions_delayed;你的国家内部存在强大的反对派系:\n$LIST$;;;;;;;;;;x
 faction_succ_seniority_short;年长者继承;;;;;;;;;;x
 faction_succ_seniority_title;在[This.GetName]采用年长者继承;;;;;;;;;;x
-faction_succ_seniority_desc;试图在 [This.GetName] 采用长者继承的成员. 一旦实力足够强大，§Y[From.GetBestName]§! 可能会向 §Y[From.Liege.GetBestName]§! 送出最后通牒.;;;;;;;;;;x
+faction_succ_seniority_desc;试图在[This.GetName]采用年长者继承的成员。一旦实力足够强大，§Y[From.GetBestName]§!可能会向§Y[From.Liege.GetBestName]§!发出最后通牒。;;;;;;;;;;x
 faction_succ_primogeniture_short;长子继承;;;;;;;;;;x
 faction_succ_primogeniture_title;在 [This.GetName]采用长子继承;;;;;;;;;;x
-faction_succ_primogeniture_desc;试图在 [This.GetName] 采用长子继承的成员.一旦实力足够强大 ，§Y[From.GetBestName]§! 可能会向 §Y[From.Liege.GetBestName]§! 送出最后通牒.;;;;;;;;;;x
+faction_succ_primogeniture_desc;试图在[This.GetName]采用长子继承的成员。一旦实力足够强大，§Y[From.GetBestName]§!可能会向§Y[From.Liege.GetBestName]§!发出最后通牒。;;;;;;;;;;x
 faction_succ_feudal_elective_short;选举继承;;;;;;;;;;x
 faction_succ_feudal_elective_title;在 [This.GetName]采用选举继承;;;;;;;;;;x
-faction_succ_feudal_elective_desc;试图在 [This.GetName] 采用选举继承的成员.一旦实力足够强大，§Y[From.GetBestName]§! 可能会向§Y[From.Liege.GetBestName]§! 送出最后通牒.;;;;;;;;;;x
+faction_succ_feudal_elective_desc;试图在[This.GetName]采用选举继承的成员。一旦实力足够强大，§Y[From.GetBestName]§!可能会向§Y[From.Liege.GetBestName]§!发出最后通牒。;;;;;;;;;;x
 faction_succ_gavelkind_short;均分继承;;;;;;;;;;x
 faction_succ_gavelkind_title;在 [This.GetName]采用均分继承;;;;;;;;;;x
-faction_succ_gavelkind_desc;试图在 [This.GetName]采用均分继承法的成员。一旦实力足够强大，§Y[From.GetBestName]§! 可能会向 §Y[From.Liege.GetBestName]§! 发出最后通牒。;;;;;;;;;;x
+faction_succ_gavelkind_desc;试图在[This.GetName]采用均分继承法的成员。一旦实力足够强大，§Y[From.GetBestName]§!可能会向§Y[From.Liege.GetBestName]§!发出最后通牒。;;;;;;;;;;x
 faction_lower_crown_authority_short;降低王权;;;;;;;;;;x
-faction_lower_crown_authority_title;在 [This.GetName]降低王权;;;;;;;;;;x
-faction_lower_crown_authority_desc;试图在 [This.GetName] 降低王权的成员. 一旦实力足够强大，§Y[From.GetBestName]§! 可能会向 §Y[From.Liege.GetBestName]§! 发出最后通牒.;;;;;;;;;;x
+faction_lower_crown_authority_title;在[This.GetName]降低王权;;;;;;;;;;x
+faction_lower_crown_authority_desc;试图在[This.GetName]降低王权的成员。一旦实力足够强大，§Y[From.GetBestName]§!可能会向§Y[From.Liege.GetBestName]§!发出最后通牒。;;;;;;;;;;x
 faction_independence_title;独立;;;;;;;;;;x
-faction_independence_desc;试图完全独立的成员. 一旦实力足够强大，§Y[From.GetBestName]§! 可能会向 §Y[From.Liege.GetBestName]§! 发出最后通牒. 独立派系的领袖比其他派系领袖更倾向于冒险一搏，在封君被攻击的时候更加倾向于无视良心的谴责发动叛乱.;;;;;;;;;;x
+faction_independence_desc;试图完全独立的成员。一旦实力足够强大，§Y[From.GetBestName]§!可能会向§Y[From.Liege.GetBestName]§!发出最后通牒。独立派系的领袖比其他派系领袖更倾向于冒险一搏，在封君被攻击的时候更加倾向于无视良心的谴责发动叛乱。;;;;;;;;;;x
 faction_claimant_short;扶植宣称;;;;;;;;;;x
 faction_claimant_title;[New.GetTitledFirstName]宣称 [This.GetName];;;;;;;;;;x
-faction_claimant_desc;试图扶植§Y[New.GetTitledName]§!登上[This.GetName]§!的宝座的成员.一旦实力足够强大,§Y[From.GetTitledName]§!可能会向§Y[From.Liege.GetBestName]§!发出最后通牒.;;;;;;;;;;x
+faction_claimant_desc;试图扶植§Y[New.GetTitledName]§!登上[This.GetName]§!的宝座的成员。一旦实力足够强大，§Y[From.GetTitledName]§!可能会向§Y[From.Liege.GetBestName]§!发出最后通牒。;;;;;;;;;;x
 faction_succ_seniority_ultimatum;要求长者继承;;;;;;;;;;x
-faction_succ_seniority_ultimatum_desc;向 §Y[Root.Liege.GetBestName]§!发出最后通牒，要求长者继承. 如果 [Root.Liege.GetSubjectPronoun] 不应允，你的派系会诉诸武力.;;;;;;;;;;x
+faction_succ_seniority_ultimatum_desc;向§Y[Root.Liege.GetBestName]§!发出最后通牒，要求采用年长者继承。如果[Root.Liege.GetSubjectPronoun]拒绝，你的派系会诉诸武力。;;;;;;;;;;x
 faction_succ_primogeniture_ultimatum;要求长子继承;;;;;;;;;;x
-faction_succ_primogeniture_ultimatum_desc;向§Y[Root.Liege.GetBestName]§! 发出最后通牒，要求长子继承. 如果 [Root.Liege.GetSubjectPronoun] 不应允，你的派系会诉诸武力.;;;;;;;;;;x
+faction_succ_primogeniture_ultimatum_desc;向§Y[Root.Liege.GetBestName]§!发出最后通牒，要求采用长子继承。如果[Root.Liege.GetSubjectPronoun]拒绝，你的派系会诉诸武力。;;;;;;;;;;x
 faction_succ_feudal_elective_ultimatum;要求选举继承;;;;;;;;;;x
-faction_succ_feudal_elective_ultimatum_desc;向 §Y[Root.Liege.GetBestName]§! 发出最后通牒，要求选举继承. 如果 [Root.Liege.GetSubjectPronoun] 不应允，你的派系会诉诸武力.;;;;;;;;;;x
+faction_succ_feudal_elective_ultimatum_desc;向§Y[Root.Liege.GetBestName]§!发出最后通牒，要求采用选举继承。如果[Root.Liege.GetSubjectPronoun]拒绝，你的派系会诉诸武力。;;;;;;;;;;x
 faction_succ_gavelkind_ultimatum;要求均分继承;;;;;;;;;;x
-faction_succ_gavelkind_ultimatum_desc;向 §Y[Root.Liege.GetBestName]§! 发出最后通牒，要求采用均分继承法。如果 [Root.Liege.GetSubjectPronoun] 拒绝，你的派系将会诉诸武力。;;;;;;;;;;x
+faction_succ_gavelkind_ultimatum_desc;向§Y[Root.Liege.GetBestName]§!发出最后通牒，要求采用均分继承。如果[Root.Liege.GetSubjectPronoun]拒绝，你的派系会诉诸武力。;;;;;;;;;;x
 faction_lower_crown_authority_ultimatum;要求降低王权;;;;;;;;;;x
-faction_lower_crown_authority_ultimatum_desc;向 §Y[Root.Liege.GetBestName]§! 发出最后通牒，要求降低王权. 如果 [Root.Liege.GetSubjectPronoun] 不应允，你的派系会诉诸武力.;;;;;;;;;;x
+faction_lower_crown_authority_ultimatum_desc;向§Y[Root.Liege.GetBestName]§!发出最后通牒，要求降低王权。如果[Root.Liege.GetSubjectPronoun]拒绝，你的派系会诉诸武力。;;;;;;;;;;x
 faction_independence_ultimatum;要求独立;;;;;;;;;;x
-faction_independence_ultimatum_desc;向 §Y[Root.Liege.GetBestName]§! 发出最后通牒，要求你派系的所有成员获得独立地位. 如果 [Root.Liege.GetSubjectPronoun] 不应允，你的派系会诉诸武力.;;;;;;;;;;x
+faction_independence_ultimatum_desc;向§Y[Root.Liege.GetBestName]§!发出最后通牒，要求你派系的所有成员获得独立地位。如果[Root.Liege.GetSubjectPronoun]拒绝，你的派系会诉诸武力。;;;;;;;;;;x
 faction_claimant_ultimatum;要求兑现宣称;;;;;;;;;;x
-faction_claimant_ultimatum_desc;向 §Y[Root.Liege.GetBestName]§! 发出最后通牒,要求扶植§Y[Root.SupportedClaimant.GetBestName]§! 登上§Y[Root.SupportedClaimantTitle.GetName]§! 的宝座. 如果 [Root.Liege.GetSubjectPronoun] 不应允，这个派系会诉诸武力.;;;;;;;;;;x
+faction_claimant_ultimatum_desc;向§Y[Root.Liege.GetBestName]§!发出最后通牒，要求扶植§Y[Root.SupportedClaimant.GetBestName]§!登上§Y[Root.SupportedClaimantTitle.GetName]§!的宝座。如果[Root.Liege.GetSubjectPronoun]拒绝，你的派系会诉诸武力。;;;;;;;;;;x
 REVOLT_DISTANCE_LESS_THAN;叛乱距离少于;;;;;;;;;;x
 REVOLT_DISTANCE_AT_LEAST;最小叛乱距离;;;;;;;;;;x
 LOADING_TIP_51;在男性优先继承法下，有儿子的小女儿的继承顺位高于没有儿子的大女儿;;;;;;;;;;x
-OPINION_DIFF_LOWER_THAN;对§Y$FIRST$§! 和 §Y$SECOND$§!  好感的差值少于 §Y$VAL$§!;;;;;;;;;;x
-OPINION_DIFF_AT_LEAST;对§Y$FIRST$§! 和 §Y$SECOND$§! 好感的差值最少是 §Y$VAL$§!;;;;;;;;;;x
+OPINION_DIFF_LOWER_THAN;对§Y$FIRST$§!和§Y$SECOND$§!好感的差值小于 §Y$VAL$§!;;;;;;;;;;x
+OPINION_DIFF_AT_LEAST;对§Y$FIRST$§!和§Y$SECOND$§!好感的差值不小于 §Y$VAL$§!;;;;;;;;;;x
 FACTION_CANCELLED_SETUP;派系解散;;;;;;;;;;x
 FACTION_CANCELLED_LOG;受 §Y$CHARNAME$§! 领导的'$OBJECTIVE$' 派系已经解散了.;;;;;;;;;;x
 FACTION_CREATED_SETUP;派系建立;;;;;;;;;;x
-FACTION_CREATED_LOG;§Y$CHARNAME$§! 已经建立 '$OBJECTIVE$' 派系.;;;;;;;;;;x
+FACTION_CREATED_LOG;§Y$CHARNAME$§!已经建立「$OBJECTIVE$」派系。;;;;;;;;;;x
 FACTION_MEMBER_JOINS_SETUP;贵族加入派系;;;;;;;;;;x
-FACTION_MEMBER_JOINS_LOG;§Y$CHARNAME$§! 已经加入了 '$OBJECTIVE$' 派系.;;;;;;;;;;x
+FACTION_MEMBER_JOINS_LOG;§Y$CHARNAME$§!已经加入了「$OBJECTIVE$」派系。;;;;;;;;;;x
 FACTION_MEMBER_LEAVES_SETUP;贵族离开派系;;;;;;;;;;x
-FACTION_MEMBER_LEAVES_LOG;§Y$CHARNAME$§! 已经离开了 '$OBJECTIVE$' 派系.;;;;;;;;;;x
+FACTION_MEMBER_LEAVES_LOG;§Y$CHARNAME$§!已经离开了「$OBJECTIVE$」派系。;;;;;;;;;;x
 FACTIONS_LABEL;在$TITLE$的派系;;;;;;;;;;x
 RETINUE_OF;$CHARACTER$的近卫军;;;;;;;;;;x
 TECH_RECRUITMENT;军事组织;;;;;;;;;;x
 TECH_RECRUITMENT_DESC;强化征募和战场组织.;;;;;;;;;;x
 START_A_FACTION;发起一个派系;;;;;;;;;;x
-USED_IN_RETINUES;近卫军已占用: §R-$LOSS$%§!;;;;;;;;;;x
+USED_IN_RETINUES;近卫军已占用∶§R-$LOSS$%§!;;;;;;;;;;x
 RETINUES_NOT_REINFORCING;§Y近卫军现在不增援§!;;;;;;;;;;x
 RETINUES_HALF_REINFORCING;§Y近卫军现在以半速增援§!;;;;;;;;;;x
 RETINUES_FULL_REINFORCING;§Y近卫军现在以全速增援§!;;;;;;;;;;x
 RETINUES_NOT_REFINORCING_DESC;去除近卫军的增援费用。;;;;;;;;;;x
-RETINUES_HALF_REINFORCING_DESC;近卫军补给费为正常的一半。\n（每月恢复随员的§Y$GROWTH$%§! ）;;;;;;;;;;x
-RETINUES_FULL_REINFORCING_DESC;近卫军需支付正常补给费.\n（§Y每月恢复随员的 $GROWTH$%§!）;;;;;;;;;;x
-RETINUES_NOT_REINFORCING_BUTTON;§Y设置近卫军为不增援§!;;;;;;;;;;x
-RETINUES_HALF_REINFORCNIG_BUTTON;§Y设置近卫军以半速增援§!;;;;;;;;;;x
-RETINUES_FULL_REINFORCING_BUTTON;§Y设置近卫军以全速增援§!;;;;;;;;;;x
+RETINUES_HALF_REINFORCING_DESC;近卫军增援费用为正常的一半。\n（每月恢复随员的§Y$GROWTH$%§! ）;;;;;;;;;;x
+RETINUES_FULL_REINFORCING_DESC;近卫军需支付正常增援费用。\n（§Y每月恢复随员的 $GROWTH$%§!）;;;;;;;;;;x
+RETINUES_NOT_REINFORCING_BUTTON;§Y设置近卫军为不增援。§!;;;;;;;;;;x
+RETINUES_HALF_REINFORCNIG_BUTTON;§Y设置近卫军以半速增援。§!;;;;;;;;;;x
+RETINUES_FULL_REINFORCING_BUTTON;§Y设置近卫军以全速增援。§!;;;;;;;;;;x
 MIL_RETINUES;近卫军;;;;;;;;;;x
-REALM_MANPOWER;国家人力 ( 国家的军队总人数 ): §Y$SIZE$§!\n;;;;;;;;;;x
-AVERAGE_RETINUE_TECH;平均征募科技等级:;;;;;;;;;;x
+REALM_MANPOWER;国家人力 ( 国家的军队总人数 )：§Y$SIZE$§!\n;;;;;;;;;;x
+AVERAGE_RETINUE_TECH;平均征募科技等级：;;;;;;;;;;x
 TECH_EFFECT_ON_RETINUES;受技术限制的近卫军百分比：全国人力的§Y$PERCENT$%§!;;;;;;;;;;x
-DEF_BONUS_AGAINST_ENEMY;额外防御: $PERC$ ( $DAMAGE$ 伤害 );;;;;;;;;;x
-BONUS_AGAINST_ENEMY;额外伤害: $PERC$;;;;;;;;;;x
+DEF_BONUS_AGAINST_ENEMY;额外防御：$PERC$（$DAMAGE$ 伤害）;;;;;;;;;;x
+BONUS_AGAINST_ENEMY;额外伤害：$PERC$;;;;;;;;;;x
 MORALE_OFFENCE;士气打击;;;;;;;;;;x
-ATT_BONUS_MORALE;额外士气打击: $PERC$;;;;;;;;;;x
-MORALE_ATT_COMBAT_MODIFIER;士气打击战斗修正: $PERC$;;;;;;;;;;x
-DEF_BONUS_MORALE;额外士气防御: $PERC$ ( $DAMAGE$ 伤害 );;;;;;;;;;x
+ATT_BONUS_MORALE;额外士气打击：$PERC$;;;;;;;;;;x
+MORALE_ATT_COMBAT_MODIFIER;士气打击战斗修正：$PERC$;;;;;;;;;;x
+DEF_BONUS_MORALE;额外士气防御：$PERC$（$DAMAGE$ 伤害）;;;;;;;;;;x
 alert_can_press_weak_claims_name;可以索求弱宣称;;;;;;;;;;x
-TERRAIN_SPEC_BONUS;地形战斗修正: $PERC$;;;;;;;;;;x
-TACTIC_CHANGE_DAYS;下一次战术改变： §Y$DAYS$§! 天\n;;;;;;;;;;x
+TERRAIN_SPEC_BONUS;地形战斗修正：$PERC$;;;;;;;;;;x
+TACTIC_CHANGE_DAYS;下一次战术改变：§Y$DAYS$§! 天\n;;;;;;;;;;x
 NO_TERRAIN_SPEC;没有特殊地形;;;;;;;;;;x
 A_TERRAIN_SPEC;有特殊地形;;;;;;;;;;x
-HAS_TERRAIN_SPEC_IN;在 §Y$TYPE$§! 有特殊地形;;;;;;;;;;x
-DOES_NOT_HAVE_TERRAIN_SPEC_IN;在 §Y$TYPE$§! 没有特殊地形;;;;;;;;;;x
+HAS_TERRAIN_SPEC_IN;在§Y$TYPE$§!有特殊地形;;;;;;;;;;x
+DOES_NOT_HAVE_TERRAIN_SPEC_IN;在§Y$TYPE$§!没有特殊地形;;;;;;;;;;x
 NO_MORE_LEADERSHIP_TRAITS;无法拥有更多领袖特质;;;;;;;;;;x
 MORE_LEADERSHIP_TRAITS;可以拥有更多领袖特质;;;;;;;;;;x
-COMBAT_IN_TERRAIN;在 §Y$TERRAIN$§! 战斗 : $PERC$;;;;;;;;;;x
-DAMAGE_COMBAT_MODIFIER;伤害战斗修正: $PERC$;;;;;;;;;;x
-PURSUIT_COMBAT_MODIFIER;追击战斗修正: $PERC$;;;;;;;;;;x
-RETREAT_COMBAT_MODIFIER;撤退战斗修正: $PERC$;;;;;;;;;;x
-DEFENCE_COMBAT_MODIFIER;防御战斗修正: $PERC$;;;;;;;;;;x
-EXPERIMENT_COMBAT_MODIFIER;实战修正: $PERC$;;;;;;;;;;x
+COMBAT_IN_TERRAIN;在§Y$TERRAIN$§!战斗：$PERC$;;;;;;;;;;x
+DAMAGE_COMBAT_MODIFIER;伤害战斗修正：$PERC$;;;;;;;;;;x
+PURSUIT_COMBAT_MODIFIER;追击战斗修正：$PERC$;;;;;;;;;;x
+RETREAT_COMBAT_MODIFIER;撤退战斗修正：$PERC$;;;;;;;;;;x
+DEFENCE_COMBAT_MODIFIER;防御战斗修正：$PERC$;;;;;;;;;;x
+EXPERIMENT_COMBAT_MODIFIER;试验战斗修正：$PERC$;;;;;;;;;;x
 LIGHT_INFANTRY_COMBAT_MODIFIER;轻步兵部队战斗修正: $PERC$;;;;;;;;;;x
 HEAVY_INFANTRY_COMBAT_MODIFIER;轻重步兵部队战斗修正: $PERC$;;;;;;;;;;x
 CAVALRY_COMBAT_MODIFIER;骑兵部队战斗修正: $PERC$;;;;;;;;;;x

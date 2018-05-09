@@ -15,8 +15,8 @@ EVTOPTA_JD_30003;公开谴责滥用权力的行为。;;;;;;;;;;x
 EVTOPTB_JD_30003;我需要确保自己在[From.GetFirstName]风评良好。;;;;;;;;;;x
 EVTDESC_JD_30004;你的封臣，[From.GetTitledFirstName]，对你在[From.GetHerHis]城市里侵犯商人权利的行为感到不满。[From.GetSheHeCap]现在已公开宣称此举是在[From.GetHerHis]辖区内滥用权力。;;;;;;;;;;x
 EVTOPTA_JD_30004;[From.GetHerHisCap]商人已在排队等候！;;;;;;;;;;x
-OFFMAP_CHANGE_CURRENCY_GAIN;得到$OFFMAP|Y$的$VALUE|G$ $CURRENCY|Y$;;;;;;;;;;x
-OFFMAP_CHANGE_CURRENCY_LOSE;失去$OFFMAP|Y$的$VALUE|R$ $CURRENCY|Y$;;;;;;;;;;x
+OFFMAP_CHANGE_CURRENCY_GAIN;得到$OFFMAP|Y$的 $VALUE|G$ $CURRENCY|Y$;;;;;;;;;;x
+OFFMAP_CHANGE_CURRENCY_LOSE;失去$OFFMAP|Y$的 $VALUE|R$ $CURRENCY|Y$;;;;;;;;;;x
 EVTDESC_JD_30011;昨晚我和[chinese_courtier.GetBestName]讨论到天亮，主要关于[chinese_courtier.GetRootMatchingPersonalityStreak]。我一定给他留下了不错的印象，[chinese_courtier.GetSheHe]说[chinese_courtier.GetSheHe]会寄一封信，感谢[chinese_courtier.GetSheHe]受到的热情招待。;;;;;;;;;;x
 EVTOPTA_JD_30011;一个愉快的夜晚。;;;;;;;;;;x
 EVTOPTB_JD_30011;我要让每个人都知道这件事。;;;;;;;;;;x
@@ -75,8 +75,8 @@ OFFMAP_MAP_MODE;§Y开启地图模式§!;;;;;;;;;;x
 OFFMAP_MAP_MODE_DESC;显示[Root.GetShortGenericName]的都护府领地，朝贡国与外交范围。;;;;;;;;;;x
 DECISION_SELECT_THIRD_PARTY;§R你必须选择一个第三方§!;;;;;;;;;;x
 THIRD_PARTY_SCORE;分数;;;;;;;;;;x
-OCCUPATION_WARSCORE_LIMIT_ATTACKERS;在这个战争借口下，进攻方通过占领土地获得的战争分数最多为$VALUE$;;;;;;;;;;x
-OCCUPATION_WARSCORE_LIMIT_DEFENDERS;在这个战争借口下，防御方通过占领土地获得的战争分数最多为$VALUE$;;;;;;;;;;x
+OCCUPATION_WARSCORE_LIMIT_ATTACKERS;在这个战争借口下，进攻方通过占领土地获得的战争分数最多为 $VALUE$;;;;;;;;;;x
+OCCUPATION_WARSCORE_LIMIT_DEFENDERS;在这个战争借口下，防御方通过占领土地获得的战争分数最多为 $VALUE$;;;;;;;;;;x
 BECOME_SECRET_HERETIC_EFFECT;秘密接受$HERESY|Y$异端信仰。\n;;;;;;;;;;x
 OFFMAP_NEWS_TRIGGER_NOT;未收到来自$OFFMAP|Y$的消息;;;;;;;;;;x
 OFFMAP_NEWS_TRIGGER;正收到来自$OFFMAP|Y$的消息;;;;;;;;;;x
@@ -84,7 +84,7 @@ MAPMODE_OFFMAP_GOVERNOR;§Y$OFFMAP$的都护§!;;;;;;;;;;x
 MAPMODE_OFFMAP_TRIBUTARY;§Y$OFFMAP$的朝贡国§!;;;;;;;;;;x
 MAPMODE_OFFMAP_RANGE;§Y在$OFFMAP$的外交距离内§!;;;;;;;;;;x
 TRADE_ROUTE_VALUE_REDUCED;围攻和占领贸易线路将会降低整个省份 $VALUE|Y$% 的贸易利润。;;;;;;;;;;x
-TRADE_ROUTE_VALUE_REDUCED_BY_THIS;这个省份的战乱减少了这条贸易路线下游$VALUE|Y$%的贸易利润;;;;;;;;;;x
+TRADE_ROUTE_VALUE_REDUCED_BY_THIS;这个省份的战乱减少了这条贸易路线下游 $VALUE|Y$%的贸易利润;;;;;;;;;;x
 OFFMAP_NEWS;接收消息;;;;;;;;;;x
 OFFMAP_NEWS_TOOLTIP;§Y接收消息§!;;;;;;;;;;x
 OFFMAP_NEWS_TOOLTIP_DESC;启用后，你将偶尔地接收到在[Root.GetShortGenericName]发生的事件;;;;;;;;;;x
@@ -101,8 +101,8 @@ OFFMAP_PREV_POLICY;之前的政策是$POLICY|Y$;;;;;;;;;;x
 EFFECT_ON_OFFMAP;对[Root.Governor.GetBestName]的影响:;;;;;;;;;;x
 OFFMAP_POLICY;政策: $POLICY|Y$;;;;;;;;;;x
 OFFMAP_STATUS;状态: $STATUS|Y$;;;;;;;;;;x
-TRADE_ROUTE_VALUE_MULTIPLIER_EFFECT;$ROUTE|Y$的价值将会是通常的$VALUE|Y$%;;;;;;;;;;x
-TRADE_ROUTE_BASE_VALUE_EFFECT;$ROUTE|Y$的基础价值将被设定为$VALUE|Y$;;;;;;;;;;x
+TRADE_ROUTE_VALUE_MULTIPLIER_EFFECT;$ROUTE|Y$的价值将会是通常的 $VALUE|Y$%;;;;;;;;;;x
+TRADE_ROUTE_BASE_VALUE_EFFECT;$ROUTE|Y$的基础价值将被设定为 $VALUE|Y$;;;;;;;;;;x
 ACTIVE_TRADE_ROUTE_IN_PROVINCE;\n$ROUTE|Y$\n$ROUTE|Y$为这个省份带来了贸易。\n;;;;;;;;;;x
 INACTIVE_TRADE_ROUTE_IN_PROVINCE;\n$ROUTE|Y$\n§R来自§!$ROUTE|Y$§R源头的的变动使得商路日益萧条，假以时日，可能会有所改观。§!\n;;;;;;;;;;x
 OFFMAP_GRACE;皇恩;;;;;;;;;;x
@@ -122,8 +122,8 @@ INTERACTION_ACTOR_NOT_COALITION;§Y[Actor.GetTitledFirstName]§! 不在针对§Y
 ATTRITION_AT_SEA;海军损耗：$VALUE|R$%;;;;;;;;;;x
 OUT_OF_SUPPLIES_ATTRITION;来自缺乏补给的损耗：$VALUE|R$%;;;;;;;;;;x
 ABOVE_SUPPLY_LIMIT_ATTRITION;来自补给限制的损耗：$VALUE|R$%;;;;;;;;;;x
-ATTRITION_COMMANDER_EFFECT;$LEADER|Y$: $VALUE$;;;;;;;;;;x
-ATTRITION_CURRENT;每月损耗总量: §Y$VALUE$%§!;;;;;;;;;;x
+ATTRITION_COMMANDER_EFFECT;$LEADER|Y$：$VALUE$;;;;;;;;;;x
+ATTRITION_CURRENT;每月损耗总量：§Y$VALUE$%§!;;;;;;;;;;x
 MODIFIER_ARMY_REINFORCE_RATE;征召兵补充速度;;;;;;;;;;x
 UNIT_LEADER_REINFORCE_RATE;兵力补充速度被$LEADER|Y$改变为$REINFORCE$;;;;;;;;;;x
 SKIRMISH_ATTACK;冲击伤害;;;;;;;;;;x
@@ -2035,7 +2035,7 @@ emperor_dislikes_THIS_tt;（§R天子厌恶[This.GetDislike]§!）;;;;;;;;;;x
 emperor_has_ambiguous_feelings_of_THIS_tt;（§G天子喜欢[This.GetLike]§!但 §R厌恶[This.GetDislike]§!）;;;;;;;;;;x
 send_eunuch_potential_tt;§Y宦官要求§!：\n必须是有卓越才能的成年男性，或者是你年满十二岁的近亲\n不可持有领地\n不可有以下任何特质：§Y无能§!， §Y近亲缺陷§!，或者§Y低能§!;;;;;;;;;;x
 send_concubine_potential_tt;§Y侍妾要求§!：\n必须是你的近亲\n必须成年\n必须小于45岁\n不能结婚或者订婚\n不可有以下任何特质：§Y无能§!， §Y近亲缺陷§!，或者§Y低能§!;;;;;;;;;;x
-SAVE_LOAD_RESTART_NEEDED;§R加载多个存档会导致OOS问题。\n重启游戏或主机以选择其它的剧本或存档§!;;;;;;;;;;x
+SAVE_LOAD_RESTART_NEEDED;§R加载多个存档会导致OOS问题。\n重启游戏并重新建立主机以选择其它的剧本或存档§!;;;;;;;;;;x
 OFFMAP_VIEW_BUTTON_DELAYED;§G点击右键§!以打开$OFFMAP_SHORT|Y$§G地图模式。;;;;;;;;;;x
 DEATH_IN_CHINA_NO_KILLER;死在中国;;;;;;;;;;x
 DEATH_IN_CHINA;在中国死于$KILLER$之手;;;;;;;;;;x
@@ -2066,9 +2066,9 @@ RELATIVE_POWER_TRIGGER;目标的军队数量$COMPARISON$$TARGET|Y$的$VALUE|Y%0$
 RELATIVE_POWER_WITH_ALLIES_TRIGGER;$TARGET|Y$盟国的军队数量是$COMPARISON$ $VALUE|Y%0$;;;;;;;;;;x
 RELATIVE_INCOME_TRIGGER;$OTHER|Y$的收入是$COMPARISON$ $VALUE|Y%0$;;;;;;;;;;x
 DYNASTY_REALM_POWER_TRIGGER;家族领地力量$COMPARISON$$VALUE|Y%0$;;;;;;;;;;x
-YEAR_TRIGGER;年份是$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+YEAR_TRIGGER;年份$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 MONTH_TRIGGER;月份是$COMPARISON$ $MONTH|Y$;;;;;;;;;;x
-DAY_TRIGGER;日期是$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+DAY_TRIGGER;日期$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 RANDOM_ROLL_TRIGGER;一个随机产生的数字是$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 DISTANCE_TRIGGER;距离是$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 DISTANCE_FROM_REALM_TRIGGER;与领地距离$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
@@ -2080,20 +2080,20 @@ NUM_VASSALS_TRIGGER;拥有 $COMPARISON$ $VALUE|Y$ 封臣;;;;;;;;;;x
 NUM_PLOT_BACKERS_TRIGGER;拥有$COMPARISON$ $VALUE|Y$个阴谋支持者;;;;;;;;;;x
 NUM_PRISONERS_TRIGGER;拥有$COMPARISON$ $VALUE|Y$个囚犯;;;;;;;;;;x
 DAYS_IMPRISONED_TRIGGER;已被监禁$COMPARISON$ $VALUE|Y$天;;;;;;;;;;x
-PLOT_MONTHS_TRIGGER;已经密谋了 $COMPARISON$ $VALUE|Y$ 个月;;;;;;;;;;x
-CULTURE_REALM_PROVS_TRIGGER;领地内有$COMPARISON$ $VALUE|Y$ $CULTURE|Y$个伯爵领;;;;;;;;;;x
-RELIGION_REALM_PROVS_TRIGGER;领地内有$COMPARISON$ $VALUE|Y$ $RELIGION|Y$个伯爵领;;;;;;;;;;x
-TITLE_REALM_PROVS_TRIGGER;领地内有$TITLE|Y$的$COMPARISON$ $VALUE|Y$个伯爵领;;;;;;;;;;x
-FACTION_POWER_TRIGGER;封臣的派系力量为$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+PLOT_MONTHS_TRIGGER;已经密谋$COMPARISON$ $VALUE|Y$ 个月;;;;;;;;;;x
+CULTURE_REALM_PROVS_TRIGGER;领地内有$COMPARISON$ $VALUE|Y$ $CULTURE|Y$ 个伯爵领;;;;;;;;;;x
+RELIGION_REALM_PROVS_TRIGGER;领地内有$COMPARISON$ $VALUE|Y$ $RELIGION|Y$ 个伯爵领;;;;;;;;;;x
+TITLE_REALM_PROVS_TRIGGER;领地内有$TITLE|Y$的$COMPARISON$ $VALUE|Y$ 个伯爵领;;;;;;;;;;x
+FACTION_POWER_TRIGGER;封臣的派系力量$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 FACTION_BACKERS_TRIGGER;$COMPARISON$ $VALUE|Y$派系中的支持者 '$FACTION|Y$';;;;;;;;;;x
-EXTRA_LANDED_TITLES_TRIGGER;额外 $COMPARISON$ $VALUE|Y$ 领地头衔;;;;;;;;;;x
+EXTRA_LANDED_TITLES_TRIGGER;额外$COMPARISON$ $VALUE|Y$ 领地头衔;;;;;;;;;;x
 AGE_COMPARISON_TRIGGER;年龄是 $COMPARISON$ $TARGET|Y$;;;;;;;;;;x
-WARSCORE_TRIGGER;战争分数为$COMPARISON$ $VALUE|Y$%;;;;;;;;;;x
-NUM_BUILDINGS_TRIGGER;$COMPARISON$ $VALUE|Y$在$WHERE|Y$建造;;;;;;;;;;x
+WARSCORE_TRIGGER;战争分数$COMPARISON$ $VALUE|Y$%;;;;;;;;;;x
+NUM_BUILDINGS_TRIGGER;在$WHERE|Y$的建筑$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 OVER_MAX_DEMESNE_SIZE_TRIGGER;超过最大领地数量$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 OVER_MAX_VASSAL_SIZE_TRIGGER;超过最大封臣数量限制;;;;;;;;;;x
-OPINION_TRIGGER;好感度是 $COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-PERSONAL_OPINION_TRIGGER;个人好感度是 $COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+OPINION_TRIGGER;好感度$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+PERSONAL_OPINION_TRIGGER;个人好感度$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 CLAN_OPINION_TRIGGER;部族观感$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 OPINION_DIFF_TRIGGER;$FIRST|Y$和$SECOND|Y$之间的观点不同有$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 PERSONAL_OPINION_DIFF_TRIGGER;$FIRST|Y$ 和 $SECOND|Y$ 的意见分歧是$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
@@ -2102,7 +2102,7 @@ AGE_DIFF_TRIGGER;年龄差距$COMPARISON$$VALUE|Y$;;;;;;;;;;x
 NUM_HOLDING_TRIGGER;$COMPARISON$ $VALUE|Y$ $TYPE$占有该土地;;;;;;;;;;x
 NUM_REALM_HOLDING_TRIGGER;领地内有$COMPARISON$ $VALUE|Y$ $TYPE$;;;;;;;;;;x
 NUM_HOLDING_DIFF_TRIGGER;$FIRST|Y$和$SECOND|Y$的$TYPE$之间有$COMPARISON$ $VALUE|Y$的不同;;;;;;;;;;x
-REPUBLIC_TRADE_POST_TRIGGER;共和国拥有 $COMPARISON$ $VALUE|Y$ 贸易站;;;;;;;;;;x
+REPUBLIC_TRADE_POST_TRIGGER;共和国拥有$COMPARISON$ $VALUE|Y$ 贸易站;;;;;;;;;;x
 HOLDING_DIFF_TRIGGER;$COMPARISON|Y$ $VALUE|Y$§! §Y$FIRST_TYPE$s§!在$FIRST_LOCATION$每§Y$SECOND_TYPE$s§!在$SECOND_LOCATION$;;;;;;;;;;x
 ATTRIBUTE_DIFF_TRIGGER;$FIRST|Y$和$SECOND|Y$之间的$ATTRIBUTE|Y$不同有$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 COMBAT_RATING_DIFF_TRIGGER;战斗等级差异在$FIRST|Y$ 和 $SECOND|Y$ 中 $COMPARISON$ $VALUE|Y$;;;;;;;;;;x
@@ -4195,7 +4195,7 @@ bear.5.title;凄美肖像;;;;;;;;;;x
 bear.5.desc;[bear.GetFirstName]这周要被画一幅肖像画。画面的色彩栩栩如生，但可怜的[bear.GetFirstName]的鼻子在画像上几乎疯狂地突起。我想要向画家抱怨他的画比例不对，但细想起来，[bear.GetFirstName]确实有一个相当不同寻常的饱满鼻子。;;;;;;;;;;x
 bear.5.a;我们都有缺点。;;;;;;;;;;x
 bear.5.b;有些人可能会称它为庄严。;;;;;;;;;;x
-bear.6.title;勉强合法;;;;;;;;;;x
+bear.6.title;几乎不合法;;;;;;;;;;x
 bear.6.desc;在最近的宴会上，[bear.GetFirstName]在飞快吞咽完四锅炖汤，三条鲑鱼，一整只羔羊腿之后，就按照[bear.GetHerHis]惯例，踱步到[bear.GetHerHis]的房间去休息——这时[bear.GetHerHis]的礼服被桌子边缘挂住了！在廷臣赶来帮助[bear.GetHerHis]之前，布料就被撕开了，裂缝直达领口，并让可怜的[bear.GetFirstName]完全裸露在整个大厅中！\n如果这还够不上丑闻的话，宴会来宾们默默的明白了一个令人震惊的事实：毫无疑问，[bear.GetFirstName]完全不是一个[bear.GetManWoman]……而是一头熊。;;;;;;;;;;x
 bear.6.a;这是一个下作的巫师干的好事吗？;;;;;;;;;;x
 bear.6.b;[bear.GetSheHe]一直是一头熊吗？;;;;;;;;;;x
