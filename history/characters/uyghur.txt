@@ -1484,7 +1484,823 @@
 	1310.1.1={
 		birth=yes
 	}
-	1335.1.1={
+	1345.1.1={
 		death=yes
+	}
+}
+
+#Fictional exile from Khotan
+248082 = {
+	name="Kumara" #Vijaya Kumara II # fictional exile from Khotan
+	dynasty=1040024
+	religion="buddhist"
+	culture="sogdian"
+	father=166689
+	980.1.1={
+		birth=yes
+	}
+	1020.1.1={
+		culture=uyghur
+	}
+	1066.1.1={
+		employer=166783
+	}
+	1070.1.1={
+		death=yes
+	}
+}
+
+248083 = {
+	name="Mutlu" # fictional exile from Khotan
+	dynasty=1040024
+	religion="buddhist"
+	culture="uyghur"
+	father=248082
+	1021.1.1={
+		birth=yes
+	}
+	1066.1.1={
+		employer=166783
+	}
+	1082.1.1={
+		death=yes
+	}
+}
+#Nestorian presence in Qocho
+248084 = {
+	name="Ambare" #Fictional Nestorian ruler/dynasty
+	dynasty=1040060
+	religion="buddhist"
+	culture="tocharian"
+	father=166746
+	870.1.1={
+		birth=yes
+	}
+	891.1.1={
+		culture="uyghur"
+	}
+	891.1.1={
+		add_spouse=248085
+	}
+	893.1.1={
+		religion=nestorian
+	}
+	940.1.1={
+		death=yes
+	}
+}
+
+248085 = {
+	name="Gulay"
+	female=yes
+	dynasty=1040065
+	religion="nestorian"
+	culture="uyghur"
+	father=166775
+	870.1.1={
+		birth=yes
+	}
+	935.1.1={
+		death=yes
+	}
+}
+
+248086 = {
+	name="Bars" #Fictional Nestorian ruler
+	dynasty=1040060
+	religion="nestorian"
+	culture="uyghur"
+	father=248084
+	mother=248085
+	add_trait="sympathy_indian"
+	add_trait="sympathy_zoroastrianism"
+	895.1.1={
+		birth=yes
+	}
+	965.1.1={
+		death=yes
+	}
+}
+
+248087 = {
+	name="Gzi" #Fictional Nestorian ruler
+	dynasty=1040060
+	religion="nestorian"
+	culture="uyghur"
+	father=248086
+	add_trait="sympathy_indian"
+	add_trait="sympathy_zoroastrianism"
+	920.1.1={
+		birth=yes
+	}
+	990.1.1={
+		death=yes
+	}
+}
+
+248088 = {
+	name="Asep" #Fictional Nestorian ruler
+	dynasty=1040060
+	religion="nestorian"
+	culture="uyghur"
+	father=248087
+	add_trait="sympathy_indian"
+	add_trait="sympathy_zoroastrianism"
+	950.1.1={
+		birth=yes
+	}
+	1020.1.1={
+		death=yes
+	}
+}
+
+248089 = {
+	name="Itlar" #Fictional Nestorian ruler
+	dynasty=1040060
+	religion="nestorian"
+	culture="uyghur"
+	father=248088
+	add_trait="sympathy_indian"
+	add_trait="sympathy_zoroastrianism"
+	985.1.1={
+		birth=yes
+	}
+	1070.1.1={
+		death=yes
+	}
+}
+
+248090 = {
+	name="Kopti" #Fictional Nestorian ruler
+	dynasty=1040060
+	religion="nestorian"
+	culture="uyghur"
+	father=248089
+	add_trait="sympathy_indian"
+	add_trait="sympathy_zoroastrianism"
+	1030.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+248091 = {
+	name="Begluk" #Fictional Nestorian ruler
+	dynasty=1040060
+	religion="nestorian"
+	culture="uyghur"
+	father=248090
+	add_trait="sympathy_indian"
+	add_trait="sympathy_zoroastrianism"
+	1065.1.1={
+		birth=yes
+	}
+	1120.1.1={
+		death=yes
+	}
+}
+
+248092 = {
+	name="Tömür" #Fictional Nestorian ruler
+	dynasty=1040060
+	religion="nestorian"
+	culture="uyghur"
+	father=248091
+	add_trait="sympathy_indian"
+	add_trait="sympathy_zoroastrianism"
+	1090.1.1={
+		birth=yes
+	}
+	1160.1.1={
+		death=yes
+	}
+}
+
+248093 = {
+	name="Sokal" #Fictional Nestorian ruler
+	dynasty=1040060
+	religion="nestorian"
+	culture="uyghur"
+	father=248092
+	add_trait="sympathy_indian"
+	add_trait="sympathy_zoroastrianism"
+	1120.1.1={
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+
+248094 = {
+	name="Tolun" #Fictional Nestorian ruler
+	dynasty=1040060
+	religion="nestorian"
+	culture="uyghur"
+	father=248093
+	add_trait="sympathy_indian"
+	add_trait="sympathy_zoroastrianism"
+	1160.1.1={
+		birth=yes
+	}
+	1220.1.1={
+		death=yes
+	}
+}
+
+248095 = {
+	name="Tugor" #Fictional Nestorian ruler
+	dynasty=1040060
+	religion="nestorian"
+	culture="uyghur"
+	father=248094
+	add_trait="sympathy_indian"
+	add_trait="sympathy_zoroastrianism"
+	1185.1.1={
+		birth=yes
+	}
+	1250.1.1={
+		death=yes
+	}
+}
+
+248096 = {
+	name="Kobyak" #Fictional Nestorian ruler
+	dynasty=1040060
+	religion="nestorian"
+	culture="uyghur"
+	father=248095
+	add_trait="sympathy_indian"
+	add_trait="sympathy_zoroastrianism"
+	1210.1.1={
+		birth=yes
+	}
+	1280.1.1={
+		death=yes
+	}
+}
+
+248097 = {
+	name="Kobyak" #Fictional Nestorian ruler
+	dynasty=1040060
+	religion="nestorian"
+	culture="uyghur"
+	father=248096
+	add_trait="sympathy_indian"
+	add_trait="sympathy_zoroastrianism"
+	1240.1.1={
+		birth=yes
+	}
+	1310.1.1={
+		death=yes
+	}
+}
+
+248098 = {
+	name="Mänglik" #Fictional Nestorian ruler
+	dynasty=1040060
+	religion="nestorian"
+	culture="uyghur"
+	father=248097
+	add_trait="sympathy_indian"
+	add_trait="sympathy_zoroastrianism"
+	1270.1.1={
+		birth=yes
+	}
+	1340.1.1={
+		death=yes
+	}
+}
+
+248099 = {
+	name="Bilge" #Fictional Nestorian ruler
+	dynasty=1040060
+	religion="nestorian"
+	culture="uyghur"
+	father=248098
+	add_trait="sympathy_indian"
+	add_trait="sympathy_zoroastrianism"
+	1300.1.1={
+		birth=yes
+	}
+	1345.1.1={
+		death=yes
+	}
+}
+#Manichean presence in Qocho
+248100 = {
+	name="Dharmawarne"
+	dynasty=1040052
+	religion="buddhist"
+	culture="tocharian"
+	father=166716
+	870.1.1={
+		birth=yes
+	}
+	889.1.1={
+		add_spouse=248101
+	}
+	890.1.1={
+		religion=manichean
+	}
+	891.1.1={
+		culture="uyghur"
+	}
+	930.1.1={
+		death=yes
+	}
+}
+
+248101 = {
+	name="Blush"
+	female=yes
+	dynasty=1040065
+	religion="manichean"
+	culture="uyghur"
+	father=166776
+	trait="sympathy_indian"
+	trait="sympathy_christendom"
+	870.1.1={
+		birth=yes
+	}
+	940.1.1={
+		death=yes
+	}
+}
+248102 = {
+	name="Bilge" #Fictional manichean ruler
+	dynasty=1040052
+	religion="manichean"
+	culture="uyghur"
+	father=248100
+	mother=248101
+	trait="sympathy_indian"
+	trait="sympathy_christendom"
+	900.1.1={
+		birth=yes
+	}
+	960.1.1={
+		death=yes
+	}
+}
+
+248103 = {
+	name="Uzur" #Fictional manichean ruler
+	dynasty=1040052
+	religion="manichean"
+	culture="uyghur"
+	father=248102
+	trait="sympathy_indian"
+	trait="sympathy_christendom"
+	930.1.1={
+		birth=yes
+	}
+	990.1.1={
+		death=yes
+	}
+}
+
+248104 = {
+	name="Üge" #Fictional manichean ruler
+	dynasty=1040052
+	religion="manichean"
+	culture="uyghur"
+	father=248103
+	trait="sympathy_indian"
+	trait="sympathy_christendom"
+	960.1.1={
+		birth=yes
+	}
+	1055.1.1={
+		death=yes
+	}
+}
+
+248105 = {
+	name="Adigh" #Fictional manichean ruler
+	dynasty=1040052
+	religion="manichean"
+	culture="uyghur"
+	father=248104
+	trait="sympathy_indian"
+	trait="sympathy_christendom"
+	995.1.1={
+		birth=yes
+	}
+	1070.1.1={
+		death=yes
+	}
+}
+
+248106 = {
+	name="Özmish" #Fictional manichean ruler
+	dynasty=1040052
+	religion="manichean"
+	culture="uyghur"
+	father=248105
+	trait="sympathy_indian"
+	trait="sympathy_christendom"
+	1030.1.1={
+		birth=yes
+	}
+	1100.1.1={
+		death=yes
+	}
+}
+
+248107 = {
+	name="Aepak" #Fictional manichean ruler
+	dynasty=1040052
+	religion="manichean"
+	culture="uyghur"
+	father=248106
+	trait="sympathy_indian"
+	trait="sympathy_christendom"
+	1075.1.1={
+		birth=yes
+	}
+	1140.1.1={
+		death=yes
+	}
+}
+248108 = {
+	name="Asalup" #Fictional manichean ruler
+	dynasty=1040052
+	religion="manichean"
+	culture="uyghur"
+	father=248107
+	trait="sympathy_indian"
+	trait="sympathy_christendom"
+	1110.1.1={
+		birth=yes
+	}
+	1180.1.1={
+		death=yes
+	}
+}
+
+248109 = {
+	name="Kutan" #Fictional manichean ruler
+	dynasty=1040052
+	religion="manichean"
+	culture="uyghur"
+	father=248108
+	trait="sympathy_indian"
+	trait="sympathy_christendom"
+	1140.1.1={
+		birth=yes
+	}
+	1200.1.1={
+		death=yes
+	}
+}
+248110 = {
+	name="Etrek" #Fictional manichean ruler
+	dynasty=1040052
+	religion="manichean"
+	culture="uyghur"
+	father=248109
+	trait="sympathy_indian"
+	trait="sympathy_christendom"
+	1170.1.1={
+		birth=yes
+	}
+	1240.1.1={
+		death=yes
+	}
+}
+248111 = {
+	name="Pulad" #Fictional manichean ruler
+	dynasty=1040052
+	religion="manichean"
+	culture="uyghur"
+	father=248110
+	trait="sympathy_indian"
+	trait="sympathy_christendom"
+	1205.1.1={
+		birth=yes
+	}
+	1280.1.1={
+		death=yes
+	}
+}
+248112 = {
+	name="Sotan" #Fictional manichean ruler
+	dynasty=1040052
+	religion="manichean"
+	culture="uyghur"
+	father=248111
+	trait="sympathy_indian"
+	trait="sympathy_christendom"
+	1230.1.1={
+		birth=yes
+	}
+	1300.1.1={
+		death=yes
+	}
+}
+248113 = {
+	name="Sotan" #Fictional manichean ruler
+	dynasty=1040052
+	religion="manichean"
+	culture="uyghur"
+	father=248112
+	trait="sympathy_indian"
+	trait="sympathy_christendom"
+	1260.1.1={
+		birth=yes
+	}
+	1320.1.1={
+		death=yes
+	}
+}
+248114 = {
+	name="Itlar" #Fictional manichean ruler
+	dynasty=1040052
+	religion="manichean"
+	culture="uyghur"
+	father=248113
+	trait="sympathy_indian"
+	trait="sympathy_christendom"
+	1290.1.1={
+		birth=yes
+	}
+	1345.1.1={
+		death=yes
+	}
+}
+
+217239 = {
+	name = Ozar # historical ruler but technically in c_ili
+	dynasty = 1051122 # Bayezid
+	religion = sunni
+	culture = karluk
+	father = 217238
+	1181.2.4 = {
+		birth = yes
+	}
+	1218.1.1 = {
+		culture = uyghur
+		add_claim = c_ili
+		add_trait=sympathy_pagans
+	}
+	1224.7.25 = {
+		death = yes
+	}
+}
+248217 = {
+	name = "Siknak"
+	dynasty = 1051122 # Bayezid
+	religion = sunni
+	culture = karluk
+	father = 217239
+	trait=tough_soldier
+	trait=brave
+	1199.1.1 = {
+		birth = yes
+	}
+	1218.1.1 = {
+		culture = uyghur
+		add_trait=sympathy_pagans
+	}
+	1260.1.1 = {
+		death = yes
+	}
+}
+
+248218 = {
+	name = Savur # fictional
+	dynasty = 1051119 # Uzgen
+	religion = sunni
+	culture = karluk
+	father = 217243
+	1200.1.1 = {
+		birth = yes
+	}
+	1218.1.1 = {
+		culture = uyghur
+	}
+	1260.1.1 = {
+		death = yes
+	}
+}
+248219 = {
+	name = Begluk # fictional
+	dynasty = 1051119 # Uzgen
+	religion = sunni
+	culture = uyghur
+	father = 248218
+	1225.1.1 = {
+		birth = yes
+	}
+	1300.1.1 = {
+		death = yes
+	}
+}
+
+248220 = {
+	name = Atrak # fictional
+	dynasty = 1051119 # Uzgen
+	religion = sunni
+	culture = uyghur
+	father = 248219
+	1260.1.1 = {
+		birth = yes
+	}
+	1320.1.1 = {
+		death = yes
+	}
+}
+
+248221 = {
+	name = Asep # fictional
+	dynasty = 1051119 # Uzgen
+	religion = sunni
+	culture = uyghur
+	father = 248220
+	1285.1.1 = {
+		birth = yes
+	}
+	1338.1.1 = {
+		death = yes
+	}
+}
+
+248222 = {
+	name = Manglik # fictional
+	dynasty = 1051122 # Bayezid
+	religion = sunni
+	culture = uyghur
+	father = 248217
+	trait=sympathy_pagans
+	1225.1.1 = {
+		birth = yes
+	}
+	1280.1.1 = {
+		death = yes
+	}
+}
+
+248223 = {
+	name = Togli # fictional
+	dynasty = 1051122 # Bayezid
+	religion = sunni
+	culture = uyghur
+	father = 248222
+	1250.1.1 = {
+		birth = yes
+	}
+	1310.1.1 = {
+		death = yes
+	}
+}
+
+248224 = {
+	name = Uzur # fictional
+	dynasty = 1051122 # Bayezid
+	religion = sunni
+	culture = uyghur
+	father = 248223
+	1280.1.1 = {
+		birth = yes
+	}
+	1338.1.1 = {
+		death = yes
+	}
+}
+
+248239 = {
+	name = Korguz # 
+	dynasty = 1059035
+	religion = buddhist
+	culture = uyghur
+	trait=theravada_buddhist
+	trait="sympathy_christendom"
+	1200.1.1 = {
+		birth = yes
+	}
+	1221.1.1 = {
+		employer=125520
+	}
+	1242.1.1 = {
+		death = yes # put to death
+	}
+}
+
+1059986 = {
+	name = Bilge # fictional
+	dynasty = 1029329
+	religion = buddhist
+	culture = uyghur
+	trait=theravada_buddhist
+	trait="sympathy_pagans"
+	trait=strong
+	1020.1.1 = {
+		birth = yes
+	}
+	1100.1.1 = {
+		death = yes
+	}
+}
+
+1059985 = {
+	name = Begluk # fictional
+	dynasty = 1029329
+	religion = buddhist
+	culture = uyghur
+	trait=theravada_buddhist
+	father=1059986
+	1065.1.1 = {
+		birth = yes
+	}
+	1130.1.1 = {
+		death = yes
+	}
+}
+
+1059984 = {
+	name = Sokal # fictional
+	dynasty = 1029329
+	religion = buddhist
+	culture = uyghur
+	trait=theravada_buddhist
+	father=1059985
+	1100.1.1 = {
+		birth = yes
+	}
+	1180.1.1 = {
+		death = yes
+	}
+}
+1059983 = {
+	name = Blush # fictional
+	dynasty = 1029329
+	religion = buddhist
+	culture = uyghur
+	trait=theravada_buddhist
+	father=1059984
+	1140.1.1 = {
+		birth = yes
+	}
+	1210.1.1 = {
+		death = yes
+	}
+}
+1059982 = {
+	name = Blush # fictional
+	dynasty = 1029329
+	religion = buddhist
+	culture = uyghur
+	trait=theravada_buddhist
+	father=1059983
+	1180.1.1 = {
+		birth = yes
+	}
+	1250.1.1 = {
+		death = yes
+	}
+}
+1059981 = {
+	name = Aepak # fictional
+	dynasty = 1029329
+	religion = buddhist
+	culture = uyghur
+	trait=theravada_buddhist
+	father=1059982
+	1210.1.1 = {
+		birth = yes
+	}
+	1280.1.1 = {
+		death = yes
+	}
+}
+1059980 = {
+	name = Aepak # fictional
+	dynasty = 1029329
+	religion = buddhist
+	culture = uyghur
+	trait=theravada_buddhist
+	father=1059981
+	1250.1.1 = {
+		birth = yes
+	}
+	1310.1.1 = {
+		death = yes
+	}
+}
+1059979 = {
+	name = Buga # fictional
+	dynasty = 1029329
+	religion = buddhist
+	culture = uyghur
+	trait=theravada_buddhist
+	father=1059980
+	1290.1.1 = {
+		birth = yes
+	}
+	1338.1.1 = {
+		death = yes
 	}
 }
