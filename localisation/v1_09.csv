@@ -109,7 +109,7 @@ TRIGGER_CAPITAL_HOLDING;商业首府;;;;;;;;;;x
 EVTDESC60014;伟大的[Root.GetTitledName]和[Root.GetHerHis]所有封臣拥抱并改信景教！;;;;;;;;;;x
 TRIGGER_PLOT_TARGET_PROVINCE;密谋目标省份;;;;;;;;;;x
 EMBARGO_EFFECT;对§Y$WHO$§!禁运，破坏 §Y$NUM$§! 个贸易站，可获得 §G$GOLD$§!¤\n;;;;;;;;;;x
-LIFT_EMBARGO_EFFECT;对 $WHO$ 解除禁运\n;;;;;;;;;;x
+LIFT_EMBARGO_EFFECT;对$WHO$解除禁运\n;;;;;;;;;;x
 TRADE_INCOME;贸易收入;;;;;;;;;;x
 TRIGGER_TRADE_POST_OWNER;贸易站拥有者;;;;;;;;;;x
 FAM_REAL_FATHER;真正的父亲;;;;;;;;;;x
@@ -118,11 +118,11 @@ WAS_NOT_CONCEIVED_A_BASTARD;否认是私生子;;;;;;;;;;x
 WAS_CONCEIVED_A_BASTARD;承认是私生子;;;;;;;;;;x
 FATHER_OF_UNBORN_KNOWN;不清楚谁是这待出生孩子的父亲;;;;;;;;;;x
 FATHER_OF_UNBORN_NOT_KNOWN;知道谁是这待出生孩子的父亲;;;;;;;;;;x
-EVTDESC319;似乎我和 [From.GetTitledFirstName]的恋情制造了一个新生命。幸运地是，[FromFrom.Father.GetTitledFirstName]认为小 [FromFrom.GetFirstName]是他的孩子!;;;;;;;;;;x
+EVTDESC319;似乎我和[From.GetTitledFirstName]的恋情制造了一个新生命。幸运地是，[FromFrom.Father.GetTitledFirstName]认为小[FromFrom.GetFirstName]是他的孩子！;;;;;;;;;;x
 EVTOPTA319;哎呀;;;;;;;;;;x
-SET_FATHER_OF_UNBORN_KNOWN;这待出生孩子的亲父亲的身份被揭露出来\n;;;;;;;;;;x
+SET_FATHER_OF_UNBORN_KNOWN;这待出生孩子的亲生父亲的身份被揭露出来\n;;;;;;;;;;x
 SET_FATHER_OF_UNBORN_NOT_KNOWN;不清楚谁是这待出生孩子的父亲\n;;;;;;;;;;x
-HAVE_NOT_DYNASTY_FLAG;没有拥有家族旗帜;;;;;;;;;;x
+HAVE_NOT_DYNASTY_FLAG;没有家族旗帜;;;;;;;;;;x
 HAVE_DYNASTY_FLAG;拥有家族旗帜;;;;;;;;;;x
 HAD_DYNASTY_FLAG_LESS_THAN;已经拥有家族旗帜'§Y$FLAG$§!'少于§Y$DAYS$§!天;;;;;;;;;;x
 HAD_DYNASTY_FLAG_AT_LEAST;已经拥有家族旗帜'§Y$FLAG$§!'至少§Y$DAYS$§!天;;;;;;;;;;x
@@ -498,51 +498,51 @@ EVTDESC_REP_300;到了[Root.GetOnlyDynastyName]家族[From.GetPlot]的时间了.
 EVTOPTA_REP_300;开始接管！(100% 阴谋力量);;;;;;;;;;x
 EVTOPTA_REP_300_tooltip;你已经获得了足够的支持来用你的人接收贸易中心的领导权.;;;;;;;;;;x
 EVTOPTB_REP_300;开始接管！(150% 阴谋力量);;;;;;;;;;x
-EVTOPTB_REP_300_tooltip;你已经获得了压倒性的支持来夺取贸易中心的控制权..;;;;;;;;;;x
+EVTOPTB_REP_300_tooltip;你已经获得了压倒性的支持来夺取贸易站的控制权。;;;;;;;;;;x
 EVTOPTC_REP_300;收买贸易站的商人！（阴谋力量低于 100%）！;;;;;;;;;;x
-EVTOPTC_REP_300_tooltip;在支持率上的缺陷可以通过收买来弥补.;;;;;;;;;;x
-EVTOPTD_REP_300;我们必须通过收买来延长控制贸易站的时间……;;;;;;;;;;x
-EVTOPTD_REP_300_tooltip;你决定暂不采取行动.;;;;;;;;;;x
-EVTDESC_REP_301;[From.GetOnlyDynastyName]家族这些人渣为了对抗[From.GetPlot]而收买了商人！因为马上他们就该移交贸易站控制权给你的家族了.;;;;;;;;;;x
-EVTOPTA_REP_301;给这些毒蛇一份更高的报价.;;;;;;;;;;x
-EVTOPTA_REP_301_tooltip;贸易中心的商人们得到了一大笔钱来确保他们的忠诚.;;;;;;;;;;x
+EVTOPTC_REP_300_tooltip;在支持率上的缺陷可以通过收买来弥补。;;;;;;;;;;x
+EVTOPTD_REP_300;我们必须等待时机......;;;;;;;;;;x
+EVTOPTD_REP_300_tooltip;你决定暂不采取行动。;;;;;;;;;;x
+EVTDESC_REP_301;[From.GetOnlyDynastyName]家族这些人渣收买了几个你的商人以试图[From.GetPlot]。他们大概要把贸易战的控制权从你家族转走。;;;;;;;;;;x
+EVTOPTA_REP_301;给这些毒蛇一份更高的报价。;;;;;;;;;;x
+EVTOPTA_REP_301_tooltip;贸易站的商人们得到了一大笔钱来确保他们的忠诚。;;;;;;;;;;x
 EVTOPTB_REP_301;诅咒他们和他们的后代全都生孩子没屁眼！让他们拿走控制权吧……;;;;;;;;;;x
-EVTOPTB_REP_301_tooltip;贸易站被敌对家族收买下来.;;;;;;;;;;x
-EVTDESC_REP_302;卑鄙无耻的[From.GetOnlyDynastyName]家族在[From.GetPlot]上得到了足够的支持！那里的商人即将把控制权从你的家族手里转移出去.;;;;;;;;;;x
-EVTOPTA_REP_302;叹气...准备一笔收买用的款项.;;;;;;;;;;x
-EVTOPTA_REP_302_tooltip;你收买贸易站的领袖来保持你的家族的控制权.;;;;;;;;;;x
+EVTOPTB_REP_301_tooltip;贸易站被敌对家族收购了。;;;;;;;;;;x
+EVTDESC_REP_302;卑鄙无耻的[From.GetOnlyDynastyName]家族在[From.GetPlot]上得到了足够的支持！那里的商人即将把控制权从你的家族手里转移出去。;;;;;;;;;;x
+EVTOPTA_REP_302;叹气......准备一笔收买用的款项。;;;;;;;;;;x
+EVTOPTA_REP_302_tooltip;你收买贸易站的领袖来保住你的家族的控制权。;;;;;;;;;;x
 EVTOPTB_REP_302;诅咒他们和他们的后代全都生孩子没屁眼！让他们拿走控制权吧……;;;;;;;;;;x
-EVTOPTB_REP_302_tooltip;这个贸易站的所有权转交给了敌对家族.;;;;;;;;;;x
-EVTDESC_REP_303;看起来[From.GetOnlyDynastyName]家族的金库更有钱...他们用足够的金钱收买了贸易站的商人领袖来确保他们的忠诚;;;;;;;;;;x
+EVTOPTB_REP_302_tooltip;这个贸易站的所有权转交给了敌对家族。;;;;;;;;;;x
+EVTDESC_REP_303;看起来[From.GetOnlyDynastyName]家族的金库更有钱.....他们用足够的金钱收买了贸易站的商人领袖来确保他们的忠诚。;;;;;;;;;;x
 EVTOPTA_REP_303;出更多的钱！;;;;;;;;;;x
-EVTOPTA_REP_303_tooltip;你提高了赌注，用更多的钱去收买.;;;;;;;;;;x
+EVTOPTA_REP_303_tooltip;你提高了赌注，用更多的钱去收买。;;;;;;;;;;x
 EVTOPTB_REP_303;我承受不起这场收买大战……;;;;;;;;;;x
-EVTOPTB_REP_303_tooltip;你承认失败，贸易站仍在它之前主人的控制之下.;;;;;;;;;;x
-EVTDESC_REP_304;顽固的[From.GetOnlyDynastyName]的蠢货们真的想要得到那个贸易站.他们在收买商人领袖上面给出了更高的价钱， 这些商人有一次站在了[From.GetOnlyDynastyName]家族那边;;;;;;;;;;x
+EVTOPTB_REP_303_tooltip;你承认失败，贸易站仍在它之前主人的控制之下。;;;;;;;;;;x
+EVTDESC_REP_304;顽固的[From.GetOnlyDynastyName]蠢货们真的想要得到那个贸易站。他们在收买商人领袖上面给出了更高的价钱， 这些商人又一次站在了[From.GetOnlyDynastyName]家族那边......;;;;;;;;;;x
 EVTOPTA_REP_304;我不会这么轻易放弃的……;;;;;;;;;;x
-EVTOPTA_REP_304_tooltip;你出更高的价钱.;;;;;;;;;;x
-EVTOPTB_REP_304;好吧，给他们吧.;;;;;;;;;;x
-EVTOPTB_REP_306_tooltip;你承认失败并将贸易战的控制权移交给新的所有者.;;;;;;;;;;x
-EVTDESC_REP_305;[From.GetOnlyDynastyName]家族的[From.GetTitledFirstName]不仅在收买大战中赶上了你上一次的金额，而且超过了这一金额.收买大战结束了，贸易站仍然在它的前任主人的控制之下.看起来在这场肮脏的竞争之中唯一的赢家是吃得满嘴流油的商人.;;;;;;;;;;x
+EVTOPTA_REP_304_tooltip;你出更高的价钱。;;;;;;;;;;x
+EVTOPTB_REP_304;好吧，给他们吧......;;;;;;;;;;x
+EVTOPTB_REP_306_tooltip;你承认失败，贸易战现在有了新主人。;;;;;;;;;;x
+EVTDESC_REP_305;[From.GetOnlyDynastyName]家族的[From.GetTitledFirstName]不仅在收买大战中赶上了你上一次的金额，而且超过了这一金额。收买大战结束了，贸易站仍然在它的原主人的控制之下。看起来在这场肮脏的竞争之中唯一的赢家是吃得满嘴流油的商人。;;;;;;;;;;x
 EVTOPTA_REP_305;那些贪婪的吸血鬼……;;;;;;;;;;x
-EVTDESC_REP_306;[From.GetOnlyDynastyName]家族最终接受了现实并承认失败.这座贸易站现在属于你了！;;;;;;;;;;x
-EVTOPTA_REP_306;太棒了.;;;;;;;;;;x
-EVTDESC_REP_308;阴险卑鄙的[From.GetOnlyDynastyName]家族在[From.GetPlot]上得到了压倒性的支持！那里的商人已经开始向新主人移交贸易站的控制权.;;;;;;;;;;x
+EVTDESC_REP_306;[From.GetOnlyDynastyName]家族最终接受了现实并承认失败。这座贸易站现在属于你了！;;;;;;;;;;x
+EVTOPTA_REP_306;太棒了。;;;;;;;;;;x
+EVTDESC_REP_308;阴险卑鄙的[From.GetOnlyDynastyName]家族在[From.GetPlot]上得到了压倒性的支持！那里的商人已经开始向新主人移交贸易站的控制权。;;;;;;;;;;x
 EVTOPTA_REP_308;卑鄙的渣渣！;;;;;;;;;;x
-EVTDESC_REP_310;[From.PlotTarget.Owner.GetOnlyDynastyName]家族的权力和影响力正在不受限制的增长。我害怕他们商业帝国的扩张会对共和国内部微妙的权力平衡带来非常现实的威胁。因此，我请求您在[From.GetPlot]上支持我帮助[From.GetOnlyDynastyName]家族。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
-EVTOPTA_REP_310;[From.PlotTarget.Owner.GetOnlyDynastyName]家族确实太过强大了.;;;;;;;;;;x
-EVTOPTB_REP_310;只要共和国的旗帜还在飘扬，我不关心是谁统治它.;;;;;;;;;;x
-EVTDESC_REP_311;在咨询了[FromFrom.GetTitledFirstName]之后，我已经决定位于[FromFrom.PlotTarget.GetName]的贸易站收归共和国比由[FromFrom.GetOnlyDynastyName]家族管理更好。请做好必要的安排来确保控制权的顺利交接.\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
-EVTOPTA_REP_311;于是[FromFrom.GetFirstName]跑去向[From.GetTitle]哭诉;;;;;;;;;;x
+EVTDESC_REP_310;[From.PlotTarget.Owner.GetOnlyDynastyName]家族的权力和影响力正在不受限制的增长。我害怕他们商业帝国的扩张会对共和国内部微妙的权力平衡带来非常现实的威胁。因此，我请求您在[From.GetPlot]上支持我对付[From.GetOnlyDynastyName]家族。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_REP_310;[From.PlotTarget.Owner.GetOnlyDynastyName]家族确实太过强大了。;;;;;;;;;;x
+EVTOPTB_REP_310;只要共和国的旗帜还在飘扬，我不关心是谁统治它。;;;;;;;;;;x
+EVTDESC_REP_311;在咨询了[FromFrom.GetTitledFirstName]之后，我已经决定将位于[FromFrom.PlotTarget.GetName]的贸易站收归共和国，这样比由[FromFrom.GetOnlyDynastyName]家族管理更好。请做好必要的安排来确保控制权的顺利交接。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_REP_311;于是[FromFrom.GetFirstName]跑去向[From.GetTitle]哭诉......;;;;;;;;;;x
 EVTDESC_REP_312;我不会卷入你和[Root.PlotTarget.Owner.GetOnlyDynastyName]家族的争端。对我而言，任何旗帜都可以在贸易站上升起，只要旁边仍飘扬着共和国的旗帜。不要用这种无聊的事情来打扰我。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA_REP_312;无视我的努力……;;;;;;;;;;x
 EVTDESC_REP_313;你说的很好，[Root.GetTitledFirstName]。我不能允许[Root.PlotTarget.Owner.GetOnlyDynastyName]家族获得共和国的全部权力。为了维护其他贵人家族的利益，我已经联系了[Root.PlotTarget.Owner.GetTitledFirstName]并且确保在这件事情上得到他的合作。现在贸易站是你的了。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
-EVTOPTA_REP_313;谢谢你，[From.GetTitle]!;;;;;;;;;;x
-EVTTOOLTIPREP.300;你决定采取行动来针对这个贸易站.;;;;;;;;;;x
+EVTOPTA_REP_313;谢谢你，[From.GetTitle]！;;;;;;;;;;x
+EVTTOOLTIPREP.300;你决定采取行动来针对这个贸易站。;;;;;;;;;;x
 plot_seize_trade_post_decision;[Root.GetPlot];;;;;;;;;;x
-plot_seize_trade_post_decision_desc;将尝试夺取贸易站的密谋付诸实施.;;;;;;;;;;x
+plot_seize_trade_post_decision_desc;将尝试夺取贸易站的密谋付诸行动。;;;;;;;;;;x
 EVTOPTE_REP_300;也许我应该向[Root.Liege.GetTitle]寻求帮助……;;;;;;;;;;x
-EVTOPTE_REP_300_tooltip;你寄给[Root.Liege.GetTitle]一封信件.;;;;;;;;;;x
+EVTOPTE_REP_300_tooltip;你寄给[Root.Liege.GetTitle]一封信。;;;;;;;;;;x
 opinion_seized_tp;夺取贸易站;;;;;;;;;;x
 EVTTOOLTIPREP.311;宣布你更改贸易站所有权的决定.;;;;;;;;;;x
 EVTTOOLTIPREP.313;宣布你不想让自己卷入这件事情.;;;;;;;;;;x
