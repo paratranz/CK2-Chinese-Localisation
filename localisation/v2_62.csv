@@ -37,8 +37,8 @@ RIP.30300.b;我讨厌听到这个！;;;;;;;;;;x
 RIP.30300.c;我不剥人的皮。通常。;;;;;;;;;;x
 RIP.30301.title;你的对手找到了你！;;;;;;;;;;x
 RIP.30301.d.highlander;当你走出房间，尚未开始疑惑你的守卫们都去了哪里便迎面碰见了[immortal_rival.GetFirstName]。\n「你命绝今日！」他大喝一声，举起了剑。;;;;;;;;;;x
-RIP.30301.d.evildude;当你走出房间，尚未开始疑惑你的守卫们都去了哪里便迎面碰见了[immortal_rival.GetFirstName]。\n「时候到了，你这[GetFromRootInsult]！」他高举长剑咆哮着。;;;;;;;;;;x
-RIP.30301.d.goodguy;你走出房间，发现你的守卫少得可怜，立刻发现[immortal_rival.GetFirstName]慢步走到你的面前。\n「你的生命将在此终结。」他说道，带着几分伤感，「愿你与你的神一同安息。」;;;;;;;;;;x
+RIP.30301.d.evildude;当你走出房间，尚未开始疑惑你的守卫们都去了哪里便迎面碰见了[immortal_rival.GetFirstName]。\n「你死期到了，[GetFromRootInsult]！」他高举长剑咆哮着。;;;;;;;;;;x
+RIP.30301.d.goodguy;你走出房间，发现你的守卫神秘消失了，随即便发现[immortal_rival.GetFirstName]慢步走到你的面前。\n「你的生命将在此终结。」他说道，带着几分伤感，「愿你与你的神一同安息。」;;;;;;;;;;x
 RIP.30301.d.shieldmaiden;门厅中的众人皆四散离去，只剩下一个全副武装的女人，你觉得那大概是[immortal_rival.GetFirstName]。她的自我介绍证实了你的猜想，随后向你提出决斗。;;;;;;;;;;x
 RIP.30301.d.horse;走廊中洒满了鲜血，目之所及皆是你的守卫们残破的尸体。一匹高头大马矗立在这片修罗场的中央，两肋升腾着蒸汽。你注意到他的蹄下踩着[immortal_horse_victim.GetBestName]破布般的尸体。\n「我乃因西塔图斯，万国的践踏者！」他大声宣告，「我绝不容忍赝品，接下来到你了。」;;;;;;;;;;x
 RIP.30301.d.horse2;走廊中洒满了鲜血，目之所及皆是你的守卫们残破的尸体。一匹高头大马矗立在这片修罗场的中央，两肋升腾着蒸汽。你注意到他的蹄下踩着[immortal_horse_victim.GetBestName]破布般的尸体。\n「我乃因西塔图斯，万国的践踏者！」他大声宣告，「我听闻你将一匹马接纳进内阁，但这看来不过是误传。不过，接下来到你了。」;;;;;;;;;;x
@@ -58,7 +58,7 @@ sea_queen_desc;这名角色的恐怖声名连遥远之地也都知晓。凡可�
 8469.a;赞美[Root.Religion.GetHighGodNameCap]！;;;;;;;;;;x
 tengri_warrior;天之骄子;;;;;;;;;;x
 tengri_warrior_desc;作为草原战士的典范，这个角色为长生天的荣耀而战。;;;;;;;;;;x
-romuvas_own;迪瓦猎犬;;;;;;;;;;x
+romuvas_own;狄厄瓦斯猎犬;;;;;;;;;;x
 romuvas_own_desc;这个角色为保卫圣林而战。;;;;;;;;;;x
 ukkos_shield;乌戈之锤;;;;;;;;;;x
 ukkos_shield_desc;动如乌戈之雷霆，这个角色为索米信仰而战。;;;;;;;;;;x
@@ -131,7 +131,7 @@ ask_wards_liege_to_allow_faith_focus;请求允许信仰重心;;;;;;;;;;x
 ask_wards_liege_to_allow_faith_focus_desc;给§Y[Root.Liege.GetTitledFirstName]§!寄出一封信征求许可以更改§Y[Root.GetFirstName]§!的童年焦点。以信仰作为焦点将使得§Y[Root.GetFirstName]§!改信你的宗教。;;;;;;;;;;x
 change_wards_focus_to_faith;变更童年焦点为信仰;;;;;;;;;;x
 change_wards_focus_to_faith_desc;改变§Y[Root.GetFirstName]§!的重心。以信仰作为重心将使得§Y[Root.GetFirstName]§!改信你的宗教。;;;;;;;;;;x
-EVTDESC_ZE_2140;致[GetFromFromRootCompliment][Root.GetTitledNameWithNick]，\n\n我向你写这封信以征求你的许可，去给予我的受监护人，[From.GetFirstName]，以适当的[FromFrom.Religion.GetName]抚养环境并学习[FromFrom.Religion.GetScriptureName]的生活方式。\n\n签名[FromFrom.GetTitledFirstName]。;;;;;;;;;;x
+EVTDESC_ZE_2140;致[GetFromFromRootCompliment][Root.GetTitledNameWithNick]，\n\n我向你写这封信以征求你的许可，去给予我的受监护人，[From.GetFirstName]，以适当的[FromFrom.Religion.GetName]抚养环境并学习[FromFrom.Religion.GetScriptureName]的生活方式。\n\n此致，[FromFrom.GetTitledFirstName]。;;;;;;;;;;x
 EVTDESC_ZE_2141;亲爱的[Root.GetTitledNameWithNick]，\n\n你主动提出教导[FromFrom.GetFirstName]有关你的宗教的内容，我表示最大程度的欢迎，同意你的请求。;;;;;;;;;;x
 EVTDESCB_ZE_2142;致[GetFromRootInsult][Root.GetTitledFirstName]，\n\n我相信你知道这是何等亵渎的言辞！[FromFrom.GetFirstName]应当成长为一名优秀尽职的[FromFrom.GetManWoman]，但你那些奇怪的仪式和渎神的行为明显会让我的期盼落空。;;;;;;;;;;x
 RULE_VASSAL_LIMIT;封臣上限;;;;;;;;;;x
@@ -165,7 +165,7 @@ RULE_CULTURAL_TITLE_NAMES_ON_DESC;头衔名称可能会根据统治者的文化�
 RULE_CULTURAL_TITLE_NAMES_OFF_DESC;所有头衔都使用其英文名称，无视统治文化。;;;;;;;;;;x
 good_times;愉悦;;;;;;;;;;x
 desc_good_times;这个角色度过了愉快的时光，开心的情绪感染了每一个人。;;;;;;;;;;x
-EVTDESC72030;我一进入[Root.Liege.GetTitledFirstName]的城堡，就看到了我的死敌[feast_duel_target.GetTitledFirstName]。[feast_duel_target.GetHerHisCap]的存在让我几乎无法忍受，我现在真想拔出剑把[feast_duel_target.GetHerHim]扎个窟窿！;;;;;;;;;;x
+EVTDESC72030;我一进入[Root.Liege.GetTitledFirstName]的城堡，就看到了我的死敌[feast_duel_target.GetTitledFirstName]。[feast_duel_target.GetHerHisCap]存在让我几乎无法忍受，我现在真想拔出剑把[feast_duel_target.GetHerHim]扎个窟窿！;;;;;;;;;;x
 EVTTOOLTIP72031;[feast_duel_target.GetTitledFirstName]收到了[Root.GetTitledFirstName]的决斗挑战;;;;;;;;;;x
 EVTDESC72034;「你怎么敢让你愚蠢的矛盾毁掉我的宴会？！」\n\n我成功在任何人被杀死之前阻止了决斗，但我知道[From.GetTitledFirstName]根本没有把我的话听进去，[From.GetSheHe]看起来还是很想与[From.GetHerHis]「死敌」[feast_duel_target.GetTitledFirstName]算账。;;;;;;;;;;x
 EVTDESC72035;在我来得及阻止决斗之前，[From.GetTitledFirstName]已经杀死了[From.GetHerHis]敌人[feast_duel_target.GetTitledFirstName]。;;;;;;;;;;x
@@ -182,7 +182,7 @@ EVTDESC_HL_8005_mother;作为你母亲的继承人，你要负责将她带进群
 EVTDESC_HL_8005_sister;因为你的姐妹没有自己的继承人，你要负责将她带进群山之中。她将成为鸟儿们的食物，在死后慷慨地与所有生灵分享自己的血肉。愿她的灵魂升入天堂。;;;;;;;;;;x
 EVTDESC20147;我的[Root.GetChancellorName]在[From.Location.GetName]执行伪造头衔宣称的任务时被谋杀了！;;;;;;;;;;x
 EVTOPTA_WOL_2080_TOOLTIP;§Y[target_spy_on.GetTitledFirstName]§!的领主将决定怎样处置[target_spy_on.GetHerHim]。\n;;;;;;;;;;x
-EVTOPTC_WOL_2080_TOOLTIP;§Y[target_spy_on.GetTitledFirstName]§!必须离开派系或，否则此事将被揭发，这将使你有权逮捕[target_spy_on.GetHerHim]。\n;;;;;;;;;;x
+EVTOPTC_WOL_2080_TOOLTIP;§Y[target_spy_on.GetTitledFirstName]§!必须离开派系，否则此事将被揭发，这将使你有权逮捕[target_spy_on.GetHerHim]。\n;;;;;;;;;;x
 EVTOPTD_WOL_2080_TOOLTIP;§Y[target_spy_on.GetTitledFirstName]§!必须加入你的派系，否则此事将被揭发，这将使你有权逮捕[target_spy_on.GetHerHim]。\n;;;;;;;;;;x
 EVTOPTE_WOL_2080_TOOLTIP;不利用此信息，但继续监视§Y[target_spy_on.GetTitledFirstName]§!。\n;;;;;;;;;;x
 EVTOPTF_WOL_2080_TOOLTIP;不利用此信息并停止监视§Y[target_spy_on.GetTitledFirstName]§!。\n;;;;;;;;;;x
@@ -226,7 +226,7 @@ EVTOPTB_RIP_30205;这招没用，我得再想想其他办法。;;;;;;;;;;x
 EVTOPTC_RIP_30205;因为这次失败，[From.GetFirstName]要丢掉他的脑袋了！;;;;;;;;;;x
 EVTOPTD_RIP_30205;我想要的是死亡和解脱，不是另一个监狱……;;;;;;;;;;x
 EVTDESC_RIP_30206_WON;当你拔出剑刃时，你立刻知道有什么不对劲。[From.GetTitledFirstName]根本就只会挡开你的攻击。虽然利用这种情势是非常无耻的行为，但是毕竟没人知道……;;;;;;;;;;x
-EVTDESC_RIP_30206_LOST;也许是你对[From.GetTitledFirstName]鲜血的渴望占据了你全部思维。当你和他的剑锋相交时便知道你根本没有胜算。但是[Root.Religion.GetHighGodName]保佑，[From.GetFirstName]没有杀死你，只是扔下[From.GetHerHis]的剑愤怒地离开了……;;;;;;;;;;x
+EVTDESC_RIP_30206_LOST;也许是你对[From.GetTitledFirstName]鲜血的渴望占据了你全部思维。当你和他的剑锋相交时便知道你根本没有胜算。但是[Root.Religion.GetHighGodName]保佑，[From.GetFirstName]没有杀死你，只是扔下[From.GetHerHis]剑愤怒地离开了……;;;;;;;;;;x
 EVTOPTA_RIP_30206;那个[GetRootFromInsult]现在去见[Root.Religion.GetRandomEvilGodName]了。;;;;;;;;;;x
 EVTOPTB_RIP_30206;这是[From.GetFirstName]最后一次激怒我了！;;;;;;;;;;x
 EVTOPTC_RIP_30206;我能活下来真幸运。;;;;;;;;;;x
@@ -245,7 +245,7 @@ EVTOPTB_RIP_30210;我请求你，救救我。我无法忍受了……求你了�
 EVTDESC_RIP_30211;你坐在你[GetFromRelation][From.GetTitledFirstName]的病榻旁正假寐着，忽然[From.GetHerHis]微弱的声音穿过你模糊的意识。你前倾过去，急切地希望[From.GetHerHim]再重复一边[From.GetHerselfHimself]所说的话。随后，[From.GetHerHisCap]的请求让你不禁打了个寒颤。「结束这一切吧……求求你了。」;;;;;;;;;;x
 EVTOPTA_RIP_30211;我会将你从痛苦中解脱出来的，亲爱的[GetFromRelation]。;;;;;;;;;;x
 EVTOPTB_RIP_30211;不要再说胡话了，我不会那么做的！;;;;;;;;;;x
-EVTDESC_RIP_30212_SUCCESS_A;[GetFromRelation][From.GetTitledFirstName]紧紧握住了你的手，你在意识模糊不清的状态下听到了[From.GetHerHis]的声音。「不用担心，[Root.GetFirstName]。很快一切都会结束了……」随后你的喉咙被重物压住。你轻微挣扎……不过一会后便平静下来了。;;;;;;;;;;x
+EVTDESC_RIP_30212_SUCCESS_A;[GetFromRelation][From.GetTitledFirstName]紧紧握住了你的手，你在意识模糊不清的状态下听到了[From.GetHerHis]声音。「不用担心，[Root.GetFirstName]。很快一切都会结束了……」随后你的喉咙被重物压住。你轻微挣扎……不过一会后便平静下来了。;;;;;;;;;;x
 EVTDESC_RIP_30212_SUCCESS_B;那个人紧紧握住了你的手，你在意识模糊不清的状态下听到了他的声音。「不用担心，[Root.GetFirstName]。很快一切都会结束了……」随后你的喉咙被重物压住。你轻微挣扎……不过一会后便平静下来了。;;;;;;;;;;x
 EVTDESC_RIP_30212_FAIL;你迷迷糊糊地听见有什么东西在地板上咯吱地响。同时你听见了[From.GetTitledFirstName]的声音，好像从远处传来……其中夹杂着恐惧，拒绝。一阵急促的脚步声后，你再次孤身一人。;;;;;;;;;;x
 EVTOPTB_RIP_30212;快回来……[From.GetFirstName]……;;;;;;;;;;x
@@ -264,16 +264,16 @@ EVTOPTB_RIP_30223_TOOLTIP;给§Y[From.GetFirstName]§!一点钱并将[From.GetHe
 EVTOPTC_RIP_30223_A;受苦难道不是朝圣的目的吗？;;;;;;;;;;x
 EVTOPTC_RIP_30223_B;我不允许异教徒和我住在一个屋檐下！;;;;;;;;;;x
 EVTOPTC_RIP_30223_TOOLTIP;拒绝§Y[From.GetFirstName]§!。\n;;;;;;;;;;x
-EVTNAME_RIP_30224;钟声为谁敲响;;;;;;;;;;x
-EVTDESC_RIP_30224_A;通常，你在深夜拖着沉重疲乏的身躯回到卧室。今天也是如此。在经历了漫长而劳累的一天后，入睡会变得相当容易，但是最近睡眠好像在刻意避开你一般。你坐在你的书房中，呆滞地移动着棋盘上的棋子，不时小抿一口红酒希望依靠酒精重获睡意。\n\n突然，你听见有人敲门，这么晚了会是谁呢？在你喊话让那人回去之前，门打开了，[From.GetFirstName]大步走了进来。「晚上好，[Root.GetLordLady]。我想起我还从没正式介绍过我自己。我是死神，我是来这收割你的。」你看到[From.GetHerHis]的手中握着一把闪亮的匕首……;;;;;;;;;;x
-EVTDESC_RIP_30224_B;如同平常一般，你在深夜拖着沉重疲乏的身躯回到卧室。今天也是如此。但是不同以往你劳累一天后便会倒头就睡，最近睡眠好像在刻意避开你一般。你坐在你的书房中，呆滞地移动着棋盘上的棋子，不时小抿一口红酒希望依靠酒精重获睡意。突然，你听见身后好像有人走动，你在椅子上转过身来。看见了几天前和你散步的[From.GetManWoman]。「晚上好[Root.GetLordLady]。我还没自我介绍呢。我是死神，我是来这收割你的灵魂的。」你看到[From.GetHerHis]的手中握着一把闪亮的匕首……;;;;;;;;;;x
-EVTDESC_RIP_30224_C;如同平常一般，你在深夜拖着沉重疲乏的身躯回到卧室。今天也是如此。但是不同以往你劳累一天后便会倒头就睡，最近睡眠好像在刻意避开你一般。你坐在你的书房中，呆滞地移动着棋盘上的棋子，不时小抿一口红酒希望依靠酒精重获睡意。突然，你听见身后好像有人走动，你在椅子上转过身来。一个你从没见过的[From.GetManWoman]站在那。"晚上好，我的[Root.GetLordLady]。我是死神，我是来这收割你的灵魂的。"你看到[From.GetHerHis]的手中握着一把闪亮的匕首……" A dagger is glinting in [From.GetHerHis] hand…;;;;;;;;;;x
+EVTNAME_RIP_30224;丧钟为谁而鸣;;;;;;;;;;x
+EVTDESC_RIP_30224_A;通常，你在深夜拖着沉重疲乏的身躯回到卧室。今天也是如此。在经历了漫长而劳累的一天后，入睡会变得相当容易，但是最近睡眠好像在刻意避开你一般。你坐在你的书房中，呆滞地移动着棋盘上的棋子，不时小抿一口红酒希望依靠酒精重获睡意。\n\n突然，你听见有人敲门，这么晚了会是谁呢？在你喊话让那人回去之前，门打开了，[From.GetFirstName]大步走了进来。「晚上好，[Root.GetLordLady]。我想起我还从没正式介绍过我自己。我是死神，我是来这收割你的。」你看到[From.GetHerHis]手中握着一把闪亮的匕首……;;;;;;;;;;x
+EVTDESC_RIP_30224_B;如同平常一般，你在深夜拖着沉重疲乏的身躯回到卧室。今天也是如此。但是不同以往你劳累一天后便会倒头就睡，最近睡眠好像在刻意避开你一般。你坐在你的书房中，呆滞地移动着棋盘上的棋子，不时小抿一口红酒希望依靠酒精重获睡意。突然，你听见身后好像有人走动，你在椅子上转过身来。看见了几天前和你散步的[From.GetManWoman]。「晚上好[Root.GetLordLady]。我还没自我介绍呢。我是死神，我是来这收割你的灵魂的。」你看到[From.GetHerHis]手中握着一把闪亮的匕首……;;;;;;;;;;x
+EVTDESC_RIP_30224_C;如同平常一般，你在深夜拖着沉重疲乏的身躯回到卧室。今天也是如此。但是不同以往你劳累一天后便会倒头就睡，最近睡眠好像在刻意避开你一般。你坐在你的书房中，呆滞地移动着棋盘上的棋子，不时小抿一口红酒希望依靠酒精重获睡意。突然，你听见身后好像有人走动，你在椅子上转过身来。一个你从没见过的[From.GetManWoman]站在那。「晚上好，我的[Root.GetLordLady]。我是死神，我是来这收割你的灵魂的。」你看到[From.GetHerHis]手中握着一把闪亮的匕首……;;;;;;;;;;x
 EVTOPTA_RIP_30224;我...我要向你挑战下棋！;;;;;;;;;;x
-EVTOPTA_RIP_30224_TOOLTIP;你试图向§Y[From.GetFirstName]§!挑战棋艺来延长你的寿命。;;;;;;;;;;x
+EVTOPTA_RIP_30224_TOOLTIP;你试图向§Y[From.GetFirstName]§!挑战棋艺来争取时间。;;;;;;;;;;x
 EVTOPTB_RIP_30224;想得美！;;;;;;;;;;x
 EVTOPTB_RIP_30224_TOOLTIP;冲向§Y[From.GetFirstName]§!试图撞倒[From.GetHerHim]。\n;;;;;;;;;;x
 EVTOPTB_RIP_30224_TOOLTIP_SURVIVE;努力活过刺杀，然而你很可能在缠斗过程中受伤。;;;;;;;;;;x
-EVTDESC_RIP_30225;之后你回忆不起发生了什么。打斗很快就在愤怒和害怕的推动下结束了。从你手中扔下的匕首咣当一声跌落在地面上。你的双腿一软使你摔倒在地，躺在一片血泊之中。是你的还是[From.GetHerHis]的血？你并不清楚……;;;;;;;;;;x
+EVTDESC_RIP_30225;之后你回忆不起发生了什么。打斗很快就在愤怒和害怕的推动下结束了。从你手中扔下的匕首咣当一声跌落在地面上。你的双腿一软使你摔倒在地，躺在一片血泊之中。是你的还是[From.GetHerHis]血？你并不清楚……;;;;;;;;;;x
 EVTOPTB_RIP_30225;卫兵……救命……;;;;;;;;;;x
 EVTDESC_RIP_30226;[From.GetFirstName]抬了抬眉毛，愉悦的神情浮现在[From.GetHerHis]的脸上。「为何不呢？我拥有这世上的所有时间。你也不过是想拖延必将到来的死亡而已，[Root.GetFirstName]，因为你必定会输的。」随后[From.GetSheHeCap]便把匕首放在桌上并走到你对面的椅子上坐下。「黑方还是白方？」;;;;;;;;;;x
 EVTOPTA_RIP_30226;我当白方，谢谢。;;;;;;;;;;x
@@ -281,7 +281,7 @@ EVTOPTA_RIP_30226_TOOLTIP;你选择白方，棋局开始。;;;;;;;;;;x
 EVTOPTB_RIP_30226;我要当黑方。;;;;;;;;;;x
 EVTOPTB_RIP_30226_TOOLTIP;你将作为黑方，棋局开始。;;;;;;;;;;x
 EVTDESC_RIP_30226_BLACK;「啊，黑色，我的幸运色...不过没关系」，[From.GetFirstName]若无其事地耸耸肩。\n\n你准备如何开局呢？;;;;;;;;;;x
-EVTDESC_RIP_30226_WHITE;「白色...不错，估计你需要你能得到的所有帮助」，[From.GetFirstName]咧嘴笑了起来。\n\n你准备如何开局呢？;;;;;;;;;;x
+EVTDESC_RIP_30226_WHITE;「白色……不错，估计你需要你能得到的所有帮助」，[From.GetFirstName]咧嘴笑了起来。\n\n你准备如何开局呢？;;;;;;;;;;x
 EVTOPTA_RIP_30227;还是防御吧，毕竟要稳。;;;;;;;;;;x
 EVTOPTB_RIP_30227;我要利用我先走棋的优势，不要在乎风险。;;;;;;;;;;x
 EVTOPTC_RIP_30227;我不会介意耍诈的，只要有机会。;;;;;;;;;;x
@@ -290,11 +290,11 @@ EVTOPTE_RIP_30227;我要慢慢来，先好好观察棋局。;;;;;;;;;;x
 CHESS_GREAT_MOVE;你的这步棋下得非常好。;;;;;;;;;;x
 CHESS_GOOD_MOVE;你的这步棋下得不错。;;;;;;;;;;x
 CHESS_NEUTRAL_MOVE;你的这步棋下得不好不坏。;;;;;;;;;;x
-CHESS_BAD_MOVE;你的这步棋下得很差。;;;;;;;;;;x
+CHESS_BAD_MOVE;你的这步棋下得不好。;;;;;;;;;;x
 CHESS_TERRIBLE_MOVE;你的这步棋下得非常烂。;;;;;;;;;;x
 CHESS_GOOD_TRICK;你成功作弊。;;;;;;;;;;x
 CHESS_BAD_TRICK;你试图作弊但是搞砸了。;;;;;;;;;;x
-EVTDESC_RIP_30228_GREAT;在这开局的几分钟内，你成功地占据了优势并且几乎在没有损失的情况下便吃掉了[From.GetFirstName]的数个棋子。当你吃掉[From.GetHerHis]的第二个马后，[From.GetSheHe]不耐烦地咂了咂[From.GetHerHis]嘴。「不要太过自信了，游戏还没结束呢。」;;;;;;;;;;x
+EVTDESC_RIP_30228_GREAT;在这开局的几分钟内，你成功地占据了优势并且几乎在没有损失的情况下便吃掉了[From.GetFirstName]的数个棋子。当你吃掉[From.GetHerHis]第二个马后，[From.GetSheHe]不耐烦地咂了咂[From.GetHerHis]嘴。「不要太过自信了，游戏还没结束呢。」;;;;;;;;;;x
 EVTDESC_RIP_30228_GOOD;[From.GetFirstName]果真是一个强力的对手，开局你只比[From.GetHerHim]多吃了几个棋子。你非常不喜[From.GetHerHis]脸上的表情，不过……;;;;;;;;;;x
 EVTDESC_RIP_30228_NEUTRAL;双方实力平分秋色。你虽然比[From.GetFirstName]多吃了几个棋子，但是[From.GetHerHis]的布局显然更周全。不过最让你不安的还是[From.GetHerHisCap]不详的微笑……;;;;;;;;;;x
 EVTDESC_RIP_30228_BAD;仅仅几分钟后你意识到局势非常差。一开始你觉得自己很安全，几乎保住了所有棋子，但现在你能看出来[From.GetFirstName]是如何布局[From.GetHerHis]棋子的。这盘棋想要翻盘是不是太晚了一点……;;;;;;;;;;x
@@ -315,10 +315,10 @@ EVTOPTF_RIP_30229_TOOLTIP;通过吹嘘你的棋艺来使§Y[From.GetFirstName]§
 EVTOPTD_RIP_30229;如果我使得[From.GetFirstName]分心，或许我能偷偷把一个我失去的棋子放回棋盘上。;;;;;;;;;;x
 EVTOPTD_RIP_30229_TOOLTIP;尝试通过敲击红酒杯来使§Y[From.GetFirstName]§!分心。\n;;;;;;;;;;x
 EVTOPTE_RIP_30229;还是把注意放在棋局上。;;;;;;;;;;x
-EVTDESC_RIP_30230_DRINKING;你几乎无法相信，但事实就是如此————计划成功了！你的思维依旧敏锐，[From.GetFirstName]看上去无法集中[From.GetHerHis]精神。你又一次倒满了[From.GetHerHis]酒杯而[From.GetSheHe]的回应只是无意识地点点头。;;;;;;;;;;x
-EVTDESC_RIP_30230_SEDUCTION;你几乎无法相信，但事实就是如此————计划成功了！你是对的，即使是[From.GetFirstName]也无法抵挡你的魅力，[From.GetHerHis]精力已经有点无法集中了。当你隔着桌子探出身去，假装冥思苦想下一合该怎么走时，你能听到[From.GetHerHis]呼吸都停滞了。;;;;;;;;;;x
-EVTDESC_RIP_30230_INTIMIDATION;你几乎无法相信，但事实就是如此————计划成功了！一边下棋，你一边绘声绘色地告诉[From.GetFirstName]你手下受害者的故事，把棋子狠砸在棋盘上来强调最吓人的部分。[From.GetFirstName]看上去无法集中[From.GetHerHis]精神。;;;;;;;;;;x
-EVTDESC_RIP_30230_BRAG;你几乎无法相信，但事实就是如此————计划成功了！一边下棋，你一边告诉[From.GetFirstName]你大师级棋艺的故事，同时用妙招来证明这些故事。[From.GetFirstName]看上去无法集中[From.GetHerHis]精神。;;;;;;;;;;x
+EVTDESC_RIP_30230_DRINKING;你几乎无法相信，但事实就是如此——计划成功了！你的思维依旧敏锐，[From.GetFirstName]看上去无法集中[From.GetHerHis]精神。你又一次倒满了[From.GetHerHis]酒杯而[From.GetSheHe]的回应只是无意识地点点头。;;;;;;;;;;x
+EVTDESC_RIP_30230_SEDUCTION;你几乎无法相信，但事实就是如此——计划成功了！你是对的，即使是[From.GetFirstName]也无法抵挡你的魅力，[From.GetHerHis]精力已经有点无法集中了。当你隔着桌子探出身去，假装冥思苦想下一合该怎么走时，你能听到[From.GetHerHis]呼吸都停滞了。;;;;;;;;;;x
+EVTDESC_RIP_30230_INTIMIDATION;你几乎无法相信，但事实就是如此——计划成功了！一边下棋，你一边绘声绘色地告诉[From.GetFirstName]你手下受害者的故事，把棋子狠砸在棋盘上来强调最吓人的部分。[From.GetFirstName]看上去无法集中[From.GetHerHis]精神。;;;;;;;;;;x
+EVTDESC_RIP_30230_BRAG;你几乎无法相信，但事实就是如此——计划成功了！一边下棋，你一边告诉[From.GetFirstName]你大师级棋艺的故事，同时用妙招来证明这些故事。[From.GetFirstName]看上去无法集中[From.GetHerHis]精神。;;;;;;;;;;x
 EVTDESC_RIP_30230_GOOD_TRICK;你几乎无法相信，但事实就是如此——计划成功了！红酒整个洒在[From.GetFirstName]的粗布衣服上。看见[From.GetSheHe]用一块布擦拭那片巨大的红印子，在[From.GetHerHis]呼吸声中诅咒你，你迅速放回了你的一只车。就算被人骂一声[GetFromRootInsult]肯定也值了！;;;;;;;;;;x
 EVTDESC_RIP_30230_BAD_TRICK;红酒整个洒在[From.GetFirstName]的粗布衣服上。看见[From.GetSheHe]用一块布擦拭那片巨大的红印子，在[From.GetHerHis]呼吸声中诅咒你，你试图放回你的一只车。一瞬间，你觉得自己的动作没被发现，但接着[From.GetFirstName]扫了一眼棋盘叹息道：「啊，我多么瞧不起作弊者……」;;;;;;;;;;x
 EVTOPTA_RIP_30230;我感觉我最后能赢！;;;;;;;;;;x
@@ -334,7 +334,7 @@ EVTOPTB_RIP_30231_C;我拿我恋人，[chess_sacrifice.GetTitledFirstName]的生
 EVTOPTB_RIP_30231_D;我拿我[chess_sacrifice.GetSonDaughter]，[chess_sacrifice.GetTitledFirstName]的生命赌！如果我输了，[chess_sacrifice.GetSheHe]就是你的了。;;;;;;;;;;x
 EVTNAME_RIP_30232;与死神的交易;;;;;;;;;;x
 EVTDESC_RIP_30232_BAD;在最后几步，时间似乎凝固了。你思维混乱，运转缓慢，如同正在穿过一片厚厚的糖浆。随机而不连贯的思绪在你的心灵中闪现。你去过的地方，你好几年没见过的朋友，你放弃的梦想。如此多事情尚未完成，现在再捡起来恐怕太晚了。\n\n「将军。」你的头猛地抬起来，死盯着[From.GetFirstName]的双眼。今晚第一次，你真正看清楚了这双眼睛，让你冻彻骨髓。你眼前的人形并非普通的[From.GetManWoman]，甚至完全就不是[From.GetManWoman]。这是死亡，而[From.GetSheHe]刚刚胜利。「是时候了，[Root.GetFirstName]」，[From.GetSheHe]满意地叹息。「长眠等候着你。」;;;;;;;;;;x
-EVTDESC_RIP_30232_GOOD;在最后几步，时间似乎凝固了。随机而不连贯的思绪在你的心灵中闪现。你去过的地方，你好几年没见过的朋友，你放弃的梦想。是不是太晚了……？「\n\n突然间，你看到了它。那一步。伸出颤抖的手，你拿起主教跨过整个棋盘，用一声轻柔地闷响放下棋子。「将军」，你轻声道，看向[From.GetFirstName]的双眼。今晚第一次，你真正看清楚了这双眼睛，让你冻彻骨髓。这不是凡间的[From.GetManWoman]，而是死亡[From.GetHerselfHimself]。「似乎你在智慧上战胜了我，[Root.GetFirstName]，所以我会多给你几年生命」，[From.GetSheHe]叹道。「这没什么大不了的，最终所有人都将跟我走。」接着，你一眨眼，[From.GetSheHe]消失了。;;;;;;;;;;x
+EVTDESC_RIP_30232_GOOD;在最后几步，时间似乎凝固了。随机而不连贯的思绪在你的心灵中闪现。你去过的地方，你好几年没见过的朋友，你放弃的梦想。是不是太晚了……？\n\n突然间，你看到了它。那一步。伸出颤抖的手，你拿起主教跨过整个棋盘，用一声轻柔地闷响放下棋子。「将军」，你轻声道，看向[From.GetFirstName]的双眼。今晚第一次，你真正看清楚了这双眼睛，让你冻彻骨髓。这不是凡间的[From.GetManWoman]，而是死亡[From.GetHerselfHimself]。「似乎你在智慧上战胜了我，[Root.GetFirstName]，所以我会多给你几年生命」，[From.GetSheHe]叹道。「这没什么大不了的，最终所有人都将跟我走。」接着，你一眨眼，[From.GetSheHe]消失了。;;;;;;;;;;x
 EVTOPTA_RIP_30232;你不是在做梦，你还活着，至少现在还是。一定要好好珍惜接下来的每一天！;;;;;;;;;;x
 EVTOPTB_RIP_302232_TOOLTIP;你感觉变得更强壮了……\n;;;;;;;;;;x
 EVTOPTB_RIP_30232;不，求求你，不要……不，我求你了！就……就让我多活一年！;;;;;;;;;;x
