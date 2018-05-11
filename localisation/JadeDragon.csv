@@ -386,9 +386,9 @@ title_yuhou_desc;古代历史记载中的虞候是指掌管山泽的官员。虽
 title_historiographer;史官;;;;;;;;;;x
 title_historiographer_desc;史官作为官方的历史记录者，该头衔被授予博学多识之人，职责是将国家大事记载下来，供后人引以为鉴。然而，有些人可能认为他们是在给统治者歌功颂德。;;;;;;;;;;x
 String_empress;女皇;;;;;;;;;;x
-String_emperor;皇帝;;;;;;;;;;x
+String_emperor;天子;;;;;;;;;;x
 String_Empress;女皇;;;;;;;;;;x
-String_Emperor;皇帝;;;;;;;;;;x
+String_Emperor;天子;;;;;;;;;;x
 String_Taoist;道教;;;;;;;;;;x
 GetHouseOfWorship_Taoist;道观;;;;;;;;;;x
 han;汉人;;;;;;;;;;x
@@ -421,7 +421,7 @@ china_famine;大饥荒;;;;;;;;;;x
 china_plague;大瘟疫;;;;;;;;;;x
 china_golden_age;盛世;;;;;;;;;;x
 TXT_GRACE;皇恩;;;;;;;;;;x
-title_china_emperor;皇帝;;;;;;;;;;x
+title_china_emperor;天子;;;;;;;;;;x
 tang_china;唐;;;;;;;;;;x
 jin_china;金;;;;;;;;;;x
 wei_china;魏;;;;;;;;;;x
@@ -884,7 +884,7 @@ trade_competition_build_city_TT;要想赢得比赛，你必须是五年内第一
 trade_competition_prestige_TT;要赢得这场竞赛，你必须在五年之后拥有所有参与者中最高的§Y威望§!！;;;;;;;;;;x
 EVTDESC_JD_40005_A;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n[From.Offmap.Ruler.GetChineseComplimentAdjective][From.Offmap.Ruler.GetTitle][From.Offmap.Ruler.GetFullName]很高兴看到您在建造[trade_competition_new_city.GetName]城中付出的的努力。为了表达[offmap_china.Ruler.GetHerHisCap]欣赏，[offmap_china.Ruler.GetSheHeCap]决定在贸易中赐予你优惠待遇。;;;;;;;;;;x
 EVTDESC_JD_40005_B;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n[From.Offmap.Ruler.GetChineseComplimentAdjective][From.Offmap.Ruler.GetTitle][From.Offmap.Ruler.GetFullName]很高兴看到[trade_competition_city_winner.GetName]在建造[trade_competition_new_city.GetName]时付出的巨大努力。同样你在促进与西方贸易上的失败我们也有所了解。;;;;;;;;;;x
-EVTOPTA_JD_40005;啊哈，得到皇帝的认可!;;;;;;;;;;x
+EVTOPTA_JD_40005;啊哈，陛下认可我了!;;;;;;;;;;x
 EVTOPTB_JD_40005;我下次一定要再努力一点。;;;;;;;;;;x
 EVTDESC_JD_40007;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n[From.Offmap.Ruler.GetChineseComplimentAdjective][From.Offmap.Ruler.GetTitle][From.Offmap.Ruler.GetFullName]对与西方建造在贸易路线上一个新的贸易中心没有进展龙颜大怒。对选择[Root.GetTitle][offmap_china.Ruler.GetHerHisCap]失望溢于言表，这个失败不会被很快遗忘。;;;;;;;;;;x
 EVTOPTA_JD_40007;唉！我们有祸了……;;;;;;;;;;x
@@ -1627,7 +1627,7 @@ OFFMAP_LIKES_TOOLTIP;天子喜欢 $CURRENT|Y$;;;;;;;;;;x
 OFFMAP_LIKES_AND_DISLIKES_DESC;§L天子有着不同的兴趣和品味。这对所有试图获取皇恩的的行为有着很大的影响。天子会同时关注你的特质（例如文化）和你的特别贡品（例如侍妾）...§!;;;;;;;;;;x
 OFFMAP_DISLIKES_TOOLTIP;天子厌恶$CURRENT|Y$;;;;;;;;;;x
 OFFMAP_DYNASTY_DESC;现在的皇朝是$DYNASTY|Y$，出自$CULTURE|Y$。;;;;;;;;;;x
-OFFMAP_RULER_DESC;§Y皇帝 $NAME$§!\n年龄：$AGE|Y$\n文化：$CULTURE|Y$\n宗教：$RELIGION|Y$;;;;;;;;;;x
+OFFMAP_RULER_DESC;§Y天子$NAME$§!\n年龄：$AGE|Y$\n文化：$CULTURE|Y$\n宗教：$RELIGION|Y$;;;;;;;;;;x
 SET_OFFMAP_LIKE_RANDOM;$OFFMAP|Y$ 现在喜爱其他东西;;;;;;;;;;x
 SET_OFFMAP_LIKE;$OFFMAP|Y$ 现在喜爱 $LIKE|Y$;;;;;;;;;;x
 SET_OFFMAP_DISLIKE_RANDOM;$OFFMAP|Y$现在喜欢其他东西了;;;;;;;;;;x
@@ -2875,9 +2875,9 @@ INTERACTION_REQUIRES_REVOKABLE_TITLE;不是无法收回的头衔;;;;;;;;;;x
 TRADE_ROUTE_PROVINCES_CONTROL_TRIGGER;控制在$ROUTE|Y$上的省份的§Y$COMPARISON$ $VALUE$%§!;;;;;;;;;;x
 TRADE_ROUTE_PROVINCES_DIRECT_CONTROL_TRIGGER;直接控制在$ROUTE|Y$上的省份的§Y$COMPARISON$ $VALUE$%§!;;;;;;;;;;x
 TRADE_ROUTE_TRADE_POST_LOCATIONS_CONTROL_TRIGGER;控制 $ROUTE|Y$路线上 §Y$COMPARISON$ $VALUE$%§! 的贸易站位置;;;;;;;;;;x
-TRADE_ROUTE_TRADE_POST_LOCATIONS_DIRECT_CONTROL_TRIGGER;直接控制 §Y$COMPARISON$ $VALUE$%§! 的贸易战位置在 $ROUTE|Y$上;;;;;;;;;;x
+TRADE_ROUTE_TRADE_POST_LOCATIONS_DIRECT_CONTROL_TRIGGER;直接控制 §Y$COMPARISON$ $VALUE$%§! 的贸易战位置在$ROUTE|Y$上;;;;;;;;;;x
 TRADE_ROUTE_TRADE_POSTS_CONTROL_TRIGGER;控制 $ROUTE|Y$路线上的§Y$COMPARISON$ $VALUE$%§! 贸易站;;;;;;;;;;x
-TRADE_ROUTE_TRADE_POSTS_DIRECT_CONTROL_TRIGGER;直接控制§Y$COMPARISON$ $VALUE$%§! 的贸易站在 $ROUTE|Y$上;;;;;;;;;;x
+TRADE_ROUTE_TRADE_POSTS_DIRECT_CONTROL_TRIGGER;直接控制§Y$COMPARISON$ $VALUE$%§! 在$ROUTE|Y$的贸易站;;;;;;;;;;x
 TRADE_ROUTE_WEALTH_CONTROL_TRIGGER;控制$ROUTE|Y$路线上的§Y$COMPARISON$ $VALUE$%§!财富;;;;;;;;;;x
 TRADE_ROUTE_WEALTH_DIRECT_CONTROL_TRIGGER;直接控制 $ROUTE|Y$路线上的 §Y$COMPARISON$ $VALUE$%§! 财富;;;;;;;;;;x
 OFFMAP_HAS_LIKE_TRIGGER;$RULER|Y$喜欢$LIKE|Y$;;;;;;;;;;x
@@ -3320,7 +3320,7 @@ GOV_CANNOT_RECEIVE_KINGDOM_EMPIRES_OTHER_GOV_GROUP;不能收回一个不同政�
 AIREASON_NO_MARRIAGE_EVENT_FLAG;§Y[RecipientExtra.GetTitledFirstName]§!因为其重要性无法被派遣;;;;;;;;;;x
 AIREASON_NO_CONCUBINAGE_EVENT_FLAG;§Y[ThirdPartyCharacter.GetTitledFirstName]§! 因为其重要性无法被派遣;;;;;;;;;;x
 MAPMODE_OFFMAP_NAP;§Y与$OFFMAP$的和平条约§!;;;;;;;;;;x
-UPGRADING_TO_BUILDING;升级之后将成为 $NAME$:;;;;;;;;;;x
+UPGRADING_TO_BUILDING;升级之后将成为$NAME$：;;;;;;;;;;x
 b_aduo;阿多;;;;;;;;;;x
 b_aggius;阿朱斯;;;;;;;;;;x
 b_alando;阿兰朵;;;;;;;;;;x
@@ -4229,7 +4229,7 @@ EVT_OPTC_JD_60008;[From.GetSheHe]迫切需要一套基本的保护措施。;;;;;
 EVT_OPTD_JD_60008;[From.GetFirstName]没有一套护甲也能生存。;;;;;;;;;;x
 chinese_imperial_government_FEATURES;§Y*§! 遵照命名统治者的特殊庙号惯例\n§Y*§! 仅限使用非选举继承法;;;;;;;;;;x
 adopt_chinese_imperialism_gov_tt;在中华帝国制下：\n§Y*§! 你可以持有城市地产\n§Y*§! 不在乎别人是否信仰你的宗教，也不能要求他们改信\n§Y*§! 不会受到封臣错误的统治类型好感惩罚\n§Y*§! 无法创建或篡夺帝国\n§Y*§! 遵照命名统治者的特殊庙号惯例\n§Y*§! 仅限使用非选举继承法;;;;;;;;;;x
-CHAR_DEATH_LOG;在$AGE$岁时，你的[From.GetRootRelation]§Y$NAME$§!$CAUSE$。;;;;;;;;;;x
+CHAR_DEATH_LOG;在 $AGE$ 岁时，你的[From.GetRootRelation]§Y$NAME$§!$CAUSE$。;;;;;;;;;;x
 EVTDESC_JD_10060_A;「顾问都过来！」我大叫道，让一些准备跟着官员离开的顾问们回过头来，再怎么说，我是他们的[Root.GetTitle]啊……是时候讨论讨论如何最好的实现我的想法，当然也是为了我的后代着想，当我考虑我的决定时，他们点头并交换紧张的目光。那么，这本书将是我的遗产了，一本关于……;;;;;;;;;;x
 EVTDESC_JD_10060_B;当我通知我的顾问我有意撰写一本书时，他们热切地点头道：「当然，我充满智慧的[Root.GetLordLady]，以您的智慧相信别人做什么都只会帮倒忙。」我打断了这些恭维的话，我的顾问瞬间尴尬的脸红，「下一个过来讲些实际的……」;;;;;;;;;;x
 EVTDESC_JD_10060_C;我今天有一个愿望，写一本书！ 当我向我的顾问提出这个问题时，他们看上去困惑的样子真好笑。我忽略他们的困惑，大声说道：「让我的书吏过来！」我的顾问回答：「当然，我的[Root.GetLordLady]，请问这篇伟大的著作是关于......」;;;;;;;;;;x
@@ -4723,7 +4723,7 @@ EVTOPTA_JD_20012_tt;§Y[From.GetJobTitle] [From.GetDynName]§! 归乡后，将�
 String_capital_name;[This.Capital.Capital.GetName];;;;;;;;;;x
 String_capital_location;[This.Capital.GetName];;;;;;;;;;x
 String_capital_province;[This.Capital.GetName];;;;;;;;;;x
-ON_TRADE_ROUTE_TRIGGER;在 $ROUTE|Y$贸易线路上;;;;;;;;;;x
+ON_TRADE_ROUTE_TRIGGER;在$ROUTE|Y$贸易线路上;;;;;;;;;;x
 ON_SAME_TRADE_ROUTE_TRIGGER;有商路通往$PROV|Y$;;;;;;;;;;x
 GAME_SETUP_LOWBORN_EXPLANATION;未发现家族，游戏开始时将随机生成家族。;;;;;;;;;;x
 DESTROY_ARTIFACT;$WHAT|Y$损坏了，并从$WHO|Y$的宝库里移除。\n;;;;;;;;;;x
@@ -4734,7 +4734,7 @@ EVTDESC681;我拒绝听从 [From.GetTitledFirstName]的命令交出我的头衔�
 EVTDESC682;我拒绝放弃我的合法封臣[From.GetTitledFirstName]，所以被迫举起了叛乱的大旗。;;;;;;;;;;x
 EVTDESC683;我拒绝让我的部族被 [From.GetTitledFirstName]所吞并， 所以被迫举起了叛乱的大旗;;;;;;;;;;x
 EVTDESC684;我拒绝听从 [From.GetTitledFirstName]的命令将我的部族拆散，所以被迫举起了叛乱的大旗;;;;;;;;;;x
-PLOTTER_JOB_DESC;，$HOLDING$$TITLE$;;;;;;;;;;x
+PLOTTER_JOB_DESC;，$HOLDING$ $TITLE$;;;;;;;;;;x
 SPECIFIC_WAR_STRING;$WAR$;;;;;;;;;;x
 TITLE_SHORT_NAME_FORM;$TITLE$;;;;;;;;;;x
 TITLE_SHORT_NAME_FORM_CAPPED;$TITLE$;;;;;;;;;;x

@@ -539,7 +539,7 @@ CHARDEATHEFFECT;§Y$NAME$§!死亡！\n;;;;;;;;;;x
 CURE_ILLNESS_EFFECT;痊愈了！\n;;;;;;;;;;x
 BETROTHAL_EFFECT;$WHO$与$SPOUSE$订婚。\n;;;;;;;;;;x
 BREAK_BETROTHAL_EFFECT;$WHO$撕毁与$SPOUSE$的订婚协议。\n;;;;;;;;;;x
-CREATEHOLDING_EFFECT;创建$NAME$。\n;;;;;;;;;;x
+CREATEHOLDING_EFFECT;启用$NAME$。\n;;;;;;;;;;x
 ALL_PROV_LORDS;所有领主;;;;;;;;;;x
 ALL_PROV_CHARS;所有角色;;;;;;;;;;x
 ALL_COURTIERS;所有廷臣;;;;;;;;;;x
@@ -14742,7 +14742,7 @@ SUCCESSION_ALL_VASSALS;以及其他的头衔;;;;;;;;;;x
 LOSTVASSAL_SETUP;封臣失去头衔;;;;;;;;;;x
 LOSTVASSAL_LOG;$TITLE$不再是$OLDLIEGE$的封臣.;;;;;;;;;;x
 BUILDING_DONE_SETUP;一座建筑完成;;;;;;;;;;x
-BUILDING_DONE_LOG;$NAME$ 在 $PROV$ 建成.;;;;;;;;;;x
+BUILDING_DONE_LOG;$NAME$在$PROV$建成。;;;;;;;;;;x
 TRIGMOD_SETUP;当我国受到修正因素影响;;;;;;;;;;x
 TRIGMOD_LOG;$NAME$开始影响我国.;;;;;;;;;;x
 TRIGMODLOST_SETUP;当我国所获修正因素影响结束;;;;;;;;;;x
@@ -15554,17 +15554,17 @@ INCREASED;提高;;;;;;;;;;x
 DECREASED;降低;;;;;;;;;;x
 Chance;几率;;;;;;;;;;x
 IDEAS;国家理念;;;;;;;;;;x
-Jan;一月;;;;;;;;;;x
-Feb;二月;;;;;;;;;;x
-Mar;三月;;;;;;;;;;x
-Apr;四月;;;;;;;;;;x
-Jun;六月;;;;;;;;;;x
-Jul;七月;;;;;;;;;;x
-Aug;八月;;;;;;;;;;x
-Sep;九月;;;;;;;;;;x
-Oct;十月;;;;;;;;;;x
-Nov;十一月;;;;;;;;;;x
-Dec;十二月;;;;;;;;;;x
+Jan;1月;;;;;;;;;;x
+Feb;2月;;;;;;;;;;x
+Mar;3月;;;;;;;;;;x
+Apr;4月;;;;;;;;;;x
+Jun;6月;;;;;;;;;;x
+Jul;7月;;;;;;;;;;x
+Aug;8月;;;;;;;;;;x
+Sep;10月;;;;;;;;;;x
+Oct;10月;;;;;;;;;;x
+Nov;11月;;;;;;;;;;x
+Dec;12月;;;;;;;;;;x
 Religion;宗教;;;;;;;;;;x
 Goods;物品;;;;;;;;;;x
 COST_MONTHS;这个建筑花费$AMOUNT$金币，需要$TIME$个月完成.;;;;;;;;;;x
@@ -15783,21 +15783,21 @@ PEACEDESC;商议和平条约;;;;;;;;;;x
 VASSAL_GIVEUP;$WHO$停止向$WHAT$上贡.;;;;;;;;;;x
 EXPENSES;开支;;;;;;;;;;x
 UNDER_SIEGE;省份被围攻!;;;;;;;;;;x
-April;四月;;;;;;;;;;x
-August;八月;;;;;;;;;;x
-December;十二月;;;;;;;;;;x
-February;二月;;;;;;;;;;x
+April;4月;;;;;;;;;;x
+August;8月;;;;;;;;;;x
+December;12月;;;;;;;;;;x
+February;2月;;;;;;;;;;x
 Friday;星期五;;;;;;;;;;x
-January;一月;;;;;;;;;;x
-July;七月;;;;;;;;;;x
-June;六月;;;;;;;;;;x
-March;三月;;;;;;;;;;x
-May;五月;;;;;;;;;;x
+January;1月;;;;;;;;;;x
+July;7月;;;;;;;;;;x
+June;6月;;;;;;;;;;x
+March;3月;;;;;;;;;;x
+May;5月;;;;;;;;;;x
 Monday;星期一;;;;;;;;;;x
-November;十一月;;;;;;;;;;x
-October;十月;;;;;;;;;;x
+November;11月;;;;;;;;;;x
+October;10月;;;;;;;;;;x
 Saturday;星期六;;;;;;;;;;x
-September;九月;;;;;;;;;;x
+September;9月;;;;;;;;;;x
 Sunday;星期日;;;;;;;;;;x
 Thursday;星期四;;;;;;;;;;x
 Tuesday;星期二;;;;;;;;;;x
@@ -15895,7 +15895,7 @@ UNIT_STATUS_SIEGE;围攻中;;;;;;;;;;x
 UNIT_STATUS_RETREATING;撤退中;;;;;;;;;;x
 TRAITS;特质;;;;;;;;;;x
 CHARACTER_UNEMPLOYED;无职业;;;;;;;;;;x
-EVENTHISTORY_TITLE;$OPTION$ 在 $EVENT$.;;;;;;;;;;x
+EVENTHISTORY_TITLE;在$EVENT$中的$OPTION$。;;;;;;;;;;x
 CHARACTER_AGE;年龄:;;;;;;;;;;x
 CHARACTER_HISTORY;历史;;;;;;;;;;x
 SUPPLYLIMIT_INSTANT;本地在无损耗前提下能负担的最多单位数。实际损耗率也取决于许多其他因素。;;;;;;;;;;x
@@ -15966,7 +15966,7 @@ NORMAL;一般;;;;;;;;;;x
 HARD;困难;;;;;;;;;;x
 VERY_HARD;极难;;;;;;;;;;x
 MONTHLY;每月;;;;;;;;;;x
-HALFYEAR;每六个月;;;;;;;;;;x
+HALFYEAR;每半年;;;;;;;;;;x
 YEARLY;每年;;;;;;;;;;x
 FIVE_YEAR;每五年;;;;;;;;;;x
 MENU_BAR_SAVE_GAME;储存游戏;;;;;;;;;;x
@@ -16286,7 +16286,7 @@ CRBSIEGE4;城市守军可能在六个月内投降.;;;;;;;;;;x
 CRBSIEGE5;城市守军可能在三个月内投降.;;;;;;;;;;x
 CRBSIEGE6;城市守军可能在几天内投降.;;;;;;;;;;x
 MAINTENANCE;维护费;;;;;;;;;;x
-MAINTENANCE_DUC;每月 ¤;;;;;;;;;;x
+MAINTENANCE_DUC;¤ 每月;;;;;;;;;;x
 ATTRITION_TITLE;消耗\n;;;;;;;;;;x
 NO_COMMANDER;无将领;;;;;;;;;;x
 ST;次;;;;;;;;;;x
@@ -16304,7 +16304,7 @@ SU_DISCIPLINE;纪律;;;;;;;;;;x
 SU_MORALE;士气;;;;;;;;;;x
 SU_OFF;攻击;;;;;;;;;;x
 SU_DEF;防御;;;;;;;;;;x
-UNIT_TYPE_VERSUS;对$NAME$：$COL$$EFFICIENCY$%;;;;;;;;;;x
+UNIT_TYPE_VERSUS;对$NAME$：$COL$ $EFFICIENCY$%;;;;;;;;;;x
 ENABLE_COMBAT_EVENT;开启战斗事件'$WHICH$'.\n;;;;;;;;;;x
 RALLY;重整;;;;;;;;;;x
 ENVELOPE;包围;;;;;;;;;;x
@@ -16337,8 +16337,8 @@ ATTR_TIME_AT_SEA;航行时间;;;;;;;;;;x
 ATTR_OPEN_SEA;公海;;;;;;;;;;x
 LOAD_CAPACITY_LABEL;可运载$NUM$单位;;;;;;;;;;x
 COMBAT_FIRE;我军将领与敌军将领军事能力的差距影响.;;;;;;;;;;x
-PLAYER_KICKED;$NAME$被主机踢除了.;;;;;;;;;;x
-PLAYER_BANNED;$NAME$被主机禁止了.;;;;;;;;;;x
+PLAYER_KICKED;$NAME$被主机踢出了。;;;;;;;;;;x
+PLAYER_BANNED;$NAME$被主机禁止了。;;;;;;;;;;x
 ICON_RANSOM;§Y赎回囚犯§!提议;;;;;;;;;;x
 AFFORD_SHIP_COST;你没有钱造这艘船，你至少需要 $COST$¤;;;;;;;;;;x
 FOR_PLAYER;对玩家:;;;;;;;;;;x
@@ -18051,8 +18051,8 @@ SUM;总和;;;;;;;;;;x
 TITLED_NAME;$HOLDING$$TITLE$ $NAME$;;;;;;;;;;x
 NAME_WITH_HOLDING;$HOLDING$的$NAME$;;;;;;;;;;x
 TITLED_FIRST_NAME;$TITLE$ $NAME$;;;;;;;;;;x
-LANDED_FULL_RULER_TITLE;$HOLDING$$TITLE$;;;;;;;;;;x
-LANDED_FULL_RULER_LOC_TITLE;$LOCATION$$TITLE$;;;;;;;;;;x
+LANDED_FULL_RULER_TITLE;$HOLDING$的$TITLE$;;;;;;;;;;x
+LANDED_FULL_RULER_LOC_TITLE;$LOCATION$的$TITLE$;;;;;;;;;;x
 DEMESNE_SIZE_PENALTY;领地超限;;;;;;;;;;x
 CHANGING_SUCC_LAW_WARNING;§R更改继承法会使所有封臣不满，尤其是那些失去权利的.§!;;;;;;;;;;x
 SUCCESSION_INHERITED;$NEW_NAME$继承$TITLES$.;;;;;;;;;;x
@@ -18437,7 +18437,7 @@ LEVY_CURRENT_WE_CAN_RAISE;我们现在可以动员$NUM$名士兵;;;;;;;;;;x
 SETTLEMENT_LEVY;征召兵:;;;;;;;;;;x
 SM_BUILD;建造;;;;;;;;;;x
 DYNASTIC_MENU;家族;;;;;;;;;;x
-CB_AGAINST_TIMED;针对$WHO$的$NAME$宣战理由在$DATE$失效;;;;;;;;;;x
+CB_AGAINST_TIMED;针对$WHO$的$NAME$宣战理由在 $DATE$ 失效;;;;;;;;;;x
 CB_AGAINST;针对$WHO$的$NAME$宣战理由;;;;;;;;;;x
 PLOT_BACKERS;支持者;;;;;;;;;;x
 PLOT_DECISIONS;决议;;;;;;;;;;x
@@ -18457,12 +18457,12 @@ GOTO;转到;;;;;;;;;;x
 PURSUE;追击;;;;;;;;;;x
 PLOT_BACKER;阴谋支持者;;;;;;;;;;x
 CALL_REASONS;§Y可以召唤参战，理由是:§!;;;;;;;;;;x
-CALL_ALLY_REL_DESC;$CHAR$的 $REL_1$ $NAME$的 $REL_2$;;;;;;;;;;x
-CALL_ALLY_REL_SHORT_DESC;$NAME$的 $REL$;;;;;;;;;;x
+CALL_ALLY_REL_DESC;$CHAR$的$REL_1$ $NAME$的$REL_2$;;;;;;;;;;x
+CALL_ALLY_REL_SHORT_DESC;$NAME$的$REL$;;;;;;;;;;x
 FAMILY_TAB_IRO;§Y$NAME$的家人§!;;;;;;;;;;x
 FAMILY_TAB_DRO;$NAME$的家人，包括监护人和被监护人.;;;;;;;;;;x
 VASSAL_TAB_IRO;§Y$NAME$的封臣§!;;;;;;;;;;x
-VASSAL_TAB_DRO;这些领主是$NAME$的直属封臣，可以拥有自己的封臣.;;;;;;;;;;x
+VASSAL_TAB_DRO;这些领主是$NAME$的直属封臣，可以拥有自己的封臣。;;;;;;;;;;x
 COURT_TAB_IRO;§Y居住在$NAME$宫廷的人§!;;;;;;;;;;x
 COURT_TAB_DRO;廷臣主要包括没有封地的贵族，也有被委以要职的重臣（可能拥有领地），被拘禁的囚徒，以及接受某位廷臣教育的孩子.;;;;;;;;;;x
 ABROAD_TAB_IRO;§Y暂居国外的廷臣§!;;;;;;;;;;x
@@ -18473,7 +18473,7 @@ SM_CENTERED_ZOOM_OUT;从鼠标处缩小;;;;;;;;;;x
 SIEGE_ATTACKERS;攻击方;;;;;;;;;;x
 SIEGE_DEFENDERS;防御方;;;;;;;;;;x
 CONFIRM_DISBAND_TITLE;确定要解散这个单位吗?;;;;;;;;;;x
-CONFIRM_DISBAND_DESC;$NAME$将解散并遣返所有士兵.;;;;;;;;;;x
+CONFIRM_DISBAND_DESC;$NAME$将解散并遣返所有士兵。;;;;;;;;;;x
 SIEGE_OF;$PROVINCE$围攻战;;;;;;;;;;x
 CHAR_DYNASTY;家族;;;;;;;;;;x
 CHAR_REALM;国家;;;;;;;;;;x
@@ -18569,7 +18569,7 @@ CONFIRM_MAKE_CAPITAL_TITLE;宫廷迁移到$PROVINCE$;;;;;;;;;;x
 MAKE_CAPITAL;迁都;;;;;;;;;;x
 CURRENT_CAPITAL;现首都;;;;;;;;;;x
 CURRENT_CAPITAL_DRO;这个郡是你的首都，你的宫廷居住于此.当你派间谍总管窃取科技时，窃取到的科技将被送到这里.首都的战争分数价值更高.;;;;;;;;;;x
-ATWARWITH;与 $COUNTRIES$ 在 $WAR$ 交战;;;;;;;;;;x
+ATWARWITH;在$WAR$与$COUNTRIES$交战;;;;;;;;;;x
 CONSTRUCTION_PROGRESS;$SETTLEMENT$正在建设§Y$CONSTRUCTION$§!，预计在$DAYS$天后完工;;;;;;;;;;x
 SIEGE_PROGRESS;$COUNTRY$正在围攻$SETTLEMENT$;;;;;;;;;;x
 BUILD_CONST_TIP;§Y$BUILDING$§!将在§Y$DATE$§!建成于$SETTLEMENT$.;;;;;;;;;;x
@@ -18622,14 +18622,14 @@ SUPPLY_COASTAL;沿海领地: $VALUE$;;;;;;;;;;x
 SUPPLY_NEIGHBOR;控制的邻近领地: $VALUE$;;;;;;;;;;x
 SUPPLY_BASE_MODIFIED;基础值: §Y$VALUE$§!;;;;;;;;;;x
 ATTRITION_MAX;本地的每月最大损耗：§Y$VALUE$%§!;;;;;;;;;;x
-ATTRITION_LEADER_REDUCTION;$NAME$: $VALUE$;;;;;;;;;;x
+ATTRITION_LEADER_REDUCTION;$NAME$：$VALUE$;;;;;;;;;;x
 TOGGLE_SIEGE_VIEW;切换围攻面板;;;;;;;;;;x
 TOTAL_COUNTY_TAX;全郡总税收;;;;;;;;;;x
 TOTAL_COUNTY_TAX_DESC;每年上缴给我们的税收 / 每年总收入;;;;;;;;;;x
 TOTAL_COUNTY_LEVY;全郡总兵力;;;;;;;;;;x
 TOTAL_COUNTY_LEVY_DESC;我们可以动员的兵力 / 总兵力;;;;;;;;;;x
-DS_OFF_WAR;攻击 §Y[GetBestName]§! 在 §Y$WAR$§!;;;;;;;;;;x
-DS_DEF_WAR;防御 §Y[GetBestName]§! 在 §Y$WAR$§!;;;;;;;;;;x
+DS_OFF_WAR;攻击§Y[GetBestName]§!对§Y$WAR$§!;;;;;;;;;;x
+DS_DEF_WAR;防御§Y[GetBestName]§!对§Y$WAR$§!;;;;;;;;;;x
 DS_TRUCE;与 §Y[GetBestName]§! 的和平协议在 §Y$DATE$§!过期;;;;;;;;;;x
 DS_TRUCE_DESC;这个和平协议签署于 §Y$WARNAME$§!结束后;;;;;;;;;;x
 DS_ACCEPTED;针对 §Y$LOSER$§! 的战争的胜利者是 §Y$WINNER$§!;;;;;;;;;;x
@@ -18675,16 +18675,16 @@ MIL_NAME;姓名;;;;;;;;;;x
 MIL_COST;花费;;;;;;;;;;x
 MIL_OPINION;好感;;;;;;;;;;x
 MIL_TOTAL_STRENGTH;总实力;;;;;;;;;;x
-CHAR_STATUS_IMPRISONED;§Y$NAME$§! 被 §Y$JAILOR$§! 拘禁;;;;;;;;;;x
+CHAR_STATUS_IMPRISONED;§Y$NAME$§!被§Y$JAILOR$§!拘禁;;;;;;;;;;x
 DIED_IN_PRISON;死于牢狱;;;;;;;;;;x
-CHAR_STATUS_INCAPABLE;§Y$NAME$§! 没有能力治理领地;;;;;;;;;;x
+CHAR_STATUS_INCAPABLE;§Y$NAME$§!没有能力治理领地;;;;;;;;;;x
 CHAR_STATUS_EDUCATED;§Y$NAME$§! 在 §Y$LOCATION$§! 接受 §Y$OTHER$§! 教育;;;;;;;;;;x
-CHAR_STATUS_LEADING_TROOPS;§Y$NAME$§! 正在 §Y$LOCATION$§! 指挥部队;;;;;;;;;;x
+CHAR_STATUS_LEADING_TROOPS;§Y$NAME$§!正在§Y$LOCATION$§!指挥部队;;;;;;;;;;x
 CHAR_STATUS_JOBACTION;§Y$NAME$§! 正在 §Y$LOCATION$§! §Y$ACTION$§!;;;;;;;;;;x
 CHAR_RELATION_YOU;这是你自己;;;;;;;;;;x
-CHAR_RELATION_HEIR;§Y$NAME$§! 是你的继承人;;;;;;;;;;x
+CHAR_RELATION_HEIR;§Y$NAME$§!是你的继承人;;;;;;;;;;x
 CHAR_RELATION_DYNASTY;§Y$NAME$§!是你的家族成员;;;;;;;;;;x
-CHAR_RELATION_BASTARD_DYNASTY;§Y$NAME$§! 是你家族的私生子;;;;;;;;;;x
+CHAR_RELATION_BASTARD_DYNASTY;§Y$NAME$§!是你家族的私生子;;;;;;;;;;x
 REL_APPOINT_SUCCESSOR;指定继承人;;;;;;;;;;x
 LOYAL_TO;忠诚于;;;;;;;;;;x
 CANNOT_TRANSFER;§R不能将部队转给移动中或作战中的单位§!;;;;;;;;;;x
@@ -19179,8 +19179,8 @@ IS_NOT_GENERAL;不是将领;;;;;;;;;;x
 IS_GENERAL;是将领;;;;;;;;;;x
 IS_NOT_ADMIRAL;不是海军将领;;;;;;;;;;x
 IS_ADMIRAL;是海军将领;;;;;;;;;;x
-HAD_TITLE_LESS_THAN;Been $TITLE$ 少于 $DAYS$ 天;;;;;;;;;;x
-HAD_TITLE_MORE_THAN;Been $TITLE$ 多于 $DAYS$ 天;;;;;;;;;;x
+HAD_TITLE_LESS_THAN;作为 $TITLE$ 少于 $DAYS$ 天;;;;;;;;;;x
+HAD_TITLE_MORE_THAN;作为 $TITLE$ 多于 $DAYS$ 天;;;;;;;;;;x
 DOES_NOT_HAVE_TITLE;不是;;;;;;;;;;x
 HAS_TITLE;是;;;;;;;;;;x
 ISNT_COURTIER;不是重臣;;;;;;;;;;x
@@ -19492,7 +19492,7 @@ FE_ADVANCED;高级;;;;;;;;;;x
 FE_START_ALL_CHAPTERS;从头开始……;;;;;;;;;;x
 TUT_NEXT;继续;;;;;;;;;;x
 TUTORIAL_EXIT;返回教程菜单;;;;;;;;;;x
-TUTORIAL_NEXT_CHAPTER;下面进入: $NAME$;;;;;;;;;;x
+TUTORIAL_NEXT_CHAPTER;下面进入：$NAME$;;;;;;;;;;x
 TUTORIAL_NEXT_CHAPTER_LAST;结束;;;;;;;;;;x
 TUTORIAL_NEXT_STAGE_INTERMEDIARY;跳过本节进入§Y中级§!部分;;;;;;;;;;x
 TUTORIAL_NEXT_STAGE_ADVANCED;跳过本节进入§Y高级§!部分;;;;;;;;;;x

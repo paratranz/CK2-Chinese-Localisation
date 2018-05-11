@@ -327,7 +327,7 @@ TheOldGodsDLC;逝往神灵;;;;;;;;;;x
 HymnsToTheOldGodsDLC;为古老神祗写的赞美诗;;;;;;;;;;x
 SongsOfArabiaDLC;阿拉伯之歌;;;;;;;;;;x
 PREPARING_INVASION_AGAINST;在§Y$END_DATE$§!前准备入侵§Y$TARGET$§!;;;;;;;;;;x
-PREPARED_INVASION_TARGET;§Y$ATTACKER$§! 在§Y$END_DATE$§!前准备入侵;;;;;;;;;;x
+PREPARED_INVASION_TARGET;§Y$ATTACKER$§!正在准备在§Y$END_DATE$§!入侵;;;;;;;;;;x
 preparing_to_invade;准备入侵中;;;;;;;;;;x
 preparing_to_invade_me;准备入侵中;;;;;;;;;;x
 alert_planning_invasion_instant;§Y准备入侵§!;;;;;;;;;;x
@@ -717,10 +717,10 @@ LOOT_SHIP_RETURNED_AMOUNT_EMPTY;丁点战利品;;;;;;;;;;x
 LOOT_CONSTRUCTION;$NAME$的建筑;;;;;;;;;;x
 HOLDING_DESTROYED_BY_LOOTING_SETUP;领地被掠夺毁坏;;;;;;;;;;x
 HOLDING_DESTROYED_BY_LOOTING_LOG;掠夺者完全破坏了 $END$;;;;;;;;;;x
-HOLDING_DESTROYED_BY_LOOTING_FINISHED;$TYPE$  $NAME$ 在 $PROVINCE$;;;;;;;;;;x
-HOLDING_DESTROYED_BY_LOOTING_CONSTRUCTION;$TYPE$ 的建筑在 $PROVINCE$;;;;;;;;;;x
+HOLDING_DESTROYED_BY_LOOTING_FINISHED;在$PROVINCE$的$TYPE$$NAME$;;;;;;;;;;x
+HOLDING_DESTROYED_BY_LOOTING_CONSTRUCTION;在$PROVINCE$修建的$TYPE$;;;;;;;;;;x
 TRADE_POST_DESTROYED_BY_LOOTING_SETUP;贸易站被掠夺破坏了;;;;;;;;;;x
-TRADE_POST_DESTROYED_BY_LOOTING_LOG;掠夺者会破坏了在 $PROVINCE$的贸易站;;;;;;;;;;x
+TRADE_POST_DESTROYED_BY_LOOTING_LOG;掠夺者破坏了在$PROVINCE$的贸易站;;;;;;;;;;x
 LOOT_HOLDING;掠夺这块领地;;;;;;;;;;x
 CANT_LOOT_HOLDING_DONTCONTROL;掌控领地;;;;;;;;;;x
 CANT_LOOT_HOLDING_SAMERELIGION;地产的所有者不是 §Y$RELIGION$§!;;;;;;;;;;x
@@ -730,7 +730,7 @@ CARRYING_LOOT_INSTANT;携带战利品;;;;;;;;;;x
 LOOT_DESC;这支舰队携带 §Y$LOOT$§!/§Y$MAX$§!¤ 战利品。移动到友方港口以使这些钱进入国库。;;;;;;;;;;x
 LOOTING_INSTANT;掠夺中;;;;;;;;;;x
 CANT_LOOT_SHORT;无法掠夺;;;;;;;;;;x
-LOOTING_TONAVY_DESC;这个单位掠夺的金钱将会运到在 $SEA$的舰队上.舰队必须返航确保金钱安全.;;;;;;;;;;x
+LOOTING_TONAVY_DESC;这个单位掠夺的金钱将会运到在$SEA$的舰队上。舰队必须返航才能取得金钱。;;;;;;;;;;x
 LOOTING_TOOWNER_DESC;这个单位掠夺的金钱将会直接增加它所有者的财富，因为它在所有者领地的边境.;;;;;;;;;;x
 LOOTING_TARGET_SHORT;拥有相邻省份或者空载的舰队为了掠夺相邻海域或者河流.;;;;;;;;;;x
 LOOTING_NOSHIP;省份没有与单位所有者的领土相连或者附近没有友好的船只.;;;;;;;;;;x
