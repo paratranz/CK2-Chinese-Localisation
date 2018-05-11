@@ -539,7 +539,7 @@ CHARDEATHEFFECT;§Y$NAME$§!死亡！\n;;;;;;;;;;x
 CURE_ILLNESS_EFFECT;痊愈了！\n;;;;;;;;;;x
 BETROTHAL_EFFECT;$WHO$与$SPOUSE$订婚。\n;;;;;;;;;;x
 BREAK_BETROTHAL_EFFECT;$WHO$撕毁与$SPOUSE$的订婚协议。\n;;;;;;;;;;x
-CREATEHOLDING_EFFECT;启用$NAME$。\n;;;;;;;;;;x
+CREATEHOLDING_EFFECT;连接$NAME$。\n;;;;;;;;;;x
 ALL_PROV_LORDS;所有领主;;;;;;;;;;x
 ALL_PROV_CHARS;所有角色;;;;;;;;;;x
 ALL_COURTIERS;所有廷臣;;;;;;;;;;x
@@ -4620,7 +4620,7 @@ FE_MILITARY;军事;;;;;;;;;;x
 FE_ECONOMY;经济;;;;;;;;;;x
 FE_DIPLOMACY;外交;;;;;;;;;;x
 FE_DIFFICULTY;难度:;;;;;;;;;;x
-FE_AT_WAR;交战中:;;;;;;;;;;x
+FE_AT_WAR;交战中：;;;;;;;;;;x
 FE_ALLIES;盟友:;;;;;;;;;;x
 FE_BOOKEDMARKED;历史剧本:;;;;;;;;;;x
 FE_STARTING_DATE;开始日期;;;;;;;;;;x
@@ -4921,15 +4921,15 @@ AWARD_HONORARY_TITLE_INTERACTION_LONG_DESC;你可以向你的封臣授予荣誉�
 AWARD_HONORARY_TITLE_INTERACTION_0;选择一个荣誉头衔授予 §Y[Recipient.GetTitledFirstName]§!.;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_1;将 §Y[ThirdPartyTitle.GetFullName]§! 授予 §Y[Recipient.GetTitledFirstName]§!.这将提高[Recipient.GetPossPronoun]好感度$OPINION$.;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_ACCEPT_SETUP;授予荣誉头衔;;;;;;;;;;x
-AWARD_HONORARY_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 授予 §Y[Recipient.GetBestName]§! §Y[ThirdPartyTitle.GetFullName]§!;;;;;;;;;;x
+AWARD_HONORARY_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!授予§Y[Recipient.GetBestName]§!§Y[ThirdPartyTitle.GetFullName]§!;;;;;;;;;;x
 SEND_ASSASSIN_INTERACTION_TITLE;暗杀;;;;;;;;;;x
 SEND_ASSASSIN_INTERACTION_LONG_DESC;暗杀是一种排除可能带来麻烦的人的便捷方法.但是，利弊必须要仔细慎重地权衡，名誉上的污点很难在短期内被遗忘……;;;;;;;;;;x
 SEND_ASSASSIN_INTERACTION_ACCEPT_SETUP;暗杀尝试;;;;;;;;;;x
 SEND_ASSASSIN_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 据传言与对 §Y[Recipient.GetBestName]§!的谋杀有关;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_TITLE;宣战;;;;;;;;;;x
-DECLARE_WAR_INTERACTION_DESC;对此人宣战.;;;;;;;;;;x
+DECLARE_WAR_INTERACTION_DESC;对此人宣战。;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_LONG_DESC;战争是证明勇气的场所！只要你做好了充分准备……;;;;;;;;;;x
-DECLARE_WAR_INTERACTION_1;你有封臣在 §Y[Recipient.GetFirstName]§!的宫廷.[Recipient.GetSubjectPronounCap]可能处决他们！;;;;;;;;;;x
+DECLARE_WAR_INTERACTION_1;你有封臣在§Y[Recipient.GetFirstName]§!的宫廷。[Recipient.GetSubjectPronounCap]可能会处决他们！;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_2;攻击盟友会花费 §R$PRESTIGE$§! 威望;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_ACCEPT_SETUP;宣战;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!对§Y[Recipient.GetBestName]§!发动$WAR$;;;;;;;;;;x
@@ -14744,9 +14744,9 @@ LOSTVASSAL_LOG;$TITLE$不再是$OLDLIEGE$的封臣.;;;;;;;;;;x
 BUILDING_DONE_SETUP;一座建筑完成;;;;;;;;;;x
 BUILDING_DONE_LOG;$NAME$在$PROV$建成。;;;;;;;;;;x
 TRIGMOD_SETUP;当我国受到修正因素影响;;;;;;;;;;x
-TRIGMOD_LOG;$NAME$开始影响我国.;;;;;;;;;;x
+TRIGMOD_LOG;$NAME$开始影响我国。;;;;;;;;;;x
 TRIGMODLOST_SETUP;当我国所获修正因素影响结束;;;;;;;;;;x
-TRIGMODLOST_LOG;$NAME$不再影响我们.;;;;;;;;;;x
+TRIGMODLOST_LOG;$NAME$不再影响我们。;;;;;;;;;;x
 DISBAND_SETUP;当我国裁撤军队;;;;;;;;;;x
 DISBAND_LOG;我国解散了$UNIT$.;;;;;;;;;;x
 ATTACKTHEM_SETUP;当我国军队进攻敌军;;;;;;;;;;x
@@ -14754,13 +14754,13 @@ ATTACKUS_SETUP;当我国军队遭受敌军进攻;;;;;;;;;;x
 SIEGEUS_SETUP;当敌军包围我国要塞;;;;;;;;;;x
 SIEGETHEM_SETUP;当我国军队包围敌国城市;;;;;;;;;;x
 LANDBATTLEOVER_SETUP;当一场陆战结束;;;;;;;;;;x
-LANDBATTLEOVER_LOG;我们$RESULT$$NAME$战役.;;;;;;;;;;x
+LANDBATTLEOVER_LOG;我们$RESULT$了$NAME$战役。;;;;;;;;;;x
 SIEGEOVER_SETUP;当一个围攻结束;;;;;;;;;;x
-SIEGEOVER_LOG;我们$RESULT$$NAME$围攻战.;;;;;;;;;;x
+SIEGEOVER_LOG;我们$RESULT$了$NAME$围攻战。;;;;;;;;;;x
 CHATMESSAGE_SETUP;当你收到聊天消息;;;;;;;;;;x
 CHATMESSAGE_LOG;$TEXT$;;;;;;;;;;x
 UNITARRIVED_SETUP;当我国部队到达目的地;;;;;;;;;;x
-UNITARRIVED_LOG;$NAME$到达$PROV$.;;;;;;;;;;x
+UNITARRIVED_LOG;$NAME$到达$PROV$;;;;;;;;;;x
 MARRIAGE_SETUP;结婚;;;;;;;;;;x
 MARRIAGE_LOG;§Y$MAN$§!和§Y$WOMAN$§!结婚了.;;;;;;;;;;x
 OBJECTIVEACHIEVED_SETUP;完成野心;;;;;;;;;;x
@@ -14776,11 +14776,11 @@ NEWBORN_LOG;§Y$CHAR1$§!和§Y$CHAR2$§!生下了一个§Y$SEX$§!，取名为�
 NEWBORN_LETTER;$MOTHER$生下了一个$SEX$，取名为$CHILD$;;;;;;;;;;x
 NEWBORN_TO_PLAYER;你有了一个$SEX$！$CHAR2$建议给孩子取这个名字：;;;;;;;;;;x
 CHARESCAPE_SETUP;角色越狱;;;;;;;;;;x
-CHARESCAPE_LOG;§Y$NAME$§!逃到了§Y$TARGET$§!.;;;;;;;;;;x
+CHARESCAPE_LOG;§Y$NAME$§!逃到了§Y$TARGET$§!。;;;;;;;;;;x
 CHAR_DEATH_SETUP;角色死亡;;;;;;;;;;x
 CHAR_EDUCATED_SETUP;一个孩子完成了学业;;;;;;;;;;x
 APPOINTREGENT_SETUP;摄政开始;;;;;;;;;;x
-APPOINTREGENT_LOG;§Y$NAME$§! 被指定为 §Y$MONARCHNAME$§! 的摄政.;;;;;;;;;;x
+APPOINTREGENT_LOG;§Y$NAME$§!被指定为§Y$MONARCHNAME$§!的摄政。;;;;;;;;;;x
 APPOINTREGENT_LETTER;我被选作了你的摄政者。;;;;;;;;;;x
 DISMISSREGENT_SETUP;摄政结束;;;;;;;;;;x
 DISMISSREGENT_LOG;§Y$MONARCHNAME$§! 的摄政期结束了.;;;;;;;;;;x
@@ -14799,8 +14799,8 @@ LAW_PASSED_LOG;§Y$TITLE$§!的封臣们通过了§Y$LAW$§!.;;;;;;;;;;x
 CHARACTER_CONTRACTED_DISEASE_SETUP;角色染病;;;;;;;;;;x
 CHARACTER_CONTRACTED_DISEASE_LOG;§Y$NAME$§!得了§Y$DIS_NAME$§!.;;;;;;;;;;x
 DISEASE_OUTBREAK_SETUP;疾病暴发;;;;;;;;;;x
-DISEASE_OUTBREAK_LOG;在§Y$PROV_NAME$§!暴发了§Y$NAME$§!.;;;;;;;;;;x
-DISEASE_OUTBREAK_LETTER;我们听说在§Y$PROV_NAME$§!暴发了§Y$NAME$§!.;;;;;;;;;;x
+DISEASE_OUTBREAK_LOG;§Y$NAME$§!在§Y$PROV_NAME$§!暴发了。;;;;;;;;;;x
+DISEASE_OUTBREAK_LETTER;我们听说在§Y$PROV_NAME$§!暴发了§Y$NAME$§!。;;;;;;;;;;x
 TITLE_CREATED_SETUP;创建头衔;;;;;;;;;;x
 TITLE_CREATED_LOG;§Y$CREATOR$§!创立了$TITLE$的头衔.;;;;;;;;;;x
 TITLE_USURPED_SETUP;篡夺头衔;;;;;;;;;;x
@@ -14855,9 +14855,9 @@ EXILE_TO_PLAYER_SETUP;新角色来到你的宫廷;;;;;;;;;;x
 EXILE_TO_PLAYER_LOG;§Y$NAME$§!来到了你的宫廷;;;;;;;;;;x
 EXILE_FROM_PLAYER_SETUP;角色离开你的宫廷;;;;;;;;;;x
 PROV_CULTURECHANGE_SETUP;郡文化变更;;;;;;;;;;x
-PROV_CULTURECHANGE_LOG;§Y$NAME$§!郡的文化变成了§Y$CULTURENAME$§!;;;;;;;;;;x
+PROV_CULTURECHANGE_LOG;§Y$NAME$§!省份的文化变成了§Y$CULTURENAME$§!;;;;;;;;;;x
 PROV_RELIGIONCHANGE_SETUP;郡信仰变更;;;;;;;;;;x
-PROV_RELIGIONCHANGE_LOG;§Y$NAME$§!郡现在信奉§Y$RELIGIONNAME$§!了;;;;;;;;;;x
+PROV_RELIGIONCHANGE_LOG;§Y$NAME$§!省份现在信奉§Y$RELIGIONNAME$§!了;;;;;;;;;;x
 MESSAGE_IS_PRIO1;优先度2的消息会弹出提示窗口.;;;;;;;;;;x
 MESSAGE_IS_PRIO2;优先度2的消息会显示在高优先度提示栏里.;;;;;;;;;;x
 MESSAGE_IS_PRIO3;优先度2的消息会显示在低优先度提示栏里.;;;;;;;;;;x
@@ -15611,8 +15611,8 @@ BREAKALLIANCEOFFDESC;你想取消和$COUNTRY$的军事同盟吗这将让他们�
 ALLIANCEREQDESC;$ACTOR$向我们提出建立军事同盟.同意的话，我们将承诺在战争时期相互支援.;;;;;;;;;;x
 DECWARREQDESC;有些时候宣战是外交的最后一招. 但是如果没有一个合理的宣战理由，那么将会减少其它国家对你的友好.也许还会减少国家的稳定.确定这么做吗;;;;;;;;;;x
 HASCBON;拥有宣战理由：$LIST$.;;;;;;;;;;x
-DIP_CHAR_ON_MISSION;$NAME$已经在执行一个任务了\n他会在$DATE$天后返回.;;;;;;;;;;x
-DIP_CHAR_AVAILABLE;$NAME$可以执行这个任务.;;;;;;;;;;x
+DIP_CHAR_ON_MISSION;$NAME$已经在执行一个任务了\n他会在 $DATE$ 天后返回。;;;;;;;;;;x
+DIP_CHAR_AVAILABLE;$NAME$可以执行这个任务。;;;;;;;;;;x
 CANCELTRADEDESC;取消一个已经存在的商路.;;;;;;;;;;x
 TRADEROUTEDESC;建立一条商路不仅是生财之道，沿途各郡也可以获得货物流通带来的好处。;;;;;;;;;;x
 TRADEROUTETITLE;建立商路;;;;;;;;;;x
@@ -15687,14 +15687,14 @@ DIP_SELECT_CHARACTER;选择受害人;;;;;;;;;;x
 ASSASSIN_INFORM;我们发现了一个$ACTOR$派来的刺客，他$SUCCESS$暗杀$TARGET$.\n;;;;;;;;;;x
 SUPPORTREBTITLE;支持叛军;;;;;;;;;;x
 SUPPORTREBREQDESC;你打算支持§Y$PROV$§!的叛军吗\n效果：$EFFECT$，持续：$TIME$天.;;;;;;;;;;x
-SUPPORTREBINFORMDESC;$TARGET$的农民被人煽动得快叛乱了.\n我们发现了煽动者$NAME$.我们应该怎么处置他;;;;;;;;;;x
+SUPPORTREBINFORMDESC;$TARGET$的农民被人煽动得快叛乱了。\n我们发现了煽动者$NAME$。我们应该怎么处置他？;;;;;;;;;;x
 DIP_RELEASE;放了他;;;;;;;;;;x
 SUPPORTREB_DESC_REMOVED;放了他;;;;;;;;;;x
 SUPPORTREB_DESC;试图煽动叛乱;;;;;;;;;;x
 DESECRATE_DESC;试图玷污圣地来打击该地的宗教威望。;;;;;;;;;;x
 DESECRATETITLE;破坏神圣场所;;;;;;;;;;x
 DESECRATEREQDESC;你打算破坏§Y$PROV$§!的神圣场所吗这将会为§Y$RELIGION$§!带来负面影响.\n效果：$EFFECT$，持续：$TIME$天.;;;;;;;;;;x
-DESECREATEINFORMDESC;$TARGET$的神圣场所被破坏了.\n我们发现了破坏者$NAME$.我们应该怎么处置他;;;;;;;;;;x
+DESECREATEINFORMDESC;$TARGET$的神殿被破坏了。\n我们发现了破坏者$NAME$。我们应该怎么处置他？;;;;;;;;;;x
 SEDUCETITLE;策反管理者;;;;;;;;;;x
 SEDUCE_DESC;策反当地总督，让他带着领地投奔你。;;;;;;;;;;x
 SEDUCE_NO_GOV;没有可勾引的总督，如果你想获得这块领地，去找它的统治者。;;;;;;;;;;x
@@ -16001,7 +16001,7 @@ QUIT_DESC;你确定要退出游戏回到桌面吗;;;;;;;;;;x
 WON;胜利;;;;;;;;;;x
 LOST;失败;;;;;;;;;;x
 CH_RULER;成为$WHERE$.;;;;;;;;;;x
-CH_BATTLE_RESULT_SHORT;$RESULT$ $NAME$;;;;;;;;;;x
+CH_BATTLE_RESULT_SHORT;$RESULT$$NAME$;;;;;;;;;;x
 CH_BATTLE_RESULT_LONG;他以§Y$US$§!人面对§Y$ENEMY$§!指挥的§Y$THEM$§!.他以§Y$OUR_LOSSES$§!的损失，对敌人造成了§Y$THEIR_LOSSES$§!的损失.;;;;;;;;;;x
 CH_DIED;死亡;;;;;;;;;;x
 CH_BORN;诞生;;;;;;;;;;x
@@ -16179,7 +16179,7 @@ FE_NOALLIES;没有盟友;;;;;;;;;;x
 IS_EMPLOYED;被雇佣中;;;;;;;;;;x
 ISNT_EMPLOYED;未被雇佣;;;;;;;;;;x
 THEYWAR;他们正处于战争状态.;;;;;;;;;;x
-OTHER_EXECUTE_LOG;$OTHER$对$COUNTRY$的$TYPE$$NAME$ $RESULT$;;;;;;;;;;x
+OTHER_EXECUTE_LOG;$OTHER$对$COUNTRY$的$TYPE$$NAME$$RESULT$了;;;;;;;;;;x
 WEWAR;我们正处于战争状态;;;;;;;;;;x
 ISATWAR;当你处于战争时，不能要求军事通行权.;;;;;;;;;;x
 CONFIRM_REPLACE_IDEA;替换国家理念;;;;;;;;;;x
@@ -18628,8 +18628,8 @@ TOTAL_COUNTY_TAX;全郡总税收;;;;;;;;;;x
 TOTAL_COUNTY_TAX_DESC;每年上缴给我们的税收 / 每年总收入;;;;;;;;;;x
 TOTAL_COUNTY_LEVY;全郡总兵力;;;;;;;;;;x
 TOTAL_COUNTY_LEVY_DESC;我们可以动员的兵力 / 总兵力;;;;;;;;;;x
-DS_OFF_WAR;攻击§Y[GetBestName]§!对§Y$WAR$§!;;;;;;;;;;x
-DS_DEF_WAR;防御§Y[GetBestName]§!对§Y$WAR$§!;;;;;;;;;;x
+DS_OFF_WAR;在§Y$WAR$§!中进攻§Y[GetBestName]§!;;;;;;;;;;x
+DS_DEF_WAR;防御§Y[GetBestName]§!发起的§Y$WAR$§!;;;;;;;;;;x
 DS_TRUCE;与 §Y[GetBestName]§! 的和平协议在 §Y$DATE$§!过期;;;;;;;;;;x
 DS_TRUCE_DESC;这个和平协议签署于 §Y$WARNAME$§!结束后;;;;;;;;;;x
 DS_ACCEPTED;针对 §Y$LOSER$§! 的战争的胜利者是 §Y$WINNER$§!;;;;;;;;;;x
