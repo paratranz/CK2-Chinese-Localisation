@@ -2717,21 +2717,21 @@ secret_bon_community;苯教秘密团体;;;;;;;;;;x
 secret_bon_community_desc;苯教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
 secret_taoist_community;道教秘密团体;;;;;;;;;;x
 secret_taoist_community_desc;道教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
-war_with_other_tributary_tt;你并没有在抵御另一个 [offmap_china.GetShortName]的朝贡国;;;;;;;;;;x
+war_with_other_tributary_tt;你并没有在防御另一个[offmap_china.GetShortName]的朝贡国;;;;;;;;;;x
 force_open_china_cb_desc;[offmap_china.GetShortName]关闭了国境，迫使丝绸之路上的贸易中断。这是不可接受的！贸易必须流通！;;;;;;;;;;x
 CB_NAME_FORCE_OPEN_CHINA;强迫[offmap_china.GetShortName]开放;;;;;;;;;;x
 WAR_NAME_FORCE_OPEN_CHINA;$ORDER$$FIRST_ADJ$强迫[offmap_china.GetFullName]开放战争;;;;;;;;;;x
-china_force_to_open_desc;§Y[offmap_china.GetFullName]§! 闭关锁国，把自己隔绝在世界之外。他们关闭了丝绸之路的贸易，拒绝同一切外人打交道。只有通过谈判或者必要的武力才可能让 §Y[offmap_china.Ruler.GetMediumChineseEmperorName]§! 被迫重新开放国境。;;;;;;;;;;x
-force_open_china_start_tt;你必须选择一种方式使§Y[offmap_china.GetFullName]§!打开国门: 用§Y战争§!打败他们，控制一个丝绸之路§Y起点§!和§Y25%§!的财富或者通过§Y谈判§!签订一个条约;;;;;;;;;;x
+china_force_to_open_desc;§Y[offmap_china.GetFullName]§!闭关锁国，把自己隔绝在世界之外。他们关闭了丝绸之路的贸易，拒绝同一切外人打交道。只有通过谈判或者必要的武力才可能让§Y[offmap_china.Ruler.GetMediumChineseEmperorName]§!被迫重新开放国境。;;;;;;;;;;x
+force_open_china_start_tt;你必须选择一种方式使§Y[offmap_china.GetFullName]§!打开国门：用§Y战争§!打败他们，控制一个丝绸之路§Y起点§!和§Y25%§!的财富或者通过§Y谈判§!签订一个条约。;;;;;;;;;;x
 EVT_DESC_JD_60301;[offmap_china.Ruler.GetMediumChineseEmperorName]已经决定闭关并将取缔丝绸之路上的所有贸易，而这是不可接受的。[offmap_china.Ruler.GetSheHeCap]不仅会损害[offmap_china.GetShortName]的贸易收入，更会影响到我们自己领地。不论如何，我们必须让[offmap_china.Ruler.GetEmperorEmpress]重新打开边界。;;;;;;;;;;x
 EVT_OPTA_JD_60301;只有战争才能解决！;;;;;;;;;;x
-EVT_OPTB_JD_60301;丝绸之路已经是我们的了，我们只需要'说服'这个事实的交易者。;;;;;;;;;;x
+EVT_OPTB_JD_60301;丝绸之路已经是我们的了，我们只需要以这个事实「说服」交易者。;;;;;;;;;;x
 force_open_china_silk_road_conditions_tt;这个选项可用是因为你控制了丝绸之路的§Y起点§!和沿线的§Y25%财富§!。;;;;;;;;;;x
-force_open_china_silk_road_tt;因为§Y[offmap_china.GetFullName]§! 的怒火，你将被迫开放丝绸之路上的贸易;;;;;;;;;;x
+force_open_china_silk_road_tt;你将强迫开放丝绸之路上的贸易，惹怒§Y[offmap_china.GetFullName]§!。;;;;;;;;;;x
 EVT_OPTC_JD_60301;我们必须谨慎行事 - 首先让我们谈判。;;;;;;;;;;x
-force_open_china_negotiate_tt;你将会和 §Y[offmap_china.GetFullName]§! 来达成一份丝绸之路通商的协议;;;;;;;;;;x
+force_open_china_negotiate_tt;你将会和§Y[offmap_china.GetFullName]§!谈判来达成一份丝绸之路通商的协议。;;;;;;;;;;x
 EVT_OPTD_JD_60301;再想想，这也许不是最好的主意……;;;;;;;;;;x
-EVTDESC_JD_60302;在[offmap_china.Ruler.GetLongChineseEmperorName]宣布关闭国境以及停止丝绸之路上的一切贸易往来之后，[From.GetTitledName]公然表示反对并且调集了[From.GetHerHis]军队，企图以武力重新恢复丝绸之路的畅通。不久[From.Culture.GetName]军队击败了[offmap_china.Governor.GetTitledFirstName]率领的[offmap_china.Governor.GetTitledFirstName]军。\n失利使远在东方的天子震怒，然而，迫于群臣的压力，他不得不重新向商旅打开了丝绸之路。;;;;;;;;;;x
+EVTDESC_JD_60302;在[offmap_china.Ruler.GetLongChineseEmperorName]宣布关闭国境以及停止丝绸之路上的一切贸易往来之后，[From.GetTitledName]公然表示反对并且调集了[From.GetHerHis]军队，企图以武力重新恢复丝绸之路的畅通。不久[From.Culture.GetName]军队击败了[offmap_china.Governor.GetTitledFirstName]率领的[offmap_china.Governor.GetTitledFirstName]军。\n失利使远在东方的天子震怒，然而，迫于群臣的压力，他不得不重新向商旅开放了丝绸之路。;;;;;;;;;;x
 EVT_OPTA_JD_60302;丝绸之路开通了……但代价是什么？;;;;;;;;;;x
 EVTDESC_JD_60303;在[offmap_china.Ruler.GetLongChineseEmperorName]宣布关闭国境以及停止丝绸之路上的一切贸易往来之后，[From.GetTitledName]公然表示反对并且调集了[From.GetHerHis]军队，企图以武力重新恢复丝绸之路的畅通。然而，[From.Culture.GetName]军队根本不是[offmap_china.Governor.GetTitledFirstName]率领的[offmap_china.Governor.GetTitledFirstName]军的对手。\n远在东方的天子对于这场胜利相当满意，并将继续使[offmap_china.GetFullName]孤立于世。;;;;;;;;;;x
 EVT_OPTA_JD_60303;看来即使是沉睡的巨龙也是危险的……;;;;;;;;;;x
@@ -2741,7 +2741,7 @@ String_random_region;改善[GetRandomChineseRegion];;;;;;;;;;x
 String_random_faction;[GetRandomChineseFaction]导致的动荡;;;;;;;;;;x
 String_current_invasion;目前的[This.GetShortName]入侵;;;;;;;;;;x
 String_current_status;当前的[This.GetStatus];;;;;;;;;;x
-EVT_DESC_JD_60306;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n至高无上的[offmap_china.Ruler.GetLongChineseEmperorName]陛下于近日颁布诏书，宣布天朝将在今后专注于[offmap_china.GetRandomChineseFocus]。\n因此，我们没有时间来与你谈判以允许你的商队归国。陛下相信你会理解并尊重这一决定。;;;;;;;;;;x
+EVT_DESC_JD_60306;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n至高无上的[offmap_china.Ruler.GetLongChineseEmperorName]陛下于近日颁布诏书，宣布天朝将在今后专注于[offmap_china.GetRandomChineseFocus]。\n因此，我们没有时间来与你谈判以允许你的商队恢复贸易。陛下相信你会理解并尊重这一决定。;;;;;;;;;;x
 EVT_OPTA_60306;我不应该在这件事上过分施压……;;;;;;;;;;x
 EVT_OPTB_60306;那么，开战吧！;;;;;;;;;;x
 String_force_open_china_demands_tribute;以成为朝贡国的形式向[offmap_china.Ruler.GetHerHim]展现你的忠诚;;;;;;;;;;x
@@ -2753,7 +2753,7 @@ String_force_open_china_demands_chinese;允许在你宫廷的[offmap_china.GetSh
 EVT_DESC_JD_60307;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n至高无上的[offmap_china.Ruler.GetLongChineseEmperorName]陛下，要求你[GetChineseForceOpenDemand]，以作为对重新开放丝绸之路的交换。\n陛下相信你明白这是一个两全其美的选择，并且你会做出正确的选择。;;;;;;;;;;x
 EVT_OPTA_60307;听起来像是个合理的请求。;;;;;;;;;;x
 EVT_OPTB_60307;我真傻，竟然认为这是可能的!;;;;;;;;;;x
-EVT_OPTC_60307;这些要求是绝对不能接受的！丝绸之路将被强制带走！;;;;;;;;;;x
+EVT_OPTC_60307;这些要求是绝对不能接受的！丝绸之路将被强制占据！;;;;;;;;;;x
 String_force_open_china_demands_tribute_china;通过朝贡展现[This.GetHerHis]对[offmap_china.Ruler.GetEmperorEmpress]的忠诚;;;;;;;;;;x
 String_force_open_china_demands_trade_post_china;移除一部分干扰了丝绸之路沿途的[offmap_china.Ruler.GetEmperorEmpress]臣民的[This.GetHerHis]商人;;;;;;;;;;x
 String_force_open_china_demands_wealth_china;举行一场盛大的仪式以向[offmap_china.Ruler.GetHerHim]展示[This.GetHerHis]荣耀和敬意;;;;;;;;;;x
@@ -2762,41 +2762,41 @@ String_force_open_china_demands_concubine_china;将一个漂亮的女人送去[o
 String_force_open_china_demands_chinese_china;允许在[This.GetHerHis]宫廷的[offmap_china.GetShortName]的忠实臣民回家;;;;;;;;;;x
 EVTDESC_JD_60308;丝绸之路重开！[offmap_china.Ruler.GetLongChineseEmperorName]，以及[From.GetTitledName]为此协商。两人达成一致，[offmap_china.Ruler.GetEmperorEmpress]将会下诏重开贸易，而[offmap_china.Ruler.GetSheHe]只要求[From.GetTitledFirstName][From.GetChineseForceOpenDemandChina]。\n尽管[offmap_china.Ruler.GetEmperorEmpress]本人更喜欢锁国，来自东方的流言声称即使[offmap_china.Ruler.GetHerHis]近侍都对这个结果很满意。;;;;;;;;;;x
 EVT_OPTA_JD_60308;我是一位出色的谈判者。;;;;;;;;;;x
-EVT_OPTB_JD_60308;我留下深刻的印象，没有流血就结束了。;;;;;;;;;;x
+EVT_OPTB_JD_60308;我为能够不流血地解决事态而感动。;;;;;;;;;;x
 china_forced_open_tt;将在 §Y50§! 年内不能改变孤立政策;;;;;;;;;;x
-force_china_open_cooldown_tt;在过去的 §Y15§! 年中，没有逼迫 §Y[offmap_china.GetFullName]§! 开放;;;;;;;;;;x
-force_china_open_in_progress_tt;目前还没有其他的统治者试图强迫 §Y[offmap_china.GetShortName]§! 开放;;;;;;;;;;x
+force_china_open_cooldown_tt;在过去的 §Y15§! 年中，没有强迫§Y[offmap_china.GetFullName]§!开放;;;;;;;;;;x
+force_china_open_in_progress_tt;目前还没有其他的统治者试图强迫§Y[offmap_china.GetShortName]§!开放;;;;;;;;;;x
 will_return_to_china_tt;§Y[This.GetTitledName]§!将从宫廷离开，回到在遥远[offmap_china.GetFullName]的家。;;;;;;;;;;x
 angered_china_modifier;激怒了中国;;;;;;;;;;x
 angered_china_modifier_desc;中国十分不满于你……;;;;;;;;;;x
-force_china_open_cb_outcome_tt;如果胜利§Y[offmap_china.GetFullName]§!会对外开放，你将会§G获得丝绸之路的贸易特惠§!。如果失败，你将§R每月损失皇恩和威望§!;;;;;;;;;;x
+force_china_open_cb_outcome_tt;如果胜利§Y[offmap_china.GetFullName]§!会对外开放，你将会§G获得丝绸之路的贸易特惠§!。如果失败，你将§R每月损失威望和皇恩§!;;;;;;;;;;x
 PROV1529;贝尔加湖;;;;;;;;;;x
-chinese_imperial_marriage_peace_deal_tt;你将与 §Y[offmap_china.GetFullName]§!达成和平协议。;;;;;;;;;;x
+chinese_imperial_marriage_peace_deal_tt;你将与§Y[offmap_china.GetFullName]§!达成和平协议。;;;;;;;;;;x
 chinese_imperial_marriage_peace_deal_effect_tt;这个婚约将会使你们签订一个和平条约，使§Y[offmap_china.GetFullName]§!和§Y[offmap_china.Governor.GetTitle]§!不能对你宣战。这个条约会存在§Y50§!年或者直到[offmap_china.Ruler.GetTitle]，[offmap_china.Ruler.GetOnlyDynastyName]的王朝灭亡。;;;;;;;;;;x
-china_tributary_break_free;释放朝贡国;;;;;;;;;;x
+china_tributary_break_free;解除朝贡;;;;;;;;;;x
 china_tributary_break_free_desc;你可以对§Y[offmap_china.GetFullName]§!宣战来解除你与它的§Y朝贡关系§!。如果§Y[offmap_china.GetShortName]§!正在遭受§R入侵§!或者§R内战§!那么你可以通过密谋界面的§Y决议§!来获得独立。;;;;;;;;;;x
 COMPL_VIKING_adj;维京海盗;;;;;;;;;;x
 chinese_imperial_trade_contract_desc;这些国家的商人正在享受贸易协定所带来的红利。;;;;;;;;;;x
-chinese_favored_in_trade;在丝绸之路上很受欢迎;;;;;;;;;;x
-chinese_favored_in_trade_desc;由于他们的君主控制了丝绸之路，商人们可以享受贸易带来的利润了。;;;;;;;;;;x
+chinese_favored_in_trade;在丝绸之路上受到优待;;;;;;;;;;x
+chinese_favored_in_trade_desc;由于他们的君主控制了丝绸之路，商人们可以享受贸易优待带来的利润了。;;;;;;;;;;x
 String_offmap_cost_prestige_king_nomad;每月 1 威望;;;;;;;;;;x
 String_offmap_cost_prestige_emperor_nomad;每月 3 威望;;;;;;;;;;x
 EVTDESC_MNM_1221_C;所以我猜测这幻象是关于我怎么得[From.GetDisease]的。我就知道会有坏事发生！;;;;;;;;;;x
-EVTDESC_MNM_1221_D;大概这幻象展示了我是怎么得[From.GetDisease]的…这样一来就明白多了！;;;;;;;;;;x
+EVTDESC_MNM_1221_D;大概这幻象展示了我是怎么得[From.GetDisease]的……这样一来就明白多了！;;;;;;;;;;x
 title_china_emperor_female;女皇;;;;;;;;;;x
 opinion_infiltration_companion;滲透指南;;;;;;;;;;x
 EVTOPTB39821;我不会参加火节！;;;;;;;;;;x
-bema_invitations_sent;你向你的摩尼教封臣发出邀请来庆祝庇麻节;;;;;;;;;;x
-invasion_of_china_cb_desc;[offmap_china.GetFullName]一直以来都是我们的心头刺，现在他将不复存在!;;;;;;;;;;x
-CB_NAME_INVASION_OF_CHINA;入侵 [offmap_china.GetShortName];;;;;;;;;;x
+bema_invitations_sent;你向你的摩尼教封臣发出邀请来庆祝庇麻节。;;;;;;;;;;x
+invasion_of_china_cb_desc;[offmap_china.GetFullName]一直以来都是我们的心头刺，现在他将不复存在！;;;;;;;;;;x
+CB_NAME_INVASION_OF_CHINA;入侵[offmap_china.GetShortName];;;;;;;;;;x
 WAR_NAME_INVASION_OF_CHINA;第 $ORDER$$FIRST_ADJ$ 次[offmap_china.GetFullName]入侵;;;;;;;;;;x
-china_invade_dragon_throne_failed_tt;入侵中国没有失败;;;;;;;;;;x
-china_invade_dragon_throne_modifiers_tt;你所有现行的 §Y[offmap_china.GetCurrency]§! 和来自 §Y[offmap_china.GetShortName]§! 的 §Y加成§! 将被 §R移除§!.;;;;;;;;;;x
-war_with_china_modifier;与天朝开战;;;;;;;;;;x
+china_invade_dragon_throne_failed_tt;没有在入侵中国中失败;;;;;;;;;;x
+china_invade_dragon_throne_modifiers_tt;你所有现有的§Y[offmap_china.GetCurrency]§!和来自§Y[offmap_china.GetShortName]§!的§Y加成§!将被§R移除§!。;;;;;;;;;;x
+war_with_china_modifier;与中国开战;;;;;;;;;;x
 war_with_china_modifier_desc;你已经派遣大量士兵东征以攻打中国核心区域。;;;;;;;;;;x
 failed_invasion_of_china;对中国的入侵失败了;;;;;;;;;;x
 china_offmap_decisions_failed_invasion_tt;对§Y[offmap_china.GetFullName]§!的入侵没有失败;;;;;;;;;;x
-invasion_of_china_cb_fail_tt;你无法和§Y[offmap_china.GetFullName]§!交流;;;;;;;;;;x
+invasion_of_china_cb_fail_tt;你无法和§Y[offmap_china.GetFullName]§!互动;;;;;;;;;;x
 NOT_ANY_VASSAL_STARTS;无封臣;;;;;;;;;;x
 china_invade_dragon_throne_levies_tt;没有召集任何封臣的军队;;;;;;;;;;x
 china_invade_dragon_throne_war_tt;目前没有被入侵;;;;;;;;;;x
@@ -2807,7 +2807,7 @@ offmap_same_dynasty;同一家族;;;;;;;;;;x
 offmap_war_with_me;战争中;;;;;;;;;;x
 offmap_likes_me;喜欢[offmap_china.GetLike];;;;;;;;;;x
 EVTDESC_JD_60400_A;[offmap_china.Ruler.GetLongChineseEmperorName]，已经坐在[offmap_china.Ruler.GetHerHis]皇位上小视吾等太久矣！听闻[offmap_china.Ruler.GetOnlyDynastyName]王朝朝廷纲纪废弛，如今我们要驯服恶龙！\n我已经召集大量的部队向东进攻[offmap_china.GetShortName]的土地，作为回应，[offmap_china.Ruler.GetEmperorEmpress]征召了[From.GetTitledFirstName]向[Root.PrimaryTitle.GetName]发动了反击.\n成千上万忠于天子的部队正在向我们进军。\n[offmap_china.Ruler.GetOnlyDynastyName]王朝的天命正在走向终结！;;;;;;;;;;x
-EVTDESC_JD_60400_B;厌烦了[offmap_china.Ruler.GetLongChineseEmperorName]坐在[offmap_china.Ruler.GetHerHis]龙椅上俯瞰整个世界，[FromFrom.GetBestName]自作主张决定驯服巨龙！\n[FromFrom.GetSheHeCap]已召集了一部分[FromFrom.GetHerHis]军队并派遣他们向东入侵[offmap_china.GetShortName]的心脏地带，意图为[FromFromFrom.GetBestName]宣称该处！\n与此同时，[FromFrom.GetHerHis]军队的剩余部分则留下来对抗来自于[From.GetTitledFirstName]不可避免的反击。;;;;;;;;;;x
+EVTDESC_JD_60400_B;[FromFrom.GetBestName]厌烦了[offmap_china.Ruler.GetLongChineseEmperorName]坐在[offmap_china.Ruler.GetHerHis]龙椅上俯瞰整个世界，自作主张决定驯服巨龙！\n[FromFrom.GetSheHeCap]已召集了一部分[FromFrom.GetHerHis]军队并派遣他们向东入侵[offmap_china.GetShortName]的心脏地带，意图为[FromFromFrom.GetBestName]宣称该处！\n与此同时，[FromFrom.GetHerHis]军队的剩余部分则留下来对抗来自于[From.GetTitledFirstName]不可避免的反击。;;;;;;;;;;x
 EVT_OPTA_JD_60400;天朝上国应该属于[Root.GetOnlyDynastyName]家族！;;;;;;;;;;x
 EVT_OPTB_JD_60400;[FromFrom.GetSheHe]能够驯服东方巨龙吗？;;;;;;;;;;x
 EVTDESC_JD_60401;[From.GetBestName]的军队取得完全胜利！[FromFrom.GetTitledFirstName]被粉碎，中原战事平息，旧朝的[offmap_china.PrevRuler.GetEmperorEmpress]，[offmap_china.PrevRuler.GetOnlyDynastyName][offmap_china.PrevRuler.GetBirthName]已经退位，[offmap_china.PrevRuler.GetHerHis]皇位传给[offmap_china.Ruler.GetLongChineseEmperorName]继承大统！\n[From.GetOnlyDynastyName]家成功地入侵东土，君临天下。\n[offmap_china.Ruler.GetEmperorEmpress]万岁万岁万万岁！;;;;;;;;;;x
@@ -2815,29 +2815,29 @@ EVT_OPT_JD_60401;因此新的天子已经践祚。;;;;;;;;;;x
 EVTDESC_JD_60402;[From.GetBestName]的军队被击败了！在跨越[offmap_china.GetShortName]核心地区的战场上，他们被[offmap_china.Ruler.GetEmperorEmpress]的部队在一场接一场的交战中击溃。\n现在征西军在[FromFrom.GetTitledFirstName]的领导下，在战场上取得了胜利，同时结束了这场愚蠢的入侵，彻底瓦解了[From.PrimaryTitle.GetName]。;;;;;;;;;;x
 EVT_OPT_JD_60402;于是[offmap_china.Ruler.GetOnlyDynastyName]朝继续当皇帝;;;;;;;;;;x
 EVTDESC_JD_60403;来自东方的小道消息声称，近来[offmap_china.Ruler.GetLongChineseEmperorName]龙颜大悦，因为[invasion_of_china_claimant.GetBestName]，[From.GetBestName]的[invasion_of_china_claimant.GetRootRelation]，已经死了。\n[invasion_of_china_claimant.GetHerHisCap]之死动摇了[From.Culture.GetName]军队的军心，现在他们已经撤回[From.PrimaryTitle.GetName]本地。\n正如[invasion_of_china_claimant.GetBestName]一样，对[offmap_china.GetShortName]的入侵现在已经偃旗息鼓了。;;;;;;;;;;x
-EVT_OPTA_JD_60403;也许是 [offmap_china.Ruler.GetEmperorEmpress] 暗中派出刺客？;;;;;;;;;;x
+EVT_OPTA_JD_60403;也许是[offmap_china.Ruler.GetEmperorEmpress]暗中派出刺客？;;;;;;;;;;x
 EVT_OPTB_JD_60403;我真是赔了[invasion_of_china_claimant.GetRootRelation]又折兵！;;;;;;;;;;x
-china_tribute_send_eunuch_stats_tt;有一项能力大于等于§Y20§!;;;;;;;;;;x
-china_tribute_send_eunuch_congenital_tt;有一个 §Y正面的§! 先天特质;;;;;;;;;;x
+china_tribute_send_eunuch_stats_tt;有一项能力大于等于 §Y20§!;;;;;;;;;;x
+china_tribute_send_eunuch_congenital_tt;有一个§Y正面的§!先天特质;;;;;;;;;;x
 china_tribute_send_eunuch_non_inherit_congenital_tt;具有§Y正面的§!不可遗传的先天特质;;;;;;;;;;x
-china_tribute_send_eunuch_gift_tt;一个阉人被作为礼物送给你。;;;;;;;;;;x
+china_tribute_send_eunuch_gift_tt;是个被作为礼物送给你的阉人。;;;;;;;;;;x
 courtier_from_china_trigger_tt;是一位来自中国的廷臣;;;;;;;;;;x
 is_ascetic_tooltip;有§Y苦行者§!特质;;;;;;;;;;x
 china_tribute_send_concubine_preference_tt;被§Y[offmap_china.Ruler.GetEmperorEmpress]§!看中了;;;;;;;;;;x
-send_artifact_potential_tt;是一件优质宝物 (不是被诅咒或出自中国);;;;;;;;;;x
+send_artifact_potential_tt;是一件优质宝物（不是被诅咒或出自中国）;;;;;;;;;;x
 chinese_request_invasion_rel_head_tt;不能持有§Y公爵§!以上级别的宗教领袖头衔;;;;;;;;;;x
-chinese_request_invasion_defeated_china_tt;在战争中没有打败中国;;;;;;;;;;x
+chinese_request_invasion_defeated_china_tt;没有在战争中打败中国;;;;;;;;;;x
 alert_non_playable_heir_instant;§Y继承导致的继承人宗教转换§!;;;;;;;;;;x
 EVT_DESC_JD_60016;随着[From.GetBestName]的死去，你摆脱了作为朝贡国的身份。;;;;;;;;;;x
-prosthetic_hand_gold;金护手;;;;;;;;;;x
+prosthetic_hand_gold;金手;;;;;;;;;;x
 prosthetic_hand_gold_desc;这个角色拥有一只由精心的雕饰装饰着的镀金假手。\n§R这个宝物将会在他死亡时被毁坏!§!;;;;;;;;;;x
-prosthetic_hand_metal;铁护手;;;;;;;;;;x
+prosthetic_hand_metal;铁手;;;;;;;;;;x
 prosthetic_hand_metal_desc;这个角色拥有一只铁制的机械假手。\n§R这个宝物将会在他死亡时被毁坏!§!;;;;;;;;;;x
 prosthetic_leg_artifact;假腿;;;;;;;;;;x
 prosthetic_leg_artifact_desc;这个角色有十分逼真的假腿。能表明失去腿的证据只有轻微的跛脚。\n§R这个宝物将会在他死亡时被毁坏!§!;;;;;;;;;;x
 china_invade_dragon_throne_eastern_edge_tt;与地图东部边界接壤;;;;;;;;;;x
-HEAL_UNIT_EFFECT;部队数量回复了$AMOUNT|Y$人;;;;;;;;;;x
-HEAL_UNIT_EFFECT_PERCENTAGE;军队重新获得$PERCENTAGE|Y%$的部队;;;;;;;;;;x
+HEAL_UNIT_EFFECT;部队数量回复了 $AMOUNT|Y$ 人;;;;;;;;;;x
+HEAL_UNIT_EFFECT_PERCENTAGE;军队重新获得 $PERCENTAGE|Y%$ 的部队;;;;;;;;;;x
 ARTIFACT_IS_NOT_EQUIPPED_TRIGGER;未被装备;;;;;;;;;;x
 ARTIFACT_IS_EQUIPPED_TRIGGER;被装备中;;;;;;;;;;x
 ASSIGNED_JOB_ACTION_OFFMAP_SETUP;角色提出了领内的罢工行为;;;;;;;;;;x
@@ -2846,16 +2846,16 @@ BUILD_REQUIREMENTS;§Y要求§!：;;;;;;;;;;x
 IS_NOT_LIEGE_OR_ABOVE_OF;§Y[GetBestName]§! 非领主或更高级别;;;;;;;;;;x
 IS_LIEGE_OR_ABOVE_OF;§Y[GetBestName]§! 是领主或更高级别;;;;;;;;;;x
 DIRECT_DJ_VASSAL_TITLE_STARTS;任何法理封臣头衔;;;;;;;;;;x
-NOT_DIRECT_DJ_VASSAL_TITLE_STARTS;不是法理封臣头衔;;;;;;;;;;x
+NOT_DIRECT_DJ_VASSAL_TITLE_STARTS;没有法理封臣头衔;;;;;;;;;;x
 INTERACTION_REQUIRES_NOT_LOYAL_SERVANT;§Y[Recipient.GetTitledFirstName]§!不得是一个忠仆;;;;;;;;;;x
-LOOTING_COMPLETELY_LOOTED_PROVINCE;该省的所有财产都已被洗劫一空。;;;;;;;;;;x
+LOOTING_COMPLETELY_LOOTED_PROVINCE;该省的所有地产都已被洗劫一空。;;;;;;;;;;x
 lost_war;打败了我;;;;;;;;;;x
 AIREASON_LOST_WAR;战败;;;;;;;;;;x
-SOCIETY_CURRENCY_TOTAL_GAIN;总收入: $GAIN|=1+$;;;;;;;;;;x
-IS_COUSIN_OF;是 §Y[GetBestName]§! 的堂表亲;;;;;;;;;;x
-IS_NOT_COUSIN_OF;不是 §Y[GetBestName]§! 的堂表亲;;;;;;;;;;x
-IS_AUNT_OF;是 §Y[GetBestName]§! 的姑姑;;;;;;;;;;x
-IS_NOT_AUNT_OF;不是 §Y[GetBestName]§! 的姑姑;;;;;;;;;;x
+SOCIETY_CURRENCY_TOTAL_GAIN;总收入：$GAIN|=1+$;;;;;;;;;;x
+IS_COUSIN_OF;是§Y[GetBestName]§!的堂表亲;;;;;;;;;;x
+IS_NOT_COUSIN_OF;不是§Y[GetBestName]§!的堂表亲;;;;;;;;;;x
+IS_AUNT_OF;是§Y[GetBestName]§!的姑姨;;;;;;;;;;x
+IS_NOT_AUNT_OF;不是§Y[GetBestName]§!的姑姨;;;;;;;;;;x
 IS_UNCLE_OF;是 §Y[GetBestName]§! 的叔叔;;;;;;;;;;x
 IS_NOT_UNCLE_OF;不是 §Y[GetBestName]§! 的叔叔;;;;;;;;;;x
 IS_NIECE_OF;是 §Y[GetBestName]§! 的侄女;;;;;;;;;;x
@@ -2872,49 +2872,49 @@ IS_ANCESTOR_OF;是 §Y[GetBestName]§! 的祖先;;;;;;;;;;x
 IS_NOT_ANCESTOR_OF;不是 §Y[GetBestName]§! 的祖先;;;;;;;;;;x
 INTERACTION_REQUIRES_ALLOWED_TO_FIRE;可以将$WHO|Y$从内阁解雇;;;;;;;;;;x
 INTERACTION_REQUIRES_REVOKABLE_TITLE;不是无法收回的头衔;;;;;;;;;;x
-TRADE_ROUTE_PROVINCES_CONTROL_TRIGGER;控制在$ROUTE|Y$上的省份的§Y$COMPARISON$ $VALUE$%§!;;;;;;;;;;x
-TRADE_ROUTE_PROVINCES_DIRECT_CONTROL_TRIGGER;直接控制在$ROUTE|Y$上的省份的§Y$COMPARISON$ $VALUE$%§!;;;;;;;;;;x
-TRADE_ROUTE_TRADE_POST_LOCATIONS_CONTROL_TRIGGER;控制 $ROUTE|Y$路线上 §Y$COMPARISON$ $VALUE$%§! 的贸易站位置;;;;;;;;;;x
-TRADE_ROUTE_TRADE_POST_LOCATIONS_DIRECT_CONTROL_TRIGGER;直接控制 §Y$COMPARISON$ $VALUE$%§! 的贸易站位置在$ROUTE|Y$上;;;;;;;;;;x
-TRADE_ROUTE_TRADE_POSTS_CONTROL_TRIGGER;控制 $ROUTE|Y$路线上的§Y$COMPARISON$ $VALUE$%§! 贸易站;;;;;;;;;;x
-TRADE_ROUTE_TRADE_POSTS_DIRECT_CONTROL_TRIGGER;直接控制§Y$COMPARISON$ $VALUE$%§! 在$ROUTE|Y$的贸易站;;;;;;;;;;x
-TRADE_ROUTE_WEALTH_CONTROL_TRIGGER;控制$ROUTE|Y$路线上的§Y$COMPARISON$ $VALUE$%§!财富;;;;;;;;;;x
-TRADE_ROUTE_WEALTH_DIRECT_CONTROL_TRIGGER;直接控制 $ROUTE|Y$路线上的 §Y$COMPARISON$ $VALUE$%§! 财富;;;;;;;;;;x
+TRADE_ROUTE_PROVINCES_CONTROL_TRIGGER;控制$ROUTE|Y$上§Y$COMPARISON$ $VALUE$%§! 的省份;;;;;;;;;;x
+TRADE_ROUTE_PROVINCES_DIRECT_CONTROL_TRIGGER;直接控制$ROUTE|Y$上$COMPARISON$ $VALUE$%§! 的省份§Y;;;;;;;;;;x
+TRADE_ROUTE_TRADE_POST_LOCATIONS_CONTROL_TRIGGER;控制$ROUTE|Y$上§Y$COMPARISON$ $VALUE$%§! 的贸易站位置;;;;;;;;;;x
+TRADE_ROUTE_TRADE_POST_LOCATIONS_DIRECT_CONTROL_TRIGGER;直接控制在$ROUTE|Y$上§Y$COMPARISON$ $VALUE$%§! 的贸易站位置;;;;;;;;;;x
+TRADE_ROUTE_TRADE_POSTS_CONTROL_TRIGGER;控制$ROUTE|Y$上§Y$COMPARISON$ $VALUE$%§! 的贸易站;;;;;;;;;;x
+TRADE_ROUTE_TRADE_POSTS_DIRECT_CONTROL_TRIGGER;直接控制$ROUTE|Y$上§Y$COMPARISON$ $VALUE$%§! 的贸易站;;;;;;;;;;x
+TRADE_ROUTE_WEALTH_CONTROL_TRIGGER;控制$ROUTE|Y$上§Y$COMPARISON$ $VALUE$%§! 的财富;;;;;;;;;;x
+TRADE_ROUTE_WEALTH_DIRECT_CONTROL_TRIGGER;直接控制$ROUTE|Y$上§Y$COMPARISON$ $VALUE$%§! 的财富;;;;;;;;;;x
 OFFMAP_HAS_LIKE_TRIGGER;$RULER|Y$喜欢$LIKE|Y$;;;;;;;;;;x
 OFFMAP_HAS_NOT_LIKE_TRIGGER;$RULER|Y$不再喜欢$LIKE|Y$;;;;;;;;;;x
 OFFMAP_HAS_DISLIKE_TRIGGER;$RULER|Y$讨厌$LIKE|Y$;;;;;;;;;;x
 OFFMAP_HAS_NOT_DISLIKE_TRIGGER;$RULER|Y$不再讨厌$LIKE|Y$;;;;;;;;;;x
 ANY_PUPIL_STARTS;所有被监护人;;;;;;;;;;x
-PROVINCE_PRESTIGE;省份和特殊地产：$VALUE$;;;;;;;;;;x
+PROVINCE_PRESTIGE;省份与特殊地产：$VALUE$;;;;;;;;;;x
 PROVINCE_PIETY;省份与特殊地产：$VALUE$;;;;;;;;;;x
 COUNTIES_IN_REALM;领地内伯爵领：$NUM|Y$;;;;;;;;;;x
 MAX_SIZE_FORMULA;直辖上限公式;;;;;;;;;;x
-VARIABLE_TRIGGER;$VAR|Y$ 是 $COMPARISON|Y$ $VALUE|Y$;;;;;;;;;;x
+VARIABLE_TRIGGER;$VAR|Y$$COMPARISON|Y$ $VALUE|Y$;;;;;;;;;;x
 CAN_USE_CB_TRIGGER;可以用$CASUS_BELLI|Y$为理由宣战了;;;;;;;;;;x
 CAN_NOT_USE_CB_TRIGGER;不能用$CASUS_BELLI|Y$的理由宣战了;;;;;;;;;;x
 IS_OR_WAS_OFFMAP_TRIGGER;是或曾经是一个存在于地图之外的政权;;;;;;;;;;x
 NOT_IS_OR_WAS_OFFMAP_TRIGGER;并不是地图外皇朝的统治者;;;;;;;;;;x
 OFFMAP_SET_CURRENCY;$CURRENCY|Y$  $OFFMAP|Y$ 变更为 $VALUE|Y$;;;;;;;;;;x
 OFFMAP_CURRENCY_GAIN_ENTRY;$NAME$: $VALUE|+=$;;;;;;;;;;x
-THIRD_PARTY_REQUIREMENTS;§Y第三方要求§!:;;;;;;;;;;x
-NOT_ANY_NEIGHBOR_INDEPENDENT_RULER_STARTS;没有相邻独立统治者;;;;;;;;;;x
+THIRD_PARTY_REQUIREMENTS;§Y第三方要求§!：;;;;;;;;;;x
+NOT_ANY_NEIGHBOR_INDEPENDENT_RULER_STARTS;没有接壤独立统治者;;;;;;;;;;x
 ANY_TRIBUTARY_STARTS;任何朝贡国;;;;;;;;;;x
-NOT_ANY_TRIBUTARY_STARTS;无朝贡国;;;;;;;;;;x
-TRIGGER_PLAYER_HEIR_SCOPE;普莱耶后裔;;;;;;;;;;x
-TECH_GROUP_SPREAD_BONUS_HEADER;§Y组传播加成:§!;;;;;;;;;;x
-TECH_GROUP_SPREAD_CHANCES_HEADER;伯爵领的科技每年都有机会提高，条件是和它相邻的伯爵领有更高的科技等级。科技的传播速度和许多因素有关，比如丝绸之路，伯爵领的各种建筑。\n\n§Y当前科技等级和传播几率:§!;;;;;;;;;;x
-DAYS_SINCE_POLICY_CHANGE_TRIGGER;自上一次政策改变已经过去了 $COMPARISON|Y$ $VALUE|Y$ 天;;;;;;;;;;x
-DAYS_SINCE_STATUS_CHANGE_TRIGGER;自上一次状态变更已经过去了 $COMPARISON|Y$ $VALUE|Y$ 天;;;;;;;;;;x
+NOT_ANY_TRIBUTARY_STARTS;没有朝贡国;;;;;;;;;;x
+TRIGGER_PLAYER_HEIR_SCOPE;玩家继承人;;;;;;;;;;x
+TECH_GROUP_SPREAD_BONUS_HEADER;§Y组传播加成：§!;;;;;;;;;;x
+TECH_GROUP_SPREAD_CHANCES_HEADER;伯爵领的科技每年都有机会提高，条件是和它相邻的伯爵领有更高的科技等级。科技的传播速度和许多因素有关，比如丝绸之路，伯爵领的各种建筑。\n\n§Y当前科技等级和传播几率：§!;;;;;;;;;;x
+DAYS_SINCE_POLICY_CHANGE_TRIGGER;自上一次政策改变已经过去了$COMPARISON|Y$ $VALUE|Y$ 天;;;;;;;;;;x
+DAYS_SINCE_STATUS_CHANGE_TRIGGER;自上一次状态变更已经过去了$COMPARISON|Y$ $VALUE|Y$ 天;;;;;;;;;;x
 SET_DESC_EFFECT;种类的变迁;;;;;;;;;;x
-TRIGGER_PARENT_RELIGION_HEAD;教宗;;;;;;;;;;x
-TRIGGER_RIGHTFUL_RELIGIOUS_HEAD_SCOPE;正统宗教领袖;;;;;;;;;;x
+TRIGGER_PARENT_RELIGION_HEAD;正统宗教领袖;;;;;;;;;;x
+TRIGGER_RIGHTFUL_RELIGIOUS_HEAD_SCOPE;宗教合法领袖;;;;;;;;;;x
 IS_VASSAL_OR_BELOW;是$VASSAL|Y$的领主或更高;;;;;;;;;;x
 IS_NOT_VASSAL_OR_BELOW;不是$VASSAL|Y$的领主或更高;;;;;;;;;;x
 IS_LIEGE_OR_ABOVE;是$LIEGE|Y$的封臣或更低;;;;;;;;;;x
 IS_NOT_LIEGE_OR_ABOVE;不是$LIEGE|Y$的封臣或更低;;;;;;;;;;x
 HAS_NOT_RAISED_LEVIES_OF;未征召$VASSAL|Y$的兵力;;;;;;;;;;x
 HAS_RAISED_LEVIES_OF;已征召了$VASSAL|Y$的兵力;;;;;;;;;;x
-ARTIFACT_IS_NOT;不是宝物;;;;;;;;;;x
+ARTIFACT_IS_NOT;宝物不是;;;;;;;;;;x
 ARTIFACT_IS;宝物;;;;;;;;;;x
 CLIMATE_IS_NOT;此地气候不是「$CLIMATE|Y$」;;;;;;;;;;x
 CLIMATE_IS;此地气候是「$CLIMATE|Y$」;;;;;;;;;;x
