@@ -416,7 +416,7 @@ nomadic_empire_of;可汗国;;;;;;;;;;x
 nomadic_kingdom;汗国;;;;;;;;;;x
 nomadic_kingdom_of;汗国;;;;;;;;;;x
 REMOVE_TRIBUTARY_EFFECT;§Y$TRIBUTARY$§!不再是§Y$OVERLORD$§!的附属;;;;;;;;;;x
-WAR_NAME_TRIBUTARY;$ORDER$$FIRST_ADJ$强迫$DEFENDER$附属的战争;;;;;;;;;;x
+WAR_NAME_TRIBUTARY;$ORDER$$FIRST_ADJ$强迫$DEFENDER$朝贡的战争;;;;;;;;;;x
 CB_NAME_FREE_TRIBUTARY;脱离朝贡;;;;;;;;;;x
 CLAN_SATISFACTION_REASON;$CLAN$仅持有§R$EMPTY_HOLDINGS$§!空地产，相比起领主的§Y$LIEGE_EMPTY_HOLDINGS$§!。;;;;;;;;;;x
 EMPTY_HOLDINGS_LIEGE_CAPITAL;游牧首都内的空地产在计算部族满意度时将不被包括在内。;;;;;;;;;;x
@@ -440,7 +440,7 @@ IS_ON_TRADE_ROUTE;省份位于一条主要贸易线路上;;;;;;;;;;x
 IS_PROVINCE_OWNER;直属省份;;;;;;;;;;x
 MODIFIER_TRADE_ROUTE_VALUE;贸易线路收入;;;;;;;;;;x
 CB_NAME_CLAN_REVOLT;部族为[Title.GetBaseName]而叛乱;;;;;;;;;;x
-WAR_NAME_CLAN_REVOLT;$ORDER$$ATTACKER$部族目标$OTHER_TITLE$的叛乱;;;;;;;;;;x
+WAR_NAME_CLAN_REVOLT;$ORDER$$ATTACKER$$OTHER_TITLE$部族叛乱;;;;;;;;;;x
 clan_revolt_desc;部族满意度过低时，部族叛乱就会出现，将尽力在游牧领地内更好地重新分配土地。;;;;;;;;;;x
 CLAN_REVOLT;[Root.County.GetAdjective]部族叛乱;;;;;;;;;;x
 MODIFIER_TRADE_ROUTE_WEALTH;商路的财富;;;;;;;;;;x
@@ -499,7 +499,7 @@ enables_tribal_tax_laws;启用部族征税法\n;;;;;;;;;;x
 disables_tribal_tax_laws;停用部落征税法\n;;;;;;;;;;x
 CB_NAME_RIVALRY;仇敌;;;;;;;;;;x
 rivalry_cb_desc;§Y$TARGET$§!是你的憎恶的仇人，除了把这个坏蛋扔进你的地牢之外，你想不到更好的处置方法了。;;;;;;;;;;x
-WAR_NAME_RIVALRY;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$仇敌战争;;;;;;;;;;x
+WAR_NAME_RIVALRY;$ORDER$$FIRST_ADJ$——$SECOND_ADJ$仇敌战争;;;;;;;;;;x
 AIREASON_TRIBUTARY_WAR_AGAINST_TRIBUTARY;针对我附属的附属战争;;;;;;;;;;x
 AIREASON_WAR_AGAINST_TRIBUTARY;针对我附属的战争;;;;;;;;;;x
 AIREASON_WAR_FROM_TRIBUTARY;对我的附属感兴趣;;;;;;;;;;x

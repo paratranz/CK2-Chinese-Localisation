@@ -209,7 +209,7 @@ GetCGMissionOutcome_trade;一些新的贸易协议;;;;;;;;;;x
 GetCGMissionOutcome_preaching;一个尽责臣子的风闻;;;;;;;;;;x
 GetCGMissionOutcome_study_theology;一些新的哲学卷轴;;;;;;;;;;x
 EVTOPTA_JD_20004;做得好。[corresponding_councilor.GetJobTitle][corresponding_councilor.GetFirstName]。[From.Liege.GetTitle]会感到欣慰。;;;;;;;;;;x
-EVTDESC_JD_20005;欢迎宴会结束后，[From.GetJobTitle] [From.GetDynName]与我退出餐厅，在[Root.Capital.Capital.GetHolding]城墙上赏月、谈天。突然，天空中划过一道明亮的闪电，[From.GetJobTitle]脸色一沉。「这是凶兆」翻译官嘀咕道，两人匆匆离开。;;;;;;;;;;x
+EVTDESC_JD_20005;欢迎宴会结束后，[From.GetJobTitle][From.GetDynName]与我退出餐厅，在[Root.Capital.Capital.GetHolding]城墙上赏月、谈天。突然，天空中划过一道明亮的闪电，[From.GetJobTitle]脸色一沉。「这是凶兆。」翻译官嘀咕道，两位[From.GetMenWomen]匆匆离开。;;;;;;;;;;x
 EVTOPTA_JD_20005;等等，别急着走！咱们处的还不错！;;;;;;;;;;x
 EVTOPTA_JD_20005_tt;由于§Y[From.GetJobTitle][From.GetDynName]§!相信与[From.GetHerHis]会面被上天所诅咒，因此[From.GetSheHe]立即离开了。;;;;;;;;;;x
 EVTDESC_JD_20006;对明天[From.GetJobTitle][From.GetDynName]到来的筹备正顺利进行，但我在思考如何能让[From.GetHerHim]感到宾至如归。虽然我已经传唤了一位老练的翻译官，但如果我能用[From.GetHerHis]当地语言来招呼[From.GetHerHim]是否更好呢？;;;;;;;;;;x
@@ -760,17 +760,17 @@ WELCOME_PLAY_NORMAL_GAME;不，谢谢;;;;;;;;;;x
 opinion_poor_accommodations;糟糕的住宿;;;;;;;;;;x
 custom_tooltip_choose_patron_diety;选择一个守护神;;;;;;;;;;x
 CB_NAME_FORCE_VASSALIZATION;强制附庸;;;;;;;;;;x
-WAR_NAME_FORCE_VASSALIZATION;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$封臣战争;;;;;;;;;;x
+WAR_NAME_FORCE_VASSALIZATION;$ORDER$$FIRST_ADJ$——$SECOND_ADJ$封臣战争;;;;;;;;;;x
 force_vassalization_desc;§Y$TARGET$§!现在积弱而又急切地寻求庇护，在你的治下他们会生活得更好，通过花费特定数量的§Y威望§!，只要他们仍处于比你更低的§Y阶层§!，或他们的领土面积小于或等于 §Y30§!，你可以通过战争强令他们成为你的附庸，支配此地的封臣需要与你与你处于相同的§Y宗教组§!，或属于与你相同的§Y文化组§!。;;;;;;;;;;x
 dejure_duchy_claim_desc;§Y$TITLE$§!是§Y$CLAIMANT$§!的一个法理封臣。我们可以消耗一大笔§Y威望§!来发动战争夺取整块公爵领！;;;;;;;;;;x
 CB_NAME_GREATREALMCONFLICT;对[Title.GetBaseName]的伟大征服;;;;;;;;;;x
-WAR_NAME_GREATREALMCONFLICT;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ $OTHER_TITLE$ 大征服;;;;;;;;;;x
+WAR_NAME_GREATREALMCONFLICT;$ORDER$$FIRST_ADJ$——$SECOND_ADJ$$OTHER_TITLE$的伟大征服;;;;;;;;;;x
 great_realm_conflict_desc;你国力雄厚，§Y$TARGET$§!也是如此——是时候向他们展示谁才是最强之人！通过消耗一大笔§Y威望§!和§Y虔诚§!，你可以以一整个王国为目标而宣战，只要他们不比你弱小。;;;;;;;;;;x
 CB_NAME_DUCALCOUNTYCONQUEST;[Title.GetBaseName]公爵领征服;;;;;;;;;;x
-WAR_NAME_DUCALCOUNTYCONQUEST;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ $OTHER_TITLE$ 公爵领征服;;;;;;;;;;x
+WAR_NAME_DUCALCOUNTYCONQUEST;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$征服公爵领$OTHER_TITLE$战争;;;;;;;;;;x
 ducal_county_conquest_desc;你拥有§Y$TARGET$§!公国的宣称。通过花费§Y虔诚§!和§Y金钱§!，你就可以发起获取该公国下属土地的战争。这开战理由只提供给伯爵或公爵级的角色。;;;;;;;;;;x
 CB_NAME_LIBERATE_RELIGION;对[Title.GetBaseName]的宗教解放战争;;;;;;;;;;x
-WAR_NAME_LIBERATE_RELIGION;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$宗教解放[Title.GetBaseName]战争;;;;;;;;;;x
+WAR_NAME_LIBERATE_RELIGION;$ORDER$$FIRST_ADJ$——$SECOND_ADJ$宗教解放[Title.GetBaseName]战争;;;;;;;;;;x
 liberate_religion_desc;§Y$TARGET$§! 是个异教徒，但是他领地里的人民却尊崇真正的信仰。我们应当让那些受压迫的人得到解放！;;;;;;;;;;x
 religious_liberation_cb_succ_tip;§Y[This.GetFullBaseName]§!将会被来自§Y[Root.Religion.GetName]§!信仰的新领主所解放！这位领主将会成为您的§Y朝贡国§!;;;;;;;;;;x
 EVTDESC_JD_2100;当我听说[liberate_target.GetBestName]领地内的[Root.Religion.GetName]信徒们的灵魂受到压迫时，心中顿时充满了火热与痛苦。虽然[Root.Religion.GetHighGodName]定意要让他所有真信徒能自由地决定自己的命运，但如果[Root.Religion.GetHighGodName]专注神圣的事业，那我是否应该执行 [Root.Religion.GetHighGodName]的旨意？;;;;;;;;;;x
@@ -779,7 +779,7 @@ EVTOPTB_JD_2100;我有更好的事情做……;;;;;;;;;;x
 cb_opportunity_liberate;获得一个§Y宗教解放§!宣战理由，可用于你选择的任何有效目标。;;;;;;;;;;x
 cb_opportunity_liberate_deny;因为你决定把时间花在别的地方，所以不再会有这种机会。;;;;;;;;;;x
 CB_NAME_HOSTAGES;解救俘虏;;;;;;;;;;x
-WAR_NAME_HOSTAGES;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ 解救俘虏战争;;;;;;;;;;x
+WAR_NAME_HOSTAGES;$ORDER$$FIRST_ADJ$——$SECOND_ADJ$解救俘虏战争;;;;;;;;;;x
 EVTDESC_JD_2000;那个[GetRootFromInsult][From.GetBestName]已经以解救人质这个未经考虑的借口对我悍然发动战争，而那些人本是被合法扣押的！这恰好给了我处决他们的理由，如果我愿意的话……;;;;;;;;;;x
 EVTOPTA_JD_2000;这场战争必须结束，提议放他们回国。;;;;;;;;;;x
 EVTOPTB_JD_2000;我必须杀鸡儆猴，处死[chosen_captive.GetFirstName]。;;;;;;;;;;x
@@ -803,14 +803,14 @@ obj_strengthen_religion_desc;[This.GetTitledFirstName]想要看到§Y[Root.Relig
 tooltip_obj_strengthen_religion;为了完成这个野心你必须完成以下任务中的 §Y3§! 项：\n§Y*§! 赢得一场圣战\n§Y*§! 防御一场圣战\n§Y*§! 建筑一座修道院\n§Y*§! 让某个省份转教成[This.Religion.GetName]\n§Y*§! 完成一次特殊机遇\n注意同一个任务可以多次完成。\n\n目前完成的任务数：§G[This.strengthen_religion.GetValue]§!;;;;;;;;;;x
 strengthen_religion_ambition;宗教捍卫者;;;;;;;;;;x
 CB_NAME_UNJUST_COUNTY_CONQUEST;[Title.GetBaseName]边界争端;;;;;;;;;;x
-WAR_NAME_UNJUST_COUNTY_CONQUEST;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ $OTHER_TITLE$ 边界争端战争;;;;;;;;;;x
+WAR_NAME_UNJUST_COUNTY_CONQUEST;$ORDER$$FIRST_ADJ$——$SECOND_ADJ$在$OTHER_TITLE$边界争端;;;;;;;;;;x
 unjust_conquest_desc;你可以选择任何与你接壤的省份。值得注意的是，如果你选择的是没有宣称权的省份，那么你就会受到严厉的惩罚——在攻击和你相同宗教信仰的领主的时候，惩罚是最高的；在攻击和你处于同宗教组的领主的时候是相当高的，在攻击异教徒时，惩罚仍然是不可忽视的。;;;;;;;;;;x
 opinion_declared_unjust_conquest;发动了非正义战争;;;;;;;;;;x
 custom_opinion_hit_tooltip;所有在你§Y境内§!属于你的§Y宗教组§!的§Y有地角色§!以及§Y[From.GetTitledFirstName]§!境内对你的看法将改变 §R-15§! 持续 §Y10§! 年。§Y（发动不义战争）§!;;;;;;;;;;x
 custom_opinion_hit_tooltip_enemy;所有在你§Y境内§!信奉§Y[From.Religion.GetName]§!的§Y有地角色§!以及§Y[From.GetTitledFirstName]§!境内对你的看法将改变 §R-15§! 持续 §Y10§! 年。§Y（发动不义战争）§!;;;;;;;;;;x
 offmap_submission_desc;天朝可以通过战争迫使他国屈从。;;;;;;;;;;x
 CB_NAME_OFFMAP_SUBMISSION;服从;;;;;;;;;;x
-WAR_NAME_OFFMAP_SUBMISSION;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$附庸战争;;;;;;;;;;x
+WAR_NAME_OFFMAP_SUBMISSION;$ORDER$$FIRST_ADJ$——$SECOND_ADJ$附庸战争;;;;;;;;;;x
 tributary_offmap_cb_desc;天朝可以通过战争迫使他国朝贡。;;;;;;;;;;x
 TRIBUTARY_OFFMAP_NAME;帝国朝贡国;;;;;;;;;;x
 TRIBUTARY_OFFMAP_PLURAL;帝国朝贡国;;;;;;;;;;x
@@ -821,11 +821,11 @@ SUZERAIN_NOMADIC_NAME;游牧宗主国;;;;;;;;;;x
 offmap_submission_tip;§Y[Root.GetTitledFirstName]§!用武力强制§Y[This.GetTitledName]§!臣服并成为他们的境内之民。\n§Y[Root.GetTitledFirstName]§! 将篡夺§Y伯爵领§! 直到[Root.GetHerHis]达到§Y直辖领§!的上限！\n;;;;;;;;;;x
 CB_NAME_TRIBUTARY;索要贡品;;;;;;;;;;x
 CB_NAME_PERMANENT_TRIBUTARY;建立朝贡国;;;;;;;;;;x
-WAR_NAME_PERMANENT_TRIBUTARY;$ORDER$$FIRST_ADJ$ 令 $DEFENDER$ 朝贡战争;;;;;;;;;;x
+WAR_NAME_PERMANENT_TRIBUTARY;$ORDER$$FIRST_ADJ$令$DEFENDER$朝贡战争;;;;;;;;;;x
 tributary_permanent_cb_desc;§Y$TARGET$§!十分虚弱，但是如果他们用金钱和士兵向你交付贡税，就可以被你保护起来！\n\n你可以通过战争强迫任何位于你或你的§Y朝贡国§!边界的邻国缴纳§Y20%§!收入和 §Y15%§!的增援力量以作为贡赋。\n只有在§Y宗主国§! 拥有§R负§! §Y威望§!， §R不是§! §Y独立领主§!，或 §Y领土规模§!§R小§!于 §Y朝贡国§!的情况下，或者是§R拒绝防御性§! §Y朝贡国§!的§Y参战要求§!的时候才会脱离朝贡。\n这种类型的§Y朝贡国§!§R不§! 可以被召入战争。;;;;;;;;;;x
 tributary_cb_desc;§Y$TARGET$§! 很富裕因此应当向你朝贡!\n\n你可以通过战争强迫任何位于你边界的邻国缴纳§Y40%§!收入以作为贡赋。\n在§Y宗主§! 死亡的情况下会§R脱离朝贡§!。\n这种类型的§Y朝贡国§!可以被召入战争;;;;;;;;;;x
 CB_NAME_NOMAD_TRIBUTARY;建立朝贡关系;;;;;;;;;;x
-WAR_NAME_NOMAD_TRIBUTARY;$ORDER$$FIRST_ADJ$ 令 $DEFENDER$ 朝贡战争;;;;;;;;;;x
+WAR_NAME_NOMAD_TRIBUTARY;$ORDER$$FIRST_ADJ$令$DEFENDER$朝贡战争;;;;;;;;;;x
 tributary_nomad_cb_desc;§Y$TARGET$§!的领域如此虚弱，根本不是我的对手，是时候让他们朝贡了，否则我的雷霆铁蹄将会碾碎他们！\n\n你可以通过战争强迫任何位于你或你的§Y朝贡国§!边界的邻国缴纳§Y50%§!收入以作为贡赋。\n只有在§Y宗主§! 拥有§R负§! §Y威望§!的情况下才会脱离朝贡。\n这种类型的§Y朝贡国§!可以被召入战争，不过你并不一定要响应他们的§Y参战要求§!。;;;;;;;;;;x
 tributary_independence_normal;停止进贡;;;;;;;;;;x
 tributary_independence_normal_desc;我的§Y宗主§!软弱无力，无法阻止我不向他们进贡;;;;;;;;;;x
@@ -2464,7 +2464,7 @@ chinese_request_invasion_desc;请求 §Y[Root.Offmap.GetFullName]§! 向另一�
 sui_china;隋;;;;;;;;;;x
 destabilization_china_cb_desc;中国可以通过战争来粉碎他们认为太大的领域。;;;;;;;;;;x
 CB_NAME_DESTABILIZATION_CHINA;粉碎领土;;;;;;;;;;x
-WAR_NAME_DESTABILIZATION_CHINA;$ORDER$$FIRST_ADJ$ 裂分 $DEFENDER$ 战争;;;;;;;;;;x
+WAR_NAME_DESTABILIZATION_CHINA;$ORDER$$FIRST_ADJ$裂分$DEFENDER$战争;;;;;;;;;;x
 destabilization_china_success_tt;所有的王国和帝国都被摧毁。;;;;;;;;;;x
 EVTDESC_JD_3021;Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n神圣的[From.Offmap.Ruler.GetLongChineseEmperorName]同意你明智的判断，[chinese_invasion_target.GetFullName]威胁到世界的稳定。[From.Offmap.GetFullName]的将士已经准备出师。;;;;;;;;;;x
 EVTDESC_JD_3022_A;听信了[chinese_invasion_instigator.GetBestName]的小人谗言，[From.Offmap.GetName]宣战意图粉碎我们光荣的家园！[From.Offmap.Ruler.Culture.GetName]军准备发兵[chinese_invasion_target.PrimaryTitle.GetName]，我们必须准备一场长久血腥的抗争。;;;;;;;;;;x
@@ -2720,7 +2720,7 @@ secret_taoist_community_desc;道教的忠实信徒们在这个省份秘密地组
 war_with_other_tributary_tt;你并没有在抵御另一个 [offmap_china.GetShortName]的朝贡国;;;;;;;;;;x
 force_open_china_cb_desc;[offmap_china.GetShortName]关闭了国境，迫使丝绸之路上的贸易中断。这是不可接受的！贸易必须流通！;;;;;;;;;;x
 CB_NAME_FORCE_OPEN_CHINA;强迫[offmap_china.GetShortName]开放;;;;;;;;;;x
-WAR_NAME_FORCE_OPEN_CHINA;$ORDER$$FIRST_ADJ$ [offmap_china.GetFullName]开放战争;;;;;;;;;;x
+WAR_NAME_FORCE_OPEN_CHINA;$ORDER$$FIRST_ADJ$强迫[offmap_china.GetFullName]开放战争;;;;;;;;;;x
 china_force_to_open_desc;§Y[offmap_china.GetFullName]§! 闭关锁国，把自己隔绝在世界之外。他们关闭了丝绸之路的贸易，拒绝同一切外人打交道。只有通过谈判或者必要的武力才可能让 §Y[offmap_china.Ruler.GetMediumChineseEmperorName]§! 被迫重新开放国境。;;;;;;;;;;x
 force_open_china_start_tt;你必须选择一种方式使§Y[offmap_china.GetFullName]§!打开国门: 用§Y战争§!打败他们，控制一个丝绸之路§Y起点§!和§Y25%§!的财富或者通过§Y谈判§!签订一个条约;;;;;;;;;;x
 EVT_DESC_JD_60301;[offmap_china.Ruler.GetMediumChineseEmperorName]已经决定闭关并将取缔丝绸之路上的所有贸易，而这是不可接受的。[offmap_china.Ruler.GetSheHeCap]不仅会损害[offmap_china.GetShortName]的贸易收入，更会影响到我们自己领地。不论如何，我们必须让[offmap_china.Ruler.GetEmperorEmpress]重新打开边界。;;;;;;;;;;x
@@ -2789,7 +2789,7 @@ EVTOPTB39821;我不会参加火节！;;;;;;;;;;x
 bema_invitations_sent;你向你的摩尼教封臣发出邀请来庆祝庇麻节;;;;;;;;;;x
 invasion_of_china_cb_desc;[offmap_china.GetFullName]一直以来都是我们的心头刺，现在他将不复存在!;;;;;;;;;;x
 CB_NAME_INVASION_OF_CHINA;入侵 [offmap_china.GetShortName];;;;;;;;;;x
-WAR_NAME_INVASION_OF_CHINA;第 $ORDER$$FIRST_ADJ$ 次 [offmap_china.GetFullName]入侵;;;;;;;;;;x
+WAR_NAME_INVASION_OF_CHINA;第 $ORDER$$FIRST_ADJ$ 次[offmap_china.GetFullName]入侵;;;;;;;;;;x
 china_invade_dragon_throne_failed_tt;入侵中国没有失败;;;;;;;;;;x
 china_invade_dragon_throne_modifiers_tt;你所有现行的 §Y[offmap_china.GetCurrency]§! 和来自 §Y[offmap_china.GetShortName]§! 的 §Y加成§! 将被 §R移除§!.;;;;;;;;;;x
 war_with_china_modifier;与天朝开战;;;;;;;;;;x
@@ -4652,7 +4652,7 @@ uninspired;无灵感;;;;;;;;;;x
 uninspired_desc;这个角色现在并没有进行创作性追求的心情。;;;;;;;;;;x
 is_inaccessible_tooltip;没有处在藏匿、被软禁、旅行状态\n;;;;;;;;;;x
 not_awaiting_your_spouse_tt;目前不在等待你从[offmap_china.GetFullName]来的配偶;;;;;;;;;;x
-adopt_chinese_imperialism_tt;收到[offmap_china.GetFullName]的辉煌文化的鼓舞，你将在西方成立一个新的帝国。;;;;;;;;;;x
+adopt_chinese_imperialism_tt;受到[offmap_china.GetFullName]的辉煌文化的鼓舞，你将在西方成立一个新的帝国。;;;;;;;;;;x
 chinese_imperial_government_desc;中华帝国制与普通封建制甚为相同，皆是围绕着领主和封臣之间的誓言。该政体受到了[offmap_china.GetFullName]本土高效的行政机关的启发，并促进了不同宗教间的和平对话。;;;;;;;;;;x
 king_tangut;宁令;;;;;;;;;;x
 king_female_tangut;女宁令;;;;;;;;;;x
@@ -4714,12 +4714,12 @@ chinese_journal_desc;这本书看起来像某个人的笔记本;;;;;;;;;;x
 the_chinese_royals_personal_note_book;[Root.GetFirstName]游记;;;;;;;;;;x
 the_chinese_royals_personal_note_book_desc;收集[Root.GetTitledName]详细记录了自己[offmap_china.GetFullName]之旅的著作是为了在[Root.Liege.Capital.Capital.GetName]的[Root.Liege.GetCapitalHolding]以及 [Root.Liege.Culture.GetName]宫廷寻找[Root.GetSheHe]家族的诞生地。;;;;;;;;;;x
 EVTOPTD_JD_20006_TT;你不打算冒丢人的风险，而是让一个翻译官来做这件事。§Y[chinese_guest.GetTitledName]§! 回了家。\n;;;;;;;;;;x
-EVTOPTA_JD_20007_TT;你的待客之道给宾客留下了很深的印象，[chinese_guest.GetTitledName]满意地回去了。§Y[FromFrom.Liege.GetTitle] [FromFrom.Liege.GetDynName]§!将会传颂你的热情好客。\n;;;;;;;;;;x
-EVTOPTA_JD_20008_TT;§Y[chinese_guest.GetTitledName]§! 气愤的回家了。§Y[FromFrom.Liege.GetTitle] [FromFrom.Liege.GetDynName]§!会听说你的令人发指的行径。\n;;;;;;;;;;x
-EVTOPTA_JD_20009_TT;§Y[FromFrom.GetJobTitle] [FromFrom.GetDynName]§! 赞扬了你的努力，并且在你回到§Y[FromFrom.Liege.GetTitle] [FromFrom.Liege.GetDynName]§!的家时得到一份正面的报告。\n;;;;;;;;;;x
-EVTOPTA_JD_20010_TT;你在宾客面前显得愚不可及， §Y[FromFrom.GetDynName][FromFrom.GetJobTitle]§! 带着被冒犯的怒火回了家。\n;;;;;;;;;;x
+EVTOPTA_JD_20007_TT;你的待客之道给宾客留下了很深的印象，[chinese_guest.GetTitledName]满意地回去了。§Y[FromFrom.Liege.GetTitle][FromFrom.Liege.GetDynName]§!将会传颂你的热情好客。\n;;;;;;;;;;x
+EVTOPTA_JD_20008_TT;§Y[chinese_guest.GetTitledName]§!气愤地回家了。§Y[FromFrom.Liege.GetTitle][FromFrom.Liege.GetDynName]§!会听说你的令人发指的行径。\n;;;;;;;;;;x
+EVTOPTA_JD_20009_TT;§Y[FromFrom.GetJobTitle][FromFrom.GetDynName]§!赞扬了你的努力，并且在你回到§Y[FromFrom.Liege.GetTitle][FromFrom.Liege.GetDynName]§!的家时得到一份正面的报告。\n;;;;;;;;;;x
+EVTOPTA_JD_20010_TT;你在宾客面前显得愚不可及， §Y[FromFrom.GetDynName][FromFrom.GetJobTitle]§!带着被冒犯的怒火回了家。\n;;;;;;;;;;x
 EVTOPTA_JD_20011_tt;§Y[From.GetJobTitle] [From.GetDynName]§!气愤的回家了。[From.GetHerHisCap] [From.Liege.GetMasterMistress]，§Y[From.Liege.GetTitle] [From.Liege.GetDynName]§!，肯定会听说的。\n;;;;;;;;;;x
-EVTOPTA_JD_20012_tt;§Y[From.GetJobTitle] [From.GetDynName]§! 归乡后，将你在交谈中关于天气的客套话解读为对 §Y[From.Offmap.Ruler.GetMediumChineseEmperorName]§! 的一种优雅的恭维。你的智慧和雄辩直言一定能够传到[From.Offmap.Ruler.GetHerHis]耳朵里！;;;;;;;;;;x
+EVTOPTA_JD_20012_tt;§Y[From.GetJobTitle][From.GetDynName]§!归乡后，将你在交谈中关于天气的客套话解读为对§Y[From.Offmap.Ruler.GetMediumChineseEmperorName]§!的一种优雅的恭维。你的智慧和雄辩直言一定能够传到[From.Offmap.Ruler.GetHerHis]耳朵里！;;;;;;;;;;x
 String_capital_name;[This.Capital.Capital.GetName];;;;;;;;;;x
 String_capital_location;[This.Capital.GetName];;;;;;;;;;x
 String_capital_province;[This.Capital.GetName];;;;;;;;;;x
