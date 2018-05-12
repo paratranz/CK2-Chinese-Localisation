@@ -2303,7 +2303,7 @@ chinese_artwork;[offmap_china.GetShortName]工艺品;;;;;;;;;;x
 chinese_artwork_desc;由天朝著名画家创作的一件艺术珍品，它让你感到自己仿佛置身于遥远的中原之中。;;;;;;;;;;x
 chinese_calligraphy;[offmap_china.GetShortName]书法;;;;;;;;;;x
 chinese_sculpture;[offmap_china.GetShortName]雕塑;;;;;;;;;;x
-chinese_sculpture_desc;来自 [offmap_china.GetFullGenericName]宫廷的雕塑，您可以想象[offmap_china.Ruler.GetTitle] [offmap_china.Ruler.GetHerselfHimself]神色威严之中带着赞赏的走过[offmap_china.Ruler.GetHerHis]所拥有的这尊雕像。;;;;;;;;;;x
+chinese_sculpture_desc;来自[offmap_china.GetFullGenericName]宫廷的雕塑，您可以想象[offmap_china.Ruler.GetTitle][offmap_china.Ruler.GetHerselfHimself]赞赏地走过[offmap_china.Ruler.GetHerHis]这尊雕像以及当初下令制作时的情形。;;;;;;;;;;x
 chinese_ceremonial_robes;华服;;;;;;;;;;x
 chinese_ceremonial_robes_desc;一套在外交场合使用的传统华夏长袍，穿着这些长袍的人鹤立鸡群，展现了一种权力和权威的气度。;;;;;;;;;;x
 art_of_war;孙子兵法;;;;;;;;;;x
@@ -2364,8 +2364,8 @@ EVTOPT39831_SCHOLAR_TT;这个选项可用是因为你拥有§Y神学家§!，§Y
 EVTOPT39831_GREG_TT;这个选项可用是因为你拥有§Y合群§!，§Y魅力非凡的说客§!或§Y狡猾的无赖§!特质。;;;;;;;;;;x
 EVT_DESC_JD_60011;[From.Offmap.Ruler.GetChineseComplimentAdjective][From.Offmap.Ruler.GetTitle]的[From.GetTitle]写了一封信给背信弃义者[Root.PrimaryTitle.GetFullName]的[Root.GetTitle]。\n\n至高无上的[From.Offmap.Ruler.GetLongChineseEmperorName]希望你能明白[From.Offmap.Ruler.GetSheHe]不能容忍[From.Offmap.Ruler.GetHerHis]朝贡国这样无耻且不忠的背叛。\n你的行径将被处理。;;;;;;;;;;x
 EVT_OPTA_JD_60011;他们吓不倒我！;;;;;;;;;;x
-EVTDESCB20110;在 [From.GetHerHis] 拜访我的宫廷期间，[From.GetJobTitle] [From.Host.PrimaryTitle.GetName]，[From.GetTitledName]，不停地吹嘘我们的领主 [From.Host.GetTitledName]是一个多么仁慈和蔼的统治者。但宫廷的其他人却告诉我无论是[From.GetSheHe]还是我的领主都是十分无耻狡诈的骗子。;;;;;;;;;;x
-confess_faith_already_has_secret_rel_tt;[Root.GetTitledName]仍然在秘密修习[Root.SecretReligion.GetName];;;;;;;;;;x
+EVTDESCB20110;在[From.GetHerHis]来访期间，[From.Host.PrimaryTitle.GetName][From.GetJobTitle]，[From.GetTitledName]，不停地吹嘘我们的领主[From.Host.GetTitledName]是一个多么仁慈和蔼的统治者。但宫廷的其他人却告诉我无论是[From.GetSheHe]还是我的领主都是十分无耻狡诈的骗子。;;;;;;;;;;x
+confess_faith_already_has_secret_rel_tt;[Root.GetTitledName]继续秘密修习[Root.SecretReligion.GetName]。;;;;;;;;;;x
 EVTDESCB_MNM_6993;看起来就算是[satanists_inductor.GetBestName]也不能把我从牢房中救出去，真令人失望。我很好奇我们会在哪见面，我尝试去适应我的新家，希望当我自由时能再次见到[satanists_inductor.GetHerHim] 。;;;;;;;;;;x
 EVTOPTB_MNM_6993;[satanists_inductor.GetDWDevil]有着多么强大的力量啊……;;;;;;;;;;x
 EVTDESCB_MNM_6995;看起来就算是[satanists_recruiter.GetBestName]也不能把我从牢房中救出去，真令人失望，我很好奇我们会在哪见面。我尝试去适应我的新家，希望当我自由时能再次见到[satanists_recruiter.GetHerHim] 。;;;;;;;;;;x
@@ -2379,32 +2379,32 @@ EVT_OPTA_MNM_4301;[From.GetSheHeCap]是个极好的学生！;;;;;;;;;;x
 EVT_DESC_MNM_4303;我的前被监护人[From.GetTitledFirstName]完成了[From.GetHerHis]学业，在我们最后的谈话里提到了遵从[GetMOCode]并在[GetMOGod]的庇佑下提升自己。我曾激励[From.GetHerHim]为了[From.GetHerselfHimself]而做这件事，[From.GetSheHe]接受了我的建议，我在想[From.GetSheHe]是否有什么进展。;;;;;;;;;;x
 EVT_OPTA_MNM_43003;我将询问[From.GetHerHim]进展如何。;;;;;;;;;;x
 EVT_DESC_MNM_4304;我以前的导师[From.GetTitledFirstName]已经开始询问我如何很好的尝试遵循[From.GetMOCode]和在[From.GetMOGod]的眼中进步。[From.GetSheHeCap]想知道我是否获得成功。;;;;;;;;;;x
-EVT_OPTA_MNM_4304;我将告诉 [From.GetHerHim] 我怎么追随[From.GetMOSaint]的路。;;;;;;;;;;x
+EVT_OPTA_MNM_4304;我将告诉 [From.GetHerHim]我怎么追随[From.GetMOSaint]的道路。;;;;;;;;;;x
 EVT_OPTB_MNM_4304;哈！我找到更好的事情做了！;;;;;;;;;;x
 EVT_DESC_MNM_4305;[From.GetFirstName]到访了并且跟我讲述了[From.GetSheHe]有多么的努力去遵从[GetMOCode]并且努力让自己变得更好。[From.GetSheHeCap]富有活力的描述着[From.GetHerHis]祷辞和花费在[GetMOPenanceMeditation]上的时间，这些都是为了让[From.GetHerHis]离[GetMOGod]更近。[From.GetSheHeCap]看起来大获成功！;;;;;;;;;;x
 EVT_OPTA_MNM_4305;我就知道[From.GetSheHe]可以做到的！;;;;;;;;;;x
 EVT_DESC_MNM_4306;[From.GetFirstName]很快转移了话题，无论我怎么说[From.GetSheHe]都拒绝讨论这件事……看上去[From.GetSheHe]已经找到的「更好」的事情去做……我对[From.GetHerHis]缺乏对[GetMOGod]和[GetMOCode]的奉献精神很是失望，我在羞耻中向[From.GetSheHe]告别。作为[From.GetHerHim]导师我很失败，我需要在[GetMOPenanceMeditation]中更下功夫好让我让我平静一下。;;;;;;;;;;x
 EVT_OPTA_MNM_4306;我对[From.GetHerHim]有过更高的期望。;;;;;;;;;;x
-surrender_tributary_tt;[This.GetTitledFirstName]将会同意这个和平解决问题的方案——成为§Y[Root.GetTitledName]§!的朝贡国。;;;;;;;;;;x
-EVT_DESC_JD_2500;[tribute_war_suzerain.GetTitledFirstName]希望从[Root.PrimaryTitle.GetName]的土地上敲诈大量黄金。[tribute_war_suzerain.GetSheHeCap]想要派[tribute_war_suzerain.GetHerHis]士兵为之而战斗致死。但我愿意送我自己去吗？ 我现在可以平静地投降，在我的士兵和他们的家人被屠杀，村庄被烧毁之前......或者我们可以为保护我们的土地去战斗，并赶走这些[tribute_war_suzerain.Culture.GetName]入侵者！;;;;;;;;;;x
+surrender_tributary_tt;[This.GetTitledFirstName]将会同意这个和平解决问题的方案：成为§Y[Root.GetTitledName]§!的朝贡国。;;;;;;;;;;x
+EVT_DESC_JD_2500;[tribute_war_suzerain.GetTitledFirstName]希望从[Root.PrimaryTitle.GetName]的土地上敲诈大量黄金。[tribute_war_suzerain.GetSheHeCap]愿意派[tribute_war_suzerain.GetHerHis]士兵来为之死战。但我愿意让我的士兵也如此吗？ 现在我可以在我的士兵和他们的家人被屠杀，村庄被烧毁前和平地投降......还是为保护我们的土地而战，赶走这些[tribute_war_suzerain.Culture.GetName]入侵者！;;;;;;;;;;x
 EVT_OPTA_JD_2500;我将在臣民鲜血浸没这片土地前结束这一切。;;;;;;;;;;x
 EVT_OPTB_JD_2500;我们必须保护属于我们的东西！我们要战斗！;;;;;;;;;;x
 surrender_tributary_event_tt;向 §Y[tribute_war_suzerain.GetTitledName]§!送去一份关于此次争端的和平方案的书信，同意成为他们的朝贡国;;;;;;;;;;x
-EVT_DESC_JD_2501;致[Root.GetTitledFirstName]：\n\n让我们和平地解决分歧吧。作为结束这场战争和避免更多牺牲的交换，我同意你的要求，[From.PrimaryTitle.GetName]的土地将为你交纳贡品。我只要求你保证我的子民的安全，将你的军队撤回本土。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
-EVT_OPTA_JD_2501;明智的决定！我会接受[From.GetHerHis]的提议。;;;;;;;;;;x
-EVT_OPTB_JD_2501;看看那些懦夫般的乞求！想要[From.GetHerHim] 的和平没那么简单！;;;;;;;;;;x
-EVT_DESC_JD_2502;致 [Root.GetTitledFirstName]：\n\n你做出了明智的决定，我将接受你的请求，撤回我的部队以换取来自你的领土你的贡品。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVT_DESC_JD_2501;致[Root.GetTitledFirstName]：\n\n让我们和平地解决分歧吧。为了结束这场战争，避免更多牺牲，我同意你的要求，[From.PrimaryTitle.GetName]的土地将为你交纳贡品。我只要求你保证我的子民的安全，将你的军队撤回本土。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVT_OPTA_JD_2501;明智的决定！我会接受[From.GetHerHis]提议。;;;;;;;;;;x
+EVT_OPTB_JD_2501;看看这懦夫般的乞求！[From.GetHerHim]想要和平没那么简单！;;;;;;;;;;x
+EVT_DESC_JD_2502;致[Root.GetTitledFirstName]：\n\n你做出了明智的决定，我将接受你的请求，撤回我的部队以换取来自你领土的贡品。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVT_OPTA_JD_2502;我们安全了……暂时……;;;;;;;;;;x
-EVT_DESC_JD_2503;致 [Root.GetTitledFirstName]，\n\n你的提议是一种懦夫的表现，让你的士兵像真正的勇士一样战斗吧！\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
-EVT_OPTA_JD_2503;我有过一种它会这样的感觉。;;;;;;;;;;x
+EVT_DESC_JD_2503;致[Root.GetTitledFirstName]，\n\n你的提议是一种懦夫的表现，让你的士兵像真正的勇士一样战斗吧！\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVT_OPTA_JD_2503;我就觉得事情会变成这样。;;;;;;;;;;x
 EVTDESC39705C;我将罗马授予了她应有的统治者，从此教宗可以在与其名望相配的居所领导天主教教会。教宗即将在历史上天主教教宗办公的处所宣誓就任。;;;;;;;;;;x
 EVTDESC39705D;[From.GetTitledFirstName]将罗马授予了她应有的统治者，从此教宗可以在与其名望相配的居所领导天主教教会。教宗即将在历史上天主教教宗办公的处所宣誓就任。;;;;;;;;;;x
 decision_abduct_power_desc;允许§G右键§!低于公爵的角色或这个低于公爵角色的亲戚的头像，在[From.Society.GetName]兄弟们的帮助下，尝试诱拐和监禁他们，需要付出§Y[From.Society.GetCurrency]§!。;;;;;;;;;;x
-EVT_DESC_ZP_8;今天是难过的一天。成为我的守护者的那条狗过世了，它曾经忠实地保护我和我的家人免受恶灵的侵害。今天是悲伤和哀悼的日子。;;;;;;;;;;x
+EVT_DESC_ZP_8;今天是难过的一天。我照看的那条狗过世了，它曾经忠实地保护我和我的家人免受恶灵的侵害。真是悲伤和哀悼的一天。;;;;;;;;;;x
 EVT_OPTA_ZP_8;他忠心一生。;;;;;;;;;;x
-EVT_DESC_ZP_9;今天真不幸，我带回家的那只为我忠实地捕杀害虫的刺猬去世了。真是悲伤和哀悼的一天。;;;;;;;;;;x
+EVT_DESC_ZP_9;今天是难过的一天，我带回家的那只的刺猬去世了，它曾为我忠实地捕杀害虫。真是悲伤和哀悼的一天。;;;;;;;;;;x
 EVT_OPTA_ZP_9;再也没有更好的猎手。;;;;;;;;;;x
-EVT_DESC_ZP_10;今天是难过的一天。我带入家里的那只水獭过世了，它曾忠实地确保了我的领地的健康和繁荣。今天是悲伤和哀悼的日子。;;;;;;;;;;x
+EVT_DESC_ZP_10;今天是难过的一天。我带入家里的那只水獭过世了，它曾忠实地确保了我的领地的健康和繁荣。真是悲伤和哀悼的一天。;;;;;;;;;;x
 EVT_OPTA_ZP_10;愿他安息。;;;;;;;;;;x
 b_chhajian;赤绛;;;;;;;;;;x
 b_mughal;莫卧儿;;;;;;;;;;x
@@ -2431,7 +2431,7 @@ tooltip_silk_road_required;领土内必须有一个省份在丝绸之路上;;;;;
 religious_cb_succ_muslim_tip;§Y[Root.GetTitledFirstName]§!附庸了§Y[This.GetFullBaseName]§!的领主\n;;;;;;;;;;x
 theocratic_feudal_government;僧侣封建制;;;;;;;;;;x
 theocratic_feudal_government_desc;僧侣封建制与普通封建制甚为相同，围绕着领主和封臣之间的誓言，一名僧侣封建领主能直接持有的地产就那么多，之后他们就要依靠封臣 - 他们的忠诚则并不能保证... 僧侣封建制为信仰佛教或苯教的吐蕃人独有，除城堡外，还允许持有寺庙. 僧侣封建制统治者亦可于城堡地产中修建贡巴寺院建筑.;;;;;;;;;;x
-custom_eastern_edge_of_map;东方边缘;;;;;;;;;;x
+custom_eastern_edge_of_map;东部边缘;;;;;;;;;;x
 custom_chinese_invasion_target_region;中国宗教影响;;;;;;;;;;x
 ADD_RALLY_POINT_INFO;§Y打开集结点视图§!\n\n集结点功能让单位自动聚集在之前决定的省份。陆军集结点在陆军征召界面激活，海军则在海军界面激活。;;;;;;;;;;x
 ca_government_monastery_1;贡巴寺院;;;;;;;;;;x
@@ -4622,7 +4622,7 @@ EVTOPTB_JD_15015;实际上，我已经很熟悉《管子》了，我的大人。
 EVTOPTB_JD_15015_TT;你的知识使大臣们敬仰。\n;;;;;;;;;;x
 EVTOPTC_JD_15015;废话！我想看看宫殿四周，也许是一次旅行？;;;;;;;;;;x
 EVTOPTC_JD_15015_TT;要员们看到你们在首都公共场合相伴经过。\n;;;;;;;;;;x
-EVT_OPTA_JD_60208;能称万世之君的只能有一个人。;;;;;;;;;;x
+EVT_OPTA_JD_60208;能称万岁的只能有一个人。;;;;;;;;;;x
 String_siege_engineer;围攻专家;;;;;;;;;;x
 String_chinese_royalty;天朝皇室;;;;;;;;;;x
 String_chinese_character_role_fallback;廷臣;;;;;;;;;;x
