@@ -32,7 +32,7 @@ NOMAD_LAND_OVERRUN;§Y部族渴望土地§!;;;;;;;;;;x
 NOMAD_LAND_OVERRUN_DESC;可汗拥有土地的远超其他部族。他必须交出§Y$NUM$§!块土地，否则可能面临现有部族的叛乱，甚至面临次级部族叛乱，以试图获取在主流部族中的正当地位……;;;;;;;;;;x
 SENTIMENT_VS_CLAN;对§Y$CLAN$§!部族的观感：;;;;;;;;;;x
 EMPTY_PROVINCES_IN_REALM;领土内的游牧省份;;;;;;;;;;x
-REVOKE_TITLE_INTERACTION_1N;收回§Y[ThirdPartyTitle.GetFullName]§!会消耗§R$PRESTIGE$§!声望。这将会降低§Y[Recipient.GetTitledFirstName]§!对你的§R$OPINION$§!好感，以及其他非游牧封臣§R$OPINION2$§!好感。;;;;;;;;;;x
+REVOKE_TITLE_INTERACTION_1N;收回§Y[ThirdPartyTitle.GetFullName]§!会消耗 §R$PRESTIGE$§! 威望。这会使§Y[Recipient.GetTitledFirstName]§!对你的好感降低 §R$OPINION$§!，其他非游牧封臣好感降低 §R$OPINION2$§!。;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_LONG_DESC;被驱逐出境的角色可以活着离开，但他们将被迫放弃全部头衔，并且财产将被没收。;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_2;无理由驱逐封臣的统治者会被视为暴君，其他封臣对你降低§R$OPINION$§!好感。;;;;;;;;;;x
 declare_feud_desc;若和其他部族有世仇，允许你发动争夺战争（除非你是可汗——你无法对下属部族发动战争或劫掠。）;;;;;;;;;;x
@@ -43,7 +43,7 @@ ABSORB_CLAN_INTERACTION_LONG_DESC;同化部族并不是一个受欢迎的行为�
 FORM_BLOOD_OATH_INTERACTION_DESC;血誓可以让§Y[Recipient.Clan.GetName]§!部族成为你坚定的盟友，只要双方统治者仍然在世。但是，你仅能拥有一个其他部族作为你的结拜兄弟……;;;;;;;;;;x
 FORM_BLOOD_OATH_INTERACTION_LONG_DESC;血誓可以让另一部族成为你坚定的盟友，只要双方统治者仍然在世。但是，你仅能拥有一个其他部族作为你的结拜兄弟……;;;;;;;;;;x
 adopt_faith_desc;你可以改换[Root.Clan.GetName]部族的信仰。[Root.Religion.GetName]宗教确有其优点……;;;;;;;;;;x
-GOV_PRESTIGE_LAW_CHANGE_DESC;法律是通过花费声望改变的，而非通过投票;;;;;;;;;;x
+GOV_PRESTIGE_LAW_CHANGE_DESC;法律是通过花费威望改变的，而非通过投票;;;;;;;;;;x
 LAW_NORMAL_CHANGE_PIETY_COST;在$GOV$政体下，需要花费$PIETY$$PIETYNAME$来改变直辖领法律;;;;;;;;;;x
 LAW_DE_JURE_CHANGE_PIETY_COST;在$GOV$政体下，需要花费$PIETY$$PIETYNAME$来改变王权法;;;;;;;;;;x
 LAW_NORMAL_CHANGE_PRESTIGE_COST;在$GOV$政体下，需要花费$PRESTIGE$威望来改变直辖领法律;;;;;;;;;;x
