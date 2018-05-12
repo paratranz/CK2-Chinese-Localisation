@@ -2005,13 +2005,13 @@ b_yangtaoshan;杨桃山;;;;;;;;;;x
 b_shitun;石屯;;;;;;;;;;x
 b_dazhou_fenchang;大州分场;;;;;;;;;;x
 china_eunuch_cd;§Y近期上贡过一名宦官§!;;;;;;;;;;x
-china_eunuch_cd_desc;你最近向天朝上贡过一名宦官，下一次可上贡的时间为：§Y[Root.chinese_grace_send_eunuch_timer.GetExpiryDate]§!;;;;;;;;;;x
+china_eunuch_cd_desc;你最近向天朝进贡过一名宦官，下一次可进贡的时间为：§Y[Root.chinese_grace_send_eunuch_timer.GetExpiryDate]§!;;;;;;;;;;x
 china_concubine_cd;§Y最近进贡过一名侍妾§!;;;;;;;;;;x
-china_concubine_cd_desc;你最近向天朝上贡过一名侍妾，下一次可上贡的时间为：§Y[Root.chinese_grace_send_concubine_timer.GetExpiryDate]§!;;;;;;;;;;x
+china_concubine_cd_desc;你最近向天朝进贡过一名侍妾，下一次可进贡的时间为：§Y[Root.chinese_grace_send_concubine_timer.GetExpiryDate]§!;;;;;;;;;;x
 china_gift_cd;§Y近日赠礼§!;;;;;;;;;;x
-china_gift_cd_desc;你在近期向天朝上贡过，下一次可上贡的时间为：§Y[Root.chinese_grace_send_gift_timer.GetExpiryDate]§!;;;;;;;;;;x
-EVTDESC_JD_10102_A;在[From.Offmap.GetFullName]试图让我们成为朝贡国的努力无果后，[From.GetTitledName]向我们宣战了！他们的军队已经向我们的边界开来，如果我们不向[From.Offmap.Ruler.GetMediumChineseEmperorName]屈膝的话，我们的人民可能将面对的是长久而血腥的斗争。;;;;;;;;;;x
-EVTDESC_JD_10102_B;[From.GetTitledName]对 [chinese_invasion_target.GetFullName]宣战以逼迫其成为[From.Offmap.GetFullName]的朝贡国，[From.Offmap.Ruler.Culture.GetName]的军队已经开始朝[chinese_invasion_target.GetTitledFirstName]境内集结，这可能会是[chinese_invasion_target.PrimaryTitle.GetAdjective] 作为独立国家的终结;;;;;;;;;;x
+china_gift_cd_desc;你在近期向天朝进贡过，下一次可进贡的时间为：§Y[Root.chinese_grace_send_gift_timer.GetExpiryDate]§!;;;;;;;;;;x
+EVTDESC_JD_10102_A;在[From.Offmap.GetFullName]试图让我们成为朝贡国的努力无果后，[From.GetTitledName]向我们宣战了！他们的军队已经向我们的边界开来，如果我们不向[From.Offmap.Ruler.GetMediumChineseEmperorName]屈膝的话，我们的人民可能将面对长期而血腥的斗争。;;;;;;;;;;x
+EVTDESC_JD_10102_B;[From.GetTitledName]对[chinese_invasion_target.GetFullName]宣战以逼迫其成为[From.Offmap.GetFullName]的朝贡国，[From.Offmap.Ruler.Culture.GetName]的军队已经开始朝[chinese_invasion_target.GetTitledFirstName]境内集结，这可能会是[chinese_invasion_target.PrimaryTitle.GetAdjective]作为独立国家的终结。;;;;;;;;;;x
 EVTOPTA_JD_10102_A_pious;愿[Root.Religion.GetHighGodName]看到我们完成此事。;;;;;;;;;;x
 EVTOPTA_JD_10102_A_brave;证明我们的机会到了。放他们过来！;;;;;;;;;;x
 EVTOPTA_JD_10102_A_craven;[Root.Religion.GetHighGodName]，求您垂怜！;;;;;;;;;;x
@@ -2051,53 +2051,53 @@ SOCIETY_MEMBER_COUNT_TEMPLATE;$RANK|Y$：$COUNT|Y$个成员;;;;;;;;;;x
 MODIFIER_EXPIRES;（到期：$DATE|Y$）;;;;;;;;;;x
 DONT_HAVE_THE_PROVINCE_MODIFIER;没有省份修正$MODIFIER|Y$$EXPIRY$;;;;;;;;;;x
 HAVE_THE_PROVINCE_MODIFIER;拥有省份修正$MODIFIER|Y$$EXPIRY$;;;;;;;;;;x
-DONT_HAVE_THE_HOLDING_MODIFIER;不再持有 $MODIFIER|Y$$EXPIRY$修正;;;;;;;;;;x
+DONT_HAVE_THE_HOLDING_MODIFIER;没有省份修正$MODIFIER|Y$$EXPIRY$;;;;;;;;;;x
 HAVE_THE_HOLDING_MODIFIER;拥有地产修正$MODIFIER|Y$$EXPIRY$;;;;;;;;;;x
-DONT_HAVE_THE_CHARACTER_MODIFIER;没有角色修正 $MODIFIER|Y$$EXPIRY$;;;;;;;;;;x
+DONT_HAVE_THE_CHARACTER_MODIFIER;没有角色修正$MODIFIER|Y$$EXPIRY$;;;;;;;;;;x
 HAVE_THE_CHARACTER_MODIFIER;拥有角色修正$MODIFIER|Y$$EXPIRY$;;;;;;;;;;x
 GOV_RELIGION_NO_DEMANDING_CONVERSION_DESC;无法要求皈依;;;;;;;;;;x
-SETTLEMENT_MAX_REINFORCEMENT_RATE;最大增援速率：$AMOUNT|Y$/月;;;;;;;;;;x
-REINFORCEMENT_BASE_RATE;基础扈从恢复速度：$RATE|Y$%;;;;;;;;;;x
-REINFORCEMENT_RATE_FROM_HOLDING;地产的修正效果：;;;;;;;;;;x
-REINFORCEMENT_RATE_FROM_CONTROLLER;控制者的修正效果：;;;;;;;;;;x
+SETTLEMENT_MAX_REINFORCEMENT_RATE;最大增援速度：$AMOUNT|Y$/月;;;;;;;;;;x
+REINFORCEMENT_BASE_RATE;基础增援速度：$RATE|Y$%;;;;;;;;;;x
+REINFORCEMENT_RATE_FROM_HOLDING;地产修正效果：;;;;;;;;;;x
+REINFORCEMENT_RATE_FROM_CONTROLLER;控制者修正效果：;;;;;;;;;;x
 REINFORCEMENT_RATE_FROM_COUNCILOR;内阁成员$COUNCILOR|Y$：$MODIFIER$;;;;;;;;;;x
-DEMESNE_EFFICIENCY_TRIGGER;领地效率 $COMPARISON$ $VALUE|Y%0$;;;;;;;;;;x
+DEMESNE_EFFICIENCY_TRIGGER;直辖效率$COMPARISON$ $VALUE|Y%0$;;;;;;;;;;x
 RELATIVE_POWER_TRIGGER;目标的军队数量$COMPARISON$$TARGET|Y$的$VALUE|Y%0$;;;;;;;;;;x
-RELATIVE_POWER_WITH_ALLIES_TRIGGER;$TARGET|Y$盟国的军队数量是$COMPARISON$ $VALUE|Y%0$;;;;;;;;;;x
-RELATIVE_INCOME_TRIGGER;$OTHER|Y$的收入是$COMPARISON$ $VALUE|Y%0$;;;;;;;;;;x
+RELATIVE_POWER_WITH_ALLIES_TRIGGER;盟国的军队数量$COMPARISON$$TARGET|Y$的 $VALUE|Y%0$;;;;;;;;;;x
+RELATIVE_INCOME_TRIGGER;收入$COMPARISON$$OTHER|Y$的 $VALUE|Y%0$;;;;;;;;;;x
 DYNASTY_REALM_POWER_TRIGGER;家族领地力量$COMPARISON$$VALUE|Y%0$;;;;;;;;;;x
 YEAR_TRIGGER;年份$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-MONTH_TRIGGER;月份是$COMPARISON$ $MONTH|Y$;;;;;;;;;;x
+MONTH_TRIGGER;月份$COMPARISON$ $MONTH|Y$;;;;;;;;;;x
 DAY_TRIGGER;日期$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-RANDOM_ROLL_TRIGGER;一个随机产生的数字是$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-DISTANCE_TRIGGER;距离是$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+RANDOM_ROLL_TRIGGER;随机产生的数字$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+DISTANCE_TRIGGER;距离$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 DISTANCE_FROM_REALM_TRIGGER;与领地距离$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-REVOLT_DISTANCE_TRIGGER;叛乱距离是$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-SETTLEMENT_AGE_TRIGGER;领地是$COMPARISON$ $VALUE|Y$年;;;;;;;;;;x
-TITLE_RATING_TRIGGER;拥有头衔的评级是$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-HOLY_SITES_TRIGGER;控制$COMPARISON$ $VALUE|Y$个圣地;;;;;;;;;;x
-NUM_VASSALS_TRIGGER;拥有 $COMPARISON$ $VALUE|Y$ 封臣;;;;;;;;;;x
-NUM_PLOT_BACKERS_TRIGGER;拥有$COMPARISON$ $VALUE|Y$个阴谋支持者;;;;;;;;;;x
-NUM_PRISONERS_TRIGGER;拥有$COMPARISON$ $VALUE|Y$个囚犯;;;;;;;;;;x
-DAYS_IMPRISONED_TRIGGER;已被监禁$COMPARISON$ $VALUE|Y$天;;;;;;;;;;x
-PLOT_MONTHS_TRIGGER;已经密谋$COMPARISON$ $VALUE|Y$ 个月;;;;;;;;;;x
+REVOLT_DISTANCE_TRIGGER;叛乱距离$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+SETTLEMENT_AGE_TRIGGER;领地$COMPARISON$ $VALUE|Y$ 岁;;;;;;;;;;x
+TITLE_RATING_TRIGGER;持有头衔等级$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+HOLY_SITES_TRIGGER;控制$COMPARISON$ $VALUE|Y$ 个圣地;;;;;;;;;;x
+NUM_VASSALS_TRIGGER;有$COMPARISON$ $VALUE|Y$ 个封臣;;;;;;;;;;x
+NUM_PLOT_BACKERS_TRIGGER;有$COMPARISON$ $VALUE|Y$ 个阴谋支持者;;;;;;;;;;x
+NUM_PRISONERS_TRIGGER;有$COMPARISON$ $VALUE|Y$ 个囚犯;;;;;;;;;;x
+DAYS_IMPRISONED_TRIGGER;已被监禁$COMPARISON$ $VALUE|Y$ 天;;;;;;;;;;x
+PLOT_MONTHS_TRIGGER;已密谋$COMPARISON$ $VALUE|Y$ 个月;;;;;;;;;;x
 CULTURE_REALM_PROVS_TRIGGER;领地内有$COMPARISON$ $VALUE|Y$ $CULTURE|Y$ 个伯爵领;;;;;;;;;;x
 RELIGION_REALM_PROVS_TRIGGER;领地内有$COMPARISON$ $VALUE|Y$ $RELIGION|Y$ 个伯爵领;;;;;;;;;;x
 TITLE_REALM_PROVS_TRIGGER;领地内有$TITLE|Y$的$COMPARISON$ $VALUE|Y$ 个伯爵领;;;;;;;;;;x
 FACTION_POWER_TRIGGER;封臣的派系力量$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-FACTION_BACKERS_TRIGGER;$COMPARISON$ $VALUE|Y$派系中的支持者 '$FACTION|Y$';;;;;;;;;;x
+FACTION_BACKERS_TRIGGER;派系「$FACTION|Y$」支持者$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 EXTRA_LANDED_TITLES_TRIGGER;额外$COMPARISON$ $VALUE|Y$ 领地头衔;;;;;;;;;;x
-AGE_COMPARISON_TRIGGER;年龄是 $COMPARISON$ $TARGET|Y$;;;;;;;;;;x
+AGE_COMPARISON_TRIGGER;年龄$COMPARISON$ $TARGET|Y$;;;;;;;;;;x
 WARSCORE_TRIGGER;战争分数$COMPARISON$ $VALUE|Y$%;;;;;;;;;;x
 NUM_BUILDINGS_TRIGGER;在$WHERE|Y$的建筑$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-OVER_MAX_DEMESNE_SIZE_TRIGGER;超过最大领地数量$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-OVER_MAX_VASSAL_SIZE_TRIGGER;超过最大封臣数量限制;;;;;;;;;;x
+OVER_MAX_DEMESNE_SIZE_TRIGGER;超过直辖上限$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+OVER_MAX_VASSAL_SIZE_TRIGGER;超过封臣上限$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 OPINION_TRIGGER;好感度$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 PERSONAL_OPINION_TRIGGER;个人好感度$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 CLAN_OPINION_TRIGGER;部族观感$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-OPINION_DIFF_TRIGGER;$FIRST|Y$和$SECOND|Y$之间的观点不同有$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-PERSONAL_OPINION_DIFF_TRIGGER;$FIRST|Y$ 和 $SECOND|Y$ 的意见分歧是$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-CLAN_OPINION_DIFF_TRIGGER;$FIRST|Y$与$SECOND|Y$部族观感差距$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+OPINION_DIFF_TRIGGER;$FIRST|Y$和$SECOND|Y$的好感度差距$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+PERSONAL_OPINION_DIFF_TRIGGER;$FIRST|Y$ 和 $SECOND|Y$的好感度差距$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+CLAN_OPINION_DIFF_TRIGGER;$FIRST|Y$与$SECOND|Y$的部族观感差距$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 AGE_DIFF_TRIGGER;年龄差距$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 NUM_HOLDING_TRIGGER;直辖$COMPARISON$ $VALUE|Y$ $TYPE$;;;;;;;;;;x
 NUM_REALM_HOLDING_TRIGGER;领地内有$COMPARISON$ $VALUE|Y$ $TYPE$;;;;;;;;;;x
@@ -2138,16 +2138,16 @@ MANPOWER_GROWTH_TRIGGER;人力增长$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 MANPOWER_AND_POPULATION_TRIGGER;人力与人口总计$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 POPULATION_TRIGGER;人口$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 MAX_MANPOWER_AND_POPULATION_TRIGGER;人力与人口总计最大值$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-MAX_POPULATION_TRIGGER;最大人口 $COMPARISON$$VALUE|Y$;;;;;;;;;;x
-MANPOWER_AND_POPULATION_GROWTH_TRIGGER;人力与人口数的增长量总计是 $COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-POPULATION_GROWTH_TRIGGER;人口增长为 $COMPARISON$ $VALUE|Y$;;;;;;;;;;x
-POPULATION_FACTOR_TRIGGER;人口最大值是 $COMPARISON$ $VALUE|Y$%;;;;;;;;;;x
-HEALTH_TRIGGER;健康 $COMPARISON$$VALUE|Y$;;;;;;;;;;x
-BASE_HEALTH_TRIGGER;基础健康 $COMPARISON$$VALUE|Y$;;;;;;;;;;x
-FERTILITY_TRIGGER;生育能力 $COMPARISON$$VALUE|Y$%;;;;;;;;;;x
-PLOT_POWER_TRIGGER;阴谋力量 $COMPARISON$$VALUE|Y$%;;;;;;;;;;x
-PLOT_POWER_CONTRIBUTION_TRIGGER;$PLOTTER|Y$对 $PLOT|Y$的阴谋力量的贡献是 $COMPARISON$ $VALUE|Y$%;;;;;;;;;;x
-SCORE_TRIGGER;分数 $COMPARISON$$VALUE|Y$;;;;;;;;;;x
+MAX_POPULATION_TRIGGER;最大人口$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+MANPOWER_AND_POPULATION_GROWTH_TRIGGER;人力与人口总计增长$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+POPULATION_GROWTH_TRIGGER;人口增长$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+POPULATION_FACTOR_TRIGGER;人口$COMPARISON$最大值的 $VALUE|Y$%;;;;;;;;;;x
+HEALTH_TRIGGER;健康$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+BASE_HEALTH_TRIGGER;基础健康$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
+FERTILITY_TRIGGER;生育能力$COMPARISON$ $VALUE|Y$%;;;;;;;;;;x
+PLOT_POWER_TRIGGER;阴谋力量$COMPARISON$ $VALUE|Y$%;;;;;;;;;;x
+PLOT_POWER_CONTRIBUTION_TRIGGER;$PLOTTER|Y$对$PLOT|Y$的阴谋力量贡献$COMPARISON$ $VALUE|Y$%;;;;;;;;;;x
+SCORE_TRIGGER;分数$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 PIETY_TRIGGER;[This.Religion.GetPietyName]$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 PRESTIGE_TRIGGER;威望$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
 DYNASTIC_PRESTIGE_TRIGGER;家族威望$COMPARISON$ $VALUE|Y$;;;;;;;;;;x
