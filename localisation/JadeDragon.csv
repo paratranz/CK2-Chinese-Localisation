@@ -891,9 +891,9 @@ EVTOPTA_JD_40007;唉！我们有祸了……;;;;;;;;;;x
 EVTDESC_JD_40009_A;来自[offmap_china.GetName]的令我愉快的传闻来到了我的宫廷，我被认为是争取皇帝青睐的最有价值的人物之一。;;;;;;;;;;x
 EVTDESC_JD_40009_B;我的宫廷收到了来自[offmap_china.GetName]的传言，说[trade_competition_halftime_winner.GetTitledName]从诸多竞争者中脱颖而出，得到了皇帝的垂青。;;;;;;;;;;x
 EVTOPTA_JD_40009;我当然是。;;;;;;;;;;x
-trade_competition_prestige_halftime_winner_TT;继续拥有在所有参赛者中最高的声望以赢得比赛。;;;;;;;;;;x
+trade_competition_prestige_halftime_winner_TT;继续拥有在所有参赛者中最高的威望以赢得比赛。;;;;;;;;;;x
 EVTOPTB_JD_40009;我必须更加努力地工作以获得应得的回报。;;;;;;;;;;x
-trade_competition_prestige_halftime_loser_TT;获得比其他选手更高的声望以赢得比赛。;;;;;;;;;;x
+trade_competition_prestige_halftime_loser_TT;获得比其他选手更高的威望以赢得比赛。;;;;;;;;;;x
 EVTDESC_JD_40011_A;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n[From.Offmap.Ruler.GetChineseComplimentAdjective] [From.Offmap.Ruler.GetTitle] [From.Offmap.Ruler.GetFullName]很高兴看到您在同行中受到的尊敬。为了表达[offmap_china.Ruler.GetHerHisCap]欣赏，[offmap_china.Ruler.GetSheHeCap]决定在贸易中赐予你优惠待遇。;;;;;;;;;;x
 EVTDESC_JD_40011_B;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n[From.Offmap.Ruler.GetChineseComplimentAdjective][From.Offmap.Ruler.GetTitle][From.Offmap.Ruler.GetFullName]很高兴看到[trade_competition_city_winner.GetName]在同行中受到的尊敬，至于你的声名不显我们同样了然于心。;;;;;;;;;;x
 master_of_flame;龙韬;;;;;;;;;;x
@@ -921,10 +921,10 @@ EVTOPTC_HO_100;哈！好像这帮乌合之众能救得了他们一样！;;;;;;;;
 EVTDESC_HO_120;为了守护佛陀留下的教义，很多信徒团结在一起组建了新的圣战士团体，他们自称[leader_of_ashokas.PrimaryTitle.GetName]，以伟大的皇帝的名字来命名。\n\n在一位狡猾的战士[leader_of_ashokas.GetFirstName]领导下，这个教团发誓成为[leader_of_ashokas.Religion.GetName]统治者抵御外来侵略者的利剑，从而扭转战局。;;;;;;;;;;x
 EVTDESC_HO_130;[leader_of_rishabha.Religion.GetName]宗教的信徒一直遵循着对所有生物的尊重和克制的中心原则，但即使是最和平的人也必须为自己的权利斗争。\n\n因此，一个新圣战士团被建立，名曰[leader_of_rishabha.PrimaryTitle.GetName]。他们向所有的[leader_of_rishabha.Religion.GetName]统治者宣誓效忠并进攻所有想要伤害他们的人。一个最虔诚的[leader_of_rishabha.GetManWoman][leader_of_rishabha.GetFirstName]已承诺，[leader_of_rishabha.GetHerselfHimself]将会为了维护教派的生存之道承担起领导的责任。;;;;;;;;;;x
 TXT_CHINA;中华帝国;;;;;;;;;;x
-OFFMAP_TMP_POWER_FLAG_TRIGGER;拥有临时标志 $FLAG|Y$;;;;;;;;;;x
-OFFMAP_TMP_POWER_FLAG_TRIGGER_NOT;没有一个临时标志$FLAG|Y$;;;;;;;;;;x
-OFFMAP_POWER_FLAG_TRIGGER;拥有标记 $FLAG|Y$;;;;;;;;;;x
-OFFMAP_POWER_FLAG_TRIGGER_NOT;没有标志 $FLAG|Y$;;;;;;;;;;x
+OFFMAP_TMP_POWER_FLAG_TRIGGER;拥有临时标志$FLAG|Y$;;;;;;;;;;x
+OFFMAP_TMP_POWER_FLAG_TRIGGER_NOT;没有临时标志$FLAG|Y$;;;;;;;;;;x
+OFFMAP_POWER_FLAG_TRIGGER;拥有标志$FLAG|Y$;;;;;;;;;;x
+OFFMAP_POWER_FLAG_TRIGGER_NOT;没有标志$FLAG|Y$;;;;;;;;;;x
 TRIBUTARY_LOST_UNLANDED_SETUP;失去朝贡国;;;;;;;;;;x
 TRIBUTARY_LOST_UNLANDED_LOG;因为$UNLANDED|Y$已经没有土地，$TRIBUTARY|Y$不再是$SUZERAIN|Y$的朝贡国。;;;;;;;;;;x
 TRIBUTARY_LOST_VASSALIZED_SETUP;失去朝贡国;;;;;;;;;;x
@@ -943,7 +943,7 @@ suzerain_deserted_reasons;§Y宗主§!没有响应针对他们盟友的防御性
 CALL_ALLY_INTERACTION_LETTER_1;$ENEMYLIST$。\n\n拒绝将会花费我们 §R$PRESTIGE$§! 威望。;;;;;;;;;;x
 CALL_ALLY_INTERACTION_LETTER_ALLY_1;$ENEMYLIST$。\n\n拒绝将会花费我们 §R$PRESTIGE$§! 威望，并且与$ACTOR|Y$之间§R将会解除同盟§!，而且全世界都§R会认为我们是背离盟约者§! 。;;;;;;;;;;x
 CALL_ALLY_INTERACTION_LETTER_ALLY_CONFLICT_1;$ENEMYLIST$。\n\n拒绝将会花费我们 §R$PRESTIGE$§! 威望，并且与$ACTOR|Y$之间§R将会解除同盟§!。;;;;;;;;;;x
-CALL_ALLY_INTERACTION_LETTER_SUZERAIN_1;$ENEMYLIST$.\n\n拒绝将会花费我们 §R$PRESTIGE$§! 声望，而且我们的朝贡国$ACTOR|Y$ §R将会脱离朝贡§!。;;;;;;;;;;x
+CALL_ALLY_INTERACTION_LETTER_SUZERAIN_1;$ENEMYLIST$.\n\n拒绝将会花费我们 §R$PRESTIGE$§! 威望，而且我们的朝贡国$ACTOR|Y$ §R将会脱离朝贡§!。;;;;;;;;;;x
 CALL_ALLY_INTERACTION_LETTER_SUZERAIN_3;\n§R我们将失去以下朝贡国§!，因为他们在战争的另一边：$TRIBUTARIES$。;;;;;;;;;;x
 CALL_ALLY_INTERACTION_LETTER_ALLIANCE_3;\n§R我们将打破以下盟约§!，因为他们在战争的另一边： $ALLIES$。;;;;;;;;;;x
 WAR_INVALID_AGAINST_SUZERAIN;\n（$CB$不能被用于对抗您的§Y宗主§!）;;;;;;;;;;x
@@ -1445,7 +1445,7 @@ b_tangrongcun;唐荣;;;;;;;;;;x
 b_gangdoz;甘托克;;;;;;;;;;x
 b_mangan;曼甘;;;;;;;;;;x
 b_gyalshing;吉亚尔斯兴格;;;;;;;;;;x
-b_namchi;纳姆奇;;;;;;;;;;x
+b_namchi;纳姆吉;;;;;;;;;;x
 b_rumtheg;隆德;;;;;;;;;;x
 b_ralang;拉朗;;;;;;;;;;x
 b_rangpo;朗格波;;;;;;;;;;x
@@ -1486,7 +1486,7 @@ b_nagarze;浪卡子;;;;;;;;;;x
 b_gonggar;贡嘎;;;;;;;;;;x
 b_bumthang;布姆唐;;;;;;;;;;x
 b_jambay;降白;;;;;;;;;;x
-b_kongchogsum;孔雀石;;;;;;;;;;x
+b_kongchogsum;克楚寺;;;;;;;;;;x
 b_trongsa;通萨;;;;;;;;;;x
 b_singye;辛格;;;;;;;;;;x
 b_trashigang;扎西岗;;;;;;;;;;x
@@ -1512,7 +1512,7 @@ GOD_DESI;戴西;;;;;;;;;;x
 GOD_WESHPARKAR;维施帕卡;;;;;;;;;;x
 GOD_PARN;班;;;;;;;;;;x
 GOD_NANAIYA;纳奈雅;;;;;;;;;;x
-GOD_WISHAGHN;威沙恩;;;;;;;;;;x
+GOD_WISHAGHN;韦勒斯拉纳;;;;;;;;;;x
 GOD_ZARVANA;泽瓦纳;;;;;;;;;;x
 patrons_khu;选择一个守护神;;;;;;;;;;x
 patrons_khu_desc;你可以在众多守护神中选出一个。;;;;;;;;;;x
@@ -1524,11 +1524,11 @@ EVTOPTA_39801;维施帕卡，祆教风神;;;;;;;;;;x
 EVTOPTB_39801;韦勒斯拉纳，胜利之神;;;;;;;;;;x
 EVTOPTC_39801;楚尔凡，时间之神;;;;;;;;;;x
 EVTOPTD_39801;再想想……;;;;;;;;;;x
-patron_desi;守护神:德西;;;;;;;;;;x
+patron_desi;守护神：戴西;;;;;;;;;;x
 patron_parn;守护神：班;;;;;;;;;;x
 patron_nanaiya;守护神：纳奈雅;;;;;;;;;;x
 patron_weshparkar;守护神：维施帕卡;;;;;;;;;;x
-patron_wishaghn;守护神：乌鲁斯拉格纳;;;;;;;;;;x
+patron_wishaghn;守护神：韦勒斯拉纳;;;;;;;;;;x
 patron_zurvan;守护神：楚尔凡;;;;;;;;;;x
 VAYNPAT;威因皮特;;;;;;;;;;x
 job_spiritual_khurmazta;穆贝德;;;;;;;;;;x
@@ -1547,14 +1547,14 @@ ca_desert_stable_4;沙漠骑兵;;;;;;;;;;x
 form_st_anthony_desc;召集战士来保卫基督合性派信仰。;;;;;;;;;;x
 form_st_anthony;成立圣安东尼骑士团;;;;;;;;;;x
 EVTDESC39810;由于世界陷入了圣战的时代，[From.GetTitledName]召集了这片土地最伟大的战士们来保卫亚历山大牧首。最新成立的圣安东尼骑士团会保卫基督合性派信仰，抵抗所有异教徒。;;;;;;;;;;x
-EVTTITLE39810;圣安东尼的指示;;;;;;;;;;x
+EVTTITLE39810;圣安东尼骑士团;;;;;;;;;;x
 EVT_39810_TT;圣安东尼骑士团成立了;;;;;;;;;;x
-RULE_SIEGE_ASSAULTS;围攻攻击;;;;;;;;;;x
+RULE_SIEGE_ASSAULTS;强攻围城;;;;;;;;;;x
 RULE_SIEGE_ASSAULTS_ON_DESC;如果围攻中的领地要塞等级低于 6，军队可以尝试强攻。;;;;;;;;;;x
-RULE_SIEGE_ASSAULTS_UNLIMITED_DESC;军队可以随时尝试采取强攻攻取领地。;;;;;;;;;;x
+RULE_SIEGE_ASSAULTS_UNLIMITED_DESC;军队随时可以尝试采取强攻攻取领地。;;;;;;;;;;x
 RULE_SIEGE_ASSAULTS_OFF_DESC;军队无法采取强攻攻取领地。;;;;;;;;;;x
-ASSAULT_FORT_LEVEL_TOO_HIGH;不能攻击要塞等级在$LEVEL|Y$或以上的领地;;;;;;;;;;x
-COMBATVALUE_MORALE_SIEGE;§Y士气：§! $MORALE$\n每$FREQ|Y$天减少$DELTA|R$;;;;;;;;;;x
+ASSAULT_FORT_LEVEL_TOO_HIGH;不能攻击要塞等级在 $LEVEL|Y$ 或以上的领地;;;;;;;;;;x
+COMBATVALUE_MORALE_SIEGE;§Y士气：§!$MORALE$\n每 $FREQ|Y$ 天减少 $DELTA|R$;;;;;;;;;;x
 SIEGE_TECH_DIFF;围攻科技差异;;;;;;;;;;x
 assyrian;亚述人;;;;;;;;;;x
 form_st_addai_desc;召集勇士们守护景教信仰。;;;;;;;;;;x
@@ -1566,7 +1566,7 @@ manichean_DESC;摩尼教是由所谓的先知摩尼所创立的诺斯底主义�
 d_manichean;摩尼教教会;;;;;;;;;;x
 YAMAG;阎摩;;;;;;;;;;x
 job_spiritual_manichean;导师;;;;;;;;;;x
-organize_army_light;创立光之军;;;;;;;;;;x
+organize_army_light;创立光明军;;;;;;;;;;x
 organize_army_light_desc;随着十字军远征和新吉哈德时代到来，你有责任召集勇士们守卫摩尼教信仰。;;;;;;;;;;x
 celebrate_bema_desc;举办庇麻节来纪念先知摩尼的生平。;;;;;;;;;;x
 bema_celebrations;举办庇麻节;;;;;;;;;;x
@@ -1574,7 +1574,7 @@ EVTDESC39812;庇麻节是我们摩尼教最重要的宗教活动，是为了纪�
 EVTOPTA39812;发送邀请;;;;;;;;;;x
 EVTTOOLTIP_39813;庇麻节邀请已发出;;;;;;;;;;x
 EVTDESC39813;你的君主[From.GetTitledFirstName]邀请你参加今年由[From.GetSheHe]举办的庇麻节。仪式盛宴举行于春分时节，主题是缅怀先知摩尼的生平事迹。;;;;;;;;;;x
-EVTOPTA39813;真仁慈!;;;;;;;;;;x
+EVTOPTA39813;真仁慈！;;;;;;;;;;x
 EVTOPTB39813;可惜，我还有别的计划。;;;;;;;;;;x
 EVTDESC39814;[From.GetTitledFirstName]拒绝了你关于庇麻节的邀请，[From.GetSheHe]声称有其他的计划。;;;;;;;;;;x
 EVTOPTA39814;我明白了。;;;;;;;;;;x
@@ -1628,14 +1628,14 @@ OFFMAP_LIKES_AND_DISLIKES_DESC;§L天子有着不同的兴趣和品味。这对�
 OFFMAP_DISLIKES_TOOLTIP;天子厌恶$CURRENT|Y$;;;;;;;;;;x
 OFFMAP_DYNASTY_DESC;现在的皇朝是$DYNASTY|Y$，出自$CULTURE|Y$。;;;;;;;;;;x
 OFFMAP_RULER_DESC;§Y天子$NAME$§!\n年龄：$AGE|Y$\n文化：$CULTURE|Y$\n宗教：$RELIGION|Y$;;;;;;;;;;x
-SET_OFFMAP_LIKE_RANDOM;$OFFMAP|Y$ 现在喜爱其他东西;;;;;;;;;;x
-SET_OFFMAP_LIKE;$OFFMAP|Y$ 现在喜爱 $LIKE|Y$;;;;;;;;;;x
-SET_OFFMAP_DISLIKE_RANDOM;$OFFMAP|Y$现在喜欢其他东西了;;;;;;;;;;x
+SET_OFFMAP_LIKE_RANDOM;$OFFMAP|Y$现在喜欢其他东西;;;;;;;;;;x
+SET_OFFMAP_LIKE;$OFFMAP|Y$现在喜欢$LIKE|Y$;;;;;;;;;;x
+SET_OFFMAP_DISLIKE_RANDOM;$OFFMAP|Y$现在讨厌其他东西了;;;;;;;;;;x
 SET_OFFMAP_DISLIKE;$OFFMAP|Y$现在讨厌$LIKE|Y$;;;;;;;;;;x
 RULE_SIEGE_EVENTS;围攻事件;;;;;;;;;;x
 RULE_SIEGE_EVENTS_ON_DESC;围攻战期间攻防双方都有可能发生各种事件。;;;;;;;;;;x
-RULE_SIEGE_EVENTS_OFF_DESC;任何一方都不会出现常规围攻事件.;;;;;;;;;;x
-RULE_SIEGE_EVENTS_DEFENDERS_DESC;围攻事件仅可能影响防御方.;;;;;;;;;;x
+RULE_SIEGE_EVENTS_OFF_DESC;任何一方都不会出现常规围攻事件。;;;;;;;;;;x
+RULE_SIEGE_EVENTS_DEFENDERS_DESC;围攻事件仅可能影响防御方。;;;;;;;;;;x
 RULE_OPTION_DEFENDERS;防御方;;;;;;;;;;x
 RULE_GROUP_MP;多人游戏;;;;;;;;;;x
 RULE_OPTION_NO_CLOSE_PLAYER_RELATIVES;非玩家亲属;;;;;;;;;;x
@@ -1667,7 +1667,7 @@ sadah_begins;火焰燃起来……;;;;;;;;;;x
 jd_held_sadah_timer;举办火节;;;;;;;;;;x
 opinion_refused_sadah;拒绝火节邀请;;;;;;;;;;x
 opinion_held_sadah;举办火节庆典;;;;;;;;;;x
-EVTDESC39820;根据传说，波斯王Hushang发现了火的秘密并将其拿去造福人类。我们通过‘火’节纪念此事。举办它同时也为了赞美火并抵御黑暗，寒冷和野兽的力量。;;;;;;;;;;x
+EVTDESC39820;根据传说，波斯王Hushang发现了火的秘密并将其拿去造福人类。我们通过「火节」纪念此事。举办它同时也为了赞美火并抵御黑暗，寒冷和野兽的力量。;;;;;;;;;;x
 EVTOPTA39820;发出邀请！;;;;;;;;;;x
 EVTDESC39821;你的领主，[From.GetTitledName]，寄给你一张参加火节的请帖，这个节日是为了崇拜火焰的伟大并祈求春天来临。;;;;;;;;;;x
 EVTOPTA39821;我当然会参加！;;;;;;;;;;x
@@ -1679,7 +1679,7 @@ EVTOPTA39823;那些不愿给出树枝的人，愿主拒绝他们的愿望！;;;;
 EVTDESC39824;所有关于火节的一切都准备好了。庙里充满了信徒，人们为火焰收集了木材，节日气氛正在变浓。;;;;;;;;;;x
 EVTOPTA39824;我必须确保也带些木头;;;;;;;;;;x
 EVTDESC39825;一群祭司把圣火带到正殿王座。你的封臣们会跟随他们并被仆人安排到各自的位置上。;;;;;;;;;;x
-EVTOPTA39825;让我们庆贺奥赫马兹德的荣耀!;;;;;;;;;;x
+EVTOPTA39825;让我们庆贺奥尔马兹德的荣耀!;;;;;;;;;;x
 EVTDESC39826;一众祭司从附近的寺庙带来了圣火。你和其他客人跟从他们前往你的领主的宴会厅，你坐在宴桌旁一个指定的座位上。;;;;;;;;;;x
 EVTDESC39827;庆典活动终于结束了。在外面篝火熊熊燃烧的时候，你已经好好的美餐一顿，成功驱赶走了霜冻和冰冷的恶魔。很快夏日的阳光就会照耀在我们身上。;;;;;;;;;;x
 EVTOPTA39827;直到下回！;;;;;;;;;;x
@@ -1705,9 +1705,9 @@ EVTOPT39830_HUMBLE;我也要去采集些骆驼刺来生火……;;;;;;;;;;x
 EVTOPT39830_SOLDIER;这祝福将会在战斗中帮助我！;;;;;;;;;;x
 EVTOPT39830_SCHOLAR;和穆贝德祭司们交谈真是令人沉醉。;;;;;;;;;;x
 EVTOPT39831_HEDONIST;我想我会混入平民中的……;;;;;;;;;;x
-EVTOPT39831_CYNIC;这简直是在耽误我的时间…;;;;;;;;;;x
+EVTOPT39831_CYNIC;这简直是在耽误我的时间……;;;;;;;;;;x
 EVTOPT39831_GREG;一个与其他领主交谈的绝佳机会！;;;;;;;;;;x
-EVTOPT39831_STRESSED;这种节日能相当放松…;;;;;;;;;;x
+EVTOPT39831_STRESSED;这种节日相当放松……;;;;;;;;;;x
 LOOT_PROVINCE_DESC;§Y省份遭受劫掠§!\n税收修正：$PERC$\n被堡垒等级保护数额：§Y$FORT_PROT$¤§!\n最大劫掠数额：§Y$MAX_LOOT$¤§!\n潜在的劫掠数额：§Y$LOOT$¤§!;;;;;;;;;;x
 COUNTY_LOOT_DESC;§L这个数值表示基于省份人口提供的可掠夺财富的金额，遭受掠夺时将会被洗劫一空，并降低该省份税收，直到从创伤中完全恢复。§!;;;;;;;;;;x
 TAX_VALUE;§Y税收价值§!;;;;;;;;;;x
@@ -1728,10 +1728,10 @@ EVTDESC_JD_50001_NEW_POLICY;以[FromFrom.GetPossPronoun] [From.Offmap.GetPrevPol
 EVTOPT_JD_50001_OPEN;又可以做生意了！;;;;;;;;;;x
 EVTOPT_JD_50001_ISO;[From.GetEmperorEmpress]前往[GetChinaIsolationPastime]的时间到了么？;;;;;;;;;;x
 EVTOPT_JD_50001_EXP;一个扩张主义的[From.GetEmperorEmpress]？这可不是件好事……;;;;;;;;;;x
-EVTDESC_JD_50021_OPEN;天朝现在放弃了 [FromFrom.GetPrevPolicy] 的政策并如常一样开放商路.;;;;;;;;;;x
+EVTDESC_JD_50021_OPEN;天朝现在放弃了[FromFrom.GetPrevPolicy]的政策并如常一样开放商路。;;;;;;;;;;x
 EVTDESC_JD_50021_ISO;中国已从[FromFrom.GetPrevPolicy]转向闭关锁国。中华帝国的皇帝[FromFrom.Ruler.GetDynName]为了[GetChinaIsolationPastime]，已对围绕着中土的蛮夷关闭了边境。;;;;;;;;;;x
 EVTDESC_JD_50021_EXP;中国伟大的[FromFrom.Ruler.GetEmperorEmpress][FromFrom.Ruler.GetDynName]突然对世界的其他部分有了兴趣，特别是西方。这个新的扩张政策将警告着那些还没给中国朝贡的邻国君主。\n\n巨龙醒了。;;;;;;;;;;x
-EVTOPT_JD_50021_ISO;留给[FromFrom.Ruler.GetEmperorEmpress] 完成[FromFrom.Ruler.GetPossPronoun] 的时间不多了……;;;;;;;;;;x
+EVTOPT_JD_50021_ISO;[FromFrom.Ruler.GetEmperorEmpress]完成[FromFrom.Ruler.GetPossPronoun]安神养性的时间到了……;;;;;;;;;;x
 String_Iso_Peach_Gardens;注重皇家桃园;;;;;;;;;;x
 String_Iso_Giant_Mausoleum;建造一个巨大的陵墓;;;;;;;;;;x
 String_Iso_Calligraphy;练习书法艺术;;;;;;;;;;x
@@ -1781,11 +1781,11 @@ EVTDESC_JD_50281_UNREST;中国长期的动乱与分散的农民叛乱已经爆�
 EVTOPT_JD_50281;一个家族分裂了……;;;;;;;;;;x
 EVTDESC_JD_50301;天朝的内战戛然而止。[FromFrom.Ruler.GetDynName][FromFrom.Ruler.GetEmperorEmpress]在[GetRandomChineseRegion]击溃叛军主力，结束了多年的战乱，终止了保皇派、暴动的僧众、觊觎皇位的宗室和野心勃勃的都督间不停变换的结盟。中土的情况正在逐渐正常化，丝绸之路再一次变得安全。;;;;;;;;;;x
 EVTOPT_JD_50301;太棒了，我们需要一些新的绫罗绸缎！;;;;;;;;;;x
-EVTDESC_JD_50302_HAN_DYNASTY;在经年累月的背刺与断盟后，中国内战终于结束了。在前[GetRandomChineseRegion]省督将御林军和其他叛贼势力一并击败后，外来王朝被推翻，这位汉人[FromFrom.Ruler.GetEmperorEmpress][FromFrom.Ruler.GetDynName]坐了龙庭。中国一切逐渐归于常态，丝绸之路也再度安全无虞了。;;;;;;;;;;x
-EVTDESC_JD_50302_NEW_DYNASTY;在经年累月的背刺与断盟后，中国内战终于结束了。一个来自[GetRandomChineseRegion]的善战道士获得了最终的胜利，登基为[FromFrom.Ruler.GetEmperorEmpress][FromFrom.Ruler.GetDynName]。这位出身布衣的新[FromFrom.Ruler.GetEmperorEmpress]业已扫除了旧政权的腐败官僚。中国一切逐渐归于常态，丝绸之路也再度安全无虞了。;;;;;;;;;;x
+EVTDESC_JD_50302_HAN_DYNASTY;经过多年扑朔迷离的战事与尔虞我诈的盟誓后，中国内战终于结束了。在前[GetRandomChineseRegion]都督将前朝顽孽和叛贼势力一并击败后，外来王朝被推翻，这位汉人[FromFrom.Ruler.GetEmperorEmpress][FromFrom.Ruler.GetDynName]坐了龙庭。中国一切逐渐归于常态，丝绸之路也再度安全无虞了。;;;;;;;;;;x
+EVTDESC_JD_50302_NEW_DYNASTY;经过多年扑朔迷离的战事与尔虞我诈的盟誓后，中国内战终于结束了。一个来自[GetRandomChineseRegion]的善战道士获得了最终的胜利，登基为[FromFrom.Ruler.GetEmperorEmpress][FromFrom.Ruler.GetDynName]。这位出身布衣的新[FromFrom.Ruler.GetEmperorEmpress]业已扫除了旧政权的腐败官僚。中国一切逐渐归于常态，丝绸之路也再度安全无虞了。;;;;;;;;;;x
 EVTOPT_JD_50302_BROKEN_PEACE_DEAL;该死的，我和中国达成的和平协议没了！;;;;;;;;;;x
-EVTDESC_JD_50303;在经年累月的背刺与断盟后，中国内战终于以旧政权垮台告终。而 [FromFrom.Ruler.GetEmperorEmpress] [FromFrom.Ruler.GetDynName]。一位曾经[FromFrom.Ruler.Dynasty.GetName]的王子获得了胜利，坐在了龙椅上。中国的事态正在慢慢恢复正常，丝绸之路又安全了。;;;;;;;;;;x
-temple_baron_khurmazta;瓦朗;;;;;;;;;;x
+EVTDESC_JD_50303;经过多年扑朔迷离的战事与尔虞我诈的盟誓后，中国内战终于以旧政权垮台告终。而[FromFrom.Ruler.GetEmperorEmpress][FromFrom.Ruler.GetDynName]。一位曾经的[FromFrom.Ruler.Dynasty.GetName]王子获得了胜利，坐在了龙椅上。中国的事态正在慢慢恢复正常，丝绸之路又安全了。;;;;;;;;;;x
+temple_baron_khurmazta;瓦赫兰;;;;;;;;;;x
 pagan_group_FEATURES;§Y*§! 女性可以担任间谍总管职务;;;;;;;;;;x
 pagan_FEATURES;§Y*§! 传教效率低下\n§Y*§! 统治者无法发动圣战;;;;;;;;;;x
 norse_pagan_FEATURES;§Y*§! 传教效率低下\n§Y*§! 统治者无法发动圣战;;;;;;;;;;x
@@ -1797,7 +1797,7 @@ west_african_pagan_FEATURES;§Y*§! 传教效率低下\n§Y*§! 统治者无法�
 zun_pagan_FEATURES;§Y*§! 传教效率低下\n§Y*§! 统治者无法发动圣战;;;;;;;;;;x
 hellenic_pagan_FEATURES;§Y*§! 传教效率低下\n§Y*§! 统治者无法发动圣战;;;;;;;;;;x
 bon_FEATURES;§Y*§! 统治者可以选择一个守护神进行崇拜\n§Y*§! 传教效率低下\n§Y*§! 统治者无法发动圣战;;;;;;;;;;x
-pet_masterless_dog;守护者沃胡马纳;;;;;;;;;;x
+pet_masterless_dog;沃胡马纳守护者;;;;;;;;;;x
 pet_masterless_dog_desc;这个角色是一只无主之犬的保护者，这只狗保护他的家庭免于恶灵侵犯。;;;;;;;;;;x
 pet_house_dog;家犬;;;;;;;;;;x
 pet_house_dog_desc;这个角色接纳了一只狗，这只狗将保护他免于恶灵侵犯。;;;;;;;;;;x
