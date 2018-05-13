@@ -748,7 +748,7 @@ MNM.7502.d;[From.GetTitledFirstName]被五花大绑着从[From.GetHerHis]牢房�
 MNM.7502.a;缺少好的祭品。;;;;;;;;;;x
 MNM.7503.d;你的手下把可怜的[From.GetFirstName]丢到了祭坛上，并将[From.GetHerHim]紧紧地绑在了上面。你走上前去，在[From.GetSheHe]看到你手中的刀时，[From.GetHerHis]困惑马上变成了恐惧。[From.GetHerHisCap]痛苦尖叫只持续了一会儿，你的利刃就割开了这个人的喉咙。;;;;;;;;;;x
 MNM.7503.a;[Root.GetDWDevil]渴望无辜的灵魂。;;;;;;;;;;x
-MNM.7504.a;一个献给[Root.GetDWDevil]的处男（或处女）！;;;;;;;;;;x
+MNM.7504.a;一个献给[Root.GetDWDevil]的童贞！;;;;;;;;;;x
 MNM.7505.d;当[From.GetTitledFirstName]被拖到祭坛上时，[From.GetSheHe]看上去还有些茫然，但你绑住[From.GetSheHe]时[From.GetHerHis]脸上现出恍然大悟的神色。你无视了[From.GetHerHis]乞求，开始高唱起对[Root.GetDWDevil]的颂歌。终于时候到了，你将手中的匕首划过一道高高的弧线，插向了[From.GetTitledFirstName]的心脏。;;;;;;;;;;x
 MNM.7505.a;[Root.GetDWDevil]万岁！;;;;;;;;;;x
 MNM.7506.d;你与把你绑在祭坛上的束缚奋力搏斗，但桎梏没有任何松懈。当邪恶的颂歌越来越响时，你看到[From.GetTitledFirstName]拿着匕首渐渐走近。你加倍努力想要逃跑，但是[From.GetTitledFirstName]已经双手将匕首越过[From.GetHerHis]头顶高高举起。你刚觉得自己右手的绳索开始松动，[From.GetTitledFirstName]就把刀刃刺进了你的心脏。;;;;;;;;;;x
@@ -1148,7 +1148,7 @@ String_men;男人;;;;;;;;;;x
 String_women;女人;;;;;;;;;;x
 String_man;男人;;;;;;;;;;x
 String_woman;女人;;;;;;;;;;x
-String_doing_penance;告解;;;;;;;;;;x
+String_doing_penance;忏悔;;;;;;;;;;x
 String_in_meditation;冥想;;;;;;;;;;x
 String_prayers;祈祷;;;;;;;;;;x
 String_mantras;念咒;;;;;;;;;;x
@@ -1170,7 +1170,7 @@ String_the_Advaita_Matha;不二论修会;;;;;;;;;;x
 String_the_Savaka_Sangha;声闻僧伽;;;;;;;;;;x
 String_powerful_ruler;强力统治者;;;;;;;;;;x
 String_servant_of_GetHighGodName;[This.Religion.GetHighGodName]的仆人;;;;;;;;;;x
-String_virgin;处男（或处女）;;;;;;;;;;x
+String_virgin;童贞;;;;;;;;;;x
 String_dwarf;侏儒;;;;;;;;;;x
 opinion_successful_corruption;释放我的堕落;;;;;;;;;;x
 opinion_failed_corruption;提出堕落建议;;;;;;;;;;x
@@ -1761,7 +1761,7 @@ EVTOPTA_MNM_4403_GOD;[Root.GetMOGod] 将是我的同伴;;;;;;;;;;x
 EVTOPTA_MNM_4403_NOGOD;在孤独中找到了平静;;;;;;;;;;x
 monastic_order_penance;忏悔;;;;;;;;;;x
 monastic_order_penance_desc;§Y[Root.GetTitledFirstName]§!可以隔绝[Root.GetHerselfHimself]并沉思他们的人生和罪过以成为一个更好的[Root.GetReligiousPerson]信徒。;;;;;;;;;;x
-monastic_order_penance_allow_tt;§Y[Root.GetTitledFirstName]§! 近期没有闭门思过。\n;;;;;;;;;;x
+monastic_order_penance_allow_tt;§Y[Root.GetTitledFirstName]§!近期没有闭门忏悔。\n;;;;;;;;;;x
 monastic_order_meditation;开始闭关冥想;;;;;;;;;;x
 monastic_order_meditation_desc;§Y[Root.GetTitledFirstName]§!可以隔绝[Root.GetHerselfHimself]并沉思宇宙和他们的生命来更接近心灵的启迪。;;;;;;;;;;x
 monastic_order_meditation_allow_tt;§Y[Root.GetTitledFirstName]§! 近期没有闭关冥想。\n;;;;;;;;;;x
@@ -1964,90 +1964,90 @@ stop_artifact_search_desc;要求§Y[Root.GetTitledFirstName]§!停止对传闻�
 stop_artifact_search_effect_tt;这次搜寻宝物的行动结束了。只要传闻仍然存在，一名新的内阁成员就可以被任命去领导搜寻行动。;;;;;;;;;;x
 EVTDESC_MNM_9030;[Root.relic_score.GetValue];;;;;;;;;;x
 pays_for_artifact_hunt_minor;为寻宝活动付款;;;;;;;;;;x
-pays_for_artifact_hunt_minor_desc;这个角色指派内阁成员中的一位去搜索一件传说中的宝物。;;;;;;;;;;x
+pays_for_artifact_hunt_minor_desc;这个角色付钱给一位内阁成员去搜寻一件传说中的宝物。;;;;;;;;;;x
 pays_for_artifact_hunt_medium;为寻宝活动付款;;;;;;;;;;x
-pays_for_artifact_hunt_medium_desc;这个角色指派内阁成员中的一位去搜索宝物。;;;;;;;;;;x
+pays_for_artifact_hunt_medium_desc;这个角色付钱给一位内阁成员去搜寻宝物。;;;;;;;;;;x
 pays_for_artifact_hunt_major;为寻宝活动付款;;;;;;;;;;x
-pays_for_artifact_hunt_major_desc;这个角色指派内阁成员中的一位去搜索宝物。;;;;;;;;;;x
-EVTDESC_MNM_9009_A;[relic_hunter.GetJobTitle] [relic_hunter.GetFirstName]带来了一些令人遗憾的消息。距离我们首次发现宝物的传闻已经过了很多年，现在这条线索已经过时了。已经没有希望找到失去的宝藏了，搜索不得不取消。;;;;;;;;;;x
-EVTDESC_MNM_9009_B;[relic_hunter.GetJobTitle] [relic_hunter.GetFirstName]不再能够执行[relic_hunter.GetHerHis]搜寻传闻中财宝的使命了。我能够选择另一名内阁成员去代替[relic_hunter.GetHerHim]。;;;;;;;;;;x
-EVTDESC_MNM_9029;[Root.Religion.GetRandomEvilGodNameCap]一定对我和我寻回失落宝物的旅途施以了诅咒，因为我刚刚得知一个可怕的消息！[relic_hunter.GetJobTitle] [relic_hunter.GetFirstName]在搜寻宝物时死于无法解释的意外。;;;;;;;;;;x
-EVTOPTA_MNM_9029;[relic_hunter.GetFirstName]现在是[Root.Religion.GetHighGodName]了。;;;;;;;;;;x
+pays_for_artifact_hunt_major_desc;这个角色付钱给一位内阁成员去搜寻宝物。;;;;;;;;;;x
+EVTDESC_MNM_9009_A;[relic_hunter.GetJobTitle][relic_hunter.GetFirstName]带来了一些令人遗憾的消息。距离我们首次发现宝物的传闻已经过了很多年，现在这条线索已经过时了。已经没有希望找到失去的宝藏了，搜索不得不取消。;;;;;;;;;;x
+EVTDESC_MNM_9009_B;[relic_hunter.GetJobTitle][relic_hunter.GetFirstName]不再能够执行[relic_hunter.GetHerHis]搜寻传闻中财宝的使命了。我能够选择另一名内阁成员去代替[relic_hunter.GetHerHim]。;;;;;;;;;;x
+EVTDESC_MNM_9029;[Root.Religion.GetRandomEvilGodNameCap]一定对我和我寻回失落宝物的旅途施以了诅咒，因为我刚刚得知一个可怕的消息！[relic_hunter.GetJobTitle][relic_hunter.GetFirstName]在搜寻宝物时死于无法解释的意外。;;;;;;;;;;x
+EVTOPTA_MNM_9029;[relic_hunter.GetFirstName]魂归[Root.Religion.GetHighGodName]了。;;;;;;;;;;x
 quest_the_assassins_protege_desc;一些刺客的名字将永存于世。这些非凡的[Root.GetMenWomen]一生都在学习和实践刺客的艺术——伪装、渗透、战斗和战争策略，以及敌人的习俗和语言。寻找和培养下一代闪耀之星是一项落到你身上的责任。;;;;;;;;;;x
-quest_the_assassins_protege_tooltip;必须开始并完成对门徒的培养以完成任务。§Y[Root.GetTitledFirstName]§!将会寻找一名合适的候选人。当一个目标被定位，一个事件就会出现。;;;;;;;;;;x
+quest_the_assassins_protege_tooltip;要完成这项任务，你必须开始并完成对门徒的培养。§Y[Root.GetTitledFirstName]§!将会寻找一名合适的候选人。当一个目标被定位，事件就会出现。;;;;;;;;;;x
 quest_the_assassins_assassination;暗杀[FromFrom.GetTitledFirstName];;;;;;;;;;x
 quest_the_assassins_assassination_desc;刺客们喜欢将他们的敌人吓破胆，但是背后没有分量的威胁并不能吓住敌人们。因此，为了在任何胆敢反对他们的人心中制造恐惧，教团决定在公共场所行刺他们最大的敌人。你的任务是刺杀§Y[FromFrom.GetTitledFirstName]§!，这是一种惩罚，因为[FromFrom.GetHerHis]罪行违背了教团和真正的信仰。;;;;;;;;;;x
-quest_the_assassins_assassination_tooltip;§Y[Root.GetTitledFirstName]§!必须成功完成一次对[Root.GetHerHis]目标，§Y[FromFrom.GetTitledFirstName]§!的谋杀阴谋以完成任务。通过在§Y[FromFrom.GetTitledFirstName]§!的头像上右键点击并选择§Y密谋杀死§!的外交行动以开始阴谋。;;;;;;;;;;x
+quest_the_assassins_assassination_tooltip;要完成这项任务，§Y[Root.GetTitledFirstName]§!必须成功完成对[Root.GetHerHis]目标，§Y[FromFrom.GetTitledFirstName]§!的谋杀密谋。通过在§Y[FromFrom.GetTitledFirstName]§!的头像上右键点击并选择§Y密谋杀死§!的外交行动以发起密谋。;;;;;;;;;;x
 quest_the_assassins_convert_province;使[FromFrom.GetName]皈依什叶派;;;;;;;;;;x
-quest_the_assassins_convert_province_desc;对于阿萨辛来说最重要的目标就是保护拥有真正信仰的信徒，并将安拉、穆罕默德和阿里的话传遍世界上的每一个角落，总有一天即使是最偏远的土地也会皈依。但首先我们必须从距离我们较近的目标开始，你的任务是将[FromFrom.GetName]转变为什叶派。;;;;;;;;;;x
-quest_the_assassins_convert_province_tooltip;为了完成这个任务，必须把[FromFrom.GetName]伯爵领的信仰变为什叶派。派遣你的宫廷毛拉在那里§Y「传教」§!，使[FromFrom.GetName]改信。;;;;;;;;;;x
+quest_the_assassins_convert_province_desc;对于阿萨辛来说最重要的目标就是保护拥有真正信仰的信徒，并将安拉、穆罕默德和阿里的话传遍世界上的每一个角落。总有一天即使是最偏远的土地也会皈依，但首先我们必须从距离我们较近的目标开始，你的任务是让[FromFrom.GetName]皈依什叶派。;;;;;;;;;;x
+quest_the_assassins_convert_province_tooltip;要完成这个任务，必须把[FromFrom.GetName]伯爵领的信仰变为什叶派。派遣你的宫廷毛拉在那里§Y「传教」§!，使[FromFrom.GetName]皈依。;;;;;;;;;;x
 quest_the_assassins_collect_debt;从[FromFrom.GetTitledFirstName]处收债;;;;;;;;;;x
-quest_the_assassins_collect_debt_desc;§Y[FromFrom.GetTitledFirstName]§!从这次订单中欠下了大量的黄金。到了偿还日期时，[FromFrom.GetSheHe]这个老赖拒绝支付。我们的任务是恐吓§Y[FromFrom.GetTitledFirstName]§!让[FromFrom.GetSheHe]乖乖支付[FromFrom.GetHerHis]他的订单。;;;;;;;;;;x
-quest_the_assassins_collect_debt_tooltip;要完成任务，§Y[Root.GetTitledFirstName]§!必须成功完成一次对[Root.GetHerHis]目标，§Y[FromFrom.GetTitledFirstName]§!的收债阴谋。在密谋菜单选择§Y向[FromFrom.GetFirstName]收债§!以开始这个阴谋。;;;;;;;;;;x
-quest_the_assassins_occupy_holding;占据了[FromFrom.GetName];;;;;;;;;;x
+quest_the_assassins_collect_debt_desc;§Y[FromFrom.GetTitledFirstName]§!欠下了教团大量的黄金。到了偿还日期时，[FromFrom.GetSheHe]这个老赖拒绝支付。我们的任务是恐吓§Y[FromFrom.GetTitledFirstName]§!让[FromFrom.GetSheHe]乖乖还[FromFrom.GetHerHis]钱。;;;;;;;;;;x
+quest_the_assassins_collect_debt_tooltip;要完成这项任务，§Y[Root.GetTitledFirstName]§!必须成功完成对[Root.GetHerHis]目标，§Y[FromFrom.GetTitledFirstName]§!的收债密谋。在密谋菜单选择§Y向[FromFrom.GetFirstName]收债§!以开始这个密谋。;;;;;;;;;;x
+quest_the_assassins_occupy_holding;占领[FromFrom.GetName];;;;;;;;;;x
 quest_the_assassins_occupy_holding_desc;为了保护真正的信仰，阿萨辛们必须有时对异教徒进行先发制人的打击。你应该攻击我们的某个敌人的战略要冲，位于[FromFrom.Location.County.GetName]中[FromFrom.GetName]的[FromFrom.GetHolding]。当[FromFrom.GetHolding]在我们的控制之下时，你的任务就完成了。;;;;;;;;;;x
-quest_the_assassins_occupy_holding_tooltip;对§Y[FromFrom.Holder.Realm.Holder.GetTitledName]§!宣战并且围攻在伯爵领[FromFrom.Location.GetName]上的[FromFrom.GetName]地产直到它处于§Y[Root.GetTitledFirstName]§!的控制以完成任务。;;;;;;;;;;x
+quest_the_assassins_occupy_holding_tooltip;要完成这项任务，对§Y[FromFrom.Holder.Realm.Holder.GetTitledName]§!宣战并且围攻在伯爵领[FromFrom.Location.GetName]上的[FromFrom.GetName]领地直到它处于§Y[Root.GetTitledFirstName]§!的控制下。;;;;;;;;;;x
 quest_devil_worshipers_corrupt_priest;腐化[FromFrom.GetTitledFirstName];;;;;;;;;;x
-quest_devil_worshipers_corrupt_priest_desc;[Root.Religion.GetHighGodName]的[Root.Religion.GetPriestTitle]们都是迟钝的蠢货。§Y[FromFrom.GetTitledFirstName]§! 领导着[From.GetHerHis]怯懦的羊群走向一条只会带来虚弱和停滞的道路。你决定给[FromFrom.GetHerHim]指引一个新的方向。;;;;;;;;;;x
-quest_devil_worshipers_corrupt_priest_tooltip;在§Y[FromFrom.GetTitledFirstName]§!的头像上§G点击右键§!，选择§Y使[FromFrom.Religion.GetPriestTitle]堕落§!并成功使[FromFrom.GetHerHim]堕落以完成该任务。;;;;;;;;;;x
-quest_devil_worshipers_desecrate_temple;亵渎了[FromFrom.GetName]的神殿;;;;;;;;;;x
-quest_the_devil_worshipers_sacrifice_ruler;献祭一名领主;;;;;;;;;;x
+quest_devil_worshipers_corrupt_priest_desc;[Root.Religion.GetHighGodName]的[Root.Religion.GetPriestTitle]们都是迟钝的蠢货。§Y[FromFrom.GetTitledFirstName]§!领导着[FromFrom.GetHerHis]怯懦的羊群走向一条只会带来虚弱和停滞的道路。你决定给[FromFrom.GetHerHim]指引一个新的方向。;;;;;;;;;;x
+quest_devil_worshipers_corrupt_priest_tooltip;要完成这项任务，在§Y[FromFrom.GetTitledFirstName]§!的头像上§G右键点击§!，选择§Y腐化[FromFrom.Religion.GetPriestTitle]§!并成功使[FromFrom.GetHerHim]堕落。;;;;;;;;;;x
+quest_devil_worshipers_desecrate_temple;亵渎[FromFrom.GetName]的神殿;;;;;;;;;;x
+quest_the_devil_worshipers_sacrifice_ruler;献祭领主;;;;;;;;;;x
 quest_the_devil_worshipers_sacrifice_ruler_desc;强大而威武的[Root.GetDWDevil]时而索取时而给予。虽然我们获得了比诸多君王梦寐以求的还要强大的力量，但任何事情都有代价。[Root.GetDWDevil]要求支付血液和灵魂。献祭强大统治者的生命以兹享用。;;;;;;;;;;x
 quest_the_devil_worshipers_sacrifice_ruler_tooltip;在你监狱里的一个有地的囚犯领主的头像上§G右键点击§!并选择§Y献祭给[Root.GetDWDevil]§!以完成任务。;;;;;;;;;;x
-quest_the_devil_worshipers_sacrifice_holy_person;献祭一位圣人;;;;;;;;;;x
+quest_the_devil_worshipers_sacrifice_holy_person;献祭圣人;;;;;;;;;;x
 quest_the_devil_worshipers_sacrifice_holy_person_desc;强大无比的[Root.GetDWDevil]施与也同样索取，我们得到了大多数国王女王做梦也想象不到的权利，然而凡事都有代价。[Root.GetDWDevil]所要求的报酬是献祭肉体与灵魂。被献祭的这个人曾宣誓将生命供奉给[Root.Religion.GetHighGodName]。;;;;;;;;;;x
 quest_the_devil_worshipers_sacrifice_holy_person_tooltip;§G右键点击§!你牢狱中的一个[Root.Religion.GetPriestTitle]或苦行者囚犯头像并选择§Y「献祭给[Root.GetDWDevil]」§!以完成该任务。;;;;;;;;;;x
-quest_the_devil_worshipers_sacrifice_virgin;献祭处男（或处女）;;;;;;;;;;x
+quest_the_devil_worshipers_sacrifice_virgin;献祭童贞;;;;;;;;;;x
 quest_the_devil_worshipers_sacrifice_virgin_desc;强大而威武的[Root.GetDWDevil]时而索取时而给予。虽然我们获得了比诸多君王梦寐以求的还要强大的力量，但任何事情都有代价。[Root.GetDWDevil]要求支付血液和灵魂。献祭未经人事者的生命以兹享用。;;;;;;;;;;x
-quest_the_devil_worshipers_sacrifice_virgin_tooltip;在你监狱里的一个处男（或处女）囚犯的头像上§G点击右键§!并选择§Y献祭给[Root.GetDWDevil]§!以完成任务。儿童、忠贞者以及苦行者很有可能是处男（或处女）。;;;;;;;;;;x
-quest_the_devil_worshipers_sacrifice_dwarf;献祭一个侏儒;;;;;;;;;;x
+quest_the_devil_worshipers_sacrifice_virgin_tooltip;要完成这项任务，在你监狱里的一个童贞囚犯的头像上§G右键点击§!并选择§Y「献祭给[Root.GetDWDevil]」§!以完成任务。儿童、忠贞者以及苦行者很有可能是童贞。;;;;;;;;;;x
+quest_the_devil_worshipers_sacrifice_dwarf;献祭侏儒;;;;;;;;;;x
 quest_the_devil_worshipers_sacrifice_dwarf_desc;强大而威武的[Root.GetDWDevil]时而索取时而给予。虽然我们获得了比诸多君王梦寐以求的还要强大的力量，但任何事情都有代价。[Root.GetDWDevil]要求支付血液和灵魂。献祭矮人的生命以兹享用。;;;;;;;;;;x
-quest_the_devil_worshipers_sacrifice_dwarf_tooltip;在你监狱里的一个侏儒囚犯的头像上§G右键点击§!并选择§Y献祭给[Root.GetDWDevil]§!以完成任务。;;;;;;;;;;x
-quest_the_devil_worshipers_demonic_impregnation;召唤 [Root.GetDWDevil];;;;;;;;;;x
-quest_the_devil_worshipers_demonic_impregnation_desc;[Root.GetDWDevil]的分身进入，并开创一个辉煌壮丽的新纪元的时代已经到来了。这个孩子将带领人类走向一个伟大的未来，在那里我们真正的追随者将主宰帝国。选择邪恶母神的荣耀已降于汝身。;;;;;;;;;;x
+quest_the_devil_worshipers_sacrifice_dwarf_tooltip;要完成这项任务，在你监狱里的一个侏儒囚犯的头像上§G右键点击§!并选择§Y「献祭给[Root.GetDWDevil]」§!。;;;;;;;;;;x
+quest_the_devil_worshipers_demonic_impregnation;[Root.GetDWDevil]之卵;;;;;;;;;;x
+quest_the_devil_worshipers_demonic_impregnation_desc;[Root.GetDWDevil]的具现之卵进入世间，开创一个辉煌壮丽的新纪元的时代已经到来了。这个孩子将带领人类走向一个伟大的未来，在那里我们真正的追随者将主宰帝国。选择邪恶母体的荣耀已降于汝身。;;;;;;;;;;x
 quest_the_devil_worshipers_demonic_possession;恶魔附体;;;;;;;;;;x
-quest_the_devil_worshipers_demonic_possession_desc;我们「全能」的[Root.GetDWDevil]需要各种仆人。为了某些特殊任务，一个专业的[Root.GetDWMagician]不可或缺。然而，其他的琐事并不需要如此程度的力量和智慧。§Y[FromFrom.GetTitledFirstName]§!转由你控制，让他们贯彻[Root.GetDWDevil]的意志。;;;;;;;;;;x
-quest_the_devil_worshipers_demonic_possession_tooltip;在§Y[FromFrom.GetTitledFirstName]§!的头像上§G点击右键§!，选择§Y恶魔附体§!并成功附身[FromFrom.GetHerHim]以完成任务。;;;;;;;;;;x
-quest_monastic_order_penance;闭门思过;;;;;;;;;;x
-quest_monastic_order_penance_desc;为了让自己更接近上帝并为自己的罪忏悔，你需要闭门思过。花时间阅读圣经，向上帝祈祷，反思你的人生和行为。在此期间，您必须简朴地生活并与外部世界隔绝。;;;;;;;;;;x
-quest_monastic_order_penance_tooltip;在密谋菜单选择§Y进行忏悔§!并成功完成你神圣的隐居以完成任务。;;;;;;;;;;x
-quest_monastic_order_meditation;隐秘的冥想;;;;;;;;;;x
-quest_monastic_order_meditation_desc;为了让自己更接近神圣和最终的自由，你必须闭关冥想。花时间阅读[Root.Religion.GetScriptureName]，诵念咒语，思考你的行为和宇宙。您必须简朴地生活并与外部世界隔绝。;;;;;;;;;;x
-quest_monastic_order_meditation_tooltip;在密谋菜单选择§Y开始隐秘的冥想§!并成功完成你神圣的隐居以完成任务。;;;;;;;;;;x
+quest_the_devil_worshipers_demonic_possession_desc;我们「全能」的[Root.GetDWDevil]需要各种仆人。为了某些特殊任务，一个专业的[Root.GetDWMagician]不可或缺。然而，其他的琐事并不需要如此程度的力量和智慧。将§Y[FromFrom.GetTitledFirstName]§!置于你的控制下，让他们贯彻[Root.GetDWDevil]的意志。;;;;;;;;;;x
+quest_the_devil_worshipers_demonic_possession_tooltip;要完成这项任务，在§Y[FromFrom.GetTitledFirstName]§!的头像上§G右键点击§!，选择§Y恶魔附体§!并成功附身[FromFrom.GetHerHim]。;;;;;;;;;;x
+quest_monastic_order_penance;闭门忏悔;;;;;;;;;;x
+quest_monastic_order_penance_desc;为了让自己更接近上帝并为自己的罪忏悔，你需要闭门忏悔。花时间阅读圣经，向上帝祈祷，反思你的人生和行为。在此期间，您必须简朴地生活并与外部世界隔绝。;;;;;;;;;;x
+quest_monastic_order_penance_tooltip;要完成这项任务，在密谋菜单选择§Y进行忏悔§!并成功完成你神圣的隐居。;;;;;;;;;;x
+quest_monastic_order_meditation;闭门冥想;;;;;;;;;;x
+quest_monastic_order_meditation_desc;为了让自己更接近神圣和最终的自由，你必须闭门冥想。花时间阅读[Root.Religion.GetScriptureName]，诵念咒语，思考你的行为和宇宙。您必须简朴地生活并与外部世界隔绝。;;;;;;;;;;x
+quest_monastic_order_meditation_tooltip;要完成这项任务，在密谋菜单选择§Y开始闭门冥想§!并成功完成你神圣的隐居。;;;;;;;;;;x
 quest_monastic_order_donate_to_charity;慈善捐赠;;;;;;;;;;x
 quest_monastic_order_donate_to_charity_desc;帮助那些需要帮助的人是[Root.Society.GetName]的一个重要职责。而我们励行慈善的能力完全取决于富人的捐赠。作为一个强大的统治者，我们希望你能为这个事业做出贡献。;;;;;;;;;;x
 quest_monastic_order_theology_focus;选择神学重心;;;;;;;;;;x
 quest_monastic_order_theology_focus_desc;只要[Root.Society.GetName]中的成员把他们的精神发展一直放在心上，那么不管他们去哪里或做什么，在我们的生命中都有一段时间，这些事情会变得至关重要。现在是你专注于神学的时候了。;;;;;;;;;;x
-quest_monastic_order_theology_focus_tooltip;在角色界面选择「§Y神学§!」焦点以完成这项任务。;;;;;;;;;;x
+quest_monastic_order_theology_focus_tooltip;要完成这项任务，在角色界面选择「§Y神学§!」焦点。;;;;;;;;;;x
 monastic_orders_temple_construction;建造一个[Root.GetHouseOfWorship];;;;;;;;;;x
 monastic_orders_temple_construction_desc;对[Root.Society.GetName]的每一位成员来讲，[Root.GetHouseOfWorship]就像是自己的家一样。我们聚集在此学习、礼拜以及默默[Root.GetPrayers]。建立一个新的[Root.GetHouseOfWorship]会给本地的信徒们一个安全港并且作为一个信仰的前哨站，给那些走上歧途的人们伸出一双手。;;;;;;;;;;x
 monastic_orders_temple_construction_tooltip;在你领地的一个省份上建造一座修道院以完成这项任务。;;;;;;;;;;x
 devil_worshipers_summon_familiar_desc;身为[Root.GetDWDarkMagic]的执掌者，§Y[Root.GetTitledFirstName]§!可以根据[Root.GetHerHis]选择召唤一个使魔。这个超自然的守护者会将它的力量赋予§Y[Root.GetTitledFirstName]§!，从而增加[Root.GetHerHis]属性。;;;;;;;;;;x
-EVTOPTA_MNM_7507;如此以来，完成了;;;;;;;;;;x
-EVTOPTA_MNM_7507_TOOLTIP;现在你只能等待即将到来的出生;;;;;;;;;;x
-EVTDESC_MNM_7511_SELF;终于，[From.GetSheHe]在这里了！当我低头看向我的小[From.GetSonDaughter]那[From.GetFaceDescription]闪耀脸蛋，我感到我为这一刻所做的一切努力都是完全值得的。只有时间会揭示[From.GetHerHis][Root.GetDWDemon]之血赋予了[From.GetHerHim]什么力量，但我期待好事到来……;;;;;;;;;;x
-EVTDESC_MNM_7511_OTHER;最后，[From.GetSheHe]就在这里！[unholy_mother.GetTitledFirstName]在昨天晚上到今天凌晨开始分娩，小[From.GetFirstName]诞生了。[From.GetSheHeCap]看起来很健壮。尽管需要时间来揭示[From.GetHerHis][Root.GetDWDemon]血液授予[From.GetHerHim]的力量究竟是什么，我期待着了不得的事情降临……;;;;;;;;;;x
+EVTOPTA_MNM_7507;如此一来，完成了。;;;;;;;;;;x
+EVTOPTA_MNM_7507_TOOLTIP;现在你只能等待即将到来的分娩。;;;;;;;;;;x
+EVTDESC_MNM_7511_SELF;[From.GetSheHe]终于到来了！当我低头看向我的小[From.GetSonDaughter]那[From.GetFaceDescription]闪耀脸蛋，我感到我为这一刻所做的一切努力都是完全值得的。只有时间会揭示[From.GetHerHis][Root.GetDWDemon]之血赋予了[From.GetHerHim]什么力量，但我期待好事到来……;;;;;;;;;;x
+EVTDESC_MNM_7511_OTHER;[From.GetSheHe]终于到来了！[unholy_mother.GetTitledFirstName]昨天晚上开始分娩，到今天凌晨，小[From.GetFirstName]诞生了。[From.GetSheHeCap]看起来很健壮。只有时间会揭示[From.GetHerHis][Root.GetDWDemon]之血赋予了[From.GetHerHim]什么力量，但我期待好事到来……;;;;;;;;;;x
 EVTOPTA_MNM_7511;[Root.GetDWDevil]万岁！;;;;;;;;;;x
-EVTDESC_MNM_7839;[Root.GetDWDevil]的宠儿，[Root.GetSocietyRank] [Root.GetFirstName]\n\n我们相信，如果[corrupt_priest_mission_target.GetTitledFirstName]堕入深渊，它会让[Root.GetDWDevil]大为受用。上点心，这样做对你大有好处。\n\n[Root.GetDWExpression]\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
-EVTDESC_MNM_7029;致[Root.GetTitledFirstName]，\n\n祝您平安。\n\n[Root.GetDWDevil]需要另一个灵魂来协助我们伟大的事业。对[demonic_possession_mission_target.GetTitledFirstName]施加法术，让[demonic_possession_mission_target.GetHerHim]变成您忠诚的仆人。不论如何。请立刻处理这件事情。\n\n[Root.GetDWExpression]\n此致，[From.GetFirstName][From.GetSocietyRank];;;;;;;;;;x
-EVTDESC_MNM_7110;为[Root.GetDWDevil]所宠爱者，[Root.GetSocietyRank] [Root.GetFirstName]啊，\n\n打击信仰伪神之人的机会已然出现。他们在[dw_desecration_target.GetName]的[Root.Religion.GetPriestTitle]们显然对世界的真实一无所知。以[Root.GetDWDevil]的名义，他们的圣像将化为一堆残骸，他们的财富将为我们所拥有！\n\n[Root.GetDWExpression]\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
-EVTDESC_MNM_7025;[Root.GetDWDevil]的支持者，[Root.GetSocietyRank] [Root.GetFirstName]，\n\n伟大的[Root.GetDWDevil]已经给了我们很多东西，现在是时候让我们准备一份礼物作为回报了。[Root.GetDWDevil]渴望能有一个灵魂在他们的黑暗国度中为他们服务，而我们心里已经有了一个完美的方法。抓住并献祭一个[Root.GetDWSacrifice]吧，[Root.GetSocietyRank]！\n\n[Root.GetDWExpression]\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
-EVTDESC_MNM_7027;[Root.GetDWDevil]保佑，[Root.GetSocietyRank] [Root.GetFirstName]，\n\n我们期待已久的一天终于来临了！是时候让[Root.GetDWDevil]的孩子进入这个世界，赐予我们权力和荣耀！幸运女神眷顾与你，光荣的 [Root.GetSocietyRank]。\n\n[Root.GetDWExpression]\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_7839;[Root.GetDWDevil]的宠儿，[Root.GetSocietyRank][Root.GetFirstName]\n\n我们相信，如果[corrupt_priest_mission_target.GetTitledFirstName]堕入深渊，它会让[Root.GetDWDevil]大为受用。处理这件事对你大有好处。\n\n[Root.GetDWExpression]\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_7029;致[Root.GetTitledFirstName]，\n\n祝您平安。\n\n[Root.GetDWDevil]需要另一个灵魂来协助我们伟大的事业。对[demonic_possession_mission_target.GetTitledFirstName]施加法术，让[demonic_possession_mission_target.GetHerHim]变成您忠诚的仆人 - 不论本人是否愿意。请立刻处理这件事情。\n\n[Root.GetDWExpression]\n此致，[From.GetFirstName][From.GetSocietyRank];;;;;;;;;;x
+EVTDESC_MNM_7110;[Root.GetDWDevil]的宠儿，[Root.GetSocietyRank][Root.GetFirstName]啊，\n\n打击信仰伪神之人的机会已然出现。他们在[dw_desecration_target.GetName]的[Root.Religion.GetPriestTitle]们显然对世界的真实一无所知。以[Root.GetDWDevil]的名义，他们的圣像将化为一堆残骸，他们的财富将为我们所拥有！\n\n[Root.GetDWExpression]\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_7025;[Root.GetDWDevil]的宠儿，[Root.GetSocietyRank][Root.GetFirstName]，\n\n伟大的[Root.GetDWDevil]已经给了我们很多东西，现在是时候让我们准备一份礼物作为回报了。[Root.GetDWDevil]渴望能有一个灵魂在他们的黑暗国度中为他们服务，而我们心里已经有了一个完美的方法。抓住并献祭一个[Root.GetDWSacrifice]吧，[Root.GetSocietyRank]！\n\n[Root.GetDWExpression]\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_7027;[Root.GetDWDevil]的宠儿，[Root.GetSocietyRank][Root.GetFirstName]，\n\n我们期待已久的一天终于来临了！是时候让[Root.GetDWDevil]的孩子进入这个世界，赐予我们权力和荣耀！幸运女神眷顾于你，光荣的[Root.GetSocietyRank]。\n\n[Root.GetDWExpression]\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 EVTDESC_MNM_4011;[Root.GetMOGreeting]，[Root.GetSocietyRank][Root.GetFirstName]\n\n[Root.Society.GetNameCap]需要更多的资金以维持慈善事业。希望你能捐出部分世俗财产，帮助我们完成这项神圣的使命。\n\n[Root.GetMOFarewell]，\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 EVTDESC_MNM_4015;[Root.GetMOGreeting]，[Root.GetFirstName][Root.GetSocietyRank]\n\n我们注意到到你可能没有在神学方面下足够多的功夫。我们鼓励你暂时放下世俗的担忧，以专心研究神圣的学问。\n\n[Root.GetMOFarewell]，\n此致，[From.GetFirstName][From.GetSocietyRank];;;;;;;;;;x
 EVTDESC_MNM_4019;[Root.GetMOGreeting]，[Root.GetSocietyRank][Root.GetFirstName]\n\n修会和[Root.Religion.GetHighGodName]非常关心我们成员的灵魂。鉴于你尚未完成朝圣，因此，我们建议你去朝圣。\n\n[Root.GetMOFarewell]，\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 EVTDESC_MNM_4023;[Root.GetMOGreeting]，[Root.GetSocietyRank][Root.GetFirstName]\n\n为他人带来真正的信仰和拯救是最神圣的职责之一。因此，我们要求你在你的土地上建造一个新的[Root.GetHouse OfWorship]，这样你的臣民就可以在某个地方进行[Root.GetPrayers]和礼拜。\nn\n[Root.GetMOFarewell]，\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 EVTDESC_MNM_4014;[Root.GetMOGreeting]，[Root.GetSocietyRank][Root.GetFirstName]\n\n[Root.Society.GetNameCap]已经收到了您慷慨相赠的礼物。那些生活将因您的慷慨捐赠而极大改善的人们和我们都对您充满着感谢。\n\n[Root.GetMOFarewell]，\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
-EVTOPT_MNM_4014;我尽力了，[From.GetSocietyRank].;;;;;;;;;;x
+EVTOPT_MNM_4014;我尽力了，[From.GetSocietyRank]。;;;;;;;;;;x
 EVTDESC_MNM_4018;[Root.GetMOGreeting]，[Root.GetSocietyRank][Root.GetFirstName]\n\n我们很高兴地得知了你花费了大量的时间致力于神学之上。愿你在未来几年的研究生活中能够领悟一些新的见解。\n\n[Root.GetMOFarewell]，\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 EVTOPT_MNM_4018;[Root.Religion.GetScriptureName]将是我最重要的伙伴。;;;;;;;;;;x
 request_to_rank_up_within_society;要求提升位阶;;;;;;;;;;x
 request_to_rank_up_within_society_desc;寄一封信给[Root.Society.GetName]的领导者，请求让你提升位阶。;;;;;;;;;;x
 must_be_allowed_to_rank_up_tooltip;必须担任§Y[Root.GetSocietyRank]§!位阶至少三年\n;;;;;;;;;;x
 must_not_have_sent_request_already_tooltip;不能已经在等待这个请求的答复\n;;;;;;;;;;x
-EVTDESC_MNM_10001_A;尊敬的[Root.GetSocietyRank] [Root.GetFirstName]，\n我特此授予您[Root.Society.GetName]内的下一个阶位的权限。\n\n此致，\n[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
-EVTOPTA_10001;这是我的荣幸;;;;;;;;;;x
-reason_tooltip_1;暗杀者学徒;;;;;;;;;;x
+EVTDESC_MNM_10001_A;尊敬的[Root.GetSocietyRank][Root.GetFirstName]，\n我特此授予您[Root.Society.GetName]的下一个阶位的权限。\n\n此致，\n[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
+EVTOPTA_10001;这是我的荣幸。;;;;;;;;;;x
+reason_tooltip_1;阿萨辛学徒;;;;;;;;;;x
 the_trollcrafters_rank_1_female;女先知;;;;;;;;;;x
 the_trollcrafters_rank_1_male;先知;;;;;;;;;;x
 the_trollcrafters_rank_2_female;女智者;;;;;;;;;;x
@@ -2082,14 +2082,14 @@ the_plaguebringers_rank_4_female;邪汗努;;;;;;;;;;x
 the_plaguebringers_rank_4_male;邪汗;;;;;;;;;;x
 the_assassins_desc;难以捉摸的刺客们认为自己是安拉的真正追随者，他们会为伊斯兰教什叶派的进步和保护他们的同胞信徒做任何事情。他们包括忠诚的战士和有能力的间谍，像匕首一样熟练地运用伪造和社交技巧，擅长不对等的战争，重击敌人的心脏。;;;;;;;;;;x
 the_cult_of_kali_desc;迦梨时母教派崇拜时母的恶魔面，并拒绝了传统观念的约束。因为对于那些自私的行径，他们丝毫不觉得是错的。他们的思想从而被个人利欲所占据，被传统宗教信仰者谴责。;;;;;;;;;;x
-the_plaguebringers_desc;捕猎者的崇拜对象被传统信徒称之为邪恶的灵魂，因为他们用疾病诅咒他们的敌人，并转向死亡之神埃利克，以实现他们的个人目的。最令人不安的是，传闻称他们对黑暗恩惠的获得几乎毫无自责之情。;;;;;;;;;;x
-the_cold_ones_desc;寒神信徒相信，某些特定的人天生就有巫觋血脉，能够求助于黑暗之神切尔纳伯格，并通过祈祷获得权力和财富。他们为传统的信徒所憎恶，人们宁愿称他们为诅咒者，因为在传闻中，他们需要牺牲人类并做出恶毒的行为以实现目标。;;;;;;;;;;x
+the_plaguebringers_desc;瘟神教派崇拜被传统信徒称之为恶灵的对象，因为他们用疾病诅咒他们的敌人，并转向死亡之神埃利克，以实现他们的个人目的。最令人不安的是，传闻称他们对黑暗恩惠的获得几乎毫无自责之情……;;;;;;;;;;x
+the_cold_ones_desc;寒神教派相信，某些特定的人天生就有巫觋血脉，能够求助于黑暗之神切尔纳伯格，并通过祈祷获得权力和财富。他们为传统的信徒所憎恶，人们宁愿称他们为诅咒者，因为在传闻中，他们需要牺牲人类并做出恶毒的行为以实现目标。;;;;;;;;;;x
 monastic_order_benedictine_desc;本笃会是一个古老的修道院团体，以「Ora et Labora」作为他们的箴言，意为「祈祷与工作」，常常因为他们的黑衣习惯而被认知。他们崇拜上帝，在祈祷和静默中寻找目的，同时也从事学术上的工作。;;;;;;;;;;x
 monastic_order_dominican_desc;多明我会能够倾听任何基督徒的忏悔——身穿着黑白相间的修士服，他们领导着宗教裁判所，肩负着指控异端的使命。作为他们教派的一员，你不该再去追求物质的财富，而是要努力成为真理的探索者。;;;;;;;;;;x
 GAME_RULE_DEMESNE_SIZE_UNLIMITED_TOOLTIP;无直辖上限;;;;;;;;;;x
-GAME_RULE_DEMESNE_SIZE_TOOLTIP;游戏规则 $RULE|Y$：$VAL|+=$;;;;;;;;;;x
-GAME_RULE_VASSAL_LIMIT_UNLIMITED_TOOLTIP;没有封臣限制;;;;;;;;;;x
-GAME_RULE_VASSAL_LIMIT_TOOLTIP;游戏规则 $RULE|Y$：$VAL|+=$;;;;;;;;;;x
+GAME_RULE_DEMESNE_SIZE_TOOLTIP;游戏规则$RULE|Y$：$VAL|+=$;;;;;;;;;;x
+GAME_RULE_VASSAL_LIMIT_UNLIMITED_TOOLTIP;无封臣上限;;;;;;;;;;x
+GAME_RULE_VASSAL_LIMIT_TOOLTIP;游戏规则$RULE|Y$：$VAL|+=$;;;;;;;;;;x
 ACTOR;男演员;;;;;;;;;;x
 ACTRESS;女演员;;;;;;;;;;x
 VICE_GREEDY;贪婪;;;;;;;;;;x
@@ -2105,108 +2105,108 @@ IN_SOCIETY_NOT;不属于$SOCIETY|Y$社团;;;;;;;;;;x
 IN_SOCIETY;属于$SOCIETY|Y$社团;;;;;;;;;;x
 SOCIETY_MEMBER_NOT;不是$SOCIETY|Y$社团的成员;;;;;;;;;;x
 SOCIETY_MEMBER;是$SOCIETY|Y$社团的成员;;;;;;;;;;x
-NUMBER_OF_SOCIETIES_JOINED_NOT;不属于$NUM|Y$个社团;;;;;;;;;;x
-NUMBER_OF_SOCIETIES_JOINED;属于$NUM|Y$个社团;;;;;;;;;;x
-GREATER_OR_EQ;大于或等于;;;;;;;;;;x
-LESS_OR_EQ;小于或等于;;;;;;;;;;x
+NUMBER_OF_SOCIETIES_JOINED_NOT;不属于 $NUM|Y$ 个社团;;;;;;;;;;x
+NUMBER_OF_SOCIETIES_JOINED;属于 $NUM|Y$ 个社团;;;;;;;;;;x
+GREATER_OR_EQ;大于等于;;;;;;;;;;x
+LESS_OR_EQ;小于等于;;;;;;;;;;x
 GREATER;大于;;;;;;;;;;x
 LESS;小于;;;;;;;;;;x
 EQUAL;等于;;;;;;;;;;x
-SOCIETY_RANK_TRIGGER_NOT;在$SOCIETY|Y$社团的社团位阶$COMPARISON$ $RANK|Y$;;;;;;;;;;x
+SOCIETY_RANK_TRIGGER_NOT;在$SOCIETY|Y$社团的社团位阶没有$COMPARISON$$RANK|Y$;;;;;;;;;;x
 SOCIETY_RANK_TRIGGER;在$SOCIETY|Y$社团拥有社团位阶$COMPARISON$$RANK|Y$;;;;;;;;;;x
-SOCIETY_CURRENCY_TRIGGER_NOT;不拥有$CURRENCY|Y$$COMPARISON$$AMOUNT|Y$;;;;;;;;;;x
-SOCIETY_CURRENCY_TRIGGER;拥有$CURRENCY|Y$$COMPARISON$$AMOUNT|Y$;;;;;;;;;;x
-SOCIETY_INFLUENCE_TRIGGER_NOT;$SOCIETY|Y$社团的影响力不$COMPARISON$$AMOUNT|Y$;;;;;;;;;;x
-SOCIETY_INFLUENCE_TRIGGER;$SOCIETY|Y$社团的影响力$COMPARISON$$AMOUNT|Y$;;;;;;;;;;x
+SOCIETY_CURRENCY_TRIGGER_NOT;拥有$CURRENCY|Y$不$COMPARISON$ $AMOUNT|Y$;;;;;;;;;;x
+SOCIETY_CURRENCY_TRIGGER;拥有$CURRENCY|Y$$COMPARISON$ $AMOUNT|Y$;;;;;;;;;;x
+SOCIETY_INFLUENCE_TRIGGER_NOT;$SOCIETY|Y$社团的影响力不$COMPARISON$ $AMOUNT|Y$;;;;;;;;;;x
+SOCIETY_INFLUENCE_TRIGGER;$SOCIETY|Y$社团的影响力$COMPARISON$ $AMOUNT|Y$;;;;;;;;;;x
 SOCIETIES;社团;;;;;;;;;;x
 SOCIETIES_MENU;§Y社团§!;;;;;;;;;;x
 MEMBERS;成员;;;;;;;;;;x
 INFLUENCE;影响力;;;;;;;;;;x
 SOCIETY_VALUE_PERCENT;$VAL|%0$;;;;;;;;;;x
-society_show_societies_desc;§Y列出所有已知的社团§!;;;;;;;;;;x
+society_show_societies_desc;§Y列出所有已知社团§!;;;;;;;;;;x
 JOIN_SOCIETY;§Y加入社团§!;;;;;;;;;;x
 LEAVE_SOCIETY;§Y离开社团§!;;;;;;;;;;x
-FULL_SOCIETY;§R $SOCIETY|Y$的$RANK|Y$位阶已满§!;;;;;;;;;;x
+FULL_SOCIETY;§R$SOCIETY|Y$的$RANK|Y$位阶已满§!;;;;;;;;;;x
 ANY_SOCIETY_MEMBER_STARTS;任何社团成员;;;;;;;;;;x
 ALREADY_BELONG_TO_SOCIETY;§R你已经属于一个社团§!;;;;;;;;;;x
 NEWBORN_RANDOMIZE_NAME;随机名字;;;;;;;;;;x
 NEWBORN_PARENT_NAME;以$PARENT$命名;;;;;;;;;;x
 NEWBORN_GRANDPARENT_NAME;以$GRANDPARENT$命名;;;;;;;;;;x
 NEWBORN_DYNASTY_NAME;以任一先祖命名;;;;;;;;;;x
-NEWBORN_PARENT_NAME_INVALID;§R无效的$PARENT$§!;;;;;;;;;;x
+NEWBORN_PARENT_NAME_INVALID;§R没有有效的$PARENT$§!;;;;;;;;;;x
 NEWBORN_GRANDPARENT_NAME_INVALID;§R没有有效的$GRANDPARENT$§!;;;;;;;;;;x
-NEWBORN_DYNASTY_NAME_INVALID;§R无有效的被继承人§!;;;;;;;;;;x
+NEWBORN_DYNASTY_NAME_INVALID;§R没有有效的祖先§!;;;;;;;;;;x
 NEWBORN_GRANDMOTHER;祖母;;;;;;;;;;x
 NEWBORN_GRANDFATHER;祖父;;;;;;;;;;x
 ALLY_ORDER_BUTTON_NO_ALLIES;§R没有盟友可以让你命令§!;;;;;;;;;;x
 ALLY_ORDER_ENTRY_REPLACE_ORDER;§R这会取消当前的命令§!：;;;;;;;;;;x
-ALLY_ORDER_ENTRY_CANCEL_ORDER;取消这个指令;;;;;;;;;;x
+ALLY_ORDER_ENTRY_CANCEL_ORDER;取消这个命令;;;;;;;;;;x
 ATTACH_TO_UNIT_ALLY_ORDER_BUTTON;命令友军跟随这支军队;;;;;;;;;;x
 ATTACH_TO_UNIT_ALLY_ORDER_ENTRY;命令$NAME|Y$跟随这支军队;;;;;;;;;;x
 TAKE_PROVINCE_ALLY_ORDER_BUTTON;命令友军围攻这个省份;;;;;;;;;;x
 FRIENDLY_TAKE_PROVINCE_ALLY_ORDER_BUTTON;§R不能命令友军围攻这个省份§!;;;;;;;;;;x
 TAKE_PROVINCE_ALLY_ORDER_ENTRY;命令$NAME|Y$围攻这个省份;;;;;;;;;;x
-attach_to_unit_order_desc;跟随 $ARMY|Y$;;;;;;;;;;x
-take_province_order_desc;包围$PROV|Y$;;;;;;;;;;x
-DAYS_IN_SOCIETY_TRIGGER_NOT;不是$SOCIETY|Y$成员的时间$COMPARISON$ $DAYS|Y$天;;;;;;;;;;x
-DAYS_IN_SOCIETY_TRIGGER;成为$SOCIETY|Y$成员的时间$COMPARISON$ $DAYS|Y$天;;;;;;;;;;x
-DAYS_IN_SOCIETY_RANK_TRIGGER_NOT;不是$RANK|Y$位阶的时间$COMPARISON$ $DAYS|Y$天;;;;;;;;;;x
-DAYS_IN_SOCIETY_RANK_TRIGGER;升至$RANK|Y$位阶的时间$COMPARISON$ $DAYS|Y$天;;;;;;;;;;x
+attach_to_unit_order_desc;跟随$ARMY|Y$;;;;;;;;;;x
+take_province_order_desc;围攻$PROV|Y$;;;;;;;;;;x
+DAYS_IN_SOCIETY_TRIGGER_NOT;不是$SOCIETY|Y$成员的时间$COMPARISON$ $DAYS|Y$ 天;;;;;;;;;;x
+DAYS_IN_SOCIETY_TRIGGER;成为$SOCIETY|Y$成员的时间$COMPARISON$ $DAYS|Y$ 天;;;;;;;;;;x
+DAYS_IN_SOCIETY_RANK_TRIGGER_NOT;不是$SOCIETY|Y$$RANK|Y$位阶的时间$COMPARISON$ $DAYS|Y$ 天;;;;;;;;;;x
+DAYS_IN_SOCIETY_RANK_TRIGGER;升至$SOCIETY|Y$$RANK|Y$位阶的时间$COMPARISON$ $DAYS|Y$ 天;;;;;;;;;;x
 CAN_NOT_JOIN_SOCIETY;不能加入$SOCIETY|Y$;;;;;;;;;;x
 CAN_JOIN_SOCIETY;可以加入$SOCIETY|Y$;;;;;;;;;;x
 REMOVE_ACTIVE_MISSION;取消进行中的任务;;;;;;;;;;x
-NO_ACTIVE_MISSION;没有现存的任务;;;;;;;;;;x
-RETINUE_MAINTENANCE_COST_REDUCTION;常备军月支出;;;;;;;;;;x
-FAM_TUTOR;$TUTOR$：$NAME|Y$在$LOCATION|Y$;;;;;;;;;;x
+NO_ACTIVE_MISSION;没有进行中的任务;;;;;;;;;;x
+RETINUE_MAINTENANCE_COST_REDUCTION;近卫军月支出;;;;;;;;;;x
+FAM_TUTOR;$TUTOR$：$LOCATION|Y$的$NAME|Y$;;;;;;;;;;x
 SOCIETY_INFLUENCE;社团影响力;;;;;;;;;;x
-successful_mission;任务成功;;;;;;;;;;x
-failed_mission;任务失败;;;;;;;;;;x
-successful_mission_stacked;任务成功;;;;;;;;;;x
-failed_mission_stacked;任务失败;;;;;;;;;;x
-ADD_SOCIETY_MODIFIER_EFFECT_DESC;$MODIFIER|Y$被增加到$SOCIETY|Y$社团直至$DATE|Y$;;;;;;;;;;x
+successful_mission;成功的任务;;;;;;;;;;x
+failed_mission;失败的任务;;;;;;;;;;x
+successful_mission_stacked;成功的任务;;;;;;;;;;x
+failed_mission_stacked;失败的任务;;;;;;;;;;x
+ADD_SOCIETY_MODIFIER_EFFECT_DESC;$MODIFIER|Y$被增加到$SOCIETY|Y$社团直至 $DATE|Y$;;;;;;;;;;x
 ADD_SOCIETY_MODIFIER_EFFECT_ETERNAL_DESC;$MODIFIER|Y$被增加到$SOCIETY|Y$社团;;;;;;;;;;x
 SOCIETY_POWER;力量;;;;;;;;;;x
 AUTO_ASSIGN_COMMANDERS;自动分配指挥官;;;;;;;;;;x
 SHOW_COMMANDERS_ONLY;仅显示指挥官;;;;;;;;;;x
-IS_SOCIETY_RANK_FULL_TRIGGER_NOT;$SOCIETY|Y$位阶$RANK|Y$还未到顶;;;;;;;;;;x
-IS_SOCIETY_RANK_FULL_TRIGGER;$SOCIETY|Y$位阶$RANK|Y$已经到顶;;;;;;;;;;x
+IS_SOCIETY_RANK_FULL_TRIGGER_NOT;$SOCIETY|Y$位阶$RANK|Y$未满;;;;;;;;;;x
+IS_SOCIETY_RANK_FULL_TRIGGER;$SOCIETY|Y$位阶$RANK|Y$已满;;;;;;;;;;x
 is_germanic_pagan_custom_tooltip;有§Y日耳曼多神教§!\n;;;;;;;;;;x
-alert_councillor_no_job_instant;§Y闲置的内阁成员§!;;;;;;;;;;x
+alert_councillor_no_job_instant;§Y闲置内阁成员§!;;;;;;;;;;x
 alert_councillor_no_job_delayed;下列内阁成员没有指派任务：\n$LIST$\n§G点击进入宫廷界面§!;;;;;;;;;;x
-NO_VALID_SOCIETY;没有你能参加的§Y社团§!。;;;;;;;;;;x
+NO_VALID_SOCIETY;没有你能参加的已知§Y社团§!。;;;;;;;;;;x
 IS_NOT_DEVIL_WORSHIPER;$CHAR|Y$不是一个§Y恶魔崇拜者§!。;;;;;;;;;;x
 IS_DEVIL_WORSHIPER;$CHAR|Y$是一个§Y恶魔崇拜者§!。;;;;;;;;;;x
 IS_NOT_CRIMINAL;$CHAR|Y$不在一个§Y罪恶的社团§!。;;;;;;;;;;x
 IS_CRIMINAL;$CHAR|Y$在一个§Y罪恶的社团§!。;;;;;;;;;;x
-PLAYER_SOCIETY_RANK;你自$DATE|Y$起便获得了$RANK|Y$的位阶。;;;;;;;;;;x
+PLAYER_SOCIETY_RANK;你自 $DATE|Y$ 起便获得了$RANK|Y$的位阶。;;;;;;;;;;x
 SOCIETY_HEIR;社团继承人;;;;;;;;;;x
 SOCIETY_HEIR_INSTANT;这是$SOCIETY|Y$的继任领导人;;;;;;;;;;x
-SOCIETY_PLAYER_SUCCESSION_DESC;你离$SOCIETY_LEADER|Y$还差$POSITION|Y$个步骤。;;;;;;;;;;x
+SOCIETY_PLAYER_SUCCESSION_DESC;你离$SOCIETY_LEADER|Y$还差 $POSITION|Y$ 个步骤。;;;;;;;;;;x
 SOCIETY_RANK_LOCKED;§R你没有解锁这个位阶§!;;;;;;;;;;x
 SOCIETY_CHAR_INFO;是$SOCIETY|Y$的一员;;;;;;;;;;x
 society_leader_instant;这是$SOCIETY|Y$的领导者;;;;;;;;;;x
 SOCIETY_ATTRIBUTE_GAIN;$ATTRIBUTE$：$GAIN|=+1$;;;;;;;;;;x
 SOCIETY_TRAIT_GAIN;$TRAIT$：$GAIN|=1+$;;;;;;;;;;x
 society_show_members_desc;§Y列出$SOCIETY$所有成员§!;;;;;;;;;;x
-society_show_members_secret;§R你需要成为§! $SOCIETY|Y$ §R的一名成员以查看关于它现在所有成员的列表§!;;;;;;;;;;x
+society_show_members_secret;§R你需要成为§!$SOCIETY|Y$§R的一名成员以查看它现在所有成员的列表§!;;;;;;;;;;x
 MTTH_BASE;基础：$VAL|Y1$;;;;;;;;;;x
 MTTH_GAIN;$VAL|=$;;;;;;;;;;x
 MTTH_MULTIPLE_CONDITIONS_TRUE;以下条件必须全部满足;;;;;;;;;;x
 SOCIETY_PLAYER_IS_MEMBER;你是$SOCIETY|Y$的成员;;;;;;;;;;x
-SOCIETY_SHOW_INTEREST_COOLDOWN;§R$NAME$ 直至 $DATE$ 前不能对社团表露兴趣§!;;;;;;;;;;x
-SOCIETY_JOIN_COOLDOWN;§R$NAME$直至$DATE$之前不能加入社团§!;;;;;;;;;;x
+SOCIETY_SHOW_INTEREST_COOLDOWN;§R$NAME$直至 $DATE$ 前不能对社团表露兴趣§!;;;;;;;;;;x
+SOCIETY_JOIN_COOLDOWN;§R$NAME$直至 $DATE$ 前不能加入社团§!;;;;;;;;;;x
 SHOW_INTEREST;展露加入$SOCIETY|Y$的兴趣;;;;;;;;;;x
 ALREADY_IN_A_SOCIETY;§R已经是一个不同社团的成员§!;;;;;;;;;;x
 SOCIETY_RANK_UP;提升位阶到$RANK|Y$\n;;;;;;;;;;x
 NO_ORDER;$NAME|Y$没有命令;;;;;;;;;;x
-SOCIETIES_VIEW_MEMBER_SCORE_DESC;在继承社团时，拥有最高§Y成员分数§!的成员将会成为新的领导者。;;;;;;;;;;x
+SOCIETIES_VIEW_MEMBER_SCORE_DESC;在社团继承时，拥有最高§Y成员分数§!的成员将会成为新的领导者。;;;;;;;;;;x
 MEMBER_SCORE_FROM_RANK;$RANK$：$VALUE|Y0$;;;;;;;;;;x
 INFLUENCE_FROM_MEMBER_ATTRIBUTES;成员$ATTRIBUTE$：$VALUE|Y1+=%$;;;;;;;;;;x
 SOCIETY_INFLUENCE_MISSION_MODIFIER;$MODIFIER$：$VAL|1+=%$;;;;;;;;;;x
 ALLY_ORDER_HEADER;命令;;;;;;;;;;x
 SIEGE_FOCUS_ALLY_ORDER_ENTRY;命令$NAME|Y$专注于围攻敌方省份;;;;;;;;;;x
 HUNT_KILLER_ALLY_ORDER_ENTRY;命令$NAME|Y$狩猎敌人;;;;;;;;;;x
-SOCIETY_MEMBER_SINCE;$DATE|Y$开始加入;;;;;;;;;;x
+SOCIETY_MEMBER_SINCE;$DATE|Y$ 开始加入;;;;;;;;;;x
 OWES_FAVOR_TO_CHARACTER_NOT_TRIGGER;$CHARACTER|Y$没有欠$TARGET|Y$人情;;;;;;;;;;x
 action_statecraft;治理封地;;;;;;;;;;x
 monastic_order_orthodox_desc;圣巴西略的追随者过着苦行僧般的生活，在祈祷和工作中寻找意义，常常以帮助他们的男女同胞的名义。一个世俗的成员不必继承隐士的生活，而应该把重点放在帮助你的社团成员上。;;;;;;;;;;x
@@ -2219,7 +2219,7 @@ DW_prolong_life_power_desc;允许§G右键点击§!你子女的头像盗取他�
 the_devil_worshipers_tainted_touch_power_desc;花费§Y[Root.Society.GetCurrency]§!，允许§G右键点击§!你封臣、内阁成员及仇敌的头像诅咒他们，降低他们的健康或让他们生病。;;;;;;;;;;x
 unlockable_DW_powers_at_rank_2;下一位阶将解锁：§Y召唤使魔§!，§Y感染之触§!和§Y恶魔附体§!;;;;;;;;;;x
 unlockable_DW_powers_at_rank_3;下一位阶将解锁：§Y诅咒离婚§!和§Y黑暗治疗术§!;;;;;;;;;;x
-unlockable_DW_powers_at_rank_4;下一位阶将解锁：§Y邀请追随者§!以及§Y吸收生命力§!;;;;;;;;;;x
+unlockable_DW_powers_at_rank_4;下一位阶将解锁：§Y邀请追随者§!和§Y吸收生命力§!;;;;;;;;;;x
 assassins_borrow_money_power_desc;使向阿萨辛贷款的决议可用。;;;;;;;;;;x
 assassins_donate_power_desc;使捐钱给§Y阿萨辛§!的决议可用，以获得§Y[Root.Society.GetCurrency]§!。;;;;;;;;;;x
 assassins_raise_ships_power_desc;花费§Y[Root.Society.GetCurrency]§!，使征召特殊船只的决议可用。;;;;;;;;;;x
@@ -3803,8 +3803,8 @@ stole_artifact_penance;因盗窃被处罚;;;;;;;;;;x
 paid_for_celebration_artifact;宝物庆典;;;;;;;;;;x
 caught_red_handed;被当场抓获;;;;;;;;;;x
 caught_red_handed_desc;此人在盗窃过程中被抓获。[GetSheHeCap]似乎没有[GetSheHe]想象中那样深藏不露。;;;;;;;;;;x
-caught_stealing_artifact_penance;进行苦修;;;;;;;;;;x
-caught_stealing_artifact_penance_desc;此人由于盗窃未遂公开苦修。;;;;;;;;;;x
+caught_stealing_artifact_penance;进行忏悔;;;;;;;;;;x
+caught_stealing_artifact_penance_desc;此人由于盗窃未遂公开忏悔。;;;;;;;;;;x
 artifact_patron;遗迹的保护神;;;;;;;;;;x
 artifact_patron_desc;这个人无私地利用他的个人财富来举行了一个资助寺院的遗迹的庆典。;;;;;;;;;;x
 EVTDESC_MNM_4610;这次按我的命令对修道院的参观，我加入了基层成员们，尽职尽责地完成我们的所有任务。晚上，经过一天的辛勤工作，住持召集了所有来访的基层成员们，并揭示了修道院的珍宝：一个被人们在这里保护了好几代的伟大遗迹！;;;;;;;;;;x
