@@ -252,8 +252,8 @@ CONSORT_IRO_1;是;;;;;;;;;;x
 CONSORT_IRO_2;s 侍妾并没有真正的结婚，但她生下来的孩子也有合法继承权.;;;;;;;;;;x
 TAKECONSORTEFFECT;§Y$WHO$§! 变成 §Y$SPOUSE$§!的侍妾.\n;;;;;;;;;;x
 REMOVECONSORTEFFECT;§Y$CONSORT$§! 不再是 §Y$WHO$§!的侍妾.\n;;;;;;;;;;x
-IS_PARENT_REL;这不是异端;;;;;;;;;;x
-IS_NOT_PARENT_REL;这是异端;;;;;;;;;;x
+IS_PARENT_REL;不是异端;;;;;;;;;;x
+IS_NOT_PARENT_REL;是异端;;;;;;;;;;x
 IS_REFORMED_REL;这是改革后的宗教;;;;;;;;;;x
 IS_NOT_REFORMED_REL;这不是改革后的宗教;;;;;;;;;;x
 IS_REFORMED_REL_OF;是§Y$RELIGION$§!教的改革版;;;;;;;;;;x
@@ -265,12 +265,12 @@ IS_CONSORT;是一个侍妾;;;;;;;;;;x
 IS_NOT_CONSORT_OF;不是 §Y$WHO$§! 的侍妾;;;;;;;;;;x
 IS_CONSORT_OF;是 §Y$WHO$§!的侍妾;;;;;;;;;;x
 FAM_CONSORT_HUSBAND;男人;;;;;;;;;;x
-CANCEL_JOB_ACTION_EFFECT;取消现在的工作;;;;;;;;;;x
+CANCEL_JOB_ACTION_EFFECT;取消正在进行的工作;;;;;;;;;;x
 AIREASON_NOT_MY_LOVER;§Y[GetTitledFirstName]§!是我的情人;;;;;;;;;;x
 AIREASON_NOT_CONSORT_RELIGION;§Y[Religion.GetName]§!信仰不允许迎娶侍妾;;;;;;;;;;x
-AIREASON_CONSORT_IS_MY_HEIR;这是我的继承者;;;;;;;;;;x
-AIREASON_CONSORT_CHILD;这是我的孩子;;;;;;;;;;x
-AIREASON_CONSORT_CLOSE_RELATIVE;这是我的近亲;;;;;;;;;;x
+AIREASON_CONSORT_IS_MY_HEIR;是我的继承者;;;;;;;;;;x
+AIREASON_CONSORT_CHILD;是我的孩子;;;;;;;;;;x
+AIREASON_CONSORT_CLOSE_RELATIVE;是我的近亲;;;;;;;;;;x
 AIREASON_CONSORT_TOO_LOW_RANK;§Y[GetTitledFirstName]§! 作为一个高产的侍妾地位太低了;;;;;;;;;;x
 AIREASON_NO_WAR_AGAINST_REL_BRETHREN;不能帮着别的宗教的敌人去攻打跟自己一个宗教的兄弟;;;;;;;;;;x
 INTERACTION_CONSORTS_MUST_MARRY_LIEGE;侍妾只能跟她的领主结婚;;;;;;;;;;x
@@ -289,7 +289,7 @@ MAKE_CONSORT_INTERACTION_TITLE;娶妾;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_DESC;找一个女人当你的侍妾.;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_ACCEPT_SETUP;同意娶妾的请求;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetTitledName]§!已经同意让§Y[ThirdPartyCharacter.GetTitledName]§!成为§Y[Actor.GetTitledName]§!的侍妾.;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_DECLINE_SETUP;拒绝娶妾的请求;;;;;;;;;;x
+MAKE_CONSORT_INTERACTION_DECLINE_SETUP;娶妾的请求被拒绝了;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_DECLINE_LOG;§Y[Recipient.GetTitledName]§!已经拒绝让§Y[ThirdPartyCharacter.GetTitledName]§!成为§Y[Actor.GetTitledName]§!的妾的请求.;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_OFFER;§Y[Actor.GetTitledName]§!提议，纳§Y[Recipient.GetTitledName]§!为他的侍妾。;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_LETTER;\n\n§Y[ThirdPartyCharacter.GetBestName]§!的美丽与优雅在大陆上广为人知。我们提议，赐予她成为我侍妾的荣誉。;;;;;;;;;;x
