@@ -41,17 +41,17 @@ HOLYSITE_CONTROL_PARTIAL;这个圣地§Y$SITENAME$§!在§Y$RELIGION$§!的掌�
 HOLYSITE_CONTROL_NOT;这个圣地§Y$SITENAME$§!并不在§Y$RELIGION$§!的掌控中;;;;;;;;;;x
 HOLYSITE_LOCATION;圣地§Y$SITENAME$§!位于§Y$COUNTY$§!省份;;;;;;;;;;x
 INTERACTION_REQUIRES_NO_LOOTING_HOSTILITY;当我们在劫掠他们的时候	不能对 §Y[Recipient.GetTitledFirstName]§! 宣战;;;;;;;;;;x
-FROM_ATTRIBUTES;属性加成: §G+$AMOUNT$§!;;;;;;;;;;x
+FROM_ATTRIBUTES;属性加成：§G+$AMOUNT$§!;;;;;;;;;;x
 HOLY_SITES_LESS;没有控制至少§Y$VAL$§!的圣地\n;;;;;;;;;;x
 HOLY_SITES_LEAST;掌控着至少 §Y$VAL$§! 圣地\n;;;;;;;;;;x
 MAJOR_RIVER_SHORT;在§Y$TO$§!渡过§Y$RIVER$§!;;;;;;;;;;x
 MAJOR_RIVER_DESC;当跨过一条大河进攻时，进攻者会有一个很大的作战减成;;;;;;;;;;x
-RETCAP_FROM_REALM;来自领地: §G$REALM$§!\n地产: §Y$HOLDINGS$§!\n每块地产的上限: §Y$PERHOLDING$§!\n;;;;;;;;;;x
-RETCAP_FROM_BUILDINGS;来自建筑: §G$AMOUNT$§!\n;;;;;;;;;;x
-RETCAP_FROM_TECH;来自科技: §G+$PERCENT$%§!\n;;;;;;;;;;x
-RETCAP_MINIMUM_RETINUE;最少随从数: §Y$MIN$§!\n;;;;;;;;;;x
-RETCAP_FROM_RELIGION;来自宗教的影响: $AMOUNT$\n;;;;;;;;;;x
-RETCAP_TOTAL;\n总计: §Y$TOTAL$§!;;;;;;;;;;x
+RETCAP_FROM_REALM;来自领地：§G$REALM$§!\n地产：§Y$HOLDINGS$§!\n每块地产的上限：§Y$PERHOLDING$§!\n;;;;;;;;;;x
+RETCAP_FROM_BUILDINGS;来自建筑：§G$AMOUNT$§!\n;;;;;;;;;;x
+RETCAP_FROM_TECH;来自科技：§G+$PERCENT$%§!\n;;;;;;;;;;x
+RETCAP_MINIMUM_RETINUE;最少随从数：§Y$MIN$§!\n;;;;;;;;;;x
+RETCAP_FROM_RELIGION;来自宗教的影响：$AMOUNT$\n;;;;;;;;;;x
+RETCAP_TOTAL;\n总计：§Y$TOTAL$§!;;;;;;;;;;x
 RAISE_COUNTY_LEVIES;征募当地兵员;;;;;;;;;;x
 RAISE_COUNTY_FLEETS;征募当地船只;;;;;;;;;;x
 TECH_DEM_INC_EMPERORS;§G+$AMOUNT$§! 皇帝直辖规模;;;;;;;;;;x
@@ -100,7 +100,7 @@ tp_shipyard_3;航道;;;;;;;;;;x
 tp_shipyard_4;港口;;;;;;;;;;x
 shipyard_desc;熟练的造船工人在这里努力工作，建造各种远航船舶.;;;;;;;;;;x
 TOGGLE_LOOTER;§Y切换成劫掠模式§!;;;;;;;;;;x
-REL_AUTHORITY_CHANGE;§Y$RELIGION$§!: $PERC$  宗教权威 §Y$TIME$§! $TIMEUNIT$.\n;;;;;;;;;;x
+REL_AUTHORITY_CHANGE;§Y$RELIGION$§!：$PERC$  宗教权威 §Y$TIME$§! $TIMEUNIT$.\n;;;;;;;;;;x
 IS_HOLY_CITY_FOR_RELIGION;§Y$RELIGION$§!信仰认为§Y$HOLDING$§!是一处圣地;;;;;;;;;;x
 IS_HOLY_CITY_FOR_RELIGION_2;他们控制了这块土地;;;;;;;;;;x
 IS_HOLY_ORDER;是圣战士;;;;;;;;;;x
@@ -199,7 +199,7 @@ NOT_ENOUGH_PIETY_TO_REFORM_RELIGION;§R我们需要至少§Y$NEED$§R$PIETYNAME$
 REFORM_RELIGION;§Y对 $RELIGION$ 信仰进行改革§!;;;;;;;;;;x
 REFORM_RELIGION_DESC;对$RELIGION$进行改革会将其改变成一个有组织的宗教。除非你已经控制了所有的圣地，这样做需要§Y$AUTHORITY_REQ$§!宗教权威跟对$RELIGION$教圣地§Y$HOLY_SITES_REQ$§!的控制。这需要你§R$PIETY_COST$§![Player.Religion.GetPietyName]。作为一个经过改革的原始宗教领袖会有一个圣战的宣战理由，获得/允许大部分的继承法，不会再在和平期间丢失威望，有异心的封臣也更少给你找麻烦。但是，他们也会失去在本土防御时，宗教敌人的补给上限惩罚，封臣们也会对长时间无理由地征收他们战争税而感到不满。;;;;;;;;;;x
 title_courtesan;侍妾;;;;;;;;;;x
-REVOLT_SHARED_TICKING_WS_DESC;$PERC$: 叛军已经控制了他们所有的地盘;;;;;;;;;;x
+REVOLT_SHARED_TICKING_WS_DESC;$PERC$：叛军已经控制了他们所有的地盘;;;;;;;;;;x
 REFORMED;改革;;;;;;;;;;x
 BM_THE_OLD_GODS;逝往神灵;;;;;;;;;;x
 BM_THE_OLD_GODS_DESC;§Y「如果小猪仔知道老猪的遭遇，他们又怎可能睡得着呢。」§!这是传说中的海盗§Y朗纳尔·洛德布罗克§!奄奄一息地躺在诺森伯兰之王§Y伊利亚§!的蛇穴中的最后一个预言。在 867 年，有着强烈报复心理的洛德布罗克之子跟他们的「异教徒大军」蜂拥到不列颠王国，让 §Y伊利亚§!变成了「血鹰」。同时，另外两个诺斯之王-§Y瑞克§!跟§Y迪勒§!，在芬兰跟斯堪的纳维亚半岛开创了他们的国家，这是现代俄罗斯的雏形。这时候古老的信仰依然根深蒂固，军队依然强悍无比！;;;;;;;;;;x
@@ -322,7 +322,7 @@ temple_built;建造神庙;;;;;;;;;;x
 temple_looted;神庙被洗劫一空;;;;;;;;;;x
 looted_infidel_temple;洗劫异教神庙;;;;;;;;;;x
 action_inquisition;传教;;;;;;;;;;x
-SUPPLY_PAGAN_HOME;异教徒的故乡: $VALUE$;;;;;;;;;;x
+SUPPLY_PAGAN_HOME;异教徒的故乡：$VALUE$;;;;;;;;;;x
 TheOldGodsDLC;逝往神灵;;;;;;;;;;x
 HymnsToTheOldGodsDLC;为古老神祗写的赞美诗;;;;;;;;;;x
 SongsOfArabiaDLC;阿拉伯之歌;;;;;;;;;;x
@@ -433,7 +433,7 @@ EVTDESC_TOG_1211;我已经收到信息，一个叫 [From.GetTitledFirstName]的�
 EVTOPTA_TOG_1211;我想到了刺杀……;;;;;;;;;;x
 EVTDESC_TOG_1213;在多年的精心准备后，[From.GetDynName]已经组建出了一支庞大的，由流亡者、雇佣兵等组成的军队，宣布[From.GetPossPronoun]进军意向，建立属于[From.GetPossPronoun]地盘……;;;;;;;;;;x
 EVTDESC_TOG_1214;经过数年的精密筹划	[FromFrom.GetDynName]来自 [From.GetTitledName]的宫廷 已经拉起了一支由浪人 雇佣军 和野心家组成的庞大军队	宣布 [FromFrom.GetPossPronoun] 意图 要出走 并析置出一块 [FromFrom.GetPossPronoun] 自己的领地……;;;;;;;;;;x
-AT_PEACE_PRESTIGE_LOSS;处于和平 (§Y$MONTHS$§! 个月): §R$PRESTIGE$§!;;;;;;;;;;x
+AT_PEACE_PRESTIGE_LOSS;处于和平 (§Y$MONTHS$§! 个月)：§R$PRESTIGE$§!;;;;;;;;;;x
 alert_at_peace_prestige_loss_name;长期和平;;;;;;;;;;x
 alert_at_peace_prestige_loss_instant;§Y你们是在和平里呆得太久了吗!§!;;;;;;;;;;x
 alert_at_peace_prestige_loss_delayed;作为一个§Y$RELIGION$§!原始宗教，如果你处于和平或是不去劫掠的话，每月会减少§R$PRESTIGE$§!威望。;;;;;;;;;;x
@@ -589,7 +589,7 @@ b_minori;米诺丽;;;;;;;;;;x
 b_turris_octava;托雷德尔格雷科;;;;;;;;;;x
 b_eboli;埃博丽;;;;;;;;;;x
 REFILL_HOLDING_LEVY;恢复§Y$HOLDING$§!内的征召兵。\n;;;;;;;;;;x
-CAPTURED_CLOSE_RELATIVE;$PERC$: 逮捕 §Y$CHAR$§!;;;;;;;;;;x
+CAPTURED_CLOSE_RELATIVE;$PERC$：逮捕 §Y$CHAR$§!;;;;;;;;;;x
 AIREASON_PREPARING_INVASION;准备入侵 §Y[GetTitledName]§!;;;;;;;;;;x
 INVASION_TARGET;入侵目标;;;;;;;;;;x
 IS_REBEL;是叛乱;;;;;;;;;;x
@@ -661,7 +661,7 @@ TECH_TRADE_PRACTICES_DESC;优越的贸易制度让共和国和城市加入到贸
 TECH_CONSTRUCTION_DESC;先进的建筑学使建造变得更效率.;;;;;;;;;;x
 TECH_CULTURE_FLEX;宽容;;;;;;;;;;x
 TECH_CULTURE_FLEX_DESC;海纳百川更易于统治不同的文化和宗教.;;;;;;;;;;x
-TECH_INVEST;投资在 §Y$TECHNAME$§!\n花费: $COST$/§Y$MAX$§!;;;;;;;;;;x
+TECH_INVEST;投资在 §Y$TECHNAME$§!\n花费：$COST$/§Y$MAX$§!;;;;;;;;;;x
 TECH_INVEST_DESC;通过花费 §Y$POINTS$§! $POINTTYPE$ 你能够提升这项科技到等级 §Y$NEXTLEVEL$§!;;;;;;;;;;x
 POINTTYPE_MIL;军事科技点数;;;;;;;;;;x
 POINTTYPE_ECO;经济科技点数;;;;;;;;;;x
@@ -674,7 +674,7 @@ MODIFIER_TECH_GROWTH_MILITARY;军事科技传播率;;;;;;;;;;x
 MODIFIER_TECH_GROWTH_ECONOMY;经济科技传播率;;;;;;;;;;x
 MODIFIER_TECH_GROWTH_CULTURE;文化科技传播率;;;;;;;;;;x
 SPREAD_FROM_SPYACTION;间谍总管学习科技;;;;;;;;;;x
-TECH_MAPMODE_BUTTON_IRO;地图模式: 传播对比;;;;;;;;;;x
+TECH_MAPMODE_BUTTON_IRO;地图模式：传播对比;;;;;;;;;;x
 TECH_MAPMODE_BUTTON_DRO;目前世界上的发展深蓝是最低等级的、白色是最高等级.;;;;;;;;;;x
 TECH_MARTIAL_VALUE;基础军事科技点数成长;;;;;;;;;;x
 TECH_STEWARDSHIP_VALUE;基础经济科技点数成长;;;;;;;;;;x
@@ -689,8 +689,8 @@ alert_can_tech_delayed;你在一个科技组有足够的科技点可以用来投
 TECH_REMOVE_PAGAN_HOME_ATTRITION;移除异教领地损耗惩罚;;;;;;;;;;x
 TRADE_TECH_TOO_LOW;贸易制度科技不足以建造贸易站;;;;;;;;;;x
 TRADE_TECH_ALLOW_TRADEPOSTS;允许建造贸易站;;;;;;;;;;x
-TRADE_TECH_TRADEPOST_INC;贸易站最多: §G+$INC$%§!;;;;;;;;;;x
-LOOTED_PROVINCE;掠夺省份: §R-$PERC$%§!;;;;;;;;;;x
+TRADE_TECH_TRADEPOST_INC;贸易站最多：§G+$INC$%§!;;;;;;;;;;x
+LOOTED_PROVINCE;掠夺省份：§R-$PERC$%§!;;;;;;;;;;x
 LOOT_THE_PROVINCE;掠夺所有领地;;;;;;;;;;x
 LOOT_EFFECTS;掠夺：§Y$GOLD$§!¤\n威望：§Y$PRESTIGE$§!;;;;;;;;;;x
 CANT_LOOT;无法掠夺;;;;;;;;;;x
@@ -744,7 +744,7 @@ FAM_CONSORTS;侍妾;;;;;;;;;;x
 FAM_LOVER;情人;;;;;;;;;;x
 CONCUBINAGE;妾侍制度;;;;;;;;;;x
 CONCUBINAGE_DESC;这是妾侍制度.妾所生下的孩子尽管社会地位较低，但是仍有正常的继承权并且属于父亲的家族.;;;;;;;;;;x
-NUBILE_CONSORTS;适婚的侍妾 (x§Y$NUM$§!): §G+$PRESTIGE$§!;;;;;;;;;;x
+NUBILE_CONSORTS;适婚的侍妾 (x§Y$NUM$§!)：§G+$PRESTIGE$§!;;;;;;;;;;x
 DIVORCE_INTERACTION_0;付出 §R$GOLD$§!¤ 来和§Y[Recipient.GetTitledFirstName]§!离婚。[Recipient.GetHerHisCap]近亲将会受到侮辱（§R$OPINION$§! 好感度）。;;;;;;;;;;x
 opinion_abducted_spouse;被绑架的配偶;;;;;;;;;;x
 opinion_forced_consort;绑架者;;;;;;;;;;x
@@ -1117,10 +1117,10 @@ EVTOPTB_TOG_617;我不能这么对待我的儿子……;;;;;;;;;;x
 EVTDESC_TOG_618;你的女儿	[From.GetTitledFirstName]	被你的卫兵从地牢押往神庙. 绞索已经套到了她的脖子上	她用绝望而愤怒的眼光望着你. 这就是你想得到的吗	[Root.GetFatherMother] 这样....对你的亲生女儿;;;;;;;;;;x
 EVTOPTA_TOG_618;你让我别无选择.;;;;;;;;;;x
 EVTOPTB_TOG_618;不……把她带回去	我不能这么对待我的女儿……;;;;;;;;;;x
-EVTDESC_TOG_619;[From.GetTitledFirstName]已经被卫兵从地牢押往绞刑架.绞索已经套到了[From.GetHerHis]脖子上	[From.GetFirstName]对你哭喊道: 别这么做	[Root.GetFirstName]! 我们是一家人啊	我们身体里流着同样的血!;;;;;;;;;;x
+EVTDESC_TOG_619;[From.GetTitledFirstName]已经被卫兵从地牢押往绞刑架.绞索已经套到了[From.GetHerHis]脖子上	[From.GetFirstName]对你哭喊道：别这么做	[Root.GetFirstName]! 我们是一家人啊	我们身体里流着同样的血!;;;;;;;;;;x
 EVTOPTA_TOG_619;是啊	这正展现了我对奥丁的虔诚.;;;;;;;;;;x
 EVTOPTB_TOG_619;没错	[From.GetSheHe]是我的手足同胞.;;;;;;;;;;x
-EVTDESC_TOG_620;你的配偶	[From.GetTitledFirstName]	已经被卫兵从地牢押往圣殿	绞索已经套到[From.GetHerHis]脖子上. 为了抓住生命中最后的一根稻草救[From.GetHerselfHimself]	[From.GetFirstName] 大喊乞求你的宽恕: [Root.GetFirstName]我永远爱你....;;;;;;;;;;x
+EVTDESC_TOG_620;你的配偶	[From.GetTitledFirstName]	已经被卫兵从地牢押往圣殿	绞索已经套到[From.GetHerHis]脖子上. 为了抓住生命中最后的一根稻草救[From.GetHerselfHimself]	[From.GetFirstName] 大喊乞求你的宽恕：[Root.GetFirstName]我永远爱你....;;;;;;;;;;x
 EVTOPTA_TOG_620;原谅我	我的爱	但我必须这么做.;;;;;;;;;;x
 EVTOPTB_TOG_620;够了... 我不能这么做.;;;;;;;;;;x
 EVTDESC_TOG_621;从你的地牢里	你的卫兵拖来了[From.GetTitledFirstName]	你的"着皮者"俘虏.[From.GetHerHim]被押往圣殿绞索已经套到了[From.GetHerHis]的脖子上	着皮者[From.GetHerHis]用他自己的语言大叫并以敌视的眼光瞪着你.;;;;;;;;;;x

@@ -99,8 +99,8 @@ OFFMAP_GRACE_TOOLTIP_DESC;向[Root.GetFullName]朝贡能够获得[Root.GetCurren
 OFFMAP_PREV_STATUS;之前的状态是$STATUS|Y$;;;;;;;;;;x
 OFFMAP_PREV_POLICY;之前的政策是$POLICY|Y$;;;;;;;;;;x
 EFFECT_ON_OFFMAP;对[Root.Governor.GetBestName]的影响:;;;;;;;;;;x
-OFFMAP_POLICY;政策: $POLICY|Y$;;;;;;;;;;x
-OFFMAP_STATUS;状态: $STATUS|Y$;;;;;;;;;;x
+OFFMAP_POLICY;政策：$POLICY|Y$;;;;;;;;;;x
+OFFMAP_STATUS;状态：$STATUS|Y$;;;;;;;;;;x
 TRADE_ROUTE_VALUE_MULTIPLIER_EFFECT;$ROUTE|Y$的价值将会是通常的 $VALUE|Y$%;;;;;;;;;;x
 TRADE_ROUTE_BASE_VALUE_EFFECT;$ROUTE|Y$的基础价值将被设定为 $VALUE|Y$;;;;;;;;;;x
 ACTIVE_TRADE_ROUTE_IN_PROVINCE;\n$ROUTE|Y$\n$ROUTE|Y$为这个省份带来了贸易。\n;;;;;;;;;;x
@@ -141,7 +141,7 @@ GOVERNMENT_CANNOT_CREATE_EMPIRES;无法创建帝国;;;;;;;;;;x
 OFFMAP_VIEW_BUTTON_INSTANT;$OFFMAP|Y$\n开始与 §Y$OFFMAP_SHORT$帝国§! 进行互动。;;;;;;;;;;x
 NOT_EQUAL;不能比得上;;;;;;;;;;x
 RELATIVE_REALM_SIZE;领地大小是$WHO|Y$领地大小的§Y$COMPARISON$ $VALUE$%§!;;;;;;;;;;x
-TOTAL_REALM_SIZE;领地规模: $SIZE|Y$;;;;;;;;;;x
+TOTAL_REALM_SIZE;领地规模：$SIZE|Y$;;;;;;;;;;x
 AIREASON_ATTACK_ON_TRIBUTARY;反抗征贡战争;;;;;;;;;;x
 sold_my_province;出售我的省份;;;;;;;;;;x
 sold_vassal_province;出售封臣省份;;;;;;;;;;x
@@ -2442,7 +2442,7 @@ ca_government_monastery_1_desc;筑防的贡巴保护坐落其内的寺院与学�
 OFFMAP_GIFTS_DESC;如果§Y[offmap_china.GetName]§!有意与异邦结交，你可以派遣使者向皇帝献上顺从的象征。进贡能提升你的§Y皇恩§!。;;;;;;;;;;x
 chinese_siege_engineers_effect_tt;三位围攻专家加入了你的宫廷。他们精通于使用炸药暗中破坏防御工事以及建造攻城塔来攀登城墙。;;;;;;;;;;x
 chinese_siege_engineers;请赐围攻专家;;;;;;;;;;x
-chinese_siege_engineers_desc;§Y[Root.Offmap.GetFullName]§!因为他们的战争与工程学院而声名远播，你可以请求几名围攻专家担任你的指挥官为你作战。这些角色都有§Y豹韬§!特质(围攻速度: §G50%§!).;;;;;;;;;;x
+chinese_siege_engineers_desc;§Y[Root.Offmap.GetFullName]§!因为他们的战争与工程学院而声名远播，你可以请求几名围攻专家担任你的指挥官为你作战。这些角色都有§Y豹韬§!特质(围攻速度：§G50%§!).;;;;;;;;;;x
 EVTDESC_JD_3001;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子陛下[From.Offmap.Ruler.GetLongChineseEmperorName]将和蔼地满足你的心愿。匠作大将[chinese_siege_engineer_1.GetDynName]及[chinese_siege_engineer_1.GetHerHis]两位学徒，[chinese_siege_engineer_2.GetDynName]和[chinese_siege_engineer_3.GetDynName]，也已前往你的宫廷。;;;;;;;;;;x
 EVTOPTA_JD_3001;向[From.Offmap.Ruler.GetTitle]致以衷心的感谢。;;;;;;;;;;x
 EVTOPTB_JD_3001;我会立即使用它们！;;;;;;;;;;x
@@ -2532,7 +2532,7 @@ chinese_grace_offer_commander_desc;当 §Y[Root.Offmap.GetFullName]§! 正处于
 china_tribute_send_commander_cooldown_tt;20年内没有进贡指挥官;;;;;;;;;;x
 send_commander_potential_tt;§Y指挥官要求§!：\n必须是一个拥有十二点以上军事能力的指挥官\n必须是不拥有任何土地的\n必须是没有结婚或订婚的\n必须不是任意头衔的继承人\n不能有以下这些特质： §Y无能§!，§Y近亲缺陷§!，或者 §Y痴呆§!;;;;;;;;;;x
 china_commander_cd;§Y最近赠送了指挥官§!;;;;;;;;;;x
-china_commander_cd_desc;你最近已经送过一个指挥官给中国，如果中国内乱持续，你将能继续送另一个指挥官: §Y[Root.chinese_grace_send_commander_timer.GetExpiryDate]§!;;;;;;;;;;x
+china_commander_cd_desc;你最近已经送过一个指挥官给中国，如果中国内乱持续，你将能继续送另一个指挥官：§Y[Root.chinese_grace_send_commander_timer.GetExpiryDate]§!;;;;;;;;;;x
 reclaim_nomad_province;解放游牧省份;;;;;;;;;;x
 reclaim_nomad_province_desc;在这个县有自由奔放的游牧民 - 现在，当我们控制住我们的时候，我们不会让他们被久坐的霸主所压迫！;;;;;;;;;;x
 EVTDESC_JD_20046_C;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子陛下[From.Offmap.Ruler.GetShortChineseEmperorName]现已决定将至上的荣耀赐予[Root.GetOnlyDynastyName]家族。[From.Offmap.Ruler.GetHerHisCap]侄女，[imperial_marriage_spouse_2.GetChineseComplimentAdjective]公主[imperial_marriage_spouse_2.GetFirstName]，将会下嫁[imperial_marriage_spouse_1.GetTitledFirstName]。;;;;;;;;;;x
