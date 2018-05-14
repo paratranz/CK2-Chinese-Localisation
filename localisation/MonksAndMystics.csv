@@ -1572,35 +1572,35 @@ MASS_EXECUTE_NO_TYRANNY;这并不会降低你的封臣对你的好感。;;;;;;;;
 MASS_EXECUTE_TYRANNY;这样做将使你的封臣对你的好感降低 $TYRANNY|Y$。;;;;;;;;;;x
 MASS_ACTION_EXCLUDE;从批量释放/赎回/处决中剔除;;;;;;;;;;x
 MASS_ACTION_COUNCIL_TYRANNY;内阁将这些行为视为暴政！;;;;;;;;;;x
-ASK_TO_JOIN_AMBITION_INTERACTION_TITLE;邀请加入密谋;;;;;;;;;;x
-ASK_TO_JOIN_AMBITION_INTERACTION_DESC;请求某个角色加入他们[Recipient.GetPlot]的密谋。;;;;;;;;;;x
+ASK_TO_JOIN_AMBITION_INTERACTION_TITLE;邀请加入阴谋;;;;;;;;;;x
+ASK_TO_JOIN_AMBITION_INTERACTION_DESC;请求某个角色加入他们[Recipient.GetPlot]的阴谋。;;;;;;;;;;x
 ASK_TO_JOIN_AMBITION_INTERACTION_LONG_DESC;阴谋发起者可以召唤参与阴谋的角色参战。你一定乐意帮助阴谋发起者达成目的，这将触发事件，推动你们的阴谋更进一步。;;;;;;;;;;x
 ASK_TO_JOIN_AMBITION_INTERACTION_ACCEPT_SETUP;加入阴谋的请求被接受;;;;;;;;;;x
-ASK_TO_JOIN_AMBITION_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W加入了§Y[Recipient.GetBestName]§W对[Recipient.GetPlot]的阴谋。;;;;;;;;;;x
+ASK_TO_JOIN_AMBITION_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W加入了§Y[Recipient.GetBestName]§W的[Recipient.GetPlot]阴谋。;;;;;;;;;;x
 ASK_TO_JOIN_AMBITION_INTERACTION_DECLINE_SETUP;加入阴谋的请求被拒绝;;;;;;;;;;x
-ASK_TO_JOIN_AMBITION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§W拒绝让§Y[Actor.GetBestName]§W参与§Y[Recipient.GetBestName]§W对于[Recipient.GetPlot]的阴谋。;;;;;;;;;;x
-ASK_TO_JOIN_AMBITION_INTERACTION_OFFER;[Actor.GetDynName]想加入[Recipient.GetPossPronoun]的阴谋;;;;;;;;;;x
-ASK_TO_JOIN_AMBITION_INTERACTION_LETTER;我们想加入你[Recipient.GetPlot]的阴谋;;;;;;;;;;x
+ASK_TO_JOIN_AMBITION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§W拒绝让§Y[Actor.GetBestName]§W参与§Y[Recipient.GetBestName]§W的[Recipient.GetPlot]阴谋。;;;;;;;;;;x
+ASK_TO_JOIN_AMBITION_INTERACTION_OFFER;[Actor.GetDynName]想加入[Recipient.GetPossPronoun]阴谋;;;;;;;;;;x
+ASK_TO_JOIN_AMBITION_INTERACTION_LETTER;我们想加入你的[Recipient.GetPlot]阴谋;;;;;;;;;;x
 AIREASON_MORE_HELP_USEFUL;多多益善;;;;;;;;;;x
 EVTDESC535;当初我因为马虎而没有邀请你。你确实可以参与我[From.GetPlot]的密谋。;;;;;;;;;;x
 EVTDESC536;为什么我让你这种人参与我 [From.GetPlot]的计划?;;;;;;;;;;x
 MY_PLOTS_LABEL;我的阴谋;;;;;;;;;;x
-PLOT_BACKED;支持的密谋;;;;;;;;;;x
-HIGH_PRIO_ON;标记为重要的决策;;;;;;;;;;x
-HIGH_PRIO_OFF;标记为不重要的决策;;;;;;;;;;x
-RESET_DECISION_FILTERS;重设决策重要性;;;;;;;;;;x
-TT_FROM_IS_LIEGE_BEFORE_WAR;是§Y[From.GetTitledFirstName]§!的直属封臣。\n;;;;;;;;;;x
-TT_PLOT_GAIN_VASSAL_TITLE_COUNT_SECONDARY_COUNTY;是伯爵的第二块伯爵领;;;;;;;;;;x
-TT_PLOT_GAIN_VASSAL_TITLE_COUNTY_IN_CAPITAL_DUCHY;是§Y[From.GetTitledFirstName]§!持有的首都地块所在公爵领的一个伯爵领\n;;;;;;;;;;x
-TT_PLOT_GAIN_VASSAL_TITLE_DUCHY_ALL_DJ_COUNTIES_NOT_DEFACTO;是公爵领且持有者不持有该头衔任何法理领地;;;;;;;;;;x
-TT_PLOT_GAIN_VASSAL_TITLE_DUKE_COUNTY_OUTSIDE_DUCHY;是公爵持有的非法理伯爵领;;;;;;;;;;x
+PLOT_BACKED;支持的阴谋;;;;;;;;;;x
+HIGH_PRIO_ON;标记为重要决议;;;;;;;;;;x
+HIGH_PRIO_OFF;标记为非重要决议;;;;;;;;;;x
+RESET_DECISION_FILTERS;重设决议重要性;;;;;;;;;;x
+TT_FROM_IS_LIEGE_BEFORE_WAR;是§Y[From.GetTitledFirstName]§!的直属封臣\n;;;;;;;;;;x
+TT_PLOT_GAIN_VASSAL_TITLE_COUNT_SECONDARY_COUNTY;是伯爵的第二块伯爵领\n;;;;;;;;;;x
+TT_PLOT_GAIN_VASSAL_TITLE_COUNTY_IN_CAPITAL_DUCHY;是§Y[From.GetTitledFirstName]§!首都地块所在公爵领的一个伯爵领\n;;;;;;;;;;x
+TT_PLOT_GAIN_VASSAL_TITLE_DUCHY_ALL_DJ_COUNTIES_NOT_DEFACTO;是公爵领且持有者不持有该头衔任何法理领地\n;;;;;;;;;;x
+TT_PLOT_GAIN_VASSAL_TITLE_DUKE_COUNTY_OUTSIDE_DUCHY;是公爵直辖的非法理伯爵领\n;;;;;;;;;;x
 IS_WILLING_TO_JOIN_COURT_IF_BRIBED;§Y会在收下一包金币后同意加入我们的宫廷§!;;;;;;;;;;x
-SLOT_0;空槽 0;;;;;;;;;;x
-SLOT_1;空槽 1;;;;;;;;;;x
-SLOT_2;空槽 2;;;;;;;;;;x
-SLOT_3;空槽 3;;;;;;;;;;x
-EMPTY_SLOT;空槽;;;;;;;;;;x
-SAVE_FILTERS;储存过滤器;;;;;;;;;;x
+SLOT_0;栏位 0;;;;;;;;;;x
+SLOT_1;栏位 1;;;;;;;;;;x
+SLOT_2;栏位 2;;;;;;;;;;x
+SLOT_3;栏位 3;;;;;;;;;;x
+EMPTY_SLOT;空栏位;;;;;;;;;;x
+SAVE_FILTERS;存储过滤器;;;;;;;;;;x
 LOAD_FILTERS;读取过滤器;;;;;;;;;;x
 RULE_GROUP_ALL;所有规则;;;;;;;;;;x
 RULE_GROUP_RIP;死神索命;;;;;;;;;;x
@@ -1610,26 +1610,26 @@ RULE_GROUP_RELIGION;宗教;;;;;;;;;;x
 RULE_GROUP_DEJURE_DRIFT;法理转变;;;;;;;;;;x
 RULE_GROUP_VARIOUS;杂项;;;;;;;;;;x
 RULE_GROUP_DIPLOMACY;外交;;;;;;;;;;x
-RULE_GROUP_WOL;生活方式;;;;;;;;;;x
+RULE_GROUP_WOL;生活之道;;;;;;;;;;x
 SAVE_RULES;保存规则;;;;;;;;;;x
 LOAD_RULES;载入规则;;;;;;;;;;x
-SETTLEMENT_GARRISON_LEVY;徵召兵：$NUM$/$TOTAL|G$;;;;;;;;;;x
+SETTLEMENT_GARRISON_LEVY;征召兵：$NUM$/$TOTAL|G$;;;;;;;;;;x
 SETTLEMENT_DEFENDERS_TOTAL;总计：$NUM$/$TOTAL|G$;;;;;;;;;;x
-EMBARK_UNITS;选定的单位登船;;;;;;;;;;x
-EMBARK_UNITS_DRO;选择登船选项将尽可能多地将所选单元装载到船上。;;;;;;;;;;x
-devil_worshipers_invite_disciple_of_devil_tt;一名[Root.GetDWDevil]的追随者将很快出现在§Y[Root.GetTitledFirstName]§!.\n的宫廷中。;;;;;;;;;;x
-EVTDESC_MNM_7824;最后，我虔诚的仆人已经抵达了。[From.GetSocietyRank] [From.GetBestName]是最为成功的[From.GetDWMagician]，精通[From.GetDWDarkMagic]的神圣的奥秘。有着[From.GetHerHim]伴随我身边，我将继续执行伟大的[Root.GetDWDevil]的工作。;;;;;;;;;;x
+EMBARK_UNITS;选定单位登船;;;;;;;;;;x
+EMBARK_UNITS_DRO;选择登船选项将尽可能多地将所选单位装载到船上。;;;;;;;;;;x
+devil_worshipers_invite_disciple_of_devil_tt;一名[Root.GetDWDevil]的追随者将很快出现在§Y[Root.GetTitledFirstName]§!的宫廷中。\n;;;;;;;;;;x
+EVTDESC_MNM_7824;我虔诚的仆人终于抵达了。[From.GetSocietyRank][From.GetBestName]是最为成功的[From.GetDWMagician]，精通[From.GetDWDarkMagic]的神圣的奥秘。有[From.GetHerHim]在我身边，我将继续执行伟大的[Root.GetDWDevil]的工作。;;;;;;;;;;x
 EVTOPTA_MNM_7824;欢迎来到我的宫廷，[From.GetSocietyRank][From.GetTitledFirstName]！;;;;;;;;;;x
 devil_worshipers_invite_disciple_of_devil;邀请[Root.GetDWDevil]追随者;;;;;;;;;;x
 devil_worshipers_invite_disciple_of_devil_desc;作为[Root.Society.GetName]的[Root.GetSocietyRank]，§Y[Root.GetTitledFirstName]§!能够邀请一位[Root.GetDWDevil]的追随者加入[Root.GetHerHis]宫廷。;;;;;;;;;;x
-EVTOPTA_MNM_4400_GOD;赞美[Root.GetMOGod]!;;;;;;;;;;x
+EVTOPTA_MNM_4400_GOD;赞美[Root.GetMOGod]！;;;;;;;;;;x
 EVTOPTA_MNM_4400_NOGOD;从现在起我会付出双倍的努力！;;;;;;;;;;x
-EVTDESC_4400_REMOVE_CYNICAL;我成为一个更好的[Root.GetReligiousPerson]信徒的愿望引领我走向[Root.GetMOCode]。虽然我一开始很怀疑，但我发现[Root.GetMOSaint]的训导中有很多的真理。这确实是一条值得践行的道路。我不再怀疑了。;;;;;;;;;;x
-EVTDESC_4400_REMOVE_GLUTTONOUS;我成为一个更好的[Root.GetReligiousPerson]信徒的愿望引领我走向[Root.GetMOCode]。当我沿着这条神圣的道路努力行进时，我已经压制了我的食欲以及其他的身体欲望。;;;;;;;;;;x
-EVTDESC_4400_REMOVE_GREEDY;我成为一个更好的[Root.GetReligiousPerson]信徒的愿望引领我走向[Root.GetMOCode]。当我沿着这条神圣道路行进时，我感到我对物质的需求减少了。我不再渴望过瘾和放纵。;;;;;;;;;;x
-EVTDESC_4400_REMOVE_SLOTHFUL;我成为一个更好的[Root.GetReligiousPerson]信徒的愿望引领我走向[Root.GetMOCode]。追随[Root.GetMOSaint]的脚步已经成为我内心深处的动力，使我把花在打盹和游戏上的时间转移到更有意义的事情上。;;;;;;;;;;x
-EVTDESC_4400_REMOVE_ENVIOUS;我成为一个更好的[Root.GetReligiousPerson]信徒的愿望引领我走向[Root.GetMOCode]。当我努力变得更像[Root.GetMOSaint]时。我也意识到我很少嫉妒别人的财富了。;;;;;;;;;;x
-EVTDESC_4400_REMOVE_WROTH;我成为一名更好的[Root.GetReligiousPerson]信徒的愿望，引领我遵从[Root.GetMOCode]。我过去经常因为一些琐碎的事情而发怒，但最近我尽力去做得更像[Root.GetMOSaint]，并且我现在几乎不去注意那些过去常使我生气的事情了。;;;;;;;;;;x
+EVTDESC_4400_REMOVE_CYNICAL;我成为一个更好的[Root.GetReligiousPerson]信徒的愿望引领我遵从[Root.GetMOCode]。虽然我一开始很怀疑，但我发现[Root.GetMOSaint]的训导中有很多的真理。这确实是一条值得践行的道路。我不再怀疑了。;;;;;;;;;;x
+EVTDESC_4400_REMOVE_GLUTTONOUS;我成为一个更好的[Root.GetReligiousPerson]信徒的愿望引领我遵从[Root.GetMOCode]。当我沿着这条神圣的道路努力行进时，我已经压制了我的食欲以及其他的身体欲望。;;;;;;;;;;x
+EVTDESC_4400_REMOVE_GREEDY;我成为一个更好的[Root.GetReligiousPerson]信徒的愿望引领我遵从[Root.GetMOCode]。当我沿着这条神圣道路行进时，我感到我对物质的需求减少了。我不再渴望过瘾和放纵。;;;;;;;;;;x
+EVTDESC_4400_REMOVE_SLOTHFUL;我成为一个更好的[Root.GetReligiousPerson]信徒的愿望引领我遵从[Root.GetMOCode]。追随[Root.GetMOSaint]的脚步已经成为我内心深处的动力，使我把花在打盹和游戏上的时间转移到更有意义的事情上。;;;;;;;;;;x
+EVTDESC_4400_REMOVE_ENVIOUS;我成为一个更好的[Root.GetReligiousPerson]信徒的愿望引领我遵从[Root.GetMOCode]。当我努力变得更像[Root.GetMOSaint]时。我也意识到我很少嫉妒别人的财富了。;;;;;;;;;;x
+EVTDESC_4400_REMOVE_WROTH;我成为一名更好的[Root.GetReligiousPerson]信徒的愿望引领我遵从[Root.GetMOCode]。我过去经常因为一些琐碎的事情而发怒，但最近我尽力去做得更像[Root.GetMOSaint]，并且我现在几乎不去注意那些过去常使我生气的事情了。;;;;;;;;;;x
 EVTDESC_4400_REMOVE_PROUD;我成为一名更好的[Root.GetReligiousPerson]信徒的愿望引领我遵从[Root.GetMOCode]。为了力求变得更像[Root.GetMOSaint]，我尽力去更少地考虑自己，并且更多地考虑他人。那曾经束缚着我的骄傲感消失了。;;;;;;;;;;x
 EVTDESC_4400_REMOVE_DECEITFUL;我成为一个更好的[Root.GetReligiousPerson]信徒的愿望引领我走向[Root.GetMOCode]。曾经，我用谎言和欺骗来摆脱困境，并满足我的欲望。遵循[Root.GetMOSaint]的道路使我受益良多。;;;;;;;;;;x
 EVTDESC_4400_REMOVE_CRUEL;我成为一名更好的[Root.GetReligiousPerson]信徒的愿望引领我遵从[Root.GetMOCode]。学习[Root.GetMOSaint]的行为和生活让我意识到我生活方式中的错误。我答应我自己要待人和蔼、慈悲。;;;;;;;;;;x
@@ -1650,89 +1650,89 @@ EVTOPTB_MNM_4405_tt_fail;无法克服这种恶习。\n;;;;;;;;;;x
 in_meditation_desc;此角色已经与世隔绝以冥想宇宙和生命的真理。;;;;;;;;;;x
 EVTDESC_4405_LUSTFUL;在我[Root.GetMOPenanceMeditation]的时候，我花了许多时间思考我的肉欲。尽管我试图坚持[Root.GetMOCode]，我似乎永远无法在[Root.GetMenWomenPreference]中限制自己！当我独坐时，想要无视我腹中腾起的火焰变得越来越难……;;;;;;;;;;x
 EVTOPTA_4405_LUSTFUL;如果我找到一个[Root.GetManWomanPreference]平息欲望，我之后可以更专注。;;;;;;;;;;x
-EVTOPTB_4405_LUSTFUL;我发誓，至少三年我不会对[Root.GetManWomanPreference]撒谎！;;;;;;;;;;x
+EVTOPTB_4405_LUSTFUL;我发誓，至少三年我不会和[Root.GetManWomanPreference]一起睡！;;;;;;;;;;x
 EVTOPTA_4406_TOOLTIP;§Y[Root.GetTitledFirstName]§!在[Root.GetMOPenanceMeditation]中有一些进展。;;;;;;;;;;x
-EVTDESC_4406_LUSTFUL_A;我等到半夜才离开房间，急冲冲地奔向[holy_seclusion_lover.GetTitledFirstName]的住处。[holy_seclusion_lover.GetSheHeCap]用最甜蜜的微笑和[holy_seclusion_lover.GetHerHis]拥抱迎接我，我的所有希望实现了。几个小时后，我返回了自己的房间，[Root.Location.GetHolding]依旧很冷清。;;;;;;;;;;x
-EVTDESC_4406_LUSTFUL_B;我一直等到午夜才离开我的房间，赶到仆人的住处。在那里，我发现了[Root.GetManWomanPreference]带着最甜蜜的微笑，告诉我所有的愿望都会实现。几个小时后。当我回到我的房间时，[Root.Location.GetHolding]仍然空空如也。;;;;;;;;;;x
+EVTDESC_4406_LUSTFUL_A;我等到半夜才离开房间，急匆匆地奔向[holy_seclusion_lover.GetTitledFirstName]的住处。[holy_seclusion_lover.GetSheHeCap]用最甜蜜的微笑迎接我，在[holy_seclusion_lover.GetHerHis]怀抱里，我的所有愿望都得到了满足。几个小时后，我回到了自己的房间，[Root.Location.GetHolding]依旧很冷清。;;;;;;;;;;x
+EVTDESC_4406_LUSTFUL_B;我等到半夜才离开房间，急匆匆地奔向仆人的住处。某个[Root.GetManWomanPreference]用最甜蜜的微笑告诉我，我的所有愿望都会得到满足。几个小时后，我回到了自己的房间，[Root.Location.GetHolding]依旧很冷清。;;;;;;;;;;x
 EVTOPTA_4406_LUSTFUL;现在我又能专注了！;;;;;;;;;;x
 EVTOPTA_4407_TOOLTIP;§Y[Root.GetTitledFirstName]§!在[Root.GetMOPenanceMeditation]中没有进展。\n;;;;;;;;;;x
-EVTDESC_4407_LUSTFUL;我一直等到午夜才离开我的隐居之处，冒险在[Root.Location.GetHolding]寻找一个心甘情愿的情人。我去过我以前和[Root.GetMenWomenPreference]共用过一张床的房间，但他们要么都睡着了，要么都不感兴趣。随着清晨的临近，我回到了我孤独的床上，我花了一些时间在幻想中，然后飘飘然地入睡……;;;;;;;;;;x
-EVTOPTA_4407_LUSTFUL;那么，这是徒劳的努力。;;;;;;;;;;x
+EVTDESC_4407_LUSTFUL;我等到半夜才离开我的隐居之处，冒险在[Root.Location.GetHolding]寻找一个心甘情愿的情人。我去我以前睡过的[Root.GetMenWomenPreference]的房间，但他们要么都睡着了，要么都不感兴趣。随着清晨的临近，我回到了我孤独的床上，花了一些时间幻想，然后飘飘然地入睡……;;;;;;;;;;x
+EVTOPTA_4407_LUSTFUL;好吧，这是徒劳的努力。;;;;;;;;;;x
 EVTDESC_4408_LUSTFUL;起先，没有与[Root.GetManWomanPreference]接触的每个日子里对我来说都像是一种折磨。在晚上我不断的做梦，而白天则是几乎不可能思考任何别的事情。但后来，这种情形得到了某种程度上的缓解。我在独处中变得愈发舒缓，遵守[Root.GetMOCode]也不像以前那么不可忍受了。;;;;;;;;;;x
 EVTOPTA_4408_LUSTFUL;现在，我了解了我的力量，心胜于物。;;;;;;;;;;x
-promise_of_celibacy;宣布独身;;;;;;;;;;x
+promise_of_celibacy;承诺独身;;;;;;;;;;x
 promise_of_celibacy_desc;此角色已经承诺保持三年的独身。;;;;;;;;;;x
 rampant_sinner_christian;猖獗的罪人;;;;;;;;;;x
-rampant_sinner_christian_desc;这个角色不禁让人羞愧。即使他们试图忏悔，他们也犯罪了。;;;;;;;;;;x
+rampant_sinner_christian_desc;这个角色不禁让人羞愧。即使他们试图忏悔，他们还是犯下了罪过。;;;;;;;;;;x
 rampant_sinner_dharmic;猖獗的罪人;;;;;;;;;;x
-rampant_sinner_dharmic_desc;这个角色不禁让人羞愧。即使他们迫使自己闭关冥想，他们也会犯下罪过。;;;;;;;;;;x
-EVTDESC_4409_LUSTFUL;我尽力去忽视这些想法，但我做不到！最后，我忍无可忍，并且在一天傍晚，我偷偷溜出去造访本地的妓院。之后，我回到了我的卧室，认为这件事到此为止了。然而，事实证明有人看到了我，并且现在每个人都知道了这件事！;;;;;;;;;;x
+rampant_sinner_dharmic_desc;这个角色不禁让人羞愧。即使他们闭关冥想，他们还是犯下了罪过。;;;;;;;;;;x
+EVTDESC_4409_LUSTFUL;我尽力去忽视这些想法，但我做不到！最后，我忍无可忍，在一天傍晚，我偷偷溜出去造访本地的妓院。之后，我回到了我的卧室，以为这件事到此为止了。然而，事实证明有人看到了我，并且现在每个人都知道了这件事！;;;;;;;;;;x
 EVTOPTA_4409_LUSTFUL;我必须学会控制这个！;;;;;;;;;;x
 EVTDESC_4405_GLUTTONOUS;我知道[Root.GetMOSaint]是我的榜样，然而我还是无法控制我的食欲。在[Root.GetMOPenanceMeditation]期间，我也许应当只少量食用一些粗茶淡饭，但我越来越无法控制自己。我不能在我的胃咕咕叫的时候集中注意力！;;;;;;;;;;x
-EVTOPTA_4405_GLUTTONOUS;经过一点点治疗后，我将以双倍的专注重新回到我的工作中！;;;;;;;;;;x
-EVTOPTB_4405_GLUTTONOUS;我应该快速打败我的欲望！;;;;;;;;;;x
-EVTDESC_4406_GLUTTONOUS;我一直等到半夜才去厨房。我在其中一个储藏室里发现了一些我最喜欢的食材。在忍受了那么久单调无味的饮食之后，它们简直就是我吃过的最美味的佳肴!我的食欲现在已经得到满足了，谁也不会知道这件事……;;;;;;;;;;x
+EVTOPTA_4405_GLUTTONOUS;经过一点点招待后，我将以双倍的专注重新回到我的职责中！;;;;;;;;;;x
+EVTOPTB_4405_GLUTTONOUS;我应该用斋戒打败我的欲望！;;;;;;;;;;x
+EVTDESC_4406_GLUTTONOUS;我等到半夜才走向厨房。我在其中一个储藏室里发现了一些我最喜欢的食材。在忍受了那么久单调无味的饮食之后，它们简直就是我吃过的最美味的佳肴！我的食欲现在已经得到满足了，谁也不会知道这件事……;;;;;;;;;;x
 EVTOPTA_4406_GLUTTONOUS;这正是我需要的。;;;;;;;;;;x
-EVTDESC_4407_GLUTTONOUS;午夜后，我冒险去厨房找一些东西充饥。我很快找到了我最喜欢的食物，并继续向我的嘴里推了一把。然而，当仆人进入房间时，我的大吃大喝被打断了。当我藏在厨房里时，羞愧的情绪一涌而上，我什么也吃不下了。;;;;;;;;;;x
+EVTDESC_4407_GLUTTONOUS;午夜后，我冒险去厨房找一些东西充饥。我很快找到了我最喜欢的食物，并继续向我的嘴里推了一把。然而，当仆人进入房间时，我的大吃大喝被打断了。当我藏在储藏室里时，羞愧的情绪一涌而上，我什么也吃不下了。;;;;;;;;;;x
 EVTOPTA_4407_GLUTTONOUS;我只觉得恶心……;;;;;;;;;;x
 EVTDESC_4408_GLUTTONOUS;在禁食的第一天，我感觉自己好像要死了。然而，当我在第三天醒来时，我惊讶于我的思维如此清晰，缺乏营养也并不怎么使我困扰。又过了一天，当我开斋之后，简单的饮食也足以让我满意。;;;;;;;;;;x
 EVTOPTA_4408_GLUTTONOUS;我比我想象中的更加坚韧。;;;;;;;;;;x
 EVTDESC_4409_GLUTTONOUS;斋戒的第一天相当顺利，但在第二天，我被饿醒了。我以为我要死了！我匆匆赶到厨房，顾不得仆人的目光。一旦到了那里，我就开始把任何可以食用的东西都塞进我的嘴里，而不管谁会看到我。现在每个人都知道我斋戒失败了！;;;;;;;;;;x
 EVTOPTA_4409_GLUTTONOUS;我怎能如此羞辱自己?;;;;;;;;;;x
 EVTDESC_4405_GREEDY;我的[Root.Religion.GetPriestTitle]总是谈论慈善的重要性，并且我确实定期给穷人施舍。然而，我常常感到我并不情愿这样做，这使我感到羞愧。当[Root.GetMOPenanceMeditation]时，我有大量的时间来思考这个问题。也许我应该努力变得更加仁慈？;;;;;;;;;;x
-EVTOPTA_4405_GREEDY;我仍然给，不是吗？ 当然，这一定是够了。;;;;;;;;;;x
+EVTOPTA_4405_GREEDY;我仍然在施舍，不是吗？显然这足够了。;;;;;;;;;;x
 EVTOPTB_4405_GREEDY;我捐的不够。我会再捐赠一次！;;;;;;;;;;x
 EVTDESC_4406_GREEDY;在意识到自己已经作为[Root.GetTitle]为我的臣下做了很多事情之后，我已经能够不再将慈善事业的想法放在心上了。它不再分散我的注意力。;;;;;;;;;;x
 EVTOPTA_4406_GREEDY;我是一个虔诚的[Root.GetReligiousPerson]信徒，总的来说。;;;;;;;;;;x
 EVTDESC_4407_GREEDY;我还为我的决定暗自欢喜，但很快内疚感开始涌上心头。我不该以这种方式求财。内心的感受与[Root.GetMOCode]殊为不符，我却情不自禁。;;;;;;;;;;x
 EVTOPTA_4407_GREEDY;我是一个虔诚的[Root.GetReligiousPerson]信徒，不是吗？确定？;;;;;;;;;;x
 EVTDESC_4408_GREEDY;我命令我最信任的一个仆人从我的个人财政中拿出一大笔钱，并把它带到当地[Root.GetMOBuilding]。奇怪的是，当[Root.GetSheHe]离开时，我感到......安心。也许这是我从物质财富欲望中解脱的第一步？;;;;;;;;;;x
-EVTOPTA_4408_GREEDY;钱将会被用在好的地方，我很确定。;;;;;;;;;;x
-EVTOPTA_4409_GREEDY;我不该那么鲁莽;;;;;;;;;;x
+EVTOPTA_4408_GREEDY;钱将会被妥善利用，我很确定。;;;;;;;;;;x
+EVTOPTA_4409_GREEDY;我不该那么轻率……;;;;;;;;;;x
 EVTDESC_4405_SLOTHFUL;对于[Root.GetMOCode]真正的追随者，[Root.GetPrayers]和研究[Root.Religion.GetScriptureName]是很重要的，至少我的[Root.Religion.GetPriestTitle]这么说。然而，当[Root.GetMOPenanceMeditation]连续几天后，我很难再专注下去。有时候我觉得我只是坐在那里，什么都没做。如果我闭上眼睛一会儿……那肯定不会那么糟吧？;;;;;;;;;;x
 EVTOPTA_4405_SLOTHFUL;小憩对我有益。;;;;;;;;;;x
-EVTOPTB_4405_SLOTHFUL;如果我开始厌倦，我必须加倍努力!;;;;;;;;;;x
+EVTOPTB_4405_SLOTHFUL;如果我开始厌倦，我必须加倍努力！;;;;;;;;;;x
 EVTDESC_4406_SLOTHFUL;我真的对[Root.GetPrayers]以及[Root.Religion.GetScriptureName]非常厌倦了，然而在经过调整之后，我找回了当初的热情，不再觉得这个任务是如此难以完成了。虽然我还是无法相信自己的每个夜晚会变得与[Root.GetMOSaint]一样努力。一步一个脚印！;;;;;;;;;;x
-EVTOPTA_4406_SLOTHFUL;聪明如我;;;;;;;;;;x
+EVTOPTA_4406_SLOTHFUL;聪明如我。;;;;;;;;;;x
 EVTDESC_4407_SLOTHFUL;至少可以说，这次醒来不是一次愉快的经历。我掉到了地板上，胸口的衣服上浸满了口水。当我迟缓地把身子挪回座位时，我惊呆了，我意识到房间里漆黑一片！现在已经是半夜了，每根蜡烛都烧完了。;;;;;;;;;;x
-EVTOPTA_4407_SLOTHFUL;我就小睡一下！;;;;;;;;;;x
-EVTDESC_4408_SLOTHFUL;在最初的几个小时里，我每分钟都觉得度日如年，但到后来一切变得容易多了。我的疲倦已经过去了，而[Root.Religion.GetScriptureName]中的一段文字让我大感兴趣。我不知晨昏地阅读，被充满力量的话语所吞噬，突然间已经是清晨了！我的嘴角含着微笑沉入梦乡，心里重新建立了目标。;;;;;;;;;;x
+EVTOPTA_4407_SLOTHFUL;我就小睡了一下！;;;;;;;;;;x
+EVTDESC_4408_SLOTHFUL;在最初的几个小时里，我每分钟都觉得度日如年，但到后来一切变得容易多了。我的疲倦已经过去了，而[Root.Religion.GetScriptureName]中的一段文字让我大感兴趣。我努力阅读着，沉浸在充满力量的语句中，恍惚间已经是清晨了！我的嘴角含着微笑沉入梦乡，心里又充满了使命感。;;;;;;;;;;x
 EVTOPTA_4408_SLOTHFUL;自制远胜于放纵。;;;;;;;;;;x
-EVTDESC_4409_SLOTHFUL;我不记得自己是何时入睡的，但我突然意识到我是趴在地板上的。显然，我撞坏了我的[Root.Religion.GetScriptureName]，因为当我挣扎着站起来时，我注意到它的书页撕破了，而我的脸上沾满了墨水。无论我怎么努力，都洗不掉这污痕。我的仆人一定是在议论我的失败，很快大家都会知道这件事了！;;;;;;;;;;x
+EVTDESC_4409_SLOTHFUL;我不记得自己是何时入睡的，但我突然意识到我正趴在地板上。显然，我撞坏了我的[Root.Religion.GetScriptureName]，因为当我挣扎着站起来时，我注意到它的书页撕破了，而我的脸上沾满了墨水。无论我怎么努力，都洗不掉这污痕。我的仆人一定是在议论我的失败，很快大家都会知道这件事了！;;;;;;;;;;x
 EVTOPTA_4409_SLOTHFUL;多尴尬啊！;;;;;;;;;;x
 EVTOPTA_4408_TOOLTIP;通过毅力和专注，你已经设法打败你的罪恶本性并保持隐居。;;;;;;;;;;x
-EVTOPTA_4409_TOOLTIP;一段时间以来，你一直被你的罪恶本性和破碎的隐居所背叛。这让你在别人眼里感到羞耻，并且严重阻碍了你的进步。;;;;;;;;;;x
+EVTOPTA_4409_TOOLTIP;你被你的罪恶本性所背叛，并暂时打破了隐居。这让你在别人眼里感到羞耻，并且严重阻碍了你的进步。;;;;;;;;;;x
 EVTOPTA_MNM_4410_TOOLTIP;§Y[Root.GetTitledFirstName]§!努力[Root.GetMOPenanceMeditation]。\n;;;;;;;;;;x
 the_assassins_rank_1_female;追随者;;;;;;;;;;x
 the_assassins_rank_2_female;同伴;;;;;;;;;;x
 the_assassins_rank_3_female;传道者;;;;;;;;;;x
 the_assassins_rank_4_female;女大长老;;;;;;;;;;x
 the_assassins_rank_3_male;传道者;;;;;;;;;;x
-assassins_borrow_money_effect_tooltip;会长将关于贷款和§Y[Root.GetTitledFirstName]§!进行联系! \n;;;;;;;;;;x
+assassins_borrow_money_effect_tooltip;大长老将就事宜贷款和§Y[Root.GetTitledFirstName]§!进行联系。\n;;;;;;;;;;x
 EVTDESC_MNM_4410;对我来说，[Root.GetMOPenanceMeditation]中最大的挑战是孤独。当我坐在这里，沉思[Root.GetMOCode]时，各种想法进入了我的脑海，我非常想和别人分享，但自从我开始隐居以来，我几乎连一句话都没说过。我向窗外瞥了一眼，只看到[potential_friend.GetTitledFirstName]在和一些朋友进行欢快的的交谈。;;;;;;;;;;x
 EVTOPTA_MNM_4410;我会下去并加入他们，只要几分钟！;;;;;;;;;;x
 EVTOPTB_MNM_4410;我应该留在这里，独自思考。;;;;;;;;;;x
-EVTDESC_MNM_4411;[potential_friend.GetTitledFirstName]和[potential_friend.GetHerHis]对我的言行刮目相看。我在台上激昂地谈吐，成为万众瞩目的焦点。也许我的朋友们需要重新来认识我了？;;;;;;;;;;x
-EVTOPTA_MNM_4411;这很好，虽然我知道我不应该有。;;;;;;;;;;x
-EVTDESC_MNM_4412;这是我被给予的挑战，我不会这么快放弃。我回到书卷前，从中断的地方继续阅读我的[Root.Religion.GetScriptureName]抄本。在读前几页时，院子里快乐朋友的想法不断让我分心，但过了一段时间，我在阅读中找到了安宁。;;;;;;;;;;x
+EVTDESC_MNM_4411;[potential_friend.GetTitledFirstName]和[potential_friend.GetHerHis]朋友看到我很惊讶，但他们是很棒的同伴！当我站在那里，被人群环绕时，我不停地说话。 几分钟的时间变成了一个小时，直到我的同伴们不得不说声抱歉并回到自己的岗位上。;;;;;;;;;;x
+EVTOPTA_MNM_4411;这很好，虽然我知道我不应该这么做。;;;;;;;;;;x
+EVTDESC_MNM_4412;这是上天给予我的挑战，我不会这么快放弃。我回到书卷前，从中断的地方开始继续阅读我的[Root.Religion.GetScriptureName]副本。在读前几页时，院子里快乐朋友的想法不断让我分心，但过了一段时间，我在阅读中找到了安宁。;;;;;;;;;;x
 EVTOPTA_MNM_4412;毕竟，独自一人也没那么糟糕。;;;;;;;;;;x
-EVTDESC_MNM_4413;我离开了窗口，回到我的[Root.Religion.GetScriptureName]书本上，并从离开的地方继续往下读。然而，我的心并不在这里，关于在院子里快乐玩耍的朋友们的想法一直在分散着我的注意力。我的思绪渐渐飘向了同伴们，想着他们怎么几个星期都不想着联系我……;;;;;;;;;;x
-EVTOPTA_MNM_4413;[Root.GetMOSaint]如何应对这种孤独？;;;;;;;;;;x
+EVTDESC_MNM_4413;我离开了窗口，回到我的[Root.Religion.GetScriptureName]书本上，并从中断的地方继续往下读。然而，我的心并不在这里，关于在院子里快乐玩耍的朋友们的想法一直在分散着我的注意力。我的思绪渐渐飘向了同伴们，他们怎么几个星期都不想着联系我……;;;;;;;;;;x
+EVTOPTA_MNM_4413;[Root.GetMOSaint]是怎么应对这种孤独的？;;;;;;;;;;x
 EVTDESC_MNM_4414;我不能理解[Root.Religion.GetScriptureName]的文章的意思。它的用词不仅古老而且还把意思隐藏在复杂的象征手法中。如果我自己理解了文章的意思，那将对我的精神发展有很大的好处，或者我可能最好是去问一下我的[court_spiritual.GetJobTitle]。;;;;;;;;;;x
 EVTOPTA_MNM_4414;我自己来解决这个问题。;;;;;;;;;;x
 EVTOPTB_MNM_4414;寻求他人帮助并不可耻。;;;;;;;;;;x
-EVTOPTA_MNM_4414_TOOLTIP_SUCCESS;§Y[Root.GetTitledFirstName]§! 解读这个片段非常成功，证明[Root.GetHerHis]非常了解[Root.Religion.GetScriptureName]。\n;;;;;;;;;;x
-EVTOPTA_MNM_4414_TOOLTIP_FAILURE;§Y[Root.GetTitledFirstName]§! 没有理解这段经文。\n;;;;;;;;;;x
-EVTOPTB_MNM_4414_TOOLTIP_SUCCESS;§Y[court_spiritual.GetTitledName]§!尝试向 §Y[Root.GetTitledFirstName]§!.\n解释这段话;;;;;;;;;;x
+EVTOPTA_MNM_4414_TOOLTIP_SUCCESS;§Y[Root.GetTitledFirstName]§!解读这个片段非常成功，证明对于[Root.Religion.GetScriptureName][Root.GetHerHis]了解很到位。\n;;;;;;;;;;x
+EVTOPTA_MNM_4414_TOOLTIP_FAILURE;§Y[Root.GetTitledFirstName]§!没有理解这段经文。\n;;;;;;;;;;x
+EVTOPTB_MNM_4414_TOOLTIP_SUCCESS;§Y[court_spiritual.GetTitledName]§!成功向§Y[Root.GetTitledFirstName]§!解释了这段话。\n;;;;;;;;;;x
 EVTOPTB_MNM_4414_TOOLTIP_FAILURE;§Y[court_spiritual.GetTitledName]§!没能起到任何帮助，§Y[Root.GetTitledFirstName]§!理解这段经文失败了。\n;;;;;;;;;;x
-opinion_ignorant;无知的;;;;;;;;;;x
+opinion_ignorant;无知;;;;;;;;;;x
 EVTDESC_MNM_4415;一个真正的[Root.GetMOCode]追随者不会轻易放弃。我不停地阅读它，一遍又一遍地咀嚼着文字，把它与其他神圣的文本进行比较，并在结尾处仔细思考了几个小时。进展很慢，但我不时发现一个新的谜团，突然，我看到了！如此优雅，如此深邃！我将带着这个启示直到我死的那一天。;;;;;;;;;;x
-EVTOPTA_MNM_4415_A;[Root.GetMOGod] 的智慧无穷无尽，不可置疑。;;;;;;;;;;x
+EVTOPTA_MNM_4415_A;[Root.GetMOGod]的智慧无穷无尽，不可置疑。;;;;;;;;;;x
 EVTOPTA_MNM_4415_B;[Root.Religion.GetScriptureName]具有无上的智慧。;;;;;;;;;;x
 EVTDESC_MNM_4416;顽固的我拒绝寻求帮助。很显然，[Root.GetTitle]我知道足够的[Root.Religion.GetScriptureName]来理解这段经文的意义！时间不断流逝，我盯着这些语句，试图理解它们，但是我能想到的每一种解释那么黯淡和空洞……;;;;;;;;;;x
 EVTOPTA_MNM_4416_A;[Root.GetMOGod]的智慧超出了我的理解。;;;;;;;;;;x
 EVTOPTA_MNM_4416_B;[Root.Religion.GetScriptureName]的智慧超出了我的理解。;;;;;;;;;;x
-EVTDESC_MNM_4417;骄傲不合符[Root.GetMOCode]，所以我决定向 [court_spiritual.GetJobTitle][court_spiritual.GetFirstName]寻求帮助。[court_spiritual.GetSheHeCap]对于我的请求感到惊喜。我们一起着手阐明经文的意思。在[court_spiritual.GetFirstName]的耐心指导下，我终于弄明白了！;;;;;;;;;;x
+EVTDESC_MNM_4417;骄傲不符合[Root.GetMOCode]，所以我决定向[court_spiritual.GetJobTitle][court_spiritual.GetFirstName]寻求帮助。[court_spiritual.GetSheHeCap]对于我的请求感到惊喜。我们一起着手阐明经文的意思。在[court_spiritual.GetFirstName]的耐心指导下，我终于弄明白了！;;;;;;;;;;x
 EVTDESC_MNM_4418;我立刻去寻找 [court_spiritual.GetJobTitle] [court_spiritual.GetFirstName]的帮助来对抗 [court_spiritual.GetHerHis] 我觉得我在一个糟糕的时间把 [court_spiritual.GetHerHim]俘虏了，无论如何 [court_spiritual.GetSheHe] 不情愿的答应了条件。[court_spiritual.GetFirstName]没有耐心等我，我发现自己跟不上他们时，我生气的离开了。;;;;;;;;;;x
 EVTOPTA_MNM_4418;[court_spiritual.GetJobTitle] [court_spiritual.GetFirstName]是无知的！;;;;;;;;;;x
 kind_parent;慈父慈母;;;;;;;;;;x
@@ -1876,7 +1876,7 @@ fingerbone_of_saint;圣指骨;;;;;;;;;;x
 fingerbone_of_saint_desc;据说这颗指骨来自一位伟大的圣人。;;;;;;;;;;x
 muni;牟尼;;;;;;;;;;x
 muni_desc;这个男人接受了大雄尊者的誓言并决定终身不娶，所以这个人无法结婚或继承领地。;;;;;;;;;;x
-aryika;阿莉伽;;;;;;;;;;x
+aryika;苦行女僧;;;;;;;;;;x
 aryika_desc;这个女人接受了大雄尊者的誓言并决定终身不嫁，所以这个人无法结婚或继承领地。;;;;;;;;;;x
 bhikkhu;比丘;;;;;;;;;;x
 bhikkhu_desc;这个男人遵守出家人的戒律并决定终身不娶，所以这个人无法结婚或继承领地。;;;;;;;;;;x
@@ -2924,7 +2924,7 @@ EVTOPTC_MNM_9122_SCIMITAR;征服弯刀！;;;;;;;;;;x
 EVTOPTC_MNM_9122_LANCE;穿刺者听起来是个不错的名字，不是吗？;;;;;;;;;;x
 EVTOPTC_MNM_9122_AXE;她像一个掠夺者，不是吗？;;;;;;;;;;x
 EVTOPTC_MNM_9122_MACE;粉碎者听起来是个不错的名字，不是吗？;;;;;;;;;;x
-EVTOPTC_MNM_9122_BOW;她看起来像只老鹰，不是吗？;;;;;;;;;;x
+EVTOPTC_MNM_9122_BOW;她看起来像只鹰，不是吗？;;;;;;;;;;x
 EVTOPTA_MNM_9123;这太棒了，[From.GetMasterMistressCap][From.GetFirstName]！;;;;;;;;;;x
 EVTDESC_MNM_9124;[From.GetMasterMistressCap] [From.GetFirstName]终于完成了 [From.GetWeaponsmithWeapon] 的制作。这件武器即没有精美的雕刻，也没有镶嵌什么珍贵的宝石，但它的确在某种程度上有它独特的设计感。毕竟，看起来美观并不是它的主要功能，不是吗？;;;;;;;;;;x
 EVTOPTA_MNM_9124;我相信她会为我服务。;;;;;;;;;;x
@@ -2944,7 +2944,7 @@ EVTDESC_MNM_6903_B;我与[From.GetTitledFirstName]势均力敌，我们已经进
 EVTDESC_MNM_6903_C;我与[From.GetTitledFirstName]势均力敌。我不记得我们什么时候丢了武器。现在我们在地上摔跤，双方都没有得到足够的优势，汗水浸透了我们的衣服，刺痛了我们的眼睛。‘平局？’我低声说，‘好吧，平局’[From.GetFirstName]轻笑着回答道。;;;;;;;;;;x
 EVTDESC_MNM_6903_D;在正午无情的阳光下，我在厚重的长袍和面纱下汗流不止。[From.GetTitledFirstName]在哪？我紧张地扫视着人群，但什么也没有。然后一把冰冷的刀刃抵住我的喉咙。‘令人印象深刻的伪装[From.GetSocietyRank]，我是说真的’[From.GetFirstName]轻笑道，衷心地拍了拍我的背。;;;;;;;;;;x
 EVTDESC_MNM_6903_E;我与[From.GetTitledFirstName]势均力敌。我不得不尽全力来对付[From.GetHerHim]。一滴汗珠掉进我的眼睛，当我本能地举起手擦拭它的时候，[From.GetFirstName]突然扑过来刺中了我的手臂，我们都跌倒在地。‘不错的比赛，[From.GetSocietyRank]，’[From.GetSheHe]轻笑道并翻身起来。;;;;;;;;;;x
-EVTOPTA_MNM_6903;我们应该再这么做，[From.GetSocietyRank][From.GetFirstName]。;;;;;;;;;;x
+EVTOPTA_MNM_6903;我们应该再来一次，[From.GetSocietyRank][From.GetFirstName]。;;;;;;;;;;x
 EVTOPTB_MNM_6903;[From.GetFirstName]，你…你棒极了。;;;;;;;;;;x
 EVTOPTB_MNM_6903_TT;你意识到你一直很迷恋§Y[From.GetTitledFirstName]§!并表达了你的感受。;;;;;;;;;;x
 EVTOPTC_MNM_6903;现在我们都知道谁是最好的工匠了。;;;;;;;;;;x
@@ -3111,7 +3111,7 @@ DAMAGE_UNIT_EFFECT_PERCENTAGE;部队承受$PERCENTAGE|Y%$的人员伤亡;;;;;;;;
 DAMAGE_UNIT_MORALE_EFFECT;军队士气减成$VALUE|+$;;;;;;;;;;x
 DAMAGE_UNIT_MORALE_EFFECT_NEGATIVE;军队士气加成$VALUE|+$;;;;;;;;;;x
 SET_FLANK_TACTIC_EFFECT;侧翼战术改变为$TACTIC|$;;;;;;;;;;x
-secret_religions_found_secret_religious_society;建立邪教;;;;;;;;;;x
+secret_religions_found_secret_religious_society;建立秘信社团;;;;;;;;;;x
 secret_religions_found_secret_religious_society_desc;创建一个拥护你的社团，使你能在黑暗中播下真正信仰的种子，一旦你有了足够多的追随者，它会从阴影里破土而出。;;;;;;;;;;x
 secret_religions_falsely_confess_faith;假意改信;;;;;;;;;;x
 confess_faith_decision_tooltip;皈依你领主的信仰;;;;;;;;;;x
