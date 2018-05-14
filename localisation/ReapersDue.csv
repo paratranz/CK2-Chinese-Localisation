@@ -40,7 +40,7 @@ EVTDESC_RIP_11053_WANDERING_GENIUS;你的探子回报说，一名独眼的[recru
 EVTOPTK_RIP_11053;给[recruited_physician_target.GetHerHim]一个慷慨的报价。;;;;;;;;;;x
 EVTDESC_RIP_11053_ERUDITE_HERBALIST;你的探子回报说，一名博学的草药医生就住在附近小镇郊外的茅屋里。这名草药医生名叫[recruited_physician_target.GetFirstName]，似乎很期待成为你的私人医师，并且已为宫廷准备了一大堆奇特药草，只待[recruited_physician_target.GetSheHe]被接纳。;;;;;;;;;;x
 EVTOPTL_RIP_11053;太棒了，草药治病听起来不错。把[recruited_physician_target.GetHerHim]带到宫廷来！;;;;;;;;;;x
-EVTDESC_RIP_11053_PAGAN_MYSTIC;据传闻，在边境的不远处住着一位[recruited_physician_target.Religion.GetName]的神秘主义者。虽然[recruited_physician_target.GetSheHe]是个异教徒，但当地人很尊敬[recruited_physician_target.GetHerHim]，一旦有需要他们就会求助[recruited_physician_target.GetHerHim]。有传言称那个神秘主义者叫[recruited_physician_target.GetFirstName]，他能招来治愈的灵魂注入[recruited_physician_target.GetHerHis]的病人体内。花点小钱就能把[recruited_physician_target.GetSheHeCap]请到宫廷里来。;;;;;;;;;;x
+EVTDESC_RIP_11053_PAGAN_MYSTIC;据传闻，在边境的不远处住着一位[recruited_physician_target.Religion.GetName]的神秘主义者。虽然[recruited_physician_target.GetSheHe]是个异教徒，但当地人很尊敬[recruited_physician_target.GetHerHim]，一旦有需要他们就会求助[recruited_physician_target.GetHerHim]。有传言称那个神秘主义者叫[recruited_physician_target.GetFirstName]，他能招来治愈的灵魂注入[recruited_physician_target.GetHerHis]病人体内。花点小钱就能把[recruited_physician_target.GetSheHeCap]请到宫廷里来。;;;;;;;;;;x
 EVTOPTM_RIP_11053;[recruited_physician_target.GetSheHeCap]会胜任的！;;;;;;;;;;x
 EVTDESC_RIP_11053_INSANE_ZEALOT;来自[zealot_temple_target.GetName]的信使带来了消息，一名居住在那的[Root.Religion.GetPriestTitle]愿意作为私人医师侍奉你！这名[Root.Religion.GetPriestTitle]名叫[recruited_physician_target.GetFirstName]，学习过正规的医学，并曾在数个医院工作过。但看上去似乎其他[Root.Religion.GetPriestTitle]很高兴见到[recruited_physician_target.GetHerHim]离开，因为[recruited_physician_target.GetSheHe]是出了名的有点太过狂热，不好听的说法就是——疯疯癫癫的。;;;;;;;;;;x
 EVTOPTN_RIP_11053;那么最坏的情况是怎样的？;;;;;;;;;;x
@@ -217,7 +217,7 @@ death_text_slothful;[GetSheHe]太容易犯懒，生前从不做任何事情，�
 death_text_envious;[GetSheHe]嫉妒永无止尽，生前总想要获得其他人拥有的东西。作为一个堕落的[GetManWoman]，[GetFirstName]定然会在死后为[GetHerHis]罪付出代价;;;;;;;;;;x
 death_text_wroth;易怒的[GetManWoman]，人们害怕遇到[GetHerHim]——更不用说带来坏消息了。作为一个堕落的[GetManWoman]，[GetFirstName]定然会在死后为[GetHerHis]罪付出代价;;;;;;;;;;x
 death_text_proud;[GetSheHe]犯下了骄傲的罪孽，生前总希望所有人知道[GetHerHis]伟大。作为一个堕落的[GetManWoman]，[GetFirstName]定然会在死后为[GetHerHis]罪付出代价;;;;;;;;;;x
-death_text_chaste;作为一位忠贞的[GetManWoman]，[GetHerHis]的荣誉无可置疑。作为一位虔诚敬神的[GetManWoman]，[GetFirstName]现在定然已到了[Religion.GetRandomGodName]身边;;;;;;;;;;x
+death_text_chaste;作为一位忠贞的[GetManWoman]，[GetHerHis]荣誉无可置疑。作为一位虔诚敬神的[GetManWoman]，[GetFirstName]现在定然已到了[Religion.GetRandomGodName]身边;;;;;;;;;;x
 death_text_temperate;[GetSheHe]始终节制自己，从未让[GetHerHis]低等欲望控制[GetHerHim]。作为一位虔诚敬神的[GetManWoman]，[GetFirstName]现在定然已到了[Religion.GetRandomGodName]身边;;;;;;;;;;x
 death_text_charitable;人皆知其慷慨，[GetSheHe]生前慷慨地给予[GetHerHis]亲朋好友钱财。作为一位虔诚敬神的[GetManWoman]，[GetFirstName]现在定然已到了[Religion.GetRandomGodName]身边;;;;;;;;;;x
 death_text_diligent;身为勤奋的光辉模范，[GetHerHis]职责从未受忽视。作为一位虔诚敬神的[GetManWoman]，[GetFirstName]现在定然已到了[Religion.GetRandomGodName]身边;;;;;;;;;;x
@@ -879,7 +879,7 @@ pet_parrot_desc;凶恶的外表吸引了一只态度恶劣的鸟。;;;;;;;;;;x
 bad_crisis_management;糟糕的危机处理;;;;;;;;;;x
 NOT_ANY_LIEGE_STARTS;没有君主;;;;;;;;;;x
 EVTDESC_RIP_11060;宫廷医师 [FromFromFrom.GetTitledName]完全搞砸了对我的[GetFromRelation] [From.GetFirstName]的治疗！[From.GetFirstName]现在病情更加严重了，几乎是勉强维持生命！我要惩罚 [FromFromFrom.GetTitledName]的过错，但用何种惩罚比较好？;;;;;;;;;;x
-EVTOPTA_RIP_11060;砍了[FromFromFrom.GetHerHis]的脑袋！;;;;;;;;;;x
+EVTOPTA_RIP_11060;砍了[FromFromFrom.GetHerHis]脑袋！;;;;;;;;;;x
 EVTOPTB_RIP_11060;我会和[FromFromFrom.GetHerHim]讲道理。;;;;;;;;;;x
 EVTOPTC_RIP_11060;放轻松，[FromFromFrom.GetFirstName]正在尽[FromFromFrom.GetHerHis]最大努力。;;;;;;;;;;x
 EVTOPTD_RIP_11060;把[FromFromFrom.GetHerHim]扔进地牢！;;;;;;;;;;x
@@ -899,7 +899,7 @@ EVTDSC_RIP_20003;哦，鞭子给予的甜蜜之吻！[From.GetTitledFirstName]�
 EVTOPTA_RIP_20003;[From.GetSheHeCap]最好看看[From.GetHerHis]背部……;;;;;;;;;;x
 EVTDSC_RIP_20004;当你安静地揣测你的命运的时候，狱卒突然走进来把你从牢里拖出去。「别担心，」他向你保证，露出不太令人放心的微笑，「今天你不会挨刽子手的斧头。仁慈的[From.GetTitle]决定鞭笞就足够了。」;;;;;;;;;;x
 EVTOPTA_RIP_20004;仁——仁慈？！;;;;;;;;;;x
-EVTDSC_RIP_20005;一群老鼠装在桶里绑在[From.GetTitledFirstName]的胸口并烧煤加热。幸运的是，桶在老鼠成功咬穿[From.GetHerHim]的身体之前拿开了。从[From.GetTitledFirstName]的尖叫声中可以知道，[From.GetSheHe]貌似已经得到了[From.GetHerHis]的教训……;;;;;;;;;;x
+EVTDSC_RIP_20005;一群老鼠装在桶里绑在[From.GetTitledFirstName]的胸口并烧煤加热。幸运的是，桶在老鼠成功咬穿[From.GetHerHim]的身体之前拿开了。从[From.GetTitledFirstName]的尖叫声中可以知道，[From.GetSheHe]貌似已经得到了[From.GetHerHis]教训……;;;;;;;;;;x
 EVTOPTA_RIP_20005;[From.GetSheHeCap]应该感激自己还活着……;;;;;;;;;;x
 EVTDSC_RIP_20006;当你安静地揣测你的命运的时候，狱卒突然走进来。「你的牢房室友需要个正式的介绍」他说着把你拉到他身边。「老鼠。虽然它们一开始可能会表现的有些孤僻，但我肯定你会充分认识它们，尤其是当它们咬穿你的胸部后。」;;;;;;;;;;x
 EVTOPTA_RIP_20006;什-什么……?!;;;;;;;;;;x
@@ -1341,7 +1341,7 @@ EVTDESC_RIP_12032;你的[From.GetSonDaughter][From.GetFirstName]一天晚上来�
 EVTOPTA_RIP_12032;如果你这么认为的话，我的[From.GetSonDaughter]，那我相信你的判断。;;;;;;;;;;x
 EVTOPTB_RIP_12032;你可怜的[Root.GetFatherMother]该怎么办？如果你走了，就别想回来！;;;;;;;;;;x
 EVTOPTC_RIP_12032;我不能让你冒生命危险，[From.GetFirstName]。我很抱歉，但是不行。;;;;;;;;;;x
-EVTDESC_RIP_12034_A;一名守卫来告诉你，你的[From.GetSonDaughter][From.GetFirstName]已经回来了。最开始，你如释重负，然而这份喜悦当[From.GetFirstName]进入你的房间几乎荡然无存。[From.GetHerHis]的怀里搂着一个衣衫褴褛的农民，[seclusion_childs_lover.GetBoyGirl]。「[Root.GetFatherMotherCap]，请向你介绍[seclusion_childs_lover.GetFirstName]。我们真心相爱，希望得到你的祝福。」;;;;;;;;;;x
+EVTDESC_RIP_12034_A;一名守卫来告诉你，你的[From.GetSonDaughter][From.GetFirstName]已经回来了。最开始，你如释重负，然而这份喜悦当[From.GetFirstName]进入你的房间几乎荡然无存。[From.GetHerHis]怀里搂着一个衣衫褴褛的农民，[seclusion_childs_lover.GetBoyGirl]。「[Root.GetFatherMotherCap]，请向你介绍[seclusion_childs_lover.GetFirstName]。我们真心相爱，希望得到你的祝福。」;;;;;;;;;;x
 EVTDESC_RIP_12034_B;你途径[From.GetSonDaughter][From.GetFirstName]的房间时听到了一阵熟悉的笑声。难道[From.GetSheHe]没有拜访你就回来了？怒不可遏的你用力地敲打着房门，笑声消失了，但门依然没有打开。你拉开大门，只看见半裸的[From.GetFirstName]正匆忙地穿上衣服，旁边站着一个陌生的[seclusion_childs_lover.GetManWoman]。这到底是什么鬼？！;;;;;;;;;;x
 EVTOPTA_RIP_12034;如果这是你真正想要的，[From.GetFirstName]，我无法阻止你……;;;;;;;;;;x
 EVTOPTB_RIP_12034;[seclusion_childs_lover.GetSheHeCap]可以留下来，但不能让任何人知道！;;;;;;;;;;x
@@ -1415,8 +1415,8 @@ EVTOPTA_RIP_13230_TOOLTIP;§Y'农民骚乱'§!将从你的所有直辖领中去�
 EVTOPTB_RIP_13230;让他们在地牢里腐烂吧。;;;;;;;;;;x
 EVTOPTB_RIP_13230_TOOLTIP;你让囚犯们在牢里自生自灭。;;;;;;;;;;x
 EVTOPTC_RIP_13230;用[Root.Religion.GetHighGodName]的万慈教育他们。;;;;;;;;;;x
-EVTDSC_RIP_13235_A;今天你发现[bg_relative_witch.GetFirstName]被刺死在[bg_relative_witch.GetHerHis]的房间中。你曾经见到廷臣们都在[bg_relative_witch.GetSheHe]走过身边时窃窃私语，但你不曾参与其中。如今由你挑起的猜疑和憎恨让[bg_relative_witch.GetHerHim]永远地离开了你;;;;;;;;;;x
-EVTDSC_RIP_13235_B;今天你发现[bg_relative_witch.GetFirstName]被刺死在[bg_relative_witch.GetHerHis]的房间中。你曾经见廷臣们都在[bg_relative_witch.GetSheHe]走过身边时窃窃私语，但你不曾参与其中。因为你没能找出女巫，导致其他人自行动手，让[bg_relative_witch.GetFirstName]付出了代价。;;;;;;;;;;x
+EVTDSC_RIP_13235_A;今天你发现[bg_relative_witch.GetFirstName]被刺死在[bg_relative_witch.GetHerHis]房间中。你曾经见到廷臣们都在[bg_relative_witch.GetSheHe]走过身边时窃窃私语，但你不曾参与其中。如今由你挑起的猜疑和憎恨让[bg_relative_witch.GetHerHim]永远地离开了你;;;;;;;;;;x
+EVTDSC_RIP_13235_B;今天你发现[bg_relative_witch.GetFirstName]被刺死在[bg_relative_witch.GetHerHis]房间中。你曾经见廷臣们都在[bg_relative_witch.GetSheHe]走过身边时窃窃私语，但你不曾参与其中。因为你没能找出女巫，导致其他人自行动手，让[bg_relative_witch.GetFirstName]付出了代价。;;;;;;;;;;x
 EVTOPTA_RIP_13235;我的[bg_relative_witch.GetFirstName]……;;;;;;;;;;x
 EVTOPTA_RIP_13235_TOOLTIP;[bg_relative_witch.GetTitledFirstName]被相信[bg_relative_witch.GetHerHim]是[bg_relative_witch.GetWarlockWitch]的人杀害了。\n;;;;;;;;;;x
 EVTDSC_RIP_13232;你的预防措施似乎有了回报。过去几周已经没有什么人谈论巫术活动，也没有新的指控。然而你也不能确信究竟那些被控诉的人是不是瘟疫的罪魁祸首，至少所有人看上去都放宽心了。;;;;;;;;;;x
@@ -1568,7 +1568,7 @@ EVTOPTA_TOG_7025;但是它好可爱。小猫过来！;;;;;;;;;;x
 EVTOPTB_TOG_7025;嘘！走开！;;;;;;;;;;x
 EVTDESC_TOG_7030;我最近注意到我的一个士兵。[ancestors_commander.GetFirstName]与众不同。[ancestors_commander.GetSheHeCap]经常在比武大赛里用智谋取胜比[ancestors_commander.GetHerHis]两倍经验还多的对手。也许我能给[ancestors_commander.GetHerHim]个新的职位？;;;;;;;;;;x
 EVTOPTA_TOG_7030;也许我的祖先将[ancestors_commander.GetHerHim]派给我？;;;;;;;;;;x
-EVTDESC_TOG_7032;如果我的祖先们教会了我什么东西，那就是一名战士的伟大不在于[Root.GetHerHis]四肢的强壮或者[Root.GetHerHis]武器和[Root.GetHerHis]的技术。要真正的掌控战场，那么他必须知道如何分析战场形势并且领导军队。;;;;;;;;;;x
+EVTDESC_TOG_7032;如果我的祖先们教会了我什么东西，那就是一名战士的伟大不在于[Root.GetHerHis]四肢的强壮或者[Root.GetHerHis]武器和[Root.GetHerHis]技术。要真正的掌控战场，那么他必须知道如何分析战场形势并且领导军队。;;;;;;;;;;x
 EVTOPTA_TOG_7032;我几乎能感受到祖先们的指引。;;;;;;;;;;x
 EVTDESC_TOG_7033;诅咒[Root.Religion.GetRandomEvilGodName]！今天我在比武大赛里犯下了一个很蠢的错误，造成了很严重的后果。我的对手还没准备好然后[Root.GetHerHis]利刃轻易得穿透了我的护甲。我的祖先们不再保佑我了么？;;;;;;;;;;x
 EVTOPTA_TOG_7033;我再也不会和以前一样了。;;;;;;;;;;x
@@ -1624,7 +1624,7 @@ EVTOPTC_GBC_109;一个考虑周到的礼物会证明我的爱情。;;;;;;;;;;x
 EVTOPTD_GBC_109;不，这已经走得太远了。我不会送任何东西。;;;;;;;;;;x
 EVTDSC_GBC_110;我花费了整晚创作。不过，我的辛苦终于获得了回报——诗歌比我想象的还要好！任何人读过这个，都一定能知道这描述的是谁，尽管我并没有提过[gbc_lover.GetFirstName]的名字。;;;;;;;;;;x
 EVTOPTA_GBC_110;我祈祷[gbc_lover.GetSheHe]会从诗里感受到我的热情！;;;;;;;;;;x
-EVTDSC_GBC_111;我花费了整晚创作。不论我怎样尝试，我还是没法创作出完美的诗歌。诗调和层次还不错，但是我不确信我完美得捕捉了[gbc_lover.GetHerHis]的优雅的容貌和我自己的感情。;;;;;;;;;;x
+EVTDSC_GBC_111;我花费了整晚创作。不论我怎样尝试，我还是没法创作出完美的诗歌。诗调和层次还不错，但是我不确信我完美得捕捉了[gbc_lover.GetHerHis]优雅的容貌和我自己的感情。;;;;;;;;;;x
 EVTOPTA_GBC_111;心意才是最重要的。我相信[gbc_lover.GetFirstName]会同意我。;;;;;;;;;;x
 EVTOPTB_GBC_111;这是毫无意义的。我还是就买点礼物吧。;;;;;;;;;;x
 EVTDSC_GBC_113_A;我最亲爱的[Root.GetLordLady][Root.GetFirstName]，\n我被你那美妙的诗歌感动。我从我心底里感谢你。你证明了你有一个高尚的灵魂。因此我希望你会继续我们的往来。\n\n你的忠实的朋友，\n[From.GetFirstName];;;;;;;;;;x
@@ -1687,7 +1687,7 @@ EVTDSC_GBC_137;我们终于在一起了，[gbc_lover.GetFirstName]和我。本�
 EVTOPTA_GBC_137;[gbc_lover.GetFirstName]，我的[GetRootFromCompliment]，我爱你！;;;;;;;;;;x
 EVTDSC_GBC_140;[gbc_rival.GetTitledFirstName]的大型狩猎终于结束了。这几周至少可以用……多事之秋来形容。;;;;;;;;;;x
 EVTOPTA_GBC_140;毕竟，我很开心能回家。;;;;;;;;;;x
-EVTDSC_GBC_141;啊，伟大的[Root.Religion.GetHighGodName]，你是否没有仁慈之心？！我之前在森林里听到的惨叫声原来是[gbc_lover.GetFirstName]的！[gbc_lover.GetSheHeCap]被一头狼野蛮地袭击了。当他们找到[gbc_lover.GetHerHim]，[gbc_lover.GetHerHis]的心还在跳动，不过已经太迟了。;;;;;;;;;;x
+EVTDSC_GBC_141;啊，伟大的[Root.Religion.GetHighGodName]，你是否没有仁慈之心？！我之前在森林里听到的惨叫声原来是[gbc_lover.GetFirstName]的！[gbc_lover.GetSheHeCap]被一头狼野蛮地袭击了。当他们找到[gbc_lover.GetHerHim]，[gbc_lover.GetHerHis]心还在跳动，不过已经太迟了。;;;;;;;;;;x
 EVTOPTA_GBC_141;我当时能救[gbc_lover.GetHerHim]吗？这是我的过错么？;;;;;;;;;;x
 EVTDSC_GBC_142;致[GetFromRootInsult][Root.GetTitledFirstName]，\n你对我的[gbc_lover.GetHusbandWife]那肮脏下流的举止已经败坏了我的名誉。我不会再忍受下去！我接收你这条狗的挑战。把你的后事都处理好，因为我不会展现任何仁慈！\n\n[gbc_rival.GetTitledFirstName];;;;;;;;;;x
 EVTOPTA_GBC_142;你才是应该害怕的那个，你这个[GetRootFromInsult]！;;;;;;;;;;x
@@ -1764,7 +1764,7 @@ EVTDESC_RIP_11047_8;[FromFrom.GetTitledFirstName]告诉你[Root.Religion.GetRand
 EVTDESC_RIP_11047_9;[FromFrom.GetTitledFirstName]告诉你，[Root.Religion.GetRandomGodName]需要献祭，那天晚上，你听到一声尖叫。跟随声音，你找到[FromFrom.GetFirstName]背着一个尸体，恐慌在[FromFrom.GetHerHis]眼中浮现，鲜血沾满[FromFrom.GetHerHis]双手"这是为了领地的安危……！"[FromFrom.GetSheHe]喘息道。;;;;;;;;;;x
 EVTDESC_RIP_11047_10;[FromFrom.GetFirstName]递给你一袋草药，让你进行一个旅行，去寻找你的精神指引。你在旷野中走了好几天，只吃袋中的草根，在星空下睡觉。最终，你感到一个存在，你看到一个大独角兽。然后你猜想……你就是那只野兽吗？;;;;;;;;;;x
 EVTDESC_RIP_11047_11;[FromFrom.GetTitledFirstName]站在你的床尾，仆人点燃了蜡烛。一个锅被放到你手中——从声音判断，里面有一只害怕的老鼠。"这生物将替你承担你体内的负担"，[FromFrom.GetSheHe]解释说。然后开始吟诵。;;;;;;;;;;x
-EVTDESC_RIP_11047_12;昨天[FromFrom.GetFirstName]邀请你加入[FromFrom.GetHerHim]在[FromFrom.GetHerHis]的房中。当清晨第一缕阳光照进房间[FromFrom.GetFirstName]不停地说为你服务是一件多么荣幸的事。"为了你，[Root.GetMasterMistress]"[FromFrom.GetSheHe]喘息着，下一刻就用一把装饰用刀划破了[FromFrom.GetHerHis]喉咙。;;;;;;;;;;x
+EVTDESC_RIP_11047_12;昨天[FromFrom.GetFirstName]邀请你加入[FromFrom.GetHerHim]在[FromFrom.GetHerHis]房中。当清晨第一缕阳光照进房间[FromFrom.GetFirstName]不停地说为你服务是一件多么荣幸的事。「为了你，[Root.GetMasterMistress]」[FromFrom.GetSheHe]喘息着，下一刻就用一把装饰用刀划破了[FromFrom.GetHerHis]喉咙。;;;;;;;;;;x
 EVTOPTF_RIP_11035;来吧，[From.GetFirstName]，让我们尝试一下新东西。我建议。;;;;;;;;;;x
 EVTOPTF_RIP_11035_TOOLTIP;§Y[From.GetBestName]§!将进行一个实验性的治疗。这种治疗的结果有可能很极端。而治疗的风险取决于[From.GetHerHis]能力。;;;;;;;;;;x
 RIP_11047_TERRIBLE_TOOLTIP;这种治疗可能会影响你的心理状态……\n\n;;;;;;;;;;x
@@ -2123,7 +2123,7 @@ EVTDESC_GBC_3_A;我一直在想关于[GBC_dead_one.GetTitledName]的事情，以
 EVTDESC_GBC_3_B;我一直在想关于[GBC_dead_one.GetTitledName]的事情，以及我们死后会发生什么。我尝试探求自己的内心，让[Root.Religion.GetHighGodName]的智慧来安抚我。然而我在夜里孤身一人时，并没有神迹显现。;;;;;;;;;;x
 EVTOPTA_GBC_3;我应该找人谈谈这件事。;;;;;;;;;;x
 EVTOPTB_GBC_3;不会有人理解我的。;;;;;;;;;;x
-EVTDESC_GBC_5;[GBC_new_friend.GetTitledFirstName]今天接近了我。显然[GBC_new_friend.GetSheHe]注意到了我频繁的来[GBC_dead_one.GetTitledName]的墓前祭奠，而[GBC_new_friend.GetSheHe]不想打扰我……「显然一位[Root.GetTitle]不需要谈论[Root.GetHerHis]的悲伤。」，[GBC_new_friend.GetSheHe]尴尬地笑笑。;;;;;;;;;;x
+EVTDESC_GBC_5;[GBC_new_friend.GetTitledFirstName]今天接近了我。显然[GBC_new_friend.GetSheHe]注意到了我频繁的来[GBC_dead_one.GetTitledName]的墓前祭奠，而[GBC_new_friend.GetSheHe]不想打扰我……「显然一位[Root.GetTitle]不需要谈论[Root.GetHerHis]悲伤。」，[GBC_new_friend.GetSheHe]尴尬地笑笑。;;;;;;;;;;x
 EVTOPTA_GBC_5;我比他们以为的更接近常人。;;;;;;;;;;x
 EVTOPTB_GBC_5;我不需要跟人说这个。我很好！真的。;;;;;;;;;;x
 EVTDESC_GBC_6;[GBC_new_friend.GetFirstName]告诉我，我们的[GBC_dead_one.GetTitledName]擅长接近飞鸟。我完全不知道！看到我惊讶的表情，[GBC_new_friend.GetFirstName]把海德薇，一只可爱的小猫头鹰带给了我。显然这之前是属于[GBC_dead_one.GetFirstName]的。「我觉得她喜欢你呢。」[GBC_new_friend.GetSheHe]抚摸着她的头说。;;;;;;;;;;x
@@ -2160,7 +2160,7 @@ EVTOPTB_GBC_12;噢，亲爱的[GBC_new_friend.GetFirstName]。我真高兴你没
 EVTOPTA_GBC_12_TOOLTIP;一切都好;;;;;;;;;;x
 EVTNAME_GBC_13;友情很珍贵;;;;;;;;;;x
 EVTDESC_GBC_13_A;因为担心传染，医师不让你见[GBC_new_friend.GetTitledName]，而[GBC_new_friend.GetSheHe]正躺在[GBC_new_friend.GetHerHis]床上，生命垂危。也许这也无所谓。即使[GBC_new_friend.GetFirstName]必定已经知道[GBC_new_friend.GetSheHe]在你心里的地位，你命令[Root.Capital.GetName]里的所有乐队在城堡大厅里无限期住下——他们将演奏[GBC_new_friend.GetFirstName]最喜欢的旋律直到[GBC_new_friend.GetSheHe]去到下一个世界为止，这个过程中[GBC_new_friend.GetSheHe]会知道自己是被爱着的。;;;;;;;;;;x
-EVTDESC_GBC_13_B;[GBC_new_friend.GetTitledName]在[GBC_new_friend.GetSheHe]躺在床上[GBC_new_friend.GetHerHis]生命垂危的时刻，并没有向你要求任何事情。也许这不重要了。[GBC_new_friend.GetSheHeCap]可能知道你有重要的事情要去亲自处理，要前去重要的地方或是会议。但是[Root.Location.GetName]的工作可以等，不是吗？不论如何，你们是亲人，[GBC_new_friend.GetSheHe]在升向[Root.Religion.GetHighGodName]的领域的时刻，应该要有人守在[GBC_new_friend.GetHerHis] 身侧。\n\n医师说[GBC_new_friend.GetSheHe]走得很安详，就在[GBC_new_friend.GetHerHis]的睡梦中，[GBC_new_friend.GetHerHis]的遗言仅仅只是：「我很累了，让我休息吧。」;;;;;;;;;;x
+EVTDESC_GBC_13_B;[GBC_new_friend.GetTitledName]在[GBC_new_friend.GetSheHe]躺在床上[GBC_new_friend.GetHerHis]生命垂危的时刻，并没有向你要求任何事情。也许这不重要了。[GBC_new_friend.GetSheHeCap]可能知道你有重要的事情要去亲自处理，要前去重要的地方或是会议。但是[Root.Location.GetName]的工作可以等，不是吗？不论如何，你们是亲人，[GBC_new_friend.GetSheHe]在升向[Root.Religion.GetHighGodName]的领域的时刻，应该要有人守在[GBC_new_friend.GetHerHis]身侧。\n\n医师说[GBC_new_friend.GetSheHe]走得很安详，就在[GBC_new_friend.GetHerHis]睡梦中，[GBC_new_friend.GetHerHis]遗言仅仅只是：「我很累了，让我休息吧。」;;;;;;;;;;x
 EVTOPTA_GBC_13;希望我们能再见面，[GBC_new_friend.GetFirstName]。;;;;;;;;;;x
 EVTOPTA_GBC_13_TOOLTIP;至少你有海德薇。\n;;;;;;;;;;x
 EVTDESC_77800_A;我高贵的宠物猫头鹰最终咽下了她最后一口气。尽管我曾照顾她那么久，现在也是时候放飞她的灵魂。我意识到，或许她过去也是在照顾我？;;;;;;;;;;x
@@ -2374,10 +2374,10 @@ EVTOPTA_RIP_29002;我并不是唯一失去挚爱的人。我会让[From.GetHerHi
 EVTOPTB_RIP_29002;你怎么敢在这里出现，你这个[GetRootFromInsult]！;;;;;;;;;;x
 EVTDSC_RIP_29003;我不清楚为什么，但是我想在[rip_dead.GetFirstName]的墓中寻找一些纪念品慰藉自己。但我被误解了！我不幸撞见[rip_dead.GetHerHis]年迈的[rip_widow.GetHusbandWife] [rip_widow.GetTitledFirstName]。我曾希望[rip_widow.GetSheHe]会文明一点，但是[rip_widow.GetSheHe]大吵大闹，尖叫的声音如此之大，以至于[rip_dead.Religion.GetPriestTitle]不得不让[rip_widow.GetHerHim]冷静下来！;;;;;;;;;;x
 EVTOPTA_RIP_29003;那个[GetRootFromInsult]是个没良心的家伙！;;;;;;;;;;x
-EVTDSC_RIP_29004;感谢[Root.Religion.GetHighGodName]的仁慈，在我抵达时，[rip_dead.GetFirstName]的墓旁没有其他拜访者。我在[rip_dead.GetHerHis]冰冷的尸体旁逗留了几个小时，几乎寸步不离，我思考着生命和爱情的脆弱。但我回到自己的房间时，似乎是[rip_dead.GetFirstName]指引着我，我在地板上发现了[rip_dead.GetHerHis]的幸运符！;;;;;;;;;;x
+EVTDSC_RIP_29004;感谢[Root.Religion.GetHighGodName]的仁慈，在我抵达时，[rip_dead.GetFirstName]的墓旁没有其他拜访者。我在[rip_dead.GetHerHis]冰冷的尸体旁逗留了几个小时，几乎寸步不离，我思考着生命和爱情的脆弱。但我回到自己的房间时，似乎是[rip_dead.GetFirstName]指引着我，我在地板上发现了[rip_dead.GetHerHis]幸运符！;;;;;;;;;;x
 EVTOPTA_RIP_29004;我会好好保存它，直到我死的那一天！;;;;;;;;;;x
-EVTDSC_RIP_29005;我一直以为自己会是先去世的那个，但是现在我得独自哀悼我亲爱朋友的离去。我再也听不到[rip_dead.GetFirstName]的开怀大笑了，也得不到[rip_dead.GetHerHis]的明智的建议。这感觉就像我失去了自己身体里一个必不可少的部分。我感觉好无力……;;;;;;;;;;x
-EVTOPTA_RIP_29005;[rip_dead.GetFirstName]不会希望我哭泣。让我们为[rip_dead.GetHerHis]的荣耀干杯吧！;;;;;;;;;;x
+EVTDSC_RIP_29005;我一直以为自己会是先去世的那个，但是现在我得独自哀悼我亲爱朋友的离去。我再也听不到[rip_dead.GetFirstName]的开怀大笑了，也得不到[rip_dead.GetHerHis]明智的建议。这感觉就像我失去了自己身体里一个必不可少的部分。我感觉好无力……;;;;;;;;;;x
+EVTOPTA_RIP_29005;[rip_dead.GetFirstName]不会希望我哭泣。让我们为[rip_dead.GetHerHis]荣耀干杯吧！;;;;;;;;;;x
 EVTOPTA_RIP_29005_TOOLTIP;花费一晚，在当地的酒馆喝个烂醉。\n;;;;;;;;;;x
 EVTOPTB_RIP_29005;走开，我不需要你的同情！;;;;;;;;;;x
 EVTOPTD_RIP_29005;友谊到最后只会伤害你……;;;;;;;;;;x
@@ -2412,9 +2412,9 @@ EVTOPTE_RIP_29010_TOOLTIP;你已经从§Y[rip_dead.GetTitledFirstName]§!的去�
 EVTDSC_RIP_29011;我快接近我刚去世的[rip_dead.GetHusbandWife] [rip_dead.GetFirstName]的坟墓时，我听到了一声沉闷凝重的声音。真奇怪！我匆忙地赶到发出声音的角落。结果我看到了一幅可怕到无法用言语形容的景象——[From.GetTitledFirstName]，鲜血沾满了[From.GetHerHis]手臂，而我[rip_dead.GetHusbandWife]被切下的头颅就落在[From.GetHerHis]手里！;;;;;;;;;;x
 EVTOPTA_RIP_29011;你会为此后悔的，[From.GetFirstName]！ 卫兵，把[From.GetHerHim]扔进地牢里！;;;;;;;;;;x
 EVTOPTB_RIP_29011;你这个变态的[GetRootFromInsult]！滚出我的视线！;;;;;;;;;;x
-EVTDSC_RIP_29012_A;我刚把[rip_dead.GetTitledFirstName]的脑袋从[rip_dead.GetHerHis]的身体上分离，[From.GetTitledFirstName]就推开门冲了进来。在我有机会解释自己的行为前，[From.GetSheHe]就喊来了卫兵把我拖进地牢关了起来！;;;;;;;;;;x
+EVTDSC_RIP_29012_A;我刚把[rip_dead.GetTitledFirstName]的脑袋从[rip_dead.GetHerHis]身体上分离，[From.GetTitledFirstName]就推开门冲了进来。在我有机会解释自己的行为前，[From.GetSheHe]就喊来了卫兵把我拖进地牢关了起来！;;;;;;;;;;x
 EVTOPTB_RIP_29011_TOOLTIP;把§Y[From.GetTitledFirstName]§!赶出去。\n;;;;;;;;;;x
-EVTDSC_RIP_29012_B;我刚把[rip_dead.GetTitledFirstName]的脑袋从[rip_dead.GetHerHis]的身体上分离，[From.GetTitledFirstName]就推开门冲了进来。在我有机会解释自己的行为前，[From.GetSheHe]就喊来了卫兵把我扔了出去，头着地的！;;;;;;;;;;x
+EVTDSC_RIP_29012_B;我刚把[rip_dead.GetTitledFirstName]的脑袋从[rip_dead.GetHerHis]身体上分离，[From.GetTitledFirstName]就推开门冲了进来。在我有机会解释自己的行为前，[From.GetSheHe]就喊来了卫兵把我扔了出去，头着地的！;;;;;;;;;;x
 EVTOPTA_RIP_29012;这并不是看起来的那样！;;;;;;;;;;x
 EVTDSC_RIP_29013;终于，随着砍刀的最后一切，[rip_dead.GetTitledFirstName]的丑陋的脑袋终于和[rip_dead.GetHerHis]同样恶心的身体分开了！我用一块布把脑袋包了起来，塞进我的背包里，然后在无人察觉的情况下遁入夜色之中。;;;;;;;;;;x
 EVTOPTA_RIP_29013;我几乎希望你能活着看到这个，[rip_dead.GetFirstName]！;;;;;;;;;;x
@@ -2439,14 +2439,14 @@ EVTOPTC_RIP_29020;[rip_heir.GetFirstName]长成了一个非常好看的[rip_heir
 EVTOPTC_RIP_29020_TOOLTIP;试着去引诱§Y[rip_heir.GetTitledFirstName]§!。很难说§Y[rip_dead.GetTitledFirstName]§!会怎么想……;;;;;;;;;;x
 EVTOPTB_RIP_29020;[rip_heir.GetHerHisCap]的命运与我无关。;;;;;;;;;;x
 EVTOPTB_RIP_29020_TOOLTIP;让§Y[rip_heir.GetTitledFirstName]§!去照料[rip_heir.GetHerselfHimself]无视§Y[rip_dead.GetTitledFirstName]§!的遗愿。\n;;;;;;;;;;x
-EVTDSC_RIP_29021;在[rip_dead.GetFatherMother]的葬礼后，[rip_dead.GetHerHis]的老朋友[From.GetTitledFirstName]靠近了我，他想和我谈谈。看起来[rip_dead.GetFatherMother]想要[From.GetFirstName]照顾我。[From.GetSheHeCap]向我提供了[From.GetHerHis]友谊和保护。;;;;;;;;;;x
+EVTDSC_RIP_29021;在[rip_dead.GetFatherMother]的葬礼后，[rip_dead.GetHerHis]老朋友[From.GetTitledFirstName]靠近了我，他想和我谈谈。看起来[rip_dead.GetFatherMother]想要[From.GetFirstName]照顾我。[From.GetSheHeCap]向我提供了[From.GetHerHis]友谊和保护。;;;;;;;;;;x
 EVTOPTA_RIP_29021;当然，[From.GetLordLady] [From.GetFirstName]。我很荣幸能称你为朋友！;;;;;;;;;;x
 EVTOPTB_RIP_29021;谢谢你，但是我很好，我向你保证。;;;;;;;;;;x
 EVTDSC_RIP_29022;亲爱的[From.GetLordLady] [From.GetFirstName]非常愉快地接受了我的建议。我肯定[From.GetSheHe]和我会变成最好的朋友！;;;;;;;;;;x
 EVTOPTA_RIP_29022;不要担心，[rip_dead.GetFirstName]。我会保证你的[From.GetSonDaughter]平安无恙。;;;;;;;;;;x
 EVTDSC_RIP_29023;[From.GetTitledFirstName]拒绝了我！[From.GetSheHe]怎么能完全无视[From.GetHerHis] [rip_dead.GetFatherMother]对我的信任与尊重？我不会再问第二次了。[From.GetFirstName]只有去责怪[From.GetHerselfHimself]了！;;;;;;;;;;x
 EVTOPTA_RIP_29023;那个不知感激的[GetRootFromInsult]！;;;;;;;;;;x
-EVTDSC_RIP_29024;在[rip_dead.GetFatherMother]的葬礼后，[rip_dead.GetHerHis]的老朋友[From.GetTitledFirstName]靠近了我，他想私下里和我谈谈。当我们离开其他人后，[From.GetSheHe]抓起我的手，向我保证会照顾我并提供我所需要的一切。随后，他似乎是要清除我对[From.GetHerHis]意图的疑虑，[From.GetFirstName]把[From.GetHerHis]的手放到了我的腿上！;;;;;;;;;;x
+EVTDSC_RIP_29024;在[rip_dead.GetFatherMother]的葬礼后，[rip_dead.GetHerHis]老朋友[From.GetTitledFirstName]靠近了我，他想私下里和我谈谈。当我们离开其他人后，[From.GetSheHe]抓起我的手，向我保证会照顾我并提供我所需要的一切。随后，他似乎是要清除我对[From.GetHerHis]意图的疑虑，[From.GetFirstName]把[From.GetHerHis]手放到了我的腿上！;;;;;;;;;;x
 EVTOPTA_RIP_29024;噢，我亲爱的[From.GetLordLady]...你的善良让我热泪盈眶了！;;;;;;;;;;x
 EVTOPTB_RIP_29024;你怎么敢这样？我的[rip_dead.GetFatherMother]还躺在[rip_dead.GetHerHis]墓地里，尸骨未寒呢！;;;;;;;;;;x
 EVTDSC_RIP_29025;当我要求照顾[From.GetHerHim]时，我亲爱的[From.GetLordLady] [From.GetFirstName]失声痛哭，然后[From.GetHerselfHimself]飞身扑入了我的怀中！我不敢相信这么一位[GetRootFromCompliment]就属于我了！;;;;;;;;;;x
@@ -2662,7 +2662,7 @@ EVTDESC_RIP_4032_GREAT_1;[physician.GetTitledFirstName]发表了[physician.GetHe
 EVTDESC_RIP_4032_GREAT_2;[physician.GetTitledFirstName]发表了[physician.GetHerHis]关于草药与同形的研究。[physician.GetHerHisCap]关于如何根据草药与身体部位的相似程度用来治疗不同病症的观点获得了好几百个学者一致称赞！;;;;;;;;;;x
 EVTDESC_RIP_4032_GREAT_3;[physician.GetTitledFirstName]发表了[physician.GetHerHis]关于沴气的研究。[physician.GetHerHisCap]关于败坏的气体如何从腐烂的生命物质中散发出来并造成各种疾病的观点获得了好几百个学者一致称赞！;;;;;;;;;;x
 EVTDESC_RIP_4032_GOOD;[physician.GetTitledFirstName]发表了来自[physician.GetHerHis]医学调查的结论。这本书没有获得任何显著的关注，但至少[physician.GetFirstName]磨练了[physician.GetHerHis]医师技能。;;;;;;;;;;x
-EVTDESC_RIP_4032_MEH;[physician.GetTitledFirstName]发表了[physician.GetHerHis]的研究。结果什么反响都没有，那本书只能待在我的图书馆里吃灰……;;;;;;;;;;x
+EVTDESC_RIP_4032_MEH;[physician.GetTitledFirstName]发表了[physician.GetHerHis]研究。结果什么反响都没有，那本书只能待在我的图书馆里吃灰……;;;;;;;;;;x
 EVTDESC_RIP_4032_BAD;[physician.GetTitledFirstName]发表了[physician.GetHerHis]新理论而且很明显地成为了整个医学共同体的笑柄！整个领地的学者都把这部书当成娱乐来读……;;;;;;;;;;x
 EVTOPTA_RIP_4032;我早就知道这是明智之举。;;;;;;;;;;x
 EVTOPTA_RIP_4032_TOOLTIP;§Y[physician.GetTitledFirstName]§!和你，作为[physician.GetHerHis]赞助人，因为你们对医学的贡献而为世人称颂。\n;;;;;;;;;;x
@@ -3197,7 +3197,7 @@ nick_the_kingslayer;杀死[Root.GetTitle]之人;;;;;;;;;;x
 nick_the_witch;[Root.GetWarlockWitch];;;;;;;;;;x
 nick_the_undying;不死;;;;;;;;;;x
 nick_the_bear;熊;;;;;;;;;;x
-EVTDESC_RIP_4020;你的朋友，宫廷医师[physician_target.GetFirstName]，总是努力地进行实验研究。沸腾的锅炉、五彩的香草、锋利的各式工具以及各种有趣的东西充满了[physician_target.GetHerHis]的研究……这看上去非常有趣，如果你加入[physician_target.GetHerHim]一段时间，或许你能学到不少东西。;;;;;;;;;;x
+EVTDESC_RIP_4020;你的朋友，宫廷医师[physician_target.GetFirstName]，总是努力地进行实验研究。沸腾的锅炉、五彩的香草、锋利的各式工具以及各种有趣的东西充满了[physician_target.GetHerHis]研究……这看上去非常有趣，如果你加入[physician_target.GetHerHim]一段时间，或许你能学到不少东西。;;;;;;;;;;x
 EVTOPTA_RIP_4020;听起来很有趣！;;;;;;;;;;x
 EVTOPTB_RIP_4020;我还是不要打扰[physician_target.GetHerHim]了。;;;;;;;;;;x
 EVTDESC_RIP_4021_EXCELLENT;时光飞逝你跟着[physician_target.GetFirstName]进行研究学习。过了几天你变成了指导[physician_target.GetHerHim]的人！[physician_target.GetFirstName]并没有沮丧，甚至十分享受与他智慧匹敌的人一同工作。没多久，你们成功获得了一种威力惊人的滋补药剂。;;;;;;;;;;x
@@ -3321,13 +3321,13 @@ PROVINCE_EXTEND_DESC;§Y打开拓展省份界面§!;;;;;;;;;;x
 PROVINCE_EXTEND_DESC_LONG;扩大界面以显示额外的地产与本地地形。;;;;;;;;;;x
 heir_text_default;即使对于认识[GetHerHim]的人来说也是一个谜团，[GetHerHis]可能毁灭或者拯救我们;;;;;;;;;;x
 heir_text_underage;仅有[GetAgeYears]岁，领地因而交由具备能力的摄政和内阁管理;;;;;;;;;;x
-heir_text_useless;无力统合领地，[GetHerHis]的统治恐怕注定会失败;;;;;;;;;;x
+heir_text_useless;无力统合领地，[GetHerHis]统治恐怕注定会失败;;;;;;;;;;x
 heir_text_strong_and_smart;拥有强壮的体魄与精明的头脑，[GetFirstName]的统治必将获得传颂;;;;;;;;;;x
 heir_text_weak_and_dumb;既没有敏锐的头脑也没有战士的体魄，[GetFirstName]的统治注定是艰巨的。;;;;;;;;;;x
 heir_text_demon;作为[Religion.GetRandomEvilGodName]的子嗣，[GetFirstName]必然会迎来恐怖与绝望的新时代;;;;;;;;;;x
 heir_text_military;作为天才的军事战略家，我们期待[GetHerHim]在战场上带领我们走向胜利;;;;;;;;;;x
-heir_text_learning;博学而智慧的[GetManWoman]，在[GetHerHis]的统治下人们可以期待进步与创新;;;;;;;;;;x
-heir_text_stewardship;勤俭而质朴，领地在[GetHerHis]的统治下必将繁荣;;;;;;;;;;x
+heir_text_learning;博学而智慧的[GetManWoman]，在[GetHerHis]统治下人们可以期待进步与创新;;;;;;;;;;x
+heir_text_stewardship;勤俭而质朴，领地在[GetHerHis]统治下必将繁荣;;;;;;;;;;x
 heir_text_intrigue;狡猾而又敏锐的[GetManWoman]，[GetSheHe]将会毫无问题地获得需要的影响力;;;;;;;;;;x
 heir_text_diplomacy;一位老道的外交官，封臣和外国统治者都将尊敬[GetHerHim];;;;;;;;;;x
 heir_text_traits_glutton_greedy;一个圆胖自私的[GetManWoman]，我们希望[GetSheHe]不会吃光领地内的房屋和家园;;;;;;;;;;x
@@ -3336,12 +3336,12 @@ heir_text_traits_cynical_just;毫不畏惧[Religion.GetHighGodName]，[GetSheHe]
 heir_text_traits_content_arbitrary;作为一个无忧无虑的[GetManWoman]，[GetSheHe]满足于让事物保持原状;;;;;;;;;;x
 heir_text_traits_craven_military_ed;[GetFirstName]倾向于带领着军队离开[GetHerHis]安全的家园，恐怕难以鼓舞士气;;;;;;;;;;x
 heir_text_traits_shy_content;一个孤僻的[GetManWoman]，[GetSheHe]对于[GetHerHis]工作都交由内阁决定完全没有意见——不论好坏;;;;;;;;;;x
-heir_text_traits_zealous_paranoid;看到[Religion.GetRandomEvilGodName]的仆人已然遍及世间的各个角落，任何异端及异教徒都应当担心[GetHerHis]的统治;;;;;;;;;;x
+heir_text_traits_zealous_paranoid;看到[Religion.GetRandomEvilGodName]的仆人已然遍及世间的各个角落，任何异端及异教徒都应当担心[GetHerHis]统治;;;;;;;;;;x
 heir_text_traits_zealous_charitable;[Religion.GetPriestTitle]在[GetHerHis]虔诚而慷慨的统治下很可能变得富有;;;;;;;;;;x
 heir_text_traits_decadent;腐化且放纵，[GetSheHe]给[GetOnlyDynastyName]家族带来了耻辱——对于领地的未来是一个不祥的诅咒;;;;;;;;;;x
 heir_text_traits_proud_brave;[GetFirstName]总穿着闪耀华丽的盔甲，想要每个人在[GetSheHe]冲进战场时都看见[GetHerHim];;;;;;;;;;x
 heir_text_traits_cynical_cruel;从不畏惧[Religion.GetHighGodName]的怒火，只要[GetSheHe]觉得合适，[GetFirstName]不太可能饶恕任何臣民的刑罚;;;;;;;;;;x
-heir_text_traits_humble_stubborn;坚持以[GetHerHis]的方式做礼拜，在[GetHerHis]的统治下，信仰和传统或将得到促进;;;;;;;;;;x
+heir_text_traits_humble_stubborn;坚持以[GetHerHis]方式做礼拜，在[GetHerHis]统治下，信仰和传统或将得到促进;;;;;;;;;;x
 heir_text_traits_deceitful_envious;拥有一个狡猾且不满足的灵魂，[GetHerHis] 的统治很可能充满怨恨和阴谋;;;;;;;;;;x
 heir_text_traits_patient_trusting;作为一个信任他人而有耐心的[GetManWoman]，[GetFirstName]确信好事终将降临到[GetHerHim]身上;;;;;;;;;;x
 heir_text_traits_paranoid_stressed;被无处不在的黑影折磨着，[GetSheHe]很可能被恐惧击垮;;;;;;;;;;x
@@ -3363,22 +3363,22 @@ heir_text_traits_lunatic;[GetManWoman]变得胡言乱语并精神错乱，只有
 heir_text_traits_possessed;被怀疑受到由[Religion.GetRandomEvilGodName]派遣恶魔附体，[Religion.GetPriestTitle]们将会竭尽所能约束[GetHerHim];;;;;;;;;;x
 heir_text_traits_fair;拥有难以言表美丽，[GetFirstName]的外貌将使众多外国显贵拜倒在[GetHerHis]脚下;;;;;;;;;;x
 heir_text_traits_tolerant;由于对其他信仰的容忍，[GetFirstName]的好奇心会为 [GetHerHim]带来许多朋友;;;;;;;;;;x
-heir_text_traits_ugly_deceitful;其灵魂如同[GetHerHis]的面容一样丑恶，我们只能从[GetHerHim]那里获得欺骗和仇恨;;;;;;;;;;x
+heir_text_traits_ugly_deceitful;其灵魂如同[GetHerHis]面容一样丑恶，我们只能从[GetHerHim]那里获得欺骗和仇恨;;;;;;;;;;x
 heir_text_traits_kind;一个温和慈悲的人，封臣将会在[GetFirstName]的统治下繁荣昌盛;;;;;;;;;;x
 heir_text_traits_proud;[GetHerselfHimself]是那么的自信，[GetFirstName]的统治究竟会给[GetOnlyDynastyName]家族带来荣耀还是耻辱——只有时间才能告诉我们;;;;;;;;;;x
 heir_text_traits_cynical;从不在乎[Religion.GetPriestTitle]的话，很多人担忧[GetFirstName]的统治会因[Religion.GetHighGodName]惩罚[GetHerHim]而早早结束，;;;;;;;;;;x
 heir_text_traits_gregarious;我们期待善于表达且外向的[GetFirstName]可以毫无阻碍地获得整个宫廷的爱戴并站在[GetHerHis]一方;;;;;;;;;;x
 heir_text_traits_zealous;其花费大量时间在祷告上，以免触怒[Religion.GetHighGodName]，我们相信[GetFirstName]的统治将会使领地得到祝福;;;;;;;;;;x
-heir_text_traits_ambitious;作为一个野心勃勃的[GetManWoman]，我们期望领地在 [GetHerHis]的统治下扩张并繁荣;;;;;;;;;;x
-heir_text_traits_diligent;精力充沛而镇静的[GetFirstName]将会使领地在[GetHerHis]的统治下得到改善;;;;;;;;;;x
+heir_text_traits_ambitious;作为一个野心勃勃的[GetManWoman]，我们期望领地在[GetHerHis]统治下扩张并繁荣;;;;;;;;;;x
+heir_text_traits_diligent;精力充沛而镇静的[GetFirstName]将会使领地在[GetHerHis]统治下得到改善;;;;;;;;;;x
 heir_text_traits_deceitful;狡猾虚伪的[GetFirstName]，其与真相的冲突可能也会导致[GetHerHis]毁灭;;;;;;;;;;x
 heir_text_traits_shy;作为一个沉默的[GetManWoman]，我们并不对[GetHerHim]在外交事务上抱有期待;;;;;;;;;;x
 heir_text_traits_humble;[GetManWoman]虔诚而谦逊，我们恐怕[GetFirstName]更适合待在神庙里而非[PrimaryTitle.GetRulerTitle]的宝座上;;;;;;;;;;x
-heir_text_traits_arbitrary;腐败而不公正的[GetManWoman]，我们并不认为[GetHerHis]的封臣会在领地开始摇摇欲坠时还无动于衷;;;;;;;;;;x
+heir_text_traits_arbitrary;腐败而不公正的[GetManWoman]，我们并不认为[GetHerHis]封臣会在领地开始摇摇欲坠时还无动于衷;;;;;;;;;;x
 heir_text_traits_temperate;[GetManWoman]谦逊而温和，[GetFirstName]消极的本性可能也会导致[GetHerHis]毁灭;;;;;;;;;;x
-heir_text_traits_chaste;忠诚于[GetHerHis]的配偶和家庭，[GetFirstName]的家族，[GetOnlyDynastyName]很可能用善意的眼神看待[GetHerHim];;;;;;;;;;x
+heir_text_traits_chaste;忠诚于[GetHerHis]配偶和家庭，[GetFirstName]的家族，[GetOnlyDynastyName]很可能用善意的眼神看待[GetHerHim];;;;;;;;;;x
 heir_text_traits_lustful;[GetHerHis]总是关注着下一个目标，领地内封臣们要善于看管好他们的[GetHusbandWifeOpp];;;;;;;;;;x
-heir_text_traits_content;满足于[GetHerHis]的命运，[GetFirstName]的封臣可能因[GetHerHis]消极本性而嘲笑[GetHerHim];;;;;;;;;;x
+heir_text_traits_content;满足于[GetHerHis]命运，[GetFirstName]的封臣可能因[GetHerHis]消极本性而嘲笑[GetHerHim];;;;;;;;;;x
 heir_text_traits_patient;其作为一名愿意去等待计划生效的[GetManWoman]，我们期盼领地会产生巨大的改变——即便过程缓慢;;;;;;;;;;x
 heir_text_traits_brave;他是一个勇敢而乐意行动的人，我们希望[GetFirstName]的勇敢不会让领地变为废墟;;;;;;;;;;x
 heir_text_traits_just;在每件事上都公平正义，我们希望[GetSheHe]将带着慈悲处理任何冲突;;;;;;;;;;x
@@ -3388,26 +3388,26 @@ heir_text_traits_craven;作为一个懦夫，[GetHerHis]臣民不大可能尊重
 heir_text_traits_greedy;这个[GetManWoman]如此的贪婪，王国的穷苦农民很可能不满;;;;;;;;;;x
 heir_text_traits_cruel;作为心胸狭窄的[GetManWoman]，我们担心[GetFirstName]的宫廷将生活在[GetHerHim]恐怖之中;;;;;;;;;;x
 heir_text_traits_trusting;[GetFirstName]的内阁可能比轻信且自满的[GetHerHim]拥有更大的权力，即使不应如此;;;;;;;;;;x
-heir_text_traits_honest;由于没能力去撒谎，我们担心有人会轻视[GetHerHis]的诚实;;;;;;;;;;x
+heir_text_traits_honest;由于没能力去撒谎，我们担心有人会轻视[GetHerHis]诚实;;;;;;;;;;x
 heir_text_traits_slothful;作为一个懒惰的[GetManWoman]，我们担心没有事会在 [GetFirstName]的治下发生;;;;;;;;;;x
 heir_text_traits_charitable;这个[GetManWoman]慷慨大方，我们希望领地所有的财富最后不会都落到[Religion.GetPriestTitle]们的口袋里;;;;;;;;;;x
 heir_text_traits_wroth;[GetFirstName]极易发怒，敌人和封臣都生活在对[GetHerHim]的恐惧之中;;;;;;;;;;x
 heir_text_traits_paranoid;疑神疑鬼的[GetManWoman]，[GetFirstName]的偏执可能不太适合[GetHerHis]臣民;;;;;;;;;;x
 heir_text_traits_erudite;[GetManWoman]好学有才，我们担心[Religion.GetPriestTitle]将会繁荣但商人们受到损害;;;;;;;;;;x
 heir_text_traits_stubborn;作为一个顽固的[GetManWoman]，[GetFirstName]的臣民在[GetSheHe]定下[GetHerHis]决定后或许要费尽力气才能令其听进意见;;;;;;;;;;x
-heir_text_three_skills;[GetSheHe]已然掌握了多门技巧，必将受到[GetHerHis]的臣民钦佩;;;;;;;;;;x
+heir_text_three_skills;[GetSheHe]已然掌握了多门技巧，必将受到[GetHerHis]臣民钦佩;;;;;;;;;;x
 heir_text_five_skills;对天地之间所有事物的惊人知识肯定会使得[GetFirstName]的统治成为一段传奇;;;;;;;;;;x
-heir_text_traits_varangian;曾经在遥远的「伟大之城」米克拉加尔兹任职，[GetFirstName]的冒险精神很可能激励[GetHerHis]的臣民;;;;;;;;;;x
+heir_text_traits_varangian;曾经在遥远的「伟大之城」米克拉加尔兹任职，[GetFirstName]的冒险精神很可能激励[GetHerHis]臣民;;;;;;;;;;x
 heir_text_traits_stubborn_kind;其确信对每个人都应该展现善良而无论是否值得，我们担心[GetFirstName]的敌人可能会利用这一点;;;;;;;;;;x
 heir_text_traits_strong_brave;在战场上俯视着[GetHerHis]敌人，[GetFirstName]能毫无问题地鼓舞[GetHerHis]军队;;;;;;;;;;x
-heir_text_traits_temperate_lustful;向来愿意与[GetHerHis]的配偶行周公之礼，我们期待统治家族繁荣昌盛;;;;;;;;;;x
+heir_text_traits_temperate_lustful;向来愿意与[GetHerHis]配偶行周公之礼，我们期待统治家族繁荣昌盛;;;;;;;;;;x
 heir_text_traits_charitable_just;作为公平公正的[GetManWoman]，我们期待[GetHerHim]确保每个人都得到他们应得的;;;;;;;;;;x
 heir_text_traits_diligent_greedy;作为一个勤政的[GetManWoman]，在[GetHerHim]的统治下王国可能变得富裕，也可能被毁灭;;;;;;;;;;x
 heir_text_traits_craven_honest;总是愿意承认[GetHerHis]缺点有很多，使得领地是否会信任他们的新[PrimaryTitle.GetRulerTitle]成为了疑问;;;;;;;;;;x
 heir_text_traits_shy_trusting;作为一个幼稚的[GetManWoman]，[GetHerHis]犹豫不决的本性可能使[GetHerHim]失去控制权;;;;;;;;;;x
 heir_text_traits_gregarious_honest;从不怯于表达[GetHerHis]想法，[GetSheHe] 定会用[GetHerHis]机敏诚实得到整个领地的爱戴;;;;;;;;;;x
-heir_text_traits_cynical_arbitrary;由于缺失道德上的指导，[GetHerHis]的臣民将不得不学习他们究竟应该害怕还是尊敬[GetHerHim];;;;;;;;;;x
-heir_text_traits_cruel_wroth;作为一个真正的虐待狂，我们担忧领地会在[GetHerHis]的统治下变成什么样子;;;;;;;;;;x
+heir_text_traits_cynical_arbitrary;由于缺失道德上的指导，[GetHerHis]臣民将不得不学习他们究竟应该害怕还是尊敬[GetHerHim];;;;;;;;;;x
+heir_text_traits_cruel_wroth;作为一个真正的虐待狂，我们担忧领地会在[GetHerHis]统治下变成什么样子;;;;;;;;;;x
 heir_text_traits_wroth_zealous;其被宗教热情所蒙蔽，异端和异教徒都害怕[GetHerHis]正义之怒;;;;;;;;;;x
 heir_text_traits_paranoid_deceitful;一个狡猾多疑的角色，我们担心[GetHerHim]会用匕首把我们每个人的名字上从名单上划去;;;;;;;;;;x
 province_embellishment;省份装饰;;;;;;;;;;x
@@ -3888,7 +3888,7 @@ EVTDSC_RIP_5060_MEASLES;黑暗的时日。我的[GetFromRelation]，[From.GetTit
 EVTDSC_RIP_5060_SMALLPOX;黑暗的时日。我的[GetFromRelation]，[From.GetTitledFirstName]，一直苦于不停渗液的体表皮损和高烧，而我刚刚得知[From.GetHerHis]痛苦竟源自天花。;;;;;;;;;;x
 EVTDSC_RIP_5060_SYPHILITIC;我的[GetFromRelation]，[From.GetTitledFirstName]，最近不太像[From.GetHerselfHimself]。这段时间，我注意到[From.GetHerHim]看起来疲惫且消瘦。我刚刚得知了原因——[From.GetFirstName]染上了梅毒！;;;;;;;;;;x
 EVTDSC_RIP_5060_FLU;最近我注意到我的[GetFromRelation]，[From.GetTitledFirstName]令人可怜的健康状态。我刚刚得知[From.GetHerHis]疼痛和疲惫的原因是一种流感。;;;;;;;;;;x
-EVTDSC_RIP_5060_DYSENTERY;最近这几天我的[GetFromRelation]，[From.GetTitledFirstName]，总是紧搂着[From.GetHerHis]的腹部而且常常如厕。我现在得知[From.GetSheHe]正苦于痢疾。;;;;;;;;;;x
+EVTDSC_RIP_5060_DYSENTERY;最近这几天我的[GetFromRelation]，[From.GetTitledFirstName]，总是紧搂着[From.GetHerHis]腹部而且常常如厕。我现在得知[From.GetSheHe]正苦于痢疾。;;;;;;;;;;x
 EVTDSC_RIP_5060_GOUT;一段时间以来，我的[GetFromRelation]，[From.GetTitledFirstName]，都在抱怨[From.GetHerHis]关节疼。关节很明显地肿胀起来，发热并持续疼痛数个小时。;;;;;;;;;;x
 EVTDSC_RIP_5060_FOOD_POISONING;最近几天我的[GetFromRelation]，[From.GetTitledFirstName]，都无法吃喝任何东西。似乎[From.GetSheHe]正苦于食物中毒。;;;;;;;;;;x
 EVTDSC_RIP_5060_RABIES;最近几天，我的[GetFromRelation]，[From.GetTitledFirstName]，行为举止确实非常怪异！我刚刚得知[From.GetHerHis]攻击行为和不时出现的极端焦虑是由狂犬病引起的。;;;;;;;;;;x
