@@ -98,7 +98,7 @@ tp_shipyard_1;码头;;;;;;;;;;x
 tp_shipyard_2;船坞;;;;;;;;;;x
 tp_shipyard_3;航道;;;;;;;;;;x
 tp_shipyard_4;港口;;;;;;;;;;x
-shipyard_desc;熟练的造船工人在这里努力工作，建造各种远航船舶.;;;;;;;;;;x
+shipyard_desc;熟练的造船工人在这里努力工作，建造各种远航船舶。;;;;;;;;;;x
 TOGGLE_LOOTER;§Y切换成劫掠模式§!;;;;;;;;;;x
 REL_AUTHORITY_CHANGE;§Y$RELIGION$§!：$PERC$  宗教权威 §Y$TIME$§! $TIMEUNIT$.\n;;;;;;;;;;x
 IS_HOLY_CITY_FOR_RELIGION;§Y$RELIGION$§!信仰认为§Y$HOLDING$§!是一处圣地;;;;;;;;;;x
@@ -112,13 +112,13 @@ PORTAGE;§Y$FROM$§!与§Y$TO$§!之间的陆上运输点;;;;;;;;;;x
 PORTAGE_DESC;一条海运路线可以让船在省份内的主要河流中穿行;;;;;;;;;;x
 HOLY_SITE_CONTROLLED;(已控制);;;;;;;;;;x
 HOLY_SITE_PARTIALLY_CONTROLLED;(部分控制);;;;;;;;;;x
-HOLY_SITE_NOT_CONTROLLED;(未被控制);;;;;;;;;;x
-RELHEAD_CONTROLS;控制了一座圣地;;;;;;;;;;x
+HOLY_SITE_NOT_CONTROLLED;(未控制);;;;;;;;;;x
+RELHEAD_CONTROLS;控制了一处圣地;;;;;;;;;;x
 HOLY_SITE_OF;该圣地属于;;;;;;;;;;x
 RELHEAD_DIPLO;外交;;;;;;;;;;x
 RELHEAD_PIETY;[Player.Religion.GetPietyName];;;;;;;;;;x
 ORGANIZED_RELIGION;有组织的宗教;;;;;;;;;;x
-INTERACTION_REQUIRES_RECIPIENT_CAN_MARRY;§Y[Recipient.GetTitledFirstName]§! 必须能够结婚且有能力生育;;;;;;;;;;x
+INTERACTION_REQUIRES_RECIPIENT_CAN_MARRY;§Y[Recipient.GetTitledFirstName]§!必须能够结婚且有能力生育;;;;;;;;;;x
 INTERACTION_PREP_INV_ALREADY_TARGETTED;§Y[Recipient.GetTitledFirstName]§! 没有成为准备入侵的目标;;;;;;;;;;x
 INTERACTION_PREP_INV_ONLY_ONCE;§Y[Actor.GetTitledFirstName]§! 只能在 [Actor.GetPossPronoun]一生中发动一次准备入侵;;;;;;;;;;x
 MORAL_AUTHORITY_OF_RELIGION;§Y$RELIGION$§!信仰的宗教权威:§Y$AUTHORITY$%§!;;;;;;;;;;x
@@ -143,7 +143,7 @@ d_tengri_pagan_reformed_adj;长生天;;;;;;;;;;x
 d_finnish_pagan_reformed;索米多神教教会;;;;;;;;;;x
 d_finnish_pagan_reformed_adj;索米多神教;;;;;;;;;;x
 d_aztec_pagan_reformed;阿兹特克多神教教会;;;;;;;;;;x
-d_aztec_pagan_reformed_adj;阿兹特克多神教;;;;;;;;;;x
+d_aztec_pagan_reformed_adj;阿兹特克信仰;;;;;;;;;;x
 d_west_african_pagan_reformed;西非泛灵教教会;;;;;;;;;;x
 d_west_african_pagan_reformed_adj;西非泛灵教;;;;;;;;;;x
 e_wendish_empire;文德帝国;;;;;;;;;;x
@@ -183,10 +183,10 @@ EAST_FRANCIA;东法兰克;;;;;;;;;;x
 EAST_FRANCIA_ADJ;东法兰克;;;;;;;;;;x
 FYLKIR;英雄王;;;;;;;;;;x
 FYLKJA;英雄女王;;;;;;;;;;x
-FYLKIR_FOA;你的领袖;;;;;;;;;;x
+FYLKIR_FOA;陛下;;;;;;;;;;x
 HEAD_PRIEST;大祭司;;;;;;;;;;x
 HEAD_PRIESTESS;女大祭司;;;;;;;;;;x
-HEAD_PRIEST_FOA;你的领袖;;;;;;;;;;x
+HEAD_PRIEST_FOA;圣座;;;;;;;;;;x
 TRIBAL;部落;;;;;;;;;;x
 TRIBAL_TITLE;§Y部落头衔§! (不能有法理上的封臣);;;;;;;;;;x
 TRIBAL_TITLE_DESC;部落头衔不能同时拥有法理上的封臣头衔.如果部落的领导者得到一个相同或是更高的等级的，这部落头衔就会永远消失.;;;;;;;;;;x
@@ -232,7 +232,7 @@ EVTDESC61301;我的摄政[From.GetTitledName]通过了一部降低[Root.PrimaryT
 EVTOPTA61301;我会铭记这个……;;;;;;;;;;x
 EVTDESC61302;我作为一个[Root.Liege.GetTitledName]的统治者会让我降低[Root.PrimaryTitle.Empire.GetName]的正统性……;;;;;;;;;;x
 EVTDESC61303;我的统治者[From.GetTitledName]已经准备推行一部法律来降低[Root.PrimaryTitle.Empire.GetName]的正统性!;;;;;;;;;;x
-EVTTOOLTIP62910;我被加冕为匈牙利之王;;;;;;;;;;x
+EVTTOOLTIP62910;我加冕为匈牙利国王;;;;;;;;;;x
 EVTNAME62910;一个新的王国;;;;;;;;;;x
 EVTDESC62910;马扎尔部落的远征，他们发起了对游牧民，农民，已经城市居民的战争.喀尔巴阡盆地的肥沃平原应该会给我们带来和平-最后一个新家!;;;;;;;;;;x
 EVTOPTA62910;我们不会再走了!;;;;;;;;;;x
@@ -285,9 +285,9 @@ REL_CONSORT;侍妾;;;;;;;;;;x
 CH_CONSORT;成为$WHO$的侍妾;;;;;;;;;;x
 CH_REMOVE_CONSORT;不再是$WHO$的侍妾。;;;;;;;;;;x
 POTENTIAL_TARGET;潜在目标;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_TITLE;娶妾;;;;;;;;;;x
+MAKE_CONSORT_INTERACTION_TITLE;纳妾;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_DESC;找一个女人当你的侍妾.;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_ACCEPT_SETUP;同意娶妾的请求;;;;;;;;;;x
+MAKE_CONSORT_INTERACTION_ACCEPT_SETUP;同意纳妾的请求;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetTitledName]§!已经同意让§Y[ThirdPartyCharacter.GetTitledName]§!成为§Y[Actor.GetTitledName]§!的侍妾.;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_DECLINE_SETUP;娶妾的请求被拒绝了;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_DECLINE_LOG;§Y[Recipient.GetTitledName]§!已经拒绝让§Y[ThirdPartyCharacter.GetTitledName]§!成为§Y[Actor.GetTitledName]§!的妾的请求.;;;;;;;;;;x
@@ -578,8 +578,8 @@ b_chocimsk;霍齐姆斯克;;;;;;;;;;x
 b_chashniki;恰什尼基;;;;;;;;;;x
 b_novolukoml;诺瓦奴科姆利;;;;;;;;;;x
 d_amalfi;阿马尔菲;;;;;;;;;;x
-c_amalfi_adj;阿马尔菲的;;;;;;;;;;x
-d_amalfi_adj;阿马尔菲的;;;;;;;;;;x
+c_amalfi_adj;阿马尔菲;;;;;;;;;;x
+d_amalfi_adj;阿马尔菲;;;;;;;;;;x
 b_ravello;拉韦洛;;;;;;;;;;x
 b_tramonti;特拉蒙蒂;;;;;;;;;;x
 b_positano;波西塔诺;;;;;;;;;;x
@@ -649,18 +649,18 @@ PREPARE_INVASION_INTERACTION_0;根据诺斯教义，你可以宣布有意向入�
 opinion_failed_invasion;准备入侵失败;;;;;;;;;;x
 PROVINCE_TECHNOLOGY;省份科技;;;;;;;;;;x
 TECH_LIGHT_INFANTRY;轻步兵;;;;;;;;;;x
-TECH_LIGHT_INFANTRY_DESC;给轻步兵和弓箭手装备更好的武器和护甲.;;;;;;;;;;x
+TECH_LIGHT_INFANTRY_DESC;给轻步兵和弓箭手装备更好的武器和护甲。;;;;;;;;;;x
 TECH_HEAVY_INFANTRY;重步兵;;;;;;;;;;x
-TECH_HEAVY_INFANTRY_DESC;给重步兵和长矛兵装备更好的武器和护甲.;;;;;;;;;;x
+TECH_HEAVY_INFANTRY_DESC;给重步兵和长枪兵装备更好的武器和护甲。;;;;;;;;;;x
 TECH_CAVALRY;骑兵;;;;;;;;;;x
-TECH_CAVALRY_DESC;给轻骑兵，重骑兵和弓骑兵装备更好的武器和护甲.;;;;;;;;;;x
+TECH_CAVALRY_DESC;给轻骑兵，重骑兵和弓骑兵装备更好的武器和护甲。;;;;;;;;;;x
 TECH_NAVAL;造船术;;;;;;;;;;x
-TECH_NAVAL_DESC;先进的造船技术允许我们部署更加庞大的舰队.;;;;;;;;;;x
+TECH_NAVAL_DESC;更先进的造船技术允许我们部署更加庞大的舰队。;;;;;;;;;;x
 TECH_TRADE_PRACTICES;贸易制度;;;;;;;;;;x
-TECH_TRADE_PRACTICES_DESC;优越的贸易制度让共和国和城市加入到贸易中，来赚更多的钱.;;;;;;;;;;x
-TECH_CONSTRUCTION_DESC;先进的建筑学使建造变得更效率.;;;;;;;;;;x
+TECH_TRADE_PRACTICES_DESC;更优越的贸易制度让共和国和城市能在贸易中赚更多的钱。;;;;;;;;;;x
+TECH_CONSTRUCTION_DESC;更先进的建筑学使建造变得更效率。;;;;;;;;;;x
 TECH_CULTURE_FLEX;宽容;;;;;;;;;;x
-TECH_CULTURE_FLEX_DESC;海纳百川更易于统治不同的文化和宗教.;;;;;;;;;;x
+TECH_CULTURE_FLEX_DESC;海纳百川更易于统治不同的文化和宗教。;;;;;;;;;;x
 TECH_INVEST;投资在 §Y$TECHNAME$§!\n花费：$COST$/§Y$MAX$§!;;;;;;;;;;x
 TECH_INVEST_DESC;通过花费 §Y$POINTS$§! $POINTTYPE$ 你能够提升这项科技到等级 §Y$NEXTLEVEL$§!;;;;;;;;;;x
 POINTTYPE_MIL;军事科技点数;;;;;;;;;;x
