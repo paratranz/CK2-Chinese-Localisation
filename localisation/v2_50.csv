@@ -88,7 +88,7 @@ EVTOPTA_ZE_5027;这个倾向异教的叛徒！;;;;;;;;;;x
 EVTOPTB_ZE_5027;如果他现在停止这疯狂的行为的话我会选择原谅他。;;;;;;;;;;x
 EVTDESC_ZE_5030;你的[Root.GetLordSpiritualName]，[Root.job_spiritual.GetTitledNameWithNick]，被发现将各宗教人士的献金装进[Root.job_spiritual.GetHerHis]口袋。;;;;;;;;;;x
 EVTOPTA_ZE_5030;令人无法忍受！;;;;;;;;;;x
-EVTOPTB_ZE_5030;令人失望，但是无法理解。;;;;;;;;;;x
+EVTOPTB_ZE_5030;令人失望，但是可以理解。;;;;;;;;;;x
 EVTDESC_ZE_5040;我的[Root.GetTitle]，\n我发现这里的生活因为异教徒的缘故既可怜又危险。而且我相信他们完全无视[Root.Religion.GetRandomGodName]的荣光。我请求你让我回家做一些对于[Root.Religion.GetName]更加有意义的事情。\n\n你忠诚的从者，\n[Root.job_spiritual.GetTitledFirstName];;;;;;;;;;x
 EVTOPTA_ZE_5040;很好，我会记得 [Root.job_spiritual.GetHerHim].;;;;;;;;;;x
 EVTOPTB_ZE_5040;这个只会抱怨的懦夫已经不再有用了。;;;;;;;;;;x
@@ -106,9 +106,9 @@ EVTDESCA_ZE_4030;你收到了关于你的[Root.GetMarshalName]要求下所进行
 EVTDESCB_ZE_4030;你收到了关于你的[Root.GetMarshalName]要求下所进行的军事实验的报告。显然，一种基于远东的模型的新型自推进式的箭被开发出来。这种箭点火之后会发出尖叫并且随着尾部的一道烟雾飞出。在收到冲击之后，箭会爆炸，杀死数个作为目标的牲畜。不幸的是，在第二次实验中，数个火箭失灵，其中有一个击杀了工程师，另一个杀死了在附近的[Root.GetMarshalName]。;;;;;;;;;;x
 EVTTITLE_ZE_4040;末日号角;;;;;;;;;;x
 EVTDESC_ZE_4040;你收到了关于你的[Root.GetMarshalName]要求下所进行的军事实验的报告。显然，这个实验包括训练一大批音乐家去齐声吹号角在作战准备时来震聋震晕敌人。实验中也尝试着用号角来震塌城堡的墙壁。\n\n不幸的是尽管花费高昂，整个实验都是失败的。;;;;;;;;;;x
-EVTOPTA_ZE_4040;号角？我这次又要话费多少钱。。。？;;;;;;;;;;x
+EVTOPTA_ZE_4040;号角？我这次又要花多少钱......？;;;;;;;;;;x
 hard_of_hearing;重听;;;;;;;;;;x
-hard_of_hearing_desc;[GetHerHis] 的耳膜已经损坏，严重影响了 [GetHerHis] 与他人沟通的能力.;;;;;;;;;;x
+hard_of_hearing_desc;该角色的耳膜受过伤，影响了和别人交流的能力。;;;;;;;;;;x
 EVTTITLE_ZE_4050;烈焰绵羊;;;;;;;;;;x
 EVTDESC_ZE_4050;你收到了关于[Root.GetMarshalName]军事实验结果的报告.。报告称，试验主要是将大量的羊浇上油，然后朝羊群放火，将受到惊吓的羊群驱赶向敌人。不幸的是，他们无法控制羊群的方向，工程师被当场烧死。你的[Root.GetMarshalName]勉强保住了[Root.GetHerHis]命.;;;;;;;;;;x
 EVTOPTA_ZE_4050;看来晚饭就要吃烤羊肉了......;;;;;;;;;;x
@@ -134,13 +134,13 @@ obj_gain_any_title_desc;[This.GetTitledFirstName]希望获得更多的土地和�
 EVTDESC63041;我的领主！\n像我这样的忠诚从者应该时不时的得到一定的认可和奖赏。众所周知，你拥有大量的土地和头衔并且慷慨而睿智。或许你会考虑授予我这个不起眼的从者[vassal_wanted_title.GetFullName]的头衔？\n\n你的封臣，[From.GetTitledName];;;;;;;;;;x
 EVTOPTA63041;当然！;;;;;;;;;;x
 EVTOPTB63041;你居然如此贪心。;;;;;;;;;;x
-EVTOPTC63041;我很乐意给你应得的奖赏，但是。。。;;;;;;;;;;x
+EVTOPTC63041;我很乐意给你应得的奖赏，但是...;;;;;;;;;;x
 EVTDESC63042;我亲爱的封臣，\n\n你是一个忠诚的从者，因而我决定奖赏你。请接受[vassal_wanted_title.GetFullName]的头衔作为我对你忠诚的服务的称赞的信物。\n\n你的领主，[From.GetTitledName];;;;;;;;;;x
 demand_liege_title;向领主索要头衔;;;;;;;;;;x
 demand_liege_title_desc;我的领主有许多头衔。作为一个忠诚的封臣，他一定会分一点土地给我……;;;;;;;;;;x
 demand_liege_title_tooltip;向[Root.Liege.GetTitledFirstName]索要头衔;;;;;;;;;;x
 ally_inactive_in_war;别参战;;;;;;;;;;x
-EVTDESC_ZE_9000;随着战争激烈的进行，你发现你所谓的盟友 [ally_not_active_in_war.GetTitledNameWithNick]，已经数年没有什么活跃的表现了。他没有进行任何进攻行为来帮助你。;;;;;;;;;;x
+EVTDESC_ZE_9000;随着战争激烈的进行，你发现你所谓的盟友 [ally_not_active_in_war.GetTitledNameWithNick]，已经数年没有什么活跃的表现了。他没有发动任何进攻来支持你。;;;;;;;;;;x
 ze_9000_letter_sent;寄一封信到[ally_not_active_in_war.GetTitledNameWithNick]。;;;;;;;;;;x
 EVTOPTA_ZE_9000;自上次以来[ally_not_active_in_war.GetSheHeCap]已经辜负了我的期望。;;;;;;;;;;x
 EVTOPTB_ZE_9000;我只是假装没注意到。;;;;;;;;;;x
