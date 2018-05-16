@@ -4860,19 +4860,19 @@ MNM.78007.d;在管理你领主直辖省份时，你放进来一群人，你以�
 MNM.78008.d;你无能的[From.GetJobTitle]让一群走私者进入了[smuggler_province.GetName]的伯爵领。显然[From.GetSheHe]以为他们是商人，真是愚不可及！;;;;;;;;;;x
 MNM.70015.t;指挥官争吵;;;;;;;;;;x
 MNM.70015.d;在训练指挥官们的时候，[commander_character.GetFirstName]开始嘲笑你的技术。在你知道之前，情况升级成一场全面的争吵！;;;;;;;;;;x
-MNM.70016.d;相比于操练，[From.GetJobTitle] [From.GetFirstName]选择在用实战来训练他的军队！ 反观你的部队，确实是纪律涣散了一些……;;;;;;;;;;x
-RULE_DEVIL_WORSHIPERS;§B僧侣与神秘主义：§!魔鬼崇拜者;;;;;;;;;;x
-RULE_DEVIL_WORSHIPERS_DEFAULT_DESC;魔鬼崇拜者们将在世界各地修习他们的邪恶魔法。;;;;;;;;;;x
-RULE_DEVIL_WORSHIPERS_NONE_DESC;不会出现魔鬼崇拜者。;;;;;;;;;;x
+MNM.70016.d;相比于操练，[From.GetJobTitle][From.GetFirstName]选择在用实战来训练他的军队！ 反观你的部队，确实是纪律涣散了一些……;;;;;;;;;;x
+RULE_DEVIL_WORSHIPERS;§B僧侣与神秘主义：§!恶魔崇拜者;;;;;;;;;;x
+RULE_DEVIL_WORSHIPERS_DEFAULT_DESC;恶魔崇拜者们将在世界各地修习他们的邪恶魔法。;;;;;;;;;;x
+RULE_DEVIL_WORSHIPERS_NONE_DESC;不会出现恶魔崇拜者。;;;;;;;;;;x
 MNM.70012.d;我找到了一个很有才能的人，愿意作为指挥官为我的君主服务，我应该马上写一封信。;;;;;;;;;;x
-MNM.70013.d;我的[From.GetJobTitle]发现了一名具有杰出军事才能的人才，这位叫做[found_commander.GetFirstName]的人愿意为我服务！;;;;;;;;;;x
+MNM.70013.d;我的[From.GetJobTitle]发现了一名具有杰出军事才能的人才，这位叫做[found_commander.GetFirstName]的人愿意在我的部队服务！;;;;;;;;;;x
 MNM.70010.t;将领属性提升;;;;;;;;;;x
 MNM.70010.d;经过几个星期的操练，我相信我的君主命令我训练的其中一位指挥官，[commander_improved.GetFirstName]，有了显著的提升！;;;;;;;;;;x
 MNM.70011.d;我的[From.GetJobTitle]告诉我，我的指挥官[commander_improved.GetFirstName]已经大大进步了！;;;;;;;;;;x
-action_organize_army_desc;[GetMarshalName]将努力组织你的军队并操练你的指挥官。减少每月的军队花费。;;;;;;;;;;x
-MNM.70013.o;我想我知道他可以替换谁…;;;;;;;;;;x
+action_organize_army_desc;[GetMarshalName]将努力组织你的军队并操练你的指挥官。减少每月的近卫军花费。;;;;;;;;;;x
+MNM.70013.o;我想我知道他可以替换谁……;;;;;;;;;;x
 MNM.70031.t;发现叛教者！;;;;;;;;;;x
-the_devil_worshipers_tainted_touch_allow_2_tt;§Y[Root.GetTitledFirstName]§!在过去十年内没有受过诅咒;;;;;;;;;;x
+the_devil_worshipers_tainted_touch_allow_2_tt;§Y[Root.GetTitledFirstName]§!在过去 10 年内没有受过诅咒;;;;;;;;;;x
 String_Universal_Theology;普世神学的真相;;;;;;;;;;x
 String_origin_of_the_Trinity_before_Messiah;前弥赛亚时代三位一体的起源;;;;;;;;;;x
 String_Qabalah;赫尔墨斯·特利斯墨吉斯忒斯之秘传;;;;;;;;;;x
@@ -4883,7 +4883,7 @@ String_Prisca_theologia;通过古代神学之镜达成同一;;;;;;;;;;x
 String_esoteric_meaning_of_the_Caduceus;双蛇杖的深意;;;;;;;;;;x
 String_truth_inherent_to_Divine_Consciousness;神性意识的内在真理;;;;;;;;;;x
 String_interaction_of_the_soul_and_alchemy;灵魂与炼金术的互动;;;;;;;;;;x
-String_very_definition_of_a_true_magnum_opus;真正杰作的定义;;;;;;;;;;x
+String_very_definition_of_a_true_magnum_opus;真正巨著的定义;;;;;;;;;;x
 String_the_nature_of_the_Judgements_and_the_Bazaar;判决和义卖的本质;;;;;;;;;;x
 String_the_movement_of_celestial_bodies;天体运动;;;;;;;;;;x
 String_the_laws_of_the_stars;恒星运行规律;;;;;;;;;;x
@@ -4905,53 +4905,53 @@ String_trinity_or_maybe_quaternity;以四位一体代替三位一体;;;;;;;;;;x
 String_assassins_drugs;你将吸入教团所提供的药剂，然后很快就能看到它的效果。;;;;;;;;;;x
 String_assassins_drugs_withdrawal;你将吸入教团所提供的药剂，然后很快就能看到它的效果。\n这将会帮助你摆脱瘾症，不过通常会有一些风险。;;;;;;;;;;x
 assassins_drug_decision_tt;[Custom.GetAssassinsDrugsTooltip]\n;;;;;;;;;;x
-EVTDESC_MNM_6816;仿佛从薄雾中，我出现了，又一次站在阳光下。我甚至还没有完全明白我脑子里在想什么，但它的黑暗力量终于松开了。;;;;;;;;;;x
+EVTDESC_MNM_6816;仿佛从薄雾中，我出现了，又一次站在阳光下。我甚至还没有完全明白压在我脑子里的是什么，但它的黑暗力量终于松开了。;;;;;;;;;;x
 EVTOPTA_MNM_6816;我感受到了从未有过的平静。;;;;;;;;;;x
 EVTOPTB_MNM_6816;我对你说，我思绪中的恶魔已经消失了。;;;;;;;;;;x
 EVTOPTC_MNM_6816;看到这个世界不再让我感到疲惫，这会让我鼓起勇气！;;;;;;;;;;x
-EVTOPTD_MNM_6816;疯狂的天平从我眼前掉了下来。;;;;;;;;;;x
-EVTDESC_MNM_6817;当我的大脑以新的和意想不到的方式感知世界时，我房间里充满烟雾的形状结晶，我开始理解。;;;;;;;;;;x
+EVTOPTD_MNM_6816;疯狂的尺度从我眼前掉了下来。;;;;;;;;;;x
+EVTDESC_MNM_6817;当我的大脑以新的和意想不到的方式感知世界时，我房间里充满的烟雾逐渐成型，我开始理解。;;;;;;;;;;x
 EVTOPTA_MNM_6817;我看到过去的朋友，还有我还没有见过的朋友……;;;;;;;;;;x
 EVTOPTB_MNM_6817;伟大的战斗在我面前展开。;;;;;;;;;;x
-EVTOPTC_MNM_6817;阴影消散，暴露了他们曾经隐藏的一切。;;;;;;;;;;x
+EVTOPTC_MNM_6817;阴影消散，暴露了曾经隐藏的一切。;;;;;;;;;;x
 EVTOPTD_MNM_6817;过去的智慧，写在灰蒙蒙的云彩里。;;;;;;;;;;x
 EVTOPTE_MNM_6817;黄金的流动与蒸汽一样具有延展性。;;;;;;;;;;x
-EVTDESC_MNM_6818;随着我的身体被这些令人陶醉的烟雾所净化，我的一切都在改变，那些曾经令我痛苦不堪的东西将因为的变化而永远离我远去。;;;;;;;;;;x
+EVTDESC_MNM_6818;随着我的身体被这些令人陶醉的烟雾所净化，我的一切都在改变，那些曾经令我痛苦不堪的东西将因为我的变化而永远离我远去。;;;;;;;;;;x
 EVTOPTA_MNM_6818;我的痛苦已被驱逐。;;;;;;;;;;x
-EVTDESC_MNM_6800;是时候向天堂的幻象敞开心扉了。当我代表命令行事时，他们将确保我的手的稳定性，但我敢向自己透露多少呢？;;;;;;;;;;x
+EVTDESC_MNM_6800;是时候向天堂的幻象敞开心扉了。当我代表教团行事时，他们将确保我的手的稳定性，但我敢向自己透露多少呢？;;;;;;;;;;x
 EVTDESC_MNM_6802_GREAT;清晰！我能看到这个世界，仿佛我在它的上空翱翔，眼睛像鹰一样锐利。我以前从来没有这么清晰的看到过。;;;;;;;;;;x
-EVTDESC_MNM_6802_GOOD;这些异象向我透露了很多天机。我现在懂得更多了，它们甚至暗示了我在上帝伟业的宏大拼图中的位置。;;;;;;;;;;x
+EVTDESC_MNM_6802_GOOD;这些幻象向我透露了很多天机。我现在懂得更多了，它们甚至暗示了我在上帝伟业的宏大拼图中的位置。;;;;;;;;;;x
 EVTDESC_MNM_6802_BAD;我在塔楼外的草垛里醒来。我前一天的记忆是朦胧的，但我记得在黑暗中被在痛苦中扭曲和呻吟的灵魂包围着坠落的感觉。;;;;;;;;;;x
 EVTOPTA_MNM_6802_GREAT;面纱已被揭开！;;;;;;;;;;x
-EVTOPTA_MNM_6802_BAD;我也许应该更小心的;;;;;;;;;;x
+EVTOPTA_MNM_6802_BAD;我也许应该更小心的。;;;;;;;;;;x
 EVTDESC_MNM_6803;自从我上次使用大麻后已经过了几个星期了，我发现我的思绪一次又一次地回到那一天。我的意志拒绝忘掉我所见到的天堂美景，并渴望更多。;;;;;;;;;;x
 EVTDESC_MNM_6806;自从我上次使用大麻后已经过了几个月了，我慢慢淡忘了对那美景的记忆，因此我极度渴望再次体验它。;;;;;;;;;;x
-EVTDESCA_MNM_6810;我怎么能不感受到我内心的饥渴呢？难怪这个世界就像它一样，当像这个恶魔一样的饥饿能在我的胃里静静地停留这么久的时候！;;;;;;;;;;x
+EVTDESCA_MNM_6810;我怎么能不感受到我内心的饥渴呢？难怪这个世界会是这样，这个恶魔一样的饥渴感能在我的肚子里静静地停留这么久！;;;;;;;;;;x
 EVTOPTA_MNM_6810;是的，这只鸡也许能驱逐我内在的恶魔。;;;;;;;;;;x
 EVTDESCB_MNM_6810;透过我房间里的烟，我看得很清楚。我左边的叛徒，右边的是错误的信徒。他们都吵着要我的头。我真是个傻瓜！;;;;;;;;;;x
 EVTDESCC_MNM_6810;在我烟雾缭绕房间的阴影里，我想知道这一切的意义何在。我本想看到天堂，却不料看到了真相，它让我空虚。;;;;;;;;;;x
 EVTOPTC_MNM_6810;每一天都一样，世界永远不会改变。;;;;;;;;;;x
 EVTOPTD_MNM_6810;恶魔在我们身边！;;;;;;;;;;x
-diplomatic_insight;理解地一瞥;;;;;;;;;;x
+diplomatic_insight;理解的一瞥;;;;;;;;;;x
 diplomatic_insight_desc;这个角色对友谊和敌意的含义有了更深入的了解。;;;;;;;;;;x
 martial_insight;血与剑的凝视;;;;;;;;;;x
-martial_insight_desc;此角色对战争艺术有了更深的见解.;;;;;;;;;;x
+martial_insight_desc;此角色对战争艺术有了更深的见解。;;;;;;;;;;x
 intrigue_insight;一缕烟雾和阴影;;;;;;;;;;x
 intrigue_insight_desc;这个角色对那些自称为朋友的人的真实意图有了更加深入的了解。;;;;;;;;;;x
 learning_insight;寻求真理的目光;;;;;;;;;;x
 learning_insight_desc;此人对这世界的秘密有了更深的了解。;;;;;;;;;;x
 stewardship_insight;金光闪闪的眼睛;;;;;;;;;;x
-stewardship_insight_desc;此人对欲望交换有着很深了了解。;;;;;;;;;;x
+stewardship_insight_desc;此人对欲望交换有着很深入的了解。;;;;;;;;;;x
 EVTDESC_MNM_5204;在辩论[Custom.GetHermeticDebateSubject]时，我突然想起曾经一个马夫告诉我的故事，这个故事可以完美的表达我的观点。即使它不能完美表达我的观点，笑声也可能赢得同样多的盟友。;;;;;;;;;;x
 EVTOPTA_MNM_5204;「曾几何时，我的一个仆人正在铲马粪......」;;;;;;;;;;x
 EVTOPTA_MNM_5204_TT;这个可能是个冷笑话，但如果你讲得好，可能会让每个人都大笑！;;;;;;;;;;x
 EVTOPTB_MNM_5204;现在不是耗在这些愚蠢的故事上的时候。;;;;;;;;;;x
-EVTOPTB_MNM_5204_TT;你坐了下来;;;;;;;;;;x
-EVTDESC_MNM_5205;「如果这些话，即使是一个傻瓜说出的话，也不能说明我的观点，什么都不会。」我不确定是否有人听到我在笑声中的决定性结论，但这一点很重要。我的故事完全打动了观众。;;;;;;;;;;x
+EVTOPTB_MNM_5204_TT;你坐了下来。;;;;;;;;;;x
+EVTDESC_MNM_5205;「……如果这些话 - 即使这些话是由傻瓜说出的 - 还不能说明我的观点，还有什么可以？」\n我不确定是否有人听到我在全场大笑中的决定性结论，但这不重要。我的故事完全打动了观众。;;;;;;;;;;x
 EVTOPTA_MNM_5205;就和我想象的一样，相当有趣！;;;;;;;;;;x
-EVTDESC_MNM_5206;我站在房间里，沉默了一会儿，然后再问。明白了吗？」\n有人无意中掉了针，用来说明跳舞天使在地板上的理论。淡淡的叮当声在我耳边响起。;;;;;;;;;;x
+EVTDESC_MNM_5206;我站在房间里，沉默了一会儿，然后再问。「明白了吗？」\n有人无意中把用来说明舞蹈天使理论的针掉在了地板上。淡淡的叮当声在我耳边响起。;;;;;;;;;;x
 EVTOPTA_MNM_5206;我没脸在这些人面前出现了！;;;;;;;;;;x
-EVTDESC_MNM_1289;[Root.GetTitledName]出生在[Root.GetWesternZodiacSign]的标志下。;;;;;;;;;;x
+EVTDESC_MNM_1289;[Root.GetTitledName]出生在[Root.GetWesternZodiacSign]的星座下。;;;;;;;;;;x
 gain_zodiac_trait_effect_tt;你将获得适合你的星座的特质！\n;;;;;;;;;;x
 EVTDESC_MNM_4399;我打消了让自己出世的念头，并且重新融入了我周围的世界。;;;;;;;;;;x
 EVTOPTA_MNM_4399;看样子我已经足够好了。;;;;;;;;;;x
@@ -4987,48 +4987,48 @@ secret_west_african_pagan_reformed_community;西非泛灵教秘密团体;;;;;;;;
 secret_west_african_pagan_reformed_community_desc;西非泛灵教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播福音、扩展势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
 secret_zun_pagan_reformed_community;尊日神教秘密团体;;;;;;;;;;x
 secret_zun_pagan_reformed_community_desc;尊日神教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播福音、扩展势力，并在异教徒的压迫下谋求自我保护。;;;;;;;;;;x
-quest_secret_religions_societies_prepare_grounds_desc;为了建立我们信仰的力量，你必须尽可能地传播[Root.GetTrueReligionScriptureName]之道。在人们看起来对新想法持开放态度的国度有肥沃的土壤。在那里建立一个社团，并让他开花。;;;;;;;;;;x
-quest_secret_religions_societies_prepare_grounds_tooltip;通过右击伯爵领的盾徽，在这个省份中使用准备好的力量。你将开始尝试去在这里建立一个信徒们的社团。成功地建立一个社团将完成任务。;;;;;;;;;;x
+quest_secret_religions_societies_prepare_grounds_desc;为了建立我们信仰的力量，你必须尽可能地传播[Root.GetTrueReligionScriptureName]的话语。在人们看起来对新想法持开放态度的国度有肥沃的土壤。在那里建立一个团体，并让他开花。;;;;;;;;;;x
+quest_secret_religions_societies_prepare_grounds_tooltip;通过右击伯爵领的盾徽，在这个省份中使用准备好的力量。你将开始尝试去在那里建立一个信徒们的团体。成功地建立一个团体将完成任务。;;;;;;;;;;x
 quest_secret_religions_societies_blend_in_desc;在最好的时候保持虚假的信念是一种挑战，但是那些不理解你的人比以往任何时候都更加怀疑你。你必须表现出，对于你告诉他们的教义，坚定不移的信奉。;;;;;;;;;;x
-quest_secret_religions_societies_blend_in_tooltip;决定融入其中开始你的尝试。成功地说服你周围的人，让他们相信你是他们的信仰，就能完成这一使命。;;;;;;;;;;x
-EVTDESC_MNM_5201;在与[This.Society.GetName]的同伴进行的最后一次谈话中，我发现自己正在讨论一个人的措辞的力量。当我开玩笑地建议我应该尝试用诗句来表达我的观点时，[fellow_debater_target.GetTitledFirstName]让我惊讶地点头赞赏地点头。「不要低估一首好韵的力量，」[fellow_debater_target.GetSheHe]说。;;;;;;;;;;x
+quest_secret_religions_societies_blend_in_tooltip;选择决议「融入」开始你的尝试。成功地说服你周围的人，让他们相信你是他们信仰的追随者，就能完成这一使命。;;;;;;;;;;x
+EVTDESC_MNM_5201;在与[This.Society.GetName]的同伴进行的最后一次谈话中，我发现自己正在讨论一个人的措辞的力量。当我开玩笑地建议我应该尝试用诗句来表达我的观点时，[fellow_debater_target.GetTitledFirstName]让我惊讶地赞赏地点头。「不要低估一首好韵的力量，」[fellow_debater_target.GetSheHe]说。;;;;;;;;;;x
 EVTOPTA_MNM_5201;也许这正是我的主题所需要的！;;;;;;;;;;x
-EVTOPTA_MNM_5201_TT;你晚上的剩余时间都在谈论诗歌更精细的点。\n;;;;;;;;;;x
-EVTOPTB_MNM_5201;废话！ 我将专注于事实，而不是点缀。;;;;;;;;;;x
+EVTOPTA_MNM_5201_TT;你晚上的剩余时间都在谈论诗歌的闪光点。\n;;;;;;;;;;x
+EVTOPTB_MNM_5201;废话！我将专注于事实，而不是点缀。;;;;;;;;;;x
 EVTOPTB_MNM_5201_TT;你花费晚上的剩余时间准备下一次辩论，以增加获胜的机会。\n;;;;;;;;;;x
-EVTDESC_MNM_5202;在今天的辩论中，我很不安地发现我的对手[rival_debater_target.GetTitledFirstName]在观察我。在继续推理之前，我深呼吸了一下，然后转向其他观众。当我完成了的时候，我吃惊地看到 [rival_debater_target.GetFirstName]站了起来，微笑着 扬起了眉毛，[rival_debater_target.GetSheHe]向我点头表示敬意。;;;;;;;;;;x
-EVTOPTA_MNM_5202;我很高兴在这样的场合看到我们超越我们的分歧。;;;;;;;;;;x
+EVTDESC_MNM_5202;在今天的辩论中，我很不安地发现我的对手[rival_debater_target.GetTitledFirstName]在观察我。在继续推理之前，我深呼吸了一下，然后转向其他观众。当我完成了的时候，我吃惊地看到[rival_debater_target.GetFirstName]微笑着站了起来。[rival_debater_target.GetSheHe]扬起了眉毛，向我点头表示敬意。;;;;;;;;;;x
+EVTOPTA_MNM_5202;我很高兴在这样的场合看到我们超越分歧。;;;;;;;;;;x
 opinion_scholarly_appreciation;学术鉴赏;;;;;;;;;;x
-EVTDESC_MNM_5203_A;在持续的聆听不同水平的学者之间的辩论中，我会时不时开小差......然而，有一个人一直把我的注意力带回现在 不像我见过的其他人，[striking_debater_target.GetTitledName]有着独特的智慧和说话方式。;;;;;;;;;;x
-EVTDESC_MNM_5203_B;聆听过一段时间不同智力的学者之间的辩论之后，我承认偶尔会魂游太虚......我想我不应该感到惊讶的是，有一个人一直把我的注意力拉回现实—— [striking_debater_target.GetTitledFirstName]十分健谈，而且仪表堂堂。;;;;;;;;;;x
-EVTOPTA_MNM_5203;我...我不确定那些感受是啥！;;;;;;;;;;x
-EVTDESC_MNM_5207;在我走进房间之前，我听到了[fellow_member_1.GetTitledFirstName]的声音。「[fellow_member_2.GetTitledFirstName]，你对[fellow_member_1.GetHermeticDebateSubject]真是一无所知！为什么我们要进行这次对话？！;;;;;;;;;;x
+EVTDESC_MNM_5203_A;聆听过一段时间不同水平的学者之间的辩论之后，我承认我会时不时开小差......然而，有一个人一直把我的注意力带回现实 - 与我见过的其他人不同，[striking_debater_target.GetTitledName]有着独特的智慧和说话方式。;;;;;;;;;;x
+EVTDESC_MNM_5203_B;聆听过一段时间不同水平的学者之间的辩论之后，我承认我会时不时开小差......我想我不应该感到惊讶的是，有一个人一直把我的注意力拉回现实 - [striking_debater_target.GetTitledFirstName]十分健谈，而且仪表堂堂。;;;;;;;;;;x
+EVTOPTA_MNM_5203;我……我不确定我是什么感觉！;;;;;;;;;;x
+EVTDESC_MNM_5207;在我走进房间之前，我听到了[fellow_member_1.GetTitledFirstName]的声音。「[fellow_member_2.GetTitledFirstName]，你对[fellow_member_1.GetHermeticDebateSubject]真是一无所知！为什么我们要进行这次对话？！」;;;;;;;;;;x
 EVTOPTA_MNM_5207;[fellow_member_1.GetFirstName]，你在这啊！说话声音小点，好吗？;;;;;;;;;;x
-EVTOPTB_MNM_5207;[fellow_member_2.GetFirstName]，[fellow_member_1.GetSheHe] 在做啥？;;;;;;;;;;x
-EVTOPTC_MNM_5207;我确信那只是误会。;;;;;;;;;;x
+EVTOPTB_MNM_5207;[fellow_member_2.GetFirstName]，[fellow_member_1.GetSheHe]在做啥？;;;;;;;;;;x
+EVTOPTC_MNM_5207;我确信这只是误会。;;;;;;;;;;x
 EVTOPTD_MNM_5207;我应该装作我不在这里的……;;;;;;;;;;x
 opinion_mediator;和事佬;;;;;;;;;;x
-opinion_meddler;干预者;;;;;;;;;;x
+opinion_meddler;好事者;;;;;;;;;;x
 EVTOPTA_MNM_5208;这将是值得的。;;;;;;;;;;x
 EVTOPTA_MNM_5208_TT;你破坏了§Y[fellow_member_target.GetTitledName]§!在大辩论中留下好印象的机会 。\n;;;;;;;;;;x
 EVTOPTB_MNM_5208;这很愚蠢，我敬重我的同僚学者们。;;;;;;;;;;x
-EVTOPTB_MNM_5208_TT;无论多么华丽。\n;;;;;;;;;;x
+EVTOPTB_MNM_5208_TT;无论多么华而不实。\n;;;;;;;;;;x
 childish_prankster;幼稚的捣蛋鬼;;;;;;;;;;x
-childish_prankster_desc;这个角色在一次重要的学术会议上表现的非常不专业，而且现在人们回避的方式有些尴尬。;;;;;;;;;;x
+childish_prankster_desc;这个角色在一次重要的学术会议上表现得非常不专业，而且现在人们回避的方式有些尴尬。;;;;;;;;;;x
 tarnished_reputation;败坏名誉;;;;;;;;;;x
 tarnished_reputation_desc;这个角色是一场混乱的恶作剧的受害者。脏乱的墨渍和破烂的衣服使其在其他学者面前显得有些轻浮。;;;;;;;;;;x
 EVTDESC_MNM_5209;在过去的几天里，我感受到一股能量在体内涌起，催促我去创造。「我可以建立一个新的实验室！等等，不......我应该为明天准备笔记」，我咕哝着。看着一叠羊皮纸，我发现我可以给我亲爱的[inspired_letter_target.GetTitledFirstName]写一封信。;;;;;;;;;;x
 EVTOPTA_MNM_5209_love_target;言语不能真正表达我对[inspired_letter_target.GetHerHim]的爱，但我会尝试。;;;;;;;;;;x
-EVTOPTA_MNM_5209_friendly_target;灵感激发的话语，来表达我对 [inspired_letter_target.GetHerHim] 的爱意。;;;;;;;;;;x
-EVTOPTA_MNM_5209_hostile_target;我会让 [inspired_letter_target.GetHerHim] 很难不喜欢上我。;;;;;;;;;;x
-EVTOPTA_MNM_5209_TT;「我亲爱的[inspired_letter_target.GetRootRelation]…在我的生命中不能没有你。」\n你整晚都在完善这封信，最后你把信纸扔得到处都是。;;;;;;;;;;x
-EVTOPTB_MNM_5209_love_target;我已经将我的情感浸入文字中很久了。;;;;;;;;;;x
-EVTOPTB_MNM_5209_friendly_target;一首小诗，来表达我对 [inspired_letter_target.GetHerHim] 的爱意。;;;;;;;;;;x
-EVTOPTB_MNM_5209_hostile_target;即使是 [inspired_letter_target.GetSheHe] 也不能抵御一首好诗。;;;;;;;;;;x
+EVTOPTA_MNM_5209_friendly_target;激励的话语，来表达我对[inspired_letter_target.GetHerHim]的欣赏。;;;;;;;;;;x
+EVTOPTA_MNM_5209_hostile_target;我会让[inspired_letter_target.GetHerHim]很难不喜欢上我。;;;;;;;;;;x
+EVTOPTA_MNM_5209_TT;「我亲爱的[inspired_letter_target.GetRootRelation]……我的生命中不能没有你。」\n你整晚都在完善这封信，最后你把信纸扔得到处都是。;;;;;;;;;;x
+EVTOPTB_MNM_5209_love_target;我已经刻意将我的情感浸入文字中很久了。;;;;;;;;;;x
+EVTOPTB_MNM_5209_friendly_target;一首小诗，来表达我对[inspired_letter_target.GetHerHim]的欣赏。;;;;;;;;;;x
+EVTOPTB_MNM_5209_hostile_target;即使是[inspired_letter_target.GetSheHe]也不能抵御一首好诗。;;;;;;;;;;x
 EVTOPTB_MNM_5209_TT;「如果不是为了你，我不会成为今天的我。你是我的太阳和月亮，我的阿尔法和欧米茄。」\n你整晚都在完善这封信，最后你把信纸扔得到处都是。\n;;;;;;;;;;x
-EVTOPTC_MNM_5209;注意力集中！现在是我对原始物质进行研究的有利时刻。;;;;;;;;;;x
+EVTOPTC_MNM_5209;注意力集中！现在是我对原初物质进行研究的有利时刻。;;;;;;;;;;x
 EVTOPTC_MNM_5209_TT;你消耗晚上的剩余时间进行研究，以提高赢得辩论的几率。\n;;;;;;;;;;x
-EVTDESC_MNM_5210;我收到了一封来自[From.GetTitledFirstName]的信笺，他写的很长，而且真情实意。信里面用各种我以前很少听闻的美妙隐喻暗示了我对[From.GetHerHim]是多么的重要。我想知道是什么促使[From.GetHerHim]写了这封信……;;;;;;;;;;x
+EVTDESC_MNM_5210;我收到了一封来自[From.GetTitledFirstName]的信笺，他写的很长，而且真情实意。信里面用各种美妙的隐喻暗示了我对[From.GetHerHim]是多么的重要，我以前很少见我的[From.GetRootRelation]这么做过。我想知道是什么促使[From.GetHerHim]写了这封信……;;;;;;;;;;x
 EVTOPTA_MNM_5210;[From.GetFirstName]肯定非常在意我。;;;;;;;;;;x
 opinion_pen_pal;笔友;;;;;;;;;;x
 opinion_love_letters;情书;;;;;;;;;;x
@@ -5041,7 +5041,7 @@ EVTOPTA_MNM_5211;这太重要了，现在不能停下来。;;;;;;;;;;x
 EVTOPTA_MNM_5211_TT;你增加了赢得辩论的几率。\n;;;;;;;;;;x
 EVTOPTB_MNM_5211;我只是想休息一下，我才不在乎谁赢了辩论。;;;;;;;;;;x
 EVTOPTB_MNM_5211_TT;你减少了赢得辩论的几率。\n;;;;;;;;;;x
-brew_happiness_potion_power_desc;允许消耗§Y[From.Society.GetCurrency]§!以在任何具有§R沮丧消沉§!或§R紧张不安§!特质的角色头像上§G点击右键§!来给他们一剂可以重振精神的药剂。;;;;;;;;;;x
+brew_happiness_potion_power_desc;允许在任何具有§R沮丧消沉§!或§R紧张不安§!特质的角色头像上§G右键点击§!来给他们一剂可以重振精神的药剂，需要消耗§Y[From.Society.GetCurrency]§!。;;;;;;;;;;x
 tooltip_info_omen_tt;这个选项可用是因为你有§Y[Root.GetOmenModifierName]§!的修正。\n[Root.GetOmenResultReaction]。\n;;;;;;;;;;x
 String_good_battle_omen;鼓舞人心的幻象;;;;;;;;;;x
 String_bad_battle_omen;可怕的幻象;;;;;;;;;;x
@@ -5061,35 +5061,35 @@ String_good_power_omen_good_event;看到幻象实现，你高兴地笑了;;;;;;;
 String_bad_battle_omen_good_event;尽管困扰于幻象失准，你还是很高兴;;;;;;;;;;x
 String_bad_relationship_omen_good_event;尽管困扰于幻象失准，你还是很高兴;;;;;;;;;;x
 String_bad_power_omen_good_event;尽管困扰于幻象失准，你还是很高兴;;;;;;;;;;x
-final_horoscope_outcome_for_parent_desc_1;我不知道我的[horoscope_child.GetDaughterSon] [horoscope_child.GetFirstName]最近发生了什么，不过[horoscope_child.GetSheHe]肯定没有慢慢成为我给[horoscope_child.GetHerHis]星座占卜中所预言的[horoscope_child.GetHermeticsDestinedRole]。;;;;;;;;;;x
-final_horoscope_outcome_for_parent_desc_2;我的[horoscope_child.GetDaughterSon] [horoscope_child.GetFirstName]很久以前就已经在我的星座预言中认识到了[horoscope_child.GetHerselfHimself]。[horoscope_child.GetSheHeCap]会成为一个好的[horoscope_child.GetHermeticsDestinedRole]。;;;;;;;;;;x
+final_horoscope_outcome_for_parent_desc_1;我不知道我的[horoscope_child.GetDaughterSon][horoscope_child.GetFirstName]最近发生了什么，不过[horoscope_child.GetSheHe]肯定没有慢慢成为我给[horoscope_child.GetHerHis]星占中所预言的[horoscope_child.GetHermeticsDestinedRole]。;;;;;;;;;;x
+final_horoscope_outcome_for_parent_desc_2;我的[horoscope_child.GetDaughterSon][horoscope_child.GetFirstName]很久以前就已经在我的星占中认识到了[horoscope_child.GetHerselfHimself]。[horoscope_child.GetSheHeCap]会成为一个好的[horoscope_child.GetHermeticsDestinedRole]。;;;;;;;;;;x
 fina_horoscope_outcome_for_parent_opt;也许这是因为[horoscope_child.GetSheHe]出生在[horoscope_child.GetWesternZodiacSign]的缘故？;;;;;;;;;;x
-EVTDESC_MNM_1271_A;或许[horoscope_maker.GetFatherMother]不再与我们在一起是一件幸事。[horoscope_maker.GetSheHeCap]本来会因为我达不到如伟大的[Root.GetHermeticsDestinedRole] [horoscope_maker.GetSheHe]所期望般高的潜力，而忧心如焚。请[Root.Religion.GetHighGodName]原谅我吧。这并不是真实的我。;;;;;;;;;;x
+EVTDESC_MNM_1271_A;或许[horoscope_maker.GetFatherMother]不再与我们在一起是一件幸事。[horoscope_maker.GetSheHeCap]本来会忧心如焚，因为我无法像[horoscope_maker.GetSheHe]所期望的那样发挥潜力，成为伟大的[Root.GetHermeticsDestinedRole]。愿[Root.Religion.GetHighGodName]宽恕我。这不是我应该有的样子。;;;;;;;;;;x
 EVTDESC_MNM_1271_B;我承认我最近一直在逃避我的[horoscope_maker.GetFatherMother]。[horoscope_maker.GetSheHeCap]对我可能心怀不满，或者甚至感到失望，因为我没能发挥出我的潜力，如[horoscope_maker.GetSheHe]在很久之前所预言的那样成为伟大的[Root.GetHermeticsDestinedRole]。愿[Root.Religion.GetHighGodName]宽恕我。这不是我应该有的样子。;;;;;;;;;;x
-EVTOPTE_WOL_351;询问 [From.GetHerHis] 星座;;;;;;;;;;x
-EVTTOOLTIP_WoL_352_ASTROLOGY;我敢打赌，[This.GetFirstName]一定会跟你说[This.GetHerHim]是一个[This.GetWesternZodiacSign]……;;;;;;;;;;x
+EVTOPTE_WOL_351;询问[From.GetHerHis]星座;;;;;;;;;;x
+EVTTOOLTIP_WoL_352_ASTROLOGY;打赌你把[This.GetFirstName]当作[This.GetWesternZodiacSign][This.GetHerHim]会回应你……;;;;;;;;;;x
 String_our_signs_are_very_compatible;「我们的星座很合呀……」;;;;;;;;;;x
 EVTOPTA_WOL_352_ASTROLOGY_compatible;我知道，我也考虑过！;;;;;;;;;;x
-EVTOPTA_WOL_352_ASTROLOGY_compatible_TT;[Root.GetWesternZodiacSign]与[From.GetWesternZodiacSign]做得很好。\n;;;;;;;;;;x
+EVTOPTA_WOL_352_ASTROLOGY_compatible_TT;[Root.GetWesternZodiacSign]与[From.GetWesternZodiacSign]确实很合。\n;;;;;;;;;;x
 EVTOPTA_WOL_352_ASTROLOGY_mismatch;太好了，但我想你看错了你的图表。不，我不介意！;;;;;;;;;;x
-EVTOPTA_WOL_352_ASTROLOGY_mismatch_TT;你任由误差在注释中悄然出现，因为并没有出现确实的矛盾之处...\n;;;;;;;;;;x
-EVTOPTB_WOL_352_ASTROLOGY_compatible;以 [Root.GetRandomPlanetName]之名，我们不应如此！;;;;;;;;;;x
+EVTOPTA_WOL_352_ASTROLOGY_mismatch_TT;你无视评论的不确切之处，因为并不存在真的不合的星座……\n;;;;;;;;;;x
+EVTOPTB_WOL_352_ASTROLOGY_compatible;以[Root.GetRandomPlanetName]之名，我们不应如此！;;;;;;;;;;x
 EVTOPTB_WOL_352_ASTROLOGY_compatible_TT;你不是仅仅被星星所决定。\n;;;;;;;;;;x
 EVTOPTB_WOL_352_ASTROLOGY_mismatch;额，我是[Root.GetWesternZodiacSign]。;;;;;;;;;;x
-EVTOPTB_WOL_352_ASTROLOGY_mismatch_TT;你永远无法找到[From.GetWesternZodiacSign]。\n;;;;;;;;;;x
+EVTOPTB_WOL_352_ASTROLOGY_mismatch_TT;你永远无法爱上[From.GetWesternZodiacSign]。\n;;;;;;;;;;x
 because_member_of_society_tt;这个选项可用是因为你是§Y[This.Society.GetName]§!的成员。\n;;;;;;;;;;x
 quest_the_devil_worshipers_demonic_impregnation_tooltip;要完成这项任务，§G右键点击§!你宫廷里的[Root.GetDWDevil]的育龄女性成员并选择§Y邪恶妊娠§!;;;;;;;;;;x
 EVTDESC_MNM_7507_SELF;我抑制住在夜空下吼出咒语的想法，低声念出召唤咒语。伟大的荣耀即将属于我。当我的嘴唇吐出最后的音节，我闭上眼睛静静地等待，心脏怦怦直跳。一只温暖的手轻轻地捏了捏我的肩膀。;;;;;;;;;;x
-EVTDESC_MNM_7507_OTHER;[From.GetSocietyRank] [From.GetFirstName]高兴地接受了我的建议。“我不胜荣幸，[Root.GetSisterBrother]」”，在我们即将开始召唤时，[From.GetSheHe]这样告诉我。我们跪在地上，握着彼此的双手，开始吟诵着咒语。当陌生人进来时，我捏了捏[From.GetHerHis]手指并离开了。;;;;;;;;;;x
-EVTDESC_MNM_10023_HERMETICS;致[Root.GetTitledFirstName]，\n\n我们注意到，你并未达到我们所期望的入会要求。尽管我们依旧鼓励你探求真相，寻求知识，但是无论如何，我们都不会让你加入社团。\n\n此致，[From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;x
+EVTDESC_MNM_7507_OTHER;[From.GetSocietyRank][From.GetFirstName]高兴地接受了我的建议。「我不胜荣幸，[Root.GetSisterBrother]，」在我们即将开始召唤时，[From.GetSheHe]这样告诉我。我们跪在地上，握着彼此的双手，开始吟诵着咒语。当陌生人进来时，我捏了捏[From.GetHerHis]手指并离开了。;;;;;;;;;;x
+EVTDESC_MNM_10023_HERMETICS;致[Root.GetTitledFirstName]，\n\n我们注意到，你并未达到我们所期望的入会要求。尽管我们依旧鼓励你探求真相，寻求知识，但是无论如何，我们都不会让你加入社团。\n\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;x
 title_hermetics_apprentice_desc;赫尔墨斯学者可以挑选一名学徒。为了换取指导，学徒需要照看实验室并协助实验。;;;;;;;;;;x
 opinion_grateful_invitation;感谢邀请;;;;;;;;;;x
-opinion_offended;触犯;;;;;;;;;;x
+opinion_offended;冒犯;;;;;;;;;;x
 opinion_unreasonable;荒唐;;;;;;;;;;x
 opinion_argued;辩论;;;;;;;;;;x
 opinion_reasonable;合理;;;;;;;;;;x
 opinion_great_minds;英雄所见略同;;;;;;;;;;x
-brilliant_insight;印象深刻的洞察力;;;;;;;;;;x
+brilliant_insight;出色洞察力;;;;;;;;;;x
 brilliant_insight_desc;此人在发明创造时拥有绝妙的洞察力。;;;;;;;;;;x
 hermetic_handgun;手铳;;;;;;;;;;x
 hermetic_handgun_desc;这个薄金属管看起来不并让人印象深刻，但它可能造成的破坏在同等程度上激发了敬畏和恐惧。由于高度爆炸性的黑色粉末，它可以以致命的速度发射金属球。;;;;;;;;;;x
@@ -5295,7 +5295,7 @@ astronomical_insights_2;猫头鹰;;;;;;;;;;x
 astronomical_insights_2_desc;这个角色花费了他绝大多数的夜晚来观测天空，偶尔会有一些奇怪的仪器从他的口袋掉下来。;;;;;;;;;;x
 astronomical_insights_3;星光闪耀的眼睛;;;;;;;;;;x
 astronomical_insights_3_desc;这个角色把大部分时间都花在研究中，观察他们经常看到的天空，背诵着奇怪的算式。;;;;;;;;;;x
-astronomical_insights_4;恒星导航仪;;;;;;;;;;x
+astronomical_insights_4;星象仪;;;;;;;;;;x
 astronomical_insights_4_desc;这个角色已经成为一位天体现象的专家，他们的知识受到了同伴的高度重视。;;;;;;;;;;x
 increase_astronomical_insight_tt;你的星象知识增加了.\n;;;;;;;;;;x
 quest_hermetics_observe_sky;观星;;;;;;;;;;x
@@ -5308,7 +5308,7 @@ opinion_out_of_touch_mild;失去联系;;;;;;;;;;x
 opinion_bad_parent;不良父母;;;;;;;;;;x
 opinion_forgot_important_occasion;遗忘的时刻;;;;;;;;;;x
 opinion_forgot_important_occasion_mild;遗忘的时刻;;;;;;;;;;x
-failed_to_predict_star_fall;预测 失败;;;;;;;;;;x
+failed_to_predict_star_fall;预测失败;;;;;;;;;;x
 failed_to_predict_star_fall_desc;这个角色的自尊心在一次失败的公开预言星坠的活动中遭到了严重打击。;;;;;;;;;;x
 EVTDESC_MNM_1829;致[Root.GetFromThisHermeticsRank][Root.GetFirstName]，\n\n亲爱的同事，在我的研究过程中，我通过观星，发现了最迷人的现象。我坚信宇宙的基本规律隐藏在其中某个地方。为了达到更高层次的认知，您应该听取我的建议并仔细研究星辰。\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank];;;;;;;;;;x
 EVTDESCA_MNM_1837;在经过许多天的观星后，我确信云层后面正在发生许多事情。但为了我的其他职责，我可能要放弃这方面的努力了。;;;;;;;;;;x
@@ -5362,7 +5362,7 @@ EVTDESC_MNM_1830;我必须收集仪器和巨著，来研究星星到来的背后
 EVTOPTA_MNM_1830;现在我可以仔细地观星了。;;;;;;;;;;x
 EVTDESC_MNM_1850;很难得有一个完全晴朗的夜空来观察，但今晚的天气条件是完美的。我微笑着，开始仔细地记录下天体的模式。我感到一股能量汹涌澎湃我从来没有感受到如此壮观的景象，那是我自己的星座[Root.GetWesternZodiacSign]的景象我可以感觉到，我通向自然要素的联系比以往任何时候都要强大。;;;;;;;;;;x
 EVTOPTA_MNM_1850;多么令人振奋！;;;;;;;;;;x
-EVTDESC_MNM_5100;参加辩论是一个耗费精力的过程。自从我来到这里以后，我从没能好好睡一觉。要么我因为背部的灼痛无法入睡，要么像昨天我被非辩论主题的大声喧哗吵醒。这样的日子里，我只渴望一个温暖舒适的床。;;;;;;;;;;x
+EVTDESC_MNM_5100;参加辩论是一个耗费精力的过程。自从我来到这里以后，我从没能好好睡一觉。要么我因为背部的灼痛无法入睡，要么像昨天我被辩论的大声喧哗吵醒。这样的日子里，我只渴望一个温暖舒适的床。;;;;;;;;;;x
 EVTOPTA_MNM_5100;这些住宿条件是最差的……;;;;;;;;;;x
 EVTOPTB_MNM_5100;我受不了了。我要回家！;;;;;;;;;;x
 EVTOPTC_MNM_5100;我应该利用这时间做些有益的事情。;;;;;;;;;;x
@@ -5473,7 +5473,7 @@ EVTOPTA_MNM_1906;只有神能教我。;;;;;;;;;;x
 EVTOPTB_MNM_1906;恶魔没有错，是吗？;;;;;;;;;;x
 EVTDESC_MNM_1907;神的启示不是你能轻易实现的。我已经取得了一些进展，但进展缓慢，我才刚刚触及表面。以这样的速度学习下去，我怎么才能获得真理？;;;;;;;;;;x
 EVTOPTA_MNM_1907;我想只有[Root.Religion.GetHighGodName]会认为我值得。;;;;;;;;;;x
-stargazer;占星术士;;;;;;;;;;x
+stargazer;占星师;;;;;;;;;;x
 theoretical_alchemist;理论炼金术师;;;;;;;;;;x
 theoretical_alchemist_desc;一位更喜欢理论性研究方法的炼金术师。;;;;;;;;;;x
 experimenting_alchemist;实验炼金术师;;;;;;;;;;x
