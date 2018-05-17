@@ -434,7 +434,7 @@ MAPMODE_DYNASTY_DESC;这个地图模式显示欧洲各大统治家族;;;;;;;;;;x
 MAPMODE_OPINIONS;§Y好感地图§!;;;;;;;;;;x
 MAPMODE_OPINIONS_DESC;这个地图模式显示其他统治者对被选中者的好感;;;;;;;;;;x
 THREAT_IMPRISONED;被拘禁;;;;;;;;;;x
-EVTDESC3406;教堂装了一批非常美丽的彩色玻璃窗.当我和[From.GetTitledFirstName]注视着玻璃时，牧师走过来询问我们的感想。我谈论着窗户的象征作用，然后[From.GetTitledFirstName]只是重复了我的观点。;;;;;;;;;;x
+EVTDESC3406;教堂装了一批非常美丽的彩色玻璃窗。当我和[From.GetTitledFirstName]注视着玻璃时，牧师走过来询问我们的感想。我谈论着窗户的象征作用，然后[From.GetTitledFirstName]只是重复了我的观点。;;;;;;;;;;x
 EVTTOOLTIPKILLCHARACTER;阴谋被发现;;;;;;;;;;x
 EVTDESC72015;客人终于来了！一切就绪，厨子日以继夜地准备了美食，城堡也装饰得光鲜亮丽。;;;;;;;;;;x
 EVTDESC74045;[Root.Location.GetName]的当地贵族抱怨称，夏季集市中有太多农民涌入了城市。;;;;;;;;;;x
@@ -450,7 +450,7 @@ b_haltalen;霍尔托伦;;;;;;;;;;x
 DELETE;删除;;;;;;;;;;x
 obj_have_a_son_desc;[This.GetTitledFirstName]希望抱儿子。;;;;;;;;;;x
 obj_have_a_daughter_desc;[This.GetTitledFirstName]希望抱女儿。;;;;;;;;;;x
-YOUKICKED;你被主机踢出游戏;;;;;;;;;;x
+YOUKICKED;你被主机踢出游戏。;;;;;;;;;;x
 TIP_KICK_INSTANT;从游戏中踢出;;;;;;;;;;x
 TIP_BAN_INSTANT;禁止参加游戏;;;;;;;;;;x
 EVTDESC4114;我四处奔走督促每个人努力工作，在个人到达前准备好宴会的一切事项。我不耐烦地等待着[From.GetTitledFirstName]，一边尽力保证每一位客人感到舒适，最后来到我的桌前。;;;;;;;;;;x
@@ -460,12 +460,12 @@ EVTOPCF4114;[From.GetSheHeCap]告诉我[From.GetHerHim]接到我的邀请后有�
 EVTTOOLTIP8100;收到一封回信;;;;;;;;;;x
 volly_harass_tactic;齐射骚扰战术;;;;;;;;;;x
 harras_swarm_tactic;密集骚扰战术;;;;;;;;;;x
-EVTDESC20101;领主大人，我在[FromFrom.Location.GetName]的任务取得了成功！在我拜访[From.GetBestName]的宫廷时，我成功使[From.GetHerHim]理解了您是多么优雅而爱好和平的君主。随后[From.GetSheHe]表达了[From.GetHerHis]敬意.\n\n您谦卑的[Root.GetChancellorName]，\n[Root.job_chancellor.GetTitledFirstName];;;;;;;;;;x
+EVTDESC20101;领主大人，我在[FromFrom.Location.GetName]的任务取得了成功！在我拜访[From.GetBestName]的宫廷时，我成功使[From.GetHerHim]理解了您是多么优雅而爱好和平的君主。随后[From.GetSheHe]表达了[From.GetHerHis]敬意。\n\n您谦卑的[Root.GetChancellorName]，\n[Root.job_chancellor.GetTitledFirstName];;;;;;;;;;x
 EVTDESC1910;我怀疑[Root.Religion.GetRandomGodName]是否真实存在。[Root.Guardian.GetFullName]也许会知道？;;;;;;;;;;x
-PROV342;阿格里真托;;;;;;;;;;x
-c_agrigento_adj;阿格里真托;;;;;;;;;;x
+PROV342;吉尔真蒂;;;;;;;;;;x
+c_agrigento_adj;吉尔真蒂;;;;;;;;;;x
 opinion_refused_guardianship;拒绝成为监护人;;;;;;;;;;x
-AIREASON_NO_REASON;没有强迫理由;;;;;;;;;;x
+AIREASON_NO_REASON;没有迫切理由;;;;;;;;;;x
 AIREASON_TOO_LOW_RANK_TO_ASK;等级过低;;;;;;;;;;x
 INTERACTION_REQUIRES_CHILD_WITH_NO_GUARDIAN;双方都必须在宫廷中有适龄儿童;;;;;;;;;;x
 EVTDESC220;我很高兴同意[Root.GetTitledFirstName]与[New.GetTitledFirstName]成为监护人和被监护人的关系。;;;;;;;;;;x
@@ -473,33 +473,33 @@ EVTDESC221;恐怕我不能同意[Root.GetTitledFirstName]与[New.GetTitledFirstN
 EVTDESC8701;致伟大的[Root.GetTitledFirstName]，\n您的智慧和仁慈被广为传颂。条顿骑士团希望在您对抗异教徒的英勇斗争里助您一臂之力。只要您转让一个边郡给骑士团，我们就能在这一地区获得立足点，以更好的对抗异教徒。;;;;;;;;;;x
 EVTOPTB8501;好主意，但是现在不行……;;;;;;;;;;x
 EDUCATE_CHARACTER_INTERACTION_0;选择一名要接受教育的儿童。;;;;;;;;;;x
-EDUCATE_CHARACTER_INTERACTION_1;从§Y[Recipient.GetBestName]§!的宫廷中选择一位监护人。;;;;;;;;;;x
+EDUCATE_CHARACTER_INTERACTION_1;从§Y[Recipient.GetBestName]§W的宫廷中选择一位监护人。;;;;;;;;;;x
 EDUCATE_CHARACTER_INTERACTION_1B;从我们的宫廷中选择一位监护人。;;;;;;;;;;x
 EDUCATE_CHARACTER_INTERACTION_3;从我们的宫廷中选择一名儿童。;;;;;;;;;;x
-EDUCATE_CHARACTER_INTERACTION_3B;从§Y[Recipient.GetBestName]§!的宫廷中选择一名儿童。;;;;;;;;;;x
-EDUCATE_CHARACTER_INTERACTION_4;§Y[Recipient.GetTitledFirstName]§!对§Y[Actor.GetTitledFirstName]§!的好感上升§G$OPINION$§!。;;;;;;;;;;x
-EDUCATE_CHARACTER_INTERACTION_4B;§Y[AdultExtra.GetTitledFirstName]§!对§Y[Actor.GetTitledFirstName]§!的好感上升§G$OPINION$§!。;;;;;;;;;;x
-EDUCATE_CHARACTER_INTERACTION_5;§Y[ChildExtra.Guardian.GetBestName]§!对§Y[Actor.GetTitledFirstName]§!的好感下降§R$OPINION$§!。;;;;;;;;;;x
+EDUCATE_CHARACTER_INTERACTION_3B;从§Y[Recipient.GetBestName]§W的宫廷中选择一名儿童。;;;;;;;;;;x
+EDUCATE_CHARACTER_INTERACTION_4;§Y[Recipient.GetTitledFirstName]§W对§Y[Actor.GetTitledFirstName]§W的好感度上升 §G$OPINION$§W。;;;;;;;;;;x
+EDUCATE_CHARACTER_INTERACTION_4B;§Y[AdultExtra.GetTitledFirstName]§W对§Y[Actor.GetTitledFirstName]§W的好感度上升 §G$OPINION$§W。;;;;;;;;;;x
+EDUCATE_CHARACTER_INTERACTION_5;§Y[ChildExtra.Guardian.GetBestName]§W对§Y[Actor.GetTitledFirstName]§W的好感度下降  §R$OPINION$§W。;;;;;;;;;;x
 EDUCATE_CHARACTER_INTERACTION_ACCEPT_SETUP;同意成为监护人;;;;;;;;;;x
-EDUCATE_CHARACTER_INTERACTION_ACCEPT_LOG;§Y[AdultExtra.GetBestName]§!成为了§Y[ChildExtra.GetBestName]§!的监护人。;;;;;;;;;;x
+EDUCATE_CHARACTER_INTERACTION_ACCEPT_LOG;§Y[AdultExtra.GetBestName]§W成为了§Y[ChildExtra.GetBestName]§W的监护人。;;;;;;;;;;x
 EDUCATE_CHARACTER_INTERACTION_DECLINE_SETUP;拒绝成为监护人;;;;;;;;;;x
-EDUCATE_CHARACTER_INTERACTION_DECLINE_LOG;§Y[AdultExtra.GetBestName]§!拒绝成为§Y[ChildExtra.GetBestName]§!的新监护人。;;;;;;;;;;x
+EDUCATE_CHARACTER_INTERACTION_DECLINE_LOG;§Y[AdultExtra.GetBestName]§W拒绝成为§Y[ChildExtra.GetBestName]§W的新监护人。;;;;;;;;;;x
 EDUCATE_CHARACTER_INTERACTION_LETTER;我们提议[AdultExtra.GetBestName]成为小[ChildExtra.GetBestName]的监护人及导师，从而使[ChildExtra.GetSubjectPronoun]成为一名合格的[AdultExtra.Culture.GetName][AdultExtra.Religion.GetName]。;;;;;;;;;;x
 TECH_CONSTRUCTION;建筑;;;;;;;;;;x
 b_szczyrzycz;什哲日茨;;;;;;;;;;x
-EVTDESC30031;;;;;;;;;;;x
+EVTDESC30031;我的囚犯[prisoner_spouse.GetTitledFirstName]的配偶[outside_spouse.GetTitledFirstName]写信给我，恳求我在[outside_spouse.GetHerHis]领地见[outside_spouse.GetHerHim]。[outside_spouse.GetSheHeCap]求我发发慈悲看在一大笔钱的份上放了[outside_spouse.GetHerHis]配偶，但[outside_spouse.GetSheHe]显然这么多钱。;;;;;;;;;;x
 EVTOPTA30031;这没什么好谈的;;;;;;;;;;x
-EVTTOOLTIP30036;[outside_spouse.GetTitledFirstName]将因视图解救 [prisoner_spouse.GetTitledFirstName]被警告;;;;;;;;;;x
-EVTDESC3230;后来我对我的[Root.GetLordSpiritualName][Root.job_spiritual.GetTitledFirstName]注意到我的错误并规谏之这件事深以为荣。;;;;;;;;;;x
+EVTTOOLTIP30036;[outside_spouse.GetTitledFirstName]将因视图解救[prisoner_spouse.GetTitledFirstName]被警告;;;;;;;;;;x
+EVTDESC3230;后来我对我的[Root.GetLordSpiritualName][Root.job_spiritual.GetTitledFirstName]注意到这件事并规谏之深以为荣。;;;;;;;;;;x
 EVTOPTE3655;我的[Root.GetLordSpiritualName]，[Root.job_spiritual.GetTitledFirstName]，害怕在野外狩猎！;;;;;;;;;;x
-EVTDESC30059;[Root.Religion.GetName]教会的人不好打交道. 我需要确保得到他们的保佑，我同时向我的妻子[Root.Spouse.GetFirstName]和我的[Root.GetLordSpiritualName][Root.job_spiritual.GetFullName]寻求如何获取他们信任的建议;;;;;;;;;;x
-EVTDESC30072;我和一位男性廷臣的关系非比寻常，但我害怕我会失去他，如果我不能找到让我的丈夫[Root.Spouse.GetFirstName]辞退[Root.GetLordSpiritualName][Root.Spouse.job_spiritual.GetFullName]，并任命我的朋友[Root.GetLordSpiritualName]接任的方法。;;;;;;;;;;x
+EVTDESC30059;[Root.Religion.GetName]教会的人不好打交道。我需要确保得到他们的保佑，我同时向我的妻子[Root.Spouse.GetFirstName]和我的[Root.GetLordSpiritualName][Root.job_spiritual.GetFullName]寻求如何获取他们信任的建议。;;;;;;;;;;x
+EVTDESC30072;我和一位男性廷臣的关系非比寻常，但我害怕如果我不能找到让我的丈夫[Root.Spouse.GetFirstName]辞退[Root.GetLordSpiritualName][Root.Spouse.job_spiritual.GetFullName]，并任命我的朋友[Root.GetLordSpiritualName]接任的方法，我会失去他。;;;;;;;;;;x
 EVTDESC30073;我注意到[Root.Spouse.GetFirstName]对一位廷臣的钟爱，也时常听到她盛赞其[Player.Religion.GetPietyName]，所以当她试图说服我任命他为新的[Root.GetLordSpiritualName]时我毫不惊讶。问题在于，[Root.job_spiritual.GetFullName]德高望重，如果我满足[Root.Spouse.GetFirstName]的愿望，很多人会表示不满。;;;;;;;;;;x
 EVTOPTA30073;我会任命[Root.Spouse.GetFirstName]的朋友当[Root.GetLordSpiritualName];;;;;;;;;;x
 EVTDESC30074;我知道[Root.GetLordSpiritualName][Root.Spouse.job_spiritual.GetFullName]德高望重，如果我的丈夫任命我的朋友为[Root.GetLordSpiritualName]，很多人会表示不满并责备[Root.Spouse.GetFullName]。但是我才不管，我只是在宫廷中需要一个朋友！;;;;;;;;;;x
 EVTOPTA30074;好消息！我的朋友成为[Root.GetLordSpiritualName]了！;;;;;;;;;;x
-EVTTOOLTIP69089;所有廷臣都将指导[Root.GetTitledFirstName]不信任[Root.GetLordSpiritualName][This.GetTitledFirstName];;;;;;;;;;x
-EVTDESC69089;[From.GetTitledFirstName]不信任我，[From.GetHerHis] [From.GetLordSpiritualName]使宫廷中每一个人都不喜欢我！;;;;;;;;;;x
+EVTTOOLTIP69089;所有廷臣都将知道[Root.GetTitledFirstName]不信任[Root.GetLordSpiritualName][This.GetTitledFirstName];;;;;;;;;;x
+EVTDESC69089;[From.GetTitledFirstName]不信任我，[From.GetHerHis][From.GetLordSpiritualName]使宫廷中每一个人都不喜欢我！;;;;;;;;;;x
 EVTDESC75004;这里没有比我的[Root.GetLordSpiritualName][Root.job_spiritual.GetTitledFirstName]能够更好的提高教会对我的好感、或者是教导我成为一名更虔诚的[Root.job_spiritual.GetManWoman]人的人选了！;;;;;;;;;;x
 EVTDESC75052;[Root.GetLordSpiritualName][From.GetTitledFirstName]在我的宫廷中发现了一个异端，并建议我将其流放，使异端永远在死一般的痛苦中，无法回到家乡。;;;;;;;;;;x
 EVTDESC75054;如果领主对我的话置若罔闻，我当[From.GetLordSpiritualName]有什么好处？尽管我百般恳求[From.GetTitledFirstName]，异端还是没有被烧死在火刑柱上。;;;;;;;;;;x
@@ -507,12 +507,12 @@ EVTDESC20000;大人，很荣幸告诉您我在[From.Location.GetName]的任务�
 EVTDESC20011;我的大人，我要向您报告一个好消息，您误入歧途的臣民[From.GetTitledName]已经皈依了[From.Religion.GetName]。赞美[From.Religion.GetRandomGodName]！\n\n您谦卑的[Root.GetLordSpiritualName]，\n[Root.job_spiritual.GetTitledName];;;;;;;;;;x
 EVTDESC20012;我的领主，我已被别省的[From.GetLordSpiritualName]说服，皈依了[From.Religion.GetName]！\n\n您谦卑的仆人，\n[From.GetTitledName];;;;;;;;;;x
 EVTDESC20023;[Root.GetTitledName]，您的[Root.GetLordSpiritualName][From.GetTitledName]在[From.Location.GetName]传播神圣的信仰时，被异教徒杀害。;;;;;;;;;;x
-EVTTOOLTIP20032;写信给[From.Host.GetTitledName]解释[From.Host.GetHerHis] [From.GetLordSpiritualName]的错误;;;;;;;;;;x
+EVTTOOLTIP20032;写信给[From.Host.GetTitledName]解释[From.Host.GetHerHis][From.GetLordSpiritualName]的错误;;;;;;;;;;x
 EVTTOOLTIP20034;一封督责的信被送给了[Root.GetLordSpiritualName];;;;;;;;;;x
 EVTTOOLTIP20036;一封赞美的信被送给了[Root.GetLordSpiritualName];;;;;;;;;;x
 EVTDESC20033;尊敬的[Root.GetTitle]，作为一名虔诚的[From.Religion.GetName]，我请求您的原谅！我的[Root.GetLordSpiritualName]的武断结论不会再使你蒙受冤屈，我将会以个人名义保证你的[Player.Religion.GetPietyName]真实不虚。\n您谦卑的[From.GetTitle]，\n[From.GetTitledName];;;;;;;;;;x
 EVTDESC20036;我的[Root.GetLordSpiritualName]，你展示的证据充足而令人信服，你毫无疑问找到了一个真正的异端。干得好！\n\n您谦卑的[From.GetTitle]，\n[From.GetTitledName];;;;;;;;;;x
-EVTDESC20038;动荡的 [From.Location.GetName] 传来消息! [From.Liege.PrimaryTitle.GetName] 的 [Root.GetLordSpiritualName] 正在试图铲除异端并转化当地信仰，但是不满的农民揭竿而起了.;;;;;;;;;;x
+EVTDESC20038;动荡的[From.Location.GetName]传来消息！[From.Liege.PrimaryTitle.GetName]的[Root.GetLordSpiritualName]正在试图铲除异端并转化当地信仰，但是不满的农民揭竿而起了。;;;;;;;;;;x
 EVTDESC20039;大人，我不得不向您汇报[From.Location.GetName]的坏消息。我根除异端，使当地人民皈依的努力遭到了挫折，农民正在武装自己。恐怕我们将很快面对一场叛乱。\n\n您谦卑的[Root.GetLordSpiritualName]，\n[From.GetTitledName];;;;;;;;;;x
 EVTDESC20071;大人，我有一个来自[From.Location.GetName]的好消息！在我拜访[From.GetBestName]的宫廷时，我成功使[From.GetHerHis]耳朵里充满关于[From.GetHerHis]宗教领袖的恶毒流言。他们的关系被彻底破坏，可以预料到未来绝对没有好事会发生。\n\n您谦卑的[Root.GetLordSpiritualName]，\n[Root.job_spiritual.GetTitledName];;;;;;;;;;x
 EVTDESC20260;主上，待在[From.Location.GetName]的时候我发现了一个大哲学家，他同意帮助我们在省份内加强文化建设。一经您的允许我就会雇用他。\n\n您谦卑的[Root.GetLordSpiritualName]，\n[From.GetTitledName];;;;;;;;;;x
@@ -522,7 +522,7 @@ EVTOPTA73231;[From.GetSheHeCap]现在是我的新[Root.GetLordSpiritualName];;;;
 EVTDESC73232;我的领主[From.GetBestName]不太满意我作为[Root.PrimaryTitle.GetFullName]的[From.GetLordSpiritualName]的表现，正在考虑撤换我……;;;;;;;;;;x
 EVTDESC73233;已过了足够的时间了，我理应成为[Root.PrimaryTitle.GetFullName]的[Root.Liege.GetLordSpiritualName]，[Root.Liege.GetTitledFirstName]将任命我！;;;;;;;;;;x
 EVTOPTA73234;[From.GetSheHeCap]现在是我的新[Root.GetLordSpiritualName];;;;;;;;;;x
-EVTDESC73235;我亲爱的值得信赖的[This.GetBestName]，\n我任命你为[From.PrimaryTitle.GetFullName]的[From.GetLordSpiritualName].\n\n[From.GetBestName];;;;;;;;;;x
+EVTDESC73235;我亲爱的值得信赖的[This.GetBestName]，\n我任命你为[From.PrimaryTitle.GetFullName]的[From.GetLordSpiritualName]。\n\n[From.GetBestName];;;;;;;;;;x
 EVTDESC20270;尊敬的[Root.GetTitle]，我对[From.Religion.GetName]的研习越深，我越感觉应该投奔它的怀抱，并向您展示它的典籍中深藏的智慧。我随信附上了最有趣部分的一些节选……我敦促您跟随我的脚步，皈依[From.Religion.GetName]。\n\n您的[Root.GetLordSpiritualName]，\n[From.GetTitledFirstName];;;;;;;;;;x
 EVTDESC20061;大人，我在[FromFrom.Location.GetName]的任务目前为止大获成功！在我拜访[From.GetBestName]的宫廷时，我成功使[From.GetHerHim]理解您是多么优雅而爱好和平的君主。随后[From.GetSheHe]表达了[From.GetHerHis]敬意。\n\n您谦卑的[Root.GetLordSpiritualName]，\n[Root.job_spiritual.GetTitledName];;;;;;;;;;x
 EVTDESC38060;大人，[Root.Liege.GetTitledName]正深陷财政危机。考虑到我们国库充盈，这似乎是一个扩张领土的绝佳机会。;;;;;;;;;;x
@@ -532,12 +532,12 @@ EVTTOOLTIP38061;将收到提议：;;;;;;;;;;x
 EVTDESC38061;[From.GetTitledName]察觉到了我正深陷财政危机。[From.GetSheHeCap]希望购买我的一些领地。;;;;;;;;;;x
 EVTOPTA38061;这是个好办法;;;;;;;;;;x
 EVTOPTB38061;绝不！;;;;;;;;;;x
-EVTOPTC3012;领地属于国王;;;;;;;;;;x
-STEAL_TECH_EFFECT;§Y$TECH$§!科技在§Y$CAPITAL$§!提高了§Y$VALUE$§!。\n;;;;;;;;;;x
-CHANGE_RANDOM_TECH;§Y$TECH$§!科技在§Y$WHERE$§!改变了$VALUE$\n;;;;;;;;;;x
-b_agricento;阿格里真托;;;;;;;;;;x
+EVTOPTC3012;领地属于国王。;;;;;;;;;;x
+STEAL_TECH_EFFECT;§Y$TECH$§!科技在§Y$CAPITAL$§!提高了 §Y$VALUE$§!。\n;;;;;;;;;;x
+CHANGE_RANDOM_TECH;§Y$TECH$§!科技在§Y$WHERE$§!改变了 $VALUE$\n;;;;;;;;;;x
+b_agricento;吉尔真蒂;;;;;;;;;;x
 buy_indulgence_for_sins_desc;向教宗写信，祈求宽恕我们的罪孽，并提高我们的虔诚。;;;;;;;;;;x
-EVTDESC8026;王权已经限制我们的权利和自由太久，是时候降王权了! 在我的支持者面前，你和你的摄政[Root.Regent.GetTitledName]别无选择只能接受.\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTDESC8026;王权已经限制我们的权利和自由太久，是时候降低王权了！在我的支持者面前，你和你的摄政[Root.Regent.GetTitledName]别无选择只能接受。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA8026;我真的别无选择么……;;;;;;;;;;x
 EVTDESC75030;我的懒惰使我陷入了麻烦，我的领主[Root.Liege.GetTitledFirstName]认为我不是称职的[Root.Liege.GetChancellorName]，因为我尽最大的可能避免做实际工作。[Root.Liege.GetTitledFirstName]是这么认为的，虽然我不这样认为。;;;;;;;;;;x
 EVTOPTA75030;好吧……;;;;;;;;;;x
