@@ -37,7 +37,7 @@ DIVORCE_INTERACTION_2;离婚 §Y[Recipient.GetTitledFirstName]§! 因为 [Recipi
 ASK_FOR_DIVORCE_INTERACTION_2;请求§Y[Actor.RelHead.GetTitledFirstName]§!批准我与§Y[Actor.Spouse.GetFirstName]§!离婚。由于[Actor.Spouse.GetPossPronoun]不忠，这项请求将无法被拒绝并且不会带来任何代价。即便如此，这将依然被[Actor.Spouse.GetPossPronoun]亲戚认为是侮辱。;;;;;;;;;;x
 EVTOPTA301_DESC;[From.GetFirstName]被宣告为拥有完全继承权的合法[From.GetSonDaughter]。\n;;;;;;;;;;x
 EVTOPTB301_DESC;[From.GetFirstName]仍然是不合法的私生子，但被承认为我的[From.GetSonDaughter]并能与别的贵族联姻结盟。一旦[From.GetSubjectPronoun]有了自己的孩子，一个新的家族将会从这一支系中开创出来。\n;;;;;;;;;;x
-EVTOPTC301_DESC;[From.GetFirstName]被谴责为一个不知其父的野种，与我毫无半点正式的关系。\n;;;;;;;;;;x
+EVTOPTC301_DESC;[From.GetFirstName]被指控是一个不知其父的野种，与我毫无半点正式关系。\n;;;;;;;;;;x
 EVTDESC404_KF;我的 [GetFromRelation] [From.GetFirstName]怀孕了，然而我不可能是孩子的父亲！全国都在传这个八卦——所有人都知道 [From.FatherOfUnborn.GetTitledName]才是孩子真正的父亲。;;;;;;;;;;x
 EVTDESC404_2;我的[GetFromRelation][From.GetFirstName]告诉我她怀孕了，但那是不可能的，难道不是吗？;;;;;;;;;;x
 EVTOPTB404;谴责他们两个为叛徒！;;;;;;;;;;x
@@ -120,10 +120,10 @@ HAS_A_FOCUS;拥有一个生活重心;;;;;;;;;;x
 HAS_NO_FOCUS;没有生活重心;;;;;;;;;;x
 SET_FOCUS_EFFECT;$CHAR$以§Y$FOCUS$§!为生活重心\n;;;;;;;;;;x
 focus_rulership_title;统治;;;;;;;;;;x
-focus_rulership_desc;[This.GetTitledFirstName]决定花费[This.GetPossPronoun]时间和精力到统治上，以期治理好自己的国家和领地。;;;;;;;;;;x
+focus_rulership_desc;[This.GetTitledFirstName]花费[This.GetPossPronoun]时间和精力在统治上，以期治理好自己的领地。;;;;;;;;;;x
 RULERSHIP_FOCUS;统治生活重心;;;;;;;;;;x
 focus_business_title;商业;;;;;;;;;;x
-focus_business_desc;[This.GetTitledFirstName]与市民们和商人们亲近，试图找到生钱之道。;;;;;;;;;;x
+focus_business_desc;[This.GetTitledFirstName]与市民们和商人们亲近，试图找到生财之道。;;;;;;;;;;x
 BUSINESS_FOCUS;商业生活重心;;;;;;;;;;x
 focus_seduction_title;勾引;;;;;;;;;;x
 focus_seduction_desc;[This.GetTitledFirstName]为了刺激和权力而磨练[This.GetPossPronoun]诱惑技巧。这个生活重心解锁§Y勾引§!这一互动选项，让你勾引合适的「猎物」。;;;;;;;;;;x
@@ -172,7 +172,7 @@ HAS_ANY_OPINION_MOD;任何人对你有「§Y$MOD$§!」这一好感修正;;;;;;;
 HAS_NO_OPINION_MOD;没有人对你有「§Y$MOD$§!」这一好感修正;;;;;;;;;;x
 AGE_DIFF_AT_LEAST;年龄差异至少有;;;;;;;;;;x
 AGE_DIFF_LESS_THAN;年龄差异少于;;;;;;;;;;x
-EVTTITLE_WOL_55;一个肮脏的秘密;;;;;;;;;;x
+EVTTITLE_WOL_55;肮脏的秘密;;;;;;;;;;x
 EVTDESC_WOL_55;就在前几天 - 我如常地潜伏了起来 - 我把[FromFrom.GetTitledName]和我的[GetFromRelation][From.GetFirstName]抓个现行！由于沉浸在激情之中，他们并没有注意到我，但我依然感到非常震惊！;;;;;;;;;;x
 EVTDESC_WOL_55_CR;就在前几天 - 我如常地潜伏了起来 - 我把[FromFrom.GetTitledName]和我的[GetFromRelation][From.GetFirstName]抓个现行！我简直不敢相信......[GetFromVsFromFromRelation]和[GetFromFromVsFromRelation]！他们并没有注意到我，但我依然感到非常震惊！;;;;;;;;;;x
 EVTDESC_WOL_55_M_HOMO;就在前几天 - 我如常地潜伏了起来 - 我发现[FromFrom.GetTitledName]和我的[GetFromRelation][From.GetFirstName]正在做男人之间不应该做的事情！他们并没有注意到我，但我依然感到非常震惊！;;;;;;;;;;x
@@ -235,8 +235,8 @@ EVTOPTA_WOL_103;这样做是值得的！;;;;;;;;;;x
 EVTOPTB_WOL_103;不，我太过惧怕[Root.Religion.GetRandomGodName]了。;;;;;;;;;;x
 EVTDESC_WOL_104;社会大众可能对我这一偏爱保持反对的态度，但冒着丑闻的风险，我依然要勾引[From.GetTitledFirstName]。;;;;;;;;;;x
 EVTOPTA_WOL_104;骄傲地！;;;;;;;;;;x
-EVTOPTB_WOL_104;这并不值得冒这个险;;;;;;;;;;x
-EVTTOOLTIP_WoL_110;我开始计划我的下一步。;;;;;;;;;;x
+EVTOPTB_WOL_104;这并不值得冒这个险。;;;;;;;;;;x
+EVTTOOLTIP_WoL_110;我开始计划我的下一步;;;;;;;;;;x
 EVTDESC_WOL_111;我勾引的目标 - [FromFromFrom.GetTitledFirstName]- 已经不幸地去世！;;;;;;;;;;x
 EVTOPTA_WOL_111;那好吧，天涯何处无芳草！;;;;;;;;;;x
 EVTDESC_WOL_112;我对[FromFromFrom.GetTitledFirstName]的勾引有了个意想不到的结局 - [FromFromFrom.GetSubjectPronoun]最终被关在大牢里！;;;;;;;;;;x
@@ -265,9 +265,9 @@ EVTOPTB_WOL_202;是时候要放弃了;;;;;;;;;;x
 EVTDESC_WOL_203;我在[From.GetFirstName]的枕头上留下了一封充满芳香的情书以赢得[From.GetObjectPronoun]的芳心.....今天，我发现在厕所里发现了[From.GetPossPronoun]的回函。它毫无玫瑰的芳香。;;;;;;;;;;x
 EVTOPTA_WOL_203;暂时的挫折！;;;;;;;;;;x
 EVTOPTB_WOL_203;该是重新出发的时候了！;;;;;;;;;;x
-EVTTITLE_WOL_210;一份爱的礼物;;;;;;;;;;x
-EVTDESC_WOL_210;我的卧室布满野花！而且，这是什么？一串缀满宝石的美丽项链！这里也有一张纸条：「来自你谦卑的倾慕者，[From.GetTitledFirstName]，它与你迷人的眼睛相配」。;;;;;;;;;;x
-EVTDESC_WOL_210_CR;我的卧室布满野花！而且，这是什么？一串缀满宝石的美丽项链！这里也有一张纸条：「来自你谦卑的倾慕者，[From.GetFirstName]，它与你迷人的眼睛相配」。等等，什么，这不可能是我的[GetFromRelation][From.GetFirstName]？！;;;;;;;;;;x
+EVTTITLE_WOL_210;爱的礼物;;;;;;;;;;x
+EVTDESC_WOL_210;我的卧室布满野花！而且，这是什么？一串缀满宝石的美丽项链！这里也有一张纸条：「来自你谦卑的倾慕者[From.GetTitledFirstName]，它与你迷人的眼睛相配」。;;;;;;;;;;x
+EVTDESC_WOL_210_CR;我的卧室布满野花！而且，这是什么？一串缀满宝石的美丽项链！这里也有一张纸条：「来自你谦卑的倾慕者[From.GetFirstName]，它与你迷人的眼睛相配」。等等，什么，这不可能是我的[GetFromRelation][From.GetFirstName]？！;;;;;;;;;;x
 EVTDESC_WOL_210_M;今天，一个侍从给我带来了一个包装精美的礼物 - 一把镀金柄的完美平衡的剑。随附的纸条上写着：这是一份来自我的倾慕者[From.GetTitledFirstName]的礼物！;;;;;;;;;;x
 EVTDESC_WOL_210_CR_M;今天，一个侍从给我带来了一个包装精美的礼物 - 一把镀金柄的完美平衡的剑。随附的纸条上写着：这是一份来自我的倾慕者[From.GetFirstName]的礼物！我自己的[GetFromRelation][From.GetFirstName]？！;;;;;;;;;;x
 EVTOPTA_WOL_210;多么浪漫！;;;;;;;;;;x
@@ -484,11 +484,11 @@ EVTOPTB_WOL_1028;肮脏! 公开谴责他们!;;;;;;;;;;x
 EVTDESC_WOL_1031;我多疑的 [GetFromRelation] [From.GetFirstName]不相信我的抵赖并雇佣间谍拆穿了我和 [FromFrom.GetTitledFirstNameNoRegnal] 的私情. [From.GetSubjectPronounCap] 公开谴责了我们!;;;;;;;;;;x
 EVTDESC_WOL_1010_F;当我询问她的绯闻对象 [FromFromFrom.GetTitledName] 的事情时 [From.GetFirstName] 很生气，说她简直生活在监狱里而我甚至不给她最基本的自由.;;;;;;;;;;x
 EVTDESC_WOL_1010_M;当我询问她的绯闻对象 [FromFromFrom.GetTitledName] 的事情时 [From.GetFirstName] 很生气 ，说我不仅越来越冷漠和疏远而且还怀疑她.;;;;;;;;;;x
-EVTDESC_WOL_1033;[From.GetBestName]，我的情人 [FromFromFrom.GetTitledFirstNameNoRegnal] 的 [GetFromFromFromVsFromRelation] 令人吃惊地当面问我我和我的情人是否有私情!;;;;;;;;;;x
+EVTDESC_WOL_1033;[From.GetBestName]，我的情人[FromFromFrom.GetTitledFirstNameNoRegnal]的[GetFromFromFromVsFromRelation]令人吃惊地当面问我我和我的情人是否有私情！;;;;;;;;;;x
 EVTDESC_WOL_1033_DISTANT;[From.GetBestName]，我的情人 [FromFromFrom.GetTitledFirstNameNoRegnal] 的 [GetFromFromFromVsFromRelation]  给我写了一封信并直接地问我我和我的情人是否有私情!;;;;;;;;;;x
 EVTOPTA_WOL_1033;断然否认;;;;;;;;;;x
 EVTOPTB_WOL_1033;承认并保证结束这段私情;;;;;;;;;;x
-EVTOPTC_WOL_1033_F;我要杀了那个婊子!;;;;;;;;;;x
+EVTOPTC_WOL_1033_F;我要杀了那个婊子！;;;;;;;;;;x
 EVTOPTC_WOL_1033_M;[GetRootFromInsult]！我要杀了他！;;;;;;;;;;x
 EVTTOOLTIP_WoL_1011_ATTACK;[From.GetTitledFirstNameNoRegnal]被袭击了而且可能伤得很重！;;;;;;;;;;x
 EVTDESC_WOL_1012;[FromFrom.GetTitledFirstNameNoRegnal] 表现得十分惊奇，拒绝承认与我的 [GetFromRelation] [From.GetFirstName]有恋情.;;;;;;;;;;x
