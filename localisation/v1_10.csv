@@ -49,7 +49,7 @@ MAJOR_RIVER_DESC;当跨过一条大河进攻时，进攻者会有一个很大的
 RETCAP_FROM_REALM;来自领地：§G$REALM$§!\n地产：§Y$HOLDINGS$§!\n每块地产的上限：§Y$PERHOLDING$§!\n;;;;;;;;;;x
 RETCAP_FROM_BUILDINGS;来自建筑：§G$AMOUNT$§!\n;;;;;;;;;;x
 RETCAP_FROM_TECH;来自科技：§G+$PERCENT$%§!\n;;;;;;;;;;x
-RETCAP_MINIMUM_RETINUE;最少随从数：§Y$MIN$§!\n;;;;;;;;;;x
+RETCAP_MINIMUM_RETINUE;最少近卫军：§Y$MIN$§!\n;;;;;;;;;;x
 RETCAP_FROM_RELIGION;来自宗教的影响：$AMOUNT$\n;;;;;;;;;;x
 RETCAP_TOTAL;\n总计：§Y$TOTAL$§!;;;;;;;;;;x
 RAISE_COUNTY_LEVIES;征募当地兵员;;;;;;;;;;x
@@ -125,7 +125,7 @@ MORAL_AUTHORITY_OF_RELIGION;§Y$RELIGION$§!信仰的宗教权威:§Y$AUTHORITY$
 EVTNAME670;_[Root.Religion.GetName]改革;;;;;;;;;;x
 EVTDESC670;古老的 [Root.Religion.GetName]宗教已经被证明无法抵御十字架与月亮的冲击.比起完全放弃旧模式，[Root.GetTitledName]跟一些最有势力的牧师已经决定对 [Root.Religion.GetName]信仰进行改革.随着新的礼拜式的编排，一部圣经跟在一个领导者领导下的教廷严格等级制度也面世了，他们希望通过对[Root.Religion.GetName]信仰的改革，可以更好地对抗外国宗教信仰!;;;;;;;;;;x
 EVTOPTA670;为了 [Root.Religion.GetRandomGodName]!;;;;;;;;;;x
-EVTOPTB670;迎接改革!;;;;;;;;;;x
+EVTOPTB670;接受改革！;;;;;;;;;;x
 EVTOPTC670;老方法才是最好的;;;;;;;;;;x
 EVTOPTD670;他们还是野蛮人！;;;;;;;;;;x
 NUM_CULTURE_REALM_PROVS_LESS;领土内少于§Y$NUM$§! 个§Y$CULTURE$§! 封国;;;;;;;;;;x
@@ -1232,9 +1232,9 @@ EVTDESC_TOG_758;雕像已经烧完了，拉西尼尼斯之神已经被打败了�
 opinion_refused_blot;拒绝参加祭祀;;;;;;;;;;x
 opinion_refused_ukon_juhla;拒绝参加乌戈节;;;;;;;;;;x
 opinion_refused_uzgavenes;拒绝参加乌兹加维节;;;;;;;;;;x
-convert_to_swedish;接收瑞典文化;;;;;;;;;;x
+convert_to_swedish;接受瑞典文化;;;;;;;;;;x
 convert_to_swedish_desc;我们的挪威和丹麦兄弟开始接受越来越多的外来习俗，口音也是越来越重了.也许我们也该发展些我们自己的文化了.;;;;;;;;;;x
-convert_to_norwegian;归附挪威文化;;;;;;;;;;x
+convert_to_norwegian;接受挪威文化;;;;;;;;;;x
 convert_to_norwegian_desc;我们的瑞典和丹麦兄弟开始接受越来越多的外来习俗，口音也是越来越重了.也许我们也该发展些我们自己的文化了.;;;;;;;;;;x
 convert_to_danish;接受丹麦文化;;;;;;;;;;x
 convert_to_danish_desc;我们的挪威和瑞典兄弟开始接受越来越多的外来习俗，口音也是越来越重了.也许我们也该发展些我们自己的文化了.;;;;;;;;;;x
@@ -1697,7 +1697,7 @@ opinion_did_not_support_preacher;反对我的牧师;;;;;;;;;;x
 opinion_supported_preacher;同意我的牧师;;;;;;;;;;x
 RELIGIOUS_TITLE_CREATION;创建$TITLE$;;;;;;;;;;x
 EVTDESC39650;你来到了[Root.Location.GetName]给民众带来真正的信仰.;;;;;;;;;;x
-EVTOPTA39650;拥抱[Root.Religion.GetRandomGodName]吧，别太晚了异教徒！;;;;;;;;;;x
+EVTOPTA39650;皈依[Root.Religion.GetRandomGodName]吧，别太晚了异教徒！;;;;;;;;;;x
 EVTTOOLTIP39600;告知了您的到来.;;;;;;;;;;x
 EVTDESC39651;你发现最近当地的异教徒首脑对你的布道格外关注.他是要改宗了吗;;;;;;;;;;x
 EVTOPTA39651;但愿如此……;;;;;;;;;;x

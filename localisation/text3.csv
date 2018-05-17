@@ -55,13 +55,13 @@ DIFFRATING_100;毫无意义换一个吧;;;;;;;;;;x
 WAR_NAME_OTHER_CLAIM;$ORDER$$FIRST_ADJ$为$CLAIMANT$夺取$OTHER_TITLE$战争;;;;;;;;;;x
 WAR_NAME_OTHER_DEJURECLAIM;$ORDER$$FIRST_ADJ$为$CLAIMANT$夺取公爵领$OTHER_TITLE$战争;;;;;;;;;;x
 WAR_NAME_OTHER_DEJUREBARONYCLAIM;$ORDER$$FIRST_ADJ$为$CLAIMANT$夺取伯爵领$OTHER_TITLE$战争;;;;;;;;;;x
-WAR_NAME_OTHER_SUCCESSION;$ORDER$$FIRST_ADJ$于$SECOND$扶植$CLAIMANT$战争;;;;;;;;;;x
+WAR_NAME_OTHER_SUCCESSION;$ORDER$$FIRST_ADJ$在$SECOND$扶植$CLAIMANT$战争;;;;;;;;;;x
 IS_NOT_DE_JURE_LIEGE_OR_ABOVE;不是法理领主或更高级领主;;;;;;;;;;x
 IS_DE_JURE_LIEGE_OR_ABOVE;是法理领主或更高级领主;;;;;;;;;;x
 MAXIMUM_RAISABLE_LEVY;根据法律可动员的征召军：§Y$VALUE$§!;;;;;;;;;;x
-LEVY_PERC_DESC;我们可动员征召军总数的§Y$PERC$%§!;;;;;;;;;;x
-RAISABLE_AMOUNT_LEVY;由于法律(§Y$MAX$%§!)和好感(§Y$OPINION$%§!)，我们可动员征召军数量的§Y$PERCENT$%§!;;;;;;;;;;x
-MINIMUM_RAISABLE_LEVY;不过，我们总是能动员至少§Y$PERCENT$%§!的征召军;;;;;;;;;;x
+LEVY_PERC_DESC;我们可动员征召兵总数的 §Y$PERC$%§W;;;;;;;;;;x
+RAISABLE_AMOUNT_LEVY;由于法律（§Y$MAX$%§!）和好感（§Y$OPINION$%§!），我们可动员征召兵数量的 §Y$PERCENT$%§!;;;;;;;;;;x
+MINIMUM_RAISABLE_LEVY;不过，我们总是能动员至少 §Y$PERCENT$%§! 的征召兵;;;;;;;;;;x
 AI_WE_ARE_TOTALLY_BEATEN;我们被打得屁滚尿流;;;;;;;;;;x
 AI_THIS_IS_GOOD_FOR_US;我能预期到的最好情况;;;;;;;;;;x
 AI_WE_ARE_WINNING_SMALL;胜利的天平正在朝我倾斜;;;;;;;;;;x
@@ -76,12 +76,12 @@ LEDGER_CLAIMS;宣称权;;;;;;;;;;x
 LEDGER_HEADER_VASSALS;你的直属封臣;;;;;;;;;;x
 LEDGER_HEADER_ALL_VASSALS;领地内的所有封臣;;;;;;;;;;x
 LEDGER_HEADER_COURTIERS;你的宫廷;;;;;;;;;;x
-LEDGER_COUNCILLOR;阁臣;;;;;;;;;;x
+LEDGER_COUNCILLOR;内阁成员;;;;;;;;;;x
 LEDGER_COURTIER;廷臣;;;;;;;;;;x
 LEDGER_PRISONER;囚犯;;;;;;;;;;x
 LEDGER_HEADER_REALM_LEVIES;全国征召兵;;;;;;;;;;x
 LEDGER_TOTAL;总数;;;;;;;;;;x
-LEDGER_SETTLEMENT_BUILDING;正在建造：;;;;;;;;;;x
+LEDGER_SETTLEMENT_BUILDING;正在建造;;;;;;;;;;x
 ENDGAME_TEXT_ENDGAME;文艺复兴思潮席卷欧洲，封建时代悄然落下帷幕。;;;;;;;;;;x
 ENDGAME_TEXT_LANDLESS;在扮演了$NUMCHARS$位君主后，你失去了最后一块伯爵领。末代统治者$ENDCHAR$消失在了历史长河之中……;;;;;;;;;;x
 COMBATEND_PIETY_LOST;战斗中损失的§Y[Player.Religion.GetPietyName]§!;;;;;;;;;;x
@@ -89,14 +89,14 @@ COMBATEND_WEALTH_STOLEN_LOST;§Y围攻中损失的§Y金币§!;;;;;;;;;;x
 COMBATEND_PRESTIGE_LOST;战斗中损失的§Y威望§!;;;;;;;;;;x
 COMBATEND_PIETY_SIEGE_LOST;§Y围攻中损失的[Player.Religion.GetPietyName]§!;;;;;;;;;;x
 COMBATEND_PIETY_SIEGE;§Y围攻中获得的[Player.Religion.GetPietyName]§!;;;;;;;;;;x
-ASSAULT_DESC;尝试强攻;;;;;;;;;;x
+ASSAULT_DESC;§Y尝试强攻§!;;;;;;;;;;x
 ASSAULT_ALREADY_ASSAULTING;正在强攻;;;;;;;;;;x
 ASSAULT_NOT_LEADING_SIEGE;我们不是围攻的主导者，不能发动强攻;;;;;;;;;;x
 ASSAULT_ENOUGH_DAYS;我们可以发动强攻，但可能会损失惨重;;;;;;;;;;x
-ASSAULT_DAYSREQ;强攻需要的准备时间：§Y$DAYS$§!天;;;;;;;;;;x
+ASSAULT_DAYSREQ;强攻需要的准备时间：§Y$DAYS$§! 天;;;;;;;;;;x
 ASSAULT_FORTLEVEL_DAYS;取决于要塞等级的的基础天数：§Y$DAYS$§!;;;;;;;;;;x
 ASSAULT_RELATIVE_SIZE;因兵强马壮而减少的准备时间：$PERC$;;;;;;;;;;x
-ASSAULT_NOT_ENOUGH_DAYS;我们还需§Y$DAYS_LEFT$§!天来建造攻城武器;;;;;;;;;;x
+ASSAULT_NOT_ENOUGH_DAYS;我们还需 §Y$DAYS_LEFT$§! 天来建造攻城武器;;;;;;;;;;x
 BASE_TROOP_VALUE_GARRISON;卫戍部队基础规模：$VALUE$;;;;;;;;;;x
 MODIFIED_TROOP_VALUE_GARRISON;卫戍部队最终规模：§Y$VALUE$§!;;;;;;;;;;x
 occupied;新近征服;;;;;;;;;;x
@@ -104,35 +104,35 @@ occupied_different_religion;新近征服（不同宗教）;;;;;;;;;;x
 occupied_different_religiongroup;新近征服（不同宗教组）;;;;;;;;;;x
 occupied_different_culture;新近征服（不同文化）;;;;;;;;;;x
 occupied_different_culturegroup;新近征服（不同文化组）;;;;;;;;;;x
-UNITVIEW_RAISABLE_DESC;已动员 / 未动员 / 总数;;;;;;;;;;x
+UNITVIEW_RAISABLE_DESC;已动员/未动员/总数;;;;;;;;;;x
 tut_menu_9;介绍;;;;;;;;;;x
 tut_menu_9_description;本教程将向您介绍王国风云II最基础的部分。;;;;;;;;;;x
 tut_menu_0;封建制度;;;;;;;;;;x
 tut_menu_0_description;了解封建头衔的等次秩序;;;;;;;;;;x
 tut_1b_2;在右上方，你可以看到你能直辖的领地上限。如果你超过了该上限，你会遭到税收惩罚效果，封臣也会变得不喜欢你。;;;;;;;;;;x
 tut_1b_3;为防止此种情况发生，可通过将领地头衔封给臣下，以确保你的直辖领地不超过上限。请点击一块伯爵领。;;;;;;;;;;x
-tut_1b_4;产业;;;;;;;;;;x
-tut_1b_5;一块伯爵领可有不同种类的产业。这取决于你在该伯爵领上营造何种产业，不同产业所得到税金和部队类型也不同。;;;;;;;;;;x
+tut_1b_4;地产;;;;;;;;;;x
+tut_1b_5;一块伯爵领可有不同种类的地产。这取决于你在该伯爵领上营造何种地产，不同地产所得到税金和部队类型也不同。;;;;;;;;;;x
 chapter_name_9;介绍;;;;;;;;;;x
 chapter_name_0;封建制度;;;;;;;;;;x
 CROWN_LAW_DESC;§Y$CROWN_TITLE$§!的王权法适用于§Y$TITLE$§!;;;;;;;;;;x
-HIRE_MERC_DESC;花费§Y$COST$§!金币雇佣§Y$TITLE$§!。（他们会出现在§Y$CAPITAL$§!或其附近）;;;;;;;;;;x
+HIRE_MERC_DESC;花费 §Y$COST$§W 金币雇佣§Y$TITLE$§W。（他们会出现在§Y$CAPITAL$§W或其附近）;;;;;;;;;;x
 SIEGE_LEAD_BY;如果围攻成功，§Y$SETTLEMENT$§!的控制者将会是§Y$TITLE$§!;;;;;;;;;;x
 REORG_DESC;改编部队;;;;;;;;;;x
 REORG_CANCEL_DESC;关闭改编窗口;;;;;;;;;;x
-DEFENDER_LEVY;守城的征召军;;;;;;;;;;x
-DEFENDER_GARRISON;守城的卫戍部队;;;;;;;;;;x
-HINT_SPLASH_MAP;王国风云II拥有全3D的大地图。你可以用鼠标滚轮拉近或拉远镜头，按住鼠标滚轮移动鼠标调整视角。使用退格键backspace可以恢复默认视角。;;;;;;;;;;x
+DEFENDER_LEVY;§Y守城征召兵§!;;;;;;;;;;x
+DEFENDER_GARRISON;§Y守城卫戍部队§!;;;;;;;;;;x
+HINT_SPLASH_MAP;王国风云II拥有全 3D 的大地图。你可以用鼠标滚轮拉近或拉远镜头，按住鼠标滚轮移动鼠标调整视角。按退格键 backspace 可以恢复默认视角。;;;;;;;;;;x
 INTERACTION_REQUIRES_HAS_BETROTHAL;须已订婚;;;;;;;;;;x
 APPOINT_A_NEW;任命一名新§Y$JOB$§!;;;;;;;;;;x
 INTERACTION_REQUIRES_NOT_BASTARDS;双方均不能是私生子;;;;;;;;;;x
 INTERACTION_REQUIRES_NOT_LOWBORN;双方均不能出身卑微;;;;;;;;;;x
-INTERACTION_REQUIRES_CHILD_OF_EDU_AGE;§Y$CHILD$§!需要至少§Y$AGE$§!岁;;;;;;;;;;x
+INTERACTION_REQUIRES_CHILD_OF_EDU_AGE;§Y$CHILD$§!需要至少 §Y$AGE$§! 岁;;;;;;;;;;x
 INTERACTION_REQUIRES_TP_IS_INDEPENDENT;§Y[ThirdPartyCharacter.GetTitledFirstName]§!是独立的;;;;;;;;;;x
-CONFIRM_DISBAND_DESC6;在$TOTAL$名士兵中，只有$NUM$人能返回家乡。;;;;;;;;;;x
-CONFIRM_DISBAND_DESC7;在$TOTAL$艘船中，只有$NUM$艘能返回家乡。;;;;;;;;;;x
+CONFIRM_DISBAND_DESC6;在 $TOTAL$ 名士兵中，只有 $NUM$ 人能返回家乡。;;;;;;;;;;x
+CONFIRM_DISBAND_DESC7;在 $TOTAL$ 艘船中，只有 $NUM$ 艘能返回家乡。;;;;;;;;;;x
 CONFIRM_DISBAND_TITLE_ALL;确定要解散这些部队吗？;;;;;;;;;;x
-CONFIRM_DISBAND_DESC8;$NUM$个单位将解甲归田。;;;;;;;;;;x
+CONFIRM_DISBAND_DESC8;$NUM$ 个单位将解甲归田。;;;;;;;;;;x
 TERRAIN_DESC;地形：§Y$TERRAIN$§!;;;;;;;;;;x
 TERRAIN_BONUS;如果战斗在此处爆发，防御方将获得防御加成;;;;;;;;;;x
 twin_desc;这名角色有幸生为双胞胎之一，双胞胎之间相互好感更高。;;;;;;;;;;x
@@ -141,7 +141,7 @@ EVTOPTA38054;一群蠢货！;;;;;;;;;;x
 LOADING_TIP_31;在均分继承法下，你不会因未分封的儿子而受声望惩罚;;;;;;;;;;x
 LOADING_TIP_32;均分继承法可使你直辖更多领地;;;;;;;;;;x
 LOADING_TIP_33;当抵抗异教徒或异端侵略时，你雇佣的圣战士不花费维护费用;;;;;;;;;;x
-GAVELKIND_DEMESNE_BONUS;均分继承法：§G+$BONUS$§!(§G$PERC$%§!);;;;;;;;;;x
+GAVELKIND_DEMESNE_BONUS;均分继承法：§G+$BONUS$§!（§G$PERC$%§!）;;;;;;;;;;x
 defenderbonus_forest;森林;;;;;;;;;;x
 i_attempted_murder;我尝试谋杀;;;;;;;;;;x
 forest;森林;;;;;;;;;;x
@@ -158,12 +158,12 @@ AIREASON_FIGHTING_OUR_HOLY_WAR;§Y[GetTitledFirstName]§!正在进行[Religion.G
 AIREASON_NO_RELIGIOUS_HEAD;宗教领袖;;;;;;;;;;x
 AIREASON_HIGHER_TIER;更高级;;;;;;;;;;x
 INTERACTION_REQUIRES_NOT_AT_WAR_OR_VASSAL;战争中不能授非封臣予头衔;;;;;;;;;;x
-INTERACTION_REQUIRES_NO_WARS_ACTOR;§Y[Actor.GetTitledFirstName]§! 必须处于和平;;;;;;;;;;x
+INTERACTION_REQUIRES_NO_WARS_ACTOR;§Y[Actor.GetTitledFirstName]§!必须处于和平;;;;;;;;;;x
 INTERACTION_REQUIRES_NOT_CLOSE_RELATIVES;不能近亲结婚;;;;;;;;;;x
 UNIT_UNLOAD_DESC;点击选择船上部队;;;;;;;;;;x
 EVTNAME10100;天摇地动之日;;;;;;;;;;x
 EVTDESC10100;天摇地动，人民哀嚎，屋毁墙塌。一团秽臭的空气扫过村庄，使得火把和篝火上的火焰变得鲜绿数小时之久。修葺颓圮的建筑、从废墟中抢救财物花费了数日，所幸无人伤亡。我慢慢踱过城市，检视建筑并记录需要修补的目标。此时，一个激动的农夫向我跑来，未及向我行礼，告诉我他农场外出现了一个巨大的裂缝。他希望我去检查一下，并请我决定如何处置。;;;;;;;;;;x
-EVTOPTA10100;别烦我;;;;;;;;;;x
+EVTOPTA10100;别烦我。;;;;;;;;;;x
 EVTOPTB10100;当然！给我带路，农夫！;;;;;;;;;;x
 EVTTOOLTIP10101;地狱之门;;;;;;;;;;x
 EVTNAME10101;地狱之门;;;;;;;;;;x
@@ -173,9 +173,9 @@ EVTOPTB10101;我要靠近些查看;;;;;;;;;;x
 EVTTOOLTIP10102;门和受折磨的灵魂;;;;;;;;;;x
 EVTNAME10102;地狱里受折磨的灵魂;;;;;;;;;;x
 EVTDESC10102;烈焰翻腾的裂缝底部似乎传来了哀嚎与尖啸。农夫脸色变得苍白，拒绝再向前哪怕一步。我壮着胆子朝那个地狱的口子走近，向下瞄了一眼。除时不时冒出的炽热石块和齐眉的火舌之外，我什么也看不到。哀嚎与尖啸声似乎越来越大，令我头疼欲裂。我仰面跌倒，感到大地在脚下摇晃。如果不是农夫一把抓住我的手把我拉回，我差点就掉进了洞里。;;;;;;;;;;x
-EVTOPTA10102;不过是个洞罢了，对吧?;;;;;;;;;;x
-EVTOPTB10102;我要这个洞关上。马上!;;;;;;;;;;x
-EVTTOOLTIP10103;总有办法关上洞的，但要怎么做呢?;;;;;;;;;;x
+EVTOPTA10102;不过是个洞罢了，对吧？;;;;;;;;;;x
+EVTOPTB10102;我要这个洞关上。马上！;;;;;;;;;;x
+EVTTOOLTIP10103;总有办法关上洞的，但要怎么做呢？;;;;;;;;;;x
 EVTNAME10103;关闭地狱之门;;;;;;;;;;x
 EVTDESC10103;我给了宫廷中最聪明的人三日，来想出关闭这个似乎通往地狱的地缝的方法。三天之内，他们各自想出了不同的方法。;;;;;;;;;;x
 EVTOPTA10103;驱魔！;;;;;;;;;;x
@@ -188,14 +188,14 @@ EVTOPTD10103;祭上世上最宝贵之物;;;;;;;;;;x
 EVTTOOLTIP10107;献祭关闭地缝;;;;;;;;;;x
 EVTDESC10104;司铎绕着地缝走了好几圈，洒上圣水，重复念诵着「撒旦退散！撒旦退散！」，同时竭力躲避着炽热的石块和喷出的火舌。在第三次驱魔结束后，他跪下开始祈祷，唯一能听清的就是「撒旦退散」……;;;;;;;;;;x
 EVTOPTA10104;我认为这会有奇效！;;;;;;;;;;x
-EVTOPTB10104;这玩意不会奏效的。Try something else;;;;;;;;;;x
+EVTOPTB10104;这玩意不会奏效的。换个招吧;;;;;;;;;;x
 EVTNAME10105;献祭家畜;;;;;;;;;;x
 EVTDESC10105;小母牛们停在地缝前面，拒绝再向前迈动一步。它们注定被推进洞里，凄惨的的哀哞与怨灵的悲号合为一体，被困在深渊中，直到洞底。;;;;;;;;;;x
 EVTOPTA10105;我真心希望这能奏效;;;;;;;;;;x
 EVTOPTB10105;我不信这法子;;;;;;;;;;x
 EVTNAME10106;滚石;;;;;;;;;;x
 EVTDESC10106;工人们一边将一车又一车的石块和砂砾铲进地缝，另一边拼命地避开越来越多的火焰和灼热石块。洞底传来痛苦的尖啸侵袭着工人们，有些人拒绝再干活。我不得不对他们保证说洞里没有任何人被困，不管这洞有多疯狂，也不希望有人下洞去查看。;;;;;;;;;;x
-EVTOPTA10106;接着铲!;;;;;;;;;;x
+EVTOPTA10106;接着铲！;;;;;;;;;;x
 EVTOPTB10106;这是不可能完成的任务;;;;;;;;;;x
 EVTNAME10107;牺牲吾子;;;;;;;;;;x
 EVTDESC10107;一个博学的妇人告诉我，说她在思考如何关闭地缝的三天里见到了一个异象。她说地洞的威胁只有在我将最最珍视的东西投入深渊才可解决，我马上就想到了我的长子。怀着沉重的悲痛，我同意带着我的长子与这妇人在洞边会面。;;;;;;;;;;x
@@ -212,15 +212,15 @@ EVTDESC10109;虽然我们用尽办法，但桀骜不驯的地缝就是不合上�
 EVTOPTA10109;天呐……我现在要怎么办?;;;;;;;;;;x
 EVTTOOLTIP10108;可能会奏效;;;;;;;;;;x
 EVTTOOLTIP10109;可能不会奏效;;;;;;;;;;x
-EVTTOOLTIP30031;试着跟 [prisoner_host.GetTitledFirstName]交谈;;;;;;;;;;x
-EVTTOOLTIP30032;送信给 [outside_spouse.GetFirstName];;;;;;;;;;x
+EVTTOOLTIP30031;试着跟[prisoner_host.GetTitledFirstName]交谈;;;;;;;;;;x
+EVTTOOLTIP30032;送信给[outside_spouse.GetFirstName];;;;;;;;;;x
 EVTTOOLTIP75032;[Root.GetTitledFirstName]严厉地对[This.GetTitledFirstName]训话;;;;;;;;;;x
-PROV27;多赛特;;;;;;;;;;x
+PROV27;多塞特;;;;;;;;;;x
 PROV28;萨默塞特;;;;;;;;;;x
 IS_LANDED;有封地;;;;;;;;;;x
 IS_NOT_LANDED;没有封地;;;;;;;;;;x
 STAT_INTRIGUE_DESC;密谋能力是间谍总管的主要属性。高密谋能力可提高发现阴谋和实施秘密行动（例如暗杀）的成功率。;;;;;;;;;;x
-STAT_STEWARDSHIP_CHAR_DESC;财政能力§Y$VALUE$§W的§Y[GetTitledFirstName]§W被认为是$DESC$管理者。这也会影响你的最大直辖领地规模。;;;;;;;;;;x
+STAT_STEWARDSHIP_CHAR_DESC;财政能力 §Y$VALUE$§W 的§Y[GetTitledFirstName]§W被认为是$DESC$管理者。这也会影响你的最大直辖领地规模。;;;;;;;;;;x
 EVTOPTB39000;太棒了！;;;;;;;;;;x
 HINT_LAW_VIEW_TEXT_3;王国和帝国可以实行王权法。这不仅会影响该国事实上的封臣，还会影响法理上的封臣。但事实国土外的异端和异教徒不受影响。;;;;;;;;;;x
 EVTDESC6212;我的邻居有着附近最性感的臀部，但是耶稣向我耳语说这样做是错误的。;;;;;;;;;;x
@@ -232,8 +232,8 @@ EVTOPTA6214;我会成为主的忠诚战士;;;;;;;;;;x
 EVTDESC6215;我终于意识到我下决断时太缺少思考了。一个声音提醒我，我应该顾全各方利益。;;;;;;;;;;x
 EVTOPTA6215;我会这样做的;;;;;;;;;;x
 EVTDESC6216;我骄傲自满，并因与一切不佳和平淡无奇的事物保持距离而自以为高贵。后来一个声音提醒我，当我尊崇自我时，我实际上是在疏远上帝。;;;;;;;;;;x
-EVTOPTA6216;我意识到我错得多么离谱.;;;;;;;;;;x
-EVTDESC6217;长久以来，我一直在念「飘柔的人有福了，因为他们必承受地土」接着耶稣在我耳边低语，那只是我的圣经上的一个抄写错误。原文是「温柔的人有福了，因为他们必承受地土」;;;;;;;;;;x
+EVTOPTA6216;我意识到我错得多么离谱。;;;;;;;;;;x
+EVTDESC6217;长久以来，我一直在念「飘柔的人有福了，因为他们必承受地土」。接着耶稣在我耳边低语，那只是我的圣经上的一个抄写错误。原文是「温柔的人有福了，因为他们必承受地土」;;;;;;;;;;x
 EVTOPTA6217;那么我会更加温柔的;;;;;;;;;;x
 EVTDESC6218;耶稣的低语最近变得更加狂乱。他担心撒旦正在通过他人间各处的仆人篡改他的言辞。他吩咐我寻找传福音者腓力带来的福音，以使我理解圣母玛利亚的真正地位。;;;;;;;;;;x
 EVTOPTA6218;我会遵从我主旨意;;;;;;;;;;x
@@ -270,14 +270,14 @@ EVTOPTA39026;[Root.Religion.GetRandomGodNameCap]应得赞美！;;;;;;;;;;x
 EVTOPTA50008;[Root.Religion.GetRandomGodNameCap]至仁至慈……;;;;;;;;;;x
 EVTOPTD2100;[Root.Religion.GetRandomGodNameCap]将帮[From.GetHerHim]消除[From.GetHerHis]罪孽！;;;;;;;;;;x
 EVTOPTD2020;[Root.Religion.GetRandomGodNameCap]将从地狱中拯救[From.GetHerHim]！！！;;;;;;;;;;x
-EVTDESC73204;我向[From.GetBestName]承诺[From.GetSheHe]有机会成为[Root.PrimaryTitle.GetFullName]的元帅。现在[From.GetSheHe]为此再次请求我。;;;;;;;;;;x
+EVTDESC73204;我向[From.GetBestName]承诺[From.GetSheHe]有机会成为[Root.PrimaryTitle.GetFullName]的军事总管。现在[From.GetSheHe]为此再次请求我。;;;;;;;;;;x
 EVTDESC73214;我向[From.GetBestName]承诺[From.GetSheHe]有机会成为[Root.PrimaryTitle.GetFullName]的间谍总管。现在[From.GetSheHe]为此再次请求我。;;;;;;;;;;x
-EVTDESC73224;我向[From.GetBestName]承诺[From.GetSheHe]有机会成为[Root.PrimaryTitle.GetFullName]的总管。现在[From.GetSheHe]为此再次请求我。;;;;;;;;;;x
+EVTDESC73224;我向[From.GetBestName]承诺[From.GetSheHe]有机会成为[Root.PrimaryTitle.GetFullName]的财政总管。现在[From.GetSheHe]为此再次请求我。;;;;;;;;;;x
 EVTDESC73234;我向[From.GetBestName]承诺[From.GetSheHe]有机会成为[Root.PrimaryTitle.GetFullName]的[Root.GetLordSpiritualName]。现在[From.GetSheHe]为此再次请求我。;;;;;;;;;;x
 EVTDESC73244;我向[From.GetBestName]承诺[From.GetSheHe]有机会成为[Root.PrimaryTitle.GetFullName]的[Root.GetChancellorName]。现在[From.GetSheHe]为此再次请求我。;;;;;;;;;;x
 tut_4b_6;检查工具条上你的封臣的好感度数值。他们对你的好感由很多事情决定，比如个人外交能力，自由授职法，王权等，另外个人特质之间的相性也会对你们之间的关系造成影响。如果你是耐心的人，而封臣是个易怒的人，你们的关系显然不会很好。;;;;;;;;;;x
 tut_4b_8;基于角色特质的好感修正是永久的。其他因素可能改变角色之间的好感度，但是只要特质不改变，特质修正就不会消失。接下来我们会说明非永久的好感因素。;;;;;;;;;;x
-tut_4b_12;你派遣掌玺大臣到这个郡伪造宣称权来实现目的。这会花费一定时间，你可以在基础战争教程里尝试.;;;;;;;;;;x
+tut_4b_12;你派遣掌玺大臣到这个郡伪造宣称权来实现目的。这会花费一定时间，你可以在基础战争教程里尝试。;;;;;;;;;;x
 tut_4c_5;在你妻子的头像下方有一个蓝底双金环的图标，这个按钮可以允许你为这个角色安排婚姻。点击继续。;;;;;;;;;;x
 tut_4c_5a;选择;;;;;;;;;;x
 tut_4c_6;这里你能看到所有未婚女子的列表。不是所有人都适龄。有些女孩过于年幼，只有双方都满16岁以上才能正式结婚。有些人又太老，已经无法生育后代了。还有些人对你毫无用处。为帮助你决策，善用各种排序按钮。点击下一步继续。;;;;;;;;;;x
@@ -285,7 +285,7 @@ tut_4c_12;这里你可以看到婚姻将对你的威望产生的影响。你也�
 tut_4c_10a;恭喜！;;;;;;;;;;x
 tut_5a_13;等到第二支部队到达后（你可以在部队上悬停鼠标查看到达时间），用鼠标把两支部队圈起来。你首先需要关闭军队细节面板以看到他们。现在你能看到军队窗口上的合并按钮。点击以合并为一支更大的部队。;;;;;;;;;;x
 tut_5c_7;这些部队可以免费雇佣，但只会攻击异教敌人，而且只在十字军期间出现，所以其作用有限。如果你在对抗异教徒或者异端的入侵，他们还不花费维护费。现在动员你的私人部队，然后选择它以继续。;;;;;;;;;;x
-EVTDESC38301;我的皮肤闪闪发亮，发型永远完美，异性都渴望得到我的注意。我获得了性感特质。;;;;;;;;;;x
+EVTDESC38301;我的皮肤闪闪发亮，发型永远完美，异性都渴望得到我的注意。我获得了§Y性感§!特质。;;;;;;;;;;x
 opinion_laughing_at_you;嘲笑你;;;;;;;;;;x
 opinion_tossed_me;漠视我！;;;;;;;;;;x
 opinion_defeated_rebels;击败叛军;;;;;;;;;;x
@@ -299,7 +299,7 @@ b_gamakh;凯马赫;;;;;;;;;;x
 b_parthenay;帕尔特奈;;;;;;;;;;x
 b_harib;哈里卜;;;;;;;;;;x
 EVTTOOLTIP63014;告诉[This.GetTitledFirstName]我对[This.GetPossPronoun]「证据」的感想;;;;;;;;;;x
-EVTDESC36052;[From.GetTitledFirstName]是如此谦逊的封臣，将狩猎中[From.GetHerHis]收获全部归功于。[From.GetSheHeCap]对我的统治大有助益，[From.GetHerHis]谦逊是我们学习的榜样。;;;;;;;;;;x
+EVTDESC36052;[From.GetTitledFirstName]是如此谦逊的封臣，将狩猎中[From.GetHerHis]收获全部归功于我。[From.GetSheHeCap]对我的统治大有助益，[From.GetHerHis]谦逊是我们学习的榜样。;;;;;;;;;;x
 EVTDESC74035;邀请耶路撒冷的犹太杂耍者参加夏季集市是个错误。他们按照不同的节拍蹦跳，尽管竖琴的旋律只有一个。他们不停地跳啊跳啊跳……直到他们中的一个人失去平衡，扑倒在他兄弟的身上，使他们全都栽倒在地。;;;;;;;;;;x
 EVTDESC65060;我长得不如同龄孩子那么高，别人告诉我我是个「矮人」。其他孩子那取笑我，管我叫小地精，并在我靠近他们的时候装作害怕我……;;;;;;;;;;x
 EVTOPTA65060;我要让他们真的害怕！;;;;;;;;;;x
@@ -310,21 +310,21 @@ EVTOPTB65061;逮捕他们的经纪人;;;;;;;;;;x
 EVTOPTC65061;让他们表演，有什么危害呢;;;;;;;;;;x
 EVTDESC65065;宫廷中有个侏儒。作为一个[Root.GetManWoman]中的「巨人」，人们总是要求我通过能把侏儒扔多远来展示我的力量。;;;;;;;;;;x
 EVTOPTA65065;扔矮人;;;;;;;;;;x
-EVTTOOLTIP65066;被[Root.GetTitledFirstName]扔了!;;;;;;;;;;x
+EVTTOOLTIP65066;被[Root.GetTitledFirstName]扔了！;;;;;;;;;;x
 EVTOPTB65065;放过矮人吧;;;;;;;;;;x
 EVTDESC65066;在我反应过来之前，[From.GetTitledFirstName]把我举起来然后扔了出去！幸运的是，我头朝下栽进了一堆干草，没有受到严重的伤，但是我的心灵已经受伤严重了……;;;;;;;;;;x
 EVTOPTA65066;你疯了吗！还是你只是个白痴？！;;;;;;;;;;x
-EVTDESC65070;我平常都小心翼翼地下台阶，畸形的下肢总是使我步履维艰.今天，我不如以往那么小心……;;;;;;;;;;x
+EVTDESC65070;我平常都小心翼翼地下台阶，畸形的下肢总是使我步履维艰。今天，我不如以往那么小心……;;;;;;;;;;x
 EVTOPTA65070;我摔到了台阶底，受了重伤……;;;;;;;;;;x
-EVTDESC65071;我不能随心所欲和其他孩子一起玩，因为我下肢畸形，其他孩子也因此取笑我.他们朝我扔东西，轻轻推我，然后跑开，大笑着说「来抓我呀」……;;;;;;;;;;x
+EVTDESC65071;我不能随心所欲和其他孩子一起玩，因为我下肢畸形，其他孩子也因此取笑我。他们朝我扔东西，轻轻推我，然后跑开，大笑着说「来抓我呀」……;;;;;;;;;;x
 EVTOPTA65071;下次，我的拳头会给他们脸上化个妆！;;;;;;;;;;x
 EVTOPTB65071;我无视他们，希望他们厌倦后散去;;;;;;;;;;x
-EVTDESC65072;我畸形的下肢使我无法使用普通的马鞍，我需要一个带有特殊定做的大号马镫的鞍具.因此当有人弄错了我的马鞍时，我感到很沮丧.;;;;;;;;;;x
+EVTDESC65072;我畸形的下肢使我无法使用普通的马鞍，我需要一个带有特殊定做的大号马镫的鞍具。因此当有人弄错了我的马鞍时，我感到很沮丧。;;;;;;;;;;x
 EVTOPTA65072;惩罚马童;;;;;;;;;;x
 EVTOPTB65072;尝试使用普通马鞍;;;;;;;;;;x
 EVTTOOLTIP65073;从[This.GetHerHis]马上摔了下来;;;;;;;;;;x
 EVTDESC65073;新马镫很不错，直到我平时温驯的马试图把我摔下去。最后它成功了，但是窄小的马镫挂住了我的畸形足，在有人勒住马的缰绳让它停下来之前，我已经被马拖者走了好几码远。;;;;;;;;;;x
-EVTOPTA65073;这看起来一定很可笑!;;;;;;;;;;x
+EVTOPTA65073;这看起来一定很可笑！;;;;;;;;;;x
 EVTDESC65074;我害怕我的畸形足会妨碍我结婚！我不如宫廷里的其他女人那样美丽，我最好不要跳舞，或是做任何会令我失去平衡摔倒在地而成为笑柄的事情。;;;;;;;;;;x
 EVTOPTA65074;我就算下肢畸形也要跳舞！;;;;;;;;;;x
 EVTOPTB65074;我要让父亲给我找一个合适的人！;;;;;;;;;;x
@@ -375,46 +375,46 @@ EVTDESC65106;最近几天我很少口吃，除非我心情低落，灰心丧气�
 EVTOPTA65106;我会练习克服这一点！;;;;;;;;;;x
 EVTOPTB65106;这就是我的日常;;;;;;;;;;x
 EVTOPTC65106;我应该祈祷我的口吃消失;;;;;;;;;;x
-EVTDESC65107;我成功和一位封臣说了几分钟话，没有一次口吃！但当我要向一个廷臣介绍他时，封臣的名字卡在了我的嘴边，我一个字都说不出来了.我只好让另一个人介绍他……;;;;;;;;;;x
+EVTDESC65107;我成功和一位封臣说了几分钟话，没有一次口吃！但当我要向一个廷臣介绍他时，封臣的名字卡在了我的嘴边，我一个字都说不出来了。我只好让另一个人介绍他……;;;;;;;;;;x
 EVTOPTA65107;我当然是故意的了！;;;;;;;;;;x
 EVTOPTB65107;抱歉，我有时会口吃……;;;;;;;;;;x
 EVTOPTC65107;啥？我什么事都做不成？;;;;;;;;;;x
-EVTDESC65110;其、其他小、小孩欺、欺负我！tHe otHeR cHildReN aRe MeaN to Me!;;;;;;;;;;x
+EVTDESC65110;其、其他小、小孩欺、欺负我！;;;;;;;;;;x
 EVTOPTA65110;蠢、蠢货……;;;;;;;;;;x
 EVTOPTB65110;我、我、我走了;;;;;;;;;;x
 cruel_neg;讨厌残暴;;;;;;;;;;x
 cruel_pos;赞赏残暴;;;;;;;;;;x
 EVTOPTB8000;我不会被敲诈！;;;;;;;;;;x
-EVTDESC38302;这肯定是个奇迹，我发S和其他字母的音不再有困难了！我说话不再含混不清。;;;;;;;;;;x
+EVTDESC38302;这肯定是个奇迹，我发S和其他字母的音不再有困难了！我失去了§Y口吃§!特质。;;;;;;;;;;x
 PROV260;梅克伦堡;;;;;;;;;;x
 d_mecklemburg;梅克伦堡;;;;;;;;;;x
 d_mecklemburg_adj;梅克伦堡;;;;;;;;;;x
 c_mecklemburg_adj;梅克伦堡;;;;;;;;;;x
 b_mecklemburg;梅克伦堡;;;;;;;;;;x
 FE_EASE;容易;;;;;;;;;;x
-INTERACTION_REQUIRES_ACTOR_RANSOM;§Y[Actor.GetTitledFirstName]§! 可以支付 §Y$GOLD$§! 的赎金;;;;;;;;;;x
-INTERACTION_REQUIRES_RECIPIENT_INCAPABLE;§Y[Recipient.GetTitledFirstName]§! 是残废;;;;;;;;;;x
+INTERACTION_REQUIRES_ACTOR_RANSOM;§Y[Actor.GetTitledFirstName]§!可以支付 §Y$GOLD$§W 赎金;;;;;;;;;;x
+INTERACTION_REQUIRES_RECIPIENT_INCAPABLE;§Y[Recipient.GetTitledFirstName]§!是无能;;;;;;;;;;x
 SEND_GIFT_INTERACTION_2;送一份价值 §Y$COST$§W¤ 的礼物给§Y[Recipient.GetBestName]§!。§R但这不会更进一步增加[Recipient.GetPossPronoun]好感§!;;;;;;;;;;x
 DYNATREE_BACK_BUTTON;返回上一家族;;;;;;;;;;x
 DYNATREE_NOHEAD_DYNA;这个家族没有在世的成员了，也没有家族领袖。;;;;;;;;;;x
-STARTDATE_GREATER_THAN;游戏开始于或早于§Y$DATE$§!;;;;;;;;;;x
-STARTDATE_NOT_GREATER_THAN;游戏开始晚于§Y$DATE$§!;;;;;;;;;;x
-CURRENTDATE_IS;当前日期是§Y$DATE$§!;;;;;;;;;;x
-CURRENTDATE_IS_NOT;当前日期不是§Y$DATE$§!;;;;;;;;;;x
+STARTDATE_GREATER_THAN;游戏开始于或早于 §Y$DATE$§W;;;;;;;;;;x
+STARTDATE_NOT_GREATER_THAN;游戏开始晚于 §Y$DATE$§W;;;;;;;;;;x
+CURRENTDATE_IS;当前日期是 §Y$DATE$§W;;;;;;;;;;x
+CURRENTDATE_IS_NOT;当前日期不是 §Y$DATE$§W;;;;;;;;;;x
 SUCCESSION_LAWS;继承法;;;;;;;;;;x
-alert_noheir_instant;§Y没有家族继承人!§!;;;;;;;;;;x
+alert_noheir_instant;§Y没有家族继承人！§!;;;;;;;;;;x
 KICK_PLAYER;踢出玩家;;;;;;;;;;x
 GENDER_LAWS;性别法;;;;;;;;;;x
 EVTOPTB5024;我乐在其中;;;;;;;;;;x
 pommeranian;波美拉尼亚人;;;;;;;;;;x
 d_pommerania;波美拉尼亚;;;;;;;;;;x
 d_pommerania_adj;波美拉尼亚;;;;;;;;;;x
-ALREADY_CONTRACTED;他们已经受雇于§Y$OWNER$§!。;;;;;;;;;;x
-CANNOT_AFFORD_THE_COST;§R我们负担不起费用!§!\n;;;;;;;;;;x
+ALREADY_CONTRACTED;他们已经受雇于§Y$OWNER$§W。;;;;;;;;;;x
+CANNOT_AFFORD_THE_COST;§R我们负担不起费用！§W\n;;;;;;;;;;x
 TRIGGER_EMPIRE;帝国;;;;;;;;;;x
 b_lvov;利沃夫;;;;;;;;;;x
-EXECUTE_IMPRISONED_INTERACTION_5;处决将花费§R$PIETY$§!$PIETYNAME$.;;;;;;;;;;x
-CANNOT_AFFORD_TITLE_COST;你负担不起 §R$GOLD$§!¤;;;;;;;;;;x
+EXECUTE_IMPRISONED_INTERACTION_5;处决将花费 §R$PIETY$§! $PIETYNAME$。;;;;;;;;;;x
+CANNOT_AFFORD_TITLE_COST;你负担不起 §R$GOLD$§!¤。;;;;;;;;;;x
 MENU_BAR_EXIT_DEL;退出至桌面;;;;;;;;;;x
 MENU_BAR_RESIGN_DEL;放弃游戏并返回主菜单;;;;;;;;;;x
 MENU_BAR_PDX_CONNECT_DEL;打开Paradox网络;;;;;;;;;;x
