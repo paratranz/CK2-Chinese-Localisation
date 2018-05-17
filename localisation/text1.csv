@@ -1,8 +1,8 @@
 AIREASON_TOO_OLD;§Y[GetTitledFirstName]§!已经过了生育年龄;;;;;;;;;;x
 AIREASON_OPINION;对§Y[GetTitledFirstName]§!的好感度;;;;;;;;;;x
 AIREASON_SKILLS;§Y[GetTitledFirstName]§!的技能;;;;;;;;;;x
-AIREASON_REALPOLITIK;政治忧虑;;;;;;;;;;x
-AIREASON_REALPOLITIK_VS;对§Y[GetTitledFirstName]§!的政治忧虑;;;;;;;;;;x
+AIREASON_REALPOLITIK;政治考虑;;;;;;;;;;x
+AIREASON_REALPOLITIK_VS;对§Y[GetTitledFirstName]§!的政治考虑;;;;;;;;;;x
 AIREASON_WRONG_RELIGION;不同宗教;;;;;;;;;;x
 AIREASON_WRONG_CULTURE;外国文化;;;;;;;;;;x
 AIREASON_TOO_WEAK;比我弱小;;;;;;;;;;x
@@ -501,7 +501,7 @@ FREE_CHARTERS;任何领主都可以给予城市特权\n;;;;;;;;;;x
 KINGS_PEACE_ON;封臣不能互相开战。\n;;;;;;;;;;x
 KINGS_PEACE_OFF;封臣可以互相开战。\n;;;;;;;;;;x
 KINGS_FULL_PEACE_ON;封臣不能发动战争。\n;;;;;;;;;;x
-KINGS_FULL_PEACE_OFF;封臣可以发动战争\n;;;;;;;;;;x
+KINGS_FULL_PEACE_OFF;封臣可以发动战争。\n;;;;;;;;;;x
 PROTECTED_INHERITANCE_ON;封臣头衔不能被外国人继承\n;;;;;;;;;;x
 PROTECTED_INHERITANCE_OFF;封臣头衔现在能够被外国人继承\n;;;;;;;;;;x
 APPOINT_GENERALS_ON;你可以任命军队指挥官。\n;;;;;;;;;;x
@@ -531,7 +531,7 @@ INFANT_CREATED;一个叫做§Y$NAME$§!的孩子出现在§Y$EMPLOYER$§!的宫�
 CHARACTER_CREATED;$TYPE$出现在§Y$EMPLOYER$§!的宫廷。\n;;;;;;;;;;x
 HEALTH_EFFECT;§Y$WHO$§W $DIRECTION$ $VALUE$健康。\n;;;;;;;;;;x
 FERTILITY_EFFECT;§Y$WHO$§W $DIRECTION$ $PERC$生育能力。\n;;;;;;;;;;x
-CHANGECULTUREEFFECT;$WHERE$成为$NAME$。\n;;;;;;;;;;x
+CHANGECULTUREEFFECT;§Y$WHERE$§!接受了§Y$NAME$§!。\n;;;;;;;;;;x
 RELIGION_CHANGE;$WHERE$信奉$NAME$。\n;;;;;;;;;;x
 ACTIVATE_TITLE_EFFECT;§Y$TITLE$§!现在存在。\n;;;;;;;;;;x
 DEACTIVATE_TITLE_EFFECT;§Y$TITLE$§!不再存在。\n;;;;;;;;;;x
@@ -553,7 +553,7 @@ VOTE_ON_LAW;投票表决;;;;;;;;;;x
 PRESS_CLAIM_ON;$WHO$宣布拥有$TITLE$\n;;;;;;;;;;x
 ALL_INDEPENDENT_RULERS;所有独立领主;;;;;;;;;;x
 ALL_CURRENT_ENEMIES;所有敌人;;;;;;;;;;x
-START_WAR_EFFECT;$ATTACKER$对$DEFENDER$宣战\n;;;;;;;;;;x
+START_WAR_EFFECT;$ATTACKER|Y$对$DEFENDER|Y$宣战\n;;;;;;;;;;x
 WAR_BECOMES_INVALID;战争结束\n;;;;;;;;;;x
 ALLOW_REVOKATION_ON;允许撤回头衔\n;;;;;;;;;;x
 ALLOW_REVOKATION_OFF;不允许撤回头衔\n;;;;;;;;;;x
@@ -565,7 +565,7 @@ ENEMY_TROOPS;§Y敌人§!：;;;;;;;;;;x
 INHERIT_EFFECT;§Y$ABDICATOR$§!禅让予§Y$HEIR$§!.\n;;;;;;;;;;x
 FATHER_EFFECT;§Y$FATHER$§!收养§Y$WHO$§W。\n;;;;;;;;;;x
 MOTHER_EFFECT;§Y$MOTHER$§!收养§Y$WHO$§W。\n;;;;;;;;;;x
-DISEASE_INCREASED;患病时间增加了$VAL$月.\n;;;;;;;;;;x
+DISEASE_INCREASED;患病时间增加了 $VAL$ 月。\n;;;;;;;;;;x
 DISEASE_DECREASED;患病时间减少了 $VAL$ 月。\n;;;;;;;;;;x
 COMBATEND_SURVIVORS;幸存者;;;;;;;;;;x
 COMBATEND_CASUALTIES;人员伤亡;;;;;;;;;;x
@@ -628,10 +628,10 @@ EVTOPTA1035;不能懒惰了！;;;;;;;;;;x
 EVTDESC1036;每天对一群他人保持和善真恶心;;;;;;;;;;x
 EVTOPTA1036;承受我的怒火吧!;;;;;;;;;;x
 EVTDESC1037;我应该为我所得到的感到高兴，并不是所有人都像我一样拥有特权的。;;;;;;;;;;x
-EVTOPTA1037;我会远离嫉妒的罪孽!;;;;;;;;;;x
+EVTOPTA1037;我会远离嫉妒的罪孽！;;;;;;;;;;x
 EVTDESC1038;我开始觉得容忍他人是愚蠢的。;;;;;;;;;;x
 EVTOPTA1038;以眼还眼，以牙还牙！;;;;;;;;;;x
-EVTDESC1039;急剧上升的肾上腺素和心跳使我感到疲倦.暴怒再也不像过去那样有趣了.;;;;;;;;;;x
+EVTDESC1039;急剧上升的肾上腺素和心跳使我感到疲倦.暴怒再也不像过去那样有趣了。;;;;;;;;;;x
 EVTOPTA1039;我应该更轻松一些;;;;;;;;;;x
 EVTDESC1040;毕竟我是个伟人。;;;;;;;;;;x
 EVTOPTA1040;我应该为自己感到自豪;;;;;;;;;;x
@@ -642,29 +642,29 @@ EVTDESC1043;有时候，比起用真相伤害别人，还是撒谎容易一些�
 EVTOPTA1043;实话也会伤人;;;;;;;;;;x
 EVTDESC1044;谎言确实会伤人。真相……我想我能应付得了。;;;;;;;;;;x
 EVTOPTA1044;真理必使我自由;;;;;;;;;;x
-EVTDESC1045;我之前并不知道何为害怕，一旦当你恐惧得双腿颤抖牙齿抖动，你将很难继续勇敢下去.;;;;;;;;;;x
+EVTDESC1045;我之前并不知道何为害怕，一旦当你恐惧得双腿颤抖牙齿抖动，你将很难继续勇敢下去。;;;;;;;;;;x
 EVTOPTA1045;这并不能让我变成一个懦夫，不是吗?;;;;;;;;;;x
-EVTDESC1046;我不再像以前那样感到恐惧，并且我正在努力克服我以前感到恐惧的事情.;;;;;;;;;;x
+EVTDESC1046;我不再像以前那样感到恐惧，并且我正在努力克服我以前感到恐惧的事情。;;;;;;;;;;x
 EVTOPTA1046;再也没有人可以叫我懦夫了;;;;;;;;;;x
 EVTDESC1047;我渴望独处，我不再寻求别人的陪伴。;;;;;;;;;;x
 EVTOPTA1047;...但我不会成为一个隐士;;;;;;;;;;x
-EVTDESC1048;我的信心在不断增加，我再也不会感到尴尬了.;;;;;;;;;;x
+EVTDESC1048;我的信心在不断增加，我再也不会感到尴尬了。;;;;;;;;;;x
 EVTOPTA1048;我的口吃消失了！;;;;;;;;;;x
 EVTDESC1049;生命中必然有比这更重要的东西！;;;;;;;;;;x
 EVTOPTA1049;我一定要找到它！;;;;;;;;;;x
 EVTDESC1050;我已经超过了所有人，我是有史以来最棒的[From.GetTitle]！;;;;;;;;;;x
 EVTOPTA1050;又怎么了？;;;;;;;;;;x
-EVTDESC1051;正义是一位刻薄的女士，我永远不会喜欢她.;;;;;;;;;;x
+EVTDESC1051;正义是一位刻薄的女士，我永远不会再喜欢她。;;;;;;;;;;x
 EVTOPTA1051;我不是法律！;;;;;;;;;;x
 EVTDESC1052;有人说我很武断，我希望改变他们这种看法.;;;;;;;;;;x
 EVTOPTA1052;这对我而言很好，不是吗？;;;;;;;;;;x
-EVTDESC1053;我最喜欢的东西再也不能引起我的兴趣，我再也不会像以前一样充满热情的谈论它.;;;;;;;;;;x
+EVTDESC1053;我最喜欢的东西再也不能引起我的兴趣，我再也不会像以前一样充满热情的谈论它。;;;;;;;;;;x
 EVTOPTA1053;之前我真的很无聊，居然喜欢那种东西;;;;;;;;;;x
-EVTDESC1054;或许杯子里的水比我想的要多.;;;;;;;;;;x
+EVTDESC1054;或许杯子里的水比我想的要多。;;;;;;;;;;x
 EVTOPTA1054;...只要它不满出来就好;;;;;;;;;;x
 EVTDESC1057;那种被监视的感觉似乎在一夜之间消失了！;;;;;;;;;;x
 EVTOPTA1057;我安全了;;;;;;;;;;x
-EVTDESC1058;经过几次暗杀和盗窃之后.我不知道我还可以信任谁.;;;;;;;;;;x
+EVTDESC1058;经过几次暗杀和「贷款」之后，我不知道还可以信任谁。;;;;;;;;;;x
 EVTOPTA1058;为什么他们试图伤害我？;;;;;;;;;;x
 EVTDESC1500;每天厨师都会把我赶出厨房，但我的嘴巴和口袋里早已塞满了饼干。;;;;;;;;;;x
 EVTOPTA1500;唔，真甜！;;;;;;;;;;x
@@ -957,7 +957,7 @@ EVTOPTB3082;刚好没有收留他们的地方……;;;;;;;;;;x
 EVTDESC3083;仁慈意味着爱有罪的人并对他们的罪行进行训诫.;;;;;;;;;;x
 EVTOPTA3083;这份责任将永远伴随着他们.;;;;;;;;;;x
 EVTOPTB3083;我不想打扰他们.;;;;;;;;;;x
-EVTDESC3084;圣托马斯·阿奎那教导我们要保持慷慨这一美德，意思就是要耐心的容忍错误.有些人因个人原因而不喜欢我，但是我原谅他们.;;;;;;;;;;x
+EVTDESC3084;圣托马斯·阿奎那教导我们要保持慷慨这一美德，意思就是要耐心的容忍错误.有些人因个人原因而不喜欢我，但是我原谅他们。;;;;;;;;;;x
 EVTOPTA3084;在祈祷中我低下了头.;;;;;;;;;;x
 EVTOPTA3085;给予仁慈是一种美德!;;;;;;;;;;x
 EVTOPTB3085;我无法按照这些教导去做……;;;;;;;;;;x
@@ -1507,7 +1507,7 @@ EVTTOOLTIP3606;[This.GetTitledFirstName]也许会揭示审讯方法的秘密;;;;
 EVTOPTB3605;你愿意教我一下吗!;;;;;;;;;;x
 EVTOPTC3605;没问题！你现在就能掌握审讯的诀窍了!;;;;;;;;;;x
 EVTOPTD3605;如果你肯教我，我就给你一大笔钱，怎么样;;;;;;;;;;x
-EVTDESC3606;[From.GetTitledFirstName]因犯人顽固的沉默而感到沮丧，气急败坏地离开了刑讯室.我决定试试我的看家本领，没多久我就得到了犯人签字画押的供状和[From.GetTitledFirstName]的感谢.;;;;;;;;;;x
+EVTDESC3606;[From.GetTitledFirstName]因犯人顽固的沉默而感到沮丧，气急败坏地离开了刑讯室.我决定试试我的看家本领，没多久我就得到了犯人签字画押的供状和[From.GetTitledFirstName]的感谢。;;;;;;;;;;x
 EVTOPTA3606;真有意思！[From.GetSheHe]要求我教[From.GetHerHim];;;;;;;;;;x
 EVTTOOLTIP3607;[Root.GetTitledFirstName]将教授[This.GetTitledFirstName]刑讯方法;;;;;;;;;;x
 EVTOPTB3606;[From.GetTitledFirstName]好言相求请我教[From.GetHerHim];;;;;;;;;;x
