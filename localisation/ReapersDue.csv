@@ -2774,10 +2774,10 @@ EVTTITLE91241;腐化的代价;;;;;;;;;;x
 EVTDESC91241;统治[FromFrom.PrimaryTitle.GetName]的家族，已经被来自[From.GetOnlyDynastyName]家族狂热而穷困的部落民推翻了。之前的封臣可以抓住这个机会宣布独立……;;;;;;;;;;x
 EVTOPTA91241;傲慢的蠢货……;;;;;;;;;;x
 CREATE_BARON_DESC;提拔一名合适的低阶廷臣或当地人作为封臣治理这片地产。;;;;;;;;;;x
-ALL_VASSALS_INSANE_LAW;§Y25§!月内，所有封臣好感降低§R-5§!。§Y(实行荒谬法律)§!\n;;;;;;;;;;x
-ALL_DYNASTY_MEMBERS_MINUS_5;§Y10§!年内，所有家族成员好感降低§R-5§!。§Y(不敬家族)§!\n;;;;;;;;;;x
-NUM_LEADER_TRAITS_FEWER_THAN;领导特质少于;;;;;;;;;;x
-NUM_LEADER_TRAITS_AT_LEAST;领导特质至少;;;;;;;;;;x
+ALL_VASSALS_INSANE_LAW;§Y25§! 月内，所有封臣好感降低 §R-5§!。§Y（实行荒谬法律）§!\n;;;;;;;;;;x
+ALL_DYNASTY_MEMBERS_MINUS_5;§Y10§! 年内，所有家族成员好感降低 §R-5§!。§Y（不敬家族）§!\n;;;;;;;;;;x
+NUM_LEADER_TRAITS_FEWER_THAN;领袖特质少于;;;;;;;;;;x
+NUM_LEADER_TRAITS_AT_LEAST;领袖特质至少;;;;;;;;;;x
 IN_SECLUSION;隔离中;;;;;;;;;;x
 NOT_IN_SECLUSION;不在隔离中;;;;;;;;;;x
 TOOLTIP_ze_administration_laws_1;允许额外的继承法\n拒绝领主干涉战争的封臣将被视为叛徒\n;;;;;;;;;;x
@@ -2846,8 +2846,8 @@ EVTDESC_WOL_11314;我的领主，[From.GetTitledFirstName]，提出教导我如�
 EVTDESC_WOL_11315;我的领主，[From.GetTitledFirstName]，提出教导我战斗中如何成为欺诈师……;;;;;;;;;;x
 EVTDESC_WOL_11316;我的领主，[From.GetTitledFirstName]，提出教导我如何带领部队快速移动……;;;;;;;;;;x
 EVTDESC_WOL_11317;我的领主，[From.GetTitledFirstName]，提出教导我防守战斗的秘密……;;;;;;;;;;x
-EVTDESC_WOL_11318;我的领主，[From.GetTitledFirstName]，提出教导我战斗中如何正确的带领中军……;;;;;;;;;;x
-EVTDESC_WOL_11319;我的领主，[From.GetTitledFirstName]，提出教导我战斗中如何正确的带领侧翼……;;;;;;;;;;x
+EVTDESC_WOL_11318;我的领主，[From.GetTitledFirstName]，提出教导我战斗中如何正确地带领中军……;;;;;;;;;;x
+EVTDESC_WOL_11319;我的领主，[From.GetTitledFirstName]，提出教导我战斗中如何正确地带领侧翼……;;;;;;;;;;x
 EVTDESC_WOL_11320;我的领主，[From.GetTitledFirstName]，提出教导我战斗中激烈进攻的秘密……;;;;;;;;;;x
 EVTDESC_WOL_11321;我的领主，[From.GetTitledFirstName]，提出教导我围攻战事的秘密……;;;;;;;;;;x
 EVTDESC_WOL_11322;我的领主，[From.GetTitledFirstName]，提出教导我如何让部队坚守不屈……;;;;;;;;;;x
@@ -2882,7 +2882,7 @@ EVTOPTB_RIP_30003;我付不起……;;;;;;;;;;x
 EVTDESC_RIP_30004;致我忠心的封臣，[Root.GetTitledFirstName]。\n\n我愿意补偿你损失的威望，因你接受了与[target_defender.GetTitledName]的无条件和平。我很高兴战事将结束。\n\n你的领主，[From.GetTitledFirstName];;;;;;;;;;x
 EVTDESC_RIP_30005;致我忠心的封臣，[Root.GetTitledFirstName]。\n\n尽管我明晓你想要补偿，方能接受与[target_defender.GetTitledName]战争的无条件和平，但我无法偿付你要求的金额。祝你在战场上好运！\n\n你的领主，[From.GetTitledFirstName];;;;;;;;;;x
 EVTOPTA_RIP_30005;随便，我会赢的！;;;;;;;;;;x
-EVTDESC_RIP_30006;致[GetFromRootCompliment]，[Root.GetTitledFirstName]。\n\n虽然我悲痛不已，但我此时就是无法结束与[target_defender.GetTitledName]的战争。骰子已经掷出。\n\n你忠心的封臣，[From.GetTitledFirstName];;;;;;;;;;x
+EVTDESC_RIP_30006;致我的[GetFromRootCompliment]，[Root.GetTitledFirstName]。\n\n虽然我悲痛不已，但我此时就是无法结束与[target_defender.GetTitledName]的战争。骰子已经掷出。\n\n你忠心的封臣，[From.GetTitledFirstName];;;;;;;;;;x
 EVTOPTA_RIP_30006;真不幸……;;;;;;;;;;x
 EVTOPTA_RIP_30006_TRAITOR;法律绝不允许这种叛国行为！;;;;;;;;;;x
 EVTDESC_RIP_30007;致[GetFromRootCompliment]，[Root.GetTitledFirstName]。\n\n我很愿意结束与[target_defender.GetTitledName]的战争。可是，战事耗费甚多而我又将失脸面，所以你将欠我一个相应的人情……\n\n你忠心的封臣，[From.GetTitledFirstName];;;;;;;;;;x
@@ -2903,7 +2903,7 @@ EVTOPTB_RIP_30020;[FromFrom.GetSubjectPronounCap]将为此欠我一个大人情�
 EVTDESC_RIP_30021;致[GetFromRootCompliment]，[Root.GetTitledFirstName]。\n\n我将在[target_attacker.GetTitledName]的侵略战争中损失惨重，但我绝不敢妄想拒绝你，我的领主！\n\n你忠心的封臣，[From.GetTitledFirstName];;;;;;;;;;x
 EVTDESC_RIP_30022;致我忠心的封臣，[Root.GetTitledFirstName]。\n\n我已安排[FromFrom.GetTitledFirstName]向你投降并接受后果。总有一天，我会要求你偿还这个人情。\n\n充满敬意的[FromFrom.GetTitledFirstName];;;;;;;;;;x
 EVTDESC_RIP_30023;致[GetFromRootCompliment]，[Root.GetTitledFirstName]。\n\n尽管我将损失惨重，我仍愿意向[target_attacker.GetTitledName]投降以换取一大笔金钱。我相信你能理解。\n\n你忠心的封臣，[From.GetTitledFirstName];;;;;;;;;;x
-EVTDESC_RIP_30024;致我的封臣[Root.GetTitledFirstName]。\n\n我愿意为你接受与[target_defender.GetTitledName]的无条件和平而损失的威望提供补偿。我乐见此事了解。\n\n你的领主，[From.GetTitledFirstName];;;;;;;;;;x
+EVTDESC_RIP_30024;致我的封臣[Root.GetTitledFirstName]。\n\n我愿意为你接受与[target_defender.GetTitledName]的无条件和平而损失的威望提供补偿。我乐见此事了结。\n\n你的领主，[From.GetTitledFirstName];;;;;;;;;;x
 EVTDESC_RIP_30025;致我的封臣，[Root.GetTitledFirstName]。\n\n你期望获得金钱上的补偿，是可以理解的。没人能轻易投降。不过，我付不起你索要的数额。祝你在战场上好运！\n\n你的领主，[From.GetTitledFirstName];;;;;;;;;;x
 EVTOPTA_RIP_30025;我会打赢这仗！;;;;;;;;;;x
 EVTDESC_RIP_30026;致[GetFromRootCompliment]，[Root.GetTitledFirstName]。\n\n我也希望我能遵从你的要求，但我就是无法向卑鄙的[target_attacker.GetTitledName]投降。我已准备好承受最严重的损失！\n\n你的封臣，[From.GetTitledFirstName];;;;;;;;;;x
@@ -2911,7 +2911,7 @@ EVTDESC_RIP_30027;致[GetFromRootCompliment]，[Root.GetTitledFirstName]。\n\n�
 EVTDESC_RIP_30028;致我忠心的封臣，[Root.GetTitledFirstName]。\n\n我完全知晓你因为向[target_attacker.GetTitledName]投降而遭受的损失。这是我欠你的，而且我允诺将帮助你，只要你提出要我偿还人情！\n\n最感激的，[From.GetTitledFirstName];;;;;;;;;;x
 EVTDESC_RIP_30029;致我的封臣，[Root.GetTitledFirstName]。\n\nI我理解你不情愿在这场与[target_attacker.GetTitledName]的战争中投降，因其在你看来完全是非正义的。不过，我也不会因此欠你什么。祝你在战场上好运！\n\n你的领主，[From.GetTitledFirstName];;;;;;;;;;x
 EVTDESC_RIP_30030;致我忠心的封臣，[Root.GetTitledFirstName]。\n\n我要求你偿还欠我的人情。尽管我知道这将让你付出什么，我还是需要你向[target_attacker.GetTitledName]投降。相信我，这是最好的结果……\n\n你的领主，[From.GetTitledFirstName];;;;;;;;;;x
-EVTDESC_RIP_30031;致[GetFromRootCompliment]，[Root.GetTitledFirstName]。\n\n向令人作呕的[target_attacker.GetTitledName]让我浑身不舒服，但我是一位有荣誉感的[From.GetManWoman]并承认我欠你的人情。现在债已两清了。\n\n你忠心的封臣，[From.GetTitledFirstName];;;;;;;;;;x
+EVTDESC_RIP_30031;致[GetFromRootCompliment]，[Root.GetTitledFirstName]。\n\n向令人作呕的[target_attacker.GetTitledName]投降让我浑身不舒服，但我是一位有荣誉感的[From.GetManWoman]并承认我欠你的人情。现在债已两清了。\n\n你忠心的封臣，[From.GetTitledFirstName];;;;;;;;;;x
 EVTDESC_WoL_7050_PAGAN;长久以来，你都无法在你的思想中感受到[Root.Religion.GetHighGodName]的存在。你开始质疑神到底是否存在，或者只是人们创作的故事，用来解释这个世界……;;;;;;;;;;x
 EVTOPTC_WoL_7050;清除这些亵渎的想法！;;;;;;;;;;x
 EVTDESC38316;我最终意识到，世界充满了神秘与奇迹。我不再愤世嫉俗。;;;;;;;;;;x
@@ -2938,30 +2938,30 @@ EVTOPT_WoL_7091_LEPER;我又能感受到我的脸了！我的麻风治好了！;
 EVTOPT_WoL_7091_LUNATIC;那可怕的哀嚎……现在几乎安静了。;;;;;;;;;;x
 EVTOPT_WoL_7091;我决定成为一个更好的[Root.GetManWoman];;;;;;;;;;x
 RULE_DEJURE_DURATION;法理同化历时;;;;;;;;;;x
-RULE_DEJURE_DURATION_DEFAULT_DESC;次级领地需要100年去变为上级法理领地的一部分。;;;;;;;;;;x
+RULE_DEJURE_DURATION_DEFAULT_DESC;次级领地需要 100 年去变为上级法理领地的一部分。;;;;;;;;;;x
 RULE_OPTION_LONGER;长;;;;;;;;;;x
-RULE_DEJURE_DURATION_LONGER_DESC;次级领地需要300年去变为上级法理领地的一部分。;;;;;;;;;;x
+RULE_DEJURE_DURATION_LONGER_DESC;次级领地需要 300 年去变为上级法理领地的一部分。;;;;;;;;;;x
 RULE_OPTION_SHORTER;短;;;;;;;;;;x
-RULE_DEJURE_DURATION_SHORTER_DESC;次级领地需要50年去变为上级法理领地的一部分。;;;;;;;;;;x
+RULE_DEJURE_DURATION_SHORTER_DESC;次级领地需要 50 年去变为上级法理领地的一部分。;;;;;;;;;;x
 RULE_OPTION_SHORTEST;极短;;;;;;;;;;x
-RULE_DEJURE_DURATION_SHORTEST_DESC;次级领地需要10年去变为上级法理领地的一部分。;;;;;;;;;;x
+RULE_DEJURE_DURATION_SHORTEST_DESC;次级领地需要 10 年去变为上级法理领地的一部分。;;;;;;;;;;x
 TECHPOINTS_PROVINCE_MODIFIERS;省份修正：§Y$AMOUNT$§!;;;;;;;;;;x
 MODIFIER_TECHPOINTS_MILITARY;军事科技点;;;;;;;;;;x
 MODIFIER_TECHPOINTS_ECONOMY;经济科技点;;;;;;;;;;x
 MODIFIER_TECHPOINTS_CULTURE;文化科技点;;;;;;;;;;x
-CHAR_STATUS_IN_SECLUSION;§Y$NAME$§! 及其宫廷正处于隔离中;;;;;;;;;;x
+CHAR_STATUS_IN_SECLUSION;§Y$NAME$§!及其宫廷正处于隔离中;;;;;;;;;;x
 RULES_ACHIEVEMENT_REQUIRE_IRONMAN;游戏必须运行在§Y铁人§!模式里;;;;;;;;;;x
 RULES_ACHIEVEMENT_REQUIRE_RULES;没有§Y游戏规则§!禁止成就;;;;;;;;;;x
 RULES_ACHIEVEMENT_REQUIRE_NOMOD;没有影响游戏文件校验的§Y用户修改§!正在生效;;;;;;;;;;x
 RULES_ACHIEVEMENT_REQUIRE_SAVEOK;没有修改过游戏存档;;;;;;;;;;x
 RULES_ACHIEVEMENT_REQUIRE_STEAM;§YSteam§!必需运行中;;;;;;;;;;x
 ACHIEVEMENT_RULE_OPTION_SEPARATOR;$RULE$：$OPTION$;;;;;;;;;;x
-GAME_RULES_RESET_VALUES;重置规则;;;;;;;;;;x
+GAME_RULES_RESET_VALUES;§Y重置规则§!\n将全部规则重置为默认值。;;;;;;;;;;x
 PROVINCE_NO_HOSPITAL_LEVEL;这个省份§R没有医院§!！;;;;;;;;;;x
 PROVINCE_NO_HOSPITAL_LEVEL_DESC;由于没有§Y医院§!，这个省份对疾病和人口减少没有任何防护措施。医院通过省份扩展界面修建。;;;;;;;;;;x
-PROVINCE_HOSPITAL_ICON_LEVEL;§Y$LEVEL$级医院§!;;;;;;;;;;x
-PROVINCE_HOSPITAL_ICON_LEVEL_DESC;本地§Y医院§!提供了$DISEASE_RESISTANCE$的疾病抵抗力，及 $DEPOPULATION_PROTECTION$.;;;;;;;;;;x
-PROVINCE_HOSPITAL_VIEW_DISEASE_DESC;疾病抵抗力：$VALUE$;;;;;;;;;;x
+PROVINCE_HOSPITAL_ICON_LEVEL;§Y$LEVEL$ 级医院§!;;;;;;;;;;x
+PROVINCE_HOSPITAL_ICON_LEVEL_DESC;本地§Y医院§!提供了 $DISEASE_RESISTANCE$ 的防疫能力，及 $DEPOPULATION_PROTECTION$。;;;;;;;;;;x
+PROVINCE_HOSPITAL_VIEW_DISEASE_DESC;防疫能力：$VALUE$;;;;;;;;;;x
 PROVINCE_HOSPITAL_VIEW_DEPOP_DESC;人口减少防护等级：$VALUE|Y$;;;;;;;;;;x
 DEPOPULATION_PROTECTION_MINOR;对人口减少§G低级§!的防护;;;;;;;;;;x
 DEPOPULATION_PROTECTION_MEDIUM;对人口减少§G中级§!的防护;;;;;;;;;;x
@@ -2970,16 +2970,16 @@ DEPOPULATION_PROTECTION_VIEW_MINOR;§Y低级§!;;;;;;;;;;x
 DEPOPULATION_PROTECTION_VIEW_MEDIUM;§Y中级§!;;;;;;;;;;x
 DEPOPULATION_PROTECTION_VIEW_MAJOR;§Y高级§!;;;;;;;;;;x
 opinion_unjust_execution;处决我的同胞;;;;;;;;;;x
-PROVINCE_HOSPITAL_ICON_PROVINCE_TOTAL;该省份总计拥有$VALUE$的§Y疾病抵抗力§!。\n$SOURCES$\n省份的§Y疾病抵抗力§!越高，传染病在本地爆发及外地传入的可能性越低。;;;;;;;;;;x
+PROVINCE_HOSPITAL_ICON_PROVINCE_TOTAL;该省份总计拥有 $VALUE$ 的§Y防疫能力§!。\n$SOURCES$\n省份的§Y疾病抵抗力§!越高，传染病在本地爆发及外地传入的可能性越低。;;;;;;;;;;x
 TRIGGER_HOSPITAL_OWNER;医院所有者;;;;;;;;;;x
 HOSPITALS_INTERFACE_LABEL;§Y医院§!;;;;;;;;;;x
-HOSPITAL_LEVEL_TOOLTIP;等级$LEVEL|Y$;;;;;;;;;;x
+HOSPITAL_LEVEL_TOOLTIP;等级 $LEVEL|Y$;;;;;;;;;;x
 AIREASON_MARRIAGE_IS_CONTAGIOUS;§Y[GetTitledFirstName]§!得了传染病;;;;;;;;;;x
 AIREASON_IS_SICK;§Y[GetTitledFirstName]§!生病了;;;;;;;;;;x
 MAJOR_PROVINCE_MODIFIER_LOST_SETUP;失去主要省份修正;;;;;;;;;;x
-MAJOR_PROVINCE_MODIFIER_LOST_LOG;$PROVINCE|Y$省份失去了修正'$MODIFIER|Y$';;;;;;;;;;x
+MAJOR_PROVINCE_MODIFIER_LOST_LOG;$PROVINCE|Y$省份失去了修正「$MODIFIER|Y$」;;;;;;;;;;x
 MAJOR_PROVINCE_MODIFIER_GAINED_SETUP;获得主要省份修正;;;;;;;;;;x
-MAJOR_PROVINCE_MODIFIER_GAINED_LOG;$PROVINCE|Y$省份获得了修正'$MODIFIER|Y$';;;;;;;;;;x
+MAJOR_PROVINCE_MODIFIER_GAINED_LOG;$PROVINCE|Y$省份获得了修正「$MODIFIER|Y$」;;;;;;;;;;x
 PROVINCE_CROWN_FOCUS_TOOLTIP;§Y统治重心§!;;;;;;;;;;x
 PROVINCE_CROWN_FOCUS_PLAYER_DESC;$PROVINCE|Y$是你目前的§Y统治重心§!，并因此更有可能繁荣和发展;;;;;;;;;;x
 PROVINCE_CROWN_FOCUS_DESC;$PROVINCE|Y$是$OWNER|Y$目前的§Y统治重心§!，并因此更有可能繁荣和发展;;;;;;;;;;x
@@ -2987,25 +2987,25 @@ PROVINCE_MAKE_CROWN_FOCUS_TOOLTIP;§Y设置统治重心§!;;;;;;;;;;x
 PROVINCE_MAKE_CROWN_FOCUS_DESC;你可以使$PROVINCE|Y$成为你的§Y统治重心§!，以使其更有可能繁荣和发展：;;;;;;;;;;x
 HOSPITAL_BUILDINGS_MODIFIERS;来自医院建筑：$VALUE$;;;;;;;;;;x
 move_crown_focus_named;在[Root.GetName]设置统治重心;;;;;;;;;;x
-AIREASON_DEFENSIVE_PACT;同在一个§Y防御同盟§!中;;;;;;;;;;x
+AIREASON_DEFENSIVE_PACT;同在一个§Y防御协定§!中;;;;;;;;;;x
 EVTDESC_SOA_2990;我可以驱逐骑士团，让他们从我的领地里彻底滚蛋！但是我必须三思而后行，一旦驱逐了他们，就没法再让他们回来。;;;;;;;;;;x
 EVTOPTA_SOA_2990;把他们全赶出去！;;;;;;;;;;x
 EVTOPTB_SOA_2990;我暂时允许他们留下。;;;;;;;;;;x
 expelling_holy_order_decision_tooltip;不考虑驱逐骑士团;;;;;;;;;;x
-expelling_holy_order_decision_tooltip_b;将骑士团驱逐出领地;;;;;;;;;;x
+expelling_holy_order_decision_tooltip_b;将骑士团驱逐出领地。;;;;;;;;;;x
 expelling_holy_order_event_tooltip_a;驱逐骑士团，并没收领地内骑士团下属的所有土地;;;;;;;;;;x
 expelling_holy_order_event_tooltip_b;允许骑士团继续留在领地内;;;;;;;;;;x
 marshal_improves_capital;军事创新;;;;;;;;;;x
 intelligent_steward;经济创新;;;;;;;;;;x
 eunuch_gift_tooltip;一个名叫§Y[eunuch_gift.GetFullName]§!的宦官来到了你的宫廷;;;;;;;;;;x
 DEATH_MISSING;消失无踪;;;;;;;;;;x
-BUILD_HOSPITAL_DESC;医院可以修建在你控制下的任意省份，需要花费 §Y$COST$§!¤。建设医院以增强§Y疾病抵抗力§!，这会减小传染病在省份本地爆发或从外地传入的几率。医院同样会提供防护以对抗§Y人口减少§!。;;;;;;;;;;x
+BUILD_HOSPITAL_DESC;医院可以修建在你控制下的任意省份，需要花费 §Y$COST$§!¤。建设医院以增强§Y防疫能力§!，这会减小传染病在省份本地爆发或从外地传入的几率。医院同样会提供防护以对抗§Y人口减少§!。;;;;;;;;;;x
 EVTDESC_77860;你珍爱的猫咪总是知道你什么时候需要安慰。它仿若凭空出现，只为了跳上你的膝盖，在你的轻抚下发出舒服的呼噜声。;;;;;;;;;;x
 EVTOPTA_77860;有什么礼物能比一只猫咪的爱更好呢？;;;;;;;;;;x
 EVTDESC_RIP_5051;长时间漂泊在海上让我感觉自己生病了，而这并不是晕船的缘故。我感觉非常疲惫，我的腿一直疼，只要我醒着，我的关节就一直痛个不停。;;;;;;;;;;x
 EVTOPTA_RIP_5051;或许我们应该掉头回港……;;;;;;;;;;x
 EVTDESC_RIP_5054;在被我的医师[From.GetFirstName]检查过后，[From.GetSheHe]让我在接下来几周里放轻松。为了治好我的坏血病，还要求我吃以蔬菜水果为主要组成的特殊食谱。;;;;;;;;;;x
-EVTOPTA_RIP_5054;既然你这么说……;;;;;;;;;;x
+EVTOPTA_RIP_5054;既然你这么说。;;;;;;;;;;x
 EVTDESC_RIP_5055;在吃了一大堆不同的蔬菜水果之后，我终于感觉舒服了些。疼痛都消失了，我状态好多了！我相信只要我吃个橘子就能避免坏血病。;;;;;;;;;;x
 EVTOPTA_RIP_5055;呃……门轴？;;;;;;;;;;x
 scurvy;坏血病;;;;;;;;;;x
@@ -3023,7 +3023,7 @@ EVTDESC_RIP_4505;救济品和其他物资已经运抵医院。这些物资会让
 EVTOPTA_RIP_4505;这是来自他们[Root.PrimaryTitle.GetRulerTitle]的馈赠！;;;;;;;;;;x
 EVTOPTB_RIP_4505;是[Root.Religion.GetHighGodNameCap]使这馈赠成为可能！;;;;;;;;;;x
 EVTOPTC_RIP_4505;是我的领地提供了这些物资！;;;;;;;;;;x
-EVTOPTD_RIP_4505;我做了这一切，为了人民！;;;;;;;;;;x
+EVTOPTD_RIP_4505;我为人民做了这一切！;;;;;;;;;;x
 EVTDESC_RIP_4512;[religious_head_fee.PrimaryTitle.GetRulerTitle]派来了一位特使，带来一个特殊的请求。特使解释道，近来神职人员非常积极的参与[hospital_location.GetName]医院的工作。因此，你应该提供一些合理的补偿。;;;;;;;;;;x
 EVTOPTA_RIP_4512;如果这是[Root.Religion.GetRandomGodName]的意愿。;;;;;;;;;;x
 EVTOPTB_RIP_4512;我不这么认为！;;;;;;;;;;x
@@ -3046,7 +3046,7 @@ damaged_hospital;医院受损;;;;;;;;;;x
 RIP.13402.d3;尽管犹太人广受责难，我依然不能确定近期的流行病疫情应该怪罪到他们头上。然而，作为[Root.GetTitle]我必须做出决断。;;;;;;;;;;x
 set_crown_focus_named;将统治重心设在[Root.GetName];;;;;;;;;;x
 c_lincoln_adj_saxon;林德赛;;;;;;;;;;x
-c_lancaster_adj_saxon;阿蒙德;;;;;;;;;;x
+c_lancaster_adj_saxon;阿芒德;;;;;;;;;;x
 c_galloway_adj_saxon;林尼科;;;;;;;;;;x
 d_galloway_adj_saxon;戴安;;;;;;;;;;x
 RIP.11062.d;[From.GetTitledName]告诉我，我最近的病痛其实是麻风病。[From.GetSheHeCap]感到非常抱歉，但是[From.GetSheHe]已经无能为力了。;;;;;;;;;;x
@@ -3058,11 +3058,11 @@ loot_prosperity_boost_desc;劫掠带来的额外之财使得本地消费和投�
 EVTDESC75110;[Root.Liege.GetTitledFirstName]的一位显赫的臣民控告我在去他家作客时殴打他的女儿！;;;;;;;;;;x
 EVTDESC75112;[From.GetTitledFirstName]相信了那个女孩说的我打了她的谎话，让我付出了一大笔赔款！;;;;;;;;;;x
 EVTOPTA75112;但我是无辜的！;;;;;;;;;;x
-EVTDESC75113;尽管那个女孩的父亲要我人头落地，但[From.GetTitledFirstName]决定仁慈一点，‘仅仅’把我扔进了牢里，鬼知道要关多久。唯一的问题是，我是无辜的！我根本没打她！;;;;;;;;;;x
-EVTDESC75114;[From.GetTitledFirstName]相信我，而我告诉[From.GetHerHim]，那个指控我殴打她的女孩，我根本没同她讲过话。并且，我设法找到了那个女孩撒谎的证据。显然，是那女孩和她的朋友策划了这出敲诈我的阴谋。;;;;;;;;;;x
+EVTDESC75113;尽管那个女孩的父亲要我人头落地，但[From.GetTitledFirstName]决定仁慈一点，「仅仅」把我扔进了牢里，鬼知道要关多久。唯一的问题是，我是无辜的！我根本没打她！;;;;;;;;;;x
+EVTDESC75114;[From.GetTitledFirstName]相信我，而我告诉[From.GetHerHim]，我根本没同那个指控我殴打她的女孩讲过话。并且，我设法找到了那个女孩撒谎的证据。显然，是那女孩和她的朋友策划了这出敲诈我的阴谋。;;;;;;;;;;x
 EVTOPTA75114;这下她青肿的眼眶不怪我咯！;;;;;;;;;;x
 EVTOPTC621;异端衰退！;;;;;;;;;;x
-EVTOPTA_RIP_13007_TOOLTIP;[From.GetTitledName]会考虑你的请求;;;;;;;;;;x
+EVTOPTA_RIP_13007_TOOLTIP;[From.GetTitledName]会考虑你的请求。;;;;;;;;;;x
 prisoner_torture_desc;由于§Y[Root.GetTitledName]§!是你的囚犯，你可以下令折磨[Root.GetHerHim]作为惩罚。;;;;;;;;;;x
 CHRONICLE_DISTANT_PLAGUE;在[GetDateText]，我们听到传言说在远方的土地上爆发了一场可怕的大瘟疫;;;;;;;;;;x
 CHRONICLE_NEARBY_PLAGUE;到了[GetDateText]，大瘟疫不再是遥远的传言。来自临近领地的旅行者们带来了第一手的经历，告诉人们它带来的惨状。;;;;;;;;;;x
@@ -3081,7 +3081,7 @@ exchange_land_for_hospital;邀请建造医院;;;;;;;;;;x
 exchange_land_for_hospital_desc;以一片可供修建城堡的土地作为交换，[Root.PrimaryTitle.GetName]会修建一所医院照料[From.Capital.GetName]的人民。;;;;;;;;;;x
 upgrade_hospital;[From.GetTitledName]提议，只要对他们神圣金库作一点小小的捐赠，位于[Root.Capital.GetName]的医院就可以扩大。;;;;;;;;;;x
 vassal_wars_law_0_desc;只要没有全境和平，封臣可以与领地内和领地外的敌人交战。;;;;;;;;;;x
-vassal_wars_law_1_desc;封臣禁止向领地内的敌人宣战，但是可以攻击外部的敌人，只要没有全境和平。;;;;;;;;;;x
+vassal_wars_law_1_desc;封臣禁止向领地内的敌人宣战，但是可以攻击外部的敌人，只要没有强制全境和平。;;;;;;;;;;x
 vassal_wars_law_2_desc;封臣禁止发动对内或对外战争;;;;;;;;;;x
 taking_it_easy;放松一下;;;;;;;;;;x
 taking_it_easy_desc;这名角色正在放松，试着不要努力过头。;;;;;;;;;;x
@@ -3098,14 +3098,14 @@ EVTDESC_RIP_4012;有一天你醒来，你忠诚的导盲犬并没有来问候你
 EVTOPTA_RIP_4012;你教会了我那么多……我永远不会忘记你的;;;;;;;;;;x
 EVTOPTB_RIP_4012;不……这不可能！;;;;;;;;;;x
 EVTDESC_RIP_4013;你正在沉思，忽然宫廷医师[physician_target.GetFirstName]打断了你的思绪，「我的[Root.GetTitle]，我知道你和[Root.Spouse.GetTitle]都渴求配得上你们领地的继承人。如果你确有此意，我可以研究出一些方法来加强你的生育能力，这全是为了帮助打造一个最相称的继承人！」;;;;;;;;;;x
-EVTOPTA_RIP_4013;啊，好的，呃...你接着说;;;;;;;;;;x
+EVTOPTA_RIP_4013;啊，好的，呃……你接着说;;;;;;;;;;x
 EVTOPTB_RIP_4013;你在暗示什么？我不需要帮助！;;;;;;;;;;x
 EVTDESC_RIP_4015;当宫廷医师[physician_target.GetFirstName]进来时，[physician_target.GetSheHe]坚定的拍了拍你的肩膀。「我已经完成了一些研究，你无需担心！再等一个月你就会发现你的种子已经开始生根了。」;;;;;;;;;;x
 EVTOPTA_RIP_4015;这里有点不大对劲……;;;;;;;;;;x
-EVTOPTB_RIP_4015;但是...你什么也没做吧？;;;;;;;;;;x
+EVTOPTB_RIP_4015;但是……你什么也没做吧？;;;;;;;;;;x
 EVTDESC_RIP_4016;宫廷医师[physician_target.GetFirstName]靠近了你，[physician_target.GetHerHis]脸上挂着笑容。「我已经成功了，我的[Root.GetTitle]！只要你喝下这瓶调制品，你的性能力就会放大十倍，王室的血脉就会得以延续！」;;;;;;;;;;x
 EVTOPTA_RIP_4016;啊，非常好，把它给我！;;;;;;;;;;x
-EVTOPTB_RIP_4016;我改变主意了...我不相信这东西;;;;;;;;;;x
+EVTOPTB_RIP_4016;我改变主意了……我不相信这东西;;;;;;;;;;x
 EVTDESC_RIP_4017;喝下调制品不一会儿，你感觉一阵令人愉悦的薄雾遮蔽了你的感官。当你从模糊中慢慢清醒，你发现自己在皇家卧室，而且不是孤身一人！看起来这调制品或许有点太强力了！;;;;;;;;;;x
 EVTOPTA_RIP_4017;发生了什么？;;;;;;;;;;x
 EVTDESC_RIP_4018;喝下调制品不一会儿，你感到充满了能量和活力！这东西似乎是生效了，血脉现在的确可以延续了！;;;;;;;;;;x
@@ -3118,7 +3118,7 @@ fertility_treatment_custom_tooltip;[physician_target.GetFirstName]开始寻找�
 drink_the_concoction_custom_tooltip;你喝下了[physician_target.GetFirstName]带来的调制品;;;;;;;;;;x
 desc_prosperity_modifier_1;长期的和平和精明的管理使得这个省份§Y繁荣§!！\n\n§Y繁荣度§!会随着时间增加，但也会受到省份负面修正，战争，疾病和围攻的阻碍。建造§Y医院§!并保护省份免遭敌军侵袭，以确保省份持续繁荣昌盛。;;;;;;;;;;x
 desc_prosperity_modifier_2;长期的和平和精明的管理使得这个省份§Y兴旺§!！\n\n§Y繁荣度§!会随着时间增加，但也会受到省份负面修正，战争，疾病和围攻的阻碍。建造§Y医院§!并保护省份免遭敌军侵袭，以确保省份持续繁荣昌盛。;;;;;;;;;;x
-desc_prosperity_modifier_3;长期的和平和精明的管理使得这个省份§Y昌盛§!！\n\n§Y繁荣度§!会随着时间增加，但也会受到省份负面修正，战争，疾病和围攻的阻碍。建造§Y医院§! 并保护省份免遭敌军侵袭，以确保省份持续繁荣昌盛。;;;;;;;;;;x
+desc_prosperity_modifier_3;长期的和平和精明的管理使得这个省份§Y昌盛§!！\n\n§Y繁荣度§!会随着时间增加，但也会受到省份负面修正，战争，疾病和围攻的阻碍。建造§Y医院§!并保护省份免遭敌军侵袭，以确保省份持续繁荣昌盛。;;;;;;;;;;x
 logging_company_province;伐木团队;;;;;;;;;;x
 desc_logging_company_province;这个省份内的原木资源引起了了一队精英手工业者的注意。;;;;;;;;;;x
 RIP.11716.d;在[Root.GetName]的森林内发现的优质原木资源引起了一队精英手工业者的注意。这些久负盛名的工匠建立起一个商业生产组织，只要给予丰厚的报酬他们就会提供服务。只要价钱合适，你就可以获得他们的服务，让他们为统治者工作！;;;;;;;;;;x
@@ -3134,13 +3134,13 @@ gain_tech_custom_tooltip;获得 §G5.00§! 随机科技点数。\n;;;;;;;;;;x
 stop_pillage_settlement;停止劫掠;;;;;;;;;;x
 stop_pillage_settlement_desc;你可以选择停止劫掠此地产。\n\n一年内你无法重新开始劫掠。;;;;;;;;;;x
 stop_pillaging_custom_tooltip;尚未决定是否停止劫掠此地产;;;;;;;;;;x
-pillage_settlement_desc;开始掠夺此地产。\n\n当这块领地遭到掠夺，整个省份的叛乱风险会显著增加。但直到此地产被完全破坏为止，每§Y6个月§!你将会得到下列事物：;;;;;;;;;;x
+pillage_settlement_desc;开始掠夺此地产。\n\n当这块领地遭到掠夺，整个省份的叛乱风险会显著增加。但直到此地产被完全破坏为止，每 §Y6 个月§!你将会得到下列影响：;;;;;;;;;;x
 recently_burnt_the_land;新近掠夺;;;;;;;;;;x
 burnt_the_land;被蹂躏的土地;;;;;;;;;;x
 EVTDESC_HL_4813;随着[From.GetName]城墙的轰然倒塌，你的部落蜂拥而入。他们热衷于掠夺，但是不会立刻动手，除非你，他们的[Root.GetTitle]，允许他们这么做。;;;;;;;;;;x
 EVTOPTA_HL_4813;把战利品统统交给我，我们来分东西！;;;;;;;;;;x
 EVTOPTB_HL_4813;你们所看到的所有东西都是你们的。;;;;;;;;;;x
-EVTDESC_HL_4814;你的部落对[Root.GetName]烧杀掳掠，使得省份中的一块地产被完全夷为平地。我们的牧场将在断壁残垣中重新建立——我们的马儿一定会喜欢这里的！;;;;;;;;;;x
+EVTDESC_HL_4814;你的部落对[target_location.GetName]烧杀掳掠，使得省份中的一块地产被完全夷为平地。我们的牧场将在断壁残垣中重新建立——我们的马儿一定会喜欢这里的！;;;;;;;;;;x
 EVTOPTA_HL_4814;我们将用敌人的血肉浇灌这片田野。;;;;;;;;;;x
 throne_of_skulls;头骨王座;;;;;;;;;;x
 desc_throne_of_skulls;此省份死去人口的头骨堆砌成了一个巨大而又可怕的王座。;;;;;;;;;;x
@@ -3150,7 +3150,7 @@ nomadic_rites;游牧仪式;;;;;;;;;;x
 desc_nomadic_rites;这块土地上的人们经常进行战争与生殖的仪式。;;;;;;;;;;x
 bubonic_plague;黑死病;;;;;;;;;;x
 annoyed_religious;恼怒的宗教当局;;;;;;;;;;x
-HOSPITAL_AVAILABLE;达成建立一个§Y 医院§!的前置条件;;;;;;;;;;x
+HOSPITAL_AVAILABLE;达成建立一个§Y医院§!的前置条件;;;;;;;;;;x
 nick_the_resilient;坚韧;;;;;;;;;;x
 nick_one_eye;独眼龙;;;;;;;;;;x
 nick_one_hand;断臂;;;;;;;;;;x
@@ -3191,9 +3191,9 @@ nick_the_bane_of_realmname;[nickname_target.PrimaryTitle.GetName]之灾星;;;;;;
 nick_the_depraved;堕落;;;;;;;;;;x
 nick_the_monster;怪物;;;;;;;;;;x
 nick_the_abomination;憎恶;;;;;;;;;;x
-nick_the_culture_marauder;[nickname_receiver.Culture.GetName]之掠夺者;;;;;;;;;;x
+nick_the_culture_marauder;[nickname_receiver.Culture.GetName]掠夺者;;;;;;;;;;x
 nick_the_boar;野猪;;;;;;;;;;x
-nick_the_kingslayer;杀死[Root.GetTitle]之人;;;;;;;;;;x
+nick_the_kingslayer;[Root.GetTitle]杀手;;;;;;;;;;x
 nick_the_witch;[Root.GetWarlockWitch];;;;;;;;;;x
 nick_the_undying;续命者;;;;;;;;;;x
 nick_the_bear;熊;;;;;;;;;;x
@@ -3220,7 +3220,7 @@ mystic_treatment_decent_desc;这个角色从神秘主义宫廷医师处获得了
 mystic_treatment_poor_desc;这个角色从神秘主义宫廷医师处获得了奥秘式的治疗，然而似乎感觉不佳。;;;;;;;;;;x
 mystic_treatment_terrible_desc;这个角色从神秘主义宫廷医师处获得了奥秘式的治疗，目前濒临死亡。;;;;;;;;;;x
 ask_to_leave_court;要求离开宫廷;;;;;;;;;;x
-ask_to_leave_court_desc;你想不起来什么时候§Y[Root.GetFullName]§!加入了你的宫廷以及[Root.GetSheHe]在这里干什么。\n\nI如果你要求§Y[Root.GetFullName]§! 离开，宫廷会变得不那么拥挤……;;;;;;;;;;x
+ask_to_leave_court_desc;你想不起来什么时候§Y[Root.GetFullName]§!加入了你的宫廷以及[Root.GetSheHe]在这里干什么。\n\nI如果你要求§Y[Root.GetFullName]§!离开，宫廷会变得不那么拥挤……;;;;;;;;;;x
 HINT_CLOSE;关闭窗口;;;;;;;;;;x
 desc_jewish_settlement_province;庞大的犹太人社区居住于此省份，他们的商人为此省份的商业做出重要贡献。;;;;;;;;;;x
 desc_glorious_monument_province;这栋宏伟的建筑物描绘了一个当地统治者的事迹。来往的商人节能清晰地观看到此建筑物，因此统治者的伟大事迹远近闻名。;;;;;;;;;;x
@@ -3240,22 +3240,22 @@ EVTDESC_RIP_4022;正当你思考发展你领地的新方法时，宫廷医师[ph
 EVTOPTA_RIP_4022;真是个好主意！我会去做的。;;;;;;;;;;x
 EVTOPTB_RIP_4022;浪费钱，让农民忍住病痛就好了。;;;;;;;;;;x
 physician_apothecaries_custom_tooltip;你的§Y直辖省份§!的§Y繁荣度§!得到显著提升！;;;;;;;;;;x
-increase_prosperity_custom_tooltip;省份的 §Y 繁荣度§!些许提升\n;;;;;;;;;;x
-capital_prospers_custom_tooltip;你首都的§Y 繁荣度§!些许提升\n;;;;;;;;;;x
-increase_prosperity_event_custom_tooltip;§Y[prosperity_target.GetName]§!的 §Y繁荣度§!提升！;;;;;;;;;;x
+increase_prosperity_custom_tooltip;省份的§Y繁荣度§!些许提升\n;;;;;;;;;;x
+capital_prospers_custom_tooltip;你首都的§Y繁荣度§!些许提升\n;;;;;;;;;;x
+increase_prosperity_event_custom_tooltip;§Y[prosperity_target.GetName]§!的§Y繁荣度§!提升！;;;;;;;;;;x
 EVTDESC_RIP_4300;近来大量农民搬迁到[prosperity_target.GetName]省份。你的[Root.GetTreasurerName]，[councillor_target.GetFullName]建议修筑新的道路以帮助农民的到达领地的中心地产。[councillor_target.GetSheHeCap]坚定认为，这会让此省份更加的繁荣！;;;;;;;;;;x
 EVTOPTA_RIP_4300;我就让[councillor_target.GetFirstName]监督这个工程吧！;;;;;;;;;;x
 EVTOPTB_RIP_4300;可悲的是，我出不起钱。;;;;;;;;;;x
 EVTDESC_RIP_4301;你的[Root.GetLordSpiritualName]，[councillor_target.GetFirstName]声称，[prosperity_target.GetName]的农民要花费大量时间在路途上才能见到[prosperity_target.Religion.GetPriestTitle]们。所以[councillor_target.GetSheHeCap]认为修筑本地的祭坛也符合你的利益，这样农民们就无需远行去进行崇拜活动。;;;;;;;;;;x
 EVTOPTA_RIP_4301;更少的时间花费在路上意味着有更多时间工作！;;;;;;;;;;x
 EVTOPTB_RIP_4301;浪费钱。;;;;;;;;;;x
-EVTDESC_RIP_4302;根据你的[Root.GetMarshalName]，[councillor_target.GetFullName]所言，[prosperity_target.GetName]的农民经常受到道路劫匪和野兽的袭扰。[councillor_target.GetSheHeCap]建议沿着[prosperity_target.GetName]的道路修筑一系列堡垒。农民将觉得更加安全，并且甚至可能吸引更多的农民来到此省份！;;;;;;;;;;x
+EVTDESC_RIP_4302;据你的[Root.GetMarshalName]，[councillor_target.GetFullName]所言，[prosperity_target.GetName]的农民经常受到道路劫匪和野兽的袭扰。[councillor_target.GetSheHeCap]建议沿着[prosperity_target.GetName]的道路修筑一系列堡垒。农民将觉得更加安全，并且甚至可能吸引更多的农民来到此省份！;;;;;;;;;;x
 EVTOPTA_RIP_4302;免于恐惧的农民才是多产的农民。;;;;;;;;;;x
 EVTOPTB_RIP_4302;不好意思，我没有闲钱。;;;;;;;;;;x
 EVTDESC_RIP_4303;[prosperity_target.GetName]的农民散居各处，彼此距离十分遥远。你的[Root.GetSpymasterName]，[councillor_target.GetFullName]建议投资修筑省内邮传制度，让农民们能够更好的互相沟通。[councillor_target.GetSheHeCap]声称，这样可以吸引更多的农民到此省份居住！;;;;;;;;;;x
 EVTOPTA_RIP_4303;很好，多么棒的主意！;;;;;;;;;;x
 EVTOPTB_RIP_4303;我不会把钱花在这种地方。;;;;;;;;;;x
-EVTDESC_RIP_4304;根据[Root.GetChancellorName]，[councillor_target.GetFirstName]所言，[prosperity_target.GetName]的农民向来有着一个良好传统，数个村庄农民们聚会、跳舞、宴饮并为未来的婚姻寻找伴侣。如果促进这一传统，[councillor_target.GetFirstName]认为这个郡县会发展出强势的文化，吸引更多的农民！;;;;;;;;;;x
+EVTDESC_RIP_4304;据[Root.GetChancellorName]，[councillor_target.GetFirstName]所言，[prosperity_target.GetName]的农民向来有着一个良好传统，数个村庄农民们聚会、跳舞、宴饮并为未来的婚姻寻找伴侣。如果促进这一传统，[councillor_target.GetFirstName]认为这个省份会发展出强势的文化，吸引更多的农民！;;;;;;;;;;x
 EVTOPTA_RIP_4304;真是独特的传统，我也支持！;;;;;;;;;;x
 EVTOPTB_RIP_4304;我不想把我的钱浪费在这么无聊的事情上。;;;;;;;;;;x
 EVTDESC_RIP_4305;身为一个勤政的统治者，你并没有忽视[prosperity_target.GetName]的困难群众。亲自拜访省份内的长老，能激励他们并让农民特别感激你。当然了，小小的付出也能有巨大的收获。;;;;;;;;;;x
@@ -3273,24 +3273,24 @@ new_shrines;当地祭坛;;;;;;;;;;x
 desc_new_shrines;此省份内每个村庄似乎都有用于崇拜的本地祭坛;;;;;;;;;;x
 realm_prospers_custom_tooltip;所有§Y领地内省份§!出现显著地§Y繁荣度§!提升！;;;;;;;;;;x
 obj_see_the_realm_prosper_title;见证领地繁荣;;;;;;;;;;x
-obj_see_the_realm_prosper_desc;[This.GetTitledFirstName]希望见到[This.GetHerHis]领地保持和平发展§Y5年§!。\n\n如果[This.GetFirstName]的领地受到攻击或者[This.GetSheHe]发动战争。那么这个野心将会失败，并在§Y5年§!内不能再次选择。如果这个野心成功实现，§Y全体叛乱风险§!将降低§Y1%§!。;;;;;;;;;;x
-tooltip_obj_see_the_realm_prosper;统治此领地并保持和平§Y5 年§!;;;;;;;;;;x
+obj_see_the_realm_prosper_desc;[This.GetTitledFirstName]希望见到[This.GetHerHis]领地保持和平发展§Y5年§!。\n\n如果[This.GetFirstName]的领地受到攻击或者[This.GetSheHe]发动战争。那么这个野心将会失败，并在 §Y5 年§!内不能再次选择。如果这个野心成功实现，§Y全体叛乱风险§!将降低 §Y1%§!。;;;;;;;;;;x
+tooltip_obj_see_the_realm_prosper;统治此领地并保持和平 §Y5 年§!;;;;;;;;;;x
 regimental_ground_province;军团训练场;;;;;;;;;;x
-desc_regimental_ground_province;这个省份是一个精英军团的训练场，并设有他们住房与军械库。;;;;;;;;;;x
+desc_regimental_ground_province;这个省份是一个精英军团的训练场，并设有他们的住房与军械库。;;;;;;;;;;x
 RIP.11721.d;一段时间以来，[Root.GetName]省份一直是你的军队的非官方训练场，许多的空地用于操练，军队也消耗了大量食物。而现在一批高级军官向你申请资金，在此省份设立官方的军团营地！;;;;;;;;;;x
 RIP.11721.a;听上去是一个不错的建议！;;;;;;;;;;x
 RIP.11721.b;让训练变得简单会让他们更弱小。;;;;;;;;;;x
 custom_historical_plague_free_zone;历史瘟疫禁区;;;;;;;;;;x
 RULE_EPIDEMICS_DELAYED_DYNAMIC;动态延迟;;;;;;;;;;x
-RULE_EPIDEMICS_DELAYED_DYNAMIC_DESC;腺鼠疫最早出现在1100年，或游戏开始的25年后。第一次主要爆发后，瘟疫变为区域流行。;;;;;;;;;;x
-RULE_EPIDEMICS_DYNAMIC_DESC;腺鼠疫最早出现在游戏开始200年后，并可能会在游戏开始500年后重新出现。在第一次主要爆发后，瘟疫将变为区域流行。;;;;;;;;;;x
-RULE_EPIDEMICS_HISTORICAL_DESC;腺鼠疫将出现在1345年，并且遵循历史的路径。;;;;;;;;;;x
+RULE_EPIDEMICS_DELAYED_DYNAMIC_DESC;腺鼠疫最早出现在 1100 年，或游戏开始的 25 年后。第一次主要爆发后，瘟疫变为区域流行。;;;;;;;;;;x
+RULE_EPIDEMICS_DYNAMIC_DESC;腺鼠疫最早出现在游戏开始 200 年后，并可能会在游戏开始 500 年后重新出现。在第一次主要爆发后，瘟疫将变为区域流行。;;;;;;;;;;x
+RULE_EPIDEMICS_HISTORICAL_DESC;腺鼠疫将出现在 1345 年，并且遵循历史的路径。;;;;;;;;;;x
 seek_treatment_tooltip_3;并未有成功的治疗;;;;;;;;;;x
 EVTDESC_RIP_11053_TRAVELLING_NESTORIAN;你的探子回报，一位景教的传教士刚刚来到[Root.Capital.GetName]。这位传教士，名叫[recruited_physician_target.GetFirstName]，刚刚在遥远的契丹长期传教后归来。本地人都说[recruited_physician_target.GetSheHe]知晓许多疗法，而这些知识是[recruited_physician_target.GetSheHe]在[recruited_physician_target.GetHersHis]旅途中学到的。[recruited_physician_target.GetSheHeCap]肯定会成为你宫廷里有价值的助力！;;;;;;;;;;x
 EVTOPTW_RIP_11053;把这个传教士带回宫廷！;;;;;;;;;;x
-EVTDESC_RIP_11053_MAZDAN_DOCTOR;你收到消息说一个附近的小村庄中居住着一位马兹达派的医生。这位医生，在学界以[recruited_physician_target.GetFirstName]之名为人所知，并且谣传拥有著名的贡迪沙普尔学园的文献！如此有学识的[recruited_physician_target.GetManWoman]，一定会是你宫廷中的至宝。;;;;;;;;;;x
-EVTOPTX_RIP_11053;很好的人选，出钱给[recruited_physician_target.GetHerHim]并且邀请[recruited_physician_target.GetHerHim]进入宫廷！;;;;;;;;;;x
-EVTDESC_RIP_11053_MANICHEAN_MERCHANT;一名丝路商人最近来到[Root.Capital.GetName]。你的卫兵报告说，在提供免费医学检查的掩护下，这个‘[recruited_physician_target.GetFirstName]’利用此机会传播摩尼福音！卫兵因为[recruited_physician_target.GetHerHis]作死行为把[recruited_physician_target.GetHerHim]关了起来，但也许[recruited_physician_target.GetSheHe]可以成为你的医师？;;;;;;;;;;x
+EVTDESC_RIP_11053_MAZDAN_DOCTOR;你收到消息说一个附近的小村庄中居住着一位马兹达教的医生。这位医生，在学界以[recruited_physician_target.GetFirstName]之名为人所知，并且谣传拥有著名的贡迪沙普尔学园的文献！如此有学识的[recruited_physician_target.GetManWoman]，一定会是你宫廷中的至宝。;;;;;;;;;;x
+EVTOPTX_RIP_11053;很好的人选，出钱给[recruited_physician_target.GetHerHim]并且邀请[recruited_physician_target.GetHerHim]来到宫廷！;;;;;;;;;;x
+EVTDESC_RIP_11053_MANICHEAN_MERCHANT;一名丝路商人最近来到[Root.Capital.GetName]。你的卫兵报告说，在提供免费医学检查的掩护下，这个「[recruited_physician_target.GetFirstName]」利用此机会传播摩尼福音！卫兵因为[recruited_physician_target.GetHerHis]作死行为把[recruited_physician_target.GetHerHim]关了起来，但也许[recruited_physician_target.GetSheHe]可以成为你的医师？;;;;;;;;;;x
 EVTOPTY_RIP_11053;释放[recruited_physician_target.GetHerHim]并且把[recruited_physician_target.GetHerHim]带到宫廷！;;;;;;;;;;x
 jewish_courtier_tooltip;一个名为§Y[jewish_courtier.GetFullName]§!的犹太廷臣来到你的宫廷。;;;;;;;;;;x
 EVTDESC_RIP_4100;一个囚犯被押解到你面前。他显然是个传教士，一直在[origin_realm_of_missionary_physician_target.Realm.GetName]给你的人民传播异端信仰！他声称带着[missionary_physician_target.Religion.GetHighGodName]的使命而来，并且照顾附近村庄的病患。该怎么对待这个误入歧途的[missionary_physician_target.Religion.GetName]信徒？;;;;;;;;;;x
@@ -3331,7 +3331,7 @@ heir_text_stewardship;勤俭而质朴，领地在[GetHerHis]统治下必将繁�
 heir_text_intrigue;狡猾而又敏锐的[GetManWoman]，[GetSheHe]将会毫无问题地获得需要的影响力;;;;;;;;;;x
 heir_text_diplomacy;一位老道的外交官，封臣和外国统治者都将尊敬[GetHerHim];;;;;;;;;;x
 heir_text_traits_glutton_greedy;一个圆胖自私的[GetManWoman]，我们希望[GetSheHe]不会吃光领地内的房屋和家园;;;;;;;;;;x
-heir_text_traits_poet;作为一个创作丰富的文学作者，[GetFirstName]使用[GetHerHis]语言或许能感染任何人的情绪;;;;;;;;;;x
+heir_text_traits_poet;一个创作丰富的文学作者，[GetFirstName]使用[GetHerHis]语言或许能感染任何人的情绪;;;;;;;;;;x
 heir_text_traits_cynical_just;毫不畏惧[Religion.GetHighGodName]，[GetSheHe]决不会让宗教妨碍正义;;;;;;;;;;x
 heir_text_traits_content_arbitrary;作为一个无忧无虑的[GetManWoman]，[GetSheHe]满足于让事物保持原状;;;;;;;;;;x
 heir_text_traits_craven_military_ed;[GetFirstName]倾向于带领着军队离开[GetHerHis]安全的家园，恐怕难以鼓舞士气;;;;;;;;;;x
@@ -3362,11 +3362,11 @@ heir_text_traits_falconer;[GetHerHis]如此优美地操控猛禽，[GetFirstName
 heir_text_traits_lunatic;[GetManWoman]变得胡言乱语并精神错乱，只有[Religion.GetHighGodName]才能帮助[GetFirstName]维持统治了;;;;;;;;;;x
 heir_text_traits_possessed;被怀疑受到由[Religion.GetRandomEvilGodName]派遣恶魔附体，[Religion.GetPriestTitle]们将会竭尽所能约束[GetHerHim];;;;;;;;;;x
 heir_text_traits_fair;拥有难以言表美丽，[GetFirstName]的外貌将使众多外国显贵拜倒在[GetHerHis]脚下;;;;;;;;;;x
-heir_text_traits_tolerant;由于对其他信仰的容忍，[GetFirstName]的好奇心会为 [GetHerHim]带来许多朋友;;;;;;;;;;x
+heir_text_traits_tolerant;由于对其他信仰的容忍，[GetFirstName]的好奇心会为[GetHerHim]带来许多朋友;;;;;;;;;;x
 heir_text_traits_ugly_deceitful;其灵魂如同[GetHerHis]面容一样丑恶，我们只能从[GetHerHim]那里获得欺骗和仇恨;;;;;;;;;;x
 heir_text_traits_kind;一个温和慈悲的人，封臣将会在[GetFirstName]的统治下繁荣昌盛;;;;;;;;;;x
 heir_text_traits_proud;[GetHerselfHimself]是那么的自信，[GetFirstName]的统治究竟会给[GetOnlyDynastyName]家族带来荣耀还是耻辱——只有时间才能告诉我们;;;;;;;;;;x
-heir_text_traits_cynical;从不在乎[Religion.GetPriestTitle]的话，很多人担忧[GetFirstName]的统治会因[Religion.GetHighGodName]惩罚[GetHerHim]而早早结束，;;;;;;;;;;x
+heir_text_traits_cynical;从不在乎[Religion.GetPriestTitle]的话，很多人担忧[GetFirstName]的统治会因[Religion.GetHighGodName]惩罚[GetHerHim]而早早结束;;;;;;;;;;x
 heir_text_traits_gregarious;我们期待善于表达且外向的[GetFirstName]可以毫无阻碍地获得整个宫廷的爱戴并站在[GetHerHis]一方;;;;;;;;;;x
 heir_text_traits_zealous;其花费大量时间在祷告上，以免触怒[Religion.GetHighGodName]，我们相信[GetFirstName]的统治将会使领地得到祝福;;;;;;;;;;x
 heir_text_traits_ambitious;作为一个野心勃勃的[GetManWoman]，我们期望领地在[GetHerHis]统治下扩张并繁荣;;;;;;;;;;x
@@ -3389,7 +3389,7 @@ heir_text_traits_greedy;这个[GetManWoman]如此的贪婪，王国的穷苦农�
 heir_text_traits_cruel;作为心胸狭窄的[GetManWoman]，我们担心[GetFirstName]的宫廷将生活在[GetHerHim]恐怖之中;;;;;;;;;;x
 heir_text_traits_trusting;[GetFirstName]的内阁可能比轻信且自满的[GetHerHim]拥有更大的权力，即使不应如此;;;;;;;;;;x
 heir_text_traits_honest;由于没能力去撒谎，我们担心有人会轻视[GetHerHis]诚实;;;;;;;;;;x
-heir_text_traits_slothful;作为一个懒惰的[GetManWoman]，我们担心没有事会在 [GetFirstName]的治下发生;;;;;;;;;;x
+heir_text_traits_slothful;作为一个懒惰的[GetManWoman]，我们担心没有事会在[GetFirstName]的治下发生;;;;;;;;;;x
 heir_text_traits_charitable;这个[GetManWoman]慷慨大方，我们希望领地所有的财富最后不会都落到[Religion.GetPriestTitle]们的口袋里;;;;;;;;;;x
 heir_text_traits_wroth;[GetFirstName]极易发怒，敌人和封臣都生活在对[GetHerHim]的恐惧之中;;;;;;;;;;x
 heir_text_traits_paranoid;疑神疑鬼的[GetManWoman]，[GetFirstName]的偏执可能不太适合[GetHerHis]臣民;;;;;;;;;;x
@@ -3413,8 +3413,8 @@ heir_text_traits_paranoid_deceitful;一个狡猾多疑的角色，我们担心[G
 province_embellishment;省份装饰;;;;;;;;;;x
 FILTER_MY_DYNASTY;我的家族;;;;;;;;;;x
 DISTANT_CHARACTER;§R超出外交范围§!;;;;;;;;;;x
-SET_PACIFIED_EFFECT;防止$CHAR|Y$向同一领地内的其他人宣战，直到$DATE|Y$。;;;;;;;;;;x
-NOT_PACIFIED_BY_LIEGE;未受领主安抚(有效期至$DATE|Y$);;;;;;;;;;x
+SET_PACIFIED_EFFECT;防止$CHAR|Y$向同一领地内的其他人宣战，直到 $DATE|Y$。;;;;;;;;;;x
+NOT_PACIFIED_BY_LIEGE;未受领主安抚(有效期至 $DATE|Y$);;;;;;;;;;x
 HAS_MERCENARY_UNITS_NOT;$CHARACTER$没有拥有雇佣兵单位;;;;;;;;;;x
 HAS_LOOT_TRIGGER;劫掠了至少 $NEED|Y$¤;;;;;;;;;;x
 HAS_LOOT_TRIGGER_NOT;劫掠了少于 $NEED|Y$¤;;;;;;;;;;x
@@ -3488,7 +3488,7 @@ convert_to_spouse_religion_named;皈依[Root.GetPossPronoun][Root.Religion.GetNa
 convert_to_spouse_religion_desc;配偶或妾室的枕边风非常具有说服力。我会皈依§Y[Root.GetFirstName]§!的信仰并成为一名§Y[Root.Religion.GetName][Root.Religion.GetGroupName]信徒§!……;;;;;;;;;;x
 opinion_built_building;资助直辖领的建筑;;;;;;;;;;x
 PROVINCE_TOOLTIP_DISEASE_WEIGHT;- $DISEASE|Y$，感染率为 $VALUE|R$（$UNDEFENDED$）;;;;;;;;;;x
-PROVINCE_TOOLTIP_DISEASE_WEIGHT_UNDEFENDED;$VALUE$在$DISEASE_RESISTANCE$的§Y防疫能力§!之前;;;;;;;;;;x
+PROVINCE_TOOLTIP_DISEASE_WEIGHT_UNDEFENDED;$VALUE$ 在 $DISEASE_RESISTANCE$ 的§Y防疫能力§!之前;;;;;;;;;;x
 IS_PROVINCE_OWNER_OR_LIEGE;省份由你或你的封臣拥有;;;;;;;;;;x
 GAME_STARTED_IN;游戏开始于 $DATE|Y$;;;;;;;;;;x
 GAME_LASTED;游戏已经运行了 $LENGTH|Y$ 年;;;;;;;;;;x
