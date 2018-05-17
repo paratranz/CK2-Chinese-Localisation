@@ -395,7 +395,7 @@ DYNA_GRANDPARENTS;祖父母;;;;;;;;;;x
 DYNA_GREATGRANDPARENTS;曾祖父母;;;;;;;;;;x
 BASTARD_CHILD;私生子;;;;;;;;;;x
 LINEAGE;血统;;;;;;;;;;x
-OTHER_PARENT_IN_LINEAGE;家族血统中的其他亲戚;;;;;;;;;;x
+OTHER_PARENT_IN_LINEAGE;支系;;;;;;;;;;x
 RIGHT_CLICK_TREE;按住右键拖动家族树。;;;;;;;;;;x
 SENDAASSSINEFFECT;§Y$WHO$§W将派刺客刺杀§Y$TARGET$§W。\n;;;;;;;;;;x
 ADD_SUB_UNIT_EFFECT;在$WHERE$得到$UNIT$。;;;;;;;;;;x
@@ -502,19 +502,19 @@ KINGS_PEACE_ON;封臣不能互相开战。\n;;;;;;;;;;x
 KINGS_PEACE_OFF;封臣可以互相开战。\n;;;;;;;;;;x
 KINGS_FULL_PEACE_ON;封臣不能发动战争。\n;;;;;;;;;;x
 KINGS_FULL_PEACE_OFF;封臣可以发动战争\n;;;;;;;;;;x
-PROTECTED_INHERITANCE_ON;封臣头衔不再能够在王国之外通过继承权获得\n;;;;;;;;;;x
-PROTECTED_INHERITANCE_OFF;封臣头衔现在能够在王国之外通过继承权获得\n;;;;;;;;;;x
+PROTECTED_INHERITANCE_ON;封臣头衔不能被外国人继承\n;;;;;;;;;;x
+PROTECTED_INHERITANCE_OFF;封臣头衔现在能够被外国人继承\n;;;;;;;;;;x
 APPOINT_GENERALS_ON;你可以任命军队指挥官。\n;;;;;;;;;;x
 APPOINT_GENERALS_OFF;你不可以任命军队指挥官。\n;;;;;;;;;;x
 APPOINT_REGENTS_ON;你可以任命摄政者。\n;;;;;;;;;;x
 APPOINT_REGENTS_OFF;你不可以任命摄政者。\n;;;;;;;;;;x
 HEREDITARY_JOB_ON;头衔$JOB$可以被世袭\n;;;;;;;;;;x
-HEREDITARY_JOB_OFF;头衔$JOB$不能被世袭\n;;;;;;;;;;x
+HEREDITARY_JOB_OFF;头衔$JOB$不能世袭\n;;;;;;;;;;x
 REL_AUTHORITY_EFFECT;$DIRECTION$ $PERC$宗教权威\n;;;;;;;;;;x
 SET_NAME_EFFECT;$OLD_NAME$改名为$NEW_NAME$\n;;;;;;;;;;x
 PLOT_IS_REVEALED;阴谋败露\n;;;;;;;;;;x
-BACK_PLOT_EFFECT;$BACKER$加入$PLOTTER$的阴谋$TITLE$\n;;;;;;;;;;x
-LEAVE_PLOT_EFFECT;$BACKER$退出$PLOTTER$的阴谋$TITLE$\n;;;;;;;;;;x
+BACK_PLOT_EFFECT;$BACKER$加入了$PLOTTER$对$TITLE$的图谋\n;;;;;;;;;;x
+LEAVE_PLOT_EFFECT;$BACKER$退出了$PLOTTER$对$TITLE$的图谋\n;;;;;;;;;;x
 IMPREGNATE_EFFECT;$WHO$怀上了$FATHER$的孩子\n;;;;;;;;;;x
 DEFAULT_SENDEVENT_EVENTOPTION_TOOLTIP;角色发生事件\n;;;;;;;;;;x
 LOSE_CLAIM_ON;$WHO$失去了对头衔§Y$TITLE$§!的宣称权\n;;;;;;;;;;x
@@ -782,7 +782,7 @@ EVTOPTB2490;这不关我事……;;;;;;;;;;x
 EVTDESC2000;我的[GetFromRelation][From.GetFirstName]某种程度上是住在厨房里了，小馋鬼！;;;;;;;;;;x
 EVTOPTA2000;来，吃吧，快乐的孩子！;;;;;;;;;;x
 EVTOPTB2000;鞭打[From.GetHerHim]！;;;;;;;;;;x
-EVTOPTC2000;对[From.GetHerHim]谈论谦虚。;;;;;;;;;;x
+EVTOPTC2000;对[From.GetHerHim]谈论节制。;;;;;;;;;;x
 EVTOPTD2000;[Root.Religion.GetRandomGodName]的祈祷将会拯救 [From.GetHerHim]！;;;;;;;;;;x
 EVTDESC2010;我的[GetFromRelation] [From.GetFirstName]因为害怕变胖几乎不敢吃东西。;;;;;;;;;;x
 EVTOPTA2010;节制是一种美德！;;;;;;;;;;x
