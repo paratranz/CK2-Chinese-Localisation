@@ -532,7 +532,7 @@ CHARACTER_CREATED;$TYPE$出现在§Y$EMPLOYER$§!的宫廷。\n;;;;;;;;;;x
 HEALTH_EFFECT;§Y$WHO$§W $DIRECTION$ $VALUE$健康。\n;;;;;;;;;;x
 FERTILITY_EFFECT;§Y$WHO$§W $DIRECTION$ $PERC$生育能力。\n;;;;;;;;;;x
 CHANGECULTUREEFFECT;$WHERE$成为$NAME$。\n;;;;;;;;;;x
-RELIGION_CHANGE;$WHERE$成为$NAME$。\n;;;;;;;;;;x
+RELIGION_CHANGE;$WHERE$信奉$NAME$。\n;;;;;;;;;;x
 ACTIVATE_TITLE_EFFECT;§Y$TITLE$§!现在存在。\n;;;;;;;;;;x
 DEACTIVATE_TITLE_EFFECT;§Y$TITLE$§!不再存在。\n;;;;;;;;;;x
 CHARDEATHEFFECT;§Y$NAME$§!死亡！\n;;;;;;;;;;x
@@ -844,13 +844,13 @@ EVTOPTB2150;有些恐惧是好的，但要有限制;;;;;;;;;;x
 EVTOPTC2150;恐惧是心灵的杀手;;;;;;;;;;x
 EVTDESC2160;今天早上我的 [GetFromRelation] [From.GetFirstName]被蛇咬了！那个勇敢的小傻瓜总是找危险的事做。;;;;;;;;;;x
 EVTOPTA2160;那是我的 [From.GetLadLass]！;;;;;;;;;;x
-EVTOPTB2160;在大家面前赞扬 [From.GetHerHis] 勇敢！;;;;;;;;;;x
+EVTOPTB2160;在大家面前赞扬 [From.GetHerHis] 的勇敢！;;;;;;;;;;x
 EVTOPTC2160;要学会谨慎;;;;;;;;;;x
 EVTDESC2170;每次我的[GetFromRelation] [From.GetFirstName]遇见陌生人，[From.GetSheHe] 看起来就像马上要晕倒一样。;;;;;;;;;;x
 EVTOPTA2170;这位 [From.GetLadLass] 有点害羞;;;;;;;;;;x
 EVTOPTB2170;鞭子能治好害羞！;;;;;;;;;;x
-EVTOPTC2170;害羞是一个可怕的诅咒，我会不断和 [From.GetHerHim]谈话的。;;;;;;;;;;x
-EVTOPTD2170;祈祷 [Root.Religion.GetRandomGodName]会让其充满自信。;;;;;;;;;;x
+EVTOPTC2170;羞怯是一个可怕的诅咒，我会和 [From.GetHerHim]谈一谈。;;;;;;;;;;x
+EVTOPTD2170;祈祷 [Root.Religion.GetRandomGodName]会让其充满力量。;;;;;;;;;;x
 EVTDESC2180;当客人到达之后，我的 [GetFromRelation] [From.GetFirstName]第一个问候了他们并请教了他们一些问题。;;;;;;;;;;x
 EVTOPTA2180;这孩子很有潜力。;;;;;;;;;;x
 EVTOPTB2180;向宫廷里每一个人介绍[From.GetHerHim]！;;;;;;;;;;x
