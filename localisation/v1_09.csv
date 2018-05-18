@@ -122,12 +122,12 @@ EVTDESC319;似乎我和[From.GetTitledFirstName]的恋情制造了一个新生�
 EVTOPTA319;哎呀;;;;;;;;;;x
 SET_FATHER_OF_UNBORN_KNOWN;这待出生孩子的亲生父亲的身份被揭露出来\n;;;;;;;;;;x
 SET_FATHER_OF_UNBORN_NOT_KNOWN;不清楚谁是这待出生孩子的父亲\n;;;;;;;;;;x
-HAVE_NOT_DYNASTY_FLAG;没有家族旗帜;;;;;;;;;;x
-HAVE_DYNASTY_FLAG;拥有家族旗帜;;;;;;;;;;x
-HAD_DYNASTY_FLAG_LESS_THAN;已经拥有家族旗帜'§Y$FLAG$§!'少于§Y$DAYS$§!天;;;;;;;;;;x
-HAD_DYNASTY_FLAG_AT_LEAST;已经拥有家族旗帜'§Y$FLAG$§!'至少§Y$DAYS$§!天;;;;;;;;;;x
+HAVE_NOT_DYNASTY_FLAG;没有家族旗标;;;;;;;;;;x
+HAVE_DYNASTY_FLAG;拥有家族旗标;;;;;;;;;;x
+HAD_DYNASTY_FLAG_LESS_THAN;已经拥有家族旗标「§Y$FLAG$§!」少于 §Y$DAYS$§! 天;;;;;;;;;;x
+HAD_DYNASTY_FLAG_AT_LEAST;已经拥有家族旗帜「§Y$FLAG$§!」至少 §Y$DAYS$§! 天;;;;;;;;;;x
 d_hansa;汉萨同盟;;;;;;;;;;x
-d_hansa_adj;汉萨;;;;;;;;;;x
+d_hansa_adj;汉萨同盟;;;;;;;;;;x
 RESPECT;德望;;;;;;;;;;x
 RESPECT_DESC;德望是基于年龄和威望的一个数值，将决定其有多大可能被选为下一任共和国总督。它可以被已投入的竞选经费提升，但是女人和孩子永远无法被选上！;;;;;;;;;;x
 AGE_FACTOR;年龄因素;;;;;;;;;;x
@@ -138,29 +138,29 @@ ISNT_MERCHANT_REPUBLIC;不是商业共和国;;;;;;;;;;x
 patrician_elective;共和国选举法;;;;;;;;;;x
 succ_patrician_elective;共和国选举法;;;;;;;;;;x
 succ_patrician_elective_desc;这是伟大的商业共和国的继承法，下一任共和国总督将在五个共和国望族的族长中选举产生，选举取决于年龄、威望和已投入的竞选经费。;;;;;;;;;;x
-IN_FAVOR_OF;支持 §Y$NAME$§!;;;;;;;;;;x
+IN_FAVOR_OF;支持 §Y$NAME$§W;;;;;;;;;;x
 NO_BANKRUPT;你没有破产;;;;;;;;;;x
 TRADEPOST_PROV;位于$PROV$的贸易站;;;;;;;;;;x
-TRADEPOST_PROV_LONG;$PROV$ - §Y$REPUBLIC$§!(§Y$FAMILY$§!)贸易站;;;;;;;;;;x
-TRADE_COST_DIST_TOTAL;远途惩罚：§Y+$PENALTY$%§! (总距离 §Y$MULT$%§!);;;;;;;;;;x
-TRADE_COST_DIST;离共和国拥有的省份距离 ( §Y$PROVINCE$§! )：§Y$COST$§!;;;;;;;;;;x
+TRADEPOST_PROV_LONG;$PROV$ - §Y$REPUBLIC$§!（§Y$FAMILY$§!）贸易站;;;;;;;;;;x
+TRADE_COST_DIST_TOTAL;远途惩罚：§Y+$PENALTY$%§!（总距离 §Y$MULT$%§!）;;;;;;;;;;x
+TRADE_COST_DIST;离共和国拥有的省份距离（§Y$PROVINCE$§W）：§Y$COST$§W;;;;;;;;;;x
 TRADE_COST_REGION_PEN;不同贸易区域：§Y+$PENALTY$§!;;;;;;;;;;x
-TRADE_COST_MULT;距离导致的成本上升乘数：§Y$MULT$%§!;;;;;;;;;;x
-TOTAL_COST;总支出：§Y$COST$§!;;;;;;;;;;x
+TRADE_COST_MULT;距离导致的成本上升系数：§Y$MULT$%§!;;;;;;;;;;x
+TOTAL_COST;总支出：§Y$COST$§W;;;;;;;;;;x
 TRADEPOST_FINISHED_SETUP;贸易站建设完成;;;;;;;;;;x
-TRADEPOST_FINISHED_LOG;§Y$REPUBLIC$§!的§Y$FAMILY$§!家族在§Y$PROVINCE$§!建立了一座贸易站.;;;;;;;;;;x
-TRADEPOST_OWNER;这个贸易站由 §Y$FAMILY$§! 家族拥有;;;;;;;;;;x
+TRADEPOST_FINISHED_LOG;§Y$REPUBLIC$§!的§Y$FAMILY$§!家族在§Y$PROVINCE$§!建立了一座贸易站。;;;;;;;;;;x
+TRADEPOST_OWNER;这个贸易站由§Y$FAMILY$§W家族拥有;;;;;;;;;;x
 TRADEREGION_DESC;这个郡属于§Y$REGION$§!;;;;;;;;;;x
 TRADE;贸易;;;;;;;;;;x
-TRADE_ZONE;贸易区:;;;;;;;;;;x
-TOTAL_TRADE_FAMILY;家族总收入:;;;;;;;;;;x
+TRADE_ZONE;贸易区：;;;;;;;;;;x
+TOTAL_TRADE_FAMILY;家族总收入：;;;;;;;;;;x
 TRADE_ZONE_BONUS;贸易区域加成;;;;;;;;;;x
 TRADE_CONNECTED_BONUS;与首都连接;;;;;;;;;;x
 CURRENT_INCOME;当前收入基数：§Y$INCOME$§!;;;;;;;;;;x
 TRADEZONE_SIZE;贸易区域规模;;;;;;;;;;x
 TRADEZONE_SIZE_DESC;本贸易区域内贸易站数目（包括本贸易站）;;;;;;;;;;x
 TRADEZONE_VALUE;贸易区域价值;;;;;;;;;;x
-TRADEZONE_VALUE_DESC;贸易区域内的领地数\n影响本区域内贸易站和城市的数量:\n贸易站：§Y$TPBONUS$§!\n城市：§Y$CTBONUS$§!;;;;;;;;;;x
+TRADEZONE_VALUE_DESC;贸易区域内的领地数\n影响本区域内贸易站和城市的数量：\n贸易站：§Y$TPBONUS$§!\n城市：§Y$CTBONUS$§!;;;;;;;;;;x
 TRADEZONE_INCOME;贸易区域收入;;;;;;;;;;x
 TRADEZONE_INCOME_DESC;本贸易区域内贸易站总收入：§Y$INCOME$§!¤;;;;;;;;;;x
 TheRepublicDLC;共和国;;;;;;;;;;x
@@ -184,120 +184,120 @@ region_west_med;西地中海贸易区;;;;;;;;;;x
 region_north_atlantic;北大西洋贸易区;;;;;;;;;;x
 region_baltic;波罗的海贸易区;;;;;;;;;;x
 CANT_BUILD_TRADEPOST_EMBARGO;未被$WHO$禁运;;;;;;;;;;x
-CANT_BUILD_TRADEPOST_COASTAL;是海岸;;;;;;;;;;x
+CANT_BUILD_TRADEPOST_COASTAL;沿海;;;;;;;;;;x
 IS_YOUNGER_THAN;年少于;;;;;;;;;;x
 IS_OLDER_THAN;年长于;;;;;;;;;;x
 CAMPAIGN_FUND;竞选经费;;;;;;;;;;x
-CAMPAIGN_FUND_DESC;竞选经费将会提高你在选举议会中的德望并将会提高你在竞选 $RULER_TITLE$ 中的获胜几率。你可以自由地调整经费总量直到现任 $RULER_TITLE$ 去世，届时经费中将被用于竞选当中;;;;;;;;;;x
+CAMPAIGN_FUND_DESC;竞选经费将会提高你在选举议会中的德望并将会提高你在竞选$RULER_TITLE$中的获胜几率。你可以自由地调整经费总量直到现任$RULER_TITLE$去世，届时经费中将被用于竞选当中。;;;;;;;;;;x
 EXPECTED_SUCCESSOR;预期继承人;;;;;;;;;;x
-EXPECTED_SUCCESSOR_DESC;§Y$HEIR$§!被广泛认为是§Y$RULER$§!的继承者. 但选举总伴随着些许不确定 - 为了确保成功，你可能需要增加你的竞选经费.;;;;;;;;;;x
+EXPECTED_SUCCESSOR_DESC;§Y$HEIR$§!被广泛认为是§Y$RULER$§!的继承者。但选举总伴随着些许不确定 - 为了确保成功，你可能需要增加你的竞选经费。;;;;;;;;;;x
 opinion_patrician_wo_council_position;不在内阁任职;;;;;;;;;;x
 THE_REPUBLIC;共和国;;;;;;;;;;x
 PATRICIAN_DYNASTY_FALLS_SETUP;共和国家族消亡;;;;;;;;;;x
-PATRICIAN_DYNASTY_FALLS_LOG;随着§Y$PATRICIAN$§!的去世，望族§Y$DYNASTY$§!绝嗣了;;;;;;;;;;x
+PATRICIAN_DYNASTY_FALLS_LOG;随着§Y$PATRICIAN$§!的去世，望族§Y$DYNASTY$§!绝嗣了。;;;;;;;;;;x
 PATRICIAN_DYNASTY_RISES_SETUP;新的共和国家族崛起;;;;;;;;;;x
-PATRICIAN_DYNASTY_RISES_LOG;一个新的显赫家族在§Y$PATRICIAN$§!的领导下，在$TITLE_ADJ$的政坛冉冉升起.;;;;;;;;;;x
+PATRICIAN_DYNASTY_RISES_LOG;一个新的显赫家族在§Y$PATRICIAN$§!的领导下，在$TITLE_ADJ$的政坛冉冉升起。;;;;;;;;;;x
 NEW_DOGE_ELECTED_SETUP;商业共和国选举;;;;;;;;;;x
-NEW_DOGE_ELECTED_LOG;§Y$NEW_DOGE$§!被选举为伟大的§Y$TITLE$§!共和国新任的$RULER_TITLE$.;;;;;;;;;;x
+NEW_DOGE_ELECTED_LOG;§Y$NEW_DOGE$§!被选举为伟大的§Y$TITLE$§!共和国新任的$RULER_TITLE$。;;;;;;;;;;x
 GREAT_DUKE;大公;;;;;;;;;;x
 city_king;自由市执政官;;;;;;;;;;x
 city_duke;大市长;;;;;;;;;;x
 CB_NAME_EMBARGO;禁运;;;;;;;;;;x
-WAR_NAME_EMBARGO;$ORDER$$FIRST_ADJ$——$SECOND_ADJ$禁运战争;;;;;;;;;;x
+WAR_NAME_EMBARGO;$ORDER$$FIRST_ADJ$ - $SECOND_ADJ$禁运战争;;;;;;;;;;x
 CB_NAME_COASTAL_REPUBLIC;夺取[Title.GetBaseName]城市;;;;;;;;;;x
-WAR_NAME_COASTAL_REPUBLIC;$ORDER$$FIRST_ADJ$——$SECOND_ADJ$夺取城市$OTHER_TITLE$战争;;;;;;;;;;x
+WAR_NAME_COASTAL_REPUBLIC;$ORDER$$FIRST_ADJ$ - $SECOND_ADJ$夺取城市$OTHER_TITLE$战争;;;;;;;;;;x
 CB_NAME_COASTAL_COUNTY_REPUBLIC;夺取[Title.GetBaseName];;;;;;;;;;x
-WAR_NAME_COASTAL_COUNTY_REPUBLIC;$ORDER$$FIRST_ADJ$——$SECOND_ADJ$夺取$OTHER_TITLE$沿岸战争;;;;;;;;;;x
+WAR_NAME_COASTAL_COUNTY_REPUBLIC;$ORDER$$FIRST_ADJ$ - $SECOND_ADJ$夺取$OTHER_TITLE$海岸战争;;;;;;;;;;x
 IS_EMBARGOING;正在禁运§Y$OTHER$§!;;;;;;;;;;x
 REPUBLICAN;共和国商人;;;;;;;;;;x
 IS_NOT_EMBARGOING;没有禁运§Y$OTHER$§!;;;;;;;;;;x
-INTERACTION_REQUIRES_RECIPIENT_NO_CONTESTED_TITLES;§Y[Recipient.GetTitledFirstName]§! 没有一个处于战争争议中的头衔;;;;;;;;;;x
+INTERACTION_REQUIRES_RECIPIENT_NO_CONTESTED_TITLES;§Y[Recipient.GetTitledFirstName]§!没有一个处于战争争议中的头衔;;;;;;;;;;x
 INTERACTION_REPUBLICS_NEED_IMPRISON_REASON;共和国领袖有合法逮捕的理由;;;;;;;;;;x
-INTERACTION_REPUBLICS_NEED_REVOKE_REASON;共和国领袖有被合法收回头衔的理由;;;;;;;;;;x
+INTERACTION_REPUBLICS_NEED_REVOKE_REASON;共和国领袖有合法收回头衔的理由;;;;;;;;;;x
 INTERACTION_REQUIRES_PATRICIAN_DOWRY;可以承担与一名贵族女性结婚的彩礼 §Y$DOWRY$§!¤;;;;;;;;;;x
 OFFER_MARRIGE_INTERACTION_4;迎娶一个像§Y[RecipientExtra.GetFirstName]§!一样的贵族女性需要彩礼 §R$DOWRY$§!¤。;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_4;迎娶一个像§Y[RecipientExtra.GetFirstName]§!一样的贵族女性需要彩礼 §R$DOWRY$§!¤。;;;;;;;;;;x
 OFFER_MARRIGE_INTERACTION_LETTER_BRIDE_PRICE;我们提议让[ActorExtra.GetBestName]和[RecipientExtra.GetBestName]结为夫妻。当然对于这样一位高贵的女性，我们将会提供彩礼 $DOWRY$¤;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_LETTER_BRIDE_PRICE;我们提议让[ActorExtra.GetBestName]和[RecipientExtra.GetBestName]结为夫妻。当然对于这样一位高贵的女性，我们将会提供彩礼 $DOWRY$¤;;;;;;;;;;x
 RELEASE_VASSAL_INTERACTION_TITLE;准许独立;;;;;;;;;;x
-RELEASE_VASSAL_INTERACTION_DESC;承认一名封臣独立;;;;;;;;;;x
-RELEASE_VASSAL_INTERACTION_LONG_DESC;独立的领主可以准许一名直属封臣独立。;;;;;;;;;;x
+RELEASE_VASSAL_INTERACTION_DESC;承认封臣独立;;;;;;;;;;x
+RELEASE_VASSAL_INTERACTION_LONG_DESC;独立的领主可以准许直属封臣独立。;;;;;;;;;;x
 RELEASE_VASSAL_INTERACTION_ACCEPT_SETUP;承认独立;;;;;;;;;;x
-RELEASE_VASSAL_INTERACTION_ACCEPT_LOG;§Y[Actor.GetTitledName]§! 承认 §Y[Recipient.GetTitledName]§! 独立;;;;;;;;;;x
+RELEASE_VASSAL_INTERACTION_ACCEPT_LOG;§Y[Actor.GetTitledName]§W承认§Y[Recipient.GetTitledName]§W独立;;;;;;;;;;x
 RELEASE_VASSAL_INTERACTION_DECLINE_SETUP;拒绝独立;;;;;;;;;;x
-RELEASE_VASSAL_INTERACTION_DECLINE_LOG;§Y[Recipient.GetTitledName]§! 拒接 §Y[Actor.GetTitledName]授予的独立§!;;;;;;;;;;x
-RELEASE_VASSAL_INTERACTION_OFFER;[Actor.GetTitledName]承认你的独立;;;;;;;;;;x
-RELEASE_VASSAL_INTERACTION_LETTER;我将你移除直辖封臣并不再是你的领主。[Actor.Religion.GetRandomGodNameCap] 祝你拥有一个美好的未来!;;;;;;;;;;x
+RELEASE_VASSAL_INTERACTION_DECLINE_LOG;§Y[Recipient.GetTitledName]§W拒绝§Y[Actor.GetTitledName]§W授予的独立;;;;;;;;;;x
+RELEASE_VASSAL_INTERACTION_OFFER;[Actor.GetTitledName]承认你的独立！;;;;;;;;;;x
+RELEASE_VASSAL_INTERACTION_LETTER;我将解除你的附庸关系并不再是你的领主。[Actor.Religion.GetRandomGodNameCap]祝你拥有一个美好的未来！;;;;;;;;;;x
 VASSAL_RELEASED_SETUP;附庸关系结束;;;;;;;;;;x
-VASSAL_RELEASED_LETTER;尊敬的 $VASSAL$，基于政治考虑，我将解除你的封臣身份并允许你完全独立.祝你好运!\n\n$LIEGE$;;;;;;;;;;x
+VASSAL_RELEASED_LETTER;尊敬的$VASSAL$，基于政治考虑，我将解除你的附庸关系并允许你完全独立。祝你好运！\n\n$LIEGE$;;;;;;;;;;x
 VASSAL_RELEASED_LOG;§Y$LIEGE$§!已经承认§Y$VASSAL$§!的独立;;;;;;;;;;x
 ca_wall_q_1_desc;这条围绕着城堡的浅护城河增加了另一个需要进攻者克服的障碍。;;;;;;;;;;x
 ca_wall_q_2_desc;这些狭窄的箭孔能让守军将箭雨洒向敌军而不会受到回击。;;;;;;;;;;x
 ca_wall_q_3_desc;一个可以根据情况需要升起降下的固化城门。;;;;;;;;;;x
 ca_wall_q_4_desc;一条淌着污水的大护城河，对进攻者形成难以克服的屏障。;;;;;;;;;;x
 ca_wall_q_5_desc;一个外堡群以确保在攻击者到达主城墙之前就承受足量远程火力。;;;;;;;;;;x
-ca_wall_1_desc;简单的栅栏只可暂且阻拦乌合之众，对训练有素的进攻者则是无能为力.;;;;;;;;;;x
-ca_wall_2_desc;矮墙有一定的防守效果，但仍然易被突破.;;;;;;;;;;x
+ca_wall_1_desc;简单的栅栏只可暂且阻拦乌合之众，对训练有素的进攻者则是无能为力，;;;;;;;;;;x
+ca_wall_2_desc;矮墙有一定的防守效果，但仍然易被突破，;;;;;;;;;;x
 ca_wall_3_desc;围绕着城堡的石墙足以让任何攻击者畏惧。;;;;;;;;;;x
 ca_wall_4_desc;围绕着城堡的大型城墙足以让任何攻击者畏惧。;;;;;;;;;;x
 ca_wall_5_desc;围绕着城堡的巨型城墙足以让任何攻击者畏惧。;;;;;;;;;;x
 ca_keep_1_desc;要塞给城堡内的居民提供了一个坚固的住所。;;;;;;;;;;x
-ca_militia_barracks_1_desc;为农民提供一些军事训练的简单训练场.;;;;;;;;;;x
-ca_militia_barracks_2_desc;为征召兵提供弓箭训练的靶场.;;;;;;;;;;x
-ca_militia_barracks_3_desc;为征召兵提供弓箭训练的大型靶场.;;;;;;;;;;x
-ca_barracks_1_desc;这些营房是征召兵们的住所.;;;;;;;;;;x
-ca_stable_1_desc;城外不远的马厩存放着征召兵们的战马.;;;;;;;;;;x
-ca_town_1_desc;一个小村庄围绕着城堡而建，当地的农民会涌向防御墙以寻求庇护.;;;;;;;;;;x
-ca_town_2_desc;一个小镇围绕着城堡而建，当地的农民会涌向防御墙以寻求庇护.;;;;;;;;;;x
-ca_town_3_desc;一个城市围绕着城堡而建，当地的农民会涌向防御墙以寻求庇护.;;;;;;;;;;x
-ca_town_4_desc;曾经围绕城堡的村庄已经发展成为了一座大城市，里面住着上千视之为桑梓的住民.;;;;;;;;;;x
-ca_town_5_desc;曾经围绕城堡的村庄已经发展成为了一座繁华的大都会，里面住着上千视之为桑梓的住民.;;;;;;;;;;x
-ca_warrior_cult_desc;周围部落的异教战士们聚集于此，他们将在战前化为一群嗜血的虎狼之师.;;;;;;;;;;x
-ca_culture_saxon_english_1_desc;英格兰和威尔士悠久的弓箭传统造就了大量的长弓手. 在此他们可训练他们强弓技巧.;;;;;;;;;;x
-ca_culture_group_baltic_1_desc;波罗的海战士们汇聚于此相互搏击来锻炼他们的力量.;;;;;;;;;;x
-ca_culture_frank_norman_german_1_desc;骑士们在此进行马上比武，其他的则展示他们的骑士风度.;;;;;;;;;;x
-ca_culture_group_iberian_1_desc;灵巧的伊比利亚「马人」轻骑兵在此集结.受到摩尔人的启发，他们擅长于骚扰战和遭遇战。;;;;;;;;;;x
-ca_culture_italian_1_desc;训练有素的意大利长枪队在此集结，他们长于防御.;;;;;;;;;;x
+ca_militia_barracks_1_desc;为农民提供一些军事训练的简单训练场。;;;;;;;;;;x
+ca_militia_barracks_2_desc;为征召兵提供弓箭训练的靶场。;;;;;;;;;;x
+ca_militia_barracks_3_desc;为征召兵提供弓箭训练的大型靶场。;;;;;;;;;;x
+ca_barracks_1_desc;这些营房是征召兵们的住所。;;;;;;;;;;x
+ca_stable_1_desc;城外不远的马厩存放着征召兵们的战马。;;;;;;;;;;x
+ca_town_1_desc;一个小村庄围绕着城堡而建，当地的农民会涌向防御墙以寻求庇护。;;;;;;;;;;x
+ca_town_2_desc;一个小镇围绕着城堡而建，当地的农民会涌向防御墙以寻求庇护。;;;;;;;;;;x
+ca_town_3_desc;一个城市围绕着城堡而建，当地的农民会涌向防御墙以寻求庇护。;;;;;;;;;;x
+ca_town_4_desc;曾经围绕城堡的村庄已经发展成为了一座大城市，里面住着上千视之为桑梓的住民。;;;;;;;;;;x
+ca_town_5_desc;曾经围绕城堡的村庄已经发展成为了一座繁华的大都会，里面住着上千视之为桑梓的住民。;;;;;;;;;;x
+ca_warrior_cult_desc;周围部落的异教战士们聚集于此，他们将在战前化为一群嗜血的虎狼之师。;;;;;;;;;;x
+ca_culture_saxon_english_1_desc;英格兰和威尔士悠久的弓箭传统造就了大量的长弓手。在此他们可训练他们强弓技巧。;;;;;;;;;;x
+ca_culture_group_baltic_1_desc;波罗的海战士们汇聚于此相互搏击来锻炼他们的力量。;;;;;;;;;;x
+ca_culture_frank_norman_german_1_desc;骑士们在此进行马上比武，其他的则展示他们的骑士风度。;;;;;;;;;;x
+ca_culture_group_iberian_1_desc;灵巧的伊比利亚「马人」轻骑兵在此集结。受到摩尔人的启发，他们擅长于骚扰战和遭遇战。;;;;;;;;;;x
+ca_culture_italian_1_desc;训练有素的意大利长枪队在此集结，他们长于防御。;;;;;;;;;;x
 ca_culture_russian_1_desc;德鲁日纳近卫在此训练，这些受到良好训练的壮士为罗斯领主服务。;;;;;;;;;;x
-ca_culture_group_north_germanic_1_desc;斯堪的纳维亚侍卫在此训练.装备着强力战斧的他们受到过良好的训练，即使他们的脾气有点暴躁.;;;;;;;;;;x
-ca_culture_hungarian_1_desc;骠骑兵是优秀的轻骑兵，他们在反复穿插敌阵的过程中给予敌人无情地打击.;;;;;;;;;;x
-ca_culture_group_arabic_1_desc;骆驼，尤其是那些生活在沙漠环境中的种类是优秀且有耐力的牲畜.它们的气息可以惊慑敌人的战马，在战斗中它们也更易于操作.;;;;;;;;;;x
-ca_culture_group_byzantine_1_desc;这些重骑兵队的骑兵和战马都披着重甲.铁甲骑兵是战场上的恐怖，很少有军队能承受住他们的大规模冲锋.;;;;;;;;;;x
-ca_culture_irish_1_desc;来自苏格兰的居尔特武士是优秀的重步兵，他们以坚强的防御力而著称。;;;;;;;;;;x
-ca_culture_ethiopian_1_desc;大群埃塞俄比亚战士在此集结，他们能熟练地使用弓箭和长矛.;;;;;;;;;;x
-ca_culture_group_south_slavic_1_desc;轻骑兵发源于塞尔维亚.他们装备着盾牌和长矛，为战场提供支援，并在合适的时机对敌人进行追击.;;;;;;;;;;x
-ca_culture_dutch_1_desc;弗拉芒民兵善用刺锤，他们曾多次击败铠甲骑兵.;;;;;;;;;;x
-ca_culture_scottish_1_desc;苏格兰方阵由紧密排列的苏格兰长矛兵组成.如果遇到骑兵，他们将会把长矛稳固地架设起来. 只有傻子和疯子会去冲击这些利器组成的密墙.;;;;;;;;;;x
-ca_culture_group_altaic_1_desc;来自亚洲大草原的恐怖的弓骑兵在此训练.这些骑手比他们的敌人拥有更高的机动力，他们是有史以来最棒的战士之一.;;;;;;;;;;x
-ca_culture_west_african_1_desc;这些自由民战士装备着弓和毒箭.;;;;;;;;;;x
+ca_culture_group_north_germanic_1_desc;斯堪的纳维亚侍卫在此训练。装备着强力战斧的他们受到过良好的训练，即使他们的脾气有点暴躁。;;;;;;;;;;x
+ca_culture_hungarian_1_desc;骠骑兵是优秀的轻骑兵，他们在反复穿插敌阵的过程中给予敌人无情的打击。;;;;;;;;;;x
+ca_culture_group_arabic_1_desc;骆驼，尤其是那些生活在沙漠环境中的种类是优秀且有耐力的牲畜。它们的气息可以惊慑敌人的战马，在战斗中它们也更易于操作。;;;;;;;;;;x
+ca_culture_group_byzantine_1_desc;这些重骑兵队的骑兵和战马都披着重甲。铁甲骑兵是战场上的恐怖，很少有军队能承受住他们的大规模冲锋。;;;;;;;;;;x
+ca_culture_irish_1_desc;来自苏格兰的加洛韦斧兵是优秀的重步兵，他们以坚强的防御力而著称。;;;;;;;;;;x
+ca_culture_ethiopian_1_desc;大群埃塞俄比亚战士在此集结，他们能熟练地使用弓箭和长矛。;;;;;;;;;;x
+ca_culture_group_south_slavic_1_desc;轻骑兵发源于塞尔维亚。他们装备着盾牌和长矛，为战场提供支援，并在合适的时机对敌人进行追击。;;;;;;;;;;x
+ca_culture_dutch_1_desc;弗拉芒民兵善用刺锤，他们曾多次击败铠甲骑兵。;;;;;;;;;;x
+ca_culture_scottish_1_desc;苏格兰方阵由紧密排列的苏格兰长枪兵组成。如果遇到骑兵，他们将会把长矛稳固地架设起来。只有傻子和疯子会去冲击这些利器组成的密墙。;;;;;;;;;;x
+ca_culture_group_altaic_1_desc;来自亚洲大草原的恐怖的弓骑兵在此训练。这些骑手比他们的敌人拥有更高的机动力，他们是有史以来最棒的战士之一。;;;;;;;;;;x
+ca_culture_west_african_1_desc;这些自由民战士装备着弓和毒箭。;;;;;;;;;;x
 ct_wall_q_1_desc;这条围绕着城市的浅护城河增加了另一个需要进攻者克服的障碍。;;;;;;;;;;x
-ct_wall_q_2_desc;门楼守卫着城市的入口，并且更加方便地控制着人员的进出.;;;;;;;;;;x
+ct_wall_q_2_desc;门楼守卫着城市的入口，并且更加方便地控制着人员的进出。;;;;;;;;;;x
 ct_wall_3_desc;围绕着城市的石墙足以让任何攻击者畏惧。;;;;;;;;;;x
 ct_wall_4_desc;围绕着城市的大型城墙足以让任何攻击者畏惧。;;;;;;;;;;x
 ct_wall_5_desc;围绕着城市的巨型城墙足以让任何攻击者畏惧。;;;;;;;;;;x
 ct_training_grounds_1_desc;城市民兵在这里下训练和武装自己。;;;;;;;;;;x
-ct_barracks_2_desc;这片场地为城中居民提供弓术训练以是他们成为合格的箭手.;;;;;;;;;;x
-ct_guard_1_desc;城市警卫的总部设立于此，他们时刻监视着那些试图破坏法律扰乱和平的人.;;;;;;;;;;x
+ct_barracks_2_desc;这片场地为城中居民提供弓术训练以是他们成为合格的箭手。;;;;;;;;;;x
+ct_guard_1_desc;城市警卫的总部设立于此，他们时刻监视着那些试图破坏法律扰乱和平的人。;;;;;;;;;;x
 ct_marketplace_1_desc;一座小市场设在城市的中心，商人们在此兜售他们的货物。;;;;;;;;;;x
 ct_marketplace_2_desc;城市的行会组织着他们的活动。;;;;;;;;;;x
 ct_marketplace_3_desc;收费站是提高城市收入的一个有效方法，行商们如果想通过就必须交出钱来。;;;;;;;;;;x
 ct_marketplace_4_desc;法律纠纷在此决断，保证商贸得以顺利地进行。;;;;;;;;;;x
 ct_marketplace_5_desc;化验室检验贵金属的纯度，化验师的检验结果是纯度的证明，如同统治者的标志一样。这促进了贸易的公正。;;;;;;;;;;x
 ct_marketplace_6_desc;露天市场能为一场盛大的集市提供足够大的场地，来自全国各地的商人和艺人将会汇集在这里。;;;;;;;;;;x
-ct_port_1_desc;港口可以装卸船上的货物.;;;;;;;;;;x
-ct_university_1_desc;一个为有资格获得高等教育的人们求学的地方.;;;;;;;;;;x
+ct_port_1_desc;港口可以装卸船上的货物。;;;;;;;;;;x
+ct_university_1_desc;一个为有资格获得高等教育的人们求学的地方。;;;;;;;;;;x
 tp_wall_q_1_desc;这条围绕着教区的浅护城河增加了另一个需要进攻者克服的障碍。;;;;;;;;;;x
-tp_wall_q_2_desc;门楼守卫着教区的入口，并且更加方便地控制着人员的进出.;;;;;;;;;;x
+tp_wall_q_2_desc;门楼守卫着教区的入口，并且更加方便地控制着人员的进出。;;;;;;;;;;x
 tp_wall_3_desc;围绕着教区的石墙足以让任何攻击者畏惧。;;;;;;;;;;x
 tp_wall_4_desc;围绕着教区的大型城墙足以让任何攻击者畏惧。;;;;;;;;;;x
-tp_wall_5_desc;围绕着教区的巨墙足以让任何攻击者畏惧。;;;;;;;;;;x
-tp_monastery_1_desc;教堂是本地社群的精神中心.;;;;;;;;;;x
-tp_monastery_2_desc;来自全国各地人们前来参拜这座大教堂.它是本地的中心地标，它的塔尖即使在很远的地方也能看到.;;;;;;;;;;x
-tp_barracks_1_desc;一旦有需要，本地的农民将被征召进教堂卫队前来驻防.;;;;;;;;;;x
-tp_elite_barracks_1_desc;这些神圣的战士们宣誓将会以生命守卫这座教堂.;;;;;;;;;;x
-tp_town_1_desc;一座住满虔诚农民的小村庄围绕着教堂.;;;;;;;;;;x
-tp_town_2_desc;一座住满虔诚住民的城镇围绕着教堂.;;;;;;;;;;x
-tp_town_3_desc;一座住满虔诚市民的城市围绕着教堂.;;;;;;;;;;x
+tp_wall_5_desc;围绕着教区的巨型城墙足以让任何攻击者畏惧。;;;;;;;;;;x
+tp_monastery_1_desc;教堂是本地社群的精神中心。;;;;;;;;;;x
+tp_monastery_2_desc;来自全国各地人们前来参拜这座大教堂。它是本地的中心地标，它的塔尖即使在很远的地方也能看到。;;;;;;;;;;x
+tp_barracks_1_desc;一旦有需要，本地的农民将被征召进教堂卫队前来驻防。;;;;;;;;;;x
+tp_elite_barracks_1_desc;这些神圣的战士们宣誓将会以生命守卫这座教堂。;;;;;;;;;;x
+tp_town_1_desc;一座住满虔诚农民的小村庄围绕着教堂。;;;;;;;;;;x
+tp_town_2_desc;一座住满虔诚住民的城镇围绕着教堂。;;;;;;;;;;x
+tp_town_3_desc;一座住满虔诚市民的城市围绕着教堂。;;;;;;;;;;x
 tp_town_4_desc;曾经围绕在教堂周围的村庄已经发展成为了一座大城市，里面住着上千视之为桑梓的居民。;;;;;;;;;;x
 tp_town_5_desc;曾经围绕在教堂周围的村庄已经发展成为了一座繁华的大都会，里面住着上千视之为桑梓的居民。;;;;;;;;;;x
 tp_school_1_desc;这所学校传授许多不同种类的科目并且是少有的高等教育中心，但通常这里的学生将会成为教士。这里不招收女生。;;;;;;;;;;x
@@ -311,7 +311,7 @@ tp_wall_q_1_desc_muslim;这条围绕着清真寺的浅护城河增加了另一�
 tp_wall_q_2_desc_muslim;门楼守卫着清真寺的入口，并且更加方便地控制着人员的进出。;;;;;;;;;;x
 tp_wall_3_desc_muslim;围绕着清真寺的石墙足以让任何攻击者畏惧。;;;;;;;;;;x
 tp_wall_4_desc_muslim;围绕着清真寺的大型城墙足以让任何攻击者畏惧。;;;;;;;;;;x
-tp_wall_5_desc_muslim;围绕着清真寺的巨墙足以让任何攻击者畏惧。;;;;;;;;;;x
+tp_wall_5_desc_muslim;围绕着清真寺的巨型城墙足以让任何攻击者畏惧。;;;;;;;;;;x
 tp_monastery_1_desc_muslim;清真寺是本地社群的精神中心。;;;;;;;;;;x
 tp_monastery_2_desc_muslim;来自全国各地的人们前来参拜这座雄伟的清真寺，它是本地的中心地标，它的宣礼塔即使在很远的地方也能看到。;;;;;;;;;;x
 tp_barracks_1_desc_muslim;一旦有需要，本地的农民将被征召进清真寺卫队前来驻防。;;;;;;;;;;x
@@ -325,7 +325,7 @@ d_gotland;哥特兰;;;;;;;;;;x
 d_gotland_adj;哥特兰;;;;;;;;;;x
 FC_FIND_CHARACTERS;找到角色;;;;;;;;;;x
 CB_NAME_SEIZE_TRADE_POST;夺取[Title.GetBaseName]贸易站;;;;;;;;;;x
-WAR_NAME_SEIZE_TRADE_POST;$ORDER$$FIRST_ADJ$——$SECOND_ADJ$$OTHER_TITLE$贸易战争;;;;;;;;;;x
+WAR_NAME_SEIZE_TRADE_POST;$ORDER$$FIRST_ADJ$ - $SECOND_ADJ$$OTHER_TITLE$贸易战争;;;;;;;;;;x
 TRIGGER_SEA_ZONE;贸易站主人;;;;;;;;;;x
 SEIZE_TRADE_POST_EFFECT;§Y$TAKER$§!夺取了位于§Y$PROV$§!的贸易站;;;;;;;;;;x
 opinion_feuding_family;世仇家族;;;;;;;;;;x
@@ -334,8 +334,8 @@ EVTDESC_REP_002;你刚刚得知你的一艘贸易船的船长将你的一部分�
 EVTOPTA_REP_002;这年头已经没人值得信任了吗？;;;;;;;;;;x
 EVTDESC_REP_003;你的一艘因风暴而延误的贸易船终于靠岸了。不幸的是船上的货物已经被海水浸泡完全报废。血本无归。;;;;;;;;;;x
 EVTOPTA_REP_003;可恶！;;;;;;;;;;x
-EVTDESC_REP_005;一艘属于[Root.GetOnlyDynastyName]海运帝国的贸易船延误了好几天了。今天早上另一名 [From.GetOnlyDynastyName]属下的船长带着失踪船舶的碎片进港了，他说他在风暴过后的海面上发现了这些东西，你的船舶好像在风暴中失事了。;;;;;;;;;;x
-EVTOPTA_REP_005;大海是他们的坟墓。;;;;;;;;;;x
+EVTDESC_REP_005;一艘属于[Root.GetOnlyDynastyName]海运帝国的贸易船延误了好几天了。今天早上另一名[From.GetOnlyDynastyName]属下的船长带着失踪船舶的碎片进港了，他说他在风暴过后的海面上发现了这些东西，你的船舶好像在风暴中失事了。;;;;;;;;;;x
+EVTOPTA_REP_005;大海将是他们的坟墓。;;;;;;;;;;x
 EVTDESC_REP_006;你的家族运输船的护航舰队在公海上中了海盗的埋伏！强盗们夺取了你两艘船，但更悲惨的是那两艘船上的被俘船员们。他们将作为奴隶和船上的那些货物一同卖掉。;;;;;;;;;;x
 EVTOPTA_REP_006;野蛮人！;;;;;;;;;;x
 EVTDESC_REP_007;一支挂着[Root.GetOnlyDynastyName]旗帜的护航船队在满载货物的归途中中了海盗的埋伏。幸好船员们反应及时，他们迅速扭转局势并虏获了两艘海盗船！赏金将会被分发下去，不过你得到了最大的那份！;;;;;;;;;;x
@@ -343,7 +343,7 @@ EVTOPTA_REP_007;终于有好消息了。;;;;;;;;;;x
 EVTDESC_REP_008;你的一艘满载着异国珍贵香料的货船回港了，消息传遍了[Root.MercRepCapital.GetName]，本地贵族们在码头排起了长队，希求能购得一些珍贵的货品。;;;;;;;;;;x
 EVTOPTA_REP_008;这些香料肯定会流行起来。;;;;;;;;;;x
 EVTDESC_REP_009;你的一名充满进取心的船长在异国的海岸发现了几个新的市场。他报告说这些遥远的港口充满了贸易机遇和利润。;;;;;;;;;;x
-EVTOPTA_REP_009;第62条规则... ...「风险越大，利益越大。」;;;;;;;;;;x
+EVTOPTA_REP_009;第62条规则……「风险越大，利益越大。」;;;;;;;;;;x
 EVTDESC_REP_010;不可思议，一艘属于[Root.GetOnlyDynastyName]家族的早先被认为失踪的货船在昨夜驶入港口。 船上插满了箭头，风帆也是勉强绑好，但船长依然完好地带回了他手下货物。他看来有不寻常的故事要讲。;;;;;;;;;;x
 EVTOPTA_REP_010;迟了总比没有强！;;;;;;;;;;x
 EVTDESC_REP_011;懒惰、忘恩负义的[Root.MercRepCapital.GetName]码头工人们拒绝装卸船舶上的货物！由于恶劣的工作环境和极低的薪水，他们不让任何人通过他们的封锁线。来自所有主要家族的军队迅速平定了这伙歹徒，但货物延期导致的高额损失已经不可避免。;;;;;;;;;;x
@@ -380,20 +380,20 @@ EVTOPTB_REP_104;我不会蠢得和他们那种过家家水平一样。;;;;;;;;;;
 no_own_ball_tooltip;你决定让这件事情随风而去。;;;;;;;;;;x
 EVTTOOLTIP_REP_105;你决定操办一场无与伦比的舞会。;;;;;;;;;;x
 EVTNAME_REP_105;舞会当天;;;;;;;;;;x
-EVTDESC_REP_105;终于到了你举行盛大舞会的这天，[Root.MercRepCapital.GetName]每一个有头有脸的人都来到了你的宅邸。每一个人，除了[FromFrom.GetOnlyDynastyName]家族的人。你的卫兵接到严令，不要放有他们血脉的任何人进来。\n\n在舞厅的一角，一个看起来似乎有点眼熟的大胡子男性正在令人不快地大声比较你的舞会和[FromFrom.GetOnlyDynastyName]的舞会。当你走近想要纠正他时，你注意到了他的声音......玛萨卡.....你冲到他面前揪掉他的浓密胡须，露出了[FromFrom.GetTitledFirstName]的真面目！「是你！」\n\n震惊之下，[FromFrom.GetFirstName]把你推向一旁，像一只受惊的兔子一样疯狂的冲向出口，把好几名正在跳舞的客人推倒在地。;;;;;;;;;;x
+EVTDESC_REP_105;终于到了你举行盛大舞会的这天，[Root.MercRepCapital.GetName]每一个有头有脸的人都来到了你的宅邸。每一个人，除了[FromFrom.GetOnlyDynastyName]家族的人。你的卫兵接到严令，不要放有他们血脉的任何人进来。\n\n在舞厅的一角，一个看起来似乎有点眼熟的大胡子男性正在令人不快地大声比较你的舞会和[FromFrom.GetOnlyDynastyName]的舞会。当你走近想要纠正他时，你注意到了他的声音......难道.....你冲到他面前揪掉他的浓密胡须，露出了[FromFrom.GetTitledFirstName]的真面目！「是你！」\n\n震惊之下，[FromFrom.GetFirstName]把你推向一旁，像一只受惊的兔子一样疯狂的冲向出口，把好几名正在跳舞的客人推倒在地。;;;;;;;;;;x
 EVTOPTA_REP_105;哈！让他跑。;;;;;;;;;;x
 EVTNAME_REP_151;[From.GetOnlyDynastyName]家族的旗舰;;;;;;;;;;x
 EVTDESC_REP_151;你听说与你不共戴天的仇敌，[From.GetOnlyDynastyName]家族，正在计划建造一艘前所未有的巨大的浆帆船。它甚至在尺寸和华丽上面超过威尼斯总督的旗舰——礼舟。[From.GetTitledFirstName]的狂妄达到了前所未有的水平！\n\n[Root.job_spymaster.GetTitledFirstName]，你的[Root.GetSpymasterName]，提出了一个计划来让这个令人不快的家伙永远不能下水。忠于[Root.job_spymaster.GetHerHim]的人将会化妆成造船的工匠潜入[From.GetOnlyDynastyName]家族位于[Root.MercRepCapital.GetName]的造船厂。一旦潜入成功，他们就会在船上加入几处脆弱的结构缺陷，它们很有可能逃过检测，直到该船处女航的那天……;;;;;;;;;;x
 EVTOPTA_REP_151;好主意！把我们的人派出去！;;;;;;;;;;x
 EVTOPTB_REP_151;这种愚蠢的方案不会奏效。;;;;;;;;;;x
 EVTNAME_REP_152;海亲节;;;;;;;;;;x
-EVTDESC_REP_152;[FromFrom.GetTitledFirstName]决定在今天为[FromFrom.GetOnlyDynastyName]家族新的旗舰举行下水仪式，今天恰好是一年一度的庆祝威尼斯海上霸权的海亲节。[FromFrom.GetFirstName]邀请了[Root.RelHead.GetTitledFirstName]本人到巨舰上观礼。在长长的船队驶过城市运河的时候，教宗把他的一枚戒指扔进水里，并宣布，「我们和她，海洋，举行婚礼，以......」\n\n在他说完这句话之前，大船突然倾斜并开始倾覆！教宗和[FromFrom.GetFirstName]都掉到了水里，但他们很快就被附近的小船救了起来。所有教堂的至高教宗一边拧着他湿透的长袍，一边喋喋不休的用亵渎的言语骂着因为尴尬脸红的像猴屁股一样的[FromFrom.GetFirstName]。;;;;;;;;;;x
+EVTDESC_REP_152;[FromFrom.GetTitledFirstName]决定在今天为[FromFrom.GetOnlyDynastyName]家族新的旗舰举行下水仪式，今天恰好是一年一度的庆祝威尼斯海上霸权的海亲节。[FromFrom.GetFirstName]邀请了[Root.RelHead.GetTitledFirstName]本人到巨舰上观礼。在长长的船队驶过城市运河的时候，教宗把他的一枚戒指扔进水里，并宣布，「我们和她，海洋，举行婚礼，以......」\n\n在他说完这句话之前，大船突然倾斜并开始倾覆！教宗和[FromFrom.GetFirstName]都掉到了水里，但他们很快就被附近的小船救了起来。普世教会的首席教宗一边拧着他湿透的长袍，一边喋喋不休的用亵渎的言语骂着因为尴尬脸红的像猴屁股一样的[FromFrom.GetFirstName]。;;;;;;;;;;x
 EVTOPTA_REP_152;哈哈哈哈！;;;;;;;;;;x
 EVTNAME_REP_153;下水仪式;;;;;;;;;;x
 EVTDESC_REP_153;[FromFrom.GetOnlyDynastyName]家族的旗舰完工了，[Root.MercRepCapital.GetName]的所有贵族都聚集在码头观看这艘大船下水。[FromFrom.GetTitledFirstName]特别的趾高气扬，尤其是当他看见你出现在人群中的时候。很快，光洁的船体滑入水中，升起了装饰有[FromFrom.GetOnlyDynastyName]家族纹章的船帆。\n\n突然这艘大船发出一声巨响，断成两截！人们倒吸一口冷气，震惊之下一片寂静，但是[FromFrom.GetFirstName]立刻转身看向你，眼中充满着怒火。「你！这是你干得好事！」他唾液横飞的冲你叫嚷道。他大喊大叫的想要冲向你，但是他的助手拼命拉住了他。「我不知道你是怎么做到这点的，[Root.GetFirstName]，但是我发誓你一定会为此付出代价的！你听见了么，[Root.GetFirstName]！你会付出代价的！」;;;;;;;;;;x
 EVTNAME_REP_154;海洋雄狮;;;;;;;;;;x
 EVTDESC_REP_154;你正坐在一艘[Root.GetOnlyDynastyName]家族的浆帆船的甲板上，享受着清爽的海风带来的海水的咸味，突然一个巨大的阴影遮住了阳光。一艘巨型浆帆船，比你的船的两倍还要大，紧挨着你的船划过，溅起的波浪把你打翻在甲板上。这是[FromFrom.GetOnlyDynastyName]家族的新旗舰！\n\n当你浑身是水的站起来的时候，你听到对面船上传来咯咯的笑声。[FromFrom.GetTitledFirstName]站在船帆旁边，带着自满的微笑俯视着你。「瞧，这不是[Root.GetTitledFirstName]么！你在这里干什么呢？当海上行驶的都是比你更大的船的时候，你应该加倍小心。我可不想发生意外......」你转过头去，不让他看见你的怒容。;;;;;;;;;;x
-EVTOPTA_REP_154;啊啊啊啊啊啊啊......这实在让人无法忍受......！;;;;;;;;;;x
+EVTOPTA_REP_154;啊啊啊啊......是可忍孰不可忍......！;;;;;;;;;;x
 EVTNAME_REP_155;你受到诚心邀请……;;;;;;;;;;x
 EVTDESC_REP_155;在[Root.MercRepCapital.GetName]又有一场公开行刑的日子被安排好，你被要求出席。虽然这种事情通常会让你感到厌烦，但你意识到这些即将被处死的人与[Root.job_spymaster.GetTitledFirstName]派去潜入[FromFrom.GetOnlyDynastyName]家族船场的是同一批人，这引起了你极大的关注。[FromFrom.GetTitledFirstName]同刽子手和犯人们站在一个台子上面，心满意足的微笑着看向你。\n\n「我的朋友，好好看看这些人，」[FromFrom.GetFirstName]开始说道，「他们是共和国之敌，想要密谋破坏[FromFrom.GetOnlyDynastyName]家族的新旗舰的建造。幸运的是，他们被抓个正着，而且已经确认他们还有共犯......」他递给你长长的一瞥，你想你明白这是怎么回事了。;;;;;;;;;;x
 EVTOPTA_REP_155;别这样，我们来谈谈如何把伤害降到最低……;;;;;;;;;;x
