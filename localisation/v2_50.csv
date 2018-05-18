@@ -92,8 +92,8 @@ EVTOPTB_ZE_5030;令人失望，但是可以理解。;;;;;;;;;;x
 EVTDESC_ZE_5040;我的[Root.GetTitle]，\n我发现这里的生活因为异教徒的缘故既可怜又危险。而且我相信他们完全无视[Root.Religion.GetRandomGodName]的荣光。我请求你让我回家做一些对于[Root.Religion.GetName]更加有意义的事情。\n\n你忠诚的从者，\n[Root.job_spiritual.GetTitledFirstName];;;;;;;;;;x
 EVTOPTA_ZE_5040;很好，我会记得[Root.job_spiritual.GetHerHim]。;;;;;;;;;;x
 EVTOPTB_ZE_5040;这个只会抱怨的懦夫已经不再有用了。;;;;;;;;;;x
-EVTOPTC_ZE_5040;[Root.job_spiritual.GetSheHeCap] 必须履行 [Root.job_spiritual.GetHerHis] 的职责.;;;;;;;;;;x
-EVTDESC_ZE_4010;你的[Root.GetMarshalName]，[Root.job_marshal.GetTitledName]，提出了新的军事技术研发计划，这个想法来源于[Root.job_marshal.GetSheHe] 最近认识的一个所谓的天才发明家兼工程师。 现在只差一些资金……;;;;;;;;;;x
+EVTOPTC_ZE_5040;[Root.job_spiritual.GetSheHeCap]必须履行[Root.job_spiritual.GetHerHis]职责。;;;;;;;;;;x
+EVTDESC_ZE_4010;你的[Root.GetMarshalName]，[Root.job_marshal.GetTitledName]，提出了新的军事技术研发计划，这个想法来源于[Root.job_marshal.GetSheHe]最近认识的一个所谓的天才发明家兼工程师。 现在只差一些资金……;;;;;;;;;;x
 EVTOPTA_ZE_4010;好，给你钱。;;;;;;;;;;x
 EVTOPTB_ZE_4010;不，这没有意义。;;;;;;;;;;x
 EVTTITLE_ZE_4020;装甲战车;;;;;;;;;;x
@@ -108,50 +108,50 @@ EVTTITLE_ZE_4040;末日号角;;;;;;;;;;x
 EVTDESC_ZE_4040;你收到了关于你的[Root.GetMarshalName]要求下所进行的军事实验的报告。显然，这个实验包括训练一大批音乐家去齐声吹号角在作战准备时来震聋震晕敌人。实验中也尝试着用号角来震塌城堡的墙壁。\n\n不幸的是尽管花费高昂，整个实验都是失败的。;;;;;;;;;;x
 EVTOPTA_ZE_4040;号角？我这次又要花多少钱......？;;;;;;;;;;x
 hard_of_hearing;重听;;;;;;;;;;x
-hard_of_hearing_desc;该角色的耳膜受过伤，影响了和别人交流的能力。;;;;;;;;;;x
+hard_of_hearing_desc;这个角色的耳膜受过伤，影响了和别人交流的能力。;;;;;;;;;;x
 EVTTITLE_ZE_4050;烈焰绵羊;;;;;;;;;;x
 EVTDESC_ZE_4050;你收到了关于[Root.GetMarshalName]军事实验结果的报告.。报告称，试验主要是将大量的羊浇上油，然后朝羊群放火，将受到惊吓的羊群驱赶向敌人。不幸的是，他们无法控制羊群的方向，工程师被当场烧死。你的[Root.GetMarshalName]勉强保住了[Root.GetHerHis]命.;;;;;;;;;;x
 EVTOPTA_ZE_4050;看来晚饭就要吃烤羊肉了......;;;;;;;;;;x
 EVTDESC_ZE_4100;你收到报告称[Root.GetMarshalName]在[Root.job_marshal.Location.GetName]有异常活动。[Root.job_marshal.GetSheHe]一直在宣传你病危的消息，并鼓动农民叛乱！;;;;;;;;;;x
 EVTOPTA_ZE_4100;叛徒可不能胜任[Root.GetMarshalName]！;;;;;;;;;;x
 EVTOPTB_ZE_4100;真是个坏消息，但我仍需要[Root.job_marshal.GetHerHim]。;;;;;;;;;;x
-EVTDESC_ZE_4120;有关 [Root.GetMarshalName] 在 [Root.job_marshal.GetTitledFirstName] 的报告称.  [Root.job_marshal.GetSheHe] 一直在让你的士兵勒索 [Root.job_marshal.Location.GetName] 的农民.;;;;;;;;;;x
-EVTOPTA_ZE_4120;[Root.job_marshal.GetSheHeCap] 不再适合 [Root.job_marshal.GetHerHis] 的职位!;;;;;;;;;;x
-EVTOPTB_ZE_4120;我会处理这封信的。;;;;;;;;;;x
+EVTDESC_ZE_4120;有关[Root.GetMarshalName]在[Root.job_marshal.GetTitledFirstName]的报告称[Root.job_marshal.GetSheHe]一直在让你的士兵勒索[Root.job_marshal.Location.GetName]的农民。;;;;;;;;;;x
+EVTOPTA_ZE_4120;[Root.job_marshal.GetSheHeCap]不再适合[Root.job_marshal.GetHerHis]职位！;;;;;;;;;;x
+EVTOPTB_ZE_4120;之后我会处理的。;;;;;;;;;;x
 highway_robber_band_desc;一大堆强盗流窜与乡间。;;;;;;;;;;x
 smugglers_ring_desc;这个区域收到走私者的侵扰。;;;;;;;;;;x
 thieves_guild_desc;大量的盗贼充斥于这个郡。;;;;;;;;;;x
 council_altaic;忽里勒台;;;;;;;;;;x
-council_greek;教会法庭;;;;;;;;;;x
+council_greek;御前会议;;;;;;;;;;x
 council_jewish_group;评议会;;;;;;;;;;x
 council_muslim;议会;;;;;;;;;;x
 council_shiite;内阁;;;;;;;;;;x
-obj_become_king_desc;[This.GetTitledFirstName]想成为[This.Capital.Kingdom.GetName]的[Root.GetKingQueen]。若为原始宗教，这允许[This.GetObjectPronoun]在此王国内部无限使用征服的宣战理由。如果伪造宣称的枢密大臣任务存在，以此野心有几率获得 [This.Capital.Kingdom.GetName]的宣称。如果[This.Capital.Kingdom.GetTier] 尚不存在，这也将降低创建花费。;;;;;;;;;;x
+obj_become_king_desc;[This.GetTitledFirstName]想成为[This.Capital.Kingdom.GetName]的[Root.GetKingQueen]。若为原始宗教，这允许[This.GetObjectPronoun]在此王国内部无限使用征服的宣战理由。如果伪造宣称的枢密大臣任务存在，以此野心有几率获得[This.Capital.Kingdom.GetName]的宣称。如果[This.Capital.Kingdom.GetTier]尚不存在，这也将降低创建花费。;;;;;;;;;;x
 action_fabricate_claims_desc;让你的[GetChancellorName]去伪造当地领主所拥有的头衔的宣称。高技能的[GetChancellorName]有可能伪造公爵领的宣称。只有拥有成为国王的野心才有可能伪造王国的宣称。;;;;;;;;;;x
-tooltip_obj_gain_any_title_success;获得领主的头衔;;;;;;;;;;x
+tooltip_obj_gain_any_title_success;从领主处获得头衔;;;;;;;;;;x
 obj_gain_any_title_title;获得头衔;;;;;;;;;;x
 obj_gain_any_title_desc;[This.GetTitledFirstName]希望获得更多的土地和另一个头衔来增加[This.GetHerHis]影响力和力量。;;;;;;;;;;x
-EVTDESC63041;我的领主！\n像我这样的忠诚从者应该时不时的得到一定的认可和奖赏。众所周知，你拥有大量的土地和头衔并且慷慨而睿智。或许你会考虑授予我这个不起眼的从者[vassal_wanted_title.GetFullName]的头衔？\n\n你的封臣，[From.GetTitledName];;;;;;;;;;x
+EVTDESC63041;我的领主！\n像我这样的忠诚仆人应该时不时的得到一定的认可和奖赏。众所周知，你拥有大量的土地和头衔并且慷慨而睿智。或许你会考虑授予我这个不起眼的仆人[vassal_wanted_title.GetFullName]的头衔？\n\n你的封臣，[From.GetTitledName];;;;;;;;;;x
 EVTOPTA63041;当然！;;;;;;;;;;x
 EVTOPTB63041;你居然如此贪心。;;;;;;;;;;x
-EVTOPTC63041;我很乐意给你应得的奖赏，但是...;;;;;;;;;;x
+EVTOPTC63041;我很乐意给你应得的奖赏，但是……;;;;;;;;;;x
 EVTDESC63042;我亲爱的封臣，\n\n你是一个忠诚的从者，因而我决定奖赏你。请接受[vassal_wanted_title.GetFullName]的头衔作为我对你忠诚的服务的称赞的信物。\n\n你的领主，[From.GetTitledName];;;;;;;;;;x
 demand_liege_title;向领主索要头衔;;;;;;;;;;x
 demand_liege_title_desc;我的领主有许多头衔。作为一个忠诚的封臣，他一定会分一点土地给我……;;;;;;;;;;x
 demand_liege_title_tooltip;向[Root.Liege.GetTitledFirstName]索要头衔;;;;;;;;;;x
-ally_inactive_in_war;别参战;;;;;;;;;;x
-EVTDESC_ZE_9000;随着战争激烈的进行，你发现你所谓的盟友 [ally_not_active_in_war.GetTitledNameWithNick]，已经数年没有什么活跃的表现了。他没有发动任何进攻来支持你。;;;;;;;;;;x
+ally_inactive_in_war;不参战;;;;;;;;;;x
+EVTDESC_ZE_9000;随着战争激烈的进行，你发现你所谓的盟友[ally_not_active_in_war.GetTitledNameWithNick]，已经数年没有什么活跃的表现了。他没有发动任何进攻来支持你。;;;;;;;;;;x
 ze_9000_letter_sent;寄一封信到[ally_not_active_in_war.GetTitledNameWithNick]。;;;;;;;;;;x
 EVTOPTA_ZE_9000;自上次以来[ally_not_active_in_war.GetSheHeCap]已经辜负了我的期望。;;;;;;;;;;x
-EVTOPTB_ZE_9000;我只是假装没注意到。;;;;;;;;;;x
+EVTOPTB_ZE_9000;我只会假装没注意到。;;;;;;;;;;x
 EVTDESC_ZE_9001;致[GetFromRootInsult] [Root.GetTitledFirstName]，\n我很痛心的告诉你我发现了当我与其他人战斗的时候，你的军队没有出现在战场上。既然我不需要懦弱且背信弃义的盟友，今后我们就不再是同盟关系了。\n\n希望你早日灭亡的，\n[From.GetTitledName];;;;;;;;;;x
-EVTOPTA_ZE_9001;我从来不。。。;;;;;;;;;;x
+EVTOPTA_ZE_9001;我从来没……;;;;;;;;;;x
 marauding_pirates;海盗肆虐;;;;;;;;;;x
 EVTDESC_ZE_9100;近来发生在[Root.PrimaryTitle.GetName]的海岸线上海盗劫掠事件正在不断增加。更糟糕的是一般民众中流传着这些海盗是受到[pirate_alliance_friction_ally.PrimaryTitle.GetAdjective]支持的谣言。;;;;;;;;;;x
 EVTOPTA_ZE_9100;我必须写封信去询问[pirate_alliance_friction_ally.PrimaryTitle.GetAdjective][pirate_alliance_friction_ally.GetTitle]有关这件事的真相。;;;;;;;;;;x
-EVTDESC_ZE_9101;亲爱的[Root.GetTitledFirstName]，\n\n在我的海岸边有一群瘟疫般的海盗，并且有谣言说你在背后支持他们。你能否认这些谣言从而让我安心吗？或者这些谣言是。。。?\n\n，向你问候\n[From.GetTitledName];;;;;;;;;;x
+EVTDESC_ZE_9101;亲爱的[Root.GetTitledFirstName]，\n\n在我的海岸边有一群瘟疫般的海盗，并且有谣言说你在背后支持他们。你能否认这些谣言从而让我安心吗？或者这些谣言是……？\n\n向你问候，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA_ZE_9101;我必须让[From.GetHerHim]安心。;;;;;;;;;;x
-EVTOPTB_ZE_9101;一个奇怪的指控。[From.GetSheHeCap]不过是。。。;;;;;;;;;;x
+EVTOPTB_ZE_9101;一个奇怪的指控。[From.GetSheHeCap]不过是想……;;;;;;;;;;x
 ze_9101_cordial;诚挚的回复。;;;;;;;;;;x
 ze_9101_angry;带有责备的回复。;;;;;;;;;;x
 EVTDESC_ZE_9110;亲爱的 [Root.GetTitledFirstName]，\n\n我已经听说了你所遇到的麻烦。然而，我可以保证我没有支持这些掠夺你海岸的海盗。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
@@ -160,67 +160,67 @@ EVTOPTB_ZE_9110;[From.GetSheHeCap]在说谎！;;;;;;;;;;x
 EVTDESC_ZE_9111;[Root.GetTitledFirstName]，\n你是个[GetFromRootInsult]和骗子，我告诉你我们之间的协议将不再生效，责任不在我方，这一切都是你奸诈的行为所导致的。\n\n希望你今后生活在苦难之中，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA_ZE_9111;那个[GetRootFromInsult]！;;;;;;;;;;x
 EVTDESC_ZE_9120;[Root.GetTitledFirstName]，\n\n我必须表明我不认同你上一封信的说法。你这是通过指责其他人来淡化自己没能维持领地安全的错误。这只会让你看起来像一个[GetFromRootInsult]。\n\n我希望你早日从偏执中醒悟，\n[From.GetTitledName];;;;;;;;;;x
-EVTOPTA_ZE_9120;哦。。。我应该试着修复我们直接的关系。。。;;;;;;;;;;x
+EVTOPTA_ZE_9120;哦……我应该试着修复我们直接的关系……;;;;;;;;;;x
 EVTOPTB_ZE_9120;这个[GetRootFromInsult]在隐藏着什么！;;;;;;;;;;x
 ze_9120_soothing;安慰性的回复。;;;;;;;;;;x
 EVTDESC_ZE_9121;尊敬的[Root.GetTitledFirstName]，\n\n我对你把我之前的一封信认为是对你的指控和质疑你的名誉感到悲伤。我完全没有这样的意思。对于造成了这样的误解，请接受我最诚挚的道歉。并且请放心，我不认为你与海盗有关系。\n\n希望友谊长存，\n[From.GetTitledName];;;;;;;;;;x
-EVTOPTA_ZE_9121;我感到[From.GetHerHis]本意是可敬;;;;;;;;;;x
+EVTOPTA_ZE_9121;我感到[From.GetHerHis]本意是可敬的。;;;;;;;;;;x
 EVTOPTB_ZE_9121;我必须远离这条[GetRootFromInsult]毒蛇。;;;;;;;;;;x
 ze_9121_accept_apology;回复并且接受道歉;;;;;;;;;;x
-ze_9121_break_pact;撕毁与 [From.GetTitledName]的协定.\n;;;;;;;;;;x
-EVTDESC_ZE_9122;亲爱的[Root.GetTitledFirstName]，\n\n我接受你的道歉并且希望我们今后都可以维持友好关系.\n\n带着我最友好的问候，\n[From.GetTitledName];;;;;;;;;;x
-EVTOPTA_ZE_9122;一切都解决了，那么。;;;;;;;;;;x
-EVTDESC_ZE_9123;亲爱的[Root.GetTitledFirstName]，\n\n可悲的是你道歉的话听起来并不真实。我不是一个傻瓜，而且信任一旦被打破就无法再被空虚的言语所修复。在这种情况下，我不会再维持我们之间的协定\n\n感到悲伤的，\n[From.GetTitledName];;;;;;;;;;x
+ze_9121_break_pact;撕毁与[From.GetTitledName]的协定。\n;;;;;;;;;;x
+EVTDESC_ZE_9122;亲爱的[Root.GetTitledFirstName]，\n\n我接受你的道歉并且希望我们今后都可以维持友好关系。\n\n带着我最友好的问候，\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA_ZE_9122;那么一切都解决了。;;;;;;;;;;x
+EVTDESC_ZE_9123;亲爱的[Root.GetTitledFirstName]，\n\n可悲的是你道歉的话听起来并不真实。我不是一个傻瓜，而且信任一旦被打破就无法再被空虚的言语所修复。在这种情况下，我不会再维持我们之间的协定。\n\n感到悲伤的，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA_ZE_9123;非常好，如果别无选择的话。;;;;;;;;;;x
 EVTDESC_ZE_9130;[Root.GetTitledFirstName]，\n\n你咄咄逼人的话语只会增强我对你低劣的人格和卑鄙的交易的猜疑。显然，你在隐瞒什么，如果不是支持海盗那么也一定是其他我还没发现的阴谋。我要求你立刻停止这种行为\n\n勉强问候你的，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA_ZE_9130;我需要在我们关系破裂之前回头。;;;;;;;;;;x
 ze_9130_apology;承认错误并且道歉。;;;;;;;;;;x
-EVTOPTB_ZE_9130;希望恶狗咬住[From.GetHerHis]卑劣的舌头;;;;;;;;;;x
+EVTOPTB_ZE_9130;希望恶狗咬住[From.GetHerHis]卑劣的舌头！;;;;;;;;;;x
 EVTDESC_ZE_9131;亲爱的[Root.GetTitledFirstName]，\n\n你是完全正确的，我弄错了我应该走的路。然而，在琢磨过我犯的错误和考虑到你多么[GetFromRootCompliment]之后，我下定决心要补偿你并且维护我们直接的友好关系。在此我向你表达我的真诚而谦卑的歉意。\n\n满怀尊重和敬佩的，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA_ZE_9131;呃，非常好。;;;;;;;;;;x
 EVTDESC_ZE_9132;[Root.GetTitledFirstName]，\n\n你这个最糟糕的败类居然用卑鄙的方式攻击那些忠贞对你的人。你这个[GetFromRootInsult]，我希望不再别人不幸到与你签订协定。\n\n真诚而失望的，\n[From.GetTitledName];;;;;;;;;;x
-broken_non_aggression_pact;协定破坏;;;;;;;;;;x
+broken_non_aggression_pact;破坏协定;;;;;;;;;;x
 STOP_ASSAULT_DESC;停止进攻;;;;;;;;;;x
 ASSIGN_VOTER_TITLE_INTERACTION_TITLE;任命为内阁成员;;;;;;;;;;x
 ASSIGN_VOTER_TITLE_INTERACTION_0;选择一个荣誉头衔授予给§Y[Recipient.GetTitledFirstName]§!;;;;;;;;;;x
-ASSIGN_VOTER_TITLE_INTERACTION_1;把 §Y[ThirdPartyTitle.GetFullName]§!的头衔授予§Y[Recipient.GetTitledFirstName]§!。;;;;;;;;;;x
-ASSIGN_VOTER_TITLE_INTERACTION_2;这会增加[Recipient.GetPossPronoun]对你的$OPINION|+$点好感。;;;;;;;;;;x
+ASSIGN_VOTER_TITLE_INTERACTION_1;把§Y[ThirdPartyTitle.GetFullName]§!的头衔授予§Y[Recipient.GetTitledFirstName]§!。;;;;;;;;;;x
+ASSIGN_VOTER_TITLE_INTERACTION_2;这会增加[Recipient.GetPossPronoun]对你的 $OPINION|+$ 点好感。;;;;;;;;;;x
 ASSIGN_VOTER_TITLE_INTERACTION_DESC;用一个荣誉头衔来任命一个角色进入内阁。;;;;;;;;;;x
 ASSIGN_VOTER_TITLE_INTERACTION_LONG_DESC;你可以通过发放一个荣誉头衔和内阁席位来安抚你的封臣并且让他们不会加入反对你的派系。;;;;;;;;;;x
 ASSIGN_VOTER_TITLE_INTERACTION_LETTER;\n\n我希望任命你进入我的内阁，因而提供给你§Y[ThirdPartyTitle.GetFullName]§!的头衔。;;;;;;;;;;x
-ASSIGN_VOTER_TITLE_INTERACTION_ACCEPT_SETUP;被任命的内阁成员;;;;;;;;;;x
-ASSIGN_VOTER_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!把§Y[Recipient.GetBestName]§! 任命为[ThirdPartyTitle.GetFullName];;;;;;;;;;x
+ASSIGN_VOTER_TITLE_INTERACTION_ACCEPT_SETUP;任命内阁成员;;;;;;;;;;x
+ASSIGN_VOTER_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!把§Y[Recipient.GetBestName]§!任命为[ThirdPartyTitle.GetFullName];;;;;;;;;;x
 REVOKE_VOTER_TITLE_INTERACTION_TITLE;开除内阁成员;;;;;;;;;;x
 REVOKE_VOTER_TITLE_INTERACTION_DESC;把一个角色从你的内阁中开除;;;;;;;;;;x
 REVOKE_VOTER_TITLE_INTERACTION_LONG_DESC;你可以通过移除一个角色的内阁头衔来把他们从内阁中开出。;;;;;;;;;;x
 REVOKE_VOTER_TITLE_INTERACTION_0;选择收回§Y[Recipient.GetTitledFirstName]§!的一个头衔。;;;;;;;;;;x
 REVOKE_VOTER_TITLE_INTERACTION_1;收回§Y[Recipient.GetTitledFirstName]§!的§Y[ThirdPartyTitle.GetFullName]§!头衔。;;;;;;;;;;x
 REVOKE_VOTER_TITLE_INTERACTION_2;这会使[Recipient.GetPossPronoun]对你的好感改变 §R$OPINION|+$§!。;;;;;;;;;;x
-REVOKE_VOTER_TITLE_INTERACTION_ACCEPT_SETUP;被开除的内阁成员;;;;;;;;;;x
-REVOKE_VOTER_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!收回了§Y[Recipient.GetBestName]§!的 §Y[ThirdPartyTitle.GetFullName]§!头衔，将[Recipient.GetHerHim]从宫廷中辞退。;;;;;;;;;;x
+REVOKE_VOTER_TITLE_INTERACTION_ACCEPT_SETUP;开除内阁成员;;;;;;;;;;x
+REVOKE_VOTER_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!收回了§Y[Recipient.GetBestName]§!的§Y[ThirdPartyTitle.GetFullName]§!头衔，将[Recipient.GetHerHim]从宫廷中辞退。;;;;;;;;;;x
 alert_council_discontent_instant;§Y内阁不满§!;;;;;;;;;;x
 alert_liege_council_discontent_instant;§Y你领主的内阁不满§!;;;;;;;;;;x
 experimenter;正面作战领袖;;;;;;;;;;x
 experimenter_desc;此人更倾向于与敌人正面作战并将复杂的战术执行留给他人。;;;;;;;;;;x
 EVTOPTB96502;实验新战术.;;;;;;;;;;x
-DECLARE_WAR_INTERACTION_DISCONTENT_REASON;对 [Recipient.GetBestName]有$WAR$的宣称;;;;;;;;;;x
+DECLARE_WAR_INTERACTION_DISCONTENT_REASON;对[Recipient.GetBestName]发起$WAR$;;;;;;;;;;x
 excessive_bureaucracy;官僚作风;;;;;;;;;;x
 student_of_language;语言学习者;;;;;;;;;;x
 multilingual;外语掌握者;;;;;;;;;;x
 multilingual_desc;这个角色掌握了多种语言。;;;;;;;;;;x
-EVTDESC_ZE_2021;我不能再忍受了! 每当其他国家的人来拜访 [From.GetTitle] 时，[From.GetTitledFirstName] 像傻瓜一样，[From.GetHerselfHimself] 为了给拜访者留下深刻的印象，用了 [From.GetHerHis] 都不知道的外语.;;;;;;;;;;x
-EVTOPTA_ZE_2021;我回去辅导[From.GetHerHim];;;;;;;;;;x
-EVTTOOLTIP_ZE_2021;听到要辅导 [From.GetHerHim]的建议。;;;;;;;;;;x
-EVTOPTB_ZE_2021;这不应该打扰我。;;;;;;;;;;x
-EVTDESC_ZE_2022;我的[Root.GetChancellorName][language_teacher.GetTitledFirstName]亲切的建议我应该为了领地的利益去学习外语。[language_teacher.GetSheHeCap]还推荐[language_teacher.GetHerselfHimself]来辅导我学习。;;;;;;;;;;x
+EVTDESC_ZE_2021;我不能再忍受了！每当其他国家的人来拜访[From.GetTitle]时，[From.GetTitledFirstName]都像傻瓜一样，就为了给拜访者留下深刻的印象，用[From.GetHerHis]都不知道的外语。;;;;;;;;;;x
+EVTOPTA_ZE_2021;我得去辅导[From.GetHerHim]。;;;;;;;;;;x
+EVTTOOLTIP_ZE_2021;听到我辅导[From.GetHerHim]的建议。;;;;;;;;;;x
+EVTOPTB_ZE_2021;别拿这事打扰我。;;;;;;;;;;x
+EVTDESC_ZE_2022;我的[Root.GetChancellorName][language_teacher.GetTitledFirstName]亲切地建议我应该为了领地的利益去学习外语。[language_teacher.GetSheHeCap]还推荐[language_teacher.GetHerselfHimself]来辅导我学习。;;;;;;;;;;x
 EVTOPTA_ZE_2022;一个好主意！;;;;;;;;;;x
-EVTTOOLTIP_ZE_2022;再学习一遍。;;;;;;;;;;x
+EVTTOOLTIP_ZE_2022;学习开始。;;;;;;;;;;x
 EVTOPTB_ZE_2022;如果他们不会说[Root.Culture.GetName]的语言，那么他们就无关紧要。;;;;;;;;;;x
 EVTDESC_ZE_2024;因为缺乏[language_teacher.GetTitledFirstName]的支持，你的学习基本上没什么进展。你越发感到这个巨大挑战将会压垮你。;;;;;;;;;;x
 EVTOPTA_ZE_2024;至少我努力了。;;;;;;;;;;x
 EVTDESC_ZE_2025;你的选择和努力有了回报。通过向[language_teacher.GetTitledFirstName]学习，你可以流利的说几种新的语言。这会增加你在外国宫廷的威望！;;;;;;;;;;x
 EVTOPTA_ZE_2025;我就知道我能做到！;;;;;;;;;;x
-EVTDESC_ZE_2026;你在学习过程中似乎不够集中。最简单的快乐似乎是花费时间在琐事上而不是整夜读书。没有人可以集中精神当周围所有事物都如此有吸引力。;;;;;;;;;;x
+EVTDESC_ZE_2026;你在学习过程中似乎不够集中。最简单的快乐似乎是花费时间在琐事上而不是整夜读书。当周围所有事物都如此有吸引力时，没有人可以集中精神。;;;;;;;;;;x
 EVTOPTA_ZE_2026;我只要学到几个词组这一切就是值得的！;;;;;;;;;;x
 EVTOPTB_ZE_2026;我想不是每一个人都适合学习语言。;;;;;;;;;;x
 EVTTOOLTIP_ZE_2026;放弃语言学习。;;;;;;;;;;x
