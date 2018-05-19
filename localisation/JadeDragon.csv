@@ -24,7 +24,7 @@ EVTDESC_JD_30012;我注意到[chinese_courtier.GetBestName]过去几周对我的
 EVTOPTA_JD_30012;此举或会恶化我们与[offmap_china.Governor.Offmap.GetShortName]的关系。;;;;;;;;;;x
 EVTOPTB_JD_30012;卫兵逮捕了那个[chinese_courtier.GetManWoman]！;;;;;;;;;;x
 chinese_silk_road_favored_status;请求贸易协定;;;;;;;;;;x
-chinese_silk_road_favored_status_modifier_tt;在25年内，§Y[From.PrimaryTitle.GetName]§!领地内的所有贸易站省份得到§G100%§!的贸易收入加成。;;;;;;;;;;x
+chinese_silk_road_favored_status_modifier_tt;在 25 年内，§Y[From.PrimaryTitle.GetName]§!领地内的所有贸易站省份得到 §G100%§! 的贸易收入加成。;;;;;;;;;;x
 chinese_imperial_trade_contract;互市商约;;;;;;;;;;x
 MULTIPLICATIVE_TRADE_POST_INCOME_MODIFIER;贸易收入;;;;;;;;;;x
 EVTOPTA_JD_30045;希望[Root.TrueReligion.GetHighGodName]能帮助我们…;;;;;;;;;;x
@@ -148,7 +148,7 @@ sold_vassal_province;出售封臣省份;;;;;;;;;;x
 EVTDESC_ADV_3_A;致尊敬的 [Root.GetTitledFirstName]，\n[Root.GetLordLady]，愿您的土地富饶、家庭圆满！如果能让我管理[selling_province.GetName]，或照顾您的[marriage_child.GetDaughterSon] [marriage_child.GetTitledFirstName]，将会是我莫大的荣幸。这会确保我们之间的长久和平。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTDESC_ADV_3_B;致尊贵的 [Root.GetTitledFirstName]，\n[Root.GetLordLady]，您繁荣兴旺的领地彰显了您作为[Root.GetTitle]的出众能力。我向您提出一项将臻至你我之间长久和平的请求：让我以您的名义管理[selling_province.GetName]省份，从此再也不会有人敢于染指这片土地了。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA_ADV_3;[selling_province.GetName]确实是一块不错的领地。付出合适的价钱，你就可以拥有它。;;;;;;;;;;x
-EVTOPTA_ADV_3_TT;以 §G[selling_province.price.GetValue]§!¤ 的价格将你的领地提供给§Y[selling_province.GetName]§!的冒险家§Y[From.GetTitledFirstName]§!。如果[From.GetSheHe]接受，[From.GetSheHe]将成为你的附属，你将在10年内免受劫掠。\n;;;;;;;;;;x
+EVTOPTA_ADV_3_TT;以 §G[selling_province.price.GetValue]§!¤ 的价格将你的领地提供给§Y[selling_province.GetName]§!的冒险家§Y[From.GetTitledFirstName]§!。如果[From.GetSheHe]接受，[From.GetSheHe]将成为你的附属，你将在 10 年内免受劫掠。\n;;;;;;;;;;x
 EVTOPTB_ADV_3_TT;将你的封臣§Y[selling_province.Holder.GetTitledFirstName]§!统治的省份§Y[selling_province.GetName]§!以 §G[selling_province.price.GetValue]§!¤ 的价格卖给冒险家§Y[From.GetTitledFirstName]§! 。如果[From.GetSheHe]接受了这一请求，[From.GetSheHe]将成为你的封臣而你将在十年内免于冒险活动的威胁。\n\n然而，你的其他封臣对此将感到不快，造成以下效果：\n;;;;;;;;;;x
 EVTOPTC_ADV_3;[marriage_child.GetFirstName]会教你如何成为一个出色的[marriage_child.GetHusbandWife]。;;;;;;;;;;x
 EVTOPTC_ADV_3_TT;通过联姻，你与§Y[From.GetTitledFirstName]§!签订了互不侵犯条约。;;;;;;;;;;x
@@ -158,7 +158,7 @@ EVTDESC_ADV_4;致聪慧而高贵的[Root.GetTitledFirstName]，\n不接受如此
 EVTOPTA_ADV_4;我很高兴我们顺利和平解决了这个问题。;;;;;;;;;;x
 EVTOPTA_ADV_5;如果这能确保和平，我会同意的。;;;;;;;;;;x
 EVTOPTD_ADV_5;可恶！你给我等着，我们战场上见！;;;;;;;;;;x
-EVTOPTA_ADV_5_tooltip;所有其他封臣对待 §Y[Root.GetTitledFirstName]§! 的看法改变了§R-15§!，持续§Y5§!年§Y(出售封臣省份)§!\n。;;;;;;;;;;x
+EVTOPTA_ADV_5_tooltip;所有其他封臣对待 §Y[Root.GetTitledFirstName]§! 的看法改变了 §R-15§!，持续 §Y5§! 年§Y(出售封臣省份)§!\n。;;;;;;;;;;x
 raiding_adventurer_war_declaration_tooltip;§Y[From.GetTitledFirstName]§!宣布了[From.GetHerHis]企图：用[From.GetHerHis]强盗团伙的武力攫取你的土地。;;;;;;;;;;x
 desc_settled_adventurer;这片土地的领主招安了一位冒险家以保护他的国家免受劫掠者的侵害。;;;;;;;;;;x
 GetCouncillorLetterGreeting_string;[From.Liege.GetChineseComplimentAdjective][From.GetJobTitle]写了一封信给[Root.GetChineseComplimentAdjective][Root.PrimaryTitle.GetFullName][Root.GetTitle];;;;;;;;;;x
@@ -903,7 +903,7 @@ logistics_expert_desc;这个角色深谙犬韬，关注训练、补给和多兵�
 levy_coordinator;虎韬;;;;;;;;;;x
 levy_coordinator_desc;这个角色深谙虎韬，主要注重速度、机动性、误导以及何时何法投入各种部队，以取得对敌决定性优势。;;;;;;;;;;x
 sapper;豹韬;;;;;;;;;;x
-sapper_desc;这个角色非常熟悉豹韬，专注于如何最好地利用地形，以及如何使用新奇的攻城武器来击败强大的敌人。;;;;;;;;;;x
+sapper_desc;这个角色非常熟悉豹韬，专注于如何最好地利用地形，以及如何使用新奇的围攻武器来击败强大的敌人。;;;;;;;;;;x
 MODIFIER_DAYS_OF_SUPPLY;补给天数;;;;;;;;;;x
 create_followers_arjuna;创设阿周那军众;;;;;;;;;;x
 create_followers_arjuna_desc;创建阿周那军众，所有[Root.Religion.GetName]的统治者将有权雇佣他们并投入对那些对我们有害的宗教的战争！;;;;;;;;;;x
@@ -2440,7 +2440,7 @@ ca_government_monastery_3;贡巴寺院;;;;;;;;;;x
 ca_government_monastery_4;贡巴寺院;;;;;;;;;;x
 ca_government_monastery_1_desc;筑防的贡巴保护坐落其内的寺院与学舍.;;;;;;;;;;x
 OFFMAP_GIFTS_DESC;如果§Y[offmap_china.GetName]§!有意与异邦结交，你可以派遣使者向皇帝献上顺从的象征。进贡能提升你的§Y皇恩§!。;;;;;;;;;;x
-chinese_siege_engineers_effect_tt;三位围攻专家加入了你的宫廷。这几位攻城师技艺非凡，精通于使用炸药暗中破坏城防以及建造攻城塔来登上城墙。\n;;;;;;;;;;x
+chinese_siege_engineers_effect_tt;三位围攻专家加入了你的宫廷。这几位攻城师技艺非凡，精通于使用炸药暗中破坏城防以及建造围攻塔来登上城墙。\n;;;;;;;;;;x
 chinese_siege_engineers;请赐围攻专家;;;;;;;;;;x
 chinese_siege_engineers_desc;§Y[Root.Offmap.GetFullName]§!因为他们的战争与工程学院而声名远播，你可以请求几名围攻专家担任你的指挥官为你作战。这些角色都有§Y豹韬§!特质(围攻速度：§G50%§!).;;;;;;;;;;x
 EVTDESC_JD_3001;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子陛下[From.Offmap.Ruler.GetLongChineseEmperorName]将和蔼地满足你的心愿。匠作大将[chinese_siege_engineer_1.GetDynName]及[chinese_siege_engineer_1.GetHerHis]两位学徒，[chinese_siege_engineer_2.GetDynName]和[chinese_siege_engineer_3.GetDynName]，也已前往你的宫廷。;;;;;;;;;;x
