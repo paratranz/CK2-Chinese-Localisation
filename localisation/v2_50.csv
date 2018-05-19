@@ -331,61 +331,61 @@ NO_NON_AGGRESSION_PACT_FROM_MARRIAGE;我们将不会从此婚姻中获得§Y互�
 GAINED_NON_AGGRESSION_PACTS;将导致§Y互不侵犯条约§!;;;;;;;;;;x
 GAINED_NON_AGGRESSION_PACTS_WITH;§Y将导致互不侵犯条约，对象是§!;;;;;;;;;;x
 PACTS_TAB_IRO;§Y与$NAME$有签订条约的领主§W;;;;;;;;;;x
-NON_AGG_BETROTHED;§Y(订婚)§!;;;;;;;;;;x
-NON_AGG_SPOUSE;§Y(配偶)§!;;;;;;;;;;x
-MARRIAGE_TIES_DESC;这个条约由你的追随者签订:;;;;;;;;;;x
-MARRIAGE_TIE;一场婚姻，结婚者$FIRST|Y$和$SECOND|Y$\n;;;;;;;;;;x
-BETROTHAL_TIE;一次订婚，订婚者$FIRST|Y$和$SECOND|Y$\n;;;;;;;;;;x
+NON_AGG_BETROTHED;§Y（订婚）§!;;;;;;;;;;x
+NON_AGG_SPOUSE;§Y（配偶）§!;;;;;;;;;;x
+MARRIAGE_TIES_DESC;这个条约因以下关系签订：;;;;;;;;;;x
+MARRIAGE_TIE;$FIRST|Y$和$SECOND|Y$的婚姻\n;;;;;;;;;;x
+BETROTHAL_TIE;$FIRST|Y$和$SECOND|Y$的订婚\n;;;;;;;;;;x
 CANNOT_JOIN_FACTION_NON_AGG_PACT;§R你不允许加入任何派系，因为你与你的领主签订了互不侵犯条约。§!;;;;;;;;;;x
 LOST_NON_AGGRESSION_PACTS;将导致§Y互不侵犯条约§!结束;;;;;;;;;;x
 LOST_NON_AGGRESSION_PACTS_WITH;§Y将导致原有的互不侵犯条约结束，对象是§!;;;;;;;;;;x
-NON_AGG_PACT_DISSOLVED_SETUP;互不侵犯条约到期;;;;;;;;;;x
-NON_AGG_PACT_DISSOLVED_LOG;互不侵犯条约在$FIRST|Y$ 和 $SECOND|Y$ 已经到期在他们之间没有任何联姻的时候.;;;;;;;;;;x
-LOWER_RELATIVE_INCOME_LIEGE;收入小于领主的§Y$VAL$%§!。\n;;;;;;;;;;x
-HIGHER_RELATIVE_INCOME_LIEGE;收入至少是领主的§Y$VAL$%§!。\n;;;;;;;;;;x
-LOWER_RELATIVE_INCOME;收入小于$OTHER|Y$的§Y$VAL$%§!。;;;;;;;;;;x
-HIGHER_RELATIVE_INCOME;收入至少是$OTHER|Y$的§Y$VAL$%§!。;;;;;;;;;;x
-AIREASON_WANTS_GOOD_NON_AGG_PACT;渴望签订互不侵犯条约;;;;;;;;;;x
+NON_AGG_PACT_DISSOLVED_SETUP;互不侵犯条约终止;;;;;;;;;;x
+NON_AGG_PACT_DISSOLVED_LOG;$FIRST|Y$和$SECOND|Y$间的互不侵犯条约已经终止，因为他们之间不再有任何联姻。;;;;;;;;;;x
+LOWER_RELATIVE_INCOME_LIEGE;收入小于领主的 §Y$VAL$%§!。\n;;;;;;;;;;x
+HIGHER_RELATIVE_INCOME_LIEGE;收入至少是领主的 §Y$VAL$%§!。\n;;;;;;;;;;x
+LOWER_RELATIVE_INCOME;收入小于$OTHER|Y$的 §Y$VAL$%§!。;;;;;;;;;;x
+HIGHER_RELATIVE_INCOME;收入至少是$OTHER|Y$的 §Y$VAL$%§!。;;;;;;;;;;x
+AIREASON_WANTS_GOOD_NON_AGG_PACT;渴望更好的互不侵犯条约;;;;;;;;;;x
 DISSOLVE_ALLIANCE_INTERACTION_TITLE;同盟解散;;;;;;;;;;x
-DISSOLVE_ALLIANCE_INTERACTION_DESC;解除对[Recipient.GetBestName]的同盟关系.;;;;;;;;;;x
-DISSOLVE_ALLIANCE_INTERACTION_LONG_DESC;解除对[Recipient.GetBestName]的同盟关系.;;;;;;;;;;x
+DISSOLVE_ALLIANCE_INTERACTION_DESC;解除与[Recipient.GetBestName]的同盟关系。;;;;;;;;;;x
+DISSOLVE_ALLIANCE_INTERACTION_LONG_DESC;解除与[Recipient.GetBestName]的同盟关系。;;;;;;;;;;x
 DISSOLVE_ALLIANCE_INTERACTION_ACCEPT_SETUP;同盟解散;;;;;;;;;;x
 DISSOLVE_ALLIANCE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!解散与§Y[Recipient.GetBestName]§!的同盟。;;;;;;;;;;x
 DISSOLVE_ALLIANCE_INTERACTION_DECLINE_SETUP;解除盟约的请求被拒绝;;;;;;;;;;x
-DISSOLVE_ALLIANCE_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝解除与§Y[Actor.GetBestName]§!的同盟.;;;;;;;;;;x
+DISSOLVE_ALLIANCE_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§!拒绝解除与§Y[Actor.GetBestName]§!的同盟。;;;;;;;;;;x
 DISSOLVE_ALLIANCE_INTERACTION_LETTER;\n\n[Actor.GetBestName]正式解散了我们的同盟。;;;;;;;;;;x
-NOT_WAR_ALLIES;没有正在战争中与§Y[Recipient.GetBestName]§!并肩作战.;;;;;;;;;;x
+NOT_WAR_ALLIES;没有正在战争中与§Y[Recipient.GetBestName]§!并肩作战。;;;;;;;;;;x
 DISSOLVE_ALLIANCE_INTERACTION_01;解散与§Y[Recipient.GetBestName]§!的同盟。;;;;;;;;;;x
 dissolved_alliance;同盟解散;;;;;;;;;;x
-IS_NOT_VALID_ROMANCE_TARGET_OF;没有有效的目标对 $WHO|Y$;;;;;;;;;;x
-IS_VALID_ROMANCE_TARGET_OF;有一个有效的目标对 $WHO|Y$;;;;;;;;;;x
-ISNT_VOTER;不是一名内阁成员;;;;;;;;;;x
-IS_VOTER;是一个内阁成员;;;;;;;;;;x
+IS_NOT_VALID_ROMANCE_TARGET_OF;不是$WHO|Y$的有效恋爱目标;;;;;;;;;;x
+IS_VALID_ROMANCE_TARGET_OF;是$WHO|Y$的有效恋爱目标;;;;;;;;;;x
+ISNT_VOTER;不是一名投票者;;;;;;;;;;x
+IS_VOTER;是一名投票者;;;;;;;;;;x
 ALLIANCE_DISSOLVED_SETUP;解除同盟;;;;;;;;;;x
-ALLIANCE_DISSOLVED_LOG;同盟和互不侵犯条约 $FIRST|Y$ 和 $SECOND|Y$已经因为没有任何联姻关系而解散.;;;;;;;;;;x
+ALLIANCE_DISSOLVED_LOG;$FIRST|Y$和$SECOND|Y$的同盟和互不侵犯条约因为不再有任何联姻关系而解散。;;;;;;;;;;x
 JOINED_WAR_ALLIED_SETUP;同盟战争召唤;;;;;;;;;;x
-JOINED_WAR_ALLIED_LOG;$ALLY|Y$ 接受召集军队的请求 $CALLER|Y$ 来防御 $TARGET|Y$.由于同盟关系，$ALLY|Y$ 别无选择.;;;;;;;;;;x
+JOINED_WAR_ALLIED_LOG;$ALLY|Y$接受$CALLER|Y$的战争召唤来防御$TARGET|Y$。由于同盟关系，$ALLY|Y$别无选择。;;;;;;;;;;x
 JOINED_WAR_BLOOD_BROTHER_SETUP;血亲战争召唤;;;;;;;;;;x
-JOINED_WAR_BLOOD_BROTHER_LOG;$ALLY|Y$ 接受召集军队的请求 $CALLER|Y$ 来防备 $TARGET|Y$.由于血亲的关系，$ALLY|Y$别无选择.;;;;;;;;;;x
+JOINED_WAR_BLOOD_BROTHER_LOG;$ALLY|Y$接受$CALLER|Y$的战争召唤来防御$TARGET|Y$。由于血亲的关系，$ALLY|Y$别无选择。;;;;;;;;;;x
 ANY_VOTER_STARTS;任何投票者;;;;;;;;;;x
 ALL_VOTERS;所有投票者;;;;;;;;;;x
 AIREASON_HAS_CASUS_BELLI;拥有针对§Y[GetTitledFirstName]§!的宣战理由;;;;;;;;;;x
 AIREASON_HAS_COMMON_ENEMIES;共同的敌人;;;;;;;;;;x
 AIREASON_SHARE_SAME_INTERESTS;相同的利益;;;;;;;;;;x
-SAME_REALM_CLANS;不再有游牧部族在领内了;;;;;;;;;;x
-INTERACTION_REQUIRES_VALID_MINOR_TITLE_TO_REVOKE;我们有任意可从§Y[Recipient.GetTitledFirstName]§!处收回的荣誉称号;;;;;;;;;;x
+SAME_REALM_CLANS;不是同一国内的游牧部族;;;;;;;;;;x
+INTERACTION_REQUIRES_VALID_MINOR_TITLE_TO_REVOKE;我们有任意可从§Y[Recipient.GetTitledFirstName]§!处收回的荣誉头衔;;;;;;;;;;x
 VOTER_LOST_SETUP;失去投票者;;;;;;;;;;x
 VOTER_LOST_LOG;$VOTER|Y$不再是$OLD_LIEGE|Y$的$TITLE|Y$§!;;;;;;;;;;x
-VOTER_LOST_LETTER;$VOTER|Y$ 不再是我的 $TITLE|Y$;;;;;;;;;;x
-NOT_LIEGE_OR_VASSAL_OF;他没有任何领主和封臣$NAME|Y$;;;;;;;;;;x
-NOT_HAS_CB;$CHAR|Y$ 没有宣战理由来反对 $OTHER|Y$;;;;;;;;;;x
-HAS_CB;$CHAR|Y$ 拥有宣战理由对 $OTHER|Y$;;;;;;;;;;x
-ADD_ALLIANCE_EFFECT_DAYS;新增一个同盟$TARGET|Y$持续$DURATION|Y$ 天.\n;;;;;;;;;;x
-ADD_ALLIANCE_EFFECT_MONTHS;新增一个同盟 $TARGET|Y$持续$DURATION|Y$ 月.\n;;;;;;;;;;x
-ADD_ALLIANCE_EFFECT_YEARS;新增一个同盟 $TARGET|Y$持续$DURATION|Y$ 年.\n;;;;;;;;;;x
-NOT_TEMP_ALLIES;并非暂时与§Y[Recipient.GetBestName]§!结盟。;;;;;;;;;;x
-EVTDESC_ZE_3000;[target_treasurer.GetTitledFirstName]笑容满面的看着你交出一袋金币. [target_treasurer.GetSheHeCap] 声称能够从繁中的工作中累计节约财富并能让富裕家庭向您的国家捐赠.;;;;;;;;;;x
-EVTOPTA_ZE_3000;这真是个好消息!;;;;;;;;;;x
+VOTER_LOST_LETTER;$VOTER|Y$不再是我的 $TITLE|Y$;;;;;;;;;;x
+NOT_LIEGE_OR_VASSAL_OF;不是$NAME|Y$的任何领主或封臣;;;;;;;;;;x
+NOT_HAS_CB;$CHAR|Y$没有针对$OTHER|Y$的宣战理由;;;;;;;;;;x
+HAS_CB;$CHAR|Y$拥有针对d$OTHER|Y$的宣战理由;;;;;;;;;;x
+ADD_ALLIANCE_EFFECT_DAYS;获得与$TARGET|Y$的同盟持续 $DURATION|Y$ 天。\n;;;;;;;;;;x
+ADD_ALLIANCE_EFFECT_MONTHS;获得与$TARGET|Y$的同盟持续 $DURATION|Y$ 月。\n;;;;;;;;;;x
+ADD_ALLIANCE_EFFECT_YEARS;获得与$TARGET|Y$的同盟持续 $DURATION|Y$ 年。\n;;;;;;;;;;x
+NOT_TEMP_ALLIES;不是暂时与§Y[Recipient.GetBestName]§!结盟。;;;;;;;;;;x
+EVTDESC_ZE_3000;[target_treasurer.GetTitledFirstName]笑容满面地看着你交出一袋金币。[target_treasurer.GetSheHeCap]声称能够从繁重的工作中累计节约财富并能让富裕家庭向您的国家捐赠。;;;;;;;;;;x
+EVTOPTA_ZE_3000;这真是个好消息！;;;;;;;;;;x
 EVTOPTA_ZE_3001;我无法忍受无能!;;;;;;;;;;x
 EVTOPTB_ZE_3001;我们要举一个例子给他[target_treasurer.GetHerHim].;;;;;;;;;;x
 EVTOPTC_ZE_3001;明白了，征收税赋是件棘手的工作.;;;;;;;;;;x

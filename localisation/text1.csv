@@ -2107,7 +2107,7 @@ EVTOPTA163;千刀万剐了[From.GetTitledFirstName]！;;;;;;;;;;x
 EVTDESC40010;好消息！[From.GetTitledFirstName]死了，全身都是绿色的脓疮，就像一只癞蛤蟆。不幸的是，投毒者被逮捕和折磨，直到他说出了我的名字。;;;;;;;;;;x
 EVTOPTA40010;一个小的代价;;;;;;;;;;x
 EVTDESC40020;我的情报总管计划报复[FromFrom.GetTitledFirstName]对[From.GetTitledFirstName]的暗杀;;;;;;;;;;x
-EVTOPTA40020;要求我们的主君解决这一问题;;;;;;;;;;x
+EVTOPTA40020;要求我们的主君解决这一问题。;;;;;;;;;;x
 EVTOPTB40020;逮捕他！;;;;;;;;;;x
 EVTOPTC40020;以眼还眼……;;;;;;;;;;x
 EVTOPTD40020;原谅和忘记更好;;;;;;;;;;x
@@ -2793,7 +2793,7 @@ EVTOPTB39222;让上帝来裁决吧。;;;;;;;;;;x
 EVTDESC39223;[From.GetTitledFirstName]的祈祷并没有被得接受，这会影响到我们的权力么;;;;;;;;;;x
 EVTOPTA39223;我不能让一个上帝的孩子被关押.;;;;;;;;;;x
 EVTOPTB39223;他不过是一个叛徒……;;;;;;;;;;x
-EVTDESC39224;[From.GetTitledFirstName] 开始介入此事并写了一封口气严厉的信给 [Root.Host.GetTitledFirstName] 要求我们释放俘虏.;;;;;;;;;;x
+EVTDESC39224;[From.GetTitledFirstName]开始介入此事并写了一封措辞严厉的信给[Root.Host.GetTitledFirstName]要求释放俘虏。;;;;;;;;;;x
 EVTOPTA39224;赞美神！;;;;;;;;;;x
 EVTTOOLTIP39226;我敢肯定 [Root.Host.GetTitledFirstName] 这回会释放我们了.;;;;;;;;;;x
 EVTDESC39225;[From.GetTitledFirstName]的密使来了 ，他告诉我们圣父对此无能为力..;;;;;;;;;;x
@@ -4792,7 +4792,7 @@ INTERACTION_REQUIRES_SAME_RELIGION_AS_A_CHILD;§Y[Recipient.GetTitledFirstName]�
 INTERACTION_REQUIRES_HAS_LANDED_TITLE;§Y[Recipient.GetTitledFirstName]§!必须拥有一个实地头衔可供宣称;;;;;;;;;;x
 INTERACTION_REQUIRES_NOT_A_VASSAL;§Y[Recipient.GetTitledFirstName]§!不能是你的封臣;;;;;;;;;;x
 INTERACTION_REQUIRES_MUST_BE_VASSAL;§Y[Recipient.GetTitledFirstName]§!必须是你的直属封臣;;;;;;;;;;x
-INTERACTION_REQUIRES_VALID_CB;§Y[Actor.GetTitledFirstName]§!必须有一个合理的借口才能宣战;;;;;;;;;;x
+INTERACTION_REQUIRES_VALID_CB;§Y[Actor.GetTitledFirstName]§!必须有一个有效的宣战理由才能宣战;;;;;;;;;;x
 INTERACTION_REQUIRES_VALID_LANDEDTITLE;没有选择头衔;;;;;;;;;;x
 INTERACTION_REQUIRES_AT_WAR;§Y[Recipient.GetTitledFirstName]§!与[Actor.GetDynName]处于战争状态;;;;;;;;;;x
 INTERACTION_REQUIRES_PLOT;§Y[Actor.GetTitledFirstName]§!必须有一个进行中的密谋;;;;;;;;;;x
@@ -4814,7 +4814,7 @@ INTERACTION_REQUIRES_RECIPIENT_HIGHER_TIER;§Y[Actor.GetTitledFirstName]§!级�
 INTERACTION_REQUIRES_RECIPIENT_HIGHER_TIER_THAN_THIRD;[ThirdPartyCharacter.GetDynName]的等级比[Recipient.GetDynName]低;;;;;;;;;;x
 INTERACTION_REQUIRES_NO_RAISED_UNITS;征召兵已动员时不能宣战;;;;;;;;;;x
 INTERACTION_REQUIRES_RANSOM;§Y[Recipient.GetTitledFirstName]§!能负担得起的赎金§Y$GOLD$§W黄金;;;;;;;;;;x
-INTERACTION_REQUIRES_CB_SELECTED;我们必须选择一个有根据的§Y宣战理由§W来宣战;;;;;;;;;;x
+INTERACTION_REQUIRES_CB_SELECTED;我们必须选择一个有效的§Y宣战理由§W来宣战;;;;;;;;;;x
 INTERACTION_REQUIRES_BOTH_INDEPENDENT;§Y[Recipient.GetTitledFirstName]§!是独立的;;;;;;;;;;x
 INTERACTION_REQUIRES_NO_HOSTAGES;§Y[Recipient.GetTitledFirstName]§!没有你的近亲人质$WHO$;;;;;;;;;;x
 INTERACTION_REQUIRES_SAME_LIEGE;§Y[Recipient.GetTitledFirstName]§!必须是我们的君主或者君主的封臣;;;;;;;;;;x
@@ -5076,7 +5076,7 @@ RESIGN_FROM_OFFICE_INTERACTION_ACCEPT_SETUP;官员辞职;;;;;;;;;;x
 RESIGN_FROM_OFFICE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 选择从 §Y[Recipient.PrimaryTitle.GetName]§!辞去 [Actor.GetPossPronoun]作为[Actor.GetJobTitle]的工作;;;;;;;;;;x
 RESIGN_FROM_OFFICE_INTERACTION_LETTER;非常遗憾，我领地上的一些问题使我不再可能继续担任[Recipient.PrimaryTitle.GetName]的[Actor.GetJobTitle]了.我不得不辞去担当的要职.;;;;;;;;;;x
 ASK_FOR_INVASION_INTERACTION_TITLE;要求入侵;;;;;;;;;;x
-ASK_FOR_INVASION_INTERACTION_LONG_DESC;宗教领袖有权力发动对一个国家的全面入侵.如果进攻者赢得战争，所有被占领的领地和封臣将不再属于他们原来的领主，而是被转交给入侵者，以犒劳其部下.;;;;;;;;;;x
+ASK_FOR_INVASION_INTERACTION_LONG_DESC;宗教领袖可以授予特殊的宣战理由，允许发动对一个国家的全面入侵。如果进攻者赢得战争，所有被占领的领地和封臣将不再属于他们原来的领主，而是被转交给入侵者，以犒劳其部下。;;;;;;;;;;x
 ASK_FOR_INVASION_INTERACTION_ACCEPT_SETUP;得到入侵权;;;;;;;;;;x
 ASK_FOR_INVASION_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 许可 §Y[Actor.GetBestName]§! 入侵[ThirdPartyCharacter.PrimaryTitle.GetName].;;;;;;;;;;x
 ASK_FOR_INVASION_INTERACTION_DECLINE_SETUP;拒绝入侵权;;;;;;;;;;x
@@ -10138,8 +10138,8 @@ b_nagyigmand;伊格曼德;;;;;;;;;;x
 b_nemesocsa;莱亚迪克;;;;;;;;;;x
 b_ogylla;欧亚纳;;;;;;;;;;x
 b_gyorszentmarton;托米马顿;;;;;;;;;;x
-c_pressburg_adj;普雷斯堡;;;;;;;;;;x
-b_pressburg;普雷斯堡;;;;;;;;;;x
+c_pressburg_adj;普莱斯堡;;;;;;;;;;x
+b_pressburg;普莱斯堡;;;;;;;;;;x
 b_nagyszombat;斯麦尔维斯;;;;;;;;;;x
 b_bazin;巴赞;;;;;;;;;;x
 b_modor;莫德科;;;;;;;;;;x
@@ -15033,7 +15033,7 @@ declared_war;宣战;;;;;;;;;;x
 dow_on_son_in_law;对女婿宣战;;;;;;;;;;x
 broke_alliance;背弃同盟;;;;;;;;;;x
 honored_alliance;帮助同盟;;;;;;;;;;x
-pressed_my_claim;公开我的宣称;;;;;;;;;;x
+pressed_my_claim;索取我的宣称;;;;;;;;;;x
 broke_truce;撕毁停战协议;;;;;;;;;;x
 insulted;侮辱;;;;;;;;;;x
 sent_gift;送礼;;;;;;;;;;x
@@ -15610,7 +15610,7 @@ ALLIANCEOFFDESC;你想和$COUNTRY$缔结军事同盟吗我们将承诺在战争�
 BREAKALLIANCEOFFDESC;你想取消和$COUNTRY$的军事同盟吗这将让他们很生气.;;;;;;;;;;x
 ALLIANCEREQDESC;$ACTOR$向我们提出建立军事同盟.同意的话，我们将承诺在战争时期相互支援.;;;;;;;;;;x
 DECWARREQDESC;有些时候宣战是外交的最后一招. 但是如果没有一个合理的宣战理由，那么将会减少其它国家对你的友好.也许还会减少国家的稳定.确定这么做吗;;;;;;;;;;x
-HASCBON;拥有宣战理由：$LIST$.;;;;;;;;;;x
+HASCBON;拥有宣战理由：$LIST$。;;;;;;;;;;x
 DIP_CHAR_ON_MISSION;$NAME$已经在执行一个任务了\n他会在 $DATE$ 天后返回。;;;;;;;;;;x
 DIP_CHAR_AVAILABLE;$NAME$可以执行这个任务。;;;;;;;;;;x
 CANCELTRADEDESC;取消一个已经存在的商路.;;;;;;;;;;x
@@ -15663,7 +15663,7 @@ CANCELOFFERMILACCINFORM;$COUNTRY$宣布他们的军队将会离开我们的领�
 DECWARINFORM;$MONARCHTITLE$，$COUNTRY$的大使带来了宣战声明.他说我们的首都一周之内就会化为焦土！;;;;;;;;;;x
 VASSALTITLE;索要贡金;;;;;;;;;;x
 VASSALNEWDESC;你想要强迫$COUNTRY$每个月进贡 $CASH$¤ 来换取我们的「保护」吗？;;;;;;;;;;x
-VASSALBREAKDESC;你要停止向$COUNTRY$上贡吗\n这将会伤害两国关系，而且他们会得到一个针对我国的宣战理由.;;;;;;;;;;x
+VASSALBREAKDESC;你要停止向$COUNTRY$上贡吗？\n这将会伤害两国关系，而且他们会得到一个针对我国的宣战理由。;;;;;;;;;;x
 VASSALCANCELDESC;你要停止接受$COUNTRY$的贡金吗;;;;;;;;;;x
 VASSALDESC;建议他们向我们上贡.;;;;;;;;;;x
 OFFERTRIBUTEDESC;建议我们向他们上贡.;;;;;;;;;;x
@@ -16120,9 +16120,9 @@ LEDGER_FRIENDS;朋友;;;;;;;;;;x
 LEDGER_ENEMIES;敌人;;;;;;;;;;x
 LEDGER_NATION_SIZE;省份数量;;;;;;;;;;x
 HOSTILE_RELATIONLEDGER_CB_LEFT_S;我们拥有宣战借口的国家;;;;;;;;;;x
-HOSTILE_RELATIONLEDGER_CB_LEFT_L;我们拥有宣战借口的国家.对其宣战时名声和稳定度的损失较少.;;;;;;;;;;x
+HOSTILE_RELATIONLEDGER_CB_LEFT_L;我们拥有宣战借口的国家。对其宣战时名声和稳定度的损失较少。;;;;;;;;;;x
 HOSTILE_RELATIONLEDGER_CB_RIGHT_S;对我们拥有宣战理由的国家;;;;;;;;;;x
-HOSTILE_RELATIONLEDGER_CB_RIGHT_L;对我们拥有宣战借口的国家.这些国家在外交方面有更大的危险因为他们会倾向于对我们宣战.;;;;;;;;;;x
+HOSTILE_RELATIONLEDGER_CB_RIGHT_L;对我们拥有宣战借口的国家。这些国家在外交方面有更大的危险因为他们会倾向于对我们宣战。;;;;;;;;;;x
 LEDGER_PREV;上一个;;;;;;;;;;x
 LEDGER_NEXT;下一个;;;;;;;;;;x
 LEDGER_CLOSE;关闭;;;;;;;;;;x
@@ -17111,7 +17111,7 @@ PROV441;布尔诺;;;;;;;;;;x
 PROV442;特伦钦;;;;;;;;;;x
 PROV443;尼特拉;;;;;;;;;;x
 PROV444;艾斯特根;;;;;;;;;;x
-PROV445;普雷斯堡;;;;;;;;;;x
+PROV445;普莱斯堡;;;;;;;;;;x
 PROV446;哲诺伊摩;;;;;;;;;;x
 PROV447;帕绍;;;;;;;;;;x
 PROV448;萨尔茨堡;;;;;;;;;;x
@@ -19093,8 +19093,8 @@ PURE_REVOLT_RISK_LOWER_THAN;净叛乱风险低于;;;;;;;;;;x
 PURE_REVOLT_RISK_HIGHER_THAN;净叛乱风险高于;;;;;;;;;;x
 REVOLT_RISK_LOWER_THAN;叛乱风险低于;;;;;;;;;;x
 REVOLT_RISK_HIGHER_THAN;叛乱风险高于;;;;;;;;;;x
-HAVE_NOT_CASUS_BELLI_AGAINST;没有宣战理由;;;;;;;;;;x
-HAVE_CASUS_BELLI_AGAINST;有宣战理由;;;;;;;;;;x
+HAVE_NOT_CASUS_BELLI_AGAINST;没有宣战理由针对;;;;;;;;;;x
+HAVE_CASUS_BELLI_AGAINST;有宣战理由针对;;;;;;;;;;x
 MONTHLY_INCOME_LESS_THAN;月收入少于;;;;;;;;;;x
 MONTHLY_INCOME_GREATER_THAN;月收入大于;;;;;;;;;;x
 IS_NOT_NEIGHBOUR_WITH;不相邻与;;;;;;;;;;x
@@ -19667,7 +19667,7 @@ tut_6b_3;和平条约;;;;;;;;;;x
 tut_6b_4;攻击者胜利，攻击者获得声称的省份或者头衔，增加威望和更高的分数.;;;;;;;;;;x
 tut_6b_5;攻击者失败，攻击者损失威望并降低分数，同时他们也失去了这项宣称权.;;;;;;;;;;x
 tut_6b_6;休战，无条件和平.攻击者损失威望.;;;;;;;;;;x
-tut_6b_7;点击继续结束本节.;;;;;;;;;;x
+tut_6b_7;点击继续结束本节。;;;;;;;;;;x
 tut_6c_1;战争 - 高级;;;;;;;;;;x
 tut_6c_2;作为战争的高级部分，我们讨论一些战争得分的细节和法理上的宣称权.请点击继续.;;;;;;;;;;x
 tut_6c_3;战争得分;;;;;;;;;;x

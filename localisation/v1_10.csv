@@ -197,7 +197,7 @@ NOT_ENOUGH_AUTHORITY_TO_REFORM_RELIGION;§R§Y$RELIGION$§R的宗教权威至少
 NOT_ENOUGH_HOLY_SITES_TO_REFORM_RELIGION;§R你当前只控制着§Y$CURRENT$§R个§Y$RELIGION$§R圣地，而你至少需要§Y$NEED$§!个;;;;;;;;;;x
 NOT_ENOUGH_PIETY_TO_REFORM_RELIGION;§R我们需要至少§Y$NEED$§R$PIETYNAME$§!;;;;;;;;;;x
 REFORM_RELIGION;§Y对 $RELIGION$ 信仰进行改革§!;;;;;;;;;;x
-REFORM_RELIGION_DESC;对$RELIGION$进行改革会将其改变成一个有组织的宗教。除非你已经控制了所有的圣地，这样做需要§Y$AUTHORITY_REQ$§!宗教权威跟对$RELIGION$教圣地§Y$HOLY_SITES_REQ$§!的控制。这需要你§R$PIETY_COST$§![Player.Religion.GetPietyName]。作为一个经过改革的原始宗教领袖会有一个圣战的宣战理由，获得/允许大部分的继承法，不会再在和平期间丢失威望，有异心的封臣也更少给你找麻烦。但是，他们也会失去在本土防御时，宗教敌人的补给上限惩罚，封臣们也会对长时间无理由地征收他们战争税而感到不满。;;;;;;;;;;x
+REFORM_RELIGION_DESC;对$RELIGION$进行改革会将其改变成一个有组织的宗教。除非你已经控制了所有的圣地，这样做需要 §Y$AUTHORITY_REQ$§! 点宗教权威跟对 §Y$HOLY_SITES_REQ$§! 处$RELIGION$教圣地的控制。这将花费你 §R$PIETY_COST$§! [Player.Religion.GetPietyName]。作为一个经过改革的原始宗教领袖会有一个圣战的宣战理由，允许大部分的继承法，不会再在和平期间丢失威望，有异心的封臣也更少给你找麻烦。但是，他们也会失去在本土防御时，宗教敌人的补给上限惩罚，封臣们也会对长时间无理由地征收他们战争税而感到不满。;;;;;;;;;;x
 title_courtesan;侍妾;;;;;;;;;;x
 REVOLT_SHARED_TICKING_WS_DESC;$PERC$：叛军已经控制了他们所有的地盘;;;;;;;;;;x
 REFORMED;改革;;;;;;;;;;x
@@ -633,7 +633,7 @@ pagan_subjugation_tip;§Y[Root.GetTitledFirstName]§! 夺取了 §Y[From.GetTitl
 caliphal_subjugation_desc;每 §Y10§! 年，哈里发可以花费§Y200§!虔诚来征服一个同教派的穆斯林领主.;;;;;;;;;;x
 muslim_county_conquest_desc;穆斯林可以以 §Y50§! 虔诚，不需任何理由来征服一个单领地国家.;;;;;;;;;;x
 viking_invasion_desc;诺斯信仰能宣布将任意法理王国内足够强大的势力作为入侵目标. 这将使得他们通过冒险家们来提高等级，但他们必须在两年内发动攻击.;;;;;;;;;;x
-pagan_holy_war_desc;改革后的原始宗教可以以§Y100§! $PIETYNAME$，用这个理由来夺取其他法理公国中的异教徒头衔.;;;;;;;;;;x
+pagan_holy_war_desc;改革后的原始宗教可以花费 §Y100§! $PIETYNAME$，用这个宣战理由来夺取其他法理公国中的异教徒头衔。;;;;;;;;;;x
 CANNOT_PLAY_PAGAN_WITHOUT_DLC;你没有安装逝往神灵DLC，不能使用原始宗教或祆教国家;;;;;;;;;;x
 NOT_ALLOWED_PAGAN;没有逝往神灵DLC，你不能扮演§Y原始宗教或祆教§!！;;;;;;;;;;x
 NOT_ALLOWED_PAGAN_MP;§Y$PLAYER$§!没有逝往神灵DLC，不能扮演§Y原始宗教或祆教§!角色;;;;;;;;;;x
