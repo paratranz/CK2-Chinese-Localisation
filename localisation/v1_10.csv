@@ -119,8 +119,8 @@ RELHEAD_DIPLO;外交;;;;;;;;;;x
 RELHEAD_PIETY;[Player.Religion.GetPietyName];;;;;;;;;;x
 ORGANIZED_RELIGION;有组织的宗教;;;;;;;;;;x
 INTERACTION_REQUIRES_RECIPIENT_CAN_MARRY;§Y[Recipient.GetTitledFirstName]§!必须能够结婚且有能力生育;;;;;;;;;;x
-INTERACTION_PREP_INV_ALREADY_TARGETTED;§Y[Recipient.GetTitledFirstName]§! 没有成为准备入侵的目标;;;;;;;;;;x
-INTERACTION_PREP_INV_ONLY_ONCE;§Y[Actor.GetTitledFirstName]§! 只能在 [Actor.GetPossPronoun]一生中发动一次准备入侵;;;;;;;;;;x
+INTERACTION_PREP_INV_ALREADY_TARGETTED;§Y[Recipient.GetTitledFirstName]§!没有成为准备入侵的目标;;;;;;;;;;x
+INTERACTION_PREP_INV_ONLY_ONCE;§Y[Actor.GetTitledFirstName]§!只能在[Actor.GetPossPronoun]一生中发动一次准备入侵;;;;;;;;;;x
 MORAL_AUTHORITY_OF_RELIGION;§Y$RELIGION$§!信仰的宗教权威:§Y$AUTHORITY$%§!;;;;;;;;;;x
 EVTNAME670;_[Root.Religion.GetName]改革;;;;;;;;;;x
 EVTDESC670;古老的 [Root.Religion.GetName]宗教已经被证明无法抵御十字架与月亮的冲击.比起完全放弃旧模式，[Root.GetTitledName]跟一些最有势力的牧师已经决定对 [Root.Religion.GetName]信仰进行改革.随着新的礼拜式的编排，一部圣经跟在一个领导者领导下的教廷严格等级制度也面世了，他们希望通过对[Root.Religion.GetName]信仰的改革，可以更好地对抗外国宗教信仰!;;;;;;;;;;x
@@ -191,8 +191,8 @@ TRIBAL;部落;;;;;;;;;;x
 TRIBAL_TITLE;§Y部落头衔§! (不能有法理上的封臣);;;;;;;;;;x
 TRIBAL_TITLE_DESC;部落头衔不能同时拥有法理上的封臣头衔.如果部落的领导者得到一个相同或是更高的等级的，这部落头衔就会永远消失.;;;;;;;;;;x
 TITULAR_TITLE_DESC;只有虚名的头衔并不会拥有任何法理上的封臣.然而，在特定的时间里，封臣的土地跟王国可以变成他们在法理上的封臣，让它变得「有名有实」.;;;;;;;;;;x
-ISNT_VALID_PREP_INV_TARGET;§Y$TITLE$§!内§Y$CHAR$§!的地产不能通过准备入侵占有;;;;;;;;;;x
-IS_VALID_PREP_INV_TARGET;§Y$TITLE$§!内§Y$CHAR$§!的地产能通过准备入侵占有;;;;;;;;;;x
+ISNT_VALID_PREP_INV_TARGET;§Y$TITLE$§!内§Y$CHAR$§!的领地不能通过准备入侵占有;;;;;;;;;;x
+IS_VALID_PREP_INV_TARGET;§Y$TITLE$§!内§Y$CHAR$§!的领地能通过准备入侵占有;;;;;;;;;;x
 NOT_ENOUGH_AUTHORITY_TO_REFORM_RELIGION;§R§Y$RELIGION$§R的宗教权威至少要有§Y$NEED$§!;;;;;;;;;;x
 NOT_ENOUGH_HOLY_SITES_TO_REFORM_RELIGION;§R你当前只控制着§Y$CURRENT$§R个§Y$RELIGION$§R圣地，而你至少需要§Y$NEED$§!个;;;;;;;;;;x
 NOT_ENOUGH_PIETY_TO_REFORM_RELIGION;§R我们需要至少§Y$NEED$§R$PIETYNAME$§!;;;;;;;;;;x
@@ -275,7 +275,7 @@ AIREASON_CONSORT_TOO_LOW_RANK;§Y[GetTitledFirstName]§! 作为一个高产的�
 AIREASON_NO_WAR_AGAINST_REL_BRETHREN;不能帮着别的宗教的敌人去攻打跟自己一个宗教的兄弟;;;;;;;;;;x
 INTERACTION_CONSORTS_MUST_MARRY_LIEGE;侍妾只能跟她的领主结婚;;;;;;;;;;x
 INTERACTION_IS_VALID_CONSORT;§Y[ThirdPartyCharacter.GetTitledFirstName]§! 可以被纳作侍妾;;;;;;;;;;x
-INTERACTION_CANT_DOW_PREPARED_INVADER;§Y[Recipient.GetTitledFirstName]§! 没有准备入侵你;;;;;;;;;;x
+INTERACTION_CANT_DOW_PREPARED_INVADER;§Y[Recipient.GetTitledFirstName]§!没有准备入侵你;;;;;;;;;;x
 INTERACTION_PREP_INV_NO_TARGET;没有找到§Y[Recipient.GetTitledFirstName]§!控制着§Y$MIN$§!到§Y$MAX$§!之间地产的有效王国;;;;;;;;;;x
 INTERACTION_REQUIRES_RECIPIENT_NOT_DE_JURE_VASSAL;§Y[Recipient.GetTitledFirstName]§! 不是 [Actor.Religion.GetName]一个法理上的封臣;;;;;;;;;;x
 INTERACTION_PAGANS_CANNOT_DEMAND_CONVERSION;§Y[Actor.GetTitledFirstName]§! 不是一个未经改革的原始宗教;;;;;;;;;;x
@@ -310,8 +310,8 @@ d_zoroastrian;祆教教会;;;;;;;;;;x
 d_zoroastrian_adj;祆教;;;;;;;;;;x
 HEAD_MOABADAN_MOABAD;摩拜旦-摩拜德;;;;;;;;;;x
 norse;诺斯人;;;;;;;;;;x
-won_viking_invasion;准备入侵获得胜利;;;;;;;;;;x
-lost_viking_invasion;准备入侵获得失败;;;;;;;;;;x
+won_viking_invasion;准备入侵胜利;;;;;;;;;;x
+lost_viking_invasion;准备入侵失败;;;;;;;;;;x
 won_county_conquest;成功占领这地区;;;;;;;;;;x
 lost_county_conquest;战争失败;;;;;;;;;;x
 lost_heretic_revolt;异教的叛军胜利了;;;;;;;;;;x
@@ -326,14 +326,14 @@ SUPPLY_PAGAN_HOME;异教徒的故乡：$VALUE$;;;;;;;;;;x
 TheOldGodsDLC;逝往神灵;;;;;;;;;;x
 HymnsToTheOldGodsDLC;为古老神祗写的赞美诗;;;;;;;;;;x
 SongsOfArabiaDLC;阿拉伯之歌;;;;;;;;;;x
-PREPARING_INVASION_AGAINST;在§Y$END_DATE$§!前准备入侵§Y$TARGET$§!;;;;;;;;;;x
+PREPARING_INVASION_AGAINST;在 §Y$END_DATE$§! 前准备入侵§Y$TARGET$§!;;;;;;;;;;x
 PREPARED_INVASION_TARGET;§Y$ATTACKER$§!正在准备在§Y$END_DATE$§!入侵;;;;;;;;;;x
 preparing_to_invade;准备入侵中;;;;;;;;;;x
 preparing_to_invade_me;准备入侵中;;;;;;;;;;x
 alert_planning_invasion_instant;§Y准备入侵§!;;;;;;;;;;x
-alert_planning_invasion_delayed;在§Y$DATE$§!前我们正准备入侵§Y$TARGET$§!;;;;;;;;;;x
+alert_planning_invasion_delayed;在 §Y$DATE$§! 前我们正准备入侵§Y$TARGET$§!;;;;;;;;;;x
 alert_enemy_invasion_planned_instant;§Y敌人准备入侵§!;;;;;;;;;;x
-alert_enemy_invasion_planned_delayed;敌方统治者正准备入侵我国:\n$LIST$;;;;;;;;;;x
+alert_enemy_invasion_planned_delayed;敌方统治者正准备入侵我国：\n$LIST$;;;;;;;;;;x
 EVTDESC62100;敌军已经攻进来了，我别无选择，只能投降，我只能任[New.GetTitledName]随便摆布.;;;;;;;;;;x
 EVTOPTA62100;诅咒你!;;;;;;;;;;x
 EVTDESC62800;[From.Religion.GetRandomGodNameCap] 原谅我	我已经决定改信[Root.Religion.GetName]，从 [Root.Religion.GetRandomGodName]中寻找救赎.我希望我们可以马上放下成见\n\n[From.GetTitledName];;;;;;;;;;x
@@ -590,15 +590,15 @@ b_turris_octava;托雷德尔格雷科;;;;;;;;;;x
 b_eboli;埃博丽;;;;;;;;;;x
 REFILL_HOLDING_LEVY;恢复§Y$HOLDING$§!内的征召兵。\n;;;;;;;;;;x
 CAPTURED_CLOSE_RELATIVE;$PERC$：逮捕 §Y$CHAR$§!;;;;;;;;;;x
-AIREASON_PREPARING_INVASION;准备入侵 §Y[GetTitledName]§!;;;;;;;;;;x
+AIREASON_PREPARING_INVASION;准备入侵§Y[GetTitledName]§!中;;;;;;;;;;x
 INVASION_TARGET;入侵目标;;;;;;;;;;x
 IS_REBEL;是叛乱;;;;;;;;;;x
 ISNT_REBEL;不是叛乱;;;;;;;;;;x
 IS_PREPARING_INVASION;正在准备入侵;;;;;;;;;;x
-ISNT_PREPARING_INVASION;没有准备入侵;;;;;;;;;;x
+ISNT_PREPARING_INVASION;没在准备入侵;;;;;;;;;;x
 IS_TEMPORARY_TITLE;是临时头衔;;;;;;;;;;x
 ISNT_TEMPORARY_TITLE;不是临时头衔;;;;;;;;;;x
-CB_NAME_VIKING_INVASION;准备好入侵 [Title.GetBaseName];;;;;;;;;;x
+CB_NAME_VIKING_INVASION;准备好入侵[Title.GetBaseName];;;;;;;;;;x
 WAR_NAME_VIKING_INVASION;$ORDER$$FIRST_ADJ$预谋入侵$OTHER_TITLE$;;;;;;;;;;x
 CB_NAME_PEASANT_CONQUEST;[Title.GetBaseName]农民叛乱;;;;;;;;;;x
 WAR_NAME_PEASANT_CONQUEST;$OTHER_TITLE$农民叛乱;;;;;;;;;;x
@@ -640,10 +640,10 @@ NOT_ALLOWED_PAGAN_MP;§Y$PLAYER$§!没有逝往神灵DLC，不能扮演§Y原始
 RD_NOT_PLAYABLE_WITHOUT_PAGAN_DLC;没有安装逝往神灵DLC 不能使用原始宗教和祆教;;;;;;;;;;x
 PREPARE_INVASION_INTERACTION_TITLE;准备入侵;;;;;;;;;;x
 PREPARE_INVASION_INTERACTION_DESC;准备入侵一个独立领主;;;;;;;;;;x
-PREPARE_INVASION_INTERACTION_LONG_DESC;光荣的诺斯信仰领主会在他们的一生中至少有一次在宣战前准备入侵.在入侵前的两年里，会有大量的甘于冒险投机之徒汇聚在你的战旗之下，你的目标越富有强大人数就在你旗下之人就越多.但若你在两年之后没有发动入侵，你将会为此颜面扫地.;;;;;;;;;;x
+PREPARE_INVASION_INTERACTION_LONG_DESC;光荣的诺斯信仰领主会在他们的一生中至少有一次在宣战前准备入侵。在入侵前的两年里，会有大量的甘于冒险投机之徒汇聚在你的战旗之下，你的目标越富有强大人数就在你旗下之人就越多。但若你在两年之后没有发动入侵，你将会为此颜面扫地。;;;;;;;;;;x
 PREPARE_INVASION_INTERACTION_ACCEPT_SETUP;准备入侵;;;;;;;;;;x
-PREPARE_INVASION_INTERACTION_ACCEPT_LOG;§Y[Actor.GetTitledName]§!准备入侵 §Y[Recipient.GetTitledName]§!;;;;;;;;;;x
-PREPARE_INVASION_INTERACTION_OFFER;[Actor.GetTitledName]正在准备入侵你!;;;;;;;;;;x
+PREPARE_INVASION_INTERACTION_ACCEPT_LOG;§Y[Actor.GetTitledName]§!正准备入侵§Y[Recipient.GetTitledName]§!;;;;;;;;;;x
+PREPARE_INVASION_INTERACTION_OFFER;[Actor.GetTitledName]正在准备入侵你！;;;;;;;;;;x
 PREPARE_INVASION_INTERACTION_LETTER;以全知全能的倒吊之人	闪耀之眼	伟大的圣父奥丁的名义，我宣布我将入侵你的土地、征服你的人民并将其彻底化为圣鸦的盛宴 !\n\n[From.GetTitledName];;;;;;;;;;x
 PREPARE_INVASION_INTERACTION_0;根据诺斯教义，你可以宣布有意向入侵§Y[Recipient.GetTitledName]§!. 你有两年的时间来准备宣战，其间将会有大量的冒险之徒加入你的麾下.;;;;;;;;;;x
 opinion_failed_invasion;准备入侵失败;;;;;;;;;;x
