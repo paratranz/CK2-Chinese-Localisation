@@ -59,7 +59,7 @@ CALL_ALLY_INTERACTION_OFFER;[Actor.GetBestName]希望我方能够加入§Y$ACTOR
 ACTOR_WARS;[GetPossPronoun]战争;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_3;§R[Recipient.GetTitledFirstName]正在反抗[Recipient.GetPossPronoun]的领主. 如果这场冲突结束了，我们的战争也会结束! 因为这名领主和这些造反者的军队都会变成我军的敌人.§!;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_4;§R附近的[Recipient.Religion.GetName]地区的统治者可能会要求加入[Recipient.GetTitledName]，以此捍卫他们的信仰.§!;;;;;;;;;;x
-plot_gain_vassal_title_title;收回[This.GetFullBaseName];;;;;;;;;;x
+plot_gain_vassal_title_title;剥夺[This.GetFullBaseName];;;;;;;;;;x
 plot_gain_vassal_title_desc;[From.GetBestName]正在密谋收回[This.GetFullBaseName]的头衔。;;;;;;;;;;x
 plot_gain_vassal_title_decision;[Root.GetPlot];;;;;;;;;;x
 plot_gain_vassal_title_decision_desc;将密谋付诸行动，下达最后通牒给[Root.PlotTarget.GetTitledName].;;;;;;;;;;x
@@ -87,7 +87,7 @@ IS_LOCATED_IN_AREA;在;;;;;;;;;;x
 IS_NOT_DE_JURE_VASSAL_OR_BELOW;不是法理封臣或更低;;;;;;;;;;x
 IS_DE_JURE_VASSAL_OR_BELOW;是法理封臣或更低;;;;;;;;;;x
 WAR_NAME_CRUSADE;$ORDER$$RELIGION$夺取$OTHER_TITLE$$HOLY_WAR$;;;;;;;;;;x
-CB_NAME_CLAIM_VASSAL;收回[Title.GetBaseName];;;;;;;;;;x
+CB_NAME_CLAIM_VASSAL;剥夺[Title.GetBaseName];;;;;;;;;;x
 HOLDING_TYPE_IS_NOT;持有状态为否;;;;;;;;;;x
 HOLDING_TYPE_IS;持有状态为是;;;;;;;;;;x
 REPUBLIC_HELD_CITY;共和国所属城市;;;;;;;;;;x
@@ -425,7 +425,7 @@ EVTDESC1980;女人不能引起我的兴趣，相反我被其他男人所吸引�
 EVTDESC1990;男人不能引起我的兴趣，相反我被其他女人所吸引。;;;;;;;;;;x
 EVTDESC20292;我的领主，\n我的信给您带来一个惊人的消息! [FromFrom.GetTitledName]想要暗杀我，以此确保我不会发现[FromFrom.GetHerHis]想要[FromFrom.GetPlot]的阴谋.\n\n您谦卑的间谍总管，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTB8118;实际上，我并不想开战……;;;;;;;;;;x
-WAR_NAME_CLAIM_VASSAL;$ATTACKER$$ORDER$收回$OTHER_TITLE$战争;;;;;;;;;;x
+WAR_NAME_CLAIM_VASSAL;$ATTACKER$$ORDER$剥夺$OTHER_TITLE$战争;;;;;;;;;;x
 EVTOPTA100000;告诉他们是你偷的糕点和羽毛笔！;;;;;;;;;;x
 EVTTOOLTIP100001;[Root.GetTitledFirstName]和[This.GetTitledFirstName]成为仇敌;;;;;;;;;;x
 EVTOPTB100000;让我们一起大肆破坏吧！;;;;;;;;;;x
@@ -1221,7 +1221,7 @@ EVTOTPA100527;因为毒害宾客，[From.GetTitledFirstName]把我扔进大牢�
 EVTOTPB100527;因为毒害宾客，[From.GetTitledFirstName]把我驱逐出境;;;;;;;;;;x
 EVTDESC72038;我听说[From.GetTitledFirstName]挑战我的其中一位宾客进行决斗，但在我有机会出面干涉时，那两个决斗者早已走到外面……;;;;;;;;;;x
 EVTOPTA72038;我要试着在为时已晚之前赶上他们……;;;;;;;;;;x
-opinion_revoked_lord_spiritual_title;撤换宫廷牧师;;;;;;;;;;x
+opinion_revoked_lord_spiritual_title;收回宫廷牧师职位;;;;;;;;;;x
 action_inquisition_desc;将你的 [GetLordSpiritualName] 派到那群迷失的羔羊所在的省份，转化异端和异教徒.;;;;;;;;;;x
 action_advance_cul_tech_desc;将你的 [GetLordSpiritualName] 派到一个省份工作以发展文化科技.;;;;;;;;;;x
 action_improve_rel_relations_desc;让你的[GetLordSpiritualName]带领一个修士代表团去与当地的神职人员（尤其对宗教领袖有用）进行宗教辩论。;;;;;;;;;;x

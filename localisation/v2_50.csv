@@ -537,19 +537,19 @@ EVTOPTA_38011;用钱换取人情。;;;;;;;;;;x
 EVTOPTA_38011_TOOLTIP;[From.GetTitledName]欠你的。;;;;;;;;;;x
 EVTDESC38016;[From.GetTitledName]同意了你的请求，但是[From.GetSheHe]再三强调这件事是你欠的人情，你应该记住。;;;;;;;;;;x
 EVTOPT_38016_TOOLTIP;你欠[From.GetTitledName]一个人情。\n;;;;;;;;;;x
-EVTOPTC38060;一个慷慨的人情。;;;;;;;;;;x
+EVTOPTC38060;慷慨解囊换取人情。;;;;;;;;;;x
 EVTDESC38062;[From.GetTitledName]答应帮你摆脱财务困境。[From.GetSheHeCap]想获得一些土地用来抵偿那么一大笔钱。;;;;;;;;;;x
 EVTOPTA38062;完美的解决方案！;;;;;;;;;;x
 EVTOPTB38062;我不喜欢这种交易。;;;;;;;;;;x
-EVTDESC50009;[From.GetTitledName]已经显示了仁慈，并会释放我，以换取未来的人情。;;;;;;;;;;x
+EVTDESC50009;[From.GetTitledName]已经手下留情，并会释放我，以换取未来的人情。;;;;;;;;;;x
 EVTOPTA50009;我不会忘记这些。;;;;;;;;;;x
 EVTOPTE50006;释放[From.GetHerHim]，[From.GetSheHe]以后会回报我。;;;;;;;;;;x
-EVTDESC63006B;我主已经同意把一个封臣转移给我，但是我将来不得不回报[Root.Liege.GetHerHim]。;;;;;;;;;;x
-EVTOPTA63001B;[From.GetSheHeCap]能够拥有一个封臣，做为帮助。;;;;;;;;;;x
+EVTDESC63006B;我的领主已经同意把一个封臣转移给我，但是我将来不得不回报[Root.Liege.GetHerHim]。;;;;;;;;;;x
+EVTOPTA63001B;[From.GetSheHeCap]能够欠下人情获得一个封臣。;;;;;;;;;;x
 EVTDESC_ZE_8110;你的封臣[target_vassal.GetTitledName]正在与[target_vassal.GetHerHis][target_vassal.GetHusbandWifeOpp]争吵。[target_vassal.GetSheHeCapOpp]似乎非常沮丧，他们几乎向彼此尖叫。他们没有注意到你正在观察他们。;;;;;;;;;;x
 EVTOPTA_ZE_8110;我应该干预。;;;;;;;;;;x
-EVTOPTB_ZE_8110;这不关你的事。;;;;;;;;;;x
-EVTDESC_ZE_8111;当你走近这对夫妇，你看向他们然后解释[target_vassal.GetFirstName]最近一定有很多的压力来自于内阁施加给[target_vassal.GetHerHim]的全部责任。现在那里没有什么可做的，[target_vassal.GetSheHe]将有时间表示对[target_vassal.GetHerHis][target_vassal.GetHusbandWifeOpp]的欣赏。;;;;;;;;;;x
+EVTOPTB_ZE_8110;这不关我的事。;;;;;;;;;;x
+EVTDESC_ZE_8111;当你走近这对夫妇，你看向他们，然后解释[target_vassal.GetFirstName]最近一定有很多的压力，这来自于内阁施加给[target_vassal.GetHerHim]的全部职责。现在那里没有什么可做的，[target_vassal.GetSheHe]将有时间表示对[target_vassal.GetHerHis][target_vassal.GetHusbandWifeOpp]的感谢。;;;;;;;;;;x
 EVTOPTA_ZE_8111;离开。;;;;;;;;;;x
 EVTDESC_ZE_8112;我和我的[Root.GetHusbandWifeOpp]因为不重要的事情而激烈争吵，[From.GetTitledName]给我解围，我的婚姻也因此得到拯救。;;;;;;;;;;x
 EVTOPTA_ZE_8112;我欠[From.GetHerHim]一个人情。;;;;;;;;;;x
@@ -560,45 +560,45 @@ coalition_members;成员：$MEMBERS$;;;;;;;;;;x
 RELATION_ALLY;同盟的;;;;;;;;;;x
 RELATION_NON_AGGRESSION;互不侵犯条约;;;;;;;;;;x
 PACTS;条约;;;;;;;;;;x
-CHARACTER_DEBUG;调试：\nCtrl-click以这个角色来玩\nAlt-click杀掉这个角色。;;;;;;;;;;x
+CHARACTER_DEBUG;调试：\n§G按住 Ctrl 点击以这个角色来玩\n按住 Alt 点击杀掉这个角色§!;;;;;;;;;;x
 INTERACTION_COALITION_REQUIRES_NO_ALLY;现在没有与§Y[Recipient.GetTitledFirstName]§!结盟;;;;;;;;;;x
 UNIT_MAX;最大：$MAX|Y$;;;;;;;;;;x
 UNIT_CURRENT;当前：$CURRENT|Y$;;;;;;;;;;x
-UNIT_WILL_REINFORCE;这支陆军现在位于友好的领土之内，将从老家获得每月$REINFORCE|+0$增援。;;;;;;;;;;x
-UNIT_NOT_REINFORCE;如果在友好的领土之内，这支陆军将获得每月$REINFORCE|+0$增援。与其老家最近的友好领土是$FRIENDLY|Y$。;;;;;;;;;;x
+UNIT_WILL_REINFORCE;这支陆军现在位于友好领土之内，将从老家获得每月 $REINFORCE|+0$ 增援。;;;;;;;;;;x
+UNIT_NOT_REINFORCE;如果在友好领土之内，这支陆军将获得每月 $REINFORCE|+0$ 增援。与其老家最近的友好领土是$FRIENDLY|Y$。;;;;;;;;;;x
 MODIFIER_DEFENSIVE_PLOT_POWER;阴谋力量防御;;;;;;;;;;x
-FORM_ALLIANCE_INTERACTION_TITLE;建立联盟;;;;;;;;;;x
-FORM_ALLIANCE_INTERACTION_DESC;建立一个联盟;;;;;;;;;;x
-FORM_ALLIANCE_INTERACTION_LONG_DESC;通过建立一个正确的联盟使得你们的关系更加牢固。;;;;;;;;;;x
-FORM_ALLIANCE_INTERACTION_ACCEPT_SETUP;联盟建立;;;;;;;;;;x
-FORM_ALLIANCE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!与§Y[Recipient.GetBestName]§!已经建立了一个联盟。;;;;;;;;;;x
-FORM_ALLIANCE_INTERACTION_DECLINE_SETUP;拒绝联盟;;;;;;;;;;x
-FORM_ALLIANCE_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§!拒绝与§Y[Actor.GetBestName]§!联盟。;;;;;;;;;;x
-FORM_ALLIANCE_INTERACTION_OFFER;§Y[Actor.GetBestName]§!想与我们结盟。;;;;;;;;;;x
-FORM_ALLIANCE_INTERACTION_LETTER;\n\n建立一个正确的联盟使得我们的关系更加牢固。;;;;;;;;;;x
-FORM_ALLIANCE_INTERACTION_01;询问$WHO|Y$是否愿意建立一个正确的联盟。;;;;;;;;;;x
-DAYS_REMAINING;$DAYS$剩余天数;;;;;;;;;;x
-HAS_CLOSE_RELATIVE_OR_NON_AGGRESSION_PACT_WITH;与$NAME|Y$处于亲密关系或者互不侵犯条约。;;;;;;;;;;x
+FORM_ALLIANCE_INTERACTION_TITLE;建立同盟;;;;;;;;;;x
+FORM_ALLIANCE_INTERACTION_DESC;建立一个同盟;;;;;;;;;;x
+FORM_ALLIANCE_INTERACTION_LONG_DESC;通过建立一个合适的同盟使得你们的关系更加牢固。;;;;;;;;;;x
+FORM_ALLIANCE_INTERACTION_ACCEPT_SETUP;同盟建立;;;;;;;;;;x
+FORM_ALLIANCE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W与§Y[Recipient.GetBestName]§W已经建立了一个同盟。;;;;;;;;;;x
+FORM_ALLIANCE_INTERACTION_DECLINE_SETUP;拒绝同盟提议;;;;;;;;;;x
+FORM_ALLIANCE_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§W拒绝与§Y[Actor.GetBestName]§W结盟。;;;;;;;;;;x
+FORM_ALLIANCE_INTERACTION_OFFER;§Y[Actor.GetBestName]§W想与我们结盟。;;;;;;;;;;x
+FORM_ALLIANCE_INTERACTION_LETTER;\n\n建立一个合适的同盟使得我们的关系更加牢固。;;;;;;;;;;x
+FORM_ALLIANCE_INTERACTION_01;询问$WHO|Y$是否愿意建立一个合适的同盟。;;;;;;;;;;x
+DAYS_REMAINING;$DAYS$ 天剩余;;;;;;;;;;x
+HAS_CLOSE_RELATIVE_OR_NON_AGGRESSION_PACT_WITH;与$NAME|Y$是近亲或有互不侵犯条约。;;;;;;;;;;x
 COUNCIL_TABS_MY_COUNCIL;我的内阁;;;;;;;;;;x
 COUNCIL_TABS_LIEGE_COUNCIL;领主内阁;;;;;;;;;;x
 COUNCIL_VOTER_TITLE;$TITLE|Y$;;;;;;;;;;x
-COUNCIL_EMPTY_VOTER_TITLE;空的选举头衔;;;;;;;;;;x
-COUNCIL_POSITION_NUM_VOTERS;选民人数：$NUM|Y$;;;;;;;;;;x
-COUNCIL_CHANGE_POSITION_COOLDOWN;你将在$NUM|Y$月后改变职位。;;;;;;;;;;x
-COUNCIL_CHANGE_POSITION;通过点击界面顶部的位置可以改变内阁的职位。;;;;;;;;;;x
+COUNCIL_EMPTY_VOTER_TITLE;空投票者头衔;;;;;;;;;;x
+COUNCIL_POSITION_NUM_VOTERS;投票者人数：$NUM|Y$;;;;;;;;;;x
+COUNCIL_CHANGE_POSITION_COOLDOWN;你将能在 $NUM|Y$ 月后再次改变内阁席位。;;;;;;;;;;x
+COUNCIL_CHANGE_POSITION;通过点击界面顶部的位置可以改变内阁席位。;;;;;;;;;;x
 COUNCIL_CHANGE_POSITION_CLICK;§G通过点击来改变你的内阁席位到$POSITION|Y$§!;;;;;;;;;;x
 COUNCIL_CHANGE_POSITION_TITLE;是否改变内阁席位？;;;;;;;;;;x
-COUNCIL_CHANGE_POSITION_CONFIRM;在你改变职位后，你将在$NUM|Y$个月内无法再次改变。\n你确定改变内阁席位为$POSITION|Y$？;;;;;;;;;;x
+COUNCIL_CHANGE_POSITION_CONFIRM;在你改变席位后，你将在 $NUM|Y$ 个月内无法再次改变。\n你确定改变内阁席位为$POSITION|Y$？;;;;;;;;;;x
 ALL_DE_JURE_LIEGES_TITLES;所有法理领主头衔;;;;;;;;;;x
-INTERACTION_REQUIRES_SAME_COUNCIL;是在同一个内阁;;;;;;;;;;x
+INTERACTION_REQUIRES_SAME_COUNCIL;在同一个内阁;;;;;;;;;;x
 INTERACTION_REQUIRES_NO_FAVORS;§Y[Recipient.GetTitledFirstName]§!不欠§Y[Actor.GetTitledFirstName]§!的人情。;;;;;;;;;;x
 INTERACTION_REQUIRES_FAVORS;[Recipient.GetBestName]欠[Actor.GetBestName]一个人情。;;;;;;;;;;x
 BUY_FAVOR_INTERACTION_TITLE;购买人情;;;;;;;;;;x
-BUY_FAVOR_INTERACTION_DESC;支付§Y[Recipient.GetBestName]§!$GOLD|0Y$¤以$EFFECT$[Recipient.GetHerHim]。;;;;;;;;;;x
+BUY_FAVOR_INTERACTION_DESC;支付§Y[Recipient.GetBestName]§! $GOLD|0Y$¤ 以$EFFECT$[Recipient.GetHerHim]。;;;;;;;;;;x
 BUY_FAVOR_INTERACTION_LONG_DESC;赠送黄金用来还人情或者获得未来的人情。;;;;;;;;;;x
-CALL_IN_FAVOR_INTERACTION_DESC;兑现[Recipient.GetBestName]欠你的人情。;;;;;;;;;;x
-CALL_IN_FAVOR_INTERACTION_LONG_DESC;兑现[Recipient.GetBestName]欠你的人情。;;;;;;;;;;x
-CALL_IN_FAVOR_INTERACTION_0;做为兑现人情，[Recipient.GetBestName]将在$MONTHS$月里投票支持你在内阁的行动。;;;;;;;;;;x
+CALL_IN_FAVOR_INTERACTION_DESC;要求兑现[Recipient.GetBestName]欠你的人情。;;;;;;;;;;x
+CALL_IN_FAVOR_INTERACTION_LONG_DESC;要求兑现[Recipient.GetBestName]欠你的人情。;;;;;;;;;;x
+CALL_IN_FAVOR_INTERACTION_0;通过要求兑现人情，[Recipient.GetBestName]将在 $MONTHS$ 月内投票支持你在内阁的行动。;;;;;;;;;;x
 RETURNING_FAVOR;§Y回报人情§!;;;;;;;;;;x
 RETURNING_FAVOR_TO;$WHO1|Y$正在回报人情给$WHO2|Y$。;;;;;;;;;;x
 VOTING_STARTER;§Y投票发起人§!;;;;;;;;;;x
@@ -606,7 +606,7 @@ OWES_YOU_FAVOR;$WHO|Y$欠你一个人情，你可以要求兑现。;;;;;;;;;;x
 COUNCIL_VOTE_FOR_SETUP;投票赞成;;;;;;;;;;x
 COUNCIL_VOTE_FOR_LOG;$INTERACTION$\n内阁投票通过：\n$COUNCIL_RESULT$\n$CHARACTER_RESULT|Y$;;;;;;;;;;x
 COUNCIL_VOTE_AGAINST_SETUP;投票反对;;;;;;;;;;x
-COUNCIL_VOTE_AGAINST_LOG;$INTERACTION$\n内阁投票反对：\n$COUNCIL_RESULT$>\n$CHARACTER_RESULT|Y$投票反对。;;;;;;;;;;x
+COUNCIL_VOTE_AGAINST_LOG;$INTERACTION$\n内阁投票反对：\n$COUNCIL_RESULT$\n$CHARACTER_RESULT|Y$投票反对。;;;;;;;;;;x
 COUNCIL_VOTE_ABSTAINED_SETUP;投票弃权;;;;;;;;;;x
 COUNCIL_VOTE_ABSTAINED_LOG;$INTERACTION$\n内阁投票弃权：\n$COUNCIL_RESULT$\n$CHARACTER_RESULT|Y$投票反对。;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_VOTE;§Y[Actor.GetTitledName]§!向§Y[Recipient.GetTitledName]§!宣战;;;;;;;;;;x
@@ -632,37 +632,37 @@ HELD_FAVOR_ACTIVATED_ON_NOT_TRIGGER;$CHARACTER|Y$没有持有一个激活的人�
 HELD_FAVOR_ACTIVATED_ON_CHARACTER_TRIGGER;$CHARACTER|Y$从$TARGET|Y$得到一个激活的人情;;;;;;;;;;x
 ANY_FAVOR_HOLDER;任何人情持有者;;;;;;;;;;x
 ANY_FAVOR_OWER;任何人情亏欠者;;;;;;;;;;x
-AMONG_MOST_POWERFUL_VASSALS_TOOLTIP;根据实力属于顶级$VALUE|Y$封臣;;;;;;;;;;x
+AMONG_MOST_POWERFUL_VASSALS_TOOLTIP;根据实力属于 $VALUE|Y$ 大顶级封臣;;;;;;;;;;x
 MOST_POWERFUL_VASSAL_TOOLTIP;是实力最强的封臣;;;;;;;;;;x
-NOT_AMONG_MOST_POWERFUL_VASSALS_TOOLTIP;根据实力不属于顶级$VALUE|Y$封臣;;;;;;;;;;x
+NOT_AMONG_MOST_POWERFUL_VASSALS_TOOLTIP;根据实力不属于 $VALUE|Y$ 大顶级封臣;;;;;;;;;;x
 NOT_MOST_POWERFUL_VASSAL_TOOLTIP;不是实力最强的封臣;;;;;;;;;;x
-LOOTING_FORBIDDEN_NON_AGGRESSION;因为有与$CHAR|Y$的互不侵犯条约所以不允许掠夺。;;;;;;;;;;x
+LOOTING_FORBIDDEN_NON_AGGRESSION;因为有与$CHAR|Y$的互不侵犯条约所以不允许劫掠。;;;;;;;;;;x
 IS_A_POWERFUL_VASSAL;§Y被认为是你领内一个强大的封臣。§!;;;;;;;;;;x
-REVOKE_HONORARY_TITLE_INTERACTION_1;撤销§Y[Recipient.GetTitledFirstName]§!的§Y[ThirdPartyTitle.GetFullName]§!头衔。;;;;;;;;;;x
-REVOKE_HONORARY_TITLE_OPINION;这将改变你的[Recipient.GetPossPronoun]评价$OPINION|+$。;;;;;;;;;;x
-REVOKE_HONORARY_TITLE_SPLIT_OPINION;这将改变你的[Recipient.GetPossPronoun]评价$OPINION|+$。（$TITLE_OPINION|+$距离失去头衔，$REVOKE_OPINION|+$距离使得[Recipient.GetObjectPronoun]失望。）;;;;;;;;;;x
-HAS_PARTICIPATED_IN_WAR_FOR_THE_LAST;曾经积极参与战争在过去$DAYS$天。;;;;;;;;;;x
-HAS_NOT_PARTICIPATED_IN_WAR_FOR_THE_LAST;不曾积极参与战争在过去$DAYS$天。;;;;;;;;;;x
-PREFERRED_WAR_TARGET;首选的战争目标;;;;;;;;;;x
+REVOKE_HONORARY_TITLE_INTERACTION_1;剥夺§Y[Recipient.GetTitledFirstName]§W的§Y[ThirdPartyTitle.GetFullName]§W头衔。;;;;;;;;;;x
+REVOKE_HONORARY_TITLE_OPINION;这将改变[Recipient.GetPossPronoun]对你的好感$OPINION|+$。;;;;;;;;;;x
+REVOKE_HONORARY_TITLE_SPLIT_OPINION;这将改变[Recipient.GetPossPronoun]对你的好感 $OPINION|+$。（$TITLE_OPINION|+$ 来自失去头衔，$REVOKE_OPINION|+$ 来自使[Recipient.GetObjectPronoun]不满。）;;;;;;;;;;x
+HAS_PARTICIPATED_IN_WAR_FOR_THE_LAST;在过去 $DAYS$ 天曾经积极参与战争。;;;;;;;;;;x
+HAS_NOT_PARTICIPATED_IN_WAR_FOR_THE_LAST;在过去 $DAYS$ 天不曾积极参与战争。;;;;;;;;;;x
+PREFERRED_WAR_TARGET;首选战争目标;;;;;;;;;;x
 TRIGGER_SIEGE;围攻;;;;;;;;;;x
 AIREASON_WAR_IS_EXPENSIVE;我的战争花费了很多;;;;;;;;;;x
 AIREASON_POLITICAL_CONCERNS;不感兴趣;;;;;;;;;;x
 AIREASON_NEEDS_MONEY;钱是受欢迎的;;;;;;;;;;x
 AIREASON_THREATENED;你是一个威胁;;;;;;;;;;x
-AIREASON_YOUR_LIEGE;我是你的君主;;;;;;;;;;x
+AIREASON_YOUR_LIEGE;我是你的领主;;;;;;;;;;x
 AIREASON_WANT_TO_KEEP_FAVOR;我对人情有更好的用途;;;;;;;;;;x
 RETURN_FAVOR;回报你所欠的人情;;;;;;;;;;x
 ASKS_FAVOR;获得一个人情从;;;;;;;;;;x
 EVTDESC520;我欣然接受你的礼物，将来会记得你的好意。;;;;;;;;;;x
 EVTOPTA520;完美;;;;;;;;;;x
-EVTDESC521;你必须明白你不能像这么轻易的买到我的忠诚. 我拒绝你的礼物.;;;;;;;;;;x
+EVTDESC521;你必须明白你不能这么轻易地买到我的忠诚。我拒绝你的礼物。;;;;;;;;;;x
 EVTOPTA521;这会成为问题;;;;;;;;;;x
-VOTE_RESULT_FOR;内阁投票 §G通过§!.\n$FOR|Y$投票者赞成，$AGAINST|Y$投票者反对。\n你的内阁共有$TOTAL|Y$个职位，其中多数必须投票通过，而领主可以打破平票。\n空缺的职位会被视为投票反对。;;;;;;;;;;x
-VOTE_RESULT_AGAINST;内阁投票 §R否决§!.\n$FOR|Y$投票者赞成，$AGAINST|Y$投票者反对。\n你的内阁共有$TOTAL|Y$个职位，其中多数必须投票通过，而领主可以打破平票。\n空缺的职位会被视为投票反对。\n违背内阁会使他们不满，并将允许他们加入派系. 这也会被视为暴君行径，并降低所有你所有臣民对你的好感$OPINION|R$.;;;;;;;;;;x
+VOTE_RESULT_FOR;内阁投票§G通过§!。\n$FOR|Y$ 投票者赞成，$AGAINST|Y$ 投票者反对。\n你的内阁共有 $TOTAL|Y$ 个职位，其中多数必须投票通过，而领主可以打破平票。\n空缺的职位会被视为投票反对。;;;;;;;;;;x
+VOTE_RESULT_AGAINST;内阁投票§R否决§!。\n$FOR|Y$ 投票者赞成，$AGAINST|Y$ 投票者反对。\n你的内阁共有 $TOTAL|Y$ 个席位，其中多数必须投票通过，而领主可以打破平票。\n空缺的职位会被视为投票反对。\n违背内阁会使他们不满，并将允许他们加入派系。这也会被视为暴君行径，并降低所有你所有臣民对你的好感 $OPINION|R$。;;;;;;;;;;x
 VOTE_RESULT_TOGGLE;§G点击切换投票细节窗口§!;;;;;;;;;;x
-VOTE_SWAYED;这名投票人在这个问题上没有特定的观点且会受到其他投票人的外交能力影响;;;;;;;;;;x
-REQUEST_SUPPORT_INTERACTION_DESC;以人情与 [Recipient.GetBestName] 做交易换取支持.;;;;;;;;;;x
-REQUEST_SUPPORT_INTERACTION_0;如果§Y[Recipient.GetBestName]§!接受你的请求，[Recipient.GetSubjectPronoun]将在内阁投票中与你一致 $MONTHS|Y$ 个月，且你将欠[Recipient.GetObjectPronoun]一个人情。;;;;;;;;;;x
+VOTE_SWAYED;这名投票人在这个问题上没有特定的观点且会受到其他投票人的外交能力影响。;;;;;;;;;;x
+REQUEST_SUPPORT_INTERACTION_DESC;以人情换取[Recipient.GetBestName]的支持。;;;;;;;;;;x
+REQUEST_SUPPORT_INTERACTION_0;如果§Y[Recipient.GetBestName]§!接受你的请求，[Recipient.GetSubjectPronoun]将 $MONTHS|Y$ 个月内在内阁投票中与你一致，且你将欠[Recipient.GetObjectPronoun]一个人情。;;;;;;;;;;x
 REQUEST_SUPPORT_INTERACTION_LETTER;\n\n请支持我在内阁投票中与我一致。如果你同意为我这么做，我从此欠你一个人情。;;;;;;;;;;x
 EVTDESC522;我会在内阁支持你。;;;;;;;;;;x
 EVTOPTA522;太好了;;;;;;;;;;x

@@ -4906,14 +4906,14 @@ CLAIM_TITLE_INTERACTION_0;选择一个头衔.宣称头衔会降低威望并降�
 CLAIM_TITLE_INTERACTION_1;宣称 §Y[ThirdPartyTitle.GetFullName]§! ，消耗 §R$PRESTIGE$§! 威望.这将降低 §Y[Recipient.GetTitledFirstName]§!对你的好感度 §R$OPINION$§!.;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_ACCEPT_SETUP;宣称头衔;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 宣称 §Y[ThirdPartyTitle.GetFullName]§!，原主人 §Y[Recipient.GetBestName]§!;;;;;;;;;;x
-REVOKE_TITLE_INTERACTION_TITLE;收回头衔;;;;;;;;;;x
-REVOKE_TITLE_INTERACTION_DESC;从某人手中收回头衔;;;;;;;;;;x
-REVOKE_TITLE_INTERACTION_LONG_DESC;从一个封臣手中收回头衔.这将激怒封臣，而且除非你对这个头衔有宣称权，还将损害你的威望并激怒其他封臣.;;;;;;;;;;x
+REVOKE_TITLE_INTERACTION_TITLE;剥夺头衔;;;;;;;;;;x
+REVOKE_TITLE_INTERACTION_DESC;剥夺一个角色的头衔;;;;;;;;;;x
+REVOKE_TITLE_INTERACTION_LONG_DESC;剥夺一个封臣的头衔。这将激怒封臣，而且除非你对这个头衔有宣称权，还将损害你的威望并激怒其他封臣。;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_0;选择收回的头衔.收回头衔将降低§Y[Recipient.GetTitledFirstName]§!对你的好感.如果你没有这个头衔的宣称权，或者王权法不够高，还将损害你的威望并激怒其他封臣.;;;;;;;;;;x
-REVOKE_TITLE_INTERACTION_1;收回 §Y[ThirdPartyTitle.GetFullName]§! ，损耗§R$PRESTIGE$§!威望.这将降低§Y[Recipient.GetTitledFirstName]§!对你的好感度 §R$OPINION$§!，降低其他封臣对你的好感度 §R$OPINION2$§!.;;;;;;;;;;x
-REVOKE_TITLE_INTERACTION_2;收回 §Y[ThirdPartyTitle.GetFullName]§!.这将降低 §Y[Recipient.GetTitledFirstName]§!对你的好感度 §R$OPINION$§!.;;;;;;;;;;x
+REVOKE_TITLE_INTERACTION_1;剥夺§Y[ThirdPartyTitle.GetFullName]§W，损耗 §R$PRESTIGE$§W 威望。这将降低§Y[Recipient.GetTitledFirstName]§W对你的好感度 §R$OPINION$§W，降低其他封臣对你的好感度 §R$OPINION2$§W。;;;;;;;;;;x
+REVOKE_TITLE_INTERACTION_2;剥夺§Y[ThirdPartyTitle.GetFullName]§W。这将降低§Y[Recipient.GetTitledFirstName]§W对你的好感度 §R$OPINION$§W。;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_3;有 §R$RISK$%§! 几率 [Recipient.GetSubjectPronoun]§! 将揭竿而起！;;;;;;;;;;x
-REVOKE_TITLE_INTERACTION_ACCEPT_SETUP;收回头衔;;;;;;;;;;x
+REVOKE_TITLE_INTERACTION_ACCEPT_SETUP;剥夺头衔;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 从 §Y[Recipient.GetBestName]§! 手中收回 §Y[ThirdPartyTitle.GetFullName]§!.;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_TITLE;授予荣誉头衔;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_DESC;授予此人荣誉头衔;;;;;;;;;;x
@@ -15187,7 +15187,7 @@ desc_fear_of_the_stag;你避开巨大雄鹿这一明智的决定被一些人称�
 a_mighty_trophy;巨大奖杯;;;;;;;;;;x
 desc_a_mighty_trophy;巨大雄鹿的头颅挂现在你的壁炉之上，世人都盛传着你的强大.;;;;;;;;;;x
 opinion_claimed_my_title;宣称我的头衔;;;;;;;;;;x
-opinion_revoked_my_title;收回我的头衔;;;;;;;;;;x
+opinion_revoked_my_title;剥夺我的头衔;;;;;;;;;;x
 opinion_revoked_a_title;剥夺封臣头衔;;;;;;;;;;x
 opinion_lying_about_confession;忏悔时说谎;;;;;;;;;;x
 opinion_admire_chaste;他就是适合我的人;;;;;;;;;;x
@@ -15404,7 +15404,7 @@ learning_advice;学识建议;;;;;;;;;;x
 opinion_revoked_chancellor_title;收回外交总管职位;;;;;;;;;;x
 opinion_revoked_marshal_title;收回军事总管职位;;;;;;;;;;x
 opinion_revoked_steward_title;收回财政总管职位;;;;;;;;;;x
-opinion_revoked_spymaster_title;收回职位;;;;;;;;;;x
+opinion_revoked_spymaster_title;收回间谍总管职位;;;;;;;;;;x
 for_the_sake_of_love;为了爱;;;;;;;;;;x
 opinion_happy;高兴;;;;;;;;;;x
 opinion_acquaintance;认识的人;;;;;;;;;;x
@@ -15648,9 +15648,9 @@ CANCELMILACCTITLE;取消军事通行;;;;;;;;;;x
 OFFERMILACCTITLE;提供军事通行;;;;;;;;;;x
 OFFERMILACCNEWDESC;你要向$COUNTRY$提供军事通行吗这将使他们的部队能够驻扎在我们的领土及港口内.;;;;;;;;;;x
 OFFERMILACCDESC;使他们的部队和船只能够在我国驻扎.;;;;;;;;;;x
-REVOKEMILACCTITLE;取消军事通行;;;;;;;;;;x
+REVOKEMILACCTITLE;取消军事通行。;;;;;;;;;;x
 REVOKEMILACCNEWDESC;你要取消给予$COUNTRY$的军事通行吗这样将阻止他们的部队通过我国领土和港口.;;;;;;;;;;x
-REVOKEMILACCDESC;取消他们在我国境内驻扎部队及船只的权力.;;;;;;;;;;x
+REVOKEMILACCDESC;取消他们在我国境内驻扎部队及船只的权力。;;;;;;;;;;x
 CANCELMILACCNEWDESC;是否要中止与$COUNTRY$签订的军事通行条约中止后我们的军队将不能通过他们的领土和港口.;;;;;;;;;;x
 CANCELMILACCINFORM;$COUNTRY$中止了于我们的签订的军事通行条约.我们的军队将不能通过他们的领土和港口;;;;;;;;;;x
 DIP_ACCEPT;接受请求;;;;;;;;;;x
@@ -17997,7 +17997,7 @@ TITLE_USURPATION_DESC;我们需要控制这个法理上的领地的 §Y$REQ_PERC
 TITLE_CANNOT_BE_FREE_TAG;该头衔必须拥有法理上的封臣.;;;;;;;;;;x
 CONFIRM_TITLE_CREATION;创建 $TITLE$?;;;;;;;;;;x
 CONFIRM_TITLE_USURPATION;篡夺 $TITLE$?;;;;;;;;;;x
-CONFIRM_TITLE_REVOKE;收回头衔 $TITLE$?;;;;;;;;;;x
+CONFIRM_TITLE_REVOKE;剥夺$TITLE$头衔？;;;;;;;;;;x
 CONFIRM_TITLE_CLAIM;宣称 $TITLE$?;;;;;;;;;;x
 TITLE_CREATION_COST_DESC;创建这项头衔将给予你 §G$PRESTIGE$§! 威望并花费你 §R$GOLD$§! 金钱。;;;;;;;;;;x
 TITLE_USURPATION_COST_DESC;篡夺这项头衔将给予你 §G$PRESTIGE$§! 威望并花费你 §R$GOLD$§! 金钱。;;;;;;;;;;x
@@ -18190,7 +18190,7 @@ CIW_GOTOLOCATION;§Y前往§!\n$WHERE$;;;;;;;;;;x
 CIW_GOTOCHARREL;§Y查看角色关系§!;;;;;;;;;;x
 CIW_GOTOARRANGEMARRIAGE;安排婚姻;;;;;;;;;;x
 CIW_GOTOEDUCATECHILD;教育孩子;;;;;;;;;;x
-CIW_GOTOREVOKETITLE;收回头衔;;;;;;;;;;x
+CIW_GOTOREVOKETITLE;剥夺头衔;;;;;;;;;;x
 CIW_GOTOCLAIMTITLE;宣称头衔;;;;;;;;;;x
 CIW_GOTOSENDGIFT;赠送礼物;;;;;;;;;;x
 EXPENSE_DEMESNE_ARMIES;直辖领地陆军费用;;;;;;;;;;x
