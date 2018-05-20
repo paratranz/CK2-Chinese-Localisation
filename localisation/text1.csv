@@ -431,22 +431,22 @@ GROUP_CHANGE;科技组改变为$GROUP$。\n;;;;;;;;;;x
 CHANGE_TAG;改国号为$NEW$。\n;;;;;;;;;;x
 CREATE_REVOLT;$SIZE$个军团在$WHERE$发动叛变。\n;;;;;;;;;;x
 CREATE_PIRATE;$SIZE$艘船在$WHERE$地区进行海盗活动。\n;;;;;;;;;;x
-NATIVE_FEROCITY;$WHERE$地区的原著居民的攻击性为$DIRECTION$ $VALUE$。;;;;;;;;;;x
-NATIVE_HOSTILENESS;$WHERE$地区的原著居民的敌意值为$DIRECTION$ $VALUE$。;;;;;;;;;;x
-NATIVE_SIZE;$WHERE$的原著居民数量为$DIRECTION$ $VALUE$。;;;;;;;;;;x
-BASE_TAX;$WHERE$地区的基础税收为$DIRECTION$ $VALUE$。\n;;;;;;;;;;x
-CITYSIZE;$WHERE$地区的人口为$DIRECTION$ $VALUE$。\n;;;;;;;;;;x
+NATIVE_FEROCITY;$WHERE$地区的原著居民$DIRECTION$ $VALUE$ 攻击性。;;;;;;;;;;x
+NATIVE_HOSTILENESS;$WHERE$地区的原著居民$DIRECTION$ $VALUE$ 敌意值。;;;;;;;;;;x
+NATIVE_SIZE;$WHERE$的原著居民数量$DIRECTION$了 $VALUE$。;;;;;;;;;;x
+BASE_TAX;$WHERE$地区的基础税收$DIRECTION$了 $VALUE$。\n;;;;;;;;;;x
+CITYSIZE;$WHERE$地区的人口$DIRECTION$了 $VALUE$。\n;;;;;;;;;;x
 MISSIONARIES;$DIRECTION$ $VALUE$ 传教士。\n;;;;;;;;;;x
 MERCHANTS;$DIRECTION$ $VALUE$ 商人。\n;;;;;;;;;;x
 COLONISTS;$DIRECTION$ $VALUE$ 殖民者。\n;;;;;;;;;;x
 SPIES;$DIRECTION$ $VALUE$ 间谍。\n;;;;;;;;;;x
 DIPLOMATS;$DIRECTION$ $VALUE$ 外交官。\n;;;;;;;;;;x
-HRE_STATUS;$WHERE$是$DIRECTION$神圣罗马帝国不可分割的一部分。\n;;;;;;;;;;x
+HRE_STATUS;$WHERE$将$DIRECTION$神圣罗马帝国不可分割的一部分。\n;;;;;;;;;;x
 BECOME;成为;;;;;;;;;;x
 NOLONGER;不再是;;;;;;;;;;x
-PROV_MANPOWER;$WHERE$地区的人力为$DIRECTION$ $VALUE$。\n;;;;;;;;;;x
+PROV_MANPOWER;$WHERE$地区$DIRECTION$ $VALUE$ 人力。\n;;;;;;;;;;x
 DISCOVER;发现$WHERE$。\n;;;;;;;;;;x
-COT_CHANGE;$DIRECTION$在$WHERE$建立新的贸易中心。\n;;;;;;;;;;x
+COT_CHANGE;$WHERE$$DIRECTION$新的贸易中心。\n;;;;;;;;;;x
 ADD_BUILDING;在$WHERE$得到了$NAME$。\n;;;;;;;;;;x
 REM_BUILDING;在$WHERE$失去了$NAME$。\n;;;;;;;;;;x
 GOODS_CHANGE;在$WHERE$，$NAME$将成为新的特产。\n;;;;;;;;;;x
@@ -458,12 +458,12 @@ REMOVETRAITEFFECT;§Y$WHO$§!失去特质：‘§Y$TRAIT$§!’\n;;;;;;;;;;x
 NEW_GOVERNOR_EFFECT_A;$NEW$成为$WHERE$的总督。\n;;;;;;;;;;x
 NEW_GOVERNOR_EFFECT_B;$WHO$上任$WHERE$的总督。\n;;;;;;;;;;x
 MOVE_CHARACTER;$WHO$来到了$WHERE$。\n;;;;;;;;;;x
-WEALTH_EFFECT;$WHO$$DIRECTION$ $VALUE$财富。\n;;;;;;;;;;x
-LOYALTY_EFFECT;$WHO$$DIRECTION$ $VALUE$忠诚。\n;;;;;;;;;;x
+WEALTH_EFFECT;$WHO$$DIRECTION$ $VALUE$ 财富。\n;;;;;;;;;;x
+LOYALTY_EFFECT;$WHO$$DIRECTION$ $VALUE$ 忠诚。\n;;;;;;;;;;x
 POPULARITY_EFFECT;$WHO$$DIRECTION$ $VALUE$ 威望。\n;;;;;;;;;;x
-CORRUPTION_EFFECT;$WHO$$DIRECTION$ $VALUE$腐败。\n;;;;;;;;;;x
-FAM_PRESTIGE_EFFECT;$WHO$有$DIRECTION$ $VALUE$家族威望。\n;;;;;;;;;;x
-BARBARIAN_POWER_EFFECT;在$WHERE$的蛮族力量为$DIRECTION$ $VALUE$。\n;;;;;;;;;;x
+CORRUPTION_EFFECT;$WHO$$DIRECTION$ $VALUE$ 腐败。\n;;;;;;;;;;x
+FAM_PRESTIGE_EFFECT;$WHO$$DIRECTION$ $VALUE$ 家族威望。\n;;;;;;;;;;x
+BARBARIAN_POWER_EFFECT;在$WHERE$的蛮族力量$DIRECTION$了 $VALUE$。\n;;;;;;;;;;x
 ASSIGN_OFFICE_EFFECT;指定$CHAR$担任$NEW$。\n;;;;;;;;;;x
 CREATE_COLONY_EFFECT;人口为$SIZE$的殖民地已经在$WHERE$建立。\n;;;;;;;;;;x
 RANDOM_EFFECT;§Y$CHANCE$%§!几率;;;;;;;;;;x
@@ -472,7 +472,7 @@ UNIT_ALLEGIANCE_EFFECT;$UNIT$投奔到$WHO$麾下。\n;;;;;;;;;;x
 LOSE;失去;;;;;;;;;;x
 GAIN;获得;;;;;;;;;;x
 NO_EFFECT;无效果;;;;;;;;;;x
-CIV_VALUE;在$WHERE$的文明程度为$DIRECTION$ $VALUE$。\n;;;;;;;;;;x
+CIV_VALUE;在$WHERE$的文明程度$DIRECTION$了 $VALUE$。\n;;;;;;;;;;x
 SPAWN_HORDE;一个有$SIZE$单位的蛮族部落将出现在$WHERE$。\n;;;;;;;;;;x
 REMOVE_GOVERNOR;$WHO$不再是$WHERE$的总督。\n;;;;;;;;;;x
 SET_FAMILY_EFFECT;$CHAR$将成为$FAMILY$家族的一员。\n;;;;;;;;;;x
@@ -3166,7 +3166,7 @@ EVTDESC38264;急于下手去做乃是愚行。我获得了§Y耐心§!特质。;
 EVTDESC38165;[FromFrom.GetFirstName]看起来很喜欢和别人呆在一起。[FromFrom.GetSheHeCap]获得了合群特质。;;;;;;;;;;x
 EVTDESC38265;我很喜欢和别人聊天并了解他们。我获得了§Y合群§!特质。;;;;;;;;;;x
 EVTDESC38166;[FromFrom.GetFirstName]看起来不是很理解法律和规矩的意义。[FromFrom.GetSheHeCap]获得了专断特质。;;;;;;;;;;x
-EVTDESC38266;法律和规矩算什么，我的想法才是真有意思的呢。获得了§Y专断§!特质。;;;;;;;;;;x
+EVTDESC38266;法律和规矩算什么，我的想法才是真有意思的呢。我获得了§Y专断§!特质。;;;;;;;;;;x
 EVTDESC38167;[FromFrom.GetFirstName]变得对公平规则以及正义的法律很感兴趣。[FromFrom.GetSheHeCap]获得了正直特质。;;;;;;;;;;x
 EVTDESC38267;予世间以公平与正义乃是吾人之义务。我获得了§Y正直§!特质。;;;;;;;;;;x
 EVTDESC38168;[FromFrom.GetFirstName]总是能善待他人。[FromFrom.GetSheHeCap]获得了仁慈特质。;;;;;;;;;;x
@@ -3197,11 +3197,11 @@ EVTDESC38280;我这次受伤太严重了，我现在身被重创.;;;;;;;;;;x
 EVTDESC38181;[FromFrom.GetFirstName] 只能以瘸子的身份终老了. [FromFrom.GetSheHeCap] 变得断腿折足.;;;;;;;;;;x
 EVTDESC38281;我的腿彻底断了.我变得断腿折足了.;;;;;;;;;;x
 EVTDESC38182;[FromFrom.GetFirstName]总是为[FromFrom.GetSheHe]没法办的事情而忧心忡忡. [FromFrom.GetSheHeCap] 变得压力山大.;;;;;;;;;;x
-EVTDESC38282;怎么有那么多事情要做，有那么多事情要烦？我已获得 §Y紧张不安§!的特质。;;;;;;;;;;x
+EVTDESC38282;怎么有那么多事情要做，有那么多事情要烦？我获得了§Y紧张不安§!特质。;;;;;;;;;;x
 EVTDESC38183;[FromFrom.GetFirstName]，[FromFrom.GetHerHis]病治好了！! [FromFrom.GetSheHeCap] 不再疾病缠身.;;;;;;;;;;x
 EVTDESC38283;我的病治好了！我不再疾病缠身了！;;;;;;;;;;x
 EVTDESC38284;我浑身虚弱无力。我获得了§Y体弱多病§!特质。;;;;;;;;;;x
-EVTDESC38285;欲望不再侵扰我的心灵，我开始信奉独身主义.;;;;;;;;;;x
+EVTDESC38285;欲望不再侵扰我的心灵，我获得了独身主义特质;;;;;;;;;;x
 EVTDESC6204;我沉湎于我的欲望太久了，我主耶稣教导我们这是罪！我不会再这样下去了.;;;;;;;;;;x
 EVTOPTA6204;我要改正我的恶习.;;;;;;;;;;x
 EVTDESC6205;践行美德着实不易，但我主耶稣教导我们要全力抵御世俗的诱惑.;;;;;;;;;;x
@@ -14430,13 +14430,13 @@ d_zemigalians;斯米加利亚;;;;;;;;;;x
 d_zemigalians_adj;斯米加利亚;;;;;;;;;;x
 k_almohad;阿尔摩哈德;;;;;;;;;;x
 k_almohad_adj;阿尔摩哈德;;;;;;;;;;x
-k_al-murabitids;穆拉比德;;;;;;;;;;x
-k_al-murabitids_adj;穆拉比德;;;;;;;;;;x
-k_aydin;艾登;;;;;;;;;;x
+k_al-murabitids;穆拉比特;;;;;;;;;;x
+k_al-murabitids_adj;穆拉比特;;;;;;;;;;x
+k_aydin;艾丁;;;;;;;;;;x
 k_cyprus;塞浦路斯;;;;;;;;;;x
 k_cyprus_adj;塞浦路斯;;;;;;;;;;x
-k_beni_helal;班尼希拉尔;;;;;;;;;;x
-k_beni_helal_adj;班尼希拉尔;;;;;;;;;;x
+k_beni_helal;巴努希拉尔;;;;;;;;;;x
+k_beni_helal_adj;巴努希拉尔;;;;;;;;;;x
 k_candar;坎达尔;;;;;;;;;;x
 k_candar_adj;坎达尔;;;;;;;;;;x
 k_cuman;库曼;;;;;;;;;;x
@@ -14491,7 +14491,7 @@ e_sunni;逊尼派哈里发国;;;;;;;;;;x
 e_sunni_adj;哈里发;;;;;;;;;;x
 e_shiite;什叶派哈里发国;;;;;;;;;;x
 e_shiite_adj;哈里发;;;;;;;;;;x
-d_hashshashin_adj;哈萨辛派残影刺客;;;;;;;;;;x
+d_hashshashin_adj;阿萨辛派残影刺客;;;;;;;;;;x
 d_sunni_cuman_company;逊尼派可萨佣兵团;;;;;;;;;;x
 d_sunni_cuman_company_adj;逊尼派可萨佣兵团;;;;;;;;;;x
 d_shiite_cuman_company;什叶派钦察佣兵团;;;;;;;;;;x
@@ -16010,9 +16010,9 @@ CH_CULTURE_CHANGE;变成了$CULTURE$.;;;;;;;;;;x
 CH_RELIGION_CHANGE;皈依了$RELIGION$.;;;;;;;;;;x
 CH_INC;增加;;;;;;;;;;x
 CH_DEC;减少;;;;;;;;;;x
-CH_LOYALTY_CHANGE;忠诚$DIRECTION$了$CHANGE$。;;;;;;;;;;x
+CH_LOYALTY_CHANGE;忠诚$DIRECTION$了 $CHANGE$。;;;;;;;;;;x
 CH_WEALTH_CHANGE;财富$DIRECTION$了 $CHANGE$¤。;;;;;;;;;;x
-CH_POPULARITY_CHANGE;受欢迎度$DIRECTION$了$CHANGE$。;;;;;;;;;;x
+CH_POPULARITY_CHANGE;受欢迎度$DIRECTION$了 $CHANGE$。;;;;;;;;;;x
 CH_DIVORCE;与$WHO$离婚.;;;;;;;;;;x
 CH_MARRIED;与$WHO$结婚.;;;;;;;;;;x
 CH_LOST_RIVAL;顺从于$WHO$.;;;;;;;;;;x
@@ -16020,7 +16020,7 @@ CH_ADD_RIVAL;与$WHO$成为对手.;;;;;;;;;;x
 CH_LOSE_FRIEND;失去与$WHO$的友谊.;;;;;;;;;;x
 CH_GAIN_FRIEND;得到$WHO$这个朋友.;;;;;;;;;;x
 CH_ALLEGIANCE;加入$WHERE$.;;;;;;;;;;x
-CH_FERTILITY_CHANGE;生育能力$DIRECTION$了$CHANGE$。;;;;;;;;;;x
+CH_FERTILITY_CHANGE;$DIRECTION$ $CHANGE$ 生育能力。;;;;;;;;;;x
 CH_LOST_TRAIT;失去「$TRAIT$」特质。;;;;;;;;;;x
 CH_GAIN_TRAIT;得到「$TRAIT$」特质。;;;;;;;;;;x
 DIPLO_ACTION;显示可用的外交任务;;;;;;;;;;x
@@ -17801,13 +17801,13 @@ TECH_DEMESNE;领主;;;;;;;;;;x
 TECH_REALM;领地;;;;;;;;;;x
 INDEPENDENT;独立君主;;;;;;;;;;x
 VASSAL_SUBJECT;$LORD$的封臣;;;;;;;;;;x
-CH_STEWARDSHIP_CHANGE;财政$DIRECTION$  $CHANGE$;;;;;;;;;;x
-CH_INTRIGUE_CHANGE;智谋$DIRECTION$  $CHANGE$;;;;;;;;;;x
-CH_DIPLOMACY_CHANGE;外交$DIRECTION$  $CHANGE$;;;;;;;;;;x
-CH_MARTIAL_CHANGE;军事$DIRECTION$  $CHANGE$;;;;;;;;;;x
-CH_LEARNING_CHANGE;学识$DIRECTION$  $CHANGE$;;;;;;;;;;x
-CH_HEALTH_CHANGE;健康$DIRECTION$  $CHANGE$;;;;;;;;;;x
-CH_PRESTIGE_CHANGE;威望$DIRECTION$  $CHANGE$;;;;;;;;;;x
+CH_STEWARDSHIP_CHANGE;$DIRECTION$  $CHANGE$ 财政;;;;;;;;;;x
+CH_INTRIGUE_CHANGE;$DIRECTION$  $CHANGE$ 密谋;;;;;;;;;;x
+CH_DIPLOMACY_CHANGE;$DIRECTION$  $CHANGE$ 外交;;;;;;;;;;x
+CH_MARTIAL_CHANGE;$DIRECTION$  $CHANGE$ 军事;;;;;;;;;;x
+CH_LEARNING_CHANGE;$DIRECTION$  $CHANGE$ 学识;;;;;;;;;;x
+CH_HEALTH_CHANGE;$DIRECTION$  $CHANGE$ 健康;;;;;;;;;;x
+CH_PRESTIGE_CHANGE;$DIRECTION$  $CHANGE$ 威望;;;;;;;;;;x
 CH_PIETY_CHANGE;[Player.Religion.GetPietyName]$DIRECTION$  $CHANGE$;;;;;;;;;;x
 STAT_MARTIAL;国家军事能力;;;;;;;;;;x
 STAT_MARTIAL_DESC;军事能力对将军至关重要，也会影响军事总管执行任务的结果。;;;;;;;;;;x
