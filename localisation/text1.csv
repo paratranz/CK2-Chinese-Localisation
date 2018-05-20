@@ -408,10 +408,10 @@ SIEGE_MAJOR;大;;;;;;;;;;x
 SPAWN_EVENT;「$WHICH$」事件已发生。\n;;;;;;;;;;x
 TREASURY_EFFECT;$DIRECTION$ $VALUE$ 金钱。\n;;;;;;;;;;x
 PRESTIGE_EFFECT;$DIRECTION$ $VALUE$ 威望。\n;;;;;;;;;;x
-WAREXHAUSTION_EFFECT;$DIRECTION$ $VALUE$厌战。\n;;;;;;;;;;x
+WAREXHAUSTION_EFFECT;$DIRECTION$ $VALUE$ 厌战。\n;;;;;;;;;;x
 MANPOWER_EFFECT;$DIRECTION$ $VALUE$ 人力。;;;;;;;;;;x
-ARMYTRADITION_EFFECT;$DIRECTION$ $VALUE$陆军传统。\n;;;;;;;;;;x
-NAVYTRADITION_EFFECT;$DIRECTION$ $VALUE$海军传统。\n;;;;;;;;;;x
+ARMYTRADITION_EFFECT;$DIRECTION$ $VALUE$ 陆军传统。\n;;;;;;;;;;x
+NAVYTRADITION_EFFECT;$DIRECTION$ $VALUE$ 海军传统。\n;;;;;;;;;;x
 CAPITAL_CHANGE;$NEW$将成为新首都。\n;;;;;;;;;;x
 POLICY_CHANGE;$SLIDER$ $DIRECTION$ $VALUE$。\n;;;;;;;;;;x
 NEW_CORE_EFFECT;在$NEW$获得核心。\n;;;;;;;;;;x
@@ -436,11 +436,11 @@ NATIVE_HOSTILENESS;$WHERE$地区的原著居民的敌意值为$DIRECTION$ $VALUE
 NATIVE_SIZE;$WHERE$的原著居民数量为$DIRECTION$ $VALUE$。;;;;;;;;;;x
 BASE_TAX;$WHERE$地区的基础税收为$DIRECTION$ $VALUE$。\n;;;;;;;;;;x
 CITYSIZE;$WHERE$地区的人口为$DIRECTION$ $VALUE$。\n;;;;;;;;;;x
-MISSIONARIES;$DIRECTION$ $VALUE$传教士。\n;;;;;;;;;;x
-MERCHANTS;$DIRECTION$ $VALUE$商人。\n;;;;;;;;;;x
-COLONISTS;$DIRECTION$ $VALUE$殖民者。\n;;;;;;;;;;x
-SPIES;$DIRECTION$ $VALUE$间谍。\n;;;;;;;;;;x
-DIPLOMATS;$DIRECTION$ $VALUE$外交官。\n;;;;;;;;;;x
+MISSIONARIES;$DIRECTION$ $VALUE$ 传教士。\n;;;;;;;;;;x
+MERCHANTS;$DIRECTION$ $VALUE$ 商人。\n;;;;;;;;;;x
+COLONISTS;$DIRECTION$ $VALUE$ 殖民者。\n;;;;;;;;;;x
+SPIES;$DIRECTION$ $VALUE$ 间谍。\n;;;;;;;;;;x
+DIPLOMATS;$DIRECTION$ $VALUE$ 外交官。\n;;;;;;;;;;x
 HRE_STATUS;$WHERE$是$DIRECTION$神圣罗马帝国不可分割的一部分。\n;;;;;;;;;;x
 BECOME;成为;;;;;;;;;;x
 NOLONGER;不再是;;;;;;;;;;x
@@ -458,10 +458,10 @@ REMOVETRAITEFFECT;§Y$WHO$§!失去特质：‘§Y$TRAIT$§!’\n;;;;;;;;;;x
 NEW_GOVERNOR_EFFECT_A;$NEW$成为$WHERE$的总督。\n;;;;;;;;;;x
 NEW_GOVERNOR_EFFECT_B;$WHO$上任$WHERE$的总督。\n;;;;;;;;;;x
 MOVE_CHARACTER;$WHO$来到了$WHERE$。\n;;;;;;;;;;x
-WEALTH_EFFECT;$WHO$有$DIRECTION$ $VALUE$财富。\n;;;;;;;;;;x
-LOYALTY_EFFECT;$WHO$有$DIRECTION$ $VALUE$忠诚。\n;;;;;;;;;;x
-POPULARITY_EFFECT;$WHO$有$DIRECTION$ $VALUE$ 威望。\n;;;;;;;;;;x
-CORRUPTION_EFFECT;$WHO$有$DIRECTION$ $VALUE$腐败。\n;;;;;;;;;;x
+WEALTH_EFFECT;$WHO$$DIRECTION$ $VALUE$财富。\n;;;;;;;;;;x
+LOYALTY_EFFECT;$WHO$$DIRECTION$ $VALUE$忠诚。\n;;;;;;;;;;x
+POPULARITY_EFFECT;$WHO$$DIRECTION$ $VALUE$ 威望。\n;;;;;;;;;;x
+CORRUPTION_EFFECT;$WHO$$DIRECTION$ $VALUE$腐败。\n;;;;;;;;;;x
 FAM_PRESTIGE_EFFECT;$WHO$有$DIRECTION$ $VALUE$家族威望。\n;;;;;;;;;;x
 BARBARIAN_POWER_EFFECT;在$WHERE$的蛮族力量为$DIRECTION$ $VALUE$。\n;;;;;;;;;;x
 ASSIGN_OFFICE_EFFECT;指定$CHAR$担任$NEW$。\n;;;;;;;;;;x
@@ -482,11 +482,11 @@ REVOKE_LAW;废除;;;;;;;;;;x
 CHARBANISHEFFECT;§Y$NAME$§!被驱逐到§Y$TARGET$§!\n;;;;;;;;;;x
 MODIFIER_ADDED;§Y$WHERE$§!获得「§Y$WHAT$§!」直到§Y$DATE$§!，效果如下：\n$EFFECT$\n\n;;;;;;;;;;x
 MODIFIER_REMOVED;§Y$WHAT$§!将从§Y$WHERE$§!移除\n;;;;;;;;;;x
-DIPLOMACYEFFECT;$DIRECTION$ $VALUE$外交\n;;;;;;;;;;x
-INTRIGUEEFFECT;$DIRECTION$ $VALUE$密谋\n;;;;;;;;;;x
-STEWARDSHIPEFFECT;$DIRECTION$ $VALUE$财政\n;;;;;;;;;;x
-LEARNINGEFFECT;$DIRECTION$ $VALUE$学习\n;;;;;;;;;;x
-MARTIALEFFECT;$DIRECTION$ $VALUE$军事\n;;;;;;;;;;x
+DIPLOMACYEFFECT;$DIRECTION$ $VALUE$ 外交\n;;;;;;;;;;x
+INTRIGUEEFFECT;$DIRECTION$ $VALUE$ 密谋\n;;;;;;;;;;x
+STEWARDSHIPEFFECT;$DIRECTION$ $VALUE$ 财政\n;;;;;;;;;;x
+LEARNINGEFFECT;$DIRECTION$ $VALUE$ 学习\n;;;;;;;;;;x
+MARTIALEFFECT;$DIRECTION$ $VALUE$ 军事\n;;;;;;;;;;x
 SET_TITLE_HOLDER_GAIN_EFFECT;§Y$CHAR$§!得到头衔§Y$TITLE$§!\n;;;;;;;;;;x
 SET_TITLE_HOLDER_INHERIT_EFFECT;§Y$CHAR$§!继承头衔§Y$TITLE$§!\n;;;;;;;;;;x
 SET_TITLE_HOLDER_GRANT_EFFECT;§Y$CHAR$§!被授予头衔§Y$TITLE$§!\n;;;;;;;;;;x
@@ -510,7 +510,7 @@ APPOINT_REGENTS_ON;你可以任命摄政者。\n;;;;;;;;;;x
 APPOINT_REGENTS_OFF;你不可以任命摄政者。\n;;;;;;;;;;x
 HEREDITARY_JOB_ON;头衔$JOB$可以被世袭\n;;;;;;;;;;x
 HEREDITARY_JOB_OFF;头衔$JOB$不能世袭\n;;;;;;;;;;x
-REL_AUTHORITY_EFFECT;$DIRECTION$ $PERC$宗教权威\n;;;;;;;;;;x
+REL_AUTHORITY_EFFECT;$DIRECTION$ $PERC$ 宗教权威\n;;;;;;;;;;x
 SET_NAME_EFFECT;$OLD_NAME$改名为$NEW_NAME$\n;;;;;;;;;;x
 PLOT_IS_REVEALED;阴谋败露\n;;;;;;;;;;x
 BACK_PLOT_EFFECT;$BACKER$加入了$PLOTTER$对$TITLE$的图谋\n;;;;;;;;;;x
@@ -529,8 +529,8 @@ ABANDON_HERESY_EFFECT;放弃§Y$HERESY$§!的异端信仰。\n;;;;;;;;;;x
 NAMED_CHARACTER_CREATED;$TYPE$名叫§Y$NAME$§!将会出现在§Y$EMPLOYER$§!的宫廷内。\n;;;;;;;;;;x
 INFANT_CREATED;一个叫做§Y$NAME$§!的孩子出现在§Y$EMPLOYER$§!的宫廷。\n;;;;;;;;;;x
 CHARACTER_CREATED;$TYPE$出现在§Y$EMPLOYER$§!的宫廷。\n;;;;;;;;;;x
-HEALTH_EFFECT;§Y$WHO$§W $DIRECTION$ $VALUE$健康。\n;;;;;;;;;;x
-FERTILITY_EFFECT;§Y$WHO$§W $DIRECTION$ $PERC$生育能力。\n;;;;;;;;;;x
+HEALTH_EFFECT;§Y$WHO$§W $DIRECTION$ $VALUE$ 健康。\n;;;;;;;;;;x
+FERTILITY_EFFECT;§Y$WHO$§W $DIRECTION$ $PERC$ 生育能力。\n;;;;;;;;;;x
 CHANGECULTUREEFFECT;§Y$WHERE$§!接受了§Y$NAME$§!。\n;;;;;;;;;;x
 RELIGION_CHANGE;$WHERE$信奉$NAME$。\n;;;;;;;;;;x
 ACTIVATE_TITLE_EFFECT;§Y$TITLE$§!现在存在。\n;;;;;;;;;;x
@@ -1417,10 +1417,10 @@ EVTOPTB3565;我为什么要为此介意呢?;;;;;;;;;;x
 EVTDESC3566;[From.GetTitledFirstName]在我买淡红色玫瑰这件事情上责备了我. 虽然[From.GetSheHe]喜欢它而且认为它是对花园里品种的补充，但是它的价钱实在是太高了。;;;;;;;;;;x
 EVTOPTA3566;这是我的花园，我想干什么就干什么!;;;;;;;;;;x
 EVTOPTB3566;好的！我以后不会再买昂贵的植物了;;;;;;;;;;x
-EVTDESC3567;[From.GetTitledFirstName]对新玫瑰花赞不绝口，但是当我无意中说出它花费几何的时候，他感到十分震惊.[From.GetSheHeCap]告诉我应该更加慎重的使用金钱，即使这种玫瑰可以补充花园里的品种，它的价钱也有些过高了.;;;;;;;;;;x
+EVTDESC3567;[From.GetTitledFirstName]对新玫瑰花赞不绝口，但是当我无意中说出它花费几何的时候，他感到十分震惊。[From.GetSheHeCap]告诉我应该更加慎重的使用金钱，即使这种玫瑰可以补充花园里的品种，它的价钱也有些过高了。;;;;;;;;;;x
 EVTOPTA3567;这是我的钱，我想买什么就买什么!;;;;;;;;;;x
 EVTOPTB3567;好的，我知道了，以后不会再这样做了;;;;;;;;;;x
-EVTDESC3568;蜜蜂曾变得狂躁，叮了一些宫里人. 我咬咬牙拿下了宫苑里树洞上蜂巢，抢下一些蜜.唉，那个蜂巢现在应该成熟而多蜜了吧.;;;;;;;;;;x
+EVTDESC3568;蜜蜂曾变得狂躁，叮了一些宫里人。 我咬咬牙拿下了宫苑里树洞上蜂巢，抢下一些蜜。唉，那个蜂巢现在应该成熟而多蜜了吧。;;;;;;;;;;x
 EVTDESC3570;我的好友发现了一本好书，但他既不送我，也不卖我，接下来我要找人好好商量商量!;;;;;;;;;;x
 EVTOPTA3570;来人帮我!;;;;;;;;;;x
 EVTTOOLTIP3571;[This.GetTitledFirstName]会完成[Root.GetTitledFirstName]的要求;;;;;;;;;;x
@@ -1579,7 +1579,7 @@ EVTDESC3635;[duel_location.GetName]以其生产的剑和使用剑的人民出名
 EVTOPTA3635;行！你可以选择武器;;;;;;;;;;x
 EVTTOOLTIP3636;[This.GetTitledFirstName]为决斗选择武器;;;;;;;;;;x
 EVTDESC3636;我不喜欢[From.GetTitledFirstName]的目光并挑动[From.GetHerHim]加入决斗.[From.GetSheHeCap]接受并且很有礼貌的允许我挑选武器.;;;;;;;;;;x
-EVTOPTA3636;一尊摩尔大炮，怎么样?;;;;;;;;;;x
+EVTOPTA3636;一尊摩尔大炮，怎么样？;;;;;;;;;;x
 EVTTOOLTIP3637;[Root.GetTitledFirstName]选好了决斗的武器：摩尔大炮;;;;;;;;;;x
 EVTOPTC3636;用剑;;;;;;;;;;x
 EVTTOOLTIP3639;[Root.GetTitledFirstName]选好了决斗的武器：剑;;;;;;;;;;x
@@ -5501,15 +5501,15 @@ duke_female;女公爵;;;;;;;;;;x
 count_female;女伯爵;;;;;;;;;;x
 baron_female;女男爵;;;;;;;;;;x
 emperor_king_christian;至高主教;;;;;;;;;;x
-temple_king_christian;总主教;;;;;;;;;;x
+temple_king_christian;采邑总主教;;;;;;;;;;x
 temple_king_orthodox;总牧首;;;;;;;;;;x
 temple_king_muslim;哈里发;;;;;;;;;;x
-temple_duke_christian;大主教;;;;;;;;;;x
+temple_duke_christian;采邑大主教;;;;;;;;;;x
 temple_duke_orthodox;大牧首;;;;;;;;;;x
 temple_duke_sunni;大穆夫提;;;;;;;;;;x
 temple_duke_shiite;大阿亚图拉;;;;;;;;;;x
 temple_duke_pagan_group;大祭司;;;;;;;;;;x
-temple_count_christian;主教;;;;;;;;;;x
+temple_count_christian;采邑主教;;;;;;;;;;x
 temple_count_orthodox;都主教;;;;;;;;;;x
 temple_count_sunni;谢赫;;;;;;;;;;x
 temple_count_shiite;阿亚图拉;;;;;;;;;;x
@@ -5580,11 +5580,11 @@ temple_kingdom_of_orthodox;牧首区;;;;;;;;;;x
 temple_kingdom_of_muslim;哈里发国;;;;;;;;;;x
 temple_kingdom_of_pagan_group;神权国;;;;;;;;;;x
 temple_kingdom_of_jewish_group;神权国;;;;;;;;;;x
-temple_duchy_of_christian;大主教区;;;;;;;;;;x
+temple_duchy_of_christian;采邑大主教区;;;;;;;;;;x
 temple_duchy_of_muslim;神权领;;;;;;;;;;x
 temple_duchy_of_pagan_group;神权领;;;;;;;;;;x
 temple_duchy_of_jewish;神权领;;;;;;;;;;x
-temple_county_of_christian;总铎区;;;;;;;;;;x
+temple_county_of_christian;采邑主教区;;;;;;;;;;x
 temple_county_of_muslim;谢赫国;;;;;;;;;;x
 temple_county_of_pagan_group;神权区;;;;;;;;;;x
 temple_county_of_jewish_group;神权区;;;;;;;;;;x
@@ -5604,7 +5604,7 @@ king_greek;国王;;;;;;;;;;x
 emperor_greek;巴塞勒斯;;;;;;;;;;x
 emperor_russian;沙皇;;;;;;;;;;x
 emperor_female_russian;女沙皇;;;;;;;;;;x
-baron_arabic;维利;;;;;;;;;;x
+baron_arabic;瓦利;;;;;;;;;;x
 barony_of_arabic;维拉耶;;;;;;;;;;x
 count_arabic;谢赫;;;;;;;;;;x
 county_of_arabic;谢赫国;;;;;;;;;;x
@@ -5625,7 +5625,7 @@ kingdom_of_turkish;苏丹国;;;;;;;;;;x
 emperor_turkish;帕迪沙阿;;;;;;;;;;x
 emperor_iranian;万王之王;;;;;;;;;;x
 baron_mongol;太师;;;;;;;;;;x
-barony_of_mongol;太师领地;;;;;;;;;;x
+barony_of_mongol;太师领;;;;;;;;;;x
 count_mongol;酋长;;;;;;;;;;x
 county_of_mongol;酋邦;;;;;;;;;;x
 duke_mongol;大酋长;;;;;;;;;;x
@@ -14437,17 +14437,17 @@ k_cyprus;塞浦路斯;;;;;;;;;;x
 k_cyprus_adj;塞浦路斯;;;;;;;;;;x
 k_beni_helal;班尼希拉尔;;;;;;;;;;x
 k_beni_helal_adj;班尼希拉尔;;;;;;;;;;x
-k_candar;桑达尔;;;;;;;;;;x
-k_candar_adj;桑达尔;;;;;;;;;;x
+k_candar;坎达尔;;;;;;;;;;x
+k_candar_adj;坎达尔;;;;;;;;;;x
 k_cuman;库曼;;;;;;;;;;x
 k_cuman_adj;库曼;;;;;;;;;;x
-k_eretnid;厄勒尼;;;;;;;;;;x
+k_eretnid;埃雷特纳;;;;;;;;;;x
 k_fatimids;法蒂玛;;;;;;;;;;x
 k_fatimids_adj;法蒂玛;;;;;;;;;;x
 k_germiyan;格尔米扬;;;;;;;;;;x
 e_golden_horde;金帐汗;;;;;;;;;;x
 e_golden_horde_adj;蒙古;;;;;;;;;;x
-k_hammadid;哈马迪;;;;;;;;;;x
+k_hammadid;哈马德;;;;;;;;;;x
 e_il-khanate;伊儿汗;;;;;;;;;;x
 k_kafsid;哈夫斯;;;;;;;;;;x
 k_karaman;卡拉曼;;;;;;;;;;x
@@ -14581,7 +14581,7 @@ succ_gavelkind;均分继承法;;;;;;;;;;x
 succ_turkish_succession;土耳其继承法;;;;;;;;;;x
 succ_turkish_succession_desc;由君主最强大的儿子继承，但是其他强大的儿子可能会干涉。这个法律会受到你所有孩子的欢迎（除了长子），其他家族成员也会认同这个法律。;;;;;;;;;;x
 succ_open_elective;开放选举法;;;;;;;;;;x
-succ_open_elective_desc;所有的封臣和courtiers都有选举权和被选举权.;;;;;;;;;;x
+succ_open_elective_desc;所有的封臣和廷臣都有选举权和被选举权。;;;;;;;;;;x
 succ_catholic_bishopric;教区法;;;;;;;;;;x
 succ_catholic_bishopric_desc;如果领主提名了一个继任者，则此人继任，否则由教宗决定继任者.;;;;;;;;;;x
 agnatic_succession;男性继承;;;;;;;;;;x
@@ -15445,7 +15445,7 @@ opinion_religious_tract;宗教轶闻;;;;;;;;;;x
 opinion_flattered;奉承;;;;;;;;;;x
 opinion_abandoned_wolves;遗弃给狼群;;;;;;;;;;x
 true_christian_knight;真正的基督教骑士;;;;;;;;;;x
-true_christian_knight_desc;勇敢与美德使得真正的基督教骑士受到教会尊重.;;;;;;;;;;x
+true_christian_knight_desc;勇敢与美德使得真正的基督教骑士受到教会尊重。;;;;;;;;;;x
 rats_in_cell;牢房内有老鼠;;;;;;;;;;x
 rats_in_cell_desc;你的狱卒出于某种原因，在你的牢房里放了几只老鼠.;;;;;;;;;;x
 opinion_mad_at_guardian;对监护人愤怒;;;;;;;;;;x
@@ -16005,14 +16005,14 @@ CH_BATTLE_RESULT_SHORT;$RESULT$$NAME$;;;;;;;;;;x
 CH_BATTLE_RESULT_LONG;他以§Y$US$§!人面对§Y$ENEMY$§!指挥的§Y$THEM$§!.他以§Y$OUR_LOSSES$§!的损失，对敌人造成了§Y$THEIR_LOSSES$§!的损失.;;;;;;;;;;x
 CH_DIED;死亡;;;;;;;;;;x
 CH_BORN;诞生;;;;;;;;;;x
-CH_FAMILY_CHANGE;被$FAMILY$家族收养.;;;;;;;;;;x
+CH_FAMILY_CHANGE;被$FAMILY$家族收养。;;;;;;;;;;x
 CH_CULTURE_CHANGE;变成了$CULTURE$.;;;;;;;;;;x
 CH_RELIGION_CHANGE;皈依了$RELIGION$.;;;;;;;;;;x
 CH_INC;增加;;;;;;;;;;x
 CH_DEC;减少;;;;;;;;;;x
-CH_LOYALTY_CHANGE;忠诚$DIRECTION$了$CHANGE$.;;;;;;;;;;x
-CH_WEALTH_CHANGE;财富 $DIRECTION$ 了 $CHANGE$¤。;;;;;;;;;;x
-CH_POPULARITY_CHANGE;受欢迎度$DIRECTION$了$CHANGE$.;;;;;;;;;;x
+CH_LOYALTY_CHANGE;忠诚$DIRECTION$了$CHANGE$。;;;;;;;;;;x
+CH_WEALTH_CHANGE;财富$DIRECTION$了 $CHANGE$¤。;;;;;;;;;;x
+CH_POPULARITY_CHANGE;受欢迎度$DIRECTION$了$CHANGE$。;;;;;;;;;;x
 CH_DIVORCE;与$WHO$离婚.;;;;;;;;;;x
 CH_MARRIED;与$WHO$结婚.;;;;;;;;;;x
 CH_LOST_RIVAL;顺从于$WHO$.;;;;;;;;;;x
@@ -16020,7 +16020,7 @@ CH_ADD_RIVAL;与$WHO$成为对手.;;;;;;;;;;x
 CH_LOSE_FRIEND;失去与$WHO$的友谊.;;;;;;;;;;x
 CH_GAIN_FRIEND;得到$WHO$这个朋友.;;;;;;;;;;x
 CH_ALLEGIANCE;加入$WHERE$.;;;;;;;;;;x
-CH_FERTILITY_CHANGE;生育能力$DIRECTION$了$CHANGE$.;;;;;;;;;;x
+CH_FERTILITY_CHANGE;生育能力$DIRECTION$了$CHANGE$。;;;;;;;;;;x
 CH_LOST_TRAIT;失去「$TRAIT$」特质。;;;;;;;;;;x
 CH_GAIN_TRAIT;得到「$TRAIT$」特质。;;;;;;;;;;x
 DIPLO_ACTION;显示可用的外交任务;;;;;;;;;;x
@@ -17801,13 +17801,13 @@ TECH_DEMESNE;领主;;;;;;;;;;x
 TECH_REALM;领地;;;;;;;;;;x
 INDEPENDENT;独立君主;;;;;;;;;;x
 VASSAL_SUBJECT;$LORD$的封臣;;;;;;;;;;x
-CH_STEWARDSHIP_CHANGE;财政 $DIRECTION$  $CHANGE$;;;;;;;;;;x
-CH_INTRIGUE_CHANGE;智谋 $DIRECTION$  $CHANGE$;;;;;;;;;;x
-CH_DIPLOMACY_CHANGE;外交 $DIRECTION$  $CHANGE$;;;;;;;;;;x
-CH_MARTIAL_CHANGE;军事 $DIRECTION$  $CHANGE$;;;;;;;;;;x
-CH_LEARNING_CHANGE;学识 $DIRECTION$  $CHANGE$;;;;;;;;;;x
-CH_HEALTH_CHANGE;健康 $DIRECTION$  $CHANGE$;;;;;;;;;;x
-CH_PRESTIGE_CHANGE;威望 $DIRECTION$  $CHANGE$;;;;;;;;;;x
+CH_STEWARDSHIP_CHANGE;财政$DIRECTION$  $CHANGE$;;;;;;;;;;x
+CH_INTRIGUE_CHANGE;智谋$DIRECTION$  $CHANGE$;;;;;;;;;;x
+CH_DIPLOMACY_CHANGE;外交$DIRECTION$  $CHANGE$;;;;;;;;;;x
+CH_MARTIAL_CHANGE;军事$DIRECTION$  $CHANGE$;;;;;;;;;;x
+CH_LEARNING_CHANGE;学识$DIRECTION$  $CHANGE$;;;;;;;;;;x
+CH_HEALTH_CHANGE;健康$DIRECTION$  $CHANGE$;;;;;;;;;;x
+CH_PRESTIGE_CHANGE;威望$DIRECTION$  $CHANGE$;;;;;;;;;;x
 CH_PIETY_CHANGE;[Player.Religion.GetPietyName]$DIRECTION$  $CHANGE$;;;;;;;;;;x
 STAT_MARTIAL;国家军事能力;;;;;;;;;;x
 STAT_MARTIAL_DESC;军事能力对将军至关重要，也会影响军事总管执行任务的结果。;;;;;;;;;;x
