@@ -62,15 +62,15 @@ DECLARE_WAR_INTERACTION_4;§R附近的[Recipient.Religion.GetName]地区的统�
 plot_gain_vassal_title_title;剥夺[This.GetFullBaseName];;;;;;;;;;x
 plot_gain_vassal_title_desc;[From.GetBestName]正在密谋收回[This.GetFullBaseName]的头衔。;;;;;;;;;;x
 plot_gain_vassal_title_decision;[Root.GetPlot];;;;;;;;;;x
-plot_gain_vassal_title_decision_desc;将密谋付诸行动，下达最后通牒给[Root.PlotTarget.GetTitledName].;;;;;;;;;;x
-EVTTOOLTIP8030;[Root.PlotTarget.GetTitledName]收到了一封信.;;;;;;;;;;x
+plot_gain_vassal_title_decision_desc;将密谋付诸行动，下达最后通牒给[Root.PlotTarget.GetTitledName]。;;;;;;;;;;x
+EVTTOOLTIP8030;[Root.PlotTarget.GetTitledName]收到了一封信。;;;;;;;;;;x
 EVTDESC8030;我已经决定[From.GetPlot]。领地中的封臣都研究过这个情形中的法律文件，其中的大多数领主都认为我的要求是公正合理、童叟无欺的，你要么乖乖地和平下台，要么就不得不让我采取军事手段捍卫我的合法权利了。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTDESC8068;为了避免内战分裂国土的危险，我决定同意你的请求并把头衔交给你。但是我永远不会忘记这种背信弃义的讹诈行为……\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
-EVTOPTA8068;妙极了!;;;;;;;;;;x
+EVTOPTA8068;妙极了！;;;;;;;;;;x
 EVTDESC8096;为了避免国家因内战而分裂，[FromFrom.PlotTarget.GetTitledName]已经同意下台并让我[FromFrom.GetPlot]。你在此次冲突中的宝贵支持我们将谨记于心。\n\nSincerely，\n[FromFrom.GetTitledName];;;;;;;;;;x
-EVTOPTA8096;好得很;;;;;;;;;;x
-EVTDESC8118;你这可耻的敲诈企图绝不会得逞.无论你收买了多少腐败的卑鄙小人来支持你的阴谋，我绝不会不战而降.我的就是我的，你休想夺走!\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
-EVTOPTA8118;那就让战争来裁决吧!;;;;;;;;;;x
+EVTOPTA8096;很好;;;;;;;;;;x
+EVTDESC8118;你这可耻的敲诈企图绝不会得逞。无论你收买了多少腐败的卑鄙小人来支持你的阴谋，我绝不会不战而降。我的就是我的，你休想夺走！\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA8118;那就让战争来裁决吧！;;;;;;;;;;x
 CRUSADE_DESC_IRO;陛下，§Y$POPE$§!发起了一场$CRUSADE$以收复§Y$TITLE$§!所有的被§Y$ENEMY$§!占领的部分;;;;;;;;;;x
 CRUSADE_DESC_DRO_1;既然§Y$TITLE$§!的王冠已经被[Religion.GetName]的统治者 - §Y[GetTitledFirstName]§!所持有 - [GetObjectPronoun]将获得所有的战利品.;;;;;;;;;;x
 CRUSADE_DESC_DRO_2;既然§Y$TITLE$§!的王冠不再被信仰$RELIGION$的领主所持有，所有的战利品都将被交给当前对$CRUSADE$贡献最大的领主§Y$RULER$§!.;;;;;;;;;;x
@@ -79,7 +79,7 @@ CLICK_TO_OPEN_WAR_VIEW;§G点击打开战争一览§!;;;;;;;;;;x
 EVTNAME620;[Root.GetBaseName][From.Religion.GetCrusadeName]大功告成!;;;;;;;;;;x
 EVTDESC620;在对抗[New.GetTitledName]的[Root.GetBaseName][From.Religion.GetCrusadeName]中，[From.Religion.GetRandomGodNameCap]赢得了[From.GetTitledName]胜利. [From.RelHead.GetTitledName]谕令整个[From.Religion.GetGroupName]世界欢庆一个月!;;;;;;;;;;x
 EVTOPTA620;赞美[From.Religion.GetRandomGodName]！;;;;;;;;;;x
-EVTNAME621;对[Root.GetBaseName]的[From.Religion.GetCrusadeName]失败了!;;;;;;;;;;x
+EVTNAME621;对[Root.GetBaseName]的[From.Religion.GetCrusadeName]失败了！;;;;;;;;;;x
 EVTDESC621;[From.Religion.GetRandomGodNameCap] 似乎不再眷顾 [From.Religion.GetGroupName]了。在反复的拉锯和转进之后，[From.GetTitledName]下令取消了对抗 [New.GetTitledName]旨在夺取 [Root.GetBaseName]的 [From.Religion.GetCrusadeName]。;;;;;;;;;;x
 TITLE_CREATION_NOT_PRIMARY_TYPE;特殊头衔持有者无法创建或篡夺相等或更高级别的头衔。;;;;;;;;;;x
 IS_NOT_LOCATED_IN_AREA;不在;;;;;;;;;;x
@@ -177,26 +177,26 @@ b_asperg;阿斯佩格;;;;;;;;;;x
 opinion_father_of_child;我的孩子;;;;;;;;;;x
 CB_NAME_DEJURECLAIM;对[Title.GetBaseName]的法理宣称;;;;;;;;;;x
 WAR_NAME_DEJURECLAIM;$ORDER$$FIRST_ADJ$——$SECOND_ADJ$$OTHER_TITLE$法理战争;;;;;;;;;;x
-TITLE_CREATION_REQ_DUCHIES;你需要持有至少§Y$DUCHIES$§!个公爵头衔.;;;;;;;;;;x
+TITLE_CREATION_REQ_DUCHIES;你需要持有至少§Y$DUCHIES$§!个公爵头衔。;;;;;;;;;;x
 TITLE_TITULAR_NO_CAPITAL;该头衔无法正常创建.;;;;;;;;;;x
 TITLE_TITULAR_CREATION_DESC;创建此头衔将会给您带来§G$PRESTIGE$§!威望，花费 §R$GOLD$§!¤ 和 §R$PIETY$§! $PIETYNAME$。;;;;;;;;;;x
 TITLE_TITULAR_REQ_HELD_CAPITAL;您必须拥有§Y$TITLE$§!头衔.;;;;;;;;;;x
-EVTDESC65115;我发现地面上的泥巴非常美味.于是大快朵颐.正吃得开心，一个年轻的女孩子向我走来. 她问我，'你是个白痴还是咋地?';;;;;;;;;;x
-EVTOPTA65115;我很聪明，姑娘很笨.;;;;;;;;;;x
-EVTOPTB65115;笨人做笨事.;;;;;;;;;;x
-EVTDESC65120;今天在操场上习练了一整天的剑术.当练习结束时发现手上见了红.原来我全程握在了剑刃上! 哈哈哈.;;;;;;;;;;x
-EVTOPTA65120;呦!;;;;;;;;;;x
-EVTDESC65125;骑马时感觉今天的马儿表现的很奇怪.它的头不见了，一直往后倒行. 就这样一路骑到了[Root.Location.GetName];;;;;;;;;;x
-EVTOPTA65125;哎呀.我错了……;;;;;;;;;;x
-EVTOPTB65125;上我的路更容易.;;;;;;;;;;x
-EVTDESC65126;今天早上忘了穿裤子了.很多人尖叫，很多人烦恼.俺不明白这是为啥.;;;;;;;;;;x
-EVTOPTA65126;淡定! Simple mistake!;;;;;;;;;;x
-EVTDESC65130;今天我偶然发现了一幅画，画着我这辈子见过的最邪恶、最狰狞的生物.这种对于自然的亵渎使我不寒而栗.且不提那交错的牙齿，丑陋的耳朵... [Root.GetHerHis]光是那超大的鼻子就足够让我恶心!这时候一个路过的廷臣问我，对于我的新画像是否满意.;;;;;;;;;;x
+EVTDESC65115;我在地上找到美味的泥巴，于是大快朵颐。正吃得开心，一个年轻的女孩子向我走来。她问我，「你是个白痴还是咋地？」;;;;;;;;;;x
+EVTOPTA65115;我很聪明，姑娘很笨。;;;;;;;;;;x
+EVTOPTB65115;笨人做笨事。;;;;;;;;;;x
+EVTDESC65120;今天在操场练剑，练完发现手红红的。原来我全程握在了剑刃上！哈哈哈。;;;;;;;;;;x
+EVTOPTA65120;哎呦！;;;;;;;;;;x
+EVTDESC65125;骑马时感觉今天的马儿表现的很奇怪。它的头不见了，一直往后倒行。就这样一路骑到了马夫说的[Root.Location.GetName]，;;;;;;;;;;x
+EVTOPTA65125;哎呀。我错了……;;;;;;;;;;x
+EVTOPTB65125;按我的骑法更好。;;;;;;;;;;x
+EVTDESC65126;今天早上忘了穿裤子了。很多人尖叫，很多人烦恼。俺不明白这是为啥。;;;;;;;;;;x
+EVTOPTA65126;淡定！简单的错误！;;;;;;;;;;x
+EVTDESC65130;今天我偶然发现了一幅画，画着我这辈子见过的最邪恶、最狰狞的生物。这种对于自然的亵渎使我不寒而栗。且不提那交错的牙齿，丑陋的耳朵...... 光是[Root.GetHerHis]超大鼻子就足够让我恶心！这时候一个附近的廷臣问我，对于我的新画像是否满意。;;;;;;;;;;x
 EVTOPTA65130;我需要一面镜子……;;;;;;;;;;x
-EVTOPTB65130;这昏暗的光线误导了我. 这鼻子还是挺有型的嘛!;;;;;;;;;;x
-EVTDESC65135;我今天得知[Root.Location.GetName]地方的母亲，为了让她们的女儿平时乖乖的，办法就是威胁把她们嫁给一个最最可怕的人... 我.;;;;;;;;;;x
-EVTOPTA65135;我的多花点时间呆在家里……;;;;;;;;;;x
-EVTOPTB65135;她们还能做得更糟!;;;;;;;;;;x
+EVTOPTB65130;这昏暗的光线误导了我。这鼻子还是挺有型的嘛！;;;;;;;;;;x
+EVTDESC65135;我今天得知[Root.Location.GetName]的母亲，为了让她们的女儿平时乖乖的，就威胁把她们嫁给一个最最可怕的人...... 我。;;;;;;;;;;x
+EVTOPTA65135;我得多花点时间呆在家里……;;;;;;;;;;x
+EVTOPTB65135;她们还能做得更糟！;;;;;;;;;;x
 EVTDESC65140;流传在[Root.Location.GetName]的恶毒传言说我是一个邪恶的巫师，源于我... 独特的外表.至少我的军队防止了那些农民针对这些毫无根据的指控采取进一步行动.;;;;;;;;;;x
 EVTOPTA65140;那些坏人很快会找到些更丑的人去骚扰.;;;;;;;;;;x
 EVTOPTB65140;诅咒他们!诅咒他们生儿子没屁眼.;;;;;;;;;;x
@@ -204,7 +204,7 @@ EVTDESC65145;从小到大，那些亲近我的人从来都不把我长得特别�
 EVTOPTA65145;丑小鸭变成了白天鹅……;;;;;;;;;;x
 EVTDESC65150;今天我在六个马厩仆从的帮助下骑上我最爱的宝马，它发出了一阵奇怪的喘息然后轰然垮倒.马厩主人说这匹马已经死了，它的背脊折断了. 他暗示，从今以后无论在什么场合下，我都还是步行的好，这让每一个关心我的人都放心.;;;;;;;;;;x
 EVTOPTA65150;我可能稍微长胖了点……;;;;;;;;;;x
-EVTOPTB65150;闭嘴! 给老子再找匹马!;;;;;;;;;;x
+EVTOPTB65150;闭嘴！给老子再找匹马！;;;;;;;;;;x
 EVTDESC65151;确实不能再胖了.我已经决定了要少吃多锻炼. 我想我最终一定可以看到自己的脚的!;;;;;;;;;;x
 EVTDESC65155;我正在视察[Root.Location.GetName]的防御工事，当我试图走进其中一座塔楼时，我居然在塔门那卡住了!我发现我进退不能，最后靠了四个壮汉才把我拉出来.;;;;;;;;;;x
 EVTOPTA65155;我都胖成什么样了? 别再给我烤乳猪了.;;;;;;;;;;x

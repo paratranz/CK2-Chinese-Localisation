@@ -449,7 +449,7 @@ DISCOVER;发现$WHERE$。\n;;;;;;;;;;x
 COT_CHANGE;$WHERE$$DIRECTION$新的贸易中心。\n;;;;;;;;;;x
 ADD_BUILDING;在$WHERE$得到了$NAME$。\n;;;;;;;;;;x
 REM_BUILDING;在$WHERE$失去了$NAME$。\n;;;;;;;;;;x
-GOODS_CHANGE;在$WHERE$，$NAME$将成为新的特产。\n;;;;;;;;;;x
+GOODS_CHANGE;$NAME$将会在$WHERE$开始生产。\n;;;;;;;;;;x
 SECEDE_PROVINCE;割让$WHERE$给$WHO$。\n;;;;;;;;;;x
 INHERIT;吞并$WHO$。\n;;;;;;;;;;x
 RELEASE;释放$WHO$。\n;;;;;;;;;;x
@@ -468,7 +468,7 @@ ASSIGN_OFFICE_EFFECT;指定$CHAR$担任$NEW$。\n;;;;;;;;;;x
 CREATE_COLONY_EFFECT;人口为$SIZE$的殖民地已经在$WHERE$建立。\n;;;;;;;;;;x
 RANDOM_EFFECT;§Y$CHANCE$%§!几率;;;;;;;;;;x
 RANDOM_LIST_EFFECT;§Y$SIZE$个选项之一将会发生：§!\n;;;;;;;;;;x
-UNIT_ALLEGIANCE_EFFECT;$UNIT$投奔到$WHO$麾下。\n;;;;;;;;;;x
+UNIT_ALLEGIANCE_EFFECT;$UNIT$叛变到$WHO$麾下。\n;;;;;;;;;;x
 LOSE;失去;;;;;;;;;;x
 GAIN;获得;;;;;;;;;;x
 NO_EFFECT;无效果;;;;;;;;;;x
@@ -871,7 +871,7 @@ EVTOPTB2220;该给他讲讲一些潜规则了;;;;;;;;;;x
 EVTDESC2230;我担心我的 [GetFromRelation] [From.GetFirstName]太愤世嫉俗，在[From.GetHerHis]这个年龄.;;;;;;;;;;x
 EVTOPTA2230;[From.GetSubjectPronounCap]太聪明了.;;;;;;;;;;x
 EVTOPTB2230;需要教训他一下了!;;;;;;;;;;x
-EVTDESC2465;我发现我任性的 [From.GetTitledFirstName]在马棚后面折磨一只耗子……;;;;;;;;;;x
+EVTDESC2465;我今天发现我任性的[From.GetTitledFirstName]在马棚后面折磨一只耗子……;;;;;;;;;;x
 EVTOPTA2465;让 [From.GetLadLass]  [From.GetPossPronoun] 玩的开心!;;;;;;;;;;x
 EVTOPTB2465;打一顿，[From.GetSheHe] 会学好的!;;;;;;;;;;x
 EVTOPTC2465;和 [From.GetHerHim] 谈谈什么是仁慈;;;;;;;;;;x
@@ -898,7 +898,7 @@ EVTOPTA3020;我应当为此庆祝!;;;;;;;;;;x
 EVTOPTB3020;难道教宗认为我会把我的领地送给他么?;;;;;;;;;;x
 EVTOPTC3020;献身于贞洁！;;;;;;;;;;x
 EVTOPTD3020;在礼拜堂里静静地感谢主……;;;;;;;;;;x
-EVTDESC3021;教宗听说了我的禁欲誓言，他派来一名虔诚的神父来引导我使我更加靠近主.;;;;;;;;;;x
+EVTDESC3021;教宗听说了我的禁欲誓言，他派来一名虔诚的神父来引导我更加接近主。;;;;;;;;;;x
 EVTOPTA3021;让他为我们服务!;;;;;;;;;;x
 EVTOPTB3021;感谢他的建议……;;;;;;;;;;x
 EVTDESC3022;一位年老而富有经验的学者加入了我的宫廷，要我学习很多东西，包括要怎样去保持贞洁以及这种美德是如何使我们更加靠近主。;;;;;;;;;;x
@@ -1075,7 +1075,7 @@ EVTTOOLTIP3236;找到罪魁祸首了;;;;;;;;;;x
 EVTDESC3236;我知道[From.GetTitledFirstName]对[From.GetHerHis]自己的优点过于自傲了，但是我无意中伤害到了[From.GetHerHis]自尊，[From.GetSheHe]对我破口大骂并且说了很多难听的话.我不知道我会否原谅[From.GetHerHim]如此恶劣的言辞……;;;;;;;;;;x
 EVTOPTA3236;[From.GetSheHeCap]也伤害了我的自尊;;;;;;;;;;x
 EVTTOOLTIP3237;我不想再和[This.GetTitledFirstName]说话了!;;;;;;;;;;x
-EVTDESC3237;当我发现到底是谁在笑话我的时候，我试图忍住我脆弱的自尊心，但我失败了.现在[From.GetTitledFirstName]再也不会和我说话了……;;;;;;;;;;x
+EVTDESC3237;当我发现到底是谁在笑话我的时候，我试图吞下我脆弱的自尊心，但我失败了。现在[From.GetTitledFirstName]再也不会和我说话了……;;;;;;;;;;x
 EVTDESC3300;当我的两个朋友去打猎的时候，我呆在后方，因为我见到血会晕倒.他们打猎的运气不错，我们那天晚上大吃了一顿野猪肉。;;;;;;;;;;x
 EVTOPTA3300;当我看见覆盖在野猪脸上的血沫时我晕了过去;;;;;;;;;;x
 EVTDESC3305;我们教堂里丢失了一样重要的物品，所有人都跑去追赶嫌疑犯。我没有跟他们一起去，我走进了教堂找到了藏在一张条凳后面的圣餐杯。;;;;;;;;;;x
@@ -1307,7 +1307,7 @@ EVTDESC3521;感觉已经有很久没有人触碰我了！[From.GetTitledFirstNam
 EVTOPTA3521;或许我应该用[From.GetHerHis]方式试一试?;;;;;;;;;;x
 EVTOPTB3521;这不是我的错!;;;;;;;;;;x
 EVTTOOLTIP3526;向[Root.GetTitledFirstName]询问有关禁欲的话题?;;;;;;;;;;x
-EVTDESC3526;我很想禁欲，但是在作出决定之前我最好同什么人谈一谈.;;;;;;;;;;x
+EVTDESC3526;我很想禁欲，但是在作出决定之前我最好同什么人谈一谈。;;;;;;;;;;x
 EVTOPTA3526;我应该同[From.GetTitledFirstName]谈一谈;;;;;;;;;;x
 EVTTOOLTIP3527;[This.GetTitledFirstName]被问及[This.GetHerHis]禁欲誓言;;;;;;;;;;x
 EVTOPTB3526;或许我应该过段时间再做这个决定;;;;;;;;;;x
@@ -1352,22 +1352,22 @@ EVTOPTB3546;不听故事!;;;;;;;;;;x
 EVTOPTC3546;我要听传奇故事!;;;;;;;;;;x
 EVTDESC3547;每当我的[GetFromRelation][From.GetTitledFirstName]试图用[From.GetHerselfHimself]的方式取悦我的时候，我总会感到非常有趣。好奇这次会是什么呢……;;;;;;;;;;x
 EVTTOOLTIP3548;[This.GetFirstName]给[Root.GetFirstName]讲睡前故事;;;;;;;;;;x
-EVTOPTB3547;神话和传说？你以为我还是五岁小孩么?!;;;;;;;;;;x
-EVTOPTC3547;太好了！一堂历史课!;;;;;;;;;;x
-EVTOPTD3547;我最喜欢神话和传说了!;;;;;;;;;;x
-EVTDESC3548;我不是特别确定我的[GetFromRelation][From.GetFirstName]是否喜欢我讲给[From.GetHerHim]听的故事，但是我一直读到我们都快要睡着了.;;;;;;;;;;x
+EVTOPTB3547;神话和传说？你以为我还是五岁小孩么？！;;;;;;;;;;x
+EVTOPTC3547;太好了！一堂历史课！;;;;;;;;;;x
+EVTOPTD3547;我最喜欢神话和传说了！;;;;;;;;;;x
+EVTDESC3548;我不是特别确定我的[GetFromRelation][From.GetFirstName]是否喜欢我讲给[From.GetHerHim]听的故事，但是我一直读到我们都快要睡着了。;;;;;;;;;;x
 EVTOPTA3548;显然，我的[GetFromRelation]对我选的睡前故事感到难堪;;;;;;;;;;x
-EVTOPTB3548;[From.GetSheHeCap]喜欢这个睡前故事!;;;;;;;;;;x
-EVTDESC3550;来了一批新书，我的图书馆已经放不下了.也许该建一个新图书馆了?;;;;;;;;;;x
-EVTOPTA3550;或许我应该把一些书放到我们的卧室去?;;;;;;;;;;x
+EVTOPTB3548;[From.GetSheHeCap]喜欢这个睡前故事！;;;;;;;;;;x
+EVTDESC3550;来了一批新书，我的图书馆已经放不下了。也许该建一个新图书馆了？;;;;;;;;;;x
+EVTOPTA3550;或许我应该把一些书放到我们的卧室去？;;;;;;;;;;x
 EVTTOOLTIP3551;[Root.Spouse.GetTitledFirstName]不喜欢这样;;;;;;;;;;x
 EVTOPTB3550;我认为我已经有足够多的书了;;;;;;;;;;x
-EVTOPTC3550;如果把这面墙去掉，我就有足够的空间放书了.;;;;;;;;;;x
+EVTOPTC3550;如果把这面墙去掉，我就有足够的空间放书了;;;;;;;;;;x
 EVTTOOLTIP3552;[This.GetTitledFirstName]不喜欢你重新布置房间的行为;;;;;;;;;;x
 EVTDESC3551;我能够忍受[Root.Spouse.GetFirstName]对于书的痴迷，但是我无法忍受这些书侵占我们的卧室空间。;;;;;;;;;;x
 EVTOPTA3551;到处都是书！我受够了！;;;;;;;;;;x
 EVTTOOLTIP3553;干涉;;;;;;;;;;x
-EVTOPTB3551;就让[Root.Spouse.GetHerHim]这样吧.;;;;;;;;;;x
+EVTOPTB3551;就让[Root.Spouse.GetHerHim]这样吧;;;;;;;;;;x
 EVTDESC3552;我注意到[From.GetTitledFirstName]对于书的痴迷与日俱增，但是我没想到已经到了这种程度，我偷听到[From.GetHerHim]与建筑师谈论拆除我的房间与图书馆之间的墙来为[From.GetHerHis]书腾地方！;;;;;;;;;;x
 EVTOPTA3552;必须有人来阻止[From.GetHerHim]！;;;;;;;;;;x
 EVTOPTB3552;我想我应该收拾我的包裹了;;;;;;;;;;x
