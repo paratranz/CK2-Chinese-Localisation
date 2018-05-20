@@ -2885,7 +2885,7 @@ EVTDESC290;我决定开始制定 [From.GetProposedLaw]一类的法律.当然这�
 EVTOPTA290;支持;;;;;;;;;;x
 EVTOPTB290;不置可否;;;;;;;;;;x
 EVTDESC291;我决定在[From.GetFullName]实行[From.GetProposedLaw]法. 作为我的封臣你有资格对此事进行表决.\n\n[From.Holder.GetTitledName];;;;;;;;;;x
-EVTDESC292;"我决定在[From.GetFullName]实行[From.GetProposedLaw]法. 因为这事关皇家，所以作为一名正式的[From.GetName]选侯，虽然你还不是我的封臣，你仍可对此进行表决.\n\n[From.Holder.GetTitledName]";;;;;;;;;;x
+EVTDESC292;我决定在[From.GetFullName]实行[From.GetProposedLaw]法。因为这是一个王权法，而你是一名正式的[From.GetName]选侯，虽然你还不是我的封臣，你仍可对此进行表决。\n\n[From.Holder.GetTitledName]";;;;;;;;;;x
 EVTDESC600;[Root.GetName]爆发了叛乱! 农民们揭竿而起，反抗我的「暴政」.;;;;;;;;;;x
 EVTOPTA600;他们怎么敢谋反!;;;;;;;;;;x
 EVTDESC601;[From.GetName]爆发了叛乱!农民们揭竿而起反对 [From.County.Holder.GetTitledName]的暴政. 他们洗劫一切、破坏一切，当然也包括我的田产……;;;;;;;;;;x
@@ -3047,7 +3047,7 @@ EVTDESC38209;[From.GetFirstName]经常跟其他孩子们一起玩危险的游戏
 EVTOPTA38209;没什么大不了的，让 [From.GetHerHim] 玩.;;;;;;;;;;x
 EVTOPTB38209;试着阻止 [From.GetHerHis]玩这种游戏;;;;;;;;;;x
 EVTOPTC38209;关 [From.GetHerHim]禁闭!;;;;;;;;;;x
-EVTDESC38210;[From.GetFirstName]问"[Root.Religion.GetRandomGodName]存在么";;;;;;;;;;x
+EVTDESC38210;[From.GetFirstName]问「[Root.Religion.GetRandomGodName]存在么？」;;;;;;;;;;x
 EVTOPTA38210;当然有了孩子，现在去玩吧.;;;;;;;;;;x
 EVTOPTB38210;当然了 [From.GetFirstName]，让我给你来讲神的故事;;;;;;;;;;x
 EVTOPTC38210;孩子，让我来告诉你真相吧……;;;;;;;;;;x
@@ -4015,7 +4015,7 @@ EVTDESC72012;亲爱的 [Root.GetTitledFirstName]，非常感激您的邀请，�
 EVTOPTA72012;很好，其实我也是如此！;;;;;;;;;;x
 EVTOPTA72015;欢迎参加我的宴会！;;;;;;;;;;x
 EVTTOOLTIP72016;[Root.GetTitledFirstName]热烈欢迎大家！;;;;;;;;;;x
-EVTDESC72016;"[From.GetTitledFirstName]热烈欢迎大家光临 [From.GetHerHis] 的宴会，美酒和美味佳肴已经奉上.";;;;;;;;;;x
+EVTDESC72016;[From.GetTitledFirstName]热烈欢迎大家光临[From.GetHerHis]宴会，美酒和美食已经奉上。;;;;;;;;;;x
 EVTOPTA72016;谢谢您的款待！;;;;;;;;;;x
 EVTDESC72020;[Root.Liege.GetTitledFirstName]的宴会准备的非常用心.鹿肉是那么的嫩，入口即化；可口而充足的奶酪；但甜点胜过了其他所有的菜：一个奶油蜂蜜水果大蛋糕……;;;;;;;;;;x
 EVTOPTA72020;天宫佳肴！;;;;;;;;;;x
@@ -15054,7 +15054,7 @@ legitimized_child;合法化的子嗣;;;;;;;;;;x
 acknowledged_child;承认的子嗣;;;;;;;;;;x
 denounced_child;断绝关系的子嗣;;;;;;;;;;x
 legitimized_bastard;合法化的私生子;;;;;;;;;;x
-acknowledged_bastard;承认的私生子;;;;;;;;;;x
+acknowledged_bastard;被承认的私生子;;;;;;;;;;x
 opinion_unfaithful_private;不贞;;;;;;;;;;x
 slut_seductress;荡妇;;;;;;;;;;x
 opinion_cuckolded_private;绿帽;;;;;;;;;;x
@@ -18231,7 +18231,7 @@ STRAITS;通过§Y$SEA$§!到§Y$PROV$§!的海峡;;;;;;;;;;x
 STRAITSDESC;陆军不需要船只就能通过海峡.不过跨海峡攻击会使进攻方受到严重的战斗惩罚;;;;;;;;;;x
 RIVERS;在本郡和§Y$PROV$§!有一条河流;;;;;;;;;;x
 RIVERSDESC;跨河攻击会使进攻方受到战斗惩罚;;;;;;;;;;x
-nick_the_young;年轻的;;;;;;;;;;x
+nick_the_young;年轻人;;;;;;;;;;x
 nick_the_old;长者;;;;;;;;;;x
 nick_the_conqueror;征服者;;;;;;;;;;x
 nick_the_lawgiver;立法者;;;;;;;;;;x
@@ -18247,7 +18247,7 @@ nick_the_martyr;殉教者;;;;;;;;;;x
 nick_the_unlucky;不幸者;;;;;;;;;;x
 nick_the_lucky;幸运儿;;;;;;;;;;x
 nick_the_restorer;复兴者;;;;;;;;;;x
-nick_the_accursed;恶棍;;;;;;;;;;x
+nick_the_accursed;受诅咒者;;;;;;;;;;x
 nick_the_wicked;妖邪者;;;;;;;;;;x
 nick_the_bewitched;入魔者;;;;;;;;;;x
 nick_priest_hater;牧师之敌;;;;;;;;;;x
@@ -18272,8 +18272,8 @@ nick_the_bastard;私生子;;;;;;;;;;x
 nick_the_blind;瞎子;;;;;;;;;;x
 nick_half_hand;半手;;;;;;;;;;x
 nick_the_gouty;痛风患者;;;;;;;;;;x
-nick_the_ironside;勇士;;;;;;;;;;x
-nick_the_lion;猛狮;;;;;;;;;;x
+nick_the_ironside;铁骨;;;;;;;;;;x
+nick_the_lion;雄狮;;;;;;;;;;x
 nick_the_lionheart;狮心王;;;;;;;;;;x
 nick_the_bold;英勇者;;;;;;;;;;x
 nick_the_unready;决策无方者;;;;;;;;;;x
@@ -18283,7 +18283,7 @@ nick_the_magnificent;伟岸者;;;;;;;;;;x
 nick_the_quarreller;吵闹者;;;;;;;;;;x
 nick_the_builder;建国者;;;;;;;;;;x
 nick_the_devil;恶魔;;;;;;;;;;x
-nick_the_dragon;龙;;;;;;;;;;x
+nick_the_dragon;恶龙;;;;;;;;;;x
 nick_the_careless;粗心者;;;;;;;;;;x
 nick_the_peaceable;处于和平者;;;;;;;;;;x
 nick_the_prudent;谨慎者;;;;;;;;;;x
@@ -18807,7 +18807,7 @@ title_sebastokrator_desc;至尊者的头衔甚至比「凯撒」还要高贵，�
 title_caesar;凯撒;;;;;;;;;;x
 title_caesar_desc;传统上原本是罗马帝国的至高荣誉头衔，但是现在「凯撒」头衔已经可以被授予任何人。;;;;;;;;;;x
 title_kouropalates;宫廷负责人;;;;;;;;;;x
-title_kouropalates_desc;原本是希腊语，意为"在宫廷中掌握话事权的人"，是一个非常高贵的荣誉头衔.;;;;;;;;;;x
+title_kouropalates_desc;原本是希腊语，意为「在宫廷中掌握话事权的人」，在拜占庭帝国中是一个非常高贵的荣誉头衔。;;;;;;;;;;x
 title_anthypatos;总督;;;;;;;;;;x
 title_anthypatos_desc;总督如今只是一个荣誉头衔，而不是真正指某一地区的行政长官.;;;;;;;;;;x
 zealous;狂热;;;;;;;;;;x
