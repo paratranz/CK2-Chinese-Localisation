@@ -162,7 +162,7 @@ d_sky_lords;天之骄子;;;;;;;;;;x
 d_sky_lords_adj;天之骄子;;;;;;;;;;x
 d_spirit_guardians;灵魂卫队;;;;;;;;;;x
 d_spirit_guardians_adj;灵魂卫队;;;;;;;;;;x
-d_warriors_perun;佩龙战士;;;;;;;;;;x
+d_warriors_perun;佩龙的勇士;;;;;;;;;;x
 d_warriors_perun_adj;佩龙战士;;;;;;;;;;x
 d_chosen_perkunas;佩尔库纳斯精兵;;;;;;;;;;x
 d_chosen_perkunas_adj;佩尔库纳斯精兵;;;;;;;;;;x
@@ -313,18 +313,18 @@ EVTOPTA_SOA_4112;诅咒这群叛教者！;;;;;;;;;;x
 EVTOPTA_SOA_4113;太惊喜了！;;;;;;;;;;x
 EVTDESC_SOA_4114;宗教裁判官们成功地在[From.GetName]抑制了当地异端的蔓延。;;;;;;;;;;x
 EVTOPTA_SOA_4114;赞美[Root.Religion.GetRandomGodName]！;;;;;;;;;;x
-EVTDESC_SOA_4120;一名教宗特使来到了我的宫廷[From.GetTitledName]。[From.PrimaryTitle.GetRulerTitle]对[FromFrom.GetName]的异端十分关心，催促我快点解决这个情况。;;;;;;;;;;x
+EVTDESC_SOA_4120;一名[From.GetTitledName]特使来到了我的宫廷。[From.PrimaryTitle.GetRulerTitle]对[FromFrom.GetName]的异端十分关心，催促我快点解决这个情况。;;;;;;;;;;x
 EVTOPTA_SOA_4120;这得花上十年！;;;;;;;;;;x
 EVTDESC_SOA_4122;如我派使节吩咐[From.Holder.TopLiege.GetTitledName]应该做的那样，[From.GetName]的异端已经被消灭了。;;;;;;;;;;x
 EVTOPTA_SOA_4122;送去 100¤ 以示感谢;;;;;;;;;;x
 EVTOPTB_SOA_4122;向全世界称颂[From.Holder.TopLiege.GetTitledFirstName]的虔诚;;;;;;;;;;x
 EVTOPTC_SOA_4122;撤销[From.Holder.TopLiege.GetTitledFirstName]的绝罚;;;;;;;;;;x
 EVTTOOLTIP_SOA_4123;[This.GetTitledFirstName]收到了我的礼物;;;;;;;;;;x
-EVTTOOLTIP_SOA_4124;[This.GetTitledFirstName]获得了200虔诚;;;;;;;;;;x
-EVTTOOLTIP_SOA_4125;[This.GetTitledFirstName]撤销了绝罚;;;;;;;;;;x
+EVTTOOLTIP_SOA_4124;[This.GetTitledFirstName]获得了 200 虔诚;;;;;;;;;;x
+EVTTOOLTIP_SOA_4125;撤销了[This.GetTitledFirstName]的绝罚;;;;;;;;;;x
 EVTDESC_SOA_4123;圣座[From.PrimaryTitle.GetRulerTitle]送给我 100¤ 为表扬我清除[FromFrom.GetName]的异端做出的工作。;;;;;;;;;;x
 EVTOPTA_SOA_4123;赞美[Root.Religion.GetRandomGodName];;;;;;;;;;x
-EVTDESC_SOA_4124;[From.GetPossPronounCap][From.PrimaryTitle.GetRulerTitle]公开赞扬了我对清除[FromFrom.GetName]的异端做出的工作，.;;;;;;;;;;x
+EVTDESC_SOA_4124;[From.GetPossPronounCap][From.PrimaryTitle.GetRulerTitle]公开赞扬了我对清除[FromFrom.GetName]的异端做出的工作。;;;;;;;;;;x
 EVTDESC_SOA_4125;[From.GetPossPronounCap][From.PrimaryTitle.GetRulerTitle]因为我对清除[FromFrom.GetName]的异端做出的工作，恢复了我的教籍。;;;;;;;;;;x
 EVTDESC_SOA_4130;[From.GetTitledFirstName]送来了一队杰出的神学家，开始在[Root.GetName]和异端进行和平的对话！;;;;;;;;;;x
 EVTOPTA_SOA_4130;[From.PrimaryTitle.GetRulerTitle]真是睿智;;;;;;;;;;x
@@ -363,11 +363,11 @@ d_fraticelli_adj;小兄弟会教宗;;;;;;;;;;x
 d_iconoclast;圣像破坏派牧首;;;;;;;;;;x
 d_iconoclast_adj;圣像破坏派牧首;;;;;;;;;;x
 d_yazidi;雅兹迪派谢赫国;;;;;;;;;;x
-d_yazidi_adj;雅兹迪;;;;;;;;;;x
+d_yazidi_adj;雅兹迪派谢赫国;;;;;;;;;;x
 d_ibadi;伊巴迪派哈里发;;;;;;;;;;x
 d_ibadi_adj;伊巴迪派哈里发;;;;;;;;;;x
-d_hurufi;胡儒非派谢赫;;;;;;;;;;x
-d_hurufi_adj;胡儒非;;;;;;;;;;x
+d_hurufi;胡儒非派谢赫国;;;;;;;;;;x
+d_hurufi_adj;胡儒非派谢赫国;;;;;;;;;;x
 SHEIKH;谢赫;;;;;;;;;;x
 SHEIKHA;女谢赫;;;;;;;;;;x
 VASSAL_RETRACTION_SETUP;收回一名封臣;;;;;;;;;;x
@@ -378,27 +378,27 @@ create_fraticelli_papacy_desc;如果我足够虔诚并且控制罗马，我就�
 create_iconoclast_patriarchy;创建圣像破坏派牧首;;;;;;;;;;x
 create_iconoclast_patriarchy_desc;如果我足够虔诚并且控制君士坦丁堡，我就能创建圣像破坏教会牧首作为我们的宗教领袖，来对抗迷恋圣像崇拜的牧首。;;;;;;;;;;x
 welcome_jews;欢迎犹太人;;;;;;;;;;x
-welcome_jews_desc;犹太人将重新被欢迎进入国土，并享受和你其他臣民相同的权力。;;;;;;;;;;x
+welcome_jews_desc;犹太人被重新欢迎来到国土，并享受和你其他臣民相同的权力。;;;;;;;;;;x
 expel_jews;驱逐犹太人;;;;;;;;;;x
-expel_jews_desc;所有犹太人将被驱逐出国。你欠犹太债主的债务将会一笔勾销，但未来数年内犹太人都不会再来到你的国土上。;;;;;;;;;;x
-jews_are_expelled;所有的犹太人都被驱逐出国土。;;;;;;;;;;x
+expel_jews_desc;所有犹太人将被驱逐出国土。你欠犹太债主的债务将会一笔勾销，但未来数年内犹太人都不会再来到你的国土上。;;;;;;;;;;x
+jews_are_expelled;所有犹太人都被驱逐出国土。;;;;;;;;;;x
 jews_are_welcome;犹太人被重新欢迎来到国土。;;;;;;;;;;x
 expelled_jewish;曾驱逐犹太人;;;;;;;;;;x
 EVTDESC_SoA_105;你决定将你国土上的所有犹太人驱逐出境。在你的卫兵查抄了犹太人社区后，他们不得不再次离开去寻找一个对他们更为友善的地方。你允许他们保留部分财物，但从他们手里没收了大量的金子。;;;;;;;;;;x
-EVTOPTA_SoA_105;它们都该进我的金库;;;;;;;;;;x
+EVTOPTA_SoA_105;它们都该进我的金库。;;;;;;;;;;x
 EVTDESC_SoA_106;犹太人被驱逐出你的国土已经有一阵子了。但是看起来饥荒、疫病这些被看做是犹太人带来的坏事却没有减少。如今许多犹太人已经原谅了你对他们的冒犯，你也决定张开双臂迎接他们回到你的国土。;;;;;;;;;;x
 EVTOPTA_SoA_106;错已铸成。让我们不要再谈它们了。;;;;;;;;;;x
-health_travel_condition;健康状况允许旅行;;;;;;;;;;x
-CARDINAL_VOTE;投票:;;;;;;;;;;x
+health_travel_condition;健康状况允许旅行\n;;;;;;;;;;x
+CARDINAL_VOTE;投票：;;;;;;;;;;x
 CURRENT_CHOICE;当前的选择;;;;;;;;;;x
 CURRENT_CHOICE_DESC;这是这位枢机主教当前选择的下一任教宗。;;;;;;;;;;x
 SAME_RELIGION_REQ_NOMINATION;§R只有$RELIGION$教徒才能提名继任者§!;;;;;;;;;;x
 EVTDESC_SoA_200;一名在欧洲其他地方遭受迫害的犹太人流浪者现身在你的宫廷。四处游历的经历让他积累了大量人脉，成为了一个杰出的外交家。他可以胜任外交总管一职。;;;;;;;;;;x
 EVTOPTA_SoA_200;真的吗？;;;;;;;;;;x
 EVTDESC_SoA_201;一名富有学识的犹太人出现在你的宫廷。他因出色的记账和管理能力而受到推崇。他已经提议了数种提高官员办事效率的办法。他可能成为一个出色的财政总管。;;;;;;;;;;x
-EVTDESC_SoA_202;一个神秘的犹太人希望在你宫廷中效力。他精通于宫廷权谋，过去还曾做过佣兵和间谍。如果你能信任他，他将会是你宫廷中不可获取的人才……;;;;;;;;;;x
+EVTDESC_SoA_202;一个神秘的犹太人希望在你宫廷中效力。他精通于宫廷权谋，过去还曾做过佣兵和间谍。如果你能信任他，他将会是你宫廷中不可或缺的人才……;;;;;;;;;;x
 israelite;以色列文化;;;;;;;;;;x
-ashkenazi;日耳曼犹太人;;;;;;;;;;x
+ashkenazi;阿什肯纳兹犹太人;;;;;;;;;;x
 sephardi;塞法迪犹太人;;;;;;;;;;x
 passover_invitations_sent;你邀请犹太教封臣们参加传统的逾越节晚宴。;;;;;;;;;;x
 passover_accepted;你接受了邀请。;;;;;;;;;;x
@@ -406,21 +406,21 @@ passover_declined;你拒绝了邀请。;;;;;;;;;;x
 EVTDESC_SoA_500;在2000多年前，上帝降下十灾击打埃及，帮助以色列的子民逃离奴役。最后一场瘟疫中，人们看见主派下的灵杀尽了埃及地所有的长子，却「路过」了那些在门上涂了羊羔的血的犹太人家。这是一个纪念犹太人逃脱奴役，重获自由的节日。;;;;;;;;;;x
 EVTOPTA_SoA_500;送出邀请。;;;;;;;;;;x
 EVTTOOLTIP_SoA_501;逾越节晚宴的邀请已经送出。;;;;;;;;;;x
-EVTDESC_SoA_501;你被邀请参加由你的领主[From.GetTitledFirstName][From.GetSheHe] 召开的逾越节晚宴。这项宗教晚宴在逾越节的头天晚上在召开，在晚宴上会重述出埃及的故事。;;;;;;;;;;x
+EVTDESC_SoA_501;你被邀请参加由你的领主[From.GetTitledFirstName][From.GetSheHe]召开的逾越节晚宴。这项宗教晚宴在逾越节的头天晚上召开，在晚宴上会重述出埃及的故事。;;;;;;;;;;x
 EVTOPTA_SoA_501;多么好心！;;;;;;;;;;x
 EVTOPTB_SoA_501;可惜我有其他计划。;;;;;;;;;;x
 EVTDESC_SoA_502;[From.GetTitledFirstName]拒绝了你逾越节晚宴的邀请，声称[From.GetSheHe]有其他计划。;;;;;;;;;;x
 EVTOPTA_SoA_502;我明白了。;;;;;;;;;;x
 EVTDESC_SoA_503;在逾越节的头天晚上，晚宴如期进行了。人们享用了许多无酵饼和苦菜。在晚宴的四个特殊节点上，每个人都必须各喝一杯酒。会上人们还重述和讨论了出埃及的故事。;;;;;;;;;;x
 EVTOPTA_SoA_503;请给我无酵饼。;;;;;;;;;;x
-EVTDESC_SoA_504;晚宴一直持续到深夜，但是天下无不散的宴席。你的封臣们返回家中继续庆祝逾越节，不过都觉得来参加你的晚宴真是不虚此行。;;;;;;;;;;x
+EVTDESC_SoA_504;晚宴一直持续到深夜，但是天下无不散的宴席。你的封臣们返回家中继续庆祝逾越节，不过大家都觉得来参加你的晚宴真是不虚此行。;;;;;;;;;;x
 EVTOPTA_SoA_504;下一年在耶路撒冷！;;;;;;;;;;x
 EVTDESC_SoA_505;晚宴一直持续到深夜，但是天下无不散的宴席。你返回家中继续庆祝逾越节，不过你和其他宾客都觉得来参加这场晚宴真是不虚此行。;;;;;;;;;;x
 opinion_passover;举办了逾越节晚宴;;;;;;;;;;x
 opinion_refused_passover;拒绝逾越节邀请;;;;;;;;;;x
 celebrate_passover;庆祝逾越节;;;;;;;;;;x
 celebrate_passover_desc;以色列人每年都会庆祝逾越节，以纪念以色列人从埃及的奴役下重获自由。你邀请封臣们来参加豪华的晚宴让这一年的庆典值得被铭记！;;;;;;;;;;x
-passover_celebrations;今年逾越节庆典的准备开始了.\n;;;;;;;;;;x
+passover_celebrations;今年逾越节庆典的准备开始了。\n;;;;;;;;;;x
 opinion_supported_cardinal;支持竞选枢机主教;;;;;;;;;;x
 opinion_supported_pope;支持竞选教宗;;;;;;;;;;x
 PREFERATI;适任者;;;;;;;;;;x
@@ -443,15 +443,15 @@ EVTOPTA_SOA_1609;多么高尚的目标！;;;;;;;;;;x
 EVTOPTB_SOA_1609;这些僧人就该乖乖呆在修道院里。;;;;;;;;;;x
 EVTDESC_SOA_1631;我的[GetFromRelation]，[From.GetTitledFirstName]要求加入圣墓兄弟会，与异教徒作战。即使这样做会让他失去继承权。;;;;;;;;;;x
 EVTTOOLTIP_SOA_1632;[This.GetTitledFirstName]成为了圣墓兄弟会的一员。;;;;;;;;;;x
-EVTDESC_SOA_1653;最正直的[Root.GetTitledFirstName]，兄弟会需要更多的城堡来训练部队兵维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出100金币换取您对我们在此地建筑要塞的许可。\n愿基督保佑您，\n\n大团长 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_1653;最正直的[Root.GetTitledFirstName]，兄弟会需要更多的城堡来训练部队兵维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出 100 金币换取您对我们在此地建筑要塞的许可。\n愿基督保佑您，\n\n大团长[From.GetFirstName]谨上;;;;;;;;;;x
 EVTDESC_SOA_1654;圣墓兄弟会在[Root.GetName]建起了一座城堡！;;;;;;;;;;x
-EVTDESC_SOA_1661;陛下，您对我们的敌意毫无道理！兄弟会侍奉基督，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n大团长 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_1661;陛下，您对我们的敌意毫无道理！兄弟会侍奉基督，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n大团长[From.GetFirstName]谨上;;;;;;;;;;x
 expel_the_holy_sepulchre;驱逐圣墓兄弟会;;;;;;;;;;x
 expel_the_holy_sepulchre_desc;我可以将圣墓兄弟会赶出我的国土，没收他们的城堡。只是这么做非常不虔诚……;;;;;;;;;;x
 donate_money_to_holy_sepulchre;捐赠 300¤ 给圣墓兄弟会;;;;;;;;;;x
 expelled_d_holy_sepulchre;曾驱逐圣墓兄弟会;;;;;;;;;;x
 EVTTITLE_SOA_1709;圣安东尼骑士团;;;;;;;;;;x
-EVTOPTA_SOA_1709;这些其实终于履行了他们的誓言。;;;;;;;;;;x
+EVTOPTA_SOA_1709;这些骑士终于履行了他们的誓言。;;;;;;;;;;x
 EVTOPTB_SOA_1709;圣……谁？;;;;;;;;;;x
 EVTDESC_SOA_1731;我的[GetFromRelation]，[From.GetTitledFirstName]要求加入圣安东尼骑士团，与异教徒作战。即使这样做会让他失去继承权。;;;;;;;;;;x
 EVTTOOLTIP_SOA_1732;[This.GetTitledFirstName]成为了一名圣安东尼的骑士。;;;;;;;;;;x
@@ -465,9 +465,9 @@ EVTOPTA_SOA_1809;传奇的战士们回来了！;;;;;;;;;;x
 EVTOPTB_SOA_1809;长生军？呸，老古董。;;;;;;;;;;x
 EVTDESC_SOA_1831;我的[GetFromRelation]，[From.GetTitledFirstName]要求加入长生军，与异教徒作战。即使这样做会让他失去继承权。;;;;;;;;;;x
 EVTTOOLTIP_SOA_1832;[This.GetTitledFirstName]成为了一名长生军。;;;;;;;;;;x
-EVTDESC_SOA_1853;最正直的[Root.GetTitledFirstName]，长生军需要更多的城堡来训练部队兵维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出100金币换取您对我们在此地建筑要塞的许可。\n为了琐罗亚斯德的意志，\n\n大团长 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_1853;最正直的[Root.GetTitledFirstName]，长生军需要更多的城堡来训练部队兵维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出 100 金币换取您对我们在此地建筑要塞的许可。\n为了琐罗亚斯德的意志，\n\n大团长[From.GetFirstName]谨上;;;;;;;;;;x
 EVTDESC_SOA_1854;长生军在[Root.GetName]建了一座城堡！;;;;;;;;;;x
-EVTDESC_SOA_1861;陛下，您对我们的敌意毫无道理！长生军进行着先知琐罗亚斯德的事业，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n大团长 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_1861;陛下，您对我们的敌意毫无道理！长生军进行着先知琐罗亚斯德的事业，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n大团长[From.GetFirstName]谨上;;;;;;;;;;x
 expel_immortals;驱逐长生军;;;;;;;;;;x
 expel_immortals_desc;我可以将长生军赶出我的国土，没收他们的城堡。只是这么做非常不虔诚……;;;;;;;;;;x
 donate_money_to_the_immortals;捐赠 300¤ 给长生军;;;;;;;;;;x
@@ -478,9 +478,9 @@ EVTOPTA_SOA_1909;欢迎任何守护犹太教的人。;;;;;;;;;;x
 EVTOPTB_SOA_1909;一大堆激进分子和极端主义者！;;;;;;;;;;x
 EVTDESC_SOA_1931;我的[GetFromRelation]，[From.GetTitledFirstName]要求加入奋锐党，与异教徒作战。即使这样做会让他失去继承权。;;;;;;;;;;x
 EVTTOOLTIP_SOA_1932;[This.GetTitledFirstName]成为了一名奋锐党。;;;;;;;;;;x
-EVTDESC_SOA_1953;最正直的[Root.GetTitledFirstName]，奋锐党需要更多的城堡来训练部队兵维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出100金币换取您对我们在此地建筑要塞的许可。\n不要忘记马萨达！\n\n大团长 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_1953;最正直的[Root.GetTitledFirstName]，奋锐党需要更多的城堡来训练部队兵维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出 100 金币换取您对我们在此地建筑要塞的许可。\n勿忘马萨达！\n\n大团长 [From.GetFirstName]谨上;;;;;;;;;;x
 EVTDESC_SOA_1954;奋锐党在[Root.GetName]建起了一座城堡！;;;;;;;;;;x
-EVTDESC_SOA_1961;陛下，您对我们的敌意毫无道理！奋锐党只想守护犹太教，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n大团长 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_1961;陛下，您对我们的敌意毫无道理！奋锐党只想守护犹太教，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n大团长[From.GetFirstName]谨上;;;;;;;;;;x
 expel_zealots;驱逐奋锐党;;;;;;;;;;x
 expel_zealots_desc;我可以将奋锐党赶出我的国土，没收他们的城堡。只是这么做非常不虔诚……;;;;;;;;;;x
 donate_money_to_the_zealots;捐赠 300¤ 给奋锐党;;;;;;;;;;x
@@ -490,11 +490,11 @@ EVTDESC_SOA_2009;全能的老天爷腾格里无所不知，但是在地上仍旧
 EVTOPTA_SOA_2009;让他们以老天爷的名义勇往直前！;;;;;;;;;;x
 EVTOPTB_SOA_2009;这些野蛮人接下来还会想出点啥来？;;;;;;;;;;x
 EVTDESC_SOA_2031;我的[GetFromRelation]，[From.GetTitledFirstName]要求加入天之骄子，永不疲倦地驱逐异教徒。即使这样做会让他失去继承权。;;;;;;;;;;x
-EVTDESC_SOA_2041;伟大的[Root.PrimaryTitle.GetRulerTitle]，您慷慨的捐赠极大地帮助了我们和老天爷的敌人作战！我将非常荣幸地把我最好的坐骑以您的名字命名！\n为了老天爷！\n\n首领 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2041;伟大的[Root.PrimaryTitle.GetRulerTitle]，您慷慨的捐赠极大地帮助了我们和老天爷的敌人作战！我将非常荣幸地把我最好的坐骑以您的名字命名！\n为了老天爷！\n\n首领[From.GetFirstName]谨上;;;;;;;;;;x
 EVTTOOLTIP_SOA_2032;[This.GetTitledFirstName]成为了天之骄子的一员。;;;;;;;;;;x
-EVTDESC_SOA_2053;最正直的[Root.GetTitledFirstName]，天之骄子需要更多的城堡来训练部队兵并维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出100金币换取您对我们在此地建筑要塞的许可。\n为了老天爷！\n\n首领 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2053;最正直的[Root.GetTitledFirstName]，天之骄子需要更多的城堡来训练部队兵并维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出 100 金币换取您对我们在此地建筑要塞的许可。\n为了老天爷！\n\n首领[From.GetFirstName]谨上;;;;;;;;;;x
 EVTDESC_SOA_2054;天之骄子在[Root.GetName]建起了一座城堡！;;;;;;;;;;x
-EVTDESC_SOA_2061;陛下，您对我们的敌意毫无道理！天之骄子只会和老天爷的敌人作战，您能做出这样的声明吗？\n\n悲愤交加的，\n\n首领 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2061;陛下，您对我们的敌意毫无道理！天之骄子只会和老天爷的敌人作战，您能做出这样的声明吗？\n\n悲愤交加的，\n\n首领[From.GetFirstName]谨上;;;;;;;;;;x
 expel_sky_lords;驱逐天之骄子;;;;;;;;;;x
 expel_sky_lords_desc;我可以将天之骄子赶出我的国土，没收他们的城堡。只是这么做非常不虔诚……;;;;;;;;;;x
 donate_money_to_sky_lords;捐赠 300¤ 给天之骄子;;;;;;;;;;x
@@ -506,23 +506,23 @@ EVTOPTA_SOA_2109;赞美灵魂！;;;;;;;;;;x
 EVTDESC_SOA_2131;我的[GetFromRelation]，[From.GetTitledFirstName]要求加入灵魂卫队，为守护信仰而战。即使这样做会让他失去继承权。;;;;;;;;;;x
 EVTDESC_SOA_2141;伟大的[Root.PrimaryTitle.GetRulerTitle]，您慷慨的捐赠极大地帮助了守卫灵魂和信徒的事业！我和祭司们都会视您为朋友！\n\n愿灵与您同行！\n首领 [From.GetFirstName]谨上;;;;;;;;;;x
 EVTTOOLTIP_SOA_2132;[This.GetTitledFirstName]成为了一名灵魂卫士。.;;;;;;;;;;x
-EVTDESC_SOA_2153;最正直的[Root.GetTitledFirstName]，灵魂卫士需要更多的城堡来训练部队兵并维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出100金币换取您对我们在此地建筑要塞的许可。\n\n愿灵与您同行！\n首领 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2153;最正直的[Root.GetTitledFirstName]，灵魂卫士需要更多的城堡来训练部队兵并维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出 100 金币换取您对我们在此地建筑要塞的许可。\n\n愿灵与您同行！\n首领[From.GetFirstName]谨上;;;;;;;;;;x
 EVTDESC_SOA_2154;灵魂卫队在[Root.GetName]建起了一座城堡！;;;;;;;;;;x
-EVTDESC_SOA_2161;陛下，您对我们的敌意毫无道理！灵魂卫队与灵同行，为了守护灵魂不惜牺牲性命，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n首领 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2161;陛下，您对我们的敌意毫无道理！灵魂卫队与灵同行，为了守护灵魂不惜牺牲性命，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n首领[From.GetFirstName]谨上;;;;;;;;;;x
 expel_spirit_guardians;驱逐灵魂卫队;;;;;;;;;;x
 expel_spirit_guardians_desc;我可以将灵魂卫队赶出我的国土，没收他们的城堡。只是这么做非常不虔诚……;;;;;;;;;;x
 donate_money_to_spirit_guardians;捐赠 300¤ 给灵魂卫队;;;;;;;;;;x
 donate_money_to_spirit_guardians_desc;我可以捐款给灵魂卫士以换取[Player.Religion.GetPietyName]，这会让我一生受到祭司的尊敬。;;;;;;;;;;x
 expelled_d_spirit_guardians;曾驱逐灵魂卫队;;;;;;;;;;x
-EVTTITLE_SOA_2209;佩龙的战士;;;;;;;;;;x
-EVTDESC_SOA_2209;斯拉夫信仰的改革在斯拉夫人的土地上掀起了从未有过的宗教狂热。许许多多伟大的战士聚到一起，组成了一支圣战士。他们自称为雷电之神佩伦的战士，誓死守卫斯拉夫信仰。;;;;;;;;;;x
-EVTOPTA_SOA_2209;让佩龙的敌人们颤抖吧！;;;;;;;;;;x
+EVTTITLE_SOA_2209;佩龙的勇士;;;;;;;;;;x
+EVTDESC_SOA_2209;斯拉夫信仰的改革在斯拉夫人的土地上掀起了从未有过的宗教狂热。许许多多伟大的战士聚到一起，组成了一支圣战士。他们自称为雷电之神佩龙的勇士，誓死守卫斯拉夫信仰。;;;;;;;;;;x
+EVTOPTA_SOA_2209;让佩龙的敌人们在恐惧中颤抖吧！;;;;;;;;;;x
 EVTDESC_SOA_2231;我的[GetFromRelation]，[From.GetTitledFirstName]要求加入佩龙的勇士，和他们一起击溃众神的敌人。即使这样做会让他失去继承权。;;;;;;;;;;x
-EVTDESC_SOA_2241;伟大的[Root.PrimaryTitle.GetRulerTitle]，您慷慨的捐赠极大地帮助了我们贯彻佩伦的意志！我和祭司们都会视您为朋友！\n\n愿佩龙守护您，\n首领 [From.GetFirstName]谨上;;;;;;;;;;x
-EVTTOOLTIP_SOA_2232;[This.GetTitledFirstName]成为了一名佩龙的战士。;;;;;;;;;;x
-EVTDESC_SOA_2253;最正直的[Root.GetTitledFirstName]，佩伦的战士需要更多的城堡来训练部队兵并维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出100金币换取您对我们在此地建筑要塞的许可。\n\n愿佩伦守护您！\n首领 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2241;伟大的[Root.PrimaryTitle.GetRulerTitle]，您慷慨的捐赠极大地帮助了我们贯彻佩龙的意志！我和祭司们都会视您为朋友！\n\n愿佩龙守护您，\n首领[From.GetFirstName]谨上;;;;;;;;;;x
+EVTTOOLTIP_SOA_2232;[This.GetTitledFirstName]成为了一名佩龙的勇士。;;;;;;;;;;x
+EVTDESC_SOA_2253;最正直的[Root.GetTitledFirstName]，佩龙的勇士需要更多的城堡来训练部队兵并维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出 100 金币换取您对我们在此地建筑要塞的许可。\n\n愿佩龙守护您！\n首领[From.GetFirstName]谨上;;;;;;;;;;x
 EVTDESC_SOA_2254;佩龙的勇士在[Root.GetName]建起了一座城堡！;;;;;;;;;;x
-EVTDESC_SOA_2261;陛下，您对我们的敌意毫无道理！佩龙的勇士侍奉神明，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n首领 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2261;陛下，您对我们的敌意毫无道理！佩龙的勇士侍奉神明，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n首领[From.GetFirstName]谨上;;;;;;;;;;x
 expel_warriors_perun;驱逐佩龙的勇士;;;;;;;;;;x
 expel_warriors_perun_desc;我可以将佩龙的勇士赶出我的国土，没收他们的城堡。只是这么做非常不虔诚……;;;;;;;;;;x
 donate_money_to_warriors_perun;捐赠 300¤ 给驱逐佩龙的勇士;;;;;;;;;;x
@@ -532,11 +532,11 @@ EVTTITLE_SOA_2309;佩尔库纳斯精兵;;;;;;;;;;x
 EVTDESC_SOA_2309;闪电之神佩尔库纳斯降下神谕！洛姆瓦宗教为了应对新的环境而进行了改革，许多战士也挺身而出，为重获新生的宗教组建一支新的圣战军团。他们称自己为佩尔库纳斯精兵，宣誓守卫洛姆瓦信仰，用神明的愤怒击碎他们的敌人。;;;;;;;;;;x
 EVTOPTA_SOA_2309;他们会像闪电一样击倒他们的敌人！;;;;;;;;;;x
 EVTDESC_SOA_2331;我的[GetFromRelation]，[From.GetTitledFirstName]要求加入佩尔库纳斯精兵，和不信者们作战。即使这样做会让他失去继承权。;;;;;;;;;;x
-EVTDESC_SOA_2341;伟大的[Root.PrimaryTitle.GetRulerTitle]，您慷慨的捐赠极大地帮助了我们贯彻佩尔库纳斯的意志！我和祭司们都会视您为朋友！\n\n愿佩尔库纳斯守护您，\n首领 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2341;伟大的[Root.PrimaryTitle.GetRulerTitle]，您慷慨的捐赠极大地帮助了我们贯彻佩尔库纳斯的意志！我和祭司们都会视您为朋友！\n\n愿佩尔库纳斯守护您，\n首领[From.GetFirstName]谨上;;;;;;;;;;x
 EVTTOOLTIP_SOA_2332;[This.GetTitledFirstName]成为了一名佩尔库纳斯精兵。;;;;;;;;;;x
-EVTDESC_SOA_2353;最正直的[Root.GetTitledFirstName]，佩尔库纳斯精兵需要更多的城堡来训练部队兵并维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出100金币换取您对我们在此地建筑要塞的许可。\n\n愿佩尔库纳斯守护您！\n首领 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2353;最正直的[Root.GetTitledFirstName]，佩尔库纳斯精兵需要更多的城堡来训练部队兵并维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出 100 金币换取您对我们在此地建筑要塞的许可。\n\n愿佩尔库纳斯守护您！\n首领[From.GetFirstName]谨上;;;;;;;;;;x
 EVTDESC_SOA_2354;佩尔库纳斯精兵在[Root.GetName]建起了一座城堡！;;;;;;;;;;x
-EVTDESC_SOA_2361;陛下，您对我们的敌意毫无道理！佩尔库纳斯精兵侍奉神明，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n首领 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2361;陛下，您对我们的敌意毫无道理！佩尔库纳斯精兵侍奉神明，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n首领[From.GetFirstName]谨上;;;;;;;;;;x
 expel_chosen_perkunas;驱逐佩尔库纳斯精兵;;;;;;;;;;x
 expel_chosen_perkunas_desc;我可以将佩尔库纳斯精兵赶出我的国土，没收他们的城堡。只是这么做非常不虔诚……;;;;;;;;;;x
 donate_money_to_chosen_perkunas;捐赠 300¤ 给佩尔库纳斯精兵;;;;;;;;;;x
@@ -546,11 +546,11 @@ EVTTITLE_SOA_2409;卡勒瓦之子;;;;;;;;;;x
 EVTDESC_SOA_2409;一支新的芬兰圣战士投身于守卫改革后的索米信仰。这些战士称呼自己为「卡勒瓦之子」，准备着与任何不信他们信仰的人开展。许多芬兰人将他们视为古老神话中的英雄，看来圣战士们不会缺少新鲜的血液。;;;;;;;;;;x
 EVTOPTA_SOA_2409;他们就像神话中的英雄！;;;;;;;;;;x
 EVTDESC_SOA_2431;我的[GetFromRelation]，[From.GetTitledFirstName]要求加入英雄般的卡勒瓦之子，与异教徒作战。即使这样做会让他失去继承权。;;;;;;;;;;x
-EVTDESC_SOA_2441;伟大的[Root.PrimaryTitle.GetRulerTitle]，您慷慨的捐赠极大地帮助了我们贯彻卡勒瓦的意志！我和祭司们都会视您为朋友！\n\n愿神明守护您，\n首领 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2441;伟大的[Root.PrimaryTitle.GetRulerTitle]，您慷慨的捐赠极大地帮助了我们贯彻卡勒瓦的意志！我和祭司们都会视您为朋友！\n\n愿神明守护您，\n首领[From.GetFirstName]谨上;;;;;;;;;;x
 EVTTOOLTIP_SOA_2432;[This.GetTitledFirstName]成为了卡勒瓦之子的一员。;;;;;;;;;;x
-EVTDESC_SOA_2453;最正直的[Root.GetTitledFirstName]，卡勒瓦之子需要更多的城堡来训练部队兵并维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出100金币换取您对我们在此地建筑要塞的许可。\n\n愿神明守护您！\n首领 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2453;最正直的[Root.GetTitledFirstName]，卡勒瓦之子需要更多的城堡来训练部队兵并维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出 100 金币换取您对我们在此地建筑要塞的许可。\n\n愿神明守护您！\n首领[From.GetFirstName]谨上;;;;;;;;;;x
 EVTDESC_SOA_2454;卡勒瓦之子在[Root.GetName]建起了一座城堡！;;;;;;;;;;x
-EVTDESC_SOA_2461;陛下，您对我们的敌意毫无道理！卡勒瓦之子侍奉神明，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n首领 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2461;陛下，您对我们的敌意毫无道理！卡勒瓦之子侍奉神明，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n首领[From.GetFirstName]谨上;;;;;;;;;;x
 expel_sons_kaleva;驱逐卡勒瓦之子;;;;;;;;;;x
 expel_sons_kaleva_desc;我可以将卡勒瓦之子赶出我的国土，没收他们的城堡。只是这么做非常不虔诚……;;;;;;;;;;x
 donate_money_to_sons_kaleva;捐赠 300¤ 给卡勒瓦之子;;;;;;;;;;x
@@ -560,11 +560,11 @@ EVTTITLE_SOA_2509;维齐洛波奇特利教派;;;;;;;;;;x
 EVTDESC_SOA_2509;大海东岸这些人的信仰不只有一只多毛的鹦鹉，还有更多的内涵。但如今阿兹克特信仰经过改革和重组，已经能更好的对抗这些异教徒。一些战牧还建起了一支新的圣战军团：维齐洛波奇特利教派。这个教派向战争之神献身，狂热于向世界传道。或许他们在传道的过程里还会献祭许多的活人。;;;;;;;;;;x
 EVTOPTA_SOA_2509;愿他们的献祭能令人畏惧。;;;;;;;;;;x
 EVTDESC_SOA_2531;我的[GetFromRelation]，[From.GetTitledFirstName]要求加入维齐洛波奇特利教派，和他们一起挖出每个不信者的心脏。即使这样做会让他失去继承权。;;;;;;;;;;x
-EVTDESC_SOA_2541;伟大的[Root.PrimaryTitle.GetRulerTitle]，您慷慨的捐赠极大地帮助了我们组织维齐洛波奇特利要求的献祭仪式！我和祭司们都会视您为朋友！\n\n维齐洛波奇特利的忠实仆人，\n大祭司 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2541;伟大的[Root.PrimaryTitle.GetRulerTitle]，您慷慨的捐赠极大地帮助了我们组织维齐洛波奇特利要求的献祭仪式！我和祭司们都会视您为朋友！\n\n维齐洛波奇特利的忠实仆人，\n大祭司[From.GetFirstName]谨上;;;;;;;;;;x
 EVTTOOLTIP_SOA_2532;[This.GetTitledFirstName]成为了维齐格波奇特利教派的一份子。;;;;;;;;;;x
-EVTDESC_SOA_2553;最正直的[Root.GetTitledFirstName]，维齐洛波奇特利教派需要更多的城堡来训练部队兵并维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出100金币换取您对我们在此地建筑要塞的许可。\n\n维齐洛波奇特利的忠实仆人，\n大祭司 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2553;最正直的[Root.GetTitledFirstName]，维齐洛波奇特利教派需要更多的城堡来训练部队兵并维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出 100 金币换取您对我们在此地建筑要塞的许可。\n\n维齐洛波奇特利的忠实仆人，\n大祭司[From.GetFirstName]谨上;;;;;;;;;;x
 EVTDESC_SOA_2554;维齐洛波奇特利教派在[Root.GetName]建起了一座城堡！;;;;;;;;;;x
-EVTDESC_SOA_2561;陛下，您对我们的敌意毫无道理！维齐洛波奇特利教派教派奉行维齐洛波奇特利教派日耳曼，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n大祭司 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2561;陛下，您对我们的敌意毫无道理！维齐洛波奇特利教派教派奉行维齐洛波奇特利教派日耳曼，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n\n大祭司[From.GetFirstName]谨上;;;;;;;;;;x
 expel_huitzilopochtli;驱逐维齐洛波奇特利教派;;;;;;;;;;x
 expel_huitzilopochtli_desc;我可以将维齐洛波奇特利教派赶出我的国土，没收他们的城堡。只是这么做非常不虔诚……;;;;;;;;;;x
 donate_money_to_huitzilopochtli;捐赠 300¤ 给维齐洛波奇特利教派;;;;;;;;;;x
@@ -575,9 +575,9 @@ EVTOPTA_SOA_2609;基督的勇敢的战士们！;;;;;;;;;;x
 EVTOPTB_SOA_2609;令人担忧……;;;;;;;;;;x
 EVTDESC_SOA_2631;我的[GetFromRelation]，[From.GetTitledFirstName]要求加入圣地亚哥骑士团，与异教徒作战。即使这样做会让他失去继承权。;;;;;;;;;;x
 EVTTOOLTIP_SOA_2632;[This.GetTitledFirstName]成为了一名圣地亚哥骑士。;;;;;;;;;;x
-EVTDESC_SOA_2653;最正直的[Root.GetTitledFirstName]，圣地亚哥骑士团需要更多的城堡来训练部队兵维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出100金币换取您对我们在此地建筑要塞的许可。\n愿基督保佑您，\n\n大团长 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2653;最正直的[Root.GetTitledFirstName]，圣地亚哥骑士团需要更多的城堡来训练部队兵维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出 100 金币换取您对我们在此地建筑要塞的许可。\n愿基督保佑您，\n\n大团长[From.GetFirstName]谨上;;;;;;;;;;x
 EVTDESC_SOA_2654;圣地亚哥骑士团在[Root.GetName]建起了一座城堡！;;;;;;;;;;x
-EVTDESC_SOA_2661;陛下，您对我们的敌意毫无道理！圣地亚哥骑士团侍奉基督，而您却对此有所怀疑是吗？\n悲愤交加的，\n\n大团长 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2661;陛下，您对我们的敌意毫无道理！圣地亚哥骑士团侍奉基督，而您却对此有所怀疑是吗？\n悲愤交加的，\n\n大团长[From.GetFirstName]谨上;;;;;;;;;;x
 expel_knights_santiago;驱逐圣地亚哥骑士团;;;;;;;;;;x
 expel_knights_santiago_desc;我可以将圣地亚哥骑士团赶出我的国土，没收他们的城堡。只是这么做非常不虔诚……;;;;;;;;;;x
 donate_money_to_knights_santiago;捐赠 300¤ 给圣地亚哥骑士团;;;;;;;;;;x
@@ -587,9 +587,9 @@ EVTOPTA_SOA_2709;愿他们得到最后的胜利！;;;;;;;;;;x
 EVTOPTB_SOA_2709;又一群待宰的羔羊！;;;;;;;;;;x
 EVTDESC_SOA_2731;我的[GetFromRelation]，[From.GetTitledFirstName]要求加入卡勒多拉巴骑士团，与异教徒作战。即使这样做会让他失去继承权。;;;;;;;;;;x
 EVTTOOLTIP_SOA_2732;[This.GetTitledFirstName]成为了一名卡勒多拉巴骑士。;;;;;;;;;;x
-EVTDESC_SOA_2753;最正直的[Root.GetTitledFirstName]，卡勒多拉巴骑士团需要更多的城堡来训练部队兵维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出100金币换取您对我们在此地建筑要塞的许可。\n愿基督保佑您，\n\n大团长 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2753;最正直的[Root.GetTitledFirstName]，卡勒多拉巴骑士团需要更多的城堡来训练部队兵维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出 100 金币换取您对我们在此地建筑要塞的许可。\n愿基督保佑您，\n\n大团长[From.GetFirstName]谨上;;;;;;;;;;x
 EVTDESC_SOA_2754;卡勒多拉巴骑士团在[Root.GetName]建起了一座城堡！;;;;;;;;;;x
-EVTDESC_SOA_2761;陛下，您对我们的敌意毫无道理！卡勒多拉巴骑士团侍奉基督，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n大团长 [From.GetFirstName]谨上;;;;;;;;;;x
+EVTDESC_SOA_2761;陛下，您对我们的敌意毫无道理！卡勒多拉巴骑士团侍奉基督，而您却对此有所怀疑是吗？\n\n悲愤交加的，\n大团长[From.GetFirstName]谨上;;;;;;;;;;x
 expel_knights_calatrava;驱逐卡勒多拉巴骑士团;;;;;;;;;;x
 expel_knights_calatrava_desc;我可以将卡勒多拉巴骑士团赶出我的国土，没收他们的城堡。只是这么做非常不虔诚……;;;;;;;;;;x
 donate_money_to_knights_calatrava;捐赠 300¤ 给卡勒多拉巴骑士团;;;;;;;;;;x
@@ -618,7 +618,7 @@ EVTOPTA_SoA_5011;我将去耶路撒冷目睹圣地的奇迹。;;;;;;;;;;x
 EVTOPTB_SoA_5011;我将去君士坦丁堡参观雄伟的大教堂。;;;;;;;;;;x
 EVTOPTC_SoA_5011;我将和使徒们一样去安条克。;;;;;;;;;;x
 EVTOPTD_SoA_5011;我将去约柜所在的阿克苏姆。;;;;;;;;;;x
-EVTDESC_SoA_5016;蒙主祝福，我就居住在[Root.Capital.GetName]，但我要出发去我主最为神圣的圣地朝圣——耶路撒冷！;;;;;;;;;;x
+EVTDESC_SoA_5016;蒙主祝福，我就居住在[Root.Capital.GetName]，但我要出发去我主最为神圣的圣地——耶路撒冷朝圣！;;;;;;;;;;x
 EVTOPTA_SoA_5016;我开始制定旅行计划。;;;;;;;;;;x
 EVTDESC_SoA_5017;蒙主祝福，我就居住在腓力斯丁圣地附近，但我应该追随着使徒们的足迹，去罗马朝圣。;;;;;;;;;;x
 EVTOPTA_SoA_5017;我开始制定旅行计划。;;;;;;;;;;x
@@ -649,9 +649,9 @@ EVTOPTA_SoA_5095;我的旅途开始了！;;;;;;;;;;x
 EVTDESC_SoA_5096;我打包好了行李，整装待发。古老的安条克正在等着我！;;;;;;;;;;x
 EVTOPTA_SoA_5096;我的旅途开始了！;;;;;;;;;;x
 EVTDESC_SoA_5026;倾盆大雨连续数日，这天气几乎没可能出行。为什么我主要如此惩罚他虔诚的朝圣者呢？;;;;;;;;;;x
-EVTOPTA_SoA_5026;能承受 [Root.GetSheHe]试炼的人才会收到祝福！;;;;;;;;;;x
+EVTOPTA_SoA_5026;能承受试炼的人才会收到祝福！;;;;;;;;;;x
 EVTOPTB_SoA_5026;岂有此理，我就该呆在家里！;;;;;;;;;;x
-EVTDESC_SoA_5027;你小心翼翼的穿过一条横躺在你面前的溪流。如果不是因为在这里不该有这条溪流的话，这会是个美妙的时刻。你是在人生地不熟的地方迷了路。;;;;;;;;;;x
+EVTDESC_SoA_5027;你小心翼翼的穿过一条横躺在你面前的溪流。如果不是因为在这里不该有这条溪流的话，这会是个美妙的时刻。你在人生地不熟的地方迷了路。;;;;;;;;;;x
 EVTOPTA_SoA_5027;我要是没听那群没用的农民给我指的路就好了。;;;;;;;;;;x
 EVTOPTB_SoA_5027;我要是有听那些农民给我指的路就好了。;;;;;;;;;;x
 EVTNAME_SoA_5028;夜深了……;;;;;;;;;;x
@@ -664,15 +664,15 @@ EVTOPTB_SoA_5029;刀剑才是这群混蛋应得的！;;;;;;;;;;x
 EVTDESC_SoA_5030;这座老木桥已经承载了许多朝圣者走过。你一踏上这座桥，它就发出可疑的嘎吱声。;;;;;;;;;;x
 EVTOPTA_SoA_5030;没时间停下了，我相信它能撑得住。;;;;;;;;;;x
 EVTOPTB_SoA_5030;停下帮助修理这座桥。;;;;;;;;;;x
-EVTOPTC_SoA_5030;这里的人应该得到一座市桥。我会付钱来修建的。;;;;;;;;;;x
+EVTOPTC_SoA_5030;这里的人应该得到一座石桥。我会付钱来修建的。;;;;;;;;;;x
 EVTDESC_SoA_5031;你彻夜难眠，回想着你的朝圣之旅。这不仅是一次肉身的旅行，更是一次心灵的旅行。但是你能确定这心灵的旅途将到达何方吗？或者，你希望这旅途有一个确定的终点吗？;;;;;;;;;;x
 EVTOPTA_SoA_5031;心之所欲，心之所往。;;;;;;;;;;x
-EVTOPTB_SoA_5031;毫无疑问，终点就花在地图上。是时候睡觉了！;;;;;;;;;;x
+EVTOPTB_SoA_5031;毫无疑问，终点就画在地图上。是时候睡觉了！;;;;;;;;;;x
 EVTDESC_SoA_5032;走过了一段漫长而孤单的路途，你见到了一个躺在水沟里的人。他看起来被人抢劫，还被狠狠地揍了一顿。;;;;;;;;;;x
 EVTOPTA_SoA_5032;帮他包扎伤口，带他去旅店并帮他垫上药钱。;;;;;;;;;;x
 EVTOPTB_SoA_5032;别管他，他没准已经死了呢。;;;;;;;;;;x
 EVTNAME_SoA_5033;洪水;;;;;;;;;;x
-EVTDESC_SoA_5033;这地区进来阴雨绵绵，你前途路上的山谷已淹成座湖.水位仍在上涨，你决定造个筏子渡过去.当筏子几近完成时，一伙农夫过来告诉你他们也需要渡湖回家.随同他们的是一些从洪水中救下的牲畜.;;;;;;;;;;x
+EVTDESC_SoA_5033;这地区进来阴雨绵绵，你前途路上的山谷已淹成座湖。水位仍在上涨，你决定造个筏子渡过去。当筏子几近完成时，一伙农夫过来告诉你他们也需要渡湖回家。随同他们的是一些从洪水中救下的牲畜。;;;;;;;;;;x
 EVTOPTA_SoA_5033;人或兽都与我和我的筏子无关。;;;;;;;;;;x
 EVTOPTB_SoA_5033;带农民和这些动物过去。;;;;;;;;;;x
 EVTOPTC_SoA_5033;告诉他们只能带上猫和狗。;;;;;;;;;;x
@@ -680,14 +680,14 @@ noahs_ark_cats_dogs;再也别下雨啦。;;;;;;;;;;x
 EVTDESC_SoA_5034;傍晚，一群朝圣者出现在你的营地。他们看起来很疲惫，也没什么东西可吃。而你也仅有几条面包和咸鱼。;;;;;;;;;;x
 EVTOPTA_SoA_5034;把食物分给大家，多少能压压饿。;;;;;;;;;;x
 EVTOPTB_SoA_5034;抱歉了，这点食物不够给你们分的。;;;;;;;;;;x
-EVTDESC_SoA_5035;你最后几日的旅途是在海上度过的。船随着海风晃动，水手们在甲板上忙碌着。陆地和船上是如此不同，你听着他们叫着「右舷」、「船尾」、「搁浅」...天知道是什么意思。;;;;;;;;;;x
+EVTDESC_SoA_5035;你最后几日的旅途是在海上度过的。船随着海风晃动，水手们在甲板上忙碌着。陆地和船上是如此不同，你听着他们叫着「右舷」、「船尾」、「搁浅」……天知道是什么意思。;;;;;;;;;;x
 EVTOPTA_SoA_5035;太有意思了，我得赶紧学学。;;;;;;;;;;x
 EVTOPTB_SoA_5035;这对我来说毫无意义，不如把时间用于祈祷。;;;;;;;;;;x
 EVTDESC_SoA_5036;同其他朝圣者在河边扎营，你注意到一些人正在上游修桥，过去看的时候，桥拱已经搭了一半，负责人见你如此有兴趣，过来和你聊起了这次用到的建造技术。;;;;;;;;;;x
 EVTOPTA_SoA_5036;很好，告诉我更多。;;;;;;;;;;x
 EVTOPTB_SoA_5036;雕虫小技。;;;;;;;;;;x
 EVTDESC_SoA_5037;旅程漫长而艰辛，你感到腰酸背痛，离开了城堡的厨房你都不知道什么能吃，最该死的是这刺骨的寒冷。你不确定是不是要停止这次朝圣。;;;;;;;;;;x
-EVTOPTA_SoA_5037;天父会保佑我。;;;;;;;;;;x
+EVTOPTA_SoA_5037;我的信念会让我度过难关。;;;;;;;;;;x
 EVTOPTB_SoA_5037;也许这是个坏主意，我要停下来歇会儿。;;;;;;;;;;x
 EVTDESC_SoA_5038;朝圣的旅途中，你经过一个小村，一个老妇径直走过来。她知道你是朝圣者，她的家里离你要去的地方很近，希望你能给家人捎一大笔钱改善生活。;;;;;;;;;;x
 EVTOPTA_SoA_5038;没问题，我乐意效劳。;;;;;;;;;;x
@@ -711,35 +711,35 @@ gain_friend;[Root.GetTitledName]交了一个朋友。;;;;;;;;;;x
 EVTDESC_SoA_5087;你与[From.GetTitledName]成为了朋友。;;;;;;;;;;x
 EVTOPTA_SoA_5087;太好了！;;;;;;;;;;x
 EVTNAME_SoA_5050;坎特伯雷;;;;;;;;;;x
-EVTDESC_SoA_5050;你终于到达了坎特伯雷！它位于英格兰东南部肯特郡的斯图尔河流域，城镇和周边的草地上聚集了来自欧洲各地的朝圣者，你挤进喧嚣的人群，迫不及待的想见证宏伟的大教堂和殉道者托马斯.贝克特的雕像，据说他就是在圣堂里被残杀的。;;;;;;;;;;x
+EVTDESC_SoA_5050;你终于到达了坎特伯雷！它位于英格兰东南部肯特郡的斯图尔河流域，城镇和周边的草地上聚集了来自欧洲各地的朝圣者，你挤进喧嚣的人群，迫不及待的想见证宏伟的大教堂和殉道者托马斯·贝克特的雕像，据说他就是在圣堂里被残杀的。;;;;;;;;;;x
 EVTOPTA_SoA_5050;真是个好地方！;;;;;;;;;;x
 EVTNAME_SoA_5051;耶路撒冷;;;;;;;;;;x
 EVTDESC_SoA_5051;你终于抵达了耶路撒冷！从橄榄山经过，进入城门的时刻，你再也压抑不住内心的激动，一路的艰辛都是值得的。城里有各种的肤色和不同信仰的人，空气中弥漫着神秘的香料和奇花异草的味道。你在人畜如流的街上穿行，离「苦难之旅」和其他的伟大圣迹如此之近，光想到这点就让你兴奋不已。你本打算再去伯利恒瞻仰诞生地教堂，但当务之急是找一处合适的地方住下来，毕竟你也不想睡在马厩，不是吗？;;;;;;;;;;x
 EVTOPTA_SoA_5051;噢，耶路撒冷，耶路撒冷！;;;;;;;;;;x
 EVTNAME_SoA_5052;科隆;;;;;;;;;;x
-EVTDESC_SoA_5052;你终于抵达了科隆！「三王遗迹」所在的宏伟大教堂虽然正在施工，仍令人印象深刻。科隆坐落在奔腾的莱茵河畔，来往商旅及朝圣者川流不息。;;;;;;;;;;x
-EVTOPTA_SoA_5052;我要在三王圣坛前祈祷！;;;;;;;;;;x
+EVTDESC_SoA_5052;你终于抵达了科隆！「三王圣龛」所在的宏伟大教堂虽然正在施工，仍令人印象深刻。科隆坐落在奔腾的莱茵河畔，来往商旅及朝圣者川流不息。;;;;;;;;;;x
+EVTOPTA_SoA_5052;我要在三王圣龛前祈祷！;;;;;;;;;;x
 EVTNAME_SoA_5053;罗马;;;;;;;;;;x
-EVTDESC_SoA_5053;你终于抵达了罗马!甫一步入这座不朽之城，你立即被眼前众多的古老建筑和纪念碑所深深震撼。遥想最初的使徒来此传道，罗马的权势正如日中天，他们作何想呢？尽管有大片荒废的城区，罗马城沿台伯河两岸聚居的庞大人口值得称道。除了圣彼得大教堂和圣保罗大教堂，一些早期的圣所和殉道者遗迹也值得一看。在人流纷至、交通堵塞之前，赶紧先去市中心吧。;;;;;;;;;;x
+EVTDESC_SoA_5053;你终于抵达了罗马！甫一步入这座不朽之城，你立即被眼前众多的古老建筑和纪念碑所深深震撼。遥想最初的使徒来此传道，罗马的权势正如日中天，他们作何想呢？尽管有大片荒废的城区，罗马城沿台伯河两岸聚居的庞大人口值得称道。除了圣彼得大教堂和圣保罗大教堂，一些早期的圣所和殉道者遗迹也值得一看。在人流纷至、交通堵塞之前，赶紧先去市中心吧。;;;;;;;;;;x
 EVTOPTA_SoA_5053;条条大道通罗马！;;;;;;;;;;x
 EVTNAME_SoA_5054;圣地亚哥;;;;;;;;;;x
 EVTDESC_SoA_5054;你终于抵达了圣地亚哥——西欧最古老的朝圣地！这是一个靠近大西洋的内陆城镇，历史至少能追溯到罗马帝国时期。沿家寓户晓的圣詹姆斯之路走来，你都记不清经过了多少村镇，这旅途可真长！\n\n一些圣物——如圣詹姆斯的遗骨——本应经海路从耶路撒冷移来此处，不幸船队遭受风暴，散佚大海，而后竟又奇迹般地包裹在扇贝里，被海浪冲上沙滩。就这样，贝壳成了朝圣者们追捧的纪念品。\n\n你对圣地的种种圣迹铭感于心，穿过人群向城中心走去。;;;;;;;;;;x
 EVTOPTA_SoA_5054;我得带点贝壳回家！;;;;;;;;;;x
 EVTNAME_SoA_5097;君士坦丁堡;;;;;;;;;;x
 EVTDESC_SoA_5097;你终于抵达了君士坦丁堡！这座巨城的规模之大，让你有生以来见过的所有城市都相形见绌。人群的喧嚣声，小贩的叫卖声，空气中弥漫的各种气味，它们纷至沓来，压倒了你的所有感官，你都无法思考了。你在人群中穿行，寻找过夜的去处，一路上所见的古建筑或纪念碑不胜枚举，它们的规模之大、数量之多令你震惊。\n\n拥挤的人潮无法挡住你急切的脚步，你知道自己快见到传说中的圣索菲亚大教堂和圣乔治大教堂了。;;;;;;;;;;x
-EVTOPTA_SoA_5097;啊，好个君士坦丁！;;;;;;;;;;x
+EVTOPTA_SoA_5097;啊，君士坦丁之城！;;;;;;;;;;x
 EVTNAME_SoA_5098;阿克苏姆;;;;;;;;;;x
 EVTDESC_SoA_5098;你终于抵达了阿克苏姆！这是最古老的基督教中心之一，约柜就保存于此——位于僧侣们守护的「郇山的玛丽」教堂中。尽管不复往日荣光，阿克苏姆仍然是朝圣者们重要的聚集地之一，往来的行旅川流不息。;;;;;;;;;;x
 EVTOPTA_SoA_5098;壮哉！古老的阿克苏姆！;;;;;;;;;;x
 EVTNAME_SoA_5099;安条克;;;;;;;;;;x
-EVTDESC_SoA_5099;你终于抵达了安条克！是为最古老的基督教圣城之一，就是在这里人们开始自称「基督徒」。圣彼得、圣保罗以及圣伊格内休斯都曾在此传教。此地亦为最早建立基督教区的地方，它成为范式并逐渐推广到了西方，罗马就是其中典型。\n\n漫步安条克的古老街道，你感觉自己被历史和传统环绕着。;;;;;;;;;;x
+EVTDESC_SoA_5099;你终于抵达了安条克！这里是为最古老的基督教圣城之一，就是在这里人们开始自称「基督徒」。圣伯多禄、圣保禄以及圣依纳爵曾在此传教。此地亦为最早建立基督教区的地方，它成为范式并逐渐推广到了西方，罗马就是其中典型。\n\n漫步安条克的古老街道，你感觉自己被历史和传统环绕着。;;;;;;;;;;x
 EVTOPTA_SoA_5099;伟大的古城！;;;;;;;;;;x
-EVTDESC_SoA_5056;圣地漫步，你沉浸于神性本质和内在的冥思。多年司侍我主的意义从未像现在这么明了。此地馆藏的经传又蕴涵着怎样的智慧啊！;;;;;;;;;;x
+EVTDESC_SoA_5056;你在圣地漫步，沉浸于神性本质和内在的冥思。多年司侍我主的意义从未像现在这么明了。此地馆藏的经传又蕴涵着怎样的智慧啊！;;;;;;;;;;x
 EVTOPTA_SoA_5056;学习是开启天国的钥匙。;;;;;;;;;;x
 EVTOPTB_SoA_5056;不，我宁愿祈祷。;;;;;;;;;;x
 EVTDESC_SoA_5057;圣徒、圣地，它们根植入我的灵魂！我意识到往昔的种种不过为今日而铺垫，主的荣光已照耀我的罪身，我愿永颂他的名。;;;;;;;;;;x
-EVTOPTA_SoA_5057;赞美[Root.Religion.GetRandomGodName]!;;;;;;;;;;x
-EVTDESC_SoA_5058;不远万里朝圣，你现在深感失望，此行所见不过嘈杂的人群，些许教堂和几块来历可疑的骨头，这可和临行前所读的几部朝圣者手记出神入化的描述大相径庭。;;;;;;;;;;x
+EVTOPTA_SoA_5057;赞美[Root.Religion.GetRandomGodName]！;;;;;;;;;;x
+EVTDESC_SoA_5058;你不远万里朝圣，现在深感失望，此行所见不过嘈杂的人群，些许教堂和几块来历可疑的骨头，这可和临行前所读的几部朝圣者手记出神入化的描述大相径庭。;;;;;;;;;;x
 EVTOPTA_SoA_5058;就这？;;;;;;;;;;x
 EVTDESC_SoA_5059;步入圣殿时，你无意听见几位牧师的神学讨论。你为之吸引停步，参与讨论并把话题引向了几个你感兴趣的主题。他们被你的学识折服并极力邀请你为神职人员集中讲道。;;;;;;;;;;x
 EVTOPTA_SoA_5059;我乐意分享知识。;;;;;;;;;;x
