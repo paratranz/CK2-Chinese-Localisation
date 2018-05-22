@@ -1,7 +1,7 @@
 NOT_INTERESTED_IN_ANY_SOCIETY_TRIGGER;目前对社团不感兴趣;;;;;;;;;;x
 INTERESTED_IN_ANY_SOCIETY_TRIGGER;目前对社团感兴趣;;;;;;;;;;x
 reprimanded_merchants;被训斥的商人;;;;;;;;;;x
-reprimanded_merchants_desc;这个领地的商人因为做生意不诚信而失去特权，所以感到不安。;;;;;;;;;;x
+reprimanded_merchants_desc;这个领地的商人因为做生意不诚信而失去特权，所以感到沮丧。;;;;;;;;;;x
 dealing_with_dishonest_traders;处置不法商人;;;;;;;;;;x
 dealing_with_dishonest_traders_desc;这个角色正忙于寻找和劝告商人遵守更严格的行为守则。;;;;;;;;;;x
 defending_vassal_rights;保护封臣权利;;;;;;;;;;x
@@ -23,7 +23,7 @@ EVTOPTB_JD_30011;我要让每个人都知道这件事。;;;;;;;;;;x
 EVTDESC_JD_30012;我注意到[chinese_courtier.GetBestName]过去几周对我的态度越发恶化，今天我不小心脱口而出的考虑不周的话让[chinese_courtier.GetHerHim]大发雷霆，声称天子会知晓这些言语。;;;;;;;;;;x
 EVTOPTA_JD_30012;此举或会恶化我们与[offmap_china.Governor.Offmap.GetShortName]的关系。;;;;;;;;;;x
 EVTOPTB_JD_30012;卫兵逮捕了那个[chinese_courtier.GetManWoman]！;;;;;;;;;;x
-chinese_silk_road_favored_status;请求贸易协定;;;;;;;;;;x
+chinese_silk_road_favored_status;请求互市商约;;;;;;;;;;x
 chinese_silk_road_favored_status_modifier_tt;在 25 年内，§Y[From.PrimaryTitle.GetName]§!领地内的所有贸易站省份得到 §G100%§! 的贸易收入加成。;;;;;;;;;;x
 chinese_imperial_trade_contract;互市商约;;;;;;;;;;x
 MULTIPLICATIVE_TRADE_POST_INCOME_MODIFIER;贸易收入;;;;;;;;;;x
@@ -60,13 +60,13 @@ OFFMAP_HAS_USED_NAME;已使用名称$NAME|Y$;;;;;;;;;;x
 OFFMAP_SET_NAME;更名为$NAME|Y$;;;;;;;;;;x
 IS_OFFMAP_RULER_NOT;不是一名地图外的统治者;;;;;;;;;;x
 IS_OFFMAP_RULER;是一名地图外的统治者;;;;;;;;;;x
-IS_OFFMAP_GOVERNOR_NOT;不是一个地图外头衔的都护;;;;;;;;;;x
-IS_OFFMAP_GOVERNOR;是一个地图外头衔的都护;;;;;;;;;;x
+IS_OFFMAP_GOVERNOR_NOT;不是一个地图外头衔的统治者;;;;;;;;;;x
+IS_OFFMAP_GOVERNOR;不是一个地图外头衔的统治者;;;;;;;;;;x
 ADULT_ONLY;仅成人;;;;;;;;;;x
 OFFMAP_CURRENCY_TRIGGER_NOT;没有$OFFMAP|Y$的$COMPARISON|Y$ $VALUE|Y$ $CURRENCY|Y$;;;;;;;;;;x
 OFFMAP_CURRENCY_TRIGGER;拥有$OFFMAP|Y$的$COMPARISON|Y$ $VALUE|Y$ $CURRENCY|Y$;;;;;;;;;;x
 monthly_grace;每月皇恩值;;;;;;;;;;x
-offmap_full_title;$TITLE$$TIER$;;;;;;;;;;x
+offmap_full_title;$TITLE$ $TIER$;;;;;;;;;;x
 OFFMAP_BOONS;§Y请求恩赐§!;;;;;;;;;;x
 OFFMAP_GIFTS;§Y进贡§!;;;;;;;;;;x
 OFFMAP_TAG_TRIGGER_NOT;不是$OFFMAP|Y$;;;;;;;;;;x
@@ -173,7 +173,7 @@ EVTDESC_JD_20002_A;[Root.GetCouncillorLetterGreeting]。[Root.GetChineseLetterBl
 EVTDESC_JD_20002_B;[Root.GetCouncillorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n为进一步增进我们两国之间的感谢并确保长久安宁的合作关系，[From.Liege.GetMasterMistress]派遣我携带使命来到您的领地，我将拜访您的宫廷并且[From.GetCGMission]。;;;;;;;;;;x
 GetCGMission_diplomatic_visit;与你的外交官讨论政治;;;;;;;;;;x
 GetCGMission_oversee_troops;监督新部队的训练;;;;;;;;;;x
-GetCGMission_study_military;学习军事理论;;;;;;;;;;x
+GetCGMission_study_military;学习你军队的军事理论;;;;;;;;;;x
 GetCGMission_oversee_tax_collection;监督本季的税收;;;;;;;;;;x
 GetCGMission_trade;和你所在的当地商人签订贸易协定;;;;;;;;;;x
 GetCGMission_preaching;向你的臣民传达圣旨;;;;;;;;;;x
