@@ -532,14 +532,14 @@ CHARACTER_CREATED;$TYPE$出现在§Y$EMPLOYER$§!的宫廷。\n;;;;;;;;;;x
 HEALTH_EFFECT;§Y$WHO$§W $DIRECTION$ $VALUE$ 健康。\n;;;;;;;;;;x
 FERTILITY_EFFECT;§Y$WHO$§W $DIRECTION$ $PERC$ 生育能力。\n;;;;;;;;;;x
 CHANGECULTUREEFFECT;§Y$WHERE$§!接受了§Y$NAME$§!。\n;;;;;;;;;;x
-RELIGION_CHANGE;$WHERE$信奉$NAME$。\n;;;;;;;;;;x
+RELIGION_CHANGE;§Y$WHERE$§! 信奉§Y$NAME$§!.\n;;;;;;;;;;x
 ACTIVATE_TITLE_EFFECT;§Y$TITLE$§!现在存在。\n;;;;;;;;;;x
 DEACTIVATE_TITLE_EFFECT;§Y$TITLE$§!不再存在。\n;;;;;;;;;;x
 CHARDEATHEFFECT;§Y$NAME$§!死亡！\n;;;;;;;;;;x
 CURE_ILLNESS_EFFECT;痊愈了！\n;;;;;;;;;;x
 BETROTHAL_EFFECT;$WHO$与$SPOUSE$订婚。\n;;;;;;;;;;x
 BREAK_BETROTHAL_EFFECT;$WHO$撕毁与$SPOUSE$的订婚协议。\n;;;;;;;;;;x
-CREATEHOLDING_EFFECT;连接$NAME$。\n;;;;;;;;;;x
+CREATEHOLDING_EFFECT;启用$NAME$。\n;;;;;;;;;;x
 ALL_PROV_LORDS;所有领主;;;;;;;;;;x
 ALL_PROV_CHARS;所有角色;;;;;;;;;;x
 ALL_COURTIERS;所有廷臣;;;;;;;;;;x
@@ -802,7 +802,7 @@ EVTOPTD2040;为[From.GetHerHis]灵魂而祈祷！;;;;;;;;;;x
 EVTDESC2050;我的 [GetFromRelation] [From.GetFirstName][From.GetHerHis] 按时完成作业  [From.GetHerHis] 的课从不迟到。;;;;;;;;;;x
 EVTOPTA2050;[From.GetSubjectPronounCap] 有一个好老师！;;;;;;;;;;x
 EVTOPTB2050;在宫庭内赞扬[From.GetObjectPronoun]。.;;;;;;;;;;x
-EVTOPTC2050;[Root.Religion.GetRandomGodName]，感谢 [From.GetFirstName]的美德！;;;;;;;;;;x
+EVTOPTC2050;为了[From.GetFirstName]的美德！感谢 [Root.Religion.GetRandomGodName];;;;;;;;;;x
 EVTOPTD2050;那孩子需要放松！;;;;;;;;;;x
 EVTDESC2060;今天我的  [GetFromRelation] [From.GetFirstName]和另一个孩子差点打起来，我不得不强行拉开他们。 [From.GetFirstName]的心里充满着嫉妒……;;;;;;;;;;x
 EVTOPTA2060;其他孩子太自私了;;;;;;;;;;x
@@ -1637,12 +1637,12 @@ EVTOPTC3651;我更愿意请个专业的猎人;;;;;;;;;;x
 EVTDESC3652;即使是我带来的恶犬，听到野猪的尖嚎也畏缩不前，只是威胁地狂吠。;;;;;;;;;;x
 EVTOPTA3652;野猪拼命抵抗，但我们最后还是干掉了它;;;;;;;;;;x
 EVTOPTB3652;我要雇人来做的话，没人会看扁我吧?;;;;;;;;;;x
-EVTDESC3653;野猪临死的哀嚎几里远处都听得到，当[From.GetTitledFirstName]成功完成猎捕回来时我对[From.GetHerHim]致以热情的敬意.厨师抬走野猪，去准备丰盛的筵席去了.;;;;;;;;;;x
+EVTDESC3653;野猪临死的哀嚎几里远处都听得到，当[From.GetTitledFirstName]成功完成猎捕回来时我对[From.GetHerHim]致以热情的敬意.厨师抬走野猪，去准备丰盛的筵席去了。;;;;;;;;;;x
 EVTOPTA3653;[From.GetTitledFirstName]雇了专业的猎人杀死野猪;;;;;;;;;;x
 EVTOPTB3653;[From.GetTitledFirstName]毫发无损地回来了!;;;;;;;;;;x
 EVTOPTC3653;[From.GetTitledFirstName]与野猪搏斗中失去一条胳膊!;;;;;;;;;;x
 EVTOPTD3653;野猪重创[From.GetTitledFirstName]!;;;;;;;;;;x
-EVTDESC3654;我热切地盼望[From.GetTitledFirstName]的归来，但当[From.GetSheHe]没能带着野猪回来时我掩饰不住内心的不满.;;;;;;;;;;x
+EVTDESC3654;我热切地盼望[From.GetTitledFirstName]的归来，但当[From.GetSheHe]没能带着野猪回来时我掩饰不住内心的不满。;;;;;;;;;;x
 EVTOPTA3654;不管什么事都得我亲自去做?!;;;;;;;;;;x
 EVTOPTB3654;让那个没用的[From.GetManWoman]离我远远的!;;;;;;;;;;x
 EVTOPTC3654;现在我必须花钱请一个真正的猎人来做这个「简单」的任务!;;;;;;;;;;x
@@ -1655,27 +1655,27 @@ EVTOPTA3656;[From.GetTitledFirstName]是个彻头彻尾的傻瓜!;;;;;;;;;;x
 EVTTOOLTIP3657;[This.GetTitledFirstName]与「荒野狩猎」;;;;;;;;;;x
 EVTOPTB3656;[From.GetTitledFirstName]吓死我啦!;;;;;;;;;;x
 EVTOPTC3656;你真的打算吓我吗，[From.GetTitledFirstName]?;;;;;;;;;;x
-EVTDESC3657;马厩里没有真正算得上黑的马，所以我们把马涂色，确保身上所有白的地方都涂得乌黑.然后我们都着黑衣，牵来最黑的狗，骑行出去吓唬[From.GetTitledFirstName].;;;;;;;;;;x
-EVTDESC3660;我的诗完全走了样，我想表达的充盈感情一写出来就变得索然无味，只是浪费了一张羊皮纸.这次失败让我连写诗的热情都开始怀疑，就在昨天宫里有位新诗人展示了他卓越的记忆力和笔法，使我倍受打击.;;;;;;;;;;x
+EVTDESC3657;马厩里没有真正算得上黑的马，所以我们把马涂色，确保身上所有白的地方都涂得乌黑.然后我们都着黑衣，牵来最黑的狗，骑行出去吓唬[From.GetTitledFirstName]。;;;;;;;;;;x
+EVTDESC3660;我的诗完全走了样，我想表达的充盈感情一写出来就变得索然无味，只是浪费了一张羊皮纸.这次失败让我连写诗的热情都开始怀疑，就在昨天宫里有位新诗人展示了他卓越的记忆力和笔法，使我倍受打击。;;;;;;;;;;x
 EVTOPTA3660;诗人，把这首诗写的再优美点，快点!;;;;;;;;;;x
 EVTTOOLTIP3661;这位诗人将教授你诗歌的艺术;;;;;;;;;;x
 EVTOPTB3660;诗人，你能帮帮我吗?这首诗糟糕透了!;;;;;;;;;;x
 EVTOPTC3660;钱币的脆响会使他乐于帮我;;;;;;;;;;x
 EVTOPTD3660;作为一个诗人，我可不想让他看低我!;;;;;;;;;;x
-EVTDESC3661;不管我去哪，我都能发现[From.GetTitledFirstName]构思着[From.GetHerHis]又一首未完成的诗.我看到[From.GetTitledFirstName]试着用手撕碎羊皮纸，[From.GetSheHe]也看见了我，于是[From.GetSheHe]招呼我过去并把羊皮纸递给了我.;;;;;;;;;;x
+EVTDESC3661;不管我去哪，我都能发现[From.GetTitledFirstName]构思着[From.GetHerHis]又一首未完成的诗.我看到[From.GetTitledFirstName]试着用手撕碎羊皮纸，[From.GetSheHe]也看见了我，于是[From.GetSheHe]招呼我过去并把羊皮纸递给了我。;;;;;;;;;;x
 EVTOPTA3661;[From.GetSheHe]命我帮助他时我有些恼怒;;;;;;;;;;x
 EVTOPTB3661;[From.GetSheHe]谦恭地请求我的帮助时我觉得很谄媚;;;;;;;;;;x
 EVTTOOLTIP3662;[Root.GetTitledFirstName]帮助[From.GetTitledFirstName]找回了藏在[From.GetHerHim]心中的诗情;;;;;;;;;;x
 EVTOPTC3661;谁能拒绝金钱的脆响?;;;;;;;;;;x
 EVTOPTA3662;没有你的帮助我没法完成它!;;;;;;;;;;x
-EVTDESC4000;一个农民告诉我他家的公猪设法钻进邻家的猪圈并弄死了七只小猪崽.现在他的邻居要求赔偿，但他赔不起，想让我裁决他们的纠纷.;;;;;;;;;;x
+EVTDESC4000;一个农民告诉我他家的公猪设法钻进邻家的猪圈并弄死了七只小猪崽.现在他的邻居要求赔偿，但他赔不起，想让我裁决他们的纠纷。;;;;;;;;;;x
 EVTOPTA4000;他应该赔偿他的邻居;;;;;;;;;;x
 EVTOPTB4000;给邻居四只小猪崽抵债;;;;;;;;;;x
 EVTOPTC4000;一边留一只猪崽，剩下的都归我;;;;;;;;;;x
 EVTDESC4005;强盗在抢劫我不久之后就在[Root.Host.GetTitledFirstName]被逮捕，他被送往[Root.Host.GetHerHis]法庭审判。;;;;;;;;;;x
 EVTOPTA4005;这个贼会得到他应有的惩罚!;;;;;;;;;;x
 EVTTOOLTIP4006;我希望[Root.Liege.GetTitledFirstName]会公正裁决!;;;;;;;;;;x
-EVTDESC4006;当[From.GetTitledFirstName]对证并指控其抢劫时这个贼痛哭流涕，真可怜.;;;;;;;;;;x
+EVTDESC4006;当[From.GetTitledFirstName]对证并指控其抢劫时这个贼痛哭流涕，真可怜。;;;;;;;;;;x
 EVTOPTA4006;他只是个微不足道的小蟊贼;;;;;;;;;;x
 EVTOPTB4006;把他扔进最深的地牢，让他慢慢腐烂!;;;;;;;;;;x
 EVTOPTC4006;绞死他，这是对他最好的教训;;;;;;;;;;x
@@ -1704,7 +1704,7 @@ EVTDESC4015;我的配偶[Root.Spouse.GetTitledFirstName]对我不忠，我确信
 EVTOPTA4015;我该怎么做?;;;;;;;;;;x
 EVTOPTB4015;忽略它也许比较好……;;;;;;;;;;x
 EVTTOOLTIP4016;我应该叫[Root.Host.GetTitledFirstName]来帮我!;;;;;;;;;;x
-EVTDESC4016;[From.GetTitledFirstName]带着[From.GetHerHis]不忠的配偶[From.Spouse.GetTitledFirstName]来到我面前并坚持要我惩罚[From.Spouse.GetHerHim].;;;;;;;;;;x
+EVTDESC4016;[From.GetTitledFirstName]带着[From.GetHerHis]不忠的配偶[From.Spouse.GetTitledFirstName]来到我面前并坚持要我惩罚[From.Spouse.GetHerHim]。;;;;;;;;;;x
 EVTOPTA4016;这简直是在浪费我的时间;;;;;;;;;;x
 EVTTOOLTIP4017;这项争议被忽略;;;;;;;;;;x
 EVTOPTB4016;地牢里关两天对于[From.Spouse.GetHerHim]比较好;;;;;;;;;;x
@@ -1718,15 +1718,15 @@ EVTDESC4018;[Root.Spouse.GetTitledFirstName]因为[Root.Spouse.GetHerHis]不忠�
 EVTOPTA4018;好的;;;;;;;;;;x
 EVTDESC4019;我因为对[Root.Spouse.GetTitledFirstName]不忠而受到惩罚!;;;;;;;;;;x
 EVTOPTA4019;为什么?;;;;;;;;;;x
-EVTDESC4020;偷猎者在[Root.Location.GetName]出没，所以我也许该派我的间谍大臣[Root.job_spymaster.GetTitledFirstName]和我的军务大臣[Root.job_marshal.GetTitledFirstName]前去调查此事.;;;;;;;;;;x
+EVTDESC4020;偷猎者在[Root.Location.GetName]出没，所以我也许该派我的间谍大臣[Root.job_spymaster.GetTitledFirstName]和我的军务大臣[Root.job_marshal.GetTitledFirstName]前去调查此事。;;;;;;;;;;x
 EVTOPTA4020;他们有更重要的事去做;;;;;;;;;;x
 EVTOPTB4020;偷猎者将被消灭!;;;;;;;;;;x
 EVTTOOLTIP4021;间谍大臣[Root.job_spymaster.GetTitledFirstName]和军务大臣[Root.job_marshal.GetTitledFirstName]将搜寻偷猎者;;;;;;;;;;x
-EVTDESC4021;我当场抓住两个偷猎者！两个面黄肌瘦，看起来一顿饱饭没吃过的年轻人，他们手里有两只死兔子，还有一只活兔子掉到陷阱里.;;;;;;;;;;x
+EVTDESC4021;我当场抓住两个偷猎者！两个面黄肌瘦，看起来一顿饱饭没吃过的年轻人，他们手里有两只死兔子，还有一只活兔子掉到陷阱里。;;;;;;;;;;x
 EVTOPTA4021;我应该放他们走;;;;;;;;;;x
 EVTOPTB4021;让[From.GetTitledFirstName]处置他们;;;;;;;;;;x
 EVTTOOLTIP4022;偷猎者被带到[This.GetTitledFirstName]面前;;;;;;;;;;x
-EVTDESC4022;[From.GetTitledFirstName]在我的森林里抓住了两个年轻的偷猎者，他们打了两只兔子，还有只活的掉在陷阱了.;;;;;;;;;;x
+EVTDESC4022;[From.GetTitledFirstName]在我的森林里抓住了两个年轻的偷猎者，他们打了两只兔子，还有只活的掉在陷阱了。;;;;;;;;;;x
 EVTOPTA4022;你亲自来处置;;;;;;;;;;x
 EVTTOOLTIP4023;[This.GetTitledFirstName]被告知偷猎者的惩罚;;;;;;;;;;x
 EVTOPTB4022;他们依法将被绞死;;;;;;;;;;x
@@ -1742,11 +1742,11 @@ EVTOPTC4023;希望他们能吸取耳朵被割的教训;;;;;;;;;;x
 EVTOPTD4023;割掉他们的耳朵？真残暴!;;;;;;;;;;x
 EVTOPTE4023;死掉的偷猎者才是好偷猎者;;;;;;;;;;x
 EVTOPTF4023;杀掉?就为了几只兔子?!;;;;;;;;;;x
-EVTDESC4024;[From.GetTitledFirstName]赞许我对于偷猎者公正的裁决.;;;;;;;;;;x
+EVTDESC4024;[From.GetTitledFirstName]赞许我对于偷猎者公正的裁决。;;;;;;;;;;x
 EVTOPTA4024;很好;;;;;;;;;;x
-EVTDESC4025;[From.GetTitledFirstName]试图抗议对偷猎者的裁决，但为时已晚.[From.GetSheHe]认为我本应表现得更宽容些.;;;;;;;;;;x
+EVTDESC4025;[From.GetTitledFirstName]试图抗议对偷猎者的裁决，但为时已晚.[From.GetSheHe]认为我本应表现得更宽容些。;;;;;;;;;;x
 EVTOPTA4025;我尽力了!;;;;;;;;;;x
-EVTDESC4035;我领地的牛群里莫名其妙地少了一头牛.幸运的是，我的牧场总管查到了偷牛贼.;;;;;;;;;;x
+EVTDESC4035;我领地的牛群里莫名其妙地少了一头牛。幸运的是，我的牧场总管查到了偷牛贼。;;;;;;;;;;x
 EVTOPTA4035;牛已经找回来了，不需要处罚了;;;;;;;;;;x
 EVTOPTB4035;贼人被砍去双手……;;;;;;;;;;x
 EVTOPTC4035;某天我会饶他们一命，但今天我不会.;;;;;;;;;;x
