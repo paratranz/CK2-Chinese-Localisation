@@ -453,8 +453,8 @@ GOODS_CHANGE;$NAME$将会在$WHERE$开始生产。\n;;;;;;;;;;x
 SECEDE_PROVINCE;割让$WHERE$给$WHO$。\n;;;;;;;;;;x
 INHERIT;吞并$WHO$。\n;;;;;;;;;;x
 RELEASE;释放$WHO$。\n;;;;;;;;;;x
-ADDTRAITEFFECT;§Y$WHO$§!获得特质：‘§Y$TRAIT$§!’\n;;;;;;;;;;x
-REMOVETRAITEFFECT;§Y$WHO$§!失去特质：‘§Y$TRAIT$§!’\n;;;;;;;;;;x
+ADDTRAITEFFECT;§Y$WHO$§!获得特质：「§Y$TRAIT$§!」\n;;;;;;;;;;x
+REMOVETRAITEFFECT;§Y$WHO$§!失去特质：「§Y$TRAIT$§!」\n;;;;;;;;;;x
 NEW_GOVERNOR_EFFECT_A;$NEW$成为$WHERE$的总督。\n;;;;;;;;;;x
 NEW_GOVERNOR_EFFECT_B;$WHO$上任$WHERE$的总督。\n;;;;;;;;;;x
 MOVE_CHARACTER;$WHO$来到了$WHERE$。\n;;;;;;;;;;x
@@ -2885,7 +2885,7 @@ EVTDESC290;我决定开始制定 [From.GetProposedLaw]一类的法律.当然这�
 EVTOPTA290;支持;;;;;;;;;;x
 EVTOPTB290;不置可否;;;;;;;;;;x
 EVTDESC291;我决定在[From.GetFullName]实行[From.GetProposedLaw]法. 作为我的封臣你有资格对此事进行表决.\n\n[From.Holder.GetTitledName];;;;;;;;;;x
-EVTDESC292;我决定在[From.GetFullName]实行[From.GetProposedLaw]法。因为这是一个王权法，而你是一名正式的[From.GetName]选侯，虽然你还不是我的封臣，你仍可对此进行表决。\n\n[From.Holder.GetTitledName]";;;;;;;;;;x
+EVTDESC292;我决定在[From.GetFullName]实行[From.GetProposedLaw]法。因为这是一个王权法，而你是一名正式的[From.GetName]选侯，虽然你还不是我的封臣，你仍可对此进行表决。\n\n[From.Holder.GetTitledName];;;;;;;;;;x
 EVTDESC600;[Root.GetName]爆发了叛乱! 农民们揭竿而起，反抗我的「暴政」.;;;;;;;;;;x
 EVTOPTA600;他们怎么敢谋反!;;;;;;;;;;x
 EVTDESC601;[From.GetName]爆发了叛乱!农民们揭竿而起反对 [From.County.Holder.GetTitledName]的暴政. 他们洗劫一切、破坏一切，当然也包括我的田产……;;;;;;;;;;x
@@ -3075,10 +3075,10 @@ EVTOPTB38216;日行一善使人欢愉;;;;;;;;;;x
 EVTDESC38217;[From.GetFirstName]说「我是否能像使唤奴隶一样使唤领地上的农民」;;;;;;;;;;x
 EVTOPTA38217;当然了我的孩子;;;;;;;;;;x
 EVTOPTB38217;闭嘴，罚你关禁闭!;;;;;;;;;;x
-EVTDESC38218;[From.GetFirstName]问 '如果大树倒在没有人的森林里，那它是否会发出声音';;;;;;;;;;x
+EVTDESC38218;[From.GetFirstName]问「如果大树倒在没有人的森林里，那它是否会发出声音」;;;;;;;;;;x
 EVTOPTA38218;好问题，靠自己去想答案吧.;;;;;;;;;;x
 EVTOPTB38218;你应该思考一些更有意义的事情.;;;;;;;;;;x
-EVTDESC38219;[From.GetFirstName]问 '既然我们都要死，为什么生活却还是那么纷乱无常';;;;;;;;;;x
+EVTDESC38219;[From.GetFirstName]问「既然我们都要死，为什么生活却还是那么纷乱无常」;;;;;;;;;;x
 EVTOPTA38219;我觉得你是对的……;;;;;;;;;;x
 EVTOPTB38219;生活不是充满乐趣么;;;;;;;;;;x
 EVTDESC38221;人们都以为[From.GetFullName]去学刺绣了，其实她是去玩她的胸针了. 对于女孩来说，她的剑术其实还算不错的.;;;;;;;;;;x
@@ -5476,7 +5476,7 @@ EVTOPTB20441;被他们重伤后我成功逃脱了！;;;;;;;;;;x
 EVTOPTC20441;我试图逃开但现在我看到他们到处都是！;;;;;;;;;;x
 EVTOPTD20441;救命！;;;;;;;;;;x
 EVTTOOLTIP20443;[Root.GetTitledName]被袭击者杀死了;;;;;;;;;;x
-EVTDESC20442;'领主大人，我被袭击了...'沾满污渍的纸条上的字迹难辨，显然[From.GetTitledName]在被袭击之后写下了这封信，我仔细查看想看清元帅在纸上写了什么，几个单词被认了出来：;;;;;;;;;;x
+EVTDESC20442;「领主大人，我被袭击了……」\n沾满污渍的纸条上的字迹难辨，显然[From.GetTitledName]在被袭击之后写下了这封信，我仔细查看想看清元帅在纸上写了什么，几个单词被认了出来：;;;;;;;;;;x
 EVTOPTA20442;……残废……  ……贵族名叫……  老天??;;;;;;;;;;x
 EVTOPTB20442;……受伤…… 只是受伤? 切！;;;;;;;;;;x
 EVTOPTC20442;这封信让[From.GetTitledName]发狂;;;;;;;;;;x
@@ -8191,7 +8191,7 @@ b_osa;奥萨;;;;;;;;;;x
 b_chastye;查斯德;;;;;;;;;;x
 b_usttuntor;乌斯季鞑靼;;;;;;;;;;x
 b_krmayak;克尔马亚科;;;;;;;;;;x
-b_pal;巴利亚基';;;;;;;;;;x
+b_pal;巴利亚基;;;;;;;;;;x
 b_uymuzh;乌木奇;;;;;;;;;;x
 b_belyaevka;别亚夫加;;;;;;;;;;x
 b_pakli;巴克列;;;;;;;;;;x
@@ -16305,7 +16305,7 @@ SU_MORALE;士气;;;;;;;;;;x
 SU_OFF;攻击;;;;;;;;;;x
 SU_DEF;防御;;;;;;;;;;x
 UNIT_TYPE_VERSUS;对$NAME$：$COL$ $EFFICIENCY$%;;;;;;;;;;x
-ENABLE_COMBAT_EVENT;开启战斗事件'$WHICH$'.\n;;;;;;;;;;x
+ENABLE_COMBAT_EVENT;开启战斗事件「$WHICH$」。\n;;;;;;;;;;x
 RALLY;重整;;;;;;;;;;x
 ENVELOPE;包围;;;;;;;;;;x
 WEDGE;楔子;;;;;;;;;;x
@@ -16593,7 +16593,7 @@ EVTDESC7110;今天午餐时间我的[Root.GetChancellorName]突然闯进门.\n\n
 EVTOPTA7110;哦不！多么可怕的消息……;;;;;;;;;;x
 EVTDESC7115;今天早上我的[Root.GetChancellorName]突然闯了进来.\n\n「我的$HONORIFIC$，大事不好！$AMBITION_TARGET_NAME$被发现死在楼梯下面，摔断了脖子！显然$AMBITION_HE_SHE$从上面滑了下来……」;;;;;;;;;;x
 EVTOPTA7115;天哪！太悲剧了……;;;;;;;;;;x
-EVTDESC7120;今天下午我的[Root.GetChancellorName]突然脸色苍白的闯进门.\n\n'坏消息，我的$HONORIFIC$！$AMBITION_TARGET_NAME$在骑马外出的时候被强盗攻击和抢劫！没有一点怜悯心，他们杀死了$AMBITION_HIM_HER$并把$AMBITION_HIS_HER$尸体留在路边……」;;;;;;;;;;x
+EVTDESC7120;今天下午我的[Root.GetMyChancellorName]突然脸色苍白的闯进门。\n\n「坏消息，我的$HONORIFIC$！$AMBITION_TARGET_NAME$在骑马外出的时候被强盗攻击和抢劫！没有一点怜悯心，他们杀死了$AMBITION_HIM_HER$并把$AMBITION_HIS_HER$尸体留在路边……」;;;;;;;;;;x
 EVTOPTA7120;这个世界怎么了……;;;;;;;;;;x
 EVTDESC7125;今天早上，$AMBITION_TARGET_NAME$浑身僵硬地被人发现.显然$AMBITION_HE_SHE$昨晚死于疾病，尽管并没有人知道$AMBITION_HE_SHE$生病了……;;;;;;;;;;x
 EVTOPTA7125;哦，我会多么的思念$AMBITION_HIM_HER$啊……;;;;;;;;;;x
@@ -18819,9 +18819,9 @@ arbitrary_desc;此人对公平不屑一顾，封臣和廷臣们对此并不欣�
 incapable;无能;;;;;;;;;;x
 incapable_desc;由于年事已高，头部受伤或是精神失常，此人无法承担正常工作.无能的统治者必须由他人摄政;;;;;;;;;;x
 lustful;欲望;;;;;;;;;;x
-lustful_desc;欲望，即'Luxuria'，人最初的原罪，正在灼烧着此人.沉浸肉欲将为宗教人士所唾弃，也会对除了床上技巧之外的其他技能产生消极影响……;;;;;;;;;;x
+lustful_desc;欲望，即「Luxuria」，人最初的原罪，正在灼烧着此人.沉浸肉欲将为宗教人士所唾弃，也会对除了床上技巧之外的其他技能产生消极影响……;;;;;;;;;;x
 chaste;忠贞;;;;;;;;;;x
-chaste_desc;忠贞，即'Castitas'，是七种美德之首.忠贞之人因其德行而广受称赞，不大可能发生出轨行为.;;;;;;;;;;x
+chaste_desc;忠贞，即「Castitas」，是七种美德之首。忠贞之人因其德行而广受称赞，不大可能发生出轨行为。;;;;;;;;;;x
 proud;骄傲;;;;;;;;;;x
 proud_desc;骄傲，即「Superbia」，是人的七宗罪之一。不过，骄傲之人往往野心勃勃，会为了提高威望而更加努力工作。;;;;;;;;;;x
 humble;谦卑;;;;;;;;;;x
@@ -18831,7 +18831,7 @@ honest_desc;此人并不擅长撒谎，视诚实的价值高于一切.对于间�
 deceitful;狡诈;;;;;;;;;;x
 deceitful_desc;此人天生狡诈，擅长玩弄他人于鼓掌之间.对于间谍总管来说这难能可贵……只要他们能对自己领主保持忠诚.;;;;;;;;;;x
 gluttonous;暴食;;;;;;;;;;x
-gluttonous_desc;暴食，即'Gula'，在七宗罪中位居次席，对人毫无积极影响.教士鄙视暴食者，异性也是如此.;;;;;;;;;;x
+gluttonous_desc;暴食，即「Gula」，在七宗罪中位居次席，对人毫无积极影响。教士鄙视暴食者，异性也是如此。;;;;;;;;;;x
 ambitious;野心勃勃;;;;;;;;;;x
 ambitious_desc;野心勃勃的人工作更勤奋，在各领域都能出类拔萃.不过，他们永不满足的野心意味着他们不会是称职的封臣……;;;;;;;;;;x
 content;安于现状;;;;;;;;;;x
@@ -18937,7 +18937,7 @@ imbecile_desc;此人是个流着口水的低能儿.;;;;;;;;;;x
 homosexual;同性恋;;;;;;;;;;x
 homosexual_desc;此人的性趣有些古怪……;;;;;;;;;;x
 celibate;独身主义者;;;;;;;;;;x
-celibate_desc;这个人选择了独身主义的生活方式;;;;;;;;;;x
+celibate_desc;这个人选择了独身主义的生活方式。;;;;;;;;;;x
 hedonist;享乐主义者;;;;;;;;;;x
 hedonist_desc;此人纵情酒色，选择了充满原罪的生活道路.教会不会喜欢这样的……;;;;;;;;;;x
 scholar;学者;;;;;;;;;;x
@@ -19414,12 +19414,12 @@ ANY_REALM_CHAR_STARTS;任何领地角色;;;;;;;;;;x
 ANY_VASSAL_STARTS;有封臣;;;;;;;;;;x
 ANY_LIEGE_STARTS;有领主;;;;;;;;;;x
 ANY_WAR_STARTS;处于战争;;;;;;;;;;x
-HAD_CHAR_FLAG_LESS_THAN;拥有标志 '§Y$FLAG$§!' 少于 §Y$DAYS$§! 天;;;;;;;;;;x
-HAD_CHAR_FLAG_AT_LEAST;拥有标志 '§Y$FLAG$§!' 至少 §Y$DAYS$§! 天;;;;;;;;;;x
-HAD_GLOBAL_FLAG_LESS_THAN;拥有全局标志 '§Y$FLAG$§!' 少于 §Y$DAYS$§! 天;;;;;;;;;;x
-HAD_GLOBAL_FLAG_AT_LEAST;拥有全局标志 '§Y$FLAG$§!' 至少 §Y$DAYS$§! 天;;;;;;;;;;x
-HAD_PROVINCE_FLAG_LESS_THAN;拥有标志 '§Y$FLAG$§!' 少于 §Y$DAYS$§! 天;;;;;;;;;;x
-HAD_PROVINCE_FLAG_AT_LEAST;拥有标志 '§Y$FLAG$§!' 至少 §Y$DAYS$§! 天;;;;;;;;;;x
+HAD_CHAR_FLAG_LESS_THAN;拥有标志 「§Y$FLAG$§!」少于 §Y$DAYS$§! 天;;;;;;;;;;x
+HAD_CHAR_FLAG_AT_LEAST;拥有标志「§Y$FLAG$§!」至少 §Y$DAYS$§! 天;;;;;;;;;;x
+HAD_GLOBAL_FLAG_LESS_THAN;拥有全局标志「§Y$FLAG$§!」少于 §Y$DAYS$§! 天;;;;;;;;;;x
+HAD_GLOBAL_FLAG_AT_LEAST;拥有全局标志「§Y$FLAG$§!」至少 §Y$DAYS$§! 天;;;;;;;;;;x
+HAD_PROVINCE_FLAG_LESS_THAN;拥有标志「§Y$FLAG$§!」少于 §Y$DAYS$§! 天;;;;;;;;;;x
+HAD_PROVINCE_FLAG_AT_LEAST;拥有标志「§Y$FLAG$§!」至少 §Y$DAYS$§! 天;;;;;;;;;;x
 HAVE_GLOBAL_FLAG;拥有该全局标志;;;;;;;;;;x
 HAVE_NOT_GLOBAL_FLAG;没有该全局标志;;;;;;;;;;x
 EXTRA_LANDED_TITLES_FEWER_THAN;少于 §Y$NUM$§! 额外头衔;;;;;;;;;;x
@@ -19440,8 +19440,8 @@ IMPRISONED_FEWER_DAYS_THAN;囚禁天数少于;;;;;;;;;;x
 IMPRISONED_DAYS_AT_LEAST;囚禁天数至少;;;;;;;;;;x
 HAS_NOT_A_HIGHER_TECH_THAN;科技等级不高于;;;;;;;;;;x
 HAS_A_HIGHER_TECH_THAN;科技等级高于;;;;;;;;;;x
-AT_WAR_USING_CB_NOT;在战争中未使用 '§Y$CASUSBELLITYPE$'§!的战争理由;;;;;;;;;;x
-AT_WAR_USING_CB;在战争中使用 '§Y$CASUSBELLITYPE$'§!的战争理由;;;;;;;;;;x
+AT_WAR_USING_CB_NOT;在战争中未使用「§Y$CASUSBELLITYPE$§!」的战争理由;;;;;;;;;;x
+AT_WAR_USING_CB;在战争中使用「§Y$CASUSBELLITYPE$§!」的战争理由;;;;;;;;;;x
 IS_NOT_ILL;未生病;;;;;;;;;;x
 IS_ILL;生病;;;;;;;;;;x
 LOWER_TECH_LEVEL_THAN;§Y$TECH$§! 等级低于 §Y$NUM$§!;;;;;;;;;;x
