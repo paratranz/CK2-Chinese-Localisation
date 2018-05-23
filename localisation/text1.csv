@@ -48,7 +48,7 @@ AIREASON_NOT_NEIGHBOR;距离太远;;;;;;;;;;x
 AIREASON_INFERTILE;未必能生育;;;;;;;;;;x
 alert_casus_belli_will_expire_instant;§Y临时宣战借口针对：§!;;;;;;;;;;x
 alert_casus_belli_will_expire_delayed;$LIST$。;;;;;;;;;;x
-alert_build_province_improvement_instant;§Y你能建设郡里的提升设施！§!;;;;;;;;;;x
+alert_build_province_improvement_instant;§Y你能建设省份里的提升设施！§!;;;;;;;;;;x
 alert_build_province_improvement_delayed;$LIST$;;;;;;;;;;x
 alert_troops_in_foreign_territory_instant;§Y你在外国领地有军队。§!;;;;;;;;;;x
 alert_troops_in_foreign_territory_delayed;在 $LIST$。;;;;;;;;;;x
@@ -123,15 +123,15 @@ ca_culture_italian_1;枪兵训练场;;;;;;;;;;x
 ca_culture_italian_2;枪兵训练场;;;;;;;;;;x
 ca_culture_italian_3;枪兵训练场;;;;;;;;;;x
 ca_culture_italian_4;枪兵训练场;;;;;;;;;;x
-ca_culture_russian_1;亲卫骑兵训练场;;;;;;;;;;x
-ca_culture_russian_2;亲卫骑兵训练场;;;;;;;;;;x
-ca_culture_russian_3;亲卫骑兵训练场;;;;;;;;;;x
-ca_culture_russian_4;亲卫骑兵训练场;;;;;;;;;;x
+ca_culture_russian_1;伙伴卫队训练场;;;;;;;;;;x
+ca_culture_russian_2;伙伴卫队训练场;;;;;;;;;;x
+ca_culture_russian_3;伙伴卫队训练场;;;;;;;;;;x
+ca_culture_russian_4;伙伴卫队训练场;;;;;;;;;;x
 city_barracks;民兵军营;;;;;;;;;;x
 city_barracks_2;扩大的民兵军营;;;;;;;;;;x
 city_stable;民兵马厩;;;;;;;;;;x
 ct_marketplace_1;市集;;;;;;;;;;x
-ct_marketplace_2;同业行会;;;;;;;;;;x
+ct_marketplace_2;城市同业行会;;;;;;;;;;x
 ct_marketplace_3;收费站;;;;;;;;;;x
 ct_marketplace_4;法院;;;;;;;;;;x
 ct_marketplace_5;货币检验所;;;;;;;;;;x
@@ -140,14 +140,14 @@ tp_monastery_1;修道院;;;;;;;;;;x
 tp_monastery_2;庇护所;;;;;;;;;;x
 tp_monastery_3;小堂;;;;;;;;;;x
 tp_monastery_4;圣堂;;;;;;;;;;x
-tp_monastery_5;坐堂;;;;;;;;;;x
+tp_monastery_5;座堂;;;;;;;;;;x
 tp_monastery_6;大殿;;;;;;;;;;x
-tp_town_1;村落;;;;;;;;;;x
-tp_town_2;小镇;;;;;;;;;;x
-tp_town_3;城市;;;;;;;;;;x
-tp_town_4;堂区;;;;;;;;;;x
-tp_town_5;铎区;;;;;;;;;;x
-tp_town_6;教区;;;;;;;;;;x
+tp_town_1;教堂市镇;;;;;;;;;;x
+tp_town_2;教堂市镇;;;;;;;;;;x
+tp_town_3;教堂市镇;;;;;;;;;;x
+tp_town_4;教堂市镇;;;;;;;;;;x
+tp_town_5;教堂市镇;;;;;;;;;;x
+tp_town_6;教堂市镇;;;;;;;;;;x
 GIVEN_GOLD;$NAME$收到 $GOLD$¤;;;;;;;;;;x
 CB_NAME_CLAIM;宣称[Title.GetBaseName];;;;;;;;;;x
 WAR_NAME_CLAIM;$ORDER$$FIRST_ADJ$夺取$OTHER_TITLE$战争;;;;;;;;;;x
@@ -155,8 +155,8 @@ CB_NAME_SENIORITY_SUCCESSION_LAW;年长者继承法;;;;;;;;;;x
 WAR_NAME_SENIORITY_SUCCESSION_LAW;$ORDER$$SECOND_ADJ$年长者继承法内战;;;;;;;;;;x
 CB_NAME_PRIMOGENITURE_SUCCESSION_LAW;长子继承法;;;;;;;;;;x
 WAR_NAME_PRIOGENITURE_SUCCESSION_LAW;$ORDER$$SECOND_ADJ$长子继承法内战;;;;;;;;;;x
-CB_NAME_FEUDAL_ELECTIVE_SUCCESSION_LAW;选举继承法;;;;;;;;;;x
-WAR_NAME_FEUDAL_ELECTIVE_SUCCESSION_LAW;$ORDER$$SECOND_ADJ$选举继承法内战;;;;;;;;;;x
+CB_NAME_FEUDAL_ELECTIVE_SUCCESSION_LAW;选举君主制继承法;;;;;;;;;;x
+WAR_NAME_FEUDAL_ELECTIVE_SUCCESSION_LAW;$ORDER$$SECOND_ADJ$选举君主制内战;;;;;;;;;;x
 CB_NAME_RELIGIOUS;[Title.GetBaseName]圣战;;;;;;;;;;x
 WAR_NAME_RELIGIOUS;$ORDER$$FIRST_ADJ$对$OTHER_TITLE$圣战;;;;;;;;;;x
 CB_NAME_CRUSADE;[Title.GetBaseName]$HOLY_WAR$;;;;;;;;;;x
@@ -180,7 +180,7 @@ WAR_NAME_CLAIM_LIEGE;$ATTACKER$为$ORDER$夺取$OTHER_TITLE$战争;;;;;;;;;;x
 claim_desc;§Y$CLAIMANT$§!可以用这个宣战理由夺取§Y$TITLE$§!;;;;;;;;;;x
 claim_on_liege_desc;§Y$CLAIMANT$§!可以用这个宣战理由夺取§Y$TITLE$§!;;;;;;;;;;x
 other_claim_on_liege_desc;§Y$PRESSER$§!可以用这个宣战理由帮§Y$CLAIMANT$§!夺取§Y$TITLE$§!;;;;;;;;;;x
-invasion_desc;§Y$CLAIMANT$§!有权利入侵§Y$TITLE$§!。如果成功，可以夺取这个头衔下辖的所有领地。;;;;;;;;;;x
+invasion_desc;§Y$CLAIMANT$§!有权利入侵§Y$TITLE$§!。如果成功，所有正被占领地产的头衔都将被夺取。;;;;;;;;;;x
 excommunicated_ruler_desc;§Y$TARGET$§!已被绝罚，这是个很难得的战争理由！;;;;;;;;;;x
 bid_for_independence_desc;§Y$CLAIMANT$§!可以试图从§Y$TARGET$§!的统治下独立;;;;;;;;;;x
 overthrow_ruler_desc;§Y$TARGET$§!未能成功拘禁§Y$CLAIMANT$§!，引发了一场武装冲突;;;;;;;;;;x
@@ -216,7 +216,7 @@ YOU;你;;;;;;;;;;x
 CHARACTER_TOOLTIP;§Y[GetBestName]§!§P[GetHumanNameLine]§!§G[GetPlayerRelation]§!\n[GetHighestTitles];;;;;;;;;;x
 CHARACTER_TOOLTIP_DELAYED;[GetStatusInfo];;;;;;;;;;x
 no_tactic;无战术;;;;;;;;;;x
-generic_skirmish_tactic;普通射击战术;;;;;;;;;;x
+generic_skirmish_tactic;普通散兵战术;;;;;;;;;;x
 harass_tactic;骚扰战术;;;;;;;;;;x
 volley_tactic;齐射战术;;;;;;;;;;x
 swarm_volley_tactic;蜂群齐射战术;;;;;;;;;;x
@@ -228,10 +228,10 @@ charge_of_opportunity_tactic;时机冲锋;;;;;;;;;;x
 charge_tactic;冲锋战术;;;;;;;;;;x
 wait_tactic;等待战术;;;;;;;;;;x
 advance_tactic;推进战术;;;;;;;;;;x
-awesome_advance_tactic;急速推进;;;;;;;;;;x
+awesome_advance_tactic;绝佳推进战术;;;;;;;;;;x
 stand_fast_tactic;固守战术;;;;;;;;;;x
 slow_advance_tactic;缓慢推进;;;;;;;;;;x
-barrage_tactic;弹幕战术;;;;;;;;;;x
+barrage_tactic;阻拦射击战术;;;;;;;;;;x
 raid_tactic;突袭战术;;;;;;;;;;x
 pursue_tactic;追击战术;;;;;;;;;;x
 CHAR_BORN_AND_DEATH_DATE;[GetBornAndDeathDate];;;;;;;;;;x
@@ -316,7 +316,7 @@ iberian;伊比利亚文化;;;;;;;;;;x
 byzantine;拜占庭文化;;;;;;;;;;x
 celtic;凯尔特文化;;;;;;;;;;x
 finno_ugric;芬兰-乌戈尔文化;;;;;;;;;;x
-baltic;波罗的文化;;;;;;;;;;x
+baltic;波罗的海文化;;;;;;;;;;x
 altaic;阿尔泰文化;;;;;;;;;;x
 arabic;阿拉伯文化;;;;;;;;;;x
 east_slavic;东斯拉夫文化;;;;;;;;;;x
@@ -360,13 +360,13 @@ DIPLOFLAVOR_FLATTERY_2;祝您平安。;;;;;;;;;;x
 DIPLOFLAVOR_FLATTERY_3;祝您生活平静充实。;;;;;;;;;;x
 tuberculosis;痨病;;;;;;;;;;x
 TUBERCULOSIS_INFO;痨病就是结核病的旧称，得了这病犹如遭受天罚。;;;;;;;;;;x
-TYPHOID_FEVER_INFO;伤寒，也被称作慢性热，正在这个郡蔓延。;;;;;;;;;;x
+TYPHOID_FEVER_INFO;伤寒，也被称作慢性热，正在这个省份蔓延。;;;;;;;;;;x
 TYPHUS_INFO;流行性斑疹伤寒，也被称作露营热，正在蔓延。;;;;;;;;;;x
-BUBONIC_PLAGUE_INFO;那些流浪骑手将黑死病带到了这个郡。;;;;;;;;;;x
+BUBONIC_PLAGUE_INFO;苍白骑士将黑死病带到了这个省份。;;;;;;;;;;x
 measles;麻疹;;;;;;;;;;x
-MEASLES_INFO;麻疹正在这个郡迅速蔓延。;;;;;;;;;;x
+MEASLES_INFO;麻疹正在这个省份迅速蔓延。;;;;;;;;;;x
 small_pox;天花;;;;;;;;;;x
-SMALL_POX_INFO;天花袭击了这个郡，造成将近半数感染者死亡。;;;;;;;;;;x
+SMALL_POX_INFO;天花袭击了这个省份，造成将近半数感染者死亡。;;;;;;;;;;x
 TIMELEFT;剩下 $MONTHS$ 个月;;;;;;;;;;x
 COVERAGE;疫情已经蔓延到 $NUM$ 个省份;;;;;;;;;;x
 PROVINCE_HAS_DISEASE;爆发了$DISEASE$\n;;;;;;;;;;x
@@ -423,7 +423,7 @@ CULTURE_CHANGE;$NEW$成为新的主流文化。\n;;;;;;;;;;x
 BECOME_EMPEROR;你已经加冕称帝。\n;;;;;;;;;;x
 LOSE_EMPEROR;被从皇位废黜。\n;;;;;;;;;;x
 BECOME_ELECTOR;成为选举者。\n;;;;;;;;;;x
-LOSE_ELECTOR;不再是选帝侯。\n;;;;;;;;;;x
+LOSE_ELECTOR;不再是选举者。\n;;;;;;;;;;x
 ADD_IDEA;获得$NEW$理念。\n;;;;;;;;;;x
 REM_IDEA;失去$LOSE$理念。\n;;;;;;;;;;x
 GOV_CHANGE;政体改变为$GOV$;;;;;;;;;;x
@@ -2577,7 +2577,7 @@ EVTDESC280;我接受您那光荣的邀请，并立即前往您的宫廷任职!;;
 EVTDESC281;我不能背弃我现在的主君去您那供职.;;;;;;;;;;x
 EVTDESC282;我接受你的臣从，从今天起，你将作为我的封臣而受到保护.;;;;;;;;;;x
 EVTDESC283;你的请求很诱人，但我还是不能接受你的臣从.;;;;;;;;;;x
-EVTDESC284;我很乐意收回对[Root.GetTitledFirstName]的破门令并允许 [Root.GetObjectPronoun] 回到教会的怀抱中!;;;;;;;;;;x
+EVTDESC284;我很乐意收回对[Root.GetTitledFirstName]的绝罚并允许 [Root.GetObjectPronoun]回到教会的怀抱中！;;;;;;;;;;x
 EVTDESC285;恐怕[Root.GetTitledFirstName]的劣行依然是他回归圣母怀抱中的障碍.;;;;;;;;;;x
 EVTDESC286;我当然会接受这么一大笔赎金. [Root.GetTitledFirstName]自由了!;;;;;;;;;;x
 EVTDESC287;我恐怕无法接受你的请求. [Root.GetTitledFirstName]被我关着更好.;;;;;;;;;;x
@@ -2698,7 +2698,7 @@ EVTTOOLTIP38021;当教规被打破时候，教会不会袖手旁观.;;;;;;;;;;x
 EVTDESC38021;[From.GetTitledFirstName]这个罪人应当下地狱！基督教世界和历史将不会容忍这种罪行，这个强夺教产的卑鄙无耻之徒必将受到破门严惩!;;;;;;;;;;x
 EVTOPTA38021;[From.GetSheHeCap] 被上帝所诅咒!;;;;;;;;;;x
 EVTOPTB38021;耶稣说过要宽恕罪人!;;;;;;;;;;x
-EVTTOOLTIP38022;[This.GetTitledFirstName] 遭到破门惩戒，因为圣父听说了[From.GetSheHe] 的罪行.;;;;;;;;;;x
+EVTTOOLTIP38022;[This.GetTitledFirstName] 遭到绝罚，因为圣父听说了[From.GetSheHe] 的罪行。;;;;;;;;;;x
 EVTDESC38022;圣父的使者来到我们的宫廷，宣布我们被任何神圣的事物拒斥。我们被绝罚了！;;;;;;;;;;x
 EVTOPTA38022;我已遭到了上帝的审判……;;;;;;;;;;x
 EVTDESC38050;致[Root.GetTitledFirstName] 自 [From.GetTitledFirstName].  [From.PrimaryTitle.GetFullName]的雇佣军在拿钱的情况下是忠诚的. 但仅仅是在拿钱的情况下，[Root.PrimaryTitle.GetFOA]并不是你的下属.所以我们决定从你的国库里把你欠我们的钱拿回来，当然，要用一点暴力.;;;;;;;;;;x
@@ -3482,7 +3482,7 @@ EVTDESC8700;几个欧洲王国为了击退异教徒正在与开战，并且试�
 EVTOPTA8700;我会送出一份提议;;;;;;;;;;x
 EVTDESC8702;[From.GetTitledName]已经和善的为我们让出了[Root.County.GetFullName].现在，条顿骑士团就可以高效地同这一地区的野蛮人战斗了.;;;;;;;;;;x
 EVTNAME8703;条顿骑士团;;;;;;;;;;x
-EVTDESC8703;做为一种防御[FromFrom.PrimaryTitle.GetName]抵抗异教徒进攻的努力，[FromFrom.GetTitledFirstName]赐予条顿骑士团[From.County.GetFullName]。这个郡从未被完全殖民过，仍然还有很多异教徒。这个高贵的姿态能够帮助保卫[FromFrom.PrimaryTitle.GetName]处于危险中的前线以及推进针对异教徒的圣战。;;;;;;;;;;x
+EVTDESC8703;做为一种防御[FromFrom.PrimaryTitle.GetName]抵抗异教徒进攻的努力，[FromFrom.GetTitledFirstName]赐予条顿骑士团[From.County.GetFullName]。这个省份从未被完全殖民过，仍然还有很多异教徒。这个高贵的姿态能够帮助保卫[FromFrom.PrimaryTitle.GetName]处于危险中的前线以及推进针对异教徒的圣战。;;;;;;;;;;x
 EVTDESC8800;管它什么神圣的骑士团，我不会让任何外国势力在我的领土上建起一座建筑.\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA8800;太过分了！;;;;;;;;;;x
 EVTDESC65000;指挥一整支分队的压力让我崩溃.我不得不指挥的这些人是一群懒惰的饭桶士兵，但是我一直忍受着他们的无能，直到他们中的一个弄丢了我的马笼头和马鞍.这是最后一次，然后我……;;;;;;;;;;x
@@ -3644,9 +3644,9 @@ EVTDESC8450;看起来[Root.Liege.GetTitledName]已经决定不参加十字军，
 EVTOPTA8450;让[Root.Liege.GetHerHim]知道这件事;;;;;;;;;;x
 EVTDESC8455;我的领主，\n我对您做出不参加正在进行的十字军远征的决定感到十分失望.\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA8455;[From.GetSheHe]怎么敢质疑我的决定;;;;;;;;;;x
-EVTDESC8900;异教徒们已经越过边境开始袭击[Root.GetName]郡！;;;;;;;;;;x
+EVTDESC8900;异教徒们已经越过边境开始袭击[Root.GetName]省份！;;;;;;;;;;x
 EVTOPTA8900;该死的异教徒！;;;;;;;;;;x
-EVTDESC8905;受到在边境地区袭击成功的鼓舞，异教徒们已经继续推进并且开始洗劫[Root.GetName]郡！;;;;;;;;;;x
+EVTDESC8905;受到在边境地区袭击成功的鼓舞，异教徒们已经继续推进并且开始洗劫[Root.GetName]省份！;;;;;;;;;;x
 EVTOPTA8905;愿主怜悯我们……;;;;;;;;;;x
 EVTDESC63010;我想出了一个绝妙的计划来除去我痛恨的对手！;;;;;;;;;;x
 EVTOPTA63010;把我的「证据」提交给我的领主;;;;;;;;;;x
@@ -3735,7 +3735,7 @@ EVTOPTA8466;撤销其绝罚;;;;;;;;;;x
 EVTDESC8467;我已经接到你参加十字军作为忏悔的决定，兹免除绝罚。;;;;;;;;;;x
 EVTDESC55006;我的领主劝说我接受这种风靡全领的英格兰学说;;;;;;;;;;x
 EVTOPTA55006;哦，我说，有人去打板球么;;;;;;;;;;x
-EVTDESC80000;劫掠[Root.GetName]郡的农民军正在焚毁建筑物！;;;;;;;;;;x
+EVTDESC80000;劫掠[Root.GetName]省份的农民军正在焚毁建筑物！;;;;;;;;;;x
 EVTOPTA80000;有什么东西是他们不会毁坏的么;;;;;;;;;;x
 EVTOPTB80000;坏消息，但是我很高兴得知被毁坏的不是我的财产……;;;;;;;;;;x
 EVTDESC80001;正在肆虐[From.GetName]省份的农民军烧毁了我的建筑！;;;;;;;;;;x
@@ -3885,7 +3885,7 @@ EVTOPTB69052;我认为[Root.job_marshal.GetTitledFirstName]并非这个[Root.job
 EVTOPTC69052;我被你说服了，你可以保有你的职位……;;;;;;;;;;x
 EVTDESC69053;我知道我作为军事总管，一直辜负了[From.GetTitledFirstName]的期望，但是要是[From.GetSheHe]能给我机会，我将表现给[From.GetHerHim]看看，我并不缺少军事才能！;;;;;;;;;;x
 EVTOPTA69053;我会让你欣赏我的，[From.GetTitledFirstName]!;;;;;;;;;;x
-EVTDESC69054;我派管家[Root.job_treasurer.GetTitledFirstName]去一个郡监督建设——建筑几乎立刻就崩溃了。然后我派他去最富裕的省份之一收税，[Root.job_treasurer.GetSheHe]收到的钱远远低于我的预期。[Root.job_treasurer.GetTitledFirstName]明显缺乏必需的管理技能以至于连最简单的任务都无法完成！;;;;;;;;;;x
+EVTDESC69054;我派财政总管[Root.job_treasurer.GetTitledFirstName]去一个省份监督建设——建筑几乎立刻就崩溃了。然后我派他去最富裕的省份之一收税，[Root.job_treasurer.GetSheHe]收到的钱远远低于我的预期。[Root.job_treasurer.GetTitledFirstName]明显缺乏必需的管理技能以至于连最简单的任务都无法完成！;;;;;;;;;;x
 EVTOPTA69054;太糟糕了！;;;;;;;;;;x
 EVTTOOLTIP69055;[Root.job_treasurer.GetTitledFirstName]因[Root.job_treasurer.GetHerHis]缺乏管理能力而被惩罚;;;;;;;;;;x
 EVTOPTB69054;我不能说我还信任[Root.job_treasurer.GetTitledFirstName];;;;;;;;;;x
@@ -4526,9 +4526,9 @@ EVTOPTA75065;我很高兴听到这个！;;;;;;;;;;x
 EVTTOOLTIP75066;财政总管[This.GetTitledFirstName]为[This.GetHerHis]正义感获得奖赏;;;;;;;;;;x
 EVTDESC75066;我既无法相信犯罪减少，也无法相信农夫们看起来更高兴的事实，但是我相信公正必须被用于创造一个更好的世界.;;;;;;;;;;x
 EVTOPTA75066;公正，属于所有人！;;;;;;;;;;x
-EVTDESC75070;我领地的一个郡疾病泛滥！我需要派管家[Root.job_treasurer.GetTitledFirstName]去那里，[Root.job_treasurer.GetSheHe]应该知道怎么去做。;;;;;;;;;;x
+EVTDESC75070;我领地的一个省份疾病泛滥！我需要派财政总管[Root.job_treasurer.GetTitledFirstName]去那里，[Root.job_treasurer.GetSheHe]肯定知道怎么做。;;;;;;;;;;x
 EVTOPTA75070;请救救农夫们吧！没有他们我还能从谁那抽税呢;;;;;;;;;;x
-EVTTOOLTIP75071;管家[This.GetTitledFirstName]被派去疾病泛滥的那个郡。;;;;;;;;;;x
+EVTTOOLTIP75071;财政总管[This.GetTitledFirstName]被派去疾病泛滥的那个省份。;;;;;;;;;;x
 EVTDESC75071;我努力工作，尽我所能，一个一个挽救农民。疾病慢慢得到控制，不过还需要时间让每个人恢复健康。;;;;;;;;;;x
 EVTOPTA75071;我又救了一个人！;;;;;;;;;;x
 EVTDESC75075;财政总管[Root.job_treasurer.GetTitledFirstName]想要雇流氓来胁迫不交税的农夫.;;;;;;;;;;x
@@ -4537,7 +4537,7 @@ EVTOPTB75075;阻止他为害，即使我的税收会减少;;;;;;;;;;x
 EVTTOOLTIP75076;财政总管[This.GetTitledFirstName]雇流氓受阻;;;;;;;;;;x
 EVTDESC75076;[From.GetTitledFirstName]不喜欢我雇流氓的提议，当我试图解释说那将更容易压榨不交税的农夫时[From.GetSheHe]仍然不要我雇流氓.我曾试图秘密雇佣他们，但在我甚至开始「劝服」那些农夫之前，[From.GetTitledFirstName]以某种方式发现并阻止了我.;;;;;;;;;;x
 EVTOPTA75076;来吧！我需要那些流氓！;;;;;;;;;;x
-EVTDESC75080;管家[Root.job_treasurer.GetTitledFirstName]想出一个移除郡里的一个盗贼公会的主意：给钱让他们到别处去。;;;;;;;;;;x
+EVTDESC75080;财政总管[Root.job_treasurer.GetTitledFirstName]想出一个移除省份里的一个盗贼公会的主意：给钱让他们到别处去。;;;;;;;;;;x
 EVTOPTA75080;花钱来阻止罪犯;;;;;;;;;;x
 EVTOPTB75080;我们不和罪犯打交道;;;;;;;;;;x
 EVTDESC75085;财政总管[Root.job_treasurer.GetTitledFirstName]在如何改善经济方面有一些有趣的主意.;;;;;;;;;;x
@@ -4572,7 +4572,7 @@ EVTDESC75099;[From.GetTitledFirstName]为偷钱而对我奉并拿走了我所有
 EVTOPTA75099;太严酷了！;;;;;;;;;;x
 EVTDESC75100;[From.GetTitledFirstName]相信我偷了钱并把我关进监狱来忏悔我的罪行和罪孽.;;;;;;;;;;x
 EVTOPTA75100;我忏悔，就让我出去吧！;;;;;;;;;;x
-EVTDESC75105;一伙拦路抢劫者一直在[Root.Liege.GetTitledFirstName]的一个郡里随意游荡。我很想为这种情况做点什么，我应该向[Root.Liege.GetTitledFirstName]建议我们应该处理它。;;;;;;;;;;x
+EVTDESC75105;一伙拦路抢劫者一直在[Root.Liege.GetTitledFirstName]的一个省份里随意游荡。我很想为这种情况做点什么，我应该向[Root.Liege.GetTitledFirstName]建议我们应该处理它。;;;;;;;;;;x
 EVTTOOLTIP75106;[This.GetTitledFirstName]被要求指派一些士兵去对付那个公路强盗团伙;;;;;;;;;;x
 EVTOPTA75105;我跟一帮士兵能够轻松解决他们！;;;;;;;;;;x
 EVTOPTB75105;……或者也许我不应该以身犯险……;;;;;;;;;;x
@@ -5104,7 +5104,7 @@ DIVORCE_INTERACTION_LETTER;我们的婚姻不再有未来.为了我们双方，�
 ASK_FOR_EXCOMMUNICATION_INTERACTION_TITLE;要求绝罚;;;;;;;;;;x
 ASK_FOR_EXCOMMUNICATION_INTERACTION_DESC;向§Y[Actor.RelHead.GetTitledFirstName]§!请求绝罚§Y[ThirdPartyCharacter.GetBestName]§!。这将花费你 §R100§!虔诚并且如果请求被批准，将会被 [ThirdPartyCharacter.GetPossPronoun]的亲戚们视作对他们的侮辱.;;;;;;;;;;x
 ASK_FOR_EXCOMMUNICATION_INTERACTION_LONG_DESC;被处以绝罚的人将被同宗教的所有人鄙视，并给予他们宣战理由。不过，尊奉对立教宗的人只会受对立教宗行动的影响。;;;;;;;;;;x
-ASK_FOR_EXCOMMUNICATION_INTERACTION_0;要求 §Y[Recipient.GetTitledFirstName]§! 开除 §Y[ThirdPartyCharacter.GetBestName]§!的教籍.这将消耗你§R$COST$§!虔诚，并且一旦成功，将被[ThirdPartyCharacter.GetPossPronoun]亲族视为侮辱.;;;;;;;;;;x
+ASK_FOR_EXCOMMUNICATION_INTERACTION_0;要求 §Y[Recipient.GetTitledFirstName]§W绝罚§Y[ThirdPartyCharacter.GetBestName]§W。这将消耗你§R$COST$§W虔诚，并且一旦成功，将被[ThirdPartyCharacter.GetPossPronoun]亲族视为侮辱。;;;;;;;;;;x
 ASK_FOR_EXCOMMUNICATION_INTERACTION_ACCEPT_SETUP;绝罚请求获批准;;;;;;;;;;x
 ASK_FOR_EXCOMMUNICATION_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§!同意§Y[Actor.GetBestName]§!的请求，绝罚了§Y[ThirdPartyCharacter.GetBestName]§!;;;;;;;;;;x
 ASK_FOR_EXCOMMUNICATION_INTERACTION_DECLINE_SETUP;绝罚请求被拒绝;;;;;;;;;;x
@@ -5133,7 +5133,7 @@ ASK_TO_RANSOM_CHARACTER_INTERACTION_DECLINE_SETUP;拒绝释放囚犯;;;;;;;;;;x
 ASK_TO_RANSOM_CHARACTER_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝释放 §Y[Actor.GetBestName]§!;;;;;;;;;;x
 ASK_TO_RANSOM_CHARACTER_INTERACTION_OFFER;[Actor.GetBestName]提供给我们$RANSOM$金钱来赎回[ThirdPartyCharacter.GetBestName];;;;;;;;;;x
 ASK_TO_RANSOM_CHARACTER_INTERACTION_LETTER;[ThirdPartyCharacter.GetBestName]应该获得自由。当然，$RANSOM$金钱应该可以说服你释放[ThirdPartyCharacter.GetObjectPronoun]……;;;;;;;;;;x
-EVTNAME900;郡的信仰改变;;;;;;;;;;x
+EVTNAME900;省份宗教改变;;;;;;;;;;x
 EVTDESC900;[Root.Location.GetName]的人民已经皈依了[Root.Religion.GetName]！;;;;;;;;;;x
 EVTOPTA900;我们的努力终于见效！;;;;;;;;;;x
 EVTTOOLTIP20000;向陛下报告！;;;;;;;;;;x
@@ -5433,7 +5433,7 @@ EVOPTB938;他们弄残我了！;;;;;;;;;;x
 EVTTOOLTIP20380;送一封信给我的领主;;;;;;;;;;x
 EVTDESC20380;主上，我试图教[From.Location.GetName]的笨蛋农夫如何使用围攻武器时，其中一人把一块巨石砸在了我脚上！我对教这些白痴如何作战绝望了……\n\n您谦卑的军事总管，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA20380;哦，天啊……;;;;;;;;;;x
-EVTDESC20381;我的领主，我恳求把我派往另一个郡！[From.Location.GetName]的那群傻逼已经让我失去了一条手臂，我不想再因为他们拿反了弓箭而失去另一条手臂了！\n\n你忠诚的元帅，\n[From.GetTitledName];;;;;;;;;;x
+EVTDESC20381;我的领主，我恳求把我派往另一个省份！[From.Location.GetName]的那群傻逼已经让我失去了一条手臂，我不想再因为他们拿反了弓箭而失去另一条手臂了！\n\n你忠诚的军事统帅，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA20381;我怎么能用这些农夫作战呢！;;;;;;;;;;x
 EVTNAME939;军事机密泄露;;;;;;;;;;x
 EVTDESC939;我行至[Root.Location.GetName]尽力帮助教导人们他们所任意使用的军事装备的知识，以防万一他们遭围攻或者主上需要从该省份补充兵员.但我感觉我一事无成……;;;;;;;;;;x
@@ -12691,11 +12691,11 @@ b_abuaweigila;阿布阿维吉拉;;;;;;;;;;x
 b_zuwayid;祖瓦伊德;;;;;;;;;;x
 d_arabia_petrae;佩特拉阿拉伯;;;;;;;;;;x
 d_arabia_petrae_adj;佩特拉阿拉伯;;;;;;;;;;x
-c_al_aqabah_adj;艾喀班希亚;;;;;;;;;;x
-b_aqabah;阿卡巴赫;;;;;;;;;;x
+c_al_aqabah_adj;亚喀巴;;;;;;;;;;x
+b_aqabah;亚喀巴;;;;;;;;;;x
 b_reeshah;雷瑟哈;;;;;;;;;;x
 b_quwairah;奇瓦拉赫;;;;;;;;;;x
-b_mazraa;迈兹拉;;;;;;;;;;x
+b_mazraa;迈兹拉阿;;;;;;;;;;x
 b_feifa;费法;;;;;;;;;;x
 b_samar;萨马尔;;;;;;;;;;x
 b_elifaz;艾因法兹;;;;;;;;;;x
@@ -12711,10 +12711,10 @@ b_afra;阿夫拉;;;;;;;;;;x
 b_bubeita;部贝塔;;;;;;;;;;x
 c_tabuk_adj;塔布克;;;;;;;;;;x
 b_tabuk;塔布克;;;;;;;;;;x
-b_duba;杜拜;;;;;;;;;;x
+b_duba;杜巴;;;;;;;;;;x
 b_mariyiat;马里伊特;;;;;;;;;;x
-b_muwaylih;姆瓦利赫;;;;;;;;;;x
-b_abu_ujayyijat;阿布乌贾乌贾;;;;;;;;;;x
+b_muwaylih;穆韦利赫;;;;;;;;;;x
+b_abu_ujayyijat;阿布欧杰伊贾特;;;;;;;;;;x
 b_gabouk;格布欧克;;;;;;;;;;x
 b_shaghab;舍盖卜;;;;;;;;;;x
 b_sharmah;舍尔迈;;;;;;;;;;x
@@ -12743,7 +12743,7 @@ b_tayma;泰马;;;;;;;;;;x
 b_leuke_kome;卢克科梅;;;;;;;;;;x
 b_higra;希格拉;;;;;;;;;;x
 b_madain_salih;玛甸沙勒;;;;;;;;;;x
-b_mughayra;秸盖拉;;;;;;;;;;x
+b_mughayra;穆盖拉;;;;;;;;;;x
 b_samur;萨穆尔;;;;;;;;;;x
 b_tawala;塔瓦拉;;;;;;;;;;x
 c_medina_adj;麦地那;;;;;;;;;;x
@@ -14670,7 +14670,7 @@ temple_tax_2_desc;主教们需要为国家利益提供一定的经济贡献.;;;;
 temple_tax_3;大量修道院税收;;;;;;;;;;x
 temple_tax_3_option;大量;;;;;;;;;;x
 temple_tax_3_desc;主教们需要为国家利益提供大量的经济贡献.;;;;;;;;;;x
-investiture_law;神职法;;;;;;;;;;x
+investiture_law;授职法;;;;;;;;;;x
 investiture_law_desc;神职法（主教任命法）决定主教的任命权归谁——教宗还是君主本人.;;;;;;;;;;x
 investiture_law_0;教宗授职;;;;;;;;;;x
 investiture_law_0_option;教宗;;;;;;;;;;x
@@ -14854,9 +14854,9 @@ PLAYER_SUCCESSOR_CHANGED_SETUP;继承人变更;;;;;;;;;;x
 EXILE_TO_PLAYER_SETUP;新角色来到你的宫廷;;;;;;;;;;x
 EXILE_TO_PLAYER_LOG;§Y$NAME$§!来到了你的宫廷;;;;;;;;;;x
 EXILE_FROM_PLAYER_SETUP;角色离开你的宫廷;;;;;;;;;;x
-PROV_CULTURECHANGE_SETUP;郡文化变更;;;;;;;;;;x
+PROV_CULTURECHANGE_SETUP;省份文化变更;;;;;;;;;;x
 PROV_CULTURECHANGE_LOG;§Y$NAME$§!省份的文化变成了§Y$CULTURENAME$§!;;;;;;;;;;x
-PROV_RELIGIONCHANGE_SETUP;郡信仰变更;;;;;;;;;;x
+PROV_RELIGIONCHANGE_SETUP;省份宗教变更;;;;;;;;;;x
 PROV_RELIGIONCHANGE_LOG;§Y$NAME$§!省份现在信奉§Y$RELIGIONNAME$§!了;;;;;;;;;;x
 MESSAGE_IS_PRIO1;优先度2的消息会弹出提示窗口.;;;;;;;;;;x
 MESSAGE_IS_PRIO2;优先度2的消息会显示在高优先度提示栏里.;;;;;;;;;;x
@@ -14901,8 +14901,8 @@ MESSWINDOW_OPENLIST;打开消息列表;;;;;;;;;;x
 MESSWINDOW_DISCARD;消除消息;;;;;;;;;;x
 MESSWINDOW_DISCARD_DELAY;§GShift加点击可以消除所有同类消息\nCtrl加点击可以消除所有消息§!;;;;;;;;;;x
 MESSWINDOW_DISCARD_ALL;消除所有消息;;;;;;;;;;x
-MESSWINDOW_ACTION_ZOOMTOPROVINCE;前往相关的郡;;;;;;;;;;x
-MESSWINDOW_ACTION_SELECTPROVINCE;选中相关的郡;;;;;;;;;;x
+MESSWINDOW_ACTION_ZOOMTOPROVINCE;前往相关的省份;;;;;;;;;;x
+MESSWINDOW_ACTION_SELECTPROVINCE;选中相关的省份;;;;;;;;;;x
 MESSWINDOW_ACTION_SELECTUNIT;选中相关单位;;;;;;;;;;x
 MESSWINDOW_HIGHPRIO;高优先度消息;;;;;;;;;;x
 MESSWINDOW_LOWPRIO;低优先度消息;;;;;;;;;;x
@@ -15066,7 +15066,7 @@ opinion_realm_related_culture;外国人;;;;;;;;;;x
 opinion_infidel;异教徒;;;;;;;;;;x
 opinion_heretic;异端;;;;;;;;;;x
 opinion_related_religion;宗教不同;;;;;;;;;;x
-opinion_investiture;授权法;;;;;;;;;;x
+opinion_investiture;授职法;;;;;;;;;;x
 opinion_controlled_antipope;控制的对立教宗;;;;;;;;;;x
 opinion_rightful_rel_head;宗教领袖;;;;;;;;;;x
 opinion_potential_cuckold;怀疑;;;;;;;;;;x
@@ -15205,7 +15205,7 @@ opinion_infatuated;深爱;;;;;;;;;;x
 opinion_enjoyed_feast;享受宴会;;;;;;;;;;x
 opinion_money_stolen;偷了我的钱;;;;;;;;;;x
 opinion_granted_barony;授予男爵领;;;;;;;;;;x
-opinion_granted_county;授予郡;;;;;;;;;;x
+opinion_granted_county;授予省份;;;;;;;;;;x
 opinion_granted_duchy;授予公国;;;;;;;;;;x
 opinion_granted_kingdom;授予王国;;;;;;;;;;x
 opinion_granted_empire;授予帝国;;;;;;;;;;x
@@ -15255,7 +15255,7 @@ opinion_dishonorable;名誉极坏;;;;;;;;;;x
 opinion_dishonorable_scum;无耻之徒;;;;;;;;;;x
 opinion_murder_attempt;谋杀未遂;;;;;;;;;;x
 opinion_killed_close_kin;弑亲禽兽;;;;;;;;;;x
-ELECTOR_TITLES_HELD;拥有选帝侯权力;;;;;;;;;;x
+ELECTOR_TITLES_HELD;持有选举者头衔;;;;;;;;;;x
 opinion_uninvited;失望;;;;;;;;;;x
 opinion_friend;朋友;;;;;;;;;;x
 the_pompous;自大的;;;;;;;;;;x
@@ -15460,9 +15460,9 @@ bishop_bribed_by_pope;遵从教宗的指示;;;;;;;;;;x
 my_vassal_bribed_by_pope;被虚假的教宗贿赂了;;;;;;;;;;x
 loyal_vassal_against_pope;比起教宗更忠于你;;;;;;;;;;x
 minor_pagan_border_raids;边界异教入侵;;;;;;;;;;x
-minor_pagan_border_raids_desc;异教匪徒劫掠了这个郡。;;;;;;;;;;x
+minor_pagan_border_raids_desc;原始宗教匪徒劫掠了这个省份。;;;;;;;;;;x
 major_pagan_border_raids;边界大规模异教入侵;;;;;;;;;;x
-major_pagan_border_raids_desc;异教匪徒蹂躏了这个郡并大肆屠杀。;;;;;;;;;;x
+major_pagan_border_raids_desc;原始宗教匪徒蹂躏了这个省份并大肆屠杀。;;;;;;;;;;x
 suspected_sodomite_rumour;被怀疑鸡奸;;;;;;;;;;x
 denied_sodomite_rumour;否认鸡奸的谣言;;;;;;;;;;x
 ruler_not_respect_rank;不尊重等级;;;;;;;;;;x
@@ -15571,7 +15571,7 @@ COST_MONTHS;这个建筑花费$AMOUNT$金币，需要$TIME$个月完成.;;;;;;;;
 Value;价值;;;;;;;;;;x
 MORE_THAN_X;§Y...§!;;;;;;;;;;x
 IN;在;;;;;;;;;;x
-MORE_THAN_THREE_PROV;超过§Y3§!个郡;;;;;;;;;;x
+MORE_THAN_THREE_PROV;超过§Y3§!个省份。;;;;;;;;;;x
 WARTITLE;宣战;;;;;;;;;;x
 WARREQDESC;你要向$COUNTRY$宣战吗;;;;;;;;;;x
 NO_WAR_WHEN_REGENCY;摄政会议统治期间不能发动战争.;;;;;;;;;;x
@@ -15614,7 +15614,7 @@ HASCBON;拥有宣战理由：$LIST$。;;;;;;;;;;x
 DIP_CHAR_ON_MISSION;$NAME$已经在执行一个任务了\n他会在 $DATE$ 天后返回。;;;;;;;;;;x
 DIP_CHAR_AVAILABLE;$NAME$可以执行这个任务。;;;;;;;;;;x
 CANCELTRADEDESC;取消一个已经存在的商路.;;;;;;;;;;x
-TRADEROUTEDESC;建立一条商路不仅是生财之道，沿途各郡也可以获得货物流通带来的好处。;;;;;;;;;;x
+TRADEROUTEDESC;建立一条商路不仅是生财之道，沿途各省份也可以获得货物流通带来的好处。;;;;;;;;;;x
 TRADEROUTETITLE;建立商路;;;;;;;;;;x
 TRADEROUTEOFFDESC;$COUNTRY$向我们提议建立从$FROM$($FROM_GOODS$)到$TO$($TO_GOODS$)的商路。\n双方每月都会获得 $CASH$¤ \n$FROM$触发效果：$FROM_EFFECT$\n$TO$触发效果：$TO_EFFECT$;;;;;;;;;;x
 CANCELTRADEROUTETITLE;取消商路;;;;;;;;;;x
@@ -15631,9 +15631,9 @@ DIPCHANCE_VUNLIKELY;很不可能;;;;;;;;;;x
 DIPCHANCE_UNLIKELY;不太可能;;;;;;;;;;x
 DIPCHANCE_MAYBE;有点可能;;;;;;;;;;x
 DIPCHANCE_LIKELY;很有可能;;;;;;;;;;x
-DIP_SELECT_PROVINCE;选中这个郡加入商路;;;;;;;;;;x
+DIP_SELECT_PROVINCE;选中这个省份加入商路;;;;;;;;;;x
 DIP_NO_ROUTE;没有商路被选中！;;;;;;;;;;x
-DIP_NO_ROUTE_DELAYED;商路可以是陆路也可以走海路。\n要让商路穿过一个陆地省份，郡内需要有道路。\n要让商路进出海洋，则需要港口。;;;;;;;;;;x
+DIP_NO_ROUTE_DELAYED;商路可以是陆路也可以走海路。\n要让商路穿过一个陆地省份，省份内需要有道路。\n要让商路进出海洋，则需要港口。;;;;;;;;;;x
 CANCEL_TRADEROUTE_DESC;取消从$FROM$($FROM_GOODS$)到$TO$($TO_GOODS$)的商路;;;;;;;;;;x
 ENROUTE_REMOVED;我们有一个大使在路上;;;;;;;;;;x
 CANCELTRADEROUTEDESC;撤销商路会让从中受益的省份失去那些加成。这也可能惹怒我们的外国贸易伙伴们。;;;;;;;;;;x
@@ -17946,7 +17946,7 @@ seniority;长者继承法;;;;;;;;;;x
 primogeniture;长子继承法;;;;;;;;;;x
 turkish_succession;土耳其继承法;;;;;;;;;;x
 open_elective;开放选举法;;;;;;;;;;x
-catholic_bishopric;教区法;;;;;;;;;;x
+catholic_bishopric;授职法;;;;;;;;;;x
 AGNATIC;父系;;;;;;;;;;x
 COGNATIC;平等;;;;;;;;;;x
 UNREST;动荡;;;;;;;;;;x
@@ -19074,7 +19074,7 @@ HAVE_NOT_A_PORT_IN;没有港口;;;;;;;;;;x
 HAVE_COUNTRY_FLAG;有国家标志;;;;;;;;;;x
 HAVE_NOT_COUNTRY_FLAG;没有国家标志;;;;;;;;;;x
 HAVE_PROVINCE_FLAG;有郡标志;;;;;;;;;;x
-HAVE_NOT_PROVINCE_FLAG;没有郡标志;;;;;;;;;;x
+HAVE_NOT_PROVINCE_FLAG;没有省份旗标;;;;;;;;;;x
 IS_GREATER_THAN;大于;;;;;;;;;;x
 IS_EQUAL_OR_LESS_THAN;等于或小于;;;;;;;;;;x
 DONT_HAVE_A_X_INY;在§Y$Y$§!没有§Y$X$§!;;;;;;;;;;x
@@ -19083,9 +19083,9 @@ PROVINCE_DOESNT_PRODUCE;$PROVINCE$ 不生产 $GOODS$;;;;;;;;;;x
 PROVINCE_PRODUCES;$PROVINCE$ 生产 $GOODS$;;;;;;;;;;x
 IS_NOT_ON_THE_CONTINENT;不在指定洲;;;;;;;;;;x
 IS_ON_THE_CONTINENT;在指定洲;;;;;;;;;;x
-NEIGHBOR_PROVINCE_STARTS;临近的郡;;;;;;;;;;x
-EMPTY_NEIGHBOR_PROVINCE_STARTS;临近郡的空地;;;;;;;;;;x
-ANY_PROVINCE_STARTS;任何一个郡;;;;;;;;;;x
+NEIGHBOR_PROVINCE_STARTS;临近省份;;;;;;;;;;x
+EMPTY_NEIGHBOR_PROVINCE_STARTS;空的临近省份;;;;;;;;;;x
+ANY_PROVINCE_STARTS;任意省份;;;;;;;;;;x
 ANY_RIVAL_STARTS;任意仇人;;;;;;;;;;x
 ANY_FRIEND_STARTS;任意朋友;;;;;;;;;;x
 ANY_CHILD_STARTS;任意子女;;;;;;;;;;x
@@ -19401,8 +19401,8 @@ DOES_NOT_HAVE_THE_JOB;没有该工作;;;;;;;;;;x
 HAS_THE_JOB;有该工作;;;;;;;;;;x
 DOES_NOT_HAVE_A_JOB;没有工作;;;;;;;;;;x
 HAS_A_JOB;有工作;;;;;;;;;;x
-ANY_PROVINCE_LORD_STARTS;任意郡领主;;;;;;;;;;x
-ANY_PROVINCE_CHAR_STARTS;郡内的任意角色;;;;;;;;;;x
+ANY_PROVINCE_LORD_STARTS;任意省份领主;;;;;;;;;;x
+ANY_PROVINCE_CHAR_STARTS;省份内的任意角色;;;;;;;;;;x
 DOES_NOT_HAVE_GUARDIAN;没有监护人;;;;;;;;;;x
 HAS_GUARDIAN;有监护人;;;;;;;;;;x
 ISNT_PREGNANT;未怀孕;;;;;;;;;;x
