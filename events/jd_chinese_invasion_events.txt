@@ -1,4 +1,4 @@
-﻿###########################################
+###########################################
 #                                         #
 # Chinese Invasions				 		  #
 #                                         #
@@ -3334,14 +3334,14 @@ character_event = {
 		if = { #New Chinese dynasty = new founder name
 			limit = { NOT = { dynasty = FROMFROM } }
 			random_list = {
-				1 = { set_name = 高祖 }
-				1 = { set_name = 太祖 }
-				1 = { set_name = 世祖 }
-				1 = { set_name = 昭祖 }
-				1 = { set_name = 靖祖 }
-				1 = { set_name = 显祖 }
-				1 = { set_name = 烈祖 }
-				1 = { set_name = 成祖 }
+				1 = { set_name = "高祖" }
+				1 = { set_name = "太祖" }
+				1 = { set_name = "世祖" }
+				1 = { set_name = "昭祖" }
+				1 = { set_name = "靖祖" }
+				1 = { set_name = "显祖" }
+				1 = { set_name = "烈祖" }
+				1 = { set_name = "成祖" }
 			}
 			set_character_flag = given_temple_name_by_script
 			event_target:temple_name_title = { #Random Empire name that China doesn't have
@@ -3892,30 +3892,30 @@ character_event = {
 			primary_title = {
 				trigger_switch = { #Ensure naming convention 
 					on_trigger = has_title_flag
-					china_name_Tang = { set_name = "Tang" }
-					china_name_Jin = { set_name = "Jin" }
-					china_name_Wei = { set_name = "Wei" }
-					china_name_Qi = { set_name = "Qi" }
-					china_name_Zhou = { set_name = "Zhou" }
-					china_name_Han = { set_name = "Han" }
-					china_name_Qin = { set_name = "Qin" }
-					china_name_Yan = { set_name = "Yan" }
-					china_name_Zhao = { set_name = "Zhao" }
-					china_name_Liao = { set_name = "Liao" }
-					china_name_Yuan = { set_name = "Yuan" }
-					china_name_Xia = { set_name = "Xia" }
-					china_name_Qing = { set_name = "Qing" }
-					china_name_Dai = { set_name = "Dai" }
-					china_name_Cheng = { set_name = "Cheng" }
-					china_name_Liang = { set_name = "Liang" }
-					china_name_Song = { set_name = "Song" }
-					china_name_Ming = { set_name = "Ming" }
-					china_name_Shu = { set_name = "Shu" }
-					china_name_Wu = { set_name = "Wu" }
-					china_name_Chu = { set_name = "Chu" }
-					china_name_Yue = { set_name = "Yue" }
-					china_name_Yin = { set_name = "Yin" }
-					china_name_Shun = { set_name = "Shun" }
+					china_name_Tang = { set_name = "唐" }
+					china_name_Jin = { set_name = "晋" }
+					china_name_Wei = { set_name = "魏" }
+					china_name_Qi = { set_name = "齐" }
+					china_name_Zhou = { set_name = "周" }
+					china_name_Han = { set_name = "汉" }
+					china_name_Qin = { set_name = "秦" }
+					china_name_Yan = { set_name = "燕" }
+					china_name_Zhao = { set_name = "赵" }
+					china_name_Liao = { set_name = "辽" }
+					china_name_Yuan = { set_name = "元" }
+					china_name_Xia = { set_name = "夏" }
+					china_name_Qing = { set_name = "清" }
+					china_name_Dai = { set_name = "代" }
+					china_name_Cheng = { set_name = "陈" }
+					china_name_Liang = { set_name = "梁" }
+					china_name_Song = { set_name = "宋" }
+					china_name_Ming = { set_name = "明" }
+					china_name_Shu = { set_name = "蜀" }
+					china_name_Wu = { set_name = "吴" }
+					china_name_Chu = { set_name = "楚" }
+					china_name_Yue = { set_name = "越" }
+					china_name_Yin = { set_name = "殷" }
+					china_name_Shun = { set_name = "顺" }
 				}
 				if = { #Ensure will be an Emperor level government
 					limit = { 
@@ -3955,30 +3955,30 @@ character_event = {
 			primary_title = {
 				trigger_switch = {
 					on_trigger = has_title_flag
-					china_name_Tang = { set_name = "Tang" }
-					china_name_Jin = { set_name = "Jin" }
-					china_name_Wei = { set_name = "Wei" }
-					china_name_Qi = { set_name = "Qi" }
-					china_name_Zhou = { set_name = "Zhou" }
-					china_name_Han = { set_name = "Han" }
-					china_name_Qin = { set_name = "Qin" }
-					china_name_Yan = { set_name = "Yan" }
-					china_name_Zhao = { set_name = "Zhao" }
-					china_name_Liao = { set_name = "Liao" }
-					china_name_Yuan = { set_name = "Yuan" }
-					china_name_Xia = { set_name = "Xia" }
-					china_name_Qing = { set_name = "Qing" }
-					china_name_Dai = { set_name = "Dai" }
-					china_name_Cheng = { set_name = "Cheng" }
-					china_name_Liang = { set_name = "Liang" }
-					china_name_Song = { set_name = "Song" }
-					china_name_Ming = { set_name = "Ming" }
-					china_name_Shu = { set_name = "Shu" }
-					china_name_Wu = { set_name = "Wu" }
-					china_name_Chu = { set_name = "Chu" }
-					china_name_Yue = { set_name = "Yue" }
-					china_name_Yin = { set_name = "Yin" }
-					china_name_Shun = { set_name = "Shun" }
+					china_name_Tang = { set_name = "唐" }
+					china_name_Jin = { set_name = "晋" }
+					china_name_Wei = { set_name = "魏" }
+					china_name_Qi = { set_name = "齐" }
+					china_name_Zhou = { set_name = "周" }
+					china_name_Han = { set_name = "汉" }
+					china_name_Qin = { set_name = "秦" }
+					china_name_Yan = { set_name = "燕" }
+					china_name_Zhao = { set_name = "赵" }
+					china_name_Liao = { set_name = "辽" }
+					china_name_Yuan = { set_name = "元" }
+					china_name_Xia = { set_name = "夏" }
+					china_name_Qing = { set_name = "清" }
+					china_name_Dai = { set_name = "代" }
+					china_name_Cheng = { set_name = "陈" }
+					china_name_Liang = { set_name = "梁" }
+					china_name_Song = { set_name = "宋" }
+					china_name_Ming = { set_name = "明" }
+					china_name_Shu = { set_name = "蜀" }
+					china_name_Wu = { set_name = "吴" }
+					china_name_Chu = { set_name = "楚" }
+					china_name_Yue = { set_name = "越" }
+					china_name_Yin = { set_name = "殷" }
+					china_name_Shun = { set_name = "顺" }
 				}
 				if = {
 					limit = { 
@@ -4029,30 +4029,30 @@ character_event = {
 			primary_title = {
 				trigger_switch = {
 					on_trigger = has_title_flag
-					china_name_Tang = { set_name = "Tang Empire" }
-					china_name_Jin = { set_name = "Jin Empire" }
-					china_name_Wei = { set_name = "Wei Empire" }
-					china_name_Qi = { set_name = "Qi Empire" }
-					china_name_Zhou = { set_name = "Zhou Empire" }
-					china_name_Han = { set_name = "Han Empire" }
-					china_name_Qin = { set_name = "Qin Empire" }
-					china_name_Yan = { set_name = "Yan Empire" }
-					china_name_Zhao = { set_name = "Zhao Empire" }
-					china_name_Liao = { set_name = "Liao Empire" }
-					china_name_Yuan = { set_name = "Yuan Empire" }
-					china_name_Xia = { set_name = "Xia Empire" }
-					china_name_Qing = { set_name = "Qing Empire" }
-					china_name_Dai = { set_name = "Dai Empire" }
-					china_name_Cheng = { set_name = "Cheng Empire" }
-					china_name_Liang = { set_name = "Liang Empire" }
-					china_name_Song = { set_name = "Song Empire" }
-					china_name_Ming = { set_name = "Ming Empire" }
-					china_name_Shu = { set_name = "Shu Empire" }
-					china_name_Wu = { set_name = "Wu Empire" }
-					china_name_Chu = { set_name = "Chu Empire" }
-					china_name_Yue = { set_name = "Yue Empire" }
-					china_name_Yin = { set_name = "Yin Empire" }
-					china_name_Shun = { set_name = "Shun Empire" }
+					china_name_Tang = { set_name = "唐帝国" }
+					china_name_Jin = { set_name = "晋帝国" }
+					china_name_Wei = { set_name = "魏帝国" }
+					china_name_Qi = { set_name = "齐帝国" }
+					china_name_Zhou = { set_name = "周帝国" }
+					china_name_Han = { set_name = "汉帝国" }
+					china_name_Qin = { set_name = "秦帝国" }
+					china_name_Yan = { set_name = "燕帝国" }
+					china_name_Zhao = { set_name = "赵帝国" }
+					china_name_Liao = { set_name = "辽帝国" }
+					china_name_Yuan = { set_name = "元帝国" }
+					china_name_Xia = { set_name = "夏帝国" }
+					china_name_Qing = { set_name = "清帝国" }
+					china_name_Dai = { set_name = "代帝国" }
+					china_name_Cheng = { set_name = "陈帝国" }
+					china_name_Liang = { set_name = "梁帝国" }
+					china_name_Song = { set_name = "宋帝国" }
+					china_name_Ming = { set_name = "明帝国" }
+					china_name_Shu = { set_name = "蜀帝国" }
+					china_name_Wu = { set_name = "吴帝国" }
+					china_name_Chu = { set_name = "楚帝国" }
+					china_name_Yue = { set_name = "越帝国" }
+					china_name_Yin = { set_name = "殷帝国" }
+					china_name_Shun = { set_name = "顺帝国" }
 				}
 				trigger_switch = {
 					on_trigger = has_title_flag
@@ -4085,30 +4085,30 @@ character_event = {
 			primary_title = {
 				trigger_switch = {
 					on_trigger = has_title_flag
-					china_name_Tang = { set_name = "Tang Empire" }
-					china_name_Jin = { set_name = "Jin Empire" }
-					china_name_Wei = { set_name = "Wei Empire" }
-					china_name_Qi = { set_name = "Qi Empire" }
-					china_name_Zhou = { set_name = "Zhou Empire" }
-					china_name_Han = { set_name = "Han Empire" }
-					china_name_Qin = { set_name = "Qin Empire" }
-					china_name_Yan = { set_name = "Yan Empire" }
-					china_name_Zhao = { set_name = "Zhao Empire" }
-					china_name_Liao = { set_name = "Liao Empire" }
-					china_name_Yuan = { set_name = "Yuan Empire" }
-					china_name_Xia = { set_name = "Xia Empire" }
-					china_name_Qing = { set_name = "Qing Empire" }
-					china_name_Dai = { set_name = "Dai Empire" }
-					china_name_Cheng = { set_name = "Cheng Empire" }
-					china_name_Liang = { set_name = "Liang Empire" }
-					china_name_Song = { set_name = "Song Empire" }
-					china_name_Ming = { set_name = "Ming Empire" }
-					china_name_Shu = { set_name = "Shu Empire" }
-					china_name_Wu = { set_name = "Wu Empire" }
-					china_name_Chu = { set_name = "Chu Empire" }
-					china_name_Yue = { set_name = "Yue Empire" }
-					china_name_Yin = { set_name = "Yin Empire" }
-					china_name_Shun = { set_name = "Shun Empire" }
+					china_name_Tang = { set_name = "唐帝国" }
+					china_name_Jin = { set_name = "晋帝国" }
+					china_name_Wei = { set_name = "魏帝国" }
+					china_name_Qi = { set_name = "齐帝国" }
+					china_name_Zhou = { set_name = "周帝国" }
+					china_name_Han = { set_name = "汉帝国" }
+					china_name_Qin = { set_name = "秦帝国" }
+					china_name_Yan = { set_name = "燕帝国" }
+					china_name_Zhao = { set_name = "赵帝国" }
+					china_name_Liao = { set_name = "辽帝国" }
+					china_name_Yuan = { set_name = "元帝国" }
+					china_name_Xia = { set_name = "夏帝国" }
+					china_name_Qing = { set_name = "清帝国" }
+					china_name_Dai = { set_name = "代帝国" }
+					china_name_Cheng = { set_name = "陈帝国" }
+					china_name_Liang = { set_name = "梁帝国" }
+					china_name_Song = { set_name = "宋帝国" }
+					china_name_Ming = { set_name = "明帝国" }
+					china_name_Shu = { set_name = "蜀帝国" }
+					china_name_Wu = { set_name = "吴帝国" }
+					china_name_Chu = { set_name = "楚帝国" }
+					china_name_Yue = { set_name = "越帝国" }
+					china_name_Yin = { set_name = "殷帝国" }
+					china_name_Shun = { set_name = "顺帝国" }
 				}
 				trigger_switch = {
 					on_trigger = has_title_flag

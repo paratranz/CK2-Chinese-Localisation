@@ -1,4 +1,4 @@
-﻿###JD Decisions###
+###JD Decisions###
 
 #Written by:
 #Drikus Kuiper
@@ -88,122 +88,122 @@ decisions = {
 						random_list = { #Random Empire name that China doesn't have
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = tang_china } } }
-								set_name = " 唐 "
+								set_name = "唐"
 								set_title_flag = china_name_Tang
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = jin_china } } }
-								set_name = " 晋 "
+								set_name = "晋"
 								set_title_flag = china_name_Jin
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = wei_china } } }
-								set_name = " 魏 "
+								set_name = "魏"
 								set_title_flag = china_name_Wei
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = qi_china } } }
-								set_name = " 齐 "
+								set_name = "齐"
 								set_title_flag = china_name_Qi
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = zhou_china } } }
-								set_name = " 周 "
+								set_name = "周"
 								set_title_flag = china_name_Zhou
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = han_china } } }
-								set_name = " 汉 "
+								set_name = "汉 "
 								set_title_flag = china_name_Han
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = qin_china } } }
-								set_name = " 秦 "
+								set_name = "秦"
 								set_title_flag = china_name_Qin
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = yan_china } } }
-								set_name = " 燕 "
+								set_name = "燕"
 								set_title_flag = china_name_Yan
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = zhao_china } } }
-								set_name = " 赵 "
+								set_name = "赵"
 								set_title_flag = china_name_Zhao
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = liao_china } } }
-								set_name = " 辽 "
+								set_name = "辽"
 								set_title_flag = china_name_Liao
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = yuan_china } } }
-								set_name = " 元 "
+								set_name = "元 "
 								set_title_flag = china_name_Yuan
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = xia_china } } }
-								set_name = " 夏 "
+								set_name = "夏"
 								set_title_flag = china_name_Xia
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = qing_china } } }
-								set_name = " 清 "
+								set_name = "清"
 								set_title_flag = china_name_Qing
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = dai_china } } }
-								set_name = " 代 "
+								set_name = "代"
 								set_title_flag = china_name_Dai
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = cheng_china } } }
-								set_name = " 成 "
+								set_name = "成"
 								set_title_flag = china_name_Cheng
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = liang_china } } }
-								set_name = " 梁 "
+								set_name = "梁"
 								set_title_flag = china_name_Liang
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = song_china } } }
-								set_name = " 宋 "
+								set_name = "宋"
 								set_title_flag = china_name_Song
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = ming_china } } }
-								set_name = " 明 "
+								set_name = "明"
 								set_title_flag = china_name_Ming
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = shu_china } } }
-								set_name = " 蜀 "
+								set_name = "蜀"
 								set_title_flag = china_name_Shu
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = wu_china } } }
-								set_name = " 吴 "
+								set_name = "吴"
 								set_title_flag = china_name_Wu
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = chu_china } } }
-								set_name = " 楚 "
+								set_name = "楚"
 								set_title_flag = china_name_Chu
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = yue_china } } }
-								set_name = " 越 "
+								set_name = "越"
 								set_title_flag = china_name_Yue
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = yin_china } } }
-								set_name = " 殷 "
+								set_name = "殷"
 								set_title_flag = china_name_Yin
 							}
 							1 = { 
 								trigger = { NOT = { offmap_china = { has_offmap_name = shun_china } } }
-								set_name = " 顺 "
+								set_name = "顺"
 								set_title_flag = china_name_Shun
 							}
 						}
@@ -228,14 +228,14 @@ decisions = {
 				text = adopt_chinese_imperialism_temple_name_tt
 				hidden_effect = {
 					random_list = { #Give a temple name
-						1 = { set_name = 高祖 }
-						1 = { set_name = 太祖 }
-						1 = { set_name = 世祖 }
-						1 = { set_name = 昭祖 }
-						1 = { set_name = 靖祖 }
-						1 = { set_name = 显祖 }
-						1 = { set_name = 烈祖 }
-						1 = { set_name = 成祖 }
+						1 = { set_name = "高祖" }
+						1 = { set_name = "太祖" }
+						1 = { set_name = "世祖" }
+						1 = { set_name = "昭祖" }
+						1 = { set_name = "靖祖" }
+						1 = { set_name = "显祖" }
+						1 = { set_name = "烈祖" }
+						1 = { set_name = "成祖" }
 					}
 					set_character_flag = given_temple_name_by_script
 				}
