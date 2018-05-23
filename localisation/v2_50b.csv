@@ -277,9 +277,9 @@ EVTDESCC_ZE_13101;我花很多时间探索思考世界如何运转;;;;;;;;;;x
 EVTOPTA_ZE_13101;他们都是骗子！;;;;;;;;;;x
 EVTOPTB_ZE_13101;我们都一样，我猜;;;;;;;;;;x
 EVTOPTC_ZE_13101;学而时习之不亦乐乎！;;;;;;;;;;x
-EVTDESCA_ZE_13102;年轻的 [From.GetFirstName]看起来有很多自己独立的观点 并且拒绝听神职人员的论调;;;;;;;;;;x
-EVTDESCB_ZE_13102;年轻的 [From.GetFirstName]看起来对其他传统很有兴趣 而不是 [From.Religion.GetName]的;;;;;;;;;;x
-EVTDESCC_ZE_13102;年轻的 [From.GetFirstName]看起来是一个真正的探索家跟实验者，不断的发现吸引到[From.GetHerHim]的新点子和话题;;;;;;;;;;x
+EVTDESCA_ZE_13102;年轻的 [From.GetFirstName]看起来有很多自己独立的观点，并且拒绝听神职人员的论调。;;;;;;;;;;x
+EVTDESCB_ZE_13102;年轻的 [From.GetFirstName]看起来对其他传统很有兴趣，而不是[From.Religion.GetName]的。;;;;;;;;;;x
+EVTDESCC_ZE_13102;年轻的 [From.GetFirstName]看起来是一个真正的探索家跟实验者，不断的发现吸引到[From.GetHerHim]的新点子和话题。;;;;;;;;;;x
 EVTOPTA_ZE_13102;我应当试着阻止这些倾向……;;;;;;;;;;x
 curious_may_become_patient;让[From.GetFirstName]变得耐心的机会。;;;;;;;;;;x
 EVTDESCA_ZE_13104;[From.GetTitledFirstName]认为我不该太快质疑神职人员的说法;;;;;;;;;;x
@@ -654,8 +654,8 @@ ARMY_EXPL_DEL;你能够从你的领地和直属封臣那里征兵。\n你需要�
 YOU_IN_UNIT;§Y统治者亲征§!\n你现在正和军队一起行军，勇敢地冒着自己的生命危险。;;;;;;;;;;x
 CHARACTER_POWERFUL_EXPLANATION;是一个主要的封臣而且希望进入§Y内阁§!;;;;;;;;;;x
 COUNCIL_TABS_JOBS;职位;;;;;;;;;;x
-loyalist;§Y忠诚者§!;;;;;;;;;;x
-malcontent;§Y不满者§!;;;;;;;;;;x
+loyalist;§Y效忠者§!;;;;;;;;;;x
+malcontent;§Y反对派§!;;;;;;;;;;x
 zealot;§Y狂热者§!;;;;;;;;;;x
 pragmatist;§Y实用主义者§!;;;;;;;;;;x
 glory_hound;§Y荣誉猎犬§!;;;;;;;;;;x
@@ -1371,7 +1371,7 @@ EVTDESCC_ZE_14710;年轻的[From.GetFirstName]已经完成[From.GetHerHis]教育
 EVTDESCD_ZE_14710;年轻的[From.GetFirstName]已经完成[From.GetHerHis]教育。由于[From.GetSheHe]缺乏指导，即使尽[From.GetHerHis]最大努力学习密谋，但似乎仍然没有什么提高。;;;;;;;;;;x
 EVTDESCE_ZE_14710;年轻的[From.GetFirstName]已经完成[From.GetHerHis]教育。由于[From.GetSheHe]缺乏指导，即使尽[From.GetHerHis]最大努力学习学术，但似乎仍然没有什么提高。;;;;;;;;;;x
 EVTOPTA_ZE_14710;我辜负了 [From.GetHerHim].;;;;;;;;;;x
-loyalist_desc;一个忠实的内阁成员会是统治者的忠实仆从. 他们将全力支持统治者的决定，除非统治者侵犯了他们的利益.;;;;;;;;;;x
+loyalist_desc;一个效忠者内阁成员会是统治者的忠实仆从。他们将全力支持统治者的决定，除非统治者侵犯了他们的利益。;;;;;;;;;;x
 pragmatist_desc;实用主义的内阁成员在增加国土以及攫取自身权力方面将永远选择阻力最小的路线。他们倾向于支持收复法理领地以及针对领主同文化国家的战争。他们也可能支持针对弱小对手的战争。这种内阁成员会反对在领地内创立其他强力的封臣，并且会支持撤销已有的强力封臣的头衔。;;;;;;;;;;x
 glory_hound_desc;荣誉猎犬式的内阁成员会一直努力要求国家向光辉荣耀的方向前进。他们会反对攻击弱小的邻国，但如果战争是针对强力的对手，他们不会在意宣战理由，只要这仗能增加国土就好。这种内阁成员也会更倾向于强大的中央集权。;;;;;;;;;;x
 LAWS_TAB_INHERITANCE;继承;;;;;;;;;;x
@@ -1539,7 +1539,7 @@ alert_child_needs_focus_delayed;这些儿童缺少一个童年焦点：\n$LIST$;
 alert_child_needs_focus_name;儿童缺少童年焦点;;;;;;;;;;x
 alert_adolescent_needs_focus_instant;§Y$NUM$儿童缺少教育重心§!;;;;;;;;;;x
 alert_adolescent_needs_focus_delayed;这些儿童缺少一个教育重心：\n$LIST$;;;;;;;;;;x
-alert_adolescent_needs_focus_name;缺少教育重心;;;;;;;;;;x
+alert_adolescent_needs_focus_name;儿童缺少教育重心;;;;;;;;;;x
 GOV_FLAVOR;$TYPE$;;;;;;;;;;x
 gov_feudal_monarchy;封建君主制;;;;;;;;;;x
 opinion_inherited;前任的好感;;;;;;;;;;x
@@ -1552,7 +1552,7 @@ alert_has_favor_name;欠你人情的角色;;;;;;;;;;x
 HAS_FAVOR_ON;\n§Y有一个人情来自：§!\n;;;;;;;;;;x
 OWES_FAVOR_TO_TOOLTIP;\n§Y欠一个人情给：§!\n;;;;;;;;;;x
 COUNCIL_LAW_VOTING_DISABLED_FOR_GROUP;\n§Y内阁不被允许发起这类法律的投票。§!;;;;;;;;;;x
-COUNCIL_LAW_VOTING_ENABLED_FOR_GROUP;\n§Y一位枢密大臣可以发起对这种法律的投票，但需消耗对他们领主的人情.§!;;;;;;;;;;x
+COUNCIL_LAW_VOTING_ENABLED_FOR_GROUP;\n§Y一位内阁成员可以发起对这种法律的投票，但需消耗对他们领主的人情。§!;;;;;;;;;;x
 tribal_duchy;大酋邦;;;;;;;;;;x
 tribal_duchy_norse;雅尔国;;;;;;;;;;x
 duchy_norse;雅尔国;;;;;;;;;;x
@@ -1610,7 +1610,7 @@ gov_muslim_despotic_monarchy;专制[PrimaryTitle.GetTier];;;;;;;;;;x
 gov_aristocratic_republic;贵族统治的[PrimaryTitle.GetTier];;;;;;;;;;x
 gov_plutocratic_republic;财阀统治的[PrimaryTitle.GetTier];;;;;;;;;;x
 gov_oligarchic_republic;寡头统治的[PrimaryTitle.GetTier];;;;;;;;;;x
-gov_patrician;[GetOnlyDynastyName]贵族;;;;;;;;;;x
+gov_patrician;[GetOnlyDynastyName]贵人;;;;;;;;;;x
 gov_prince_electorate;亲王选帝侯;;;;;;;;;;x
 gov_king_electorate;国王选帝侯;;;;;;;;;;x
 gov_carolingian_hegemony;加洛林王朝霸权;;;;;;;;;;x
@@ -1623,10 +1623,10 @@ gov_crusader_kingdom;十字军王国;;;;;;;;;;x
 gov_hereditary_zun;世袭的日之[PrimaryTitle.GetTier];;;;;;;;;;x
 gov_electorial_zun;选举的日之[PrimaryTitle.GetTier];;;;;;;;;;x
 gov_terror;恐怖之[PrimaryTitle.GetTier];;;;;;;;;;x
-gov_duchy_viceroy;[Liege.PrimaryTitle.GetAdjective] 副总督;;;;;;;;;;x
-gov_king_viceroy;[Liege.PrimaryTitle.GetAdjective] 总督;;;;;;;;;;x
-gov_duchy_viceroy_byz;[Liege.PrimaryTitle.GetAdjective] 将军;;;;;;;;;;x
-gov_king_viceroy_byz;[Liege.PrimaryTitle.GetAdjective] 王国总督;;;;;;;;;;x
+gov_duchy_viceroy;[Liege.PrimaryTitle.GetAdjective]公国督区;;;;;;;;;;x
+gov_king_viceroy;[Liege.PrimaryTitle.GetAdjective]王国督区;;;;;;;;;;x
+gov_duchy_viceroy_byz;[Liege.PrimaryTitle.GetAdjective]军镇;;;;;;;;;;x
+gov_king_viceroy_byz;[Liege.PrimaryTitle.GetAdjective]行省;;;;;;;;;;x
 gov_aztec;阿兹特克殖民地;;;;;;;;;;x
 gov_electorial_absolute_hre;选举集权制[PrimaryTitle.GetTier];;;;;;;;;;x
 gov_hereditary_absolute_hre;世袭集权制[PrimaryTitle.GetTier];;;;;;;;;;x
@@ -1634,17 +1634,17 @@ gov_electorial_despotic_hre;选举专制[PrimaryTitle.GetTier];;;;;;;;;;x
 gov_hereditary_despotic_hre;世袭专制[PrimaryTitle.GetTier];;;;;;;;;;x
 gov_aristocratic_electorial_hre;贵族选举制[PrimaryTitle.GetTier];;;;;;;;;;x
 gov_aristocratic_hereditary_hre;贵族世袭制[PrimaryTitle.GetTier];;;;;;;;;;x
-gov_nomadic_mongol_empire;蒙古帝国;;;;;;;;;;x
+gov_nomadic_mongol_empire;大蒙古国;;;;;;;;;;x
 gov_khaganate;[Culture.GetName][PrimaryTitle.GetTier];;;;;;;;;;x
 gov_clan;[GetOnlyDynastyName][PrimaryTitle.GetTier];;;;;;;;;;x
 LAW_COUNCIL_REJECTED_SETUP;内阁拒绝了一项法案;;;;;;;;;;x
-ALLOW_FEMINISM_ON;女性统治者不会招致负面关系效果修正\n;;;;;;;;;;x
-ALLOW_FEMINISM_OFF;女性统治者招致负面关系效果修正\n;;;;;;;;;;x
+ALLOW_FEMINISM_ON;女性统治者不会招致负面好感修正\n;;;;;;;;;;x
+ALLOW_FEMINISM_OFF;女性统治者招致负面好感修正\n;;;;;;;;;;x
 ALLOW_GENDER_LAWS_ON;允许更改性别法\n;;;;;;;;;;x
 ALLOW_GENDER_LAWS_OFF;不允许更改性别法\n;;;;;;;;;;x
-alert_my_peace_soon_enforced_instant;§Y 你正在执行全境和平！ §!;;;;;;;;;;x
+alert_my_peace_soon_enforced_instant;§Y你正在执行全境和平！§!;;;;;;;;;;x
 alert_my_peace_soon_enforced_delayed;你的内阁已宣布和平应当统治全境！\n所有的封臣间内战将在 $MONTHS|Y$ 个月内以§Y无条件和平§!结束！;;;;;;;;;;x
-alert_my_peace_being_enforced_instant;§Y 全境和平已执行！ §!;;;;;;;;;;x
+alert_my_peace_being_enforced_instant;§Y全境和平已执行！§!;;;;;;;;;;x
 alert_my_peace_being_enforced_delayed;你的内阁宣布国内应该和平！\n你的封臣在未来 $MONTHS|Y$ 月内不能互相发动战争！;;;;;;;;;;x
 tribal_county;酋邦;;;;;;;;;;x
 tribal_kingdom_old_saxon;大酋邦;;;;;;;;;;x
@@ -1654,7 +1654,7 @@ tribal_kingdom_arabic;苏丹国;;;;;;;;;;x
 tribal_empire_russian;沙皇国;;;;;;;;;;x
 duchy_russian;大公国;;;;;;;;;;x
 empire_russian;沙皇国;;;;;;;;;;x
-gov_revolt;[PrimaryTitle.GetAdjective] 叛乱;;;;;;;;;;x
+gov_revolt;[PrimaryTitle.GetAdjective]叛乱;;;;;;;;;;x
 gov_romuva_eldership;[Religion.GetName]长老;;;;;;;;;;x
 gov_noble_romuva_eldership;高贵的 [Religion.GetName]长老;;;;;;;;;;x
 gov_norse_chiefdom;[Religion.GetName][PrimaryTitle.GetTier];;;;;;;;;;x
@@ -1675,21 +1675,21 @@ FAVOR_FORCE_GUARDIANSHIP;强迫接受教育儿童提议;;;;;;;;;;x
 FAVOR_END_PLOT;强迫接受结束密谋或停止支持密谋请求;;;;;;;;;;x
 COUNCIL_CONTENT;内阁表示满意;;;;;;;;;;x
 COUNCIL_DISCONTENT;内阁不满直到 $UNTIL$;;;;;;;;;;x
-COUNCIL_STATUS_LONG_CONTENT_PLAYER;你的内阁现在是§Y满意的§!;;;;;;;;;;x
+COUNCIL_STATUS_LONG_CONTENT_PLAYER;你的[Actor.GetCouncilName]现在是§Y满意的§!;;;;;;;;;;x
 COUNCIL_STATUS_LONG_CONTENT_LIEGE;§Y[Actor.GetBestName]§!的[Actor.GetCouncilName]是§Y满意的§!;;;;;;;;;;x
-COUNCIL_STATUS_LONG_DISCONTENT_PLAYER;你的 [Actor.GetCouncilName]已经 §Y 不满 §! 了 $DISCONTENT_DURATION$ 个月。;;;;;;;;;;x
-COUNCIL_STATUS_LONG_DISCONTENT_LIEGE;[Actor.GetBestName]的 [Actor.GetCouncilName]已经 §Y 不满 §! 了 $DISCONTENT_DURATION$ 个月。;;;;;;;;;;x
-COUNCIL_REASON_FOR_DISCONTENT;不满意的原因：\n$REASON|Y$ \n\n;;;;;;;;;;x
+COUNCIL_STATUS_LONG_DISCONTENT_PLAYER;你的[Actor.GetCouncilName]已经§Y不满§!了 $DISCONTENT_DURATION$ 个月。;;;;;;;;;;x
+COUNCIL_STATUS_LONG_DISCONTENT_LIEGE;[Actor.GetBestName]的[Actor.GetCouncilName]已经§Y不满§!了 $DISCONTENT_DURATION$ 个月。;;;;;;;;;;x
+COUNCIL_REASON_FOR_DISCONTENT;不满的原因：\n$REASON|Y$ \n\n;;;;;;;;;;x
 GENERIC_DISCONTENT_REASON;做了一个内阁不同意的决定;;;;;;;;;;x
 INHERITANCE_TAB;§Y继承法§!;;;;;;;;;;x
 INHERITANCE_TAB_DELAYED;这些法律规定了采取何种继承法及继承人的权力。;;;;;;;;;;x
 REALM_TAB;§Y领地法§!;;;;;;;;;;x
 REALM_TAB_DELAYED;这些法律规定了领地如何运作及领主的权力。;;;;;;;;;;x
 OBLIGATIONS_TAB;§Y义务法§!;;;;;;;;;;x
-OBLIGATIONS_TAB_DELAYED;这些法律规定了税收多少以及封臣需要交多少税款给领主。;;;;;;;;;;x
+OBLIGATIONS_TAB_DELAYED;这些法律规定了税收多少以及封臣需要提供多少兵力给领主。;;;;;;;;;;x
 COUNCIL_LAW_TAB;§Y内阁法律§!;;;;;;;;;;x
 COUNCIL_LAW_TAB_DELAYED;这些法律规定了内阁是否存在且内阁允许影响哪些议题。;;;;;;;;;;x
-revoke_title_interaction_voting;撤销头衔;;;;;;;;;;x
+revoke_title_interaction_voting;剥夺头衔;;;;;;;;;;x
 imprison_character_interaction_voting;监禁;;;;;;;;;;x
 grant_landed_title_interaction_voting;授予头衔;;;;;;;;;;x
 exile_imprisoned_interaction_voting;驱逐;;;;;;;;;;x
@@ -1704,9 +1704,9 @@ CB_NAME_INCREASE_COUNCIL_POWER;增加内阁权力;;;;;;;;;;x
 WAR_NAME_INCREASE_COUNCIL_POWER;$ORDER$$SECOND_ADJ$增加内阁权力内战;;;;;;;;;;x
 council_off_custom;不能使用§Y全境和平§!;;;;;;;;;;x
 council_on_custom;解锁额外内阁权力法律\n允许使用§Y全境和平§!;;;;;;;;;;x
-EVTDESC8215;长久以来，你一直限制着封臣的政治影响。但这一切都将结束，是时候给[Root.GetCouncilName]更多权力了！和平地提出这项要求或面对这将带来的后果。最后确认我已经把那些感到不安的人集中了起来……\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTDESC8215;很长时间以来，你一直限制着封臣的政治影响。但这一切都将结束，是时候给[Root.GetCouncilName]更多权力了！要么和平地服从这项要求，要么面对这将带来的后果。放心吧，我已经把那些感到不安的人集中了起来……\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 opinion_childhood_sweetheart;青梅竹马;;;;;;;;;;x
-pattern_loyalist_vote_as_liege_custom_tooltip;这个投票者是保皇派，他会支持领主\n;;;;;;;;;;x
+pattern_loyalist_vote_as_liege_custom_tooltip;这个投票者是效忠者，他会支持领主\n;;;;;;;;;;x
 pattern_pragmatist_weak_opponent_custom_tooltip;敌人比我们弱很多\n;;;;;;;;;;x
 pattern_pragmatist_de_jure_or_culture_custom_tooltip;目标领地是我们法理领土的一部分或者是我们文化组的一部分\n;;;;;;;;;;x
 pattern_pragmatist_strong_opponent_custom_tooltip;敌人过于强大，我们无法对付\n;;;;;;;;;;x
@@ -1744,15 +1744,15 @@ CANNOT_CHANGE_CHILDHOOD_FOCUS;§R童年焦点不能在设置后改变。§!\n§Y
 CANNOT_CHANGE_EDUCATION_FOCUS;§R教育重心不能在设置后改变。§!\n§Y教育重心将在角色成年后自动移除。§!;;;;;;;;;;x
 LAW_CHANGE_TIMEOUT;§R内阁最近驳回了一项法律变更提议。你可以在 $DATE$ 时再次提出法律变更§!;;;;;;;;;;x
 dissolve_mercenary_company_feudal;解散佣兵团;;;;;;;;;;x
-INTERACTION_TITLE_REVOCATION_ALLOWED;头衔收回法案在 §Y$TITLE$§! 中是激活的;;;;;;;;;;x
+INTERACTION_TITLE_REVOCATION_ALLOWED;头衔剥夺法案在§Y$TITLE$§!中是激活的;;;;;;;;;;x
 EVTOPTB63043;这是无效的。;;;;;;;;;;x
 EVTOPTB63043_TOOLTIP;放弃你的野心。;;;;;;;;;;x
 EVTOPTB_ZE_13102;男孩毕竟是男孩。;;;;;;;;;;x
 EVTOPTC_ZE_13102;女孩毕竟是女孩。;;;;;;;;;;x
-SAME_POSITION_AS;与 $TARGET|Y$ 有相同的投票意愿($POSITION$);;;;;;;;;;x
+SAME_POSITION_AS;与$TARGET|Y$有相同的投票意愿（$POSITION$）;;;;;;;;;;x
 HAS_POSITION;有$POSITION|Y$的投票意愿;;;;;;;;;;x
-HAS_MERCENARY_UNITS;$CHARACTER$ 拥有雇佣单位;;;;;;;;;;x
-COUNCILOR_VOTES;投票支持 $ISSUE|Y$;;;;;;;;;;x
+HAS_MERCENARY_UNITS;$CHARACTER$拥有雇佣单位;;;;;;;;;;x
+COUNCILOR_VOTES;投票支持$ISSUE|Y$;;;;;;;;;;x
 INSULT_USELESS;无用者;;;;;;;;;;x
 INSULT_WINDBAG;满嘴空话;;;;;;;;;;x
 INSULT_SNEAK;告密者;;;;;;;;;;x
