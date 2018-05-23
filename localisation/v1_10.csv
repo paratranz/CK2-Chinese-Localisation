@@ -54,8 +54,8 @@ RETCAP_FROM_RELIGION;来自宗教的影响：$AMOUNT$\n;;;;;;;;;;x
 RETCAP_TOTAL;\n总计：§Y$TOTAL$§!;;;;;;;;;;x
 RAISE_COUNTY_LEVIES;征募当地兵员;;;;;;;;;;x
 RAISE_COUNTY_FLEETS;征募当地船只;;;;;;;;;;x
-TECH_DEM_INC_EMPERORS;§G+$AMOUNT$§! 皇帝直辖规模;;;;;;;;;;x
-TECH_DEM_INC_KINGS;§G+$AMOUNT$§! 国王直辖规模;;;;;;;;;;x
+TECH_DEM_INC_EMPERORS;§G+$AMOUNT$§! 皇帝直辖领地规模;;;;;;;;;;x
+TECH_DEM_INC_KINGS;§G+$AMOUNT$§! 国王直辖领地规模;;;;;;;;;;x
 TECH_DEM_INC_DUKES;§G+$AMOUNT$§! 公爵直辖规模;;;;;;;;;;x
 TECH_DEM_INC_COUNTS;§G+$AMOUNT$§! 伯爵直辖规模;;;;;;;;;;x
 TECH_DEM_INC_BARONS;§G+$AMOUNT$§! 男爵直辖规模;;;;;;;;;;x
@@ -73,10 +73,10 @@ lost_holy_war;圣战失败;;;;;;;;;;x
 paragon_of_virtue;美德典范;;;;;;;;;;x
 ruler_bowed_to_pope;接受教宗的要求;;;;;;;;;;x
 ruler_defied_pope;拒绝教宗的要求;;;;;;;;;;x
-ruler_bowed_to_patriarch;接受来自家族的要求;;;;;;;;;;x
-ruler_defied_patriarch;拒绝来自家族的要求;;;;;;;;;;x
-religious_order_formed;形成宗教秩序;;;;;;;;;;x
-head_of_religion_neglect;忽视宗教领袖;;;;;;;;;;x
+ruler_bowed_to_patriarch;接受来自牧首的要求;;;;;;;;;;x
+ruler_defied_patriarch;拒绝来自牧首的要求;;;;;;;;;;x
+religious_order_formed;成立骑士团;;;;;;;;;;x
+head_of_religion_neglect;疏忽的宗教领袖;;;;;;;;;;x
 convert_to_attacker_religion;转换成入侵者的宗教;;;;;;;;;;x
 convert_to_attacker_religion_desc;我们现在正因为宗教原因被攻击.如果我选择改变信仰，我们就可以结束这场战争，保护我们的人民……;;;;;;;;;;x
 OPINION_CHANGE;§Y$ACTIVE$§!对§Y$PASSIVE$§!的态度改变 $MUCH$;;;;;;;;;;x
@@ -126,19 +126,19 @@ EVTNAME670;_[Root.Religion.GetName]改革;;;;;;;;;;x
 EVTDESC670;古老的 [Root.Religion.GetName]宗教已经被证明无法抵御十字架与月亮的冲击.比起完全放弃旧模式，[Root.GetTitledName]跟一些最有势力的牧师已经决定对 [Root.Religion.GetName]信仰进行改革.随着新的礼拜式的编排，一部圣经跟在一个领导者领导下的教廷严格等级制度也面世了，他们希望通过对[Root.Religion.GetName]信仰的改革，可以更好地对抗外国宗教信仰!;;;;;;;;;;x
 EVTOPTA670;为了 [Root.Religion.GetRandomGodName]!;;;;;;;;;;x
 EVTOPTB670;接受改革！;;;;;;;;;;x
-EVTOPTC670;老方法才是最好的;;;;;;;;;;x
+EVTOPTC670;老方法仍然是最好的;;;;;;;;;;x
 EVTOPTD670;他们还是野蛮人！;;;;;;;;;;x
-NUM_CULTURE_REALM_PROVS_LESS;领土内少于§Y$NUM$§! 个§Y$CULTURE$§! 封国;;;;;;;;;;x
-NUM_CULTURE_REALM_PROVS_MORE;领土内至少有§Y$NUM$§!§Y$CULTURE$§!个封国;;;;;;;;;;x
-NUM_TITLE_REALM_PROVS_LESS;小于§Y$TITLE$§! 领土内的§Y$NUM$§! 封国数目;;;;;;;;;;x
-NUM_TITLE_REALM_PROVS_MORE;§Y$TITLE$§! 领土内至少有§Y$NUM$§! 封国;;;;;;;;;;x
+NUM_CULTURE_REALM_PROVS_LESS;领土内少于§Y$NUM$§! 个§Y$CULTURE$§! 伯爵领;;;;;;;;;;x
+NUM_CULTURE_REALM_PROVS_MORE;领土内至少有§Y$NUM$§!§Y$CULTURE$§!个伯爵领;;;;;;;;;;x
+NUM_TITLE_REALM_PROVS_LESS;小于§Y$TITLE$§! 领土内的§Y$NUM$§! 伯爵领数目;;;;;;;;;;x
+NUM_TITLE_REALM_PROVS_MORE;§Y$TITLE$§! 领土内至少有§Y$NUM$§! 伯爵领;;;;;;;;;;x
 d_norse_pagan_reformed;英雄王国;;;;;;;;;;x
-d_norse_pagan_reformed_adj;英雄王国;;;;;;;;;;x
-d_baltic_pagan_reformed;洛姆瓦教团;;;;;;;;;;x
+d_norse_pagan_reformed_adj;诺斯;;;;;;;;;;x
+d_baltic_pagan_reformed;洛姆瓦教会;;;;;;;;;;x
 d_baltic_pagan_reformed_adj;洛姆瓦教;;;;;;;;;;x
-d_slavic_pagan_reformed;斯拉夫多神教教团;;;;;;;;;;x
+d_slavic_pagan_reformed;斯拉夫多神教教会;;;;;;;;;;x
 d_slavic_pagan_reformed_adj;斯拉夫多神教;;;;;;;;;;x
-d_tengri_pagan_reformed;长生天教团;;;;;;;;;;x
+d_tengri_pagan_reformed;长生天教会;;;;;;;;;;x
 d_tengri_pagan_reformed_adj;长生天;;;;;;;;;;x
 d_finnish_pagan_reformed;索米多神教教会;;;;;;;;;;x
 d_finnish_pagan_reformed_adj;索米多神教;;;;;;;;;;x
@@ -158,13 +158,13 @@ d_york_adj_danish;约维克;;;;;;;;;;x
 d_york_adj_norwegian;约维克;;;;;;;;;;x
 d_pecs_adj_bohemian;巴拉顿;;;;;;;;;;x
 c_pecs_adj_bohemian;巴拉顿;;;;;;;;;;x
-d_ungvar_adj_croatian;克洛巴提亚;;;;;;;;;;x
+d_ungvar_adj_croatian;克罗地亚;;;;;;;;;;x
 k_asturias;阿斯图里亚斯;;;;;;;;;;x
 k_asturias_adj;阿斯图里亚斯;;;;;;;;;;x
-d_lendians;伦地安;;;;;;;;;;x
-d_lendians_adj;伦地安;;;;;;;;;;x
+d_lendians;伦地亚人;;;;;;;;;;x
+d_lendians_adj;伦地亚;;;;;;;;;;x
 d_kryvians;魁维安;;;;;;;;;;x
-d_kryvians_adj;魁维安;;;;;;;;;;x
+d_kryvians_adj;克里维亚;;;;;;;;;;x
 d_vyatichi;维蒂奇;;;;;;;;;;x
 d_vyatichi_adj;维蒂奇;;;;;;;;;;x
 d_severians;塞韦利安;;;;;;;;;;x

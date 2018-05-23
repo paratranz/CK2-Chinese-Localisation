@@ -660,7 +660,7 @@ zealot;§Y狂热者§!;;;;;;;;;;x
 pragmatist;§Y实用主义者§!;;;;;;;;;;x
 glory_hound;§Y荣誉猎犬§!;;;;;;;;;;x
 LAWS_COUNCIL_POWER;内阁法律;;;;;;;;;;x
-councillors_changed_jobs;最近改变的内阁席位;;;;;;;;;;x
+councillors_changed_jobs;最近曾改变内阁席位;;;;;;;;;;x
 COUNCIL_JOBS_TITLE;§Y职位§!;;;;;;;;;;x
 change_council_job;改变内阁席位;;;;;;;;;;x
 EVTDESC_ZE_6021;给[moving_councillor.GetTitledName]在内阁中一个什么合适的位置？;;;;;;;;;;x
@@ -702,8 +702,8 @@ EVTOPTC290;反对;;;;;;;;;;x
 INFAMY_HISTORY_STR;$TEXT$：§Y$VALUE$%§!;;;;;;;;;;x
 INFAMY_DECAY;每月衰减：§Y$DECAY$%§!;;;;;;;;;;x
 VASSAL_REALM_INFAMY;$REALM|Y$的统治者;;;;;;;;;;x
-ADJUST_SIPHON_FACTOR_EFFECT;增加为$TITLE$的支付因数从$VALUE1|%$ 到 $VALUE2$%。;;;;;;;;;;x
-SET_SIPHON_FACTOR_TO_EFFECT;为$TITLE$的支付因数设定为$VALUE$%。;;;;;;;;;;x
+ADJUST_SIPHON_FACTOR_EFFECT;$TITLE$的支付因数增加 $VALUE1|%$ 变成 $VALUE2$%。;;;;;;;;;;x
+SET_SIPHON_FACTOR_TO_EFFECT;$TITLE$的支付因数设定为 $VALUE$%。;;;;;;;;;;x
 CREATE_DYNAMIC_MERC_TOOLTIP;§Y[Root.GetFirstName]§!集合了一队士兵然后开始寻找雇主。;;;;;;;;;;x
 EVTDESC_ZE_10031;[Root.PrimaryTitle.GetFOA]，\n我和我的人现在无法找到一个肯雇佣我们的战场来体现我们的专业能力以获取黄金，更加不幸的是我们的口粮快要吃完了。所以我需要另外的投资来避免我的人饿死。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA_ZE_10031;我将支付额外的口粮的费用。;;;;;;;;;;x
@@ -827,14 +827,14 @@ execution_voting_power_1;内阁决定死刑;;;;;;;;;;x
 execution_voting_power_1_desc;内阁成员投票决定是否执行死刑。\n;;;;;;;;;;x
 execution_voting_power_1_option;内阁;;;;;;;;;;x
 DYNAMIC_MERCENARY_COMPANY_FEUDAL;[Prev.Capital.County.GetAdjective]大队;;;;;;;;;;x
-LAW_REJECTED_LOG;§Y$VASSAL$§! 拒绝在 §Y$TITLE$§! 实行 §Y$LAW$§! 法律的提议;;;;;;;;;;x
+LAW_REJECTED_LOG;§Y$VASSAL$§!拒绝在§Y$TITLE$§!实行§Y$LAW$§!法律的提议;;;;;;;;;;x
 LAW_REJECTED_SETUP;封臣拒绝了法令;;;;;;;;;;x
 EVTDESC8218;为了避免内战分裂国土的危险，我决定同意你的请求并给予[Root.GetCouncilName]更大的立法权。但是我永远不会忘记这种背信弃义的讹诈行为……\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTDESC8217;在强大派系的压力之下，§Y[From.GetTitledName]§!同意扩大[Root.GetCouncilName]的权力。;;;;;;;;;;x
 EVTDESC8216;为了避免国家因内战而分裂，[From.GetTitledName]已经同意给予[Root.GetCouncilName]更大的立法权。你在此事中的宝贵支持我们将谨记于心。\n\n真诚的，\n[FromFrom.GetTitledName];;;;;;;;;;x
 faction_increase_council_power_ultimatum;要求扩大内阁的职权;;;;;;;;;;x
 faction_increase_council_power_ultimatum_desc;向§Y[Root.Liege.GetBestName]§!发出最后通牒，要求增加内阁的权力。如果[Root.Liege.GetSubjectPronoun]拒绝遵从，你的派系会起兵反抗。;;;;;;;;;;x
-faction_increase_council_power_short;扩大内阁的职权;;;;;;;;;;x
+faction_increase_council_power_short;扩大内阁权力;;;;;;;;;;x
 faction_increase_council_power_title;在[This.GetName]扩大内阁权力;;;;;;;;;;x
 faction_increase_council_power_desc;派系成员们增加内阁能够制定的法令，而不是君主独断专行。当派系积蓄了足够的力量，§Y[From.GetBestName]§!将会向§Y[From.Liege.GetBestName]§!发出最后通牒。;;;;;;;;;;x
 opinion_increased_council_power;已增加内阁权力;;;;;;;;;;x
@@ -842,24 +842,24 @@ opinion_decreased_council_power;已削减内阁权力;;;;;;;;;;x
 opinion_likes_new_obligation_law;喜欢新的义务法;;;;;;;;;;x
 opinion_dislikes_new_obligation_law;讨厌新的义务法;;;;;;;;;;x
 out_of_realm_inheritance_law_0;自由继承;;;;;;;;;;x
-out_of_realm_inheritance_law_0_desc;对封臣头衔由外国继承没有任何特殊规定;;;;;;;;;;x
+out_of_realm_inheritance_law_0_desc;对封臣头衔由外国继承没有任何特殊规定。;;;;;;;;;;x
 out_of_realm_inheritance_law_0_option;自由;;;;;;;;;;x
 out_of_realm_inheritance_law_1;限定继承;;;;;;;;;;x
 out_of_realm_inheritance_law_1_desc;不允许外国人继承封臣头衔;;;;;;;;;;x
 out_of_realm_inheritance_law_1_option;非法;;;;;;;;;;x
 out_of_realm_inheritance_law_desc;制定控制领地继承的法令，可以确保头衔不被忠于另一位君主的人继承。;;;;;;;;;;x
-out_of_realm_inheritance_law;领地继承控制;;;;;;;;;;x
+out_of_realm_inheritance_law;控制领地继承;;;;;;;;;;x
 status_of_women;妇女地位;;;;;;;;;;x
-status_of_women_desc;中世纪社会通常在家长式的统治下运行，而女性被排除在权利的核心之外。君主可以颁布相关的法令，提升女性在社会中的地位;;;;;;;;;;x
+status_of_women_desc;中世纪社会通常在家长式的统治下运行，而女性被排除在权利的核心之外。君主可以颁布相关的法令，提升女性在社会中的地位。;;;;;;;;;;x
 status_of_women_0;传统女性地位;;;;;;;;;;x
-status_of_women_0_desc;女性被禁止担任任何职位。一些政体将会限定继承人为男性;;;;;;;;;;x
+status_of_women_0_desc;女性被禁止担任任何职位。一些政体将会限定继承人为男性。;;;;;;;;;;x
 status_of_women_0_option;传统;;;;;;;;;;x
 status_of_women_1;边缘女性地位;;;;;;;;;;x
-status_of_women_1_desc;女性被允许掌握一定的权力，身居幕后辅佐主事者;;;;;;;;;;x
-status_of_women_1_option;边缘化;;;;;;;;;;x
-status_of_women_2;形式女性地位;;;;;;;;;;x
-status_of_women_2_desc;女性被正式授予政治权力，被允许担任公职;;;;;;;;;;x
-status_of_women_2_option;形式;;;;;;;;;;x
+status_of_women_1_desc;女性被允许掌握一定的权力，身居幕后辅佐主事者。;;;;;;;;;;x
+status_of_women_1_option;边缘;;;;;;;;;;x
+status_of_women_2;重要女性地位;;;;;;;;;;x
+status_of_women_2_desc;女性被正式授予政治权力，被允许担任公职。;;;;;;;;;;x
+status_of_women_2_option;重要;;;;;;;;;;x
 status_of_women_3;显著女性地位;;;;;;;;;;x
 status_of_women_3_desc;对女性的限制被正式废止。所有的职位为杰出的女性敞开大门。;;;;;;;;;;x
 status_of_women_3_option;显著;;;;;;;;;;x
@@ -1522,7 +1522,7 @@ LAW_VOTER_X;$NAME$ x$NUM|Y$\n;;;;;;;;;;x
 CANCEL_LAW_VOTE;§Y取消当前的法律更改§!;;;;;;;;;;x
 VOTE_FOR_LAW;§Y投票支持当前的法律更改§!;;;;;;;;;;x
 VOTE_AGAINST_LAW;§Y投票反对当前的法律更改§!;;;;;;;;;;x
-OPEN_LIST_OF_UNDECIDED_VOTERS;§Y打开尚未投票者列表.§!;;;;;;;;;;x
+OPEN_LIST_OF_UNDECIDED_VOTERS;§Y打开尚未投票者列表。§!;;;;;;;;;;x
 LAW_VOTE_STATUS_ZEUS;投票支持：§Y$LAW$§! ( $YES|G$/$NO|R$/$WAITING$ );;;;;;;;;;x
 REQUEST_SUPPORT_INTERACTION_ACCEPT_SETUP;要求支持的请求被接受;;;;;;;;;;x
 REQUEST_SUPPORT_INTERACTION_ACCEPT_LOG;§Y[Actor.GetDynName]§! 愿意支持 §Y[Recipient.GetDynName]§!;;;;;;;;;;x
@@ -1547,10 +1547,10 @@ opinion_inherited_negative;前任的好感;;;;;;;;;;x
 CHARACTER_POWERFUL_TOOLTIP;§Y强力封臣§!;;;;;;;;;;x
 CHARACTER_POWERFUL_TOOLTIP_ANGRY;§R因为未入内阁而愤怒。§!;;;;;;;;;;x
 alert_has_favor_instant;§Y$NUM$角色欠你人情§!;;;;;;;;;;x
-alert_has_favor_delayed;下列角色欠你人情:\n$LIST$\n\n人情可用于下列事项:\n$ACTIONS$;;;;;;;;;;x
+alert_has_favor_delayed;下列角色欠你人情：\n$LIST$\n\n人情可用于下列事项：\n$ACTIONS$;;;;;;;;;;x
 alert_has_favor_name;欠你人情的角色;;;;;;;;;;x
 HAS_FAVOR_ON;\n§Y有一个人情来自：§!\n;;;;;;;;;;x
-OWES_FAVOR_TO_TOOLTIP;\n§Y欠一个人情 对于：§!\n;;;;;;;;;;x
+OWES_FAVOR_TO_TOOLTIP;\n§Y欠一个人情给：§!\n;;;;;;;;;;x
 COUNCIL_LAW_VOTING_DISABLED_FOR_GROUP;\n§Y内阁不被允许发起这类法律的投票。§!;;;;;;;;;;x
 COUNCIL_LAW_VOTING_ENABLED_FOR_GROUP;\n§Y一位枢密大臣可以发起对这种法律的投票，但需消耗对他们领主的人情.§!;;;;;;;;;;x
 tribal_duchy;大酋邦;;;;;;;;;;x
@@ -1710,22 +1710,22 @@ pattern_loyalist_vote_as_liege_custom_tooltip;这个投票者是保皇派，他�
 pattern_pragmatist_weak_opponent_custom_tooltip;敌人比我们弱很多\n;;;;;;;;;;x
 pattern_pragmatist_de_jure_or_culture_custom_tooltip;目标领地是我们法理领土的一部分或者是我们文化组的一部分\n;;;;;;;;;;x
 pattern_pragmatist_strong_opponent_custom_tooltip;敌人过于强大，我们无法对付\n;;;;;;;;;;x
-pattern_pragmatist_dislike_large_demesne_custom_tooltip;目标角色直辖领为4或更多\n;;;;;;;;;;x
+pattern_pragmatist_dislike_large_demesne_custom_tooltip;目标角色直辖领为 4 或更多\n;;;;;;;;;;x
 pattern_glory_hound_glorious_war_custom_tooltip;敌人比我强大，这场战场将会是光荣的！\n;;;;;;;;;;x
 pattern_glory_hound_preferred_war_custom_tooltip;这是我首选的战争目标！\n;;;;;;;;;;x
-pattern_glory_hound_land_grab_custom_tooltip;赢得这场战争使王国得到发展！\n;;;;;;;;;;x
+pattern_glory_hound_land_grab_custom_tooltip;赢得这场战争会使国家得到发展！\n;;;;;;;;;;x
 pattern_glory_hound_opponent_too_weak_custom_tooltip;战争中无法获得荣誉，敌人太弱了\n;;;;;;;;;;x
 pattern_zealot_depose_wicked_pope_custom_tooltip;这场战争将废黜邪恶的教宗\n;;;;;;;;;;x
 pattern_zealot_dislikes_heathens_heretics_custom_tooltip;这场战争针对异教敌人！\n;;;;;;;;;;x
 pattern_attacking_excom_or_antipope_custom_tooltip;这场战争针对绝罚者或者对立教宗\n;;;;;;;;;;x
 pattern_zealot_not_other_religion_antipope_custom_tooltip;目标不是另一个宗教的对立教宗\n;;;;;;;;;;x
 pattern_malcontent_vote_against_liege_custom_tooltip;这名投票者是反对派，他将会反对领主\n;;;;;;;;;;x
-pattern_selfish_gain_title_custom_tooltip;我将获得一个头衔\n;;;;;;;;;;x
+pattern_selfish_gain_title_custom_tooltip;我将获得一个头衔！\n;;;;;;;;;;x
 pattern_selfish_save_my_hide_custom_tooltip;我在一场战争快输了，这可以保住我的实力！\n;;;;;;;;;;x
-pattern_selfish_save_ally_custom_tooltip;我的同盟在一场战争中快输了，这帮助他们\n;;;;;;;;;;x
+pattern_selfish_save_ally_custom_tooltip;我的同盟在一场战争中快输了，这会帮助他们！\n;;;;;;;;;;x
 pattern_selfish_lose_title_custom_tooltip;我会失去一个头衔！\n;;;;;;;;;;x
 pattern_selfish_affects_me_custom_tooltip;这对我产生消极影响\n;;;;;;;;;;x
-pattern_i_am_unlanded_custom_tooltip;我应该得到这个头衔！\n;;;;;;;;;;x
+pattern_i_am_unlanded_custom_tooltip;我没有土地，我应该得到这个头衔！\n;;;;;;;;;;x
 pattern_my_de_jure_title_custom_tooltip;这个头衔是我的法理领土之一，这是我的！\n;;;;;;;;;;x
 pattern_i_desire_this_title_custom_tooltip;我渴望得到这个头衔\n;;;;;;;;;;x
 pattern_selfish_i_am_winning_custom_tooltip;我打赢了一场战争\n;;;;;;;;;;x
@@ -1735,9 +1735,9 @@ pattern_family_against_family_custom_tooltip;这场战争针对我的一个家�
 pattern_family_member_lose_title_custom_tooltip;我的家族成员会失去一个头衔！\n;;;;;;;;;;x
 pattern_family_member_affected_negatively_custom_tooltip;我的家族成员会受到消极影响\n;;;;;;;;;;x
 pattern_this_is_my_war_target_custom_tooltip;这是我首选的战争目标！\n;;;;;;;;;;x
-pattern_interaction_dislike_custom_tooltip;我不喜欢这个人\n;;;;;;;;;;x
-pattern_interaction_like_custom_tooltip;我喜欢这个人\n;;;;;;;;;;x
-pattern_interaction_dont_dislike_unlanded_custom_tooltip;我讨厌这个人而且他没有领地\n;;;;;;;;;;x
+pattern_interaction_dislike_custom_tooltip;我不喜欢这个角色\n;;;;;;;;;;x
+pattern_interaction_like_custom_tooltip;我喜欢这个角色\n;;;;;;;;;;x
+pattern_interaction_dont_dislike_unlanded_custom_tooltip;我讨厌这个角色而且他没有领地\n;;;;;;;;;;x
 PICK_CHILDHOOD_FOCUS_DESC;一旦设置，你将不能够改变童年焦点。\n§R如果未设置，小孩会被随机教育。§!;;;;;;;;;;x
 PICK_ADOLESCENCE_FOCUS_DESC;教育重心一旦设置，你将不能够改变它。\n§R如果未设置，小孩会被随机教育，并得到一个相对于你选择的教育而言非常差的结果。§!;;;;;;;;;;x
 CANNOT_CHANGE_CHILDHOOD_FOCUS;§R童年焦点不能在设置后改变。§!\n§Y童年焦点将会在角色12岁时自动移除，到时候你可以另选择教育焦点。§!;;;;;;;;;;x
