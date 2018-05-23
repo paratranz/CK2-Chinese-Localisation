@@ -620,7 +620,7 @@ SUCCESS_VERIFICATION_EMAIL_SENT;帐号已创建。一个验证电子邮件已发
 SERVER_ERROR;服务器错误;;;;;;;;;;x
 COULD_NOT_FIND_ACCOUNT;找不到帐号。;;;;;;;;;;x
 EVTTITLE_ZE_8001;配偶访问;;;;;;;;;;x
-MINOR_TITLE_REVOKABLE;$TITLE$可收回;;;;;;;;;;x
+MINOR_TITLE_REVOKABLE;$TITLE$可被剥夺;;;;;;;;;;x
 FAVOR_EXPIRES_IN;有效的人情将在$FAVOR_EXPIRATION|Y$个月内到期;;;;;;;;;;x
 BUY_FAVOR_INTERACTION_ACCEPT_SETUP;购买人情;;;;;;;;;;x
 BUY_FAVOR_INTERACTION_ACCEPT_LOG;§Y[Actor.GetDynName]§!从§Y[Recipient.GetDynName]§!购买了一个人情;;;;;;;;;;x
@@ -716,8 +716,8 @@ EVTDESC_ZE_10071;[Root.PrimaryTitle.GetFOA]，\n战争是残酷的，士兵们�
 EVTOPTA_10071;这些人当然应该获得慷慨的回报。;;;;;;;;;;x
 EVTOPTB_10071;让他们保留一点钱。;;;;;;;;;;x
 EVTOPTC_10071;我需要提醒[From.GetName]，这将违反合同。;;;;;;;;;;x
-MERCENARY_SIPHON_FACTOR_LOWER;为$TITLE$的支付因数现在高于$VALUE|%$;;;;;;;;;;x
-MERCENARY_SIPHON_FACTOR_HIGHER;为$TITLE$的支付因数现在低于$VALUE|%$;;;;;;;;;;x
+MERCENARY_SIPHON_FACTOR_LOWER;$TITLE$的支付因数现在高于$VALUE|%$;;;;;;;;;;x
+MERCENARY_SIPHON_FACTOR_HIGHER;$TITLE$的支付因数现在低于$VALUE|%$;;;;;;;;;;x
 tax_levy_law_feudal;贵族;;;;;;;;;;x
 tax_levy_law_feudal_desc;贵族义务法;;;;;;;;;;x
 tax_levy_law_feudal_0;重税侧重贵族义务;;;;;;;;;;x
@@ -1434,8 +1434,8 @@ offer_donation_custom_tooltip;你的领主收到你的捐赠意向.\n;;;;;;;;;;x
 donation_cooldown_custom_tooltip;不可在最近5年内曾被拒绝过捐款意向;;;;;;;;;;x
 HIRED_MERCENARIES_INCOME_ENTRY;$HOLDER$：$INCOME|Y$;;;;;;;;;;x
 INCOME_MERCENARY_HIRED;佣兵已雇佣;;;;;;;;;;x
-HAS_MERCENARY_MAINTENANCE_MODIFIER;$TITLE|Y$ 有 $MOD|Y$ 修正;;;;;;;;;;x
-HAS_MERCENARY_MAINTENANCE_MODIFIER_NOT;$TITLE|Y$ 没有 $MOD|Y$ 修正;;;;;;;;;;x
+HAS_MERCENARY_MAINTENANCE_MODIFIER;$TITLE|Y$有 $MOD|Y$ 修正;;;;;;;;;;x
+HAS_MERCENARY_MAINTENANCE_MODIFIER_NOT;$TITLE|Y$没有 $MOD|Y$ 修正;;;;;;;;;;x
 HAS_MERCENARY_BAND;$CHARACTER|Y$ 有 佣兵;;;;;;;;;;x
 HAS_MERCENARY_BAND_NOT;$CHARACTER|Y$ 没有 佣兵;;;;;;;;;;x
 CUT_MERCENARY_CREATOR_RELATION;$MERCENARY|Y$ 结束了 与 $CREATOR|Y$ 的契约;;;;;;;;;;x
@@ -1485,7 +1485,7 @@ LIEGE_COUNCIL_INSTANT;这个界面展示你领主的内阁概况;;;;;;;;;;x
 LIEGE_COUNCIL_DELAYED;你可以浏览你领主的所有内阁成员和空出的内阁席位。你也可以看到内阁成员的情况，这会影响他们的投票倾向。;;;;;;;;;;x
 ENFORCE_PEACE_EXECUTE_BUTTON_TITLE;§Y执行§!;;;;;;;;;;x
 ENFORCE_PEACE_EXECUTE_BUTTON_DESC_DELAYED;被内阁通过;;;;;;;;;;x
-LAW_COUNCIL_REJECTED_LOG;$TITLE$ 的内阁已经否决建立「$LAW$」法;;;;;;;;;;x
+LAW_COUNCIL_REJECTED_LOG;$TITLE$的内阁已经否决「$LAW$」法案。;;;;;;;;;;x
 tut_9b_6;在 国土与义务 标签页中 你会发现法律并不仅仅影响你自己 同样也决定你的封臣可以提供多少征召兵和税收。你可以根据自己的喜好定制自己的王国。点击下一步结束这一部分;;;;;;;;;;x
 tut_8b_6;在 国土 标签页中你会找到 主教叙任权法律。这可以设定为 教宗，这意味着教宗选择主教，或者 自由，这意味着你可以自己选择你的主教。当然教宗对此肯定不会开心。点击下一步学习十字军相关内容;;;;;;;;;;x
 tut_9c_6;在国土标签页中你会看到跟继承法无关的法律。在最上方有一个皇冠标记的法律，这意味着这是王权法。他们决定国王或者皇帝有多少行动自由。你的封臣会非常难被说服，但如果他们足够喜欢你 而且你有很高的威望，他们会稍稍作态反对，但不会是个大问题。;;;;;;;;;;x
