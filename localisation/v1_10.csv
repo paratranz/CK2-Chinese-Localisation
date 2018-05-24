@@ -102,7 +102,7 @@ shipyard_desc;熟练的造船工人在这里努力工作，建造各种远航船
 TOGGLE_LOOTER;§Y切换成劫掠模式§!;;;;;;;;;;x
 REL_AUTHORITY_CHANGE;§Y$RELIGION$§!：$PERC$  宗教权威 §Y$TIME$§! $TIMEUNIT$.\n;;;;;;;;;;x
 IS_HOLY_CITY_FOR_RELIGION;§Y$RELIGION$§!信仰认为§Y$HOLDING$§!是一处圣地;;;;;;;;;;x
-IS_HOLY_CITY_FOR_RELIGION_2;他们控制了这块土地;;;;;;;;;;x
+IS_HOLY_CITY_FOR_RELIGION_2;他们控制了这块领地;;;;;;;;;;x
 IS_HOLY_ORDER;是圣战士;;;;;;;;;;x
 IS_NOT_HOLY_ORDER;不是圣战士;;;;;;;;;;x
 opinion_looted;劫掠了我的领地;;;;;;;;;;x
@@ -121,7 +121,7 @@ ORGANIZED_RELIGION;有组织的宗教;;;;;;;;;;x
 INTERACTION_REQUIRES_RECIPIENT_CAN_MARRY;§Y[Recipient.GetTitledFirstName]§!必须能够结婚且有能力生育;;;;;;;;;;x
 INTERACTION_PREP_INV_ALREADY_TARGETTED;§Y[Recipient.GetTitledFirstName]§!没有成为准备入侵的目标;;;;;;;;;;x
 INTERACTION_PREP_INV_ONLY_ONCE;§Y[Actor.GetTitledFirstName]§!只能在[Actor.GetPossPronoun]一生中发动一次准备入侵;;;;;;;;;;x
-MORAL_AUTHORITY_OF_RELIGION;§Y$RELIGION$§!信仰的宗教权威:§Y$AUTHORITY$%§!;;;;;;;;;;x
+MORAL_AUTHORITY_OF_RELIGION;§Y$RELIGION$§!信仰的宗教权威：§Y$AUTHORITY$%§!;;;;;;;;;;x
 EVTNAME670;_[Root.Religion.GetName]改革;;;;;;;;;;x
 EVTDESC670;古老的 [Root.Religion.GetName]宗教已经被证明无法抵御十字架与月亮的冲击.比起完全放弃旧模式，[Root.GetTitledName]跟一些最有势力的牧师已经决定对 [Root.Religion.GetName]信仰进行改革.随着新的礼拜式的编排，一部圣经跟在一个领导者领导下的教廷严格等级制度也面世了，他们希望通过对[Root.Religion.GetName]信仰的改革，可以更好地对抗外国宗教信仰!;;;;;;;;;;x
 EVTOPTA670;为了 [Root.Religion.GetRandomGodName]!;;;;;;;;;;x
@@ -317,7 +317,7 @@ lost_county_conquest;征服该省份失败;;;;;;;;;;x
 lost_heretic_revolt;异端叛军胜利;;;;;;;;;;x
 won_heretic_revolt;异端叛军被镇压;;;;;;;;;;x
 ruler_converted_from;统治者堕落;;;;;;;;;;x
-ruler_converted_to;统治者改变;;;;;;;;;;x
+ruler_converted_to;统治者改变信仰;;;;;;;;;;x
 temple_built;已建造的神庙;;;;;;;;;;x
 temple_looted;神庙被洗劫一空;;;;;;;;;;x
 looted_infidel_temple;异教神庙被洗劫;;;;;;;;;;x
@@ -470,8 +470,8 @@ duchy_iranian;省;;;;;;;;;;x
 kingdom_iranian;沙阿国;;;;;;;;;;x
 avar;阿瓦尔;;;;;;;;;;x
 ZOROASTRIAN_CLOSE_KIN_UNION;既然 §Y[ActorExtra.GetFirstName]§! 是 §Y[RecipientExtra.GetFirstName]的§! $RELATION$，这将是个 §Y圣婚§! 联盟，受到祆教封臣们欢迎。;;;;;;;;;;x
-opinion_religious_divine_blood_marriage;神圣的婚礼;;;;;;;;;;x
-opinion_priest_religious_divine_blood_marriage;神圣的婚礼;;;;;;;;;;x
+opinion_religious_divine_blood_marriage;圣婚;;;;;;;;;;x
+opinion_priest_religious_divine_blood_marriage;圣婚;;;;;;;;;;x
 PROV930;巴尔;;;;;;;;;;x
 PROV931;莫勒;;;;;;;;;;x
 PROV932;修斯特;;;;;;;;;;x
@@ -613,26 +613,26 @@ heresiarch_desc;这名角色是异端极端激进宗派的头目。;;;;;;;;;;x
 religious_unrest;宗教叛乱;;;;;;;;;;x
 peasant_unrest;农民叛乱;;;;;;;;;;x
 cultural_unrest;文化叛乱;;;;;;;;;;x
-opinion_rebel_traitor;叛乱;;;;;;;;;;x
+opinion_rebel_traitor;叛乱者;;;;;;;;;;x
 rise_of_the_shia_caliphate;什叶派哈里发的崛起;;;;;;;;;;x
 SHIA_CALIPHATE_REVOLT;什叶派哈里发王位觊觎者;;;;;;;;;;x
 CB_NAME_SHIA_CALIPHATE_RISING;什叶派哈里发在[Title.GetBaseName]起事;;;;;;;;;;x
 WAR_NAME_SHIA_CALIPHATE_RISING;$ORDER$什叶派哈里发在[Title.GetBaseName]起事;;;;;;;;;;x
 ANY_PREVIOUS_HOLDER_STARTS;所有前拥有者;;;;;;;;;;x
 duchy_adventure_desc;拥有野心的贵族后人会在一群甘于投机冒险之徒的支持下试图攫取领地.;;;;;;;;;;x
-CB_NAME_DUCHY_ADVENTURE;远征 [Title.GetBaseName];;;;;;;;;;x
+CB_NAME_DUCHY_ADVENTURE;冒险者远征 [Title.GetBaseName];;;;;;;;;;x
 WAR_DUCHY_ADVENTURE;[Actor.GetTitledFirstName]的 $OTHER_TITLE$远征;;;;;;;;;;x
-CLAIMANT_ADVENTURE;[Root.GetTitledFirstName]的主人;;;;;;;;;;x
+CLAIMANT_ADVENTURE;[Root.GetTitledFirstName]的冒险者;;;;;;;;;;x
 CB_NAME_LIBERATION_REVOLT;解放 [Title.GetBaseName];;;;;;;;;;x
 WAR_NAME_LIBERATION_REVOLT;$ORDER$解放[Title.GetBaseName];;;;;;;;;;x
-liberation_revolt_desc;外国君主统治下的臣民会试图起兵复国.;;;;;;;;;;x
+liberation_revolt_desc;外国君主统治下的臣民会试图起义重建旧王国;;;;;;;;;;x
 NATIONALIST_REVOLT;[Root.Kingdom.GetAdjective] 复国叛乱;;;;;;;;;;x
 DECADENCE_REVOLT;[Root.PrimaryTitle.GetAdjective]腐化叛乱;;;;;;;;;;x
 CANNOT_CANCEL_AMBITION;不能打消这个野心。;;;;;;;;;;x
 pagan_subjugation_tip;§Y[Root.GetTitledFirstName]§! 夺取了 §Y[From.GetTitledFirstName]§! 在 §Y[This.GetFullBaseName]§!的所有头衔。\n;;;;;;;;;;x
-caliphal_subjugation_desc;每 §Y10§! 年，哈里发可以花费§Y200§!虔诚来征服一个同教派的穆斯林领主.;;;;;;;;;;x
-muslim_county_conquest_desc;穆斯林可以以 §Y50§! 虔诚，不需任何理由来征服一个单领地国家.;;;;;;;;;;x
-viking_invasion_desc;诺斯信仰能宣布将任意法理王国内足够强大的势力作为入侵目标. 这将使得他们通过冒险家们来提高等级，但他们必须在两年内发动攻击.;;;;;;;;;;x
+caliphal_subjugation_desc;每 §Y10§! 年，哈里发可以花费§Y200§!虔诚来征服一个同教派的穆斯林领主。;;;;;;;;;;x
+muslim_county_conquest_desc;穆斯林可以以 §Y50§! 虔诚，不需任何理由来征服一个单领地国家。;;;;;;;;;;x
+viking_invasion_desc;诺斯信仰能宣布将任意法理王国内足够强大的势力作为入侵目标。这将使得他们通过冒险家们来提高等级，但他们必须在两年内发动攻击。;;;;;;;;;;x
 pagan_holy_war_desc;改革后的原始宗教可以花费 §Y100§! $PIETYNAME$，用这个宣战理由来夺取其他法理公国中的异教徒头衔。;;;;;;;;;;x
 CANNOT_PLAY_PAGAN_WITHOUT_DLC;你没有安装逝往神灵DLC，不能使用原始宗教或祆教国家;;;;;;;;;;x
 NOT_ALLOWED_PAGAN;没有逝往神灵DLC，你不能扮演§Y原始宗教或祆教§!！;;;;;;;;;;x
@@ -644,8 +644,8 @@ PREPARE_INVASION_INTERACTION_LONG_DESC;光荣的诺斯信仰领主一生中至�
 PREPARE_INVASION_INTERACTION_ACCEPT_SETUP;准备入侵;;;;;;;;;;x
 PREPARE_INVASION_INTERACTION_ACCEPT_LOG;§Y[Actor.GetTitledName]§!正准备入侵§Y[Recipient.GetTitledName]§!;;;;;;;;;;x
 PREPARE_INVASION_INTERACTION_OFFER;[Actor.GetTitledName]正在准备入侵你！;;;;;;;;;;x
-PREPARE_INVASION_INTERACTION_LETTER;以全知全能的倒吊之人	闪耀之眼	伟大的圣父奥丁的名义，我宣布我将入侵你的土地、征服你的人民并将其彻底化为圣鸦的盛宴 !\n\n[From.GetTitledName];;;;;;;;;;x
-PREPARE_INVASION_INTERACTION_0;根据诺斯教义，你可以宣布有意向入侵§Y[Recipient.GetTitledName]§!. 你有两年的时间来准备宣战，其间将会有大量的冒险之徒加入你的麾下.;;;;;;;;;;x
+PREPARE_INVASION_INTERACTION_LETTER;以全知全能的倒吊之人、闪耀之眼、伟大的圣父奥丁的名义，我宣布我将入侵你的土地、征服你的人民并将其彻底化为圣鸦的盛宴 !\n\n[From.GetTitledName];;;;;;;;;;x
+PREPARE_INVASION_INTERACTION_0;根据诺斯教义，你可以宣布有意向入侵§Y[Recipient.GetTitledName]§!. 你有两年的时间来准备宣战，其间将会有大量的冒险之徒加入你的麾下。;;;;;;;;;;x
 opinion_failed_invasion;准备入侵失败;;;;;;;;;;x
 PROVINCE_TECHNOLOGY;省份科技;;;;;;;;;;x
 TECH_LIGHT_INFANTRY;轻步兵;;;;;;;;;;x
@@ -671,8 +671,8 @@ TECH_DESC_CAPITAL;在你首都 $PROV$ 的进展;;;;;;;;;;x
 SPREAD_FROM_TRADE;贸易站奖励;;;;;;;;;;x
 MODIFIER_TECH_GROWTH_MODIFIER;科技转播率;;;;;;;;;;x
 MODIFIER_TECH_GROWTH_MILITARY;军事科技传播率;;;;;;;;;;x
-MODIFIER_TECH_GROWTH_ECONOMY;经济科技传播率;;;;;;;;;;x
-MODIFIER_TECH_GROWTH_CULTURE;文化科技传播率;;;;;;;;;;x
+MODIFIER_TECH_GROWTH_ECONOMY;经济科技传播速度;;;;;;;;;;x
+MODIFIER_TECH_GROWTH_CULTURE;文化科技传播速度;;;;;;;;;;x
 SPREAD_FROM_SPYACTION;间谍总管学习科技;;;;;;;;;;x
 TECH_MAPMODE_BUTTON_IRO;地图模式：传播对比;;;;;;;;;;x
 TECH_MAPMODE_BUTTON_DRO;目前世界上的发展深蓝是最低等级的、白色是最高等级.;;;;;;;;;;x
