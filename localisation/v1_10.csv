@@ -223,23 +223,23 @@ create_hungary_desc;马扎尔部落的远征，他们发起了对游牧民，农
 create_leon;建立莱昂王国;;;;;;;;;;x
 create_leon_desc;在我们迁都到莱昂以后，帝国就将其政治重心从伊比利亚半岛的边缘阿斯图里亚斯转移到半岛的中心.;;;;;;;;;;x
 convert_to_reformed;转成改革派;;;;;;;;;;x
-convert_to_reformed_desc;我可以去欢迎改革后的古老信仰-晚做总比不做好……;;;;;;;;;;x
+convert_to_reformed_desc;我可以去接纳改革后的古老信仰，为时未晚……;;;;;;;;;;x
 opinion_regent_lowered_CA;降低王权;;;;;;;;;;x
-EVTDESC61300;我作为[Root.Liege.GetTitledName]摄政王的地位会让我在[Root.PrimaryTitle.Kingdom.GetName]降低正统性……;;;;;;;;;;x
+EVTDESC61300;作为[Root.Liege.GetTitledName]的摄政，我可以在[Root.PrimaryTitle.Kingdom.GetName]降低王权……;;;;;;;;;;x
 EVTOPTA61300;就这样办！;;;;;;;;;;x
 EVTOPTB61300;不，王权至高无上!;;;;;;;;;;x
-EVTDESC61301;我的摄政[From.GetTitledName]通过了一部降低[Root.PrimaryTitle.Kingdom.GetName]正统性的法律!;;;;;;;;;;x
+EVTDESC61301;我的摄政[From.GetTitledName]通过了一部降低[Root.PrimaryTitle.Kingdom.GetName]王权的法律！;;;;;;;;;;x
 EVTOPTA61301;我会铭记这个……;;;;;;;;;;x
-EVTDESC61302;我作为一个[Root.Liege.GetTitledName]的统治者会让我降低[Root.PrimaryTitle.Empire.GetName]的正统性……;;;;;;;;;;x
-EVTDESC61303;我的统治者[From.GetTitledName]已经准备推行一部法律来降低[Root.PrimaryTitle.Empire.GetName]的正统性!;;;;;;;;;;x
+EVTDESC61302;作为一个[Root.Liege.GetTitledName]的统治者会我可以降低[Root.PrimaryTitle.Empire.GetName]的王权……;;;;;;;;;;x
+EVTDESC61303;我的统治者[From.GetTitledName]已经准备推行一部法律来降低[Root.PrimaryTitle.Empire.GetName]的王权！;;;;;;;;;;x
 EVTTOOLTIP62910;我加冕为匈牙利国王;;;;;;;;;;x
 EVTNAME62910;一个新王国;;;;;;;;;;x
-EVTDESC62910;马扎尔部落的远征，他们发起了对游牧民，农民，已经城市居民的战争.喀尔巴阡盆地的肥沃平原应该会给我们带来和平-最后一个新家!;;;;;;;;;;x
-EVTOPTA62910;我们不会再走了!;;;;;;;;;;x
+EVTDESC62910;马扎尔部落正在远征，他们对游牧民、农民和市民发起战争。喀尔巴阡盆地的肥沃平原应该会给我们带来和平和帮助。总算找到一个新家了！;;;;;;;;;;x
+EVTOPTA62910;我们不会再跑了!;;;;;;;;;;x
 EVTNAME62911;不再有马扎尔游牧民了;;;;;;;;;;x
-EVTDESC62911;马扎尔人的领袖 [From.GetFirstName]已经决定在喀尔巴阡盆地定居，让这块土地成为马扎尔部落的新家园.;;;;;;;;;;x
+EVTDESC62911;马扎尔人的领袖 [From.GetFirstName]已经决定在喀尔巴阡盆地定居，让这块土地成为马扎尔部落的新家园。;;;;;;;;;;x
 EVTOPTA62911;有趣……;;;;;;;;;;x
-EVTOPTA62920;这是新时代的开端!;;;;;;;;;;x
+EVTOPTA62920;让这成为新时代的开端吧！;;;;;;;;;;x
 EVTOPTA62921;阿斯图里亚斯还是莱昂……有什么不同？;;;;;;;;;;x
 EVTNAME62930;法兰西王国;;;;;;;;;;x
 EVTDESC62930;在加洛林对西法兰克的统治宣告结束后，这片土地现在被更多的人称为法兰西王国。;;;;;;;;;;x
@@ -276,7 +276,7 @@ AIREASON_NO_WAR_AGAINST_REL_BRETHREN;不能帮别的宗教的敌人去攻打和�
 INTERACTION_CONSORTS_MUST_MARRY_LIEGE;侍妾只能跟她的领主结婚;;;;;;;;;;x
 INTERACTION_IS_VALID_CONSORT;§Y[ThirdPartyCharacter.GetTitledFirstName]§! 可以被纳作侍妾;;;;;;;;;;x
 INTERACTION_CANT_DOW_PREPARED_INVADER;§Y[Recipient.GetTitledFirstName]§!没有准备入侵你;;;;;;;;;;x
-INTERACTION_PREP_INV_NO_TARGET;没有找到§Y[Recipient.GetTitledFirstName]§!控制着§Y$MIN$§!到§Y$MAX$§!之间地产的有效王国;;;;;;;;;;x
+INTERACTION_PREP_INV_NO_TARGET;没有找到§Y[Recipient.GetTitledFirstName]§!控制着§Y$MIN$§!到§Y$MAX$§!个之间领地的王国作为有效目标;;;;;;;;;;x
 INTERACTION_REQUIRES_RECIPIENT_NOT_DE_JURE_VASSAL;§Y[Recipient.GetTitledFirstName]§! 不是 [Actor.Religion.GetName]一个法理上的封臣;;;;;;;;;;x
 INTERACTION_PAGANS_CANNOT_DEMAND_CONVERSION;§Y[Actor.GetTitledFirstName]§! 不是一个未经改革的原始宗教;;;;;;;;;;x
 INTERACTION_PREP_INV_REQ_PRESTIGE;§Y[Actor.GetTitledFirstName]§! 至少要有 §Y$PRESTIGE$§! 威望;;;;;;;;;;x
