@@ -4746,7 +4746,7 @@ HINT_PROV_VIEW_TEXT_5;伯爵领的首府总是由伯爵控制，其他的男爵�
 HINT_HOLDING_VIEW_TITLE;男爵领界面;;;;;;;;;;x
 HINT_HOLDING_VIEW_TEXT_1;这个界面显示了一个男爵领的详细情况并允许拥有者建造各种设施.;;;;;;;;;;x
 HINT_HOLDING_VIEW_TEXT_2;一个角色的男爵领的集合称为领地.你可以通过箭头在你的领地中的男爵领内循环.;;;;;;;;;;x
-HINT_HOLDING_VIEW_TEXT_3;一些建筑物只有在一个郡存在某个科技时才能建造。有些还可能需要另外一个建筑物做为前置条件。;;;;;;;;;;x
+HINT_HOLDING_VIEW_TEXT_3;一些建筑物只有在省份存在某个科技时才能建造。有些还可能需要另外一个建筑物做为前置条件。;;;;;;;;;;x
 HINT_HOLDING_VIEW_TEXT_4;男爵领的拥有者，或者他的宗主或更高层，可以通过点击编辑改变男爵领的名字.;;;;;;;;;;x
 HINT_UNIT_VIEW_TITLE;单位界面;;;;;;;;;;x
 HINT_UNIT_VIEW_TEXT_1;单位是军团或船只的集合，他们可以在男爵领里征召或者由雇佣兵或圣战士提供。;;;;;;;;;;x
@@ -15748,12 +15748,12 @@ DEMAND_PEACE;要求贡金;;;;;;;;;;x
 OFFER_WP;无条件和平;;;;;;;;;;x
 OFFER_PEACE;提供贡金;;;;;;;;;;x
 PO_PD_100;阁下，我们赢得了对$ENEMY$的完全胜利，可以完全将其吞并.但这会极大的惹恼$RELIGION$世界诸国.;;;;;;;;;;x
-PO_PD_70;你获得了巨大的胜利。你可以要求几个郡，一大笔赔偿金，或者其他条件。;;;;;;;;;;x
+PO_PD_70;你获得了巨大的胜利。你可以要求几个省份，一大笔赔偿金，或者其他条件。;;;;;;;;;;x
 PO_PD_40;你获得了完全的胜利。要求割让一地极有可能被接受。;;;;;;;;;;x
 PO_PD_10;你赢得了一场胜利.你可以要求对方无条件和平，一少量战争赔款或其他条件.;;;;;;;;;;x
 PO_PD_NEG_5;战争胜负未决.如果敌人无心恋战，可能会接受无条件和平.;;;;;;;;;;x
 PO_PD_NEG_25;敌人胜利了。你必须送出一小笔钱或者一个无关紧要的领地来获得和平。;;;;;;;;;;x
-PO_PD_NEG_60;敌人获得了完全的胜利。你必须送出至少两个郡和一大笔钱来获得和平。;;;;;;;;;;x
+PO_PD_NEG_60;敌人获得了完全的胜利。你必须送出至少两个省份和一大笔钱来获得和平。;;;;;;;;;;x
 PO_PD_NEG_99;敌人获得了巨大的胜利。你必须付出足够多的领地来满足他们，不然事情可能会更加糟糕。;;;;;;;;;;x
 PO_PD_NEG_100;我们彻底失败，敌人可以随心所欲地处置我们.;;;;;;;;;;x
 PEACEBETTER_US;\n（这些条件要比对方期望的优厚得多。如果对方拒绝，将引起该国民众的强烈不满）;;;;;;;;;;x
@@ -15901,7 +15901,7 @@ CHARACTER_HISTORY;历史;;;;;;;;;;x
 SUPPLYLIMIT_INSTANT;本地在无损耗前提下能负担的最多单位数。实际损耗率也取决于许多其他因素。;;;;;;;;;;x
 PROV_MAX_ATTR;你的单位在本地可能承受的最高损耗率。;;;;;;;;;;x
 PROV_REVOLT_INSTANT;本地的叛乱风险（每月）。;;;;;;;;;;x
-PROV_CULTURE;这个郡的主要文化是$CULTURE$。;;;;;;;;;;x
+PROV_CULTURE;这个省份的主要文化是$CULTURE$。;;;;;;;;;;x
 MINIMUM_REVOLT_RISK;最小叛乱风险;;;;;;;;;;x
 SUPPLY_ALLIED;同盟领土：;;;;;;;;;;x
 SUPPLY_ACCESS;军事通行：;;;;;;;;;;x
@@ -15911,7 +15911,7 @@ PTI_DESC;这个地区太偏远贫瘠了，无法探索.;;;;;;;;;;x
 UNIT_QUEUED;(加入队列);;;;;;;;;;x
 QUEUE_SIZE;现有$SIZE$个单位在队列中.;;;;;;;;;;x
 CURRENTLY_QUEUED;在本地还有$SIZE$个单位在建造队列中。;;;;;;;;;;x
-PROVINCE_OCCUPIED;这个郡被占领了;;;;;;;;;;x
+PROVINCE_OCCUPIED;这个省份被占领了;;;;;;;;;;x
 BEING_BUILT;建造中;;;;;;;;;;x
 BUILT;建造完成;;;;;;;;;;x
 UNAVAILABLE;无法使用;;;;;;;;;;x
@@ -15921,7 +15921,7 @@ NOTHING;什么都没有;;;;;;;;;;x
 FINISHED_ON;于$DATE$完成.;;;;;;;;;;x
 ONGOINGBUILD;有一个建筑正在建造中.;;;;;;;;;;x
 COST_DAYS;花费：§Y$AMOUNT$§!¤ \n建造时间：§Y$TIME$§! 天;;;;;;;;;;x
-ALREADY_BUILT;这个郡已经有这个建筑了;;;;;;;;;;x
+ALREADY_BUILT;这个省份已经有这个建筑了;;;;;;;;;;x
 RESEARCH_NEEDED;我们没有掌握相关科技;;;;;;;;;;x
 MAXIMIZE_MESSAGELOG;最大化;;;;;;;;;;x
 MAIN_MENU;主菜单;;;;;;;;;;x
@@ -16535,7 +16535,7 @@ MESSAGESETTINGS_CHAR_DONTADD;你将不会从以下角色处收到消息：;;;;;;
 MESSAGESETTINGS_GENERAL_TOOLTIP_END;点击更改;;;;;;;;;;x
 MESSAGESETTINGS_REMOVE_TOOLTIP;取消特例;;;;;;;;;;x
 OL_COMBAT_DESC;$PROV$的战斗\n攻击方：§Y$ATT$\n$ATT_SIZE$§!人\n防守方：§Y$DEF$\n$DEF_SIZE$§!人;;;;;;;;;;x
-OL_SIEGE_DESC;$PROV$郡$SETT$的围攻战\n攻击方：§Y$ATT$\n$ATT_SIZE$§! 人\n防守方：§Y$DEF_SIZE$ 人\n$MORALE$§!士气;;;;;;;;;;x
+OL_SIEGE_DESC;$PROV$省份$SETT$的围攻战\n攻击方：§Y$ATT$\n$ATT_SIZE$§W人\n防守方：§Y$DEF_SIZE$人\n$MORALE$§W士气;;;;;;;;;;x
 EVTDESC7000;收到了一封未署名的信件.\n\n「我的$HONORIFIC$，一只小鸟在我耳边轻声告诉我你想让你的$SPOUSE$消失，你可能需要帮助.或者说的直接点，一场暗杀……如果你选择接受我们的服务，只需要把装有钱和目标名字的包放到城北的桥下就好了.」;;;;;;;;;;x
 EVTOPTA7000;主回应了我的祈祷！;;;;;;;;;;x
 EVTOPTB7000;很诱人……但是太冒险了.;;;;;;;;;;x
@@ -17929,7 +17929,7 @@ HEIR_TO_THE;有权继承;;;;;;;;;;x
 DE_JURE;法理;;;;;;;;;;x
 SUCCESSION;继承顺位;;;;;;;;;;x
 NOMINATE_SUCCESSOR;指定;;;;;;;;;;x
-COUNTY;郡;;;;;;;;;;x
+COUNTY;省份;;;;;;;;;;x
 DUCAL;公国;;;;;;;;;;x
 ROYAL;王国;;;;;;;;;;x
 IMPERIAL;帝国;;;;;;;;;;x
@@ -17975,7 +17975,7 @@ MORAL_AUTHORITY;宗教权威:;;;;;;;;;;x
 OPINION_OF_CHAR;对§Y$CHAR$§!的好感;;;;;;;;;;x
 DESIGNATE_SUCCESSOR;指定继承人;;;;;;;;;;x
 DESIGNATED_BY;指定者;;;;;;;;;;x
-COUNTY_CAPITAL_OF;§Y$NAME$§! (郡首府);;;;;;;;;;x
+COUNTY_CAPITAL_OF;§Y$NAME$§!（省份首府）;;;;;;;;;;x
 RCLK_TO_INTERACT;§G点击右键点击与之互动§!;;;;;;;;;;x
 RCLK_TO_ACT;§G点击鼠标右键行动§!;;;;;;;;;;x
 TITLE_OF_EMPLOYER;$EMPLOYER$$TITLE$;;;;;;;;;;x
@@ -18020,9 +18020,9 @@ MAPMODE_RELIGION;§Y宗教地图§!;;;;;;;;;;x
 MAPMODE_CULTURE;§Y文化地图§!;;;;;;;;;;x
 MAPMODE_CULTURE_DESC;该地图显示文化分布。;;;;;;;;;;x
 MAPMODE_DUCHIES;§Y法理公国地图§!;;;;;;;;;;x
-MAPMODE_DUCHIES_DESC;该地图显示所有的法理上的公爵领地。;;;;;;;;;;x
+MAPMODE_DUCHIES_DESC;该地图模式显示所有地理和传统（「法理」）上的公爵领。;;;;;;;;;;x
 MAPMODE_KINGDOMS;§Y法理王国地图§!;;;;;;;;;;x
-MAPMODE_KINGDOMS_DESC;该地图将显示所有的法理上的国王领地.;;;;;;;;;;x
+MAPMODE_KINGDOMS_DESC;该地图模式显示所有地理和传统（「法理」）上的王国。;;;;;;;;;;x
 MAPMODE_DIPLO;§Y外交关系地图§!;;;;;;;;;;x
 MAPMODE_DIPLO_DESC;该地图将显示你和其他统治者的外交关系。;;;;;;;;;;x
 MAPMODE_DEFACTO_COUNTIES;§Y伯爵地图§!;;;;;;;;;;x
@@ -18229,7 +18229,7 @@ DISMISS_VASSALS_SHIPS;解散全国船只;;;;;;;;;;x
 DISMISS_HIRED_SHIPS;解散雇佣船只;;;;;;;;;;x
 STRAITS;通过§Y$SEA$§!到§Y$PROV$§!的海峡;;;;;;;;;;x
 STRAITSDESC;陆军不需要船只就能通过海峡.不过跨海峡攻击会使进攻方受到严重的战斗惩罚;;;;;;;;;;x
-RIVERS;在本郡和§Y$PROV$§!有一条河流;;;;;;;;;;x
+RIVERS;在本省份和§Y$PROV$§W间有一条河流;;;;;;;;;;x
 RIVERSDESC;跨河攻击会使进攻方受到战斗惩罚;;;;;;;;;;x
 nick_the_young;年轻人;;;;;;;;;;x
 nick_the_old;长者;;;;;;;;;;x
@@ -18338,7 +18338,7 @@ REALM_VIEW;国家;;;;;;;;;;x
 COUNCIL_VIEW;宫廷;;;;;;;;;;x
 BRIDE;新娘;;;;;;;;;;x
 GROOM;新郎;;;;;;;;;;x
-FOUND_SETTLEMENT;创立领地;;;;;;;;;;x
+FOUND_SETTLEMENT;创建地产;;;;;;;;;;x
 CHAR_PRIEST;一位牧师;;;;;;;;;;x
 CHAR_SOLDIER;一位战士;;;;;;;;;;x
 CHAR_STEWARD;一位官员;;;;;;;;;;x
@@ -18362,7 +18362,7 @@ REL_FATHERS_FATHER;祖父;;;;;;;;;;x
 REL_FATHERS_MOTHER;祖母;;;;;;;;;;x
 REL_MOTHERS_FATHER;外祖父;;;;;;;;;;x
 REL_MOTHERS_MOTHER;外祖母;;;;;;;;;;x
-REL_FATHERS_BROTHER;叔叔;;;;;;;;;;x
+REL_FATHERS_BROTHER;伯叔;;;;;;;;;;x
 REL_FATHERS_SISTER;姑母;;;;;;;;;;x
 REL_MOTHERS_BROTHER;舅舅;;;;;;;;;;x
 REL_MOTHERS_SISTER;姨母;;;;;;;;;;x
@@ -18420,7 +18420,7 @@ GENERATING_COAS;正在处理盾徽;;;;;;;;;;x
 REGIMENT;团;;;;;;;;;;x
 FLEET;海军;;;;;;;;;;x
 ARMY;陆军;;;;;;;;;;x
-RAISE_LEVY;§Y出动军队§!;;;;;;;;;;x
+RAISE_LEVY;§Y召集征召兵§!;;;;;;;;;;x
 RAISE_SHIP_LEVY;§Y征用船只§!;;;;;;;;;;x
 DISMISS_LEVY;§Y解雇部队§!;;;;;;;;;;x
 DISMISS_SHIP_LEVY;§Y解散船只§!;;;;;;;;;;x
@@ -18494,7 +18494,7 @@ SELECT_A_LEADER;选择一个将领;;;;;;;;;;x
 CURRENT_LEADER;现在的将领;;;;;;;;;;x
 SM_CAMERA_TILT;视角倾斜;;;;;;;;;;x
 IMPRISONED_YEARS;监禁§Y$YEARS$§!年;;;;;;;;;;x
-SUPPLY_LIMIT_DESC;补给上限是一个郡能支持的部队数量（以千为单位），超过上限的部队会遭受损耗。;;;;;;;;;;x
+SUPPLY_LIMIT_DESC;补给上限是一个省份能支持的部队数量（以千为单位），超过上限的部队会开始遭受损耗。;;;;;;;;;;x
 REVOLT_RISK_DESC;叛乱风险是这个省份的农民叛乱的几率.;;;;;;;;;;x
 WARO_BATTLES;战斗:;;;;;;;;;;x
 WARO_OCCUPATION;占领:;;;;;;;;;;x
@@ -18538,7 +18538,7 @@ CHARVIEW_LIEGE;领主;;;;;;;;;;x
 CHARVIEW_HEIR;继承人;;;;;;;;;;x
 CHARVIEW_REGENT;摄政者;;;;;;;;;;x
 CHAR_TAX;税收;;;;;;;;;;x
-MUST_BUILD_RIGHT_TYPE;你必须首先建造所有种类的建筑至少一个;;;;;;;;;;x
+MUST_BUILD_RIGHT_TYPE;你必须首先建造所有种类的地产各一个;;;;;;;;;;x
 BLOCKED_BY;封锁者;;;;;;;;;;x
 PREREQUISITE;条件;;;;;;;;;;x
 CONDUCT_DIPLOMACY;进行外交;;;;;;;;;;x
@@ -18568,7 +18568,7 @@ NOT_ALLOWED;不允许;;;;;;;;;;x
 CONFIRM_MAKE_CAPITAL_TITLE;宫廷迁移到$PROVINCE$;;;;;;;;;;x
 MAKE_CAPITAL;迁都;;;;;;;;;;x
 CURRENT_CAPITAL;现首都;;;;;;;;;;x
-CURRENT_CAPITAL_DRO;这个郡是你的首都，你的宫廷居住于此.当你派间谍总管窃取科技时，窃取到的科技将被送到这里.首都的战争分数价值更高.;;;;;;;;;;x
+CURRENT_CAPITAL_DRO;这个省份是你的首都，你的宫廷居住于此。当你派间谍总管窃取科技时，窃取到的科技将被送到这里。首都的战争分数价值更高。;;;;;;;;;;x
 ATWARWITH;在$WAR$与$COUNTRIES$交战;;;;;;;;;;x
 CONSTRUCTION_PROGRESS;$SETTLEMENT$正在建设§Y$CONSTRUCTION$§!，预计在$DAYS$天后完工;;;;;;;;;;x
 SIEGE_PROGRESS;$COUNTRY$正在围攻$SETTLEMENT$;;;;;;;;;;x
@@ -18587,11 +18587,11 @@ HOLDER_OPINION;领主好感;;;;;;;;;;x
 STALLED_WAR_DESC;$PERC$：战争处于僵局;;;;;;;;;;x
 CONTESTED_TITLE_DESC;$PERC$：§Y$PERSON$§! 控制了 §Y$TITLE$§!;;;;;;;;;;x
 TECH_LEVELS_IN_CAPITAL;你的首都§Y$CAPITAL$§!的科技发展水平.;;;;;;;;;;x
-RAISE_NO_PROVINCE_LEVIES;你已经动员了这个郡的所有士兵;;;;;;;;;;x
-RAISE_NO_SETTLEMENTS;你在这个郡没有领地;;;;;;;;;;x
-RAISE_NO_PROVINCE_SHIPS;你已经动员了这个郡的所有船只;;;;;;;;;;x
-DISMISS_NO_PROVINCE_LEVIES;你没有动员这个郡的士兵;;;;;;;;;;x
-DISMISS_NO_PROVINCE_SHIPS;你没有动员这个郡的船只;;;;;;;;;;x
+RAISE_NO_PROVINCE_LEVIES;你已经动员了这个省份的所有征召兵。;;;;;;;;;;x
+RAISE_NO_SETTLEMENTS;你在这个省份没有地产;;;;;;;;;;x
+RAISE_NO_PROVINCE_SHIPS;你已经动员了这个省份的所有船只。;;;;;;;;;;x
+DISMISS_NO_PROVINCE_LEVIES;你没有动员这个省份的士兵;;;;;;;;;;x
+DISMISS_NO_PROVINCE_SHIPS;你没有动员这个省份的船只;;;;;;;;;;x
 CAN_BE_CALLED;可以被召唤加入战争;;;;;;;;;;x
 HAVE_A_TRUCE;和平协议过期日期§Y$DATE$§!;;;;;;;;;;x
 VOTES;投票;;;;;;;;;;x
@@ -18606,7 +18606,7 @@ REGULAR_MARRIAGE_DESC;这是普通的婚姻，孩子将跟随父姓。;;;;;;;;;;
 LASS;女孩;;;;;;;;;;x
 LAD;男孩;;;;;;;;;;x
 CAPITAL_OF_COUNTY;$COUNTY$首府;;;;;;;;;;x
-CHAR_SETTLEMENTS;直辖领地;;;;;;;;;;x
+CHAR_SETTLEMENTS;直辖领地产;;;;;;;;;;x
 NEUTRAL;中立;;;;;;;;;;x
 AT_WAR;战争中;;;;;;;;;;x
 WAR_ALLIES;战时盟友;;;;;;;;;;x
@@ -18617,16 +18617,16 @@ SUPPLY_OWNER;来自我们的国家：$VALUE$;;;;;;;;;;x
 SUPPLY_CONTROLLER;来自已控制的领地：$VALUE$;;;;;;;;;;x
 SUPPLY_NEUTRAL;来自中立领地：$VALUE$;;;;;;;;;;x
 SUPPLY_ENEMY;来自敌对领地：$VALUE$;;;;;;;;;;x
-SUPPLY_RELIGION;不同宗教：$VALUE$;;;;;;;;;;x
+SUPPLY_RELIGION;不同宗教组：$VALUE$;;;;;;;;;;x
 SUPPLY_COASTAL;沿海领地：$VALUE$;;;;;;;;;;x
-SUPPLY_NEIGHBOR;控制的邻近领地：$VALUE$;;;;;;;;;;x
+SUPPLY_NEIGHBOR;控制的邻近地产：$VALUE$;;;;;;;;;;x
 SUPPLY_BASE_MODIFIED;基础值：§Y$VALUE$§!;;;;;;;;;;x
 ATTRITION_MAX;本地的每月最大损耗：§Y$VALUE$%§!;;;;;;;;;;x
 ATTRITION_LEADER_REDUCTION;$NAME$：$VALUE$;;;;;;;;;;x
 TOGGLE_SIEGE_VIEW;切换围攻面板;;;;;;;;;;x
-TOTAL_COUNTY_TAX;全郡总税收;;;;;;;;;;x
+TOTAL_COUNTY_TAX;§Y省份总税收§!;;;;;;;;;;x
 TOTAL_COUNTY_TAX_DESC;每年上缴给我们的税收 / 每年总收入;;;;;;;;;;x
-TOTAL_COUNTY_LEVY;全郡总兵力;;;;;;;;;;x
+TOTAL_COUNTY_LEVY;省份总兵力;;;;;;;;;;x
 TOTAL_COUNTY_LEVY_DESC;我们可以动员的兵力 / 总兵力;;;;;;;;;;x
 DS_OFF_WAR;在§Y$WAR$§!中进攻§Y[GetBestName]§!;;;;;;;;;;x
 DS_DEF_WAR;防御§Y[GetBestName]§!发起的§Y$WAR$§!;;;;;;;;;;x
@@ -18698,8 +18698,8 @@ HINTS_DISABLE_HINT;关闭提示;;;;;;;;;;x
 NO_HEAD;没有领导;;;;;;;;;;x
 MIL_NUM_ARMIES;$NUM$军队;;;;;;;;;;x
 MIL_NUM_NAVIES;$NUM$舰队;;;;;;;;;;x
-TITULAR;荣誉头衔;;;;;;;;;;x
-TITULAR_TITLE;§Y荣誉头衔§!(无法理封臣);;;;;;;;;;x
+TITULAR;名誉头衔;;;;;;;;;;x
+TITULAR_TITLE;§Y名誉头衔§!（无法理封臣）;;;;;;;;;;x
 UNKNOWN_SUCCESSOR;继承人未知;;;;;;;;;;x
 ENEMY_OCCUPATION;敌军占领;;;;;;;;;;x
 CANNOT_FIRE_YOUR_REGENT;你不能解除摄政者的职务!;;;;;;;;;;x
@@ -18712,7 +18712,7 @@ LAG_PAUSE;$PLAYER$ 处于延迟，暂停游戏;;;;;;;;;;x
 LAG_DECREASE_SPEED;$PLAYER$ 处于延迟，减速（赶快重开吧你们）;;;;;;;;;;x
 CLICK_TO_APPOINT_LEADER;点击任命将领;;;;;;;;;;x
 LEADER_APP_NEEDS_LAW;§Y$TITLE$§!的贵族有权利拒绝更换将领。\n（王权等级太低）;;;;;;;;;;x
-WRONG_GOVERNMENT_TYPE;§R辖有错误的领地类型!§!;;;;;;;;;;x
+WRONG_GOVERNMENT_TYPE;§R错误的首府地产类型！§!;;;;;;;;;;x
 COMBAT_TACTICS_AVAILABLE;这一翼可以用下列战术：;;;;;;;;;;x
 COMBAT_DEFENDERS;防御方;;;;;;;;;;x
 COMBAT_ATTACKERS;进攻方;;;;;;;;;;x
@@ -18764,7 +18764,7 @@ AI_WILL_NOT_ACCEPT_OFFER;$CHAR$不会接受你的提议;;;;;;;;;;x
 LOGGER_MENU;消息日志;;;;;;;;;;x
 province_base_values;基础值;;;;;;;;;;x
 summer_fair;举办夏季集市;;;;;;;;;;x
-summer_fair_desc;夏季集市将商人，小贩和各种娱乐人员吸引到了你的领地;;;;;;;;;;x
+summer_fair_desc;夏季集市将商人，小贩和各种娱乐人员吸引到了你的领地。;;;;;;;;;;x
 CANCEL_LAW_CHANGE;§Y取消法律变更§!;;;;;;;;;;x
 CANCEL_LAW_CHANGE_DELAYED;放弃通过新法律的尝试，可以让你转而通过另一项法律.;;;;;;;;;;x
 TITLE_KING_CREATION_PIETY_COST;你需要§R$COST$§!$PIETYNAME$创建新王国.;;;;;;;;;;x
@@ -18781,7 +18781,7 @@ job_viceroy name;总督;;;;;;;;;;x
 title_regent;摄政;;;;;;;;;;x
 title_queen_mother;王太后;;;;;;;;;;x
 emperor_title_queen_mother_female;皇太后;;;;;;;;;;x
-emperor_title_queen_mother_female_german;皇太后;;;;;;;;;;x
+emperor_title_queen_mother_female_german;凯撒琳;;;;;;;;;;x
 title_prince;王子;;;;;;;;;;x
 title_prince_iranian;沙赫扎得;;;;;;;;;;x
 title_prince_female;公主;;;;;;;;;;x
@@ -18920,8 +18920,8 @@ excommunicated;绝罚;;;;;;;;;;x
 excommunicated_desc;此人已被绝罚——逐出教会——这将在荣誉和体面上留下重大污点。;;;;;;;;;;x
 kinslayer;弑亲禽兽;;;;;;;;;;x
 kinslayer_desc;此人杀害近亲的行为被众人所知，这在神和人的眼中都是不可宽恕的罪行。;;;;;;;;;;x
-clubfooted;下肢畸形;;;;;;;;;;x
-clubfooted_desc;此人天生下肢畸形，是丑陋的残疾人.;;;;;;;;;;x
+clubfooted;足内翻;;;;;;;;;;x
+clubfooted_desc;此人天生足内翻——这是一种丑陋的残疾症状。;;;;;;;;;;x
 harelip;兔唇;;;;;;;;;;x
 harelip_desc;此人天生兔唇，影响其魅力.;;;;;;;;;;x
 dwarf;侏儒;;;;;;;;;;x
@@ -18957,22 +18957,22 @@ falconer;驯鹰师;;;;;;;;;;x
 falconer_desc;此人热心于驯鹰，一种值得尊敬的业余消遣.;;;;;;;;;;x
 drunkard;酒鬼;;;;;;;;;;x
 drunkard_desc;这个人就是个大酒缸。;;;;;;;;;;x
-temperate;温和;;;;;;;;;;x
-temperate_desc;此人相信待人温和的美德，对统治者和财政总管来说弥足珍贵.;;;;;;;;;;x
+temperate;节制;;;;;;;;;;x
+temperate_desc;这个角色相信「Temperantia」的美德，即适度——对统治者和财政总管来说弥足珍贵的特质。;;;;;;;;;;x
 greedy;贪婪;;;;;;;;;;x
-greedy_desc;此人因贪婪而臭名昭著.贪婪，七宗罪之三，虽然并不受人喜爱，却能榨出一些额外的税收来.;;;;;;;;;;x
+greedy_desc;这个角色因贪婪而臭名昭著。「Avaritia」，七宗罪之三，虽然并不受人喜爱，却能榨出一些额外的税收。;;;;;;;;;;x
 charitable;慷慨;;;;;;;;;;x
-charitable_desc;此人以慷慨而闻名.慷慨在七美德中位居第三，也是最有骑士精神的特质.;;;;;;;;;;x
+charitable_desc;这个角色以慷慨而闻名。「Caritas」在七美德中位居第三，也是最有骑士精神的特质。;;;;;;;;;;x
 slothful;懒惰;;;;;;;;;;x
-slothful_desc;此人令人惊叹得懒.懒惰，七宗罪之四，是一项负面特质.;;;;;;;;;;x
+slothful_desc;这个角色令人惊叹的懒。「Acedia」，七宗罪之四，是一项完全负面的特质。;;;;;;;;;;x
 diligent;勤奋;;;;;;;;;;x
-diligent_desc;此人拥有七美德之四，勤奋而充满责任感.;;;;;;;;;;x
+diligent_desc;这个角色勤奋而充满责任感，拥有七美德之四——「Industria」。;;;;;;;;;;x
 envious;嫉妒;;;;;;;;;;x
-envious_desc;此人具有七宗罪之六，嫉妒成性.;;;;;;;;;;x
+envious_desc;这个角色嫉妒成性，具有七宗罪之六——「Invidia」。;;;;;;;;;;x
 kind;和蔼;;;;;;;;;;x
-kind_desc;此人和善而体贴.七美德中的第六种美德在封臣中很受欢迎，作为间谍总管则不太称职.;;;;;;;;;;x
+kind_desc;这个角色和善而体贴。七美德中的第六种美德，「Humanitas」，在封臣中很受欢迎，作为间谍总管则不太称职。;;;;;;;;;;x
 wroth;易怒;;;;;;;;;;x
-wroth_desc;七宗罪之五即是愤怒，这个人的脾气很暴躁.;;;;;;;;;;x
+wroth_desc;七宗罪之五即是愤怒，「Ira」，这个角色确实脾气很暴躁。;;;;;;;;;;x
 patient;耐心;;;;;;;;;;x
 patient_desc;耐心，即「Patientia」，是七美德之五，愤怒的对立面。充满耐心的人能把每一件事都做得比别人稍好一些。;;;;;;;;;;x
 craven;怯懦;;;;;;;;;;x
@@ -18983,7 +18983,7 @@ gregarious;合群;;;;;;;;;;x
 gregarious_desc;此人天生是群居生物，在社交方面很有能力.;;;;;;;;;;x
 cynical;愤世嫉俗;;;;;;;;;;x
 cynical_desc;此人愤世嫉俗，被牧师厌恶，但是擅长密谋.;;;;;;;;;;x
-fair_desc;此人外表出众，对异性充满吸引力.;;;;;;;;;;x
+fair_desc;此人外表出众，对异性充满吸引力。;;;;;;;;;;x
 paranoid;多疑;;;;;;;;;;x
 paranoid_desc;此人杯弓蛇影，不相信任何人.;;;;;;;;;;x
 pregnant;怀孕;;;;;;;;;;x
@@ -18991,9 +18991,9 @@ pregnant_desc;这个女人的腹中怀有新生命。;;;;;;;;;;x
 has_tuberculosis_desc;此人饱受咳血症，即肺结核困扰.;;;;;;;;;;x
 has_typhoid_fever;慢性热;;;;;;;;;;x
 has_typhoid_fever_desc;此人深受慢性热困扰.;;;;;;;;;;x
-has_typhus_desc;这个角色染上了露营热（斑疹伤寒）;;;;;;;;;;x
+has_typhus_desc;这个角色染上了露营热（斑疹伤寒）。;;;;;;;;;;x
 has_bubonic_plague_desc;此人患有可怕的黑死病.;;;;;;;;;;x
-has_measles_desc;此人感染了麻疹，一种相当致命的天花.;;;;;;;;;;x
+has_measles_desc;此人感染了麻疹，一种相当致命的痘瘟。;;;;;;;;;;x
 has_small_pox_desc;此人感染了可怕的天花，其致死率超过一半.;;;;;;;;;;x
 strong;强壮;;;;;;;;;;x
 strong_desc;此人身体强壮。;;;;;;;;;;x
@@ -19059,12 +19059,12 @@ HAVE;有;;;;;;;;;;x
 HAVE_NOT;没有;;;;;;;;;;x
 EXISTS;存在;;;;;;;;;;x
 DOSNT_EXIST;不存在;;;;;;;;;;x
-HAVE_AT_LEAST_ONE_OWNED_NEIGHBORING_PROVINCE;至少拥有一个临近的郡;;;;;;;;;;x
-HAVE_NO_OWNED_NEIGHBORING_PROVINCE;没有所属的临近的郡;;;;;;;;;;x
-HAVE_AT_LEAST_ONE_EMPTY_NEIGHBORING_PROVINCE;临近的郡至少有一个空地;;;;;;;;;;x
-HAVE_NO_EMPTY_NEIGHBORING_PROVINCE;临近的郡没有空地;;;;;;;;;;x
-HAVE_AT_LEAST_ONE_PROVINCE;至少有一个郡;;;;;;;;;;x
-HAVE_NO_PROVINCES;没有郡;;;;;;;;;;x
+HAVE_AT_LEAST_ONE_OWNED_NEIGHBORING_PROVINCE;至少拥有一个临近的省份;;;;;;;;;;x
+HAVE_NO_OWNED_NEIGHBORING_PROVINCE;没有所属的临近省份;;;;;;;;;;x
+HAVE_AT_LEAST_ONE_EMPTY_NEIGHBORING_PROVINCE;临近的省份至少有一个空地;;;;;;;;;;x
+HAVE_NO_EMPTY_NEIGHBORING_PROVINCE;临近的省份没有空地;;;;;;;;;;x
+HAVE_AT_LEAST_ONE_PROVINCE;至少有一个省份;;;;;;;;;;x
+HAVE_NO_PROVINCES;没有省份;;;;;;;;;;x
 HAVE_AT_LEAST_ONE_CHARACTER;至少有一个角色;;;;;;;;;;x
 HAVE_NO_CHARACTERS;没有角色;;;;;;;;;;x
 HAVE_NOT_SIEGE_IN;没有在围攻;;;;;;;;;;x
@@ -19073,7 +19073,7 @@ HAVE_A_PORT_IN;有一个港口;;;;;;;;;;x
 HAVE_NOT_A_PORT_IN;没有港口;;;;;;;;;;x
 HAVE_COUNTRY_FLAG;有国家标志;;;;;;;;;;x
 HAVE_NOT_COUNTRY_FLAG;没有国家标志;;;;;;;;;;x
-HAVE_PROVINCE_FLAG;有郡标志;;;;;;;;;;x
+HAVE_PROVINCE_FLAG;有省份旗标;;;;;;;;;;x
 HAVE_NOT_PROVINCE_FLAG;没有省份旗标;;;;;;;;;;x
 IS_GREATER_THAN;大于;;;;;;;;;;x
 IS_EQUAL_OR_LESS_THAN;等于或小于;;;;;;;;;;x
@@ -19314,8 +19314,8 @@ IS_NOT_VASSAL_OF;不是§Y[GetBestName]§!封臣;;;;;;;;;;x
 IS_VASSAL_OF;是 §Y[GetBestName]§!的封臣;;;;;;;;;;x
 ISNT_PRIMARY_TYPE_TITLE;不能作为第二头衔来持有;;;;;;;;;;x
 IS_PRIMARY_TYPE_TITLE;能作为第二头衔来持有;;;;;;;;;;x
-ISNT_LANDLESS_TYPE_TITLE;没有属地无法存在;;;;;;;;;;x
-IS_LANDLESS_TYPE_TITLE;没有属地仍可存在;;;;;;;;;;x
+ISNT_LANDLESS_TYPE_TITLE;没有地产无法存在;;;;;;;;;;x
+IS_LANDLESS_TYPE_TITLE;没有地产仍可存在;;;;;;;;;;x
 IS_NOT_MOTHER_OF;不是 §Y[GetBestName]§!的母亲;;;;;;;;;;x
 IS_MOTHER_OF;是 §Y[GetBestName]§!的母亲;;;;;;;;;;x
 IS_NOT_FATHER_OF;不是 §Y[GetBestName]§!的父亲;;;;;;;;;;x
@@ -19454,8 +19454,8 @@ IS_EXCOMMUNICATED_FOR_NOT;$CHARACTER$未被绝罚;;;;;;;;;;x
 IS_EXCOMMUNICATED_FOR;$CHARACTER$已被绝罚;;;;;;;;;;x
 CLAIMS_FEWER_THAN;§Y$TARGET$§!宣称头衔数少于§Y$NUM$§!;;;;;;;;;;x
 CLAIMS_AT_LEAST;§Y$TARGET$§!宣称头衔数至少§Y$NUM$§!;;;;;;;;;;x
-ISNT_TITULAR_TITLE;不是拥有头衔的人;;;;;;;;;;x
-IS_TITULAR_TITLE;是拥有头衔的人;;;;;;;;;;x
+ISNT_TITULAR_TITLE;不是名誉头衔;;;;;;;;;;x
+IS_TITULAR_TITLE;是名誉头衔;;;;;;;;;;x
 CONTESTED_TITLE_IS_NOT;争夺的头衔不是§Y$TITLE$§!;;;;;;;;;;x
 CONTESTED_TITLE_IS;争夺的头衔是§Y$TITLE$§!;;;;;;;;;;x
 AGGRESSOR_IS_NOT;§Y$CHAR$§!不是进攻者;;;;;;;;;;x
@@ -19761,7 +19761,7 @@ REORGANISE_UNITS;重组这两个单位;;;;;;;;;;x
 NO_REORGANISE_UNITS;在重组时，你只能同时选中两个单位.;;;;;;;;;;x
 REORGANISE_UNITS_DRO;重组时将允许你自由移动这两个单位中的小队;;;;;;;;;;x
 LEADER_MARTIAL_VALUE;将领技能;;;;;;;;;;x
-NUM_SUBUNITS;此区域的舰队数量;;;;;;;;;;x
+NUM_SUBUNITS;此翼中次级单位的数量;;;;;;;;;;x
 NUM_SHIPS_IN_SUBUNIT;此舰队的船舶数量;;;;;;;;;;x
 TOTAL_TROOPS;军队的总数;;;;;;;;;;x
 SELECT_UNIT;选择单位;;;;;;;;;;x
@@ -19817,7 +19817,7 @@ COMBATVALUE_ATTVAL;攻击值：§Y$S_VAL$§!/§Y$M_VAL$§!/§Y$P_VAL$§!;;;;;;;;
 COMBATVALUE_DEFVAL;防御值：§Y$S_VAL$§!/§Y$M_VAL$§!/§Y$P_VAL$§!;;;;;;;;;;x
 COMBATVALUE_MODIFIER;修正：;;;;;;;;;;x
 COMBATVALUE_MOD_PROV;来自省份：;;;;;;;;;;x
-COMBATVALUE_MOD_SETT;来自保有地:;;;;;;;;;;x
+COMBATVALUE_MOD_SETT;来自地产：;;;;;;;;;;x
 COMBATVALUE_MOD_CAPI;来自首都：;;;;;;;;;;x
 LEVY_UNDER_THRESHOLD;税额必须大于 $PERC$% 才能征收;;;;;;;;;;x
 LEVY_OTHER_OCCUPIED;当§Y$SETTLEMENT$§R被占领时，我们无法对其征税;;;;;;;;;;x
