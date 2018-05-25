@@ -100,7 +100,7 @@ tp_shipyard_3;航道;;;;;;;;;;x
 tp_shipyard_4;港口;;;;;;;;;;x
 shipyard_desc;熟练的造船工人在这里努力工作，建造各种远航船舶。;;;;;;;;;;x
 TOGGLE_LOOTER;§Y切换成劫掠模式§!;;;;;;;;;;x
-REL_AUTHORITY_CHANGE;§Y$RELIGION$§!：$PERC$  宗教权威 §Y$TIME$§! $TIMEUNIT$.\n;;;;;;;;;;x
+REL_AUTHORITY_CHANGE;§Y$RELIGION$§!：$PERC$ 宗教权威持续 §Y$TIME$§! $TIMEUNIT$。\n;;;;;;;;;;x
 IS_HOLY_CITY_FOR_RELIGION;§Y$RELIGION$§!信仰认为§Y$HOLDING$§!是一处圣地;;;;;;;;;;x
 IS_HOLY_CITY_FOR_RELIGION_2;他们控制了这块领地;;;;;;;;;;x
 IS_HOLY_ORDER;是圣战士;;;;;;;;;;x
@@ -123,8 +123,8 @@ INTERACTION_PREP_INV_ALREADY_TARGETTED;§Y[Recipient.GetTitledFirstName]§!没�
 INTERACTION_PREP_INV_ONLY_ONCE;§Y[Actor.GetTitledFirstName]§!只能在[Actor.GetPossPronoun]一生中发动一次准备入侵;;;;;;;;;;x
 MORAL_AUTHORITY_OF_RELIGION;§Y$RELIGION$§!信仰的宗教权威：§Y$AUTHORITY$%§!;;;;;;;;;;x
 EVTNAME670;_[Root.Religion.GetName]改革;;;;;;;;;;x
-EVTDESC670;古老的 [Root.Religion.GetName]宗教已经被证明无法抵御十字架与月亮的冲击.比起完全放弃旧模式，[Root.GetTitledName]跟一些最有势力的牧师已经决定对 [Root.Religion.GetName]信仰进行改革.随着新的礼拜式的编排，一部圣经跟在一个领导者领导下的教廷严格等级制度也面世了，他们希望通过对[Root.Religion.GetName]信仰的改革，可以更好地对抗外国宗教信仰!;;;;;;;;;;x
-EVTOPTA670;为了 [Root.Religion.GetRandomGodName]!;;;;;;;;;;x
+EVTDESC670;古老的[Root.Religion.GetName]宗教已经被证明无法抵御十字架与月亮的冲击。比起完全放弃旧模式，[Root.GetTitledName]跟一些最有势力的牧师已经决定对[Root.Religion.GetName]信仰进行改革。随着新的礼拜式的编排，一部圣经跟在一个领导者领导下的教廷严格等级制度也面世了，他们希望通过对[Root.Religion.GetName]信仰的改革，可以更好地对抗外国宗教信仰！;;;;;;;;;;x
+EVTOPTA670;为了[Root.Religion.GetRandomGodName]！;;;;;;;;;;x
 EVTOPTB670;接受改革！;;;;;;;;;;x
 EVTOPTC670;老方法仍然是最好的;;;;;;;;;;x
 EVTOPTD670;他们还是野蛮人！;;;;;;;;;;x
@@ -158,7 +158,7 @@ d_york_adj_danish;约维克;;;;;;;;;;x
 d_york_adj_norwegian;约维克;;;;;;;;;;x
 d_pecs_adj_bohemian;巴拉顿;;;;;;;;;;x
 c_pecs_adj_bohemian;巴拉顿;;;;;;;;;;x
-d_ungvar_adj_croatian;克罗地亚;;;;;;;;;;x
+d_ungvar_adj_croatian;白克罗地亚;;;;;;;;;;x
 k_asturias;阿斯图里亚斯;;;;;;;;;;x
 k_asturias_adj;阿斯图里亚斯;;;;;;;;;;x
 d_lendians;伦地亚人;;;;;;;;;;x
@@ -193,7 +193,7 @@ TRIBAL_TITLE_DESC;部落头衔不能同时拥有法理上的封臣头衔。如�
 TITULAR_TITLE_DESC;名誉头衔没有任何法理上的封臣。然而，在特定的时间里，封臣的土地跟王国可以变成他们在法理上的封臣，让它变得「有名有实」。;;;;;;;;;;x
 ISNT_VALID_PREP_INV_TARGET;§Y$TITLE$§!内§Y$CHAR$§!的领地不能通过准备入侵占有;;;;;;;;;;x
 IS_VALID_PREP_INV_TARGET;§Y$TITLE$§!内§Y$CHAR$§!的领地能通过准备入侵占有;;;;;;;;;;x
-NOT_ENOUGH_AUTHORITY_TO_REFORM_RELIGION;§R§Y$RELIGION$§R的宗教权威至少要有§Y$NEED$§!;;;;;;;;;;x
+NOT_ENOUGH_AUTHORITY_TO_REFORM_RELIGION;§R§Y$RELIGION$§R的宗教权威至少要有 §Y$NEED$§!;;;;;;;;;;x
 NOT_ENOUGH_HOLY_SITES_TO_REFORM_RELIGION;§R你当前只控制着§Y$CURRENT$§R个§Y$RELIGION$§R圣地，而你至少需要§Y$NEED$§!个;;;;;;;;;;x
 NOT_ENOUGH_PIETY_TO_REFORM_RELIGION;§R我们需要至少§Y$NEED$§R$PIETYNAME$§!;;;;;;;;;;x
 REFORM_RELIGION;§Y对 $RELIGION$ 信仰进行改革§!;;;;;;;;;;x
@@ -219,7 +219,7 @@ RAIDER_ARMY_NAME;$NAME$的入侵者;;;;;;;;;;x
 DEMESNE_TITLE_STARTS;任意持有头衔;;;;;;;;;;x
 truce_breaker;停战协定破坏者;;;;;;;;;;x
 create_hungary;建立匈牙利;;;;;;;;;;x
-create_hungary_desc;马扎尔部落的远征，他们发起了对游牧民，农民，已经城市居民的战争.喀尔巴阡盆地的肥沃平原应该会给我们带来和平-最后一个新家……;;;;;;;;;;x
+create_hungary_desc;马扎尔部落已经远征多年，他们对游牧民，农民，以及城市居民发起过恶斗。喀尔巴阡盆地的肥沃平原应该会给我们带来和平——终于有了新家……;;;;;;;;;;x
 create_leon;建立莱昂王国;;;;;;;;;;x
 create_leon_desc;在我们迁都到莱昂以后，帝国就将其政治重心从伊比利亚半岛的边缘阿斯图里亚斯转移到半岛的中心.;;;;;;;;;;x
 convert_to_reformed;转成改革派;;;;;;;;;;x
@@ -278,9 +278,9 @@ INTERACTION_IS_VALID_CONSORT;§Y[ThirdPartyCharacter.GetTitledFirstName]§! 可�
 INTERACTION_CANT_DOW_PREPARED_INVADER;§Y[Recipient.GetTitledFirstName]§!没有准备入侵你;;;;;;;;;;x
 INTERACTION_PREP_INV_NO_TARGET;没有找到§Y[Recipient.GetTitledFirstName]§!控制着§Y$MIN$§!到§Y$MAX$§!个之间领地的王国作为有效目标;;;;;;;;;;x
 INTERACTION_REQUIRES_RECIPIENT_NOT_DE_JURE_VASSAL;§Y[Recipient.GetTitledFirstName]§! 不是 [Actor.Religion.GetName]一个法理上的封臣;;;;;;;;;;x
-INTERACTION_PAGANS_CANNOT_DEMAND_CONVERSION;§Y[Actor.GetTitledFirstName]§! 不是一个未经改革的原始宗教;;;;;;;;;;x
-INTERACTION_PREP_INV_REQ_PRESTIGE;§Y[Actor.GetTitledFirstName]§! 至少要有 §Y$PRESTIGE$§! 威望;;;;;;;;;;x
-INTERACTION_PREP_INV_ATT_HOLDING_LIMIT;§Y[Actor.GetTitledFirstName]§!在此领地内不得超过§Y$NUM$§!个地产;;;;;;;;;;x
+INTERACTION_PAGANS_CANNOT_DEMAND_CONVERSION;§Y[Actor.GetTitledFirstName]§!不是一个未经改革的原始宗教;;;;;;;;;;x
+INTERACTION_PREP_INV_REQ_PRESTIGE;§Y[Actor.GetTitledFirstName]§!至少要有 §Y$PRESTIGE$§! 威望;;;;;;;;;;x
+INTERACTION_PREP_INV_ATT_HOLDING_LIMIT;§Y[Actor.GetTitledFirstName]§!在此领地内不得超过 §Y$NUM$§! 个地产;;;;;;;;;;x
 REL_CONSORT;侍妾;;;;;;;;;;x
 CH_CONSORT;成为$WHO$的侍妾;;;;;;;;;;x
 CH_REMOVE_CONSORT;不再是$WHO$的侍妾。;;;;;;;;;;x
@@ -288,15 +288,15 @@ POTENTIAL_TARGET;潜在目标;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_TITLE;纳妾;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_DESC;找一个女人当你的侍妾.;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_ACCEPT_SETUP;同意纳妾的请求;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetTitledName]§!已经同意让§Y[ThirdPartyCharacter.GetTitledName]§!成为§Y[Actor.GetTitledName]§!的侍妾.;;;;;;;;;;x
+MAKE_CONSORT_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetTitledName]§!已经同意让§Y[ThirdPartyCharacter.GetTitledName]§!成为§Y[Actor.GetTitledName]§!的侍妾。;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_DECLINE_SETUP;娶妾的请求被拒绝了;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_DECLINE_LOG;§Y[Recipient.GetTitledName]§!已经拒绝让§Y[ThirdPartyCharacter.GetTitledName]§!成为§Y[Actor.GetTitledName]§!的妾的请求.;;;;;;;;;;x
+MAKE_CONSORT_INTERACTION_DECLINE_LOG;§Y[Recipient.GetTitledName]§!已经拒绝让§Y[ThirdPartyCharacter.GetTitledName]§!成为§Y[Actor.GetTitledName]§!的侍妾的请求。;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_OFFER;§Y[Actor.GetTitledName]§!提议，纳§Y[Recipient.GetTitledName]§!为他的侍妾。;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_LETTER;\n\n§Y[ThirdPartyCharacter.GetBestName]§!的美丽与优雅在大陆上广为人知。我们提议，赐予她成为我侍妾的荣誉。;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_0;在§Y[Recipient.GetTitledName]§!的宫廷里选择一位女性作为你的侍妾.;;;;;;;;;;x
+MAKE_CONSORT_INTERACTION_0;在§Y[Recipient.GetTitledName]§!的宫廷里选择一位女性作为你的侍妾。;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_1;让[ThirdPartyCharacter.GetBestName]成为你的侍妾。;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_2;因为她是你的囚徒，她无法拒绝.;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_3;§Y[Actor.GetBestName]§!会得到§G$PRESTIGE$§!威望，通过纳一个贵妇§Y[ThirdPartyCharacter.GetBestName]§!作为侍妾。;;;;;;;;;;x
+MAKE_CONSORT_INTERACTION_3;§Y[Actor.GetBestName]§!会得到 §G$PRESTIGE$§! 威望，通过纳一个贵妇§Y[ThirdPartyCharacter.GetBestName]§!作为侍妾。;;;;;;;;;;x
 DISMISS_CONSORT_INTERACTION_TITLE;将她打入冷宫;;;;;;;;;;x
 DISMISS_CONSORT_INTERACTION_DESC;将你的侍妾打入冷宫;;;;;;;;;;x
 DISMISS_CONSORT_INTERACTION_LONG_DESC;侍妾没有啥特权，当你玩腻了就可以将她搁在一边。;;;;;;;;;;x
@@ -365,8 +365,8 @@ GOD_TAARA;塔拉;;;;;;;;;;x
 GOD_OMOL;奥摩尔;;;;;;;;;;x
 GOD_MASTOR_AVA;曼斯托尔-阿瓦;;;;;;;;;;x
 TRIGGER_NEW_TITLE;新的有土地头衔;;;;;;;;;;x
-HAS_LOWER_DYN_REALM_POWER;王朝的疆域统治力量小于 §Y$VAL$%§!;;;;;;;;;;x
-HAS_HIGHER_DYN_REALM_POWER;王朝的疆域统治力量至少是 §Y$VAL$%§!;;;;;;;;;;x
+HAS_LOWER_DYN_REALM_POWER;家族领地力量小于 §Y$VAL$%§!;;;;;;;;;;x
+HAS_HIGHER_DYN_REALM_POWER;家族领地力量至少是 §Y$VAL$%§!;;;;;;;;;;x
 slavic_pagan;斯拉夫多神教;;;;;;;;;;x
 slavic_pagan_reformed;斯拉夫多神教;;;;;;;;;;x
 tengri_pagan_reformed;长生天;;;;;;;;;;x
@@ -394,8 +394,8 @@ nick_the_stammerer;结巴;;;;;;;;;;x
 nick_the_german;日耳曼人;;;;;;;;;;x
 nick_the_younger;年轻人;;;;;;;;;;x
 LOOTED_HOLDING;§R(洗劫一空)§!;;;;;;;;;;x
-baron_norse_pagan;市民;;;;;;;;;;x
-baron_norse_pagan_reformed;市民;;;;;;;;;;x
+baron_norse_pagan;爵士;;;;;;;;;;x
+baron_norse_pagan_reformed;爵士;;;;;;;;;;x
 baron_norse;爵士;;;;;;;;;;x
 PROPHET_ZOROASTER;琐罗亚斯德;;;;;;;;;;x
 GOD_OHRMAZD;奥赫马兹德;;;;;;;;;;x
@@ -421,22 +421,22 @@ EVTOPTA_TOG_1030;谨防异端！;;;;;;;;;;x
 EVTDESC_TOG_1031;胡言乱语的一群异端暴民在 [From.GetName]爆发叛乱，对如火如荼的叛乱火上添油！;;;;;;;;;;x
 EVTDESC_TOG_1040;一场危险的叛乱已经在 [Root.GetName]爆发。许多 [Root.Culture.GetName]的注明地主已经组织起了一支支由农民组成的军队，经过训练后就由一队职业士兵领导。他们企图恢复 [Root.Kingdom.GetFullBaseName]的统治！;;;;;;;;;;x
 EVTOPTA_TOG_1040;令人担忧……;;;;;;;;;;x
-EVTDESC_TOG_1041;一场危险的暴动已经在 [From.GetName]爆发.许多 [From.Culture.GetName]杰出的地主已经组织起了一支支由农民组成的军队，经过训练后就由一队职业士兵领导.他们企图恢复 [From.Kingdom.GetFullBaseName]的统治!;;;;;;;;;;x
-EVTDESC_TOG_1050;更多来自 [Root.Culture.GetName]的叛乱者已经在 [Root.GetName]拿起武器，加入到 [Root.Kingdom.GetFullBaseName]的独立运动!;;;;;;;;;;x
-EVTDESC_TOG_1051;更多 [From.Culture.GetName]叛军已经拿起武器 在 [From.GetName]	加入了重建 [From.Kingdom.GetFullBaseName]的战斗中!;;;;;;;;;;x
-EVTDESC_TOG_1201;关于我的消息已经到达宫中，[From.GetTitledFirstName]正在聘请别人攻击我!;;;;;;;;;;x
-EVTOPTA_TOG_1201;我的天	我希望[From.GetSheHe]不是一场意外.;;;;;;;;;;x
-EVTDESC_TOG_1203;在多年的精心准备后，[From.GetDynName]已经组织起了一支庞大的，由流亡者、雇佣兵等组成的军队，宣称[From.GetPossPronoun]意图，并动用武力以公开[From.GetPossPronoun]宣称。;;;;;;;;;;x
-EVTDESC_TOG_1204;经过数年的精密筹划	[FromFrom.GetDynName] 来自 [From.GetTitledName] 的宫廷 已经拉起了一支由浪人 雇佣军 和野心家组成的庞大军队	宣布 [FromFrom.GetPossPronoun] 意图 要武力实现 [FromFrom.GetPossPronoun] 的宣称.;;;;;;;;;;x
+EVTDESC_TOG_1041;一场危险的暴动已经在 [From.GetName]爆发。许多杰出的[From.Culture.GetName]地主已经组织起了一支支由农民组成的军队，经过训练后就由一队职业士兵领导。他们企图恢复[From.Kingdom.GetFullBaseName]的统治！;;;;;;;;;;x
+EVTDESC_TOG_1050;更多的[Root.Culture.GetName]叛乱者已经在[Root.GetName]拿起武器，加入到[Root.Kingdom.GetFullBaseName]的独立运动！;;;;;;;;;;x
+EVTDESC_TOG_1051;更多的[From.Culture.GetName]叛乱者已经在[From.GetName]拿起武器，加入到[From.Kingdom.GetFullBaseName]的独立运动！;;;;;;;;;;x
+EVTDESC_TOG_1201;消息已经到达宫中，我的头衔的一位宣称者，[From.GetTitledFirstName]正在聘请别人攻击我！;;;;;;;;;;x
+EVTOPTA_TOG_1201;我的天，希望[From.GetSheHe]不要遭到……意外。;;;;;;;;;;x
+EVTDESC_TOG_1203;在多年的精心准备后，[From.GetDynName]已经组织起了一支庞大的，由流亡者、雇佣兵等组成的军队，宣称[From.GetPossPronoun]意图，并动用武力以索取[From.GetPossPronoun]宣称。;;;;;;;;;;x
+EVTDESC_TOG_1204;在多年的精心准备后，来自[From.GetTitledName]宫廷的[FromFrom.GetDynName]已经组织起了一支庞大的，由流亡者、雇佣兵等组成的军队，宣称[FromFrom.GetPossPronoun]意图，并动用武力以索取[FromFrom.GetPossPronoun]宣称。;;;;;;;;;;x
 EVTOPTA_TOG_1203;呃......祝他好运！;;;;;;;;;;x
-EVTDESC_TOG_1211;我已经收到信息，一个叫 [From.GetTitledFirstName]的有抱负的冒险者正在组织部队进攻我的领土！;;;;;;;;;;x
+EVTDESC_TOG_1211;我已经收到信息，一个叫[From.GetTitledFirstName]的有抱负的冒险者正在组织部队进攻我的领土！;;;;;;;;;;x
 EVTOPTA_TOG_1211;我想到了刺杀……;;;;;;;;;;x
 EVTDESC_TOG_1213;在多年的精心准备后，[From.GetDynName]已经组建出了一支庞大的，由流亡者、雇佣兵等组成的军队，宣布[From.GetPossPronoun]进军意向，建立属于[From.GetPossPronoun]地盘……;;;;;;;;;;x
-EVTDESC_TOG_1214;经过数年的精密筹划	[FromFrom.GetDynName]来自 [From.GetTitledName]的宫廷 已经拉起了一支由浪人 雇佣军 和野心家组成的庞大军队	宣布 [FromFrom.GetPossPronoun] 意图 要出走 并析置出一块 [FromFrom.GetPossPronoun] 自己的领地……;;;;;;;;;;x
-AT_PEACE_PRESTIGE_LOSS;处于和平 (§Y$MONTHS$§! 个月)：§R$PRESTIGE$§!;;;;;;;;;;x
+EVTDESC_TOG_1214;在多年的精心准备后，来自[From.GetTitledName]宫廷的[FromFrom.GetDynName]已经组建出了一支庞大的，由流亡者、雇佣兵等组成的军队，宣布[FromFrom.GetPossPronoun]进军意向，建立属于[FromFrom.GetPossPronoun]地盘……;;;;;;;;;;x
+AT_PEACE_PRESTIGE_LOSS;处于和平（§Y$MONTHS$§! 个月）：§R$PRESTIGE$§!;;;;;;;;;;x
 alert_at_peace_prestige_loss_name;长期和平;;;;;;;;;;x
-alert_at_peace_prestige_loss_instant;§Y你们是在和平里呆得太久了吗!§!;;;;;;;;;;x
-alert_at_peace_prestige_loss_delayed;作为一个§Y$RELIGION$§!原始宗教，如果你处于和平或是不去劫掠的话，每月会减少§R$PRESTIGE$§!威望。;;;;;;;;;;x
+alert_at_peace_prestige_loss_instant;§Y你们在和平里待得太久了！§!;;;;;;;;;;x
+alert_at_peace_prestige_loss_delayed;作为一个§Y$RELIGION$§!原始宗教信徒，如果你处于和平或是不去劫掠的话，每月会减少 §R$PRESTIGE$§! 威望。;;;;;;;;;;x
 job_spiritual_norse_pagan;先知;;;;;;;;;;x
 job_spiritual_norse_pagan_reformed;先知;;;;;;;;;;x
 job_spiritual_female_norse_pagan;女先知;;;;;;;;;;x
@@ -662,28 +662,28 @@ TECH_CONSTRUCTION_DESC;更先进的建筑学使建造变得更效率。;;;;;;;;;
 TECH_CULTURE_FLEX;宽容;;;;;;;;;;x
 TECH_CULTURE_FLEX_DESC;海纳百川更易于统治不同的文化和宗教。;;;;;;;;;;x
 TECH_INVEST;投资在 §Y$TECHNAME$§!\n花费：$COST$/§Y$MAX$§!;;;;;;;;;;x
-TECH_INVEST_DESC;通过花费 §Y$POINTS$§! $POINTTYPE$ 你能够提升这项科技到等级 §Y$NEXTLEVEL$§!;;;;;;;;;;x
+TECH_INVEST_DESC;通过花费 §Y$POINTS$§! $POINTTYPE$你能够提升这项科技到等级 §Y$NEXTLEVEL$§!;;;;;;;;;;x
 POINTTYPE_MIL;军事科技点数;;;;;;;;;;x
 POINTTYPE_ECO;经济科技点数;;;;;;;;;;x
 POINTTYPE_CUL;文化科技点数;;;;;;;;;;x
-TECH_FROM_ATTRIBUTES;§Y$GROWTH$§! / 月由于统治者的属性;;;;;;;;;;x
-TECH_DESC_CAPITAL;在你首都 $PROV$ 的进展;;;;;;;;;;x
+TECH_FROM_ATTRIBUTES;§Y$GROWTH$§!/月由于统治者的属性;;;;;;;;;;x
+TECH_DESC_CAPITAL;在你首都$PROV$的进展;;;;;;;;;;x
 SPREAD_FROM_TRADE;贸易站奖励;;;;;;;;;;x
-MODIFIER_TECH_GROWTH_MODIFIER;科技转播率;;;;;;;;;;x
+MODIFIER_TECH_GROWTH_MODIFIER;科技传播率;;;;;;;;;;x
 MODIFIER_TECH_GROWTH_MILITARY;军事科技传播率;;;;;;;;;;x
 MODIFIER_TECH_GROWTH_ECONOMY;经济科技传播速度;;;;;;;;;;x
 MODIFIER_TECH_GROWTH_CULTURE;文化科技传播速度;;;;;;;;;;x
 SPREAD_FROM_SPYACTION;间谍总管学习科技;;;;;;;;;;x
 TECH_MAPMODE_BUTTON_IRO;地图模式：传播对比;;;;;;;;;;x
-TECH_MAPMODE_BUTTON_DRO;目前世界上的发展深蓝是最低等级的、白色是最高等级.;;;;;;;;;;x
+TECH_MAPMODE_BUTTON_DRO;目前世界上的发展深蓝是最低等级，白色是最高等级。;;;;;;;;;;x
 TECH_MARTIAL_VALUE;基础军事科技点数成长;;;;;;;;;;x
 TECH_STEWARDSHIP_VALUE;基础经济科技点数成长;;;;;;;;;;x
 TECH_DIPLOMACY_VALUE;基础文化科技点数成长;;;;;;;;;;x
-TECH_POINTS_PER_MONTH;点 / 月;;;;;;;;;;x
+TECH_POINTS_PER_MONTH;点/月;;;;;;;;;;x
 TECHPOINT_EFFECT;$DIRECTION$ $VALUE$ $TYPE$。\n;;;;;;;;;;x
 TECH_POINTS_PER_ATTRIBUTE;科技点每属性点;;;;;;;;;;x
 PARTIALLY_FILLED;研究能力;;;;;;;;;;x
-COUNT_TECH_POINTS;伯爵不会产生科技点;;;;;;;;;;x
+COUNT_TECH_POINTS;伯爵领不会产生科技点;;;;;;;;;;x
 alert_can_tech_instant;§Y你应该投资一项科研§!;;;;;;;;;;x
 alert_can_tech_delayed;你在一个科技组有足够的科技点可以用来投资发展;;;;;;;;;;x
 TECH_REMOVE_PAGAN_HOME_ATTRITION;移除异教领地损耗惩罚;;;;;;;;;;x
@@ -694,10 +694,10 @@ LOOTED_PROVINCE;掠夺省份：§R-$PERC$%§!;;;;;;;;;;x
 LOOT_THE_PROVINCE;掠夺所有领地;;;;;;;;;;x
 LOOT_EFFECTS;掠夺：§Y$GOLD$§!¤\n威望：§Y$PRESTIGE$§!;;;;;;;;;;x
 CANT_LOOT;无法掠夺;;;;;;;;;;x
-LOOT_DESC_DESTROY;掠夺将摧毁贸易站，毁坏建筑有时甚至整个领地.;;;;;;;;;;x
+LOOT_DESC_DESTROY;掠夺将摧毁贸易站，毁坏建筑有时甚至整个领地。;;;;;;;;;;x
 CAN_LOOT_RELIGION;宗教允许掠夺;;;;;;;;;;x
 CAN_NOT_LOOT_RELIGION;你的宗教不允许掠夺;;;;;;;;;;x
-CAN_LOOT_OWNER;\n被不是 §Y$RELIGION$§!的敌人拥有\n由你控制\n没有 §Y被劫掠§! 惩罚;;;;;;;;;;x
+CAN_LOOT_OWNER;\n被不是§Y$RELIGION$§!的敌人拥有\n由你控制\n没有§YLooted§!惩罚;;;;;;;;;;x
 CAN_LOOT_OWNER_SETTLEMENT;这块领地：;;;;;;;;;;x
 CAN_LOOT_OWNER_PROVINCE;任意领地：;;;;;;;;;;x
 LOADING_CALC_NAVAL;计算海军范围;;;;;;;;;;x
@@ -732,10 +732,10 @@ LOOTING_INSTANT;掠夺中;;;;;;;;;;x
 CANT_LOOT_SHORT;无法掠夺;;;;;;;;;;x
 LOOTING_TONAVY_DESC;这个单位掠夺的金钱将会运到在$SEA$的舰队上。舰队必须返航才能取得金钱。;;;;;;;;;;x
 LOOTING_TOOWNER_DESC;这个单位掠夺的金钱将会直接增加它所有者的财富，因为它在所有者领地的边境.;;;;;;;;;;x
-LOOTING_TARGET_SHORT;拥有相邻省份或者空载的舰队为了掠夺相邻海域或者河流.;;;;;;;;;;x
-LOOTING_NOSHIP;省份没有与单位所有者的领土相连或者附近没有友好的船只.;;;;;;;;;;x
-LOOTING_EMPTY;这个省份的所有战利品现在被要塞保护着.;;;;;;;;;;x
-LOOTING_EMPTY_SHORT;战利品没有处于要塞保护的省份;;;;;;;;;;x
+LOOTING_TARGET_SHORT;拥有相邻省份或者相邻海域/河流中有空载的舰队;;;;;;;;;;x
+LOOTING_NOSHIP;省份没有与单位所有者的领土相连或者附近没有友军船只。;;;;;;;;;;x
+LOOTING_EMPTY;这个省份的所有战利品现在被要塞保护着。;;;;;;;;;;x
+LOOTING_EMPTY_SHORT;省份有不处于要塞保护的战利品;;;;;;;;;;x
 LOOTING_LOOT;这个省份每 §Y$DAYS$§! 天可以被掠夺 §Y$LOOT$§!¤。这些钱将会由所有单位平分。;;;;;;;;;;x
 LOOTING_UNIT_LAST;这个单位目前掠夺了 §Y$LOOT$§!;;;;;;;;;;x
 LOOTING_NOUNIT;你没有单位驻扎在省份;;;;;;;;;;x
@@ -743,26 +743,26 @@ LOOTING_NOUNIT_SHORT;有一个单位驻扎在省份;;;;;;;;;;x
 FAM_CONSORTS;侍妾;;;;;;;;;;x
 FAM_LOVER;情人;;;;;;;;;;x
 CONCUBINAGE;妾侍制度;;;;;;;;;;x
-CONCUBINAGE_DESC;这是妾侍制度.妾所生下的孩子尽管社会地位较低，但是仍有正常的继承权并且属于父亲的家族.;;;;;;;;;;x
-NUBILE_CONSORTS;适婚的侍妾 (x§Y$NUM$§!)：§G+$PRESTIGE$§!;;;;;;;;;;x
+CONCUBINAGE_DESC;这是妾侍制度。妾所生下的孩子尽管社会地位较低，但是仍有正常的继承权并且属于父亲的家族。;;;;;;;;;;x
+NUBILE_CONSORTS;适婚的侍妾（x§Y$NUM$§!）：§G+$PRESTIGE$§!;;;;;;;;;;x
 DIVORCE_INTERACTION_0;付出 §R$GOLD$§!¤ 来和§Y[Recipient.GetTitledFirstName]§!离婚。[Recipient.GetHerHisCap]近亲将会受到侮辱（§R$OPINION$§! 好感度）。;;;;;;;;;;x
-opinion_abducted_spouse;被绑架的配偶;;;;;;;;;;x
+opinion_abducted_spouse;配偶被绑架;;;;;;;;;;x
 opinion_forced_consort;绑架者;;;;;;;;;;x
-opinion_forced_relative_consort;绑架关系;;;;;;;;;;x
-opinion_forced_wife_consort;和绑架者结婚;;;;;;;;;;x
+opinion_forced_relative_consort;亲属被绑架;;;;;;;;;;x
+opinion_forced_wife_consort;配偶抢夺者;;;;;;;;;;x
 child_of_consort;庶子;;;;;;;;;;x
 child_of_consort_desc;这名角色是统治者的庶子。庶子有继承权但是被他人轻视。;;;;;;;;;;x
 peasant_leader;农民领袖;;;;;;;;;;x
 EVTDESC660;那下流的畜生[From.GetBestName]强迫我成为他的侍妾！;;;;;;;;;;x
-EVTOPTA660;哦	残酷的命运……;;;;;;;;;;x
-EVTDESC661;[FromFrom.GetBestName]强迫我的 [GetFromRelation][From.GetBestName]成为他的侍妾！;;;;;;;;;;x
-EVTOPTA661;[FromFrom.GetSheHeCap] 将为此付出代价！;;;;;;;;;;x
+EVTOPTA660;哦，残酷的命运……;;;;;;;;;;x
+EVTDESC661;[FromFrom.GetBestName]强迫我的[GetFromRelation][From.GetBestName]成为他的侍妾！;;;;;;;;;;x
+EVTOPTA661;[FromFrom.GetSheHeCap]将为此付出代价！;;;;;;;;;;x
 EVTDESC662;[FromFrom.GetBestName]强迫我的妻子[From.GetBestName]成为他的侍妾！;;;;;;;;;;x
-EVTOPTA662;[FromFrom.GetSheHeCap] 将为此付出代价！;;;;;;;;;;x
-EVTDESC297;我已经决定接受你的建议让 [Root.GetTitledFirstName]成为你的侍妾;;;;;;;;;;x
+EVTOPTA662;[FromFrom.GetSheHeCap]将为此付出代价！;;;;;;;;;;x
+EVTDESC297;我已经决定接受你的建议让[Root.GetTitledFirstName]成为你的侍妾。;;;;;;;;;;x
 EVTDESC298;我拒绝你无礼的建议。[Root.GetTitledFirstName]永远不会成为你的侍妾。;;;;;;;;;;x
 EVTDESC304;[FromFrom.Mother.GetFirstName]生了另一个男人的小孩！我无法相信这次背叛！;;;;;;;;;;x
-EVTDESC410;我肯定怀孕了... ...我的领主会很开心的。;;;;;;;;;;x
+EVTDESC410;我肯定怀孕了……我的领主会很开心的。;;;;;;;;;;x
 EVTDESC412;哎呀，我一定怀孕了。我的领主会相信是他的种吗？;;;;;;;;;;x
 EVTOPTA412;好消息，亲爱的！;;;;;;;;;;x
 EVTDESC413;命运向我微笑，我的侍妾[From.GetFirstName]怀孕了！;;;;;;;;;;x
@@ -770,18 +770,18 @@ EVTTOOLTIP413;告诉[Root.FatherOfUnborn.GetFirstName]他将成为父亲;;;;;;;;
 SEARCH_COURT;搜索宫廷;;;;;;;;;;x
 HINT_MIL_VIEW_TEXT_4;「圣战士」标签页列出了伟大的宗教圣战士。他们能够像雇佣军那样雇佣，不过召集它将花费[Player.Religion.GetPietyName]而不是金钱，同时还要支付他们的维护费。圣战士的出现以他们历史上的时间为基准。;;;;;;;;;;x
 LOADING_TIP_12;圣战士只能与异端和异教徒战斗。请在战斗中小心地使用他们;;;;;;;;;;x
-EVTDESC62300;你对抗 [From.GetTitledName]的入侵计划不再有可能性.入侵在它开始前就已经失败了....;;;;;;;;;;x
-EVTOPTA62300;奥丁恕罪!;;;;;;;;;;x
-EVTDESC62310;你等待时间太久了而不能发动你对抗[From.GetTitledName]的入侵计划! 心怀不满而满怀希望的战士们往你的旗帜聚集寻找更好的机遇.;;;;;;;;;;x
-EVTOPTA62310;仁慈的乌鸦之神!;;;;;;;;;;x
-EVTDESC62320;大量想冒险的粗鲁之人从斯堪的纳维亚的角角落落而来，希望加入你对抗[From.GetTitledName]的伟大远征!;;;;;;;;;;x
-EVTOPTA62320;准备食物和床铺!;;;;;;;;;;x
-EVTDESC62321;一位著名的英雄与他的侍卫和追随者来到你的宫廷，希望参加你荣耀的入侵战对抗[From.GetTitledName]!;;;;;;;;;;x
-EVTOPTA62321;准备上房伺候!;;;;;;;;;;x
+EVTDESC62300;你对抗[From.GetTitledName]的入侵计划不再有可能性。入侵在它开始前就已经失败了……;;;;;;;;;;x
+EVTOPTA62300;奥丁恕罪！;;;;;;;;;;x
+EVTDESC62310;你等待时间太久了而不能发动你对抗[From.GetTitledName]的入侵计划！聚集在你旗帜下的战士们心怀不满而满怀希望地离开寻找更好的机遇。;;;;;;;;;;x
+EVTOPTA62310;乌鸦之神宽恕！;;;;;;;;;;x
+EVTDESC62320;大量想冒险的粗鲁之人从斯堪的纳维亚的角角落落而来，希望加入你对抗[From.GetTitledName]的伟大远征！;;;;;;;;;;x
+EVTOPTA62320;准备食物和床铺！;;;;;;;;;;x
+EVTDESC62321;一位著名的英雄与他的侍卫和追随者来到你的宫廷，希望参加你对抗[From.GetTitledName]的荣耀入侵战！;;;;;;;;;;x
+EVTOPTA62321;贵宾席伺候！;;;;;;;;;;x
 EVTDESC62900;随着罗德布洛克的儿子们向撒克逊王的复仇，在英格兰有很大机会能获得战利品和荣耀.我那群粗鲁鬼们正在变得焦躁不安得渴望参加这次冒险....;;;;;;;;;;x
 EVTOPTA62900;乌鸦将在麦西亚飞翔！;;;;;;;;;;x
 EVTOPTB62900;乌鸦将在威塞克斯飞翔！;;;;;;;;;;x
-EVTOPTC62900;乌鸦将在苏格兰飞翔!;;;;;;;;;;x
+EVTOPTC62900;乌鸦将在苏格兰飞翔！;;;;;;;;;;x
 EVTOPTD62900;这是个坏主意……;;;;;;;;;;x
 EVTOPTA62900_TT;准备入侵麦西亚\n;;;;;;;;;;x
 EVTOPTB62900_TT;准备入侵威塞克斯\n;;;;;;;;;;x
