@@ -293,7 +293,7 @@ EVTOPTD94051;酒鬼老爷！;;;;;;;;;;x
 EVTOPTE94051;新月绿洲！;;;;;;;;;;x
 EVTOPTF94051;交叉弯刀俱乐部！;;;;;;;;;;x
 EVTOPTG94051;法兰克，撒拉逊与鞑靼！;;;;;;;;;;x
-EVTOPTH94051;沙漠酒吧！;;;;;;;;;;x
+EVTOPTH94051;沙漠酒泉！;;;;;;;;;;x
 EVTTOOLTIP94052;选中了一个名字。;;;;;;;;;;x
 EVTDESC94052;你的新酒馆事务繁忙，每个人都在准备晚上盛大的开张典礼.顾客们会免费试用萝卜，但是如果你在萝卜里面加入大量的盐，人们或许会变得越来越渴，蜂蜜酒的销量可能会增加……;;;;;;;;;;x
 EVTOPTA94052;增加10%的盐！;;;;;;;;;;x
@@ -644,9 +644,9 @@ EVTOPTA6315;那只金花鼠跑到哪里去了？你看见了么？;;;;;;;;;;x
 EVTDESC6316;当满月照进一扇窗户的时候，你正在举行一顿晚宴招待本地的达官显贵。你浑身颤抖着，说了一声失礼，然后急忙跑上楼到你的卧室，边跑边撕扯你身上的衣服。当卫兵找到你的时候，你正浑身赤裸着蹲伏在你的阳台上，对着月亮嚎叫。;;;;;;;;;;x
 EVTOPTA6316;嗷嗷嗷嗷嗷嗷嗷呜呜呜呜呜呜呜！！！;;;;;;;;;;x
 EVTDESC6317;你的马总是向你证明它值得信赖，这是一种你觉得你的内阁成员急需的品质。到了做出改变的时候了。你将要任命它为你的新任[Root.GetChancellorName]。;;;;;;;;;;x
-EVTOPTA6317;荣耀的马儿，我任命你为王国的[Root.GetChancellorName]。;;;;;;;;;;x
-EVTDESC6318;你疯狂的[Root.Liege.GetTitle]基于[Root.Liege.GetHerHis]无尽的智慧已经决定解除你[Root.Liege.GetChancellorName]的职位。[Root.Liege.GetHerHis]亲爱的马，将会接替你的位置。;;;;;;;;;;x
-horse_chancellor;你被迫经受这个耻辱，注视着领主的马被牵进内阁大厅并被任命为[Root.Liege.GetChancellorName]。;;;;;;;;;;x
+EVTOPTA6317;闪蹄，我任命你为王国的[Root.GetChancellorName]。;;;;;;;;;;x
+EVTDESC6318;你疯狂的[Root.Liege.GetTitle]基于[Root.Liege.GetHerHis]无尽的智慧已经决定解除你[Root.Liege.GetChancellorName]的职位。闪蹄，[Root.Liege.GetHerHis]最爱的马，将会接替你的位置。;;;;;;;;;;x
+horse_chancellor;你被迫经受这个耻辱，注视着闪蹄被牵进内阁大厅并被任命为[Root.Liege.GetChancellorName]。;;;;;;;;;;x
 EVTOPTA6318;这次这个疯子做得太过分了……;;;;;;;;;;x
 RAISE_PROVINCE_OWNLEVIES;调集当地领地征召兵（§Y$SIZE$§! 部队）\n;;;;;;;;;;x
 RAISE_PROVINCE_OWNFLEET;调集当地领地征召舰队（§Y$SIZE$§! 船只）\n;;;;;;;;;;x
@@ -658,10 +658,10 @@ RAISE_LIEGELEVY_LONG;属于§Y$VASSAL$§!（§Y$SIZE$§! $TYPE$）\n;;;;;;;;;;x
 DISMISS_LIEGELEVY;解散领主征召兵;;;;;;;;;;x
 CANNOT_BUY_RET_ROOM;\n你不能创建这支近卫军，你已经达到了最大的近卫军数量。;;;;;;;;;;x
 CANNOT_BUY_RET_WEALTH;\n你不能创建这支近卫军，你不能负担它的费用。;;;;;;;;;;x
-COST_TO_CREATE;建造需要花费的代价：§Y$COST$§!\n;;;;;;;;;;x
-RETINUE_CAP_USAGE;目前的可用近卫军：§Y$SIZE$§!\n;;;;;;;;;;x
-RETINUE_CAP;近卫军规模：§Y$SIZE$§!\n;;;;;;;;;;x
-RETINUE_CAP_USAGE_BUY;可用近卫军：§Y$SIZE$§!\n;;;;;;;;;;x
+COST_TO_CREATE;创建花费：§Y$COST$§!\n;;;;;;;;;;x
+RETINUE_CAP_USAGE;目前禁卫军上限用量：§Y$SIZE$§!\n;;;;;;;;;;x
+RETINUE_CAP;近卫军上限：§Y$SIZE$§!\n;;;;;;;;;;x
+RETINUE_CAP_USAGE_BUY;近卫军上限用量：§Y$SIZE$§!\n;;;;;;;;;;x
 RETTYPE_CUL_ENG;英格兰长弓手;;;;;;;;;;x
 RETTYPE_CUL_SCOT;苏格兰长枪兵;;;;;;;;;;x
 RETTYPE_CUL_BALT;波罗的海战士;;;;;;;;;;x
@@ -669,7 +669,7 @@ RETTYPE_CUL_ALTAIC;阿尔泰马弓手;;;;;;;;;;x
 RETTYPE_CUL_FRANK_NOR_GER;西欧骑士;;;;;;;;;;x
 RETTYPE_CUL_IBER;伊比利亚骑手;;;;;;;;;;x
 RETTYPE_CUL_ITA;意大利长矛手;;;;;;;;;;x
-RETTYPE_CUL_RUS;罗斯亲卫骑兵;;;;;;;;;;x
+RETTYPE_CUL_RUS;罗斯伙伴卫队;;;;;;;;;;x
 RETTYPE_CUL_NORTHGER;北日耳曼侍卫;;;;;;;;;;x
 RETTYPE_CUL_HUNG;匈牙利轻骑兵;;;;;;;;;;x
 RETTYPE_CUL_ARAB;阿拉伯骆驼武士;;;;;;;;;;x
@@ -813,8 +813,8 @@ EVTDESC249;一片混战之中，你的军队成功包围了[From.GetTitledFirstN
 EVTOPTA249;谢天谢地！;;;;;;;;;;x
 PART_SCALED_DECADENCE_EFFECT;§Y$WHO$§!：从战争贡献中$DIRECTION$ $VALUE$ 腐化度。\n;;;;;;;;;;x
 NEWBORN_PURPLE_SETUP;孩子生于紫室;;;;;;;;;;x
-NEWBORN_PURPLE_LOG;一个§Y$SEX$§!由§Y$CHAR1$§!和§Y$CHAR2$§!结合而出生显赫的孩子，名为§Y$CHILD$§!。;;;;;;;;;;x
-NEWBORN_PURPLE_LETTER;$MOTHER$在产房里生出了一个 $SEX$。这个孩子的名字将是$CHILD$;;;;;;;;;;x
+NEWBORN_PURPLE_LOG;一名§Y$SEX$§!生于紫室，双亲是§Y$CHAR1$§!和§Y$CHAR2$§!，起名为§Y$CHILD$§!。;;;;;;;;;;x
+NEWBORN_PURPLE_LETTER;$MOTHER$已于紫色宫殿中生出一个$SEX$。这个孩子的名字将是$CHILD$;;;;;;;;;;x
 NEWBORN_PURPLE_TO_PLAYER;你有了一个$SEX$！$CHAR2$为这个孩子命名：;;;;;;;;;;x
 FACTION_BACKERS_LESS_THAN;「§Y$FACTION$§!」派系的支持者少于 §Y$VAL$§!;;;;;;;;;;x
 FACTION_BACKERS_AT_LEAST;在「§Y$FACTION$§!」派系中至少有 §Y$VAL$§! 支持者;;;;;;;;;;x

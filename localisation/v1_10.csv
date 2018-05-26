@@ -6,7 +6,7 @@ EVTOPTA6351;那颜色并不存在于这个世界！;;;;;;;;;;x
 EVTOPTB6351;那口井肯定有问题;;;;;;;;;;x
 EVTDESC6352;我曾一次次的询问我的仆人，询问他那个在城堡下锁着的陵墓的事情，但一直到今天我才找到了那把藏在一座腐烂的城堡塔里面的钥匙。在那座陵墓里布满灰尘的通道中，我发现了一副空的石棺材，上面刻着「[Root.GetFirstName] [Root.GetOnlyDynastyName]」。;;;;;;;;;;x
 EVTOPTA6352;这棺材看上去睡里面会很舒服;;;;;;;;;;x
-EVTOPTB6352;呃，那个恐怖的，密封着的棺材！;;;;;;;;;;x
+EVTOPTB6352;呃，这阵让人不适……封上棺材！;;;;;;;;;;x
 EVTDESC6353;一个众所周知对猫很残忍的老佃农和他的妻子今天早上被发现死在他们家里，尸体只剩下骨头，一点肉都没有。我的管家告诉我当地人发现他们的猫前些天都失踪了，但所有失踪的猫今天都回来了，而且它们看上去都胖了，而且很高兴……;;;;;;;;;;x
 EVTOPTA6353;通过一个禁止杀猫的法律;;;;;;;;;;x
 EVTOPTB6353;只是一个巧合而已;;;;;;;;;;x
@@ -44,7 +44,7 @@ INTERACTION_REQUIRES_NO_LOOTING_HOSTILITY;当我们在劫掠他们的时候，�
 FROM_ATTRIBUTES;来自属性：§G+$AMOUNT$§!;;;;;;;;;;x
 HOLY_SITES_LESS;没有掌控至少§Y$VAL$§W圣地\n;;;;;;;;;;x
 HOLY_SITES_LEAST;掌控着至少§Y$VAL$§W圣地\n;;;;;;;;;;x
-MAJOR_RIVER_SHORT;在§Y$TO$§!渡过§Y$RIVER$§!;;;;;;;;;;x
+MAJOR_RIVER_SHORT;渡过主要河流§Y$RIVER$§!前往§Y$TO$§!;;;;;;;;;;x
 MAJOR_RIVER_DESC;当跨过一条主要河流进攻时，进攻方军队会有一个很大的作战减成;;;;;;;;;;x
 RETCAP_FROM_REALM;来自领地：§G$REALM$§!\n地产：§Y$HOLDINGS$§!\n每块地产的上限：§Y$PERHOLDING$§!\n;;;;;;;;;;x
 RETCAP_FROM_BUILDINGS;来自建筑：§G$AMOUNT$§!\n;;;;;;;;;;x
@@ -65,7 +65,7 @@ RELIGION_UNIT_MODIFIER;这个宗教对其所控制的所有单位的影响：;;;
 RELIGION_UNIT_HOME_MODIFIER;这个宗教影响下的省份的额外修正：;;;;;;;;;;x
 PROVINCE_HAS_HOLYSITE;这个省份拥有§Y$HOLYSITE$§!，一个§Y$RELIGION$§!的圣地;;;;;;;;;;x
 recently_conquered;新近征服;;;;;;;;;;x
-new_administration;新近征服;;;;;;;;;;x
+new_administration;新近管治;;;;;;;;;;x
 won_crusade;大圣战胜利;;;;;;;;;;x
 lost_crusade;大圣战失败;;;;;;;;;;x
 won_holy_war;赢得圣战;;;;;;;;;;x
@@ -114,7 +114,7 @@ HOLY_SITE_CONTROLLED;(已控制);;;;;;;;;;x
 HOLY_SITE_PARTIALLY_CONTROLLED;(部分控制);;;;;;;;;;x
 HOLY_SITE_NOT_CONTROLLED;(未控制);;;;;;;;;;x
 RELHEAD_CONTROLS;控制了一处圣地;;;;;;;;;;x
-HOLY_SITE_OF;该圣地属于;;;;;;;;;;x
+HOLY_SITE_OF;圣地位于;;;;;;;;;;x
 RELHEAD_DIPLO;外交;;;;;;;;;;x
 RELHEAD_PIETY;[Player.Religion.GetPietyName];;;;;;;;;;x
 ORGANIZED_RELIGION;有组织的宗教;;;;;;;;;;x
@@ -123,7 +123,7 @@ INTERACTION_PREP_INV_ALREADY_TARGETTED;§Y[Recipient.GetTitledFirstName]§!没�
 INTERACTION_PREP_INV_ONLY_ONCE;§Y[Actor.GetTitledFirstName]§!只能在[Actor.GetPossPronoun]一生中发动一次准备入侵;;;;;;;;;;x
 MORAL_AUTHORITY_OF_RELIGION;§Y$RELIGION$§!信仰的宗教权威：§Y$AUTHORITY$%§!;;;;;;;;;;x
 EVTNAME670;_[Root.Religion.GetName]改革;;;;;;;;;;x
-EVTDESC670;古老的[Root.Religion.GetName]宗教已经被证明无法抵御十字架与月亮的冲击。比起完全放弃旧模式，[Root.GetTitledName]跟一些最有势力的牧师已经决定对[Root.Religion.GetName]信仰进行改革。随着新的礼拜式的编排，一部圣经跟在一个领导者领导下的教廷严格等级制度也面世了，他们希望通过对[Root.Religion.GetName]信仰的改革，可以更好地对抗外国宗教信仰！;;;;;;;;;;x
+EVTDESC670;古老的[Root.Religion.GetName]宗教已经被证明无法抵御十字架与月亮的冲击。比起完全放弃老路，[Root.GetTitledName]与最有势力的祭司们已经决定改革[Root.Religion.GetName]信仰。成体系的礼仪，一部神圣经典和在单一领导者下的严格教会等级制是改革的成果，他们希望[Root.Religion.GetName]信仰能更好地武装自己，击退软弱无能的异国信仰！;;;;;;;;;;x
 EVTOPTA670;为了[Root.Religion.GetRandomGodName]！;;;;;;;;;;x
 EVTOPTB670;接受改革！;;;;;;;;;;x
 EVTOPTC670;老方法仍然是最好的;;;;;;;;;;x
@@ -425,7 +425,7 @@ EVTDESC_TOG_1041;一场危险的暴动已经在 [From.GetName]爆发。许多杰
 EVTDESC_TOG_1050;更多的[Root.Culture.GetName]叛乱者已经在[Root.GetName]拿起武器，加入到[Root.Kingdom.GetFullBaseName]的独立运动！;;;;;;;;;;x
 EVTDESC_TOG_1051;更多的[From.Culture.GetName]叛乱者已经在[From.GetName]拿起武器，加入到[From.Kingdom.GetFullBaseName]的独立运动！;;;;;;;;;;x
 EVTDESC_TOG_1201;消息已经到达宫中，我的头衔的一位宣称者，[From.GetTitledFirstName]正在聘请别人攻击我！;;;;;;;;;;x
-EVTOPTA_TOG_1201;我的天，希望[From.GetSheHe]不要遭到……意外。;;;;;;;;;;x
+EVTOPTA_TOG_1201;我的天，希望[From.GetSheHe]不要遭遇……意外。;;;;;;;;;;x
 EVTDESC_TOG_1203;在多年的精心准备后，[From.GetDynName]已经组织起了一支庞大的，由流亡者、雇佣兵等组成的军队，宣称[From.GetPossPronoun]意图，并动用武力以索取[From.GetPossPronoun]宣称。;;;;;;;;;;x
 EVTDESC_TOG_1204;在多年的精心准备后，来自[From.GetTitledName]宫廷的[FromFrom.GetDynName]已经组织起了一支庞大的，由流亡者、雇佣兵等组成的军队，宣称[FromFrom.GetPossPronoun]意图，并动用武力以索取[FromFrom.GetPossPronoun]宣称。;;;;;;;;;;x
 EVTOPTA_TOG_1203;呃......祝他好运！;;;;;;;;;;x
@@ -1099,10 +1099,10 @@ EVTOPTB_TOG_611;哦，这也许不是个好主意……;;;;;;;;;;x
 EVTDESC_TOG_612;[From.GetTitledFirstName] 已经从你的地牢里押往圣殿。你的卫兵已经绞索已经套到了[From.GetHerHis]脖子上，这时[From.GetSheHe]闭眼默念了几句伊斯兰教经书中的篇章。;;;;;;;;;;x
 EVTOPTA_TOG_612;兄弟，你马上就要去见你的先知啦。;;;;;;;;;;x
 EVTOPTB_TOG_612;哦，这也许不是个好主意……;;;;;;;;;;x
-EVTDESC_TOG_613;你的兄弟	[From.GetTitledFirstName]已经从他的地牢里押往圣殿。绞索已经套到了他的脖子上，他以乞求的眼光看着你。别这么做，[Root.GetFirstName]，也许我们还有其他的方法可以来商量……;;;;;;;;;;x
+EVTDESC_TOG_613;你的兄弟[From.GetTitledFirstName]已经从他的地牢里押往圣殿。绞索已经套到了他的脖子上，他以乞求的眼光看着你。别这么做，[Root.GetFirstName]，也许我们还有其他的方法可以来商量……;;;;;;;;;;x
 EVTOPTA_TOG_613;恐怕不行，该怎么办怎么办。;;;;;;;;;;x
 EVTOPTB_TOG_613;不，我不能这么对待我的亲兄弟……;;;;;;;;;;x
-EVTDESC_TOG_614;你的姐妹	[From.GetTitledFirstName]，已经从她的地牢里押往圣殿的绞架。她看着你，泪流满面，你的卫兵将绞索套在了她的脖子上。求你了，[Root.GetFirstName]，她以瑟瑟发抖的声音对你说。别让他们这么做。;;;;;;;;;;x
+EVTDESC_TOG_614;你的姐妹[From.GetTitledFirstName]，已经从她的地牢里押往圣殿的绞架。她看着你，泪流满面，你的卫兵将绞索套在了她的脖子上。求你了，[Root.GetFirstName]，她以瑟瑟发抖的声音对你说。别让他们这么做。;;;;;;;;;;x
 EVTOPTA_TOG_614;现在无法回头了。对不起。;;;;;;;;;;x
 EVTOPTB_TOG_614;不……那是我的亲姐妹啊……;;;;;;;;;;x
 EVTDESC_TOG_615;卫兵将你的父亲，[From.GetTitledFirstName]，从他的地牢里押往圣殿并将绞索套到了他的脖子上。我的[Root.GetSonDaughter]，他用他那苍老的声音对你说。你问问你的良心，难道不能放了我吗？;;;;;;;;;;x
@@ -1112,40 +1112,40 @@ EVTDESC_TOG_616;尖叫声从远方传来，你的卫兵将你的母亲[From.GetT
 EVTOPTA_TOG_616;因为我能。;;;;;;;;;;x
 EVTOPTB_TOG_616;我…….我做不到……;;;;;;;;;;x
 EVTDESC_TOG_617;卫兵抓来了你的儿子，[From.GetTitledFirstName]，并把他押往圣殿。绞索已经套到了他的脖子上，绳子已经在一棵结实的橡木旁边摆好了。在你的手下拉紧绳子之前，你的儿子用他的一双泪眼看着你。别这么做，[Root.GetFatherMother]……别这么做。;;;;;;;;;;x
-EVTOPTA_TOG_617;赶紧拉绳子!.;;;;;;;;;;x
-EVTOPTB_TOG_617;我不能这么对待我的儿子……;;;;;;;;;;x
-EVTDESC_TOG_618;你的女儿，[From.GetTitledFirstName]，被你的卫兵从地牢押往神庙。绞索已经套到了她的脖子上，她用绝望而愤怒的眼光望着你。这就是你想得到的吗，[Root.GetFatherMother] 这样……对你的亲生女儿？;;;;;;;;;;x
+EVTOPTA_TOG_617;赶紧拉绳子。;;;;;;;;;;x
+EVTOPTB_TOG_617;我不能这么对待……我的儿子……;;;;;;;;;;x
+EVTDESC_TOG_618;你的女儿，[From.GetTitledFirstName]，被你的卫兵从地牢押往神庙。绞索已经套到了她的脖子上，她用绝望而愤怒的眼光望着你。这就是你想得到的吗，[Root.GetFatherMother]？这样……对你的亲生女儿？;;;;;;;;;;x
 EVTOPTA_TOG_618;你让我别无选择。;;;;;;;;;;x
 EVTOPTB_TOG_618;不……把她带回去，我不能这么对待我的女儿……;;;;;;;;;;x
 EVTDESC_TOG_619;[From.GetTitledFirstName]已经被卫兵从地牢押往绞刑架。绞索已经套到了[From.GetHerHis]脖子上，[From.GetFirstName]对你哭喊道：别这么做，[Root.GetFirstName]！我们是一家人啊，我们身体里流着同样的血！;;;;;;;;;;x
-EVTOPTA_TOG_619;是啊	这正展现了我对奥丁的虔诚.;;;;;;;;;;x
-EVTOPTB_TOG_619;没错	[From.GetSheHe]是我的手足同胞.;;;;;;;;;;x
-EVTDESC_TOG_620;你的配偶	[From.GetTitledFirstName]	已经被卫兵从地牢押往圣殿	绞索已经套到[From.GetHerHis]脖子上. 为了抓住生命中最后的一根稻草救[From.GetHerselfHimself]	[From.GetFirstName] 大喊乞求你的宽恕：[Root.GetFirstName]我永远爱你....;;;;;;;;;;x
-EVTOPTA_TOG_620;原谅我	我的爱	但我必须这么做.;;;;;;;;;;x
-EVTOPTB_TOG_620;够了... 我不能这么做.;;;;;;;;;;x
-EVTDESC_TOG_621;从你的地牢里，你的卫兵拖来了[From.GetTitledFirstName]，你的「着皮者」俘虏。[From.GetHerHim]被押往圣殿绞索已经套到了[From.GetHerHis]脖子上，着皮者用[From.GetHerHis]语言大叫并以敌视的眼光瞪着你。;;;;;;;;;;x
-EVTOPTA_TOG_621;让我们看看什么叫做最适合做牺牲的贡品.;;;;;;;;;;x
-EVTOPTB_TOG_621;不	这个勇敢的着皮者应该活下来.;;;;;;;;;;x
-EVTDESC_TOG_622;[FromFrom.GetTitledFirstName] 被拖到了圣殿外巨大的橡树旁	绞索已然套到了[FromFrom.GetHerHis]脖子上. 很快 [FromFrom.GetFirstName]的身体就挂在橡树的枝桠上随着寒风风摇摆.;;;;;;;;;;x
-EVTOPTA_TOG_622;神会为此高兴!;;;;;;;;;;x
+EVTOPTA_TOG_619;是啊，这正展现了我对奥丁的虔诚。;;;;;;;;;;x
+EVTOPTB_TOG_619;没错……[From.GetSheHe]是我的手足同胞。;;;;;;;;;;x
+EVTDESC_TOG_620;你的配偶[From.GetTitledFirstName]，已经被卫兵从地牢押往圣殿，绞索已经套到[From.GetHerHis]脖子上。为了抓住生命中最后的一根稻草救[From.GetHerselfHimself]，[From.GetFirstName]大喊乞求你的宽恕：[Root.GetFirstName]我爱你……永远。;;;;;;;;;;x
+EVTOPTA_TOG_620;原谅我，我的爱，但我必须这么做。;;;;;;;;;;x
+EVTOPTB_TOG_620;够了……我不能这么做。;;;;;;;;;;x
+EVTDESC_TOG_621;你的卫兵从你的地牢里拖来了[From.GetTitledFirstName]，你的「着皮者」俘虏。[From.GetHerHim]被押往圣殿绞索已经套到了[From.GetHerHis]脖子上，着皮者用[From.GetHerHis]语言大叫并以敌视的眼光瞪着你。;;;;;;;;;;x
+EVTOPTA_TOG_621;给你看看什么叫人祭的正确做法。;;;;;;;;;;x
+EVTOPTB_TOG_621;不，这个勇敢的着皮者应该活下来。;;;;;;;;;;x
+EVTDESC_TOG_622;[FromFrom.GetTitledFirstName]被拖到了圣殿外巨大的橡树旁，绞索已然套到了[FromFrom.GetHerHis]脖子上。很快 [FromFrom.GetFirstName]的身体就挂在橡树的枝桠上随着寒风风摇摆。;;;;;;;;;;x
+EVTOPTA_TOG_622;神会为此高兴！;;;;;;;;;;x
 EVTDESC_TOG_623;你主君的卫兵将一个基督徒——[FromFrom.GetTitledFirstName]——押往圣殿前的橡树旁，绞索已经套到了[FromFrom.GetHerHis]脖子上，即便到这时候了，[FromFrom.GetSheHe]依然在那里唠叨「圣灵」以及我们将在因罪恶而在所谓的地狱中受到惩罚……不过很快[FromFrom.GetSheHe]就不唠叨了。;;;;;;;;;;x
 EVTDESC_TOG_624;[FromFrom.GetTitledFirstName]，一个伊斯兰教徒，被从你领主的地牢中带出来，押往圣殿作为献给神的祭品。绞索已经套到了[FromFrom.GetHerHis]脖子上，[FromFrom.GetSheHe]还不断地念叨他们经书里的经文，直到绳子一紧，[FromFrom.GetHerHis]也随之「登霄」了。;;;;;;;;;;x
 EVTDESC_TOG_625;你的主君命[From.GetHerHis]士兵将[From.GetHerHis]亲兄弟[FromFrom.GetTitledFirstName]从地牢里押了出来。在[FromFrom.GetFirstName]被押往神殿前的绞架时[From.GetFirstName]没有流露丝毫感情，很快他的尸体就在绞架上无力的摇曳起来。;;;;;;;;;;x
 EVTDESC_TOG_626;你的主君决定把[From.GetHerHis]亲姐妹 [FromFrom.GetTitledFirstName]作为献给奥丁的牺牲。她从 [From.GetFirstName]的黑牢里被押了出来，她眯着眼睛看了下那久违的阳光时，卫兵已经将绞索套到了她的脖子上。片刻之后，死亡的浑浊永远充盈了她的眼睛。;;;;;;;;;;x
-EVTDESC_TOG_627;出乎你的预料	[FromFrom.GetTitledFirstName] 命令[FromFrom.GetHerHis]卫兵将[FromFrom.GetHerHis] 父亲 [FromFrom.GetTitledFirstName] 押了出来.他被押往圣殿前的绞架	很快他就睁着空洞无光的眼神挂在了那里.;;;;;;;;;;x
-EVTDESC_TOG_628;[FromFrom.GetTitledFirstName]	你主君的母亲	在卫兵的护送下来到大庙	出乎你意料的是她竟然被护送到了绞架上. 她徒劳地向 [From.GetTitledFirstName]乞求	但 [From.GetSheHe] 对此无动于衷.很快她就成了挂在神庙外树上的牺牲之一 .;;;;;;;;;;x
-EVTDESC_TOG_629;[From.GetTitledFirstName]将[From.GetTitledHerHis]儿子	[FromFrom.GetTitledFirstName]	押到了圣殿前的绞刑架上. 他是下一个祭品. 他的哀求根本就没有得到任何回应	很快卫兵把绞索套到了他的脖子上	然后他就永远的安静了..;;;;;;;;;;x
-EVTDESC_TOG_630;当[From.GetTitledFirstName]的女儿[FromFrom.GetTitledFirstName]为了下一次献祭被带到龙门架下时，聚集在献祭仪式钱的人群都很惊讶.她向她的 [From.GetFatherMother]请求宽恕，但是并没有人站出来。;;;;;;;;;;x
+EVTDESC_TOG_627;出乎你的预料，[FromFrom.GetTitledFirstName]命令[FromFrom.GetHerHis]卫兵将[FromFrom.GetHerHis]父亲[FromFrom.GetTitledFirstName]押了出来。他被押往圣殿前的绞架，很快他就睁着空洞无光的眼神挂在了那里。;;;;;;;;;;x
+EVTDESC_TOG_628;你领主的母亲[FromFrom.GetTitledFirstName]在卫兵的护送下来到神庙，出乎你意料的是她竟然被护送到了绞架上。她徒劳地向[From.GetTitledFirstName]乞求，但[From.GetSheHe]对此无动于衷。很快她就成了挂在神庙外树上的牺牲之一。;;;;;;;;;;x
+EVTDESC_TOG_629;[From.GetTitledFirstName]将[From.GetTitledHerHis]儿子[FromFrom.GetTitledFirstName]押到了圣殿前的绞刑架上。他是下一个祭品。他的哀求根本就没有得到任何回应，很快卫兵把绞索套到了他的脖子上，然后他就永远地安静了。;;;;;;;;;;x
+EVTDESC_TOG_630;当[From.GetTitledFirstName]的女儿[FromFrom.GetTitledFirstName]为了下一次献祭被带到龙门架下时，聚集在献祭仪式前的人群都很惊讶。她向她的[From.GetFatherMother]请求宽恕，但是并没有人站出来。;;;;;;;;;;x
 EVTDESC_TOG_631;[FromFrom.GetTitledFirstName]，一位[From.GetFirstName]的远亲被从地牢押送到了神庙，即便有，或正是因为有血缘关系，[From.GetFirstName]仍然依照计划无情的牺牲了那亲戚。;;;;;;;;;;x
-EVTDESC_TOG_632;[From.GetTitledFirstName]已经决定要将[From.GetHerHis] 的配偶[FromFrom.GetTitledFirstName]献祭给神灵.[FromFrom.GetSheHe] 被人用锁链带到庙中.尽管[FromFrom.GetHerHis] 声称感情并没有消失	但 [From.GetFirstName]仍然决定继续祭祀;;;;;;;;;;x
+EVTDESC_TOG_632;[From.GetTitledFirstName]已经决定要将[From.GetHerHis]配偶[FromFrom.GetTitledFirstName]献祭给神灵。[FromFrom.GetSheHe]被人用锁链带到庙中。尽管配偶声称[FromFrom.GetHerHis]感情并没有消失，但[From.GetFirstName]仍然决定继续祭祀。;;;;;;;;;;x
 EVTDESC_TOG_633;为了这次祭祀，你的领主从[From.GetHerHis] 的地牢中带出了一个美洲原住民. [FromFrom.GetTitledFirstName] 被带到神庙中，大家都认为这次的祭品非常的有价值。;;;;;;;;;;x
 EVTDESC_TOG_634;你的地牢里已经空空如也，没有适合献祭的犯人，于是你必须从购买的奴隶们之中选出几位，把他们带到神庙外的橡树旁。不久，他们的遗体就歪歪斜斜地吊在大树的枝桠上面了。;;;;;;;;;;x
-EVTOPTA_TOG_634;总比什么都没有强.;;;;;;;;;;x
-EVTDESC_TOG_635;因为 [From.GetTitledFirstName] 在[From.GetHerHis] 的地牢没有合适的祭品，你的领主必须从买到的这种随机挑选出来一些来作为代替品。他们被带到神庙外的橡树旁。不久，他们的遗体就歪歪斜斜地吊在大树的枝桠上面了。;;;;;;;;;;x
+EVTOPTA_TOG_634;总比什么都没有强。;;;;;;;;;;x
+EVTDESC_TOG_635;因为[From.GetTitledFirstName]在[From.GetHerHis]地牢没有合适的祭品，你的领主必须从买到的奴隶中随机挑选出来一些来作为代替品。他们被带到神庙外的橡树旁。不久，他们的遗体就歪歪斜斜地吊在大树的枝桠上面了。;;;;;;;;;;x
 EVTOPTA_TOG_635;聊胜于无，我觉得。;;;;;;;;;;x
-EVTTOOLTIP_TOG_637;暂缓执行死刑.;;;;;;;;;;x
+EVTTOOLTIP_TOG_637;暂缓执行死刑。;;;;;;;;;;x
 EVTDESC_TOG_637;正当你的脖子被套上项圈发抖的时候，[From.GetTitledFirstName]似乎突然改变了主意。项圈被拿了下来，你被拉回了地牢内。看起来你又能多活一天了。;;;;;;;;;;x
-EVTOPTA_TOG_637;我…怎么….什么?;;;;;;;;;;x
+EVTOPTA_TOG_637;我……怎么……什么？;;;;;;;;;;x
 EVTDESC_TOG_640;祭祀结束后宴会就可以开始了，一盘盘早就准备好的肉被端了上来。当然，宴会还准备了许多珍藏的蜂蜜酒。;;;;;;;;;;x
 EVTOPTA_TOG_640;开始庆祝吧！;;;;;;;;;;x
 EVTOPTA_TOG_641;是时候了！;;;;;;;;;;x
@@ -1160,15 +1160,15 @@ EVTOPTB_TOG_651;嗝儿……我听……听过这首儿歌儿！;;;;;;;;;;x
 EVTDESC_TOG_653;侍者们开始上菜之后，你的嘴巴就一直没有停。其他的客人一直在聊天，而你这边却一直在打嗝。你突然感到一阵恶心，于是匆匆忙忙想离开，但是只爬到了[From.GetTitledFirstName]的腿旁……;;;;;;;;;;x
 EVTOPTA_TOG_653;啊啊啊啊呃呃呃呃呃……;;;;;;;;;;x
 EVTTOOLTIP_TOG_654;上面有呕吐物。;;;;;;;;;;x
-EVTDESC_TOG_654;[From.GetTitledFirstName][From.GetSheHe]贪婪地喂饱[From.GetHerselfHimself]将食物塞进胃里，把食物和剔净的骨头到处乱扔。突然间[From.GetHerHis]脸上出现了奇怪的绿色，[From.GetSheHe]直接冲向出口，在[From.GetSheHe]之后，[From.GetHerHis]却只移动到了你的座位旁，将胃里的食物吐在你的身边……;;;;;;;;;;x
+EVTDESC_TOG_654;[From.GetTitledFirstName][From.GetSheHe]贪婪地将食物塞进胃里填饱[From.GetHerselfHimself]，把食物和剔净的骨头到处乱扔。突然间[From.GetHerHis]脸上出现了奇怪的绿色，[From.GetSheHe]直接冲向出口，却只来得及移动到了你的座位旁，然后[From.GetSheHe]将[From.GetHerHis]胃里的食物吐在你的腿上……;;;;;;;;;;x
 EVTOPTA_TOG_654;那条裤子是我最喜欢的！;;;;;;;;;;x
-EVTDESC_TOG_655;[From.GetTitledFirstName]贪婪的把桌上的佳肴装进[From.GetHerselfHimself]的胃里	在[From.GetSheHe]身边食物残渣和啃的干干净净的骨头四溅. [From.GetHerHis]脸色突然发绿	[From.GetSheHe]冲向出口	但是刚跑到[FromFrom.GetTitledFirstName]的座位旁边[From.GetSheHe]就开始呕吐	[From.GetHerHis]呕吐物全都吐在了[FromFrom.GetFirstName]的腿上……;;;;;;;;;;x
+EVTDESC_TOG_655;[From.GetTitledFirstName][From.GetSheHe]贪婪地将食物塞进胃里填饱[From.GetHerselfHimself]，把食物和剔净的骨头到处乱扔。突然间[From.GetHerHis]脸上出现了奇怪的绿色，[From.GetSheHe]直接冲向出口，却只来得及移动到了[FromFrom.GetTitledFirstName]的座位旁，然后[From.GetSheHe]将[From.GetHerHis]胃里的食物吐在[FromFrom.GetFirstName]的腿上……;;;;;;;;;;x
 EVTOPTA_TOG_655;那本有可能是我……;;;;;;;;;;x
-EVTDESC_TOG_656;当你享受你的晚宴之时，你的身边环绕的都是温暖而善良的人们.但这显得有点过于温暖了，你脱下了衣服，在桌上跳了起来，着火了！你用尽力气呼喊，挥舞着你的双臂，其他人还在一头雾水之中…;;;;;;;;;;x
+EVTDESC_TOG_656;当你享受你的晚宴之时，你的身边环绕的都是温暖而善良的人们。但这显得有点过于温暖了，你脱下了衣服，在桌上跳了起来。救命！我着火了！你用尽力气呼喊，挥舞着你的双臂，其他人还在一头雾水之中。;;;;;;;;;;x
 EVTOPTA_TOG_656;放我出去！放我出去！;;;;;;;;;;x
-EVTDESC_TOG_657;当你享受你的晚宴之时，房间的另一头突然传来一阵尖利的叫声，这吸引力了你的注意力.一丝不挂的[From.GetTitledFirstName] 绕着桌子乱跑，挥舞着[From.GetHerHis] 的手臂，高呼 [From.GetSheHe] 着火了. 你用手捂住了你的脸.;;;;;;;;;;x
-EVTOPTA_TOG_657;这是个疯子;;;;;;;;;;x
-EVTOPTB_TOG_657;[From.GetSheHe] 也是! 我…也是!啊哈哈哈哈哈!!!!!!;;;;;;;;;;x
+EVTDESC_TOG_657;当你享受你的晚宴之时，房间的另一头突然传来一阵尖利的叫声，这吸引力了你的注意力。一丝不挂的[From.GetTitledFirstName]绕着桌子乱跑，挥舞着[From.GetHerHis]手臂，高呼[From.GetSheHe]着火了。你用手捂住了你的脸抱怨。;;;;;;;;;;x
+EVTOPTA_TOG_657;这是个疯子……;;;;;;;;;;x
+EVTOPTB_TOG_657;[From.GetSheHe]也是！我…也是！啊哈哈哈哈哈！;;;;;;;;;;x
 EVTDESC_TOG_658;有一个侍女从你到场之后就一直在看着你.喝了许多酒之后，你的手抓住了她，她也回应了你.你们脱光了衣服，开始进行爱的互动.正当你愉悦的时候，你突然发现自己在众目睽睽之下…;;;;;;;;;;x
 EVTOPTA_TOG_658;额……;;;;;;;;;;x
 EVTOPTB_TOG_658;[Root.Spouse.GetFirstName]会不高兴的...…;;;;;;;;;;x
@@ -1597,72 +1597,72 @@ EVTDESC_TOG_5001;那条疯狗[From.GetTitledFirstName]不知为何鼓起勇气�
 EVTOPTA_TOG_5001;以[This.Religion.GetRandomGodName]之名，我接受挑战！;;;;;;;;;;x
 EVTOPTB_TOG_5001;我不需要通过揍个疯子来证明自己。;;;;;;;;;;x
 EVTDESC_TOG_5002;[From.GetTitledFirstName]来信说他接受你的挑战！一个星期后你们将决斗，已经没有回头路了。;;;;;;;;;;x
-EVTOPTA_TOG_5002;我来给他算算死期.;;;;;;;;;;x
-EVTDESC_TOG_5003;那个懦夫[From.GetTitledFirstName]拒绝了你的挑战！现在大家都知道他是个没骨气的孬种了.;;;;;;;;;;x
-EVTOPTA_TOG_5003;没什么好吃惊的.;;;;;;;;;;x
-EVTDESC_TOG_5004;黄昏中你在决斗的小岛上看到了[From.GetTitledFirstName].在众多目光的注视下，你和你的对手都紧握着盾牌举起了斧头.在几分钟的骂战后，决斗开始了！;;;;;;;;;;x
+EVTOPTA_TOG_5002;我来给他算算死期。;;;;;;;;;;x
+EVTDESC_TOG_5003;那个懦夫[From.GetTitledFirstName]拒绝了你的挑战！现在大家都知道他是个没骨气的孬种了。;;;;;;;;;;x
+EVTOPTA_TOG_5003;没什么好吃惊的。;;;;;;;;;;x
+EVTDESC_TOG_5004;黄昏中你在决斗的小岛上看到了[From.GetTitledFirstName]。在众多目光的注视下，你和你的对手都紧握着盾牌举起了斧头。在几分钟的骂战后，决斗开始了！;;;;;;;;;;x
 EVTOPTA_TOG_5004;让我的斧头给你刻个笑脸！;;;;;;;;;;x
-EVTDESC_TOG_5005;在一次猛击下你的斧头劈开了对手的盾牌.没有了盾牌的[FromFrom.GetFirstName]绝望地在你面前挥舞着斧头.虽然你很快闪开了，但还是感到有血从你脸上留下来.愤怒的你在[FromFrom.GetFirstName]投降前狠狠地给了他几下重击.;;;;;;;;;;x
+EVTDESC_TOG_5005;在一次猛击下你的斧头劈开了对手的盾牌。没有了盾牌的[FromFrom.GetFirstName]绝望地在你面前挥舞着斧头。虽然你很快闪开了，但还是感到有血从你脸上留下来。愤怒的你在[FromFrom.GetFirstName]投降前狠狠地给了他几下重击。;;;;;;;;;;x
 EVTOPTA_TOG_5005;胜利属于我。;;;;;;;;;;x
-EVTDESC_TOG_5006;在一次猛击下你的斧头劈开了对手的盾牌.没有了盾牌的[FromFrom.GetFirstName]绝望地在你面前挥舞着斧头.虽然你很快闪开了，但还是感到有血从你脸上留下来.愤怒的你对[FromFrom.GetFirstName]发出致命一击把他的头砍了下来.;;;;;;;;;;x
-EVTDESC_TOG_5007;[FromFrom.GetFirstName]迅速对你展开攻击，但你用盾牌挡住了他的斧头.你对他的面部对进行了几次打击，他在痛苦中摇晃着倒了下来.在他缓过来之前，被你用斧头猛揍了一顿，他投降了.;;;;;;;;;;x
-EVTDESC_TOG_5008;[FromFrom.GetFirstName]迅速对你展开攻击，但你用盾牌挡住了他的斧头.你把他扛在肩上，面朝地上.你很快地转过身来用斧头划过了他的喉咙.[FromFrom.GetFirstName]在他掉在地上前就死了——一次完美的杀戮.;;;;;;;;;;x
-EVTDESC_TOG_5009;你用斧头敲击了几下盾牌后嘶吼着朝[FromFrom.GetFirstName]奔去.当你靠近时，你的对手面无血色连斧头和盾牌都掉了，只剩下惊恐的尖叫.他赶紧跳到水里游离了小岛，他的胆小从不失败.;;;;;;;;;;x
-EVTDESC_TOG_5010;你们将斧头挥向对方，盾牌的碎屑四处飞散.你们看起来势均力敌，战斗持续着.直到夕阳西下，你们两个都已经站不起来了.这场决斗是平局.;;;;;;;;;;x
+EVTDESC_TOG_5006;在一次猛击下你的斧头劈开了对手的盾牌。没有了盾牌的[FromFrom.GetFirstName]绝望地在你面前挥舞着斧头。虽然你很快闪开了，但还是感到有血从你脸上留下来。愤怒的你对[FromFrom.GetFirstName]发出致命一击把他的头砍了下来。;;;;;;;;;;x
+EVTDESC_TOG_5007;[FromFrom.GetFirstName]迅速对你展开攻击，但你用盾牌挡住了他的斧头。你对他的面部对进行了几次打击，他在痛苦中摇晃着倒了下来。在他缓过来之前，被你用斧头猛揍了一顿，他投降了。;;;;;;;;;;x
+EVTDESC_TOG_5008;[FromFrom.GetFirstName]迅速对你展开攻击，但你用盾牌挡住了他的斧头。你用盾把他扛过肩头，等他摔向你身后的地面时，你很快地转过身来用斧头划过了他的喉咙。[FromFrom.GetFirstName]在他掉在地上前就死了——一次完美的杀戮。;;;;;;;;;;x
+EVTDESC_TOG_5009;你用斧头敲击了几下盾牌后嘶吼着朝[FromFrom.GetFirstName]奔去。当你靠近时，你的对手面无血色连斧头和盾牌都掉了，只剩下惊恐的尖叫。他赶紧跳到水里游离了小岛，他的胆小从不失败。;;;;;;;;;;x
+EVTDESC_TOG_5010;你们将斧头挥向对方，盾牌的碎屑四处飞散。你们看起来势均力敌，战斗持续着。直到夕阳西下，你们两个都已经站不起来了。这场决斗是平局。;;;;;;;;;;x
 EVTOPTA_TOG_5010;打得好。;;;;;;;;;;x
-EVTDESC_TOG_5011;[FromFrom.GetFirstName]握好了斧头和盾牌来势汹汹，你正经历着从未体验过的恐怖.你丢下武器惶恐地跳下了水里，你唯一的目标就是快逃命.;;;;;;;;;;x
-EVTOPTA_TOG_5011;这比鲁莽更好！;;;;;;;;;;x
-EVTDESC_TOG_5012;决斗开始了你举起武器挥向[FromFrom.GetFirstName]，但最后一刻他却挡住了你的攻击，你的斧头深深地嵌入他的盾牌中.你想把斧子拔出来，却遭到了对手的侧面进攻.你受伤倒下了，只得投降.;;;;;;;;;;x
+EVTDESC_TOG_5011;[FromFrom.GetFirstName]握好了斧头和盾牌来势汹汹，你正经历着从未体验过的恐怖。你丢下武器惶恐地跳下了水里，你唯一的目标就是快逃命。;;;;;;;;;;x
+EVTOPTA_TOG_5011;小心即大勇！小心即大勇！;;;;;;;;;;x
+EVTDESC_TOG_5012;决斗开始了你举起武器挥向[FromFrom.GetFirstName]，但最后一刻他却挡住了你的攻击，你的斧头深深地嵌入他的盾牌中。你想把斧子拔出来，却遭到了对手的侧面进攻。你受伤倒下了，只得投降。;;;;;;;;;;x
 EVTOPTA_TOG_5012;我……认输。;;;;;;;;;;x
-EVTDESC_TOG_5013;决斗开始了你举起武器挥向[FromFrom.GetFirstName]，但最后一刻他却挡住了你的攻击，你的斧头深深地嵌入他的盾牌中.你想把斧子拔出来，却遭到了对手的侧面进攻.你受到了致残的伤害，只得投降.;;;;;;;;;;x
-EVTDESC_TOG_5014;决斗开始了你举起武器挥向[FromFrom.GetFirstName]，但最后一刻他却挡住了你的攻击，你的斧头深深地嵌入他的盾牌中.你想把斧子拔出来，却感到剧烈的疼痛，低头一看对手的斧子已经砍进肠子里去了.你慢慢杵在地上黑暗将你吞噬……;;;;;;;;;;x
+EVTDESC_TOG_5013;决斗开始了，你举起武器挥向[FromFrom.GetFirstName]，但最后一刻他却挡住了你的攻击，你的斧头深深地嵌入他的盾牌中。你想把斧子拔出来，却遭到了对手的侧面进攻。你受到了致残的伤害，只得投降。;;;;;;;;;;x
+EVTDESC_TOG_5014;决斗开始了，你举起武器挥向[FromFrom.GetFirstName]，但最后一刻他却挡住了你的攻击，你的斧头深深地嵌入他的盾牌中。你想把斧子拔出来，却感到剧烈的疼痛，低头一看对手的斧子已经砍进肠子里去了。你慢慢杵在地上，黑暗将你吞噬……;;;;;;;;;;x
 EVTOPTA_TOG_5014;瓦尔哈拉在等着我……;;;;;;;;;;x
-EVTDESC_TOG_5018;黄昏中你在决斗的小岛上看到了[FromFrom.GetTitledFirstName].在众多目光的注视下，你和你的对手都紧握着盾牌举起了斧头.在几分钟的骂战后，决斗开始了！;;;;;;;;;;x
-EVTDESC_TOG_5020;在一次猛击下你的斧头劈开了对手的盾牌.没有了盾牌的[From.GetFirstName]绝望地在你面前挥舞着斧头.虽然你很快闪开了，但还是感到有血从你脸上留下来.愤怒的你在[From.GetFirstName]投降前狠狠地给了他几下重击.;;;;;;;;;;x
-EVTDESC_TOG_5021;在一次猛击下你的斧头劈开了对手的盾牌.没有了盾牌的[From.GetFirstName]绝望地在你面前挥舞着斧头.虽然你很快闪开了，但还是感到有血从你脸上留下来.愤怒的你对[From.GetFirstName]发出致命一击把他的头砍了下来.;;;;;;;;;;x
-EVTDESC_TOG_5022;[From.GetFirstName]迅速对你展开攻击，但你用盾牌挡住了他的斧头.你对他的面部对进行了几次打击，他在痛苦中摇晃着倒了下来.在他缓过来之前，被你用斧头猛揍了一顿，他投降了.胜利属于你！;;;;;;;;;;x
-EVTDESC_TOG_5023;[From.GetFirstName]迅速对你展开攻击，但你用盾牌挡住了他的斧头.你把他扛在肩上，面朝地上.你很快地转过身来用斧头划过了他的喉咙.[From.GetFirstName]在他掉在地上前就死了——一次完美的杀戮.;;;;;;;;;;x
-EVTDESC_TOG_5024;你用斧头敲击了几下盾牌后嘶吼着朝[From.GetFirstName]奔去.当你靠近时，你的对手面无血色连斧头和盾牌都掉了，只剩下惊恐的尖叫.他赶紧跳到水里游离了小岛，他的胆小从不失败.;;;;;;;;;;x
-EVTDESC_TOG_5026;[From.GetFirstName]握好了斧头和盾牌来势汹汹，你正经历着从未体验过的恐怖.你丢下武器惶恐地跳下了水里，你唯一的目标就是快逃命.;;;;;;;;;;x
-EVTDESC_TOG_5027;决斗开始了你举起武器挥向[From.GetFirstName]，但最后一刻他却挡住了你的攻击，你的斧头深深地嵌入他的盾牌中.你想把斧子拔出来，却遭到了对手的侧面进攻.你受伤倒下了，只得投降.;;;;;;;;;;x
-EVTDESC_TOG_5028;决斗开始了你举起武器挥向[From.GetFirstName]，但最后一刻他却挡住了你的攻击，你的斧头深深地嵌入他的盾牌中.你想把斧子拔出来，却遭到了对手的侧面进攻.你受到了致残的伤害，只得投降.;;;;;;;;;;x
-EVTDESC_TOG_5029;决斗开始了你举起武器挥向[From.GetFirstName]，但最后一刻他却挡住了你的攻击，你的斧头深深地嵌入他的盾牌中.你想把斧子拔出来，却感到剧烈的疼痛，低头一看对手的斧子已经砍进肠子里去了.你慢慢杵在地上黑暗将你吞噬……;;;;;;;;;;x
-holmgang_chances_great;你获胜的机会很大.;;;;;;;;;;x
-holmgang_chances_very_good;你有很不错的机会获胜.;;;;;;;;;;x
-holmgang_chances_good;你有不错的机会获胜.;;;;;;;;;;x
-holmgang_chances_even;看起来旗鼓相当.;;;;;;;;;;x
-holmgang_chances_poor;你不太可能获胜.;;;;;;;;;;x
-holmgang_chances_very_poor;你获胜的机会非常渺茫.;;;;;;;;;;x
-holmgang_chances_terrible;国足赢了世界杯你才可能获胜.;;;;;;;;;;x
+EVTDESC_TOG_5018;黄昏中你在决斗的小岛上看到了[FromFrom.GetTitledFirstName]。在众多目光的注视下，你和你的对手都紧握着盾牌举起了斧头。在几分钟的骂战后，决斗开始了！;;;;;;;;;;x
+EVTDESC_TOG_5020;在一次猛击下你的斧头劈开了对手的盾牌。没有了盾牌的[From.GetFirstName]绝望地在你面前挥舞着斧头。虽然你很快闪开了，但还是感到有血从你脸上留下来。愤怒的你在[From.GetFirstName]投降前狠狠地给了他几下重击。;;;;;;;;;;x
+EVTDESC_TOG_5021;在一次猛击下你的斧头劈开了对手的盾牌。没有了盾牌的[From.GetFirstName]绝望地在你面前挥舞着斧头。虽然你很快闪开了，但还是感到有血从你脸上留下来。愤怒的你对[From.GetFirstName]发出致命一击把他的头砍了下来。;;;;;;;;;;x
+EVTDESC_TOG_5022;[From.GetFirstName]迅速对你展开攻击，但你用盾牌挡住了他的斧头。你对他的面部对进行了几次打击，他在痛苦中摇晃着倒了下来。在他缓过来之前，被你用斧头猛揍了一顿，他投降了。胜利属于你！;;;;;;;;;;x
+EVTDESC_TOG_5023;[From.GetFirstName]迅速对你展开攻击，但你用盾牌挡住了他的斧头。你把他扛在肩上，面朝地上。你很快地转过身来用斧头划过了他的喉咙。[From.GetFirstName]在他掉在地上前就死了——一次完美的杀戮。;;;;;;;;;;x
+EVTDESC_TOG_5024;你用斧头敲击了几下盾牌后嘶吼着朝[From.GetFirstName]奔去。当你靠近时，你的对手面无血色连斧头和盾牌都掉了，只剩下惊恐的尖叫。他赶紧跳到水里游离了小岛，他的胆小从不失败。;;;;;;;;;;x
+EVTDESC_TOG_5026;[From.GetFirstName]握好了斧头和盾牌来势汹汹，你正经历着从未体验过的恐怖。你丢下武器惶恐地跳下了水里，你唯一的目标就是快逃命。;;;;;;;;;;x
+EVTDESC_TOG_5027;决斗开始了，你举起武器挥向[From.GetFirstName]，但最后一刻他却挡住了你的攻击，你的斧头深深地嵌入他的盾牌中。你想把斧子拔出来，却遭到了对手的侧面进攻。你受伤倒下了，只得投降。;;;;;;;;;;x
+EVTDESC_TOG_5028;决斗开始了，你举起武器挥向[From.GetFirstName]，但最后一刻他却挡住了你的攻击，你的斧头深深地嵌入他的盾牌中。你想把斧子拔出来，却遭到了对手的侧面进攻。你受到了致残的伤害，只得投降。;;;;;;;;;;x
+EVTDESC_TOG_5029;决斗开始了，你举起武器挥向[From.GetFirstName]，但最后一刻他却挡住了你的攻击，你的斧头深深地嵌入他的盾牌中。你想把斧子拔出来，却感到剧烈的疼痛，低头一看对手的斧子已经砍进肠子里去了。你慢慢杵在地上，黑暗将你吞噬……;;;;;;;;;;x
+holmgang_chances_great;你获胜的机会很大。;;;;;;;;;;x
+holmgang_chances_very_good;你有很不错的机会获胜。;;;;;;;;;;x
+holmgang_chances_good;你有不错的机会获胜。;;;;;;;;;;x
+holmgang_chances_even;看起来旗鼓相当。;;;;;;;;;;x
+holmgang_chances_poor;你不太可能获胜。;;;;;;;;;;x
+holmgang_chances_very_poor;你获胜的机会非常渺茫。;;;;;;;;;;x
+holmgang_chances_terrible;国足赢了世界杯你才可能获胜。;;;;;;;;;;x
 EVTTOOLTIP_TOG_5000;挑战决斗！;;;;;;;;;;x
-no_holmgang;你克制住了决斗的冲动.;;;;;;;;;;x
-holmgang_prepare;你准备好了决斗.;;;;;;;;;;x
+no_holmgang;你克制住了决斗的冲动。;;;;;;;;;;x
+holmgang_prepare;你准备好了决斗。;;;;;;;;;;x
 EVTTOOLTIP_TOG_5002;你接受他的挑战。;;;;;;;;;;x
 EVTTOOLTIP_TOG_5003;你拒绝他的挑战。;;;;;;;;;;x
 EVTNAME200;[Root.Religion.GetCrusadeName]目标[From.GetBaseName]！;;;;;;;;;;x
 EVTDESC200;[Root.GetTitledFirstName]冕下被[From.GetFullName]的基督徒的哭喊打动了。他号召全欧洲的健壮青年拿起武器去对抗邪恶的[New.GetTitledName]，旨在从伊斯兰异教徒的手中拯救[From.GetName]。\n\n上帝将在天堂宽恕朝圣者的罪过。;;;;;;;;;;x
-EVTDESC201;陛下，[Root.GetTitledFirstName]，担心[From.GetFullBaseName]的信仰.[New.GetTitledName]的异教徒毫无希望拯救，除非他们能信仰基督否则将遭到无穷的地狱之火的灼烧.所有的基督徒在对抗[New.Religion.GetName]的野蛮人时的罪过都将得到宽??;;;;;;;;;;x
+EVTDESC201;[Root.GetTitledFirstName]冕下担心[From.GetFullBaseName]的信仰.[New.GetTitledName]的异教徒毫无希望拯救，除非他们能信仰基督否则将遭到无穷的地狱之火的灼烧.所有的基督徒在对抗[New.Religion.GetName]的野蛮人时的罪过都将得到宽??;;;;;;;;;;x
 EVTDESC321;[From.GetFullBaseName]正遭到异端的荼毒。[Root.GetTitledFirstName]冕下认为肮脏的[New.GetTitledName]和[New.GetPossPronoun]堕落追随者必须被净化，得赶在这些黑点扩散之前！;;;;;;;;;;x
 EVTOPTA200;神的旨意！;;;;;;;;;;x
 EVTOPTB200;我们不关心……;;;;;;;;;;x
 EVTOPTC200;愚蠢的异端！;;;;;;;;;;x
 EVTOPTD200;拿起武器！;;;;;;;;;;x
 EVTOPTE200;可怕的消息！;;;;;;;;;;x
-EVTDESC320;伟大的[Root.Religion.GetName][Root.GetTitledFirstName]决定在[From.GetFullBaseName]发起一场对抗异教徒的吉哈德.他号召所有正义的[Root.Religion.GetName]穆斯林为了伊斯兰拿起武器反抗堕落的[New.GetTitledName].\n\n仁慈的安拉！;;;;;;;;;;x
+EVTDESC320;伟大的[Root.Religion.GetName][Root.GetTitledFirstName]决定在[From.GetFullBaseName]发起一场对抗异教徒的吉哈德。他号召所有正义的[Root.Religion.GetName]穆斯林为了伊斯兰拿起武器反抗堕落的[New.GetTitledName]。\n\n仁慈的安拉！;;;;;;;;;;x
 EVTOPTA320;安拉至大！;;;;;;;;;;x
-EVTDESC322;[Root.Religion.GetName][Root.GetTitledFirstName]决定在[From.GetFullBaseName]发起对抗异教的吉哈德.他号召所有正义的[Root.Religion.GetName]穆斯林为了伊斯兰拿起武器反抗堕落的[New.GetTitledName].\n\n伟大的安拉！;;;;;;;;;;x
-EVTDESC323;至正的[Root.Religion.GetName][Root.GetTitledFirstName]深深的担心[From.GetFullBaseName]迷失信仰的人们，他们中的多数都难以称之为穆斯林.他号召所有真正的([Root.Religion.GetName])穆斯林为了伊斯兰的荣光拿起武器反抗异教徒[New.GetTitledName].\n\n仁慈的安拉！;;;;;;;;;;x
-EVTDESC324;伟大的[Root.GetTitledFirstName]认为是时候教教[New.GetTitledName]以及那些信仰钉死在十字架上的神的信徒什么是谦虚.所有自由的[Root.Religion.GetName]都被邀请加入洗劫[From.GetFullBaseName]！\n\n[Root.Religion.GetRandomGodNameCap]与我们同在！;;;;;;;;;;x
+EVTDESC322;[Root.Religion.GetName][Root.GetTitledFirstName]决定在[From.GetFullBaseName]发起对抗异教的吉哈德。他号召所有正义的[Root.Religion.GetName]穆斯林为了伊斯兰拿起武器反抗堕落的[New.GetTitledName]。\n\n伟大的安拉！;;;;;;;;;;x
+EVTDESC323;至正的[Root.Religion.GetName][Root.GetTitledFirstName]深深地担心[From.GetFullBaseName]迷失信仰的人们，他们中的多数都难以称之为穆斯林。他号召所有真正的（[Root.Religion.GetName]）穆斯林为了伊斯兰的荣光拿起武器反抗异教徒[New.GetTitledName]。\n\n仁慈的安拉！;;;;;;;;;;x
+EVTDESC324;伟大的[Root.GetTitledFirstName]认为是时候教教[New.GetTitledName]以及那些信仰钉死在十字架上的神的信徒什么是谦虚。所有自由的[Root.Religion.GetName]都被邀请加入洗劫[From.GetFullBaseName]！\n\n[Root.Religion.GetRandomGodNameCap]与我们同在！;;;;;;;;;;x
 EVTOPTA324;为了[Root.Religion.GetRandomGodName]！;;;;;;;;;;x
-EVTDESC325;[Root.GetTitledFirstName]梦见了[Root.Religion.GetRandomGodName]，命令[Root.GetObjectPronoun]宣布伟大的[Root.Religion.GetCrusadeName]在[New.GetTitledName].所有自由的[Root.Religion.GetName]人都被邀请到圣地的盛宴中！\n\n[Root.Religion.GetRandomGodNameCap]伟大！;;;;;;;;;;x
+EVTDESC325;[Root.GetTitledFirstName]梦见了[Root.Religion.GetRandomGodName]，命令[Root.GetObjectPronoun]宣布伟大的[Root.Religion.GetCrusadeName]在[New.GetTitledName]。所有自由的[Root.Religion.GetName]人都被邀请到圣地的盛宴中！\n\n[Root.Religion.GetRandomGodNameCap]伟大！;;;;;;;;;;x
 EVTDESC326;根据预兆 - [Root.GetTitledFirstName]宣布[Root.Religion.GetCrusadeName]在[New.GetTitledName]和[New.Religion.GetRandomGodName]的追随者在[From.GetFullBaseName]！所有自由的[Root.Religion.GetName]人都被鼓励在圣地的战斗中提供帮助！\n\n[Root.Religion.GetRandomGodNameCap]将打倒[New.Religion.GetRandomGodName]！;;;;;;;;;;x
 opinion_mutual_respect;不情愿的共识;;;;;;;;;;x
 GREAT_HOLY_WAR;大圣战;;;;;;;;;;x
 roman;罗马人;;;;;;;;;;x
 maghreb_arabic;柏柏尔人;;;;;;;;;;x
-EVTDESC39600;[From.GetTitledFirstName]，一个服侍[From.Liege.GetTitledName]的牧师，来到了[From.Location.GetName]传播他们的外国宗教.他毫不尊重我们的信仰，并宣称其罪孽深重，他还解释道除非我们改变信仰否则死后会遭受无穷的苦难.;;;;;;;;;;x
+EVTDESC39600;[From.GetTitledFirstName]，一个服侍[From.Liege.GetTitledName]的牧师，来到了[From.Location.GetName]传播他们的外国宗教。他毫不尊重我们的信仰，并宣称其罪孽深重，他还解释道除非我们改变信仰否则死后会遭受无穷的苦难。;;;;;;;;;;x
 EVTOPTA39600;死之前遭受的苦难就够多了，我的朋友……;;;;;;;;;;x
-EVTOPTB39600;多告诉我们一点[From.Religion.GetRandomGodName].;;;;;;;;;;x
+EVTOPTB39600;多告诉我们一点[From.Religion.GetRandomGodName]的事。;;;;;;;;;;x
 EVTDESC39601;[From.GetTitledFirstName]继续在[From.Location.GetName]传教，他似乎拥有一大批簇拥者。在听完他布道后，你不得不承认这个新信仰有一些优点……;;;;;;;;;;x
 EVTOPTA39601;是时候接纳[From.Religion.GetRandomGodName]了.;;;;;;;;;;x
 EVTOPTB39601;不，现在的信仰是最好的！流放这个牧师！;;;;;;;;;;x
@@ -1673,37 +1673,37 @@ EVTDESC39603;你看到[From.GetTitledFirstName]和[FromFrom.GetTitledFirstName]�
 EVTOPTA39603;支持[From.GetFirstName]。流放[FromFrom.GetFirstName]。;;;;;;;;;;x
 EVTOPTB39603;支持[FromFrom.GetFirstName]。流放[From.GetFirstName]。;;;;;;;;;;x
 EVTOPTC39603;我不想卷入这场小矛盾。;;;;;;;;;;x
-EVTDESC39604;大人，我安全抵达了[From.Location.GetName]当地的统治者允许我留下来传播真正的信仰。愿[From.Religion.GetRandomGodName]赐予我力量来感化这些野蛮人...\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTDESC39604;我的领主，我安全抵达了[From.Location.GetName]，当地的统治者允许我留下来传播真正的信仰。愿[From.Religion.GetRandomGodName]赐予我力量来感化这些野蛮人……\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA39604;祝你好运。;;;;;;;;;;x
 EVTDESC39605;不久后[FromFrom.GetTitledFirstName]到达[FromFrom.Location.GetName]，[From.GetTitledFirstName]下令监禁他。你的[Root.GetLordSpiritualName]在异教徒的手中日渐憔悴。谁知道这些野蛮人会对他做什么？;;;;;;;;;;x
 EVTOPTA39605;邪恶的异教徒！;;;;;;;;;;x
-EVTDESC39606;大人，我带来了好消息！通过我的努力，[FromFrom.GetTitledFirstName]找到了正确的信仰.我的工作已经完成了，我将马上回到您的宫廷。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTDESC39606;我的领主，我带来了好消息！通过我的努力，[FromFrom.GetTitledFirstName]找到了正确的信仰。我的工作已经完成了，我将马上回到您的宫廷。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA39606;又一个异教徒改邪归正了。;;;;;;;;;;x
 EVTDESC39607;大人，有个坏消息。虽然我努力使[FromFrom.GetTitledFirstName]抛弃[From.GetHerHis]异端信仰，但 [FromFrom.GetSheHe]突然改变了心意。我被[FromFrom.Location.GetName]驱逐了，能摆脱他太好了！让这些冥顽不化的野蛮人死后遭受无穷的痛楚吧！\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
 EVTOPTA39607;很遗憾。;;;;;;;;;;x
-EVTDESC39608;你收到消息说[From.GetTitledFirstName]被[FromFrom.GetTitledFirstName]囚禁了。看起来[FromFrom.GetTitle]觉得受到了冒犯，因为你的[Root.GetLordSpiritualName]在转化[FromFrom.GetHerHis]异教徒。;;;;;;;;;;x
+EVTDESC39608;你收到消息说[From.GetTitledFirstName]被[FromFrom.GetTitledFirstName]囚禁了。看起来[FromFrom.GetTitle]觉得受到了冒犯，因为你的[Root.GetLordSpiritualName]在转化[FromFrom.GetHerHis]异教徒廷臣。;;;;;;;;;;x
 EVTOPTA39608;真该感谢那个傻瓜！;;;;;;;;;;x
-EVTDESC39609;大人，那个卑鄙的野蛮人[FromFrom.GetTitledFirstName]把我从[FromFrom.GetHerHis]流放了！我和传播别的信仰的牧师发生了点小争吵，[FromFrom.GetFirstName]愚蠢地站在他那边。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
-EVTOPTA39609;那将失去[FromFrom.GetHerHim]!;;;;;;;;;;x
+EVTDESC39609;我的领主，那个卑鄙的野蛮人[FromFrom.GetTitledFirstName]把我从[FromFrom.GetHerHis]土地驱逐了！我和传播别的信仰的牧师发生了点小争吵，[FromFrom.GetFirstName]愚蠢地站在他那边。\n\n此致，\n[From.GetTitledName];;;;;;;;;;x
+EVTOPTA39609;[FromFrom.GetHerHim]会付出代价！;;;;;;;;;;x
 opinion_imprisoned_missionary;被囚禁的传教士;;;;;;;;;;x
 opinion_allowed_missionary;允许传教;;;;;;;;;;x
 opinion_banished_missionary;驱逐传教士;;;;;;;;;;x
 opinion_sent_preacher;派遣未请求的传教士;;;;;;;;;;x
 preacher_imprisoned;你把这个传教士关进了地牢。;;;;;;;;;;x
 preacher_allowed;你允许这个传教士继续传教。;;;;;;;;;;x
-preacher_banished;你把这个传教士从你的领地驱逐了.;;;;;;;;;;x
-preacher_convert;你和你最亲密的家人转变了信仰，一个新的宗教顾问来到了你的宫廷.;;;;;;;;;;x
+preacher_banished;你把这个传教士从你的领地驱逐了。;;;;;;;;;;x
+preacher_convert;你和你最亲密的家人转变了信仰，一个新的宗教顾问来到了你的宫廷。;;;;;;;;;;x
 opinion_did_not_support_preacher;反对我的牧师;;;;;;;;;;x
 opinion_supported_preacher;赞成我的牧师;;;;;;;;;;x
 RELIGIOUS_TITLE_CREATION;创建$TITLE$;;;;;;;;;;x
-EVTDESC39650;你来到了[Root.Location.GetName]给民众带来真正的信仰.;;;;;;;;;;x
+EVTDESC39650;你来到了[Root.Location.GetName]给民众带来真正的信仰。;;;;;;;;;;x
 EVTOPTA39650;皈依[Root.Religion.GetRandomGodName]吧，别太晚了异教徒！;;;;;;;;;;x
 EVTTOOLTIP39600;告知了您的到来。;;;;;;;;;;x
-EVTDESC39651;你发现最近当地的异教徒首脑对你的布道格外关注.他是要改宗了吗;;;;;;;;;;x
+EVTDESC39651;你发现最近当地的异教徒首脑对你的布道格外关注。他是要改宗了吗？;;;;;;;;;;x
 EVTOPTA39651;但愿如此……;;;;;;;;;;x
-EVTDESC39652;通过你的努力，当地异教徒首脑的廷臣已经改信了真正的信仰.这是拯救所有[Root.Location.GetName]重要的一步！;;;;;;;;;;x
+EVTDESC39652;通过你的努力，当地异教徒首脑的廷臣已经改信了真正的信仰。这是拯救所有[Root.Location.GetName]重要的一步！;;;;;;;;;;x
 EVTOPTA39652;赞美[Root.Religion.GetRandomGodName]！;;;;;;;;;;x
-EVTDESC39653;你跟另一个到[Root.Location.GetName]传播他的信仰的牧师打了起来！;;;;;;;;;;x
+EVTDESC39653;你跟另一个到[Root.Location.GetName]传播他的信仰的神职人员打了起来！;;;;;;;;;;x
 EVTOPTA39653;别打脸！;;;;;;;;;;x
 EVTNAME_TOG_6000;救世主;;;;;;;;;;x
 EVTDESC_TOG_6000;自从萨珊帝国在阿拉伯的入侵灭亡后，波斯被穆斯林统治者戴上了镣铐。残余的琐罗亚斯德教信徒撤退到了中亚的平原，但现在琐罗亚斯德教的统治者终于夺回了波斯。\n\n这个奇迹归功于你明智的领导，许多牧师声称你是萨奥希扬特，琐罗亚斯德教传说中的救世主。认可了这一身份后，你在琐罗亚斯德教的四处都备受崇敬。;;;;;;;;;;x
@@ -1737,7 +1737,7 @@ job_chancellor_greek;马哲司推劳;;;;;;;;;;x
 job_treasurer_greek;萨克拉里奥斯;;;;;;;;;;x
 job_spymaster_greek;机要秘书;;;;;;;;;;x
 job_spiritual_orthodox;教堂司事;;;;;;;;;;x
-EVTDESC91240;残酷的内战之后，我的上一名君主最终被[Root.Liege.GetOnlyDynastyName]家族推翻.在过渡时期的混乱中，我或许可以宣告独立……;;;;;;;;;;x
+EVTDESC91240;残酷的内战之后，我的上一名君主最终被[Root.Liege.GetOnlyDynastyName]部族推翻。在过渡时期的混乱中，我或许可以宣告独立……;;;;;;;;;;x
 EVTOPTA91240;保持忠诚;;;;;;;;;;x
 EVTOPTB91240;自由！;;;;;;;;;;x
 EVTDESC62101;破城后，你的部队把§Y[From.GetTitledName]§!从[From.GetHerHis]藏身洞中抓了出来。;;;;;;;;;;x
@@ -1752,19 +1752,19 @@ EVTDESC7701;根据我的情报，我了解到我们的那个小麻烦要在一�
 EVTDESC7721;望着家畜棚[Root.Location.GetName]，我有了个主意。集中在一起的粪便可是极易爆炸的。如果在同一个地点收集得足够多，爆炸将会是致命的……;;;;;;;;;;x
 EVTDESC7741;如果我们计划密谋杀死那个小崽子，就应该先收买某个无耻的近侍，比如侍女或者卫兵。;;;;;;;;;;x
 EVTDESC7761;如果我们密谋对付的人被囚禁了，我们可以收买牢里的人处理问题，让这看起来像一次失败的越狱…;;;;;;;;;;x
-EVTDESC7781;就算我们密谋对付的人是个酒囊饭袋，那也是个活着的酒囊饭袋.每个月仆人都汇报说急需一个浴缸，很多事都可能出问题... 特别在仆人是我们雇佣的情况下.;;;;;;;;;;x
-EVTDESC7801;有消息说我所密谋对付的目标上了一艘小船.我有可靠的消息说那孩子还没学会游泳呢.如果船翻了的话... 嘿嘿，这种事经常发生，不是吗;;;;;;;;;;x
+EVTDESC7781;就算我们密谋对付的人是个酒囊饭袋，那也是个活着的酒囊饭袋。每个月仆人都汇报说急需一个浴缸，很多事都可能出问题……特别在仆人是我们雇佣的情况下。;;;;;;;;;;x
+EVTDESC7801;传言说阴谋的目标将要坐小船去旅行。我有可靠的消息说那个小孩没学过游泳。如果船翻了……哈，这种事情一直在发生，不是么？;;;;;;;;;;x
 EVTDESC7821;这种蛇，只需咬上一口，就能立马毒死一个成年壮汉。如果这样一条毒蛇在深夜去到了某人的寝宫里...;;;;;;;;;;x
-EVTDESC7841;听说我们的那个小麻烦早上喜欢去阳台上。如果从上面掉下来可不得了... 也许可以把栏杆弄松点儿。;;;;;;;;;;x
-EVTDESC7861;我们密谋对付的小麻烦近期会去打猎.不单有凶猛猎犬野兽，还有飞来飞去的弓箭，打猎的时候很多事都可能出意外……;;;;;;;;;;x
+EVTDESC7841;听说我们的那个小麻烦早上喜欢去阳台上。如果从上面掉下来可不得了……也许可以把栏杆弄松点儿。;;;;;;;;;;x
+EVTDESC7861;我们密谋对付的小麻烦不久要去打猎，感受下野外的风情。打猎时可以发生很多意外，身边有猎狗和其他猛兽，更不用说乱飞的箭头了……;;;;;;;;;;x
 EVTDESC7881;我所密谋对付的目标近期要坐马车经过一条偏僻的小路。也许我们可以雇一些佣兵假装成拦路抢劫的强盗... 总之犯罪是很多的嘛.;;;;;;;;;;x
 EVTDESC7901;我们密谋对付的目标近期要坐马车长途跋涉，很多意外都可能发生。如果我们可以收买那个马车夫……;;;;;;;;;;x
 EVTDESC262;战场上，你英勇无畏地策马攻进敌阵，你的许多近侍在被敌人发现后都被射下了马背，但你直冲进去与敌人散兵搏斗，利剑上面沾满了敌人的鲜血。;;;;;;;;;;x
-EVTDESC263;在带领的你的近侍冲上去后，你发现自己被敌人包围了.在一阵激烈的搏斗后，你收获不少，重新回到了大部队领导你的军队取得了胜利.;;;;;;;;;;x
-EVTDESC264;你在战斗中斩获颇丰，甚至比起最英勇善战的战士来也毫不逊色.你擦拭了武器上的血渍，人们欢呼着，你的英勇保障了胜利.;;;;;;;;;;x
-EVTDESC265;你使劲把宝剑从战场上的最后一个敌人身上拔了出来.人们在敌人恐慌的撤退中欢呼.胜利很大一部分要归功于你.;;;;;;;;;;x
-EVTDESC266;你在最近胜利中的指挥，让朋友和敌人都感到敬佩.你鼓舞着士兵们的精神，你的领导最终摧毁了敌人.;;;;;;;;;;x
-EVTDESC267;你擦拭着额头的汗水平静地看着，敌人像受惊的兔子一样逃离了战场。这是一场恶战，在危急关头你领导军队取得了胜利.虽然胜利不全靠你，但这也让你获得了很大的尊敬.;;;;;;;;;;x
+EVTDESC263;在带领的你的近侍冲上去后，你发现自己被敌人包围了。在一阵激烈的搏斗后，你收获不少，重新回到了大部队领导你的军队取得了胜利。;;;;;;;;;;x
+EVTDESC264;你在战斗中斩获颇丰，甚至比起最英勇善战的战士来也毫不逊色。你擦拭了武器上的血渍，人们欢呼着，你的英勇保障了胜利。;;;;;;;;;;x
+EVTDESC265;你使劲把宝剑从战场上的最后一个敌人身上拔了出来。人们在敌人恐慌的撤退中欢呼。胜利很大一部分要归功于你！;;;;;;;;;;x
+EVTDESC266;你在最近胜利中的指挥，让朋友和敌人都感到敬佩。你鼓舞着士兵们的精神，你的领导最终摧毁了敌人。;;;;;;;;;;x
+EVTDESC267;你擦拭着额头的汗水平静地看着，敌人像受惊的兔子一样逃离了战场。这是一场恶战，在危急关头你领导军队取得了胜利。虽然胜利不全靠你，但这也让你获得了很大的尊敬。;;;;;;;;;;x
 EVTOPTA262;这一天将被传颂。;;;;;;;;;;x
 EVTDESC_TOG_3301;你的士兵的战利品中有个用未知的金属制成的箱子。他们用尽全力也没能打开，里面是什么仍然是个谜团。这引起了你的注意。;;;;;;;;;;x
 EVTOPTA_TOG_3301;记着我的话，那箱子总有一天会打开的。;;;;;;;;;;x
