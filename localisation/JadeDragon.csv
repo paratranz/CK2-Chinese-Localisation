@@ -487,7 +487,7 @@ EVTOPTA_JD_10019_TT_family;§Y[adventurous_spirit.GetTitledFirstName]§!将会�
 EVTOPTB_JD_10019;没门儿，[adventurous_spirit.GetFirstName]！你给我好好待在[Root.Capital.Capital.GetName]。;;;;;;;;;;;;x
 EVTOPTB_JD_10019_TT;§Y[adventurous_spirit.GetTitledFirstName]§!感到不满意。\n;;;;;;;;;;;;x
 EVTOPTC_JD_10019;哦，[adventurous_spirit.GetFirstName]。你肯定不是那个意思吧？;;;;;;;;;;;;x
-EVTOPTC_JD_10019_TT;你获得了一些皇恩。§Y[adventurous_spirit.GetTitledFirstName]§!将使它归零。\n;;;;;;;;;;;;x
+EVTOPTC_JD_10019_TT;你获得了一些皇恩。§Y[adventurous_spirit.GetTitledFirstName]§!的思念之情会逐渐消失的。\n;;;;;;;;;;;;x
 EVTOPTD_JD_10019;但是......你怎么能要求我再次送你回去，[adventurous_spirit.GetFirstName]？;;;;;;;;;;;;x
 EVTOPTD_JD_10019_TT;这个选项可用是因为你与§Y[adventurous_spirit.GetTitledName]§!的良好关系。\n\n你的[adventurous_spirit.GetRootRelation]羞愧地低下了头，向你保证[adventurous_spirit.GetSheHe]会留在宫廷里。\n;;;;;;;;;;;;x
 EVTOPTA_JD_10020_TT;也许[adventurous_spirit.GetSheHe]至少享受了在国外最后的日子。\n;;;;;;;;;;;;x
@@ -1002,10 +1002,10 @@ count_bodpa;拿普;;;;;;;;;;;;x
 count_female_bodpa;拿蒙;;;;;;;;;;;;x
 job_chancellor_bodpa;论茝;;;;;;;;;;;;x
 job_spiritual_bodpa;钵阐布;;;;;;;;;;;;x
-job_treasurer_bodpa;准聂;;;;;;;;;;;;x
+job_treasurer_bodpa;聂巴;;;;;;;;;;;;x
 job_chancellor_tangut;论茝;;;;;;;;;;;;x
 job_spiritual_tangut;钵阐布;;;;;;;;;;;;x
-job_treasurer_tangut;准聂;;;;;;;;;;;;x
+job_treasurer_tangut;聂巴;;;;;;;;;;;;x
 world_himalayas;喜马拉雅山脉;;;;;;;;;;;;x
 tangut;党项人;;;;;;;;;;;;x
 bodpa;蕃人;;;;;;;;;;;;x
@@ -1203,7 +1203,7 @@ b_didihat;迪迪哈特;;;;;;;;;;;;x
 b_champawat;恰姆帕瓦特;;;;;;;;;;;;x
 b_devalghar;得麦嘉尔;;;;;;;;;;;;x
 b_badrinath;巴德纳斯;;;;;;;;;;;;x
-b_srinagar;斯利那加;;;;;;;;;;;;x
+b_srinagar;室利那伽罗;;;;;;;;;;;;x
 b_tehri;特赫里;;;;;;;;;;;;x
 b_uttarkashi;北卡什;;;;;;;;;;;;x
 b_sudhnagar;萨德娜迦;;;;;;;;;;;;x
@@ -1217,7 +1217,7 @@ b_skardu;锡卡都;;;;;;;;;;;;x
 b_huldi;胡尔迪;;;;;;;;;;;;x
 b_madhupur_skardu;马杜普尔;;;;;;;;;;;;x
 b_kharkoo;喀尔丘;;;;;;;;;;;;x
-b_khaplu;斯卡杜;;;;;;;;;;;;x
+b_khaplu;卡普卢;;;;;;;;;;;;x
 b_hilmat;希尔迈特;;;;;;;;;;;;x
 b_janwai;剑苇;;;;;;;;;;;;x
 b_jianggala;江旮旯;;;;;;;;;;;;x
@@ -1242,7 +1242,7 @@ b_musikot;穆西果德;;;;;;;;;;;;x
 b_dullu;都鲁;;;;;;;;;;;;x
 b_dailekh;代莱克;;;;;;;;;;;;x
 b_gularia;古拉里亚;;;;;;;;;;;;x
-b_mahendranagar;马亨德拉讷格尔;;;;;;;;;;;;x
+b_mahendranagar;摩哂陀城;;;;;;;;;;;;x
 b_dadeldhura;达尔丘拉;;;;;;;;;;;;x
 b_dhamboji;达姆博吉;;;;;;;;;;;;x
 b_khalanga;卡兰加;;;;;;;;;;;;x
@@ -1308,14 +1308,14 @@ b_ulan;乌兰;;;;;;;;;;;;x
 b_tianjun;天峻;;;;;;;;;;;;x
 b_xuji;虚寂;;;;;;;;;;;;x
 b_markam;马儿敢;;;;;;;;;;;;x
-b_drorkong;多罗空;;;;;;;;;;;;x
+b_drorkong;坐尔冈;;;;;;;;;;;;x
 b_tsagalor;嚓咖劳;;;;;;;;;;;;x
 b_chubarong;朱巴龙;;;;;;;;;;;;x
 b_zogong;左贡;;;;;;;;;;;;x
 b_tsarung;嚓容;;;;;;;;;;;;x
 b_qamdo;昌都;;;;;;;;;;;;x
 b_biru;比如;;;;;;;;;;;;x
-b_sog;索格;;;;;;;;;;;;x
+b_sog;索;;;;;;;;;;;;x
 b_jomda;江达;;;;;;;;;;;;x
 b_gonjo;贡觉;;;;;;;;;;;;x
 b_riwoche;类乌齐;;;;;;;;;;;;x
@@ -1414,7 +1414,7 @@ b_tholing;托林;;;;;;;;;;;;x
 b_mangga;菴罗;;;;;;;;;;;;x
 b_dongqiu;东丘;;;;;;;;;;;;x
 b_mangnang;芒朗;;;;;;;;;;;;x
-b_gurugem;古如甲;;;;;;;;;;;;x
+b_gurugem;古入江;;;;;;;;;;;;x
 b_gartok;噶达克;;;;;;;;;;;;x
 b_gerze;改则;;;;;;;;;;;;x
 b_lumaringbo;翡翠;;;;;;;;;;;;x
@@ -1958,7 +1958,7 @@ b_hugou;湖沟;;;;;;;;;;;;x
 b_changjiang;昌疆;;;;;;;;;;;;x
 b_cuocaogou;错草沟;;;;;;;;;;;;x
 b_beijiang;北降;;;;;;;;;;;;x
-b_fanjiaxiaozhang;番家效帐;;;;;;;;;;;;x
+b_fanjiaxiaozhang;范家小掌;;;;;;;;;;;;x
 b_houshan;后善;;;;;;;;;;;;x
 b_palichuang;八里庄;;;;;;;;;;;;x
 b_zhehor;扎果;;;;;;;;;;;;x
@@ -2102,9 +2102,9 @@ CLAN_OPINION_DIFF_TRIGGER;$FIRST|Y$与$SECOND|Y$的部族观感差距$COMPARISON
 AGE_DIFF_TRIGGER;年龄差距$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
 NUM_HOLDING_TRIGGER;直辖$COMPARISON$ $VALUE|Y$ $TYPE$;;;;;;;;;;;;x
 NUM_REALM_HOLDING_TRIGGER;领地内有$COMPARISON$ $VALUE|Y$ $TYPE$;;;;;;;;;;;;x
-NUM_HOLDING_DIFF_TRIGGER;$FIRST|Y$和$SECOND|Y$的$TYPE$差距$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
+NUM_HOLDING_DIFF_TRIGGER;$FIRST|Y$和$SECOND|Y$的$TYPE$差距是$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
 REPUBLIC_TRADE_POST_TRIGGER;共和国拥有$COMPARISON$ $VALUE|Y$ 座贸易站;;;;;;;;;;;;x
-HOLDING_DIFF_TRIGGER;$COMPARISON|Y$ $VALUE|Y$§! §Y$FIRST_TYPE$§!在$FIRST_LOCATION$每§Y$SECOND_TYPE$§!在$SECOND_LOCATION$;;;;;;;;;;;;x
+HOLDING_DIFF_TRIGGER;$FIRST_LOCATION$内的§Y$FIRST_TYPE$§!与$SECOND_LOCATION$内的§Y$SECOND_TYPE$§!比值$COMPARISON|Y$ $VALUE|Y$§!;;;;;;;;;;;;x
 ATTRIBUTE_DIFF_TRIGGER;$FIRST|Y$和$SECOND|Y$之间的$ATTRIBUTE|Y$差距$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
 COMBAT_RATING_DIFF_TRIGGER;$FIRST|Y$ 和 $SECOND|Y$战斗等级差距$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
 REALM_LEVY_DIFF_TRIGGER;$FIRST|Y$与$SECOND|Y$的最大领地征召兵规模$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
@@ -2931,7 +2931,7 @@ PROV1536;海拜尔;;;;;;;;;;;;x
 PROV1537;马拉盖;;;;;;;;;;;;x
 PROV1538;巴德吉斯;;;;;;;;;;;;x
 PROV1539;坎吉 鲁斯塔克;;;;;;;;;;;;x
-PROV1540;古兹甘;;;;;;;;;;;;x
+PROV1540;胡实健;;;;;;;;;;;;x
 PROV1541;阿莫勒;;;;;;;;;;;;x
 PROV1542;萨拉赫斯;;;;;;;;;;;;x
 PROV1543;瓦罕;;;;;;;;;;;;x
@@ -2951,7 +2951,7 @@ c_khaybar_adj;海拜尔;;;;;;;;;;;;x
 c_maragha_adj;马拉盖;;;;;;;;;;;;x
 c_badghis_adj;巴德吉斯;;;;;;;;;;;;x
 c_kanj_rustaq_adj;鲁斯塔克;;;;;;;;;;;;x
-c_guzgan_adj;古兹甘;;;;;;;;;;;;x
+c_guzgan_adj;胡实健;;;;;;;;;;;;x
 c_amol_adj;阿莫勒;;;;;;;;;;;;x
 c_sarakhs_adj;萨拉赫斯;;;;;;;;;;;;x
 c_khojand_adj;苦盏;;;;;;;;;;;;x
@@ -3085,7 +3085,7 @@ b_chaghaniyan;斫汗那;;;;;;;;;;;;x
 b_badakhshan;巴达赫尚;;;;;;;;;;;;x
 b_khaylam;哈伊拉姆;;;;;;;;;;;;x
 b_akhsikath;西鞬;;;;;;;;;;;;x
-b_kasan;卡赞;;;;;;;;;;;;x
+b_kasan;渴塞;;;;;;;;;;;;x
 b_nakhsab;那黑沙不;;;;;;;;;;;;x
 b_paykand;毕国;;;;;;;;;;;;x
 b_firabr;菲拉布;;;;;;;;;;;;x
@@ -3125,8 +3125,8 @@ d_khuttal;珂咄罗;;;;;;;;;;;;x
 d_khuttal_adj;珂咄罗;;;;;;;;;;;;x
 d_khozistan;胡齐斯坦;;;;;;;;;;;;x
 d_khozistan_adj;胡齐斯坦;;;;;;;;;;;;x
-d_jibal;吉布尔;;;;;;;;;;;;x
-d_jibal_adj;吉布尔;;;;;;;;;;;;x
+d_jibal;吉巴勒;;;;;;;;;;;;x
+d_jibal_adj;吉巴勒;;;;;;;;;;;;x
 d_mafaza;玛法杂;;;;;;;;;;;;x
 d_mafaza_adj;玛法杂;;;;;;;;;;;;x
 k_khiva;河中;;;;;;;;;;;;x
@@ -3430,7 +3430,7 @@ b_dram;樟木;;;;;;;;;;;;x
 b_drampagyang;仲巴江;;;;;;;;;;;;x
 b_dranang;扎囊;;;;;;;;;;;;x
 b_drangtsen;德朗赞;;;;;;;;;;;;x
-b_drigung;直贡;;;;;;;;;;;;x
+b_drigung;必力工瓦;;;;;;;;;;;;x
 b_dromdoi;帮堆;;;;;;;;;;;;x
 b_drugjug;德鲁格;;;;;;;;;;;;x
 b_dulan;都兰;;;;;;;;;;;;x
@@ -3466,7 +3466,7 @@ b_gobak;高巴克;;;;;;;;;;;;x
 b_golag;戈拉格;;;;;;;;;;;;x
 b_golog;果洛;;;;;;;;;;;;x
 b_golug;古鲁格;;;;;;;;;;;;x
-b_gongon_lhakhang;贡贡拉克亨;;;;;;;;;;;;x
+b_gongon_lhakhang;贵恩拉康;;;;;;;;;;;;x
 b_gongya;贡雅;;;;;;;;;;;;x
 b_gotsang;哥桑;;;;;;;;;;;;x
 b_gouli;沟里;;;;;;;;;;;;x
@@ -3476,7 +3476,7 @@ b_guro;俄洛;;;;;;;;;;;;x
 b_gyaca;吉卡;;;;;;;;;;;;x
 b_gyaidar;吉达;;;;;;;;;;;;x
 b_gyama;甲玛;;;;;;;;;;;;x
-b_gyangbumoche;江布莫切;;;;;;;;;;;;x
+b_gyangbumoche;江蚌摩齐;;;;;;;;;;;;x
 b_gyangrang;冈让;;;;;;;;;;;;x
 b_gyaring;札陵;;;;;;;;;;;;x
 b_gyesar;杰萨;;;;;;;;;;;;x
@@ -3942,40 +3942,40 @@ b_aufah;库法;;;;;;;;;;;;x
 b_nab;纳布;;;;;;;;;;;;x
 b_tajarg;塔贾格;;;;;;;;;;;;x
 b_fenesk;芬斯克;;;;;;;;;;;;x
-b_khulm;霍勒姆;;;;;;;;;;;;x
+b_khulm;忽懔;;;;;;;;;;;;x
 b_yuzlar;尤扎拉;;;;;;;;;;;;x
 b_paxtachi;帕克斯塔基;;;;;;;;;;;;x
 b_kenekesyr;凯内克斯尔;;;;;;;;;;;;x
 b_mirzabek;米尔扎别克;;;;;;;;;;;;x
 b_dautly;多特利;;;;;;;;;;;;x
 b_megejik;米吉吉;;;;;;;;;;;;x
-b_ukrach;乌克兰;;;;;;;;;;;;x
+b_ukrach;乌拉迟;;;;;;;;;;;;x
 b_bozariq;博扎里克;;;;;;;;;;;;x
 b_qizilcha;齐兹尔查;;;;;;;;;;;;x
 b_mirzomomin;米尔佐莫明;;;;;;;;;;;;x
-b_marginan;马其南;;;;;;;;;;;;x
+b_marginan;麻耳亦囊;;;;;;;;;;;;x
 b_aval;阿瓦尔;;;;;;;;;;;;x
 b_nadaq;纳达克;;;;;;;;;;;;x
 b_asht;阿什特;;;;;;;;;;;;x
 b_sokh;索赫;;;;;;;;;;;;x
 b_kendibadam;肯德伊巴达姆;;;;;;;;;;;;x
 b_tunket;腾凯特;;;;;;;;;;;;x
-b_ilaq;伊拉克;;;;;;;;;;;;x
+b_ilaq;伊莱格;;;;;;;;;;;;x
 b_wankath;万卡思;;;;;;;;;;;;x
 b_miyanrudhan;米岩鲁汉;;;;;;;;;;;;x
 b_ardalankath;阿达兰卡;;;;;;;;;;;;x
 b_najm;纳吉姆;;;;;;;;;;;;x
 b_halaward;哈拉沃德;;;;;;;;;;;;x
 b_washjird;瓦希尔德;;;;;;;;;;;;x
-b_qobadhiyan;卡巴迪亚岩;;;;;;;;;;;;x
+b_qobadhiyan;久越得犍;;;;;;;;;;;;x
 b_munk;蒙克;;;;;;;;;;;;x
-b_ishkashim;伊什卡希姆;;;;;;;;;;;;x
+b_ishkashim;塞迦审;;;;;;;;;;;;x
 b_daritubat;达里土巴特;;;;;;;;;;;;x
 b_sughnan;识匿;;;;;;;;;;;;x
 b_khorog;霍罗格;;;;;;;;;;;;x
 b_sast;赛斯特;;;;;;;;;;;;x
 b_kalif;卡利夫;;;;;;;;;;;;x
-b_shuman;舒曼;;;;;;;;;;;;x
+b_shuman;数瞒;;;;;;;;;;;;x
 b_di-l-kifl;迪尔基弗;;;;;;;;;;;;x
 b_di-l-qarnain;迪尔卡纳恩;;;;;;;;;;;;x
 b_sapoltepa;萨波特帕;;;;;;;;;;;;x
@@ -3987,9 +3987,9 @@ b_jarf;贾尔夫;;;;;;;;;;;;x
 b_usfan;欧斯凡;;;;;;;;;;;;x
 b_zamr_i_atish_parast;拜火城;;;;;;;;;;;;x
 job_chancellor_female_bodpa;论茝;;;;;;;;;;;;x
-job_treasurer_female_bodpa;女准聂;;;;;;;;;;;;x
+job_treasurer_female_bodpa;女聂巴;;;;;;;;;;;;x
 job_chancellor_female_tangut;论茝;;;;;;;;;;;;x
-job_treasurer_female_tangut;格尼耶;;;;;;;;;;;;x
+job_treasurer_female_tangut;聂巴;;;;;;;;;;;;x
 baron_nepali;达马帕蒂;;;;;;;;;;;;x
 baron_female_nepali;达马帕特尼;;;;;;;;;;;;x
 duke_bodpa;塔普;;;;;;;;;;;;x

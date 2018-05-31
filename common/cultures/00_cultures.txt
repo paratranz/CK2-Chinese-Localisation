@@ -735,7 +735,7 @@ central_germanic = {
             0.5
         }
         male_names = {
-            "阿达尔贝罗_阿达尔贝罗"  # Adalbero_Adalbero
+            "阿达贝罗_阿达贝罗"  # Adalbero_Adalbero
             "阿达尔贝特_阿尔伯特"  # Adalbert_Albert
             "阿达尔哈德_阿达尔哈德"  # Adalhard_Adalhard
             "亚当_亚当"  # Adam_Adam
@@ -1028,7 +1028,7 @@ central_germanic = {
             "法罗德"  # Faroald
             "费度尔夫"  # Ferdulf
             "加科"  # Gacco
-            "加里巴尔德_杰劳德"  # Garibald_Gerald
+            "加里巴尔德_杰拉尔德"  # Garibald_Gerald
             "吉苏夫"  # Gisulf
             "戈迪霍克"  # Godehoc
             "戈迪帕特"  # Godepert
@@ -1849,7 +1849,7 @@ west_germanic = {
             "佛尔克_佛尔克"  # Fulk_Folke
             "乔弗里_高弗雷"  # Geoffrey_Godfrey
             "乔治_乔治"  # George_George
-            "杰拉德_杰拉德"  # Gerald_Gerald
+            "杰拉德_杰拉尔德"  # Gerald_Gerald
             "吉尔伯特_吉尔伯特"  # Gilbert_Gilbert
             "高弗雷_高弗雷"  # Godfrey_Godfrey
             "格雷戈里_格雷戈里"  # Gregory_Gregory
@@ -1916,7 +1916,7 @@ west_germanic = {
             "菲莉帕_菲莉帕"  # Philippa_Philippa
             "西比拉_西比拉"  # Sybilla_Sibylla
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         bastard_dynasty_prefix = "菲茨 "  # Fitz
         modifier = default_culture_modifier
         pat_grf_name_chance = 30
@@ -2203,7 +2203,7 @@ west_germanic = {
         }
         male_names = {
             "奥博"  # Abo
-            "达尔贝罗_达尔贝罗"  # Adalbero_Adalbero
+            "阿达贝罗_阿达贝罗"  # Adalbero_Adalbero
             "阿德尔伯特_阿尔伯特"  # Adalbert_Albert
             "奥德尔布兰特_阿莱布兰特"  # Adalbrand_Alebrand
             "阿迪达"  # Adaldag
@@ -2419,7 +2419,7 @@ west_germanic = {
         }
         baron_titles_hidden = yes
         count_titles_hidden = yes
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         male_patronym = "森"  # sson
         female_patronym = "斯多德"  # sdohtor
         prefix = no
@@ -2488,12 +2488,12 @@ west_germanic = {
             "弗里都纳斯"  # Frithunath
             "戈都夫"  # Geldulf
             "戈铁"  # Geltet
-            "戈巴特_戈拉特"  # Gerbald_Gerald
+            "戈巴特_杰拉尔德"  # Gerbald_Gerald
             "戈布兰特"  # Gerbrand
             "戈布鲁特"  # Gerbruht
             "戈德赫"  # Gerdeg
             "杰拉德_杰拉德"  # Gerhard_Gerard
-            "杰洛特_杰拉特"  # Gerold_Gerald
+            "杰洛特_杰拉尔德"  # Gerold_Gerald
             "杰鲁尔夫"  # Gerulf
             "戈瓦尔"  # Gerwar
             "戈瑟"  # Gosse
@@ -2906,7 +2906,7 @@ latin = {
             "佛尔克_佛尔克"  # Foulques_Folke
             "弗朗索瓦_弗兰西斯"  # François_Francis
             "弗雷德里克_弗雷德里克"  # Frédéric_Frederick
-            "热罗_杰拉德"  # Géraud_Gerald
+            "热罗_杰拉尔德"  # Géraud_Gerald
             "加尔嘉梅尔"  # Gargamel
             "戈谢"  # Gaucher
             "戈瑟林_乔瑟林"  # Gaucelin_Joscelin
@@ -3118,54 +3118,54 @@ latin = {
             "若弗鲁瓦_戈德弗雷"  # Geoffroy_Godfrey
             "杰拉尔德_杰拉尔德"  # Gerald_Gerald
             "杰拉德_杰拉德"  # Gerard_Gerard
-            "杰劳德_杰拉尔德"  # Gérard_Gerard
-            "杰伯特"  # Geraud_Gerald
-            "杰瓦斯"  # Gerbert
-            "吉法德"  # Gervas
-            "吉尔伯特_吉尔伯特"  # Giffard
-            "戈德弗雷_戈德弗雷"  # Gilbert_Gilbert
-            "古伯特"  # Godfrey_Godfrey
-            "贡塔德"  # Goubert
-            "盖伊_盖伊"  # Guntard
-            "海默"  # Guy_Guy
-            "哈梅林"  # Haimo
+            "杰拉德_杰拉德"  # Gérard_Gerard
+            "杰劳德_杰拉尔德"  # Geraud_Gerald
+            "杰伯特"  # Gerbert
+            "杰瓦斯"  # Gervas
+            "吉法德"  # Giffard
+            "吉尔伯特_吉尔伯特"  # Gilbert_Gilbert
+            "戈德弗雷_戈德弗雷"  # Godfrey_Godfrey
+            "古伯特"  # Goubert
+            "贡塔德"  # Guntard
+            "居伊_盖伊"  # Guy_Guy
+            "海默"  # Haimo
             "阿默兰"  # Hamelin
             "赫伯特"  # Henry_Henry
-            "赫尔曼_赫尔曼"  # Herbert
-            "休伯特"  # Herman_Herman
-            "休_于格"  # Hubert
+            "赫伯特"  # Herbert
+            "赫尔曼_赫尔曼"  # Herman_Herman
+            "休伯特"  # Hubert
             "休_休"  # Hugh_Hugh
             "安贝尔_亨伯特"  # Humbert_Humbert
             "乔丹_乔丹"  # Humphrey
             "乔瑟林_乔瑟林"  # Ildebrando
             "若尔当_乔丹"  # Jordan_Jordan
-            "兰斯林"  # Joscelin_Joscelin
+            "乔瑟林_乔瑟林"  # Joscelin_Joscelin
             "马热"  # Lambert_Lambert
-            "奈杰尔"  # Lancelin
-            "诺曼"  # Mauger
-            "奥铎_奥托"  # Nigel
-            "奥尔德里克"  # Norman
-            "厄德_奥托"  # Odo_Otto
-            "奥斯蒙德"  # Orderic
-            "奥舒尔夫"  # Osbern
-            "奥斯维恩"  # Osmond
-            "拉道夫_拉尔夫"  # Oswulf
-            "拉杜尔夫_拉尔夫"  # Oswyn
-            "兰道夫_拉尔夫"  # Radolf_Ralph
-            "拉努尔夫"  # Radulf_Ralph
-            "雷蒙德_雷蒙德"  # Randolf_Ralph
-            "雷纳"  # Ranulf
-            "理查_理查"  # Raymond_Raymond
-            "罗伯特_罗伯特"  # Rayner
-            "罗杰_罗杰"  # Richard_Richard
+            "兰斯林"  # Lancelin
+            "马热"  # Mauger
+            "奈杰尔"  # Nigel
+            "诺曼"  # Norman
+            "奥铎_奥托"  # Odo_Otto
+            "奥尔德里克"  # Orderic
+            "奥斯本"  # Osbern
+            "奥斯蒙德"  # Osmond
+            "奥舒尔夫"  # Oswulf
+            "奥斯温"  # Oswyn
+            "拉道夫_拉尔夫"  # Radolf_Ralph
+            "拉杜尔夫_拉尔夫"  # Radulf_Ralph
+            "兰道夫_拉尔夫"  # Randolf_Ralph
+            "拉努尔夫"  # Ranulf
+            "雷蒙德_雷蒙德"  # Raymond_Raymond
+            "雷奈尔"  # Rayner
+            "理查_理查"  # Richard_Richard
             "罗贝尔_罗伯特"  # Robert_Robert
-            "洛塞林"  # Roger_Roger
-            "赛耶"  # Rolland
-            "塞洛"  # Roscelin
-            "塞里尔"  # Sayer
-            "塞瓦尔"  # Serlo
-            "西尔维斯特"  # Serril
-            "西蒙_西蒙"  # Sewal
+            "罗杰_罗杰"  # Roger_Roger
+            "罗兰"  # Rolland
+            "洛塞林"  # Roscelin
+            "赛耶"  # Sayer
+            "塞洛"  # Serlo
+            "塞里尔"  # Serril
+            "塞瓦尔"  # Sewal
             "西尔维斯特_西尔维斯特"  # Silvester_Silvester
             "西蒙_西蒙"  # Simon_Simon
             "托夫"  # Stefen_Stephen
@@ -3175,7 +3175,7 @@ latin = {
             "蒂博尔特_西奥博尔德"  # Turquetil
             "沃尔特_沃尔特"  # Turstin
             "威廉_威廉"  # Tybalt_Theobald
-            "怀蒙德"  # Walter_Walter
+            "瓦尔特_瓦尔特"  # Walter_Walter
             "威廉_威廉"  # William_William
             "韦蒙德"  # Wymund
         }
@@ -3574,7 +3574,7 @@ latin = {
             "乌巴尔多"  # Torquato
             "乌伯托"  # Ubaldo
             "乌戈_于格"  # Uberto
-            "乌戈西奥内"  # Ugo_Hugh
+            "乌戈_休"  # Ugo_Hugh
             "乌戈里诺"  # Ugoccione
             "乌姆伯托_亨伯特"  # Ugolino
             "翁贝托_亨伯特"  # Umberto_Humbert
@@ -3722,106 +3722,106 @@ latin = {
         male_names = {
             "阿德赫玛"  # Adhémar
             "艾默里克_艾默里克"  # Acfred_Alfred
-            "阿尔伯里克"  # Aimeric_Aymeric
-            "阿方斯_阿方斯"  # Alberic_Alberic
+            "艾默里克_艾默里克"  # Aimeric_Aymeric
+            "阿尔伯里克_阿尔伯里克"  # Alberic_Alberic
             "阿马尔里克_阿马尔里克"  # Albert_Albert
             "阿马尼欧"  # Aldebert_Albert
             "安佛斯"  # Alias_Helias
-            "安索默"  # Anfòs_Alphonse
-            "阿尚博特_阿奇博尔德"  # Amalric_Amalric
-            "阿尔瑙特_阿诺德"  # Amaneus
+            "阿方斯_阿方斯"  # Anfòs_Alphonse
+            "阿马尔里克_阿马尔里克"  # Amalric_Amalric
+            "阿马尼欧"  # Amaneus
             "安塞尔梅"  # Ancelmes
             "安德烈_安德鲁"  # André_Andrew
-            "艾默"  # Archambaut_Archibald
-            "巴纳德_伯纳德"  # Arnaut_Arnold
+            "阿尚博特_阿奇博尔德"  # Archambaut_Archibald
+            "阿尔瑙特_阿诺德"  # Arnaut_Arnold
             "巴拉尔"  # Artau_Artal
             "巴尔图缪_巴尔托洛缪斯"  # Aton
-            "鲍德温_巴尔德文"  # Audoïn
+            "奥多因"  # Audoïn
             "艾马_艾默里克"  # Aymar_Aymeric
             "贝拉德_伯纳德"  # Aymeric_Aymeric
             "贝伦基尔_贝伦加尔"  # Aznar_Aznar
-            "贝纳特_伯纳德"  # Barral
-            "巴尔图米厄_巴尔托洛缪斯"  # Bartoumiéu_Bartolomeus
-            "巴拉斯_布莱斯"  # Baudoïn_Baldwin
-            "博雷尔_贝内迪克特"  # Beneset_Benedict
-            "贝拉尔_伯纳德"  # Bérard_Bernard
-            "克莱门赤_克莱门特"  # Berenguié_Berengar
+            "巴拉尔"  # Barral
+            "巴尔图缪_巴尔托洛缪斯"  # Bartoumiéu_Bartolomeus
+            "鲍德温_巴尔德文"  # Baudoïn_Baldwin
+            "贝内斯特_贝内迪克特"  # Beneset_Benedict
+            "贝拉德_伯纳德"  # Bérard_Bernard
+            "贝伦基尔_贝伦加尔"  # Berenguié_Berengar
             "琴托尔_琴图勒"  # Bermond_Vermudo
-            "大卫_大卫"  # Bernat_Bernard
+            "贝纳特_伯纳德"  # Bernat_Bernard
             "迪奥达特_西奥达特"  # Bernat-Aton
             "多东"  # Bernat-Ezi
-            "杜芒热"  # Bertrand_Bertrand
-            "杜兰"  # Blasi_Blaise
-            "艾德勒斯"  # Borel
+            "贝特朗_贝特朗"  # Bertrand_Bertrand
+            "巴拉斯_布莱斯"  # Blasi_Blaise
+            "博雷尔"  # Borel
             "埃曼努尔"  # Boson_Boson
             "卡尔斯_查尔斯"  # Carles_Charles
-            "厄门高德"  # Clamenç_Clement
-            "埃斯特夫_斯蒂芬"  # Centolh_Centule
-            "欧顿_奥托"  # Dàvi_David
-            "菲利普_菲利普"  # Dat_Theodat
+            "克莱门赤_克莱门特"  # Clamenç_Clement
+            "琴托尔_琴图勒"  # Centolh_Centule
+            "大卫_大卫"  # Dàvi_David
+            "达特_西奥达特"  # Dat_Theodat
             "多东"  # Dodon
-            "弗洛伦茨"  # Doumenge
-            "佛尔考德_佛尔克"  # Duran
+            "杜芒热"  # Doumenge
+            "杜兰"  # Duran
             "埃布勒_奥托"  # Ebles_Otto
-            "弗雷德里_弗雷德里克"  # Emmanuèl_Manuel
-            "加斯东_加斯东"  # Enric_Henry
-            "戈蒂耶_沃尔特"  # Ermengau
-            "吉尔伯特_吉尔伯特"  # Estève_Stephen
-            "吉拉德_杰拉德"  # Filip_Philip
-            "吉尔怀斯"  # Ferrand_Ferdinand
-            "戈达弗雷斯_戈德弗雷"  # Florènç
-            "古伊_盖伊"  # Folquet_Folke
-            "吉格_盖伊"  # Francés_Francis
-            "吉尔海姆_威廉"  # Frederi_Frederick
+            "埃曼努尔_曼努伊尔"  # Emmanuèl_Manuel
+            "恩里克_亨利"  # Enric_Henry
+            "厄门高"  # Ermengau
+            "埃斯特夫_斯蒂芬"  # Estève_Stephen
+            "菲利普_菲利普"  # Filip_Philip
+            "费兰德_斐迪南"  # Ferrand_Ferdinand
+            "弗洛伦茨"  # Florènç
+            "佛尔考德_佛尔克"  # Folquet_Folke
+            "弗兰切斯_弗兰西斯"  # Francés_Francis
+            "弗雷德里_弗雷德里克"  # Frederi_Frederick
             "吉罗_杰拉尔德"  # Garcia_Garcia
-            "吉塔特_杰拉德"  # Gaston_Gaston
+            "加斯东_加斯东"  # Gaston_Gaston
             "艾维斯"  # Gausbert_Gausbert
-            "雅克默_雅各布"  # Gautier_Walter
-            "豪弗雷斯_戈德弗雷"  # Gilbèrt_Gilbert
-            "豪默_雅各布"  # Girard_Gerard
-            "乔安_约翰"  # Girvais
-            "乔丹_乔丹"  # Godafres_Godfrey
-            "约格_乔治"  # Gui_Guy
+            "戈蒂耶_沃尔特"  # Gautier_Walter
+            "吉尔伯特_吉尔伯特"  # Gilbèrt_Gilbert
+            "吉拉德_杰拉德"  # Girard_Gerard
+            "吉尔怀斯"  # Girvais
+            "戈达弗雷斯_戈弗雷"  # Godafres_Godfrey
+            "古伊_盖伊"  # Gui_Guy
             "若瑟林_乔瑟林"  # Guichard
-            "尤里安_尤里安"  # Guigues_Guy
-            "劳伦茨_劳伦斯"  # Guilhèm_William
-            "利昂_里欧"  # Guiraud_Gerald
-            "洛伊斯_路易"  # Guitart_Gerard
+            "吉格_盖伊"  # Guigues_Guy
+            "吉尔海姆_威廉"  # Guilhèm_William
+            "吉罗_杰拉尔德"  # Guiraud_Gerald
+            "吉塔特_杰拉德"  # Guitart_Gerard
             "路易_路易"  # Ives
-            "罗普_卢波"  # Jacme_Jacob
+            "雅克默_雅各布"  # Jacme_Jacob
             "马绍"  # Jaufret_Godfrey
-            "若安_约翰"  # Joan_John
-            "马蒂亚斯_马修"  # Jordan_Jordan
-            "米歇尔_迈克尔"  # Jorge_George
-            "米罗"  # Josselin_Joscelin
-            "米克尔"  # Julian_Julian
-            "尼古拉_尼古拉斯"  # Laurènç_Laurence
-            "奥登_奥托"  # Leon_Leo
+            "若望_约翰"  # Joan_John
+            "乔丹_乔丹"  # Jordan_Jordan
+            "约格_乔治"  # Jorge_George
+            "若瑟林_乔瑟林"  # Josselin_Joscelin
+            "尤里安_尤里安"  # Julian_Julian
+            "劳伦茨_劳伦斯"  # Laurènç_Laurence
+            "利昂_里欧"  # Leon_Leo
             "洛伊斯_路易"  # Loïs_Louis
-            "佩尔_彼得"  # Loui_Louis
-            "帕乌_保罗"  # Lop_Lupo
-            "佩拉努德特"  # Marçau
-            "庞茨_庞斯"  # Martin_Martin
+            "路易_路易"  # Loui_Louis
+            "罗普_卢波"  # Lop_Lupo
+            "马绍"  # Marçau
+            "马丁_马丁"  # Martin_Martin
             "雷蒙_雷蒙德"  # Matfre_Manfred
-            "雷蒙-贝伦基尔_雷蒙德-贝伦加尔"  # Matias_Matthew
-            "麦洛"  # Milo
+            "马蒂亚斯_马修"  # Matias_Matthew
+            "米罗"  # Milo
             "米克尔_迈克尔"  # Miquel_Michael
-            "劳尔夫_拉尔夫"  # Nicholaus_Nicholas
+            "尼古拉_尼古拉斯"  # Nicholaus_Nicholas
             "奥东_奥托"  # Odon_Otto
-            "罗伯特_罗伯特"  # Otton_Otto
-            "罗吉尔_罗杰"  # Pèire_Peter
+            "奥东_奥托"  # Otton_Otto
+            "佩尔_彼得"  # Pèire_Peter
             "桑特斯_桑丘"  # Péire-Arnaut
             "萨瓦里克斯"  # Péire-Raimond
-            "西蒙_西蒙"  # Peranudet
-            "狄埃里_狄埃里"  # Pol_Paul
-            "蒂博_西奥博尔德"  # Pons_Pons
-            "托马斯_托马斯"  # Raimond_Raymond
-            "乌伯特_亨伯特"  # Raimond-Berenguié_Raymond-Berengar
-            "乌克_于格"  # Rainaut_Reinhold
-            "乌格斯_于格"  # Rainer
-            "韦西恩"  # Raolf_Ralph
-            "文森特_文森特"  # Ricard_Richard
-            "扎维尔"  # Robèrt_Robert
+            "佩拉努德特"  # Peranudet
+            "帕乌_保罗"  # Pol_Paul
+            "庞茨_庞斯"  # Pons_Pons
+            "雷蒙_雷蒙德"  # Raimond_Raymond
+            "雷蒙-贝伦基尔_雷蒙德-贝伦加尔"  # Raimond-Berenguié_Raymond-Berengar
+            "雷诺德_莱因霍尔德"  # Rainaut_Reinhold
+            "雷奈"  # Rainer
+            "劳尔夫_拉尔夫"  # Raolf_Ralph
+            "理查_理查"  # Ricard_Richard
+            "罗伯特_罗伯特"  # Robèrt_Robert
             "罗杰_罗杰"  # Rogier_Roger
             "桑乔_桑乔"  # Sancho_Sancho
             "萨法利克斯"  # Savarics
@@ -4172,7 +4172,7 @@ latin = {
             "维吉兰迪亚"  # Vigilantia
             "维维亚娜_维维亚娜"  # Viviana_Viviana
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         pat_grf_name_chance = 50
         mat_grf_name_chance = 0
         father_name_chance = 50
@@ -4541,43 +4541,43 @@ iberian = {
             "阿德方索_阿方斯"  # Adelfonso_Alphonse
             "阿吉拉"  # Agila
             "艾玛纳吉多"  # Airmanagildo
-            "杰尼亚"  # Alaricho
-            "阿拉里秋"  # Aloito
-            "阿洛伊托"  # Assur
-            "阿苏尔"  # Athanagildo
-            "阿达纳吉多"  # Berengario_Berengar
-            "贝冷嘉里欧_贝伦加尔"  # Diaco_Diaco
-            "迪亚科_迪亚科"  # Fafila
-            "法费拉"  # Friedenando_Ferdinand
-            "弗里德南多_斐迪南"  # Friednand_Ferdinand
-            "弗里德南_斐迪南"  # Froila_Froila
-            "弗洛伊拉_弗洛伊拉"  # Garçi_Garcia
-            "加西_加西亚"  # Gonçalo_Gonzalo
-            "贡萨罗_贡萨罗"  # Gundemar
-            "衮德玛"  # Guttier_Walter
-            "古提尔_沃尔特"  # Johan_John
-            "乔汉_约翰"  # Liuva
-            "柳瓦"  # Liuvericho
-            "柳维里秋"  # Lupo_Lupo
-            "卢波_卢波"  # Mauregato
-            "莫勒嘉托"  # Monnio_Munio
-            "蒙尼奥_穆尼奥"  # Nunno_Nuno
-            "嫩诺_努诺"  # Oliba
-            "欧利巴"  # Ordonno_Ordono
+            "阿拉里秋"  # Alaricho
+            "阿洛伊托"  # Aloito
+            "阿苏尔"  # Assur
+            "阿达纳吉多"  # Athanagildo
+            "贝冷嘉里欧_贝伦加尔"  # Berengario_Berengar
+            "迪亚科_迪亚科"  # Diaco_Diaco
+            "法费拉"  # Fafila
+            "弗里德南多_斐迪南"  # Friedenando_Ferdinand
+            "弗里德南_斐迪南"  # Friednand_Ferdinand
+            "弗洛伊拉_弗洛伊拉"  # Froila_Froila
+            "加西_加西亚"  # Garçi_Garcia
+            "贡萨罗_贡萨罗"  # Gonçalo_Gonzalo
+            "衮德玛"  # Gundemar
+            "古提尔_沃尔特"  # Guttier_Walter
+            "乔汉_约翰"  # Johan_John
+            "柳瓦"  # Liuva
+            "柳维里秋"  # Liuvericho
+            "卢波_卢波"  # Lupo_Lupo
+            "莫勒嘉托"  # Mauregato
+            "蒙尼奥_穆尼奥"  # Monnio_Munio
+            "嫩诺_努诺"  # Nunno_Nuno
+            "欧利巴"  # Oliba
+            "奥尔东诺_奥尔多诺"  # Ordonno_Ordono
             "伯拉吉奥_伯拉纠"  # Pelagio_Pelagius
-            "佩拉吉奥_佩拉吉乌斯"  # Petro_Peter
-            "佩特罗_彼得"  # Ranimiro_Ramiro
-            "拉尼米罗_拉米罗"  # Rekkaredo
-            "勒卡勒多"  # Rodericho_Roderick
-            "罗德里戈_罗德里克"  # Sans_Sancho
-            "三斯_桑丘"  # Silo
-            "斯洛"  # Suneario_Sunyer
-            "苏涅阿里欧_苏涅尔"  # Suniefredo
-            "苏涅弗雷多"  # Theodoricho_Theodoric
-            "迪奥多里秋_迪奥多里克"  # Veremondo_Vermudo
-            "维勒蒙多_维木多"  # Wifredo_Wilfred
-            "威尔弗雷多_威尔弗雷德"  # Wimarano
-            "维玛拉诺"  # Witiza
+            "佩特罗_彼得"  # Petro_Peter
+            "拉尼米罗_拉米罗"  # Ranimiro_Ramiro
+            "勒卡勒多"  # Rekkaredo
+            "罗德里戈_罗德里克"  # Rodericho_Roderick
+            "三斯_桑丘"  # Sans_Sancho
+            "斯洛"  # Silo
+            "苏涅阿里欧_苏涅尔"  # Suneario_Sunyer
+            "苏涅弗雷多"  # Suniefredo
+            "迪奥多里秋_迪奥多里克"  # Theodoricho_Theodoric
+            "维勒蒙多_维木多"  # Veremondo_Vermudo
+            "威尔弗雷多_威尔弗雷德"  # Wifredo_Wilfred
+            "维玛拉诺"  # Wimarano
+            "维蒂查"  # Witiza
         }
         female_names = {
             "阿德衮蒂斯"  # Adelgundis
@@ -4661,7 +4661,7 @@ byzantine = {
             "戈斯坦丁_君士坦丁"  # Gosdantin_Constantine
             "格里戈尔_格雷戈里"  # Grigor_Gregory
             "古尔根_卢波"  # Gurgen_Lupo
-            "赫图姆"  # Hagop
+            "哈戈普"  # Hagop
             "科斯洛夫"  # Hamazasp
             "赫图姆"  # Hethum
             "霍凡奈斯_约翰"  # Hovhannes_John
@@ -4719,52 +4719,52 @@ byzantine = {
             "阿格芙妮"  # Aghavni
             "爱丽特兹_爱丽丝"  # Alitz_Alice
             "艾尔玛斯德"  # Almasd
-            "安娜希德安娜_安娜"  # Anahid
-            "阿诺丝"  # Anna_Anna
-            "艾尔妲"  # Anoush
-            "艾蕾薇格"  # Arda
-            "艾琳"  # Arevig
-            "拜德莎"  # Arin
-            "贝尔佳诺丝"  # Baydzar
-            "贝尔乔希"  # Berjanoush
-            "达特维格"  # Berjouhi
-            "妲丽塔"  # Datevig
-            "埃丽兹_海勒薇兹"  # Dalita
-            "嘉妲尔"  # Eliz_Eloise
-            "歌兰朵克特"  # Gadar
-            "哈斯米格"  # Gorandoukht_Gorandukht
-            "霍莉"  # Hasmig
-            "赫拉诺斯"  # Houri
-            "赫丽普斯梅"  # Hranoush
-            "克格哈诺斯"  # Hripsimeh
-            "柯兰"  # Keghanoush
-            "科哈尔"  # Keran
+            "安娜希德"  # Anahid
+            "安娜_安娜"  # Anna_Anna
+            "阿诺丝"  # Anoush
+            "艾尔妲"  # Arda
+            "艾蕾薇格"  # Arevig
+            "艾琳"  # Arin
+            "拜德莎"  # Baydzar
+            "贝尔佳诺丝"  # Berjanoush
+            "贝尔乔希"  # Berjouhi
+            "达特维格"  # Datevig
+            "妲丽塔"  # Dalita
+            "埃丽兹_海勒薇兹"  # Eliz_Eloise
+            "嘉妲尔"  # Gadar
+            "歌兰朵克特_Gorandukht"  # Gorandoukht_Gorandukht
+            "哈斯米格"  # Hasmig
+            "霍莉"  # Houri
+            "赫拉诺斯"  # Hranoush
+            "赫丽普斯梅"  # Hripsimeh
+            "克格哈诺斯"  # Keghanoush
+            "柯兰"  # Keran
             "拉塔芙莉"  # Khorishah
-            "蕾莉"  # Kohar
-            "露辛"  # Latavri
-            "玛拉"  # Leyli
-            "玛嘉莉德_玛格丽特"  # Lousin
-            "玛丽亚_玛丽亚"  # Mara
-            "玛丽亚姆"  # Margarid_Margaret
+            "科哈尔"  # Kohar
+            "拉塔芙莉"  # Latavri
+            "蕾莉"  # Leyli
+            "露辛"  # Lousin
+            "玛拉"  # Mara
+            "玛嘉莉德_玛格丽特"  # Margarid_Margaret
             "玛丽亚_玛丽亚"  # Maria_Maria
             "玛丽亚姆_玛丽亚姆"  # Mariyam_Mariam
-            "娜萨妮"  # Meghranoush
-            "奥芙珊娜"  # Nane
-            "普妮格"  # Nazani
-            "拉兹穆希"  # Ovsanna
-            "丽塔"  # Pounig
-            "塞塔"  # Razmouhi
-            "茜兰"  # Rita
+            "梅赫拉诺斯"  # Meghranoush
+            "娜妮"  # Nane
+            "娜萨妮"  # Nazani
+            "奥芙珊娜"  # Ovsanna
+            "普妮格"  # Pounig
+            "拉兹穆希"  # Razmouhi
+            "丽塔"  # Rita
             "茜尔瓦特"  # Satenik_Satinik
-            "斯尔普希"  # Seta
-            "斯霍莎妮格"  # Siran
-            "塔考希"  # Sirvart
-            "塔玛尔"  # Srpouhi
-            "瓦尔塔诺丝"  # Shoushanig
-            "瓦尔托希"  # Takouhi
-            "沃丝吉"  # Tamar_Tamar
-            "耶瓦"  # Vartanoush
-            "萨贝尔"  # Vartouhi
+            "塞塔"  # Seta
+            "茜兰"  # Siran
+            "茜尔瓦特"  # Sirvart
+            "斯尔普希"  # Srpouhi
+            "斯霍莎妮格"  # Shoushanig
+            "塔考希"  # Takouhi
+            "塔玛尔_塔玛尔"  # Tamar_Tamar
+            "瓦尔塔诺丝"  # Vartanoush
+            "瓦尔托希"  # Vartouhi
             "沃斯基"  # Vosgi
             "耶娃"  # Yeva
             "萨贝尔_伊丽莎白"  # Zabel_Elizabeth
@@ -5044,53 +5044,53 @@ byzantine = {
         male_names = {
             "阿格萨坦"  # Ælbeg
             "阿拉特伊"  # Æmbalan
-            "安巴尔"  # Aghsartan
-            "安巴祖克"  # Alatey
-            "阿斯克卡达"  # Akhsar
-            "阿斯帕"  # Anbal
-            "阿托姆"  # Anbazuk
-            "巴兰巴尔"  # Aravat
-            "巴尔萨格"  # Arsen
-            "巴尔拉"  # Askhkadar
+            "阿格萨坦"  # Aghsartan
+            "阿拉特伊"  # Alatey
+            "阿克萨"  # Akhsar
+            "安巴尔"  # Anbal
+            "安巴祖克"  # Anbazuk
+            "阿拉瓦特"  # Aravat
+            "阿尔森"  # Arsen
+            "阿斯克卡达"  # Askhkadar
             "巴西尔_巴西尔"  # Ashot_Ashot
-            "巴祖克"  # Aslan
-            "贝勒尔"  # Aspar
-            "贝尔"  # Athom
-            "伯兹-乌鲁兹"  # Balambar
-            "布尔古尔"  # Balsag
-            "布里贝尔迪"  # Barlah
+            "阿斯兰"  # Aslan
+            "阿斯帕"  # Aspar
+            "阿托姆"  # Athom
+            "巴兰巴尔"  # Balambar
+            "巴尔萨格"  # Balsag
+            "巴尔拉"  # Barlah
             "伯里汉"  # Bæqætar
             "巴西尔_巴西尔"  # Basil_Basil
-            "切拉克萨塔格"  # Bazuk
-            "大卫_大卫"  # Beler
-            "杜尔古勒尔"  # Ber
-            "吉尔贡"  # Biræg
-            "戈哈"  # Boz-Uruz
-            "古巴兹"  # Buürgur
-            "哈斯卡"  # Buriberdi
-            "胡丹"  # Burikhan
-            "伊塔兹"  # Candak
-            "伊韦利"  # Chelakhsartag
-            "坎德兹"  # Davit_David
-            "卡夫提亚"  # Djadaron
-            "汉克胡希"  # Durgulel
+            "巴祖克"  # Bazuk
+            "贝勒尔"  # Beler
+            "贝尔"  # Ber
+            "比莱格"  # Biræg
+            "伯兹-乌鲁兹"  # Boz-Uruz
+            "布尔古尔"  # Buürgur
+            "布里贝尔迪"  # Buriberdi
+            "伯里汉"  # Burikhan
+            "坎达克"  # Candak
+            "切拉克萨塔格"  # Chelakhsartag
+            "大卫_大卫"  # Davit_David
+            "嘉达伦"  # Djadaron
+            "杜尔古勒尔"  # Durgulel
             "库达纳"  # Dzæræs
             "库尔"  # Gætæg
-            "库鲁克"  # Georgy_George
-            "普拉德"  # Girgon
-            "雷斯庞迪亚尔"  # Gokhar
-            "罗斯马格"  # Gubaz
+            "格奥尔吉_乔治"  # Georgy_George
+            "吉尔贡"  # Girgon
+            "戈哈"  # Gokhar
+            "古巴兹"  # Gubaz
             "萨夫拉克"  # Guram_Guaram
-            "桑吉潘"  # Hasqar
-            "萨罗斯"  # Huddan
-            "萨迪斯"  # Istor
-            "斯瓦恩"  # Itaz
-            "塞尔顿"  # Iveri
-            "塔乌斯"  # Kandak
-            "乌尔杜勒"  # Kandz
-            "乌鲁兹马"  # Kavtia
+            "哈斯卡"  # Hasqar
+            "胡丹"  # Huddan
+            "伊斯托"  # Istor
+            "伊塔兹"  # Itaz
+            "伊韦利"  # Iveri
+            "坎达克"  # Kandak
+            "坎德兹"  # Kandz
+            "卡夫提亚"  # Kavtia
             "乌图尔库"  # Kaur
-            "亚辛雅"  # Khankhusy
+            "汉克胡希"  # Khankhusy
             "卡塔格"  # Khætag
             "君士坦丁_君士坦丁"  # Konstantin_Constantine
             "库巴尔"  # Kubal
@@ -5123,41 +5123,41 @@ byzantine = {
         female_names = {
             "艾妲德莎"  # Adadza
             "艾尔妲"  # Alda
-            "安娜_安娜"  # Altun
-            "阿特塞露克丝"  # Ana_Anna
-            "拜娅"  # Atsyrukhs
-            "贝蒂莎"  # Baia
-            "博蕾娜"  # Bedisa
-            "博特塞农"  # Borena
-            "布鲁杜坎"  # Btsenon
-            "杜妲"  # Burudukan
-            "埃琳娜_海伦"  # Duda
-            "埃莉索"  # Elene_Helen
-            "杰嘉娜"  # Eliso
-            "古尔查拉"  # Gergana
-            "古兰杜特"  # Gulchara
-            "克拉"  # Guranduht_Gorandukht
-            "克拉特莎"  # Kera
-            "克特凡"  # Keratsa
+            "阿尔金"  # Altun
+            "安娜_安娜"  # Ana_Anna
+            "阿特塞露克丝"  # Atsyrukhs
+            "拜娅"  # Baia
+            "贝蒂莎"  # Bedisa
+            "博蕾娜"  # Borena
+            "博特塞农"  # Btsenon
+            "布鲁杜坎"  # Burudukan
+            "杜妲"  # Duda
+            "埃琳娜_海伦"  # Elene_Helen
+            "埃莉索"  # Eliso
+            "杰嘉娜"  # Gergana
+            "古尔查拉"  # Gulchara
+            "古兰杜特_Gorandukht"  # Guranduht_Gorandukht
+            "克拉"  # Kera
+            "克拉特莎"  # Keratsa
             "克捷万_凯瑟琳"  # Ketevan_Catherine
-            "拉玛拉"  # Koser
-            "拉辛"  # Lamara
-            "莱拉"  # Lashin
-            "玛丽亚米"  # Lela
+            "克塞"  # Koser
+            "拉玛拉"  # Lamara
+            "拉辛"  # Lashin
+            "莱拉"  # Lela
             "玛丽亚米_玛丽亚姆"  # Mariami_Mariam
-            "尼诺"  # Natia
-            "露苏丹"  # Nino
-            "莎娜妲"  # Rusudan
-            "莎缇妮可"  # Sanatha
-            "莎塔娜"  # Satinik_Satinik
-            "索蕾娜"  # Shatana
-            "苏基娅"  # Shorena
-            "塔玛莉"  # Shukhia
-            "缇娜缇妮"  # Tamari_Tamar
-            "特茜娅拉"  # Tinatini
-            "瓦尔多"  # Tsiala
-            "薇多卡"  # Vardo
-            "耶兰"  # Vedokha
+            "娜缇娅"  # Natia
+            "尼诺"  # Nino
+            "露苏丹"  # Rusudan
+            "莎娜妲"  # Sanatha
+            "莎缇妮可_莎缇妮可"  # Satinik_Satinik
+            "莎塔娜"  # Shatana
+            "索蕾娜"  # Shorena
+            "苏基娅"  # Shukhia
+            "塔玛莉_塔玛尔"  # Tamari_Tamar
+            "缇娜缇妮"  # Tinatini
+            "特茜娅拉"  # Tsiala
+            "瓦尔多"  # Vardo
+            "薇多卡"  # Vedokha
             "叶兰"  # Yeran
         }
         from_dynasty_prefix = "耶 "  # ve 
@@ -5189,10 +5189,10 @@ byzantine = {
             "大卫_大卫"  # Davit_David
             "德梅特雷_德梅特里乌斯"  # Demetre_Demetrius
             "德姆纳"  # Demna
-            "埃雷克勒_赫拉克勒斯"  # Djavakhi
-            "加布里埃利_加布里埃尔"  # Erekle_Heracles
-            "加吉基_加吉克"  # Gabrieli_Gabriel
-            "乔吉_乔治"  # Gagiki_Gagik
+            "贾瓦基"  # Djavakhi
+            "埃雷克勒_赫拉克勒斯"  # Erekle_Heracles
+            "加布里埃利_加布里埃尔"  # Gabrieli_Gabriel
+            "加吉基_加吉克"  # Gagiki_Gagik
             "吉奥尔吉_乔治"  # Giorgi_George
             "格里戈利_格雷戈里"  # Grigoli_Gregory
             "古阿兰_古阿兰"  # Guaram_Guaram
@@ -5256,26 +5256,26 @@ byzantine = {
             "古尔瓦迪"  # Gulvardi
             "古兰杜特"  # Guranduht_Gorandukht
             "伊娅"  # Gvantsa
-            "尤德朱娜"  # Ia
-            "珂珂拉"  # Judjuna
-            "克特凡"  # Kekela
+            "伊娅"  # Ia
+            "尤德朱娜"  # Judjuna
+            "珂珂拉"  # Kekela
             "克捷万_凯瑟琳"  # Ketevan_Catherine
-            "拉姆兹拉"  # Lamara
+            "拉玛拉"  # Lamara
             "莱拉"  # Lamzira
-            "玛丽亚米"  # Lela
+            "莱拉"  # Lela
             "玛丽亚米_玛丽亚姆"  # Mariami_Mariam
-            "娜缇娅"  # Mathiko
+            "玛狄科"  # Mathiko
             "尼诺"  # Mthvarisa
             "露苏丹"  # Mzekhar
-            "莎娜妲"  # Natia
-            "索蕾娜"  # Nino
-            "苏基娅"  # Rusudan
-            "苏丽科"  # Sanatha
-            "塔玛莉"  # Shorena
-            "塔普洛"  # Shukhia
-            "缇娜缇妮"  # Suliko
-            "特茜娅拉"  # Tamari_Tamar
-            "瓦尔多"  # Taplo
+            "娜缇娅"  # Natia
+            "尼诺"  # Nino
+            "露苏丹"  # Rusudan
+            "莎娜妲"  # Sanatha
+            "索蕾娜"  # Shorena
+            "苏基娅"  # Shukhia
+            "苏丽科"  # Suliko
+            "塔玛莉_塔玛尔"  # Tamari_Tamar
+            "塔普洛"  # Taplo
             "缇娜蒂妮"  # Tinatini
             "赤阿拉"  # Tsiala
             "瓦尔多"  # Vardo
@@ -5469,12 +5469,12 @@ byzantine = {
             "塔拜"  # Tabbai
             "塔代"  # Taddai_Thaddeus
             "塔利亚_塔利亚"  # Talia_Talia
-            "塔利亚"  # Taliah_Talia
+            "塔利亚_塔利亚"  # Taliah_Talia
             "塔尔迈_巴塞洛缪"  # Talmai_Bartholomew
-            "塔利亚"  # Talya_Talia
+            "塔利亚_塔利亚"  # Talya_Talia
             "塔姆_托马斯"  # Tam_Thomas
-            "塔马斯"  # Tam'as_Thomas
-            "塔木哈斯"  # Ta'mhas_Thomas
+            "塔马斯_托马斯"  # Tam'as_Thomas
+            "塔木哈斯_托马斯"  # Ta'mhas_Thomas
             "塔尔戈"  # Targhal
             "陶马"  # Tauma
             "塔维_塔维"  # Tavi_Tavi
@@ -5486,10 +5486,10 @@ byzantine = {
             "迪"  # Tiv
             "托瓦"  # Toba
             "托多斯"  # Todos
-            "托尔迈"  # Tolmai_Bartholomew
+            "托尔迈_巴塞洛缪"  # Tolmai_Bartholomew
             "托马尔萨"  # Tomarsa_Tomarsa
             "塔木扎"  # Tamuza_Tomarsa
-            "图尔迈_巴尔多禄茂"  # Tulmay_Bartholomew
+            "图尔迈_巴塞洛缪"  # Tulmay_Bartholomew
             "乌克巴"  # Ukba
             "亚巴拉哈"  # Yahballaha
             "亚奈"  # Yanai
@@ -5575,7 +5575,7 @@ byzantine = {
             "泽塔_泽塔"  # Zeita_Zeta
             "泽塔_泽塔"  # Zeta_Zeta
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         male_patronym = "巴尔"  # Bar 
         female_patronym = "巴塔"  # Barta 
         prefix = yes
@@ -6500,7 +6500,7 @@ celtic = {
             "艾尔芬_乌尔班"  # Erpin_Urban
             "伽拉姆"  # Galam
             "伽那特_格洛提斯"  # Ganant_Gerontius
-            "加拉特_杰拉德"  # Garalt_Gerald
+            "加拉特_杰拉尔德"  # Garalt_Gerald
             "杰德"  # Gede
             "杰斯特"  # Gest
             "吉古鲁穆_格雷戈里"  # Gigurum_Gregory
@@ -6740,7 +6740,7 @@ celtic = {
             "高曼"  # Gamon
             "高蒙_高曼"  # Garmon_German
             "格拉因特_格洛提斯"  # Geraint_Gerontius
-            "格拉特_格拉德"  # Gerallt_Gerald
+            "格拉特_杰拉尔德"  # Gerallt_Gerald
             "格维德因"  # Glwyddien
             "格鲁外斯_克拉迪斯"  # Glywys_Claudius
             "高德维_高德温"  # Godwyn_Godwin
@@ -7171,7 +7171,7 @@ celtic = {
             "弗里克_弗里格"  # Frioc_Friog
             "高蒙_格曼"  # Garmon_German
             "格洛里_高弗雷"  # Geofroi_Godfrey
-            "格拉特_格拉德"  # Geralt_Gerald
+            "格拉特_杰拉尔德"  # Geralt_Gerald
             "格热因特_格隆提斯"  # Gereint_Gerontius
             "格斯丁_朱斯丁"  # Gestin_Justin
             "吉贝特_吉贝特"  # Gilbert_Gilbert
@@ -7864,7 +7864,7 @@ finno_ugric = {
             "索佳尔"  # Suonjar
             "乌科萨塔"  # Uksáhkká
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         modifier = default_culture_modifier
     }
     ugricbaltic = {
@@ -8273,7 +8273,7 @@ finno_ugric = {
             "雅尔加娃"  # Yalgava
             "约戈卡"  # Yugörka
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         founder_named_dynasties = yes
         modifier = default_culture_modifier
     }
@@ -8457,7 +8457,7 @@ finno_ugric = {
             "雅尔加娃"  # Yalgava
             "约戈卡"  # Yugörka
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         founder_named_dynasties = yes
         modifier = default_culture_modifier
     }
@@ -8520,7 +8520,7 @@ finno_ugric = {
             "塔达内"  # Tadane
             "雅尔"  # Yar
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         founder_named_dynasties = yes
         modifier = default_culture_modifier
     }
@@ -8680,7 +8680,7 @@ finno_ugric = {
             "马托拉瓦"  # Mastorava
             "诺罗瓦"  # Noroava
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         founder_named_dynasties = yes
         modifier = default_culture_modifier
     }
@@ -9285,7 +9285,7 @@ altaic = {
             "耶尔德姆"  # Yeldem
             "耶尔迪次"  # Yildiz
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
@@ -9385,7 +9385,7 @@ altaic = {
             "耶尔德姆"  # Yeldem
             "耶尔迪次"  # Yildiz
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
@@ -9985,7 +9985,7 @@ altaic = {
             "奥兹古尔"  # Özgul
             "奥兹勒姆"  # Özlem
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
@@ -10085,7 +10085,7 @@ altaic = {
             "耶尔德姆"  # Yeldem
             "耶尔迪次"  # Yildiz
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         dynasty_title_names = yes
         founder_named_dynasties = yes
         allow_looting = yes
@@ -10195,7 +10195,7 @@ altaic = {
             "耶尔德姆"  # Yeldem
             "耶尔迪次"  # Yildiz
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         founder_named_dynasties = yes
         male_patronym = "乌璐"  #  uulu
         female_patronym = "奇兹"  #  kyzy
@@ -10308,7 +10308,7 @@ altaic = {
             "伊咄"  # Yeldem
             "帷地"  # Yildiz
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
@@ -10498,7 +10498,7 @@ altaic = {
             "也遂"  # Yesui
             "诃额伦"  # Hoelun
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
@@ -10834,25 +10834,25 @@ altaic = {
             "安出温"  # Æncïæng
             "厄素勒苦"  # Æsuræku
             "厄忒"  # Ætæ
-            �alungha
-            �angnggu
-            �engguo
-            �ensi�abu
-            �entumen
-            �iebucu
-            �iekude
-            �ielihu
-            �ielu
-            �ieyibao
-            �igiyanu
-            �igunai
-            �ijianu
-            �ilu
-            �ilula
-            �inde
-            �inilie
-            �i�ihuan
-            �unian
+            Šalungha
+            Šangnggu
+            Šengguo
+            Šensi’abu
+            Šentumen
+            Šiebucu
+            Šiekude
+            Šielihu
+            Šielu
+            Šieyibao
+            Šigiyanu
+            Šigunai
+            Šijianu
+            Šilu
+            Šilula
+            Šinde
+            Šinilie
+            Šišihuan
+            Šunian
             "舜卿"  # Šuntçing
             "失卜阿"  # Šïbua
             "失郎哈"  # Šïlangha
@@ -10972,13 +10972,13 @@ altaic = {
             "注思版"  # Zhusiban
             "注思灰"  # Zhusihui
             "恩忒"  # Ærdæ
-            �agulizhen
-            �igge
-            �igu
-            �igu�er
-            �oun
-            �umu
-            �unja
+            Šagulizhen
+            Šigge
+            Šigu
+            Šigu’er
+            Šoun
+            Šumu
+            Šunja
             "深温"  # Šænun
             "失剌孙"  # Šïlasun
             "失勒温"  # Šïlæun
@@ -10986,7 +10986,7 @@ altaic = {
             "失儿哈"  # Šïrha
         }
         dynasty_title_names = no
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
@@ -11145,12 +11145,12 @@ arabic = {
         male_names = {
             "阿巴卡达"  # Abakada
             "阿巴扎"  # Abazza
-            "阿巴斯_阿巴斯"  # Abbas_Abbas
-            "阿卜杜_阿卜杜"  # Abdul_Abdul
-            "阿卜杜-阿泽姆"  # Abdul-Azeem
-            "阿卜杜-哈勒姆"  # Abdul-Haleem
-            "阿卜杜-喀热姆"  # Abdul-Kareem
-            "阿卜杜-拉赫曼"  # Abdul-Rahman
+            "阿拔斯_阿拔斯"  # Abbas_Abbas
+            "阿卜杜勒_阿卜杜勒"  # Abdul_Abdul
+            "阿卜杜勒-阿齐姆"  # Abdul-Azeem
+            "阿卜杜勒-哈利姆"  # Abdul-Haleem
+            "阿卜杜勒-卡里姆"  # Abdul-Kareem
+            "阿卜杜勒-拉赫曼"  # Abdul-Rahman
             "阿卜杜拉_阿卜杜拉"  # Abdullah_Abdullah
             "阿比丁"  # Abidin
             "阿达"  # Adal
@@ -11711,29 +11711,29 @@ arabic = {
             "卡丽玛"  # Karima
             "汗丹"  # Khandan
             "哈特拉"  # Khaterah
-            "戈尔巴哈"  # Khatira
-            "古尔纳尔"  # Kinah
+            "哈蒂拉"  # Khatira
+            "基纳赫"  # Kinah
             "拉拉"  # Lala
-            "古尔帕里"  # Madiha
-            "哈斯蒂"  # Mahdokht
-            "胡玛"  # Mahsa
-            "汉丹"  # Mahwash
-            "基纳赫"  # Marwa
-            "拉拉"  # Mastana
-            "玛赫多克特"  # Mehri
-            "马赫萨"  # Mina
-            "马尔瓦"  # Minoo
+            "玛蒂哈"  # Madiha
+            "玛赫多克特"  # Mahdokht
+            "马赫萨"  # Mahsa
+            "玛赫瓦什"  # Mahwash
+            "马尔瓦"  # Marwa
+            "玛斯塔娜"  # Mastana
+            "迈赫里"  # Mehri
+            "米娜"  # Mina
+            "米诺奥"  # Minoo
             "玛斯塔娜"  # Munawwar
             "迈赫里"  # Muzhdah
-            "米娜"  # Nahal
-            "米诺奥"  # Najela
-            "纳哈尔"  # Nasiba
-            "纳耶拉"  # Nastaran
+            "纳哈尔"  # Nahal
+            "纳耶拉"  # Najela
+            "纳西巴"  # Nasiba
+            "纳斯塔兰"  # Nastaran
             "纳斯塔兰"  # Nazaneen
             "纳齐"  # Nazy
             "尼加尔"  # Neelab
-            "尼基"  # Negar
-            "妮柯"  # Niki
+            "尼加尔"  # Negar
+            "尼基"  # Niki
             "妮可"  # Nikoo
             "瑙欣"  # Noushin
             "拉比娅"  # Rabiya
@@ -11764,19 +11764,19 @@ arabic = {
             0.1
         }
         male_names = {
-            "阿龙_阿龙"  # Aaron_Aaron
+            "阿龙_亚伦"  # Aaron_Aaron
             "阿巴诺布"  # Abanoub
             "阿布德拉赫曼_阿布德拉赫曼"  # Abderahman_Abderrahman
-            "阿卜杜-阿兹兹"  # Abdul-Aziz
-            "阿卜杜-哈克"  # Abdul-Haq
-            "阿卜杜-马德吉德"  # Abdul-Madjid
-            "阿卜杜-萨拉姆"  # Abdul-Salaam
+            "阿卜杜勒-阿齐兹"  # Abdul-Aziz
+            "阿卜杜勒-哈克"  # Abdul-Haq
+            "阿卜杜勒-马吉德"  # Abdul-Madjid
+            "阿卜杜勒-萨拉姆"  # Abdul-Salaam
             "阿卜杜拉_阿卜杜拉"  # Abdullah_Abdullah
             "阿比诺斯_阿比贾哈"  # Abianos_Abijah
             "阿比萨洛姆"  # Abisalom
             "阿布拉里翁"  # Ablarion
             "阿布拉姆_亚伯拉罕"  # Abraam_Abraham
-            "阿布-巴克尔_阿布-巴克尔"  # Abu-Bakr_Abu-Bakr
+            "阿布-伯克尔_阿布-伯克尔"  # Abu-Bakr_Abu-Bakr
             "安南"  # Adnan
             "阿加同_阿加托斯"  # Agathon_Agathos
             "阿加托尼科斯_阿加托尼科斯"  # Agathonikos_Agathonikos
@@ -11811,12 +11811,12 @@ arabic = {
             "哈卡姆_哈卡姆"  # Hakam_Hakam
             "哈穆德"  # Hammud
             "亨利_亨利"  # Hanri_Henry
-            "哈罗翁_阿龙"  # Haroun_Aaron
+            "哈罗翁_亚伦"  # Haroun_Aaron
             "希沙姆"  # Hisham
             "侯萨因_侯萨因"  # Hussayn_Hussayn
             "易卜拉欣_亚伯拉罕"  # Ibrahim_Abraham
             "依雅斯_依利贾"  # Ilyas_Elijah
-            "依斯'马尔_依斯马尔"  # Is'mail_Ismail
+            "依斯'马尔_伊斯迈尔"  # Is'mail_Ismail
             "依扎丁"  # Izzaddin
             "贾拉拉丁"  # Jalaaladdin
             "贾维达"  # Jawdat
@@ -11919,7 +11919,7 @@ arabic = {
         }
         male_names = {
             "阿巴德"  # Abbad
-            "阿巴斯_阿巴斯"  # Abbas_Abbas
+            "阿拔斯_阿拔斯"  # Abbas_Abbas
             "阿卜杜拉_阿卜杜拉"  # Abdallah_Abdullah
             "阿卜杜勒-阿齐兹"  # Abdul-Aziz
             "阿卜杜勒-哈卡姆"  # Abdul-Hakam
@@ -12172,7 +12172,7 @@ east_slavic = {
             "萨巴娃"  # Zabava
             "兹韦尼斯拉娃"  # Zvenislava
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         male_patronym = "耶维奇"  # ovich
         female_patronym = "罗夫娜"  # ovna
         prefix = no
@@ -12279,7 +12279,7 @@ east_slavic = {
             "扎巴瓦"  # Zabava
             "伊温妮斯拉瓦"  # Zvenislava
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         male_patronym = "耶维奇"  # ovich
         female_patronym = "罗夫娜"  # ovna
         prefix = no
@@ -12386,7 +12386,7 @@ east_slavic = {
             "扎巴瓦"  # Zabava
             "伊温妮斯拉瓦"  # Zvenislava
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         male_patronym = "耶维奇"  # ovich
         female_patronym = "罗夫娜"  # ovna
         prefix = no
@@ -12493,7 +12493,7 @@ east_slavic = {
             "扎巴瓦"  # Zabava
             "伊温妮斯拉瓦"  # Zvenislava
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         male_patronym = "耶维奇"  # ovich
         female_patronym = "罗夫娜"  # ovna
         prefix = no
@@ -12704,7 +12704,7 @@ west_slavic = {
             "索菲娅"  # Zofia
             "兹维尼斯瓦娃"  # Zwinislawa
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         modifier = default_culture_modifier
     }
     bohemian = {
@@ -12854,7 +12854,7 @@ west_slavic = {
             "兹德尼卡"  # Zdenka
             "若菲_索菲娅"  # Zofie_Sophia
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         modifier = default_culture_modifier
     }
     polish = {
@@ -13034,7 +13034,7 @@ west_slavic = {
             "索菲娅_索菲娅"  # Zofia_Sophia
             "兹维尼斯瓦娃"  # Zwinislawa
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         modifier = default_culture_modifier
         pat_grf_name_chance = 40
         mat_grf_name_chance = 10
@@ -13785,7 +13785,7 @@ iranian = {
             0.4
         }
         male_names = {
-            "阿巴斯"  # Abbas
+            "阿拔斯"  # Abbas
             "阿布尔哈桑"  # Abolhassan
             "阿夫沙尔"  # Afshar_Afshar
             "艾哈迈德_艾哈迈德"  # Ahmad_Ahmad
@@ -13902,7 +13902,7 @@ iranian = {
             "万达德"  # Vandad
             "瓦尔沙斯布_瓦尔沙斯布"  # Varshasb_Varshasb
             "韦什塔斯布_韦什塔斯布"  # Vishtasb_Vishtasb
-            "叶兹德格尔德"  # Yazdegerd
+            "伊嗣俟"  # Yazdegerd
             "尤瑟夫_乔瑟夫"  # Yousef_Joseph
             "扎哈克"  # Zahak
             "扎卡里亚"  # Zakaria
@@ -14198,7 +14198,7 @@ iranian = {
             "得悉槃陀"  # Takhsichvandak
             "得屈"  # Takut
             "塔克魂_塔克魂"  # Tarkhun_Tarkhun
-            "陶"  # Taw
+            "刀"  # Taw
             "蒂尔"  # Tir
             "提斯特雅_提斯特雅"  # Tishtrya_Tishtrya
             "蒂什万达克"  # Tishvandak
@@ -14640,7 +14640,7 @@ iranian = {
             0.1
         }
         male_names = {
-            "阿巴斯"  # Abbas
+            "阿拔斯"  # Abbas
             "阿布哈桑"  # Abolhassan
             "阿拉-韦尔迪"  # Alah-Verdi
             "阿拉海尔"  # Allahyar
@@ -14682,7 +14682,7 @@ iranian = {
             "阿绍特_阿绍特"  # Ešot_Ashot
             "艾尤布_阿尤布"  # Eyyub_Ayyub
             "费拉马兹_法尔马兹"  # Feramez_Faramarz
-            "法拉_法拉"  # Feraz_Faraz
+            "费拉兹_法拉"  # Feraz_Faraz
             "法特"  # Fath
             "费尔哈德_法尔哈德"  # Ferhad_Farhad
             "菲尔汗_菲尔汗"  # Ferhan_Farhan
@@ -14739,7 +14739,7 @@ iranian = {
             "纳齐尔_纳齐尔"  # Nesir_Nazir
             "内赛尔_纳赛尔"  # Nesr_Nasr
             "内扎姆"  # Nezam
-            "纳什尔万_纳什尔万"  # Nošîrwan_Nawshirwan
+            "诺希尔万_纳什尔万"  # Nošîrwan_Nawshirwan
             "内基尔万_内基尔万"  # Nêçîrvan_Nechirwan
             "帕尔维兹"  # Parviz
             "普曼"  # Pujman
@@ -14762,7 +14762,7 @@ iranian = {
             "维什塔卜_维什塔卜"  # Vîštap_Vishtasb
             "哈尔曼达尔_哈尔曼达尔"  # Xarmandar_Kharmandar
             "薛西斯_薛西斯"  # Xašayar_Khashayar
-            "库尔希德_库尔希德"  # Xuršîd_Khurshid
+            "胡尔希德_胡尔希德"  # Xuršîd_Khurshid
             "库思老_库思老"  # Xusrew_Khosrau
             "胡沙亚尔_胡沙亚尔"  # Xušyar_Hooshyar
             "胡达达德_胡达达德"  # Xwedadad_Khodadad
@@ -14787,21 +14787,21 @@ iranian = {
             "沙尔温_沙尔温"  # Šarvin_Sharwin
             "沙乌尔_沙乌尔"  # Šawur_Shavur
             "沙扬_沙扬"  # Šayan_Shayan
-            "谢尔库赫_谢尔库赫"  # Šîrkûh_Shirkuh
+            "希尔库赫_谢尔库赫"  # Šîrkûh_Shirkuh
         }
         female_names = {
             "阿丹"  # Adan
             "阿达尔"  # Adar
-            "阿尔"  # Ara
-            "阿迪尔"  # Ardil
-            "阿热佐"  # Arezo
-            "阿热祖"  # Arezu
+            "阿拉"  # Ara
+            "阿尔迪尔"  # Ardil
+            "阿蕾佐"  # Arezo
+            "阿蕾祖"  # Arezu
             "阿里燕"  # Ariyan
             "阿蕾兹"  # Arêz
             "阿莉曼"  # Arîman
             "阿琳"  # Arîn
             "阿桑"  # Asan
-            "阿斯藤"  # Asteng
+            "阿斯藤格"  # Asteng
             "阿赛"  # Asê
             "阿万"  # Avan
             "阿扎蒂"  # Azadî
@@ -14815,8 +14815,8 @@ iranian = {
             "巴万"  # Bawan
             "巴兹燕"  # Baziyan
             "巴泽"  # Bazê
-            "贝拉"  # Befraw
-            "贝弗琳"  # Befrîn
+            "贝芙劳"  # Befraw
+            "贝芙琳"  # Befrîn
             "贝吉罕"  # Begîxan
             "贝拉露克"  # Belalûk
             "贝吉斯"  # Belqis
@@ -14827,218 +14827,218 @@ iranian = {
             "贝达尔"  # Berdar
             "贝迪尔"  # Berdil
             "贝尔辛"  # Bersîn
-            "贝莉肯"  # Berîcan
+            "贝莉坎"  # Berîcan
             "贝赫辛"  # Bexšîn
             "贝燕"  # Beyan
             "贝伊宾"  # Beybîn
             "贝伊本"  # Beybûn
             "贝津"  # Bezîn
-            "比哈尔"  # Bihar
+            "碧哈尔"  # Bihar
             "比金"  # Bijîn
             "比列赛"  # Bilêse
             "比那尔"  # Binar
             "比那夫"  # Binav
-            "比内弗"  # Binefš
+            "比内弗什"  # Binefš
             "比内弗什"  # Binevš
-            "比燕"  # Biyan
+            "碧燕"  # Biyan
             "比什科日"  # Biškoj
-            "比什库琳"  # Biškurîn
+            "碧什库琳"  # Biškurîn
             "博哈尔"  # Bohar
             "贝纳兹"  # Bênaz
             "贝莉坎"  # Bêrîcan
             "贝莉万"  # Bêrîvan
-            "布然多特_婆然多克"  # Burandoxt_Pourandokht
+            "布兰多赫特_婆兰朵赫特"  # Burandoxt_Pourandokht
             "邓金"  # Dengîn
             "德拉夫"  # Derav
-            "德曾"  # Derzîn
+            "德尔津"  # Derzîn
             "德斯马尔"  # Desmal
             "德夫肯"  # Devken
             "迪拉尔"  # Dilar
             "迪拉拉姆"  # Dilaram
-            "迪拉热"  # Dilare
+            "迪拉蕾"  # Dilare
             "迪拉瓦兹"  # Dilawaz
-            "迪贝尔"  # Dilber
-            "迪肯"  # Dilcan
+            "迪尔贝尔"  # Dilber
+            "迪尔坎"  # Dilcan
             "迪达尔"  # Dildar
-            "迪格尔"  # Dilgerm
+            "迪尔格姆"  # Dilgerm
             "迪里斯坦"  # Dilistan
-            "迪康"  # Dilkanî
-            "迪那兹"  # Dilnaz
-            "迪翁"  # Dilvîn
-            "迪霍"  # Dilxoš
-            "迪赫维"  # Dilxweš
-            "迪雅尔"  # Diyarî
+            "迪尔卡妮"  # Dilkanî
+            "迪尔娜兹"  # Dilnaz
+            "迪尔文"  # Dilvîn
+            "迪尔霍什"  # Dilxoš
+            "迪赫维什"  # Dilxweš
+            "迪雅莉"  # Diyarî
             "多曼"  # Doman
-            "德斯姆"  # Dêrsim
-            "德兰"  # Dîlan
-            "德里斯坦"  # Dîristan
-            "依斯梅肯"  # Esmercan
+            "德尔斯姆"  # Dêrsim
+            "迪兰"  # Dîlan
+            "迪里斯坦"  # Dîristan
+            "爱斯梅尔坎"  # Esmercan
             "依斯梅罕"  # Esmerxan
-            "依斯特热"  # Estêre
-            "依文依维尔"  # Evîn
-            "依燕"  # Ewrîn
-            "依兹肯"  # Eyšan
-            "费勒克"  # Ezcan
-            "费内尔"  # Felek
-            "费拉恩"  # Fener
-            "菲梅斯克"  # Ferašîn
-            "佛丹"  # Firmêsk
-            "伽泽"  # Fîdan
-            "格拉维"  # Gazî
-            "格登伽"  # Gelavêj
-            "高泽尔"  # Gerdengaz
-            "高泽"  # Gozel
-            "格尔万"  # Gozê
-            "古特姆"  # Grîvan
-            "居尔巴哈尔_居尔巴哈尔"  # Guhtem
-            "古冷"  # Gulbehar_Golbahar
-            "古纳尔"  # Gulšen
-            "古纳兹_高纳兹"  # Gulnar
-            "格拉斯"  # Gulnaz_Golnaz
-            "赫勒兹"  # Gêlas
-            "赫里兹"  # Helez
-            "赫尔温"  # Heliz
-            "赫马约尔"  # Helvîn
-            "克泽"  # Hemayîl
-            "克瑟尔"  # Kejê
-            "克沃克"  # Keser
-            "克沃"  # Kevok
-            "克瑟尔"  # Kevî
-            "克扎泽尔"  # Kewser
-            "孔泽尔"  # Kezîzer
-            "勒依勒"  # Koçer
-            "勒依蒙"  # Leylê
-            "勒宗"  # Leymîn
-            "洛拉夫"  # Lezîn
-            "洛尔克"  # Lolav
-            "洛里"  # Lorkê
-            "洛罗肯"  # Lorî
-            "洛龙"  # Lorîcan
-            "勒拉夫"  # Lorîn
-            "勒夫肯"  # Lêlav
-            "洛尔燕"  # Lêvken
-            "罗扎"  # Lîlyan
-            "马扎"  # Lîza
-            "梅贝斯特"  # Maša
-            "梅洛班"  # Mebest
-            "梅洛肯"  # Mehrîban
-            "梅赫万"  # Mehrîcan
-            "梅博尔"  # Mehrîvan
-            "门达尔"  # Mejbîr
-            "梅卡姆"  # Mendal
-            "梅万"  # Mercam
-            "梅拉洛罕"  # Merîvan
-            "米里姆_米里姆"  # Mirarîxan
+            "爱斯特列"  # Estêre
+            "爱文"  # Evîn
+            "奥琳"  # Ewrîn
+            "爱珊"  # Eyšan
+            "爱兹坎"  # Ezcan
+            "费列克"  # Felek
+            "费内尔"  # Fener
+            "费拉辛"  # Ferašîn
+            "菲尔梅斯克"  # Firmêsk
+            "菲丹"  # Fîdan
+            "加齐"  # Gazî
+            "格拉维什"  # Gelavêj
+            "格尔登加兹"  # Gerdengaz
+            "高泽尔"  # Gozel
+            "高泽"  # Gozê
+            "格丽万"  # Grîvan
+            "古赫特姆"  # Guhtem
+            "古尔巴哈尔_戈尔巴哈尔"  # Gulbehar_Golbahar
+            "古尔申"  # Gulšen
+            "古尔纳尔"  # Gulnar
+            "古尔纳兹_戈尔纳兹"  # Gulnaz_Golnaz
+            "格拉斯"  # Gêlas
+            "赫列兹"  # Helez
+            "赫莉兹"  # Heliz
+            "赫尔文"  # Helvîn
+            "赫玛伊尔"  # Hemayîl
+            "克谢"  # Kejê
+            "克瑟尔"  # Keser
+            "克沃克"  # Kevok
+            "克维"  # Kevî
+            "蔻瑟尔"  # Kewser
+            "克齐泽尔"  # Kezîzer
+            "科切尔"  # Koçer
+            "蕾列"  # Leylê
+            "蕾敏"  # Leymîn
+            "列津"  # Lezîn
+            "洛拉芙"  # Lolav
+            "洛尔珂"  # Lorkê
+            "洛丽"  # Lorî
+            "洛莉坎"  # Lorîcan
+            "洛琳"  # Lorîn
+            "列拉芙"  # Lêlav
+            "列芙肯"  # Lêvken
+            "丽丽延"  # Lîlyan
+            "丽扎"  # Lîza
+            "玛莎"  # Maša
+            "梅贝斯特"  # Mebest
+            "梅赫丽班"  # Mehrîban
+            "梅赫丽坎"  # Mehrîcan
+            "梅赫丽万"  # Mehrîvan
+            "梅碧尔"  # Mejbîr
+            "蒙达尔"  # Mendal
+            "梅尔加姆"  # Mercam
+            "梅丽万"  # Merîvan
+            "米拉丽罕"  # Mirarîxan
             "米尔耶姆_玛丽亚姆"  # Miryem_Mariam
-            "穆哈巴德"  # Mizgîn
-            "梅梅"  # Muhabad
-            "梅尔登"  # Mêmê
-            "梅赫克"  # Mêrdîn
-            "莫德雅"  # Mêxek
-            "莫然"  # Mîdya
-            "纳洛曼"  # Mîran
-            "纳隆肯"  # Narîman
-            "纳比哈尔"  # Narîncan
-            "纳霍"  # Navbihar
-            "纳兹"  # Nawxoš
-            "纳兹达尔"  # Naz
-            "纳曾"  # Nazdar
-            "纳孜古尔_纳孜古尔"  # Nazenîn
-            "纳孜克"  # Nazgul_Nazgol
-            "纳孜纳孜"  # Nazik
-            "纳泽"  # Naznaz
-            "内梅"  # Nazê
-            "内蒙"  # Nermê
-            "内斯隆"  # Nermîn
-            "内博哈尔"  # Nesrîn
-            "内霍恩"  # Newbohar
-            "内姆尔"  # Nexšîn
-            "内蒙"  # Nešmîl
-            "诺肯"  # Nešmîn
-            "内吉兹"  # Norcan
-            "内隆"  # Nêrgiz
-            "内泽克"  # Nêrîn
-            "内达尔"  # Nêzîk
-            "内伽尔"  # Nîdar
-            "内诺兹"  # Nîgar
-            "诺然"  # Nîroj
-            "诺特曼"  # Nîšan
-            "佩津"  # Nîštîman
-            "佩温"  # Perjîn
-            "佩瓦内_帕瓦内"  # Pervîn
-            "佩温"  # Perwane_Parvaneh
-            "佩热姆"  # Perwîn
-            "佩里"  # Perçem
-            "佩洛古尔"  # Perî
-            "佩洛娜孜"  # Perîgul
-            "佩洛罕"  # Perînaz
-            "佩然"  # Perîxan
-            "佩哈安"  # Perîšan
-            "佩曼"  # Pexšan
-            "皮尔津"  # Peyman
-            "皮尔恩"  # Pirjîn
-            "皮里格"  # Piršeng
-            "婆热"  # Piršing
-            "婆热格"  # Pore
-            "佩冷"  # Poršeng
-            "婆洛孜"  # Pêlîn
-            "佩恩格"  # Pîroz
-            "拉娜"  # Pîšeng
-            "雷根"  # Rana
-            "雷瓦"  # Rengîn
-            "雷温"  # Rewša
-            "里罕"  # Rewšen
-            "林德"  # Rihan
-            "洛赫拉特"  # Rindê
-            "洛泽"  # Rojhelat
-            "洛娜赫"  # Rojê
-            "洛娜克"  # Ronahî
-            "隆迪克"  # Ronak
-            "热津恩"  # Rondik
-            "雷赞"  # Rêjîn
-            "洛翰"  # Rêzan
-            "里肯"  # Rîhan
-            "里茨万"  # Rîken
-            "里格尔"  # Rûciwan
-            "里肯"  # Rûgeš
-            "洛泽龙"  # Rûken
-            "萨热"  # Rûzerîn
-            "赛巴尔"  # Sarê
-            "瑟康"  # Serbar
-            "瑟菲拉兹"  # Sercan
-            "瑟菲拉兹"  # Serferaz
-            "瑟古尔"  # Serfiraz
-            "瑟里娜尔"  # Sergul
-            "瑟然"  # Serçinar
-            "哈顿"  # Seyran
-            "赫洛肯"  # Xatûn
-            "霍内_高车赫"  # Xêlîcan
-            "泽诺然"  # Xonçe_Ghoncheh
-            "泽尔雅"  # Zernîšan
-            "泽热"  # Zerya
-            "泽里"  # Zerê
-            "泽洛翰"  # Zerî
-            "泽顿"  # Zerîxan
-            "泽依顿"  # Zeytîn
-            "基菲"  # Zeytûn
-            "佐雅"  # Zilfê
-            "佐赞"  # Zoya
-            "泽龙"  # Zozan
-            "泽兰"  # Zêrîn
-            "泽内特"  # Zîlan
-            "扎内"  # Zînet
-            "扎那"  # Zînê
-            �ana
-            �anaz
-            �ayan
+            "米兹津"  # Mizgîn
+            "穆哈巴德"  # Muhabad
+            "梅梅"  # Mêmê
+            "梅尔丁"  # Mêrdîn
+            "梅赫克"  # Mêxek
+            "米迪亚"  # Mîdya
+            "米兰"  # Mîran
+            "娜丽曼"  # Narîman
+            "娜琳坎"  # Narîncan
+            "娜芙碧哈尔"  # Navbihar
+            "瑙霍什"  # Nawxoš
+            "娜兹"  # Naz
+            "娜兹达尔"  # Nazdar
+            "娜泽宁"  # Nazenîn
+            "纳孜古尔_纳孜古尔"  # Nazgul_Nazgol
+            "娜齐克"  # Nazik
+            "娜兹娜兹"  # Naznaz
+            "娜泽"  # Nazê
+            "内尔梅"  # Nermê
+            "内尔敏"  # Nermîn
+            "内丝琳"  # Nesrîn
+            "纽博哈尔"  # Newbohar
+            "内赫辛"  # Nexšîn
+            "内什米尔"  # Nešmîl
+            "内什敏"  # Nešmîn
+            "诺尔坎"  # Norcan
+            "内尔吉兹"  # Nêrgiz
+            "内琳"  # Nêrîn
+            "内齐克"  # Nêzîk
+            "尼达尔"  # Nîdar
+            "尼加尔"  # Nîgar
+            "尼罗什"  # Nîroj
+            "尼珊"  # Nîšan
+            "尼什提曼"  # Nîštîman
+            "佩尔金"  # Perjîn
+            "佩尔文"  # Pervîn
+            "佩尔瓦内_帕尔瓦内赫"  # Perwane_Parvaneh
+            "佩尔文"  # Perwîn
+            "佩尔切姆"  # Perçem
+            "佩丽"  # Perî
+            "佩丽古尔"  # Perîgul
+            "佩丽娜兹"  # Perînaz
+            "佩丽罕"  # Perîxan
+            "佩丽珊"  # Perîšan
+            "佩赫珊"  # Pexšan
+            "佩曼"  # Peyman
+            "皮尔金"  # Pirjîn
+            "皮尔申格"  # Piršeng
+            "皮尔辛格"  # Piršing
+            "波列"  # Pore
+            "波尔申格"  # Poršeng
+            "佩琳"  # Pêlîn
+            "皮罗兹"  # Pîroz
+            "皮申格"  # Pîšeng
+            "拉娜"  # Rana
+            "伦琴"  # Rengîn
+            "娄莎"  # Rewša
+            "娄申"  # Rewšen
+            "丽罕"  # Rihan
+            "琳德"  # Rindê
+            "洛什赫拉特"  # Rojhelat
+            "洛谢"  # Rojê
+            "洛娜希"  # Ronahî
+            "洛娜克"  # Ronak
+            "隆迪克"  # Rondik
+            "列金"  # Rêjîn
+            "列赞"  # Rêzan
+            "丽罕"  # Rîhan
+            "丽肯"  # Rîken
+            "鲁吉万"  # Rûciwan
+            "鲁格什"  # Rûgeš
+            "鲁肯"  # Rûken
+            "鲁泽琳"  # Rûzerîn
+            "萨列"  # Sarê
+            "赛尔巴尔"  # Serbar
+            "赛尔坎"  # Sercan
+            "赛尔费拉兹"  # Serferaz
+            "赛尔菲拉兹"  # Serfiraz
+            "赛尔古尔"  # Sergul
+            "赛尔齐纳尔"  # Serçinar
+            "赛兰"  # Seyran
+            "哈顿"  # Xatûn
+            "赫莉坎"  # Xêlîcan
+            "洪切_贡切赫"  # Xonçe_Ghoncheh
+            "泽尔尼桑"  # Zernîšan
+            "泽尔雅"  # Zerya
+            "泽列"  # Zerê
+            "泽莉"  # Zerî
+            "泽丽罕"  # Zerîxan
+            "泽依婷"  # Zeytîn
+            "泽依顿"  # Zeytûn
+            "齐尔菲"  # Zilfê
+            "佐雅"  # Zoya
+            "佐赞"  # Zozan
+            "泽琳"  # Zêrîn
+            "齐兰"  # Zîlan
+            "齐内特"  # Zînet
+            "齐内"  # Zînê
+            Šana
+            Šanaz
+            Šayan
             "谢赫里班"  # Šehrîban
-            �elal
-            �emam
+            Šelal
+            Šemam
             "申格"  # Šengê
-            �epal
-            �epirze
+            Šepal
+            Šepirze
             "谢尔敏"  # Šermîn
-            �evba
+            Ševba
             "谢文"  # Ševîn
             "谢拉兹"  # Šêlaz
             "希兰"  # Šîlan
@@ -15047,8 +15047,8 @@ iranian = {
         }
         dynasty_title_names = yes
         founder_named_dynasties = yes
-        male_patronym = "库"  # kurê 
-        female_patronym = "库珀"  # kiçê 
+        male_patronym = "库列"  # kurê 
+        female_patronym = "基切"  # kiçê 
         prefix = yes
         modifier = default_culture_modifier
     }
@@ -15063,7 +15063,7 @@ iranian = {
             0.1
         }
         male_names = {
-            "阿巴斯"  # Abbas
+            "阿拔斯"  # Abbas
             "阿布哈桑"  # Abolhassan
             "阿拉-韦尔迪"  # Alah-Verdi
             "阿拉海尔"  # Allahyar
@@ -15215,22 +15215,22 @@ iranian = {
         female_names = {
             "阿丹"  # Adan
             "阿达尔"  # Adar
-            "阿尔"  # Ara
+            "阿拉"  # Ara
             "阿迪尔"  # Ardil
-            "阿热佐"  # Arezo
-            "阿热祖"  # Arezu
+            "阿蕾佐"  # Arezo
+            "阿蕾祖"  # Arezu
             "阿里燕"  # Ariyan
-            "阿热孜"  # Arêz
-            "阿洛曼"  # Arîman
-            "阿隆"  # Arîn
+            "阿蕾兹"  # Arêz
+            "阿莉曼"  # Arîman
+            "阿琳"  # Arîn
             "阿桑"  # Asan
-            "阿藤"  # Asteng
-            "阿瑟"  # Asê
+            "阿斯藤格"  # Asteng
+            "阿赛"  # Asê
             "阿万"  # Avan
-            "阿扎德"  # Azadî
-            "阿兹隆"  # Azrîn
-            "奥托"  # Aštî
-            "巴迪尔"  # Badil
+            "阿扎蒂"  # Azadî
+            "阿兹琳"  # Azrîn
+            "阿什提"  # Aštî
+            "巴内赫辛"  # Badil
             "巴哈尔"  # Bahar
             "巴内霍"  # Balnexšîn
             "巴内"  # Banê
@@ -15239,229 +15239,229 @@ iranian = {
             "巴兹燕"  # Baziyan
             "巴泽"  # Bazê
             "贝拉"  # Befraw
-            "贝弗隆"  # Befrîn
-            "贝格罕"  # Begîxan
-            "贝拉洛科"  # Belalûk
+            "贝芙琳"  # Befrîn
+            "贝吉罕"  # Begîxan
+            "贝拉露克"  # Belalûk
             "贝吉斯"  # Belqis
-            "贝尔肯"  # Belîcan
+            "贝莉坎"  # Belîcan
             "贝纳夫"  # Benav
             "贝纳兹"  # Benaz
-            "贝比津"  # Berbijîn
+            "贝比金"  # Berbijîn
             "贝达尔"  # Berdar
             "贝迪尔"  # Berdil
             "贝松"  # Bersîn
             "北洛肯"  # Berîcan
-            "贝霍恩"  # Bexšîn
+            "贝尔辛"  # Bexšîn
             "贝燕"  # Beyan
-            "贝博恩"  # Beybîn
-            "贝依博恩"  # Beybûn
-            "贝曾"  # Bezîn
-            "比哈尔"  # Bihar
-            "比津"  # Bijîn
-            "比勒瑟"  # Bilêse
+            "贝伊宾"  # Beybîn
+            "贝伊本"  # Beybûn
+            "贝津"  # Bezîn
+            "碧哈尔"  # Bihar
+            "比金"  # Bijîn
+            "比列赛"  # Bilêse
             "比那尔"  # Binar
             "比那夫"  # Binav
-            "比内弗"  # Binefš
-            "比内弗"  # Binevš
-            "比燕"  # Biyan
+            "比内弗什"  # Binefš
+            "比内弗什"  # Binevš
+            "比什科日"  # Biyan
             "比科"  # Biškoj
-            "比库隆"  # Biškurîn
+            "碧什库琳"  # Biškurîn
             "博哈尔"  # Bohar
             "贝纳兹"  # Bênaz
-            "贝尔肯"  # Bêrîcan
-            "贝尔万"  # Bêrîvan
-            "布然多特_婆然多克"  # Burandoxt_Pourandokht
-            "邓根"  # Dengîn
+            "贝莉坎"  # Bêrîcan
+            "贝莉万"  # Bêrîvan
+            "布兰多赫特_婆兰朵赫特"  # Burandoxt_Pourandokht
+            "邓金"  # Dengîn
             "德拉夫"  # Derav
-            "德曾"  # Derzîn
+            "德尔津"  # Derzîn
             "德斯马尔"  # Desmal
             "德夫肯"  # Devken
             "迪拉尔"  # Dilar
             "迪拉拉姆"  # Dilaram
-            "迪拉热"  # Dilare
+            "迪拉蕾"  # Dilare
             "迪拉瓦兹"  # Dilawaz
             "迪贝尔"  # Dilber
-            "迪肯"  # Dilcan
+            "迪尔坎"  # Dilcan
             "迪达尔"  # Dildar
-            "迪格尔"  # Dilgerm
+            "迪尔格姆"  # Dilgerm
             "迪里斯坦"  # Dilistan
-            "迪康"  # Dilkanî
-            "迪那兹"  # Dilnaz
-            "迪翁"  # Dilvîn
-            "迪霍"  # Dilxoš
-            "迪赫维"  # Dilxweš
-            "迪雅尔"  # Diyarî
+            "迪尔卡妮"  # Dilkanî
+            "迪尔娜兹"  # Dilnaz
+            "迪尔文"  # Dilvîn
+            "迪尔霍什"  # Dilxoš
+            "迪赫维什"  # Dilxweš
+            "迪雅莉"  # Diyarî
             "多曼"  # Doman
             "德斯姆"  # Dêrsim
             "德兰"  # Dîlan
-            "德里斯坦"  # Dîristan
-            "依斯梅肯"  # Esmercan
+            "迪里斯坦"  # Dîristan
+            "爱斯梅尔坎"  # Esmercan
             "依斯梅罕"  # Esmerxan
-            "依斯特热"  # Estêre
-            "依文依维尔"  # Evîn
-            "依燕"  # Ewrîn
-            "依兹肯"  # Eyšan
-            "费勒克"  # Ezcan
-            "费内尔"  # Felek
-            "费拉恩"  # Fener
-            "菲梅斯克"  # Ferašîn
-            "佛丹"  # Firmêsk
-            "伽泽"  # Fîdan
-            "格拉维"  # Gazî
-            "格登伽"  # Gelavêj
-            "高泽尔"  # Gerdengaz
-            "高泽"  # Gozel
-            "格尔万"  # Gozê
-            "古特姆"  # Grîvan
-            "居尔巴哈尔_居尔巴哈尔"  # Guhtem
-            "古冷"  # Gulbehar_Golbahar
-            "古纳尔"  # Gulšen
-            "古纳兹_高纳兹"  # Gulnar
-            "格拉斯"  # Gulnaz_Golnaz
-            "赫勒兹"  # Gêlas
-            "赫里兹"  # Helez
-            "赫尔温"  # Heliz
-            "赫马约尔"  # Helvîn
-            "克泽"  # Hemayîl
-            "克瑟尔"  # Kejê
-            "克沃克"  # Keser
-            "克沃"  # Kevok
-            "克瑟尔"  # Kevî
-            "克扎泽尔"  # Kewser
-            "孔泽尔"  # Kezîzer
-            "勒依勒"  # Koçer
-            "勒依蒙"  # Leylê
-            "勒宗"  # Leymîn
-            "洛拉夫"  # Lezîn
-            "洛尔克"  # Lolav
-            "洛里"  # Lorkê
-            "洛罗肯"  # Lorî
-            "洛龙"  # Lorîcan
-            "勒拉夫"  # Lorîn
-            "勒夫肯"  # Lêlav
-            "洛尔燕"  # Lêvken
-            "罗扎"  # Lîlyan
-            "马扎"  # Lîza
-            "梅贝斯特"  # Maša
-            "梅洛班"  # Mebest
-            "梅洛肯"  # Mehrîban
-            "梅赫万"  # Mehrîcan
-            "梅博尔"  # Mehrîvan
-            "门达尔"  # Mejbîr
-            "梅卡姆"  # Mendal
-            "梅万"  # Mercam
-            "梅拉洛罕"  # Merîvan
-            "米里姆_米里姆"  # Mirarîxan
+            "爱斯特列"  # Estêre
+            "爱文"  # Evîn
+            "奥琳"  # Ewrîn
+            "爱珊"  # Eyšan
+            "爱兹坎"  # Ezcan
+            "费列克"  # Felek
+            "费内尔"  # Fener
+            "费拉辛"  # Ferašîn
+            "菲尔梅斯克"  # Firmêsk
+            "菲丹"  # Fîdan
+            "加齐"  # Gazî
+            "格拉维什"  # Gelavêj
+            "格尔登加兹"  # Gerdengaz
+            "高泽尔"  # Gozel
+            "高泽"  # Gozê
+            "格丽万"  # Grîvan
+            "古赫特姆"  # Guhtem
+            "古尔巴哈尔_戈尔巴哈尔"  # Gulbehar_Golbahar
+            "古尔申"  # Gulšen
+            "古尔纳尔"  # Gulnar
+            "古尔纳兹_戈尔纳兹"  # Gulnaz_Golnaz
+            "格拉斯"  # Gêlas
+            "赫列兹"  # Helez
+            "赫莉兹"  # Heliz
+            "赫尔文"  # Helvîn
+            "赫玛伊尔"  # Hemayîl
+            "克谢"  # Kejê
+            "克瑟尔"  # Keser
+            "克沃克"  # Kevok
+            "克维"  # Kevî
+            "蔻瑟尔"  # Kewser
+            "克齐泽尔"  # Kezîzer
+            "科切尔"  # Koçer
+            "蕾列"  # Leylê
+            "蕾敏"  # Leymîn
+            "列津"  # Lezîn
+            "洛拉芙"  # Lolav
+            "洛尔珂"  # Lorkê
+            "洛丽"  # Lorî
+            "洛莉坎"  # Lorîcan
+            "洛琳"  # Lorîn
+            "列拉芙"  # Lêlav
+            "列芙肯"  # Lêvken
+            "丽丽延"  # Lîlyan
+            "丽扎"  # Lîza
+            "玛莎"  # Maša
+            "梅贝斯特"  # Mebest
+            "梅赫丽班"  # Mehrîban
+            "梅赫丽坎"  # Mehrîcan
+            "梅赫丽万"  # Mehrîvan
+            "梅碧尔"  # Mejbîr
+            "蒙达尔"  # Mendal
+            "梅尔加姆"  # Mercam
+            "梅丽万"  # Merîvan
+            "米拉丽罕"  # Mirarîxan
             "米尔耶姆_玛丽亚姆"  # Miryem_Mariam
-            "穆哈巴德"  # Mizgîn
-            "梅梅"  # Muhabad
-            "梅尔登"  # Mêmê
-            "梅赫克"  # Mêrdîn
-            "莫德雅"  # Mêxek
-            "莫然"  # Mîdya
-            "纳洛曼"  # Mîran
-            "纳隆肯"  # Narîman
-            "纳比哈尔"  # Narîncan
-            "纳霍"  # Navbihar
-            "纳兹"  # Nawxoš
-            "纳兹达尔"  # Naz
-            "纳曾"  # Nazdar
-            "纳孜古尔_纳孜古尔"  # Nazenîn
-            "纳孜克"  # Nazgul_Nazgol
-            "纳孜纳孜"  # Nazik
-            "纳泽"  # Naznaz
-            "内梅"  # Nazê
-            "内蒙"  # Nermê
-            "内斯隆"  # Nermîn
-            "内博哈尔"  # Nesrîn
-            "内霍恩"  # Newbohar
-            "内姆尔"  # Nexšîn
-            "内蒙"  # Nešmîl
-            "诺肯"  # Nešmîn
-            "内吉兹"  # Norcan
-            "内隆"  # Nêrgiz
-            "内泽克"  # Nêrîn
-            "内达尔"  # Nêzîk
-            "内伽尔"  # Nîdar
-            "内诺兹"  # Nîgar
-            "诺然"  # Nîroj
-            "诺特曼"  # Nîšan
-            "佩津"  # Nîštîman
-            "佩温"  # Perjîn
-            "佩瓦内_帕瓦内"  # Pervîn
-            "佩瓦内_帕瓦内"  # Perwane_Parvaneh
-            "佩温"  # Perwîn
-            "佩热姆"  # Perçem
-            "佩里"  # Perî
-            "佩洛古尔"  # Perîgul
-            "佩洛娜孜"  # Perînaz
-            "佩洛罕"  # Perîxan
-            "佩然"  # Perîšan
-            "佩哈安"  # Pexšan
+            "米兹津"  # Mizgîn
+            "穆哈巴德"  # Muhabad
+            "梅梅"  # Mêmê
+            "梅尔丁"  # Mêrdîn
+            "梅赫克"  # Mêxek
+            "米迪亚"  # Mîdya
+            "米兰"  # Mîran
+            "娜丽曼"  # Narîman
+            "娜琳坎"  # Narîncan
+            "娜芙碧哈尔"  # Navbihar
+            "瑙霍什"  # Nawxoš
+            "娜兹"  # Naz
+            "娜兹达尔"  # Nazdar
+            "娜泽宁"  # Nazenîn
+            "纳孜古尔_纳孜古尔"  # Nazgul_Nazgol
+            "娜齐克"  # Nazik
+            "娜兹娜兹"  # Naznaz
+            "娜泽"  # Nazê
+            "内尔梅"  # Nermê
+            "内尔敏"  # Nermîn
+            "内丝琳"  # Nesrîn
+            "纽博哈尔"  # Newbohar
+            "内赫辛"  # Nexšîn
+            "内什米尔"  # Nešmîl
+            "内什敏"  # Nešmîn
+            "诺尔坎"  # Norcan
+            "内尔吉兹"  # Nêrgiz
+            "内琳"  # Nêrîn
+            "内齐克"  # Nêzîk
+            "尼达尔"  # Nîdar
+            "尼加尔"  # Nîgar
+            "尼罗什"  # Nîroj
+            "尼珊"  # Nîšan
+            "尼什提曼"  # Nîštîman
+            "佩尔金"  # Perjîn
+            "佩尔文"  # Pervîn
+            "佩尔瓦内_帕尔瓦内赫"  # Perwane_Parvaneh
+            "佩尔文"  # Perwîn
+            "佩尔切姆"  # Perçem
+            "佩丽"  # Perî
+            "佩丽古尔"  # Perîgul
+            "佩丽娜兹"  # Perînaz
+            "佩丽罕"  # Perîxan
+            "佩丽珊"  # Perîšan
+            "佩赫珊"  # Pexšan
             "佩曼"  # Peyman
-            "皮尔津"  # Pirjîn
-            "皮尔恩"  # Piršeng
-            "皮里格"  # Piršing
-            "婆热"  # Pore
-            "婆热格"  # Poršeng
-            "佩冷"  # Pêlîn
-            "婆洛孜"  # Pîroz
-            "佩恩格"  # Pîšeng
+            "皮尔金"  # Pirjîn
+            "皮尔申格"  # Piršeng
+            "皮尔辛格"  # Piršing
+            "波列"  # Pore
+            "波尔申格"  # Poršeng
+            "佩琳"  # Pêlîn
+            "皮罗兹"  # Pîroz
+            "皮申格"  # Pîšeng
             "拉娜"  # Rana
-            "雷根"  # Rengîn
-            "雷瓦"  # Rewša
-            "雷温"  # Rewšen
-            "里罕"  # Rihan
-            "林德"  # Rindê
-            "洛赫拉特"  # Rojhelat
-            "洛泽"  # Rojê
-            "洛娜赫"  # Ronahî
+            "伦琴"  # Rengîn
+            "娄莎"  # Rewša
+            "娄申"  # Rewšen
+            "丽罕"  # Rihan
+            "琳德"  # Rindê
+            "洛什赫拉特"  # Rojhelat
+            "洛谢"  # Rojê
+            "洛娜希"  # Ronahî
             "洛娜克"  # Ronak
             "隆迪克"  # Rondik
-            "热津恩"  # Rêjîn
-            "雷赞"  # Rêzan
-            "洛翰"  # Rîhan
-            "里肯"  # Rîken
-            "里茨万"  # Rûciwan
-            "里格尔"  # Rûgeš
-            "里肯"  # Rûken
-            "洛泽龙"  # Rûzerîn
-            "萨热"  # Sarê
-            "赛巴尔"  # Serbar
-            "瑟康"  # Sercan
-            "瑟菲拉兹"  # Serferaz
-            "瑟菲拉兹"  # Serfiraz
-            "瑟古尔"  # Sergul
-            "瑟里娜尔"  # Serçinar
-            "瑟然"  # Seyran
+            "列金"  # Rêjîn
+            "列赞"  # Rêzan
+            "丽罕"  # Rîhan
+            "丽肯"  # Rîken
+            "鲁吉万"  # Rûciwan
+            "鲁格什"  # Rûgeš
+            "鲁肯"  # Rûken
+            "鲁泽琳"  # Rûzerîn
+            "萨列"  # Sarê
+            "赛尔巴尔"  # Serbar
+            "赛尔坎"  # Sercan
+            "赛尔费拉兹"  # Serferaz
+            "赛尔菲拉兹"  # Serfiraz
+            "赛尔古尔"  # Sergul
+            "赛尔齐纳尔"  # Serçinar
+            "赛兰"  # Seyran
             "哈顿"  # Xatûn
-            "赫洛肯"  # Xêlîcan
-            "霍内_高车赫"  # Xonçe_Ghoncheh
-            "泽诺然"  # Zernîšan
+            "赫莉坎"  # Xêlîcan
+            "洪切_贡切赫"  # Xonçe_Ghoncheh
+            "泽尔尼桑"  # Zernîšan
             "泽尔雅"  # Zerya
-            "泽热"  # Zerê
-            "泽里"  # Zerî
-            "泽洛翰"  # Zerîxan
-            "泽顿"  # Zeytîn
+            "泽列"  # Zerê
+            "泽莉"  # Zerî
+            "泽丽罕"  # Zerîxan
+            "泽依婷"  # Zeytîn
             "泽依顿"  # Zeytûn
-            "基菲"  # Zilfê
+            "齐尔菲"  # Zilfê
             "佐雅"  # Zoya
             "佐赞"  # Zozan
-            "泽龙"  # Zêrîn
-            "泽兰"  # Zîlan
-            "泽内特"  # Zînet
-            "扎内"  # Zînê
-            �ana
-            �anaz
-            �ayan
+            "泽琳"  # Zêrîn
+            "齐兰"  # Zîlan
+            "齐内特"  # Zînet
+            "齐内"  # Zînê
+            Šana
+            Šanaz
+            Šayan
             "谢赫里班"  # Šehrîban
-            �elal
-            �emam
+            Šelal
+            Šemam
             "申格"  # Šengê
-            �epal
-            �epirze
+            Šepal
+            Šepirze
             "谢尔敏"  # Šermîn
-            �evba
+            Ševba
             "谢文"  # Ševîn
             "谢拉兹"  # Šêlaz
             "希兰"  # Šîlan
@@ -15470,8 +15470,8 @@ iranian = {
         }
         dynasty_title_names = yes
         founder_named_dynasties = yes
-        male_patronym = "库"  # kurê 
-        female_patronym = "库珀"  # kiçê 
+        male_patronym = "库列"  # kurê 
+        female_patronym = "基切"  # kiçê 
         prefix = yes
         modifier = default_culture_modifier
     }
@@ -15486,7 +15486,7 @@ iranian = {
             0.05
         }
         male_names = {
-            "阿巴斯"  # Abbas
+            "阿拔斯"  # Abbas
             "阿布哈桑"  # Abolhassan
             "阿拉-韦尔迪"  # Alah-Verdi
             "阿拉海尔"  # Allahyar
@@ -15638,253 +15638,253 @@ iranian = {
         female_names = {
             "阿丹"  # Adan
             "阿达尔"  # Adar
-            "阿尔"  # Ara
-            "阿迪尔"  # Ardil
-            "阿热佐"  # Arezo
-            "阿热祖"  # Arezu
+            "阿拉"  # Ara
+            "阿尔迪尔"  # Ardil
+            "阿蕾佐"  # Arezo
+            "阿蕾祖"  # Arezu
             "阿里燕"  # Ariyan
-            "阿热孜"  # Arêz
-            "阿洛曼"  # Arîman
-            "阿隆"  # Arîn
+            "阿蕾兹"  # Arêz
+            "阿莉曼"  # Arîman
+            "阿琳"  # Arîn
             "阿桑"  # Asan
-            "阿藤"  # Asteng
-            "阿瑟"  # Asê
+            "阿斯藤格"  # Asteng
+            "阿赛"  # Asê
             "阿万"  # Avan
-            "阿扎德"  # Azadî
-            "阿兹隆"  # Azrîn
-            "奥托"  # Aštî
+            "阿扎蒂"  # Azadî
+            "阿兹琳"  # Azrîn
+            "阿什提"  # Aštî
             "巴迪尔"  # Badil
             "巴哈尔"  # Bahar
-            "巴内霍"  # Balnexšîn
+            "巴内赫辛"  # Balnexšîn
             "巴内"  # Banê
-            "巴隆"  # Barîn
+            "巴琳"  # Barîn
             "巴万"  # Bawan
             "巴兹燕"  # Baziyan
             "巴泽"  # Bazê
-            "贝拉"  # Befraw
-            "贝弗隆"  # Befrîn
-            "贝格罕"  # Begîxan
-            "贝拉洛科"  # Belalûk
+            "贝芙劳"  # Befraw
+            "贝芙琳"  # Befrîn
+            "贝吉罕"  # Begîxan
+            "贝拉露克"  # Belalûk
             "贝吉斯"  # Belqis
-            "贝尔肯"  # Belîcan
+            "贝莉坎"  # Belîcan
             "贝纳夫"  # Benav
             "贝纳兹"  # Benaz
             "贝比津"  # Berbijîn
             "贝达尔"  # Berdar
             "贝迪尔"  # Berdil
-            "贝松"  # Bersîn
-            "北洛肯"  # Berîcan
-            "贝霍恩"  # Bexšîn
+            "贝尔辛"  # Bersîn
+            "贝莉坎"  # Berîcan
+            "贝赫辛"  # Bexšîn
             "贝燕"  # Beyan
-            "贝博恩"  # Beybîn
-            "贝依博恩"  # Beybûn
-            "贝曾"  # Bezîn
+            "贝伊宾"  # Beybîn
+            "贝伊本"  # Beybûn
+            "贝津"  # Bezîn
             "比哈尔"  # Bihar
             "比津"  # Bijîn
-            "比勒瑟"  # Bilêse
+            "比列赛"  # Bilêse
             "比那尔"  # Binar
             "比那夫"  # Binav
-            "比内弗"  # Binefš
-            "比内弗"  # Binevš
+            "比内弗什"  # Binefš
+            "比内弗什"  # Binevš
             "比燕"  # Biyan
-            "比科"  # Biškoj
-            "比库隆"  # Biškurîn
+            "比什科日"  # Biškoj
+            "碧什库琳"  # Biškurîn
             "博哈尔"  # Bohar
             "贝纳兹"  # Bênaz
-            "贝尔肯"  # Bêrîcan
-            "贝尔万"  # Bêrîvan
-            "布然多特_婆然多克"  # Burandoxt_Pourandokht
-            "邓根"  # Dengîn
+            "贝莉坎"  # Bêrîcan
+            "贝莉万"  # Bêrîvan
+            "布兰多赫特_婆兰朵赫特"  # Burandoxt_Pourandokht
+            "邓金"  # Dengîn
             "德拉夫"  # Derav
-            "德曾"  # Derzîn
+            "德尔津"  # Derzîn
             "德斯马尔"  # Desmal
             "德夫肯"  # Devken
             "迪拉尔"  # Dilar
             "迪拉拉姆"  # Dilaram
-            "迪拉热"  # Dilare
+            "迪拉蕾"  # Dilare
             "迪拉瓦兹"  # Dilawaz
             "迪贝尔"  # Dilber
             "迪肯"  # Dilcan
             "迪达尔"  # Dildar
             "迪格尔"  # Dilgerm
             "迪里斯坦"  # Dilistan
-            "迪康"  # Dilkanî
-            "迪那兹"  # Dilnaz
-            "迪翁"  # Dilvîn
-            "迪霍"  # Dilxoš
-            "迪赫维"  # Dilxweš
-            "迪雅尔"  # Diyarî
+            "迪尔卡妮"  # Dilkanî
+            "迪尔娜兹"  # Dilnaz
+            "迪尔文"  # Dilvîn
+            "迪尔霍什"  # Dilxoš
+            "迪赫维什"  # Dilxweš
+            "迪雅莉"  # Diyarî
             "多曼"  # Doman
             "德斯姆"  # Dêrsim
-            "德兰"  # Dîlan
-            "德里斯坦"  # Dîristan
+            "迪兰"  # Dîlan
+            "迪里斯坦"  # Dîristan
             "依斯梅肯"  # Esmercan
             "依斯梅罕"  # Esmerxan
-            "依斯特热"  # Estêre
-            "依文依维尔"  # Evîn
-            "依燕"  # Ewrîn
-            "依兹肯"  # Eyšan
-            "费勒克"  # Ezcan
-            "费内尔"  # Felek
-            "费拉恩"  # Fener
-            "菲梅斯克"  # Ferašîn
-            "佛丹"  # Firmêsk
-            "伽泽"  # Fîdan
-            "格拉维"  # Gazî
-            "格登伽"  # Gelavêj
-            "高泽尔"  # Gerdengaz
-            "高泽"  # Gozel
-            "格尔万"  # Gozê
-            "古特姆"  # Grîvan
-            "居尔巴哈尔_居尔巴哈尔"  # Guhtem
-            "古冷"  # Gulbehar_Golbahar
-            "古纳尔"  # Gulšen
-            "古纳兹_高纳兹"  # Gulnar
-            "格拉斯"  # Gulnaz_Golnaz
-            "赫勒兹"  # Gêlas
-            "赫里兹"  # Helez
-            "赫尔温"  # Heliz
-            "赫马约尔"  # Helvîn
-            "克泽"  # Hemayîl
-            "克瑟尔"  # Kejê
-            "克沃克"  # Keser
-            "克沃"  # Kevok
-            "克瑟尔"  # Kevî
-            "克扎泽尔"  # Kewser
-            "孔泽尔"  # Kezîzer
-            "勒依勒"  # Koçer
-            "勒依蒙"  # Leylê
-            "勒宗"  # Leymîn
-            "洛拉夫"  # Lezîn
-            "洛尔克"  # Lolav
-            "洛里"  # Lorkê
-            "洛罗肯"  # Lorî
-            "洛龙"  # Lorîcan
-            "勒拉夫"  # Lorîn
-            "勒夫肯"  # Lêlav
-            "洛尔燕"  # Lêvken
-            "罗扎"  # Lîlyan
-            "马扎"  # Lîza
-            "梅贝斯特"  # Maša
-            "梅洛班"  # Mebest
-            "梅洛肯"  # Mehrîban
-            "梅赫万"  # Mehrîcan
-            "梅博尔"  # Mehrîvan
-            "门达尔"  # Mejbîr
-            "梅卡姆"  # Mendal
-            "梅万"  # Mercam
-            "梅拉洛罕"  # Merîvan
-            "米里姆_米里姆"  # Mirarîxan
+            "爱斯特列"  # Estêre
+            "爱文"  # Evîn
+            "奥琳"  # Ewrîn
+            "爱珊"  # Eyšan
+            "爱兹坎"  # Ezcan
+            "费列克"  # Felek
+            "费内尔"  # Fener
+            "费拉辛"  # Ferašîn
+            "菲尔梅斯克"  # Firmêsk
+            "菲丹"  # Fîdan
+            "加齐"  # Gazî
+            "格拉维什"  # Gelavêj
+            "格尔登加兹"  # Gerdengaz
+            "高泽尔"  # Gozel
+            "高泽"  # Gozê
+            "格丽万"  # Grîvan
+            "古赫特姆"  # Guhtem
+            "古尔巴哈尔_戈尔巴哈尔"  # Gulbehar_Golbahar
+            "古尔申"  # Gulšen
+            "古尔纳尔"  # Gulnar
+            "古尔纳兹_戈尔纳兹"  # Gulnaz_Golnaz
+            "格拉斯"  # Gêlas
+            "赫列兹"  # Helez
+            "赫莉兹"  # Heliz
+            "赫尔文"  # Helvîn
+            "赫玛伊尔"  # Hemayîl
+            "克谢"  # Kejê
+            "克瑟尔"  # Keser
+            "克沃克"  # Kevok
+            "克维"  # Kevî
+            "蔻瑟尔"  # Kewser
+            "克齐泽尔"  # Kezîzer
+            "科切尔"  # Koçer
+            "蕾列"  # Leylê
+            "蕾敏"  # Leymîn
+            "列津"  # Lezîn
+            "洛拉芙"  # Lolav
+            "洛尔珂"  # Lorkê
+            "洛丽"  # Lorî
+            "洛丽坎"  # Lorîcan
+            "洛琳"  # Lorîn
+            "列拉芙"  # Lêlav
+            "列芙肯"  # Lêvken
+            "丽丽延"  # Lîlyan
+            "丽扎"  # Lîza
+            "玛莎"  # Maša
+            "梅贝斯特"  # Mebest
+            "梅赫丽班"  # Mehrîban
+            "梅赫丽坎"  # Mehrîcan
+            "梅赫丽万"  # Mehrîvan
+            "梅碧尔"  # Mejbîr
+            "蒙达尔"  # Mendal
+            "梅尔加姆"  # Mercam
+            "梅丽万"  # Merîvan
+            "米拉丽罕"  # Mirarîxan
             "米尔耶姆_玛丽亚姆"  # Miryem_Mariam
-            "穆哈巴德"  # Mizgîn
-            "梅梅"  # Muhabad
-            "梅尔登"  # Mêmê
-            "梅赫克"  # Mêrdîn
-            "莫德雅"  # Mêxek
-            "莫然"  # Mîdya
-            "纳洛曼"  # Mîran
-            "纳隆肯"  # Narîman
-            "纳比哈尔"  # Narîncan
-            "纳霍"  # Navbihar
-            "纳兹"  # Nawxoš
-            "纳兹达尔"  # Naz
-            "纳曾"  # Nazdar
-            "纳孜古尔_纳孜古尔"  # Nazenîn
-            "纳孜克"  # Nazgul_Nazgol
-            "纳孜纳孜"  # Nazik
-            "纳泽"  # Naznaz
-            "内梅"  # Nazê
-            "内蒙"  # Nermê
-            "内斯隆"  # Nermîn
-            "内博哈尔"  # Nesrîn
-            "内霍恩"  # Newbohar
-            "内姆尔"  # Nexšîn
-            "内蒙"  # Nešmîl
-            "诺肯"  # Nešmîn
-            "内吉兹"  # Norcan
-            "内隆"  # Nêrgiz
-            "内泽克"  # Nêrîn
-            "内达尔"  # Nêzîk
-            "内伽尔"  # Nîdar
-            "内诺兹"  # Nîgar
-            "诺然"  # Nîroj
-            "诺特曼"  # Nîšan
-            "佩津"  # Nîštîman
-            "佩温"  # Perjîn
-            "佩瓦内_帕瓦内"  # Pervîn
-            "佩温"  # Perwane_Parvaneh
-            "佩热姆"  # Perwîn
-            "佩里"  # Perçem
-            "佩洛古尔"  # Perî
-            "佩洛娜孜"  # Perîgul
-            "佩洛罕"  # Perînaz
-            "佩然"  # Perîxan
-            "佩哈安"  # Perîšan
-            "佩曼"  # Pexšan
-            "皮尔津"  # Peyman
-            "皮尔恩"  # Pirjîn
-            "皮里格"  # Piršeng
-            "婆热"  # Piršing
-            "婆热格"  # Pore
-            "佩冷"  # Poršeng
-            "婆洛孜"  # Pêlîn
-            "佩恩格"  # Pîroz
-            "拉娜"  # Pîšeng
-            "雷根"  # Rana
-            "雷瓦"  # Rengîn
-            "雷温"  # Rewša
-            "里罕"  # Rewšen
-            "林德"  # Rihan
-            "洛赫拉特"  # Rindê
-            "洛泽"  # Rojhelat
-            "洛娜赫"  # Rojê
-            "洛娜克"  # Ronahî
-            "隆迪克"  # Ronak
-            "热津恩"  # Rondik
-            "雷赞"  # Rêjîn
-            "洛翰"  # Rêzan
-            "里肯"  # Rîhan
-            "里茨万"  # Rîken
-            "里格尔"  # Rûciwan
-            "里肯"  # Rûgeš
-            "洛泽龙"  # Rûken
-            "萨热"  # Rûzerîn
-            "赛巴尔"  # Sarê
-            "瑟康"  # Serbar
-            "瑟菲拉兹"  # Sercan
-            "瑟菲拉兹"  # Serferaz
-            "瑟古尔"  # Serfiraz
-            "瑟里娜尔"  # Sergul
-            "瑟然"  # Serçinar
-            "哈顿"  # Seyran
-            "赫洛肯"  # Xatûn
-            "霍内_高车赫"  # Xêlîcan
-            "泽诺然"  # Xonçe_Ghoncheh
-            "泽尔雅"  # Zernîšan
-            "泽热"  # Zerya
-            "泽里"  # Zerê
-            "泽洛翰"  # Zerî
-            "泽顿"  # Zerîxan
-            "泽依顿"  # Zeytîn
-            "基菲"  # Zeytûn
-            "佐雅"  # Zilfê
-            "佐赞"  # Zoya
-            "泽龙"  # Zozan
-            "泽兰"  # Zêrîn
-            "泽内特"  # Zîlan
-            "扎内"  # Zînet
-            "扎那"  # Zînê
-            �ana
-            �anaz
-            �ayan
+            "米兹津"  # Mizgîn
+            "穆哈巴德"  # Muhabad
+            "梅梅"  # Mêmê
+            "梅尔丁"  # Mêrdîn
+            "梅赫克"  # Mêxek
+            "米迪亚"  # Mîdya
+            "米兰"  # Mîran
+            "娜丽曼"  # Narîman
+            "娜琳坎"  # Narîncan
+            "娜芙碧哈尔"  # Navbihar
+            "瑙霍什"  # Nawxoš
+            "娜兹"  # Naz
+            "娜兹达尔"  # Nazdar
+            "娜泽宁"  # Nazenîn
+            "纳孜古尔_纳孜古尔"  # Nazgul_Nazgol
+            "娜齐克"  # Nazik
+            "娜兹娜兹"  # Naznaz
+            "娜泽"  # Nazê
+            "内尔梅"  # Nermê
+            "内尔敏"  # Nermîn
+            "内丝琳"  # Nesrîn
+            "纽博哈尔"  # Newbohar
+            "内赫辛"  # Nexšîn
+            "内什米尔"  # Nešmîl
+            "内什敏"  # Nešmîn
+            "诺尔坎"  # Norcan
+            "内尔吉兹"  # Nêrgiz
+            "内琳"  # Nêrîn
+            "内齐克"  # Nêzîk
+            "尼达尔"  # Nîdar
+            "尼加尔"  # Nîgar
+            "尼罗什"  # Nîroj
+            "尼珊"  # Nîšan
+            "尼什提曼"  # Nîštîman
+            "佩尔金"  # Perjîn
+            "佩尔文"  # Pervîn
+            "佩尔瓦内_帕尔瓦内赫"  # Perwane_Parvaneh
+            "佩尔文"  # Perwîn
+            "佩尔切姆"  # Perçem
+            "佩丽"  # Perî
+            "佩丽古尔"  # Perîgul
+            "佩丽娜兹"  # Perînaz
+            "佩丽罕"  # Perîxan
+            "佩丽珊"  # Perîšan
+            "佩赫珊"  # Pexšan
+            "佩曼"  # Peyman
+            "皮尔金"  # Pirjîn
+            "皮尔申格"  # Piršeng
+            "皮尔辛格"  # Piršing
+            "波列"  # Pore
+            "波尔申格"  # Poršeng
+            "佩琳"  # Pêlîn
+            "皮罗兹"  # Pîroz
+            "皮申格"  # Pîšeng
+            "拉娜"  # Rana
+            "伦琴"  # Rengîn
+            "娄莎"  # Rewša
+            "娄申"  # Rewšen
+            "丽罕"  # Rihan
+            "琳德"  # Rindê
+            "洛什赫拉特"  # Rojhelat
+            "洛谢"  # Rojê
+            "洛娜希"  # Ronahî
+            "洛娜克"  # Ronak
+            "隆迪克"  # Rondik
+            "列金"  # Rêjîn
+            "列赞"  # Rêzan
+            "丽罕"  # Rîhan
+            "丽肯"  # Rîken
+            "鲁吉万"  # Rûciwan
+            "鲁格什"  # Rûgeš
+            "鲁肯"  # Rûken
+            "鲁泽琳"  # Rûzerîn
+            "萨列"  # Sarê
+            "赛尔巴尔"  # Serbar
+            "赛尔坎"  # Sercan
+            "赛尔费拉兹"  # Serferaz
+            "赛尔菲拉兹"  # Serfiraz
+            "赛尔古尔"  # Sergul
+            "赛尔齐纳尔"  # Serçinar
+            "赛兰"  # Seyran
+            "哈顿"  # Xatûn
+            "赫莉坎"  # Xêlîcan
+            "洪切_贡切赫"  # Xonçe_Ghoncheh
+            "泽尔尼桑"  # Zernîšan
+            "泽尔雅"  # Zerya
+            "泽列"  # Zerê
+            "泽莉"  # Zerî
+            "泽丽罕"  # Zerîxan
+            "泽依婷"  # Zeytîn
+            "泽依顿"  # Zeytûn
+            "齐尔菲"  # Zilfê
+            "佐雅"  # Zoya
+            "佐赞"  # Zozan
+            "泽琳"  # Zêrîn
+            "齐兰"  # Zîlan
+            "齐内特"  # Zînet
+            "齐内"  # Zînê
+            Šana
+            Šanaz
+            Šayan
             "谢赫里班"  # Šehrîban
-            �elal
-            �emam
+            Šelal
+            Šemam
             "申格"  # Šengê
-            �epal
-            �epirze
+            Šepal
+            Šepirze
             "谢尔敏"  # Šermîn
-            �evba
+            Ševba
             "谢文"  # Ševîn
             "谢拉兹"  # Šêlaz
             "希兰"  # Šîlan
@@ -15893,8 +15893,8 @@ iranian = {
         }
         dynasty_title_names = yes
         founder_named_dynasties = yes
-        male_patronym = "库"  # kurê 
-        female_patronym = "库珀"  # kiçê 
+        male_patronym = "库列"  # kurê 
+        female_patronym = "基切"  # kiçê 
         prefix = yes
         modifier = default_culture_modifier
     }
@@ -16228,9 +16228,9 @@ east_african = {
             "阿巴迪尔"  # Abadir
             "阿布达勒"  # Abdale
             "阿布迪拉曼"  # Abdirahman
-            "阿卜杜拉_阿不都拉"  # Abdulah_Abdullah
+            "阿卜杜拉_阿卜杜拉"  # Abdulah_Abdullah
             "阿布拉姆"  # Abram
-            "阿布-巴克尔"  # Abu-Bakr
+            "阿布-伯克尔"  # Abu-Bakr
             "亚当"  # Adan
             "阿德尔"  # Adeer
             "阿梅德"  # Ahmed
@@ -16348,14 +16348,14 @@ east_african = {
             0.5
         }
         male_names = {
-            "阿龙_阿龙"  # Aarôn_Aaron
+            "阿龙_亚伦"  # Aarôn_Aaron
             "阿贝里科斯"  # Aberikos
-            "阿布拉姆_阿布拉姆"  # Abraam_Abraham
+            "阿布拉姆_亚伯拉罕"  # Abraam_Abraham
             "安格洛斯_安格鲁斯"  # Añgelos_Angelus
             "安德热斯_安德热"  # Andreas_Andrew
             "阿塔那斯"  # Athanasios
             "巴洛"  # Balô
-            "巴托拉马奥_巴托拉维"  # Bartholomaios_Bartholomew
+            "巴托拉马奥_巴塞洛缪"  # Bartholomaios_Bartholomew
             "比热尔"  # Birêl
             "查尔"  # Chael
             "克里斯托霍洛斯"  # Christophoros
@@ -16550,37 +16550,37 @@ west_african = {
             "阿里-法伊"  # Ali-Fay
             "阿里-库仑"  # Ali-Kolon
             "阿里-扎里"  # Ali-Zalil
-            "巴度巴库"  # Badä
-            "巴库-坎布"  # Bakr
-            "巴玛利"  # Bakr-Kanbu
-            "班卡怒"  # Bamari
-            "班努"  # Bankanu
-            "巴萨罗"  # Bannu
-            "巴希"  # Bassarou
-            "毕拉玛"  # Bassi
-            "毕西"  # Birama
-            "毕育"  # Bisi
-            "本伽"  # Biyu
-            "西瑟"  # Bonga
-            "丹卡兰"  # Cisse
-            "达奥乌德_大卫"  # Dankaran
-            "达乌德_大卫"  # Daoud_David
-            "达武德_大卫"  # Dawud_David
-            "狄亚拉"  # Demba
-            "德鲁"  # Diara
-            "法伽-拉耶"  # Düru
-            "法塔"  # Faga-Laye
-            "弗迪"  # Fatta
-            "弗鲁库"  # Fodi
-            "弗拉祖"  # Fuluku
-            "伽内"  # Fädazu
-            "伽奥"  # Gane
-            "哈尔伽尼"  # Gao
-            "哈伦"  # Hargani
-            "伊戈默"  # Harun
-            "伊撒克_以撒"  # Igoumou
-            "依斯哈克_伊萨克"  # Ishaq_Isaac
-            "伊斯梅尔"  # Ismail_Ismail
+            "巴度"  # Badä
+            "巴库"  # Bakr
+            "巴库-坎布"  # Bakr-Kanbu
+            "巴玛利"  # Bamari
+            "班卡怒"  # Bankanu
+            "班努"  # Bannu
+            "巴萨罗"  # Bassarou
+            "巴希"  # Bassi
+            "毕拉玛"  # Birama
+            "毕西"  # Bisi
+            "毕育"  # Biyu
+            "本伽"  # Bonga
+            "西瑟"  # Cisse
+            "丹卡兰"  # Dankaran
+            "达奥乌德_大卫"  # Daoud_David
+            "达乌德_大卫"  # Dawud_David
+            "德姆巴"  # Demba
+            "狄亚拉"  # Diara
+            "德鲁"  # Düru
+            "法伽-拉耶"  # Faga-Laye
+            "法塔"  # Fatta
+            "弗迪"  # Fodi
+            "弗鲁库"  # Fuluku
+            "弗拉祖"  # Fädazu
+            "伽内"  # Gane
+            "伽奥"  # Gao
+            "哈尔伽尼"  # Hargani
+            "哈伦"  # Harun
+            "伊戈默"  # Igoumou
+            "伊撒克_以撒"  # Ishaq_Isaac
+            "伊斯迈尔_伊斯迈尔"  # Ismail_Ismail
             "卡巴约"  # Kabayo
             "卡拉比"  # Kalabi
             "坎比内"  # Kambine
@@ -16590,49 +16590,49 @@ west_african = {
             "卡亚"  # Kaya
             "凯纳"  # Kayna
             "金金"  # Kinkin
-            "科达玛"  # Kisha
-            "库库雷"  # Kodama
-            "库索伊"  # Koïzé
-            "拉希托尔"  # Kukuray
-            "穆巴里"  # Kusoy
-            "玛玛罗"  # Lahiltoul
+            "基撒"  # Kisha
+            "科达玛"  # Kodama
+            "科伊宰"  # Koïzé
+            "库库雷"  # Kukuray
+            "库索伊"  # Kusoy
+            "拉希托尔"  # Lahiltoul
             "姆巴利"  # M'Bali
-            "马哈茂德_马哈茂德"  # Maammarou
-            "马杨"  # Maghan
-            "马哈茂德"  # Mahmud_Mahmud
-            "玛玛迪"  # Majan
-            "玛默都"  # Malla
-            "曼丁-波里"  # Mamadi
+            "玛玛罗"  # Maammarou
+            "玛格汗"  # Maghan
+            "马哈茂德_马哈茂德"  # Mahmud_Mahmud
+            "马杨"  # Majan
+            "马拉"  # Malla
+            "玛玛迪"  # Mamadi
             "马穆都"  # Mamoudou
-            "马"  # Manding-Bory
-            "罗姆法"  # Mari-Djata
-            "米西-伊兹"  # Maÿroumfa
-            "默洛巴尼"  # Missi-Izé
-            "穆萨_摩西"  # Morobani
+            "曼丁-波里"  # Manding-Bory
+            "马里-杨塔"  # Mari-Djata
+            "罗姆法"  # Maÿroumfa
+            "米西-伊兹"  # Missi-Izé
+            "默洛巴尼"  # Morobani
             "穆萨_摩西"  # Musa_Moses
-            "努"  # Nintasanay
-            "欧阿里"  # Nuh
-            "欧安克"  # Ouali
-            "欧阿狄"  # Ouankoÿ
-            "雷加"  # Ouati
-            "撒寇拉"  # Reidja
-            "萨库拉"  # Sakoura
+            "宁塔撒耐"  # Nintasanay
+            "努"  # Nuh
+            "欧阿里"  # Ouali
+            "欧安克"  # Ouankoÿ
+            "欧阿狄"  # Ouati
+            "雷加"  # Reidja
+            "撒寇拉"  # Sakoura
             "萨尔曼_所罗门"  # Salman_Solomon
-            "索玛巴"  # Samsou-Béri
-            "索毛洛"  # Samsou-Keïna
+            "萨姆苏-贝里"  # Samsou-Béri
+            "萨姆苏-凯伊纳"  # Samsou-Keïna
             "松狄亚塔"  # Sandaki
-            "苏莱曼_所罗门"  # Soumaba
-            "塔库伊"  # Soumaoro
-            "提比"  # Soundiata
+            "索玛巴"  # Soumaba
+            "索毛洛"  # Soumaoro
+            "松狄亚塔"  # Soundiata
             "苏莱曼_所罗门"  # Sulayman_Solomon
-            "顿卡"  # Takoi
-            "欧麦尔_欧麦尔"  # Tib
+            "塔库伊"  # Takoi
+            "提比"  # Tib
             "托莫_托马斯"  # Tomo_Thomas
-            "亚库布_雅各布"  # Tunka
+            "顿卡"  # Tunka
             "奥马尔_奥马尔"  # Umar_Umar
-            "扎库伊"  # Yama
+            "雅玛"  # Yama
             "亚库布_雅各布"  # Yaqub_Jacob
-            "亚西伯伊"  # Yasiboy
+            "亚希波伊"  # Yasiboy
             "扎科仪"  # Zakoi
             "赞库"  # Zenku
         }
@@ -17032,7 +17032,7 @@ israelite = {
             "耶因迪尔"  # Yehudis
             "燕特尔"  # Yeintil
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         modifier = default_culture_modifier
     }
     sephardi = {
@@ -17198,7 +17198,7 @@ israelite = {
             "耶因迪尔"  # Yehudis
             "燕特尔"  # Yeintil
         }
-        from_dynasty_prefix = " "  # of 
+        from_dynasty_prefix = ""  # of 
         modifier = default_culture_modifier
     }
 }
@@ -18785,7 +18785,7 @@ indo_aryan_group = {
             0.0
         }
         male_names = {
-            "阿婆豆罗"  # Abdullah
+            "阿补都罗_阿卜杜拉"  # Abdullah
             "阿婆豆罗室"  # Abdurrashid
             "阿婆豆罗诃曼"  # Abdurrahman
             "阿劳阵"  # Alauddin
@@ -20829,7 +20829,7 @@ tibetan_group = {
         }
         female_names = {
             "阿达"  # Atak
-            "阿达鲁摩_阿达拉姆"  # Ataklumo_Ataklumo
+            "阿达拉姆_阿达拉姆"  # Ataklumo_Ataklumo
             "阿达姆"  # Atakmo
             "巴"  # Ba
             "巴杂美"  # Batsame
@@ -20967,7 +20967,7 @@ tibetan_group = {
             "达日仁"  # Zlaririm
         }
         female_names = {
-            "阿达鲁摩_阿达鲁摩"  # Ataklumo_Ataklumo
+            "阿达拉姆_阿达拉姆"  # Ataklumo_Ataklumo
             "巴尼乃热"  # Baninera
             "巴提昆"  # Bartirkhum
             "拔陀"  # Bhardha

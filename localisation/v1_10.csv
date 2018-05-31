@@ -60,7 +60,7 @@ TECH_DEM_INC_KINGS;§G+$AMOUNT$§! 国王直辖领地规模;;;;;;;;;;;;x
 TECH_DEM_INC_DUKES;§G+$AMOUNT$§! 公爵直辖规模;;;;;;;;;;;;x
 TECH_DEM_INC_COUNTS;§G+$AMOUNT$§! 伯爵直辖规模;;;;;;;;;;;;x
 TECH_DEM_INC_BARONS;§G+$AMOUNT$§! 男爵直辖规模;;;;;;;;;;;;x
-HINT_TECH_VIEW_TEXT_2;所有伯爵等级以上的统治者基于他们的属性在三个组别中分别积累科研点。\n这些科研点可以用来在首府升级科技。\n科技可以通过领地接壤或者是贸易传播到邻近省份。;;;;;;;;;;;;x
+HINT_TECH_VIEW_TEXT_2;所有伯爵等级以上的统治者基于他们的属性在三个组别中分别积累科技点。\n这些科研点可以用来在首府升级科技。\n科技可以通过领地接壤或者是贸易传播到邻近省份。;;;;;;;;;;;;x
 UNDER_PLAYER;这个圣地在你的控制之下;;;;;;;;;;;;x
 RELIGION_UNIT_MODIFIER;这个宗教对其所控制的所有单位的影响：;;;;;;;;;;;;x
 RELIGION_UNIT_HOME_MODIFIER;这个宗教影响下的省份的额外修正：;;;;;;;;;;;;x
@@ -101,7 +101,7 @@ tp_shipyard_3;航道;;;;;;;;;;;;x
 tp_shipyard_4;港口;;;;;;;;;;;;x
 shipyard_desc;熟练的造船工人在这里努力工作，建造各种远航船舶。;;;;;;;;;;;;x
 TOGGLE_LOOTER;§Y切换成劫掠模式§!;;;;;;;;;;;;x
-REL_AUTHORITY_CHANGE;§Y$RELIGION$§!：$PERC$ 宗教权威持续 §Y$TIME$§! $TIMEUNIT$。\n;;;;;;;;;;;;x
+REL_AUTHORITY_CHANGE;§Y$RELIGION$§!：宗教权威为$PERC$， 持续 §Y$TIME$§! $TIMEUNIT$。\n;;;;;;;;;;;;x
 IS_HOLY_CITY_FOR_RELIGION;§Y$RELIGION$§!信仰认为§Y$HOLDING$§!是一处圣地;;;;;;;;;;;;x
 IS_HOLY_CITY_FOR_RELIGION_2;他们控制了这块领地;;;;;;;;;;;;x
 IS_HOLY_ORDER;是圣战士;;;;;;;;;;;;x
@@ -109,7 +109,7 @@ IS_NOT_HOLY_ORDER;不是圣战士;;;;;;;;;;;;x
 opinion_looted;劫掠了我的领地;;;;;;;;;;;;x
 opinion_heir_guardian_my_culture;用正确的文化去教导继承人;;;;;;;;;;;;x
 opinion_heir_guardian_foreign_culture;用外国的文化去教导继承人;;;;;;;;;;;;x
-PORTAGE;§Y$FROM$§!与§Y$TO$§!之间的陆上运输点;;;;;;;;;;;;x
+PORTAGE;§Y$FROM$§!与§Y$TO$§!港口之间的陆上运输路线;;;;;;;;;;;;x
 PORTAGE_DESC;陆上运输点允许船只跨越一个陆地省份在两条主要河流间移动;;;;;;;;;;;;x
 HOLY_SITE_CONTROLLED;(已控制);;;;;;;;;;;;x
 HOLY_SITE_PARTIALLY_CONTROLLED;(部分控制);;;;;;;;;;;;x
@@ -442,10 +442,10 @@ job_spiritual_norse_pagan;先知;;;;;;;;;;;;x
 job_spiritual_norse_pagan_reformed;先知;;;;;;;;;;;;x
 job_spiritual_female_norse_pagan;女先知;;;;;;;;;;;;x
 job_spiritual_female_norse_pagan_reformed;女先知;;;;;;;;;;;;x
-temple_baron_norse_pagan;戈迪;;;;;;;;;;;;x
-temple_baron_norse_pagan_reformed;戈迪;;;;;;;;;;;;x
-temple_baron_female_norse_pagan;奇加;;;;;;;;;;;;x
-temple_baron_female_norse_pagan_reformed;奇加;;;;;;;;;;;;x
+temple_baron_norse_pagan;祭司;;;;;;;;;;;;x
+temple_baron_norse_pagan_reformed;祭司;;;;;;;;;;;;x
+temple_baron_female_norse_pagan;女祭司;;;;;;;;;;;;x
+temple_baron_female_norse_pagan_reformed;女祭司;;;;;;;;;;;;x
 temple_count_norse_pagan;塞兹曼;;;;;;;;;;;;x
 temple_count_norse_pagan_reformed;塞兹曼;;;;;;;;;;;;x
 temple_count_female_norse_pagan;瓦拉;;;;;;;;;;;;x
@@ -1478,7 +1478,7 @@ EVTDESC_TOG_3253;净化你那魔鬼上身的孩子的咒术仪式开始了。[Fr
 EVTOPTA_TOG_3253;愿[This.Religion.GetRandomGodNameCap]保佑我们。;;;;;;;;;;;;x
 EVTDESC_TOG_3256;树林中的吟唱声突然停止了，几名少女尖叫着跑了出来，身上的白色长袍带着其他人的血。你害怕最坏的情况发生，急忙赶了回去，但是当你抵达平台的时候你只看见[From.GetFirstName]的残骸..，以及[FromFrom.GetFirstName]微笑着站在它们旁边。;;;;;;;;;;;;x
 EVTOPTA_TOG_3256;愿[This.Religion.GetRandomGodNameCap]保佑我们……;;;;;;;;;;;;x
-EVTDESC_TOG_3257;在[From.GetTitledName]带领下的一队庄严的少女终于从树林中走了出来，但是没有看见[FromFrom.GetFirstName]。仪式完成了，[From.GetFirstName]说：↑魔鬼已经被消灭了……但是我很遗憾没能保住你的孩子，因为堕落的程度太严重了。↓;;;;;;;;;;;;x
+EVTDESC_TOG_3257;在[From.GetTitledName]带领下的一队庄严的少女终于从树林中走了出来，但是没有看见[FromFrom.GetFirstName]。仪式完成了，[From.GetFirstName]说：“魔鬼已经被消灭了……但是我很遗憾没能保住你的孩子，因为堕落的程度太严重了。”;;;;;;;;;;;;x
 EVTOPTA_TOG_3257;那么你也丢掉了你的性命，女巫！;;;;;;;;;;;;x
 EVTOPTB_TOG_3257;趁我没有反悔赶紧离开吧，[From.GetFirstName]，千万别再让我看见你。;;;;;;;;;;;;x
 EVTOPTC_TOG_3257;请接受我的谢意...这是不得不做的事情。;;;;;;;;;;;;x
@@ -1521,7 +1521,7 @@ finnish_pagan_DESC;芬兰原始宗教多种多样，不同部落和地区变化�
 aztec_reformed_DESC;改革的阿兹特克信仰有一本真正的圣书，一套标准化的礼拜仪式和以专门的大祭司为首领的正规教会结构，首领可以被世俗统治者附庸、;;;;;;;;;;;;x
 aztec_DESC;阿兹特克信仰的创世神话里充满着献祭——为了让太阳保持运转甚至诸神也要被献祭。这反映在许多该宗教的节日和仪式里的大规模人祭上。主神包括战神人祭之神维齐洛波奇特利Huitzilopochtli，雷神雨神特拉洛克Tlaloc，火神修提库特里Xiuhtecuhtli，剥皮之主西佩托堤克Xipe Totec，以及智慧之神羽蛇神凯扎尔科亚特尔Quetzalcoatl。;;;;;;;;;;;;x
 slavic_pagan_reformed_DESC;改革的斯拉夫信仰有一本圣书，包括创世神话、诸神章节以及一本预言书。该教会有一套标准化的礼拜仪式以及由佩龙大祭司为首领的正规教会结构，首领可以被世俗统治者附庸。;;;;;;;;;;;;x
-slavic_pagan_DESC;斯拉夫异教信仰是一种多神信仰，主神是雷电之神佩龙，类似日耳曼人的雷神托尔。其他重要的神灵包括大地水和冥界之神维列斯，火神斯瓦洛格，繁衍植物生长战争与丰收之神亚利洛以及Svantevit。此外许多部落崇拜当地的神灵。;;;;;;;;;;;;x
+slavic_pagan_DESC;斯拉夫异教信仰是一种多神信仰，主神是雷电之神佩龙，类似日耳曼人的雷神托尔。其他重要的神灵包括大地水和冥界之神维列斯，火神斯瓦洛格，繁衍植物生长战争与丰收之神亚利洛以及斯维托维德。此外许多部落崇拜当地的神灵。;;;;;;;;;;;;x
 west_african_pagan_reformed_DESC;改革的西非泛灵教是许多种流行信仰的熔合，有一本圣书记述了创世神话、诸灵、动物图腾和诸神的传说，该教会有一套标准化的礼拜仪式以及由大祭司（或者女祭司）为首领的正规教会结构，首领可以被世俗统治者附庸。;;;;;;;;;;;;x
 west_african_pagan_DESC;西非泛灵教是对撒哈拉沙漠以南的西非部落各种原始宗教的泛称。以祖先崇拜、泛灵论、图腾崇拜以及萨满教为主，除此还有很多很多的神。;;;;;;;;;;;;x
 zoroastrian_DESC;祆教崇拜阿胡拉·马兹达，不受造之神，由古伊朗先知琐罗亚斯德启示。直到公元651年穆斯林征服萨珊王朝为止，它是所有波斯帝国的国教（除了希腊化的塞琉古帝国）。古老的宗教礼仪包括圣山顶上的圣火、天葬以及效仿阿胡拉·马兹达和琐罗亚斯德的近亲结婚。;;;;;;;;;;;;x
@@ -1537,13 +1537,13 @@ title_baghatur_desc;这个称呼意味着英雄或英勇的战士，大致相当
 title_lawspeaker;法律宣讲官;;;;;;;;;;;;x
 title_lawspeaker_desc;法律宣讲官熟记领地的法律并服务于最高法官。当然，这意味着很高的荣誉和责任。;;;;;;;;;;;;x
 title_drottseti;大总管;;;;;;;;;;;;x
-title_drottseti_desc;大总管是王国的财政官，类似于管家.在过去这是很高的荣誉.;;;;;;;;;;;;x
+title_drottseti_desc;大总管是王国的财政官，类似于管家。这在过去这是很高的荣誉。;;;;;;;;;;;;x
 title_court_skald;宫廷诗人;;;;;;;;;;;;x
 title_court_skald_desc;诗歌是一项备受尊重的艺术，宫廷诗人是全国最著名的诗歌散文专家。宫廷诗人将被统治者的后继者记入统治者的事迹中。;;;;;;;;;;;;x
 title_marksman;梅奇斯莫德;;;;;;;;;;;;x
 title_marksman_desc;字面上的意思就是射手，梅奇斯莫德享有掌旗的荣誉.;;;;;;;;;;;;x
 title_hirdman;赫德曼;;;;;;;;;;;;x
-title_hirdman_desc;赫德曼被视为统治者在战斗中最信任的人，拥有者享有极大的荣誉.;;;;;;;;;;;;x
+title_hirdman_desc;赫德曼被视为统治者在战斗中最信任的人，拥有者享有极大的荣誉。;;;;;;;;;;;;x
 title_shahrwaraz;沙赫尔瓦拉兹;;;;;;;;;;;;x
 title_shahrwaraz_desc;沙赫尔瓦拉兹，帝国的野猪，这个极高荣誉的头衔可追溯到萨珊帝国时期。在祆教中，野猪是伊扎德·瓦赫拉姆的伙伴，胜利的象征。这个称号只能授予那些拥有特殊军事才干的人。;;;;;;;;;;;;x
 title_kardarigan;卡达瑞干;;;;;;;;;;;;x
@@ -1555,7 +1555,7 @@ title_pushtigban_salar_desc;禁军指挥使是皇家卫兵的指挥者，因此�
 title_spahbod;斯帕波德;;;;;;;;;;;;x
 title_spahbod_desc;这个头衔通常意味着军队领袖，可追溯至阿契美尼德王朝，在萨珊帝国中有四位斯帕波德分派到帝国的各个角落，它也是著名的军事机构。;;;;;;;;;;;;x
 title_eran_ambaragbed;伊兰阿巴格;;;;;;;;;;;;x
-title_eran_ambaragbed_desc;仓库的管理者，伊兰阿巴格授予那些军备方面的战士.;;;;;;;;;;;;x
+title_eran_ambaragbed_desc;作为军备库的总管，伊兰阿巴格负责全国战士的军械装备。;;;;;;;;;;;;x
 job_chancellor_zoroastrian_group;阿斯塔巴兹;;;;;;;;;;;;x
 job_marshal_zoroastrian_group;伊朗斯帕波德;;;;;;;;;;;;x
 job_treasurer_zoroastrian_group;达力克-帕特;;;;;;;;;;;;x
@@ -1641,9 +1641,9 @@ holmgang_prepare;你为即将到来的小岛决斗做准备。;;;;;;;;;;;;x
 EVTTOOLTIP_TOG_5002;你接受他的挑战。;;;;;;;;;;;;x
 EVTTOOLTIP_TOG_5003;你拒绝他的挑战。;;;;;;;;;;;;x
 EVTNAME200;[Root.Religion.GetCrusadeName]目标[From.GetBaseName]！;;;;;;;;;;;;x
-EVTDESC200;[Root.GetTitledFirstName]冕下被[From.GetFullName]的基督徒的哭喊打动了。他号召全欧洲的健壮青年拿起武器去对抗邪恶的[New.GetTitledName]，旨在从伊斯兰异教徒的手中拯救[From.GetName]。\n\n上帝将在天堂宽恕朝圣者的罪过。;;;;;;;;;;;;x
+EVTDESC200;[Root.GetTitledFirstName]冕下被[From.GetFullName]的基督徒的恸哭打动了。他号召全欧洲的健壮青年拿起武器去对抗邪恶的[New.GetTitledName]，旨在从伊斯兰异教徒的手中拯救[From.GetName]。\n\n上帝将在天堂宽恕朝圣者的罪过。;;;;;;;;;;;;x
 EVTDESC201;[Root.GetTitledFirstName]冕下担忧[From.GetFullBaseName]里灵魂们的状态。[New.GetTitledName]的异教徒毫无救赎的希望，除非他们今生能信仰基督，否则将遭到永火的灼烧。所有基督徒在对抗[New.Religion.GetName]野蛮人的武装传教中都将获得完全免除罪孽的奖赏！;;;;;;;;;;;;x
-EVTDESC321;[From.GetFullBaseName]正遭到异端的荼毒。[Root.GetTitledFirstName]冕下认为肮脏的[New.GetTitledName]和[New.GetPossPronoun]堕落追随者必须被净化，得赶在这些黑点扩散之前！;;;;;;;;;;;;x
+EVTDESC321;[From.GetFullBaseName]正遭到异端的荼毒。[Root.GetTitledFirstName]冕下认为肮脏的[New.GetTitledName]和[New.GetPossPronoun]的堕落的追随者们必须被净化，吾辈须赶在这些黑暗的蚀迹扩散之前！;;;;;;;;;;;;x
 EVTOPTA200;神的旨意！;;;;;;;;;;;;x
 EVTOPTB200;我们不关心……;;;;;;;;;;;;x
 EVTOPTC200;愚蠢的异教徒！;;;;;;;;;;;;x
@@ -1702,7 +1702,7 @@ EVTOPTA39650;皈依[Root.Religion.GetRandomGodName]吧，别太晚了异教徒�
 EVTTOOLTIP39600;告知了您的到来。;;;;;;;;;;;;x
 EVTDESC39651;你发现最近当地的异教徒首脑对你的布道格外关注。他是要改宗了吗？;;;;;;;;;;;;x
 EVTOPTA39651;但愿如此……;;;;;;;;;;;;x
-EVTDESC39652;通过你的努力，当地异教徒首脑的廷臣已经改信了真正的信仰。这是拯救所有[Root.Location.GetName]重要的一步！;;;;;;;;;;;;x
+EVTDESC39652;通过你的努力，当地异教徒首脑的廷臣们已经改信了真正的信仰。这是拯救所有[Root.Location.GetName]重要的一步！;;;;;;;;;;;;x
 EVTOPTA39652;赞美[Root.Religion.GetRandomGodName]！;;;;;;;;;;;;x
 EVTDESC39653;你跟另一个到[Root.Location.GetName]传播他的信仰的神职人员打了起来！;;;;;;;;;;;;x
 EVTOPTA39653;别打脸！;;;;;;;;;;;;x
@@ -1730,15 +1730,15 @@ EVTOPTC_TOG_6004;异教徒！;;;;;;;;;;;;x
 REL_HOLY_SITES;圣地;;;;;;;;;;;;x
 title_yabgu;叶护;;;;;;;;;;;;x
 title_yabgu_desc;按照传统，叶护头衔赐予统治家族的第二号人物，一般是汗王的兄弟。这将带来很高的荣誉。;;;;;;;;;;;;x
-title_ishad;艾希德;;;;;;;;;;;;x
-title_ishad_desc;艾希德是给予最高将军的头衔，有着很高的荣誉.;;;;;;;;;;;;x
+title_ishad;汗伯克;;;;;;;;;;;;x
+title_ishad_desc;汗伯克是给予最高等级将军的头衔，有着很高的荣誉。;;;;;;;;;;;;x
 title_kundur;昆杜尔;;;;;;;;;;;;x
 title_kundur_desc;传统上昆杜尔是汗王的宫廷中最高级的政府官员，给予某人意味着它获得了赞许。;;;;;;;;;;;;x
 job_chancellor_greek;马哲司推劳;;;;;;;;;;;;x
 job_treasurer_greek;萨克拉里奥斯;;;;;;;;;;;;x
 job_spymaster_greek;机要秘书;;;;;;;;;;;;x
 job_spiritual_orthodox;教堂司事;;;;;;;;;;;;x
-EVTDESC91240;残酷的内战之后，我的上一名君主最终被[Root.Liege.GetOnlyDynastyName]部族推翻。在过渡时期的混乱中，我或许可以宣告独立……;;;;;;;;;;;;x
+EVTDESC91240;残酷的内战之后，我的上一名主君因王朝衰微最终被[Root.Liege.GetOnlyDynastyName]部族推翻。在过渡时期的混乱中，我或许可以趁机宣告独立…;;;;;;;;;;;;x
 EVTOPTA91240;保持忠诚;;;;;;;;;;;;x
 EVTOPTB91240;自由！;;;;;;;;;;;;x
 EVTDESC62101;破城后，你的部队把§Y[From.GetTitledName]§!从[From.GetHerHis]藏身洞中抓了出来。;;;;;;;;;;;;x
@@ -1753,7 +1753,7 @@ EVTDESC7701;根据我的情报，我了解到我们的那个小麻烦要在一�
 EVTDESC7721;望着家畜棚[Root.Location.GetName]，我有了个主意。集中在一起的粪便可是极易爆炸的。如果在同一个地点收集得足够多，爆炸将会是致命的……;;;;;;;;;;;;x
 EVTDESC7741;如果我们计划密谋杀死那个小崽子，就应该先收买某个无耻的近侍，比如侍女或者卫兵。;;;;;;;;;;;;x
 EVTDESC7761;如果我们密谋对付的人被囚禁了，我们可以收买牢里的人处理问题，让这看起来像一次失败的越狱…;;;;;;;;;;;;x
-EVTDESC7781;就算我们密谋对付的人是个酒囊饭袋，那也是个活着的酒囊饭袋。每个月仆人都汇报说急需一个浴缸，很多事都可能出问题……特别在仆人是我们雇佣的情况下。;;;;;;;;;;;;x
+EVTDESC7781;就算我们密谋对付的人是个只会流口水的废人，但那也是个活着的废人。每个月仆人们都要给他洗一次非常必要的澡，这中间就有很多文章可做了……特别是那些仆人被我们所买通的时候。;;;;;;;;;;;;x
 EVTDESC7801;传言说阴谋的目标将要坐小船去旅行。我有可靠的消息说那个小孩没学过游泳。如果船翻了……哈，这种事情一直在发生，不是么？;;;;;;;;;;;;x
 EVTDESC7821;这种蛇，只需咬上一口，就能立马毒死一个成年壮汉。如果这样一条毒蛇在深夜去到了某人的寝宫里...;;;;;;;;;;;;x
 EVTDESC7841;听说我们的那个小麻烦早上喜欢去阳台上。如果从上面掉下来可不得了……也许可以把栏杆弄松点儿。;;;;;;;;;;;;x
