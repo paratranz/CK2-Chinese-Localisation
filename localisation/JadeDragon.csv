@@ -143,7 +143,7 @@ OFFMAP_VIEW_BUTTON_INSTANT;$OFFMAP|Y$\n开始与 §Y$OFFMAP_SHORT$帝国§! 进�
 NOT_EQUAL;不能比得上;;;;;;;;;;;;x
 RELATIVE_REALM_SIZE;领地大小是$WHO|Y$领地大小的§Y$COMPARISON$ $VALUE$%§!;;;;;;;;;;;;x
 TOTAL_REALM_SIZE;领地规模：$SIZE|Y$;;;;;;;;;;;;x
-AIREASON_ATTACK_ON_TRIBUTARY;反抗征贡战争;;;;;;;;;;;;x
+AIREASON_ATTACK_ON_TRIBUTARY;针对其他朝贡国的战争;;;;;;;;;;;;x
 sold_my_province;出售我的省份;;;;;;;;;;;;x
 sold_vassal_province;出售封臣省份;;;;;;;;;;;;x
 EVTDESC_ADV_3_A;致尊敬的[Root.GetTitledFirstName]，\n我的[Root.GetLordLady]，您真是一位有福的[Root.GetManWoman]，土地富饶、家庭圆满！如果能让我管理[selling_province.GetName]，或照顾您的[marriage_child.GetDaughterSon][marriage_child.GetTitledFirstName]，将会是我莫大的荣幸。这会确保我们之间的长久和平。\n\n署名，\n[From.GetTitledName];;;;;;;;;;;;x
@@ -833,7 +833,7 @@ tributary_independence_normal_desc;我的§Y宗主§!软弱无力，无法阻止
 EVTDESC_JD_2200;我们的朝贡国[From.PrimaryTitle.GetName]决定停止向我们朝贡——[From.GetTitledFirstName]称我们「软弱」并宣称我们「无法保护[From.GetHerHis]领地」，多么可笑！;;;;;;;;;;;;x
 EVTOPTA_JD_2200;也许是时候做出决定了。让[From.GetHerHim]回到队伍里……;;;;;;;;;;;;x
 tributary_independence_china;停止进贡;;;;;;;;;;;;x
-tributary_independence_china_desc;§Y[offmap_china.GetName]§!正在变得虚弱，他们无力阻挡我国脱离朝贡体系了;;;;;;;;;;;;x
+tributary_independence_china_desc;§Y[offmap_china.GetName]§!处于虚弱状态，无力阻止我停止交纳贡赋。;;;;;;;;;;;;x
 MODIFIER_SAME_RELIGION_OPINION;同宗教好感;;;;;;;;;;;;x
 chinese_grace_offer_artifact;进贡宝物;;;;;;;;;;;;x
 chinese_grace_offer_artifact_desc;奉上一件无价的宝物给§Y[Root.Offmap.Ruler.GetMediumChineseEmperorName]§!。;;;;;;;;;;;;x
@@ -2011,7 +2011,7 @@ china_concubine_cd;§Y最近进贡过一名侍妾§!;;;;;;;;;;;;x
 china_concubine_cd_desc;你最近向天朝进贡过一名侍妾，下一次可进贡的时间为：§Y[Root.chinese_grace_send_concubine_timer.GetExpiryDate]§!;;;;;;;;;;;;x
 china_gift_cd;§Y近日赠礼§!;;;;;;;;;;;;x
 china_gift_cd_desc;你在近期向天朝进贡过，下一次可进贡的时间为：§Y[Root.chinese_grace_send_gift_timer.GetExpiryDate]§!;;;;;;;;;;;;x
-EVTDESC_JD_10102_A;在[From.Offmap.GetFullName]试图让我们成为朝贡国的努力无果后，[From.GetTitledName]向我们宣战了！他们的军队已经向我们的边界开来，如果我们不向[From.Offmap.Ruler.GetMediumChineseEmperorName]屈膝的话，我们的人民可能将面对长期而血腥的斗争。;;;;;;;;;;;;x
+EVTDESC_JD_10102_A;[From.Offmap.GetFullName]试图让我们成为朝贡国，[From.GetTitledName]向我们宣战了！他们的军队已经向我们的边界开来，如果我们不向[From.Offmap.Ruler.GetMediumChineseEmperorName]屈膝的话，[Root.Capital.GetName]的人民担心我们可能将面对长期而血腥的斗争。;;;;;;;;;;;;x
 EVTDESC_JD_10102_B;[From.GetTitledName]对[chinese_invasion_target.GetFullName]宣战以逼迫其成为[From.Offmap.GetFullName]的朝贡国，[From.Offmap.Ruler.Culture.GetName]的军队已经开始朝[chinese_invasion_target.GetTitledFirstName]境内集结，这可能会是[chinese_invasion_target.PrimaryTitle.GetAdjective]作为独立国家的终结。;;;;;;;;;;;;x
 EVTOPTA_JD_10102_A_pious;愿[Root.Religion.GetHighGodName]保佑我们度过这一关。;;;;;;;;;;;;x
 EVTOPTA_JD_10102_A_brave;证明我们的机会到了。放他们过来！;;;;;;;;;;;;x
@@ -2583,7 +2583,7 @@ String_engineer;总工程师;;;;;;;;;;;;x
 String_strategist;军事战略家;;;;;;;;;;;;x
 String_physician;医生;;;;;;;;;;;;x
 String_chinese_profession_fallback;中国避难者;;;;;;;;;;;;x
-EVTDESC_JD_10105_A;关于[offmap_china.GetFullName]兵力的传闻本质上成了一种有力的外交工具-在短暂的谈判之后，[chinese_invasion_target.GetBestName]和平地接受了成为中国朝贡国的条款。他们的廷臣私下议论说他们只能希望[chinese_invasion_target.GetTitle]和[offmap_china.Ruler.GetChineseComplimentAdjective][offmap_china.Ruler.GetEmpressEmperorCap]之间的关系对两国有利。;;;;;;;;;;;;x
+EVTDESC_JD_10105_A;关于[offmap_china.GetFullName]军事实力的传闻本身就是一种有力的外交工具——在短暂的谈判之后，[chinese_invasion_target.GetBestName]和平地同意成为中国的朝贡国。他们的信使私下议论说他们只能希望[chinese_invasion_target.GetTitle]和[offmap_china.Ruler.GetChineseComplimentAdjective][offmap_china.Ruler.GetEmpressEmperorCap]之间的关系对两国有利。;;;;;;;;;;;;x
 EVTDESC_JD_10105_B;没有一个像[chinese_invasion_target.PrimaryTitle.GetName]一样的独立国度胆敢站出来对抗[offmap_china.GetFullName]的全部兵力。[chinese_invasion_target.GetBestName]还是选择了和平地成为中央帝国的朝贡国。时间会告诉我们[offmap_china.Ruler.GetChineseComplimentAdjective][offmap_china.Ruler.GetEmpressEmperorCap]是否真的从此会青睐他们。;;;;;;;;;;;;x
 EVTOPTA_JD_10105;就这样吧。;;;;;;;;;;;;x
 EVTOPTA_JD_10105_TT;§Y[chinese_invasion_target.GetTitledName]§!成为了§Y[offmap_china.GetFullName]§!的朝贡国。;;;;;;;;;;;;x
