@@ -3633,7 +3633,7 @@ EVTOPTA8425;我不会由我的封臣告诉我该做什么！;;;;;;;;;;;;x
 EVTOPTB8425;我承诺我将会在一个月之内启程;;;;;;;;;;;;x
 EVTDESC8430;看起来我的领主[Root.Liege.GetTitledName]已经决定不参加十字军，尽管他曾经承诺过会这样做。我非常失望。;;;;;;;;;;;;x
 EVTOPTA8430;让[Root.Liege.GetHerHim]知道这件事;;;;;;;;;;;;x
-EVTDESC8435;我的主君，\n我对您做出不参加正在进行的十字军远征的决定感到十分失望。\n\n署名，\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESC8435;我的主君，\n我对您做出不参加正在进行的十字军远征的决定感到十分失望。\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA8435;[From.GetSheHe]怎敢质疑我的决定;;;;;;;;;;;;x
 EVTDESC8440;教宗最后一次发出对抗异教徒的召唤，我们中的许多人正热切盼望着参战。但是我的领主[Root.Liege.GetTitledName]仍然没有穿上十字罩衣。;;;;;;;;;;;;x
 EVTOPTA8440;立刻向[Root.Liege.GetHerHim]发出一封提醒信;;;;;;;;;;;;x
@@ -4036,7 +4036,7 @@ EVTDESC72023;[From.GetTitledFirstName]向大家发言，让大家看看宴会上
 EVTOPTA72023;说的很好！;;;;;;;;;;;;x
 EVTDESC72024;一些客人似乎并不满意这些食物，但我绝没想到[From.GetTitledFirstName]大声地辱骂这些食物，让我没法不发火！;;;;;;;;;;;;x
 EVTOPTA72024;假如你不会说话，别乱叫！;;;;;;;;;;;;x
-EVTDESC72025;我与一个从来没有说过话的人在花园里一起喝光了两瓶来自[Root.Liege.GetTitledFirstName]的佳酿红酒，然后相互道别.;;;;;;;;;;;;x
+EVTDESC72025;我与一位我从未真正与之交流过的人坐在一起。我们最后一起在花园里喝了几瓶从来自[Root.Liege.GetTitledFirstName]的佳酿。;;;;;;;;;;;;x
 EVTOPTA72025;我想我已经交了个新朋友;;;;;;;;;;;;x
 EVTTOOLTIP72026;[This.GetTitledFirstName]和[Root.GetTitledFirstName]现在是朋友了;;;;;;;;;;;;x
 EVTDESC72026;我和[From.GetTitledFirstName]一起在花园里聊了几个小时，直到我们都感觉有点困了，也许我们喝醉了……;;;;;;;;;;;;x
@@ -4734,10 +4734,10 @@ HINT_REALM_VIEW_TEXT_1;这个界面的上半部分显示了一个拥有领土的
 HINT_REALM_VIEW_TEXT_2;在这个界面里有一些快捷的按钮来创建、篡夺或是剥夺头衔，如果可实施的话。同时也有显示一个头衔所有活着的宣称者和过去的拥有者的按钮。;;;;;;;;;;;;x
 HINT_REALM_VIEW_TEXT_3;这个界面的下半部分显示了头衔拥有者的直辖领和财政预算。;;;;;;;;;;;;x
 HINT_BROWSER_VIEW_TITLE;角色浏览器;;;;;;;;;;;;x
-HINT_BROWSER_VIEW_TEXT_1;角色浏览器允许您按不同分类寻找角色.;;;;;;;;;;;;x
-HINT_BROWSER_VIEW_TEXT_2;「搜索全部」包括所有游戏中的所有角色，除了死亡的。;;;;;;;;;;;;x
-HINT_BROWSER_VIEW_TEXT_3;「搜索领地」包括所有在您最高宗主下的所有角色。;;;;;;;;;;;;x
-HINT_BROWSER_VIEW_TEXT_4;「搜索封臣」包括您属下的所有角色.;;;;;;;;;;;;x
+HINT_BROWSER_VIEW_TEXT_1;角色浏览器允许您按不同分类寻找角色。;;;;;;;;;;;;x
+HINT_BROWSER_VIEW_TEXT_2;「搜索全部」包括所有游戏中的所有角色，除了那些已死亡的。;;;;;;;;;;;;x
+HINT_BROWSER_VIEW_TEXT_3;「搜索领地」包括所有在您最高领主下的所有角色。;;;;;;;;;;;;x
+HINT_BROWSER_VIEW_TEXT_4;「搜索封臣」包括您属下的所有角色。;;;;;;;;;;;;x
 HINT_PROV_VIEW_TITLE;省份（伯爵领）界面;;;;;;;;;;;;x
 HINT_PROV_VIEW_TEXT_1;地图被分为许多省份，每个都包含一些土地——城堡，城市和寺院。省份（伯爵领）由伯爵统治，而下属的土地（男爵领）则由男爵（或相应文化中同等的爵位）来统治。;;;;;;;;;;;;x
 HINT_PROV_VIEW_TEXT_2;地产是游戏经济和军事系统的基础。地产会提供税收和征召兵。城堡拥有最好的征召兵但提供最少的税收。城市很富裕，却没有很好的征召兵。寺院既富裕又提供良好的征召兵，但是很难防守。;;;;;;;;;;;;x
@@ -4849,16 +4849,16 @@ PEACE_OFFER_GOLD;支付 §R$GOLD$§!¤;;;;;;;;;;;;x
 PEACE_DEMAND_GOLD;要求 §G$GOLD$§!¤;;;;;;;;;;;;x
 IMPRISON_INTERACTION_TITLE;逮捕;;;;;;;;;;;;x
 IMPRISON_INTERACTION_DESC;尝试逮捕[Recipient.GetBestName].\n我们有 §Y$CHANCE$%§! 的机会成功，基于我们的 §Y国家密谋能力§!.\n如果失败，[Recipient.GetSubjectPronoun]可能对我们宣战或者逃往国外.;;;;;;;;;;;;x
-IMPRISON_INTERACTION_LONG_DESC;把某些人扔进监狱可以让你感觉舒服，但也会使你被视为暴君.;;;;;;;;;;;;x
-IMPRISON_INTERACTION_0;尝试逮捕 §Y[Recipient.GetBestName]§!.我们有 §Y$CHANCE$%§! 的机会成功，基于我们的 §Y国家密谋能力§!.\n如果失败，[Recipient.GetSubjectPronoun]可能对我们宣战或者逃往国外.;;;;;;;;;;;;x
+IMPRISON_INTERACTION_LONG_DESC;把某些人扔进监狱可能会省事，但也会使你被视为暴君。;;;;;;;;;;;;x
+IMPRISON_INTERACTION_0;尝试逮捕§Y[Recipient.GetBestName]§W。我们有§Y$CHANCE$%§W的机会成功，这取决于我们的§Y国家密谋能力§W。\n如果失败，[Recipient.GetSubjectPronoun]可能对我们宣战或者逃往国外。;;;;;;;;;;;;x
 IMPRISON_INTERACTION_2;由于 §Y[Recipient.GetTitledFirstName]§W被绝罚，没有人会关心。;;;;;;;;;;;;x
-IMPRISON_INTERACTION_3;由于 §Y[Recipient.GetTitledFirstName]§W 对你做出了不名誉的行为，没有人会关心.;;;;;;;;;;;;x
-IMPRISON_INTERACTION_4;由于我们有证据证明 §Y[Recipient.GetTitledFirstName]§W 是一个阴谋的策划者，没有人会反对.;;;;;;;;;;;;x
-IMPRISON_INTERACTION_5;由于 §Y[Recipient.GetTitledFirstName]§! 来自敌国，没有人会反对.;;;;;;;;;;;;x
+IMPRISON_INTERACTION_3;由于§Y[Recipient.GetTitledFirstName]§W对你做出了不名誉的行为，所以没人有意见。;;;;;;;;;;;;x
+IMPRISON_INTERACTION_4;由于我们有证据证明§Y[Recipient.GetTitledFirstName]§W是一个阴谋的策划者，所以没有人会反对。;;;;;;;;;;;;x
+IMPRISON_INTERACTION_5;由于§Y[Recipient.GetTitledFirstName]§!来自敌国，所以没有人会反对。;;;;;;;;;;;;x
 IMPRISON_INTERACTION_ACCEPT_SETUP;逮捕尝试;;;;;;;;;;;;x
-IMPRISON_INTERACTION_ACCEPT_LOG;§Y[Actor.GetDynName]§W 试图逮捕 §Y[Recipient.GetDynName]§W;;;;;;;;;;;;x
+IMPRISON_INTERACTION_ACCEPT_LOG;§Y[Actor.GetDynName]§W试图逮捕§Y[Recipient.GetDynName]§W;;;;;;;;;;;;x
 RELEASE_FROM_PRISON_INTERACTION_TITLE;释放囚犯;;;;;;;;;;;;x
-RELEASE_FROM_PRISON_INTERACTION_DESC;从监狱里释放 §Y[Recipient.GetBestName]§!;;;;;;;;;;;;x
+RELEASE_FROM_PRISON_INTERACTION_DESC;从监狱里释放§Y[Recipient.GetBestName]§!;;;;;;;;;;;;x
 RELEASE_FROM_PRISON_INTERACTION_LONG_DESC;释放囚犯是光荣的，但请记住，在地牢他们是不会造成任何麻烦的;;;;;;;;;;;;x
 RELEASE_FROM_PRISON_INTERACTION_ACCEPT_SETUP;释放囚犯;;;;;;;;;;;;x
 RELEASE_FROM_PRISON_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W 决定从监狱里释放 §Y[Recipient.GetBestName]§W;;;;;;;;;;;;x
@@ -4874,7 +4874,7 @@ EXECUTE_IMPRISONED_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W 决定处决
 EXILE_IMPRISONED_INTERACTION_TITLE;驱逐囚犯;;;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_DESC;驱逐 [Recipient.GetBestName]出境;;;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_0;驱逐 §Y[Recipient.GetBestName]§! 出境.;;;;;;;;;;;;x
-EXILE_IMPRISONED_INTERACTION_1;§Y$GOLD$§! 金钱将被没收.;;;;;;;;;;;;x
+EXILE_IMPRISONED_INTERACTION_1;§Y$GOLD$§!金钱将被没收。;;;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_ACCEPT_SETUP;驱逐囚犯;;;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W 决定驱逐 §Y[Recipient.GetDynName]§!;;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_TITLE;要求改信;;;;;;;;;;;;x
