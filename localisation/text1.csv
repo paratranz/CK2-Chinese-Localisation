@@ -4718,7 +4718,7 @@ HINT_TECH_VIEW_TEXT_1;科技在中世纪基本是静止的。然而，几个世�
 HINT_TECH_VIEW_TEXT_3;当处于科技界面中，在地图中的省份上滑动鼠标将显示当地的科技等级而不是您自己首都的等级。;;;;;;;;;;;;x
 HINT_MIL_VIEW_TITLE;军事界面;;;;;;;;;;;;x
 HINT_MIL_VIEW_TEXT_1;这个界面提供了您一个对您军事状况的概览，并允许您分别或一次性征召您和您封臣的征召兵。;;;;;;;;;;;;x
-HINT_MIL_VIEW_TEXT_2;「封臣」标签列出了你所有的直接封臣和他们对你的态度。他们越不喜欢你，在您征召时他们送来的部队就会越少。封臣依然会支付哪怕是你征召的属于他们的部队的维护费。所以，当你征召他们的部队每过一年，封臣们都会越来越不喜欢你。;;;;;;;;;;;;x
+HINT_MIL_VIEW_TEXT_2;「封臣」标签列出了你所有的直属封臣和他们对你的态度。他们越不喜欢你，在你征召时他们送来的部队就会越少。因为封臣依然会支付(包括那些受你征召的)属于他们的部队的维护费，所以，每当你征召他们的部队过了一年，封臣们都会越来越不喜欢你。;;;;;;;;;;;;x
 HINT_MIL_VIEW_TEXT_3;「雇佣兵」标签列出了所有您可以雇佣的雇佣兵团。雇佣兵是职业军人，只要您提供良好的报酬他们就会高效的作战，但是如果您的国库见底了他们可能会抛弃您，甚至倒戈加入您的敌人！;;;;;;;;;;;;x
 HINT_PLOT_VIEW_TITLE;密谋界面;;;;;;;;;;;;x
 HINT_PLOT_VIEW_TEXT_3;阴谋是一个达成一些不可告人的目的的阴暗但是有效的手段。和野心不同，阴谋需要一些幕后主使和同谋来达成。一个阴谋的进度由它的阴谋力量来衡量，阴谋力量则表现在参与者的密谋集团的影响力和密谋者们的职位。;;;;;;;;;;;;x
@@ -4810,11 +4810,11 @@ INTERACTION_REQUIRES_THIRDPARTY_SAME_RELIGIOUS_HEAD;§Y[ThirdPartyCharacter.GetT
 INTERACTION_REQUIRES_NOT_EXCOMMUNICATED;§Y[ThirdPartyCharacter.GetTitledFirstName]§!并没有已被绝罚。;;;;;;;;;;;;x
 INTERACTION_REQUIRES_LEADS_RELIGION;§Y[Recipient.GetTitledFirstName]§!是[Recipient.Religion.GetName]信仰的宗教领袖;;;;;;;;;;;;x
 INTERACTION_REQUIRES_NO_OTHER_PROPOSALS;§Y[Recipient.GetTitledFirstName]§!目前正在考虑另一个来自我们的报价;;;;;;;;;;;;x
-INTERACTION_REQUIRES_ACTOR_HIGHER_TIER;§Y[Recipient.GetTitledFirstName]§!级别低于§Y[Actor.GetTitledFirstName]§!;;;;;;;;;;;;x
-INTERACTION_REQUIRES_RECIPIENT_HIGHER_TIER;§Y[Actor.GetTitledFirstName]§!级别低于§Y[Recipient.GetTitledFirstName]§!;;;;;;;;;;;;x
-INTERACTION_REQUIRES_RECIPIENT_HIGHER_TIER_THAN_THIRD;[ThirdPartyCharacter.GetDynName]的等级比[Recipient.GetDynName]低;;;;;;;;;;;;x
+INTERACTION_REQUIRES_ACTOR_HIGHER_TIER;§Y[Recipient.GetTitledFirstName]§!的级别低于§Y[Actor.GetTitledFirstName]§!;;;;;;;;;;;;x
+INTERACTION_REQUIRES_RECIPIENT_HIGHER_TIER;§Y[Actor.GetTitledFirstName]§!的级别低于§Y[Recipient.GetTitledFirstName]§!;;;;;;;;;;;;x
+INTERACTION_REQUIRES_RECIPIENT_HIGHER_TIER_THAN_THIRD;[ThirdPartyCharacter.GetDynName]的级别低于[Recipient.GetDynName];;;;;;;;;;;;x
 INTERACTION_REQUIRES_NO_RAISED_UNITS;征召兵已动员时不能宣战;;;;;;;;;;;;x
-INTERACTION_REQUIRES_RANSOM;§Y[Recipient.GetTitledFirstName]§!能付得起§Y$GOLD$§W黄金的赎金;;;;;;;;;;;;x
+INTERACTION_REQUIRES_RANSOM;§Y[Recipient.GetTitledFirstName]§!付得起§Y$GOLD$§W黄金的赎金;;;;;;;;;;;;x
 INTERACTION_REQUIRES_CB_SELECTED;我们必须选择一个有效的§Y宣战理由§W来宣战;;;;;;;;;;;;x
 INTERACTION_REQUIRES_BOTH_INDEPENDENT;§Y[Recipient.GetTitledFirstName]§!是独立的;;;;;;;;;;;;x
 INTERACTION_REQUIRES_NO_HOSTAGES;§Y[Recipient.GetTitledFirstName]§!没有你的近亲人质$WHO$;;;;;;;;;;;;x
@@ -4848,9 +4848,9 @@ PEACE_SURRENDER;投降;;;;;;;;;;;;x
 PEACE_OFFER_GOLD;支付 §R$GOLD$§!¤;;;;;;;;;;;;x
 PEACE_DEMAND_GOLD;要求 §G$GOLD$§!¤;;;;;;;;;;;;x
 IMPRISON_INTERACTION_TITLE;逮捕;;;;;;;;;;;;x
-IMPRISON_INTERACTION_DESC;尝试逮捕[Recipient.GetBestName].\n我们有 §Y$CHANCE$%§! 的机会成功，基于我们的 §Y国家密谋能力§!.\n如果失败，[Recipient.GetSubjectPronoun]可能对我们宣战或者逃往国外.;;;;;;;;;;;;x
+IMPRISON_INTERACTION_DESC;尝试逮捕[Recipient.GetBestName]。\n我们有§Y$CHANCE$%§W的成功率，这基于我们的§Y国家密谋能力§W。.\n如果失败，[Recipient.GetSubjectPronoun]可能对我们宣战或者逃往国外。;;;;;;;;;;;;x
 IMPRISON_INTERACTION_LONG_DESC;把某些人扔进监狱可能会省事，但也会使你被视为暴君。;;;;;;;;;;;;x
-IMPRISON_INTERACTION_0;尝试逮捕§Y[Recipient.GetBestName]§W。我们有§Y$CHANCE$%§W的机会成功，这取决于我们的§Y国家密谋能力§W。\n如果失败，[Recipient.GetSubjectPronoun]可能对我们宣战或者逃往国外。;;;;;;;;;;;;x
+IMPRISON_INTERACTION_0;尝试逮捕§Y[Recipient.GetBestName]§W。我们有§Y$CHANCE$%§W的成功率，这取决于我们的§Y国家密谋能力§W。\n如果失败，[Recipient.GetSubjectPronoun]可能对我们宣战或者逃往国外。;;;;;;;;;;;;x
 IMPRISON_INTERACTION_2;由于 §Y[Recipient.GetTitledFirstName]§W被绝罚，没有人会关心。;;;;;;;;;;;;x
 IMPRISON_INTERACTION_3;由于§Y[Recipient.GetTitledFirstName]§W对你做出了不名誉的行为，所以没人有意见。;;;;;;;;;;;;x
 IMPRISON_INTERACTION_4;由于我们有证据证明§Y[Recipient.GetTitledFirstName]§W是一个阴谋的策划者，所以没有人会反对。;;;;;;;;;;;;x
@@ -4859,31 +4859,31 @@ IMPRISON_INTERACTION_ACCEPT_SETUP;逮捕尝试;;;;;;;;;;;;x
 IMPRISON_INTERACTION_ACCEPT_LOG;§Y[Actor.GetDynName]§W试图逮捕§Y[Recipient.GetDynName]§W;;;;;;;;;;;;x
 RELEASE_FROM_PRISON_INTERACTION_TITLE;释放囚犯;;;;;;;;;;;;x
 RELEASE_FROM_PRISON_INTERACTION_DESC;从监狱里释放§Y[Recipient.GetBestName]§!;;;;;;;;;;;;x
-RELEASE_FROM_PRISON_INTERACTION_LONG_DESC;释放囚犯是光荣的，但请记住，在地牢他们是不会造成任何麻烦的;;;;;;;;;;;;x
+RELEASE_FROM_PRISON_INTERACTION_LONG_DESC;释放囚犯是光荣的，但请记住，在地牢的他们才不会造成任何麻烦...;;;;;;;;;;;;x
 RELEASE_FROM_PRISON_INTERACTION_ACCEPT_SETUP;释放囚犯;;;;;;;;;;;;x
-RELEASE_FROM_PRISON_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W 决定从监狱里释放 §Y[Recipient.GetBestName]§W;;;;;;;;;;;;x
+RELEASE_FROM_PRISON_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W决定从监狱里释放§Y[Recipient.GetBestName]§W;;;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_TITLE;处决囚犯;;;;;;;;;;;;x
-EXECUTE_IMPRISONED_INTERACTION_DESC;处决§Y[Recipient.GetBestName]§!。\n这会被视作暴君所为。;;;;;;;;;;;;x
+EXECUTE_IMPRISONED_INTERACTION_DESC;处决§Y[Recipient.GetBestName]§!。\n这会被视作暴君行径。;;;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_LONG_DESC;砍掉某个人的头是摆脱他的最有效的方法。不过，这必然会使很多人感到失望，而且不像驱逐一样可以没收头衔和财产。;;;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_0;处决§Y[Recipient.GetBestName]§!。;;;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_2;由于§Y[Recipient.GetTitledFirstName]§W被绝罚，没有人会关心。;;;;;;;;;;;;x
-EXECUTE_IMPRISONED_INTERACTION_3;这会激怒§Y[Recipient.TopLiege.PrimaryTitle.GetFullName]§!领主们，降低他们对你的好感度 §R$OPINION$§!;;;;;;;;;;;;x
-EXECUTE_IMPRISONED_INTERACTION_4;由于 §Y[Recipient.GetTitledFirstName]§W 来自敌国，没有人会反对.;;;;;;;;;;;;x
+EXECUTE_IMPRISONED_INTERACTION_3;这会激怒§Y[Recipient.TopLiege.PrimaryTitle.GetFullName]§!领主们，他们对你的好感度将会降低§R$OPINION$§!。;;;;;;;;;;;;x
+EXECUTE_IMPRISONED_INTERACTION_4;由于§Y[Recipient.GetTitledFirstName]§W来自敌国，没有人会反对。;;;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_ACCEPT_SETUP;囚犯已处决;;;;;;;;;;;;x
-EXECUTE_IMPRISONED_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W 决定处决 [Recipient.GetDynName];;;;;;;;;;;;x
+EXECUTE_IMPRISONED_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W决定处决[Recipient.GetDynName];;;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_TITLE;驱逐囚犯;;;;;;;;;;;;x
-EXILE_IMPRISONED_INTERACTION_DESC;驱逐 [Recipient.GetBestName]出境;;;;;;;;;;;;x
-EXILE_IMPRISONED_INTERACTION_0;驱逐 §Y[Recipient.GetBestName]§! 出境.;;;;;;;;;;;;x
+EXILE_IMPRISONED_INTERACTION_DESC;驱逐[Recipient.GetBestName]出境;;;;;;;;;;;;x
+EXILE_IMPRISONED_INTERACTION_0;驱逐§Y[Recipient.GetBestName]§!出境。;;;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_1;§Y$GOLD$§!金钱将被没收。;;;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_ACCEPT_SETUP;驱逐囚犯;;;;;;;;;;;;x
-EXILE_IMPRISONED_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W 决定驱逐 §Y[Recipient.GetDynName]§!;;;;;;;;;;;;x
+EXILE_IMPRISONED_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W决定驱逐§Y[Recipient.GetDynName]§W;;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_TITLE;要求改信;;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_DESC;要求[Recipient.GetBestName]皈依[Actor.Religion.GetName]信仰;;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_LONG_DESC;你可以要求封臣改宗，但是如果他们拒绝，对你的好感度将下降.;;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_ACCEPT_SETUP;接受改信;;;;;;;;;;;;x
-DEMAND_RELIGIOUS_CONVERSION_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 同意了 §Y[Actor.GetBestName]§! 的要求，皈依[Actor.Religion.GetName];;;;;;;;;;;;x
+DEMAND_RELIGIOUS_CONVERSION_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§W同意了§Y[Actor.GetBestName]§W的要求，皈依[Actor.Religion.GetName];;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_DECLINE_SETUP;拒绝改信;;;;;;;;;;;;x
-DEMAND_RELIGIOUS_CONVERSION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝了 §Y[Actor.GetBestName]§! 皈依[Actor.Religion.GetName]的要求;;;;;;;;;;;;x
+DEMAND_RELIGIOUS_CONVERSION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§!拒绝了§Y[Actor.GetBestName]§W皈依[Actor.Religion.GetName]的要求;;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_OFFER;[Actor.GetBestName]要求我们皈依[Actor.Religion.GetName];;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_LETTER;我们要求你改宗，皈依[Actor.Religion.GetName].;;;;;;;;;;;;x
 INVITE_TO_COURT_INTERACTION_TITLE;邀请来到宫廷;;;;;;;;;;;;x
@@ -12812,10 +12812,10 @@ b_albaharah;巴哈雷;;;;;;;;;;;;x
 b_arradum;雷杜木;;;;;;;;;;;;x
 d_sanaa;萨那;;;;;;;;;;;;x
 d_sanaa_adj;萨那;;;;;;;;;;;;x
-c_bayda_adj;拜达尼亚;;;;;;;;;;;;x
-b_bayda;拜达;;;;;;;;;;;;x
-b_habban;哈卜班;;;;;;;;;;;;x
-b_ashshubaykah;苏拜卡;;;;;;;;;;;;x
+c_bayda_adj;贝达;;;;;;;;;;;;x
+b_bayda;贝达;;;;;;;;;;;;x
+b_habban;哈班;;;;;;;;;;;;x
+b_ashshubaykah;舒拜卡;;;;;;;;;;;;x
 b_timna;蒂姆那;;;;;;;;;;;;x
 b_ataq;阿塔奇;;;;;;;;;;;;x
 b_zinjibar;津吉巴尔;;;;;;;;;;;;x
@@ -19130,7 +19130,7 @@ HAS_LOWER_FERTILITY_THAN;生育低于;;;;;;;;;;;;x
 HAS_HIGHER_FERTILITY_THAN;生育高于;;;;;;;;;;;;x
 HAS_LOWER_WEALTH_THAN;财富数量不足;;;;;;;;;;;;x
 HAS_HIGHER_WEALTH_THAN;个人财富超过;;;;;;;;;;;;x
-IS_NOT_A_RIVAL_OF;不是敌人与;;;;;;;;;;;;x
+IS_NOT_A_RIVAL_OF;不是仇敌;;;;;;;;;;;;x
 IS_A_RIVAL_OF;是敌人与;;;;;;;;;;;;x
 IS_NOT_A_FRIEND_OF;不是朋友与;;;;;;;;;;;;x
 IS_A_FRIEND_OF;是朋友与;;;;;;;;;;;;x
