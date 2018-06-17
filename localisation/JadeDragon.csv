@@ -7,7 +7,7 @@ dealing_with_dishonest_traders;处置不法商人;;;;;;;;;;;;x
 dealing_with_dishonest_traders_desc;这个角色正忙于寻找和劝告商人遵守更严格的行为守则。;;;;;;;;;;;;x
 defending_vassal_rights;保护封臣权利;;;;;;;;;;;;x
 defending_vassal_rights_desc;这个角色因为保护封臣不受其他人的干涉而出名。;;;;;;;;;;;;x
-EVTDESC_JD_30002;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子[From.Offmap.Ruler.GetShortChineseEmperorName]近日听闻，来自你领土上的商人与天朝商人交易时有欺诈与不守信用的行为。我们相信你会立即制止这一行为。;;;;;;;;;;;;x
+EVTDESC_JD_30002;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天命[From.Offmap.Ruler.GetShortChineseEmperorName]近日听闻，来自你领土上的商人与天朝商人交易时有欺诈与不守信用的行为。我们相信你会立即制止这一行为。;;;;;;;;;;;;x
 EVTOPTA_JD_30002;我们需要限制主要贸易行会的特权。;;;;;;;;;;;;x
 EVTOPTB_JD_30002;我会派[target_marshal.GetFirstName]查办那些惹麻烦的家伙。;;;;;;;;;;;;x
 EVTOPTC_JD_30002;无论我们的商人如何进行贸易都与王权无关。;;;;;;;;;;;;x
@@ -252,10 +252,10 @@ opinion_servant;仆从;;;;;;;;;;;;x
 chinese_grace_send_gift;赠送礼物;;;;;;;;;;;;x
 chinese_grace_send_gift_desc;向§Y[Root.Offmap.Ruler.GetMediumChineseEmperorName]§!赠送礼物;;;;;;;;;;;;x
 EVTOPTA_JD_20024;任何可以取悦[From.Offmap.Ruler.GetTitle]的东西。;;;;;;;;;;;;x
-EVTDESC_JD_20024;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子[From.Offmap.Ruler.GetLongChineseEmperorName]仁慈地接受了你的礼物。[Root.GetOnlyDynastyName]家族的慷慨将被铭记。;;;;;;;;;;;;x
+EVTDESC_JD_20024;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天命[From.Offmap.Ruler.GetLongChineseEmperorName]仁慈地接受了你的礼物。[Root.GetOnlyDynastyName]家族的慷慨将被铭记。;;;;;;;;;;;;x
 chinese_grace_send_gift_allow_tt;在过去的15年内没有赠送金钱给§Y[Root.Offmap.Ruler.GetShortChineseEmperorName]§!;;;;;;;;;;;;x
 EVTOPTA_JD_20026;愿[From.Offmap.Ruler.GetOnlyDynastyName]和[Root.GetOnlyDynastyName]两姓永远和谐相处。;;;;;;;;;;;;x
-EVTDESC_JD_20026;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子[From.Offmap.Ruler.GetLongChineseEmperorName]，已经决定停止两国间的一切战争与冲突行为。[From.Offmap.Ruler.GetHerHisCap]无上仁慈与智慧鼓舞着我们所有人。;;;;;;;;;;;;x
+EVTDESC_JD_20026;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天命[From.Offmap.Ruler.GetLongChineseEmperorName]，已经决定停止两国间的一切战争与冲突行为。[From.Offmap.Ruler.GetHerHisCap]无上仁慈与智慧鼓舞着我们所有人。;;;;;;;;;;;;x
 chinese_grace_peace_deal_allow_tt;和§Y[Root.Offmap.GetFullName]§! 与§Y[Root.Offmap.Governor.GetTitle]§!没有互不侵犯条约或和平协定\n;;;;;;;;;;;;x
 chinese_grace_peace_deal;请求和平;;;;;;;;;;;;x
 chinese_grace_peace_deal_effect_tt;\n在和平协议期限内，§Y[Root.Offmap.GetFullName]§!以及它的§Y[Root.Offmap.Governor.GetTitle]§!将不会对你宣战。这将持续§Y50§!年或者直到[Root.Offmap.Ruler.GetTitle]的[Root.Offmap.Ruler.GetOnlyDynastyName]朝统治终结。;;;;;;;;;;;;x
@@ -264,14 +264,14 @@ chinese_grace_become_tributary_allow_governor_neighbor_tt;拥有与[Root.Primary
 chinese_grace_become_tributary_allow_tributary_neighbor_tt;领地有省份与[Root.Offmap.GetFullName]的朝贡国接壤\n;;;;;;;;;;;;x
 chinese_grace_become_tributary_allow_eastern_border_tt;在地图东部边界拥有领地省份\n;;;;;;;;;;;;x
 chinese_grace_become_tributary_allow_india_tt;在印度有一个沿海领地省份\n;;;;;;;;;;;;x
-EVTDESC_JD_20028;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子[From.Offmap.Ruler.GetLongChineseEmperorName]，致以[From.GetHerHisCap]诚挚问候并接受贵国的效忠。希望两国能邦交永睦，世代通好。;;;;;;;;;;;;x
+EVTDESC_JD_20028;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天命[From.Offmap.Ruler.GetLongChineseEmperorName]，致以[From.GetHerHisCap]诚挚问候并接受贵国的效忠。希望两国能邦交永睦，世代通好。;;;;;;;;;;;;x
 EVTOPTA_JD_20028;我不过是[From.Offmap.Ruler.GetTitle]的卑微的仆人。;;;;;;;;;;;;x
 chinese_grace_become_tributary_allow_suzerain_tt;尚未拥有宗主国\n;;;;;;;;;;;;x
 jd_master_engineer;将作大匠;;;;;;;;;;;;x
 jd_master_engineer_desc;这名角色既拥有发明和设计建筑及机器的理论知识，也拥有创造它们的实践经验。;;;;;;;;;;;;x
 jd_administrator;士大夫;;;;;;;;;;;;x
 jd_administrator_desc;这个角色非常擅长确保资源以最有效的方式被分配、运输和使用。;;;;;;;;;;;;x
-EVTDESC_JD_20030;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子[From.Offmap.Ruler.GetLongChineseEmperorName]，慷慨地准许了你的请求。贤明的士大夫[chinese_administrator.GetDynName]将会来到你的宫廷。[chinese_administrator.GetHerHisCap]管理技巧将会很好地为你服务。;;;;;;;;;;;;x
+EVTDESC_JD_20030;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天命[From.Offmap.Ruler.GetLongChineseEmperorName]，慷慨地准许了你的请求。贤明的士大夫[chinese_administrator.GetDynName]将会来到你的宫廷。[chinese_administrator.GetHerHisCap]管理技巧将会很好地为你服务。;;;;;;;;;;;;x
 EVTOPTA_JD_20030_TT;§Y[chinese_administrator.GetDynName]§!来到了你的宫廷。;;;;;;;;;;;;x
 title_administrator_modifier_tt;已在中国通过科举考试获得功名;;;;;;;;;;;;x
 employing_jd_administrator;招徕士大夫;;;;;;;;;;;;x
@@ -291,7 +291,7 @@ chinese_master_engineer_allow_tt;未拥有将作大匠;;;;;;;;;;;;x
 chinese_master_engineer_effect_tt;一个将作大匠会加入您的宫廷。在雇佣期内，他将会在您的各个直辖领内建造建筑和机械，并且对您的经济，军事和科技给予多种增益。;;;;;;;;;;;;x
 title_master_engineer;将作大匠;;;;;;;;;;;;x
 title_master_engineer_desc;将作大匠会在你的领地建设那些充满中国智慧的奇迹，如干船坞和高炉。;;;;;;;;;;;;x
-EVTDESC_JD_20032;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子[From.Offmap.Ruler.GetLongChineseEmperorName]慷慨地答应了你的请求。将作大匠[chinese_master_engineer.GetDynName]将来教化你的国家。;;;;;;;;;;;;x
+EVTDESC_JD_20032;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天命[From.Offmap.Ruler.GetLongChineseEmperorName]慷慨地答应了你的请求。将作大匠[chinese_master_engineer.GetDynName]将来教化你的国家。;;;;;;;;;;;;x
 EVTOPTA_JD_20032_TT;§Y[chinese_master_engineer.GetDynName]§!出现在你的宫廷。;;;;;;;;;;;;x
 title_master_engineer_modifier_tt;是一位来自天朝的将作大匠;;;;;;;;;;;;x
 EVTDESC_JD_20034;将作大匠§Y[From.GetDynName]§!在§Y[jd_build_province.GetName]§!建成了一座造纸坊。;;;;;;;;;;;;x
@@ -315,7 +315,7 @@ jd_strategist_desc;这位将军系统全面地学习过中国兵法。;;;;;;;;;;
 chinese_strategist;请赐兵法家;;;;;;;;;;;;x
 chinese_strategist_effect_tt;一位兵法家加入了你的宫廷。他偶尔会把中国兵法传授给其他指挥官。\n;;;;;;;;;;;;x
 EVTOPTA_JD_20040_TT;§Y[chinese_strategist.GetDynName]§!出现在你的宫廷。;;;;;;;;;;;;x
-EVTDESC_JD_20040;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子[From.Offmap.Ruler.GetLongChineseEmperorName]，已经仁慈地满足了你的愿望。[chinese_strategist.GetDynName]的技艺为你所用，在沙盘之中亦或在战场之上。;;;;;;;;;;;;x
+EVTDESC_JD_20040;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天命[From.Offmap.Ruler.GetLongChineseEmperorName]，已经仁慈地满足了你的愿望。[chinese_strategist.GetDynName]的技艺为你所用，在沙盘之中亦或在战场之上。;;;;;;;;;;;;x
 EVTDESC_JD_20041_A;§Y[commander_teacher.GetDynName]§!教给了你的指挥官§Y[commander_student.GetTitledFirstName]§!中国的兵法。§Y[commander_student.GetTitledFirstName]§!得到了§Y龙韬§!特质。;;;;;;;;;;;;x
 EVTDESC_JD_20041_B;§Y[commander_teacher.GetDynName]§!教给了你的指挥官§Y[commander_student.GetTitledFirstName]§!中国的兵法。§Y[commander_student.GetTitledFirstName]§!得到了§Y犬韬§!特质。;;;;;;;;;;;;x
 EVTDESC_JD_20041_C;§Y[commander_teacher.GetDynName]§!教给了你的指挥官§Y[commander_student.GetTitledFirstName]§!中国的兵法。§Y[commander_student.GetTitledFirstName]§!得到了§Y虎韬§!特质。;;;;;;;;;;;;x
@@ -324,8 +324,8 @@ jd_prince;天朝皇子;;;;;;;;;;;;x
 jd_prince_desc;此人是一位天朝皇子。;;;;;;;;;;;;x
 jd_princess;天朝公主;;;;;;;;;;;;x
 jd_princess_desc;此人是一位天朝公主。;;;;;;;;;;;;x
-EVTDESC_JD_20046_A;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子[From.Offmap.Ruler.GetShortChineseEmperorName]决定授予[Root.GetOnlyDynastyName]最高的荣誉。[From.Offmap.Ruler.GetHerHisCap]女儿，[imperial_marriage_spouse_2.GetChineseComplimentAdjective]公主[imperial_marriage_spouse_2.GetFirstName]，将会下嫁[imperial_marriage_spouse_1.GetTitledFirstName]。;;;;;;;;;;;;x
-EVTDESC_JD_20046_B;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子[From.Offmap.Ruler.GetShortChineseEmperorName]决定授予[Root.GetOnlyDynastyName]最高的荣誉。[From.Offmap.Ruler.GetHerHisCap]侄子，[imperial_marriage_spouse_2.GetChineseComplimentAdjective]皇子[imperial_marriage_spouse_2.GetFirstName]，将迎娶[imperial_marriage_spouse_1.GetTitledFirstName]。;;;;;;;;;;;;x
+EVTDESC_JD_20046_A;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天命[From.Offmap.Ruler.GetShortChineseEmperorName]决定授予[Root.GetOnlyDynastyName]最高的荣誉。[From.Offmap.Ruler.GetHerHisCap]女儿，[imperial_marriage_spouse_2.GetChineseComplimentAdjective]公主[imperial_marriage_spouse_2.GetFirstName]，将会下嫁[imperial_marriage_spouse_1.GetTitledFirstName]。;;;;;;;;;;;;x
+EVTDESC_JD_20046_B;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天命[From.Offmap.Ruler.GetShortChineseEmperorName]决定授予[Root.GetOnlyDynastyName]最高的荣誉。[From.Offmap.Ruler.GetHerHisCap]侄子，[imperial_marriage_spouse_2.GetChineseComplimentAdjective]皇子[imperial_marriage_spouse_2.GetFirstName]，将迎娶[imperial_marriage_spouse_1.GetTitledFirstName]。;;;;;;;;;;;;x
 EVTOPTA_JD_20046;对[imperial_marriage_spouse_2.GetPrincessPrince][imperial_marriage_spouse_2.GetFirstName]的到来，我们期待已久，诚惶诚恐。;;;;;;;;;;;;x
 EVTOPTA_JD_20046_TT;§Y[imperial_marriage_spouse_2.GetDynName]§!正在赶往即将到来的婚礼，并将在几周内到达。;;;;;;;;;;;;x
 String_Princess;公主;;;;;;;;;;;;x
@@ -2281,7 +2281,7 @@ TOGGLE_LOOTER_GR0_MAINT_DESC;如果你处于和平，劫掠军只消耗 §G$PERC
 kingdom_adventure_desc;某些极度雄心勃勃又魅力十足的角色可以获得足够的支持，并且试图在一大群冒险的战士的帮助下在国外开始夺取王国。;;;;;;;;;;;;x
 title_teacher;宫廷教师;;;;;;;;;;;;x
 title_teacher_desc;宫廷教师将担任宫廷中所有没有指定监护人的孩子的默认教育者。;;;;;;;;;;;;x
-EVTDESC_JD_30014;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子[From.Offmap.Ruler.GetLongChineseEmperorName]，慷慨地同意了你的请求，一枚皇家印章将被送达，来彰显你对帝国的忠诚。;;;;;;;;;;;;x
+EVTDESC_JD_30014;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天命[From.Offmap.Ruler.GetLongChineseEmperorName]，慷慨地同意了你的请求，一枚皇家印章将会送达，来彰显[Root.PrimaryTitle.GetFullName]作为中华帝国货物受惠国的地位。;;;;;;;;;;;;x
 EVTOPTA_JD_30014;极好！;;;;;;;;;;;;x
 employing_jd_administrator_golden_age;聘请士大夫;;;;;;;;;;;;x
 employing_jd_administrator_golden_age_desc;这个角色聘请了一位帮助主持建筑工程的中国士大夫。;;;;;;;;;;;;x
@@ -2455,7 +2455,7 @@ china_tribute_send_physician_tt;尚未派遣医生;;;;;;;;;;;;x
 send_physician_potential_tt;§Y医师要求§!：\n必须是你当前在职的宫廷医师或者有著名医生，学者，神秘主义者其中一个特质\n不能有封地\n不能订婚或已婚\n不能是头衔继承人\n不能有以下特质：§Y无能§!，§Y近亲缺陷§!，§Y痴呆§!;;;;;;;;;;;;x
 chinese_grace_become_tributary_allow_chinese_influence_tt;这个领地省份在中国的影响范围内\n;;;;;;;;;;;;x
 taoist_opinion;道教好感;;;;;;;;;;;;x
-EVTDESC_JD_3011;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子[From.Offmap.Ruler.GetLongChineseEmperorName]已经欣然接收了你的救灾远征队。他们带来的物资会被好好使用。天朝不会忘记[Root.GetOnlyDynastyName]家族的慷慨。;;;;;;;;;;;;x
+EVTDESC_JD_3011;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天命[From.Offmap.Ruler.GetLongChineseEmperorName]已经欣然接收了你的救灾远征队。他们带来的物资会被好好使用。天朝不会忘记[Root.GetOnlyDynastyName]家族的慷慨。;;;;;;;;;;;;x
 EVTOPTA_JD_3011;只要能取悦[From.Offmap.Ruler.GetTitle]。;;;;;;;;;;;;x
 chinese_grace_send_relief;派遣救援队;;;;;;;;;;;;x
 chinese_grace_send_relief_desc;§Y[Root.Offmap.GetFullName]§!正在遭受一场大饥荒，你可以提出派遣救援队来提供救援物资，并帮助皇帝维护中国的稳定。\n;;;;;;;;;;;;x
@@ -4627,7 +4627,7 @@ EVT_OPTA_JD_60208;能称万岁的只能有一个人。;;;;;;;;;;;;x
 String_siege_engineer;攻城专家;;;;;;;;;;;;x
 String_chinese_royalty;天朝皇室;;;;;;;;;;;;x
 String_chinese_character_role_fallback;廷臣;;;;;;;;;;;;x
-EVT_DESC_JD_60312;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子[From.Offmap.Ruler.GetLongChineseEmperorName]，对[FromFrom.GetTitledName]，你的[FromFrom.GetChineseCharacterRole]的去世表示深深的悲痛，对你致以最深切的慰问。;;;;;;;;;;;;x
+EVT_DESC_JD_60312;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天命[From.Offmap.Ruler.GetLongChineseEmperorName]，对[FromFrom.GetTitledName]，你的[FromFrom.GetChineseCharacterRole]的去世表示深深的悲痛，对你致以[From.Offmap.Ruler.GetHerHis]最深切的慰问。;;;;;;;;;;;;x
 EVTDESC_JD_15016;今早，我和卫兵一直穿行于熙熙攘攘的市场。在这儿，每种肉类和游戏都有充足的供应，饰品和小装饰品到处都是……！我们哪里都能遇到士兵，以及其他外国宫廷的权贵。显然这些商人不缺生意。;;;;;;;;;;;;x
 EVTOPTA_JD_15016;唔，那是什么味道……？;;;;;;;;;;;;x
 EVTOPTA_JD_15016_TT;你急切地品尝了当地的美食。\n;;;;;;;;;;;;x
