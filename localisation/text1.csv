@@ -4718,12 +4718,12 @@ HINT_TECH_VIEW_TEXT_1;科技在中世纪基本是静止的。然而，几个世�
 HINT_TECH_VIEW_TEXT_3;当处于科技界面中，在地图中的省份上滑动鼠标将显示当地的科技等级而不是您自己首都的等级。;;;;;;;;;;;;x
 HINT_MIL_VIEW_TITLE;军事界面;;;;;;;;;;;;x
 HINT_MIL_VIEW_TEXT_1;这个界面提供了您一个对您军事状况的概览，并允许您分别或一次性征召您和您封臣的征召兵。;;;;;;;;;;;;x
-HINT_MIL_VIEW_TEXT_2;「封臣」标签列出了你所有的直属封臣和他们对你的态度。他们越不喜欢你，在你征召时他们送来的部队就会越少。因为封臣依然会支付(包括那些受你征召的)属于他们的部队的维护费，所以，每当你征召他们的部队过了一年，封臣们都会越来越不喜欢你。;;;;;;;;;;;;x
-HINT_MIL_VIEW_TEXT_3;「雇佣兵」标签列出了所有您可以雇佣的雇佣兵团。雇佣兵是职业军人，只要您提供良好的报酬他们就会高效的作战，但是如果您的国库见底了他们可能会抛弃您，甚至倒戈加入您的敌人！;;;;;;;;;;;;x
+HINT_MIL_VIEW_TEXT_2;「封臣」标签列出了你所有的直属封臣和他们对你的态度。他们越不喜欢你，在你征召时他们派遣来的部队就会越少。因为封臣依然会支付(包括那些受你征召的)属于他们的部队的维护费，所以，在你征召他们的部队持续一年后，他们会越来越不喜欢你。;;;;;;;;;;;;x
+HINT_MIL_VIEW_TEXT_3;「雇佣兵」标签列出了所有您可以雇佣的雇佣兵团。雇佣兵是职业军人，只要您提供良好的报酬，他们就会高效的作战，但是如果您的国库见底了，他们可能会抛弃您，甚至倒戈加入您的敌人！;;;;;;;;;;;;x
 HINT_PLOT_VIEW_TITLE;密谋界面;;;;;;;;;;;;x
-HINT_PLOT_VIEW_TEXT_3;阴谋是一个达成一些不可告人的目的的阴暗但是有效的手段。和野心不同，阴谋需要一些幕后主使和同谋来达成。一个阴谋的进度由它的阴谋力量来衡量，阴谋力量则表现在参与者的密谋集团的影响力和密谋者们的职位。;;;;;;;;;;;;x
+HINT_PLOT_VIEW_TEXT_3;阴谋是一个为达成一些不可告人的目的的阴暗但是有效的手段。和野心不同，阴谋需要一些幕后主使和同谋来达成。一个阴谋的进度由它的阴谋力量来衡量，阴谋力量则表现在参与者的密谋集团的影响力和密谋者们的职位。;;;;;;;;;;;;x
 HINT_PLOT_VIEW_TEXT_4;您的间谍总管会发现别人的阴谋，这取决于他的密谋能力（除非他本人就参与其中）当你知道阴谋的时候，你可以尝试让主谋者放弃他/她的阴谋或者你可以使用其他手段.;;;;;;;;;;;;x
-HINT_DIPLO_VIEW_TEXT_1;这个界面列出了所有您可以向其他角色采取的行动。注意，除非一个角色本身是一位统治者，通常是他的领主来回应您的提议。;;;;;;;;;;;;x
+HINT_DIPLO_VIEW_TEXT_1;这个界面列出了所有您可以向其他角色采取的行动。注意，除非一个角色本身是一位统治者，否则通常是他的领主来回应您的提议。;;;;;;;;;;;;x
 HINT_DIPLO_VIEW_TEXT_2;当您向一个角色提出了一项建议，通常他们需要一些时间来回应。然而，您可以在提出建议前看到他们可能的反应及其原因。;;;;;;;;;;;;x
 HINT_DIPLO_VIEW_TEXT_3;在目标的接受程度的提示框中，如果绿色的加号(§G+§!) 的数量超过了红色的减号(§R-§!)，这个提案将可能被接受。;;;;;;;;;;;;x
 HINT_REL_VIEW_TITLE;宗教界面;;;;;;;;;;;;x
@@ -4879,7 +4879,7 @@ EXILE_IMPRISONED_INTERACTION_ACCEPT_SETUP;驱逐囚犯;;;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W决定驱逐§Y[Recipient.GetDynName]§W;;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_TITLE;要求改信;;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_DESC;要求[Recipient.GetBestName]皈依[Actor.Religion.GetName]信仰;;;;;;;;;;;;x
-DEMAND_RELIGIOUS_CONVERSION_INTERACTION_LONG_DESC;你可以要求封臣改宗，但是如果他们拒绝，对你的好感度将下降.;;;;;;;;;;;;x
+DEMAND_RELIGIOUS_CONVERSION_INTERACTION_LONG_DESC;你可以要求封臣改宗，但是如果他们拒绝，对你的好感度将下降。;;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_ACCEPT_SETUP;接受改信;;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§W同意了§Y[Actor.GetBestName]§W的要求，皈依[Actor.Religion.GetName];;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_DECLINE_SETUP;拒绝改信;;;;;;;;;;;;x
@@ -4895,7 +4895,7 @@ INVITE_TO_COURT_INTERACTION_DECLINE_SETUP;拒绝邀请;;;;;;;;;;;;x
 INVITE_TO_COURT_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝了 §Y[Actor.GetBestName]§! 加入[Actor.GetPossPronoun]宫廷的邀请;;;;;;;;;;;;x
 TRANSFER_VASSAL_INTERACTION_TITLE;转封封臣;;;;;;;;;;;;x
 TRANSFER_VASSAL_INTERACTION_DESC;将一个直属封臣转封给 §Y[Recipient.GetBestName]§!.;;;;;;;;;;;;x
-TRANSFER_VASSAL_INTERACTION_LONG_DESC;当你或你的直属封臣占有某人法理上的领地时，他会变得不喜欢你.;;;;;;;;;;;;x
+TRANSFER_VASSAL_INTERACTION_LONG_DESC;当你或你的直属封臣占有某人法理上的领地时，他会变得不喜欢你。;;;;;;;;;;;;x
 TRANSFER_VASSAL_INTERACTION_0;选择一个封臣转给 §Y[Recipient.GetTitledFirstName]§!.;;;;;;;;;;;;x
 TRANSFER_VASSAL_INTERACTION_1;转封 §Y[ThirdPartyCharacter.GetBestName]§! 给 §Y[Recipient.GetTitledFirstName]§!，增加[Recipient.GetPossPronoun]的好感度 §G$OPINION$§!.;;;;;;;;;;;;x
 TRANSFER_VASSAL_INTERACTION_ACCEPT_SETUP;转封封臣;;;;;;;;;;;;x
@@ -5530,10 +5530,10 @@ city_king_muslim;执政王;;;;;;;;;;;;x
 city_duke_latin;总督;;;;;;;;;;;;x
 city_duke_byzantine;总督;;;;;;;;;;;;x
 city_duke_muslim;执政埃米尔;;;;;;;;;;;;x
-city_count;大市长;;;;;;;;;;;;x
+city_count;市长大人;;;;;;;;;;;;x
 city_count_muslim;执政;;;;;;;;;;;;x
 city_baron;市长;;;;;;;;;;;;x
-city_count_female;女省长;;;;;;;;;;;;x
+city_count_female;市长女士;;;;;;;;;;;;x
 city_baron_female;市长;;;;;;;;;;;;x
 emperor_deed;尊贵的;;;;;;;;;;;;x
 king_deed;尊贵的;;;;;;;;;;;;x
