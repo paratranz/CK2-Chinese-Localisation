@@ -4252,7 +4252,7 @@ EVTDESC70017;我因我精湛武艺而闻名，但是对手似乎已经有了一�
 EVTOPTA70017;不太理想;;;;;;;;;;;;x
 EVTDESC70018;我的技艺是众所周知的，但越来越多的人听到的是相反的传言。;;;;;;;;;;;;x
 EVTOPTA70018;但是我依然还很强壮;;;;;;;;;;;;x
-EVTDESC70019;我惯常的显摆强韧在最近的一次近身战中被证明是误导性的。;;;;;;;;;;;;x
+EVTDESC70019;我习惯性的显摆强韧在最近的一次近身战中被证明是有误导性的。;;;;;;;;;;;;x
 EVTOPTA70019;我觉得虚弱;;;;;;;;;;;;x
 EVTDESC70020;我赢得了胜利，几次马上比武中的胜利再一次证明了我就是当之无愧的冠军。;;;;;;;;;;;;x
 EVTOPTA70020;胜利！;;;;;;;;;;;;x
@@ -4592,7 +4592,7 @@ EVTOPTA75120;采纳军事总管的意见;;;;;;;;;;;;x
 EVTOPTB75120;难以苟同;;;;;;;;;;;;x
 EVTDESC255;总有那么一群热爱「和平」的人，絮絮叨叨说说我采取了毫无必要的令人震惊的暴力行径。然后，我就会提醒他们，这就是战争！战争就意味着没有任何「毫无必要的暴力」。;;;;;;;;;;;;x
 EVTOPTA255;特别是把这种手段用在敌人身上时……;;;;;;;;;;;;x
-EVTDESC256;当军事总管[From.GetTitledFirstName]试图审问犯人使其招供出敌人的下一个攻击目标时，我阻止了[From.GetSheHe]的行为。这个带领我来到[From.GetTitledFirstName]，并指控[From.GetHerHim]采用了非必要暴力手段的士兵，试图从我这里获取支持。;;;;;;;;;;;;x
+EVTDESC256;军事总管[From.GetTitledFirstName]正审讯一名犯人有关敌人的下一个攻击目标时，我打断了[From.GetSheHe]。领我至[From.GetTitledFirstName]处的士兵，指控[From.GetHerHim]使用了不必要的暴行，同时双眼望向我渴求支持。;;;;;;;;;;;;x
 EVTOPTA256;这就是战争的残酷;;;;;;;;;;;;x
 EVTOPTB256;我也无法赞同[From.GetHerHis]行为;;;;;;;;;;;;x
 EVTOPTC256;[From.GetSheHeCap]是对的，我们必须让敌人感到害怕;;;;;;;;;;;;x
@@ -4721,7 +4721,7 @@ HINT_MIL_VIEW_TEXT_1;这个界面提供了您一个对您军事状况的概览�
 HINT_MIL_VIEW_TEXT_2;「封臣」标签列出了你所有的直属封臣和他们对你的态度。他们越不喜欢你，在你征召时他们派遣来的部队就会越少。因为封臣依然会支付(包括那些受你征召的)属于他们的部队的维护费，所以，在你征召他们的部队持续一年后，他们会越来越不喜欢你。;;;;;;;;;;;;x
 HINT_MIL_VIEW_TEXT_3;「雇佣兵」标签列出了所有您可以雇佣的雇佣兵团。雇佣兵是职业军人，只要您提供良好的报酬，他们就会高效的作战，但是如果您的国库见底了，他们可能会抛弃您，甚至倒戈加入您的敌人！;;;;;;;;;;;;x
 HINT_PLOT_VIEW_TITLE;密谋界面;;;;;;;;;;;;x
-HINT_PLOT_VIEW_TEXT_3;阴谋是一个为达成一些不可告人的目的的阴暗但是有效的手段。和野心不同，阴谋需要一些幕后主使和同谋来达成。一个阴谋的进度由它的阴谋力量来衡量，阴谋力量则表现在参与者的密谋集团的影响力和密谋者们的职位。;;;;;;;;;;;;x
+HINT_PLOT_VIEW_TEXT_3;要达成不那么无害的目标，不光彩的阴谋是有效手段。不同于野心，成功的阴谋同时需要幕后主使和同谋。一次阴谋的进度以“阴谋力量”计量，其体现了密谋者们的地位和集体影响力。;;;;;;;;;;;;x
 HINT_PLOT_VIEW_TEXT_4;您的间谍总管会发现别人的阴谋，这取决于他的密谋能力（除非他本人就参与其中）当你知道阴谋的时候，你可以尝试让主谋者放弃他/她的阴谋或者你可以使用其他手段.;;;;;;;;;;;;x
 HINT_DIPLO_VIEW_TEXT_1;这个界面列出了所有您可以向其他角色采取的行动。注意，除非一个角色本身是一位统治者，否则通常是他的领主来回应您的提议。;;;;;;;;;;;;x
 HINT_DIPLO_VIEW_TEXT_2;当您向一个角色提出了一项建议，通常他们需要一些时间来回应。然而，您可以在提出建议前看到他们可能的反应及其原因。;;;;;;;;;;;;x
@@ -4902,7 +4902,7 @@ TRANSFER_VASSAL_INTERACTION_ACCEPT_SETUP;转封封臣;;;;;;;;;;;;x
 TRANSFER_VASSAL_INTERACTION_ACCEPT_LOG;§Y[Actor.GetDynName]§! 已经将对于 §Y[ThirdPartyCharacter.GetDynName]§! 的附庸关系转移给了 §Y[Recipient.GetDynName]§!;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_TITLE;宣称头衔;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_DESC;宣称此人的头衔;;;;;;;;;;;;x
-CLAIM_TITLE_INTERACTION_LONG_DESC;编造某个头衔理应属于你的理由。这将消耗威望以使人们接受（如果有法理宣称，或者如果你的[Player.Religion.GetPietyName]较高，则只会消耗较少的威望。）头衔的现有者将会不高兴……;;;;;;;;;;;;x
+CLAIM_TITLE_INTERACTION_LONG_DESC;编造一个关于特定头衔理应属于你的理由。这将消耗威望以使人们接受（如果有法理宣称，或者如果你的[Player.Religion.GetPietyName]较高，则只会消耗较少的威望。）头衔的现有者将会不高兴……;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_0;选择宣称一个头衔。宣称头衔会消耗威望并降低§Y[Recipient.GetTitledFirstName]§!对你的好感度.;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_1;宣称 §Y[ThirdPartyTitle.GetFullName]§! ，消耗 §R$PRESTIGE$§! 威望.这将降低 §Y[Recipient.GetTitledFirstName]§!对你的好感度 §R$OPINION$§!.;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_ACCEPT_SETUP;已宣称的头衔;;;;;;;;;;;;x
@@ -4921,11 +4921,11 @@ AWARD_HONORARY_TITLE_INTERACTION_DESC;授予一个人物荣誉头衔;;;;;;;;;;;;
 AWARD_HONORARY_TITLE_INTERACTION_LONG_DESC;你可以向你的封臣授予荣誉头衔，以提高他们的好感.一些荣誉头衔会伴随着小块地产（带来一小笔收入）和每月获得的威望.;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_0;选择一个荣誉头衔授予 §Y[Recipient.GetTitledFirstName]§!.;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_1;将 §Y[ThirdPartyTitle.GetFullName]§! 授予 §Y[Recipient.GetTitledFirstName]§!.这将提高[Recipient.GetPossPronoun]好感度$OPINION$.;;;;;;;;;;;;x
-AWARD_HONORARY_TITLE_INTERACTION_ACCEPT_SETUP;授予荣誉头衔;;;;;;;;;;;;x
+AWARD_HONORARY_TITLE_INTERACTION_ACCEPT_SETUP;已授予荣誉头衔;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!授予§Y[Recipient.GetBestName]§!§Y[ThirdPartyTitle.GetFullName]§!;;;;;;;;;;;;x
 SEND_ASSASSIN_INTERACTION_TITLE;暗杀;;;;;;;;;;;;x
 SEND_ASSASSIN_INTERACTION_LONG_DESC;暗杀是一种排除可能带来麻烦的人的便捷方法.但是，利弊必须要仔细慎重地权衡，名誉上的污点很难在短期内被遗忘……;;;;;;;;;;;;x
-SEND_ASSASSIN_INTERACTION_ACCEPT_SETUP;暗杀尝试;;;;;;;;;;;;x
+SEND_ASSASSIN_INTERACTION_ACCEPT_SETUP;已尝试暗杀;;;;;;;;;;;;x
 SEND_ASSASSIN_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 据传言与对 §Y[Recipient.GetBestName]§!的谋杀有关;;;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_TITLE;宣战;;;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_DESC;对此人宣战。;;;;;;;;;;;;x
@@ -4937,7 +4937,7 @@ DECLARE_WAR_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!对§Y[Recipient.Get
 OFFER_PEACE_INTERACTION_TITLE;议和;;;;;;;;;;;;x
 OFFER_PEACE_INTERACTION_DESC;提议和平;;;;;;;;;;;;x
 OFFER_PEACE_INTERACTION_LONG_DESC;提议结束战争.;;;;;;;;;;;;x
-OFFER_PEACE_INTERACTION_ACCEPT_SETUP;接受和平协议;;;;;;;;;;;;x
+OFFER_PEACE_INTERACTION_ACCEPT_SETUP;已接受和平协议;;;;;;;;;;;;x
 OFFER_PEACE_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 接受 §Y[Actor.GetBestName]§!的和平协议.;;;;;;;;;;;;x
 OFFER_PEACE_INTERACTION_DECLINE_SETUP;拒绝和平协议;;;;;;;;;;;;x
 OFFER_PEACE_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝 §Y[Actor.GetBestName]§!的和平协议.;;;;;;;;;;;;x
@@ -4946,9 +4946,9 @@ SEND_GIFT_INTERACTION_TITLE;赠送礼物;;;;;;;;;;;;x
 SEND_GIFT_INTERACTION_DESC;赠送价值 §Y$COST$§W¤ 的礼物给§Y[Recipient.GetBestName]§!。\n这将改善我们的关系。;;;;;;;;;;;;x
 SEND_GIFT_INTERACTION_0;赠送价值 §Y$COST$§W¤ 的礼物给§Y[Recipient.GetBestName]§!，提高[Recipient.GetPossPronoun]好感度 §G$OPINION$§!。;;;;;;;;;;;;x
 SEND_GIFT_INTERACTION_1;从教会礼物获得虔诚：§G$PIETY$§!;;;;;;;;;;;;x
-SEND_GIFT_INTERACTION_ACCEPT_SETUP;接受礼物;;;;;;;;;;;;x
+SEND_GIFT_INTERACTION_ACCEPT_SETUP;已接受礼物;;;;;;;;;;;;x
 SEND_GIFT_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 接受了 §Y[Actor.GetBestName]§!赠送的礼物;;;;;;;;;;;;x
-SEND_GIFT_INTERACTION_DECLINE_SETUP;拒绝礼物;;;;;;;;;;;;x
+SEND_GIFT_INTERACTION_DECLINE_SETUP;已拒绝礼物;;;;;;;;;;;;x
 SEND_GIFT_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝了 §Y[Actor.GetBestName]§!赠送的礼物;;;;;;;;;;;;x
 SEND_GIFT_INTERACTION_OFFER;[Actor.GetBestName]赠送了价值 §Y$COST$§W 的礼物给我们！;;;;;;;;;;;;x
 SEND_GIFT_INTERACTION_LETTER;请笑纳价值§Y$COST$§W的薄礼。;;;;;;;;;;;;x
