@@ -4875,7 +4875,7 @@ EXILE_IMPRISONED_INTERACTION_TITLE;驱逐囚犯;;;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_DESC;驱逐[Recipient.GetBestName]出境;;;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_0;驱逐§Y[Recipient.GetBestName]§!出境。;;;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_1;§Y$GOLD$§!金钱将被没收。;;;;;;;;;;;;x
-EXILE_IMPRISONED_INTERACTION_ACCEPT_SETUP;被流放的囚犯;;;;;;;;;;;;x
+EXILE_IMPRISONED_INTERACTION_ACCEPT_SETUP;已流放囚犯;;;;;;;;;;;;x
 EXILE_IMPRISONED_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W决定驱逐§Y[Recipient.GetDynName]§W;;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_TITLE;要求改信;;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_DESC;要求[Recipient.GetBestName]皈依[Actor.Religion.GetName]信仰;;;;;;;;;;;;x
@@ -4905,8 +4905,8 @@ CLAIM_TITLE_INTERACTION_DESC;宣称此人的头衔;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_LONG_DESC;编造一个关于特定头衔理应属于你的理由。这将消耗威望以使人们接受（如果有法理宣称，或者如果你的[Player.Religion.GetPietyName]较高，则只会消耗较少的威望。）头衔的现有者将会不高兴……;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_0;选择宣称一个头衔。宣称头衔会消耗威望并降低§Y[Recipient.GetTitledFirstName]§!对你的好感度.;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_1;宣称 §Y[ThirdPartyTitle.GetFullName]§! ，消耗 §R$PRESTIGE$§! 威望.这将降低 §Y[Recipient.GetTitledFirstName]§!对你的好感度 §R$OPINION$§!.;;;;;;;;;;;;x
-CLAIM_TITLE_INTERACTION_ACCEPT_SETUP;已宣称的头衔;;;;;;;;;;;;x
-CLAIM_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 宣称 §Y[ThirdPartyTitle.GetFullName]§!，原主人 §Y[Recipient.GetBestName]§!;;;;;;;;;;;;x
+CLAIM_TITLE_INTERACTION_ACCEPT_SETUP;已宣称头衔;;;;;;;;;;;;x
+CLAIM_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 宣称 §Y[ThirdPartyTitle.GetFullName]§!，被 §Y[Recipient.GetBestName]§! 持有;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_TITLE;剥夺头衔;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_DESC;剥夺一个角色的头衔;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_LONG_DESC;剥夺一个封臣的头衔。这将激怒封臣，而且除非你对这个头衔有宣称权，还将损害你的威望并激怒其他封臣。;;;;;;;;;;;;x
@@ -4918,13 +4918,13 @@ REVOKE_TITLE_INTERACTION_ACCEPT_SETUP;剥夺头衔;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 从 §Y[Recipient.GetBestName]§! 手中收回 §Y[ThirdPartyTitle.GetFullName]§!.;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_TITLE;授予荣誉头衔;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_DESC;授予一个人物荣誉头衔;;;;;;;;;;;;x
-AWARD_HONORARY_TITLE_INTERACTION_LONG_DESC;你可以向你的封臣授予荣誉头衔，以提高他们的好感.一些荣誉头衔会伴随着小块地产（带来一小笔收入）和每月获得的威望.;;;;;;;;;;;;x
-AWARD_HONORARY_TITLE_INTERACTION_0;选择一个荣誉头衔授予 §Y[Recipient.GetTitledFirstName]§!.;;;;;;;;;;;;x
-AWARD_HONORARY_TITLE_INTERACTION_1;将 §Y[ThirdPartyTitle.GetFullName]§! 授予 §Y[Recipient.GetTitledFirstName]§!.这将提高[Recipient.GetPossPronoun]好感度$OPINION$.;;;;;;;;;;;;x
+AWARD_HONORARY_TITLE_INTERACTION_LONG_DESC;你可以授予荣誉头衔给你的臣民，这将提高他们对你的好感度。部分荣誉头衔附带次级产权（一种经济收入来源）和每月的威望收入。;;;;;;;;;;;;x
+AWARD_HONORARY_TITLE_INTERACTION_0;选择一个荣誉头衔授予 §Y[Recipient.GetTitledFirstName]§!。;;;;;;;;;;;;x
+AWARD_HONORARY_TITLE_INTERACTION_1;将 §Y[ThirdPartyTitle.GetFullName]§! 授予 §Y[Recipient.GetTitledFirstName]§!。这将提高[Recipient.GetPossPronoun]对你的好感度$OPINION$。;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_ACCEPT_SETUP;已授予荣誉头衔;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!授予§Y[Recipient.GetBestName]§!§Y[ThirdPartyTitle.GetFullName]§!;;;;;;;;;;;;x
 SEND_ASSASSIN_INTERACTION_TITLE;暗杀;;;;;;;;;;;;x
-SEND_ASSASSIN_INTERACTION_LONG_DESC;暗杀是一种排除可能带来麻烦的人的便捷方法.但是，利弊必须要仔细慎重地权衡，名誉上的污点很难在短期内被遗忘……;;;;;;;;;;;;x
+SEND_ASSASSIN_INTERACTION_LONG_DESC;暗杀的好处是能方便地去掉麻烦人物。然而，应当慎重权衡利弊风险——一旦暴露，这污名很难被遗忘……;;;;;;;;;;;;x
 SEND_ASSASSIN_INTERACTION_ACCEPT_SETUP;已尝试暗杀;;;;;;;;;;;;x
 SEND_ASSASSIN_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 据传言与对 §Y[Recipient.GetBestName]§!的谋杀有关;;;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_TITLE;宣战;;;;;;;;;;;;x
@@ -4955,9 +4955,9 @@ SEND_GIFT_INTERACTION_LETTER;请笑纳价值§Y$COST$§W的薄礼。;;;;;;;;;;;;
 OFFER_VASSALIZATION_INTERACTION_TITLE;提议附庸;;;;;;;;;;;;x
 OFFER_VASSALIZATION_INTERACTION_DESC;向§Y[Recipient.GetBestName]§!发出一个提议，要求他们成为我们的封臣。;;;;;;;;;;;;x
 OFFER_VASSALIZATION_INTERACTION_LONG_DESC;我们可以向级别比我们低的有地贵族提议附庸，尽管他们很可能不会接受，除非他们比我们弱很多，或是与我们宗教和文化相同.;;;;;;;;;;;;x
-OFFER_VASSALIZATION_INTERACTION_ACCEPT_SETUP;接受附庸;;;;;;;;;;;;x
+OFFER_VASSALIZATION_INTERACTION_ACCEPT_SETUP;已接受附庸;;;;;;;;;;;;x
 OFFER_VASSALIZATION_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 同意成为 §Y[Actor.GetBestName]§!的封臣;;;;;;;;;;;;x
-OFFER_VASSALIZATION_INTERACTION_DECLINE_SETUP;拒绝附庸;;;;;;;;;;;;x
+OFFER_VASSALIZATION_INTERACTION_DECLINE_SETUP;已拒绝附庸;;;;;;;;;;;;x
 OFFER_VASSALIZATION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝成为 §Y[Actor.GetBestName]§!的封臣;;;;;;;;;;;;x
 OFFER_VASSALIZATION_INTERACTION_OFFER;[Actor.GetBestName]提议成为我们的领主;;;;;;;;;;;;x
 OFFER_VASSALIZATION_INTERACTION_LETTER;我们希望将贵国置于[Actor.GetLordLady]的保护之下.我们所要求的只有一纸效忠契约……;;;;;;;;;;;;x
@@ -4965,13 +4965,13 @@ ASK_FOR_VASSALIZATION_INTERACTION_TITLE;宣誓效忠;;;;;;;;;;;;x
 ASK_FOR_VASSALIZATION_INTERACTION_DESC;向§Y[Recipient.GetBestName]§!发出一个提议，请求[Recipient.GetPossPronoun]作为我的新领主，提供保护。;;;;;;;;;;;;x
 ASK_FOR_VASSALIZATION_INTERACTION_LONG_DESC;我们可以向级别比我们高的贵族宣誓效忠.他们不太可能拒绝.;;;;;;;;;;;;x
 ASK_FOR_VASSALIZATION_INTERACTION_1;这将极大地激怒我们的原领主 §Y$OLD_LIEGE$§!.;;;;;;;;;;;;x
-ASK_FOR_VASSALIZATION_INTERACTION_ACCEPT_SETUP;接受效忠;;;;;;;;;;;;x
+ASK_FOR_VASSALIZATION_INTERACTION_ACCEPT_SETUP;已接受效忠;;;;;;;;;;;;x
 ASK_FOR_VASSALIZATION_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 同意成为§Y[Actor.GetBestName]§!的新领主[Recipient.GetLordLady];;;;;;;;;;;;x
-ASK_FOR_VASSALIZATION_INTERACTION_DECLINE_SETUP;拒绝效忠;;;;;;;;;;;;x
+ASK_FOR_VASSALIZATION_INTERACTION_DECLINE_SETUP;已拒绝效忠;;;;;;;;;;;;x
 ASK_FOR_VASSALIZATION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝成为§Y[Actor.GetBestName]§!的新领主[Recipient.GetLordLady];;;;;;;;;;;;x
 ASK_FOR_VASSALIZATION_INTERACTION_OFFER;[Actor.GetBestName]请求成为我们的封臣.;;;;;;;;;;;;x
 ASK_FOR_VASSALIZATION_INTERACTION_LETTER;我谦卑地要求你接受我们的效忠，成为我的新领主，[Recipient.GetLordLady].;;;;;;;;;;;;x
-ARRANGE_BETROTHAL_INTERACTION_TITLE;订婚;;;;;;;;;;;;x
+ARRANGE_BETROTHAL_INTERACTION_TITLE;筹措订婚;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_DESC;安排订婚;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_LONG_DESC;未成年的儿童可以互相订立婚约.婚约将持续到双方成婚，一方去世，或是被撕毁为止.;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_0;选择未来的新郎和新娘.;;;;;;;;;;;;x
