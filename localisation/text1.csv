@@ -4036,7 +4036,7 @@ EVTDESC72023;[From.GetTitledFirstName]向大家发言，让大家看看宴会上
 EVTOPTA72023;说的很好！;;;;;;;;;;;;x
 EVTDESC72024;一些客人似乎并不满意这些食物，但我绝没想到[From.GetTitledFirstName]大声地辱骂这些食物，让我没法不发火！;;;;;;;;;;;;x
 EVTOPTA72024;假如你不会说话，别乱叫！;;;;;;;;;;;;x
-EVTDESC72025;我被安排坐在一位我从未真正与之交流过的人的边上。我们最后一起在花园里喝了几瓶从来自[Root.Liege.GetTitledFirstName]的佳酿。;;;;;;;;;;;;x
+EVTDESC72025;我的座席在一位我从未真正与之交谈过的人的边上。我们最后一起在花园里喝了几瓶酒，它们是来自[Root.Liege.GetTitledFirstName]的储酒充盈的窖藏。;;;;;;;;;;;;x
 EVTOPTA72025;我想我已经交了个新朋友;;;;;;;;;;;;x
 EVTTOOLTIP72026;[This.GetTitledFirstName]和[Root.GetTitledFirstName]现在是朋友了;;;;;;;;;;;;x
 EVTDESC72026;我和[From.GetTitledFirstName]一起在花园里聊了几个小时，直到我们都感觉有点困了，也许我们喝醉了……;;;;;;;;;;;;x
@@ -4212,7 +4212,7 @@ EVTTOOLTIP72113;宣布宴会取消的信件寄给了所有被邀请的人;;;;;;;
 EVTDESC72113;亲爱的[Root.GetTitledFirstName]，因为这场不幸的战争，我必须取消宴会。战争结束以后，我希望你能参加我的庆功宴。\n\n[From.GetTitledFirstName];;;;;;;;;;;;x
 EVTOPTA72113;那就再看吧，记得叫我;;;;;;;;;;;;x
 hold_a_epic_tournament;举办盛大的比武;;;;;;;;;;;;x
-hold_a_epic_tournament_desc;让我们举办一场传说般的比武大会。我的御期内将不会再有此盛况了。;;;;;;;;;;;;x
+hold_a_epic_tournament_desc;让我们举办一场只在传说中存在的比武大会。我们的御期内将不会再有此盛况了。;;;;;;;;;;;;x
 tournament_invite;让所有境内的骑士都参加;;;;;;;;;;;;x
 EVTDESC70000;一位廷臣已经派去邀请境内所有骑士参加比武大会，像这样的盛事每位君主的统治中只能见到一次。;;;;;;;;;;;;x
 EVTOPTA70000;证明我们价值的机会;;;;;;;;;;;;x
@@ -4252,7 +4252,7 @@ EVTDESC70017;我因我精湛武艺而闻名，但是对手似乎已经有了一�
 EVTOPTA70017;不太理想;;;;;;;;;;;;x
 EVTDESC70018;我的技艺是众所周知的，但越来越多的人听到的是相反的传言。;;;;;;;;;;;;x
 EVTOPTA70018;但是我依然还很强壮;;;;;;;;;;;;x
-EVTDESC70019;最近一场马上比武中关于我是否强壮的传闻被证为谣言。;;;;;;;;;;;;x
+EVTDESC70019;我惯常的显摆强韧在最近的一次近身战中被证明是误导性的。;;;;;;;;;;;;x
 EVTOPTA70019;我觉得虚弱;;;;;;;;;;;;x
 EVTDESC70020;我赢得了胜利，几次马上比武中的胜利再一次证明了我就是当之无愧的冠军。;;;;;;;;;;;;x
 EVTOPTA70020;胜利！;;;;;;;;;;;;x
@@ -4899,11 +4899,11 @@ TRANSFER_VASSAL_INTERACTION_LONG_DESC;当你或你的直属封臣占有某人法
 TRANSFER_VASSAL_INTERACTION_0;选择一个封臣转给 §Y[Recipient.GetTitledFirstName]§!.;;;;;;;;;;;;x
 TRANSFER_VASSAL_INTERACTION_1;转封 §Y[ThirdPartyCharacter.GetBestName]§! 给 §Y[Recipient.GetTitledFirstName]§!，增加[Recipient.GetPossPronoun]的好感度 §G$OPINION$§!.;;;;;;;;;;;;x
 TRANSFER_VASSAL_INTERACTION_ACCEPT_SETUP;转封封臣;;;;;;;;;;;;x
-TRANSFER_VASSAL_INTERACTION_ACCEPT_LOG;§Y[Actor.GetDynName]§! 转封 §Y[ThirdPartyCharacter.GetDynName]§! 给 §Y[Recipient.GetDynName]§!;;;;;;;;;;;;x
+TRANSFER_VASSAL_INTERACTION_ACCEPT_LOG;§Y[Actor.GetDynName]§! 已经将对于 §Y[ThirdPartyCharacter.GetDynName]§! 的附庸关系转移给了 §Y[Recipient.GetDynName]§!;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_TITLE;宣称头衔;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_DESC;宣称此人的头衔;;;;;;;;;;;;x
-CLAIM_TITLE_INTERACTION_LONG_DESC;编造理由证明这个头衔理应属于你。这将消耗威望以使其他人接受（如果这是你法理上的领地，或者你的[Player.Religion.GetPietyName]很高）头衔的现有者会很不高兴……;;;;;;;;;;;;x
-CLAIM_TITLE_INTERACTION_0;选择一个头衔.宣称头衔会降低威望并降低§Y[Recipient.GetTitledFirstName]§!对你的好感度.;;;;;;;;;;;;x
+CLAIM_TITLE_INTERACTION_LONG_DESC;编造某个头衔理应属于你的理由。这将消耗威望以使人们接受（如果有法理宣称，或者如果你的[Player.Religion.GetPietyName]较高，则只会消耗较少的威望。）头衔的现有者将会不高兴……;;;;;;;;;;;;x
+CLAIM_TITLE_INTERACTION_0;选择宣称一个头衔。宣称头衔会消耗威望并降低§Y[Recipient.GetTitledFirstName]§!对你的好感度.;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_1;宣称 §Y[ThirdPartyTitle.GetFullName]§! ，消耗 §R$PRESTIGE$§! 威望.这将降低 §Y[Recipient.GetTitledFirstName]§!对你的好感度 §R$OPINION$§!.;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_ACCEPT_SETUP;已宣称的头衔;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 宣称 §Y[ThirdPartyTitle.GetFullName]§!，原主人 §Y[Recipient.GetBestName]§!;;;;;;;;;;;;x
@@ -4917,7 +4917,7 @@ REVOKE_TITLE_INTERACTION_3;有 §R$RISK$%§! 几率 [Recipient.GetSubjectPronoun
 REVOKE_TITLE_INTERACTION_ACCEPT_SETUP;剥夺头衔;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 从 §Y[Recipient.GetBestName]§! 手中收回 §Y[ThirdPartyTitle.GetFullName]§!.;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_TITLE;授予荣誉头衔;;;;;;;;;;;;x
-AWARD_HONORARY_TITLE_INTERACTION_DESC;授予此人荣誉头衔;;;;;;;;;;;;x
+AWARD_HONORARY_TITLE_INTERACTION_DESC;授予一个人物荣誉头衔;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_LONG_DESC;你可以向你的封臣授予荣誉头衔，以提高他们的好感.一些荣誉头衔会伴随着小块地产（带来一小笔收入）和每月获得的威望.;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_0;选择一个荣誉头衔授予 §Y[Recipient.GetTitledFirstName]§!.;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_1;将 §Y[ThirdPartyTitle.GetFullName]§! 授予 §Y[Recipient.GetTitledFirstName]§!.这将提高[Recipient.GetPossPronoun]好感度$OPINION$.;;;;;;;;;;;;x
