@@ -3328,7 +3328,7 @@ EVTDESC67000;有的统治者无视耶稣基督赐予圣教会的法规。;;;;;;;
 EVTOPTA67000;要求他们遵从真正的教义;;;;;;;;;;;;x
 EVTOPTB67000;上帝会惩罚他们的……;;;;;;;;;;;;x
 EVTTOOLTIP67001;将要阅读教宗的来信。;;;;;;;;;;;;x
-EVTDESC67001;教宗对我们的自由授职法感到不满，圣父要求我们将它改为教宗授职法。;;;;;;;;;;;;x
+EVTDESC67001;教宗对我们的自主神职叙任权感到不满，圣父要求我们将它改为教宗叙任权以符合教会信条。;;;;;;;;;;;;x
 EVTOPTA67001;我们总是遵从圣谕。;;;;;;;;;;;;x
 EVTOPTB67001;我的领土我作主！;;;;;;;;;;;;x
 EVTOPTC67001;送给教会一些金子就能让他们闭嘴。;;;;;;;;;;;;x
@@ -4917,14 +4917,14 @@ REVOKE_TITLE_INTERACTION_3;有 §R$RISK$%§! 几率 [Recipient.GetSubjectPronoun
 REVOKE_TITLE_INTERACTION_ACCEPT_SETUP;剥夺头衔;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 从 §Y[Recipient.GetBestName]§! 手中收回 §Y[ThirdPartyTitle.GetFullName]§!.;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_TITLE;授予荣誉头衔;;;;;;;;;;;;x
-AWARD_HONORARY_TITLE_INTERACTION_DESC;授予一个人物荣誉头衔;;;;;;;;;;;;x
+AWARD_HONORARY_TITLE_INTERACTION_DESC;授予一个角色荣誉头衔;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_LONG_DESC;你可以授予荣誉头衔给你的臣民，这将提高他们对你的好感度。部分荣誉头衔附带次级产权（一种经济收入来源）和每月的威望收入。;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_0;选择一个荣誉头衔授予 §Y[Recipient.GetTitledFirstName]§!。;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_1;将 §Y[ThirdPartyTitle.GetFullName]§! 授予 §Y[Recipient.GetTitledFirstName]§!。这将提高[Recipient.GetPossPronoun]对你的好感度$OPINION$。;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_ACCEPT_SETUP;已授予荣誉头衔;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!授予§Y[Recipient.GetBestName]§!§Y[ThirdPartyTitle.GetFullName]§!;;;;;;;;;;;;x
 SEND_ASSASSIN_INTERACTION_TITLE;暗杀;;;;;;;;;;;;x
-SEND_ASSASSIN_INTERACTION_LONG_DESC;暗杀的好处是能方便地去掉麻烦人物。然而，应当慎重权衡利弊风险——一旦暴露，这污名将被铭记……;;;;;;;;;;;;x
+SEND_ASSASSIN_INTERACTION_LONG_DESC;暗杀的好处是能方便地去掉麻烦角色。然而，应当慎重权衡利弊风险——一旦暴露，这污名将被铭记……;;;;;;;;;;;;x
 SEND_ASSASSIN_INTERACTION_ACCEPT_SETUP;已尝试暗杀;;;;;;;;;;;;x
 SEND_ASSASSIN_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 据传言卷入了针对 §Y[Recipient.GetBestName]§!的一场谋杀企图;;;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_TITLE;宣战;;;;;;;;;;;;x
@@ -4935,7 +4935,7 @@ DECLARE_WAR_INTERACTION_2;攻击盟友会花费 §R$PRESTIGE$§! 威望;;;;;;;;;
 DECLARE_WAR_INTERACTION_ACCEPT_SETUP;宣战;;;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!对§Y[Recipient.GetBestName]§!发动$WAR$;;;;;;;;;;;;x
 OFFER_PEACE_INTERACTION_TITLE;议和;;;;;;;;;;;;x
-OFFER_PEACE_INTERACTION_DESC;向一个人物提议和平;;;;;;;;;;;;x
+OFFER_PEACE_INTERACTION_DESC;向一个角色提议和平;;;;;;;;;;;;x
 OFFER_PEACE_INTERACTION_LONG_DESC;试图以谈判来结束眼下的战争。;;;;;;;;;;;;x
 OFFER_PEACE_INTERACTION_ACCEPT_SETUP;已接受和平条件;;;;;;;;;;;;x
 OFFER_PEACE_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 接受了 §Y[Actor.GetBestName]§!的和平条件。;;;;;;;;;;;;x
@@ -4972,10 +4972,10 @@ ASK_FOR_VASSALIZATION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒�
 ASK_FOR_VASSALIZATION_INTERACTION_OFFER;[Actor.GetBestName]请求成为我们的封臣.;;;;;;;;;;;;x
 ASK_FOR_VASSALIZATION_INTERACTION_LETTER;我谦卑恳求你接受我们的效忠誓言，成为我们的新领主，[Recipient.GetLordLady].;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_TITLE;安排订婚;;;;;;;;;;;;x
-ARRANGE_BETROTHAL_INTERACTION_DESC;安排两个人物的订婚;;;;;;;;;;;;x
+ARRANGE_BETROTHAL_INTERACTION_DESC;安排两个角色的订婚;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_LONG_DESC;儿童不得结婚，但他们可以订立婚约。所订立的婚约有效至双方成婚，一方去世，或显著违约。;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_0;选择未来的新郎和新娘.;;;;;;;;;;;;x
-ARRANGE_BETROTHAL_INTERACTION_1;选择一位 §Y$CHAR$§!宫廷里的人物。;;;;;;;;;;;;x
+ARRANGE_BETROTHAL_INTERACTION_1;选择一位 §Y$CHAR$§!宫廷里的角色。;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_ACCEPT_SETUP;已接受订婚提议;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 接受 §Y[Actor.GetBestName]§! 的提议，§Y[ActorExtra.GetBestName]§! 和 §Y[RecipientExtra.GetBestName]§! 将订立婚约.;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_DECLINE_SETUP;已拒绝订婚提议;;;;;;;;;;;;x
@@ -4983,7 +4983,7 @@ ARRANGE_BETROTHAL_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝 �
 ARRANGE_BETROTHAL_INTERACTION_OFFER;[Actor.GetBestName]提议[ActorExtra.GetBestName]和[RecipientExtra.GetBestName]订婚;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_LETTER;我们提议[ActorExtra.GetBestName]和[RecipientExtra.GetBestName]订婚.;;;;;;;;;;;;x
 BREAK_BETROTHAL_INTERACTION_TITLE;撕毁婚约;;;;;;;;;;;;x
-BREAK_BETROTHAL_INTERACTION_DESC;撕毁与一个人物所订立的婚约;;;;;;;;;;;;x
+BREAK_BETROTHAL_INTERACTION_DESC;撕毁与一个角色所订立的婚约;;;;;;;;;;;;x
 BREAK_BETROTHAL_INTERACTION_LONG_DESC;婚约随时都可以撕毁，不过另一方会很不高兴……;;;;;;;;;;;;x
 BREAK_BETROTHAL_INTERACTION_0;撕毁 §Y[Recipient.GetBestName]§! 和 §Y[Recipient.Betrothed.GetBestName]§!的婚约.;;;;;;;;;;;;x
 BREAK_BETROTHAL_INTERACTION_1;这将使 §Y$OTHER$§!对你的好感下降 §R$VALUE$§!.;;;;;;;;;;;;x
@@ -14676,8 +14676,8 @@ investiture_law_desc;神职叙任权决定主教的任命权归谁——教宗�
 investiture_law_0;教宗神职叙任权;;;;;;;;;;;;x
 investiture_law_0_option;教宗;;;;;;;;;;;;x
 investiture_law_0_desc;由教宗任命领内的主教。这项法案将使统治者向教宗求助（比如离婚和绝罚）时减免 §G50%§! 虔诚。;;;;;;;;;;;;x
-investiture_law_1;自由授职;;;;;;;;;;;;x
-investiture_law_1_option;自由;;;;;;;;;;;;x
+investiture_law_1;自主神职叙任权;;;;;;;;;;;;x
+investiture_law_1_option;自主;;;;;;;;;;;;x
 investiture_law_1_desc;由君主任命王国内的主教。主教们会加倍效忠君主，教宗则会非常失望。;;;;;;;;;;;;x
 crown_city_charters_only;皇家城市授权法;;;;;;;;;;;;x
 crown_city_charters_only_desc;王国内的城市只能由国王授权（只能是国王的封臣）。;;;;;;;;;;;;x
@@ -14727,7 +14727,7 @@ LOADING_TIP_10;教宗会给好天主教徒巨大的加成;;;;;;;;;;;;x
 LOADING_TIP_11;雇佣兵是职业军人，他们会为你带来胜利——只要你保证好好付钱;;;;;;;;;;;;x
 LOADING_TIP_13;按住鼠标中键可以旋转地图;;;;;;;;;;;;x
 LOADING_TIP_14;你可以通过手动或自动方式隐藏迷你地图;;;;;;;;;;;;x
-LOADING_TIP_16;如果你是自由授职法，教宗可能会要求你修改该法律;;;;;;;;;;;;x
+LOADING_TIP_16;如果你是自主神职叙任权，教宗可能会要求你修改该法律;;;;;;;;;;;;x
 LOADING_TIP_17;不要让教宗失望，否则他有可能会将你绝罚;;;;;;;;;;;;x
 LOADING_TIP_18;如果你年老且膝下无子，你的家族成员可能会要求你的头衔;;;;;;;;;;;;x
 LOADING_TIP_20;一个宗教的宗教权威越高，其对异端的容忍度越低;;;;;;;;;;;;x
@@ -15067,7 +15067,7 @@ opinion_realm_related_culture;外国人;;;;;;;;;;;;x
 opinion_infidel;异教徒;;;;;;;;;;;;x
 opinion_heretic;异端;;;;;;;;;;;;x
 opinion_related_religion;宗教不同;;;;;;;;;;;;x
-opinion_investiture;神职叙任;;;;;;;;;;;;x
+opinion_investiture;神职叙任权;;;;;;;;;;;;x
 opinion_controlled_antipope;控制的对立教宗;;;;;;;;;;;;x
 opinion_rightful_rel_head;宗教领袖;;;;;;;;;;;;x
 opinion_potential_cuckold;怀疑;;;;;;;;;;;;x
@@ -17947,7 +17947,7 @@ seniority;长者继承法;;;;;;;;;;;;x
 primogeniture;长子继承法;;;;;;;;;;;;x
 turkish_succession;土耳其继承法;;;;;;;;;;;;x
 open_elective;开放选举法;;;;;;;;;;;;x
-catholic_bishopric;授职法;;;;;;;;;;;;x
+catholic_bishopric;神职叙任;;;;;;;;;;;;x
 AGNATIC;父系;;;;;;;;;;;;x
 COGNATIC;平等;;;;;;;;;;;;x
 UNREST;动荡;;;;;;;;;;;;x
@@ -18110,7 +18110,7 @@ NR_OF_ANTIPOPES;对立教宗;;;;;;;;;;;;x
 YEARLY_INCOME;年收入;;;;;;;;;;;;x
 PAYS_TAXES_TO;支付税金给;;;;;;;;;;;;x
 APPOINT;任命;;;;;;;;;;;;x
-ANTIPOPE_CHURCH_INVESTITURE;§R王国必须有自由授职法§!;;;;;;;;;;;;x
+ANTIPOPE_CHURCH_INVESTITURE;§R王国必须有自主神职叙任权§!;;;;;;;;;;;;x
 ANTIPOPE_TOO_LOW_OPINION;§R他喜欢教宗（§Y$POPE$§R）更甚于我们 （§Y$US$§R）§!;;;;;;;;;;;;x
 ANTIPOPE_ALREADY_HAVE_ONE;§R我们已经控制了一位对立教宗§!;;;;;;;;;;;;x
 ANTIPOPE_NOT_ENOUGH_PRESTIGE;§R我们至少需要§Y$NEED$§R威望§!;;;;;;;;;;;;x
@@ -19513,7 +19513,7 @@ tut_menu_4_description;角色好感、特质和联姻;;;;;;;;;;;;x
 tut_menu_7;阴谋;;;;;;;;;;;;x
 tut_menu_7_description;了解野心、叛乱和阴谋界面;;;;;;;;;;;;x
 tut_menu_8;宗教;;;;;;;;;;;;x
-tut_menu_8_description;了解教宗的能力、十字军远征、骑士团、授职法和对立教宗。;;;;;;;;;;;;x
+tut_menu_8_description;了解教宗的能力、十字军远征、骑士团、神职叙任权和对立教宗;;;;;;;;;;;;x
 tut_0a_1;欢迎来到王国风云II的世界;;;;;;;;;;;;x
 tut_0a_2;本节是王国风云II的序章部分，本游戏是一个以中世纪欧洲为背景的战略游戏，你将以皇帝、国王、公爵或伯爵的身份，创造属于你的辉煌家族！\n那么该从哪里开始呢？请点击继续。;;;;;;;;;;;;x
 tut_0a_3;领地界面;;;;;;;;;;;;x
@@ -19702,12 +19702,12 @@ tut_8a_5;如果教宗号召十字军远征，则会在这里列出。该窗口�
 tut_8b_1;宗教 - 中级;;;;;;;;;;;;x
 tut_8b_2;本节将讨论有关好感、法律和圣战的事。请点击「继续」。;;;;;;;;;;;;x
 tut_8b_3;宗教封臣;;;;;;;;;;;;x
-tut_8b_5;授职法;;;;;;;;;;;;x
+tut_8b_5;神职叙任权;;;;;;;;;;;;x
 tut_8b_7;十字军;;;;;;;;;;;;x
 tut_8c_1;宗教 - 高级;;;;;;;;;;;;x
 tut_8c_2;如果碰巧你是独立的统治者，并且已经与罗马教宗交恶，你可以指定一个对立的对立教宗。你可以利用这个对立教宗与罗马教宗开战，如果你赢了，你就能将教宗更换为你指定的对立教宗。点击宗教按钮继续。;;;;;;;;;;;;x
 tut_8c_3;对立教宗;;;;;;;;;;;;x
-tut_8c_4;指定一个对立教宗的条件是：自由授职法，以及一个喜欢你更甚于罗马教宗的主教。正如你所见，你有一个主教，但不幸的的是，他并不是很喜欢你。如果条件符合，我们可以点击好感值下面的小按钮让他成为对立教宗。;;;;;;;;;;;;x
+tut_8c_4;指定一个对立教宗的条件是：自主神职叙任权，以及一个喜欢你更甚于罗马教宗的主教。正如你所见，你有一个主教，但不幸的的是，他并不是很喜欢你。如果条件符合，我们可以点击好感值下面的小按钮让他成为对立教宗。;;;;;;;;;;;;x
 tut_8c_5;一旦你有了自己的对立教宗，喜欢这个对立教宗更甚于罗马教宗的人都会缴税给你，你可以避免被绝罚，而且可以利用对立教宗开始一场反对罗马教宗的战争。点击继续结束本节。;;;;;;;;;;;;x
 tut_9b_1;封建制度 - 初级和中级;;;;;;;;;;;;x
 tut_9b_3;统治阶级;;;;;;;;;;;;x
