@@ -3594,7 +3594,7 @@ character_event = {
 			}
 			1 = {
 				trigger = { NOT = { event_target:temple_name_title = { has_title_flag = temple_name_Guangzong } } }
-				set_name = "广宗"
+				set_name = "光宗"
 				event_target:temple_name_title = { set_title_flag = temple_name_Guangzong }
 				set_character_flag = given_temple_name_by_script
 			}
@@ -3642,7 +3642,7 @@ character_event = {
 			}
 			1 = {
 				trigger = { NOT = { event_target:temple_name_title = { has_title_flag = temple_name_Muzong } } }
-				set_name = "牧宗"
+				set_name = "穆宗"
 				event_target:temple_name_title = { set_title_flag = temple_name_Muzong }
 				set_character_flag = given_temple_name_by_script
 			}
@@ -3708,7 +3708,7 @@ character_event = {
 			}
 			1 = {
 				trigger = { NOT = { event_target:temple_name_title = { has_title_flag = temple_name_Xianzong } } }
-				set_name = "仙宗"
+				set_name = "显宗"
 				event_target:temple_name_title = { set_title_flag = temple_name_Xianzong }
 				set_character_flag = given_temple_name_by_script
 			}
@@ -3732,7 +3732,7 @@ character_event = {
 			}
 			1 = {
 				trigger = { NOT = { event_target:temple_name_title = { has_title_flag = temple_name_Yizong } } }
-				set_name = "逸宗"
+				set_name = "毅宗"
 				event_target:temple_name_title = { set_title_flag = temple_name_Yizong }
 				set_character_flag = given_temple_name_by_script
 			}
@@ -4353,7 +4353,7 @@ character_event = {
 					clr_title_flag = uses_temple_names_by_script
 					clear_flags_with_prefix = temple_name_
 					clear_flags_with_prefix = china_name_
-					set_name = "[Root.Capital.GetName] Empire"
+					set_name = "[Root.Capital.GetName]帝国"
 				}
 			}
 		}
@@ -4411,7 +4411,7 @@ character_event = {
 			clr_title_flag = uses_temple_names_by_script
 			clear_flags_with_prefix = temple_name_
 			clear_flags_with_prefix = china_name_
-			set_name = "[Root.Capital.GetName] Empire"
+			set_name = "[Root.Capital.GetName]帝国"
 		}
 		if = {
 			limit = {
