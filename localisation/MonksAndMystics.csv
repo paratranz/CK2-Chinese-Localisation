@@ -13,7 +13,7 @@ GetTemperature_Warm;温暖;;;;;;;;;;;;x
 GetHolding_Castle_1;城堡;;;;;;;;;;;;x
 GetHolding_Castle_2;城堡;;;;;;;;;;;;x
 GetHolding_Castle_3;宫殿;;;;;;;;;;;;x
-GetHolding_Temple_1;庙宇;;;;;;;;;;;;x
+GetHolding_Temple_1;神殿;;;;;;;;;;;;x
 GetHolding_Nomad_1;营帐;;;;;;;;;;;;x
 GetHolding_Nomad_2;王帐;;;;;;;;;;;;x
 GetHolding_Nomad_3;宫殿;;;;;;;;;;;;x
@@ -30,8 +30,8 @@ GetHouseOfWorship_Pagan;神庙;;;;;;;;;;;;x
 GetHouseOfWorship_Zoroastrian;神庙;;;;;;;;;;;;x
 GetHouseOfWorship_Jewish;犹太会堂;;;;;;;;;;;;x
 GetHouseOfWorship_Hindu;神庙;;;;;;;;;;;;x
-GetHouseOfWorship_Buddhist;神庙;;;;;;;;;;;;x
-GetHouseOfWorship_Jain;神庙;;;;;;;;;;;;x
+GetHouseOfWorship_Buddhist;寺庙;;;;;;;;;;;;x
+GetHouseOfWorship_Jain;寺庙;;;;;;;;;;;;x
 EVTDESC_MNM_6250_A;在经过深思熟虑后，我决定把[assassin_protege_1.GetFirstName]训练成一名阴影中的刺客。[assassin_protege_1.GetSheHeCap]在一些事情上一直表现出钢铁般的决心，我认为[assassin_protege_1.GetSheHe]比[assassin_protege_1.GetSheHe]想的要更聪明……这或许是一条危险的道路，但在我的培养下，也许[assassin_protege_1.GetSheHe]能表现的更加出色。;;;;;;;;;;;;x
 EVTDESC_MNM_6250_B;今天我当场抓住了一个试图偷我钱的少年。当我的卫兵抓到[assassin_protege.GetSheHe]的时候，我从[assassin_protege.GetHerHis]眼中感受到了[assassin_protege.GetSheHe]的无畏。这让我想到阿萨辛交给我的任务，我不知道这孩子是否像[assassin_protege.GetSheHe]看上去那样灵巧，但或许这孩子将来可以为我所用？;;;;;;;;;;;;x
 EVTOPTA_MNM_6250;我会和[assassin_protege_1.GetTitledFirstName]谈谈有关[assassin_protege_1.GetHerHis]潜能的事情。;;;;;;;;;;;;x
@@ -999,7 +999,7 @@ EVTDESC_MNM_7119_NORMAL;我感觉到[Root.GetDWDevil]的力量穿过了我，缝
 EVTDESC_MNM_7119_TOO_WEAK;我感觉到[Root.GetDWDevil]的力量穿过了我，但好像我提供的祭品并不能使我完全康复。;;;;;;;;;;;;x
 EVTOPT_MNM_7119;一切都如[Root.GetDWDevil]所愿。;;;;;;;;;;;;x
 devil_worshipers_dark_healing_desc;通过使用黑魔法，撒旦教徒们可以从最严重的伤势中治愈自己。;;;;;;;;;;;;x
-devil_worshiper_desecrate_temple;亵渎一座神庙;;;;;;;;;;;;x
+devil_worshiper_desecrate_temple;亵渎一座神殿;;;;;;;;;;;;x
 devil_worshiper_desecrate_temple_desc;亵渎神殿的任务分配到社团当中;;;;;;;;;;;;x
 temple_desecrated;寺庙被亵渎了;;;;;;;;;;;;x
 dark_healing_recent;因为黑暗治疗感到疲惫;;;;;;;;;;;;x
@@ -1078,9 +1078,9 @@ MISSON_ACCOMPLISHED_TOOLTIP;[Root.GetTitledName]已经完成了[Root.GetQuestNam
 MISSON_FAILED_TOOLTIP;[Root.GetTitledName]未能完成[Root.GetQuestName]的任务\n;;;;;;;;;;;;x
 quest_monastic_order_pilgrimage_christian;去朝圣;;;;;;;;;;;;x
 devil_worshiper_desecrate_temple_decision;亵渎神庙;;;;;;;;;;;;x
-devil_worshiper_desecrate_temple_decision_desc;在§Y[From.Society.GetName]§!命令下亵渎神庙。;;;;;;;;;;;;x
+devil_worshiper_desecrate_temple_decision_desc;在§Y[From.Society.GetName]§!命令下亵渎神殿。;;;;;;;;;;;;x
 desecrated_temple;被亵渎的神殿;;;;;;;;;;;;x
-desecrated_temple_desc;这座神庙已被邪恶仪式所亵渎;;;;;;;;;;;;x
+desecrated_temple_desc;这座神殿已被邪恶仪式所亵渎;;;;;;;;;;;;x
 iron_crown_of_lombardy;伦巴第铁王冠;;;;;;;;;;;;x
 shroud_of_jesus;耶稣裹尸布;;;;;;;;;;;;x
 holy_grail;圣杯;;;;;;;;;;;;x
@@ -1124,7 +1124,7 @@ String_Adi_Shankara;阿迪·商羯罗;;;;;;;;;;;;x
 String_Acharya_Kundakunda;君陀君陀阿阇黎;;;;;;;;;;;;x
 String_monastery;修道院;;;;;;;;;;;;x
 String_matha;僧会;;;;;;;;;;;;x
-String_temple;寺院;;;;;;;;;;;;x
+String_temple;神殿;;;;;;;;;;;;x
 String_the_Rule_of_Saint_Benedict;圣本笃会规;;;;;;;;;;;;x
 String_the_Rule_of_Saint_Augustine;圣奥古斯丁会规;;;;;;;;;;;;x
 String_the_Rule_of_Saint_Basil;圣巴西略会规;;;;;;;;;;;;x
@@ -2022,7 +2022,7 @@ quest_monastic_order_theology_focus_desc;即使[Root.Society.GetName]的成员�
 quest_monastic_order_theology_focus_tooltip;要完成这项任务，在角色界面选择「§Y神学§!」重心。;;;;;;;;;;;;x
 monastic_orders_temple_construction;建造一座[Root.GetHouseOfWorship];;;;;;;;;;;;x
 monastic_orders_temple_construction_desc;对[Root.Society.GetName]的每一位成员来讲，[Root.GetHouseOfWorship]就像是自己的家一样。我们聚集在此学习、礼拜以及默默[Root.GetPrayers]。建立一座新的[Root.GetHouseOfWorship]会给本地的信徒们一个安全港湾并且作为一个信仰的前哨站，给那些走上歧途的人们伸出一双手。;;;;;;;;;;;;x
-monastic_orders_temple_construction_tooltip;在你领地的一个省份上建造一座神庙以完成这项任务。;;;;;;;;;;;;x
+monastic_orders_temple_construction_tooltip;在你领地的一个省份上建造一座神殿以完成这项任务。;;;;;;;;;;;;x
 devil_worshipers_summon_familiar_desc;身为[Root.GetDWDarkMagic]的执掌者，§Y[Root.GetTitledFirstName]§!可以根据[Root.GetHerHis]选择召唤一个使魔。这个超自然的守护者会将它的力量赋予§Y[Root.GetTitledFirstName]§!，从而增加[Root.GetHerHis]属性。;;;;;;;;;;;;x
 EVTOPTA_MNM_7507;如此一来，完成了。;;;;;;;;;;;;x
 EVTOPTA_MNM_7507_TOOLTIP;现在你只能等待即将到来的分娩。;;;;;;;;;;;;x
@@ -3461,19 +3461,19 @@ REALM_CHAR_PERCENT_NOT_TRIGGER;领土内少于$VAL|Y$%的角色：;;;;;;;;;;;;x
 NO_CURRENT_QUEST;没有执行的任务;;;;;;;;;;;;x
 BUILD_COST_CITY_MODIFIER;城市建造花费修正;;;;;;;;;;;;x
 BUILD_COST_CASTLE_MODIFIER;封建建造花费修正;;;;;;;;;;;;x
-BUILD_COST_TEMPLE_MODIFIER;寺庙建造花费修正;;;;;;;;;;;;x
+BUILD_COST_TEMPLE_MODIFIER;神殿建造花费修正;;;;;;;;;;;;x
 BUILD_COST_TRIBAL_MODIFIER;部落建造花费修正;;;;;;;;;;;;x
 BUILD_TIME_CITY_MODIFIER;城市建造时间修正;;;;;;;;;;;;x
 BUILD_TIME_CASTLE_MODIFIER;封建建造时间修正;;;;;;;;;;;;x
-BUILD_TIME_TEMPLE_MODIFIER;寺庙建造时间修正;;;;;;;;;;;;x
+BUILD_TIME_TEMPLE_MODIFIER;神殿建造时间修正;;;;;;;;;;;;x
 BUILD_TIME_TRIBAL_MODIFIER;部落建造时间修正;;;;;;;;;;;;x
 LOCAL_BUILD_COST_CITY_MODIFIER;本地城市建造花费修正;;;;;;;;;;;;x
 LOCAL_BUILD_COST_CASTLE_MODIFIER;本地封建建造花费修正;;;;;;;;;;;;x
-LOCAL_BUILD_COST_TEMPLE_MODIFIER;本地寺庙建造花费修正;;;;;;;;;;;;x
+LOCAL_BUILD_COST_TEMPLE_MODIFIER;本地神殿建造花费修正;;;;;;;;;;;;x
 LOCAL_BUILD_COST_TRIBAL_MODIFIER;本地部落建造花费修正;;;;;;;;;;;;x
 LOCAL_BUILD_TIME_CITY_MODIFIER;本地城市建造时间修正;;;;;;;;;;;;x
 LOCAL_BUILD_TIME_CASTLE_MODIFIER;本地封建建造时间修正;;;;;;;;;;;;x
-LOCAL_BUILD_TIME_TEMPLE_MODIFIER;本地寺庙建造时间修正;;;;;;;;;;;;x
+LOCAL_BUILD_TIME_TEMPLE_MODIFIER;本地神殿建造时间修正;;;;;;;;;;;;x
 LOCAL_BUILD_TIME_TRIBAL_MODIFIER;本地部落建造时间修正;;;;;;;;;;;;x
 ANY_ARTIFACT_STARTS;任意拥有的宝物;;;;;;;;;;;;x
 NOT_ANY_ARTIFACT_STARTS;不拥有宝物;;;;;;;;;;;;x
@@ -4468,7 +4468,7 @@ nice_adventure;愉快冒险;;;;;;;;;;;;x
 emerald_tablet;翠玉录;;;;;;;;;;;;x
 EVTDESC_MNM_1418;致[Root.GetFromThisHermeticsRank][Root.GetFirstName]，\n\n我的[Root.GetSisterBrother]，我有一个你可能会感兴趣的提议。不久前一封信落到了我的手里，它详细描述了一些遗失的赫尔墨斯文献的可能地点。如果你资助这场探险，我们可以一起寻找这些宝藏！\n\n正如古老的炼金术原理所言：下如同上，上如同下；依此成全太一的奇迹。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;;;x
 EVTDESC_MNM_1420_A;致[Root.GetFromThisHermeticsRank][Root.GetFirstName]，\n信上提到了三个遗失的文本：本地古董商所持有的一本厚书，一张藏在[temple_site.GetName]内的[temple_site.Holder.GetHouseOfWorship]的卷轴，以及位于[ruin_site.Holder.TopLiege.PrimaryTitle.GetName]内的[ruin_site.GetName]古图书馆遗址的一块碑。我们探索得越远，追溯得越久，就越可能会发现更大的秘密。这将由你来做决定。\n\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;;;x
-EVTDESC_MNM_1420_B;致 [Root.GetFromThisHermeticsRank][Root.GetFirstName]，\n我有一个好消息！自从我们上次通信后，我获得了一张通往亚历山大大图书馆废墟的一个幸存房间的地图。尽管之前的选项依然可以考虑。一本古籍在[Root.Capital.GetName]，一份卷轴在[temple_site.GetName]以及一块碑在[ruin_site.Holder.TopLiege.PrimaryTitle.GetName]。我认为这是一个绝好的机会，不能放弃。\n\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;;;x
+EVTDESC_MNM_1420_B;致 [Root.GetFromThisHermeticsRank][Root.GetFirstName]，\n我有一个好消息！自从我们上次通信后，我获得了一张通往亚历山大大图书馆废墟的一个幸存房间的地图。尽管之前的选项依然可行——在[Root.Capital.GetName]的一本古籍，在[temple_site.GetName]的一份卷轴以及在[ruin_site.Holder.TopLiege.PrimaryTitle.GetName]的一块碑——我认为这是一个绝好的机会，不能放弃。\n\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;;;x
 EVTOPTA_MNM_1420;确实不错！我们将前往亚历山大！;;;;;;;;;;;;x
 EVTOPTA_MNM_1420_TT;你和§Y[From.GetTitledFirstName]§!出发前往亚历山大，希望能找到大图书馆的废墟。\n;;;;;;;;;;;;x
 EVTOPTB_MNM_1420;让我们前往[ruin_site.GetName]的废墟。;;;;;;;;;;;;x
