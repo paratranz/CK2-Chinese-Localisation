@@ -3364,7 +3364,7 @@ EVTOPTA67022;[From.GetSheHeCap]将会为此付出代价！;;;;;;;;;;;;x
 EVTOPTA68000;而且我们对这种情况毫无办法……;;;;;;;;;;;;x
 EVTOPTA68001;感谢我主！;;;;;;;;;;;;x
 EVTOPTA68010;但是他们还没有偷窃我的任何财产;;;;;;;;;;;;x
-EVTDESC68011;我在§Y[Root.GetName]§!实行的精明治理使得本地的窃贼行会被连根拔起.;;;;;;;;;;;;x
+EVTDESC68011;我在§Y[Root.GetName]§!实行的精明治理使得本地的窃贼行会被连根拔起。;;;;;;;;;;;;x
 EVTOPTA68011;做[Root.County.Holder.PrimaryTitle.GetRulerTitle]真好！;;;;;;;;;;;;x
 EVTOPTA68020;我看不到这对我有什么坏处。;;;;;;;;;;;;x
 EVTDESC68021;由于我杰出的外交手段，§Y[Root.GetName]§!的走私集团已经被摧毁了。最后一名走私者的首级悬挂在城门外的矛尖上，已经开始腐烂了。;;;;;;;;;;;;x
@@ -3668,7 +3668,7 @@ EVTOPTA63015;这个狗杂种！;;;;;;;;;;;;x
 EVTTOOLTIP63016;让[FromFrom.GetTitledFirstName]知道我对此事怎么看;;;;;;;;;;;;x
 EVTDESC63016;致卑鄙的[Root.GetTitledFirstName]！你要知道我已经察觉了你的图谋，而且[This.Liege.GetTitledFirstName]也察觉了。[From.Religion.GetRandomGodName]是我的证人，你绝不会成功。;;;;;;;;;;;;x
 EVTOPTA63016;我们走着瞧;;;;;;;;;;;;x
-EVTDESC63017;灾难！[From.GetTitledFirstName]以我「虚假的」指控为由把我扔进了地牢.;;;;;;;;;;;;x
+EVTDESC63017;灾难！[From.GetTitledFirstName]以我「虚假的」指控为由把我扔进了地牢。;;;;;;;;;;;;x
 EVTOPTA63017;我要离开这里…;;;;;;;;;;;;x
 EVTDESC63018;我在[From.GetTitledName]家中的一位忠实的朋友告诉我一件事情，[From.GetSubjectPronoun]将要向[Root.Liege.GetTitledFirstName]提交伪造的关于我叛国的证据！;;;;;;;;;;;;x
 EVTOPTA63018;为我自己做无罪辩护！;;;;;;;;;;;;x
@@ -4859,7 +4859,7 @@ IMPRISON_INTERACTION_ACCEPT_SETUP;逮捕尝试;;;;;;;;;;;;x
 IMPRISON_INTERACTION_ACCEPT_LOG;§Y[Actor.GetDynName]§W试图逮捕§Y[Recipient.GetDynName]§W;;;;;;;;;;;;x
 RELEASE_FROM_PRISON_INTERACTION_TITLE;释放囚犯;;;;;;;;;;;;x
 RELEASE_FROM_PRISON_INTERACTION_DESC;从监狱里释放§Y[Recipient.GetBestName]§!;;;;;;;;;;;;x
-RELEASE_FROM_PRISON_INTERACTION_LONG_DESC;释放囚犯是光荣的，但请记住，在地牢的他们才不会造成任何麻烦...;;;;;;;;;;;;x
+RELEASE_FROM_PRISON_INTERACTION_LONG_DESC;释放囚犯是光荣的，但请记住，他们在地牢里才不会造成任何麻烦……;;;;;;;;;;;;x
 RELEASE_FROM_PRISON_INTERACTION_ACCEPT_SETUP;释放囚犯;;;;;;;;;;;;x
 RELEASE_FROM_PRISON_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W决定从监狱里释放§Y[Recipient.GetBestName]§W;;;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_TITLE;处决囚犯;;;;;;;;;;;;x
@@ -4885,7 +4885,7 @@ DEMAND_RELIGIOUS_CONVERSION_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§W
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_DECLINE_SETUP;拒绝改信;;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§!拒绝了§Y[Actor.GetBestName]§W皈依[Actor.Religion.GetName]的要求;;;;;;;;;;;;x
 DEMAND_RELIGIOUS_CONVERSION_INTERACTION_OFFER;[Actor.GetBestName]要求我们皈依[Actor.Religion.GetName];;;;;;;;;;;;x
-DEMAND_RELIGIOUS_CONVERSION_INTERACTION_LETTER;我们要求你改宗，皈依[Actor.Religion.GetName].;;;;;;;;;;;;x
+DEMAND_RELIGIOUS_CONVERSION_INTERACTION_LETTER;我们要求你改宗正信，皈依[Actor.Religion.GetName]。;;;;;;;;;;;;x
 INVITE_TO_COURT_INTERACTION_TITLE;邀请来到宫廷;;;;;;;;;;;;x
 INVITE_TO_COURT_INTERACTION_DESC;邀请[Recipient.GetBestName]来到我的宫廷;;;;;;;;;;;;x
 INVITE_TO_COURT_INTERACTION_LONG_DESC;你可以邀请没有领地的人加入你的宫廷。不过有时他们会拒绝，除非他们比起现在的领主来更喜欢你。;;;;;;;;;;;;x
@@ -4894,17 +4894,17 @@ INVITE_TO_COURT_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 同意加�
 INVITE_TO_COURT_INTERACTION_DECLINE_SETUP;拒绝邀请;;;;;;;;;;;;x
 INVITE_TO_COURT_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝了 §Y[Actor.GetBestName]§! 加入[Actor.GetPossPronoun]宫廷的邀请;;;;;;;;;;;;x
 TRANSFER_VASSAL_INTERACTION_TITLE;转封封臣;;;;;;;;;;;;x
-TRANSFER_VASSAL_INTERACTION_DESC;将一个直属封臣转封给 §Y[Recipient.GetBestName]§!.;;;;;;;;;;;;x
+TRANSFER_VASSAL_INTERACTION_DESC;将一个直属封臣转封给§Y[Recipient.GetBestName]§!。;;;;;;;;;;;;x
 TRANSFER_VASSAL_INTERACTION_LONG_DESC;当你或你的直属封臣占有某人法理上的领地时，他会变得不喜欢你。;;;;;;;;;;;;x
-TRANSFER_VASSAL_INTERACTION_0;选择一个封臣转给 §Y[Recipient.GetTitledFirstName]§!.;;;;;;;;;;;;x
-TRANSFER_VASSAL_INTERACTION_1;转封 §Y[ThirdPartyCharacter.GetBestName]§! 给 §Y[Recipient.GetTitledFirstName]§!，增加[Recipient.GetPossPronoun]的好感度 §G$OPINION$§!.;;;;;;;;;;;;x
+TRANSFER_VASSAL_INTERACTION_0;选择一个封臣转给§Y[Recipient.GetTitledFirstName]§!。;;;;;;;;;;;;x
+TRANSFER_VASSAL_INTERACTION_1;转封§Y[ThirdPartyCharacter.GetBestName]§!给§Y[Recipient.GetTitledFirstName]§!，增加[Recipient.GetPossPronoun]的好感度§G$OPINION$§!。;;;;;;;;;;;;x
 TRANSFER_VASSAL_INTERACTION_ACCEPT_SETUP;转封封臣;;;;;;;;;;;;x
 TRANSFER_VASSAL_INTERACTION_ACCEPT_LOG;§Y[Actor.GetDynName]§! 已经将对于 §Y[ThirdPartyCharacter.GetDynName]§! 的附庸关系转移给了 §Y[Recipient.GetDynName]§!;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_TITLE;宣称头衔;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_DESC;宣称此人的头衔;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_LONG_DESC;编造一个关于特定头衔理应属于你的理由。这将消耗威望以使人们接受（如果有法理宣称，或者如果你的[Player.Religion.GetPietyName]较高，则只会消耗较少的威望。）头衔的现有者将会不高兴……;;;;;;;;;;;;x
-CLAIM_TITLE_INTERACTION_0;选择宣称一个头衔。宣称头衔会消耗威望并降低§Y[Recipient.GetTitledFirstName]§!对你的好感度.;;;;;;;;;;;;x
-CLAIM_TITLE_INTERACTION_1;宣称 §Y[ThirdPartyTitle.GetFullName]§! ，消耗 §R$PRESTIGE$§! 威望.这将降低 §Y[Recipient.GetTitledFirstName]§!对你的好感度 §R$OPINION$§!.;;;;;;;;;;;;x
+CLAIM_TITLE_INTERACTION_0;选择宣称一个头衔。宣称头衔会消耗威望并降低§Y[Recipient.GetTitledFirstName]§!对你的好感度。;;;;;;;;;;;;x
+CLAIM_TITLE_INTERACTION_1;宣称§Y[ThirdPartyTitle.GetFullName]§!，消耗§R$PRESTIGE$§!威望。这将降低§Y[Recipient.GetTitledFirstName]§!对你的好感度§R$OPINION$§!。;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_ACCEPT_SETUP;已宣称头衔;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 宣称 §Y[ThirdPartyTitle.GetFullName]§!，被 §Y[Recipient.GetBestName]§! 持有;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_TITLE;剥夺头衔;;;;;;;;;;;;x
@@ -4915,7 +4915,7 @@ REVOKE_TITLE_INTERACTION_1;剥夺§Y[ThirdPartyTitle.GetFullName]§W，损耗 §
 REVOKE_TITLE_INTERACTION_2;剥夺§Y[ThirdPartyTitle.GetFullName]§W。这将降低§Y[Recipient.GetTitledFirstName]§W对你的好感度 §R$OPINION$§W。;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_3;有 §R$RISK$%§! 几率 [Recipient.GetSubjectPronoun]§! 将揭竿而起！;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_ACCEPT_SETUP;剥夺头衔;;;;;;;;;;;;x
-REVOKE_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 从 §Y[Recipient.GetBestName]§! 手中收回 §Y[ThirdPartyTitle.GetFullName]§!.;;;;;;;;;;;;x
+REVOKE_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!从§Y[Recipient.GetBestName]§!手中收回§Y[ThirdPartyTitle.GetFullName]§!。;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_TITLE;授予荣誉头衔;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_DESC;授予一个角色荣誉头衔;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_LONG_DESC;你可以授予荣誉头衔给你的臣民，这将提高他们对你的好感度。部分荣誉头衔附带次级产权（一种经济收入来源）和每月的威望收入。;;;;;;;;;;;;x
@@ -4954,7 +4954,7 @@ SEND_GIFT_INTERACTION_OFFER;[Actor.GetBestName]赠送了价值 §Y$COST$§W 的�
 SEND_GIFT_INTERACTION_LETTER;请笑纳价值§Y$COST$§W的薄礼。;;;;;;;;;;;;x
 OFFER_VASSALIZATION_INTERACTION_TITLE;提议附庸;;;;;;;;;;;;x
 OFFER_VASSALIZATION_INTERACTION_DESC;向§Y[Recipient.GetBestName]§!发出一个提议，要求他们成为我们的封臣。;;;;;;;;;;;;x
-OFFER_VASSALIZATION_INTERACTION_LONG_DESC;我们可以向级别比我们低的有地贵族提议附庸，尽管他们很可能不会接受，除非他们比我们弱很多，或是与我们宗教和文化相同.;;;;;;;;;;;;x
+OFFER_VASSALIZATION_INTERACTION_LONG_DESC;我们可以向级别比我们低的有地贵族提议附庸，尽管他们很可能不会接受，除非他们比我们弱很多，或是与我们宗教和文化相同。;;;;;;;;;;;;x
 OFFER_VASSALIZATION_INTERACTION_ACCEPT_SETUP;已接受附庸;;;;;;;;;;;;x
 OFFER_VASSALIZATION_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 同意了成为 §Y[Actor.GetBestName]§!的封臣;;;;;;;;;;;;x
 OFFER_VASSALIZATION_INTERACTION_DECLINE_SETUP;已拒绝附庸;;;;;;;;;;;;x
@@ -4969,27 +4969,27 @@ ASK_FOR_VASSALIZATION_INTERACTION_ACCEPT_SETUP;已接受效忠;;;;;;;;;;;;x
 ASK_FOR_VASSALIZATION_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 同意了成为§Y[Actor.GetBestName]§!的新领主[Recipient.GetLordLady];;;;;;;;;;;;x
 ASK_FOR_VASSALIZATION_INTERACTION_DECLINE_SETUP;已拒绝效忠;;;;;;;;;;;;x
 ASK_FOR_VASSALIZATION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝了成为§Y[Actor.GetBestName]§!的新领主[Recipient.GetLordLady];;;;;;;;;;;;x
-ASK_FOR_VASSALIZATION_INTERACTION_OFFER;[Actor.GetBestName]请求成为我们的封臣.;;;;;;;;;;;;x
-ASK_FOR_VASSALIZATION_INTERACTION_LETTER;我谦卑恳求你接受我们的效忠誓言，成为我们的新领主，[Recipient.GetLordLady].;;;;;;;;;;;;x
+ASK_FOR_VASSALIZATION_INTERACTION_OFFER;[Actor.GetBestName]请求成为我们的封臣。;;;;;;;;;;;;x
+ASK_FOR_VASSALIZATION_INTERACTION_LETTER;我谦卑恳求你接受我们的效忠誓言，成为我们的新领主，[Recipient.GetLordLady]。;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_TITLE;安排订婚;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_DESC;安排两个角色的订婚;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_LONG_DESC;儿童不得结婚，但他们可以订立婚约。所订立的婚约有效至双方成婚，一方去世，或显著违约。;;;;;;;;;;;;x
-ARRANGE_BETROTHAL_INTERACTION_0;选择未来的新郎和新娘.;;;;;;;;;;;;x
+ARRANGE_BETROTHAL_INTERACTION_0;选择未来的新郎和新娘。;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_1;选择一位 §Y$CHAR$§!宫廷里的角色。;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_ACCEPT_SETUP;已接受订婚提议;;;;;;;;;;;;x
-ARRANGE_BETROTHAL_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 接受 §Y[Actor.GetBestName]§! 的提议，§Y[ActorExtra.GetBestName]§! 和 §Y[RecipientExtra.GetBestName]§! 将订立婚约.;;;;;;;;;;;;x
+ARRANGE_BETROTHAL_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§!接受§Y[Actor.GetBestName]§!的提议，§Y[ActorExtra.GetBestName]§!和§Y[RecipientExtra.GetBestName]§!将订立婚约。;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_DECLINE_SETUP;已拒绝订婚提议;;;;;;;;;;;;x
-ARRANGE_BETROTHAL_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝 §Y[Actor.GetBestName]§! 的提议，§Y[ActorExtra.GetBestName]§! 和 §Y[RecipientExtra.GetBestName]§! 将不订立婚约.;;;;;;;;;;;;x
+ARRANGE_BETROTHAL_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§!拒绝§Y[Actor.GetBestName]§!的提议，§Y[ActorExtra.GetBestName]§!和§Y[RecipientExtra.GetBestName]§!将不订立婚约。;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_OFFER;[Actor.GetBestName]提议[ActorExtra.GetBestName]和[RecipientExtra.GetBestName]订婚;;;;;;;;;;;;x
-ARRANGE_BETROTHAL_INTERACTION_LETTER;我们提议[ActorExtra.GetBestName]和[RecipientExtra.GetBestName]订婚.;;;;;;;;;;;;x
+ARRANGE_BETROTHAL_INTERACTION_LETTER;我们提议[ActorExtra.GetBestName]和[RecipientExtra.GetBestName]订婚。;;;;;;;;;;;;x
 BREAK_BETROTHAL_INTERACTION_TITLE;撕毁婚约;;;;;;;;;;;;x
 BREAK_BETROTHAL_INTERACTION_DESC;撕毁与一个角色所订立的婚约;;;;;;;;;;;;x
 BREAK_BETROTHAL_INTERACTION_LONG_DESC;婚约随时都可以被撕毁，不过另一方会不高兴……;;;;;;;;;;;;x
 BREAK_BETROTHAL_INTERACTION_0;撕毁 §Y[Recipient.GetBestName]§! 和 §Y[Recipient.Betrothed.GetBestName]§!的婚约。;;;;;;;;;;;;x
 BREAK_BETROTHAL_INTERACTION_1;这将使 §Y$OTHER$§!对你的好感下降 §R$VALUE$§!。;;;;;;;;;;;;x
 BREAK_BETROTHAL_INTERACTION_ACCEPT_SETUP;已撕毁婚约;;;;;;;;;;;;x
-BREAK_BETROTHAL_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 撕毁了 §Y[Recipient.GetBestName]§! 和 §Y[Recipient.Betrothed.GetBestName]§!的婚约.;;;;;;;;;;;;x
-BREAK_BETROTHAL_INTERACTION_LETTER;我们决定取消[Recipient.GetBestName]和[Recipient.Betrothed.GetBestName]的婚约.;;;;;;;;;;;;x
+BREAK_BETROTHAL_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!撕毁了§Y[Recipient.GetBestName]§!和§Y[Recipient.Betrothed.GetBestName]§!的婚约。;;;;;;;;;;;;x
+BREAK_BETROTHAL_INTERACTION_LETTER;我们决定取消[Recipient.GetBestName]和[Recipient.Betrothed.GetBestName]的婚约。;;;;;;;;;;;;x
 OFFER_SUCCESSION_MARRIGE_INTERACTION_TITLE;安排入赘婚姻;;;;;;;;;;;;x
 OFFER_SUCCESSION_MARRIGE_INTERACTION_DESC;为两个人物安排入赘婚姻;;;;;;;;;;;;x
 OFFER_SUCCESSION_MARRIGE_INTERACTION_LONG_DESC;入赘会使夫妻生育的孩子成为母亲家族的成员。如果统治者是女性的话，这是保证家族延续的一种很好的方法。;;;;;;;;;;;;x
@@ -5015,7 +5015,7 @@ OFFER_MARRIGE_INTERACTION_LETTER;我们提议 [ActorExtra.GetBestName]和 [Recip
 RANSOM_CHARACTER_INTERACTION_TITLE;囚犯赎身;;;;;;;;;;;;x
 RANSOM_CHARACTER_INTERACTION_DESC;向囚犯敲诈一笔赎金;;;;;;;;;;;;x
 RANSOM_CHARACTER_INTERACTION_LONG_DESC;可以从来自其他宫廷的囚犯身上敲诈出一笔可观的赎金……;;;;;;;;;;;;x
-RANSOM_CHARACTER_INTERACTION_0;选择一个囚犯以获得赎金.;;;;;;;;;;;;x
+RANSOM_CHARACTER_INTERACTION_0;选择一个囚犯以获得赎金。;;;;;;;;;;;;x
 RANSOM_CHARACTER_INTERACTION_1;向[Recipient.GetBestName]提议以§Y$GOLD$§!黄金赎回[ThirdPartyCharacter.GetTitledFirstName];;;;;;;;;;;;x
 RANSOM_CHARACTER_INTERACTION_ACCEPT_SETUP;已接受赎金要求;;;;;;;;;;;;x
 RANSOM_CHARACTER_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 将 §Y[ThirdPartyCharacter.GetTitledFirstName]§! 赎出 §Y[Actor.GetBestName]§!的地牢;;;;;;;;;;;;x
@@ -5039,9 +5039,9 @@ STOP_BACKING_AMBITION_INTERACTION_LONG_DESC;我们可以用外交手段要求密
 STOP_BACKING_AMBITION_INTERACTION_ACCEPT_SETUP;已同意退出阴谋;;;;;;;;;;;;x
 STOP_BACKING_AMBITION_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 放弃了 §Y[ThirdPartyCharacter.GetBestName]的§! 阴谋 [ThirdPartyCharacter.GetPlot]。;;;;;;;;;;;;x
 STOP_BACKING_AMBITION_INTERACTION_DECLINE_SETUP;已拒绝退出阴谋;;;;;;;;;;;;x
-STOP_BACKING_AMBITION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝了放弃 §Y[ThirdPartyCharacter.GetBestName]的§! 阴谋 [ThirdPartyCharacter.GetPlot]..;;;;;;;;;;;;x
+STOP_BACKING_AMBITION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§!拒绝了放弃§Y[ThirdPartyCharacter.GetBestName]的§!阴谋[ThirdPartyCharacter.GetPlot]。;;;;;;;;;;;;x
 STOP_BACKING_AMBITION_INTERACTION_OFFER;[Actor.GetBestName]要求我们停止支持[ThirdPartyCharacter.GetBestName][ThirdPartyCharacter.GetPlot]的阴谋。;;;;;;;;;;;;x
-STOP_BACKING_AMBITION_INTERACTION_LETTER;我知道你参与了[ThirdPartyCharacter.GetBestName][ThirdPartyCharacter.GetPlot]的阴谋，尽快退出这个疯狂的计划才是明智的选择.;;;;;;;;;;;;x
+STOP_BACKING_AMBITION_INTERACTION_LETTER;我知道你参与了[ThirdPartyCharacter.GetBestName][ThirdPartyCharacter.GetPlot]的阴谋，尽快退出这个疯狂的计划才是明智的选择。;;;;;;;;;;;;x
 JOIN_AMBITION_INTERACTION_TITLE;邀请参加阴谋;;;;;;;;;;;;x
 JOIN_AMBITION_INTERACTION_DESC;邀请他人参加我§Y[Actor.GetPlot]§!的阴谋。;;;;;;;;;;;;x
 JOIN_AMBITION_INTERACTION_LONG_DESC;参与你当下阴谋的同谋们可以被召唤加入战争。他们也很有可能帮助你实现目标，并通过事件推动阴谋发展。;;;;;;;;;;;;x
@@ -5101,9 +5101,9 @@ DIVORCE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 与 §Y[Actor.Spouse.Ge
 DIVORCE_INTERACTION_DECLINE_SETUP;已拒绝离婚;;;;;;;;;;;;x
 DIVORCE_INTERACTION_DECLINE_LOG;§Y[Actor.Spouse.GetBestName]§! 拒绝了与 §Y[Actor.GetBestName]§!离婚;;;;;;;;;;;;x
 DIVORCE_INTERACTION_OFFER;[Actor.GetBestName]要离婚！;;;;;;;;;;;;x
-DIVORCE_INTERACTION_LETTER;我们的婚姻不再有未来.为了我们双方，请让我们保有尊严地结束这一切吧.;;;;;;;;;;;;x
+DIVORCE_INTERACTION_LETTER;我们的婚姻不再有未来。为了我们双方，请让我们保有尊严地结束这一切吧。;;;;;;;;;;;;x
 ASK_FOR_EXCOMMUNICATION_INTERACTION_TITLE;要求绝罚;;;;;;;;;;;;x
-ASK_FOR_EXCOMMUNICATION_INTERACTION_DESC;向§Y[Actor.RelHead.GetTitledFirstName]§!请求绝罚§Y[ThirdPartyCharacter.GetBestName]§!。这将花费你 §R100§!虔诚并且如果请求被批准，将会被 [ThirdPartyCharacter.GetPossPronoun]的亲戚们视作对他们的侮辱.;;;;;;;;;;;;x
+ASK_FOR_EXCOMMUNICATION_INTERACTION_DESC;向§Y[Actor.RelHead.GetTitledFirstName]§!请求绝罚§Y[ThirdPartyCharacter.GetBestName]§!。这将花费你 §R100§!虔诚并且如果请求被批准，将会被 [ThirdPartyCharacter.GetPossPronoun]的亲戚们视作对他们的侮辱。;;;;;;;;;;;;x
 ASK_FOR_EXCOMMUNICATION_INTERACTION_LONG_DESC;被处以绝罚的人将被同宗教的所有人鄙视，并给予他们宣战理由。不过，尊奉对立教宗的人只会受对立教宗行动的影响。;;;;;;;;;;;;x
 ASK_FOR_EXCOMMUNICATION_INTERACTION_0;要求 §Y[Recipient.GetTitledFirstName]§W绝罚§Y[ThirdPartyCharacter.GetBestName]§W。这将消耗你§R$COST$§W虔诚，并且一旦成功，将被[ThirdPartyCharacter.GetPossPronoun]亲族视为侮辱。;;;;;;;;;;;;x
 ASK_FOR_EXCOMMUNICATION_INTERACTION_ACCEPT_SETUP;绝罚请求获批准;;;;;;;;;;;;x
@@ -5125,9 +5125,9 @@ ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§
 ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_OFFER;[Actor.GetBestName]希望撤销[ThirdPartyCharacter.GetBestName]的绝罚;;;;;;;;;;;;x
 ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_LETTER;现在是时候撤销纯洁的[ThirdPartyCharacter.GetBestName]的绝罚了。我可以为[ThirdPartyCharacter.GetPossPronoun]担保。;;;;;;;;;;;;x
 ASK_TO_RANSOM_CHARACTER_INTERACTION_TITLE;赎回囚犯;;;;;;;;;;;;x
-ASK_TO_RANSOM_CHARACTER_INTERACTION_DESC;向 §Y[Recipient.GetTitledFirstName]§! 支付赎金以赎回 §Y[ThirdPartyCharacter.GetBestName]§!.;;;;;;;;;;;;x
-ASK_TO_RANSOM_CHARACTER_INTERACTION_LONG_DESC;在国外被拘禁的犯人可以用一笔钱赎回.;;;;;;;;;;;;x
-ASK_TO_RANSOM_CHARACTER_INTERACTION_0;向[Recipient.GetBestName]提供§Y$GOLD$§!金钱来赎回[ThirdPartyCharacter.GetTitledFirstName].;;;;;;;;;;;;x
+ASK_TO_RANSOM_CHARACTER_INTERACTION_DESC;请求§Y[Recipient.GetTitledFirstName]§!接受我们的赎金并释放§Y[ThirdPartyCharacter.GetBestName]§!。;;;;;;;;;;;;x
+ASK_TO_RANSOM_CHARACTER_INTERACTION_LONG_DESC;在国外被拘禁的犯人可以用一笔钱赎回。;;;;;;;;;;;;x
+ASK_TO_RANSOM_CHARACTER_INTERACTION_0;向[Recipient.GetBestName]提供§Y$GOLD$§!金钱来赎回[ThirdPartyCharacter.GetTitledFirstName]。;;;;;;;;;;;;x
 ASK_TO_RANSOM_CHARACTER_INTERACTION_ACCEPT_SETUP;同意释放囚犯;;;;;;;;;;;;x
 ASK_TO_RANSOM_CHARACTER_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 同意释放 §Y[ThirdPartyCharacter.GetBestName]§!;;;;;;;;;;;;x
 ASK_TO_RANSOM_CHARACTER_INTERACTION_DECLINE_SETUP;拒绝释放囚犯;;;;;;;;;;;;x
@@ -5154,7 +5154,7 @@ EVTTOOLTIP20020;[Root.GetTitledName]逃离了;;;;;;;;;;;;x
 EVTTOOLTIP20021;[Root.GetTitledName]受伤了;;;;;;;;;;;;x
 EVTDESC20020;我成功从后门逃离了那些异教蛮人;;;;;;;;;;;;x
 EVTOPTA20020;希望我的威望不会因此事而受损……;;;;;;;;;;;;x
-EVTDESC20021;我成功地从异教徒的袭击中幸存下来，但是这次袭击也让我身受重伤.;;;;;;;;;;;;x
+EVTDESC20021;我成功地从异教徒的袭击中幸存下来，但是这次袭击也让我身受重伤。;;;;;;;;;;;;x
 EVTOPTA20021;感谢主救我一命;;;;;;;;;;;;x
 EVTOPTB20021;这些野蛮人要不改变信仰，要不受死！;;;;;;;;;;;;x
 EVTTOOLTIP20022;我必须向陛下写一封信告知情况;;;;;;;;;;;;x
@@ -5184,7 +5184,7 @@ EVTNAME906;改善同[Root.Religion.GetPriestTitle]的关系;;;;;;;;;;;;x
 EVTDESC906;当我造访 [Root.Location.GetName] 的当地主教时，我尽自己的全力赞美了我的陛下，让他相信陛下是一名仁慈的统治者、虔诚的 [Root.Liege.Religion.GetName] [Root.Liege.GetSheHe].;;;;;;;;;;;;x
 EVTOPTA906;看来我成功了！;;;;;;;;;;;;x
 EVTTOOLTIP20061;写一封信告知陛下;;;;;;;;;;;;x
-EVTDESC20060;在[From.GetHerHis]访问我的宫廷期间，[From.Host.PrimaryTitle.GetName]的[From.GetJobTitle]，[From.GetTitledName]，使我相信[From.GetHerHis]领主[From.Host.GetTitledName]是一个仁慈而虔诚的君主.;;;;;;;;;;;;x
+EVTDESC20060;在[From.GetHerHis]访问我的宫廷期间，[From.Host.PrimaryTitle.GetName]的[From.GetJobTitle]，[From.GetTitledName]，使我相信[From.GetHerHis]领主[From.Host.GetTitledName]是一个仁慈而虔诚的君主。;;;;;;;;;;;;x
 EVTOPTA20060;我对[From.Host.GetTitledName]的观感改变了!;;;;;;;;;;;;x
 EVTOPTA20061;完美！;;;;;;;;;;;;x
 EVTNAME907;[Root.Religion.GetPriestTitle]与宗教领袖的关系降低;;;;;;;;;;;;x
@@ -5195,17 +5195,17 @@ EVTDESC20070;在[From.GetHerHis]访问我的宫廷期间，[From.Host.PrimaryTit
 EVTOPTA20070;我应该再相信他一次吗;;;;;;;;;;;;x
 EVTOPTA20071;很好！;;;;;;;;;;;;x
 EVTNAME926;一名博学的哲学家;;;;;;;;;;;;x
-EVTDESC926;我在 [Root.Location.GetName] 进行的历史文化研究进行得并不像我想象的那么顺利，但是我在当地偶然遇到了一名博学的哲学家，他似乎能对我的工作有所助益.;;;;;;;;;;;;x
+EVTDESC926;我在[Root.Location.GetName]进行的历史文化研究进行得并不像我想象的那么顺利，但是我在当地偶然遇到了一名博学的哲学家，他似乎能对我的工作有所助益。;;;;;;;;;;;;x
 EVTOPTA926;也许陛下能雇佣他;;;;;;;;;;;;x
 EVTTOOLTIP20260;写一封信告知陛下;;;;;;;;;;;;x
 EVTOPTA20260;当然可以！;;;;;;;;;;;;x
 EVTOPTB20260;不，那样太贵了！;;;;;;;;;;;;x
 EVTNAME927;又一名异教徒;;;;;;;;;;;;x
-EVTDESC927;我在[Root.Location.GetName]那些古老的档案馆里面发现了数卷古老而破损的异教圣书.字里行间流露出来的智慧严重动摇了我对[Root.Religion.GetName]的信仰.;;;;;;;;;;;;x
+EVTDESC927;我在[Root.Location.GetName]那些古老的档案馆里面发现了数卷古老而破损的异端圣书。字里行间流露出来的智慧严重动摇了我对[Root.Religion.GetName]的信仰。;;;;;;;;;;;;x
 EVTOPTA927;我会皈依这贤明的异教;;;;;;;;;;;;x
 EVTOPTB927;我最好藏起我的疑问;;;;;;;;;;;;x
 EVTOPTA20270;[From.GetSheHeCap]疯了！逮捕[From.GetHerHim]！;;;;;;;;;;;;x
-EVTOPTB20270;[From.GetSheHeCap]说服了我追随[From.GetHerHis]脚步.;;;;;;;;;;;;x
+EVTOPTB20270;[From.GetSheHeCap]说服了我追随[From.GetHerHis]脚步。;;;;;;;;;;;;x
 EVTNAME920;一笔额外的税款;;;;;;;;;;;;x
 EVTDESC920;我成功在[Root.Location.GetName]课到了一笔额外的税款;;;;;;;;;;;;x
 EVTOPTA920;很好！将它上缴给陛下;;;;;;;;;;;;x
@@ -5216,15 +5216,15 @@ EVTDESC921;我在[Root.Location.GetName]推行的重税激怒了不少农民，�
 EVTOPTA921;我能活着逃出去吗;;;;;;;;;;;;x
 EVTTOOLTIP20210;[Root.GetTitledName]逃掉了;;;;;;;;;;;;x
 EVTTOOLTIP20211;[Root.GetTitledName]受伤了;;;;;;;;;;;;x
-EVTDESC20210;披着一件从旅馆老板那里借来的斗篷，我从旅馆侧门偷偷溜了出去，成功摆脱了那群愤怒的农民.;;;;;;;;;;;;x
+EVTDESC20210;披着一件从旅馆老板那里借来的斗篷，我从旅馆侧门偷偷溜了出去，成功摆脱了那群愤怒的农民。;;;;;;;;;;;;x
 EVTOPTA20210;希望我的威望不会因此事而受损……;;;;;;;;;;;;x
-EVTDESC20211;我成功地从农民的袭击中幸存下来，但是这次袭击也让我身受重伤.;;;;;;;;;;;;x
+EVTDESC20211;我成功地从农民的袭击中幸存下来，但是这次袭击也让我身受重伤。;;;;;;;;;;;;x
 EVTTOOLTIP20212;我必须向陛下写一封信告知情况;;;;;;;;;;;;x
 EVTOPTA20212;他们怎么敢做出这种事！;;;;;;;;;;;;x
 EVTOPTA20213;可怕！;;;;;;;;;;;;x
 EVTDESC20214;我在[Root.Location.GetName]征收额外赋税时遇到了一些阻碍。当地农民已经开始武装自己，如果再继续这样下去，恐怕当地很快就会爆发一场叛乱。;;;;;;;;;;;;x
 EVTOPTA20214;陛下不会喜欢这个消息的……;;;;;;;;;;;;x
-EVTDESC20215;[From.Location.GetName]动荡不安！[From.Liege.PrimaryTitle.GetName] 的财务总管正努力从人民身上再多抽出一点税来，但是看来当地人正试图以武力抗税.;;;;;;;;;;;;x
+EVTDESC20215;[From.Location.GetName]动荡不安！[From.Liege.PrimaryTitle.GetName]的财务总管正努力从人民身上再多抽出一点税来，但是看来当地人正试图以武力抗税。;;;;;;;;;;;;x
 EVTOPTA20215;真是令人不安……;;;;;;;;;;;;x
 EVTDESC20216;我的领主，我有一个来自 [From.Location.GetName]的坏消息。我试图在当地征收额外赋税的努力遇到了一些困难。当地农民已经开始武装自己，如果再继续这样下去，恐怕当地很快就会爆发一场叛乱。\n\n您谦逊的财务总管，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA20216;这些麻烦的农民……;;;;;;;;;;;;x
@@ -5232,7 +5232,7 @@ EVTNAME923;会晤建筑师;;;;;;;;;;;;x
 EVTTOOLTIP20230;给我的领主送去一封信;;;;;;;;;;;;x
 EVTOPTA20230;很好;;;;;;;;;;;;x
 EVTNAME924;施工进度受阻;;;;;;;;;;;;x
-EVTDESC924;一个位于[Root.Location.GetName]的建筑项目进行得很顺利.我可以为之做的事不多.;;;;;;;;;;;;x
+EVTDESC924;位于[Root.Location.GetName]的建筑项目进行得很顺利。我可以为之做的事不多。;;;;;;;;;;;;x
 EVTOPTA924;我猜应该不用担心什么了吧;;;;;;;;;;;;x
 EVTTOOLTIP20240;施工打扰了一名本地贵族;;;;;;;;;;;;x
 EVTDESC20240;我得知[From.Liege.GetTitledName]的财务总管正在[From.Location.GetName]监督当地的一座新建筑的施工.我一直不喜欢[From.Liege.GetTitledName]，也许我应该趁这个机会破坏下那名财务总管的工作，让他难堪下;;;;;;;;;;;;x
@@ -5251,10 +5251,10 @@ EVTDESC20244;我的领主，我调查了近期干扰[FromFrom.Location.GetName]�
 EVTOPTA20244;那个邪恶卑鄙的混球！;;;;;;;;;;;;x
 EVTOPTB20244;这次放他一马……;;;;;;;;;;;;x
 EVTNAME910;同领主改进关系;;;;;;;;;;;;x
-EVTDESC910;在我造访[Root.Location.GetName]的宫廷期间，我尽我自己的全力赞美了我的领主大人，让他相信[Root.Liege.GetSheHe]是一名仁慈、平和的统治者.;;;;;;;;;;;;x
+EVTDESC910;在我造访[Root.Location.GetName]的宫廷期间，我尽我自己的全力赞美了我的领主大人，让他受承认[Root.Liege.GetSheHe]是一名仁慈、平和的统治者。;;;;;;;;;;;;x
 EVTOPTA910;我好像成功了！;;;;;;;;;;;;x
 EVTTOOLTIP20101;向领主大人写一封信禀告此事;;;;;;;;;;;;x
-EVTDESC20100;在[From.GetHerHis]造访宫廷期间，[From.Host.PrimaryTitle.GetName]的[From.GetJobTitle]，[From.GetTitledName]，成功地使我相信[From.GetHerHis]领主，[From.Host.GetTitledName]，是一名仁慈、平和的贵族.;;;;;;;;;;;;x
+EVTDESC20100;在[From.GetHerHis]造访宫廷期间，[From.Host.PrimaryTitle.GetName]的[From.GetJobTitle]，[From.GetTitledName]，成功地使我相信[From.GetHerHis]领主，[From.Host.GetTitledName]，是一名仁慈、平和的统治者。;;;;;;;;;;;;x
 EVTOPTA20100;感谢[From.Host.GetTitledName]！;;;;;;;;;;;;x
 EVTOPTA20101;完美！;;;;;;;;;;;;x
 EVTNAME911;破坏同领主的关系;;;;;;;;;;;;x
@@ -5262,17 +5262,17 @@ EVTDESC911;在我造访[Root.Location.GetName]的当地贵族的宫廷期间，�
 EVTOPTA911;看来我悲惨地失败了……;;;;;;;;;;;;x
 EVTTOOLTIP20111;向领主大人写一封信禀告此事;;;;;;;;;;;;x
 EVTDESCA20110;在[From.GetHerHis]到访我的宫廷期间，[From.Host.PrimaryTitle.GetName]，[From.GetTitledName]的[From.GetJobTitle]已经持续关于[From.GetHerHis]领主[From.Host.GetTitledName]真是一个仁慈而平和的统治者.但是宫廷的其他成员告知我[From.GetSheHe]和[From.GetHerHis]领主是多么无耻和虚伪的骗子。;;;;;;;;;;;;x
-EVTOPTA20110;这当然改善不了我对他们的好感.;;;;;;;;;;;;x
+EVTOPTA20110;这当然改善不了我对他们的好感！;;;;;;;;;;;;x
 EVTOPTA20111;废话，当然有害……;;;;;;;;;;;;x
 EVTNAME913;成功伪造宣称;;;;;;;;;;;;x
-EVTDESC913;根据领主大人的命令，我已经尽全力伪造了对[Root.Location.GetName]的一名有封地的贵族的头衔的宣称权.;;;;;;;;;;;;x
+EVTDESC913;根据领主大人的命令，我已经尽全力伪造了[Root.Location.GetName]一名有封地贵族的头衔的宣称权。;;;;;;;;;;;;x
 EVTOPTA913;最好行得通……;;;;;;;;;;;;x
-EVTTOOLTIP20131;向领主大人写信，询问他是否想索要头衔.;;;;;;;;;;;;x
-EVTDESC20130;我注意到[From.Host.PrimaryTitle.GetName]的[From.GetJobTitle]，[From.GetTitledName]，在我的领地内肆意贿赂威胁，试图让足够多的人民相信他的领主，[From.Liege.GetTitledName]，对我的头衔有宣称权.;;;;;;;;;;;;x
+EVTTOOLTIP20131;向领主大人写信，询问他是否想索要头衔。;;;;;;;;;;;;x
+EVTDESC20130;我注意到[From.Host.PrimaryTitle.GetName]的[From.GetJobTitle]，[From.GetTitledName]，在我的领地内肆意贿赂威胁，试图让足够多的人民相信他的领主，[From.Liege.GetTitledName]，对我的头衔有宣称权。;;;;;;;;;;;;x
 EVTOPTA20130;他们最好不要宣称这个头衔！;;;;;;;;;;;;x
 EVTOPTA20131;宣称头衔！;;;;;;;;;;;;x
 EVTOPTB20131;算了;;;;;;;;;;;;x
-EVTDESC20132;看来[From.GetFullName]打算更进一步，罔顾他们手上只有一份可笑的、捏造的文件的事实，公开索要我的头衔.;;;;;;;;;;;;x
+EVTDESC20132;看来[From.GetFullName]打算更进一步，罔顾他们手上只有一份可笑而捏造的文件，公开索要我的头衔。;;;;;;;;;;;;x
 EVTOPTA20132;那个混蛋！;;;;;;;;;;;;x
 EVTNAME914;贵族被激怒;;;;;;;;;;;;x
 EVTDESC914;在被我问了几个越轨的问题后，一名[Root.Location.GetName]的贵族开始变得疑神疑鬼，恐怕他已经猜到我想要伪造对他头衔的宣称权了！;;;;;;;;;;;;x
@@ -5284,14 +5284,14 @@ EVTTOOLTIP20141;针对[This.GetHerHis]一场暗杀在策划;;;;;;;;;;;;x
 EVTOPTB20140;试图贿赂他;;;;;;;;;;;;x
 EVTTOOLTIP20144;向他提供一份协议;;;;;;;;;;;;x
 EVTOPTC20140;随他去吧;;;;;;;;;;;;x
-EVTDESC20141;伪造对[From.GetTitledName]所持头衔宣称的行动并非神不知鬼不觉，传言说[From.GetSheHe]十分愤怒，[From.GetSheHe]下令刺杀我.;;;;;;;;;;;;x
+EVTDESC20141;伪造对[From.GetTitledName]所持头衔宣称的行动并非神不知鬼不觉，传言说[From.GetSheHe]十分愤怒，[From.GetSheHe]下令刺杀我。;;;;;;;;;;;;x
 EVTOPTA20141;我不太担心……;;;;;;;;;;;;x
-EVTDESC20142;刺杀成功！那个在领地内游荡、试图伪造对我头衔宣称的讨厌[Root.GetChancellorName]已经不存在了……而且没有任何的证据指向我.;;;;;;;;;;;;x
+EVTDESC20142;刺杀成功！那个在领地内游荡、试图伪造对我头衔宣称的讨厌[Root.GetChancellorName]已经不存在了……而且没有任何的证据指向我。;;;;;;;;;;;;x
 EVTOPTA20142;很好;;;;;;;;;;;;x
-EVTDESC20143;我派出的刺客不幸失败了，那个讨厌的[FromFrom.GetChancellorName][FromFrom.GetTitledName]仍然在继续伪造对我头衔的宣称.;;;;;;;;;;;;x
+EVTDESC20143;我派出的刺客不幸失败了，那个讨厌的[FromFrom.GetChancellorName][FromFrom.GetTitledName]仍然在继续伪造对我头衔的宣称。;;;;;;;;;;;;x
 EVTOPTA20143;该死！;;;;;;;;;;;;x
 EVTDESC20144;我发现你在[Root.Location.GetName]的工作是伪造对我头衔的宣称.这当然是不可接受的，不过我相信一笔小小的捐赠会让你暂时「遗忘」你的任务.\n\n您的朋友，\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTA20144;这个应该是可以协商的.;;;;;;;;;;;;x
+EVTOPTA20144;这个应该是可以协商的。;;;;;;;;;;;;x
 EVTTOOLTIP20145;向[From.GetHerHim]写一封信;;;;;;;;;;;;x
 EVTOPTB20144;我永远不会背叛我的领主！;;;;;;;;;;;;x
 EVTTOOLTIP20146;将钱退回;;;;;;;;;;;;x
@@ -5301,7 +5301,7 @@ EVTDESC20146;你试图贿赂我的可耻举动不会让我的忠心受到哪怕�
 EVTOPTA20146;他真该死！;;;;;;;;;;;;x
 EVTOPTA20147;太可怕了！;;;;;;;;;;;;x
 EVTNAME916;封臣好感降低;;;;;;;;;;;;x
-EVTDESC916;离间[Root.Location.GetName]的一名贵族和他领主的关系费尽我浑身解数，但是最终他们的关系也什么也不剩了.;;;;;;;;;;;;x
+EVTDESC916;离间[Root.Location.GetName]的一名贵族和他领主的关系费尽我浑身解数，但是最终他们的关系也化为乌有。;;;;;;;;;;;;x
 EVTOPTA916;这个结果应该能让领主大人开心;;;;;;;;;;;;x
 EVTTOOLTIP20172;向领主大人写一封信;;;;;;;;;;;;x
 EVTDESC20160;最开始我不能相信，但是在[From.GetTitledName]的坚持下，他出示了一些无可辩驳的证据，显示我的领主，[Root.Liege.GetTitledName]不仅轻视我，还不信任我！;;;;;;;;;;;;x
@@ -5328,13 +5328,13 @@ EVTOPTA20175;这不太好……;;;;;;;;;;;;x
 EVTDESC20176;我听到消息称你的[Root.GetChancellorName]企图在[FromFrom.Location.GetName]散布有关我的谎言、煽动贵族叛乱！我向你保证我是不能容忍这种暴行的！\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA20176;计划中没有这一步……;;;;;;;;;;;;x
 EVTNAME929;阴谋被揭露;;;;;;;;;;;;x
-EVTDESC929;有流言称有人在[Root.Location.GetName]策划一个阴谋，看来流言是真的.;;;;;;;;;;;;x
-EVTOPTA929;希望我能及时发现流言.;;;;;;;;;;;;x
+EVTDESC929;有流言称有人在[Root.Location.GetName]策划一个阴谋，看来流言是真的。;;;;;;;;;;;;x
+EVTOPTA929;希望我能及时发现流言。;;;;;;;;;;;;x
 EVTDESC20290;[From.Liege.GetTitledName]的间谍总管[From.GetTitledName]已经被派往[From.Location.GetName]调查关于阴谋的流言……也许我该在他发现我密谋[Root.GetPlot]之前让他闭嘴。;;;;;;;;;;;;x
 EVTOPTA20290;这是必要的……;;;;;;;;;;;;x
 EVTOPTB20290;让他马上死亡！;;;;;;;;;;;;x
 EVTOPTC20290;最好不要冒险;;;;;;;;;;;;x
-EVTDESC20291;我抓住了一个试图刺杀我的人! 审讯得知这次刺杀是受[From.GetTitledName]指使，目的是确保我不会发现他密谋[From.GetPlot].;;;;;;;;;;;;x
+EVTDESC20291;我抓住了一个试图刺杀我的人！审讯得知这次刺杀是受[From.GetTitledName]指使，目的是确保我不会发现他密谋[From.GetPlot]。;;;;;;;;;;;;x
 EVTOPTB20292;还是不说为好……;;;;;;;;;;;;x
 EVTDESC20293;你不仅试图刺杀我的间谍总管[FromFrom.GetTitledName]，还密谋[Root.GetPlot]，这让我十分震惊!;;;;;;;;;;;;x
 EVTOPTA20293;太不幸了……;;;;;;;;;;;;x
@@ -5343,17 +5343,17 @@ EVTDESC931;我在[Root.Location.GetName]对和当地一桩阴谋相关的流言�
 EVTOPTA931;我会活着逃离吗;;;;;;;;;;;;x
 EVTTOOLTIP20310;[Root.GetTitledName]逃离了;;;;;;;;;;;;x
 EVTTOOLTIP20311;[Root.GetTitledName]受伤了;;;;;;;;;;;;x
-EVTDESC20310;我成功从后门逃离了.;;;;;;;;;;;;x
+EVTDESC20310;我成功从后门逃离了。;;;;;;;;;;;;x
 EVTOPTA20310;我的名誉不会因此受损……;;;;;;;;;;;;x
-EVTDESC20311;我成功地从暴徒的袭击中幸存下来，但是我也身受重伤.;;;;;;;;;;;;x
+EVTDESC20311;我成功地从暴徒的袭击中幸存下来，但是我也身受重伤。;;;;;;;;;;;;x
 EVTOPTA20311;很幸运我能活下来……;;;;;;;;;;;;x
 EVTTOOLTIP20312;我必须向领主大人写一封信禀告此事.;;;;;;;;;;;;x
 EVTDESC20312;我的领主，\n一群暴徒在我[From.Location.GetName]调查和当地一桩阴谋相关的流言期间袭击了我！我好不容易保住一命，但已身受重伤！\n\n您卑微的间谍总管\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA20312;敌人在暗处！;;;;;;;;;;;;x
-EVTDESC20313;[Root.GetTitledName]，您的间谍总管[From.GetTitledName]在[From.Location.GetName]调查和当地一桩阴谋相关的流言时被武装暴徒袭击而丧命.;;;;;;;;;;;;x
+EVTDESC20313;[Root.GetTitledName]，您的间谍总管[From.GetTitledName]在[From.Location.GetName]调查和当地一桩阴谋相关的流言时被武装暴徒袭击而丧命。;;;;;;;;;;;;x
 EVTOPTA20313;可怕！;;;;;;;;;;;;x
 EVTNAME932;间谍总管偷窃科技;;;;;;;;;;;;x
-EVTDESC932;领主大人，[Root.Location.GetName]的科研进度已经超过了我们.但是我已经成功掌握到了他们的科技进展，并且将同[Root.Liege.GetTitledName]领主分享它.;;;;;;;;;;;;x
+EVTDESC932;[Root.Location.GetName]的科技等级已经超过了我们。但是我已经成功掌握到了他们的科技进展，并且乐意同我的领主[Root.Liege.GetTitledName]分享。;;;;;;;;;;;;x
 EVTOPTA932;这应该能让[Root.Liege.GetHerHim]开心！;;;;;;;;;;;;x
 EVTTOOLTIP20320;向[Root.Liege.GetTitledName]送一封信！;;;;;;;;;;;;x
 EVTDESC20320;我的领主，[From.Location.GetName]的科研进度已经超过了我们。我已经成功掌握到了他们的科技进展，随信附上的文件应该能让我们赶上他们的进度。我希望这些文件能让您满意！\n\n您卑微的间谍总管，\n[From.GetTitledName];;;;;;;;;;;;x
@@ -5369,24 +5369,24 @@ EVTOPTA20331;太不幸了……;;;;;;;;;;;;x
 EVTOPTB20331;[From.GetSheHe]竟敢囚禁我的间谍总管！;;;;;;;;;;;;x
 EVTOPTA20332;谢谢！;;;;;;;;;;;;x
 EVTNAME935;恶毒的流言到处传播;;;;;;;;;;;;x
-EVTDESC935;[Root.Location.GetName]的间谍网络在彻查一名贵族家室的过程中发现他喜好男色……通过威胁公布这个消息，领主大人可以从他那里得到帮助或者金钱.;;;;;;;;;;;;x
-EVTOPTA935;我会上交这个消息.;;;;;;;;;;;;x
+EVTDESC935;我在[Root.Location.GetName]的间谍网络彻查一名当地贵族，发现他喜好男色……威胁公布这个消息，我的领主大人可以从他那里得到帮助或者金钱。;;;;;;;;;;;;x
+EVTOPTA935;我会上交这个消息。;;;;;;;;;;;;x
 EVTDESC20350;我的领主，通过[From.Location.GetName]的间谍网络的调查，我们得知一名当地贵族是同性恋。我应该怎样处理这个情报？\n\n您卑微的间谍总管\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA20350;勒索他！;;;;;;;;;;;;x
-EVTOPTB20350;散布关于他的传言.;;;;;;;;;;;;x
+EVTOPTB20350;散布关于他的传言。;;;;;;;;;;;;x
 EVTOPTC20350;不做任何事;;;;;;;;;;;;x
 EVTDESC20351;领主大人已经下达了明确的指示。我应当勒索那位贵族，让他用一点小钱换取我在这事上的沉默。;;;;;;;;;;;;x
 EVTOPTA20351;狠狠宰他一笔……;;;;;;;;;;;;x
-EVTDESC20352;领主大人已经下达了明确的指示.我应当让间谍们全力散布关于这位贵族的流言.;;;;;;;;;;;;x
+EVTDESC20352;领主大人已经下达了明确的指示。我应当让间谍网络全力散布关于这位贵族的流言。;;;;;;;;;;;;x
 EVTOPTA20352;我喜欢这样;;;;;;;;;;;;x
 EVTTOOLTIP20353;流言传入贵族耳中;;;;;;;;;;;;x
-EVTDESC20354;[From.GetTitledName]，[From.Liege.GetTitledName]的间谍总管，不知怎么地发现了我的性取向，并向我索要一大笔钱，否则他就会让这个消息散布出去，毁掉我在封臣中的名誉.;;;;;;;;;;;;x
+EVTDESC20354;[From.GetTitledName]，[From.Liege.GetTitledName]的间谍总管，不知怎么地发现了我的性取向，并向我索要一大笔钱，否则他就会让这个消息散布出去，毁掉我在封臣中的名誉。;;;;;;;;;;;;x
 EVTOPTA20354;看来我不得不给钱了……;;;;;;;;;;;;x
 EVTOPTB20354;试图杀掉[From.GetTitledName]！;;;;;;;;;;;;x
-EVTOPTC20354;任他们散布谣言.;;;;;;;;;;;;x
+EVTOPTC20354;任他们散布谣言。;;;;;;;;;;;;x
 EVTTOOLTIPSPYMASTERATTACK;[This.GetTitledName]逃离了;;;;;;;;;;;;x
 EVTTOOLTIPSPYMASTERKILLED;[This.GetTitledName]被杀害了;;;;;;;;;;;;x
-EVTDESC20355;[From.GetTitledName]，[From.Liege.GetTitledName]的间谍总管，不知怎么地发现了我的性取向，并正试图让这个消息散布出去，毁掉我在封臣中的名誉.;;;;;;;;;;;;x
+EVTDESC20355;[From.GetTitledName]，[From.Liege.GetTitledName]的间谍总管，不知怎么地发现了我的性取向，并正试图让这个消息散布出去，毁掉我在封臣中的名誉。;;;;;;;;;;;;x
 EVTOPTA20355;试图杀掉[From.GetTitledName]！;;;;;;;;;;;;x
 EVTOPTB20355;任他们散布谣言.;;;;;;;;;;;;x
 EVTDESC20356;本地贵族[From.GetTitledName]，派遣了一些暴徒来袭击我，以确保我不会散布关于他的流言.;;;;;;;;;;;;x
