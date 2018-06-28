@@ -5075,21 +5075,21 @@ RESIGN_FROM_OFFICE_INTERACTION_DESC;辞去我在内阁的职位;;;;;;;;;;;;x
 RESIGN_FROM_OFFICE_INTERACTION_LONG_DESC;你随时都能辞去你在你的领主内阁的现有职位。;;;;;;;;;;;;x
 RESIGN_FROM_OFFICE_INTERACTION_ACCEPT_SETUP;已辞去内阁职位;;;;;;;;;;;;x
 RESIGN_FROM_OFFICE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 选择从 §Y[Recipient.PrimaryTitle.GetName]§!辞去 [Actor.GetPossPronoun]作为[Actor.GetJobTitle]的工作;;;;;;;;;;;;x
-RESIGN_FROM_OFFICE_INTERACTION_LETTER;非常遗憾，我领地上的一些问题使我不再可能继续担任[Recipient.PrimaryTitle.GetName]的[Actor.GetJobTitle]了.我不得不辞去担当的要职.;;;;;;;;;;;;x
-ASK_FOR_INVASION_INTERACTION_TITLE;要求入侵;;;;;;;;;;;;x
+RESIGN_FROM_OFFICE_INTERACTION_LETTER;非常遗憾，我领地上的一些问题使我不再可能继续担任[Recipient.PrimaryTitle.GetName]的[Actor.GetJobTitle]了。恐怕我不得不辞去我的内阁职位。;;;;;;;;;;;;x
+ASK_FOR_INVASION_INTERACTION_TITLE;请求入侵;;;;;;;;;;;;x
 ASK_FOR_INVASION_INTERACTION_LONG_DESC;宗教领袖可以授予特殊的宣战理由，允许发动对一个国家的全面入侵。如果进攻者赢得战争，所有被占领的领地和封臣将不再属于他们原来的领主，而是被转交给入侵者，以犒劳其部下。;;;;;;;;;;;;x
-ASK_FOR_INVASION_INTERACTION_ACCEPT_SETUP;得到入侵权;;;;;;;;;;;;x
-ASK_FOR_INVASION_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 许可 §Y[Actor.GetBestName]§! 入侵[ThirdPartyCharacter.PrimaryTitle.GetName].;;;;;;;;;;;;x
-ASK_FOR_INVASION_INTERACTION_DECLINE_SETUP;拒绝入侵权;;;;;;;;;;;;x
-ASK_FOR_INVASION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝许可 §Y[Actor.GetBestName]§! 入侵[ThirdPartyCharacter.PrimaryTitle.GetFullName].;;;;;;;;;;;;x
-ASK_FOR_INVASION_INTERACTION_OFFER;[Actor.GetBestName]要求许可入侵[ThirdPartyCharacter.PrimaryTitle.GetFullName].;;;;;;;;;;;;x
-ASK_FOR_INVATION_INTERACTION_LETTER;我们请求许可入侵邪恶的[ThirdPartyCharacter.PrimaryTitle.GetFullName];;;;;;;;;;;;x
+ASK_FOR_INVASION_INTERACTION_ACCEPT_SETUP;已准许入侵请求;;;;;;;;;;;;x
+ASK_FOR_INVASION_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 许可了 §Y[Actor.GetBestName]§! 入侵[ThirdPartyCharacter.PrimaryTitle.GetName]的请求。;;;;;;;;;;;;x
+ASK_FOR_INVASION_INTERACTION_DECLINE_SETUP;已否决入侵请求;;;;;;;;;;;;x
+ASK_FOR_INVASION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 否决了 §Y[Actor.GetBestName]§! 入侵[ThirdPartyCharacter.PrimaryTitle.GetFullName]的请求。;;;;;;;;;;;;x
+ASK_FOR_INVASION_INTERACTION_OFFER;[Actor.GetBestName]请求许可入侵[ThirdPartyCharacter.PrimaryTitle.GetFullName]。;;;;;;;;;;;;x
+ASK_FOR_INVATION_INTERACTION_LETTER;我们恳请您的允许，入侵邪恶的[ThirdPartyCharacter.PrimaryTitle.GetFullName];;;;;;;;;;;;x
 ASK_FOR_DIVORCE_INTERACTION_TITLE;请求离婚;;;;;;;;;;;;x
 ASK_FOR_DIVORCE_INTERACTION_DESC;向 §Y[Actor.RelHead.GetTitledFirstName]§! 提出要求离婚 对象是 §Y[Actor.Spouse.GetFirstName]§!. 这将花费你的 [Player.Religion.GetPietyName] 并且，如果离婚被批准，会被 [Actor.Spouse.GetPossPronoun] 的亲戚们视作对他们的侮辱.;;;;;;;;;;;;x
 ASK_FOR_DIVORCE_INTERACTION_LONG_DESC;宗教首领可以准许[Actor.Relhead.GetSheHe]抱有足够好感的统治者离婚. 但是这一行为会消耗你[Player.Religion.GetPietyName].;;;;;;;;;;;;x
-ASK_FOR_DIVORCE_INTERACTION_ACCEPT_SETUP;获得离婚许可;;;;;;;;;;;;x
+ASK_FOR_DIVORCE_INTERACTION_ACCEPT_SETUP;已准许离婚请求;;;;;;;;;;;;x
 ASK_FOR_DIVORCE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 与 §Y[Actor.Spouse.GetBestName]§!离婚;;;;;;;;;;;;x
-ASK_FOR_DIVORCE_INTERACTION_DECLINE_SETUP;拒绝离婚许可;;;;;;;;;;;;x
+ASK_FOR_DIVORCE_INTERACTION_DECLINE_SETUP;已否决离婚请求;;;;;;;;;;;;x
 ASK_FOR_DIVORCE_INTERACTION_DECLINE_LOG;§Y[Actor.GetBestName]§! 被拒绝与 §Y[Actor.Spouse.GetBestName]§!离婚;;;;;;;;;;;;x
 ASK_FOR_DIVORCE_INTERACTION_OFFER;[Actor.GetBestName]希望与[Actor.Spouse.GetBestName]离婚;;;;;;;;;;;;x
 ASK_FOR_DIVORCE_INTERACTION_LETTER;我谦恭地请求你许可与[Actor.Spouse.GetBestName]离婚.;;;;;;;;;;;;x
