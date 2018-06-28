@@ -926,7 +926,7 @@ EVTTOOLTIP3046;有人想要亲自对我表示祝贺;;;;;;;;;;;;x
 EVTDESC3046;说实话，我从来没想过我会真的喜欢上[From.GetTitledFirstName]，但是[From.GetSheHe]举办了一场伟大的宴会，我们一起喝得大醉，我必须承认我过得十分愉快.;;;;;;;;;;;;x
 EVTOPTA3046;[From.GetSheHeCap]是我最好的朋友;;;;;;;;;;;;x
 EVTTOOLTIP3047;我希望 [From.GetSheHe] 知道这些;;;;;;;;;;;;x
-EVTDESC3047;我的一位廷臣在我身边的时候总是表现的有些奇怪，但在这场宴会之后[From.GetTitledFirstName]看起来放松了一些. [From.GetSheHeCap]现在看上去对我十分友善。;;;;;;;;;;;;x
+EVTDESC3047;我的一位廷臣在我身边的时候总是表现的有些奇怪，但在这场宴会之后[From.GetTitledFirstName]看起来放松了一些。[From.GetSheHeCap]现在看上去对我十分友善。;;;;;;;;;;;;x
 EVTOPTA3047;一位新朋友!;;;;;;;;;;;;x
 EVTDESC3050;当我年轻的时候，没人能在比武大会或是战场上击败我.现在，我只能勉强骑上我的战马.这显然不是一种健康的生活方式……;;;;;;;;;;;;x
 EVTOPTA3050;他们会不会笑话我？;;;;;;;;;;;;x
@@ -3177,7 +3177,7 @@ EVTDESC38170;[FromFrom.GetFirstName]从不畏惧任何事情。[FromFrom.GetSheH
 EVTDESC38270;除了恐惧本身，没什么值得恐惧的。我获得了§Y勇敢§!特质。;;;;;;;;;;;;x
 EVTDESC38171;[FromFrom.GetFirstName]总是想得到别人的东西。[FromFrom.GetSheHeCap]获得了嫉妒特质。;;;;;;;;;;;;x
 EVTDESC38271;别人有的东西我也应该有！我获得了§Y嫉妒§!特质。;;;;;;;;;;;;x
-EVTDESC38172;[FromFrom.GetFirstName]总是花大量的时间在异性身上. [FromFrom.GetSheHeCap]获得了色欲特质。;;;;;;;;;;;;x
+EVTDESC38172;[FromFrom.GetFirstName]总是花大量的时间在异性身上。[FromFrom.GetSheHeCap]获得了色欲特质。;;;;;;;;;;;;x
 EVTDESC38272;美好的生活总是存在于恋人的怀中。我获得了§Y色欲§!特质。;;;;;;;;;;;;x
 EVTDESC38173;[FromFrom.GetFirstName]总是免费地给别人东西。[FromFrom.GetSheHeCap]获得了慷慨特质。;;;;;;;;;;;;x
 EVTDESC38273;把多余的东西和别人分享是个好主意。我获得了§Y慷慨§!特质。;;;;;;;;;;;;x
@@ -5092,15 +5092,15 @@ ASK_FOR_DIVORCE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 与 §Y[Actor.S
 ASK_FOR_DIVORCE_INTERACTION_DECLINE_SETUP;已否决离婚请求;;;;;;;;;;;;x
 ASK_FOR_DIVORCE_INTERACTION_DECLINE_LOG;§Y[Actor.GetBestName]§! 被拒绝与 §Y[Actor.Spouse.GetBestName]§!离婚;;;;;;;;;;;;x
 ASK_FOR_DIVORCE_INTERACTION_OFFER;[Actor.GetBestName]希望与[Actor.Spouse.GetBestName]离婚;;;;;;;;;;;;x
-ASK_FOR_DIVORCE_INTERACTION_LETTER;我谦恭地请求你许可与[Actor.Spouse.GetBestName]离婚.;;;;;;;;;;;;x
-DIVORCE_INTERACTION_TITLE;离婚;;;;;;;;;;;;x
-DIVORCE_INTERACTION_DESC;与配偶离婚;;;;;;;;;;;;x
+ASK_FOR_DIVORCE_INTERACTION_LETTER;本座谦恭地恳请您的准许，与[Actor.Spouse.GetBestName]离婚;;;;;;;;;;;;x
+DIVORCE_INTERACTION_TITLE;安排离婚;;;;;;;;;;;;x
+DIVORCE_INTERACTION_DESC;与你的配偶离婚;;;;;;;;;;;;x
 DIVORCE_INTERACTION_LONG_DESC;某些宗教（或者宗教领袖空缺时）允许自由离婚。;;;;;;;;;;;;x
-DIVORCE_INTERACTION_ACCEPT_SETUP;接受离婚;;;;;;;;;;;;x
-DIVORCE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 与 §Y[Actor.Spouse.GetBestName]§!离婚;;;;;;;;;;;;x
-DIVORCE_INTERACTION_DECLINE_SETUP;拒绝离婚;;;;;;;;;;;;x
-DIVORCE_INTERACTION_DECLINE_LOG;§Y[Actor.Spouse.GetBestName]§! 拒绝与 §Y[Actor.GetBestName]§!离婚;;;;;;;;;;;;x
-DIVORCE_INTERACTION_OFFER;[Actor.GetBestName]希望离婚！;;;;;;;;;;;;x
+DIVORCE_INTERACTION_ACCEPT_SETUP;已接受离婚;;;;;;;;;;;;x
+DIVORCE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 与 §Y[Actor.Spouse.GetBestName]§!离婚老;;;;;;;;;;;;x
+DIVORCE_INTERACTION_DECLINE_SETUP;已拒绝离婚;;;;;;;;;;;;x
+DIVORCE_INTERACTION_DECLINE_LOG;§Y[Actor.Spouse.GetBestName]§! 拒绝了与 §Y[Actor.GetBestName]§!离婚;;;;;;;;;;;;x
+DIVORCE_INTERACTION_OFFER;[Actor.GetBestName]要离婚！;;;;;;;;;;;;x
 DIVORCE_INTERACTION_LETTER;我们的婚姻不再有未来.为了我们双方，请让我们保有尊严地结束这一切吧.;;;;;;;;;;;;x
 ASK_FOR_EXCOMMUNICATION_INTERACTION_TITLE;要求绝罚;;;;;;;;;;;;x
 ASK_FOR_EXCOMMUNICATION_INTERACTION_DESC;向§Y[Actor.RelHead.GetTitledFirstName]§!请求绝罚§Y[ThirdPartyCharacter.GetBestName]§!。这将花费你 §R100§!虔诚并且如果请求被批准，将会被 [ThirdPartyCharacter.GetPossPronoun]的亲戚们视作对他们的侮辱.;;;;;;;;;;;;x
@@ -5278,7 +5278,7 @@ EVTNAME914;贵族被激怒;;;;;;;;;;;;x
 EVTDESC914;在被我问了几个越轨的问题后，一名[Root.Location.GetName]的贵族开始变得疑神疑鬼，恐怕他已经猜到我想要伪造对他头衔的宣称权了！;;;;;;;;;;;;x
 EVTOPTA914;我大意了;;;;;;;;;;;;x
 EVTTOOLTIP20140;贵族察觉……;;;;;;;;;;;;x
-EVTDESC20140;[From.Host.GetTitledName]试图篡夺我的头衔! [From.Host.GetHerHisCap][Root.GetChancellorName][From.GetTitledName]现在应该在[From.Location.GetName]活动，寻找能帮助他的领主对我的头衔合法宣称的文档与支持者. 我得采取行动了!;;;;;;;;;;;;x
+EVTDESC20140;[From.Host.GetTitledName]试图篡夺我的头衔！[From.Host.GetHerHisCap][Root.GetChancellorName][From.GetTitledName]现在应该在[From.Location.GetName]活动，寻找能帮助他的领主对我的头衔合法宣称的文档与支持者。我得采取行动了！;;;;;;;;;;;;x
 EVTOPTA20140;让他人间蒸发……;;;;;;;;;;;;x
 EVTTOOLTIP20141;针对[This.GetHerHis]一场暗杀在策划;;;;;;;;;;;;x
 EVTOPTB20140;试图贿赂他;;;;;;;;;;;;x
@@ -5330,7 +5330,7 @@ EVTOPTA20176;计划中没有这一步……;;;;;;;;;;;;x
 EVTNAME929;阴谋被揭露;;;;;;;;;;;;x
 EVTDESC929;有流言称有人在[Root.Location.GetName]策划一个阴谋，看来流言是真的.;;;;;;;;;;;;x
 EVTOPTA929;希望我能及时发现流言.;;;;;;;;;;;;x
-EVTDESC20290;[From.Liege.GetTitledName]的间谍总管[From.GetTitledName]已经被派往[From.Location.GetName]调查关于阴谋的流言... 也许我该在他发现我密谋[Root.GetPlot]之前让他闭嘴.;;;;;;;;;;;;x
+EVTDESC20290;[From.Liege.GetTitledName]的间谍总管[From.GetTitledName]已经被派往[From.Location.GetName]调查关于阴谋的流言……也许我该在他发现我密谋[Root.GetPlot]之前让他闭嘴。;;;;;;;;;;;;x
 EVTOPTA20290;这是必要的……;;;;;;;;;;;;x
 EVTOPTB20290;让他马上死亡！;;;;;;;;;;;;x
 EVTOPTC20290;最好不要冒险;;;;;;;;;;;;x
@@ -16558,7 +16558,7 @@ EVTDESC7035;居然是这个厨子破坏了我的计划.\n\n「我的$HONORIFIC$�
 EVTOPTA7035;是的，很幸运……;;;;;;;;;;;;x
 EVTDESC7040;显然，我昨天去了本地的酒馆，我的宿醉正是这个原因。更糟糕的是他们告诉我，我昨天胡扯了一堆关于「阴谋」的话……;;;;;;;;;;;;x
 EVTOPTA7040;这是不招人待见的……;;;;;;;;;;;;x
-EVTDESC7045;[From.GetTitledName]在酒馆喝的酩酊大醉，让每一个人都知道我密谋[Root.GetPlot]. 就不该让那个爱喝酒的大嘴巴参与这种精细的阴谋!;;;;;;;;;;;;x
+EVTDESC7045;[From.GetTitledName]在酒馆喝的酩酊大醉，让每一个人都知道我密谋[Root.GetPlot]。就不该让那个爱喝酒的大嘴巴参与这种精细的阴谋！;;;;;;;;;;;;x
 EVTOPTA7045;我的名誉全毁了！;;;;;;;;;;;;x
 EVTTOOLTIP7045;$CHARACTERTITLE$ $CHARACTERNAME$收到了一封信件.;;;;;;;;;;;;x
 EVTDESC7050;没有其他的密谋者插手针对$AMBITION_TARGET_NAME$的阴谋！也许到了我发动的时候了……;;;;;;;;;;;;x
@@ -16632,13 +16632,13 @@ EVTOPTC7175;这显然是一个陷阱！;;;;;;;;;;;;x
 EVTDESC7200;我单调乏味的研究终于完成了.我成功的伪造了一个针对某个头衔的宣称，我的一位共谋者一定会对它很感兴趣.;;;;;;;;;;;;x
 EVTOPTA7200;这相当有价值！;;;;;;;;;;;;x
 EVTTOOLTIP7205;收到一封信件;;;;;;;;;;;;x
-EVTDESC7250;我的间谍总管告诉我，我密谋[Root.GetPlot]的事情可能已被外人所知. 我们还不知道被泄露给了谁，但是可能我们很快就会收到他的信件了……;;;;;;;;;;;;x
+EVTDESC7250;我的间谍总管告诉我，我密谋[Root.GetPlot]的事情可能已被外人所知。我们还不知道被泄露给了谁，但是可能我们很快就会收到他的信件了……;;;;;;;;;;;;x
 EVTOPTA7250;难道我的间谍总管就不能带给我一些好消息么;;;;;;;;;;;;x
 EVTDESC7255;我听说[From.GetTitledName]想要密谋[From.GetPlot]。对此我应该作何反应呢？;;;;;;;;;;;;x
 EVTOPTA7255;一封小小的敲诈信对他不痛不痒，难道不是么;;;;;;;;;;;;x
 EVTOPTB7255;这与我无关.随他去吧.;;;;;;;;;;;;x
 EVTTOOLTIP7260;收到一封信件;;;;;;;;;;;;x
-EVTDESC7260;我听说你想要密谋[Root.GetPlot]. 我觉得这很有意思，一定会有别的人对这件事情感兴趣的... 想要让我保守机密的代价可是很高的哦。\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESC7260;我听说你想要密谋[Root.GetPlot].我觉得这很有意思，一定会有别的人对这件事情感兴趣的……想要让我保守机密的代价可是很高的哦。\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA7260;杂种！但是我没有选择的余地……;;;;;;;;;;;;x
 EVTOPTB7260;我无法忍受敲诈！;;;;;;;;;;;;x
 EVTDESC7265;我没有别的选择，只能接受你的卑鄙的敲诈.你已经拿了足够多的钱，我希望你从此以后别再向别人提起这件事.;;;;;;;;;;;;x
