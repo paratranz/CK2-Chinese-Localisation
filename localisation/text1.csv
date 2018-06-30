@@ -5114,7 +5114,7 @@ ASK_FOR_EXCOMMUNICATION_INTERACTION_OFFER;[Actor.GetBestName]希望我们绝罚[
 ASK_FOR_EXCOMMUNICATION_INTERACTION_LETTER;[ThirdPartyCharacter.GetBestName]的行为不能再被容忍下去了，我请求绝罚[ThirdPartyCharacter.GetSubjectPronoun]。;;;;;;;;;;;;x
 CALL_ALLY_INTERACTION_LETTER;我们请求你遵从义务，帮助我们对抗;;;;;;;;;;;;x
 ATTACKING_SOMEONE_ATTACKING_CRUSADE_TARGET;§R对正在参与十字军的人宣战会额外花费§Y$PIETY$虔诚§W;;;;;;;;;;;;x
-ATTACKING_SOMEONE_DEFENDING_AGAINST_OTHER_RELIGIOUS_GROUP;§R对正在抵抗异教徒的人宣战会额外花费§Y$PIETY$[Player.Religion.GetPietyName]§!;;;;;;;;;;;;x
+ATTACKING_SOMEONE_DEFENDING_AGAINST_OTHER_RELIGIOUS_GROUP;§R对正在抵抗异教徒的人宣战会额外消耗§Y$PIETY$[Player.Religion.GetPietyName]§!;;;;;;;;;;;;x
 ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_TITLE;撤销绝罚;;;;;;;;;;;;x
 ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_DESC;向§Y[Actor.RelHead.GetTitledFirstName]§!请求解除对 §Y[ThirdPartyCharacter.GetBestName]§!的绝罚。;;;;;;;;;;;;x
 ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_LONG_DESC;撤销绝罚要求宗教领袖足够喜欢你，或者是你的封臣。;;;;;;;;;;;;x
@@ -5124,13 +5124,13 @@ ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_DECLINE_SETUP;拒绝撤销绝罚;;;;;;;;
 ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§!拒绝§Y[Actor.GetBestName]§!撤销§Y[ThirdPartyCharacter.GetBestName]§!的绝罚的提议;;;;;;;;;;;;x
 ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_OFFER;[Actor.GetBestName]希望撤销[ThirdPartyCharacter.GetBestName]的绝罚;;;;;;;;;;;;x
 ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_LETTER;现在是时候撤销纯洁的[ThirdPartyCharacter.GetBestName]的绝罚了。我可以为[ThirdPartyCharacter.GetPossPronoun]担保。;;;;;;;;;;;;x
-ASK_TO_RANSOM_CHARACTER_INTERACTION_TITLE;赎回囚犯;;;;;;;;;;;;x
+ASK_TO_RANSOM_CHARACTER_INTERACTION_TITLE;请求将囚犯赎身;;;;;;;;;;;;x
 ASK_TO_RANSOM_CHARACTER_INTERACTION_DESC;请求§Y[Recipient.GetTitledFirstName]§!接受我们的赎金并释放§Y[ThirdPartyCharacter.GetBestName]§!。;;;;;;;;;;;;x
 ASK_TO_RANSOM_CHARACTER_INTERACTION_LONG_DESC;在国外被拘禁的犯人可以用一笔钱赎回。;;;;;;;;;;;;x
 ASK_TO_RANSOM_CHARACTER_INTERACTION_0;向[Recipient.GetBestName]提供§Y$GOLD$§!金钱来赎回[ThirdPartyCharacter.GetTitledFirstName]。;;;;;;;;;;;;x
-ASK_TO_RANSOM_CHARACTER_INTERACTION_ACCEPT_SETUP;同意释放囚犯;;;;;;;;;;;;x
-ASK_TO_RANSOM_CHARACTER_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 同意释放 §Y[ThirdPartyCharacter.GetBestName]§!;;;;;;;;;;;;x
-ASK_TO_RANSOM_CHARACTER_INTERACTION_DECLINE_SETUP;拒绝释放囚犯;;;;;;;;;;;;x
+ASK_TO_RANSOM_CHARACTER_INTERACTION_ACCEPT_SETUP;已同意赎身请求;;;;;;;;;;;;x
+ASK_TO_RANSOM_CHARACTER_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§!接受了§Y[ThirdPartyCharacter.GetBestName]§!的赎身;;;;;;;;;;;;x
+ASK_TO_RANSOM_CHARACTER_INTERACTION_DECLINE_SETUP;已拒绝赎身请求;;;;;;;;;;;;x
 ASK_TO_RANSOM_CHARACTER_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝释放 §Y[Actor.GetBestName]§!;;;;;;;;;;;;x
 ASK_TO_RANSOM_CHARACTER_INTERACTION_OFFER;[Actor.GetBestName]提供给我们$RANSOM$金钱来赎回[ThirdPartyCharacter.GetBestName];;;;;;;;;;;;x
 ASK_TO_RANSOM_CHARACTER_INTERACTION_LETTER;[ThirdPartyCharacter.GetBestName]应该获得自由。当然，$RANSOM$金钱应该可以说服你释放[ThirdPartyCharacter.GetObjectPronoun]……;;;;;;;;;;;;x
