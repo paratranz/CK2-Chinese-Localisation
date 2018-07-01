@@ -1061,6 +1061,8 @@
                     }
                 }
                 attrition = 1.0
+            }
+            spawn_unit = {
                 province = 97
                 owner = ROOT
                 troops = {
@@ -1088,6 +1090,13 @@
                         439
                         439
                     }
+                }
+                attrition = 1.0
+            }
+            spawn_unit = {
+                province = 97
+                owner = ROOT
+                troops = {
                     light_infantry = {
                         767
                         767
@@ -1113,9 +1122,6 @@
                         439
                     }
                 }
-                attrition = 1.0
-                province = 97
-                owner = ROOT
                 attrition = 1.0
                 merge = yes
             }

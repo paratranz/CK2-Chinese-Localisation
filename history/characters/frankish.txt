@@ -3284,16 +3284,6 @@
                     martial = 5
                 }
                 trait = tough_soldier
-                random_traits = yes
-                dynasty = random
-                religion = ROOT
-                culture = ROOT
-                female = no
-                age = 27
-                attributes = {
-                    martial = 5
-                }
-                trait = tough_soldier
             }
             new_character = {
                 spawn_unit = {
@@ -3326,6 +3316,20 @@
                         }
                     }
                 }
+            }
+            create_character = {
+                random_traits = yes
+                dynasty = random
+                religion = ROOT
+                culture = ROOT
+                female = no
+                age = 27
+                attributes = {
+                    martial = 5
+                }
+                trait = tough_soldier
+            }
+            new_character = {
                 spawn_unit = {
                     province = 496
                     owner = PREV

@@ -265,6 +265,8 @@
         }
         effect = {
             add_friend = 166890
+        }
+        effect = {
             add_friend = 166894
         }
     }
@@ -292,6 +294,8 @@
         }
         effect = {
             add_rival = 166796
+        }
+        effect = {
             add_rival = 166890
         }
     }
@@ -367,6 +371,8 @@
                         40
                     }
                 }
+            }
+            spawn_unit = {
                 province = 904
                 owner = ROOT
                 troops = {
@@ -390,6 +396,12 @@
                         40
                         40
                     }
+                }
+            }
+            spawn_unit = {
+                province = 904
+                owner = ROOT
+                troops = {
                     horse_archers = {
                         2200
                         2300
@@ -411,24 +423,214 @@
                         40
                     }
                 }
+            }
+            spawn_unit = {
                 province = 904
                 owner = ROOT
+                troops = {
+                    horse_archers = {
+                        2200
+                        2300
+                    }
+                    light_cavalry = {
+                        1366
+                        1366
+                    }
+                    light_infantry = {
+                        455
+                        455
+                    }
+                    heavy_infantry = {
+                        177
+                        177
+                    }
+                    knights = {
+                        40
+                        40
+                    }
+                }
+            }
+            spawn_unit = {
                 province = 904
                 owner = ROOT
+                troops = {
+                    horse_archers = {
+                        2200
+                        2300
+                    }
+                    light_cavalry = {
+                        1366
+                        1366
+                    }
+                    light_infantry = {
+                        455
+                        455
+                    }
+                    heavy_infantry = {
+                        177
+                        177
+                    }
+                    knights = {
+                        40
+                        40
+                    }
+                }
+            }
+            spawn_unit = {
                 province = 904
                 owner = ROOT
+                troops = {
+                    horse_archers = {
+                        2200
+                        2300
+                    }
+                    light_cavalry = {
+                        1366
+                        1366
+                    }
+                    light_infantry = {
+                        455
+                        455
+                    }
+                    heavy_infantry = {
+                        177
+                        177
+                    }
+                    knights = {
+                        40
+                        40
+                    }
+                }
+            }
+            spawn_unit = {
                 province = 904
                 owner = ROOT
+                troops = {
+                    horse_archers = {
+                        2200
+                        2300
+                    }
+                    light_cavalry = {
+                        1366
+                        1366
+                    }
+                    light_infantry = {
+                        455
+                        455
+                    }
+                    heavy_infantry = {
+                        177
+                        177
+                    }
+                    knights = {
+                        40
+                        40
+                    }
+                }
+            }
+            spawn_unit = {
                 province = 904
                 owner = ROOT
+                troops = {
+                    horse_archers = {
+                        2200
+                        2300
+                    }
+                    light_cavalry = {
+                        1366
+                        1366
+                    }
+                    light_infantry = {
+                        455
+                        455
+                    }
+                    heavy_infantry = {
+                        177
+                        177
+                    }
+                    knights = {
+                        40
+                        40
+                    }
+                }
+            }
+            spawn_unit = {
                 province = 904
                 owner = ROOT
+                troops = {
+                    horse_archers = {
+                        2200
+                        2300
+                    }
+                    light_cavalry = {
+                        1366
+                        1366
+                    }
+                    light_infantry = {
+                        455
+                        455
+                    }
+                    heavy_infantry = {
+                        177
+                        177
+                    }
+                    knights = {
+                        40
+                        40
+                    }
+                }
+            }
+            spawn_unit = {
                 province = 904
                 owner = ROOT
+                troops = {
+                    horse_archers = {
+                        2200
+                        2300
+                    }
+                    light_cavalry = {
+                        1366
+                        1366
+                    }
+                    light_infantry = {
+                        455
+                        455
+                    }
+                    heavy_infantry = {
+                        177
+                        177
+                    }
+                    knights = {
+                        40
+                        40
+                    }
+                }
+            }
+            spawn_unit = {
                 province = 904
                 owner = ROOT
-                province = 904
-                owner = ROOT
+                troops = {
+                    horse_archers = {
+                        2200
+                        2300
+                    }
+                    light_cavalry = {
+                        1366
+                        1366
+                    }
+                    light_infantry = {
+                        455
+                        455
+                    }
+                    heavy_infantry = {
+                        177
+                        177
+                    }
+                    knights = {
+                        40
+                        40
+                    }
+                }
             }
         }
     }
@@ -529,6 +731,35 @@
                     martial = 12
                 }
                 trait = brilliant_strategist
+            }
+            new_character = {
+                spawn_unit = {
+                    province = 618
+                    troops = {
+                        horse_archers = {
+                            8000
+                            8000
+                        }
+                        light_cavalry = {
+                            5666
+                            5666
+                        }
+                        light_infantry = {
+                            1800
+                            1800
+                        }
+                        heavy_infantry = {
+                            800
+                            800
+                        }
+                        knights = {
+                            150
+                            150
+                        }
+                    }
+                }
+            }
+            create_character = {
                 random_traits = yes
                 dynasty = random
                 religion = tengri_pagan
@@ -537,31 +768,7 @@
                 age = 40
                 attributes = {
                     martial = 12
-                    martial = 11
-                    martial = 12
-                    martial = 12
                 }
-                trait = brilliant_strategist
-                random_traits = yes
-                dynasty = random
-                religion = tengri_pagan
-                culture = mongol
-                female = no
-                age = 36
-                trait = brilliant_strategist
-                random_traits = yes
-                dynasty = random
-                religion = tengri_pagan
-                culture = mongol
-                female = no
-                age = 34
-                trait = brilliant_strategist
-                random_traits = yes
-                dynasty = random
-                religion = tengri_pagan
-                culture = mongol
-                female = no
-                age = 26
                 trait = brilliant_strategist
             }
             new_character = {
@@ -590,30 +797,21 @@
                         }
                     }
                 }
+            }
+            create_character = {
+                random_traits = yes
+                dynasty = random
+                religion = tengri_pagan
+                culture = mongol
+                female = no
+                age = 36
+                attributes = {
+                    martial = 11
+                }
+                trait = brilliant_strategist
+            }
+            new_character = {
                 spawn_unit = {
-                    province = 618
-                    troops = {
-                        horse_archers = {
-                            8000
-                            8000
-                        }
-                        light_cavalry = {
-                            5666
-                            5666
-                        }
-                        light_infantry = {
-                            1800
-                            1800
-                        }
-                        heavy_infantry = {
-                            800
-                            800
-                        }
-                        knights = {
-                            150
-                            150
-                        }
-                    }
                     province = 620
                     troops = {
                         horse_archers = {
@@ -636,6 +834,25 @@
                             150
                             150
                         }
+                    }
+                }
+            }
+            create_character = {
+                random_traits = yes
+                dynasty = random
+                religion = tengri_pagan
+                culture = mongol
+                female = no
+                age = 34
+                attributes = {
+                    martial = 12
+                }
+                trait = brilliant_strategist
+            }
+            new_character = {
+                spawn_unit = {
+                    province = 620
+                    troops = {
                         horse_archers = {
                             8000
                             8000
@@ -657,8 +874,45 @@
                             150
                         }
                     }
+                }
+            }
+            create_character = {
+                random_traits = yes
+                dynasty = random
+                religion = tengri_pagan
+                culture = mongol
+                female = no
+                age = 26
+                attributes = {
+                    martial = 12
+                }
+                trait = brilliant_strategist
+            }
+            new_character = {
+                spawn_unit = {
                     province = 620
-                    province = 620
+                    troops = {
+                        horse_archers = {
+                            8000
+                            8000
+                        }
+                        light_cavalry = {
+                            5666
+                            5666
+                        }
+                        light_infantry = {
+                            1800
+                            1800
+                        }
+                        heavy_infantry = {
+                            800
+                            800
+                        }
+                        knights = {
+                            150
+                            150
+                        }
+                    }
                 }
             }
         }
@@ -1518,6 +1772,35 @@
                     martial = 12
                 }
                 trait = brilliant_strategist
+            }
+            new_character = {
+                spawn_unit = {
+                    province = 658
+                    troops = {
+                        horse_archers = {
+                            8000
+                            8000
+                        }
+                        light_cavalry = {
+                            5666
+                            5666
+                        }
+                        light_infantry = {
+                            1800
+                            1800
+                        }
+                        heavy_infantry = {
+                            800
+                            800
+                        }
+                        knights = {
+                            150
+                            150
+                        }
+                    }
+                }
+            }
+            create_character = {
                 random_traits = yes
                 dynasty = random
                 religion = tengri_pagan
@@ -1526,31 +1809,7 @@
                 age = 40
                 attributes = {
                     martial = 12
-                    martial = 12
-                    martial = 11
-                    martial = 11
                 }
-                trait = brilliant_strategist
-                random_traits = yes
-                dynasty = random
-                religion = tengri_pagan
-                culture = mongol
-                female = no
-                age = 31
-                trait = brilliant_strategist
-                random_traits = yes
-                dynasty = random
-                religion = tengri_pagan
-                culture = mongol
-                female = no
-                age = 36
-                trait = brilliant_strategist
-                random_traits = yes
-                dynasty = random
-                religion = tengri_pagan
-                culture = mongol
-                female = no
-                age = 36
                 trait = brilliant_strategist
             }
             new_character = {
@@ -1579,30 +1838,21 @@
                         }
                     }
                 }
+            }
+            create_character = {
+                random_traits = yes
+                dynasty = random
+                religion = tengri_pagan
+                culture = mongol
+                female = no
+                age = 31
+                attributes = {
+                    martial = 12
+                }
+                trait = brilliant_strategist
+            }
+            new_character = {
                 spawn_unit = {
-                    province = 658
-                    troops = {
-                        horse_archers = {
-                            8000
-                            8000
-                        }
-                        light_cavalry = {
-                            5666
-                            5666
-                        }
-                        light_infantry = {
-                            1800
-                            1800
-                        }
-                        heavy_infantry = {
-                            800
-                            800
-                        }
-                        knights = {
-                            150
-                            150
-                        }
-                    }
                     province = 659
                     troops = {
                         horse_archers = {
@@ -1625,6 +1875,25 @@
                             150
                             150
                         }
+                    }
+                }
+            }
+            create_character = {
+                random_traits = yes
+                dynasty = random
+                religion = tengri_pagan
+                culture = mongol
+                female = no
+                age = 36
+                attributes = {
+                    martial = 11
+                }
+                trait = brilliant_strategist
+            }
+            new_character = {
+                spawn_unit = {
+                    province = 659
+                    troops = {
                         horse_archers = {
                             8000
                             8000
@@ -1646,8 +1915,45 @@
                             150
                         }
                     }
+                }
+            }
+            create_character = {
+                random_traits = yes
+                dynasty = random
+                religion = tengri_pagan
+                culture = mongol
+                female = no
+                age = 36
+                attributes = {
+                    martial = 11
+                }
+                trait = brilliant_strategist
+            }
+            new_character = {
+                spawn_unit = {
                     province = 659
-                    province = 659
+                    troops = {
+                        horse_archers = {
+                            8000
+                            8000
+                        }
+                        light_cavalry = {
+                            5666
+                            5666
+                        }
+                        light_infantry = {
+                            1800
+                            1800
+                        }
+                        heavy_infantry = {
+                            800
+                            800
+                        }
+                        knights = {
+                            150
+                            150
+                        }
+                    }
                 }
             }
         }

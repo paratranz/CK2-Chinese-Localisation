@@ -497,6 +497,8 @@
                     martial = 6
                 }
                 trait = skilled_tactician
+            }
+            create_character = {
                 random_traits = yes
                 dynasty = random
                 religion = ROOT
@@ -561,6 +563,8 @@
                     }
                 }
                 disband_on_peace = yes
+            }
+            spawn_unit = {
                 province = 1279
                 owner = ROOT
                 troops = {
@@ -584,6 +588,12 @@
                         47
                         47
                     }
+                }
+            }
+            spawn_unit = {
+                province = 1279
+                owner = ROOT
+                troops = {
                     light_infantry = {
                         1454
                         1454
@@ -605,14 +615,60 @@
                         47
                     }
                 }
-                province = 1279
-                owner = ROOT
                 disband_on_peace = yes
+            }
+            spawn_unit = {
                 province = 1279
                 owner = ROOT
+                troops = {
+                    light_infantry = {
+                        1454
+                        1454
+                    }
+                    heavy_infantry = {
+                        637
+                        637
+                    }
+                    archers = {
+                        1012
+                        1012
+                    }
+                    pikemen = {
+                        389
+                        389
+                    }
+                    war_elephants = {
+                        47
+                        47
+                    }
+                }
                 disband_on_peace = yes
+            }
+            spawn_unit = {
                 province = 1279
                 owner = ROOT
+                troops = {
+                    light_infantry = {
+                        1454
+                        1454
+                    }
+                    heavy_infantry = {
+                        637
+                        637
+                    }
+                    archers = {
+                        1012
+                        1012
+                    }
+                    pikemen = {
+                        389
+                        389
+                    }
+                    war_elephants = {
+                        47
+                        47
+                    }
+                }
             }
         }
     }
