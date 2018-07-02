@@ -256,7 +256,7 @@ basque_FEATURES;§Y*§! 可用绝对男女平等继承法。;;;;;;;;;;;;x
 mongol_FEATURES;§Y*§! 可以变为成吉思汗。;;;;;;;;;;;;x
 celtic_FEATURES;§Y*§! 可用凯尔特选任继承法。;;;;;;;;;;;;x
 KINGDOM_LAW_DESC_CONCLAVE;§Y*§! 只有国王和皇帝能通过王权法。\n§Y*§! 王权法涉及法理王国和帝国内的每个人。\n§Y*§! 如果法理王国或帝国不存在，实际王国或帝国的王权法将优先生效。;;;;;;;;;;;;x
-HINT_REL_VIEW_TEXT_4_INDIAN;尽管有相似之处，印度诸教也有各自的明确差异。耆那教统治者能建设最稳定的领地，但也是最没有侵略性的，也没有圣战。印度教最好战，但也有种性制度束缚其地位和关系。最后，佛教信仰对于科技进步有大幅增益。;;;;;;;;;;;;x
+HINT_REL_VIEW_TEXT_4_INDIAN;尽管有相似之处，印度诸教也有各自的明确差异。耆那教统治者能建设最稳定的领地，但最没有侵略性，也没有圣战。印度教最好战，但也有种性制度束缚其地位和关系。最后，佛教信仰对于科技进步有大幅增益。;;;;;;;;;;;;x
 WAR_NAME_INVASION_OF_CHINA;第 $ORDER$ 次$FIRST_ADJ$入侵[offmap_china.GetFullName];;;;;;;;;;;;x
 nick_the_hawk_of_quarysh;古莱氏之鹰隼;;;;;;;;;;;;x
 WEAK_CLAIM_DESC;继承时，第三继承顺位之后的子女才会获得弱宣称。弱宣称只能在以下情形中使用：\n§Y* 女性统治者 \n  * 当前头衔持有者没有完整女性地位\n  * 宣称者是男性，如果宣称者有完整女性地位则可以是任意性别。\n* 摄政期\n* 头衔已处于宣称战争或继承战争的争夺之中\n* 头衔宣称者是第二或第三顺位继承人§!;;;;;;;;;;;;x
@@ -284,8 +284,8 @@ HOLDING_GARRISON_PERCENT_TRIGGER;地产守军是$COMPARISON|Y$$PERC|Y%0$;;;;;;;;
 HOLDING_RAISABLE_LEVY_PERCENT_TRIGGER;地产可召集征召兵是$COMPARISON|Y$$PERC|Y%0$;;;;;;;;;;;;x
 HOLDING_TOTAL_LEVY_PERCENT_TRIGGER;地产总征召兵是$COMPARISON|Y$$PERC|Y%0$;;;;;;;;;;;;x
 EVTDESC_JD_50031_MONGOLS;[offmap_china.GetChinaPreviousStatusEnd]。[Root.Religion.GetHighGodNameCap]一定是对真龙天子感到不满。因为一支伟大的蒙古游牧军设法击穿了中国北部的严密防御体系，意图破乱「神州」的和谐与繁荣。[offmap_china.Ruler.GetDynName][offmap_china.Ruler.GetEmperorEmpress]对此迅速做出反应，正在[GetRandomChineseRegion]召集[offmap_china.Ruler.GetHerHis]军队，但[offmap_china.Ruler.GetSubjectPronoun]或许还是会陷入战争的泥淖……\n\n对于中国的朝贡国而言，这意味着他们的宗主国现在无力提供军事援助。也有人指出这是挣脱并获得自由的时机。;;;;;;;;;;;;x
-EVTDESC_JD_50031_JURCHENS;[FromFrom.GetChinaPreviousStatusEnd]. [Root.Religion.GetHighGodNameCap] must have decided to punish the arrogance of the bureaucratic Chinese regime, for a great Jurchen Horde has recently disrupted the harmony of the 'Divine Land'. Led by their great Khagan, numberless fierce riders have crossed the Liao river and invaded Northeastern China, apparently intent on conquering the whole empire. [FromFrom.Ruler.GetEmperorEmpress] [FromFrom.Ruler.GetDynName] is slowly gathering [FromFrom.Ruler.GetPossPronoun] forces in [GetRandomChineseRegion], but many are already questioning whether [FromFrom.Ruler.GetSubjectPronoun] has lost the Mandate of Heaven...\n\nFor tributary states of China this means that their suzerain will be unable to lend them military aid. Others point out that it is an opportune time to break free.;;;;;;;;;;;;x
-angered_china_tt;[Root.GetTitledFirstName] gets 'Angered China' for 50 years, decreasing Monthly Prestige by §R-0.50§! and Monthly Grace by §R-2§!.;;;;;;;;;;;;x
+EVTDESC_JD_50031_JURCHENS;[FromFrom.GetChinaPreviousStatusEnd]。[Root.Religion.GetHighGodNameCap]定然已决意惩罚中国官僚体制的桀骜不驯，因为一支伟大的女真游牧军最近破乱了「神州」的和谐。在他们伟大可汗的带领下，不可胜数凶残的骑手跨过了辽河，入侵中国东北，显然意图征服整个帝国。[FromFrom.Ruler.GetEmperorEmpress][FromFrom.Ruler.GetDynName]正在[GetRandomChineseRegion]缓慢地收拢着[FromFrom.Ruler.GetPossPronoun]部队，但许多人已开始怀疑[FromFrom.Ruler.GetSubjectPronoun]失去了天命……\n\n对于中国的朝贡国而言，这意味着他们的宗主国现在无力提供军事援助。也有人指出这是挣脱并获得自由的时机。;;;;;;;;;;;;x
+angered_china_tt;[Root.GetTitledFirstName]获得「中国被激怒」，持续50年，降低每月威望 §R-0.50§! 和每月皇恩 §R-2§! 。;;;;;;;;;;;;x
 EVTOPTB_WOL_10306;But I am not ready to commit to a pastime so whole-heartedly...;;;;;;;;;;;;x
 tribal_government_desc;Tribes are settled, but agrarian. Each County can only have one Tribal 'Holding', representing the entire local tribal population - the more empty Holding slots, the more powerful the Tribal Holding. Tribal rulers are most often seen using the 'Elective Gavelkind' Succession Law, which tends to fragment the realm between sons on the death of the chief.;;;;;;;;;;;;x
 EVTOPTA_JD_20004;Well done, [corresponding_councilor.GetJobTitle] [corresponding_councilor.GetFirstName].;;;;;;;;;;;;x
