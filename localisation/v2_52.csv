@@ -85,7 +85,7 @@ BADBOY_EFFECT;$DIRECTION$ $VALUE$ 威胁值。\n;;;;;;;;;;;;x
 TRANSFER_INFAMY;$SOURCE$ 的威胁值;;;;;;;;;;;;x
 INFAMY_NON_RULER_DESC;不能获得威胁值因为$CHARACTER|Y$不是统治者。;;;;;;;;;;;;x
 alert_high_infamy_instant;§Y你正在造成威胁！§!;;;;;;;;;;;;x
-RELEASE_VASSAL_INTERACTION_0;准许§Y[Recipient.GetTitledFirstName]§!独立。[Recipient.GetSubjectPronounCap]会非常感激(§G+$OPINION$§!好感，§G$INFAMY$%§! 威胁程度)。;;;;;;;;;;;;x
+RELEASE_VASSAL_INTERACTION_0;准许§Y[Recipient.GetTitledFirstName]§!独立。[Recipient.GetSubjectPronounCap]会非常感激（§G+$OPINION$§!好感，§G$INFAMY$%§! 威胁程度）。;;;;;;;;;;;;x
 GRANT_LANDED_TITLE_INTERACTION_6;把§Y[ThirdPartyTitle.GetFullName]§!及其下属所有头衔授予§Y[Recipient.GetTitledFirstName]§!，这会让[Recipient.GetPossPronoun]对你的好感提高§G$OPINION$§!，并降低你 §G$INFAMY$%§!的威胁度。;;;;;;;;;;;;x
 GRANT_LANDED_TITLE_INTERACTION_1;把§Y[ThirdPartyTitle.GetFullName]§!授予给§Y[Recipient.GetTitledFirstName]§!，这会让 [Recipient.GetPossPronoun]对你的好感提高 §G$OPINION$§!，并降低你§G$INFAMY$%§!的威胁度。;;;;;;;;;;;;x
 INTERACTION_COALITION_REQUIRES_INFAMY_LIMIT;§Y[Recipient.GetTitledFirstName]§!至少要有 $NUM|Y0%$的威胁度;;;;;;;;;;;;x
@@ -163,7 +163,7 @@ rowdy_desc;这个孩子吵闹、活泼、相比安静的工作经常更喜欢粗
 willful_desc;这个孩子顽固、执拗，从不轻易遵从他人或作出让步。可能发展成：§Y野心勃勃§!、§Y勇敢§! 或 §Y顽固§!。;;;;;;;;;;;;x
 brooding_desc;这个孩子是一个安静的思考者。别的孩子白天在外玩时，这个孩子经常坐在屋内沉思。可能发展成：§Y正直§!、§Y易怒§! 或 §Y嫉妒§!。;;;;;;;;;;;;x
 indolent_desc;这个孩子反感任何形式的努力，无论是精神上的还是身体上的。可能发展成§Y慷慨§!、§Y懒惰§! 或 §Y暴食§!。;;;;;;;;;;;;x
-playful_desc;这个孩子喜欢沉浸在娱乐和游戏中，总是能找到去玩耍的借口。可能发展成：§Y合群§!、§Y狡诈§! 或  §Y精神错乱§!(稀少)。;;;;;;;;;;;;x
+playful_desc;这个孩子喜欢沉浸在娱乐和游戏中，总是能找到去玩耍的借口。可能发展成：§Y合群§!、§Y狡诈§! 或  §Y精神错乱§!（稀少）。;;;;;;;;;;;;x
 conscientious_desc;这个孩子异乎寻常地细心、负责，乐于把繁琐的杂活、任务做得完美。可能发展成：§Y勤奋§! 或 §Y节制§!。;;;;;;;;;;;;x
 fussy_desc;这个孩子很讲究其他人觉得琐碎的细节，有时会因此沮丧、遭遇挫折。可能发展成：§Y耐心§!、§Y贪婪§! 或 §Y多疑§!。;;;;;;;;;;;;x
 curious_desc;这个孩子有着好奇的天性，不断地提问题、探索新奇事物。可能发展成：§Y精明§!、§Y愤世嫉俗§! 或 §Y同情其他宗教§!。;;;;;;;;;;;;x
@@ -325,7 +325,7 @@ SM_CONTEXTMUSIC;情景相关音乐;;;;;;;;;;;;x
 MINIMAP_NEXTSONG;下一曲;;;;;;;;;;;;x
 MINIMAP_NEXTSONG_DELAYED;正在播放：$SONG|Y$;;;;;;;;;;;;x
 PEACE_ENFORCE_COUNCIL_DISCONTENT;内阁必须处于满意状态;;;;;;;;;;;;x
-COUNCIL_DISCONTENT_EFFECT;在内阁处于§Y满意§!状态并且§Y宣战§!法被设定为§Y内阁§!的时候，内阁成员将无法加入或者组织§Y派系§!(游牧和部落的内阁成员无论何时都可加入或者组织派系)。\n在内阁处于 §Y不满§! 状态的时候，领主无法§Y强制领内和平§!。;;;;;;;;;;;;x
+COUNCIL_DISCONTENT_EFFECT;在内阁处于§Y满意§!状态并且§Y宣战§!法被设定为§Y内阁§!的时候，内阁成员将无法加入或者组织§Y派系§!（游牧和部落的内阁成员无论何时都可加入或者组织派系）。\n在内阁处于 §Y不满§! 状态的时候，领主无法§Y强制领内和平§!。;;;;;;;;;;;;x
 alert_council_discontent_delayed;您的内阁已经处于不满状态长达 $DISCONTENT_DURATION|Y$ 个月，并将持续到 §Y$DISCONTENT_END_DATE$§!。这意味着如果有内阁成员曾经因法律被禁止创建跟加入派系，那么他们现在可以这么做。这将很可能会动摇国本。;;;;;;;;;;;;x
 alert_liege_council_discontent_delayed;您领主的内阁已经处于不满状态长达 $DISCONTENT_DURATION$ 个月，并将持续到 §Y$DISCONTENT_END_DATE$§!。这意味着如果有内阁成员曾经因法律被禁止创建跟加入派系，那么他们现在可以这么做。这将很可能会动摇国本。;;;;;;;;;;;;x
 coalitions_title;$GROUP$针对$TARGET$的共同防御协定;;;;;;;;;;;;x
