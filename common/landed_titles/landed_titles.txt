@@ -104,53 +104,53 @@ k_orthodox = {
         "阿尔塞尼"  # Arsenios
         "阿塔纳西"  # Athanasios
         "安托尼"  # Antonios
-        "多西德奥"  # Dositheos
-        "艾弗斯塔提"  # Eustathios
-        "艾弗斯特拉提"  # Eustratios
-        "艾弗提弥"  # Euthymios
-        "格奥尔吉"  # Georgios
-        "革拉西默"  # Gerasimos
-        "革尔曼"  # Germanos
-        "格里高利"  # Gregorios
-        "伊格纳提"  # Ignatios
-        "约安"  # Ioannes
-        "约熙福"  # Ioseph
-        "伊撒依亚"  # Isaias
-        "伊西多若"  # Isidoros
-        "卡利斯托"  # Kallistos
-        "君士坦丁"  # Konstantinos
-        "科斯玛"  # Kosmas
-        "莱翁"  # Leon
-        "路喀"  # Loukas
-        "玛喀里"  # Makarios
-        "埃玛努伊尔"  # Manuel
-        "玛特泰"  # Matthaios
-        "玛克息默"  # Maximos
-        "麦托迪"  # Methodios
-        "弥特若梵"  # Metrophanes
-        "弥哈伊尔"  # Michael
-        "奈奥斐特"  # Neophytos
-        "尼丰"  # Nephon
-        "尼科拉"  # Nikolaos
-        "尼基佛若"  # Nikephoros
-        "尼尔"  # Nilos
-        "帕弗罗"  # Pavlos
-        "斐洛德奥"  # Philotheos
-        "佛提"  # Photios
-        "颇利艾弗克特"  # Polyeuktos
-        "塞尔吉"  # Sergios
-        "西息尼"  # Sisinnios
-        "斯特梵"  # Stephanos
-        "塔拉西"  # Tarasios
-        "德奥多若"  # Theodoros
-        "德奥多西"  # Theodosios
-        "德奥多特"  # Theodotos
-        "德奥利普托"  # Theoleptos
-        "德奥梵"  # Theophanes
-        "德奥斐拉克特"  # Theophylaktos
-        "特里丰"  # Tryphon
-        "匝哈里亚"  # Zacharias
-        "巴西略"  # Basileios
+        "巴西德奥"  # Basileios
+        "艾弗斯塔提"  # Dositheos
+        "艾弗斯特拉提"  # Eustathios
+        "艾弗提弥"  # Eustratios
+        "格奥尔吉"  # Euthymios
+        "革拉西默"  # Georgios
+        "革尔曼"  # Gerasimos
+        "格里高利"  # Germanos
+        "伊格纳提"  # Gregorios
+        "约安"  # Ignatios
+        "约熙福"  # Ioannes
+        "伊撒依亚"  # Ioseph
+        "伊西多若"  # Isaias
+        "卡利斯托"  # Isidoros
+        "君士坦丁"  # Kallistos
+        "科斯玛"  # Konstantinos
+        "莱翁"  # Kosmas
+        "路喀"  # Leon
+        "玛喀里"  # Loukas
+        "埃玛努伊尔"  # Makarios
+        "玛特泰"  # Manuel
+        "玛克息默"  # Matthaios
+        "麦托迪"  # Maximos
+        "弥特若梵"  # Methodios
+        "弥哈伊尔"  # Metrophanes
+        "奈奥斐特"  # Michael
+        "尼丰"  # Neophytos
+        "尼科拉"  # Nephon
+        "尼基佛若"  # Nikolaos
+        "尼尔"  # Nikephoros
+        "帕弗罗"  # Nilos
+        "斐洛德奥"  # Pavlos
+        "佛提"  # Philotheos
+        "颇利艾弗克特"  # Photios
+        "塞尔吉"  # Polyeuktos
+        "西息尼"  # Sergios
+        "斯特梵"  # Sisinnios
+        "塔拉西"  # Stephanos
+        "德奥多若"  # Tarasios
+        "德奥多西"  # Theodoros
+        "德奥多特"  # Theodosios
+        "德奥利普托"  # Theodotos
+        "德奥梵"  # Theoleptos
+        "德奥斐拉克特"  # Theophanes
+        "特里丰"  # Theophylaktos
+        "匝哈里亚"  # Tryphon
+        "巴西略"  # Zacharias
     }
 }
 e_sunni = {
@@ -8653,6 +8653,7 @@ e_italy = {
                     1
                 }
                 christian = 5000
+                aztec_reformed = 1000
                 holy_site = catholic
                 holy_site = aztec
                 holy_site = aztec_reformed
@@ -21846,6 +21847,7 @@ e_france = {
         culture = frankish
         catholic = 5000
         norse_pagan_reformed = 100
+        aztec_reformed = 500
         d_berry = {
             color = {
                 24
@@ -25127,6 +25129,7 @@ e_spain = {
         catholic = 100
         muslim = 50
         west_african_pagan_reformed = 50
+        aztec_reformed = 2000
         allow = {
             hidden_tooltip = {
                 OR = {
@@ -28067,6 +28070,7 @@ e_arabia = {
         culture = maghreb_arabic
         muslim = 100
         west_african_pagan_reformed = 100
+        aztec_reformed = 500
         d_marrakech = {
             color = {
                 43
@@ -30009,6 +30013,7 @@ e_britannia = {
         dignity = 10
         catholic = 300
         norse_pagan_reformed = 200
+        aztec_reformed = 500
         culture = saxon
         welsh = "洛伊吉尔"  # Lloegyr
         pictish = "洛伊吉尔"  # Lloegyr
@@ -34386,7 +34391,7 @@ d_nestorian = {
         220
         0
     }
-    capital = 764
+    capital = 693
     title = "PATRIARCH_IN_THE_EAST"
     foa = "ECUMENICAL_PATRIARCH_FOA"
     short_name = yes
@@ -35116,6 +35121,18 @@ b_gaulo = {
     culture = italian
     religion = catholic
 }
+b_silvio = {
+    culture = italian
+    religion = catholic
+}
+b_mastropiero = {
+    culture = italian
+    religion = catholic
+}
+b_tiepolo = {
+    culture = italian
+    religion = catholic
+}
 b_doria = {
     culture = italian
     religion = catholic
@@ -35234,6 +35251,26 @@ b_sorrenti = {
 }
 b_ravelli = {
     culture = italian
+    religion = catholic
+}
+b_kastriotis = {
+    culture = greek
+    religion = catholic
+}
+b_skleros = {
+    culture = italian
+    religion = catholic
+}
+b_monomachos = {
+    culture = italian
+    religion = catholic
+}
+b_kourkoas = {
+    culture = greek
+    religion = catholic
+}
+b_scarponnois = {
+    culture = german
     religion = catholic
 }
 d_norse_pagan_reformed = {
