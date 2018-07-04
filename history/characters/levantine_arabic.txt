@@ -412,6 +412,7 @@
     trait = "chaste"
     trait = "cynical"
     trait = "martial_cleric"
+    father = 240000
     1039.1.1 = {
         birth = "1039.1.1"
     }
@@ -487,23 +488,6 @@
     culture = "levantine_arabic"
     trait = "greedy"
     trait = "skilled_tactician"
-    1039.1.1 = {
-        birth = "1039.1.1"
-    }
-    1089.1.1 = {
-        death = "1089.1.1"
-    }
-}
-20764 = {
-    name = "穆扎法拉丁"  # Muzaffaraddin
-    dynasty = 101031
-    martial = 7
-    diplomacy = 5
-    intrigue = 6
-    stewardship = 8
-    religion = "sunni"
-    culture = "levantine_arabic"
-    trait = "underhanded_rogue"
     1039.1.1 = {
         birth = "1039.1.1"
     }
@@ -1500,24 +1484,6 @@
         death = "1200.1.1"
     }
 }
-227006 = {
-    name = "阿卡布"  # Akab
-    dynasty = 100690
-    martial = 5
-    diplomacy = 4
-    intrigue = 8
-    stewardship = 5
-    religion = "sunni"
-    culture = "levantine_arabic"
-    trait = "just"
-    trait = "martial_cleric"
-    1150.1.1 = {
-        birth = "1150.1.1"
-    }
-    1200.1.1 = {
-        death = "1200.1.1"
-    }
-}
 227007 = {
     name = "阿卜杜拉"  # Abdullah
     dynasty = 100691
@@ -2252,24 +2218,6 @@
         death = "1350.1.1"
     }
 }
-485370 = {
-    name = "哈隆"  # Haroun
-    dynasty = 100709
-    martial = 5
-    diplomacy = 7
-    intrigue = 4
-    stewardship = 4
-    religion = "sunni"
-    culture = "levantine_arabic"
-    trait = "hunchback"
-    trait = "tough_soldier"
-    1300.1.1 = {
-        birth = "1300.1.1"
-    }
-    1350.1.1 = {
-        death = "1350.1.1"
-    }
-}
 485380 = {
     name = "沙班"  # Sha'ban
     dynasty = 100710
@@ -2481,6 +2429,8 @@
 }
 226000 = {
     name = "萨拉丁"  # Saladin
+    dna = fcvmfemunim
+    properties = am0bib000000000000
     dynasty = 24000
     martial = 7
     diplomacy = 5
@@ -6958,4 +6908,24 @@
     790.1.1 = {
         death = yes
     }
+}
+240000 = {
+    name = "阿希德"  # Adhid
+    dynasty = 101015
+    religion = "sunni"
+    1005.1.1 = {
+        birth = yes
+    }
+    1066.1.1 = {
+        death = yes
+    }
+}
+20764 = {
+    name = "穆扎法拉丁"  # Muzaffaraddin
+}
+227006 = {
+    name = "阿卡布"  # Akab
+}
+485370 = {
+    name = "哈隆"  # Haroun
 }
