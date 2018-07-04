@@ -214,7 +214,7 @@ CHAR_NAME;姓名;;;;;;;;;;;;x
 CHAR_BOTH;所有;;;;;;;;;;;;x
 YOUR_RELATION;你的$RELATION$;;;;;;;;;;;;x
 YOU;你;;;;;;;;;;;;x
-CHARACTER_TOOLTIP;§Y[GetBestName]§!§P[GetHumanNameLine]§!§G[GetPlayerRelation]§!\n[GetHighestTitles];;;;;;;;;;;;x
+CHARACTER_TOOLTIP;;;;;;;;;;;;;x
 CHARACTER_TOOLTIP_DELAYED;[GetStatusInfo];;;;;;;;;;;;x
 no_tactic;无战术;;;;;;;;;;;;x
 generic_skirmish_tactic;普通散兵战术;;;;;;;;;;;;x
@@ -477,7 +477,7 @@ CIV_VALUE;在$WHERE$的文明程度$DIRECTION$了 $VALUE$。\n;;;;;;;;;;;;x
 SPAWN_HORDE;一个有$SIZE$单位的蛮族部落将出现在$WHERE$。\n;;;;;;;;;;;;x
 REMOVE_GOVERNOR;$WHO$不再是$WHERE$的总督。\n;;;;;;;;;;;;x
 SET_FAMILY_EFFECT;$CHAR$将成为$FAMILY$家族的一员。\n;;;;;;;;;;;;x
-REMOVE_TITLE_EFFECT;$CHAR$不再是$TITLE$。\n;;;;;;;;;;;;x
+REMOVE_TITLE_EFFECT;§Y$CHAR$§!不再是$TITLE$。\n;;;;;;;;;;;;x
 IMPLEMENT_LAW;制定并执行;;;;;;;;;;;;x
 REVOKE_LAW;废除;;;;;;;;;;;;x
 CHARBANISHEFFECT;§Y$NAME$§!被驱逐到§Y$TARGET$§!\n;;;;;;;;;;;;x
@@ -2175,7 +2175,7 @@ EVTOPTB452;揭发[From.GetObjectPronoun];;;;;;;;;;;;x
 EVTOPTC452;大声呼救！;;;;;;;;;;;;x
 EVTOPTA453;做[This.GetTitle]真好;;;;;;;;;;;;x
 EVTTOOLTIP453;[This.GetTitledFirstName]成了我的情人;;;;;;;;;;;;x
-EVTDESC454;[From.GetFirstName]女士唾弃了我的追求。;;;;;;;;;;;;x
+EVTDESC454;[From.GetLordLady][From.GetFirstName]女士唾弃了我的追求。;;;;;;;;;;;;x
 EVTTOOLTIP454;[This.GetTitledFirstName]变得失望;;;;;;;;;;;;x
 EVTDESC455;[From.GetFirstName]尖叫起来，在我的卫兵面前大惊小怪！;;;;;;;;;;;;x
 EVTTOOLTIP455;[This.GetTitledFirstName]变得尴尬和忿恨;;;;;;;;;;;;x
@@ -2791,7 +2791,7 @@ EVTTOOLTIP39225;[From.GetTitledFirstName]会失望的。;;;;;;;;;;;;x
 EVTDESC39222;我们发现[From.GetTitledFirstName]试图偷偷给教宗送信以获得圣父的支持。;;;;;;;;;;;;x
 EVTOPTA39222;割断他的喉咙！;;;;;;;;;;;;x
 EVTOPTB39222;让上帝来裁决吧。;;;;;;;;;;;;x
-EVTDESC39223;[From.GetTitledFirstName]的祈祷并没有被无视，我们的权力是否有界限呢？;;;;;;;;;;;;x
+EVTDESC39223;[From.GetTitledFirstName]的祈祷并没有被无视，我的权力是否有界限呢？;;;;;;;;;;;;x
 EVTOPTA39223;我不能让一个上帝的孩子被关押。;;;;;;;;;;;;x
 EVTOPTB39223;他不过是一个叛徒……;;;;;;;;;;;;x
 EVTDESC39224;[From.GetTitledFirstName]开始介入此事并写了一封措辞严厉的信给[Root.Host.GetTitledFirstName]要求释放俘虏。;;;;;;;;;;;;x
@@ -4394,10 +4394,10 @@ EVTDESC6239;怠惰恶魔贝尔芬格对于我一直这样忙碌感到奇怪。�
 EVTOPTA6239;你知道他言之在理。;;;;;;;;;;;;x
 EVTDESC6240;我一直不明白为何我要被这些琐事所困扰。贝尔芬格一直催促我为大事而节约自己的精力。;;;;;;;;;;;;x
 EVTOPTA6240;他在这一点上也是对的。;;;;;;;;;;;;x
-EVTDESC63060;[Root.Liege.GetTitledFirstName]我的领主对城市课以重税。在如此沉重的赋税负担下我们怎么做才能让城市繁荣起来？;;;;;;;;;;;;x
+EVTDESC63060;我的领主[Root.Liege.GetTitledFirstName]对城市课以重税。在如此沉重的赋税负担下本座怎能让城市繁荣起来？;;;;;;;;;;;;x
 EVTOPTA63060;请求降低赋税;;;;;;;;;;;;x
 EVTOPTB63060;我可不敢激怒[Root.Liege.GetObjectPronoun]……;;;;;;;;;;;;x
-EVTTOOLTIP63061;在降低税率上寻求陛下的支持;;;;;;;;;;;;x
+EVTTOOLTIP63061;在降低税率上寻求我的领主的支持;;;;;;;;;;;;x
 EVTDESC63061;杰出的[Root.GetTitledFirstName]，[From.PrimaryTitle.GetName]的好市民已经快纳不起税了。我们的口袋空空如也。在此，我谦卑地请求您降低您对麾下城市的税收。\n\n[From.GetBestName]敬上;;;;;;;;;;;;x
 EVTOPTA63061;一个荒谬的请求！;;;;;;;;;;;;x
 EVTOPTB63061;很好……;;;;;;;;;;;;x
