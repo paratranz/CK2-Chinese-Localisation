@@ -70,10 +70,54 @@
         death = "894.1.1"
     }
 }
+178212 = {
+    name = "Har Rai"  # Har Rai
+    dynasty = 1041117
+    father = 188559
+    religion = "sunni"
+    culture = "sindhi"
+    787.1.1 = {
+        birth = "833.1.1"
+    }
+    843.1.1 = {
+        death = "888.1.1"
+    }
+}
+178213 = {
+    name = "Har Rai"  # Har Rai
+    dynasty = 1041116
+    father = 188556
+    religion = "shiite"
+    culture = "sindhi"
+    trait = sympathy_indian
+    trait = mahayana_buddhist
+    777.1.1 = {
+        birth = yes
+    }
+    840.1.1 = {
+        death = yes
+    }
+}
+178214 = {
+    name = "Har Rai"  # Har Rai
+    dynasty = 1041116
+    father = 178213
+    religion = "shiite"
+    culture = "sindhi"
+    trait = sympathy_indian
+    trait = mahayana_buddhist
+    812.1.1 = {
+        birth = yes
+    }
+    880.1.1 = {
+        death = yes
+    }
+}
 178016 = {
     name = "湿诃布提"  # Shahabuddin
     dynasty = 1041116
-    religion = "sunni"
+    father = 178213
+    religion = "shiite"
     culture = "sindhi"
     837.1.1 = {
         birth = "837.1.1"
@@ -85,6 +129,7 @@
 178017 = {
     name = "马哈茂德"  # Mahmud
     dynasty = 1041117
+    father = 178212
     religion = "sunni"
     culture = "sindhi"
     833.1.1 = {
@@ -92,6 +137,602 @@
     }
     888.1.1 = {
         death = "888.1.1"
+    }
+}
+178200 = {
+    name = "Anokhi"  # Anokhi
+    dynasty = 1041116
+    father = 178016
+    female = yes
+    culture = panjabi
+    religion = shiite
+    trait = sympathy_indian
+    856.5.3 = {
+        birth = "856.5.3"
+    }
+    870.5.3 = {
+        add_spouse = 178017
+    }
+    895.3.12 = {
+        death = "895.3.12"
+    }
+}
+178201 = {
+    name = "Har Rai"  # Har Rai
+    dynasty = 1041117
+    father = 178017
+    mother = 178200
+    culture = panjabi
+    religion = shiite
+    trait = sympathy_indian
+    872.8.4 = {
+        birth = yes
+    }
+    940.6.6 = {
+        death = yes
+    }
+}
+178202 = {
+    name = "Lakhmichand"  # Lakhmichand
+    dynasty = 1041117
+    father = 178201
+    culture = panjabi
+    religion = shiite
+    trait = sympathy_indian
+    930.3.7 = {
+        birth = yes
+    }
+    995.3.1 = {
+        death = yes
+    }
+}
+178203 = {
+    name = "Nihal"  # Nihal
+    dynasty = 1041117
+    father = 178202
+    female = yes
+    culture = panjabi
+    religion = hindu
+    trait = kshatriya
+    trait = sympathy_islam
+    trait = midas_touched
+    trait = cynical
+    989.1.2 = {
+        birth = yes
+    }
+    995.3.1 = {
+        give_nickname = nick_the_usurper
+    }
+    1067.5.30 = {
+        add_trait = infirm
+    }
+    1025.6.5 = {
+        effect = {
+            add_rival = 178207
+        }
+    }
+    1068.3.11 = {
+        death = {
+            death_reason = death_murder_unknown
+        }
+    }
+}
+178204 = {
+    name = "陀耶罗摩"  # Dayaram
+    culture = panjabi
+    religion = shiite
+    trait = sympathy_indian
+    trait = slow
+    995.1.2 = {
+        birth = yes
+    }
+    1015.11.5 = {
+        add_matrilineal_spouse = 178203
+    }
+    1018.3.11 = {
+        death = yes
+    }
+}
+178205 = {
+    name = "Farid"  # Farid
+    culture = panjabi
+    religion = shiite
+    trait = sympathy_indian
+    trait = weak
+    999.9.8 = {
+        birth = yes
+    }
+    1018.3.21 = {
+        add_matrilineal_spouse = 178203
+    }
+    1024.3.21 = {
+        death = yes
+    }
+}
+178206 = {
+    name = "Sher"  # Sher
+    culture = panjabi
+    religion = hindu
+    trait = kshatriya
+    trait = sympathy_islam
+    1001.5.3 = {
+        birth = yes
+    }
+    1025.4.6 = {
+        add_matrilineal_spouse = 178203
+    }
+    1025.6.5 = {
+        effect = {
+            add_rival = 178207
+        }
+    }
+    1068.3.10 = {
+        death = {
+            death_reason = death_murder
+            killer = 178207
+        }
+    }
+}
+178207 = {
+    name = "Srichand"  # Srichand
+    dynasty = 1041117
+    mother = 178203
+    father = 178204
+    culture = panjabi
+    religion = shiite
+    trait = zealous
+    trait = shy
+    trait = wroth
+    trait = temperate
+    trait = martial_cleric
+    trait = ambitious
+    1016.12.15 = {
+        birth = yes
+    }
+    1025.6.5 = {
+        effect = {
+            add_rival = 178203
+            add_rival = 178206
+        }
+    }
+    1044.1.1 = {
+        effect = {
+            add_friend = 178210
+        }
+    }
+    1068.3.11 = {
+        add_trait = depressed
+        give_nickname = nick_the_vengeful
+    }
+    1077.4.15 = {
+        death = {
+            death_reason = death_suicide
+        }
+    }
+}
+178208 = {
+    name = "Begum"  # Begum
+    dynasty = 1041117
+    mother = 178203
+    father = 178205
+    female = yes
+    culture = panjabi
+    religion = hindu
+    trait = kshatriya
+    trait = twin
+    trait = sympathy_islam
+    trait = shy
+    1021.3.4 = {
+        birth = yes
+    }
+    1068.3.11 = {
+        add_trait = blinded
+    }
+    1082.1.25 = {
+        death = yes
+    }
+}
+178209 = {
+    name = "Thakur"  # Thakur
+    dynasty = 1041117
+    mother = 178203
+    father = 178205
+    culture = panjabi
+    trait = twin
+    religion = hindu
+    trait = kshatriya
+    trait = sympathy_islam
+    trait = brave
+    trait = kind
+    1021.3.4 = {
+        birth = yes
+    }
+    1068.3.11 = {
+        death = {
+            death_reason = death_murder
+            killer = 178207
+        }
+    }
+}
+178210 = {
+    name = "Ranjit"  # Ranjit
+    dynasty = 1041117
+    mother = 178203
+    father = 178205
+    culture = panjabi
+    trait = hunchback
+    trait = slow
+    religion = hindu
+    trait = kshatriya
+    trait = sympathy_islam
+    trait = brave
+    trait = kind
+    1023.5.14 = {
+        birth = yes
+    }
+    1044.1.1 = {
+        effect = {
+            religion = shiite
+            add_friend = 178207
+        }
+    }
+    1051.1.1 = {
+        effect = {
+            if = {
+                limit = {
+                    has_dlc = "Reapers"  # Reapers
+                }
+                add_trait = disfigured
+            }
+            if = {
+                limit = {
+                    NOT = {
+                        has_dlc = "Reapers"  # Reapers
+                    }
+                }
+                add_trait = scarred
+            }
+        }
+        give_nickname = nick_the_monster
+    }
+    1067.1.24 = {
+        death = {
+            death_reason = death_accident
+        }
+    }
+}
+178211 = {
+    name = "Ranjit"  # Ranjit
+    dynasty = 1041117
+    father = 178207
+    culture = panjabi
+    religion = shiite
+    trait = shy
+    trait = craven
+    trait = stressed
+    1055.7.14 = {
+        birth = yes
+    }
+    1078.3.3 = {
+        add_trait = lunatic
+    }
+    1093.3.11 = {
+        death = {
+            death_reason = death_suicide
+        }
+    }
+}
+178215 = {
+    name = "Abdurrashid"  # Abdurrashid
+    dynasty = 1041116
+    father = 178016
+    religion = "hindu"
+    culture = "sindhi"
+    trait = kshatriya
+    trait = sympathy_islam
+    859.7.12 = {
+        birth = yes
+    }
+    934.5.16 = {
+        death = yes
+    }
+}
+178216 = {
+    name = "Chanesar"  # Chanesar
+    dynasty = 1041116
+    father = 178215
+    religion = "hindu"
+    culture = "sindhi"
+    trait = kshatriya
+    trait = sympathy_islam
+    925.6.2 = {
+        birth = yes
+    }
+    973.5.1 = {
+        death = yes
+    }
+}
+178217 = {
+    name = "Ali Sher"  # Ali Sher
+    dynasty = 1041116
+    father = 178216
+    religion = "hindu"
+    culture = "sindhi"
+    trait = kshatriya
+    trait = sympathy_islam
+    955.3.1 = {
+        birth = yes
+    }
+    1012.3.5 = {
+        death = yes
+    }
+}
+178218 = {
+    name = "Sikandar"  # Sikandar
+    dynasty = 1041116
+    father = 178217
+    religion = "hindu"
+    culture = "sindhi"
+    trait = kshatriya
+    trait = cruel
+    trait = genius
+    trait = mastermind_theologian
+    trait = hedonist
+    988.7.15 = {
+        birth = yes
+    }
+    1046.3.5 = {
+        effect = {
+            add_consort = 178219
+        }
+    }
+    1048.4.1 = {
+        effect = {
+            add_consort = 178220
+        }
+    }
+    1058.4.1 = {
+        effect = {
+            add_consort = 178221
+        }
+    }
+    1057.1.1 = {
+        trait = possessed
+    }
+    1071.1.1 = {
+        trait = eunuch
+    }
+    1075.4.23 = {
+        death = {
+            death_reason = death_accident
+        }
+    }
+}
+178219 = {
+    name = "Heer"  # Heer
+    religion = "hindu"
+    culture = "sindhi"
+    trait = harelip
+    female = yes
+    trait = kshatriya
+    1028.7.15 = {
+        birth = yes
+    }
+    1075.4.23 = {
+        death = {
+            death_reason = death_execution_aztec_sacrifice
+            killer = 178218
+        }
+    }
+}
+178220 = {
+    name = "Himu"  # Himu
+    religion = "hindu"
+    culture = "sindhi"
+    trait = fair
+    female = yes
+    trait = kshatriya
+    1031.6.1 = {
+        birth = yes
+    }
+    1075.4.23 = {
+        death = {
+            death_reason = death_execution_aztec_sacrifice
+            killer = 178218
+        }
+    }
+}
+178221 = {
+    name = "Sad"  # Sad
+    religion = "hindu"
+    culture = "sindhi"
+    female = yes
+    trait = kshatriya
+    trait = lisp
+    1042.7.15 = {
+        birth = yes
+    }
+    1075.4.23 = {
+        death = {
+            death_reason = death_execution_aztec_sacrifice
+            killer = 178218
+        }
+    }
+}
+178222 = {
+    name = "Genhra"  # Genhra
+    dynasty = 1041116
+    religion = "hindu"
+    culture = "sindhi"
+    father = 178218
+    mother = 178219
+    trait = kshatriya
+    trait = child_of_consort
+    trait = quick
+    1047.8.8 = {
+        birth = yes
+    }
+    1049.3.3 = {
+        death = {
+            death_reason = death_missing
+        }
+    }
+}
+178223 = {
+    name = "Dadu Phattu"  # Dadu Phattu
+    dynasty = 1041116
+    religion = "hindu"
+    culture = "sindhi"
+    father = 178218
+    mother = 178219
+    trait = kshatriya
+    trait = child_of_consort
+    trait = deceitful
+    trait = craven
+    trait = paranoid
+    trait = cruel
+    1049.3.1 = {
+        birth = yes
+    }
+    1056.1.1 = {
+        trait = lunatic
+    }
+    1065.1.1 = {
+        trait = infirm
+    }
+    1075.4.23 = {
+        death = {
+            death_reason = death_execution_aztec_sacrifice
+            killer = 178218
+        }
+    }
+}
+178224 = {
+    name = "Mokhi"  # Mokhi
+    dynasty = 1041116
+    religion = "hindu"
+    culture = "sindhi"
+    female = yes
+    trait = kshatriya
+    trait = child_of_consort
+    trait = shy
+    trait = arbitrary
+    trait = depressed
+    trait = fair
+    father = 178218
+    mother = 178219
+    1049.6.24 = {
+        birth = yes
+    }
+    1059.1.1 = {
+        trait = leper
+    }
+    1065.1.1 = {
+        effect = {
+            if = {
+                limit = {
+                    has_dlc = "Reapers"  # Reapers
+                }
+                add_trait = disfigured
+            }
+            if = {
+                limit = {
+                    NOT = {
+                        has_dlc = "Reapers"  # Reapers
+                    }
+                }
+                add_trait = scarred
+            }
+        }
+    }
+    1071.3.2 = {
+        death = {
+            death_reason = death_trait
+        }
+    }
+}
+178225 = {
+    name = "Sabar"  # Sabar
+    dynasty = 1041116
+    religion = "hindu"
+    culture = "sindhi"
+    trait = kshatriya
+    trait = child_of_consort
+    trait = sickly
+    trait = genius
+    father = 178218
+    mother = 178220
+    1057.7.2 = {
+        birth = yes
+    }
+    1057.7.3 = {
+        death = {
+            death_reason = death_missing
+        }
+    }
+}
+178226 = {
+    name = "Sorath"  # Sorath
+    dynasty = 1041116
+    religion = "hindu"
+    culture = "sindhi"
+    female = yes
+    trait = kshatriya
+    trait = child_of_consort
+    trait = lustful
+    trait = slothful
+    trait = gluttonous
+    trait = envious
+    trait = wroth
+    trait = proud
+    trait = greedy
+    father = 178218
+    mother = 178220
+    1050.1.4 = {
+        birth = yes
+    }
+    1078.11.2 = {
+        death = {
+            death_reason = death_suicide
+        }
+    }
+}
+178227 = {
+    name = "Feruzuddin"  # Feruzuddin
+    dynasty = 1041116
+    religion = "hindu"
+    culture = "sindhi"
+    trait = kshatriya
+    trait = child_of_consort
+    trait = sickly
+    trait = lisp
+    trait = kind
+    trait = deceitful
+    father = 178218
+    mother = 178221
+    1065.5.12 = {
+        birth = yes
+    }
+    1067.5.12 = {
+        effect = {
+            remove_trait = sickly
+        }
+    }
+    1114.4.13 = {
+        death = yes
+    }
+}
+178228 = {
+    name = "Munzir"  # Munzir
+    dynasty = 1041116
+    father = 178227
+    religion = "shiite"
+    culture = "sindhi"
+    1096.3.2 = {
+        birth = yes
+    }
+    1178.1.1 = {
+        death = yes
     }
 }
 188349 = {
