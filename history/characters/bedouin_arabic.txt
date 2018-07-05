@@ -150,7 +150,7 @@
 144145 = {
     name = "穆罕默德"  # Muhammed
     dynasty = 100690
-    religion = "shiite"
+    religion = "ibadi"
     culture = "bedouin_arabic"
     1090.1.1 = {
         birth = "1090.1.1"
@@ -279,7 +279,7 @@
 144560 = {
     name = "哈夫斯"  # Hafs
     dynasty = 100690
-    religion = "shiite"
+    religion = "ibadi"
     culture = "bedouin_arabic"
     father = 144145
     1140.1.1 = {
@@ -292,7 +292,7 @@
 144561 = {
     name = "穆罕默德"  # Muhammed
     dynasty = 100690
-    religion = "shiite"
+    religion = "ibadi"
     culture = "bedouin_arabic"
     father = 144560
     1190.1.1 = {
@@ -305,7 +305,7 @@
 144562 = {
     name = "希拉勒"  # Hilal
     dynasty = 100690
-    religion = "shiite"
+    religion = "ibadi"
     culture = "bedouin_arabic"
     father = 144561
     1220.1.1 = {
@@ -318,7 +318,7 @@
 144563 = {
     name = "卡哈坦"  # Khahtan
     dynasty = 100690
-    religion = "shiite"
+    religion = "ibadi"
     culture = "bedouin_arabic"
     father = 144562
     1250.1.1 = {
@@ -331,7 +331,7 @@
 144564 = {
     name = "穆罕默德"  # Muhammad
     dynasty = 100690
-    religion = "shiite"
+    religion = "ibadi"
     culture = "bedouin_arabic"
     father = 144563
     1280.1.1 = {
@@ -393,26 +393,6 @@
         death = "1089.1.1"
     }
 }
-20818 = {
-    name = "穆安萨尔"  # Mu'ansar
-    dynasty = 100808
-    martial = 4
-    diplomacy = 5
-    intrigue = 6
-    stewardship = 7
-    religion = "sunni"
-    culture = "bedouin_arabic"
-    trait = "diligent"
-    trait = "kind"
-    trait = "skilled_tactician"
-    trait = "cynical"
-    1041.1.1 = {
-        birth = "1041.1.1"
-    }
-    1091.1.1 = {
-        death = "1091.1.1"
-    }
-}
 20821 = {
     name = "阿里"  # Ali
     dynasty = 101043
@@ -451,24 +431,6 @@
         death = "1050.1.1"
     }
 }
-20838 = {
-    name = "哈比比"  # Habib
-    dynasty = 101031
-    martial = 5
-    diplomacy = 5
-    intrigue = 5
-    stewardship = 4
-    religion = "sunni"
-    culture = "bedouin_arabic"
-    trait = "greedy"
-    trait = "amateurish_plotter"
-    1039.1.1 = {
-        birth = "1039.1.1"
-    }
-    1089.1.1 = {
-        death = "1089.1.1"
-    }
-}
 20849 = {
     name = "考斯拉"  # Kocilla
     female = yes
@@ -480,27 +442,6 @@
     culture = "bedouin_arabic"
     trait = "arbitrary"
     trait = "tough_soldier"
-    1039.1.1 = {
-        birth = "1039.1.1"
-    }
-    1089.1.1 = {
-        death = "1089.1.1"
-    }
-}
-20856 = {
-    name = "阿姆鲁"  # Amr
-    dynasty = 101023
-    martial = 5
-    diplomacy = 4
-    intrigue = 6
-    stewardship = 8
-    religion = "sunni"
-    culture = "bedouin_arabic"
-    trait = "lustful"
-    trait = "diligent"
-    trait = "kind"
-    trait = "temperate"
-    trait = "skilled_tactician"
     1039.1.1 = {
         birth = "1039.1.1"
     }
@@ -540,41 +481,6 @@
     }
     1126.1.1 = {
         death = "1126.1.1"
-    }
-}
-226001 = {
-    name = "卡西姆"  # Qasim
-    dynasty = 100683
-    martial = 7
-    diplomacy = 6
-    intrigue = 4
-    stewardship = 7
-    religion = "sunni"
-    culture = "bedouin_arabic"
-    trait = "martial_cleric"
-    1150.1.1 = {
-        birth = "1150.1.1"
-    }
-    1200.1.1 = {
-        death = "1200.1.1"
-    }
-}
-226002 = {
-    name = "卡里姆丁"  # Kerameddin
-    dynasty = 100684
-    martial = 6
-    diplomacy = 4
-    intrigue = 6
-    stewardship = 8
-    religion = "sunni"
-    culture = "bedouin_arabic"
-    trait = "proud"
-    trait = "scholarly_theologian"
-    1150.1.1 = {
-        birth = "1150.1.1"
-    }
-    1200.1.1 = {
-        death = "1200.1.1"
     }
 }
 226004 = {
@@ -1072,25 +978,6 @@
         death = "1086.1.2"
     }
 }
-45029 = {
-    name = "阿比"  # Abu
-    dynasty = 594
-    martial = 8
-    diplomacy = 6
-    intrigue = 5
-    stewardship = 6
-    religion = "sunni"
-    culture = "bedouin_arabic"
-    trait = "deceitful"
-    trait = "patient"
-    trait = "tough_soldier"
-    1000.1.2 = {
-        birth = "1000.1.2"
-    }
-    1042.1.2 = {
-        death = "1042.1.2"
-    }
-}
 45047 = {
     name = "贾瓦尔"  # Jahwar
     dynasty = 7504
@@ -1459,58 +1346,6 @@
     }
     1375.1.1 = {
         death = "1375.1.1"
-    }
-}
-20888 = {
-    name = "艾尤卜"  # Ayyub
-    dynasty = 101057
-    martial = 5
-    diplomacy = 6
-    intrigue = 7
-    stewardship = 4
-    religion = "sunni"
-    culture = "bedouin_arabic"
-    trait = "skilled_tactician"
-    1039.1.1 = {
-        birth = "1039.1.1"
-    }
-    1089.1.1 = {
-        death = "1089.1.1"
-    }
-}
-20802 = {
-    name = "叶齐德"  # Yazid
-    dynasty = 101057
-    martial = 8
-    diplomacy = 8
-    intrigue = 5
-    stewardship = 6
-    religion = "sunni"
-    culture = "bedouin_arabic"
-    trait = "martial_cleric"
-    1039.1.1 = {
-        birth = "1039.1.1"
-    }
-    1089.1.1 = {
-        death = "1089.1.1"
-    }
-}
-20719 = {
-    name = "阿卜杜勒-拉赫曼"  # Abdul-Rahman
-    dynasty = 101057
-    martial = 4
-    diplomacy = 8
-    intrigue = 6
-    stewardship = 5
-    religion = "sunni"
-    culture = "bedouin_arabic"
-    trait = "greedy"
-    trait = "flamboyant_schemer"
-    1039.1.1 = {
-        birth = "1039.1.1"
-    }
-    1089.1.1 = {
-        death = "1089.1.1"
     }
 }
 33900 = {
@@ -5401,6 +5236,8 @@
 }
 73683 = {
     name = "穆罕默德"  # Muhammad
+    dna = ycigsibozh
+    properties = jmo0db000000000000
     dynasty = 597
     martial = 5
     diplomacy = 3
@@ -7337,7 +7174,7 @@
 }
 163128 = {
     name = "扎伊德"  # Zayd
-    dynasty = 7296
+    dynasty = 7512
     religion = "shiite"
     culture = "bedouin_arabic"
     trait = "sayyid"
@@ -7671,6 +7508,7 @@
     culture = bedouin_arabic
     930.1.1 = {
         birth = yes
+        give_nickname = "nick_the_hawk_of_quarysh"
     }
     989.1.1 = {
         death = yes
@@ -12764,4 +12602,31 @@
     1170.5.19 = {
         death = yes
     }
+}
+20818 = {
+    name = "穆安萨尔"  # Mu'ansar
+}
+20838 = {
+    name = "哈比比"  # Habib
+}
+20856 = {
+    name = "阿姆鲁"  # Amr
+}
+226001 = {
+    name = "卡西姆"  # Qasim
+}
+226002 = {
+    name = "卡里姆丁"  # Kerameddin
+}
+45029 = {
+    name = "阿比"  # Abu
+}
+20888 = {
+    name = "艾尤卜"  # Ayyub
+}
+20802 = {
+    name = "叶齐德"  # Yazid
+}
+20719 = {
+    name = "阿卜杜勒-拉赫曼"  # Abdul-Rahman
 }
