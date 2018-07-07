@@ -61,8 +61,8 @@ OFFMAP_HAS_USED_NAME;已使用名称$NAME|Y$;;;;;;;;;;;;x
 OFFMAP_SET_NAME;更名为$NAME|Y$;;;;;;;;;;;;x
 IS_OFFMAP_RULER_NOT;不是一名地图外的统治者;;;;;;;;;;;;x
 IS_OFFMAP_RULER;是一名地图外的统治者;;;;;;;;;;;;x
-IS_OFFMAP_GOVERNOR_NOT;不是一个地图外头衔的统治者;;;;;;;;;;;;x
-IS_OFFMAP_GOVERNOR;不是一个地图外头衔的统治者;;;;;;;;;;;;x
+IS_OFFMAP_GOVERNOR_NOT;不是一个地图外头衔的都护;;;;;;;;;;;;x
+IS_OFFMAP_GOVERNOR;不是一个地图外头衔的都护;;;;;;;;;;;;x
 ADULT_ONLY;仅成人;;;;;;;;;;;;x
 OFFMAP_CURRENCY_TRIGGER_NOT;没有$OFFMAP|Y$的$COMPARISON|Y$ $VALUE|Y$ $CURRENCY|Y$;;;;;;;;;;;;x
 OFFMAP_CURRENCY_TRIGGER;拥有$OFFMAP|Y$的$COMPARISON|Y$ $VALUE|Y$ $CURRENCY|Y$;;;;;;;;;;;;x
@@ -356,7 +356,7 @@ TAO_TE_CHING;道德经;;;;;;;;;;;;x
 DAOSHI;道士;;;;;;;;;;;;x
 PIETY_TE;德;;;;;;;;;;;;x
 STAT_PIETY_MENU_PIETY_TE;德;;;;;;;;;;;;x
-STAT_PIETY_DESC_PIETY_TE;德 被你的宗教的神职人员和修士所看重的。就像威望一样，它会在统治者死亡时加入你的分数。;;;;;;;;;;;;x
+STAT_PIETY_DESC_PIETY_TE;德 受到你宗教的神职人员和修士所看重。就像威望一样，它会在统治者死亡时加入你的分数。;;;;;;;;;;;;x
 temple_baron_taoist;道士;;;;;;;;;;;;x
 job_chancellor_taoist;丞相;;;;;;;;;;;;x
 job_marshal_taoist;行军司马;;;;;;;;;;;;x
@@ -2275,7 +2275,7 @@ EVTDESC_MNM_9031_A;我得到了[relic_hunter.GetJobTitle][relic_hunter.GetFirstN
 EVTDESC_MNM_9031_B;我从[relic_hunter.GetJobTitle][relic_hunter.GetFirstName]处得知，[relic_hunter.GetSheHe]搜索宝物的工作正在稳步进行。;;;;;;;;;;;;x
 EVTDESC_MNM_9032;我刚刚收到了一个令人惋惜的报告，[relic_hunter.GetJobTitle][relic_hunter.GetFirstName]在[relic_hunter.GetHerHis]寻找古文物的任务中遇到重大挫折，耗费了大量的时间去追踪一个错误的线索。[relic_hunter.GetSheHeCap]向我保证[relic_hunter.GetSheHe]将会加大努力。;;;;;;;;;;;;x
 EVTDESC_4409_GREEDY;我让我最信任的仆人从我私人小金库里拿走了一笔数量可观的钱，给了当地的[Root.GetMOBuilding]。但在[Root.GetSheHe]离开后，我后悔了。当仆人回来时，我无法控制自己，然后我立刻让[Root.GetSheHe]把这笔钱要回去。现在所有人都知道我是个小气鬼了！;;;;;;;;;;;;x
-TOGGLE_LOOTER_DESC;将此单位设为劫掠者可以使其从其他统治者管辖的省份处掠夺§Y金钱§!。此举会使单位暂时对你处于§R敌对§! ，他们也会攻击你的军队。;;;;;;;;;;;;x
+TOGGLE_LOOTER_DESC;将此单位设为劫掠者可以使其从其他统治者的省份和地产中掠夺§Y金钱§!。此举会使这些统治者暂时与你§R敌对§! ，允许他们攻击你的军队。;;;;;;;;;;;;x
 TOGGLE_LOOTER_0_MAINT_DESC;处于战争时，劫掠军只消耗维护费;;;;;;;;;;;;x
 TOGGLE_LOOTER_GR0_MAINT_DESC;如果你处于和平，劫掠军只消耗 §G$PERC$%§! 维护费。;;;;;;;;;;;;x
 kingdom_adventure_desc;某些极度雄心勃勃又魅力十足的角色可以获得足够的支持，并且试图在一大群冒险的战士的帮助下在国外开始夺取王国。;;;;;;;;;;;;x
@@ -2398,8 +2398,8 @@ EVT_DESC_JD_2502;致[Root.GetTitledFirstName]：\n\n你做出了明智的决定�
 EVT_OPTA_JD_2502;我们安全了……暂时……;;;;;;;;;;;;x
 EVT_DESC_JD_2503;致[Root.GetTitledFirstName]，\n\n你的提议是一种懦夫的表现，让你的士兵像真正的勇士一样战斗吧！\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
 EVT_OPTA_JD_2503;我就觉得事情会变成这样。;;;;;;;;;;;;x
-EVTDESC39705C;我将罗马授予了她应有的统治者，从此教宗可以在与其名望相配的居所领导天主教教会。教宗即将在历史上天主教教宗办公的处所宣誓就任。;;;;;;;;;;;;x
-EVTDESC39705D;[From.GetTitledFirstName]将罗马授予了她应有的统治者，从此教宗可以在与其名望相配的居所领导天主教教会。教宗即将在历史上天主教教宗办公的处所宣誓就任。;;;;;;;;;;;;x
+EVTDESC39705C;我将罗马授予了她应有的统治者，从此教宗可以在与其名望相配的居所领导天主教教会。教宗即将正式入驻历史上天主教教宗办公的处所。;;;;;;;;;;;;x
+EVTDESC39705D;[From.GetTitledFirstName]将罗马授予了她应有的统治者，从此教宗可以在与其名望相配的居所领导天主教教会。教宗即将正式入驻历史上天主教教宗办公的处所。;;;;;;;;;;;;x
 decision_abduct_power_desc;允许§G右键点击§!低于公爵的角色或这个低于公爵角色的亲戚的头像，在[From.Society.GetName]兄弟们的帮助下，尝试诱拐和监禁他们，需要付出§Y[From.Society.GetCurrency]§!。;;;;;;;;;;;;x
 EVT_DESC_ZP_8;今天是难过的一天。我照看的那条狗过世了，它曾经忠实地保护我和我的家人免受恶灵的侵害。真是悲伤和哀悼的一天。;;;;;;;;;;;;x
 EVT_OPTA_ZP_8;他忠心一生。;;;;;;;;;;;;x
