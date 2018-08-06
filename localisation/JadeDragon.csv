@@ -411,7 +411,7 @@ WESTERN_GOVERNOR_MALE;都护;;;;;;;;;;;;x
 WESTERN_GOVERNOR_FEMALE;都护;;;;;;;;;;;;x
 WESTERN_GOVERNOR_TITLE_FOA;都护阁下;;;;;;;;;;;;x
 e_china_west_governor;西域都护府;;;;;;;;;;;;x
-e_china_west_governor_adj;安西都护府;;;;;;;;;;;;x
+e_china_west_governor_adj;西域都护府;;;;;;;;;;;;x
 e_china;中华帝国;;;;;;;;;;;;x
 china_stable;政通人和;;;;;;;;;;;;x
 china_unrest;国局动荡;;;;;;;;;;;;x
@@ -904,7 +904,7 @@ logistics_expert_desc;这个角色深谙犬韬，关注训练、补给和多兵�
 levy_coordinator;虎韬;;;;;;;;;;;;x
 levy_coordinator_desc;这个角色深谙虎韬，主要注重速度、机动性、误导，以及在决定性交战中何时何法投入各种部队，以击败敌人。;;;;;;;;;;;;x
 sapper;豹韬;;;;;;;;;;;;x
-sapper_desc;这个角色非常熟悉豹韬，专注于如何最好地利用地形，以及如何使用新奇的围攻武器来击败坚不可摧的敌人。;;;;;;;;;;;;x
+sapper_desc;这个角色非常熟悉豹韬，专注于如何最好地利用地形，以及如何使用新奇的攻城武器来击败坚不可摧的敌人。;;;;;;;;;;;;x
 MODIFIER_DAYS_OF_SUPPLY;补给天数;;;;;;;;;;;;x
 create_followers_arjuna;创设阿周那军众;;;;;;;;;;;;x
 create_followers_arjuna_desc;创建阿周那军众，所有[Root.Religion.GetName]的统治者将有权雇佣他们并投入对那些对我们有害的宗教的战争！;;;;;;;;;;;;x
@@ -1556,7 +1556,7 @@ RULE_SIEGE_ASSAULTS_UNLIMITED_DESC;军队随时可以尝试采取强攻攻取领
 RULE_SIEGE_ASSAULTS_OFF_DESC;军队无法采取强攻攻取领地。;;;;;;;;;;;;x
 ASSAULT_FORT_LEVEL_TOO_HIGH;不能攻击要塞等级在 $LEVEL|Y$ 或以上的领地;;;;;;;;;;;;x
 COMBATVALUE_MORALE_SIEGE;§Y士气：§!$MORALE$\n每 $FREQ|Y$ 天减少 $DELTA|R$;;;;;;;;;;;;x
-SIEGE_TECH_DIFF;围攻科技差异;;;;;;;;;;;;x
+SIEGE_TECH_DIFF;攻城科技差异;;;;;;;;;;;;x
 assyrian;亚述人;;;;;;;;;;;;x
 form_st_addai_desc;召集勇士们守护景教信仰。;;;;;;;;;;;;x
 form_st_addai;成立圣亚戴骑士团;;;;;;;;;;;;x
@@ -2441,9 +2441,9 @@ ca_government_monastery_3;贡巴寺院;;;;;;;;;;;;x
 ca_government_monastery_4;贡巴寺院;;;;;;;;;;;;x
 ca_government_monastery_1_desc;筑防的贡巴保护坐落其内的寺院与学舍。;;;;;;;;;;;;x
 OFFMAP_GIFTS_DESC;如果§Y[offmap_china.GetName]§!有意与异邦结交，你可以派遣使者向皇帝献上顺从的象征。进贡能提升你的§Y皇恩§!。;;;;;;;;;;;;x
-chinese_siege_engineers_effect_tt;三位精于围攻技术的专家加入了你的宫廷。这几位攻城师技艺非凡，精通于使用炸药暗中破坏城防以及建造围攻塔来登上城墙。\n;;;;;;;;;;;;x
-chinese_siege_engineers;请赐围攻专家;;;;;;;;;;;;x
-chinese_siege_engineers_desc;§Y[Root.Offmap.GetFullName]§!因为他们的战争与工程各流派而声名远播，你可以请求几名围攻专家担任你的指挥官为好战的你作战。这些角色都有§Y豹韬§!特质（围攻速度：§G50%§!）。;;;;;;;;;;;;x
+chinese_siege_engineers_effect_tt;三位精于攻城技术的专家加入了你的宫廷。这几位攻城师技艺非凡，精通于使用炸药暗中破坏城防以及建造攻城塔来登上城墙。\n;;;;;;;;;;;;x
+chinese_siege_engineers;请赐攻城专家;;;;;;;;;;;;x
+chinese_siege_engineers_desc;§Y[Root.Offmap.GetFullName]§!因为他们的战争与工程各流派而声名远播，你可以请求几名攻城专家担任你的指挥官为好战的你作战。这些角色都有§Y豹韬§!特质（攻城速度：§G50%§!）。;;;;;;;;;;;;x
 EVTDESC_JD_3001;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天子陛下[From.Offmap.Ruler.GetLongChineseEmperorName]将和蔼地满足你的心愿。匠作大将[chinese_siege_engineer_1.GetDynName]及[chinese_siege_engineer_1.GetHerHis]两位学徒，[chinese_siege_engineer_2.GetDynName]和[chinese_siege_engineer_3.GetDynName]，也已前往你的宫廷。;;;;;;;;;;;;x
 EVTOPTA_JD_3001;向[From.Offmap.Ruler.GetTitle]致以衷心的感谢。;;;;;;;;;;;;x
 EVTOPTB_JD_3001;我会立即使用它们！;;;;;;;;;;;;x
@@ -3162,12 +3162,12 @@ EVTDESC_JD_4020_normal_raid_outcome_character;我们派去[offmap_china.GetFullN
 EVTOPT_JD_4020_normal_raid_outcome_character;绝世美人！;;;;;;;;;;;;x
 EVTOPT_JD_4020_normal_raid_outcome_character_b;我要让[captured_character.GetHerHim]成为我的侍妾。;;;;;;;;;;;;x
 EVTDESC_JD_4020_normal_raid_outcome_siege_engineer;我们派去[offmap_china.GetFullName]的劫掠者回来了。这次他们洗劫了一个围攻专家的工坊，在那里他们设法捉住了工程师的一个弟子。这个徒弟，[captured_engineer.GetFullName]，被带回来为你服务了。;;;;;;;;;;;;x
-EVTOPT_JD_4020_normal_raid_outcome_siege_engineer;我自己的围攻专家？这太棒了！;;;;;;;;;;;;x
+EVTOPT_JD_4020_normal_raid_outcome_siege_engineer;我自己的攻城专家？这太棒了！;;;;;;;;;;;;x
 EVTOPT_JD_4020_normal_raid_outcome_siege_engineer_b;立刻让他做指挥官。;;;;;;;;;;;;x
 EVTDESC_JD_4020_normal_raid_outcome_extra;我们派去[offmap_china.GetFullName]的劫掠者已经回来了。从中国回来的路上，他们遇到了一个满载珍贵丝绸和瓷器的商队——[Root.Religion.GetHighGodName]真的对他们微笑了！;;;;;;;;;;;;x
 EVTOPT_JD_4020_normal_raid_outcome_extra;好极了！我全都要！;;;;;;;;;;;;x
 artifact_raid_tt;一件中国宝物加入了您的库存。;;;;;;;;;;;;x
-fire_commander_tt;开除一位现有的指挥官以让围攻专家就任;;;;;;;;;;;;x
+fire_commander_tt;开除一位现有的指挥官以让攻城专家就任;;;;;;;;;;;;x
 EVTDESC_JD_4020_normal_raid_outcome_extra_plus;我们派去[offmap_china.GetFullName]的劫掠队回来了——他们带回了数不清的财宝！他们辨识出了一个微服出行的汉人贵族并劫持了他，之后用他勒索了巨额的黄金、丝绸和瓷器！;;;;;;;;;;;;x
 EVTOPT_JD_4020_normal_raid_outcome_extra_plus;那些[offmap_china.GetShortName]财宝都是我的！;;;;;;;;;;;;x
 EVTDESC_JD_4020_normal_raid_outcome_bad;我们派去[offmap_china.GetFullName]的劫掠队被[offmap_china.GetShortName]的巡逻队攻击了，几乎全军覆没！只有一个幸存者逃了回来，告诉了我他们惨败的消息……;;;;;;;;;;;;x
@@ -4624,7 +4624,7 @@ EVTOPTB_JD_15015_TT;你的知识使大臣们敬仰。\n;;;;;;;;;;;;x
 EVTOPTC_JD_15015;废话！我想看看宫殿四周——要不出去走走？;;;;;;;;;;;;x
 EVTOPTC_JD_15015_TT;大臣们注意到你们在首都公共场合相伴经过。\n;;;;;;;;;;;;x
 EVT_OPTA_JD_60208;能称万岁的只能有一个人。;;;;;;;;;;;;x
-String_siege_engineer;围攻专家;;;;;;;;;;;;x
+String_siege_engineer;攻城专家;;;;;;;;;;;;x
 String_chinese_royalty;天朝皇室;;;;;;;;;;;;x
 String_chinese_character_role_fallback;廷臣;;;;;;;;;;;;x
 EVT_DESC_JD_60312;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n天命[From.Offmap.Ruler.GetLongChineseEmperorName]，对[FromFrom.GetTitledName]，你的[FromFrom.GetChineseCharacterRole]的去世表示深深的悲痛，对你致以[From.Offmap.Ruler.GetHerHis]最深切的慰问。;;;;;;;;;;;;x
