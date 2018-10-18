@@ -1,4 +1,4 @@
-﻿namespace = "SoA"  # SoA
+﻿namespace = SoA
 character_event = {
     id = SoA.5200
     desc = EVTDESC_SoA_5200
@@ -2479,7 +2479,7 @@ character_event = {
     trigger = {
         NOR = {
             has_game_rule = {
-                name = "gender"  # gender
+                name = gender
                 value = all
             }
             has_law = status_of_women_4
@@ -2537,7 +2537,7 @@ character_event = {
                 limit = {
                     culture = frankish
                 }
-                set_name = "Jeanne"  # Jeanne
+                set_name = "让娜"  # Jeanne
                 give_nickname = nick_darc
             }
             if = {
