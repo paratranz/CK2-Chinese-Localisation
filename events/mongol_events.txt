@@ -4286,7 +4286,7 @@ character_event = {
         create_random_soldier = {
             random_traits = no
             dynasty = 613
-            name = "Seljuk"  # Seljuk
+            name = "å¡žå°”æŸ±"  # Seljuk
             culture = turkish
             religion = ROOT
             age = 18
@@ -4325,7 +4325,7 @@ character_event = {
             create_random_soldier = {
                 random_traits = no
                 dynasty = 613
-                name = "Seljuk"  # Seljuk
+                name = "å¡žå°”æŸ±"  # Seljuk
                 culture = turkish
                 religion = ROOT
                 age = 18
@@ -4661,7 +4661,7 @@ character_event = {
             female = yes
             age = 18
         }
-        log = "60203 = Seljuk starts his first war as a landless character!"  # 60203 = Seljuk starts his first war as a landless character!
+        log = "60203 = Seljuk starts his first war as a landless character!"
     }
 }
 character_event = {
@@ -4838,7 +4838,7 @@ character_event = {
             female = yes
             age = 18
         }
-        log = "60204 = Seljuk starts his first war as a landed character!"  # 60204 = Seljuk starts his first war as a landed character!
+        log = "60204 = Seljuk starts his first war as a landed character!"
     }
     option = {
         name = EVTOPTA60204
@@ -5035,7 +5035,7 @@ narrative_event = {
                 }
             }
         }
-        log = "60206 = Seljuk wins his first war!"  # 60206 = Seljuk wins his first war!
+        log = "60206 = Seljuk wins his first war!"
     }
     option = {
         name = EVTOPTA60206
@@ -5808,7 +5808,7 @@ character_event = {
             female = yes
             age = 18
         }
-        log = "60303 = Timur starts his first war (landless)!"  # 60303 = Timur starts his first war (landless)!
+        log = "60303 = Timur starts his first war (landless)!"
     }
 }
 character_event = {
@@ -6013,7 +6013,7 @@ character_event = {
             female = yes
             age = 18
         }
-        log = "60303 = Timur starts his first war (landed)!"  # 60303 = Timur starts his first war (landed)!
+        log = "60303 = Timur starts his first war (landed)!"
     }
     option = {
         name = EVTOPTA60204
@@ -6412,7 +6412,7 @@ narrative_event = {
                 }
             }
         }
-        log = "60306 = Timur wins his first war!"  # 60306 = Timur wins his first war!
+        log = "60306 = Timur wins his first war!"
     }
     option = {
         name = EVTOPTA60306
@@ -6874,7 +6874,7 @@ character_event = {
     immediate = {
         create_character = {
             random_traits = no
-            name = "Sabuktigin"  # Sabuktigin
+            name = "è‹�å¸ƒå…‹ç‰¹å‹¤"  # Sabuktigin
             dynasty = 790
             religion = ROOT
             culture = ROOT
@@ -6912,7 +6912,7 @@ character_event = {
         tooltip = {
             create_character = {
                 random_traits = no
-                name = "Sabuktigin"  # Sabuktigin
+                name = "è‹�å¸ƒå…‹ç‰¹å‹¤"  # Sabuktigin
                 dynasty = 790
                 religion = ROOT
                 culture = ROOT
@@ -7302,7 +7302,7 @@ character_event = {
             female = yes
             age = 18
         }
-        log = "60403 = Sabuktigin starts his first war (landless)!"  # 60403 = Sabuktigin starts his first war (landless)!
+        log = "60403 = Sabuktigin starts his first war (landless)!"
     }
 }
 character_event = {
@@ -7507,7 +7507,7 @@ character_event = {
             female = yes
             age = 18
         }
-        log = "60404 = Sabuktigin starts his first war (landed)!"  # 60404 = Sabuktigin starts his first war (landed)!
+        log = "60404 = Sabuktigin starts his first war (landed)!"
     }
     option = {
         name = EVTOPTA60204
@@ -7768,7 +7768,7 @@ narrative_event = {
             religion = ROOT
             culture = ROOT
         }
-        log = "60406 = Sabuktigin wins his first war!"  # 60406 = Sabuktigin wins his first war!
+        log = "60406 = Sabuktigin wins his first war!"
     }
     option = {
         name = EVTOPTA60406
@@ -7907,7 +7907,7 @@ narrative_event = {
                             ai = yes
                         }
                     }
-                    log = "Temujin exists as independent ai"  # Temujin exists as independent ai
+                    log = "Temujin exists as independent ai"
                     random_independent_ruler = {
                         limit = {
                             has_character_flag = is_temujin
@@ -7956,7 +7956,7 @@ narrative_event = {
                             }
                         }
                     }
-                    log = "Real Temujin didn't recieve title"  # Real Temujin didn't recieve title
+                    log = "Real Temujin didn't recieve title"
                     create_character = {
                         random_traits = yes
                         dynasty = random
@@ -8023,7 +8023,7 @@ narrative_event = {
                         }
                     }
                 }
-                log = "Spawning Temujin for invasion"  # Spawning Temujin for invasion
+                log = "Spawning Temujin for invasion"
                 create_character = {
                     name = "Temujin"  # Temujin
                     dynasty = 1051210
@@ -8295,7 +8295,7 @@ character_event = {
     is_triggered_only = yes
     immediate = {
         create_character = {
-            name = "Borte"  # Borte
+            name = "孛儿帖"  # Borte
             age = 49
             dynasty = 1041000
             religion = tengri_pagan
