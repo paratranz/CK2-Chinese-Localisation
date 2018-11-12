@@ -29,7 +29,7 @@ character_event = {
         save_event_target_as = the_protector_general
         if = {
             limit = {
-                event_target:the_protector_general = {
+                event_target = the_protector_general = {
                     is_landed = yes
                 }
             }
@@ -37,7 +37,7 @@ character_event = {
         }
         if = {
             limit = {
-                event_target:the_protector_general = {
+                event_target = the_protector_general = {
                     is_landed = no
                 }
             }
@@ -85,7 +85,7 @@ character_event = {
                 }
                 war = {
                     casus_belli = dismantle_pretender_china_cb
-                    target = event_target:chinese_invasion_target
+                    target = event_target = chinese_invasion_target
                 }
                 if = {
                     limit = {
@@ -133,7 +133,7 @@ character_event = {
                     }
                 }
                 log = "-------------------------------------"
-                log = "China Logging:"
+                log = "China Logging = "
                 log = "China declared dismantle pretender on {chinese_invasion_target.GetBestName}"
                 log = "Current status = {From.Offmap.GetStatus}. Current policy = {From.Offmap.GetPolicy}."
                 log = "-------------------------------------"
@@ -795,7 +795,7 @@ character_event = {
         }
     }
 }
-event_target:chinese_invasion_target = {
+event_target = chinese_invasion_target = {
     character_event = {
         id = JD.10130
     }
@@ -1214,7 +1214,7 @@ event_target:chinese_invasion_target = {
             set_offmap_tmp_flag = start_submission_war
             if = {
                 limit = {
-                    event_target:chinese_invasion_target = {
+                    event_target = chinese_invasion_target = {
                         NOT = {
                             num_of_count_titles_in_realm = 20
                         }
@@ -1229,7 +1229,7 @@ event_target:chinese_invasion_target = {
                     }
                 }
                 log = "-------------------------------------"
-                log = "China Logging:"
+                log = "China Logging = "
                 log = "Non-expansionist China didn't find a suitable submission target"
                 log = "No invasions happened this year - clearing all flags. Better luck next year!"
                 log = "Current status = {From.Offmap.GetStatus}. Current policy = {From.Offmap.GetPolicy}."
@@ -1261,7 +1261,7 @@ event_target:chinese_invasion_target = {
         }
     }
     log = "-------------------------------------"
-    log = "China Logging:"
+    log = "China Logging = "
     log = "No invasions happened this year - clearing all flags. Better luck next year!"
     log = "Current status = {From.Offmap.GetStatus}. Current policy = {From.Offmap.GetPolicy}."
     log = "-------------------------------------"
@@ -1444,25 +1444,25 @@ character_event = {
         }
         war = {
             casus_belli = tributary_offmap_cb
-            target = event_target:chinese_invasion_target
+            target = event_target = chinese_invasion_target
         }
         if = {
             limit = {
-                event_target:chinese_invasion_target = {
+                event_target = chinese_invasion_target = {
                     NOT = {
                         num_of_count_titles_in_realm = 20
                     }
                 }
             }
             log = "-------------------------------------"
-            log = "China Logging:"
+            log = "China Logging = "
             log = "China declared MINOR tributary war on {chinese_invasion_target.GetBestName}"
             log = "Current status = {FromFrom.Offmap.GetStatus}. Current policy = {FromFrom.Offmap.GetPolicy}."
             log = "-------------------------------------"
         }
         else = {
             log = "-------------------------------------"
-            log = "China Logging:"
+            log = "China Logging = "
             log = "China declared MEDIUM tributary war on {chinese_invasion_target.GetBestName}"
             log = "Current status = {FromFrom.Offmap.GetStatus}. Current policy = {FromFrom.Offmap.GetPolicy}."
             log = "-------------------------------------"
@@ -1490,7 +1490,7 @@ narrative_event = {
     desc = {
         text = EVTDESC_JD_10105_A
         trigger = {
-            event_target:chinese_invasion_target = {
+            event_target = chinese_invasion_target = {
                 NOT = {
                     num_of_count_titles_in_realm = 20
                 }
@@ -1500,14 +1500,14 @@ narrative_event = {
     desc = {
         text = EVTDESC_JD_10105_B
         trigger = {
-            event_target:chinese_invasion_target = {
+            event_target = chinese_invasion_target = {
                 num_of_count_titles_in_realm = 20
             }
         }
     }
     option = {
         name = EVTOPTA_JD_10105
-        show_portrait = event_target:chinese_invasion_target
+        show_portrait = event_target = chinese_invasion_target
         custom_tooltip = {
             text = EVTOPTA_JD_10105_TT
         }
@@ -1524,7 +1524,7 @@ narrative_event = {
     desc = {
         text = EVTDESC_JD_10102_A
         trigger = {
-            event_target:chinese_invasion_target = {
+            event_target = chinese_invasion_target = {
                 character = ROOT
             }
         }
@@ -1533,7 +1533,7 @@ narrative_event = {
         text = EVTDESC_JD_10102_B
         trigger = {
             NOT = {
-                event_target:chinese_invasion_target = {
+                event_target = chinese_invasion_target = {
                     character = ROOT
                 }
             }
@@ -1575,7 +1575,7 @@ narrative_event = {
             }
         }
         trigger = {
-            event_target:chinese_invasion_target = {
+            event_target = chinese_invasion_target = {
                 character = ROOT
             }
         }
@@ -1584,7 +1584,7 @@ narrative_event = {
         name = {
             text = EVTOPTA_JD_10102_B_same_religion
             trigger = {
-                event_target:chinese_invasion_target = {
+                event_target = chinese_invasion_target = {
                     religion_group = ROOT
                 }
             }
@@ -1593,18 +1593,18 @@ narrative_event = {
             text = EVTOPTA_JD_10102_B_other_religion
             trigger = {
                 NOT = {
-                    event_target:chinese_invasion_target = {
+                    event_target = chinese_invasion_target = {
                         religion_group = ROOT
                     }
                 }
             }
         }
-        event_target:chinese_invasion_target = {
+        event_target = chinese_invasion_target = {
             show_portrait = yes
         }
         trigger = {
             NOT = {
-                event_target:chinese_invasion_target = {
+                event_target = chinese_invasion_target = {
                     character = ROOT
                 }
             }
@@ -1681,13 +1681,13 @@ character_event = {
                 limit = {
                     can_use_cb = {
                         casus_belli = claim_all
-                        target = event_target:chinese_invasion_target
+                        target = event_target = chinese_invasion_target
                         only_check_triggers = yes
                     }
                 }
                 war = {
                     casus_belli = claim_all
-                    target = event_target:chinese_invasion_target
+                    target = event_target = chinese_invasion_target
                 }
             }
             else = {
@@ -1695,9 +1695,9 @@ character_event = {
                     limit = {
                         holder_scope = {
                             OR = {
-                                character = event_target:chinese_invasion_target
+                                character = event_target = chinese_invasion_target
                                 top_liege = {
-                                    character = event_target:chinese_invasion_target
+                                    character = event_target = chinese_invasion_target
                                 }
                             }
                         }
@@ -1705,7 +1705,7 @@ character_event = {
                     ROOT = {
                         war = {
                             casus_belli = claim
-                            target = event_target:chinese_invasion_target
+                            target = event_target = chinese_invasion_target
                             thirdparty_title = PREV
                         }
                     }
@@ -1718,11 +1718,11 @@ character_event = {
             }
             war = {
                 casus_belli = offmap_submission
-                target = event_target:chinese_invasion_target
+                target = event_target = chinese_invasion_target
             }
         }
         log = "-------------------------------------"
-        log = "China Logging:"
+        log = "China Logging = "
         log = "China declared submission/claim war on {chinese_invasion_target.GetBestName}"
         log = "Current status = {From.Offmap.GetStatus}. Current policy = {From.Offmap.GetPolicy}."
         log = "-------------------------------------"
@@ -1732,21 +1732,21 @@ character_event = {
             }
             if = {
                 limit = {
-                    event_target:chinese_invasion_target = {
+                    event_target = chinese_invasion_target = {
                         NOT = {
                             num_of_count_titles_in_realm = 20
                         }
                     }
                 }
                 log = "-------------------------------------"
-                log = "China War Logging:"
+                log = "China War Logging = "
                 log = "China declared MINOR submission war on {chinese_invasion_target.GetBestName}"
                 log = "Current status = {FromFrom.Offmap.GetStatus}. Current policy = {FromFrom.Offmap.GetPolicy}."
                 log = "-------------------------------------"
             }
             else = {
                 log = "-------------------------------------"
-                log = "China War Logging:"
+                log = "China War Logging = "
                 log = "China declared MAJOR submission war on {chinese_invasion_target.GetBestName}"
                 log = "Current status = {FromFrom.Offmap.GetStatus}. Current policy = {FromFrom.Offmap.GetPolicy}."
                 log = "-------------------------------------"
@@ -1758,21 +1758,21 @@ character_event = {
             }
             if = {
                 limit = {
-                    event_target:chinese_invasion_target = {
+                    event_target = chinese_invasion_target = {
                         NOT = {
                             num_of_count_titles_in_realm = 20
                         }
                     }
                 }
                 log = "-------------------------------------"
-                log = "China War Logging:"
+                log = "China War Logging = "
                 log = "China declared MINOR claim war on {chinese_invasion_target.GetBestName}"
                 log = "Current status = {FromFrom.Offmap.GetStatus}. Current policy = {FromFrom.Offmap.GetPolicy}."
                 log = "-------------------------------------"
             }
             else = {
                 log = "-------------------------------------"
-                log = "China War Logging:"
+                log = "China War Logging = "
                 log = "China declared MEDIUM claim war on {chinese_invasion_target.GetBestName}"
                 log = "Current status = {FromFrom.Offmap.GetStatus}. Current policy = {FromFrom.Offmap.GetPolicy}."
                 log = "-------------------------------------"
@@ -1803,7 +1803,7 @@ narrative_event = {
     desc = {
         text = EVTDESC_JD_10104_A
         trigger = {
-            event_target:chinese_invasion_target = {
+            event_target = chinese_invasion_target = {
                 character = ROOT
             }
         }
@@ -1812,7 +1812,7 @@ narrative_event = {
         text = EVTDESC_JD_10104_B
         trigger = {
             NOT = {
-                event_target:chinese_invasion_target = {
+                event_target = chinese_invasion_target = {
                     character = ROOT
                 }
             }
@@ -1853,7 +1853,7 @@ narrative_event = {
             }
         }
         trigger = {
-            event_target:chinese_invasion_target = {
+            event_target = chinese_invasion_target = {
                 character = ROOT
             }
         }
@@ -1882,12 +1882,12 @@ narrative_event = {
                 }
             }
         }
-        event_target:chinese_invasion_target = {
+        event_target = chinese_invasion_target = {
             show_portrait = yes
         }
         trigger = {
             NOT = {
-                event_target:chinese_invasion_target = {
+                event_target = chinese_invasion_target = {
                     character = ROOT
                 }
             }
@@ -2015,7 +2015,7 @@ character_event = {
                             days = 15
                         }
                     }
-                    log = "China Logging:"
+                    log = "China Logging = "
                     log = "Attempting to spawn a Displaced Royal, via monthly pulse fallback event (since the old governor left office). Character should spawn in 15 days."
                 }
                 waiting_to_spawn_a_jurchen_invader = {
@@ -2025,7 +2025,7 @@ character_event = {
                             days = 15
                         }
                     }
-                    log = "China Logging:"
+                    log = "China Logging = "
                     log = "Attempting to spawn a Jurchen Invader, via monthly pulse fallback event (since the old governor left office). Character should spawn in 15 days."
                 }
                 waiting_to_spawn_a_rebel_general = {
@@ -2035,7 +2035,7 @@ character_event = {
                             days = 15
                         }
                     }
-                    log = "China Logging:"
+                    log = "China Logging = "
                     log = "Attempting to spawn a Rebel General, via monthly pulse fallback event (since the old governor left office). Character should spawn in 15 days."
                 }
             }
@@ -2057,7 +2057,7 @@ narrative_event = {
     desc = {
         text = EVTDESC_JD_10108_JURCHEN
         trigger = {
-            event_target:the_chinese_invader = {
+            event_target = the_chinese_invader = {
                 has_character_flag = is_jurchen_invader
             }
         }
@@ -2065,7 +2065,7 @@ narrative_event = {
     desc = {
         text = EVTDESC_JD_10108_DISPLACED_PRINCE
         trigger = {
-            event_target:the_chinese_invader = {
+            event_target = the_chinese_invader = {
                 has_character_flag = is_displaced_prince
             }
         }
@@ -2073,14 +2073,14 @@ narrative_event = {
     desc = {
         text = EVTDESC_JD_10108_REBEL_GENERAL
         trigger = {
-            event_target:the_chinese_invader = {
+            event_target = the_chinese_invader = {
                 has_character_flag = is_rebel_general
             }
         }
     }
     has_dlc = "Jade Dragon"
     trigger = {
-        event_target:the_chinese_invader = {
+        event_target = the_chinese_invader = {
             is_alive = yes
         }
     }
@@ -2121,7 +2121,7 @@ character_event = {
                     character_event = {
                         id = JD.10110
                     }
-                    log = "China Logging:"
+                    log = "China Logging = "
                     log = "{This.GetFullName} ID {This.GetID} is the Jurchen Invader"
                 }
             }
@@ -2146,7 +2146,7 @@ character_event = {
                     character_event = {
                         id = JD.10110
                     }
-                    log = "China Logging:"
+                    log = "China Logging = "
                     log = "{This.GetFullName} ID {This.GetID} is the Jurchen Invader"
                 }
             }
@@ -2182,8 +2182,8 @@ character_event = {
         create_character = {
             random_traits = yes
             religion = taoist
-            culture = event_target:previousEmperor
-            dynasty = event_target:previousEmperor
+            culture = event_target = previousEmperor
+            dynasty = event_target = previousEmperor
             female = no
             age = 20
             trait = tough_soldier
@@ -2193,23 +2193,23 @@ character_event = {
             save_event_target_as = displaced_prince
             if = {
                 limit = {
-                    event_target:previousEmperor = {
-                        could_be_parent_of = event_target:displaced_prince
+                    event_target = previousEmperor = {
+                        could_be_parent_of = event_target = displaced_prince
                     }
                 }
-                set_father = event_target:previousEmperor
+                set_father = event_target = previousEmperor
             }
             else_if = {
                 limit = {
-                    event_target:previousEmperor = {
+                    event_target = previousEmperor = {
                         father_even_if_dead = {
-                            could_be_parent_of = event_target:displaced_prince
+                            could_be_parent_of = event_target = displaced_prince
                         }
                     }
                 }
-                event_target:previousEmperor = {
+                event_target = previousEmperor = {
                     father_even_if_dead = {
-                        event_target:displaced_prince = {
+                        event_target = displaced_prince = {
                             set_father = PREV
                         }
                     }
@@ -2217,22 +2217,22 @@ character_event = {
             }
             else_if = {
                 limit = {
-                    event_target:previousEmperor = {
+                    event_target = previousEmperor = {
                         any_dynasty_member_even_if_dead = {
                             is_or_was_offmap_power_ruler = yes
                             is_female = no
-                            could_be_parent_of = event_target:displaced_prince
+                            could_be_parent_of = event_target = displaced_prince
                         }
                     }
                 }
-                event_target:previousEmperor = {
+                event_target = previousEmperor = {
                     random_dynasty_member_even_if_dead = {
                         limit = {
                             is_or_was_offmap_power_ruler = yes
                             is_female = no
-                            could_be_parent_of = event_target:displaced_prince
+                            could_be_parent_of = event_target = displaced_prince
                         }
-                        event_target:displaced_prince = {
+                        event_target = displaced_prince = {
                             set_father = PREV
                         }
                     }
@@ -2240,22 +2240,22 @@ character_event = {
             }
             else_if = {
                 limit = {
-                    event_target:previousEmperor = {
+                    event_target = previousEmperor = {
                         any_dynasty_member_even_if_dead = {
                             is_or_was_offmap_power_ruler = yes
                             is_female = yes
-                            could_be_parent_of = event_target:displaced_prince
+                            could_be_parent_of = event_target = displaced_prince
                         }
                     }
                 }
-                event_target:previousEmperor = {
+                event_target = previousEmperor = {
                     random_dynasty_member_even_if_dead = {
                         limit = {
                             is_or_was_offmap_power_ruler = yes
                             is_female = yes
-                            could_be_parent_of = event_target:displaced_prince
+                            could_be_parent_of = event_target = displaced_prince
                         }
-                        event_target:displaced_prince = {
+                        event_target = displaced_prince = {
                             set_mother = PREV
                         }
                     }
@@ -2263,20 +2263,20 @@ character_event = {
             }
             else_if = {
                 limit = {
-                    event_target:previousEmperor = {
+                    event_target = previousEmperor = {
                         any_dynasty_member_even_if_dead = {
                             is_female = no
-                            could_be_parent_of = event_target:displaced_prince
+                            could_be_parent_of = event_target = displaced_prince
                         }
                     }
                 }
-                event_target:previousEmperor = {
+                event_target = previousEmperor = {
                     random_dynasty_member_even_if_dead = {
                         limit = {
                             is_female = no
-                            could_be_parent_of = event_target:displaced_prince
+                            could_be_parent_of = event_target = displaced_prince
                         }
-                        event_target:displaced_prince = {
+                        event_target = displaced_prince = {
                             set_father = PREV
                         }
                     }
@@ -2295,7 +2295,7 @@ character_event = {
             character_event = {
                 id = JD.10110
             }
-            log = "China Logging:"
+            log = "China Logging = "
             log = "{This.GetFullName} ID {This.GetID} is the Displaced Prince"
         }
         any_player = {
@@ -2371,8 +2371,8 @@ character_event = {
             random_list = {
                 30 = {
                     spawn_unit = {
-                        province = event_target:target_province
-                        home = event_target:target_province
+                        province = event_target = target_province
+                        home = event_target = target_province
                         owner = ROOT
                         attrition = 0
                         reinforces = yes
@@ -2398,8 +2398,8 @@ character_event = {
                 }
                 30 = {
                     spawn_unit = {
-                        province = event_target:target_province
-                        home = event_target:target_province
+                        province = event_target = target_province
+                        home = event_target = target_province
                         owner = ROOT
                         attrition = 0
                         reinforces = yes
@@ -2425,8 +2425,8 @@ character_event = {
                 }
                 30 = {
                     spawn_unit = {
-                        province = event_target:target_province
-                        home = event_target:target_province
+                        province = event_target = target_province
+                        home = event_target = target_province
                         owner = ROOT
                         attrition = 0
                         reinforces = yes
@@ -2459,8 +2459,8 @@ character_event = {
             random_list = {
                 30 = {
                     spawn_unit = {
-                        province = event_target:target_province
-                        home = event_target:target_province
+                        province = event_target = target_province
+                        home = event_target = target_province
                         owner = ROOT
                         attrition = 0
                         reinforces = yes
@@ -2482,8 +2482,8 @@ character_event = {
                 }
                 30 = {
                     spawn_unit = {
-                        province = event_target:target_province
-                        home = event_target:target_province
+                        province = event_target = target_province
+                        home = event_target = target_province
                         owner = ROOT
                         attrition = 0
                         reinforces = yes
@@ -2505,8 +2505,8 @@ character_event = {
                 }
                 30 = {
                     spawn_unit = {
-                        province = event_target:target_province
-                        home = event_target:target_province
+                        province = event_target = target_province
+                        home = event_target = target_province
                         owner = ROOT
                         attrition = 0
                         reinforces = yes
@@ -2727,12 +2727,12 @@ character_event = {
                     }
                     ROOT = {
                         unsafe_war = {
-                            target = event_target:random_ruler_target
+                            target = event_target = random_ruler_target
                             casus_belli = duchy_adventure
                             thirdparty_title = PREV
                             tier = DUKE
                         }
-                        event_target:random_ruler_target = {
+                        event_target = random_ruler_target = {
                             character_event = {
                                 id = HL.112
                             }
@@ -2743,12 +2743,12 @@ character_event = {
                 random_realm_province = {
                     ROOT = {
                         unsafe_war = {
-                            target = event_target:random_ruler_target
+                            target = event_target = random_ruler_target
                             casus_belli = duchy_adventure
                             thirdparty_title = PREV
                             tier = DUKE
                         }
-                        event_target:random_ruler_target = {
+                        event_target = random_ruler_target = {
                             character_event = {
                                 id = HL.112
                             }
@@ -2781,7 +2781,7 @@ character_event = {
             set_looting = no
         }
         clr_character_flag = raiding_adventurer
-        event_target:target_province = {
+        event_target = target_province = {
             owner = {
                 character_event = {
                     id = HL.112
@@ -2904,7 +2904,7 @@ character_event = {
     is_triggered_only = yes
     immediate = {
         log = "-------------------------------------"
-        log = "China Logging:"
+        log = "China Logging = "
         log = "The Western Protectorate has gained {Root.WP_nomad_provinces.GetValue} nomad provinces from the war."
         log = "The amount of gold that shall recieved is 200 per nomad province modified by the current status of China"
         set_variable = {
@@ -3053,7 +3053,7 @@ character_event = {
             save_event_target_as = rebel_general
             save_event_target_as = the_chinese_invader
             wealth = 200
-            log = "China Logging:"
+            log = "China Logging = "
             log = "{This.GetFullName} ID {This.GetID} is the Rebel General"
             character_event = {
                 id = JD.60201
@@ -3087,12 +3087,12 @@ character_event = {
         }
     }
     immediate = {
-        log = "China Logging:"
+        log = "China Logging = "
         random_independent_ruler = {
             limit = {
                 valid_offmap_china_target_location = yes
                 in_revolt = no
-                is_within_diplo_range = event_target:the_protector_general
+                is_within_diplo_range = event_target = the_protector_general
                 is_landed = yes
                 is_nomadic = no
                 higher_tier_than = BARON
@@ -3104,12 +3104,12 @@ character_event = {
             limit = {
                 valid_offmap_china_target_location = yes
                 NOT = {
-                    event_target:the_protector_general = {
+                    event_target = the_protector_general = {
                         character = PREV
                     }
                 }
                 in_revolt = no
-                is_within_diplo_range = event_target:the_protector_general
+                is_within_diplo_range = event_target = the_protector_general
                 is_landed = yes
                 is_nomadic = no
                 higher_tier_than = BARON
@@ -3121,12 +3121,12 @@ character_event = {
             limit = {
                 valid_offmap_china_target_location = yes
                 NOT = {
-                    event_target:the_protector_general = {
+                    event_target = the_protector_general = {
                         character = PREV
                     }
                 }
                 in_revolt = no
-                is_within_diplo_range = event_target:the_protector_general
+                is_within_diplo_range = event_target = the_protector_general
                 is_landed = yes
                 is_nomadic = no
                 higher_tier_than = COUNT
@@ -3139,12 +3139,12 @@ character_event = {
             limit = {
                 valid_offmap_china_target_location = yes
                 NOT = {
-                    event_target:the_protector_general = {
+                    event_target = the_protector_general = {
                         character = PREV
                     }
                 }
                 in_revolt = no
-                is_within_diplo_range = event_target:the_protector_general
+                is_within_diplo_range = event_target = the_protector_general
                 is_landed = yes
                 is_nomadic = no
                 higher_tier_than = DUKE
@@ -3157,12 +3157,12 @@ character_event = {
             limit = {
                 valid_offmap_china_target_location = yes
                 NOT = {
-                    event_target:the_protector_general = {
+                    event_target = the_protector_general = {
                         character = PREV
                     }
                 }
                 in_revolt = no
-                is_within_diplo_range = event_target:the_protector_general
+                is_within_diplo_range = event_target = the_protector_general
                 is_landed = yes
                 is_nomadic = no
                 higher_tier_than = KING
@@ -3174,7 +3174,7 @@ character_event = {
         if = {
             limit = {
                 NOT = {
-                    event_target:rebel_general_target = {
+                    event_target = rebel_general_target = {
                         always = yes
                     }
                 }
@@ -3398,7 +3398,7 @@ character_event = {
         clr_character_flag = middle_general
         clr_character_flag = old_general
         prestige = 500
-        event_target:rebel_general_target = {
+        event_target = rebel_general_target = {
             character_event = {
                 id = JD.60202
                 days = 5
@@ -3434,7 +3434,7 @@ character_event = {
     hide_window = yes
     has_dlc = "Jade Dragon"
     trigger = {
-        event_target:rebel_general = {
+        event_target = rebel_general = {
             is_alive = yes
         }
     }
@@ -3444,10 +3444,10 @@ character_event = {
         }
     }
     immediate = {
-        event_target:rebel_general = {
+        event_target = rebel_general = {
             war = {
                 casus_belli = offmap_submission
-                target = event_target:rebel_general_target
+                target = event_target = rebel_general_target
             }
             set_variable = {
                 which = china_war_troop_quantity
@@ -3583,7 +3583,7 @@ character_event = {
                 }
             }
             set_character_flag = given_temple_name_by_script
-            event_target:temple_name_title = {
+            event_target = temple_name_title = {
                 clear_flags_with_prefix = temple_name_
                 clear_flags_with_prefix = china_name_
                 random_list = {
@@ -3857,7 +3857,7 @@ character_event = {
         }
         if = {
             limit = {
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     has_title_flag = temple_name_Zhenzong
                     has_title_flag = temple_name_Renzong
                     has_title_flag = temple_name_Zhongzong
@@ -3916,7 +3916,7 @@ character_event = {
                     has_title_flag = temple_name_Yingzong
                 }
             }
-            event_target:temple_name_title = {
+            event_target = temple_name_title = {
                 clear_flags_with_prefix = temple_name_
             }
         }
@@ -3924,13 +3924,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Zhenzong
                         }
                     }
                 }
                 set_name = "真宗"  # Zhenzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Zhenzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -3938,13 +3938,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Renzong
                         }
                     }
                 }
                 set_name = "仁宗"  # Renzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Renzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -3952,13 +3952,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Zhongzong
                         }
                     }
                 }
                 set_name = "中宗"  # Zhongzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Zhongzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -3966,13 +3966,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Yingzong
                         }
                     }
                 }
                 set_name = "英宗"  # Yingzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Yingzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -3980,13 +3980,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Shenzong
                         }
                     }
                 }
                 set_name = "神宗"  # Shenzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Shenzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -3994,13 +3994,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Zhezhong
                         }
                     }
                 }
                 set_name = "哲宗"  # Zhezhong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Zhezhong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4008,13 +4008,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Huizong
                         }
                     }
                 }
                 set_name = "徽宗"  # Huizong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Huizong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4022,13 +4022,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Qinzong
                         }
                     }
                 }
                 set_name = "钦宗"  # Qinzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Qinzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4036,13 +4036,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Xiaozong
                         }
                     }
                 }
                 set_name = "孝宗"  # Xiaozong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Xiaozong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4050,13 +4050,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Guangzong
                         }
                     }
                 }
                 set_name = "光宗"  # Guangzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Guangzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4064,13 +4064,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Ningzong
                         }
                     }
                 }
                 set_name = "宁宗"  # Ningzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Ningzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4078,13 +4078,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Lizong
                         }
                     }
                 }
                 set_name = "理宗"  # Lizong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Lizong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4092,13 +4092,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Duzong
                         }
                     }
                 }
                 set_name = "度宗"  # Duzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Duzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4106,13 +4106,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Duanzong
                         }
                     }
                 }
                 set_name = "端宗"  # Duanzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Duanzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4120,13 +4120,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Xuanzong
                         }
                     }
                 }
                 set_name = "宣宗"  # Xuanzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Xuanzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4134,13 +4134,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Suzong
                         }
                     }
                 }
                 set_name = "肃宗"  # Suzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Suzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4148,13 +4148,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Daizong
                         }
                     }
                 }
                 set_name = "代宗"  # Daizong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Daizong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4162,13 +4162,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Muzong
                         }
                     }
                 }
                 set_name = "穆宗"  # Muzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Muzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4176,13 +4176,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Jingzong
                         }
                     }
                 }
                 set_name = "敬宗"  # Jingzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Jingzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4190,13 +4190,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Wenzong
                         }
                     }
                 }
                 set_name = "文宗"  # Wenzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Wenzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4204,13 +4204,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Wuzong
                         }
                     }
                 }
                 set_name = "武宗"  # Wuzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Wuzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4218,13 +4218,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Zhaozong
                         }
                     }
                 }
                 set_name = "昭宗"  # Zhaozong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Zhaozong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4232,13 +4232,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Xizong
                         }
                     }
                 }
                 set_name = "熙宗"  # Xizong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Xizong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4246,13 +4246,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Xuanzong
                         }
                     }
                 }
                 set_name = "玄宗"  # Xuanzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Xuanzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4260,13 +4260,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Shizong
                         }
                     }
                 }
                 set_name = "世宗"  # Shizong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Shizong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4274,13 +4274,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Zhangzong
                         }
                     }
                 }
                 set_name = "章宗"  # Zhangzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Zhangzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4288,13 +4288,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Ruizong
                         }
                     }
                 }
                 set_name = "睿宗"  # Ruizong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Ruizong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4302,13 +4302,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Dingzong
                         }
                     }
                 }
                 set_name = "定宗"  # Dingzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Dingzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4316,13 +4316,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Xianzong
                         }
                     }
                 }
                 set_name = "显宗"  # Xianzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Xianzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4330,13 +4330,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Chengzong
                         }
                     }
                 }
                 set_name = "成宗"  # Chengzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Chengzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4344,13 +4344,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Mingzong
                         }
                     }
                 }
                 set_name = "明宗"  # Mingzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Mingzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4358,13 +4358,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Jinzong
                         }
                     }
                 }
                 set_name = "景宗"  # Jinzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Jinzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4372,13 +4372,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Yizong
                         }
                     }
                 }
                 set_name = "懿宗"  # Yizong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Yizong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4386,13 +4386,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Xiangzong
                         }
                     }
                 }
                 set_name = "襄宗"  # Xiangzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Xiangzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4400,13 +4400,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Huanzong
                         }
                     }
                 }
                 set_name = "桓宗"  # Huanzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Huanzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4414,13 +4414,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Chongzong
                         }
                     }
                 }
                 set_name = "崇宗"  # Chongzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Chongzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4428,13 +4428,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Daozong
                         }
                     }
                 }
                 set_name = "道宗"  # Daozong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Daozong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4442,13 +4442,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Liezong
                         }
                     }
                 }
                 set_name = "烈宗"  # Liezong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Liezong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4456,13 +4456,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Aizong
                         }
                     }
                 }
                 set_name = "哀宗"  # Aizong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Aizong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4470,13 +4470,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Zhangzong
                         }
                     }
                 }
                 set_name = "章宗"  # Zhangzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Zhangzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4484,13 +4484,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Dezong
                         }
                     }
                 }
                 set_name = "德宗"  # Dezong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Dezong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4498,13 +4498,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Shengzong
                         }
                     }
                 }
                 set_name = "圣宗"  # Shengzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Shengzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4512,13 +4512,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Xingzong
                         }
                     }
                 }
                 set_name = "兴宗"  # Xingzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Xingzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4526,13 +4526,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Kangzong
                         }
                     }
                 }
                 set_name = "康宗"  # Kangzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Kangzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4540,13 +4540,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Zhuangzong
                         }
                     }
                 }
                 set_name = "庄宗"  # Zhuangzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Zhuangzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4554,13 +4554,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Pingzong
                         }
                     }
                 }
                 set_name = "平宗"  # Pingzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Pingzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4568,13 +4568,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Sizong
                         }
                     }
                 }
                 set_name = "思宗"  # Sizong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Sizong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4582,13 +4582,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Anzong
                         }
                     }
                 }
                 set_name = "安宗"  # Anzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Anzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4596,13 +4596,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Yangzong
                         }
                     }
                 }
                 set_name = "炀宗"  # Yangzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Yangzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4610,13 +4610,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Shangzong
                         }
                     }
                 }
                 set_name = "商宗"  # Shangzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Shangzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4624,13 +4624,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Shunzong
                         }
                     }
                 }
                 set_name = "顺宗"  # Shunzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Shunzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4638,13 +4638,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Zhizong
                         }
                     }
                 }
                 set_name = "质宗"  # Zhizong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Zhizong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4652,13 +4652,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Chuangzong
                         }
                     }
                 }
                 set_name = "传宗"  # Chuangzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Chuangzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4666,13 +4666,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Shaozong
                         }
                     }
                 }
                 set_name = "绍宗"  # Shaozong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Shaozong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4680,13 +4680,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Gongzong
                         }
                     }
                 }
                 set_name = "恭宗"  # Gongzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Gongzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -4694,13 +4694,13 @@ character_event = {
             1 = {
                 trigger = {
                     NOT = {
-                        event_target:temple_name_title = {
+                        event_target = temple_name_title = {
                             has_title_flag = temple_name_Yingzong
                         }
                     }
                 }
                 set_name = "英宗"  # Yingzong
-                event_target:temple_name_title = {
+                event_target = temple_name_title = {
                     set_title_flag = temple_name_Yingzong
                 }
                 set_character_flag = given_temple_name_by_script
@@ -5194,7 +5194,7 @@ character_event = {
     is_triggered_only = yes
     has_dlc = "Jade Dragon"
     immediate = {
-        event_target:rebel_general_title = {
+        event_target = rebel_general_title = {
             holder_scope = {
                 any_courtier = {
                     death = {
@@ -5225,7 +5225,7 @@ narrative_event = {
     desc = {
         text = EVTDESC_JD_60208_A
         trigger = {
-            event_target:chinese_invasion_target = {
+            event_target = chinese_invasion_target = {
                 character = ROOT
             }
         }
@@ -5234,7 +5234,7 @@ narrative_event = {
         text = EVTDESC_JD_60208_B
         trigger = {
             NOT = {
-                event_target:chinese_invasion_target = {
+                event_target = chinese_invasion_target = {
                     character = ROOT
                 }
             }
@@ -5274,19 +5274,19 @@ narrative_event = {
             }
         }
         trigger = {
-            event_target:chinese_invasion_target = {
+            event_target = chinese_invasion_target = {
                 character = ROOT
             }
         }
     }
     option = {
         name = EVT_OPTA_JD_60208
-        event_target:chinese_invasion_target = {
+        event_target = chinese_invasion_target = {
             show_portrait = yes
         }
         trigger = {
             NOT = {
-                event_target:chinese_invasion_target = {
+                event_target = chinese_invasion_target = {
                     character = ROOT
                 }
             }
@@ -5395,7 +5395,7 @@ character_event = {
                                 save_event_target_as = pretender_chinese_empire_new_character
                                 PREVPREV = {
                                     usurp_title_plus_barony_if_unlanded = {
-                                        target = event_target:pretender_chinese_empire_new_character
+                                        target = event_target = pretender_chinese_empire_new_character
                                         type = invasion
                                     }
                                 }
@@ -5525,7 +5525,7 @@ narrative_event = {
     desc = {
         text = EVTDESC_JD_60400_A
         trigger = {
-            event_target:invasion_of_china_attacker = {
+            event_target = invasion_of_china_attacker = {
                 character = ROOT
             }
         }
@@ -5534,7 +5534,7 @@ narrative_event = {
         text = EVTDESC_JD_60400_B
         trigger = {
             NOT = {
-                event_target:invasion_of_china_attacker = {
+                event_target = invasion_of_china_attacker = {
                     character = ROOT
                 }
             }
@@ -5545,7 +5545,7 @@ narrative_event = {
         name = {
             text = EVT_OPTA_JD_60400
             trigger = {
-                event_target:invasion_of_china_attacker = {
+                event_target = invasion_of_china_attacker = {
                     character = ROOT
                 }
             }
@@ -5554,13 +5554,13 @@ narrative_event = {
             text = EVT_OPTB_JD_60400
             trigger = {
                 NOT = {
-                    event_target:invasion_of_china_attacker = {
+                    event_target = invasion_of_china_attacker = {
                         character = ROOT
                     }
                 }
             }
         }
-        show_portrait = event_target:invasion_of_china_claimant
+        show_portrait = event_target = invasion_of_china_claimant
     }
 }
 narrative_event = {
@@ -5578,7 +5578,7 @@ narrative_event = {
             set_offmap_flag = no_policy_news
             set_policy = china_open
             log = "-------------------------------------"
-            log = "China Policy Logging:"
+            log = "China Policy Logging = "
             log = "Chinas new Policy is now OPEN"
             log = "-------------------------------------"
             clr_offmap_flag = no_policy_news
@@ -5600,7 +5600,7 @@ narrative_event = {
     has_dlc = "Jade Dragon"
     option = {
         name = EVT_OPT_JD_60402
-        show_portrait = event_target:invasion_of_china_claimant
+        show_portrait = event_target = invasion_of_china_claimant
     }
 }
 narrative_event = {
@@ -5622,7 +5622,7 @@ narrative_event = {
                 }
             }
         }
-        show_portrait = event_target:invasion_of_china_claimant
+        show_portrait = event_target = invasion_of_china_claimant
     }
     option = {
         name = EVT_OPTB_JD_60403
@@ -5631,6 +5631,6 @@ narrative_event = {
                 character = ROOT
             }
         }
-        show_portrait = event_target:invasion_of_china_claimant
+        show_portrait = event_target = invasion_of_china_claimant
     }
 }

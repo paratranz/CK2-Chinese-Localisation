@@ -234,7 +234,7 @@
             }
             add_trait = content
         }
-        event_target:eternal_life_sad_example = {
+        event_target = eternal_life_sad_example = {
             opinion = {
                 who = FROM
                 modifier = opinion_budding_friendship
@@ -590,7 +590,7 @@ narrative_event = {
         }
         scaled_wealth = -1
         hidden_tooltip = {
-            event_target:eternal_life_advisor = {
+            event_target = eternal_life_advisor = {
                 set_character_flag = eternal_life_expensive_option
                 character_event = {
                     id = RIP.21012
@@ -604,7 +604,7 @@ narrative_event = {
             text = EVTOPTB_RIP_21008_TOOLTIP
         }
         hidden_tooltip = {
-            event_target:eternal_life_advisor = {
+            event_target = eternal_life_advisor = {
                 character_event = {
                     id = RIP.21012
                 }
@@ -634,7 +634,7 @@ narrative_event = {
         }
         scaled_wealth = -1.5
         hidden_tooltip = {
-            event_target:eternal_life_advisor = {
+            event_target = eternal_life_advisor = {
                 set_character_flag = eternal_life_expensive_option
                 character_event = {
                     id = RIP.21012
@@ -649,7 +649,7 @@ narrative_event = {
         }
         scaled_wealth = -0.5
         hidden_tooltip = {
-            event_target:eternal_life_advisor = {
+            event_target = eternal_life_advisor = {
                 set_character_flag = eternal_life_affordable_option
                 character_event = {
                     id = RIP.21012
@@ -663,7 +663,7 @@ narrative_event = {
             text = EVTOPTC_RIP_21009_TOOLTIP
         }
         hidden_tooltip = {
-            event_target:eternal_life_advisor = {
+            event_target = eternal_life_advisor = {
                 character_event = {
                     id = RIP.21012
                 }
@@ -693,7 +693,7 @@ narrative_event = {
         }
         scaled_wealth = -1
         hidden_tooltip = {
-            event_target:eternal_life_advisor = {
+            event_target = eternal_life_advisor = {
                 set_character_flag = eternal_life_expensive_option
                 character_event = {
                     id = RIP.21012
@@ -707,7 +707,7 @@ narrative_event = {
             text = EVTOPTB_RIP_21010_TOOLTIP
         }
         hidden_tooltip = {
-            event_target:eternal_life_advisor = {
+            event_target = eternal_life_advisor = {
                 character_event = {
                     id = RIP.21012
                 }
@@ -734,7 +734,7 @@ narrative_event = {
         name = EVTOPTA_RIP_21011
         scaled_wealth = -1
         hidden_tooltip = {
-            event_target:eternal_life_advisor = {
+            event_target = eternal_life_advisor = {
                 set_character_flag = eternal_life_expensive_option
                 character_event = {
                     id = RIP.21012
@@ -745,7 +745,7 @@ narrative_event = {
     option = {
         name = EVTOPTB_RIP_21011
         hidden_tooltip = {
-            event_target:eternal_life_advisor = {
+            event_target = eternal_life_advisor = {
                 character_event = {
                     id = RIP.21012
                 }
@@ -1169,7 +1169,7 @@ narrative_event = {
         clr_character_flag = martial_mystic
         clr_character_flag = intrigue_mystic
         clr_character_flag = learning_mystic
-        event_target:eternal_life_mystic = {
+        event_target = eternal_life_mystic = {
             narrative_event = {
                 id = RIP.21018
                 days = 30
@@ -1192,10 +1192,10 @@ character_event = {
     hide_window = yes
     trigger = {
         OR = {
-            event_target:eternal_life_advisor = {
+            event_target = eternal_life_advisor = {
                 is_alive = no
             }
-            event_target:eternal_life_advisor = {
+            event_target = eternal_life_advisor = {
                 NOT = {
                     liege = {
                         character = ROOT
@@ -1537,7 +1537,7 @@ narrative_event = {
         clr_character_flag = martial_mystic
         clr_character_flag = intrigue_mystic
         clr_character_flag = learning_mystic
-        event_target:eternal_life_mystic = {
+        event_target = eternal_life_mystic = {
             narrative_event = {
                 id = RIP.21018
             }
@@ -2352,7 +2352,7 @@ narrative_event = {
             text = EVTOPTA_RIP_21116_TOOLTIP
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 leave_court_effect = yes
             }
             death = {
@@ -2583,7 +2583,7 @@ narrative_event = {
             remove_trait = incapable
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 add_trait = immortal
             }
             FROM = {
@@ -2633,7 +2633,7 @@ narrative_event = {
             remove_trait = incapable
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 add_trait = immortal
             }
             FROM = {
@@ -2668,7 +2668,7 @@ narrative_event = {
             death = {
                 death_reason = death_murder_unknown
             }
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 leave_court_effect = yes
             }
         }
@@ -2710,7 +2710,7 @@ narrative_event = {
             remove_trait = gregarious
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 leave_court_effect = yes
             }
         }
@@ -3156,7 +3156,7 @@ narrative_event = {
             }
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 leave_court_effect = yes
             }
         }
@@ -3453,7 +3453,7 @@ narrative_event = {
             remove_trait = incapable
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 add_trait = immortal
             }
             FROM = {
@@ -3503,7 +3503,7 @@ narrative_event = {
             remove_trait = incapable
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 add_trait = immortal
             }
             FROM = {
@@ -3546,12 +3546,12 @@ narrative_event = {
             text = EVTOPTA_RIP_21226_TOOLTIP
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 leave_court_effect = yes
             }
             death = {
                 death_reason = death_murder_unknown
-                killer = event_target:eternal_life_mystic
+                killer = event_target = eternal_life_mystic
             }
         }
     }
@@ -3585,7 +3585,7 @@ narrative_event = {
             add_trait = stressed
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 leave_court_effect = yes
             }
         }
@@ -4018,7 +4018,7 @@ narrative_event = {
             text = EVTOPTA_RIP_21316_TOOLTIP
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 leave_court_effect = yes
             }
             death = {
@@ -4268,7 +4268,7 @@ narrative_event = {
             remove_trait = incapable
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 add_trait = immortal
             }
             FROM = {
@@ -4318,7 +4318,7 @@ narrative_event = {
             remove_trait = incapable
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 add_trait = immortal
             }
             FROM = {
@@ -4352,9 +4352,9 @@ narrative_event = {
         hidden_tooltip = {
             death = {
                 death_reason = death_murder_unknown
-                killer = event_target:eternal_life_mystic
+                killer = event_target = eternal_life_mystic
             }
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 leave_court_effect = yes
             }
         }
@@ -4390,7 +4390,7 @@ narrative_event = {
             add_trait = stressed
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 leave_court_effect = yes
             }
         }
@@ -4890,7 +4890,7 @@ narrative_event = {
             text = EVTOPTA_RIP_21416_TOOLTIP
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 leave_court_effect = yes
             }
             death = {
@@ -5173,7 +5173,7 @@ narrative_event = {
             remove_trait = incapable
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 add_trait = immortal
             }
             FROM = {
@@ -5216,7 +5216,7 @@ narrative_event = {
             text = EVTOPTA_RIP_21426_TOOLTIP
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 leave_court_effect = yes
             }
             death = {
@@ -5255,7 +5255,7 @@ narrative_event = {
             add_trait = stressed
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 leave_court_effect = yes
             }
         }
@@ -5423,7 +5423,7 @@ narrative_event = {
             FROM = {
                 is_close_relative = ROOT
             }
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 religion = ROOT
             }
         }
@@ -5436,7 +5436,7 @@ narrative_event = {
                     is_close_relative = ROOT
                 }
             }
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 religion = ROOT
             }
         }
@@ -5447,7 +5447,7 @@ narrative_event = {
             FROM = {
                 is_close_relative = ROOT
             }
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 NOT = {
                     religion = ROOT
                 }
@@ -5462,7 +5462,7 @@ narrative_event = {
                     is_close_relative = ROOT
                 }
             }
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 NOT = {
                     religion = ROOT
                 }
@@ -5509,7 +5509,7 @@ narrative_event = {
                 50 = {
                     modifier = {
                         factor = 0
-                        event_target:eternal_life_mystic = {
+                        event_target = eternal_life_mystic = {
                             NOT = {
                                 has_character_flag = mystic_is_fraud
                             }
@@ -5583,7 +5583,7 @@ narrative_event = {
                     }
                 }
                 20 = {
-                    event_target:eternal_life_mystic = {
+                    event_target = eternal_life_mystic = {
                         narrative_event = {
                             id = RIP.21506
                         }
@@ -5605,11 +5605,11 @@ narrative_event = {
                 who = ROOT
             }
         }
-        event_target:eternal_life_mystic = {
+        event_target = eternal_life_mystic = {
             imprison = ROOT
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 if = {
                     limit = {
                         NOT = {
@@ -5687,11 +5687,11 @@ narrative_event = {
     }
     option = {
         name = EVTOPTB_RIP_21503
-        event_target:eternal_life_mystic = {
+        event_target = eternal_life_mystic = {
             imprison = ROOT
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 if = {
                     limit = {
                         NOT = {
@@ -5712,7 +5712,7 @@ narrative_event = {
             text = EVTOPTC_RIP_21503_TOOLTIP
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 narrative_event = {
                     id = RIP.21506
                     days = 10
@@ -5816,11 +5816,11 @@ narrative_event = {
     }
     option = {
         name = EVTOPTC_RIP_21507
-        event_target:eternal_life_mystic = {
+        event_target = eternal_life_mystic = {
             imprison = ROOT
         }
         hidden_tooltip = {
-            event_target:eternal_life_mystic = {
+            event_target = eternal_life_mystic = {
                 if = {
                     limit = {
                         NOT = {
@@ -5872,14 +5872,14 @@ narrative_event = {
             save_event_target_as = eternal_life_reincarnation_source
         }
         ROOT = {
-            copy_random_personality_trait = event_target:eternal_life_reincarnation_source
-            copy_random_personality_trait = event_target:eternal_life_reincarnation_source
-            copy_random_personality_trait = event_target:eternal_life_reincarnation_source
-            copy_random_personality_trait = event_target:eternal_life_reincarnation_source
-            copy_random_personality_trait = event_target:eternal_life_reincarnation_source
-            copy_random_personality_trait = event_target:eternal_life_reincarnation_source
-            copy_random_personality_trait = event_target:eternal_life_reincarnation_source
-            copy_random_personality_trait = event_target:eternal_life_reincarnation_source
+            copy_random_personality_trait = event_target = eternal_life_reincarnation_source
+            copy_random_personality_trait = event_target = eternal_life_reincarnation_source
+            copy_random_personality_trait = event_target = eternal_life_reincarnation_source
+            copy_random_personality_trait = event_target = eternal_life_reincarnation_source
+            copy_random_personality_trait = event_target = eternal_life_reincarnation_source
+            copy_random_personality_trait = event_target = eternal_life_reincarnation_source
+            copy_random_personality_trait = event_target = eternal_life_reincarnation_source
+            copy_random_personality_trait = event_target = eternal_life_reincarnation_source
         }
     }
 }

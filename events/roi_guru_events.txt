@@ -1,4 +1,4 @@
-﻿namespace = "RoI"  # RoI
+﻿namespace = RoI
 character_event = {
     id = RoI.3000
     desc = EVTDESC_RoI_3000
@@ -80,7 +80,7 @@ character_event = {
                                 has_global_flag = basava
                             }
                         }
-                        set_name = "Basava"  # Basava
+                        set_name = "婆娑伐"  # Basava
                         set_character_flag = is_basava
                         set_global_flag = basava
                         culture = marathi
@@ -267,7 +267,7 @@ character_event = {
         }
         OR = {
             has_dlc = "Rajas of India"
-            has_dlc = "Jade Dragon"  # Jade Dragon
+            has_dlc = "Jade Dragon"
         }
         any_courtier = {
             has_minor_title = title_guru
@@ -313,7 +313,7 @@ character_event = {
     trigger = {
         OR = {
             has_dlc = "Rajas of India"
-            has_dlc = "Jade Dragon"  # Jade Dragon
+            has_dlc = "Jade Dragon"
         }
         OR = {
             religion = buddhist
@@ -368,7 +368,7 @@ character_event = {
         }
         OR = {
             has_dlc = "Rajas of India"
-            has_dlc = "Jade Dragon"  # Jade Dragon
+            has_dlc = "Jade Dragon"
         }
         any_courtier = {
             has_minor_title = title_guru
@@ -553,7 +553,7 @@ character_event = {
         }
         OR = {
             has_dlc = "Rajas of India"
-            has_dlc = "Jade Dragon"  # Jade Dragon
+            has_dlc = "Jade Dragon"
         }
         any_courtier = {
             has_minor_title = title_guru
@@ -604,7 +604,7 @@ character_event = {
         }
         OR = {
             has_dlc = "Rajas of India"
-            has_dlc = "Jade Dragon"  # Jade Dragon
+            has_dlc = "Jade Dragon"
         }
         any_courtier = {
             has_minor_title = title_guru
@@ -655,7 +655,7 @@ character_event = {
         }
         OR = {
             has_dlc = "Rajas of India"
-            has_dlc = "Jade Dragon"  # Jade Dragon
+            has_dlc = "Jade Dragon"
         }
         any_courtier = {
             has_minor_title = title_guru
@@ -831,7 +831,7 @@ character_event = {
         }
         OR = {
             has_dlc = "Rajas of India"
-            has_dlc = "Jade Dragon"  # Jade Dragon
+            has_dlc = "Jade Dragon"
         }
         any_courtier = {
             has_minor_title = title_guru
@@ -882,7 +882,7 @@ character_event = {
         }
         OR = {
             has_dlc = "Rajas of India"
-            has_dlc = "Jade Dragon"  # Jade Dragon
+            has_dlc = "Jade Dragon"
         }
         any_courtier = {
             has_minor_title = title_guru
@@ -933,7 +933,7 @@ character_event = {
         }
         OR = {
             has_dlc = "Rajas of India"
-            has_dlc = "Jade Dragon"  # Jade Dragon
+            has_dlc = "Jade Dragon"
         }
         any_courtier = {
             has_minor_title = title_guru
@@ -1079,7 +1079,7 @@ character_event = {
         }
         OR = {
             has_dlc = "Rajas of India"
-            has_dlc = "Jade Dragon"  # Jade Dragon
+            has_dlc = "Jade Dragon"
         }
         any_courtier = {
             has_minor_title = title_guru
@@ -1124,7 +1124,7 @@ character_event = {
     trigger = {
         OR = {
             has_dlc = "Rajas of India"
-            has_dlc = "Jade Dragon"  # Jade Dragon
+            has_dlc = "Jade Dragon"
         }
         is_dumb_trigger = no
         NOT = {
@@ -1185,11 +1185,11 @@ character_event = {
             add_trait = deceitful
             add_trait = cynical
             add_character_modifier = {
-                name = "whoremaster"  # whoremaster
+                name = whoremaster
                 duration = -1
             }
             add_character_modifier = {
-                name = "gambler"  # gambler
+                name = gambler
                 duration = -1
             }
         }
@@ -1229,11 +1229,11 @@ character_event = {
             add_trait = deceitful
             add_trait = cynical
             add_character_modifier = {
-                name = "whoremaster"  # whoremaster
+                name = whoremaster
                 duration = -1
             }
             add_character_modifier = {
-                name = "gambler"  # gambler
+                name = gambler
                 duration = -1
             }
             clr_character_flag = guru

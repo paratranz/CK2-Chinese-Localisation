@@ -8145,7 +8145,7 @@ narrative_event = {
                         }
                     }
                 }
-                event_target:mongol_china_invader = {
+                event_target = mongol_china_invader = {
                     character_event = {
                         id = 60531
                         days = 100
@@ -8338,7 +8338,7 @@ character_event = {
         }
         new_character = {
             set_father = ROOT
-            set_mother = event_target:borte
+            set_mother = event_target = borte
         }
         create_character = {
             name = "窝阔台"  # Ögedei
@@ -8352,7 +8352,7 @@ character_event = {
         }
         new_character = {
             set_father = ROOT
-            set_mother = event_target:borte
+            set_mother = event_target = borte
         }
         create_character = {
             name = "朮赤"  # Jochi
@@ -8367,7 +8367,7 @@ character_event = {
         }
         new_character = {
             set_father = ROOT
-            set_mother = event_target:borte
+            set_mother = event_target = borte
         }
         create_character = {
             name = "拖雷"  # Tolui
@@ -8379,7 +8379,7 @@ character_event = {
         }
         new_character = {
             set_father = ROOT
-            set_mother = event_target:borte
+            set_mother = event_target = borte
         }
         create_character = {
             name = "哲别"  # Jebe
@@ -9217,7 +9217,7 @@ character_event = {
                     }
                     offmap_ruler = {
                         NOT = {
-                            dynasty = event_target:mongol_china_invader
+                            dynasty = event_target = mongol_china_invader
                         }
                     }
                 }
@@ -9509,7 +9509,7 @@ character_event = {
                 always = yes
             }
         }
-        event_target:target_province = {
+        event_target = target_province = {
             owner = {
                 top_liege = {
                     is_landed = yes
@@ -9536,7 +9536,7 @@ character_event = {
         }
         liege = {
             capital_scope = {
-                event_target:target_province = {
+                event_target = target_province = {
                     top_liege = {
                         ROOT = {
                             set_defacto_liege = ROOT

@@ -1318,7 +1318,7 @@ character_event = {
             text = eunuch_declined
         }
         hidden_tooltip = {
-            event_target:eunuch_gift = {
+            event_target = eunuch_gift = {
                 death = {
                     death_reason = death_missing
                 }
@@ -1397,7 +1397,7 @@ character_event = {
             text = eunuch_declined
         }
         hidden_tooltip = {
-            event_target:eunuch_gift = {
+            event_target = eunuch_gift = {
                 death = {
                     death_reason = death_missing
                 }
@@ -1470,7 +1470,7 @@ character_event = {
             text = eunuch_declined
         }
         hidden_tooltip = {
-            event_target:eunuch_gift = {
+            event_target = eunuch_gift = {
                 death = {
                     death_reason = death_missing
                 }
@@ -1560,7 +1560,7 @@ character_event = {
             text = eunuch_declined
         }
         hidden_tooltip = {
-            event_target:eunuch_gift = {
+            event_target = eunuch_gift = {
                 death = {
                     death_reason = death_missing
                 }
@@ -1675,7 +1675,7 @@ character_event = {
         if = {
             limit = {
                 NOT = {
-                    event_target:tzykanion = {
+                    event_target = tzykanion = {
                         always = yes
                     }
                 }
@@ -1769,7 +1769,7 @@ character_event = {
     option = {
         name = EVTOPTALoR.902
         prestige = 25
-        event_target:tzykanion = {
+        event_target = tzykanion = {
             opinion = {
                 modifier = opinion_tzykanion_pos
                 who = ROOT
@@ -1784,7 +1784,7 @@ character_event = {
     is_triggered_only = yes
     option = {
         name = EVTOPTALoR.903
-        event_target:tzykanion = {
+        event_target = tzykanion = {
             opinion = {
                 modifier = opinion_tzykanion_pos
                 who = ROOT
@@ -1801,7 +1801,7 @@ character_event = {
         name = EVTOPTALoR.904
         prestige = -25
         set_character_flag = no_more_tzykanion
-        event_target:tzykanion = {
+        event_target = tzykanion = {
             opinion = {
                 modifier = opinion_tzykanion_neg
                 who = ROOT

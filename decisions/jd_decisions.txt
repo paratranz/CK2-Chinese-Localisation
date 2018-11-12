@@ -1164,7 +1164,7 @@ china_sends_reinforcements = {
                                 export_to_variable = {
                                     which = china_temp_troop_calc
                                     value = realm_levies
-                                    who = event_target:temp_war_ally_calc
+                                    who = event_target = temp_war_ally_calc
                                 }
                                 divide_variable = {
                                     which = china_temp_troop_calc
@@ -1203,7 +1203,7 @@ china_sends_reinforcements = {
                                 export_to_variable = {
                                     which = china_temp_troop_calc
                                     value = realm_levies_plus_allies
-                                    who = event_target:temp_war_ally_calc
+                                    who = event_target = temp_war_ally_calc
                                 }
                                 divide_variable = {
                                     which = china_temp_troop_calc
@@ -1290,7 +1290,7 @@ china_sends_reinforcements = {
             }
         }
     }
-    event_target:enemy = {
+    event_target = enemy = {
         character_event = {
             id = JD.30047
         }

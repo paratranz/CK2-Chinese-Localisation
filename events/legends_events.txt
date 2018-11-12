@@ -431,7 +431,7 @@ narrative_event = {
             duration = 365
         }
         create_character = {
-            name = "Robin"  # Robin
+            name = "罗宾"  # Robin
             random_traits = no
             dynasty = random
             female = no
@@ -451,7 +451,7 @@ narrative_event = {
             save_event_target_as = marion_robin
         }
         create_character = {
-            name = "Marion"  # Marion
+            name = "玛丽安"  # Marion
             random_traits = no
             dynasty = random
             female = yes
@@ -1079,7 +1079,7 @@ narrative_event = {
             duration = 365
         }
         create_character = {
-            name = "Robin"  # Robin
+            name = "罗宾"  # Robin
             random_traits = no
             dynasty = random
             female = no
@@ -1099,7 +1099,7 @@ narrative_event = {
             save_event_target_as = marion_robin
         }
         create_character = {
-            name = "Marion"  # Marion
+            name = "玛丽安"  # Marion
             random_traits = no
             dynasty = random
             female = yes
@@ -1200,7 +1200,7 @@ narrative_event = {
             duration = 365
         }
         create_character = {
-            name = "Robin"  # Robin
+            name = "罗宾"  # Robin
             random_traits = no
             dynasty = random
             female = no
@@ -1220,7 +1220,7 @@ narrative_event = {
             save_event_target_as = marion_robin
         }
         create_character = {
-            name = "Marion"  # Marion
+            name = "玛丽安"  # Marion
             random_traits = no
             dynasty = random
             female = yes
@@ -1256,10 +1256,10 @@ narrative_event = {
     option = {
         name = "EVTOPTA10042"
         set_character_flag = robin_marion_married
-        event_target:marion_robin = {
-            add_spouse = event_target:robin_marion
+        event_target = marion_robin = {
+            add_spouse = event_target = robin_marion
             hidden_tooltip = {
-                add_lover = event_target:robin_marion
+                add_lover = event_target = robin_marion
             }
         }
     }
@@ -1721,7 +1721,7 @@ narrative_event = {
     is_triggered_only = yes
     option = {
         name = "EVTOPTA10107"
-        event_target:human_sacrifice = {
+        event_target = human_sacrifice = {
             death = {
                 death_reason = death_murder_fall
                 killer = ROOT
