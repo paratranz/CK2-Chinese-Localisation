@@ -7,8 +7,8 @@ EVTOPTB_JD_10023;[offmap_china.Governor.GetTitle]最终会发现的;;;;;;;;;;;;x
 gender_is_culturally_or_religiously_eligble_tt;The gender of §Y[Root.GetTitledName]§! is culturally or religiously eligible\n;;;;;;;;;;;;x
 special_gender_laws_active_tt;Special §YLaws§! or §YGame Rules§! are active\n;;;;;;;;;;;;x
 no_special_gender_laws_active_tt;Special §YLaws§! or §YGame Rules§! are NOT active\n;;;;;;;;;;;;x
-tribal_or_nomadic_government_tt;Has §YTribal§! or §YNomadic§! Government\n;;;;;;;;;;;;x
-has_liege_vassal_or_neighbor_of_norse_religion_tt;Has a §YLiege§!, §YVassal§!, or a §Yneighboring ruler§! who follows the §YGermanic§! faith\n;;;;;;;;;;;;x
+tribal_or_nomadic_government_tt;是§Y部落§!或§Y游牧§!政府\n;;;;;;;;;;;;x
+has_liege_vassal_or_neighbor_of_norse_religion_tt;拥有一位信奉§Y日耳曼多神教§!信仰的§Y领主§!，§Y封臣§!或一位§Y相邻的统治者§!\n;;;;;;;;;;;;x
 currency_name_warrior_lodge_norse;Renown;;;;;;;;;;;;x
 warrior_lodge_norse_rank_1_female;Fledgling;;;;;;;;;;;;x
 warrior_lodge_norse_rank_2_female;Warrior;;;;;;;;;;;;x
@@ -54,7 +54,7 @@ EVTDESC_HFP_10102_clumsy;[combatant_1.GetTitledFirstName]举剑向我发起了�
 EVTDESC_HFP_10102_elegant;[combatant_1.GetTitledFirstName]举起了[combatant_1.GetHerHis][combatant_1.GetDuelWeapon]向我发起了冲锋。我轻松的模仿着[combatant_1.GetHerHis]步伐，旁边的围观者已经在对着这场优雅的决斗窃窃私语，不，这已经变成一场舞蹈了。到最后，我们几乎同时倒在地上，身上受了一样重的伤，鲜血渐渐遮住了我们的双眼。;;;;;;;;;;;;x
 EVTOPTA_HFP_10102_default;至少我拉你做了垫背，傻逼。;;;;;;;;;;;;x
 EVTOPTA_HFP_10102_clumsy;啊啊啊啊！你！！呃啊啊啊啊啊！;;;;;;;;;;;;x
-EVTOPTA_HFP_10102_elegant;一个可敬的对手，到最后……我……呃……;;;;;;;;;;;;x
+EVTOPTA_HFP_10102_elegant;一个可敬的对手，直到最后也是如此……我……呃……;;;;;;;;;;;;x
 no_one_wins_the_duel_tt;没人赢了这场决斗。\n;;;;;;;;;;;;x
 you_win_the_duel_tt;你赢了这场决斗。\n;;;;;;;;;;;;x
 you_lose_the_duel_tt;你输了这场决斗。\n;;;;;;;;;;;;x
@@ -99,7 +99,7 @@ String_duel_for_honor;duel for honor;;;;;;;;;;;;x
 String_fight_for_glory;fight for glory;;;;;;;;;;;;x
 String_duel_to_the_death;duel to the death;;;;;;;;;;;;x
 String_demonstration_duel;demonstration duel;;;;;;;;;;;;x
-String_duel;duel;;;;;;;;;;;;x
+String_duel;决斗;;;;;;;;;;;;x
 String_blood_is_drawn;blood is drawn;;;;;;;;;;;;x
 String_one_of_us_lay_dead;one of us lay dead;;;;;;;;;;;;x
 String_one_of_us_yields_from_injury;one of us yields from injury;;;;;;;;;;;;x
@@ -134,8 +134,8 @@ String_body;身体;;;;;;;;;;;;x
 String_shoulder;肩膀;;;;;;;;;;;;x
 String_wooden_staff;wooden staff;;;;;;;;;;;;x
 String_practice_spear;dull spear;;;;;;;;;;;;x
-String_spear;spear;;;;;;;;;;;;x
-String_bare_hands;bare hands;;;;;;;;;;;;x
+String_spear;长矛;;;;;;;;;;;;x
+String_bare_hands;空手;;;;;;;;;;;;x
 String_my_artifact_weapon_1;[dueling_weapon_1.GetName];;;;;;;;;;;;x
 String_my_artifact_weapon_2;[dueling_weapon_2.GetName];;;;;;;;;;;;x
 String_injure_them;injure [This.GetHerHim];;;;;;;;;;;;x
@@ -738,51 +738,51 @@ Excellency;Excellency;;;;;;;;;;;;x
 Grace;Grace;;;;;;;;;;;;x
 Lordship;Lordship;;;;;;;;;;;;x
 Honorable;Honorable;;;;;;;;;;;;x
-uncrowned_modifier;Uncrowned;;;;;;;;;;;;x
-uncrowned_modifier_desc;A [catholic.GetName] ruler who has not been officially crowned by a member of the Church will never be fully accepted by his vassals as legitimate.\nThe more years he wastes before being anointed, the more likely his vassals will be to doubt the validity of his divine right to rule.;;;;;;;;;;;;x
-uncrowned_2;Uncrowned;;;;;;;;;;;;x
-uncrowned_2_desc;A [catholic.GetName] ruler who has not been officially crowned by a member of the Church will never be fully accepted by his vassals as legitimate.\nThe more years he wastes before being anointed, the more likely his vassals will be to doubt the validity of his divine right to rule.;;;;;;;;;;;;x
-uncrowned_3;Uncrowned;;;;;;;;;;;;x
-uncrowned_3_desc;A [catholic.GetName] ruler who has not been officially crowned by a member of the Church will never be fully accepted by his vassals as legitimate.\nThe more years he wastes before being anointed, the more likely his vassals will be to doubt the validity of his divine right to rule.;;;;;;;;;;;;x
-coronation_canceled;The Coronation Ceremony will be canceled.;;;;;;;;;;;;x
-EVTTITLE20200;The Coronation Ceremony;;;;;;;;;;;;x
-EVTDESCHF20200;The time has finally come for me to be officially recognized as [Root.GetTitle] of [Root.PrimaryTitle.GetName]. In order do this, I will need the support of the [Root.Religion.GetName] Church, but convincing authoritative members will neither be easy nor cheap. To begin the preparations, I should find a priest willing to crown me.;;;;;;;;;;;;x
-EVTOPTAHF20200;Only the Pope is fit to crown me!;;;;;;;;;;;;x
-EVTTOOLTIPHF20201;Write a letter to the Pope, requesting him to crown you §Y[Root.GetTitle]§! of §Y[Root.PrimaryTitle.GetName]§!.;;;;;;;;;;;;x
-EVTOPTBHF20200;Send for the most powerful Bishop in the realm!;;;;;;;;;;;;x
-EVTTOOLTIPBHF20200;Write a letter to the most influential and powerful [Root.Religion.GetName] Bishop in your realm, asking him to crown you §Y[Root.GetTitle]§! of §Y[Root.PrimaryTitle.GetName]§!.;;;;;;;;;;;;x
-EVTOPTCHF20200;Any priest will do.;;;;;;;;;;;;x
+uncrowned_modifier;尚未加冕;;;;;;;;;;;;x
+uncrowned_modifier_desc;一位[catholic.GetName]统治者尚未被教职人员正式加冕前将永远不会被他的封臣所认为是合法的。\n他在受膏之前浪费的时间越长，他的封臣就越有可能怀疑他那神授君权的合法性。;;;;;;;;;;;;x
+uncrowned_2;尚未加冕;;;;;;;;;;;;x
+uncrowned_2_desc;一位[catholic.GetName]统治者尚未被教职人员正式加冕前将永远不会被他的封臣所认为是合法的。\n他在受膏之前浪费的时间越长，他的封臣就越有可能怀疑他那神授君权的合法性。;;;;;;;;;;;;x
+uncrowned_3;尚未加冕;;;;;;;;;;;;x
+uncrowned_3_desc;一位[catholic.GetName]统治者尚未被教职人员正式加冕前将永远不会被他的封臣所认为是合法的。\n他在受膏之前浪费的时间越长，他的封臣就越有可能怀疑他那神授君权的合法性。;;;;;;;;;;;;x
+coronation_canceled;加冕礼将被取消。;;;;;;;;;;;;x
+EVTTITLE20200;加冕礼;;;;;;;;;;;;x
+EVTDESCHF20200;现在是正式承认我作为[Root.PrimaryTitle.GetName]的[Root.GetTitle]的时候了。为了做到这一点，我需要得到[Root.Religion.GetName]教会的支持，但令人信服的教员的加冕既不容易也不便宜。为了开始筹划加冕礼，我应该去找一个愿意为我加冕的牧师。;;;;;;;;;;;;x
+EVTOPTAHF20200;只有教宗才适合为我加冕！;;;;;;;;;;;;x
+EVTTOOLTIPHF20201;给教宗写信，请求他加冕我为§Y[Root.PrimaryTitle.GetName]§!的§Y[Root.GetTitle]§!。;;;;;;;;;;;;x
+EVTOPTBHF20200;让领地上最具权威的主教来吧！;;;;;;;;;;;;x
+EVTTOOLTIPBHF20200;给领地里最具权威的[Root.Religion.GetName]主教写信，请求他假面我为§Y[Root.PrimaryTitle.GetName]§!的§Y[Root.GetTitle]§!。;;;;;;;;;;;;x
+EVTOPTCHF20200;随便哪个牧师都行。;;;;;;;;;;;;x
 EVTTOOLTIPCHF20200;Write a letter to a minor Bishop, asking him to crown you §Y[Root.GetTitle]§! of §Y[Root.PrimaryTitle.GetName]§!. \nThough a less prestigious choice than others, doing so will at least placate your vassals and will be less likely to bankrupt your realm.;;;;;;;;;;;;x
-EVTOPTDHF20200;Maybe this is not the right time...;;;;;;;;;;;;x
-EVTDESCHFA20201;[From.GetFullName] wishes me to crown [From.GetHerHim] [From.GetTitle] of [From.PrimaryTitle.GetName]. What do I wish to ask [From.GetHerHim] in return?;;;;;;;;;;;;x
-EVTOPTAHF20201;Little to nothing.;;;;;;;;;;;;x
-EVTOPTBHF20201;A reasonable request.;;;;;;;;;;;;x
-EVTOPTCHF20201;I AM THE POPE! I WANT ALL OF THE STUFF!;;;;;;;;;;;;x
-EVTDESCHFA20202;To the Excellent [Root.GetTitledName],\nI shall be honored to officiate [Root.GetHerHisCap] [Root.GetHonorific]'s coronation. I eagerly await [Root.GetHerHisCap] [Root.GetHonorific]'s instructions regarding date and manner of the ceremony in order to better prepare myself for this sacred duty.\n\nEver [Root.GetHerHisCap] [Root.GetHonorific]'s servant\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20202;Marvelous.;;;;;;;;;;;;x
+EVTOPTDHF20200;也许现在不是一个好时机.....;;;;;;;;;;;;x
+EVTDESCHFA20201;[From.GetFullName]希望我加冕[From.GetHerHim]为[From.PrimaryTitle.GetName]的[From.GetTitle]。我应该向[From.GetHerHim]要求什么作为回报呢？;;;;;;;;;;;;x
+EVTOPTAHF20201;一点小小的回报吧。;;;;;;;;;;;;x
+EVTOPTBHF20201;一个合理的要求。;;;;;;;;;;;;x
+EVTOPTCHF20201;我是教宗！我想要他所有的一切！;;;;;;;;;;;;x
+EVTDESCHFA20202;致优秀的[Root.GetTitledName]，\n我很荣幸能够主持[Root.GetHerHisCap][Root.GetHonorific]的加冕礼。我急切地期待着[Root.GetHerHisCap][Root.GetHonorific]关于仪式的日期和方式的说明，以便更好地为这一神圣的职责做好准备。\n\n[Root.GetHerHisCap][Root.GetHonorific]永远的仆人\n[From.GetTitledName];;;;;;;;;;;;x
+EVTOPTAHF20202;棒极了。;;;;;;;;;;;;x
 EVTDESCHFA20203;To the Excellent [Root.GetTitledName],\nI shall be honored to officiate [Root.GetHerHisCap] [Root.GetHonorific]'s coronation, provided that [Root.GetHerHisCap] [Root.GetHonorific] donates a small sum of money to the Holy Mother Church as a show of [Root.GetHerHisCap] devotion.\n\nEver [Root.GetHerHis] [Root.GetHonorific]'s servant\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20203;Understandable.;;;;;;;;;;;;x
-EVTOPTBHF20203;I have no money to spare!;;;;;;;;;;;;x
+EVTOPTAHF20203;可以理解。;;;;;;;;;;;;x
+EVTOPTBHF20203;我没有多余的钱！;;;;;;;;;;;;x
 EVTDESCHFA20204;To the Excellent [Root.GetTitledName],\nI shall be honored to officiate [Root.GetHerHisCap] [Root.GetHonorific]'s coronation, provided that [Root.GetHerHisCap] [Root.GetHonorific] donates a sizable sum of money to the church of [From.Capital.GetName] as a show of [Root.GetHerHisCap] devotion.\n\nEver [Root.GetHerHis] [Root.GetHonorific]'s servant\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20204;Very well.;;;;;;;;;;;;x
-EVTOPTBHF20204;I have no such money to spare.;;;;;;;;;;;;x
+EVTOPTAHF20204;那好吧。;;;;;;;;;;;;x
+EVTOPTBHF20204;我没有这么多钱。;;;;;;;;;;;;x
 EVTDESCHFA20205;To the Excellent [Root.GetTitledName],\nI shall be honored to officiate [Root.GetHerHisCap] [Root.GetHonorific]'s coronation, provided that [Root.GetHerHisCap] [Root.GetHonorific] donates a sizable sum of money to the [From.Religion.GetName] Church as a show of [Root.GetHerHisCap] devotion.\n\nEver [Root.GetHerHis] [Root.GetHonorific]'s servant\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20205;Very well.;;;;;;;;;;;;x
-EVTOPTBHF20205;I have no such money to spare.;;;;;;;;;;;;x
+EVTOPTAHF20205;那好吧。;;;;;;;;;;;;x
+EVTOPTBHF20205;我没有这么多钱。;;;;;;;;;;;;x
 EVTDESCHFA20206;To the Excellent [Root.GetTitledName],\nI shall be honored to officiate [Root.GetHerHisCap] [Root.GetHonorific]'s coronation, provided that [Root.GetHerHisCap] [Root.GetHonorific] show [Root.GetHerHisCap] devotion by allowing the Holy Mother Church to initiate one of [Root.GetHerHisCap] children to the blessed life of monastic seclusion.\n\nEver [Root.GetHerHis] [Root.GetHonorific]'s servant\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20206;Very well.;;;;;;;;;;;;x
-EVTOPTBHF20206;No child of mine will waste his life in a monastery!;;;;;;;;;;;;x
+EVTOPTAHF20206;那好吧。;;;;;;;;;;;;x
+EVTOPTBHF20206;我的孩子不会在修道院里浪费他的一生！;;;;;;;;;;;;x
 EVTDESCHFA20207;To the Excellent [Root.GetTitledName],\nI shall be honored to officiate [Root.GetHerHisCap] [Root.GetHonorific]'s coronation, provided that [Root.GetHerHisCap] [Root.GetHonorific] show [Root.GetHerHisCap] devotion by allowing one of [Root.GetHerHisCap] sons to do his part in the sacred war against the infidels by joining one of our Holy Orders.\n\nEver [Root.GetHerHis] [Root.GetHonorific]'s servant\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20207;Very well.;;;;;;;;;;;;x
-EVTOPTBHF20207;I will not risk my son's life for a crown.;;;;;;;;;;;;x
+EVTOPTAHF20207;那好吧。;;;;;;;;;;;;x
+EVTOPTBHF20207;我不会为了那顶皇冠拿我儿子的生命冒险。;;;;;;;;;;;;x
 EVTDESCHFA20208;To the Excellent [Root.GetTitledName],\nI shall be honored to officiate [Root.GetHerHisCap] [Root.GetHonorific]'s coronation, provided that [Root.GetHerHisCap] [Root.GetHonorific] show [Root.GetHerHisCap] devotion by organizing a private feast in honor of an ardent servant of the Church such as I am.\n\nEver [Root.GetHerHis] [Root.GetHonorific]'s servant\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20208;Very well.;;;;;;;;;;;;x
+EVTOPTAHF20208;那好吧。;;;;;;;;;;;;x
 EVTOPTBHF20208;I will not be part of whatever debauchery [From.GetSheHe] has in mind!;;;;;;;;;;;;x
 EVTDESCHFA20209;To the Excellent [Root.GetTitledName],\nI shall be honored to officiate [Root.GetHerHisCap] [Root.GetHonorific]'s coronation, provided that [Root.GetHerHisCap] [Root.GetHonorific] show [Root.GetHerHisCap] devotion by expanding the borders of the Bishopric of [From.Capital.GetName].\n\nEver [Root.GetHerHis] [Root.GetHonorific]'s servant\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20209;Very well.;;;;;;;;;;;;x
+EVTOPTAHF20209;那好吧。;;;;;;;;;;;;x
 EVTOPTBHF20209;[From.GetSheHeCap] has enough land as it is.;;;;;;;;;;;;x
 EVTDESCHFA20210;To the Excellent [Root.GetTitledName],\nI shall be honored to officiate [Root.GetHerHisCap] [Root.GetHonorific]'s coronation, provided that [Root.GetHerHisCap] [Root.GetHonorific] show [Root.GetHerHisCap] devotion by joining me as a pious member of the [From.Society.GetName].\n\nEver [Root.GetHerHis] [Root.GetHonorific]'s servant\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20210;Very well.;;;;;;;;;;;;x
+EVTOPTAHF20210;那好吧。;;;;;;;;;;;;x
 EVTOPTBHF20210;I will not be part of your Order.;;;;;;;;;;;;x
 EVTOPTAHF20211;Let us be equal then.;;;;;;;;;;;;x
 EVTOPTBHF20211;Pope or Duke, you are still my vassal.;;;;;;;;;;;;x
@@ -15913,7 +15913,7 @@ PROV1927;Opava;;;;;;;;;;;;x
 PROV1928;Amastris;;;;;;;;;;;;x
 PROV1929;Kastamon;;;;;;;;;;;;x
 PROV1930;Claudiopolis;;;;;;;;;;;;x
-PROV1931;Amorion;;;;;;;;;;;;x
+PROV1931;阿莫里翁;;;;;;;;;;;;x
 PROV1932;Akroinon;;;;;;;;;;;;x
 PROV1933;Nyssa;;;;;;;;;;;;x
 PROV1934;Charsianon;;;;;;;;;;;;x
