@@ -3,7 +3,7 @@ EVTDESC_JD_10023_death;During [From.GetHerHis] visit, [From.GetTitledName], the 
 EVTDESC_JD_10023_prison;During [From.GetHerHis] visit, [From.GetTitledName], on a diplomatic mission from [offmap_china.Governor.GetTitledFirstName], has been imprisoned! I am not sure how to phrase the letter to the Protector General, but this obviously means that [From.GetHerHis] visit is canceled.;;;;;;;;;;;;x
 EVTDESC_JD_10023_missing;During [From.GetHerHis] visit, [From.GetTitledName], the [From.GetJobTitle] sent from [offmap_china.Governor.GetTitledFirstName], has gone missing! I am not sure how to phrase the letter to the Protector General, but this obviously means that [From.GetHerHis] visit is canceled.;;;;;;;;;;;;x
 EVTOPTA_JD_10023;I shall have my scribes compose a letter to the [offmap_china.Governor.GetTitle].;;;;;;;;;;;;x
-EVTOPTB_JD_10023;The [offmap_china.Governor.GetTitle] will find out eventually.;;;;;;;;;;;;x
+EVTOPTB_JD_10023;[offmap_china.Governor.GetTitle]最终会发现的;;;;;;;;;;;;x
 gender_is_culturally_or_religiously_eligble_tt;The gender of §Y[Root.GetTitledName]§! is culturally or religiously eligible\n;;;;;;;;;;;;x
 special_gender_laws_active_tt;Special §YLaws§! or §YGame Rules§! are active\n;;;;;;;;;;;;x
 no_special_gender_laws_active_tt;Special §YLaws§! or §YGame Rules§! are NOT active\n;;;;;;;;;;;;x
@@ -18,41 +18,41 @@ warrior_lodge_norse_rank_1_male;Fledgling;;;;;;;;;;;;x
 warrior_lodge_norse_rank_2_male;Warrior;;;;;;;;;;;;x
 warrior_lodge_norse_rank_3_male;Veteran;;;;;;;;;;;;x
 warrior_lodge_norse_rank_4_male;Hero;;;;;;;;;;;;x
-warrior_lodge_duel;Duel;;;;;;;;;;;;x
+warrior_lodge_duel;决斗;;;;;;;;;;;;x
 warrior_lodge_duel_power_desc;The decision to Duel your foes becomes available.;;;;;;;;;;;;x
-warrior_lodge_shieldmaiden;Shieldmaidens;;;;;;;;;;;;x
-warrior_lodge_shieldmaiden_power_desc;The decision to appoint somebody a Shieldmaiden becomes available, provided she is your sister or daughter.;;;;;;;;;;;;x
+warrior_lodge_shieldmaiden;盾娘;;;;;;;;;;;;x
+warrior_lodge_shieldmaiden_power_desc;让某人成为盾娘的决议现在可用，她必须是你的姐妹或者女儿。;;;;;;;;;;;;x
 warrior_lodge_survivor;Survivor;;;;;;;;;;;;x
 warrior_lodge_survivor_power_desc;You are more resilient to battle injuries.;;;;;;;;;;;;x
 warrior_lodge_lifetime_of_war;Lifetime of War;;;;;;;;;;;;x
 warrior_lodge_lifetime_of_war_power_desc;When leading troops, your experience gives you access to new events on the field of battle.;;;;;;;;;;;;x
-warrior_lodge_norse_go_berserk;Go Berserk;;;;;;;;;;;;x
+warrior_lodge_norse_go_berserk;变成狂战士;;;;;;;;;;;;x
 warrior_lodge_norse_go_berserk_power_desc;Enables §Gright-clicking§! on your own character portrait to give yourself the §YBerserker§! trait.;;;;;;;;;;;;x
-warrior_lodge_reaver;Reaver;;;;;;;;;;;;x
-warrior_lodge_reaver_power_desc;When leading armies and successfully sieging holdings, you have a greater chance of capturing enemies and looting artifacts from the holder.;;;;;;;;;;;;x
-warrior_lodge_warrior_training;Warrior Training;;;;;;;;;;;;x
-warrior_lodge_warrior_training_desc;As you are a member of a §YWarrior Lodge§!, you can undergo rigorous training to achieve new abilities on the battlefield.;;;;;;;;;;;;x
-warrior_lodge_warrior_training_power_desc;Enables §Gright-clicking§! on your own character portrait, in order to give yourself a special Commander trait.;;;;;;;;;;;;x
-warrior_lodge_summon_commander_desc;As you are a member of a §YWarrior Lodge§!, you can request that a special Commander be summoned to your court.;;;;;;;;;;;;x
-warrior_lodge_summon_commander_power_desc;Enables a decision in the §YIntrigue§! menu, to summon a special Commander character to your court.;;;;;;;;;;;;x
+warrior_lodge_reaver;掠夺者;;;;;;;;;;;;x
+warrior_lodge_reaver_power_desc;当你领兵围城时，你成功捕获敌方领主和掠得宝物的几率将会提升。;;;;;;;;;;;;x
+warrior_lodge_warrior_training;战士训练;;;;;;;;;;;;x
+warrior_lodge_warrior_training_desc;因为你是§Y战士小屋§!的一员，现在你可以通过一系列严苛的训练来获得战场上的新能力。;;;;;;;;;;;;x
+warrior_lodge_warrior_training_power_desc;允许§G右键点击§!你的头像来赋予你自己一个新的指挥官特质。;;;;;;;;;;;;x
+warrior_lodge_summon_commander_desc;因为你是§Y战士小屋§!的一员，你可以召唤一个特殊的指挥官到你的宫廷。;;;;;;;;;;;;x
+warrior_lodge_summon_commander_power_desc;§Y密谋§!菜单中的新决议已可用，你可以召唤一个特殊的指挥官到你的宫廷。;;;;;;;;;;;;x
 warrior_lodge_inspire_warriors;Inspire Warriors;;;;;;;;;;;;x
-warrior_lodge_inspire_warriors_desc;If a Holding does not have a full Garrison or Levy, you can choose to instantly refill it.;;;;;;;;;;;;x
-warrior_lodge_inspire_warriors_power_desc;Enables you to §Gright-click§! on a holding, in order to instantly refill its Garrison.;;;;;;;;;;;;x
-warrior_lodge_indomitable;Indomitable;;;;;;;;;;;;x
-warrior_lodge_indomitable_power_desc;While leading armies, you no longer suffer lethal injuries from the battles.;;;;;;;;;;;;x
-warrior_lodge_choose_military_aspect;Choose Military Aspect;;;;;;;;;;;;x
-warrior_lodge_choose_military_aspect_desc;Choose to focus on one of the three military aspects. Doing so will allow you to choose a Lifestyle trait.;;;;;;;;;;;;x
-warrior_lodge_choose_military_aspect_power_desc;Enables §Gright-clicking§! on your character portrait, in order to choose one of the three different military specializations.;;;;;;;;;;;;x
-EVTDESC_HFP_10101_default;"It's over!" I shout, as [combatant_2.GetTitledFirstName] staggers backwards, clutching at a clearly fatal wound to [combatant_2.GetHerHis] stomach. I turn to face the crowd. "Yield, or-" I continue, but my command is cut short, the taste of blood filling my mouth. My opponent drops [combatant_2.GetHerHis] bloodied [combatant_2.GetDuelWeapon], mumbling: "Now – it's over".;;;;;;;;;;;;x
-EVTDESC_HFP_10101_clumsy;Weapon raised, I charge at [combatant_2.GetTitledFirstName], but I trip on something! Flailing, I tumble over my opponent, who stares in disbelief as I pierce myself on [combatant_2.GetHerHis] weapon. Out of options, I wring my arm around the [combatant_2.GetManWoman]'s neck, [combatant_2.GetHerHis] eyes wild with horror.;;;;;;;;;;;;x
-EVTDESC_HFP_10101_elegant;I charge at [combatant_2.GetTitledFirstName], raising my [combatant_1.GetDuelWeapon]. My opponent mimics my movements with ease, as onlookers begin to whisper about the elegant duel, nay, the dance, they are witnessing. In the end, I can't deny the pain. and find myself on the ground, [combatant_2.GetTitledFirstName]'s hollow eyes staring back at me.;;;;;;;;;;;;x
-EVTOPTA_HFP_10101_default;No.. What did you do...?!;;;;;;;;;;;;x
-EVTOPTA_HFP_10101_clumsy;I... Refuse... To die alone...!;;;;;;;;;;;;x
+warrior_lodge_inspire_warriors_desc;如果一个地产中的守备队和征召兵没有满，你可以选择瞬间将其补充完毕。;;;;;;;;;;;;x
+warrior_lodge_inspire_warriors_power_desc;允许你在一个地产上§G点击右键§!来将其内部的守备队和征召兵瞬间补充满。;;;;;;;;;;;;x
+warrior_lodge_indomitable;不屈的;;;;;;;;;;;;x
+warrior_lodge_indomitable_power_desc;当率领部队时，你再也不会在战场上受到致命伤。;;;;;;;;;;;;x
+warrior_lodge_choose_military_aspect;选择一个军事信条;;;;;;;;;;;;x
+warrior_lodge_choose_military_aspect_desc;在三种军事信条中选择你的重心。这样做可以让你选择一种生活方式特质。;;;;;;;;;;;;x
+warrior_lodge_choose_military_aspect_power_desc;允许在你的角色头像上§G右键点击§!以选择三种不同的军事特长的其中之一。;;;;;;;;;;;;x
+EVTDESC_HFP_10101_default;正当[combatant_2.GetTitledFirstName]晕眩着往后退，紧紧捂着[combatant_2.GetHerHis]肚子上清晰可见的致命伤时，我喊道：「一切都结束了！」。我转身面对人群。「投降！或者————」满嘴血腥味的我还在讲话时，还没等我说完。我的对手就扔下[combatant_2.GetHerHis]血迹斑斑的[combatant_2.GetDuelWeapon]，咕哝道：「现在——一切都结束了」。;;;;;;;;;;;;x
+EVTDESC_HFP_10101_clumsy;武器已经举起，我向[combatant_2.GetTitledFirstName]发起了冲锋，但是被什么东西绊倒了。我在对手面前就这样摔倒了，他一脸难以置信的看着我，因为我竟然自己凑到[combatant_2.GetHerHis]武器上去。我现在已经无计可施，所以用双手紧紧缠住[combatant_2.GetManWoman]的脖子，[combatant_2.GetHerHis]眼睛里瞬间被恐惧填满。;;;;;;;;;;;;x
+EVTDESC_HFP_10101_elegant;我举起我的[combatant_1.GetDuelWeapon]向[combatant_2.GetTitledFirstName]发起了冲锋。我的对手轻松地模仿我的步伐，旁边的围观者已经在对着这场优雅的决斗窃窃私语，不，这已经变成一场舞蹈了。到最后，我已经承受不住身体里巨大的伤痛，直挺挺的倒在了地上，[combatant_2.GetTitledFirstName]那双恐怖的眼睛直勾勾的盯着我的后背。;;;;;;;;;;;;x
+EVTOPTA_HFP_10101_default;不……你都干了些什么……？！;;;;;;;;;;;;x
+EVTOPTA_HFP_10101_clumsy;我……我拒绝……就这样孤单的死去……！;;;;;;;;;;;;x
 EVTOPTA_HFP_10101_elegant;So this is how it ends. It was... My honor, [other_combatant.GetSisterBrother].;;;;;;;;;;;;x
-EVTDESC_HFP_10102_default;"Yield!" [combatant_1.GetTitledFirstName] shouts at me. I stagger, clutching at my stomach. My vision blurs – the wound must be fatal. My mind races as my opponent turns away to accept the cheers of the crowd. My grip is wet from sweat, or blood, but I charge. "Yield, or-" [combatant_1.GetSheHe] continues, but the command is cut short, my weapon having served its purpose. Then my knees give way and it all goes dark.;;;;;;;;;;;;x
-EVTDESC_HFP_10102_clumsy;[combatant_1.GetTitledFirstName] charges at me, sword raised, but trips on something. Flailing, [combatant_1.GetSheHe] is tumbling down on me, piercing [combatant_1.GetHerselfHimself] on my weapon. When the [combatant_1.GetManWoman] then begins clutching at my throat, I suddenly can't breathe – I am stuck staring in horror, into [combatant_1.GetHerHis] mad eyes.;;;;;;;;;;;;x
-EVTDESC_HFP_10102_elegant;[combatant_1.GetTitledFirstName] charges at me, raising [combatant_1.GetHerHis] [combatant_1.GetDuelWeapon]. I mimic [combatant_1.GetHerHis] movements with ease, as onlookers begin to whisper about the elegant duel, nay, the dance, they are witnessing. It is almost as synchronized when we both eventually collapse, wounds deep, blood clouding our sight.;;;;;;;;;;;;x
-EVTOPTA_HFP_10102_default;At least I took you down with me, fool.;;;;;;;;;;;;x
+EVTDESC_HFP_10102_default;「投降！」[combatant_1.GetTitledFirstName]对着我大喊。我只感到天旋地转，紧紧捂着我的肚子。我的视线开始变的模糊，刚才受的肯定是致命伤。正当我的对手转身接受人群的欢呼时，我的思绪开始飞奔。我的剑柄已经被汗水湿透，亦或是我自己的血，但是我依然想站起来冲锋。「投降！或者————」[combatant_1.GetSheHe]依然在继续命令我，但是还没等他说完，我的武器就已经完全不能用了。我的双膝最终屈服了，接着，眼前的世界就变黑了。;;;;;;;;;;;;x
+EVTDESC_HFP_10102_clumsy;[combatant_1.GetTitledFirstName]举剑向我发起了冲锋，但是他好像被什么东西绊倒了。瞬时间，[combatant_1.GetSheHe]的双手开始挥舞以保持平衡，但是还是在我面前摔倒了，并把[combatant_1.GetHerselfHimself]送到了我的刀尖上。当[combatant_1.GetManWoman]突然开始紧紧掐住我的喉咙时，我霎时间无法呼吸————我被[combatant_1.GetHerHis]可怕的眼神给震住了。;;;;;;;;;;;;x
+EVTDESC_HFP_10102_elegant;[combatant_1.GetTitledFirstName]举起了[combatant_1.GetHerHis][combatant_1.GetDuelWeapon]向我发起了冲锋。我轻松的模仿着[combatant_1.GetHerHis]步伐，旁边的围观者已经在对着这场优雅的决斗窃窃私语，不，这已经变成一场舞蹈了。到最后，我们几乎同时倒在地上，身上受了一样重的伤，鲜血渐渐遮住了我们的双眼。;;;;;;;;;;;;x
+EVTOPTA_HFP_10102_default;至少我拉你做了垫背，傻逼。;;;;;;;;;;;;x
 EVTOPTA_HFP_10102_clumsy;Wha-! You-! Ggghrrrhh...;;;;;;;;;;;;x
 EVTOPTA_HFP_10102_elegant;A worthy opponent, to the end... I... Nnnggh...;;;;;;;;;;;;x
 no_one_wins_the_duel_tt;No one wins the duel.\n;;;;;;;;;;;;x
