@@ -62,7 +62,7 @@ EVTOPTE_ZE_12000;我会看到他因这么跟我说话受到惩罚的！;;;;;;;;;
 EVTOPTF_ZE_12000;我会优雅地点点头接受恭维。;;;;;;;;;;;;x
 EVTOPTE_ZE_12000_TOOLTIP1;农民很生气。;;;;;;;;;;;;x
 EVTOPTE_ZE_12000_TOOLTIP2;农民屈服了。;;;;;;;;;;;;x
-EVTOPTC_ZE_12000;相反我会捡起一根棍子来打他！;;;;;;;;;;;;x
+EVTOPTC_ZE_12000;I'll pick up a stick and beat [haughty_events_char_1.GetHerHim] instead!;;;;;;;;;;;;x
 EVTOPTD_ZE_12000;我想加入！;;;;;;;;;;;;x
 EVTDESCA_ZE_12002;当我正与诱人的厨师度过一个愉快的时刻时，那讨厌的孩子[From.GetFirstName]碰见了我们并立刻以道德指责我！;;;;;;;;;;;;x
 EVTDESCB_ZE_12002;当我正与诱人的厨师度过一个愉快的时刻时，年轻的[From.GetFirstName]碰见了我们。然而，[From.GetSheHe]只是对我们眨了眨眼就溜走了。;;;;;;;;;;;;x
@@ -286,7 +286,7 @@ curious_may_become_patient;让[From.GetFirstName]变得耐心的机会。;;;;;;;
 EVTDESCA_ZE_13104;[From.GetTitledFirstName]认为我不该太快质疑神职人员的说法。;;;;;;;;;;;;x
 EVTDESCB_ZE_13104;我喜欢学习模仿外国习俗，但是[From.GetTitledFirstName]觉得我该更加注重我们自己的价值美德。;;;;;;;;;;;;x
 EVTDESCC_ZE_13104;[From.GetTitledFirstName]似乎觉得我聪明过头了，或者[From.GetSheHe]是这么说的。;;;;;;;;;;;;x
-EVTOPTA_ZE_13104;[From.GetSheHe]是对的，我该静一静。;;;;;;;;;;;;x
+EVTOPTA_ZE_13104;[From.GetSheHeCap] is right, I should calm down.;;;;;;;;;;;;x
 EVTOPTB_ZE_13104;嘛，一帮傻瓜！;;;;;;;;;;;;x
 EVTOPTC_ZE_13104;[From.GetSheHe]是不是对这世界毫无兴趣？;;;;;;;;;;;;x
 EVTOPTD_ZE_13104;[From.GetHerHim]聪明过头了，大概。;;;;;;;;;;;;x
@@ -451,7 +451,7 @@ EVTOPTA_ZE_12030_TOOLTIP1;事态升级了……\n;;;;;;;;;;;;x
 EVTOPTB_ZE_12030;这无所谓，[rowdy_events_char_1.GetSheHe]可以赢。;;;;;;;;;;;;x
 EVTOPTC_ZE_12030;我得问问[rowdy_events_char_1.GetHerHim]！;;;;;;;;;;;;x
 EVTOPTD_ZE_12030;或者我们就玩玩骰子算了。;;;;;;;;;;;;x
-EVTDESCA_ZE_12032;[From.GetFirstName]生我的气是因为我总是在游戏里赢过[rowdy_events_char_1.GetHerHim]。;;;;;;;;;;;;x
+EVTDESCA_ZE_12032;[From.GetFirstName] is angry with me because I am always winning against [From.GetHerHim] in games.;;;;;;;;;;;;x
 EVTDESCB_ZE_12032;[From.GetFirstName]似乎不介意在游戏中让我获胜。;;;;;;;;;;;;x
 EVTDESCC_ZE_12032;[From.GetFirstName]兴奋地问我愿不愿意一起干点被禁止的事，诸如恶作剧一类的事。;;;;;;;;;;;;x
 EVTDESCD_ZE_12032;[From.GetFirstName]问我愿不愿意玩玩骰子。;;;;;;;;;;;;x
@@ -610,13 +610,12 @@ TERMS_OF_USE;使用条款;;;;;;;;;;;;x
 PRIVACY_POLICY;隐私权政策;;;;;;;;;;;;x
 REQUIRED_FIELD_DESCRIPTION;§R* §!必填项;;;;;;;;;;;;x
 ONE_MOMENT;稍候……;;;;;;;;;;;;x
-NOT_READ_TOS_ERROR;§R您创建账号前必须先阅读使用条款§!;;;;;;;;;;;;x
 MISSING_REQUIRED_FIELD;§R您有必填项没有填写§!;;;;;;;;;;;;x
 INVALID_EMAIL;§R电子邮箱地址不可用§!;;;;;;;;;;;;x
 PASSWORDS_DONT_MATCH;§R密码不匹配§!;;;;;;;;;;;;x
 INVALID_PASSWORD;§R密码不可用§!;;;;;;;;;;;;x
 PASSWORD_DONT_MATCH;§R密码不匹配§!;;;;;;;;;;;;x
-WRONG_DOB_FORMAT;出生日期不可用;;;;;;;;;;;;x
+WRONG_DOB_FORMAT;§R出生日期不可用§!;;;;;;;;;;;;x
 SUCCESS_VERIFICATION_EMAIL_SENT;帐号已创建。一个验证电子邮件已发送给您。;;;;;;;;;;;;x
 SERVER_ERROR;服务器错误;;;;;;;;;;;;x
 COULD_NOT_FIND_ACCOUNT;找不到帐号。;;;;;;;;;;;;x
@@ -1063,7 +1062,7 @@ EVTOPTD_ZE_12080;没人会发现的！;;;;;;;;;;;;x
 EVTOPTE_ZE_12080;我必须回去找找。;;;;;;;;;;;;x
 EVTOPTF_ZE_12080;我可以在我回去后解释清楚。;;;;;;;;;;;;x
 EVTOPTE_ZE_12080_TOOLTIP1;得病;;;;;;;;;;;;x
-EVTOPTE_ZE_12080_TOOLTIP2;成功发现;;;;;;;;;;;;x
+EVTOPTE_ZE_12080_TOOLTIP2;Successful find;;;;;;;;;;;;x
 EVTDESCA_ZE_12082;当我走进我的房间时，我闲余时间所做的所有工作看起来都被清理和摆回原位。书籍被按照字母顺序整齐排列而笔记都被扔掉。[From.GetFullName]明显「打扫」过了我的房间。;;;;;;;;;;;;x
 EVTDESCB_ZE_12082;晚餐之后，我和[From.GetFirstName]被强迫去清洗餐具。但是我很聪明地把餐具藏了起来，直到[From.GetFirstName]告发了我而现在我不得不清洗全部。;;;;;;;;;;;;x
 EVTDESCC_ZE_12082;晚餐之后，我和[From.GetFirstName]要去清洗餐具。但是我们把所有的餐具藏到了谁都找不到的地方，现在我们可以玩一整个晚上了。;;;;;;;;;;;;x
@@ -1381,7 +1380,6 @@ LAWS_TAB_OBLIGATIONS;义务;;;;;;;;;;;;x
 LAWS_TAB_REALM;国土;;;;;;;;;;;;x
 TAX;税收;;;;;;;;;;;;x
 LEVY;征召兵;;;;;;;;;;;;x
-INTERACTION_REQUIRES_COUNCIL_APPROVAL;需要被你的内阁批准;;;;;;;;;;;;x
 COUNCIL_VOTER_NAME;$VOTER_TITLE$\n[GetFirstName];;;;;;;;;;;;x
 title_councilmember_king;顾问;;;;;;;;;;;;x
 title_councilmember_emperor;顾问;;;;;;;;;;;;x
@@ -1512,7 +1510,6 @@ RESIGN_COMMANDER_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!已经解除了
 EVTDESCdiploresponse.1;我，[From.GetBestName]，接受你组建同盟的提议！;;;;;;;;;;;;x
 EVTDESCdiploresponse.2;[From.GetBestName]，很遗憾不得不拒绝你组建同盟的提议！;;;;;;;;;;;;x
 EVTOPTC_ZE_12002;我一会儿应该给[From.GetHerHim]带些糖来。;;;;;;;;;;;;x
-EVTDESC_ZE_3001;一位商人来到了宫廷，并恳切请求为[target_treasurer.GetTitledFirstName]最近的一笔贷款作出偿还计划。似乎[target_treasurer.GetHerHis]劳动成果可能被夸大了，而这笔贷款是登记在你的名下，你必须要连本带息偿还债务。对于[target_treasurer.GetTitledFirstName]会有什么后果呢？;;;;;;;;;;;;x
 EVTDESC_ZE_8000;[target_spouse.GetTitledName]，[target_ruler.GetTitledName]的[target_spouse.GetHusbandWife]，已经在[capital.GetName]停留了数日。和[target_spouse.GetHerHim]的会面非常地愉快——也许我们两地的人民并没有什么不同。;;;;;;;;;;;;x
 EVTDESC_ZE_8001;亲爱的[target_ruler.GetTitledName]，\n在你的[target_ruler.GetHusbandWifeOpp]最近来访[capital.GetName]的过程中，我们非常愉快地交谈了我们两地人民的相似性。我建议最近双方签订一项互不侵犯条约，我们会非常欢迎你们领地的访客。\n\n热情的问候，\n[From.GetTitledFirstName];;;;;;;;;;;;x
 EVTDESC_ZE_8002;亲爱的[Root.GetTitledName]，\n\n如果这项协议可以让我们两地人民更好的互相了解，我会愿意开放边界给来自您领地中的访客。\n\n您真诚的，\n[target_ruler.GetTitledName]。;;;;;;;;;;;;x
@@ -1657,7 +1654,6 @@ duchy_russian;大公国;;;;;;;;;;;;x
 empire_russian;沙皇国;;;;;;;;;;;;x
 gov_revolt;[PrimaryTitle.GetAdjective]叛乱;;;;;;;;;;;;x
 gov_romuva_eldership;[Religion.GetName]长老区;;;;;;;;;;;;x
-gov_noble_romuva_eldership;贵族[Religion.GetName]长老区;;;;;;;;;;;;x
 gov_norse_chiefdom;[Religion.GetName][PrimaryTitle.GetTier];;;;;;;;;;;;x
 gov_noble_norse_chiefdom;贵族[Religion.GetName][PrimaryTitle.GetTier];;;;;;;;;;;;x
 gov_muslim_chiefdom;[Religion.GetGroupName][PrimaryTitle.GetTier];;;;;;;;;;;;x

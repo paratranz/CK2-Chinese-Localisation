@@ -6,6 +6,14 @@
         graphical_cultures = {
             norsegfx
         }
+        alternate_start = {
+            OR = {
+                year < 1000  has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
+        }
         color = {
             0.3
             0.55
@@ -28,7 +36,7 @@
             "巴里德"  # Barid
             "本格特_贝内迪克特"  # Bengt_Benedict
             "贝尔西"  # Bersi
-            "贝尔提尔"  # Bertil
+            "Bertil_Berthold"
             "比尔格尔"  # Birger
             "比约恩_贝奥恩"  # Björn_Beorn
             "伯"  # Bo
@@ -90,7 +98,7 @@
             "凯蒂尔"  # Kettil
             "凯蒂尔蒙德"  # Kettilmund
             "基雅尔坦"  # Kjartan
-            "克拉斯"  # Klas
+            "Klas_Nicholas"
             "克努特_克努特"  # Knut_Knut
             "科尔"  # Kol
             "科尔比约恩"  # Kolbjörn
@@ -183,7 +191,7 @@
             "海伦娜_海伦"  # Helena_Helen
             "霍姆芙丽德"  # Holmfrid
             "伊利安娜"  # Iliana
-            "英佳_英佳"  # Inga_Inga
+            "Inga_Inge"
             "英格芙丽德"  # Ingfrid
             "英吉比约格_英格博格"  # Ingibjörg_Ingeborg
             "英格耶德_英格耶德"  # Ingjerðr_Ingegerd
@@ -210,7 +218,7 @@
             "乌尔芙希尔妲_乌尔芙希尔德"  # Ulfhildr_Ulvhilde
             "维格迪丝"  # Vigdis
             "于尔娃_于尔娃"  # Ylva_Ylva
-            "于尔莎"  # Yrsa
+            "Yrsa_Ursula"
             "索菈_托菈"  # Þora_Thora
             "索尔迪丝_托尔迪丝"  # Þordis_Thordis
             "絮菈_蒂菈"  # Þyra_Thyra
@@ -236,6 +244,15 @@
         graphical_cultures = {
             norsegfx
         }
+        alternate_start = {
+            OR = {
+                year > = 1000
+                has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
+        }
         color = {
             0.25
             0.5
@@ -256,7 +273,7 @@
             "巴格"  # Bagge
             "巴尔德_巴尔德"  # Balder_Balder
             "本格特_贝内迪克特"  # Bengt_Benedict
-            "伯迪"  # Bertil
+            "Bertil_Berthold"
             "伯格"  # Birger
             "比约恩_贝奥恩"  # Björn_Beorn
             "波"  # Bo
@@ -300,7 +317,7 @@
             "卡尔_查理"  # Karl_Charles
             "凯蒂尔"  # Kettil
             "凯蒂尔蒙德"  # Kettilmund
-            "克拉斯"  # Klas
+            "Klas_Nicholas"
             "克努特_克努特"  # Knut_Knut
             "科尔"  # Kol
             "科尔比约恩"  # Kolbjörn
@@ -416,6 +433,15 @@
     norwegian = {
         graphical_cultures = {
             norsegfx
+        }
+        alternate_start = {
+            OR = {
+                year > = 1000
+                has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
         }
         color = {
             0.2
@@ -554,13 +580,22 @@
         graphical_cultures = {
             norsegfx
         }
+        alternate_start = {
+            OR = {
+                year > = 1000
+                has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
+        }
         color = {
             0.15
             0.4
             0.55
         }
         male_names = {
-            "阿贝尔"  # Abel
+            "Abel_Abel"
             "安诺斯_安德鲁"  # Anders_Andrew
             "阿农德_阿农德"  # Anund_Anund
             "埃斯基尔"  # Asger
@@ -599,14 +634,14 @@
             "约恩"  # Jørgen
             "约恩"  # Jørn
             "雅各布_雅各布"  # Jakob_Jacob
-            "杨斯"  # Jens
+            "Jens_John"
             "约阿基姆_约阿基姆"  # Joakim_Joakim
             "约翰_约翰"  # Johann_John
             "卡尔_查理"  # Karl_Charles
             "克努特_克努特"  # Knud_Knut
             "克里斯蒂安_克里斯蒂安"  # Kristian_Christian
             "雷夫"  # Leif
-            "伦纳特"  # Lennart
+            "Lennart_Leonard"
             "路德维格_路易"  # Ludvig_Louis
             "麦尔兹"  # Malthe
             "马斯_马修"  # Mads_Matthew
@@ -617,14 +652,14 @@
             "奥拉夫_奥拉夫"  # Olav_Olaf
             "奥鲁夫_奥拉夫"  # Oluf_Olaf
             "彼泽_彼得"  # Peder_Peter
-            "保尔"  # Poul
+            "Poul_Paul"
             "普利德比约恩"  # Pridbjørn
             "朗纳尔_赖纳"  # Ragnar_Rainer
             "拉恩瓦尔_朗瓦尔德"  # Ragnvald_Ragnvald
             "罗洛_罗洛"  # Rolf_Rolf
             "鲁恩"  # Rune
             "留里克_留里克"  # Rørik_Rurik
-            "赛维林"  # Severin
+            "Severin_Severin"
             "西格弗里德"  # Sigfred
             "西格特吕格"  # Sigtryg
             "西古尔德_西古尔德"  # Sigurd_Sigurd
@@ -663,7 +698,7 @@
             "埃莉诺_埃莉诺"  # Ellinor_Eleanor
             "艾米莉_艾米丽"  # Emilie_Emily
             "埃丽卡"  # Erika
-            "艾斯特"  # Ester
+            "Ester_Esther"
             "艾斯特丽德_阿斯特丽德"  # Estrid_Astrid
             "芙蕾德莉可_芙蕾德莉可"  # Frederikke_Frederique
             "芙蕾雅_芙蕾雅"  # Freja_Freja
@@ -676,19 +711,19 @@
             "英厄博格_英格博格"  # Ingeborg_Ingeborg
             "英格歌德_英格耶德"  # Ingegerd_Ingegerd
             "英格丽德_英格丽德"  # Ingrid_Ingrid
-            "乔安妮"  # Johanne
+            "Johanne_Joan"
             "尤塔"  # Jutta
             "卡琳_凯瑟琳"  # Karin_Catherine
             "卡罗琳"  # Karoline
             "卡塔琳娜_凯瑟琳"  # Katarina_Catherine
             "卡特丽内_凯瑟琳"  # Katrine_Catherine
-            "基尔斯滕"  # Kirsten
-            "克拉拉"  # Klara
+            "Kirsten_Christina"
+            "Klara_Clara"
             "莉塞_伊丽莎白"  # Lise_Elizabeth
             "露伊特嘉德"  # Luitgard
             "莱克"  # Lykke
             "玛格达莱内_玛格达莱娜"  # Magdalene_Magdalena
-            "梅伦"  # Maren
+            "Maren_Maria"
             "玛格丽特_玛格丽特"  # Margrethe_Margaret
             "玛利亚_玛利亚"  # Maria_Maria
             "玛尔塔_玛莎"  # Martha_Martha
@@ -696,10 +731,10 @@
             "朗希尔德_朗希尔德"  # Ragnhild_Ragnhild
             "丽基莎"  # Rikissa
             "露娜"  # Runa
-            "珊娜"  # Sanna
+            "Sanna_Susan"
             "西格妮"  # Signe
             "西格丽德_西格丽德"  # Sigrid_Sigrid
-            "希尔耶"  # Silje
+            "Silje_Cecilia"
             "索菲耶_索菲亚"  # Sofie_Sophia
             "斯万希尔德_斯万希尔德"  # Svanhild_Svanhild
             "蒂菈_蒂菈"  # Thyra_Thyra
@@ -766,7 +801,7 @@ central_germanic = {
             "克里斯多弗_克里斯托弗"  # Christopher_Christopher
             "迪特尔_迪特尔"  # Dieter_Dieter
             "迪特马尔_迪特马尔"  # Dietmar_Dietmar
-            "迪特波尔德"  # Dietpold
+            "Dietpold_Dietpold"
             "迪特里希_蒂埃里"  # Dietrich_Thierry
             "迪文"  # Dietwin
             "埃伯哈德_埃弗拉德"  # Eberhard_Everard
@@ -918,7 +953,7 @@ central_germanic = {
             "希尔德嘉德_希尔德嘉德"  # Hildegard_Hildegard
             "伊妲_伊妲"  # Ida_Ida
             "伊尔萨"  # Ilsa
-            "英佳_英佳"  # Inga_Inga
+            "Inga_Inge"
             "英格特鲁德"  # Ingeltrude
             "伊梅勒"  # Irmele
             "伊梅尔特鲁德"  # Irmeltrud
@@ -939,13 +974,13 @@ central_germanic = {
             "奥妲"  # Oda
             "奥斯特希尔德"  # Osterhild
             "莉查拉_莉卡妲"  # Richara_Ricarda
-            "丽琴莎"  # Richenza
+            "Richenza_Richeza"
             "莉希瓦拉"  # Richwara
             "萝米尔妲"  # Romilda
             "塞希尔妲_塞希尔妲"  # Serhilda_Serhilda
             "索菲_索菲亚"  # Sofie_Sophia
             "西比尔_西比拉"  # Sybille_Sibylla
-            "特鲁德"  # Trude
+            "Trude_Gertrude"
             "乌尔莉可"  # Ulrike
             "乌尔苏拉_乌尔苏拉"  # Ursula_Ursula
             "乌特_乌特"  # Ute_Ute
@@ -966,6 +1001,15 @@ central_germanic = {
     lombard = {
         graphical_cultures = {
             germangfx
+        }
+        alternate_start = {
+            OR = {
+                year > = 1000
+                has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
         }
         color = {
             0.6
@@ -994,8 +1038,8 @@ central_germanic = {
             "奥特帕特_阿尔伯特"  # Altpert_Albert
             "艾默弗里斯"  # Amefrith
             "安塞尔姆_安塞尔姆"  # Anselm_Anselm
-            "安斯弗里德"  # Ansfrid
-            "安斯弗里斯"  # Ansfrith
+            "Ansfrid_Ansfrid"
+            "Ansfrith_Ansfrid"
             "安斯普兰德"  # Ansprand
             "阿尔度因"  # Ardoin
             "阿里希斯"  # Arechis
@@ -1006,7 +1050,7 @@ central_germanic = {
             "阿里乌夫"  # Ariulf
             "阿恩弗里斯"  # Arnefrith
             "阿恩弗里德"  # Arnifrid
-            "阿塔瓦斯达斯"  # Artavasdas
+            "Artavasdas_Ardabast"
             "阿特努尔夫_阿特努尔夫"  # Atenulf_Atenulf
             "阿托"  # Atto
             "奥德莱西斯"  # Audelahis
@@ -1151,7 +1195,7 @@ central_germanic = {
             "阿帕"  # Appa
             "阿里格涅"  # Areagne
             "奥罗娜"  # Aurona
-            "克洛苏因塔"  # Chlotsuintha
+            "Chlotsuintha_Chlothsind"
             "克塔妮"  # Cotani
             "库妮贡妲_库妮贡德"  # Cunigunda_Kunigunde
             "德西德拉塔"  # Desiderata
@@ -1218,7 +1262,18 @@ central_germanic = {
     }
     old_frankish = {
         graphical_cultures = {
+            germangfx
             frankishgfx
+            westerngfx
+        }
+        alternate_start = {
+            OR = {
+                year > = 1000
+                has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
         }
         color = {
             0.3
@@ -1323,7 +1378,7 @@ central_germanic = {
             "哥哲"  # Gozhelm
             "格里马尔"  # Grimald
             "古亚杜夫"  # Guadulf
-            "古亚塔里"  # Gualtari
+            "Gualtari_Walter"
             "瓜尔特尔_沃尔特"  # Gualter_Walter
             "吉拉波特"  # Guillabert
             "吉塔德"  # Guitard
@@ -1366,9 +1421,9 @@ central_germanic = {
             "奥特伯特"  # Otbert
             "奥特格里"  # Otgeri
             "奥特克尔"  # Otker
-            "丕平"  # Pepin
+            "丕平_丕平"  # Pepin_Pepin
             "法拉蒙德_法拉蒙"  # Pharamond_Faramond
-            "丕平"  # Pippin
+            "Pippin_Pepin"
             "拉道夫_拉尔夫"  # Radulf_Ralph
             "拉贾巴德"  # Ragambald
             "雷格纳"  # Ragena
@@ -1382,7 +1437,7 @@ central_germanic = {
             "拉姆怒尔夫"  # Ramnulf
             "拉萨尔"  # Rathar
             "雷诺德_莱因霍尔德"  # Raynold_Reinhold
-            "雷吉纳里"  # Reginari
+            "Reginari_Rainer"
             "理查"  # Ricchar
             "里格诺梅"  # Rignomer
             "罗兰_罗兰"  # Roland_Roland
@@ -1406,14 +1461,14 @@ central_germanic = {
             "坦克拉德"  # Tancrad
             "坦克雷德"  # Tancred
             "塔西洛"  # Tassilo
-            "提奥特伯特"  # Teotbert
-            "泰特伯特"  # Tetbert
+            "Teotbert_Theudbert"
+            "Tetbert_Theudbert"
             "泰特巴德_提奥巴尔德"  # Teutbald_Theobald
-            "提乌特伯特"  # Teutbert
+            "Teutbert_Theudbert"
             "西奥德里克_蒂埃里"  # Theoderic_Thierry
             "提奥里克"  # Theoric
             "提乌德巴德_提奥巴尔德"  # Theudebald_Theobald
-            "提乌德梅雷斯"  # Theudemeres
+            "Theudemeres_Theodemir"
             "提乌德里克_蒂埃里"  # Theuderic_Thierry
             "提乌度亚德"  # Theudoald
             "提乌特巴德_提奥巴尔德"  # Theutbald_Theobald
@@ -1430,7 +1485,7 @@ central_germanic = {
         }
         female_names = {
             "阿达尔嘉迪丝"  # Adalgardis
-            "阿达琳达"  # Adallinda
+            "Adallinda_Adelinde"
             "阿妲尔特露德_阿德尔特露蒂丝"  # Adaltrude_Adeltrudis
             "阿达鲁伊迪丝"  # Adaluildis
             "阿德莱蒂丝_阿德莱德"  # Adelaidis_Adelaide
@@ -1461,19 +1516,19 @@ central_germanic = {
             "贝尔提拉"  # Bertilla
             "贝尔特拉达"  # Bertrada
             "布拉德维尔迪丝"  # Bladovildis
-            "布伦希尔德"  # Brunhild
+            "Brunhild_Brunhilda"
             "勃艮杜法拉"  # Burgundofara
             "赛尔萨"  # Celsa
             "塞尔索维尔迪丝"  # Celsovildis
             "塞萨莉亚"  # Cesaria
-            "克洛德辛德"  # Chlodosind
-            "克洛特辛妲"  # Chlothsinda
-            "克洛提尔德"  # Clotild
+            "Chlodosind_Chlothsind"
+            "Chlothsinda_Chlothsind"
+            "Clotild_Clotilde"
             "克雷妲"  # Creada
             "达格娜"  # Dagena
             "埃尔德桑迪丝"  # Eldesendis
             "尔门嘉蒂斯_埃尔门嘉德"  # Ermengardis_Ermengarde
-            "厄门吉尔迪丝"  # Ermengildis
+            "Ermengildis_Ermengilda"
             "厄门辛迪丝"  # Ermensindis
             "尤斯塔迪奥拉"  # Eustadiola
             "法留贝"  # Faileuba
@@ -1490,8 +1545,8 @@ central_germanic = {
             "高特琳迪丝"  # Gautlindis
             "杰纳薇芙"  # Genovefa
             "吉尔斯文达"  # Gersvinda
-            "格特露德"  # Gertrude
-            "吉塞拉"  # Gisela
+            "Gertrude_Gertrude"
+            "Gisela_Gisela"
             "格洛德辛德"  # Glodesind
             "格尔丝文丝"  # Goiswinth
             "格特贝尔加"  # Gotberga
@@ -1551,6 +1606,14 @@ central_germanic = {
     suebi = {
         graphical_cultures = {
             germangfx
+        }
+        alternate_start = {
+            OR = {
+                year < 1000 has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
         }
         color = {
             0.7
@@ -1663,7 +1726,7 @@ central_germanic = {
             "帕皮努斯"  # Pappinus
             "佩德拉吉尔度"  # Pederagildu
             "彭尼奥"  # Pennio
-            "皮皮努斯"  # Pipinus
+            "Pipinus_Pepin"
             "普罗瓦雷多"  # Provaredo
             "克德森多"  # Quedesendo
             "克杜尔夫斯"  # Quedulfus
@@ -1700,14 +1763,14 @@ central_germanic = {
             "苏尼拉"  # Sunila
             "特奥巴尔德_提奥巴尔德"  # Teobald_Theobald
             "提奥德里杜斯"  # Teoderedus
-            "提奥德玛"  # Theodemar
+            "Theodemar_Theodemir"
             "托德格吉亚"  # Todegogia
             "特拉斯米拉"  # Trasmira
             "特拉索尔迪"  # Trasoldi
             "图图尔多"  # Tumtuldo
             "乌提莫"  # Uittimer
             "维内达里奥"  # Venedario
-            "威利蒙德"  # Veremund
+            "Veremund_Vermudo"
             "维亚蒙杜斯"  # Viamundus
             "维德拉杜斯"  # Vidraldus
             "威利森多"  # Villisendo
@@ -1831,6 +1894,15 @@ west_germanic = {
             0.2
             0.2
         }
+        alternate_start = {
+            OR = {
+                year > = 1100
+                has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
+        }
         male_names = {
             "亚当_亚当"  # Adam_Adam
             "艾伦_阿兰"  # Alan_Alan
@@ -1874,8 +1946,8 @@ west_germanic = {
             "彼得_彼得"  # Peter_Peter
             "菲利普_腓力"  # Philip_Philip
             "拉尔夫_拉尔夫"  # Ralph_Ralph
-            "伦道夫_兰道夫"  # Randolph_Ralpholph
-            "雷吉纳德_赖纳"  # Reginald_Rainer
+            "Randolph_Randolph"
+            "Reginald_Reinhold"
             "理查_理查"  # Richard_Richard
             "罗伯特_罗伯特"  # Robert_Robert
             "罗杰_罗杰"  # Roger_Roger
@@ -1910,7 +1982,7 @@ west_germanic = {
             "琼_琼"  # Joan_Joan
             "乔安娜_琼"  # Joanna_Joan
             "朱莉安娜_朱莉安娜"  # Juliana_Juliana
-            "玛奥_玛奥"  # Mahaut_Mahaut
+            "Mahaut_Matilda"
             "玛格丽特_玛格丽特"  # Margaret_Margaret
             "玛丽_玛利亚"  # Mary_Maria
             "玛蒂尔达_玛蒂尔达"  # Matilda_Matilda
@@ -1930,12 +2002,21 @@ west_germanic = {
     }
     saxon = {
         graphical_cultures = {
+            englishgfx
             saxongfx
         }
         color = {
             0.8
             0.3
             0.3
+        }
+        alternate_start = {
+            OR = {
+                year < 1100 has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
         }
         male_names = {
             "安西特尔"  # Arncytel
@@ -2196,12 +2277,21 @@ west_germanic = {
     }
     old_saxon = {
         graphical_cultures = {
+            englishgfx
             saxongfx
         }
         color = {
             0.5
             0.1
             0.1
+        }
+        alternate_start = {
+            OR = {
+                year < 800 has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
         }
         male_names = {
             "奥博"  # Abo
@@ -2435,7 +2525,16 @@ west_germanic = {
     }
     frisian = {
         graphical_cultures = {
+            englishgfx
             saxongfx
+        }
+        alternate_start = {
+            OR = {
+                year < 800 has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
         }
         color = {
             0.7
@@ -2483,7 +2582,7 @@ west_germanic = {
             "缶克伯恩"  # Folkbern
             "缶克哈特"  # Folkhard
             "缶克瓦特"  # Folkward
-            "弗雷希里克"  # Frethirik
+            "Frethirik_Frederick"
             "弗雷透特"  # Frethold
             "弗雷都哈特"  # Frethuhard
             "弗雷退"  # Frethwi
@@ -2544,7 +2643,7 @@ west_germanic = {
             "拉德赫"  # Raeddeg
             "柔安铁"  # Rauantet
             "雷巴特"  # Redbad
-            "雷辛哈特_赖纳"  # Reginhard_Rainer
+            "Reginhard_Renard"
             "莱茵伯恩_莱茵伯恩"  # Reinbern_Reinbern
             "莱尼尔_赖纳"  # Reinier_Rainer
             "仁哈特_雷纳德"  # Renhard_Renard
@@ -2629,7 +2728,7 @@ west_germanic = {
             "霍迪内"  # Hodine
             "伊玛_艾玛"  # Imma_Emma
             "艾索特"  # Imsoete
-            "因卡_英佳"  # Inka_Inga
+            "Inka_Inge"
             "依茨布迪丝"  # Itsburgis
             "杰茨杰"  # Jeltsje
             "勒尼迪丝"  # Lenildis
@@ -2674,6 +2773,15 @@ west_germanic = {
             0.39
             0.08
         }
+        alternate_start = {
+            OR = {
+                year > = 800
+                has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
+        }
         male_names = {
             "阿德里安"  # Adriaen
             "阿尔布雷希特_阿尔伯特"  # Albrecht_Albert
@@ -2687,7 +2795,7 @@ west_germanic = {
             "巴纳尔德_伯纳德"  # Barnaerd_Bernard
             "巴尔托洛缪斯_巴尔托洛缪斯"  # Bartolomeus_Bartolomeus
             "巴沃"  # Bavo
-            "贝托尔德"  # Bertold
+            "Bertold_Berthold"
             "鲍德韦因_鲍德温"  # Boudewijn_Baldwin
             "克拉斯_尼古拉斯"  # Claes_Nicholas
             "克拉欧瓦特"  # Claeuwaert
@@ -2707,7 +2815,7 @@ west_germanic = {
             "弗朗斯_弗朗西斯"  # Frans_Francis
             "弗雷德里克_弗雷德里克"  # Frederik_Frederick
             "杰拉德_杰拉德"  # Gerard_Gerard
-            "杰洛尔特"  # Gerolt
+            "Gerolt_Gerald"
             "杰鲁尔夫"  # Gerulf
             "杰里特"  # Gerrit
             "吉斯布雷希特"  # Gijsbrecht
@@ -2747,7 +2855,7 @@ west_germanic = {
             "雷吉纳尔_赖纳"  # Reginar_Rainer
             "罗布雷赫特_罗伯特"  # Robrecht_Robert
             "罗伯特_罗伯特"  # Robert_Robert
-            "罗道夫"  # Rodulf
+            "Rodulf_Ralph"
             "鲁洛夫"  # Roelof
             "罗兰"  # Roland
             "鲁特格尔"  # Rutger
@@ -2783,7 +2891,7 @@ west_germanic = {
             "塞西莉_塞西莉亚"  # Cecily_Cecilia
             "琪尔蕾"  # Cille
             "克拉拉_克拉拉"  # Clara_Clara
-            "克莱门提娅"  # Clementia
+            "Clementia_Clementia"
             "伊丽莎白_伊丽莎白"  # Elisabeth_Elizabeth
             "埃莱诺尔_埃莉诺"  # Ellijnore_Eleanor
             "艾玛_艾玛"  # Emma_Emma
@@ -2802,7 +2910,7 @@ west_germanic = {
             "伊玛吉娜"  # Imagina
             "伊蕾讷_伊蕾讷"  # Irene_Irene
             "伊莎贝勒_伊丽莎白"  # Isabelle_Elizabeth
-            "尤迪丝"  # Iudith
+            "Iudith_Judith"
             "雅各芭_雅各芭"  # Jacoba_Jacoba
             "雅各宾"  # Jaccobijn
             "雅斯明妮_雅斯敏"  # Jasminne_Yasmin
@@ -2833,7 +2941,7 @@ west_germanic = {
             "薇拉"  # Wila
             "温德尔莫特"  # Wendelmoet
             "温娜"  # Wenna
-            "威廉米妮"  # Willemine
+            "Willemine_Willhelmina"
             "约妮菲吉"  # Yonefij
             "伊冯讷_伊冯讷"  # Yvonne_Yvonne
             "佐特"  # Zoete
@@ -2858,6 +2966,16 @@ latin = {
     frankish = {
         graphical_cultures = {
             frankishgfx
+            westerngfx
+        }
+        alternate_start = {
+            OR = {
+                year > = 1000
+                has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
         }
         color = {
             0.8
@@ -2881,7 +2999,7 @@ latin = {
             "安塞尔"  # Ancel
             "安德烈_安德鲁"  # André_Andrew
             "安热贝尔"  # Angelbert
-            "安托万_安东尼努斯"  # Antoine_Antoninus
+            "Antoine_Antonius"
             "阿尔尚博_阿奇博尔德"  # Archambaud_Archibald
             "阿诺_阿诺德"  # Arnaud_Arnold
             "阿尔诺_阿诺德"  # Arnault_Arnold
@@ -2943,7 +3061,7 @@ latin = {
             "洛泰尔_洛泰尔"  # Lothaire_Lothair
             "路易_路易"  # Louis_Louis
             "卢普_卢波"  # Loup_Lupo
-            "玛拿西"  # Manassès
+            "Manassès_Manasseh"
             "马蒂厄_马修"  # Mathieu_Matthew
             "莫里斯_莫里斯"  # Maurice_Maurice
             "尼古拉_尼古拉斯"  # Nicolas_Nicholas
@@ -3000,9 +3118,9 @@ latin = {
             "贝亚特丽斯_比阿特丽斯"  # Béatrice_Beatrice
             "贝娅特丽克丝_比阿特丽斯"  # Béatrix_Beatrice
             "贝莉斯茨"  # Belleassez
-            "贝努瓦特"  # Benoîte
+            "Benoîte_Benedicta"
             "贝伦格尔"  # Bérengère
-            "培德"  # Berthe
+            "Berthe_Bertha"
             "布朗什_布兰琪"  # Blanche_Blanche
             "邦内_邦内"  # Bonne_Bonne
             "布尔格妮"  # Bourgogne
@@ -3015,7 +3133,7 @@ latin = {
             "杜丝_杜丝"  # Douce_Douce
             "阿基薇"  # Echive
             "埃格朗蒂纳"  # Eglantine
-            "伊丽莎白_伊丽莎白"  # Elisabeth_Elisabeth
+            "Elisabeth_Elizabeth"
             "埃玛_艾玛"  # Emma_Emma
             "埃芒加德_埃尔门嘉德"  # Ermengarde_Ermengarde
             "埃尔梅桑德_埃尔梅辛妲"  # Ermessinde_Ermesinda
@@ -3025,20 +3143,20 @@ latin = {
             "伊芙_爱娃"  # Eve_Eva
             "热贝尔日_格蓓尔佳"  # Gerberge_Gerberga
             "吉赛勒_吉塞拉"  # Gisèle_Gisela
-            "吉约梅特"  # Guillaumette
+            "Guillaumette_Williamette"
             "埃洛伊兹_海勒薇兹"  # Héloise_Eloise
             "埃尔薇"  # Helvis
             "荷狄尔妮"  # Hodierne
             "伊德_伊妲"  # Ide_Ida
             "伊妲_伊妲"  # Ida_Ida
             "伊尔德嘉德_希尔德加德"  # Ildégarde_Hildegard
-            "伊萨博_伊丽莎白"  # Isabeau_Elisabeth
-            "伊莎贝尔_伊丽莎白"  # Isabelle_Elisabeth
+            "Isabeau_Elizabeth"
+            "Isabelle_Elizabeth"
             "让娜_琼"  # Jeanne_Joan
             "朱迪特_尤迪特"  # Judith_Judith
             "朱利安娜_朱莉安娜"  # Julienne_Juliana
             "玛法尔妲"  # Mafalda
-            "玛奥_玛奥"  # Mahaut_Mahaut
+            "Mahaut_Matilda"
             "玛戈"  # Margot
             "玛格丽特_玛格丽特"  # Marguerite_Margaret
             "玛丽_玛利亚"  # Marie_Maria
@@ -3077,6 +3195,15 @@ latin = {
         graphical_cultures = {
             normangfx
         }
+        alternate_start = {
+            OR = {
+                year > = 1000
+                has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
+        }
         color = {
             0.8
             0.7
@@ -3085,7 +3212,7 @@ latin = {
         male_names = {
             "阿伯拉尔德_阿伯拉尔德"  # Abelard_Abelard
             "亚当_亚当"  # Adam_Adam
-            "阿德拉尔"  # Adelard
+            "Adelard_Adalhard"
             "艾德玛"  # Ademar
             "亚历山大_亚历山大"  # Alexander_Alexander
             "阿方斯_阿方斯"  # Alfons_Alphonse
@@ -3158,7 +3285,7 @@ latin = {
             "兰道夫_兰道夫"  # Randolf_Randolph
             "拉努尔夫"  # Ranulf
             "雷蒙德_雷蒙德"  # Raymond_Raymond
-            "雷纳"  # Rayner
+            "Rayner_Rainer"
             "理查德_理查"  # Richard_Richard
             "罗贝尔_罗伯特"  # Robert_Robert
             "罗杰_罗杰"  # Roger_Roger
@@ -3214,8 +3341,8 @@ latin = {
             "费利西娅_费利恰"  # Felicia_Felicia
             "芙兰狄娜"  # Flandina
             "芙蕾德森德"  # Fredesende
-            "芙蕾森妲"  # Fressenda
-            "芙蕾森德"  # Fressende
+            "Fressenda_Fressenda"
+            "Fressende_Fressenda"
             "盖瓦"  # Geva
             "吉塞尔_吉塞拉"  # Giselle_Gisela
             "格茜尔德"  # Gohilde
@@ -3269,6 +3396,7 @@ latin = {
         graphical_cultures = {
             italiangfx
             southerngfx
+            westerngfx
         }
         color = {
             0.95
@@ -3296,7 +3424,7 @@ latin = {
             "阿尔贝里科"  # Alberico
             "阿尔贝托_阿尔伯特"  # Alberto_Albert
             "阿尔比诺"  # Albino
-            "阿尔博因奥"  # Alboino
+            "Alboino_Alwin"
             "阿尔齐德"  # Alcide
             "阿尔多布朗迪诺"  # Aldobrandino
             "阿莱亚尔多"  # Aleardo
@@ -3313,7 +3441,7 @@ latin = {
             "安尼巴勒"  # Annibale
             "安塞尔莫_安塞尔姆"  # Anselmo_Anselm
             "安东尼诺_安东尼努斯"  # Antonino_Antoninus
-            "安东尼奥_安东尼努斯"  # Antonio_Antoninus
+            "Antonio_Antonius"
             "安东尼奥托"  # Antoniotto
             "阿齐巴尔多_阿奇博尔德"  # Arcibaldo_Archibald
             "阿德里科"  # Arderico
@@ -3326,7 +3454,7 @@ latin = {
             "阿斯托雷"  # Astorre
             "阿特诺尔佛_阿特努尔夫"  # Atenolfo_Atenulf
             "阿提里奥"  # Attilio
-            "奥古斯托_奥古斯丁"  # Augusto_Augustine
+            "Augusto_August"
             "奥雷利奥_奥勒留"  # Aurelio_Aurelius
             "奥西里奥"  # Ausilio
             "奥索尼奥"  # Ausonio
@@ -3353,7 +3481,7 @@ latin = {
             "波纳文图拉"  # Bonaventura
             "博尼法乔_波尼法爵"  # Bonifacio_Bonifacius
             "博尔索"  # Borso
-            "布鲁诺"  # Bruno
+            "Bruno_Bruno"
             "布鲁托"  # Bruto
             "布翁康特"  # Buonconte
             "布奥索"  # Buoso
@@ -3381,9 +3509,9 @@ latin = {
             "科拉多_康拉德"  # Corrado_Konrad
             "科西莫"  # Cosimo
             "科斯马_科斯马斯"  # Cosma_Cosmas
-            "科斯坦特"  # Costante
-            "科斯坦提诺"  # Costantino
-            "科斯坦佐"  # Costanzo
+            "Costante_Constans"
+            "Costantino_Constantine"
+            "Costanzo_Constantius"
             "克里斯托福罗_克里斯多弗"  # Cristoforo_Christopher
             "达米亚诺_达米安"  # Damiano_Damian
             "达维德_大卫"  # Davide_David
@@ -3406,7 +3534,7 @@ latin = {
             "埃齐奥"  # Ezio
             "埃泽里诺"  # Ezzelino
             "法布里齐奥"  # Fabrizio
-            "福斯托"  # Fausto
+            "Fausto_Faustus"
             "费代里戈_弗雷德里克"  # Federigo_Frederick
             "菲利切_菲利克斯"  # Felice_Felix
             "斐迪南多_斐迪南"  # Ferdinando_Ferdinand
@@ -3425,7 +3553,7 @@ latin = {
             "加拉索"  # Galasso
             "加莱亚佐"  # Galeazzo
             "加莱奥托"  # Galeotto
-            "加斯帕雷"  # Gaspare
+            "Gaspare_Caspar"
             "加斯托内_加斯顿"  # Gastone_Gaston
             "杰拉西奥"  # Gelasio
             "詹提尔"  # Gentile
@@ -3442,7 +3570,7 @@ latin = {
             "贾诺_约翰"  # Giano_John
             "吉伯托"  # Giberto
             "吉尔贝托_吉尔伯特"  # Gilberto_Gilbert
-            "希奥利奥"  # Giolio
+            "Giolio_Julius"
             "焦尔达诺_乔丹"  # Giordano_Jordan
             "乔治_乔治"  # Giorgio_George
             "乔万尼_约翰"  # Giovanni_John
@@ -3459,7 +3587,7 @@ latin = {
             "圭格利亚多雷"  # Guigliadore
             "雅科波_雅各布"  # Iacopo_Jacob
             "伊吉诺"  # Igino
-            "因诺琴佐"  # Innocenzo
+            "Innocenzo_Innocent"
             "伊波利托_希波吕托斯"  # Ippolito_Hippolytus
             "伊斯纳多"  # Isnardo
             "雅科波_雅各布"  # Jacopo_Jacob
@@ -3471,10 +3599,10 @@ latin = {
             "拉扎里诺"  # Lazzarino
             "拉扎罗_拉撒路"  # Lazzaro_Lazarus
             "莱亚尔多"  # Lealdo
-            "莱昂纳多"  # Leonardo
+            "Leonardo_Leonard"
             "莱昂内_利奥"  # Leone_Leo
             "莱奥内洛_莱昂内尔"  # Leonello_Lionel
-            "莱奥波尔多"  # Leopoldo
+            "Leopoldo_Leopold"
             "利贝罗"  # Libero
             "廖内洛_莱昂内尔"  # Lionello_Lionel
             "利维奥"  # Livio
@@ -3483,13 +3611,13 @@ latin = {
             "卢卡_卢克"  # Luca_Luke
             "卢基诺"  # Luchino
             "卢乔_卢修斯"  # Lucio_Lucius
-            "路易吉"  # Luigi
+            "Luigi_Louis"
             "马拉克雷斯塔"  # Malacresta
             "曼弗雷多"  # Manfredo
             "马努埃莱_曼努埃尔"  # Manuele_Manuel
             "马可_马库斯"  # Marco_Marcus
             "马里亚诺_马里乌斯"  # Mariano_Marius
-            "马力诺"  # Marino
+            "Marino_Marinus"
             "马里奥_马里乌斯"  # Mario_Marius
             "马西格里奥"  # Marsiglio
             "马蒂诺_马丁"  # Martino_Martin
@@ -3514,11 +3642,11 @@ latin = {
             "奥诺里奥"  # Onorio
             "奥雷斯特"  # Oreste
             "奥兰多"  # Orlando
-            "奥塔维奥"  # Ottavio
+            "Ottavio_Octavius"
             "奥托博诺"  # Ottobono
             "奥托内_奥托"  # Ottone_Otto
             "帕加诺_帕甘"  # Pagano_Pagan
-            "潘克拉齐奥"  # Pancrazio
+            "Pancrazio_Pancras"
             "潘多佛_兰道夫"  # Pandolfo_Randolph
             "保罗_保罗"  # Paolo_Paul
             "帕斯夸莱_帕斯卡尔"  # Pasquale_Pascal
@@ -3550,13 +3678,13 @@ latin = {
             "塞巴斯蒂亚诺_塞巴斯蒂安"  # Sebastiano_Sebastian
             "塞康多托"  # Secondotto
             "塞拉菲诺_塞拉芬"  # Serafino_Seraphin
-            "塞尔吉奥"  # Sergio
-            "塞斯托"  # Sesto
-            "塞提米奥"  # Settimio
-            "塞韦里诺"  # Severino
-            "塞维罗"  # Severo
+            "Sergio_Sergius"
+            "Sesto_Sextus"
+            "Settimio_Septimus"
+            "Severino_Severin"
+            "Severo_Severus"
             "席尔瓦诺"  # Silvano
-            "席尔维斯特罗"  # Silvestro
+            "Silvestro_Silvester"
             "西莫内_西蒙"  # Simone_Simon
             "西莫内托"  # Simonetto
             "西尼巴尔多"  # Sinibaldo
@@ -3575,7 +3703,7 @@ latin = {
             "托戈多里奥"  # Torgodorio
             "托尔夸托"  # Torquato
             "乌巴尔多"  # Ubaldo
-            "乌贝托"  # Uberto
+            "Uberto_Hubert"
             "乌戈_休"  # Ugo_Hugh
             "乌戈里诺"  # Ugoccione
             "乌戈利诺"  # Ugolino
@@ -3613,7 +3741,7 @@ latin = {
             "阿纳斯塔茜娅_阿纳斯塔茜娅"  # Anastasia_Anastasia
             "安娜_安娜"  # Anna_Anna
             "安东内拉"  # Antonella
-            "安东妮娅"  # Antonia
+            "Antonia_Antonia"
             "阿尔真蒂纳"  # Argentina
             "奥古丝塔"  # Augusta
             "奥蕾莉娅_奥蕾莉娅"  # Aurelia_Aurelia
@@ -3623,11 +3751,11 @@ latin = {
             "贝妮代塔_贝内蒂克塔"  # Benedetta_Benedicta
             "贝妮尔德"  # Benilde
             "贝蕾妮丝"  # Berenice
-            "贝尔塔"  # Berta
+            "Berta_Bertha"
             "比安卡_布兰琪"  # Bianca_Blanche
             "博娜_邦内"  # Bona_Bonne
             "布露妮尔德_布伦希尔妲"  # Brunilde_Brunhilda
-            "卡米拉"  # Camilla
+            "Camilla_Camilla"
             "坎狄妲"  # Candida
             "卡拉科莎"  # Caracosa
             "卡拉"  # Carla
@@ -3639,7 +3767,7 @@ latin = {
             "克萝琳达"  # Clorinda
             "克洛蒂尔德_克洛蒂尔德"  # Clotilde_Clotilde
             "康斯坦萨_康斯坦丝"  # Constanza_Constance
-            "科妮莉娅"  # Cornelia
+            "Cornelia_Cornelia"
             "德琳达"  # Delinda
             "朵拉"  # Dora
             "埃妲"  # Edda
@@ -3647,7 +3775,7 @@ latin = {
             "埃莱奥诺拉_埃莉诺"  # Eleonora_Eleanor
             "伊莉萨_伊丽莎白"  # Elisa_Elizabeth
             "伊莉莎贝塔_伊丽莎白"  # Elisabetta_Elizabeth
-            "埃梅内吉尔妲"  # Ermenegilda
+            "Ermenegilda_Ermengilda"
             "欧朵茜娅"  # Eudossia
             "欧金尼娅"  # Eugenia
             "福丝塔"  # Fausta
@@ -3662,11 +3790,11 @@ latin = {
             "弗兰切斯卡_弗兰切斯卡"  # Francesca_Francesca
             "弗瓦扎"  # Froizza
             "贾钦塔_海厄森塔"  # Giacinta_Hyacintha
-            "吉妮芙拉"  # Ginevra
+            "Ginevra_Guinevere"
             "乔万娜_琼"  # Giovanna_Joan
             "朱迪塔"  # Giuditta
             "朱莉娅_尤莉娅"  # Giulia_Julia
-            "朱塞帕"  # Giuseppa
+            "Giuseppa_Josepha"
             "伊波莉塔"  # Ippolita
             "伊莎贝拉_伊丽莎白"  # Isabella_Elizabeth
             "约塞拉"  # Joscella
@@ -3681,10 +3809,10 @@ latin = {
             "露琪内塔"  # Lucinetta
             "露可蕾琪娅"  # Lucrezia
             "玛达莱娜_玛格达莱娜"  # Maddalena_Magdalena
-            "玛尔切拉"  # Marcella
+            "Marcella_Marcella"
             "玛格丽塔_玛格丽特"  # Margherita_Margaret
             "玛利亚_玛利亚"  # Maria_Maria
-            "玛丽亚娜"  # Mariana
+            "Mariana_Mariana"
             "玛丽埃塔"  # Marietta
             "玛尔蒂娜"  # Martina
             "玛蒂尔达_玛蒂尔达"  # Matilda_Matilda
@@ -3714,12 +3842,22 @@ latin = {
     }
     occitan = {
         graphical_cultures = {
+            trueoccitangfx
             occitangfx
         }
         color = {
             0.9
             0.9
             0.4
+        }
+        alternate_start = {
+            OR = {
+                year > = 1000
+                has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
         }
         male_names = {
             "阿德赫玛"  # Adhémar
@@ -3859,7 +3997,7 @@ latin = {
             "博娜_邦内"  # Bòna_Bonne
             "贝阿特丽茨_比阿特丽斯"  # Beatritz_Beatrice
             "贝伦格拉"  # Berenguela
-            "贝尔塔"  # Berta
+            "Berta_Bertha"
             "布兰卡_布兰琪"  # Blanca_Blanche
             "布兰狄梅娜"  # Brandimena
             "布蕾吉妲_布里吉德"  # Bregida_Brigid
@@ -3890,12 +4028,12 @@ latin = {
             "芙萝拉_芙萝拉"  # Flòra_Flora
             "弗兰切莎_弗兰西斯卡"  # Francesa_Francesca
             "嘉森妲"  # Garcenda
-            "格内薇瓦"  # Geneviva
+            "Geneviva_Guinevere"
             "格蓓尔佳_格蓓尔佳"  # Gerbèrga_Gerberga
             "格森妲"  # Gersenda
             "吉丝拉_吉塞拉"  # Gisla_Gisela
             "吉戈涅"  # Guigone
-            "吉修米娜"  # Guilheumina
+            "Guilheumina_Willhelmina"
             "海洛薇兹_海勒薇兹"  # Heloise_Eloise
             "尤朗达_约兰达"  # Ioulanda_Yolanda
             "伊莎博_伊丽莎白"  # Isabèu_Elizabeth
@@ -3943,17 +4081,25 @@ latin = {
     }
     roman = {
         graphical_cultures = {
+            romangfx
             southerngfx
+            trueoccitangfx
             occitangfx
         }
         color = {
             0.8
-            0.7
+            0.2
             0.2
         }
         used_for_random = no
+        alternate_start = {
+            has_alternate_start_parameter = {
+                key = culture
+                value = full_random
+            }
+        }
         male_names = {
-            "埃米利安"  # Aemilian
+            "Aemilianus"
             "埃米利乌斯"  # Aemilius
             "埃提乌斯"  # Aetius
             "阿尔比乌斯"  # Albinus
@@ -3964,7 +4110,7 @@ latin = {
             "安东尼努斯"  # Antoninus
             "安东尼乌斯_安东尼乌斯"  # Antonius_Antonius
             "阿卡狄奥斯"  # Arcadius
-            "奥勒良"  # Aurelian
+            "Aurelianus"
             "奥勒留"  # Aurelius
             "阿维图斯"  # Avitus
             "贝利撒留斯_贝利撒留斯"  # Belisarius_Belisarius
@@ -3977,14 +4123,14 @@ latin = {
             "克劳狄乌斯_克劳狄乌斯"  # Claudius_Claudius
             "克莱门提乌斯"  # Clementius
             "君士坦斯_君士坦斯"  # Constans_Constans
-            "君士坦丁_君士坦丁"  # Constantine_Constantine
+            "Constantinus_Constantine"
             "君士坦提乌斯_君士坦提乌斯"  # Constantius_Constantius
             "科尼利乌斯_科尼利乌斯"  # Cornelius_Cornelius
             "克拉苏"  # Crassus
             "迪基姆斯"  # Decimus
             "迪基乌斯"  # Decius
-            "戴克里先"  # Diocletian
-            "多米提安"  # Domitian
+            "Diocletianus"
+            "Domitianus"
             "多米提乌斯"  # Domitius
             "德鲁苏斯"  # Drusus
             "恩诺狄乌斯"  # Ennodius
@@ -3993,26 +4139,26 @@ latin = {
             "福斯图斯"  # Faustus
             "菲利克斯"  # Felix
             "弗拉维阿努斯"  # Flavianus
-            "弗洛里安"  # Florian
+            "Florianus"
             "盖乌斯"  # Gaius
             "加列里乌斯"  # Galerius
             "加里恩努斯"  # Gallienus
             "加卢斯"  # Gallus
             "日耳曼努斯_日耳曼努斯"  # Germanus_Germanus
-            "戈狄安"  # Gordian
+            "Gordianus"
             "格拉古"  # Gracchus
-            "格拉提安"  # Gratian
-            "哈德良_哈德良"  # Hadrian_Adrian
+            "Gratianus"
+            "Hadrianus_Adrian"
             "赫库里乌斯_赫拉克勒斯"  # Herculius_Heracles
             "霍诺留斯"  # Honorius
             "约安内斯_约翰"  # Joannes_John
-            "约维安"  # Jovian
-            "尤利安_尤里安"  # Julian_Julian
+            "Jovianus"
+            "Julianus_Julian"
             "尤利乌斯_尤利乌斯"  # Julius_Julius
             "尤利乌斯-凯撒"  # Julius-Caesar
             "尤尼乌斯"  # Junius
-            "查士丁_优士丁"  # Justin_Justin
-            "查士丁尼_查士丁尼"  # Justinian_Justinian
+            "Justinus_Justin"
+            "Justinianus_Justinian"
             "莱奥_利奥"  # Leo_Leo
             "莱昂提乌斯_莱昂提乌斯"  # Leontius_Leontius
             "利伯里乌斯"  # Liberius
@@ -4021,24 +4167,24 @@ latin = {
             "玛格努斯_玛格努斯"  # Magnus_Magnus
             "马尔切里努斯"  # Marcellinus
             "马尔切卢斯"  # Marcellus
-            "马尔奇安"  # Marcian
+            "Marcianus"
             "马库斯_马库斯"  # Marcus_Marcus
             "马里努斯"  # Marinus
             "马里乌斯"  # Marius
             "马尔提努斯"  # Martinus
-            "马克西米安"  # Maximian
+            "Maximianus"
             "马克西米努斯"  # Maximinus
             "马克西姆斯_马克西姆斯"  # Maximus_Maximus
-            "尼波提安"  # Nepotian
+            "Nepotianus"
             "涅尔瓦"  # Nerva
-            "努梅里安"  # Numerian
+            "Numerianus"
             "屋大维安努斯"  # Octavianus
             "屋大维"  # Octavius
             "奥托"  # Otho
             "保利努斯"  # Paulinus
             "保禄_保罗"  # Paulus_Paul
             "佩特罗尼乌斯"  # Petronius
-            "菲利普_腓力"  # Philip_Philip
+            "Philippus_Philip"
             "庞培"  # Pompeius
             "庞提阿努斯"  # Pontianus
             "布里斯库斯"  # Priscus
@@ -4063,14 +4209,14 @@ latin = {
             "提比略_提比略"  # Tiberius_Tiberius
             "提提乌斯"  # Titius
             "提图斯"  # Titus
-            "图拉真_图拉真"  # Trajan_Trajan
+            "Trajanus_Trajan"
             "乌尔巴努斯_乌尔班"  # Urbanus_Urban
             "瓦伦斯"  # Valens
-            "瓦伦丁尼安"  # Valentinian
-            "瓦勒良"  # Valerian
+            "Valentinianus"
+            "Valerianus"
             "瓦勒留斯_瓦勒留斯"  # Valerius_Valerius
             "维南提乌斯"  # Venantius
-            "维斯帕西安"  # Vespasian
+            "Vespasianus"
             "维克多"  # Victor
             "维克托里努斯"  # Victorinus
             "维吉里乌斯"  # Vigilius
@@ -4128,7 +4274,7 @@ latin = {
             "玛尔切拉"  # Marcella
             "玛尔恰_玛尔恰"  # Marcia_Marcia
             "马尔琪娅娜"  # Marciana
-            "玛丽娜"  # Marina
+            "Marina_Marine"
             "玛尔蒂娜_玛尔蒂娜"  # Martina_Martina
             "玛特罗娜"  # Matrona
             "马克西玛"  # Maxima
@@ -4184,6 +4330,333 @@ latin = {
         disinherit_from_blinding = yes
         modifier = default_culture_modifier
     }
+    dalmatian = {
+        graphical_cultures = {
+            dalmatiangfx
+            italiangfx
+            southerngfx
+            westerngfx
+        }
+        color = {
+            0.8
+            0.8
+            0.2
+        }
+        used_for_random = no
+        male_names = {
+            "Andre_Andrew"
+            "Andreas_Andrew"
+            "Bisti"
+            "Blaxius"
+            "Calenda"
+            "Clime"
+            "Comes"
+            "Domagna_Dominik"
+            "Gaucoli"
+            "Gauzoli"
+            "Gervasius"
+            "Giuco"
+            "Give"
+            "Jugno_Junius"
+            "Juliano_Julius"
+            "Junius_Junius"
+            "Laurenzo_Laurence"
+            "Leonardus_Leonard"
+            "Loncho"
+            "Lucarus_Luke"
+            "Mare_Marcus"
+            "Marco_Marcus"
+            "Maroe_Marinus"
+            "Marinus_Marinus"
+            "Matheus_Matthew"
+            "Michael_Michael"
+            "Nale_Cornelius"
+            "Nichiforus_Nikephoros"
+            "Nicola_Nicholas"
+            "Pascalis_Pascal"
+            "Pasqualis_Pascal"
+            "Petragna_Peter"
+            "Petrus_Peter"
+            "Piero_Peter"
+            "Perue_Peter"
+            "Rassinus"
+            "Rusco"
+            "Stane_Stanislav"
+            "Thoma_Thomas"
+            "Tuone_Antonius"
+            "Vallius"
+            "Vita"
+        }
+        female_names = {
+            "Ana_Anna"
+            "Anna_Anna"
+            "Antolina_Antonia"
+            "Anussa"
+            "Babalio"
+            "Bodacia"
+            "Catarena_Catherine"
+            "Caterina_Catherine"
+            "Clara_Clara"
+            "Drase"
+            "Dea"
+            "Descia"
+            "Deia"
+            "Deussa"
+            "Elena_Helene"
+            "Giva"
+            "Jachussa"
+            "Jacobica"
+            "Jelussa"
+            "Laurica"
+            "Lene_Helene"
+            "Magdalena_Magdalena"
+            "Margerita_Margaret"
+            "Maria_Maria"
+            "Mauressa"
+            "Micha"
+            "Mira"
+            "Nicoletta"
+            "Nixa"
+            "Rade"
+            "Rado"
+            "Regina_Regina"
+            "Rossa_Rosa"
+            "Schimosa"
+            "Thome"
+            "Vele"
+        }
+        from_dynasty_prefix = "di"
+        disinherit_from_blinding = yes
+        modifier = default_culture_modifier
+    }
+    outremer = {
+        graphical_cultures = {
+            outremergfx
+            andalusiangfx
+            southerngfx
+            muslimgfx
+        }
+        alternate_start = {
+            has_alternate_start_parameter = {
+                key = culture
+                value = full_random
+            }
+        }
+        color = {
+            0.52
+            0.61
+            0.15
+        }
+        used_for_random = no
+        male_names = {
+            "Édouard_Edward"
+            "Érrard"
+            "Étienne_Stephen"
+            "Adalbert_Albert"
+            "Adémar_Adémar"
+            "Adrien_Adrian"
+            "Aimery_Aymeric"
+            "Alain_Alan"
+            "Aldebert_Albert"
+            "Aldéric"
+            "Alphonse_Alphonse"
+            "Amaury_Amalric"
+            "Amédée"
+            "Ancel"
+            "André_Andrew"
+            "Angelbert"
+            "Antoine_Antonius"
+            "Archambaud_Archibald"
+            "Arnaud_Arnold"
+            "Arnault_Arnold"
+            "Arnoul_Arnulf"
+            "Aubry"
+            "Aymar"
+            "Barthélémi_Bartolomeus"
+            "Baudouin_Baldwin"
+            "Benoît_Benedict"
+            "Bérenger_Berengar"
+            "Bernard_Bernard"
+            "Bertrand_Bertrand"
+            "Bohemond"
+            "Boson_Boson"
+            "Bouchard_Bouchard"
+            "Centule_Centule"
+            "Charles_Charles"
+            "Clotaire_Lothair"
+            "Ebbon"
+            "Enguerrand"
+            "Eudes_Otto"
+            "Eustache_Eustace"
+            "Evrard"
+            "Foulques_Folke"
+            "François_Francis"
+            "Frédéric_Frederick"
+            "Géraud_Gerald"
+            "Gargamel"
+            "Gaucher"
+            "Gaucelin_Joscelin"
+            "Gauthier_Walter"
+            "Geoffroy_Godfrey"
+            "Géraud_Gerard"
+            "Gelduin"
+            "Gilbert_Gilbert"
+            "Gilles_Egidius"
+            "Godefroy_Godfrey"
+            "Guichard"
+            "Guiges"
+            "Guilhem_William"
+            "Guillaume_William"
+            "Guy_Guy"
+            "Hélie"
+            "Hamelin"
+            "Henri_Henry"
+            "Herbert_Herbert"
+            "Hildebert"
+            "Hugues_Hugh"
+            "Humbert_Humbert"
+            "Jacques_Jacob"
+            "Jaufré_Godfrey"
+            "Jaspert"
+            "Jean_John"
+            "Josselin_Joscelin"
+            "Jourdain_Jordan"
+            "Julien_Julian"
+            "Léon"
+            "Léonard"
+            "Lothaire_Lothair"
+            "Louis_Louis"
+            "Loup_Lupo"
+            "Manassès_Manasseh"
+            "Mathieu_Matthew"
+            "Maurice_Maurice"
+            "Nicolas_Nicholas"
+            "Ogier"
+            "Onfroy"
+            "Orson_Ursus"
+            "Othon_Otto"
+            "Payen_Pagan"
+            "Philippe_Philip"
+            "Pierre_Peter"
+            "Raimbaut"
+            "Raoul_Ralph"
+            "Raymond_Raymond"
+            "Raynaud_Reinhold"
+            "Renaud_Reinhold"
+            "Richard_Richard"
+            "Robert_Robert"
+            "Robin"
+            "Roger_Roger"
+            "Rorgon"
+            "Rorgues"
+            "Roubaud"
+            "Savary"
+            "Sigismond_Sigmund"
+            "Simon_Simon"
+            "Thibault_Theobald"
+            "Thiébaut_Theobald"
+            "Thierry_Thierry"
+            "Thomas_Thomas"
+            "Valeran"
+            "Yves"
+        }
+        female_names = {
+            "Éléonore_Eleanor"
+            "Élodie"
+            "Étiennette"
+            "Adèle_Adela"
+            "Adalmode_Almodis"
+            "Adelaide_Adelaide"
+            "Adelinde_Adelinde"
+            "Agathe_Agatha"
+            "Agnès_Agnes"
+            "Aléarde"
+            "Alice_Alice"
+            "Aliénor_Eleanor"
+            "Alix_Alice"
+            "Almodis_Almodis"
+            "Amelie_Amelia"
+            "Anne_Anna"
+            "Antoinette"
+            "Arsinde_Arsenda"
+            "Aude"
+            "Aurengarde"
+            "Béatrice_Beatrice"
+            "Béatrix_Beatrice"
+            "Belleassez"
+            "Benoîte_Benedicta"
+            "Bérengère"
+            "Berthe_Bertha"
+            "Blanche_Blanche"
+            "Bonne_Bonne"
+            "Bourgogne"
+            "Bourguigne"
+            "Cécile_Cecilia"
+            "Cathèrine_Catherine"
+            "Charlotte"
+            "Constance_Constance"
+            "Denise_Denise"
+            "Douce_Douce"
+            "Echive"
+            "Eglantine"
+            "Elisabeth_Elizabeth"
+            "Emma_Emma"
+            "Ermengarde_Ermengarde"
+            "Ermessinde_Ermesinda"
+            "Esclarmonde_Esclarmunda"
+            "Euphrosine_Euphrosyne"
+            "Eustachie"
+            "Eve_Eva"
+            "Gerberge_Gerberga"
+            "Gisèle_Gisela"
+            "Guillaumette_Williamette"
+            "Héloise_Eloise"
+            "Helvis"
+            "Hodierne"
+            "Ide_Ida"
+            "Ida_Ida"
+            "Ildégarde_Hildegard"
+            "Isabeau_Elizabeth"
+            "Isabelle_Elizabeth"
+            "Jeanne_Joan"
+            "Judith_Judith"
+            "Julienne_Juliana"
+            "Mafalda"
+            "Mahaut_Matilda"
+            "Margot"
+            "Marguerite_Margaret"
+            "Marie_Maria"
+            "Marthe_Martha"
+            "Mascarose_Mascarosa"
+            "Mathilde_Matilda"
+            "Mélisande_Melisende"
+            "Mélisende_Melisende"
+            "Mélusine"
+            "Péronelle_Peronella"
+            "Pernelle_Peronella"
+            "Perinne"
+            "Pernette"
+            "Plaisance_Plaisance"
+            "Raymonde"
+            "Sarrazine"
+            "Solène"
+            "Sophie_Sophia"
+            "Stéphanie_Stephania"
+            "Sybille_Sibylla"
+            "Tiburge_Tiburge"
+            "Valence_Yolanda"
+            "Yolande_Yolanda"
+        }
+        from_dynasty_prefix = "de "
+        grammar_transform = french
+        modifier = default_culture_modifier
+        pat_grf_name_chance = 60
+        mat_grf_name_chance = 10
+        father_name_chance = 10
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 60
+        mother_name_chance = 10
+    }
 }
 iberian = {
     graphical_cultures = {
@@ -4191,6 +4664,8 @@ iberian = {
     }
     basque = {
         graphical_cultures = {
+            italiangfx
+            trueoccitangfx
             occitangfx
         }
         color = {
@@ -4284,6 +4759,15 @@ iberian = {
             0.82
             0.09
         }
+        alternate_start = {
+            OR = {
+                year > = 1000
+                has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
+        }
         male_names = {
             "阿方索_阿方斯"  # Alfonso_Alphonse
             "阿隆索_阿方斯"  # Alonso_Alphonse
@@ -4370,6 +4854,15 @@ iberian = {
             0.75
             0.08
         }
+        alternate_start = {
+            OR = {
+                year > = 1000
+                has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
+        }
         male_names = {
             "阿尔方_阿方斯"  # Alfons_Alphonse
             "阿尔瑙_阿诺德"  # Arnau_Arnold
@@ -4422,7 +4915,7 @@ iberian = {
             "埃尔梅森达_埃尔梅辛妲"  # Ermessenda_Ermesinda
             "埃斯特法尼娅_斯特法妮娅"  # Estefania_Stephania
             "格拉瓦"  # Gueraua
-            "古勒马"  # Guillelma
+            "Guillelma_Willhelmina"
             "吉丝拉_吉塞拉"  # Guisla_Gisela
             "伊莎贝尔_伊丽莎白"  # Isabel_Elizabeth
             "马加里达_玛格丽特"  # Margarida_Margaret
@@ -4452,6 +4945,15 @@ iberian = {
             0.75
             0.67
             0.07
+        }
+        alternate_start = {
+            OR = {
+                year > = 1000
+                has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
         }
         male_names = {
             "阿方索_阿方斯"  # Afonso_Alphonse
@@ -4539,6 +5041,14 @@ iberian = {
             0.55
             0.15
         }
+        alternate_start = {
+            OR = {
+                year < 1000 has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
+        }
         male_names = {
             "阿德方索_阿方斯"  # Adelfonso_Alphonse
             "阿吉拉"  # Agila
@@ -4588,7 +5098,7 @@ iberian = {
             "阿拉贡特"  # Aragonte
             "阿吉洛"  # Argilo
             "阿娃_爱娃"  # Ava_Eva
-            "布鲁讷琪蒂斯"  # Brunechildis
+            "Brunechildis_Brunhilda"
             "伊吉洛娜"  # Egilona
             "伊尔东萨_阿尔东萨"  # Eldonza_Aldonza
             "伊尔德瓦拉_阿尔德瓦拉"  # Elduara_Alduara
@@ -4627,6 +5137,122 @@ byzantine = {
     graphical_cultures = {
         easterngfx
     }
+    arberian = {
+        graphical_cultures = {
+            byzantinegfx
+        }
+        color = {
+            0.7
+            0.2
+            0.9
+        }
+        male_names = {
+            "Adnan"
+            "Afrim"
+            "Agim"
+            "Agon"
+            "Alban"
+            "Alek"
+            "Aleksander_Alexander"
+            "Andrea_Andrew"
+            "Ardian"
+            "Ardit"
+            "Arianit"
+            "Armend"
+            "Bajram"
+            "Bashkim"
+            "Behar"
+            "Besian"
+            "Besnik"
+            "Blerim"
+            "Bua"
+            "Burim"
+            "Dardan"
+            "Depa"
+            "Dhimitër"
+            "Dimitri"
+            "Dritan"
+            "Dëfrim"
+            "Edon"
+            "Endrit"
+            "Engjëll"
+            "Fatmir"
+            "Fisnik"
+            "Flamur"
+            "Gjergj"
+            "Gjin"
+            "Gjon"
+            "Gojko"
+            "Grigor_Gregory"
+            "Gulam"
+            "Jakub_Jacob"
+            "Jetmir"
+            "Jeton"
+            "Koja"
+            "Kostandin_Constantine"
+            "Kreshnik"
+            "Kushtrim"
+            "Leka"
+            "Lekë"
+            "Leotrim"
+            "Leutrim"
+            "Liridon"
+            "Lulëzim"
+            "Moisi"
+            "Muriq"
+            "Muzaka"
+            "Pal"
+            "Perparim"
+            "Pjetër_Peter"
+            "Progon"
+            "Pëllumb"
+            "Skender"
+            "Tanush"
+            "Teodor"
+            "Valon"
+            "Veli"
+            "Visar"
+            "Vladan"
+            "Ylli"
+            "Zameer"
+            "Zamyr"
+        }
+        female_names = {
+            "Afërdita"
+            "Arjeta"
+            "Blerina"
+            "Blerta"
+            "Blerte"
+            "Bolja"
+            "Bora"
+            "Bosa"
+            "Boxia"
+            "Boša"
+            "Boža"
+            "Dardana"
+            "Diellza"
+            "Edona"
+            "Era"
+            "Fatmire"
+            "Flutura"
+            "Jehona"
+            "Lindita"
+            "Liridona"
+            "Lule"
+            "Luljeta"
+            "Mirjeta"
+            "Pranvera"
+            "Shpresa"
+            "Shqipe"
+            "Teuta"
+            "Tirana"
+            "Vera"
+            "Yllka"
+        }
+        from_dynasty_prefix = "e "
+        disinherit_from_blinding = yes
+        modifier = default_culture_modifier
+    }
     armenian = {
         graphical_cultures = {
             byzantinegfx
@@ -4644,7 +5270,7 @@ byzantine = {
             "亚历山德_亚历山大"  # Aleksandr_Alexander
             "阿塔瓦兹德"  # Artashes
             "阿尔达希尔_阿尔德希尔"  # Artashir_Ardeshir
-            "阿塔瓦兹德"  # Artavazd
+            "Artavazd_Ardabast"
             "阿尔森"  # Arsen
             "阿特尔奈瑟"  # Arshak
             "阿绍特_阿绍特"  # Ashot_Ashot
@@ -4707,14 +5333,14 @@ byzantine = {
             "瓦加尔沙克"  # Vagharshak
             "瓦哈"  # Vahag
             "瓦罕"  # Vahan
-            "瓦哈穆"  # Vahram
+            "Vahram_Bahram"
             "瓦赫坦克"  # Vakhtank
             "瓦拉达"  # Varazdat
             "瓦坦"  # Vartan
             "瓦萨克"  # Vassak
             "瓦斯德"  # Vesd
             "瓦坦斯"  # Vrtanes
-            "扎卡尔"  # Zakare
+            "Zakare_Zachary"
             "扎米尔"  # Zarmihr
         }
         female_names = {
@@ -4787,7 +5413,7 @@ byzantine = {
         }
         male_names = {
             "阿德里亚诺斯_哈德良"  # Adrianos_Adrian
-            "阿卡基奥斯"  # Akakios
+            "Akakios_Acacius"
             "亚历山德罗斯_亚历山大"  # Alexandros_Alexander
             "阿莱克修斯_亚历克西斯"  # Alexios_Alexis
             "阿纳斯塔修斯_阿纳斯塔修斯"  # Anastasios_Anastasius
@@ -4823,11 +5449,11 @@ byzantine = {
             "尤斯特拉提奥斯"  # Eustratios
             "埃夫革尼俄斯_尤金"  # Eugenios_Eugene
             "尤菲米奥斯"  # Euphemios
-            "尤赛比奥斯"  # Eusebios
+            "Eusebios_Eusebius"
             "埃夫斯塔西俄斯_尤斯塔斯"  # Eustathios_Eustace
             "埃万革洛斯"  # Evangelos
             "加布里埃尔_加布里埃尔"  # Gabriel_Gabriel
-            "金纳迪奥斯"  # Gennadios
+            "Gennadios_Gennadius"
             "乔治奥斯_乔治"  # Georgios_George
             "杰拉西莫斯"  # Gerasimos
             "杰尔马努斯_日耳曼努斯"  # Germanos_Germanus
@@ -4842,14 +5468,14 @@ byzantine = {
             "希帕提奥斯"  # Hypatios
             "雅科博斯_雅各布"  # Iakobos_Jacob
             "伊格纳提奥斯_伊格内修斯"  # Ignatios_Ignatius
-            "因诺肯提奥斯"  # Innokentios
+            "Innokentios_Innocent"
             "约安尼斯_约翰"  # Ioannes_John
             "约安尼基奥斯"  # Ioannikios
             "约尔达尼斯_乔丹"  # Iordanes_Jordan
             "约瑟夫_约瑟夫"  # Ioseph_Joseph
             "伊萨基奥斯_以撒"  # Isaakios_Isaac
-            "艾赛亚斯"  # Isaias
-            "伊西多罗斯"  # Isidoros
+            "Isaias_Isaiah"
+            "Isidoros_Isidoros"
             "尤里亚诺斯_尤里安"  # Ioulianos_Julian
             "优士蒂尼亚诺斯_查士丁尼"  # Ioustinianos_Justinian
             "优士蒂诺斯_优士丁"  # Ioustinos_Justin
@@ -4861,14 +5487,14 @@ byzantine = {
             "君士坦提奥斯_君士坦提乌斯"  # Konstantios_Constantius
             "康斯塔斯_君士坦斯"  # Konstas_Constans
             "科斯马斯_科斯马斯"  # Kosmas_Cosmas
-            "凯利亚科斯"  # Kyriakos
+            "Kyriakos_Cyriacus"
             "基里洛斯_西里尔"  # Kyrillos_Cyril
             "凯罗斯"  # Kyros
             "劳伦提奥斯_劳伦斯"  # Laurentios_Laurence
             "拉扎罗斯_拉撒路"  # Lazaros_Lazarus
             "利昂_利奥"  # Leon_Leo
             "莱昂提奥斯_莱昂提乌斯"  # Leontios_Leontius
-            "卢卡斯"  # Loukas
+            "Loukas_Luke"
             "马卡里奥斯"  # Makarios
             "曼努埃尔"  # Manuel
             "马科斯_马库斯"  # Markos_Marcus
@@ -4881,14 +5507,14 @@ byzantine = {
             "米海尔_迈克尔"  # Michael_Michael
             "纳尔西斯"  # Narses
             "尼奥菲托斯"  # Neophytos
-            "尼克佛罗斯"  # Nikephoros
+            "Nikephoros_Nikephoros"
             "尼克塔斯"  # Niketas
             "尼科德莫斯"  # Nikodemos
             "尼古劳斯_尼古拉斯"  # Nikolaos_Nicholas
             "尼丰"  # Niphon
             "奥雷斯特斯"  # Orestes
             "帕菲里奥斯"  # Pamphilios
-            "潘克拉提奥斯"  # Pankratios
+            "Pankratios_Pancras"
             "潘托莱昂"  # Pantoleon
             "帕斯卡利斯_帕斯卡尔"  # Paschalis_Pascal
             "帕夫洛斯_保罗"  # Pavlos_Paul
@@ -4937,9 +5563,9 @@ byzantine = {
             "阿德丽安妮_阿德丽安娜"  # Adriane_Adriana
             "阿加特_阿加莎"  # Agathe_Agatha
             "阿格妮_阿格妮丝"  # Agne_Agnes
-            "艾卡特琳"  # Aikaterine
+            "Aikaterine_Catherine"
             "亚历山德拉_亚历山德拉"  # Alexandra_Alexandra
-            "阿列克谢娅"  # Alexeia
+            "Alexeia_Alexia"
             "阿纳斯塔茜娅_阿纳斯塔茜娅"  # Anastasia_Anastasia
             "安娜_安娜"  # Anna_Anna
             "安茜"  # Anthe
@@ -4960,8 +5586,8 @@ byzantine = {
             "埃莱奥多拉"  # Elaiodora
             "埃皮法妮娅"  # Epiphania
             "艾芙多吉娅_尤多茜娅"  # Eudokia_Eudocia
-            "欧多西娅"  # Eudoxia
-            "欧金尼娅"  # Eugenia
+            "Eudoxia_Eudocia"
+            "Eugenia_Eugenia"
             "尤拉莉娅"  # Eulalia
             "欧妮可"  # Eunike
             "埃菲米娅_尤菲米娅"  # Euphemia_Euphemia
@@ -4973,7 +5599,7 @@ byzantine = {
             "伊凡迪雅"  # Evanthia
             "加布蕾莉娅"  # Gabrielia
             "嘉丽法莉娅"  # Garyphallia
-            "乔治娅"  # Georgia
+            "Georgia_Georgia"
             "格蕾歌莉娅"  # Gregoria
             "海伦妮_海伦"  # Helene_Helen
             "希帕蒂娅"  # Hypatia
@@ -5313,7 +5939,7 @@ byzantine = {
             "亚伯拉罕_亚伯拉罕"  # Abraham_Abraham
             "阿布里"  # Abris
             "阿布里修斯_阿布里修斯"  # Abrisius_Abrisius
-            "阿卡修斯"  # Acacius
+            "Acacius_Acacius"
             "亚干"  # Achan
             "阿齐那"  # Achina
             "亚戴_达太"  # Addai_Thaddeus
@@ -5582,6 +6208,349 @@ byzantine = {
         female_patronym = "巴塔"  # Barta 
         prefix = yes
         modifier = default_culture_modifier
+    }
+    coptic = {
+        graphical_cultures = {
+            byzantinegfx
+        }
+        color = {
+            0.6
+            0.4
+            0.6
+        }
+        male_names = {
+            "Aaron_Aaron"
+            "Abanoub"
+            "Abderahman_Abderrahman"
+            "Abianos_Abijah"
+            "Abisalom"
+            "Ablarion"
+            "Abraam_Abraham"
+            "Agathon_Agathos"
+            "Agathonikos_Agathonikos"
+            "Agathos_Agathos"
+            "Ahmod"
+            "Aiai"
+            "Aha"
+            "Akhom"
+            "Amon"
+            "Amakhte"
+            "An"
+            "Andronicus"
+            "Androus_Andrew"
+            "Anthinos_Anthimos"
+            "Apanoub"
+            "Apahour"
+            "Apamon"
+            "Apas"
+            "Aretee"
+            "Arsenios_Arsenios"
+            "Ashraf_Ashraf"
+            "Athanasios_Athanasius"
+            "Beet"
+            "Bertouet"
+            "Biktor_Victor"
+            "Binyamin_Benjamin"
+            "Bishoi_Bishara"
+            "Bolis_Paul"
+            "Boutros_Peter"
+            "Cosmas_Cosmos"
+            "Damianos_Damian"
+            "Danyal_Daniel"
+            "Da’oud_David"
+            "Ennikeran"
+            "Erhu"
+            "Ezra_Ezra"
+            "Farag"
+            "Gerges"
+            "Ghabri_Gabriel"
+            "Guirguis_George"
+            "Habil_Abel"
+            "Hanouf"
+            "Hanri_Henry"
+            "Hany"
+            "Haroun_Aaron"
+            "Hesdy"
+            "Ilyas_Elijah"
+            "Ishaaq_Isaac"
+            "Jerjer_Gregory"
+            "Jinti"
+            "Jori"
+            "Keloj"
+            "Krystafer_Christopher"
+            "Kyrillos_Cyril"
+            "Lot_Lothar"
+            "Macari_Macarius"
+            "Marcos_Marcus"
+            "Mareten"
+            "Matta_Matthew"
+            "Mei"
+            "Mikail_Michael"
+            "Mikhael_Michael"
+            "Milad_Milad"
+            "Mina_Menas"
+            "Musa_Moses"
+            "Nakat"
+            "Nahdi"
+            "Nishde"
+            "Nai"
+            "Naui"
+            "Nishti"
+            "Nofr"
+            "Noub"
+            "Ounouf"
+            "Ourot"
+            "Ouini"
+            "Ounisht"
+            "Pajro"
+            "Pakat"
+            "Pakhom"
+            "Pamin"
+            "Panous"
+            "Papnouti"
+            "Pashnona"
+            "Pasnadi"
+            "Patape"
+            "Payom"
+            "Philotheos"
+            "Pijimi"
+            "Pijoul"
+            "Pikhit"
+            "Pimen"
+            "Pimoue"
+            "Pimoui"
+            "Pishai"
+            "Pisha-eneh"
+            "Pishoui"
+            "Psote"
+            "Rami"
+            "Rashad"
+            "Rashi"
+            "Roufail_Rafael"
+            "Ruweis"
+            "Shenouda"
+            "Shenouti"
+            "Shosi"
+            "Sim'an_Simon"
+            "Sok"
+            "Tadros_Theodore"
+            "Taio"
+            "Tawadros_Theodore"
+            "Touma_Thomas"
+            "Yakovos_Jacob"
+            "Yared_Jared"
+            "Yoannis_John"
+            "Yousab_Joseph"
+            "Zacharias_Zachary"
+            "Zaia_Isaiah"
+        }
+        female_names = {
+            "Afaf"
+            "Amunet"
+            "Asmin"
+            "Demiana"
+            "Elpis_Hope"
+            "Eratee"
+            "Ese"
+            "Ester_Esther"
+            "Fana"
+            "Hana_Anna"
+            "Hawwa_Eve"
+            "Heit"
+            "Hoeite"
+            "Ilizabith_Elizabeth"
+            "Kasrin_Catherine"
+            "Khnau"
+            "Khreere"
+            "Kristina_Christine"
+            "Lelou"
+            "Mariam_Maria"
+            "Marta_Martha"
+            "Maysoon_Maysoon"
+            "Meriam_Mary"
+            "Nefret"
+            "Paisi"
+            "Pernoufe"
+            "Piama"
+            "Piamun"
+            "Potamina"
+            "Raune"
+            "Ro'oune"
+            "Sai'ou"
+            "Samia_Samira"
+            "Sawsan"
+            "Shouree"
+            "Shoushou"
+            "Sofia_Sofia"
+            "Stoi"
+            "Takla"
+            "Talida_Taliba"
+            "Taloushem"
+            "Tanouti"
+            "Ta'ou"
+            "Tawaret"
+            "Uradaa"
+            "Virina_Veronica"
+        }
+        from_dynasty_prefix = "en "
+        male_patronym = "psen"
+        female_patronym = "tsen"
+        prefix = yes
+        modifier = default_culture_modifier
+    }
+    crimean_gothic = {
+        graphical_cultures = {
+            crimeangfx
+            byzantinegfx
+        }
+        color = {
+            0.8
+            0.4
+            0.8
+        }
+        male_names = {
+            "Achila"
+            "Adrianos_Adrian"
+            "Alaricos_Alaric"
+            "Alexandros_Alexander"
+            "Alexios_Alexis"
+            "Amalaric"
+            "Andreas_Andrew"
+            "Andronikos_Andronicus"
+            "Antonios_Antonius"
+            "Arsenios"
+            "Athanasios_Athanasius"
+            "Athanaricos"
+            "Ataulphus"
+            "Bartholomaios_Bartolomeus"
+            "Bosporios"
+            "Chindasuinto"
+            "Chintila"
+            "Christopher_Christopher"
+            "Damianos_Damian"
+            "Daniel_Daniel"
+            "David_David"
+            "Evaric_Eric"
+            "Ervigius"
+            "Ergica"
+            "Eugenios_Eugene"
+            "Eustathios_Eustace"
+            "Frederic_Frederick"
+            "Gabriel_Gabriel"
+            "Georgios_George"
+            "Gregoras_Gregory"
+            "Gregorios_Gregory"
+            "Hektorios_Hector"
+            "Helias_Elijah"
+            "Herakleios_Heracles"
+            "Iakobos_Jacob"
+            "Ignatios_Ignatius"
+            "Innokentios_Innocent"
+            "Ioannes_John"
+            "Ioannikios"
+            "Iordanes_Jordan"
+            "Ioseph_Joseph"
+            "Isaakios_Isaac"
+            "Isaias_Isaiah"
+            "Isidoros_Isidoros"
+            "Ioulianos_Julian"
+            "Ioustinianos_Justinian"
+            "Ioustinos_Justin"
+            "Kallinikos"
+            "Kallistos_Callistus"
+            "Kyriakos_Cyriacus"
+            "Kyrillos_Cyril"
+            "Laurentios_Laurence"
+            "Leon_Leo"
+            "Leovigild"
+            "Liuva"
+            "Loukas_Luke"
+            "Markos_Marcus"
+            "Michael_Michael"
+            "Nikolaos_Nicholas"
+            "Pavlos_Paul"
+            "Petros_Peter"
+            "Philippos_Philip"
+            "Radagaisus"
+            "Raphail_Raphael"
+            "Roderic_Roderick"
+            "Samuel_Samuel"
+            "Saurus"
+            "Sebastianos_Sebastian"
+            "Sigericos"
+            "Sisebutus"
+            "Sisenando"
+            "Stephanos_Stephen"
+            "Symeon_Simon"
+            "Suintila"
+            "Symmachos_Symmachus"
+            "Theocharistos"
+            "Theodoric_Theodore"
+            "Theodosios_Theodosios"
+            "Theodat_Theodat"
+            "Theudis"
+            "Thomas_Thomas"
+            "Thorismod"
+            "Tiberius_Tiberius"
+            "Timotheos_Timothy"
+            "Valerios_Valerius"
+            "Witteric"
+            "Witiges"
+            "Zacharias_Zachary"
+        }
+        female_names = {
+            "Adriane_Adriana"
+            "Agathe_Agatha"
+            "Agne_Agnes"
+            "Aikaterine_Catherine"
+            "Alexandra_Alexandra"
+            "Alexeia_Alexia"
+            "Anastasia_Anastasia"
+            "Anna_Anna"
+            "Antonia_Antonia"
+            "Cixila"
+            "Dorothea_Dorothy"
+            "Eirene_Irene"
+            "Eudokia_Eudocia"
+            "Ermenberga"
+            "Eudoxia_Eudocia"
+            "Eugenia_Eugenia"
+            "Euphemia_Euphemia"
+            "Euphrosyne_Euphrosyne"
+            "Georgia_Georgia"
+            "Goiswinthia"
+            "Helene_Helen"
+            "Ioanna_Joan"
+            "Ioulia_Julia"
+            "Iouliana_Juliana"
+            "Ioustina_Justina"
+            "Konstantia_Constantia"
+            "Konstantine_Constantina"
+            "Kyriake_Kyriake"
+            "Liuvigoto"
+            "Margarita_Margaret"
+            "Maria_Maria"
+            "Markia_Marcia"
+            "Martha_Martha"
+            "Melissa_Melisende"
+            "Pavlina_Paulina"
+            "Petronia_Petronia"
+            "Philippa_Philippa"
+            "Pulcheria_Pulcheria"
+            "Recciberga"
+            "Riccilo"
+            "Sergia_Sergia"
+            "Sibylla_Sibylla"
+            "Sophia_Sophia"
+            "Stephania_Stephania"
+            "Theodora_Theodora"
+            "Theodosia_Theodosia"
+            "Valeria_Valeria"
+            "Viviana_Viviana"
+        }
+        from_dynasty_prefix = "of "
+        modifier = default_culture_modifier
+        disinherit_from_blinding = yes
     }
 }
 celtic = {
@@ -6240,6 +7209,15 @@ celtic = {
             0.7
             0.7
         }
+        alternate_start = {
+            OR = {
+                year > = 800
+                has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
+        }
         male_names = {
             "亚当_亚当"  # Adam_Adam
             "艾尔非_阿尔温"  # Alpin_Alwin
@@ -6462,6 +7440,14 @@ celtic = {
             0.2
             0.6
             0.6
+        }
+        alternate_start = {
+            OR = {
+                year < 1000 has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
         }
         male_names = {
             "阿奇乌尔_亚瑟"  # Achiuir_Arthur
@@ -6740,7 +7726,7 @@ celtic = {
             "维汉"  # Fychan
             "弗斯尔"  # Fyrsil
             "高曼"  # Gamon
-            "加尔蒙_日耳曼"  # Garmon_German
+            "Garmon_Germanus"
             "杰兰特_格隆提乌斯"  # Geraint_Gerontius
             "格拉尔特_杰拉尔德"  # Gerallt_Gerald
             "格维德因"  # Glwyddien
@@ -7037,7 +8023,7 @@ celtic = {
             "阿那霍卡尔"  # Anauhocar
             "安德热斯_安德鲁"  # Andreas_Andrew
             "安尤德"  # Aniud
-            "安顿_安东尼努斯"  # Anton_Antoninus
+            "Anton_Antonius"
             "阿甘布里"  # Argantbri
             "阿甘莫特"  # Argantmoet
             "阿那特_阿诺德"  # Arnalt_Arnold
@@ -7467,7 +8453,7 @@ celtic = {
             "贝尔谢_布里吉德"  # Berchet_Brigid
             "贝伦加丽娅"  # Berengaria
             "贝热加达"  # Bernegarda
-            "贝尔塔"  # Berta
+            "Berta_Bertha"
             "贝蒂尔迪斯_贝尔塔"  # Berthildis_Bertha
             "贝尔提萨"  # Bertissa
             "布露图恩_布洛德文"  # Bleutuen_Blodwen
@@ -7922,7 +8908,7 @@ finno_ugric = {
             "埃维勒布"  # Ilvelemb
             "贾勒布"  # Jaolemb
             "卡勒普"  # Kaalep
-            "卡热尔"  # Kaarel
+            "Kaarel_Charles"
             "卡壬"  # Kaaren
             "卡哈尔"  # Kahar
             "卡鲁"  # Kahru
@@ -7936,7 +8922,7 @@ finno_ugric = {
             "卡梅尔"  # Kaomeel
             "卡鲁瓦德"  # Karuvald
             "卡格梅尔"  # Kaugemeel
-            "卡乌珀"  # Kaupo
+            "Kaupo_Jacob"
             "卡乌尔"  # Kaur
             "基乌尔"  # Kiur
             "基乌鲁佩格"  # Kiurupelg
@@ -7952,7 +8938,7 @@ finno_ugric = {
             "马尼瓦德"  # Manivald
             "马尔特"  # Mart
             "马鲁"  # Maru
-            "马提"  # Mati
+            "Mati_Matthew"
             "马茨"  # Mats
             "梅里斯"  # Meelis
             "梅西斯"  # Mehis
@@ -7961,7 +8947,7 @@ finno_ugric = {
             "尼格拉斯"  # Niglas
             "奥赫托维"  # Ohetõiv
             "奥赫瓦德"  # Ohevald
-            "奥勒维"  # Olev
+            "Olev_Olaf"
             "奥尼"  # Onni
             "奥特勒布"  # Otelemb
             "奥托"  # Ott
@@ -8092,7 +9078,7 @@ finno_ugric = {
             "乌拉内"  # Ülane
             "乌勒"  # Ülle
         }
-        from_dynasty_prefix = "科塔 "  # kohta 
+        from_dynasty_prefix = "of "
         modifier = default_culture_modifier
     }
     komi = {
@@ -8686,6 +9672,166 @@ finno_ugric = {
         founder_named_dynasties = yes
         modifier = default_culture_modifier
     }
+    meshchera = {
+        graphical_cultures = {
+            ugricgfx
+        }
+        color = {
+            0.3
+            0.5
+            0.5
+        }
+        male_names = {
+            "Andyamo"
+            "Chichayka"
+            "Chumbulat"
+            "Dergun"
+            "Deryab"
+            "Dobrinya"
+            "Erziya"
+            "Inzhay"
+            "Kezhapa"
+            "Kezhay"
+            "Kezhedey"
+            "Kezhevat"
+            "Kichay"
+            "Kubrat"
+            "Malyaka"
+            "Malyy"
+            "Meltsayka"
+            "Mordvinko"
+            "Moksha"
+            "Nalka"
+            "Nuyaksha"
+            "Nuyanza"
+            "Nuyat"
+            "Ovtay"
+            "Pakstyan"
+            "Paksyay"
+            "Paksyut"
+            "Parush"
+            "Pivtsay"
+            "Pokshayka"
+            "Putyayka"
+            "Setyamka"
+            "Shindyay"
+            "Shoksha"
+            "Syrka"
+            "Tikshayka"
+            "Tyueykezhut"
+            "Uchva"
+            "Varaka"
+            "Vechkas"
+            "Velmayka"
+            "Virdyan"
+            "Viryas"
+            "Viryay"
+            "Atyamas"
+            "Azyren"
+            "Chipaz"
+            "Kardaz"
+            "Kinyak"
+            "Koshel"
+            "Murunza"
+            "Naruchad"
+            "Nishkepaz"
+            "Orunza"
+            "Puresh"
+            "Purysho"
+            "Saksa"
+            "Shkay"
+            "Surt"
+            "Tul"
+            "Tunya"
+            "Tutyra"
+            "Tylmache"
+            "Tylze"
+            "Tyushten"
+            "Tyushtya"
+            "Uzhara"
+            "Varmanpaz"
+        }
+        female_names = {
+            "Anava"
+            "Ashava"
+            "Asrava"
+            "Azra-Va"
+            "Chechama"
+            "Chenksa"
+            "Cherava"
+            "Chichayka"
+            "Chindyapa"
+            "Chindyayka"
+            "Chinzhay"
+            "Chitska"
+            "Elyuva"
+            "Inyava"
+            "Kanyava"
+            "Kanyuva"
+            "Kirdyava"
+            "Kunava"
+            "Kunyavka"
+            "Litava"
+            "Liyava"
+            "Mazava"
+            "Megurka"
+            "Mel'shay"
+            "Nezayka"
+            "Nulzyava"
+            "Nuyanza"
+            "Nyal'ka"
+            "Nyayka"
+            "Olota"
+            "Ordava"
+            "Oshama"
+            "Parava"
+            "Pekshayka"
+            "Pemka"
+            "Pokshava"
+            "Poshayka"
+            "Potekay"
+            "Potyava"
+            "Putyayka"
+            "Ravzhava"
+            "Ruzava"
+            "Sanal'ka"
+            "Sangasa"
+            "Sernyava"
+            "Serzhay"
+            "Setyamka"
+            "Seyamka"
+            "Shonzhava"
+            "Shukshtoroyka"
+            "Sinyava"
+            "Siyamka"
+            "Slyugan'ka"
+            "Sochava"
+            "Styaka"
+            "Syryava"
+            "Tatka"
+            "Tekay"
+            "Tetyava"
+            "Tikshayka"
+            "Toyaksha"
+            "Tundava"
+            "Tundya"
+            "Unzhutka"
+            "Upurga"
+            "Utyayka"
+            "Valdava"
+            "Vergava"
+            "Vezhav"
+            "Vidyava"
+            "Virtyava"
+            "Yalgava"
+            "Litova"
+            "Mastorava"
+            "Noroava"
+        }
+        from_dynasty_prefix = "of "
+        founder_named_dynasties = yes
+        modifier = default_culture_modifier
+    }
 }
 baltic = {
     graphical_cultures = {
@@ -8994,7 +10140,7 @@ altaic = {
             "恰里"  # Çagri
             "恰卡"  # Çaka
             "阿夫辛"  # Afsin
-            "阿赫梅特"  # Ahmet
+            "Ahmet_Ahmad"
             "阿克松柯尔"  # Aksonqor
             "阿莱丁"  # Alaeddin
             "阿里"  # Ali
@@ -9063,14 +10209,14 @@ altaic = {
             "梅赫迈德_穆罕默德"  # Mehmed_Muhammad
             "梅利克沙"  # Meliksah
             "门古切克"  # Mengucek
-            "梅苏德"  # Mesud
-            "穆拉德"  # Murad
-            "穆斯塔法"  # Mustafa
+            "Mesud_Masud"
+            "Murad_Morad"
+            "Mustafa_Mustafa"
             "奥尔罕"  # Orhan
             "奥斯曼"  # Osman
             "波尔苏克"  # Porsuk
             "鲁斯泰姆"  # Rustem
-            "拉玛赞"  # Ramazan
+            "Ramazan_Ramadan"
             "里德凡"  # Ridvan
             "瑟布克"  # Söbuk
             "瑟克门"  # Sökmen
@@ -9081,7 +10227,7 @@ altaic = {
             "萨鲁贾"  # Saruca
             "萨夫特勤"  # Savtekin
             "萨武尔"  # Savur
-            "塞欣沙"  # Sehinsah
+            "Sehinsah_Shahanshah"
             "塞尔柱"  # Selçuk
             "塞利姆_萨利姆"  # Selim_Salim
             "森杰尔"  # Sencer
@@ -9107,7 +10253,7 @@ altaic = {
             "尤努斯_约拿"  # Yunus_Jonah
         }
         female_names = {
-            "奇切克"  # Çiçek
+            "Çiçek_Çiçek"
             "奇伦"  # Çilen
             "奇尔坦内茜"  # Çiltanesi
             "厄兹古尔"  # Özgul
@@ -9132,7 +10278,7 @@ altaic = {
             "埃辛"  # Esin
             "法蒂玛_法蒂玛"  # Fatma_Fatima
             "费茹泽"  # Firuze
-            "古勒奇切克"  # Gulçiçek
+            "Gulçiçek_Gulçiçek"
             "古莱"  # Gulay
             "古勒巴哈尔"  # Gulbahar
             "古勒费姆"  # Gulfem
@@ -9151,7 +10297,7 @@ altaic = {
             "依尔格"  # Irge
             "卡拉西克"  # Karacik
             "拉莱"  # Lale
-            "蕾拉"  # Leyla
+            "Leyla_Laila"
             "玛拉"  # Mala
             "曼苏蕾"  # Mansure
             "梅尔薇"  # Merve
@@ -9194,6 +10340,7 @@ altaic = {
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
+        nomadic_in_alt_start = yes
     }
     pecheneg = {
         graphical_cultures = {
@@ -9238,14 +10385,14 @@ altaic = {
             "苏鲁"  # Suru
             "塔图斯"  # Tatus
             "特贝尔"  # Teber
-            "特米尔"  # Temir
+            "Temir_Timur"
             "提拉奇"  # Tyrach
             "亚夫迪"  # Yavdi
             "雅兹"  # Yazi
             "叶克"  # Yeke
         }
         female_names = {
-            "奇切克"  # Çiçek
+            "Çiçek_Çiçek"
             "其伦"  # Çilen
             "其尔塔尼斯"  # Çiltanesi
             "奥兹古尔"  # Özgul
@@ -9291,6 +10438,7 @@ altaic = {
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
+        nomadic_in_alt_start = yes
     }
     cuman = {
         graphical_cultures = {
@@ -9345,7 +10493,7 @@ altaic = {
             "乌祖尔"  # Uzur
         }
         female_names = {
-            "奇切克"  # Çiçek
+            "Çiçek_Çiçek"
             "其伦"  # Çilen
             "其尔塔尼斯"  # Çiltanesi
             "奥兹古尔"  # Özgul
@@ -9391,6 +10539,7 @@ altaic = {
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
+        nomadic_in_alt_start = yes
     }
     khazar = {
         graphical_cultures = {
@@ -9458,8 +10607,8 @@ altaic = {
             "以斯拉"  # Ezra
             "哈努卡"  # Hanukkah
             "希吉奇亚"  # Hezekiah
-            "以撒"  # Isaac
-            "梅那西"  # Manasseh
+            "Isaac_Isaac"
+            "Manasseh_Manasseh"
             "尼西"  # Nisi
             "亚夫迪"  # Yavdi
             "西布伦"  # Zebulun
@@ -9535,6 +10684,7 @@ altaic = {
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
+        nomadic_in_alt_start = yes
     }
     bolghar = {
         graphical_cultures = {
@@ -9740,6 +10890,7 @@ altaic = {
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
+        nomadic_in_alt_start = yes
     }
     avar = {
         graphical_cultures = {
@@ -9751,6 +10902,14 @@ altaic = {
             0.7
             0.7
             0.3
+        }
+        alternate_start = {
+            OR = {
+                year < 1000 has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
         }
         male_names = {
             "奥米什"  # Almish
@@ -9991,6 +11150,7 @@ altaic = {
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
+        nomadic_in_alt_start = yes
     }
     karluk = {
         graphical_cultures = {
@@ -10004,94 +11164,258 @@ altaic = {
             0.15
         }
         male_names = {
-            "奇尔布"  # Çilbu
-            "艾帕克"  # Aepak
-            "阿萨勒普"  # Asalup
-            "阿塞普"  # Asep
-            "阿特拉克"  # Atrak
-            "邦涅克"  # Bönek
-            "八赤蛮"  # Bachman
-            "贝格鲁克"  # Begluk
-            "布鲁士"  # Blush
-            "邦亚克"  # Bonyak
-            "博尔奇"  # Borç
-            "艾尔迪奇尤克"  # Eldeçyuk
-            "艾特莱克"  # Etrek
-            "吉尔根"  # Girgen
-            "格兹"  # Gzi
-            "伊特拉"  # Itlar
-            "伊图克"  # Ituk
-            "孔其克"  # Könçek
-            "柯布亚克"  # Kobyak
-            "科普提"  # Kopti
-            "科特延"  # Kotyan
-            "科扎"  # Koza
-            "科泽尔"  # Kozel
-            "库巴萨"  # Kubasar
-            "昆图维迪"  # Kuntuvdi
-            "忽滩"  # Kutan
-            "普拉德"  # Pulad
-            "萨鲁"  # Saru
-            "塞文奇"  # Sevenç
-            "希尔先"  # Sirçan
-            "索卡尔"  # Sokal
-            "索坦"  # Sotan
-            "苏格尔"  # Sugr
-            "托托古尔"  # Törtogul
-            "托格力"  # Togli
-            "托伦"  # Tolun
-            "图格尔"  # Tugor
-            "伍兹鲁克"  # Uzluk
-            "乌祖尔"  # Uzur
+            "Adigh"
+            "Adïgh"
+            "Aghulïq"
+            "Agut"
+            "Alïp"
+            "Alïpqutlugh"
+            "Alïpshalçi"
+            "Alïpshul"
+            "Alïptegin"
+            "Anar"
+            "Apït"
+            "Aqunçï"
+            "Arslan"
+            "Aruq"
+            "Asuq"
+            "Aydaq"
+            "Ayçur"
+            "Bagha"
+            "Baghïr"
+            "Barçuq"
+            "Barïs"
+            "Barïsbek"
+            "Baytash"
+            "Bayça"
+            "Bayïrqu"
+            "Bazir"
+            "Bilge"
+            "Bilgä"
+            "Bilgätegin"
+            "Boyla"
+            "Bughra"
+            "Bughraçuq"
+            "Bumin"
+            "Bumïn"
+            "Buqa"
+            "Buqaçuq"
+            "Buquq"
+            "Buyruq"
+            "Bögü"
+            "Bökiye"
+            "Böri"
+            "Böritegin"
+            "Börtil"
+            "Bülin"
+            "Bülün"
+            "Büri"
+            "Ebiztir"
+            "Elig"
+            "Eltugun"
+            "Elçi"
+            "Eneligçur"
+            "Enoz"
+            "Erdem"
+            "Eregje"
+            "Erin"
+            "Erkin"
+            "Esdem"
+            "Eshime"
+            "Eshinke"
+            "Etmish"
+            "Eçshün"
+            "Hïdïr"
+            "Iletmish"
+            "Ilmïsh"
+            "Ilterish"
+            "Iltughun"
+            "Ilçur"
+            "Inançu"
+            "Inek"
+            "Inel"
+            "Isbar"
+            "Istämi"
+            "Jegen"
+            "Jegin"
+            "Jelme"
+            "Jükün"
+            "Jüküntirig"
+            "Jürküñ"
+            "Jürüküm"
+            "Jüz"
+            "Jüzyapïq"
+            "Jüçi"
+            "Jämï"
+            "Kara"
+            "Ketim"
+            "Keçig"
+            "Kutsha"
+            "Kïlïç"
+            "Kökmish"
+            "Köksagun"
+            "Köpek"
+            "Körtile"
+            "Kügir"
+            "Kül"
+            "Külbilgä"
+            "Kültegin"
+            "Kültudun"
+            "Külçur"
+            "Külüg"
+            "Küni"
+            "Kürebir"
+            "Kürtel"
+            "Küçarslan"
+            "Küçlüg"
+            "Küçurï"
+            "Maqaraç"
+            "Maqraç"
+            "Mukan"
+            "Mäñlik"
+            "Oghlan"
+            "Oghul"
+            "Oghulbarïs"
+            "Oghulcak"
+            "Ontutuq"
+            "Ozmush"
+            "Pülüñ"
+            "Qapaghan"
+            "Qarabarïs"
+            "Qazghaq"
+            "Qumash"
+            "Qunï"
+            "Qutlugh"
+            "Saghunaq"
+            "Saghçïq"
+            "Sagun"
+            "Satuq"
+            "Satuqbughra"
+            "Sebük"
+            "Sebüktegin"
+            "Señram"
+            "Shalçi"
+            "Shughur"
+            "Shöñüz"
+            "Shümül"
+            "Soge"
+            "Suluk"
+            "Süçüg"
+            "Tabgaç"
+            "Tadqïsh"
+            "Tadqïshçor"
+            "Tafaç"
+            "Tamgaç"
+            "Tamghan"
+            "Tamghançur"
+            "Tapa"
+            "Tardu"
+            "Tardush"
+            "Tarqan"
+            "Tatpar"
+            "Tegin"
+            "Tekesh"
+            "Tersin"
+            "Teñirikän"
+            "Tinsi"
+            "Tirig"
+            "Toghan"
+            "Toghrïl"
+            "Togluq"
+            "Tojgan"
+            "Torghul"
+            "Toñga"
+            "Toñra"
+            "Toñrategin"
+            "Toñuz"
+            "Tugan"
+            "Tughrul"
+            "Tugun"
+            "Tunyuquq"
+            "Tutuq"
+            "Töles"
+            "Tömür"
+            "Tüzmish"
+            "Udun"
+            "Udur"
+            "Umaç"
+            "Uqugh"
+            "Uruñ"
+            "Ushlik"
+            "Yaghïzçor"
+            "Yaghïçi"
+            "Yamtar"
+            "Yaraq"
+            "Yaruq"
+            "Yaruqtegin"
+            "Yarïsh"
+            "Yigençur"
+            "Yola"
+            "Yollughtegin"
+            "Yolluq"
+            "Yorçïn"
+            "Yïlqï"
+            "Çaghrï"
+            "Çaça"
+            "Çañ"
+            "Çeküñ"
+            "Çeçem"
+            "Çigshi"
+            "Çigsü"
+            "Çor"
+            "Çuçi"
+            "Çuçibüri"
+            "Ïshbara"
+            "Ïtaçïq"
+            "Öge"
+            "Ögüne"
+            "Örge"
+            "Özmish"
+            "Öztoghdï"
+            "Özyegen"
+            "Özüge"
+            "Özünçü"
+            "Öçen"
+            "Üge"
+            "Ülüg"
+            "Üçsi"
         }
         female_names = {
-            "奇切克"  # Çiçek
-            "其伦"  # Çilen
-            "其尔塔尼斯"  # Çiltanesi
-            "奥兹古尔"  # Özgul
-            "厄兹莱姆"  # Özlem
-            "阿克古尔"  # Akgul
-            "阿斯丽"  # Asli
-            "阿雅松"  # Ayasun
-            "艾腾"  # Ayten
-            "伯兹琴"  # Bozçin
-            "迪勒克"  # Dilek
-            "埃辛"  # Esin
-            "古勒奇切克"  # Gulçiçek
-            "古蕾"  # Gulay
-            "昆杜斯"  # Gunduz
-            "昆迪斯"  # Gundes
-            "古涅斯"  # Gunes
-            "伊尔凯"  # Ilkay
-            "依佩克"  # Ipek
-            "依佩克尔"  # Ipekel
-            "依尔格"  # Irge
-            "卡拉西克"  # Karacik
-            "玛拉"  # Mala
-            "穆特鲁"  # Mutlu
-            "佩克森"  # Peksen
-            "萨穆尔"  # Samur
-            "萨莉卡"  # Sarica
-            "萨缇"  # Sati
-            "塞维莱"  # Sevilay
-            "塞温迪克"  # Sevindik
-            "席蓓尔"  # Sibel
-            "席琳"  # Sirin
-            "席尔玛"  # Sirma
-            "松古尔"  # Songul
-            "特克奇"  # Tekçe
-            "图拉"  # Tura
+            "Artuç"
+            "Azgan"
+            "Beslik"
+            "Bulït"
+            "Burtam"
+            "Elbeslik"
+            "Ershen"
+            "Ilbeslik"
+            "Ilbilgä"
+            "Kadïñ"
+            "Katun"
+            "Otqan"
+            "Qaraqaz"
+            "Sarïgha"
+            "Teken"
+            "Teñriken"
+            "Terek"
+            "Teçush"
+            "Tograk"
             "乌马伊"  # Umay
-            "乌孙比凯"  # Usunbike
-            "亚萨尔"  # Yasar
-            "耶尔德姆"  # Yeldem
-            "耶尔迪次"  # Yildiz
+            "Yiltïs"
+            "Yïgash"
+            "Yïlgun"
+            "Yïlqï"
+            "Çeçek"
+            "Örüñ"
+            "Ötüken"
+            "Ükükün"
         }
         from_dynasty_prefix = ""  # of 
         dynasty_title_names = yes
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
+        nomadic_in_alt_start = yes
     }
     kirghiz = {
         graphical_cultures = {
@@ -10105,45 +11429,247 @@ altaic = {
             0.30
         }
         male_names = {
-            "奇尔布"  # Çilbu
-            "艾帕克"  # Aepak
-            "阿萨勒普"  # Asalup
-            "阿塞普"  # Asep
-            "阿咄剌"  # Atrak
-            "邦涅克"  # Bönek
-            "八赤蛮"  # Bachman
-            "贝格鲁克"  # Begluk
-            "布鲁士"  # Blush
-            "邦亚克"  # Bonyak
-            "博尔奇"  # Borç
-            "艾尔迪奇尤克"  # Eldeçyuk
-            "艾特莱克"  # Etrek
-            "吉尔根"  # Girgen
-            "格兹"  # Gzi
-            "伊特拉"  # Itlar
-            "伊图克"  # Ituk
-            "孔其克"  # Könçek
-            "柯布亚克"  # Kobyak
-            "科普提"  # Kopti
-            "科特延"  # Kotyan
-            "科扎"  # Koza
-            "科泽尔"  # Kozel
-            "库巴萨"  # Kubasar
-            "昆图维迪"  # Kuntuvdi
-            "忽滩"  # Kutan
-            "普拉德"  # Pulad
-            "萨鲁"  # Saru
-            "塞文奇"  # Sevenç
-            "希尔先"  # Sirçan
-            "索卡尔"  # Sokal
-            "索坦"  # Sotan
-            "苏格尔"  # Sugr
-            "托托古尔"  # Törtogul
-            "托格力"  # Togli
-            "托伦"  # Tolun
-            "图格尔"  # Tugor
-            "伍兹鲁克"  # Uzluk
-            "乌祖尔"  # Uzur
+            "Aday"
+            "Adigh"
+            "Adïgh"
+            "Aghulïq"
+            "Agut"
+            "Aka"
+            "Alas"
+            "Alcibay"
+            "Alïp"
+            "Alïpshalçi"
+            "Alïpshul"
+            "Amas"
+            "Anar"
+            "Anis"
+            "Apït"
+            "Aqunçï"
+            "Arslan"
+            "Aruk"
+            "Aruq"
+            "Astaançï"
+            "Astam"
+            "Asuq"
+            "Aya"
+            "Ayaltïn"
+            "Ayan"
+            "Ayas"
+            "Aydaq"
+            "Aydas"
+            "Ayçur"
+            "Bagha"
+            "Baghïr"
+            "拔塞匐"  # Barsbeg
+            "Barçuq"
+            "Barïs"
+            "Barïsbek"
+            "Bayça"
+            "Bayïrqu"
+            "Bilge"
+            "Bilgä"
+            "Boyla"
+            "Bughra"
+            "Bumin"
+            "Bumïn"
+            "Buqa"
+            "Buqaçuq"
+            "Buquq"
+            "Buyruq"
+            "Bögü"
+            "Bökiye"
+            "Böri"
+            "Börtil"
+            "Bülin"
+            "Bülün"
+            "Büri"
+            "Ebiztir"
+            "Elig"
+            "Eltugun"
+            "Elçi"
+            "Eneligçur"
+            "Enoz"
+            "Erdem"
+            "Eregje"
+            "Erin"
+            "Erkin"
+            "Esdem"
+            "Eshime"
+            "Eshinke"
+            "Etmish"
+            "Eçshün"
+            "Hozan"
+            "Iletmish"
+            "Ilterish"
+            "Iltughun"
+            "Ilçur"
+            "Inançu"
+            "Inek"
+            "Inel"
+            "Isbar"
+            "Istämi"
+            "贾格拉恰尔"  # Jaglaqar
+            "Jegen"
+            "Jegin"
+            "Jelme"
+            "Jükün"
+            "Jüküntirig"
+            "Jürküñ"
+            "Jürüküm"
+            "Jüz"
+            "Jüzyapïq"
+            "Jüçi"
+            "Jämï"
+            "Kanza"
+            "Kara"
+            "Karol"
+            "Ketim"
+            "Keçig"
+            "Kokan"
+            "阔阔托依"  # Kokotoy
+            "Kökmish"
+            "Köpek"
+            "Körtile"
+            "Kügir"
+            "Kül"
+            "Kültegin"
+            "Kültudun"
+            "Külçur"
+            "Külüg"
+            "Küni"
+            "Kürebir"
+            "Kürtel"
+            "Küske"
+            "Küçlüg"
+            "Küçurï"
+            "玛纳斯"  # Manas
+            "Maqaraç"
+            "Maqraç"
+            "Mukan"
+            "Mukka"
+            "Mustakkay"
+            "Mäñlik"
+            "Oghlan"
+            "Oghul"
+            "Oghulbarïs"
+            "Ontutuq"
+            "Oudun"
+            "Ozmush"
+            "Oçan"
+            "Parush"
+            "Pülüñ"
+            "Qapaghan"
+            "Qarabarïs"
+            "Qazghaq"
+            "Qumash"
+            "Qunï"
+            "Qutlugh"
+            "Saghunaq"
+            "Saghçïq"
+            "Sanaan"
+            "Sappash"
+            "赛依铁克"  # Seitek
+            "赛麦台依"  # Semetei
+            "Señram"
+            "Shadrash"
+            "Shalçi"
+            "Shapkay"
+            "Sheltrek"
+            "Shughur"
+            "Shöñüz"
+            "Shümül"
+            "Sodan"
+            "Süçüg"
+            "Tadqïsh"
+            "Tadqïshçor"
+            "Talay"
+            "Tamghan"
+            "Tamghançur"
+            "Tapa"
+            "Tardu"
+            "达头"  # Tardush
+            "Tarqan"
+            "Tatpar"
+            "Tegin"
+            "Tekesh"
+            "Tersin"
+            "Teñirikän"
+            "Tinsi"
+            "Tirig"
+            "Toghan"
+            "Toghrïl"
+            "Togluq"
+            "Tojgan"
+            "Tolday"
+            "Torday"
+            "Tottolush"
+            "Toñra"
+            "Toñrategin"
+            "Toñuz"
+            "Tugan"
+            "Tugun"
+            "Tunyuquq"
+            "Tutuq"
+            "Töles"
+            "Tömür"
+            "Tülgü"
+            "Tüzmish"
+            "Udun"
+            "Udur"
+            "Ulug"
+            "Ulugbash"
+            "Umaç"
+            "Uqugh"
+            "Uruñ"
+            "Yaghïzçor"
+            "Yaghïçi"
+            "Yamtar"
+            "Yapïq"
+            "Yaraq"
+            "Yaruq"
+            "Yaruqtegin"
+            "Yarïsh"
+            "Yigençur"
+            "Yola"
+            "Yollughtegin"
+            "Yolluq"
+            "Yorçïn"
+            "Yïlqï"
+            "Çabas"
+            "Çalbah"
+            "Çama"
+            "Çarkop"
+            "Çayah"
+            "Çaça"
+            "Çañ"
+            "Çeküñ"
+            "Çeçem"
+            "Çigshi"
+            "Çigsü"
+            "Çiis"
+            "Çola"
+            "Çolbanah"
+            "Çor"
+            "Çortah"
+            "Çudan"
+            "Çuhul"
+            "Çuçi"
+            "Çuçibüri"
+            "Çïnma"
+            "Ïshbara"
+            "Ïtaçïq"
+            "Öge"
+            "Ögüne"
+            "Örge"
+            "Özmish"
+            "Öztoghdï"
+            "Özyegen"
+            "Özüge"
+            "Özünçü"
+            "Öçen"
+            "Üge"
+            "Ülüg"
+            "Üçsi"
             "玛纳斯"  # Manas
             "赛麦台依"  # Semetei
             "赛依铁克"  # Seitek
@@ -10155,47 +11681,51 @@ altaic = {
         female_names = {
             "贝加伊姆"  # Begayim
             "吉别克"  # Jibek
-            "奇切克"  # Çiçek
-            "其伦"  # Çilen
-            "其尔塔尼斯"  # Çiltanesi
-            "奥兹古尔"  # Özgul
-            "厄兹莱姆"  # Özlem
-            "阿克古尔"  # Akgul
-            "阿斯丽"  # Asli
-            "阿雅松"  # Ayasun
-            "艾腾"  # Ayten
-            "伯兹琴"  # Bozçin
-            "迪勒克"  # Dilek
-            "埃辛"  # Esin
-            "古勒奇切克"  # Gulçiçek
-            "古蕾"  # Gulay
-            "昆杜斯"  # Gunduz
-            "昆迪斯"  # Gundes
-            "古涅斯"  # Gunes
-            "伊尔凯"  # Ilkay
-            "依佩克"  # Ipek
-            "依佩克尔"  # Ipekel
-            "依尔格"  # Irge
-            "卡拉西克"  # Karacik
-            "玛拉"  # Mala
-            "穆特鲁"  # Mutlu
-            "佩克森"  # Peksen
-            "萨穆尔"  # Samur
-            "萨莉卡"  # Sarica
-            "萨缇"  # Sati
-            "塞维莱"  # Sevilay
-            "塞温迪克"  # Sevindik
-            "席蓓尔"  # Sibel
-            "席琳"  # Sirin
-            "席尔玛"  # Sirma
-            "松古尔"  # Songul
-            "特克奇"  # Tekçe
-            "图拉"  # Tura
+            "Ancak"
+            "Artuç"
+            "Atlas"
+            "Azgan"
+            "贝加伊姆"  # Begayim
+            "Beslik"
+            "Bulït"
+            "Burtam"
+            "Elbeslik"
+            "Ershen"
+            "Ilbeslik"
+            "Ilbilgä"
+            "吉别克"  # Jibek
+            "Kadïñ"
+            "Karlïgash"
+            "Katun"
+            "Manu"
+            "Otqan"
+            "Pekash"
+            "Qaraqaz"
+            "Sarïgha"
+            "Teken"
+            "Terek"
+            "Teçush"
+            "Teñriken"
+            "Tograk"
             "乌马伊"  # Umay
-            "乌孙比凯"  # Usunbike
-            "亚萨尔"  # Yasar
-            "耶尔德姆"  # Yeldem
-            "耶尔迪次"  # Yildiz
+            "Yiltïs"
+            "Yïgash"
+            "Yïlgun"
+            "Yïlqï"
+            "Çeçek"
+            "Çibäk"
+            "Çoonhïs"
+            "Çüstük"
+            "Çabalka"
+            "Çacah"
+            "Çahayah"
+            "Çohïray"
+            "Ïzïgas"
+            "Ïzïrga"
+            "Ïzïrgacah"
+            "Örüñ"
+            "Ötüken"
+            "Ükükün"
         }
         from_dynasty_prefix = ""  # of 
         founder_named_dynasties = yes
@@ -10204,6 +11734,7 @@ altaic = {
         prefix = no
         allow_looting = yes
         modifier = default_culture_modifier
+        nomadic_in_alt_start = yes
     }
     uyghur = {
         graphical_cultures = {
@@ -10227,93 +11758,280 @@ altaic = {
             "不花"  # Buqa
             "满力"  # Mänglik
             "乌苏米施"  # Özmish
-            "悉卜"  # Çilbu
-            "奚博"  # Aepak
-            "珂挲楼"  # Asalup
-            "珂屧"  # Asep
-            "阿咄剌"  # Atrak
-            "蒲惄"  # Bönek
-            "八赤蛮"  # Bachman
-            "匐勒"  # Begluk
-            "掊楼思"  # Blush
-            "磨延"  # Bonyak
-            "勃尔赤"  # Borç
-            "俱咄丁"  # Eldeçyuk
-            "奚惕"  # Etrek
-            "其贤"  # Girgen
-            "其慈"  # Gzi
-            "颉落"  # Itlar
-            "劼咄"  # Ituk
-            "勘其可"  # Könçek
-            "孤拍"  # Kobyak
-            "合提"  # Kopti
-            "阔延"  # Kotyan
-            "孤才"  # Koza
-            "骨篯"  # Kozel
-            "勾婆挲"  # Kubasar
-            "涓兜奚第"  # Kuntuvdi
+            "Adïgh"
+            "Aghulïq"
+            "Agut"
+            "Alïp"
+            "Alïpqutlugh"
+            "Alïpshalçi"
+            "Alïpshul"
+            "Anar"
+            "Apategin"
+            "Apït"
+            "Aqunçï"
+            "Arslan"
+            "Aruq"
+            "Asuq"
+            "Atutuq"
+            "Aydaq"
+            "Ayçur"
+            "Baatur"
+            "Bagha"
+            "Baghïr"
+            "巴而朮"  # Barchuq
+            "Barghut"
+            "婆些"  # Bars
+            "Barçuk"
+            "Barçuq"
+            "Barïs"
+            "Barïsbek"
+            "Basmil"
+            "Bayan"
+            "Bayançur"
+            "Bayça"
+            "Bayïrqu"
+            "毗伽"  # Bilge
+            "Bilgä"
+            "Boyla"
+            "Bughra"
+            "Bumin"
+            "Bumïn"
+            "不花"  # Buqa
+            "Buqaçuq"
+            "Buquq"
+            "Buyruq"
+            "Bögü"
+            "Bögübilgä"
+            "Bökiye"
+            "Böri"
+            "Börtil"
+            "Börä"
+            "Bülin"
+            "Bülün"
+            "Büri"
+            "Ebiztir"
+            "Elig"
+            "Eltugun"
+            "Elçi"
+            "Eneligçur"
+            "Enoz"
+            "Erdem"
+            "Eregje"
+            "Erin"
+            "Erkin"
+            "Esdem"
+            "Eshime"
+            "Eshinke"
+            "Etmish"
+            "Eçshün"
+            "Ilbilgä"
+            "Iletmish"
+            "Iltämür"
+            "Ilterish"
+            "Iltughun"
+            "Ilçur"
+            "Inançu"
+            "Inek"
+            "Inel"
+            "Irkin"
+            "Isbar"
+            "Istämi"
+            "Jegen"
+            "Jegin"
+            "Jelme"
+            "Jükün"
+            "Jüküntirig"
+            "Jürküñ"
+            "Jürüküm"
+            "Jüz"
+            "Jüzyapïq"
+            "Jüçi"
+            "Jämï"
+            "Kara"
+            "Kesmez"
+            "Ketim"
+            "Keçig"
+            "Kiräsiz"
             "忽滩"  # Kutan
-            "波赖"  # Pulad
-            "娑楼"  # Saru
-            "失弦"  # Sevenç
-            "失儿干"  # Sirçan
-            "苏柯"  # Sokal
-            "苏檀"  # Sotan
-            "涑何"  # Sugr
-            "都都和"  # Törtogul
-            "都利"  # Togli
-            "都挛"  # Tolun
-            "都胡"  # Tugor
-            "乌禄克"  # Uzluk
-            "乌祖尔"  # Uzur
+            "Känçiq"
+            "Kökmish"
+            "Könçög"
+            "Köpek"
+            "Körtile"
+            "Kügir"
+            "Kül"
+            "Kültegin"
+            "Kültudun"
+            "Külçur"
+            "Külüg"
+            "Küni"
+            "Kürebir"
+            "Kürtel"
+            "Küçlüg"
+            "Küçurï"
+            "Mamuraq"
+            "Maqaraç"
+            "Maqraç"
+            "Moyançur"
+            "Mukan"
+            "满力"  # Mänglik
+            "Mäñlik"
+            "Negüril"
+            "Oghlan"
+            "Oghul"
+            "Oghulbarïs"
+            "Ontutuq"
+            "Ormïzt"
+            "Ormuz"
+            "Ozmush"
+            "Pülüñ"
+            "Qapaghan"
+            "Qarabarïs"
+            "Qaya"
+            "Qazghaq"
+            "Qoshun"
+            "Qosqar"
+            "Qumash"
+            "Qunï"
+            "Qutadmish"
+            "Qutlugh"
+            "Rukshin"
+            "Saghunaq"
+            "Saghçïq"
+            "Salïndï"
+            "Señgi"
+            "Señram"
+            "Shalçi"
+            "Shughur"
+            "Shöñüz"
+            "Shümül"
+            "Süçüg"
+            "Süñülug"
+            "Tadqïsh"
+            "Tadqïshçor"
+            "Tamghan"
+            "Tamghançur"
+            "Tapa"
+            "Tardu"
+            "Tardush"
+            "Tarkhan"
+            "Tarqan"
+            "Tatpar"
+            "Taypindu"
+            "Tämirbuqa"
+            "Tegin"
+            "Tekesh"
+            "Tersin"
+            "Teñribögü"
+            "Teñirikän"
+            "Tigin"
+            "Timür"
+            "Tinsi"
+            "Tirig"
+            "Toghan"
+            "Toghrïl"
+            "Togluq"
+            "Tojgan"
+            "Toñra"
+            "Toñrategin"
+            "Toñuz"
+            "Tugan"
+            "Tugun"
+            "Tunyuquq"
+            "Tutun"
+            "Tutuq"
+            "Tämir"
+            "Tämirbuqa"
+            "Töles"
+            "帖木儿"  # Tömür
+            "Tüzmish"
+            "Udun"
+            "Udur"
+            "Umaç"
+            "Uqugh"
+            "Uruñ"
+            "Yaghïzçor"
+            "Yaghïçi"
+            "Yamtar"
+            "Yapïq"
+            "Yaraq"
+            "Yargat"
+            "Yaruq"
+            "Yaruqtegin"
+            "Yarïsh"
+            "Yasu"
+            "Yigençur"
+            "Yola"
+            "Yollughtegin"
+            "Yolluq"
+            "Yorçïn"
+            "Yïlqï"
+            "Çaça"
+            "Çañ"
+            "Çeküñ"
+            "Çeçem"
+            "Çigshi"
+            "Çigsü"
+            "Çiñtimür"
+            "啜"  # Çor
+            "Çuçi"
+            "Çuçibüri"
+            "Ïshbara"
+            "Ïtaçïq"
+            "Öge"
+            "Öghrünç"
+            "Ögüne"
+            "Örge"
+            "乌苏米施"  # Özmish
+            "Öztoghdï"
+            "Özyegen"
+            "Özüge"
+            "Özünçü"
+            "Öçen"
+            "乌介"  # Üge
+            "Ülüg"
+            "Ülük"
+            "Üçsi"
         }
         female_names = {
-            "奇切克"  # Çiçek
-            "奇伦"  # Çilen
-            "其尔塔尼斯"  # Çiltanesi
-            "奥兹古尔"  # Özgul
-            "厄兹莱姆"  # Özlem
-            "阿侯"  # Akgul
-            "阿思筣"  # Asli
-            "阿亚先"  # Ayasun
-            "爱登"  # Ayten
-            "蒲扇"  # Bozçin
-            "地郦"  # Dilek
-            "为新"  # Esin
-            "古勒奇切克"  # Gulçiçek
-            "侯镠"  # Gulay
-            "完投"  # Gunduz
-            "完提思"  # Gundes
-            "古钮"  # Gunes
-            "尤该"  # Ilkay
-            "尤壁"  # Ipek
-            "尤壁笄"  # Ipekel
-            "劼伽"  # Irge
-            "哥罗即"  # Karacik
-            "磨罗"  # Mala
-            "穆特鲁"  # Mutlu
-            "壁先"  # Peksen
-            "娑呣"  # Samur
-            "娑厘柯"  # Sarica
-            "萨氐"  # Sati
-            "塞维莱"  # Sevilay
-            "塞温迪克"  # Sevindik
-            "席蓓尔"  # Sibel
-            "思邻"  # Sirin
-            "思摩"  # Sirma
-            "苏齵罗"  # Songul
-            "氐笄"  # Tekçe
-            "篼罗"  # Tura
+            "Artuç"
+            "Azgan"
+            "Beslik"
+            "Bulït"
+            "Burtam"
+            "Elbeslik"
+            "Ershen"
+            "Ilbeslik"
+            "Ilbilgä"
+            "Kadïñ"
+            "Katun"
+            "Lahpçïq"
+            "Marjan"
+            "Nayiñtay"
+            "Otqan"
+            "Qaraqaz"
+            "Sarïgha"
+            "Sutqiz"
+            "Teken"
+            "Terek"
+            "Teçush"
+            "Teñriken"
+            "Tograk"
             "乌梅"  # Umay
-            "乌先邳"  # Usunbike
-            "越娑"  # Yasar
-            "伊咄"  # Yeldem
-            "帷地"  # Yildiz
+            "Yiltïs"
+            "Yïgash"
+            "Yïlgun"
+            "Yïlqï"
+            "Çeçek"
+            "Örüñ"
+            "Ötüken"
+            "Ükükün"
         }
         from_dynasty_prefix = ""  # of 
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
+        nomadic_in_alt_start = yes
     }
     mongol = {
         graphical_cultures = {
@@ -10321,6 +12039,12 @@ altaic = {
             muslimgfx
         }
         secondary_event_pictures = bedouin_arabic
+        alternate_start = {
+            has_alternate_start_parameter = {
+                key = culture
+                value = full_random
+            }
+        }
         horde = yes
         color = {
             0.4
@@ -10440,7 +12164,7 @@ altaic = {
             "塔儿忽台"  # Targhutai
             "铁木哥"  # Temuge
             "铁木真"  # Temujin
-            "帖木儿"  # Temur
+            "Temur_Timur"
             "脱朵颜"  # Todogen
             "脱斡邻勒"  # Toghoril
             "脱黑脱阿"  # Toghtoga
@@ -10504,6 +12228,7 @@ altaic = {
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
+        nomadic_in_alt_start = yes
     }
     khitan = {
         graphical_cultures = {
@@ -10521,34 +12246,126 @@ altaic = {
         }
         male_names = {
             "阿保机"  # Abaoji
+            "Abugu"
+            "Aguo"
+            "Alian"
+            "Anduan"
+            "Axin"
+            "Baling"
+            "Bancai"
             "倍"  # Bei
             "别古特"  # Biegute
             "必摄"  # Bishe
+            "Chala"
+            "Chucai"
             "大石"  # Dashi
             "德光"  # Deguang
             "敌烈"  # Dilie
+            "Dilu"
+            "Dinianzhuli"
+            "Duba"
             "朵鲁不"  # Duolubu
+            "Duoluo"
             "朴古只"  # Fuguzhi
+            "Gaoqi"
             "狗儿"  # Gou'er
+            "Gou’er"
+            "Gunai"
+            "Guozhe"
+            "Hanshe"
+            "Hechen"
+            "Heluwo"
+            "Helü"
             "洪基"  # Hongji
             "侯古"  # Hougu
+            "Hudugu"
+            "Hudujin"
+            "Jilujuan"
             "璟"  # Jing
+            "Jinshan"
+            "Julü"
+            "Juqu"
+            "Kailuo"
+            "Keling"
             "可突于"  # Ketuyu
+            "Kuge"
+            "Lihu"
+            "Liuge"
+            "Loguo"
+            "Mergan"
+            "Mohuai"
+            "Mohuba"
+            "Mohui"
+            "Mopei"
+            "Muyan"
+            "Nieli"
+            "Noulisi"
+            "Nuohebo"
+            "Nuosi"
+            "Pidi"
+            "Pidie"
+            "Pogu"
+            "Puhui"
+            "Qidegui"
+            "Qinde"
+            "Qinu"
+            "Qizhen"
+            "Quju"
+            "Qulü"
+            "Qushu"
             "阮"  # Rian
-            "阮"  # Ruan
-            "娑固"  # Suogu
+            "Rilujuan"
+            "RuanSuogu"
+            "Saba"
+            "Salade"
+            "Saladi"
+            "Shancai"
+            "Shaogu"
+            "Shefuchen"
+            "Shegui"
+            "Shifang"
+            "Shihuo"
+            "Shilu"
+            "Shouguonu"
+            "Shulü"
+            "Sibu"
+            "Sougu"
+            "Tanmozhe"
             "天德"  # Tiande
+            "Tiebu"
+            "Tongguyu"
+            "Tuyu"
             "文殊奴"  # Wenshunu
+            "Wogan"
             "斡里剌"  # Wolila
             "吴哥"  # Wuge
+            "Wuwuchen"
             "兀欲"  # Wuyu
             "贤"  # Xian
+            "Xibaxiong"
+            "Xiduguan"
             "休哥"  # Xiuge
+            "Xi’er"
+            "Xi’erzhi"
+            "Xuedu"
+            "Yali"
+            "Yaliguo"
             "罨撤葛"  # Yanchege
             "延禧"  # Yanxi
+            "Yaogu"
+            "Yaoshinu"
+            "Yexian"
+            "Yidougui"
             "夷列"  # Yilie
+            "Yudu"
+            "Yudugu"
+            "Yundeshi"
+            "Zhengge"
+            "Zhigu"
+            "Zhiligu"
             "直鲁古"  # Zhilugu
             "重元"  # Zhongyuan
+            "Zhulie"
             "宗真"  # Zongzhen
         }
         female_names = {
@@ -10559,11 +12376,14 @@ altaic = {
             "崔八"  # Cuiba
             "钿匿"  # Dianni
             "九哥"  # Jiuge
+            "Kedun"
             "吕不古"  # Lübugu
+            "Noujin"
+            "Ping"
             "普速完"  # Pusuwan
             "赛哥"  # Saige
             "十哥"  # Shige
-            "平"  # Shulü-Ping
+            "Shuge"
             "槊古"  # Shuogu
             "浑忽"  # Sokhatai
             "塔不烟"  # Tabuyan
@@ -10572,15 +12392,19 @@ altaic = {
             "萧"  # Xiao
             "温"  # Xiao-Wen
             "兴哥"  # Xingge
+            "Yalixin"
             "燕哥"  # Yange
             "岩母"  # Yanmu
+            "Yanyan"
             "应天"  # Yingtian
+            "Yueliduo"
         }
         dynasty_title_names = yes
         from_dynasty_prefix = ""  # of 
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
+        nomadic_in_alt_start = yes
     }
     jurchen = {
         graphical_cultures = {
@@ -10589,6 +12413,12 @@ altaic = {
             muslimgfx
         }
         secondary_event_pictures = bedouin_arabic
+        alternate_start = {
+            has_alternate_start_parameter = {
+                key = culture
+                value = full_random
+            }
+        }
         dynasty_name_first = yes
         horde = yes
         color = {
@@ -10992,6 +12822,7 @@ altaic = {
         founder_named_dynasties = yes
         allow_looting = yes
         modifier = default_culture_modifier
+        nomadic_in_alt_start = yes
     }
 }
 arabic = {
@@ -11025,12 +12856,12 @@ arabic = {
             "阿扎姆"  # Azam
             "巴希尔"  # Bahir
             "布尔汉丁"  # Burhanaddin
-            "法迪勒"  # Fadil
-            "法德勒"  # Fadl
-            "法鲁克"  # Faruk
+            "Fadil_Fadl"
+            "Fadl_Fadl"
+            "Faruk_Farroukh"
             "格哈里布"  # Ghalib
             "哈菲兹"  # Hafiz
-            "哈利勒"  # Halil
+            "Halil_Khalil"
             "哈桑_哈桑"  # Hasan_Hasan
             "哈萨姆"  # Husam
             "侯赛因_侯赛因"  # Hussayn_Hussein
@@ -11042,23 +12873,23 @@ arabic = {
             "贾利勒"  # Jalil
             "吉卜利勒_加布里埃尔"  # Jibril_Gabriel
             "科哈热丁"  # Khaireddin
-            "哈利勒"  # Khalil
+            "Khalil_Khalil"
             "马赫迪"  # Mahdi
             "马哈茂德_马哈茂德"  # Mahmud_Mahmud
             "曼苏尔"  # Mansur
             "米尔扎"  # Mirza
-            "穆巴拉克"  # Mubarak
+            "Mubarak_Barak"
             "穆罕默德_穆罕默德"  # Muhammad_Muhammad
             "穆克塔尔"  # Mukhtar
-            "穆拉德"  # Murad
+            "Murad_Morad"
             "穆萨_摩西"  # Musa_Moses
             "穆斯里西丁"  # Muslihiddin
             "穆扎法拉丁"  # Muzaffaraddin
             "那基比"  # Najib
-            "那斯尔"  # Nasr
+            "Nasr_Nasr"
             "尼扎姆"  # Nizam
             "喀乌德"  # Qawurd
-            "拉马丹"  # Ramadan
+            "Ramadan_Ramadan"
             "萨达丁"  # Sa'daddin
             "萨迪克"  # Sadiq
             "萨米"  # Sami
@@ -11085,7 +12916,7 @@ arabic = {
             "哈尼法"  # Hanifa
             "贾海拉"  # Jahaira
             "卡马拉"  # Kamala
-            "拉拉"  # Layla
+            "Layla_Laila"
             "玛丽亚姆_玛利亚"  # Maryam_Maria
             "那菲萨"  # Nafisa
             "雅维拉"  # Nyawela
@@ -11136,6 +12967,7 @@ arabic = {
     }
     maghreb_arabic = {
         graphical_cultures = {
+            berbergfx
             arabicgfx
             muslimgfx
         }
@@ -11220,7 +13052,7 @@ arabic = {
             "阿泽莱"  # Aszellay
             "阿提斯"  # Atissi
             "阿迪"  # Awdia
-            "奥古斯丁_奥古斯特"  # Awgustin_August
+            "Awgustin_Augustine"
             "阿维那加"  # Awinagh
             "阿拉哈"  # Awlagh
             "阿扎尔"  # Awzal
@@ -11234,7 +13066,7 @@ arabic = {
             "巴达"  # Badda
             "巴迪斯"  # Badis
             "巴盖"  # Bagay
-            "巴拉卡"  # Barakat
+            "Barakat_Barak"
             "贝迪斯"  # Beddis
             "贝康"  # Berkan
             "贝兹'依"  # Bezz'i
@@ -11346,12 +13178,12 @@ arabic = {
             "穆罕默德_穆罕默德"  # Muhammad_Muhammad
             "穆克塔尔"  # Mukhtar
             "穆拉"  # Mula
-            "穆拉德"  # Murad
+            "Murad_Morad"
             "穆萨_摩西"  # Musa_Moses
-            "穆斯塔法"  # Mustafa
+            "Mustafa_Mustafa"
             "穆扎法拉丁"  # Muzaffaraddin
             "恩'古那"  # N'Guna
-            "那斯尔"  # Nasr
+            "Nasr_Nasr"
             "那扎尔"  # Nazar
             "尼普塔桑"  # Niptasan
             "尼扎马丁"  # Nizamaddin
@@ -11622,6 +13454,7 @@ arabic = {
     }
     levantine_arabic = {
         graphical_cultures = {
+            levantinegfx
             arabicgfx
             muslimgfx
         }
@@ -11671,7 +13504,7 @@ arabic = {
             "穆罕默德_穆罕默德"  # Muhammad_Muhammad
             "穆赫辛"  # Muhsin
             "穆赫塔尔"  # Mukhtar
-            "穆拉德"  # Murad
+            "Murad_Morad"
             "穆萨_摩西"  # Musa_Moses
             "穆扎法尔"  # Muzaffar
             "穆扎法拉丁"  # Muzaffaraddin
@@ -11757,6 +13590,7 @@ arabic = {
     }
     egyptian_arabic = {
         graphical_cultures = {
+            levantinegfx
             arabicgfx
             muslimgfx
         }
@@ -11805,7 +13639,7 @@ arabic = {
             "达乌德_大卫"  # Da’oud_David
             "以斯拉_以斯拉"  # Ezra_Ezra
             "法尔罕"  # Farhan
-            "菲鲁斯"  # Firuz
+            "Firuz_Peroz"
             "贾卜里埃勒_加布里埃尔"  # Gabri’el_Gabriel
             "乔治奥斯_乔治"  # Georgios_George
             "吉雅萨丁"  # Ghiyasaddin
@@ -11824,7 +13658,7 @@ arabic = {
             "贾维达"  # Jawdat
             "杰尔杰_格雷戈里"  # Jerjer_Gregory
             "卡迈勒丁"  # Kemaladdin
-            "克哈里尔"  # Khalil
+            "Khalil_Khalil"
             "克里斯塔菲_克里斯托弗"  # Krystafer_Christopher
             "拉提夫"  # Latif
             "洛特"  # Lot
@@ -11838,7 +13672,7 @@ arabic = {
             "穆阿马尔"  # Muammar
             "穆罕默德_穆罕默德"  # Muhammad_Muhammad
             "穆克塔尔"  # Mukhtar
-            "穆拉德"  # Murad
+            "Murad_Morad"
             "穆尔什德"  # Murshid
             "穆萨_摩西"  # Musa_Moses
             "穆扎法拉丁"  # Muzaffaraddin
@@ -11912,12 +13746,22 @@ arabic = {
     }
     andalusian_arabic = {
         graphical_cultures = {
+            berbergfx
             andalusiangfx
         }
         color = {
             0.4
             0.6
             0.1
+        }
+        alternate_start = {
+            OR = {
+                year > = 1000
+                has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
         }
         male_names = {
             "阿巴德"  # Abbad
@@ -11939,7 +13783,7 @@ arabic = {
             "阿尤布_约伯"  # Ayyub_Job
             "巴拉什克_瓦斯科"  # Balashk_Vasco
             "比拉勒"  # Bilal
-            "法德勒"  # Fadl
+            "Fadl_Fadl"
             "法特赫"  # Fath
             "加林德_加林多"  # Galind_Galindo
             "加西亚_加西亚"  # Garsiya_Garcia
@@ -11992,7 +13836,7 @@ arabic = {
             "卡丽玛"  # Karima
             "克拉"  # Kera
             "海迪彻"  # Khadija
-            "莱拉"  # Layla
+            "Layla_Laila"
             "玛哈"  # Maha
             "玛丽卡"  # Malika
             "玛利亚姆_玛利亚"  # Mariam_Maria
@@ -12045,12 +13889,21 @@ east_slavic = {
             0.4
             0.1
         }
+        alternate_start = {
+            OR = {
+                year > = 800
+                has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
+        }
         male_names = {
             "阿法纳西_阿塔纳修斯"  # Afanasiy_Athanasius
             "亚历山大_亚历山大"  # Alexandr_Alexander
             "阿列克谢_亚历克西斯"  # Alexei_Alexis
             "安德烈_安德鲁"  # Andrei_Andrew
-            "鲍里斯"  # Boris
+            "Boris_Boris"
             "布里亚奇斯拉夫_布雷蒂斯劳斯"  # Briachislav_Bretislaus
             "丹尼尔_丹尼尔"  # Daniil_Daniel
             "达维德_大卫"  # Davyd_David
@@ -12146,7 +13999,7 @@ east_slavic = {
             "玛尔芙丽达"  # Malfrida
             "玛露莎"  # Malusha
             "玛丽亚_玛利亚"  # Maria_Maria
-            "玛丽娜"  # Marina
+            "Marina_Marine"
             "奥莱娜_海伦"  # Olena_Helen
             "奥尔加"  # Olga
             "佩蕾雅斯拉娃"  # Pereyaslava
@@ -12195,6 +14048,14 @@ east_slavic = {
             0.6
             0.2
         }
+        alternate_start = {
+            OR = {
+                year < 800 has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
+        }
         male_names = {
             "布里亚奇斯拉夫_布雷蒂斯劳斯"  # Briachislav_Bretislaus
             "杰米德"  # Demid
@@ -12254,7 +14115,7 @@ east_slavic = {
             "马尔弗里达"  # Malfrida
             "马露莎"  # Malusha
             "玛利亚_玛利亚"  # Maria_Maria
-            "玛丽娜"  # Marina
+            "Marina_Marine"
             "奥莱纳_海伦"  # Olena_Helen
             "奥尔加"  # Olga
             "普拉亚斯拉娃"  # Pereyaslava
@@ -12302,6 +14163,14 @@ east_slavic = {
             0.8
             0.3
         }
+        alternate_start = {
+            OR = {
+                year < 800 has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
+        }
         male_names = {
             "布里亚奇斯拉夫_布雷蒂斯劳斯"  # Briachislav_Bretislaus
             "杰米德"  # Demid
@@ -12361,7 +14230,7 @@ east_slavic = {
             "马尔弗里达"  # Malfrida
             "马露莎"  # Malusha
             "玛利亚_玛利亚"  # Maria_Maria
-            "玛丽娜"  # Marina
+            "Marina_Marine"
             "奥莱纳_海伦"  # Olena_Helen
             "奥尔加"  # Olga
             "普拉亚斯拉娃"  # Pereyaslava
@@ -12409,6 +14278,14 @@ east_slavic = {
             0.8
             0.3
         }
+        alternate_start = {
+            OR = {
+                year < 800 has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
+        }
         male_names = {
             "布里亚奇斯拉夫_布雷蒂斯劳斯"  # Briachislav_Bretislaus
             "杰米德"  # Demid
@@ -12468,7 +14345,7 @@ east_slavic = {
             "马尔弗里达"  # Malfrida
             "马露莎"  # Malusha
             "玛利亚_玛利亚"  # Maria_Maria
-            "玛丽娜"  # Marina
+            "Marina_Marine"
             "奥莱纳_海伦"  # Olena_Helen
             "奥尔加"  # Olga
             "普拉亚斯拉娃"  # Pereyaslava
@@ -12524,8 +14401,8 @@ west_slavic = {
         male_names = {
             "亚历山大_亚历山大"  # Aleksander_Alexander
             "安杰伊_安德鲁"  # Andrzej_Andrew
-            "安东尼_安东尼努斯"  # Antoni_Antoninus
-            "阿伦"  # Aron
+            "Antoni_Antonius"
+            "Aron_Aaron"
             "巴尔尼姆"  # Barnim
             "巴尔托什_巴尔托洛缪斯"  # Bartosz_Bartolomeus
             "贝德日赫_弗雷德里克"  # Bedrich_Frederick
@@ -12562,7 +14439,7 @@ west_slavic = {
             "英德日赫_亨利"  # Jindrich_Henry
             "伊日_乔治"  # Jirí_George
             "约瑟夫_约瑟夫"  # Jozef_Joseph
-            "尤利乌什_尤里安"  # Juliusz_Julian
+            "Juliusz_Julius"
             "卡耶坦"  # Kajetan
             "卡米勒_卡米卢斯"  # Kamil_Camillus
             "卡雷尔_查理"  # Karel_Charles
@@ -12592,7 +14469,7 @@ west_slavic = {
             "姆什齐沃伊"  # Msciwoj
             "奥尔德日赫_乌尔里希"  # Oldrich_Ulrich
             "昂德烈_安德鲁"  # Ondrej_Andrew
-            "奥托卡尔"  # Otokar
+            "Otokar_Otakar"
             "帕特里克_帕特里克"  # Patryk_Patrick
             "帕维尔_保罗"  # Pawel_Paul
             "彼得_彼得"  # Piotr_Peter
@@ -12629,7 +14506,7 @@ west_slavic = {
             "沃德克"  # Wlodek
             "沃齐米日"  # Wlodzimierz
             "沃齐斯瓦夫_弗拉迪斯拉夫"  # Wlodzislaw_Vladislav
-            "弗拉迪斯拉夫"  # Wratislaw
+            "弗拉迪斯拉夫_弗拉季斯拉夫"  # Wratislaw_Vratislav
             "兹比格涅夫_兹比涅克"  # Zbigniew_Zbynek
             "兹杰内克"  # Zdenek
             "兹基斯拉夫"  # Zdislav
@@ -12640,7 +14517,7 @@ west_slavic = {
             "阿尔茨贝塔"  # Alzbeta
             "安德拉"  # Andela
             "安娜_安娜"  # Anna_Anna
-            "贝尔塔"  # Berta
+            "Berta_Bertha"
             "博胡斯拉娃"  # Bohuslava
             "博热娜"  # Bozena
             "布拉尼斯拉娃"  # Branislava
@@ -12650,60 +14527,60 @@ west_slavic = {
             "多布罗涅加"  # Dobroniega
             "多萝塔_多萝西"  # Dorota_Dorothy
             "德拉戈米拉"  # Dragomira
-            "埃迪塔"  # Edyta
+            "Edyta_Edith"
             "伊娃"  # Ewa
             "盖拉"  # Geira
             "格特露达_格特露德"  # Gertruda_Gertrude
-            "格拉齐娅"  # Gracja
+            "Gracja_Grace"
             "格拉齐娜"  # Grazyna
             "哈丽娜"  # Halina
             "汉娜"  # Hanna
-            "伊雷娜"  # Irena
-            "伊莎贝拉"  # Izabela
-            "雅德维嘉"  # Jadwiga
+            "Irena_Irene"
+            "Izabela_Elizabeth"
+            "Jadwiga_Hedwig"
             "雅乐卡"  # Jarka
             "娅尔米拉"  # Jarmila
-            "约兰塔"  # Jolanta
+            "Jolanta_Yolanda"
             "尤蒂塔_尤迪特"  # Judyta_Judith
-            "卡米拉"  # Kamila
+            "Kamila_Camilla"
             "卡塔琳娜_凯瑟琳"  # Katarina_Catherine
             "肯娜"  # Kenna
-            "柯尔奈莉亚"  # Kornelia
+            "Kornelia_Cornelia"
             "克里斯蒂娜_克里斯蒂娜"  # Krystyna_Christina
             "克塞尼亚"  # Ksenia
             "莉迪亚"  # Lidia
-            "卢德米娃"  # Ludmila
+            "Ludmila_Liudmila"
             "玛格达_玛格达莱娜"  # Magda_Magdalena
             "玛格达莱娜_玛格达莱娜"  # Magdalena_Magdalena
             "玛乌戈热塔"  # Malgorzata
             "马塞利娜"  # Marcelina
             "玛利亚_玛利亚"  # Maria_Maria
             "玛尔凯塔"  # Markéta
-            "马丁娜"  # Martyna
+            "Martyna_Martina"
             "玛捷娅"  # Mateja
             "玛蒂尔达_玛蒂尔达"  # Matylda_Matilda
             "米列那"  # Milena
             "米洛斯拉娃"  # Miroslava
             "佩赫娜"  # Pechna
-            "罗莎"  # Róza
+            "Róza_Rosa"
             "拉多米拉"  # Radomila
             "拉多米拉"  # Radomira
             "拉多斯拉娃"  # Radoslava
             "雷娜_莱娜"  # Raina_Raina
             "雷格琳达"  # Regelinda
-            "雷赫扎"  # Rycheza
+            "Rycheza_Richeza"
             "萨洛梅娅"  # Salomea
             "希梅赫娜"  # Smiechna
             "斯坦尼斯拉娃"  # Stanislava
             "斯特凡娜_斯特法妮娅"  # Stefana_Stephania
             "斯维特拉娜"  # Svetlana
-            "乌尔舒拉"  # Urszula
+            "Urszula_Ursula"
             "瓦茨拉娃"  # Václava
             "弗拉迪斯拉娃"  # Vladislava
             "薇拉"  # Wera
             "沃伊斯瓦娃"  # Wojslawa
             "兹登卡"  # Zdenka
-            "索菲娅"  # Zofia
+            "Zofia_Sophia"
             "兹维尼斯瓦娃"  # Zwinislawa
         }
         from_dynasty_prefix = ""  # of 
@@ -12737,7 +14614,7 @@ west_slavic = {
             "切涅克_文森特"  # Cenek_Vincent
             "赫瓦尔"  # Chval
             "茨季拉德"  # Ctirad
-            "迪波尔德"  # Diepold
+            "Diepold_Dietpold"
             "杰特日赫_蒂埃里"  # Detrich_Thierry
             "德尔斯拉夫"  # Drslav
             "格哈德"  # Gerhard
@@ -12767,7 +14644,7 @@ west_slavic = {
             "奥尔德日赫_乌尔里希"  # Oldrich_Ulrich
             "翁德热_安德鲁"  # Ondrej_Andrew
             "奥塔_奥托"  # Ota_Otto
-            "奥塔卡尔"  # Otakar
+            "Otakar_Otakar"
             "佩尔赫日姆"  # Pelhrim
             "彼得_彼得"  # Petr_Peter
             "普热米斯尔_普热米斯尔"  # Premysl_Premysl
@@ -12804,7 +14681,7 @@ west_slavic = {
             "艾德莱塔"  # Adléta
             "阿内日卡"  # Anezka
             "安娜_安娜"  # Anna_Anna
-            "巴尔博拉"  # Barbora
+            "Barbora_Barbara"
             "贝德日什卡"  # Bedriska
             "布拉热娜"  # Blazena
             "博胡斯拉娃"  # Bohuslava
@@ -12819,7 +14696,7 @@ west_slavic = {
             "道布拉芙卡"  # Doubravka
             "德拉霍米拉"  # Drahomíra
             "德拉霍斯拉娃"  # Drahoslava
-            "埃莉什卡"  # Eliska
+            "Eliska_Elizabeth"
             "欧费梅_尤菲米娅"  # Eufemie_Euphemia
             "格特露达_格特露德"  # Gertruda_Gertrude
             "古塔"  # Guta
@@ -12844,14 +14721,14 @@ west_slavic = {
             "奥尔加"  # Olga
             "佩尔赫塔"  # Perchta
             "普日比斯拉娃"  # Pribyslava
-            "丽赫莎"  # Richeza
+            "Richeza_Richeza"
             "斯孔卡"  # Skonka
             "斯坦尼斯拉娃"  # Stanislava
             "斯瓦塔娃"  # Svatava
-            "维莱米娜"  # Vilemína
+            "Vilemína_Willhelmina"
             "薇奥拉_约兰达"  # Viola_Yolanda
             "弗拉迪斯拉娃"  # Vladislava
-            "沃伊斯拉娃"  # Vojslava
+            "Vojslava_Vojslava"
             "兹迪斯拉娃"  # Zdislava
             "兹德尼卡"  # Zdenka
             "若菲_索菲亚"  # Zofie_Sophia
@@ -12913,7 +14790,7 @@ west_slavic = {
             "雅罗斯瓦夫_雅罗斯拉夫"  # Jaroslaw_Jaroslav
             "耶日_乔治"  # Jerzy_George
             "卡罗尔_查理"  # Karol_Charles
-            "卡齐米日"  # Kazimierz
+            "Kazimierz_Casimir"
             "康拉德_康拉德"  # Konrad_Konrad
             "克里斯滕_克里斯蒂安"  # Krystyn_Christian
             "克热斯瓦夫"  # Krzeslaw
@@ -12996,22 +14873,22 @@ west_slavic = {
             "多布罗内嘉"  # Dobronega
             "埃尔日别塔_伊丽莎白"  # Elzbieta_Elizabeth
             "欧菲米娅_尤菲米娅"  # Eufemia_Euphemia
-            "欧芙罗齐娜"  # Eufrozyna
+            "Eufrozyna_Euphrosyne"
             "格特露达_格特露德"  # Gertruda_Gertrude
             "格日米斯瓦娃"  # Grzymislawa
             "海伦娜_海伦"  # Helena_Helen
-            "雅德维嘉"  # Jadwiga
+            "Jadwiga_Hedwig"
             "约兰塔_约兰达"  # Jolanta_Yolanda
             "尤迪塔_尤迪特"  # Judyta_Judith
             "卡塔日娜_凯瑟琳"  # Katarzyna_Catherine
             "卡齐米拉"  # Kazimiera
             "肯娜"  # Kenna
-            "金嘉"  # Kinga
+            "Kinga_Kunigunde"
             "康斯坦齐娅_康斯坦丝"  # Konstancja_Constance
             "克里斯蒂娜_克里斯蒂娜"  # Krystyna_Christina
-            "库内贡达"  # Kunegunda
+            "Kunegunda_Kunigunde"
             "露西娅_露西娅"  # Lucja_Lucia
-            "卢德米娃"  # Ludmila
+            "Ludmila_Liudmila"
             "玛格达莱娜_玛格达莱娜"  # Magdalena_Magdalena
             "玛乌戈热塔"  # Malgorzata
             "玛利亚_玛利亚"  # Maria_Maria
@@ -13020,7 +14897,7 @@ west_slavic = {
             "纳杰娅"  # Nadzieja
             "纳沃娅"  # Nawoja
             "佩赫娜"  # Pechna
-            "雷赫扎"  # Rycheza
+            "Rycheza_Richeza"
             "雷克莎"  # Ryksa
             "萨洛梅娅"  # Salomea
             "桑博娅"  # Samboja
@@ -13029,7 +14906,7 @@ west_slavic = {
             "斯坦尼斯拉娃"  # Stanislawa
             "希温托斯瓦娃"  # Swietoslawa
             "维斯瓦娃"  # Wislawa
-            "沃伊斯瓦娃"  # Wojslawa
+            "Wojslawa_Vojslava"
             "沃利斯瓦娃"  # Wolislawa
             "弗谢博拉"  # Wszebora
             "弗谢米娃"  # Wszemila
@@ -13052,7 +14929,7 @@ south_slavic = {
     }
     croatian = {
         graphical_cultures = {
-            westernslavicgfx
+            croatsouthslavicgfx
         }
         color = {
             0.4
@@ -13104,7 +14981,7 @@ south_slavic = {
             "佩塔尔_彼得"  # Petar_Peter
             "普罗霍尔"  # Prohor
             "拉多米尔"  # Radomir
-            "拉蒂米尔"  # Ratimir
+            "Ratimir_Ratimir"
             "塞贝斯拉夫"  # Sebeslav
             "塞斯拉夫"  # Seslav
             "斯拉维奇"  # Slavich
@@ -13130,8 +15007,8 @@ south_slavic = {
             "多罗泰娅_多萝西"  # Doroteja_Dorothy
             "艾卡特丽娜_凯瑟琳"  # Ekaterina_Catherine
             "海伦娜_海伦"  # Helena_Helen
-            "亚德维加"  # Jadviga
-            "约瓦娜"  # Jovana
+            "Jadviga_Hedwig"
+            "Jovana_Joan"
             "克拉"  # Kera
             "拉迪卡"  # Ladika
             "玛利亚_玛利亚"  # Maria_Maria
@@ -13141,14 +15018,14 @@ south_slavic = {
             "薇奥拉_约兰达"  # Viola_Yolanda
             "亚德兰卡"  # Jadranka
             "玛蕾"  # Mare
-            "安东尼娅"  # Antonija
+            "Antonija_Antonia"
             "恰佩卡"  # Capeka
             "德拉加娜"  # Dragana
             "杜布拉芙卡"  # Dubravka
             "艾米莉娅_艾米丽"  # Emilija_Emily
             "戈尔达娜"  # Gordana
             "贾戈达"  # Jagoda
-            "叶莲娜"  # Jelena
+            "Jelena_Helen"
             "耶尔卡"  # Jelka
             "露琪娅_露西娅"  # Lucija_Lucia
             "卡塔琳_凯瑟琳"  # Katalin_Catherine
@@ -13158,9 +15035,9 @@ south_slavic = {
             "米尔娜"  # Mirna
             "莫伊察"  # Mojca
             "纳塔利娅_纳塔利娅"  # Natalija_Natalia
-            "娜塔莎"  # NataŠa
+            "Nataša"
             "里耶卡"  # Rijeka
-            "西尔维娅"  # Silvija
+            "Silvija_Silvia"
             "斯涅扎娜"  # Snjezana
             "索菲亚_索菲亚"  # Sofija_Sophia
             "苏珊娜_苏珊"  # Suzana_Susan
@@ -13186,7 +15063,7 @@ south_slavic = {
     }
     serbian = {
         graphical_cultures = {
-            westernslavicgfx
+            serbsouthslavicgfx
         }
         color = {
             0.5
@@ -13221,7 +15098,7 @@ south_slavic = {
             "约万_约翰"  # Jovan_John
             "卡西扬"  # Kasjan
             "君士坦丁_君士坦丁"  # Konstantin_Constantine
-            "克尔斯托"  # Krsto
+            "Krsto_Christopher"
             "拉扎尔_拉撒路"  # Lazar_Lazarus
             "柳代维特"  # Ljudevit
             "卢卡_卢克"  # Luka_Luke
@@ -13244,7 +15121,7 @@ south_slavic = {
             "普尔沃斯拉夫"  # Prvoslav
             "拉多斯拉夫"  # Radoslav
             "拉斯特科"  # Rastko
-            "拉托米尔"  # Ratomir
+            "Ratomir_Ratimir"
             "罗曼_罗曼"  # Roman_Roman
             "谢拉皮翁_塞拉芬"  # Serapion_Seraphin
             "西梅翁_西蒙"  # Simeon_Simon
@@ -13326,7 +15203,7 @@ south_slavic = {
     }
     romanian = {
         graphical_cultures = {
-            westernslavicgfx
+            serbsouthslavicgfx
         }
         color = {
             0.6
@@ -13337,7 +15214,7 @@ south_slavic = {
             "哈德良_哈德良"  # Adrian_Adrian
             "亚历山德鲁_亚历山大"  # Alexandru_Alexander
             "安格尔_安吉尔"  # Anghel_Angel
-            "阿伦"  # Aron
+            "Aron_Aaron"
             "巴尔克"  # Bajan
             "巴尔克"  # Balc
             "巴巴特"  # Barbat
@@ -13353,7 +15230,7 @@ south_slavic = {
             "达恩"  # Dan
             "德拉戈斯"  # Dragos
             "杜米特鲁_德梅特里乌斯"  # Dumitru_Demetrius
-            "埃梅里克_艾默里克"  # Emerik_Aymetric
+            "Emerik_Aymeric"
             "弗洛林"  # Florin
             "弗拉尼奥_弗朗西斯"  # Franjo_Francis
             "加夫里尔_加布里埃尔"  # Gavril_Gabriel
@@ -13373,7 +15250,7 @@ south_slavic = {
             "劳伦蒂乌_劳伦斯"  # Laurentiu_Laurence
             "利特沃伊"  # Litovoi
             "卢奇安_卢修斯"  # Lucian_Lucius
-            "马林_马里乌斯"  # Marin_Marius
+            "Marin_Marinus"
             "米哈伊_迈克尔"  # Mihai_Michael
             "米洛斯_米洛斯"  # Milos_Milosz
             "米尔恰"  # Mircea
@@ -13423,7 +15300,7 @@ south_slavic = {
             "埃丽莎贝塔_伊丽莎白"  # Elisabeta_Elizabeth
             "艾米莉娅_艾米丽"  # Emilia_Emily
             "欧芙洛茜娜_尤弗罗西尼"  # Eufroysina_Euphrosyne
-            "费利恰"  # Felicia
+            "Felicia_Felicia"
             "弗洛阿雷娅_芙萝拉"  # Floarea_Flora
             "雅各芭_雅各芭"  # Iacoba_Jacoba
             "伊万娜_琼"  # Ioana_Joan
@@ -13431,7 +15308,7 @@ south_slavic = {
             "伊丽娜_伊蕾讷"  # Irina_Irene
             "尤莉娅_尤莉娅"  # Iulia_Julia
             "玛利亚_玛利亚"  # Maria_Maria
-            "莫妮卡"  # Monica
+            "Monica_Monica"
             "纳塔利娅_纳塔利娅"  # Natalia_Natalia
             "奥林匹娅"  # Olimpia
             "帕拉斯基娃"  # Paraschiva
@@ -13463,7 +15340,7 @@ south_slavic = {
     }
     bulgarian = {
         graphical_cultures = {
-            westernslavicgfx
+            serbsouthslavicgfx
         }
         color = {
             0.7
@@ -13585,6 +15462,671 @@ south_slavic = {
         prefix = no
         modifier = default_culture_modifier
     }
+    bosnian = {
+        graphical_cultures = {
+            croatsouthslavicgfx
+        }
+        color = {
+            0.3
+            0.1
+            0.1
+        }
+        male_names = {
+            "Boric"
+            "Kulin"
+            "Matej_Matthew"
+            "Ninoslav"
+            "Matej Ninoslav"
+            "Prijezda"
+            "Stjepan"
+            "Tvrtko"
+            "Vuk"
+            "Vladislav"
+            "Dabisa"
+            "Sanko"
+            "Vlatko"
+            "Hrana"
+            "Hran"
+            "Sandalj"
+            "Mihajlo_Michael"
+            "Juraj_George"
+            "Ostoja"
+            "Hrvoje"
+            "Pavle"
+            "Petar_Peter"
+            "Radislav"
+            "Ivanis"
+            "Nikola_Nicholas"
+            "Tomas"
+            "Vukac"
+            "Radivoj"
+            "Vukmir"
+            "Vukasin"
+            "Grgur"
+            "Bogisa"
+            "Sibislav"
+            "Bogut"
+            "Batalo"
+            "Miroslav"
+            "Brailo"
+            "Hval"
+            "Brajko"
+            "Radic"
+            "Priboje"
+            "Batic"
+            "Radogost"
+            "Milovan"
+            "Dragonja"
+            "Andrija_Andrew"
+            "Danis"
+            "Krsmir"
+            "Tisemir"
+        }
+        female_names = {
+            "Katarina_Catherine"
+            "Elizabeta_Elisabeth"
+            "Jelena_Helena"
+            "Gruba"
+            "Stana"
+            "Kujava"
+            "Doroteja"
+            "Vitaca"
+            "Milisa"
+            "Marija_Mary"
+            "Resa"
+            "Mara_Maria"
+            "Vojaca"
+            "Gojslava"
+            "Teodora_Theodora"
+            "Vojislava"
+            "Andrijana_Andrea"
+            "Mateja"
+            "Miroslava"
+            "Radislava"
+            "Petra"
+            "Nikolena_Nicola"
+            "Nika"
+            "Pavica"
+        }
+        from_dynasty_prefix = "od "
+        male_patronym = "ic"
+        modifier = default_culture_modifier
+        pat_grf_name_chance = 40
+        mat_grf_name_chance = 10
+        father_name_chance = 10
+        pat_grm_name_chance = 10
+        mat_grm_name_chance = 40
+        mother_name_chance = 5
+    }
+    carantanian = {
+        graphical_cultures = {
+            serbsouthslavicgfx
+        }
+        color = {
+            0.5
+            0.3
+            0.5
+        }
+        male_names = {
+            "Bedoslav"
+            "Beli"
+            "Benebod"
+            "Benko"
+            "Bislav"
+            "Blagosod"
+            "Boleslav"
+            "Bodigoj"
+            "Bogomir"
+            "Bogumil_Bogomil"
+            "Bojnoslav"
+            "Borigoj"
+            "Borižit"
+            "Borut"
+            "Branimir"
+            "Braslav"
+            "Budigoj"
+            "Budin"
+            "Cestilo"
+            "Cestimir"
+            "Crné"
+            "Crnel"
+            "Crni"
+            "Crnig"
+            "Dalimir"
+            "Danimir"
+            "Debeligoj"
+            "Dober"
+            "Dobrislav"
+            "Dobrej"
+            "Dobren"
+            "Dobrodej"
+            "Dorogoj"
+            "Dobromisl"
+            "Dobroneg"
+            "Dobrost"
+            "Dobrovlast"
+            "Dobrožit"
+            "Domagoj"
+            "Domažil"
+            "Domomir"
+            "Domomisl"
+            "Dragomir"
+            "Dragoslav"
+            "Dragovit"
+            "Glavac"
+            "Glušo"
+            "Gnevaš"
+            "Godemir"
+            "Godemisl"
+            "Gojen"
+            "Gojimir"
+            "Gojislav"
+            "Golodrag"
+            "Golomir"
+            "Golotek"
+            "Gorazd"
+            "Gostibil"
+            "Gostidrag"
+            "Grd"
+            "Hoten"
+            "Hotimir"
+            "Hrast"
+            "Inko"
+            "Izbor"
+            "Jaroslav"
+            "Jelen"
+            "Junik"
+            "Lastigoj"
+            "Lastimir"
+            "Lastnik"
+            "Ljuban"
+            "Ljubiš"
+            "Ljubodrag"
+            "Ljuboneg"
+            "Ljubotin"
+            "Ljubšin"
+            "Ljutic"
+            "Ljutomir"
+            "Manidrag"
+            "Maraš"
+            "Medved"
+            "Mil"
+            "Milaš"
+            "Milej"
+            "Milo"
+            "Misl"
+            "Minigoj"
+            "Mirigoj"
+            "Miromisl"
+            "Miroslav"
+            "Mistibor"
+            "Mistislav"
+            "Nacek"
+            "Naciživ"
+            "Nadovid"
+            "Namdrag"
+            "Našemisl"
+            "Nebomir"
+            "Negoj"
+            "Negomir"
+            "Nenadej"
+            "Nepokor"
+            "Neško"
+            "Nežir"
+            "Nico"
+            "Omisl"
+            "Petanko"
+            "Pitalo"
+            "Pomik"
+            "Predoslav"
+            "Premil"
+            "Premisl"
+            "Pribibor"
+            "Pribigoj"
+            "Pribislav"
+            "Prisnec"
+            "Prisnoslav"
+            "Prodan"
+            "Radek"
+            "Radogej"
+            "Radenko"
+            "Radigoj"
+            "Radin"
+            "Radoh"
+            "Radoš"
+            "Radul"
+            "Radušic"
+            "Sebeteh"
+            "Sebibor"
+            "Sebidrag"
+            "Sebigoj"
+            "Sebimir"
+            "Semiko"
+            "Skrben"
+            "Slav"
+            "Slavko"
+            "Slavuš"
+            "Sojdrag"
+            "Sprejmir"
+            "Stagoj"
+            "Stamer"
+            "Stane"
+            "Stanislav"
+            "Stano"
+            "Stansgoj"
+            "Stanon"
+            "Stislav"
+            "Stojan"
+            "Stojce"
+            "Stojdrag"
+            "Stojgoj"
+            "Stojmir"
+            "Stradoslav"
+            "Stranimir"
+            "Stregomil"
+            "Sujce"
+            "Svegoj"
+            "Sveljub"
+            "Svemir"
+            "Svetec"
+            "Svetin"
+            "Svetodrag"
+            "Svetogoj"
+            "Svetomir"
+            "Svetoslav"
+            "Scenedrag"
+            "Tihodrag"
+            "Tihomir"
+            "Tihožit"
+            "Trdac"
+            "Trdogoj"
+            "Trdomir"
+            "Trdoslav"
+            "Trebec"
+            "Trebegoj"
+            "Trebeš"
+            "Trebibor"
+            "Trebibrat"
+            "Trebil"
+            "Trebin"
+            "Trebimir"
+            "Trebišin"
+            "Trebivit"
+            "Trebnik"
+            "Trebušnež"
+            "Uncat"
+            "Unislav"
+            "Val"
+            "Valnik"
+            "Vecegoj"
+            "Vecevoj"
+            "Veligoj"
+            "Velikne"
+            "Vencegoj"
+            "Venko"
+            "Vilan"
+            "Vitin"
+            "Vitomir"
+            "Vitomisl"
+            "Vitogoj"
+            "Vitošlav"
+            "Višegoj"
+            "Višemir"
+            "Vladimir"
+            "Vlado"
+            "Voinomir"
+            "Volkoj"
+            "Volkun"
+            "Zababerad"
+            "Zadrag"
+            "Zdebor"
+            "Zdedrag"
+            "Zdegoj"
+            "Zdemir"
+            "Zdeslav"
+            "Zdestan"
+            "Zememišl"
+            "Zemeteh"
+            "Zemiboned"
+            "Zemidrug"
+            "Zemignev"
+            "Zemin"
+            "Zloslav"
+            "Zverce"
+            "Zvergoj"
+            "Zverko"
+            "Železen"
+            "Židislav"
+            "Žilec"
+            "Žitigoj"
+            "Žitomir"
+            "Žitomisl"
+            "Žitovit"
+            "Žizemir"
+            "Blaško"
+            "Bogdan"
+            "Bogoslav"
+            "Božidar"
+            "Božo"
+            "Bojan"
+            "Boril"
+            "Boris"
+            "Boroj"
+            "Boško"
+            "Branko"
+            "Budislav"
+            "Cvetni"
+            "Cvetašin"
+            "Cvetin"
+            "Cvetoš"
+            "Dejan"
+            "Doberko"
+            "Dobrilo"
+            "Dobrovoj"
+            "Dobroslav"
+            "Dragaš"
+            "Dragobrat"
+            "Dražilo"
+            "Dušan"
+            "Godomir"
+            "Gojko"
+            "Gradimir"
+            "Hraber"
+            "Ivko"
+            "Izeslav"
+            "Jezerko"
+            "Kazimir_Casimir"
+            "Karan"
+            "Kocelj"
+            "Krilan"
+            "Ljuben"
+            "Ljubenko"
+            "Liubivoj"
+            "Ljubinko"
+            "Ljubomir"
+            "Ljuboslav"
+            "Maleš"
+            "Miladin"
+            "Milan"
+            "Milanko"
+            "Milen"
+            "Milenko"
+            "Milevoj"
+            "Milin"
+            "Milinko"
+            "Milislav"
+            "Milovan"
+            "Milorad"
+            "Miloš"
+            "Milun"
+            "Miluš"
+            "Milutin"
+            "Miljen"
+            "Miljko"
+            "Milobrat"
+            "Milodrag"
+            "Mirko"
+            "Mirodar"
+            "Mišljen"
+            "Mladen"
+            "Negoš"
+            "Nedeljko"
+            "Ninko"
+            "Nino"
+            "Novko"
+            "Obren"
+            "Prerad"
+            "Pribic"
+            "Radan"
+            "Radivoj"
+            "Radinko"
+            "Radislav"
+            "Radic"
+            "Radmil"
+            "Radovan"
+            "Radoj"
+            "Radojko"
+            "Radomir"
+            "Radosim"
+            "Radoslav"
+            "Rajko"
+            "Ratko"
+            "Rebom"
+            "Savo"
+            "Slavoljub"
+            "Sokol"
+            "Srecan"
+            "Srecko"
+            "Stanko"
+            "Stojadin"
+            "Stojko"
+            "Svetopolk_Svatopluk"
+            "Šišman"
+            "Šumijak"
+            "Tašo"
+            "Tihomil"
+            "Uroš"
+            "Valhun"
+            "Vasoj"
+            "Veselin"
+            "Vecerin"
+            "Vetko"
+            "Vid"
+            "Vidojko"
+            "Vitko"
+            "Vitor"
+            "Vladoslav"
+            "Vlatko"
+            "Vojdrag"
+            "Vojtek"
+            "Volkašin"
+            "Vratislav"
+            "Zlatko"
+            "Zlatoslav"
+            "Zlatoust"
+        }
+        female_names = {
+            "Bega"
+            "Bela"
+            "Belica"
+            "Beliša"
+            "Bitinja"
+            "Blagica"
+            "Bogumila"
+            "Boželisa"
+            "Branka"
+            "Bratina"
+            "Bratrica"
+            "Budislava"
+            "Crna"
+            "Dobrava"
+            "Dobrica"
+            "Dobrilka"
+            "Dobrinja"
+            "Dobrota"
+            "Dobrožica"
+            "Dobrožižna"
+            "Dobruška"
+            "Dolgodelka"
+            "Domnega"
+            "Dražica"
+            "Godeslava"
+            "Gojica"
+            "Gosta"
+            "Gostinja"
+            "Gostiša"
+            "Govica"
+            "Jaronega"
+            "Jaroslava"
+            "Jelena"
+            "Ladana"
+            "Laduta"
+            "Lastuša"
+            "Lazica"
+            "Lepa"
+            "Ljuba"
+            "Ljubiha"
+            "Ljubonega"
+            "Ljubonja"
+            "Ljubota"
+            "Ljuta"
+            "Ljutica"
+            "Mala"
+            "Manidraga"
+            "Miljena"
+            "Mislena"
+            "Mirica"
+            "Mirna"
+            "Miroslava"
+            "Nedeljka"
+            "Negota"
+            "Odola"
+            "Pacemira"
+            "Predobra"
+            "Pribila"
+            "Pribina"
+            "Pribislava"
+            "Prisnoba"
+            "Prisnota"
+            "Radonja"
+            "Semika"
+            "Slava"
+            "Slavka"
+            "Slovenka"
+            "Sobemisla"
+            "Stanila"
+            "Stanislava"
+            "Stislava"
+            "Stojana"
+            "Stojina"
+            "Straha"
+            "Stranka"
+            "Svetoslava"
+            "Tešina"
+            "Težkona"
+            "Tihica"
+            "Tihomira"
+            "Tihonja"
+            "Tonislava"
+            "Topa"
+            "Trebenja"
+            "Trebica"
+            "Trebina"
+            "Ubislava"
+            "Vevera"
+            "Vidina"
+            "Vilana"
+            "Volcina"
+            "Volkinja"
+            "Volkonja"
+            "Volkota"
+            "Vranica"
+            "Zemidraga"
+            "Zenislava"
+            "Zla"
+            "Zlativenca"
+            "Zleslava"
+            "Zverica"
+            "Zverinja"
+            "Zverka"
+            "Židana"
+            "Živina"
+            "Bistra"
+            "Bogdana"
+            "Boža"
+            "Bojana"
+            "Bosiljka"
+            "Brajna"
+            "Cveta"
+            "Cvetana"
+            "Cudna"
+            "Danica"
+            "Daša"
+            "Deva"
+            "Dejana"
+            "Divna"
+            "Dobrana"
+            "Dobrija"
+            "Draga"
+            "Dragica"
+            "Golobica"
+            "Gorislava"
+            "Gradislava"
+            "Granislava"
+            "Grozda"
+            "Grozdana"
+            "Grobiša"
+            "Ivka"
+            "Jagoda"
+            "Janja"
+            "Jasna"
+            "Jela"
+            "Jelenka"
+            "Kazimira"
+            "Kalina"
+            "Kosana"
+            "Košuta"
+            "Krilana"
+            "Lilijana"
+            "Ljubica"
+            "Ljubomira"
+            "Ljuboslava"
+            "Maleša"
+            "Malina"
+            "Malinka"
+            "Mila"
+            "Milena"
+            "Milislava"
+            "Milica"
+            "Milojka"
+            "Milunka"
+            "Miluša"
+            "Milja"
+            "Miljana"
+            "Miljka"
+            "Mira"
+            "Mirca"
+            "Mirjana"
+            "Mica"
+            "Mišljena"
+            "Morava"
+            "Neda"
+            "Nišava"
+            "Novica"
+            "Ogrinja"
+            "Pavica"
+            "Prodana"
+            "Rada"
+            "Radana"
+            "Radojka"
+            "Rajka"
+            "Sava"
+            "Slavica"
+            "Smiljana"
+            "Stana"
+            "Stanimir"
+            "Stanka"
+            "Stojna"
+            "Tankosa"
+            "Tankosava"
+            "Tonka"
+            "Vesela"
+            "Vida"
+            "Vidojka"
+            "Vidoslava"
+            "Volkoslava"
+            "Volcica"
+            "Zlatkoka"
+            "Zorana"
+            "Zorka"
+            "Zvezdana"
+            "Živkoka"
+        }
+        from_dynasty_prefix = "od "
+        male_patronym = "ic"
+        prefix = no
+        modifier = default_culture_modifier
+    }
 }
 magyar = {
     graphical_cultures = {
@@ -13592,7 +16134,8 @@ magyar = {
     }
     hungarian = {
         graphical_cultures = {
-            westernslavicgfx
+            magyargfx
+            westerngfx
         }
         color = {
             0.5
@@ -13659,7 +16202,7 @@ magyar = {
             "克里什托夫_克里斯托弗"  # Kristóf_Christopher
             "拉斯洛_弗拉迪斯拉夫"  # László_Vladislav
             "拉扎尔_拉撒路"  # Lázár_Lazarus
-            "勒林茨_劳伦斯"  # Lõrinc_Lorence
+            "Lõrinc_Laurence"
             "拉约什_路易"  # Lajos_Louis
             "兰佩特_朗贝尔"  # Lampert_Lambert
             "列文特"  # Levente
@@ -13671,7 +16214,7 @@ magyar = {
             "莫里茨_莫里斯"  # Móric_Maurice
             "莫泽什_摩西"  # Mózes_Moses
             "米哈伊_迈克尔"  # Mihály_Michael
-            "米克洛什_尼古拉斯"  # Miklós_Nichola
+            "Miklós_Nicholas"
             "南多尔_斐迪南"  # Nándor_Ferdinand
             "欧尔班_乌尔班"  # Orbán_Urban
             "奥斯卡_奥斯卡"  # Oszkár_Oscar
@@ -13688,7 +16231,7 @@ magyar = {
             "陶马什_托马斯"  # Tamás_Thomas
             "蒂博尔"  # Tibor
             "蒂沃道尔"  # Tivadar
-            "沃祖尔"  # Vazul
+            "Vazul_Basil"
             "文采尔_瓦茨拉夫"  # Vencel_Vaclav
             "维尔莫什_威廉"  # Vilmos_William
             "佐尔坦"  # Zoltán
@@ -13727,7 +16270,7 @@ magyar = {
             "伊洛娜"  # Illona
             "伊伦_伊蕾讷"  # Irén_Irene
             "雅青陶_海厄森塔"  # Jácinta_Hyacintha
-            "约饶"  # Józsa
+            "Józsa_Josepha"
             "尤莉娅_尤莉娅"  # Júlia_Julia
             "约兰"  # Jolán
             "尤迪特_尤迪特"  # Judith_Judith
@@ -13770,6 +16313,7 @@ magyar = {
         prefix = no
         allow_looting = yes
         modifier = default_culture_modifier
+        nomadic_in_alt_start = yes
     }
 }
 iranian = {
@@ -13792,7 +16336,7 @@ iranian = {
             "阿夫沙尔"  # Afshar_Afshar
             "艾哈迈德_艾哈迈德"  # Ahmad_Ahmad
             "阿克巴_阿克巴"  # Akbar_Akbar
-            "阿里"  # Ali
+            "Ali_Ali"
             "安拉亚尔"  # Allahyar
             "阿明"  # Amin
             "阿努什尔万_阿努什尔万"  # Anushirvan_Anushirvan
@@ -13907,7 +16451,7 @@ iranian = {
             "伊嗣俟"  # Yazdegerd
             "优素福_约瑟夫"  # Yousef_Joseph
             "扎哈克"  # Zahak
-            "扎卡里亚"  # Zakaria
+            "Zakaria_Zachary"
             "赞德"  # Zand
             "扎尔托什特_扎尔托什特"  # Zartosht_Zartosht
             "齐亚"  # Zia
@@ -13922,7 +16466,7 @@ iranian = {
             "巴哈尔"  # Bahar
             "巴娜弗谢"  # Banafsheh
             "贝赫娜兹"  # Behnaz
-            "布拉多赫特"  # Burandokht
+            "Burandokht_Pourandokht"
             "妲丽娅"  # Darya
             "德拉拉姆"  # Delaram
             "黛勒巴尔"  # Delbar
@@ -14682,7 +17226,7 @@ iranian = {
             "埃斯凡迪亚尔_埃斯凡迪亚尔"  # Esfendiyar_Esfandiar
             "伊斯坎达尔_亚历山大"  # Eskander_Alexander
             "阿绍特_阿绍特"  # Ešot_Ashot
-            "艾尤布_阿尤布"  # Eyyub_Ayyub
+            "Eyyub_Job"
             "费拉马兹_法拉马尔兹"  # Feramez_Faramarz
             "费拉兹_法拉兹"  # Feraz_Faraz
             "法特"  # Fath
@@ -14772,7 +17316,7 @@ iranian = {
             "亚兹德_耶齐德"  # Yezîd_Yazid
             "优素福"  # Yousef
             "扎哈克"  # Zahak
-            "扎卡里亚"  # Zakaria
+            "Zakaria_Zachary"
             "赞德"  # Zand
             "泽尔德什特_扎尔托什特"  # Zerdešt_Zartosht
             "齐亚"  # Zia
@@ -15075,17 +17619,17 @@ iranian = {
             "阿里夫"  # Aarif
             "阿拉什"  # Aarash
             "阿扎尔"  # Aazar
-            "阿拔斯"  # Abas
+            "Abas_Abbas"
             "阿卜迪舒"  # Abdiesus
             "阿贝德"  # Abed
             "阿布-扎尔"  # Abu-zar
             "阿夫扎尔"  # Afzal
             "阿德尔"  # Adel
             "阿夫鲁兹"  # Afrooz
-            "阿夫萨尔"  # Afsar
+            "Afsar_Afshar"
             "阿夫欣"  # Afshin
             "阿杰马勒"  # Ajmal
-            "阿克巴"  # Akbar
+            "Akbar_Akbar"
             "阿赫塔尔"  # Akhtar
             "阿克拉姆"  # Akram
             "阿拉乌德丁"  # Alaudin
@@ -15093,7 +17637,7 @@ iranian = {
             "阿勒梅达"  # Almeida
             "阿马尔达德"  # Amardad
             "阿穆兹"  # Amooz
-            "阿努希拉万"  # Anoushiravan
+            "Anoushiravan_Anushirvan"
             "安瓦阿拉丁"  # Anwaaraddin
             "阿里亚布德"  # Ariabood
             "阿尔明"  # Armeen
@@ -15119,12 +17663,12 @@ iranian = {
             "达德瓦尔"  # Dadvar
             "费雷赫"  # Faireh
             "法尔贾德"  # Farjaad
-            "法尔扎德"  # Farzaad
+            "Farzaad_Farzad"
             "法特赫汉"  # Futtehkhan
             "古勒雷兹"  # Gulraiz
             "古勒雷兹"  # Gulrez
             "居尔鲁"  # Gulru
-            "埃斯凡迪亚尔"  # Isfandiyar
+            "Isfandiyar_Esfandiar"
             "贾赫"  # Jaah
             "贾卜鲁特"  # Jabroot
             "贾马斯"  # Jammas
@@ -15136,16 +17680,16 @@ iranian = {
             "马丁"  # Mateen
             "梅赫兰格"  # Mehrang
             "米尔韦斯"  # Mirwais
-            "穆哈马迪"  # Mohammadi
+            "Mohammadi_Muhammad"
             "穆因汉"  # Moinkhan
             "穆赫塔尔"  # Mukhtar
             "穆尔萨林"  # Mursalin
-            "穆萨"  # Musa
+            "Musa_Moses"
             "纳西法"  # Naseefa
             "纳瓦斯汉"  # Nawaskhan
             "努曼"  # Nouman
             "拜恩达"  # Painda
-            "帕尔维兹"  # Parwaiz
+            "Parwaiz_Parviz"
             "帕齐尔"  # Pazir
             "普亚"  # Poya
             "卡马尔"  # Qammar
@@ -15153,7 +17697,7 @@ iranian = {
             "沙赫米尔"  # Shahmeer
             "沙胡"  # Shahou
             "沙赫帕尔"  # Shahpar
-            "沙赫普尔"  # Shahpur
+            "Shahpur_Shapur"
             "沙胡"  # Shahu
             "舍赫扎德"  # Shehzad
             "苏班"  # Soban
@@ -15166,9 +17710,9 @@ iranian = {
             "亚尔"  # Yar
             "耶萨勒"  # Yesal
             "扎德法尔"  # Zadfar
-            "扎卡里亚"  # Zakariya
+            "Zakariya_Zachary"
             "扎拉克"  # Zarak
-            "扎尔塔什"  # Zartash
+            "Zartash_Zartosht"
         }
         female_names = {
             "阿卜露"  # Aabroo
@@ -15194,7 +17738,7 @@ iranian = {
             "法尔扎内"  # Farzaneh
             "费尔哈娜"  # Ferhana
             "菲露泽"  # Firouzeh
-            "加姆泽"  # Ghamzeh
+            "Ghamzeh_Ghamze"
             "居尔努尔"  # Gulnoor
             "古尔帕丽"  # Gulpari
             "古尔兰格"  # Gulrang
@@ -15228,7 +17772,7 @@ iranian = {
             "帕丽古勒"  # Parigul
             "帕丽维什"  # Pariwish
             "佩尔玛兹"  # Permaz
-            "佩尔温"  # Perveen
+            "Perveen_Parvin"
             "拉米内"  # Ramineh
             "萨玛内"  # Samaneh
             "莎巴汉格"  # Shabahang
@@ -15250,7 +17794,7 @@ iranian = {
             "娅尔库特"  # Yalqoot
             "娅姆娜"  # Yamna
             "娅什法"  # Yashfa
-            "娅斯蒙"  # Yasmoon
+            "Yasmoon_Yasmin"
             "扎菲拉"  # Zaafirah
             "扎哈卜"  # Zahab
             "扎玛伊尔"  # Zamaair
@@ -15264,9 +17808,9 @@ iranian = {
         }
         dynasty_title_names = yes
         founder_named_dynasties = yes
-        male_patronym = "库列"  # kurê 
-        female_patronym = "基切"  # kiçê 
-        prefix = yes
+        male_patronym = "zai"
+        female_patronym = "lur"
+        prefix = no
         modifier = default_culture_modifier
     }
     baloch = {
@@ -15280,9 +17824,9 @@ iranian = {
             0.05
         }
         male_names = {
-            "阿达姆"  # Aadam
+            "Aadam_Adam"
             "阿代纳格"  # Aadeynag
-            "阿利"  # Aali
+            "Aali_Ali"
             "阿勒马斯"  # Aalmaas
             "阿德哈姆"  # Adham
             "阿拉亚尔"  # Allayaar
@@ -15291,12 +17835,12 @@ iranian = {
             "巴拉奇"  # Baalaach
             "巴兰"  # Baaraan
             "巴拉格"  # Baarag
-            "巴赫拉姆"  # Bahraam
+            "Bahraam_Bahram"
             "班达格"  # Ban'dag
             "巴沙姆"  # Bashshaam
             "贝赫鲁兹"  # Behrouz
             "贝赫扎德"  # Beh'zaad
-            "比巴格尔"  # Bibagr
+            "Bibagr_Babak"
             "博哈多尔"  # Bohaador
             "布哈多尔"  # Buhaa'dor
             "布黑尔"  # Bouheyr
@@ -15312,7 +17856,7 @@ iranian = {
             "杜达"  # Doudaa
             "杜斯泰恩"  # Dousteyn
             "加齐"  # Gaazi
-            "加姆沙德"  # Gam'shaad
+            "Gam'shaad_Jamshid"
             "加齐"  # Gazzi
             "吉沙尔"  # Gishshar
             "格乌赫拉姆"  # Gwahraam
@@ -15324,7 +17868,7 @@ iranian = {
             "霍尔松德"  # Horsond
             "贾法尔"  # Jaafar
             "贾拉卜"  # Jalab
-            "杰汉吉尔"  # Jehaangir
+            "Jehaangir_Jahangir"
             "吉扬德"  # Jiyand
             "乔马"  # Joma
             "卡马勒"  # Kamaal
@@ -15358,7 +17902,7 @@ iranian = {
             "沙卡勒"  # Shakkal
             "沙姆谢尔"  # Shamsheyr
             "沙里夫"  # Sharif
-            "塞坎达尔"  # Sekandar
+            "Sekandar_Alexander"
             "谢尔德勒"  # Sheyrdel
             "苏班"  # Soubaan
             "赞吉"  # Zangi
@@ -15388,7 +17932,7 @@ iranian = {
             "哈通"  # Haatun
             "贾娜特"  # Jannat
             "玛赫代姆"  # Mah'deym
-            "玛赫塔卜"  # mah'taab
+            "Mah'taab_Mahtab"
             "玛汉"  # Maahaan
             "玛哈通"  # Maahaatun
             "玛赫坎"  # Maahekaan
@@ -15398,7 +17942,7 @@ iranian = {
             "玛赫加妮"  # Mahganj
             "玛赫戈勒"  # Mahgol
             "玛赫加宾"  # Mahjabin
-            "玛赫莉卡"  # Mahlika
+            "Mahlika_Malika"
             "玛赫娜兹"  # Mahnaaz
             "玛赫努尔"  # Mahnur
             "玛赫兰格"  # Mahrang
@@ -15427,7 +17971,7 @@ iranian = {
             "莎莉"  # Shali
             "莎尔哈通"  # Sharhaatun
             "谢姆绍克"  # Shemshok
-            "谢琳"  # Shereen
+            "Shereen_Shirin"
             "谢莎洛"  # Sheshalo
             "苏格拉"  # Sugra
             "苏哈"  # Suha
@@ -15442,9 +17986,9 @@ iranian = {
         }
         dynasty_title_names = yes
         founder_named_dynasties = yes
-        male_patronym = "库列"  # kurê 
-        female_patronym = "基切"  # kiçê 
-        prefix = yes
+        male_patronym = "ani"
+        female_patronym = "lur"
+        prefix = no
         modifier = default_culture_modifier
     }
     saka = {
@@ -15607,7 +18151,6 @@ east_african = {
             "格塔楚"  # Getachew
             "格特耶"  # Geteye
             "格尔玛"  # Girma
-            "伊斯坎德"  # Iskinder
             "阿拜"  # Abai
             "阿贝贝"  # Abebe
             "阿费沃克"  # Afework
@@ -15724,7 +18267,7 @@ east_african = {
             "基夫勒"  # Kifle
             "丽珊"  # Lishan
             "卢瓦玛"  # Louama
-            "抹大拉"  # Magdala
+            "Magdala_Magdalena"
             "玛哈里尼"  # Maharene
             "玛克达"  # Makda
             "玛克达"  # Makeda
@@ -15779,18 +18322,18 @@ east_african = {
             "阿布迪拉曼"  # Abdirahman
             "阿卜杜拉_阿卜杜拉"  # Abdulah_Abdullah
             "阿布拉姆_亚伯拉罕"  # Abram_Abraham
-            "阿布-伯克尔"  # Abu-Bakr
+            "Abu-Bakr_Abu-Bakr"
             "亚当"  # Adan
             "阿德尔"  # Adeer
             "阿赫梅德_艾哈迈德"  # Ahmed_Ahmad
-            "阿里"  # Ali
+            "Ali_Ali"
             "阿姆拉勒"  # Amlale
             "安尔"  # Aul
             "阿维"  # Awe
             "阿达西斯"  # Aydahis
             "巴拉德"  # Balad
-            "巴拉卡"  # Baraka
-            "巴拉卡特"  # Barakat
+            "Baraka_Barak"
+            "Barakat_Barak"
             "伊萨"  # Ciise
             "达伽勒"  # Dagale
             "德西西姆"  # Dhidhin
@@ -15870,7 +18413,7 @@ east_african = {
             "卢拉"  # Luula
             "马果"  # Magol
             "马卡"  # Maka
-            "玛利亚"  # Maria
+            "Mariam_Maria"
             "姆基"  # Mulki
             "那斯特霍"  # Nasteexo
             "萨伽尔"  # Sagal
@@ -15904,10 +18447,10 @@ east_african = {
             "安德热斯_安德鲁"  # Andreas_Andrew
             "阿塔纳西奥斯_阿塔纳修斯"  # Athanasios_Athanasius
             "巴洛"  # Balô
-            "巴尔托洛迈奥斯_巴塞洛缪"  # Bartholomaios_Bartholomeus
+            "Bartholomaios_Bartolomeus"
             "比热尔"  # Birêl
             "查尔"  # Chael
-            "赫里斯托福罗斯"  # Christophoros
+            "Christophoros_Christopher"
             "大卫_大卫"  # Dauid_David
             "迪米特奥斯_蒂莫西"  # Dimetheos_Timothy
             "迪奥斯科洛斯"  # Dioskoros
@@ -15934,7 +18477,7 @@ east_african = {
             "伊索辛科达"  # Iêsousinkouda
             "约安努_约拿"  # Iôannou_Jonah
             "约安尼斯_约翰"  # Iôannês_John
-            "约尔达尼斯_约尔达尼斯"  # Iordanes_Jordanes
+            "Iordanes_Jordan"
             "约瑟夫_约瑟夫"  # Ioseph_Joseph
             "卡里尼克斯_卡里尼基科斯"  # Kalinikos_Kallinikios
             "科洛霍斯"  # Kollouthos
@@ -15945,7 +18488,7 @@ east_african = {
             "列昂_利奥"  # Leon_Leo
             "列昂提奥斯_莱昂提乌斯"  # Leontios_Leontius
             "马卡里洛斯_马卡里斯"  # Makarios_Makarius
-            "玛丽亚娜_玛丽亚娜"  # Mariana_Mariana
+            "Mariana_Marianus"
             "玛丽安科达"  # Mariankouda
             "马里亚诺斯_马里亚努斯"  # Marianos_Marianus
             "马里奥斯_马里乌斯"  # Marios_Marius
@@ -15971,7 +18514,7 @@ east_african = {
             "菲洛特斯"  # Philotheos
             "菲列蒙"  # Philemon
             "普洛卓洛"  # Prochoros
-            "拉斐尔"  # Raphael
+            "Raphael_Raphael"
             "拉斐尔库达"  # Raphaelkouda
             "萨松"  # Samson
             "瑟诺提奥斯"  # Senouthios
@@ -16008,8 +18551,8 @@ east_african = {
             "埃奥卡"  # Eionñoka
             "埃头"  # Eitou
             "伊丽莎贝斯_伊丽莎白"  # Elisabeth_Elizabeth
-            "依热娜"  # Eirena
-            "伊琳妮"  # Eirene
+            "Eirena_Irene"
+            "Eirene_Irene"
             "依洛塔"  # Eirota
             "依洛塔头基"  # Eirotatouññlki
             "恩塔厄里"  # Entaeiri
@@ -16058,7 +18601,7 @@ east_african = {
             "普丽西西拉_普丽西拉"  # Prisisilla_Priscilla
             "拉希马"  # Rahimah
             "索菲亚"  # Sophia
-            "索桑娜"  # Sousanna
+            "Sousanna_Susan"
             "斯坦洛帕尼"  # Staurophania
             "特奥洛尼"  # Theobronia
             "特奥多拉刻"  # Theodorake
@@ -16073,6 +18616,618 @@ east_african = {
         founder_named_dynasties = yes
         dukes_called_kings = yes
         modifier = default_culture_modifier
+    }
+    daju = {
+        graphical_cultures = {
+            africangfx
+            westafricangfx
+        }
+        secondary_event_pictures = bedouin_arabic
+        color = {
+            0.95
+            0.9
+            0.65
+        }
+        male_names = {
+            "Adam"
+            "Ahmed_Ahmad"
+            "Anqarib"
+            "Asil"
+            "Bakhit"
+            "Ber"
+            "Bogirg"
+            "Bokdoru"
+            "Bolad"
+            "Born"
+            "Bug"
+            "Chang"
+            "Chaski"
+            "Dahab"
+            "Dong"
+            "Ede"
+            "Ett"
+            "Ferne"
+            "Gaguwe"
+            "Galan"
+            "Gelgel"
+            "Gon"
+            "Habib"
+            "Hajar"
+            "Hassaballah"
+            "Ibedou"
+            "Ibrahim_Abraham"
+            "Ishaq_Isaac"
+            "Issa"
+            "Izzo"
+            "Jal"
+            "Jamne"
+            "Kalge"
+            "Kamalgi"
+            "Karim"
+            "Kasefroge"
+            "Kosom"
+            "Koydin"
+            "Kukne"
+            "Kur"
+            "Lanhjin"
+            "Magjin"
+            "Maland"
+            "Malaz"
+            "Mbakin"
+            "Meayge"
+            "Meewge"
+            "Moussa"
+            "Moustafa_Mustafa"
+            "Murtin"
+            "Omar"
+            "Pen"
+            "Pid"
+            "Risha"
+            "Rong"
+            "Salih"
+            "Shendi"
+            "Shuaeib"
+            "Wadanh"
+            "Youssouf_Joseph"
+            "Yug"
+        }
+        female_names = {
+            "Amm"
+            "Awdinh"
+            "Bakhita"
+            "Ber"
+            "Bis"
+            "Bor"
+            "Buk"
+            "Chaski"
+            "Emsire"
+            "Gaguwe"
+            "Gosgod"
+            "Hamam"
+            "Jamne"
+            "Kakaw"
+            "Kimzir"
+            "Kubuy"
+            "Kugurg"
+            "Kulk"
+            "Lanhjin"
+            "Maj"
+            "Mariam"
+            "Musin"
+            "Ngid"
+            "Okk"
+            "Pid"
+            "Raqiq"
+            "Ur"
+            "Usk"
+            "Wadanh"
+        }
+        founder_named_dynasties = yes
+        dukes_called_kings = yes
+        allow_looting = yes
+    }
+}
+central_african = {
+    graphical_cultures = {
+        muslimgfx
+    }
+    kanuri = {
+        graphical_cultures = {
+            westafricangfx
+            africangfx
+        }
+        secondary_event_pictures = bedouin_arabic
+        color = {
+            0.8
+            0.45
+            0.75
+        }
+        male_names = {
+            "Abbas"
+            "Abdallah"
+            "Abdul"
+            "Abdulraham"
+            "Abubakar"
+            "Adam_Adam"
+            "Ahmed"
+            "Airimi"
+            "Alhaji"
+            "Ali"
+            "Alooma"
+            "Amin"
+            "Amr"
+            "Arku"
+            "Arsu"
+            "Baba"
+            "Baram"
+            "Bikorom"
+            "Biri"
+            "Bukar"
+            "Bulu"
+            "Buyuma"
+            "Dabbalemi"
+            "Dala"
+            "Daoud_David"
+            "Dugu"
+            "Dunama"
+            "Fune"
+            "Gaji"
+            "Gajideni"
+            "Galrima"
+            "Gana"
+            "Garbai"
+            "Gazali"
+            "Gazi"
+            "Ghana"
+            "Hume"
+            "Hummay"
+            "Ibrahim_Abraham"
+            "Idris"
+            "Kaday"
+            "Kanemi"
+            "Kashim"
+            "Katakarmabe"
+            "Katur"
+            "Kiyari"
+            "Kura"
+            "Kuri"
+            "Kuwaana"
+            "Madu"
+            "Mahmoud"
+            "Mamane"
+            "Modu"
+            "Mohammed_Mohammed"
+            "Mufioma"
+            "Murama"
+            "Musa"
+            "Mustafa"
+            "Nikale"
+            "Osman"
+            "Said"
+            "Salmama"
+            "Sanda"
+            "Sani"
+            "Sef"
+            "Selma"
+            "Shettima"
+            "Shu"
+            "Suleyman_Solomon"
+            "Tandja"
+            "Umar"
+            "Waziri"
+            "Yahya_John"
+            "Yaqub_Jacob"
+            "Yusuf_Joseph"
+            "Zannah"
+        }
+        female_names = {
+            "Aisha"
+            "Aissa"
+            "Aliyah"
+            "Amina"
+            "Aziza"
+            "Bakhita"
+            "Cinta"
+            "Daniyah"
+            "Dikwa"
+            "Fatima_Fatima"
+            "Halima"
+            "Jalila"
+            "Kaltum"
+            "Karima"
+            "Khadija"
+            "Khalila"
+            "Kili"
+            "Layla"
+            "Malika"
+            "Mariam_Maria"
+            "Mina"
+            "Nadia"
+            "Rashida"
+            "Shadia"
+            "Shakira"
+            "Sukda"
+            "Tebunnu"
+            "Wahida"
+            "Ya"
+            "Yasmin"
+        }
+    }
+    hausa = {
+        graphical_cultures = {
+            westafricangfx
+            africangfx
+        }
+        secondary_event_pictures = bedouin_arabic
+        color = {
+            0.9
+            0.55
+            0.8
+        }
+        male_names = {
+            "Abasama"
+            "Abbas"
+            "Abdul"
+            "Abdulkareem"
+            "Abdulraham"
+            "Abu"
+            "Abubakar"
+            "Adam_Adam"
+            "Adamu"
+            "Ado"
+            "Ahmed"
+            "Ahmedu"
+            "Ali"
+            "Aliyu"
+            "Aminu"
+            "Amir"
+            "Ashakuka"
+            "Atuma"
+            "Bagunda"
+            "Bako"
+            "Balarabe"
+            "Barau"
+            "Barbushe"
+            "Bashar"
+            "Bashir"
+            "Bawa"
+            "Bawo"
+            "Bayajidda"
+            "Bayero"
+            "Bello"
+            "Bilal"
+            "Biram"
+            "Burema"
+            "Burja"
+            "Cikkoku"
+            "Dadi"
+            "Dakauta"
+            "Dallatu"
+            "Danasabe"
+            "Danjuma"
+            "Danladi"
+            "Danlami"
+            "Daoud_David"
+            "Daren"
+            "Dauda"
+            "Daura"
+            "Faisal"
+            "Faizu"
+            "Faruk"
+            "Faruq"
+            "Fuad"
+            "Gaddo"
+            "Gambo"
+            "Gani"
+            "Gijimasu"
+            "Gobir"
+            "Gowon"
+            "Gugwa"
+            "Habib"
+            "Hadi"
+            "Hafiz"
+            "Hammada"
+            "Hamzah"
+            "Hassan"
+            "Hussain"
+            "Hussein"
+            "Ibrahim"
+            "Ibrahim_Abraham"
+            "Idris"
+            "Imam"
+            "Isa"
+            "Ishaku"
+            "Ishaq_Isaac"
+            "Ismaila"
+            "Jalil"
+            "Jamal"
+            "Jatau"
+            "Jibril"
+            "Kabe"
+            "Kado"
+            "Kamil"
+            "Kanajeji"
+            "Kandala"
+            "Kano"
+            "Karbagari"
+            "Kareem"
+            "Katsina"
+            "Khalifah"
+            "Kisoki"
+            "Korau"
+            "Kukuna"
+            "Kumbari"
+            "Mahdi"
+            "Mahmoud"
+            "Mahmud"
+            "Malam"
+            "Mansur"
+            "Mohammed_Mohammed"
+            "Muhsin"
+            "Musa"
+            "Mustafa"
+            "Nabil"
+            "Nafata"
+            "Naguji"
+            "Nasir"
+            "Nawata"
+            "Nazaki"
+            "Nohir"
+            "Nomau"
+            "Rahid"
+            "Rano"
+            "Rashidi"
+            "Rumfa"
+            "Said"
+            "Salim"
+            "Sambo"
+            "Shahada"
+            "Sharef"
+            "Shashere"
+            "Shekarau"
+            "Sidi"
+            "Soyaki"
+            "Suleyman_Solomon"
+            "Tahir"
+            "Tanimu"
+            "Tanko"
+            "Tsamiya"
+            "Tsaraki"
+            "Uban"
+            "Umar"
+            "Umaru"
+            "Usman"
+            "Warisi"
+            "Yahya_John"
+            "Yaji"
+            "Yakubu"
+            "Yakufu"
+            "Yamusa"
+            "Yaqub_Jacob"
+            "Yero"
+            "Yohance"
+            "Yohanna"
+            "Yunfa"
+            "Yunusa"
+            "Yusa"
+            "Yusuf"
+            "Yusuf_Joseph"
+            "Zaki"
+            "Zaria"
+        }
+        female_names = {
+            "Adia"
+            "Aisha"
+            "Aissa"
+            "Aliyah"
+            "Amina"
+            "Aminah"
+            "Aminatu"
+            "Arria"
+            "Arziki"
+            "Asabe"
+            "Asmau"
+            "Atikah"
+            "Auta"
+            "Aziza"
+            "Baba"
+            "Bagwariya"
+            "Bakhita"
+            "Bakwa"
+            "Balaraba"
+            "Batatume"
+            "Daniyah"
+            "Danuwa"
+            "Daura"
+            "Daurama"
+            "Faidah"
+            "Faiqah"
+            "Faizah"
+            "Faraa"
+            "Farih"
+            "Fatima_Fatima"
+            "Fatimah"
+            "Gamata"
+            "Gerda"
+            "Gimbya"
+            "Gino_Gino"
+            "Gizirgizir"
+            "Habibah"
+            "Hadejia"
+            "Hafsah"
+            "Halima"
+            "Halimah"
+            "Hamata"
+            "Hamidah"
+            "Hanna"
+            "Hassana"
+            "Hazika"
+            "Hussaina"
+            "Ijaba"
+            "Iman"
+            "Ina"
+            "Innagari"
+            "Jalila"
+            "Jamata"
+            "Jamilah"
+            "Jummai"
+            "Kaka"
+            "Karima"
+            "Khadija"
+            "Khadijah"
+            "Khalila"
+            "Khamees"
+            "Khamisa"
+            "Kili"
+            "Kubra"
+            "Kurfuru"
+            "Ladi"
+            "Lami"
+            "Lantana"
+            "Laraba"
+            "Larai"
+            "Latifah"
+            "Layla"
+            "Lina"
+            "Lisha"
+            "Lubabah"
+            "Magajiya"
+            "Magaram"
+            "Magira"
+            "Maimuna"
+            "Malika"
+            "Mansurah"
+            "Mariam_Maria"
+            "Marka"
+            "Maryam"
+            "Mina"
+            "Nabilah"
+            "Nadia"
+            "Nafisah"
+            "Naimah"
+            "Rabiah"
+            "Rahmah"
+            "Rashida"
+            "Rashidah"
+            "Ruqayyah"
+            "Safiyah"
+            "Sakinah"
+            "Salimah"
+            "Samirah"
+            "Sandamata"
+            "Shadia"
+            "Shakira"
+            "Shata"
+            "Shawata"
+            "Shukriyah"
+            "Sumayyah"
+            "Talatu"
+            "Turunku"
+            "Wahida"
+            "Walzama"
+            "Yakumo"
+            "Yanbamu"
+            "Yasmin"
+            "Yukuna"
+            "Zahrah"
+            "Zainab"
+            "Zakiyyah"
+            "Zama"
+            "Zaytun"
+            "Zubaydah"
+        }
+    }
+    zaghawa = {
+        graphical_cultures = {
+            westafricangfx
+            africangfx
+        }
+        secondary_event_pictures = bedouin_arabic
+        color = {
+            0.9
+            0.35
+            0.85
+        }
+        male_names = {
+            "Abakar"
+            "Abba"
+            "Abbas"
+            "Abdul"
+            "Abdulraham"
+            "Adam_Adam"
+            "Ahmed"
+            "Ali"
+            "At-Tayeb"
+            "Brahim_Abraham"
+            "Daoud_David"
+            "Deli"
+            "Dolo"
+            "Gilding"
+            "Goukouni"
+            "Hishi"
+            "Ibrahim_Abraham"
+            "Idris"
+            "Ingir"
+            "Issa"
+            "Kasu"
+            "Kosu"
+            "Ku"
+            "Kuti"
+            "Mahmoud"
+            "Minni"
+            "Mohammed_Mohammed"
+            "Musa"
+            "Oki"
+            "Okiramaj"
+            "Omer"
+            "Osman"
+            "Shartay"
+            "Siddick"
+            "Sora"
+            "Suleyman_Solomon"
+            "Tijani"
+            "Timan"
+            "Toholjo"
+            "Tor"
+            "Torfu"
+            "Tugule"
+            "Udure"
+            "Yahya_John"
+            "Yaqub_Jacob"
+            "Yusuf_Joseph"
+        }
+        female_names = {
+            "Aisha"
+            "Aliyah"
+            "Bado"
+            "Bakhita"
+            "Bi"
+            "Eya"
+            "Fatima"
+            "Gir"
+            "Hadurah"
+            "Halima"
+            "Hinda"
+            "Ija"
+            "Kadiga"
+            "Khalila"
+            "Layla"
+            "Makka"
+            "Malika"
+            "Mariam_Maria"
+            "Mounah"
+            "Ning"
+            "Ogai"
+            "Rashida"
+            "Shadia"
+            "Shakira"
+            "Sumah"
+            "Sumiah"
+            "Tele"
+            "Ter"
+            "Wahida"
+            "Yasmin"
+        }
     }
 }
 west_african = {
@@ -16209,7 +19364,7 @@ west_african = {
             "卡莉亚"  # Kilia
             "库伦坎"  # Kolonkan
             "罗拉内"  # Lorane
-            "玛丽亚姆"  # Mariam
+            "Mariam_Maria"
             "娜菲撒"  # Nafissa
             "娜曼吉"  # Namandjé
             "娜米斯"  # Namiss
@@ -16227,11 +19382,334 @@ west_african = {
         founder_named_dynasties = yes
         modifier = default_culture_modifier
     }
+    soninke = {
+        graphical_cultures = {
+            westafricangfx
+            africangfx
+        }
+        secondary_event_pictures = bedouin_arabic
+        color = {
+            0.35
+            0.35
+            0.2
+        }
+        male_names = {
+            "Abubakar"
+            "Akoi"
+            "Alayaman"
+            "Bérété"
+            "Bathily"
+            "Bomou"
+            "Bilali"
+            "Bunama"
+            "Badä"
+            "Bamari"
+            "Bannu"
+            "Birama"
+            "Bisi"
+            "Biyu"
+            "Cissi"
+            "Diobé"
+            "Dabo"
+            "Diakhaba"
+            "Diawara"
+            "Daffi"
+            "Doucouri"
+            "Dankaran"
+            "Demba"
+            "Daoud_David"
+            "Diara"
+            "Fissourou"
+            "Fadiga"
+            "Fädazu"
+            "Fuluku"
+            "Gane"
+            "Gao"
+            "Ishaq_Isaac"
+            "Kaba"
+            "Kabayo"
+            "Kalabi"
+            "Kanafa"
+            "Kambine"
+            "Kassa"
+            "Kaya"
+            "Kayna"
+            "Kinkin"
+            "Kukuray"
+            "Kusoy"
+            "Marega"
+            "M'Bali"
+            "Maghan"
+            "Majan"
+            "Mamadi"
+            "Mamoudou"
+            "Mari-Djata"
+            "Musa_Moses"
+            "Niakhaté"
+            "Nintasanay"
+            "Wague"
+            "Wali"
+            "Wati"
+            "Reidja"
+            "Sy"
+            "Sylla"
+            "Sakho"
+            "Soukhouna"
+            "Sima"
+            "Soumaré"
+            "Sakoura"
+            "Salman"
+            "Sandaki"
+            "Soumaba"
+            "Soumaoro"
+            "Soundiata"
+            "Sulayman"
+            "Tandian"
+            "Tunka"
+            "Tunka-Menin"
+            "Tabouri"
+            "Tounkara"
+            "Touri"
+            "Tandi"
+            "Takoi"
+            "Tib"
+            "Yansané"
+            "Yatabéri"
+            "Yama"
+            "Yasiboy"
+            "Zakoi"
+            "Zenku"
+        }
+        female_names = {
+            "Adja"
+            "Alima"
+            "Amita"
+            "Aoua"
+            "Aminata"
+            "Aichata"
+            "Aissata"
+            "Barakissa"
+            "Bintou"
+            "Deye"
+            "Djeneba"
+            "Djenly"
+            "Djire"
+            "Fadima"
+            "Fatim"
+            "Fatoumata"
+            "Halima"
+            "Hawa"
+            "Ina"
+            "Kondolon"
+            "Kadi"
+            "Kilia"
+            "Kolonkan"
+            "Lorane"
+            "Mariam"
+            "Namandjé"
+            "Nafissa"
+            "Namiss"
+            "Nana"
+            "Sané"
+            "Sogolon"
+            "Safiatou"
+            "Salimata"
+            "Sidibé"
+            "Siya"
+            "Tekhaye"
+            "Youma"
+            "Zeinab"
+        }
+    }
+    songhay = {
+        color = {
+            0.5
+            0.35
+            0.10
+        }
+        graphical_cultures = {
+            westafricangfx
+            africangfx
+        }
+        secondary_event_pictures = bedouin_arabic
+        male_names = {
+            "Abi"
+            "Abu"
+            "Adamu_Adam"
+            "Ahmad"
+            "Al-Hajj"
+            "Alayaman"
+            "Ali"
+            "Alkamiisa"
+            "Ammar"
+            "Ankabi"
+            "Ar"
+            "Arabi"
+            "Aranda"
+            "Baba"
+            "Babba"
+            "Bada"
+            "Baki"
+            "Bakr"
+            "Bani"
+            "Bano"
+            "Baru"
+            "Bassarou"
+            "Bay"
+            "Ber"
+            "Binta"
+            "Birma"
+            "Bisi"
+            "Biya"
+            "Biyay"
+            "Biyo"
+            "Bonkana"
+            "Borgo"
+            "Boumi"
+            "Bukar"
+            "Buyunbu"
+            "Daara"
+            "Dala"
+            "Dankataya"
+            "Dao"
+            "Daouda_David"
+            "Dari"
+            "Dawud_David"
+            "Dum"
+            "Dunku"
+            "Duru"
+            "Fadazaw"
+            "Falaku"
+            "Far"
+            "Fari-Mondzo"
+            "Fay"
+            "Fi"
+            "Fodi"
+            "Hanga"
+            "Hargani"
+            "Harun"
+            "Hassan"
+            "Hin"
+            "Huseini"
+            "Ibrahim_Abraham"
+            "Igoumou"
+            "Ikoi"
+            "Ishaq_Isaac"
+            "Is’mail"
+            "Ize"
+            "Jim"
+            "Kaasei"
+            "Kanafa"
+            "Kanbu"
+            "Karaway"
+            "Karay"
+            "Karbachi"
+            "Kayna"
+            "Keina"
+            "Kibu’u"
+            "Kima"
+            "Kimi"
+            "Kinba"
+            "Kinkin"
+            "Kiray"
+            "Kisha"
+            "Kodama"
+            "Koi"
+            "Koize"
+            "Kolon"
+            "Komi"
+            "Koy"
+            "Ku"
+            "Kukiya"
+            "Kukura"
+            "Kuli"
+            "Kulun"
+            "Kumay"
+            "Kun"
+            "Kur"
+            "Kusoy"
+            "Kusur"
+            "Laraba"
+            "Maammarou"
+            "Mahmud"
+            "Malla"
+            "Mar"
+            "Mar-Chindin"
+            "Mayroumfa"
+            "Missi"
+            "Morobani"
+            "Moussa"
+            "Muhammed"
+            "Musa"
+            "Nari"
+            "Nuh"
+            "Nunta"
+            "Ouankoy"
+            "Samsou"
+            "Samsou-Beri"
+            "Sanay"
+            "Shams"
+            "Shinyunbu"
+            "Silman"
+            "Sorko-ije"
+            "Sulayman"
+            "Sunni"
+            "Takoi"
+            "Tib"
+            "Tomo"
+            "Uthman"
+            "Wunka"
+            "Yama"
+            "Yaqub_Jacob"
+            "Yasiboy"
+            "Yuma"
+            "Zakoi"
+            "Zalil"
+            "Zunku"
+        }
+        female_names = {
+            "Adama"
+            "Aisha"
+            "Alkamiisa"
+            "Amina"
+            "Aminah"
+            "Azzah"
+            "Bilqis"
+            "Chindi"
+            "Daara"
+            "Dangey"
+            "Fanta"
+            "Fatima_Fatima"
+            "Fatimah"
+            "Fitila"
+            "Gando"
+            "Geyka"
+            "Hassana"
+            "Hawa"
+            "Huseina"
+            "Kouton"
+            "Lambu"
+            "Layla"
+            "Mecca"
+            "Medina"
+            "Nuru"
+            "Tarifa"
+            "Teko"
+            "Zaynab"
+        }
+    }
 }
 mesoamerican = {
     graphical_cultures = {
         mesoamericangfx
         muslimgfx
+    }
+    alternate_start = {
+        has_alternate_start_parameter = {
+            key = culture
+            value = full_random
+        }
+        has_dlc = "Sunset Invasion"
     }
     nahuatl = {
         graphical_cultures = {
@@ -16418,6 +19896,12 @@ israelite = {
     graphical_cultures = {
         easterngfx
     }
+    alternate_start = {
+        has_alternate_start_parameter = {
+            key = culture
+            value = full_random
+        }
+    }
     ashkenazi = {
         graphical_cultures = {
             byzantinegfx
@@ -16546,7 +20030,7 @@ israelite = {
             "耶胡达_犹大"  # Yehudah_Judah
             "耶胡戴_犹大"  # Yehudai_Judah
             "耶和书亚_约书亚"  # Yehoshua_Joshua
-            "耶撒亚"  # Yeshayah
+            "Yeshayah_Isaiah"
             "以色列"  # Yisrael
             "伊扎克_以撒"  # Yitzchak_Isaac
             "犹尔"  # Yoel
@@ -16712,7 +20196,7 @@ israelite = {
             "耶胡达_犹大"  # Yehudah_Judah
             "耶胡戴_犹大"  # Yehudai_Judah
             "耶和书亚_约书亚"  # Yehoshua_Joshua
-            "耶撒亚"  # Yeshayah
+            "Yeshayah_Isaiah"
             "以色列"  # Yisrael
             "伊扎克_以撒"  # Yitzchak_Isaac
             "犹尔"  # Yoel
@@ -18356,7 +21840,7 @@ indo_aryan_group = {
             "贤诃罗"  # Genhra
             "诃毗波_哈菲夫"  # Hafif_Khafif
             "诃弥罗"  # Hamir
-            "伊赐摩伊罗_伊斯玛仪"  # Ismail
+            "Ismail_Ismail"
             "周那"  # Junah
             "迦诃"  # Kahah
             "迦兰"  # Karan
@@ -18364,8 +21848,8 @@ indo_aryan_group = {
             "诃伊罗"  # Khaira
             "谨罗诃"  # Khinrah
             "摩诃牟陀_马哈茂德"  # Mahmud_Mahmud
-            "牟婆罗迦"  # Mubarak
-            "摩诃末_穆罕默德"  # Muhammad
+            "Mubarak_Barak"
+            "Muhammad_Muhammad"
             "摩诃末兜罗"  # Muhammed-Tur
             "蒙氏罗"  # Munzir
             "能迦罗"  # Nangar
@@ -19143,7 +22627,7 @@ dravidian_group = {
             "曼遮毗"  # Mañcavi
             "摩匿剑"  # Mânikkam
             "摩利庵摩_玛利亚"  # Mariamma
-            "摩谛婆底羯"  # MariMâtêvatikal
+            "Mâtêvatikal"
             "摩谛婆底迦剌"  # Mâtêvatikalâr
             "那迦剌怛"  # Nakarattâl
             "捺谛毗抴"  # Naltêviyâr
@@ -20228,6 +23712,14 @@ tibetan_group = {
             0.4
             0.0
         }
+        alternate_start = {
+            OR = {
+                year < 1000  has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
+        }
         dynasty_name_first = yes
         male_names = {
             "阿迪穆畏"  # Atimuwer
@@ -20469,6 +23961,14 @@ tibetan_group = {
             0.8
             0.2
             0.1
+        }
+        alternate_start = {
+            OR = {
+                year < 1000  has_alternate_start_parameter = {
+                    key = culture
+                    value = full_random
+                }
+            }
         }
         dynasty_name_first = yes
         male_names = {
