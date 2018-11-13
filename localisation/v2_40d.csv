@@ -80,7 +80,6 @@ nomad_dispute_desc;世仇部族能对彼此宣战抢夺一块单独的省份。;
 CB_NAME_LIBERATE_NOMAD;解放[Title.GetBaseName];;;;;;;;;;;;x
 WAR_NAME_LIBERATE_NOMAD;$ORDER$$FIRST_ADJ$解放$OTHER_TITLE$;;;;;;;;;;;;x
 liberate_nomad_cb_succ_tip;§Y[Root.GetTitledFirstName]§!附庸非游牧领主，夺取§Y[This.GetFullBaseName]§!内的其他所有头衔。\n;;;;;;;;;;;;x
-pagan_subjugation_desc;原始宗教一生中有一次征服其他原始宗教统治者的机会。（如有「成为$KING$」的野心，则对持有目标王国内头衔的人无上述时间限制。）自由人永远愿意追随最强大的君主……;;;;;;;;;;;;x
 pagan_county_conquest_desc;原始宗教和游牧可以不用任何理由来征服单个边境省份。诺斯原始宗教还可以获得任意沿海省份。;;;;;;;;;;;;x
 nomad_subjugation_desc;游牧一生中可以对非游牧领主发起一次征服。;;;;;;;;;;;;x
 nomad_invasion_desc;如果我们的人口太多，我们可以入侵任何领地以抢夺他们的牧场！如果成功，全部被占领的疆土都将被我们攫取，并且全部的封臣都将成为我们的封臣。;;;;;;;;;;;;x
@@ -149,7 +148,7 @@ EVTDESC328_CHRIST;伟大的[Root.GetTitledFirstName]对[New.GetTitledName]和在
 EVTOPTA328;为了神和以色列！;;;;;;;;;;;;x
 temple_desc;神殿同时提供可观的收入和良好的征召兵。神殿也提供虔诚给其持有者，以及持有者的领主。;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_DESC;与最合适的潜在配偶安排订婚。;;;;;;;;;;;;x
-HINT_SPLASH_TEXT;在王国风云II中，您将扮演一系列来自同一家族的中世纪统治者。没有预定目标，但这个世界满是野心勃勃的仇敌……确保更多土地的安全以增强你的力量并保护你的家人。;;;;;;;;;;;;x
+HINT_SPLASH_TEXT;在王国风云II中，您将扮演一系列来自同一家族的中世纪统治者。\n没有预定目标，但这个世界满是野心勃勃的仇敌……确保更多土地的安全以增强你的力量并保护你的家人。;;;;;;;;;;;;x
 HINT_SPLASH_START;作为一个统治者，您的首要任务是确保有一位继承人。如果您扮演的角色去世时没有一个合法的继承人的话，游戏就将结束。其他需要您注意的事务都会以警告的形式出现在屏幕上方。;;;;;;;;;;;;x
 HINT_SPLASH_VICTORY;你不能亲自持有无限量的土地。想要扩张，你将需要依赖封臣统治者。使用头衔和礼物让他们开心，除非他们决定叛乱！游戏将在1452年结束，如果你的血脉能在那么长的时间内保住权力……;;;;;;;;;;;;x
 HINT_SPLASH_2_TITLE;[Culture.GetName][Religion.GetName][Government.GetName];;;;;;;;;;;;x
@@ -168,9 +167,7 @@ REL_GRANT_CLAIM_DESC;$HEAD_TITLE$可以赐予头衔的宣称;;;;;;;;;;;;x
 REL_CALL_CRUSADE_DESC;$HEAD_TITLE$可以号召$CRUSADE$;;;;;;;;;;;;x
 REL_PRIESTS_INHERIT_DESC;神职人员（神殿领主）可以继承头衔;;;;;;;;;;;;x
 REL_PRIESTS_MARRY_DESC;神职人员可婚配;;;;;;;;;;;;x
-REL_FEMALE_TEMPLE_HOLDERS_DESC;女性可以拥有神殿地产;;;;;;;;;;;;x
 REL_NO_FEMALE_RULER_OPINION_PENALTY_DESC;对女性统治者与继承者没有好感惩罚;;;;;;;;;;;;x
-REL_AUTOCEPHALY_DESC;多牧首——五大牧首和国王控制下的自主牧首;;;;;;;;;;;;x
 REL_PREPARED_INVASIONS_DESC;比较弱小的统治者能够准备入侵;;;;;;;;;;;;x
 REL_RIVER_MOVEMENT_DESC;船队能够在大河上航行;;;;;;;;;;;;x
 REL_RAIDING_DESC;统治者可以劫掠邻近的异教徒;;;;;;;;;;;;x
@@ -190,12 +187,9 @@ REL_NO_HEAD_DESC;不存在（也无法产生）宗教领袖;;;;;;;;;;;;x
 REL_CASTE_OPINIONS_DESC;种姓特质对好感影响巨大;;;;;;;;;;;;x
 REL_PACIFIST_DESC;大幅降低省份叛乱几率\n§Y*§! 大幅提高所有封臣好感\n§Y*§! 统治者能够直辖更多土地\n§Y*§! 统治者不能发起圣战;;;;;;;;;;;;x
 REL_HEIR_DESIGNATION_DESC;可以指定任何合法后代为继承人;;;;;;;;;;;;x
-buddhist_FEATURES;§Y*§! 只可对非印度宗教发动圣战;;;;;;;;;;;;x
-hindu_FEATURES;§Y*§! 只可对非印度宗教发动圣战;;;;;;;;;;;;x
 cathar_FEATURES;§Y*§! 女性可以担任所有内阁职务\n§Y*§! 女性可以带领军队;;;;;;;;;;;;x
 nomadic_government_desc;游牧对拥有地产不感兴趣，只喜欢更多的牧场养更多的羊和马。游玩围绕部落的人口及其提供的人力。开阔地形下的空地产格会增加最大人口。游牧也能拥有普通封臣，但他们更注重管理部落中强大的部族。;;;;;;;;;;;;x
 republic_government_desc;普通的共和国领袖从市民中随机抽选产生。这种共和国不能玩，因为每代统治者之间没有家族连续性。;;;;;;;;;;;;x
-tribal_government_desc;部落是定居且务农的。每个省份只允许拥有一处部落「地产」，代表了当地全部的部落人口——空地产格越多，部落地产越强。部落统治者只允许使用选举均分继承法，容易令领地在酋长死后被诸子分割。;;;;;;;;;;;;x
 theocracy_government_desc;神权政体和次级共和国一样不能玩。统治者通过任命或从神职人员中选举产生，每代统治者之间没有家族连续性。;;;;;;;;;;;;x
 GOV_DECADENCE_DESC;若宗教允许，$NAME$家族会逐渐腐化;;;;;;;;;;;;x
 GOV_PIETY_LAW_CHANGE_DESC;花费虔诚改变法律，无需投票;;;;;;;;;;;;x
@@ -495,7 +489,6 @@ adopt_tribalism;定居为部落;;;;;;;;;;;;x
 adopt_tribalism_desc;我可选择永久定居我的部落。;;;;;;;;;;;;x
 nomad_adopt_feudalism;定居为封建;;;;;;;;;;;;x
 nomad_adopt_feudalism_named;于[Root.GetName]定居并采用封建制度;;;;;;;;;;;;x
-nomad_adopt_feudalism_desc;我可选择抛弃游牧生活，当一名封建统治者。;;;;;;;;;;;;x
 CHRONICLE_ADOPTED_TRIBALISM;[From.GetDynName]作为部落定居于[From.GetHerHis]疆域中，抛弃了旧有的游牧生活。;;;;;;;;;;;;x
 CHRONICLE_ADOPTED_IQTA;[From.GetDynName]于[From.GetHerHis]疆域中采取了伊克塔制，抛弃了旧有的部落生活。;;;;;;;;;;;;x
 CHRONICLE_NOMAD_ADOPTED_FEUDALISM;[From.GetDynName]于[From.GetHerHis]疆域中采取了封建制，抛弃了旧有的游牧生活。;;;;;;;;;;;;x
@@ -659,7 +652,6 @@ TRADEZONE_OWNER_REPUBLIC;这个贸易区的所有者是§Y$REPUBLIC$§!的§Y$FA
 TRADEZONE_OWNER;这个贸易区由§Y$HOLDING$§!拥有;;;;;;;;;;;;x
 tut_2c_9;间谍总管——策划阴谋、建立谍报网和学习科技。;;;;;;;;;;;;x
 tut_2c_10;宫廷牧师——传播宗教、研究文化科技和提高宗教关系。;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_LONG_DESC;你除了妻子以外，可以拥有最多三个妾。妾并没有真正地结婚，但她们为君主生下的子女都是合法的。统治者可以将女性囚犯变成他的妾，即使她已经结过婚。;;;;;;;;;;;;x
 TECH_DESC_NOMAD_CAPITAL;你$NAME$的首都地产进步;;;;;;;;;;;;x
 SPREAD_FROM_NOMAD_CAPITAL;游牧首都加成;;;;;;;;;;;;x
 SPREAD_TO_NOMAD_CAPITAL;省份加成;;;;;;;;;;;;x

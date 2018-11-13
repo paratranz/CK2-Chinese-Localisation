@@ -4,17 +4,14 @@ eunuch_desc;此人已经被阉割成了一个阉人。;;;;;;;;;;;;x
 blinded;致盲;;;;;;;;;;;;x
 blinded_desc;此角色已经被致盲而永久失明。;;;;;;;;;;;;x
 born_in_the_purple;生于紫室;;;;;;;;;;;;x
-born_in_the_purple_desc;这个角色生于紫室——字面意思就是「出生于紫色的房间」。这是一个专属于在位皇帝或女皇降生于皇宫紫色寝宫的子女的荣誉。他们的继承权要优先于父母登基以前就出生的兄姐们。;;;;;;;;;;;;x
+born_in_the_purple_desc;[Root.GetBornInPurpleDesc];;;;;;;;;;;;x
 augustus;奥古斯都;;;;;;;;;;;;x
-augustus_desc;此人是重生的罗马帝国的现任统治者，理应得到符合其身份的尊重。;;;;;;;;;;;;x
 title_imperial_eunuch;大内侍;;;;;;;;;;;;x
 title_imperial_eunuch_desc;大内侍，「睡在皇帝寝宫旁的人」，是帝国宫廷里预留给宦官的声威卓著的职位，他们的忠诚与谨慎得到赏识。;;;;;;;;;;;;x
 title_court_eunuch;宫廷宦官;;;;;;;;;;;;x
 title_court_eunuch_desc;宦官们在宫廷中发挥了许多有价值的作用，而且在有女性的场合也值得信任。;;;;;;;;;;;;x
 vassal_castrate_decision;阉割[Root.GetTitledFirstName];;;;;;;;;;;;x
-vassal_castrate_decision_desc;因为他是你的囚犯，你可以下令阉割§Y[Root.GetTitledFirstName]§!，让他变成阉人。随后他将被释放，但不能再生育或拥有土地头衔。一种十分严厉的惩罚。;;;;;;;;;;;;x
 vassal_blinding_decision;致盲[Root.GetTitledFirstName];;;;;;;;;;;;x
-vassal_blinding_decision_desc;因为[Root.GetSheHe]是你的囚犯，你可以下令致盲§Y[Root.GetTitledFirstName]§!然后释放[Root.GetHerHim]。这是拜占庭以不杀人的方式来对付政敌的常见做法，失明后的[Root.GetManWoman]将不再对王权产生威胁。;;;;;;;;;;;;x
 opinion_castrated_me;阉割了我;;;;;;;;;;;;x
 opinion_blinded_me;致盲了我;;;;;;;;;;;;x
 opinion_castrated_family;阉割亲属;;;;;;;;;;;;x
@@ -51,9 +48,6 @@ EVTNAMELoR.13;喀里多尼亚行省;;;;;;;;;;;;x
 EVTDESCLoR.13;罗马帝国现在的边界已经超越了古代哈德良长城和安东尼长城的废墟，囊括了整个喀里多尼亚。这块冷漠和无情的土地是一些特殊人的家乡，但是他们将会转变为勤劳文明的罗马公民。;;;;;;;;;;;;x
 EVTNAMELoR.14;海伯尼亚行省;;;;;;;;;;;;x
 EVTDESCLoR.14;海伯尼亚岛是最新加入不断扩张的罗马帝国的领土。旧帝国从未征服这片土地上漫漫起伏的群山和绿色的田野，但是如果不介意下雨或沿着海岸定居的恶臭的诺斯居民，它应该能治理为一个令人舒适的采邑。;;;;;;;;;;;;x
-restore_roman_empire;重建罗马帝国;;;;;;;;;;;;x
-restore_roman_empire_desc;如果旧帝国的罗马城和其他主要领地能得到恢复，那么拜占庭帝国将在西方世界的眼中被认可为真正的和合法的罗马的继承者。;;;;;;;;;;;;x
-EVTTOOLTIPLoR.20;罗马帝国重建了。;;;;;;;;;;;;x
 EVTNAMELoR.20;新时代的曙光;;;;;;;;;;;;x
 EVTDESCLoR.20;朋友们，同胞们，罗马公民们，请听我一言！ 在奇迹般收复了诸多失去长达数个世纪的领土后，罗马帝国重生了！自帝国边疆遭到野蛮人的袭击以来，一个又一个的省份被焚为焦土，欧罗巴经历了最为黑暗的时代，但现在对整个文明世界来说一个光明的新时代已经到来了！\n\n从现在开始，罗马国不再是那个西方嫉妒的冒牌货口中的「希腊人的帝国」了 ，她将是被公认的罗马帝国的后继者！[Root.GetTitledFirstName]统治着整个重建的罗马帝国，但仍有许多工作需要完成。还有许多领土等着我们去夺回，诸多疆域等着我们去收复。为了罗马元老院和人民！;;;;;;;;;;;;x
 EVTOPTALoR.20;让其成为永恒！;;;;;;;;;;;;x

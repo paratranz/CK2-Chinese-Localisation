@@ -378,14 +378,6 @@ create_fraticelli_papacy;创建小兄弟会教廷;;;;;;;;;;;;x
 create_fraticelli_papacy_desc;如果我足够虔诚并且控制罗马，我就能创建小兄弟会教宗作为我们的宗教领袖，来对抗卑鄙的天主教会教宗。;;;;;;;;;;;;x
 create_iconoclast_patriarchy;创建圣像破坏派牧首属邦;;;;;;;;;;;;x
 create_iconoclast_patriarchy_desc;如果我足够虔诚并且控制君士坦丁堡，我就能创建圣像破坏教会普世牧首作为我们的宗教领袖，来对抗迷恋圣像崇拜的牧首。;;;;;;;;;;;;x
-welcome_jews;欢迎犹太人;;;;;;;;;;;;x
-welcome_jews_desc;犹太人被重新欢迎来到国土，并享受和你其他臣民相同的权力。;;;;;;;;;;;;x
-expel_jews;驱逐犹太人;;;;;;;;;;;;x
-expel_jews_desc;所有犹太人将被驱逐出国土。你欠犹太债主的债务将会一笔勾销，但未来数年内犹太人都不会再来到你的国土上。;;;;;;;;;;;;x
-jews_are_expelled;所有犹太人都被驱逐出国土。;;;;;;;;;;;;x
-jews_are_welcome;犹太人被重新欢迎来到国土。;;;;;;;;;;;;x
-expelled_jewish;曾驱逐犹太人;;;;;;;;;;;;x
-EVTDESC_SoA_105;你决定将你国土上的所有犹太人驱逐出境。在你的卫兵查抄了犹太人社区后，他们不得不再次离开去寻找一个对他们更为友善的地方。你允许他们保留部分财物，但从他们手里没收了大量的金子。;;;;;;;;;;;;x
 EVTOPTA_SoA_105;它们都该进我的金库。;;;;;;;;;;;;x
 EVTDESC_SoA_106;犹太人被驱逐出你的国土已经有一阵子了。但是看起来饥荒、疫病这些被看做是犹太人带来的坏事却没有减少。如今许多犹太人已经原谅了你对他们的冒犯，你也决定张开双臂迎接他们回到你的国土。;;;;;;;;;;;;x
 EVTOPTA_SoA_106;错已铸成。让我们不要再谈它们了。;;;;;;;;;;;;x
@@ -394,10 +386,7 @@ CARDINAL_VOTE;投票：;;;;;;;;;;;;x
 CURRENT_CHOICE;当前的选择;;;;;;;;;;;;x
 CURRENT_CHOICE_DESC;这是这位枢机当前选择的下一任教宗。;;;;;;;;;;;;x
 SAME_RELIGION_REQ_NOMINATION;§R只有$RELIGION$教徒才能提名继任者§!;;;;;;;;;;;;x
-EVTDESC_SoA_200;一名在欧洲其他地方遭受迫害的犹太人流浪者现身在你的宫廷。四处游历的经历让他积累了大量人脉，成为了一个杰出的外交家。他可以胜任外交总管一职。;;;;;;;;;;;;x
 EVTOPTA_SoA_200;真的吗？;;;;;;;;;;;;x
-EVTDESC_SoA_201;一名富有学识的犹太人出现在你的宫廷。他因出色的记账和管理能力而受到推崇。他已经提议了数种提高官员办事效率的办法。他可能成为一个出色的财政总管。;;;;;;;;;;;;x
-EVTDESC_SoA_202;一个神秘的犹太人希望在你宫廷中效力。他精通于宫廷权谋，过去还曾做过佣兵和间谍。如果你能信任他，他将会是你宫廷中不可或缺的人才……;;;;;;;;;;;;x
 israelite;以色列文化;;;;;;;;;;;;x
 ashkenazi;阿什肯纳兹犹太人;;;;;;;;;;;;x
 sephardi;塞法迪犹太人;;;;;;;;;;;;x
@@ -502,7 +491,7 @@ donate_money_to_sky_lords;捐赠 300¤ 给天之骄子;;;;;;;;;;;;x
 donate_money_to_sky_lords_desc;我可以捐款给天之骄子以换取[Player.Religion.GetPietyName]，这会让我一生受到长生天祭司的尊敬。;;;;;;;;;;;;x
 expelled_d_sky_lords;曾驱逐天之骄子;;;;;;;;;;;;x
 EVTTITLE_SOA_2109;灵魂卫队;;;;;;;;;;;;x
-EVTDESC_SOA_2109;随着西非信仰的改革，过去众多的西非原始宗教被系统的整合为了一个整体。部落们同意派出他们最精锐的战士组成一队圣战士。圣战士们自称灵魂守卫，宣誓会守护灵魂以及任何灵魂的信仰者。;;;;;;;;;;;;x
+EVTDESC_SOA_2109;随着非洲信仰的改革，过去众多的非洲原始宗教被系统的整合为了一个整体。部落们同意派出他们最精锐的战士组成一队圣战士。圣战士们自称灵魂守卫，宣誓会守护灵魂以及任何灵魂的信仰者。;;;;;;;;;;;;x
 EVTOPTA_SOA_2109;赞美灵魂！;;;;;;;;;;;;x
 EVTDESC_SOA_2131;我的[GetFromRelation]，[From.GetTitledFirstName]要求加入灵魂卫队，为守护信仰而战。即使这样做会让他失去继承权。;;;;;;;;;;;;x
 EVTDESC_SOA_2141;伟大的[Root.PrimaryTitle.GetRulerTitle]，您慷慨的捐赠极大地帮助了守卫灵魂和信徒的事业！我和祭司们都会视您为朋友！\n\n愿灵与您同行！\n首领 [From.GetFirstName]谨上;;;;;;;;;;;;x
@@ -601,16 +590,6 @@ on_pilgrimage;朝圣中;;;;;;;;;;;;x
 on_pilgrimage_desc;这名角色正在朝圣的途中。;;;;;;;;;;;;x
 appeased_religious_desc;该地人民认为他们和领主受到神佑，所以他们更不倾向于叛乱。;;;;;;;;;;;;x
 defied_church;你蔑视教会的意愿。他们很不开心。;;;;;;;;;;;;x
-sympathy_islam;伊斯兰教同情者;;;;;;;;;;;;x
-sympathy_islam_desc;尽管这名角色并不是一个穆斯林，但他特别同情和理解穆斯林的信仰与事业。;;;;;;;;;;;;x
-sympathy_judaism;犹太教同情者;;;;;;;;;;;;x
-sympathy_judaism_desc;尽管这名角色并不是一个犹太人，但他特别同情和理解犹太人的信仰与事业。;;;;;;;;;;;;x
-sympathy_christendom;基督教同情者;;;;;;;;;;;;x
-sympathy_christendom_desc;尽管这名角色并不是一个基督徒，但他特别同情和理解基督徒的信仰与事业。;;;;;;;;;;;;x
-sympathy_pagans;原始宗教同情者;;;;;;;;;;;;x
-sympathy_pagans_desc;尽管这名角色并不信仰原始宗教，但他特别同情和理解原始宗教教徒的信仰与事业。;;;;;;;;;;;;x
-sympathy_zoroastrianism;祆教同情者;;;;;;;;;;;;x
-sympathy_zoroastrianism_desc;尽管这名角色并不是一个祆教徒，但他特别同情和理解祆教徒的信仰与事业。;;;;;;;;;;;;x
 owns_relic;拥有一份圣遗物;;;;;;;;;;;;x
 EVTDESC_SoA_5000;我应当去一个基督教圣地朝圣，寻找主的恩典。;;;;;;;;;;;;x
 EVTOPTA_SoA_5000;我开始制定旅行计划。;;;;;;;;;;;;x
@@ -630,7 +609,7 @@ EVTDESC_SoA_5019;去西方的圣地朝圣并不比去耶路撒冷或者罗马差
 EVTOPTA_SoA_5019;我应当去坎特伯雷拜访托马斯·贝克特的墓地。;;;;;;;;;;;;x
 EVTOPTB_SoA_5019;我应当去科隆参观东方三博士的圣遗物。;;;;;;;;;;;;x
 EVTOPTC_SoA_5019;我应当去圣地亚哥拜访圣雅各伯的墓地。;;;;;;;;;;;;x
-EVTDESC_SoA_5020;耶路撒冷和罗马是天主教会中最为古老也最为神圣的两个圣地。;;;;;;;;;;;;x
+EVTDESC_SoA_5020;耶路撒冷和罗马是[catholic.GetName]教会中最为古老也最为神圣的两个圣地。;;;;;;;;;;;;x
 EVTOPTA_SoA_5020;我将去圣地耶路撒冷朝圣。;;;;;;;;;;;;x
 EVTOPTB_SoA_5020;我将去罗马参观殉道者的墓窟。;;;;;;;;;;;;x
 EVTDESC_SoA_5021;我打包好了行李，整装待发。不用多久，我就能见到美丽的坎特伯雷和托马斯·贝克特的墓地了。;;;;;;;;;;;;x
@@ -809,11 +788,7 @@ EVTDESC62040;塔斯肯袭击者攻击了§Y[From.Siege.GetName]§!外的围攻�
 EVTDESC62011;被神圣的预兆所鼓舞，斗志激昂的§Y[From.Siege.GetName]§!基督徒守军发起大胆的突袭，重挫了措手不及的异教徒军队。;;;;;;;;;;;;x
 EVTDESC62012;深受寻获圣物一事的鼓舞，斗志激昂的§Y[From.Siege.GetName]§!基督徒守军发起大胆的突袭，重挫了措手不及的穆斯林军队。;;;;;;;;;;;;x
 EVTDESC62013;一个苏菲教派神秘主义者鼓舞了§Y[From.Siege.GetName]§!的穆斯林守军，他们给围攻的异教徒造成了严重的伤亡。;;;;;;;;;;;;x
-borrow_money_jews;向犹太商人借款 300¤;;;;;;;;;;;;x
-borrow_money_jews_desc;我能从犹太商人和领地内其它借贷者那里借款 300¤。加上双方都同意的利息，我将需要偿还 350¤ 给他们。;;;;;;;;;;;;x
-borrowed_from_jews;欠犹太借贷者 350¤;;;;;;;;;;;;x
-repay_money_jews;偿还 350¤ 给犹太人;;;;;;;;;;;;x
-repay_money_jews_desc;我要偿还向犹太商人借贷的金子。;;;;;;;;;;;;x
+repay_money_jews;偿还[Root.GoldOwedToJews]¤给犹太人;;;;;;;;;;;;x
 asked_for_excommunication;请求绝罚;;;;;;;;;;;;x
 asked_to_lift_excommunication;请求免除绝罚;;;;;;;;;;;;x
 asked_for_invasion;请求入侵;;;;;;;;;;;;x
@@ -837,11 +812,8 @@ EVTDESC_SoA_107;你的领主，[From.GetTitledFirstName]，颁布法令驱逐境
 EVTOPTA_SoA_107;我明白了。;;;;;;;;;;;;x
 EVTOPTB_SoA_107;哎呀，就是说我的贷款不用还了吗……;;;;;;;;;;;;x
 EVTDESC_SoA_108;[Root.TopLiege.GetTitledFirstName]，你的领主已经决定撤回驱逐犹太人的法令。他们能再一次合法地在我国居住和工作了。;;;;;;;;;;;;x
-EVTDESC_SoA_300;突然驱逐几个犹太大商人损害了我国经济。似乎他们对[Root.Capital.GetName]经济发展的重要性比你的顾问们预料的更多。;;;;;;;;;;;;x
 EVTOPTA_SoA_300;蠢货！;;;;;;;;;;;;x
-EVTDESC_SoA_301;[Root.Capital.GetName]最大的几个文化赞助人显然都是犹太人，而你的顾问并不了解这一点。自从颁布了犹太人驱逐法令，境内的文化活动遭受了巨大的打击。;;;;;;;;;;;;x
 EVTOPTA_SoA_301;文化有什么用？;;;;;;;;;;;;x
-EVTDESC_SoA_302;看来犹太人在王国的军队中发挥着比预料中更大的作用。自从颁布了犹太人驱逐法令，军队多个重要管理职务空缺，怎么也找不到可以胜任的人代替。;;;;;;;;;;;;x
 EVTOPTA_SoA_302;我非得事必躬亲吗？;;;;;;;;;;;;x
 mutazilite;穆尔太齐赖;;;;;;;;;;;;x
 mutazilite_desc;此人属于逊尼派穆尔太齐赖教派，他们推崇理智、理性和自由意志。;;;;;;;;;;;;x
@@ -1227,7 +1199,6 @@ stop_backing_ambition;被搁置的阴谋;;;;;;;;;;;;x
 succ_gavelkind_desc;领主的头衔将分配及众子，主头衔则由长子继承。如果领主没有能继承家业的子女，则会循长子继承法传承。采取本法时，众子即使没有土地，也不会影响你的威望，而且你的直辖领地上限能够多 §Y30%§!。均分继承法广受认同，只有长子会感到不快。均分继承法之下，你不能收回头衔。;;;;;;;;;;;;x
 SELECT_VASSAL_TO_TRANSFER;选择要转移的封臣;;;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_7;§Y[Recipient.GetTitledFirstName]§!是如此的微不足道，没有人会在乎。;;;;;;;;;;;;x
-FE_CONTENT;内容;;;;;;;;;;;;x
 DUCHY_CAPITAL;省会;;;;;;;;;;;;x
 KINGDOM_CAPITAL;王都;;;;;;;;;;;;x
 EMPIRE_CAPITAL;帝都;;;;;;;;;;;;x
