@@ -323,7 +323,7 @@ NOT_ALLOWED_TO_PLAY_SAME_CHARACTER;你不能同其他玩家使用同一角色;;;
 BLOODLINES_INTERFACE_LABEL;§Y血脉§!;;;;;;;;;;;;x
 HAS_NO_BLOODLINES;这个角色不是任何著名血脉的成员。;;;;;;;;;;;;x
 LEDGER_HEADER_BLOODLINES;血脉;;;;;;;;;;;;x
-BLOOD_OF;Blood of;;;;;;;;;;;;x
+BLOOD_OF;血脉;;;;;;;;;;;;x
 HAD_BLOODLINE_FLAG_LESS_THAN;拥有标志 「§Y$FLAG$§!」少于 §Y$DAYS$§! 天;;;;;;;;;;;;x
 HAD_BLOODLINE_FLAG_AT_LEAST;拥有标志「§Y$FLAG$§!」至少 §Y$DAYS$§! 天;;;;;;;;;;;;x
 LEDGER_HEADER_BLOODLINE;血脉;;;;;;;;;;;;x
@@ -335,15 +335,15 @@ OBSERVER;观察者;;;;;;;;;;;;x
 LEDGER_HEADER_KILL_LIST;击杀名单;;;;;;;;;;;;x
 LEDGER_NUM_KILLED_CHARACTER;击杀数量;;;;;;;;;;;;x
 LEDGER_CHARACTER_HAS_KILLED;$NAME$杀死了：;;;;;;;;;;;;x
-ANY_KILL_LIST_CHARACTER_START;Any character in Kill List:;;;;;;;;;;;;x
-ALL_KILL_LIST_CHARACTER;All characters in Kill List:;;;;;;;;;;;;x
-KILL_LIST_INTERFACE_LABEL;§YKills§!;;;;;;;;;;;;x
+ANY_KILL_LIST_CHARACTER_START;任何在杀人榜上的角色：;;;;;;;;;;;;x
+ALL_KILL_LIST_CHARACTER;所有在杀人榜上的角色：;;;;;;;;;;;;x
+KILL_LIST_INTERFACE_LABEL;§Y杀人数§!;;;;;;;;;;;;x
 HAS_NO_KILLS;该角色不是一位已知的谋杀者。;;;;;;;;;;;;x
 HolyFuryDLC;神圣之怒;;;;;;;;;;;;x
 send_baptism_request;联系[From.GetName]的领主并请求[From.GetHerHim]支持你的领土改信;;;;;;;;;;;;x
-baptism_request_cooldown;Has recently asked for a mass conversion;;;;;;;;;;;;x
-opinion_baptism_sponsor_target;Mass Conversion Request;;;;;;;;;;;;x
-truebelievers_bid_for_independence;Revolt of the old believers;;;;;;;;;;;;x
+baptism_request_cooldown;最近请求过大规模改信;;;;;;;;;;;;x
+opinion_baptism_sponsor_target;大规模改信请求;;;;;;;;;;;;x
+truebelievers_bid_for_independence;旧信徒的叛乱;;;;;;;;;;;;x
 truebelievers_bid_for_independence_desc;§Y$CLAIMANT$§!可以宣布从§Y$TARGET$§!独立！放弃旧信仰！;;;;;;;;;;;;x
 CB_NAME_TRIBAL_INDEPENDENCE;原始宗教叛乱;;;;;;;;;;;;x
 WAR_NAME_TRIBAL_INDEPENDENCE;$ORDER$对$SECOND_ADJ$改宗战争;;;;;;;;;;;;x
@@ -351,9 +351,9 @@ request_sponsored_baptism;请求大规模改信;;;;;;;;;;;;x
 request_sponsored_baptism_desc;拥抱一个更加文明的宗教可以帮助你在领地内集权并抛弃你的部落生活方式。\n\n你可以要求[Root.GetTitledName]赞助你的领地改信[Root.Religion.GetName]。在一个合法政权的帮助和支持下，转变将会变得更容易。\n[From.GetMassBaptismTribalAuthorityHint];;;;;;;;;;;;x
 PAGAN_BAPTISM_DESC;§Y请求大规模改信§!;;;;;;;;;;;;x
 NOT_TRUE_BELIEVER;不是真信徒;;;;;;;;;;;;x
-NOT_CURRENTLY_BAPTIZING;§Y[Root.GetTitledName]§! is NOT currently sponsoring the conversion of a realm;;;;;;;;;;;;x
-NOT_ASKED_BAPTISM_RECENTLY;Has NOT recently petitioned for a mass conversion [From.GetBaptismTimer];;;;;;;;;;;;x
-NOT_BEEN_ASKED_BAPTISM_RECENTLY;§Y[Root.GetTitledName]§! has NOT been recently petitioned for a mass conversion [Root.GetBaptismTimer];;;;;;;;;;;;x
+NOT_CURRENTLY_BAPTIZING;§Y[Root.GetTitledName]§!现在没有在支持一个领土的改信;;;;;;;;;;;;x
+NOT_ASKED_BAPTISM_RECENTLY;最近没有从[From.GetBaptismTimer]请求过大规模改信;;;;;;;;;;;;x
+NOT_BEEN_ASKED_BAPTISM_RECENTLY;§Y[Root.GetTitledName]§!最近没有从[Root.GetBaptismTimer]请求过大规模改信;;;;;;;;;;;;x
 string_baptism_timer;- expires on: §Y[This.baptism_request_cooldown.GetExpiryDate]§!;;;;;;;;;;;;x
 NOT_ROOT_RELIGION_PLAYABLE;§Y[Root.GetTitledName]'s§! religion is playable;;;;;;;;;;;;x
 ALL_PROVINCES_CONVERT_TOOLTIP;All of §Y[Root.GetTitledFirstName]'s§! demesne provinces will become §Y[sponsoring_king.Religion.GetName]§!.;;;;;;;;;;;;x
@@ -362,14 +362,14 @@ EVTTOOLTIPHFA20005;大规模改信;;;;;;;;;;;;x
 EVTTOOLTIPHFB20005;大规模改信;;;;;;;;;;;;x
 ai_request_sponsored_baptism;请求大规模改信;;;;;;;;;;;;x
 ai_request_sponsored_baptism_desc;拥抱一个更加文明的宗教可以帮助你在领地内集权并抛弃你的部落生活方式。;;;;;;;;;;;;x
-TT_SPONSOR_EXISTS;A potential sponsor realm exists;;;;;;;;;;;;x
+TT_SPONSOR_EXISTS;存在一个潜在的支持领地;;;;;;;;;;;;x
 CHRONICLE_MASS_CONVERSION_CONVERTER;With the help of the [sponsoring_king.GetTitle] of [sponsoring_king.PrimaryTitle.GetName], [converting_king.GetTitledName] brought the [converting_king.Religion.GetName] faith to [converting_king.GetHerHis] realm, overseeing the conversion of scores of [converting_king.GetHerHis] subjects.;;;;;;;;;;;;x
 CHRONICLE_MASS_CONVERSION_SPONSOR;[converting_king.GetTitledName] petitioned [sponsoring_king.GetTitledName] to bring the [sponsoring_king.Religion.GetName] faith to [converting_king.GetHerHis] pagan tribes.;;;;;;;;;;;;x
 CHRONICLE_MASS_CONVERSION_VASSAL;With the help of the [sponsoring_king.GetTitle] of [sponsoring_king.PrimaryTitle.GetName], [converting_king.GetTitledName] brought the [converting_king.Religion.GetName] faith to [converting_king.GetHerHis] realm, overseeing the conversion of scores of [converting_king.GetHerHis] subjects.;;;;;;;;;;;;x
 EVTDESCHF20000;Esteemed [Root.GetTitledName],\nI wish to forsake my old religion and lead [From.PrimaryTitle.GetName] to its rightful place amongst the civilized realms.\nI humbly request [Root.PrimaryTitle.GetName]'s assistance to ensure a peaceful transition into the [Root.Religion.GetName] faith.\n\n[From.GetTitledFirstName];;;;;;;;;;;;x
-EVTOPTAHF20000;Accept;;;;;;;;;;;;x
+EVTOPTAHF20000;接受;;;;;;;;;;;;x
 accept_baptism_request;[Root.GetTitledName] will sign a Non-Aggression Pact with [From.GetTitledName] and assist [From.GetHerHim] in converting [From.PrimaryTitle.GetName]'s population.;;;;;;;;;;;;x
-EVTOPTBHF20000;Refuse;;;;;;;;;;;;x
+EVTOPTBHF20000;拒绝;;;;;;;;;;;;x
 refuse_baptism_request;[Root.GetTitledName] will inform [From.GetTitledName] that [Root.GetSheHe] is not interested in sponsoring the conversion of [From.PrimaryTitle.GetName] to the [Root.Religion.GetName] faith.;;;;;;;;;;;;x
 EVTDESCHF20001;[Root.GetTitledName],\nI sympathize with your dream of a [From.Religion.GetName] [Root.PrimaryTitle.GetName], but I am afraid I cannot aid you in your mission at this moment.\n\nSincerely,\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20001;真倒霉。;;;;;;;;;;;;x
@@ -10582,7 +10582,7 @@ string_WL_west_african_religion;§Y[west_african_pagan_reformed.GetName]§! reli
 string_WL_zun_religion;§Y[zun_pagan_reformed.GetName]§! religion;;;;;;;;;;;;x
 string_WL_bon_religion;§Y[bon_reformed.GetName]§! religion;;;;;;;;;;;;x
 string_WL_hellenic_religion;§Y[hellenic_pagan_reformed.GetName]§! religion;;;;;;;;;;;;x
-string_no_religion;no religion;;;;;;;;;;;;x
+string_no_religion;无宗教;;;;;;;;;;;;x
 society_has_at_least_10_members_tt;§Y[From.GetNameCap]§! has at least §Y10§! members\n;;;;;;;;;;;;x
 EVTDESC_HFP_10095_deadly_duel;[combatant_1.GetBestName] has challenged me to a duel, to the death. The courier did not let on what sparked this initiative, but I am told he is patiently awaiting my response. The only respectable thing would be to accept.;;;;;;;;;;;;x
 norse_leader_desc;This character has a scary reputation, attracting the mightiest of warriors to [GetHerHis] side.;;;;;;;;;;;;x
@@ -12753,26 +12753,26 @@ nick_the_pups_gut;the Pups' Gut;;;;;;;;;;;;x
 nick_the_jittery;the Jittery;;;;;;;;;;;;x
 nick_the_broken_lute;Broken Lute;;;;;;;;;;;;x
 nick_the_dust_biter;Dust-Biter;;;;;;;;;;;;x
-nick_the_sleepy;the Sleepy;;;;;;;;;;;;x
-nick_the_squealer;the Squealer;;;;;;;;;;;;x
-nick_the_toothless;the Toothless;;;;;;;;;;;;x
-nick_butter_teeth;Butterteeth;;;;;;;;;;;;x
-nick_the_cowardly;the Cowardly;;;;;;;;;;;;x
-nick_the_squirmy;the Squirmy;;;;;;;;;;;;x
-nick_the_frantic;the Frantic;;;;;;;;;;;;x
-nick_the_spare;the Spare;;;;;;;;;;;;x
-nick_the_dry_throat;Dry-Throat;;;;;;;;;;;;x
-nick_the_floor_kisser;the Floor-Kisser;;;;;;;;;;;;x
-nick_the_toothless_wolf;the Toothless Wolf;;;;;;;;;;;;x
-nick_the_rough_hair;Roughhair;;;;;;;;;;;;x
-nick_the_singing_crow;the Singing Crow;;;;;;;;;;;;x
-nick_the_broken_nail;Broken-Nail;;;;;;;;;;;;x
-nick_the_forgetful;the Forgetful;;;;;;;;;;;;x
-nick_the_thin_minded;the Thin-Minded;;;;;;;;;;;;x
+nick_the_sleepy;昏睡者;;;;;;;;;;;;x
+nick_the_squealer;告密者;;;;;;;;;;;;x
+nick_the_toothless;断齿者;;;;;;;;;;;;x
+nick_butter_teeth;油齿滑舌;;;;;;;;;;;;x
+nick_the_cowardly;胆怯者;;;;;;;;;;;;x
+nick_the_squirmy;蠕动者;;;;;;;;;;;;x
+nick_the_frantic;疯子;;;;;;;;;;;;x
+nick_the_spare;节俭者;;;;;;;;;;;;x
+nick_the_dry_throat;沙喉;;;;;;;;;;;;x
+nick_the_floor_kisser;投地者;;;;;;;;;;;;x
+nick_the_toothless_wolf;断齿狼;;;;;;;;;;;;x
+nick_the_rough_hair;粗毛兽;;;;;;;;;;;;x
+nick_the_singing_crow;鸣鸦;;;;;;;;;;;;x
+nick_the_broken_nail;碎指甲;;;;;;;;;;;;x
+nick_the_forgetful;健忘者;;;;;;;;;;;;x
+nick_the_thin_minded;轻率者;;;;;;;;;;;;x
 nick_the_messy;the Messy;;;;;;;;;;;;x
-hold_great_tribal_festival;Hold Great Tribal Festival;;;;;;;;;;;;x
-hold_great_tribal_festival_desc;Organize a great celebration to improve your relation with your tribesmen, as well as the prosperity of your lands.;;;;;;;;;;;;x
-tooltip_preparations_great_tribal_festival;Commence preparations for the §YFestival§!;;;;;;;;;;;;x
+hold_great_tribal_festival;召开大部落祭;;;;;;;;;;;;x
+hold_great_tribal_festival_desc;召开一场盛大的庆典来亲近你的部民，以及展示你部落的繁荣。;;;;;;;;;;;;x
+tooltip_preparations_great_tribal_festival;着手准备这场§Y祭典§!;;;;;;;;;;;;x
 EVTDESCHF23802;It would not be appropriate to continue celebrations after the death of [From.GetTitledFirstName]. The festival has been therefore canceled to allow the [From.GetTitle]'s close ones to properly mourn [From.GetHerHis] loss.;;;;;;;;;;;;x
 EVTOPTAHF23802;Such a terrible loss...;;;;;;;;;;;;x
 EVTDESCHF23804;With a war brewing on the horizon, we must set aside all frivolous activities and prepare for battle. I must therefore regretfully cancel the festival of [Root.Capital.GetName].;;;;;;;;;;;;x
@@ -13092,11 +13092,11 @@ great_tribal_festival_1;Festivals Held;;;;;;;;;;;;x
 great_tribal_festival_2;Great Festivals Held;;;;;;;;;;;;x
 string_baptism_low_tribal_authority;Undergoing a §YMass Conversion§! while below §YAbsolute Tribal Authority§! will increase the chances of §YPagan Vassals§! rejecting the new religion.;;;;;;;;;;;;x
 mass_baptism_capital_traders;外国商人;;;;;;;;;;;;x
-mass_baptism_capital_traders_desc;The recent mass conversion of this province's owner has attracted new merchants from the more civilized parts of the world, revitalizing local trade.;;;;;;;;;;;;x
+mass_baptism_capital_traders_desc;由于近期这个省份领主的改信，大批来自其他先进地区的商人被吸引到了当地，经济得到了振兴。;;;;;;;;;;;;x
 mass_baptism_capital_missionaries;Charity Sermons;;;;;;;;;;;;x
 mass_baptism_capital_missionaries_desc;The new clergy of this realm is attempting to sway the remaining pagan converts to fully embrace the new faith.;;;;;;;;;;;;x
-mass_baptism_capital_builders;Foreign Builders;;;;;;;;;;;;x
-mass_baptism_capital_builders_desc;Following the recent mass conversion, a number of experienced craftsmen from more civilized lands have reached this province to offer their services to the locals.;;;;;;;;;;;;x
+mass_baptism_capital_builders;外国建筑师;;;;;;;;;;;;x
+mass_baptism_capital_builders_desc;由于近期这个省份领主的改信，大批来自其他先进地区的资深手工艺者来到当地，并向当地提供他们的生产技术。;;;;;;;;;;;;x
 EVTDESCAHF20112;[From.GetTitledFirstName] has been suggesting for a few days now that, as a [Root.Religion.GetName] ruler, I am no longer under any obligation to allow the other Chieftains to determine how to divide my own lands once I die. [From.GetSheHeCap] assures me that I am well within my right to pass down my titles directly to my children.;;;;;;;;;;;;x
 EVTOPTAHF20112;Sounds very convenient...;;;;;;;;;;;;x
 EVTOPTBHF20112;No, we must keep this tradition.;;;;;;;;;;;;x
