@@ -223,19 +223,6 @@
         death = yes
     }
 }
-159710 = {
-    name = "维赫卡斯"  # Vechkas
-    religion = "finnish_pagan"
-    culture = mordvin
-    dynasty = 1029106
-    father = 194158
-    840.1.1 = {
-        birth = yes
-    }
-    907.1.1 = {
-        death = yes
-    }
-}
 159711 = {
     name = "尼什科帕兹"  # Nishkepaz
     religion = "finnish_pagan"
@@ -441,45 +428,6 @@
         death = "905.1.1"
     }
 }
-160121 = {
-    name = "德尔雅布"  # Deryab
-    religion = "finnish_pagan"
-    culture = mordvin
-    dynasty = 1029106
-    father = 159710
-    861.1.1 = {
-        birth = "861.1.1"
-    }
-    905.1.1 = {
-        death = "905.1.1"
-    }
-}
-160122 = {
-    name = "维尔迈喀"  # Velmayka
-    religion = "finnish_pagan"
-    culture = mordvin
-    dynasty = 1029106
-    father = 159710
-    862.1.1 = {
-        birth = "862.1.1"
-    }
-    905.1.1 = {
-        death = "905.1.1"
-    }
-}
-160123 = {
-    name = "玛利依"  # Malyy
-    religion = "finnish_pagan"
-    culture = mordvin
-    dynasty = 1029106
-    father = 159710
-    863.1.1 = {
-        birth = "863.1.1"
-    }
-    905.1.1 = {
-        death = "905.1.1"
-    }
-}
 160124 = {
     name = "什凯"  # Shkay
     religion = "finnish_pagan"
@@ -632,44 +580,6 @@
         death = yes
     }
 }
-194156 = {
-    name = "帕鲁什"  # Parush
-    dynasty = 1029106
-    religion = finnish_pagan
-    culture = mordvin
-    733.1.1 = {
-        birth = yes
-    }
-    799.1.1 = {
-        death = yes
-    }
-}
-194157 = {
-    name = "金雅客"  # Kinyak
-    dynasty = 1029106
-    religion = finnish_pagan
-    culture = mordvin
-    father = 194156
-    770.1.1 = {
-        birth = yes
-    }
-    822.1.1 = {
-        death = yes
-    }
-}
-194158 = {
-    name = "科什赫勒"  # Koshel
-    dynasty = 1029106
-    religion = finnish_pagan
-    culture = mordvin
-    father = 194157
-    810.1.1 = {
-        birth = yes
-    }
-    866.1.1 = {
-        death = yes
-    }
-}
 194159 = {
     name = "瓦拉卡"  # Varaka
     dynasty = 1029104
@@ -746,18 +656,6 @@
         death = yes
     }
 }
-194165 = {
-    name = "英契海"  # Inzhay
-    dynasty = 1045027
-    religion = finnish_pagan
-    culture = mordvin
-    733.1.1 = {
-        birth = yes
-    }
-    799.1.1 = {
-        death = yes
-    }
-}
 194166 = {
     name = "迭儿衮"  # Dergun
     dynasty = 1045027
@@ -781,6 +679,148 @@
         birth = yes
     }
     866.1.1 = {
+        death = yes
+    }
+}
+256103 = {
+    name = "Dergun"
+    dynasty = 1061058
+    religion = finnish_pagan
+    culture = mordvin
+    1033.1.1 = {
+        birth = yes
+    }
+    1089.1.1 = {
+        death = yes
+    }
+}
+256104 = {
+    name = "Tylze"
+    dynasty = 1061058
+    father = 256103
+    religion = finnish_pagan
+    culture = mordvin
+    1055.1.1 = {
+        birth = yes
+    }
+    1099.1.1 = {
+        death = yes
+    }
+}
+256115 = {
+    name = "Shkay"
+    dynasty = 1029104
+    father = 256128
+    religion = orthodox
+    culture = mordvin
+    1027.1.1 = {
+        birth = yes
+    }
+    1078.1.1 = {
+        death = yes
+    }
+}
+256116 = {
+    name = "Andyamo"
+    dynasty = 1029104
+    father = 256115
+    religion = orthodox
+    culture = mordvin
+    1049.1.1 = {
+        birth = yes
+    }
+    1106.1.1 = {
+        death = yes
+    }
+}
+256117 = {
+    name = "Kezhapa"
+    dynasty = 1029104
+    father = 256115
+    religion = orthodox
+    culture = mordvin
+    1052.1.1 = {
+        birth = yes
+    }
+    1106.1.1 = {
+        death = yes
+    }
+}
+256126 = {
+    name = "Koshel"
+    dynasty = 1029104
+    father = 256129
+    religion = orthodox
+    culture = mordvin
+    1025.1.1 = {
+        birth = yes
+    }
+    1086.1.2 = {
+        death = yes
+    }
+}
+256127 = {
+    name = "Nuyanza"
+    dynasty = 1029104
+    father = 256126
+    religion = orthodox
+    culture = mordvin
+    1052.1.1 = {
+        birth = yes
+    }
+    1101.1.2 = {
+        death = yes
+    }
+}
+256128 = {
+    name = "Shindyay"
+    dynasty = 1029104
+    father = 256130
+    religion = orthodox
+    culture = mordvin
+    1003.1.1 = {
+        birth = yes
+    }
+    1046.1.2 = {
+        death = yes
+    }
+}
+256129 = {
+    name = "Kubrat"
+    dynasty = 1029104
+    father = 256130
+    religion = orthodox
+    culture = mordvin
+    1005.1.1 = {
+        birth = yes
+    }
+    1052.1.2 = {
+        death = yes
+    }
+}
+256130 = {
+    name = "Purysho"
+    dynasty = 1029104
+    religion = orthodox
+    culture = mordvin
+    father = 256132
+    986.1.1 = {
+        birth = yes
+    }
+    1019.1.1 = {
+        death = yes
+    }
+}
+256132 = {
+    name = "Nuyanza"
+    religion = "orthodox"
+    culture = mordvin
+    dynasty = 1029104
+    father = 160124
+    904.1.1 = {
+        birth = yes
+    }
+    987.1.1 = {
         death = yes
     }
 }

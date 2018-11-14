@@ -235,6 +235,7 @@
             add_trait = content
         }
         event_target = eternal_life_sad_example = {
+            show_scope_change = no
             opinion = {
                 who = FROM
                 modifier = opinion_budding_friendship
@@ -287,6 +288,7 @@ narrative_event = {
             text = EVTTOOLTIP_RIP_21002
         }
         job_chancellor = {
+            show_scope_change = no
             opinion = {
                 modifier = opinion_took_my_advice
                 who = ROOT
@@ -319,6 +321,7 @@ narrative_event = {
             text = EVTTOOLTIP_RIP_21003
         }
         job_marshal = {
+            show_scope_change = no
             opinion = {
                 modifier = opinion_took_my_advice
                 who = ROOT
@@ -351,6 +354,7 @@ narrative_event = {
             text = EVTTOOLTIP_RIP_21004
         }
         job_spymaster = {
+            show_scope_change = no
             opinion = {
                 modifier = opinion_took_my_advice
                 who = ROOT
@@ -383,6 +387,7 @@ narrative_event = {
             text = EVTTOOLTIP_RIP_21005
         }
         job_spiritual = {
+            show_scope_change = no
             opinion = {
                 modifier = opinion_took_my_advice
                 who = ROOT
@@ -979,7 +984,7 @@ narrative_event = {
                 give_nickname = nick_the_fearless
                 random_list = {
                     50 = {
-                        add_trait = scarred
+                        add_scarred_high_effect = yes
                     }
                     50 = {
                         add_trait = disfigured
@@ -1336,15 +1341,15 @@ narrative_event = {
                 trait = brave
                 trait = desert_terrain_leader
                 trait = aggressive_leader
-                trait = scarred
             }
             new_character = {
                 set_character_flag = eternal_life_mystic
                 will_not_marry_effect = yes
                 give_nickname = nick_the_fearless
+                add_scarred_tiered_effect = yes
                 random_list = {
                     50 = {
-                        add_trait = scarred
+                        add_scarred_medium_effect = yes
                     }
                     50 = {
                         add_trait = disfigured
@@ -1701,6 +1706,7 @@ narrative_event = {
             }
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_sought_mystic_knowledge
@@ -1743,6 +1749,7 @@ narrative_event = {
             }
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_sought_mystic_knowledge
@@ -2112,6 +2119,7 @@ narrative_event = {
             }
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_finished_mystic_task_1
@@ -2412,6 +2420,7 @@ narrative_event = {
             }
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_finished_mystic_task_2
@@ -2578,6 +2587,25 @@ narrative_event = {
         add_trait = immortal
         if = {
             limit = {
+                is_female = no
+                has_dlc = "Holy Fury"
+            }
+            create_bloodline = {
+                type = immortal_bloodline_01
+            }
+        }
+        if = {
+            limit = {
+                is_female = yes
+                has_dlc = "Holy Fury"
+            }
+            create_bloodline = {
+                type = immortal_bloodline_01
+                inheritance = matrilineal
+            }
+        }
+        if = {
+            limit = {
                 trait = incapable
             }
             remove_trait = incapable
@@ -2594,6 +2622,7 @@ narrative_event = {
             }
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_finished_mystic_task_3
@@ -2628,6 +2657,25 @@ narrative_event = {
         add_trait = immortal
         if = {
             limit = {
+                is_female = no
+                has_dlc = "Holy Fury"
+            }
+            create_bloodline = {
+                type = immortal_bloodline_01
+            }
+        }
+        if = {
+            limit = {
+                is_female = yes
+                has_dlc = "Holy Fury"
+            }
+            create_bloodline = {
+                type = immortal_bloodline_01
+                inheritance = matrilineal
+            }
+        }
+        if = {
+            limit = {
                 trait = incapable
             }
             remove_trait = incapable
@@ -2644,6 +2692,7 @@ narrative_event = {
             }
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_finished_mystic_task_3
@@ -2955,6 +3004,7 @@ narrative_event = {
             add_trait = brave
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_finished_mystic_task_1
@@ -3241,6 +3291,7 @@ narrative_event = {
             }
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_finished_mystic_task_2
@@ -3448,6 +3499,25 @@ narrative_event = {
         add_trait = immortal
         if = {
             limit = {
+                is_female = no
+                has_dlc = "Holy Fury"
+            }
+            create_bloodline = {
+                type = immortal_bloodline_01
+            }
+        }
+        if = {
+            limit = {
+                is_female = yes
+                has_dlc = "Holy Fury"
+            }
+            create_bloodline = {
+                type = immortal_bloodline_01
+                inheritance = matrilineal
+            }
+        }
+        if = {
+            limit = {
                 trait = incapable
             }
             remove_trait = incapable
@@ -3464,6 +3534,7 @@ narrative_event = {
             }
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_finished_mystic_task_3
@@ -3498,6 +3569,25 @@ narrative_event = {
         add_trait = immortal
         if = {
             limit = {
+                is_female = no
+                has_dlc = "Holy Fury"
+            }
+            create_bloodline = {
+                type = immortal_bloodline_01
+            }
+        }
+        if = {
+            limit = {
+                is_female = yes
+                has_dlc = "Holy Fury"
+            }
+            create_bloodline = {
+                type = immortal_bloodline_01
+                inheritance = matrilineal
+            }
+        }
+        if = {
+            limit = {
                 trait = incapable
             }
             remove_trait = incapable
@@ -3514,6 +3604,7 @@ narrative_event = {
             }
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_finished_mystic_task_3
@@ -3805,6 +3896,7 @@ narrative_event = {
             }
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_finished_mystic_task_1
@@ -4084,6 +4176,7 @@ narrative_event = {
             }
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_finished_mystic_task_2
@@ -4263,6 +4356,25 @@ narrative_event = {
         add_trait = immortal
         if = {
             limit = {
+                is_female = no
+                has_dlc = "Holy Fury"
+            }
+            create_bloodline = {
+                type = immortal_bloodline_01
+            }
+        }
+        if = {
+            limit = {
+                is_female = yes
+                has_dlc = "Holy Fury"
+            }
+            create_bloodline = {
+                type = immortal_bloodline_01
+                inheritance = matrilineal
+            }
+        }
+        if = {
+            limit = {
                 trait = incapable
             }
             remove_trait = incapable
@@ -4279,6 +4391,7 @@ narrative_event = {
             }
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_finished_mystic_task_3
@@ -4313,6 +4426,25 @@ narrative_event = {
         add_trait = immortal
         if = {
             limit = {
+                is_female = no
+                has_dlc = "Holy Fury"
+            }
+            create_bloodline = {
+                type = immortal_bloodline_01
+            }
+        }
+        if = {
+            limit = {
+                is_female = yes
+                has_dlc = "Holy Fury"
+            }
+            create_bloodline = {
+                type = immortal_bloodline_01
+                inheritance = matrilineal
+            }
+        }
+        if = {
+            limit = {
                 trait = incapable
             }
             remove_trait = incapable
@@ -4329,6 +4461,7 @@ narrative_event = {
             }
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_finished_mystic_task_3
@@ -4638,6 +4771,7 @@ narrative_event = {
             clr_character_flag = eternal_life_sorry_for_drunkard
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_finished_mystic_task_1
@@ -4960,6 +5094,7 @@ narrative_event = {
             }
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_finished_mystic_task_2
@@ -5168,6 +5303,25 @@ narrative_event = {
         add_trait = immortal
         if = {
             limit = {
+                is_female = no
+                has_dlc = "Holy Fury"
+            }
+            create_bloodline = {
+                type = immortal_bloodline_01
+            }
+        }
+        if = {
+            limit = {
+                is_female = yes
+                has_dlc = "Holy Fury"
+            }
+            create_bloodline = {
+                type = immortal_bloodline_01
+                inheritance = matrilineal
+            }
+        }
+        if = {
+            limit = {
                 trait = incapable
             }
             remove_trait = incapable
@@ -5184,6 +5338,7 @@ narrative_event = {
             }
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 who = ROOT
                 modifier = opinion_finished_mystic_task_3
@@ -5481,6 +5636,7 @@ narrative_event = {
             text = EVTOPTA_RIP_21501_TOOLTIP
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 modifier = opinion_did_not_take_my_advice
                 who = ROOT
@@ -5493,6 +5649,7 @@ narrative_event = {
             text = EVTOPTB_RIP_21501_TOOLTIP
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 modifier = opinion_took_my_advice
                 who = ROOT
@@ -5600,6 +5757,7 @@ narrative_event = {
         }
         name = EVTOPTC_RIP_21501
         FROM = {
+            show_scope_change = no
             opinion = {
                 modifier = opinion_took_my_advice
                 who = ROOT
@@ -5673,6 +5831,7 @@ narrative_event = {
             text = EVTOPTA_RIP_21503_TOOLTIP
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 modifier = opinion_did_not_take_my_advice
                 who = ROOT
@@ -5805,6 +5964,7 @@ narrative_event = {
             text = EVTOPTB_RIP_21507_TOOLTIP
         }
         FROM = {
+            show_scope_change = no
             opinion = {
                 modifier = opinion_did_not_trust_me
                 who = ROOT

@@ -4308,6 +4308,14 @@ character_event = {
             trait = adventurer
         }
         new_character = {
+            if = {
+                limit = {
+                    has_dlc = "Holy Fury"
+                }
+                create_bloodline = {
+                    type = seljuk
+                }
+            }
             character_event = {
                 id = 60201
                 days = 1400
@@ -5375,6 +5383,14 @@ character_event = {
         }
         new_character = {
             set_character_flag = timur_himself
+            if = {
+                limit = {
+                    has_dlc = "Holy Fury"
+                }
+                create_bloodline = {
+                    type = timur
+                }
+            }
             character_event = {
                 id = 60301
                 days = 3285
@@ -6898,6 +6914,14 @@ character_event = {
         }
         new_character = {
             set_character_flag = sabuktigin_himself
+            if = {
+                limit = {
+                    has_dlc = "Holy Fury"
+                }
+                create_bloodline = {
+                    type = ghaznavid
+                }
+            }
             character_event = {
                 id = 60401
                 days = 3285
@@ -7790,13 +7814,13 @@ narrative_event = {
     title = "EVTNAME60500"
     desc = "EVTDESC60500"
     major = yes
-    hide_new = yes
     hide_from = yes
     picture = "GFX_evt_mongols"
     border = "GFX_event_narrative_frame_war"
     only_playable = yes
     religion = catholic
     min_age = 16
+    portrait = event_target = mongol_china_invader
     trigger = {
         OR = {
             year = 1210
@@ -7932,8 +7956,8 @@ narrative_event = {
                             }
                             destroy_landed_title = THIS
                         }
-                        wealth = 5000
-                        prestige = 5000
+                        wealth = 12000
+                        prestige = 10000
                         set_character_flag = horde_invader
                         character_event = {
                             id = 60510
@@ -7943,6 +7967,19 @@ narrative_event = {
                             days = 1
                         }
                         save_event_target_as = mongol_china_invader
+                        if = {
+                            limit = {
+                                has_dlc = "Holy Fury"
+                                NOT = {
+                                    any_owned_bloodline = {
+                                        has_bloodline_flag = genghis_khan_line
+                                    }
+                                }
+                            }
+                            create_bloodline = {
+                                type = genghis_khan
+                            }
+                        }
                     }
                     break = yes
                 }
@@ -7973,6 +8010,19 @@ narrative_event = {
                         trait = brave
                     }
                     new_character = {
+                        if = {
+                            limit = {
+                                has_dlc = "Holy Fury"
+                                NOT = {
+                                    any_owned_bloodline = {
+                                        has_bloodline_flag = genghis_khan_line
+                                    }
+                                }
+                            }
+                            create_bloodline = {
+                                type = genghis_khan
+                            }
+                        }
                         e_mongol_empire = {
                             set_title_landless = {
                                 title = THIS
@@ -7996,9 +8046,9 @@ narrative_event = {
                             }
                             set_government_type = tribal_government
                         }
-                        wealth = 5000
+                        wealth = 12000
+                        prestige = 10000
                         set_character_flag = horde_invader
-                        prestige = 5000
                         character_event = {
                             id = 60509
                         }
@@ -8050,6 +8100,19 @@ narrative_event = {
                 }
                 new_character = {
                     set_character_flag = is_temujin
+                    if = {
+                        limit = {
+                            has_dlc = "Holy Fury"
+                            NOT = {
+                                any_owned_bloodline = {
+                                    has_bloodline_flag = genghis_khan_line
+                                }
+                            }
+                        }
+                        create_bloodline = {
+                            type = genghis_khan
+                        }
+                    }
                     e_mongol_empire = {
                         set_title_landless = {
                             title = THIS
@@ -8073,9 +8136,9 @@ narrative_event = {
                         }
                         set_government_type = tribal_government
                     }
-                    wealth = 5000
+                    wealth = 12000
+                    prestige = 10000
                     set_character_flag = horde_invader
-                    prestige = 5000
                     character_event = {
                         id = 60505
                     }
@@ -8096,7 +8159,7 @@ narrative_event = {
                 limit = {
                     has_dlc = "Horse Lords"
                 }
-                1457 = {
+                1925 = {
                     kingdom = {
                         e_mongol_empire = {
                             holder_scope = {
@@ -8116,7 +8179,7 @@ narrative_event = {
                         has_dlc = "Horse Lords"
                     }
                 }
-                1457 = {
+                1925 = {
                     kingdom = {
                         e_mongol_empire = {
                             holder_scope = {
@@ -8555,7 +8618,7 @@ character_event = {
     is_triggered_only = yes
     immediate = {
         spawn_unit = {
-            province = 1457
+            province = 1925
             troops = {
                 light_cavalry = {
                     2750
@@ -8572,7 +8635,7 @@ character_event = {
             }
         }
         spawn_unit = {
-            province = 1457
+            province = 1925
             troops = {
                 light_cavalry = {
                     2750
@@ -8589,7 +8652,7 @@ character_event = {
             }
         }
         spawn_unit = {
-            province = 1457
+            province = 1925
             troops = {
                 light_cavalry = {
                     2750
@@ -8606,7 +8669,7 @@ character_event = {
             }
         }
         spawn_unit = {
-            province = 1457
+            province = 1925
             troops = {
                 light_cavalry = {
                     2750
@@ -8623,7 +8686,7 @@ character_event = {
             }
         }
         spawn_unit = {
-            province = 1457
+            province = 1925
             troops = {
                 light_cavalry = {
                     2750
@@ -8640,7 +8703,7 @@ character_event = {
             }
         }
         spawn_unit = {
-            province = 1457
+            province = 1925
             troops = {
                 light_cavalry = {
                     2750
@@ -8657,7 +8720,7 @@ character_event = {
             }
         }
         spawn_unit = {
-            province = 1457
+            province = 1925
             troops = {
                 light_cavalry = {
                     2750
@@ -8674,7 +8737,7 @@ character_event = {
             }
         }
         spawn_unit = {
-            province = 1457
+            province = 1925
             troops = {
                 light_cavalry = {
                     2750
@@ -8691,7 +8754,7 @@ character_event = {
             }
         }
         spawn_unit = {
-            province = 1457
+            province = 1925
             troops = {
                 light_cavalry = {
                     2750
@@ -8708,7 +8771,7 @@ character_event = {
             }
         }
         spawn_unit = {
-            province = 1460
+            province = 1923
             troops = {
                 light_cavalry = {
                     2750
@@ -8725,7 +8788,7 @@ character_event = {
             }
         }
         spawn_unit = {
-            province = 1460
+            province = 1923
             troops = {
                 light_cavalry = {
                     2750
@@ -8742,7 +8805,7 @@ character_event = {
             }
         }
         spawn_unit = {
-            province = 1460
+            province = 1923
             troops = {
                 light_cavalry = {
                     2750
@@ -8759,7 +8822,7 @@ character_event = {
             }
         }
         spawn_unit = {
-            province = 1460
+            province = 1923
             troops = {
                 light_cavalry = {
                     2750
@@ -8776,7 +8839,7 @@ character_event = {
             }
         }
         spawn_unit = {
-            province = 1460
+            province = 1923
             troops = {
                 light_cavalry = {
                     2750
@@ -8793,7 +8856,7 @@ character_event = {
             }
         }
         spawn_unit = {
-            province = 1460
+            province = 1923
             troops = {
                 light_cavalry = {
                     2750

@@ -3826,18 +3826,6 @@
         death = "1380.1.1"
     }
 }
-155114 = {
-    name = "马苏德"  # Masud
-    dynasty = 1027011
-    religion = "sunni"
-    culture = "bedouin_arabic"
-    1160.1.1 = {
-        birth = "1160.1.1"
-    }
-    1233.1.1 = {
-        death = "1233.1.1"
-    }
-}
 155137 = {
     name = "瓦米亚"  # Walmiya
     dynasty = 101731
@@ -11516,6 +11504,7 @@
 220801 = {
     name = "阿斯马"  # Asma
     female = yes
+    dynasty = 590
     religion = "shiite"
     culture = "bedouin_arabic"
     father = 220803
@@ -11832,6 +11821,10 @@
     father = 220818
     1048.4.4 = {
         birth = yes
+        create_bloodline = {
+            type = arwa
+            has_dlc = "Holy Fury"
+        }
     }
     1069.3.10 = {
         add_spouse = 45036
@@ -12603,30 +12596,18 @@
         death = yes
     }
 }
-20818 = {
-    name = "穆安萨尔"  # Mu'ansar
-}
-20838 = {
-    name = "哈比卜"  # Habib
-}
-20856 = {
-    name = "阿姆鲁"  # Amr
-}
-226001 = {
-    name = "卡西姆"  # Qasim
-}
-226002 = {
-    name = "卡里姆丁"  # Kerameddin
-}
-45029 = {
-    name = "阿比"  # Abu
-}
-20888 = {
-    name = "艾尤卜"  # Ayyub
-}
-20802 = {
-    name = "叶齐德"  # Yazid
-}
-20719 = {
-    name = "阿卜杜勒-拉赫曼"  # Abdul-Rahman
+248698 = {
+    name = "玛里亚姆"  # Maryam
+    dynasty = 7512
+    female = yes
+    religion = "shiite"
+    culture = "bedouin_arabic"
+    trait = sayyid
+    father = 45108
+    850.1.1 = {
+        birth = yes
+    }
+    889.1.6 = {
+        death = yes
+    }
 }

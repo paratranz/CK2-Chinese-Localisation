@@ -28,16 +28,23 @@
             has_global_flag = assassins_founded
             has_global_flag = assassins_destroyed
         }
-        b_alamut = {
-            has_holder = no
-        }
-        665 = {
-            NOR = {
-                num_of_settlements = 6
-                AND = {
-                    num_of_settlements = 5
-                    has_settlement_construction = yes
+        OR = {
+            society_member_of = the_assassins
+            b_rostamrood = {
+                holder_scope = {
+                    NOT = {
+                        dynasty = ROOT
+                    }
+                    NOT = {
+                        character = ROOT
+                    }
                 }
+            }
+        }
+        NOT = {
+            has_alternate_start_parameter = {
+                key = religion_names
+                value = random
             }
         }
     }
@@ -90,11 +97,9 @@
                 grant_title = PREV
             }
             set_government_type = feudal_government
-            665 = {
-                build_holding = {
-                    title = b_alamut
-                    type = temple
-                    holder = PREV
+            b_rostamrood = {
+                holder_scope = {
+                    abdicate_to = PREVPREV
                 }
             }
             create_character = {
@@ -331,6 +336,11 @@ narrative_event = {
                 has_global_flag = assassins_scatter
             }
             has_global_flag = assassins_resurface
+        }
+        NOT = {
+            shiite = {
+                is_name_randomized = yes
+            }
         }
     }
     mean_time_to_happen = {
@@ -611,6 +621,11 @@ narrative_event = {
         }
         NOT = {
             has_global_flag = assassins_destroyed
+        }
+        NOT = {
+            shiite = {
+                is_name_randomized = yes
+            }
         }
     }
     mean_time_to_happen = {

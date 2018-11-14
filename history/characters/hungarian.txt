@@ -5191,6 +5191,11 @@
         birth = "1053.1.1"
     }
     1063.1.1 = {
+        effect = {
+            add_betrothal = 1476
+        }
+    }
+    1069.1.1 = {
         add_spouse = 1476
     }
     1087.1.1 = {
@@ -8821,6 +8826,12 @@
     trait = flanker
     845.1.1 = {
         birth = yes
+    }
+    868.1.1 = {
+        create_bloodline = {
+            type = arpad
+            has_dlc = "Holy Fury"
+        }
     }
     907.1.1 = {
         death = yes

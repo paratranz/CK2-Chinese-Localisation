@@ -360,6 +360,7 @@
     mother = 178203
     father = 178205
     culture = panjabi
+    trait = giant
     trait = hunchback
     trait = slow
     religion = hindu
@@ -690,6 +691,15 @@
     mother = 178220
     1050.1.4 = {
         birth = yes
+    }
+    1066.1.5 = {
+        effect = {
+            set_variable = {
+                which = physique_variable
+                value = 15
+            }
+        }
+        trait = is_fat
     }
     1078.11.2 = {
         death = {

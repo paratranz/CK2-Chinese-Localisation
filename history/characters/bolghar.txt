@@ -86,7 +86,7 @@
 6858 = {
     name = "叶科提列克"  # Yeçtirek
     religion = "tengri_pagan"
-    culture = bolghar
+    culture = pecheneg
     dynasty = 1029159
     father = 160142
     mother = 160143
@@ -633,6 +633,10 @@
     culture = "bolghar"
     600.1.2 = {
         birth = "600.1.2"
+        create_bloodline = {
+            type = attila
+            has_dlc = "Holy Fury"
+        }
     }
     665.1.2 = {
         death = "665.1.2"
@@ -857,7 +861,7 @@
 160142 = {
     name = "阿拉斯兰"  # Araslan
     religion = "tengri_pagan"
-    culture = bolghar
+    culture = pecheneg
     dynasty = 1029159
     father = 160167
     824.1.1 = {
@@ -907,7 +911,7 @@
 160145 = {
     name = "穆盖尔"  # Mugel
     religion = "tengri_pagan"
-    culture = bolghar
+    culture = pecheneg
     dynasty = 1029159
     father = 160142
     mother = 160143
@@ -924,7 +928,7 @@
 160146 = {
     name = "科尔蒂勒"  # Kordil
     religion = "tengri_pagan"
-    culture = bolghar
+    culture = pecheneg
     dynasty = 1029159
     father = 160142
     mother = 160143
@@ -1027,7 +1031,7 @@
 160153 = {
     name = "塔赫塔曼"  # Tähtaman
     religion = "tengri_pagan"
-    culture = bolghar
+    culture = pecheneg
     dynasty = 1029159
     father = 6858
     mother = 160152
@@ -1041,7 +1045,7 @@
 160154 = {
     name = "帕克提亚"  # Pakhtiyar
     religion = "tengri_pagan"
-    culture = bolghar
+    culture = pecheneg
     dynasty = 1029159
     father = 6858
     mother = 160152
@@ -1055,7 +1059,7 @@
 160155 = {
     name = "布赞"  # Buzan
     religion = "tengri_pagan"
-    culture = bolghar
+    culture = pecheneg
     dynasty = 1029159
     father = 6858
     mother = 160152
@@ -1237,7 +1241,7 @@
 160167 = {
     name = "喀拉克"  # Kälaç
     religion = "tengri_pagan"
-    culture = bolghar
+    culture = pecheneg
     dynasty = 1029159
     father = 188790
     790.1.1 = {
@@ -1330,7 +1334,7 @@
     name = "切切克"  # Çeçek
     female = yes
     religion = "tengri_pagan"
-    culture = bolghar
+    culture = pecheneg
     dynasty = 1029159
     father = 160167
     824.1.1 = {
@@ -1707,7 +1711,7 @@
     name = "塔里丁"  # Taridin
     dynasty = 1029159
     religion = "tengri_pagan"
-    culture = "bolghar"
+    culture = "pecheneg"
     735.1.1 = {
         birth = yes
     }
@@ -1719,7 +1723,7 @@
     name = "奥西"  # Oshi
     dynasty = 1029159
     religion = "tengri_pagan"
-    culture = "bolghar"
+    culture = "pecheneg"
     father = 188789
     754.1.1 = {
         birth = yes
@@ -1733,7 +1737,7 @@
     female = yes
     dynasty = 1029159
     religion = "tengri_pagan"
-    culture = "bolghar"
+    culture = "pecheneg"
     father = 188789
     755.1.1 = {
         birth = yes
@@ -1889,6 +1893,30 @@
         birth = yes
     }
     1245.7.4 = {
+        death = yes
+    }
+}
+258095 = {
+    name = "奥克西"  # Okhsi
+    dynasty = 1100017
+    religion = "sunni"
+    culture = "bolghar"
+    1036.1.1 = {
+        birth = yes
+    }
+    1087.1.1 = {
+        death = yes
+    }
+}
+258096 = {
+    name = "寇梅西"  # Kormesiy
+    dynasty = 1100018
+    religion = "sunni"
+    culture = "bolghar"
+    1035.1.1 = {
+        birth = yes
+    }
+    1087.1.1 = {
         death = yes
     }
 }

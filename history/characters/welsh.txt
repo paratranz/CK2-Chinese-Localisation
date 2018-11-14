@@ -452,11 +452,12 @@
     religion = "catholic"
     culture = "welsh"
     father = 81854
+    mother = 252368
     1175.1.1 = {
-        birth = "1175.1.1"
+        birth = yes
     }
     1236.1.1 = {
-        death = "1236.1.1"
+        death = yes
     }
 }
 214800 = {
@@ -894,11 +895,11 @@
     culture = "welsh"
     father = 159107
     trait = "tough_soldier"
-    950.1.2 = {
-        birth = "950.1.2"
+    950.1.1 = {
+        birth = yes
     }
-    1001.1.2 = {
-        death = "1001.1.2"
+    990.1.1 = {
+        death = yes
     }
 }
 40511 = {
@@ -1619,11 +1620,11 @@
     culture = "welsh"
     father = 81823
     mother = 159355
-    906.1.1 = {
-        birth = "906.1.1"
+    907.1.1 = {
+        birth = yes
     }
     954.1.1 = {
-        death = "954.1.1"
+        death = yes
     }
 }
 81820 = {
@@ -1662,11 +1663,11 @@
     culture = "welsh"
     father = 81823
     mother = 159355
-    905.1.1 = {
-        birth = "905.1.1"
+    906.1.1 = {
+        birth = yes
     }
     987.1.1 = {
-        death = "987.1.1"
+        death = yes
     }
 }
 81823 = {
@@ -1675,16 +1676,18 @@
     religion = "catholic"
     culture = "welsh"
     trait = "just"
+    trait = "diligent"
+    trait = "inspiring_leader"
     give_nickname = nick_the_good
     father = 81824
     880.1.1 = {
-        birth = "880.1.1"
+        birth = yes
     }
     904.1.1 = {
         add_spouse = 159355
     }
     950.1.1 = {
-        death = "950.1.1"
+        death = yes
     }
 }
 81824 = {
@@ -1695,13 +1698,13 @@
     father = 81831
     mother = 159802
     853.1.1 = {
-        birth = "853.1.1"
+        birth = yes
     }
-    880.1.1 = {
+    872.1.1 = {
         dynasty = 101919
     }
-    935.1.1 = {
-        death = "935.1.1"
+    909.1.1 = {
+        death = yes
     }
 }
 81825 = {
@@ -1962,10 +1965,13 @@
     culture = "welsh"
     father = 214718
     1154.1.1 = {
-        birth = "1154.1.1"
+        birth = yes
+    }
+    1170.1.1 = {
+        add_spouse = 252368
     }
     1191.1.1 = {
-        death = "1191.1.1"
+        death = yes
     }
 }
 81855 = {
@@ -2882,11 +2888,12 @@
     dynasty = 1029039
     religion = "catholic"
     culture = "welsh"
+    father = 252156
     240.1.1 = {
-        birth = "240.1.1"
+        birth = yes
     }
     300.1.1 = {
-        death = "300.1.1"
+        death = yes
     }
 }
 159008 = {
@@ -3566,6 +3573,10 @@
     father = 159945
     350.1.1 = {
         birth = "350.1.1"
+        create_bloodline = {
+            type = vortigern
+            has_dlc = "Holy Fury"
+        }
     }
     375.1.1 = {
         add_spouse = 159810
@@ -5258,10 +5269,10 @@
     father = 81823
     mother = 159355
     905.1.1 = {
-        birth = "905.1.1"
+        birth = yes
     }
-    954.1.1 = {
-        death = "954.1.1"
+    953.1.1 = {
+        death = yes
     }
 }
 159363 = {
@@ -5310,11 +5321,13 @@
     culture = "welsh"
     father = 159365
     810.1.1 = {
-        birth = "810.1.1"
+        birth = yes
+    }
+    848.1.1 = {
         add_claim = c_gwent
     }
     885.1.1 = {
-        death = "885.1.1"
+        death = yes
     }
 }
 159367 = {
@@ -5856,13 +5869,13 @@
     religion = "catholic"
     culture = "welsh"
     339.1.1 = {
-        birth = "339.1.1"
+        birth = yes
     }
     360.1.1 = {
         add_spouse = 159430
     }
-    380.1.1 = {
-        death = "380.1.1"
+    388.8.28 = {
+        death = yes
     }
 }
 159810 = {
@@ -6062,14 +6075,14 @@
     culture = "welsh"
     father = 159822
     mother = 159837
-    470.1.1 = {
-        birth = "470.1.1"
+    472.1.1 = {
+        birth = yes
     }
     492.1.1 = {
         add_spouse = 159960
     }
     530.1.1 = {
-        death = "530.1.1"
+        death = yes
     }
 }
 159824 = {
@@ -6149,27 +6162,30 @@
     culture = "welsh"
     father = 159827
     435.1.1 = {
-        birth = "435.1.1"
+        birth = yes
+    }
+    470.1.1 = {
+        dynasty = 101921
     }
     498.1.1 = {
-        death = "498.1.1"
+        death = yes
     }
 }
 159829 = {
     name = "杜芬"  # Dyfwn
     female = yes
-    dynasty = 1029130
+    dynasty = 101921
     religion = "catholic"
     culture = "welsh"
     father = 159828
     486.1.1 = {
-        birth = "486.1.1"
+        birth = yes
     }
     508.1.1 = {
         add_spouse = 159824
     }
     548.1.1 = {
-        death = "548.1.1"
+        death = yes
     }
 }
 159830 = {
@@ -6298,10 +6314,10 @@
     father = 159807
     mother = 159430
     361.1.1 = {
-        birth = "361.1.1"
+        birth = yes
     }
-    411.1.1 = {
-        death = "411.1.1"
+    411.8.15 = {
+        death = yes
     }
 }
 159932 = {
@@ -6642,10 +6658,10 @@
     father = 159323
     mother = 159932
     436.1.1 = {
-        birth = "430.1.1"
+        birth = yes
     }
     510.1.1 = {
-        death = "510.1.1"
+        death = yes
     }
 }
 159957 = {
@@ -6729,10 +6745,10 @@
     culture = "welsh"
     father = 159961
     566.1.1 = {
-        birth = "566.1.1"
+        birth = yes
     }
-    630.1.1 = {
-        death = "630.1.1"
+    615.1.1 = {
+        death = yes
     }
 }
 159963 = {
@@ -6865,10 +6881,10 @@
     culture = "welsh"
     father = 159796
     590.1.1 = {
-        birth = "590.1.1"
+        birth = yes
     }
-    670.1.1 = {
-        death = "670.1.1"
+    665.1.1 = {
+        death = yes
     }
 }
 159798 = {
@@ -6877,11 +6893,11 @@
     religion = "catholic"
     culture = "welsh"
     father = 159797
-    660.1.1 = {
-        birth = "660.1.1"
+    635.1.1 = {
+        birth = yes
     }
-    740.1.1 = {
-        death = "740.1.1"
+    700.1.1 = {
+        death = yes
     }
 }
 159799 = {
@@ -6890,11 +6906,11 @@
     religion = "catholic"
     culture = "welsh"
     father = 159798
-    690.1.1 = {
-        birth = "690.1.1"
+    680.1.1 = {
+        birth = yes
     }
-    770.1.1 = {
-        death = "770.1.1"
+    735.1.1 = {
+        death = yes
     }
 }
 159800 = {
@@ -6903,11 +6919,11 @@
     religion = "catholic"
     culture = "welsh"
     father = 159806
-    780.1.1 = {
-        birth = "780.1.1"
+    760.1.1 = {
+        birth = yes
     }
-    840.1.1 = {
-        death = "840.1.1"
+    837.1.1 = {
+        death = yes
     }
 }
 159801 = {
@@ -6917,10 +6933,10 @@
     culture = "welsh"
     father = 159800
     825.1.1 = {
-        birth = "825.1.1"
+        birth = yes
     }
     872.1.1 = {
-        death = "872.1.1"
+        death = yes
     }
 }
 159802 = {
@@ -6989,11 +7005,11 @@
     religion = "catholic"
     culture = "welsh"
     father = 159799
-    740.1.1 = {
-        birth = "740.1.1"
+    710.1.1 = {
+        birth = yes
     }
-    818.1.1 = {
-        death = "818.1.1"
+    770.1.1 = {
+        death = yes
     }
 }
 160038 = {
@@ -7027,12 +7043,12 @@
     dynasty = 14284
     religion = "catholic"
     culture = "welsh"
-    father = 160039
-    500.1.1 = {
-        birth = "500.1.1"
+    father = 160038
+    490.1.1 = {
+        birth = yes
     }
     550.1.1 = {
-        death = "550.1.1"
+        death = yes
         give_nickname = nick_the_saint
     }
 }
@@ -7041,25 +7057,25 @@
     dynasty = 14284
     religion = "catholic"
     culture = "welsh"
-    father = 160040
-    535.1.1 = {
-        birth = "535.1.1"
+    father = 252350
+    545.1.1 = {
+        birth = yes
     }
-    575.1.1 = {
-        death = "575.1.1"
+    614.1.1 = {
+        death = yes
     }
 }
 160042 = {
-    name = "勒德翁"  # lfdyfwn
+    name = "Idgwyn"
     dynasty = 14284
     religion = "catholic"
     culture = "welsh"
     father = 160041
     570.1.1 = {
-        birth = "570.1.1"
+        birth = yes
     }
     630.1.1 = {
-        death = "630.1.1"
+        death = yes
     }
 }
 160043 = {
@@ -7069,10 +7085,10 @@
     culture = "welsh"
     father = 160042
     600.1.1 = {
-        birth = "600.1.1"
+        birth = yes
     }
-    650.1.1 = {
-        death = "650.1.1"
+    680.1.1 = {
+        death = yes
     }
 }
 160044 = {
@@ -7081,11 +7097,11 @@
     religion = "catholic"
     culture = "welsh"
     father = 160043
-    630.1.1 = {
-        birth = "630.1.1"
+    635.1.1 = {
+        birth = yes
     }
-    695.1.1 = {
-        death = "695.1.1"
+    700.1.1 = {
+        death = yes
     }
 }
 160045 = {
@@ -7095,10 +7111,10 @@
     culture = "welsh"
     father = 160044
     660.1.1 = {
-        birth = "660.1.1"
+        birth = yes
     }
-    700.1.1 = {
-        death = "700.1.1"
+    725.1.1 = {
+        death = yes
     }
 }
 160046 = {
@@ -7108,10 +7124,10 @@
     culture = "welsh"
     father = 160045
     690.1.1 = {
-        birth = "690.1.1"
+        birth = yes
     }
-    740.1.1 = {
-        death = "740.1.1"
+    754.1.1 = {
+        death = yes
     }
 }
 160048 = {
@@ -7596,11 +7612,12 @@
     dynasty = 816
     religion = "catholic"
     culture = "welsh"
-    333.1.1 = {
-        birth = "333.1.1"
+    father = 252159
+    323.1.1 = {
+        birth = yes
     }
     384.1.1 = {
-        death = "384.1.1"
+        death = yes
     }
 }
 184119 = {
@@ -8630,11 +8647,11 @@
     religion = "catholic"
     culture = "welsh"
     father = 159111
-    781.1.1 = {
-        birth = "781.1.1"
+    800.1.1 = {
+        birth = yes
     }
-    840.1.1 = {
-        death = "840.1.1"
+    874.1.1 = {
+        death = yes
     }
 }
 160259 = {
@@ -8643,11 +8660,11 @@
     religion = "catholic"
     culture = "welsh"
     father = 160258
-    835.1.1 = {
-        birth = "835.1.1"
+    850.1.1 = {
+        birth = yes
     }
-    890.1.1 = {
-        death = "890.1.1"
+    910.1.1 = {
+        death = yes
     }
 }
 160260 = {
@@ -8656,11 +8673,11 @@
     religion = "catholic"
     culture = "welsh"
     father = 160258
-    837.1.1 = {
-        birth = "837.1.1"
+    845.1.1 = {
+        birth = yes
     }
-    892.1.1 = {
-        death = "892.1.1"
+    890.1.1 = {
+        death = yes
     }
 }
 166442 = {
@@ -8771,6 +8788,2743 @@
         employer = 159109
     }
     909.1.1 = {
+        death = yes
+    }
+}
+252137 = {
+    name = "Cynfelyn"
+    dynasty = 105920
+    religion = "pagan"
+    culture = "welsh"
+    3.1.1 = {
+        birth = yes
+    }
+    41.1.1 = {
+        death = yes
+    }
+}
+252138 = {
+    name = "Arvirargus"
+    dynasty = 105920
+    religion = "pagan"
+    culture = "welsh"
+    father = 252137
+    19.1.1 = {
+        birth = yes
+    }
+    62.1.1 = {
+        death = yes
+    }
+}
+252139 = {
+    name = "Sallustius Lucullus"
+    dynasty = 105920
+    religion = "hellenic_pagan"
+    culture = "roman"
+    father = 252138
+    40.1.1 = {
+        birth = yes
+    }
+    97.1.1 = {
+        death = yes
+    }
+}
+252140 = {
+    name = "Gwydr"
+    dynasty = 105920
+    religion = "pagan"
+    culture = "welsh"
+    father = 252137
+    20.1.1 = {
+        birth = yes
+    }
+    43.1.1 = {
+        death = yes
+    }
+}
+252141 = {
+    name = "Caradog"
+    dynasty = 105920
+    religion = "pagan"
+    culture = "welsh"
+    father = 252137
+    trait = brave
+    trait = strong
+    trait = inspiring_leader
+    trait = aggressive_leader
+    21.1.1 = {
+        birth = yes
+        create_bloodline = {
+            type = caratacus
+            has_dlc = "Holy Fury"
+        }
+    }
+    50.1.1 = {
+        death = yes
+    }
+}
+252142 = {
+    name = "Prasutagus"
+    dynasty = 105921
+    religion = "pagan"
+    culture = "welsh"
+    10.1.1 = {
+        birth = yes
+    }
+    36.1.1 = {
+        add_spouse = 252143
+    }
+    60.1.1 = {
+        death = yes
+    }
+}
+252143 = {
+    name = "Boudica"
+    female = yes
+    dynasty = 105921
+    religion = "pagan"
+    culture = "welsh"
+    trait = brave
+    trait = strong
+    trait = fair
+    trait = inspiring_leader
+    trait = aggressive_leader
+    20.1.1 = {
+        birth = yes
+    }
+    61.1.1 = {
+        death = yes
+    }
+}
+252144 = {
+    name = "Isolda"
+    female = yes
+    dynasty = 105921
+    religion = "pagan"
+    culture = "welsh"
+    father = 252142
+    mother = 252143
+    42.1.1 = {
+        birth = yes
+    }
+    61.1.1 = {
+        death = yes
+    }
+}
+252145 = {
+    name = "Siora"
+    female = yes
+    dynasty = 105921
+    religion = "pagan"
+    culture = "welsh"
+    father = 252142
+    mother = 252143
+    44.1.1 = {
+        birth = yes
+    }
+    61.1.1 = {
+        death = yes
+    }
+}
+252146 = {
+    name = "Cartimandua"
+    female = yes
+    dynasty = 105922
+    religion = "pagan"
+    culture = "welsh"
+    trait = deceitful
+    trait = lustful
+    trait = fair
+    trait = intricate_webweaver
+    16.1.1 = {
+        birth = yes
+    }
+    32.1.1 = {
+        add_spouse = 252147
+    }
+    57.1.1 = {
+        remove_spouse = 252147
+    }
+    57.2.1 = {
+        add_spouse = 252148
+    }
+    69.1.1 = {
+        death = yes
+    }
+}
+252147 = {
+    name = "Venutius"
+    dynasty = 105922
+    religion = "pagan"
+    culture = "welsh"
+    13.1.1 = {
+        birth = yes
+    }
+    72.1.1 = {
+        death = yes
+    }
+}
+252148 = {
+    name = "Vellocatus"
+    dynasty = 105922
+    religion = "pagan"
+    culture = "welsh"
+    26.1.1 = {
+        birth = yes
+    }
+    70.1.1 = {
+        death = yes
+    }
+}
+252149 = {
+    name = "Madog"
+    dynasty = 816
+    religion = "pagan"
+    culture = "welsh"
+    father = 252141
+    38.1.1 = {
+        birth = yes
+    }
+    95.1.1 = {
+        death = yes
+    }
+}
+252150 = {
+    name = "Cadwr"
+    dynasty = 816
+    religion = "pagan"
+    culture = "welsh"
+    father = 252149
+    80.1.1 = {
+        birth = yes
+    }
+    127.1.1 = {
+        death = yes
+    }
+}
+252151 = {
+    name = "Cadwgon"
+    dynasty = 816
+    religion = "pagan"
+    culture = "welsh"
+    father = 252150
+    100.1.1 = {
+        birth = yes
+    }
+    148.1.1 = {
+        death = yes
+    }
+}
+252152 = {
+    name = "Corbed"
+    dynasty = 816
+    religion = "pagan"
+    culture = "welsh"
+    father = 252151
+    120.1.1 = {
+        birth = yes
+    }
+    184.1.1 = {
+        death = yes
+    }
+}
+252153 = {
+    name = "Art Vroisc"
+    dynasty = 816
+    religion = "pagan"
+    culture = "welsh"
+    father = 252152
+    150.1.1 = {
+        birth = yes
+    }
+    202.1.1 = {
+        death = yes
+    }
+}
+252154 = {
+    name = "Fer"
+    dynasty = 816
+    religion = "pagan"
+    culture = "welsh"
+    father = 252153
+    170.1.1 = {
+        birth = yes
+    }
+    218.1.1 = {
+        death = yes
+    }
+}
+252155 = {
+    name = "Duibne Mawr"
+    dynasty = 816
+    religion = "pagan"
+    culture = "welsh"
+    father = 252154
+    192.1.1 = {
+        birth = yes
+    }
+    246.1.1 = {
+        death = yes
+    }
+}
+252156 = {
+    name = "Beinnie"
+    dynasty = 816
+    religion = "pagan"
+    culture = "welsh"
+    father = 252155
+    212.1.1 = {
+        birth = yes
+    }
+    261.1.1 = {
+        death = yes
+    }
+}
+252157 = {
+    name = "Art"
+    dynasty = 816
+    religion = "pagan"
+    culture = "welsh"
+    father = 252156
+    237.1.1 = {
+        birth = yes
+    }
+    284.1.1 = {
+        death = yes
+    }
+}
+252158 = {
+    name = "Fer"
+    dynasty = 816
+    religion = "pagan"
+    culture = "welsh"
+    father = 252157
+    256.1.1 = {
+        birth = yes
+    }
+    301.1.1 = {
+        death = yes
+    }
+}
+252159 = {
+    name = "Cursalem"
+    dynasty = 816
+    religion = "catholic"
+    culture = "welsh"
+    father = 252158
+    280.1.1 = {
+        birth = yes
+    }
+    330.1.1 = {
+        death = yes
+    }
+}
+252160 = {
+    name = "Tutagual"
+    dynasty = 816
+    religion = "catholic"
+    culture = "welsh"
+    father = 166462
+    442.1.1 = {
+        birth = yes
+    }
+    495.1.1 = {
+        death = yes
+    }
+}
+252161 = {
+    name = "Dingat"
+    dynasty = 816
+    religion = "catholic"
+    culture = "welsh"
+    father = 252160
+    469.1.1 = {
+        birth = yes
+    }
+    538.1.1 = {
+        death = yes
+    }
+}
+252162 = {
+    name = "Sennylt"
+    dynasty = 816
+    religion = "catholic"
+    culture = "welsh"
+    father = 252161
+    498.1.1 = {
+        birth = yes
+    }
+    575.1.1 = {
+        death = yes
+    }
+}
+252163 = {
+    name = "Gwyrangon"
+    dynasty = 105923
+    religion = "catholic"
+    culture = "welsh"
+    398.1.1 = {
+        birth = yes
+    }
+    465.1.1 = {
+        death = yes
+    }
+}
+252164 = {
+    name = "Rhiadaf"
+    dynasty = 105924
+    religion = "catholic"
+    culture = "welsh"
+    trait = strong
+    trait = humble
+    trait = brave
+    425.1.1 = {
+        birth = yes
+    }
+    473.1.1 = {
+        death = yes
+    }
+}
+252165 = {
+    name = "Elaf"
+    dynasty = 105925
+    religion = "catholic"
+    culture = "welsh"
+    415.1.1 = {
+        birth = yes
+    }
+    477.1.1 = {
+        death = yes
+    }
+}
+252166 = {
+    name = "Cerdic"
+    dynasty = 105925
+    religion = "catholic"
+    culture = "welsh"
+    father = 252165
+    435.1.1 = {
+        birth = yes
+    }
+    495.1.1 = {
+        death = yes
+    }
+}
+252167 = {
+    name = "Nudd"
+    dynasty = 105925
+    religion = "catholic"
+    culture = "welsh"
+    father = 252166
+    460.1.1 = {
+        birth = yes
+    }
+    519.1.1 = {
+        death = yes
+    }
+}
+252212 = {
+    name = "Dunaut"
+    dynasty = 105927
+    religion = "catholic"
+    culture = "welsh"
+    father = 252229
+    518.1.1 = {
+        birth = yes
+    }
+    595.1.1 = {
+        death = yes
+    }
+}
+252213 = {
+    name = "Deiniol"
+    dynasty = 105927
+    religion = "catholic"
+    culture = "welsh"
+    father = 252212
+    535.1.1 = {
+        birth = yes
+    }
+    584.1.1 = {
+        death = yes
+    }
+}
+252214 = {
+    name = "Aneirin"
+    dynasty = 105927
+    religion = "catholic"
+    culture = "welsh"
+    learning = 10
+    trait = poet
+    father = 252212
+    542.1.1 = {
+        birth = yes
+    }
+    604.1.1 = {
+        death = yes
+    }
+}
+252215 = {
+    name = "Deiniolen"
+    dynasty = 105927
+    religion = "catholic"
+    culture = "welsh"
+    father = 252213
+    556.1.1 = {
+        birth = yes
+    }
+    613.1.1 = {
+        death = yes
+    }
+}
+252216 = {
+    name = "Rieinmelth"
+    female = yes
+    dynasty = 1029000
+    religion = "catholic"
+    culture = "welsh"
+    father = 159955
+    608.1.1 = {
+        birth = yes
+    }
+    640.1.1 = {
+        death = yes
+    }
+}
+252217 = {
+    name = "Mor"
+    dynasty = 1029002
+    religion = "catholic"
+    culture = "welsh"
+    father = 159037
+    408.1.1 = {
+        birth = yes
+    }
+    470.1.1 = {
+        death = yes
+    }
+}
+252218 = {
+    name = "Einion"
+    dynasty = 1029002
+    religion = "catholic"
+    culture = "welsh"
+    father = 252217
+    432.1.1 = {
+        birth = yes
+    }
+    505.1.1 = {
+        death = yes
+    }
+}
+252219 = {
+    name = "Eliffer"
+    dynasty = 1029002
+    religion = "catholic"
+    culture = "welsh"
+    father = 252218
+    480.1.1 = {
+        birth = yes
+    }
+    560.1.1 = {
+        death = yes
+    }
+}
+252220 = {
+    name = "Ceidio"
+    dynasty = 1029002
+    religion = "catholic"
+    culture = "welsh"
+    father = 252218
+    485.1.1 = {
+        birth = yes
+    }
+    555.1.1 = {
+        death = yes
+    }
+}
+252221 = {
+    name = "Guenddolau"
+    dynasty = 105928
+    religion = "catholic"
+    culture = "welsh"
+    father = 252220
+    504.1.1 = {
+        birth = yes
+    }
+    573.1.1 = {
+        death = yes
+    }
+}
+252222 = {
+    name = "Llew"
+    dynasty = 1029000
+    religion = "catholic"
+    culture = "welsh"
+    father = 159952
+    530.1.1 = {
+        birth = yes
+    }
+    616.1.1 = {
+        death = yes
+    }
+}
+252223 = {
+    name = "Arawn"
+    dynasty = 1029000
+    religion = "catholic"
+    culture = "welsh"
+    father = 159952
+    535.1.1 = {
+        birth = yes
+    }
+    619.1.1 = {
+        death = yes
+    }
+}
+252224 = {
+    name = "Peredyr"
+    dynasty = 1029002
+    religion = "catholic"
+    culture = "welsh"
+    father = 252219
+    510.1.1 = {
+        birth = yes
+    }
+    580.1.1 = {
+        death = yes
+    }
+}
+252225 = {
+    name = "Gwrgi"
+    dynasty = 1029002
+    religion = "catholic"
+    culture = "welsh"
+    father = 252219
+    512.1.1 = {
+        birth = yes
+    }
+    580.6.1 = {
+        death = yes
+    }
+}
+252226 = {
+    name = "Gwrgant"
+    dynasty = 1029002
+    religion = "catholic"
+    culture = "welsh"
+    father = 252224
+    540.1.1 = {
+        birth = yes
+    }
+    592.1.1 = {
+        death = yes
+    }
+}
+252227 = {
+    name = "Arthwys"
+    dynasty = 1029002
+    religion = "catholic"
+    culture = "welsh"
+    father = 252217
+    434.1.1 = {
+        birth = yes
+    }
+    480.1.1 = {
+        death = yes
+    }
+}
+252228 = {
+    name = "Cynfelyn"
+    dynasty = 1029002
+    religion = "catholic"
+    culture = "welsh"
+    father = 252227
+    452.1.1 = {
+        birth = yes
+    }
+    510.1.1 = {
+        death = yes
+    }
+}
+252229 = {
+    name = "Pabo"
+    dynasty = 1029002
+    religion = "catholic"
+    culture = "welsh"
+    father = 252227
+    466.1.1 = {
+        birth = yes
+    }
+    530.1.1 = {
+        death = yes
+    }
+}
+252230 = {
+    name = "Pebiau"
+    dynasty = 1029002
+    religion = "catholic"
+    culture = "welsh"
+    father = 252227
+    475.1.1 = {
+        birth = yes
+    }
+    545.1.1 = {
+        death = yes
+    }
+}
+252231 = {
+    name = "Sawyl"
+    dynasty = 105929
+    religion = "catholic"
+    culture = "welsh"
+    father = 252229
+    524.1.1 = {
+        birth = yes
+    }
+    601.1.1 = {
+        death = yes
+    }
+}
+252232 = {
+    name = "Madoc"
+    dynasty = 105929
+    religion = "catholic"
+    culture = "welsh"
+    father = 252231
+    554.1.1 = {
+        birth = yes
+    }
+    605.1.1 = {
+        death = yes
+    }
+}
+252233 = {
+    name = "Guitcuin"
+    dynasty = 105929
+    religion = "catholic"
+    culture = "welsh"
+    father = 252231
+    557.1.1 = {
+        birth = yes
+    }
+    613.1.1 = {
+        death = yes
+    }
+}
+252234 = {
+    name = "Catguallaunliu"
+    dynasty = 105929
+    religion = "catholic"
+    culture = "welsh"
+    father = 252231
+    560.1.1 = {
+        birth = yes
+    }
+    619.1.1 = {
+        death = yes
+    }
+}
+252235 = {
+    name = "Garbanion"
+    dynasty = 1029002
+    religion = "catholic"
+    culture = "welsh"
+    father = 159038
+    mother = 159951
+    392.1.1 = {
+        birth = yes
+    }
+    450.1.1 = {
+        death = yes
+    }
+}
+252236 = {
+    name = "Dyfnwal"
+    dynasty = 105930
+    religion = "catholic"
+    culture = "welsh"
+    father = 252235
+    410.1.1 = {
+        birth = yes
+    }
+    475.1.1 = {
+        death = yes
+    }
+}
+252237 = {
+    name = "Cyngar"
+    dynasty = 105930
+    religion = "catholic"
+    culture = "welsh"
+    father = 252236
+    428.1.1 = {
+        birth = yes
+    }
+    490.1.1 = {
+        death = yes
+    }
+}
+252238 = {
+    name = "Bran"
+    dynasty = 105930
+    religion = "catholic"
+    culture = "welsh"
+    father = 252236
+    440.1.1 = {
+        birth = yes
+    }
+    520.1.1 = {
+        give_nickname = nick_the_old
+    }
+    540.1.1 = {
+        death = yes
+    }
+}
+252239 = {
+    name = "Morgan Bulc"
+    dynasty = 105930
+    religion = "catholic"
+    culture = "welsh"
+    father = 252237
+    485.1.1 = {
+        birth = yes
+    }
+    560.1.1 = {
+        death = yes
+    }
+}
+252240 = {
+    name = "Cynfarch"
+    dynasty = 1029039
+    religion = "catholic"
+    culture = "welsh"
+    father = 159009
+    355.1.1 = {
+        birth = yes
+    }
+    418.1.1 = {
+        death = yes
+    }
+}
+252241 = {
+    name = "Llewdwn"
+    dynasty = 1029039
+    religion = "catholic"
+    culture = "welsh"
+    father = 252240
+    410.1.1 = {
+        birth = yes
+    }
+    490.1.1 = {
+        death = yes
+    }
+}
+252242 = {
+    name = "Gwalchmai"
+    dynasty = 1029039
+    religion = "catholic"
+    culture = "welsh"
+    father = 252241
+    470.1.1 = {
+        birth = yes
+    }
+    537.1.1 = {
+        death = yes
+    }
+}
+252243 = {
+    name = "Coledauc"
+    dynasty = 105930
+    religion = "catholic"
+    culture = "welsh"
+    father = 252239
+    518.1.1 = {
+        birth = yes
+    }
+    580.1.1 = {
+        death = yes
+    }
+}
+252244 = {
+    name = "Cynan"
+    dynasty = 105930
+    religion = "catholic"
+    culture = "welsh"
+    father = 252239
+    522.1.1 = {
+        birth = yes
+    }
+    597.1.1 = {
+        death = yes
+    }
+}
+252245 = {
+    name = "Morcant"
+    dynasty = 105930
+    religion = "catholic"
+    culture = "welsh"
+    father = 252243
+    540.1.1 = {
+        birth = yes
+    }
+    597.1.1 = {
+        death = yes
+    }
+}
+252246 = {
+    name = "Mynyddog Mwynfawr"
+    dynasty = 105930
+    religion = "catholic"
+    culture = "welsh"
+    father = 252244
+    550.1.1 = {
+        birth = yes
+    }
+    597.1.1 = {
+        death = yes
+    }
+}
+252247 = {
+    name = "Teneu"
+    female = yes
+    dynasty = 105930
+    religion = "catholic"
+    culture = "welsh"
+    father = 252239
+    520.1.1 = {
+        birth = yes
+    }
+    536.1.1 = {
+        effect = {
+            add_lover = 159958
+        }
+    }
+    570.1.1 = {
+        death = yes
+    }
+}
+252248 = {
+    name = "Mungo"
+    dynasty = 1029000
+    religion = "catholic"
+    culture = "welsh"
+    father = 159958
+    mother = 252247
+    trait = bastard
+    540.1.1 = {
+        birth = yes
+    }
+    614.1.13 = {
+        death = yes
+    }
+}
+252249 = {
+    name = "Gwawrddur"
+    dynasty = 105930
+    religion = "catholic"
+    culture = "welsh"
+    father = 252246
+    568.1.1 = {
+        birth = yes
+    }
+    638.1.1 = {
+        death = yes
+    }
+}
+252253 = {
+    name = "Masgwid"
+    dynasty = 1029000
+    religion = "catholic"
+    culture = "welsh"
+    father = 159036
+    432.1.1 = {
+        birth = yes
+    }
+    495.1.1 = {
+        death = yes
+    }
+}
+252254 = {
+    name = "Llaennog"
+    dynasty = 105932
+    religion = "catholic"
+    culture = "welsh"
+    father = 252253
+    460.1.1 = {
+        birth = yes
+    }
+    540.1.1 = {
+        death = yes
+    }
+}
+252255 = {
+    name = "Einion"
+    dynasty = 105932
+    religion = "catholic"
+    culture = "welsh"
+    father = 252253
+    462.1.1 = {
+        birth = yes
+    }
+    514.1.1 = {
+        death = yes
+    }
+}
+252256 = {
+    name = "Arthuis"
+    dynasty = 105932
+    religion = "catholic"
+    culture = "welsh"
+    father = 252253
+    464.1.1 = {
+        birth = yes
+    }
+    524.1.1 = {
+        death = yes
+    }
+}
+252257 = {
+    name = "Cynllo"
+    dynasty = 105932
+    religion = "catholic"
+    culture = "welsh"
+    father = 252253
+    467.1.1 = {
+        birth = yes
+    }
+    537.1.1 = {
+        death = yes
+    }
+}
+252258 = {
+    name = "Ceredig"
+    dynasty = 105932
+    religion = "catholic"
+    culture = "welsh"
+    father = 252253
+    470.1.1 = {
+        birth = yes
+    }
+    529.1.1 = {
+        death = yes
+    }
+}
+252259 = {
+    name = "Gwallog"
+    dynasty = 105932
+    religion = "catholic"
+    culture = "welsh"
+    father = 252254
+    520.1.1 = {
+        birth = yes
+    }
+    590.1.1 = {
+        death = yes
+    }
+}
+252260 = {
+    name = "Ceredig"
+    dynasty = 105932
+    religion = "catholic"
+    culture = "welsh"
+    father = 252259
+    550.1.1 = {
+        birth = yes
+    }
+    619.1.1 = {
+        death = yes
+    }
+}
+252261 = {
+    name = "Einion"
+    dynasty = 105933
+    religion = "catholic"
+    culture = "welsh"
+    480.1.1 = {
+        birth = yes
+    }
+    552.1.1 = {
+        death = yes
+    }
+}
+252262 = {
+    name = "Elisedd"
+    dynasty = 105933
+    religion = "catholic"
+    culture = "welsh"
+    father = 252261
+    512.1.1 = {
+        birth = yes
+    }
+    580.1.1 = {
+        death = yes
+    }
+}
+252263 = {
+    name = "Einudd"
+    dynasty = 105933
+    religion = "catholic"
+    culture = "welsh"
+    father = 252262
+    545.1.1 = {
+        birth = yes
+    }
+    610.1.1 = {
+        death = yes
+    }
+}
+252264 = {
+    name = "Cynwyd"
+    dynasty = 105934
+    religion = "catholic"
+    culture = "welsh"
+    father = 252228
+    480.1.1 = {
+        birth = yes
+    }
+    540.1.1 = {
+        death = yes
+    }
+}
+252265 = {
+    name = "Cadrawd"
+    dynasty = 105935
+    religion = "catholic"
+    culture = "welsh"
+    father = 252264
+    500.1.1 = {
+        birth = yes
+    }
+    570.1.1 = {
+        death = yes
+    }
+}
+252266 = {
+    name = "Cynfawr"
+    dynasty = 105935
+    religion = "catholic"
+    culture = "welsh"
+    father = 252265
+    535.1.1 = {
+        birth = yes
+    }
+    590.1.1 = {
+        death = yes
+    }
+}
+252267 = {
+    name = "Caradog"
+    dynasty = 105935
+    religion = "catholic"
+    culture = "welsh"
+    father = 252266
+    560.1.1 = {
+        birth = yes
+    }
+    610.1.1 = {
+        death = yes
+    }
+}
+252268 = {
+    name = "Mawn"
+    dynasty = 1029003
+    dynasty = 20044
+    religion = "catholic"
+    culture = "welsh"
+    father = 159078
+    533.1.1 = {
+        birth = yes
+    }
+    584.1.1 = {
+        death = yes
+    }
+}
+252269 = {
+    name = "Iago"
+    dynasty = 1029003
+    dynasty = 20044
+    religion = "catholic"
+    culture = "welsh"
+    father = 159078
+    535.1.1 = {
+        birth = yes
+    }
+    612.1.1 = {
+        death = yes
+    }
+}
+252270 = {
+    name = "Dogfael"
+    dynasty = 14250
+    religion = "catholic"
+    culture = "welsh"
+    father = 159010
+    mother = 159039
+    400.1.1 = {
+        birth = yes
+    }
+    475.1.1 = {
+        death = yes
+    }
+}
+252271 = {
+    name = "Elnaw"
+    dynasty = 105936
+    religion = "catholic"
+    culture = "welsh"
+    father = 252270
+    450.1.1 = {
+        birth = yes
+    }
+    525.1.1 = {
+        death = yes
+    }
+}
+252272 = {
+    name = "Cyndrwyn"
+    dynasty = 105936
+    religion = "catholic"
+    culture = "welsh"
+    father = 252271
+    500.1.1 = {
+        birth = yes
+    }
+    590.1.1 = {
+        death = yes
+    }
+}
+252273 = {
+    name = "Eiludd"
+    dynasty = 105936
+    religion = "catholic"
+    culture = "welsh"
+    father = 252272
+    565.1.1 = {
+        birth = yes
+    }
+    642.1.1 = {
+        death = yes
+    }
+}
+252274 = {
+    name = "Elaed"
+    dynasty = 105936
+    religion = "catholic"
+    culture = "welsh"
+    father = 252273
+    595.1.1 = {
+        birth = yes
+    }
+    665.1.1 = {
+        death = yes
+    }
+}
+252275 = {
+    name = "Meurig"
+    dynasty = 105936
+    religion = "catholic"
+    culture = "welsh"
+    father = 252274
+    640.1.1 = {
+        birth = yes
+    }
+    700.1.1 = {
+        death = yes
+    }
+}
+252276 = {
+    name = "Glast"
+    dynasty = 105936
+    religion = "catholic"
+    culture = "welsh"
+    father = 252272
+    570.1.1 = {
+        birth = yes
+    }
+    610.1.1 = {
+        death = yes
+    }
+}
+252277 = {
+    name = "Morfael"
+    dynasty = 105937
+    religion = "catholic"
+    culture = "welsh"
+    father = 252276
+    590.1.1 = {
+        birth = yes
+    }
+    643.1.1 = {
+        death = yes
+    }
+}
+252278 = {
+    name = "Morgan"
+    dynasty = 105937
+    religion = "catholic"
+    culture = "welsh"
+    father = 252276
+    590.1.1 = {
+        birth = yes
+    }
+    658.1.1 = {
+        death = yes
+    }
+}
+252279 = {
+    name = "Cyndrwyn"
+    dynasty = 105937
+    religion = "catholic"
+    culture = "welsh"
+    father = 252277
+    592.1.1 = {
+        birth = yes
+    }
+    620.1.1 = {
+        death = yes
+    }
+}
+252280 = {
+    name = "Custennin"
+    dynasty = 105937
+    religion = "catholic"
+    culture = "welsh"
+    father = 252277
+    594.1.1 = {
+        birth = yes
+    }
+    621.1.1 = {
+        death = yes
+    }
+}
+252281 = {
+    name = "Cynddylan"
+    dynasty = 20044
+    religion = "catholic"
+    culture = "welsh"
+    father = 252279
+    610.1.1 = {
+        birth = yes
+    }
+    656.1.1 = {
+        death = yes
+    }
+}
+252282 = {
+    name = "Caranfael"
+    dynasty = 20044
+    religion = "catholic"
+    culture = "welsh"
+    father = 252279
+    610.1.1 = {
+        birth = yes
+    }
+    656.6.1 = {
+        death = yes
+    }
+}
+252283 = {
+    name = "Gwrfoddw"
+    dynasty = 20037
+    religion = "catholic"
+    culture = "welsh"
+    father = 159961
+    570.1.1 = {
+        birth = yes
+    }
+    619.1.1 = {
+        death = yes
+    }
+}
+252284 = {
+    name = "Erfig"
+    dynasty = 20037
+    religion = "catholic"
+    culture = "welsh"
+    father = 252283
+    590.1.1 = {
+        birth = yes
+    }
+    630.1.1 = {
+        death = yes
+    }
+}
+252285 = {
+    name = "Amlawdd"
+    dynasty = 105938
+    religion = "catholic"
+    culture = "welsh"
+    400.1.1 = {
+        birth = yes
+    }
+    474.1.1 = {
+        death = yes
+    }
+}
+252286 = {
+    name = "Gwrfoddw"
+    dynasty = 105938
+    religion = "catholic"
+    culture = "welsh"
+    father = 252285
+    418.1.1 = {
+        birth = yes
+    }
+    501.1.1 = {
+        death = yes
+    }
+}
+252287 = {
+    name = "Eigyr"
+    female = yes
+    dynasty = 105938
+    religion = "catholic"
+    culture = "welsh"
+    father = 252285
+    445.1.1 = {
+        birth = yes
+    }
+    504.1.1 = {
+        death = yes
+    }
+}
+252288 = {
+    name = "Rieingulid"
+    female = yes
+    dynasty = 105938
+    religion = "catholic"
+    culture = "welsh"
+    father = 252285
+    442.1.1 = {
+        birth = yes
+    }
+    485.1.1 = {
+        death = yes
+    }
+}
+252289 = {
+    name = "Goleuddydd"
+    female = yes
+    dynasty = 105938
+    religion = "catholic"
+    culture = "welsh"
+    father = 252285
+    444.1.1 = {
+        birth = yes
+    }
+    465.1.1 = {
+        death = yes
+    }
+}
+252290 = {
+    name = "Tywynwedd"
+    female = yes
+    dynasty = 105938
+    religion = "catholic"
+    culture = "welsh"
+    father = 252285
+    440.1.1 = {
+        birth = yes
+    }
+    493.1.1 = {
+        death = yes
+    }
+}
+252291 = {
+    name = "Merchion"
+    religion = "catholic"
+    culture = "welsh"
+    dynasty = 1029040
+    father = 159438
+    432.1.1 = {
+        birth = yes
+    }
+    500.1.1 = {
+        death = yes
+    }
+}
+252292 = {
+    name = "Cyn-March"
+    religion = "catholic"
+    culture = "welsh"
+    dynasty = 1029040
+    father = 252291
+    452.1.1 = {
+        birth = yes
+    }
+    510.1.1 = {
+        death = yes
+    }
+}
+252293 = {
+    name = "Bethan"
+    female = yes
+    religion = "catholic"
+    culture = "welsh"
+    dynasty = 1029040
+    father = 252291
+    465.1.1 = {
+        birth = yes
+    }
+    517.1.1 = {
+        death = yes
+    }
+}
+252294 = {
+    name = "Melwas"
+    dynasty = 105939
+    religion = "catholic"
+    culture = "welsh"
+    470.1.1 = {
+        birth = yes
+    }
+    520.1.1 = {
+        death = yes
+    }
+}
+252295 = {
+    name = "Mardog"
+    dynasty = 105939
+    religion = "catholic"
+    culture = "welsh"
+    father = 252294
+    488.1.1 = {
+        birth = yes
+    }
+    550.1.1 = {
+        death = yes
+    }
+}
+252296 = {
+    name = "Ffelig"
+    dynasty = 105940
+    religion = "catholic"
+    culture = "welsh"
+    440.1.1 = {
+        birth = yes
+    }
+    520.1.1 = {
+        death = yes
+    }
+}
+252297 = {
+    name = "Meliodas"
+    dynasty = 105940
+    religion = "catholic"
+    culture = "welsh"
+    father = 252296
+    460.1.1 = {
+        birth = yes
+    }
+    482.1.1 = {
+        add_spouse = 252293
+    }
+    535.1.1 = {
+        death = yes
+    }
+}
+252298 = {
+    name = "Tristram"
+    dynasty = 105940
+    religion = "catholic"
+    culture = "welsh"
+    father = 252297
+    mother = 252293
+    484.1.1 = {
+        birth = yes
+    }
+    550.1.1 = {
+        death = yes
+    }
+}
+252299 = {
+    name = "Tristram"
+    dynasty = 105940
+    religion = "catholic"
+    culture = "welsh"
+    father = 252298
+    505.1.1 = {
+        birth = yes
+    }
+    570.1.1 = {
+        death = yes
+    }
+}
+252300 = {
+    name = "Fuddugwr"
+    dynasty = 1029129
+    religion = "catholic"
+    culture = "welsh"
+    father = 159807
+    mother = 159430
+    360.1.1 = {
+        birth = yes
+    }
+    388.8.30 = {
+        death = yes
+    }
+}
+252301 = {
+    name = "Custennin"
+    dynasty = 1029129
+    religion = "catholic"
+    culture = "welsh"
+    father = 159812
+    379.1.1 = {
+        birth = yes
+    }
+    411.8.18 = {
+        death = yes
+    }
+}
+252302 = {
+    name = "Ieliyn"
+    dynasty = 1029129
+    religion = "catholic"
+    culture = "welsh"
+    father = 159812
+    382.1.1 = {
+        birth = yes
+    }
+    418.1.1 = {
+        death = yes
+    }
+}
+252303 = {
+    name = "Emrys"
+    dynasty = 105941
+    religion = "catholic"
+    culture = "welsh"
+    father = 159812
+    384.1.1 = {
+        birth = yes
+    }
+    446.1.1 = {
+        death = yes
+    }
+}
+252304 = {
+    name = "Emrys"
+    dynasty = 105941
+    religion = "catholic"
+    culture = "welsh"
+    father = 252303
+    415.1.1 = {
+        birth = yes
+    }
+    482.1.1 = {
+        death = yes
+    }
+}
+252305 = {
+    name = "Arthur"
+    dynasty = 105942
+    religion = "catholic"
+    culture = "welsh"
+    father = 252303
+    mother = 252287
+    480.1.1 = {
+        birth = yes
+    }
+    500.1.1 = {
+        add_spouse = 252312
+    }
+    537.1.1 = {
+        death = yes
+    }
+}
+252306 = {
+    name = "Madog"
+    dynasty = 105942
+    religion = "catholic"
+    culture = "welsh"
+    father = 252303
+    462.1.1 = {
+        birth = yes
+    }
+    498.1.1 = {
+        death = yes
+    }
+}
+252307 = {
+    name = "Eliwlod"
+    dynasty = 105942
+    religion = "catholic"
+    culture = "welsh"
+    father = 252306
+    484.1.1 = {
+        birth = yes
+    }
+    540.1.1 = {
+        death = yes
+    }
+}
+252308 = {
+    name = "Iaen"
+    dynasty = 105943
+    religion = "catholic"
+    culture = "welsh"
+    445.1.1 = {
+        birth = yes
+    }
+    505.1.1 = {
+        death = yes
+    }
+}
+252309 = {
+    name = "Eleirch"
+    female = yes
+    dynasty = 105943
+    religion = "catholic"
+    culture = "welsh"
+    father = 252308
+    472.1.1 = {
+        birth = yes
+    }
+    526.1.1 = {
+        death = yes
+    }
+}
+252310 = {
+    name = "Cydfan"
+    dynasty = 105942
+    religion = "catholic"
+    culture = "welsh"
+    father = 252305
+    mother = 252309
+    trait = bastard
+    505.1.1 = {
+        birth = yes
+    }
+    530.1.1 = {
+        death = yes
+    }
+}
+252311 = {
+    name = "Gogyrfan"
+    dynasty = 105944
+    religion = "catholic"
+    culture = "welsh"
+    440.1.1 = {
+        birth = yes
+    }
+    510.1.1 = {
+        death = yes
+    }
+}
+252312 = {
+    name = "Gwenhwyfar"
+    female = yes
+    dynasty = 105944
+    religion = "catholic"
+    culture = "welsh"
+    father = 252311
+    484.1.1 = {
+        birth = yes
+    }
+    539.1.1 = {
+        death = yes
+    }
+}
+252313 = {
+    name = "Gwenhwyfach"
+    female = yes
+    dynasty = 105944
+    religion = "catholic"
+    culture = "welsh"
+    father = 252311
+    486.1.1 = {
+        birth = yes
+    }
+    542.1.1 = {
+        death = yes
+    }
+}
+252314 = {
+    name = "Amr"
+    dynasty = 105942
+    religion = "catholic"
+    culture = "welsh"
+    father = 252305
+    mother = 252312
+    501.1.1 = {
+        birth = yes
+    }
+    528.1.1 = {
+        death = yes
+    }
+}
+252315 = {
+    name = "Gwydre"
+    dynasty = 105942
+    religion = "catholic"
+    culture = "welsh"
+    father = 252305
+    mother = 252312
+    503.1.1 = {
+        birth = yes
+    }
+    531.1.1 = {
+        death = yes
+    }
+}
+252316 = {
+    name = "Llacheu"
+    dynasty = 105942
+    religion = "catholic"
+    culture = "welsh"
+    father = 252305
+    mother = 252312
+    504.1.1 = {
+        birth = yes
+    }
+    535.1.1 = {
+        death = yes
+    }
+}
+252317 = {
+    name = "Duran"
+    dynasty = 105942
+    religion = "catholic"
+    culture = "welsh"
+    father = 252305
+    mother = 252312
+    506.1.1 = {
+        birth = yes
+    }
+    537.1.1 = {
+        death = yes
+    }
+}
+252318 = {
+    name = "Arthfael"
+    dynasty = 105941
+    religion = "catholic"
+    culture = "welsh"
+    father = 252304
+    440.1.1 = {
+        birth = yes
+    }
+    510.1.1 = {
+        death = yes
+    }
+}
+252319 = {
+    name = "Emyr"
+    dynasty = 105941
+    religion = "catholic"
+    culture = "welsh"
+    father = 252318
+    465.1.1 = {
+        birth = yes
+    }
+    530.1.1 = {
+        death = yes
+    }
+}
+252320 = {
+    name = "Cynan"
+    dynasty = 105941
+    religion = "catholic"
+    culture = "welsh"
+    father = 252319
+    485.1.1 = {
+        birth = yes
+    }
+    550.1.1 = {
+        death = yes
+    }
+}
+252321 = {
+    name = "Caradog"
+    dynasty = 105941
+    religion = "catholic"
+    culture = "welsh"
+    father = 252320
+    502.1.1 = {
+        birth = yes
+    }
+    565.1.1 = {
+        death = yes
+    }
+}
+252322 = {
+    name = "Cynfael"
+    dynasty = 105941
+    religion = "catholic"
+    culture = "welsh"
+    father = 252321
+    530.1.1 = {
+        birth = yes
+    }
+    577.1.1 = {
+        death = yes
+    }
+}
+252323 = {
+    name = "Ffernfael"
+    dynasty = 105941
+    religion = "catholic"
+    culture = "welsh"
+    father = 252321
+    533.1.1 = {
+        birth = yes
+    }
+    577.1.1 = {
+        death = yes
+    }
+}
+252324 = {
+    name = "Cyndyddan"
+    dynasty = 105941
+    religion = "catholic"
+    culture = "welsh"
+    father = 252321
+    535.1.1 = {
+        birth = yes
+    }
+    577.1.1 = {
+        death = yes
+    }
+}
+252347 = {
+    name = "Seiriol"
+    dynasty = 14284
+    religion = "catholic"
+    culture = "welsh"
+    father = 160038
+    494.1.1 = {
+        birth = yes
+    }
+    545.1.1 = {
+        death = yes
+        give_nickname = nick_the_saint
+    }
+}
+252348 = {
+    name = "Meirion"
+    dynasty = 14284
+    religion = "catholic"
+    culture = "welsh"
+    father = 160038
+    496.1.1 = {
+        birth = yes
+    }
+    548.1.1 = {
+        death = yes
+        give_nickname = nick_the_saint
+    }
+}
+252349 = {
+    name = "Maig"
+    dynasty = 14284
+    religion = "catholic"
+    culture = "welsh"
+    father = 160039
+    500.1.1 = {
+        birth = yes
+    }
+    575.1.1 = {
+        death = yes
+    }
+}
+252350 = {
+    name = "Cyngen"
+    dynasty = 14284
+    religion = "catholic"
+    culture = "welsh"
+    father = 252349
+    523.1.1 = {
+        birth = yes
+    }
+    592.1.1 = {
+        death = yes
+    }
+}
+252351 = {
+    name = "Clydog"
+    dynasty = 101919
+    religion = "catholic"
+    culture = "welsh"
+    father = 81824
+    878.1.1 = {
+        birth = yes
+    }
+    920.1.1 = {
+        death = yes
+    }
+}
+252352 = {
+    name = "Llywelyn"
+    dynasty = 101920
+    religion = "catholic"
+    culture = "welsh"
+    father = 159805
+    875.1.1 = {
+        birth = yes
+    }
+    942.1.1 = {
+        death = yes
+    }
+}
+252353 = {
+    name = "Pasgen"
+    dynasty = 1029003
+    religion = "catholic"
+    culture = "welsh"
+    father = 159056
+    mother = 159810
+    378.1.1 = {
+        birth = yes
+    }
+    430.1.1 = {
+        dynasty = 105946
+    }
+    440.1.1 = {
+        death = yes
+    }
+}
+252354 = {
+    name = "Braigad"
+    dynasty = 1029003
+    religion = "catholic"
+    culture = "welsh"
+    father = 252353
+    410.1.1 = {
+        birth = yes
+    }
+    430.1.1 = {
+        dynasty = 105946
+    }
+    475.1.1 = {
+        death = yes
+    }
+}
+252355 = {
+    name = "Morgan"
+    dynasty = 1029003
+    religion = "catholic"
+    culture = "welsh"
+    father = 252353
+    415.1.1 = {
+        birth = yes
+    }
+    430.1.1 = {
+        dynasty = 105946
+    }
+    455.1.1 = {
+        death = yes
+    }
+}
+252356 = {
+    name = "Idnerth"
+    dynasty = 105946
+    religion = "catholic"
+    culture = "welsh"
+    father = 252354
+    440.1.1 = {
+        birth = yes
+    }
+    510.1.1 = {
+        death = yes
+    }
+}
+252357 = {
+    name = "Meurig"
+    dynasty = 105946
+    religion = "catholic"
+    culture = "welsh"
+    father = 252356
+    470.1.1 = {
+        birth = yes
+    }
+    545.1.1 = {
+        death = yes
+    }
+}
+252358 = {
+    name = "Pawl"
+    dynasty = 105946
+    religion = "catholic"
+    culture = "welsh"
+    father = 252357
+    505.1.1 = {
+        birth = yes
+    }
+    580.1.1 = {
+        death = yes
+    }
+}
+252359 = {
+    name = "Eldoc"
+    dynasty = 105946
+    religion = "catholic"
+    culture = "welsh"
+    father = 252358
+    530.1.1 = {
+        birth = yes
+    }
+    575.1.1 = {
+        death = yes
+    }
+}
+252360 = {
+    name = "Elaed"
+    dynasty = 105946
+    religion = "catholic"
+    culture = "welsh"
+    father = 252359
+    560.1.1 = {
+        birth = yes
+    }
+    615.1.1 = {
+        death = yes
+    }
+}
+252361 = {
+    name = "Morwd"
+    dynasty = 105946
+    religion = "catholic"
+    culture = "welsh"
+    father = 252360
+    590.1.1 = {
+        birth = yes
+    }
+    650.1.1 = {
+        death = yes
+    }
+}
+252362 = {
+    name = "Gwyddgan"
+    dynasty = 105946
+    religion = "catholic"
+    culture = "welsh"
+    father = 252361
+    620.1.1 = {
+        birth = yes
+    }
+    685.1.1 = {
+        death = yes
+    }
+}
+252363 = {
+    name = "Pasgen"
+    dynasty = 105946
+    religion = "catholic"
+    culture = "welsh"
+    father = 252362
+    650.1.1 = {
+        birth = yes
+    }
+    715.1.1 = {
+        death = yes
+    }
+}
+252364 = {
+    name = "Tedwr"
+    dynasty = 105946
+    religion = "catholic"
+    culture = "welsh"
+    father = 252363
+    685.1.1 = {
+        birth = yes
+    }
+    745.1.1 = {
+        death = yes
+    }
+}
+252365 = {
+    name = "Glowd"
+    dynasty = 105946
+    religion = "catholic"
+    culture = "welsh"
+    father = 252363
+    710.1.1 = {
+        birth = yes
+    }
+    770.1.1 = {
+        death = yes
+    }
+}
+252366 = {
+    name = "Braustudd"
+    female = yes
+    dynasty = 105946
+    religion = "catholic"
+    culture = "welsh"
+    father = 252365
+    756.1.1 = {
+        birth = yes
+    }
+    805.1.1 = {
+        death = yes
+    }
+}
+252367 = {
+    name = "Ffernfael"
+    dynasty = 105946
+    religion = "catholic"
+    culture = "welsh"
+    father = 252364
+    740.1.1 = {
+        birth = yes
+    }
+    795.1.1 = {
+        death = yes
+    }
+}
+252368 = {
+    name = "Angharad"
+    female = yes
+    dynasty = 101920
+    religion = "catholic"
+    culture = "welsh"
+    father = 214710
+    trait = "bastard"
+    1150.1.1 = {
+        birth = yes
+    }
+    1195.1.1 = {
+        death = yes
+    }
+}
+252369 = {
+    name = "Rein"
+    dynasty = 1029032
+    religion = "catholic"
+    culture = "welsh"
+    father = 159323
+    mother = 159932
+    440.1.1 = {
+        birth = yes
+    }
+    500.1.1 = {
+        death = yes
+    }
+}
+252370 = {
+    name = "Naufedd"
+    dynasty = 1029030
+    religion = "catholic"
+    culture = "welsh"
+    father = 159347
+    703.1.1 = {
+        birth = yes
+    }
+    785.1.1 = {
+        death = yes
+        give_nickname = nick_the_old
+    }
+}
+252371 = {
+    name = "Elisedd"
+    dynasty = 1029030
+    religion = "catholic"
+    culture = "welsh"
+    father = 159347
+    705.1.1 = {
+        birth = yes
+    }
+    770.1.1 = {
+        death = yes
+    }
+}
+252372 = {
+    name = "Tewdwr"
+    dynasty = 200068
+    religion = "catholic"
+    culture = "welsh"
+    father = 159366
+    848.1.1 = {
+        birth = yes
+        add_claim = c_gwent
+    }
+    910.1.1 = {
+        death = yes
+    }
+}
+252373 = {
+    name = "Rhiwallon"
+    dynasty = 1042817
+    religion = "catholic"
+    culture = "welsh"
+    father = 159312
+    mother = 159374
+    1036.1.1 = {
+        birth = yes
+    }
+    1075.1.1 = {
+        death = yes
+    }
+}
+252374 = {
+    name = "Madog"
+    dynasty = 1042817
+    religion = "catholic"
+    culture = "welsh"
+    father = 252373
+    1052.1.1 = {
+        birth = yes
+    }
+    1080.1.1 = {
+        death = yes
+    }
+}
+252375 = {
+    name = "Einion"
+    dynasty = 1042817
+    religion = "catholic"
+    culture = "welsh"
+    father = 252374
+    1069.1.1 = {
+        birth = yes
+    }
+    1088.1.1 = {
+        death = yes
+    }
+}
+252376 = {
+    name = "Trahaearn"
+    dynasty = 1042817
+    religion = "catholic"
+    culture = "welsh"
+    father = 252375
+    1085.1.1 = {
+        birth = yes
+    }
+    1115.1.1 = {
+        death = yes
+    }
+}
+252382 = {
+    name = "Arthfael"
+    religion = "catholic"
+    culture = "welsh"
+    dynasty = 1029001
+    father = 159428
+    270.1.1 = {
+        birth = yes
+    }
+    340.1.1 = {
+        death = yes
+    }
+}
+252383 = {
+    name = "Gwrgant"
+    religion = "catholic"
+    culture = "welsh"
+    dynasty = 1029001
+    father = 252382
+    310.1.1 = {
+        birth = yes
+    }
+    380.1.1 = {
+        death = yes
+    }
+}
+252384 = {
+    name = "Meirchion"
+    religion = "catholic"
+    culture = "welsh"
+    dynasty = 1029001
+    father = 252382
+    310.1.1 = {
+        birth = yes
+    }
+    380.1.1 = {
+        death = yes
+    }
+}
+252385 = {
+    name = "Iddon"
+    dynasty = 1029129
+    religion = "catholic"
+    culture = "welsh"
+    father = 159822
+    mother = 159837
+    471.1.1 = {
+        birth = yes
+    }
+    490.1.1 = {
+        death = yes
+    }
+}
+252386 = {
+    name = "Brochfael"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 159115
+    710.1.1 = {
+        birth = yes
+    }
+    755.1.1 = {
+        death = yes
+    }
+}
+252387 = {
+    name = "Ffernfael"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 159115
+    712.1.1 = {
+        birth = yes
+    }
+    774.1.1 = {
+        death = yes
+    }
+}
+252388 = {
+    name = "Athrwys"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 252387
+    732.1.1 = {
+        birth = yes
+    }
+    810.1.1 = {
+        death = yes
+    }
+}
+252389 = {
+    name = "Gwrgant"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 252388
+    750.1.1 = {
+        birth = yes
+    }
+    800.1.1 = {
+        death = yes
+    }
+}
+252390 = {
+    name = "Idwallon"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 252389
+    775.1.1 = {
+        birth = yes
+    }
+    842.1.1 = {
+        death = yes
+    }
+}
+252391 = {
+    name = "Hywel"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 252388
+    760.1.1 = {
+        birth = yes
+    }
+    808.1.1 = {
+        death = yes
+    }
+}
+252392 = {
+    name = "Ithel"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 252391
+    782.1.1 = {
+        birth = yes
+    }
+    848.1.1 = {
+        death = yes
+    }
+}
+252393 = {
+    name = "Meurig"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 252391
+    785.1.1 = {
+        birth = yes
+    }
+    849.1.1 = {
+        death = yes
+    }
+}
+252394 = {
+    name = "Cadell"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 160255
+    880.1.1 = {
+        birth = yes
+    }
+    942.1.1 = {
+        death = yes
+    }
+}
+252395 = {
+    name = "Rhodri"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 159111
+    787.1.1 = {
+        birth = yes
+    }
+    836.1.1 = {
+        death = yes
+    }
+}
+252396 = {
+    name = "Brochfael"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 252395
+    830.1.1 = {
+        birth = yes
+    }
+    891.1.1 = {
+        death = yes
+    }
+}
+252397 = {
+    name = "Gwriad"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 252396
+    870.1.1 = {
+        birth = yes
+    }
+    945.1.1 = {
+        death = yes
+    }
+}
+252398 = {
+    name = "Nowy"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 252397
+    900.1.1 = {
+        birth = yes
+    }
+    970.1.1 = {
+        death = yes
+    }
+}
+252399 = {
+    name = "Arthfael"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 252398
+    920.1.1 = {
+        birth = yes
+    }
+    983.1.1 = {
+        death = yes
+    }
+}
+252400 = {
+    name = "Elisedd"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 252397
+    903.1.1 = {
+        birth = yes
+    }
+    968.1.1 = {
+        death = yes
+    }
+}
+252401 = {
+    name = "Rhodri"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 252400
+    940.1.1 = {
+        birth = yes
+    }
+    1000.1.1 = {
+        death = yes
+    }
+}
+252402 = {
+    name = "Gruffydd"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 252400
+    940.1.1 = {
+        birth = yes
+    }
+    1015.1.1 = {
+        death = yes
+    }
+}
+252403 = {
+    name = "Arthfael"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 252397
+    910.1.1 = {
+        birth = yes
+    }
+    972.1.1 = {
+        death = yes
+    }
+}
+252404 = {
+    name = "Gwriad"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 252403
+    940.1.1 = {
+        birth = yes
+    }
+    1003.1.1 = {
+        death = yes
+    }
+}
+252405 = {
+    name = "Edwyn"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 252404
+    970.1.1 = {
+        birth = yes
+    }
+    1045.1.1 = {
+        death = yes
+    }
+}
+252406 = {
+    name = "Gwynllyw"
+    dynasty = 101921
+    religion = "catholic"
+    culture = "welsh"
+    father = 159828
+    470.1.1 = {
+        birth = yes
+    }
+    523.1.1 = {
+        death = yes
+    }
+}
+252407 = {
+    name = "Pawl"
+    dynasty = 101921
+    religion = "catholic"
+    culture = "welsh"
+    father = 159828
+    475.1.1 = {
+        birth = yes
+    }
+    540.1.1 = {
+        death = yes
+    }
+}
+252408 = {
+    name = "Mechwyn"
+    dynasty = 101921
+    religion = "catholic"
+    culture = "welsh"
+    father = 159828
+    477.1.1 = {
+        birth = yes
+    }
+    500.1.1 = {
+        death = yes
+    }
+}
+252409 = {
+    name = "Edelig"
+    dynasty = 101921
+    religion = "catholic"
+    culture = "welsh"
+    father = 159828
+    480.1.1 = {
+        birth = yes
+    }
+    510.1.1 = {
+        death = yes
+    }
+}
+252410 = {
+    name = "Cadog"
+    dynasty = 101921
+    religion = "catholic"
+    culture = "welsh"
+    father = 252406
+    497.1.1 = {
+        birth = yes
+    }
+    580.9.21 = {
+        death = yes
+    }
+}
+252411 = {
+    name = "Maches"
+    female = yes
+    dynasty = 101921
+    religion = "catholic"
+    culture = "welsh"
+    father = 252406
+    500.1.1 = {
+        birth = yes
+    }
+    520.1.1 = {
+        death = yes
+    }
+}
+252412 = {
+    name = "Idwallon"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 159107
+    952.1.1 = {
+        birth = yes
+    }
+    986.1.1 = {
+        death = yes
+    }
+}
+252413 = {
+    name = "Hywel"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 159107
+    954.1.1 = {
+        birth = yes
+    }
+    988.1.1 = {
+        death = yes
+    }
+}
+252414 = {
+    name = "Cadell"
+    dynasty = 547
+    religion = "catholic"
+    culture = "welsh"
+    father = 159107
+    956.1.1 = {
+        birth = yes
+    }
+    990.1.1 = {
         death = yes
     }
 }

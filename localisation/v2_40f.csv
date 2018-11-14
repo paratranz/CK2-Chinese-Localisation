@@ -26,8 +26,6 @@ EVTOPTA_HL_6022;我，现在也，后悔我的决定。;;;;;;;;;;;;x
 EVTDESC_HL_6030;你手下的一个近卫军战士请求你能帮助他。他说他家里的母马有不少染病而亡，导致他们现在都快喂不饱孩子了。;;;;;;;;;;;;x
 EVTOPTA_HL_6030;你可以从我的私人马群里带走六匹母马。;;;;;;;;;;;;x
 EVTOPTB_HL_6030;真是不幸，但是我不能帮助你。;;;;;;;;;;;;x
-feudal_government_desc;封建制度围绕着领主和封臣之间的誓言，一名封建领主能直接持有的地产就那么多，之后他们就要依靠封臣——他们的忠诚则并不能保证……这种政体提供好几种继承法——各有各的好处。集权法则控制着你直辖领的最大数量和你可拥有的直属封臣的数量。如果你转变为穆斯林宗教组，那么你的政体将会自动变成伊克塔。;;;;;;;;;;;;x
-muslim_government_desc;阿拉伯伊克塔系统和封建系统十分相似——统治者必须依赖有不同忠诚度和不同野心的持有土地的封臣。你封臣的最大数量和你可直接管辖的地产数量是由集权法律所控制的。不过，只有一种继承法可供选择——一种十分混乱的「开放」制度，由控制最多土地的儿子继承。如果你转教成为非穆斯林组，那么你的政府制度将会自动变成封建。;;;;;;;;;;;;x
 opinion_nomad_wargames_participant;参加演习;;;;;;;;;;;;x
 hold_nomad_wargames;举办演习;;;;;;;;;;;;x
 hold_nomad_wargames_desc;我可以邀请我国内的勇士们来比赛他们的军事技能——马术，箭术，武艺和剑术。胜者将会获得黄金和威望。;;;;;;;;;;;;x
@@ -88,7 +86,6 @@ HORDE_RETTYPE_CAV6;重装先锋;;;;;;;;;;;;x
 HORDE_RETTYPE_CAV7;弓骑兵;;;;;;;;;;;;x
 HORDE_RETTYPE_EUROPE;枪兵;;;;;;;;;;;;x
 RELIGION_ALLOWS_FEMALE_TEMPLE_HOLDERS;§Y$CHAR$§!的宗教允许女性持有神殿和女性宗教内阁成员;;;;;;;;;;;;x
-RELIGION_NOT_ALLOWS_FEMALE_TEMPLE_HOLDERS;§Y$CHAR$§!的宗教不允许女性持有神殿或者女性宗教内阁成员;;;;;;;;;;;;x
 HAS_LOWER_POPULATION_AND_MANPOWER_THAN;人口和人力少于;;;;;;;;;;;;x
 HAS_HIGHER_POPULATION_AND_MANPOWER_THAN;人口和人力多于;;;;;;;;;;;;x
 HAS_LOWER_POPULATION_AND_MANPOWER_GROWTH_THAN;人口增长率低于;;;;;;;;;;;;x
@@ -99,7 +96,6 @@ POPULATION_EFFECT;$DIRECTION$ $VALUE$ 人口。\n;;;;;;;;;;;;x
 IS_COUNTY_OWNER;是省份持有者;;;;;;;;;;;;x
 TT_NOT_SAME_REALM;不在自己的领地内;;;;;;;;;;;;x
 PROVINCE_DISTANCE;到§Y$PROV$§!的距离：§Y$DIST$§!;;;;;;;;;;;;x
-NOMAD_CONVERSION_TROOP_SPAWN;你的游牧军部队将会被解散，不过你将会转而获得你抛弃游牧领地所相对应的军队。\n;;;;;;;;;;;;x
 opinion_killed_horse;杀了我的马;;;;;;;;;;;;x
 EVTDESC_HL_6512_LIGHTNING;我正要离开，将雷霆留在饮水处，[From.GetFirstName]的马就冲了过来咬了[Root.GetHerHim]！;;;;;;;;;;;;x
 EVTDESC_HL_6512_ARROW;我正要离开，将利箭留在饮水处，[From.GetFirstName]的马就冲了过来咬了[Root.GetHerHim]！;;;;;;;;;;;;x
@@ -129,6 +125,4 @@ abandon_trade_post;放弃贸易站;;;;;;;;;;;;x
 TRADEPOST_FINISHED_NON_REPUBLIC_LOG;§Y$CHARACTER$§!在§Y$PROVINCE$§!修建了一个贸易站。;;;;;;;;;;;;x
 TRADEPOST_FINISHED_NON_REPUBLIC_SETUP;贸易路线上的贸易站建成;;;;;;;;;;;;x
 abandon_trade_post_desc;你可以放弃这个省份的贸易站，以便换一个更好的地方。;;;;;;;;;;;;x
-ACTIVE_TRADE_ROUTE_MODIFIER;\n丝绸之路提供以下效果：\n$MODIFIER$\n\n在丝绸之路省份上建造贸易站能增强丝绸之路对所有省份的修正。如果一些丝绸之路省份被阻塞（被围攻或占据），其他丝绸之路省份会因贸易流方向改变而临时获得更高的收益。;;;;;;;;;;;;x
-INACTIVE_TRADE_ROUTE_MODIFIER;\n如果生效，丝绸之路会产生以下效果：\n$MODIFIER$\n\n在丝绸之路省份上建造贸易站能增强丝绸之路对所有省份的修正。如果一些丝绸之路省份被阻塞（被围攻或占据），其他丝绸之路省份会因贸易流方向改变而临时获得更高的收益。;;;;;;;;;;;;x
 MAPMODE_TRADE_ZONES_DESC;所有贸易区，将会按照他们的拥有者分开标记。在丝绸之路上的省份如果一切正常将会被黄色条块覆盖，如果因为占领或者围攻被阻塞了，将会被红色条块覆盖。;;;;;;;;;;;;x

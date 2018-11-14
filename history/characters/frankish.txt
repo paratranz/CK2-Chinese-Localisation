@@ -2864,6 +2864,13 @@
     }
     1108.7.29 = {
         give_nickname = nick_the_fat
+        effect = {
+            set_variable = {
+                which = physique_variable
+                value = 15
+            }
+        }
+        trait = is_fat
     }
     1115.3.28 = {
         add_spouse = 213118
@@ -2957,6 +2964,10 @@
     }
     1190.6.24 = {
         trait = "crusader"
+        create_bloodline = {
+            type = philippe_capet
+            has_dlc = "Holy Fury"
+        }
     }
     1191.4.21 = {
         trait = "ill"
@@ -5658,7 +5669,7 @@
     }
 }
 206509 = {
-    name = "玛格丽特塔"  # Margueritetha
+    name = "马加杜塔"  # Margaretha
     female = yes
     dynasty = 295
     martial = 5
@@ -12988,6 +12999,7 @@
     culture = "frankish"
     trait = "diligent"
     trait = "thrifty_clerk"
+    trait = "lunatic"
     father = 418
     mother = 40409
     1060.1.2 = {
@@ -27540,7 +27552,7 @@
     }
 }
 94012 = {
-    name = "玛格丽特塔"  # Margueritetha
+    name = "玛格莉塔"  # Margaretha
     female = yes
     dynasty = 742
     religion = "catholic"
@@ -27553,7 +27565,7 @@
     }
 }
 94024 = {
-    name = "玛格丽特塔"  # Margueritetha
+    name = "玛格丽特塔"  # Margaretha
     female = yes
     dynasty = 724
     religion = "catholic"
@@ -30720,7 +30732,7 @@
 }
 40028 = {
     name = "拉乌尔"  # Raoul
-    dynasty = 5097
+    dynasty = 79
     religion = "catholic"
     culture = "frankish"
     father = 40026

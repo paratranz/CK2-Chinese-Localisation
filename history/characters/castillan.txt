@@ -351,6 +351,10 @@
     mother = 107601
     1043.1.1 = {
         birth = "1043.1.1"
+        create_bloodline = {
+            type = el_cid
+            has_dlc = "Holy Fury"
+        }
     }
     1066.1.1 = {
         employer = 107500
@@ -1387,6 +1391,10 @@
     }
     1126.3.8 = {
         capital = c_toledo
+        create_bloodline = {
+            type = alfonso_spain
+            has_dlc = "Holy Fury"
+        }
     }
     1133.1.1 = {
         add_spouse = 210511
@@ -10295,6 +10303,13 @@
     }
     1275.5.1 = {
         give_nickname = nick_the_fat
+        effect = {
+            set_variable = {
+                which = physique_variable
+                value = 15
+            }
+        }
+        trait = is_fat
     }
     1294.4.1 = {
         death = yes

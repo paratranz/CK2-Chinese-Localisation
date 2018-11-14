@@ -4283,13 +4283,13 @@
     father = 453512
     mother = 203543
     1278.1.2 = {
-        birth = "1278.1.2"
+        birth = yes
     }
     1298.1.2 = {
         add_spouse = 453516
     }
-    1318.1.2 = {
-        death = "1318.1.2"
+    1318.10.14 = {
+        death = yes
     }
 }
 453516 = {
@@ -7963,19 +7963,23 @@
     intrigue = 5
     stewardship = 8
     religion = "catholic"
-    culture = "scottish"
+    culture = "irish"
     trait = "arbitrary"
     trait = "amateurish_plotter"
+    trait = "inspiring_leader"
     father = 6020
     mother = 166609
     810.1.2 = {
-        birth = "810.1.2"
+        birth = yes
     }
     826.1.1 = {
         add_spouse = 166610
     }
+    848.1.1 = {
+        culture = "scottish"
+    }
     858.1.2 = {
-        death = "858.1.2"
+        death = yes
     }
 }
 6020 = {
@@ -8614,6 +8618,10 @@
     trait = diligent
     1271.1.1 = {
         birth = yes
+        create_bloodline = {
+            type = william_wallace
+            has_dlc = "Holy Fury"
+        }
     }
     1305.8.23 = {
         death = yes

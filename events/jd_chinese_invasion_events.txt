@@ -2945,7 +2945,7 @@ character_event = {
             log = "The amount of gold being sent is {Root.WP_nomad_gold_from_china.GetValue}, the cap of what can be sent is 2500 so the amount has been set to 2500"
             set_variable = {
                 which = "WP_nomad_gold_from_china"
-                which = 2500
+                value = 2500
             }
         }
         log = "China has sent {Root.WP_nomad_gold_from_china.GetValue} gold to aid with building holdings."
@@ -5502,6 +5502,7 @@ character_event = {
                 culture_group = tibetan_group
                 OR = {
                     religion = bon
+                    religion = bon_reformed
                     religion = buddhist
                 }
                 higher_tier_than = BARON

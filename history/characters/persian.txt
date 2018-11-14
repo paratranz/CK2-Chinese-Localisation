@@ -107,8 +107,8 @@
     name = "哈桑"  # Hassan
     religion = "shiite"
     culture = "persian"
-    1090.1.1 = {
-        birth = "1090.1.1"
+    1050.1.1 = {
+        birth = "1050.1.1"
     }
     1124.1.1 = {
         death = "1124.1.1"
@@ -323,6 +323,7 @@
     trait = "administrator"
     trait = "poet"
     trait = "temperate"
+    trait = sympathy_zoroastrianism
     1021.1.1 = {
         birth = "1021.1.1"
     }
@@ -846,26 +847,6 @@
         death = "1335.1.1"
     }
 }
-45105 = {
-    name = "罗斯塔姆"  # Rostam
-    dynasty = 7331
-    martial = 5
-    diplomacy = 6
-    intrigue = 6
-    stewardship = 6
-    religion = "zoroastrian"
-    culture = "persian"
-    trait = diligent
-    trait = just
-    trait = "skilled_tactician"
-    father = 160294
-    845.1.1 = {
-        birth = "845.1.1"
-    }
-    896.1.1 = {
-        death = "896.1.1"
-    }
-}
 45106 = {
     name = "法拉兹"  # Faraz
     dynasty = 7510
@@ -1345,28 +1326,33 @@
     }
 }
 93132 = {
-    name = "什安撒巴尼"  # Shansabani
-    dynasty = 791
-    religion = "sunni"
+    name = "Suri"
+    dynasty = 1059986
+    religion = buddhist
     culture = "persian"
-    930.1.1 = {
-        birth = "930.1.1"
+    trait = mahayana_buddhist
+    trait = sympathy_islam
+    father = 248620
+    920.1.1 = {
+        birth = yes
     }
     980.1.1 = {
-        death = "980.1.1"
+        death = yes
     }
 }
 93133 = {
     name = "穆罕默德"  # Muhammad
-    dynasty = 791
-    religion = "sunni"
+    dynasty = 1059986
+    religion = buddhist
     culture = "persian"
+    trait = mahayana_buddhist
+    trait = sympathy_islam
     father = 93132
     960.1.1 = {
-        birth = "960.1.1"
+        birth = yes
     }
     1011.1.1 = {
-        death = "1011.1.1"
+        death = yes
     }
 }
 93134 = {
@@ -2109,137 +2095,6 @@
     }
     1360.1.1 = {
         death = "1360.1.1"
-    }
-}
-93258 = {
-    name = "巴拉克 哈吉布"  # Baraq Hajib
-    dynasty = 7337
-    religion = "sunni"
-    culture = "persian"
-    1180.1.1 = {
-        birth = "1180.1.1"
-    }
-    1235.1.1 = {
-        death = "1235.1.1"
-    }
-}
-93259 = {
-    name = "库特布丁·穆罕默德"  # Qutb ad-Din Muhammad
-    dynasty = 7337
-    religion = "sunni"
-    culture = "persian"
-    father = 93258
-    1200.1.1 = {
-        birth = "1200.1.1"
-    }
-    1257.1.1 = {
-        death = "1257.1.1"
-    }
-}
-93260 = {
-    name = "鲁库 丁 侯亚 哈克"  # Rukh ad-Din Hoja al-Hakk
-    dynasty = 7337
-    religion = "sunni"
-    culture = "persian"
-    father = 93258
-    1201.1.1 = {
-        birth = "1201.1.1"
-    }
-    1252.1.1 = {
-        death = "1252.1.1"
-    }
-}
-93261 = {
-    name = "穆扎法尔 丁"  # Muzzafar ad-Din
-    dynasty = 7337
-    religion = "sunni"
-    culture = "persian"
-    father = 93259
-    1220.1.1 = {
-        birth = "1220.1.1"
-    }
-    1279.1.1 = {
-        death = "1279.1.1"
-    }
-}
-93262 = {
-    name = "图坎 哈图恩"  # Turkan Hatun
-    female = yes
-    dynasty = 7337
-    religion = "sunni"
-    culture = "persian"
-    father = 93261
-    1240.1.1 = {
-        birth = "1240.1.1"
-    }
-    1282.1.1 = {
-        death = "1282.1.1"
-    }
-}
-93263 = {
-    name = "贾拉尔 丁 阿比-穆扎法尔"  # Djalal ad-Din Abu'l-Muzzafar
-    dynasty = 7337
-    religion = "sunni"
-    culture = "persian"
-    father = 93261
-    1266.1.1 = {
-        birth = "1266.1.1"
-    }
-    1292.1.1 = {
-        death = "1292.1.1"
-    }
-}
-93264 = {
-    name = "撒富瓦特 丁 帕迪沙 哈图恩"  # Safvat ad-Din Padishah Hatun
-    female = yes
-    dynasty = 7337
-    religion = "sunni"
-    culture = "persian"
-    father = 93261
-    1252.1.1 = {
-        birth = "1252.1.1"
-    }
-    1295.1.1 = {
-        death = "1295.1.1"
-    }
-}
-93265 = {
-    name = "玉鲁克 沙赫"  # Yuluq Shah
-    dynasty = 7337
-    religion = "sunni"
-    culture = "persian"
-    father = 93263
-    1282.1.1 = {
-        birth = "1282.1.1"
-    }
-    1296.1.1 = {
-        death = "1296.1.1"
-    }
-}
-93266 = {
-    name = "穆扎法尔 丁"  # Muzzafar ad-Din
-    dynasty = 7337
-    religion = "sunni"
-    culture = "persian"
-    father = 93263
-    1283.1.1 = {
-        birth = "1283.1.1"
-    }
-    1301.1.1 = {
-        death = "1301.1.1"
-    }
-}
-93267 = {
-    name = "库特布丁"  # Qutb ad-Din
-    dynasty = 7337
-    religion = "sunni"
-    culture = "persian"
-    father = 93263
-    1284.1.1 = {
-        birth = "1284.1.1"
-    }
-    1308.1.1 = {
-        death = "1308.1.1"
     }
 }
 93268 = {
@@ -3017,6 +2872,10 @@
     culture = "persian"
     130.11.1 = {
         birth = "130.11.1"
+        create_bloodline = {
+            type = sassanid
+            has_dlc = "Holy Fury"
+        }
     }
     200.1.1 = {
         death = "200.1.1"
@@ -3752,6 +3611,10 @@
     culture = "persian"
     553.1.1 = {
         birth = "553.1.1"
+        create_bloodline = {
+            type = parthian
+            has_dlc = "Holy Fury"
+        }
     }
     592.1.1 = {
         death = "592.1.1"
@@ -5691,18 +5554,6 @@
         death = yes
     }
 }
-166988 = {
-    name = "迈赫泰卜"  # Mahtab
-    female = yes
-    religion = "sunni"
-    culture = "persian"
-    868.1.1 = {
-        birth = yes
-    }
-    905.1.1 = {
-        death = yes
-    }
-}
 166989 = {
     name = "马尔达维季"  # Mardavij
     dynasty = 101689
@@ -6689,7 +6540,6 @@
     religion = "sunni"
     culture = "persian"
     trait = sympathy_pagans
-    father = 248154
     1234.1.1 = {
         birth = yes
     }
@@ -6703,7 +6553,6 @@
     religion = "sunni"
     culture = "persian"
     trait = sympathy_pagans
-    father = 248154
     1260.1.1 = {
         birth = yes
     }
@@ -6841,6 +6690,607 @@
         death = yes
     }
 }
-41702 = {
-    name = "哈桑"  # Hassan
+248554 = {
+    name = "Rustam Dushmanziyar"
+    dynasty = 7331
+    religion = "shiite"
+    culture = "persian"
+    father = 220995
+    trait = ambitious
+    trait = skilled_tactician
+    trait = sympathy_zoroastrianism
+    970.1.1 = {
+        birth = yes
+    }
+    1028.1.1 = {
+        dynasty = 1059994
+    }
+    1041.1.1 = {
+        death = yes
+    }
+}
+248555 = {
+    name = "Faramurz"
+    dynasty = 1059994
+    religion = "shiite"
+    culture = "persian"
+    father = 248554
+    trait = charismatic_negotiator
+    trait = siege_leader
+    1020.1.1 = {
+        birth = yes
+    }
+    1066.1.1 = {
+        add_claim = d_jibal
+        add_claim = c_hamadan
+        add_claim = c_rayy
+        add_claim = c_qom
+        add_claim = c_esfahan
+    }
+    1072.11.1 = {
+        death = yes
+    }
+}
+248556 = {
+    name = "Garshap"
+    dynasty = 1059994
+    religion = "shiite"
+    culture = "persian"
+    father = 248554
+    1022.1.1 = {
+        birth = yes
+    }
+    1052.1.1 = {
+        death = yes
+    }
+}
+248557 = {
+    name = "Ali Faramurz"
+    dynasty = 1059994
+    religion = "shiite"
+    culture = "persian"
+    father = 248555
+    trait = gregarious
+    trait = charitable
+    1042.1.1 = {
+        birth = yes
+    }
+    1095.1.1 = {
+        death = yes
+    }
+}
+248558 = {
+    name = "Garshasp"
+    dynasty = 1059994
+    religion = "shiite"
+    culture = "persian"
+    father = 248557
+    trait = tough_soldier
+    1073.1.1 = {
+        birth = yes
+    }
+    1141.1.1 = {
+        death = yes
+    }
+}
+248559 = {
+    name = "Shirin"
+    female = yes
+    dynasty = 1059994
+    religion = "shiite"
+    culture = "persian"
+    father = 248557
+    1120.1.1 = {
+        birth = yes
+    }
+    1152.1.1 = {
+        death = yes
+    }
+}
+248560 = {
+    name = "Wardanruz"
+    dynasty = 1059993
+    religion = "shiite"
+    culture = "persian"
+    trait = skilled_tactician
+    1080.1.1 = {
+        birth = yes
+    }
+    1101.1.1 = {
+        employer = 248558
+    }
+    1138.1.1 = {
+        death = yes
+    }
+}
+248561 = {
+    name = "Sam Wardanruz"
+    dynasty = 1059993
+    religion = "shiite"
+    culture = "persian"
+    father = 248560
+    1121.1.1 = {
+        birth = yes
+    }
+    1188.1.1 = {
+        employer = 93167
+    }
+    1188.1.1 = {
+        add_claim = c_yazd
+    }
+    1193.1.1 = {
+        death = yes
+    }
+}
+248562 = {
+    name = "Langar Wardanruz"
+    dynasty = 1059993
+    religion = "shiite"
+    culture = "persian"
+    father = 248560
+    trait = ambitious
+    trait = tough_soldier
+    1123.1.1 = {
+        birth = yes
+    }
+    1142.1.1 = {
+        add_spouse = 248559
+    }
+    1207.1.1 = {
+        death = yes 
+    }
+}
+248563 = {
+    name = "Wardanruz Langar"
+    dynasty = 1059993
+    religion = "shiite"
+    culture = "persian"
+    father = 248562
+    mother = 248559
+    1146.1.1 = {
+        birth = yes
+    }
+    1219.1.1 = {
+        death = yes
+    }
+}
+248564 = {
+    name = "Isfahsalar Langar"
+    dynasty = 1059993
+    religion = "shiite"
+    culture = "persian"
+    father = 248562
+    mother = 248559
+    1148.1.1 = {
+        birth = yes
+    }
+    1229.1.1 = {
+        death = yes
+    }
+}
+248566 = {
+    name = "Mahmud Shah Isfansalar"
+    dynasty = 1059993
+    religion = "shiite"
+    culture = "persian"
+    father = 248564
+    1170.1.1 = {
+        birth = yes
+    }
+    1241.1.1 = {
+        death = yes
+    }
+}
+248567 = {
+    name = "Salghur Shah"
+    dynasty = 1059993
+    religion = "shiite"
+    culture = "persian"
+    father = 248566
+    1195.1.1 = {
+        birth = yes
+    }
+    1252.1.1 = {
+        death = yes
+    }
+}
+248568 = {
+    name = "Tolghan Shah"
+    dynasty = 1059993
+    religion = "shiite"
+    culture = "persian"
+    father = 248567
+    1215.1.1 = {
+        birth = yes
+    }
+    1272.1.1 = {
+        death = yes
+    }
+}
+248569 = {
+    name = "Ala al-Dawla"
+    dynasty = 1059993
+    religion = "shiite"
+    culture = "persian"
+    father = 248568
+    1235.1.1 = {
+        birth = yes
+    }
+    1275.1.1 = {
+        death = yes
+    }
+}
+248570 = {
+    name = "Yusuf Shah"
+    dynasty = 1059993
+    religion = "shiite"
+    culture = "persian"
+    father = 248568
+    1235.1.1 = {
+        birth = yes
+    }
+    1293.1.1 = {
+        employer = 93172
+    }
+    1293.1.1 = {
+        add_claim = c_yazd
+    }
+    1297.1.1 = {
+        death = yes
+    }
+}
+248571 = {
+    name = "Hajji Shah"
+    dynasty = 1059993
+    religion = "shiite"
+    culture = "persian"
+    father = 248570
+    1260.1.1 = {
+        birth = yes
+    }
+    1297.1.1 = {
+        add_claim = c_yazd
+    }
+    1300.1.1 = {
+        employer = 93173
+    }
+    1315.1.1 = {
+        death = yes
+    }
+}
+248565 = {
+    name = "Zayn al-Din Gorgani"
+    dynasty = 0
+    religion = "shiite"
+    culture = "persian"
+    trait = temperate
+    trait = sympathy_zoroastrianism
+    trait = sympathy_christendom
+    trait = sympathy_judaism
+    trait = strong
+    trait = grey_eminence
+    trait = physician
+    trait = scholar
+    1041.1.1 = {
+        birth = yes
+    }
+    1066.1.1 = {
+        employer = 20703
+    }
+    1096.1.1 = {
+        employer = 144099
+    }
+    1130.1.1 = {
+        employer = 144015
+    }
+    1136.1.1 = {
+        death = yes
+    }
+}
+248618 = {
+    name = "Shansaban"
+    dynasty = 1059986
+    religion = buddhist
+    culture = "persian"
+    trait = mahayana_buddhist
+    trait = tough_soldier
+    trait = strong
+    750.1.1 = {
+        birth = yes
+    }
+    769.1.1 = {
+        employer = 188570
+    }
+    805.1.1 = {
+        death = yes
+    }
+}
+248619 = {
+    name = "Banji"
+    dynasty = 1059986
+    religion = buddhist
+    culture = "persian"
+    trait = mahayana_buddhist
+    trait = sympathy_islam
+    father = 248618
+    782.1.1 = {
+        birth = yes
+    }
+    866.1.1 = {
+        death = yes
+    }
+}
+248620 = {
+    name = "Amir"
+    dynasty = 1059986
+    religion = buddhist
+    culture = "persian"
+    trait = mahayana_buddhist
+    trait = sympathy_islam
+    trait = sympathy_pagans
+    trait = sympathy_zoroastrianism
+    trait = skilled_tactician
+    trait = strong
+    trait = brave
+    father = 248619
+    850.1.1 = {
+        birth = yes
+    }
+    867.1.1 = {
+        effect = {
+            spawn_unit = {
+                province = 907
+                owner = ROOT
+                troops = {
+                    light_infantry = {
+                        350
+                        350
+                    }
+                    heavy_infantry = {
+                        140
+                        140
+                    }
+                    pikemen = {
+                        40
+                        40
+                    }
+                    archers = {
+                        150
+                        150
+                    }
+                    light_cavalry = {
+                        40
+                        40
+                    }
+                }
+                attrition = 0.5
+            }
+            create_character = {
+                random_traits = yes
+                dynasty = random
+                religion = zoroastrian
+                culture = ROOT
+                female = no
+                age = 23
+                attributes = {
+                    martial = 8
+                }
+                trait = tough_soldier
+            }
+            new_character = {
+                spawn_unit = {
+                    province = 907
+                    owner = ROOT
+                    troops = {
+                        light_infantry = {
+                            350
+                            350
+                        }
+                        heavy_infantry = {
+                            140
+                            140
+                        }
+                        pikemen = {
+                            40
+                            40
+                        }
+                        archers = {
+                            150
+                            150
+                        }
+                        light_cavalry = {
+                            40
+                            40
+                        }
+                    }
+                    attrition = 0.5
+                }
+            }
+            create_character = {
+                random_traits = yes
+                dynasty = random
+                religion = zun_pagan
+                culture = ROOT
+                female = no
+                age = 27
+                attributes = {
+                    martial = 8
+                }
+                trait = tough_soldier
+            }
+            new_character = {
+                spawn_unit = {
+                    province = 907
+                    owner = ROOT
+                    troops = {
+                        light_infantry = {
+                            350
+                            350
+                        }
+                        heavy_infantry = {
+                            140
+                            140
+                        }
+                        pikemen = {
+                            40
+                            40
+                        }
+                        archers = {
+                            150
+                            150
+                        }
+                        light_cavalry = {
+                            40
+                            40
+                        }
+                    }
+                    attrition = 0.5
+                }
+            }
+        }
+    }
+    940.1.1 = {
+        death = yes
+    }
+}
+248690 = {
+    name = "Varud"
+    dynasty = 1059973
+    religion = "zoroastrian"
+    culture = "persian"
+    835.1.1 = {
+        birth = yes
+    }
+    867.1.1 = {
+        death = yes
+    }
+}
+248691 = {
+    name = "Tirdadh"
+    dynasty = 1059973
+    religion = "zoroastrian"
+    culture = "persian"
+    father = 248690
+    trait = cynical
+    trait = proud
+    trait = tough_soldier
+    trait = ambitious
+    trait = sympathy_islam
+    trait = sympathy_pagans
+    trait = sympathy_christendom
+    848.1.1 = {
+        birth = yes
+    }
+    900.1.1 = {
+        death = yes
+    }
+}
+248692 = {
+    name = "Harusindan"
+    dynasty = 1059973
+    religion = "zoroastrian"
+    culture = "persian"
+    father = 248691
+    886.1.1 = {
+        birth = yes
+    }
+    922.1.1 = {
+        death = yes
+    }
+}
+166988 = {
+    name = "迈赫泰卜"  # Mahtab
+    female = yes
+    dynasty = 1059973
+    religion = "sunni"
+    culture = "persian"
+    father = 248691
+    868.1.1 = {
+        birth = yes
+    }
+    905.1.1 = {
+        death = yes
+    }
+}
+248693 = {
+    name = "Siahgil"
+    dynasty = 1059973
+    religion = "zoroastrian"
+    culture = "persian"
+    father = 248692
+    904.1.1 = {
+        birth = yes
+    }
+    967.12.12 = {
+        death = yes
+    }
+}
+248694 = {
+    name = "Lili"
+    dynasty = 1059976
+    religion = "zoroastrian"
+    culture = "persian"
+    trait = brave
+    trait = tough_soldier
+    847.1.1 = {
+        birth = yes
+    }
+    867.1.1 = {
+        religion = shiite
+        trait = sympathy_zoroastrianism
+    }
+    921.1.1 = {
+        death = yes
+    }
+}
+248695 = {
+    name = "Hossein"
+    dynasty = 1059971
+    religion = "shiite"
+    culture = "persian"
+    trait = misguided_warrior
+    trait = zealous
+    846.1.1 = {
+        birth = yes
+    }
+    872.1.1 = {
+        death = yes
+    }
+}
+45105 = {
+    name = "罗斯塔姆"  # Rostam
+    dynasty = 7331
+    martial = 5
+    diplomacy = 6
+    intrigue = 6
+    stewardship = 6
+    religion = "zoroastrian"
+    culture = "persian"
+    trait = diligent
+    trait = just
+    trait = "skilled_tactician"
+    trait = sympathy_islam
+    father = 160294
+    845.1.1 = {
+        birth = "845.1.1"
+    }
+    896.1.1 = {
+        death = "896.1.1"
+    }
+}
+248697 = {
+    name = "Zakaria"
+    dynasty = 1059973
+    religion = "nestorian"
+    culture = "persian"
+    father = 248690
+    trait = sympathy_islam
+    trait = sympathy_zoroastrianism
+    trait = sympathy_pagans
+    850.1.1 = {
+        birth = yes
+    }
+    904.1.1 = {
+        death = yes
+    }
 }

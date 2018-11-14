@@ -366,6 +366,10 @@
     }
     1139.7.27 = {
         give_nickname = nick_the_conqueror
+        create_bloodline = {
+            type = alfonso_portugal
+            has_dlc = "Holy Fury"
+        }
     }
     1146.6.1 = {
         add_spouse = 212672
@@ -1056,6 +1060,14 @@
     }
     1206.1.1 = {
         add_spouse = 459561
+        give_nickname = nick_the_fat
+        effect = {
+            set_variable = {
+                which = physique_variable
+                value = 15
+            }
+        }
+        trait = is_fat
     }
     1210.1.1 = {
         trait = "excommunicated"
@@ -2296,7 +2308,7 @@
     culture = "portuguese"
     father = 142027
     mother = 142026
-    1191.1.1 = {
+    1179.1.1 = {
         birth = yes
     }
     1246.1.1 = {

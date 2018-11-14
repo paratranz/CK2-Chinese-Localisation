@@ -17,6 +17,10 @@
     father = 145129
     836.5.25 = {
         birth = "836.5.25"
+        create_bloodline = {
+            type = basil
+            has_dlc = "Holy Fury"
+        }
     }
     860.1.1 = {
         add_spouse = 145131
@@ -1429,6 +1433,12 @@
     1078.1.1 = {
         add_spouse = 1743
     }
+    1081.4.1 = {
+        create_bloodline = {
+            type = alexios_komnenos
+            has_dlc = "Holy Fury"
+        }
+    }
     1081.12.10 = {
         remove_claim = e_byzantium
     }
@@ -1976,26 +1986,6 @@
     }
     988.1.1 = {
         death = "988.1.1"
-    }
-}
-20463 = {
-    name = "狄奥多罗斯"  # Theodoros
-    dynasty = 101085
-    martial = 4
-    diplomacy = 7
-    intrigue = 4
-    stewardship = 6
-    religion = "orthodox"
-    culture = "greek"
-    trait = "humble"
-    trait = "honest"
-    trait = "amateurish_plotter"
-    father = 70415
-    1030.1.1 = {
-        birth = "1030.1.1"
-    }
-    1085.1.1 = {
-        death = "1085.1.1"
     }
 }
 20476 = {
@@ -3670,62 +3660,6 @@
         death = "1218.1.1"
     }
 }
-215039 = {
-    name = "卡塔卡隆"  # Katakalon
-    dynasty = 101091
-    martial = 8
-    diplomacy = 4
-    intrigue = 7
-    stewardship = 8
-    religion = "orthodox"
-    culture = "greek"
-    trait = "arbitrary"
-    trait = "flamboyant_schemer"
-    father = 232544
-    mother = 232545
-    1155.1.1 = {
-        birth = "1155.1.1"
-    }
-    1205.1.1 = {
-        death = "1205.1.1"
-    }
-}
-215040 = {
-    name = "伊萨基奥斯"  # Isaakios
-    dynasty = 100561
-    martial = 6
-    diplomacy = 7
-    intrigue = 4
-    stewardship = 8
-    religion = "orthodox"
-    culture = "greek"
-    trait = "greedy"
-    trait = "skilled_tactician"
-    1150.1.1 = {
-        birth = "1150.1.1"
-    }
-    1204.5.16 = {
-        death = "1204.5.16"
-    }
-}
-215042 = {
-    name = "季米特里俄斯"  # Demetrios
-    dynasty = 628
-    martial = 5
-    diplomacy = 5
-    intrigue = 5
-    stewardship = 6
-    religion = "orthodox"
-    culture = "greek"
-    trait = "just"
-    trait = "tough_soldier"
-    1150.1.1 = {
-        birth = "1150.1.1"
-    }
-    1200.1.1 = {
-        death = "1200.1.1"
-    }
-}
 215060 = {
     name = "阿莱克修斯"  # Alexios
     dynasty = 101078
@@ -3797,6 +3731,11 @@
         add_spouse = 232548
     }
     1185.1.2 = {
+        effect = {
+            add_betrothal = 219515
+        }
+    }
+    1191.1.2 = {
         add_spouse = 219515
     }
     1195.6.2 = {
@@ -7909,66 +7848,6 @@
         death = "1030.1.1"
     }
 }
-70416 = {
-    name = "达米亚诺斯"  # Damianos
-    dynasty = 101085
-    martial = 5
-    diplomacy = 5
-    intrigue = 6
-    stewardship = 6
-    religion = "orthodox"
-    culture = "greek"
-    trait = "craven"
-    trait = "content"
-    trait = "flamboyant_schemer"
-    father = 20463
-    1053.1.1 = {
-        birth = "1053.1.1"
-    }
-    1105.1.1 = {
-        death = "1105.1.1"
-    }
-}
-70417 = {
-    name = "君士坦丁"  # Konstantinos
-    dynasty = 101085
-    martial = 6
-    diplomacy = 5
-    intrigue = 6
-    stewardship = 5
-    religion = "orthodox"
-    culture = "greek"
-    trait = "zealous"
-    trait = "ambitious"
-    trait = "underhanded_rogue"
-    father = 20463
-    1055.1.1 = {
-        birth = "1055.1.1"
-    }
-    1110.1.1 = {
-        death = "1110.1.1"
-    }
-}
-70418 = {
-    name = "塞奥菲拉克图斯"  # Theophylaktos
-    dynasty = 101085
-    martial = 5
-    diplomacy = 7
-    intrigue = 4
-    stewardship = 6
-    religion = "orthodox"
-    culture = "greek"
-    trait = "honest"
-    trait = "kind"
-    trait = "charismatic_negotiator"
-    father = 20463
-    1057.1.1 = {
-        birth = "1057.1.1"
-    }
-    1108.1.1 = {
-        death = "1108.1.1"
-    }
-}
 70420 = {
     name = "米海尔"  # Michael
     dynasty = 8639
@@ -11242,20 +11121,6 @@
     }
     1261.2.1 = {
         death = "1261.2.1"
-    }
-}
-145027 = {
-    name = "革尔曼"  # Germanos
-    dynasty = 101091
-    religion = "orthodox"
-    culture = "greek"
-    trait = "martial_cleric"
-    father = 215039
-    1204.1.1 = {
-        birth = "1204.1.1"
-    }
-    1280.1.1 = {
-        death = "1280.1.1"
     }
 }
 145028 = {
@@ -15094,18 +14959,6 @@
         death = "906.1.1"
     }
 }
-145119 = {
-    name = "提比略"  # Tiberios
-    dynasty = 101177
-    religion = "orthodox"
-    culture = "greek"
-    844.1.1 = {
-        birth = "844.1.1"
-    }
-    904.1.1 = {
-        death = "904.1.1"
-    }
-}
 145120 = {
     name = "安菲罗基奥斯"  # Amphilochios
     dynasty = 101132
@@ -15940,18 +15793,6 @@
         death = "1100.1.1"
     }
 }
-145180 = {
-    name = "约安尼斯"  # Ioannes
-    dynasty = 1022159
-    religion = "orthodox"
-    culture = "greek"
-    840.1.1 = {
-        birth = "840.1.1"
-    }
-    900.1.1 = {
-        death = "900.1.1"
-    }
-}
 145181 = {
     name = "君士坦提奥斯"  # Konstantios
     dynasty = 1022160
@@ -16010,18 +15851,6 @@
     }
     903.1.1 = {
         death = "903.1.1"
-    }
-}
-145186 = {
-    name = "利昂"  # Leon
-    dynasty = 1022165
-    religion = "orthodox"
-    culture = "greek"
-    846.1.1 = {
-        birth = "846.1.1"
-    }
-    904.1.1 = {
-        death = "904.1.1"
     }
 }
 145187 = {
@@ -16170,18 +15999,6 @@
     }
     894.1.1 = {
         death = "894.1.1"
-    }
-}
-145199 = {
-    name = "希美里欧斯"  # Himerios
-    dynasty = 1022176
-    religion = "orthodox"
-    culture = "greek"
-    837.1.1 = {
-        birth = "837.1.1"
-    }
-    893.1.1 = {
-        death = "893.1.1"
     }
 }
 145200 = {
@@ -17298,21 +17115,6 @@
         death = "790.1.1"
     }
 }
-145799 = {
-    name = "罗曼诺斯"  # Romanos
-    dynasty = 1022261
-    religion = "iconoclast"
-    culture = "greek"
-    740.1.1 = {
-        birth = "740.1.1"
-    }
-    787.10.23 = {
-        religion = "orthodox"
-    }
-    800.1.1 = {
-        death = "800.1.1"
-    }
-}
 145800 = {
     name = "斯特凡诺斯"  # Stephanos
     dynasty = 1022262
@@ -17452,36 +17254,6 @@
         death = "813.1.1"
     }
 }
-145809 = {
-    name = "格雷戈里奥斯"  # Gregorios
-    dynasty = 1022265
-    religion = "iconoclast"
-    culture = "greek"
-    742.1.1 = {
-        birth = "742.1.1"
-    }
-    787.10.23 = {
-        religion = "orthodox"
-    }
-    804.1.1 = {
-        death = "804.1.1"
-    }
-}
-145810 = {
-    name = "巴西尔"  # Basileios
-    dynasty = 1022266
-    religion = "iconoclast"
-    culture = "greek"
-    746.1.1 = {
-        birth = "746.1.1"
-    }
-    787.10.23 = {
-        religion = "orthodox"
-    }
-    802.1.1 = {
-        death = "802.1.1"
-    }
-}
 145811 = {
     name = "阿纳斯塔修斯"  # Anastasios
     dynasty = 1022267
@@ -17557,21 +17329,6 @@
         death = "797.1.1"
     }
 }
-145816 = {
-    name = "君士坦丁"  # Konstantinos
-    dynasty = 1022272
-    religion = "iconoclast"
-    culture = "greek"
-    731.1.1 = {
-        birth = "731.1.1"
-    }
-    787.10.23 = {
-        religion = "orthodox"
-    }
-    789.1.1 = {
-        death = "789.1.1"
-    }
-}
 145817 = {
     name = "曼托斯"  # Manthos
     dynasty = 1022273
@@ -17582,21 +17339,6 @@
     }
     787.1.1 = {
         death = "787.1.1"
-    }
-}
-145818 = {
-    name = "巴西尔"  # Basileios
-    dynasty = 1022274
-    religion = "iconoclast"
-    culture = "greek"
-    733.1.1 = {
-        birth = "733.1.1"
-    }
-    787.10.23 = {
-        religion = "orthodox"
-    }
-    791.1.1 = {
-        death = "791.1.1"
     }
 }
 145819 = {
@@ -18068,51 +17810,6 @@
         death = "809.1.1"
     }
 }
-145849 = {
-    name = "塞尔吉奥斯"  # Sergios
-    dynasty = 1022299
-    religion = "iconoclast"
-    culture = "greek"
-    730.1.1 = {
-        birth = "730.1.1"
-    }
-    787.10.23 = {
-        religion = "orthodox"
-    }
-    791.1.1 = {
-        death = "791.1.1"
-    }
-}
-145850 = {
-    name = "腓利图斯"  # Philetos
-    dynasty = 1022300
-    religion = "iconoclast"
-    culture = "greek"
-    740.1.1 = {
-        birth = "740.1.1"
-    }
-    787.10.23 = {
-        religion = "orthodox"
-    }
-    801.1.1 = {
-        death = "801.1.1"
-    }
-}
-145851 = {
-    name = "奥古斯都"  # Sebastos
-    dynasty = 1022301
-    religion = "iconoclast"
-    culture = "greek"
-    732.1.1 = {
-        birth = "732.1.1"
-    }
-    787.10.23 = {
-        religion = "orthodox"
-    }
-    793.1.1 = {
-        death = "793.1.1"
-    }
-}
 145852 = {
     name = "季米特里俄斯"  # Demetrios
     dynasty = 1022302
@@ -18126,21 +17823,6 @@
     }
     799.1.1 = {
         death = "799.1.1"
-    }
-}
-145853 = {
-    name = "博斯普鲁斯"  # Bosporios
-    dynasty = 1022303
-    religion = "iconoclast"
-    culture = "greek"
-    734.1.1 = {
-        birth = "734.1.1"
-    }
-    787.10.23 = {
-        religion = "orthodox"
-    }
-    795.1.1 = {
-        death = "795.1.1"
     }
 }
 145854 = {
@@ -18849,54 +18531,6 @@
         death = "885.1.1"
     }
 }
-145932 = {
-    name = "皮特奥纳斯"  # Petronas
-    dynasty = 101099
-    religion = "orthodox"
-    culture = "greek"
-    trait = "diligent"
-    trait = "scholar"
-    trait = "fortune_builder"
-    804.1.1 = {
-        birth = "804.1.1"
-    }
-    815.1.1 = {
-        religion = "iconoclast"
-    }
-    842.2.19 = {
-        religion = "orthodox"
-    }
-    871.1.1 = {
-        death = "871.1.1"
-    }
-}
-145933 = {
-    name = "费拉雷多斯"  # Philaretos
-    dynasty = 101099
-    religion = "orthodox"
-    culture = "greek"
-    father = 145932
-    844.1.1 = {
-        birth = "844.1.1"
-    }
-    908.1.1 = {
-        death = "908.1.1"
-    }
-}
-145957 = {
-    name = "阿斯帕西娅"  # Aspasia
-    dynasty = 101099
-    female = yes
-    religion = "orthodox"
-    culture = "greek"
-    father = 145932
-    850.1.1 = {
-        birth = yes
-    }
-    912.1.1 = {
-        death = yes
-    }
-}
 200121 = {
     name = "艾芙多吉娅"  # Eudokia
     female = yes
@@ -19104,6 +18738,42 @@
         birth = yes
     }
     1329.1.1 = {
+        death = yes
+    }
+}
+260382 = {
+    name = "安德罗尼科斯"  # Andronikos
+    dynasty = 1062172
+    religion = orthodox
+    culture = greek
+    734.1.1 = {
+        birth = yes
+    }
+    790.1.1 = {
+        death = yes
+    }
+}
+260383 = {
+    name = "艾弗斐弥"  # Euphemios
+    dynasty = 1062173
+    religion = orthodox
+    culture = greek
+    823.1.1 = {
+        birth = yes
+    }
+    870.1.1 = {
+        death = yes
+    }
+}
+260384 = {
+    name = "尼基弗鲁斯"  # Nikephoros
+    dynasty = 1062174
+    religion = orthodox
+    culture = greek
+    1040.1.1 = {
+        birth = yes
+    }
+    1105.1.1 = {
         death = yes
     }
 }

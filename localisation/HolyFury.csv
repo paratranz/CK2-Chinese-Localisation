@@ -330,7 +330,7 @@ LEDGER_HEADER_BLOODLINE;血脉;;;;;;;;;;;;x
 LEDGER_ENTRY_BLOODLINE_TOOLTIP;$FOUNDER$在当前拥有$DESCENDANTS|Y$在世的后裔;;;;;;;;;;;;x
 LEDGER_NUM_BLOODLINE_LIVING_MEMBERS;在世的后裔;;;;;;;;;;;;x
 society_show_bloodlines;§Y列出所有已知传奇§!;;;;;;;;;;;;x
-society_show_bloodlines_disabled;§YThis society has no known Legends§!;;;;;;;;;;;;x
+society_show_bloodlines_disabled;§Y这个社团没有已知的传说§!;;;;;;;;;;;;x
 OBSERVER;观察者;;;;;;;;;;;;x
 LEDGER_HEADER_KILL_LIST;击杀名单;;;;;;;;;;;;x
 LEDGER_NUM_KILLED_CHARACTER;击杀数量;;;;;;;;;;;;x
@@ -340,16 +340,16 @@ ALL_KILL_LIST_CHARACTER;All characters in Kill List:;;;;;;;;;;;;x
 KILL_LIST_INTERFACE_LABEL;§YKills§!;;;;;;;;;;;;x
 HAS_NO_KILLS;该角色不是一位已知的谋杀者。;;;;;;;;;;;;x
 HolyFuryDLC;神圣之怒;;;;;;;;;;;;x
-send_baptism_request;Contact [From.GetName]'s liege and ask [From.GetHerHim] to sponsor your realm's conversion;;;;;;;;;;;;x
+send_baptism_request;联系[From.GetName]的领主并请求[From.GetHerHim]支持你的领土改信;;;;;;;;;;;;x
 baptism_request_cooldown;Has recently asked for a mass conversion;;;;;;;;;;;;x
 opinion_baptism_sponsor_target;Mass Conversion Request;;;;;;;;;;;;x
 truebelievers_bid_for_independence;Revolt of the old believers;;;;;;;;;;;;x
-truebelievers_bid_for_independence_desc;§Y$CLAIMANT$§! can attempt to declare independence from §Y$TARGET$§! for renouncing the old faith!;;;;;;;;;;;;x
+truebelievers_bid_for_independence_desc;§Y$CLAIMANT$§!可以宣布从§Y$TARGET$§!独立！放弃旧信仰！;;;;;;;;;;;;x
 CB_NAME_TRIBAL_INDEPENDENCE;原始宗教叛乱;;;;;;;;;;;;x
-WAR_NAME_TRIBAL_INDEPENDENCE;$ORDER$War against the Great $SECOND_ADJ$ Conversion;;;;;;;;;;;;x
+WAR_NAME_TRIBAL_INDEPENDENCE;$ORDER$对$SECOND_ADJ$改宗战争;;;;;;;;;;;;x
 request_sponsored_baptism;请求大规模改信;;;;;;;;;;;;x
 request_sponsored_baptism_desc;拥抱一个更加文明的宗教可以帮助你在领地内集权并抛弃你的部落生活方式。\n\n你可以要求[Root.GetTitledName]赞助你的领地改信[Root.Religion.GetName]。在一个合法政权的帮助和支持下，转变将会变得更容易。\n[From.GetMassBaptismTribalAuthorityHint];;;;;;;;;;;;x
-PAGAN_BAPTISM_DESC;§YRequest Mass Conversion§!;;;;;;;;;;;;x
+PAGAN_BAPTISM_DESC;§Y请求大规模改信§!;;;;;;;;;;;;x
 NOT_TRUE_BELIEVER;不是真信徒;;;;;;;;;;;;x
 NOT_CURRENTLY_BAPTIZING;§Y[Root.GetTitledName]§! is NOT currently sponsoring the conversion of a realm;;;;;;;;;;;;x
 NOT_ASKED_BAPTISM_RECENTLY;Has NOT recently petitioned for a mass conversion [From.GetBaptismTimer];;;;;;;;;;;;x
@@ -358,9 +358,9 @@ string_baptism_timer;- expires on: §Y[This.baptism_request_cooldown.GetExpiryDa
 NOT_ROOT_RELIGION_PLAYABLE;§Y[Root.GetTitledName]'s§! religion is playable;;;;;;;;;;;;x
 ALL_PROVINCES_CONVERT_TOOLTIP;All of §Y[Root.GetTitledFirstName]'s§! demesne provinces will become §Y[sponsoring_king.Religion.GetName]§!.;;;;;;;;;;;;x
 EVTTOOLTIPHF20000;Send a letter to §Y[Root.GetTitledName]§! to sponsor the mass conversion of §Y[From.PrimaryTitle.GetName]§!.;;;;;;;;;;;;x
-EVTTOOLTIPHFA20005;Mass Conversion;;;;;;;;;;;;x
-EVTTOOLTIPHFB20005;Mass Conversion;;;;;;;;;;;;x
-ai_request_sponsored_baptism;Request Mass Conversion;;;;;;;;;;;;x
+EVTTOOLTIPHFA20005;大规模改信;;;;;;;;;;;;x
+EVTTOOLTIPHFB20005;大规模改信;;;;;;;;;;;;x
+ai_request_sponsored_baptism;请求大规模改信;;;;;;;;;;;;x
 ai_request_sponsored_baptism_desc;拥抱一个更加文明的宗教可以帮助你在领地内集权并抛弃你的部落生活方式。;;;;;;;;;;;;x
 TT_SPONSOR_EXISTS;A potential sponsor realm exists;;;;;;;;;;;;x
 CHRONICLE_MASS_CONVERSION_CONVERTER;With the help of the [sponsoring_king.GetTitle] of [sponsoring_king.PrimaryTitle.GetName], [converting_king.GetTitledName] brought the [converting_king.Religion.GetName] faith to [converting_king.GetHerHis] realm, overseeing the conversion of scores of [converting_king.GetHerHis] subjects.;;;;;;;;;;;;x
@@ -423,7 +423,7 @@ EVTTOOLTIPHFE20007;Inform your liege that neither you nor your subjects will tak
 EVTDESCHFA20006;My [Root.GetTitle],\nI am overjoyed to hear of your conversion to the [From.Religion.GetName].\nI had long since prayed for you to see the light.;;;;;;;;;;;;x
 EVTDESCHFB20006;My [Root.GetTitle],\nFor many years I have looked at the followers of [sponsoring_king.Religion.GetHighGodName] with a sympathetic eye. You cannot imagine what a relief it is to hear of your conversion.;;;;;;;;;;;;x
 EVTDESCHFC20006;My [Root.GetTitle],\nWhat you ask of me is not easy, but I will not deny your request. I will join you at [Root.Capital.GetName] and convert to the [sponsoring_king.Religion.GetName] faith with you.;;;;;;;;;;;;x
-EVTOPTAHF20006;Good.;;;;;;;;;;;;x
+EVTOPTAHF20006;很好。;;;;;;;;;;;;x
 EVTDESCHF20007;My [Root.GetTitle], \nI have long thought about your request and I have come to the conclusion that I cannot abandon our ancestors' gods. I will not attend your great conversion, nor will any of my vassals.;;;;;;;;;;;;x
 EVTOPTAHF20007;Superstitious fool!;;;;;;;;;;;;x
 EVTTITLE20008;The Conversion of [converting_king.PrimaryTitle.GetName];;;;;;;;;;;;x
@@ -19657,7 +19657,7 @@ string_rp_rome;Restoring the Glory of Rome as ;;;;;;;;;;;;x
 string_rp_immortal;Ruling Forever as ;;;;;;;;;;;;x
 string_rp_kinslayer;Culling their Family as ;;;;;;;;;;;;x
 nick_the_bellower;the Bellower;;;;;;;;;;;;x
-hausa_opinion;[hausa.GetName] Opinion;;;;;;;;;;;;x
+hausa_opinion;[hausa.GetName]好感;;;;;;;;;;;;x
 bloodline_effect_enatic_cognatic;Enables §GEnatic-Cognatic Succession§!;;;;;;;;;;;;x
 bayajidda_and_magajiva;Blood of Bayajidda and Magajiva;;;;;;;;;;;;x
 bayajidda_and_magajiva_desc;The Daura claim descent from Bayajidda and Magajiva – the first of whom slew a great serpent, and the second of whom instituted the matriarchal system of the Hausa people.;;;;;;;;;;;;x
@@ -19667,8 +19667,8 @@ ALT_ORTHODOX;The [orthodox.GetName] Temple;;;;;;;;;;;;x
 ALT_ORTHODOX_ADJ;[orthodox.GetName] Temple;;;;;;;;;;;;x
 ALT_HO_LOCATION;Knights of [coa_target.GetName];;;;;;;;;;;;x
 ALT_HO_LOCATION_ADJ;[coa_target.GetName];;;;;;;;;;;;x
-saxon_opinion;[saxon.GetName] Opinion;;;;;;;;;;;;x
-welsh_opinion;[welsh.GetName] Opinion;;;;;;;;;;;;x
+saxon_opinion;[saxon.GetName]好感;;;;;;;;;;;;x
+welsh_opinion;[welsh.GetName]好感;;;;;;;;;;;;x
 reconquest_decision_tt;When the time comes, I will join in [Root.GetFirstNameWithNick]'s reconquest war!;;;;;;;;;;;;x
 d_cherven_cities;红鲁塞尼亚;;;;;;;;;;;;x
 d_cherven_cities_adj;红鲁塞尼亚;;;;;;;;;;;;x
@@ -19726,13 +19726,13 @@ told_story_nr_5_desc;This character is great at recounting tales from [Root.Reli
 told_story_nr_6;Proud Storyteller;;;;;;;;;;;;x
 told_story_nr_6_desc;This character can captivate an audience with tales of old.;;;;;;;;;;;;x
 duel_tooltip_no_war;Duelers are NOT involved in a war;;;;;;;;;;;;x
-africa_heavy_rain;Heavy Rain;;;;;;;;;;;;x
+africa_heavy_rain;大雨;;;;;;;;;;;;x
 africa_heavy_rain_desc;Unusually heavy rainfalls are sweeping through the area, causing harvests to over-perform, while riverbeds run the risk of flooding.;;;;;;;;;;;;x
-africa_light_rain;Light Rain;;;;;;;;;;;;x
+africa_light_rain;小雨;;;;;;;;;;;;x
 africa_light_rain_desc;A moderate amount of rainfall is currently having a positive effect on harvests in this area.;;;;;;;;;;;;x
 africa_drought_risk;Risk of Drought;;;;;;;;;;;;x
 africa_drought_risk_desc;This area is currently suffering from a lack of rain.;;;;;;;;;;;;x
-africa_drought;Drought;;;;;;;;;;;;x
+africa_drought;旱灾;;;;;;;;;;;;x
 africa_drought_desc;This area is suffering a severe drought, its people starving and fighting over resources.;;;;;;;;;;;;x
 africa_rain_dance_1;Rain Dance Rituals;;;;;;;;;;;;x
 africa_rain_dance_1_desc;The inhabitants in this area are praying for rain.;;;;;;;;;;;;x
@@ -19762,7 +19762,7 @@ EVTOPTA_HF_15110;Make sure our traders are well-stocked.;;;;;;;;;;;;x
 EVTOPTB_1_HF_15110;Have people keep an eye on our rivers and lakes.;;;;;;;;;;;;x
 EVTOPTB_2_HF_15110;Send men to inspect our roads for erosion by the water.;;;;;;;;;;;;x
 EVTOPTC_HF_15110;We should put away surplus grain for the future.;;;;;;;;;;;;x
-SO_IT_IS;So it is.;;;;;;;;;;;;x
+SO_IT_IS;必须这样做。;;;;;;;;;;;;x
 EVTOPTB_HF_15110_light_rain;Let's invest in refining the irrigation of our crops.;;;;;;;;;;;;x
 EVTOPTA_HF_15111;We must get food out to the people outside our [Root.GetCapitalHolding].;;;;;;;;;;;;x
 EVTOPTB_HF_15111;Let's share the wealth from our capital with [province_to_save.GetName]!;;;;;;;;;;;;x
@@ -19854,7 +19854,7 @@ alert_owns_wrong_settlement_type_delayed;Depending on your circumstances, you mi
 random_building_is_destroyed_tt;A random building is §Rdestroyed§! in §Y[This.GetName]§!.;;;;;;;;;;;;x
 OLD_ARTIFACT_DESTROYED_LOG;$CHARACTER|Y$ has had $ARTIFACT|Y$ removed from their Treasury.;;;;;;;;;;;;x
 OLD_ARTIFACT_DESTROYED_SETUP;Artifact removed;;;;;;;;;;;;x
-BAPTISM_SETUP;Baptism;;;;;;;;;;;;x
+BAPTISM_SETUP;洗礼;;;;;;;;;;;;x
 EVTDESCHF10521;Hail, [Root.GetSocietyRank]!\n\nIt has come to our attention that your [recruit_to_be.GetSonDaughter] [recruit_to_be.GetFirstName] remains outside of our fold. May we humbly urge you to talk to [recruit_to_be.GetHerHim] about becoming a member of [Root.Society.GetName], like [recruit_to_be.GetHerHis] [Root.GetFatherMother]?\n\nSigned, [From.GetTitledFirstName];;;;;;;;;;;;x
 quest_warrior_lodge_recruit;Recruit Your Child;;;;;;;;;;;;x
 quest_warrior_lodge_recruit_desc;It could be that our descendants follow in our footsteps, but to make certain that the legacy of our Warrior Lodge continues, encouraging our young is key.;;;;;;;;;;;;x

@@ -167,6 +167,33 @@
     715.1.1 = {
         birth = yes
     }
+    768.1.1 = {
+        effect = {
+            spawn_unit = {
+                province = 155
+                owner = ROOT
+                troops = {
+                    heavy_infantry = {
+                        600
+                        600
+                    }
+                    pikemen = {
+                        600
+                        600
+                    }
+                    light_cavalry = {
+                        450
+                        450
+                    }
+                    archers = {
+                        300
+                        300
+                    }
+                }
+                attrition = 1
+            }
+        }
+    }
     773.1.1 = {
         death = yes
     }
@@ -480,6 +507,13 @@
     }
     956.11.13 = {
         give_nickname = nick_the_fat
+        effect = {
+            set_variable = {
+                which = physique_variable
+                value = 15
+            }
+        }
+        trait = is_fat
     }
     960.1.1 = {
         capital = b_leon

@@ -2834,6 +2834,10 @@
     }
     1266.1.1 = {
         remove_claim = d_murcia
+        create_bloodline = {
+            type = muhammad_the_victorious
+            has_dlc = "Holy Fury"
+        }
     }
     1273.1.1 = {
         death = "1273.1.1"
@@ -3058,6 +3062,13 @@
     }
     827.1.1 = {
         give_nickname = nick_the_fat
+        effect = {
+            set_variable = {
+                which = physique_variable
+                value = 15
+            }
+        }
+        trait = is_fat
     }
     855.1.1 = {
         death = "855.1.1"
@@ -3196,10 +3207,4 @@
     971.1.1 = {
         death = "971.1.1"
     }
-}
-20889 = {
-    name = "阿卜杜勒-卡里姆"  # Abdul-Kareem
-}
-20895 = {
-    name = "赛义德"  # Sa'id
 }

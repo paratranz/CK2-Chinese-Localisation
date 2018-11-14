@@ -932,6 +932,10 @@
     trait = adventurer
     942.1.1 = {
         birth = yes
+        create_bloodline = {
+            type = ghaznavid
+            has_dlc = "Holy Fury"
+        }
     }
     968.1.1 = {
         add_spouse = 170305
@@ -2321,6 +2325,10 @@
     trait = ambitious
     960.1.1 = {
         birth = yes
+        create_bloodline = {
+            type = seljuk
+            has_dlc = "Holy Fury"
+        }
     }
     1021.1.1 = {
         death = yes
@@ -2991,6 +2999,10 @@
     }
     1281.1.1 = {
         capital = c_ankyra
+        create_bloodline = {
+            type = ottoman
+            has_dlc = "Holy Fury"
+        }
     }
     1324.1.1 = {
         death = "1324.1.1"
@@ -7483,7 +7495,7 @@
     1240.10.13 = {
         employer = 170198
     }
-    1242.5.15 = {
+    1246.6.12 = {
         employer = 170201
     }
     1266.2.19 = {
@@ -7975,6 +7987,12 @@
     father = 170256
     1271.1.1 = {
         birth = "1271.1.1"
+    }
+    1320.10.1 = {
+        create_bloodline = {
+            type = tughluq
+            has_dlc = "Holy Fury"
+        }
     }
     1325.2.1 = {
         death = "1325.2.1"
@@ -9597,21 +9615,51 @@
         death = yes
     }
 }
-20698 = {
-    name = "穆尔塔扎"  # Murtaza
+256053 = {
+    name = "卡提尔"  # Khatir
+    dynasty = 1061033
+    religion = "tengri_pagan"
+    culture = "alan"
+    748.1.1 = {
+        birth = yes
+    }
+    800.1.1 = {
+        death = yes
+    }
 }
-20701 = {
-    name = "哈萨马丁"  # Hussamaddin
+258089 = {
+    name = "卡提尔"  # Songul
+    dynasty = 1100011
+    religion = "tengri_pagan"
+    culture = "turkish"
+    837.1.1 = {
+        birth = yes
+    }
+    875.1.1 = {
+        death = yes
+    }
 }
-20732 = {
-    name = "苏莱曼"  # Sulayman
+258091 = {
+    name = "布拉克"  # Burak
+    dynasty = 1100013
+    religion = "sunni"
+    culture = "turkish"
+    1039.1.1 = {
+        birth = yes
+    }
+    1086.1.1 = {
+        death = yes
+    }
 }
-225009 = {
-    name = "突格特勤"  # Tugtekin
-}
-478070 = {
-    name = "别哥帖儿"  # Begter
-}
-480240 = {
-    name = "乌涂达依"  # Utudai
+258092 = {
+    name = "萨乌特肯"  # Savtekin
+    dynasty = 1100014
+    religion = "sunni"
+    culture = "turkish"
+    1038.1.1 = {
+        birth = yes
+    }
+    1087.1.1 = {
+        death = yes
+    }
 }
