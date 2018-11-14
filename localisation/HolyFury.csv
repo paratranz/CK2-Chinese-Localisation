@@ -208,16 +208,16 @@ ALT_START_LOADING;读取中;;;;;;;;;;;;x
 setting_tier;统治者等级;;;;;;;;;;;;x
 setting_tier_tooltip;决定生成的统治者会拥有的头衔等级。;;;;;;;;;;;;x
 setting_tier_counts;伯爵;;;;;;;;;;;;x
-setting_tier_counts_tooltip;每个伯爵领都将生成一个独立的伯爵。;;;;;;;;;;;;x
+setting_tier_counts_tooltip;每个伯爵领都会生成一个独立的伯爵;;;;;;;;;;;;x
 setting_tier_dukes;公爵;;;;;;;;;;;;x
-setting_tier_dukes_tooltip;A random Count in each De Jure Duchy will be assigned the Duke title, all other Counts will be made vassals;;;;;;;;;;;;x
+setting_tier_dukes_tooltip;每个法理公国内的一部分随机大小的领土会被分配给公爵头衔，其余所有的伯爵会变为封臣;;;;;;;;;;;;x
 setting_tier_dukes_consolidated;统一公爵领;;;;;;;;;;;;x
-setting_tier_dukes_consolidated_tooltip;每个法理公国将产生一个统治者;;;;;;;;;;;;x
+setting_tier_dukes_consolidated_tooltip;每个法理公国会生成一位领导者;;;;;;;;;;;;x
 ALTERNATE_START;另类开局;;;;;;;;;;;;x
 ALT_GENERATE;生成;;;;;;;;;;;;x
 ALT_SETTINGS;设置;;;;;;;;;;;;x
 ALTERNATE_START_TOOLTIP;§Y另类开局§!;;;;;;;;;;;;x
-ALTERNATE_START_TOOLTIP_DELAYED;Shake up the game by shattering the world, or generating an alternate realm setup.;;;;;;;;;;;;x
+ALTERNATE_START_TOOLTIP_DELAYED;通过破碎世界来改变游戏，或者设置生成另类领地。;;;;;;;;;;;;x
 ALT_CANCEL_TOOLTIP;§Y取消§!;;;;;;;;;;;;x
 ALT_GENERATE_TOOLTIP;§Y生成世界§!;;;;;;;;;;;;x
 ALT_GENERATE_TOOLTIP_DELAYED;按设定生成一个另类开局;;;;;;;;;;;;x
@@ -250,7 +250,7 @@ setting_holding_types_nomadic_tooltip;每个省份都将是游牧制。;;;;;;;;;
 setting_holding_types_tribal_nomadic;部落制与游牧制;;;;;;;;;;;;x
 setting_holding_types_tribal_nomadic_tooltip;某些文化的省份将是游牧制。其他省份将只有一个部落地产;;;;;;;;;;;;x
 setting_holding_slots;地产格;;;;;;;;;;;;x
-setting_holding_slots_tooltip;Determines the number of Holding Slots each County will have.;;;;;;;;;;;;x
+setting_holding_slots_tooltip;确定每个省份将拥有的地产槽的数量。;;;;;;;;;;;;x
 setting_holding_slots_historical;史实;;;;;;;;;;;;x
 setting_holding_slots_historical_tooltip;地产未在历史上改变过;;;;;;;;;;;;x
 setting_holding_slots_random;随机;;;;;;;;;;;;x
@@ -269,10 +269,10 @@ setting_holding_slots_six;六;;;;;;;;;;;;x
 setting_holding_slots_six_tooltip;每个省份都将有六个地产槽。;;;;;;;;;;;;x
 setting_holding_slots_seven;七;;;;;;;;;;;;x
 setting_holding_slots_seven_tooltip;每个省份都将有七个地产槽。;;;;;;;;;;;;x
-DOUBLE_SLIDER_TOOLTIP;Minimum: $MIN$\nMaximum: $MAX$;;;;;;;;;;;;x
-AI_ACCEPTANCE_YES_DESC;§G他们将会接受这次活动§!;;;;;;;;;;;;x
-AI_ACCEPTANCE_MAYBE_DESC;§YThey will maybe accept this interaction§!;;;;;;;;;;;;x
-AI_ACCEPTANCE_NO_DESC;§RThey will NOT accept this interaction§!;;;;;;;;;;;;x
+DOUBLE_SLIDER_TOOLTIP;最少: $MIN$\n最多: $MAX$;;;;;;;;;;;;x
+AI_ACCEPTANCE_YES_DESC;§G他们将会接受这一互动§!;;;;;;;;;;;;x
+AI_ACCEPTANCE_MAYBE_DESC;§Y他们可能会接受这一互动§!;;;;;;;;;;;;x
+AI_ACCEPTANCE_NO_DESC;§R他们不会接受这一互动§!;;;;;;;;;;;;x
 AI_ACCEPTANCE_TOTAL;Acceptance Score: $TOTAL|+0$;;;;;;;;;;;;x
 AI_ACCEPTANCE_HUMAN_MAYBE;Being a player, how they will respond is unknown;;;;;;;;;;;;x
 bear.6.undo;这是不可忍受的！;;;;;;;;;;;;x
@@ -292,7 +292,7 @@ STACKING_TOTAL_EFFECT;§Y综合效果：§!;;;;;;;;;;;;x
 alert_coronation_needed_instant;§Y未知统治者§!;;;;;;;;;;;;x
 alert_coronation_needed_delayed;A [Root.Religion.GetName] ruler who has not been officially crowned by a notable member of the Church will never be fully accepted by [Root.GetHerHis] vassals as legitimate.\nThe more years an adult [Root.Religion.GetName] [Root.GetTitle] wastes before being anointed, the more likely [Root.GetHerHis] vassals will be to doubt the validity of [Root.GetHerHis] divine right to rule.;;;;;;;;;;;;x
 CORONATION_CURRENT_EFFECT;§Y当前效果§!;;;;;;;;;;;;x
-RETINUES_NOT_REFINORCING_DESC;This removes the reinforce cost. Does not affect prestige-based units.;;;;;;;;;;;;x
+RETINUES_NOT_REFINORCING_DESC;这移除了增援费用。不会影响威望征兆的部队。;;;;;;;;;;;;x
 RETINUES_HALF_REINFORCING_DESC;This halves the reinforce cost. Does not affect prestige-based units.\n( §Y$GROWTH$%§! of the retinue will reinforce per month ).;;;;;;;;;;;;x
 RETINUES_FULL_REINFORCING_DESC;This means you will pay full reinforce cost. Prestige-based units always reinforce at this rate.\n( §Y$GROWTH$%§! of the retinue will reinforce per month );;;;;;;;;;;;x
 CHARVIEW_TRAITS;§Y特质§!;;;;;;;;;;;;x
@@ -321,14 +321,14 @@ NOT_SAME_BLOODLINE_TRIGGER;Is NOT $BLOODLINE|Y$;;;;;;;;;;;;x
 SAME_BLOODLINE_TRIGGER;Is $BLOODLINE|Y$;;;;;;;;;;;;x
 NOT_ALLOWED_TO_PLAY_SAME_CHARACTER;Not allowed to play the same character as another player;;;;;;;;;;;;x
 BLOODLINES_INTERFACE_LABEL;§YBloodlines§!;;;;;;;;;;;;x
-HAS_NO_BLOODLINES;This character is not a member of any famous Bloodlines.;;;;;;;;;;;;x
+HAS_NO_BLOODLINES;这个角色不是任何著名血脉的成员。;;;;;;;;;;;;x
 LEDGER_HEADER_BLOODLINES;Bloodlines;;;;;;;;;;;;x
 BLOOD_OF;Blood of;;;;;;;;;;;;x
 HAD_BLOODLINE_FLAG_LESS_THAN;Had flag '§Y$FLAG$§!' for less than §Y$DAYS$§! days;;;;;;;;;;;;x
 HAD_BLOODLINE_FLAG_AT_LEAST;Had flag '§Y$FLAG$§!' for at least §Y$DAYS$§! days;;;;;;;;;;;;x
 LEDGER_HEADER_BLOODLINE;Bloodlines;;;;;;;;;;;;x
 LEDGER_ENTRY_BLOODLINE_TOOLTIP;$FOUNDER$ currently has $DESCENDANTS|Y$ living descendants;;;;;;;;;;;;x
-LEDGER_NUM_BLOODLINE_LIVING_MEMBERS;Living Descendants;;;;;;;;;;;;x
+LEDGER_NUM_BLOODLINE_LIVING_MEMBERS;在世的后裔;;;;;;;;;;;;x
 society_show_bloodlines;§YList all created Legends§!;;;;;;;;;;;;x
 society_show_bloodlines_disabled;§YThis society has no known Legends§!;;;;;;;;;;;;x
 OBSERVER;Observer;;;;;;;;;;;;x
@@ -391,7 +391,7 @@ EVTDESCHFM20003;The Hellenic priests arrive to [converting_king.Capital.GetName]
 EVTDESCHFN20003;The [sponsoring_king.Religion.GetName] priests arrive a few days before the ceremony in order to settle in their new temple.\nFor all the remaining days before the event, you and your vassals find yourself stuck listening to an endless list of rules and rituals that the priests swear you must absolutely know in order to correctly worship [sponsoring_king.Religion.GetHighGodName]. When the day for the mass conversion comes, the ceremony itself looks almost like an afterthought in comparison to the bureaucratic preparation. The priests quickly cleanse all old icons publicly and allow you to renounce your old gods before hiding back inside the temple and resuming their private rituals.;;;;;;;;;;;;x
 EVTDESCHFO20003;The [sponsoring_king.Religion.GetName] rabbis arrive to [converting_king.Capital.GetName] on a clear morning. \nYou meet with them alongside your vassals and at the head of a large crowd in the middle of the main square. Three tall pedestals have been set up for the newcomers, following their instructions, and the three assigned judges amongst them take place atop them. You are the first to be called to the public beth din, and for what feels like an eternity, the three judges examine the sincerity of your conversion. After they are finished with you, they move onto your vassals, testing them one by one as the crowd watches in silence.;;;;;;;;;;;;x
 EVTDESCHFP20003;Strangely enough, the [sponsoring_king.Religion.GetName] priests arrive at your capital without much pomp.\nThey ask you to remain in seclusion with them for the remaining days before the conversions, they respectfully remove the icons of the old gods from your temple, and instruct you about your new responsibilities as a [sponsoring_king.Religion.GetName]. When the day of the great ceremony comes, you meet with your vassals outside [converting_king.Capital.GetName], surrounded by a crowd of commoners. There, you strip yourselves of all your regalia, and sit around a sacred fire to meditate in silence, with the priests' soft chanting echoing in the background.;;;;;;;;;;;;x
-EVTOPTAHF20003;This is a new beginning for our people.;;;;;;;;;;;;x
+EVTOPTAHF20003;这对我们的人民来说是一个新的开始。;;;;;;;;;;;;x
 EVTTITLE20004;The Conversion of [converting_king.PrimaryTitle.GetName];;;;;;;;;;;;x
 EVTDESCHFA20004;You receive news from your missionaries only a few days after the mass baptism of [converting_king.Capital.GetName]. Although the priest writes that he does not feel entirely convinced about the sincerity of the barbarians' conversion, the ceremony went well and [converting_king.PrimaryTitle.GetName] is now officially [sponsoring_king.Religion.GetName].\nBy aiding in the conversion of an entire score of pagans to the One True Faith, you have accomplished a feat worthy of the Apostles themselves.;;;;;;;;;;;;x
 EVTDESCHFB20004;Although the Prophet often spread His Word by the sword, it is a commendable feat for you to have converted an entire score of pagans through words only. \nYou have no doubts that infidels still hide in [converting_king.GetTitledFirstName]'s domain, but now that the ruling class has been brought into the light, it is only a matter of time until everybody else in the realm follows. With the mass conversion of [converting_king.PrimaryTitle.GetTitle] to [sponsoring_king.Religion.GetName], you have brought the universal rule of Islam over the world one step closer to its completion.;;;;;;;;;;;;x
@@ -4544,7 +4544,7 @@ c_kara_khorum_adj;Kara Khorumian;;;;;;;;;;;;x
 c_baygal_adj;Baygaler;;;;;;;;;;;;x
 c_aj_bogd_adj;Aj Bogdi;;;;;;;;;;;;x
 c_ikh_bogd_adj;Ikh Bogdi;;;;;;;;;;;;x
-c_ejin_adj;Ejini;;;;;;;;;;;;x
+c_ejin_adj;亦集乃;;;;;;;;;;;;x
 c_barkul_adj;Barkuler;;;;;;;;;;;;x
 c_kashgar_adj;Kashgari;;;;;;;;;;;;x
 c_aksu_adj;Aksuni;;;;;;;;;;;;x
@@ -13137,7 +13137,7 @@ TT_EVTOPTCHF25200;Challenge §Y[arm_wrestling_opponent_3.GetTitledFirstName]§! 
 EVTOPTDHF25200;On second thought, I will go take a drink instead.;;;;;;;;;;;;x
 EVTDESCHF25201;Many important warriors have gathered in the Lodge tonight in order to celebrate a recent hunt. I have barely joined some of my friends in the festivities when [From.GetTitledFirstName] barges in, claiming that [From.GetSheHe] is twice as strong as I am and challenging me to an arm-wrestling match to prove it.;;;;;;;;;;;;x
 EVTOPTAHF25201;You are on!;;;;;;;;;;;;x
-TT_EVTOPTAHF25201;Accept §Y[From.GetTitledFirstName]§!'s challenge.;;;;;;;;;;;;x
+TT_EVTOPTAHF25201;接受§Y[From.GetTitledFirstName]§!的挑战。;;;;;;;;;;;;x
 EVTOPTBHF25201;I am too tired right now...;;;;;;;;;;;;x
 TT_EVTOPTBHF25201;Refuse §Y[From.GetTitledFirstName]§!'s challenge.\nYour fellow §YWarriors§! will remember this cowardly act.;;;;;;;;;;;;x
 EVTDESCHF25202;[From.GetTitledFirstName] was too much of a coward to meet my challenge. [From.GetSheHeCap] excused [From.GetHerselfHimself] and left the hall in a hurry rather than test [From.GetHerHis] strength against mine.;;;;;;;;;;;;x
@@ -15901,7 +15901,7 @@ PROV1915;Terkhiin Tsagaan;;;;;;;;;;;;x
 PROV1916;Burkhan Buudai;;;;;;;;;;;;x
 PROV1917;Gurvan Saikhan;;;;;;;;;;;;x
 PROV1918;Delgerkhangai;;;;;;;;;;;;x
-PROV1919;Juyan;;;;;;;;;;;;x
+PROV1919;居延;;;;;;;;;;;;x
 PROV1920;Orkhon;;;;;;;;;;;;x
 PROV1921;Selenge;;;;;;;;;;;;x
 PROV1922;Uda;;;;;;;;;;;;x
@@ -16582,7 +16582,7 @@ b_tarvagatai;Tarvagatai;;;;;;;;;;;;x
 b_terkhiin_tsagaan;Terkhiin Tsagaan;;;;;;;;;;;;x
 b_burkhan_buudai;Burkhan Buudai;;;;;;;;;;;;x
 b_gurvan_saikhan;Gurvan Saikhan;;;;;;;;;;;;x
-b_juyan;Juyan;;;;;;;;;;;;x
+b_juyan;居延;;;;;;;;;;;;x
 b_orkhon;Orkhon;;;;;;;;;;;;x
 b_selenge;Selenge;;;;;;;;;;;;x
 b_uda;Uda;;;;;;;;;;;;x
@@ -16772,12 +16772,12 @@ b_jargalan;Jargalan;;;;;;;;;;;;x
 b_bayan_uul;Bayan Uul;;;;;;;;;;;;x
 b_guulin_khasagt;Guulin;;;;;;;;;;;;x
 b_altai_khasagt;Altai;;;;;;;;;;;;x
-b_chuyen_hai;Chüyen Hai;;;;;;;;;;;;x
-b_sogo_nuur;Sogo Nuur;;;;;;;;;;;;x
-b_gaxun_nur;Gaxun Nur;;;;;;;;;;;;x
-b_subozhuoer;Subozhuo'er;;;;;;;;;;;;x
-b_shivee_khuren;Shive Khuren;;;;;;;;;;;;x
-b_murengaole;Murengaole;;;;;;;;;;;;x
+b_chuyen_hai;居延海;;;;;;;;;;;;x
+b_sogo_nuur;索果淖尔;;;;;;;;;;;;x
+b_gaxun_nur;嘎顺淖尔;;;;;;;;;;;;x
+b_subozhuoer;苏泊淖尔;;;;;;;;;;;;x
+b_shivee_khuren;西伯库伦;;;;;;;;;;;;x
+b_murengaole;木仁高勒;;;;;;;;;;;;x
 b_struga;Struga;;;;;;;;;;;;x
 b_atros;Atros;;;;;;;;;;;;x
 b_radovish;Radovish;;;;;;;;;;;;x
@@ -17094,7 +17094,7 @@ d_kara_khorum_adj;Kara Khorumian;;;;;;;;;;;;x
 d_baygal_adj;Baygaler;;;;;;;;;;;;x
 d_gobi_altay_adj;Altayan;;;;;;;;;;;;x
 d_barkul_adj;Barkuler;;;;;;;;;;;;x
-d_juyan_adj;Juyani;;;;;;;;;;;;x
+d_juyan_adj;居延;;;;;;;;;;;;x
 d_optimatoi_adj;Optimatoi;;;;;;;;;;;;x
 d_abydos_adj;Abydosian;;;;;;;;;;;;x
 d_bucellarian_adj;Bukelaroi;;;;;;;;;;;;x
@@ -17249,7 +17249,7 @@ c_terkhiin_tsagaan_adj;Terkhiiner;;;;;;;;;;;;x
 c_burkhan_buudai_adj;Burkhani;;;;;;;;;;;;x
 c_gurvan_saikhan_adj;Gurvani;;;;;;;;;;;;x
 c_delgerkhangai_adj;Delgerkhangaier;;;;;;;;;;;;x
-c_juyan_adj;Juyani;;;;;;;;;;;;x
+c_juyan_adj;居延;;;;;;;;;;;;x
 c_orkhon_adj;Orkhoni;;;;;;;;;;;;x
 c_selenge_adj;Selenger;;;;;;;;;;;;x
 c_uda_adj;Udani;;;;;;;;;;;;x

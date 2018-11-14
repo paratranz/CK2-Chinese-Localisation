@@ -18,7 +18,7 @@ MNM.70110.a;抓住[accused_apostate.GetHerHim]！[accused_apostate.GetSheHeCap]�
 MNM.70110.b;我知道我要指控哪个家伙……;;;;;;;;;;;;x
 MNM.70200.d.highly_suspected_society_member;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的[Root.GetChamber]，身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊贵的[Root.GetTitle]，这个[accused_apostate.GetManWoman]已经公开宣布忠于[accused_apostate.Society.GetName]！ 我们要怎么处置[accused_apostate.GetHerHim] ？」;;;;;;;;;;;;x
 MNM.70200.d.suspected_society_member;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的[Root.GetChamber]，身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊贵的[Root.GetTitle]，我已经有足够的证据证明 [accused_apostate.GetManWoman]参与了[accused_apostate.Society.GetName]！我们该怎么处置[accused_apostate.GetHerHim]？」;;;;;;;;;;;;x
-MNM.70200.d.suspected_apostate;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的 [Root.GetChamber]，身边跟着几个[Root.GetReligionWarriorPlural]拖着披枷带锁的[accused_apostate.GetBestName]。「我的 [Root.GetTitle]，我们在这个叛教者读[accused_apostate.TrueReligion.GetName][accused_apostate.GetTrueReligionScriptureName]，宣扬[accused_apostate.TrueReligion.GetHighGodName]的时候当场抓住了[accused_apostate.GetHerHim] ！我们应该怎么处理[accused_apostate.GetHerHim]？;;;;;;;;;;;;x
+MNM.70200.d.suspected_apostate;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的 [Root.GetChamber]，身边跟着几个[Root.GetReligionWarriorPlural]拖着披枷带锁的[accused_apostate.GetBestName]。「我的 [Root.GetTitle]，我们在这个叛教者读[accused_apostate.TrueReligion.GetName]经文，宣扬[Root.job_spiritual.Religion.GetRandomEvilGodName]的时候当场抓住了[accused_apostate.GetHerHim] ！我们应该怎么处理[accused_apostate.GetHerHim]？」;;;;;;;;;;;;x
 MNM.70200.d.no_suspicion;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的[Root.GetChamber]，身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊敬的[Root.GetTitle]，有很多忧虑的农民声称他们的孩子被这个[accused_apostate.GetManWoman]的噩梦所折磨——[accused_apostate.GetSheHe]显然是一个[accused_apostate.GetWarlockWitch]！我们该怎么处置 [accused_apostate.GetHerHim]？」;;;;;;;;;;;;x
 MNM.70200.d.innocent_victim;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的[Root.GetChamber]，身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊敬的[Root.GetTitle]，有很多忧虑的农民声称他们的孩子被这个[accused_apostate.GetManWoman]的噩梦所折磨——[accused_apostate.GetSheHe]显然是一个[accused_apostate.GetWarlockWitch]！我们该怎么处置[accused_apostate.GetHerHim]？」;;;;;;;;;;;;x
 MNM.70200.a;烧死叛教者！;;;;;;;;;;;;x
@@ -96,308 +96,6 @@ HAVE_A_SECRET_RELIGION;秘密信仰一个宗教;;;;;;;;;;;;x
 HAVE_NOT_RELIGION_CHARACTER;并非公开信仰$RELIGION|Y$;;;;;;;;;;;;x
 HAVE_RELIGION_CHARACTER;公开信仰$RELIGION|Y$;;;;;;;;;;;;x
 RELIGION_CHANGE_SECRET;$WHERE|Y$开始秘密信仰$NAME|Y$。\n;;;;;;;;;;;;x
-secret_religious_society_cathar_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_cathar_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_cathar_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_cathar_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_cathar_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_cathar_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_cathar_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_cathar_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_fraticelli_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_fraticelli_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_fraticelli_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_fraticelli_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_fraticelli_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_fraticelli_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_fraticelli_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_fraticelli_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_lollard_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_lollard_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_lollard_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_lollard_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_lollard_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_lollard_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_lollard_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_lollard_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_waldensian_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_waldensian_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_waldensian_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_waldensian_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_waldensian_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_waldensian_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_waldensian_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_waldensian_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_bogomilist_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_bogomilist_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_bogomilist_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_bogomilist_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_bogomilist_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_bogomilist_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_bogomilist_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_bogomilist_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_monothelite_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_monothelite_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_monothelite_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_monothelite_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_monothelite_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_monothelite_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_monothelite_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_monothelite_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_iconoclast_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_iconoclast_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_iconoclast_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_iconoclast_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_iconoclast_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_iconoclast_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_iconoclast_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_iconoclast_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_paulician_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_paulician_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_paulician_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_paulician_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_paulician_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_paulician_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_paulician_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_paulician_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_miaphysite_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_miaphysite_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_miaphysite_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_miaphysite_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_miaphysite_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_miaphysite_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_miaphysite_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_miaphysite_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_monophysite_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_monophysite_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_monophysite_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_monophysite_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_monophysite_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_monophysite_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_monophysite_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_monophysite_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_nestorian_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_nestorian_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_nestorian_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_nestorian_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_nestorian_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_nestorian_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_nestorian_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_nestorian_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_messalian_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_messalian_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_messalian_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_messalian_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_messalian_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_messalian_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_messalian_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_messalian_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_zikri_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_zikri_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_zikri_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_zikri_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_zikri_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_zikri_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_zikri_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_zikri_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_yazidi_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_yazidi_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_yazidi_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_yazidi_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_yazidi_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_yazidi_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_yazidi_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_yazidi_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_druze_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_druze_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_druze_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_druze_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_druze_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_druze_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_druze_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_druze_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_hurufi_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_hurufi_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_hurufi_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_hurufi_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_hurufi_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_hurufi_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_hurufi_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_hurufi_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_ibadi_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_ibadi_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_ibadi_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_ibadi_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_ibadi_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_ibadi_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_ibadi_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_ibadi_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_kharijite_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_kharijite_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_kharijite_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_kharijite_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_kharijite_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_kharijite_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_kharijite_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_kharijite_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_samaritan_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_samaritan_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_samaritan_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_samaritan_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_samaritan_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_samaritan_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_samaritan_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_samaritan_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_karaite_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_karaite_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_karaite_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_karaite_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_karaite_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_karaite_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_karaite_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_karaite_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_mazdaki_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_mazdaki_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_mazdaki_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_mazdaki_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_mazdaki_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_mazdaki_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_mazdaki_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_mazdaki_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_manichean_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_manichean_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_manichean_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_manichean_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_manichean_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_manichean_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_manichean_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_manichean_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_norse_pagan_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_norse_pagan_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_norse_pagan_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_norse_pagan_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_norse_pagan_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_norse_pagan_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_norse_pagan_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_norse_pagan_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_baltic_pagan_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_baltic_pagan_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_baltic_pagan_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_baltic_pagan_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_baltic_pagan_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_baltic_pagan_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_baltic_pagan_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_baltic_pagan_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_finnish_pagan_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_finnish_pagan_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_finnish_pagan_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_finnish_pagan_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_finnish_pagan_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_finnish_pagan_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_finnish_pagan_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_finnish_pagan_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_slavic_pagan_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_slavic_pagan_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_slavic_pagan_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_slavic_pagan_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_slavic_pagan_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_slavic_pagan_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_slavic_pagan_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_slavic_pagan_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_tengri_pagan_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_tengri_pagan_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_tengri_pagan_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_tengri_pagan_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_tengri_pagan_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_tengri_pagan_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_tengri_pagan_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_tengri_pagan_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_aztec_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_aztec_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_aztec_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_aztec_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_aztec_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_aztec_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_aztec_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_aztec_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_aztec_reformed_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_aztec_reformed_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_aztec_reformed_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_aztec_reformed_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_aztec_reformed_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_aztec_reformed_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_aztec_reformed_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_aztec_reformed_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_west_african_pagan_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_west_african_pagan_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_west_african_pagan_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_west_african_pagan_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_west_african_pagan_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_west_african_pagan_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_west_african_pagan_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_west_african_pagan_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_zun_pagan_rank_1_female;虔信者;;;;;;;;;;;;x
-secret_religious_society_zun_pagan_rank_2_female;追随者;;;;;;;;;;;;x
-secret_religious_society_zun_pagan_rank_3_female;布道者;;;;;;;;;;;;x
-secret_religious_society_zun_pagan_rank_4_female;先驱者;;;;;;;;;;;;x
-secret_religious_society_zun_pagan_rank_1_male;虔信者;;;;;;;;;;;;x
-secret_religious_society_zun_pagan_rank_2_male;追随者;;;;;;;;;;;;x
-secret_religious_society_zun_pagan_rank_3_male;布道者;;;;;;;;;;;;x
-secret_religious_society_zun_pagan_rank_4_male;先驱者;;;;;;;;;;;;x
-secret_religious_society_cathar;善良的基督信众;;;;;;;;;;;;x
-secret_religious_society_cathar_desc;清洁派是一个以二元论教义为中心的诺斯替教派。「善良的基督信众」，正如清洁派的忠实信徒自称的那样，相信存在两位上帝 ：一位天堂精神领域的善上帝，一位物质贪欲领域的恶上帝。;;;;;;;;;;;;x
-secret_religious_society_fraticelli;小兄弟会虔信者;;;;;;;;;;;;x
-secret_religious_society_fraticelli_desc;基督徒自其卑微的根基起，就以拒绝因被迫害而放弃他们的信仰为标志。因此，一个殉道者和地下教区的丰富传统可以给那些身处最黑暗的时代的信徒们带来希望，无论他们表面上被迫承认什么。他们可以向彼此宣称他们对上帝的真正信仰，他们的神就是爱。;;;;;;;;;;;;x
-secret_religious_society_lollard;罗拉德派虔信者;;;;;;;;;;;;x
-secret_religious_society_lollard_desc;基督徒自其卑微的根基起，就以拒绝因被迫害而放弃他们的信仰为标志。因此，一个殉道者和地下教区的丰富传统可以给那些身处最黑暗的时代的信徒们带来希望，无论他们表面上被迫承认什么。他们可以向彼此宣称他们对上帝的真正信仰，他们的神就是爱。;;;;;;;;;;;;x
-secret_religious_society_waldensian;瓦勒度派虔信者;;;;;;;;;;;;x
-secret_religious_society_waldensian_desc;基督徒自其卑微的根基起，就以拒绝因被迫害而放弃他们的信仰为标志。因此，一个殉道者和地下教区的丰富传统可以给那些身处最黑暗的时代的信徒们带来希望，无论他们表面上被迫承认什么。他们可以向彼此宣称他们对上帝的真正信仰，他们的神就是爱。;;;;;;;;;;;;x
-secret_religious_society_bogomilist_desc;波格米勒派是一个以二元论学说为中心的诺斯替教派。它的教徒相信两位上帝的存在，一位是天堂精神领域的造物主，另一位邪恶上帝，他创造了物质世界及其所有的诱惑和痛苦的根源。;;;;;;;;;;;;x
-secret_religious_society_monothelite;基督一志派虔信者;;;;;;;;;;;;x
-secret_religious_society_monothelite_desc;使徒们以基督之名建立教会，即使外界压力强迫基督徒弃誓，总有基督徒认为自己步武使徒的芳踪，绝不放弃自己的信仰。他们继续做好善功，坚定自身信仰并建设教会，从心灵深处坚信他们在践行神的旨意。;;;;;;;;;;;;x
-secret_religious_society_iconoclast;圣像破坏派;;;;;;;;;;;;x
-secret_religious_society_iconoclast_desc;使徒们以基督之名建立教会，即使外界压力强迫基督徒弃誓，总有基督徒认为自己步武使徒的芳踪，绝不放弃自己的信仰。他们继续做好善功，坚定自身信仰并建设教会，从心灵深处坚信他们在践行神的旨意。;;;;;;;;;;;;x
-secret_religious_society_paulician;保禄教会虔信者;;;;;;;;;;;;x
-secret_religious_society_paulician_desc;保禄派是一个以二元论学说为中心的诺斯替教派。它的教徒相信两位上帝的存在，一位是天堂精神领域的造物主，另一位邪恶上帝，他创造了物质世界及其所有的诱惑和痛苦的根源。;;;;;;;;;;;;x
-secret_religious_society_miaphysite;基督合性派虔信者;;;;;;;;;;;;x
-secret_religious_society_miaphysite_desc;使徒们以基督之名建立教会，即使外界压力强迫基督徒弃誓，总有基督徒认为自己步武使徒的芳踪，绝不放弃自己的信仰。他们继续做好善功，坚定自身信仰并建设教会，从心灵深处坚信他们在践行神的旨意。;;;;;;;;;;;;x
-secret_religious_society_monophysite;基督一性论虔信者;;;;;;;;;;;;x
-secret_religious_society_monophysite_desc;使徒们以基督之名建立教会，即使外界压力强迫基督徒弃誓，总有基督徒认为自己步武使徒的芳踪，绝不放弃自己的信仰。他们继续做好善功，坚定自身信仰并建设教会，从心灵深处坚信他们在践行神的旨意。;;;;;;;;;;;;x
-secret_religious_society_nestorian;聂斯脱里派虔信者;;;;;;;;;;;;x
-secret_religious_society_nestorian_desc;使徒们以基督之名建立教会，即使外界压力强迫基督徒弃誓，总有基督徒认为自己步武使徒的芳踪，绝不放弃自己的信仰。他们继续做好善功，坚定自身信仰并建设教会，从心灵深处坚信他们在践行神的旨意。;;;;;;;;;;;;x
-secret_religious_society_messalian;祷告派虔信者;;;;;;;;;;;;x
-secret_religious_society_messalian_desc;门萨里安派，「祷告者」，是一个基督教派别。他们相信只有通过认识上帝才能达到完美，正如他向肉身的感受启示自身。为了带来这样的启示，唯一的道路就是祷告——教会，洗礼或任何其他圣礼都不能将欲望驱离灵魂并请来上帝。;;;;;;;;;;;;x
-secret_religious_society_zikri;诵经派虔信者;;;;;;;;;;;;x
-secret_religious_society_zikri_desc;诵经派教徒遵循古兰经的教导，坚信那是穆罕默德对安拉的转述。他们宣称穆罕默德是安拉选中的先知和最初的伊玛目。;;;;;;;;;;;;x
-secret_religious_society_yazidi;天使之子;;;;;;;;;;;;x
-secret_religious_society_yazidi_desc;雅兹迪的教徒相信至高无上的神创造了世界然后谨慎的安排七个天使管理。第一个天使是孔雀天使，矛盾的Melek Taus，一个使善恶降临到他凡人子民身上的统治者。;;;;;;;;;;;;x
-secret_religious_society_druze;睿智者;;;;;;;;;;;;x
-secret_religious_society_druze_desc;德鲁兹派教徒遵循智慧书信的教导，其中包括《旧约》，《古兰经》和柏拉图的哲学著作。虔诚的人相信上帝是整个存在，无限和无所不在。为了与宇宙思想联合并达到终极的幸福，德鲁兹派教徒必须经历许多连续的轮回。;;;;;;;;;;;;x
-secret_religious_society_hurufi;胡儒非派虔信者;;;;;;;;;;;;x
-secret_religious_society_hurufi_desc;胡儒非派教徒遵循古兰经的教导，那是穆罕默德对安拉转述。他们宣称穆罕默德是被安拉选中的先知和最初的伊玛目。他们传播他们的信念，即安拉通过穆罕默德选择阿里作为他的继承人，并因此成为伊斯兰教的第一个哈里发。他们坚持这是安拉的意志。;;;;;;;;;;;;x
-secret_religious_society_ibadi;伊巴迪派虔信者;;;;;;;;;;;;x
-secret_religious_society_ibadi_desc;伊巴迪派的信仰据说早于伊斯兰教逊尼派和什叶派。这些后来的分支和正统的伊巴迪派之间有一些教义上的分歧，如，伊巴底派不相信所有的穆斯林集体都需要一个领袖。但无论如何，他们对安拉的狂热信仰是一样的。;;;;;;;;;;;;x
-secret_religious_society_kharijite;交换者;;;;;;;;;;;;x
-secret_religious_society_kharijite_desc;哈瓦利吉派追随古兰经的教导，那些据说是穆罕默德在神启下口述的经文。不像其他的穆斯林团体，哈瓦利吉派认为任何一个正义且虔诚的穆斯林都可以担任哈里发，而他们的职责就是与一切背离伊斯兰的统治者作斗争。哈瓦利吉派认为能够为安拉殉教是无比的荣耀。;;;;;;;;;;;;x
-secret_religious_society_samaritan;以色列子民;;;;;;;;;;;;x
-secret_religious_society_samaritan_desc;撒玛利亚派认为，他们追随以色列人的真正信仰，就像巴比伦之囚以前一样。类似于犹太教，但他们有自己版本的圣经。他们对着基利心山祈祷，认为这是一个真正的圣殿，是神选中的。;;;;;;;;;;;;x
-secret_religious_society_karaite;阅读者;;;;;;;;;;;;x
-secret_religious_society_karaite_desc;从巴比伦之囚时期开始，隐藏的圣经派信徒团体就已经在迫害下组织起来了。这些团体乐于接纳那些「被迫者（Anusim）」——被迫改变原有犹太教信仰的人，以及「归正者（ger tzedek）」——秘密皈依正信的人。团体关注于自身，坚信尽管时光流逝但真理永远值得坚守。神必预备着。;;;;;;;;;;;;x
-secret_religious_society_mazdaki;马兹达克派虔信者;;;;;;;;;;;;x
-secret_religious_society_mazdaki_desc;马兹达克派相信宇宙有两个本源——善良的光明和邪恶的黑暗。一个意外使这二者混合，一切都被污染——除了神明。人类的目的是通过仁慈的行为来传播他们仁慈的神明的智慧，释放他们内在的光明。;;;;;;;;;;;;x
-secret_religious_society_manichean;摩尼教虔信者;;;;;;;;;;;;x
-secret_religious_society_manichean_desc;摩尼教相信宇宙有两个本源——光明和邪恶的黑暗。一个意外使这二者混合，一切都被污染——除了神明。人类的目的是通过仁慈的行为来传播他们仁慈的神明的智慧，释放他们内在的光明。;;;;;;;;;;;;x
-secret_religious_society_norse_pagan;远古守誓者;;;;;;;;;;;;x
-secret_religious_society_baltic_pagan;季耶瓦斯的选民;;;;;;;;;;;;x
-secret_religious_society_finnish_pagan;乌戈之斧;;;;;;;;;;;;x
-secret_religious_society_slavic_pagan;佩龙的勇士;;;;;;;;;;;;x
-secret_religious_society_tengri_pagan;长生天之箭;;;;;;;;;;;;x
-secret_religious_society_aztec;匿焰;;;;;;;;;;;;x
-secret_religious_society_aztec_desc;忠诚的阿兹特克人勇敢地崇拜他们的神，战士威齐洛波契特里，尽管四面八方都是敌人。如果他们保持真诚，并将人类作为礼物献祭给他，那他将带领他们进入辉煌的征服火与血的新黎明。;;;;;;;;;;;;x
-secret_religious_society_aztec_reformed;太阳之子;;;;;;;;;;;;x
-secret_religious_society_aztec_reformed_desc;忠诚的阿兹特克人勇敢地崇拜他们的神，战士威齐洛波契特里，尽管四面八方都是敌人。如果他们保持真诚，并将人类作为礼物献祭给他，那他将带领他们进入辉煌的征服火与血的新黎明。;;;;;;;;;;;;x
-secret_religious_society_west_african_pagan;灵战士;;;;;;;;;;;;x
-secret_religious_society_zun_pagan;樽之火;;;;;;;;;;;;x
 String_Fire_and_blood;烈火与鲜血;;;;;;;;;;;;x
 String_Huitzilopochtlis_strength_to_you;威齐洛波契特里的力量与你同在;;;;;;;;;;;;x
 String_hummingbird_symbol;蜂鸟标志;;;;;;;;;;;;x
@@ -429,7 +127,6 @@ String_Book_of_Illumination;启示书;;;;;;;;;;;;x
 String_Epistles_of_Wisdom;智慧书;;;;;;;;;;;;x
 String_Great_Secret;重要秘密;;;;;;;;;;;;x
 corrupting_magic_minor;魔法腐蚀;;;;;;;;;;;;x
-corrupting_magic_minor_desc;天下没有白来的力量，黑暗魔法的滥用严重腐蚀了这个角色的肉体，使其变得孱弱不堪且对病魔毫无抵抗能力。;;;;;;;;;;;;x
 corrupting_magic_major;魔法腐蚀;;;;;;;;;;;;x
 corrupting_magic_major_desc;天下没有白来的力量，黑暗魔法的滥用严重腐蚀了这个角色的肉体，使其变得孱弱不堪且对病魔毫无抵抗能力。;;;;;;;;;;;;x
 EVTOPTA_MNM_7051;我知道使用魔力有它的代价，但我从未想到这一点……;;;;;;;;;;;;x
@@ -599,76 +296,14 @@ secretly_convert_to_province_religion;秘密皈依[Root.Location.Religion.GetNam
 secretly_convert_to_province_religion_desc;我被§Y[Root.Capital.GetName]§!深切并狂热信奉着§Y[Root.Capital.Religion.GetName]§!的人民打动了。§Y[Root.Location.Religion.GetRandomGodName]§!的荣光呼唤着我，因此我产生了秘密皈依的念头……;;;;;;;;;;;;x
 secretly_convert_to_close_relations_religion;秘密皈依[Root.Religion.GetName];;;;;;;;;;;;x
 secretly_convert_to_close_relations_religion_desc;§Y[Root.GetFirstName]§!信仰的§Y[Root.Religion.GetName]§!让我很是着迷。虽然我无法公开，但我可以秘密地改信……;;;;;;;;;;;;x
-secret_cathar_community;清洁派秘密团体;;;;;;;;;;;;x
-secret_cathar_community_desc;清洁派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播福音、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_fraticelli_community;小兄弟会秘密团体;;;;;;;;;;;;x
-secret_fraticelli_community_desc;小兄弟会的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播福音、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_waldensian_community;瓦勒度派秘密团体;;;;;;;;;;;;x
-secret_waldensian_community_desc;瓦勒度派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播福音、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_lollard_community;罗拉德派秘密团体;;;;;;;;;;;;x
-secret_lollard_community_desc;罗拉德派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播福音、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_miaphysite_community;基督合性派秘密团体;;;;;;;;;;;;x
-secret_miaphysite_community_desc;基督合性派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播福音、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_monophysite_community;基督一性论派秘密团体;;;;;;;;;;;;x
-secret_monophysite_community_desc;基督一性论派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播福音、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_bogomilist_community;波格米勒派秘密团体;;;;;;;;;;;;x
-secret_bogomilist_community_desc;波格米勒派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播福音、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_monothelite_community;基督一志派秘密团体;;;;;;;;;;;;x
-secret_monothelite_community_desc;基督一志派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播福音、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_iconoclast_community;圣像破坏派秘密团体;;;;;;;;;;;;x
-secret_iconoclast_community_desc;圣像破坏派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播福音、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_paulician_community;保禄派秘密团体;;;;;;;;;;;;x
-secret_paulician_community_desc;保禄派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播福音、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_nestorian_community;聂斯脱里派秘密团体;;;;;;;;;;;;x
-secret_nestorian_community_desc;聂斯脱里派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播福音、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_messalian_community;祷告派秘密团体;;;;;;;;;;;;x
-secret_messalian_community_desc;祷告派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播福音、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_zikri_community;诵经派秘密团体;;;;;;;;;;;;x
-secret_zikri_community_desc;诵经派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_yazidi_community;雅兹迪派秘密团体;;;;;;;;;;;;x
-secret_yazidi_community_desc;雅兹迪派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_ibadi_community;伊巴迪派秘密团体;;;;;;;;;;;;x
-secret_ibadi_community_desc;伊巴迪派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_kharijite_community;哈瓦利吉派秘密团体;;;;;;;;;;;;x
-secret_kharijite_community_desc;哈瓦利吉派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_druze_community;德鲁兹派秘密团体;;;;;;;;;;;;x
-secret_druze_community_desc;德鲁兹派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_hurufi_community;胡儒非派秘密团体;;;;;;;;;;;;x
-secret_hurufi_community_desc;胡儒非派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_norse_pagan_community;日耳曼多神教秘密团体;;;;;;;;;;;;x
-secret_norse_pagan_community_desc;日耳曼多神教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_tengri_pagan_community;长生天秘密团体;;;;;;;;;;;;x
-secret_tengri_pagan_community_desc;长生天的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_baltic_pagan_community;洛姆瓦秘密团体;;;;;;;;;;;;x
-secret_baltic_pagan_community_desc;洛姆瓦信仰的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_finnish_pagan_community;索米多神教秘密团体;;;;;;;;;;;;x
-secret_finnish_pagan_community_desc;索米多神教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_aztec_community;阿兹特克信仰秘密团体;;;;;;;;;;;;x
-secret_aztec_community_desc;阿兹特克信仰的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_aztec_reformed_community;阿兹特克信仰秘密团体;;;;;;;;;;;;x
-secret_aztec_reformed_community_desc;阿兹特克信仰的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_slavic_pagan_community;斯拉夫多神教秘密团体;;;;;;;;;;;;x
-secret_slavic_pagan_community_desc;斯拉夫多神教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_west_african_pagan_community;西非泛灵教秘密团体;;;;;;;;;;;;x
-secret_west_african_pagan_community_desc;西非泛灵教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_zun_pagan_community;尊日神教秘密团体;;;;;;;;;;;;x
-secret_zun_pagan_community_desc;尊日神教忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_samaritan_community;撒马利亚派秘密团体;;;;;;;;;;;;x
-secret_samaritan_community_desc;撒马利亚派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_karaite_community;圣经派秘密团体;;;;;;;;;;;;x
-secret_karaite_community_desc;圣经派的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_mazdaki_community;马兹达克派秘密团体;;;;;;;;;;;;x
-secret_mazdaki_community_desc;马兹达克派忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-secret_manichean_community;摩尼教秘密团体;;;;;;;;;;;;x
-secret_manichean_community_desc;摩尼教的忠实信徒们在这个省份秘密地组织了教团，在那里，他们传播信仰、壮大势力，并在异教徒的压迫下谋求自保。;;;;;;;;;;;;x
-religion_openly_norse_or_reformed_tooltip;公开追随§Y日耳曼多神教§!信仰;;;;;;;;;;;;x
-religion_openly_baltic_or_reformed_tooltip;公开追随§Y洛姆瓦§!信仰;;;;;;;;;;;;x
-religion_openly_finnish_or_reformed_tooltip;公开追随§Y索米多神教§!信仰;;;;;;;;;;;;x
-religion_openly_slavic_or_reformed_tooltip;公开追随§Y斯拉夫多神教§!信仰;;;;;;;;;;;;x
-religion_openly_tengri_or_reformed_tooltip;公开追随§Y长生天§!信仰;;;;;;;;;;;;x
-religion_openly_west_african_or_reformed_tooltip;公开追随§Y西非泛灵教§!信仰;;;;;;;;;;;;x
-religion_openly_zun_or_reformed_tooltip;公开追随§Y尊日神教§! 信仰;;;;;;;;;;;;x
-religion_openly_aztec_or_reformed_tooltip;公开追随§Y阿兹特克信仰§!;;;;;;;;;;;;x
+religion_openly_norse_or_reformed_tooltip;Publicly follows the §Y[norse_pagan_reformed.GetName]§! religion;;;;;;;;;;;;x
+religion_openly_baltic_or_reformed_tooltip;Publicly follows the §Y[baltic_pagan_reformed.GetName]§! religion;;;;;;;;;;;;x
+religion_openly_finnish_or_reformed_tooltip;Publicly follows the §Y[finnish_pagan_reformed.GetName]§! religion;;;;;;;;;;;;x
+religion_openly_slavic_or_reformed_tooltip;Publicly follows the §Y[slavic_pagan_reformed.GetName]§! religion;;;;;;;;;;;;x
+religion_openly_tengri_or_reformed_tooltip;Publicly follows the §Y[tengri_pagan_reformed.GetName]§! religion;;;;;;;;;;;;x
+religion_openly_west_african_or_reformed_tooltip;Publicly follows the §Y[west_african_pagan_reformed.GetName]§! religion;;;;;;;;;;;;x
+religion_openly_zun_or_reformed_tooltip;Publicly follows the §Y[zun_pagan_reformed.GetName]§! religion;;;;;;;;;;;;x
+religion_openly_aztec_or_reformed_tooltip;Publicly follows the §Y[aztec_reformed.GetName]§! religion;;;;;;;;;;;;x
 FOLLOWS_SECRET_RELIGION_TOOLTIP;这名角色私下里信奉着$RELIGION|Y$。;;;;;;;;;;;;x
 CAN_SEE_SECRET_RELIGION;知道$WHO|Y$秘密信仰一个宗教;;;;;;;;;;;;x
 CANNOT_SEE_SECRET_RELIGION;无从知晓$WHO|Y$是否在秘密信仰一个宗教;;;;;;;;;;;;x
@@ -676,7 +311,6 @@ FILTER_HAS_SECRET_RELIGION;拥有秘密宗教;;;;;;;;;;;;x
 alert_society_rank_up_possible_instant;§Y可以提高社团位阶§!;;;;;;;;;;;;x
 alert_society_rank_up_possible_delayed;在你的社团里你已经获得了足够的影响力，现在你可以要求升到下一位阶。;;;;;;;;;;;;x
 ALLY_ORDER_BUSY_OTHER_CAMPAIGN;这个角色目前无法帮助你，因为他正忙于$WAR|Y$;;;;;;;;;;;;x
-secret_religious_society_bogomilist;波格米勒派虔信者;;;;;;;;;;;;x
 opinion_abducted;被劫持;;;;;;;;;;;;x
 known_satanist;已知的恶魔崇拜者;;;;;;;;;;;;x
 known_satanist_desc;这个角色已经被揭露是一个恶魔的崇拜者。;;;;;;;;;;;;x
