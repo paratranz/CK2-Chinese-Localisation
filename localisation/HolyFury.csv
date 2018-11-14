@@ -2,7 +2,7 @@
 EVTDESC_JD_10023_death;During [From.GetHerHis] visit, [From.GetTitledName], the [From.GetJobTitle] sent from [offmap_china.Governor.GetTitledFirstName], has died. While it is a tragedy, it also puts me in the awkward position of having to inform the [offmap_china.Governor.GetTitle] about how the [From.GetJobTitle]'s diplomatic visit is canceled.;;;;;;;;;;;;x
 EVTDESC_JD_10023_prison;During [From.GetHerHis] visit, [From.GetTitledName], on a diplomatic mission from [offmap_china.Governor.GetTitledFirstName], has been imprisoned! I am not sure how to phrase the letter to the Protector General, but this obviously means that [From.GetHerHis] visit is canceled.;;;;;;;;;;;;x
 EVTDESC_JD_10023_missing;During [From.GetHerHis] visit, [From.GetTitledName], the [From.GetJobTitle] sent from [offmap_china.Governor.GetTitledFirstName], has gone missing! I am not sure how to phrase the letter to the Protector General, but this obviously means that [From.GetHerHis] visit is canceled.;;;;;;;;;;;;x
-EVTOPTA_JD_10023;I shall have my scribes compose a letter to the [offmap_china.Governor.GetTitle].;;;;;;;;;;;;x
+EVTOPTA_JD_10023;我得差遣我的书记员给[offmap_china.Governor.GetTitle]写封信;;;;;;;;;;;;x
 EVTOPTB_JD_10023;[offmap_china.Governor.GetTitle]最终会发现的;;;;;;;;;;;;x
 gender_is_culturally_or_religiously_eligble_tt;The gender of §Y[Root.GetTitledName]§! is culturally or religiously eligible\n;;;;;;;;;;;;x
 special_gender_laws_active_tt;特殊§Y法律§!或§Y游戏规则§!已启用\n;;;;;;;;;;;;x
@@ -19819,10 +19819,10 @@ relief_efforts_builders_desc;This character has sent word through [Root.GetHerHi
 EVTTITLE_HF_15123;The Rotting Library in [flooded_province.GetName];;;;;;;;;;;;x
 EVTDESC_HF_15123;"It started out as a strange smell, and could have gone unnoticed for weeks, had I not been down there recently", my [Root.GetMyLordSpiritualName] [my_spiritual.GetTitledFirstName] explains, a hint of pride in [my_spiritual.GetHerHis] voice.\n"This way, my [Root.GetLordLady]", [my_spiritual.GetSheHe] says, leading me into the flooded room. The smell makes my nose itch.;;;;;;;;;;;;x
 EVTOPTA_HF_15123;These items are *priceless*! We have to save them!;;;;;;;;;;;;x
-EVTOPTB_HF_15123;Moldy old books? Get rid of them.;;;;;;;;;;;;x
+EVTOPTB_HF_15123;发霉的旧书？把它们处理掉吧。;;;;;;;;;;;;x
 EVTTITLE_HF_15124;The Flooded Armory in [flooded_province.GetName];;;;;;;;;;;;x
 EVTDESC_HF_15124;"The quartermaster noticed it first", [my_marshal.GetTitledFirstName] says, clearly disgruntled by the ordeal. "We have cleaned out what we could, but I am afraid there are still some items unaccounted for, [Root.GetMasterMistress]", my [Root.GetMyMarshalName] says, avoiding my eyes.;;;;;;;;;;;;x
-EVTOPTA_HF_15124;You're an expert! Find the items, and make them *shine*.;;;;;;;;;;;;x
+EVTOPTA_HF_15124;你是个专家！找到那些物品，让它们变得「闪耀」。;;;;;;;;;;;;x
 EVTOPTB_HF_15124;Surely, you do not mean *my* things? Noooo, my [target_artifact.GetName]!;;;;;;;;;;;;x
 EVTDESC_HF_15125_A;Our people in [starving_province.GetName] are starving. The lack of food is bound to affect the health of the residents at court there.;;;;;;;;;;;;x
 EVTDESC_HF_15125_B;In spite of relief efforts, some people in [starving_province.GetName] are starving. The lack of food is bound to affect the health of the residents at court there.;;;;;;;;;;;;x
@@ -19918,13 +19918,13 @@ HEAD_ZUN_PRIESTESS;Dastur;;;;;;;;;;;;x
 HEAD_AFRICAN_PRIEST;Grand Saltigue;;;;;;;;;;;;x
 HEAD_AFRICAN_PRIESTESS;Grand Saltigue;;;;;;;;;;;;x
 arberian;Arberian;;;;;;;;;;;;x
-setting_shattered_succession_all_primogeniture_tooltip;All Titles will be assigned Primogeniture succession.\n - The oldest child inherits all titles.\n - Your successor will like the law, but other members of your Dynasty will slightly disapprove.;;;;;;;;;;;;x
-setting_shattered_succession_all_gavelkind_tooltip;All Titles will be assigned Gavelkind succession.\n - Titles are divided among your children, with the oldest getting the primary title.\n - You get no Prestige penalty for having unlanded sons.\n - You can have a §Y30%§! larger demesne.\n - Destruction of Titles is not allowed.\n - Very popular with everyone except your oldest child.;;;;;;;;;;;;x
-setting_shattered_succession_all_elective_gavelkind_tooltip;All Titles will be assigned Elective Gavelkind succession.\n - Titles are divided among your children and the Primary Heir who is elected from among the members of the ruling Dynasty.\n - You get no Prestige penalty for having unlanded sons.\n - You can have a §Y30%§! larger demesne.\n - Destruction of Titles is not allowed.\n - On succession in Kingdoms and Empires, new Kingdoms might be created for younger sons if possible.\n - Junior heirs always get the choice to declare independence without a war.;;;;;;;;;;;;x
-setting_shattered_succession_all_elective_tooltip;All Titles will be assigned Elective Monarchy succession.\n - You and each lower rank Vassal (e.g. Dukes if you are a King) can nominate a successor from among themselves and your legitimate children and siblings.\n - Dukes are valid electors in both Kingdoms and Empires.\n - Very popular with your Vassals, but they will not approve if you personally hold too many elector Titles.;;;;;;;;;;;;x
-setting_shattered_succession_all_seniority_tooltip;All Titles will be assigned Seniority succession.\n - The oldest member of your Dynasty inherits all Titles.\n - Your oldest child will greatly disapprove of this law, but all other members of the Dynasty will approve.;;;;;;;;;;;;x
-setting_shattered_succession_all_ultimogeniture_tooltip;All Titles will be assigned Ultimogeniture succession.\n - The youngest child inherits all Titles.\n - The opposite of the far more common Primogeniture.;;;;;;;;;;;;x
-setting_shattered_succession_all_tanistry_tooltip;All Titles will be assigned Tanistry succession.\n - You and all Vassals at one and two ranks below can nominate an heir - the Tanist - from among the members of your Dynasty.\n - Vassals will tend to favor older members from other branches of the family, especially Claimants.;;;;;;;;;;;;x
-ASK_TO_DECLARE_WAR_INTERACTION_ACCEPT_SETUP;Ask to press claim;;;;;;;;;;;;x
-ASK_TO_DECLARE_WAR_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! declared $CB$ on §Y[Recipient.GetBestName]§!.;;;;;;;;;;;;x
+setting_shattered_succession_all_primogeniture_tooltip;所有的头衔会被指定为长子继承法。\n-最年长的孩子继承所有头衔。\n-你的继承人会喜欢这个法律，但你的其他家族成员对其会有些反感。;;;;;;;;;;;;x
+setting_shattered_succession_all_gavelkind_tooltip;所有的头衔会被指定为均分继承法。\n-头衔会被分配给所有孩子，而长子继承主要头衔。\n-你不会因为无领地的儿子而受到威望惩罚。\n-你的直辖领地数量上限会增加§Y30%§!。\n-禁止摧毁头衔。\n-该继承法十分受到除长子以外所有孩子的欢迎。;;;;;;;;;;;;x
+setting_shattered_succession_all_elective_gavelkind_tooltip;所有的头衔会被指定为选举均分继承法。\n-头衔会被候选人中第一继承人和其他人选所继承。\n-你不会因为无领地的儿子而受到威望惩罚。\n-你的直辖领地数量上限会增加§Y30%§!。\n-禁止摧毁头衔。\n-如果继承了帝国之下的王国，则在条件允许下，新王国会被创立以授予较年幼的孩子。\n-低级的候选继承人总能不经开战就宣告独立。;;;;;;;;;;;;x
+setting_shattered_succession_all_elective_tooltip;所有的头衔会被指定为选举继承法。\n-你和每个更低级的封臣（如果统治者是国王，那么就是公爵）能从他们自己以及统治者合法的孩子或兄弟姐妹当中提名一位作为继承人。\n-公爵在王国和帝国中都可以参选。\n-封臣们喜欢选举继承法，但如果领主自己持有太多选侯头衔，他们将不会赞成选举继承法。;;;;;;;;;;;;x
+setting_shattered_succession_all_seniority_tooltip;所有的头衔会被指定为年长者继承法。\n-你家族中最年长的成员会继承所有头衔。\n-你最年长的孩子会非常讨厌这个法律，但其他的家族成员会喜欢。;;;;;;;;;;;;x
+setting_shattered_succession_all_ultimogeniture_tooltip;所有的头衔会被指定为幼子继承法。\n-最小的孩子继承所有头衔。\n-与更为常见的长子继承法相对。;;;;;;;;;;;;x
+setting_shattered_succession_all_tanistry_tooltip;所有的头衔会被指定为凯尔特酋长选举继承法。\n-你，以及比你低一至二等级的封臣皆可提名继承人————即储副————储副是从你的家族成员中选出来的。\n-封臣们更愿意从家族的其他支系中选择年长者，尤其是宣称者。;;;;;;;;;;;;x
+ASK_TO_DECLARE_WAR_INTERACTION_ACCEPT_SETUP;要求索取宣称;;;;;;;;;;;;x
+ASK_TO_DECLARE_WAR_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!对§Y[Recipient.GetBestName]§!宣告$CB$;;;;;;;;;;;;x
 EVTDESC_HF_12006;My history in battle is known to many, but there are still those who could benefit from learning more about my experiences. "Like that time you chopped someone's head off?" [fellow_member.GetTitledFirstName] asks, in response to my idea. "A feast, where you regale your court with the stories!" [fellow_member.GetSheHe] continues. I consider the spirits it could lift, as I soon depart for [target_title.GetName].;;;;;;;;;;;;x
