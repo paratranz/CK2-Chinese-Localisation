@@ -5,8 +5,8 @@ EVTDESC_JD_10023_missing;During [From.GetHerHis] visit, [From.GetTitledName], th
 EVTOPTA_JD_10023;I shall have my scribes compose a letter to the [offmap_china.Governor.GetTitle].;;;;;;;;;;;;x
 EVTOPTB_JD_10023;[offmap_china.Governor.GetTitle]最终会发现的;;;;;;;;;;;;x
 gender_is_culturally_or_religiously_eligble_tt;The gender of §Y[Root.GetTitledName]§! is culturally or religiously eligible\n;;;;;;;;;;;;x
-special_gender_laws_active_tt;Special §YLaws§! or §YGame Rules§! are active\n;;;;;;;;;;;;x
-no_special_gender_laws_active_tt;Special §YLaws§! or §YGame Rules§! are NOT active\n;;;;;;;;;;;;x
+special_gender_laws_active_tt;特殊§Y法律§!或§Y游戏规则§!已启用\n;;;;;;;;;;;;x
+no_special_gender_laws_active_tt;特殊§Y法律§!或§Y游戏规则§!未启用\n;;;;;;;;;;;;x
 tribal_or_nomadic_government_tt;是§Y部落§!或§Y游牧§!政府\n;;;;;;;;;;;;x
 has_liege_vassal_or_neighbor_of_norse_religion_tt;拥有一位信奉§Y日耳曼多神教§!信仰的§Y领主§!，§Y封臣§!或一位§Y相邻的统治者§!\n;;;;;;;;;;;;x
 currency_name_warrior_lodge_norse;名望;;;;;;;;;;;;x
@@ -70,22 +70,22 @@ EVTOPTB_HFP_10105_default;我绝不留情。;;;;;;;;;;;;x
 EVTOPTB_HFP_10105_lunatic;你为什么不跪下来向我求饶？！;;;;;;;;;;;;x
 EVTOPTB_HFP_10105_rival;这一刻我已经等了很久了，你这条无耻阴险的毒蛇！;;;;;;;;;;;;x
 EVTDESC_HFP_10106_default_E;正当[other_combatant.GetTitledName]狂乱的挥舞着[other_combatant.GetHerHis][other_combatant.GetDuelWeapon]时，一声尖锐的惨叫划破了天际。意识模糊的我发现那是我自己的声音————我的对手成功的[Root.GetWeaponInjuringBlowOnMe]。;;;;;;;;;;;;x
-EVTDESC_HFP_10106_mock_duel_A;A simple [combatant_1.GetDuelType] or not, [other_combatant.GetTitledFirstName] has an air of unquestioned confidence about [other_combatant.GetHerHim]. When I charge, [other_combatant.GetSheHe] snickers. At the end of it all, I am lying on the ground, after my opponent made sure to [Root.GetWeaponInjuringBlowOnMe].;;;;;;;;;;;;x
+EVTDESC_HFP_10106_mock_duel_A;不管[other_combatant.GetTitledFirstName]是不是仅仅一个[combatant_1.GetDuelType]，[other_combatant.GetHerHim]浑身上下都散发着一股毋庸置疑的自信。当我冲锋的时候，[other_combatant.GetSheHe]居然暗自笑起来！我的对手确保[Root.GetWeaponInjuringBlowOnMe]后，一切都结束了，我僵卧在地面上，一动不动。;;;;;;;;;;;;x
 EVTDESC_HFP_10106_mock_duel_B;[other_combatant.GetTitledFirstName]开始向我发起冲锋，不过一会儿就[Root.GetWeaponInjuringBlowOnMe]。人群似乎没有被我的努力所打动。;;;;;;;;;;;;x
 EVTDESC_HFP_10106_mock_duel_C;人群正在为了[other_combatant.GetTitledName]欢呼，[other_combatant.GetSheHe]以无限乐观的姿态，在空中挥舞着[other_combatant.GetHerHis][other_combatant.GetDuelWeapon]。当一切结束时，[other_combatant.GetManWoman]满怀怜悯的看着我。;;;;;;;;;;;;x
 EVTOPTA_HFP_10106;我感觉不太好……;;;;;;;;;;;;x
 EVTOPTA_HFP_10106_stubborn;为什么，你这个————！我下次会给你点颜色看看的，[other_combatant.GetFirstName]！;;;;;;;;;;;;x
 EVTOPTA_HFP_10106_mock_duel;你赢了，[other_combatant.GetFirstName]。;;;;;;;;;;;;x
 EVTDESC_HFP_10112_default;有时候，当我在看我的士兵们在校场上操练剑术时，[other_combatant.GetTitledFirstName]的脸会突然在我眼前重现，接着是我们的那场决斗。这一切都让我的心跳加快————当时我没有成功的捍卫我的荣耀。虽然已经过去很久了，但是这种羞耻的感觉伴我至今。;;;;;;;;;;;;x
-EVTOPTA_HFP_10112;I'll make [other_combatant.GetHerHim] pay for this, in time.;;;;;;;;;;;;x
-EVTOPTB_HFP_10112;These feelings shall pass.;;;;;;;;;;;;x
-EVTOPTA_HFP_10115;There's no shame in acknowledging a worthy opponent!;;;;;;;;;;;;x
-EVTOPTB_HFP_10115;I will not withstand this mockery.;;;;;;;;;;;;x
+EVTOPTA_HFP_10112;终有一天，我要让[other_combatant.GetHerHim]为此付出代价。;;;;;;;;;;;;x
+EVTOPTB_HFP_10112;这些感受会过去的。;;;;;;;;;;;;x
+EVTOPTA_HFP_10115;有一个这样旗鼓相当的对手实乃三生有幸！;;;;;;;;;;;;x
+EVTOPTB_HFP_10115;我才不会忍受这些嘲弄。;;;;;;;;;;;;x
 EVTDESC_HFP_10116;I have recently found myself becoming friendly with [From.GetTitledFirstName]. [From.GetSheHeCap] chuckles heartily, however, when I attempt to compliment the [From.GetManWoman] on [From.GetHerHis] fighting technique. "My [Root.GetLordLady], we both know that I did not do very well, last time we sparred", [From.GetSheHe] says;;;;;;;;;;;;x
 EVTOPTA_HFP_10116_honest;Honesty? How refreshing!;;;;;;;;;;;;x
-EVTOPTA_HFP_10116_default;Oh, don't be too hard on yourself, my good [From.GetManWoman]!;;;;;;;;;;;;x
-is_member_of_roots_warrior_lodge_tt;§Y[Root.GetTitledName]§! and §Y[From.GetTitledName]§! are members of the same Warrior Lodge.\n;;;;;;;;;;;;x
-is_member_of_any_warrior_lodge_tt;Is a member of a Warrior Lodge\n;;;;;;;;;;;;x
+EVTOPTA_HFP_10116_default;喔，不要对自己太苛刻了，我的好[From.GetManWoman]！;;;;;;;;;;;;x
+is_member_of_roots_warrior_lodge_tt;§Y[Root.GetTitledName]§!和§Y[From.GetTitledName]§!是同一个战士小屋的成员。\n;;;;;;;;;;;;x
+is_member_of_any_warrior_lodge_tt;是一个战士小屋的成员\n;;;;;;;;;;;;x
 String_age;old age;;;;;;;;;;;;x
 String_venerable_age;venerable age;;;;;;;;;;;;x
 String_young_age;young age;;;;;;;;;;;;x
