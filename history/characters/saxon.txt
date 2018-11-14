@@ -1280,6 +1280,7 @@
     trait = quick
     trait = brilliant_strategist
     father = 33355
+    mother = 252210
     849.1.1 = {
         birth = yes
     }
@@ -1556,10 +1557,13 @@
     culture = "saxon"
     father = 33354
     795.1.1 = {
-        birth = "795.1.1"
+        birth = yes
+    }
+    830.1.1 = {
+        add_spouse = 252210
     }
     858.1.13 = {
-        death = "858.1.13"
+        death = yes
     }
 }
 33356 = {
@@ -1568,11 +1572,12 @@
     religion = "catholic"
     culture = "saxon"
     father = 33355
+    mother = 252210
     834.1.1 = {
-        birth = "834.1.1"
+        birth = yes
     }
     860.12.20 = {
-        death = "860.12.20"
+        death = yes
     }
 }
 33357 = {
@@ -1581,6 +1586,7 @@
     religion = "catholic"
     culture = "saxon"
     father = 33355
+    mother = 252210
     836.1.1 = {
         birth = "836.1.1"
     }
@@ -1594,6 +1600,7 @@
     religion = "catholic"
     culture = "saxon"
     father = 33355
+    mother = 252210
     840.1.1 = {
         birth = "840.1.1"
     }
@@ -1614,7 +1621,7 @@
     }
 }
 151014 = {
-    name = "阿诺德"  # Arnold
+    name = "阿诺尔德"  # Arnold
     religion = "catholic"
     culture = "saxon"
     trait = "trusting"
@@ -2230,6 +2237,7 @@
     religion = "catholic"
     culture = "saxon"
     father = 33355
+    mother = 252210
     838.1.1 = {
         birth = yes
     }
@@ -3320,13 +3328,14 @@
     culture = "saxon"
     father = 205057
     630.1.1 = {
-        birth = "630.1.1"
+        birth = yes
     }
     655.11.15 = {
+        add_spouse = 252176
         religion = "catholic"
     }
     656.4.17 = {
-        death = "656.4.17"
+        death = yes
     }
 }
 205061 = {
@@ -3711,10 +3720,13 @@
     culture = "saxon"
     father = 205087
     850.1.1 = {
-        birth = "850.1.1"
+        birth = yes
+    }
+    886.1.1 = {
+        add_spouse = 252377
     }
     911.1.1 = {
-        death = "911.1.1"
+        death = yes
     }
 }
 205080 = {
@@ -4049,6 +4061,9 @@
     710.1.1 = {
         birth = yes
     }
+    769.1.1 = {
+        capital = c_mainz
+    }
     786.10.16 = {
         death = yes
     }
@@ -4058,11 +4073,12 @@
     dynasty = 1047006
     religion = "norse_pagan"
     culture = "saxon"
+    father = 252190
     460.1.1 = {
-        birth = "460.1.1"
+        birth = yes
     }
     534.1.1 = {
-        death = "534.1.1"
+        death = yes
     }
 }
 205142 = {
@@ -5340,11 +5356,12 @@
     dynasty = 1047009
     religion = "norse_pagan"
     culture = "saxon"
+    father = 252168
     500.1.1 = {
-        birth = "500.1.1"
+        birth = yes
     }
     559.1.1 = {
-        death = "559.1.1"
+        death = yes
     }
 }
 205193 = {
@@ -5629,13 +5646,16 @@
     father = 205209
     mother = 205210
     612.1.1 = {
-        birth = "612.1.1"
+        birth = yes
+    }
+    629.1.1 = {
+        add_spouse = 252216
     }
     642.1.1 = {
         add_spouse = 205214
     }
     670.2.15 = {
-        death = "670.2.15"
+        death = yes
     }
 }
 205214 = {
@@ -6550,6 +6570,1001 @@
         birth = yes
     }
     1075.1.1 = {
+        death = yes
+    }
+}
+252053 = {
+    name = "Wilfrid"
+    religion = "catholic"
+    culture = "saxon"
+    trait = "chaste"
+    trait = "diligent"
+    trait = "mastermind_theologian"
+    633.1.1 = {
+        birth = yes
+    }
+    709.1.1 = {
+        death = yes
+    }
+}
+252054 = {
+    name = "Eata"
+    religion = "catholic"
+    culture = "saxon"
+    trait = "chaste"
+    trait = "diligent"
+    trait = "mastermind_theologian"
+    635.1.1 = {
+        birth = yes
+    }
+    686.10.26 = {
+        death = yes
+    }
+}
+252055 = {
+    name = "Cuthbert"
+    religion = "catholic"
+    culture = "saxon"
+    trait = "chaste"
+    trait = "diligent"
+    trait = "mastermind_theologian"
+    634.1.1 = {
+        birth = yes
+    }
+    687.3.20 = {
+        death = yes
+    }
+}
+252056 = {
+    name = "Eadberht"
+    religion = "catholic"
+    culture = "saxon"
+    trait = "chaste"
+    trait = "diligent"
+    trait = "mastermind_theologian"
+    640.1.1 = {
+        birth = yes
+    }
+    698.5.6 = {
+        death = yes
+    }
+}
+252057 = {
+    name = "Eadfrith"
+    religion = "catholic"
+    culture = "saxon"
+    trait = "chaste"
+    trait = "diligent"
+    trait = "mastermind_theologian"
+    656.1.1 = {
+        birth = yes
+    }
+    721.1.1 = {
+        death = yes
+    }
+}
+252058 = {
+    name = "Æthelwold"
+    religion = "catholic"
+    culture = "saxon"
+    trait = "chaste"
+    trait = "diligent"
+    trait = "mastermind_theologian"
+    684.1.1 = {
+        birth = yes
+    }
+    740.1.1 = {
+        death = yes
+    }
+}
+252059 = {
+    name = "Higbald"
+    religion = "catholic"
+    culture = "saxon"
+    learning = 8
+    744.1.1 = {
+        birth = yes
+    }
+    803.5.23 = {
+        death = yes
+    }
+}
+252060 = {
+    name = "Egbert"
+    religion = "catholic"
+    culture = "saxon"
+    learning = 8
+    777.1.1 = {
+        birth = yes
+    }
+    821.1.1 = {
+        death = yes
+    }
+}
+252061 = {
+    name = "Heathwred"
+    religion = "catholic"
+    culture = "saxon"
+    learning = 8
+    782.1.1 = {
+        birth = yes
+    }
+    830.1.1 = {
+        death = yes
+    }
+}
+252062 = {
+    name = "Ecgred"
+    religion = "catholic"
+    culture = "saxon"
+    learning = 8
+    780.1.1 = {
+        birth = yes
+    }
+    845.1.1 = {
+        death = yes
+    }
+}
+252063 = {
+    name = "Eanbert"
+    religion = "catholic"
+    culture = "saxon"
+    learning = 8
+    797.1.1 = {
+        birth = yes
+    }
+    854.1.1 = {
+        death = yes
+    }
+}
+252064 = {
+    name = "Cutheard"
+    religion = "catholic"
+    culture = "saxon"
+    learning = 8
+    856.1.1 = {
+        birth = yes
+    }
+    915.1.1 = {
+        death = yes
+    }
+}
+252065 = {
+    name = "Tilred"
+    religion = "catholic"
+    culture = "saxon"
+    learning = 8
+    879.1.1 = {
+        birth = yes
+    }
+    925.1.1 = {
+        death = yes
+    }
+}
+252066 = {
+    name = "Wigred"
+    religion = "catholic"
+    culture = "saxon"
+    learning = 8
+    883.1.1 = {
+        birth = yes
+    }
+    942.1.1 = {
+        death = yes
+    }
+}
+252067 = {
+    name = "Uchtred"
+    religion = "catholic"
+    culture = "saxon"
+    learning = 8
+    880.1.1 = {
+        birth = yes
+    }
+    944.1.1 = {
+        death = yes
+    }
+}
+252068 = {
+    name = "Sexhelm"
+    religion = "catholic"
+    culture = "saxon"
+    learning = 8
+    892.1.1 = {
+        birth = yes
+    }
+    948.1.1 = {
+        death = yes
+    }
+}
+252069 = {
+    name = "Aldred"
+    religion = "catholic"
+    culture = "saxon"
+    learning = 8
+    906.1.1 = {
+        birth = yes
+    }
+    968.1.1 = {
+        death = yes
+    }
+}
+252070 = {
+    name = "Ælfsige"
+    religion = "catholic"
+    culture = "saxon"
+    learning = 8
+    926.1.1 = {
+        birth = yes
+    }
+    990.1.1 = {
+        death = yes
+    }
+}
+252071 = {
+    name = "Aldhun"
+    religion = "catholic"
+    culture = "saxon"
+    learning = 8
+    961.1.1 = {
+        birth = yes
+    }
+    1018.1.1 = {
+        death = yes
+    }
+}
+252072 = {
+    name = "Edmund"
+    religion = "catholic"
+    culture = "saxon"
+    learning = 8
+    978.1.1 = {
+        birth = yes
+    }
+    1041.1.1 = {
+        death = yes
+    }
+}
+252073 = {
+    name = "Eadred"
+    religion = "catholic"
+    culture = "saxon"
+    learning = 8
+    983.1.1 = {
+        birth = yes
+    }
+    1042.1.1 = {
+        death = yes
+    }
+}
+252074 = {
+    name = "Æthelric"
+    religion = "catholic"
+    culture = "saxon"
+    learning = 8
+    1013.1.1 = {
+        birth = yes
+    }
+    1072.10.15 = {
+        death = yes
+    }
+}
+252168 = {
+    name = "Usfrey"
+    dynasty = 1047009
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252169
+    482.1.1 = {
+        birth = yes
+    }
+    525.1.1 = {
+        death = yes
+    }
+}
+252169 = {
+    name = "Wilgils"
+    dynasty = 1047009
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252170
+    464.1.1 = {
+        birth = yes
+    }
+    511.1.1 = {
+        death = yes
+    }
+}
+252170 = {
+    name = "Westerfalea"
+    dynasty = 1047009
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252171
+    440.1.1 = {
+        birth = yes
+    }
+    489.1.1 = {
+        death = yes
+    }
+}
+252171 = {
+    name = "Soemel"
+    dynasty = 1047009
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252172
+    422.1.1 = {
+        birth = yes
+    }
+    471.1.1 = {
+        death = yes
+    }
+}
+252172 = {
+    name = "Saefugel"
+    dynasty = 1047009
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252173
+    404.1.1 = {
+        birth = yes
+    }
+    452.1.1 = {
+        death = yes
+    }
+}
+252173 = {
+    name = "Saebald"
+    dynasty = 1047009
+    religion = "norse_pagan"
+    culture = "saxon"
+    386.1.1 = {
+        birth = yes
+    }
+    438.1.1 = {
+        death = yes
+    }
+}
+252174 = {
+    name = "Œthelwald"
+    dynasty = 1047010
+    religion = "catholic"
+    culture = "saxon"
+    father = 205212
+    625.1.1 = {
+        birth = yes
+    }
+    655.1.1 = {
+        death = yes
+    }
+}
+252175 = {
+    name = "Alhfrith"
+    dynasty = 1047010
+    religion = "catholic"
+    culture = "saxon"
+    father = 205213
+    mother = 252216
+    630.1.1 = {
+        birth = yes
+    }
+    655.1.1 = {
+        add_spouse = 252177
+    }
+    664.1.1 = {
+        death = yes
+    }
+}
+252176 = {
+    name = "Alhflaed"
+    female = yes
+    dynasty = 1047010
+    religion = "catholic"
+    culture = "saxon"
+    father = 205213
+    mother = 252216
+    636.1.1 = {
+        birth = yes
+    }
+    670.1.1 = {
+        death = yes
+    }
+}
+252177 = {
+    name = "Cyneburh"
+    female = yes
+    dynasty = 1047002
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 205057
+    637.1.1 = {
+        birth = yes
+    }
+    655.11.15 = {
+        religion = "catholic"
+    }
+    680.9.15 = {
+        death = yes
+    }
+}
+252178 = {
+    name = "Cyneswitha"
+    female = yes
+    dynasty = 1047002
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 205057
+    640.1.1 = {
+        birth = yes
+    }
+    655.11.15 = {
+        religion = "catholic"
+    }
+    676.1.1 = {
+        death = yes
+    }
+}
+252179 = {
+    name = "Ecgfrith"
+    dynasty = 1047010
+    religion = "catholic"
+    culture = "saxon"
+    father = 205213
+    mother = 205214
+    645.1.1 = {
+        birth = yes
+    }
+    661.1.1 = {
+        add_spouse = 252180
+    }
+    685.5.20 = {
+        death = yes
+    }
+}
+252180 = {
+    name = "Æthelthryth"
+    female = yes
+    dynasty = 1047000
+    religion = "catholic"
+    culture = "saxon"
+    father = 205007
+    636.1.1 = {
+        birth = yes
+    }
+    679.6.23 = {
+        death = yes
+    }
+}
+252181 = {
+    name = "Ælfwine"
+    dynasty = 1047010
+    religion = "catholic"
+    culture = "saxon"
+    father = 205213
+    mother = 205214
+    661.1.1 = {
+        birth = yes
+    }
+    679.1.1 = {
+        death = yes
+    }
+}
+252182 = {
+    name = "Aldfrith"
+    dynasty = 1047010
+    religion = "catholic"
+    culture = "saxon"
+    father = 205213
+    665.1.1 = {
+        birth = yes
+    }
+    686.1.1 = {
+        add_spouse = 252183
+    }
+    704.12.14 = {
+        death = yes
+    }
+}
+252183 = {
+    name = "Cuthburh"
+    female = yes
+    dynasty = 1047006
+    religion = "catholic"
+    culture = "saxon"
+    father = 205162
+    trait = chaste
+    670.1.1 = {
+        birth = yes
+    }
+    718.1.1 = {
+        death = yes
+    }
+}
+252184 = {
+    name = "Osric"
+    dynasty = 1047010
+    religion = "catholic"
+    culture = "saxon"
+    father = 252175
+    mother = 252177
+    660.1.1 = {
+        birth = yes
+    }
+    729.5.9 = {
+        death = yes
+    }
+}
+252185 = {
+    name = "Osred"
+    dynasty = 1047010
+    religion = "catholic"
+    culture = "saxon"
+    father = 252182
+    mother = 252183
+    696.1.1 = {
+        birth = yes
+    }
+    716.1.1 = {
+        death = yes
+    }
+}
+252186 = {
+    name = "Osana"
+    female = yes
+    dynasty = 1047010
+    religion = "catholic"
+    culture = "saxon"
+    father = 252182
+    mother = 252183
+    trait = chaste
+    698.1.1 = {
+        birth = yes
+    }
+    750.1.1 = {
+        death = yes
+    }
+}
+252187 = {
+    name = "Offa"
+    dynasty = 1047010
+    religion = "catholic"
+    culture = "saxon"
+    father = 252182
+    mother = 252183
+    trait = chaste
+    700.1.1 = {
+        birth = yes
+    }
+    750.1.1 = {
+        death = yes
+    }
+}
+252188 = {
+    name = "Ælfwald"
+    dynasty = 1047010
+    religion = "catholic"
+    culture = "saxon"
+    father = 194104
+    765.1.1 = {
+        birth = yes
+    }
+    808.1.1 = {
+        death = yes
+    }
+}
+252189 = {
+    name = "Raedwulf"
+    dynasty = 1047010
+    religion = "catholic"
+    culture = "saxon"
+    father = 252188
+    798.1.1 = {
+        birth = yes
+    }
+    858.1.1 = {
+        death = yes
+    }
+}
+252190 = {
+    name = "Elesa"
+    dynasty = 1047006
+    religion = "norse_pagan"
+    culture = "saxon"
+    440.1.1 = {
+        birth = yes
+    }
+    515.1.1 = {
+        death = yes
+    }
+}
+252191 = {
+    name = "Eafe"
+    female = yes
+    dynasty = 1047006
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252190
+    465.1.1 = {
+        birth = yes
+    }
+    503.1.1 = {
+        death = yes
+    }
+}
+252192 = {
+    name = "Gebolf"
+    dynasty = 105926
+    religion = "norse_pagan"
+    culture = "saxon"
+    460.1.1 = {
+        birth = yes
+    }
+    483.1.1 = {
+        add_spouse = 252191
+    }
+    512.1.1 = {
+        death = yes
+    }
+}
+252193 = {
+    name = "Wihtgar"
+    dynasty = 105926
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252192
+    mother = 252191
+    485.1.1 = {
+        birth = yes
+    }
+    544.1.1 = {
+        death = yes
+    }
+}
+252194 = {
+    name = "Stuf"
+    dynasty = 105926
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252192
+    mother = 252191
+    488.1.1 = {
+        birth = yes
+    }
+    548.1.1 = {
+        death = yes
+    }
+}
+252195 = {
+    name = "Swithhelm"
+    dynasty = 105926
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252193
+    506.1.1 = {
+        birth = yes
+    }
+    557.1.1 = {
+        death = yes
+    }
+}
+252196 = {
+    name = "Oslac"
+    dynasty = 105926
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252195
+    534.1.1 = {
+        birth = yes
+    }
+    584.1.1 = {
+        death = yes
+    }
+}
+252197 = {
+    name = "Wulf"
+    dynasty = 105926
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252196
+    562.1.1 = {
+        birth = yes
+    }
+    611.1.1 = {
+        death = yes
+    }
+}
+252198 = {
+    name = "Heregar"
+    dynasty = 105926
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252197
+    588.1.1 = {
+        birth = yes
+    }
+    644.1.1 = {
+        death = yes
+    }
+}
+252199 = {
+    name = "Eadberht"
+    dynasty = 105926
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252198
+    605.1.1 = {
+        birth = yes
+    }
+    665.1.1 = {
+        death = yes
+    }
+}
+252200 = {
+    name = "Osulf"
+    dynasty = 105926
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252199
+    624.1.1 = {
+        birth = yes
+    }
+    674.1.1 = {
+        death = yes
+    }
+}
+252201 = {
+    name = "Arwald"
+    dynasty = 105926
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252200
+    642.1.1 = {
+        birth = yes
+    }
+    686.1.1 = {
+        death = yes
+    }
+}
+252202 = {
+    name = "Oswald"
+    dynasty = 105926
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252201
+    660.1.1 = {
+        birth = yes
+    }
+    686.1.1 = {
+        religion = "catholic"
+    }
+    686.6.1 = {
+        death = yes
+    }
+}
+252203 = {
+    name = "Eadred"
+    dynasty = 105926
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252201
+    662.1.1 = {
+        birth = yes
+    }
+    686.1.1 = {
+        religion = "catholic"
+    }
+    686.6.1 = {
+        death = yes
+    }
+}
+252204 = {
+    name = "Arwine"
+    dynasty = 105926
+    religion = "norse_pagan"
+    culture = "saxon"
+    father = 252202
+    680.1.1 = {
+        birth = yes
+    }
+    686.1.1 = {
+        religion = "catholic"
+    }
+    747.1.1 = {
+        death = yes
+    }
+}
+252205 = {
+    name = "Wihthere"
+    dynasty = 105926
+    religion = "catholic"
+    culture = "saxon"
+    father = 252204
+    705.1.1 = {
+        birth = yes
+    }
+    761.1.1 = {
+        death = yes
+    }
+}
+252206 = {
+    name = "Æthelwald"
+    dynasty = 105926
+    religion = "catholic"
+    culture = "saxon"
+    father = 252205
+    733.1.1 = {
+        birth = yes
+    }
+    779.1.1 = {
+        death = yes
+    }
+}
+252207 = {
+    name = "Arwulf"
+    dynasty = 105926
+    religion = "catholic"
+    culture = "saxon"
+    father = 252206
+    757.1.1 = {
+        birth = yes
+    }
+    803.1.1 = {
+        death = yes
+    }
+}
+252208 = {
+    name = "Wihtgar"
+    dynasty = 105926
+    religion = "catholic"
+    culture = "saxon"
+    father = 252207
+    775.1.1 = {
+        birth = yes
+    }
+    819.1.1 = {
+        death = yes
+    }
+}
+252209 = {
+    name = "Oslac"
+    dynasty = 105926
+    religion = "catholic"
+    culture = "saxon"
+    father = 252208
+    800.1.1 = {
+        birth = yes
+    }
+    856.1.1 = {
+        death = yes
+    }
+}
+252210 = {
+    name = "Osburh"
+    female = yes
+    dynasty = 105926
+    religion = "catholic"
+    culture = "saxon"
+    father = 252209
+    810.1.1 = {
+        birth = yes
+    }
+    856.1.1 = {
+        death = yes
+    }
+}
+252211 = {
+    name = "Æthelstan"
+    dynasty = 100072
+    religion = "catholic"
+    culture = "saxon"
+    father = 33355
+    mother = 252210
+    832.1.1 = {
+        birth = yes
+    }
+    852.1.1 = {
+        death = yes
+    }
+}
+252250 = {
+    name = "Beornheth"
+    dynasty = 105931
+    religion = "catholic"
+    culture = "saxon"
+    635.1.1 = {
+        birth = yes
+    }
+    685.1.1 = {
+        death = yes
+    }
+}
+252251 = {
+    name = "Beorhtred"
+    dynasty = 105931
+    religion = "catholic"
+    culture = "saxon"
+    father = 252250
+    653.1.1 = {
+        birth = yes
+    }
+    698.1.1 = {
+        death = yes
+    }
+}
+252252 = {
+    name = "Beorhtfrith"
+    dynasty = 105931
+    religion = "catholic"
+    culture = "saxon"
+    father = 252251
+    670.1.1 = {
+        birth = yes
+    }
+    711.1.1 = {
+        death = yes
+    }
+}
+252377 = {
+    name = "Æthelflaed"
+    female = yes
+    dynasty = 100072
+    martial = 5
+    diplomacy = 5
+    intrigue = 5
+    stewardship = 9
+    religion = "catholic"
+    culture = "saxon"
+    trait = "scholarly_theologian"
+    father = 7627
+    870.1.1 = {
+        birth = yes
+    }
+    918.6.12 = {
+        death = yes
+    }
+}
+252378 = {
+    name = "Æthelgifu"
+    female = yes
+    dynasty = 100072
+    religion = "catholic"
+    culture = "saxon"
+    trait = "scholarly_theologian"
+    father = 7627
+    875.1.1 = {
+        birth = yes
+    }
+    921.1.1 = {
+        death = yes
+    }
+}
+252379 = {
+    name = "Æthelweard"
+    dynasty = 100072
+    religion = "catholic"
+    culture = "saxon"
+    trait = "scholarly_theologian"
+    father = 7627
+    876.1.1 = {
+        birth = yes
+    }
+    922.10.16 = {
+        death = yes
+    }
+}
+252380 = {
+    name = "Ælfwynn"
+    dynasty = 1047004
+    female = yes
+    religion = "catholic"
+    culture = "saxon"
+    father = 205088
+    mother = 252377
+    888.1.1 = {
+        birth = yes
+    }
+    950.1.1 = {
         death = yes
     }
 }

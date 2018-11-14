@@ -251,7 +251,7 @@ setting_holding_types_tribal_nomadic;部落制与游牧制;;;;;;;;;;;;x
 setting_holding_types_tribal_nomadic_tooltip;某些文化的省份将是游牧制。其他省份将只有一个部落地产;;;;;;;;;;;;x
 setting_holding_slots;地产格;;;;;;;;;;;;x
 setting_holding_slots_tooltip;Determines the number of Holding Slots each County will have.;;;;;;;;;;;;x
-setting_holding_slots_historical;Historical;;;;;;;;;;;;x
+setting_holding_slots_historical;史实;;;;;;;;;;;;x
 setting_holding_slots_historical_tooltip;地产未在历史上改变过;;;;;;;;;;;;x
 setting_holding_slots_random;随机;;;;;;;;;;;;x
 setting_holding_slots_random_tooltip;每个省份都将随机地分配一到七个地产槽。;;;;;;;;;;;;x
@@ -275,9 +275,9 @@ AI_ACCEPTANCE_MAYBE_DESC;§YThey will maybe accept this interaction§!;;;;;;;;;;
 AI_ACCEPTANCE_NO_DESC;§RThey will NOT accept this interaction§!;;;;;;;;;;;;x
 AI_ACCEPTANCE_TOTAL;Acceptance Score: $TOTAL|+0$;;;;;;;;;;;;x
 AI_ACCEPTANCE_HUMAN_MAYBE;Being a player, how they will respond is unknown;;;;;;;;;;;;x
-bear.6.undo;This is unbearable!;;;;;;;;;;;;x
-UNDO_BEAR_TRANSFORMATION;Waking up, everything is back to normal. Maybe all of this was just a dream...;;;;;;;;;;;;x
-MOVEMENT_LOCKED;§YMovement is Locked§!;;;;;;;;;;;;x
+bear.6.undo;这是不可忍受的！;;;;;;;;;;;;x
+UNDO_BEAR_TRANSFORMATION;醒来后，一切都恢复了正常。也许所有的事只不过是一场梦……;;;;;;;;;;;;x
+MOVEMENT_LOCKED;§Y移动锁定§!;;;;;;;;;;;;x
 MOVEMENT_LOCKED_DELAYED;这支军队已经走完行进路程的一半，行动已经无法取消了。你仍可取消或安排之后的行军路线。;;;;;;;;;;;;x
 UNIT_MOVEMENT_LOCKED;§Y这支军队的行动已经锁定，因此无法取消当前的移动§!;;;;;;;;;;;;x
 UNIT_MOVEMENT_LOCKING_IN;This army will have its movement locked on $DATE|Y$ (in $DAYS|Y$ days), becoming unable to cancel its current move;;;;;;;;;;;;x
@@ -286,12 +286,12 @@ RULE_MOVEMENT_LOCK;移动锁定;;;;;;;;;;;;x
 RULE_MOVEMENT_LOCK_ON_DESC;一旦军队走完行进路程的一半，行动便无法中止了。不过，你仍可以取消或者更改之后的行军路线。;;;;;;;;;;;;x
 RULE_MOVEMENT_LOCK_OFF_DESC;无行动锁定;;;;;;;;;;;;x
 MTTH_GAIN_WITH_LOC;$NAME$：$VAL|+=0$;;;;;;;;;;;;x
-DECAYS_ON;Decays $DATE|Y$;;;;;;;;;;;;x
+DECAYS_ON;衰败$DATE|Y$;;;;;;;;;;;;x
 STACKING_MODIFIER_COUNT;(x$COUNT$);;;;;;;;;;;;x
 STACKING_TOTAL_EFFECT;§Y综合效果：§!;;;;;;;;;;;;x
 alert_coronation_needed_instant;§Y未知统治者§!;;;;;;;;;;;;x
 alert_coronation_needed_delayed;A [Root.Religion.GetName] ruler who has not been officially crowned by a notable member of the Church will never be fully accepted by [Root.GetHerHis] vassals as legitimate.\nThe more years an adult [Root.Religion.GetName] [Root.GetTitle] wastes before being anointed, the more likely [Root.GetHerHis] vassals will be to doubt the validity of [Root.GetHerHis] divine right to rule.;;;;;;;;;;;;x
-CORONATION_CURRENT_EFFECT;§YCurrent effects:§!;;;;;;;;;;;;x
+CORONATION_CURRENT_EFFECT;§Y当前效果§!;;;;;;;;;;;;x
 RETINUES_NOT_REFINORCING_DESC;This removes the reinforce cost. Does not affect prestige-based units.;;;;;;;;;;;;x
 RETINUES_HALF_REINFORCING_DESC;This halves the reinforce cost. Does not affect prestige-based units.\n( §Y$GROWTH$%§! of the retinue will reinforce per month ).;;;;;;;;;;;;x
 RETINUES_FULL_REINFORCING_DESC;This means you will pay full reinforce cost. Prestige-based units always reinforce at this rate.\n( §Y$GROWTH$%§! of the retinue will reinforce per month );;;;;;;;;;;;x
@@ -300,19 +300,19 @@ CHARVIEW_MODIFIERS;§Y修正§!;;;;;;;;;;;;x
 FOUNDER_SCOPE;血脉建立者：;;;;;;;;;;;;x
 BLOODLINE_FOUNDED_BY;血脉由$OWNER$建立。;;;;;;;;;;;;x
 BLOODLINE_FOUNDED;§LBloodline Founded on §!$DATE|Y$;;;;;;;;;;;;x
-DESTROY_BLOODLINE_EFFECT;Bloodline fades into obscurity.;;;;;;;;;;;;x
+DESTROY_BLOODLINE_EFFECT;这条血脉逐渐变得默默无闻。;;;;;;;;;;;;x
 CREATE_BLOODLINE_EFFECT;Becomes known as the founder of a §YBloodline§!, giving the following effects: \n$EFFECT$\n;;;;;;;;;;;;x
 ADD_BLOODLINE_MEMBER_EFFECT;$MEMBER$ becomes known as a part of the §YBloodline§!.;;;;;;;;;;;;x
 REMOVE_FROM_BLOODLINE_EFFECT;Is no longer known as being a part of the $BLOODLINE|Y$!.;;;;;;;;;;;;x
 REMOVE_BLOODLINE_MEMBER_EFFECT;$MEMBER$ is no longer known as being a part of the §YBloodline§!.;;;;;;;;;;;;x
 ADD_TO_BLOODLINE_EFFECT;Becomes known as a part of the $BLOODLINE|Y$!.;;;;;;;;;;;;x
 HAS_NOT_BLOODLINE_FLAG;Does NOT have the Bloodline flag:;;;;;;;;;;;;x
-HAS_BLOODLINE_FLAG;Has the Bloodline flag:;;;;;;;;;;;;x
+HAS_BLOODLINE_FLAG;拥有血脉：;;;;;;;;;;;;x
 IS_NOT_BLOODLINE_FOUNDER_OF_TRIGGER;Is NOT the founder of the $BLOODLINE|Y$!;;;;;;;;;;;;x
 IS_BLOODLINE_FOUNDER_OF_TRIGGER;Is the founder of the $BLOODLINE|Y$!;;;;;;;;;;;;x
 IS_NOT_BLOODLINE_MEMBER_OF_TRIGGER;Is NOT a part of the $BLOODLINE|Y$!;;;;;;;;;;;;x
 IS_BLOODLINE_MEMBER_OF_TRIGGER;Is a part of the $BLOODLINE|Y$!;;;;;;;;;;;;x
-ANY_BLOODLINE_MEMBER_STARTS;Any Bloodline Member:;;;;;;;;;;;;x
+ANY_BLOODLINE_MEMBER_STARTS;任意的血脉成员：;;;;;;;;;;;;x
 ANY_OWNED_BLOODLINE_STARTS;Any Possessed Bloodline:;;;;;;;;;;;;x
 ANY_BLOODLINE_STARTS;任意血脉：;;;;;;;;;;;;x
 DOES_NOT_SHARES_ANY_BLOODLINE_WITH_TRIGGER;Does NOT share a §YBloodline§! with $CHAR|Y$;;;;;;;;;;;;x
@@ -6628,8 +6628,8 @@ create_kingdom_venice;Create the Kingdom of Venice;;;;;;;;;;;;x
 create_kingdom_venice_desc;A new Venetian era will begin;;;;;;;;;;;;x
 create_kingdom_genoa;Create the Kingdom of Genoa;;;;;;;;;;;;x
 create_kingdom_genoa_desc;A new Genoan era will begin;;;;;;;;;;;;x
-k_antioch;Antioch;;;;;;;;;;;;x
-k_antioch_adj;Antiochian;;;;;;;;;;;;x
+k_antioch;安条克;;;;;;;;;;;;x
+k_antioch_adj;安条克;;;;;;;;;;;;x
 k_amalfi;Amalfi;;;;;;;;;;;;x
 k_amalfi_adj;Amalfitan;;;;;;;;;;;;x
 principality_title;Prince;;;;;;;;;;;;x
@@ -6799,7 +6799,7 @@ repelled_bandits;Repelled Bandits;;;;;;;;;;;;x
 fought_bear;Fought Bear;;;;;;;;;;;;x
 outsmarted_bear;Outsmarted a Bear;;;;;;;;;;;;x
 BLESSED_TITLE;Blessed;;;;;;;;;;;;x
-SAINT_TITLE;Saint;;;;;;;;;;;;x
+SAINT_TITLE;圣人;;;;;;;;;;;;x
 saintly_bloodline_description;[saint_person.GetTitledFirstName] was known for [saint_person.GetNature][saint_person.GetMiracleShort]. Canonized by [Root.GetTitledName].;;;;;;;;;;;;x
 GetNatureKind;[saint_person.GetHerHis] kind nature, and ;;;;;;;;;;;;x
 GetNatureHumble;[saint_person.GetHerHis] humble nature, and ;;;;;;;;;;;;x
@@ -6893,8 +6893,8 @@ EVTOPTA_HFP_40000;We have a bright future ahead of us.;;;;;;;;;;;;x
 EVTDESC_HFP_40001;Several German merchant guilds and trade cities along the shores of northern Europe have come together in Lübeck to form the Hanseatic League with the blessing of [Root.Liege.GetBestName] of [Root.Liege.PrimaryTitle.GetName]. This loose confederation of Free Imperial Cities is dedicated towards the continued prosperity of its members and the mutual defense of any merchant vassals flying its flag. Their eventual and unstated goal, of course, is to one day completely dominate all trade along the Baltic and North Seas...;;;;;;;;;;;;x
 TITLE_HFP_40001;The Rise of the Hansa;;;;;;;;;;;;x
 EVTOPTA_HFP_40001;That is bound to ruffle some feathers...;;;;;;;;;;;;x
-k_switzerland;Swiss Confederation;;;;;;;;;;;;x
-k_switzerland_adj;Swiss;;;;;;;;;;;;x
+k_switzerland;瑞士联邦;;;;;;;;;;;;x
+k_switzerland_adj;瑞士;;;;;;;;;;;;x
 d_bern;Bern;;;;;;;;;;;;x
 d_bern_adj;Bernian;;;;;;;;;;;;x
 d_grisons;Grisons;;;;;;;;;;;;x
@@ -7327,8 +7327,8 @@ PONTIFEX_MAXIMUS;Pontifex Maximus;;;;;;;;;;;;x
 d_bon_reformed;The Sacred Bön Hierarchy;;;;;;;;;;;;x
 d_bon_reformed_adj;Bön;;;;;;;;;;;;x
 HEAD_DALAI_LAMA;Dalai Lama;;;;;;;;;;;;x
-d_dralhas_children;Dralha's Chidren;;;;;;;;;;;;x
-d_dralhas_children_adj;Dralhan;;;;;;;;;;;;x
+d_dralhas_children;扎拉神之子;;;;;;;;;;;;x
+d_dralhas_children_adj;扎拉;;;;;;;;;;;;x
 create_dralhas_children;Form the Children of Dralha;;;;;;;;;;;;x
 create_dralhas_children_desc;By creating the Holy Order Dralha's Children, all [Root.Religion.GetName] rulers will be able to hire them and use them in the struggle against those religions that would do us harm.;;;;;;;;;;;;x
 create_dralhas_children_tooltip;The Holy Order §YDralha's Children§! is established.;;;;;;;;;;;;x
@@ -8245,7 +8245,7 @@ EVTDESCHF24006;Foul rumors are spreading from Sicily. The once prosperous Medite
 EVTOPTAHF24006;How abhorrent!;;;;;;;;;;;;x
 roman_opinion;[roman.GetName] Opinion;;;;;;;;;;;;x
 bloodline_effect_teuta_ships;Will attract §YShips§! during times of war.;;;;;;;;;;;;x
-EVTTITLEHF24011;Queen of Illyria;;;;;;;;;;;;x
+EVTTITLEHF24011;伊利里亚女王;;;;;;;;;;;;x
 EVTDESCAHF24011;My recent victory over the Roman armies of [defeated_emperor.GetTitledFirstName] has resonated across [Root.PrimaryTitle.GetName]. Despite all odds, I was able to lead my people against all the legions and the formidable power of the Imperial fleet, laying waste upon the decadent rule of House [defeated_emperor.GetOnlyDynastyName]. \nSuch was my triumph that the people have started to compare me to Teuta, an ancient [pagan_group.GetName] Queen who once stood against the ambitions of Rome, going even as far as to whisper that my prowess in this war is proof that I share some of my blood with her.;;;;;;;;;;;;x
 EVTDESCBHF24011;My recent victory over the Roman armies of [defeated_emperor.GetTitledFirstName] has resonated across [Root.PrimaryTitle.GetName]. Despite all odds, I was able to stand strong against all the legions and the formidable power of the Imperial fleet, laying waste upon the decadent rule of House [defeated_emperor.GetOnlyDynastyName]. \nSuch was my triumph that the people have started to compare me to Teuta, an ancient Queen who once stood against the ambitions of Rome, going even as far as to whisper that my prowess in this war is proof that I share some of my blood with her.;;;;;;;;;;;;x
 EVTOPTAHF24011;And why not? We have so much in common...;;;;;;;;;;;;x
@@ -8257,13 +8257,13 @@ EVTDESCAHF24012;As if the humiliation for our recent defeat at the hands of [Fro
 EVTDESCBHF24012;The [defeated_emperor.PrimaryTitle.GetName] has recently suffered an ignominious defeat at the hands of [From.GetTitledFirstName]. Galvanized by their victory, the people of [From.PrimaryTitle.GetName] have started idolizing their [From.GetTitle], comparing [From.GetHerHim] to a ruler of their legends and claiming [From.GetHerHim] to have such a heroic ascendancy.\n Through her victory, the pagan tribes of old Illyria have discovered a new strength to stand against their Roman masters.;;;;;;;;;;;;x
 EVTOPTAHF24012;Enjoy your fleeting victory while you can!;;;;;;;;;;;;x
 EVTOPTBHF24012;Foolish savages...;;;;;;;;;;;;x
-EVTOPTCHF24012;I see...;;;;;;;;;;;;x
-EVTDESCHFA24014;Dozens of ships have gathered at the shores of [Root.PrimaryTitle.GetName] from the most disparate owners – pirates, adventurers, mercenaries, fishermen... They have not forgotten how I protected them from the Empire in the past, and have all decided to pledge their allegiance to me by offering their help in the war effort.;;;;;;;;;;;;x
-EVTDESCHFB24014;Dozens of ships have gathered at the shores of [Root.PrimaryTitle.GetName] from the most disparate owners – pirates, adventurers, mercenaries, fishermen... They have not forgotten how [pirate_bloodline_target.GetTitledFirstName] protected their forefathers from the Empire, and have all decided to pledge their allegiance to me by offering their help in the war effort.;;;;;;;;;;;;x
-EVTOPTAHF24014;You are all welcome!;;;;;;;;;;;;x
-EVTDESCHFA24015;A few dozen ships have gathered at the shores of [Root.PrimaryTitle.GetName] from the most disparate owners – pirates, adventurers, mercenaries, fishermen... It seems my name still holds some sway with the people. They have all decided to pledge their allegiance to me by offering their help in the war effort.;;;;;;;;;;;;x
-EVTDESCHFB24015;A few dozen ships have gathered at the shores of [Root.PrimaryTitle.GetName] from the most disparate owners – pirates, adventurers, mercenaries, fishermen... It seems that the name of [pirate_bloodline_target.GetTitledFirstName] still holds some sway with the people. They have all decided to pledge their allegiance to me by offering their help in the war effort.;;;;;;;;;;;;x
-EVTOPTAHF24015;You are all welcome!;;;;;;;;;;;;x
+EVTOPTCHF24012;明白了……;;;;;;;;;;;;x
+EVTDESCHFA24014;成群的船只在[Root.PrimaryTitle.GetName]的海岸集结，来头各不相同：有海盗、冒险家、佣兵，甚或渔民……他们没有忘记我在帝国之中曾为他们提供过的保护，而今决定效忠于我，为战事出一份力。;;;;;;;;;;;;x
+EVTDESCHFB24014;成群的船只在[Root.PrimaryTitle.GetName]的海岸集结，来头各不相同：有海盗、冒险家、佣兵，甚或渔民……他们没有忘记[pirate_bloodline_target.GetTitledFirstName]在帝国之中曾为他们提供过的保护，而今决定效忠于我，为战事出一份力。;;;;;;;;;;;;x
+EVTOPTAHF24014;欢迎你们！;;;;;;;;;;;;x
+EVTDESCHFA24015;一些船只在[Root.PrimaryTitle.GetName]的海岸集结，来头各不相同：有海盗、冒险家、佣兵，甚或渔民……我的威名在人民之中似乎还有点影响力。而今他们一同决定效忠于我，为战事出一份力。;;;;;;;;;;;;x
+EVTDESCHFB24015;一些船只在[Root.PrimaryTitle.GetName]的海岸集结，来头各不相同：有海盗、冒险家、佣兵，甚或渔民……[pirate_bloodline_target.GetTitledFirstName]的威名在人民之中似乎还有点影响力。而今他们一同决定效忠于我，为战事出一份力。;;;;;;;;;;;;x
+EVTOPTAHF24015;欢迎你们！;;;;;;;;;;;;x
 EVTDESCHFA24016;A few pirate ships have gathered at the shores of [Root.PrimaryTitle.GetName]. Their owners have offered their services in the war to come, hoping to repay me for offering them haven from the tyranny of the Imperial fleet of the Romans.;;;;;;;;;;;;x
 EVTDESCHFB24016;A few pirate ships have gathered at the shores of [Root.PrimaryTitle.GetName]. Their owners have offered their services in the war to come, hoping to repay my family for offering them haven from the tyranny of the Imperial fleet of the Romans.;;;;;;;;;;;;x
 EVTOPTAHF24016;You are welcome.;;;;;;;;;;;;x
@@ -10413,7 +10413,7 @@ EVTOPTA_HFP_11031_TT;§Y[home_commander.GetTitledFirstName]§! has an §YEnemy S
 EVTDESC_HFP_11032;My commander [enemy_commander.GetTitledFirstName] has been slain [battlefield_location.GetInOn] the [battlefield_location.GetTerrain] of [battlefield_location.GetName]. "Decapitated, my [Root.GetLordLady]", the courier says, shuddering. "It was [home_commander.GetTitledFirstName], from [home_commander.Society.GetName]", he continues, averting my eyes.;;;;;;;;;;;;x
 EVTOPTA_HFP_11032;And you just left [enemy_commander.GetHerHim] in the [battlefield_location.GetGroundDesc]?!;;;;;;;;;;;;x
 EVTOPTA_HFP_11032_same_society;Aaargh! I will personally take care of that brute.;;;;;;;;;;;;x
-available_because_same_society;This option is available to you because you are also a member of §Y[Root.Society.GetName]§!;;;;;;;;;;;;x
+available_because_same_society;这个选项可用是因为你是§Y[Root.Society.GetName]§!的成员。;;;;;;;;;;;;x
 EVTDESC_HFP_11033_A;[From.GetBestName] did not appreciate the fate [enemy_commander.GetTitledFirstName] met with at the battle of [battlefield_location.GetName], and has sworn to take matters into [From.GetHerHis] own hands. All this fuss over head on a pike?;;;;;;;;;;;;x
 EVTDESC_HFP_11033_B;[From.GetBestName] must not have heard how I refused to take the head of my enemy as a trophy, because I am told that the [From.GetManWoman] has sworn to take vengeance on me, for the fate [enemy_commander.GetTitledFirstName] met with at the battle of [battlefield_location.GetName].;;;;;;;;;;;;x
 EVTOPTA_HFP_11033;So be it.;;;;;;;;;;;;x
@@ -10424,8 +10424,8 @@ EVTOPTA_HFP_11034_TT;You get to work.\n;;;;;;;;;;;;x
 EVTOPTB_HFP_11034;Hey, [my_fellow_commander.GetTitledFirstName]. Get yourself over here!;;;;;;;;;;;;x
 EVTOPTB_HFP_11034_TT;You let your fellow commander deal with the road block.\n;;;;;;;;;;;;x
 EVTDESC_HFP_11035;On our way through the [battlefield_location.GetTerrain], a gigantic boulder blocks our path. Commander [From.GetTitledFirstName] is arguing at length with [From.GetHerHis] officers about whether we should try [GetRidingMarching] around the river crossing or not, when suddenly I hear them shouting my name, gesturing in my direction with a huge hammer.;;;;;;;;;;;;x
-EVTOPTA_HFP_11035;Finally! Let's do something about this rock.;;;;;;;;;;;;x
-EVTDESC_HFP_11036;[my_fellow_commander.GetTitledFirstName] is a belligerent commander, fighting with the strength of a [GetRandomMythologicalCreature]. Not that anyone is keeping count, but I find myself wondering how many enemies [my_fellow_commander.GetSheHe] has taken down single-handedly at this point... "Save some for me, will you?" I call across the [battlefield_location.GetTerrain].;;;;;;;;;;;;x
+EVTOPTA_HFP_11035;终于！让我们对这块石头做点什么。;;;;;;;;;;;;x
+EVTDESC_HFP_11036;[my_fellow_commander.GetTitledFirstName]是一个好战的指挥官，用[GetRandomMythologicalCreature]的力量与敌人战斗。虽然没人在数数，但是我发现我在想到底有多少个敌人被[my_fellow_commander.GetSheHe]单枪匹马的击倒了。。。「为我留几个，好么？」我穿过[battlefield_location.GetTerrain]大喊道。;;;;;;;;;;;;x
 EVTOPTA_HFP_11036;[my_fellow_commander.GetSheHeCap] is a one-[my_fellow_commander.GetManWoman] army...!;;;;;;;;;;;;x
 EVTOPTB_HFP_11036;Pssh, what a show-off! It's not that hard!;;;;;;;;;;;;x
 EVTDESC_HFP_11039;Commander [From.GetTitledFirstName] keeps throwing me looks across the [battlefield_location.GetTerrain], as I am [GetWeaponSwinging] my way through our enemies. Just as I begin to get uncomfortable by the surveillance, [From.GetSheHe] calls out: "Save some for me, will you?";;;;;;;;;;;;x
@@ -11340,11 +11340,11 @@ EVTOPTA_HFP_41075;I thank you, [From.GetTitledFirstName].;;;;;;;;;;;;x
 EVTDESC_HFP_41088;How much gold should I donate to the Crusade?;;;;;;;;;;;;x
 EVTOPTA_HFP_41088;I hope the Pope will appreciate this gesture.;;;;;;;;;;;;x
 EVTOPTB_HFP_41088;I know just how much.;;;;;;;;;;;;x
-EVTOPTC_HFP_41088;A grand gift befitting my station!;;;;;;;;;;;;x
-EVTOPTD_HFP_41088;I simply can not afford to donate anything...;;;;;;;;;;;;x
-EVTDESC_HFP_41091;I need to make a decision, if I should comply with Papal will, or go my own way when it comes to the distribution of the titles in the case of a victory in the Crusades.;;;;;;;;;;;;x
-EVTOPTA_HFP_41091;I will let the Pope decide.;;;;;;;;;;;;x
-EVTOPTA_HFP_41091_TT;If the Crusade is won, the Pope will grant the titles to the §YPapal Crusade Recipient§!. If there is none, it will pass down to the §YBeneficiary§! of the most participating member of the Crusade.;;;;;;;;;;;;x
+EVTOPTC_HFP_41088;一份符合我身份地位的豪华礼物！;;;;;;;;;;;;x
+EVTOPTD_HFP_41088;我实在是没有什么余裕来捐赠...;;;;;;;;;;;;x
+EVTDESC_HFP_41091;当十字军取胜分配头衔时，我需要做出选择，是顺从于教宗的意志，还是走我自己的路。;;;;;;;;;;;;x
+EVTOPTA_HFP_41091;我会让教宗决定。;;;;;;;;;;;;x
+EVTOPTA_HFP_41091_TT;如果十字军胜利了，教宗将会把头衔授予§YPapal Crusade Recipient§!。如果不存在此人物，则转而授予在十字军战争中拥有最高参与度的成员的§YBeneficiary§!。;;;;;;;;;;;;x
 EVTOPTB_HFP_41091;My beneficiary will get the titles.;;;;;;;;;;;;x
 EVTOPTB_HFP_41091_TT;If the Crusade is won, and I am the most participating member of the war, the Crusade title will be granted to my §YBeneficiary§!.;;;;;;;;;;;;x
 EVTOPTC_HFP_41091;Why would I give MY titles away?;;;;;;;;;;;;x
@@ -11357,14 +11357,14 @@ EVTDESC_HFP_41114;My beneficiary §Y[old_crusade_beneficiary.GetDynName]§! seem
 EVTDESC_HFP_41115;My beneficiary §Y[old_crusade_beneficiary.GetDynName]§! seems to have joined a holy order, and is no longer an appropriate beneficiary.;;;;;;;;;;;;x
 EVTDESC_HFP_41116;My beneficiary §Y[old_crusade_beneficiary.GetDynName]§! is not old enough, and is therefore not an appropriate beneficiary.;;;;;;;;;;;;x
 EVTDESC_HFP_41117;My beneficiary §Y[old_crusade_beneficiary.GetDynName]§! is not healthy enough to be an appropriate beneficiary.;;;;;;;;;;;;x
-EVTDESC_HFP_41118;My beneficiary §Y[old_crusade_beneficiary.GetDynName]§! have become a [old_crusade_beneficiary.GetAscetic], and is no longer an appropriate beneficiary.;;;;;;;;;;;;x
+EVTDESC_HFP_41118;我的受益人§Y[old_crusade_beneficiary.GetDynName]§!已经成为一名[old_crusade_beneficiary.GetAscetic]，不再是一位合适的受益人了。;;;;;;;;;;;;x
 EVTDESC_HFP_41120_1;[Root.GetTitledName]\nI write to inform you that the Holy See no longer supports [old_crusade_recipient.GetDynName] for the lands of [current_crusade_target_title.GetName], but rather [new_crusade_recipient.GetDynName].\n\nSigned,\n[From.GetTitledName];;;;;;;;;;;;x
 EVTDESC_HFP_41120_2;[Root.GetTitledName]\nI write to inform you that the Holy See can no longer support [old_crusade_recipient.GetDynName] for the lands of [current_crusade_target_title.GetName], as [old_crusade_recipient.GetSheHe] has passed away. The Holy See now support [new_crusade_recipient.GetDynName] to be granted the titles.\n\nSigned,\n[From.GetTitledName];;;;;;;;;;;;x
 EVTDESC_HFP_41120_3;[Root.GetTitledName]\nI write to inform you that the Holy See can no longer support [old_crusade_recipient.GetDynName] for the lands of [current_crusade_target_title.GetName], as [old_crusade_recipient.GetSheHe] has passed away. The Holy See now supports [old_crusade_recipient.GetHerHis] heir [new_crusade_recipient.GetDynName] for the throne.\n\nSigned,\n[From.GetTitledName];;;;;;;;;;;;x
 EVTDESC_HFP_41120_4;[Root.GetTitledName]\nI write to inform you that the Holy See has decided to start supporting you as the recipient for the lands of [current_crusade_target_title.GetName], after the death of [old_crusade_recipient.GetDynName].\n\nSigned,\n[From.GetTitledName];;;;;;;;;;;;x
 EVTDESC_HFP_41120_5;[Root.GetTitledName]\nI write to inform you that the Holy See has decided to start supporting you as the recipient for the lands of [current_crusade_target_title.GetName].\n\nSigned,\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTA_HFP_41120;I see.;;;;;;;;;;;;x
-EVTOPTB_HFP_41120;I thank you, my friend.;;;;;;;;;;;;x
+EVTOPTA_HFP_41120;我知道了。;;;;;;;;;;;;x
+EVTOPTB_HFP_41120;谢谢你，我的朋友。;;;;;;;;;;;;x
 EVTDESC_HFP_41121_1;[Root.GetTitledName]\nI write to inform you that the Holy See no longer supports [old_crusade_recipient.GetDynName] for the lands of [current_crusade_target_title.GetName]. With no fitting ruler, I will let you faithful men and women of the Cross decide who these titles might befit.\n\nSigned,\n[From.GetTitledName];;;;;;;;;;;;x
 EVTDESC_HFP_41121_2;[Root.GetTitledName]\nI write to inform you that the Holy See can no longer support [old_crusade_recipient.GetDynName] for the lands of [current_crusade_target_title.GetName], as [old_crusade_recipient.GetSheHe] has passed away. With no fitting ruler available, I will let you faithful men and women of the Cross decide who will receive these titles.\n\nSigned,\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA_HFP_41121;I might have someone in mind.;;;;;;;;;;;;x
@@ -15137,8 +15137,8 @@ c_east_karelia_adj;Pomoryan;;;;;;;;;;;;x
 c_kuopio_adj;Kallavesian;;;;;;;;;;;;x
 c_siunto_adj;Karjaan;;;;;;;;;;;;x
 c_laukaa_adj;Keitelean;;;;;;;;;;;;x
-e_lechczechrus;Slavic Union;;;;;;;;;;;;x
-e_lechczechrus_adj;Slavic;;;;;;;;;;;;x
+e_lechczechrus;斯拉夫联盟;;;;;;;;;;;;x
+e_lechczechrus_adj;斯拉夫;;;;;;;;;;;;x
 form_lcr;Form the Slavic Union;;;;;;;;;;;;x
 form_lcr_tt;§Y[Root.GetBestName]§! creates the §YSlavic Union§!;;;;;;;;;;;;x
 form_lcr_desc;Ancestral legends tell of a time when the three brothers, Lech, Czech and Rus, went their own way to find fertile lands for their people. Today, countless generations later, all the children of this same ancestral blood are united under my rule, so it is only fit that we rid ourselves of our old and petty borders and formally establish one land in which all slavs will be as brothers and sisters.;;;;;;;;;;;;x
@@ -19168,7 +19168,7 @@ LANDING_HEADER_DLC076;Pagan Fury Music Pack;;;;;;;;;;;;x
 FAVOR_FORCE_VOTE_SUCCESSION;Make someone vote like you in the succession;;;;;;;;;;;;x
 e_nicaea;尼西亚帝国;;;;;;;;;;;;x
 e_turkestan;Turan;;;;;;;;;;;;x
-e_nicaea_adj;Nicaean;;;;;;;;;;;;x
+e_nicaea_adj;尼西亚;;;;;;;;;;;;x
 e_turkestan_adj;Turani;;;;;;;;;;;;x
 k_valencia;Valencia;;;;;;;;;;;;x
 k_badajoz;Badajoz;;;;;;;;;;;;x
@@ -19910,11 +19910,11 @@ TOOLTIP_EVTOPTBHF23835;All the other §YGuests§! are insulted.;;;;;;;;;;;;x
 EVTOPTBHF23474;Bah! Superstitious nonsense!;;;;;;;;;;;;x
 EVTDESCLoR45_HF;你是[e_roman_empire.GetName]的现任统治者。愿你的治世繁荣昌盛！;;;;;;;;;;;;x
 string_vanilla_augustus_desc;This character is the current ruler of the restored Roman Empire and commands the respect an office of such magnitude is due.;;;;;;;;;;;;x
-string_altstart_augustus_desc;This character is the current ruler of [e_roman_empire.GetName] and commands the respect an office of such magnitude is due.;;;;;;;;;;;;x
+string_altstart_augustus_desc;此人乃是[e_roman_empire.GetName]的现任统治者，理应得到符合其身份的尊重。;;;;;;;;;;;;x
 augustus_desc;[GetAltAugustusName];;;;;;;;;;;;x
 PONTIFEX_MAXIMA;Pontifex Maxima;;;;;;;;;;;;x
-HEAD_ZUN_PRIEST;Dastur;;;;;;;;;;;;x
-HEAD_ZUN_PRIESTESS;Dastur;;;;;;;;;;;;x
+HEAD_ZUN_PRIEST;大祭司;;;;;;;;;;;;x
+HEAD_ZUN_PRIESTESS;大祭司;;;;;;;;;;;;x
 HEAD_AFRICAN_PRIEST;Grand Saltigue;;;;;;;;;;;;x
 HEAD_AFRICAN_PRIESTESS;Grand Saltigue;;;;;;;;;;;;x
 arberian;Arberian;;;;;;;;;;;;x
@@ -19927,4 +19927,4 @@ setting_shattered_succession_all_ultimogeniture_tooltip;所有的头衔会被指
 setting_shattered_succession_all_tanistry_tooltip;所有的头衔会被指定为凯尔特酋长选举继承法。\n-你，以及比你低一至二等级的封臣皆可提名继承人————即储副————储副是从你的家族成员中选出来的。\n-封臣们更愿意从家族的其他支系中选择年长者，尤其是宣称者。;;;;;;;;;;;;x
 ASK_TO_DECLARE_WAR_INTERACTION_ACCEPT_SETUP;要求索取宣称;;;;;;;;;;;;x
 ASK_TO_DECLARE_WAR_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!对§Y[Recipient.GetBestName]§!宣告$CB$;;;;;;;;;;;;x
-EVTDESC_HF_12006;My history in battle is known to many, but there are still those who could benefit from learning more about my experiences. "Like that time you chopped someone's head off?" [fellow_member.GetTitledFirstName] asks, in response to my idea. "A feast, where you regale your court with the stories!" [fellow_member.GetSheHe] continues. I consider the spirits it could lift, as I soon depart for [target_title.GetName].;;;;;;;;;;;;x
+EVTDESC_HF_12006;吾之一生乃战之一生，此已为众人所知，但总有聪明人愿意更多地了解我的经历从而受益。“就像那个时候你砍下了某人的脑袋？”[fellow_member.GetTitledFirstName]回应着我的想法。“真是一场盛宴！您的故事让我们赞叹不已！”[fellow_member.GetSheHe]在旁迎合。而这种精神将被发扬，正如我将加冕为[target_title.GetName];;;;;;;;;;;;x
