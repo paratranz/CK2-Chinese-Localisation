@@ -106,7 +106,7 @@ String_one_of_us_yields_from_injury;我们中的一人屈服于伤痛;;;;;;;;;;;
 String_only_one_of_us_remain_standing;我们只有一个人还站着;;;;;;;;;;;;x
 String_the_heavens_are_satisfied;上天很满意;;;;;;;;;;;;x
 dishonorable_duel_minor_tooltip;考虑到§Y[This.GetTitledFirstName]§!的[This.GetDuelWeakness]，某些角色可能认为这一挑战并不得体。;;;;;;;;;;;;x
-dishonorable_duel_medium_tooltip;Considering the [This.GetDuelWeakness] of §Y[This.GetTitledFirstName]§!, certain characters will consider this challenge beneath you.;;;;;;;;;;;;x
+dishonorable_duel_medium_tooltip;考虑到§Y[This.GetTitledFirstName]§!的[This.GetDuelWeakness]，某些角色可能认为在这一挑战中不如你。;;;;;;;;;;;;x
 dishonorable_duel_major_tooltip;考虑到§Y[This.GetTitledFirstName]§!的[This.GetDuelWeakness]，某些角色可能认为这一挑战没有荣耀;;;;;;;;;;;;x
 EVTDESC_HFP_10095_default;[combatant_1.GetBestName]向你发起了[combatant_1.GetDuelType]。唯一不损荣誉的回应只能是接受这个挑战。;;;;;;;;;;;;x
 EVTDESC_HFP_10096;[From.GetBestName]选择了接受你的决斗。决斗将在几天内举行。;;;;;;;;;;;;x
@@ -182,22 +182,22 @@ swollen_wrist_desc;这角色的手腕受伤了。;;;;;;;;;;;;x
 swollen_ankle;脚踝肿胀;;;;;;;;;;;;x
 swollen_ankle_desc;这名角色现在走起来有着些许的跛脚。;;;;;;;;;;;;x
 sore_muscles;肌肉酸痛;;;;;;;;;;;;x
-sore_muscles_desc;This character is often seen, presumably subconsciously, massaging their own shoulders.;;;;;;;;;;;;x
+sore_muscles_desc;这个角色经常被人看到，大概是下意识地，按摩着自己的肩膀。;;;;;;;;;;;;x
 cracked_ribs;肋骨折断;;;;;;;;;;;;x
-cracked_ribs_desc;This character winces audibly every now and then.;;;;;;;;;;;;x
+cracked_ribs_desc;这个角色不时地由于疼痛而畏缩。;;;;;;;;;;;;x
 concussion;脑震荡;;;;;;;;;;;;x
-concussion_desc;This character has recently taken a blow to the head.;;;;;;;;;;;;x
+concussion_desc;这个角色最近头部遭到了打击。;;;;;;;;;;;;x
 fueled_by_rage;怒火中烧;;;;;;;;;;;;x
 fueled_by_rage_desc;这个角色正被复仇驱使，感到血脉偾张。;;;;;;;;;;;;x
 carrying_torch;把火把交给某个人;;;;;;;;;;;;x
-carrying_torch_desc;This character is experiencing some complicated emotions, and an increase in energy.;;;;;;;;;;;;x
+carrying_torch_desc;这个角色正在体验一些复杂的情绪和活力的增长。;;;;;;;;;;;;x
 IS_NOT_CONNECTED_TRIGGER;Is NOT connected to $TARGET|Y$;;;;;;;;;;;;x
 IS_CONNECTED_TRIGGER;Is connected to $TARGET|Y$;;;;;;;;;;;;x
 CONNECTED_PROVINCE_STARTS;任何被连接的省份;;;;;;;;;;;;x
 NOT_CONNECTED_PROVINCE_STARTS;没有被连接的省份;;;;;;;;;;;;x
 DISCONNECTED_PROVINCE_STARTS;任何未被连接的省份;;;;;;;;;;;;x
 NOT_DISCONNECTED_PROVINCE_STARTS;没有未被连接的省份;;;;;;;;;;;;x
-NAVAL_PATH_DISTANCE_TRIGGER;Naval distance to $TO|Y$ is $COMPARISON|Y$ $VALUE|Y$;;;;;;;;;;;;x
+NAVAL_PATH_DISTANCE_TRIGGER;海军距离到 $TO|Y$ 为 $COMPARISON|Y$ $VALUE|Y$;;;;;;;;;;;;x
 NOT_NAVAL_PATH_TRIGGER;$TO|Y$的海军路径不存在;;;;;;;;;;;;x
 NAVAL_PATH_TRIGGER;存在$TO|Y$的海军路径;;;;;;;;;;;;x
 OLD_SAVE_WARNING;§Y这是一个旧存档，如果加载很有可能会出现各种问题§!;;;;;;;;;;;;x
@@ -206,13 +206,13 @@ ALT_START_GENERATE_CHARS;破碎的世界;;;;;;;;;;;;x
 ALT_START_SAVING;保存中;;;;;;;;;;;;x
 ALT_START_LOADING;读取中;;;;;;;;;;;;x
 setting_tier;统治者等级;;;;;;;;;;;;x
-setting_tier_tooltip;Determines which Title Tier/s the generated Rulers will have.;;;;;;;;;;;;x
+setting_tier_tooltip;决定生成的统治者会拥有的头衔等级。;;;;;;;;;;;;x
 setting_tier_counts;伯爵;;;;;;;;;;;;x
-setting_tier_counts_tooltip;An independent Count will be generated for every County;;;;;;;;;;;;x
+setting_tier_counts_tooltip;每个伯爵领都将生成一个独立的伯爵。;;;;;;;;;;;;x
 setting_tier_dukes;公爵;;;;;;;;;;;;x
 setting_tier_dukes_tooltip;A random Count in each De Jure Duchy will be assigned the Duke title, all other Counts will be made vassals;;;;;;;;;;;;x
 setting_tier_dukes_consolidated;统一公爵领;;;;;;;;;;;;x
-setting_tier_dukes_consolidated_tooltip;One Ruler will be generated per De Jure Duchy;;;;;;;;;;;;x
+setting_tier_dukes_consolidated_tooltip;每个法理公国将产生一个统治者;;;;;;;;;;;;x
 ALTERNATE_START;另类开局;;;;;;;;;;;;x
 ALT_GENERATE;生成;;;;;;;;;;;;x
 ALT_SETTINGS;设置;;;;;;;;;;;;x
@@ -232,7 +232,7 @@ NOT_ALTERNATE_START_PARAMETER_TRIGGER;The $KEY|Y$ parameter does NOT have the va
 ALTERNATE_START_PARAMETER_TRIGGER;The $KEY|Y$ parameter has the value $VALUE|Y$ set;;;;;;;;;;;;x
 SHATTERED_REQUIRES_HOLY_FURY;§RThis save was created as a Shattered World and requires the Holy Fury DLC to continue.§!;;;;;;;;;;;;x
 setting_female_ruler_percentage;女性统治者比例;;;;;;;;;;;;x
-setting_female_ruler_percentage_tooltip;Determines the chance of each generated Ruler being a woman.;;;;;;;;;;;;x
+setting_female_ruler_percentage_tooltip;确定每个生成的统治者是女性的机会。;;;;;;;;;;;;x
 setting_age_span;年龄范围;;;;;;;;;;;;x
 setting_age_span_tooltip;决定生成统治者的最小与最大年龄;;;;;;;;;;;;x
 setting_num_of_children;儿童数量;;;;;;;;;;;;x
@@ -4965,7 +4965,7 @@ PROV1622;Romsdal;;;;;;;;;;;;x
 PROV1623;Sunnmøre;;;;;;;;;;;;x
 PROV1624;Førde;;;;;;;;;;;;x
 PROV1625;Sogn;;;;;;;;;;;;x
-d_upper_swabia;Upper Swabia;;;;;;;;;;;;x
+d_upper_swabia;上施瓦本;;;;;;;;;;;;x
 d_franche_comte;Franche Comté;;;;;;;;;;;;x
 d_upper_burgundy;Transjurania;;;;;;;;;;;;x
 d_trent;Trent;;;;;;;;;;;;x
@@ -7327,11 +7327,11 @@ PONTIFEX_MAXIMUS;Pontifex Maximus;;;;;;;;;;;;x
 d_bon_reformed;The Sacred Bön Hierarchy;;;;;;;;;;;;x
 d_bon_reformed_adj;Bön;;;;;;;;;;;;x
 HEAD_DALAI_LAMA;Dalai Lama;;;;;;;;;;;;x
-d_dralhas_children;扎拉神之子;;;;;;;;;;;;x
+d_dralhas_children;扎拉神子民;;;;;;;;;;;;x
 d_dralhas_children_adj;扎拉;;;;;;;;;;;;x
-create_dralhas_children;Form the Children of Dralha;;;;;;;;;;;;x
-create_dralhas_children_desc;By creating the Holy Order Dralha's Children, all [Root.Religion.GetName] rulers will be able to hire them and use them in the struggle against those religions that would do us harm.;;;;;;;;;;;;x
-create_dralhas_children_tooltip;The Holy Order §YDralha's Children§! is established.;;;;;;;;;;;;x
+create_dralhas_children;创设扎拉神子民;;;;;;;;;;;;x
+create_dralhas_children_desc;创建扎拉神子民，所有[Root.Religion.GetName]的统治者将有权雇佣他们并投入对那些对我们有害的宗教的战争！;;;;;;;;;;;;x
+create_dralhas_children_tooltip;圣战士§Y扎拉神子民§!已经建立。;;;;;;;;;;;;x
 EVTDESCHF23018;Followers of the [leader_of_dralhas.Religion.GetName] faith have always followed the central tenet of showing respect to all living creatures and to refrain from violence. But even the most peaceful of men must occasionally go to war.\n\nAs such, a new order has been founded, named the [leader_of_dralhas.PrimaryTitle.GetName]. They swear loyalty to all [leader_of_dralhas.Religion.GetName] rulers against those who would do them harm. A most devout [leader_of_dralhas.GetManWoman], named [leader_of_dralhas.GetFirstName], has pledged [leader_of_dralhas.GetHerselfHimself] to undertake the leadership of the order to preserve their way of life.;;;;;;;;;;;;x
 death_text_gluttonous;Known to be Gluttonous, [GetSheHe] spent [GetHerHis] days trying to sate [GetHerHis] abominable appetite. A wicked [GetManWoman], [GetFirstName] will surely pay for [GetHerHis] sins in the afterlife;;;;;;;;;;;;x
 death_text_saoshyant;The sacred restorer of the Persian Empire, [GetHerHis] rise to glory will be immortalized in the sermons of all Zoroastrian priests. Surely, [GetSheHe] sits next to Ahura Mazda now;;;;;;;;;;;;x
@@ -7829,14 +7829,14 @@ EVTOPTBHF23119_A;We will endeavor to be moderate.;;;;;;;;;;;;x
 EVTOPTBHF23119_B;It is not our intention to upset the Christians.;;;;;;;;;;;;x
 EVTOPTBHF23119_C;Far from me to eschew humility...;;;;;;;;;;;;x
 tooltip_peasants_become_hellenes;The outcome of the Civil War will drive more citizens of the Empire to embrace §YHellenism§!.;;;;;;;;;;;;x
-d_myrmidons;Myrmidons;;;;;;;;;;;;x
+d_myrmidons;密耳弥多涅;;;;;;;;;;;;x
 d_myrmidons_adj;Myrmidonian;;;;;;;;;;;;x
 MEGASTRATEGOS;Megastrategos;;;;;;;;;;;;x
 MEGASTRATEGISSA;Megastrategissa;;;;;;;;;;;;x
 EVTDESCHF23120;The newborn [leader_of_myrmidons.Religion.GetName] religion has found new protectors in the Myrmidons, a company of faithful warriors dedicated to the protection of the sacred altars of the old gods and the fight against the barbarous infidels besieging them.\n They swear loyalty to all [leader_of_myrmidons.Religion.GetName] rulers against those who would do them harm. A most devout [leader_of_myrmidons.GetManWoman], named [leader_of_myrmidons.GetFirstName], has pledged [leader_of_myrmidons.GetHerselfHimself] to undertake the leadership of the order to preserve their way of life.;;;;;;;;;;;;x
-create_myrmidons;Create the Myrmidons;;;;;;;;;;;;x
+create_myrmidons;创建密耳弥多涅;;;;;;;;;;;;x
 create_myrmidons_desc;We must organize the most devoted warriors amongst us under one banner so that they can protect us from the barbarian heathens surrounding us.;;;;;;;;;;;;x
-create_myrmidons_tooltip;The Holy Order of the §YMyrmidons§! will be formed.;;;;;;;;;;;;x
+create_myrmidons_tooltip;圣战士§Y密耳弥多涅§!将要建立。;;;;;;;;;;;;x
 the_bacchants;Bacchus' Mystery;;;;;;;;;;;;x
 the_bacchants_desc;The secretive cult of Bacchus has always been a plague to the civilized society of Ancient Rome. Members of this cult gather at night to perform obscene rituals to satisfy their most primal instincts, dabbling in sorcery, cannibalism and bestiality.;;;;;;;;;;;;x
 the_bacchants_rank_1_female;Bacchant;;;;;;;;;;;;x
@@ -8756,7 +8756,7 @@ MONASTIC_AUTONOMOUS_ATTR_RELIGION;Monastic Autonomous Religion;;;;;;;;;;;;x
 EVTDESC1032;Today in the market, I watched as a poor beggar took his bowl full of coins and went straight into the tavern to buy drink. Perhaps mankind is unlovable after all.;;;;;;;;;;;;x
 EVTOPTA1032;No more charity!;;;;;;;;;;;;x
 EVTOPTB1032;It does not make sense, but I must try to accept it.;;;;;;;;;;;;x
-d_upper_swabia_adj;Swabian;;;;;;;;;;;;x
+d_upper_swabia_adj;施瓦本;;;;;;;;;;;;x
 d_franche_comte_adj;Burgundian;;;;;;;;;;;;x
 d_trent_adj;Trentian;;;;;;;;;;;;x
 d_oppland_adj;Opplending;;;;;;;;;;;;x
@@ -9210,7 +9210,7 @@ PROV1696;Friesach;;;;;;;;;;;;x
 PROV1697;Chremis;;;;;;;;;;;;x
 PROV1698;Freistadt;;;;;;;;;;;;x
 PROV1699;Medelike;;;;;;;;;;;;x
-PROV1700;Regensburg;;;;;;;;;;;;x
+PROV1700;雷根斯堡;;;;;;;;;;;;x
 PROV1707;Chieti;;;;;;;;;;;;x
 PROV1708;Perugia;;;;;;;;;;;;x
 PROV1709;Como;;;;;;;;;;;;x
@@ -10428,29 +10428,29 @@ EVTOPTA_HFP_11035;终于！让我们对这块石头做点什么。;;;;;;;;;;;;x
 EVTDESC_HFP_11036;[my_fellow_commander.GetTitledFirstName]是一个好战的指挥官，用[GetRandomMythologicalCreature]的力量与敌人战斗。虽然没人在数数，但是我发现我在想到底有多少个敌人被[my_fellow_commander.GetSheHe]单枪匹马的击倒了。。。「为我留几个，好么？」我穿过[battlefield_location.GetTerrain]大喊道。;;;;;;;;;;;;x
 EVTOPTA_HFP_11036;[my_fellow_commander.GetSheHeCap] is a one-[my_fellow_commander.GetManWoman] army...!;;;;;;;;;;;;x
 EVTOPTB_HFP_11036;Pssh, what a show-off! It's not that hard!;;;;;;;;;;;;x
-EVTDESC_HFP_11039;Commander [From.GetTitledFirstName] keeps throwing me looks across the [battlefield_location.GetTerrain], as I am [GetWeaponSwinging] my way through our enemies. Just as I begin to get uncomfortable by the surveillance, [From.GetSheHe] calls out: "Save some for me, will you?";;;;;;;;;;;;x
+EVTDESC_HFP_11039;当我[GetWeaponSwinging]者武器在敌阵左突右冲时，指挥官[From.GetTitledFirstName]一直越过[battlefield_location.GetTerrain]扫视着我。当我对这种监事感到不舒服的时候，[From.GetSheHe]对我大喊道：「给我留几个，好么？」;;;;;;;;;;;;x
 EVTOPTA_HFP_11039_default;Oh, you!;;;;;;;;;;;;x
-EVTOPTA_HFP_11039_lunatic;Come and get them! *cackle*;;;;;;;;;;;;x
-EVTOPTA_HFP_11039_evil;Nothing like the smell of bloodshed in the morning!;;;;;;;;;;;;x
-EVTOPTA_HFP_11039_kind;You do me too much honor, [From.GetTitledFirstName].;;;;;;;;;;;;x
-EVTOPTA_HFP_11039_cannibal;Just working up my appetite, [From.GetManWoman]!;;;;;;;;;;;;x
-EVTOPTA_HFP_11039_depressed;Haha, of course! Aaah, this is so invigorating!;;;;;;;;;;;;x
-EVTOPTA_HFP_11039_zealous;[Root.Religion.GetHighGodName] is with me, [From.GetBrotherSister]!;;;;;;;;;;;;x
-EVTDESC_HFP_11037_A_1;Nostalgia comes easily in the soft light of a campfire. Last night, one eager soldier blessed us with a riveting tale of the battle that claimed the life of my [target.GetRootRelation], [target.GetBestName]. As I am [GetRidingMarching] onto the battlefield today, I let the past fuel my resolve.;;;;;;;;;;;;x
-EVTDESC_HFP_11037_A_2;In the light of the campfire, my men often talk about heroes of old. Last night, one of them blessed us with a fabulous tale of the battle that claimed the life of [target.GetBestName]. I never gave it that much thought, but [GetRidingMarching] onto the battlefield, I find myself lingering on the story.;;;;;;;;;;;;x
-EVTOPTA_HFP_11037_1;I'll make you proud, [target.GetRootRelation]!;;;;;;;;;;;;x
-EVTOPTA_HFP_11037_2;Charge, in the name of [target.GetTitledFirstName]!;;;;;;;;;;;;x
-EVTDESC_HFP_11037_B_1;It was long ago I felt so good about being in charge of a regiment. Today, while lying in wait for an ambush, one nervous officer confessed that there was a time when the stories about my command were all over [home_capital_province.GetName]. "It's what made me vow to join the [Root.Culture.GetName] army, my [Root.GetLordLady]", [Root.GetSheHe] murmurs.;;;;;;;;;;;;x
-EVTDESC_HFP_11037_B_2;I remember hearing the stories from [home_capital_province.GetName], about the command and leadership of [target.GetBestName]. "It is important to have role models", I said at the time. Today, I look out over my regiment, thankful for all the great leaders that came before me.;;;;;;;;;;;;x
-EVTOPTB_HFP_11037_1;You're saying *I* am the reason you became a soldier...?;;;;;;;;;;;;x
-EVTOPTB_HFP_11037_2;Now they all look to me.;;;;;;;;;;;;x
-EVTDESC_HFP_11037_C_1;"No, I do not drink from the skulls of my enemies" I laugh, when one curious recruit lets slip a question about that time when I decapitated an enemy on the battlefield. [GetSkullTrophyComment];;;;;;;;;;;;x
-EVTDESC_HFP_11037_C_2;"If [target.GetTitledFirstName] drank from the skulls of [target.GetHerHis] enemies?" I ask. The recruit nods eagerly. I laugh, putting my arm around [Root.GetHerHim] conspiratorially: "Of course, there is a secret chamber back home in [home_capital_province.Capital.GetName], where [target.GetSheHe] is rumored to have bathed in their blood". The recruit grows pale.;;;;;;;;;;;;x
-EVTOPTC_HFP_11037_1;You're never gonna let that story go, eh?;;;;;;;;;;;;x
-EVTOPTC_HFP_11037_2;Have you heard the one about [target.GetFirstName] and the horse...?;;;;;;;;;;;;x
-string_took_skull;"But that is not a bad idea! I like your humor, [Root.GetBoyGirl]" I say, patting [Root.GetHerHim] on the back.;;;;;;;;;;;;x
-string_didnt_take_skull;"I didn't even take the skull with me! Honestly, you have too much imagination, soldier" I say, patting [Root.GetHerHim] on the back.;;;;;;;;;;;;x
-glory_days;Glory Days;;;;;;;;;;;;x
+EVTOPTA_HFP_11039_lunatic;过来拿它们！*咔*;;;;;;;;;;;;x
+EVTOPTA_HFP_11039_evil;没什么比早晨流点血更好的了！;;;;;;;;;;;;x
+EVTOPTA_HFP_11039_kind;你给我太多荣誉了 ，[From.GetTitledFirstName]。;;;;;;;;;;;;x
+EVTOPTA_HFP_11039_cannibal;我只是想吃点东西，[From.GetManWoman]！;;;;;;;;;;;;x
+EVTOPTA_HFP_11039_depressed;哈哈，当然！啊，这太令人兴奋了！;;;;;;;;;;;;x
+EVTOPTA_HFP_11039_zealous;[Root.Religion.GetHighGodName] 在我身边，[From.GetBrotherSister]！;;;;;;;;;;;;x
+EVTDESC_HFP_11037_A_1;篝火的柔和灯光下很容易产生怀念。昨晚，一个热情的士兵给我们讲了关于一场战斗的扣人心弦的故事，这场战斗夺去了我的[target.GetRootRelation]，[target.GetBestName]的生命。当我今天[GetRidingMarching]进入战场时，往昔岁月激发了我的决心。;;;;;;;;;;;;x
+EVTDESC_HFP_11037_A_2;在篝火旁我的人经常谈论古老的英雄。昨晚，他们中的一个给了我们讲了一个关于战斗的精彩故事，这场战斗夺去了 [target.GetBestName]的生命。我从来没有想过这件事，但是[GetRidingMarching] 进入战场上，我发现这个如是在我心头挥之不去。;;;;;;;;;;;;x
+EVTOPTA_HFP_11037_1;你会为我骄傲的，[target.GetRootRelation]！;;;;;;;;;;;;x
+EVTOPTA_HFP_11037_2;以[target.GetTitledFirstName]之名，冲锋！;;;;;;;;;;;;x
+EVTDESC_HFP_11037_B_1;很久以前，当一支部队的指挥官让我感觉很好。今天，在等待伏击时，一名紧张的军官承认，有一段时间，关于我的指挥的故事传遍了[home_capital_province.GetName]。「这使我发誓要加入[Root.Culture.GetName]军队，我的[Root.GetLordLady]」， [Root.GetSheHe]喃喃自语道。;;;;;;;;;;;;x
+EVTDESC_HFP_11037_B_2;我记得在[home_capital_province.GetName]时听到的关于[target.GetBestName]的指挥和领导的故事。「榜样是很重要的」，我当时说。今天，我看着我的部队，感谢在我之前的所有伟大领袖。;;;;;;;;;;;;x
+EVTOPTB_HFP_11037_1;你是说*我*是你成为一个士兵的原因。。。？;;;;;;;;;;;;x
+EVTOPTB_HFP_11037_2;现在他们都看着我。;;;;;;;;;;;;x
+EVTDESC_HFP_11037_C_1;「不，我不把敌人的头盖骨当酒杯使」我笑道，当我在战场上斩下一个敌人的头颅时一个好奇的新兵问了我一个问题。[GetSkullTrophyComment];;;;;;;;;;;;x
+EVTDESC_HFP_11037_C_2;[target.GetTitledFirstName]会不会把[target.GetHerHis]敌人的头盖骨当碗使?我重复道。新兵点了点头，我大笑起来，搂着[Root.GetHerHim] 不怀好意的说道：「当然，在的[home_capital_province.Capital.GetName]家中有一个密室，在那 [target.GetSheHe]都用他们的鲜血洗澡」。新兵脸色煞白。;;;;;;;;;;;;x
+EVTOPTC_HFP_11037_1;你永远不会让这个故事消失，是吗？;;;;;;;;;;;;x
+EVTOPTC_HFP_11037_2;你听说过关于[target.GetFirstName]和马的事情了么。。。？;;;;;;;;;;;;x
+string_took_skull;「但这不是一个坏主意！我喜欢你的谦逊，[Root.GetBoyGirl]」我说道，拍了拍[Root.GetHerHim]的背。;;;;;;;;;;;;x
+string_didnt_take_skull;「我甚至不把头盖骨带在身上！说实话，你想太多了，士兵」我说道，拍了拍[Root.GetHerHim]的背。;;;;;;;;;;;;x
+glory_days;荣耀之日;;;;;;;;;;;;x
 glory_days_desc;This character is riding on a wave of glorious battles, long gone by.;;;;;;;;;;;;x
 proud_role_model;Proud Role Model;;;;;;;;;;;;x
 proud_role_model_desc;This character is awash with a sense of pride and duty.;;;;;;;;;;;;x
@@ -11122,7 +11122,7 @@ c_krems_adj;Kremser;;;;;;;;;;;;x
 c_osterreich_adj;Viennese;;;;;;;;;;;;x
 c_freistadt_adj;Freistadter;;;;;;;;;;;;x
 c_medelike_adj;Medeliker;;;;;;;;;;;;x
-c_regensburg_adj;Regensburger;;;;;;;;;;;;x
+c_regensburg_adj;雷根斯堡;;;;;;;;;;;;x
 c_oberbayern_adj;Freisinger;;;;;;;;;;;;x
 c_krain_adj;Chreinian;;;;;;;;;;;;x
 c_aprutium_adj;Aquiline;;;;;;;;;;;;x
@@ -11139,7 +11139,7 @@ c_noli_adj;Nolian;;;;;;;;;;;;x
 e_outremer_adj;Latin;;;;;;;;;;;;x
 k_thrace_adj;Thracian;;;;;;;;;;;;x
 k_carinthia_adj;Carinthian;;;;;;;;;;;;x
-k_austria_adj;Austrian;;;;;;;;;;;;x
+k_austria_adj;奥地利;;;;;;;;;;;;x
 k_eastern_march_adj;Austrian;;;;;;;;;;;;x
 k_teutonic_state_adj;Teutonics;;;;;;;;;;;;x
 d_opsikon_adj;Opsikion;;;;;;;;;;;;x
@@ -16880,20 +16880,20 @@ k_zhetysu;Zhetysu;;;;;;;;;;;;x
 k_turkestan;Oghuz;;;;;;;;;;;;x
 k_sibir;Sibir;;;;;;;;;;;;x
 k_nenets;Nenetsia;;;;;;;;;;;;x
-k_epirus;Epirus;;;;;;;;;;;;x
+k_epirus;伊庇鲁斯;;;;;;;;;;;;x
 k_romagna_adj;Romagnol;;;;;;;;;;;;x
 k_papacy_adj;Papal;;;;;;;;;;;;x
 k_zhetysu_adj;Zhetysu;;;;;;;;;;;;x
 k_turkestan_adj;Oghuz;;;;;;;;;;;;x
 k_sibir_adj;Siberian;;;;;;;;;;;;x
 k_nenets_adj;Nenets;;;;;;;;;;;;x
-k_eastern_marches_adj;Bavarian;;;;;;;;;;;;x
-k_epirus_adj;Epirotan;;;;;;;;;;;;x
+k_eastern_marches_adj;巴伐利亚;;;;;;;;;;;;x
+k_epirus_adj;伊庇鲁斯;;;;;;;;;;;;x
 e_outremer;Outremer;;;;;;;;;;;;x
 k_thrace;Thrace;;;;;;;;;;;;x
 k_carinthia;Carinthia;;;;;;;;;;;;x
-k_austria;Austria;;;;;;;;;;;;x
-k_eastern_marches;Austria;;;;;;;;;;;;x
+k_austria;奥地利;;;;;;;;;;;;x
+k_eastern_marches;奥地利;;;;;;;;;;;;x
 k_romagna;Romagna;;;;;;;;;;;;x
 k_teutonic_state;Teutonic State;;;;;;;;;;;;x
 k_chernigov;Chernigov;;;;;;;;;;;;x
@@ -18671,7 +18671,7 @@ d_angria;Angria;;;;;;;;;;;;x
 d_lausitz;Lausitz;;;;;;;;;;;;x
 d_hesse;Hesse;;;;;;;;;;;;x
 d_munster_germany;Münster;;;;;;;;;;;;x
-d_nordgau;Nordgau;;;;;;;;;;;;x
+d_nordgau;诺德高;;;;;;;;;;;;x
 d_trier;Trier;;;;;;;;;;;;x
 d_mainz;Mainz;;;;;;;;;;;;x
 PROV9;West Connacht;;;;;;;;;;;;x
@@ -19173,13 +19173,13 @@ e_turkestan_adj;Turani;;;;;;;;;;;;x
 k_valencia;Valencia;;;;;;;;;;;;x
 k_badajoz;Badajoz;;;;;;;;;;;;x
 k_saxon;萨克森;;;;;;;;;;;;x
-k_franconia;Franconia;;;;;;;;;;;;x
-k_swabia;Swabia;;;;;;;;;;;;x
+k_franconia;法兰克尼亚;;;;;;;;;;;;x
+k_swabia;施瓦本;;;;;;;;;;;;x
 k_valencia_adj;Valencian;;;;;;;;;;;;x
 k_badajoz_adj;Badajozan;;;;;;;;;;;;x
 k_saxon_adj;萨克森;;;;;;;;;;;;x
-k_franconia_adj;Franconian;;;;;;;;;;;;x
-k_swabia_adj;Swabian;;;;;;;;;;;;x
+k_franconia_adj;法兰克尼亚;;;;;;;;;;;;x
+k_swabia_adj;施瓦本;;;;;;;;;;;;x
 d_somerset_adj;Somerseton;;;;;;;;;;;;x
 d_hampshire_adj;Wessexian;;;;;;;;;;;;x
 d_penthievre_adj;Penthièvrian;;;;;;;;;;;;x
@@ -19199,7 +19199,7 @@ d_angria_adj;Angrian;;;;;;;;;;;;x
 d_lausitz_adj;Lausitzer;;;;;;;;;;;;x
 d_hesse_adj;Hessen;;;;;;;;;;;;x
 d_munster_germany_adj;Munsterian;;;;;;;;;;;;x
-d_nordgau_adj;Nordgauer;;;;;;;;;;;;x
+d_nordgau_adj;诺德高;;;;;;;;;;;;x
 d_trier_adj;Trierian;;;;;;;;;;;;x
 d_mainz_adj;Mainzian;;;;;;;;;;;;x
 c_tregor_adj;Tregorian;;;;;;;;;;;;x
@@ -19302,9 +19302,9 @@ alert_northern_crusade_active_instant;Northern Crusade;;;;;;;;;;;;x
 alert_northern_crusade_active_delayed;There is currently an ongoing war between the Teutons and the pagans;;;;;;;;;;;;x
 stem_duchy_of_saxony;Form the Grand Duchy of Saxony;;;;;;;;;;;;x
 stem_duchy_of_saxony_desc;With all the lands of Saxony under my rule, it is only right for me to seek a new title befitting my station.;;;;;;;;;;;;x
-stem_duchy_of_franconia;Form the Grand Duchy of Franconia;;;;;;;;;;;;x
+stem_duchy_of_franconia;成立法兰克尼亚大公国;;;;;;;;;;;;x
 stem_duchy_of_franconia_desc;With all the lands of Franconia under my rule, it is only right for me to seek a new title befitting my station.;;;;;;;;;;;;x
-stem_duchy_of_swabia;Form the Grand Duchy of Swabia;;;;;;;;;;;;x
+stem_duchy_of_swabia;成立施瓦本大公国;;;;;;;;;;;;x
 stem_duchy_of_swabia_desc;With all the lands of Swabia under my rule, it is only right for me to seek a new title befitting my station.;;;;;;;;;;;;x
 EVTTITLE_HFP_40038;Grand Duchy of [From.PrimaryTitle.GetName];;;;;;;;;;;;x
 EVTDESC_HFP_40038;After gathering the lands of [From.PrimaryTitle.GetName] under [From.GetHerHis] rule, [From.GetDynName] has declared [From.GetHerselfHimself] the Grand [From.GetDukeDuchessCap] of [From.PrimaryTitle.GetName] in a grand ceremony that is sure to be remembered for many years to come.\n\nThe rest of the Princes of the Empire look to [From.PrimaryTitle.GetName] with jealousy, as [From.GetTitledFirstName] will surely play an important role in the Empire with [From.GetHerHis] newfound rank.;;;;;;;;;;;;x

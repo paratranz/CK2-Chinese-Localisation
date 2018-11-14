@@ -926,6 +926,12 @@
     931.1.1 = {
         add_spouse = 507
     }
+    935.9.28 = {
+        create_bloodline = {
+            type = premyslid
+            has_dlc = "Holy Fury"
+        }
+    }
     972.1.1 = {
         death = "972.1.1"
     }
@@ -2598,34 +2604,6 @@
         death = "815.1.1"
     }
 }
-187011 = {
-    name = "普里比纳"  # Pribina
-    dynasty = 7509
-    religion = "slavic_pagan"
-    culture = "bohemian"
-    800.1.1 = {
-        birth = "800.1.1"
-    }
-    831.1.1 = {
-        religion = "catholic"
-    }
-    861.1.1 = {
-        death = "861.1.1"
-    }
-}
-187012 = {
-    name = "科采尔"  # Kocel
-    dynasty = 7509
-    religion = "catholic"
-    culture = "bohemian"
-    father = 187011
-    833.1.1 = {
-        birth = "833.1.1"
-    }
-    876.1.1 = {
-        death = "876.1.1"
-    }
-}
 168344 = {
     name = "斯拉维博尔"  # Slavibor
     dynasty = 250
@@ -2892,30 +2870,6 @@
         death = "1004.1.1"
     }
 }
-168580 = {
-    name = "斯拉沃米尔"  # Slavomir
-    dynasty = 9603
-    religion = "catholic"
-    culture = "bohemian"
-    845.1.1 = {
-        birth = yes
-    }
-    895.1.1 = {
-        death = yes
-    }
-}
-168581 = {
-    name = "德拉斯拉夫"  # Draslav
-    dynasty = 9604
-    religion = "catholic"
-    culture = "bohemian"
-    845.1.1 = {
-        birth = yes
-    }
-    899.1.1 = {
-        death = yes
-    }
-}
 168617 = {
     name = "迪波尔德"  # Diepold
     dynasty = 506
@@ -2992,6 +2946,54 @@
         birth = yes
     }
     814.1.1 = {
+        death = yes
+    }
+}
+260041 = {
+    name = "博切克"  # Bocek
+    dynasty = 1062023
+    religion = "slavic_pagan"
+    culture = "bohemian"
+    735.1.1 = {
+        birth = yes
+    }
+    784.1.1 = {
+        death = yes
+    }
+}
+260042 = {
+    name = "斯米尔"  # Smil
+    dynasty = 1062024
+    religion = "catholic"
+    culture = "bohemian"
+    837.1.1 = {
+        birth = yes
+    }
+    878.1.1 = {
+        death = yes
+    }
+}
+260053 = {
+    name = "斯瓦托博尔"  # Svatobor
+    dynasty = 1062027
+    religion = "slavic_pagan"
+    culture = bohemian
+    732.1.1 = {
+        birth = yes
+    }
+    780.1.1 = {
+        death = yes
+    }
+}
+260054 = {
+    name = "帕韦尔"  # Pawel
+    dynasty = 1062028
+    religion = "catholic"
+    culture = bohemian
+    821.1.1 = {
+        birth = yes
+    }
+    880.1.1 = {
         death = yes
     }
 }

@@ -20,7 +20,7 @@ EVTOPTA_ZE_22520;还不如一个异教徒……;;;;;;;;;;;;x
 EVTDESC_ZE_22600;你听到传言说在国外有一位[target_foreign_voter.GetJobTitle]，有超凡才能并且处理[target_foreign_voter.GetHerHis]事务游刃有余。鉴于你本身的能力经常被同僚质疑，或许你该写封信给这位「[target_foreign_voter.GetBestName]」，向其寻求[target_foreign_voter.GetHerHis]建议？;;;;;;;;;;;;x
 EVTOPTA_ZE_22600;好，我会写信给[target_foreign_voter.GetHerHim]的！;;;;;;;;;;;;x
 EVTOPTB_ZE_22600;不，何必呢……;;;;;;;;;;;;x
-EVTDESC_ZE_22610;致超凡的 [Root.GetTitledFirstName]，\n\n我是 [From.GetTitledFirstName]，[From.Liege.GetTitledFirstName]的[From.GetJobTitle]。\n作为 [Root.Liege.GetTitledFirstName]内阁中的[Root.GetJobTitle]，你的才能被深远流传。我恳求你给我一些政治方面的建议，使我可以像你一样令人钦佩地为我的领主效劳。\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESC_ZE_22610;致超凡的 [Root.GetTitledFirstName]，\n我是 [From.GetTitledFirstName]，[From.Liege.GetTitledFirstName]的[From.GetJobTitle]。\n作为 [Root.Liege.GetTitledFirstName]内阁中的[Root.GetJobTitle]，你的才能被深远流传。我恳求你给我一些政治方面的建议，使我可以像你一样令人钦佩地为我的领主效劳。\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA_ZE_22610;真是感人至深的请求，我会帮助你的！;;;;;;;;;;;;x
 EVTOPTB_ZE_22610;跟敌人称兄道弟？我看还是算了吧！;;;;;;;;;;;;x
 EVTDESC_ZE_22620;致[GetFromRootCompliment][Root.GetFirstName]，\n\n我愿意给你些建议，使你如何更有效的在内阁中效劳。随信附上一本书，讲述了我自己作为一位[From.GetJobTitle]的经验，希望里面的内容可以帮到你！\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
@@ -93,8 +93,6 @@ COALITION_SIZE;威胁程度：$INFAMY|%Y0$/$LIMIT|%Y0$;;;;;;;;;;;;x
 INFAMY_LOWER_TRIGGER;$CHAR|Y$的威胁度低于$VALUE|Y$ 。;;;;;;;;;;;;x
 INFAMY_HIGHER_TRIGGER;$CHAR|Y$的威胁度高于$VALUE|Y$ 。;;;;;;;;;;;;x
 CHANGE_INFAMY_EFFECT;$CHAR|Y$的威胁度增加了 $VALUE|Y$。\n;;;;;;;;;;;;x
-nogovernment;没有政体;;;;;;;;;;;;x
-nogovernment_desc;没有政体;;;;;;;;;;;;x
 alert_council_discontent_name;内阁不满;;;;;;;;;;;;x
 alert_liege_council_discontent_name;领主内阁不满;;;;;;;;;;;;x
 alert_peace_soon_enforced_name;国内即将执行强制和平;;;;;;;;;;;;x
@@ -159,7 +157,6 @@ INTERACTION_CANNOT_BREAK_FAVOR_BETROTHAL;婚约不是用人情建立的;;;;;;;;;
 haughty_desc;这个孩子骄傲、虚荣、自大。可能发展成：§Y骄傲§!、§Y专断§! 或 §Y残暴§!。;;;;;;;;;;;;x
 affectionate_desc;这个孩子和善、经常流露喜好。可能发展成：§Y和善§!、§Y安于现状§! 或 §Y值得信任§!。;;;;;;;;;;;;x
 timid_desc;这个孩子害羞、安静、通常避免引起冲突。可能发展成：§Y谦卑§!、§Y害羞§! 或 §Y怯懦§!。;;;;;;;;;;;;x
-rowdy_desc;这个孩子吵闹、活泼、相比安静的工作经常更喜欢粗野的体力活动。可能发展成：§Y强壮§!、§Y诚实§! 或 §Y笨拙§!。;;;;;;;;;;;;x
 willful_desc;这个孩子顽固、执拗，从不轻易遵从他人或作出让步。可能发展成：§Y野心勃勃§!、§Y勇敢§! 或 §Y顽固§!。;;;;;;;;;;;;x
 brooding_desc;这个孩子是一个安静的思考者。别的孩子白天在外玩时，这个孩子经常坐在屋内沉思。可能发展成：§Y正直§!、§Y易怒§! 或 §Y嫉妒§!。;;;;;;;;;;;;x
 indolent_desc;这个孩子反感任何形式的努力，无论是精神上的还是身体上的。可能发展成§Y慷慨§!、§Y懒惰§! 或 §Y暴食§!。;;;;;;;;;;;;x
@@ -270,11 +267,10 @@ EVTOPTA_ZE_13625;[From.GetSheHeCap]应该追求伟大！去追寻它吧！;;;;;;
 EVTOPTB_ZE_13625;为人周密，使他人依靠你。;;;;;;;;;;;;x
 EVTOPTC_ZE_13625;学会伺机而动。;;;;;;;;;;;;x
 obj_groom_an_heir_title;培养一个继承人;;;;;;;;;;;;x
-obj_groom_an_heir_desc;[This.GetTitledFirstName]想拥有一个儿子并把他养大。\n\n如果[This.GetFirstName]的继承法是§Y男女平等§!，那么培养儿子或女儿都可以完成这个野心。\n\n选择这个野心时，§Y生育能力§!会增加§Y20%§!。;;;;;;;;;;;;x
 opinion_boost_child;§Y[Root.GetFullName]§!的成年孩子对[Root.GetHerHim]的好感增加§G15§!，持续§Y240个月§!！\n;;;;;;;;;;;;x
 introduce_heir;向封臣引见继承人;;;;;;;;;;;;x
 introduce_heir_named;向封臣引见继承人;;;;;;;;;;;;x
-introduce_heir_desc;你的继承人就要成年了，把他（她）引见给你辖下的封臣们。这可以帮助他们建立信任，将来会大有帮助。;;;;;;;;;;;;x
+introduce_heir_desc;你的继承人就要成年了，把[Root.GetHerHim]引见给你辖下的封臣们。这可以帮助他们建立信任，将来会大有帮助。;;;;;;;;;;;;x
 introduce_heir_custom_tooltip;发出请柬。;;;;;;;;;;;;x
 EVTDESC_ZE_22900;你邀请你的封臣前来，为他们介绍你的继承人，[introduced_heir.GetTitledFirstName]。[introduced_heir.GetSheHeCap]不得不和许多人寒暄交谈，留意举止是否得体。年轻的[introduced_heir.GetHerHim]可能不太喜欢这样的场合。但是，你相信[introduced_heir.GetSheHe]不会让你失望！;;;;;;;;;;;;x
 EVTOPTA_ZE_22900;他们马上就会来了！;;;;;;;;;;;;x
