@@ -354,31 +354,31 @@ NOT_TRUE_BELIEVER;不是真信徒;;;;;;;;;;;;x
 NOT_CURRENTLY_BAPTIZING;§Y[Root.GetTitledName]§!现在没有在支持一个领土的改信;;;;;;;;;;;;x
 NOT_ASKED_BAPTISM_RECENTLY;最近没有从[From.GetBaptismTimer]请求过大规模改信;;;;;;;;;;;;x
 NOT_BEEN_ASKED_BAPTISM_RECENTLY;§Y[Root.GetTitledName]§!最近没有从[Root.GetBaptismTimer]请求过大规模改信;;;;;;;;;;;;x
-string_baptism_timer;- expires on: §Y[This.baptism_request_cooldown.GetExpiryDate]§!;;;;;;;;;;;;x
-NOT_ROOT_RELIGION_PLAYABLE;§Y[Root.GetTitledName]'s§! religion is playable;;;;;;;;;;;;x
-ALL_PROVINCES_CONVERT_TOOLTIP;All of §Y[Root.GetTitledFirstName]'s§! demesne provinces will become §Y[sponsoring_king.Religion.GetName]§!.;;;;;;;;;;;;x
-EVTTOOLTIPHF20000;Send a letter to §Y[Root.GetTitledName]§! to sponsor the mass conversion of §Y[From.PrimaryTitle.GetName]§!.;;;;;;;;;;;;x
+string_baptism_timer;- 到期：§Y[This.baptism_request_cooldown.GetExpiryDate]§!;;;;;;;;;;;;x
+NOT_ROOT_RELIGION_PLAYABLE;§Y[Root.GetTitledName]§!的宗教可玩;;;;;;;;;;;;x
+ALL_PROVINCES_CONVERT_TOOLTIP;所有§Y[Root.GetTitledFirstName]§!的领土会成为§Y[sponsoring_king.Religion.GetName]§!。;;;;;;;;;;;;x
+EVTTOOLTIPHF20000;向§Y[Root.GetTitledName]§!写一封信以帮助§Y[From.PrimaryTitle.GetName]§!的大规模改信。;;;;;;;;;;;;x
 EVTTOOLTIPHFA20005;大规模改信;;;;;;;;;;;;x
 EVTTOOLTIPHFB20005;大规模改信;;;;;;;;;;;;x
 ai_request_sponsored_baptism;请求大规模改信;;;;;;;;;;;;x
 ai_request_sponsored_baptism_desc;拥抱一个更加文明的宗教可以帮助你在领地内集权并抛弃你的部落生活方式。;;;;;;;;;;;;x
 TT_SPONSOR_EXISTS;存在一个潜在的支持领地;;;;;;;;;;;;x
-CHRONICLE_MASS_CONVERSION_CONVERTER;With the help of the [sponsoring_king.GetTitle] of [sponsoring_king.PrimaryTitle.GetName], [converting_king.GetTitledName] brought the [converting_king.Religion.GetName] faith to [converting_king.GetHerHis] realm, overseeing the conversion of scores of [converting_king.GetHerHis] subjects.;;;;;;;;;;;;x
-CHRONICLE_MASS_CONVERSION_SPONSOR;[converting_king.GetTitledName] petitioned [sponsoring_king.GetTitledName] to bring the [sponsoring_king.Religion.GetName] faith to [converting_king.GetHerHis] pagan tribes.;;;;;;;;;;;;x
-CHRONICLE_MASS_CONVERSION_VASSAL;With the help of the [sponsoring_king.GetTitle] of [sponsoring_king.PrimaryTitle.GetName], [converting_king.GetTitledName] brought the [converting_king.Religion.GetName] faith to [converting_king.GetHerHis] realm, overseeing the conversion of scores of [converting_king.GetHerHis] subjects.;;;;;;;;;;;;x
-EVTDESCHF20000;Esteemed [Root.GetTitledName],\nI wish to forsake my old religion and lead [From.PrimaryTitle.GetName] to its rightful place amongst the civilized realms.\nI humbly request [Root.PrimaryTitle.GetName]'s assistance to ensure a peaceful transition into the [Root.Religion.GetName] faith.\n\n[From.GetTitledFirstName];;;;;;;;;;;;x
+CHRONICLE_MASS_CONVERSION_CONVERTER;在[sponsoring_king.GetTitle]的[sponsoring_king.PrimaryTitle.GetName]帮助下，[converting_king.GetTitledName]把[converting_king.Religion.GetName]信仰带到了[converting_king.GetHerHis]的领地，监督[converting_king.GetHerHis]的臣民的改信。;;;;;;;;;;;;x
+CHRONICLE_MASS_CONVERSION_SPONSOR;[converting_king.GetTitledName]请求[sponsoring_king.GetTitledName]把[sponsoring_king.Religion.GetName]信仰传播到[converting_king.GetHerHis]的原始宗教部落去。;;;;;;;;;;;;x
+CHRONICLE_MASS_CONVERSION_VASSAL;在[sponsoring_king.GetTitle]的[sponsoring_king.PrimaryTitle.GetName]帮助下，[converting_king.GetTitledName]把[converting_king.Religion.GetName]信仰带到了[converting_king.GetHerHis]的领地，监督[converting_king.GetHerHis]的臣民的改信。;;;;;;;;;;;;x
+EVTDESCHF20000;尊敬的[Root.GetTitledName]，\n我愿意放弃我过去的信仰并带领[From.PrimaryTitle.GetName]在所有文明国度中找到自己正确的位置。\n我谦卑地请求[Root.PrimaryTitle.GetName]的帮助以保证向[Root.Religion.GetName]信仰的和平转变。\n\n[From.GetTitledFirstName];;;;;;;;;;;;x
 EVTOPTAHF20000;接受;;;;;;;;;;;;x
-accept_baptism_request;[Root.GetTitledName] will sign a Non-Aggression Pact with [From.GetTitledName] and assist [From.GetHerHim] in converting [From.PrimaryTitle.GetName]'s population.;;;;;;;;;;;;x
+accept_baptism_request;[Root.GetTitledName]会签署一份与[From.GetTitledName]之间的和平协议并在转变[From.PrimaryTitle.GetName]的人民信仰中提供协助[From.GetHerHim]。;;;;;;;;;;;;x
 EVTOPTBHF20000;拒绝;;;;;;;;;;;;x
-refuse_baptism_request;[Root.GetTitledName] will inform [From.GetTitledName] that [Root.GetSheHe] is not interested in sponsoring the conversion of [From.PrimaryTitle.GetName] to the [Root.Religion.GetName] faith.;;;;;;;;;;;;x
-EVTDESCHF20001;[Root.GetTitledName],\nI sympathize with your dream of a [From.Religion.GetName] [Root.PrimaryTitle.GetName], but I am afraid I cannot aid you in your mission at this moment.\n\nSincerely,\n[From.GetTitledName];;;;;;;;;;;;x
+refuse_baptism_request;[Root.GetTitledName]会告知[From.GetTitledName][Root.GetSheHe]对赞助[From.PrimaryTitle.GetName]向[Root.Religion.GetName]信仰的转变并不感兴趣。;;;;;;;;;;;;x
+EVTDESCHF20001;[Root.GetTitledName]，\n我同情你对于一个[From.Religion.GetName]的[Root.PrimaryTitle.GetName]的梦想，但是我恐怕不能在这个时候协助你。\n\n谨上，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20001;真倒霉。;;;;;;;;;;;;x
-EVTDESCHF20002;[Root.GetTitledName],\nI am honored to accept your plea to help the poor people of [Root.PrimaryTitle.GetName] see the light and embrace the [From.Religion.GetName] faith.\nWe will begin preparations for a great conversion immediately.\n\nSincerely, \n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESCHF20002;[Root.GetTitledName]，\n我很荣幸接受你对于帮助[Root.PrimaryTitle.GetName]的可怜人民看到光明并拥抱[From.Religion.GetName]信仰的请求。\n我们会为即将到来的伟大转变开始准备。\n\n谨上\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20002;很好。;;;;;;;;;;;;x
-EVTTOOLTIPHF20003;§Y[From.GetTitledName]§! will send [From.Religion.GetName] priests to prepare a large ceremony for the mass conversion of your subjects.;;;;;;;;;;;;x
-EVTTOOLTIPHF20005;All vassals of §Y[Root.PrimaryTitle.GetName]§! will be invited to the impending ceremony.;;;;;;;;;;;;x
-EVTTITLE20003;The Conversion of [converting_king.PrimaryTitle.GetName];;;;;;;;;;;;x
-EVTDESCHFB20003;You meet with your vassals and [sponsoring_king.GetTitledFirstName]'s Imams in the middle of [converting_king.Capital.GetName]'s square.\nAddressing the crowd of commoners gathered all around you, you publicly denounce the old gods and spit on their false idols, gesturing for your vassals to do the same. A few complaints rise from the crowd, but they are swiftly quelled. Then, as the Imams set fire to the icons, you declare your faith to Allah and to His Prophet.\nYou all turn your back to the pyre of false gods and bow to Mecca.;;;;;;;;;;;;x
+EVTTOOLTIPHF20003;§Y[From.GetTitledName]§!会派遣[From.Religion.GetName]僧侣们去为你治下的巨大转变准备一个盛大的仪式。;;;;;;;;;;;;x
+EVTTOOLTIPHF20005;§Y[Root.PrimaryTitle.GetName]§!的所有封臣都将被邀请出席即将到来的仪式。;;;;;;;;;;;;x
+EVTTITLE20003;[converting_king.PrimaryTitle.GetName]的转信;;;;;;;;;;;;x
+EVTDESCHFB20003;你在[converting_king.Capital.GetName]的广场中心会见你的封臣们和[sponsoring_king.GetTitledFirstName]的伊玛目。\n迎着围在你周围的平民们，你斥责着过去的神明并吐唾沫在它们虚伪的图腾上，示意你的封臣们去做同样的事。人群中发出些许抱怨声，但它们很快被平定下去。当伊玛目点燃图腾时，你宣布对安拉和他的先知的信仰。\n你们所有人都将伪神的柴堆抛之身后，向麦加鞠躬。;;;;;;;;;;;;x
 EVTDESCHFC20003;The hooded priests from [sponsoring_king.Capital.GetName] arrive at dawn, but the ceremony begins only after sunset, once they have helped the icons of the new gods adjust to their new home in your temple.\nYou meet with your vassals outside the city, a crowd of your subjects assembling all around you, and then, under the grim echoes of drums and horns, the Germanic priests begin the rite. They paint your faces with the blood of the sacrificial lambs, burn sacred herbs and chant their secret spells, as you all enter a trance.\nVisions of horror and delight accompany you for the rest of the night. When you wake at dawn of the next day, the priests are already gone. Little by little, the confused crowd of converts returns to [converting_king.Capital.GetName].;;;;;;;;;;;;x
 EVTDESCHFD20003;Following the instructions of [sponsoring_king.GetTitledFirstName]'s priests, you assemble your vassals and ride out of [converting_king.Capital.GetName] on your best horse.\nThe Tengri priests lead you away from the civilized roads, deep into the wilderness, refusing to answer to any query about your destination.\nAfter riding for the entire day, you stop at the edge of a cliff, looking at the bleeding hues of the sunset. The priests burn a few offerings of food to the sky god, creating a large line of dark smoke from a small set of fires. Then, as their chants echo through the air, you ride with your vassals through the smoke and cleanse yourself of the old gods.;;;;;;;;;;;;x
 EVTDESCHFE20003;来自[sponsoring_king.Capital.GetName]的祭司们坚持要在日落时举行仪式。当时间到了，你在[converting_king.Capital.GetName]城外的悬崖顶上会见你的封臣，人们在下面等待着你。\n祭司们开始仪式吟唱，演奏圣器。当最后一缕阳光消失在远方时，你和你的封臣宣布你们的旧神在这一天死去。祭司们继续吟唱跳舞，坚持了一整晚，即使大多数普通人已经睡着了。当黎明到来时，他们宣称你在季耶瓦斯的保护下于新的一天重生。;;;;;;;;;;;;x
@@ -407,25 +407,25 @@ EVTDESCHFM20004;It is quite amusing to watch barbarians attempt to mimic civiliz
 EVTDESCHFN20004;Your priests have returned bringing news from [converting_king.PrimaryTitle.GetName].\nThe local tribes have been successfully introduced to the worship of [Root.Religion.GetHighGodName]. \nWith the proper grooming, they will become model followers of the true faith, given enough time.;;;;;;;;;;;;x
 EVTDESCHFO20004;The rabbis have returned completely exhausted after the mass trial of [converting_king.Capital.GetName]. \nThanks to their tireless work and the enlightenment of [converting_king.GetTitledFirstName], another tribe has joined the sacred covenant with Yahweh and walks the Earth under His protection.;;;;;;;;;;;;x
 EVTDESCHFP20004;Your priests have done what they could to introduce [converting_king.PrimaryTitle.GetName] to the [sponsoring_king.Religion.GetName] faith. Now it the converts' responsibility to stay true to their new convictions and follow the straight and narrow path to enlightenment.;;;;;;;;;;;;x
-EVTOPTAHF20004;The savages have finally seen the light.;;;;;;;;;;;;x
+EVTOPTAHF20004;这是蛮族们最后的曙光。;;;;;;;;;;;;x
 EVTDESCHFA20005;[Root.GetTitledName],\nI have decided to abandon my old beliefs and embrace the [sponsoring_king.Religion.GetName] faith.\nAs I care much for the salvation of all my subjects, I urge you to join me in [From.Capital.GetName], and renounce your old faith, alongside all the people of [From.PrimaryTitle.GetName].\n\nSincerely, \n[From.GetTitledName];;;;;;;;;;;;x
 EVTDESCHFB20005;[Root.GetTitledName],\nNo longer will my [sponsoring_king.Religion.GetName] subjects have to live in fear under backwards [converting_king.Religion.GetName] rulers.\nI have contacted the wise [sponsoring_king.GetTitledName] and, with the help of [sponsoring_king.GetHerHis] priests, I am preparing to convert the entirety of [From.PrimaryTitle.GetName] to the [sponsoring_king.Religion.GetName] faith. \n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20005;This is great news!;;;;;;;;;;;;x
+EVTOPTAHF20005;真是个好消息！;;;;;;;;;;;;x
 EVTTOOLTIPHFA20006;Inform §Y[From.GetTitledName]§! that you are happy for [converting_king.GetHerHis] decision.\nWhen the Mass Conversion takes place all of your Vassals, Courtiers, and Provinces will turn §Y[sponsoring_king.Religion.GetName]§!.;;;;;;;;;;;;x
-EVTOPTBHF20005;I can finally worship [sponsoring_king.Religion.GetRandomGodName] openly!;;;;;;;;;;;;x
+EVTOPTBHF20005;我终于能够公开地崇拜[sponsoring_king.Religion.GetRandomGodName]了！;;;;;;;;;;;;x
 EVTTOOLTIPHFB20006;Come out as a [sponsoring_king.Religion.GetName].\nWhen the Mass Conversion takes place all of your Vassals, Courtiers, and Provinces will turn §Y[sponsoring_king.Religion.GetName]§!.;;;;;;;;;;;;x
 EVTOPTCHF20005;我当然愿意改信。（撒谎）;;;;;;;;;;;;x
 EVTTOOLTIPHFC20006;Go to §Y[converting_king.Capital.GetName]§! and pretend to convert to your liege's new faith, while secretly remaining §Y[Root.Religion.GetName]§!.\nWhen the Mass Conversion takes place all of your Vassals will secretly maintain their old beliefs. All your Provinces will become §Y[sponsoring_king.Religion.GetName]§!, but communities of Pagans will survive within your demesne, hiding amongst the converts.;;;;;;;;;;;;x
 EVTOPTDHF20005;我当然愿意改信。;;;;;;;;;;;;x
 EVTTOOLTIPHFD20006;Inform your liege that you will join [From.GetHerHim] and become §Y[sponsoring_king.Religion.GetName]§!, and so will all your subjects.\nWhen the Mass Conversion takes place all of your Vassals, Courtiers, and Provinces will turn §Y[sponsoring_king.Religion.GetName]§!.;;;;;;;;;;;;x
-EVTOPTEHF20005;I will never forsake the old ways!;;;;;;;;;;;;x
+EVTOPTEHF20005;我永远不会放弃旧的传统！;;;;;;;;;;;;x
 EVTTOOLTIPHFE20007;Inform your liege that neither you nor your subjects will take part in [From.GetHerHis] conversion.;;;;;;;;;;;;x
 EVTDESCHFA20006;My [Root.GetTitle],\nI am overjoyed to hear of your conversion to the [From.Religion.GetName].\nI had long since prayed for you to see the light.;;;;;;;;;;;;x
 EVTDESCHFB20006;My [Root.GetTitle],\nFor many years I have looked at the followers of [sponsoring_king.Religion.GetHighGodName] with a sympathetic eye. You cannot imagine what a relief it is to hear of your conversion.;;;;;;;;;;;;x
 EVTDESCHFC20006;My [Root.GetTitle],\nWhat you ask of me is not easy, but I will not deny your request. I will join you at [Root.Capital.GetName] and convert to the [sponsoring_king.Religion.GetName] faith with you.;;;;;;;;;;;;x
 EVTOPTAHF20006;很好。;;;;;;;;;;;;x
 EVTDESCHF20007;My [Root.GetTitle], \nI have long thought about your request and I have come to the conclusion that I cannot abandon our ancestors' gods. I will not attend your great conversion, nor will any of my vassals.;;;;;;;;;;;;x
-EVTOPTAHF20007;Superstitious fool!;;;;;;;;;;;;x
+EVTOPTAHF20007;这些迷信的蠢货！;;;;;;;;;;;;x
 EVTTITLE20008;The Conversion of [converting_king.PrimaryTitle.GetName];;;;;;;;;;;;x
 EVTDESCHFA20008;The conversion of [converting_king.Capital.GetName] starts on a cold morning.\nThe Bishop leading [sponsoring_king.GetTitledFirstName]'s embassy meets your liege at a river near the city. You stand beside [converting_king.GetTitledFirstName], while [converting_king.GetHerHis] subjects wait their turn behind you, looking still visibly confused.The Bishop recites a few verses from the Bible, then [converting_king.GetTitledFirstName] leads you all in the river while the [sponsoring_king.Religion.GetName] priests baptize you as you pass by them. It takes some prodding from the guards to convince the peasants to follow you into the water, but, after a while, the entire crowd stands soaked and shaking by the riverside, just in time to watch the priests and their helpers drop your old idols into the waves.\n"As the false visages are swallowed by the tides," the Bishop proclaims, "may their memory forever be banished from your soul.";;;;;;;;;;;;x
 EVTDESCHFB20008;You meet with your liege and [sponsoring_king.GetTitledFirstName]'s Imams in the middle of [converting_king.Capital.GetName]'s square.\nAddressing the crowd of commoners reunited all around you, [converting_king.GetTitledFirstName] publicly denounces the old gods and spits on their false idols, gesturing for your and the [converting_king.GetHerHis] vassals to do the same. A few complaints rise from the crowd, but they are swiftly quelled. Then, as the Imams set fire to the icons, you declare your faith to Allah and to His Prophet.\nYou all turn your back to the pyre of false gods and bow to Mecca.;;;;;;;;;;;;x
@@ -455,23 +455,23 @@ EVTDESCHFV20008;[converting_king.GetTitledFirstName] and all of [converting_king
 EVTDESCHFVV20008;[converting_king.GetTitledFirstName] and all of [converting_king.GetHerHis] spineless new converts have reunited at [converting_king.Capital.GetName] to embrace the [sponsoring_king.Religion.GetName] faith. \nAccording to most accounts, the foreign priests have completely taken over the capital and are starting to dictate laws without even consulting with the [converting_king.GetTitle].\nYou can only imagine what sort of indignities the foreign priests subjected the common folks to, but you are certain that now it is only a matter of time before this new religion forces its way to [Root.Capital.GetName].;;;;;;;;;;;;x
 EVTDESCHFW20008;[converting_king.GetTitledFirstName] and all of [converting_king.GetHerHis] spineless new converts have reunited at [converting_king.Capital.GetName] to form a covenant with Yahweh. \nAccording to most accounts, the foreign priests have put all the clan leaders under trial for worshiping demons, treating your fellow clansmen in a most humiliating fashion.\nYou can only imagine what sort of indignities the foreign priests subjected the common folks to, but you are certain that now it is only a matter of time before this new religion forces its way to [Root.Capital.GetName].;;;;;;;;;;;;x
 EVTDESCHFWW20008;[converting_king.GetTitledFirstName] and all of [converting_king.GetHerHis] spineless new converts have reunited at [converting_king.Capital.GetName] to embrace the [sponsoring_king.Religion.GetName] faith. \nAccording to most accounts, the foreign priests have completely taken over the capital and are starting to dictate laws without even consulting with the [converting_king.GetTitle].\nYou can only imagine what sort of indignities the foreign priests subjected the common folks to, but you are certain that now it is only a matter of time before this new religion forces its way to [Root.Capital.GetName].;;;;;;;;;;;;x
-EVTOPTAHF20008;I am a reborn [sponsoring_king.Religion.GetName]!;;;;;;;;;;;;x
-EVTOPTBHF20008;We must preserve our ancient ways!;;;;;;;;;;;;x
-EVTOPTCHF20008;Truly, I am now a devout [sponsoring_king.Religion.GetName] (Lie).;;;;;;;;;;;;x
+EVTOPTAHF20008;作为[sponsoring_king.Religion.GetName]教徒，我获得了新生！;;;;;;;;;;;;x
+EVTOPTBHF20008;我们必须坚守我们的古老传统！;;;;;;;;;;;;x
+EVTOPTCHF20008;我（不）是一个虔诚的[sponsoring_king.Religion.GetName]教徒。;;;;;;;;;;;;x
 EVTDESCHF20009;[Root.GetTitledName],\nOur [converting_king.GetTitle] has decreed that all [converting_king.PrimaryTitle.GetName] is to be [sponsoring_king.Religion.GetName].\nI urge you to join me at [converting_king.Capital.GetName], where we will all officially convert to the new faith.\n\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20009;Of course I will become a [sponsoring_king.Religion.GetName]!;;;;;;;;;;;;x
-EVTOPTBHF20009;I will never betray the old gods!;;;;;;;;;;;;x
+EVTOPTAHF20009;当然，我将会成为一名[sponsoring_king.Religion.GetName]教徒！;;;;;;;;;;;;x
+EVTOPTBHF20009;我永远也不会背叛我曾经所信奉的神！;;;;;;;;;;;;x
 EVTDESCHF20010;Not only has [converting_king.GetTitledFirstName] forsaken the old gods and the sacred traditions of my ancestors by embracing a strange and new religion, [converting_king.GetSheHe] has also fallen under the influence of a foreign ruler, the [sponsoring_king.GetTitle] who converted [converting_king.GetHerHim].\n[converting_king.GetTitledFirstName] has proven to be a traitor to [converting_king.GetHerHis] people as well as a weak ruler.;;;;;;;;;;;;x
-EVTOPTAHF20010;And for all this I will forever hate [converting_king.GetHerHim].;;;;;;;;;;;;x
+EVTOPTAHF20010;而且因为这些事，我会把对[converting_king.GetHerHim]的仇恨一直记在心间！;;;;;;;;;;;;x
 EVTDESCHF20011;[From.GetTitledFirstName]'s stubbornness in clinging to the old faith has become more than a simple nuisance. \nMany have reported [From.GetHerHim] claiming that I am a traitor to my people and that I have sold off [Root.PrimaryTitle.GetName] to [sponsoring_king.GetTitledFirstName].\nThere's little doubt [From.GetFirstName] has become my enemy.;;;;;;;;;;;;x
 EVTOPTAHF20011;I will have to deal with [From.GetHerHim] somehow.;;;;;;;;;;;;x
 EVTDESCHF20013;I have just received news that [From.GetTitledFirstName] turned away from [From.GetHerHis] own faith!\n[From.GetSheHeCap] is still willing to sponsor the mass conversion of [Root.PrimaryTitle.GetName], but to the [From.Religion.GetName] faith.;;;;;;;;;;;;x
 EVTOPTAHF20013;This is unacceptable. The ceremony is canceled.;;;;;;;;;;;;x
-EVTOPTBHF20013;Meh. Sounds close enough.;;;;;;;;;;;;x
+EVTOPTBHF20013;唉，听起来已经足够靠近了。;;;;;;;;;;;;x
 EVTDESCHF20015;With the unfortunate departure of [From.GetTitledFirstName] so goes the support of [From.GetHerHis] realm for the conversion of [Root.PrimaryTitle.GetName]. \nI will need to find someone else to help me in this endeavor.;;;;;;;;;;;;x
-EVTOPTAHF20015;Curses.;;;;;;;;;;;;x
+EVTOPTAHF20015;该死的。;;;;;;;;;;;;x
 EVTDESCHF20017;It appears that [From.GetTitledFirstName] died before [From.GetSheHe] could achieve salvation for [From.GetHerselfHimself] as well as [From.GetHerHis] people. \nThe great ceremony for the mass conversion of [From.PrimaryTitle.GetName] has been postponed indefinitely.;;;;;;;;;;;;x
-EVTOPTAHF20017;What a pity.;;;;;;;;;;;;x
+EVTOPTAHF20017;真可惜啊。;;;;;;;;;;;;x
 EVTDESCHF20019;It seems [From.GetTitledFirstName]'s conviction was not as firm as [From.GetSheHe] claimed.\nI have just learned that [From.GetSheHe] has forsaken the [Root.Religion.GetName] faith to become a [From.Religion.GetName].;;;;;;;;;;;;x
 EVTOPTAHF20019;[From.GetHerHisCap] actions put an end to our agreement.;;;;;;;;;;;;x
 EVTOPTBHF20019;Perhaps it is just a momentary lapse in judgment...;;;;;;;;;;;;x
@@ -485,27 +485,27 @@ EVTDESCHF20025;[Root.GetTitledName],\nOur [converting_king.GetTitle] has decreed
 EVTOPTAHF20025;I will stand with you, [From.GetFirstName].;;;;;;;;;;;;x
 EVTOPTBHF20025;Sorry, but I need to follow the [converting_king.GetTitle]'s will.;;;;;;;;;;;;x
 EVTDESCHF20028;[Root.GetTitledName],\nOur [converting_king.GetTitle] has decreed that all [converting_king.PrimaryTitle.GetName] is to be [sponsoring_king.Religion.GetName].\nWe cannot oppose [converting_king.GetHerHis] decision openly, but I believe that, together, we may keep our gods' memory alive in secret.\n\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20028;It is the only way.;;;;;;;;;;;;x
-EVTOPTBHF20028;Sorry, but I need to follow the [converting_king.GetTitle]'s will.;;;;;;;;;;;;x
+EVTOPTAHF20028;只有这一个办法了。;;;;;;;;;;;;x
+EVTOPTBHF20028;很抱歉，但是我要与[converting_king.GetTitle]站在同一边。;;;;;;;;;;;;x
 EVTDESCHF20029;Some time has passed since the great conversion.\nIt is clear now that the followers of the old faith have no place in [converting_king.GetTitledFirstName]'s new realm. The more I wait, the stronger will be the sway of the [converting_king.Religion.GetName] clergy over my people. \nWe must act now if we wish to reclaim our lands for the old gods and break the shackles of the new religion.;;;;;;;;;;;;x
-EVTOPTAHF20029;It is time to retake what's ours!;;;;;;;;;;;;x
-EVTOPTBHF20029;Not yet.;;;;;;;;;;;;x
+EVTOPTAHF20029;是时候重新夺回应当属于我们的东西了！;;;;;;;;;;;;x
+EVTOPTBHF20029;还没有。;;;;;;;;;;;;x
 EVTDESCHF20030;To all the followers of the true gods of [converting_king.PrimaryTitle.GetName]!\nOur [converting_king.GetTitle] has forsaken the old ways and sold [converting_king.GetHerHis] beliefs to a foreign [sponsoring_king.GetTitle]. We must stand together and break the shackles of the perverse [converting_king.Religion.GetName] faith!\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20030;I will stand with you, [From.GetSisterBrother]!;;;;;;;;;;;;x
-EVTOPTBHF20030;I cannot betray my liege.;;;;;;;;;;;;x
+EVTOPTAHF20030;[From.GetSisterBrother]，我将会同你站在一边！;;;;;;;;;;;;x
+EVTOPTBHF20030;我不能够背叛我的主君。;;;;;;;;;;;;x
 EVTDESCHF20031;[From.GetTitledFirstName] has rallied [From.GetHerHis] tribes and declared open war against all followers of [converting_king.Religion.GetHighGodName] in [converting_king.PrimaryTitle.GetName] in a last ditch effort to preserve [From.GetHerHis] backwards, dying religion.;;;;;;;;;;;;x
 EVTOPTAHF20031;It is time to get rid of these [From.Religion.GetRandomGodName] worshipers for good.;;;;;;;;;;;;x
 EVTDESCHF20032;[FromFrom.GetTitledFirstName] decided to abandon [From.GetHerHis] faith in the middle of the preparations for the mass conversion of [From.PrimaryTitle.GetName]!\nFollowing this unforeseen event, [From.GetTitledFirstName] has had no other option but to cancel the whole ceremony.;;;;;;;;;;;;x
-EVTOPTAHF20032;How strange.;;;;;;;;;;;;x
+EVTOPTAHF20032;真是奇怪。;;;;;;;;;;;;x
 EVTDESCHF20033;News have reached court about [FromFrom.GetTitledName]'s passing.\nWithout [FromFrom.GetHerHis] support, [From.GetTitledFirstName] has had no other choice but to hold off the ceremony for the mass conversion of [From.PrimaryTitle.GetName], at least until [From.GetSheHe] finds another respected [FromFrom.Religion.GetName] ruler to support [From.GetHerHim] in this project.;;;;;;;;;;;;x
-EVTOPTAHF20033;I see.;;;;;;;;;;;;x
+EVTOPTAHF20033;我明白了。;;;;;;;;;;;;x
 EVTDESCHF20035;To [From.GetHerHis] last breath my [GetFromRelation] opposed our liege's decision to abandon the old faith. With the mass conversion only a few days away, I must decide if I wish to follow in [From.GetTitledFirstName]'s footsteps or bow to the will of my liege.;;;;;;;;;;;;x
 EVTOPTAHF20035;I will remain true to my [GetFromRelation]'s wish.;;;;;;;;;;;;x
 EVTOPTBHF20035;[From.GetSheHeCap] was always a stubborn fool.;;;;;;;;;;;;x
 EVTDESCHF20036;In order to help my subjects to better understand their new responsibilities as [sponsoring_king.Religion.GetName] converts, [sponsoring_king.GetTitledFirstName] has sent a knowledgeable priest to [Root.Capital.GetName]. He will be a great addition to the court.;;;;;;;;;;;;x
 EVTOPTAHF20036;Welcome to [Root.PrimaryTitle.GetName]!;;;;;;;;;;;;x
 EVTDESCHF20039;It has been some time since the great ceremony. \nMy conversion to the [Root.Religion.GetName] faith has been an eye-opening experience. Abandoning the old gods has made me realize how much more purpose my life can have while serving [Root.Religion.GetHighGodName]. Everyday I am amazed by how different everything looks through my new [Root.Religion.GetName] perspective...;;;;;;;;;;;;x
-EVTOPTAHF20039;I must embrace this newfound faith.;;;;;;;;;;;;x
+EVTOPTAHF20039;我一定要接纳这新获得的信仰。;;;;;;;;;;;;x
 EVTOPTBHF20039;But my conversion was mainly for political reasons.;;;;;;;;;;;;x
 EVTDESCHF20040;The more I think about the great conversion, the more doubt gnaws at my mind. [sponsoring_king.GetTitledFirstName]'s priests put up a nice spectacle, but even after converting your entire realm, there was no miracle, no divine revelation to reward your accomplishment. The peasants still toil in the fields, the chieftains still squabble amongst themselves. \nNothing changed.;;;;;;;;;;;;x
 EVTOPTAHF20040;Why does not [Root.Religion.GetHighGodName] speak to me?;;;;;;;;;;;;x
@@ -2021,11 +2021,11 @@ EVTOPTBHFP20606;This is not the fate of a warrior!;;;;;;;;;;;;x
 EVTOPTCHFP20606_A;I don't care, I am happy as I am!;;;;;;;;;;;;x
 EVTOPTCHFP20606_B;I don't care, I need this!;;;;;;;;;;;;x
 EVTOPTCHFP20606_C;I could not possibly get up to work right now...;;;;;;;;;;;;x
-EVTOPTCHFP20606_D;More! I need more!;;;;;;;;;;;;x
-EVTOPTCHFP20606_F;Who cares, I am loving this!;;;;;;;;;;;;x
-EVTOPTCHFP20606_G;I don't care, the only thing that matters to me is my family.;;;;;;;;;;;;x
-EVTOPTCHFP20606_H;Meh. This is even better than sex.;;;;;;;;;;;;x
-tooltip_warning_20606;Keep eating and potentially become §YFat§!.;;;;;;;;;;;;x
+EVTOPTCHFP20606_D;更多！我需要更多！;;;;;;;;;;;;x
+EVTOPTCHFP20606_F;谁在乎呢？我喜欢这个！;;;;;;;;;;;;x
+EVTOPTCHFP20606_G;我不在乎，唯一跟我有联系的只有我的家庭。;;;;;;;;;;;;x
+EVTOPTCHFP20606_H;唉！这甚至比性更好。;;;;;;;;;;;;x
+tooltip_warning_20606;一直吃并且可能变得§Y胖§!。;;;;;;;;;;;;x
 tooltip_physique_loses_stressed;Satisfying your cravings might help you becoming less §YStressed§!;;;;;;;;;;;;x
 tooltip_physique_loses_depressed;Satisfying your cravings might help you becoming less §YDepressed§!;;;;;;;;;;;;x
 tooltip_physique_becomes_popular;Your jovial and welcoming attitude might earn you the friendship of your §YCourtiers§! and §YVassals§!.;;;;;;;;;;;;x
@@ -13437,7 +13437,7 @@ EVTOPTAHFP23022;Very well.;;;;;;;;;;;;x
 EVTOPTBHFP23022;I will not bow to you!;;;;;;;;;;;;x
 EVTDESCAHFP23023;The Holy See claims direct dominion over all of Italy since the Donation of Emperor Pepin. Although [Root.PrimaryTitle.GetName] had gained independence in recent times, I am now forced to bow to the throne of Saint Peter in order to find absolution for my transgression.;;;;;;;;;;;;x
 EVTOPTAHFP23023;How humiliating...;;;;;;;;;;;;x
-opinion_cheater;Cheater;;;;;;;;;;;;x
+opinion_cheater;骗子;;;;;;;;;;;;x
 EVTDESCHFA20118;[convert_lord_spiritual.GetTitledFirstName] has been insisting for a while now that a baptism requires me to adopt a new, proper [Root.Religion.GetName] name in order to truly prove my newfound faith in [Root.Religion.GetHighGodName].;;;;;;;;;;;;x
 EVTDESCHFB20118;[convert_lord_spiritual.GetTitledFirstName] has been insisting for a while now that a conversion requires me to adopt a new, proper [Root.Religion.GetName] name in order to truly prove my newfound faith in [Root.Religion.GetHighGodName].;;;;;;;;;;;;x
 EVTOPTAHF20118;Very well...;;;;;;;;;;;;x
@@ -13480,7 +13480,7 @@ EVTOPTBHF25229;Surely, nobody will notice a bump under the table...;;;;;;;;;;;;x
 TT_DIE_TABLE_BUMP_DISCOVERED;the other warriors noticing that you are trying to cheat.;;;;;;;;;;;;x
 TT_DIE_TABLE_BUMP_FAILS;being unable to push the die properly.;;;;;;;;;;;;x
 TT_DIE_TABLE_BUMP_WINS;your trick working.;;;;;;;;;;;;x
-EVTOPTCHF25229;Let's play!;;;;;;;;;;;;x
+EVTOPTCHF25229;让我们开始吧！;;;;;;;;;;;;x
 TT_EVTOPTCHF25229;Throw the die.;;;;;;;;;;;;x
 EVTDESCHF25230;My attempt to change the regular die with a weighted one did not pass unnoticed. After a bit of squabbling, one of the other fighters manages to pick the die away from me and throws it on the table a few times, revealing my intent.;;;;;;;;;;;;x
 EVTOPTAHF25230;It's not what it seems!;;;;;;;;;;;;x
@@ -13853,7 +13853,7 @@ player_character_TT_HF25828;You will now play as §Y[From.GetTitledName]§! inst
 EVTTITLEHF25800;The Children's Crusade;;;;;;;;;;;;x
 EVTDESCAHF25800;I have received a vision from the Holy Ghost.\nOur Lord has ordered me to take up arms, rally the faithful and march on the Holy Land to take it away from the vile grasp of the infidels desecrating its hallowed grounds.;;;;;;;;;;;;x
 EVTOPTAHF25800;I must depart at once!;;;;;;;;;;;;x
-EVTTITLEHF25802;The death of [From.GetFirstName];;;;;;;;;;;;x
+EVTTITLEHF25802;[From.GetFirstName]之死;;;;;;;;;;;;x
 EVTDESCBHF25802;I feared that my [GetFromRelation]'s desire to free the Holy Land would lead [From.GetHerHim] to an unfortunate end.\n[From.GetFirstName] is gone. All the children and peasants who had flocked to [From.GetHerHis] banner have scattered to the four winds. They lament the loss of their beloved leader, still unable to grasp why would God allow [From.GetHerHim] to be killed before accomplishing [From.GetHerHis] divine task.\nYet, I can at least take the solace in the fact that, as unfortunate as [From.GetFirstName]'s death was, it has undoubtedly saved the lives of countless people, who would have otherwise followed the child into the maws of certain doom at the hands of the infidels.;;;;;;;;;;;;x
 EVTDESCCHF25802;With the death of [From.GetFirstName], [From.GetHerHis] misguided attempt to lead a Crusade to the Holy Land will never come to pass. All the children and peasants who had flocked to the banner of this [From.GetBoyGirl] have scattered to the four winds. They lament the loss of their beloved leader, still unable to grasp why would God allow [From.GetHerHim] to be killed before accomplishing [From.GetHerHis] divine task.\nAs unfortunate as [From.GetFirstName]'s death was, it has undoubtedly saved the lives of countless people, who would have otherwise followed the child into the maws of certain doom at the hands of the infidels.;;;;;;;;;;;;x
 EVTDESCAHF25802;By permanently getting rid of [From.GetFirstName], I have ensured that [From.GetHerHis] misguided attempt to lead a Crusade to the Holy Land will never come to pass. All the children and peasants who had flocked to the banner of this [From.GetBoyGirl] have scattered to the four winds. They lament the loss of their beloved leader, still unable to grasp why would God allow [From.GetHerHim] to meet an untimely end before accomplishing [From.GetHerHis] divine task.\nAs unfortunate as [From.GetFirstName]'s fate was, it has undoubtedly saved the lives of countless people, who would have otherwise followed the child into the maws of certain doom at the hands of the infidels.;;;;;;;;;;;;x
@@ -19898,8 +19898,8 @@ SEISYLLWG;Seisyllwg;;;;;;;;;;;;x
 SEISYLLWG_ADJ;Seisyllwgian;;;;;;;;;;;;x
 GLYWYSING;Glywysing;;;;;;;;;;;;x
 GLYWYSING_ADJ;Glywysingian;;;;;;;;;;;;x
-MORGANNWG;Morgannwg;;;;;;;;;;;;x
-MORGANNWG_ADJ;Morgannwgian;;;;;;;;;;;;x
+MORGANNWG;摩根;;;;;;;;;;;;x
+MORGANNWG_ADJ;摩根;;;;;;;;;;;;x
 LOCHA_LEIN;Locha Léin;;;;;;;;;;;;x
 LOCHA_LEIN_ADJ;Locha Léin;;;;;;;;;;;;x
 RULE_HELLENISM;Hellenic Revival;;;;;;;;;;;;x
