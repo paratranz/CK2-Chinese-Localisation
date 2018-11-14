@@ -1,152 +1,11 @@
-﻿161000 = {
-    name = "霸西"  # Bassi
-    dynasty = 1030000
-    religion = "sunni"
-    culture = "manden"
-    father = 184019
-    1010.1.1 = {
-        birth = "1010.1.1"
-    }
-    1062.1.1 = {
-        death = "1062.1.1"
-    }
-}
-161001 = {
-    name = "冬卡 门宁"  # Tunka Menin
-    dynasty = 1030000
-    religion = "sunni"
-    culture = "manden"
-    father = 161000
-    1030.1.1 = {
-        birth = "1030.1.1"
-    }
-    1068.1.1 = {
-        death = "1068.1.1"
-    }
-}
-161002 = {
-    name = "冈比内 蒂阿雷索"  # Kambine Diaresso
-    dynasty = 1030000
-    religion = "sunni"
-    culture = "manden"
-    father = 161001
-    1050.1.1 = {
-        birth = "1050.1.1"
-    }
-    1090.1.1 = {
-        death = "1090.1.1"
-    }
-}
-161003 = {
-    name = "苏莱曼"  # Sulayman
-    dynasty = 1030000
-    religion = "sunni"
-    culture = "manden"
-    father = 161002
-    1070.1.1 = {
-        birth = "1070.1.1"
-    }
-    1100.1.1 = {
-        death = "1100.1.1"
-    }
-}
-161004 = {
-    name = "般奴 布布"  # Bannu Bubu
-    dynasty = 1030000
-    religion = "sunni"
-    culture = "manden"
-    father = 161002
-    1075.1.1 = {
-        birth = "1075.1.1"
-    }
-    1120.1.1 = {
-        death = "1120.1.1"
-    }
-}
-161005 = {
-    name = "麻将 瓦伽都"  # Majan Wagadu
-    dynasty = 1030000
-    religion = "sunni"
-    culture = "manden"
-    father = 161004
-    1095.1.1 = {
-        birth = "1095.1.1"
-    }
-    1130.1.1 = {
-        death = "1130.1.1"
-    }
-}
-161006 = {
-    name = "嘎内"  # Gane
-    dynasty = 1030000
-    religion = "sunni"
-    culture = "manden"
-    father = 161004
-    1100.1.1 = {
-        birth = "1100.1.1"
-    }
-    1140.1.1 = {
-        death = "1140.1.1"
-    }
-}
-161007 = {
-    name = "穆萨"  # Musa
-    dynasty = 1030000
-    religion = "sunni"
-    culture = "manden"
-    father = 161004
-    1105.1.1 = {
-        birth = "1105.1.1"
-    }
-    1160.1.1 = {
-        death = "1160.1.1"
-    }
-}
-161008 = {
-    name = "比拉马"  # Birama
-    dynasty = 1030000
-    religion = "sunni"
-    culture = "manden"
-    father = 161007
-    1125.1.1 = {
-        birth = "1125.1.1"
-    }
-    1180.1.1 = {
-        death = "1180.1.1"
-    }
-}
-161009 = {
-    name = "迪阿拉"  # Diara
-    dynasty = 1030001
-    religion = "sunni"
-    culture = "manden"
-    1145.1.1 = {
-        birth = "1145.1.1"
-    }
-    1200.1.1 = {
-        death = "1200.1.1"
-    }
-}
-161010 = {
-    name = "苏茂洛"  # Soumaoro
-    dynasty = 1030001
-    religion = "sunni"
-    culture = "manden"
-    father = 161009
-    1180.1.1 = {
-        birth = "1180.1.1"
-    }
-    1234.1.1 = {
-        death = "1234.1.1"
-    }
-}
-161011 = {
-    name = "拉希拉图勒 卡拉比"  # Lahilatoul Kalabi
+﻿161011 = {
+    name = "拉希拉图尔 卡拉比"  # Lahilatoul Kalabi
     dynasty = 1030002
     religion = "sunni"
     culture = "manden"
-    1050.1.1 = {
-        birth = "1050.1.1"
+    father = 251120
+    1045.1.1 = {
+        birth = yes
     }
     1100.1.1 = {
         death = "1100.1.1"
@@ -312,19 +171,6 @@
         death = "1255.1.1"
     }
 }
-161023 = {
-    name = "苏马巴"  # Soumaba
-    dynasty = 1030000
-    religion = "sunni"
-    culture = "manden"
-    father = 161008
-    1170.1.1 = {
-        birth = "1170.1.1"
-    }
-    1240.1.1 = {
-        death = "1240.1.1"
-    }
-}
 161024 = {
     name = "那曼佳"  # Namandjé
     female = yes
@@ -480,6 +326,13 @@
     1280.1.1 = {
         birth = "1280.1.1"
     }
+    1312.1.1 = {
+        give_nickname = nick_the_lion
+        create_bloodline = {
+            type = mansa_musa
+            has_dlc = "Holy Fury"
+        }
+    }
     1337.1.1 = {
         death = "1337.1.1"
     }
@@ -534,936 +387,6 @@
     }
     1374.1.1 = {
         death = "1374.1.1"
-    }
-}
-161040 = {
-    name = "阿莱曼"  # Alayaman
-    dynasty = 1030006
-    religion = "west_african_pagan"
-    culture = "manden"
-    700.1.1 = {
-        birth = "700.1.1"
-    }
-    750.1.1 = {
-        death = "750.1.1"
-    }
-}
-161041 = {
-    name = "扎科仪"  # Zakoi
-    dynasty = 1030006
-    religion = "west_african_pagan"
-    culture = "manden"
-    father = 161040
-    720.1.1 = {
-        birth = "720.1.1"
-    }
-    770.1.1 = {
-        death = "770.1.1"
-    }
-}
-161042 = {
-    name = "塔科仪"  # Takoi
-    dynasty = 1030006
-    religion = "west_african_pagan"
-    culture = "manden"
-    father = 161041
-    740.1.1 = {
-        birth = "740.1.1"
-    }
-    790.1.1 = {
-        death = "790.1.1"
-    }
-}
-161043 = {
-    name = "阿科仪"  # Akoi
-    dynasty = 1030006
-    religion = "west_african_pagan"
-    culture = "manden"
-    father = 161042
-    760.1.1 = {
-        birth = "760.1.1"
-    }
-    810.1.1 = {
-        death = "810.1.1"
-    }
-}
-161044 = {
-    name = "屈"  # Kü
-    dynasty = 1030006
-    religion = west_african_pagan
-    culture = manden
-    father = 161043
-    780.1.1 = {
-        birth = "780.1.1"
-    }
-    830.1.1 = {
-        death = "830.1.1"
-    }
-}
-161045 = {
-    name = "阿里-费伊"  # Ali-Fay
-    dynasty = 1030006
-    religion = west_african_pagan
-    culture = manden
-    father = 161044
-    800.1.1 = {
-        birth = "800.1.1"
-    }
-    850.1.1 = {
-        death = "850.1.1"
-    }
-}
-161046 = {
-    name = "碧羽 库莫伊"  # Biyu Kumoy
-    dynasty = 1030006
-    religion = west_african_pagan
-    culture = manden
-    father = 161045
-    820.1.1 = {
-        birth = "820.1.1"
-    }
-    860.1.1 = {
-        death = "860.1.1"
-    }
-}
-161047 = {
-    name = "扎 库罗伊"  # Za Kuroy
-    dynasty = 1030006
-    religion = west_african_pagan
-    culture = manden
-    father = 161046
-    840.1.1 = {
-        birth = "840.1.1"
-    }
-    880.1.1 = {
-        death = "880.1.1"
-    }
-}
-161048 = {
-    name = "亚马 卡拉韦"  # Yama Karaway
-    dynasty = 1030006
-    religion = west_african_pagan
-    culture = "manden"
-    father = 161047
-    860.1.1 = {
-        birth = "860.1.1"
-    }
-    900.1.1 = {
-        death = "900.1.1"
-    }
-}
-161049 = {
-    name = "亚马"  # Yama
-    dynasty = 1030006
-    religion = west_african_pagan
-    culture = "manden"
-    father = 161048
-    880.1.1 = {
-        birth = "880.1.1"
-    }
-    920.1.1 = {
-        death = "920.1.1"
-    }
-}
-161050 = {
-    name = "亚马 丹卡 卡巴厄乌"  # Yama Danka Kiba'u
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161049
-    900.1.1 = {
-        birth = "900.1.1"
-    }
-    940.1.1 = {
-        death = "940.1.1"
-    }
-}
-161051 = {
-    name = "库库拉依"  # Kukuray
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161050
-    920.1.1 = {
-        birth = "920.1.1"
-    }
-    960.1.1 = {
-        death = "960.1.1"
-    }
-}
-161052 = {
-    name = "金津"  # Kinkin
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161051
-    940.1.1 = {
-        birth = "940.1.1"
-    }
-    980.1.1 = {
-        death = "980.1.1"
-    }
-}
-161053 = {
-    name = "库所伊 穆斯林 丹姆"  # Kusoy Muslim Dam
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161052
-    960.1.1 = {
-        birth = "960.1.1"
-    }
-    1000.1.1 = {
-        death = "1000.1.1"
-    }
-}
-161054 = {
-    name = "汉 库兹 万库 丹姆"  # Han Kuz Wanku Dam
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161053
-    980.1.1 = {
-        birth = "980.1.1"
-    }
-    1030.1.1 = {
-        death = "1030.1.1"
-    }
-}
-161055 = {
-    name = "碧羽 基 基玛"  # Biyu Ki Kima
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161054
-    1000.1.1 = {
-        birth = "1000.1.1"
-    }
-    1050.1.1 = {
-        death = "1050.1.1"
-    }
-}
-161056 = {
-    name = "宁塔桑纳伊"  # Nintasanay
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161055
-    1030.1.1 = {
-        birth = "1030.1.1"
-    }
-    1080.1.1 = {
-        death = "1080.1.1"
-    }
-}
-161057 = {
-    name = "碧羽 凯纳 紧巴"  # Biyu Kayna Kinba
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161056
-    1050.1.1 = {
-        birth = "1050.1.1"
-    }
-    1100.1.1 = {
-        death = "1100.1.1"
-    }
-}
-161058 = {
-    name = "凯纳 山云布"  # Kayna Shanyunbu
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161057
-    1070.1.1 = {
-        birth = "1070.1.1"
-    }
-    1120.1.1 = {
-        death = "1120.1.1"
-    }
-}
-161059 = {
-    name = "蒂布"  # Tib
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161058
-    1090.1.1 = {
-        birth = "1090.1.1"
-    }
-    1140.1.1 = {
-        death = "1140.1.1"
-    }
-}
-161060 = {
-    name = "雅蠛蝶"  # Yama Däd
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161058
-    1110.1.1 = {
-        birth = "1110.1.1"
-    }
-    1160.1.1 = {
-        death = "1160.1.1"
-    }
-}
-161061 = {
-    name = "费达祖"  # Fädazu
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161060
-    1130.1.1 = {
-        birth = "1130.1.1"
-    }
-    1180.1.1 = {
-        death = "1180.1.1"
-    }
-}
-161062 = {
-    name = "阿里 库鲁"  # Ali Kuru
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161061
-    1150.1.1 = {
-        birth = "1150.1.1"
-    }
-    1200.1.1 = {
-        death = "1200.1.1"
-    }
-}
-161063 = {
-    name = "比尔 福禄谷"  # Bir Fuluku
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161062
-    1170.1.1 = {
-        birth = "1170.1.1"
-    }
-    1220.1.1 = {
-        death = "1220.1.1"
-    }
-}
-161064 = {
-    name = "亚西伯伊"  # Yasiboy
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161063
-    1190.1.1 = {
-        birth = "1190.1.1"
-    }
-    1240.1.1 = {
-        death = "1240.1.1"
-    }
-}
-161065 = {
-    name = "杜鲁"  # Düru
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161064
-    1210.1.1 = {
-        birth = "1210.1.1"
-    }
-    1250.1.1 = {
-        death = "1250.1.1"
-    }
-}
-161066 = {
-    name = "赞库 白努"  # Zenku Bäru
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161065
-    1230.1.1 = {
-        birth = "1230.1.1"
-    }
-    1260.1.1 = {
-        death = "1260.1.1"
-    }
-}
-161067 = {
-    name = "必西 白努"  # Bisi Bäru
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161065
-    1235.1.1 = {
-        birth = "1235.1.1"
-    }
-    1265.1.1 = {
-        death = "1265.1.1"
-    }
-}
-161068 = {
-    name = "巴戴"  # Badä
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161066
-    1250.1.1 = {
-        birth = "1250.1.1"
-    }
-    1270.1.1 = {
-        death = "1270.1.1"
-    }
-}
-161069 = {
-    name = "必西 巴洛 贝尔"  # Bisi Baro Ber
-    dynasty = 1030006
-    religion = "sunni"
-    culture = "manden"
-    father = 161066
-    1252.1.1 = {
-        birth = "1252.1.1"
-    }
-    1275.1.1 = {
-        death = "1275.1.1"
-    }
-}
-161070 = {
-    name = "阿里 古龙"  # Ali Kolon
-    dynasty = 1030007
-    religion = "sunni"
-    culture = "manden"
-    1230.1.1 = {
-        birth = "1230.1.1"
-    }
-    1280.1.1 = {
-        death = "1280.1.1"
-    }
-}
-161071 = {
-    name = "萨尔曼 那里"  # Salman Nari
-    dynasty = 1030007
-    religion = "sunni"
-    culture = "manden"
-    father = 161070
-    1250.1.1 = {
-        birth = "1250.1.1"
-    }
-    1300.1.1 = {
-        death = "1300.1.1"
-    }
-}
-161072 = {
-    name = "易卜拉欣 卡巴约"  # Ibrahim Kabayo
-    dynasty = 1030007
-    religion = "sunni"
-    culture = "manden"
-    father = 161070
-    1255.1.1 = {
-        birth = "1255.1.1"
-    }
-    1310.1.1 = {
-        death = "1310.1.1"
-    }
-}
-161073 = {
-    name = "奥斯曼 基佛 喀纳法"  # Uthman Gifo Kanafa
-    dynasty = 1030007
-    religion = "sunni"
-    culture = "manden"
-    father = 161072
-    1275.1.1 = {
-        birth = "1275.1.1"
-    }
-    1320.1.1 = {
-        death = "1320.1.1"
-    }
-}
-161074 = {
-    name = "拜耳 凯纳 安卡碧"  # Bär Kayna Ankabi
-    dynasty = 1030007
-    religion = "sunni"
-    culture = "manden"
-    father = 161073
-    1300.1.1 = {
-        birth = "1300.1.1"
-    }
-    1350.1.1 = {
-        death = "1350.1.1"
-    }
-}
-161075 = {
-    name = "穆萨"  # Musa
-    dynasty = 1030007
-    religion = "sunni"
-    culture = "manden"
-    father = 161074
-    1320.1.1 = {
-        birth = "1320.1.1"
-    }
-    1370.1.1 = {
-        death = "1370.1.1"
-    }
-}
-161076 = {
-    name = "卡巴约"  # Kabayo
-    dynasty = 1030009
-    religion = "sunni"
-    culture = "manden"
-    1050.1.1 = {
-        birth = "1050.1.1"
-    }
-    1110.1.1 = {
-        death = "1110.1.1"
-    }
-}
-161077 = {
-    name = "齐瑟"  # Cisse
-    dynasty = 1030009
-    religion = "sunni"
-    culture = "manden"
-    father = 161076
-    1080.1.1 = {
-        birth = "1080.1.1"
-    }
-    1140.1.1 = {
-        death = "1140.1.1"
-    }
-}
-161078 = {
-    name = "登巴"  # Demba
-    dynasty = 1030009
-    religion = "sunni"
-    culture = "manden"
-    father = 161077
-    1110.1.1 = {
-        birth = "1110.1.1"
-    }
-    1170.1.1 = {
-        death = "1170.1.1"
-    }
-}
-161079 = {
-    name = "达乌德"  # Daoud
-    dynasty = 1030009
-    religion = "sunni"
-    culture = "manden"
-    father = 161078
-    1150.1.1 = {
-        birth = "1150.1.1"
-    }
-    1210.1.1 = {
-        death = "1210.1.1"
-    }
-}
-161080 = {
-    name = "伊沙克"  # Ishaq
-    dynasty = 1030009
-    religion = "sunni"
-    culture = "manden"
-    father = 161079
-    1180.1.1 = {
-        birth = "1180.1.1"
-    }
-    1240.1.1 = {
-        death = "1240.1.1"
-    }
-}
-161081 = {
-    name = "雷伊贾"  # Reidja
-    dynasty = 1030009
-    religion = "sunni"
-    culture = "manden"
-    father = 161080
-    1210.1.1 = {
-        birth = "1210.1.1"
-    }
-    1270.1.1 = {
-        death = "1270.1.1"
-    }
-}
-161082 = {
-    name = "桑达基"  # Sandaki
-    dynasty = 1030009
-    religion = "sunni"
-    culture = "manden"
-    father = 161081
-    1240.1.1 = {
-        birth = "1240.1.1"
-    }
-    1300.1.1 = {
-        death = "1300.1.1"
-    }
-}
-161083 = {
-    name = "巴达"  # Bada
-    dynasty = 1030009
-    religion = "sunni"
-    culture = "manden"
-    father = 161082
-    1270.1.1 = {
-        birth = "1270.1.1"
-    }
-    1320.1.1 = {
-        death = "1320.1.1"
-    }
-}
-161084 = {
-    name = "比拉马"  # Birama
-    dynasty = 1030009
-    religion = "sunni"
-    culture = "manden"
-    father = 161083
-    1300.1.1 = {
-        birth = "1300.1.1"
-    }
-    1350.1.1 = {
-        death = "1350.1.1"
-    }
-}
-161085 = {
-    name = "凯纳"  # Kayna
-    dynasty = 1030010
-    religion = "sunni"
-    culture = "manden"
-    1050.1.1 = {
-        birth = "1050.1.1"
-    }
-    1110.1.1 = {
-        death = "1110.1.1"
-    }
-}
-161086 = {
-    name = "邦加"  # Bonga
-    dynasty = 1030010
-    religion = "sunni"
-    culture = "manden"
-    father = 161085
-    1080.1.1 = {
-        birth = "1080.1.1"
-    }
-    1140.1.1 = {
-        death = "1140.1.1"
-    }
-}
-161087 = {
-    name = "马毡"  # Majan
-    dynasty = 1030010
-    religion = "sunni"
-    culture = "manden"
-    father = 161086
-    1110.1.1 = {
-        birth = "1110.1.1"
-    }
-    1170.1.1 = {
-        death = "1170.1.1"
-    }
-}
-161088 = {
-    name = "马马迪"  # Mamadi
-    dynasty = 1030010
-    religion = "sunni"
-    culture = "manden"
-    father = 161087
-    1150.1.1 = {
-        birth = "1150.1.1"
-    }
-    1210.1.1 = {
-        death = "1210.1.1"
-    }
-}
-161089 = {
-    name = "穆萨"  # Musa
-    dynasty = 1030010
-    religion = "sunni"
-    culture = "manden"
-    father = 161088
-    1180.1.1 = {
-        birth = "1180.1.1"
-    }
-    1240.1.1 = {
-        death = "1240.1.1"
-    }
-}
-161090 = {
-    name = "迪亚拉"  # Diara
-    dynasty = 1030010
-    religion = "sunni"
-    culture = "manden"
-    father = 161089
-    1210.1.1 = {
-        birth = "1210.1.1"
-    }
-    1270.1.1 = {
-        death = "1270.1.1"
-    }
-}
-161091 = {
-    name = "苏莱曼"  # Sulayman
-    dynasty = 1030010
-    religion = "sunni"
-    culture = "manden"
-    father = 161090
-    1240.1.1 = {
-        birth = "1240.1.1"
-    }
-    1300.1.1 = {
-        death = "1300.1.1"
-    }
-}
-161092 = {
-    name = "阿莱曼"  # Alayaman
-    dynasty = 1030010
-    religion = "sunni"
-    culture = "manden"
-    father = 161091
-    1270.1.1 = {
-        birth = "1270.1.1"
-    }
-    1320.1.1 = {
-        death = "1320.1.1"
-    }
-}
-161093 = {
-    name = "碧羽"  # Biyu
-    dynasty = 1030010
-    religion = "sunni"
-    culture = "manden"
-    father = 161092
-    1300.1.1 = {
-        birth = "1300.1.1"
-    }
-    1350.1.1 = {
-        death = "1350.1.1"
-    }
-}
-161094 = {
-    name = "福禄谷"  # Fuluku
-    dynasty = 1030011
-    religion = "sunni"
-    culture = "manden"
-    1050.1.1 = {
-        birth = "1050.1.1"
-    }
-    1110.1.1 = {
-        death = "1110.1.1"
-    }
-}
-161095 = {
-    name = "马马迪"  # Mamadi
-    dynasty = 1030011
-    religion = "sunni"
-    culture = "manden"
-    father = 161094
-    1080.1.1 = {
-        birth = "1080.1.1"
-    }
-    1140.1.1 = {
-        death = "1140.1.1"
-    }
-}
-161096 = {
-    name = "马穆德"  # Mamoudou
-    dynasty = 1030011
-    religion = "sunni"
-    culture = "manden"
-    father = 161095
-    1110.1.1 = {
-        birth = "1110.1.1"
-    }
-    1170.1.1 = {
-        death = "1170.1.1"
-    }
-}
-161097 = {
-    name = "宁塔萨耐"  # Nintasanay
-    dynasty = 1030011
-    religion = "sunni"
-    culture = "manden"
-    father = 161096
-    1150.1.1 = {
-        birth = "1150.1.1"
-    }
-    1210.1.1 = {
-        death = "1210.1.1"
-    }
-}
-161098 = {
-    name = "阿里"  # Ali
-    dynasty = 1030011
-    religion = "sunni"
-    culture = "manden"
-    father = 161097
-    1180.1.1 = {
-        birth = "1180.1.1"
-    }
-    1240.1.1 = {
-        death = "1240.1.1"
-    }
-}
-161099 = {
-    name = "萨尔曼"  # Salman
-    dynasty = 1030011
-    religion = "sunni"
-    culture = "manden"
-    father = 161098
-    1210.1.1 = {
-        birth = "1210.1.1"
-    }
-    1270.1.1 = {
-        death = "1270.1.1"
-    }
-}
-161100 = {
-    name = "卡拉比"  # Kalabi
-    dynasty = 1030011
-    religion = "sunni"
-    culture = "manden"
-    father = 161099
-    1240.1.1 = {
-        birth = "1240.1.1"
-    }
-    1300.1.1 = {
-        death = "1300.1.1"
-    }
-}
-161101 = {
-    name = "丹卡兰"  # Dankaran
-    dynasty = 1030011
-    religion = "sunni"
-    culture = "manden"
-    father = 161100
-    1270.1.1 = {
-        birth = "1270.1.1"
-    }
-    1320.1.1 = {
-        death = "1320.1.1"
-    }
-}
-161102 = {
-    name = "班努"  # Bannu
-    dynasty = 1030011
-    religion = "sunni"
-    culture = "manden"
-    father = 161101
-    1300.1.1 = {
-        birth = "1300.1.1"
-    }
-    1350.1.1 = {
-        death = "1350.1.1"
-    }
-}
-161103 = {
-    name = "卡萨"  # Kassa
-    dynasty = 1030012
-    religion = "sunni"
-    culture = "manden"
-    1050.1.1 = {
-        birth = "1050.1.1"
-    }
-    1110.1.1 = {
-        death = "1110.1.1"
-    }
-}
-161104 = {
-    name = "塔科仪"  # Takoi
-    dynasty = 1030012
-    religion = "sunni"
-    culture = "manden"
-    father = 161103
-    1080.1.1 = {
-        birth = "1080.1.1"
-    }
-    1140.1.1 = {
-        death = "1140.1.1"
-    }
-}
-161105 = {
-    name = "喀纳法"  # Kanafa
-    dynasty = 1030012
-    religion = "sunni"
-    culture = "manden"
-    father = 161104
-    1110.1.1 = {
-        birth = "1110.1.1"
-    }
-    1170.1.1 = {
-        death = "1170.1.1"
-    }
-}
-161106 = {
-    name = "法塔"  # Fatta
-    dynasty = 1030012
-    religion = "sunni"
-    culture = "manden"
-    father = 161105
-    1150.1.1 = {
-        birth = "1150.1.1"
-    }
-    1210.1.1 = {
-        death = "1210.1.1"
-    }
-}
-161107 = {
-    name = "瓦里"  # Ouali
-    dynasty = 1030012
-    religion = "sunni"
-    culture = "manden"
-    father = 161106
-    1180.1.1 = {
-        birth = "1180.1.1"
-    }
-    1240.1.1 = {
-        death = "1240.1.1"
-    }
-}
-161108 = {
-    name = "费达祖"  # Fädazu
-    dynasty = 1030012
-    religion = "sunni"
-    culture = "manden"
-    father = 161107
-    1210.1.1 = {
-        birth = "1210.1.1"
-    }
-    1270.1.1 = {
-        death = "1270.1.1"
-    }
-}
-161109 = {
-    name = "卡亚"  # Kaya
-    dynasty = 1030012
-    religion = "sunni"
-    culture = "manden"
-    father = 161108
-    1240.1.1 = {
-        birth = "1240.1.1"
-    }
-    1300.1.1 = {
-        death = "1300.1.1"
-    }
-}
-161110 = {
-    name = "拉希勒图勒"  # Lahiltoul
-    dynasty = 1030012
-    religion = "sunni"
-    culture = "manden"
-    father = 161109
-    1270.1.1 = {
-        birth = "1270.1.1"
-    }
-    1320.1.1 = {
-        death = "1320.1.1"
-    }
-}
-161111 = {
-    name = "阿科仪"  # Akoi
-    dynasty = 1030012
-    religion = "sunni"
-    culture = "manden"
-    father = 161110
-    1300.1.1 = {
-        birth = "1300.1.1"
-    }
-    1350.1.1 = {
-        death = "1350.1.1"
     }
 }
 161131 = {
@@ -1723,147 +646,6 @@
         death = "1256.1.1"
     }
 }
-184010 = {
-    name = "德拉马内"  # Dramane
-    dynasty = 1030000
-    religion = "west_african_pagan"
-    culture = "manden"
-    695.1.1 = {
-        birth = "695.1.1"
-    }
-    745.1.1 = {
-        death = "740.1.1"
-    }
-}
-184011 = {
-    name = "赛义杜"  # Seydou
-    dynasty = 1030000
-    religion = "west_african_pagan"
-    culture = "manden"
-    father = 184010
-    725.1.1 = {
-        birth = "725.1.1"
-    }
-    770.1.1 = {
-        death = "770.1.1"
-    }
-}
-184012 = {
-    name = "德里萨"  # Drissa
-    dynasty = 1030000
-    religion = "west_african_pagan"
-    culture = "manden"
-    father = 184010
-    730.1.1 = {
-        birth = "730.1.1"
-    }
-    780.1.1 = {
-        death = "780.1.1"
-    }
-}
-184013 = {
-    name = "马阳 迪亚贝"  # Mayan Dyabe
-    dynasty = 1030000
-    religion = west_african_pagan
-    culture = manden
-    father = 184012
-    770.1.1 = {
-        birth = yes
-    }
-    840.1.1 = {
-        death = yes
-    }
-}
-184014 = {
-    name = "孔那泰"  # Konaté
-    dynasty = 1030000
-    religion = west_african_pagan
-    culture = manden
-    father = 184013
-    805.1.1 = {
-        birth = yes
-    }
-    860.1.1 = {
-        death = yes
-    }
-}
-184015 = {
-    name = "祖玛那"  # Zoumana
-    dynasty = 1030000
-    religion = west_african_pagan
-    culture = manden
-    father = 184014
-    830.1.1 = {
-        birth = yes
-    }
-    898.1.1 = {
-        death = yes
-    }
-}
-184016 = {
-    name = "雅西内"  # Iasine
-    dynasty = 1030000
-    religion = west_african_pagan
-    culture = manden
-    father = 184015
-    875.1.1 = {
-        birth = "875.1.1"
-    }
-    920.1.1 = {
-        death = "920.1.1"
-    }
-}
-184017 = {
-    name = "吉布里勒"  # Djibril
-    dynasty = 1030000
-    religion = "sunni"
-    culture = "manden"
-    father = 184016
-    905.1.1 = {
-        birth = "905.1.1"
-    }
-    960.1.1 = {
-        death = "960.1.1"
-    }
-}
-184018 = {
-    name = "亚当"  # Adama
-    dynasty = 1030000
-    religion = "sunni"
-    culture = "manden"
-    father = 184017
-    925.1.1 = {
-        birth = "925.1.1"
-    }
-    980.1.1 = {
-        death = "980.1.1"
-    }
-}
-184019 = {
-    name = "奥斯曼"  # Ousmane
-    dynasty = 1030000
-    religion = "sunni"
-    culture = "manden"
-    father = 184018
-    970.1.1 = {
-        birth = "970.1.1"
-    }
-    1040.1.1 = {
-        death = "1040.1.1"
-    }
-}
-183501 = {
-    name = "哈尔嘎尼"  # Hargani
-    dynasty = 1042631
-    religion = "west_african_pagan"
-    culture = "manden"
-    825.1.1 = {
-        birth = "825.1.1"
-    }
-    900.1.1 = {
-        death = "900.1.1"
-    }
-}
 183502 = {
     name = "苏茂洛"  # Soumaoro
     dynasty = 1042632
@@ -1871,6 +653,9 @@
     culture = "manden"
     841.1.1 = {
         birth = "841.1.1"
+    }
+    860.1.1 = {
+        capital = c_kantor
     }
     890.1.1 = {
         death = "890.1.1"
@@ -1936,18 +721,6 @@
         death = yes
     }
 }
-188752 = {
-    name = "但卡兰"  # Dankaran
-    dynasty = 1042173
-    religion = "west_african_pagan"
-    culture = "manden"
-    730.1.1 = {
-        birth = yes
-    }
-    780.1.1 = {
-        death = yes
-    }
-}
 188753 = {
     name = "科达玛"  # Kodama
     dynasty = 1042174
@@ -1960,27 +733,282 @@
         death = yes
     }
 }
-188754 = {
-    name = "登巴"  # Demba
-    dynasty = 1042175
+251100 = {
+    name = "布纳马"  # Bunama
+    dynasty = 1060018
     religion = "west_african_pagan"
     culture = "manden"
-    745.1.1 = {
+    1049.1.1 = {
         birth = yes
     }
-    795.1.1 = {
+    1101.1.1 = {
         death = yes
     }
 }
-188755 = {
-    name = "科达玛"  # Kodama
-    dynasty = 1042176
+251101 = {
+    name = "马詹"  # Majan
+    dynasty = 1060018
     religion = "west_african_pagan"
     culture = "manden"
-    742.1.1 = {
+    father = 251100
+    1066.1.1 = {
         birth = yes
     }
-    795.1.1 = {
+    1130.1.1 = {
+        death = yes
+    }
+}
+251102 = {
+    name = "布纳马"  # Bunama
+    dynasty = 1060018
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251101
+    1093.1.1 = {
+        birth = yes
+    }
+    1156.1.1 = {
+        death = yes
+    }
+}
+251103 = {
+    name = "卡亚"  # Kaya
+    dynasty = 1060018
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251102
+    1123.1.1 = {
+        birth = yes
+    }
+    1180.1.1 = {
+        death = yes
+    }
+}
+251104 = {
+    name = "马詹"  # Majan
+    dynasty = 1060018
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251103
+    1150.1.1 = {
+        birth = yes
+    }
+    1209.1.1 = {
+        death = yes
+    }
+}
+251105 = {
+    name = "卡亚"  # Kaya
+    dynasty = 1060018
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251104
+    1180.1.1 = {
+        birth = yes
+    }
+    1234.1.1 = {
+        death = yes
+    }
+}
+251106 = {
+    name = "布纳马"  # Bunama
+    dynasty = 1060018
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251105
+    1210.1.1 = {
+        birth = yes
+    }
+    1260.1.1 = {
+        death = yes
+    }
+}
+251107 = {
+    name = "亚马"  # Yama
+    dynasty = 1060018
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251106
+    1240.1.1 = {
+        birth = yes
+    }
+    1289.1.1 = {
+        death = yes
+    }
+}
+251108 = {
+    name = "马詹"  # Majan
+    dynasty = 1060018
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251107
+    1270.1.1 = {
+        birth = yes
+    }
+    1315.1.1 = {
+        death = yes
+    }
+}
+251109 = {
+    name = "萨库拉"  # Sakoura
+    dynasty = 1060018
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251108
+    1300.1.1 = {
+        birth = yes
+    }
+    1366.1.1 = {
+        death = yes
+    }
+}
+251110 = {
+    name = "拉希拉图尔"  # Lahilatoul
+    dynasty = 1030002
+    religion = "west_african_pagan"
+    culture = "manden"
+    748.1.1 = {
+        birth = yes
+    }
+    767.1.1 = {
+        add_spouse = 251111
+    }
+    806.1.1 = {
+        death = yes
+    }
+}
+251111 = {
+    name = "法图马塔"  # Fatoumata
+    female = yes
+    religion = "west_african_pagan"
+    culture = "manden"
+    749.1.1 = {
+        birth = yes
+    }
+    767.1.1 = {
+        add_spouse = 251110
+    }
+    812.1.1 = {
+        death = yes
+    }
+}
+251112 = {
+    name = "泰克哈耶"  # Tekhaye
+    female = yes
+    dynasty = 1030002
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251110
+    mother = 251111
+    768.1.1 = {
+        birth = yes
+    }
+    830.1.1 = {
+        death = yes
+    }
+}
+251113 = {
+    name = "登巴"  # Demba
+    dynasty = 1030002
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251110
+    mother = 251111
+    769.1.1 = {
+        birth = yes
+    }
+    815.1.1 = {
+        death = yes
+    }
+}
+251114 = {
+    name = "瓦塔拉"  # Watara
+    dynasty = 1030002
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251113
+    800.1.1 = {
+        birth = yes
+    }
+    860.1.1 = {
+        death = yes
+    }
+}
+251115 = {
+    name = "巴马里"  # Bamari
+    dynasty = 1030002
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251114
+    835.1.1 = {
+        birth = yes
+    }
+    897.1.1 = {
+        death = yes
+    }
+}
+251116 = {
+    name = "马马迪"  # Mamadi
+    dynasty = 1030002
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251115
+    863.1.1 = {
+        birth = yes
+    }
+    930.1.1 = {
+        death = yes
+    }
+}
+251117 = {
+    name = "瓦塔拉"  # Watara
+    dynasty = 1030002
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251116
+    899.1.1 = {
+        birth = yes
+    }
+    970.1.1 = {
+        death = yes
+    }
+}
+251118 = {
+    name = "马马迪"  # Mamadi
+    dynasty = 1030002
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251117
+    933.1.1 = {
+        birth = yes
+    }
+    984.1.1 = {
+        death = yes
+    }
+}
+251119 = {
+    name = "马里-贾塔"  # Mari-Djata
+    dynasty = 1030002
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251118
+    976.1.1 = {
+        birth = yes
+    }
+    1032.1.1 = {
+        death = yes
+    }
+}
+251120 = {
+    name = "瓦塔拉"  # Watara
+    dynasty = 1030002
+    religion = "west_african_pagan"
+    culture = "manden"
+    father = 251119
+    1015.1.1 = {
+        birth = yes
+    }
+    1064.1.1 = {
         death = yes
     }
 }

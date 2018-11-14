@@ -273,15 +273,15 @@ DOUBLE_SLIDER_TOOLTIP;最少: $MIN$\n最多: $MAX$;;;;;;;;;;;;x
 AI_ACCEPTANCE_YES_DESC;§G他们将会接受这一互动§!;;;;;;;;;;;;x
 AI_ACCEPTANCE_MAYBE_DESC;§Y他们可能会接受这一互动§!;;;;;;;;;;;;x
 AI_ACCEPTANCE_NO_DESC;§R他们不会接受这一互动§!;;;;;;;;;;;;x
-AI_ACCEPTANCE_TOTAL;Acceptance Score: $TOTAL|+0$;;;;;;;;;;;;x
-AI_ACCEPTANCE_HUMAN_MAYBE;Being a player, how they will respond is unknown;;;;;;;;;;;;x
+AI_ACCEPTANCE_TOTAL;接受度: $TOTAL|+0$;;;;;;;;;;;;x
+AI_ACCEPTANCE_HUMAN_MAYBE;作为一位玩家，他们的反应是未知的。;;;;;;;;;;;;x
 bear.6.undo;这是不可忍受的！;;;;;;;;;;;;x
 UNDO_BEAR_TRANSFORMATION;醒来后，一切都恢复了正常。也许所有的事只不过是一场梦……;;;;;;;;;;;;x
 MOVEMENT_LOCKED;§Y移动锁定§!;;;;;;;;;;;;x
 MOVEMENT_LOCKED_DELAYED;这支军队已经走完行进路程的一半，行动已经无法取消了。你仍可取消或安排之后的行军路线。;;;;;;;;;;;;x
 UNIT_MOVEMENT_LOCKED;§Y这支军队的行动已经锁定，因此无法取消当前的移动§!;;;;;;;;;;;;x
-UNIT_MOVEMENT_LOCKING_IN;This army will have its movement locked on $DATE|Y$ (in $DAYS|Y$ days), becoming unable to cancel its current move;;;;;;;;;;;;x
-UNIT_MOVEMENT_WOULD_LOCK_IN;Ordering the army to move to this County would cause it to have its movement locked on $DATE|Y$ (in $DAYS|Y$ days), becoming unable to cancel its current move;;;;;;;;;;;;x
+UNIT_MOVEMENT_LOCKING_IN;这支军队的行动会在$DATE|Y$锁定（在$DAYS|Y$天内），变为无法取消它当前的移动;;;;;;;;;;;;x
+UNIT_MOVEMENT_WOULD_LOCK_IN;命令这支军队移动到这个省份会使其行动在$DATE|Y$锁定（在$DAYS|Y$天内），变为无法取消它当前的移动;;;;;;;;;;;;x
 RULE_MOVEMENT_LOCK;移动锁定;;;;;;;;;;;;x
 RULE_MOVEMENT_LOCK_ON_DESC;一旦军队走完行进路程的一半，行动便无法中止了。不过，你仍可以取消或者更改之后的行军路线。;;;;;;;;;;;;x
 RULE_MOVEMENT_LOCK_OFF_DESC;无行动锁定;;;;;;;;;;;;x
@@ -331,14 +331,14 @@ LEDGER_ENTRY_BLOODLINE_TOOLTIP;$FOUNDER$ currently has $DESCENDANTS|Y$ living de
 LEDGER_NUM_BLOODLINE_LIVING_MEMBERS;在世的后裔;;;;;;;;;;;;x
 society_show_bloodlines;§YList all created Legends§!;;;;;;;;;;;;x
 society_show_bloodlines_disabled;§YThis society has no known Legends§!;;;;;;;;;;;;x
-OBSERVER;Observer;;;;;;;;;;;;x
-LEDGER_HEADER_KILL_LIST;Kill List;;;;;;;;;;;;x
-LEDGER_NUM_KILLED_CHARACTER;Number of kills;;;;;;;;;;;;x
-LEDGER_CHARACTER_HAS_KILLED;$NAME$ has killed:;;;;;;;;;;;;x
+OBSERVER;观察者;;;;;;;;;;;;x
+LEDGER_HEADER_KILL_LIST;击杀名单;;;;;;;;;;;;x
+LEDGER_NUM_KILLED_CHARACTER;击杀数量;;;;;;;;;;;;x
+LEDGER_CHARACTER_HAS_KILLED;$NAME$杀死了：;;;;;;;;;;;;x
 ANY_KILL_LIST_CHARACTER_START;Any character in Kill List:;;;;;;;;;;;;x
 ALL_KILL_LIST_CHARACTER;All characters in Kill List:;;;;;;;;;;;;x
 KILL_LIST_INTERFACE_LABEL;§YKills§!;;;;;;;;;;;;x
-HAS_NO_KILLS;This character is not a known murderer.;;;;;;;;;;;;x
+HAS_NO_KILLS;该角色不是一位已知的谋杀者。;;;;;;;;;;;;x
 HolyFuryDLC;神圣之怒;;;;;;;;;;;;x
 send_baptism_request;Contact [From.GetName]'s liege and ask [From.GetHerHim] to sponsor your realm's conversion;;;;;;;;;;;;x
 baptism_request_cooldown;Has recently asked for a mass conversion;;;;;;;;;;;;x
@@ -13138,7 +13138,7 @@ EVTOPTDHF25200;On second thought, I will go take a drink instead.;;;;;;;;;;;;x
 EVTDESCHF25201;Many important warriors have gathered in the Lodge tonight in order to celebrate a recent hunt. I have barely joined some of my friends in the festivities when [From.GetTitledFirstName] barges in, claiming that [From.GetSheHe] is twice as strong as I am and challenging me to an arm-wrestling match to prove it.;;;;;;;;;;;;x
 EVTOPTAHF25201;You are on!;;;;;;;;;;;;x
 TT_EVTOPTAHF25201;接受§Y[From.GetTitledFirstName]§!的挑战。;;;;;;;;;;;;x
-EVTOPTBHF25201;I am too tired right now...;;;;;;;;;;;;x
+EVTOPTBHF25201;我现在太累了……;;;;;;;;;;;;x
 TT_EVTOPTBHF25201;Refuse §Y[From.GetTitledFirstName]§!'s challenge.\nYour fellow §YWarriors§! will remember this cowardly act.;;;;;;;;;;;;x
 EVTDESCHF25202;[From.GetTitledFirstName] was too much of a coward to meet my challenge. [From.GetSheHeCap] excused [From.GetHerselfHimself] and left the hall in a hurry rather than test [From.GetHerHis] strength against mine.;;;;;;;;;;;;x
 EVTOPTAHF25202;Pathetic!;;;;;;;;;;;;x
@@ -13175,7 +13175,7 @@ TT_EVTOPTAHF25263;§Y[From.GetTitledFirstName]§! might challenge you to a §YDu
 EVTOPTBHF25215;Do not be too hard on yourself!;;;;;;;;;;;;x
 EVTDESCHF25216;With a loud thud, [wl_arm_wrestling_winner.GetFirstName] slams my fist against the table, earning a shower of cheers from the other warriors gathered around us. As if defeating me wasn't enough, [wl_arm_wrestling_winner.GetSheHe] starts mocking me openly.;;;;;;;;;;;;x
 EVTOPTYHF25216;I will show you who is stronger!;;;;;;;;;;;;x
-EVTOPTAHF25216;Oh, shut up!;;;;;;;;;;;;x
+EVTOPTAHF25216;噢！闭嘴！;;;;;;;;;;;;x
 TT_EVTOPTAHF25216;Your fellow warriors laugh at you.;;;;;;;;;;;;x
 EVTDESCHF25217;With a loud thud, [wl_arm_wrestling_winner.GetFirstName] slams my fist against the table, earning a shower of cheers from the other warriors gathered around us. Luckily, [wl_arm_wrestling_winner.GetFirstName] decides to not rub in [wl_arm_wrestling_winner.GetHerHis] victory, and gives me a bit of praise for holding on this much against [wl_arm_wrestling_winner.GetHerHim].;;;;;;;;;;;;x
 EVTOPTAHF25217;I need to train more...;;;;;;;;;;;;x
@@ -13185,7 +13185,7 @@ TT_EVTOPTAHF25218;Approach §Y[From.GetTitledFirstName]§! and declare your feel
 EVTOPTBHF25218;Just a passing fancy, surely.;;;;;;;;;;;;x
 EVTDESCAHF25219;Tonight, just as I was about to leave the main hall, I was approached by [From.GetFirstName], one of my fellow warriors. After chatting for a while, [From.GetSheHe] reveals to me that [From.GetSheHe] has been watching me for a while, and finds me to be a very strong and attractive fighter.;;;;;;;;;;;;x
 EVTOPTAHF25219;And I happen to think the same about you.;;;;;;;;;;;;x
-EVTOPTBHF25219;Thanks, but I am not interested.;;;;;;;;;;;;x
+EVTOPTBHF25219;谢谢，但我不感兴趣。;;;;;;;;;;;;x
 EVTDESCAHF25220;I was right to trust my feelings. [From.GetFirstName] was surprised and happy to hear of how I felt about [From.GetHerHim] and told me that [From.GetSheHe] was merely waiting for the right opportunity to reveal [From.GetHerHis] own feelings for me.;;;;;;;;;;;;x
 EVTOPTAHF25220;Interested in some late-night training?;;;;;;;;;;;;x
 EVTDESCAHF25221;Unfortunately, [From.GetFirstName] has spurned my advances without much thought to it. At first, I hoped that [From.GetSheHe] was simply misunderstanding my intentions, but, after a bit of discussing, [From.GetSheHe] flatly told me that [From.GetSheHe] is not interested in me.;;;;;;;;;;;;x
@@ -15782,7 +15782,7 @@ PROV1795;怛罗斯;;;;;;;;;;;;x
 PROV1796;Barskhan;;;;;;;;;;;;x
 PROV1797;Almaty;;;;;;;;;;;;x
 PROV1798;Almaliq;;;;;;;;;;;;x
-PROV1799;Qayaliq;;;;;;;;;;;;x
+PROV1799;海押立;;;;;;;;;;;;x
 PROV1800;Blue Sea;;;;;;;;;;;;x
 PROV1801;Coast of Itil;;;;;;;;;;;;x
 PROV1802;Agragan Riviera;;;;;;;;;;;;x
@@ -15902,7 +15902,7 @@ PROV1916;Burkhan Buudai;;;;;;;;;;;;x
 PROV1917;Gurvan Saikhan;;;;;;;;;;;;x
 PROV1918;Delgerkhangai;;;;;;;;;;;;x
 PROV1919;居延;;;;;;;;;;;;x
-PROV1920;Orkhon;;;;;;;;;;;;x
+PROV1920;嗢昆;;;;;;;;;;;;x
 PROV1921;Selenge;;;;;;;;;;;;x
 PROV1922;Uda;;;;;;;;;;;;x
 PROV1923;Khilok;;;;;;;;;;;;x
@@ -15982,18 +15982,18 @@ b_akzhar_almaty;Akzhar;;;;;;;;;;;;x
 b_lepsy;Lepsy;;;;;;;;;;;;x
 b_kuraksu;Kuraksu;;;;;;;;;;;;x
 b_ilibaliq;亦力把里;;;;;;;;;;;;x
-b_qayaliq;Qayaliq;;;;;;;;;;;;x
-b_xinyuan;Xinyuan;;;;;;;;;;;;x
-b_nilka;Nilka;;;;;;;;;;;;x
-b_zeketaizhen;Zeketaizhen;;;;;;;;;;;;x
-b_taledzhen;Taledzhen;;;;;;;;;;;;x
-b_nalatizhen;Nalatizhen;;;;;;;;;;;;x
+b_qayaliq;海押立;;;;;;;;;;;;x
+b_xinyuan;新源;;;;;;;;;;;;x
+b_nilka;尼勒克;;;;;;;;;;;;x
+b_zeketaizhen;则克台镇;;;;;;;;;;;;x
+b_taledzhen;塔勒德镇;;;;;;;;;;;;x
+b_nalatizhen;那拉提镇;;;;;;;;;;;;x
 b_kashi;Kashi;;;;;;;;;;;;x
 b_shubar;Shubar;;;;;;;;;;;;x
 b_shagan;Shagan;;;;;;;;;;;;x
 b_sayram_qayaliq;Sayram;;;;;;;;;;;;x
 b_sadyr;Sadyr;;;;;;;;;;;;x
-b_wenquan_qayaliq;Wenquan;;;;;;;;;;;;x
+b_wenquan_qayaliq;温泉;;;;;;;;;;;;x
 b_horgos;Horgos;;;;;;;;;;;;x
 b_klarjeti;Klarjeti;;;;;;;;;;;;x
 b_tortomi;Tortomi;;;;;;;;;;;;x
@@ -16583,7 +16583,7 @@ b_terkhiin_tsagaan;Terkhiin Tsagaan;;;;;;;;;;;;x
 b_burkhan_buudai;Burkhan Buudai;;;;;;;;;;;;x
 b_gurvan_saikhan;Gurvan Saikhan;;;;;;;;;;;;x
 b_juyan;居延;;;;;;;;;;;;x
-b_orkhon;Orkhon;;;;;;;;;;;;x
+b_orkhon;嗢昆;;;;;;;;;;;;x
 b_selenge;Selenge;;;;;;;;;;;;x
 b_uda;Uda;;;;;;;;;;;;x
 b_khilok;Khilok;;;;;;;;;;;;x
@@ -17118,7 +17118,7 @@ c_chuy_adj;Balasaguner;;;;;;;;;;;;x
 c_almaty_adj;Almatyan;;;;;;;;;;;;x
 c_zhetysu_adj;Karatalian;;;;;;;;;;;;x
 c_almaliq_adj;Almaliqian;;;;;;;;;;;;x
-c_qayaliq_adj;Qayaliqian;;;;;;;;;;;;x
+c_qayaliq_adj;海押立;;;;;;;;;;;;x
 c_kartli_adj;Tiflisite;;;;;;;;;;;;x
 c_mtskheta_adj;Mtskhetan;;;;;;;;;;;;x
 c_durdzukia_adj;Durdzuki;;;;;;;;;;;;x
@@ -17250,7 +17250,7 @@ c_burkhan_buudai_adj;Burkhani;;;;;;;;;;;;x
 c_gurvan_saikhan_adj;Gurvani;;;;;;;;;;;;x
 c_delgerkhangai_adj;Delgerkhangaier;;;;;;;;;;;;x
 c_juyan_adj;居延;;;;;;;;;;;;x
-c_orkhon_adj;Orkhoni;;;;;;;;;;;;x
+c_orkhon_adj;嗢昆;;;;;;;;;;;;x
 c_selenge_adj;Selenger;;;;;;;;;;;;x
 c_uda_adj;Udani;;;;;;;;;;;;x
 c_khilok_adj;Khiloki;;;;;;;;;;;;x

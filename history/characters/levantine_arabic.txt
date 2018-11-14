@@ -565,23 +565,6 @@
         death = "1067.1.1"
     }
 }
-20770 = {
-    name = "伊沙克"  # Ishaq
-    martial = 6
-    diplomacy = 4
-    intrigue = 4
-    stewardship = 7
-    religion = "druze"
-    culture = "levantine_arabic"
-    trait = "kind"
-    trait = "tough_soldier"
-    1050.1.1 = {
-        birth = "1050.1.1"
-    }
-    1110.1.1 = {
-        death = "1110.1.1"
-    }
-}
 20771 = {
     name = "叶海亚"  # Yahya
     martial = 8
@@ -2446,6 +2429,12 @@
     father = 226053
     1138.1.1 = {
         birth = "1138.1.1"
+    }
+    1187.10.2 = {
+        create_bloodline = {
+            type = saladin
+            has_dlc = "Holy Fury"
+        }
     }
     1193.3.4 = {
         death = "1193.3.4"
@@ -4907,26 +4896,37 @@
         death = "1110.1.7"
     }
 }
-93520 = {
-    name = "塔乌菲克"  # Tawfiq
-    religion = "druze"
-    culture = "levantine_arabic"
-    1090.1.1 = {
-        birth = "1090.1.1"
-    }
-    1142.1.1 = {
-        death = "1142.1.1"
-    }
-}
 155113 = {
     name = "卡拉库什"  # Karakush
+    dynasty = 1059956
     religion = "sunni"
-    culture = "levantine_arabic"
+    culture = "armenian"
+    trait = skilled_tactician
+    trait = brave
+    trait = patient
+    trait = inspiring_leader
+    trait = sympathy_christendom
     1150.1.1 = {
         birth = "1150.1.1"
     }
+    1174.1.1 = {
+        culture = levantine_arabic
+    }
     1212.1.1 = {
         death = "1212.1.1"
+    }
+}
+248842 = {
+    name = "哈马扎斯普"  # Hamazasp
+    dynasty = 1059956
+    religion = "sunni"
+    culture = "levantine_arabic"
+    father = 155113
+    1174.1.1 = {
+        birth = yes
+    }
+    1242.1.1 = {
+        death = yes
     }
 }
 159269 = {
@@ -6920,12 +6920,209 @@
         death = yes
     }
 }
-20764 = {
-    name = "穆扎法拉丁"  # Muzaffaraddin
+248601 = {
+    name = "达乌德"  # Dawud
+    dynasty = 1059992
+    religion = "orthodox"
+    culture = "greek"
+    700.1.1 = {
+        birth = yes
+        culture = "bedouin_arabic"
+    }
+    770.1.1 = {
+        death = yes
+    }
 }
-227006 = {
-    name = "阿卡布"  # Akab
+248602 = {
+    name = "蒙齐尔"  # Mundhir
+    dynasty = 1059992
+    religion = "monothelite"
+    culture = "greek"
+    father = 248601
+    trait = tough_soldier
+    730.1.1 = {
+        birth = yes
+    }
+    769.1.1 = {
+        culture = levantine_arabic
+    }
+    780.1.1 = {
+        religion = sunni
+    }
+    785.1.1 = {
+        death = yes
+    }
 }
-485370 = {
-    name = "哈隆"  # Haroun
+248603 = {
+    name = "Arslan"
+    dynasty = 1059992
+    religion = "monothelite"
+    culture = "greek"
+    father = 248601
+    trait = brave
+    733.1.1 = {
+        birth = yes
+    }
+    769.1.1 = {
+        culture = levantine_arabic
+        add_claim = c_baalbek
+    }
+    780.1.1 = {
+        religion = sunni
+    }
+    785.1.1 = {
+        death = yes
+    }
+}
+248604 = {
+    name = "Musa"
+    dynasty = 1059992
+    religion = "monothelite"
+    culture = "levantine_arabic"
+    father = 248602
+    770.1.1 = {
+        birth = yes
+    }
+    780.1.1 = {
+        religion = sunni
+    }
+    840.1.1 = {
+        death = yes
+    }
+}
+248605 = {
+    name = "Yagub"
+    dynasty = 1059992
+    religion = "sunni"
+    culture = "levantine_arabic"
+    father = 248604
+    trait = sympathy_christendom
+    800.1.1 = {
+        birth = yes
+    }
+    870.1.1 = {
+        death = yes
+    }
+}
+248606 = {
+    name = "Youkhanna"
+    dynasty = 1059992
+    religion = "sunni"
+    culture = "levantine_arabic"
+    father = 248605
+    trait = sympathy_christendom
+    840.1.1 = {
+        birth = yes
+    }
+    890.1.1 = {
+        death = yes
+    }
+}
+248607 = {
+    name = "Bashar"
+    dynasty = 1059992
+    religion = "sunni"
+    culture = "levantine_arabic"
+    father = 248606
+    trait = sympathy_christendom
+    875.1.1 = {
+        birth = yes
+    }
+    940.1.1 = {
+        death = yes
+    }
+}
+248608 = {
+    name = "Ismail"
+    dynasty = 1059992
+    religion = "sunni"
+    culture = "levantine_arabic"
+    father = 248607
+    trait = sympathy_christendom
+    910.1.1 = {
+        birth = yes
+    }
+    960.1.1 = {
+        religion = shiite
+    }
+    970.1.1 = {
+        death = yes
+    }
+}
+248609 = {
+    name = "Mukhtar"
+    dynasty = 1059992
+    religion = "sunni"
+    culture = "levantine_arabic"
+    father = 248608
+    940.1.1 = {
+        birth = yes
+    }
+    960.1.1 = {
+        religion = shiite
+    }
+    1000.1.1 = {
+        death = yes
+    }
+}
+248610 = {
+    name = "Hussein"
+    dynasty = 1059992
+    religion = "shiite"
+    culture = "levantine_arabic"
+    father = 248609
+    970.1.1 = {
+        birth = yes
+    }
+    1050.1.1 = {
+        death = yes
+    }
+}
+248611 = {
+    name = "Hakim"
+    dynasty = 1059992
+    religion = "shiite"
+    culture = "levantine_arabic"
+    father = 248610
+    1000.1.1 = {
+        birth = yes
+    }
+    1019.1.1 = {
+        religion = druze
+    }
+    1065.1.1 = {
+        death = yes
+    }
+}
+20770 = {
+    name = "伊沙克"  # Ishaq
+    dynasty = 1059992
+    martial = 6
+    diplomacy = 4
+    intrigue = 4
+    stewardship = 7
+    religion = "druze"
+    culture = "levantine_arabic"
+    trait = "kind"
+    trait = "tough_soldier"
+    father = 248610
+    1050.1.1 = {
+        birth = "1050.1.1"
+    }
+    1110.1.1 = {
+        death = "1110.1.1"
+    }
+}
+93520 = {
+    name = "塔乌菲克"  # Tawfiq
+    dynasty = 1059992
+    religion = "druze"
+    culture = "levantine_arabic"
+    father = 20770
+    1090.1.1 = {
+        birth = "1090.1.1"
+    }
+    1142.1.1 = {
+        death = "1142.1.1"
+    }
 }
