@@ -25,7 +25,6 @@ EVTDESC_RIP_11053_SHIPS_PHYSICIAN;一份报告称一艘船刚刚停泊在[physic
 EVTOPTC_RIP_11053;为了健康花再多钱我也愿意。;;;;;;;;;;;;x
 EVTDESC_RIP_11053_WISE_DWARF;你的探子禀报说有一位医术高超的医生可能住在[physician_forest_target.GetName]的深林中。这位医生是一个叫[recruited_physician_target.GetFirstName]的侏儒，只会在治疗附近村子里的孩子时才会出山。在恩威并施之下，[recruited_physician_target.GetSheHe]会不情愿地答应来到你的宫廷任职。;;;;;;;;;;;;x
 EVTOPTD_RIP_11053;[recruited_physician_target.GetManWoman]是一个奇怪的侏儒，但是医术高明！把[recruited_physician_target.GetHerHim]带到我的宫廷里。;;;;;;;;;;;;x
-EVTDESC_RIP_11053_JEWISH_EXILE;在你寻求招募宫廷医师消息传出去不久，一个被流放的犹太人来到你的宫廷。这位被流放的犹太人自称为[recruited_physician_target.GetFullName]并且解释说[recruited_physician_target.GetSheHe]曾任多位统治者的医生，如果报酬丰厚，也将提供[recruited_physician_target.GetHerHis]服务。;;;;;;;;;;;;x
 EVTOPTE_RIP_11053;我接受你慷慨的提议！;;;;;;;;;;;;x
 EVTDESC_RIP_11053_CONDEMNED_SORCERER;你的[Root.GetSpymasterName]，[Root.job_spymaster.GetTitledFirstName]，报告说一个异端术士在[sorcerer_city_target.GetName]被抓住关进了牢里。这个「术士」看上去治好了其他的囚犯。尽管[recruited_physician_target.GetSheHe]将于午时斩首，但你可以赦免[recruited_physician_target.GetHerHim]并且雇佣[recruited_physician_target.GetHerHim]。;;;;;;;;;;;;x
 EVTOPTF_RIP_11053;虽然他是一个叛经离道的异端……但我确实需要一位医生！;;;;;;;;;;;;x
@@ -63,10 +62,8 @@ EVTDESC_RIP_11053_HORSE_MD;当你在庭院里睡觉时，突然你被一阵马�
 EVTOPTV_RIP_11053;那匹马真健壮！让它加入我的宫廷！;;;;;;;;;;;;x
 3_year_physician_cooldown;每隔§Y3§!年才能寻访一次医生;;;;;;;;;;;;x
 educated_court_physician;是一个训练有素的宫廷医师\n;;;;;;;;;;;;x
-inaccessible_tooltip;不在躲藏或隔离状态\n;;;;;;;;;;;;x
 EVTOPTB39400;受诅咒的异教徒！;;;;;;;;;;;;x
 become_vaishya;变为吠舍种姓;;;;;;;;;;;;x
-become_vaishya_desc;在印度传统里，改变种姓是不可能的。然而，一位的领主若下定决心愿意花费大价钱去送礼和贿赂，并且不惜激怒印度社会为代价，即使不可能也有机会实现。几代人之后，谁知道呢，人们甚至会忘记[Root.GetHerHis]家庭原来不是吠舍……\n\n角色若拥有高学识，则能给人留下更深刻的印象，并在过程中花费更少的金钱。;;;;;;;;;;;;x
 CHRONICLE_BECAME_VAISHYA;[Root.GetTitledFirstNameWithNick]上升到吠舍种姓，在[Root.Religion.GetName]的统治者中为[Root.GetHerHis]家族赢得新的威望。;;;;;;;;;;;;x
 typhus;露营热;;;;;;;;;;;;x
 typhoid_fever;慢性热;;;;;;;;;;;;x
@@ -202,17 +199,14 @@ EVTOPTA8468;奥丁，请听取我的呼唤！;;;;;;;;;;;;x
 valhalla_bound;瓦尔哈拉之约;;;;;;;;;;;;x
 valhalla_bound_desc;这个角色为诺斯信仰赢得了无数伟大的胜利，一定能在瓦尔哈拉之内，奥丁的餐桌上获得一个席位！;;;;;;;;;;;;x
 ravager;劫掠者;;;;;;;;;;;;x
-ravager_desc;这名角色作为带来恐怖的劫掠者闻名于世，少有维京海盗能战斗并活下来获得如此名声。;;;;;;;;;;;;x
 seaking;维京海王;;;;;;;;;;;;x
 seaking_desc;这名角色的恐怖声名连遥远之地都有所耳闻。凡见咸水之处，皆有对维京海盗之王的恐惧。;;;;;;;;;;;;x
 TOG.3321.d;少有在世的人具有比你更恐怖的声名。其他维京海盗仅仅只是劫掠，你却摧毁整个市镇和城堡，只留下一个幸存者去传播劫掠者[Root.GetFirstName]的威名。;;;;;;;;;;;;x
 TOG.3321.a;还有更多工作要做。;;;;;;;;;;;;x
-TOG.3322.d;人们皆称你为维京海盗之王[GetFirstName]，因你能从任何地方拿走任何东西，只要那里惊涛拍岸。无人比[Root.GetManWoman]更会驾船，无人比[Root.GetManWoman]更英勇善战，无人能比[Root.GetManWoman]带来更多恐惧。;;;;;;;;;;;;x
 TOG.3322.a;我不耕种。;;;;;;;;;;;;x
 death_text_default;虽然并非特别有福，我们仍祝福[GetFirstName]在死后获得安宁;;;;;;;;;;;;x
 death_text_neutral;虽然并非特别有福，我们仍祝福[GetFirstName]在死后获得安宁;;;;;;;;;;;;x
 death_text_lustful;[GetSheHe]以特别容易堕入肉欲的罪恶而声名在外，生前常常不能对[GetHerHis][GetHusbandWifeOpp]忠贞。作为一个堕落的[GetManWoman]，[GetFirstName]定然会在死后为[GetHerHis]罪付出代价;;;;;;;;;;;;x
-death_text_gluttonous;人皆知其饕餮之本性，[GetSheHe]生前经常暴食并超重。作为一个堕落的[GetManWoman]，[GetFirstName]定然会在死后为[GetHerHis]罪付出代价;;;;;;;;;;;;x
 death_text_greedy;[GetSheHe]是一个贪婪的[GetManWoman]，生前常常强调把[GetHerHis]人民课税到天上的需要。作为一个堕落的[GetManWoman]，[GetFirstName]定然会在死后为[GetHerHis]罪付出代价;;;;;;;;;;;;x
 death_text_slothful;[GetSheHe]太容易犯懒，生前从不做任何事情，除非是[GetSheHe]不得不做的。作为一个堕落的[GetManWoman]，[GetFirstName]定然会在死后为[GetHerHis]罪付出代价;;;;;;;;;;;;x
 death_text_envious;[GetSheHe]嫉妒永无止尽，生前总想要获得其他人拥有的东西。作为一个堕落的[GetManWoman]，[GetFirstName]定然会在死后为[GetHerHis]罪付出代价;;;;;;;;;;;;x
@@ -364,7 +358,6 @@ RULE_OPTION_NONE;无;;;;;;;;;;;;x
 RULE_PROVINCE_REVOLTS;省份叛乱;;;;;;;;;;;;x
 RULE_REGENCIES;摄政;;;;;;;;;;;;x
 RULE_DEJURE;动态法理转移;;;;;;;;;;;;x
-RULE_OPTION_RESTRICTED;受限;;;;;;;;;;;;x
 RULE_DYNAMIC_REALMS;§B查理曼：§!自定义领土;;;;;;;;;;;;x
 RULE_DIPLO_RANGE;外交距离;;;;;;;;;;;;x
 RULE_ACHIEVEMENTS_WARNINGS;§R此项设置将导致成就无效！§!;;;;;;;;;;;;x
@@ -537,7 +530,7 @@ gout_death;因痛风引发的并发症;;;;;;;;;;;;x
 food_poisoning_death;食物中毒;;;;;;;;;;;;x
 rabies_death;口吐白沫;;;;;;;;;;;;x
 cancer_death;癌症;;;;;;;;;;;;x
-cough_death;把[GetHerHis]肺都咳了出来;;;;;;;;;;;;x
+cough_death;把[Root.GetHerHis]肺都咳了出来;;;;;;;;;;;;x
 fever_death;高烧不退，大汗淋漓;;;;;;;;;;;;x
 diarrhea_death;因腹泻导致的脱水;;;;;;;;;;;;x
 vomiting_death;喷射性呕吐;;;;;;;;;;;;x
@@ -545,13 +538,13 @@ chest_pain_death;心绞痛;;;;;;;;;;;;x
 cramps_death;痉挛抽搐;;;;;;;;;;;;x
 rash_death;把[GetHerHis]自己的皮肤抓得血肉模糊;;;;;;;;;;;;x
 headache_death;眼耳流血;;;;;;;;;;;;x
-abdominal_pain_death;紧抓着[GetHerHis]肠子;;;;;;;;;;;;x
+abdominal_pain_death;紧抓着[Root.GetHerHis]肠子;;;;;;;;;;;;x
 fatigue_death;精疲力竭，动弹不得;;;;;;;;;;;;x
 malaise_death;不知道身体哪里出的问题;;;;;;;;;;;;x
 infection_death;伤口感染;;;;;;;;;;;;x
 severely_injured;身受重伤;;;;;;;;;;;;x
 severely_injured_desc;这个角色伤重致残，生命垂危。如能伤愈，他将恢复健康，但已造成的伤害永远不能彻底治愈。;;;;;;;;;;;;x
-severely_injured_death;[GetHerHis]重伤;;;;;;;;;;;;x
+severely_injured_death;被重伤压垮;;;;;;;;;;;;x
 mangled;血肉模糊;;;;;;;;;;;;x
 mangled_desc;这个角色曾身受恐怖的重伤，而今拖着残破的身躯生活。;;;;;;;;;;;;x
 mangled_death;身体血肉模糊;;;;;;;;;;;;x
@@ -925,23 +918,23 @@ opinion_mutilated_family;致残亲属;;;;;;;;;;;;x
 opinion_mutilated_close_kin;致残近亲;;;;;;;;;;;;x
 EVTDSC_RIP_20013;你命令狱卒把[From.GetTitledFirstName]从[From.GetHerHis]牢中拖出来，期间你可以有条不紊地准备你的工具。没人可以反对你后而毫发无伤，[From.GetFirstName]将成为一个活生生的例子。至少这目前还只是个打算，但谁知道呢？你可以……手滑一下。;;;;;;;;;;;;x
 EVTOPTA_RIP_20013;我对你的脑袋不感兴趣。你的腿则正好。;;;;;;;;;;;;x
-EVTDSC_RIP_20014;当你安静地揣测你的命运的时候，狱卒突然走进来把你从牢里拖出去。在外面，[From.GetTitledFirstName]正等着。你全身的血一瞬间变冷了，当你看到[From.GetHerHis]残忍的微笑。「别担心，[GetFromRootInsult]。我对你的脑袋不感兴趣。你的腿则正好。」;;;;;;;;;;;;x
+EVTDSC_RIP_20014;当你安静地揣测你的命运的时候，狱卒突然走进来把你从牢里拖出去。在外面，[FromFrom.GetTitledFirstName]正等着。你全身的血一瞬间变冷了，当你看到[FromFrom.GetHerHis]残忍的微笑。「别担心，[GetFromFromRootInsult]。我对你的脑袋不感兴趣。你的腿则正好。」;;;;;;;;;;;;x
 EVTOPTA_RIP_20014;我-我的……腿？不！不要！！！;;;;;;;;;;;;x
 EVTDSC_RIP_20015;你命令狱卒把[From.GetTitledFirstName]从[From.GetHerHis]牢中拖出来，期间你可以有条不紊地准备你的工具。没人可以反对你后而毫发无伤，[From.GetFirstName]将成为一个活生生的例子。至少这目前还只是个打算，但谁知道呢？你可以……手滑一下。;;;;;;;;;;;;x
 EVTOPTA_RIP_20015;我对你的脑袋不感兴趣。你的手则正好。;;;;;;;;;;;;x
-EVTDSC_RIP_20016;当你安静地揣测你的命运的时候，狱卒突然走进来把你从牢里拖出去。在外面，[From.GetTitledFirstName]正等着。你全身的血一瞬间变冷了，当你看到[From.GetHerHis]残忍的微笑。「别担心，[GetFromRootInsult]。我对你的脑袋不感兴趣。你的手则正好。」;;;;;;;;;;;;x
+EVTDSC_RIP_20016;当你安静地揣测你的命运的时候，狱卒突然走进来把你从牢里拖出去。在外面，[FromFrom.GetTitledFirstName]正等着。你全身的血一瞬间变冷了，当你看到[FromFrom.GetHerHis]残忍的微笑。「别担心，[GetFromFromRootInsult]。我对你的脑袋不感兴趣。你的手则正好。」;;;;;;;;;;;;x
 EVTOPTA_RIP_20016;我-我的……手？不！不要！！！;;;;;;;;;;;;x
 EVTDSC_RIP_20017;你命令狱卒把[From.GetTitledFirstName]从[From.GetHerHis]牢中拖出来，期间你可以有条不紊地准备你的工具。没人可以反对你后而毫发无伤，[From.GetFirstName]将成为一个活生生的例子。至少这目前还只是个打算，但谁知道呢？你可以……手滑一下。;;;;;;;;;;;;x
 EVTOPTA_RIP_20017;我对你的脑袋不感兴趣。你的眼睛则正好。;;;;;;;;;;;;x
-EVTDSC_RIP_20018;当你安静地揣测你的命运的时候，狱卒突然走进来把你从牢里拖出去。在外面，[From.GetTitledFirstName]正等着。你全身的血一瞬间变冷了，当你看到[From.GetHerHis]残忍的微笑。「别担心，[GetFromRootInsult]。我对你的脑袋不感兴趣。你的眼睛则正好。」;;;;;;;;;;;;x
+EVTDSC_RIP_20018;当你安静地揣测你的命运的时候，狱卒突然走进来把你从牢里拖出去。在外面，[FromFrom.GetTitledFirstName]正等着。你全身的血一瞬间变冷了，当你看到[FromFrom.GetHerHis]残忍的微笑。「别担心，[GetFromRootInsult]。我对你的脑袋不感兴趣。你的眼睛则正好。」;;;;;;;;;;;;x
 EVTOPTA_RIP_20018;我-我的……眼睛？不！不要！！！;;;;;;;;;;;;x
 EVTDSC_RIP_20019;你命令狱卒把[From.GetTitledFirstName]从[From.GetHerHis]牢中拖出来，期间你可以有条不紊地准备你的工具。没人可以反对你后而毫发无伤，[From.GetFirstName]将成为一个活生生的例子。至少这目前还只是个打算，但谁知道呢？你可以……手滑一下。;;;;;;;;;;;;x
 EVTOPTA_RIP_20019;我对你的脑袋不感兴趣。不过你的鼻子则正好。;;;;;;;;;;;;x
-EVTDSC_RIP_20020;当你安静地揣测你的命运的时候，狱卒突然走进来把你从牢里拖出去。在外面，[From.GetTitledFirstName]正等着。你全身的血一瞬间变冷了，当你看到[From.GetHerHis]残忍的微笑。「别担心，[GetFromRootInsult]。我对你的脑袋不感兴趣。你的鼻子则正好。」;;;;;;;;;;;;x
+EVTDSC_RIP_20020;当你安静地揣测你的命运的时候，狱卒突然走进来把你从牢里拖出去。在外面，[FromFrom.GetTitledFirstName]正等着。你全身的血一瞬间变冷了，当你看到[FromFrom.GetHerHis]残忍的微笑。「别担心，[GetFromFromRootInsult]。我对你的脑袋不感兴趣。你的鼻子则正好。」;;;;;;;;;;;;x
 EVTOPTA_RIP_20020;我-我的……鼻子？不！不要！！！;;;;;;;;;;;;x
 EVTDSC_RIP_20021;你命令狱卒把[From.GetTitledFirstName]从[From.GetHerHis]牢中拖出来，期间你可以有条不紊地准备你的工具。没人可以反对你后而毫发无伤，[From.GetFirstName]将成为一个活生生的例子。至少这目前还只是个打算，但谁知道呢？你可以……手滑一下。;;;;;;;;;;;;x
 EVTOPTA_RIP_20021;我对你的脑袋不感兴趣。你的男性象征就够了。;;;;;;;;;;;;x
-EVTDSC_RIP_20022;当你安静地揣测你的命运的时候，狱卒突然走进来把你从牢里拖出去。在外面，[From.GetTitledFirstName]正等着。你全身的血一瞬间变冷了，当你看到[From.GetHerHis]残忍的微笑。「别担心，[GetFromRootInsult]。我对你的脑袋不感兴趣。你的男性象征就够了。」;;;;;;;;;;;;x
+EVTDSC_RIP_20022;当你安静地揣测你的命运的时候，狱卒突然走进来把你从牢里拖出去。在外面，[FromFrom.GetTitledFirstName]正等着。你全身的血一瞬间变冷了，当你看到[FromFrom.GetHerHis]残忍的微笑。「别担心，[GetFromFromRootInsult]。我对你的脑袋不感兴趣。你的男性象征就够了。」;;;;;;;;;;;;x
 EVTOPTA_RIP_20022;我的……男性象征？不！不要！！！;;;;;;;;;;;;x
 mutilate_castrated_tooltip;§Y[From.GetTitledFirstName]§!被阉了。;;;;;;;;;;;;x
 mutilate_leg_tooltip;§Y[From.GetTitledFirstName]§!成了独腿。;;;;;;;;;;;;x
@@ -1571,7 +1564,7 @@ EVTDESC_TOG_7030;我最近注意到我的一个士兵。[ancestors_commander.Get
 EVTOPTA_TOG_7030;也许是我的祖先将[ancestors_commander.GetHerHim]派给我？;;;;;;;;;;;;x
 EVTDESC_TOG_7032;如果说我的祖先们教会了我什么东西，那就是一名战士的伟大不在于[Root.GetHerHis]四肢的强壮或者[Root.GetHerHis]武器和[Root.GetHerHis]技术。要真正的掌控战场，那么他必须知道如何分析战场形势并且领导军队。;;;;;;;;;;;;x
 EVTOPTA_TOG_7032;我几乎能感受到祖先们的指引。;;;;;;;;;;;;x
-EVTDESC_TOG_7033;诅咒[Root.Religion.GetRandomEvilGodName]！今天我在比武大赛里犯下了一个很蠢的错误，造成了很严重的后果。我的对手还没准备好然后[Root.GetHerHis]利刃轻易得穿透了我的护甲。我的祖先们不再保佑我了么？;;;;;;;;;;;;x
+EVTDESC_TOG_7033;哦，诅咒[Root.Religion.GetRandomEvilGodName]！今天我在比武大赛里犯下了一个很蠢的错误，造成了很严重的后果。我的对手还没准备好然后[Root.GetHerHis]利刃轻易得穿透了我的护甲。我的祖先们不再保佑我了么？;;;;;;;;;;;;x
 EVTOPTA_TOG_7033;我再也不会和以前一样了。;;;;;;;;;;;;x
 EVTDESC_TOG_7034_A;我的[Root.GetMarshalName][ancestors_marshal.GetFirstName]建议我关于如何训练和装备我们的士兵。[ancestors_marshal.GetSheHeCap]声称这些主意是灵光一现时得到的。我确信我要感谢祖先们！;;;;;;;;;;;;x
 EVTDESC_TOG_7034_B;我的指挥官建议了一些有趣的对训练和装备士兵们的方法的改动。他们声称这些主意是他们灵光一现时得到的。我确信我要感谢祖先们！;;;;;;;;;;;;x
@@ -2260,7 +2253,6 @@ EVTOPTB_79006;我可以用[shieldmaiden_liege.GetFirstName]命名这只猫吗？
 EVTOPTC_79006;[shieldmaiden_liege.GetFirstName]真是个天才人物！;;;;;;;;;;;;x
 make_shieldmaiden;任命为盾女;;;;;;;;;;;;x
 make_shieldmaiden_desc;§Y盾女§!被认为是具有超人勇气和人格力量的女性。她也可以成为一名 §Y指挥官§!。;;;;;;;;;;;;x
-make_shieldmaiden_custom_tooltip_1;必须具有§Y「勇敢」§!，§Y「骄傲」§!，§Y「野心勃勃」§!，§Y「勤奋」§!或 §Y「公正」§!\n;;;;;;;;;;;;x
 make_shieldmaiden_custom_tooltip_2;必须不具有§Y「害羞」§!，§Y「安于现状」§!，§Y「懒惰」§!，§Y「嫉妒」§!或 §Y「暴食」§!\n;;;;;;;;;;;;x
 make_shieldmaiden_custom_tooltip_3;最近必须没有被解除（或拒绝接受）这一职责。\n;;;;;;;;;;;;x
 make_shieldmaiden_custom_tooltip_4;如果[Root.GetTitledFirstName]接受你的提议你将失去 §R50§! 金钱，但会获得 §G50§! 威望。\n[Root.GetTitledFirstName]将获得 §G100§! 威望和§Y「盾女」§!特质。\n;;;;;;;;;;;;x
@@ -2397,7 +2389,6 @@ EVTDSC_RIP_29008;为什么，[Root.Religion.GetHighGodName]？你怎么能如此
 EVTOPTB_RIP_29008;我再也找不到像你这样的朋友了，[rip_dead.GetFirstName]……;;;;;;;;;;;;x
 EVTDSC_RIP_29009_A;[From.GetTitledFirstName]和我花了整晚来回忆[rip_dead.GetFirstName]，而今天，我感到自己的心情好转了一些！希望这是一份新的伟大友谊的开端。;;;;;;;;;;;;x
 EVTDSC_RIP_29009_B;这个世界并不是那么糟！;;;;;;;;;;;;x
-EVTOPTA_RIP_29009_A;我尽最大努力来展现自己的友好，但没有用。[From.GetTitledFirstName]完全不想和我在一起。好像我会很在乎一样！;;;;;;;;;;;;x
 EVTOPTA_RIP_29009_B;随你的便吧，你这个无脑的蠢货！;;;;;;;;;;;;x
 EVTDSC_RIP_29010;哈哈！笑到最后才是笑得最好的！[GetRootFromInsult][rip_dead.GetTitledFirstName]终于离开了这个美好的世界。毫无疑问，没有了[rip_dead.GetHerHim]，一切都会变得更好。我现在有更多的时间做自己的事情了……;;;;;;;;;;;;x
 EVTOPTA_RIP_29010;我相信把[rip_dead.GetFirstName]的头骨放在我的壁炉架上会很好看！;;;;;;;;;;;;x
@@ -2667,7 +2658,6 @@ EVTDESC_RIP_4032_MEH;[physician.GetTitledFirstName]发表了[physician.GetHerHis
 EVTDESC_RIP_4032_BAD;[physician.GetTitledFirstName]发表了[physician.GetHerHis]新理论而且很明显地成为了整个医学共同体的笑柄！整个领地的学者都把这部书当成娱乐来读……;;;;;;;;;;;;x
 EVTOPTA_RIP_4032;我早就知道这是明智之举。;;;;;;;;;;;;x
 EVTOPTA_RIP_4032_TOOLTIP;§Y[physician.GetTitledFirstName]§!和你，作为[physician.GetHerHis]赞助人，因为你们对医学的贡献而为世人称颂。\n;;;;;;;;;;;;x
-EVTOPTB_RIP_4032;[physician.GetTitledFirstName]能让我健健康康的就够了。;;;;;;;;;;;;x
 EVTOPTC_RIP_4032;可惜了那些钱呐。;;;;;;;;;;;;x
 EVTOPTD_RIP_4032;这个[GetRootFromInsult]！就晓得给我丢脸！;;;;;;;;;;;;x
 EVTOPTD_RIP_4032_TOOLTIP;§Y[physician.GetTitledFirstName]§!和你，作为[physician.GetHerHis]赞助人，成为了学术共同体的笑柄。\n;;;;;;;;;;;;x
@@ -2745,7 +2735,6 @@ alert_close_gates_delayed;假如有瘟疫威胁你的宫廷，你可以关闭城
 shut_the_gates_desc;瘟疫爆发中，统治者可以§Y关上城门§!，防止与平民接触，以期不被感染。;;;;;;;;;;;;x
 shut_the_gates_info_tooltip;§Y[Root.GetBestName]§!把[Root.GetHerselfHimself]和[Root.GetHerHis]廷臣一起隔离了\n;;;;;;;;;;;;x
 open_the_gates_info_tooltip;§Y[Root.GetBestName]§!打开城门，走出隔离，但一段时间内平民会记得[Root.GetHerHis]不管不顾。\n;;;;;;;;;;;;x
-EVTDESC_RIP_29801;在[From.GetHerHis]弥留之际，[GetFromRelation]告诉我，我的习气实在太像我的[GetReincarnationRelation]，甚至到了怪诞可怕的程度。;;;;;;;;;;;;x
 EVTOPTA_RIP_29801;我知道[Root.Reincarnation.GetSheHe]有记日记的习惯。;;;;;;;;;;;;x
 EVTOPTA_RIP_29801_TOOLTIP;花更多时间了解[Root.Reincarnation.GetFirstName]。;;;;;;;;;;;;x
 EVTOPTB_RIP_29801;[From.GetFirstName]最终精神错乱了。;;;;;;;;;;;;x
@@ -2772,7 +2761,6 @@ recruit_prisoner_named;招募[Root.GetTitledFirstName];;;;;;;;;;;;x
 EVTDSC_RIP_29700;背信弃义的[FromFrom.GetBestName]已经释放了我的[GetFromRelation]，[From.GetTitledFirstName]，但要求[From.GetPossPronoun]服务。;;;;;;;;;;;;x
 EVTOPTA_RIP_29700;失望但能理解……;;;;;;;;;;;;x
 EVTTITLE91241;腐化的代价;;;;;;;;;;;;x
-EVTDESC91241;统治[FromFrom.PrimaryTitle.GetName]的家族，已经被来自[From.GetOnlyDynastyName]家族狂热而穷困的部落民推翻了。之前的封臣可以抓住这个机会宣布独立……;;;;;;;;;;;;x
 EVTOPTA91241;傲慢的蠢货……;;;;;;;;;;;;x
 CREATE_BARON_DESC;提拔一名合适的低阶廷臣或当地人作为封臣治理这片地产。;;;;;;;;;;;;x
 ALL_VASSALS_INSANE_LAW;§Y25§! 月内，所有封臣好感降低 §R-5§!。§Y（实行荒谬法律）§!\n;;;;;;;;;;;;x
@@ -2954,7 +2942,6 @@ CHAR_STATUS_IN_SECLUSION;§Y$NAME$§!及其宫廷正处于隔离中;;;;;;;;;;;;x
 RULES_ACHIEVEMENT_REQUIRE_IRONMAN;游戏必须运行在§Y铁人§!模式里;;;;;;;;;;;;x
 RULES_ACHIEVEMENT_REQUIRE_RULES;没有§Y游戏规则§!禁止成就;;;;;;;;;;;;x
 RULES_ACHIEVEMENT_REQUIRE_NOMOD;没有影响游戏文件校验的§Y用户修改§!正在生效;;;;;;;;;;;;x
-RULES_ACHIEVEMENT_REQUIRE_SAVEOK;没有修改过游戏存档;;;;;;;;;;;;x
 RULES_ACHIEVEMENT_REQUIRE_STEAM;§YSteam§!必需运行中;;;;;;;;;;;;x
 ACHIEVEMENT_RULE_OPTION_SEPARATOR;$RULE$：$OPTION$;;;;;;;;;;;;x
 GAME_RULES_RESET_VALUES;§Y重置规则§!\n将全部规则重置为默认值。;;;;;;;;;;;;x
@@ -3140,7 +3127,6 @@ recently_burnt_the_land;新近掠夺;;;;;;;;;;;;x
 burnt_the_land;被蹂躏的土地;;;;;;;;;;;;x
 EVTDESC_HL_4813;随着[From.GetName]城墙的轰然倒塌，你的部落蜂拥而入。他们热衷于掠夺，但是不会立刻动手，除非你，他们的[Root.GetTitle]，允许他们这么做。;;;;;;;;;;;;x
 EVTOPTA_HL_4813;把战利品统统交给我，我们来分东西！;;;;;;;;;;;;x
-EVTOPTB_HL_4813;你们所看到的所有东西都是你们的。;;;;;;;;;;;;x
 EVTDESC_HL_4814;你的部落对[target_location.GetName]烧杀掳掠，使得省份中的一块地产被完全夷为平地。我们的牧场将在断壁残垣中重新建立——我们的马儿一定会喜欢这里的！;;;;;;;;;;;;x
 EVTOPTA_HL_4814;我们将用敌人的血肉浇灌这片田野。;;;;;;;;;;;;x
 throne_of_skulls;头骨王座;;;;;;;;;;;;x
@@ -3293,7 +3279,6 @@ EVTDESC_RIP_11053_MAZDAN_DOCTOR;你收到消息说一个附近的小村庄中居
 EVTOPTX_RIP_11053;很好的人选，出钱给[recruited_physician_target.GetHerHim]并且邀请[recruited_physician_target.GetHerHim]来到宫廷！;;;;;;;;;;;;x
 EVTDESC_RIP_11053_MANICHEAN_MERCHANT;一名丝路商人最近来到[Root.Capital.GetName]。你的卫兵报告说，在提供免费医学检查的掩护下，这个「[recruited_physician_target.GetFirstName]」利用此机会传播摩尼福音！卫兵因为[recruited_physician_target.GetHerHis]作死行为把[recruited_physician_target.GetHerHim]关了起来，但也许[recruited_physician_target.GetSheHe]可以成为你的医师？;;;;;;;;;;;;x
 EVTOPTY_RIP_11053;释放[recruited_physician_target.GetHerHim]并且把[recruited_physician_target.GetHerHim]带到宫廷！;;;;;;;;;;;;x
-jewish_courtier_tooltip;一个名为§Y[jewish_courtier.GetFullName]§!的犹太廷臣来到你的宫廷。;;;;;;;;;;;;x
 EVTDESC_RIP_4100;一个囚犯被押解到你面前。他显然是个传教士，一直在[origin_realm_of_missionary_physician_target.Realm.GetName]给你的人民传播异端信仰！他声称带着[missionary_physician_target.Religion.GetHighGodName]的使命而来，并且照顾附近村庄的病患。该怎么对待这个误入歧途的[missionary_physician_target.Religion.GetName]信徒？;;;;;;;;;;;;x
 EVTOPTA_RIP_4100;一位治疗者？他可以为我私人服务。;;;;;;;;;;;;x
 EVTOPTB_RIP_4100;我们不能允许[missionary_physician_target.Religion.GetName]的人出现在领地里。烧死他！;;;;;;;;;;;;x
@@ -3317,7 +3302,7 @@ pilgrims_inn_1;朝圣者客栈;;;;;;;;;;;;x
 pilgrims_inn_building_desc;通过建设专门容纳朝圣者的客栈，我们向世界证明我们关心他们虔诚的追求。;;;;;;;;;;;;x
 medical_academy_1;医学院;;;;;;;;;;;;x
 medical_academy_building_desc;下一代学者们正在医学院中接受培训。谁知道呢，下一代人也许就能完全治愈普通感冒？;;;;;;;;;;;;x
-TRIBAL_CUSTOM;[From.GetOnlyDynastyName] - [From.Capital.County.GetName];;;;;;;;;;;;x
+TRIBAL_CUSTOM;[title_name_target.GetOnlyDynastyName] - [title_name_target.Capital.County.GetName];;;;;;;;;;;;x
 PROVINCE_EXTEND_DESC;§Y打开拓展省份界面§!;;;;;;;;;;;;x
 PROVINCE_EXTEND_DESC_LONG;拓展界面以显示额外的地产与本地地形。;;;;;;;;;;;;x
 heir_text_default;即使对于认识[GetHerHim]的人来说也是一个谜团，[GetHerHis]可能毁灭或者拯救我们;;;;;;;;;;;;x
@@ -3427,7 +3412,6 @@ HAS_NEWLY_ACQUIRED_TITLES;新近取得头衔;;;;;;;;;;;;x
 DONT_HAS_NEWLY_ACQUIRED_TITLES;新近未取得头衔;;;;;;;;;;;;x
 NOT_ALLOWED_TO_PLAY_WITHOUT_DLC;没有§Y$DLC$§!DLC，不能选择这个角色进行游戏！;;;;;;;;;;;;x
 prosperity_5_year;见证领地繁荣;;;;;;;;;;;;x
-desc_prosperity_5_year;见证领地繁荣的野心将会在此修正消失时达成;;;;;;;;;;;;x
 RETURNING_FAVOR_TO_ABSTAINER;$WHO1|Y$想还人情给$WHO2|Y$，但目前按照本心投票，因为$WHO2|Y$弃权了;;;;;;;;;;;;x
 EMPTY_VOTER_SEAT;§Y空席位§!;;;;;;;;;;;;x
 EMPTY_VOTER_SEAT_EXPLANATION;空的席位视为反对票。;;;;;;;;;;;;x
@@ -3952,9 +3936,7 @@ CONTINUE_FAILED_TITLE;无法继续！;;;;;;;;;;;;x
 CONTINUE_FAILED_DESC;无法载入最新的存档。这可能是如下原因造成的：\n* 存档损坏\n* 存档所需的DLC未被激活\n* 存档与当前版本不兼容\n* 你正在玩一个mod，该mod使用自己设定的文件地址。\n* 存档是铁人模式存档，而你的游戏已经改过了，无法获取成就。\n\n如果原因是铁人模式，你依然可以通过加载游戏菜单加载游戏。;;;;;;;;;;;;x
 ANTIPOPE_POPE_VASSAL;§R当教宗是你的封臣时不能创建对立教宗§!;;;;;;;;;;;;x
 INCREASE_CAMPAIGN_FUND;增加竞选经费;;;;;;;;;;;;x
-INCREASE_CAMPAIGN_FUND_DESC;点击增加10竞选经费，SHIFT+点击增加50，CTRL+点击增加100。;;;;;;;;;;;;x
 DECREASE_CAMPAIGN_FUND;减少竞选经费;;;;;;;;;;;;x
-DECREASE_CAMPAIGN_FUND_DESC;点击降低竞选经费10，SHIFT+点击降低50，CTRL+点击降低100。;;;;;;;;;;;;x
 FROM_CURRENT_POPULATION;来自当前人口;;;;;;;;;;;;x
 FROM_UNUSED_MANPOWER;来自没有使用的人力;;;;;;;;;;;;x
 RULER_CANNOT_MOVE_CAPITAL_CAPITAL_SIEGE;当其被围攻的时候，你不能移动你的首都。;;;;;;;;;;;;x
@@ -3968,7 +3950,6 @@ AUSTRASIA_ADJ;奥斯特拉西亚;;;;;;;;;;;;x
 EVTNAME62932;奥斯特拉西亚王国;;;;;;;;;;;;x
 EVTDESC62932;随着加洛林王朝在中法兰克王国统治的结束，此王国再次更普遍地被称呼为其旧名奥斯特拉西亚。;;;;;;;;;;;;x
 EVTNAME534;对[Root.GetBaseName]的[From.Religion.GetCrusadeName];;;;;;;;;;;;x
-EVTDESC534_converted;目标[Root.GetBaseName]的[From.Religion.GetCrusadeName]对于[New.GetTitledName]的战争由于[New.GetTitledName]转为[From.Religion.GetName]信仰而结束。[From.Religion.GetRandomGodNameCap]必然无比满意！;;;;;;;;;;;;x
 EVTDESC534_coup;目标[Root.GetBaseName]的[From.Religion.GetCrusadeName]对阵[New.GetTitledName]，结果[New.GetSheHe]被推翻。[From.Religion.GetGroupName]的信徒将会失望。;;;;;;;;;;;;x
 vassal_wars_law;封臣宣战;;;;;;;;;;;;x
 vassal_wars_law_desc;封臣宣战;;;;;;;;;;;;x
@@ -4008,3 +3989,5 @@ INSULT_RABID;狂犬病人;;;;;;;;;;;;x
 INSULT_PUTRID;卑劣的;;;;;;;;;;;;x
 INSULT_WITHERING;难堪的;;;;;;;;;;;;x
 INSULT_POX_RIDDEN;瘟疫缠身的;;;;;;;;;;;;x
+DEATH_EXECUTION_EATEN_UNKNOWN;被吞食;;;;;;;;;;;;x
+DEATH_EXECUTION_EATEN_UNKNOWN_NO_KILLER;被吞食;;;;;;;;;;;;x

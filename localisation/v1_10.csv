@@ -135,18 +135,12 @@ NUM_TITLE_REALM_PROVS_LESS;小于§Y$TITLE$§! 领土内的§Y$NUM$§! 伯爵领
 NUM_TITLE_REALM_PROVS_MORE;§Y$TITLE$§! 领土内至少有§Y$NUM$§! 伯爵领;;;;;;;;;;;;x
 d_norse_pagan_reformed;英雄王国;;;;;;;;;;;;x
 d_norse_pagan_reformed_adj;诺斯;;;;;;;;;;;;x
-d_baltic_pagan_reformed;洛姆瓦教会;;;;;;;;;;;;x
 d_baltic_pagan_reformed_adj;洛姆瓦教;;;;;;;;;;;;x
-d_slavic_pagan_reformed;斯拉夫多神教教会;;;;;;;;;;;;x
 d_slavic_pagan_reformed_adj;斯拉夫多神教;;;;;;;;;;;;x
-d_tengri_pagan_reformed;长生天教会;;;;;;;;;;;;x
 d_tengri_pagan_reformed_adj;长生天;;;;;;;;;;;;x
-d_finnish_pagan_reformed;索米多神教教会;;;;;;;;;;;;x
 d_finnish_pagan_reformed_adj;索米多神教;;;;;;;;;;;;x
-d_aztec_pagan_reformed;阿兹特克多神教教会;;;;;;;;;;;;x
 d_aztec_pagan_reformed_adj;阿兹特克信仰;;;;;;;;;;;;x
-d_west_african_pagan_reformed;西非泛灵教教会;;;;;;;;;;;;x
-d_west_african_pagan_reformed_adj;西非泛灵教;;;;;;;;;;;;x
+d_west_african_pagan_reformed_adj;非洲泛灵教;;;;;;;;;;;;x
 e_wendish_empire;文德帝国;;;;;;;;;;;;x
 e_wendish_empire_adj;文德;;;;;;;;;;;;x
 e_tartaria;鞑靼;;;;;;;;;;;;x
@@ -198,7 +192,6 @@ NOT_ENOUGH_AUTHORITY_TO_REFORM_RELIGION;§R§Y$RELIGION$§R的宗教权威至少
 NOT_ENOUGH_HOLY_SITES_TO_REFORM_RELIGION;§R你当前只控制着§Y$CURRENT$§R个§Y$RELIGION$§R圣地，而你至少需要§Y$NEED$§!个;;;;;;;;;;;;x
 NOT_ENOUGH_PIETY_TO_REFORM_RELIGION;§R我们需要至少§Y$NEED$§R$PIETYNAME$§!;;;;;;;;;;;;x
 REFORM_RELIGION;§Y对 $RELIGION$ 信仰进行改革§!;;;;;;;;;;;;x
-REFORM_RELIGION_DESC;改革$RELIGION$会将其变成有宗教领袖的有组织宗教。除非你已经控制了所有的圣地，这样做需要§Y$AUTHORITY_REQ$§!宗教权威以及控制§Y$HOLY_SITES_REQ$§!处$RELIGION$圣地。这将花费你§R$PIETY_COST$§![Player.Religion.GetPietyName]。改革原始宗教的统治者可以使用圣战的宣战理由，允许使用大部分继承法，不会再在和平期间丢失威望，有异心的封臣也更少给你找麻烦。但是，他们也会失去在他们领土内宗教敌人的防御性补给上限惩罚，封臣们也会对过长时间无正当理由调集他们的征召兵而感到不满。;;;;;;;;;;;;x
 title_courtesan;侍妾;;;;;;;;;;;;x
 REVOLT_SHARED_TICKING_WS_DESC;$PERC$：叛军已经控制了他们所有的地盘;;;;;;;;;;;;x
 REFORMED;改革;;;;;;;;;;;;x
@@ -210,7 +203,6 @@ d_grodno;格罗德诺;;;;;;;;;;;;x
 d_grodno_adj;格罗德诺;;;;;;;;;;;;x
 d_jazira;贾兹拉;;;;;;;;;;;;x
 d_jazira_adj;贾兹拉;;;;;;;;;;;;x
-d_hlynov_adj;乌格拉;;;;;;;;;;;;x
 d_armenia_minor_adj;奇里乞亚;;;;;;;;;;;;x
 d_dregovichi;德列戈维奇人;;;;;;;;;;;;x
 d_radimichi;拉迪米奇人;;;;;;;;;;;;x
@@ -251,7 +243,7 @@ EVTOPTA62931;我喜欢！;;;;;;;;;;;;x
 ANY_CONSORT_STARTS;任何一个侍妾;;;;;;;;;;;;x
 CONSORT_IRO_1;是;;;;;;;;;;;;x
 CONSORT_IRO_2;的侍妾，并没有真正的结婚，但她生下来的孩子也有合法继承权。;;;;;;;;;;;;x
-TAKECONSORTEFFECT;§Y$WHO$§!成为了§Y$SPOUSE$§!的侍妾。\n;;;;;;;;;;;;x
+TAKECONSORTEFFECT;§Y$SPOUSE$§!成为了§Y$WHO$§!的侍妾。\n;;;;;;;;;;;;x
 REMOVECONSORTEFFECT;§Y$CONSORT$§! 不再是 §Y$WHO$§!的侍妾.\n;;;;;;;;;;;;x
 IS_PARENT_REL;不是异端;;;;;;;;;;;;x
 IS_NOT_PARENT_REL;是异端;;;;;;;;;;;;x
@@ -275,36 +267,15 @@ AIREASON_CONSORT_CLOSE_RELATIVE;是我的近亲;;;;;;;;;;;;x
 AIREASON_CONSORT_TOO_LOW_RANK;§Y[GetTitledFirstName]§! 作为一个出身名门的侍妾地位太低了;;;;;;;;;;;;x
 AIREASON_NO_WAR_AGAINST_REL_BRETHREN;不能帮别的宗教的敌人去攻打和自己同宗教的兄弟;;;;;;;;;;;;x
 INTERACTION_CONSORTS_MUST_MARRY_LIEGE;侍妾只能跟她的领主结婚;;;;;;;;;;;;x
-INTERACTION_IS_VALID_CONSORT;§Y[ThirdPartyCharacter.GetTitledFirstName]§! 可以被纳作侍妾;;;;;;;;;;;;x
 INTERACTION_CANT_DOW_PREPARED_INVADER;§Y[Recipient.GetTitledFirstName]§!没有准备入侵你;;;;;;;;;;;;x
 INTERACTION_PREP_INV_NO_TARGET;没有找到§Y[Recipient.GetTitledFirstName]§!控制着§Y$MIN$§!到§Y$MAX$§!个之间领地的王国作为有效目标;;;;;;;;;;;;x
 INTERACTION_REQUIRES_RECIPIENT_NOT_DE_JURE_VASSAL;§Y[Recipient.GetTitledFirstName]§! 不是 [Actor.Religion.GetName]一个法理上的封臣;;;;;;;;;;;;x
-INTERACTION_PAGANS_CANNOT_DEMAND_CONVERSION;§Y[Actor.GetTitledFirstName]§!不是一个未经改革的原始宗教信徒;;;;;;;;;;;;x
 INTERACTION_PREP_INV_REQ_PRESTIGE;§Y[Actor.GetTitledFirstName]§!至少要有 §Y$PRESTIGE$§! 威望;;;;;;;;;;;;x
 INTERACTION_PREP_INV_ATT_HOLDING_LIMIT;§Y[Actor.GetTitledFirstName]§!在此领地内不得超过 §Y$NUM$§! 个地产;;;;;;;;;;;;x
 REL_CONSORT;侍妾;;;;;;;;;;;;x
 CH_CONSORT;成为$WHO$的侍妾;;;;;;;;;;;;x
 CH_REMOVE_CONSORT;不再是$WHO$的侍妾。;;;;;;;;;;;;x
 POTENTIAL_TARGET;潜在目标;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_TITLE;纳妾;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_DESC;找一个女人当你的侍妾。;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_ACCEPT_SETUP;同意纳妾的请求;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetTitledName]§!已经同意让§Y[ThirdPartyCharacter.GetTitledName]§!成为§Y[Actor.GetTitledName]§!的侍妾。;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_DECLINE_SETUP;娶妾的请求被拒绝了;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_DECLINE_LOG;§Y[Recipient.GetTitledName]§!已经拒绝让§Y[ThirdPartyCharacter.GetTitledName]§!成为§Y[Actor.GetTitledName]§!的侍妾的请求。;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_OFFER;§Y[Actor.GetTitledName]§!提议，纳§Y[Recipient.GetTitledName]§!为他的侍妾。;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_LETTER;\n\n§Y[ThirdPartyCharacter.GetBestName]§!的美丽与优雅在大陆上广为人知。我们提议，赐予她成为我侍妾的荣誉。;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_0;在§Y[Recipient.GetTitledName]§!的宫廷里选择一位女性作为你的侍妾。;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_1;让[ThirdPartyCharacter.GetBestName]成为你的侍妾。;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_2;因为她是你的囚徒，她无法拒绝。;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_3;§Y[Actor.GetBestName]§!会得到 §G$PRESTIGE$§! 威望，通过纳一个贵妇§Y[ThirdPartyCharacter.GetBestName]§!作为侍妾。;;;;;;;;;;;;x
-DISMISS_CONSORT_INTERACTION_TITLE;将她打入冷宫;;;;;;;;;;;;x
-DISMISS_CONSORT_INTERACTION_DESC;将你的侍妾打入冷宫;;;;;;;;;;;;x
-DISMISS_CONSORT_INTERACTION_LONG_DESC;侍妾没有啥特权，当你玩腻了就可以将她搁在一边。;;;;;;;;;;;;x
-DISMISS_CONSORT_INTERACTION_ACCEPT_SETUP;将她打入冷宫;;;;;;;;;;;;x
-DISMISS_CONSORT_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W 将他的侍妾 §Y[Recipient.GetBestName]§W搁一边去了;;;;;;;;;;;;x
-DISMISS_CONSORT_INTERACTION_OFFER;[Actor.GetBestName]已经把你搁一边了，你不再是他的侍妾！;;;;;;;;;;;;x
-DISMISS_CONSORT_INTERACTION_LETTER;[Recipient.GetFirstName]，你在旁边实在让我心烦，收拾包袱马上滚蛋吧。\n\n[Actor.GetFirstName];;;;;;;;;;;;x
 opinion_set_aside;搁置;;;;;;;;;;;;x
 opinion_evil_tyrant;邪恶的暴君;;;;;;;;;;;;x
 d_zoroastrian;祆教教会;;;;;;;;;;;;x
@@ -374,9 +345,8 @@ tengri_pagan_reformed;长生天;;;;;;;;;;;;x
 baltic_pagan_reformed;洛姆瓦教;;;;;;;;;;;;x
 finnish_pagan_reformed;索米多神教;;;;;;;;;;;;x
 aztec_reformed;阿兹特克多神教;;;;;;;;;;;;x
-west_african_pagan;西非泛灵教;;;;;;;;;;;;x
-west_african_pagan_reformed;西非泛灵教;;;;;;;;;;;;x
-TT_NOT_UNREFORMED_PAGAN;是改革过的原始宗教信徒\n;;;;;;;;;;;;x
+west_african_pagan;非洲泛灵教;;;;;;;;;;;;x
+west_african_pagan_reformed;非洲泛灵教;;;;;;;;;;;;x
 REBELS;叛军;;;;;;;;;;;;x
 GOD_PERUN;佩龙;;;;;;;;;;;;x
 GOD_VELES;维列斯;;;;;;;;;;;;x
@@ -477,7 +447,7 @@ PROV930;巴尔;;;;;;;;;;;;x
 PROV931;莫勒;;;;;;;;;;;;x
 PROV932;修斯特;;;;;;;;;;;;x
 PROV933;罗斯拉夫尔;;;;;;;;;;;;x
-PROV934;列佩利;;;;;;;;;;;;x
+PROV934;Lukoml;;;;;;;;;;;;x
 PROV935;阿马尔菲;;;;;;;;;;;;x
 PROV1039;卢瓦尔河;;;;;;;;;;;;x
 PROV1040;卢瓦尔河;;;;;;;;;;;;x
@@ -502,9 +472,7 @@ PROV1058;多瑙河;;;;;;;;;;;;x
 PROV1059;多瑙河;;;;;;;;;;;;x
 PROV1060;多瑙河;;;;;;;;;;;;x
 PROV1061;多瑙河;;;;;;;;;;;;x
-PROV1062;北里海;;;;;;;;;;;;x
 PROV1063;多瑙河;;;;;;;;;;;;x
-PROV1064;南里海;;;;;;;;;;;;x
 PROV1065;多瑙河;;;;;;;;;;;;x
 PROV1066;多瑙河;;;;;;;;;;;;x
 PROV1067;多瑙河;;;;;;;;;;;;x
@@ -526,7 +494,7 @@ PROV1082;德维纳河;;;;;;;;;;;;x
 PROV1083;涅瓦河;;;;;;;;;;;;x
 PROV1084;斯维里河;;;;;;;;;;;;x
 PROV1085;沃尔霍夫河;;;;;;;;;;;;x
-PROV1086;伊尔门湖;;;;;;;;;;;;x
+PROV1086;伊尔门;;;;;;;;;;;;x
 PROV1087;洛瓦季河;;;;;;;;;;;;x
 PROV1088;顿河;;;;;;;;;;;;x
 PROV1089;顿河;;;;;;;;;;;;x
@@ -545,15 +513,13 @@ PROV1101;伏尔加河;;;;;;;;;;;;x
 PROV1102;奥卡河;;;;;;;;;;;;x
 PROV1103;伏尔加河;;;;;;;;;;;;x
 PROV1104;奥卡河;;;;;;;;;;;;x
-PROV1105;伏尔加河;;;;;;;;;;;;x
-PROV1106;伏尔加河;;;;;;;;;;;;x
 PROV1107;加龙河;;;;;;;;;;;;x
 PROV1108;加龙河;;;;;;;;;;;;x
 c_bar_adj;巴鲁瓦;;;;;;;;;;;;x
 c_more_adj;莫勒;;;;;;;;;;;;x
 c_tjust_adj;修斯特;;;;;;;;;;;;x
 c_roslavl_adj;罗斯拉夫尔;;;;;;;;;;;;x
-c_lepiel_adj;列佩利;;;;;;;;;;;;x
+c_lepiel_adj;Lukomlian;;;;;;;;;;;;x
 c_yaroslavl_adj_finno_ugric;梅尔杨;;;;;;;;;;;;x
 b_commercy;科梅尔西;;;;;;;;;;;;x
 b_saintdizier;圣迪济耶;;;;;;;;;;;;x
@@ -636,12 +602,9 @@ muslim_county_conquest_desc;穆斯林可以花费§Y50§!虔诚而无需特殊�
 viking_invasion_desc;诺斯原始宗教徒能宣布意图，将一个足够强大的目标在指定法理王国内所持有的全部领土作为入侵对象。这将吸引来无数冒险者让他们的军队数量膨胀，但他们必须在两年内发动攻击。;;;;;;;;;;;;x
 pagan_holy_war_desc;改革原始宗教信徒可以花费 §Y100§! $PIETYNAME$，用这个宣战理由来夺取一个法理公国内一名异教徒持有的全部头衔。;;;;;;;;;;;;x
 CANNOT_PLAY_PAGAN_WITHOUT_DLC;你没有安装逝往神灵DLC，不能使用原始宗教或祆教国家;;;;;;;;;;;;x
-NOT_ALLOWED_PAGAN;没有逝往神灵DLC，你不能扮演§Y原始宗教或祆教§!！;;;;;;;;;;;;x
-NOT_ALLOWED_PAGAN_MP;§Y$PLAYER$§!没有逝往神灵DLC，不能扮演§Y原始宗教或祆教§!角色;;;;;;;;;;;;x
-RD_NOT_PLAYABLE_WITHOUT_PAGAN_DLC;没有安装逝往神灵DLC 不能使用原始宗教和祆教;;;;;;;;;;;;x
 PREPARE_INVASION_INTERACTION_TITLE;准备入侵;;;;;;;;;;;;x
 PREPARE_INVASION_INTERACTION_DESC;准备入侵一个独立领主;;;;;;;;;;;;x
-PREPARE_INVASION_INTERACTION_LONG_DESC;光荣的诺斯信仰领主一生中只有一次机会在宣战前准备入侵。在准备入侵的两年里，会有大量的甘于冒险投机之徒汇聚在你的战旗之下，你的目标越富有强大人数就在你旗下之人就越多。但若你在两年之后没有发动入侵，你将会为此颜面扫地。;;;;;;;;;;;;x
+PREPARE_INVASION_INTERACTION_LONG_DESC;光荣的领主一生中只有一次机会在宣战前准备入侵。在准备入侵的两年里，会有大量的甘于冒险投机之徒汇聚在你的战旗之下，你的目标越富有强大人数就在你旗下之人就越多。但若你在两年之后没有发动入侵，你将会为此颜面扫地。;;;;;;;;;;;;x
 PREPARE_INVASION_INTERACTION_ACCEPT_SETUP;入侵已准备好;;;;;;;;;;;;x
 PREPARE_INVASION_INTERACTION_ACCEPT_LOG;§Y[Actor.GetTitledName]§!正准备入侵§Y[Recipient.GetTitledName]§!;;;;;;;;;;;;x
 PREPARE_INVASION_INTERACTION_OFFER;[Actor.GetTitledName]正在准备入侵你！;;;;;;;;;;;;x
@@ -730,14 +693,12 @@ looted_modifier;被掠夺;;;;;;;;;;;;x
 CARRYING_LOOT_INSTANT;携带战利品;;;;;;;;;;;;x
 LOOT_DESC;这支舰队携带 §Y$LOOT$§!/§Y$MAX$§!¤ 战利品。移动到友方港口以使这些钱进入国库。;;;;;;;;;;;;x
 LOOTING_INSTANT;掠夺中;;;;;;;;;;;;x
-CANT_LOOT_SHORT;无法掠夺;;;;;;;;;;;;x
 LOOTING_TONAVY_DESC;这个单位掠夺的金钱将会运到在$SEA$的舰队上。舰队必须返航才能取得金钱。;;;;;;;;;;;;x
 LOOTING_TOOWNER_DESC;这个单位掠夺的金钱将会直接增加它所有者的财富，因为它在所有者领地的边境。;;;;;;;;;;;;x
 LOOTING_TARGET_SHORT;拥有相邻省份或者相邻海域/河流中有空载的舰队;;;;;;;;;;;;x
 LOOTING_NOSHIP;省份没有与单位所有者的领土相连或者附近没有友军船只。;;;;;;;;;;;;x
 LOOTING_EMPTY;这个省份的所有战利品现在被要塞保护着。;;;;;;;;;;;;x
 LOOTING_EMPTY_SHORT;省份有不处于要塞保护的战利品;;;;;;;;;;;;x
-LOOTING_LOOT;这个省份每 §Y$DAYS$§! 天可以被掠夺 §Y$LOOT$§!¤。这些钱将会由所有单位平分。;;;;;;;;;;;;x
 LOOTING_UNIT_LAST;这个单位目前掠夺了 §Y$LOOT$§!;;;;;;;;;;;;x
 LOOTING_NOUNIT;你没有单位驻扎在省份;;;;;;;;;;;;x
 LOOTING_NOUNIT_SHORT;有一个单位驻扎在省份;;;;;;;;;;;;x
@@ -838,13 +799,7 @@ d_slesvig_adj_german;石勒苏益格;;;;;;;;;;;;x
 d_meath_adj_north_germanic;都柏林;;;;;;;;;;;;x
 k_moravia;大摩拉维亚;;;;;;;;;;;;x
 k_moravia_adj;摩拉维亚;;;;;;;;;;;;x
-PROV622;突厥斯坦;;;;;;;;;;;;x
 PROV629;科奇卡拉;;;;;;;;;;;;x
-d_turkestan;突厥斯坦;;;;;;;;;;;;x
-d_turkestan_adj;突厥斯坦;;;;;;;;;;;;x
-k_turkestan;突厥斯坦;;;;;;;;;;;;x
-k_turkestan_adj;突厥斯坦;;;;;;;;;;;;x
-c_turkestan_adj;突厥斯坦;;;;;;;;;;;;x
 commission_runestone;委托制作一块符石;;;;;;;;;;;;x
 commission_runestone_desc;委托制作一块符石来记录你的功绩或者对已故双亲的记忆。一生只能做一次，但是将对你一时更有利。;;;;;;;;;;;;x
 runestone_carved;工匠开始对符石雕刻和上色。;;;;;;;;;;;;x
@@ -1510,20 +1465,13 @@ sunni_DESC;伊斯兰逊尼派是该宗教至今为止传播最广的形式。在
 zikri_DESC;伊斯兰诵经派在游戏中是一个逊尼派的异端。诵经派是阿克哈·扎曼·哈兹拉特·赛义德·穆罕默德·贾普里伊玛目（马赫迪伊玛目）的追随者。;;;;;;;;;;;;x
 shiite_DESC;什叶派Shi'a是Shi'atul Ali的缩写，又称为阿里派，他们拒绝承认第一个哈里发艾布·伯克尔而拥护阿里。在伊斯兰两大派系中什叶派较少坚持正统，并且接受死去的伊玛目为生者代祷的理念。伊斯兰什叶派的正式首领是（什叶派）哈里发。;;;;;;;;;;;;x
 bektashi_DESC;拜克塔什教团是一个苏菲神秘主义教团，中心信条是Wahdat-ul-Wujood——即安拉-穆罕默德-阿里合一。在游戏中它被认为是一种异端。;;;;;;;;;;;;x
-druze_DESC;德鲁兹派源自伊斯兰什叶派的伊斯玛仪教派，在亚伯拉罕宗教的基础上又吸收了诺斯替主义和新柏拉图主义的特点。;;;;;;;;;;;;x
-norse_pagan_reformed_DESC;改革的诺斯原始宗教信仰有一本如尼字母写成的圣书，包括创世、诸神、诸神的黄昏以及神秘咒语「galdrs」等章节。它的教会有一套标准化的礼拜仪式和以英雄王为首领的正规教会结构。英雄王相当于伊斯兰教的哈里发，对信徒来说既是世俗的统治者又是宗教的首领。;;;;;;;;;;;;x
-tengri_pagan_reformed_DESC;改革的长生天信仰有一本用鄂尔浑符文写成的圣书，一套标准化的礼拜仪式和以长生天大祭司为首领的正规教会结构，首领可以被世俗统治者附庸。;;;;;;;;;;;;x
+druze_DESC;德鲁兹派源自伊斯兰什叶派的伊斯玛仪教派，但是在那些亚伯拉罕宗教的基础上又吸收了诺斯替主义和新柏拉图主义的特点。;;;;;;;;;;;;x
 tengri_pagan_DESC;长生天信仰是欧亚大草原上的游牧族群，特别是突厥和蒙古游牧民信奉的宗教。主神是创世天神腾格里大神。这一宗教具有鲜明的萨满教和泛灵教特征。;;;;;;;;;;;;x
-baltic_pagan_reformed_DESC;改革的波罗的海信仰有一本圣书，包括创世神话、诸神章节以及一本预言书。该教会有一套标准化的礼拜仪式以及由季耶瓦斯神的大祭司为首领的正规教会结构，首领可以被世俗统治者附庸。;;;;;;;;;;;;x
 baltic_pagan_DESC;波罗的海原始宗教是一种多神信仰，主神是天神季耶瓦斯。其他主神包括雷电之神佩尔库纳斯，和日耳曼人的雷神索尔以及斯拉夫人的雷神佩龙十分类似，其他重要神明包括太阳和繁殖女神绍莱，道加瓦和墨涅斯。;;;;;;;;;;;;x
-finnish_pagan_reformed_DESC;改革的芬兰信仰有一本圣书，包括创世神话、诸神相关的章节以及一本神秘咒语书。该教会有一套标准化的礼拜仪式以及由乌戈大祭司为首领的正规教会结构，首领可以被世俗统治者附庸。;;;;;;;;;;;;x
 finnish_pagan_DESC;芬兰原始宗教多种多样，不同部落和地区变化很大。它具有萨满教和泛灵论的特征，崇拜很多神灵，包括乌戈/佩尔克雷、库乌、以及东部信仰的大地女神马斯托尔-阿瓦。;;;;;;;;;;;;x
-aztec_reformed_DESC;改革的阿兹特克信仰有一本真正的圣书，一套标准化的礼拜仪式和以专门的大祭司为首领的正规教会结构，首领可以被世俗统治者附庸、;;;;;;;;;;;;x
 aztec_DESC;阿兹特克信仰的创世神话里充满着献祭——为了让太阳保持运转甚至诸神也要被献祭。这反映在许多该宗教的节日和仪式里的大规模人祭上。主神包括战神人祭之神维齐洛波奇特利Huitzilopochtli，雷神雨神特拉洛克Tlaloc，火神修提库特里Xiuhtecuhtli，剥皮之主西佩托堤克Xipe Totec，以及智慧之神羽蛇神凯扎尔科亚特尔Quetzalcoatl。;;;;;;;;;;;;x
-slavic_pagan_reformed_DESC;改革的斯拉夫信仰有一本圣书，包括创世神话、诸神章节以及一本预言书。该教会有一套标准化的礼拜仪式以及由佩龙大祭司为首领的正规教会结构，首领可以被世俗统治者附庸。;;;;;;;;;;;;x
 slavic_pagan_DESC;斯拉夫异教信仰是一种多神信仰，主神是雷电之神佩龙，类似日耳曼人的雷神索尔。其他重要的神灵包括大地水和冥界之神维列斯，火神斯瓦洛格，繁衍植物生长战争与丰收之神亚利洛以及斯维托维德。此外许多部落崇拜当地的神灵。;;;;;;;;;;;;x
-west_african_pagan_reformed_DESC;改革的西非泛灵教是许多种流行信仰的熔合，有一本圣书记述了创世神话、诸灵、动物图腾和诸神的传说，该教会有一套标准化的礼拜仪式以及由大祭司（或者女祭司）为首领的正规教会结构，首领可以被世俗统治者附庸。;;;;;;;;;;;;x
-west_african_pagan_DESC;西非泛灵教是对撒哈拉沙漠以南的西非部落各种原始宗教的泛称。以祖先崇拜、泛灵论、图腾崇拜以及萨满教为主，除此还有很多很多的神。;;;;;;;;;;;;x
+west_african_pagan_DESC;非洲泛灵教是对撒哈拉沙漠以南的非洲部落各种原始宗教的泛称。以祖先崇拜、泛灵论、图腾崇拜以及萨满教为主，除此还有很多很多的神。;;;;;;;;;;;;x
 zoroastrian_DESC;祆教崇拜阿胡拉·马兹达，不受造之神，由古伊朗先知琐罗亚斯德启示。直到公元651年穆斯林征服萨珊王朝为止，它是所有波斯帝国的国教（除了希腊化的塞琉古帝国）。古老的宗教礼仪包括圣山顶上的圣火、天葬以及效仿阿胡拉·马兹达和琐罗亚斯德的近亲结婚。;;;;;;;;;;;;x
 mazdaki_DESC;马兹达克是祆教的祭司，他声称自己是阿胡拉·马兹达的先知。他尝试以诺斯替元素进行宗教改革，并主张财产公有制和福利项目。公元524年他的教义失去了萨珊皇帝卡瓦特一世的垂青，但在偏远地区仍然有异端隐匿着。这个异端没有正式的首脑也没有特殊的游戏机制。;;;;;;;;;;;;x
 title_cherbi;阇里必;;;;;;;;;;;;x
@@ -1786,7 +1734,6 @@ found_chest;你把箱子安全地保存了起来。;;;;;;;;;;;;x
 chest_empty;你失望地走开了。;;;;;;;;;;;;x
 seraphims;你把箱子埋了并发誓决不吐露此事。;;;;;;;;;;;;x
 d_galloway_adj_welsh;斯特拉斯克里德;;;;;;;;;;;;x
-EVTDESC_TOG_3320;在你旗号下的劫掠使你赢得了令人惧怕的维京海盗这一名号。漫漫海岸线上居住的人们，以你的名字吓唬着他们不守规矩的孩子：再这样捣蛋，可怕的[Root.GetFirstName]，海上之鞭，会和他的不死战士们一起上岸把你吃了。;;;;;;;;;;;;x
 EVTOPTA_TOG_3320;听着不错！;;;;;;;;;;;;x
 viking;维京;;;;;;;;;;;;x
 viking_desc;这个角色获得了维京海盗这一令人惧怕的称号;;;;;;;;;;;;x

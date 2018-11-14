@@ -127,8 +127,7 @@ council_greek;御前会议;;;;;;;;;;;;x
 council_jewish_group;评议会;;;;;;;;;;;;x
 council_muslim;议会;;;;;;;;;;;;x
 council_shiite;内阁;;;;;;;;;;;;x
-obj_become_king_desc;[This.GetTitledFirstName]想成为[This.Capital.Kingdom.GetName]的[Root.GetKingQueen]。若为原始宗教，这允许[This.GetObjectPronoun]在此王国内部无限使用征服的宣战理由。如果伪造宣称的内阁成员任务存在，以此野心有几率获得[This.Capital.Kingdom.GetName]的宣称。如果[This.Capital.Kingdom.GetTier]尚不存在，这也将降低创建花费。;;;;;;;;;;;;x
-action_fabricate_claims_desc;让你的[GetChancellorName]去伪造当地领主所拥有的头衔的宣称。高技能的[GetChancellorName]有可能伪造公爵领的宣称。只有拥有成为国王的野心才有可能伪造王国的宣称。;;;;;;;;;;;;x
+action_fabricate_claims_desc;让你的[GetChancellorName]去伪造当地领主所拥有的头衔的宣称。一位高技能的[GetChancellorName]有可能伪造公爵领的宣称。只有拥有成为国王的野心才有可能伪造王国的宣称。;;;;;;;;;;;;x
 tooltip_obj_gain_any_title_success;从领主处获得头衔;;;;;;;;;;;;x
 obj_gain_any_title_title;获得头衔;;;;;;;;;;;;x
 obj_gain_any_title_desc;[This.GetTitledFirstName]希望获得更多的土地和另一个头衔来增加[This.GetHerHis]影响力和力量。;;;;;;;;;;;;x
@@ -255,7 +254,7 @@ EVTDESCB_ZE_2076;[safety_measure_spymaster.GetTitledFirstName]尝试了[safety_m
 EVTOPTA_ZE_2076;现在要是我能摆脱这糟糕的头痛就好了。;;;;;;;;;;;;x
 EVTOPTB_ZE_2076;这真危险！;;;;;;;;;;;;x
 EVTDESCA_ZE_2077;当我进门的时候一只狂叫的大狗在门口欢迎我。我的马收到了惊吓。我差点要拿出刀杀死这头野兽，当我看到我的[Root.GetSpymasterName]，[safety_measure_spymaster.GetFirstName]，跑过来大叫道：「坏狗狗！这是我们应该保护的朋友。」然后这只狗停止了吠叫，平静的转了个身。;;;;;;;;;;;;x
-EVTDESCB_ZE_2077;杂乱的羽毛充斥着这个地方而且当你进入餐厅走廊时你看到一只巨大的鹈鹕停在你的桌子上。当[Root.GetSpymasterName][safety_measure_spymaster.GetFirstName]看到我好像散发着蒸汽的脸时，他试图让我冷静一下，并让我去当新的「鹈鹕护卫」。;;;;;;;;;;;;x
+EVTDESCB_ZE_2077;杂乱的羽毛充斥着这个地方而且当你进入餐厅走廊时你看到一只巨大的鹈鹕停在你的桌子上。当[Root.GetSpymasterName][safety_measure_spymaster.GetFirstName]看到我好像散发着蒸汽的脸时，[safety_measure_spymaster.GetSheHe]试图让我冷静一下，并让我去当新的「鹈鹕护卫」。;;;;;;;;;;;;x
 EVTOPTA_ZE_2077;好狗狗！;;;;;;;;;;;;x
 EVTOPTB_ZE_2077;它咬我！快把它赶走！;;;;;;;;;;;;x
 EVTOPTC_ZE_2077;它咬了我的姐妹，快赶走它！;;;;;;;;;;;;x
@@ -464,7 +463,7 @@ EVTDESC_ZE_6012;你的封臣，[FromFrom.GetTitledName]，现在对[FromFrom.Get
 EVTOPTA_ZE_6012;这让我可以使用更多优秀人才。;;;;;;;;;;;;x
 EVTOPTB_ZE_6012;不能谁要我的土地我就给谁。;;;;;;;;;;;;x
 EVTOPTC_ZE_6012;[FromFrom.GetTitledFirstName]将记住这份慷慨。;;;;;;;;;;;;x
-EVTOPTA_ZE_8000;我将写信给[target_ruler.GetTitledName]。我们能够成为朋友。;;;;;;;;;;;;x
+EVTOPTA_ZE_8000;我将写信给[target_ruler.GetTitledFirstName]。我们能够成为朋友。;;;;;;;;;;;;x
 EVTOPTB_ZE_8000;这改变不了什么。;;;;;;;;;;;;x
 EVTOPTA_ZE_8001;一个绝妙的主意。;;;;;;;;;;;;x
 EVTOPTB_ZE_8001;礼貌地谢绝。;;;;;;;;;;;;x
@@ -511,7 +510,6 @@ request_council_position;要求内阁席位;;;;;;;;;;;;x
 request_council_position_desc;我可以联系我领主§Y[Root.GetTitledFirstName]§!，要求在内阁中获得席位。这种事情每两年只能做一次。;;;;;;;;;;;;x
 requested_council_position;要求内阁席位;;;;;;;;;;;;x
 ask_for_land_tooltip;提出要求。;;;;;;;;;;;;x
-ask_for_land_desc;我能请求我的领§Y[Root.GetTitledFirstName]§!给予我无地的儿子一些土地。这种事情每两年只能做一次。;;;;;;;;;;;;x
 ask_for_land;请求领主赐予土地;;;;;;;;;;;;x
 requested_land;要求土地;;;;;;;;;;;;x
 EVTDESC_ZE_6013;我为[chosen_son.GetFirstName]获取土地的谦卑的请求成功了。我不再担心他了。;;;;;;;;;;;;x

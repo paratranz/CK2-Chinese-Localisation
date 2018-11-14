@@ -84,7 +84,7 @@
     }
 }
 1110 = {
-    name = "阿德尔伯特"  # Adalberto
+    name = "阿达尔贝托"  # Adalberto
     dynasty = 681
     martial = 6
     diplomacy = 7
@@ -2222,6 +2222,10 @@
     }
     1202.10.1 = {
         trait = "crusader"
+        create_bloodline = {
+            type = dandolo
+            has_dlc = "Holy Fury"
+        }
     }
     1205.6.21 = {
         death = "1205.6.21"
@@ -2336,7 +2340,7 @@
     }
 }
 223595 = {
-    name = "阿索拉"  # Azzo
+    name = "阿佐"  # Azzo
     dynasty = 679
     martial = 6
     diplomacy = 7
@@ -2356,7 +2360,7 @@
     }
 }
 223596 = {
-    name = "阿索拉"  # Azzo
+    name = "阿佐"  # Azzo
     dynasty = 679
     martial = 6
     diplomacy = 7
@@ -5535,7 +5539,7 @@
     }
 }
 70631 = {
-    name = "阿德尔伯特"  # Adalberto
+    name = "阿达尔贝托"  # Adalberto
     dynasty = 679
     martial = 7
     diplomacy = 5
@@ -5575,7 +5579,7 @@
     }
 }
 70633 = {
-    name = "阿德尔伯特"  # Adalberto
+    name = "阿达尔贝托"  # Adalberto
     dynasty = 679
     martial = 5
     diplomacy = 8
@@ -5839,7 +5843,7 @@
     }
 }
 70648 = {
-    name = "阿索拉"  # Azzo
+    name = "阿佐"  # Azzo
     dynasty = 679
     martial = 6
     diplomacy = 7
@@ -6095,7 +6099,7 @@
     }
 }
 70661 = {
-    name = "阿索拉"  # Azzo
+    name = "阿佐"  # Azzo
     dynasty = 679
     martial = 6
     diplomacy = 5
@@ -6392,7 +6396,7 @@
     }
 }
 70674 = {
-    name = "阿索拉"  # Azzo
+    name = "阿佐"  # Azzo
     dynasty = 679
     martial = 8
     diplomacy = 4
@@ -6739,7 +6743,7 @@
     }
 }
 70690 = {
-    name = "阿索拉"  # Azzo
+    name = "阿佐"  # Azzo
     dynasty = 679
     martial = 5
     diplomacy = 7
@@ -7134,7 +7138,7 @@
     }
 }
 70707 = {
-    name = "阿索拉"  # Azzo
+    name = "阿佐"  # Azzo
     dynasty = 679
     martial = 7
     diplomacy = 4
@@ -7351,7 +7355,7 @@
     }
 }
 70717 = {
-    name = "阿德尔伯特"  # Adalberto
+    name = "阿达尔贝托"  # Adalberto
     dynasty = 13002
     martial = 6
     diplomacy = 4
@@ -7814,7 +7818,7 @@
     }
 }
 70743 = {
-    name = "阿德尔伯特"  # Adalberto
+    name = "阿达尔贝托"  # Adalberto
     dynasty = 13002
     martial = 5
     diplomacy = 7
@@ -7860,7 +7864,7 @@
     }
 }
 70745 = {
-    name = "阿德尔伯特"  # Adalberto
+    name = "阿达尔贝托"  # Adalberto
     dynasty = 13002
     martial = 5
     diplomacy = 6
@@ -8490,9 +8494,7 @@
     1247.1.1 = {
         birth = "1247.1.1"
     }
-    1258.1.1 = {
-        employer = 70769
-    }
+    1258.1.1 = {}
     1300.1.1 = {
         add_spouse = 70774
     }
@@ -9173,9 +9175,6 @@
     trait = "flamboyant_schemer"
     1237.1.1 = {
         birth = "1237.1.1"
-    }
-    1237.1.1 = {
-        employer = 70811
     }
     1320.1.1 = {
         death = "1320.1.1"
@@ -10665,7 +10664,7 @@
     }
 }
 70972 = {
-    name = "阿德尔伯特"  # Adalberto
+    name = "阿达尔贝托"  # Adalberto
     dynasty = 206
     martial = 6
     diplomacy = 8
@@ -15115,7 +15114,7 @@
     }
 }
 71211 = {
-    name = "阿索拉"  # Azzo
+    name = "阿佐"  # Azzo
     dynasty = 206
     martial = 6
     diplomacy = 5
@@ -23995,7 +23994,7 @@
     }
 }
 73499 = {
-    name = "阿德尔伯特"  # Adalberto
+    name = "阿达尔贝托"  # Adalberto
     religion = "catholic"
     culture = "italian"
     dynasty = 5061090
@@ -24502,7 +24501,7 @@
     }
 }
 73542 = {
-    name = "阿德尔伯特"  # Adalberto
+    name = "阿达尔贝托"  # Adalberto
     religion = "catholic"
     culture = "italian"
     trait = detached_priest
@@ -25085,8 +25084,8 @@
     1288.8.8 = {
         add_spouse = 73585
     }
-    1317.1.1 = {
-        death = "1317.1.1"
+    1316.1.1 = {
+        death = "1316.1.1"
     }
 }
 73587 = {
@@ -25205,6 +25204,7 @@
     dynasty = 13059
     religion = "catholic"
     culture = "italian"
+    father = 259015
     1212.1.1 = {
         birth = "1212.1.1"
     }
@@ -38291,6 +38291,7 @@
     dynasty = 1022322
     religion = "catholic"
     culture = "italian"
+    female = yes
     741.1.1 = {
         birth = yes
     }
@@ -38970,7 +38971,7 @@
     }
 }
 214092 = {
-    name = "弗朗切斯科"  # Franceso
+    name = "Francesco"
     dynasty = 1044406
     religion = "catholic"
     culture = "italian"
@@ -42435,6 +42436,726 @@
         birth = yes
     }
     1162.1.1 = {
+        death = yes
+    }
+}
+218001 = {
+    name = "Alcide"
+    female = no
+    religion = catholic
+    culture = italian
+    832.1.1 = {
+        birth = yes
+    }
+    890.1.1 = {
+        death = yes
+    }
+}
+218002 = {
+    name = "Abbondazio"
+    female = no
+    religion = catholic
+    culture = italian
+    1040.1.1 = {
+        birth = yes
+    }
+    1093.1.1 = {
+        death = yes
+    }
+}
+218004 = {
+    name = "Attilio"
+    female = no
+    religion = catholic
+    culture = italian
+    1112.1.1 = {
+        birth = yes
+    }
+    1189.1.1 = {
+        death = yes
+    }
+}
+218005 = {
+    name = "Claudio"
+    female = no
+    religion = catholic
+    culture = italian
+    1160.1.1 = {
+        birth = yes
+    }
+    1232.1.1 = {
+        death = yes
+    }
+}
+218009 = {
+    name = "Eriprando"
+    female = no
+    religion = catholic
+    culture = italian
+    1069.1.1 = {
+        birth = yes
+    }
+    1130.1.1 = {
+        death = yes
+    }
+}
+219000 = {
+    name = "Abbondazio"
+    female = no
+    religion = catholic
+    culture = italian
+    960.1.1 = {
+        birth = yes
+    }
+    1020.1.1 = {
+        death = yes
+    }
+}
+221000 = {
+    name = "Leonardo"
+    female = no
+    religion = catholic
+    culture = italian
+    1001.1.1 = {
+        birth = yes
+    }
+    1072.1.1 = {
+        death = yes
+    }
+}
+221001 = {
+    name = "Lealdo"
+    female = no
+    religion = catholic
+    culture = italian
+    1051.1.1 = {
+        birth = yes
+    }
+    1134.1.1 = {
+        death = yes
+    }
+}
+221002 = {
+    name = "Cosmi"
+    female = no
+    religion = catholic
+    culture = italian
+    1112.1.1 = {
+        birth = yes
+    }
+    1189.1.1 = {
+        death = yes
+    }
+}
+221003 = {
+    name = "Mariano"
+    female = no
+    religion = catholic
+    culture = italian
+    1161.1.1 = {
+        birth = yes
+    }
+    1240.1.1 = {
+        death = yes
+    }
+}
+221004 = {
+    name = "Leonardo"
+    female = no
+    religion = catholic
+    culture = italian
+    1190.1.1 = {
+        birth = yes
+    }
+    1268.1.1 = {
+        death = yes
+    }
+}
+221108 = {
+    name = "Leonardo"
+    dynasty = 1061087
+    female = no
+    religion = catholic
+    culture = german
+    1050.1.1 = {
+        birth = yes
+    }
+    1132.1.1 = {
+        death = yes
+    }
+}
+221107 = {
+    name = "Claudio"
+    dynasty = 1061087
+    female = no
+    religion = catholic
+    culture = german
+    father = 221108
+    1101.1.1 = {
+        birth = yes
+    }
+    1180.1.1 = {
+        death = yes
+    }
+}
+221102 = {
+    name = "Leonardo"
+    dynasty = 1061087
+    female = no
+    religion = catholic
+    culture = german
+    father = 221107
+    1154.1.1 = {
+        birth = yes
+    }
+    1232.1.1 = {
+        death = yes
+    }
+}
+221103 = {
+    name = "Cosmi"
+    dynasty = 1061087
+    female = no
+    religion = catholic
+    culture = german
+    father = 221102
+    1189.1.1 = {
+        birth = yes
+    }
+    1254.1.1 = {
+        death = yes
+    }
+}
+221104 = {
+    name = "Abbondazio"
+    dynasty = 1061087
+    female = no
+    religion = catholic
+    culture = german
+    father = 221103
+    1231.1.1 = {
+        birth = yes
+    }
+    1294.1.1 = {
+        death = yes
+    }
+}
+221105 = {
+    name = "Claudio"
+    dynasty = 1061087
+    female = no
+    religion = catholic
+    culture = german
+    father = 221104
+    1264.1.1 = {
+        birth = yes
+    }
+    1301.1.1 = {
+        death = yes
+    }
+}
+221106 = {
+    name = "Cosmi"
+    dynasty = 1061087
+    female = no
+    religion = catholic
+    culture = german
+    father = 221105
+    1299.1.1 = {
+        birth = yes
+    }
+    1345.1.1 = {
+        death = yes
+    }
+}
+259000 = {
+    name = "Achille"
+    dynasty = 1062032
+    female = no
+    religion = catholic
+    culture = italian
+    1031.1.1 = {
+        birth = yes
+    }
+    1099.1.1 = {
+        death = yes
+    }
+}
+259001 = {
+    name = "Elio"
+    dynasty = 1062032
+    female = no
+    religion = catholic
+    culture = italian
+    father = 259000
+    1065.1.1 = {
+        birth = yes
+    }
+    1120.1.1 = {
+        death = yes
+    }
+}
+259002 = {
+    name = "Beltrano"
+    dynasty = 1062032
+    female = no
+    religion = catholic
+    culture = italian
+    father = 259001
+    1098.1.1 = {
+        birth = yes
+    }
+    1159.1.1 = {
+        death = yes
+    }
+}
+259003 = {
+    name = "Bernardo"
+    dynasty = 1062032
+    female = no
+    religion = catholic
+    culture = italian
+    father = 259002
+    1123.1.1 = {
+        birth = yes
+    }
+    1182.1.1 = {
+        death = yes
+    }
+}
+259004 = {
+    name = "Giovanni"
+    dynasty = 1062032
+    female = no
+    religion = catholic
+    culture = italian
+    father = 259003
+    1158.1.1 = {
+        birth = yes
+    }
+    1205.1.1 = {
+        death = yes
+    }
+}
+259005 = {
+    name = "Lothario"
+    dynasty = 1062032
+    female = no
+    religion = catholic
+    culture = italian
+    father = 259004
+    1179.1.1 = {
+        birth = yes
+    }
+    1242.1.1 = {
+        death = yes
+    }
+}
+259006 = {
+    name = "Bernardo"
+    dynasty = 1062032
+    female = no
+    religion = catholic
+    culture = italian
+    father = 259005
+    1205.1.1 = {
+        birth = yes
+    }
+    1287.1.1 = {
+        death = yes
+    }
+}
+259007 = {
+    name = "Loterio"
+    dynasty = 1062032
+    female = no
+    religion = catholic
+    culture = italian
+    father = 259006
+    1262.1.1 = {
+        birth = yes
+    }
+    1338.1.1 = {
+        death = yes
+    }
+}
+259008 = {
+    name = "Bernardo"
+    religion = catholic
+    culture = italian
+    1041.1.1 = {
+        birth = yes
+    }
+    1106.1.1 = {
+        death = yes
+    }
+}
+259009 = {
+    name = "Giovanni"
+    religion = catholic
+    culture = italian
+    1081.1.1 = {
+        birth = yes
+    }
+    1148.1.1 = {
+        death = yes
+    }
+}
+259010 = {
+    name = "Beltrano"
+    religion = catholic
+    culture = italian
+    1129.1.1 = {
+        birth = yes
+    }
+    1182.1.1 = {
+        death = yes
+    }
+}
+259011 = {
+    name = "Elio"
+    religion = catholic
+    culture = italian
+    1160.1.1 = {
+        birth = yes
+    }
+    1231.1.1 = {
+        death = yes
+    }
+}
+259012 = {
+    name = "Flavio"
+    religion = catholic
+    culture = italian
+    1206.1.1 = {
+        birth = yes
+    }
+    1258.1.1 = {
+        death = yes
+    }
+}
+259013 = {
+    name = "Ubaldo"
+    religion = catholic
+    culture = italian
+    1232.1.1 = {
+        birth = yes
+    }
+    1299.1.1 = {
+        death = yes
+    }
+}
+259014 = {
+    name = "Iacopo"
+    religion = catholic
+    culture = italian
+    1282.1.1 = {
+        birth = yes
+    }
+    1348.1.1 = {
+        death = yes
+    }
+}
+259015 = {
+    name = "Malatesta"
+    dynasty = 13059
+    religion = catholic
+    culture = italian
+    father = 259020
+    1183.1.1 = {
+        birth = yes
+    }
+    1248.1.1 = {
+        death = yes
+    }
+}
+259016 = {
+    name = "Giovanni"
+    religion = catholic
+    culture = italian
+    739.1.1 = {
+        birth = yes
+    }
+    791.1.1 = {
+        death = yes
+    }
+}
+259017 = {
+    name = "Flavio"
+    religion = catholic
+    culture = italian
+    831.1.1 = {
+        birth = yes
+    }
+    881.1.1 = {
+        death = yes
+    }
+}
+259018 = {
+    name = "Elio"
+    religion = catholic
+    culture = italian
+    1022.1.1 = {
+        birth = yes
+    }
+    1095.1.1 = {
+        death = yes
+    }
+}
+259019 = {
+    name = "Giovanni"
+    religion = catholic
+    culture = italian
+    1075.1.1 = {
+        birth = yes
+    }
+    1139.1.1 = {
+        death = yes
+    }
+}
+259020 = {
+    name = "Giovanni"
+    dynasty = 13059
+    religion = catholic
+    culture = italian
+    1157.1.1 = {
+        birth = yes
+    }
+    1219.1.1 = {
+        death = yes
+    }
+}
+259021 = {
+    name = "Averado"
+    religion = catholic
+    culture = italian
+    1121.1.1 = {
+        birth = yes
+    }
+    1197.1.1 = {
+        death = yes
+    }
+}
+259022 = {
+    name = "Ariberto"
+    religion = catholic
+    culture = italian
+    742.1.1 = {
+        birth = yes
+    }
+    805.1.1 = {
+        death = yes
+    }
+}
+259023 = {
+    name = "Peter"
+    religion = catholic
+    culture = italian
+    834.1.1 = {
+        birth = yes
+    }
+    868.1.1 = {
+        death = yes
+    }
+}
+259024 = {
+    name = "Constantine"
+    religion = catholic
+    culture = italian
+    1038.1.1 = {
+        birth = yes
+    }
+    1095.1.1 = {
+        death = yes
+    }
+}
+259025 = {
+    name = "Sigifredo"
+    religion = catholic
+    culture = italian
+    1061.1.1 = {
+        birth = yes
+    }
+    1099.1.1 = {
+        death = yes
+    }
+}
+259026 = {
+    name = "Enzio"
+    religion = catholic
+    culture = italian
+    1080.1.1 = {
+        birth = yes
+    }
+    1164.1.1 = {
+        death = yes
+    }
+}
+259027 = {
+    name = "Ascanio"
+    religion = catholic
+    culture = italian
+    1128.1.1 = {
+        birth = yes
+    }
+    1201.1.1 = {
+        death = yes
+    }
+}
+259028 = {
+    name = "Benvenuto"
+    religion = catholic
+    culture = italian
+    1171.1.1 = {
+        birth = yes
+    }
+    1241.1.1 = {
+        death = yes
+    }
+}
+259029 = {
+    name = "Onorio"
+    religion = catholic
+    culture = italian
+    1220.1.1 = {
+        birth = yes
+    }
+    1298.1.1 = {
+        death = yes
+    }
+}
+259030 = {
+    name = "Benedetto"
+    religion = catholic
+    culture = italian
+    1272.1.1 = {
+        birth = yes
+    }
+    1338.1.1 = {
+        death = yes
+    }
+}
+259031 = {
+    name = "Mastino"
+    religion = catholic
+    culture = italian
+    721.1.1 = {
+        birth = yes
+    }
+    781.1.1 = {
+        death = yes
+    }
+}
+259032 = {
+    name = "Gianleone"
+    religion = catholic
+    culture = italian
+    832.1.1 = {
+        birth = yes
+    }
+    870.1.1 = {
+        death = yes
+    }
+}
+259033 = {
+    name = "Rinaldo"
+    religion = catholic
+    culture = italian
+    1048.1.1 = {
+        birth = yes
+    }
+    1099.1.1 = {
+        death = yes
+    }
+}
+259034 = {
+    name = "Pancrazio"
+    religion = catholic
+    culture = italian
+    1081.1.1 = {
+        birth = yes
+    }
+    1159.1.1 = {
+        death = yes
+    }
+}
+259035 = {
+    name = "Roberto"
+    religion = catholic
+    culture = italian
+    1131.1.1 = {
+        birth = yes
+    }
+    1202.1.1 = {
+        death = yes
+    }
+}
+259036 = {
+    name = "Tiziano"
+    religion = catholic
+    culture = italian
+    1180.1.1 = {
+        birth = yes
+    }
+    1248.1.1 = {
+        death = yes
+    }
+}
+259037 = {
+    name = "Vittorio"
+    religion = catholic
+    culture = italian
+    1232.1.1 = {
+        birth = yes
+    }
+    1303.1.1 = {
+        death = yes
+    }
+}
+259038 = {
+    name = "Guerrino"
+    religion = catholic
+    culture = italian
+    1281.1.1 = {
+        birth = yes
+    }
+    1338.1.1 = {
+        death = yes
+    }
+}
+260399 = {
+    name = "Achille"
+    religion = catholic
+    culture = italian
+    dynasty = 1062184
+    1185.1.1 = {
+        birth = yes
+    }
+    1256.1.1 = {
+        death = yes
+    }
+}
+260400 = {
+    name = "Benedetto"
+    religion = catholic
+    culture = italian
+    dynasty = 1062185
+    1232.1.1 = {
+        birth = yes
+    }
+    1301.1.1 = {
+        death = yes
+    }
+}
+260401 = {
+    name = "Adriano"
+    religion = catholic
+    culture = italian
+    dynasty = 1062186
+    1279.1.1 = {
+        birth = yes
+    }
+    1338.1.1 = {
         death = yes
     }
 }

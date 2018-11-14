@@ -1729,7 +1729,7 @@
     }
 }
 91405 = {
-    name = "阿达尔伯特"  # Adalbert
+    name = "阿达尔贝"  # Adalbert
     dynasty = 9308
     religion = "catholic"
     culture = "old_frankish"
@@ -2547,6 +2547,10 @@
     father = 168670
     410.1.1 = {
         birth = yes
+        create_bloodline = {
+            type = merovingian
+            has_dlc = "Holy Fury"
+        }
     }
     457.1.1 = {
         death = yes
@@ -3651,7 +3655,7 @@
     }
 }
 194171 = {
-    name = "阿达尔伯特"  # Adalbert
+    name = "阿达尔贝"  # Adalbert
     dynasty = 1045028
     religion = "catholic"
     culture = "old_frankish"
@@ -3735,6 +3739,10 @@
     }
     732.11.1 = {
         give_nickname = nick_the_hammer
+        create_bloodline = {
+            type = carolingian
+            has_dlc = "Holy Fury"
+        }
     }
     741.1.23 = {
         death = "741.1.23"
@@ -4124,6 +4132,50 @@
         birth = yes
     }
     828.1.1 = {
+        death = yes
+    }
+}
+245000 = {
+    name = "Bernard"
+    religion = "catholic"
+    culture = "old_frankish"
+    735.1.1 = {
+        birth = yes
+    }
+    790.1.1 = {
+        death = yes
+    }
+}
+245001 = {
+    name = "Guy"
+    religion = "catholic"
+    culture = "old_frankish"
+    843.1.1 = {
+        birth = yes
+    }
+    901.1.1 = {
+        death = yes
+    }
+}
+245002 = {
+    name = "Lambert"
+    religion = "catholic"
+    culture = "old_frankish"
+    728.1.1 = {
+        birth = yes
+    }
+    782.1.1 = {
+        death = ye
+    }
+}
+245003 = {
+    name = "Adelelme"
+    religion = "catholic"
+    culture = "old_frankish"
+    832.1.1 = {
+        birth = yes
+    }
+    891.1.1 = {
         death = yes
     }
 }

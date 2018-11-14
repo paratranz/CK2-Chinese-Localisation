@@ -238,7 +238,7 @@ EVTDESC39263;访问[From.GetBestName]的使者带回了好消息。[From.GetTitl
 EVTOPTA39263;荣耀归于主！;;;;;;;;;;;;x
 EVTDESC39264;今天地狱深渊中的魔鬼们一定在愉悦的嚎叫。从[From.GetBestName]那里返回的使者报告说[From.GetSheHe]拒绝了我们的要求。;;;;;;;;;;;;x
 EVTOPTA39264;主啊，为什么抛弃我？;;;;;;;;;;;;x
-EVTDESC39270;在基督国度里有一位不守道的主教。传说他向他的世俗领主宣誓效忠，而不是为上帝奉献一切。;;;;;;;;;;;;x
+EVTDESC39270;在[catholic.GetName]国度里有一位不守道的主教。传说他向他的世俗领主宣誓效忠，而不是为上帝奉献一切。;;;;;;;;;;;;x
 EVTOPTA39270;派出一个使者去把他撤换掉。;;;;;;;;;;;;x
 EVTOPTB39270;我们才管不着这事儿呢;;;;;;;;;;;;x
 EVTTOOLTIP39271;会被我们的使者拜访.;;;;;;;;;;;;x
@@ -270,7 +270,6 @@ EVTDESC80053;厌倦了他们的旧领主[From.GetTitledName]，[Root.GetName]的
 EVTOPTA80053;太好了！是吧……？;;;;;;;;;;;;x
 LEADER_APP_NEEDS_LAW_NO_CROWN_TITLE;你的贵族们的自治程度过高，不能由你指定将领。\n（王权过低）;;;;;;;;;;;;x
 CHAR_EXCOM_SETUP;角色被绝罚;;;;;;;;;;;;x
-CHAR_EXCOM_LOG;§Y应 $ACTOR$§!的要求，§Y$REL_HEAD$§!对§Y$VICTIM$§!进行绝罚！;;;;;;;;;;;;x
 CHAR_EXCOM_LIFTED_SETUP;绝罚撤销;;;;;;;;;;;;x
 CHAR_EXCOM_LIFTED_LOG;§Y应$ACTOR$§! 的要求，§Y$REL_HEAD$§!撤销了对§Y$VICTIM$§!的绝罚！;;;;;;;;;;;;x
 b_cueta;休达;;;;;;;;;;;;x
@@ -617,7 +616,7 @@ EVTOPTC76041;你会走出你自己的一条路！;;;;;;;;;;;;x
 EVTDESC39000;[Root.Religion.GetName]异端势力在[Root.GetName]抬头！;;;;;;;;;;;;x
 EVTDESC39400;[From.Religion.GetName]异端势力在[From.GetName]出现！;;;;;;;;;;;;x
 EVTOPTA39400;太可怕了！;;;;;;;;;;;;x
-EVTDESC39401;糟糕的消息！异端已经在一个天主教地区出现超过两年了，而当地领主什么都没做！;;;;;;;;;;;;x
+EVTDESC39401;糟糕的消息！异端已经在一个[catholic.GetName]地区出现超过两年了，而当地领主什么都没做！;;;;;;;;;;;;x
 EVTOPTA39401;太可怕了！我要给他写信。;;;;;;;;;;;;x
 EVTDESC39402;发现你的一个省份改信异端已经很糟糕了，但是我更震惊的是你居然放任这种情况持续了两年之久！这些异端必须被根除。;;;;;;;;;;;;x
 EVTOPTA39402;我应当再加倍努力;;;;;;;;;;;;x
@@ -634,7 +633,7 @@ GAIN_ALL_OCCUPIED_TITLES_EFFECT;得到所占领的$HOLDER$的领地的头衔;;;;
 TITLE_CREATION_WITH_PIETY_DESC;你必须控制 §Y$REQ_PERC$%§! 的法理领土才能创建这个头衔。目前你控制了 $PERC$（$HELD$/§Y$ALL$§!）。创建这个头衔会增加 §G$PRESTIGE$§! 威望，消耗 §R$GOLD$§! 金钱和 §R$PIETY$§! $PIETYNAME$。;;;;;;;;;;;;x
 TITLE_CREATION_COST_WITH_PIETY_DESC;创建这个头衔会增加 §G$PRESTIGE$§! 威望，消耗 §R$GOLD$§! 金钱和 §R$PIETY$§! $PIETYNAME$;;;;;;;;;;;;x
 AMBITION_OPINION;野心勃勃：$VALUE$;;;;;;;;;;;;x
-EVTDESC39403;异端已经在一个天主教地区出现，我会鼓励当地统治者尽快对付他们。;;;;;;;;;;;;x
+EVTDESC39403;异端已经在一个[catholic.GetName]地区出现，我会鼓励当地统治者尽快对付他们。;;;;;;;;;;;;x
 EVTOPTA39403;我现在就写信。;;;;;;;;;;;;x
 EVTDESC39404;我得知了一个糟糕的消息，你的领地出现了异端。我要求你快速解决这个问题，异端必须被根除！;;;;;;;;;;;;x
 EVTOPTA39404;我会消灭那些异端！;;;;;;;;;;;;x
@@ -669,7 +668,6 @@ desc_job_spiritual;§Y$JOB$§!是你在宗教信仰上的私人顾问，不过�
 job_spiritual_pagan_group;首席占卜师;;;;;;;;;;;;x
 job_spiritual_christian;宫廷牧师;;;;;;;;;;;;x
 job_chancellor_arabic;大维齐尔;;;;;;;;;;;;x
-EVTTOOLTIP63053;被释放;;;;;;;;;;;;x
 religious_tension;宗教紧张;;;;;;;;;;;;x
 PEACE_DEMAND;强迫对方从命;;;;;;;;;;;;x
 PEACE_WHITEPEACE;提出无条件和平;;;;;;;;;;;;x
@@ -708,7 +706,7 @@ EVTOPTB77004;呆在你们自己的森林里！;;;;;;;;;;;;x
 EVTDESC77005;教士对向所有自由民收什一税还不满意，他们要求征收额外的什一税！什一税要求农民缴纳收成的十分之一，手工业者缴纳手工制品的十分之一。允许教士征收额外的什一税，税额将被加倍，这肯定会引起广泛抗议。;;;;;;;;;;;;x
 EVTOPTA77005;额外的什一税？可以！;;;;;;;;;;;;x
 EVTOPTB77005;农民会挨饿的，我不允许这事儿;;;;;;;;;;;;x
-EVTDESC77006;富商希望购买爵位，遭到男爵的抗议，声称他们的爵位是无价的。商人不应该被允许用金钱购买爵位！;;;;;;;;;;;;x
+EVTDESC77006;富商希望购买爵位，遭到男爵的抗议，声称他们的爵位是无价的。商人们不应该被允许用金钱购买爵位！;;;;;;;;;;;;x
 EVTOPTA77006;只要我拿到钱就行，其他的我不关心;;;;;;;;;;;;x
 EVTOPTB77006;爵位不能买卖;;;;;;;;;;;;x
 EVTDESC77007;市民们，牧师和男爵们都声称有权从[Root.GetName]之外倾覆的沉船中掠夺财物。这份权利会交给……;;;;;;;;;;;;x
@@ -753,7 +751,6 @@ alert_allies_not_called_in_delayed;我们可以要求下列盟友支援我们：
 alert_vassal_levies_raised_long_instant;§Y封臣部队动员时间过长§!;;;;;;;;;;;;x
 alert_vassal_levies_raised_long_delayed;下列封臣对动员他们的部队感到不满：\n$LIST$;;;;;;;;;;;;x
 alert_owns_wrong_settlement_type_instant;§Y错误的直辖领地类型§!;;;;;;;;;;;;x
-alert_owns_wrong_settlement_type_delayed;下列领地属于错误的统治类型：\n$LIST$;;;;;;;;;;;;x
 PREV_PROVINCE;切换到这个省份的上一个领地;;;;;;;;;;;;x
 NEXT_PROVINCE;切换到这个省份的下一个领地;;;;;;;;;;;;x
 OUTLINER_BUTTON_CONFIG;打开数据栏显示设置;;;;;;;;;;;;x
@@ -780,7 +777,6 @@ SIEGETHEM_LOG;我们在$PROVINCE$发动围攻。;;;;;;;;;;;;x
 CONFIRM_DISBAND_DESC2;由于敌人攻入我国领土，$TOTAL$ 名士兵中只有 $NUM$ 人可以安全返乡。;;;;;;;;;;;;x
 CONFIRM_DISBAND_DESC5;由于不在友方领土，$TOTAL$ 名士兵中只有 $NUM$ 人可以安全返乡。;;;;;;;;;;;;x
 CONFIRM_DISBAND_DESC3;由于不在友方港口，$TOTAL$ 艘船中只有 $NUM$ 艘可以安全返乡。;;;;;;;;;;;;x
-CONFIRM_DISBAND_DESC4;$NAME$将被解散，所有船只都可以安全返乡。;;;;;;;;;;;;x
 RULER_STEWARDSHIP_BONUS;统治者财政加成;;;;;;;;;;;;x
 EVTDESC3525;当被问及独身生活的问题并希望我给予一些建议时，我努力不将其描述得十分吸引人。不幸的是，我现在没有时间详谈……;;;;;;;;;;;;x
 EVTOPTA3525;也许明天？;;;;;;;;;;;;x
@@ -974,7 +970,6 @@ EVTOPTA3683;这个和你的女儿有关吗？我很抱歉！;;;;;;;;;;;;x
 EVTOPTB3683;我并没有勾引你的妻子，她自己送上门的！;;;;;;;;;;;;x
 EVTDESC3685;无论我怎么努力，我都没法想出一个押韵的词了！我肯定失去了缪斯女神的青睐，我完全没有灵感了。哦，我该怎么办？;;;;;;;;;;;;x
 EVTOPTA3685;我会找到一个新的缪斯！;;;;;;;;;;;;x
-EVTTOOLTIP3686;为[This.GetHerHis]诗歌寻找新的缪斯;;;;;;;;;;;;x
 EVTOPTB3685;我也许已经失去了灵感，永远失去了！;;;;;;;;;;;;x
 EVTOPTC3685;我……只是……需要更加努力！;;;;;;;;;;;;x
 EVTDESC3686;缪斯并不仅仅意味着灵感，你必须学好去珍爱你的缪斯，否则[Root.GetSheHeOpp]将会离开你并且带走你的灵感。我找到了我的缪斯……;;;;;;;;;;;;x
