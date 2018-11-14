@@ -1143,8 +1143,8 @@
     664.6.1 = {
         add_spouse = 247391
         effect = {
-            c_247390 = {
-                add_consort = ROOT
+            ROOT = {
+                add_consort = c_247390
             }
         }
     }
@@ -1165,8 +1165,8 @@
     666.1.1 = {
         add_spouse = 247390
         effect = {
-            c_247391 = {
-                add_consort = ROOT
+            ROOT = {
+                add_consort = c_247391
             }
         }
     }
@@ -1579,6 +1579,173 @@
         birth = yes
     }
     765.1.1 = {
+        death = yes
+    }
+}
+93258 = {
+    name = "可突于"  # Ketuyu
+    dynasty = 214009
+    religion = "buddhist"
+    culture = "khitan"
+    father = 188912
+    trait = mahayana_buddhist
+    trait = "sympathy_christendom"
+    trait = "sympathy_islam"
+    trait = "sympathy_zoroastrianism"
+    trait = "sympathy_judaism"
+    trait = "sympathy_indian"
+    1180.1.1 = {
+        birth = "1180.1.1"
+    }
+    1213.1.1 = {
+        name = "Baraq Hajib"
+        religion = "sunni"
+        dynasty = 7337
+    }
+    1235.1.1 = {
+        death = "1235.1.1"
+    }
+}
+93259 = {
+    name = "Qutb ad-Din Muhammad"
+    dynasty = 7337
+    religion = "sunni"
+    culture = "khitan"
+    father = 93258
+    1200.1.1 = {
+        birth = "1200.1.1"
+    }
+    1257.1.1 = {
+        death = "1257.1.1"
+    }
+}
+93260 = {
+    name = "Rukh ad-Din Hoja al-Hakk"
+    dynasty = 7337
+    religion = "sunni"
+    culture = "khitan"
+    father = 93258
+    1201.1.1 = {
+        birth = "1201.1.1"
+    }
+    1252.1.1 = {
+        death = "1252.1.1"
+    }
+}
+93261 = {
+    name = "Muzzafar ad-Din"
+    dynasty = 7337
+    religion = "sunni"
+    culture = "khitan"
+    father = 93259
+    1220.1.1 = {
+        birth = "1220.1.1"
+    }
+    1279.1.1 = {
+        death = "1279.1.1"
+    }
+}
+93262 = {
+    name = "Turkan Hatun"
+    female = yes
+    dynasty = 7337
+    religion = "sunni"
+    culture = "khitan"
+    father = 93261
+    1240.1.1 = {
+        birth = "1240.1.1"
+    }
+    1282.1.1 = {
+        death = "1282.1.1"
+    }
+}
+93263 = {
+    name = "Djalal ad-Din Abu'l-Muzzafar"
+    dynasty = 7337
+    religion = "sunni"
+    culture = "khitan"
+    father = 93261
+    1266.1.1 = {
+        birth = "1266.1.1"
+    }
+    1292.1.1 = {
+        death = "1292.1.1"
+    }
+}
+93264 = {
+    name = "Safvat ad-Din Padishah Hatun"
+    female = yes
+    dynasty = 7337
+    religion = "sunni"
+    culture = "khitan"
+    father = 93261
+    1252.1.1 = {
+        birth = "1252.1.1"
+    }
+    1295.1.1 = {
+        death = "1295.1.1"
+    }
+}
+93265 = {
+    name = "Yuluq Shah"
+    dynasty = 7337
+    religion = "sunni"
+    culture = "khitan"
+    father = 93263
+    1282.1.1 = {
+        birth = "1282.1.1"
+    }
+    1296.1.1 = {
+        death = "1296.1.1"
+    }
+}
+93266 = {
+    name = "Muzzafar ad-Din"
+    dynasty = 7337
+    religion = "sunni"
+    culture = "khitan"
+    father = 93263
+    1283.1.1 = {
+        birth = "1283.1.1"
+    }
+    1301.1.1 = {
+        death = "1301.1.1"
+    }
+}
+93267 = {
+    name = "Qutb ad-Din"
+    dynasty = 7337
+    religion = "sunni"
+    culture = "khitan"
+    father = 93263
+    1284.1.1 = {
+        birth = "1284.1.1"
+    }
+    1308.1.1 = {
+        death = "1308.1.1"
+    }
+}
+258100 = {
+    name = "Zhulie"
+    dynasty = 1100022
+    religion = "nestorian"
+    culture = "khitan"
+    1039.1.1 = {
+        birth = yes
+    }
+    1087.1.1 = {
+        death = yes
+    }
+}
+258101 = {
+    name = "Qinde"
+    dynasty = 1100023
+    religion = "buddhist"
+    culture = "khitan"
+    1033.1.1 = {
+        birth = yes
+    }
+    1087.1.1 = {
         death = yes
     }
 }
