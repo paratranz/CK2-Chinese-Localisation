@@ -1844,6 +1844,13 @@
     1264.1.24 = {
         trait = "gluttonous"
         give_nickname = "nick_the_fat"
+        effect = {
+            set_variable = {
+                which = physique_variable
+                value = 15
+            }
+        }
+        trait = is_fat
     }
     1279.1.2 = {
         add_spouse = 471733
@@ -2145,6 +2152,10 @@
     mother = 509
     967.1.2 = {
         birth = "967.1.2"
+        create_bloodline = {
+            type = boleslaw_the_brave
+            has_dlc = "Holy Fury"
+        }
     }
     985.1.2 = {
         add_spouse = 463
@@ -3141,6 +3152,15 @@
     1220.1.2 = {
         birth = "1220.1.2"
     }
+    1236.1.2 = {
+        effect = {
+            set_variable = {
+                which = physique_variable
+                value = 15
+            }
+        }
+        trait = is_fat
+    }
     1246.10.22 = {
         death = "1246.10.22"
     }
@@ -3465,7 +3485,7 @@
     }
 }
 125968 = {
-    name = "阿尔伯特"  # Albert
+    name = "阿尔贝特"  # Albert
     dynasty = 699
     religion = "catholic"
     culture = "polish"
@@ -5961,6 +5981,17 @@
         birth = yes
     }
     866.1.1 = {
+        death = yes
+    }
+}
+256021 = {
+    name = "Pawel"
+    religion = slavic_pagan
+    culture = polish
+    749.2.8 = {
+        birth = yes
+    }
+    822.1.1 = {
         death = yes
     }
 }

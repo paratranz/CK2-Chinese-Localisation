@@ -4,7 +4,7 @@ EVTDESC_JD_10023_prison;[offmap_china.Governor.GetTitledFirstName]都护派来�
 EVTDESC_JD_10023_missing;[offmap_china.Governor.GetTitledFirstName]都护派来的使节，[From.GetJobTitle][From.GetTitledName]，在访问途中失踪了！这么一来，[From.GetHerHis]访问自然取消了。我还要头疼该怎么和都护解释这件事。;;;;;;;;;;;;x
 EVTOPTA_JD_10023;我得差遣我的书记员给[offmap_china.Governor.GetTitle]写封信;;;;;;;;;;;;x
 EVTOPTB_JD_10023;[offmap_china.Governor.GetTitle]最终会发现的;;;;;;;;;;;;x
-gender_is_culturally_or_religiously_eligble_tt;The gender of §Y[Root.GetTitledName]§! is culturally or religiously eligible\n;;;;;;;;;;;;x
+gender_is_culturally_or_religiously_eligble_tt;§Y[Root.GetTitledName]§!的性别在宗教和文化上都合适\n;;;;;;;;;;;;x
 special_gender_laws_active_tt;特殊§Y法律§!或§Y游戏规则§!已启用\n;;;;;;;;;;;;x
 no_special_gender_laws_active_tt;特殊§Y法律§!或§Y游戏规则§!未启用\n;;;;;;;;;;;;x
 tribal_or_nomadic_government_tt;是§Y部落§!或§Y游牧§!政府\n;;;;;;;;;;;;x
@@ -104,27 +104,27 @@ String_blood_is_drawn;见血即止;;;;;;;;;;;;x
 String_one_of_us_lay_dead;你死我活;;;;;;;;;;;;x
 String_one_of_us_yields_from_injury;我们中的一人屈服于伤痛;;;;;;;;;;;;x
 String_only_one_of_us_remain_standing;我们只有一个人还站着;;;;;;;;;;;;x
-String_the_heavens_are_satisfied;the heavens are satisfied;;;;;;;;;;;;x
-dishonorable_duel_minor_tooltip;Considering the [This.GetDuelWeakness] of §Y[This.GetTitledFirstName]§!, certain characters will consider this challenge in poor taste.;;;;;;;;;;;;x
+String_the_heavens_are_satisfied;上天很满意;;;;;;;;;;;;x
+dishonorable_duel_minor_tooltip;考虑到§Y[This.GetTitledFirstName]§!的[This.GetDuelWeakness]，某些角色可能认为这一挑战并不得体。;;;;;;;;;;;;x
 dishonorable_duel_medium_tooltip;Considering the [This.GetDuelWeakness] of §Y[This.GetTitledFirstName]§!, certain characters will consider this challenge beneath you.;;;;;;;;;;;;x
-dishonorable_duel_major_tooltip;Considering the [This.GetDuelWeakness] of §Y[This.GetTitledFirstName]§!, certain characters will consider this challenge dishonorable.;;;;;;;;;;;;x
+dishonorable_duel_major_tooltip;考虑到§Y[This.GetTitledFirstName]§!的[This.GetDuelWeakness]，某些角色可能认为这一挑战没有荣耀;;;;;;;;;;;;x
 EVTDESC_HFP_10095_default;[combatant_1.GetBestName]向你发起了[combatant_1.GetDuelType]。唯一不损荣誉的回应只能是接受这个挑战。;;;;;;;;;;;;x
 EVTDESC_HFP_10096;[From.GetBestName]选择了接受你的决斗。决斗将在几天内举行。;;;;;;;;;;;;x
 EVTDESC_HFP_10097;那个没骨气的[GetRootFromInsult]，[From.GetTitledFirstName]逃避了你的挑战。;;;;;;;;;;;;x
 EVTOPTA_HFP_10097;哦，他们可不能就这样轻易的逃过去……！;;;;;;;;;;;;x
-EVTOPTA_HFP_10097_TT;You will attempt to corner §Y[combatant_2.GetTitledName]§!, forcing [combatant_2.GetHerHim] to accept your challenge...\n;;;;;;;;;;;;x
+EVTOPTA_HFP_10097_TT;你将试图把§Y[combatant_2.GetTitledName]§!逼入困境，强迫[combatant_2.GetHerHim]接受你的挑战……\n;;;;;;;;;;;;x
 duel_tooltip_rivals;§Y[From.GetTitledFirstName]§!和§Y[Root.GetTitledFirstName]§!是仇人\n;;;;;;;;;;;;x
 duel_tooltip_foes;§Y[From.GetTitledFirstName]§!和§Y[Root.GetTitledFirstName]§!是敌人\n;;;;;;;;;;;;x
 duel_tooltip_excommunicated;§Y[From.GetTitledFirstName]§!有「§Y狂热§!」特质且§Y[Root.GetTitledFirstName]§!已被§Y绝罚§!\n;;;;;;;;;;;;x
 duel_tooltip_decadent;§Y[From.GetTitledFirstName]§!是「§Y狂热§!」的穆斯林且§Y[Root.GetTitledFirstName]§!是§Y腐化者§!\n;;;;;;;;;;;;x
 duel_tooltip_sickness;决斗者没有角色修正§Y卧床不起§!或§Y严重病症§!\n;;;;;;;;;;;;x
-duel_tooltip_valid_target;§Y[Root.GetTitledFirstName]§! is a valid duel target, within your religion or culture\n;;;;;;;;;;;;x
+duel_tooltip_valid_target;你的文化和宗教允许与§Y[Root.GetTitledFirstName]§!决斗。\n;;;;;;;;;;;;x
 duel_tooltip_challenged_before;决斗者过去未曾在决斗中互相挑战过\n;;;;;;;;;;;;x
 duel_tooltip_recent_duel;决斗者近期未参与任何决斗\n;;;;;;;;;;;;x
 duel_tooltip_busy;决斗者未担负任务或处于战斗中\n;;;;;;;;;;;;x
 opinion_dishonorable_duel_minor;毫无荣誉可言的决斗;;;;;;;;;;;;x
 opinion_dishonorable_duel_major;毫无荣誉可言的决斗;;;;;;;;;;;;x
-String_face_description_fallback;kind;;;;;;;;;;;;x
+String_face_description_fallback;和蔼;;;;;;;;;;;;x
 String_eye;眼;;;;;;;;;;;;x
 String_hand;手;;;;;;;;;;;;x
 String_leg;腿;;;;;;;;;;;;x
@@ -139,7 +139,7 @@ String_bare_hands;空手;;;;;;;;;;;;x
 String_my_artifact_weapon_1;[dueling_weapon_1.GetName];;;;;;;;;;;;x
 String_my_artifact_weapon_2;[dueling_weapon_2.GetName];;;;;;;;;;;;x
 String_injure_them;伤害[This.GetHerHim];;;;;;;;;;;;x
-String_cut_body_part_off;slice half of [This.GetHerHis] [This.GetBodyPartInjured] completely off;;;;;;;;;;;;x
+String_cut_body_part_off;劈下了[This.GetHerHis]半个[This.GetBodyPartInjured];;;;;;;;;;;;x
 String_cut_their_body_part_out;砍掉了[This.GetHerHis][This.GetBodyPartInjured];;;;;;;;;;;;x
 String_sever_their_body_part_from_body;削下了[This.GetHerHis][This.GetBodyPartInjured];;;;;;;;;;;;x
 String_sever_their_head_from_their_body;削下了[This.GetHerHis]脑袋;;;;;;;;;;;;x
@@ -161,7 +161,7 @@ String_cut_my_body_part_off;劈下了我半个[This.GetBodyPartInjured];;;;;;;;;
 String_cut_my_body_part_out;砍掉了我的[This.GetBodyPartInjured];;;;;;;;;;;;x
 String_sever_my_body_part_from_body;削下了我的[This.GetBodyPartInjured];;;;;;;;;;;;x
 String_crush_my_body_part;一击击碎了我的[This.GetBodyPartInjured];;;;;;;;;;;;x
-String_crush_my_head;crush my... my head in;;;;;;;;;;;;x
+String_crush_my_head;我的脑袋碎了;;;;;;;;;;;;x
 String_stick_my_body_part_out;划过我的脸，将我[This.GetBodyPartInjured]挑了出来;;;;;;;;;;;;x
 String_crack_bones_of_my_body_part;击碎了我[This.GetBodyPartInjured]里几根骨头;;;;;;;;;;;;x
 String_crack_my_ribs;打断了我几根肋骨;;;;;;;;;;;;x
@@ -169,7 +169,7 @@ String_smack_across_my_body_part;[other_combatant.GetHerHis][other_combatant.Get
 String_trip_me;[other_combatant.GetHerHis][Root.GetDuelWeapon]趁势一劈，划出一个完美地半圆，吓得我倒吸了一口凉气，登时坐倒在了地上;;;;;;;;;;;;x
 String_hit_me_in_body_part;完美地击中了我[This.GetBodyPartInjured];;;;;;;;;;;;x
 String_hit_me_in_the_face;他正中我的下巴;;;;;;;;;;;;x
-String_knock_me_out;accidentally hit me straight in the gut, when failing to block an incoming kick;;;;;;;;;;;;x
+String_knock_me_out;没能挡住我的踢击，却意外正中我的肚子。;;;;;;;;;;;;x
 String_shoot_me_dead;射中了我的[This.GetBodyPartInjured];;;;;;;;;;;;x
 they_crawl_off_and_die_tt;照§Y[other_combatant.GetTitledFirstName]§!的伤势来看，他们怕是活不成了。\n;;;;;;;;;;;;x
 you_crawl_off_and_die_tt;照你这伤势，怕是活不成了。\n;;;;;;;;;;;;x
@@ -180,7 +180,7 @@ badly_bruised_desc;这角色被打得鼻青脸肿的。;;;;;;;;;;;;x
 swollen_wrist;手腕肿胀;;;;;;;;;;;;x
 swollen_wrist_desc;这角色的手腕受伤了。;;;;;;;;;;;;x
 swollen_ankle;脚踝肿胀;;;;;;;;;;;;x
-swollen_ankle_desc;This character currently has a slight limp to their walk.;;;;;;;;;;;;x
+swollen_ankle_desc;这名角色现在走起来有着些许的跛脚。;;;;;;;;;;;;x
 sore_muscles;肌肉酸痛;;;;;;;;;;;;x
 sore_muscles_desc;This character is often seen, presumably subconsciously, massaging their own shoulders.;;;;;;;;;;;;x
 cracked_ribs;肋骨折断;;;;;;;;;;;;x
@@ -188,71 +188,71 @@ cracked_ribs_desc;This character winces audibly every now and then.;;;;;;;;;;;;x
 concussion;脑震荡;;;;;;;;;;;;x
 concussion_desc;This character has recently taken a blow to the head.;;;;;;;;;;;;x
 fueled_by_rage;怒火中烧;;;;;;;;;;;;x
-fueled_by_rage_desc;This character is currently feeling highly motivated – by revenge.;;;;;;;;;;;;x
-carrying_torch;Carrying a Torch for Someone;;;;;;;;;;;;x
+fueled_by_rage_desc;这个角色正被复仇驱使，感到血脉偾张。;;;;;;;;;;;;x
+carrying_torch;把火把交给某个人;;;;;;;;;;;;x
 carrying_torch_desc;This character is experiencing some complicated emotions, and an increase in energy.;;;;;;;;;;;;x
 IS_NOT_CONNECTED_TRIGGER;Is NOT connected to $TARGET|Y$;;;;;;;;;;;;x
 IS_CONNECTED_TRIGGER;Is connected to $TARGET|Y$;;;;;;;;;;;;x
 CONNECTED_PROVINCE_STARTS;任何被连接的省份;;;;;;;;;;;;x
-NOT_CONNECTED_PROVINCE_STARTS;No Connected Province;;;;;;;;;;;;x
+NOT_CONNECTED_PROVINCE_STARTS;没有被连接的省份;;;;;;;;;;;;x
 DISCONNECTED_PROVINCE_STARTS;任何未被连接的省份;;;;;;;;;;;;x
-NOT_DISCONNECTED_PROVINCE_STARTS;No Disconnected Province;;;;;;;;;;;;x
+NOT_DISCONNECTED_PROVINCE_STARTS;没有未被连接的省份;;;;;;;;;;;;x
 NAVAL_PATH_DISTANCE_TRIGGER;Naval distance to $TO|Y$ is $COMPARISON|Y$ $VALUE|Y$;;;;;;;;;;;;x
-NOT_NAVAL_PATH_TRIGGER;Naval path to $TO|Y$ does NOT exist;;;;;;;;;;;;x
-NAVAL_PATH_TRIGGER;Naval path to $TO|Y$ exists;;;;;;;;;;;;x
-OLD_SAVE_WARNING;§YThis save is old, and may have a variety of issues as a result§!;;;;;;;;;;;;x
-ALT_START_RESET;Removing Historical Data;;;;;;;;;;;;x
-ALT_START_GENERATE_CHARS;Shattering World;;;;;;;;;;;;x
-ALT_START_SAVING;Saving;;;;;;;;;;;;x
-ALT_START_LOADING;Loading;;;;;;;;;;;;x
-setting_tier;Ruler Tier;;;;;;;;;;;;x
+NOT_NAVAL_PATH_TRIGGER;$TO|Y$的海军路径不存在;;;;;;;;;;;;x
+NAVAL_PATH_TRIGGER;存在$TO|Y$的海军路径;;;;;;;;;;;;x
+OLD_SAVE_WARNING;§Y这是一个旧存档，如果加载很有可能会出现各种问题§!;;;;;;;;;;;;x
+ALT_START_RESET;移除历史中;;;;;;;;;;;;x
+ALT_START_GENERATE_CHARS;破碎的世界;;;;;;;;;;;;x
+ALT_START_SAVING;保存中;;;;;;;;;;;;x
+ALT_START_LOADING;读取中;;;;;;;;;;;;x
+setting_tier;统治者等级;;;;;;;;;;;;x
 setting_tier_tooltip;Determines which Title Tier/s the generated Rulers will have.;;;;;;;;;;;;x
 setting_tier_counts;伯爵;;;;;;;;;;;;x
 setting_tier_counts_tooltip;An independent Count will be generated for every County;;;;;;;;;;;;x
 setting_tier_dukes;公爵;;;;;;;;;;;;x
 setting_tier_dukes_tooltip;A random Count in each De Jure Duchy will be assigned the Duke title, all other Counts will be made vassals;;;;;;;;;;;;x
-setting_tier_dukes_consolidated;Consolidated Dukes;;;;;;;;;;;;x
+setting_tier_dukes_consolidated;统一公爵领;;;;;;;;;;;;x
 setting_tier_dukes_consolidated_tooltip;One Ruler will be generated per De Jure Duchy;;;;;;;;;;;;x
-ALTERNATE_START;Alternate Start;;;;;;;;;;;;x
+ALTERNATE_START;另类开局;;;;;;;;;;;;x
 ALT_GENERATE;生成;;;;;;;;;;;;x
 ALT_SETTINGS;设置;;;;;;;;;;;;x
-ALTERNATE_START_TOOLTIP;§YAlternate Start§!;;;;;;;;;;;;x
+ALTERNATE_START_TOOLTIP;§Y另类开局§!;;;;;;;;;;;;x
 ALTERNATE_START_TOOLTIP_DELAYED;Shake up the game by shattering the world, or generating an alternate realm setup.;;;;;;;;;;;;x
 ALT_CANCEL_TOOLTIP;§Y取消§!;;;;;;;;;;;;x
 ALT_GENERATE_TOOLTIP;§Y生成世界§!;;;;;;;;;;;;x
-ALT_GENERATE_TOOLTIP_DELAYED;Generate an Alternate Start based on the settings;;;;;;;;;;;;x
-SHATTERED_SAVE_TOOLTIP;This save was created with Shattered World enabled;;;;;;;;;;;;x
-NOT_ALTERNATE_START_TRIGGER;Is NOT an Alternate Start;;;;;;;;;;;;x
-ALTERNATE_START_TRIGGER;Is an Alternate Start;;;;;;;;;;;;x
-NOT_SHATTERED_WORLD_TRIGGER;Is NOT a Shattered World;;;;;;;;;;;;x
-SHATTERED_WORLD_TRIGGER;Is a Shattered World;;;;;;;;;;;;x
-NOT_ALTERNATE_START_SETTING_TRIGGER;The $SETTING|Y$ setting does NOT match the given parameters;;;;;;;;;;;;x
-ALTERNATE_START_SETTING_TRIGGER;The $SETTING|Y$ setting matches the given parameters;;;;;;;;;;;;x
+ALT_GENERATE_TOOLTIP_DELAYED;按设定生成一个另类开局;;;;;;;;;;;;x
+SHATTERED_SAVE_TOOLTIP;这个存档创建时破碎世界处于开启状态。;;;;;;;;;;;;x
+NOT_ALTERNATE_START_TRIGGER;非另类开局;;;;;;;;;;;;x
+ALTERNATE_START_TRIGGER;是另类开局;;;;;;;;;;;;x
+NOT_SHATTERED_WORLD_TRIGGER;非破碎世界;;;;;;;;;;;;x
+SHATTERED_WORLD_TRIGGER;一个破碎的世界;;;;;;;;;;;;x
+NOT_ALTERNATE_START_SETTING_TRIGGER;$SETTING|Y$设置不符合给定的参数;;;;;;;;;;;;x
+ALTERNATE_START_SETTING_TRIGGER;$SETTING|Y$设置符合给定的参数;;;;;;;;;;;;x
 NOT_ALTERNATE_START_PARAMETER_TRIGGER;The $KEY|Y$ parameter does NOT have the value $VALUE|Y$ set;;;;;;;;;;;;x
 ALTERNATE_START_PARAMETER_TRIGGER;The $KEY|Y$ parameter has the value $VALUE|Y$ set;;;;;;;;;;;;x
 SHATTERED_REQUIRES_HOLY_FURY;§RThis save was created as a Shattered World and requires the Holy Fury DLC to continue.§!;;;;;;;;;;;;x
 setting_female_ruler_percentage;女性统治者比例;;;;;;;;;;;;x
 setting_female_ruler_percentage_tooltip;Determines the chance of each generated Ruler being a woman.;;;;;;;;;;;;x
-setting_age_span;Age Span;;;;;;;;;;;;x
-setting_age_span_tooltip;Determines the maximum and minimum age of generated Rulers.;;;;;;;;;;;;x
+setting_age_span;年龄范围;;;;;;;;;;;;x
+setting_age_span_tooltip;决定生成统治者的最小与最大年龄;;;;;;;;;;;;x
 setting_num_of_children;儿童数量;;;;;;;;;;;;x
-setting_num_of_children_tooltip;Determines the minimum and maximum number of children generated for each Ruler. Note that a Ruler cannot have more children than their age allows, and that twins count as one child.;;;;;;;;;;;;x
-setting_holding_types;Holding Types;;;;;;;;;;;;x
-setting_holding_types_tooltip;Determines which Holding Types are present in the game.;;;;;;;;;;;;x
-setting_holding_types_historical;Historical;;;;;;;;;;;;x
-setting_holding_types_historical_tooltip;County Holdings are unchanged from history.;;;;;;;;;;;;x
-setting_holding_types_feudal;Feudal;;;;;;;;;;;;x
-setting_holding_types_feudal_tooltip;Every County will have up to three Holdings generated: A Castle, a Temple, and a City.;;;;;;;;;;;;x
-setting_holding_types_tribal;Tribal;;;;;;;;;;;;x
-setting_holding_types_tribal_tooltip;Every County will have a single Tribal holding.;;;;;;;;;;;;x
-setting_holding_types_nomadic;Nomadic;;;;;;;;;;;;x
+setting_num_of_children_tooltip;决定每个统治者随机生成的孩子的最小与最大数目。需注意一名统治者的子女数不能超出他们的年龄允许的范围，而双胞胎视为一个孩子。;;;;;;;;;;;;x
+setting_holding_types;领地类型;;;;;;;;;;;;x
+setting_holding_types_tooltip;决定游戏中领地的类型;;;;;;;;;;;;x
+setting_holding_types_historical;史实;;;;;;;;;;;;x
+setting_holding_types_historical_tooltip;省份的地产与史实无异;;;;;;;;;;;;x
+setting_holding_types_feudal;封建;;;;;;;;;;;;x
+setting_holding_types_feudal_tooltip;每个伯爵领将生成多达三个地产：一座城堡，一座寺庙和一座城市;;;;;;;;;;;;x
+setting_holding_types_tribal;部落;;;;;;;;;;;;x
+setting_holding_types_tribal_tooltip;每个省份都将只有一个部落地产。;;;;;;;;;;;;x
+setting_holding_types_nomadic;游牧制;;;;;;;;;;;;x
 setting_holding_types_nomadic_tooltip;每个省份都将是游牧制。;;;;;;;;;;;;x
-setting_holding_types_tribal_nomadic;Tribal & Nomadic;;;;;;;;;;;;x
-setting_holding_types_tribal_nomadic_tooltip;Counties with certain Cultures will be Nomadic. Any other County will have a single Tribal Holding;;;;;;;;;;;;x
-setting_holding_slots;Holding Slots;;;;;;;;;;;;x
+setting_holding_types_tribal_nomadic;部落制与游牧制;;;;;;;;;;;;x
+setting_holding_types_tribal_nomadic_tooltip;某些文化的省份将是游牧制。其他省份将只有一个部落地产;;;;;;;;;;;;x
+setting_holding_slots;地产格;;;;;;;;;;;;x
 setting_holding_slots_tooltip;Determines the number of Holding Slots each County will have.;;;;;;;;;;;;x
 setting_holding_slots_historical;Historical;;;;;;;;;;;;x
-setting_holding_slots_historical_tooltip;The Holding Slots are unchanged from history.;;;;;;;;;;;;x
+setting_holding_slots_historical_tooltip;地产未在历史上改变过;;;;;;;;;;;;x
 setting_holding_slots_random;随机;;;;;;;;;;;;x
 setting_holding_slots_random_tooltip;每个省份都将随机地分配一到七个地产槽。;;;;;;;;;;;;x
 setting_holding_slots_one;一;;;;;;;;;;;;x
@@ -270,7 +270,7 @@ setting_holding_slots_six_tooltip;每个省份都将有六个地产槽。;;;;;;;
 setting_holding_slots_seven;七;;;;;;;;;;;;x
 setting_holding_slots_seven_tooltip;每个省份都将有七个地产槽。;;;;;;;;;;;;x
 DOUBLE_SLIDER_TOOLTIP;Minimum: $MIN$\nMaximum: $MAX$;;;;;;;;;;;;x
-AI_ACCEPTANCE_YES_DESC;§GThey will accept this interaction§!;;;;;;;;;;;;x
+AI_ACCEPTANCE_YES_DESC;§G他们将会接受这次活动§!;;;;;;;;;;;;x
 AI_ACCEPTANCE_MAYBE_DESC;§YThey will maybe accept this interaction§!;;;;;;;;;;;;x
 AI_ACCEPTANCE_NO_DESC;§RThey will NOT accept this interaction§!;;;;;;;;;;;;x
 AI_ACCEPTANCE_TOTAL;Acceptance Score: $TOTAL|+0$;;;;;;;;;;;;x
@@ -278,25 +278,25 @@ AI_ACCEPTANCE_HUMAN_MAYBE;Being a player, how they will respond is unknown;;;;;;
 bear.6.undo;This is unbearable!;;;;;;;;;;;;x
 UNDO_BEAR_TRANSFORMATION;Waking up, everything is back to normal. Maybe all of this was just a dream...;;;;;;;;;;;;x
 MOVEMENT_LOCKED;§YMovement is Locked§!;;;;;;;;;;;;x
-MOVEMENT_LOCKED_DELAYED;As this army has moved more than halfway to the next County, the move cannot be canceled. Further moves can be canceled or queued up.;;;;;;;;;;;;x
-UNIT_MOVEMENT_LOCKED;§YThis army has its movement locked and therefore cannot cancel its current move§!;;;;;;;;;;;;x
+MOVEMENT_LOCKED_DELAYED;这支军队已经走完行进路程的一半，行动已经无法取消了。你仍可取消或安排之后的行军路线。;;;;;;;;;;;;x
+UNIT_MOVEMENT_LOCKED;§Y这支军队的行动已经锁定，因此无法取消当前的移动§!;;;;;;;;;;;;x
 UNIT_MOVEMENT_LOCKING_IN;This army will have its movement locked on $DATE|Y$ (in $DAYS|Y$ days), becoming unable to cancel its current move;;;;;;;;;;;;x
 UNIT_MOVEMENT_WOULD_LOCK_IN;Ordering the army to move to this County would cause it to have its movement locked on $DATE|Y$ (in $DAYS|Y$ days), becoming unable to cancel its current move;;;;;;;;;;;;x
-RULE_MOVEMENT_LOCK;Army Movement Lock;;;;;;;;;;;;x
-RULE_MOVEMENT_LOCK_ON_DESC;When an army has moved over halfway into a County, the order will be locked and can no longer be canceled. While movement is locked you can still cancel further orders or queue up additional orders.;;;;;;;;;;;;x
-RULE_MOVEMENT_LOCK_OFF_DESC;Army movement will never be locked.;;;;;;;;;;;;x
-MTTH_GAIN_WITH_LOC;$NAME$: $VAL|+=0$;;;;;;;;;;;;x
+RULE_MOVEMENT_LOCK;移动锁定;;;;;;;;;;;;x
+RULE_MOVEMENT_LOCK_ON_DESC;一旦军队走完行进路程的一半，行动便无法中止了。不过，你仍可以取消或者更改之后的行军路线。;;;;;;;;;;;;x
+RULE_MOVEMENT_LOCK_OFF_DESC;无行动锁定;;;;;;;;;;;;x
+MTTH_GAIN_WITH_LOC;$NAME$：$VAL|+=0$;;;;;;;;;;;;x
 DECAYS_ON;Decays $DATE|Y$;;;;;;;;;;;;x
-STACKING_MODIFIER_COUNT; (x$COUNT$);;;;;;;;;;;;x
-STACKING_TOTAL_EFFECT;§YTotal effect:§!;;;;;;;;;;;;x
-alert_coronation_needed_instant;§YRuler Uncrowned§!;;;;;;;;;;;;x
+STACKING_MODIFIER_COUNT;(x$COUNT$);;;;;;;;;;;;x
+STACKING_TOTAL_EFFECT;§Y综合效果：§!;;;;;;;;;;;;x
+alert_coronation_needed_instant;§Y未知统治者§!;;;;;;;;;;;;x
 alert_coronation_needed_delayed;A [Root.Religion.GetName] ruler who has not been officially crowned by a notable member of the Church will never be fully accepted by [Root.GetHerHis] vassals as legitimate.\nThe more years an adult [Root.Religion.GetName] [Root.GetTitle] wastes before being anointed, the more likely [Root.GetHerHis] vassals will be to doubt the validity of [Root.GetHerHis] divine right to rule.;;;;;;;;;;;;x
 CORONATION_CURRENT_EFFECT;§YCurrent effects:§!;;;;;;;;;;;;x
 RETINUES_NOT_REFINORCING_DESC;This removes the reinforce cost. Does not affect prestige-based units.;;;;;;;;;;;;x
 RETINUES_HALF_REINFORCING_DESC;This halves the reinforce cost. Does not affect prestige-based units.\n( §Y$GROWTH$%§! of the retinue will reinforce per month ).;;;;;;;;;;;;x
 RETINUES_FULL_REINFORCING_DESC;This means you will pay full reinforce cost. Prestige-based units always reinforce at this rate.\n( §Y$GROWTH$%§! of the retinue will reinforce per month );;;;;;;;;;;;x
 CHARVIEW_TRAITS;§Y特质§!;;;;;;;;;;;;x
-CHARVIEW_MODIFIERS;§YModifiers§!;;;;;;;;;;;;x
+CHARVIEW_MODIFIERS;§Y修正§!;;;;;;;;;;;;x
 FOUNDER_SCOPE;血脉建立者：;;;;;;;;;;;;x
 BLOODLINE_FOUNDED_BY;血脉由$OWNER$建立。;;;;;;;;;;;;x
 BLOODLINE_FOUNDED;§LBloodline Founded on §!$DATE|Y$;;;;;;;;;;;;x
@@ -314,7 +314,7 @@ IS_NOT_BLOODLINE_MEMBER_OF_TRIGGER;Is NOT a part of the $BLOODLINE|Y$!;;;;;;;;;;
 IS_BLOODLINE_MEMBER_OF_TRIGGER;Is a part of the $BLOODLINE|Y$!;;;;;;;;;;;;x
 ANY_BLOODLINE_MEMBER_STARTS;Any Bloodline Member:;;;;;;;;;;;;x
 ANY_OWNED_BLOODLINE_STARTS;Any Possessed Bloodline:;;;;;;;;;;;;x
-ANY_BLOODLINE_STARTS;Any Bloodline:;;;;;;;;;;;;x
+ANY_BLOODLINE_STARTS;任意血脉：;;;;;;;;;;;;x
 DOES_NOT_SHARES_ANY_BLOODLINE_WITH_TRIGGER;Does NOT share a §YBloodline§! with $CHAR|Y$;;;;;;;;;;;;x
 SHARES_ANY_BLOODLINE_WITH_TRIGGER;Shares a §YBloodline§! with $CHAR|Y$;;;;;;;;;;;;x
 NOT_SAME_BLOODLINE_TRIGGER;Is NOT $BLOODLINE|Y$;;;;;;;;;;;;x
@@ -339,7 +339,7 @@ ANY_KILL_LIST_CHARACTER_START;Any character in Kill List:;;;;;;;;;;;;x
 ALL_KILL_LIST_CHARACTER;All characters in Kill List:;;;;;;;;;;;;x
 KILL_LIST_INTERFACE_LABEL;§YKills§!;;;;;;;;;;;;x
 HAS_NO_KILLS;This character is not a known murderer.;;;;;;;;;;;;x
-HolyFuryDLC;Holy Fury;;;;;;;;;;;;x
+HolyFuryDLC;神圣之怒;;;;;;;;;;;;x
 send_baptism_request;Contact [From.GetName]'s liege and ask [From.GetHerHim] to sponsor your realm's conversion;;;;;;;;;;;;x
 baptism_request_cooldown;Has recently asked for a mass conversion;;;;;;;;;;;;x
 opinion_baptism_sponsor_target;Mass Conversion Request;;;;;;;;;;;;x
@@ -350,7 +350,7 @@ WAR_NAME_TRIBAL_INDEPENDENCE;$ORDER$War against the Great $SECOND_ADJ$ Conversio
 request_sponsored_baptism;请求大规模改信;;;;;;;;;;;;x
 request_sponsored_baptism_desc;拥抱一个更加文明的宗教可以帮助你在领地内集权并抛弃你的部落生活方式。\n\n你可以要求[Root.GetTitledName]赞助你的领地改信[Root.Religion.GetName]。在一个合法政权的帮助和支持下，转变将会变得更容易。\n[From.GetMassBaptismTribalAuthorityHint];;;;;;;;;;;;x
 PAGAN_BAPTISM_DESC;§YRequest Mass Conversion§!;;;;;;;;;;;;x
-NOT_TRUE_BELIEVER;Is NOT a True Believer;;;;;;;;;;;;x
+NOT_TRUE_BELIEVER;不是真信徒;;;;;;;;;;;;x
 NOT_CURRENTLY_BAPTIZING;§Y[Root.GetTitledName]§! is NOT currently sponsoring the conversion of a realm;;;;;;;;;;;;x
 NOT_ASKED_BAPTISM_RECENTLY;Has NOT recently petitioned for a mass conversion [From.GetBaptismTimer];;;;;;;;;;;;x
 NOT_BEEN_ASKED_BAPTISM_RECENTLY;§Y[Root.GetTitledName]§! has NOT been recently petitioned for a mass conversion [Root.GetBaptismTimer];;;;;;;;;;;;x
@@ -372,16 +372,16 @@ accept_baptism_request;[Root.GetTitledName] will sign a Non-Aggression Pact with
 EVTOPTBHF20000;Refuse;;;;;;;;;;;;x
 refuse_baptism_request;[Root.GetTitledName] will inform [From.GetTitledName] that [Root.GetSheHe] is not interested in sponsoring the conversion of [From.PrimaryTitle.GetName] to the [Root.Religion.GetName] faith.;;;;;;;;;;;;x
 EVTDESCHF20001;[Root.GetTitledName],\nI sympathize with your dream of a [From.Religion.GetName] [Root.PrimaryTitle.GetName], but I am afraid I cannot aid you in your mission at this moment.\n\nSincerely,\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20001;Unfortunate.;;;;;;;;;;;;x
+EVTOPTAHF20001;真倒霉。;;;;;;;;;;;;x
 EVTDESCHF20002;[Root.GetTitledName],\nI am honored to accept your plea to help the poor people of [Root.PrimaryTitle.GetName] see the light and embrace the [From.Religion.GetName] faith.\nWe will begin preparations for a great conversion immediately.\n\nSincerely, \n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20002;Good.;;;;;;;;;;;;x
+EVTOPTAHF20002;很好。;;;;;;;;;;;;x
 EVTTOOLTIPHF20003;§Y[From.GetTitledName]§! will send [From.Religion.GetName] priests to prepare a large ceremony for the mass conversion of your subjects.;;;;;;;;;;;;x
 EVTTOOLTIPHF20005;All vassals of §Y[Root.PrimaryTitle.GetName]§! will be invited to the impending ceremony.;;;;;;;;;;;;x
 EVTTITLE20003;The Conversion of [converting_king.PrimaryTitle.GetName];;;;;;;;;;;;x
 EVTDESCHFB20003;You meet with your vassals and [sponsoring_king.GetTitledFirstName]'s Imams in the middle of [converting_king.Capital.GetName]'s square.\nAddressing the crowd of commoners gathered all around you, you publicly denounce the old gods and spit on their false idols, gesturing for your vassals to do the same. A few complaints rise from the crowd, but they are swiftly quelled. Then, as the Imams set fire to the icons, you declare your faith to Allah and to His Prophet.\nYou all turn your back to the pyre of false gods and bow to Mecca.;;;;;;;;;;;;x
 EVTDESCHFC20003;The hooded priests from [sponsoring_king.Capital.GetName] arrive at dawn, but the ceremony begins only after sunset, once they have helped the icons of the new gods adjust to their new home in your temple.\nYou meet with your vassals outside the city, a crowd of your subjects assembling all around you, and then, under the grim echoes of drums and horns, the Germanic priests begin the rite. They paint your faces with the blood of the sacrificial lambs, burn sacred herbs and chant their secret spells, as you all enter a trance.\nVisions of horror and delight accompany you for the rest of the night. When you wake at dawn of the next day, the priests are already gone. Little by little, the confused crowd of converts returns to [converting_king.Capital.GetName].;;;;;;;;;;;;x
 EVTDESCHFD20003;Following the instructions of [sponsoring_king.GetTitledFirstName]'s priests, you assemble your vassals and ride out of [converting_king.Capital.GetName] on your best horse.\nThe Tengri priests lead you away from the civilized roads, deep into the wilderness, refusing to answer to any query about your destination.\nAfter riding for the entire day, you stop at the edge of a cliff, looking at the bleeding hues of the sunset. The priests burn a few offerings of food to the sky god, creating a large line of dark smoke from a small set of fires. Then, as their chants echo through the air, you ride with your vassals through the smoke and cleanse yourself of the old gods.;;;;;;;;;;;;x
-EVTDESCHFE20003;The priests from [sponsoring_king.Capital.GetName] insist that the ritual be performed at sunset. When the time comes you meet your vassals at the top of a cliff outside [converting_king.Capital.GetName], with a crowd of your subjects waiting below. \nThe priests start the ceremony chanting and playing their sacred instruments. When the last rays of sun disappear in the distance you and your vassals proclaim that your old gods are dying with this day. The priests resume their singing and dancing, enduring for the entirety of the night, even after most of the common crowd has fallen asleep. When dawn comes, they proclaim that you are reborn with the new day under the protection of Dievas.;;;;;;;;;;;;x
+EVTDESCHFE20003;来自[sponsoring_king.Capital.GetName]的祭司们坚持要在日落时举行仪式。当时间到了，你在[converting_king.Capital.GetName]城外的悬崖顶上会见你的封臣，人们在下面等待着你。\n祭司们开始仪式吟唱，演奏圣器。当最后一缕阳光消失在远方时，你和你的封臣宣布你们的旧神在这一天死去。祭司们继续吟唱跳舞，坚持了一整晚，即使大多数普通人已经睡着了。当黎明到来时，他们宣称你在季耶瓦斯的保护下于新的一天重生。;;;;;;;;;;;;x
 EVTDESCHFF20003;The priests from [sponsoring_king.Capital.GetName] insist that the ritual be performed at sunset. When the time comes you meet your vassals at the top of a cliff outside [converting_king.Capital.GetName], with a crowd of your subjects waiting below. \nThe priests start the ceremony creating a large fire with your offerings in order to satiate the spirits. When the last rays of sun disappear in the distance you and your vassals proclaim that your old gods are dying with this day. The priests resume their singing and dancing, enduring for the entirety of the night, even after most of the common crowd has fallen asleep. When dawn comes and the pillar of smoke finally vanishes, they proclaim that the sky god has accepted your offering and welcomes you under his protection.;;;;;;;;;;;;x
 EVTDESCHFG20003;The priests from [sponsoring_king.Capital.GetName] insist that the ritual be performed at sunset. When the time comes you meet your vassals at the top of a cliff outside [converting_king.Capital.GetName], with a crowd of your subjects waiting below. \nThe priests start the ceremony beating their drums to gain the favor of the thunder god. When the last rays of sun disappear in the distance you and your vassals proclaim that your old gods are dying with this day. The priests resume their singing and dancing, enduring for the entirety of the night, even after most of the common crowd has fallen asleep. When dawn comes, they proclaim that you are reborn with the new day under the protection of Perun.;;;;;;;;;;;;x
 EVTDESCHFH20003;Following the instructions of the Aztec priests, you round up a group of convicted criminals and have them dragged in the middle of [sponsoring_king.Capital.GetName]'s square, where a crowd has already rallied.\nThere, the priests dress them up with blind masks depicting your old gods and adorn you and your vassals with the garments of the new ones.\nThe confused and scared criminals are then set free, and in a ritualistic skirmish, you and your vassals slaughter them in front of your subjects, bathing in their blood and proclaiming your allegiance to the gods of the West.;;;;;;;;;;;;x
@@ -414,9 +414,9 @@ EVTOPTAHF20005;This is great news!;;;;;;;;;;;;x
 EVTTOOLTIPHFA20006;Inform §Y[From.GetTitledName]§! that you are happy for [converting_king.GetHerHis] decision.\nWhen the Mass Conversion takes place all of your Vassals, Courtiers, and Provinces will turn §Y[sponsoring_king.Religion.GetName]§!.;;;;;;;;;;;;x
 EVTOPTBHF20005;I can finally worship [sponsoring_king.Religion.GetRandomGodName] openly!;;;;;;;;;;;;x
 EVTTOOLTIPHFB20006;Come out as a [sponsoring_king.Religion.GetName].\nWhen the Mass Conversion takes place all of your Vassals, Courtiers, and Provinces will turn §Y[sponsoring_king.Religion.GetName]§!.;;;;;;;;;;;;x
-EVTOPTCHF20005;Of course I will convert (Lie).;;;;;;;;;;;;x
+EVTOPTCHF20005;我当然愿意改信。（撒谎）;;;;;;;;;;;;x
 EVTTOOLTIPHFC20006;Go to §Y[converting_king.Capital.GetName]§! and pretend to convert to your liege's new faith, while secretly remaining §Y[Root.Religion.GetName]§!.\nWhen the Mass Conversion takes place all of your Vassals will secretly maintain their old beliefs. All your Provinces will become §Y[sponsoring_king.Religion.GetName]§!, but communities of Pagans will survive within your demesne, hiding amongst the converts.;;;;;;;;;;;;x
-EVTOPTDHF20005;Of course I will convert.;;;;;;;;;;;;x
+EVTOPTDHF20005;我当然愿意改信。;;;;;;;;;;;;x
 EVTTOOLTIPHFD20006;Inform your liege that you will join [From.GetHerHim] and become §Y[sponsoring_king.Religion.GetName]§!, and so will all your subjects.\nWhen the Mass Conversion takes place all of your Vassals, Courtiers, and Provinces will turn §Y[sponsoring_king.Religion.GetName]§!.;;;;;;;;;;;;x
 EVTOPTEHF20005;I will never forsake the old ways!;;;;;;;;;;;;x
 EVTTOOLTIPHFE20007;Inform your liege that neither you nor your subjects will take part in [From.GetHerHis] conversion.;;;;;;;;;;;;x
@@ -13091,7 +13091,7 @@ opinion_held_great_festival;Held Great Festival;;;;;;;;;;;;x
 great_tribal_festival_1;Festivals Held;;;;;;;;;;;;x
 great_tribal_festival_2;Great Festivals Held;;;;;;;;;;;;x
 string_baptism_low_tribal_authority;Undergoing a §YMass Conversion§! while below §YAbsolute Tribal Authority§! will increase the chances of §YPagan Vassals§! rejecting the new religion.;;;;;;;;;;;;x
-mass_baptism_capital_traders;Foreign Traders;;;;;;;;;;;;x
+mass_baptism_capital_traders;外国商人;;;;;;;;;;;;x
 mass_baptism_capital_traders_desc;The recent mass conversion of this province's owner has attracted new merchants from the more civilized parts of the world, revitalizing local trade.;;;;;;;;;;;;x
 mass_baptism_capital_missionaries;Charity Sermons;;;;;;;;;;;;x
 mass_baptism_capital_missionaries_desc;The new clergy of this realm is attempting to sway the remaining pagan converts to fully embrace the new faith.;;;;;;;;;;;;x
@@ -13101,15 +13101,15 @@ EVTDESCAHF20112;[From.GetTitledFirstName] has been suggesting for a few days now
 EVTOPTAHF20112;Sounds very convenient...;;;;;;;;;;;;x
 EVTOPTBHF20112;No, we must keep this tradition.;;;;;;;;;;;;x
 EVTDESCAHF20113;[From.GetTitledFirstName] thinks that, by spreading the word about my recent conversion to other [Root.Religion.GetName] realms, I will be able to significantly increase the prosperity of [Root.Capital.GetName].;;;;;;;;;;;;x
-EVTOPTAHF20113;We need to attract more traders.;;;;;;;;;;;;x
-EVTOPTBHF20113;Do you know of other missionaries?;;;;;;;;;;;;x
-EVTOPTCHF20113;I wish to have more experienced craftsmen.;;;;;;;;;;;;x
-EVTOPTDHF20113;No, I do not want to risk upsetting my people.;;;;;;;;;;;;x
+EVTOPTAHF20113;我们需要吸引更多的商人。;;;;;;;;;;;;x
+EVTOPTBHF20113;你知道其他传教士吗？;;;;;;;;;;;;x
+EVTOPTCHF20113;我希望得到更多有经验的工匠。;;;;;;;;;;;;x
+EVTOPTDHF20113;不，我不想冒惹恼我的人民的风险。;;;;;;;;;;;;x
 EVTDESCAHF20114;There are many valuable texts that [From.GetTitledFirstName] has brought with [From.GetHerHim] when moving to [Root.Capital.GetName]. Today, [From.GetSheHe] asked me if I was interested in learning more about [Root.Religion.GetName] arts and laws.;;;;;;;;;;;;x
 EVTOPTAHF20114;Yes, tell me more about your lawmakers.;;;;;;;;;;;;x
 EVTOPTBHF20114;Yes, tell me more about your crafts.;;;;;;;;;;;;x
 EVTOPTCHF20114;Yes, tell me more about your legends.;;;;;;;;;;;;x
-EVTOPTDHF20114;No, I am not interested.;;;;;;;;;;;;x
+EVTOPTDHF20114;不，我不感兴趣。;;;;;;;;;;;;x
 EVTDESCHFA20115;After having examined the state of [Root.Capital.GetName], [From.GetTitledFirstName] assures me that there are several ways in which I can improve our way of life, simply by adopting some of the tools and laws followed by most [Root.Religion.GetName] rulers.;;;;;;;;;;;;x
 EVTOPTAHF20115;Help me improve our military.;;;;;;;;;;;;x
 EVTOPTBHF20115;Help me improve our economy.;;;;;;;;;;;;x
@@ -13118,10 +13118,10 @@ EVTOPTDHF20115;No, these are our traditions.;;;;;;;;;;;;x
 EVTDESCHFA20116;I have heard [From.GetTitledFirstName] talking about the customs of other [From.Religion.GetName] [From.Culture.GetName] rulers for quite some time now since [From.GetHerHis] arrival, to the point that I have started to feel allured by some of the customs of the [From.Culture.GetName] people, just as much as I was of their religion...;;;;;;;;;;;;x
 EVTOPTAHF20116;I wish to be a [From.Culture.GetName] too!;;;;;;;;;;;;x
 EVTOPTBHF20116;No, I must preserve our ancient traditions.;;;;;;;;;;;;x
-EVTDESCHFA20117;A group of militant faithful have come to [Root.Capital.GetName], attracted by the sermons of [From.GetTitledFirstName]. Although foreigners, these warriors appear to be willing to join my army and help me spread the word of [Root.Religion.GetName].;;;;;;;;;;;;x
-EVTOPTAHF20117;You are welcome!;;;;;;;;;;;;x
-EVTOPTBHF20117;I cannot allow foreign troops within my realm!;;;;;;;;;;;;x
-available_because_pretty;This option is available because you are §YAttractive§!;;;;;;;;;;;;x
+EVTDESCHFA20117;一个激进的虔信者团体被[From.GetTitledFirstName]的步道所吸引，来到了[Root.Capital.GetName]。虽然是外国人，这些战士似乎有意加入我的军队，助我传播[Root.Religion.GetName]。;;;;;;;;;;;;x
+EVTOPTAHF20117;欢迎你们！;;;;;;;;;;;;x
+EVTOPTBHF20117;我不会允许外国军队留在我的领地！;;;;;;;;;;;;x
+available_because_pretty;此选项是可用的，因为你有§Y魅力非凡§!的特质;;;;;;;;;;;;x
 available_because_dumb;This option is available because you are dumb;;;;;;;;;;;;x
 opinion_lousy_winner;Lousy Winner;;;;;;;;;;;;x
 opinion_kind_winner;Gallant Winner;;;;;;;;;;;;x
@@ -14236,7 +14236,7 @@ EVTOPTBHF25600;我会需要你的技巧，[smart_hunting_partner.GetFirstName];;
 TT_EVTOPTBHF25600;Go on a hunt to fell the great beast alongside §Y[smart_hunting_partner.GetTitledFirstName]§!.;;;;;;;;;;;;x
 EVTOPTCHF25600;I would have nobody but you by my side, [loyal_hunting_partner.GetFirstName].;;;;;;;;;;;;x
 TT_EVTOPTCHF25600;Go on a hunt to fell the great beast alongside §Y[loyal_hunting_partner.GetTitledFirstName]§!.;;;;;;;;;;;;x
-EVTOPTDHF25600;The man is raving. There is no such a beast.;;;;;;;;;;;;x
+EVTOPTDHF25600;这人在说胡话。根本没有这样的野兽。;;;;;;;;;;;;x
 EVTDESCHF25601;Before we leave for this perilous journey to slay the monster that is menacing my subjects, I should make an offering to [Root.Religion.GetHighGodName], to make sure I am shielded from the preternatural powers of the creature.;;;;;;;;;;;;x
 EVTOPTAHF25601;I will burn the best cattle from my stock.;;;;;;;;;;;;x
 EVTOPTBHF25601;I will offer something of value for a safe journey.;;;;;;;;;;;;x
@@ -15718,26 +15718,26 @@ d_irtysh;Irtysh;;;;;;;;;;;;x
 d_strymon;Strymon;;;;;;;;;;;;x
 d_ohrid;Ohrid;;;;;;;;;;;;x
 d_athens;Hellas;;;;;;;;;;;;x
-d_cephalonia;Cephalonia;;;;;;;;;;;;x
-d_beshbaliq;Beshbaliq;;;;;;;;;;;;x
-d_abakan;Abakan;;;;;;;;;;;;x
-d_uvs;Uvs;;;;;;;;;;;;x
-d_kara_khorum;Kara Khorum;;;;;;;;;;;;x
-d_baygal;Baygal;;;;;;;;;;;;x
+d_cephalonia;凯法利尼亚;;;;;;;;;;;;x
+d_beshbaliq;别失八里;;;;;;;;;;;;x
+d_abakan;阿巴坎;;;;;;;;;;;;x
+d_uvs;乌布斯;;;;;;;;;;;;x
+d_kara_khorum;哈剌和林;;;;;;;;;;;;x
+d_baygal;贝加尔;;;;;;;;;;;;x
 d_gobi_altay;Gobi Altay;;;;;;;;;;;;x
 d_barkul;Barkul;;;;;;;;;;;;x
 d_juyan;居延;;;;;;;;;;;;x
-d_optimatoi;Optimatoi;;;;;;;;;;;;x
-d_abydos;Abydos;;;;;;;;;;;;x
+d_optimatoi;奥普提马通;;;;;;;;;;;;x
+d_abydos;阿卑多斯;;;;;;;;;;;;x
 d_bucellarian;Bucellarian;;;;;;;;;;;;x
 d_nikaea;Opsikion;;;;;;;;;;;;x
-d_cappadocia;Cappadocia;;;;;;;;;;;;x
-PROV316;Landeck;;;;;;;;;;;;x
-PROV362;South Bohemia;;;;;;;;;;;;x
+d_cappadocia;卡帕多西亚;;;;;;;;;;;;x
+PROV316;兰德克;;;;;;;;;;;;x
+PROV362;南波希米亚;;;;;;;;;;;;x
 PROV394;Onega;;;;;;;;;;;;x
 PROV397;Snopa;;;;;;;;;;;;x
 PROV400;Illyinsk;;;;;;;;;;;;x
-PROV475;Thebes;;;;;;;;;;;;x
+PROV475;底比斯;;;;;;;;;;;;x
 PROV616;Bandja;;;;;;;;;;;;x
 PROV622;Aral;;;;;;;;;;;;x
 PROV623;Kutan Bulak;;;;;;;;;;;;x
@@ -15752,7 +15752,7 @@ PROV1015;Armorican Coast;;;;;;;;;;;;x
 PROV1029;Coast of Rome;;;;;;;;;;;;x
 PROV1062;Isle of Koulali;;;;;;;;;;;;x
 PROV1064;Gulf of Astrabat;;;;;;;;;;;;x
-PROV1132;Irtysh;;;;;;;;;;;;x
+PROV1132;额尔特斯;;;;;;;;;;;;x
 PROV1329;Anuy;;;;;;;;;;;;x
 PROV1378;Madminiya;;;;;;;;;;;;x
 PROV1424;Balasagun;;;;;;;;;;;;x
@@ -17349,8 +17349,8 @@ EVTDESCAHF24209;Despite my best efforts, my peers have yet to recognize the legi
 EVTOPTAHF24209;We need more celebrations and exposure!;;;;;;;;;;;;x
 EVTOPTBHF24209;The voice of the [Root.GetTitle] of [Root.PrimaryTitle.GetName] will be heard!;;;;;;;;;;;;x
 EVTOPTCHF24209;There must be a way to educate those peasants...;;;;;;;;;;;;x
-EVTOPTDHF24209;It is no use. This was nothing but a huge waste of time.;;;;;;;;;;;;x
-EVTTITLEHF24210;The Heir of Alexander;;;;;;;;;;;;x
+EVTOPTDHF24209;没用，这除了浪费大把时间外毫无意义。;;;;;;;;;;;;x
+EVTTITLEHF24210;亚历山大的继业者;;;;;;;;;;;;x
 EVTDESCAHF24210;There have been many rumors about [From.GetTitledFirstName] recently.\nUsing the help of charlatans, sorcerers and grave-robbers, the [From.GetTitle] of [From.PrimaryTitle.GetName] has fabricated a ludicrous claim to Alexander's the Great dynasty. Many rulers have made such ludicrous assertions in the past, trying to latch onto the glorious name of the ancient conqueror, yet none had been taken seriously, until now.\nBy associating [From.GetHerHis] family to Alexander, [From.GetTitledFirstName] has succeeded in increasing enormously the prestige of the [From.GetOnlyDynastyName] for centuries to come.;;;;;;;;;;;;x
 EVTOPTAHF24210;How can people fall for such a blatant fabrication?;;;;;;;;;;;;x
 EVTOPTBHF24210;And I could not be happier for us!;;;;;;;;;;;;x
@@ -18375,9 +18375,9 @@ String_share_kiss;"I would happily learn more about your [Root.GetTeachingMoment
 String_kissed_on_cheek;"Can I kiss you?" [student.GetSheHe] asks suddenly, and I can't stop myself from letting out a laugh. Then I shrug, but make myself clear: only on the cheek.;;;;;;;;;;;;x
 String_kissed_light;"I am so grateful. I could kiss you!" [student.GetSheHe] laughs. I blush, attempting to seem disinterested. [student.GetSheHeCap] lifts me up, and twirls me around, kissing me on the cheek. "Thank you", [student.GetSheHe] says again. Then the moment is gone.;;;;;;;;;;;;x
 teaching_moment_lack_of_focus_title;A Lack of [Root.GetTeachingMomentFocusCap];;;;;;;;;;;;x
-String_bravery;bravery;;;;;;;;;;;;x
-String_ambition;ambition;;;;;;;;;;;;x
-String_patience;patience;;;;;;;;;;;;x
+String_bravery;勇敢;;;;;;;;;;;;x
+String_ambition;野心;;;;;;;;;;;;x
+String_patience;耐心;;;;;;;;;;;;x
 String_diligence;diligence;;;;;;;;;;;;x
 String_Bravery;Bravery;;;;;;;;;;;;x
 String_Ambition;Ambition;;;;;;;;;;;;x
@@ -18390,7 +18390,7 @@ string_crestfallen;crestfallen;;;;;;;;;;;;x
 string_uncouth;uncouth;;;;;;;;;;;;x
 String_wounded;wounded;;;;;;;;;;;;x
 String_tough_looking;tough-looking;;;;;;;;;;;;x
-String_slouching;slouching;;;;;;;;;;;;x
+String_slouching;懒惰;;;;;;;;;;;;x
 String_slam_their_head;smack my [Root.GetDuelWeapon] into the side of [other_combatant.GetHerHis] head;;;;;;;;;;;;x
 String_slam_my_head;smack [other_combatant.GetHerHis] [other_combatant.GetDuelWeapon] into the side of my head;;;;;;;;;;;;x
 String_slam_their_limb;whack my [Root.GetDuelWeapon] into [other_combatant.GetHerHis] [other_combatant.GetBodyPartInjured];;;;;;;;;;;;x
@@ -18402,7 +18402,7 @@ EVTDESC30052;My [my_spouse.GetHusbandWife] [my_spouse.GetFirstName] explains tha
 EVTDESC30052_B;My [my_spouse.GetHusbandWife] [my_spouse.GetFirstName] explains that [my_spouse.GetSheHe] is captivated by the grace and strength of hunting birds, and begs me for a bird.\n"They are just so cute, with their little wings and their... Are they called beaks?", [my_spouse.GetSheHe] asks, gesturing at my nose.;;;;;;;;;;;;x
 TRANSFER_ARTIFACT;Transfer $WHAT|Y$ from the Treasury of $FROM|Y$, to the Treasury of $TO|Y$\n;;;;;;;;;;;;x
 NEW_ARTIFACT_RECEIVED_LOG;$CHARACTER|Y$ has had $ARTIFACT|Y$ added to their Treasury.;;;;;;;;;;;;x
-terrain_no_special_effects;No Special Effects;;;;;;;;;;;;x
+terrain_no_special_effects;没有效果;;;;;;;;;;;;x
 mother_dark_rest;Secluded Rest;;;;;;;;;;;;x
 commander_slain;Enemy Commander Slain;;;;;;;;;;;;x
 EVTOPTFUS_FROM_TRUTH_BOMB_TT;§Y[From.GetFirstName]§! might be pleased with you.;;;;;;;;;;;;x
@@ -18418,8 +18418,8 @@ EVTOPTA_HF_12011;Pfft. Good luck, I suppose.;;;;;;;;;;;;x
 EVTOPTB_HF_12011;I know I still have a lot to learn.;;;;;;;;;;;;x
 EVTOPTA_HF_12103_TT;Others will carry on the legendary journey.;;;;;;;;;;;;x
 EVTOPTB_HF_12103;And then there was only one.;;;;;;;;;;;;x
-EVTOPTB_HF_12103_B;And so it falls to me to continue this journey alone.;;;;;;;;;;;;x
-EVTOPTB_HF_12103_TT;It is you!;;;;;;;;;;;;x
+EVTOPTB_HF_12103_B;最后我只能独自继续这一旅途;;;;;;;;;;;;x
+EVTOPTB_HF_12103_TT;是你！;;;;;;;;;;;;x
 EVTOPTC_HF_12103;So that is the last of the legendary journey.;;;;;;;;;;;;x
 EVTOPTC_HF_12103_TT;The §YLegend§! progress bar is deactivated.;;;;;;;;;;;;x
 EVTDESC_HF_12302_B;They say [From.Capital.GetName] will spend decades mourning the loss of [From.GetTitledName]. Rarely have the [From.Culture.GetName] seen a warrior like [From.GetFirstName], and the [From.GetCapitalHolding] in [From.Capital.Capital.GetName] will forever be the home of the fascinating [From.GetManWoman]. As members of [Root.Society.GetName], we are grateful for the time we shared, and we pray that our young find this legend an ideal worthy of emulating.;;;;;;;;;;;;x
@@ -19908,7 +19908,7 @@ RULE_HELLENISM_OFF;Events and decision dealing with the restoration of the Helle
 EVTDESCHFC20370;With the ceremony finally concluded, [From.GetTitledFirstName] bid me farewell and dismissed me from [From.GetHerHis] encampment, alongside all [From.GetHerHis] other guests. I still cannot believe that the coronation was not abruptly interrupted by an enemy raid... [From.Religion.GetHighGodNameCap] must really be protecting [From.GetTitledFirstName].;;;;;;;;;;;;x
 TOOLTIP_EVTOPTBHF23835;All the other §YGuests§! are insulted.;;;;;;;;;;;;x
 EVTOPTBHF23474;Bah! Superstitious nonsense!;;;;;;;;;;;;x
-EVTDESCLoR45_HF;You are the current ruler of [e_roman_empire.GetName]. May your reign be a prosperous one!;;;;;;;;;;;;x
+EVTDESCLoR45_HF;你是[e_roman_empire.GetName]的现任统治者。愿你的治世繁荣昌盛！;;;;;;;;;;;;x
 string_vanilla_augustus_desc;This character is the current ruler of the restored Roman Empire and commands the respect an office of such magnitude is due.;;;;;;;;;;;;x
 string_altstart_augustus_desc;This character is the current ruler of [e_roman_empire.GetName] and commands the respect an office of such magnitude is due.;;;;;;;;;;;;x
 augustus_desc;[GetAltAugustusName];;;;;;;;;;;;x
