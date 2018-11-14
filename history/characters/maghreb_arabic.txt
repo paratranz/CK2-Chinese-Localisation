@@ -2221,6 +2221,10 @@
         add_claim = d_granada
         add_claim = d_murcia
         remove_claim = k_mauretania
+        create_bloodline = {
+            type = almoravid
+            has_dlc = "Holy Fury"
+        }
     }
     1078.10.8 = {
         add_claim = d_zaragoza
@@ -2502,13 +2506,19 @@
     }
 }
 32980 = {
-    name = "雅各布"  # Ya'qub
+    name = "阿布 雅各布"  # Abu Ya'qub
     dynasty = 101875
     religion = "sunni"
     culture = "maghreb_arabic"
     father = 224000
     1155.1.1 = {
         birth = "1155.1.1"
+    }
+    1184.7.29 = {
+        create_bloodline = {
+            type = almohad
+            has_dlc = "Holy Fury"
+        }
     }
     1199.1.23 = {
         death = "1199.1.23"
@@ -7762,15 +7772,858 @@
         death = yes
     }
 }
-20798 = {
-    name = "伊沙克"  # Ishaq
+248699 = {
+    name = "Born"
+    dynasty = 1059972
+    religion = "west_african_pagan"
+    culture = "maghreb_arabic"
+    740.1.1 = {
+        birth = yes
+    }
+    805.1.1 = {
+        death = yes
+    }
 }
-20803 = {
-    name = "阿卜杜勒-瓦哈卜"  # Abdul-Wahab
+248700 = {
+    name = "Ede"
+    dynasty = 1059972
+    religion = "west_african_pagan"
+    culture = "maghreb_arabic"
+    father = 248699
+    769.1.1 = {
+        birth = yes
+    }
+    839.1.1 = {
+        death = yes
+    }
 }
-20806 = {
-    name = "伊萨"  # Isa
+248701 = {
+    name = "Gakuwe"
+    dynasty = 1059972
+    religion = "west_african_pagan"
+    culture = "maghreb_arabic"
+    father = 248700
+    810.1.1 = {
+        birth = yes
+    }
+    880.1.1 = {
+        death = yes
+    }
 }
-226039 = {
-    name = "苏莱曼"  # Sulayman
+248702 = {
+    name = "Chaski"
+    dynasty = 1059972
+    religion = "west_african_pagan"
+    culture = "maghreb_arabic"
+    father = 248701
+    864.1.1 = {
+        birth = yes
+    }
+    920.1.1 = {
+        death = yes
+    }
+}
+248703 = {
+    name = "Bis"
+    female = yes
+    dynasty = 1059972
+    religion = "west_african_pagan"
+    culture = "maghreb_arabic"
+    father = 248701
+    867.1.1 = {
+        birth = yes
+    }
+    922.1.1 = {
+        death = yes
+    }
+}
+248704 = {
+    name = "Bug"
+    dynasty = 1059972
+    religion = "west_african_pagan"
+    culture = "maghreb_arabic"
+    father = 248702
+    900.1.1 = {
+        birth = yes
+    }
+    960.1.1 = {
+        death = yes
+    }
+}
+248705 = {
+    name = "Dahab"
+    dynasty = 1059972
+    religion = "west_african_pagan"
+    culture = "maghreb_arabic"
+    father = 248704
+    935.1.1 = {
+        birth = yes
+    }
+    1000.1.1 = {
+        death = yes
+    }
+}
+248706 = {
+    name = "Gon"
+    dynasty = 1059972
+    religion = "west_african_pagan"
+    culture = "maghreb_arabic"
+    father = 248705
+    965.1.1 = {
+        birth = yes
+    }
+    1030.1.1 = {
+        death = yes
+    }
+}
+248707 = {
+    name = "Izza"
+    dynasty = 1059972
+    religion = "west_african_pagan"
+    culture = "maghreb_arabic"
+    father = 248706
+    1010.1.1 = {
+        birth = yes
+    }
+    1060.1.1 = {
+        death = yes
+    }
+}
+161076 = {
+    name = "Kabayo"
+    dynasty = 1030009
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    1050.1.1 = {
+        birth = "1050.1.1"
+    }
+    1110.1.1 = {
+        death = "1110.1.1"
+    }
+}
+161077 = {
+    name = "Cisse"
+    dynasty = 1030009
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161076
+    1080.1.1 = {
+        birth = "1080.1.1"
+    }
+    1140.1.1 = {
+        death = "1140.1.1"
+    }
+}
+161078 = {
+    name = "Demba"
+    dynasty = 1030009
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161077
+    1110.1.1 = {
+        birth = "1110.1.1"
+    }
+    1170.1.1 = {
+        death = "1170.1.1"
+    }
+}
+161079 = {
+    name = "Daoud"
+    dynasty = 1030009
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161078
+    1150.1.1 = {
+        birth = "1150.1.1"
+    }
+    1210.1.1 = {
+        death = "1210.1.1"
+    }
+}
+161080 = {
+    name = "Ishaq"
+    dynasty = 1030009
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161079
+    1180.1.1 = {
+        birth = "1180.1.1"
+    }
+    1240.1.1 = {
+        death = "1240.1.1"
+    }
+}
+161081 = {
+    name = "Reidja"
+    dynasty = 1030009
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161080
+    1210.1.1 = {
+        birth = "1210.1.1"
+    }
+    1270.1.1 = {
+        death = "1270.1.1"
+    }
+}
+161082 = {
+    name = "Sandaki"
+    dynasty = 1030009
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161081
+    1240.1.1 = {
+        birth = "1240.1.1"
+    }
+    1300.1.1 = {
+        death = "1300.1.1"
+    }
+}
+161083 = {
+    name = "Bada"
+    dynasty = 1030009
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161082
+    1270.1.1 = {
+        birth = "1270.1.1"
+    }
+    1320.1.1 = {
+        death = "1320.1.1"
+    }
+}
+161084 = {
+    name = "Birama"
+    dynasty = 1030009
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161083
+    1300.1.1 = {
+        birth = "1300.1.1"
+    }
+    1350.1.1 = {
+        death = "1350.1.1"
+    }
+}
+161085 = {
+    name = "Kayna"
+    dynasty = 1030010
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    1050.1.1 = {
+        birth = "1050.1.1"
+    }
+    1110.1.1 = {
+        death = "1110.1.1"
+    }
+}
+161086 = {
+    name = "Bonga"
+    dynasty = 1030010
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161085
+    1080.1.1 = {
+        birth = "1080.1.1"
+    }
+    1140.1.1 = {
+        death = "1140.1.1"
+    }
+}
+161087 = {
+    name = "Majan"
+    dynasty = 1030010
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161086
+    1110.1.1 = {
+        birth = "1110.1.1"
+    }
+    1170.1.1 = {
+        death = "1170.1.1"
+    }
+}
+161088 = {
+    name = "Mamadi"
+    dynasty = 1030010
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161087
+    1150.1.1 = {
+        birth = "1150.1.1"
+    }
+    1210.1.1 = {
+        death = "1210.1.1"
+    }
+}
+161089 = {
+    name = "Musa"
+    dynasty = 1030010
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161088
+    1180.1.1 = {
+        birth = "1180.1.1"
+    }
+    1240.1.1 = {
+        death = "1240.1.1"
+    }
+}
+161090 = {
+    name = "Diara"
+    dynasty = 1030010
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161089
+    1210.1.1 = {
+        birth = "1210.1.1"
+    }
+    1270.1.1 = {
+        death = "1270.1.1"
+    }
+}
+161091 = {
+    name = "Sulayman"
+    dynasty = 1030010
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161090
+    1240.1.1 = {
+        birth = "1240.1.1"
+    }
+    1300.1.1 = {
+        death = "1300.1.1"
+    }
+}
+161092 = {
+    name = "Alayaman"
+    dynasty = 1030010
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161091
+    1270.1.1 = {
+        birth = "1270.1.1"
+    }
+    1320.1.1 = {
+        death = "1320.1.1"
+    }
+}
+161093 = {
+    name = "Biyu"
+    dynasty = 1030010
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161092
+    1300.1.1 = {
+        birth = "1300.1.1"
+    }
+    1350.1.1 = {
+        death = "1350.1.1"
+    }
+}
+161103 = {
+    name = "Kassa"
+    dynasty = 1030012
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    1050.1.1 = {
+        birth = "1050.1.1"
+    }
+    1110.1.1 = {
+        death = "1110.1.1"
+    }
+}
+161104 = {
+    name = "Takoi"
+    dynasty = 1030012
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161103
+    1080.1.1 = {
+        birth = "1080.1.1"
+    }
+    1140.1.1 = {
+        death = "1140.1.1"
+    }
+}
+161105 = {
+    name = "Kanafa"
+    dynasty = 1030012
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161104
+    1110.1.1 = {
+        birth = "1110.1.1"
+    }
+    1170.1.1 = {
+        death = "1170.1.1"
+    }
+}
+161106 = {
+    name = "Fatta"
+    dynasty = 1030012
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161105
+    1150.1.1 = {
+        birth = "1150.1.1"
+    }
+    1210.1.1 = {
+        death = "1210.1.1"
+    }
+}
+161107 = {
+    name = "Ouali"
+    dynasty = 1030012
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161106
+    1180.1.1 = {
+        birth = "1180.1.1"
+    }
+    1240.1.1 = {
+        death = "1240.1.1"
+    }
+}
+161108 = {
+    name = "Fädazu"
+    dynasty = 1030012
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161107
+    1210.1.1 = {
+        birth = "1210.1.1"
+    }
+    1270.1.1 = {
+        death = "1270.1.1"
+    }
+}
+161109 = {
+    name = "Kaya"
+    dynasty = 1030012
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161108
+    1240.1.1 = {
+        birth = "1240.1.1"
+    }
+    1300.1.1 = {
+        death = "1300.1.1"
+    }
+}
+161110 = {
+    name = "Lahiltoul"
+    dynasty = 1030012
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161109
+    1270.1.1 = {
+        birth = "1270.1.1"
+    }
+    1320.1.1 = {
+        death = "1320.1.1"
+    }
+}
+161111 = {
+    name = "Akoi"
+    dynasty = 1030012
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 161110
+    1300.1.1 = {
+        birth = "1300.1.1"
+    }
+    1350.1.1 = {
+        death = "1350.1.1"
+    }
+}
+248788 = {
+    name = "Abdallah"
+    dynasty = 1059964
+    religion = "ibadi"
+    culture = "maghreb_arabic"
+    720.1.1 = {
+        birth = yes
+    }
+    762.1.1 = {
+        death = yes
+    }
+}
+248789 = {
+    name = "Hiyan"
+    dynasty = 1059964
+    religion = ibadi
+    culture = maghreb_arabic
+    father = 248788
+    745.1.1 = {
+        birth = yes
+    }
+    800.1.1 = {
+        death = yes
+    }
+}
+248790 = {
+    name = "al-Khattab"
+    dynasty = 1059963
+    religion = "ibadi"
+    culture = "maghreb_arabic"
+    850.1.1 = {
+        birth = yes
+    }
+    905.1.1 = {
+        death = yes
+    }
+}
+248791 = {
+    name = "Abdallah ibn al-Khattab al-Hawwari"
+    dynasty = 1059963
+    religion = "ibadi"
+    culture = "maghreb_arabic"
+    father = 248790
+    880.1.1 = {
+        birth = yes
+    }
+    940.1.1 = {
+        death = yes
+    }
+}
+248792 = {
+    name = "Abdallah"
+    dynasty = 1059963
+    religion = "ibadi"
+    culture = "maghreb_arabic"
+    father = 248791
+    910.1.1 = {
+        birth = yes
+    }
+    970.1.1 = {
+        death = yes
+    }
+}
+248793 = {
+    name = "Thakiya"
+    dynasty = 1059963
+    religion = "ibadi"
+    culture = "maghreb_arabic"
+    father = 248792
+    945.1.1 = {
+        birth = yes
+    }
+    1005.1.1 = {
+        death = yes
+    }
+}
+248794 = {
+    name = "Abdallah"
+    dynasty = 1059963
+    religion = "ibadi"
+    culture = "maghreb_arabic"
+    father = 248793
+    980.1.1 = {
+        birth = yes
+    }
+    1030.1.1 = {
+        death = yes
+    }
+}
+248795 = {
+    name = "Isma'il"
+    dynasty = 1059963
+    religion = "ibadi"
+    culture = "maghreb_arabic"
+    father = 248794
+    1015.1.1 = {
+        birth = yes
+    }
+    1064.1.1 = {
+        death = yes
+    }
+}
+248796 = {
+    name = "Thakiya"
+    dynasty = 1059963
+    religion = "ibadi"
+    culture = "maghreb_arabic"
+    father = 248795
+    1040.1.1 = {
+        birth = yes
+    }
+    1100.1.1 = {
+        death = yes
+    }
+}
+248797 = {
+    name = "Abdallah"
+    dynasty = 1059963
+    religion = "ibadi"
+    culture = "maghreb_arabic"
+    father = 248796
+    1072.1.1 = {
+        birth = yes
+    }
+    1130.1.1 = {
+        death = yes
+    }
+}
+248798 = {
+    name = "Hiyan"
+    dynasty = 1059963
+    religion = "ibadi"
+    culture = "maghreb_arabic"
+    father = 248797
+    1100.1.1 = {
+        birth = yes
+    }
+    1162.1.1 = {
+        death = yes
+    }
+}
+248799 = {
+    name = "Musa"
+    dynasty = 1059963
+    religion = "ibadi"
+    culture = "maghreb_arabic"
+    father = 248798
+    1132.1.1 = {
+        birth = yes
+    }
+    1195.1.1 = {
+        death = yes
+    }
+}
+248800 = {
+    name = "Awdia"
+    dynasty = 1059961
+    religion = "west_african_pagan"
+    culture = "maghreb_arabic"
+    trait = sympathy_islam
+    730.1.1 = {
+        birth = yes
+    }
+    790.1.1 = {
+        death = yes
+    }
+}
+248801 = {
+    name = "Tacfin"
+    dynasty = 1059961
+    religion = "west_african_pagan"
+    culture = maghreb_arabic
+    father = 248800
+    trait = sympathy_islam
+    769.1.1 = {
+        birth = yes
+    }
+    830.1.1 = {
+        death = yes
+    }
+}
+248802 = {
+    name = "Isli"
+    dynasty = 1059961
+    religion = "west_african_pagan"
+    culture = maghreb_arabic
+    father = 248801
+    trait = sympathy_islam
+    800.1.1 = {
+        birth = yes
+    }
+    870.1.1 = {
+        death = yes
+    }
+}
+248803 = {
+    name = "Agdun"
+    dynasty = 1059961
+    religion = "west_african_pagan"
+    culture = maghreb_arabic
+    father = 248802
+    trait = sympathy_islam
+    850.1.1 = {
+        birth = yes
+    }
+    920.1.1 = {
+        death = yes
+    }
+}
+248816 = {
+    name = "Jibril"
+    dynasty = 1059962
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    trait = sympathy_pagans
+    1040.1.1 = {
+        birth = yes
+    }
+    1100.1.1 = {
+        death = yes
+    }
+}
+248804 = {
+    name = "Muhammad"
+    dynasty = 1059962
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 248816
+    trait = sympathy_pagans
+    1067.1.1 = {
+        birth = yes
+    }
+    1130.1.1 = {
+        death = yes
+    }
+}
+248805 = {
+    name = "Abu Bakr"
+    dynasty = 1059962
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 248804
+    trait = sympathy_pagans
+    1086.1.1 = {
+        birth = yes
+    }
+    1150.1.1 = {
+        death = yes
+    }
+}
+248806 = {
+    name = "Abdul-Haleem"
+    dynasty = 1059962
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 248805
+    trait = sympathy_pagans
+    1110.1.1 = {
+        birth = yes
+    }
+    1170.1.1 = {
+        death = yes
+    }
+}
+248807 = {
+    name = "Isa"
+    dynasty = 1059962
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 248806
+    trait = sympathy_pagans
+    1130.1.1 = {
+        birth = yes
+    }
+    1200.1.1 = {
+        death = yes
+    }
+}
+248808 = {
+    name = "Hassan"
+    dynasty = 1059962
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 248807
+    trait = sympathy_pagans
+    1150.1.1 = {
+        birth = yes
+    }
+    1220.1.1 = {
+        death = yes
+    }
+}
+248809 = {
+    name = "Mirza"
+    dynasty = 1059962
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 248808
+    trait = sympathy_pagans
+    1180.1.1 = {
+        birth = yes
+    }
+    1250.1.1 = {
+        death = yes
+    }
+}
+248810 = {
+    name = "Jabir"
+    dynasty = 1059962
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 248809
+    trait = sympathy_pagans
+    1200.1.1 = {
+        birth = yes
+    }
+    1270.1.1 = {
+        death = yes
+    }
+}
+248811 = {
+    name = "Burhanaddin"
+    dynasty = 1059962
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 248810
+    trait = sympathy_pagans
+    1220.1.1 = {
+        birth = yes
+    }
+    1290.1.1 = {
+        death = yes
+    }
+}
+248812 = {
+    name = "Uways"
+    dynasty = 1059962
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 248811
+    trait = sympathy_pagans
+    1240.1.1 = {
+        birth = yes
+    }
+    1310.1.1 = {
+        death = yes
+    }
+}
+248813 = {
+    name = "Seghada"
+    dynasty = 1059962
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 248812
+    trait = sympathy_pagans
+    1270.1.1 = {
+        birth = yes
+    }
+    1334.1.1 = {
+        death = yes
+    }
+}
+248814 = {
+    name = "Idris"
+    dynasty = 1059962
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 248813
+    trait = sympathy_pagans
+    1290.1.1 = {
+        birth = yes
+    }
+    1338.1.1 = {
+        death = yes
+    }
+}
+248815 = {
+    name = "Abdallah"
+    dynasty = 1059962
+    religion = "sunni"
+    culture = "maghreb_arabic"
+    father = 248814
+    trait = sympathy_pagans
+    1315.1.1 = {
+        birth = yes
+    }
+    1338.1.1 = {
+        death = yes
+    }
 }

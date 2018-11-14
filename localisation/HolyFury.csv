@@ -191,8 +191,8 @@ fueled_by_rage;怒火中烧;;;;;;;;;;;;x
 fueled_by_rage_desc;这个角色正被复仇驱使，感到血脉偾张。;;;;;;;;;;;;x
 carrying_torch;把火把交给某个人;;;;;;;;;;;;x
 carrying_torch_desc;这个角色正在体验一些复杂的情绪和活力的增长。;;;;;;;;;;;;x
-IS_NOT_CONNECTED_TRIGGER;Is NOT connected to $TARGET|Y$;;;;;;;;;;;;x
-IS_CONNECTED_TRIGGER;Is connected to $TARGET|Y$;;;;;;;;;;;;x
+IS_NOT_CONNECTED_TRIGGER;没有与$TARGET|Y$连接;;;;;;;;;;;;x
+IS_CONNECTED_TRIGGER;与$TARGET|Y$连接;;;;;;;;;;;;x
 CONNECTED_PROVINCE_STARTS;任何被连接的省份;;;;;;;;;;;;x
 NOT_CONNECTED_PROVINCE_STARTS;没有被连接的省份;;;;;;;;;;;;x
 DISCONNECTED_PROVINCE_STARTS;任何未被连接的省份;;;;;;;;;;;;x
@@ -230,7 +230,7 @@ NOT_ALTERNATE_START_SETTING_TRIGGER;$SETTING|Y$设置不符合给定的参数;;;
 ALTERNATE_START_SETTING_TRIGGER;$SETTING|Y$设置符合给定的参数;;;;;;;;;;;;x
 NOT_ALTERNATE_START_PARAMETER_TRIGGER;The $KEY|Y$ parameter does NOT have the value $VALUE|Y$ set;;;;;;;;;;;;x
 ALTERNATE_START_PARAMETER_TRIGGER;The $KEY|Y$ parameter has the value $VALUE|Y$ set;;;;;;;;;;;;x
-SHATTERED_REQUIRES_HOLY_FURY;§RThis save was created as a Shattered World and requires the Holy Fury DLC to continue.§!;;;;;;;;;;;;x
+SHATTERED_REQUIRES_HOLY_FURY;§R这个存档基于破碎世界创建，需要神圣之怒DLC来继续游戏§!;;;;;;;;;;;;x
 setting_female_ruler_percentage;女性统治者比例;;;;;;;;;;;;x
 setting_female_ruler_percentage_tooltip;确定每个生成的统治者是女性的机会。;;;;;;;;;;;;x
 setting_age_span;年龄范围;;;;;;;;;;;;x
@@ -290,46 +290,46 @@ DECAYS_ON;衰败$DATE|Y$;;;;;;;;;;;;x
 STACKING_MODIFIER_COUNT;(x$COUNT$);;;;;;;;;;;;x
 STACKING_TOTAL_EFFECT;§Y综合效果：§!;;;;;;;;;;;;x
 alert_coronation_needed_instant;§Y未知统治者§!;;;;;;;;;;;;x
-alert_coronation_needed_delayed;A [Root.Religion.GetName] ruler who has not been officially crowned by a notable member of the Church will never be fully accepted by [Root.GetHerHis] vassals as legitimate.\nThe more years an adult [Root.Religion.GetName] [Root.GetTitle] wastes before being anointed, the more likely [Root.GetHerHis] vassals will be to doubt the validity of [Root.GetHerHis] divine right to rule.;;;;;;;;;;;;x
+alert_coronation_needed_delayed;一位[Root.Religion.GetName]统治者尚未被教职人员正式加冕前将永远不会被[Root.GetHerHis]的封臣所认为是合法的。\n一个[Root.Religion.GetName][Root.GetTitle]在受膏之前浪费的时间越长，[Root.GetHerHis]的封臣就越有可能怀疑[Root.GetHerHis]那神授君权的合法性。;;;;;;;;;;;;x
 CORONATION_CURRENT_EFFECT;§Y当前效果§!;;;;;;;;;;;;x
 RETINUES_NOT_REFINORCING_DESC;这移除了增援费用。不会影响威望征兆的部队。;;;;;;;;;;;;x
-RETINUES_HALF_REINFORCING_DESC;This halves the reinforce cost. Does not affect prestige-based units.\n( §Y$GROWTH$%§! of the retinue will reinforce per month ).;;;;;;;;;;;;x
-RETINUES_FULL_REINFORCING_DESC;This means you will pay full reinforce cost. Prestige-based units always reinforce at this rate.\n( §Y$GROWTH$%§! of the retinue will reinforce per month );;;;;;;;;;;;x
+RETINUES_HALF_REINFORCING_DESC;近卫军增援费用为正常的一半，不影响消耗威望的单位。\n（每月恢复近卫军的§Y$GROWTH$§!）;;;;;;;;;;;;x
+RETINUES_FULL_REINFORCING_DESC;近卫军需支付正常增援费用。消耗威望的单位将固定以此速度增援。\n（§Y每月恢复随员的 $GROWTH$%§!）;;;;;;;;;;;;x
 CHARVIEW_TRAITS;§Y特质§!;;;;;;;;;;;;x
 CHARVIEW_MODIFIERS;§Y修正§!;;;;;;;;;;;;x
 FOUNDER_SCOPE;血脉建立者：;;;;;;;;;;;;x
 BLOODLINE_FOUNDED_BY;血脉由$OWNER$建立。;;;;;;;;;;;;x
-BLOODLINE_FOUNDED;§LBloodline Founded on §!$DATE|Y$;;;;;;;;;;;;x
+BLOODLINE_FOUNDED;§L血脉创建于§!$DATE|Y$;;;;;;;;;;;;x
 DESTROY_BLOODLINE_EFFECT;这条血脉逐渐变得默默无闻。;;;;;;;;;;;;x
-CREATE_BLOODLINE_EFFECT;Becomes known as the founder of a §YBloodline§!, giving the following effects: \n$EFFECT$\n;;;;;;;;;;;;x
-ADD_BLOODLINE_MEMBER_EFFECT;$MEMBER$ becomes known as a part of the §YBloodline§!.;;;;;;;;;;;;x
-REMOVE_FROM_BLOODLINE_EFFECT;Is no longer known as being a part of the $BLOODLINE|Y$!.;;;;;;;;;;;;x
-REMOVE_BLOODLINE_MEMBER_EFFECT;$MEMBER$ is no longer known as being a part of the §YBloodline§!.;;;;;;;;;;;;x
-ADD_TO_BLOODLINE_EFFECT;Becomes known as a part of the $BLOODLINE|Y$!.;;;;;;;;;;;;x
-HAS_NOT_BLOODLINE_FLAG;Does NOT have the Bloodline flag:;;;;;;;;;;;;x
+CREATE_BLOODLINE_EFFECT;开始被认为是一条§Y血脉§!的创始人，从而带来以下的影响：\n$EFFECT$\n;;;;;;;;;;;;x
+ADD_BLOODLINE_MEMBER_EFFECT;$MEMBER$开始被认为是§Y血脉§!的一份子。;;;;;;;;;;;;x
+REMOVE_FROM_BLOODLINE_EFFECT;不在被认为是$BLOODLINE|Y$的一份子。;;;;;;;;;;;;x
+REMOVE_BLOODLINE_MEMBER_EFFECT;$MEMBER$不再被认为是§Y血脉§!的一份子。;;;;;;;;;;;;x
+ADD_TO_BLOODLINE_EFFECT;开始被认为是$BLOODLINE|Y$的一份子！;;;;;;;;;;;;x
+HAS_NOT_BLOODLINE_FLAG;不再拥有以下血脉旗标：;;;;;;;;;;;;x
 HAS_BLOODLINE_FLAG;拥有血脉：;;;;;;;;;;;;x
-IS_NOT_BLOODLINE_FOUNDER_OF_TRIGGER;Is NOT the founder of the $BLOODLINE|Y$!;;;;;;;;;;;;x
-IS_BLOODLINE_FOUNDER_OF_TRIGGER;Is the founder of the $BLOODLINE|Y$!;;;;;;;;;;;;x
-IS_NOT_BLOODLINE_MEMBER_OF_TRIGGER;Is NOT a part of the $BLOODLINE|Y$!;;;;;;;;;;;;x
-IS_BLOODLINE_MEMBER_OF_TRIGGER;Is a part of the $BLOODLINE|Y$!;;;;;;;;;;;;x
+IS_NOT_BLOODLINE_FOUNDER_OF_TRIGGER;不是$BLOODLINE|Y$的创建者！;;;;;;;;;;;;x
+IS_BLOODLINE_FOUNDER_OF_TRIGGER;是$BLOODLINE|Y$的创建者！;;;;;;;;;;;;x
+IS_NOT_BLOODLINE_MEMBER_OF_TRIGGER;不是$BLOODLINE|Y$的一份子！;;;;;;;;;;;;x
+IS_BLOODLINE_MEMBER_OF_TRIGGER;是$BLOODLINE|Y$的一份子！;;;;;;;;;;;;x
 ANY_BLOODLINE_MEMBER_STARTS;任意的血脉成员：;;;;;;;;;;;;x
-ANY_OWNED_BLOODLINE_STARTS;Any Possessed Bloodline:;;;;;;;;;;;;x
+ANY_OWNED_BLOODLINE_STARTS;任意持有的血脉：;;;;;;;;;;;;x
 ANY_BLOODLINE_STARTS;任意血脉：;;;;;;;;;;;;x
-DOES_NOT_SHARES_ANY_BLOODLINE_WITH_TRIGGER;Does NOT share a §YBloodline§! with $CHAR|Y$;;;;;;;;;;;;x
-SHARES_ANY_BLOODLINE_WITH_TRIGGER;Shares a §YBloodline§! with $CHAR|Y$;;;;;;;;;;;;x
-NOT_SAME_BLOODLINE_TRIGGER;Is NOT $BLOODLINE|Y$;;;;;;;;;;;;x
-SAME_BLOODLINE_TRIGGER;Is $BLOODLINE|Y$;;;;;;;;;;;;x
-NOT_ALLOWED_TO_PLAY_SAME_CHARACTER;Not allowed to play the same character as another player;;;;;;;;;;;;x
-BLOODLINES_INTERFACE_LABEL;§YBloodlines§!;;;;;;;;;;;;x
+DOES_NOT_SHARES_ANY_BLOODLINE_WITH_TRIGGER;不与$CHAR|Y$持有同一条§Y血脉§!;;;;;;;;;;;;x
+SHARES_ANY_BLOODLINE_WITH_TRIGGER;与$CHAR|Y$持有同一条§Y血脉§!;;;;;;;;;;;;x
+NOT_SAME_BLOODLINE_TRIGGER;不是$BLOODLINE|Y$;;;;;;;;;;;;x
+SAME_BLOODLINE_TRIGGER;是$BLOODLINE|Y$;;;;;;;;;;;;x
+NOT_ALLOWED_TO_PLAY_SAME_CHARACTER;你不能同其他玩家使用同一角色;;;;;;;;;;;;x
+BLOODLINES_INTERFACE_LABEL;§Y血脉§!;;;;;;;;;;;;x
 HAS_NO_BLOODLINES;这个角色不是任何著名血脉的成员。;;;;;;;;;;;;x
-LEDGER_HEADER_BLOODLINES;Bloodlines;;;;;;;;;;;;x
+LEDGER_HEADER_BLOODLINES;血脉;;;;;;;;;;;;x
 BLOOD_OF;Blood of;;;;;;;;;;;;x
-HAD_BLOODLINE_FLAG_LESS_THAN;Had flag '§Y$FLAG$§!' for less than §Y$DAYS$§! days;;;;;;;;;;;;x
-HAD_BLOODLINE_FLAG_AT_LEAST;Had flag '§Y$FLAG$§!' for at least §Y$DAYS$§! days;;;;;;;;;;;;x
-LEDGER_HEADER_BLOODLINE;Bloodlines;;;;;;;;;;;;x
-LEDGER_ENTRY_BLOODLINE_TOOLTIP;$FOUNDER$ currently has $DESCENDANTS|Y$ living descendants;;;;;;;;;;;;x
+HAD_BLOODLINE_FLAG_LESS_THAN;拥有标志 「§Y$FLAG$§!」少于 §Y$DAYS$§! 天;;;;;;;;;;;;x
+HAD_BLOODLINE_FLAG_AT_LEAST;拥有标志「§Y$FLAG$§!」至少 §Y$DAYS$§! 天;;;;;;;;;;;;x
+LEDGER_HEADER_BLOODLINE;血脉;;;;;;;;;;;;x
+LEDGER_ENTRY_BLOODLINE_TOOLTIP;$FOUNDER$在当前拥有$DESCENDANTS|Y$在世的后裔;;;;;;;;;;;;x
 LEDGER_NUM_BLOODLINE_LIVING_MEMBERS;在世的后裔;;;;;;;;;;;;x
-society_show_bloodlines;§YList all created Legends§!;;;;;;;;;;;;x
+society_show_bloodlines;§Y列出所有已知传奇§!;;;;;;;;;;;;x
 society_show_bloodlines_disabled;§YThis society has no known Legends§!;;;;;;;;;;;;x
 OBSERVER;观察者;;;;;;;;;;;;x
 LEDGER_HEADER_KILL_LIST;击杀名单;;;;;;;;;;;;x
@@ -386,7 +386,7 @@ EVTDESCHFF20003;The priests from [sponsoring_king.Capital.GetName] insist that t
 EVTDESCHFG20003;The priests from [sponsoring_king.Capital.GetName] insist that the ritual be performed at sunset. When the time comes you meet your vassals at the top of a cliff outside [converting_king.Capital.GetName], with a crowd of your subjects waiting below. \nThe priests start the ceremony beating their drums to gain the favor of the thunder god. When the last rays of sun disappear in the distance you and your vassals proclaim that your old gods are dying with this day. The priests resume their singing and dancing, enduring for the entirety of the night, even after most of the common crowd has fallen asleep. When dawn comes, they proclaim that you are reborn with the new day under the protection of Perun.;;;;;;;;;;;;x
 EVTDESCHFH20003;Following the instructions of the Aztec priests, you round up a group of convicted criminals and have them dragged in the middle of [sponsoring_king.Capital.GetName]'s square, where a crowd has already rallied.\nThere, the priests dress them up with blind masks depicting your old gods and adorn you and your vassals with the garments of the new ones.\nThe confused and scared criminals are then set free, and in a ritualistic skirmish, you and your vassals slaughter them in front of your subjects, bathing in their blood and proclaiming your allegiance to the gods of the West.;;;;;;;;;;;;x
 EVTDESCHFI20003;The shamans from [sponsoring_king.Capital.GetName] arrive in a long procession, carrying an endless parade of idols.\nYou meet them alongside your vassals in the middle of [converting_king.Capital.GetName]'s main square, where you publicly renounce the old gods and welcome the new ones into your realm. One by one, you bow and kiss the feet of the new totems as they are carried inside your temple, while the priests interpret the gods' reactions to your welcome and placate any angry spirits of the old faith with loud drumming.;;;;;;;;;;;;x
-EVTDESCHFL20003;The [sponsoring_king.Religion.GetName] priests arrive at [converting_king.Capital.GetName] with a luxurious parade, carrying the tall, shining statue of the sun god to the center of your capital. \nYou meet them with your vassals, surrounded by a crowd of commoners, and publicly renounce your old gods before bowing to the golden idol. \nOne by one, you order your offerings of gold and precious stones to be delivered unto the new god, covering his statue little by little with increasingly more opulent garments. After you and your vassals have finished with your donations, some of the people from the crowd join in as well, leaving what little they have at the feet of the idol as it is carried inside its new home.;;;;;;;;;;;;x
+EVTDESCHFL20003;[sponsoring_king.Religion.GetName]的祭司们随着一场奢华的游行抵达[converting_king.Capital.GetName]，将高大的、金光闪闪的太阳神雕像安置在了你首都的中央。\n你与你的封臣们在人群包围中会见了他们，公开宣布放弃旧的神灵，然后向金神像鞠躬。\n你下令将黄金和宝石献给新的神灵，并且用更加华贵的服装一点点将其覆盖。在你和你的封臣们完成献礼之后，人群中的一些人也来到了神像下面，捐赠了他们可怜财产的一部分。随后，神像被运进了它的新家当中。;;;;;;;;;;;;x
 EVTDESCHFM20003;The Hellenic priests arrive to [converting_king.Capital.GetName] a few days before the ceremony in order to settle the statues of the new gods in their new home.\nThe evening before the conversion, you and your vassals are summoned in the temple's garden, where the priests strip you naked and have your entire bodies shaved and washed. The morning after, you meet the priests outside the temple with a large crowd at your back, and watch them sacrifice a dozen bulls to the main gods in front of the doors of the temple. The priests then carry the remains of their offerings inside, and, after a long hour, they finally re-emerge from their sanctum to address the confused crowd and proclaim that the gods have accepted your offering and will take further donations into consideration in the future.;;;;;;;;;;;;x
 EVTDESCHFN20003;The [sponsoring_king.Religion.GetName] priests arrive a few days before the ceremony in order to settle in their new temple.\nFor all the remaining days before the event, you and your vassals find yourself stuck listening to an endless list of rules and rituals that the priests swear you must absolutely know in order to correctly worship [sponsoring_king.Religion.GetHighGodName]. When the day for the mass conversion comes, the ceremony itself looks almost like an afterthought in comparison to the bureaucratic preparation. The priests quickly cleanse all old icons publicly and allow you to renounce your old gods before hiding back inside the temple and resuming their private rituals.;;;;;;;;;;;;x
 EVTDESCHFO20003;The [sponsoring_king.Religion.GetName] rabbis arrive to [converting_king.Capital.GetName] on a clear morning. \nYou meet with them alongside your vassals and at the head of a large crowd in the middle of the main square. Three tall pedestals have been set up for the newcomers, following their instructions, and the three assigned judges amongst them take place atop them. You are the first to be called to the public beth din, and for what feels like an eternity, the three judges examine the sincerity of your conversion. After they are finished with you, they move onto your vassals, testing them one by one as the crowd watches in silence.;;;;;;;;;;;;x
@@ -11156,9 +11156,9 @@ EVTOPTB_WOL_2071_TT;Plot is revealed and I will stop spying on §Y[target_spy_on
 EVTOPTA_ZE_2120_TT;§Y[target_child.GetTitledName]§! becomes §Y[Root.Culture.GetName]§!.;;;;;;;;;;;;x
 EVTDESC534_converted;The [From.Religion.GetCrusadeName] for [Root.GetBaseName] against [New.GetTitledName] has resulted in [New.GetTitledName] converting, and becoming a faithful [From.Religion.GetGroupName]. [From.Religion.GetRandomGodNameCap] will surely be pleased!;;;;;;;;;;;;x
 EVTDESC_JD_60403;Whispers in the East claim that [offmap_china.Ruler.GetLongChineseEmperorName] is in a joyous mood as the [From.PrimaryTitle.GetAdjective] claimant, [invasion_of_china_claimant.GetBestName], has died.\n[invasion_of_china_claimant.GetHerHisCap] death has shattered the morale of the [From.Culture.GetName] forces who now retreat back to their homes in [From.PrimaryTitle.GetName].\nJust like [invasion_of_china_claimant.GetBestName] this invasion of [offmap_china.GetShortName] has come to an end.;;;;;;;;;;;;x
-EVT_OPTB_JD_60403;Not only have I lost [invasion_of_china_claimant.GetFirstName], but also this war!;;;;;;;;;;;;x
-EVTTITLE_HF_40093;War for the Holy See;;;;;;;;;;;;x
-EVTDESC_HF_40093;[papal_attacker.GetTitledName] has declared a war on [From.GetTitledName]. Proclaiming the Pope a traitorous impious leader of the [papal_attacker.Religion.GetName]s, [papal_attacker.GetTitledName] want to return the Holy See back to its roots, to once more be led by a true [From.Religion.GetGroupName].\n\n[papal_attacker.GetSheHeCap] is leading [papal_attacker.GetHerHis] men from [papal_attacker.Capital.GetName] to [From.Capital.GetName], to depose the impious [From.GetTitledName] and turning the bishopric of Rome over to someone more fit to rule. With the war for who will rule over the [From.Religion.GetName]s at hand, every man, woman and child need to find out which side they will support.;;;;;;;;;;;;x
+EVT_OPTB_JD_60403;我真是赔了[invasion_of_china_claimant.GetFirstName]又折兵！;;;;;;;;;;;;x
+EVTTITLE_HF_40093;圣座战争;;;;;;;;;;;;x
+EVTDESC_HF_40093;[papal_attacker.GetTitledName]已经向[From.GetTitledName]宣战。他指控现任教宗是一个不虔诚的[papal_attacker.Religion.GetName]领袖，而[papal_attacker.GetTitledName]认为如果[From.Religion.GetGroupName]能够归位，圣座将重新换发光辉。\n\n[papal_attacker.GetSheHeCap]正带着[papal_attacker.GetHerHis]人马从[papal_attacker.Capital.GetName]出发朝[From.Capital.GetName]进军，目标是罢免这位不虔诚的[From.GetTitledName]并使得罗马主教们转而支持一位更加适合的领袖。随着这场质疑谁能够领导[From.Religion.GetName]世界的战争的爆发，每个人甚至是孩子都将不得不选择他们要支持的一方。;;;;;;;;;;;;x
 EVTOPTA_HF_40093;I will support [papal_attacker.GetTitledName]!;;;;;;;;;;;;x
 EVTOPTB_HF_40093;I will support [From.GetTitledName]!;;;;;;;;;;;;x
 EVTOPTC_HF_40093;I have more important matters to attend to.;;;;;;;;;;;;x
@@ -11196,10 +11196,10 @@ EVTOPTA_HF_49007;We will take Constantinople!;;;;;;;;;;;;x
 EVTOPTB_HF_49007;I will crush you, insolent traitors!;;;;;;;;;;;;x
 EVTOPTC_HF_49007;Hah! Let the wild dogs fight!;;;;;;;;;;;;x
 EVTOPTD_HF_49007;What are they thinking?;;;;;;;;;;;;x
-EVTTITLE_HF_49008;End of an Era;;;;;;;;;;;;x
+EVTTITLE_HF_49008;一个时代的终结;;;;;;;;;;;;x
 EVTOPTA_HF_49008;False Romans no more!;;;;;;;;;;;;x
-EVTOPTB_HF_49008;Interesting...;;;;;;;;;;;;x
-EVTOPTC_HF_49008;How could they!?;;;;;;;;;;;;x
+EVTOPTB_HF_49008;有意思……;;;;;;;;;;;;x
+EVTOPTC_HF_49008;他们怎么能这样！？;;;;;;;;;;;;x
 EVTTITLE_HF_49020;Grand Crusader;;;;;;;;;;;;x
 EVTDESC_HF_49020;Once more [Root.GetTitledFirstName] has been at the forefront of the Crusade, single handedly bringing victory to the faith. Known throughout all the [Root.Religion.GetGroupName] world as one of the most loyal and fierce [Root.Religion.GetName] there is, [Root.GetSheHe] is revered wherever [Root.GetSheHe] goes.\n\nRespect is showered upon [Root.GetTitledName] and [Root.GetHerHis] family, the legends and tales of their deeds will be brought down in history as the deciding factor of the [Root.Religion.GetGroupName] victory in the face of adversity. There is no doubt the members of the [Root.GetOnlyDynastyName] dynasty will continue bringing the lost lands into the fold of the faith, and continue to be at the vanguard of the Crusades.;;;;;;;;;;;;x
 EVTOPTA_HF_49020;Crux sacra sit mihi lux.;;;;;;;;;;;;x
@@ -11217,7 +11217,7 @@ EVTOPTA_HF_49106;Forward men!;;;;;;;;;;;;x
 EVTOPTB_HF_49106;Wait, I need to reconsider this.;;;;;;;;;;;;x
 EVTDESC_HF_49107;[Root.GetTitledName]\n\nWe are ready to march our troops against [northern_crusade_potential_target.GetTitledName], but we will need monetary support for the campaign.\n\nSigned,\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA_HF_49107;Forward men!;;;;;;;;;;;;x
-EVTOPTB_HF_49107;Wait, I need to reconsider this.;;;;;;;;;;;;x
+EVTOPTB_HF_49107;等等，我得再考虑一下。;;;;;;;;;;;;x
 EVTDESC_HF_49108;[Root.GetTitledName]\n\nI agree [northern_crusade_potential_target.GetTitledName] is a dangerous foe, and we would need a base for our campaigns against the [northern_crusade_kingdom_title.GetAdjective] lands.\n\nSigned,\n[From.GetTitledName].;;;;;;;;;;;;x
 EVTOPTA_HF_49108;Forward men!;;;;;;;;;;;;x
 EVTOPTB_HF_49108;Wait, I need to reconsider this.;;;;;;;;;;;;x
@@ -11226,10 +11226,10 @@ EVTDESC_HF_49110;The Teutonics march towards [northern_crusade_kingdom_title.Get
 EVTOPTA_HF_49110;Forward, men of God!;;;;;;;;;;;;x
 EVTOPTB_HF_49110;And so the infidels march...;;;;;;;;;;;;x
 EVTOPTC_HF_49110;What will the [From.Religion.GetName]s think of next?;;;;;;;;;;;;x
-EVTTITLE_HFP_40013;The Principality of Antioch;;;;;;;;;;;;x
+EVTTITLE_HFP_40013;安条克公国;;;;;;;;;;;;x
 EVTDESC_HFP_40013;The city of Antioch was originally raised by Seleucus in Alexander's time, and was under [Root.Religion.GetGroupName] control for centuries before the infidel onslaught took control of it. Finally, you have restored the ancient city to its true glory.\n\nWith Antioch back in Christian hands, it is only a matter of time before all of ancient Christendom will be returned. The rest of the world is watching, as I am the forerunner of what is to come.;;;;;;;;;;;;x
 EVTOPTA_HFP_40013;Watch as I take the Holy Land back.;;;;;;;;;;;;x
-EVTTITLE_HFP_40014;The Kingdom of Cyprus;;;;;;;;;;;;x
+EVTTITLE_HFP_40014;塞浦路斯王国;;;;;;;;;;;;x
 EVTDESC_HFP_40014;The island of Cyprus stands at the precipice of the Holy Land, and with its return to the fold of Christianity, the path to the Holy City has once more opened.\n\nI have raised the new banner of Cyprus for the first time, and I look east to the lands of Jerusalem and Antioch. For too long, those lands were controlled by the enemies of the cross, but no more.\n\nThis is just the first of many victories. Everything will return to [Root.Religion.GetGroupName] hands.;;;;;;;;;;;;x
 EVTOPTA_HFP_40014;We will retake the Holy Land, one piece at a time.;;;;;;;;;;;;x
 EVTTITLE_HFP_40015;Republic of [Root.PrimaryTitle.GetName];;;;;;;;;;;;x
@@ -12081,8 +12081,8 @@ EVTOPTBHFP23001;It had to be done...;;;;;;;;;;;;x
 EVTOPTCHFP23001;This was not an easy choice to make...;;;;;;;;;;;;x
 EVTDESCHF25502;Hail, [Root.GetSocietyRank]! \n\nRumors are that great spoils are waiting behind the walls of [wl_looting_target.GetName], waiting to be conquered by any daring raider with enough grit and ambition. \nI assume I need say nothing more...\n\nSigned, [From.GetTitledFirstName];;;;;;;;;;;;x
 EVTDESCAHF25503;The rumors were true! The hold of [From.GetName] was filled with treasure! Since I was the leader of the assault, I'll take the best share of the loot for myself, but I will not forget to share part of this bountiful prize with my brothers and sisters of [Root.Society.GetName], for informing me of the existence of this treasure.;;;;;;;;;;;;x
-EVTOPTAHF25503;Time to return home!;;;;;;;;;;;;x
-quest_warrior_lodge_raid_and_loot;Loot Province;;;;;;;;;;;;x
+EVTOPTAHF25503;是时候回家了！;;;;;;;;;;;;x
+quest_warrior_lodge_raid_and_loot;劫掠省份;;;;;;;;;;;;x
 quest_warrior_lodge_raid_and_loot_desc;You must lead your raiders to loot [From.Location.GetName] to prove your worth and gain the riches laying within it.;;;;;;;;;;;;x
 quest_warrior_lodge_raid_and_loot_tooltip;To complete this mission, personally lead your troops to loot §Y[FromFrom.GetName]§!.;;;;;;;;;;;;x
 EVTDESCAHF25505;Hail, [Root.GetSocietyRank]! \n\nIt has come to our attention that you are eschewing your duties as a member of [Root.Society.GetName] as of recently. You should be focusing on training and improving your form if you wish to compete with the rest of us. \nI hope I made myself clear.\n\nSigned, [From.GetTitledFirstName];;;;;;;;;;;;x
@@ -12090,20 +12090,20 @@ EVTDESCBHF25505;Hail, [Root.GetSocietyRank]! \n\nIt has come to our attention th
 EVTDESCCHF25505;Hail, [Root.GetSocietyRank]! \n\nWhile we [From.Society.GetName] always appreciate a good brawl, I think it is important that we always keep in mind what are we fighting for.\nYou should always keep in mind your responsibilities as a ruler.\nYou have a duty to lead and protect your subjects.\n\nSigned, [From.GetTitledFirstName];;;;;;;;;;;;x
 EVTDESCDHF25505;Hail, [Root.GetSocietyRank]! \n\nWhile we [From.Society.GetName] always appreciate a good brawl, you should also understand that there is a time for fighting and a time for enjoying oneself with the company of [From.GetHerHis] brothers and sisters of battle. Would it kill you to organize a feast or two?\n\nSigned, [From.GetTitledFirstName];;;;;;;;;;;;x
 EVTDESCAHF25506;As a [Root.GetSocietyRank] of [Root.Society.GetName], it is imperative that I spend enough time on my military training. Only through constant exercise I will be able to become the best warrior in [Root.Capital.GetName].;;;;;;;;;;;;x
-EVTOPTAHF25506;Enough talking!;;;;;;;;;;;;x
+EVTOPTAHF25506;谈得够多了！;;;;;;;;;;;;x
 EVTDESCAHF25507;As a [Root.GetSocietyRank] of [Root.Society.GetName], I must keep my mind sharp and keep refining my natural instincts if I wish to maintain the respect of my fellow warriors. I am looking forward dedicating some time outside of palace, tracking down wild creatures.;;;;;;;;;;;;x
-EVTOPTAHF25507;Ready my spear!;;;;;;;;;;;;x
+EVTOPTAHF25507;备好我的长矛！;;;;;;;;;;;;x
 EVTDESCAHF25508;What is the point of being a warrior if I have no one to defend? I should not forget what my duties as [Root.GetTitle] are. It is time I focus my energies on ruling my realm.;;;;;;;;;;;;x
 EVTOPTAHF25508;It is the right thing to do.;;;;;;;;;;;;x
 EVTDESCAHF25509;It has been a long time since I properly celebrated a great victory, or invited my fellow warriors over for a feast. What is the point of accomplishing such legendary feats if they are not remembered and honored?;;;;;;;;;;;;x
-EVTOPTAHF25509;Let the festivities begin!;;;;;;;;;;;;x
-quest_warrior_lodge_weak_focus_to_war;Focus on War;;;;;;;;;;;;x
+EVTOPTAHF25509;让宴会开始吧！;;;;;;;;;;;;x
+quest_warrior_lodge_weak_focus_to_war;专注于战争;;;;;;;;;;;;x
 quest_warrior_lodge_weak_focus_to_war_desc;The older members of [Root.Society.GetName] are concerned that I might be neglecting my training to focus on other, menial activities.;;;;;;;;;;;;x
 quest_warrior_lodge_weak_focus_to_war_tooltip;To complete this mission, select the §YWar Focus§!.;;;;;;;;;;;;x
-quest_warrior_lodge_weak_focus_to_hunting;Focus on Hunting;;;;;;;;;;;;x
-quest_warrior_lodge_weak_focus_to_hunting_desc;The older members of [Root.Society.GetName] have suggested that I spend some time refining my senses by hunting wild game.;;;;;;;;;;;;x
-quest_warrior_lodge_weak_focus_to_hunting_tooltip;To complete this mission, select the §YHunting Focus§!.;;;;;;;;;;;;x
-quest_warrior_lodge_weak_focus_to_rulership;Focus on Rulership;;;;;;;;;;;;x
+quest_warrior_lodge_weak_focus_to_hunting;专注于狩猎;;;;;;;;;;;;x
+quest_warrior_lodge_weak_focus_to_hunting_desc;[Root.Society.GetName]的前辈们建议我花更多时间来狩猎野物，以强化我的感官。;;;;;;;;;;;;x
+quest_warrior_lodge_weak_focus_to_hunting_tooltip;欲完成这项任务，请选择§Y狩猎重心§!。;;;;;;;;;;;;x
+quest_warrior_lodge_weak_focus_to_rulership;专注于统治;;;;;;;;;;;;x
 quest_warrior_lodge_weak_focus_to_rulership_desc;The older members of [Root.Society.GetName] are concerned that I am neglecting my duties as [Root.GetTitle] to focus on other menial activities.;;;;;;;;;;;;x
 quest_warrior_lodge_weak_focus_to_rulership_tooltip;To complete this mission, select the §YRulership Focus§!.;;;;;;;;;;;;x
 quest_warrior_lodge_weak_focus_to_carousing;Focus on Carousing;;;;;;;;;;;;x
@@ -19877,15 +19877,15 @@ uncivilized_dueler;Uncivilized Dueler;;;;;;;;;;;;x
 uncivilized_dueler_desc;This character has shown a lack of subtlety and great disdain for societal traditions with [Root.GetHerHis] indiscriminate choice of dueling targets.;;;;;;;;;;;;x
 String_priest_title;[This.Religion.GetPriestTitle];;;;;;;;;;;;x
 String_priest_woman;woman and a [This.Religion.GetPriestTitle];;;;;;;;;;;;x
-RULE_DUELING_UNRESTRICTED_DESC;Almost anyone can be dueled. Penalties in regards to gender or religion are no longer applied.;;;;;;;;;;;;x
+RULE_DUELING_UNRESTRICTED_DESC;几乎可向每个人挑起决斗。关于性别和宗教的惩罚将不再有效。;;;;;;;;;;;;x
 String_gun;gun;;;;;;;;;;;;x
 String_shooting;shooting;;;;;;;;;;;;x
 String_severely_shot;ricochet a shot, grazing [This.GetHerHis] [This.GetBodyPartInjured];;;;;;;;;;;;x
 String_severely_shot_eyes;slam my [Root.GetDuelWeapon] into [This.GetHerHis] [This.GetBodyPartInjured];;;;;;;;;;;;x
-String_shot_not_lethal;fire my [Root.GetDuelWeapon] at [This.GetHerHis] [This.GetBodyPartInjured], the sound shocking even myself;;;;;;;;;;;;x
-String_shot_not_lethal_eyes;fire at my opponent's head, covering [This.GetHerHis] face in blood;;;;;;;;;;;;x
+String_shot_not_lethal;用我的[Root.GetDuelWeapon]向[This.GetHerHis][This.GetBodyPartInjured]开火，巨大的响声甚至使我自己震惊;;;;;;;;;;;;x
+String_shot_not_lethal_eyes;向对手的头颅开火，[This.GetHerHis]的脸浸在血中;;;;;;;;;;;;x
 String_shoot_mild;rip the ground apart with a shot, startling my opponent into tripping over [This.GetHerselfHimself];;;;;;;;;;;;x
-String_shoot_them_actually_dead;blow a hole into [This.GetHerHis] chest;;;;;;;;;;;;x
+String_shoot_them_actually_dead;在[This.GetHerHis]的胸膛上开了一个洞;;;;;;;;;;;;x
 String_shoot_me_mild;fire [other_combatant.GetHerHis] [other_combatant.GetDuelWeapon] into the ground, startling me into tripping over myself;;;;;;;;;;;;x
 String_shoot_me_actually_dead;fire [other_combatant.GetHerHis] [other_combatant.GetDuelWeapon] into my chest;;;;;;;;;;;;x
 String_shoot_my_gun;pull the trigger, firing my last bullet. It finds [other_combatant.GetHerHis] temple;;;;;;;;;;;;x
@@ -19903,8 +19903,8 @@ MORGANNWG_ADJ;Morgannwgian;;;;;;;;;;;;x
 LOCHA_LEIN;Locha Léin;;;;;;;;;;;;x
 LOCHA_LEIN_ADJ;Locha Léin;;;;;;;;;;;;x
 RULE_HELLENISM;Hellenic Revival;;;;;;;;;;;;x
-RULE_HELLENISM_ON;Under rare circumstances, rulers have a chance to turn Hellenic and restore the old religion.;;;;;;;;;;;;x
-RULE_HELLENISM_OFF;Events and decision dealing with the restoration of the Hellenic religion are disabled.;;;;;;;;;;;;x
+RULE_HELLENISM_ON;在很少的一些情况中，领主能够改信希腊多神教，恢复这一古老信仰。;;;;;;;;;;;;x
+RULE_HELLENISM_OFF;关闭关于恢复希腊多神教的事件与决议。;;;;;;;;;;;;x
 EVTDESCHFC20370;With the ceremony finally concluded, [From.GetTitledFirstName] bid me farewell and dismissed me from [From.GetHerHis] encampment, alongside all [From.GetHerHis] other guests. I still cannot believe that the coronation was not abruptly interrupted by an enemy raid... [From.Religion.GetHighGodNameCap] must really be protecting [From.GetTitledFirstName].;;;;;;;;;;;;x
 TOOLTIP_EVTOPTBHF23835;All the other §YGuests§! are insulted.;;;;;;;;;;;;x
 EVTOPTBHF23474;Bah! Superstitious nonsense!;;;;;;;;;;;;x
