@@ -236,11 +236,11 @@ EVTDESC_RIP_30207_FAIL;你在喝下你调制的毒酒仅仅几分钟后便开始
 EVTOPTA_RIP_30207;现在，拥抱永眠……;;;;;;;;;;;;x
 EVTOPTB_RIP_30207;[Root.Religion.GetHighGodName]，你为什么不想我死？！;;;;;;;;;;;;x
 EVTDESC_RIP_30208_SUCCESS;你曾经听别人说过上吊自杀是结束生命最好的方式。你在套上绞绳的时候不断地安慰自己。然而害怕只是短暂的，在你落下后不久便什么都感觉不到了。;;;;;;;;;;;;x
-EVTDESC_RIP_30208_FAIL;你曾经听某人说过上吊自杀是结束生命最好的方式，但是他也应该告诉你下落距离的重要性。你并没有直接吊死，绳子慢慢地勒紧你的脖子，直到[found_hanger.GetTitledFirstName]路过发现你还活着。;;;;;;;;;;;;x
+EVTDESC_RIP_30208_FAIL;你曾经听某人说过上吊自杀是结束生命最好的方式，但是他也应该告诉你下落距离的重要性……你并没有直接吊死，绳子慢慢地勒紧你的脖子，直到[found_hanger.GetTitledFirstName]路过发现你还活着……;;;;;;;;;;;;x
 EVTDESC_RIP_30209_SUCCESS;你在高塔上流连，不停地欣赏着绝妙的美景。直到你下定决心翻过护栏并坠向虚无。那真是道靓丽的风景，但是你是不会再错过了。深呼吸过后，你跌向地面，就像鸟儿般自由……;;;;;;;;;;;;x
 EVTDESC_RIP_30209_FAIL;你在高塔上流连，不停地欣赏着绝妙的美景。直到你下定决心翻过护栏并坠向虚无。然而现实不尽人意，坠落的冲击比你想象的要小，你获得的不是解脱而是无法忍受的痛苦。你模模糊糊地听见一声尖叫，如同是数十公里之外传来的一样。;;;;;;;;;;;;x
 EVTDESC_RIP_30210_A;你的身体成了活生生的牢狱。这样苟活根本无法忍受。一次难得的机会，你恢复了清醒的意识，发现[suicide_assistant.GetTitledFirstName]坐在你的身边。[suicide_assistant.GetSheHeCap]一定要帮助我……必须结束这一切……;;;;;;;;;;;;x
-EVTDESC_RIP_30210_B;你的身体成了活生生的牢狱，这样苟活根本无法忍受。一次难得的机会，你恢复了清醒的意识，发现有个人坐在你的身边。他们一定要帮助我……必须结束这一切……;;;;;;;;;;;;x
+EVTDESC_RIP_30210_B;你的身体成了活生生的牢狱，这样苟活根本无法忍受。一次难得的机会，你恢复了清醒的意识，发现有个人坐在你的身边。一定要帮助我……必须结束这一切……;;;;;;;;;;;;x
 EVTOPTA_RIP_30210;救救我，[suicide_assistant.GetFirstName]。我无法忍受了……求你了……;;;;;;;;;;;;x
 EVTOPTB_RIP_30210;我请求你，救救我。我无法忍受了……求你了……;;;;;;;;;;;;x
 EVTDESC_RIP_30211;你坐在你[GetFromRelation][From.GetTitledFirstName]的病榻旁正假寐着，忽然[From.GetHerHis]微弱的声音穿过你模糊的意识。你前倾过去，急切地希望[From.GetHerHim]再重复一边[From.GetHerselfHimself]所说的话。随后，[From.GetHerHisCap]请求让你不禁打了个寒颤。「结束这一切吧……求求你了。」;;;;;;;;;;;;x
@@ -256,8 +256,8 @@ EVTOPTA_RIP_30222;我将邀请[From.GetManWoman]和我去散散心！;;;;;;;;;;;
 EVTOPTB_RIP_30222;我宁愿独自一人。;;;;;;;;;;;;x
 EVTDESC_RIP_30223_A;结果这名陌生人，[From.GetFirstName]，是一位修女，已在外数月，在回到[From.GetHerHis]修道院的路上。你们谈论着生与死，信仰与疑惑的话题，直到夜晚的灯火也快要熄灭。当你想要抱歉道别时，这位修女询问你能否给她一间房间和床铺让她停留数日。;;;;;;;;;;;;x
 EVTDESC_RIP_30223_B;结果这名陌生人，[From.GetFirstName]，是一位修士，已在外数月，在回到[From.GetHerHis]修道院的路上。你们谈论着生与死，信仰与疑惑的话题，直到夜晚的灯火也快要熄灭。当你想要抱歉道别时，这位修士询问你能否给她一间房间和床铺让他停留数日。;;;;;;;;;;;;x
-EVTDESC_RIP_30223_C;结果这名陌生人，[From.GetFirstName]，是一位[catholic.GetName]的修女，已在外数月，在回到她的修道院的路上。你们谈论着生与死，信仰与疑惑的话题，直到夜晚的灯火也快要熄灭。当你想要抱歉道别时，这位修女询问你能否给她一间房间和床铺让她停留数日。;;;;;;;;;;;;x
-EVTDESC_RIP_30223_D;结果这名陌生人，[From.GetFirstName]，是一位[catholic.GetName]的修士，已在外数月，在回到他的修道院的路上。你们谈论着生与死，信仰与疑惑的话题，直到夜晚的灯火也快要熄灭。当你想要抱歉道别时，这位修士询问你能否给他一间房间和床铺让他停留数日。;;;;;;;;;;;;x
+EVTDESC_RIP_30223_C;结果这名陌生人，[From.GetFirstName]，是一位[catholic.GetName]的修女，已在外数月，在回到她修道院的路上。你们谈论着生与死，她的神与[Root.Religion.GetHighGodName]的话题，直到夜晚的灯火也快要熄灭。当你想要抱歉道别时，这位修女询问你能否给她一间房间和床铺让她停留数日。;;;;;;;;;;;;x
+EVTDESC_RIP_30223_D;结果这名陌生人，[From.GetFirstName]，是一位[catholic.GetName]的修士，已在外数月，在回到他的修道院的路上。你们谈论着生与死，他的神与[Root.Religion.GetHighGodName]的话题，直到夜晚的灯火也快要熄灭。当你想要抱歉道别时，这位修士询问你能否给他一间房间和床铺让他停留数日。;;;;;;;;;;;;x
 EVTOPTA_RIP_30223;当然了，[From.GetFirstName]！你将会在我温暖的炉火旁睡个好觉的。;;;;;;;;;;;;x
 EVTOPTA_RIP_30223_TOOLTIP;邀请§Y[From.GetFirstName]§!和你住上几天。\n;;;;;;;;;;;;x
 EVTOPTB_RIP_30223;我知道旁边有家不错的旅馆。;;;;;;;;;;;;x
@@ -722,25 +722,25 @@ INSULT_CANNIBAL;食人者;;;;;;;;;;;;x
 INSULT_CANNIBALISTIC;食人的;;;;;;;;;;;;x
 EVTDESC_TOG_7501_DONGO;你满怀虔诚，在追随冬戈的道路上苦苦辛劳。以他之名，你勤练掷矛，在沙盒边和将领运筹帷幄。因此，你的军事技能提高了。;;;;;;;;;;;;x
 EVTDESC_TOG_7502_BIDA;你满怀虔诚，在追随碧答的道路上苦苦辛劳。以他之名，你在领地巡查市场和商路，安排收获节和丰产仪式，还数次投资商业冒险。因此，你的财政能力提高了。;;;;;;;;;;;;x
-EVTDESC_TOG_7503_TSUMBURBURA;You have toiled devoutly in your endeavor to follow the path of Tsumburbura. In her name you have sought out knowledge and purity, as well as taught and done good deeds wherever your travels have taken you. As a result, your learning has been improving.;;;;;;;;;;;;x
-EVTDESC_TOG_7506_TSUMBURBURA;It is early morning and you are at the shrine dedicated to Tsumburbura, deep in prayers. You hear soft footsteps behind you - who could it be at this hour? [From.GetTitledFirstName], as it turns out. You exchange some pleasantries and soon you find yourself in a full-fledged conversation. You have so much in common!;;;;;;;;;;;;x
-EVTDESC_TOG_7506_DONGO;It is a fine day and you are out hunting with a small party. As you take a break to eat your midday meal, you find yourself in a discussion on archery with [From.GetTitledFirstName]. It turns out that [From.GetSheHe] is also a devout follower of Dongo. The longer you talk the more you seem to have in common!;;;;;;;;;;;;x
-EVTDESC_TOG_7506_BIDA;Many find it odd that a [Root.GetTitle] barters at the market, but it makes you feel closer to Bida, more so than any prayer. [From.GetTitledFirstName] approaches you, and the two of you exchange some words about the state of trading in [Root.PrimaryTitle.GetName]. It turns out that [From.GetSheHe] is also a follower of Bida!;;;;;;;;;;;;x
-EVTDESC_TOG_7506_AYYUR;It is early morning and you are at the shrine dedicated to Ayyur, deep in prayers. You hear soft footsteps behind you - who could it be at this hour? [From.GetTitledFirstName], as it turns out. You exchange some pleasantries and soon you find yourself in a full-fledged conversation. You have so much in common!;;;;;;;;;;;;x
-EVTDESC_TOG_7508_DONGO;You sit huddled up together by the fire, the air thick with tension. The skies outside are dark with heavy clouds and Dongo's presence is as tangible as a lover's touch. Suddenly, the room is lit by a bright flash and an ear-defening crack cuts through the silence. Your [GetFromRelation] [From.GetFirstName] breaks into tears.;;;;;;;;;;;;x
-tsumburburas_blessing;Tsumburbura's Blessing;;;;;;;;;;;;x
-tsumburburas_blessing_desc;This character feels blessed by the Goddess Tsumburbura, which has improved their marriage.;;;;;;;;;;;;x
-EVTDESC_TOG_7510_TSUMBURBURA;Lately, you have striven to act in the spirit of Tsumburbura by treating your [From.GetHusbandWife] [From.GetTitledFirstName] with respect and warmth. Slowly it has changed the dynamic of your relationship, and those who are closest to you have noticed it as well.;;;;;;;;;;;;x
-EVTDESC_TOG_7516_DONGO;Your reputation as a devout follower of Dongo has spread across the lands. Many great and seasoned warriors have since traveled to [Root.Capital.GetName] to pledge their allegiance to your cause.;;;;;;;;;;;;x
-EVTDESC_TOG_7518_AYYUR;In your efforts to become more like the good Ayyur, you have begun treating everyone who crosses your path with more understanding and respect. As a result, you have become known for your compassionate ways and noble nature. Some go as far as calling you "the Voice of Ayyur".;;;;;;;;;;;;x
-voice_of_ayyur;Voice of Ayyur;;;;;;;;;;;;x
-EVTDESC_TOG_7520_BIDA;Your efforts to make [Root.Capital.GetName] famous for its markets and merchants has paid of. The city is prospering like never before, and more people gather at the shrine of Bida each day. You have inspired many to follow his path.;;;;;;;;;;;;x
-EVTDESC_TOG_7524_TSUMBURBURA;In your search for wisdom in the name of Tsumburbura, you have had more than one epiphany relevant to welfare of your lands. Spreading that knowledge is not only beneficial to your rule, but also a sacred duty in and of itself.;;;;;;;;;;;;x
-EVTOPTA_TOG_7526_DONGO;I shall erect a monument in the honor of Dongo.;;;;;;;;;;;;x
-EVTOPTA_TOG_7526_AYYUR;I shall erect a monument in the honor of Ayyur.;;;;;;;;;;;;x
-EVTOPTA_TOG_7526_BIDA;I shall erect a monument in the honor of Bida.;;;;;;;;;;;;x
-EVTOPTA_TOG_7526_TSUMBURBURA;I shall erect a monument in the honor of Tsumburbura.;;;;;;;;;;;;x
-EVTDESC_TOG_7527_DONGO;Finally the monument is finished. It turned out just as you envisioned it, or perhaps even better. To celebrate its completion, a grand ceremony was held in Dongo's honor, and what a ceremony indeed! Tales of it will be told for as long as the monument stands watch over [Root.Capital.GetName].;;;;;;;;;;;;x
-EVTDESC_TOG_7527_AYYUR;Finally the monument is finished. It turned out just as you envisioned it, or perhaps even better. To celebrate its completion, a grand ceremony was held in Ayyur's honor, and what a ceremony indeed! Tales of it will be told for as long as the monument stands watch over [Root.Capital.GetName].;;;;;;;;;;;;x
-EVTDESC_TOG_7527_BIDA;Finally the monument is finished. It turned out just as you envisioned it, or perhaps even better. To celebrate its completion, a grand ceremony was held in Bida's honor, and what a ceremony indeed! Tales of it will be told for as long as the monument stands watch over [Root.Capital.GetName].;;;;;;;;;;;;x
-EVTDESC_TOG_7527_TSUMBURBURA;Finally the monument is finished. It turned out just as you envisioned it, or perhaps even better. To celebrate its completion, a grand ceremony was held in Tsumburbura's honor, and what a ceremony indeed! Tales of it will be told for as long as the monument stands watch over [Root.Capital.GetName].;;;;;;;;;;;;x
+EVTDESC_TOG_7503_TSUMBURBURA;你满怀虔诚，在追随尊布尔布拉的道路上苦苦辛劳。以她之名，你遵循教导寻求知识和纯洁，在旅途中处处与人为善。因此，你的学识提高了。;;;;;;;;;;;;x
+EVTDESC_TOG_7506_TSUMBURBURA;清晨，你来到尊布尔布拉的神殿，深深地祈祷。你听到身后有轻柔的脚步声——这个时间会是谁呢？[From.GetTitledFirstName]现出身影，你们互相客套了一下，很快便浸入了交谈之中。你们有着如此之多的共识！;;;;;;;;;;;;x
+EVTDESC_TOG_7506_DONGO;一个好天气，你带着一支小队外出打猎。当你停下休息片刻并享受午餐时，你开始与[From.GetTitledFirstName]进行一次有关箭术的讨论，结果发现[From.GetSheHe]也是一名冬戈的虔信者。随着交谈的深入，你发现你们的共同点越来越多。;;;;;;;;;;;;x
+EVTDESC_TOG_7506_BIDA;许多人奇怪地发现一位[Root.GetTitle]在市场里讨价还价，但这能使你与碧答更亲近，比任何形式的祈祷都管用。当你稍作休息时，你看到[From.GetTitledFirstName]靠了过来，你们互相打了招呼，并交谈了有关[Root.PrimaryTitle.GetName]贸易的话题。原来[From.GetSheHe]也是一名碧答的信徒！;;;;;;;;;;;;x
+EVTDESC_TOG_7506_AYYUR;清晨，你来到阿库尔的神殿，深深地祈祷。你听到身后有轻柔的脚步声——这个时间会是谁呢？[From.GetTitledFirstName]现出身影，你们互相客套了一下，很快便浸入了交谈之中。你们有着如此之多的共识！;;;;;;;;;;;;x
+EVTDESC_TOG_7508_DONGO;你们蜷缩在火堆旁，空气中弥漫着紧张的氛围。外面天空昏暗，黑云密布，冬戈的存在感如爱人的触摸一般真实。突然，一道闪电照亮了房间，震耳欲聋的雷声打破了宁静。你的[GetFromRelation][From.GetFirstName]开始放声大哭。;;;;;;;;;;;;x
+tsumburburas_blessing;尊布尔布拉的保佑;;;;;;;;;;;;x
+tsumburburas_blessing_desc;这个角色感受到尊布尔布拉的保佑，这改善了其婚姻。;;;;;;;;;;;;x
+EVTDESC_TOG_7510_TSUMBURBURA;近来，你努力着以尊布尔布拉的精神，满怀敬意和温暖对待你的[From.GetHusbandWife][From.GetTitledFirstName]。你们之间的关系开始变得更有活力，而那位与你最亲近的人也注意到了这一点。;;;;;;;;;;;;x
+EVTDESC_TOG_7516_DONGO;你作为冬戈忠实追随者的名声到处传遍。许多伟大老练的战士长途跋涉来到[Root.Capital.GetName]向你效忠。;;;;;;;;;;;;x
+EVTDESC_TOG_7518_AYYUR;你努力成为更好的阿库尔信徒，你开始对待所有经过你领地的人更加谅解和尊重。结果就是，你开始由于你的和善以及高贵的言行变得有名。有些人甚至称呼你为「阿库尔之声」。;;;;;;;;;;;;x
+voice_of_ayyur;阿库尔之声;;;;;;;;;;;;x
+EVTDESC_TOG_7520_BIDA;你追求让[Root.Capital.GetName]以市场和商贸闻名的努力得到了回报。这座城市现在前所未有的繁荣，并且每天都有越来越多的人聚集在碧答神庙。你已经鼓励了许多人来追随他的脚步。;;;;;;;;;;;;x
+EVTDESC_TOG_7524_TSUMBURBURA;在你以尊布尔布拉之名追寻智慧的过程中，你多次获得了关于你土地福祉的顿悟。传播这些知识不仅有利于你的统治，本身也是一项神圣的职责。;;;;;;;;;;;;x
+EVTOPTA_TOG_7526_DONGO;我将竖起纪念碑，纪念冬戈。;;;;;;;;;;;;x
+EVTOPTA_TOG_7526_AYYUR;我将竖起纪念碑，纪念阿库尔。;;;;;;;;;;;;x
+EVTOPTA_TOG_7526_BIDA;我将竖起纪念碑，纪念碧答。;;;;;;;;;;;;x
+EVTOPTA_TOG_7526_TSUMBURBURA;我将竖起纪念碑，纪念尊布尔布拉。;;;;;;;;;;;;x
+EVTDESC_TOG_7527_DONGO;终于纪念碑建成了。跟你所预想的一样，或者说甚至超出了预期。为了庆祝它的完工，人们举办了一场盛大的庆典纪念冬戈，真是一场盛事！只要纪念碑耸立并俯瞰着[Root.Capital.GetName]整座城市，这个故事就将被代代传颂。;;;;;;;;;;;;x
+EVTDESC_TOG_7527_AYYUR;终于纪念碑建成了。跟你所预想的一样，或者说甚至超出了预期。为了庆祝它的完工，人们举办了一场盛大的庆典纪念阿库尔，真是一场盛事！只要纪念碑耸立并俯瞰着[Root.Capital.GetName]整座城市，这个故事就将被代代传颂。;;;;;;;;;;;;x
+EVTDESC_TOG_7527_BIDA;终于纪念碑建成了。跟你所预想的一样，或者说甚至超出了预期。为了庆祝它的完工，人们举办了一场盛大的庆典纪念碧答，真是一场盛事！只要纪念碑耸立并俯瞰着[Root.Capital.GetName]整座城市，这个故事就将被代代传颂。;;;;;;;;;;;;x
+EVTDESC_TOG_7527_TSUMBURBURA;终于纪念碑建成了。跟你所预想的一样，或者说甚至超出了预期。为了庆祝它的完工，人们举办了一场盛大的庆典纪念尊布尔布拉，真是一场盛事！只要纪念碑耸立并俯瞰着[Root.Capital.GetName]整座城市，这个故事就将被代代传颂。;;;;;;;;;;;;x

@@ -18,7 +18,7 @@ MNM.70110.a;抓住[accused_apostate.GetHerHim]！[accused_apostate.GetSheHeCap]�
 MNM.70110.b;我知道我要指控哪个家伙……;;;;;;;;;;;;x
 MNM.70200.d.highly_suspected_society_member;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的[Root.GetChamber]，身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊贵的[Root.GetTitle]，这个[accused_apostate.GetManWoman]已经公开宣布忠于[accused_apostate.Society.GetName]！ 我们要怎么处置[accused_apostate.GetHerHim] ？」;;;;;;;;;;;;x
 MNM.70200.d.suspected_society_member;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的[Root.GetChamber]，身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊贵的[Root.GetTitle]，我已经有足够的证据证明 [accused_apostate.GetManWoman]参与了[accused_apostate.Society.GetName]！我们该怎么处置[accused_apostate.GetHerHim]？」;;;;;;;;;;;;x
-MNM.70200.d.suspected_apostate;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的 [Root.GetChamber]，身边跟着几个[Root.GetReligionWarriorPlural]拖着披枷带锁的[accused_apostate.GetBestName]。「我的 [Root.GetTitle]，我们在这个叛教者读[accused_apostate.TrueReligion.GetName]经文，宣扬[Root.job_spiritual.Religion.GetRandomEvilGodName]的时候当场抓住了[accused_apostate.GetHerHim] ！我们应该怎么处理[accused_apostate.GetHerHim]？」;;;;;;;;;;;;x
+MNM.70200.d.suspected_apostate;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的[Root.GetChamber]，身边跟着几个[Root.GetReligionWarriorPlural]拖着披枷带锁的[accused_apostate.GetBestName]。「我的[Root.GetTitle]，我们当场抓到这个叛教者阅读[accused_apostate.TrueReligion.GetName]，颂扬[Root.job_spiritual.Religion.GetRandomEvilGodName]！我们应该怎么处理[accused_apostate.GetHerHim]？」;;;;;;;;;;;;x
 MNM.70200.d.no_suspicion;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的[Root.GetChamber]，身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊敬的[Root.GetTitle]，有很多忧虑的农民声称他们的孩子被这个[accused_apostate.GetManWoman]的噩梦所折磨——[accused_apostate.GetSheHe]显然是一个[accused_apostate.GetWarlockWitch]！我们该怎么处置 [accused_apostate.GetHerHim]？」;;;;;;;;;;;;x
 MNM.70200.d.innocent_victim;[Root.GetLordSpiritualName][Root.job_spiritual.GetFirstName]冲进了你的[Root.GetChamber]，身后的几位[Root.GetReligionWarriorPlural]拖拽着披枷带锁的[accused_apostate.GetBestName]。「尊敬的[Root.GetTitle]，有很多忧虑的农民声称他们的孩子被这个[accused_apostate.GetManWoman]的噩梦所折磨——[accused_apostate.GetSheHe]显然是一个[accused_apostate.GetWarlockWitch]！我们该怎么处置[accused_apostate.GetHerHim]？」;;;;;;;;;;;;x
 MNM.70200.a;烧死叛教者！;;;;;;;;;;;;x
@@ -182,7 +182,7 @@ destroy_selected_ingredient_1_plus_random_other_ingredient_tt;§Y[GetSelectedIng
 ingredient_option_available_tt;这个选项可用是因为你的宝库中拥有一个§Y原料§!。\n\n;;;;;;;;;;;;x
 multiple_ingredient_option_available_tt;这个选项可用是因为你的宝库中拥有多个§Y原料§!。\n\n;;;;;;;;;;;;x
 EVTDESC_MNM_1200_B;我把碗放在我面前，等待水完全静止。定期占卜可以让我为自己的思想选择一个焦点——另一方面，我可以使用我炼金架上的东西来创造前所未见的东西……我深深吐出一口气，水面上的倒影涟漪起伏。;;;;;;;;;;;;x
-EVTDESC_MNM_5208;[fellow_member_target.GetTitledFirstName]的自大演讲惹人心烦，[fellow_member_target.GetSheHe]什么时候成了[Root.GetHermeticDebateSubject]的专家了？\n我叹口气，握紧了口袋里的小瓶。;;;;;;;;;;;;x
+EVTDESC_MNM_5208;[fellow_member_target.GetTitledFirstName]的自大演讲惹人心烦——[fellow_member_target.GetSheHe]什么时候成了[Root.GetHermeticDebateSubject]的专家了？\n我叹口气，握紧了口袋里的小瓶。;;;;;;;;;;;;x
 EVTOPTC_MNM_5211;我应该调制一些东西来让我放松，或者帮助我更专注！;;;;;;;;;;;;x
 EVTOPTA_MNM_1622_use_ingredients;我有一些可以治病的有趣烧瓶！;;;;;;;;;;;;x
 EVTOPTC_MNM_1842_herb;冷静点，孩子。我会用一点[GetSelectedIngredient_1]来酿造些喝的。;;;;;;;;;;;;x
@@ -250,7 +250,7 @@ String_reeks;臭得我鼻子抽搐;;;;;;;;;;;;x
 String_reek;臭得我鼻子抽搐;;;;;;;;;;;;x
 String_glitters;微微闪烁;;;;;;;;;;;;x
 String_glitter;微微闪烁;;;;;;;;;;;;x
-EVTDESC_MNM_5110;我的社团同僚们有时候会谈起用来辟邪的复杂咒语和配方，也许我也应该采取预防措施。考虑到[GetWesternZodiacSign]的星象，我点点头——我书架上的[GetSelectedIngredient_1][GetSelectedIngredient_1_property]。;;;;;;;;;;;;x
+EVTDESC_MNM_5110;我的社团同僚们有时候会谈起用来辟邪的复杂咒语和配方，也许我也应该采取预防措施。考虑到[GetWesternZodiacSign]的星象，我暗自点头——我书架上的[GetSelectedIngredient_1][GetSelectedIngredient_1_property]。;;;;;;;;;;;;x
 EVTOPTA_MNM_5110;[GetSelectedIngredient_1]战略地放在我的住处就够了。;;;;;;;;;;;;x
 EVTOPTB_MNM_5110;我将为此任务使用元素的组合。;;;;;;;;;;;;x
 EVTOPTC_MNM_5110;我要用神圣的符号来描绘我的整个城堡！这是唯一的方法！;;;;;;;;;;;;x
@@ -302,7 +302,7 @@ religion_openly_finnish_or_reformed_tooltip;公开追随§Y[finnish_pagan_reform
 religion_openly_slavic_or_reformed_tooltip;公开追随§Y[slavic_pagan_reformed.GetName]§!信仰;;;;;;;;;;;;x
 religion_openly_tengri_or_reformed_tooltip;公开追随§Y[tengri_pagan_reformed.GetName]§!信仰;;;;;;;;;;;;x
 religion_openly_west_african_or_reformed_tooltip;公开追随§Y[west_african_pagan_reformed.GetName]§!信仰;;;;;;;;;;;;x
-religion_openly_zun_or_reformed_tooltip;公开追随§Y[zun_pagan_reformed.GetName]§! 信仰;;;;;;;;;;;;x
+religion_openly_zun_or_reformed_tooltip;公开追随§Y[zun_pagan_reformed.GetName]§!信仰;;;;;;;;;;;;x
 religion_openly_aztec_or_reformed_tooltip;公开追随§Y[aztec_reformed.GetName]§!信仰;;;;;;;;;;;;x
 FOLLOWS_SECRET_RELIGION_TOOLTIP;这名角色私下里信奉着$RELIGION|Y$。;;;;;;;;;;;;x
 CAN_SEE_SECRET_RELIGION;知道$WHO|Y$秘密信仰一个宗教;;;;;;;;;;;;x
@@ -317,7 +317,7 @@ known_satanist_desc;这个角色已经被揭露是一个恶魔的崇拜者。;;;
 EVTTITLE_MNM_7855;[GetDemonHuntersEventTitle];;;;;;;;;;;;x
 EVTTITLE_MNM_7855_A;恶魔杀手;;;;;;;;;;;;x
 EVTTITLE_MNM_7855_A_again;杀手归来;;;;;;;;;;;;x
-EVTDESC_MNM_7855_A;夜幕降临，我在思索着最近进行的仪式——必须有更有效的方法来洗去衣服上的血……？\n「你就是[Root.GetDWDemon]吧。」一个声音在我身后响起。我转身，发现一个危险的少妇，举着一个木桩。她耸耸肩：「我不能让你这种邪恶的东西就这么走开。」;;;;;;;;;;;;x
+EVTDESC_MNM_7855_A;夜幕降临，我在思索着最近进行的仪式——应该还有更有效的方法来洗去衣服上的血……？\n「你就是[Root.GetDWDemon]吧。」一个声音在我身后响起。我转身，发现一个危险的少妇，举着一个木桩。她耸耸肩：「我不能让你这种邪恶的东西就这么走开。」;;;;;;;;;;;;x
 EVTDESC_MNM_7855_A_again;当我晚上回到我的住处时，一个影子突然动了起来，吓了我一跳。「真是让我久等了。」一个明亮的声音响起。声音的主人，是一名举着武器的女子，她缓缓的走出了阴影。「你是怎么进入我的[Root.GetCapitalHolding]里的？」我问道，略带一丝紧张与不安。「你的守卫都睡着了，我的[Root.GetLordLady]……让我们做个了断吧。」;;;;;;;;;;;;x
 EVTTITLE_MNM_7855_B;愤怒的村民;;;;;;;;;;;;x
 EVTTITLE_MNM_7855_B_again;愤怒的村民归来;;;;;;;;;;;;x
@@ -445,10 +445,10 @@ secretly_convert_to_finnish_pagan_holy_site;秘密皈依索米多神教;;;;;;;;;
 secretly_convert_to_finnish_pagan_holy_site_desc;聚集在圣地§Y[Root.Location.GetName]§!的§Y索米多神教§!朝圣者们对他们信仰的深度与热情打动了我。我被吸引着秘密改信………;;;;;;;;;;;;x
 secretly_convert_to_finnish_pagan_reformed_holy_site;秘密皈依索米多神教;;;;;;;;;;;;x
 secretly_convert_to_finnish_pagan_reformed_holy_site_desc;聚集在圣地§Y[Root.Location.GetName]§!的§Y索米多神教§!朝圣者们对他们信仰的深度与热情打动了我。我被吸引着秘密改信……;;;;;;;;;;;;x
-secretly_convert_to_west_african_pagan_holy_site;秘密皈依西非泛灵教;;;;;;;;;;;;x
-secretly_convert_to_west_african_pagan_holy_site_desc;聚集在圣地§Y[Root.Location.GetName]§!的§Y西非泛灵教§!朝圣者们对他们信仰的深度与热情打动了我。我被吸引着秘密改信……;;;;;;;;;;;;x
-secretly_convert_to_west_african_pagan_reformed_holy_site;秘密皈依西非泛灵教;;;;;;;;;;;;x
-secretly_convert_to_west_african_pagan_reformed_holy_site_desc;聚集在圣地§Y[Root.Location.GetName]§!的§Y西非泛灵教§!朝圣者们对他们信仰的深度与热情打动了我。我被吸引着秘密改信……;;;;;;;;;;;;x
+secretly_convert_to_west_african_pagan_holy_site;秘密皈依非洲泛灵教;;;;;;;;;;;;x
+secretly_convert_to_west_african_pagan_holy_site_desc;聚集在圣地§Y[Root.Location.GetName]§!的§Y非洲泛灵教§!朝圣者们对他们信仰的深度与热情打动了我。我被吸引着秘密改信……;;;;;;;;;;;;x
+secretly_convert_to_west_african_pagan_reformed_holy_site;秘密皈依非洲泛灵教;;;;;;;;;;;;x
+secretly_convert_to_west_african_pagan_reformed_holy_site_desc;聚集在圣地§Y[Root.Location.GetName]§!的§Y非洲泛灵教§!朝圣者们对他们信仰的深度与热情打动了我。我被吸引着秘密改信……;;;;;;;;;;;;x
 secretly_convert_to_aztec_holy_site;秘密皈依阿兹特克信仰;;;;;;;;;;;;x
 secretly_convert_to_aztec_holy_site_desc;聚集在圣地§Y[Root.Location.GetName]§!的§Y阿兹特克信仰§!朝圣者们对他们信仰的深度与热情打动了我。我被吸引着秘密改信……;;;;;;;;;;;;x
 secretly_convert_to_aztec_reformed_holy_site;秘密皈依阿兹特克信仰;;;;;;;;;;;;x
