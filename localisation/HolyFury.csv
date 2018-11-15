@@ -40,9 +40,9 @@ warrior_lodge_inspire_warriors_desc;如果一个地产中的守备部队或征�
 warrior_lodge_inspire_warriors_power_desc;允许你在一个地产上§G点击右键§!来将其内部的守备部队瞬间补充满员。;;;;;;;;;;;;x
 warrior_lodge_indomitable;不屈;;;;;;;;;;;;x
 warrior_lodge_indomitable_power_desc;当率领部队时，你再也不会在战场上受到致命伤。;;;;;;;;;;;;x
-warrior_lodge_choose_military_aspect;选择一个军事信条;;;;;;;;;;;;x
-warrior_lodge_choose_military_aspect_desc;在三种军事信条中选择你的重心。这样做可以让你选择一种生活方式特质。;;;;;;;;;;;;x
-warrior_lodge_choose_military_aspect_power_desc;允许在你的角色头像上§G右键点击§!以选择三种不同的军事特长的其中之一。;;;;;;;;;;;;x
+warrior_lodge_choose_military_aspect;选择一个军事发展方向;;;;;;;;;;;;x
+warrior_lodge_choose_military_aspect_desc;选择专注于三种军事发展方向之一。这样做可以让你选择一种生活方式特质。;;;;;;;;;;;;x
+warrior_lodge_choose_military_aspect_power_desc;允许在你的角色头像上§G右键点击§!以选择三种不同的军事专长之一。;;;;;;;;;;;;x
 EVTDESC_HFP_10101_default;正当[combatant_2.GetTitledFirstName]晕眩着往后退，紧紧捂着[combatant_2.GetHerHis]肚子上清晰可见的致命伤时，我喊道：「一切都结束了！」。我转身面对人群。「投降！或者————」满嘴血腥味的我还在讲话时，还没等我说完。我的对手就扔下[combatant_2.GetHerHis]血迹斑斑的[combatant_2.GetDuelWeapon]，咕哝道：「现在——一切都结束了」。;;;;;;;;;;;;x
 EVTDESC_HFP_10101_clumsy;武器已经举起，我向[combatant_2.GetTitledFirstName]发起了冲锋，但是被什么东西绊倒了。我在对手面前就这样摔倒了，他一脸难以置信的看着我，因为我竟然自己凑到[combatant_2.GetHerHis]武器上去。我现在已经无计可施，所以用双手紧紧缠住[combatant_2.GetManWoman]的脖子，[combatant_2.GetHerHis]眼睛里瞬间被恐惧填满。;;;;;;;;;;;;x
 EVTDESC_HFP_10101_elegant;我举起我的[combatant_1.GetDuelWeapon]向[combatant_2.GetTitledFirstName]发起了冲锋。我的对手轻松地模仿我的步伐，旁边的围观者已经在对着这场优雅的决斗窃窃私语，不，这已经变成一场舞蹈了。到最后，我已经承受不住身体里巨大的伤痛，直挺挺的倒在了地上，[combatant_2.GetTitledFirstName]那双恐怖的眼睛直勾勾的盯着我的后背。;;;;;;;;;;;;x
@@ -141,17 +141,17 @@ String_my_artifact_weapon_2;[dueling_weapon_2.GetName];;;;;;;;;;;;x
 String_injure_them;伤害[This.GetHerHim];;;;;;;;;;;;x
 String_cut_body_part_off;劈下了[This.GetHerHis]半个[This.GetBodyPartInjured];;;;;;;;;;;;x
 String_cut_their_body_part_out;砍掉了[This.GetHerHis][This.GetBodyPartInjured];;;;;;;;;;;;x
-String_sever_their_body_part_from_body;削下了[This.GetHerHis][This.GetBodyPartInjured];;;;;;;;;;;;x
-String_sever_their_head_from_their_body;削下了[This.GetHerHis]脑袋;;;;;;;;;;;;x
-String_crush_their_body_part;一击击碎了[This.GetHerHis][This.GetBodyPartInjured];;;;;;;;;;;;x
+String_sever_their_body_part_from_body;从[This.GetHerHis]身体上削下了[This.GetHerHis][This.GetBodyPartInjured];;;;;;;;;;;;x
+String_sever_their_head_from_their_body;从[This.GetHerHis]身体上削下了[This.GetHerHis]脑袋;;;;;;;;;;;;x
+String_crush_their_body_part;一招击碎了[This.GetHerHis][This.GetBodyPartInjured];;;;;;;;;;;;x
 String_crush_their_head;一击将[This.GetHerHis]脑袋砸进了身子里;;;;;;;;;;;;x
-String_pierce_body_part_through;扎穿了[This.GetHerHis][This.GetBodyPartInjured];;;;;;;;;;;;x
+String_pierce_body_part_through;刺穿了[This.GetHerHis][This.GetBodyPartInjured];;;;;;;;;;;;x
 String_take_body_part_out;将[This.GetHerHis][This.GetBodyPartInjured]掏了出来——我可没预想到这般可怖的情景;;;;;;;;;;;;x
 String_stick_body_part_out;划过[This.GetHerHis]脸，将[This.GetHerHis][This.GetBodyPartInjured]挑了出来;;;;;;;;;;;;x
 String_crack_bones_of_body_part;击碎了[This.GetHerHis][This.GetBodyPartInjured]里的几根骨头;;;;;;;;;;;;x
 String_crack_ribs;打断了[This.GetHerHis]几根肋骨;;;;;;;;;;;;x
 String_smack_across_body_part;一[Root.GetDuelWeapon]平劈在了[This.GetHerHis][This.GetBodyPartInjured]上;;;;;;;;;;;;x
-String_trip_them;我手中的[Root.GetDuelWeapon]趁势一劈，划出一个完美地半圆，吓得[This.GetHerHim]倒吸了一口凉气，登时坐倒在了地上;;;;;;;;;;;;x
+String_trip_them;我抡起手中的[Root.GetDuelWeapon]，划出一个完美地半圆，吓得[This.GetHerHim]倒吸了一口凉气，登时坐倒在了地上;;;;;;;;;;;;x
 String_hit_them_in_body_part;完美地击中了[This.GetHerHis][This.GetBodyPartInjured];;;;;;;;;;;;x
 String_hit_them_in_the_face;正中[This.GetHerHim]下巴，打得[This.GetHerHim]晕头晕脑地连退了几步;;;;;;;;;;;;x
 String_knock_them_out;踢中了[This.GetHerHim]肚子;;;;;;;;;;;;x
@@ -159,19 +159,19 @@ String_shoot_them_dead;射中了[This.GetHerHim][This.GetBodyPartInjured];;;;;;;
 String_injure_me;伤着了我;;;;;;;;;;;;x
 String_cut_my_body_part_off;劈下了我半个[This.GetBodyPartInjured];;;;;;;;;;;;x
 String_cut_my_body_part_out;砍掉了我的[This.GetBodyPartInjured];;;;;;;;;;;;x
-String_sever_my_body_part_from_body;削下了我的[This.GetBodyPartInjured];;;;;;;;;;;;x
-String_crush_my_body_part;一击击碎了我的[This.GetBodyPartInjured];;;;;;;;;;;;x
-String_crush_my_head;我的脑袋碎了;;;;;;;;;;;;x
+String_sever_my_body_part_from_body;从身体上削下了我的[This.GetBodyPartInjured];;;;;;;;;;;;x
+String_crush_my_body_part;一招击碎了我的[This.GetBodyPartInjured];;;;;;;;;;;;x
+String_crush_my_head;把我的……脑袋砸进了身体;;;;;;;;;;;;x
 String_stick_my_body_part_out;划过我的脸，将我[This.GetBodyPartInjured]挑了出来;;;;;;;;;;;;x
 String_crack_bones_of_my_body_part;击碎了我[This.GetBodyPartInjured]里几根骨头;;;;;;;;;;;;x
 String_crack_my_ribs;打断了我几根肋骨;;;;;;;;;;;;x
 String_smack_across_my_body_part;[other_combatant.GetHerHis][other_combatant.GetDuelWeapon]平劈在了我的[This.GetBodyPartInjured]上;;;;;;;;;;;;x
-String_trip_me;[other_combatant.GetHerHis][Root.GetDuelWeapon]趁势一劈，划出一个完美地半圆，吓得我倒吸了一口凉气，登时坐倒在了地上;;;;;;;;;;;;x
+String_trip_me;抡起[other_combatant.GetHerHis][other_combatant.GetDuelWeapon]，划出一个完美地半圆，吓得我倒吸了一口凉气，登时坐倒在了地上;;;;;;;;;;;;x
 String_hit_me_in_body_part;完美地击中了我[This.GetBodyPartInjured];;;;;;;;;;;;x
-String_hit_me_in_the_face;他正中我的下巴;;;;;;;;;;;;x
-String_knock_me_out;没能挡住我的踢击，却意外正中我的肚子。;;;;;;;;;;;;x
+String_hit_me_in_the_face;正中我的下巴;;;;;;;;;;;;x
+String_knock_me_out;我没能挡住踢击，意外地正中我的肚子。;;;;;;;;;;;;x
 String_shoot_me_dead;射中了我的[This.GetBodyPartInjured];;;;;;;;;;;;x
-they_crawl_off_and_die_tt;照§Y[other_combatant.GetTitledFirstName]§!的伤势来看，他们怕是活不成了。\n;;;;;;;;;;;;x
+they_crawl_off_and_die_tt;照§Y[other_combatant.GetTitledFirstName]§!的伤势来看，怕是活不成了。\n;;;;;;;;;;;;x
 you_crawl_off_and_die_tt;照你这伤势，怕是活不成了。\n;;;;;;;;;;;;x
 black_eye;眼眶青肿;;;;;;;;;;;;x
 black_eye_desc;这名角色看起来像是打过一架。;;;;;;;;;;;;x
@@ -184,12 +184,12 @@ swollen_ankle_desc;这名角色现在走起来有着些许的跛脚。;;;;;;;;;;
 sore_muscles;肌肉酸痛;;;;;;;;;;;;x
 sore_muscles_desc;这个角色经常被人看到，大概是下意识地，按摩着自己的肩膀。;;;;;;;;;;;;x
 cracked_ribs;肋骨折断;;;;;;;;;;;;x
-cracked_ribs_desc;这个角色不时地由于疼痛而畏缩。;;;;;;;;;;;;x
+cracked_ribs_desc;这个角色不时疼得呲牙咧嘴。;;;;;;;;;;;;x
 concussion;脑震荡;;;;;;;;;;;;x
 concussion_desc;这个角色最近头部遭到了打击。;;;;;;;;;;;;x
 fueled_by_rage;怒火中烧;;;;;;;;;;;;x
 fueled_by_rage_desc;这个角色正被复仇驱使，感到血脉偾张。;;;;;;;;;;;;x
-carrying_torch;把火把交给某个人;;;;;;;;;;;;x
+carrying_torch;暗恋;;;;;;;;;;;;x
 carrying_torch_desc;这个角色正在体验一些复杂的情绪和活力的增长。;;;;;;;;;;;;x
 IS_NOT_CONNECTED_TRIGGER;没有与$TARGET|Y$连接;;;;;;;;;;;;x
 IS_CONNECTED_TRIGGER;与$TARGET|Y$连接;;;;;;;;;;;;x
@@ -197,12 +197,12 @@ CONNECTED_PROVINCE_STARTS;任何被连接的省份;;;;;;;;;;;;x
 NOT_CONNECTED_PROVINCE_STARTS;没有被连接的省份;;;;;;;;;;;;x
 DISCONNECTED_PROVINCE_STARTS;任何未被连接的省份;;;;;;;;;;;;x
 NOT_DISCONNECTED_PROVINCE_STARTS;没有未被连接的省份;;;;;;;;;;;;x
-NAVAL_PATH_DISTANCE_TRIGGER;海军距离到 $TO|Y$ 为 $COMPARISON|Y$ $VALUE|Y$;;;;;;;;;;;;x
-NOT_NAVAL_PATH_TRIGGER;$TO|Y$的海军路径不存在;;;;;;;;;;;;x
-NAVAL_PATH_TRIGGER;存在$TO|Y$的海军路径;;;;;;;;;;;;x
+NAVAL_PATH_DISTANCE_TRIGGER;海军到$TO|Y$的距离$COMPARISON|Y$ $VALUE|Y$;;;;;;;;;;;;x
+NOT_NAVAL_PATH_TRIGGER;到$TO|Y$的海军路径不存在;;;;;;;;;;;;x
+NAVAL_PATH_TRIGGER;到$TO|Y$的海军路径存在;;;;;;;;;;;;x
 OLD_SAVE_WARNING;§Y这是一个旧存档，如果加载很有可能会出现各种问题§!;;;;;;;;;;;;x
-ALT_START_RESET;移除历史中;;;;;;;;;;;;x
-ALT_START_GENERATE_CHARS;破碎的世界;;;;;;;;;;;;x
+ALT_START_RESET;正在移除历史数据;;;;;;;;;;;;x
+ALT_START_GENERATE_CHARS;正在破碎世界;;;;;;;;;;;;x
 ALT_START_SAVING;保存中;;;;;;;;;;;;x
 ALT_START_LOADING;读取中;;;;;;;;;;;;x
 setting_tier;统治者等级;;;;;;;;;;;;x
@@ -230,19 +230,19 @@ NOT_ALTERNATE_START_SETTING_TRIGGER;$SETTING|Y$设置不符合给定的参数;;;
 ALTERNATE_START_SETTING_TRIGGER;$SETTING|Y$设置符合给定的参数;;;;;;;;;;;;x
 NOT_ALTERNATE_START_PARAMETER_TRIGGER;The $KEY|Y$ parameter does NOT have the value $VALUE|Y$ set;;;;;;;;;;;;x
 ALTERNATE_START_PARAMETER_TRIGGER;The $KEY|Y$ parameter has the value $VALUE|Y$ set;;;;;;;;;;;;x
-SHATTERED_REQUIRES_HOLY_FURY;§R这个存档基于破碎世界创建，需要神圣之怒DLC来继续游戏§!;;;;;;;;;;;;x
+SHATTERED_REQUIRES_HOLY_FURY;§R这个存档基于破碎世界创建，需要神圣之怒DLC来继续游戏。§!;;;;;;;;;;;;x
 setting_female_ruler_percentage;女性统治者比例;;;;;;;;;;;;x
-setting_female_ruler_percentage_tooltip;确定每个生成的统治者是女性的机会。;;;;;;;;;;;;x
+setting_female_ruler_percentage_tooltip;确定每个生成的统治者是女性的机率。;;;;;;;;;;;;x
 setting_age_span;年龄范围;;;;;;;;;;;;x
 setting_age_span_tooltip;决定生成统治者的最小与最大年龄;;;;;;;;;;;;x
 setting_num_of_children;儿童数量;;;;;;;;;;;;x
-setting_num_of_children_tooltip;决定每个统治者随机生成的孩子的最小与最大数目。需注意一名统治者的子女数不能超出他们的年龄允许的范围，而双胞胎视为一个孩子。;;;;;;;;;;;;x
+setting_num_of_children_tooltip;决定每个统治者随机生成的孩子的最小与最大数目。需注意一名统治者的子女数不能超出他们年龄允许的范围，而双胞胎视为一个孩子。;;;;;;;;;;;;x
 setting_holding_types;地产类型;;;;;;;;;;;;x
 setting_holding_types_tooltip;决定游戏中地产的类型;;;;;;;;;;;;x
 setting_holding_types_historical;史实;;;;;;;;;;;;x
 setting_holding_types_historical_tooltip;省份的地产与史实无异;;;;;;;;;;;;x
 setting_holding_types_feudal;封建;;;;;;;;;;;;x
-setting_holding_types_feudal_tooltip;每个省份将生成多达三个地产：一座城堡，一座寺庙和一座城市;;;;;;;;;;;;x
+setting_holding_types_feudal_tooltip;每个省份将生成多达三个地产：一座城堡，一座神庙和一座城市;;;;;;;;;;;;x
 setting_holding_types_tribal;部落;;;;;;;;;;;;x
 setting_holding_types_tribal_tooltip;每个省份都将只有一个部落地产。;;;;;;;;;;;;x
 setting_holding_types_nomadic;游牧制;;;;;;;;;;;;x
@@ -250,40 +250,40 @@ setting_holding_types_nomadic_tooltip;每个省份都将是游牧制。;;;;;;;;;
 setting_holding_types_tribal_nomadic;部落制与游牧制;;;;;;;;;;;;x
 setting_holding_types_tribal_nomadic_tooltip;某些文化的省份将是游牧制。其他省份将只有一个部落地产;;;;;;;;;;;;x
 setting_holding_slots;地产格;;;;;;;;;;;;x
-setting_holding_slots_tooltip;确定每个省份将拥有的地产槽的数量。;;;;;;;;;;;;x
+setting_holding_slots_tooltip;确定每个省份将拥有的地产格的数量。;;;;;;;;;;;;x
 setting_holding_slots_historical;史实;;;;;;;;;;;;x
-setting_holding_slots_historical_tooltip;地产未在历史上改变过;;;;;;;;;;;;x
+setting_holding_slots_historical_tooltip;地产未格与历史一致。;;;;;;;;;;;;x
 setting_holding_slots_random;随机;;;;;;;;;;;;x
 setting_holding_slots_random_tooltip;每个省份都将随机地分配一到七个地产槽。;;;;;;;;;;;;x
-setting_holding_slots_one;一;;;;;;;;;;;;x
-setting_holding_slots_one_tooltip;每个省份都将有一个地产槽。;;;;;;;;;;;;x
-setting_holding_slots_two;二;;;;;;;;;;;;x
-setting_holding_slots_two_tooltip;每个省份都将有两个地产槽。;;;;;;;;;;;;x
-setting_holding_slots_three;三;;;;;;;;;;;;x
-setting_holding_slots_three_tooltip;每个省份都将有三个地产槽。;;;;;;;;;;;;x
-setting_holding_slots_four;四;;;;;;;;;;;;x
-setting_holding_slots_four_tooltip;每个省份都将有四个地产槽。;;;;;;;;;;;;x
-setting_holding_slots_five;五;;;;;;;;;;;;x
-setting_holding_slots_five_tooltip;每个省份都将有五个地产槽。;;;;;;;;;;;;x
-setting_holding_slots_six;六;;;;;;;;;;;;x
-setting_holding_slots_six_tooltip;每个省份都将有六个地产槽。;;;;;;;;;;;;x
-setting_holding_slots_seven;七;;;;;;;;;;;;x
-setting_holding_slots_seven_tooltip;每个省份都将有七个地产槽。;;;;;;;;;;;;x
+setting_holding_slots_one;一个;;;;;;;;;;;;x
+setting_holding_slots_one_tooltip;每个省份都将有一个地产格。;;;;;;;;;;;;x
+setting_holding_slots_two;两个;;;;;;;;;;;;x
+setting_holding_slots_two_tooltip;每个省份都将有两个地产格。;;;;;;;;;;;;x
+setting_holding_slots_three;三个;;;;;;;;;;;;x
+setting_holding_slots_three_tooltip;每个省份都将有三个地产格。;;;;;;;;;;;;x
+setting_holding_slots_four;四个;;;;;;;;;;;;x
+setting_holding_slots_four_tooltip;每个省份都将有四个地产格。;;;;;;;;;;;;x
+setting_holding_slots_five;五个;;;;;;;;;;;;x
+setting_holding_slots_five_tooltip;每个省份都将有五个地产格。;;;;;;;;;;;;x
+setting_holding_slots_six;六个;;;;;;;;;;;;x
+setting_holding_slots_six_tooltip;每个省份都将有六个地产格。;;;;;;;;;;;;x
+setting_holding_slots_seven;七个;;;;;;;;;;;;x
+setting_holding_slots_seven_tooltip;每个省份都将有七个地产格。;;;;;;;;;;;;x
 DOUBLE_SLIDER_TOOLTIP;最少: $MIN$\n最多: $MAX$;;;;;;;;;;;;x
 AI_ACCEPTANCE_YES_DESC;§G他们将会接受这一互动§!;;;;;;;;;;;;x
 AI_ACCEPTANCE_MAYBE_DESC;§Y他们可能会接受这一互动§!;;;;;;;;;;;;x
 AI_ACCEPTANCE_NO_DESC;§R他们不会接受这一互动§!;;;;;;;;;;;;x
 AI_ACCEPTANCE_TOTAL;接受度: $TOTAL|+0$;;;;;;;;;;;;x
 AI_ACCEPTANCE_HUMAN_MAYBE;作为一位玩家，他们的反应是未知的。;;;;;;;;;;;;x
-bear.6.undo;这是不可忍受的！;;;;;;;;;;;;x
+bear.6.undo;是可忍，熊不可忍！;;;;;;;;;;;;x
 UNDO_BEAR_TRANSFORMATION;醒来后，一切都恢复了正常。也许所有的事只不过是一场梦……;;;;;;;;;;;;x
 MOVEMENT_LOCKED;§Y移动锁定§!;;;;;;;;;;;;x
-MOVEMENT_LOCKED_DELAYED;这支军队已经走完行进路程的一半，行动已经无法取消了。你仍可取消或安排之后的行军路线。;;;;;;;;;;;;x
+MOVEMENT_LOCKED_DELAYED;这支军队已经走完前往下一省份路程的一半，行动已经无法取消了。仍可取消或安排之后的行军路线。;;;;;;;;;;;;x
 UNIT_MOVEMENT_LOCKED;§Y这支军队的行动已经锁定，因此无法取消当前的移动§!;;;;;;;;;;;;x
-UNIT_MOVEMENT_LOCKING_IN;这支军队的行动会在$DATE|Y$锁定（在$DAYS|Y$天内），变为无法取消它当前的移动;;;;;;;;;;;;x
-UNIT_MOVEMENT_WOULD_LOCK_IN;命令这支军队移动到这个省份会使其行动在$DATE|Y$锁定（在$DAYS|Y$天内），变为无法取消它当前的移动;;;;;;;;;;;;x
+UNIT_MOVEMENT_LOCKING_IN;这支军队的行动会在$DATE|Y$锁定（$DAYS|Y$天内），变为无法取消它当前的移动;;;;;;;;;;;;x
+UNIT_MOVEMENT_WOULD_LOCK_IN;命令这支军队移动到这个省份会使其行动在$DATE|Y$锁定（$DAYS|Y$天内），变为无法取消它当前的移动;;;;;;;;;;;;x
 RULE_MOVEMENT_LOCK;移动锁定;;;;;;;;;;;;x
-RULE_MOVEMENT_LOCK_ON_DESC;一旦军队走完行进路程的一半，行动便无法中止了。不过，你仍可以取消或者更改之后的行军路线。;;;;;;;;;;;;x
+RULE_MOVEMENT_LOCK_ON_DESC;一旦军队走完前往下一省份路程的一半，行动便无法中止了。不过，你仍可以取消或者更改之后的行军路线。;;;;;;;;;;;;x
 RULE_MOVEMENT_LOCK_OFF_DESC;无行动锁定;;;;;;;;;;;;x
 MTTH_GAIN_WITH_LOC;$NAME$：$VAL|+=0$;;;;;;;;;;;;x
 DECAYS_ON;衰败$DATE|Y$;;;;;;;;;;;;x
@@ -291,10 +291,10 @@ STACKING_MODIFIER_COUNT;(x$COUNT$);;;;;;;;;;;;x
 STACKING_TOTAL_EFFECT;§Y综合效果：§!;;;;;;;;;;;;x
 alert_coronation_needed_instant;§Y未知统治者§!;;;;;;;;;;;;x
 alert_coronation_needed_delayed;一位[Root.Religion.GetName]统治者尚未被教职人员正式加冕前将永远不会被[Root.GetHerHis]封臣认为是合法的。\n一个[Root.Religion.GetName][Root.GetTitle]在受膏之前浪费的时间越长，[Root.GetHerHis]封臣就越有可能怀疑[Root.GetHerHis]那神授君权的合法性。;;;;;;;;;;;;x
-CORONATION_CURRENT_EFFECT;§Y当前效果§!;;;;;;;;;;;;x
-RETINUES_NOT_REFINORCING_DESC;这移除了增援费用。不会影响威望征兆的部队。;;;;;;;;;;;;x
-RETINUES_HALF_REINFORCING_DESC;近卫军增援费用为正常的一半，不影响消耗威望的单位。\n（每月恢复近卫军的§Y$GROWTH$§!）;;;;;;;;;;;;x
-RETINUES_FULL_REINFORCING_DESC;近卫军需支付正常增援费用。消耗威望的单位将固定以此速度增援。\n（§Y每月恢复随员的 $GROWTH$%§!）;;;;;;;;;;;;x
+CORONATION_CURRENT_EFFECT;§Y当前效果：§!;;;;;;;;;;;;x
+RETINUES_NOT_REFINORCING_DESC;这移除了增援费用。不会影响基于威望的部队。;;;;;;;;;;;;x
+RETINUES_HALF_REINFORCING_DESC;近卫军增援费用为正常的一半，不影响基于威望的单位。\n（每月恢复近卫军的§Y$GROWTH$§!）;;;;;;;;;;;;x
+RETINUES_FULL_REINFORCING_DESC;近卫军需支付正常增援费用。基于威望的单位将固定以此速度增援。\n（§Y每月恢复近卫军的 $GROWTH$%§!）;;;;;;;;;;;;x
 CHARVIEW_TRAITS;§Y特质§!;;;;;;;;;;;;x
 CHARVIEW_MODIFIERS;§Y修正§!;;;;;;;;;;;;x
 FOUNDER_SCOPE;血脉建立者：;;;;;;;;;;;;x
@@ -303,11 +303,11 @@ BLOODLINE_FOUNDED;§L血脉创建于§!$DATE|Y$;;;;;;;;;;;;x
 DESTROY_BLOODLINE_EFFECT;这条血脉逐渐变得默默无闻。;;;;;;;;;;;;x
 CREATE_BLOODLINE_EFFECT;开始被认为是一条§Y血脉§!的创始人，从而带来以下的影响：\n$EFFECT$\n;;;;;;;;;;;;x
 ADD_BLOODLINE_MEMBER_EFFECT;$MEMBER$开始被认为是§Y血脉§!的一份子。;;;;;;;;;;;;x
-REMOVE_FROM_BLOODLINE_EFFECT;不在被认为是$BLOODLINE|Y$的一份子。;;;;;;;;;;;;x
+REMOVE_FROM_BLOODLINE_EFFECT;不再被认为是$BLOODLINE|Y$的一份子。;;;;;;;;;;;;x
 REMOVE_BLOODLINE_MEMBER_EFFECT;$MEMBER$不再被认为是§Y血脉§!的一份子。;;;;;;;;;;;;x
 ADD_TO_BLOODLINE_EFFECT;开始被认为是$BLOODLINE|Y$的一份子！;;;;;;;;;;;;x
 HAS_NOT_BLOODLINE_FLAG;不再拥有以下血脉旗标：;;;;;;;;;;;;x
-HAS_BLOODLINE_FLAG;拥有血脉：;;;;;;;;;;;;x
+HAS_BLOODLINE_FLAG;拥有血脉旗标：;;;;;;;;;;;;x
 IS_NOT_BLOODLINE_FOUNDER_OF_TRIGGER;不是$BLOODLINE|Y$的创建者！;;;;;;;;;;;;x
 IS_BLOODLINE_FOUNDER_OF_TRIGGER;是$BLOODLINE|Y$的创建者！;;;;;;;;;;;;x
 IS_NOT_BLOODLINE_MEMBER_OF_TRIGGER;不是$BLOODLINE|Y$的一份子！;;;;;;;;;;;;x
@@ -324,8 +324,8 @@ BLOODLINES_INTERFACE_LABEL;§Y血脉§!;;;;;;;;;;;;x
 HAS_NO_BLOODLINES;这个角色不是任何著名血脉的成员。;;;;;;;;;;;;x
 LEDGER_HEADER_BLOODLINES;血脉;;;;;;;;;;;;x
 BLOOD_OF;血脉;;;;;;;;;;;;x
-HAD_BLOODLINE_FLAG_LESS_THAN;拥有标志 「§Y$FLAG$§!」少于 §Y$DAYS$§! 天;;;;;;;;;;;;x
-HAD_BLOODLINE_FLAG_AT_LEAST;拥有标志「§Y$FLAG$§!」至少 §Y$DAYS$§! 天;;;;;;;;;;;;x
+HAD_BLOODLINE_FLAG_LESS_THAN;拥有旗标「§Y$FLAG$§!」少于 §Y$DAYS$§! 天;;;;;;;;;;;;x
+HAD_BLOODLINE_FLAG_AT_LEAST;拥有旗标「§Y$FLAG$§!」至少 §Y$DAYS$§! 天;;;;;;;;;;;;x
 LEDGER_HEADER_BLOODLINE;血脉;;;;;;;;;;;;x
 LEDGER_ENTRY_BLOODLINE_TOOLTIP;$FOUNDER$在当前拥有$DESCENDANTS|Y$在世的后裔;;;;;;;;;;;;x
 LEDGER_NUM_BLOODLINE_LIVING_MEMBERS;在世的后裔;;;;;;;;;;;;x
