@@ -426,7 +426,7 @@ EVTDESCHFC20006;My [Root.GetTitle],\nWhat you ask of me is not easy, but I will 
 EVTOPTAHF20006;很好。;;;;;;;;;;;;x
 EVTDESCHF20007;My [Root.GetTitle], \nI have long thought about your request and I have come to the conclusion that I cannot abandon our ancestors' gods. I will not attend your great conversion, nor will any of my vassals.;;;;;;;;;;;;x
 EVTOPTAHF20007;这些迷信的蠢货！;;;;;;;;;;;;x
-EVTTITLE20008;The Conversion of [converting_king.PrimaryTitle.GetName];;;;;;;;;;;;x
+EVTTITLE20008;[converting_king.PrimaryTitle.GetName]的转信;;;;;;;;;;;;x
 EVTDESCHFA20008;The conversion of [converting_king.Capital.GetName] starts on a cold morning.\nThe Bishop leading [sponsoring_king.GetTitledFirstName]'s embassy meets your liege at a river near the city. You stand beside [converting_king.GetTitledFirstName], while [converting_king.GetHerHis] subjects wait their turn behind you, looking still visibly confused.The Bishop recites a few verses from the Bible, then [converting_king.GetTitledFirstName] leads you all in the river while the [sponsoring_king.Religion.GetName] priests baptize you as you pass by them. It takes some prodding from the guards to convince the peasants to follow you into the water, but, after a while, the entire crowd stands soaked and shaking by the riverside, just in time to watch the priests and their helpers drop your old idols into the waves.\n"As the false visages are swallowed by the tides," the Bishop proclaims, "may their memory forever be banished from your soul.";;;;;;;;;;;;x
 EVTDESCHFB20008;You meet with your liege and [sponsoring_king.GetTitledFirstName]'s Imams in the middle of [converting_king.Capital.GetName]'s square.\nAddressing the crowd of commoners reunited all around you, [converting_king.GetTitledFirstName] publicly denounces the old gods and spits on their false idols, gesturing for your and the [converting_king.GetHerHis] vassals to do the same. A few complaints rise from the crowd, but they are swiftly quelled. Then, as the Imams set fire to the icons, you declare your faith to Allah and to His Prophet.\nYou all turn your back to the pyre of false gods and bow to Mecca.;;;;;;;;;;;;x
 EVTDESCHFC20008;The hooded priests from [sponsoring_king.Capital.GetName] arrive at dawn, but the ceremony begins only after sunset, after they have helped the icons of the new gods adjust to their new home in [converting_king.GetTitledFirstName]'s temple.\nYou meet with your liege outside the city, a crowd of [converting_king.GetHerHis] subjects assembling all around you, and then, under the grim echoes of drums and horns, the Germanic priests begin the rite. They paint your faces with the blood of the sacrificial lambs, burn sacred herbs and chant their secret spells, as you all enter a trance.\nVisions of horror and delight accompany you for the rest of the night. When you wake at dawn of the next day, the priests are already gone. Little by little, the confused crowd of converts returns to [converting_king.Capital.GetName].;;;;;;;;;;;;x
@@ -8674,7 +8674,7 @@ random_world_book_of_dev_7;Book of Flavio;;;;;;;;;;;;x
 random_world_book_of_dev_8;Book of Joachim;;;;;;;;;;;;x
 random_world_book_of_dev_9;Book of Joel;;;;;;;;;;;;x
 random_world_book_of_dev_10;Book of Bjarne;;;;;;;;;;;;x
-random_world_book_of_dev_11;Book of Matthew;;;;;;;;;;;;x
+random_world_book_of_dev_11;玛窦福音;;;;;;;;;;;;x
 random_world_book_of_dev_12;Book of Henrik;;;;;;;;;;;;x
 random_world_book_of_dev_13;Book of Gustav;;;;;;;;;;;;x
 random_world_book_of_dev_14;Book of Björn;;;;;;;;;;;;x
@@ -19800,24 +19800,24 @@ water_watch_1_tt;All of your direct demesne provinces with §Y'Heavy Rain'§! ge
 water_watch_2_tt;All of your direct demesne provinces with §Y'Heavy Rain'§! get '§YRoad Patrols§!' for five years, giving the following effects:\nLocal Revolt Risk: §G-1.0%§!\nMorale of Armies: §G+5.0%§!\nCulture Technology Points: §G+0.05%§!;;;;;;;;;;;;x
 africa_surplus_grain_tt;All of your direct demesne provinces with §Y'Light Rain'§! or §Y'Heavy Rain'§! will be more likely to withstand drought related hardships in the future.;;;;;;;;;;;;x
 EVTTITLE_HF_15121;[flooded_province.GetName]发生山体滑坡;;;;;;;;;;;;x
-EVTDESC_HF_15121;[flooded_province.GetName]正遭受暴雨的侵袭。现在一场严重的山体滑坡席卷了该省的心脏地带，带走了人口甚至建筑物。当我的议会向我提出我们面临的选择时，气氛十分压抑。;;;;;;;;;;;;x
-EVTOPTA_HF_15121;We must try to save the people.;;;;;;;;;;;;x
-EVTOPTB_HF_15121_rival;Can we save... Some of the people?;;;;;;;;;;;;x
-EVTOPTB_HF_15121_TT;Your agents will make sure that your rival is caught in the landslide...;;;;;;;;;;;;x
-available_because_rivals_tt;This option is available because your rival is at risk.;;;;;;;;;;;;x
-EVTOPTB_HF_15121;We cannot afford to lose the buildings.;;;;;;;;;;;;x
-EVTOPTC_HF_15121;It is simply a tragedy.;;;;;;;;;;;;x
-EVTTITLE_HF_15122;Disease in [starved_province.GetName];;;;;;;;;;;;x
-EVTDESC_HF_15122;The toll that the drought is taking on [starved_province.GetName] is proving lethal. The lack of water is causing people to fight over resources and unsanitary living conditions are reaching even the highest echelons of society. My council tells me that an outbreak of disease is imminent.;;;;;;;;;;;;x
-EVTOPTB_HF_15122;Surely, we could simply... Get rid of the sick?;;;;;;;;;;;;x
-EVTOPTC_HF_15122;Let's have all able-bodied men prepare shelters for the sick.;;;;;;;;;;;;x
-EVTOPTA_HF_15122;An outbreak of disease? This is awful!;;;;;;;;;;;;x
-EVTOPTB_HF_15122_TT;Your agents will arrange a series of "accidents".;;;;;;;;;;;;x
-spawn_slow_fever_tt;§RSlow Fever§! will break out in §Y[starved_province.GetName]§!.;;;;;;;;;;;;x
-relief_efforts_builders;Recruiting Builders;;;;;;;;;;;;x
-relief_efforts_builders_desc;This character has sent word through [Root.GetHerHis] realm that builders will receive extra gratitude during these hard times.;;;;;;;;;;;;x
-EVTTITLE_HF_15123;The Rotting Library in [flooded_province.GetName];;;;;;;;;;;;x
-EVTDESC_HF_15123;"It started out as a strange smell, and could have gone unnoticed for weeks, had I not been down there recently", my [Root.GetMyLordSpiritualName] [my_spiritual.GetTitledFirstName] explains, a hint of pride in [my_spiritual.GetHerHis] voice.\n"This way, my [Root.GetLordLady]", [my_spiritual.GetSheHe] says, leading me into the flooded room. The smell makes my nose itch.;;;;;;;;;;;;x
+EVTDESC_HF_15121;[flooded_province.GetName]正遭受暴雨的侵袭。现在一场严重的山体滑坡席卷了该省的心脏地带，带走了人口甚至建筑物。当我的议会向我提出我们面临的选择时，气氛十分严峻。;;;;;;;;;;;;x
+EVTOPTA_HF_15121;我们必须设法拯救人民。;;;;;;;;;;;;x
+EVTOPTB_HF_15121_rival;我们能不能...只救其中一部分？;;;;;;;;;;;;x
+EVTOPTB_HF_15121_TT;你的代理人将确保你的仇敌陷入山体滑坡...;;;;;;;;;;;;x
+available_because_rivals_tt;此选项是可用的，因为你的仇敌处于危险之中。;;;;;;;;;;;;x
+EVTOPTB_HF_15121;我们无法承受这些建筑损失。;;;;;;;;;;;;x
+EVTOPTC_HF_15121;这简直是个悲剧。;;;;;;;;;;;;x
+EVTTITLE_HF_15122;[starved_province.GetName]疾病预警;;;;;;;;;;;;x
+EVTDESC_HF_15122;旱灾对[starved_province.GetName]造成的损失被证明是致命的。水的缺乏导致人们互相争夺资源，不卫生的生活条件甚至影响到了社会的最高层。我的议会告诉我，一场疾病的爆发迫在眉睫。;;;;;;;;;;;;x
+EVTOPTB_HF_15122;当然，我们可以简单地...除掉病人？;;;;;;;;;;;;x
+EVTOPTC_HF_15122;让所有健全的男人为病人准备庇护所。;;;;;;;;;;;;x
+EVTOPTA_HF_15122;疾病爆发？这太可怕了！;;;;;;;;;;;;x
+EVTOPTB_HF_15122_TT;你的代理人会安排一系列「事故」。;;;;;;;;;;;;x
+spawn_slow_fever_tt;§R慢性热§!将在§Y[starved_province.GetName]§!爆发。;;;;;;;;;;;;x
+relief_efforts_builders;招募建筑工人;;;;;;;;;;;;x
+relief_efforts_builders_desc;这个角色已经在[Root.GetHerHis]王国内宣布，建筑工人将在这艰难时刻得到特别的感激。;;;;;;;;;;;;x
+EVTTITLE_HF_15123;[flooded_province.GetName]的腐烂的图书馆;;;;;;;;;;;;x
+EVTDESC_HF_15123;「一开始是一阵奇怪的气味，如果不是我最近去了那儿，可能好几周都没人发现」，我的[Root.GetMyLordSpiritualName][my_spiritual.GetTitledFirstName]解释道，[my_spiritual.GetHerHis]声音中流露出自豪的感觉。\n「这边走，我的[Root.GetLordLady]」，[my_spiritual.GetSheHe]一边说着，将我领到了这个被水淹的房间。这味道使我鼻子发痒。;;;;;;;;;;;;x
 EVTOPTA_HF_15123;These items are *priceless*! We have to save them!;;;;;;;;;;;;x
 EVTOPTB_HF_15123;发霉的旧书？把它们处理掉吧。;;;;;;;;;;;;x
 EVTTITLE_HF_15124;The Flooded Armory in [flooded_province.GetName];;;;;;;;;;;;x
