@@ -558,15 +558,15 @@ EVTDESCHF20057;[Root.GetTitledName],\nI was glad for the arrival of your mission
 EVTOPTAHF20057;的确。;;;;;;;;;;;;x
 EVTDESCHF20058;[Root.GetTitledName],\nI am afraid I have had to send your missionaries back without allowing them to fulfill their task. Tensions are still high after the great ceremony, and I do not wish to stir the peasants into open rebellion.\n\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20058;我懂了....;;;;;;;;;;;;x
-EVTDESCHF20059;Missionaries from [sponsoring_king.PrimaryTitle.GetName] have arrived at [From.GetName]. Acting with the approval of [converting_king.GetTitledFirstName], these priests have spent the last days convincing the inhabitants of the province to abandon their old faith and become proper [sponsoring_king.Religion.GetName].;;;;;;;;;;;;x
+EVTDESCHF20059;[sponsoring_king.PrimaryTitle.GetName]的传教士已经来到了[From.GetName]。经[converting_king.GetTitledFirstName]的批准，这些教士们在过去的日子里致力于让当地百姓放弃旧日的信仰，成为真正的[sponsoring_king.Religion.GetName]。;;;;;;;;;;;;x
 EVTOPTAHF20059;真是个好消息！;;;;;;;;;;;;x
-EVTOPTBHF20059;More and more people are abandoning the old gods...;;;;;;;;;;;;x
-EVTDESCHF20060;Thanks to the efforts of [sponsoring_king.GetTitledFirstName]'s missionaries, the people of [From.GetName] have abandoned their old pagan beliefs and embraced the [sponsoring_king.Religion.GetName] faith.;;;;;;;;;;;;x
+EVTOPTBHF20059;越来越多的人开始放弃对旧神的虔诚……;;;;;;;;;;;;x
+EVTDESCHF20060;多亏了[sponsoring_king.GetTitledFirstName]的传教士的努力，[From.GetName]的人民已经抛弃了他们的异教信仰，皈依了[sponsoring_king.Religion.GetName]。;;;;;;;;;;;;x
 EVTOPTAHF20060;真是个好消息啊！;;;;;;;;;;;;x
-EVTDESCHF20061;Missionaries from [sponsoring_king.PrimaryTitle.GetName] have arrived at [From.GetName]. Acting with the approval of [converting_king.GetTitledFirstName], these priests have spent the last days convincing the inhabitants of the province to abandon their old faith and become proper [sponsoring_king.Religion.GetName]. \nUnfortunately, their harsh methods and lack of understanding of the customs of our lands have led them to stir up trouble with the locals.;;;;;;;;;;;;x
+EVTDESCHF20061;[sponsoring_king.PrimaryTitle.GetName]的传教士已经来到了[From.GetName]。经[converting_king.GetTitledFirstName]批准，这些教士们在过去的日子里致力于让当地百姓放弃旧日的信仰，成为真正的[sponsoring_king.Religion.GetName]。不幸的是，这群家伙对我们的风俗知之甚少，加之其举止粗俗，激起了不少同当地人的摩擦。\n;;;;;;;;;;;;x
 EVTOPTAHF20061;这是必要之恶。;;;;;;;;;;;;x
 EVTOPTBHF20061;这些外邦的亵渎者！;;;;;;;;;;;;x
-EVTDESCHF20062;Thanks to the efforts of [sponsoring_king.GetTitledFirstName]'s missionaries, the people of [From.GetName] have finally abandoned their old pagan beliefs and embraced the [sponsoring_king.Religion.GetName] faith. \nUnfortunately, their harsh methods and lack of understanding of the customs of our lands have led them to stir up trouble with the locals.;;;;;;;;;;;;x
+EVTDESCHF20062;多亏了[sponsoring_king.GetTitledFirstName]的传教士的努力，[From.GetName]的人民最终抛弃了以往的异教信仰，皈依了[sponsoring_king.Religion.GetName]。\n不幸的是，这群家伙对我们的风俗知之甚少，加之其举止粗俗，激起了不少同当地人的摩擦。;;;;;;;;;;;;x
 EVTOPTAHF20062;这是必要之恶。;;;;;;;;;;;;x
 EVTDESCHF20063;[Root.GetTitledName],\nWe are happy to announce Our impending visit to [Root.PrimaryTitle.GetName]. It has been some time now since your conversion to the [From.Religion.GetName] faith, and we are eager to meet you in person and see your realm now that it is properly civilized.\n\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20063;Interesting.;;;;;;;;;;;;x
@@ -3374,7 +3374,7 @@ EVTOPTAHFP21125;Good for [From.GetHerHim]!;;;;;;;;;;;;x
 opinion_trusted_servant;Trusted Servant;;;;;;;;;;;;x
 leechlord_modifier;Bloodletting Enthusiast;;;;;;;;;;;;x
 leechlord_modifier_desc;This ruler's constant use of bloodletting to maintain [Root.GetHerHis] health and balance [Root.GetHerHis] humors has sucked all passion from [Root.GetHerHis] body and turned [Root.GetHerHim] into a cold, calculating loner.;;;;;;;;;;;;x
-nick_the_leechlord;the [This.GetLeechRank];;;;;;;;;;;;x
+nick_the_leechlord;[This.GetLeechRank];;;;;;;;;;;;x
 string_leech_lord;Leechlord;;;;;;;;;;;;x
 string_leech_lady;Leechlady;;;;;;;;;;;;x
 string_leech_ruler;Leech;;;;;;;;;;;;x
@@ -4526,7 +4526,7 @@ KILL_LIST_BUTTON_TOOLTIP_DELAYED;Show a list of characters that this character h
 BARBER_TOOLTIP_DELAYED;By going to the Barber you can change the hair and/or beard style of your character.;;;;;;;;;;;;x
 BLOODLINES_BUTTON_TOOLTIP_DELAYED;Show a list of any Bloodlines this character is perceived to be a part of. Bloodlines are founded by characters of fame or legend and are passed on through their descendants.;;;;;;;;;;;;x
 TREASURY_BUTTON_TOOLTIP_DELAYED;Show all Artifacts collected by this character. Artifacts provide powerful bonuses and come in many levels of quality, from family heirlooms to legendary relics. Some Artifacts will have to be equipped to be used.;;;;;;;;;;;;x
-TREASURY_BUTTON_TOOLTIP;§YTreasury§!;;;;;;;;;;;;x
+TREASURY_BUTTON_TOOLTIP;§Y宝库§!;;;;;;;;;;;;x
 c_chur_adj;Churian;;;;;;;;;;;;x
 c_wurzburg_adj;维尔茨堡;;;;;;;;;;;;x
 c_chios_adj;希俄斯;;;;;;;;;;;;x
@@ -4734,8 +4734,8 @@ greek_opinion;[greek.GetName]好感;;;;;;;;;;;;x
 german_opinion;[german.GetName]好感;;;;;;;;;;;;x
 slavic_pagan_opinion;[slavic_pagan.GetName]好感;;;;;;;;;;;;x
 slavic_pagan_reformed_opinion;Reformed [slavic_pagan_reformed.GetName] Opinion;;;;;;;;;;;;x
-croatian_opinion;[croatian.GetName] Opinion;;;;;;;;;;;;x
-irish_opinion;[irish.GetName] Opinion;;;;;;;;;;;;x
+croatian_opinion;[croatian.GetName]好感;;;;;;;;;;;;x
+irish_opinion;[irish.GetName]好感;;;;;;;;;;;;x
 viking_opinion_EXPLANATION; (effect on Viking);;;;;;;;;;;;x
 viking_opinion;Viking Opinion;;;;;;;;;;;;x
 ravager_opinion_EXPLANATION; (effect on Ravager);;;;;;;;;;;;x
@@ -4880,16 +4880,16 @@ monastic_order_benedictine_random;熙笃会;;;;;;;;;;;;x
 monastic_order_benedictine_desc;[GetBenedictineSocietyDesc];;;;;;;;;;;;x
 monastic_order_benedictine_desc_real;The Benedictine Order is an old monastic community with 'Ora et Labora', meaning 'pray and labor', as their motto. Often recognized by their black habits, they worship God and find purpose in prayer and quiet contemplation as well as scholarly work.;;;;;;;;;;;;x
 monastic_order_benedictine_desc_random;The Diligent Ones is an old monastic community with 'Ora et Labora', meaning 'pray and labor', as their motto. Often recognized by their black habits, they worship [catholic.GetHighGodName] and find purpose in prayer and quiet contemplation as well as scholarly work.;;;;;;;;;;;;x
-muslim_opinion;[muslim.GetGroupName] Opinion;;;;;;;;;;;;x
-zoroastrian_opinion;[zoroastrian_group.GetGroupName] Opinion;;;;;;;;;;;;x
-christian_opinion;[christian.GetGroupName] Opinion;;;;;;;;;;;;x
-hindu_opinion;[hindu.GetName] Opinion;;;;;;;;;;;;x
-jain_opinion;[jain.GetName] Opinion;;;;;;;;;;;;x
-buddhist_opinion;[buddhist.GetName] Opinion;;;;;;;;;;;;x
-indian_group_opinion;[indian_group.GetGroupName] Opinion;;;;;;;;;;;;x
-orthodox_opinion;[orthodox.GetName] Opinion;;;;;;;;;;;;x
-pagan_group_opinion;[pagan_group.GetGroupName] Opinion;;;;;;;;;;;;x
-aztec_opinion;[aztec_reformed.GetName] Opinion;;;;;;;;;;;;x
+muslim_opinion;[muslim.GetGroupName]好感;;;;;;;;;;;;x
+zoroastrian_opinion;[zoroastrian_group.GetGroupName]好感;;;;;;;;;;;;x
+christian_opinion;[christian.GetGroupName]好感;;;;;;;;;;;;x
+hindu_opinion;[hindu.GetName]好感;;;;;;;;;;;;x
+jain_opinion;[jain.GetName]好感;;;;;;;;;;;;x
+buddhist_opinion;[buddhist.GetName]好感;;;;;;;;;;;;x
+indian_group_opinion;[indian_group.GetGroupName]好感;;;;;;;;;;;;x
+orthodox_opinion;[orthodox.GetName]好感;;;;;;;;;;;;x
+pagan_group_opinion;[pagan_group.GetGroupName]好感;;;;;;;;;;;;x
+aztec_opinion;[aztec_reformed.GetName]好感;;;;;;;;;;;;x
 EVTDESC86902;[Root.job_spiritual.GetTitledFirstName] is reminding you that you had promised to liberate good [muslim.GetGroupName] living under [christian.GetGroupName] rule, and there still exists such in the world.;;;;;;;;;;;;x
 EVTDESC3476;A [christian.GetGroupName] priest came to my court today to talk about matters of faith, but it soon became clear he only wanted to convert us to his faith! As a zealous [muslim.GetGroupName] I believe I did the right thing when I gave the order to imprison this infidel.;;;;;;;;;;;;x
 EVTOPTD38020;Never! I will save my [christian.GetGroupName] soul!;;;;;;;;;;;;x
@@ -4913,8 +4913,8 @@ borrow_money_jews_desc;I can borrow 300¤ from [jewish.GetName] merchants and mo
 borrowed_from_jews;Owes [Root.GoldOwedToJews]¤ to [jewish.GetName] Moneylenders;;;;;;;;;;;;x
 repay_money_jews_desc;I will repay the gold that I owe the [jewish.GetName] moneylenders.;;;;;;;;;;;;x
 borrow_money_radhanites_desc;Borrow money from [jewish.GetName] merchants traveling on the Silk Road.;;;;;;;;;;;;x
-k_estonia;Estonia;;;;;;;;;;;;x
-k_estonia_adj;Estonian;;;;;;;;;;;;x
+k_estonia;爱沙尼亚;;;;;;;;;;;;x
+k_estonia_adj;爱沙尼亚;;;;;;;;;;;;x
 d_latgale;Latgale;;;;;;;;;;;;x
 d_latgale_adj;Latgalian;;;;;;;;;;;;x
 d_samogitia;Skalvia;;;;;;;;;;;;x
@@ -4946,7 +4946,7 @@ PROV239;Genevois;;;;;;;;;;;;x
 PROV242;Basel;;;;;;;;;;;;x
 PROV244;Bern;;;;;;;;;;;;x
 PROV245;Zurichgau;;;;;;;;;;;;x
-PROV246;Schwyz;;;;;;;;;;;;x
+PROV246;施维茨;;;;;;;;;;;;x
 PROV248;Thurgau;;;;;;;;;;;;x
 PROV273;Hedmark;;;;;;;;;;;;x
 PROV276;Østerdalen;;;;;;;;;;;;x
@@ -5760,12 +5760,12 @@ genghis_khan_desc;蒙古帝国的建立者，被众多大草原上的臣民尊�
 el_cid_desc;一名军队领袖和著名英雄。摩尔人称之为『熙德』（大人），而基督徒称之为『坎培多尔』（杰出的战士）。;;;;;;;;;;;;x
 timur_desc;In his native tongue, Timur means 'Iron'. Despite being crippled by two arrows, he was both a military genius and a statesman capable of instilling great loyalty.;;;;;;;;;;;;x
 ghaznavid_desc;伽色尼王朝的建立者。他年轻时当过奴隶，但在其后的生涯里，他统治了一个强大的王国，疆域远括到了印度。;;;;;;;;;;;;x
-pala_desc;The founder of the Pala dynasty, said to be descended from the mythical Suryavansha (Sun Dynasty). He came to rule a massive kingdom, encompassing all of Bengal.;;;;;;;;;;;;x
-chola_desc;One of the greatest rulers India has ever seen. His conquests included the Andamans, Sri Lanka, the Maldives and even territories in Burma, Thailand and Indonesia.;;;;;;;;;;;;x
-saladin_desc;The first Sultan of Egypt and Syria. He successfully led the Muslim military campaign against the Crusader States in the Levant.;;;;;;;;;;;;x
+pala_desc;波罗王朝的建立者，据说是神话中的苏利耶房奢（日种）家族的后裔。他统治了一个涵盖整个旁伽罗的庞大王国。;;;;;;;;;;;;x
+chola_desc;印度有史以来最伟大的统治者之一。他征服了安达曼群岛、斯里兰卡、马尔代夫群岛，甚至缅甸、泰国和印度尼西亚的部分领土。;;;;;;;;;;;;x
+saladin_desc;埃及和叙利亚的第一位苏丹。他领导穆斯林对黎凡特的十字军国家，开展了成功的军事行动。;;;;;;;;;;;;x
 rurik_desc;留里克王朝的建立者。他是一位统治罗斯的瓦兰吉酋长，他建造了不少的聚落，其中最著名的在诺夫哥罗德。;;;;;;;;;;;;x
-boleslaw_the_brave_desc;A remarkable politician, strategist, and statesman. He successfully turned Poland into a country as powerful as the realms of the west.;;;;;;;;;;;;x
-richard_lionheart_desc;A great military leader and warrior who became known as 'the Lionheart'. He was a figurehead of the Third Crusade, scoring numerous victories against the Muslims.;;;;;;;;;;;;x
+boleslaw_the_brave_desc;一位非凡的政治家、战略家。他成功地将波兰变强得如西方国家一般。;;;;;;;;;;;;x
+richard_lionheart_desc;一位伟大的军事领袖、战士，以『狮心王』之称为人所知。他是第三次十字军东征的标志性人物，在对穆斯林的战争中赢得了许多胜利。;;;;;;;;;;;;x
 alienor_of_aquitaine_desc;One of the most powerful women of western Europe. She was a patron of literature and a military commander, as well as a leader in the Second Crusade.;;;;;;;;;;;;x
 alexander_nevsky_desc;A legendary military leader who won scores of military victories against invading Germans and Swedes. He was later canonized as a saint.;;;;;;;;;;;;x
 william_wallace_desc;A brave knight who fought in the Wars of Scottish Independence. After defeating an English army, he was appointed 'Guardian of Scotland'.;;;;;;;;;;;;x
@@ -6508,7 +6508,7 @@ REFORMATION_CUSTOMIZE;Apply;;;;;;;;;;;;x
 REFORMATION_CUSTOMIZE_TOOLTIP;§GLeft-click to apply the selected features to this religion§!;;;;;;;;;;;;x
 REFORMATION_CUSTOMIZE_DESC;Here you can customize the parameters of the religion. This will affect the features of the religion. Note that unique pagan doctrines are not available, and all religions will retain their default leadership.;;;;;;;;;;;;x
 available_due_to_smart;This option is available because you either have the §YGenius§!, §YQuick§!, or §YShrewd§! trait;;;;;;;;;;;;x
-carolingian;Carolingian Blood;;;;;;;;;;;;x
+carolingian;加洛林血脉;;;;;;;;;;;;x
 ragnarr_lodbrok;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
 seljuk;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
 william_the_conqueror;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
@@ -7005,7 +7005,7 @@ EVTDESC_HF_42003;I certainly worked hard for my recent accomplishments, but a lo
 EVTOPTA_HF_42003;[FromFromFrom.GetTitledFirstName] certainly helped, and I will send a letter with my gratitude.;;;;;;;;;;;;x
 EVTOPTB_HF_42003;I would have managed to do it without [FromFromFrom.GetHerHim].;;;;;;;;;;;;x
 EVTDESC_HF_42004;[sway_target.GetTitledFirstName] has sent me a letter with [sway_target.GetHerHis] thanks for all my work recently.;;;;;;;;;;;;x
-EVTOPTA_HF_42004;I am just happy to help out.;;;;;;;;;;;;x
+EVTOPTA_HF_42004;我只是很高兴能帮忙。;;;;;;;;;;;;x
 EVTDESC_HF_42005_DIPLOMACY;With every passing day I feel like things are degrading politically, and the court life is getting ever harsher. [FromFrom.GetTitledFirstName] said [FromFrom.GetSheHe] wanted to help, but I expected things to get better, not worse.;;;;;;;;;;;;x
 EVTDESC_HF_42005_MARTIAL;My men look at me with scornful eyes. Whatever [FromFrom.GetTitledFirstName] wanted to help me with, this is clearly not having a positive effect on the men. ;;;;;;;;;;;;x
 EVTDESC_HF_42005_STEWARDSHIP;Money seem to disappear, and I have started worrying if the so-called help [FromFrom.GetTitledFirstName] sent me was a ploy to trick me.;;;;;;;;;;;;x
@@ -7050,7 +7050,7 @@ EVTDESC_HF_42021_SCHOLAR;[From.GetTitledFirstName] has sent me an invitation to 
 EVTDESC_HF_42021_STEWARD;[From.GetTitledFirstName] has sent me an invitation to a local festival at [From.Capital.GetName]. It would be a good opportunity to get to know [From.GetHerHim] better.;;;;;;;;;;;;x
 EVTDESC_HF_42021_TORTURE;[From.GetTitledFirstName] has sent me an invitation to what I assume is torture of [From.GetHerHis] prisoners. This could be a chance to get to know each other.;;;;;;;;;;;;x
 EVTOPTA_HF_42021;Sounds like it could be fun.;;;;;;;;;;;;x
-EVTOPTB_HF_42021;I have more important business to take care of.;;;;;;;;;;;;x
+EVTOPTB_HF_42021;我有更重要的事情要处理。;;;;;;;;;;;;x
 EVTDESC_HF_42022_HUNT;[sway_target.GetTitledFirstName] thanked me for the invitation to join a hunt, but [sway_target.GetSheHe] does not have the time to join at the moment.;;;;;;;;;;;;x
 EVTDESC_HF_42022_DUEL;[sway_target.GetTitledFirstName] thanked me for the invitation to join the tournament, but [sway_target.GetSheHe] does not have the time to spare at the moment.;;;;;;;;;;;;x
 EVTDESC_HF_42022_GAME;[sway_target.GetTitledFirstName] thanked me for the invitation to the board game evening, but [sway_target.GetSheHe] does not have the time to spare at the moment.;;;;;;;;;;;;x
@@ -8600,7 +8600,7 @@ tooltip_religion_feature_default_excommunication_dynamic;[GetAltStartDefaultRefo
 tooltip_religion_feature_default_divorce_dynamic;[GetAltStartDefaultReformationDivorceDesc];;;;;;;;;;;;x
 tooltip_religion_feature_default_invasion_dynamic;[GetAltStartDefaultReformationInvasionDesc];;;;;;;;;;;;x
 tooltip_religion_feature_default_claim_dynamic;[GetAltStartDefaultReformationClaimDesc];;;;;;;;;;;;x
-religion_leader_unchanged;Unchanged;;;;;;;;;;;;x
+religion_leader_unchanged;未变;;;;;;;;;;;;x
 religion_leader_unchanged_desc;Leadership can only be changed when reforming a Pagan religion.;;;;;;;;;;;;x
 tooltip_religion_feature_default_head_catholic;§GThe Pope is the Hierocratic Head of this religion§!;;;;;;;;;;;;x
 tooltip_religion_feature_default_head_eastern;§YThere is no Religious Head§!\n§RNo Great Holy Wars can be started§!;;;;;;;;;;;;x
@@ -8679,15 +8679,15 @@ random_world_book_of_dev_12;Book of Henrik;;;;;;;;;;;;x
 random_world_book_of_dev_13;Book of Gustav;;;;;;;;;;;;x
 random_world_book_of_dev_14;Book of Björn;;;;;;;;;;;;x
 random_world_book_of_dev_desc;This rare and priceless book tells the story of an inventor who spent all their time trying to make the perfect boardgame. Of course they went insane in the attempt.;;;;;;;;;;;;x
-random_mythological_creature_dragon;Dragon;;;;;;;;;;;;x
-random_mythological_creature_giant_snail;Giant Snail;;;;;;;;;;;;x
-random_mythological_creature_hydra;Hydra;;;;;;;;;;;;x
-random_mythological_creature_gorgon;Gorgon;;;;;;;;;;;;x
-random_mythological_creature_harpy;Harpy;;;;;;;;;;;;x
-random_mythological_creature_siren;Siren;;;;;;;;;;;;x
-random_mythological_creature_giant;Giant;;;;;;;;;;;;x
+random_mythological_creature_dragon;龙;;;;;;;;;;;;x
+random_mythological_creature_giant_snail;巨蜗;;;;;;;;;;;;x
+random_mythological_creature_hydra;九头蛇;;;;;;;;;;;;x
+random_mythological_creature_gorgon;蛇发女妖;;;;;;;;;;;;x
+random_mythological_creature_harpy;鹰身女妖;;;;;;;;;;;;x
+random_mythological_creature_siren;塞壬;;;;;;;;;;;;x
+random_mythological_creature_giant;巨人;;;;;;;;;;;;x
 random_mythological_creature_kraken;Kraken;;;;;;;;;;;;x
-random_mythological_creature_griffin;Griffin;;;;;;;;;;;;x
+random_mythological_creature_griffin;狮鹫;;;;;;;;;;;;x
 random_mythological_creature_basilisk;Basilisk;;;;;;;;;;;;x
 random_mythological_creature_manticore;Manticore;;;;;;;;;;;;x
 random_mythological_creature_cyclops;Cyclops;;;;;;;;;;;;x
@@ -10778,8 +10778,8 @@ bloodline_effect_battle_bards;Unlocks special actions on the battlefield.;;;;;;;
 bloodline_effect_inspire_commanders;The §YPromote Commander§! decision attracts better commanders.;;;;;;;;;;;;x
 bloodline_effect_fearsome;Increases the chance of capturing enemy Commanders.;;;;;;;;;;;;x
 bloodline_effect_reaver;Increases the chance of looting §YArtifacts§!, after sieging enemy Holdings.;;;;;;;;;;;;x
-poet_opinion;Poet Opinion;;;;;;;;;;;;x
-falconer_opinion;Falconer Opinion;;;;;;;;;;;;x
+poet_opinion;诗人好感;;;;;;;;;;;;x
+falconer_opinion;驯鹰师好感;;;;;;;;;;;;x
 greedy_opinion;Greedy Opinion;;;;;;;;;;;;x
 just_opinion;Just Opinion;;;;;;;;;;;;x
 opinion_legendary_commander;Blood of Legendary Commander;;;;;;;;;;;;x
