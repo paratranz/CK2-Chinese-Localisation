@@ -237,12 +237,12 @@ setting_age_span;年龄范围;;;;;;;;;;;;x
 setting_age_span_tooltip;决定生成统治者的最小与最大年龄;;;;;;;;;;;;x
 setting_num_of_children;儿童数量;;;;;;;;;;;;x
 setting_num_of_children_tooltip;决定每个统治者随机生成的孩子的最小与最大数目。需注意一名统治者的子女数不能超出他们的年龄允许的范围，而双胞胎视为一个孩子。;;;;;;;;;;;;x
-setting_holding_types;领地类型;;;;;;;;;;;;x
-setting_holding_types_tooltip;决定游戏中领地的类型;;;;;;;;;;;;x
+setting_holding_types;地产类型;;;;;;;;;;;;x
+setting_holding_types_tooltip;决定游戏中地产的类型;;;;;;;;;;;;x
 setting_holding_types_historical;史实;;;;;;;;;;;;x
 setting_holding_types_historical_tooltip;省份的地产与史实无异;;;;;;;;;;;;x
 setting_holding_types_feudal;封建;;;;;;;;;;;;x
-setting_holding_types_feudal_tooltip;每个伯爵领将生成多达三个地产：一座城堡，一座寺庙和一座城市;;;;;;;;;;;;x
+setting_holding_types_feudal_tooltip;每个省份将生成多达三个地产：一座城堡，一座寺庙和一座城市;;;;;;;;;;;;x
 setting_holding_types_tribal;部落;;;;;;;;;;;;x
 setting_holding_types_tribal_tooltip;每个省份都将只有一个部落地产。;;;;;;;;;;;;x
 setting_holding_types_nomadic;游牧制;;;;;;;;;;;;x
@@ -466,13 +466,13 @@ EVTOPTAHF20010;而且因为这些事，我会把对[converting_king.GetHerHim]�
 EVTDESCHF20011;[From.GetTitledFirstName]'s stubbornness in clinging to the old faith has become more than a simple nuisance. \nMany have reported [From.GetHerHim] claiming that I am a traitor to my people and that I have sold off [Root.PrimaryTitle.GetName] to [sponsoring_king.GetTitledFirstName].\nThere's little doubt [From.GetFirstName] has become my enemy.;;;;;;;;;;;;x
 EVTOPTAHF20011;我必须用某种方式处理[From.GetHerHim]。;;;;;;;;;;;;x
 EVTDESCHF20013;I have just received news that [From.GetTitledFirstName] turned away from [From.GetHerHis] own faith!\n[From.GetSheHeCap] is still willing to sponsor the mass conversion of [Root.PrimaryTitle.GetName], but to the [From.Religion.GetName] faith.;;;;;;;;;;;;x
-EVTOPTAHF20013;不能容忍。仪式取消了。;;;;;;;;;;;;x
+EVTOPTAHF20013;这无法接受。仪式取消了。;;;;;;;;;;;;x
 EVTOPTBHF20013;唉，听起来已经足够靠近了。;;;;;;;;;;;;x
-EVTDESCHF20015;With the unfortunate departure of [From.GetTitledFirstName] so goes the support of [From.GetHerHis] realm for the conversion of [Root.PrimaryTitle.GetName]. \nI will need to find someone else to help me in this endeavor.;;;;;;;;;;;;x
+EVTDESCHF20015;因为[From.GetTitledFirstName]的不幸离世，[Root.PrimaryTitle.GetName]的改信也因此失去了[From.GetHerHis]领地的支持。\n我需要另找一人来帮我竭力促成此事。;;;;;;;;;;;;x
 EVTOPTAHF20015;该死的。;;;;;;;;;;;;x
-EVTDESCHF20017;It appears that [From.GetTitledFirstName] died before [From.GetSheHe] could achieve salvation for [From.GetHerselfHimself] as well as [From.GetHerHis] people. \nThe great ceremony for the mass conversion of [From.PrimaryTitle.GetName] has been postponed indefinitely.;;;;;;;;;;;;x
+EVTDESCHF20017;似乎[From.GetTitledFirstName]在身故之前，[From.GetSheHe]未能成功地挽救[From.GetHerselfHimself]以及[From.GetHerHis]民众的灵魂。\n[From.PrimaryTitle.GetName]大规模改信的盛大仪式已被无限期推迟。;;;;;;;;;;;;x
 EVTOPTAHF20017;真可惜啊。;;;;;;;;;;;;x
-EVTDESCHF20019;It seems [From.GetTitledFirstName]'s conviction was not as firm as [From.GetSheHe] claimed.\nI have just learned that [From.GetSheHe] has forsaken the [Root.Religion.GetName] faith to become a [From.Religion.GetName].;;;;;;;;;;;;x
+EVTDESCHF20019;看起来[From.GetTitledFirstName]的信念并不如同[From.GetSheHe]所说的那么坚定。\n我刚刚才知道[From.GetSheHe]已经抛弃了[Root.Religion.GetName]信仰，转而成为了一名[From.Religion.GetName]。;;;;;;;;;;;;x
 EVTOPTAHF20019;[From.GetHerHisCap]行为终止了我们之间的协议。;;;;;;;;;;;;x
 EVTOPTBHF20019;也许这只是在判断时的一时失误……;;;;;;;;;;;;x
 EVTDESCHF20021;我刚收到消息，曾经帮助我在领地内传播新的宗教的[From.GetManWoman]，[From.GetTitledFirstName]已经放弃了这种信仰，转而支持[From.Religion.GetName]信仰。;;;;;;;;;;;;x
@@ -481,10 +481,10 @@ EVTOPTBHF20021;这并不意味着我们不能继续保持良好的关系。;;;;;
 EVTDESCHF20023;我刚收到消息，曾经帮助我在领地内传播新的宗教的[From.GetManWoman]，[From.GetTitledFirstName]去世了。\n没有了[From.GetHerHis]帮助，我不确定我是否有能力让[Root.PrimaryTitle.GetName]的部族顺从，并使他们皈依[Root.Religion.GetName]信仰。;;;;;;;;;;;;x
 EVTOPTAHF20023;[From.GetSheHeCap]如今与[Root.Religion.GetHighGodName]同行。;;;;;;;;;;;;x
 EVTDESCHF20024;Esteemed [Root.GetTitledName],\nThe words of your missionary have convinced me to forsake my old religion and lead [From.PrimaryTitle.GetName] to its rightful place amongst the civilized realms.\nI humbly request [Root.PrimaryTitle.GetName]'s assistance to ensure a peaceful transition into the [Root.Religion.GetName]'s faith.\n\n[From.GetTitledFirstName];;;;;;;;;;;;x
-EVTDESCHF20025;[Root.GetTitledName],\nOur [converting_king.GetTitle] has decreed that all [converting_king.PrimaryTitle.GetName] is to be [sponsoring_king.Religion.GetName].\nI have decided to take a stand for our old gods and deny [converting_king.GetHerHis] request. I urge you to do the same.\n\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESCHF20025;[Root.GetTitledName]，\n我们的[converting_king.GetTitle]已经下令，所有的[converting_king.PrimaryTitle.GetName]都必须信仰[sponsoring_king.Religion.GetName]。\n但我已表明了自己坚持旧有信仰的立场，并拒绝了[converting_king.GetHerHis]的命令。我劝你也同样如此。\n\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20025;[From.GetFirstName]，我将会同你站在一边！;;;;;;;;;;;;x
 EVTOPTBHF20025;很抱歉，但是我要与[converting_king.GetTitle]站在同一边。;;;;;;;;;;;;x
-EVTDESCHF20028;[Root.GetTitledName],\nOur [converting_king.GetTitle] has decreed that all [converting_king.PrimaryTitle.GetName] is to be [sponsoring_king.Religion.GetName].\nWe cannot oppose [converting_king.GetHerHis] decision openly, but I believe that, together, we may keep our gods' memory alive in secret.\n\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESCHF20028;[Root.GetTitledName]，\n我们的[converting_king.GetTitle]已经下令，所有的[converting_king.PrimaryTitle.GetName]都必须信仰[sponsoring_king.Religion.GetName]。\n我们不能公开违抗[converting_king.GetHerHis]命令，但是我认为，只要我们一起，依旧可以秘密地让我们的旧有信仰保持活力。\n\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20028;只有这一个办法了。;;;;;;;;;;;;x
 EVTOPTBHF20028;很抱歉，但是我要与[converting_king.GetTitle]站在同一边。;;;;;;;;;;;;x
 EVTDESCHF20029;自集体改信以来已经过去一段时间了。\n显然，旧信仰的追随者在[converting_king.GetTitledFirstName]的新国家里已经不再有地位了。等待的越久，[converting_king.Religion.GetName]的神职人员对我国人民的影响就会越大。\n如果我们还想为旧神收回我们的土地并打破新信仰的束缚，我们必须行动起来。;;;;;;;;;;;;x
@@ -493,11 +493,11 @@ EVTOPTBHF20029;还没有。;;;;;;;;;;;;x
 EVTDESCHF20030;致所有[converting_king.PrimaryTitle.GetName]的真神追随者！\n我们的[converting_king.GetTitle]已经抛弃了以往的习俗并把[converting_king.GetHerHis]信仰卖给了一个外国的[sponsoring_king.GetTitle]。我们必须团结一致，打破堕落的[converting_king.Religion.GetName]信仰的束缚！\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20030;[From.GetSisterBrother]，我将会同你站在一边！;;;;;;;;;;;;x
 EVTOPTBHF20030;我不能够背叛我的主君。;;;;;;;;;;;;x
-EVTDESCHF20031;[From.GetTitledFirstName] has rallied [From.GetHerHis] tribes and declared open war against all followers of [converting_king.Religion.GetHighGodName] in [converting_king.PrimaryTitle.GetName] in a last ditch effort to preserve [From.GetHerHis] backwards, dying religion.;;;;;;;;;;;;x
+EVTDESCHF20031;[From.GetTitledFirstName]已经召集了[From.GetHerHis]部落成员并向[converting_king.PrimaryTitle.GetName]境内所有的[converting_king.Religion.GetHighGodName]追随者公开宣战。此举是保卫[From.GetHerHis]落后的将死的信仰的最后一搏。;;;;;;;;;;;;x
 EVTOPTAHF20031;是时候摆脱这些[From.Religion.GetRandomGodName]的崇拜者了。;;;;;;;;;;;;x
 EVTDESCHF20032;[FromFrom.GetTitledFirstName] decided to abandon [From.GetHerHis] faith in the middle of the preparations for the mass conversion of [From.PrimaryTitle.GetName]!\nFollowing this unforeseen event, [From.GetTitledFirstName] has had no other option but to cancel the whole ceremony.;;;;;;;;;;;;x
 EVTOPTAHF20032;真是奇怪。;;;;;;;;;;;;x
-EVTDESCHF20033;News have reached court about [FromFrom.GetTitledName]'s passing.\nWithout [FromFrom.GetHerHis] support, [From.GetTitledFirstName] has had no other choice but to hold off the ceremony for the mass conversion of [From.PrimaryTitle.GetName], at least until [From.GetSheHe] finds another respected [FromFrom.Religion.GetName] ruler to support [From.GetHerHim] in this project.;;;;;;;;;;;;x
+EVTDESCHF20033;宫廷收到了关于[FromFrom.GetTitledName]去世的消息。\n没有[FromFrom.GetHerHis]支持，[From.GetTitledFirstName]别无选择只能推迟[From.PrimaryTitle.GetName]大规模改信仪式，直到[From.GetSheHe]找到另外一位令人尊敬的[FromFrom.Religion.GetName]统治者支持[From.GetHerHim]做此事。;;;;;;;;;;;;x
 EVTOPTAHF20033;我明白了。;;;;;;;;;;;;x
 EVTDESCHF20035;To [From.GetHerHis] last breath my [GetFromRelation] opposed our liege's decision to abandon the old faith. With the mass conversion only a few days away, I must decide if I wish to follow in [From.GetTitledFirstName]'s footsteps or bow to the will of my liege.;;;;;;;;;;;;x
 EVTOPTAHF20035;I will remain true to my [GetFromRelation]'s wish.;;;;;;;;;;;;x
@@ -536,20 +536,20 @@ EVTOPTCHF20047;我应该给他们派遣更多的牧师。;;;;;;;;;;;;x
 EVTTOOLTIPCHF20047;Send a missionary force to §Y[converting_king.PrimaryTitle.GetName]§! in order to proselytize in the realm's remaining pagan provinces.;;;;;;;;;;;;x
 EVTOPTDHF20047;We cannot spare funds to help savages right now.;;;;;;;;;;;;x
 EVTDESCHF20048;After helping them see the light of the [Root.Religion.GetName] faith, the people of [converting_king.PrimaryTitle.GetName] and their [converting_king.GetTitle] have often been in my thoughts. \nPerhaps visiting [converting_king.GetTitledFirstName] could help improve the relations between our realms.;;;;;;;;;;;;x
-EVTOPTAHF20048;Seems like a great idea!;;;;;;;;;;;;x
+EVTOPTAHF20048;看起来是个很棒的主意！;;;;;;;;;;;;x
 EVTTOOLTIPAHF20048;Travel to §Y[converting_king.Capital.GetName]§! to meet §Y[converting_king.GetTitledFirstName]§! and spend some time there to know [converting_king.GetHerHim] better.;;;;;;;;;;;;x
 EVTOPTBHF20048;I have no time to mingle with savages.;;;;;;;;;;;;x
 EVTDESCHF20049;[Root.GetTitledName],\nWe have decided to help you in your holy quest to turn your subjects to the true faith by funding the construction of a new church in [Root.PrimaryTitle.GetName]. \n\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20049;A new church is just what we need.;;;;;;;;;;;;x
-EVTOPTBHF20049;I will decide when and if a new church is needed.;;;;;;;;;;;;x
+EVTOPTAHF20049;一座新的教堂真实我们所需要的.;;;;;;;;;;;;x
+EVTOPTBHF20049;我会决定什么时候和是否需要一个新的教堂.;;;;;;;;;;;;x
 EVTDESCHF20050;[Root.GetTitledName], \nI am glad to read of your decision. A new church is just what we needed to help spread the word of [Root.Religion.GetRandomGodName] to the masses. \n\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20050;Marvelous.;;;;;;;;;;;;x
 EVTDESCHF20051;[Root.GetTitledName], \nI appreciate your thought, but I must refuse your proposal: maintaining a new church would be no easy task, even if its construction was covered by your generous offer. \n\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTAHF20051;What a disappointment.;;;;;;;;;;;;x
-EVTDESCHF20052;[Root.GetTitledName],\nIn order to assist you in the conversion of your lands to the rightful worship of [From.Religion.GetRandomGodName], we have decided to send you a modest sum of gold from Our royal coffers. \n\n[From.GetTitledName];;;;;;;;;;;;x
+EVTOPTAHF20051;真扫兴.;;;;;;;;;;;;x
+EVTDESCHF20052;[Root.GetTitledName]，\n为了更好地帮助您的领地信仰进行转换[From.Religion.GetRandomGodName]，我们决定用我们的皇家金库赠与您一笔适当的补助.\n\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20052;太好了！;;;;;;;;;;;;x
-EVTDESCHF20053;Esteemed [Root.GetTitledName],\nYour generous offer was much appreciated. You can rest assured that your gold will be dutifully invested to spread the holy message of [Root.Religion.GetRandomGodName].;;;;;;;;;;;;x
-EVTOPTAHF20053;Outstanding.;;;;;;;;;;;;x
+EVTDESCHF20053;尊敬的[Root.GetTitledName]，\n非常感谢您的慷慨解囊.您大可放心，您捐助的财产会确确实实地用在转播[Root.Religion.GetRandomGodName]的福音上面\n[Root.Religion.GetRandomGodName].;;;;;;;;;;;;x
+EVTOPTAHF20053;干的好.;;;;;;;;;;;;x
 EVTDESCHF20054;[Root.GetTitledName],\nIn an effort to assist you in the conversion of your realm, we have decided to send more of Our missionaries to your lands. They will be sure to rectify the path of the few remaining wayward subjects.\n\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20054;Your help is much appreciated.;;;;;;;;;;;;x
 baptism_new_missionaries_tooltip;Missionaries from §Y[From.PrimaryTitle.GetName]§! will be dispatched to one of your pagan provinces in order to convert it to the new faith.\nNote that their actions might upset the peasantry.;;;;;;;;;;;;x
@@ -3849,7 +3849,7 @@ EVTDESCHFA22109;I cannot believe the pettiness of some people. The painting [Fro
 EVTOPTAHF22109;Curses!;;;;;;;;;;;;x
 EVTDESCHF22110;I have just received some hilarious news from [From.GetTitledFirstName]'s court. It appears the painting I gave [From.GetHerHim] has started to rot, both twisting the features of its subject into a ridiculous, grotesque mockery and filling [From.GetFirstName]'s palace with an unbearable stench.;;;;;;;;;;;;x
 EVTOPTAHF22110;What an unexpected turn of events!;;;;;;;;;;;;x
-bon_reformed;Bön;;;;;;;;;;;;x
+bon_reformed;苯教;;;;;;;;;;;;x
 bon_reformed_DESC;The reformed Bön faith has fully incorporated some of its Buddhists elements while codifying the shamanic and animistic deities followed by its worshipers in a series of detailed scriptures.;;;;;;;;;;;;x
 hellenic_pagan_reformed;Hellenic;;;;;;;;;;;;x
 hellenic_pagan_reformed_DESC;The Hellenistic religion is polytheistic, with a pantheon of twelve major gods including [GetZeusJupiterName], [GetAresMarsName], [GetHermesMercuryName], [GetAphroditeVenusName], [GetAthenaMinervaName] and [GetHestiaVestaName]. Restored after having been almost but wiped out by Christianity, it has been fully adapted by its new practitioners to contend against its more aggressive, younger competitors.;;;;;;;;;;;;x
@@ -4183,7 +4183,7 @@ has_liege_vassal_or_neighbor_of_finnish_religion_tt;Has a §YLiege§!, §YVassal
 has_liege_vassal_or_neighbor_of_slavic_religion_tt;Has a §YLiege§!, §YVassal§!, or a §Yneighboring ruler§! who follows the §YSlavic§! faith\n;;;;;;;;;;;;x
 has_liege_vassal_or_neighbor_of_west_african_religion_tt;Has a §YLiege§!, §YVassal§!, or a §Yneighboring ruler§! who follows the §YAfrican§! faith\n;;;;;;;;;;;;x
 has_liege_vassal_or_neighbor_of_zun_religion_tt;Has a §YLiege§!, §YVassal§!, or a §Yneighboring ruler§! who follows the §YZunist§! faith\n;;;;;;;;;;;;x
-has_liege_vassal_or_neighbor_of_bon_religion_tt;Has a §YLiege§!, §YVassal§!, or a §Yneighboring ruler§! who follows the §YBön§! faith\n;;;;;;;;;;;;x
+has_liege_vassal_or_neighbor_of_bon_religion_tt;拥有一位信奉§Y苯教§!信仰的§Y领主§!，§Y封臣§!或一位§Y相邻的统治者§!\n;;;;;;;;;;;;x
 has_liege_vassal_or_neighbor_of_hellenic_religion_tt;Has a §YLiege§!, §YVassal§!, or a §Yneighboring ruler§! who follows the §YHellenic§! faith\n;;;;;;;;;;;;x
 warrior_lodge_tengri_rank_1_female;Fledgling;;;;;;;;;;;;x
 warrior_lodge_tengri_rank_2_female;Warrior;;;;;;;;;;;;x
@@ -6118,7 +6118,7 @@ EVTDESC_HFP_11004_A;A weapon has been found by my soldiers. "It was dropped by [
 EVTDESC_HFP_11004_B;A weapon has been found by my troops. "We are told that it belonged to [home_commander.GetTitledFirstName], my [Root.GetLordLady]" an officer says, presenting the item. "It must have been lost during the recent battle of [battlefield_location.GetName]", [Root.GetSheHe] concludes.;;;;;;;;;;;;x
 EVTDESC_HFP_11005_A;In the chaos surrounding the battle of [battlefield_location.GetName] my men cornered [home_commander.GetTitledName], [home_commander.GetOnCombatDeathDesc].;;;;;;;;;;;;x
 EVTDESC_HFP_11005_B;In the battle chaos of [battlefield_location.GetName] my men cornered [home_commander.GetTitledName], [home_commander.GetOnCombatDeathDesc].;;;;;;;;;;;;x
-EVTDESC_HFP_11010_A;The [battlefield_location.GetLocalWeatherAdjective] weather is getting to me. Turning to the sky, I take a deep breath. The [enemy_liege.GetEnemySoldierDesc] soldiers of [enemy_liege.GetTitledFirstName] have been sending their best at me and my limbs are becoming heavier with each step I take.;;;;;;;;;;;;x
+EVTDESC_HFP_11010_A;我在战场上遭遇了[battlefield_location.GetLocalWeatherAdjective]的天气。我对着天空做了个深呼吸。[enemy_liege.GetTitledFirstName][enemy_liege.GetEnemySoldierDesc]的士兵们一直在英勇地搏斗，而每走一步，我的四肢都会变得沉重。;;;;;;;;;;;;x
 EVTDESC_HFP_11010_B;While my soldiers are fighting valiantly alongside me, one [enemy_liege.GetEnemySoldierDesc] buffoon wearing the colors of [enemy_liege.GetTitledFirstName] seems to have figured out that I am the one holding the troops together. Through the haze of my tired mind, I sense [Root.GetHerHis] lumbering advance, and [Root.GetHerHis] intent to do something about it...;;;;;;;;;;;;x
 EVTDESC_HFP_11010_C;My troops are performing with excellence, and my chest is swelling with pride as we keep pressing forward. I turn back to answer the call of a soldier near by, when suddenly there is a sharp pain in my [Root.GetBodyPartInjured]. Gritting my teeth, I hear an enemy shouting: "Stay down, you [GetRootFromInsult]!";;;;;;;;;;;;x
 EVTOPT_HFP_11010_A;I accept any injury, if it protects [Root.PrimaryTitle.GetName]!;;;;;;;;;;;;x
@@ -6241,8 +6241,8 @@ string_Lightning;Lightning;;;;;;;;;;;;x
 string_Sky;Sky;;;;;;;;;;;;x
 string_Dragon;Dragon;;;;;;;;;;;;x
 string_Arrow;Arrow;;;;;;;;;;;;x
-pet_hunting_eagle;Hunting Eagle;;;;;;;;;;;;x
-pet_hunting_eagle_desc;Whenever this character is out hunting, you can spy a majestic eagle perched at their side, if not scouting the way ahead.;;;;;;;;;;;;x
+pet_hunting_eagle;猎鹰;;;;;;;;;;;;x
+pet_hunting_eagle_desc;每当这个角色外出打猎，你就能看到一只雄伟的鹰栖息在他们身边，如果它没有在前方探路的话。;;;;;;;;;;;;x
 string_Faithful;Faithful;;;;;;;;;;;;x
 string_Hunter;Hunter;;;;;;;;;;;;x
 string_Tricky;Tricky;;;;;;;;;;;;x
@@ -6582,8 +6582,8 @@ EVTDESCF_HF_40098;[saint_person.GetTitledName] was well known for how close [sai
 EVTDESCG_HF_40098;[saint_person.GetTitledName] was well known for how close [saint_person.GetSheHe] was to the Holy Father, and rumors were circulating about the two for a while. Though it was clear the Pope was saddened by his close friend's death, this sudden decision to honor his own rumored lover is beyond comprehension.\n\nIn a huge ceremony, the Pope has decided to canonize [saint_person.GetTitledName] and bring [saint_person.GetHerHim] into the fold of well-known saints.\n\nThere has been a huge uproar throughout the entire [saint_person.Religion.GetName] Church. This is an embarrassment for the whole faith.;;;;;;;;;;;;x
 EVTDESCH_HF_40098;[saint_person.GetTitledName] was well known for [saint_person.GetHerHis] sexual prowess throughout the whole [saint_person.Religion.GetName] realm. Though there has been rumors about the Pope's own private life, his sudden decision to honor this sexual deviant is beyond comprehension.\n\nIn a huge ceremony, the Pope has decided to canonize [saint_person.GetTitledName] and bring [saint_person.GetHerHim] into the fold of well-known saints.\n\nTherehas been a huge uproar throughout the entire [saint_person.Religion.GetName] Church. This is an embarrassment for the whole faith.;;;;;;;;;;;;x
 EVTOPTA_HF_40098;What is he thinking?;;;;;;;;;;;;x
-saintly_bloodline_01;Blood of Saint [Root.GetDynName];;;;;;;;;;;;x
-saintly_bloodline_02;Blood of Saint [Root.GetDynName];;;;;;;;;;;;x
+saintly_bloodline_01;圣[Root.GetDynName]的血脉;;;;;;;;;;;;x
+saintly_bloodline_02;圣[Root.GetDynName]的血脉;;;;;;;;;;;;x
 saintly_bloodline_03;圣[Root.GetDynName]的血脉;;;;;;;;;;;;x
 saintly_bloodline_04;圣[Root.GetDynName]的血脉;;;;;;;;;;;;x
 saintly_bloodline_05;圣[Root.GetDynName]的血脉;;;;;;;;;;;;x
@@ -6630,11 +6630,11 @@ create_kingdom_genoa;Create the Kingdom of Genoa;;;;;;;;;;;;x
 create_kingdom_genoa_desc;A new Genoan era will begin;;;;;;;;;;;;x
 k_antioch;安条克;;;;;;;;;;;;x
 k_antioch_adj;安条克;;;;;;;;;;;;x
-k_amalfi;Amalfi;;;;;;;;;;;;x
-k_amalfi_adj;Amalfitan;;;;;;;;;;;;x
+k_amalfi;阿马尔菲;;;;;;;;;;;;x
+k_amalfi_adj;阿马尔菲;;;;;;;;;;;;x
 principality_title;Prince;;;;;;;;;;;;x
 principality_title_female;Princess;;;;;;;;;;;;x
-principality_foa;Your Majesty;;;;;;;;;;;;x
+principality_foa;陛下;;;;;;;;;;;;x
 principality_prefix;Principality of;;;;;;;;;;;;x
 archduchy_title;Archduke;;;;;;;;;;;;x
 archduchy_title_female;Archduchess;;;;;;;;;;;;x
@@ -6792,7 +6792,7 @@ EVTOPTB_HF_41435;Was.. Was this it? What a disappointing end.;;;;;;;;;;;;x
 EVTOPTC_HF_41435;What a journey it has been.;;;;;;;;;;;;x
 EVTDESC_HF_41450;It has been a long journey, but I finally start recognizing my homeland once more. The woods, the streets and the people are all familiar, and I start smiling to myself. It is nice to be home.;;;;;;;;;;;;x
 EVTOPTA_HF_41450;Just one more street, and I am there!;;;;;;;;;;;;x
-pet_snake;Pet Snake;;;;;;;;;;;;x
+pet_snake;宠物蛇;;;;;;;;;;;;x
 death_pilgrimage;Disappeared during a Pilgrimage;;;;;;;;;;;;x
 DEATH_DURING_PILGRIMAGE;left for a holy pilgrimage, and never returned;;;;;;;;;;;;x
 repelled_bandits;Repelled Bandits;;;;;;;;;;;;x
@@ -7324,8 +7324,8 @@ tooltip_religion_feature_branches;§GFollowers of this religion can pick a prefe
 k_hellenic_pagan;Collegium Pontificum;;;;;;;;;;;;x
 k_hellenic_pagan_adj;Pontifical;;;;;;;;;;;;x
 PONTIFEX_MAXIMUS;Pontifex Maximus;;;;;;;;;;;;x
-d_bon_reformed;The Sacred Bön Hierarchy;;;;;;;;;;;;x
-d_bon_reformed_adj;Bön;;;;;;;;;;;;x
+d_bon_reformed;苯教圣阶;;;;;;;;;;;;x
+d_bon_reformed_adj;苯教;;;;;;;;;;;;x
 HEAD_DALAI_LAMA;Dalai Lama;;;;;;;;;;;;x
 d_dralhas_children;扎拉神子孙;;;;;;;;;;;;x
 d_dralhas_children_adj;扎拉;;;;;;;;;;;;x
@@ -7515,7 +7515,7 @@ secret_hellenic_pagan_community_desc;In secret, the faithful have organized arou
 secret_hellenic_pagan_reformed_community;[hellenic_pagan_reformed.GetName] Community;;;;;;;;;;;;x
 secret_hellenic_pagan_reformed_community_desc;In secret, the faithful have organized around a small cabal in this province. From there it converts others, grows, and protects their own.;;;;;;;;;;;;x
 String_hellenic_pagan;Hellenic;;;;;;;;;;;;x
-String_bon;Bön;;;;;;;;;;;;x
+String_bon;苯教;;;;;;;;;;;;x
 String_hellenic_follower;Hellen;;;;;;;;;;;;x
 tooltip_religion_feature_looting;§GLooting is allowed§!;;;;;;;;;;;;x
 EVTDESCAHF21137;§Y[From.GetTitledFirstName]§! has passed away. I can only hope [From.GetSheHe] remembered me fondly in [From.GetHerHis] last moments...;;;;;;;;;;;;x
@@ -7678,10 +7678,10 @@ secret_religious_society_hellenic_pagan_reformed;[GetReligiousCommunityName_hell
 secret_religious_society_bon_reformed_desc;[GetReligiousSocietyDesc_bon_reformed];;;;;;;;;;;;x
 secret_religious_society_hellenic_pagan_reformed_desc;[GetReligiousSocietyDesc_hellenic_pagan_reformed];;;;;;;;;;;;x
 secret_religious_society_hellenic_pagan_desc;[GetReligiousSocietyDesc_hellenic_pagan];;;;;;;;;;;;x
-secret_religious_society_REAL_bon_reformed;the Bön Faithful;;;;;;;;;;;;x
+secret_religious_society_REAL_bon_reformed;苯教虔信者;;;;;;;;;;;;x
 secret_religious_society_REAL_hellenic_pagan_reformed;The Hellenes;;;;;;;;;;;;x
 secret_religious_society_REAL_hellenic_pagan;The Hellenes;;;;;;;;;;;;x
-secret_religious_society_bon_reformed_desc_REAL;Followers of the Bön religion worship many gods and spirits. Adherents seek Great Perfection through the Dzogchen, which is one of the Nine Vehicles (or paths) of the Bön faith. In secret, the Bön Faithful continue to sacrifice animals made of barley flour to appease the higher powers.;;;;;;;;;;;;x
+secret_religious_society_bon_reformed_desc_REAL;苯教的信众崇拜众多神祇和灵体，信徒们通过「大圆满」：苯教信仰的九乘或九条道路追求伟大的全善。在暗中，苯教虔信者继续献祭用大麦面粉做成的动物以安抚神灵。;;;;;;;;;;;;x
 secret_religious_society_hellenic_pagan_desc_REAL;Followers of Hellenism worship the old gods of the ancient Greeks and Romans. Adherents sacrifice animals and calculate the future through astrology, believing their deities to be fickle and passionate beings, largely indifferent to the affairs of mortals.;;;;;;;;;;;;x
 secret_religious_society_hellenic_pagan_reformed_desc_REAL;Followers of Hellenism worship the old gods of the ancient Greeks and Romans. Adherents sacrifice animals and calculate the future through astrology, believing their deities to be fickle and passionate beings, largely indifferent to the affairs of mortals;;;;;;;;;;;;x
 secret_religious_society_bon_reformed_rank_1_female;Faithful;;;;;;;;;;;;x
@@ -11721,7 +11721,7 @@ EVTOPTB8405;I will join the cause.;;;;;;;;;;;;x
 EVTOPTB_HF_46010_TT;Preparations to pillage the burial site begins.;;;;;;;;;;;;x
 opinion_crusade_agreement;Approve of Crusade pledge;;;;;;;;;;;;x
 opinion_disapprove_of_crusade_unpledge;Traitor to the Crusade;;;;;;;;;;;;x
-secretly_convert_to_bon_holy_site;Secretly Convert to Bön;;;;;;;;;;;;x
+secretly_convert_to_bon_holy_site;秘密皈依苯教;;;;;;;;;;;;x
 secretly_convert_to_bon_holy_site_desc;The §YBön§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;x
 secretly_convert_to_bon_reformed_holy_site;Secretly Convert to Bön;;;;;;;;;;;;x
 secretly_convert_to_bon_reformed_holy_site_desc;The §YBön§! pilgrims that flock to the holy site in §Y[Root.Location.GetName]§! impress me with the depth and passion of their faith. I am tempted to convert in secrecy...;;;;;;;;;;;;x
@@ -12776,9 +12776,9 @@ tooltip_preparations_great_tribal_festival;着手准备这场§Y祭典§!;;;;;;;
 EVTDESCHF23802;在[From.GetTitledFirstName]死后还继续庆祝当然是不合适的。为了让[From.GetTitle]的亲属能够好好悼念[From.GetHerHis]离世，节日被取消了。;;;;;;;;;;;;x
 EVTOPTAHF23802;真是糟糕的损失……;;;;;;;;;;;;x
 EVTDESCHF23804;战事一触即发，我们必须将幼稚的享乐抛到一边去，专心准备战斗。尽管令人惋惜，我必须取消[Root.Capital.GetName]的节庆。;;;;;;;;;;;;x
-EVTOPTAHF23804;We will celebrate our victory later!;;;;;;;;;;;;x
-EVTDESCHF23805;With a war brewing on the horizon, we must set aside all frivolous activities and prepare for battle. In light of this troubling new event, [From.GetTitledFirstName] has had to regretfully cancel the festival of [From.Capital.GetName].;;;;;;;;;;;;x
-EVTOPTAHF23805;How unfortunate.;;;;;;;;;;;;x
+EVTOPTAHF23804;之后我们将庆祝胜利！;;;;;;;;;;;;x
+EVTDESCHF23805;战事一触即发，我们必须将幼稚的享乐抛到一边去，专心准备战斗。尽管令人惋惜，[From.GetTitledFirstName]必须取消[From.Capital.GetName]的节庆。;;;;;;;;;;;;x
+EVTOPTAHF23805;真不幸。;;;;;;;;;;;;x
 EVTDESCHF23806;A great festival is exactly what the people of [Root.PrimaryTitle.GetName] need to strengthen the bonds with their fellow tribesmen. It will also be a great opportunity for the Chieftains to bring offerings to our ancestors, bringing prosperity to our lands.;;;;;;;;;;;;x
 EVTOPTAHF23806;Let's get started!;;;;;;;;;;;;x
 TOOLTIP_EVTOPTAHF23806;Send invitations to your §YCourtiers§! and §YVassals§!.;;;;;;;;;;;;x
@@ -13168,16 +13168,16 @@ EVTOPTEHF25209_B;*Lose yourself in [From.GetFirstName]'s dreamy eyes*;;;;;;;;;;;
 EVTDESCHF25212;Things are not looking great for [From.GetFirstName]. I am slowly managing to get [From.GetHerHis] knuckles on the table, despite [From.GetHerHis] best efforts to push my hand back. When [From.GetSheHe] suddenly shouts a semi-coherent warning about something dangerous behind me, I am baffled.;;;;;;;;;;;;x
 EVTOPTAHF25212;Do you think I am that stupid?;;;;;;;;;;;;x
 EVTOPTBHF25212;What!?! What is it?!;;;;;;;;;;;;x
-EVTDESCHF25215;With a loud thud, I slam [wl_arm_wrestling_loser.GetFirstName]'s fist against the table, earning a shower of cheers from the other warriors gathered around us. My opponent glares at me and mumbles something about accepting defeat as [wl_arm_wrestling_loser.GetSheHe] rubs [wl_arm_wrestling_loser.GetHerHis] hand.;;;;;;;;;;;;x
+EVTDESCHF25215;随着清脆的“砰地一声”，我把[wl_arm_wrestling_loser.GetFirstName]的拳头摁在桌上，惹得其他战士在一旁欢呼雀跃。我的对手死死盯着我，[wl_arm_wrestling_loser.GetSheHe]一边揉着[wl_arm_wrestling_loser.GetHerHis]手一边嘟哝着接受了失败。;;;;;;;;;;;;x
 EVTOPTAHF25215;What sort of weakling are you?;;;;;;;;;;;;x
 TT_EVTOPTAHF25215;§Y[wl_arm_wrestling_loser.GetTitledFirstName]§! might challenge you to a §YDuel§! for insulting [wl_arm_wrestling_loser.GetHerHim].;;;;;;;;;;;;x
 TT_EVTOPTAHF25263;§Y[From.GetTitledFirstName]§! might challenge you to a §YDuel§! for insulting [From.GetHerHim].;;;;;;;;;;;;x
 EVTOPTBHF25215;Do not be too hard on yourself!;;;;;;;;;;;;x
-EVTDESCHF25216;With a loud thud, [wl_arm_wrestling_winner.GetFirstName] slams my fist against the table, earning a shower of cheers from the other warriors gathered around us. As if defeating me wasn't enough, [wl_arm_wrestling_winner.GetSheHe] starts mocking me openly.;;;;;;;;;;;;x
+EVTDESCHF25216;随着清脆的“砰地一声”，[wl_arm_wrestling_winner.GetFirstName]把我的拳头摁在了桌上，惹得其他战士在一旁欢呼雀跃。好像这还不够羞辱我似的，[wl_arm_wrestling_winner.GetSheHe]开始当众嘲讽起我来。;;;;;;;;;;;;x
 EVTOPTYHF25216;I will show you who is stronger!;;;;;;;;;;;;x
 EVTOPTAHF25216;噢！闭嘴！;;;;;;;;;;;;x
 TT_EVTOPTAHF25216;Your fellow warriors laugh at you.;;;;;;;;;;;;x
-EVTDESCHF25217;With a loud thud, [wl_arm_wrestling_winner.GetFirstName] slams my fist against the table, earning a shower of cheers from the other warriors gathered around us. Luckily, [wl_arm_wrestling_winner.GetFirstName] decides to not rub in [wl_arm_wrestling_winner.GetHerHis] victory, and gives me a bit of praise for holding on this much against [wl_arm_wrestling_winner.GetHerHim].;;;;;;;;;;;;x
+EVTDESCHF25217;随着清脆的“砰地一声”，[wl_arm_wrestling_winner.GetFirstName]把我的拳头摁在了桌上，惹得其他战士在一旁欢呼雀跃。还好，[wl_arm_wrestling_winner.GetFirstName]没有炫耀[wl_arm_wrestling_winner.GetHerHis]的胜利，反而对我对[wl_arm_wrestling_winner.GetHerHim]的不屈抵抗表示赞赏。;;;;;;;;;;;;x
 EVTOPTAHF25217;I need to train more...;;;;;;;;;;;;x
 EVTDESCAHF25218;It has been some time now since I have begun noticing [From.GetFirstName]. [From.GetSheHeCap] has distinguished [From.GetHerselfHimself] more than once amongst the members of our Lodge, to the point that I have started feeling strangely attracted to [From.GetHerHim].;;;;;;;;;;;;x
 EVTOPTAHF25218;I wonder if [From.GetSheHe] feels the same...;;;;;;;;;;;;x
