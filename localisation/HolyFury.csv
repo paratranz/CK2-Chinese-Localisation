@@ -420,7 +420,7 @@ EVTOPTDHF20005;我当然愿意改信。;;;;;;;;;;;;x
 EVTTOOLTIPHFD20006;Inform your liege that you will join [From.GetHerHim] and become §Y[sponsoring_king.Religion.GetName]§!, and so will all your subjects.\nWhen the Mass Conversion takes place all of your Vassals, Courtiers, and Provinces will turn §Y[sponsoring_king.Religion.GetName]§!.;;;;;;;;;;;;x
 EVTOPTEHF20005;我永远不会放弃旧的传统！;;;;;;;;;;;;x
 EVTTOOLTIPHFE20007;Inform your liege that neither you nor your subjects will take part in [From.GetHerHis] conversion.;;;;;;;;;;;;x
-EVTDESCHFA20006;My [Root.GetTitle],\nI am overjoyed to hear of your conversion to the [From.Religion.GetName].\nI had long since prayed for you to see the light.;;;;;;;;;;;;x
+EVTDESCHFA20006;我的[Root.GetTitle]，\n我很高兴听到你皈依了[From.Religion.GetName]。\n一直以来我都在祈祷你能见到光明。;;;;;;;;;;;;x
 EVTDESCHFB20006;My [Root.GetTitle],\nFor many years I have looked at the followers of [sponsoring_king.Religion.GetHighGodName] with a sympathetic eye. You cannot imagine what a relief it is to hear of your conversion.;;;;;;;;;;;;x
 EVTDESCHFC20006;My [Root.GetTitle],\nWhat you ask of me is not easy, but I will not deny your request. I will join you at [Root.Capital.GetName] and convert to the [sponsoring_king.Religion.GetName] faith with you.;;;;;;;;;;;;x
 EVTOPTAHF20006;很好。;;;;;;;;;;;;x
@@ -11077,32 +11077,32 @@ ANTIPOPE_COUNT_OR_ABOVE;§RCan't make someone below Count level antipope§!;;;;;
 DECLARE_WAR_INTERACTION_REL_HEAD_DEFENSE;§RNearby [Recipient.Religion.GetName] rulers are likely to ask to join [Recipient.GetTitledName] in defense of their religious head.§!;;;;;;;;;;;;x
 SET_REL_HEAD_DEFENSE_EFFECT;The Religion's adherents might now come to the defense of their religious head when people of a different religion declare war on them;;;;;;;;;;;;x
 SET_NOT_REL_HEAD_DEFENSE_EFFECT;The Religion's adherents will no longer come to the defense of their religious head when people of a different religion declare war on them;;;;;;;;;;;;x
-RENAME_ARTIFACT_MESSAGE_LOG;Rename [This.GetName];;;;;;;;;;;;x
-RENAME_CHARACTER_MESSAGE_LOG;Rename [This.GetFirstName];;;;;;;;;;;;x
-RENAME_ADJECTIVE;Adjective:;;;;;;;;;;;;x
-RENAME_ARTIFACT_BUTTON;§YRename [From.GetName]§!;;;;;;;;;;;;x
-rename_artifact;Rename [From.GetName];;;;;;;;;;;;x
-rename_artifact_desc;Change the name of the artifact §Y'[From.GetName]'§! to whatever you desire.;;;;;;;;;;;;x
-CHARVIEW_BUTTON_RENAME;§YRename Character§!;;;;;;;;;;;;x
-CHARVIEW_BUTTON_RENAME_DELAYED;Change the name of this character to whatever you desire.\nFor as long as they are located within your subrealm, underage kinsmen can be renamed at any point before they reach the age of 11.;;;;;;;;;;;;x
-personally_leading_troops;Ruler Personally Leading Troops;;;;;;;;;;;;x
-UNIT_LED_BY_RULER;§YRuler Personally Leading Troops§!;;;;;;;;;;;;x
-UNIT_LED_BY_RULER_DELAYED;$RULER|Y$ is personally leading this unit, providing the following effects:;;;;;;;;;;;;x
-NOT_FORBIDDEN_LEAD_SELF;§YLeading Armies§!\nYou are allowed to lead armies.\nPersonally leading one of your own armies would give it a §YMorale§! boost.\n§GClick to recall and forbid yourself from leading armies.§!;;;;;;;;;;;;x
-FORBIDDEN_LEAD_SELF;§YLeading Armies§!\nYou are currently forbidden from leading armies.\nPersonally leading one of your own armies would give it a §YMorale§! boost.\n§GClick to allow yourself to lead armies.§!;;;;;;;;;;;;x
-KILL_LIST_COUNT;$WHO|Y$ is responsible for the death of $COUNT|Y$ person.;;;;;;;;;;;;x
-KILL_LIST_COUNT_PLURAL;$WHO|Y$ is responsible for the deaths of $COUNT|Y$ people.;;;;;;;;;;;;x
-IS_NOT_BLOODLINE_ACTIVE_TRIGGER;The $BLOODLINE|Y$ bloodline is NOT active;;;;;;;;;;;;x
-IS_BLOODLINE_ACTIVE_TRIGGER;The $BLOODLINE|Y$ bloodline is active;;;;;;;;;;;;x
+RENAME_ARTIFACT_MESSAGE_LOG;重命名[This.GetName];;;;;;;;;;;;x
+RENAME_CHARACTER_MESSAGE_LOG;重命名[This.GetFirstName];;;;;;;;;;;;x
+RENAME_ADJECTIVE;形容词：;;;;;;;;;;;;x
+RENAME_ARTIFACT_BUTTON;§Y重命名[From.GetName]§!;;;;;;;;;;;;x
+rename_artifact;重命名[From.GetName];;;;;;;;;;;;x
+rename_artifact_desc;将宝物§Y「[From.GetName]」§!重新命名为你想要的名字;;;;;;;;;;;;x
+CHARVIEW_BUTTON_RENAME;§Y重命名角色§!;;;;;;;;;;;;x
+CHARVIEW_BUTTON_RENAME_DELAYED;将此角色的姓名更改为您想要的任何姓名。\n只要他们位于您的领地内，未成年的亲属可以在他们年满11岁之前的任何时候重新命名。;;;;;;;;;;;;x
+personally_leading_troops;统治者亲自带军出征;;;;;;;;;;;;x
+UNIT_LED_BY_RULER;§Y统治者亲自带军出征§!;;;;;;;;;;;;x
+UNIT_LED_BY_RULER_DELAYED;$RULER|Y$目前亲自带领这支军队，这将给予以下效果：;;;;;;;;;;;;x
+NOT_FORBIDDEN_LEAD_SELF;§Y带军亲征§!\n你允许带军亲征。\n带军亲征会给予军队§Y士气§!加成。\n§G点击此处离开军队并禁止带军亲征。§!;;;;;;;;;;;;x
+FORBIDDEN_LEAD_SELF;§Y带军亲征§!\n你目前不允许带军亲征。\n带军亲征会给予军队§Y士气§!加成。\n§G点击此处回到军队并带军亲征。§!;;;;;;;;;;;;x
+KILL_LIST_COUNT;$WHO|Y$对$COUNT|Y$的死负责;;;;;;;;;;;;x
+KILL_LIST_COUNT_PLURAL;$WHO|Y$对$COUNT|Y$的死负责;;;;;;;;;;;;x
+IS_NOT_BLOODLINE_ACTIVE_TRIGGER;$BLOODLINE|Y$血脉尚未激活;;;;;;;;;;;;x
+IS_BLOODLINE_ACTIVE_TRIGGER;$BLOODLINE|Y$血脉已经激活;;;;;;;;;;;;x
 LAND_PATH_DISTANCE_TRIGGER;Land distance to $TO|Y$ is $COMPARISON|Y$ $VALUE|Y$;;;;;;;;;;;;x
 NOT_LAND_PATH_TRIGGER;Land path to $TO|Y$ does NOT exist;;;;;;;;;;;;x
 LAND_PATH_TRIGGER;Land path to $TO|Y$ exists;;;;;;;;;;;;x
 CRUSADE_HEADER_TEXT;§L$CRUSADE$§!;;;;;;;;;;;;x
 CRUSADE_LAUNCH_DATE_TEXT;$DATE|Y$;;;;;;;;;;;;x
-CRUSADE_LAUNCH_IN_DAYS_TEXT;in $DAYS|Y$ days;;;;;;;;;;;;x
-CRUSADE_LAUNCH_LABEL;Crusade Starting;;;;;;;;;;;;x
-LEGEND;Legend;;;;;;;;;;;;x
-SOCIETY_PROGRESS_TIP;§YLegend§!;;;;;;;;;;;;x
+CRUSADE_LAUNCH_IN_DAYS_TEXT;于$DAYS|Y$天内;;;;;;;;;;;;x
+CRUSADE_LAUNCH_LABEL;十字军开始;;;;;;;;;;;;x
+LEGEND;传奇;;;;;;;;;;;;x
+SOCIETY_PROGRESS_TIP;§Y传奇§!;;;;;;;;;;;;x
 ACQUISITION_DUEL;Claimed in personal combat;;;;;;;;;;;;x
 c_hardsyssel_adj;Varder;;;;;;;;;;;;x
 c_abosyssel_adj;Aarhusboer;;;;;;;;;;;;x
