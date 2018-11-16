@@ -373,11 +373,11 @@ EVTOPTBHF20000;拒绝;;;;;;;;;;;;x
 refuse_baptism_request;[Root.GetTitledName]会告知[From.GetTitledName]，[Root.GetSheHe]对支持[From.PrimaryTitle.GetName]向[Root.Religion.GetName]信仰的转变并不感兴趣。;;;;;;;;;;;;x
 EVTDESCHF20001;[Root.GetTitledName]，\n我精神上支持你梦想成为一位[From.Religion.GetName]的[Root.PrimaryTitle.GetName]，但是我恐怕不能在这个时候协助你。\n\n诚挚的，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20001;真倒霉。;;;;;;;;;;;;x
-EVTDESCHF20002;[Root.GetTitledName]，\n我很荣幸接受你对于帮助[Root.PrimaryTitle.GetName]的可怜人民看到光明并拥抱[From.Religion.GetName]信仰的请求。\n我们会为即将到来的伟大转变开始准备。\n\n谨上\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESCHF20002;[Root.GetTitledName]，\n我很荣幸接受你的请求，帮助[Root.PrimaryTitle.GetName]的可怜人民看到光明并拥抱[From.Religion.GetName]信仰。\n我们会开始准备即将到来的伟大皈依。\n\n诚挚的，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20002;很好。;;;;;;;;;;;;x
-EVTTOOLTIPHF20003;§Y[From.GetTitledName]§!会派遣[From.Religion.GetName]僧侣们去为你治下的巨大转变准备一个盛大的仪式。;;;;;;;;;;;;x
+EVTTOOLTIPHF20003;§Y[From.GetTitledName]§!会派遣[From.Religion.GetName]僧侣们去为你臣民的伟大皈依准备一个盛大的仪式。;;;;;;;;;;;;x
 EVTTOOLTIPHF20005;§Y[Root.PrimaryTitle.GetName]§!的所有封臣都将被邀请出席即将到来的仪式。;;;;;;;;;;;;x
-EVTTITLE20003;[converting_king.PrimaryTitle.GetName]的转信;;;;;;;;;;;;x
+EVTTITLE20003;[converting_king.PrimaryTitle.GetName]的皈依;;;;;;;;;;;;x
 EVTDESCHFB20003;你在[converting_king.Capital.GetName]的广场中心会见你的封臣们和[sponsoring_king.GetTitledFirstName]的伊玛目。\n迎着围在你周围的平民们，你斥责着过去的神明并吐唾沫在它们虚伪的图腾上，示意你的封臣们去做同样的事。人群中发出些许抱怨声，但它们很快被平定下去。当伊玛目点燃图腾时，你宣布对安拉和他的先知的信仰。\n你们所有人都将伪神的柴堆抛之身后，向麦加鞠躬。;;;;;;;;;;;;x
 EVTDESCHFC20003;来自[sponsoring_king.Capital.GetName]的戴帽的祭司们沐浴着拂晓来到，但仪式的开始却在日落时分，他们将新神明们的图腾安装在你神庙中他们的新家。\n你和你的封臣们在城市之外会见，你的子民围绕在你的四周，在战鼓与号角冷酷的回声之中，日耳曼祭司们开始了仪式。他们将祭祀羊羔的鲜血涂抹在你脸上，焚烧圣草并咏唱他们秘密的咒语，你们都进入了恍惚之中。\n一整个夜晚恐惧和快乐裹挟着你。当你在第二天清晨醒来时，祭司们已经离去，迷茫的转信的人群陆陆续续回到了[converting_king.Capital.GetName]。;;;;;;;;;;;;x
 EVTDESCHFD20003;在[sponsoring_king.GetTitledFirstName]的祭司们的指导下，你集结你的封臣，骑着你最好的马离开了[converting_king.Capital.GetName]。\n长生天的祭司们引你们离开文明的大路，前往荒野深处，并且拒绝回答任何有关你们目的地的问题。\n在策马前行一整日之后，你们在一处悬崖的边上停下，看着落日如血的色彩。祭司们向天神烧了一些食物作为供品，让一小团火焰产生一大串的黑烟。之后，你和你的封臣们驾马自烟中通过，净化你们身上过去神明的残余。与此同时，祭司们的咏唱声在空气中不断回响。;;;;;;;;;;;;x
@@ -5366,9 +5366,9 @@ monastic_order_orthodox_desc_real;The followers of Saint Basil lead an ascetic l
 monastic_order_nestorian_desc_real;The order of Abraham the Great follow the monastic rules set by Abraham of Kashkar. Members swear to observe to strict obedience and to spread the word of the three great Nestorian doctors, Nestorius, Diodore of Tarsus, and Theodore of Mopsuestia. Only the literate may join the order and strict celibacy is required. Study and proselytism are the corner pillars of the order and as a member you are expected to spread the Nestorian faith ever eastwards.;;;;;;;;;;;;x
 monastic_order_monophysite_desc_real;The Community of Saint Anthony follows the oldest of monastic rules, set originally by Saint Anthony of Egypt, Saint Paul of Thebes, Saint Macarius and Saint Pachomius. In the spirit of the Great Fathers of Egypt's deserts we value simplicity, submission and humility. It is the duty of Miaphysite monks to work to spread the word of Christ, building on the oldest Christian monastic tradition in the world.;;;;;;;;;;;;x
 monastic_order_hindu_desc_real;The Monks of the Hindu Mathas aim to be an integrative and supporting force in society. Monks can seek to achieve spiritual enlightenment through meditation and scriptural studies or through charity and participating in the local economy. The Mathas are honored and often patronized by the rulers of India.;;;;;;;;;;;;x
-monastic_order_buddhist_desc_real;Members of Buddhist monasteries are expected to follow a strict set of rules aiming to attain Nirvana through a simple and meditative life. Foreswearing all physical property except the bare necessities Bhikkus vow to live only of what others give them.;;;;;;;;;;;;x
-monastic_order_jain_desc_real;Jain monks swear to abide by a number of vows, regulations, essential duties and restrictions. They dispose of all personal property, seeking purification and self-realization.;;;;;;;;;;;;x
-monastic_order_dominican_desc_random;The Inquisitors are able to listen to the confessions of any [christian.GetGroupName] – dressed in white and black, they lead the holy inquisition, charged with a mission to identify heretics. As a lay member of their Order you are expected to not pursue material wealth, but strive to be a seeker of truth.;;;;;;;;;;;;x
+monastic_order_buddhist_desc_real;佛教寺院的成员们希望遵循一套严格的规则，目的是通过简朴冥想的生活来达到涅槃。比丘们誓言放弃除生存必须外的全部物质财产，只依靠他人的施舍生活。;;;;;;;;;;;;x
+monastic_order_jain_desc_real;耆那教僧侣发誓遵守一些誓言、规章、基本职责和禁忌。他们弃绝所有的个人财产，寻求净化和自我实现。;;;;;;;;;;;;x
+monastic_order_dominican_desc_random;多明我会能够倾听任何[christian.GetGroupName]的忏悔——身穿着黑白相间的修士服，他们领导着宗教裁判所，肩负着辨别异端的使命。作为他们教派的在俗会员，你不该再去追求物质的财富，而是要努力成为真理的探索者。;;;;;;;;;;;;x
 monastic_order_orthodox_desc_random;The Faithful Ones lead an ascetic life, finding purpose in prayer as well as work, often in the name of aiding their fellow men and women. A lay member of the Order is not required to take on the life of a hermit – instead focus should be placed on helping the members of your community.;;;;;;;;;;;;x
 monastic_order_nestorian_desc_random;The Devout Worshipers follow the monastic rules set by the hallowed martyr. Members swear to observe to strict obedience and to spread the word of the three great [nestorian.GetName] doctors. Only the literate may join the order and strict celibacy is required. Study and proselytism are the corner pillars of the order and as a member you are expected to spread the [nestorian.GetName] faith.;;;;;;;;;;;;x
 monastic_order_monophysite_desc_random;The Pious Following follows the oldest of monastic rules, set originally by the hallowed martyr. In the spirit of the deserts we value simplicity, submission and humility. It is the duty of [miaphysite.GetName] monks to work to spread the word, building on the oldest [christian.GetName] monastic tradition in the world.;;;;;;;;;;;;x
@@ -5376,10 +5376,10 @@ monastic_order_hindu_desc_random;The Monks of the [hindu.GetName] Mathas aim to 
 monastic_order_buddhist_desc_random;Members of [buddhist.GetName] monasteries are expected to follow a strict set of rules aiming to attain enlightenment through a simple and meditative life. Foreswearing all physical property except the bare necessities.;;;;;;;;;;;;x
 monastic_order_jain_desc_random;[jain.GetName] monks swear to abide by a number of vows, regulations, essential duties and restrictions. They dispose of all personal property, seeking purification and self-realization.;;;;;;;;;;;;x
 EVTOPTA_MNM_3830;There suddenly seems to be an awful lot of these [From.TrueReligion.GetName] believers around...;;;;;;;;;;;;x
-ALT_SUNNI;The [sunni.GetName] Caliphate;;;;;;;;;;;;x
-ALT_SUNNI_ADJ;[sunni.GetName] Caliphate;;;;;;;;;;;;x
-ALT_SHIITE;The [shiite.GetName] Caliphate;;;;;;;;;;;;x
-ALT_SHIITE_ADJ;[shiite.GetName] Caliphate;;;;;;;;;;;;x
+ALT_SUNNI;[sunni.GetName]哈里发国;;;;;;;;;;;;x
+ALT_SUNNI_ADJ;[sunni.GetName]哈里发国;;;;;;;;;;;;x
+ALT_SHIITE;[shiite.GetName]哈里发国;;;;;;;;;;;;x
+ALT_SHIITE_ADJ;[shiite.GetName]哈里发国;;;;;;;;;;;;x
 ALT_MIA;The [miaphysite.GetName] Paparchy;;;;;;;;;;;;x
 ALT_MIA_ADJ;[miaphysite.GetName] Temple;;;;;;;;;;;;x
 ALT_MONO;The [monophysite.GetName] Paparchy;;;;;;;;;;;;x
@@ -6308,14 +6308,14 @@ nick_the_kind_hearted;好心人;;;;;;;;;;;;x
 nick_the_generous;慷慨者;;;;;;;;;;;;x
 nick_stone_fist;石拳;;;;;;;;;;;;x
 nick_iron_fist;铁拳;;;;;;;;;;;;x
-nick_the_bulwark;the Bulwark;;;;;;;;;;;;x
-nick_the_tower;the Tower;;;;;;;;;;;;x
-nick_the_wall_of_title;the Wall of [Root.PrimaryTitle.GetName];;;;;;;;;;;;x
-nick_the_terrain_commander;the [battlefield_location.GetTerrainCap] Commander;;;;;;;;;;;;x
-nick_the_ground_warrior;the [battlefield_location.GetGroundDescCap]-Warrior;;;;;;;;;;;;x
-nick_lord_lady_of_the_terrain;[Root.GetLordLady] of the [battlefield_location.GetTerrainCap];;;;;;;;;;;;x
-nick_the_underdog;the Underdog;;;;;;;;;;;;x
-nick_lord_lady_ground;[Root.GetLordLady] [battlefield_location.GetGroundDescCap];;;;;;;;;;;;x
+nick_the_bulwark;壁垒;;;;;;;;;;;;x
+nick_the_tower;高塔;;;;;;;;;;;;x
+nick_the_wall_of_title;[Root.PrimaryTitle.GetName]之墙;;;;;;;;;;;;x
+nick_the_terrain_commander;[battlefield_location.GetTerrainCap]指挥官;;;;;;;;;;;;x
+nick_the_ground_warrior;[battlefield_location.GetGroundDescCap]的勇士;;;;;;;;;;;;x
+nick_lord_lady_of_the_terrain;[battlefield_location.GetTerrainCap]的[Root.GetLordLady];;;;;;;;;;;;x
+nick_the_underdog;弱者;;;;;;;;;;;;x
+nick_lord_lady_ground;[battlefield_location.GetGroundDescCap][Root.GetLordLady];;;;;;;;;;;;x
 EVTDESC_HF_11027;The enemies are falling by my [GetDuelWeapon], one by one, while hails of arrows narrowly miss me. Charging into the thick of it all, I corner one surprisingly young soldier, trying to hide behind a [battlefield_location.GetTreeRockFence]. With mixed emotions, I realize that the boy is shaking. "Who are you?!" he splutters, eyes frantic.;;;;;;;;;;;;x
 EVTOPTA_HFP_11027;Tell your ancestors, that I foresaw your demise.;;;;;;;;;;;;x
 EVTOPTB_HFP_11027;You can call me the Great [Root.GetRegionalBigAnimalCap]!;;;;;;;;;;;;x
@@ -6888,11 +6888,11 @@ create_the_hansa_tooltip;Change into a Merchant Republic.;;;;;;;;;;;;x
 create_switzerland;Create the Swiss Confederation;;;;;;;;;;;;x
 create_switzerland_desc;Become Prince of the new Swiss Confederation.;;;;;;;;;;;;x
 EVTDESC_HFP_40000;Years have passed with great fortunes and trading across the Baltic Sea, and the great [Root.Culture.GetName] cities in Holstein and Mecklenburg have grown into wealth and expanded considerably.\n\n[Root.Liege.GetBestName] have given us the right of becoming Free Imperial Cities of the Empire. With my seat at [Root.Capital.GetName], I have become the new Mayor of the Hanseatic League, a large Merchant Republic that will span the entire Northern Seas.\n\nWith [Root.Liege.GetTitledFirstName] at our back, we will grow to become a major player in the Empire. The petty feudal princes of old will bow down before us.;;;;;;;;;;;;x
-TITLE_HFP_40000;The Hanseatic League;;;;;;;;;;;;x
-EVTOPTA_HFP_40000;We have a bright future ahead of us.;;;;;;;;;;;;x
-EVTDESC_HFP_40001;Several German merchant guilds and trade cities along the shores of northern Europe have come together in Lübeck to form the Hanseatic League with the blessing of [Root.Liege.GetBestName] of [Root.Liege.PrimaryTitle.GetName]. This loose confederation of Free Imperial Cities is dedicated towards the continued prosperity of its members and the mutual defense of any merchant vassals flying its flag. Their eventual and unstated goal, of course, is to one day completely dominate all trade along the Baltic and North Seas...;;;;;;;;;;;;x
-TITLE_HFP_40001;The Rise of the Hansa;;;;;;;;;;;;x
-EVTOPTA_HFP_40001;That is bound to ruffle some feathers...;;;;;;;;;;;;x
+TITLE_HFP_40000;汉萨同盟;;;;;;;;;;;;x
+EVTOPTA_HFP_40000;我们的未来一片光明。;;;;;;;;;;;;x
+EVTDESC_HFP_40001;北欧沿岸的几个日耳曼商人行会和贸易城市在吕贝克成立了汉萨同盟，并且得到了[Root.Liege.PrimaryTitle.GetName][Root.Liege.GetBestName]的祝福。这一帝国自由市的松散联盟是为了其成员国能获得持续繁荣和共同防御而成立的，其没有明说的终极目标就是希望有一天能够彻底垄断波罗的海和北海的贸易……;;;;;;;;;;;;x
+TITLE_HFP_40001;汉萨同盟的崛起;;;;;;;;;;;;x
+EVTOPTA_HFP_40001;一颗小石头溅不起太大水花……;;;;;;;;;;;;x
 k_switzerland;瑞士联邦;;;;;;;;;;;;x
 k_switzerland_adj;瑞士;;;;;;;;;;;;x
 d_bern;Bern;;;;;;;;;;;;x
@@ -8634,7 +8634,7 @@ random_world_bloodline_female_3;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;
 nick_tiny;Tiny;;;;;;;;;;;;x
 nick_the_roaring_flame;the Roaring Flame;;;;;;;;;;;;x
 nick_the_shield_of_capital;Shield of [nick_target_the_shield_of_capital.Capital.GetName];;;;;;;;;;;;x
-nick_the_goliath;the Goliath;;;;;;;;;;;;x
+nick_the_goliath;歌利亚;;;;;;;;;;;;x
 setting_random_scenario_artifacts;Random Artifacts;;;;;;;;;;;;x
 setting_random_scenario_artifacts_tooltip;Generates a number of special artifacts, spread across the world.;;;;;;;;;;;;x
 random_world_sword;Sword of [GetRandomPlanetName];;;;;;;;;;;;x
@@ -8710,7 +8710,7 @@ random_world_mythological_eye;Eye of a Dragon;;;;;;;;;;;;x
 random_world_mythological_eye_desc;This eye is said to have belonged to an ancient and powerful beast, plucked out of its head by the hero who slayed it.;;;;;;;;;;;;x
 random_world_mythological_eye_1;Eye of a [GetRandomMythologicalCreature];;;;;;;;;;;;x
 random_world_mythological_eye_desc_1;This eye is said to have belonged to an ancient and powerful beast, plucked out of its head by the hero who slayed it.;;;;;;;;;;;;x
-nick_the_mythological_creature;the [GetRandomMythologicalCreature];;;;;;;;;;;;x
+nick_the_mythological_creature;[GetRandomMythologicalCreature];;;;;;;;;;;;x
 sword_of_mohammad_desc;This fine and richly-decorated blade is one of the Prophet's nine swords: Al-'Abd, Al-Ma'thur, Al-Rasub, Al-Battar, Hatf, Qal'i, Dhu al-Faqar, Al-Mikhdham, and Al-Qadib.;;;;;;;;;;;;x
 EVTOPTAHF20080;Of course I have.;;;;;;;;;;;;x
 EVTDESC_HFP_30100;The heavens briefly lit up and the ground shook as the rock from the sky crashed into the castle gardens. I sent my men to investigate and they came back with a lump of a curious metal we have not seen before.;;;;;;;;;;;;x
@@ -10303,13 +10303,13 @@ RULE_SILLY_ON_DESC;Absurd events may appear during the game.;;;;;;;;;;;;x
 RULE_SILLY_OFF_DESC;No absurd events may appear during the game.;;;;;;;;;;;;x
 RULE_SILLY_UNRESTRICTED_DESC;AI rulers will be eligible to receive absurd events.;;;;;;;;;;;;x
 EVTOPTB_HL_4813;Do not ruin this place - I have other plans for it.;;;;;;;;;;;;x
-ca_culture_group_baltic_1_desc;[baltic.GetGroupName] warriors assemble here to test their strength against one another in single combat.;;;;;;;;;;;;x
-ca_culture_group_altaic_1_desc;The feared horse archers of the steppes are trained here. These highly mobile horsemen frequently outmaneuver their opponents, and are some of the finest warriors the world has ever seen.;;;;;;;;;;;;x
+ca_culture_group_baltic_1_desc;[baltic.GetGroupName]战士们汇聚于此相互搏击来锻炼他们的力量。;;;;;;;;;;;;x
+ca_culture_group_altaic_1_desc;来自大草原的恐怖的弓骑兵在此训练。这些骑手比他们的敌人拥有更高的机动力，他们是有史以来最棒的战士之一。;;;;;;;;;;;;x
 tp_school_1_muslim;[muslim.GetGroupName]学校;;;;;;;;;;;;x
 tp_school_2_muslim;大型[muslim.GetGroupName]学校;;;;;;;;;;;;x
 ca_culture_irish_1_desc;异乡勇士是优秀的重步兵，他们以坚强的防御力而著称。;;;;;;;;;;;;x
 ca_culture_saxon_english_1_desc_REAL;英格兰和威尔士悠久的弓箭传统造就了大量的长弓手。在此他们可训练他们强弓技巧。;;;;;;;;;;;;x
-ca_culture_saxon_english_1_desc_RANDOM;The strong tradition of archery produces excellent bowmen. Here they can practise with their powerful longbows.;;;;;;;;;;;;x
+ca_culture_saxon_english_1_desc_RANDOM;悠久的弓箭传统造就了大量的长弓手。在此他们可训练他们强弓技巧。;;;;;;;;;;;;x
 ca_culture_saxon_english_1_desc;[GetLongbowDesc];;;;;;;;;;;;x
 ca_culture_moors_1;[GetMoorish]骑兵营;;;;;;;;;;;;x
 ca_culture_moors_1_desc;这里是征召训练精英[GetMoorish]骑兵的地方。[GetMoors]拥有悠久的骑兵训练历史，这些骑兵是世界上最棒的骑兵，他们装备着长矛、剑、以及弓箭、这使得他们具备了极高的战略灵活性。;;;;;;;;;;;;x
@@ -10377,28 +10377,28 @@ string_tengri_symbol;the eagle;;;;;;;;;;;;x
 string_baltic_symbol;the wood;;;;;;;;;;;;x
 string_finnish_symbol;the bear;;;;;;;;;;;;x
 string_slavic_symbol;the eternal thunder;;;;;;;;;;;;x
-string_west_african_symbol;the ancestors;;;;;;;;;;;;x
-string_zun_symbol;the eternal flame;;;;;;;;;;;;x
-string_bon_symbol;the light;;;;;;;;;;;;x
-string_hellenic_symbol;the gods;;;;;;;;;;;;x
-string_norse_symbol_short;wolf;;;;;;;;;;;;x
-string_tengri_symbol_short;eagle;;;;;;;;;;;;x
-string_baltic_symbol_short;forest;;;;;;;;;;;;x
-string_finnish_symbol_short;bear;;;;;;;;;;;;x
-string_slavic_symbol_short;thunder;;;;;;;;;;;;x
-string_west_african_symbol_short;ancestor;;;;;;;;;;;;x
-string_zun_symbol_short;flame;;;;;;;;;;;;x
-string_bon_symbol_short;light;;;;;;;;;;;;x
-string_hellenic_symbol_short;lightning;;;;;;;;;;;;x
-string_norse_symbol_short_cap;Wolf;;;;;;;;;;;;x
-string_tengri_symbol_short_cap;Eagle;;;;;;;;;;;;x
-string_baltic_symbol_short_cap;Forest;;;;;;;;;;;;x
-string_finnish_symbol_short_cap;Bear;;;;;;;;;;;;x
-string_slavic_symbol_short_cap;Thunder;;;;;;;;;;;;x
-string_west_african_symbol_short_cap;Ancestor;;;;;;;;;;;;x
-string_zun_symbol_short_cap;Flame;;;;;;;;;;;;x
-string_bon_symbol_short_cap;Light;;;;;;;;;;;;x
-string_hellenic_symbol_short_cap;Lightning;;;;;;;;;;;;x
+string_west_african_symbol;祖先;;;;;;;;;;;;x
+string_zun_symbol;永恒烈焰;;;;;;;;;;;;x
+string_bon_symbol;光;;;;;;;;;;;;x
+string_hellenic_symbol;诸神;;;;;;;;;;;;x
+string_norse_symbol_short;狼;;;;;;;;;;;;x
+string_tengri_symbol_short;鹰;;;;;;;;;;;;x
+string_baltic_symbol_short;森林;;;;;;;;;;;;x
+string_finnish_symbol_short;熊;;;;;;;;;;;;x
+string_slavic_symbol_short;雷霆;;;;;;;;;;;;x
+string_west_african_symbol_short;先祖;;;;;;;;;;;;x
+string_zun_symbol_short;烈焰;;;;;;;;;;;;x
+string_bon_symbol_short;光;;;;;;;;;;;;x
+string_hellenic_symbol_short;闪电;;;;;;;;;;;;x
+string_norse_symbol_short_cap;狼;;;;;;;;;;;;x
+string_tengri_symbol_short_cap;鹰;;;;;;;;;;;;x
+string_baltic_symbol_short_cap;森林;;;;;;;;;;;;x
+string_finnish_symbol_short_cap;熊;;;;;;;;;;;;x
+string_slavic_symbol_short_cap;雷霆;;;;;;;;;;;;x
+string_west_african_symbol_short_cap;先祖;;;;;;;;;;;;x
+string_zun_symbol_short_cap;烈焰;;;;;;;;;;;;x
+string_bon_symbol_short_cap;光;;;;;;;;;;;;x
+string_hellenic_symbol_short_cap;闪电;;;;;;;;;;;;x
 string_bludgeoning;bludgeoning;;;;;;;;;;;;x
 string_cutting;cutting;;;;;;;;;;;;x
 String_piercing;piercing;;;;;;;;;;;;x
@@ -11509,8 +11509,8 @@ EVTDESC_HFP_44007;Supported by the charitable [From.GetTitledName], the Teutonic
 EVTOPTA_HFP_44007;It is only a matter of time before they will fall.;;;;;;;;;;;;x
 form_the_hre_early;Found [e_hre.Title.GetName];;;;;;;;;;;;x
 form_the_hre_early_desc;Is it not every [Root.GetTitle]'s dream to be recognized as the true successor to the Caesars? I can invoke the translatio imperii and have [Root.RelHead.GetBestName] crown me as ruler of a new Roman Empire!;;;;;;;;;;;;x
-FORM_THE_HRE_TT;Hold a King title besides [k_germany.Title.GetName].;;;;;;;;;;;;x
-create_archduchy_of_austria;Become the [Root.GetArchdukeArchduchessCap] of [k_austria.GetName];;;;;;;;;;;;x
+FORM_THE_HRE_TT;拥有除[k_germany.Title.GetName]以外的王国头衔。;;;;;;;;;;;;x
+create_archduchy_of_austria;成为[k_austria.GetName]的[Root.GetArchdukeArchduchessCap];;;;;;;;;;;;x
 create_archduchy_of_austria_desc;As the [Root.GetDukeDuchessCap] of [d_osterreich.GetName] and [d_styria.GetName], I am clearly of a higher rank than the rest of the uncouth scum of the Empire. It is time for [e_hre.Holder.GetTitledName] to recognize my superiority over the other Princes.;;;;;;;;;;;;x
 create_archduchy_of_austria_TT;Become the §Y[From.GetArchdukeArchduchessCap] of Austria§!, and bring the core lands of §Y[d_styria.GetName]§! and §Y[d_osterreich.GetName]§! in under your new title;;;;;;;;;;;;x
 same_dynasty_as_emperor_TT;Same dynasty as §Y[e_hre.Holder.GetTitledName]§!;;;;;;;;;;;;x
@@ -13534,7 +13534,7 @@ nick_the_merciless;无情者;;;;;;;;;;;;x
 nick_the_word_slayer;冷场者;;;;;;;;;;;;x
 nick_the_grinner;大笑者;;;;;;;;;;;;x
 nick_the_poison_tooth;毒牙;;;;;;;;;;;;x
-nick_the_vixen;狐狸精;;;;;;;;;;;;x
+nick_the_vixen;泼妇;;;;;;;;;;;;x
 nick_the_hyena;鬣狗;;;;;;;;;;;;x
 nick_the_short_tempered;暴脾气;;;;;;;;;;;;x
 nick_the_red_cheeks;红脸蛋;;;;;;;;;;;;x
@@ -13955,11 +13955,11 @@ EVTOPTDHF25828;Wha-? How..?;;;;;;;;;;;;x
 EVTOPTEHF25828;I guess I should have trusted [From.GetHerHim]...;;;;;;;;;;;;x
 crusader_kid_bloodline;Angelic Blood of [This.GetFirstName];;;;;;;;;;;;x
 crusader_kid_bloodline_desc;Inspired by the Holy Ghost, [This.GetTitledFirstName] managed to lead a successful Crusade to free Jerusalem from the infidels when [This.GetSheHe] was merely a child.;;;;;;;;;;;;x
-nick_the_angel_of_location;耶路撒冷天使;;;;;;;;;;;;x
-nick_the_chosen_of_gabriel;加百列选民;;;;;;;;;;;;x
-nick_the_page_of_lord;the Page of Our Lord;;;;;;;;;;;;x
-nick_the_maid_of_virgin;the Virgin's Maid;;;;;;;;;;;;x
-nick_the_messenger_of_christ;基督信使;;;;;;;;;;;;x
+nick_the_angel_of_location;耶路撒冷的天使;;;;;;;;;;;;x
+nick_the_chosen_of_gabriel;加百列的选民;;;;;;;;;;;;x
+nick_the_page_of_lord;主之侍从;;;;;;;;;;;;x
+nick_the_maid_of_virgin;圣母的侍女;;;;;;;;;;;;x
+nick_the_messenger_of_christ;基督的信使;;;;;;;;;;;;x
 EVTDESCHF25230_B;My attempt to change the regular die with a weighted one did not pass unnoticed. After a bit of squabbling, [random_society_winner.GetBestName] manages to pick the die away from me and throws it on the table a few times, revealing my intent and calling me a cheater.;;;;;;;;;;;;x
 EVTOPTBHF25230;Alright, here is your money...;;;;;;;;;;;;x
 EVTOPTCHF25230;How about we consider it even?;;;;;;;;;;;;x
@@ -14447,23 +14447,23 @@ EVTDESC7712_B;[From.GetTitledFirstName] has let me know that the plot to kill [F
 opinion_my_reformer;Reformer;;;;;;;;;;;;x
 string_fallback_old_goddess;an old goddess;;;;;;;;;;;;x
 TOOLTIP_RECENTLY_ASKED_HELP_WITH_TITLES;Has NOT recently taken this decision;;;;;;;;;;;;x
-nick_the_deaths_child;the Reaper's Child;;;;;;;;;;;;x
+nick_the_deaths_child;死神之子;;;;;;;;;;;;x
 nick_the_snakeling;the Snakeling;;;;;;;;;;;;x
-nick_the_little_spider;the Little Spider;;;;;;;;;;;;x
+nick_the_little_spider;小蜘蛛;;;;;;;;;;;;x
 nick_the_eerie;the Eerie;;;;;;;;;;;;x
-nick_the_little_nightmare;the Little Nightmare;;;;;;;;;;;;x
-nick_the_ripper;the Reaper;;;;;;;;;;;;x
-nick_the_black_widow;the Black Widow;;;;;;;;;;;;x
+nick_the_little_nightmare;小梦魇;;;;;;;;;;;;x
+nick_the_ripper;死神;;;;;;;;;;;;x
+nick_the_black_widow;黑寡妇;;;;;;;;;;;;x
 nick_the_ferrante;Ferrante;;;;;;;;;;;;x
 nick_the_iron_heart;Ironheart;;;;;;;;;;;;x
 nick_the_pale_spider;the Pale Spider;;;;;;;;;;;;x
 nick_the_grim_mistress;the Grim Mistress;;;;;;;;;;;;x
-nick_the_young_eagle;the Young Eagle;;;;;;;;;;;;x
+nick_the_young_eagle;雏鹰;;;;;;;;;;;;x
 nick_the_green_warrior;the Green Warrior;;;;;;;;;;;;x
 nick_the_warrior_child;the Warrior Child;;;;;;;;;;;;x
 nick_the_young_conqueror;the Young Conqueror;;;;;;;;;;;;x
-nick_the_white_knight;the White Knight;;;;;;;;;;;;x
-nick_the_virago;the Virago;;;;;;;;;;;;x
+nick_the_white_knight;白骑士;;;;;;;;;;;;x
+nick_the_virago;巾帼丈夫;;;;;;;;;;;;x
 nick_the_bloodhound;the Bloodhound;;;;;;;;;;;;x
 nick_the_warrior_philosopher;the Warrior Philosopher;;;;;;;;;;;;x
 nick_the_angel;the Angel;;;;;;;;;;;;x
@@ -15687,7 +15687,7 @@ d_emba;Emba;;;;;;;;;;;;x
 d_turkestan;Aral;;;;;;;;;;;;x
 d_chuy;Chuy;;;;;;;;;;;;x
 d_ili;伊犁;;;;;;;;;;;;x
-d_kakheti;Kakheti;;;;;;;;;;;;x
+d_kakheti;卡赫季;;;;;;;;;;;;x
 d_tao;Tao;;;;;;;;;;;;x
 d_caspian_steppe;Caspian Steppe;;;;;;;;;;;;x
 d_atyrau;Atyrau;;;;;;;;;;;;x
@@ -17269,24 +17269,24 @@ tr_gold_mine_2;Gold Mine;;;;;;;;;;;;x
 tr_salt_mine_1;Salt Mine;;;;;;;;;;;;x
 ACTIVE_TRADE_ROUTE_MODIFIER;\nThe Trade Route gives the following effects:\n$MODIFIER$\n\nTrade posts built in Trade Route counties increase the modifier for all provinces. If some Trade Route provinces are blocked (by siege or occupation), other Trade Route provinces temporarily get a higher bonus as trade is redirected.;;;;;;;;;;;;x
 INACTIVE_TRADE_ROUTE_MODIFIER;\nIf active, the Trade Route would give the following effects:\n$MODIFIER$\n\nTrade posts built in Trade Route counties increase the modifier for all provinces. If some Trade Route provinces are blocked (by siege or occupation), other Trade Route provinces temporarily get a higher bonus as trade is redirected.;;;;;;;;;;;;x
-BUILD_TRADE_POST_DESC;Trade Posts can be built for §Y$COST$§!¤ along the coasts by Patrician families in Merchant Republics - even in foreign territory. However, any local ruler is also allowed to build Trade Posts in their counties if a Trade Route happens to pass through. (See the §YTrade Zones§! map mode.);;;;;;;;;;;;x
-BUILD_PRESTIGE_OR_PIETY_TRADE_POST_DESC;Trade Posts can be built for §Y$COST$§! along the coasts by Patrician families in Merchant Republics - even in foreign territory. However, any local ruler is also allowed to build Trade Posts in their counties if a Trade Route happens to pass through. (See the §YTrade Zones§! map mode.);;;;;;;;;;;;x
-coptic;Coptic;;;;;;;;;;;;x
+BUILD_TRADE_POST_DESC;贸易站可以由商业共和国内的贵人家族在海岸边花费 §Y$COST$§!¤ 建造——即使是在外国疆域上.但如果有商路经过，任何本地统治者也可以在其经过的省份建造贸易站.（请查看§Y贸易区§!地图模式.）;;;;;;;;;;;;x
+BUILD_PRESTIGE_OR_PIETY_TRADE_POST_DESC;贸易站可以由商业共和国内的贵人家族在海岸边花费 §Y$COST$§! 建造——即使是在外国疆域上.但如果有商路经过，任何本地统治者也可以在其经过的省份建造贸易站.（请查看§Y贸易区§!地图模式.）;;;;;;;;;;;;x
+coptic;科普特;;;;;;;;;;;;x
 RETTYPE_CUL_COPTIC;[coptic.GetName] Matoei;;;;;;;;;;;;x
-ca_culture_coptic_1;[coptic.GetName] Spearmen;;;;;;;;;;;;x
-ca_culture_coptic_2;[coptic.GetName] Spearmen;;;;;;;;;;;;x
-ca_culture_coptic_3;[coptic.GetName] Spearmen;;;;;;;;;;;;x
-ca_culture_coptic_4;[coptic.GetName] Spearmen;;;;;;;;;;;;x
-tb_culture_coptic_1;[coptic.GetName] Spearmen;;;;;;;;;;;;x
-tb_culture_coptic_2;[coptic.GetName] Spearmen;;;;;;;;;;;;x
-tb_culture_coptic_3;[coptic.GetName] Spearmen;;;;;;;;;;;;x
-tb_culture_coptic_4;[coptic.GetName] Spearmen;;;;;;;;;;;;x
+ca_culture_coptic_1;[coptic.GetName]枪兵;;;;;;;;;;;;x
+ca_culture_coptic_2;[coptic.GetName]枪兵;;;;;;;;;;;;x
+ca_culture_coptic_3;[coptic.GetName]枪兵;;;;;;;;;;;;x
+ca_culture_coptic_4;[coptic.GetName]枪兵;;;;;;;;;;;;x
+tb_culture_coptic_1;[coptic.GetName]枪兵;;;;;;;;;;;;x
+tb_culture_coptic_2;[coptic.GetName]枪兵;;;;;;;;;;;;x
+tb_culture_coptic_3;[coptic.GetName]枪兵;;;;;;;;;;;;x
+tb_culture_coptic_4;[coptic.GetName]枪兵;;;;;;;;;;;;x
 ca_culture_coptic_1_desc;These barracks provide [coptic.GetName] rulers with a strong force of spearmen to hold a defensive line against the enemy.;;;;;;;;;;;;x
-RETTYPE_CUL_ASSYRIAN;[assyrian.GetName] Warriors;;;;;;;;;;;;x
-ca_culture_assyrian_1;[assyrian.GetName] Infantry;;;;;;;;;;;;x
-ca_culture_assyrian_2;[assyrian.GetName] Infantry;;;;;;;;;;;;x
-ca_culture_assyrian_3;[assyrian.GetName] Infantry;;;;;;;;;;;;x
-ca_culture_assyrian_4;[assyrian.GetName] Infantry;;;;;;;;;;;;x
+RETTYPE_CUL_ASSYRIAN;[assyrian.GetName]战士;;;;;;;;;;;;x
+ca_culture_assyrian_1;[assyrian.GetName]步兵;;;;;;;;;;;;x
+ca_culture_assyrian_2;[assyrian.GetName]步兵;;;;;;;;;;;;x
+ca_culture_assyrian_3;[assyrian.GetName]步兵;;;;;;;;;;;;x
+ca_culture_assyrian_4;[assyrian.GetName]步兵;;;;;;;;;;;;x
 ca_culture_assyrian_1_desc;These barracks provide [assyrian.GetName] ruler with a strong force of infantry, capable of both offensive and defensive battles.;;;;;;;;;;;;x
 central_african;中非人;;;;;;;;;;;;x
 kanuri;卡努里人;;;;;;;;;;;;x
