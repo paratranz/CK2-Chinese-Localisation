@@ -228,8 +228,8 @@ NOT_SHATTERED_WORLD_TRIGGER;非破碎世界;;;;;;;;;;;;x
 SHATTERED_WORLD_TRIGGER;一个破碎的世界;;;;;;;;;;;;x
 NOT_ALTERNATE_START_SETTING_TRIGGER;$SETTING|Y$设置不符合给定的参数;;;;;;;;;;;;x
 ALTERNATE_START_SETTING_TRIGGER;$SETTING|Y$设置符合给定的参数;;;;;;;;;;;;x
-NOT_ALTERNATE_START_PARAMETER_TRIGGER;The $KEY|Y$ parameter does NOT have the value $VALUE|Y$ set;;;;;;;;;;;;x
-ALTERNATE_START_PARAMETER_TRIGGER;The $KEY|Y$ parameter has the value $VALUE|Y$ set;;;;;;;;;;;;x
+NOT_ALTERNATE_START_PARAMETER_TRIGGER;参数$KEY|Y$没有价格$VALUE|Y$设定;;;;;;;;;;;;x
+ALTERNATE_START_PARAMETER_TRIGGER;参数$KEY|Y$有价格$VALUE|Y$设定;;;;;;;;;;;;x
 SHATTERED_REQUIRES_HOLY_FURY;§R这个存档基于破碎世界创建，需要神圣之怒DLC来继续游戏。§!;;;;;;;;;;;;x
 setting_female_ruler_percentage;女性统治者比例;;;;;;;;;;;;x
 setting_female_ruler_percentage_tooltip;确定每个生成的统治者是女性的机率。;;;;;;;;;;;;x
@@ -335,8 +335,8 @@ OBSERVER;观察者;;;;;;;;;;;;x
 LEDGER_HEADER_KILL_LIST;击杀名单;;;;;;;;;;;;x
 LEDGER_NUM_KILLED_CHARACTER;击杀数量;;;;;;;;;;;;x
 LEDGER_CHARACTER_HAS_KILLED;$NAME$杀死了：;;;;;;;;;;;;x
-ANY_KILL_LIST_CHARACTER_START;任何在杀人榜上的角色：;;;;;;;;;;;;x
-ALL_KILL_LIST_CHARACTER;所有在杀人榜上的角色：;;;;;;;;;;;;x
+ANY_KILL_LIST_CHARACTER_START;任何在杀人清单上的角色：;;;;;;;;;;;;x
+ALL_KILL_LIST_CHARACTER;所有在杀人清单上的角色：;;;;;;;;;;;;x
 KILL_LIST_INTERFACE_LABEL;§Y杀人数§!;;;;;;;;;;;;x
 HAS_NO_KILLS;该角色不是一位已知的谋杀者。;;;;;;;;;;;;x
 HolyFuryDLC;神圣之怒;;;;;;;;;;;;x
@@ -504,32 +504,32 @@ EVTOPTAHF20035;我将对我[GetFromRelation]的意愿保持忠诚;;;;;;;;;;;;x
 EVTOPTBHF20035;[From.GetSheHeCap]总是一个顽固的蠢货;;;;;;;;;;;;x
 EVTDESCHF20036;为了帮助我的臣民更好的理解他们作为皈依[sponsoring_king.Religion.GetName]者的新职责，[sponsoring_king.GetTitledFirstName]已经派出一名博学的牧师前往[Root.Capital.GetName]。他将对宫廷起到很大的帮助。;;;;;;;;;;;;x
 EVTOPTAHF20036;欢迎来到[Root.PrimaryTitle.GetName]！;;;;;;;;;;;;x
-EVTDESCHF20039;It has been some time since the great ceremony. \nMy conversion to the [Root.Religion.GetName] faith has been an eye-opening experience. Abandoning the old gods has made me realize how much more purpose my life can have while serving [Root.Religion.GetHighGodName]. Everyday I am amazed by how different everything looks through my new [Root.Religion.GetName] perspective...;;;;;;;;;;;;x
+EVTDESCHF20039;自从那场盛大仪式开始已经过了一段时间。\n皈依[Root.Religion.GetName]信仰的经历令我眼界大开。抛弃旧神使我意识到在侍奉[Root.Religion.GetHighGodName]时，我的人生会有多大的目标。每一天我都惊讶于我的新[Root.Religion.GetName]带来的种种观点上的不同……;;;;;;;;;;;;x
 EVTOPTAHF20039;我一定要接纳这新获得的信仰。;;;;;;;;;;;;x
 EVTOPTBHF20039;但是我改信主要是为了政治理由。;;;;;;;;;;;;x
-EVTDESCHF20040;对集体改信思之愈多，愈多的困扰折磨我心。[sponsoring_king.GetTitledFirstName]的祭司们建造了一个壮丽的奇观，但是即使你的整个王国都改信了，也没有神迹发生，没有神示来奖励你的成就。农民们依旧在田里劳作，首领们依旧在互相争斗。\n毫无改变。;;;;;;;;;;;;x
+EVTDESCHF20040;我愈思考那场盛大的转信仪式，我就愈发怀疑我的内心。[sponsoring_king.GetTitledFirstName]的教士们举办了一场不错的表演，但即使整个王国转信后，也没有任何神迹和神启来褒奖你的成就。农民仍旧在田间劳作，首领们仍旧彼此争吵不休。\n什么变化也没有。;;;;;;;;;;;;x
 EVTOPTAHF20040;为何[Root.Religion.GetHighGodName]不曾与我交谈？;;;;;;;;;;;;x
 EVTOPTBHF20040;我绝对不能动摇，神迹将会出现。;;;;;;;;;;;;x
-EVTDESCHF20041;Becoming a [Root.Religion.GetName] has forced me to rethink a lot of my life choices. \nMy conversion will have been for nothing if I do not strive to better serve [Root.Religion.GetHighGodName] and my [Root.Religion.GetName] subjects.;;;;;;;;;;;;x
+EVTDESCHF20041;成为一名[Root.Religion.GetName]迫使我重新思考我人生中的诸多选择。\n如果我不致力于更好的侍奉[Root.Religion.GetHighGodName]和我[Root.Religion.GetName]的属民，我的皈依将是徒劳的。;;;;;;;;;;;;x
 EVTOPTAHF20041;我应当对我的臣民们做更多的事。;;;;;;;;;;;;x
 EVTOPTBHF20041;[Root.Religion.GetHighGodName]不希望我们成为只会服侍他的软弱的仆人。;;;;;;;;;;;;x
 EVTDESCHF20042;自集体改信那天起，我已经花了很多时间向[sponsoring_king.GetTitledFirstName]的牧师学习更多关于我新接受的信仰的知识。\n这些老人日夜不休的布道让我认识到我对[Root.Religion.GetRandomGodName]以及作为一个[Root.Religion.GetName]所背负的新的职责有多么的知之甚少。;;;;;;;;;;;;x
 EVTOPTAHF20042;我真的什么都不懂。;;;;;;;;;;;;x
 EVTOPTBHF20042;我确信有很多事情牧师们也不知道。;;;;;;;;;;;;x
-EVTDESCHF20043;I have had a lot of time to meditate about [Root.Religion.GetHighGodName] since my conversion. \nKnowing that I still have to prove myself before my new protector has filled me with a divine resolve to test my mettle against the infidels.;;;;;;;;;;;;x
-EVTOPTAHF20043;And test it I shall!;;;;;;;;;;;;x
+EVTDESCHF20043;自从我皈依以来，我有了更多时间去思考有关[Root.Religion.GetHighGodName]的事情。\n在我的新庇护者使我充满神圣的决心去考验我对抗异教徒的勇气之前，我意识到我仍要证明自己。;;;;;;;;;;;;x
+EVTOPTAHF20043;而且我必须完成考验！;;;;;;;;;;;;x
 EVTOPTBHF20043;倘若我死了，我该怎么为[Root.Religion.GetHighGodName]服务？;;;;;;;;;;;;x
 EVTDESCHF20044;从集体改信那天起，我已经花了很多时间向[sponsoring_king.GetTitledFirstName]的牧师们学习更多关于我新接受的信仰的知识。如果说有一件事他们能达成共识，那就是定期地、慷慨地将我大部分的物质财富投资在新确立的宗教中将多么有益于拯救我的灵魂。;;;;;;;;;;;;x
 EVTOPTAHF20044;也许我应该更加慷慨...;;;;;;;;;;;;x
-EVTOPTBHF20044;I doubt any of my possessions are worthy of [Root.Religion.GetRandomGodName].;;;;;;;;;;;;x
+EVTOPTBHF20044;我怀疑我拥有的一切都配不上[Root.Religion.GetRandomGodName]。;;;;;;;;;;;;x
 EVTDESCHF20045;从集体改信那天起，我已经花了很多时间向[sponsoring_king.GetTitledFirstName]的牧师们学习更多关于我新接受的信仰的知识。\n在[Root.GetHouse]度过的一直远离奢侈生活的日子让我限制自己每天只吃两顿很少的饭菜。;;;;;;;;;;;;x
 EVTOPTAHF20045;尽管如此，我必须忍受。;;;;;;;;;;;;x
 EVTOPTBHF20045;面包和水就够了！;;;;;;;;;;;;x
-EVTDESCHF20046;There is still much that I have to learn about being a [Root.Religion.GetName], but, thanks to the help of [sponsoring_king.GetTitledFirstName]'s priests, I feel I am every day a little closer to understanding how to properly serve [Root.Religion.GetHighGodName].;;;;;;;;;;;;x
+EVTDESCHF20046;关于成为一名[Root.Religion.GetName]我还有许多东西要学习，但是，多亏了[sponsoring_king.GetTitledFirstName]的教士们的帮助，每天我都能更深一步的理解如何正确地侍奉[Root.Religion.GetHighGodName]。;;;;;;;;;;;;x
 EVTOPTAHF20046;我还有很多关于新信仰的知识要学...;;;;;;;;;;;;x
-EVTDESCHF20047;Although the great conversion of [converting_king.PrimaryTitle.GetName] was a success, my work to help [converting_king.GetTitledFirstName]'s savage people to turn them into proper [Root.Religion.GetName] converts is not done yet.;;;;;;;;;;;;x
+EVTDESCHF20047;尽管[converting_king.PrimaryTitle.GetName]的盛大转信仪式已经成功了，但是我帮助那些[converting_king.GetTitledFirstName]的野蛮民众转变为正确的[Root.Religion.GetName]皈依者的工作还尚未完成;;;;;;;;;;;;x
 EVTOPTAHF20047;一座新的教堂正是他们所需要的。;;;;;;;;;;;;x
-EVTTOOLTIPAHF20047;Contact §Y[converting_king.GetTitledFirstName]§! to inform [converting_king.GetHerHim] that you would like to fund the construction of a new church within [converting_king.GetHerHis] lands.;;;;;;;;;;;;x
+EVTTOOLTIPAHF20047;联系 §Y[converting_king.GetTitledFirstName]§! 告知 [converting_king.GetHerHim] 你想在 [converting_king.GetHerHis] 的土地上投资一座新的教堂.;;;;;;;;;;;;x
 EVTOPTBHF20047;金钱总是有用的。;;;;;;;;;;;;x
 EVTTOOLTIPBHF20047;把钱交给§Y[converting_king.GetTitledFirstName]§!来帮助[converting_king.GetHerHim]在§Y[converting_king.PrimaryTitle.GetName]§!所做的传教工作。;;;;;;;;;;;;x
 EVTOPTCHF20047;我应该给他们派遣更多的牧师。;;;;;;;;;;;;x
@@ -575,9 +575,9 @@ EVTOPTAHF20064;我们将为[FromFrom.GetHerHim]大摆筵席，以示欢迎。;;;
 EVTOPTBHF20064;一场欢迎游戏就足够了。;;;;;;;;;;;;x
 EVTOPTCHF20064;我们只能用一顿廉价的饭对付过去了。;;;;;;;;;;;;x
 EVTOPTDHF20064;我们没办法用任何东西来支付。;;;;;;;;;;;;x
-EVTDESCHF20065;Traveling to the tribal realm of [From.PrimaryTitle.GetName] has been a reinvigorating experience for me. With only a small escort, I have left the familiar sights of my homeland to visit a more savage region of the known world, only to help spread the word of [Root.Religion.GetHighGodName]. I cannot wait to witness the effects of the mass conversion on [From.GetTitledFirstName] and [From.GetHerHis] subjects.;;;;;;;;;;;;x
+EVTDESCHF20065;对我来说，这趟去往[From.PrimaryTitle.GetName]部落的旅途着实是振奋人心的。在几个武装人员的简单护卫下，我离开了熟悉的故乡，前往未知世界的蛮荒地域，旨在将[Root.Religion.GetHighGodName]的福音播撒在这片陌生的土地上。我已经迫不及待地想见证[From.GetTitledFirstName]同[From.GetHerHis]臣属大规模改信了。;;;;;;;;;;;;x
 EVTOPTAHF20065;向前！向前！向前！;;;;;;;;;;;;x
-EVTDESCHF20066;[From.GetTitledFirstName]'s party has finally been spotted in my provinces. Though [From.GetSheHe] knows the way to [Root.Capital.GetName], it might help to have somebody go meet up with [From.GetHerHim] and officially welcome [From.GetHerHim] to [Root.PrimaryTitle.GetName].;;;;;;;;;;;;x
+EVTDESCHF20066;[From.GetTitledFirstName]的派系最终在我的省份被发现了。 虽然[From.GetSheHe]知道通往[Root.Capital.GetName]的途径，某些人也许可以帮助与[From.GetHerHim]见面并正式欢迎[From.GetHerHim]到[Root.PrimaryTitle.GetName]。;;;;;;;;;;;;x
 EVTOPTAHF20066;I shall go myself, alongside [convert_lord_spiritual.GetTitledName].;;;;;;;;;;;;x
 EVTOPTBHF20066;我会亲自去会见[From.GetHerHim]的。;;;;;;;;;;;;x
 EVTOPTCHF20066;[convert_lord_spiritual.GetTitledName]将会和[From.GetHerHim]见面。;;;;;;;;;;;;x
@@ -600,23 +600,23 @@ EVTDESCCHF20069;Despite sending one of [From.GetHerHis] own countrymen to meet [
 EVTDESCDHF20069;According to my courtiers' reports, [From.GetTitledFirstName] looked quite displeased to not see me ride out to welcome [From.GetHerHim] officially. Hopefully I will have other chances to make up for the less than ideal start.;;;;;;;;;;;;x
 EVTOPTAHF20069;甚为不幸;;;;;;;;;;;;x
 EVTDESCAHF20070;在抵达[From.GetTitledFirstName]的宫殿后，我欣喜地发现宫殿的主人已经为我和我的随从准备好了丰富的食物和各种娱乐项目。[From.GetTitledFirstName]和[From.GetHerHis]酋长给我们讲了他们的部落和传奇祖先的历史，这让我们在剩余的夜晚都沉浸在欢乐之中。;;;;;;;;;;;;x
-EVTDESCBHF20070;My arrival at [From.Capital.GetName] was graced by sumptuous parade organized by [From.GetTitledFirstName] in my honor. Watching the lines of warriors and chieftains chanting and marching through the street to lead me to my host's palace was quite the spectacle.;;;;;;;;;;;;x
+EVTDESCBHF20070;[From.GetTitledFirstName]为我的到来而准备的盛大阅兵仪式让我在抵达[From.Capital.GetName]时感到无比荣耀。一列列的战士与酋长一路高歌着带领我去主人家宫殿的场景真的是非常壮观。;;;;;;;;;;;;x
 EVTDESCCHF20070;当我发现主人家为我的到来只组织了一场小宴会时，我感到有些不悦。尽管在长途跋涉后能吃到一些还不错的食物让我感到欣慰，但这实在不像一个为[Root.GetTitle]准备的宴会。;;;;;;;;;;;;x
-EVTDESCDHF20070;I was not happy to discover that my host had not prepared anything for my arrival at [From.Capital.GetName]. Especially after the long travel, I was hoping to have at least some decent food, rather than be shown immediately to my chambers.;;;;;;;;;;;;x
-EVTOPTAHF20070;Not bad. Not bad at all.;;;;;;;;;;;;x
-EVTOPTDHF20070;I suppose it is passable at least...;;;;;;;;;;;;x
-EVTOPTCHF20070;A warm bed is all I need right now.;;;;;;;;;;;;x
-EVTOPTBHF20070;This is not what I expected.;;;;;;;;;;;;x
+EVTDESCDHF20070;当我发现主人家并未为我抵达[From.Capital.GetName]做任何准备的时候，我感到不悦。尤其是在经历了长途跋涉后，我希望至少能有一些体面的食物，而不是直接到我到我的居所。;;;;;;;;;;;;x
+EVTOPTAHF20070;不错。这很好。;;;;;;;;;;;;x
+EVTOPTDHF20070;我希望这至少能凑合一下……;;;;;;;;;;;;x
+EVTOPTCHF20070;如今我唯一想要的就是一张温暖的床。;;;;;;;;;;;;x
+EVTOPTBHF20070;这出乎我的预料。;;;;;;;;;;;;x
 EVTDESCAHF20071;看来我用丰盛的宴席给[From.GetTitledFirstName]留下深刻印象的努力并没有徒劳：对当晚提供的食物和款待，我的客人看起来非常满意。;;;;;;;;;;;;x
 EVTDESCBHF20071;Looks like my efforts to impress [From.GetTitledFirstName] with a great parade in [From.GetHerHis] honor were not in vain: my guest looked very satisfied of the spectacle I provided for the evening.;;;;;;;;;;;;x
 EVTDESCCHF20071;Despite my lack of preparation, [From.GetTitledFirstName] did not look too upset to see that I had only prepared a meager feast for [From.GetHerHis] arrival. Perhaps, after the hardships of the travel, [From.GetSheHe] was just happy to finally sleep under a roof.;;;;;;;;;;;;x
 EVTDESCDHF20071;Despite my lack of preparation, [From.GetTitledFirstName] did not look too upset to see that I had nothing prepared for [From.GetHerHis] arrival. Perhaps, after the hardships of the travel, [From.GetSheHe] was just happy to finally sleep under a roof.;;;;;;;;;;;;x
-EVTOPTAHF20071;Good.;;;;;;;;;;;;x
+EVTOPTAHF20071;不错。;;;;;;;;;;;;x
 EVTDESCAHF20072;Despite my best efforts, [From.GetTitledFirstName] did not look pleased by the feast I had prepared for [From.GetHerHim]. After eating only a little, [From.GetSheHe] excused [From.GetHerselfHimself] and retired to [From.GetHerHis] assigned chambers.;;;;;;;;;;;;x
 EVTDESCBHF20072;Despite my best efforts, [From.GetTitledFirstName] did not look pleased by the parade I had prepared for [From.GetHerHim]. After watching the spectacle only for a while, [From.GetSheHe] excused [From.GetHerselfHimself] and retired to [From.GetHerHis] assigned chambers.;;;;;;;;;;;;x
 EVTDESCCHF20072;Unfortunately, it appears that my lack of effort in the preparation for [From.GetTitledFirstName]'s welcoming feast did not go unnoticed. The [From.GetTitle] of [From.PrimaryTitle.GetName] looked clearly upset to be presented with little food and no entertainment.;;;;;;;;;;;;x
 EVTDESCDHF20072;Predictably, the complete lack of preparation for [From.GetTitledFirstName]'s arrival did not go unnoticed. The [From.GetTitle] of [From.PrimaryTitle.GetName] was quite upset to discover no feast nor celebration had been organized for [From.GetHerHis] arrival.;;;;;;;;;;;;x
-EVTOPTAHF20072;What was [From.GetSheHe] expecting?;;;;;;;;;;;;x
+EVTOPTAHF20072;[From.GetSheHe]要求什么？;;;;;;;;;;;;x
 EVTDESCAHF20073;Having [FromFrom.GetTitledFirstName] in my court for a few days presents me with a great opportunity to strengthen the relationship between our realms. If I could convince [FromFrom.GetHerHim] that [Root.PrimaryTitle.GetName] is a civilized and respectable realm, [FromFrom.GetSheHe] might decide that it is in [FromFrom.GetHerHis] best interests to strengthen our alliance.;;;;;;;;;;;;x
 EVTOPTAHF20073;我会跟[FromFrom.GetHerHim]聊聊我呢别的法律与习俗。;;;;;;;;;;;;x
 EVTOPTBHF20073;我会跟[FromFrom.GetHerHim]聊聊我们的军事力量。;;;;;;;;;;;;x
@@ -626,54 +626,54 @@ EVTDESCAHF20074;As days pass by in [From.Capital.GetName] I am more and more sur
 EVTDESCBHF20074;As days pass by in [From.Capital.GetName] I am more and more surprised by strength and complex hierarchy of [From.PrimaryTitle.GetName]'s army. [From.GetTitledFirstName] has revealed [From.GetHerselfHimself] to be a distinguished and honorable warrior, very unlike the primitive chieftain I initially thought [From.GetHerHim] to be. It is clear to me now that helping [From.GetHerHim] to convert [From.PrimaryTitle.GetName] was not a wasted effort.;;;;;;;;;;;;x
 EVTDESCCHF20074;As days pass by in [From.Capital.GetName] I am more and more surprised by the complexity of the laws and customs of the locals. [From.GetTitledFirstName] has revealed [From.GetHerselfHimself] to be a distinguished and civilized ruler, very unlike the primitive chieftain I initially thought [From.GetHerHim] to be. It is clear to me now that helping [From.GetHerHim] to convert [From.PrimaryTitle.GetName] was not a wasted effort.;;;;;;;;;;;;x
 EVTDESCDHF20074;As days pass by in [From.Capital.GetName] I am more and more surprised by how eagerly and thoroughly have the locals embraced their new religion. [From.GetTitledFirstName] has revealed [From.GetHerselfHimself] to be a pious and devout [From.Religion.GetName], very unlike the primitive chieftain I initially thought [From.GetHerHim] to be. It is clear to me now that helping [From.GetHerHim] to convert [From.PrimaryTitle.GetName] was not a wasted effort.;;;;;;;;;;;;x
-EVTOPTAHF20074;Very impressive.;;;;;;;;;;;;x
+EVTOPTAHF20074;非常令人难忘。;;;;;;;;;;;;x
 EVTDESCAHF20075;As days pass by in [From.Capital.GetName] I am becoming more and more convinced that the people of [From.PrimaryTitle.GetName] must have converted to the [Root.Religion.GetName] faith in name only. Despite my host's tireless efforts to convince me that [From.GetSheHe] is the ruler of a civilized and respectable realm, what I see is still a band of washed-up savages.;;;;;;;;;;;;x
 EVTDESCBHF20075;As days pass by in [From.Capital.GetName] I am becoming more and more convinced that the people of [From.PrimaryTitle.GetName] must have converted to the [Root.Religion.GetName] faith in name only. Despite my host's tireless efforts to convince me that [From.GetSheHe] is the ruler of a civilized and respectable realm, what I see is still a band of washed-up savages.;;;;;;;;;;;;x
 EVTDESCCHF20075;As days pass by in [From.Capital.GetName] I am becoming more and more convinced that the people of [From.PrimaryTitle.GetName] must have converted to the [Root.Religion.GetName] faith in name only. Despite my host's tireless efforts to convince me that [From.GetSheHe] is the ruler of a civilized and respectable realm, what I see is still a band of washed-up savages.;;;;;;;;;;;;x
 EVTDESCDHF20075;As days pass by in [From.Capital.GetName] I am becoming more and more convinced that the people of [From.PrimaryTitle.GetName] must have converted to the [Root.Religion.GetName] faith in name only. Despite my host's tireless efforts to convince me that [From.GetSheHe] is the ruler of a civilized and respectable realm, what I see is still a band of washed-up savages.;;;;;;;;;;;;x
-EVTOPTAHF20075;How disappointing.;;;;;;;;;;;;x
+EVTOPTAHF20075;真是令人失望。;;;;;;;;;;;;x
 visit_sponsor_impressed;§Y[From.GetTitledFirstName]§! has managed to build a decent amount of goodwill with your realm during this short visit.;;;;;;;;;;;;x
 visit_sponsor_not_impressed;§Y[From.GetTitledFirstName]§! has failed to create any decent amount of goodwill with your realm during this short visit.;;;;;;;;;;;;x
 EVTDESCDHA20076;Thanks to my continuous efforts, I seem to have convinced [From.GetTitledFirstName] that [Root.PrimaryTitle.GetName] is a respectable and powerful realm, one that no [From.Religion.GetName] [From.GetTitle] would be ashamed to call an ally.\nWith [From.GetHerHis] visit nearing its end, this might be my last chance to ensure the continued alliance of our two realms.;;;;;;;;;;;;x
 EVTOPTAHF20076;Propose an alliance by marriage with [From.GetTitledFirstName].;;;;;;;;;;;;x
 EVTOPTBHF20076;Confess my love for [From.GetTitledFirstName].;;;;;;;;;;;;x
 EVTOPTCHF20076;Ask to become [From.GetTitledFirstName]'s friend.;;;;;;;;;;;;x
-EVTOPTDHF20076;Ask for nothing.;;;;;;;;;;;;x
+EVTOPTDHF20076;什么都不要。;;;;;;;;;;;;x
 EVTDESCDHA20077;Despite my continuous efforts to prove otherwise, I have been unable to convince [From.GetTitledFirstName] that [Root.PrimaryTitle.GetName] is a respectable and powerful realm, one that has abandoned its tribal roots entirely.\nYet, with [From.GetHerHis] visit nearing its end, this might be my last chance to ensure the continued alliance of our two realms.;;;;;;;;;;;;x
 EVTOPTAHF20077;Propose a marriage alliance with [From.GetTitledFirstName].;;;;;;;;;;;;x
 EVTOPTBHF20077;Confess my love for [From.GetTitledFirstName].;;;;;;;;;;;;x
 EVTOPTCHF20077;Ask to become [From.GetTitledFirstName]'s friend.;;;;;;;;;;;;x
-EVTOPTDHF20077;Ask for nothing.;;;;;;;;;;;;x
+EVTOPTDHF20077;什么都不要。;;;;;;;;;;;;x
 EVTDESCDHA20078;Only a few days before my departure from [From.Capital.GetName], [From.GetTitledFirstName] has surprised me with a bold request: [From.GetSheHe] wishes to bind [From.GetHerHis] realm with mine by marrying me.;;;;;;;;;;;;x
-EVTOPTAHF20078;Why not?;;;;;;;;;;;;x
+EVTOPTAHF20078;为什么不呢？;;;;;;;;;;;;x
 EVTOPTBHF20078;I am afraid I have other plans.;;;;;;;;;;;;x
 EVTDESCDHA20079;Only a few days before my departure from [From.Capital.GetName], [From.GetTitledFirstName] graces me with an unexpected private meeting in my chambers. After hesitating about the subject of [From.GetHerHis] visit for a while, the [From.GetTitle] of [From.PrimaryTitle.GetName] finally confesses that, during these past days, [From.GetSheHe] has developed a deep affection for me and wishes to know if I feel the same about [From.GetHerHim].;;;;;;;;;;;;x
 EVTOPTAHF20079;Of course I love you too!;;;;;;;;;;;;x
-EVTOPTBHF20079;No, I do not.;;;;;;;;;;;;x
+EVTOPTBHF20079;不，我不会做的。;;;;;;;;;;;;x
 EVTDESCDHA20080;With only a few days left before my departure from [From.Capital.GetName], [From.GetTitledFirstName] took some time during our last dinner together to ask me if, after learning more about [From.GetHerHim] and [From.GetHerHis] realm, I have come to consider [From.GetHerHim] a friend.;;;;;;;;;;;;x
 EVTOPTBHF20080;We're more like acquaintances...;;;;;;;;;;;;x
 EVTDESCDHA20081;With only a few days left before my departure from [From.Capital.GetName], [From.GetTitledFirstName] took some time during our last dinner together to tell me how honored [From.GetSheHe] was to host a guest as distinguished as myself and that [From.GetSheHe] hopes this will not be the last time we meet.;;;;;;;;;;;;x
 EVTOPTAHF20081;I assure you, the honor was indeed all yours.;;;;;;;;;;;;x
 EVTDESCDHA20082;[From.GetTitledFirstName] was thrilled by my marriage proposal, so much so that [From.GetSheHe] insisted we organized the ceremony in [Root.Capital.GetName] immediately. With this union, an alliance between [From.PrimaryTitle.GetName] and [Root.PrimaryTitle.GetName] has been ensured for years to come.;;;;;;;;;;;;x
-EVTOPTAHF20082;Marvelous.;;;;;;;;;;;;x
+EVTOPTAHF20082;不可思议啊。;;;;;;;;;;;;x
 EVTDESCDHA20083;Unfortunately, [From.GetTitledFirstName] politely rejected my proposal before excusing [From.GetHerselfHimself] and leaving. With [From.GetHerHis] refusal the chance to bind our realms together permanently has passed me by.;;;;;;;;;;;;x
 EVTOPTAHF20083;Maybe [From.GetSheHe] will change [From.GetHerHis] mind in the future.;;;;;;;;;;;;x
 EVTDESCDHA20084;I was relieved to hear that [From.GetTitledFirstName] does reciprocates my feelings for [From.GetHerHim]. We spent our last night together consuming our passion, thus ensuring the continued alliance between our two realms, just in time for [From.GetHerHis] departure.;;;;;;;;;;;;x
-EVTOPTAHF20084;See you soon, my love!;;;;;;;;;;;;x
+EVTOPTAHF20084;回见了，我的爱人。;;;;;;;;;;;;x
 EVTDESCDHA20085;Unfortunately, [From.GetTitledFirstName] politely rejected my advances before excusing [From.GetHerselfHimself] and leaving. With [From.GetHerHis] refusal the chance to bind our realms together permanently has passed me by.;;;;;;;;;;;;x
-EVTOPTAHF20085;It was not meant to be.;;;;;;;;;;;;x
+EVTOPTAHF20085;不是这个意思。;;;;;;;;;;;;x
 EVTDESCDHA20086;I was glad to hear that [From.GetTitledFirstName] considers [From.GetHerselfHimself] a friend of [Root.PrimaryTitle.GetName], just as I consider myself a friend of [From.PrimaryTitle.GetName]. Hopefully, our relationship will ensure a peaceful and prosperous future for both our realms.;;;;;;;;;;;;x
 EVTOPTAHF20086;As long as we both live, at least.;;;;;;;;;;;;x
 EVTDESCDHA20087;Unfortunately, despite [From.GetHerHis] attempts to assure me that we are not enemies, I remain doubtful of [From.GetTitledFirstName]'s friendship. I am afraid our realms may not remain at peace for long.;;;;;;;;;;;;x
-EVTOPTAHF20087;That is a shame.;;;;;;;;;;;;x
+EVTOPTAHF20087;耻辱啊。;;;;;;;;;;;;x
 EVTDESCDHA20088;It has finally come the time for the [From.GetTitle] of [From.PrimaryTitle.GetName] to leave [Root.Capital.GetName] and return to [From.GetHerHis] realm. I can only hope that, during [From.GetHerHis] visit, [From.GetTitledFirstName] has come to appreciate me and my people and that [From.GetSheHe] will now see us as more than simple tribal converts.;;;;;;;;;;;;x
-EVTOPTAHF20088;Only time will tell...;;;;;;;;;;;;x
+EVTOPTAHF20088;只有时间才能够回答......;;;;;;;;;;;;x
 EVTDESCDHA20089;The time has finally come for me to leave [From.Capital.GetName] and return to my own realm. Living with [From.GetTitledFirstName]'s tribes was certainly an interesting experience. By going to personally meet the new converts, I truly have done everything in my power to put these pagans on the right path.;;;;;;;;;;;;x
 EVTOPTAHF20089;I truly am a pious [Root.GetTitle].;;;;;;;;;;;;x
 CHRONICLE_SPONSOR_VISIT;[sponsoring_king.GetTitledName] decided to travel to [converting_king.PrimaryTitle.GetName] in order to meet [converting_king.GetTitledFirstName] and witness the effects of the mass conversion of [converting_king.GetHerHis] realm in the aftermath of the great ceremony.;;;;;;;;;;;;x
 EVTTITLE20090;The Conversion of [converting_king.PrimaryTitle.GetName];;;;;;;;;;;;x
 EVTDESCHFA20090;The tribes of [converting_king.PrimaryTitle.GetName] have been converted to the [sponsoring_king.Religion.GetName] faith. A group of priests sent by the [sponsoring_king.GetTitle] of [sponsoring_king.PrimaryTitle.GetName] have performed a great ritual during which they have converted the entire population of [converting_king.PrimaryTitle.GetName] alongside [converting_king.GetTitledFirstName] and many of [converting_king.GetHerHis] vassals.\nWith this act, the people of [converting_king.PrimaryTitle.GetName] have once and for all forsaken their old pagan gods.;;;;;;;;;;;;x
-EVTOPTAHF20090;Interesting...;;;;;;;;;;;;x
+EVTOPTAHF20090;有趣......;;;;;;;;;;;;x
 EVTOPTBHF20090;[Root.Religion.GetHighGodName] has finally touched them.;;;;;;;;;;;;x
 crowned_by_priest;Crowned by a Bishop;;;;;;;;;;;;x
 crowned_by_bishop;Crowned by [Root.GetCrownedByName];;;;;;;;;;;;x
@@ -2879,7 +2879,7 @@ EVTDESCHFPA20019;I submit myself to the forgiving embrace of Our Lord, ready to 
 EVTOPTAHFP20019;我会捐款。;;;;;;;;;;;;x
 EVTOPTBHFP20019;在上帝面前我会保持谦卑。;;;;;;;;;;;;x
 EVTOPTCHFP20019;I will confess all my sins.;;;;;;;;;;;;x
-EVTOPTDHFP20019;I need not do anything, for I am already pure.;;;;;;;;;;;;x
+EVTOPTDHFP20019;我什么都不用做，因为我已经很纯洁了。;;;;;;;;;;;;x
 EVTDESCHFPA20020;As I took in the holy communion, a surge of ecstatic bliss filled my heart. In a fleeting moment, I saw a flight of angels from the stained glasses of the church spring to life, carrying my little [newborn_baby.GetFirstName] in their warm embrace.;;;;;;;;;;;;x
 EVTDESCHFPB20020;I took the communion from the priest's hand and a warm sense of bliss filled my heart. I feel whole and at peace once again, ready to put the pain and unclean memories of my labor behind, and move forward with my life.;;;;;;;;;;;;x
 EVTDESCHFPC20020;As I took the communion from the priest's hand, a sense of uneasiness filled my heart. Something is weighing on my soul, preventing me to find peace in the Lord's embrace, tormenting my mind with doubts and impure thoughts.;;;;;;;;;;;;x
@@ -5770,12 +5770,12 @@ alienor_of_aquitaine_desc;西欧最强大的女性之一。她是文学的赞助
 alexander_nevsky_desc;一位传奇的军事领袖，在入侵德意志人和瑞典人的过程中，赢得了数场军事胜利。他后来被封为圣徒。;;;;;;;;;;;;x
 william_wallace_desc;一位勇敢的骑士，参加过苏格兰独立战争。在击败英格兰的军队后，他被任命为『苏格兰守护者』。;;;;;;;;;;;;x
 harald_fairhair_desc;一位传奇的统治者，通过技能和武力统一了挪威王国和挪威人民。;;;;;;;;;;;;x
-arpad_desc;马扎尔部落的肯代（神职统治者）。他征服了喀尔巴阡盆地，为匈牙利人民找到了新的家园。;;;;;;;;;;;;x
-basil_desc;One of the greatest of the East Roman emperors, his rule brought about an era of glory, prosperity, art and imperial might.;;;;;;;;;;;;x
-alexios_komnenos_desc;A great emperor who fought both the Seljuk Turks and the Normans. His reforms stopped the imperial decline, restoring much of the former glory.;;;;;;;;;;;;x
-dyre_desc;A legendary Varangian warrior. He ruled over the Kiev area, becoming its first king.;;;;;;;;;;;;x
-zvonimir_desc;一位和平的统治者，他通过熟练的外交技巧登上了王位。他的统治见证了重大的经济和文化进步发生在克罗地亚。;;;;;;;;;;;;x
-brian_boru_desc;An Irish high king of legend. He managed to unify the warring leaders of Ireland and end the Viking occupation of the isle.;;;;;;;;;;;;x
+arpad_desc;马扎尔部落的肯代（神权统治者）。他征服了喀尔巴阡盆地，为匈牙利人民找到了新的家园。;;;;;;;;;;;;x
+basil_desc;东罗马最伟大的皇帝之一，他的统治给时代带来了光荣、昌盛、艺术和帝国实力。;;;;;;;;;;;;x
+alexios_komnenos_desc;一位伟大的皇帝，战胜过塞尔柱突厥人和诺曼人。他的改革阻止了帝国的衰落，重现了许多往日的荣光。;;;;;;;;;;;;x
+dyre_desc;一名传奇的瓦兰吉战士。他统治了基辅地区，并成为了当地第一个国王。;;;;;;;;;;;;x
+zvonimir_desc;一位和平的统治者，他通过熟练的外交技巧登上了王位。他的统治见证了发生在克罗地亚的重大的经济文化进步。;;;;;;;;;;;;x
+brian_boru_desc;一位传说中的爱尔兰至高王。他成功地统合了爱尔兰交战不休的领袖，终结了维京人在岛内的占领。;;;;;;;;;;;;x
 songtsen_gampo_desc;吐蕃帝国的建立者，将数个青藏高原上的王国统一于他的治下。他也将佛教引入吐蕃，并创制了藏文。;;;;;;;;;;;;x
 merovingian_desc;墨洛温王朝的传奇缔造者。他用部落军队与罗马联手将匈人驱逐出高卢，结束了阿提拉在此地区的野心。;;;;;;;;;;;;x
 solomon_desc;The Solomonid Dynasty claim direct descendance from the biblical Solomon, a king of Israel famed for legendary wisdom and wealth.;;;;;;;;;;;;x
@@ -12040,25 +12040,25 @@ tooltip_elder_elector_vote_ecstatic_candidate_bad;[From.GetSheHeCap]不是个理
 tooltip_elder_elector_vote_pleased_elder_candidate;我受不了[From.GetHerHis]不断的争吵;;;;;;;;;;;;x
 tooltip_elder_elector_vote_displeased_ruler_candidate;[From.GetSheHeCap]看起来完全不胜任;;;;;;;;;;;;x
 tooltip_elder_elector_vote_displeased_incapable;[From.GetSheHeCap]是一位内秀的[From.GetManWoman];;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_elder;[From.GetSheHeCap] is an experienced, sensible [From.GetManWoman];;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_friend;[From.GetSheHeCap] is a dependable and caring [From.GetManWoman];;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_bad_face;[From.GetSheHeCap] has a charming personality;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_deformed;[From.GetSheHeCap] has hidden skills;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_idiot;[From.GetSheHeCap] has an honest and direct disposition;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_cautious;[From.GetSheHeCap] is a cautious and considerate [From.GetManWoman];;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_endearing;[From.GetSheHeCap] has an endearing personality;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_celibate;[From.GetSheHeCap] does not waste time in fruitless endeavors;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_low_martial;[From.GetSheHeCap] is a cautious strategist;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_low_diplomacy;[From.GetSheHeCap] is an amenable diplomat;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_low_stewardship;[From.GetSheHeCap] is a charitable steward;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_low_intrigue;[From.GetSheHeCap] is an honest [From.GetManWoman];;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_low_learning;[From.GetSheHeCap] is a forthright speaker;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_reckless;[From.GetSheHeCap] is a reckless brute;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_devious;[From.GetSheHeCap] is a devious snake;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_high_martial;[From.GetSheHeCap] is warmongering thug;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_high_diplomacy;[From.GetSheHeCap] is a double-faced sycophant;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_high_stewardship;[From.GetSheHeCap] is a rapacious scoundrel;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_high_intrigue;[From.GetSheHeCap] is a treacherous snake;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_elder;[From.GetSheHeCap]是一名有经验，明智的[From.GetManWoman];;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_friend;[From.GetSheHeCap]是一位可以信赖和富有同情心的[From.GetManWoman];;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_bad_face;[From.GetSheHeCap]充满个人魅力;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_deformed;[From.GetSheHeCap]有神秘的技能;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_idiot;[From.GetSheHeCap]诚实且直率;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_cautious;[From.GetSheHeCap]是一位谨慎且体贴的[From.GetManWoman];;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_endearing;[From.GetSheHeCap]个性讨喜;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_celibate;[From.GetSheHeCap]不在徒劳的努力中浪费时间;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_low_martial;[From.GetSheHeCap]是一位谨慎的策略家;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_low_diplomacy;[From.GetSheHeCap]是一位经得起检验的外交官;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_low_stewardship;[From.GetSheHeCap]是一位慷慨的财政总管;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_low_intrigue;[From.GetSheHeCap]是一个诚实的[From.GetManWoman];;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_low_learning;[From.GetSheHeCap]是一位直率的演说家;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_reckless;[From.GetSheHeCap]是个鲁莽的暴君;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_devious;[From.GetSheHeCap]像条狡猾的蛇;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_high_martial;[From.GetSheHeCap]是个好战的暴徒;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_high_diplomacy;[From.GetSheHeCap]是个双面的谄媚者;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_high_stewardship;[From.GetSheHeCap]是个贪婪的恶棍;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_high_intrigue;[From.GetSheHeCap]像条奸诈的毒蛇;;;;;;;;;;;;x
 tooltip_elder_elector_vote_displeased_high_learning;[From.GetSheHeCap] is an out-of-touch loon;;;;;;;;;;;;x
 EVTDESCZHF23008;[Root.GetHaruspexName] cuts the prisoner open. While the [potential_victim.GetManWoman]'s heart is immolated, the diviner starts rummaging through [potential_victim.GetHerHis] entrails. The response is quite clear: The gods favor our cause in the war to come! The troops will fight with renewed strength now that they now for sure that our victory has been ordained from the heavens.;;;;;;;;;;;;x
 EVTDESCZHF23009;[Root.GetHaruspexName] cuts the prisoner open. While the [potential_victim.GetManWoman]'s heart is immolated, the diviner starts rummaging through [potential_victim.GetHerHis] entrails. The signs are not entirely clear, but the diviner assures me that there was no signs of the Fates opposing our war. Our troops will surely be comforted by knowing that the gods are not against them.;;;;;;;;;;;;x
@@ -13473,26 +13473,26 @@ EVTOPTCHF25228_HELLENIC;我押赫尔墨斯！;;;;;;;;;;;;x
 EVTOPTDHF25228;我押争斗时！;;;;;;;;;;;;x
 EVTOPTDHF25228_HELLENIC;我押狄俄尼索斯！;;;;;;;;;;;;x
 EVTDESCHF25229;赌注已下定，战士们围在桌旁，催促我投骰子，迫不及待地想要知道会投出哪一面。;;;;;;;;;;;;x
-EVTOPTAHF25229;Luckily, I am using my weighted die.;;;;;;;;;;;;x
+EVTOPTAHF25229;幸运的是，我用了配重的骰子。;;;;;;;;;;;;x
 TT_FAKE_DIE_DISCOVERED;你的小动作被发现了。;;;;;;;;;;;;x
-TT_FAKE_DIE_WINS;you successfully tricking the other warriors.;;;;;;;;;;;;x
-EVTOPTBHF25229;Surely, nobody will notice a bump under the table...;;;;;;;;;;;;x
-TT_DIE_TABLE_BUMP_DISCOVERED;the other warriors noticing that you are trying to cheat.;;;;;;;;;;;;x
-TT_DIE_TABLE_BUMP_FAILS;being unable to push the die properly.;;;;;;;;;;;;x
-TT_DIE_TABLE_BUMP_WINS;your trick working.;;;;;;;;;;;;x
+TT_FAKE_DIE_WINS;你成功地骗过了其他战士。;;;;;;;;;;;;x
+EVTOPTBHF25229;肯定没人会注意到桌底震了一下……;;;;;;;;;;;;x
+TT_DIE_TABLE_BUMP_DISCOVERED;其他战士发现你企图作弊。;;;;;;;;;;;;x
+TT_DIE_TABLE_BUMP_FAILS;你没能成功地推动骰子。;;;;;;;;;;;;x
+TT_DIE_TABLE_BUMP_WINS;你的小动作成功了。;;;;;;;;;;;;x
 EVTOPTCHF25229;让我们开始吧！;;;;;;;;;;;;x
-TT_EVTOPTCHF25229;Throw the die.;;;;;;;;;;;;x
-EVTDESCHF25230;My attempt to change the regular die with a weighted one did not pass unnoticed. After a bit of squabbling, one of the other fighters manages to pick the die away from me and throws it on the table a few times, revealing my intent.;;;;;;;;;;;;x
-EVTOPTAHF25230;It's not what it seems!;;;;;;;;;;;;x
-EVTOPTYHF25230;How dare you call me a cheat!;;;;;;;;;;;;x
-tooltip_EVTOPTYHF25230;Start a §YDuel§! with §Y[random_society_winner.GetFirstName]§! to avoid paying your debt.;;;;;;;;;;;;x
-TT_EVTOPTAHF25230;Your fellow §YWarriors§! will remember this.;;;;;;;;;;;;x
-EVTDESCHF25231;Was there any doubt that [Root.GetWLDieBetName] would come up when I am using my lucky die? A chorus of cheers and groans accompany the result of the game and money is exchanged.;;;;;;;;;;;;x
-EVTOPTAHF25231;Let's go again! Double or nothing!;;;;;;;;;;;;x
-EVTOPTBHF25231;We should do this more often.;;;;;;;;;;;;x
-EVTDESCHF25232;Unfortunately, I was too indiscreet with my leg, and several warriors noticed my attempt to move the die after it was cast. After a bit of squabbling, I am forced to accept defeat and pay up.;;;;;;;;;;;;x
-EVTOPTAHF25232;I wasn't doing anything, I swear!;;;;;;;;;;;;x
-TT_EVTOPTAHF25232;Your fellow §YWarriors§! will remember this.;;;;;;;;;;;;x
+TT_EVTOPTCHF25229;丢骰子。;;;;;;;;;;;;x
+EVTDESCHF25230;我用配重骰子换掉正常骰子的尝试被发现了。在一阵争抢过后，一个战士设法剔出了那颗骰子，在桌上丢了几次，以此揭发我的企图。;;;;;;;;;;;;x
+EVTOPTAHF25230;事情不是你看到的这样！;;;;;;;;;;;;x
+EVTOPTYHF25230;你怎么敢说我作弊！;;;;;;;;;;;;x
+tooltip_EVTOPTYHF25230;与§Y[random_society_winner.GetFirstName]§!进行一场§Y决斗§!来避免付账。;;;;;;;;;;;;x
+TT_EVTOPTAHF25230;你的同胞§Y战士们§!会记住此事。;;;;;;;;;;;;x
+EVTDESCHF25231;既然我用了幸运骰子，哪有投不出[Root.GetWLDieBetName]的道理？欢呼与低叹交错之中，一局终了，钱币落袋。;;;;;;;;;;;;x
+EVTOPTAHF25231;再来！要么翻番，要么输光！;;;;;;;;;;;;x
+EVTOPTBHF25231;我们得经常这么玩几把。;;;;;;;;;;;;x
+EVTDESCHF25232;很倒霉，我的腿动得太过草率，一些战士发现了我试图在投出骰子之后再次移动骰子。在一阵争吵过后，我被迫认输，不得不付钱。;;;;;;;;;;;;x
+EVTOPTAHF25232;我真的什么都没做，我发誓！;;;;;;;;;;;;x
+TT_EVTOPTAHF25232;你的同胞§Y战士们§!会记住此事。;;;;;;;;;;;;x
 EVTDESCHF25233;Despite the other warriors not noticing me kneeing the table, fate played me for a fool and I ended up accidentally pushing the die away from [Root.GetWLDieBetName], much to my disappointment.;;;;;;;;;;;;x
 EVTOPTAHF25233;Stupid die...;;;;;;;;;;;;x
 EVTDESCHF25234;With just a little help, my die rolled exactly as I hoped it would, landing to show [Root.GetWLDieBetName]. A chorus of cheers and groans accompany the result of the game and money is exchanged.;;;;;;;;;;;;x
