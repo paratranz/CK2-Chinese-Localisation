@@ -289,7 +289,7 @@ MTTH_GAIN_WITH_LOC;$NAME$：$VAL|+=0$;;;;;;;;;;;;x
 DECAYS_ON;衰败$DATE|Y$;;;;;;;;;;;;x
 STACKING_MODIFIER_COUNT;(x$COUNT$);;;;;;;;;;;;x
 STACKING_TOTAL_EFFECT;§Y综合效果：§!;;;;;;;;;;;;x
-alert_coronation_needed_instant;§Y未知统治者§!;;;;;;;;;;;;x
+alert_coronation_needed_instant;§Y统治者尚未加冕§!;;;;;;;;;;;;x
 alert_coronation_needed_delayed;一位[Root.Religion.GetName]统治者尚未被教职人员正式加冕前将永远不会被[Root.GetHerHis]封臣认为是合法的。\n一个[Root.Religion.GetName][Root.GetTitle]在受膏之前浪费的时间越长，[Root.GetHerHis]封臣就越有可能怀疑[Root.GetHerHis]那神授君权的合法性。;;;;;;;;;;;;x
 CORONATION_CURRENT_EFFECT;§Y当前效果：§!;;;;;;;;;;;;x
 RETINUES_NOT_REFINORCING_DESC;这移除了增援费用。不会影响基于威望的部队。;;;;;;;;;;;;x
@@ -401,14 +401,14 @@ EVTDESCHFE20004;你的祭司们已经尽力向[converting_king.GetTitledFirstNam
 EVTDESCHFF20004;你的祭司们已经尽力向[converting_king.GetTitledFirstName]的人民介绍你的诸神并教授他们怎么样去安抚他们周围游荡的荒野灵魂。\n你现在只能够希望他们能够遵守诺言并按照传统取悦神明，以免厄运降临。;;;;;;;;;;;;x
 EVTDESCHFG20004;你的祭司们已经尽力向[converting_king.GetTitledFirstName]的人民介绍你的诸神并教授他们怎么样去安抚他们周围游荡的荒野灵魂。\n你现在只能够希望他们能够遵守诺言并按照传统取悦神明，以免厄运降临。;;;;;;;;;;;;x
 EVTDESCHFH20004;你的祭司带了好消息回来。\n[converting_king.PrimaryTitle.GetName]的部落已经接受了新神，并且已经进行了他们的首次献祭仪式。他们所做的决定是明智的，并且他们源源不断的献祭毫无疑问的能够不断地满足不朽诸神对血的渴望。只有每天献祭，诸神才能足够强大，让太阳运行在天，让水流动在地。\n我们希望[converting_king.GetTitledFirstName]能够完全明白[converting_king.GetHerHis]新角色的重要性。他的努力，能够推迟天启之日的到来。;;;;;;;;;;;;x
-EVTDESCHFI20004;你确定[converting_king.GetTitledFirstName]和[converting_king.GetHerHis]封臣们被安置在他们的神庙中的神像群震惊了。\n这肯定有利于他们和他们治下的人民知道如何用正确的方法安抚并向神灵祈祷乞求祝福和诅咒。\n你现在只能希望他们正确地理解了所有的咒语。;;;;;;;;;;;;x
-EVTDESCHFL20004;你的祭司们已经尽力向[converting_king.GetTitledFirstName]的人民介绍了太阳神。\n你现在只能够希望他们能够遵守诺言并按照传统方法取悦太阳神，一面厄运降临。;;;;;;;;;;;;x
-EVTDESCHFM20004;目睹野蛮人们试图模仿文明社会非常有趣。\n对然你确实欣赏[converting_king.PrimaryTitle.GetName]的想要被教授关于神的正确崇拜的渴求，你不能否认自己对他们结果的一丝怀疑。你非常怀疑这些原始部落是否能够正确地读出神的名字，更不用说知道如何恰当地取悦他们了。\n不过，他们新近建立的信仰可能会阻止他们的掠夺，这让你的祭司的工作不是完全的浪费时间。;;;;;;;;;;;;x
-EVTDESCHFN20004;你的祭司们带着[converting_king.PrimaryTitle.GetName]的消息回来了。\n当地的部落成功地被介绍了对于[Root.Religion.GetHighGodName]的崇拜。\n通过适当的修饰，给予足够的时间，他们将成为真正信仰的模范追随者。;;;;;;;;;;;;x
-EVTDESCHFO20004;拉比们在[converting_king.Capital.GetName]的大规模仪式后非常疲惫地回来了。\n得益于他们不知疲倦的工作和[converting_king.GetTitledFirstName]的教化，又一个部落加入了与耶和华的圣约，在他的保护下行走于世界。;;;;;;;;;;;;x
-EVTDESCHFP20004;你的神职人员穷尽所能向[converting_king.PrimaryTitle.GetName]介绍[sponsoring_king.Religion.GetName]信仰。至于坚定新的信仰，并遵从唯一的启迪之道，则是这些改信者他们自己的责任了。;;;;;;;;;;;;x
+EVTDESCHFI20004;你确信[converting_king.GetTitledFirstName]和[converting_king.GetHerHis]封臣们被安置在他们神庙中的神像群震惊了。\n这肯定有利于他们和他们治下的人民知道如何用正确的方法安抚并向灵体祈祷乞求祝福和诅咒。\n你现在只能希望他们正确地理解了所有的咒语。;;;;;;;;;;;;x
+EVTDESCHFL20004;你的祭司们已经尽力向[converting_king.GetTitledFirstName]的人民介绍了太阳神。\n你现在只能够希望他们能够遵守诺言并按照传统方法取悦太阳神，以免厄运降临。;;;;;;;;;;;;x
+EVTDESCHFM20004;目睹野蛮人们试图模仿文明社会非常有趣。\n虽然你确实欣赏[converting_king.PrimaryTitle.GetName]渴求关于如何正确崇拜神的教导，你不能否认自己对结果的一丝狐疑。你非常怀疑这些原始部落是否能够正确地读出诸神的名字，更不用说知道如何恰当地取悦他们了。\n不过，他们新近建立的信仰可能会阻止他们的掠夺，这让你的祭司的工作不是完全的浪费时间。;;;;;;;;;;;;x
+EVTDESCHFN20004;你的祭司们带着[converting_king.PrimaryTitle.GetName]的消息回来了。\n当地的部落成功引入了对于[Root.Religion.GetHighGodName]的崇拜。\n若有适当的照料，给予足够的时间，他们将成为真正信仰的模范追随者。;;;;;;;;;;;;x
+EVTDESCHFO20004;拉比们在[converting_king.Capital.GetName]的大规模测试后非常疲惫地回来了。\n得益于他们不知疲倦的工作和[converting_king.GetTitledFirstName]的教化，又一个部落加入了与耶和华的圣约，在他的保护下行走于世界。;;;;;;;;;;;;x
+EVTDESCHFP20004;你的神职人员穷尽所能向[converting_king.PrimaryTitle.GetName]介绍[sponsoring_king.Religion.GetName]信仰。至于坚定新的信仰，并沿着通向启迪的窄小道路行进，则是这些改信者他们自己的责任了。;;;;;;;;;;;;x
 EVTOPTAHF20004;野蛮人终于看到了光明。;;;;;;;;;;;;x
-EVTDESCHFA20005;[Root.GetTitledName]，我已经决定抛弃我的旧信仰并接受[sponsoring_king.Religion.GetName]信仰。由于我很关心对我所有的臣民的救赎，我主张你们到[From.Capital.GetName]来加入我，一同抛弃你们的旧信仰，和[From.PrimaryTitle.GetName]的所有人一样。\n你真诚的，\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESCHFA20005;[Root.GetTitledName]，\n我已经决定抛弃我的旧信仰并接受[sponsoring_king.Religion.GetName]信仰。\n由于我很关心对我所有的臣民的救赎，我敦促你们到[From.Capital.GetName]来加入我，一同抛弃你们的旧信仰，和[From.PrimaryTitle.GetName]的所有人一样。\n\n你真诚的，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTDESCHFB20005;[Root.GetTitledName],\n我的[sponsoring_king.Religion.GetName]的臣民们不再生活在[converting_king.Religion.GetName]领主们的恐惧之下。\n我已经联系了睿智的[sponsoring_king.GetTitledName]，在[sponsoring_king.GetHerHis]祭司们的帮助下我正在准备将整个[From.PrimaryTitle.GetName]转变为[sponsoring_king.Religion.GetName]信仰。\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20005;真是个好消息！;;;;;;;;;;;;x
 EVTTOOLTIPHFA20006;告知§Y[From.GetTitledName]§!你对[converting_king.GetHerHis]决定感到高兴。\n当大规模转信发生时，你所有的封臣，廷臣和省份会转变为§Y[sponsoring_king.Religion.GetName]§!。;;;;;;;;;;;;x
@@ -717,7 +717,7 @@ opinion_promsied_to_depose_him;宣誓废黜他们;;;;;;;;;;;;x
 opinion_promsied_to_depose_myantipope;宣誓废黜我的对立教宗;;;;;;;;;;;;x
 opinion_promsied_to_depose_hisantipope;宣誓废黜他们的对立教宗;;;;;;;;;;;;x
 opinion_papal_land_donation;重建教宗领地;;;;;;;;;;;;x
-opinion_supposed_to_crown;宣誓让他们称王;;;;;;;;;;;;x
+opinion_supposed_to_crown;宣誓为他们加冕;;;;;;;;;;;;x
 opinion_coronation_guest;加冕礼来宾;;;;;;;;;;;;x
 prepare_coronation_ceremony;组织一场加冕礼;;;;;;;;;;;;x
 prepare_coronation_ceremony_desc;开始为我的加冕礼做准备。作为一名[Root.Religion.GetName][Root.GetTitle]，我有必要被一名卓著的教会教士加冕，从而合法化我神圣的统治权。;;;;;;;;;;;;x
@@ -810,9 +810,9 @@ EVTOPTAHF20218;我不允许！;;;;;;;;;;;;x
 EVTDESCHFA20219;眼前的道路已经明确了：我得把腐朽的[From.GetTitledFirstName]从[From.GetHerHis]皇位上拉下来，将属于我的王冠收入囊中。只有取得这场战争的胜利，我才能为接下来的加冕涂油礼做准备。;;;;;;;;;;;;x
 EVTDESCHFB20219;眼前的道路已经明确了：我必须废黜当前威胁着[FromFromFrom.GetTitledFirstName]权威的对立教宗，修补[Root.Religion.GetName]教会内的分裂。故而我须得发动对[From.GetTitledName]的战争。只有取得这场战争的胜利，我才能为接下来的加冕涂油礼做准备。;;;;;;;;;;;;x
 EVTOPTAHF20219;愿上帝早日见证这一天。;;;;;;;;;;;;x
-EVTDESCHFB20220;With the false Pope forced to abandon his unholy quest for power, and with full dignity restored to the Church, the Pope has finally accepted to crown me [Root.GetTitle]. It is time to sheathe our weapons and let the celebrations begin.;;;;;;;;;;;;x
+EVTDESCHFB20220;伪教宗已经屈服于武力，放弃了了他对圣座的邪恶诉求。随着教会恢复至高的权威，教宗最终同意将我加冕为[Root.GetTitle]。现在是该收剑入鞘了，大家一起来庆祝吧！;;;;;;;;;;;;x
 EVTOPTAHF20220;终于……;;;;;;;;;;;;x
-EVTDESCHFA20221;To [Root.GetTitledName],\nBefore I can recognize your divine right to rule, you must deliver back under Papal control some Italian lands being currently withheld by a wicked ruler against Our wishes, a clear violation of the sacred agreement between Emperor Pepin and Pope Stephanus II.\n\nSincerely,\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESCHFA20221;致[Root.GetTitledName]，\n在我认可你神圣的统治权之前，意大利地区仍有一些领土笼罩在邪恶的统治者控制下，这一现状不仅违背了我们的意愿，更是对司提反二世和丕平皇帝之间神圣协议的公然冒犯，我希望你将这些错误的统治权还给教廷。\n\n真诚的，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20221;我会帮助你夺回属于你的土地。;;;;;;;;;;;;x
 EVTOPTBHF20221;我不会为了维护教宗的权利而发动一场战争。;;;;;;;;;;;;x
 EVTDESCHFB20222;教廷属邦已经决定在[From.GetTitledName]的帮助下提出对意大利的古老宣称。如果我们在接下来的战争中战败，我们将被迫接受教宗的统治。;;;;;;;;;;;;x
@@ -887,7 +887,7 @@ EVTOPTAHF20317;Phew...;;;;;;;;;;;;x
 EVTTOOLTIPAHF20317;听了你的演讲，所有客人对你的好感度§G+10§!。;;;;;;;;;;;;x
 EVTDESCHFA20318;Despite my best efforts, my speech about the duties of a good [Root.GetTitle] to [Root.GetHerHis] subjects was received a bit too coldly compared to my expectations. Perhaps I should have used less platitudes and talked about something more substantive...;;;;;;;;;;;;x
 EVTDESCHFB20318;Just while I was in the middle of listing the duties of a good [Root.GetTitle] like my tutor taught me, somebody in the crowd coughed and I lost my concentration! After a few failed attempts at resuming my speech, I was too embarrassed to continue and left the room covering my face.;;;;;;;;;;;;x
-EVTOPTAHF20318;Ugh, this could have gone better.;;;;;;;;;;;;x
+EVTOPTAHF20318;呃，这可能会更好。;;;;;;;;;;;;x
 EVTTOOLTIPAHF20318;All of the guests' opinion is lowered by §R-10§! because of your speech.;;;;;;;;;;;;x
 EVTDESCHFA20319;[From.GetTitledFirstName] decided to call for the attention of all [From.GetHerHis] guests before tonight's dinner and spent a great deal of time decanting the virtues of a good [From.GetTitle]. [From.GetHerHisCap] speech was passionate and on point, enough to convince many of the people present that [From.GetSheHe] will be an extraordinary ruler.;;;;;;;;;;;;x
 EVTDESCHFB20319;The young [From.GetTitledFirstName] decided to call for the attention of all [From.GetHerHis] guests before tonight's dinner and spent a great deal of time listing the virtues of a good [From.GetTitle]. It was quite surprising to see a child show already such wisdom, so much so that, after [From.GetHerHis] speech, many were convinced that, despite [From.GetHerHis] young age, [From.GetFirstName] might make a great [From.GetTitle].;;;;;;;;;;;;x
@@ -1144,7 +1144,7 @@ baptism_sponsor_fylkir;§Y[Root.GetTitledFirstName]§! is the §YReligious Head�
 baptism_sponsor_wealth;§Y[Root.GetTitledFirstName]§! is wealthy;;;;;;;;;;;;x
 baptism_sponsor_proselytizer;§Y[Root.GetTitledFirstName]§! belongs to a proselytizing religion;;;;;;;;;;;;x
 baptism_sponsor_sympathetic;§Y[Root.GetTitledFirstName]§! is sympathetic towards §YPagans§!;;;;;;;;;;;;x
-baptism_sponsor_pagan;§Y[Root.GetTitledFirstName]§! is a §YReformed Pagan§!;;;;;;;;;;;;x
+baptism_sponsor_pagan;§Y[Root.GetTitledFirstName]§!是一个§Y完成改革的原始宗教§!;;;;;;;;;;;;x
 baptism_sponsor_relative;§Y[Root.GetTitledFirstName]§! is your §YRelative§!;;;;;;;;;;;;x
 baptism_sponsor_suzerain;§Y[Root.GetTitledFirstName]§! is your §YSuzerain§!;;;;;;;;;;;;x
 baptism_sponsor_enemy;§Y[Root.GetTitledFirstName]§! is your §YEnemy§!;;;;;;;;;;;;x
@@ -1155,14 +1155,14 @@ baptism_sponsor_power;Relative power of §Y[Root.GetTitledFirstName]'s§! realm;
 baptism_sponsor_patriarch;§Y[Root.GetTitledFirstName]§! rules over the §Y[Root.Religion.GetName]§! religious head;;;;;;;;;;;;x
 baptism_sponsor_tributary;§Y[Root.GetTitledFirstName]§! is a tributary of §Y[From.GetTitledFirstName]§!;;;;;;;;;;;;x
 nick_the_submissive;顺从者;;;;;;;;;;;;x
-nick_the_deliverer;拯救者;;;;;;;;;;;;x
+nick_the_deliverer;被拯救者;;;;;;;;;;;;x
 nick_the_purified;被净化者;;;;;;;;;;;;x
 nick_the_illuminated;受启迪者;;;;;;;;;;;;x
 nick_the_exalted;崇高者;;;;;;;;;;;;x
 nick_the_awoken;觉醒者;;;;;;;;;;;;x
-nick_the_bleeding_eyes;血眼;;;;;;;;;;;;x
-nick_the_sky_rider;天空骑士;;;;;;;;;;;;x
-nick_the_civilized;文明者;;;;;;;;;;;;x
+nick_the_bleeding_eyes;滴血之眼;;;;;;;;;;;;x
+nick_the_sky_rider;the Sky Rider;;;;;;;;;;;;x
+nick_the_civilized;开化者;;;;;;;;;;;;x
 vassal_tooltip_deceitful_baptism;You will retain your §YTrue Religion§!, and §YSecret Communities§! of the old faith will endure within your provinces.;;;;;;;;;;;;x
 faction_true_belivers_title;True Believers;;;;;;;;;;;;x
 faction_true_belivers_desc;Coalition against the recent Mass Conversion imposed by §Y[From.Liege.GetBestName]§!.;;;;;;;;;;;;x
@@ -3853,7 +3853,7 @@ bon_reformed;苯教;;;;;;;;;;;;x
 bon_reformed_DESC;The reformed Bön faith has fully incorporated some of its Buddhists elements while codifying the shamanic and animistic deities followed by its worshipers in a series of detailed scriptures.;;;;;;;;;;;;x
 hellenic_pagan_reformed;Hellenic;;;;;;;;;;;;x
 hellenic_pagan_reformed_DESC;The Hellenistic religion is polytheistic, with a pantheon of twelve major gods including [GetZeusJupiterName], [GetAresMarsName], [GetHermesMercuryName], [GetAphroditeVenusName], [GetAthenaMinervaName] and [GetHestiaVestaName]. Restored after having been almost but wiped out by Christianity, it has been fully adapted by its new practitioners to contend against its more aggressive, younger competitors.;;;;;;;;;;;;x
-REFORMATION_DESCRIPTION;We are presented with the unique opportunity to reshape our faith forever. We must be careful on the path we set out on, as once the new dogma of our religion has been established it will be impossible to change. Many learned priests and scholars have traveled to my court in order to discuss all sorts of theological matters in an attempt to codify a complete and solid reinterpretation of our old oral traditions. \nYet, being the one who made this reformation possible in the first place, it would only be fair if I gave my own opinion on the Nature, Doctrine, and Leadership of our new religion.;;;;;;;;;;;;x
+REFORMATION_DESCRIPTION;我们现在面临着一个千载难逢的机会，来永远重塑我们的信仰。但我们在这条路上必须步步为营，毕竟一旦新的信条确立我们就再也无法变卦了。为了讨论新宗教的种种神学问题，许多渊博的学者和德高望重的祭司来到了我的宫廷，从而为我们古老的口头传统杜撰一套系统而逻辑合理的解释方案。\n尽管如此，作为第一个使宗教改革成为现实的人，我有权利给出我自己的方案，来设定新宗教的性质、教义和领导权。;;;;;;;;;;;;x
 tooltip_religion_feature_pacifist;§G统治者不太可能发动战争，阴谋和派系§!;;;;;;;;;;;;x
 tooltip_religion_feature_no_crusade;§R不允许大圣战§!;;;;;;;;;;;;x
 tooltip_religion_feature_no_looting;§R不允许劫掠§!;;;;;;;;;;;;x
@@ -3874,7 +3874,7 @@ tooltip_religion_feature_incest;§G允许近亲结婚§!;;;;;;;;;;;;x
 tooltip_religion_feature_holy_family;§G贵族之间的近亲结婚被认为是一个神圣的结合§!;;;;;;;;;;;;x
 tooltip_religion_feature_harems;§G允许一夫多妻制§!;;;;;;;;;;;;x
 tooltip_religion_feature_meritocratic;§G允许指定继承人§!;;;;;;;;;;;;x
-tooltip_religion_feature_stable;§G不会短暂的统治惩罚§!;;;;;;;;;;;;x
+tooltip_religion_feature_stable;§G不会受到短暂的统治惩罚§!;;;;;;;;;;;;x
 tooltip_religion_feature_celibate_priests;§Y牧师必须是独身主义者§!;;;;;;;;;;;;x
 tooltip_religion_feature_syncretic;§G统治者可以选择通过决议获得对另一种信仰的同情特质§!;;;;;;;;;;;;x
 tooltip_religion_feature_cognatic;§G强行锁定男女平等继承法§!;;;;;;;;;;;;x
@@ -3921,7 +3921,7 @@ religion_syncretic;宗教融合;;;;;;;;;;;;x
 religion_syncretic_desc;我们中最睿智的人应该被允许学习其他信仰并更多地了解我们邻国的人。;;;;;;;;;;;;x
 religion_haruspicy;内脏占卜;;;;;;;;;;;;x
 religion_haruspicy_desc;只有通过正确地使用卜筮，我们才能辨别出众神的意愿，并带领我们的军队取得胜利。;;;;;;;;;;;;x
-religion_patriarchal_desc;It is only through the strong and resolute leadership of men that we will be able to fulfill the great destiny that the gods have in store for us.;;;;;;;;;;;;x
+religion_patriarchal_desc;只有通过男性强大而果断的领导，我们才能够实现众神为我们预定的伟大命运。;;;;;;;;;;;;x
 religion_equal;平等;;;;;;;;;;;;x
 religion_equal_desc;正如男神和女神统治天堂一样，这个世界也允许男人和女人来统治。;;;;;;;;;;;;x
 religion_matriarchal_desc;只有通过女性强大而明智的领导，我们才能够实现众神为我们预定的伟大命运。;;;;;;;;;;;;x
@@ -3947,22 +3947,22 @@ religion_feature_west_african;图腾守卫;;;;;;;;;;;;x
 religion_feature_west_african_desc;In order for any spirit to get his due we must make sure that our priestly caste is qualified in all the spells and rituals scattered throughout our old traditions.;;;;;;;;;;;;x
 religion_feature_zun;破晓;;;;;;;;;;;;x
 religion_feature_zun_desc;我们必须承认太阳及其青睐的血统的无可否认的权威，以确保我们人民的繁荣。;;;;;;;;;;;;x
-religion_feature_bon;Harmonious;;;;;;;;;;;;x
-religion_feature_bon_desc;A balance of old and new traditions is the imperative requirement for an enlightened future, blessed by the favor of the gods.;;;;;;;;;;;;x
-religion_feature_aztec;Invaders;;;;;;;;;;;;x
-religion_feature_aztec_desc;Our warriors must be ruthless and our armies unyielding if we wish to satiate the gods with the bountiful cattle roaming this New World.;;;;;;;;;;;;x
-religion_feature_hellenic;Civilized;;;;;;;;;;;;x
-religion_feature_hellenic_desc;We must remember that the gods are hardly ever interested in mortal affairs and that we should endeavor to maintain a detached attitude towards faith.;;;;;;;;;;;;x
-religion_temporal_head;Temporal;;;;;;;;;;;;x
-religion_temporal_head_desc;Secular and spiritual powers are inextricably bound. It is pointless to divide them between two offices.;;;;;;;;;;;;x
+religion_feature_bon;和谐;;;;;;;;;;;;x
+religion_feature_bon_desc;新旧传统的平衡是一个开明的未来的必要条件，也得到了众神的支持与祝福。;;;;;;;;;;;;x
+religion_feature_aztec;侵略者;;;;;;;;;;;;x
+religion_feature_aztec_desc;如果我们希望用这个新世界丰富的肉牛们来满足众神的话，我们的战士必须要无情，我们的军队必须要不屈不挠。;;;;;;;;;;;;x
+religion_feature_hellenic;文明化;;;;;;;;;;;;x
+religion_feature_hellenic_desc;我们必须记住，众神对凡人事务几乎没有任何兴趣，我们应该努力保持对信仰的超然态度。;;;;;;;;;;;;x
+religion_temporal_head;世俗化;;;;;;;;;;;;x
+religion_temporal_head_desc;世俗和精神的力量是不可分割的。将它们分成两个办事处是毫无意义的。;;;;;;;;;;;;x
 religion_theocratic_head;Hierocratic;;;;;;;;;;;;x
 religion_theocratic_head_desc;应该由一位高阶的神职人员掌管全权管理一切属灵的权力，这样神灵才能被恰当的宗教典礼取悦。;;;;;;;;;;;;x
-religion_autocephaly;Autocephalous;;;;;;;;;;;;x
-religion_autocephaly_desc;Every realm shall have its High Priest, working alongside its ruler and fulfilling the needs of the gods and their followers.;;;;;;;;;;;;x
-religion_no_leader;Autonomous;;;;;;;;;;;;x
-religion_no_leader_desc;Every priest will be given the chance to give his proper interpretation of the new holy text, free from any centralized authority.;;;;;;;;;;;;x
-dogmatic_religion;Dogmatic;;;;;;;;;;;;x
-cosmopolitan_religion;Cosmopolitan;;;;;;;;;;;;x
+religion_autocephaly;地方自主;;;;;;;;;;;;x
+religion_autocephaly_desc;每个领地都应有自己的牧师，与其统治者一起工作，满足众神及其信徒的需求。;;;;;;;;;;;;x
+religion_no_leader;地方自治;;;;;;;;;;;;x
+religion_no_leader_desc;每个牧师都有权力对新的圣文给予正解，不受任何中央权威的限制。;;;;;;;;;;;;x
+dogmatic_religion;教条;;;;;;;;;;;;x
+cosmopolitan_religion;普世;;;;;;;;;;;;x
 norse_pagan_reformed_DESC;The reformed Norse Pagan faith has a Holy Book written in runes with chapters on Creation, the gods, Ragnarok, and secret spells - 'galdrs'. The church has a standardized liturgy and a formal church hierarchy no longer relying on shamans and fortunetellers to lead the faithful.;;;;;;;;;;;;x
 tengri_pagan_reformed_DESC;Tengrism is the religion of the steppe peoples of Eurasia, especially Turkish and Mongol nomads. The chief god is Tengri, the creator god who rules the skies. The reformed Tengri faith has transferred its oral legends into a collection of scrolls written in the Orkhon runic script, acquiring a standardized liturgy and a formal church hierarchy.;;;;;;;;;;;;x
 baltic_pagan_reformed_DESC;Baltic paganism is polytheistic, with a pantheon of gods led by Dievs, god of the sky. Other main gods include Perkunas, god of thunder and lightning, very similar to the Germanic god Thor and the Slavic Perun. The reformed Baltic faith has a Holy Book with a creation myth, chapters on the gods and a book of prophesies. The church also has a standardized liturgy and a formal church hierarchy.;;;;;;;;;;;;x
@@ -4124,13 +4124,13 @@ CANNOT_REFORM_DESC;§Y无法改革§!;;;;;;;;;;;;x
 MUST_FILL_ALL_REFORM_SLOTS;All reformation slots must be filled;;;;;;;;;;;;x
 RELIGION_FEATURE_CANNOT_BE_SELECTED;§YFeature cannot be selected§!:;;;;;;;;;;;;x
 REFORMATION_SELECT_FEATURE;§GLeft-click to select a religion feature§!;;;;;;;;;;;;x
-REFORMATION_FEATURE_SELECT;§GLeft-click to select this religion feature§!;;;;;;;;;;;;x
-REFORMATION_CLOSE;§GLeft-click to cancel Reformation§!;;;;;;;;;;;;x
-REFORMATION_RESET;§GLeft-click to clear the selected features§!;;;;;;;;;;;;x
-REFORMATION_RANDOMIZE;§GLeft-click to randomize the selected features§!;;;;;;;;;;;;x
-REFORMATION_EXECUTE;§GLeft-click to reform your religion§!;;;;;;;;;;;;x
-REFORMATION_EXECUTE_BUTTON;Reform;;;;;;;;;;;;x
-COST_DAYS_PIETY;$AMOUNT|Y$ Piety\nBuildtime: $TIME|Y$ Days;;;;;;;;;;;;x
+REFORMATION_FEATURE_SELECT;§G左键选择宗教特性§!;;;;;;;;;;;;x
+REFORMATION_CLOSE;§G左键取消改革§!;;;;;;;;;;;;x
+REFORMATION_RESET;§G左键清楚已选择的特性§!;;;;;;;;;;;;x
+REFORMATION_RANDOMIZE;§G左键随机特性§!;;;;;;;;;;;;x
+REFORMATION_EXECUTE;§G左键改革你的宗教§!;;;;;;;;;;;;x
+REFORMATION_EXECUTE_BUTTON;进行改革;;;;;;;;;;;;x
+COST_DAYS_PIETY;$AMOUNT|Y$虔诚\n建立时间：$TIME|Y$天;;;;;;;;;;;;x
 NOT_ENOUGH_PIETY;(§RX§!) Has $COST|G$ Piety;;;;;;;;;;;;x
 SET_RELIGION_HEAD_EFFECT;The religion is now controlled by $TITLE|Y$;;;;;;;;;;;;x
 SET_PRIESTS_CAN_MARRY_EFFECT;该宗教的神职人员现可婚配;;;;;;;;;;;;x
@@ -4145,9 +4145,9 @@ SET_DEFENSIVE_ATTRITION_EFFECT;宗教现有防御损耗;;;;;;;;;;;;x
 SET_NOT_DEFENSIVE_ATTRITION_EFFECT;宗教现无防御损耗;;;;;;;;;;;;x
 ADD_INTERMARRY_EFFECT;宗教现可与$RELIGION|Y$通婚;;;;;;;;;;;;x
 REMOVE_INTERMARRY_EFFECT;宗教现不可与$RELIGION|Y$通婚;;;;;;;;;;;;x
-CLEAR_INTERMARRY_EFFECT;Religion's intermarriage policy cleared;;;;;;;;;;;;x
+CLEAR_INTERMARRY_EFFECT;宗教的通婚政策被清除;;;;;;;;;;;;x
 REL_DEMAND_CONVERSION_DESC;统治者无法要求改信;;;;;;;;;;;;x
-CU_LIGHT_CAVALRY;Light Cavalry;;;;;;;;;;;;x
+CU_LIGHT_CAVALRY;轻骑兵;;;;;;;;;;;;x
 CU_HEAVY_CAVALRY;重骑兵;;;;;;;;;;;;x
 CU_ARCHERS;弓箭手;;;;;;;;;;;;x
 CU_PIKEMEN;长枪兵;;;;;;;;;;;;x
@@ -4733,33 +4733,33 @@ hungarian_opinion;[hungarian.GetName]好感;;;;;;;;;;;;x
 greek_opinion;[greek.GetName]好感;;;;;;;;;;;;x
 german_opinion;[german.GetName]好感;;;;;;;;;;;;x
 slavic_pagan_opinion;[slavic_pagan.GetName]好感;;;;;;;;;;;;x
-slavic_pagan_reformed_opinion;Reformed [slavic_pagan_reformed.GetName] Opinion;;;;;;;;;;;;x
+slavic_pagan_reformed_opinion;改革[slavic_pagan_reformed.GetName]好感;;;;;;;;;;;;x
 croatian_opinion;[croatian.GetName]好感;;;;;;;;;;;;x
 irish_opinion;[irish.GetName]好感;;;;;;;;;;;;x
 viking_opinion_EXPLANATION; (effect on Viking);;;;;;;;;;;;x
-viking_opinion;Viking Opinion;;;;;;;;;;;;x
+viking_opinion;维京好感;;;;;;;;;;;;x
 ravager_opinion_EXPLANATION; (effect on Ravager);;;;;;;;;;;;x
-ravager_opinion;Ravager Opinion;;;;;;;;;;;;x
+ravager_opinion;劫掠者好感;;;;;;;;;;;;x
 seaking_opinion_EXPLANATION; (effect on Sea King);;;;;;;;;;;;x
-seaking_opinion;Sea King Opinion;;;;;;;;;;;;x
+seaking_opinion;维京海盗王好感;;;;;;;;;;;;x
 sea_queen_opinion_EXPLANATION; (effect on Sea Queen);;;;;;;;;;;;x
-sea_queen_opinion;Sea Queen Opinion;;;;;;;;;;;;x
+sea_queen_opinion;维京海盗女王好感;;;;;;;;;;;;x
 bastard_opinion_EXPLANATION; (effect on Bastard);;;;;;;;;;;;x
-bastard_opinion;Bastard Opinion;;;;;;;;;;;;x
+bastard_opinion;私生子好感;;;;;;;;;;;;x
 legit_bastard_opinion_EXPLANATION; (effect on Legitimized Bastard);;;;;;;;;;;;x
-legit_bastard_opinion;Legitimized Bastard Opinion;;;;;;;;;;;;x
+legit_bastard_opinion;合法化的私生子好感;;;;;;;;;;;;x
 brave_opinion_EXPLANATION; (effect on Brave);;;;;;;;;;;;x
-brave_opinion;Brave Opinion;;;;;;;;;;;;x
+brave_opinion;勇敢好感;;;;;;;;;;;;x
 clubfooted_opinion_EXPLANATION; (effect on Clubfooted);;;;;;;;;;;;x
-clubfooted_opinion;Clubfooted Opinion;;;;;;;;;;;;x
+clubfooted_opinion;足内翻好感;;;;;;;;;;;;x
 fair_opinion_EXPLANATION; (effect on Attractive);;;;;;;;;;;;x
-fair_opinion;Attractive Opinion;;;;;;;;;;;;x
+fair_opinion;魅力非凡好感;;;;;;;;;;;;x
 hunter_opinion_EXPLANATION; (effect on Hunter);;;;;;;;;;;;x
-hunter_opinion;Hunter Opinion;;;;;;;;;;;;x
+hunter_opinion;猎人好感;;;;;;;;;;;;x
 strategist_opinion_EXPLANATION; (effect on Strategist);;;;;;;;;;;;x
-strategist_opinion;Strategist Opinion;;;;;;;;;;;;x
+strategist_opinion;策略家好感;;;;;;;;;;;;x
 ambitious_opinion_EXPLANATION; (effect on Ambitious);;;;;;;;;;;;x
-ambitious_opinion;Ambitious Opinion;;;;;;;;;;;;x
+ambitious_opinion;野心勃勃好感;;;;;;;;;;;;x
 library;Library;;;;;;;;;;;;x
 alt_start_community_desc;Even under oppression the true faith lives on. As we worship in secret more and more join our cause, attracted by our righteous ways. Soon we will rise up and reclaim our place in the light!;;;;;;;;;;;;x
 alt_start_community_name_catholic;[catholic.GetName]虔信者;;;;;;;;;;;;x
@@ -5254,10 +5254,10 @@ string_holywar_random_name;[hindu.GetName], [buddhist.GetName] and [jain.GetName
 EVTDESCHFPA20018;A month has passed since I gave birth to little [From.GetFirstName]. As is tradition, I should undergo my Churching, as any good [christian.GetGroupName] mother does, and rejoin the Holy Church now that my body has been cleansed of all impurities.;;;;;;;;;;;;x
 feudal_government_desc;Feudal government revolves around the oath between liege and vassal, and Feudal lords can only directly own so many Holdings before they must start to rely on vassals - whose loyalty may vary... There are several Succession Laws to pick between - each with its own merits. The Centralization Law controls the maximum size of your Demesne and the number of direct vassals you can have. If you should convert to a religion in the [muslim.GetGroupName] group, your government form will change to Iqta.;;;;;;;;;;;;x
 muslim_government_desc;The [arabic.GetGroupName] Iqta system is similar to the Feudal system - rulers must rely on land holding vassals of varying loyalty and ambition. The maximum number of vassals and the number of Holdings you can directly own are controlled by the Centralization Law. However, there is only one form of Succession available - the chaotic 'Open' type, where the son with most land inherits. If you should convert to a non-[muslim.GetGroupName] religion, your government form will change to Feudal.;;;;;;;;;;;;x
-TRAIT_OPINION_MUSLIM;[muslim.GetGroupName] Opinion: $VALUE$;;;;;;;;;;;;x
-TRAIT_OPINION_ZORO;[zoroastrian.GetName] Opinion: $VALUE$;;;;;;;;;;;;x
-TRAIT_OPINION_JEWISH;[jewish.GetName] Opinion: $VALUE$;;;;;;;;;;;;x
-TRAIT_OPINION_CHRISTIAN;[christian.GetGroupName] Opinion: $VALUE$;;;;;;;;;;;;x
+TRAIT_OPINION_MUSLIM;[muslim.GetGroupName]好感：$VALUE$;;;;;;;;;;;;x
+TRAIT_OPINION_ZORO;[zoroastrian.GetName]好感：$VALUE$;;;;;;;;;;;;x
+TRAIT_OPINION_JEWISH;[jewish.GetName]好感：$VALUE$;;;;;;;;;;;;x
+TRAIT_OPINION_CHRISTIAN;[christian.GetGroupName]好感：$VALUE$;;;;;;;;;;;;x
 DECADENCE_DESC;All adult [muslim.GetGroupName] men below the rank of Count risk acquiring the §YDecadent§! trait, especially those of low character. The amount of Decadence these men incur on their dynasty depends on their own social status as well as the total amount of Holdings controlled by the Dynasty. Decadence affects the tax income from your demesne and the morale damage that demesne levies take in battle. Ways to halt or decrease Decadence include:\n§G*§! Granting landed titles to dynasty members\n§G*§! Successfully convincing decadent Dynasty members to abandon their sinful ways\n§G*§! Imprisoning, banishing or killing decadent Dynasty members\n§G(The Religion View contains a list of decadent dynasty members.)§!;;;;;;;;;;;;x
 theocratic_feudal_government_desc;僧侣封建制与普通封建制甚为相同，围绕着领主和封臣之间的誓言，一名僧侣封建领主能直接持有的地产就那么多，之后他们就要依靠封臣——他们的忠诚则并不能保证……僧侣封建制为信仰[buddhist.GetName]或[bon.GetName]的[tibetan_group.GetGroupName]独有，除城堡外，还允许持有寺庙。僧侣封建制统治者亦可于城堡地产中修建贡巴寺院建筑。;;;;;;;;;;;;x
 sympathy_indian;Sympathy for [indian_group.GetGroupName] religions;;;;;;;;;;;;x
@@ -5276,10 +5276,10 @@ EVTDESCHFA20003;The conversion of [converting_king.Capital.GetName] starts on a 
 TT_UNREFORMED_PAGAN;Is Unreformed [pagan_group.GetGroupName];;;;;;;;;;;;x
 key_old_pagan_reformation_desc;Reforming the [Player.Religion.GetName] faith will turn it into an organized religion with a religious head. Unless you control all of the Holy Sites, doing so requires §Y50§! Moral Authority and control of §Y3§! [Religion.GetName] holy sites. It will cost you §R750§! [Player.Religion.GetPietyName]. Rulers of a Reformed [pagan_group.GetGroupName] religion can use the Holy War Casus Belli, get access to most succession laws, no longer suffer Prestige loss while at peace, and will have less trouble with independent minded vassals. However, they also lose the defensive supply limit penalty for religious enemies in their territory and vassals will get upset if you have their levies raised for too long for no good reason.;;;;;;;;;;;;x
 TT_NOT_UNREFORMED_PAGAN;Is NOT Unreformed [pagan_group.GetGroupName]\n;;;;;;;;;;;;x
-MODIFIER_UNREFORMED_TRIBAL_OPINION;Unreformed [pagan_group.GetGroupName] Tribal Vassal Opinion;;;;;;;;;;;;x
+MODIFIER_UNREFORMED_TRIBAL_OPINION;未改革[pagan_group.GetGroupName]部落封臣好感;;;;;;;;;;;;x
 UNREFORMED_TRIBAL_VIEW_ON_TRAIT;Unreformed [pagan_group.GetGroupName] Tribal view on $TRAIT$: $VALUE$;;;;;;;;;;;;x
-TRAIT_OPINION_UNREFORMED_TRIBAL;Unreformed [pagan_group.GetGroupName] Tribal Opinion: $VALUE$;;;;;;;;;;;;x
-UNREFORMED_TRIBAL_VASSAL_OPINION;Unreformed [pagan_group.GetGroupName] Tribal Vassal Opinion;;;;;;;;;;;;x
+TRAIT_OPINION_UNREFORMED_TRIBAL;未改革[pagan_group.GetGroupName]部落的好感：$VALUE$;;;;;;;;;;;;x
+UNREFORMED_TRIBAL_VASSAL_OPINION;未改革[pagan_group.GetGroupName]部落封臣的好感;;;;;;;;;;;;x
 obj_buddhist_stop_drinking_desc;[This.GetTitledFirstName], as a devoted [buddhist.GetName], is trying to learn to abandon [This.GetHerHis] harmful drinking habits.;;;;;;;;;;;;x
 obj_buddhist_reject_empty_pleasures_desc;[This.GetTitledFirstName], as a devoted [buddhist.GetName], is trying to learn to reject emply pleasures.;;;;;;;;;;;;x
 obj_buddhist_abstain_sexual_excess_desc;[This.GetTitledFirstName], as a devoted [buddhist.GetName], is trying to learn to abstain from excesses of the flesh.;;;;;;;;;;;;x
@@ -5802,7 +5802,7 @@ bloodline_effect_israel_loans;Can borrow from the §GBanks of Israel§!;;;;;;;;;
 bloodline_effect_free_legitimize;Legitimizing Bastards is §GFree§!;;;;;;;;;;;;x
 bloodline_effect_always_viking;Raiding can give the §GViking Traits§!;;;;;;;;;;;;x
 norse_pagan_opinion;[norse_pagan.GetName]好感;;;;;;;;;;;;x
-norse_pagan_reformed_opinion;Reformed [norse_pagan_reformed.GetName] Opinion;;;;;;;;;;;;x
+norse_pagan_reformed_opinion;改革[norse_pagan_reformed.GetName]好感;;;;;;;;;;;;x
 bloodline_effect_faster_hindu;§GConvert Counties§! to §GHindu§! faster;;;;;;;;;;;;x
 String_Random_Devil;[Root.Religion.GetRandomEvilGodNameCap];;;;;;;;;;;;x
 String_Praise_Evilgod;赞美[Root.Religion.GetRandomEvilGodNameCap]!;;;;;;;;;;;;x
@@ -6353,8 +6353,8 @@ EVTDESC_HFP_10113_incapable;[From.GetTitledFirstName] has apparently slipped int
 EVTOPTA_HFP_10113;Hah! I guess we will see about that.;;;;;;;;;;;;x
 seeking_vengeance;Seeking Vengeance;;;;;;;;;;;;x
 seeking_vengeance_desc;This character has sworn to some day avenge the death of a beloved.;;;;;;;;;;;;x
-wroth_opinion;Wroth Opinion;;;;;;;;;;;;x
-kind_opinion;Kind Opinion;;;;;;;;;;;;x
+wroth_opinion;易怒好感;;;;;;;;;;;;x
+kind_opinion;善良好感;;;;;;;;;;;;x
 EVTOPTB_HFP_11002;I will avenge you, my dear [home_commander.GetRootRelation].;;;;;;;;;;;;x
 opinion_was_thoroughly_praised;Received Thorough Professional Praise;;;;;;;;;;;;x
 opinion_was_wildly_praised;Received Wild Professional Praise;;;;;;;;;;;;x
@@ -6569,7 +6569,7 @@ EVTOPTC_HF_40060;And end to the shame to this family as well.;;;;;;;;;;;;x
 EVTDESCB_HF_40060;Letters has been sent out to the whole [saint_person.Religion.GetName] world from the Vatican. The Pope has demanded a stop to the beatification of sinful people and revoked the rights from the rest of the clergy to do so.\n\nFrom now on, the granting of beatification will be given out by the Pope personally. A shame that the Church are so willing to overstep its boundaries.\n\nTrying to unjustly blame it upon people who has done their utmost for the faith reeks of nothing more than desperation from the Vatican. Pathetic, this drastic move will not be forgotten.;;;;;;;;;;;;x
 EVTOPTB_HF_40060;A pathetic attempt by the Pope.;;;;;;;;;;;;x
 EVTOPTD_HF_40060;How dare he insult us?;;;;;;;;;;;;x
-EVTDESC_HF_40006;[saint_person.GetDynName] lived a pious life, truly following the example of [saint_person.Religion.GetHighGodName]. [saint_person.GetSheHeCap] passed on [saint_person.GetDeathDate], and people have long wondered if [saint_person.GetSheHe] would be considered a true [saint_person.Religion.GetGroupName] or not.\n\nA large ceremony is held in [saint_person.GetFirstName]'s honor by the Pope, to celebrate the life [saint_person.GetSheHe] lived. A virtuous exemplar of a true [saint_person.Religion.GetName], the Pope will write [saint_person.GetHerHis] name in among the pious [saint_person.Religion.GetGroupName]s of old.\n\nA bastion of piety in life, a stalwart example in death. Blessed be [saint_person.GetHerHis] memory, once again in the arms of [saint_person.Religion.GetHighGodName].;;;;;;;;;;;;x
+EVTDESC_HF_40006;[saint_person.GetDynName]恪守着[saint_person.Religion.GetHighGodName]所许的戒律，走完了自己虔信的一生。[saint_person.GetSheHeCap]于[saint_person.GetDeathDate]升入天堂。人们众说纷纭，讨论[saint_person.GetSheHe]是否称得上是一个真正的[saint_person.Religion.GetGroupName]。\n\n教宗大人为[saint_person.GetFirstName]举行了隆重的仪式，来缅怀[saint_person.GetSheHe]的一生。作为一位[saint_person.Religion.GetName]的真正楷模，[saint_person.GetHerHis]名字将被教宗铭写位列于那些虔诚的[saint_person.Religion.GetGroupName]先圣之后。\n\n于其生也，其为信仰之堡垒；于其没也，其为举世之楷模。[saint_person.GetHerHis]一生为神所眷顾，而最终回到了[saint_person.Religion.GetHighGodName]的怀抱。;;;;;;;;;;;;x
 TITLEHF.40006;A Blessed has Passed;;;;;;;;;;;;x
 EVTOPTA_HF_40006;Blessed be [saint_person.GetHerHis] name.;;;;;;;;;;;;x
 TITLEHF.40098;Preposterous Canonization;;;;;;;;;;;;x
@@ -8205,7 +8205,7 @@ tooltip_roman_culture_spreads;§YRoman Culture§! will start spreading across yo
 tooltip_add_massive_society_currency;§Y[Root.GetTitledFirstName]§! gains §G1000§! §YDevotion§!.;;;;;;;;;;;;x
 tooltip_add_massive_hellenic_society_currency;§Y[Root.GetTitledFirstName]§! gains §G1000§! §YVirtue§!.;;;;;;;;;;;;x
 EVTOPTCHF23028;Of course they do!;;;;;;;;;;;;x
-hellenic_pagan_opinion;[hellenic_pagan.GetName] Opinion;;;;;;;;;;;;x
+hellenic_pagan_opinion;[hellenic_pagan.GetName]好感;;;;;;;;;;;;x
 bloodline_effect_roman_culture;§GConvert Counties§! to §GRoman§! Culture faster;;;;;;;;;;;;x
 roman_emperor_male;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
 roman_emperor_female;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
@@ -8243,7 +8243,7 @@ EVTOPTC50010;Let's try something more original this time...;;;;;;;;;;;;x
 EVTOPTD50010;Ugh, just throw them in the Brazen Bull...;;;;;;;;;;;;x
 EVTDESCHF24006;Foul rumors are spreading from Sicily. The once prosperous Mediterranean isle has been fallen into the hands of a cruel [From.GetManWoman], who claims to be a descendant of the [pagan_group.GetName] Tyrants of old. \n\nConsumed by paranoid delusions and sadistic fantasies, [From.GetSheHe] has killed hundreds of [From.GetHerHis] own subjects for the most trivial of slights. \nMost of [From.GetHerHis] victims have met their end in the fiery belly of [From.GetHerHis] brazen bull, symbol of [From.GetHerHis] degenerate dynasty.;;;;;;;;;;;;x
 EVTOPTAHF24006;How abhorrent!;;;;;;;;;;;;x
-roman_opinion;[roman.GetName] Opinion;;;;;;;;;;;;x
+roman_opinion;[roman.GetName]好感;;;;;;;;;;;;x
 bloodline_effect_teuta_ships;Will attract §YShips§! during times of war.;;;;;;;;;;;;x
 EVTTITLEHF24011;伊利里亚女王;;;;;;;;;;;;x
 EVTDESCAHF24011;My recent victory over the Roman armies of [defeated_emperor.GetTitledFirstName] has resonated across [Root.PrimaryTitle.GetName]. Despite all odds, I was able to lead my people against all the legions and the formidable power of the Imperial fleet, laying waste upon the decadent rule of House [defeated_emperor.GetOnlyDynastyName]. \nSuch was my triumph that the people have started to compare me to Teuta, an ancient [pagan_group.GetName] Queen who once stood against the ambitions of Rome, going even as far as to whisper that my prowess in this war is proof that I share some of my blood with her.;;;;;;;;;;;;x
@@ -8267,7 +8267,7 @@ EVTOPTAHF24015;欢迎你们！;;;;;;;;;;;;x
 EVTDESCHFA24016;A few pirate ships have gathered at the shores of [Root.PrimaryTitle.GetName]. Their owners have offered their services in the war to come, hoping to repay me for offering them haven from the tyranny of the Imperial fleet of the Romans.;;;;;;;;;;;;x
 EVTDESCHFB24016;A few pirate ships have gathered at the shores of [Root.PrimaryTitle.GetName]. Their owners have offered their services in the war to come, hoping to repay my family for offering them haven from the tyranny of the Imperial fleet of the Romans.;;;;;;;;;;;;x
 EVTOPTAHF24016;You are welcome.;;;;;;;;;;;;x
-south_slavic_opinion;[south_slavic.GetGroupName] Opinion;;;;;;;;;;;;x
+south_slavic_opinion;[south_slavic.GetGroupName]好感;;;;;;;;;;;;x
 EVTDESCHFA25000;A promising member of [invited_lodge_soldier.Society.GetName], [invited_lodge_soldier.GetFirstName], is eager to test [invited_lodge_soldier.GetHerHis] mettle in battle and prove [invited_lodge_soldier.GetHerHis] loyalty fighting by my side and leading my armies against the enemies of [Root.PrimaryTitle.GetName].;;;;;;;;;;;;x
 EVTOPTCHF25000;Good! And I already know who to replace...;;;;;;;;;;;;x
 EVTOPTAHF25000;I expect great things from you, [invited_lodge_soldier.GetFirstName].;;;;;;;;;;;;x
@@ -8631,7 +8631,7 @@ random_world_bloodline_male_2;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
 random_world_bloodline_female_2;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
 random_world_bloodline_male_3;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
 random_world_bloodline_female_3;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
-nick_tiny;Tiny;;;;;;;;;;;;x
+nick_tiny;小;;;;;;;;;;;;x
 nick_the_roaring_flame;the Roaring Flame;;;;;;;;;;;;x
 nick_the_shield_of_capital;Shield of [nick_target_the_shield_of_capital.Capital.GetName];;;;;;;;;;;;x
 nick_the_goliath;歌利亚;;;;;;;;;;;;x
@@ -10033,7 +10033,7 @@ b_lesnoy;Lesnoy;;;;;;;;;;;;x
 b_seyva;Seyva;;;;;;;;;;;;x
 b_yurla;Yurla;;;;;;;;;;;;x
 duelist_opinion_EXPLANATION; (effect on Duelist);;;;;;;;;;;;x
-duelist_opinion;Duelist Opinion;;;;;;;;;;;;x
+duelist_opinion;决斗者好感;;;;;;;;;;;;x
 duel_experience;Duel Experience;;;;;;;;;;;;x
 duel_experience_desc;This character has learned a thing or two from partaking in a duel.;;;;;;;;;;;;x
 duelist_renown;Renowned Duelist;;;;;;;;;;;;x
@@ -10051,7 +10051,7 @@ EVTDESC_HFP_401;After having studied the strategies of both my own side, as well
 EVTOPTA_HFP_401;It is a noble pursuit!;;;;;;;;;;;;x
 EVTOPTB_HFP_401;No, I have a realm to attend to.;;;;;;;;;;;;x
 EVTDESC_SoA_300;The sudden expulsion of several important [jewish.GetName] merchants has done some damage to the economy of your realm. It would seem they played a bigger role in the economic development of [Root.Capital.GetName] than your advisors gave them credit for.;;;;;;;;;;;;x
-zoroastrian_group_opinion;[zoroastrian_group.GetName] Opinion;;;;;;;;;;;;x
+zoroastrian_group_opinion;[zoroastrian_group.GetName]好感;;;;;;;;;;;;x
 settle_iceland_manually;Settle [Root.Location.GetName];;;;;;;;;;;;x
 settle_iceland_manually_desc;This land is poor and sparsely populated. I should spend some of my wealth in order to settle the area with some proper [From.Culture.GetName] [From.Religion.GetName] families!;;;;;;;;;;;;x
 convert_indian_branch_desc;A person following any of the [indian_group.GetGroupName] religions may convert from one branch of their religion to another. Such a choice may only be made once in a lifetime, however.;;;;;;;;;;;;x
@@ -10083,8 +10083,8 @@ quest_monastic_order_penance_desc;为了让自己更接近[Root.Religion.GetHigh
 BLOODLINE_PATRILINEAL_INHERITANCE_DELAYED;This Bloodline is passed on through the male line. This means that only male characters can pass the bloodline on to their offspring.;;;;;;;;;;;;x
 BLOODLINE_MATRILINEAL_INHERITANCE_DELAYED;This Bloodline is passed on through the female line. This means that only female characters can pass the bloodline on to their offspring.;;;;;;;;;;;;x
 BLOODLINE_MATRILINEAL_INVERSION_DELAYED;除了正常的血脉继承，如果两个角色处于入赘婚姻，他们的子女将从母亲那里继承父系血脉，从父亲那里继承母系血脉。\n如果孩子没有父亲，而他们的母亲有父系血脉，孩子就会继承它。;;;;;;;;;;;;x
-tengri_pagan_reformed_opinion;Reformed [tengri_pagan_reformed.GetName] Opinion;;;;;;;;;;;;x
-tengri_pagan_opinion;[tengri_pagan.GetName] Opinion;;;;;;;;;;;;x
+tengri_pagan_reformed_opinion;改革[tengri_pagan_reformed.GetName]好感;;;;;;;;;;;;x
+tengri_pagan_opinion;[tengri_pagan.GetName]好感;;;;;;;;;;;;x
 ashina;阿史那血脉;;;;;;;;;;;;x
 HF_221_DESC;Bored, I decide to sneak out onto the streets of [child_of_destiny.Location.County.GetName]. I suddenly hear a voice. "Ah, young [child_of_destiny.GetPrincessPrince] [child_of_destiny.GetFirstName]!" It is an old [wise_man_target.GetManWoman], overburdened with books. "I am [wise_man_target.GetFirstName]. The stars have given me a quest – to teach you about the world and the mind of man." [wise_man_target.GetSheHeCap] holds out two books. "Our time is limited, which tome should we study?";;;;;;;;;;;;x
 HF_221_OPTA;"Virtute Animi", I want to lead and inspire!;;;;;;;;;;;;x
@@ -10371,7 +10371,7 @@ enemy_skull_barbarian;Barbarian's Skull;;;;;;;;;;;;x
 enemy_skull_desc;There are some discolored stains to this skull, reminding anyone of the brutality its once owner suffered. They say [enemy_commander.GetBestName] had [enemy_commander.GetHerHis] head cut off completely, before [Root.GetTitledFirstName] decided to bring it home from the battle of [battlefield_location.GetName].;;;;;;;;;;;;x
 skull_cup;Skull Cup;;;;;;;;;;;;x
 skull_cup_desc;Rather ornate, this drinking cup is clearly made of unusual material. Once a modest trophy, one might notice that the bone of the skull has been finely polished, set in an sturdy fixture, and decorated with precious stones.;;;;;;;;;;;;x
-cruel_opinion;Cruel Opinion;;;;;;;;;;;;x
+cruel_opinion;残暴好感;;;;;;;;;;;;x
 string_norse_symbol;the wolf;;;;;;;;;;;;x
 string_tengri_symbol;the eagle;;;;;;;;;;;;x
 string_baltic_symbol;the wood;;;;;;;;;;;;x
@@ -10535,7 +10535,7 @@ EVTOPTA_HF_10055;我感觉好多了。;;;;;;;;;;;;x
 EVTOPTB_HF_10055;[Root.Religion.GetHighGodName]在我身边。;;;;;;;;;;;;x
 EVTDESC_HF_10056_no_harm_1;“来个人给我把斧头！”我咆哮道。当我开始挥舞起来，人群都吸了一口两栖，一些人惊慌失措地尖叫着从我路上跑开。一个勇敢的灵魂，[kinslayer_target.GetTitledFirstName]，走到我面前接受了挑战。当我们事毕之后，我们发自内心的笑了起来。“我喜欢你的狂野，[Root.GetBrotherSister]！”[kinslayer_target.GetSheHe]说道，一边擦着[kinslayer_target.GetHerHis]额头上的汗水。;;;;;;;;;;;;x
 EVTDESC_HF_10056_no_harm_2;“来个人给我把斧头！现在！”向着我们找到的最近的士兵咆哮道。在我的眼角余光中，我看见我的[kinslayer_target.GetRootRelation][kinslayer_target.GetTitledFirstName]正在看着我。当我开始挥舞起武器，紧迫的战斗充实着我。我发现我在笑，发自内心的欢笑。[kinslayer_target.GetFirstName]也在笑，人群开始为我加油。;;;;;;;;;;;;x
-EVTDESC_HF_10056_casualty;"Give me your axe! NOW!" I roar at the recruit. The young [Root.GetBoyGirl] obeys and the crowd around me gasps as I start swinging it around me, some scrambling to get out of my way. "[Root.GetFirstName], what are you doing?!" my [kinslayer_target.GetRootRelation] [kinslayer_target.GetFirstName] yells in despair, clutching at [kinslayer_target.GetHerHis] bloodied tunic.;;;;;;;;;;;;x
+EVTDESC_HF_10056_casualty;“给我你的斧头！现在！”我向新兵们咆哮道。年轻的[Root.GetBoyGirl]遵守了我的命令，当我开始挥舞起武器，周围的人群都吸了一口凉气，一些人赶紧让出了我的道路。“[Root.GetFirstName]，你在干什么？”我的[kinslayer_target.GetRootRelation][kinslayer_target.GetFirstName]绝望地叫喊着，抓着[kinslayer_target.GetHerHis]染血的外套。;;;;;;;;;;;;x
 EVTOPTA_HF_10056_1;啊，我将是我敌人的灾难。;;;;;;;;;;;;x
 EVTOPTA_HF_10056_2;啊，[Root.Religion.GetHighGodName]！你是我新获得的力量的小小牺牲！;;;;;;;;;;;;x
 EVTOPTB_HF_10056;谁……谁的血在这？！;;;;;;;;;;;;x
@@ -10550,15 +10550,15 @@ EVTDESC_HF_10058;[From.GetTitledFirstName]已经向我发誓要为[kinslayer_tar
 EVTOPTA_HF_10058;我相信我们会及时解决的……;;;;;;;;;;;;x
 GetRelation_fellow_member;[This.Society.GetName]的成员;;;;;;;;;;;;x
 opinion_impressed_infatuated;晕厥;;;;;;;;;;;;x
-EVTDESC_HF_10059;Warriors from the area surrounding [target_holding.Capital.GetName] flock to my banner, and the [target_holding.GetCapitalHolding] garrison is bursting with new recruits!;;;;;;;;;;;;x
+EVTDESC_HF_10059;[target_holding.Capital.GetName]周边的战士聚集到我的麾下，[target_holding.GetCapitalHolding]的驻防部队也爆发了征兵的高潮。;;;;;;;;;;;;x
 EVTDESCHF10501_A;致敬，[Root.GetSocietyRank]！\n\n作为[Root.Society.GetName]的成员，我们努力地修行我们与彼此！其中一条途径就是举行临时的比武大会，既是为了练习也是为了荣誉。\n去找[duel_target.GetSocietyRank][duel_target.GetFirstName]决斗吧——你会在[duel_target.Location.GetName]找到[duel_target.GetHerHim]的。\n\n此致，[From.GetTitledFirstName];;;;;;;;;;;;x
-EVTDESCHF10501_B;Hail, [Root.GetSocietyRank]! \n\n[Root.Society.GetNameCap] have been watching you, and I believe it is time for us to meet in the sparring ring. A [duel_target.GetSocietyRank] cannot afford to get rusty! What say you? Will you seek me out for an honorable duel?\nI will be waiting for you in [duel_target.Location.GetName].\n\nSigned, [From.GetTitledFirstName];;;;;;;;;;;;x
+EVTDESCHF10501_B;向您致敬，[Root.GetSocietyRank]！\n\n[Root.Society.GetNameCap]一直关注着你，我相信是时候让我们在决斗场上相遇了。一位[duel_target.GetSocietyRank]不能疏于技艺！你怎么说？你愿意找我进行以常荣耀的决斗吗？\n我会在[duel_target.Location.GetName]等待你的回复。\n\n此致，[From.GetTitledFirstName];;;;;;;;;;;;x
 EVTDESCHF10511_A;致敬，[Root.GetSocietyRank]！\n\n作为[Root.Society.GetName]的成员，我们必须时刻准备好战斗。为了证明你的英勇，去找[duel_target.GetTitledFirstName]——一个[duel_target.Society.GetName]的[duel_target.GetSocietyRank]决斗吧，直到你的宝剑沾上鲜血！也许你们中只有一个人还能继续呼吸。\n\n此致，[From.GetTitledFirstName];;;;;;;;;;;;x
 EVTDESCHF10511_B;致敬，[Root.GetSocietyRank]！\n\n作为[Root.Society.GetName]的成员，我们必须时刻准备好战斗。为了证明你的英勇，找到[duel_target.GetTitledFirstName]进行决斗吧——直到你的宝剑上沾上鲜血!也许你们中只有一个人在这之后还能呼吸。你也许能在[duel_target.Location.GetName]找到[duel_target.GetHerHim]。\n\n此致，[From.GetTitledFirstName];;;;;;;;;;;;x
-EVTDESC_HF_10503_duel;The untimely death of §Y[From.GetTitledName]§! means I fail my mission to duel [From.GetHerHim]. [Root.Society.GetNameCap] will find something else for me to do.;;;;;;;;;;;;x
-quest_target_tt;§Y[From.GetTitledFirstName]§! has a mission to duel §Y[Root.GetTitledFirstName]§!;;;;;;;;;;;;x
-EVTDESC_HFP_10196;§Y[FromFrom.GetTitledName]§! suffered an untimely death before we could see to our duel. I'll have to approach [warrior_lodge_to_join.GetName] anew.;;;;;;;;;;;;x
-commander_lost;Commander Lost;;;;;;;;;;;;x
+EVTDESC_HF_10503_duel;§Y[From.GetTitledName]§!的过早死亡意味着我在和[From.GetHerHim]决斗的任务中失败了。[Root.Society.GetNameCap]会为我寻找一些另外的人。;;;;;;;;;;;;x
+quest_target_tt;§Y[From.GetTitledFirstName]§!有一个与§Y[Root.GetTitledFirstName]§!决斗的任务;;;;;;;;;;;;x
+EVTDESC_HFP_10196;§Y[FromFrom.GetTitledName]§!在我们决斗之前不幸早逝。我得重新去[warrior_lodge_to_join.GetName]。;;;;;;;;;;;;x
+commander_lost;失去指挥官;;;;;;;;;;;;x
 EVTDESC_HF_10060;"Our table is already full, [Root.GetSocietyRank]. Are you saying you want to fight me for the spot?" [combatant_2.GetTitledFirstName] rises from [combatant_2.GetHerHis] seat, idly cracking [combatant_2.GetHerHis] knuckles and taking a step towards me.;;;;;;;;;;;;x
 EVTOPTA_HF_10060;A duel? Yes, that is what I am saying.;;;;;;;;;;;;x
 EVTOPTB_HF_10060;Oh, my [combatant_2.GetLordLady], you misunderstand! I did not mean to imply... I, uhm... *gulp*;;;;;;;;;;;;x
@@ -10584,8 +10584,8 @@ string_WL_bon_religion;§Y[bon_reformed.GetName]§! 宗教;;;;;;;;;;;;x
 string_WL_hellenic_religion;§Y[hellenic_pagan_reformed.GetName]§! 宗教;;;;;;;;;;;;x
 string_no_religion;无宗教;;;;;;;;;;;;x
 society_has_at_least_10_members_tt;§Y[From.GetNameCap]§!至少§Y10§!成员\n;;;;;;;;;;;;x
-EVTDESC_HFP_10095_deadly_duel;[combatant_1.GetBestName] has challenged me to a duel, to the death. The courier did not let on what sparked this initiative, but I am told he is patiently awaiting my response. The only respectable thing would be to accept.;;;;;;;;;;;;x
-norse_leader_desc;This character has a scary reputation, attracting the mightiest of warriors to [GetHerHis] side.;;;;;;;;;;;;x
+EVTDESC_HFP_10095_deadly_duel;[combatant_1.GetBestName]向我发起了一场生死决斗。信使没有透露是什么引发了这一挑战，但我被告知他会耐心等待我的回应。只有接受挑战是值得尊敬的。;;;;;;;;;;;;x
+norse_leader_desc;这个角色有一个可怕的名声，吸引了最强大的战士到[GetHerHis]一边。;;;;;;;;;;;;x
 trait_effect_capture_commanders;§GIncreased chance of capturing enemy commanders§!;;;;;;;;;;;;x
 String_sever_my_head_from_my_body;sever my head from my body;;;;;;;;;;;;x
 DEATH_MISSION_DUEL;was slain by $KILLER$ in a dramatic duel for blood;;;;;;;;;;;;x
@@ -10780,7 +10780,7 @@ bloodline_effect_fearsome;Increases the chance of capturing enemy Commanders.;;;
 bloodline_effect_reaver;Increases the chance of looting §YArtifacts§!, after sieging enemy Holdings.;;;;;;;;;;;;x
 poet_opinion;诗人好感;;;;;;;;;;;;x
 falconer_opinion;驯鹰师好感;;;;;;;;;;;;x
-greedy_opinion;Greedy Opinion;;;;;;;;;;;;x
+greedy_opinion;贪婪好感;;;;;;;;;;;;x
 just_opinion;Just Opinion;;;;;;;;;;;;x
 opinion_legendary_commander;Blood of Legendary Commander;;;;;;;;;;;;x
 found_bloodline_tt;Becomes known as the founder of a §YBloodline§!;;;;;;;;;;;;x
@@ -11715,7 +11715,7 @@ shepherds_settled;Settled Shepherds;;;;;;;;;;;;x
 opinion_formed_order;Formed Order;;;;;;;;;;;;x
 saintly_bloodline_same_religion_TT;[From.Founder.Religion.GetName];;;;;;;;;;;;x
 saintly_bloodline_same_culture_TT;[From.Founder.Culture.GetName];;;;;;;;;;;;x
-old_frankish_opinion;[old_frankish.GetName] Opinion;;;;;;;;;;;;x
+old_frankish_opinion;[old_frankish.GetName]好感;;;;;;;;;;;;x
 custom_russia;Rus Region;;;;;;;;;;;;x
 EVTOPTB8405;I will join the cause.;;;;;;;;;;;;x
 EVTOPTB_HF_46010_TT;Preparations to pillage the burial site begins.;;;;;;;;;;;;x
@@ -11761,10 +11761,10 @@ fourth_crusade_greek_empire_name;[From.Capital.GetName];;;;;;;;;;;;x
 kingdom_of_styria_name;施蒂里亚;;;;;;;;;;;;x
 kingdom_of_bavaria_name;巴伐利亚;;;;;;;;;;;;x
 kingdom_of_carinthia_name;卡林西亚;;;;;;;;;;;;x
-byzantine_opinion;[byzantine.GetGroupName] Opinion;;;;;;;;;;;;x
-latin_opinion;[latin.GetGroupName] Opinion;;;;;;;;;;;;x
-central_germanic_opinion;[central_germanic.GetGroupName] Opinion;;;;;;;;;;;;x
-west_germanic_opinion;[west_germanic.GetGroupName] Opinion;;;;;;;;;;;;x
+byzantine_opinion;[byzantine.GetGroupName]好感;;;;;;;;;;;;x
+latin_opinion;[latin.GetGroupName]好感;;;;;;;;;;;;x
+central_germanic_opinion;[central_germanic.GetGroupName]好感;;;;;;;;;;;;x
+west_germanic_opinion;[west_germanic.GetGroupName]好感;;;;;;;;;;;;x
 opinion_unfit_ruler;Unfit Ruler;;;;;;;;;;;;x
 saintly_bloodline_name;Blood of Saint [saint_person.GetDynName];;;;;;;;;;;;x
 BLESSED_TITLE_FEMALE;Blessed;;;;;;;;;;;;x
@@ -13812,10 +13812,10 @@ EVTDESCAHF25429;Far from obeying my decision to become a warrior, [From.GetFirst
 EVTOPTAHF25429_A;How could [From.GetSheHe] do this to me?;;;;;;;;;;;;x
 EVTOPTAHF25429_B;That little ingrate!;;;;;;;;;;;;x
 EVTOPTAHF25429_C;[From.GetSheHeCap]不再是我的[GetFromRelation]。;;;;;;;;;;;;x
-EVTDESCAHF25430;Since our last fight, [From.GetFirstName] has been very gloomy, barely even speaking to me or any of [From.GetHerHis] friends. Yet, I could have never imagined that forcing [From.GetHerHim] to keep training would have led [From.GetHerHim] to take [From.GetHerHis] own life.;;;;;;;;;;;;x
-EVTOPTAHF25430_A;What have I done!?!;;;;;;;;;;;;x
-EVTOPTAHF25430_B;Why would [From.GetSheHe] do it?;;;;;;;;;;;;x
-EVTOPTAHF25430_C;A coward to the end, I see...;;;;;;;;;;;;x
+EVTDESCAHF25430;自从我们上次的战斗以来，[From.GetFirstName]一直非常沮丧，几乎对我和[From.GetHerHis]朋友没有说过话。然而，我从来没想过，强迫[From.GetHerHim]继续训练会导致[From.GetHerHim]夺走[From.GetHerHis]自己的生命。;;;;;;;;;;;;x
+EVTOPTAHF25430_A;我做了什么！？！;;;;;;;;;;;;x
+EVTOPTAHF25430_B;为什么[From.GetSheHe]这样做？;;;;;;;;;;;;x
+EVTOPTAHF25430_C;一个彻底的懦夫，我看……;;;;;;;;;;;;x
 EVTDESCAHF25432;I have recently heard news of my [GetFromRelation] from [From.GetHerHis] exile. [From.GetSheHeCap] now lives in [From.Capital.GetName], spending [From.GetHerHis] eating and drinking, with no accomplishments to [From.GetHerHis] name.;;;;;;;;;;;;x
 EVTOPTAHF25432;What a disappointment.;;;;;;;;;;;;x
 EVTDESCAHF25433;I have recently heard news of my [GetFromRelation] from [From.GetHerHis] exile. [From.GetSheHeCap] now lives in [From.Capital.GetName], and has become a frail, soft-spoken bookworm, buried in a moldy library, with no accomplishments to [From.GetHerHis] name.;;;;;;;;;;;;x
@@ -14487,8 +14487,8 @@ nick_the_holy_mason;the Holy Mason;;;;;;;;;;;;x
 nick_the_grand_patriarch;the Grand Patriarch;;;;;;;;;;;;x
 nick_the_grand_matriarch;the Grand Matriarch;;;;;;;;;;;;x
 nick_the_philosopher;the Philosopher;;;;;;;;;;;;x
-nick_the_theologian;the Theologian;;;;;;;;;;;;x
-nick_the_zealot;the Zealot;;;;;;;;;;;;x
+nick_the_theologian;神学家;;;;;;;;;;;;x
+nick_the_zealot;狂热者;;;;;;;;;;;;x
 nick_the_benevolent;the Benevolent;;;;;;;;;;;;x
 forging_legend_revisiting_laws_1;Revisiting Old Laws;;;;;;;;;;;;x
 forging_legend_revisiting_laws_1_desc;Several scholars and bureaucrats of [Root.GetTitledFirstName]'s realm have been ordered to revise most of [Root.PrimaryTitle.GetName]'s old laws.;;;;;;;;;;;;x
@@ -15885,7 +15885,7 @@ PROV1899;Abakan;;;;;;;;;;;;x
 PROV1900;Tom;;;;;;;;;;;;x
 PROV1901;Kuznetsk;;;;;;;;;;;;x
 PROV1902;Eastern Sayan;;;;;;;;;;;;x
-PROV1903;Khövsgöl;;;;;;;;;;;;x
+PROV1903;库苏古尔;;;;;;;;;;;;x
 PROV1904;Egiin;;;;;;;;;;;;x
 PROV1905;唐麓岭;;;;;;;;;;;;x
 PROV1906;乌布苏;;;;;;;;;;;;x
@@ -16567,7 +16567,7 @@ b_abakan;Abakan;;;;;;;;;;;;x
 b_tom;Tom;;;;;;;;;;;;x
 b_kuznetsk;Kuznetsk;;;;;;;;;;;;x
 b_eastern_sayan;Sayan;;;;;;;;;;;;x
-b_khovsgol;Khövsgöl;;;;;;;;;;;;x
+b_khovsgol;库苏古尔;;;;;;;;;;;;x
 b_egiin;Egiin;;;;;;;;;;;;x
 b_tannu_ola;唐麓岭;;;;;;;;;;;;x
 b_uvs;乌布苏;;;;;;;;;;;;x
@@ -17233,7 +17233,7 @@ c_abakan_adj;Abakani;;;;;;;;;;;;x
 c_tom_adj;Toman;;;;;;;;;;;;x
 c_kuznetsk_adj;Kuznetski;;;;;;;;;;;;x
 c_eastern_sayan_adj;Sayani;;;;;;;;;;;;x
-c_khovsgol_adj;Khövsgöler;;;;;;;;;;;;x
+c_khovsgol_adj;库苏古尔;;;;;;;;;;;;x
 c_egiin_adj;Egiiner;;;;;;;;;;;;x
 c_tannu_ola_adj;唐麓;;;;;;;;;;;;x
 c_uvs_adj;乌布苏;;;;;;;;;;;;x
@@ -17541,7 +17541,7 @@ chinese_imperial_bloodline_01_desc;The bureaucratic and cultural revolution that
 pure_murder_bloodline_05;Blood of the Dragon-[This.GetTitle];;;;;;;;;;;;x
 pure_murder_bloodline_05_desc;The members of this ruthless and infamous dynasty claim to be descendants of the Dragon-[This.GetTitle] [This.GetFirstName], notoriously famous for burning [This.GetHerHis] enemies to cinder.;;;;;;;;;;;;x
 tooltip_religion_feature_hermetics;§GGrants access to the Hermetic Society§!;;;;;;;;;;;;x
-nick_the_dragoness;the Dragoness;;;;;;;;;;;;x
+nick_the_dragoness;母龙;;;;;;;;;;;;x
 bloodline_effect_murder_burn;Can burn prisoners;;;;;;;;;;;;x
 EVTOPTZHF24027;Burn it like the others!;;;;;;;;;;;;x
 TT_EVTOPTZHF24027;Make a public display of the charred remains of your victims.;;;;;;;;;;;;x
@@ -17602,7 +17602,7 @@ opinion_elder_refused_demand;Refused Demands;;;;;;;;;;;;x
 opinion_elders_pleased;Elderly Praise;;;;;;;;;;;;x
 opinion_elders_displeased;Elderly Ire;;;;;;;;;;;;x
 opinion_elder_traitor;Betrayed Trust;;;;;;;;;;;;x
-nick_the_elder;Elder;;;;;;;;;;;;x
+nick_the_elder;老;;;;;;;;;;;;x
 EVTDESCHFP24001;I may not be as strong and sprightly as I once was, but I have a duty to keep sharing my wisdom and advice to the brash, young members of [Root.Capital.GetName], thus ensuring the prosperity of my tribe. Somebody must tell these kids all the things that they are doing wrong.;;;;;;;;;;;;x
 EVTOPTAHFP24001;I am not going anywhere!;;;;;;;;;;;;x
 EVTDESCHFP24003;[From.GetTitledFirstName] decided to appear unannounced at my court this morning, claiming that [From.GetSheHe] is pleased by my leadership and that [From.GetSheHe] wishes to follow my progress as [Root.GetTitle] more closely, while providing me with [From.GetHerHis] priceless advice.;;;;;;;;;;;;x
@@ -18548,7 +18548,7 @@ EVTOPTB_4405_GREEDY_book;To better understand the plight of others, I must seek 
 EVTOPTB_4405_SLOTHFUL_book;I will look for inspiration in the tales of others.;;;;;;;;;;;;x
 EVTDESC_4408_GREEDY_book;[book_target.GetName] is still on my mind, when one of my servants cautiously inquires whether I wish to make a donation to the local [Root.GetMOBuilding]. My first reaction is reluctant, but out loud I say: "Yes, of course". Perhaps this is the first step towards freeing myself of the desire for material possessions?;;;;;;;;;;;;x
 EVTDESC_4408_SLOTHFUL_book;At first, every minute felt like an eternity, but then it got easier, as a certain passage of [book_target.GetName] grabbed my interest. I kept reading, consumed by the words of [book_target.OriginalOwner.GetTitledFirstName]! Now, I go to sleep with a smile on my lips and a renewed sense of purpose.;;;;;;;;;;;;x
-nick_of_the_empty_pockets;of the Empty Pockets;;;;;;;;;;;;x
+nick_of_the_empty_pockets;空钱袋;;;;;;;;;;;;x
 obj_become_king_desc;[This.GetTitledFirstName] wants to become [Root.GetKingQueen] of [This.Capital.Kingdom.GetName]. If pagan, with succession laws set to Elective Gavelkind, it allows [This.GetObjectPronoun] the unlimited use of the Subjugation Casus Belli within the kingdom. If the Fabricate Claims councilor mission is available, it may acquire a claim on [This.Capital.Kingdom.GetName] with this ambition. There is also a reduced cost for creating the [This.Capital.Kingdom.GetTier] if it does not yet exist.;;;;;;;;;;;;x
 pagan_subjugation_desc;Pagans, with succession laws set to Elective Gavelkind, are allowed to subjugate other pagan rulers once in their lifetime. (With the 'Become $KING$' ambition, there is no such time limit against those who control titles within the kingdom.) Free men are always willing to follow the mightiest ruler...;;;;;;;;;;;;x
 string_saint_view_title_christian;诸圣;;;;;;;;;;;;x
@@ -19150,9 +19150,9 @@ RULE_NAP_BLOCK_FACTIONS;Non-Aggression Pact Faction Block;;;;;;;;;;;;x
 RULE_NAP_BLOCK_FACTIONS_OFF;Non-aggression pacts don't disqualify membership in realm factions.;;;;;;;;;;;;x
 RULE_NAP_BLOCK_FACTIONS_ON;Rulers in a non-aggression pact with their liege are barred from being members in realm factions.;;;;;;;;;;;;x
 SOCIETY_BLOODLINES_HEADER;Legendary Heroes;;;;;;;;;;;;x
-proud_opinion;Proud Opinion;;;;;;;;;;;;x
-patient_opinion;Patient Opinion;;;;;;;;;;;;x
-humble_opinion;Humble Opinion;;;;;;;;;;;;x
+proud_opinion;骄傲好感;;;;;;;;;;;;x
+patient_opinion;耐心好感;;;;;;;;;;;;x
+humble_opinion;谦卑好感;;;;;;;;;;;;x
 proud_opinion_EXPLANATION; (effect on Proud);;;;;;;;;;;;x
 patient_opinion_EXPLANATION; (effect on Patient);;;;;;;;;;;;x
 humble_opinion_EXPLANATION; (effect on Humble);;;;;;;;;;;;x
@@ -19366,7 +19366,7 @@ restore_roman_empire_desc;[Root.GetRestoreRomanEmpireDesc];;;;;;;;;;;;x
 string_restore_roman_empire_desc;If Rome and other key territories of the old empire could be reclaimed, the Byzantine Empire would win recognition in the eyes of the West as the true and rightful continuation of the Roman State.;;;;;;;;;;;;x
 string_restore_roman_empire_altstart_desc;If we retake control over enough former provinces of the old empire, [Root.PrimaryTitle.GetName] would be reborn once again as [e_roman_empire.GetName].;;;;;;;;;;;;x
 EVTTOOLTIPLoR.20;[e_roman_empire.GetNameCap] is restored.;;;;;;;;;;;;x
-nick_the_knight_of_turnips;the Knight of Turnips;;;;;;;;;;;;x
+nick_the_knight_of_turnips;芜菁骑士;;;;;;;;;;;;x
 EVTOPTLUAHF22022;[From.GetSheHeCap] just needs a good beating, that is all!;;;;;;;;;;;;x
 EVTOPTLUBHF22022;Such poetry and wit, [From.GetFirstName]!;;;;;;;;;;;;x
 tooltip_22022_LUB;Compliment §Y[From.GetTitledFirstName]§! for [From.GetHerHis] vocabulary, preventing [From.GetHerHim] from §YAntagonizing§! you for some time.;;;;;;;;;;;;x
@@ -19630,7 +19630,7 @@ COMPL_KAILASH_GUARDIAN_FEMALE;Guardian;;;;;;;;;;;;x
 kailash_guardian;Kailash Guardian;;;;;;;;;;;;x
 kailash_guardian_desc;A Guardian of Kailash is steadfast in their defense of the holy mountain of Kailash They fight for the Bön faith.;;;;;;;;;;;;x
 religion_patriarchal;Agnatic Clans;;;;;;;;;;;;x
-west_slavic_opinion;[west_slavic.GetGroupName] Opinion;;;;;;;;;;;;x
+west_slavic_opinion;[west_slavic.GetGroupName]好感;;;;;;;;;;;;x
 lcr_male;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
 lcr_male_desc;[This.Founder.GetTitledFirstName] managed to unite the formerly disparate East and West Slavic people under [This.Founder.GetHerHis] rule.;;;;;;;;;;;;x
 lcr_female;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
@@ -19691,12 +19691,12 @@ arwa_desc;A powerful woman, Arwa was known for her intelligence and knowledge of
 philippe_capet_desc;腓力是第三次十字军东征中一位虔诚而受人尊敬的领袖，他在与异端分子和异教徒的斗争中立下赫赫战功。;;;;;;;;;;;;x
 barbarossa_desc;An able ruler, Frederick 'Barbarossa' was known both as a warrior who sought to control the rebel Italian princes and as a skilled lawmaker.;;;;;;;;;;;;x
 premyslid_desc;Despite his involvement in the murder of his elder brother, Boleslav was a tenacious leader who significantly strengthened the Bohemian realm.;;;;;;;;;;;;x
-christian_church_opinion;[christian.GetGroupName] Church Opinion;;;;;;;;;;;;x
-muslim_church_opinion;[muslim.GetGroupName] Church Opinion;;;;;;;;;;;;x
-pagan_group_church_opinion;[pagan_group.GetGroupName] Church Opinion;;;;;;;;;;;;x
-zoroastrian_group_church_opinion;[zoroastrian_group.GetGroupName] Church Opinion;;;;;;;;;;;;x
-jewish_group_church_opinion;[jewish_group.GetGroupName] Church Opinion;;;;;;;;;;;;x
-indian_group_church_opinion;[indian_group.GetGroupName] Church Opinion;;;;;;;;;;;;x
+christian_church_opinion;[christian.GetGroupName]教会好感;;;;;;;;;;;;x
+muslim_church_opinion;[muslim.GetGroupName]教会好感;;;;;;;;;;;;x
+pagan_group_church_opinion;[pagan_group.GetGroupName]教会好感;;;;;;;;;;;;x
+zoroastrian_group_church_opinion;[zoroastrian_group.GetGroupName]教会好感;;;;;;;;;;;;x
+jewish_group_church_opinion;[jewish_group.GetGroupName]教会好感;;;;;;;;;;;;x
+indian_group_church_opinion;[indian_group.GetGroupName]教会好感;;;;;;;;;;;;x
 SM_UI_SCALE;UI Scale (experimental);;;;;;;;;;;;x
 EVTDESC_HFP_10104_E;"They say you are famous for your [Root.GetMilitarySquadPride]", my [other_combatant.GetRootRelation] mocks me. "Not saving you this time, is it?!" [other_combatant.GetSheHe] bellows, swinging [other_combatant.GetHerHis] [other_combatant.GetDuelWeapon] furiously. My heart pounding, I suddenly find myself covered in something wet and sticky. My entrails are spilling out through a gash in my stomach...;;;;;;;;;;;;x
 warrior_lodge_west_african_real;The Children of the Storm;;;;;;;;;;;;x
@@ -19777,28 +19777,28 @@ String_heavy;heavy;;;;;;;;;;;;x
 String_light;light;;;;;;;;;;;;x
 String_light_and_heavy_rains;有些地方面临着洪水风险，其他地方则享受着细雨润物。;;;;;;;;;;;;x
 String_risk_and_actual_drought;while the winds could still change, there are provinces where the drought has gone on too long.;;;;;;;;;;;;x
-String_consequence_of_heavy_rain;"We should probably keep an eye on the water levels in the region", one councilor suggests. "There are many ways to tackle this, my [Root.GetLordLady]", another interjects.;;;;;;;;;;;;x
+String_consequence_of_heavy_rain;「我们也许应该注意地区的水位」，一个内阁成员如此建议。「我[Root.GetLordLady]，我们有很多方法处理它」，另一个内阁成员插话说。;;;;;;;;;;;;x
 String_consequence_of_light_rain;为了接下来的日子，我们应该充实仓廪！;;;;;;;;;;;;x
 String_consequence_of_drought_risk;如果让它继续下去，那么领地里没有人能在接下来的非常时期里安然无恙。;;;;;;;;;;;;x
 String_consequence_of_drought;有人说这事都怨我，因为我对[Root.PrimaryTitle.GetName]的统治是失败的。;;;;;;;;;;;;x
 String_consequence_of_mixed_rain;\n「我[Root.GetLordLady]？」，我的[Root.GetMyTreasurerName][my_steward.GetTitledFirstName]打断了我的思考，显然是期待我对天气预报作出反应。;;;;;;;;;;;;x
 String_consequence_of_mixed_drought;I am told that the country is becoming a harsh environment for civilized people, and that people are fighting over every single drop of water. "We have some private stores in the [Root.GetCapitalHolding], of course", my council reminds me.;;;;;;;;;;;;x
 EVTOPTA_HF_15111_TT;你确保§Y[This.GetName]§!为应对状况而做好了进一步的准备。;;;;;;;;;;;;x
-local_relief_efforts_food;Relief Efforts;;;;;;;;;;;;x
+local_relief_efforts_food;救灾工作;;;;;;;;;;;;x
 local_relief_efforts_food_desc;这个地区从首都处接受了食物货运。;;;;;;;;;;;;x
 superstitious_ruler;迷信的统治者;;;;;;;;;;;;x
 superstitious_ruler_desc;This ruler is turning to religion, praying to [Root.Religion.GetHighGodName] to end the drought slowly taking its toll on [Root.PrimaryTitle.GetName].;;;;;;;;;;;;x
-focused_traders;Focused Traders;;;;;;;;;;;;x
+focused_traders;专注的商人;;;;;;;;;;;;x
 focused_traders_desc;The traders in this area are encouraged to bring in far away goods, maintaining a steady flow of vital resources throughout the realm.;;;;;;;;;;;;x
 improved_irrigation;改进灌溉;;;;;;;;;;;;x
-improved_irrigation_desc;Efforts have been put into improving irrigation in this area.;;;;;;;;;;;;x
+improved_irrigation_desc;为改进本地灌溉而付出了很多努力。;;;;;;;;;;;;x
 water_watch_1;河流巡逻队;;;;;;;;;;;;x
 water_watch_1_desc;A message system has been put into place to warn for flooding in this area. An effort has also been put into shoring up riverbanks.;;;;;;;;;;;;x
 water_watch_2;道路巡逻队;;;;;;;;;;;;x
-water_watch_2_desc;Guards patrol this area, making sure that travelers are not caught in landslides caused by the heavy rain.;;;;;;;;;;;;x
-water_watch_1_tt;All of your direct demesne provinces with §Y'Heavy Rain'§! get '§YRiver Patrols§!' for five years, giving the following effects:\nLocal Revolt Risk: §G-1.0%§!\nMorale of Armies: §G+5.0%§!\nCulture Technology Points: §G+0.05%§!;;;;;;;;;;;;x
-water_watch_2_tt;All of your direct demesne provinces with §Y'Heavy Rain'§! get '§YRoad Patrols§!' for five years, giving the following effects:\nLocal Revolt Risk: §G-1.0%§!\nMorale of Armies: §G+5.0%§!\nCulture Technology Points: §G+0.05%§!;;;;;;;;;;;;x
-africa_surplus_grain_tt;All of your direct demesne provinces with §Y'Light Rain'§! or §Y'Heavy Rain'§! will be more likely to withstand drought related hardships in the future.;;;;;;;;;;;;x
+water_watch_2_desc;卫兵会在这个区域巡逻，确保旅行者没有因暴雨而陷入山体滑坡。;;;;;;;;;;;;x
+water_watch_1_tt;你所有的处于§Y「暴雨」§!的直辖领地获得为期五年的「§Y河流巡逻队§!」，得到以下效果：\n本地叛乱风险：§G-1.0%§!\n军队士气：§G+5.0%§!\n文化科技点数：§G+0.05%§!;;;;;;;;;;;;x
+water_watch_2_tt;你所有的处于§Y「暴雨」§!的直辖领地获得为期五年的「§Y道路巡逻队§!」，得到以下效果：\n本地叛乱风险：§G-1.0%§!\n军队士气：§G+5.0%§!\n文化科技点数：§G+0.05%§!;;;;;;;;;;;;x
+africa_surplus_grain_tt;你所有的处于§Y「小雨」§!或§Y「暴雨」§!的直辖领地在以后更有可能抵御与干旱有关的困难。;;;;;;;;;;;;x
 EVTTITLE_HF_15121;[flooded_province.GetName]发生山体滑坡;;;;;;;;;;;;x
 EVTDESC_HF_15121;[flooded_province.GetName]正遭受暴雨的侵袭。现在一场严重的山体滑坡席卷了该省的心脏地带，带走了人口甚至建筑物。当我的议会向我提出我们面临的选择时，气氛十分严峻。;;;;;;;;;;;;x
 EVTOPTA_HF_15121;我们必须设法拯救人民。;;;;;;;;;;;;x
@@ -19831,8 +19831,8 @@ EVTDESC_HF_12010_X;I have been following a rumor, trying to track down what is s
 EVTOPTA_HF_12010_X;I will not go easy on you, just because you're old!;;;;;;;;;;;;x
 EVTOPTA_HF_12010_X_TT;The [combatant_2.GetManWoman] throws off [combatant_2.GetHerHis] cowl, accepting your challenge.;;;;;;;;;;;;x
 EVTDESC_HF_12010_Y;I've partaken in a local tournament, and I have been knocking out [target_ruler.Culture.GetName] fighters with ease. Grinning, I search the crowd for the face of [fellow_member.GetFirstName], who has been cheering me on. I find [fellow_member.GetHerHim] looking a bit pale. Turning to face my final foe I hear someone shouting an introduction: "[combatant_2.GetBestName]!";;;;;;;;;;;;x
-EVTOPTA_HF_12010_Y;Finally, a challenge!;;;;;;;;;;;;x
-EVTOPTA_HF_12010_Y_TT;You will duel the tallest [combatant_2.GetManWoman] you have ever seen.;;;;;;;;;;;;x
+EVTOPTA_HF_12010_Y;终于，一个挑战！;;;;;;;;;;;;x
+EVTOPTA_HF_12010_Y_TT;你将与你曾见过的最高的[combatant_2.GetManWoman]决斗。;;;;;;;;;;;;x
 EVTDESC_HF_12010_Z;Rumors of my adventures have been spreading here in [target_title.GetName] and I have received a personal invite from [target_ruler.GetTitledFirstName], to appear at [target_ruler.GetHerHis] court. "To the brute [Root.GetFirstName]. If you insist on causing trouble like this, you will fight someone I choose", the pompous messenger reads.;;;;;;;;;;;;x
 EVTOPTA_HF_12010_Z;I am not afraid. I will duel any of [target_ruler.GetHerHis] champions!;;;;;;;;;;;;x
 EVTOPTA_HF_12010_Z_TT;As you accept, the messenger snickers.;;;;;;;;;;;;x
