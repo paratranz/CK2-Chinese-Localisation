@@ -169,1068 +169,1108 @@ character_event = {
                                 NOT = {
                                     num_of_count_titles_in_realm = 20
                                 }
+                                num_of_count_titles_in_realm > 0
                             }
-                            any_independent_ruler = num_of_count_titles_in_realm > 0
                         }
-                    }
-                    AND = {
-                        has_policy = china_expansionist
-                        any_independent_ruler = {
-                            valid_offmap_china_target_location = yes
-                            num_of_count_titles_in_realm = 15
-                            valid_offmap_china_target = yes
-                        }
-                    }
-                }
-            }
-            modifier = {
-                factor = 1.5
-                has_offmap_tmp_flag = WP_is_not_on_map
-            }
-            modifier = {
-                factor = 1.5
-                OR = {
-                    china_is_stable_expansionist_trigger = yes
-                    china_is_golden_age_open_trigger = yes
-                }
-            }
-            modifier = {
-                factor = 10
-                OR = {
-                    AND = {
-                        china_is_stable_open_trigger = yes
-                        NOT = {
-                            any_playable_ruler = {
-                                count = 4
-                                is_tributary = {
-                                    suzerain = ROOT
-                                }
+                        AND = {
+                            has_policy = china_expansionist
+                            any_independent_ruler = {
+                                valid_offmap_china_target_location = yes
+                                num_of_count_titles_in_realm = 15
+                                valid_offmap_china_target = yes
                             }
                         }
                     }
-                    AND = {
+                }
+                modifier = {
+                    factor = 1.5
+                    has_offmap_tmp_flag = WP_is_not_on_map
+                }
+                modifier = {
+                    factor = 1.5
+                    OR = {
+                        china_is_stable_expansionist_trigger = yes
                         china_is_golden_age_open_trigger = yes
-                        NOT = {
-                            any_playable_ruler = {
-                                count = 9
-                                is_tributary = {
-                                    suzerain = ROOT
+                    }
+                }
+                modifier = {
+                    factor = 10
+                    OR = {
+                        AND = {
+                            china_is_stable_open_trigger = yes
+                            NOT = {
+                                any_playable_ruler = {
+                                    count = 4
+                                    is_tributary = {
+                                        suzerain = ROOT
+                                    }
                                 }
                             }
                         }
-                    }
-                }
-            }
-            modifier = {
-                factor = 2
-                has_status = china_golden_age
-            }
-            random_list = {
-                10 = {
-                    trigger = {
-                        OR = {
+                        AND = {
+                            china_is_golden_age_open_trigger = yes
                             NOT = {
-                                has_policy = china_expansionist
-                            }
-                            AND = {
-                                has_policy = china_expansionist
-                                NOT = {
-                                    any_independent_ruler = {
-                                        valid_offmap_china_target_location = yes
-                                        num_of_count_titles_in_realm = 15
-                                        valid_offmap_china_target = yes
+                                any_playable_ruler = {
+                                    count = 9
+                                    is_tributary = {
+                                        suzerain = ROOT
                                     }
                                 }
                             }
                         }
                     }
-                    random_independent_ruler = {
-                        limit = {
-                            valid_offmap_china_target_location = yes
-                            valid_offmap_china_target = yes
-                            NOT = {
-                                num_of_count_titles_in_realm = 20
+                }
+                modifier = {
+                    factor = 2
+                    has_status = china_golden_age
+                }
+                random_list = {
+                    10 = {
+                        trigger = {
+                            OR = {
+                                NOT = {
+                                    has_policy = china_expansionist
+                                }
+                                AND = {
+                                    has_policy = china_expansionist
+                                    NOT = {
+                                        any_independent_ruler = {
+                                            valid_offmap_china_target_location = yes
+                                            num_of_count_titles_in_realm = 15
+                                            valid_offmap_china_target = yes
+                                        }
+                                    }
+                                }
                             }
                         }
-                        limit = num_of_count_titles_in_realm > 0
-                    }
-                    save_event_target_as = chinese_invasion_target
-                }
-                random_independent_ruler = {
-                    limit = {
-                        valid_offmap_china_target_location = yes
-                        valid_offmap_china_target = yes
-                        NOT = {
-                            num_of_count_titles_in_realm = 20
-                        }
-                        num_of_count_titles_in_realm > 0 NOT = {
-                            has_character_modifier = china_supply_horses
-                        }
-                    }
-                    save_event_target_as = chinese_invasion_target
-                }
-                random_independent_ruler = {
-                    limit = {
-                        valid_offmap_china_target_location = yes
-                        valid_offmap_china_target = yes
-                        NOT = {
-                            has_character_modifier = china_supply_horses
-                        }
-                        has_character_modifier = china_raid_active
-                    }
-                    save_event_target_as = chinese_invasion_target
-                }
-                random_independent_ruler = {
-                    limit = {
-                        valid_offmap_china_target = yes
-                        valid_offmap_china_target_location = yes
-                        NOT = {
-                            num_of_count_titles_in_realm = 20
-                        }
-                    }
-                    limit = num_of_count_titles_in_realm > 0
-                }
-                save_event_target_as = chinese_invasion_target
-            }
-            random_independent_ruler = {
-                limit = {
-                    valid_offmap_china_target = yes
-                    valid_offmap_china_target_location = yes
-                    NOT = {
-                        num_of_count_titles_in_realm = 20
-                    }
-                    num_of_count_titles_in_realm > 0 NOT = {
-                        has_character_modifier = china_supply_horses
-                    }
-                }
-                save_event_target_as = chinese_invasion_target
-            }
-            random_independent_ruler = {
-                limit = {
-                    valid_offmap_china_target = yes
-                    valid_offmap_china_target_location = yes
-                    NOT = {
-                        num_of_count_titles_in_realm = 20
-                    }
-                    num_of_count_titles_in_realm > 0 NOT = {
-                        has_character_modifier = china_supply_horses
-                    }
-                    has_character_modifier = china_raid_active
-                }
-                save_event_target_as = chinese_invasion_target
-            }
-            random_independent_ruler = {
-                limit = {
-                    valid_offmap_china_target = yes
-                    valid_offmap_china_target_location = yes
-                    NOT = {
-                        num_of_count_titles_in_realm = 20
-                    }
-                    num_of_count_titles_in_realm > 0 liked_by_offmap = {
-                        type = offmap_china
-                    }
-                    NOT = {
-                        disliked_by_offmap = {
-                            type = offmap_china
-                        }
-                    }
-                }
-                save_event_target_as = chinese_invasion_target
-            }
-            random_independent_ruler = {
-                limit = {
-                    valid_offmap_china_target = yes
-                    valid_offmap_china_target_location = yes
-                    NOT = {
-                        num_of_count_titles_in_realm = 20
-                    }
-                    num_of_count_titles_in_realm > 0 liked_by_offmap = {
-                        type = offmap_china
-                    }
-                    NOT = {
-                        disliked_by_offmap = {
-                            type = offmap_china
-                        }
-                    }
-                    NOT = {
-                        has_character_modifier = china_supply_horses
-                    }
-                }
-                save_event_target_as = chinese_invasion_target
-            }
-            random_independent_ruler = {
-                limit = {
-                    valid_offmap_china_target = yes
-                    valid_offmap_china_target_location = yes
-                    NOT = {
-                        num_of_count_titles_in_realm = 20
-                    }
-                    num_of_count_titles_in_realm > 0 liked_by_offmap = {
-                        type = offmap_china
-                    }
-                    NOT = {
-                        disliked_by_offmap = {
-                            type = offmap_china
-                        }
-                    }
-                    NOT = {
-                        has_character_modifier = china_supply_horses
-                    }
-                    has_character_modifier = china_raid_active
-                }
-                save_event_target_as = chinese_invasion_target
-            }
-            random_independent_ruler = {
-                limit = {
-                    valid_offmap_china_target_location_tributary_chain = yes
-                    valid_offmap_china_target = yes
-                    NOT = {
-                        num_of_count_titles_in_realm = 20
-                    }
-                }
-                limit = num_of_count_titles_in_realm > 0
-            }
-            save_event_target_as = chinese_invasion_target
-        }
-        random_independent_ruler = {
-            limit = {
-                valid_offmap_china_target_location_tributary_chain = yes
-                valid_offmap_china_target = yes
-                NOT = {
-                    num_of_count_titles_in_realm = 20
-                }
-                num_of_count_titles_in_realm > 0 NOT = {
-                    has_character_modifier = china_supply_horses
-                }
-            }
-            save_event_target_as = chinese_invasion_target
-        }
-        random_independent_ruler = {
-            limit = {
-                valid_offmap_china_target_location_tributary_chain = yes
-                valid_offmap_china_target = yes
-                NOT = {
-                    has_character_modifier = china_supply_horses
-                }
-                has_character_modifier = china_raid_active
-            }
-            save_event_target_as = chinese_invasion_target
-        }
-        random_independent_ruler = {
-            limit = {
-                valid_offmap_china_target = yes
-                valid_offmap_china_target_location_tributary_chain = yes
-                NOT = {
-                    num_of_count_titles_in_realm = 20
-                }
-            }
-            limit = num_of_count_titles_in_realm > 0
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target = yes
-            valid_offmap_china_target_location_tributary_chain = yes
-            NOT = {
-                num_of_count_titles_in_realm = 20
-            }
-            num_of_count_titles_in_realm > 0 NOT = {
-                has_character_modifier = china_supply_horses
-            }
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target = yes
-            valid_offmap_china_target_location_tributary_chain = yes
-            NOT = {
-                num_of_count_titles_in_realm = 20
-            }
-            num_of_count_titles_in_realm > 0 NOT = {
-                has_character_modifier = china_supply_horses
-            }
-            has_character_modifier = china_raid_active
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target = yes
-            valid_offmap_china_target_location_tributary_chain = yes
-            NOT = {
-                num_of_count_titles_in_realm = 20
-            }
-            num_of_count_titles_in_realm > 0 liked_by_offmap = {
-                type = offmap_china
-            }
-            NOT = {
-                disliked_by_offmap = {
-                    type = offmap_china
-                }
-            }
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target = yes
-            valid_offmap_china_target_location_tributary_chain = yes
-            NOT = {
-                num_of_count_titles_in_realm = 20
-            }
-            num_of_count_titles_in_realm > 0 liked_by_offmap = {
-                type = offmap_china
-            }
-            NOT = {
-                disliked_by_offmap = {
-                    type = offmap_china
-                }
-            }
-            NOT = {
-                has_character_modifier = china_supply_horses
-            }
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target = yes
-            valid_offmap_china_target_location_tributary_chain = yes
-            NOT = {
-                num_of_count_titles_in_realm = 20
-            }
-            num_of_count_titles_in_realm > 0 liked_by_offmap = {
-                type = offmap_china
-            }
-            NOT = {
-                disliked_by_offmap = {
-                    type = offmap_china
-                }
-            }
-            NOT = {
-                has_character_modifier = china_supply_horses
-            }
-            has_character_modifier = china_raid_active
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-}
-10 = {
-    trigger = {
-        has_policy = china_expansionist
-        any_independent_ruler = {
-            valid_offmap_china_target_location = yes
-            num_of_count_titles_in_realm = 15
-            valid_offmap_china_target = yes
-        }
-    }
-    modifier = {
-        factor = 10
-        china_is_golden_age_expansionist_trigger = yes
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target_location = yes
-            num_of_count_titles_in_realm = 15
-            valid_offmap_china_target = yes
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target_location = yes
-            num_of_count_titles_in_realm = 15
-            valid_offmap_china_target = yes
-            NOT = {
-                has_character_modifier = china_supply_horses
-            }
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target_location = yes
-            num_of_count_titles_in_realm = 15
-            valid_offmap_china_target = yes
-            NOT = {
-                has_character_modifier = china_supply_horses
-            }
-            has_character_modifier = china_raid_active
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target_location = yes
-            num_of_count_titles_in_realm = 20
-            valid_offmap_china_target = yes
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target_location = yes
-            num_of_count_titles_in_realm = 20
-            valid_offmap_china_target = yes
-            NOT = {
-                has_character_modifier = china_supply_horses
-            }
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target_location = yes
-            num_of_count_titles_in_realm = 20
-            valid_offmap_china_target = yes
-            NOT = {
-                has_character_modifier = china_supply_horses
-            }
-            has_character_modifier = china_raid_active
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    if = {
-        limit = {
-            has_policy = china_expansionist
-        }
-        random_independent_ruler = {
-            limit = {
-                valid_offmap_china_target = yes
-                valid_offmap_china_target_location = yes
-                num_of_count_titles_in_realm = 20
-                liked_by_offmap = {
-                    type = offmap_china
-                }
-                NOT = {
-                    disliked_by_offmap = {
-                        type = offmap_china
-                    }
-                }
-            }
-            save_event_target_as = chinese_invasion_target
-        }
-    }
-    if = {
-        limit = {
-            has_policy = china_expansionist
-        }
-        random_independent_ruler = {
-            limit = {
-                valid_offmap_china_target = yes
-                valid_offmap_china_target_location = yes
-                num_of_count_titles_in_realm = 20
-                liked_by_offmap = {
-                    type = offmap_china
-                }
-                NOT = {
-                    disliked_by_offmap = {
-                        type = offmap_china
-                    }
-                }
-                NOT = {
-                    has_character_modifier = china_supply_horses
-                }
-            }
-            save_event_target_as = chinese_invasion_target
-        }
-    }
-    if = {
-        limit = {
-            has_policy = china_expansionist
-        }
-        random_independent_ruler = {
-            limit = {
-                valid_offmap_china_target = yes
-                valid_offmap_china_target_location = yes
-                num_of_count_titles_in_realm = 20
-                liked_by_offmap = {
-                    type = offmap_china
-                }
-                NOT = {
-                    disliked_by_offmap = {
-                        type = offmap_china
-                    }
-                }
-                NOT = {
-                    has_character_modifier = china_supply_horses
-                }
-                has_character_modifier = china_raid_active
-            }
-            save_event_target_as = chinese_invasion_target
-        }
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target_location_tributary_chain = yes
-            num_of_count_titles_in_realm = 15
-            valid_offmap_china_target = yes
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target_location_tributary_chain = yes
-            num_of_count_titles_in_realm = 15
-            valid_offmap_china_target = yes
-            NOT = {
-                has_character_modifier = china_supply_horses
-            }
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target_location_tributary_chain = yes
-            num_of_count_titles_in_realm = 15
-            valid_offmap_china_target = yes
-            NOT = {
-                has_character_modifier = china_supply_horses
-            }
-            has_character_modifier = china_raid_active
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target_location_tributary_chain = yes
-            num_of_count_titles_in_realm = 20
-            valid_offmap_china_target = yes
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target_location_tributary_chain = yes
-            num_of_count_titles_in_realm = 20
-            valid_offmap_china_target = yes
-            NOT = {
-                has_character_modifier = china_supply_horses
-            }
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    random_independent_ruler = {
-        limit = {
-            valid_offmap_china_target_location_tributary_chain = yes
-            num_of_count_titles_in_realm = 20
-            valid_offmap_china_target = yes
-            NOT = {
-                has_character_modifier = china_supply_horses
-            }
-            has_character_modifier = china_raid_active
-        }
-        save_event_target_as = chinese_invasion_target
-    }
-    if = {
-        limit = {
-            has_policy = china_expansionist
-        }
-        random_independent_ruler = {
-            limit = {
-                valid_offmap_china_target = yes
-                valid_offmap_china_target_location_tributary_chain = yes
-                num_of_count_titles_in_realm = 20
-                liked_by_offmap = {
-                    type = offmap_china
-                }
-                NOT = {
-                    disliked_by_offmap = {
-                        type = offmap_china
-                    }
-                }
-            }
-            save_event_target_as = chinese_invasion_target
-        }
-    }
-    if = {
-        limit = {
-            has_policy = china_expansionist
-        }
-        random_independent_ruler = {
-            limit = {
-                valid_offmap_china_target = yes
-                valid_offmap_china_target_location_tributary_chain = yes
-                num_of_count_titles_in_realm = 20
-                liked_by_offmap = {
-                    type = offmap_china
-                }
-                NOT = {
-                    disliked_by_offmap = {
-                        type = offmap_china
-                    }
-                }
-                NOT = {
-                    has_character_modifier = china_supply_horses
-                }
-            }
-            save_event_target_as = chinese_invasion_target
-        }
-    }
-    if = {
-        limit = {
-            has_policy = china_expansionist
-        }
-        random_independent_ruler = {
-            limit = {
-                valid_offmap_china_target = yes
-                valid_offmap_china_target_location_tributary_chain = yes
-                num_of_count_titles_in_realm = 20
-                liked_by_offmap = {
-                    type = offmap_china
-                }
-                NOT = {
-                    disliked_by_offmap = {
-                        type = offmap_china
-                    }
-                }
-                NOT = {
-                    has_character_modifier = china_supply_horses
-                }
-                has_character_modifier = china_raid_active
-            }
-            save_event_target_as = chinese_invasion_target
-        }
-    }
-}
-event_target = chinese_invasion_target = {
-    character_event = {
-        id = JD.10130
-    }
-}
-100 = {
-    trigger = {
-        NOT = {
-            has_offmap_tmp_flag = pretender_chinese_empire_exists
-        }
-        NOT = {
-            has_offmap_tmp_flag = major_invasion_fired
-        }
-        NOT = {
-            has_offmap_tmp_flag = attacked_small_neighbor
-        }
-        NOT = {
-            has_game_rule = {
-                name = chinese_invasions
-                value = no_major_invasions
-            }
-        }
-        OR = {
-            AND = {
-                NOT = {
-                    completely_controls = d_jiuquan
-                }
-                d_jiuquan = {
-                    any_direct_de_jure_vassal_title = {
-                        holder_scope = {
-                            top_liege = {
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location = yes
                                 valid_offmap_china_target = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                num_of_count_titles_in_realm > 0
                             }
+                            save_event_target_as = chinese_invasion_target
                         }
-                    }
-                }
-            }
-            AND = {
-                has_policy = china_expansionist
-                OR = {
-                    AND = {
-                        has_offmap_tmp_flag = WP_is_on_map
-                        any_independent_ruler = {
-                            valid_offmap_china_target_location = yes
-                            is_nomadic = no
-                            num_of_count_titles_in_realm = 15
-                            NOT = {
-                                num_of_count_titles_in_realm = 30
-                            }
-                            valid_offmap_china_target = yes
-                        }
-                    }
-                    AND = {
-                        has_offmap_tmp_flag = WP_is_not_on_map
-                        any_independent_ruler = {
-                            capital_scope = {
-                                region = custom_eastern_edge_of_map
-                            }
-                            is_nomadic = no
-                            num_of_count_titles_in_realm = 10
-                            NOT = {
-                                num_of_count_titles_in_realm = 40
-                            }
-                            valid_offmap_china_target = yes
-                        }
-                    }
-                }
-            }
-            AND = {
-                has_policy = china_expansionist
-                OR = {
-                    AND = {
-                        has_offmap_tmp_flag = WP_is_on_map
-                        any_independent_ruler = {
-                            valid_offmap_china_target_location = yes
-                            is_nomadic = no
-                            num_of_count_titles_in_realm = 20
-                            valid_offmap_china_target = yes
-                        }
-                    }
-                    AND = {
-                        has_offmap_tmp_flag = WP_is_not_on_map
-                        any_independent_ruler = {
-                            capital_scope = {
-                                region = custom_eastern_edge_of_map
-                            }
-                            is_nomadic = no
-                            num_of_count_titles_in_realm = 20
-                            valid_offmap_china_target = yes
-                        }
-                    }
-                }
-            }
-            AND = {
-                has_offmap_tmp_flag = WP_is_on_map
-                any_neighbor_independent_ruler = {
-                    valid_offmap_china_target_location = yes
-                    valid_offmap_china_target = yes
-                    higher_real_tier_than = BARON
-                    is_nomadic = no
-                }
-            }
-        }
-    }
-    modifier = {
-        factor = 1.5
-        has_status = china_golden_age
-    }
-    modifier = {
-        factor = 3
-        has_policy = china_expansionist
-    }
-    modifier = {
-        factor = 4
-        china_is_golden_age_expansionist_trigger = yes
-    }
-    modifier = {
-        factor = 2
-        has_offmap_tmp_flag = WP_is_not_on_map
-        OR = {
-            has_status = china_golden_age
-            has_policy = china_expansionist
-        }
-    }
-    random_list = {
-        100 = {
-            trigger = {
-                NOT = {
-                    completely_controls = d_jiuquan
-                }
-                d_jiuquan = {
-                    any_direct_de_jure_vassal_title = {
-                        holder_scope = {
-                            top_liege = {
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location = yes
                                 valid_offmap_china_target = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                num_of_count_titles_in_realm > 0
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
                             }
+                            save_event_target_as = chinese_invasion_target
                         }
-                    }
-                }
-            }
-            d_jiuquan = {
-                any_direct_de_jure_vassal_title = {
-                    add_claim = ROOT
-                }
-                random_direct_de_jure_vassal_title = {
-                    limit = {
-                        holder_scope = {
-                            top_liege = {
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location = yes
                                 valid_offmap_china_target = yes
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                                has_character_modifier = china_raid_active
                             }
+                            save_event_target_as = chinese_invasion_target
                         }
-                    }
-                    holder_scope = {
-                        top_liege = {
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target = yes
+                                valid_offmap_china_target_location = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                num_of_count_titles_in_realm > 0
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target = yes
+                                valid_offmap_china_target_location = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                num_of_count_titles_in_realm > 0
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target = yes
+                                valid_offmap_china_target_location = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                num_of_count_titles_in_realm > 0
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                                has_character_modifier = china_raid_active
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target = yes
+                                valid_offmap_china_target_location = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                num_of_count_titles_in_realm > 0
+                                liked_by_offmap = {
+                                    type = offmap_china
+                                }
+                                NOT = {
+                                    disliked_by_offmap = {
+                                        type = offmap_china
+                                    }
+                                }
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target = yes
+                                valid_offmap_china_target_location = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                num_of_count_titles_in_realm > 0
+                                liked_by_offmap = {
+                                    type = offmap_china
+                                }
+                                NOT = {
+                                    disliked_by_offmap = {
+                                        type = offmap_china
+                                    }
+                                }
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target = yes
+                                valid_offmap_china_target_location = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                num_of_count_titles_in_realm > 0
+                                liked_by_offmap = {
+                                    type = offmap_china
+                                }
+                                NOT = {
+                                    disliked_by_offmap = {
+                                        type = offmap_china
+                                    }
+                                }
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                                has_character_modifier = china_raid_active
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location_tributary_chain = yes
+                                valid_offmap_china_target = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                num_of_count_titles_in_realm > 0
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location_tributary_chain = yes
+                                valid_offmap_china_target = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                num_of_count_titles_in_realm > 0
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location_tributary_chain = yes
+                                valid_offmap_china_target = yes
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                                has_character_modifier = china_raid_active
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target = yes
+                                valid_offmap_china_target_location_tributary_chain = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                num_of_count_titles_in_realm > 0
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target = yes
+                                valid_offmap_china_target_location_tributary_chain = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                num_of_count_titles_in_realm > 0
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target = yes
+                                valid_offmap_china_target_location_tributary_chain = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                num_of_count_titles_in_realm > 0
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                                has_character_modifier = china_raid_active
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target = yes
+                                valid_offmap_china_target_location_tributary_chain = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                num_of_count_titles_in_realm > 0
+                                liked_by_offmap = {
+                                    type = offmap_china
+                                }
+                                NOT = {
+                                    disliked_by_offmap = {
+                                        type = offmap_china
+                                    }
+                                }
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target = yes
+                                valid_offmap_china_target_location_tributary_chain = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                num_of_count_titles_in_realm > 0
+                                liked_by_offmap = {
+                                    type = offmap_china
+                                }
+                                NOT = {
+                                    disliked_by_offmap = {
+                                        type = offmap_china
+                                    }
+                                }
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target = yes
+                                valid_offmap_china_target_location_tributary_chain = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                num_of_count_titles_in_realm > 0
+                                liked_by_offmap = {
+                                    type = offmap_china
+                                }
+                                NOT = {
+                                    disliked_by_offmap = {
+                                        type = offmap_china
+                                    }
+                                }
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                                has_character_modifier = china_raid_active
+                            }
                             save_event_target_as = chinese_invasion_target
                         }
                     }
+                    10 = {
+                        trigger = {
+                            has_policy = china_expansionist
+                            any_independent_ruler = {
+                                valid_offmap_china_target_location = yes
+                                num_of_count_titles_in_realm = 15
+                                valid_offmap_china_target = yes
+                            }
+                        }
+                        modifier = {
+                            factor = 10
+                            china_is_golden_age_expansionist_trigger = yes
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location = yes
+                                num_of_count_titles_in_realm = 15
+                                valid_offmap_china_target = yes
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location = yes
+                                num_of_count_titles_in_realm = 15
+                                valid_offmap_china_target = yes
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location = yes
+                                num_of_count_titles_in_realm = 15
+                                valid_offmap_china_target = yes
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                                has_character_modifier = china_raid_active
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location = yes
+                                num_of_count_titles_in_realm = 20
+                                valid_offmap_china_target = yes
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location = yes
+                                num_of_count_titles_in_realm = 20
+                                valid_offmap_china_target = yes
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location = yes
+                                num_of_count_titles_in_realm = 20
+                                valid_offmap_china_target = yes
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                                has_character_modifier = china_raid_active
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        if = {
+                            limit = {
+                                has_policy = china_expansionist
+                            }
+                            random_independent_ruler = {
+                                limit = {
+                                    valid_offmap_china_target = yes
+                                    valid_offmap_china_target_location = yes
+                                    num_of_count_titles_in_realm = 20
+                                    liked_by_offmap = {
+                                        type = offmap_china
+                                    }
+                                    NOT = {
+                                        disliked_by_offmap = {
+                                            type = offmap_china
+                                        }
+                                    }
+                                }
+                                save_event_target_as = chinese_invasion_target
+                            }
+                        }
+                        if = {
+                            limit = {
+                                has_policy = china_expansionist
+                            }
+                            random_independent_ruler = {
+                                limit = {
+                                    valid_offmap_china_target = yes
+                                    valid_offmap_china_target_location = yes
+                                    num_of_count_titles_in_realm = 20
+                                    liked_by_offmap = {
+                                        type = offmap_china
+                                    }
+                                    NOT = {
+                                        disliked_by_offmap = {
+                                            type = offmap_china
+                                        }
+                                    }
+                                    NOT = {
+                                        has_character_modifier = china_supply_horses
+                                    }
+                                }
+                                save_event_target_as = chinese_invasion_target
+                            }
+                        }
+                        if = {
+                            limit = {
+                                has_policy = china_expansionist
+                            }
+                            random_independent_ruler = {
+                                limit = {
+                                    valid_offmap_china_target = yes
+                                    valid_offmap_china_target_location = yes
+                                    num_of_count_titles_in_realm = 20
+                                    liked_by_offmap = {
+                                        type = offmap_china
+                                    }
+                                    NOT = {
+                                        disliked_by_offmap = {
+                                            type = offmap_china
+                                        }
+                                    }
+                                    NOT = {
+                                        has_character_modifier = china_supply_horses
+                                    }
+                                    has_character_modifier = china_raid_active
+                                }
+                                save_event_target_as = chinese_invasion_target
+                            }
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location_tributary_chain = yes
+                                num_of_count_titles_in_realm = 15
+                                valid_offmap_china_target = yes
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location_tributary_chain = yes
+                                num_of_count_titles_in_realm = 15
+                                valid_offmap_china_target = yes
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location_tributary_chain = yes
+                                num_of_count_titles_in_realm = 15
+                                valid_offmap_china_target = yes
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                                has_character_modifier = china_raid_active
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location_tributary_chain = yes
+                                num_of_count_titles_in_realm = 20
+                                valid_offmap_china_target = yes
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location_tributary_chain = yes
+                                num_of_count_titles_in_realm = 20
+                                valid_offmap_china_target = yes
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location_tributary_chain = yes
+                                num_of_count_titles_in_realm = 20
+                                valid_offmap_china_target = yes
+                                NOT = {
+                                    has_character_modifier = china_supply_horses
+                                }
+                                has_character_modifier = china_raid_active
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        if = {
+                            limit = {
+                                has_policy = china_expansionist
+                            }
+                            random_independent_ruler = {
+                                limit = {
+                                    valid_offmap_china_target = yes
+                                    valid_offmap_china_target_location_tributary_chain = yes
+                                    num_of_count_titles_in_realm = 20
+                                    liked_by_offmap = {
+                                        type = offmap_china
+                                    }
+                                    NOT = {
+                                        disliked_by_offmap = {
+                                            type = offmap_china
+                                        }
+                                    }
+                                }
+                                save_event_target_as = chinese_invasion_target
+                            }
+                        }
+                        if = {
+                            limit = {
+                                has_policy = china_expansionist
+                            }
+                            random_independent_ruler = {
+                                limit = {
+                                    valid_offmap_china_target = yes
+                                    valid_offmap_china_target_location_tributary_chain = yes
+                                    num_of_count_titles_in_realm = 20
+                                    liked_by_offmap = {
+                                        type = offmap_china
+                                    }
+                                    NOT = {
+                                        disliked_by_offmap = {
+                                            type = offmap_china
+                                        }
+                                    }
+                                    NOT = {
+                                        has_character_modifier = china_supply_horses
+                                    }
+                                }
+                                save_event_target_as = chinese_invasion_target
+                            }
+                        }
+                        if = {
+                            limit = {
+                                has_policy = china_expansionist
+                            }
+                            random_independent_ruler = {
+                                limit = {
+                                    valid_offmap_china_target = yes
+                                    valid_offmap_china_target_location_tributary_chain = yes
+                                    num_of_count_titles_in_realm = 20
+                                    liked_by_offmap = {
+                                        type = offmap_china
+                                    }
+                                    NOT = {
+                                        disliked_by_offmap = {
+                                            type = offmap_china
+                                        }
+                                    }
+                                    NOT = {
+                                        has_character_modifier = china_supply_horses
+                                    }
+                                    has_character_modifier = china_raid_active
+                                }
+                                save_event_target_as = chinese_invasion_target
+                            }
+                        }
+                    }
+                }
+                event_target = chinese_invasion_target = {
+                    character_event = {
+                        id = JD.10130
+                    }
                 }
             }
-            set_offmap_tmp_flag = should_claim_all_titles_war
-        }
-        50 = {
-            trigger = {
-                has_policy = china_expansionist
-                OR = {
-                    AND = {
-                        has_offmap_tmp_flag = WP_is_on_map
-                        any_independent_ruler = {
-                            valid_offmap_china_target_location = yes
-                            is_nomadic = no
-                            num_of_count_titles_in_realm = 15
+            100 = {
+                trigger = {
+                    NOT = {
+                        has_offmap_tmp_flag = pretender_chinese_empire_exists
+                    }
+                    NOT = {
+                        has_offmap_tmp_flag = major_invasion_fired
+                    }
+                    NOT = {
+                        has_offmap_tmp_flag = attacked_small_neighbor
+                    }
+                    NOT = {
+                        has_game_rule = {
+                            name = chinese_invasions
+                            value = no_major_invasions
+                        }
+                    }
+                    OR = {
+                        AND = {
                             NOT = {
-                                num_of_count_titles_in_realm = 30
+                                completely_controls = d_jiuquan
                             }
-                            valid_offmap_china_target = yes
+                            d_jiuquan = {
+                                any_direct_de_jure_vassal_title = {
+                                    holder_scope = {
+                                        top_liege = {
+                                            valid_offmap_china_target = yes
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        AND = {
+                            has_policy = china_expansionist
+                            OR = {
+                                AND = {
+                                    has_offmap_tmp_flag = WP_is_on_map
+                                    any_independent_ruler = {
+                                        valid_offmap_china_target_location = yes
+                                        is_nomadic = no
+                                        num_of_count_titles_in_realm = 15
+                                        NOT = {
+                                            num_of_count_titles_in_realm = 30
+                                        }
+                                        valid_offmap_china_target = yes
+                                    }
+                                }
+                                AND = {
+                                    has_offmap_tmp_flag = WP_is_not_on_map
+                                    any_independent_ruler = {
+                                        capital_scope = {
+                                            region = custom_eastern_edge_of_map
+                                        }
+                                        is_nomadic = no
+                                        num_of_count_titles_in_realm = 10
+                                        NOT = {
+                                            num_of_count_titles_in_realm = 40
+                                        }
+                                        valid_offmap_china_target = yes
+                                    }
+                                }
+                            }
+                        }
+                        AND = {
+                            has_policy = china_expansionist
+                            OR = {
+                                AND = {
+                                    has_offmap_tmp_flag = WP_is_on_map
+                                    any_independent_ruler = {
+                                        valid_offmap_china_target_location = yes
+                                        is_nomadic = no
+                                        num_of_count_titles_in_realm = 20
+                                        valid_offmap_china_target = yes
+                                    }
+                                }
+                                AND = {
+                                    has_offmap_tmp_flag = WP_is_not_on_map
+                                    any_independent_ruler = {
+                                        capital_scope = {
+                                            region = custom_eastern_edge_of_map
+                                        }
+                                        is_nomadic = no
+                                        num_of_count_titles_in_realm = 20
+                                        valid_offmap_china_target = yes
+                                    }
+                                }
+                            }
+                        }
+                        AND = {
+                            has_offmap_tmp_flag = WP_is_on_map
+                            any_neighbor_independent_ruler = {
+                                valid_offmap_china_target_location = yes
+                                valid_offmap_china_target = yes
+                                higher_real_tier_than = BARON
+                                is_nomadic = no
+                            }
                         }
                     }
-                    AND = {
-                        has_offmap_tmp_flag = WP_is_not_on_map
-                        any_independent_ruler = {
-                            capital_scope = {
-                                region = custom_eastern_edge_of_map
-                            }
-                            is_nomadic = no
-                            num_of_count_titles_in_realm = 10
+                }
+                modifier = {
+                    factor = 1.5
+                    has_status = china_golden_age
+                }
+                modifier = {
+                    factor = 3
+                    has_policy = china_expansionist
+                }
+                modifier = {
+                    factor = 4
+                    china_is_golden_age_expansionist_trigger = yes
+                }
+                modifier = {
+                    factor = 2
+                    has_offmap_tmp_flag = WP_is_not_on_map
+                    OR = {
+                        has_status = china_golden_age
+                        has_policy = china_expansionist
+                    }
+                }
+                random_list = {
+                    100 = {
+                        trigger = {
                             NOT = {
-                                num_of_count_titles_in_realm = 40
+                                completely_controls = d_jiuquan
                             }
-                            valid_offmap_china_target = yes
-                        }
-                    }
-                }
-            }
-            if = {
-                limit = {
-                    has_offmap_tmp_flag = WP_is_on_map
-                }
-                random_independent_ruler = {
-                    limit = {
-                        valid_offmap_china_target_location = yes
-                        is_nomadic = no
-                        num_of_count_titles_in_realm = 15
-                        NOT = {
-                            num_of_count_titles_in_realm = 30
-                        }
-                        valid_offmap_china_target = yes
-                    }
-                    save_event_target_as = chinese_invasion_target
-                }
-            }
-            if = {
-                limit = {
-                    has_offmap_tmp_flag = WP_is_on_map
-                }
-                random_neighbor_independent_ruler = {
-                    limit = {
-                        valid_offmap_china_target_location = yes
-                        is_nomadic = no
-                        num_of_count_titles_in_realm = 15
-                        NOT = {
-                            num_of_count_titles_in_realm = 30
-                        }
-                        valid_offmap_china_target = yes
-                    }
-                    save_event_target_as = chinese_invasion_target
-                }
-            }
-            if = {
-                limit = {
-                    has_offmap_tmp_flag = WP_is_not_on_map
-                }
-                random_independent_ruler = {
-                    limit = {
-                        capital_scope = {
-                            region = custom_eastern_edge_of_map
-                        }
-                        is_nomadic = no
-                        num_of_count_titles_in_realm = 10
-                        NOT = {
-                            num_of_count_titles_in_realm = 40
-                        }
-                        valid_offmap_china_target = yes
-                    }
-                    save_event_target_as = chinese_invasion_target
-                }
-            }
-            set_offmap_tmp_flag = start_submission_war
-        }
-        10 = {
-            trigger = {
-                has_policy = china_expansionist
-                OR = {
-                    AND = {
-                        has_offmap_tmp_flag = WP_is_on_map
-                        any_independent_ruler = {
-                            valid_offmap_china_target_location = yes
-                            is_nomadic = no
-                            num_of_count_titles_in_realm = 20
-                            valid_offmap_china_target = yes
-                        }
-                    }
-                    AND = {
-                        has_offmap_tmp_flag = WP_is_not_on_map
-                        any_independent_ruler = {
-                            capital_scope = {
-                                region = custom_eastern_edge_of_map
-                            }
-                            is_nomadic = no
-                            num_of_count_titles_in_realm = 20
-                            valid_offmap_china_target = yes
-                        }
-                    }
-                }
-            }
-            modifier = {
-                factor = 2
-                has_status = china_golden_age
-            }
-            if = {
-                limit = {
-                    has_offmap_tmp_flag = WP_is_on_map
-                }
-                random_independent_ruler = {
-                    limit = {
-                        valid_offmap_china_target_location = yes
-                        is_nomadic = no
-                        num_of_count_titles_in_realm = 20
-                        valid_offmap_china_target = yes
-                    }
-                    save_event_target_as = chinese_invasion_target
-                }
-            }
-            if = {
-                limit = {
-                    has_offmap_tmp_flag = WP_is_on_map
-                }
-                random_independent_ruler = {
-                    limit = {
-                        valid_offmap_china_target_location = yes
-                        is_nomadic = no
-                        num_of_count_titles_in_realm = 20
-                        valid_offmap_china_target = yes
-                        disliked_by_offmap = {
-                            type = offmap_china
-                        }
-                        NOT = {
-                            liked_by_offmap = {
-                                type = offmap_china
+                            d_jiuquan = {
+                                any_direct_de_jure_vassal_title = {
+                                    holder_scope = {
+                                        top_liege = {
+                                            valid_offmap_china_target = yes
+                                        }
+                                    }
+                                }
                             }
                         }
-                    }
-                    save_event_target_as = chinese_invasion_target
-                }
-            }
-            if = {
-                limit = {
-                    has_offmap_tmp_flag = WP_is_on_map
-                }
-                random_neighbor_independent_ruler = {
-                    limit = {
-                        is_nomadic = no
-                        num_of_count_titles_in_realm = 20
-                        valid_offmap_china_target = yes
-                    }
-                    save_event_target_as = chinese_invasion_target
-                }
-            }
-            if = {
-                limit = {
-                    has_offmap_tmp_flag = WP_is_on_map
-                }
-                random_neighbor_independent_ruler = {
-                    limit = {
-                        is_nomadic = no
-                        num_of_count_titles_in_realm = 20
-                        valid_offmap_china_target = yes
-                        disliked_by_offmap = {
-                            type = offmap_china
-                        }
-                        NOT = {
-                            liked_by_offmap = {
-                                type = offmap_china
+                        d_jiuquan = {
+                            any_direct_de_jure_vassal_title = {
+                                add_claim = ROOT
+                            }
+                            random_direct_de_jure_vassal_title = {
+                                limit = {
+                                    holder_scope = {
+                                        top_liege = {
+                                            valid_offmap_china_target = yes
+                                        }
+                                    }
+                                }
+                                holder_scope = {
+                                    top_liege = {
+                                        save_event_target_as = chinese_invasion_target
+                                    }
+                                }
                             }
                         }
+                        set_offmap_tmp_flag = should_claim_all_titles_war
                     }
-                    save_event_target_as = chinese_invasion_target
-                }
-            }
-            if = {
-                limit = {
-                    has_offmap_tmp_flag = WP_is_not_on_map
-                }
-                random_independent_ruler = {
-                    limit = {
-                        capital_scope = {
-                            region = custom_eastern_edge_of_map
+                    50 = {
+                        trigger = {
+                            has_policy = china_expansionist
+                            OR = {
+                                AND = {
+                                    has_offmap_tmp_flag = WP_is_on_map
+                                    any_independent_ruler = {
+                                        valid_offmap_china_target_location = yes
+                                        is_nomadic = no
+                                        num_of_count_titles_in_realm = 15
+                                        NOT = {
+                                            num_of_count_titles_in_realm = 30
+                                        }
+                                        valid_offmap_china_target = yes
+                                    }
+                                }
+                                AND = {
+                                    has_offmap_tmp_flag = WP_is_not_on_map
+                                    any_independent_ruler = {
+                                        capital_scope = {
+                                            region = custom_eastern_edge_of_map
+                                        }
+                                        is_nomadic = no
+                                        num_of_count_titles_in_realm = 10
+                                        NOT = {
+                                            num_of_count_titles_in_realm = 40
+                                        }
+                                        valid_offmap_china_target = yes
+                                    }
+                                }
+                            }
                         }
-                        is_nomadic = no
-                        num_of_count_titles_in_realm = 20
-                        valid_offmap_china_target = yes
-                    }
-                    save_event_target_as = chinese_invasion_target
-                }
-            }
-            set_offmap_tmp_flag = start_submission_war
-        }
-        100 = {
-            trigger = {
-                has_offmap_tmp_flag = WP_is_on_map
-                any_neighbor_independent_ruler = {
-                    valid_offmap_china_target_location = yes
-                    valid_offmap_china_target = yes
-                    is_nomadic = no
-                }
-            }
-            random_neighbor_independent_ruler = {
-                limit = {
-                    valid_offmap_china_target_location = yes
-                    is_nomadic = no
-                    valid_offmap_china_target = yes
-                }
-                save_event_target_as = chinese_invasion_target
-            }
-            random_neighbor_independent_ruler = {
-                limit = {
-                    valid_offmap_china_target_location = yes
-                    NOT = {
-                        num_of_count_titles_in_realm = 20
-                    }
-                    is_nomadic = no
-                    valid_offmap_china_target = yes
-                }
-                save_event_target_as = chinese_invasion_target
-            }
-            random_neighbor_independent_ruler = {
-                limit = {
-                    valid_offmap_china_target_location = yes
-                    NOT = {
-                        num_of_count_titles_in_realm = 10
-                    }
-                    is_nomadic = no
-                    valid_offmap_china_target = yes
-                }
-                save_event_target_as = chinese_invasion_target
-            }
-            random_neighbor_independent_ruler = {
-                limit = {
-                    valid_offmap_china_target_location = yes
-                    NOT = {
-                        num_of_count_titles_in_realm = 5
-                    }
-                    is_nomadic = no
-                    valid_offmap_china_target = yes
-                }
-                save_event_target_as = chinese_invasion_target
-            }
-            set_offmap_tmp_flag = start_submission_war
-            if = {
-                limit = {
-                    event_target = chinese_invasion_target = {
-                        NOT = {
-                            num_of_count_titles_in_realm = 20
+                        if = {
+                            limit = {
+                                has_offmap_tmp_flag = WP_is_on_map
+                            }
+                            random_independent_ruler = {
+                                limit = {
+                                    valid_offmap_china_target_location = yes
+                                    is_nomadic = no
+                                    num_of_count_titles_in_realm = 15
+                                    NOT = {
+                                        num_of_count_titles_in_realm = 30
+                                    }
+                                    valid_offmap_china_target = yes
+                                }
+                                save_event_target_as = chinese_invasion_target
+                            }
                         }
+                        if = {
+                            limit = {
+                                has_offmap_tmp_flag = WP_is_on_map
+                            }
+                            random_neighbor_independent_ruler = {
+                                limit = {
+                                    valid_offmap_china_target_location = yes
+                                    is_nomadic = no
+                                    num_of_count_titles_in_realm = 15
+                                    NOT = {
+                                        num_of_count_titles_in_realm = 30
+                                    }
+                                    valid_offmap_china_target = yes
+                                }
+                                save_event_target_as = chinese_invasion_target
+                            }
+                        }
+                        if = {
+                            limit = {
+                                has_offmap_tmp_flag = WP_is_not_on_map
+                            }
+                            random_independent_ruler = {
+                                limit = {
+                                    capital_scope = {
+                                        region = custom_eastern_edge_of_map
+                                    }
+                                    is_nomadic = no
+                                    num_of_count_titles_in_realm = 10
+                                    NOT = {
+                                        num_of_count_titles_in_realm = 40
+                                    }
+                                    valid_offmap_china_target = yes
+                                }
+                                save_event_target_as = chinese_invasion_target
+                            }
+                        }
+                        set_offmap_tmp_flag = start_submission_war
+                    }
+                    10 = {
+                        trigger = {
+                            has_policy = china_expansionist
+                            OR = {
+                                AND = {
+                                    has_offmap_tmp_flag = WP_is_on_map
+                                    any_independent_ruler = {
+                                        valid_offmap_china_target_location = yes
+                                        is_nomadic = no
+                                        num_of_count_titles_in_realm = 20
+                                        valid_offmap_china_target = yes
+                                    }
+                                }
+                                AND = {
+                                    has_offmap_tmp_flag = WP_is_not_on_map
+                                    any_independent_ruler = {
+                                        capital_scope = {
+                                            region = custom_eastern_edge_of_map
+                                        }
+                                        is_nomadic = no
+                                        num_of_count_titles_in_realm = 20
+                                        valid_offmap_china_target = yes
+                                    }
+                                }
+                            }
+                        }
+                        modifier = {
+                            factor = 2
+                            has_status = china_golden_age
+                        }
+                        if = {
+                            limit = {
+                                has_offmap_tmp_flag = WP_is_on_map
+                            }
+                            random_independent_ruler = {
+                                limit = {
+                                    valid_offmap_china_target_location = yes
+                                    is_nomadic = no
+                                    num_of_count_titles_in_realm = 20
+                                    valid_offmap_china_target = yes
+                                }
+                                save_event_target_as = chinese_invasion_target
+                            }
+                        }
+                        if = {
+                            limit = {
+                                has_offmap_tmp_flag = WP_is_on_map
+                            }
+                            random_independent_ruler = {
+                                limit = {
+                                    valid_offmap_china_target_location = yes
+                                    is_nomadic = no
+                                    num_of_count_titles_in_realm = 20
+                                    valid_offmap_china_target = yes
+                                    disliked_by_offmap = {
+                                        type = offmap_china
+                                    }
+                                    NOT = {
+                                        liked_by_offmap = {
+                                            type = offmap_china
+                                        }
+                                    }
+                                }
+                                save_event_target_as = chinese_invasion_target
+                            }
+                        }
+                        if = {
+                            limit = {
+                                has_offmap_tmp_flag = WP_is_on_map
+                            }
+                            random_neighbor_independent_ruler = {
+                                limit = {
+                                    is_nomadic = no
+                                    num_of_count_titles_in_realm = 20
+                                    valid_offmap_china_target = yes
+                                }
+                                save_event_target_as = chinese_invasion_target
+                            }
+                        }
+                        if = {
+                            limit = {
+                                has_offmap_tmp_flag = WP_is_on_map
+                            }
+                            random_neighbor_independent_ruler = {
+                                limit = {
+                                    is_nomadic = no
+                                    num_of_count_titles_in_realm = 20
+                                    valid_offmap_china_target = yes
+                                    disliked_by_offmap = {
+                                        type = offmap_china
+                                    }
+                                    NOT = {
+                                        liked_by_offmap = {
+                                            type = offmap_china
+                                        }
+                                    }
+                                }
+                                save_event_target_as = chinese_invasion_target
+                            }
+                        }
+                        if = {
+                            limit = {
+                                has_offmap_tmp_flag = WP_is_not_on_map
+                            }
+                            random_independent_ruler = {
+                                limit = {
+                                    capital_scope = {
+                                        region = custom_eastern_edge_of_map
+                                    }
+                                    is_nomadic = no
+                                    num_of_count_titles_in_realm = 20
+                                    valid_offmap_china_target = yes
+                                }
+                                save_event_target_as = chinese_invasion_target
+                            }
+                        }
+                        set_offmap_tmp_flag = start_submission_war
+                    }
+                    100 = {
+                        trigger = {
+                            has_offmap_tmp_flag = WP_is_on_map
+                            any_neighbor_independent_ruler = {
+                                valid_offmap_china_target_location = yes
+                                valid_offmap_china_target = yes
+                                is_nomadic = no
+                            }
+                        }
+                        random_neighbor_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location = yes
+                                is_nomadic = no
+                                valid_offmap_china_target = yes
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_neighbor_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 20
+                                }
+                                is_nomadic = no
+                                valid_offmap_china_target = yes
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_neighbor_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 10
+                                }
+                                is_nomadic = no
+                                valid_offmap_china_target = yes
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        random_neighbor_independent_ruler = {
+                            limit = {
+                                valid_offmap_china_target_location = yes
+                                NOT = {
+                                    num_of_count_titles_in_realm = 5
+                                }
+                                is_nomadic = no
+                                valid_offmap_china_target = yes
+                            }
+                            save_event_target_as = chinese_invasion_target
+                        }
+                        set_offmap_tmp_flag = start_submission_war
+                        if = {
+                            limit = {
+                                event_target = chinese_invasion_target = {
+                                    NOT = {
+                                        num_of_count_titles_in_realm = 20
+                                    }
+                                }
+                            }
+                            set_offmap_tmp_flag = attacked_small_neighbor
+                        }
+                        else_if = {
+                            limit = {
+                                NOT = {
+                                    has_policy = china_expansionist
+                                }
+                            }
+                            log = "-------------------------------------"
+                            log = "China Logging = "
+                            log = "Non-expansionist China didn't find a suitable submission target"
+                            log = "No invasions happened this year - clearing all flags. Better luck next year!"
+                            log = "Current status = {From.Offmap.GetStatus}. Current policy = {From.Offmap.GetPolicy}."
+                            log = "-------------------------------------"
+                            offmap_china = {
+                                clr_offmap_tmp_flag = WP_is_on_map
+                                clr_offmap_tmp_flag = WP_is_not_on_map
+                                clr_offmap_tmp_flag = launching_invasion_of_the_west
+                                clr_offmap_tmp_flag = tributary_invasion_fired
+                                clr_offmap_tmp_flag = major_invasion_fired
+                                clr_offmap_tmp_flag = sent_major_invasion_cleanup
+                                clr_offmap_tmp_flag = pretender_chinese_empire_exists
+                                clr_offmap_tmp_flag = start_submission_war
+                            }
+                            break = yes
+                        }
+                        else = {}
                     }
                 }
-                set_offmap_tmp_flag = attacked_small_neighbor
+                character_event = {
+                    id = JD.10103
+                }
             }
-            else_if = {
-                limit = {
-                    NOT = {
+            100 = {
+                modifier = {
+                    factor = 0
+                    offmap_china = {
                         has_policy = china_expansionist
                     }
                 }
                 log = "-------------------------------------"
                 log = "China Logging = "
-                log = "Non-expansionist China didn't find a suitable submission target"
                 log = "No invasions happened this year - clearing all flags. Better luck next year!"
                 log = "Current status = {From.Offmap.GetStatus}. Current policy = {From.Offmap.GetPolicy}."
                 log = "-------------------------------------"
@@ -1242,37 +1282,9 @@ event_target = chinese_invasion_target = {
                     clr_offmap_tmp_flag = major_invasion_fired
                     clr_offmap_tmp_flag = sent_major_invasion_cleanup
                     clr_offmap_tmp_flag = pretender_chinese_empire_exists
-                    clr_offmap_tmp_flag = start_submission_war
                 }
-                break = yes
             }
-            else = {}
         }
-    }
-    character_event = {
-        id = JD.10103
-    }
-}
-100 = {
-    modifier = {
-        factor = 0
-        offmap_china = {
-            has_policy = china_expansionist
-        }
-    }
-    log = "-------------------------------------"
-    log = "China Logging = "
-    log = "No invasions happened this year - clearing all flags. Better luck next year!"
-    log = "Current status = {From.Offmap.GetStatus}. Current policy = {From.Offmap.GetPolicy}."
-    log = "-------------------------------------"
-    offmap_china = {
-        clr_offmap_tmp_flag = WP_is_on_map
-        clr_offmap_tmp_flag = WP_is_not_on_map
-        clr_offmap_tmp_flag = launching_invasion_of_the_west
-        clr_offmap_tmp_flag = tributary_invasion_fired
-        clr_offmap_tmp_flag = major_invasion_fired
-        clr_offmap_tmp_flag = sent_major_invasion_cleanup
-        clr_offmap_tmp_flag = pretender_chinese_empire_exists
     }
 }
 character_event = {
