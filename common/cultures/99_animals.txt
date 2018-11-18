@@ -1,1292 +1,1292 @@
 ﻿horse_group = {
+  graphical_cultures = {
+    horsegfx
+  }
+  alternate_start = {
+    has_alternate_start_parameter = {
+      key = special_culture
+      value = animal_kingdoms
+    }
+  }
+  horse = {
     graphical_cultures = {
-        horsegfx
+      horsegfx
     }
-    alternate_start = {
-        has_alternate_start_parameter = {
-            key = special_culture
-            value = animal_kingdoms
-        }
+    color = {
+      0.3
+      0.1
+      0.1
     }
-    horse = {
-        graphical_cultures = {
-            horsegfx
-        }
-        color = {
-            0.3
-            0.1
-            0.1
-        }
-        male_names = {
-            "闪蹄"  # Glitterhoof
-            "挈德"  # Chetak
-            "布西发拉斯"  # Bucephalus
-            "旅者"  # Traveller
-            "马伦哥"  # Marengo
-            "帕洛莫"  # Palomo
-            "辛辛那提"  # Cincinnati
-            "科曼奇"  # Comanche
-            "聪明的汉斯"  # Clever Hans
-            "韦兰迪夫"  # Veillantif
-            "英西塔图斯"  # Incitatus
-            "锈斑"  # Rusty
-            "勃朗特"  # Brunte
-            "艳斑"  # Lilla Gubben
-            "卢卡斯"  # Lukas
-            "美人"  # Beauty
-            "雷霆"  # Lightning
-            "闪电"  # Flash
-            "阿方索"  # Alfonso
-            "阿尔塔克斯"  # Artax
-            "黑杰克"  # Blackjack
-            "拳击手"  # Boxer
-            "费德"  # Ferd
-            "芙拉"  # Furia
-            "烈焰"  # Flame
-            "慧骃"  # The Houyhnhnm
-            "赫温"  # Hwin
-            "乐腿儿"  # Merrylegs
-            "拿破仑"  # Napoleon
-            "塔儿"  # Pylon
-            "冲锋者"  # Rusher
-            "阿罗德"  # Arod
-            "阿斯法洛斯"  # Asfaloth
-            "比尔·宝莉"  # Bill the Pony
-            "布瑞戈"  # Brego
-            "土包子"  # Bumpkin
-            "肥肥"  # Fatty
-            "东海帝皇"  # Lumpkin
-            "火足"  # Firefoot
-            "哈苏风"  # Hasufel
-            "轻足"  # Lightfoot
-            "纳哈尔"  # Nahar
-            "洛赫林"  # Roheryn
-            "尖耳朵"  # Sharp-ears
-            "雪鬃"  # Snowmane
-            "史戴巴"  # Stybba
-            "漂亮尾巴"  # Swish-tail
-            "伏特加"  # Windfola
-            "慧鼻"  # Wise-nose
-            "云宝"  # Rainbow
-            "马"  # Horse
-            "幽狱鬼驹"  # Helhest
-            "河马"  # Hippo
-            "特洛伊"  # Trojan
-            "无声铃鹿"  # Bäckahäst
-            "赤爷"  # Red
-            "马到成功"  # Victory
-            "南丁格尔"  # Nightingale
-            "大和赤骥"  # Streiff
-            "马提尼克"  # Martinique
-            "斯雷普尼尔"  # Sleipnir
-            "波杰克"  # Bojack
-            "草上飞"  # Glue-Boy
-            "圭多"  # Guido
-            "卢卡斯"  # Lukas
-            "斯图雷"  # Sture
-            "吉姆"  # Jim
-            "格罗勒"  # Grolle
-            "冲击者"  # Dasher
-            "目白麦昆"  # Bayard
-            "布拉格"  # Brag
-            "脖脖"  # Neck
-            "大树快车"  # Näcken
-            "科皮亚德"  # Copiad
-            "星云天空"  # Järvsöfaks
-            "黄金船"  # Golden
-            "暮光闪闪"  # Hornline
-            "苹果杰克"  # Verner
-            "布瑞戈"  # Brego
-            "布西发拉斯"  # Bucephalus
-            "多米诺"  # Domino
-            "蒙蒂"  # Monty
-            "闪电"  # Bolt
-            "瑞瑞"  # Oakley
-            "戴尔"  # Dale
-            "里奥"  # Rio
-            "小蝶"  # Vanderbilt
-            "牛顿"  # Newton
-            "扳机"  # Trigger
-            "沙利文"  # Sullivan
-            "萍琪·派"  # Barnaby
-            "特里"  # Terry
-            "亨特"  # Hunter
-            "泰克"  # Tyke
-        }
-        female_names = {
-            "闪蹄"  # Glitterhoof
-            "卡士坦卡"  # Kasztanka
-            "鲁莽的上士"  # Sergeant Reckless
-            "酪浆"  # Buttermilk
-            "奇迹女士"  # Lady Wonder
-            "剪影"  # Silhouette
-            "美人"  # Beauty
-            "雷霆"  # Lightning
-            "闪电"  # Flash
-            "阿方索"  # Alfonso
-            "阿尔塔克斯"  # Artax
-            "黑杰克"  # Blackjack
-            "拳击手"  # Boxer
-            "费德"  # Ferd
-            "芙拉"  # Furia
-            "烈焰"  # Flame
-            "慧骃"  # The Houyhnhnm
-            "赫温"  # Hwin
-            "乐腿儿"  # Merrylegs
-            "拿破仑"  # Napoleon
-            "塔儿"  # Pylon
-            "拉舍"  # Rusher
-            "阿罗德"  # Arod
-            "阿斯法洛斯"  # Asfaloth
-            "小马比莉"  # Bill the Pony
-            "布瑞戈"  # Brego
-            "乡巴佬"  # Bumpkin
-            "肥肥"  # Fatty
-            "塞拉斯蒂亚公主"  # Lumpkin
-            "火足"  # Firefoot
-            "哈苏风"  # Hasufel
-            "轻足"  # Lightfoot
-            "纳哈尔"  # Nahar
-            "洛赫林"  # Roheryn
-            "尖耳朵"  # Sharp-ears
-            "雪鬃"  # Snowmane
-            "史戴巴"  # Stybba
-            "漂亮尾巴"  # Swish-tail
-            "温德弗拉"  # Windfola
-            "慧鼻"  # Wise-nose
-            "云宝"  # Rainbow
-            "霍尔瑟"  # Horse
-            "幽狱鬼驹"  # Helhest
-            "河马"  # Hippo
-            "特洛伊"  # Trojan
-            "露娜公主"  # Bäckahäst
-            "小红"  # Red
-            "维多利亚"  # Victory
-            "南丁格尔"  # Nightingale
-            "韵律公主"  # Tingeling
-            "暮光闪闪"  # Sallie
-            "南瓜"  # Pumpkin
-            "香辛料"  # Spice
-            "千里马"  # Chollima
-            "古尔法克西"  # Gullfaxi
-            "卡拉"  # Kara
-            "珍珠"  # Pearl
-            "魔法"  # Magic
-            "余晖烁烁"  # Zarona
-            "艾波娜"  # Epona
-            "斥候"  # Scout
-            "特别周"  # Bonney
-            "帕里斯"  # Paris
-            "夏洛特"  # Charlotte
-            "莫娜"  # Mona
-            "海蒂"  # Heidi
-            "马姬"  # Maggie
-        }
-        prefix = no
-        pat_grf_name_chance = 50
-        mat_grf_name_chance = 0
-        father_name_chance = 0
-        pat_grm_name_chance = 10
-        mat_grm_name_chance = 50
-        mother_name_chance = 0
-        used_for_random = no
-        allow_in_ruler_designer = no
-        modifier = default_culture_modifier
-        nomadic_in_alt_start = yes
+    male_names = {
+      "闪蹄"  # Glitterhoof
+      "挈德"  # Chetak
+      "布西发拉斯"  # Bucephalus
+      "旅者"  # Traveller
+      "马伦哥"  # Marengo
+      "帕洛莫"  # Palomo
+      "辛辛那提"  # Cincinnati
+      "科曼奇"  # Comanche
+      "聪明的汉斯"  # Clever Hans
+      "韦兰迪夫"  # Veillantif
+      "英西塔图斯"  # Incitatus
+      "锈斑"  # Rusty
+      "勃朗特"  # Brunte
+      "艳斑"  # Lilla Gubben
+      "卢卡斯"  # Lukas
+      "美人"  # Beauty
+      "雷霆"  # Lightning
+      "闪电"  # Flash
+      "阿方索"  # Alfonso
+      "阿尔塔克斯"  # Artax
+      "黑杰克"  # Blackjack
+      "拳击手"  # Boxer
+      "费德"  # Ferd
+      "芙拉"  # Furia
+      "烈焰"  # Flame
+      "慧骃"  # The Houyhnhnm
+      "赫温"  # Hwin
+      "乐腿儿"  # Merrylegs
+      "拿破仑"  # Napoleon
+      "塔儿"  # Pylon
+      "冲锋者"  # Rusher
+      "阿罗德"  # Arod
+      "阿斯法洛斯"  # Asfaloth
+      "比尔·宝莉"  # Bill the Pony
+      "布瑞戈"  # Brego
+      "土包子"  # Bumpkin
+      "肥肥"  # Fatty
+      "东海帝皇"  # Lumpkin
+      "火足"  # Firefoot
+      "哈苏风"  # Hasufel
+      "轻足"  # Lightfoot
+      "纳哈尔"  # Nahar
+      "洛赫林"  # Roheryn
+      "尖耳朵"  # Sharp-ears
+      "雪鬃"  # Snowmane
+      "史戴巴"  # Stybba
+      "漂亮尾巴"  # Swish-tail
+      "伏特加"  # Windfola
+      "慧鼻"  # Wise-nose
+      "云宝"  # Rainbow
+      "马"  # Horse
+      "幽狱鬼驹"  # Helhest
+      "河马"  # Hippo
+      "特洛伊"  # Trojan
+      "无声铃鹿"  # Bäckahäst
+      "赤爷"  # Red
+      "马到成功"  # Victory
+      "南丁格尔"  # Nightingale
+      "大和赤骥"  # Streiff
+      "马提尼克"  # Martinique
+      "斯雷普尼尔"  # Sleipnir
+      "波杰克"  # Bojack
+      "草上飞"  # Glue-Boy
+      "圭多"  # Guido
+      "卢卡斯"  # Lukas
+      "斯图雷"  # Sture
+      "吉姆"  # Jim
+      "格罗勒"  # Grolle
+      "冲击者"  # Dasher
+      "目白麦昆"  # Bayard
+      "布拉格"  # Brag
+      "脖脖"  # Neck
+      "大树快车"  # Näcken
+      "科皮亚德"  # Copiad
+      "星云天空"  # Järvsöfaks
+      "黄金船"  # Golden
+      "暮光闪闪"  # Hornline
+      "苹果杰克"  # Verner
+      "布瑞戈"  # Brego
+      "布西发拉斯"  # Bucephalus
+      "多米诺"  # Domino
+      "蒙蒂"  # Monty
+      "闪电"  # Bolt
+      "瑞瑞"  # Oakley
+      "戴尔"  # Dale
+      "里奥"  # Rio
+      "小蝶"  # Vanderbilt
+      "牛顿"  # Newton
+      "扳机"  # Trigger
+      "沙利文"  # Sullivan
+      "萍琪·派"  # Barnaby
+      "特里"  # Terry
+      "亨特"  # Hunter
+      "泰克"  # Tyke
     }
+    female_names = {
+      "闪蹄"  # Glitterhoof
+      "卡士坦卡"  # Kasztanka
+      "鲁莽的上士"  # Sergeant Reckless
+      "酪浆"  # Buttermilk
+      "奇迹女士"  # Lady Wonder
+      "剪影"  # Silhouette
+      "美人"  # Beauty
+      "雷霆"  # Lightning
+      "闪电"  # Flash
+      "阿方索"  # Alfonso
+      "阿尔塔克斯"  # Artax
+      "黑杰克"  # Blackjack
+      "拳击手"  # Boxer
+      "费德"  # Ferd
+      "芙拉"  # Furia
+      "烈焰"  # Flame
+      "慧骃"  # The Houyhnhnm
+      "赫温"  # Hwin
+      "乐腿儿"  # Merrylegs
+      "拿破仑"  # Napoleon
+      "塔儿"  # Pylon
+      "拉舍"  # Rusher
+      "阿罗德"  # Arod
+      "阿斯法洛斯"  # Asfaloth
+      "小马比莉"  # Bill the Pony
+      "布瑞戈"  # Brego
+      "乡巴佬"  # Bumpkin
+      "肥肥"  # Fatty
+      "塞拉斯蒂亚公主"  # Lumpkin
+      "火足"  # Firefoot
+      "哈苏风"  # Hasufel
+      "轻足"  # Lightfoot
+      "纳哈尔"  # Nahar
+      "洛赫林"  # Roheryn
+      "尖耳朵"  # Sharp-ears
+      "雪鬃"  # Snowmane
+      "史戴巴"  # Stybba
+      "漂亮尾巴"  # Swish-tail
+      "温德弗拉"  # Windfola
+      "慧鼻"  # Wise-nose
+      "云宝"  # Rainbow
+      "霍尔瑟"  # Horse
+      "幽狱鬼驹"  # Helhest
+      "河马"  # Hippo
+      "特洛伊"  # Trojan
+      "露娜公主"  # Bäckahäst
+      "小红"  # Red
+      "维多利亚"  # Victory
+      "南丁格尔"  # Nightingale
+      "韵律公主"  # Tingeling
+      "暮光闪闪"  # Sallie
+      "南瓜"  # Pumpkin
+      "香辛料"  # Spice
+      "千里马"  # Chollima
+      "古尔法克西"  # Gullfaxi
+      "卡拉"  # Kara
+      "珍珠"  # Pearl
+      "魔法"  # Magic
+      "余晖烁烁"  # Zarona
+      "艾波娜"  # Epona
+      "斥候"  # Scout
+      "特别周"  # Bonney
+      "帕里斯"  # Paris
+      "夏洛特"  # Charlotte
+      "莫娜"  # Mona
+      "海蒂"  # Heidi
+      "马姬"  # Maggie
+    }
+    prefix = no
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 0
+    pat_grm_name_chance = 10
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+    used_for_random = no
+    allow_in_ruler_designer = no
+    modifier = default_culture_modifier
+    nomadic_in_alt_start = yes
+  }
 }
 cat_group = {
+  graphical_cultures = {
+    catgfx
+  }
+  alternate_start = {
+    has_alternate_start_parameter = {
+      key = special_culture
+      value = animal_kingdoms
+    }
+  }
+  cat = {
     graphical_cultures = {
-        catgfx
+      catgfx
     }
-    alternate_start = {
-        has_alternate_start_parameter = {
-            key = special_culture
-            value = animal_kingdoms
-        }
+    color = {
+      0.1
+      0.3
+      0.1
     }
-    cat = {
-        graphical_cultures = {
-            catgfx
-        }
-        color = {
-            0.1
-            0.3
-            0.1
-        }
-        male_names = {
-            "咪咪"  # Mittens
-            "毛球"  # Fluffy
-            "汤姆猫"  # Tom
-            "斑点"  # Smudge
-            "暗影"  # Shadow
-            "三味线"  # Zimm
-            "山姆"  # Samm
-            "密斯托弗里"  # Misstoffelees
-            "预言"  # Deuteronomy
-            "庞希沃"  # Pouncival
-            "奎佐"  # Quaxo
-            "盟哥杰利"  # Mungojerrie
-            "莫扎特"  # Mozart
-            "辛巴"  # Simba
-            "老虎"  # Tiger
-            "苏格拉底"  # Socrates
-            "塞勒姆"  # Salem
-            "图卢兹"  # Toulouse
-            "柏辽兹"  # Berlioz
-            "托马斯"  # Thomas
-            "比尔克"  # Birk
-            "爪子"  # Paws
-            "巴西琉斯 哈洛克 捣蛋鬼"  # Basileus Harlocke Spoops
-            "白野威"  # Bazcat
-            "毛球"  # Furball
-            "生气"  # Angry
-            "依偎"  # Snuggles
-            "幸运"  # Lucky
-            "纽扣"  # Buttons
-            "雪球"  # Snowbell
-            "抱抱"  # Cuddles
-            "克鲁克山"  # Crookshanks
-            "比格沃斯先生"  # Mr. Bigglesworth
-            "斑点"  # Spot
-            "维斯克丝"  # Whiskers
-            "幸运"  # Lucky
-            "君尼"  # Juni
-            "薮猫"  # Maow
-            "猫猫"  # Cat
-            "硬币"  # Coins
-            "黑豹"  # Panther
-            "生姜"  # Frumpkin
-            "董事长"  # Chairman
-            "喵喵"  # Meow
-            "鱼饼"  # Floof
-            "忍者"  # Ninja
-            "俄里翁"  # Orion
-            "菲利克斯"  # Felix
-            "提姆"  # Tim
-            "罗尔"  # Rowl
-            "利斯特"  # Lister
-            "克罗克特"  # Crockett
-            "泽庇德斯"  # Zebedeus
-            "赛义德"  # Syd
-            "贝尔"  # Bear
-            "薛定谔"  # Ripper
-            "莫里斯"  # Maurice
-            "杰克"  # Jake
-            "傻大猫"  # Sylvester
-            "比格"  # Big
-            "托金"  # Talking
-            "汤姆猫"  # Tom
-            "阿特拉斯"  # Atlas
-            "痞子猫"  # Serafettin
-            "西蒙"  # Simon
-            "提尔比茨"  # Santa
-            "爪子"  # Paws
-            "麦奎"  # M'aiq
-            "文森特"  # Vincent
-            "哈迪斯"  # Hades
-            "加菲"  # Fëa
-            "黑猫警长"  # Tyki
-            "白猫班长"  # Lavi
-            "潘"  # Pan
-            "罗小黑"  # Tjockisen
-            "莲花"  # Lotus
-            "莫里斯"  # Morris
-            "暗影"  # Shadow
-            "奥斯卡"  # Oscar
-            "埃斯基尔"  # Eskil
-            "暗影"  # Shadow
-            "酷乐"  # Tommiecat
-            "博斯"  # Bosse
-            "拉斯"  # Lasse
-            "巴西尔"  # Basil
-            "哆啦A梦"  # Zylyn
-            "蓝猫"  # Snooka
-            "玛特"  # Maat
-            "狗 德川家康 薛定谔"  # Lord-Admiral-Edward-Hawke-First-Baron-Hawke-First-Lord-of-the-Admiralty
-            "尼米兹"  # Nimitz
-            "卡兹"  # Katz
-        }
-        female_names = {
-            "咪西"  # Missy
-            "喵咪"  # Kitty
-            "咪咪"  # Mittens
-            "姜仔"  # Ginger
-            "公主"  # Princess
-            "小美"  # Bella
-            "西格玛"  # Sigma
-            "麦森"  # Mysan
-            "俾斯麦"  # Missan
-            "维多利亚"  # Victoria
-            "罗普兰蒂瑟"  # Rumpelteazer
-            "葛丽兹贝拉"  # Grizabella
-            "迪米特"  # Demeter
-            "邦贝鲁琳娜"  # Bombalurina
-            "一团漆黑"  # Sooty
-            "苏西"  # Suzie
-            "奶油葡萄酒"  # Syllabub
-            "露娜"  # Luna
-            "午夜"  # Midnight
-            "纳拉"  # Nala
-            "提尔比茨"  # Tussan
-            "绯鞠"  # Selma
-            "塞勒姆"  # Salem
-            "女公爵"  # Duchess
-            "玛丽"  # Marie
-            "西格妮"  # Signe
-            "爪子"  # Paws
-            "巴赛丽莎 哈洛克 捣蛋鬼"  # Basileus Harlocke Spoops
-            "白野威"  # Bazcat
-            "毛球"  # Furball
-            "生气"  # Angry
-            "依偎"  # Snuggles
-            "幸运"  # Lucky
-            "纽扣"  # Buttons
-            "雪球"  # Snowbell
-            "抱抱"  # Cuddles
-            "克鲁克山"  # Crookshanks
-            "比格沃斯先生"  # Mr. Bigglesworth
-            "斑点"  # Spot
-            "维斯克丝"  # Whiskers
-            "幸运"  # Lucky
-            "君尼"  # Juni
-            "薮猫"  # Maow
-            "猫猫"  # Cat
-            "硬币"  # Coins
-            "黑豹"  # Panther
-            "生姜"  # Frumpkin
-            "董事长"  # Chairman
-            "喵喵"  # Meow
-            "鱼饼"  # Floof
-            "波佩"  # Poppy
-            "有希"  # Yuki
-            "咪咪"  # Mimmy
-            "薮猫"  # Stina
-            "女巫"  # Witch
-            "凯蒂"  # Caline
-            "哆啦美"  # Doortje
-            "珊璞"  # Cwtch
-            "蒂娜"  # Tina
-            "里弗"  # River
-            "克利奥"  # Cleo
-            "垂柳"  # Willow
-            "克洛伊"  # Chloe
-            "芭丝苔特"  # Bastet
-            "玛芙代特"  # Mafdet
-            "艾瑞丝"  # Aeris
-            "巧克力"  # Tonks
-            "莉萨"  # Lisa
-            "米朗"  # Myran
-            "香子兰"  # Lillkissen
-            "雏菊"  # Daisy
-            "塞赫美特"  # Sekhmet
-            "新星"  # Nova
-            "小鸟儿"  # Birdie
-            "红豆"  # Mynta
-            "茉莉"  # Molly
-            "椰子"  # Tjoppan
-            "枫"  # Nyanners
-            "肉桂"  # Suki
-            "伊西斯"  # Isis
-            "露娜"  # Masika
-            "卡利俄佩"  # Caliope
-            "胡安娜·伊内斯·德·拉·克鲁斯"  # Sor-Juana-Inés-de-la-Cruz
-            "橙"  # Mitzi
-            "恶作剧"  # Mischief
-            "云母"  # Smilla
-            "瑟蕾奴"  # Aggi
-        }
-        prefix = no
-        pat_grf_name_chance = 50
-        mat_grf_name_chance = 0
-        father_name_chance = 0
-        pat_grm_name_chance = 10
-        mat_grm_name_chance = 50
-        mother_name_chance = 0
-        used_for_random = no
-        allow_in_ruler_designer = no
-        modifier = default_culture_modifier
+    male_names = {
+      "咪咪"  # Mittens
+      "毛球"  # Fluffy
+      "汤姆猫"  # Tom
+      "斑点"  # Smudge
+      "暗影"  # Shadow
+      "三味线"  # Zimm
+      "山姆"  # Samm
+      "密斯托弗里"  # Misstoffelees
+      "预言"  # Deuteronomy
+      "庞希沃"  # Pouncival
+      "奎佐"  # Quaxo
+      "盟哥杰利"  # Mungojerrie
+      "莫扎特"  # Mozart
+      "辛巴"  # Simba
+      "老虎"  # Tiger
+      "苏格拉底"  # Socrates
+      "塞勒姆"  # Salem
+      "图卢兹"  # Toulouse
+      "柏辽兹"  # Berlioz
+      "托马斯"  # Thomas
+      "比尔克"  # Birk
+      "爪子"  # Paws
+      "巴西琉斯 哈洛克 捣蛋鬼"  # Basileus Harlocke Spoops
+      "白野威"  # Bazcat
+      "毛球"  # Furball
+      "生气"  # Angry
+      "依偎"  # Snuggles
+      "幸运"  # Lucky
+      "纽扣"  # Buttons
+      "雪球"  # Snowbell
+      "抱抱"  # Cuddles
+      "克鲁克山"  # Crookshanks
+      "比格沃斯先生"  # Mr. Bigglesworth
+      "斑点"  # Spot
+      "维斯克丝"  # Whiskers
+      "幸运"  # Lucky
+      "君尼"  # Juni
+      "薮猫"  # Maow
+      "猫猫"  # Cat
+      "硬币"  # Coins
+      "黑豹"  # Panther
+      "生姜"  # Frumpkin
+      "董事长"  # Chairman
+      "喵喵"  # Meow
+      "鱼饼"  # Floof
+      "忍者"  # Ninja
+      "俄里翁"  # Orion
+      "菲利克斯"  # Felix
+      "提姆"  # Tim
+      "罗尔"  # Rowl
+      "利斯特"  # Lister
+      "克罗克特"  # Crockett
+      "泽庇德斯"  # Zebedeus
+      "赛义德"  # Syd
+      "贝尔"  # Bear
+      "薛定谔"  # Ripper
+      "莫里斯"  # Maurice
+      "杰克"  # Jake
+      "傻大猫"  # Sylvester
+      "比格"  # Big
+      "托金"  # Talking
+      "汤姆猫"  # Tom
+      "阿特拉斯"  # Atlas
+      "痞子猫"  # Serafettin
+      "西蒙"  # Simon
+      "提尔比茨"  # Santa
+      "爪子"  # Paws
+      "麦奎"  # M'aiq
+      "文森特"  # Vincent
+      "哈迪斯"  # Hades
+      "加菲"  # Fëa
+      "黑猫警长"  # Tyki
+      "白猫班长"  # Lavi
+      "潘"  # Pan
+      "罗小黑"  # Tjockisen
+      "莲花"  # Lotus
+      "莫里斯"  # Morris
+      "暗影"  # Shadow
+      "奥斯卡"  # Oscar
+      "埃斯基尔"  # Eskil
+      "暗影"  # Shadow
+      "酷乐"  # Tommiecat
+      "博斯"  # Bosse
+      "拉斯"  # Lasse
+      "巴西尔"  # Basil
+      "哆啦A梦"  # Zylyn
+      "蓝猫"  # Snooka
+      "玛特"  # Maat
+      "狗 德川家康 薛定谔"  # Lord-Admiral-Edward-Hawke-First-Baron-Hawke-First-Lord-of-the-Admiralty
+      "尼米兹"  # Nimitz
+      "卡兹"  # Katz
     }
+    female_names = {
+      "咪西"  # Missy
+      "喵咪"  # Kitty
+      "咪咪"  # Mittens
+      "姜仔"  # Ginger
+      "公主"  # Princess
+      "小美"  # Bella
+      "西格玛"  # Sigma
+      "麦森"  # Mysan
+      "俾斯麦"  # Missan
+      "维多利亚"  # Victoria
+      "罗普兰蒂瑟"  # Rumpelteazer
+      "葛丽兹贝拉"  # Grizabella
+      "迪米特"  # Demeter
+      "邦贝鲁琳娜"  # Bombalurina
+      "一团漆黑"  # Sooty
+      "苏西"  # Suzie
+      "奶油葡萄酒"  # Syllabub
+      "露娜"  # Luna
+      "午夜"  # Midnight
+      "纳拉"  # Nala
+      "提尔比茨"  # Tussan
+      "绯鞠"  # Selma
+      "塞勒姆"  # Salem
+      "女公爵"  # Duchess
+      "玛丽"  # Marie
+      "西格妮"  # Signe
+      "爪子"  # Paws
+      "巴赛丽莎 哈洛克 捣蛋鬼"  # Basileus Harlocke Spoops
+      "白野威"  # Bazcat
+      "毛球"  # Furball
+      "生气"  # Angry
+      "依偎"  # Snuggles
+      "幸运"  # Lucky
+      "纽扣"  # Buttons
+      "雪球"  # Snowbell
+      "抱抱"  # Cuddles
+      "克鲁克山"  # Crookshanks
+      "比格沃斯先生"  # Mr. Bigglesworth
+      "斑点"  # Spot
+      "维斯克丝"  # Whiskers
+      "幸运"  # Lucky
+      "君尼"  # Juni
+      "薮猫"  # Maow
+      "猫猫"  # Cat
+      "硬币"  # Coins
+      "黑豹"  # Panther
+      "生姜"  # Frumpkin
+      "董事长"  # Chairman
+      "喵喵"  # Meow
+      "鱼饼"  # Floof
+      "波佩"  # Poppy
+      "有希"  # Yuki
+      "咪咪"  # Mimmy
+      "薮猫"  # Stina
+      "女巫"  # Witch
+      "凯蒂"  # Caline
+      "哆啦美"  # Doortje
+      "珊璞"  # Cwtch
+      "蒂娜"  # Tina
+      "里弗"  # River
+      "克利奥"  # Cleo
+      "垂柳"  # Willow
+      "克洛伊"  # Chloe
+      "芭丝苔特"  # Bastet
+      "玛芙代特"  # Mafdet
+      "艾瑞丝"  # Aeris
+      "巧克力"  # Tonks
+      "莉萨"  # Lisa
+      "米朗"  # Myran
+      "香子兰"  # Lillkissen
+      "雏菊"  # Daisy
+      "塞赫美特"  # Sekhmet
+      "新星"  # Nova
+      "小鸟儿"  # Birdie
+      "红豆"  # Mynta
+      "茉莉"  # Molly
+      "椰子"  # Tjoppan
+      "枫"  # Nyanners
+      "肉桂"  # Suki
+      "伊西斯"  # Isis
+      "露娜"  # Masika
+      "卡利俄佩"  # Caliope
+      "胡安娜·伊内斯·德·拉·克鲁斯"  # Sor-Juana-Inés-de-la-Cruz
+      "橙"  # Mitzi
+      "恶作剧"  # Mischief
+      "云母"  # Smilla
+      "瑟蕾奴"  # Aggi
+    }
+    prefix = no
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 0
+    pat_grm_name_chance = 10
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+    used_for_random = no
+    allow_in_ruler_designer = no
+    modifier = default_culture_modifier
+  }
 }
 bear_group = {
+  graphical_cultures = {
+    beargfx
+  }
+  alternate_start = {
+    has_alternate_start_parameter = {
+      key = special_culture
+      value = animal_kingdoms
+    }
+  }
+  bear = {
     graphical_cultures = {
-        beargfx
+      beargfx
     }
-    alternate_start = {
-        has_alternate_start_parameter = {
-            key = special_culture
-            value = animal_kingdoms
-        }
+    color = {
+      0.1
+      0.1
+      0.3
     }
-    bear = {
-        graphical_cultures = {
-            beargfx
-        }
-        color = {
-            0.1
-            0.1
-            0.3
-        }
-        male_names = {
-            "熊约恩"  # Björn
-            "熊杨恩"  # Bjørn
-            "霹雳熊"  # Torbjørn
-            "纳努克"  # Nanuk
-            "罴萨斯"  # Ursus
-            "冰熊"  # Isbjörn
-            "呼嗷呜"  # Grrrowr
-            "呼呜呜"  # Grrgrrr
-            "嗷呜"  # Rawr
-            "熊姆赛"  # Bamse
-            "防火熊"  # Smokey
-            "熊尼"  # Barnie
-            "熊灵顿先生"  # Sir Bearington
-            "熊纳布斯"  # Bearnabus
-            "熊纳德"  # Bernard
-            "Asabjörn"
-            "Styrbjörn"
-            "Esbjörn"
-            "Börje"
-            "Björne"
-            "Baloo"
-            "Boo-Boo"
-            "毛球"  # Fluffy
-            "Grizzly"
-            "Otso"
-            "米莎"  # Misha
-            "Trinket"
-            "Notabear"
-            "暴雪®"  # Blizzard
-            "秘密"  # Secret
-            "糖糖"  # Sugar
-            "熊本熊"  # Kumamon
-            "Bobo"
-            "迪斯科"  # Disco
-            "抱抱"  # Cuddles
-            "鲁珀特"  # Rupert
-            "沃铁"  # Wojtek
-            "Uszatek"
-            "熊纳德"  # Bearnard
-            "Bjarne"
-            "约翰"  # John
-            "熊爪"  # Bearclaw
-            "科多兽"  # Koda
-            "Gurr"
-            "Nalle"
-        }
-        female_names = {
-            "呼嗷呜"  # Grrrowr
-            "呼呜呜"  # Grrgrrr
-            "啊呜"  # Rawr
-            "熊姆赛"  # Bamse
-            "熊塞妮"  # Ursine
-            "雪球"  # Snowball
-            "熊休拉"  # Urszula
-            "熊灵顿夫人"  # Lady Bearington
-            "熊娜丁"  # Bernardine
-            "熊纳黛特"  # Bernadette
-            "毛球"  # Fluffy
-            "Otso"
-            "Brummelisa"
-            "Nalle-Maja"
-            "Brumma"
-            "Trinket"
-            "Notabear"
-            "暴雪®"  # Blizzard
-            "秘密"  # Secret
-            "瑜伽"  # Yogi
-            "糖糖"  # Sugar
-            "熊本熊"  # Kumamon
-            "Bobo"
-            "迪斯科"  # Disco
-            "Grizzly"
-            "抱抱"  # Cuddles
-            "熊娜丁"  # Bearnardine
-            "熊纳黛特"  # Bearnadette
-            "米莎"  # Misha
-            "Cindy"
-            "Goldi"
-            "Nalle"
-            "Maja"
-            "Nadja"
-        }
-        prefix = no
-        pat_grf_name_chance = 50
-        mat_grf_name_chance = 0
-        father_name_chance = 0
-        pat_grm_name_chance = 10
-        mat_grm_name_chance = 50
-        mother_name_chance = 0
-        used_for_random = no
-        allow_in_ruler_designer = no
-        modifier = default_culture_modifier
+    male_names = {
+      "熊约恩"  # Björn
+      "熊杨恩"  # Bjørn
+      "霹雳熊"  # Torbjørn
+      "纳努克"  # Nanuk
+      "罴萨斯"  # Ursus
+      "冰熊"  # Isbjörn
+      "呼嗷呜"  # Grrrowr
+      "呼呜呜"  # Grrgrrr
+      "嗷呜"  # Rawr
+      "熊姆赛"  # Bamse
+      "防火熊"  # Smokey
+      "熊尼"  # Barnie
+      "熊灵顿先生"  # Sir Bearington
+      "熊纳布斯"  # Bearnabus
+      "熊纳德"  # Bernard
+      "Asabjörn"
+      "Styrbjörn"
+      "Esbjörn"
+      "Börje"
+      "Björne"
+      "Baloo"
+      "Boo-Boo"
+      "毛球"  # Fluffy
+      "Grizzly"
+      "Otso"
+      "米莎"  # Misha
+      "Trinket"
+      "Notabear"
+      "暴雪®"  # Blizzard
+      "秘密"  # Secret
+      "糖糖"  # Sugar
+      "熊本熊"  # Kumamon
+      "Bobo"
+      "迪斯科"  # Disco
+      "抱抱"  # Cuddles
+      "鲁珀特"  # Rupert
+      "沃铁"  # Wojtek
+      "Uszatek"
+      "熊纳德"  # Bearnard
+      "Bjarne"
+      "约翰"  # John
+      "熊爪"  # Bearclaw
+      "科多兽"  # Koda
+      "Gurr"
+      "Nalle"
     }
+    female_names = {
+      "呼嗷呜"  # Grrrowr
+      "呼呜呜"  # Grrgrrr
+      "啊呜"  # Rawr
+      "熊姆赛"  # Bamse
+      "熊塞妮"  # Ursine
+      "雪球"  # Snowball
+      "熊休拉"  # Urszula
+      "熊灵顿夫人"  # Lady Bearington
+      "熊娜丁"  # Bernardine
+      "熊纳黛特"  # Bernadette
+      "毛球"  # Fluffy
+      "Otso"
+      "Brummelisa"
+      "Nalle-Maja"
+      "Brumma"
+      "Trinket"
+      "Notabear"
+      "暴雪®"  # Blizzard
+      "秘密"  # Secret
+      "瑜伽"  # Yogi
+      "糖糖"  # Sugar
+      "熊本熊"  # Kumamon
+      "Bobo"
+      "迪斯科"  # Disco
+      "Grizzly"
+      "抱抱"  # Cuddles
+      "熊娜丁"  # Bearnardine
+      "熊纳黛特"  # Bearnadette
+      "米莎"  # Misha
+      "Cindy"
+      "Goldi"
+      "Nalle"
+      "Maja"
+      "Nadja"
+    }
+    prefix = no
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 0
+    pat_grm_name_chance = 10
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+    used_for_random = no
+    allow_in_ruler_designer = no
+    modifier = default_culture_modifier
+  }
 }
 hedgehog_group = {
+  graphical_cultures = {
+    hedgehoggfx
+  }
+  alternate_start = {
+    has_alternate_start_parameter = {
+      key = special_culture
+      value = animal_kingdoms
+    }
+  }
+  hedgehog_culture = {
     graphical_cultures = {
-        hedgehoggfx
+      hedgehoggfx
     }
-    alternate_start = {
-        has_alternate_start_parameter = {
-            key = special_culture
-            value = animal_kingdoms
-        }
+    color = {
+      0.2
+      0.3
+      1.0
     }
-    hedgehog_culture = {
-        graphical_cultures = {
-            hedgehoggfx
-        }
-        color = {
-            0.2
-            0.3
-            1.0
-        }
-        male_names = {
-            "呼哧呼哧"  # Hughues
-            "海胆"  # Echinus
-            "Erinus"
-            "Kidnae"
-            "小小"  # Micro
-            "Mesyo"
-            "Aurion"
-            "Sclaterion"
-            "Rix"
-            "尖刺"  # Spike
-            "迟钝"  # Pokey
-            "Quillem"
-            "Quilliam"
-            "猬灵顿"  # Quillington
-            "索尼克"  # Sanic
-            "纳克鲁斯"  # Knucklys
-            "白银"  # Silver
-            "兰斯洛特"  # Lancelot
-            "加哈拉德"  # Galahad
-            "居鲁士"  # Cyrus
-            "针垫"  # Pincushion
-            "刺猬"  # Hedgehog
-            "暴脾气"  # Grumpy
-            "薯片"  # Crisp
-            "松果"  # Pinecone
-            "萨姆"  # Sam
-            "摇摇摆摆"  # Wiggles
-            "Stig"
-            "薛西斯"  # Xerxes
-            "蒂棘·温刺儿太太"  # Mr. Tiggy-Winkle
-            "钉子"  # Nails
-            "荆棘"  # Thorn
-            "Ringo"
-            "Groogy"
-            "朋客"  # Punk
-            "豪猪"  # Hedgepig
-            "威严满满"  # August
-            "Blaine"
-            "扫罗"  # Saul
-        }
-        female_names = {
-            "Erina"
-            "Ekidney"
-            "Leerix"
-            "Algira"
-            "Hemy"
-            "Collie"
-            "Daura"
-            "Para"
-            "Ventria"
-            "Shaquilla"
-            "Prickquille"
-            "Splinthia"
-            "尼妙"  # Nimue
-            "艾米"  # Amy
-            "Nix"
-            "尖刺"  # Spike
-            "针垫"  # Pincushion
-            "刺猬"  # Hedgehog
-            "暴脾气"  # Grumpy
-            "迟钝"  # Pokey
-            "薯片"  # Crisp
-            "松果"  # Pinecone
-            "Sam"
-            "摇摇摆摆"  # Wiggles
-            "玫瑰"  # Rose
-            "鹅卵石"  # Pebbles
-            "Peggy"
-            "嘉嘉女巫"  # Hogatha
-            "石楠木"  # Briar
-            "花花"  # Flower
-            "Meg"
-            "猩红"  # Scarlet
-            "Vendela"
-            "生姜"  # Ginger
-            "Mena"
-            "Tisha"
-            "Oona"
-            "乌苏拉"  # Ursula
-            "Judit"
-            "Tegan"
-            "阳光闪闪"  # Sunshine
-        }
-        prefix = no
-        pat_grf_name_chance = 50
-        mat_grf_name_chance = 0
-        father_name_chance = 0
-        pat_grm_name_chance = 10
-        mat_grm_name_chance = 50
-        mother_name_chance = 0
-        used_for_random = no
-        allow_in_ruler_designer = no
-        modifier = default_culture_modifier
-        allow_looting = yes
-        seafarer = yes
+    male_names = {
+      "呼哧呼哧"  # Hughues
+      "海胆"  # Echinus
+      "Erinus"
+      "Kidnae"
+      "小小"  # Micro
+      "Mesyo"
+      "Aurion"
+      "Sclaterion"
+      "Rix"
+      "尖刺"  # Spike
+      "迟钝"  # Pokey
+      "Quillem"
+      "Quilliam"
+      "猬灵顿"  # Quillington
+      "索尼克"  # Sanic
+      "纳克鲁斯"  # Knucklys
+      "白银"  # Silver
+      "兰斯洛特"  # Lancelot
+      "加哈拉德"  # Galahad
+      "居鲁士"  # Cyrus
+      "针垫"  # Pincushion
+      "刺猬"  # Hedgehog
+      "暴脾气"  # Grumpy
+      "薯片"  # Crisp
+      "松果"  # Pinecone
+      "萨姆"  # Sam
+      "摇摇摆摆"  # Wiggles
+      "Stig"
+      "薛西斯"  # Xerxes
+      "蒂棘·温刺儿太太"  # Mr. Tiggy-Winkle
+      "钉子"  # Nails
+      "荆棘"  # Thorn
+      "Ringo"
+      "Groogy"
+      "朋客"  # Punk
+      "豪猪"  # Hedgepig
+      "威严满满"  # August
+      "Blaine"
+      "扫罗"  # Saul
     }
+    female_names = {
+      "Erina"
+      "Ekidney"
+      "Leerix"
+      "Algira"
+      "Hemy"
+      "Collie"
+      "Daura"
+      "Para"
+      "Ventria"
+      "Shaquilla"
+      "Prickquille"
+      "Splinthia"
+      "尼妙"  # Nimue
+      "艾米"  # Amy
+      "Nix"
+      "尖刺"  # Spike
+      "针垫"  # Pincushion
+      "刺猬"  # Hedgehog
+      "暴脾气"  # Grumpy
+      "迟钝"  # Pokey
+      "薯片"  # Crisp
+      "松果"  # Pinecone
+      "Sam"
+      "摇摇摆摆"  # Wiggles
+      "玫瑰"  # Rose
+      "鹅卵石"  # Pebbles
+      "Peggy"
+      "嘉嘉女巫"  # Hogatha
+      "石楠木"  # Briar
+      "花花"  # Flower
+      "Meg"
+      "猩红"  # Scarlet
+      "Vendela"
+      "生姜"  # Ginger
+      "Mena"
+      "Tisha"
+      "Oona"
+      "乌苏拉"  # Ursula
+      "Judit"
+      "Tegan"
+      "阳光闪闪"  # Sunshine
+    }
+    prefix = no
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 0
+    pat_grm_name_chance = 10
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+    used_for_random = no
+    allow_in_ruler_designer = no
+    modifier = default_culture_modifier
+    allow_looting = yes
+    seafarer = yes
+  }
 }
 duck_group = {
+  graphical_cultures = {
+    duckgfx
+  }
+  alternate_start = {
+    has_alternate_start_parameter = {
+      key = special_culture
+      value = animal_kingdoms
+    }
+  }
+  duck_culture = {
     graphical_cultures = {
-        duckgfx
+      duckgfx
     }
-    alternate_start = {
-        has_alternate_start_parameter = {
-            key = special_culture
-            value = animal_kingdoms
-        }
+    color = {
+      1.0
+      1.0
+      1.0
     }
-    duck_culture = {
-        graphical_cultures = {
-            duckgfx
-        }
-        color = {
-            1.0
-            1.0
-            1.0
-        }
-        male_names = {
-            "达菲鸭"  # Daffy
-            "嘎嘎"  # Quacker
-            "Huck"
-            "摇摇晃晃"  # Waddles
-            "唐老鸭"  # Donald
-            "Dominic"
-            "白翅膀"  # Whitewing
-            "鸭库斯"  # Duckus
-            "Quackmire"
-            "蛋头小子"  # Eggbert
-            "霍华德"  # Howard
-            "史高治"  # Scrooge
-            "Winghelm"
-            "Ludwing"
-            "Gladstone"
-            "蛋糕"  # Cake
-            "Blunder"
-            "鸭子"  # Duck
-            "嘎嘎"  # Quackers
-            "皮皮"  # Pippi
-            "面面"  # Face
-            "葡萄"  # Grape
-            "阿纳海姆"  # Anaheim
-            "Quackel"
-            "鸟嘴"  # Beaky
-            "诺丁顿"  # Nottington
-            "Drake"
-            "野鸭"  # Mallard
-            "汉斯"  # Hans
-            "史高治"  # Scrooge
-            "黑暗之翼"  # Darkwing
-            "辉儿"  # Huey
-            "杜儿"  # Dewey
-            "路儿"  # Louie
-            "玻利瓦尔"  # Bolivar
-            "马丁"  # Mårten
-            "Maarten"
-            "王权"  # Cornelius
-            "Havbard"
-            "Knase"
-            "Kalle"
-            "阿耳涅"  # Arne
-            "狄伦"  # Dylan
-            "Emelio"
-            "Greg"
-            "保罗"  # Paul
-        }
-        female_names = {
-            "黛西"  # Daisy
-            "Irynn"
-            "Neilly"
-            "鸟样"  # Aves
-            "Winghelmina"
-            "Beaktrice"
-            "茉莉"  # Molly
-            "Webbygail"
-            "Bentina"
-            "Goldie"
-            "Jemima"
-            "蛋糕"  # Cake
-            "Blunder"
-            "鸭子"  # Duck
-            "嘎嘎"  # Quackers
-            "皮皮"  # Pippi
-            "面面"  # Face
-            "葡萄"  # Grape
-            "阿纳海姆"  # Anaheim
-            "羽毛"  # Feathers
-            "Kajsa"
-            "Donna"
-            "Hortensia"
-            "山雀"  # Chickadee
-            "Tyra"
-            "Gullan"
-            "Oona"
-            "Umpa"
-            "Gittan"
-            "Lola"
-            "碧冬茄"  # Petunia
-            "桃乐丝"  # Doris
-            "玛蒂尔达"  # Matilda
-            "Lucinda"
-            "Dumbella"
-            "Selma"
-            "朵拉"  # Dora
-            "范妮"  # Fanny
-            "琪琪"  # Kicki
-            "蒂蒂"  # Titti
-            "安琪"  # Anki
-            "甘德拉"  # Gandra
-            "Gåsalin"
-            "Gosalyn"
-            "Ammonia"
-            "Zeena"
-        }
-        prefix = no
-        pat_grf_name_chance = 50
-        mat_grf_name_chance = 0
-        father_name_chance = 0
-        pat_grm_name_chance = 10
-        mat_grm_name_chance = 50
-        mother_name_chance = 0
-        used_for_random = no
-        allow_in_ruler_designer = no
-        modifier = default_culture_modifier
-        allow_looting = yes
-        seafarer = yes
+    male_names = {
+      "达菲鸭"  # Daffy
+      "嘎嘎"  # Quacker
+      "Huck"
+      "摇摇晃晃"  # Waddles
+      "唐老鸭"  # Donald
+      "Dominic"
+      "白翅膀"  # Whitewing
+      "鸭库斯"  # Duckus
+      "Quackmire"
+      "蛋头小子"  # Eggbert
+      "霍华德"  # Howard
+      "史高治"  # Scrooge
+      "Winghelm"
+      "Ludwing"
+      "Gladstone"
+      "蛋糕"  # Cake
+      "Blunder"
+      "鸭子"  # Duck
+      "嘎嘎"  # Quackers
+      "皮皮"  # Pippi
+      "面面"  # Face
+      "葡萄"  # Grape
+      "阿纳海姆"  # Anaheim
+      "Quackel"
+      "鸟嘴"  # Beaky
+      "诺丁顿"  # Nottington
+      "Drake"
+      "野鸭"  # Mallard
+      "汉斯"  # Hans
+      "史高治"  # Scrooge
+      "黑暗之翼"  # Darkwing
+      "辉儿"  # Huey
+      "杜儿"  # Dewey
+      "路儿"  # Louie
+      "玻利瓦尔"  # Bolivar
+      "马丁"  # Mårten
+      "Maarten"
+      "王权"  # Cornelius
+      "Havbard"
+      "Knase"
+      "Kalle"
+      "阿耳涅"  # Arne
+      "狄伦"  # Dylan
+      "Emelio"
+      "Greg"
+      "保罗"  # Paul
     }
+    female_names = {
+      "黛西"  # Daisy
+      "Irynn"
+      "Neilly"
+      "鸟样"  # Aves
+      "Winghelmina"
+      "Beaktrice"
+      "茉莉"  # Molly
+      "Webbygail"
+      "Bentina"
+      "Goldie"
+      "Jemima"
+      "蛋糕"  # Cake
+      "Blunder"
+      "鸭子"  # Duck
+      "嘎嘎"  # Quackers
+      "皮皮"  # Pippi
+      "面面"  # Face
+      "葡萄"  # Grape
+      "阿纳海姆"  # Anaheim
+      "羽毛"  # Feathers
+      "Kajsa"
+      "Donna"
+      "Hortensia"
+      "山雀"  # Chickadee
+      "Tyra"
+      "Gullan"
+      "Oona"
+      "Umpa"
+      "Gittan"
+      "Lola"
+      "碧冬茄"  # Petunia
+      "桃乐丝"  # Doris
+      "玛蒂尔达"  # Matilda
+      "Lucinda"
+      "Dumbella"
+      "Selma"
+      "朵拉"  # Dora
+      "范妮"  # Fanny
+      "琪琪"  # Kicki
+      "蒂蒂"  # Titti
+      "安琪"  # Anki
+      "甘德拉"  # Gandra
+      "Gåsalin"
+      "Gosalyn"
+      "Ammonia"
+      "Zeena"
+    }
+    prefix = no
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 0
+    pat_grm_name_chance = 10
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+    used_for_random = no
+    allow_in_ruler_designer = no
+    modifier = default_culture_modifier
+    allow_looting = yes
+    seafarer = yes
+  }
 }
 dog_group = {
+  graphical_cultures = {
+    doggfx
+  }
+  alternate_start = {
+    has_alternate_start_parameter = {
+      key = special_culture
+      value = animal_kingdoms
+    }
+  }
+  dog_culture = {
     graphical_cultures = {
-        doggfx
+      doggfx
     }
-    alternate_start = {
-        has_alternate_start_parameter = {
-            key = special_culture
-            value = animal_kingdoms
-        }
+    color = {
+      0.4
+      0.3
+      0.0
     }
-    dog_culture = {
-        graphical_cultures = {
-            doggfx
-        }
-        color = {
-            0.4
-            0.3
-            0.0
-        }
-        male_names = {
-            "Fido"
-            "阿方索"  # Alfonso
-            "巴西尔"  # Basil
-            "阿尔伯特"  # Albert
-            "Alistair"
-            "Elmer"
-            "Gilbert"
-            "Alwin"
-            "Brantley"
-            "Kendrik"
-            "Psyche"
-            "Pluck"
-            "Buckler"
-            "Spigot"
-            "Lance"
-            "Lurcher"
-            "Watch"
-            "Keeper"
-            "Brigade"
-            "Fencer"
-            "Butcher"
-            "Blazer"
-            "Prowess"
-            "Craftsman"
-            "Forester"
-            "Counsellor"
-            "Spoiler"
-            "赫里"  # Hurry
-            "Fury"
-            "Growler"
-            "Riot"
-            "Bloomer"
-            "罗姆"  # Rome
-            "Blossom"
-            "Hebe"
-            "Hilary"
-            "Jolity"
-            "Gazer"
-            "Eyebright"
-            "Much"
-            "Force"
-            "Trooper"
-            "Bustle"
-            "Bubbler"
-            "Rockdove"
-            "Stubborn"
-            "Yelp"
-            "Pele-mele"
-            "Strongboy"
-            "Sky"
-            "Sunbeam"
-            "Bodkin"
-            "Wistful"
-            "Gnome"
-            "Tracks"
-            "Dash"
-            "Blake"
-            "Buddy"
-            "Goofy"
-            "Pluto"
-            "Killer"
-            "Max"
-            "Bonzo"
-            "Zico"
-            "Santi"
-            "Cotte"
-            "Ruff"
-            "Trigger"
-            "米尼"  # Mini
-            "托比"  # Toby
-            "Doglas"
-            "Good"
-            "Bad"
-            "Cujo"
-            "Louis"
-            "Mr Wuffles"
-            "Inky"
-            "Saurr"
-            "Bubbles"
-            "Dog"
-            "Doggo"
-            "Shadow"
-            "Spot"
-            "Babe"
-            "斑点灵顿"  # Spotington
-            "Wesley"
-            "Rex"
-            "Pluto"
-            "Timmi"
-            "埃德"  # Ed
-            "Benjamin"
-            "Sapphire"
-            "Homer"
-            "Grif"
-            "Ghost"
-            "Greywind"
-            "Summer"
-            "Shaggydog"
-            "Scooby"
-            "Droopy"
-            "Dogge"
-            "Henry"
-            "Casey"
-            "Sam"
-            "Maxx"
-            "Kelvin"
-            "Rozz"
-            "Ajax"
-            "Zorro"
-            "Clifford"
-            "Dali"
-            "Milton"
-            "沃森"  # Watson
-            "Laddie"
-            "Amundsen"
-            "Hercules"
-            "Hackenschmidt"
-            "Samson"
-            "Sammy"
-            "Skipper"
-            "Caruso"
-            "Sub"
-            "Ulysses"
-            "Spotty"
-            "Bosun"
-            "Slobbers"
-            "Splitlip"
-            "Swanker"
-            "Chirgwin"
-            "Steamer"
-            "Wuffler"
-        }
-        female_names = {
-            "Carmen"
-            "Eleanor"
-            "Dolly"
-            "Eve"
-            "Fergie"
-            "Golda"
-            "Guinevere"
-            "Indira"
-            "Minerva"
-            "Octavia"
-            "Psyche"
-            "Pluck"
-            "Buckler"
-            "Spigot"
-            "兰斯"  # Lance
-            "Lurcher"
-            "Watch"
-            "Keeper"
-            "Brigade"
-            "Fencer"
-            "Butcher"
-            "Blazer"
-            "Prowess"
-            "Craftsman"
-            "Forester"
-            "Counsellor"
-            "Spoiler"
-            "Hurry"
-            "Fury"
-            "Growler"
-            "Riot"
-            "Bloomer"
-            "Rome"
-            "Blossom"
-            "Hebe"
-            "Hilary"
-            "Jolity"
-            "Gazer"
-            "Eyebright"
-            "Much"
-            "Force"
-            "Trooper"
-            "Bustle"
-            "Bubbler"
-            "Rockdove"
-            "Stubborn"
-            "Yelp"
-            "Killer"
-            "Pele-mele"
-            "Sky"
-            "Sunbeam"
-            "Bodkin"
-            "Wistful"
-            "Gnome"
-            "Tracks"
-            "DashAnnie"
-            "Swix"
-            "Bella"
-            "Xohla"
-            "Lassie"
-            "Laika"
-            "Odine"
-            "Inky"
-            "Alice"
-            "Good"
-            "Bad"
-            "Bubbles"
-            "Dog"
-            "Doggo"
-            "Shadow"
-            "Spot"
-            "Babe"
-            "Twiggy"
-            "Nikki"
-            "Nova"
-            "Yippie"
-            "Kisha"
-            "Tavi"
-            "Naevia"
-            "Alice"
-            "Berta"
-            "Domino"
-            "Blondi"
-            "Bella"
-            "Lottie"
-            "Danny"
-            "Lyra"
-            "Lady"
-            "Nymeria"
-            "Zoe"
-            "Jemma"
-            "Ronja"
-            "Maus"
-            "Bessie"
-            "Flecka"
-            "Tira"
-            "Menchi"
-            "Lily"
-            "Gala"
-            "Bitta"
-            "Mia"
-            "Laika"
-            "Sadie"
-            "Sue"
-            "Sally"
-            "Songster"
-            "Wuffler"
-        }
-        prefix = no
-        pat_grf_name_chance = 50
-        mat_grf_name_chance = 0
-        father_name_chance = 0
-        pat_grm_name_chance = 10
-        mat_grm_name_chance = 50
-        mother_name_chance = 0
-        used_for_random = no
-        allow_in_ruler_designer = no
-        modifier = default_culture_modifier
+    male_names = {
+      "Fido"
+      "阿方索"  # Alfonso
+      "巴西尔"  # Basil
+      "阿尔伯特"  # Albert
+      "Alistair"
+      "Elmer"
+      "Gilbert"
+      "Alwin"
+      "Brantley"
+      "Kendrik"
+      "Psyche"
+      "Pluck"
+      "Buckler"
+      "Spigot"
+      "Lance"
+      "Lurcher"
+      "Watch"
+      "Keeper"
+      "Brigade"
+      "Fencer"
+      "Butcher"
+      "Blazer"
+      "Prowess"
+      "Craftsman"
+      "Forester"
+      "Counsellor"
+      "Spoiler"
+      "赫里"  # Hurry
+      "Fury"
+      "Growler"
+      "Riot"
+      "Bloomer"
+      "罗姆"  # Rome
+      "Blossom"
+      "Hebe"
+      "Hilary"
+      "Jolity"
+      "Gazer"
+      "Eyebright"
+      "Much"
+      "Force"
+      "Trooper"
+      "Bustle"
+      "Bubbler"
+      "Rockdove"
+      "Stubborn"
+      "Yelp"
+      "Pele-mele"
+      "Strongboy"
+      "Sky"
+      "Sunbeam"
+      "Bodkin"
+      "Wistful"
+      "Gnome"
+      "Tracks"
+      "Dash"
+      "Blake"
+      "Buddy"
+      "Goofy"
+      "Pluto"
+      "Killer"
+      "Max"
+      "Bonzo"
+      "Zico"
+      "Santi"
+      "Cotte"
+      "Ruff"
+      "Trigger"
+      "米尼"  # Mini
+      "托比"  # Toby
+      "Doglas"
+      "Good"
+      "Bad"
+      "Cujo"
+      "Louis"
+      "Mr Wuffles"
+      "Inky"
+      "Saurr"
+      "Bubbles"
+      "Dog"
+      "Doggo"
+      "Shadow"
+      "Spot"
+      "Babe"
+      "斑点灵顿"  # Spotington
+      "Wesley"
+      "Rex"
+      "Pluto"
+      "Timmi"
+      "埃德"  # Ed
+      "Benjamin"
+      "Sapphire"
+      "Homer"
+      "Grif"
+      "Ghost"
+      "Greywind"
+      "Summer"
+      "Shaggydog"
+      "Scooby"
+      "Droopy"
+      "Dogge"
+      "Henry"
+      "Casey"
+      "Sam"
+      "Maxx"
+      "Kelvin"
+      "Rozz"
+      "Ajax"
+      "Zorro"
+      "Clifford"
+      "Dali"
+      "Milton"
+      "沃森"  # Watson
+      "Laddie"
+      "Amundsen"
+      "Hercules"
+      "Hackenschmidt"
+      "Samson"
+      "Sammy"
+      "Skipper"
+      "Caruso"
+      "Sub"
+      "Ulysses"
+      "Spotty"
+      "Bosun"
+      "Slobbers"
+      "Splitlip"
+      "Swanker"
+      "Chirgwin"
+      "Steamer"
+      "Wuffler"
     }
+    female_names = {
+      "Carmen"
+      "Eleanor"
+      "Dolly"
+      "Eve"
+      "Fergie"
+      "Golda"
+      "Guinevere"
+      "Indira"
+      "Minerva"
+      "Octavia"
+      "Psyche"
+      "Pluck"
+      "Buckler"
+      "Spigot"
+      "兰斯"  # Lance
+      "Lurcher"
+      "Watch"
+      "Keeper"
+      "Brigade"
+      "Fencer"
+      "Butcher"
+      "Blazer"
+      "Prowess"
+      "Craftsman"
+      "Forester"
+      "Counsellor"
+      "Spoiler"
+      "Hurry"
+      "Fury"
+      "Growler"
+      "Riot"
+      "Bloomer"
+      "Rome"
+      "Blossom"
+      "Hebe"
+      "Hilary"
+      "Jolity"
+      "Gazer"
+      "Eyebright"
+      "Much"
+      "Force"
+      "Trooper"
+      "Bustle"
+      "Bubbler"
+      "Rockdove"
+      "Stubborn"
+      "Yelp"
+      "Killer"
+      "Pele-mele"
+      "Sky"
+      "Sunbeam"
+      "Bodkin"
+      "Wistful"
+      "Gnome"
+      "Tracks"
+      "DashAnnie"
+      "Swix"
+      "Bella"
+      "Xohla"
+      "Lassie"
+      "Laika"
+      "Odine"
+      "Inky"
+      "Alice"
+      "Good"
+      "Bad"
+      "Bubbles"
+      "Dog"
+      "Doggo"
+      "Shadow"
+      "Spot"
+      "Babe"
+      "Twiggy"
+      "Nikki"
+      "Nova"
+      "Yippie"
+      "Kisha"
+      "Tavi"
+      "Naevia"
+      "Alice"
+      "Berta"
+      "Domino"
+      "Blondi"
+      "Bella"
+      "Lottie"
+      "Danny"
+      "Lyra"
+      "Lady"
+      "Nymeria"
+      "Zoe"
+      "Jemma"
+      "Ronja"
+      "Maus"
+      "Bessie"
+      "Flecka"
+      "Tira"
+      "Menchi"
+      "Lily"
+      "Gala"
+      "Bitta"
+      "Mia"
+      "Laika"
+      "Sadie"
+      "Sue"
+      "Sally"
+      "Songster"
+      "Wuffler"
+    }
+    prefix = no
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 0
+    pat_grm_name_chance = 10
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+    used_for_random = no
+    allow_in_ruler_designer = no
+    modifier = default_culture_modifier
+  }
 }
 elephant_group = {
+  graphical_cultures = {
+    elephantgfx
+  }
+  alternate_start = {
+    has_alternate_start_parameter = {
+      key = special_culture
+      value = animal_kingdoms
+    }
+  }
+  elephant_culture = {
     graphical_cultures = {
-        elephantgfx
+      elephantgfx
     }
-    alternate_start = {
-        has_alternate_start_parameter = {
-            key = special_culture
-            value = animal_kingdoms
-        }
+    color = {
+      0.8
+      0.8
+      0.8
     }
-    elephant_culture = {
-        graphical_cultures = {
-            elephantgfx
-        }
-        color = {
-            0.8
-            0.8
-            0.8
-        }
-        male_names = {
-            "Doot"
-            "Trumpo"
-            "鼻子"  # Snoot
-            "Pyyrhus"
-            "Kandula"
-            "大个儿"  # Jumbo
-            "大象"  # Elephant
-            "Setu"
-            "Dhriti"
-            "Bhaanu"
-            "跋陀罗"  # Bhadra
-            "Zain"
-            "Barbar"
-            "蓬巴杜"  # Pompadour
-            "Booper"
-            "小飞象"  # Dombo
-            "阿布"  # Abul
-            "阿巴斯"  # Abbas
-            "Hanno"
-            "Zaeem"
-            "汉尼拔"  # Hannibal
-            "巴尔"  # Baal
-            "哈斯德鲁巴"  # Hasdrubal
-            "巴布尔"  # Babur
-            "Batyr"
-            "波吕克斯"  # Pollux
-            "卡斯托尔"  # Castor
-            "长牙先生"  # Mr-Tusk
-            "Gaj"
-            "Brant"
-            "Kamboj"
-            "Hastin"
-            "Gajendra"
-            "Airawat"
-            "Tej"
-            "Toti"
-            "Yathra"
-            "Ghaazi"
-            "Chotu"
-            "Baahi"
-            "Bakhsh"
-            "Behru"
-            "Zaki"
-            "王权"  # Cornelius
-            "Surus"
-        }
-        female_names = {
-            "Doot"
-            "Trumpo"
-            "鼻子"  # Snoot
-            "Pyyrhus"
-            "Kandula"
-            "大个儿"  # Jumbo
-            "大象"  # Elephant
-            "Setu"
-            "Dhriti"
-            "Bhaanu"
-            "跋陀罗"  # Bhadra
-            "Zain"
-            "Barbar"
-            "蓬巴杜"  # Pompadour
-            "Booper"
-            "小飞象"  # Dombo
-            "天空"  # Celestial
-            "汉斯肯"  # Hansken
-            "红宝石"  # Ruby
-            "Miraan"
-            "解脱"  # Moksha
-            "Dhruti"
-            "Zahara"
-            "夜叉"  # Yasha
-            "吉安娜"  # Jaina
-            "Fria"
-            "Aashi"
-            "Hruti"
-            "Sia"
-            "达刹"  # Daksha
-            "Zia"
-            "札拉"  # Xara
-            "象鼻虫"  # Zyva
-            "Okki"
-        }
-        prefix = no
-        pat_grf_name_chance = 50
-        mat_grf_name_chance = 0
-        father_name_chance = 0
-        pat_grm_name_chance = 10
-        mat_grm_name_chance = 50
-        mother_name_chance = 0
-        used_for_random = no
-        allow_in_ruler_designer = no
-        modifier = default_culture_modifier
+    male_names = {
+      "Doot"
+      "Trumpo"
+      "鼻子"  # Snoot
+      "Pyyrhus"
+      "Kandula"
+      "大个儿"  # Jumbo
+      "大象"  # Elephant
+      "Setu"
+      "Dhriti"
+      "Bhaanu"
+      "跋陀罗"  # Bhadra
+      "Zain"
+      "Barbar"
+      "蓬巴杜"  # Pompadour
+      "Booper"
+      "小飞象"  # Dombo
+      "阿布"  # Abul
+      "阿巴斯"  # Abbas
+      "Hanno"
+      "Zaeem"
+      "汉尼拔"  # Hannibal
+      "巴尔"  # Baal
+      "哈斯德鲁巴"  # Hasdrubal
+      "巴布尔"  # Babur
+      "Batyr"
+      "波吕克斯"  # Pollux
+      "卡斯托尔"  # Castor
+      "长牙先生"  # Mr-Tusk
+      "Gaj"
+      "Brant"
+      "Kamboj"
+      "Hastin"
+      "Gajendra"
+      "Airawat"
+      "Tej"
+      "Toti"
+      "Yathra"
+      "Ghaazi"
+      "Chotu"
+      "Baahi"
+      "Bakhsh"
+      "Behru"
+      "Zaki"
+      "王权"  # Cornelius
+      "Surus"
     }
+    female_names = {
+      "Doot"
+      "Trumpo"
+      "鼻子"  # Snoot
+      "Pyyrhus"
+      "Kandula"
+      "大个儿"  # Jumbo
+      "大象"  # Elephant
+      "Setu"
+      "Dhriti"
+      "Bhaanu"
+      "跋陀罗"  # Bhadra
+      "Zain"
+      "Barbar"
+      "蓬巴杜"  # Pompadour
+      "Booper"
+      "小飞象"  # Dombo
+      "天空"  # Celestial
+      "汉斯肯"  # Hansken
+      "红宝石"  # Ruby
+      "Miraan"
+      "解脱"  # Moksha
+      "Dhruti"
+      "Zahara"
+      "夜叉"  # Yasha
+      "吉安娜"  # Jaina
+      "Fria"
+      "Aashi"
+      "Hruti"
+      "Sia"
+      "达刹"  # Daksha
+      "Zia"
+      "札拉"  # Xara
+      "象鼻虫"  # Zyva
+      "Okki"
+    }
+    prefix = no
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 0
+    pat_grm_name_chance = 10
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+    used_for_random = no
+    allow_in_ruler_designer = no
+    modifier = default_culture_modifier
+  }
 }
 dragon_group = {
+  graphical_cultures = {
+    dragongfx
+  }
+  alternate_start = {
+    has_alternate_start_parameter = {
+      key = special_culture
+      value = animal_kingdoms
+    }
+  }
+  dragon_culture = {
     graphical_cultures = {
-        dragongfx
+      dragongfx
     }
-    alternate_start = {
-        has_alternate_start_parameter = {
-            key = special_culture
-            value = animal_kingdoms
-        }
+    color = {
+      0.6
+      0.0
+      0.0
     }
-    dragon_culture = {
-        graphical_cultures = {
-            dragongfx
-        }
-        color = {
-            0.6
-            0.0
-            0.0
-        }
-        male_names = {
-            "法夫纳"  # Fafnir
-            "尘世"  # Midgard
-            "阿波菲斯"  # Apopis
-            "拉冬"  # Ladon
-            "Colchidei"
-            "岩锥"  # Piton
-            "薇薇尔"  # Vouivre
-            "Drac"
-            "血污怪"  # Gorynych
-            "班图"  # Bantu
-            "Mannu"
-            "Khozen"
-            "Morzas"
-            "Xemcel"
-            "Medeus"
-            "Morva"
-            "Nils"
-            "巴哈姆特"  # Bahamut
-            "利维坦"  # Leviathan
-            "竜神"  # Ryujin
-            "Zilant"
-            "堤丰"  # Typhos
-            "泡芙"  # Puff
-            "倪克斯"  # Nyx
-            "缺牙"  # Teethless
-            "尘烟"  # Smokey
-            "死亡之翼"  # Deathwing
-            "快银"  # Quicksilver
-            "灰影"  # Grey Ghost
-            "海烟"  # Seasmoke
-            "薪柴"  # Pyre
-            "焦土"  # Scorch
-            "龙"  # Dragon
-            "妖蛆"  # Wyrm
-            "林德虫"  # Lindwurm
-            "都瓦克因"  # Dovah
-            "弗拉德"  # Vlad
-            "Rattleskin"
-            "余烬"  # Ash
-            "本笃"  # Benedict
-            "罗刹"  # Rakshasha
-            "天龙座"  # Draco
-            "德古拉"  # Dracul
-            "Drago"
-            "Fafner"
-            "Errol"
-            "葛勒多"  # Glaedr
-            "格劳龙"  # Glaurung
-            "冰华"  # Icefyre
-            "福哥儿"  # Falkor
-            "纳吉尼"  # Nagini
-            "雄火龙里奥雷乌斯"  # Rathalos
-            "皮夫魔龙"  # Piff
-            "Fred"
-            "Voidaltarah"
-            "德莱格"  # Ddraig
-            "Drdrake"
-            "凡逝"  # Morttalis
-            "班尼"  # Barney
-        }
-        female_names = {
-            "提亚玛特"  # Tiomat
-            "Tintaglia"
-            "卡特拉"  # Katla
-            "德拉卡伊娜"  # Drakaina
-            "Gegheiss"
-            "Jesasdess"
-            "Semoth"
-            "Heirel"
-            "Taynnelth"
-            "娜迦"  # Naga
-            "提基"  # Tiki
-            "凪"  # Nagi
-            "没药"  # Myrrh
-            "Ninian"
-            "Nah"
-            "倪克斯"  # Nyx
-            "缺牙"  # Teethless
-            "尘烟"  # Smokey
-            "巴哈姆特"  # Bahamut
-            "死亡之翼"  # Deathwing
-            "快银"  # Quicksilver
-            "灰影"  # Grey Ghost
-            "海烟"  # Seasmoke
-            "泡芙"  # Puff
-            "薪柴"  # Pyre
-            "焦土"  # Scorch
-            "龙"  # Dragon
-            "妖蛆"  # Wyrm
-            "林德虫"  # Lindwurm
-            "都瓦克因"  # Dovah
-            "斯黛拉"  # Stella
-            "罗刹女"  # Rakshesha
-            "诺贝塔"  # Norberta
-            "Paksenarrion"
-            "蓝儿"  # Saphira
-            "艾苏萨"  # Aithusa
-            "考狄利娅"  # Cordelia
-            "雌火龙里奥雷亚"  # Rathian
-            "夏娜"  # Charna
-            "仙都"  # Xanadu
-        }
-        prefix = no
-        pat_grf_name_chance = 50
-        mat_grf_name_chance = 0
-        father_name_chance = 0
-        pat_grm_name_chance = 10
-        mat_grm_name_chance = 50
-        mother_name_chance = 0
-        used_for_random = no
-        allow_in_ruler_designer = no
-        modifier = default_culture_modifier
-        allow_looting = yes
+    male_names = {
+      "法夫纳"  # Fafnir
+      "尘世"  # Midgard
+      "阿波菲斯"  # Apopis
+      "拉冬"  # Ladon
+      "Colchidei"
+      "岩锥"  # Piton
+      "薇薇尔"  # Vouivre
+      "Drac"
+      "血污怪"  # Gorynych
+      "班图"  # Bantu
+      "Mannu"
+      "Khozen"
+      "Morzas"
+      "Xemcel"
+      "Medeus"
+      "Morva"
+      "Nils"
+      "巴哈姆特"  # Bahamut
+      "利维坦"  # Leviathan
+      "竜神"  # Ryujin
+      "Zilant"
+      "堤丰"  # Typhos
+      "泡芙"  # Puff
+      "倪克斯"  # Nyx
+      "缺牙"  # Teethless
+      "尘烟"  # Smokey
+      "死亡之翼"  # Deathwing
+      "快银"  # Quicksilver
+      "灰影"  # Grey Ghost
+      "海烟"  # Seasmoke
+      "薪柴"  # Pyre
+      "焦土"  # Scorch
+      "龙"  # Dragon
+      "妖蛆"  # Wyrm
+      "林德虫"  # Lindwurm
+      "都瓦克因"  # Dovah
+      "弗拉德"  # Vlad
+      "Rattleskin"
+      "余烬"  # Ash
+      "本笃"  # Benedict
+      "罗刹"  # Rakshasha
+      "天龙座"  # Draco
+      "德古拉"  # Dracul
+      "Drago"
+      "Fafner"
+      "Errol"
+      "葛勒多"  # Glaedr
+      "格劳龙"  # Glaurung
+      "冰华"  # Icefyre
+      "福哥儿"  # Falkor
+      "纳吉尼"  # Nagini
+      "雄火龙里奥雷乌斯"  # Rathalos
+      "皮夫魔龙"  # Piff
+      "Fred"
+      "Voidaltarah"
+      "德莱格"  # Ddraig
+      "Drdrake"
+      "凡逝"  # Morttalis
+      "班尼"  # Barney
     }
+    female_names = {
+      "提亚玛特"  # Tiomat
+      "Tintaglia"
+      "卡特拉"  # Katla
+      "德拉卡伊娜"  # Drakaina
+      "Gegheiss"
+      "Jesasdess"
+      "Semoth"
+      "Heirel"
+      "Taynnelth"
+      "娜迦"  # Naga
+      "提基"  # Tiki
+      "凪"  # Nagi
+      "没药"  # Myrrh
+      "Ninian"
+      "Nah"
+      "倪克斯"  # Nyx
+      "缺牙"  # Teethless
+      "尘烟"  # Smokey
+      "巴哈姆特"  # Bahamut
+      "死亡之翼"  # Deathwing
+      "快银"  # Quicksilver
+      "灰影"  # Grey Ghost
+      "海烟"  # Seasmoke
+      "泡芙"  # Puff
+      "薪柴"  # Pyre
+      "焦土"  # Scorch
+      "龙"  # Dragon
+      "妖蛆"  # Wyrm
+      "林德虫"  # Lindwurm
+      "都瓦克因"  # Dovah
+      "斯黛拉"  # Stella
+      "罗刹女"  # Rakshesha
+      "诺贝塔"  # Norberta
+      "Paksenarrion"
+      "蓝儿"  # Saphira
+      "艾苏萨"  # Aithusa
+      "考狄利娅"  # Cordelia
+      "雌火龙里奥雷亚"  # Rathian
+      "夏娜"  # Charna
+      "仙都"  # Xanadu
+    }
+    prefix = no
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 0
+    pat_grm_name_chance = 10
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+    used_for_random = no
+    allow_in_ruler_designer = no
+    modifier = default_culture_modifier
+    allow_looting = yes
+  }
 }
