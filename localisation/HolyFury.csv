@@ -64,7 +64,7 @@ EVTDESC_HFP_10105_mock_duel_B;决斗开始了，[other_combatant.GetTitledName]�
 EVTDESC_HFP_10105_mock_duel_C;我无限乐观的挥舞着我的[Root.GetDuelWeapon]，一边听着观众的欢呼。当决斗结束时，[other_combatant.GetTitledName]正躺在地上，[other_combatant.GetHerHis]脸因为羞愧而变的通红。我耸了耸肩，然后对着人群微笑，也对着他微笑。;;;;;;;;;;;;x
 EVTOPTA_HFP_10105_default;我以赢家的身姿离开！;;;;;;;;;;;;x
 EVTOPTA_HFP_10105_lunatic;这血可……真红啊！;;;;;;;;;;;;x
-EVTOPTA_HFP_10105_cruel;说真的，[other_combatant.GetTitledFirstName]？这也太简单了。;;;;;;;;;;;;x
+EVTOPTA_HFP_10105_cruel;说真的，[other_combatant.GetTitledFirstName]？他根本不够我塞牙缝的。;;;;;;;;;;;;x
 EVTOPTA_HFP_10105_kind;莫……莫非这场战斗我赢了？;;;;;;;;;;;;x
 EVTOPTB_HFP_10105_default;我绝不留情。;;;;;;;;;;;;x
 EVTOPTB_HFP_10105_lunatic;你为什么不跪下来向我求饶？！;;;;;;;;;;;;x
@@ -210,9 +210,9 @@ setting_tier_tooltip;决定生成的统治者会拥有的头衔等级。;;;;;;;;
 setting_tier_counts;伯爵;;;;;;;;;;;;x
 setting_tier_counts_tooltip;每个伯爵领都会生成一个独立的伯爵;;;;;;;;;;;;x
 setting_tier_dukes;公爵;;;;;;;;;;;;x
-setting_tier_dukes_tooltip;每个法理公国内的一部分随机大小的领土会被分配给公爵头衔，其余所有的伯爵会变为封臣;;;;;;;;;;;;x
+setting_tier_dukes_tooltip;每个法理公国内随机一名伯爵会获得公爵头衔，其余所有的伯爵会变为封臣;;;;;;;;;;;;x
 setting_tier_dukes_consolidated;统一公爵领;;;;;;;;;;;;x
-setting_tier_dukes_consolidated_tooltip;每个法理公国会生成一位领导者;;;;;;;;;;;;x
+setting_tier_dukes_consolidated_tooltip;每个法理公国会生成一位统治者;;;;;;;;;;;;x
 ALTERNATE_START;另类开局;;;;;;;;;;;;x
 ALT_GENERATE;生成;;;;;;;;;;;;x
 ALT_SETTINGS;设置;;;;;;;;;;;;x
@@ -252,7 +252,7 @@ setting_holding_types_tribal_nomadic_tooltip;某些文化的省份将是游牧�
 setting_holding_slots;地产格;;;;;;;;;;;;x
 setting_holding_slots_tooltip;确定每个省份将拥有的地产格的数量。;;;;;;;;;;;;x
 setting_holding_slots_historical;史实;;;;;;;;;;;;x
-setting_holding_slots_historical_tooltip;地产未格与历史一致。;;;;;;;;;;;;x
+setting_holding_slots_historical_tooltip;地产格与历史一致。;;;;;;;;;;;;x
 setting_holding_slots_random;随机;;;;;;;;;;;;x
 setting_holding_slots_random_tooltip;每个省份都将随机地分配一到七个地产槽。;;;;;;;;;;;;x
 setting_holding_slots_one;一个;;;;;;;;;;;;x
@@ -1946,25 +1946,25 @@ tooltip_recover_drunkard;Attempt to stop being a §YDrunkard§!.;;;;;;;;;;;;x
 tooltip_recover_gluttonous;Attempt to stop being a §YGlutton§!.;;;;;;;;;;;;x
 tooltip_recover_wroth;Attempt to stop being §YWroth§!.;;;;;;;;;;;;x
 tooltip_recover_depressed;Attempt to recover from §YDepression§!.;;;;;;;;;;;;x
-EVTOPTBHFP20400;I know just the person fit for the job...;;;;;;;;;;;;x
-EVTOPTZHF20208;Sounds fun, may I join as well?;;;;;;;;;;;;x
-join_bishop_orgy;Join the debauched feast planned by §Y[From.GetTitledFirstName]§!;;;;;;;;;;;;x
-EVTDESCHFA20235;To [Root.GetTitledName],\nI shall be glad to recognize your divine right to rule, but first, let us celebrate this joyous occasion with a lavish feast. \n\nSincerely,\n[From.GetTitledName];;;;;;;;;;;;x
-EVTOPTZHF20235;Sounds fun, I am happy to join you.;;;;;;;;;;;;x
-join_pope_orgy;Join the debauched feast that §Y[From.GetTitledFirstName]§! is planning to consume at the Holy See.;;;;;;;;;;;;x
-EVTOPTAHF20235;I will pay, but I want no to have no part in this.;;;;;;;;;;;;x
-EVTOPTBHF20235;I cannot sully my name with this sacrilegious request.;;;;;;;;;;;;x
-EVTDESCHFA20236;I can scarcely believe my eyes: the private feast organized by [FromFrom.GetTitledFirstName] is nothing more than a depraved orgy. All sorts of vile and shameless acts are taking place within the holy walls of [FromFrom.Capital.GetName], under the lecherous gaze of my guest.;;;;;;;;;;;;x
+EVTOPTBHFP20400;我正好知道谁适合干这活……;;;;;;;;;;;;x
+EVTOPTZHF20208;听起来很有意思，我也可以加入吗？;;;;;;;;;;;;x
+join_bishop_orgy;加入§Y[From.GetTitledFirstName]§!所计划的放纵的宴会;;;;;;;;;;;;x
+EVTDESCHFA20235;致[Root.GetTitledName]，\n我会很乐意承认你的神圣的统治权，但首先，让我们以一场丰盛的宴会来庆祝这欢喜的场合。\n\n真诚的，\n[From.GetTitledName];;;;;;;;;;;;x
+EVTOPTZHF20235;听起来很有意思，我很高兴加入你。;;;;;;;;;;;;x
+join_pope_orgy;加入§Y[From.GetTitledFirstName]§!正准备在圣座进行的放纵的宴会。;;;;;;;;;;;;x
+EVTOPTAHF20235;我会付钱，但我不想参与其中。;;;;;;;;;;;;x
+EVTOPTBHF20235;我不能让这种渎圣的要求玷污我的名声。;;;;;;;;;;;;x
+EVTDESCHFA20236;我不敢相信我的眼睛：[FromFrom.GetTitledFirstName]组织的私人宴会不过是一场堕落的狂欢而已。在我的客人淫荡的注视下，所有邪恶无耻的行为正发生在[FromFrom.Capital.GetName]神圣的城墙内。;;;;;;;;;;;;x
 EVTDESCHFB20236;[FromFrom.GetTitledFirstName] made good use of my money: the holy walls of the Vatican have been filled to the brim with wine and whores. Soon after the start of the celebration for my upcoming coronation, the crowd of lechers and drunks invited to the party are already debasing themselves in the most abominable acts imaginable.;;;;;;;;;;;;x
-EVTOPTAHF20236;Wine! I need more wine!;;;;;;;;;;;;x
+EVTOPTAHF20236;酒！我需要更多酒！;;;;;;;;;;;;x
 papal_orgy_drunk;Climb over the fountain of wine and nectar in the middle of the garden.;;;;;;;;;;;;x
-EVTOPTBHF20236;There are so many pretty faces...;;;;;;;;;;;;x
+EVTOPTBHF20236;有这么多漂亮的脸蛋……;;;;;;;;;;;;x
 papal_orgy_lustful;Jump on the pile of naked bodies.;;;;;;;;;;;;x
 EVTOPTCHF20236;I will take just another bit of swan...;;;;;;;;;;;;x
 papal_orgy_glutton;Gorge on the lavish feast before your eyes.;;;;;;;;;;;;x
 EVTDESCHFA20237;[Root.GetPapalOrgyIntro] The [coronation_priest.GetTitle] brushes [coronation_priest.GetHerHis] tongue over my neck, whispering an incoherent prayer as [coronation_priest.GetSheHe] beckons me towards the orgy pit.;;;;;;;;;;;;x
 EVTDESCHFB20237;[Root.GetPapalOrgyIntro] The [coronation_priest.GetTitle] holds me by the shoulders, leering me with a drunken smile, and offers me a private communion.;;;;;;;;;;;;x
-EVTOPTAHF20237;I am ready for your blessing, [coronation_priest.GetFatherMother]!;;;;;;;;;;;;x
+EVTOPTAHF20237;我准备好接受你的祝福了，[coronation_priest.GetFatherMother]！;;;;;;;;;;;;x
 papal_orgy_communion;Take the §Y[coronation_priest.GetTitle]'s§! holy gift.;;;;;;;;;;;;x
 EVTOPTBHF20237;Absolutely not happening!;;;;;;;;;;;;x
 papal_orgy_flee;Free yourself from §Y[coronation_priest.GetTitledFirstName]'s§! hold and flee from the orgy.;;;;;;;;;;;;x
@@ -4250,10 +4250,10 @@ warrior_lodge_hellenic_rank_2_male;战士;;;;;;;;;;;;x
 warrior_lodge_hellenic_rank_3_male;老兵;;;;;;;;;;;;x
 warrior_lodge_hellenic_rank_4_male;英雄;;;;;;;;;;;;x
 EVTDESC_HFP_10103_A;My grip is cramping around my [Root.GetDuelWeapon], as [other_combatant.GetTitledFirstName] braces for another attack. The following moments are a blur, blood suddenly everywhere, somebody shouting. "Did [Root.GetTitledFirstName] just [other_combatant.GetWeaponInjuringBlow]?!";;;;;;;;;;;;x
-EVTDESC_HFP_10103_B;[other_combatant.GetTitledFirstName] swings [other_combatant.GetHerHis] [other_combatant.GetDuelWeapon] [other_combatant.GetClumsilyElegantly]. The fight has gone on forever, and my muscles are beginning to ache. With the remainder of my strength I [Root.GetKillingBlow].;;;;;;;;;;;;x
+EVTDESC_HFP_10103_B;[other_combatant.GetTitledFirstName][other_combatant.GetClumsilyElegantly]挥舞着[other_combatant.GetHerHis][other_combatant.GetDuelWeapon]。这是一场持久战，对双方来说都像过了几个世纪，以至于我全身的肌肉都开始酸痛了。全身上下还仅存一丝丝力气，我[Root.GetKillingBlow]。;;;;;;;;;;;;x
 EVTDESC_HFP_10103_C;My opponent seems to be getting tired, [other_combatant.GetHerHis] moves becoming slower. Strengthened by the cheers of the crowd, I [Root.GetKillingBlow].;;;;;;;;;;;;x
 EVTOPTA_HFP_10103_default;我……是的，我就是故意的！;;;;;;;;;;;;x
-EVTOPTA_HFP_10103_duelist;Another victorious match.;;;;;;;;;;;;x
+EVTOPTA_HFP_10103_duelist;我大获全胜。;;;;;;;;;;;;x
 EVTOPTA_HFP_10103_sad;I am sorry it had to end this way.;;;;;;;;;;;;x
 EVTOPTA_HFP_10103_mean;唯一合乎逻辑的结果就是让你去死，[other_combatant.GetSisterBrother]。;;;;;;;;;;;;x
 EVTDESC_HFP_10104_A;Just as I begin to think that I am wearing my opponent down, [other_combatant.GetTitledFirstName] lunges at me, with more force than so far displayed. Sweat drips down my forehead, when suddenly, I hear someone shouting, describing the scene incredulously. [other_combatant.GetSheHeCap] has managed to [Root.GetWeaponInjuringBlowOnMe].;;;;;;;;;;;;x
@@ -5179,7 +5179,7 @@ b_ilomantsi;Ilomantsi;;;;;;;;;;;;x
 b_pyhaselka;Pyhaselka;;;;;;;;;;;;x
 b_vaajasalo;Vaajasalo;;;;;;;;;;;;x
 b_kotasaari;Kotasaari;;;;;;;;;;;;x
-b_kallavesi;卡拉维西湖;;;;;;;;;;;;x
+b_kallavesi;卡拉维西;;;;;;;;;;;;x
 b_juurusvesu;Juurusvesu;;;;;;;;;;;;x
 b_kukkarinselka;Kukkarinselka;;;;;;;;;;;;x
 b_ruokovesi;Ruokovesi;;;;;;;;;;;;x
@@ -5192,9 +5192,9 @@ b_jeesio;Jeesio;;;;;;;;;;;;x
 b_kotka;Kotka;;;;;;;;;;;;x
 PROV1626;Pripyat;;;;;;;;;;;;x
 PROV1627;Dniester;;;;;;;;;;;;x
-PROV1628;Kama;;;;;;;;;;;;x
-PROV1629;Kama;;;;;;;;;;;;x
-PROV1630;Kama;;;;;;;;;;;;x
+PROV1628;卡马河;;;;;;;;;;;;x
+PROV1629;卡马河;;;;;;;;;;;;x
+PROV1630;卡马河;;;;;;;;;;;;x
 PROV1631;Zaslav;;;;;;;;;;;;x
 PROV1632;贝尔兹;;;;;;;;;;;;x
 PROV1633;卢茨克;;;;;;;;;;;;x
@@ -5237,8 +5237,8 @@ PROV1669;Kashin;;;;;;;;;;;;x
 PROV1670;Bezichy;;;;;;;;;;;;x
 PROV1671;Rylsk;;;;;;;;;;;;x
 PROV1672;Zubtsov;;;;;;;;;;;;x
-PROV1673;Oka;;;;;;;;;;;;x
-PROV1674;Oka;;;;;;;;;;;;x
+PROV1673;奥卡河;;;;;;;;;;;;x
+PROV1674;奥卡河;;;;;;;;;;;;x
 PROV1675;Priluk;;;;;;;;;;;;x
 PROV1676;Kromy;;;;;;;;;;;;x
 PROV1677;Naro-Fominsk;;;;;;;;;;;;x
@@ -6236,7 +6236,7 @@ EVTOPTA_HFP_11025_fallback;I... What happened? I don't belong here.;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_TT_fallback;You will struggle in the future to overcome these events...\n;;;;;;;;;;;;x
 EVTOPTB_HFP_11025;Where is the enemy commander?! I'll kill [enemy_commander.GetHerHim] myself!;;;;;;;;;;;;x
 EVTOPTB_HFP_11025_TT;You chase down the §Y[enemy_commander.GetTitledFirstName]§! for a personal duel, while your soldiers tend to your wounded animal.\n;;;;;;;;;;;;x
-chase_down_enemy_commander_tt;You chase down §Y[enemy_commander.GetTitledFirstName]§! for a personal duel on the battlefield...!\n;;;;;;;;;;;;x
+chase_down_enemy_commander_tt;你对§Y[enemy_commander.GetTitledFirstName]§!紧追不舍，在战场上直接与他展开了一场决斗……！\n;;;;;;;;;;;;x
 string_Lightning;Lightning;;;;;;;;;;;;x
 string_Sky;Sky;;;;;;;;;;;;x
 string_Dragon;Dragon;;;;;;;;;;;;x
@@ -6399,7 +6399,7 @@ SHATTERED_WORLD_TOOLTIP;§Y破碎世界§!;;;;;;;;;;;;x
 SHATTERED_WORLD_TOOLTIP_DELAYED;§G点击打开破碎世界界面§!\n破碎世界里的每一位统治者都是伯爵或公爵，他们在同一起跑线上开始游戏。通过大量设置，你可以定制属于你的游戏体验，无论是更符合历史的还是更具有平衡性的。推荐喜欢对称式开局或纯粹想看这个世界如何自我演化的玩家使用。;;;;;;;;;;;;x
 RANDOM_WORLD;随机世界;;;;;;;;;;;;x
 RANDOM_WORLD_TOOLTIP;§Y随机世界§!;;;;;;;;;;;;x
-RANDOM_WORLD_TOOLTIP_DELAYED;§GClick to open the Random World interface§!\nA Random World seeks to emulate history, albeit in a way that could have been – rather than the way it was. Rulers will range from lowly Counts to mighty Emperors, with complex and dynamic De Jure structures. Everything from Cultures, Religions, Names and Titles can be dynamically randomized – ensuring that a truly unique world is created each time.;;;;;;;;;;;;x
+RANDOM_WORLD_TOOLTIP_DELAYED;§G点击打开随机世界界面§!\n随机世界模拟了历史的另一种进程——而不是它原本的样子。从弱小的伯爵到强大的皇帝，不同的统治者由复杂的动态法理结构联系在一起。包括文化、宗教、名字、头衔在内的任何内容都可以被动态地随机化——确保每次创造的世界都是独一无二的。;;;;;;;;;;;;x
 setting_num_counties;最大省份数量;;;;;;;;;;;;x
 setting_num_counties_tooltip;决定大多数统治者所能拥有的最大省份数量。即使该数字被设置得很高，大多数统治者仍然只会拥有较少省份。;;;;;;;;;;;;x
 setting_num_dukes;公爵领的数量;;;;;;;;;;;;x
@@ -9295,26 +9295,26 @@ b_seitz;Seitz;;;;;;;;;;;;x
 b_steyr;Steyr;;;;;;;;;;;;x
 b_grobraming;Großraming;;;;;;;;;;;;x
 b_losenstein;Losenstein;;;;;;;;;;;;x
-b_ternberg;Ternberg;;;;;;;;;;;;x
+b_ternberg;滕贝格;;;;;;;;;;;;x
 b_rubinicha;Rubinicha;;;;;;;;;;;;x
 b_behamberg;Behamberg;;;;;;;;;;;;x
 b_garstina;Garstina;;;;;;;;;;;;x
 b_reun;Reun;;;;;;;;;;;;x
-b_voitsberg;Voitsberg;;;;;;;;;;;;x
+b_voitsberg;福伊茨贝格;;;;;;;;;;;;x
 b_stainz;施泰因茨;;;;;;;;;;;;x
 b_feldbach;费尔德巴赫;;;;;;;;;;;;x
 b_friedberg_graz;弗里德贝格;;;;;;;;;;;;x
 b_leoben;莱奥本;;;;;;;;;;;;x
-b_neuberg;Neuberg;;;;;;;;;;;;x
-b_judenburg;Judenburg;;;;;;;;;;;;x
+b_neuberg;诺伊贝格;;;;;;;;;;;;x
+b_judenburg;尤登堡;;;;;;;;;;;;x
 b_gallenstein;Gallenstein;;;;;;;;;;;;x
 b_bruck_leoben;Bruck;;;;;;;;;;;;x
 b_fischau;Fischau;;;;;;;;;;;;x
 b_wr_neustadt;Wiener Neustadt;;;;;;;;;;;;x
-b_neunkirchen;Neunkirchen;;;;;;;;;;;;x
+b_neunkirchen;诺因基兴;;;;;;;;;;;;x
 b_edelz;Edelz;;;;;;;;;;;;x
-b_ternitz;Ternitz;;;;;;;;;;;;x
-b_gloggnitz;Gloggnitz;;;;;;;;;;;;x
+b_ternitz;泰尔尼茨;;;;;;;;;;;;x
+b_gloggnitz;格洛格尼茨;;;;;;;;;;;;x
 b_eppan;Eppan;;;;;;;;;;;;x
 b_wels;Wels;;;;;;;;;;;;x
 b_eferding;埃费丁;;;;;;;;;;;;x
@@ -9323,16 +9323,16 @@ b_hallstatt;哈尔施塔特;;;;;;;;;;;;x
 b_pons_veckelahe;Pons Veckelahe;;;;;;;;;;;;x
 b_ebensee;Ebensee;;;;;;;;;;;;x
 b_gars;Gars;;;;;;;;;;;;x
-b_eggenburg;Eggenburg;;;;;;;;;;;;x
+b_eggenburg;埃根堡;;;;;;;;;;;;x
 b_kuenring;Kühnring;;;;;;;;;;;;x
-b_klosterneuburg;Klosterneuburg;;;;;;;;;;;;x
-b_zwettl;Zwettl;;;;;;;;;;;;x
-b_retz;Retz;;;;;;;;;;;;x
+b_klosterneuburg;克洛斯特新堡;;;;;;;;;;;;x
+b_zwettl;茨韦特尔;;;;;;;;;;;;x
+b_retz;雷茨;;;;;;;;;;;;x
 b_horn_krems;Horn;;;;;;;;;;;;x
 b_linz;Linz;;;;;;;;;;;;x
 b_freistadt;Freistadt;;;;;;;;;;;;x
 b_baden_wien;Baden;;;;;;;;;;;;x
-b_korneuburg;Korneuburg;;;;;;;;;;;;x
+b_korneuburg;科尔新堡;;;;;;;;;;;;x
 b_modling;Mödling;;;;;;;;;;;;x
 b_heiligenkreuz;Heiligenkreuz;;;;;;;;;;;;x
 b_pochlarn;Pöchlarn;;;;;;;;;;;;x
@@ -9345,20 +9345,20 @@ b_taversheim;Taversheim;;;;;;;;;;;;x
 b_ybbs;Ybbs;;;;;;;;;;;;x
 b_waidhofen;Waidhofen;;;;;;;;;;;;x
 b_gaming;Gaming;;;;;;;;;;;;x
-b_lilienfeld;Lilienfeld;;;;;;;;;;;;x
-b_lerchenfeld;Lerchenfeld;;;;;;;;;;;;x
-b_kelheim;Kelheim;;;;;;;;;;;;x
-b_regenstauf;Regenstauf;;;;;;;;;;;;x
-b_schwandorf;Schwandorf;;;;;;;;;;;;x
+b_lilienfeld;利林费尔德;;;;;;;;;;;;x
+b_lerchenfeld;莱兴费尔德;;;;;;;;;;;;x
+b_kelheim;凯尔海姆;;;;;;;;;;;;x
+b_regenstauf;雷根施陶夫;;;;;;;;;;;;x
+b_schwandorf;施万多夫;;;;;;;;;;;;x
 b_sankt_englmar;圣恩尔马尔;;;;;;;;;;;;x
 b_roding;罗丁;;;;;;;;;;;;x
 b_zelking;Zelking;;;;;;;;;;;;x
 b_krems;Chremis;;;;;;;;;;;;x
-b_crecchio;Crecchio;;;;;;;;;;;;x
-b_vasto;Vasto;;;;;;;;;;;;x
-b_lanciano;Lanciano;;;;;;;;;;;;x
-b_termoli;Termoli;;;;;;;;;;;;x
-b_atessa;Atessa;;;;;;;;;;;;x
+b_crecchio;克雷基奥;;;;;;;;;;;;x
+b_vasto;瓦斯托;;;;;;;;;;;;x
+b_lanciano;兰恰诺;;;;;;;;;;;;x
+b_termoli;泰尔莫利;;;;;;;;;;;;x
+b_atessa;阿泰萨;;;;;;;;;;;;x
 b_san_salvo;San Salvo;;;;;;;;;;;;x
 b_cascia;Cascia;;;;;;;;;;;;x
 b_fratta;Fratta;;;;;;;;;;;;x
@@ -9385,21 +9385,21 @@ b_gabicce;Gabicce;;;;;;;;;;;;x
 b_gatteo;Gatteo;;;;;;;;;;;;x
 b_poggio_berni;Poggio Berni;;;;;;;;;;;;x
 b_pennabilli;Pennabilli;;;;;;;;;;;;x
-b_bellaria;Bellaria;;;;;;;;;;;;x
-b_siderno;Siderno;;;;;;;;;;;;x
+b_bellaria;贝拉里亚;;;;;;;;;;;;x
+b_siderno;锡代诺;;;;;;;;;;;;x
 b_neo_castrum;Neo Castrum;;;;;;;;;;;;x
-b_girifalco;Girifalco;;;;;;;;;;;;x
+b_girifalco;吉里法尔科;;;;;;;;;;;;x
 b_kyterion;Kyterion;;;;;;;;;;;;x
-b_catanzaro;Catanzaro;;;;;;;;;;;;x
-b_empoli;Empoli;;;;;;;;;;;;x
-b_impruneta;Impruneta;;;;;;;;;;;;x
-b_castello;Castello;;;;;;;;;;;;x
+b_catanzaro;卡坦扎罗;;;;;;;;;;;;x
+b_empoli;恩波利;;;;;;;;;;;;x
+b_impruneta;因普鲁内塔;;;;;;;;;;;;x
+b_castello;卡斯泰洛;;;;;;;;;;;;x
 b_castiglione_arezzo;Castiglione;;;;;;;;;;;;x
 b_cortona;Cortona;;;;;;;;;;;;x
 b_civitella_del_vescovo;Civitella del Vescovo;;;;;;;;;;;;x
 b_noli;Noli;;;;;;;;;;;;x
 b_carara;Carara;;;;;;;;;;;;x
-b_oneglia;Oneglia;;;;;;;;;;;;x
+b_oneglia;奥内利亚;;;;;;;;;;;;x
 b_alaxio;Alaxio;;;;;;;;;;;;x
 b_siestri;Siestri;;;;;;;;;;;;x
 b_cefalu;Cefalú;;;;;;;;;;;;x
@@ -9416,15 +9416,15 @@ PROV515;特尔戈维什泰;;;;;;;;;;;;x
 c_tirgoviste;Târgovistian;;;;;;;;;;;;x
 b_putna;Putna;;;;;;;;;;;;x
 b_galaz;加拉茨;;;;;;;;;;;;x
-d_moldau;Moldavia;;;;;;;;;;;;x
-d_moldau_adj;Moldavian;;;;;;;;;;;;x
-PROV1105;Moskva;;;;;;;;;;;;x
-PROV1106;Moskva;;;;;;;;;;;;x
+d_moldau;摩尔达维亚;;;;;;;;;;;;x
+d_moldau_adj;摩尔达维亚;;;;;;;;;;;;x
+PROV1105;莫斯科河;;;;;;;;;;;;x
+PROV1106;莫斯科河;;;;;;;;;;;;x
 PROV388;Kem;;;;;;;;;;;;x
 PROV393;Olonets;;;;;;;;;;;;x
 PROV1601;凯努;;;;;;;;;;;;x
 PROV1603;波默尔;;;;;;;;;;;;x
-PROV1605;卡拉维西湖;;;;;;;;;;;;x
+PROV1605;卡拉维西;;;;;;;;;;;;x
 PROV1606;卡尔亚;;;;;;;;;;;;x
 PROV1607;凯泰莱;;;;;;;;;;;;x
 meshchera;Meshchera;;;;;;;;;;;;x
@@ -9465,7 +9465,7 @@ b_zvenyhorod;Zvenyhorod;;;;;;;;;;;;x
 b_butsk;Butsk;;;;;;;;;;;;x
 b_sambir;Sambir;;;;;;;;;;;;x
 b_udech;Udech;;;;;;;;;;;;x
-b_horodok;Horodok;;;;;;;;;;;;x
+b_horodok;霍罗多克;;;;;;;;;;;;x
 b_rogozhyn;Rogozhyn;;;;;;;;;;;;x
 b_zaslav;Zaslav;;;;;;;;;;;;x
 b_kremyanets;Kremyanets;;;;;;;;;;;;x
@@ -10559,9 +10559,9 @@ EVTDESC_HF_10503_duel;§Y[From.GetTitledName]§!的过早死亡意味着我在�
 quest_target_tt;§Y[From.GetTitledFirstName]§!有一个与§Y[Root.GetTitledFirstName]§!决斗的任务;;;;;;;;;;;;x
 EVTDESC_HFP_10196;§Y[FromFrom.GetTitledName]§!在我们决斗之前不幸早逝。我得重新去[warrior_lodge_to_join.GetName]。;;;;;;;;;;;;x
 commander_lost;失去指挥官;;;;;;;;;;;;x
-EVTDESC_HF_10060;「我们的桌子满了，[Root.GetSocietyRank]你是说你想跟我争夺这个位置？」[combatant_2.GetTitledFirstName]从[combatant_2.GetHerHis]座位上站起来，懒洋洋的掰动[combatant_2.GetHerHis]指关节，朝我走了过来。;;;;;;;;;;;;x
-EVTOPTA_HF_10060;决斗？是的，我就是这个意思。;;;;;;;;;;;;x
-EVTOPTB_HF_10060;哦，我的[combatant_2.GetLordLady]，你误会了！我不是有意暗示……我，额……*吞咽*;;;;;;;;;;;;x
+EVTDESC_HF_10060;「我们的席位已经满了，[Root.GetSocietyRank]。还是你是说你想跟我争夺这个位置？」[combatant_2.GetTitledFirstName]从[combatant_2.GetHerHis]座位上站起来，懒洋洋的掰动[combatant_2.GetHerHis]指关节，朝我走了过来。;;;;;;;;;;;;x
+EVTOPTA_HF_10060;所以你是想来场决斗？好啊，我就是这个意思。;;;;;;;;;;;;x
+EVTOPTB_HF_10060;不不不！我的[combatant_2.GetLordLady]，你误会了！我不是有意暗示……我，额……*吞咽*;;;;;;;;;;;;x
 EVTDESC_HF_10062_A;致敬，[From.GetSocietyRank]!\n\n你已经证明了你对[Root.Society.GetName]的价值。我承认我的失败并让出我的位次给你——好好利用它吧。\n\n此致，[Root.GetSocietyRank][From.GetTitledFirstName];;;;;;;;;;;;x
 EVTDESC_HF_10062_B;致敬，[From.GetSocietyRank]！\n\n当我们悼念失去的战士的时候，我们知晓你通过战胜[combatant_2.GetTitledFirstName]证明了你有资格配得上这个你想要的头衔——好好利用它吧。\n\n此致，[From.GetSocietyRank][From.GetTitledFirstName];;;;;;;;;;;;x
 EVTOPTA_HF_10062;谢谢你。;;;;;;;;;;;;x
@@ -10592,12 +10592,12 @@ DEATH_MISSION_DUEL;在一场戏剧性的血脉决斗中被$KILLER$杀死;;;;;;;;
 DEATH_MISSION_DUEL_NO_KILLER;was slain in a duel for blood;;;;;;;;;;;;x
 DEATH_BATTLE_DUEL;was slain by $KILLER$ in a chaotic battlefield duel;;;;;;;;;;;;x
 DEATH_BATTLE_DUEL_NO_KILLER;was slain in a chaotic battlefield duel;;;;;;;;;;;;x
-EVTDESC_HFP_11050_A;I could have sworn I heard the enemy commander [enemy_commander.GetTitledFirstName] barking orders, but as I search the [battlefield_location.GetTerrain] [enemy_commander.GetSheHe] is nowhere to be found. A fellow soldier finally informs me that [enemy_commander.GetSheHe] has been spotted cowering in the far back behind a [battlefield_location.GetTreeRockFence], and most disgracefully, behind [enemy_commander.GetHerHis] troops.;;;;;;;;;;;;x
+EVTDESC_HFP_11050_A;我发誓我刚才真的听见了敌方指挥官[enemy_commander.GetTitledFirstName]发号施令的狗叫声，但是就在我搜索[battlefield_location.GetTerrain]时，却哪里也找不到[enemy_commander.GetSheHe]的身影。最后，经由我的一个手下提醒，[enemy_commander.GetSheHe]就躲在远方的[battlefield_location.GetTreeRockFence]后面瑟瑟发抖，而且最可耻的是，他抛下了[enemy_commander.GetHerHis]的士兵。;;;;;;;;;;;;x
 EVTDESC_HFP_11050_B;Things are going well, when suddenly I hear an embarrassed huff from nearby. Spinning, my [Root.GetDuelWeapon] ready, I see the enemy commander [enemy_commander.GetTitledFirstName] awkwardly attempting to climb a [battlefield_location.GetTreeRockFence]. "I think [enemy_commander.GetSheHe] is trying to escape the battle, my [Root.GetLordLady]", the soldier next to me muses.;;;;;;;;;;;;x
 EVTDESC_HFP_11050_C;This campaign has been easy pickings. Swinging my [Root.GetDuelWeapon] [battlefield_location.GetThroughOver] the [battlefield_location.GetTerrain] is a pleasure, and my fellow soldiers are equally jovial surrounded by the blood of our [enemy_liege.Culture.GetName] enemies and the cries of battle. "Look! Enemy commander [enemy_commander.GetTitledFirstName] is hiding!" someone suddenly shouts, pointing off in the distance.;;;;;;;;;;;;x
 EVTOPTA_HFP_11050;Aah, how lovely! I shall duel the Commander myself!;;;;;;;;;;;;x
 EVTOPTB_HFP_11050;Waiting for me, [enemy_commander.GetManWoman]? Let's fight!;;;;;;;;;;;;x
-EVTOPTC_HFP_11050;There you are! I have been itching for a fight!;;;;;;;;;;;;x
+EVTOPTC_HFP_11050;你在这儿啊！我的大斧早就饥渴难耐了！;;;;;;;;;;;;x
 EVTOPTD_HFP_11050;我会让所有人都知道[enemy_commander.GetTitledFirstName]的怯懦。;;;;;;;;;;;;x
 opinion_mocked_me_in_battle;在战斗中嘲笑了我;;;;;;;;;;;;x
 EVTDESCHF10513;致敬，[Root.GetSocietyRank]！\n\n[my_war_target_holder.GetTitledFirstName]的土地就在伊处，径须待君撷取！倘若你想要给[Root.Society.GetName]留下深刻印象，尽管[Root.GetMarchSail][my_war_target.PrimaryTitle.GetName]！\n\n此致，[From.GetTitledFirstName];;;;;;;;;;;;x
@@ -15134,7 +15134,7 @@ c_torki_adj;苏恰瓦;;;;;;;;;;;;x
 c_onega_adj;奥洛涅茨;;;;;;;;;;;;x
 c_kajaani_adj;凯努;;;;;;;;;;;;x
 c_east_karelia_adj;波默尔;;;;;;;;;;;;x
-c_kuopio_adj;卡拉维西湖;;;;;;;;;;;;x
+c_kuopio_adj;卡拉维西;;;;;;;;;;;;x
 c_siunto_adj;卡尔亚;;;;;;;;;;;;x
 c_laukaa_adj;凯泰莱;;;;;;;;;;;;x
 e_lechczechrus;斯拉夫联盟;;;;;;;;;;;;x
@@ -15773,7 +15773,7 @@ PROV1786;Lake Sariqamish;;;;;;;;;;;;x
 PROV1787;Buzachi;;;;;;;;;;;;x
 PROV1788;Kara Bogaz;;;;;;;;;;;;x
 PROV1789;Kyzyl-Su;;;;;;;;;;;;x
-PROV1790;Kara-Kum Desert;;;;;;;;;;;;x
+PROV1790;卡拉库姆沙漠;;;;;;;;;;;;x
 PROV1791;Urgench;;;;;;;;;;;;x
 PROV1792;Kusbulak;;;;;;;;;;;;x
 PROV1793;Emba Steppe;;;;;;;;;;;;x
@@ -17797,20 +17797,20 @@ string_comfortable_weapon;非常趁手;;;;;;;;;;;;x
 string_shiny_weapon;gleamed in the light;;;;;;;;;;;;x
 string_extension_of_self;felt like an extension of my arm;;;;;;;;;;;;x
 string_ugly_weapon;丑陋但是实用;;;;;;;;;;;;x
-string_the_ground;and the ground felt firm beneath me;;;;;;;;;;;;x
+string_the_ground;而且我脚下的土地也非常结实;;;;;;;;;;;;x
 string_the_wind;风轻轻拂过我的脸庞;;;;;;;;;;;;x
 string_my_opponents_eyes;and meeting [other_combatant.GetFirstName]'s eyes I saw they were full of apprehension;;;;;;;;;;;;x
 string_strong_as_mythological;and I feel as strong as a [GetRandomMythologicalCreature];;;;;;;;;;;;x
 string_the_crowd;and around us the onlookers held their breath;;;;;;;;;;;;x
 string_moved_suddenly;moved suddenly;;;;;;;;;;;;x
 string_moved_carefully;moved carefully;;;;;;;;;;;;x
-string_moved_aggressively;moved aggressively;;;;;;;;;;;;x
+string_moved_aggressively;极具侵略性的向前逼近;;;;;;;;;;;;x
 string_moved_gracefully;moved gracefully;;;;;;;;;;;;x
 string_moved_purposefully;moved purposefully;;;;;;;;;;;;x
 string_single_strike;and struck once, I did not need to strike again;;;;;;;;;;;;x
 string_parry_and_strike;and brought my [GetDuelWeapon] down upon [other_combatant.GetHerHim]. They fended off the first blow but not the second;;;;;;;;;;;;x
-string_whirlwind;and in a whirlwind of blows they were down;;;;;;;;;;;;x
-string_clean_weapon;After the duel is done I wipe the blood off my [GetDuelWeapon];;;;;;;;;;;;x
+string_whirlwind;接着，在我一套摧枯拉朽如同狂风般的攻击之后，他就倒下了。;;;;;;;;;;;;x
+string_clean_weapon;整场决斗结束之后，我轻轻的拭干了沾在我心爱的[GetDuelWeapon]上的鲜血。;;;;;;;;;;;;x
 string_leave_them_on_ground;I left them lying on the ground and went to celebrate my victory;;;;;;;;;;;;x
 string_victory_shout;Once it is done I roar in victory;;;;;;;;;;;;x
 string_clean_face;Once the duel was over, I mopped the sweat off my brow;;;;;;;;;;;;x
@@ -17871,7 +17871,7 @@ EVTDESC_HF_49207;It seems I have waited too long, as my men and all my preparati
 EVTOPTA_HF_49207;Damnations!;;;;;;;;;;;;x
 EVTDESC_HF_49212;Magnanimous [Root.GetTitledName]\n\nYour plans to reconquer Iberia for Christianity inspires me to take up arms as well, and I will support your efforts to the best of my ability.\n\nYour ally,\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA_HF_49212;It is appreciated!;;;;;;;;;;;;x
-EVTDESC_HF_49213;[Root.GetTitledName]\n\nI have declared a reconquest war on [FromFromFrom.GetTitledName], and I am looking forward to see you on the battlefield.\n\nSigned,\nYour ally, [From.GetTitledName];;;;;;;;;;;;x
+EVTDESC_HF_49213;致[Root.GetTitledName]\n\n我已经向[FromFromFrom.GetTitledName]发起来再征服战争，希望在战场上见到您与我并肩作战。\n\n此致\n您的盟友，[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA_HF_49213;As promised, we will do our part and help out.;;;;;;;;;;;;x
 EVTTITLE_HF_49220;The Outstanding General;;;;;;;;;;;;x
 EVTDESC_HF_49220;After leading troops on both sides of the wars raging throughout the Iberian Peninsula, I seem to have grown quite the reputation among the local peasants and soldiers on both sides.\n\nThough some would consider me a mercenary or a traitor to the faith, my prowess in war has made me a hero among most, and revered among the populace. Some would even go as far as to call me a folk hero.\n\nSurely, my actions must have been righteous, seeing all the responses. I have often wondered if it would all be worth it in the end, and it is a joyous occasion to see all my hard work has paid off.;;;;;;;;;;;;x
@@ -17910,7 +17910,7 @@ EVTDESC_HF_49244;一支小型舰队的首领来到了我的宫廷，想要在即
 EVTOPTA_HF_49244;I will happily take you up on the offer.;;;;;;;;;;;;x
 EVTOPTB_HF_49244;You would not happen to know more captains, would you?;;;;;;;;;;;;x
 EVTOPTC_HF_49244;We do not need ships to fight at land!;;;;;;;;;;;;x
-EVTDESC_HF_49249;A year has passed since I started my preparations for the reconquest of Iberia, and I am sure that whoever wanted to take part in the reconquest would have arrived by now. Now all that remains is to find a place to point my newfound allies towards.;;;;;;;;;;;;x
+EVTDESC_HF_49249;距离我开始备战伊比利亚再征服已经过去一年了，我确信那些想要参加战争的人已经悉数到来。现在剩下的就是为我这些新加入的盟友指明一个进军的方向。;;;;;;;;;;;;x
 EVTOPTA_HF_49249;Now to find a fitting target.;;;;;;;;;;;;x
 EVTTITLE_HF_49450;伊比利亚再征服运动;;;;;;;;;;;;x
 EVTDESC_HF_49450;作为尝试收复伊比利亚半岛失地的最后一支部队，[From.GetTitledName]开始招募部队并寻求盟友来开启[From.GetHerHis]新征服。为了让半岛重新回到基督教世界的怀抱，[From.GetTitledFirstName]已经花费了大量的资源，并且向各地的军队发起了召唤。\n\n随着基督徒紧锣密鼓的备战，他们的对手也开始集结军队保卫自己。也许数月，但不出一年，双方就会再次爆发冲突，拼命地想要在半岛上扩张更多土地。;;;;;;;;;;;;x
