@@ -235,7 +235,7 @@ setting_female_ruler_percentage;女性统治者比例;;;;;;;;;;;;x
 setting_female_ruler_percentage_tooltip;确定每个生成的统治者是女性的机率。;;;;;;;;;;;;x
 setting_age_span;年龄范围;;;;;;;;;;;;x
 setting_age_span_tooltip;决定生成统治者的最小与最大年龄;;;;;;;;;;;;x
-setting_num_of_children;儿童数量;;;;;;;;;;;;x
+setting_num_of_children;子女数量;;;;;;;;;;;;x
 setting_num_of_children_tooltip;决定每个统治者随机生成的孩子的最小与最大数目。需注意一名统治者的子女数不能超出他们年龄允许的范围，而双胞胎视为一个孩子。;;;;;;;;;;;;x
 setting_holding_types;地产类型;;;;;;;;;;;;x
 setting_holding_types_tooltip;决定游戏中地产的类型;;;;;;;;;;;;x
@@ -679,23 +679,23 @@ crowned_by_priest;由主教加冕;;;;;;;;;;;;x
 crowned_by_bishop;由[Root.GetCrownedByName]加冕;;;;;;;;;;;;x
 crowned_by_pope;由[Root.GetCrownedByName]加冕;;;;;;;;;;;;x
 crowned_by_myself;自我加冕;;;;;;;;;;;;x
-crowned_by_myself_desc;这位统治者撇开了教宗自行加冕，这种渎神行为不仅同一切基督教法背道而驰，更无疑昭示了[Root.GetHerHim]心智早已堕入疯魔。;;;;;;;;;;;;x
+crowned_by_myself_desc;这位统治者撇开了教宗自行加冕，这种渎神行为不仅同一切基督教传统背道而驰，更无疑昭示了[Root.GetHerHim]心智早已堕入疯魔。;;;;;;;;;;;;x
 string_crowned_by_pope_alive;[coronation_priest_per.GetTitledFirstName];;;;;;;;;;;;x
 string_crowned_by_pope_dead;教宗;;;;;;;;;;;;x
 string_crowned_by_bishop_alive;[coronation_priest_per.GetTitledFirstName];;;;;;;;;;;;x
-string_crowned_by_bishop_dead;一个采邑主教;;;;;;;;;;;;x
+string_crowned_by_bishop_dead;一位采邑主教;;;;;;;;;;;;x
 string_crowned_by_priest_alive;[coronation_priest_per.GetTitledFirstName];;;;;;;;;;;;x
-string_crowned_by_priest_dead;一个主教;;;;;;;;;;;;x
+string_crowned_by_priest_dead;一位主教;;;;;;;;;;;;x
 string_crowned_by_bishop_alive_desc;[coronation_priest_per.Capital.GetName]的[coronation_priest_per.GetTitle];;;;;;;;;;;;x
 string_crowned_by_bishop_dead_desc;教会的杰出教士;;;;;;;;;;;;x
 uncrowned;尚未加冕;;;;;;;;;;;;x
-uncrowned_desc;这位统治者在他还加冕之前就去世了，真是蒙羞啊。;;;;;;;;;;;;x
+uncrowned_desc;这位统治者在他还未加冕之前就去世了，真是蒙羞啊。;;;;;;;;;;;;x
 crowned_in_barn;寒酸的加冕仪式;;;;;;;;;;;;x
-crowned_in_barn_desc;这位统治者默默无闻地接受了[Root.GetHerHis]加冕，没有过多的庆祝。虽然这是一个明显的缺乏财富和影响的迹象，但教会的一些成员也可以认为这是谦卑的表现。;;;;;;;;;;;;x
+crowned_in_barn_desc;这位统治者默默无闻地接受了[Root.GetHerHis]加冕，没有过多的庆祝。虽然这是一个明显的缺乏财富和影响力的迹象，但教会的一些成员也可以认为这是谦卑的表现。;;;;;;;;;;;;x
 extravagant_coronation;奢华的加冕仪式;;;;;;;;;;;;x
-extravagant_coronation_desc;这个统治者在[Root.GetHerHis]加冕的荣誉中度过了整个月的光荣庆典，获得了[Root.GetHerHis]桂冠，这明确地显示了权力和财富，令人难以遗忘。;;;;;;;;;;;;x
+extravagant_coronation_desc;这个统治者以[Root.GetHerHis]名义举办了一整个月的光荣庆典，在庆典的高峰获得了[Root.GetHerHis]桂冠，这明确地显示了权力和财富，令人难以遗忘。;;;;;;;;;;;;x
 crown_hre;帝国皇冠;;;;;;;;;;;;x
-key_real_hre_crown_desc;神圣罗马帝国的皇冠，一个八角形的圆环，上面嵌满了宝石，代表了对所有罗马人的统治。;;;;;;;;;;;;x
+key_real_hre_crown_desc;神圣罗马帝国的皇冠，一顶八角形的箍冠，上面嵌满了宝石，代表了对所有罗马人的统治。;;;;;;;;;;;;x
 crown_byzantine;帝国冕冠;;;;;;;;;;;;x
 crown_pahlavi;凯伦之冠;;;;;;;;;;;;x
 crown_pahlavi_desc;一顶按照萨珊时代沙阿的王室标记设计的帝国皇冠，专门为光复波斯，恢复其昔日荣光的伟大国王打造。;;;;;;;;;;;;x
@@ -708,7 +708,7 @@ pepin_religious_cb_succ_tip;教廷将会宣称所有异教徒治下的争议领�
 opinion_requested_papal_investiture;要求教宗神职叙任权;;;;;;;;;;;;x
 opinion_requested_papal_land;要求教宗赐予土地;;;;;;;;;;;;x
 opinion_requested_land_holyorder;要求骑士团承认;;;;;;;;;;;;x
-opinion_requested_independence;请求独立;;;;;;;;;;;;x
+opinion_requested_independence;要求独立;;;;;;;;;;;;x
 opinion_requested_excommunication_war;要求发动绝罚战争。;;;;;;;;;;;;x
 opinion_requested_antipope_war;请求废除对立教宗;;;;;;;;;;;;x
 opinion_requested_pepin_war;要求教宗发动战争;;;;;;;;;;;;x
@@ -717,14 +717,14 @@ opinion_promsied_to_depose_him;宣誓废黜他们;;;;;;;;;;;;x
 opinion_promsied_to_depose_myantipope;宣誓废黜我的对立教宗;;;;;;;;;;;;x
 opinion_promsied_to_depose_hisantipope;宣誓废黜他们的对立教宗;;;;;;;;;;;;x
 opinion_papal_land_donation;重建教宗领地;;;;;;;;;;;;x
-opinion_supposed_to_crown;宣誓为他们加冕;;;;;;;;;;;;x
+opinion_supposed_to_crown;期望为他们加冕;;;;;;;;;;;;x
 opinion_coronation_guest;加冕礼来宾;;;;;;;;;;;;x
 prepare_coronation_ceremony;组织一场加冕礼;;;;;;;;;;;;x
-prepare_coronation_ceremony_desc;开始为我的加冕礼做准备。作为一名[Root.Religion.GetName][Root.GetTitle]，我有必要被一名卓著的教会教士加冕，从而合法化我神圣的统治权。;;;;;;;;;;;;x
+prepare_coronation_ceremony_desc;开始为我的加冕礼做准备。作为一名[Root.Religion.GetName][Root.GetTitle]，我有必要由一名卓著的教会教士加冕，从而合法化我神圣的统治权。;;;;;;;;;;;;x
 begin_coronation_tooltip;开始为你的加冕礼做准备。;;;;;;;;;;;;x
-TT_CHILD_IS_ASSERTIVE;是自负的（具有野心勃勃，敏锐，任性或天才特质）;;;;;;;;;;;;x
+TT_CHILD_IS_ASSERTIVE;是自负的（具有野心勃勃、敏锐、任性或天才特质）;;;;;;;;;;;;x
 TT_REGENT_LIKES_CHILD;摄政者喜欢[Root.GetTitledFirstName];;;;;;;;;;;;x
-TT_NOT_PREPARING_CORONATION;没有准备好加冕仪式;;;;;;;;;;;;x
+TT_NOT_PREPARING_CORONATION;并为正在准备加冕仪式;;;;;;;;;;;;x
 TT_NOT_RECENTLY_ASKED_CORONATION;最近没有尝试举办一场加冕典礼[From.GetCoronationTimer];;;;;;;;;;;;x
 string_coronation_timer;- 到期：§Y[This.coronation_request_cooldown.GetExpiryDate]§!;;;;;;;;;;;;x
 TT_NOT_FULFILLING_WAR_CORONATION;目前没有发动战争作为教宗加冕协议的一部分;;;;;;;;;;;;x
@@ -739,45 +739,45 @@ Grace;阁下;;;;;;;;;;;;x
 Lordship;大人;;;;;;;;;;;;x
 Honorable;可敬的;;;;;;;;;;;;x
 uncrowned_modifier;尚未加冕;;;;;;;;;;;;x
-uncrowned_modifier_desc;一位[catholic.GetName]统治者尚未被教职人员正式加冕前将永远不会被他的封臣所认为是合法的。\n他在受膏之前浪费的时间越长，他的封臣就越有可能怀疑他那神授君权的合法性。;;;;;;;;;;;;x
+uncrowned_modifier_desc;一位[catholic.GetName]统治者尚未被教职人员正式加冕前将永远不会被他的封臣认为是完全合法的。\n他在受膏之前浪费的时间越长，他的封臣就越有可能怀疑他那神授君权的合法性。;;;;;;;;;;;;x
 uncrowned_2;尚未加冕;;;;;;;;;;;;x
-uncrowned_2_desc;一位[catholic.GetName]统治者尚未被教职人员正式加冕前将永远不会被他的封臣所认为是合法的。\n他在受膏之前浪费的时间越长，他的封臣就越有可能怀疑他那神授君权的合法性。;;;;;;;;;;;;x
+uncrowned_2_desc;一位[catholic.GetName]统治者尚未被教职人员正式加冕前将永远不会被他的封臣认为是完全合法的。\n他在受膏之前浪费的时间越长，他的封臣就越有可能怀疑他那神授君权的合法性。;;;;;;;;;;;;x
 uncrowned_3;尚未加冕;;;;;;;;;;;;x
-uncrowned_3_desc;一位[catholic.GetName]统治者尚未被教职人员正式加冕前将永远不会被他的封臣所认为是合法的。\n他在受膏之前浪费的时间越长，他的封臣就越有可能怀疑他那神授君权的合法性。;;;;;;;;;;;;x
+uncrowned_3_desc;一位[catholic.GetName]统治者尚未被教职人员正式加冕前将永远不会被他的封臣认为完全是合法的。\n他在受膏之前浪费的时间越长，他的封臣就越有可能怀疑他那神授君权的合法性。;;;;;;;;;;;;x
 coronation_canceled;加冕礼将被取消。;;;;;;;;;;;;x
 EVTTITLE20200;加冕礼;;;;;;;;;;;;x
-EVTDESCHF20200;现在是正式承认我作为[Root.PrimaryTitle.GetName]的[Root.GetTitle]的时候了。为了做到这一点，我需要得到[Root.Religion.GetName]教会的支持，但令人信服的教员的加冕既不容易也不便宜。为了开始筹划加冕礼，我应该去找一个愿意为我加冕的牧师。;;;;;;;;;;;;x
+EVTDESCHF20200;现在是正式承认我作为[Root.PrimaryTitle.GetName]的[Root.GetTitle]的时候了。为了做到这一点，我需要得到[Root.Religion.GetName]教会的支持，但要请动令人信服而有权威的教会成员既不容易也不便宜。为了开始筹划加冕礼，我应该去找一个愿意为我加冕的教士。;;;;;;;;;;;;x
 EVTOPTAHF20200;只有教宗才适合为我加冕！;;;;;;;;;;;;x
-EVTTOOLTIPHF20201;给教宗写信，请求他加冕我为§Y[Root.PrimaryTitle.GetName]§!的§Y[Root.GetTitle]§!。;;;;;;;;;;;;x
+EVTTOOLTIPHF20201;给教宗写信，请求他加冕你为§Y[Root.PrimaryTitle.GetName]§!的§Y[Root.GetTitle]§!。;;;;;;;;;;;;x
 EVTOPTBHF20200;让领地上最具权威的主教来吧！;;;;;;;;;;;;x
-EVTTOOLTIPBHF20200;给领地里最具权威的[Root.Religion.GetName]主教写信，请求他加冕我为§Y[Root.PrimaryTitle.GetName]§!的§Y[Root.GetTitle]§!。;;;;;;;;;;;;x
-EVTOPTCHF20200;随便哪个牧师都行。;;;;;;;;;;;;x
-EVTTOOLTIPCHF20200;给一位小主教写信，请求他加冕我为§Y[Root.PrimaryTitle.GetName]§!的§Y[Root.GetTitle]§!。\n尽管这选择并不那么体面，但这样做至少可以安抚你的臣属，使你的王国不那么容易分崩离析。;;;;;;;;;;;;x
-EVTOPTDHF20200;也许现在不是一个好时机.....;;;;;;;;;;;;x
+EVTTOOLTIPBHF20200;给领地里最有影响力和权威的[Root.Religion.GetName]主教写信，请求他加冕你为§Y[Root.PrimaryTitle.GetName]§!的§Y[Root.GetTitle]§!。;;;;;;;;;;;;x
+EVTOPTCHF20200;随便哪个教士都行。;;;;;;;;;;;;x
+EVTTOOLTIPCHF20200;给一位小主教写信，请求他加冕你l为§Y[Root.PrimaryTitle.GetName]§!的§Y[Root.GetTitle]§!。\n尽管这选择并不如其他选项那么体面，但这样做至少可以安抚你的臣属，使你的领地不那么容易分崩离析。;;;;;;;;;;;;x
+EVTOPTDHF20200;也许现在不是好时机……;;;;;;;;;;;;x
 EVTDESCHFA20201;[From.GetFullName]希望我加冕[From.GetHerHim]为[From.PrimaryTitle.GetName]的[From.GetTitle]。我应该向[From.GetHerHim]要求什么作为回报呢？;;;;;;;;;;;;x
 EVTOPTAHF20201;一点小小的回报吧。;;;;;;;;;;;;x
 EVTOPTBHF20201;一个合理的要求。;;;;;;;;;;;;x
 EVTOPTCHF20201;我是教宗！我想要他所有的一切！;;;;;;;;;;;;x
-EVTDESCHFA20202;致优秀的[Root.GetTitledName]，\n我很荣幸能够主持[Root.GetHerHisCap][Root.GetHonorific]的加冕礼。我急切地期待着[Root.GetHerHisCap][Root.GetHonorific]关于仪式的日期和方式的说明，以便更好地为这一神圣的职责做好准备。\n\n[Root.GetHerHisCap][Root.GetHonorific]永远的仆人\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESCHFA20202;致优秀的[Root.GetTitledName]，\n我很荣幸能够主持[Root.GetHerHisCap][Root.GetHonorific]的加冕礼。我急切地期待着[Root.GetHerHisCap][Root.GetHonorific]关于仪式的日期和方式的说明，以便我更好地为这一神圣的职责做好准备。\n\n[Root.GetHerHisCap][Root.GetHonorific]永远的仆人\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20202;棒极了。;;;;;;;;;;;;x
-EVTDESCHFA20203;致优秀的[Root.GetTitledName]，\n只要[Root.GetHerHisCap][Root.GetHonorific]愿意捐赠一小笔钱给圣母教会作为[Root.GetHerHisCap]虔诚的表现。我便会很荣幸能够主持[Root.GetHerHisCap][Root.GetHonorific]的加冕礼\n\n[Root.GetHerHis][Root.GetHonorific]永远的仆人\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESCHFA20203;致优秀的[Root.GetTitledName]，\n只要[Root.GetHerHisCap][Root.GetHonorific]愿意捐赠一小笔钱给慈母圣教会作为[Root.GetHerHisCap]虔诚的表现。我便会很荣幸能够主持[Root.GetHerHisCap][Root.GetHonorific]的加冕礼。\n\n[Root.GetHerHis][Root.GetHonorific]永远的仆人\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20203;可以理解。;;;;;;;;;;;;x
 EVTOPTBHF20203;我没有多余的钱！;;;;;;;;;;;;x
-EVTDESCHFA20204;致优秀的[Root.GetTitledName]，\n只要[Root.GetHerHisCap][Root.GetHonorific]愿意捐赠一笔客观的钱给[From.Capital.GetName]教会作为[Root.GetHerHisCap]虔诚的表现。我便会很荣幸能够主持[Root.GetHerHisCap][Root.GetHonorific]的加冕礼\n\n[Root.GetHerHis][Root.GetHonorific]永远的仆人\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESCHFA20204;致优秀的[Root.GetTitledName]，\n只要[Root.GetHerHisCap][Root.GetHonorific]愿意捐赠一大笔钱给[From.Capital.GetName]教会作为[Root.GetHerHisCap]虔诚的表现。我便会很荣幸能够主持[Root.GetHerHisCap][Root.GetHonorific]的加冕礼。\n\n[Root.GetHerHis][Root.GetHonorific]永远的仆人\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20204;那好吧。;;;;;;;;;;;;x
 EVTOPTBHF20204;我没有这么多钱。;;;;;;;;;;;;x
-EVTDESCHFA20205;致优秀的[Root.GetTitledName]，\n只要[Root.GetHerHisCap][Root.GetHonorific]愿意捐赠一笔客观的钱给[From.Religion.GetName]教会作为[Root.GetHerHisCap]虔诚的表现。我便会很荣幸能够主持[Root.GetHerHisCap][Root.GetHonorific]的加冕礼\n\n[Root.GetHerHis][Root.GetHonorific]永远的仆人\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESCHFA20205;致优秀的[Root.GetTitledName]，\n只要[Root.GetHerHisCap][Root.GetHonorific]愿意捐赠一大笔钱给[From.Religion.GetName]教会作为[Root.GetHerHisCap]虔诚的表现。我便会很荣幸能够主持[Root.GetHerHisCap][Root.GetHonorific]的加冕礼。\n\n[Root.GetHerHis][Root.GetHonorific]永远的仆人\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20205;那好吧。;;;;;;;;;;;;x
 EVTOPTBHF20205;我没有这么多钱。;;;;;;;;;;;;x
-EVTDESCHFA20206;致尊贵的[Root.GetTitledName]，\n只要[Root.GetHerHisCap][Root.GetHonorific]愿意将[Root.GetHerHisCap]一位孩子送去圣母教堂加入修士们祝祷隐修的美妙生活，作为[Root.GetHerHisCap]虔诚的表现。我便十分荣幸能够主持[Root.GetHerHisCap][Root.GetHonorific]的加冕礼。\n\n[Root.GetHerHis][Root.GetHonorific]永远的仆人\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESCHFA20206;致尊贵的[Root.GetTitledName]，\n只要[Root.GetHerHisCap][Root.GetHonorific]愿意允许慈母圣教会接纳[Root.GetHerHisCap]一位孩子加入有福的隐修生活，作为[Root.GetHerHisCap]虔诚的表现。我便十分荣幸能够主持[Root.GetHerHisCap][Root.GetHonorific]的加冕礼。\n\n[Root.GetHerHis][Root.GetHonorific]永远的仆人\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20206;那好吧。;;;;;;;;;;;;x
 EVTOPTBHF20206;我的孩子不会在修道院里浪费他的一生！;;;;;;;;;;;;x
 EVTDESCHFA20207;致尊贵的[Root.GetTitledName]，\n只要[Root.GetHerHisCap][Root.GetHonorific]批准[Root.GetHerHisCap]一位儿子加入我们的圣骑士团，为圣战献出一份力，作为[Root.GetHerHisCap]虔诚的表现。我便十分荣幸能够主持[Root.GetHerHisCap][Root.GetHonorific]的加冕礼。\n\n[Root.GetHerHis][Root.GetHonorific]永远的仆人\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20207;那好吧。;;;;;;;;;;;;x
-EVTOPTBHF20207;我不会为了那顶皇冠拿我儿子的生命冒险。;;;;;;;;;;;;x
-EVTDESCHFA20208;致尊贵的[Root.GetTitledName]，\n只要[Root.GetHerHisCap][Root.GetHonorific]愿意为我这样教会热心的仆人举办一场私人盛宴，作为[Root.GetHerHisCap]虔诚的表现。我便会很荣幸能够主持[Root.GetHerHisCap][Root.GetHonorific]的加冕礼。\n\n[Root.GetHerHis][Root.GetHonorific]永远的仆人\n[From.GetTitledName];;;;;;;;;;;;x
+EVTOPTBHF20207;我不会为了那顶冠冕拿我儿子的生命冒险。;;;;;;;;;;;;x
+EVTDESCHFA20208;致尊贵的[Root.GetTitledName]，\n只要[Root.GetHerHisCap][Root.GetHonorific]愿意为像我这样对教会热心的仆人举办一场私人盛宴，作为[Root.GetHerHisCap]虔诚的表现。我便会很荣幸能够主持[Root.GetHerHisCap][Root.GetHonorific]的加冕礼。\n\n[Root.GetHerHis][Root.GetHonorific]永远的仆人\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20208;那好吧。;;;;;;;;;;;;x
-EVTOPTBHF20208;我不会纵容[From.GetSheHe]的妄想!;;;;;;;;;;;;x
+EVTOPTBHF20208;我不会纵容[From.GetSheHe]的放荡行为！;;;;;;;;;;;;x
 EVTDESCHFA20209;致尊贵的[Root.GetTitledName]，\n只要[Root.GetHerHisCap][Root.GetHonorific]愿意拓展[From.Capital.GetName]教铎区的疆界，作为[Root.GetHerHisCap]虔诚的表现。我便十分荣幸能够主持[Root.GetHerHisCap][Root.GetHonorific]的加冕礼。\n\n[Root.GetHerHis][Root.GetHonorific]永远的仆人\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20209;那好吧。;;;;;;;;;;;;x
 EVTOPTBHF20209;[From.GetSheHeCap]占的地已经够多了。;;;;;;;;;;;;x
@@ -1040,13 +1040,13 @@ EVTOPTAHF20369;干得漂亮。;;;;;;;;;;;;x
 EVTDESCHFB20370;仪式终于结束，[From.GetTitledFirstName]向我告别，并将我从[From.GetHerHis]宫廷中除名，旁边是[From.GetHerHis]其他客人们。;;;;;;;;;;;;x
 EVTOPTAHF20370;回到[Root.Capital.GetName]真好。;;;;;;;;;;;;x
 EVTTITLE20371;遭人非议的加冕礼;;;;;;;;;;;;x
-EVTDESCHFA20371;The Pope was baffled when I reached for the Imperial Crown in the middle of the ceremony and snatched away the golden circlet from his hands. Amongst the general amazement of the crowd of noblemen around us, I announced that from this day forward the Papacy would hold no longer any power over the Imperial throne, as it was the case for all Roman Emperors of old.;;;;;;;;;;;;x
-EVTDESCHFB20371;The Pope was baffled when [coronation_ruler.GetTitledFirstName] reached for the Imperial Crown in the middle of the ceremony and snatched away the golden circlet from his hands. Amongst the general amazement of the large crowd of noblemen gathered around them, [coronation_ruler.GetTitledFirstName] announced that from [coronation_ruler.GetHerHis] reign forward the Papacy would hold no longer any power over the Imperial throne, as it was the case for all Roman Emperors of old.;;;;;;;;;;;;x
-EVTDESCHFC20371;I have received the most damning rumors about [coronation_ruler.GetTitledFirstName]'s Coronation Ceremony. According to most reports, the [coronation_ruler.GetTitle] to be threw [coronation_priest.GetTitledFirstName] out of [coronation_ruler.GetHerHis] palace's balcony, proclaimed [coronation_ruler.GetHerHim]self to be [coronation_ruler.GetTitle] by [coronation_ruler.GetHerHis] own will, and proceeded to reveal [coronation_ruler.GetHerHim]self as the Antichrist.;;;;;;;;;;;;x
-EVTOPTAHF20371;I am [Root.GetTitle] by my own hand!;;;;;;;;;;;;x
+EVTDESCHFA20371;在加冕仪式进行到一半的时候，我从教宗手中夺走皇冠然后自己戴在了头上，教宗感到非常窘迫。大殿里聚集的贵族们也一片哗然，在他们惊讶的目光下，我宣布，从今天开始，教权将不再对世俗皇权有任何制约力，就像所有古罗马皇帝的情况一样。;;;;;;;;;;;;x
+EVTDESCHFB20371;在加冕仪式进行到一半的时候，[coronation_ruler.GetTitledFirstName]从教宗手中夺走皇冠然后自己戴在了头上，教宗感到非常窘迫。大殿里聚集的贵族们也一片哗然，在他们惊讶的目光下，[coronation_ruler.GetTitledFirstName]宣布，由[coronation_ruler.GetHerHis]的统治为始，教权将不再对世俗皇权有任何制约力，就像所有古罗马皇帝的情况一样。;;;;;;;;;;;;x
+EVTDESCHFC20371;我听说了关于[coronation_ruler.GetTitledFirstName]恶劣至极的流言，[coronation_ruler.GetTitle]在他的加冕礼上把[coronation_priest.GetTitledFirstName]扔出了[coronation_ruler.GetHerHis]宫殿的阳台。[coronation_ruler.GetHerHim]在众人面前宣布[coronation_ruler.GetTitle]的头衔由他[coronation_ruler.GetHerHis]自己亲手加冕，这相当于在众人面前宣示[coronation_ruler.GetHerHim]他自己是敌基督！;;;;;;;;;;;;x
+EVTOPTAHF20371;[Root.GetTitle]的头衔，我自己亲自加冕！;;;;;;;;;;;;x
 EVTOPTBHF20371;[coronation_ruler.GetSheHe]在干嘛？！;;;;;;;;;;;;x
 EVTOPTCHF20371;令人不安的消息……;;;;;;;;;;;;x
-EVTDESCHFA20233;With the unexpected death of the priest meant to officiate the ceremony, it looks like [From.GetTitledFirstName] has been forced to postpone [From.GetHerHis] Coronation indefinitely.;;;;;;;;;;;;x
+EVTDESCHFA20233;由于原本受邀来主持加冕礼的神父意外死亡，似乎[From.GetTitledFirstName]将要被迫无限期推迟[From.GetHerHis]的加冕礼了。;;;;;;;;;;;;x
 EVTOPTAHF20233;为[From.GetHerHim]感到不幸;;;;;;;;;;;;x
 travelling;旅行中;;;;;;;;;;;;x
 travelling_desc;这个角色正在外出旅行，并不在宫廷中。;;;;;;;;;;;;x
@@ -1068,10 +1068,10 @@ tooltip_explain_coronation;Explain that, whatever their personal feelings, the m
 EVTOPTBHF20377;这些指控毫无神学依据！;;;;;;;;;;;;x
 tooltip_explain_coronation_2;运用你对宗教典章的知识反驳神职人员对你缺乏执政合法性的指控。;;;;;;;;;;;;x
 EVTOPTCHF20377;也许向教会捐赠得更勤快些能让他们闭嘴。;;;;;;;;;;;;x
-tooltip_bribe_church;Bribe the clergy to stop their accusations against you for awhile.;;;;;;;;;;;;x
-EVTOPTDHF20377;I only need a few months more...;;;;;;;;;;;;x
+tooltip_bribe_church;拿钱暂时堵住那些反对你的神职人员的嘴;;;;;;;;;;;;x
+EVTOPTDHF20377;只要再给我几个月的时间...;;;;;;;;;;;;x
 EVTDESCHFA20378;I cannot believe my [GetFromRelation] [From.GetFirstName] has still not managed to be officially crowned [From.GetTitle]. Not only is [From.GetHerHis] display of weakness a threat to realm peace: tales of [From.GetHerHis] incompetence will surely drag my name in the mud alongside [From.GetHerHis].;;;;;;;;;;;;x
-EVTOPTAHF20378;I cannot stand this!;;;;;;;;;;;;x
+EVTOPTAHF20378;我受不了了！;;;;;;;;;;;;x
 spouse_informed_uncrowned;Chide §Y[From.GetFirstName]§! about [From.GetHerHis] lack of legitimacy as §Y[From.GetTitle]§!.;;;;;;;;;;;;x
 EVTOPTBHF20378;[From.GetSheHeCap] has enough troubling [From.GetHerHim] already...;;;;;;;;;;;;x
 EVTDESCHFA20379;我的[GetFromRelation][From.GetFirstName]今天傍晚闯进我的私人书房，怒斥我没试着去通过一场恰当的加冕典礼来合法化我对[Root.PrimaryTitle.GetName]的统治。;;;;;;;;;;;;x
@@ -1092,7 +1092,7 @@ EVTDESCHFA20384;我的领主的统治还没有经加冕礼的神圣权利正当�
 EVTOPTAHF20384;[From.GetSheHeCap]可能不会想听到这个……;;;;;;;;;;;;x
 EVTDESCHFA20385;My Chancellor informed me today that my prolonged lack of legitimization in the eyes of the [Root.Religion.GetName] Church is seriously damaging all diplomatic missions of my realm.;;;;;;;;;;;;x
 EVTOPTAHF20385;我得赶紧找个人帮我加冕……;;;;;;;;;;;;x
-EVTDESCHFA20386;I can no longer suffer to serve under a wicked [From.GetTitle] who has yet to have [From.GetHerHis] rule be legitimized by the blessing of the Church. It is time that I make my disapproval known beyond doubt.;;;;;;;;;;;;x
+EVTDESCHFA20386;[From.GetHerHis]的合法性迟迟不被教会承认，我已经无法忍受的[From.GetTitle]的邪恶统治了，是时候站出来反对他了。;;;;;;;;;;;;x
 EVTOPTAHF20386;我再也不会在你的宫廷里为你效力了！;;;;;;;;;;;;x
 EVTOPTBHF20386;也许我该给[From.GetHerHim]更多的时间……;;;;;;;;;;;;x
 EVTDESCHFA20387;In a brazen display of disrespect, [From.GetTitledFirstName] proclaimed that [From.GetSheHe] would no longer serve as the Court Chaplain of a wicked [Root.GetTitle] whose rule is still yet to be legitimized by the blessing of the Church.;;;;;;;;;;;;x
@@ -4251,11 +4251,11 @@ warrior_lodge_hellenic_rank_3_male;老兵;;;;;;;;;;;;x
 warrior_lodge_hellenic_rank_4_male;英雄;;;;;;;;;;;;x
 EVTDESC_HFP_10103_A;My grip is cramping around my [Root.GetDuelWeapon], as [other_combatant.GetTitledFirstName] braces for another attack. The following moments are a blur, blood suddenly everywhere, somebody shouting. "Did [Root.GetTitledFirstName] just [other_combatant.GetWeaponInjuringBlow]?!";;;;;;;;;;;;x
 EVTDESC_HFP_10103_B;[other_combatant.GetTitledFirstName][other_combatant.GetClumsilyElegantly]挥舞着[other_combatant.GetHerHis][other_combatant.GetDuelWeapon]。这是一场持久战，对双方来说都像过了几个世纪，以至于我全身的肌肉都开始酸痛了。全身上下还仅存一丝丝力气，我[Root.GetKillingBlow]。;;;;;;;;;;;;x
-EVTDESC_HFP_10103_C;My opponent seems to be getting tired, [other_combatant.GetHerHis] moves becoming slower. Strengthened by the cheers of the crowd, I [Root.GetKillingBlow].;;;;;;;;;;;;x
+EVTDESC_HFP_10103_C;我的对手看上去已经开始力不从心，[other_combatant.GetHerHis]的步伐开始变慢。围观人群的欢呼声将我的力量唤起，我[Root.GetKillingBlow]。;;;;;;;;;;;;x
 EVTOPTA_HFP_10103_default;我……是的，我就是故意的！;;;;;;;;;;;;x
 EVTOPTA_HFP_10103_duelist;我大获全胜。;;;;;;;;;;;;x
 EVTOPTA_HFP_10103_sad;I am sorry it had to end this way.;;;;;;;;;;;;x
-EVTOPTA_HFP_10103_mean;唯一合乎逻辑的结果就是让你去死，[other_combatant.GetSisterBrother]。;;;;;;;;;;;;x
+EVTOPTA_HFP_10103_mean;你的唯一归宿只有死亡，[other_combatant.GetSisterBrother]。;;;;;;;;;;;;x
 EVTDESC_HFP_10104_A;Just as I begin to think that I am wearing my opponent down, [other_combatant.GetTitledFirstName] lunges at me, with more force than so far displayed. Sweat drips down my forehead, when suddenly, I hear someone shouting, describing the scene incredulously. [other_combatant.GetSheHeCap] has managed to [Root.GetWeaponInjuringBlowOnMe].;;;;;;;;;;;;x
 EVTDESC_HFP_10104_B;The fight has been going on for some time and it's with some effort I'm still swinging my [Root.GetDuelWeapon], [Root.GetClumsilyElegantly]. [other_combatant.GetTitledFirstName] looks tired too, but suddenly [other_combatant.GetSheHe] [Root.GetKillingBlowOnMe].;;;;;;;;;;;;x
 EVTDESC_HFP_10104_C;Each blow of my weapon is becoming heavier, and I'm struggling to focus on my opponent, as the crowd cheers [other_combatant.GetHerHim] on. My vision is blurry when [other_combatant.GetSheHe] [other_combatant.GetKillingBlowOnMe].;;;;;;;;;;;;x
@@ -4266,7 +4266,7 @@ String_expertly;熟练的;;;;;;;;;;;;x
 String_slowly;慢慢的;;;;;;;;;;;;x
 String_put_the_spear_through_their_head;用长矛刺穿[This.GetHerHis]头;;;;;;;;;;;;x
 String_put_their_spear_through_my_head;用[other_combatant.GetHerHis][other_combatant.GetDuelWeapon]刺穿了我的头;;;;;;;;;;;;x
-String_bury_weapon_in_their_chest;sink my [GetDuelWeapon] into [other_combatant.GetHerHis] chest! The [other_combatant.GetManWoman] groans, and it takes a while before my own heart stops pounding. Then [other_combatant.GetSheHe] is still;;;;;;;;;;;;x
+String_bury_weapon_in_their_chest;将我的[GetDuelWeapon]插入了[other_combatant.GetHerHis]胸膛！这个[other_combatant.GetManWoman]开始呻吟，我那被唤起的战意久久无法平静。接着，[other_combatant.GetSheHe]就一动不动了。;;;;;;;;;;;;x
 String_push_my_weapon_into_their_chest;throw my [GetDuelWeapon], into [other_combatant.GetHerHis] stomach. The [other_combatant.GetManWoman] falls, [other_combatant.GetHerHis] guts spilling out on the ground. [other_combatant.GetSheHeCap] does not rise again;;;;;;;;;;;;x
 String_plunge_weapon_through_their_chest;thrust my [GetDuelWeapon] hard into [other_combatant.GetHerHis] chest. The surprise is clear on [other_combatant.GetHerHis] face, as blood fills [other_combatant.GetHerHis] mouth. I must have hit something important;;;;;;;;;;;;x
 String_strike_at_their_neck;land a perfect blow to [other_combatant.GetHerHis] neck. The [other_combatant.GetManWoman] drops [other_combatant.GetHerHis] weapon and clutches desperately at [other_combatant.GetHerHis] throat, but the wound is already claiming [other_combatant.GetHerHis] life;;;;;;;;;;;;x
@@ -4428,7 +4428,7 @@ EVTDESC_JD_30003;[From.GetTitledFirstName] has reprimanded merchants in our regi
 EVTOPTA_JD_30003;I'll make a public statement about [From.GetHerHis] blatant misuse of power!;;;;;;;;;;;;x
 choose_military_aspect;Choose Military Aspect;;;;;;;;;;;;x
 choose_military_aspect_allow_tt;Is NOT currently choosing a Military Aspect;;;;;;;;;;;;x
-choose_military_aspect_desc;As a member of §Y[From.Society.GetName]§!, you can choose to focus on a specific military aspect of a warrior's life. Doing so will allow you to choose a lifestyle trait.;;;;;;;;;;;;x
+choose_military_aspect_desc;作为§Y[From.Society.GetName]§!的一员，你可以选择专注于特定的军事发展方向。这样做会让你你选择一种生活方式特质。;;;;;;;;;;;;x
 does_not_have_a_lifestyle_trait_tt;Does NOT have a lifestyle trait;;;;;;;;;;;;x
 EVTDESC_HF_10020_duelist;Having learned what I can about one-on-one combat, swinging my [Root.GetDuelWeapon] being as easy as breathing, I have decided that it is time I focused on other pursuits common among [Root.Society.GetName].;;;;;;;;;;;;x
 EVTDESC_HF_10020_strategist;Having studied many a tome on the topic, as well as the practical application of it, I am already well-versed in strategic warfare... Perhaps it is time I focused on something else?;;;;;;;;;;;;x
@@ -4437,7 +4437,7 @@ EVTOPTA_HF_10020;I should focus on personal combat.;;;;;;;;;;;;x
 EVTOPTB_HF_10020;I want to delve deeper into strategic thinking.;;;;;;;;;;;;x
 EVTOPTC_HF_10020;我应该多花点时间再户外上，比如打猎！;;;;;;;;;;;;x
 EVTOPTD_HF_10020;转念一想，我喜欢我现在的生活方式。;;;;;;;;;;;;x
-EVTDESC_HF_10021;My fellow members of [Root.Society.GetName] have long been wondering when I will choose a focus for my fighting talents. There are those who live for the art of dueling, while others prefer the more theoretic side of combat... Yet hunting is also a worthwhile pursuit.;;;;;;;;;;;;x
+EVTDESC_HF_10021;我[Root.Society.GetName]的弟兄们一直都在猜想我到底会选择那种战斗天赋。有些天赋是给那些为决斗而生的人准备的，还有些则更侧重于战斗理论方面……狩猎其实也是一个不错的选择。;;;;;;;;;;;;x
 EVTOPTA_HF_10021;我应该关注于个人战斗。;;;;;;;;;;;;x
 EVTOPTB_HF_10021;我想深入研究战略思想。;;;;;;;;;;;;x
 EVTOPTC_HF_10021;I want to spend more time outdoors, hunting!;;;;;;;;;;;;x
@@ -4680,7 +4680,7 @@ d_racakonda_adj;Racacondan;;;;;;;;;;;;x
 d_lanka_adj;楞迦;;;;;;;;;;;;x
 d_sinhala_adj;僧伽罗;;;;;;;;;;;;x
 CB_NAME_SHATTERED_COUNTY_CONQUEST;兼并[Title.GetBaseName];;;;;;;;;;;;x
-WAR_NAME_SHATTERED_COUNTY_CONQUEST;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Consolidation of $OTHER_TITLE$;;;;;;;;;;;;x
+WAR_NAME_SHATTERED_COUNTY_CONQUEST;$ORDER$$FIRST_ADJ$$SECOND_ADJ$对$OTHER_TITLE$兼并战争;;;;;;;;;;;;x
 shattered_world_county_conquest_desc;As this is a Shattered World you can choose to outright conquer any Counties that either border your realm or is no more than one sea zone away. [GetShatteredInfo] [GetShatteredJadeInfo];;;;;;;;;;;;x
 shattered_limited_info;This Casus Belli will become unavailable after §Y25 years§! have passed since the game started.;;;;;;;;;;;;x
 shattered_long_info;This Casus Belli will become unavailable after §Y100 years§! have passed since the game started.;;;;;;;;;;;;x
@@ -5453,8 +5453,8 @@ parthian;帕提亚血脉;;;;;;;;;;;;x
 bagratid;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
 sassanid;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
 niall;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
-bloodline_effect_convert_zhangzhung_and_sumpa;Increased Culture Conversion speed to §G[bodpa.GetName]§! from §Y[zhangzhung.GetName]§! and §Y[sumpa.GetName]§!;;;;;;;;;;;;x
-bloodline_effect_great_heroes_appear;Periodically attracts the servitude of §GGreat Warriors§! (if §Y[From.Founder.Religion.GetName]§!);;;;;;;;;;;;x
+bloodline_effect_convert_zhangzhung_and_sumpa;加快从§Y[zhangzhung.GetName]§!和§Y[sumpa.GetName]§!转变至§G[bodpa.GetName]§!的文化转变速率;;;;;;;;;;;;x
+bloodline_effect_great_heroes_appear;定期吸引§G伟大战士§!为你效命（如果信仰§Y[From.Founder.Religion.GetName]§!）;;;;;;;;;;;;x
 HF_110_DESC;The blood of [target_bloodline_founder.GetFullName] flows through my veins. Since the days [target_bloodline_founder.GetSheHe] walked the earth we have abandoned our old [target_bloodline_founder.Religion.GetName] faith, though I do see merit in the ways that helped shape such a legend...;;;;;;;;;;;;x
 EVTOPTA_HF_110;We were once like them, we should not judge their ways.;;;;;;;;;;;;x
 EVTOPTB_HF_110;No, the ways of old belong in the past.;;;;;;;;;;;;x
@@ -5748,8 +5748,8 @@ emulating_legend;Emulating a Legend;;;;;;;;;;;;x
 emulating_legend_desc;This character is emulating the personality of a Legendary Hero;;;;;;;;;;;;x
 zealous_opinion_EXPLANATION; (effect on Zealous);;;;;;;;;;;;x
 zealous_opinion;狂热特质好感;;;;;;;;;;;;x
-bloodline_effect_sky_burial;Enables §GSky Burials§!;;;;;;;;;;;;x
-bloodline_effect_tanistry;Enables §GTanistry Succession§!;;;;;;;;;;;;x
+bloodline_effect_sky_burial;解锁§G天葬§!;;;;;;;;;;;;x
+bloodline_effect_tanistry;解锁§G凯尔特选举继承法§!;;;;;;;;;;;;x
 nick_of_the_nine_hostages;of the Nine Hostages;;;;;;;;;;;;x
 bloodline_effect_bloodline_mercenary_traditions;孩子们能通过成为§G雇佣兵§!证明自己;;;;;;;;;;;;x
 carolingian_desc;一名杰出的战士同时也是一位伟大的政治家，他确立了法兰克人在高卢无可争议的主人地位，也带领军队在图尔战役中击败穆斯林。;;;;;;;;;;;;x
@@ -5786,9 +5786,9 @@ parthian_desc;萨珊王朝统治下帕提亚七大氏族之一的后裔。七大
 sassanid_desc;萨珊王朝的创始人。被称为伟大的战士，猎人和琐罗亚斯德教的大祭司。;;;;;;;;;;;;x
 niall_desc;A legendary high king of Ireland and founder of the Uí Néill dynasty. During his rule he won several battles against the Saxons, Scots, Gauls and even the Romans.;;;;;;;;;;;;x
 bloodline_desc_samrat_chakravartin;传奇的转轮圣王，全印度的统一者;;;;;;;;;;;;x
-bloodline_desc_great_conqueror;A great conqueror of fame and legend. With sword in hand [This.Founder.GetSheHe] would let no one stand in [This.Founder.GetHerHis] way.;;;;;;;;;;;;x
-bloodline_desc_saoshyant;The promised Saoshyant, savior of the world and holy icon according to the Zoroastrian belief.;;;;;;;;;;;;x
-bloodline_desc_israel;The [This.Founder.GetManWoman] who restored the Kingdom of David, the land of Israel, to the Jews.;;;;;;;;;;;;x
+bloodline_desc_great_conqueror;极负盛名和传说色彩的伟大征服者。长剑在手，无人可当！;;;;;;;;;;;;x
+bloodline_desc_saoshyant;琐罗亚斯德信条中的萨奥希扬特，即是世界的救主与神圣的偶像。;;;;;;;;;;;;x
+bloodline_desc_israel;这个[This.Founder.GetManWoman]重建了大卫王的王国，即是犹太人所称的以色列。;;;;;;;;;;;;x
 saoshyant_male;Blood of the Saoshyant;;;;;;;;;;;;x
 saoshyant_female;Blood of the Saoshyant;;;;;;;;;;;;x
 israel_male;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
@@ -5798,12 +5798,12 @@ borrow_money_jewish_special;Borrow 600¤ from the Banks of Israel;;;;;;;;;;;;x
 borrow_money_jewish_special_desc;I can borrow 600¤ from the Banks of Israel because of my status. This loan will be free of interest.;;;;;;;;;;;;x
 repay_money_jewish_special;Repay the 600¤ loan;;;;;;;;;;;;x
 repay_money_jewish_special_desc;I will repay the gold that I owe the Banks of Israel.;;;;;;;;;;;;x
-bloodline_effect_israel_loans;Can borrow from the §GBanks of Israel§!;;;;;;;;;;;;x
-bloodline_effect_free_legitimize;Legitimizing Bastards is §GFree§!;;;;;;;;;;;;x
-bloodline_effect_always_viking;Raiding can give the §GViking Traits§!;;;;;;;;;;;;x
+bloodline_effect_israel_loans;可以从§G以色列银行§!中借款;;;;;;;;;;;;x
+bloodline_effect_free_legitimize;将私生子合法化将§G不费代价§!;;;;;;;;;;;;x
+bloodline_effect_always_viking;掠夺省份能带来§G维京特质§!;;;;;;;;;;;;x
 norse_pagan_opinion;[norse_pagan.GetName]好感;;;;;;;;;;;;x
 norse_pagan_reformed_opinion;改革[norse_pagan_reformed.GetName]好感;;;;;;;;;;;;x
-bloodline_effect_faster_hindu;§GConvert Counties§! to §GHindu§! faster;;;;;;;;;;;;x
+bloodline_effect_faster_hindu;更快地将省份§G传教§!至§G印度教§!;;;;;;;;;;;;x
 String_Random_Devil;[Root.Religion.GetRandomEvilGodNameCap];;;;;;;;;;;;x
 String_Praise_Evilgod;赞美[Root.Religion.GetRandomEvilGodNameCap]!;;;;;;;;;;;;x
 EVTOPTA328_alt;为了[Root.Religion.GetHighGodName]！;;;;;;;;;;;;x
@@ -5940,7 +5940,7 @@ HF_217_OPTB;I was told the truth, and I will fight for [child_of_destiny.Religio
 HF_218_DESC;I had [child_of_destiny.GetFirstName] accompany [child_of_destiny.Religion.GetPriestTitle] [priest_target.GetFirstName] to the temple of [temple_target.GetName], to learn more about the [child_of_destiny.Religion.GetName] faith. Upon retuning, [priest_target.GetFirstName] claims that [child_of_destiny.GetFirstName] had a vision from [child_of_destiny.Religion.GetHighGodName] while praying! Apparently my [child_of_destiny.GetDaughterSon] loudly proclaimed passages from [child_of_destiny.Religion.GetScriptureName], which [child_of_destiny.GetSheHe] had no way of knowing...;;;;;;;;;;;;x
 HF_218_OPTA;Perhaps [child_of_destiny.GetSheHe] is... blessed?;;;;;;;;;;;;x
 HF_218_OPTB;Why do you bother me with this? Send [child_of_destiny.GetHerHim] back to [temple_target.GetName] for all I care!;;;;;;;;;;;;x
-bloodline_desc_child_of_destiny;A [child_of_destiny.GetManWoman] of true legend. [child_of_destiny.GetHerHisCap] exploits mimicked those of Alexander the Great himself!;;;;;;;;;;;;x
+bloodline_desc_child_of_destiny;一个真正传奇的[child_of_destiny.GetManWoman]。[child_of_destiny.GetHerHisCap]征服与功勋像极了亚历山大大帝他本人！;;;;;;;;;;;;x
 HF_291_DESC;It all went very fast. [child_of_destiny.GetFirstName], famous as [child_of_destiny.GetSheHe] is, has had no trouble amassing a vast host of eager warriors. With [child_of_destiny.GetHerHis] eyes set upon the realm of [target_character.GetFullName] they now embark on their adventure, without so much as a farewell. There truly were no way controlling the ambition of that [child_of_destiny.GetBoyGirl]...;;;;;;;;;;;;x
 HF_291_OPTA;I hope my [child_of_destiny.GetDaughterSon] does not forget about me...;;;;;;;;;;;;x
 HF_291_OPTB;The audacity of that [child_of_destiny.GetManWoman]!;;;;;;;;;;;;x
@@ -6399,7 +6399,7 @@ SHATTERED_WORLD_TOOLTIP;§Y破碎世界§!;;;;;;;;;;;;x
 SHATTERED_WORLD_TOOLTIP_DELAYED;§G点击打开破碎世界界面§!\n破碎世界里的每一位统治者都是伯爵或公爵，他们在同一起跑线上开始游戏。通过大量设置，你可以定制属于你的游戏体验，无论是更符合历史的还是更具有平衡性的。推荐喜欢对称式开局或纯粹想看这个世界如何自我演化的玩家使用。;;;;;;;;;;;;x
 RANDOM_WORLD;随机世界;;;;;;;;;;;;x
 RANDOM_WORLD_TOOLTIP;§Y随机世界§!;;;;;;;;;;;;x
-RANDOM_WORLD_TOOLTIP_DELAYED;§G点击打开随机世界界面§!\n随机世界模拟了历史的另一种进程——而不是它原本的样子。从弱小的伯爵到强大的皇帝，不同的统治者由复杂的动态法理结构联系在一起。包括文化、宗教、名字、头衔在内的任何内容都可以被动态地随机化——确保每次创造的世界都是独一无二的。;;;;;;;;;;;;x
+RANDOM_WORLD_TOOLTIP_DELAYED;§G点击打开随机世界界面§!\n随机世界模拟了历史的另一种进程——而不是它原本的样子。从弱小的伯爵到强大的皇帝，不同的统治者被复杂的动态法理结构联系在一起。包括文化、宗教、名字、头衔在内的任何内容都可以被动态地随机化——这确保了每次创造的世界都是独一无二的。;;;;;;;;;;;;x
 setting_num_counties;最大省份数量;;;;;;;;;;;;x
 setting_num_counties_tooltip;决定大多数统治者所能拥有的最大省份数量。即使该数字被设置得很高，大多数统治者仍然只会拥有较少省份。;;;;;;;;;;;;x
 setting_num_dukes;公爵领的数量;;;;;;;;;;;;x
@@ -6594,11 +6594,11 @@ saintly_bloodline_09;圣[Root.GetDynName]的血脉;;;;;;;;;;;;x
 saintly_bloodline_10;圣[Root.GetDynName]的血脉;;;;;;;;;;;;x
 saintly_bloodline_11;圣[Root.GetDynName]的血脉;;;;;;;;;;;;x
 saintly_bloodline_12;圣[Root.GetDynName]的血脉;;;;;;;;;;;;x
-saintly_defender_bloodline;§GZealots§! periodically join wars against Heathens;;;;;;;;;;;;x
-saintly_monastic_bloodline;Gain more §GDevotion§! in §GMonastic Societies§!;;;;;;;;;;;;x
-saintly_cultural_bloodline;§GConvert Counties§! to your §GCulture§! faster;;;;;;;;;;;;x
-saintly_inquisitional_bloodline;§GConvert Counties§! to your §GReligion§! faster;;;;;;;;;;;;x
-saintly_jewish_bloodline;Friendly relations with the Jews;;;;;;;;;;;;x
+saintly_defender_bloodline;定期出现§G狂热者§!加入对抗异教的战争;;;;;;;;;;;;x
+saintly_monastic_bloodline;在§G修士结社§!中获得更多§G奉献值§!;;;;;;;;;;;;x
+saintly_cultural_bloodline;更快地将省份§G转换§!至你的§G文化§!;;;;;;;;;;;;x
+saintly_inquisitional_bloodline;更快地将省份§G转换§!至你的§G宗教§!;;;;;;;;;;;;x
+saintly_jewish_bloodline;与犹太人保持更高好感;;;;;;;;;;;;x
 saintly_theologians_bloodline;Periodically attracts the servitude of §GGreat Theologians§!;;;;;;;;;;;;x
 saintly_crusader_bloodline;Crusader Family\nAn easier time gaining participation bonuses in Crusades;;;;;;;;;;;;x
 saintly_bishops_bloodline;Princes and Bishops\nAn easier time handling all kinds of bishops;;;;;;;;;;;;x
@@ -8430,7 +8430,7 @@ EVTOPTCHF25033;I need no cowards in my army.;;;;;;;;;;;;x
 EVTDESCHF25034;Some of the more undisciplined elements within my new troops have started to complain that I do not share the loot from our battles equally. They are demanding for what they consider their rightful compensation, threatening to leave my army if their request is denied.;;;;;;;;;;;;x
 EVTOPTAHF25034;This is but a misunderstanding...;;;;;;;;;;;;x
 EVTOPTBHF25034;You shall have your money.;;;;;;;;;;;;x
-EVTOPTCHF25034;Begone then! I have no need of you!;;;;;;;;;;;;x
+EVTOPTCHF25034;那就滚吧！我根本用不上你！;;;;;;;;;;;;x
 EVTDESCHF25037;The valor I have shown in battle has not inspired just seasoned warriors. Many of my subjects have traveled to [Root.Capital.GetName], hoping to prove their worth against my enemies.;;;;;;;;;;;;x
 EVTOPTAHF25037;I will have them trained in no time!;;;;;;;;;;;;x
 EVTOPTBHF25037;Your bravery moves me, but this is not your fight.;;;;;;;;;;;;x
@@ -9421,7 +9421,7 @@ d_moldau_adj;摩尔达维亚;;;;;;;;;;;;x
 PROV1105;莫斯科河;;;;;;;;;;;;x
 PROV1106;莫斯科河;;;;;;;;;;;;x
 PROV388;Kem;;;;;;;;;;;;x
-PROV393;Olonets;;;;;;;;;;;;x
+PROV393;奧洛涅茨;;;;;;;;;;;;x
 PROV1601;凯努;;;;;;;;;;;;x
 PROV1603;波默尔;;;;;;;;;;;;x
 PROV1605;卡拉维西;;;;;;;;;;;;x
@@ -11638,9 +11638,9 @@ destroy_muslim_leadership;The §YMuslim Caliphates§! are §YDestroyed§!;;;;;;;
 INSULT_UNBELIEVER;blasphemer;;;;;;;;;;;;x
 THE_SHEPHERDS_CRUSADE;Shepherds' Crusade;;;;;;;;;;;;x
 CB_NAME_SHEPHERDS_CRUSADE;Shepherds' Crusade for [Title.GetBaseName];;;;;;;;;;;;x
-WAR_NAME_SHEPHERDS_CRUSADE;$ORDER$ Shepherds' Crusade for [Title.GetBaseName];;;;;;;;;;;;x
+WAR_NAME_SHEPHERDS_CRUSADE;$ORDER$[Title.GetBaseName]之牧羊人十字军;;;;;;;;;;;;x
 CB_NAME_NORTHERN_CRUSADE;Teutonic War for [Title.GetBaseName];;;;;;;;;;;;x
-WAR_NAME_NORTHERN_CRUSADE;$ORDER$ Teutonic War for $OTHER_TITLE$;;;;;;;;;;;;x
+WAR_NAME_NORTHERN_CRUSADE;$ORDER$$OTHER_TITLE$条顿战争;;;;;;;;;;;;x
 northern_crusade_war_desc;§Y[Root.GetTitledName]§! can use this casus belli to attack §Y$TARGET$§! over §Y$TITLE$§! as part of the Northern Crusade to convert the pagans of the north.;;;;;;;;;;;;x
 KINGDOM_OF_THE_SHEPHERDS;[shepherds_kingdom.GetBaseName];;;;;;;;;;;;x
 vassalize_knights_templar_opinion_TT;§Y[d_knights_templar.Holder.GetTitledName]§! have an opinion of §G25§! or higher of §Y[Root.GetTitledName]§!;;;;;;;;;;;;x
@@ -11732,7 +11732,7 @@ impious_beatification_tooltip;最近的教会分歧导致对教会§R权威§!�
 impious_canonization;Impious Canonization;;;;;;;;;;;;x
 impious_canonization_tooltip;The canonization of §Y[saint_person.GetTitledName]§! has brought on a lack of faith in the §RAuthority§! of the church;;;;;;;;;;;;x
 CB_NAME_DEPOSE_IMPIOUS_POPE;废黜不虔诚的教宗;;;;;;;;;;;;x
-WAR_NAME_DEPOSE_IMPIOUS_POPE;$FIRST_ADJ$ War for the Holy See;;;;;;;;;;;;x
+WAR_NAME_DEPOSE_IMPIOUS_POPE;$FIRST_ADJ$圣座战争;;;;;;;;;;;;x
 depose_impious_pope_desc;A war over the Holy See, and what is the righteous way forward for the faith.;;;;;;;;;;;;x
 join_war_to_despose_pope_TT;I will join §Y[papal_attacker.GetTitledFirstName]§! in [papal_attacker.GetHerHis] war to depose the impious §Y[From.GetTitledName]§!;;;;;;;;;;;;x
 join_war_to_defend_pope_TT;I will join §Y[From.GetTitledFirstName]§! in [From.GetHerHis] defense against the unjust §Y[papal_attacker.GetTitledName]§!;;;;;;;;;;;;x
@@ -12193,14 +12193,14 @@ nick_the_wyrm;the Wyrm;;;;;;;;;;;;x
 nick_the_fury;the Fury;;;;;;;;;;;;x
 nick_the_stormforged;the Stormforged;;;;;;;;;;;;x
 nick_the_tempest_of_capital;the Tempest of [Root.Capital.GetName];;;;;;;;;;;;x
-EVTDESCAHF23214;My warriors are already sprawling through the streets of [From.GetName] to take their hard-fought loot, when I receive news that there is still a pocket of defenders hiding in the area. It is a small band of mercenaries, led by a [scoped_pirate_mercenary.GetManWoman] called [scoped_pirate_mercenary.GetFirstName]. Their leader claims that [scoped_pirate_mercenary.GetSheHe] has no quarrel with us, and would in fact be ready to join my army for the right price.;;;;;;;;;;;;x
+EVTDESCAHF23214;就在当我我麾下的勇士早已进入[From.GetName]的每一条街道，准备开始展开一次无情的劫掠时，我收到一条消息，说是城内依然有一小撮已经躲起来的守备力量。这群人是雇佣兵，由一个叫做[scoped_pirate_mercenary.GetFirstName]的[scoped_pirate_mercenary.GetManWoman]领导。他们的头子宣称[scoped_pirate_mercenary.GetSheHe]不想找我们的麻烦，而且如果条件合适的话，他愿意加入我们的队伍。;;;;;;;;;;;;x
 EVTOPTAHF23214;Perhaps we can come to a better arrangement?;;;;;;;;;;;;x
 TOOLTIP_EVTOPTAHF23214;Use your §YIntrigue§! to try and seduce §Y[scoped_pirate_mercenary.GetFirstName]§!;;;;;;;;;;;;x
 EVTOPTBHF23214;Perhaps we can come to a better arrangement?;;;;;;;;;;;;x
 TOOLTIP_EVTOPTBHF23214;Use your §YIntrigue§! to try and seduce §Y[scoped_pirate_mercenary.GetFirstName]§!;;;;;;;;;;;;x
-EVTOPTCHF23214;I challenge you for leadership of your band!;;;;;;;;;;;;x
+EVTOPTCHF23214;干脆我们来场决斗，输了的话，你的手下就是我的了！;;;;;;;;;;;;x
 TOOLTIP_EVTOPTCHF23214;Challenge §Y[scoped_pirate_mercenary.GetFirstName]§! to a §YDuel§!.;;;;;;;;;;;;x
-EVTOPTDHF23214;Your price sounds reasonable...;;;;;;;;;;;;x
+EVTOPTDHF23214;你开的条件听上去很合理……;;;;;;;;;;;;x
 TOOLTIP_EVTOPTDHF23214;Hire §Y[scoped_pirate_mercenary.GetFirstName]§!'s band of raiders for a few months.;;;;;;;;;;;;x
 EVTOPTEHF23214;我不需要你。滚开。;;;;;;;;;;;;x
 TOOLTIP_EVTOPTEHF23214;允许§Y[scoped_pirate_mercenary.GetFirstName]§!的雇佣兵离开。;;;;;;;;;;;;x
@@ -12223,22 +12223,22 @@ TOOLTIP_EVTOPTAHF23217;Pay §Y[scoped_pirate_mercenary.GetFirstName]§!'s band o
 EVTOPTBHF23217;You dare make demands of me?! Begone!;;;;;;;;;;;;x
 TOOLTIP_EVTOPTBHF23217;§Y[scoped_pirate_mercenary.GetFirstName]§!'s band of raiders will disband.;;;;;;;;;;;;x
 pirate_mercenaries;Mercenaries;;;;;;;;;;;;x
-EVTDESCAHF23218;Having proven my worth by defeating their leader, the remaining mercenaries have flocked under my banner, fearing to meet the same end as their former commander.;;;;;;;;;;;;x
-EVTOPTAHF23218;I am not to be trifled with.;;;;;;;;;;;;x
-EVTDESCAHF23219;There must be some way to force open the defenses of [From.GetName]. With control over both land and sea, I have a distinct advantage over the defenders of this fortress. I only need to think of a good idea...;;;;;;;;;;;;x
-EVTDESCBHF23219;There must be some way to get into [From.GetName]. The city might be well defended, but with control over both land and sea, I have a distinct advantage over my opponents, while they have to defend a very large area of territory. I only need to think of a good idea...;;;;;;;;;;;;x
-EVTDESCCHF23219;There must be some way to get into [From.GetName]. Our opponents are nothing but priests, and we have control over both land and sea. We have a distinct advantage over our enemies... If only I could think of a plan to get us past their walls.;;;;;;;;;;;;x
-EVTOPTAHF23219;I full assault, from land and sea, will crack their defenses!;;;;;;;;;;;;x
-TOOLTIP_EVTOPTAHF23219;Use your §YMilitary§! skills to attempt a quick assault against the defenders of §Y[From.GetName]§!, in order to reduce their numbers and morale.;;;;;;;;;;;;x
+EVTDESCAHF23218;在我击败了他们的头头之后，剩下的雇佣兵全数归入我的麾下，一个个都害怕自己落得和他们前任老大一样的下场。;;;;;;;;;;;;x
+EVTOPTAHF23218;我可不是好惹的。;;;;;;;;;;;;x
+EVTDESCAHF23219;肯定有什么办法能突破[From.GetName]的防御。现在我已经完全控制了海面和野外战场，我们的人数绝对碾压要塞内的敌人。我现在只需要一个好点子……;;;;;;;;;;;;x
+EVTDESCBHF23219;肯定有什么办法能让我攻入[From.GetName]。这座城的防卫看上去的确很完备，但是它却座落在大海旁边。现在我手下攻城的人手绝对碾压敌人，而他们却被迫要守卫一大片领地。现在，我只需要一个好点子……;;;;;;;;;;;;x
+EVTDESCCHF23219;肯定有什么办法能让我攻入[From.GetName]。守卫这座城的只是一群教士，而我已经完全夺得了制海权和控制了战场。现在我手下攻城的人手绝对碾压面前的敌人……只要我能想出个办法来越过他们的城墙。;;;;;;;;;;;;x
+EVTOPTAHF23219;我从海面和陆地上发动一次全面突袭，势必摧毁他们的防线！;;;;;;;;;;;;x
+TOOLTIP_EVTOPTAHF23219;运用你的§Y军事§!技巧来发动一次针对§Y[From.GetName]§!守军的突袭，来降低敌人军队的数量和士气。;;;;;;;;;;;;x
 EVTOPTBHF23219;With a few robes, I am sure some of us can sneak inside...;;;;;;;;;;;;x
 TOOLTIP_EVTOPTBHF23219;Use your §YIntrigue§! to dress up as priests and try to infiltrate §Y[From.GetName]§!;;;;;;;;;;;;x
 EVTOPTCHF23219;I am sure I can get us past the guards.;;;;;;;;;;;;x
 TOOLTIP_EVTOPTCHF23219;Use your §YIntrigue§! to dress up as one of the locals and persuade one of the gatekeepers to let you inside §Y[From.GetName]§!;;;;;;;;;;;;x
-EVTOPTDHF23219;We will spread and pillage the countryside.;;;;;;;;;;;;x
+EVTOPTDHF23219;我命令手下分成好几股小队，对城郊开始掠夺。;;;;;;;;;;;;x
 TOOLTIP_EVTOPTDHF23219;Use your §YMilitary§! skills to lead your men through the farms around §Y[From.GetName]§!, cutting away the food and water supplies of the defenders.;;;;;;;;;;;;x
-EVTOPTEHF23219;No need to risk my men needlessly. We will wait.;;;;;;;;;;;;x
+EVTOPTEHF23219;根本没必要将我的手下陷入危险当中去，我们只要等就行了。;;;;;;;;;;;;x
 TOOLTIP_EVTOPTEHF23219;Continue to siege §Y[From.GetName]§!;;;;;;;;;;;;x
-EVTDESCAHF23220;With attackers coming from both land and sea, the defenders of [FromFrom.GetName] are unable to divide their attention between our assaults. My raiders are able to slip through their palisades and kill many of them before being repelled.;;;;;;;;;;;;x
+EVTDESCAHF23220;我们的军队从海上和陆地上发起了全面进攻，[FromFrom.GetName]里的守军分身乏术，完全无法应对从各个方面袭来的军队。我的掠夺者们直接越过城内防守的栅栏，在被打退之前杀了他们很多人。;;;;;;;;;;;;x
 EVTOPTAHF23220;这是一场伟大的胜利！;;;;;;;;;;;;x
 EVTDESCAHF23221;Unfortunately, dividing my men between land and sea proved to be a bad decision. The defenders of [FromFrom.GetName] were able to repel our assault before we could cause any significant damage.;;;;;;;;;;;;x
 EVTOPTAHF23221;Curses!;;;;;;;;;;;;x
@@ -12544,7 +12544,7 @@ bloodthirsty_flower_war_province_desc;Many fighters from this province have been
 flower_war_cb;Flower War;;;;;;;;;;;;x
 flower_war_cb_desc;To prove our eternal devotion to the gods we can wage war not for land, but to conquer worthy offerings for our altars.;;;;;;;;;;;;x
 CB_NAME_FLOWER_WAR;Flower War;;;;;;;;;;;;x
-WAR_NAME_FLOWER_WAR;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Flower War;;;;;;;;;;;;x
+WAR_NAME_FLOWER_WAR;$ORDER$$FIRST_ADJ$$SECOND_ADJ$鲜花战争;;;;;;;;;;;;x
 flower_war_cb_tooltip;All captured enemy troops will be sacrificed to the gods upon victory, leaving [This.GetTitledFirstName]'s lands undefended for several years.;;;;;;;;;;;;x
 opinion_abducted_peasants;Abducted Subjects;;;;;;;;;;;;x
 won_flower_war;Won Flower Wars;;;;;;;;;;;;x
@@ -14181,7 +14181,7 @@ matriarchal_deposition_war;Matriarchal Deposition War;;;;;;;;;;;;x
 matriarchal_deposition_war_desc;No [Root.GetOppositeManWoman] should be allowed to hold as much authority as $TARGET$ does. We are well within our rights to force this vile tyrant to abdicate his throne, leaving his realm in the capable hands of a [Root.GetManWoman].;;;;;;;;;;;;x
 CB_NAME_MATRIARCHAL_DEPOSITION;Matriarchal Deposition War;;;;;;;;;;;;x
 CB_NAME_PATRIARCHAL_DEPOSITION;Patriarchal Deposition War;;;;;;;;;;;;x
-WAR_NAME_SEX_DEPOSITION;$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ War to Depose $DEFENDER$;;;;;;;;;;;;x
+WAR_NAME_SEX_DEPOSITION;$ORDER$$FIRST_ADJ$$SECOND_ADJ$废黜$DEFENDER$战争;;;;;;;;;;;;x
 string_Matriarchal;Matriarchal;;;;;;;;;;;;x
 string_Patriarchal;Patriarchal;;;;;;;;;;;;x
 crown_crusader_king;Sacred War-Crown;;;;;;;;;;;;x
@@ -15695,9 +15695,9 @@ d_bandja;Bandja;;;;;;;;;;;;x
 d_aqtobe;Aqtobe;;;;;;;;;;;;x
 d_bashkirs;Bashkiria;;;;;;;;;;;;x
 d_ustug;Veliky Ustug;;;;;;;;;;;;x
-d_kargopol;Kargopol;;;;;;;;;;;;x
+d_kargopol;卡尔戈波尔;;;;;;;;;;;;x
 d_samoyed;Mezen;;;;;;;;;;;;x
-d_hlynov;Velsk;;;;;;;;;;;;x
+d_hlynov;韦利斯克;;;;;;;;;;;;x
 d_komi;Komi;;;;;;;;;;;;x
 d_zavarot;Zavarot;;;;;;;;;;;;x
 d_pechora;Pechora;;;;;;;;;;;;x
@@ -15802,14 +15802,14 @@ PROV1815;Yeruslan;;;;;;;;;;;;x
 PROV1816;Belaya;;;;;;;;;;;;x
 PROV1817;Syktyvkar;;;;;;;;;;;;x
 PROV1818;Viled;;;;;;;;;;;;x
-PROV1819;Kargopol;;;;;;;;;;;;x
+PROV1819;卡尔戈波尔;;;;;;;;;;;;x
 PROV1820;Kanin;;;;;;;;;;;;x
 PROV1821;奥涅加半岛;;;;;;;;;;;;x
 PROV1822;Kuloy;;;;;;;;;;;;x
 PROV1823;Mezen;;;;;;;;;;;;x
 PROV1824;Pinega;;;;;;;;;;;;x
 PROV1825;Vashka;;;;;;;;;;;;x
-PROV1826;Velsk;;;;;;;;;;;;x
+PROV1826;韦利斯克;;;;;;;;;;;;x
 PROV1827;Lyzha;;;;;;;;;;;;x
 PROV1828;Zavarot;;;;;;;;;;;;x
 PROV1829;Kolguyev;;;;;;;;;;;;x
@@ -16073,7 +16073,7 @@ b_belaya;Belaya;;;;;;;;;;;;x
 b_kanin;Kanin;;;;;;;;;;;;x
 b_mezen;Mezen;;;;;;;;;;;;x
 b_onega_peninsula;奥涅加;;;;;;;;;;;;x
-b_velsk;Velsk;;;;;;;;;;;;x
+b_velsk;韦利斯克;;;;;;;;;;;;x
 b_vashka;Vashka;;;;;;;;;;;;x
 b_yezhuga;Yezhuga;;;;;;;;;;;;x
 b_lyzha;Lyzha;;;;;;;;;;;;x
@@ -17063,9 +17063,9 @@ d_bandja_adj;Bandjan;;;;;;;;;;;;x
 d_aqtobe_adj;Aqtobian;;;;;;;;;;;;x
 d_bashkirs_adj;Bashkir;;;;;;;;;;;;x
 d_ustug_adj;Veliky;;;;;;;;;;;;x
-d_kargopol_adj;Kargopolian;;;;;;;;;;;;x
+d_kargopol_adj;卡尔戈波尔;;;;;;;;;;;;x
 d_samoyed_adj;Mezener;;;;;;;;;;;;x
-d_hlynov_adj;Velsk;;;;;;;;;;;;x
+d_hlynov_adj;韦利斯克;;;;;;;;;;;;x
 d_komi_adj;Komian;;;;;;;;;;;;x
 d_zavarot_adj;Zavarot;;;;;;;;;;;;x
 d_pechora_adj;Pechora;;;;;;;;;;;;x
@@ -17131,13 +17131,13 @@ c_belaya_adj;Belayan;;;;;;;;;;;;x
 c_zyriane_adj;Illyinsker;;;;;;;;;;;;x
 c_syktyvkar_adj;Syktyver;;;;;;;;;;;;x
 c_bolshaya_adj;Vileden;;;;;;;;;;;;x
-c_kargopol_adj;Kargopolian;;;;;;;;;;;;x
+c_kargopol_adj;卡尔戈波尔;;;;;;;;;;;;x
 c_kanin_adj;Kaniner;;;;;;;;;;;;x
 c_pinega_adj;Kuloyan;;;;;;;;;;;;x
 c_mezen_adj;Mezener;;;;;;;;;;;;x
 c_yezhuga_adj;Yezhugan;;;;;;;;;;;;x
 c_vashka_adj;Vashkan;;;;;;;;;;;;x
-c_velsk_adj;Velsk;;;;;;;;;;;;x
+c_velsk_adj;韦利斯克;;;;;;;;;;;;x
 c_lyzha_adj;Lyzhan;;;;;;;;;;;;x
 c_zavarot_adj;Zavarot;;;;;;;;;;;;x
 c_kolguyev_adj;Kolguyev;;;;;;;;;;;;x
@@ -17921,12 +17921,12 @@ EVTDESC_HF_49451;With the rise of the [e_spain.GetFullName], the Iberian Peninsu
 EVTOPTA_HF_49451;Hispania will be a cornerstone of our faith.;;;;;;;;;;;;x
 EVTOPTB_HF_49451;Cursed infidels!;;;;;;;;;;;;x
 EVTTITLE_HF_49452;再征服的结束;;;;;;;;;;;;x
-EVTDESC_HF_49452;Not even the Balearic Islands have been safe from the Christian reconquest of Iberia. The final bastions of the other faiths in the region has fallen, now there is only Christendom left.\n\nWith Iberia finally restored to the faithful, the reconquest of the peninsula has ended, and peace has been restored. Once more a cornerstone of the faith, Iberia will surely play an important role in the region.;;;;;;;;;;;;x
+EVTDESC_HF_49452;至今为止，即便远如巴利阿里群岛也已经从基督教的再征服运动中安定下来。敌对宗教的最后一座堡垒已经倒塌，十字架已经插遍了整个半岛。\n\n随着伊比利亚最终回归了信仰，半岛的再征服运动宣告结束，和平重新降临。作为信仰的重要支柱，伊比利亚必然将在西方扮演极为重要的角色。;;;;;;;;;;;;x
 EVTOPTA_HF_49452;As it should be.;;;;;;;;;;;;x
-EVTDESC_HF_49462;A minor noble has launched a campaign to start gathering troops to reconquer parts of Iberia. [From.GetTitledFirstName] asks for my help in supporting [From.GetHerHim], and taking part in the reconquest. This is a great opportunity to push back the infidels from Iberia.;;;;;;;;;;;;x
+EVTDESC_HF_49462;一个小贵族已经召集部队，发起了收复伊比利亚部分失地的运动。/n[From.GetTitledFirstName]请求我向[From.GetHerHim]提供帮助，并且加入到再征服运动当中。这是一个将异教徒驱逐出伊比利亚的绝好机会。;;;;;;;;;;;;x
 EVTOPTA_HF_49462;It would be my honor.;;;;;;;;;;;;x
 EVTOPTB_HF_49462;Help a minor noble? I think not.;;;;;;;;;;;;x
-EVTDESC_HF_49463;As the sponsor of the upcoming reconquest campaign, I have a prime opportunity to aid [FromFrom.GetDynName]. But in what manner will I help [FromFrom.GetHerHim]?;;;;;;;;;;;;x
+EVTDESC_HF_49463;作为即将开始的收复失地运动赞助者，我有一个绝佳的支援[FromFrom.GetDynName]的机会。但是我该用什么方式 帮助[FromFrom.GetHerHim]呢？;;;;;;;;;;;;x
 EVTOPTA_HF_49463;I will use my renown to find [FromFrom.GetHerHim] a lot of troops.;;;;;;;;;;;;x
 EVTOPTB_HF_49463;My connections with the clergy will prove invaluable.;;;;;;;;;;;;x
 EVTOPTC_HF_49463;Wealth can topple any enemy and bless any ally.;;;;;;;;;;;;x
@@ -18082,18 +18082,18 @@ blessed_bloodline_description;[saint_person.GetSheHeCap] was known as an exempla
 blessed_ancestor;Blessed Ancestor;;;;;;;;;;;;x
 blessed_ancestor_desc;A blessed ancestor of old, venerated by [GetHerHis] descendants.;;;;;;;;;;;;x
 reconquista_duchy_name;[Root.GetOnlyDynastyName] [This.GetBaseName];;;;;;;;;;;;x
-RECONQUISTA_ADVENTURE_TITLE_NAME;the Reconquista;;;;;;;;;;;;x
-crimean_gothic;Gothic;;;;;;;;;;;;x
-dalmatian;Dalmatian;;;;;;;;;;;;x
+RECONQUISTA_ADVENTURE_TITLE_NAME;收复失地运动;;;;;;;;;;;;x
+crimean_gothic;哥特人;;;;;;;;;;;;x
+dalmatian;达尔马提亚人;;;;;;;;;;;;x
 ca_culture_italian_1_desc;Well-disciplined pike formations are raised here, specializing in the defense.;;;;;;;;;;;;x
 northern_crusade_bloodline;[Root.GetFirstName]条顿之血;;;;;;;;;;;;x
 northern_crusade_bloodline_desc;在帮助条顿骑士团征服北方之后，[Root.GetHerHis]王朝被认为是条顿人的亲密盟友。;;;;;;;;;;;;x
 bloodline_effect_teutonic_vassals;Can §GVassalize§! the §YTeutonic Knights§!;;;;;;;;;;;;x
 bloodline_effect_teutonic_guards;Can hire a §YTeutonic Honor Guard§!;;;;;;;;;;;;x
-reconquista_cid_bloodline;Iberian Blood of [Root.GetFirstName];;;;;;;;;;;;x
+reconquista_cid_bloodline;[Root.GetFirstName]的伊比利亚之血;;;;;;;;;;;;x
 reconquista_cid_bloodline_desc;作为我们这个时代最伟大的将军之一，此人在伊比利亚再征服运动中，以打击与救助异教徒而闻名。;;;;;;;;;;;;x
 reconquista_bloodline;[Root.GetFirstName]的伊比利亚之血;;;;;;;;;;;;x
-reconquista_bloodline_desc;作为伊比利亚再征服运动中最为重要得多角色而文明。;;;;;;;;;;;;x
+reconquista_bloodline_desc;作为伊比利亚再征服运动中最为重要的角色之一而闻名。;;;;;;;;;;;;x
 bloodline_effect_cheap_reconquista;能够以§G更便宜§!的价格发起§Y准备再征服战争§!;;;;;;;;;;;;x
 tooltip_religion_feature_beatification;§GThe Religious Head can decide upon dead ancestors to give special status§!;;;;;;;;;;;;x
 religion_beatification;Ancestor Veneration;;;;;;;;;;;;x
@@ -18107,7 +18107,7 @@ visigothic_FEATURES;[GetIberianFeatures];;;;;;;;;;;;x
 string_reconquista_feature;§Y*§! Can prepare campaigns to §YReconquer Iberia§!;;;;;;;;;;;;x
 string_basque_feature;§Y*§! Access to Absolute Cognatic Law\n§Y*§! Can prepare campaigns to §YReconquer Iberia§!;;;;;;;;;;;;x
 string_basque_feature_no_HF;§Y*§! Access to Absolute Cognatic law.;;;;;;;;;;;;x
-string_no_feature;§Y*§!无特殊特征;;;;;;;;;;;;x
+string_no_feature;§Y*§!无特殊特性;;;;;;;;;;;;x
 RULE_RECONQUISTA;§B神圣之怒：§!收复失地运动;;;;;;;;;;;;x
 RULE_RECONQUISTA_ON;收复失地运动已启用;;;;;;;;;;;;x
 RULE_RECONQUISTA_LIMITED;收复失地运动已启用，但冒险者未启用;;;;;;;;;;;;x
@@ -18117,34 +18117,34 @@ RULE_FOURTH_CRUSADE;§B神圣之怒：§!第四次十字军东征;;;;;;;;;;;;x
 RULE_CHILDRENS_CRUSADE;§B神圣之怒：§!儿童十字军;;;;;;;;;;;;x
 RULE_NORTHERN_CRUSADE;§B神圣之怒：§!北方十字军;;;;;;;;;;;;x
 CB_NAME_RECONQUISTA_LEON;莱昂的再征服;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_LEON;$ORDER$Reconquest War for Leon;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_LEON;$ORDER$莱昂再征服战争;;;;;;;;;;;;x
 reconquista_leon_desc;§Y[Root.GetTitledName]§! start a war to oust the infidels from the region of §Y[k_leon.GetBaseName]§!, and retake all provinces in the §Y[d_leon.GetFullName]§! and §Y[d_asturias.GetFullName]§! held by §Y$TARGET$§!.;;;;;;;;;;;;x
-CB_NAME_RECONQUISTA_CASTILLE;Reconquest of Castille;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_CASTILLE;$ORDER$Reconquest War for Castille;;;;;;;;;;;;x
+CB_NAME_RECONQUISTA_CASTILLE;卡斯提尔的再征服运动;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_CASTILLE;$ORDER$卡斯提尔再征服战争;;;;;;;;;;;;x
 reconquista_castille_desc;§Y[Root.GetTitledName]§! start a war to oust the infidels from the region of §Y[k_castille.GetBaseName]§!, and retake all provinces in the §Y[d_castilla.GetFullName]§! and §Y[d_toledo.GetFullName]§! held by §Y$TARGET$§!.;;;;;;;;;;;;x
-CB_NAME_RECONQUISTA_ARAGON;Reconquest of Aragon;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_ARAGON;$ORDER$Reconquest War for Aragon;;;;;;;;;;;;x
+CB_NAME_RECONQUISTA_ARAGON;阿拉贡的再征服运动;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_ARAGON;$ORDER$阿拉贡再征服战争;;;;;;;;;;;;x
 reconquista_aragon_desc;§Y[Root.GetTitledName]§! start a war to oust the infidels from the region of §Y[k_aragon.GetBaseName]§!, and retake all provinces in the §Y[d_aragon.GetFullName]§! and §Y[d_barcelona.GetFullName]§! held by §Y$TARGET$§!.;;;;;;;;;;;;x
-CB_NAME_RECONQUISTA_GALICIA;Reconquest of Galicia;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_GALICIA;$ORDER$Reconquest War for Galicia;;;;;;;;;;;;x
+CB_NAME_RECONQUISTA_GALICIA;加利西亚的再征服运动;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_GALICIA;$ORDER$加利西亚再征服战争;;;;;;;;;;;;x
 reconquista_galicia_desc;§Y[Root.GetTitledName]§! start a war to oust the infidels from the region of §Y[k_spanish_galicia.GetBaseName]§!, and retake all provinces in the §Y[d_galicia.GetFullName]§! and §Y[d_porto.GetFullName]§! held by §Y$TARGET$§!.;;;;;;;;;;;;x
-CB_NAME_RECONQUISTA_BEJA;Reconquest of Western Coast;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_BEJA;$ORDER$Reconquest War for Western Coast;;;;;;;;;;;;x
+CB_NAME_RECONQUISTA_BEJA;西海岸的再征服运动;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_BEJA;$ORDER$西海岸再征服战争;;;;;;;;;;;;x
 reconquista_beja_desc;§Y[Root.GetTitledName]§! start a war to oust the infidels from the §YWestern Coast of Iberia§!, and retake all provinces in the §Y[d_beja.GetFullName]§! and §Y[d_algarve.GetFullName]§! held by §Y$TARGET$§!.;;;;;;;;;;;;x
-CB_NAME_RECONQUISTA_GRANADA;Reconquest of Southern Iberia;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_GRANADA;$ORDER$Reconquest War for Southern Iberia;;;;;;;;;;;;x
+CB_NAME_RECONQUISTA_GRANADA;南伊比利亚的再征服运动;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_GRANADA;$ORDER$南伊比利亚再征服战争;;;;;;;;;;;;x
 reconquista_granada_desc;§Y[Root.GetTitledName]§! start a war to oust the infidels from §YSouthern Iberia§!, and retake all provinces in the §Y[d_granada.GetFullName]§! and §Y[d_sevilla.GetFullName]§! held by §Y$TARGET$§!.;;;;;;;;;;;;x
-CB_NAME_RECONQUISTA_CORDOBA;Reconquest of Central Iberia;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_CORDOBA;$ORDER$Reconquest War for Central Iberia;;;;;;;;;;;;x
+CB_NAME_RECONQUISTA_CORDOBA;中伊比利亚的再征服运动;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_CORDOBA;$ORDER$中伊比利亚再征服战争;;;;;;;;;;;;x
 reconquista_cordoba_desc;§Y[Root.GetTitledName]§! start a war to oust the infidels from §YCentral Iberia§!, and retake all provinces in the §Y[d_cordoba.GetFullName]§! and §Y[d_badajoz.GetFullName]§! held by §Y$TARGET$§!.;;;;;;;;;;;;x
-CB_NAME_RECONQUISTA_VALENCIA;Reconquest of the Eastern Coast;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_VALENCIA;$ORDER$Reconquest War for the Eastern Coast;;;;;;;;;;;;x
+CB_NAME_RECONQUISTA_VALENCIA;东海岸的再征服运动;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_VALENCIA;$ORDER$东海岸再征服战争;;;;;;;;;;;;x
 reconquista_valencia_desc;§Y[Root.GetTitledName]§! start a war to oust the infidels from the §YEastern Coast of Iberia§!, and retake all provinces in the §Y[d_valencia.GetFullName]§! and §Y[d_murcia.GetFullName]§! held by §Y$TARGET$§!.;;;;;;;;;;;;x
-CB_NAME_RECONQUISTA_NAVARRA;Reconquest of Navarra;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_NAVARRA;$ORDER$Reconquest War for Navarra;;;;;;;;;;;;x
+CB_NAME_RECONQUISTA_NAVARRA;纳瓦拉的再征服运动;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_NAVARRA;$ORDER$纳瓦拉再征服战争;;;;;;;;;;;;x
 reconquista_navarra_desc;§Y[Root.GetTitledName]§! start a war to oust the infidels from the region of §YNavarra§!, and retake all provinces in the §Y[d_navarra.GetFullName]§! held by §Y$TARGET$§!.;;;;;;;;;;;;x
-CB_NAME_RECONQUISTA_BALEARIC;Reconquest of the Balearic Islands;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_BALEARIC;$ORDER$Reconquest War for the Balearic Islands;;;;;;;;;;;;x
+CB_NAME_RECONQUISTA_BALEARIC;巴利阿里群岛的再征服运动;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_BALEARIC;$ORDER$巴利阿里再征服战争;;;;;;;;;;;;x
 reconquista_balearic_desc;§Y[Root.GetTitledName]§! start a war to oust the infidels from the §YBalearic Islands§!, and retake all provinces in the §Y[d_mallorca.GetFullName]§! held by §Y$TARGET$§!.;;;;;;;;;;;;x
 custom_leon;León;;;;;;;;;;;;x
 custom_galicia;Galicia;;;;;;;;;;;;x
@@ -18284,17 +18284,17 @@ String_severely_break_my_body_part;bruise, if not break, something deep in my [T
 String_severely_injure_eye;make [This.GetHerHis] eyes bleed, possibly blinding [This.GetHerHim];;;;;;;;;;;;x
 String_severely_injure_my_eye;make my eyes bleed, possibly blinding me;;;;;;;;;;;;x
 make_shieldmaiden_custom_tooltip_1;Is either: §YBrave§!, §YProud§!, §YAmbitious§!, §YDiligent§!, §YJust§!, or §YGregarious§!\n;;;;;;;;;;;;x
-EVTDESC_HF_14001_bravery;I have seen [student.GetBestName] during a couple of gatherings with [Root.Society.GetName], and I cannot help but notice how the [student.GetAgeAdjective] [student.GetManWoman] appears needlessly jumpy. Flinching at jokes, turning down sparring matches... "[student.GetSheHeCap] needs guidance", I find myself muttering.;;;;;;;;;;;;x
+EVTDESC_HF_14001_bravery;最近好几次[Root.Society.GetName]的聚会里，我都见到了[student.GetBestName]，但是我根本不能不注意这位看上去十分容易被一些小事弄的担惊受怕[student.GetAgeAdjective][student.GetManWoman]。他会因为一些别人的嘲笑而被弄的畏畏缩缩，在争论当中总是落得下风……「[student.GetSheHeCap]需要我的指导」，我轻声告诉我自己。;;;;;;;;;;;;x
 EVTDESC_HF_14001_ambition;Upon returning from a small raid with my personal guard, I have been talking to [student.GetBestName]. The [student.GetManWoman] does not understand the urge for adventure, whatsoever. "What about the prosperity it brings your tribe?", I argue, showing off a new bracelet decorating my arm. [student.GetSheHeCap] sighs, seemingly unimpressed.;;;;;;;;;;;;x
 EVTDESC_HF_14001_patience;Observing yet another game of [Root.GetWarriorLodgeCompetitionType], and [student.GetTitledFirstName] storming off with a sullen expression on [student.GetHerHis] face, it occurs to me how my [student.GetRootRelation] sorely lacks patience. "It is useful in battle as well", I mumble, scratching my chin, contemplating offering [student.GetHerHim] some guidance.;;;;;;;;;;;;x
 EVTDESC_HF_14001_diligence;Watching [student.GetBestName] in the training grounds is always interesting. There is something about [student.GetHerHis] fighting technique that comes off as half-hearted, and [student.GetHerHis] weapons, as well as armor, seem like they could use a little more caring for... "[student.GetFirstName], could I have a word?", I interrupt the sparring.;;;;;;;;;;;;x
-EVTOPTA_HF_14001_bravery;As a warrior, [student.GetSheHe] needs me.;;;;;;;;;;;;x
+EVTOPTA_HF_14001_bravery;既然他是一位战士，[student.GetSheHe]就需要我。;;;;;;;;;;;;x
 EVTOPTA_HF_14001_ambition;Oh, I could help you hone that ambition, [student.GetFirstName]!;;;;;;;;;;;;x
 EVTOPTA_HF_14001_patience;The [student.GetManWoman] needs someone to show [student.GetHerHim] a different way.;;;;;;;;;;;;x
 EVTOPTA_HF_14001_diligence;Let's talk weapon care and etiquette, my good [student.GetManWoman].;;;;;;;;;;;;x
-EVTOPTA_HF_14001_TT;You offer §Y[student.GetTitledFirstName]§! some guidance.;;;;;;;;;;;;x
-EVTOPTB_HF_14001;This is hardly my responsibility.;;;;;;;;;;;;x
-EVTOPTB_HF_14001_TT;You have better things to do.;;;;;;;;;;;;x
+EVTOPTA_HF_14001_TT;你开始给§Y[student.GetTitledFirstName]§!一些指导。;;;;;;;;;;;;x
+EVTOPTB_HF_14001;这根本不是我该管的事。;;;;;;;;;;;;x
+EVTOPTB_HF_14001_TT;还有更重要的事情等着你去做。;;;;;;;;;;;;x
 EVTDESC_HF_14002_bravery;"I hear you are turning down duels", a [teacher.GetManWoman] sounds behind me. Spinning around, I find myself talking to my [teacher.GetRootRelation], [teacher.GetTitledFirstName]. "[Root.Society.GetNameCap] are aware, of course", [teacher.GetSheHe] says. Putting an arm over my shoulder, [teacher.GetSheHe] continues: "I could help you! You just need a little guidance, my good [Root.GetManWoman]!";;;;;;;;;;;;x
 EVTDESC_HF_14002_ambition;[teacher.GetTitledFirstName] has returned from a raid in foreign lands. My [teacher.GetRootRelation] is showing off the bounty brought back, when I let out a sigh, causing [teacher.GetHerHim] to pause. "You know, you always seem so content with what you have, [Root.GetFirstName]" [teacher.GetSheHe] says. "I could help you hone your ambition", [teacher.GetSheHe] presses.;;;;;;;;;;;;x
 EVTDESC_HF_14002_patience;I recently lost a game of [Root.GetWarriorLodgeCompetitionType], and [teacher.GetTitledFirstName] has approached me, wanting to talk about my temper. "Patience is something that comes from within", my [teacher.GetRootRelation] explains. I clench my fist, a gesture not lost on the [teacher.GetManWoman]. "You just need some guidance", [teacher.GetSheHe] finally says.;;;;;;;;;;;;x
@@ -18313,11 +18313,11 @@ String_flyting;flyting;;;;;;;;;;;;x
 String_arm_wrestling;arm wrestling;;;;;;;;;;;;x
 String_drinking;drinking;;;;;;;;;;;;x
 String_dice;dice;;;;;;;;;;;;x
-EVTDESC_HF_14003;[student.GetTitledFirstName] agreed that [student.GetSheHe] needs my help. In order to make [student.GetHerHim] see things differently, [Root.GetTeachingMomentActivity];;;;;;;;;;;;x
-EVTOPTA_HF_14003;I'll bring my [Root.GetTeachingMomentTool].;;;;;;;;;;;;x
-EVTOPTA_HF_14003_TT;You make a show of how invested you are in this endeavor.;;;;;;;;;;;;x
-EVTOPTB_HF_14003;Let's not get carried away.;;;;;;;;;;;;x
-EVTOPTB_HF_14003_TT;You will simply be yourself.;;;;;;;;;;;;x
+EVTDESC_HF_14003;[student.GetTitledFirstName]承认[student.GetSheHe]需要我的帮助。为了能够让[student.GetHerHim]从别的角度看事物，[Root.GetTeachingMomentActivity];;;;;;;;;;;;x
+EVTOPTA_HF_14003;我会带上我的[Root.GetTeachingMomentTool]。;;;;;;;;;;;;x
+EVTOPTA_HF_14003_TT;你将会让你的学生看到你为了这次课程花了多少钱。;;;;;;;;;;;;x
+EVTOPTB_HF_14003;我们就轻装上阵吧。;;;;;;;;;;;;x
+EVTOPTB_HF_14003_TT;你就这样简简单单的出发了。;;;;;;;;;;;;x
 EVTDESC_HF_14004_A;[student.GetTitledFirstName] politely declined my offer. The [student.GetManWoman] apparently feels perfectly fine with the current state of things.;;;;;;;;;;;;x
 EVTDESC_HF_14004_B;[student.GetTitledFirstName] refused my offer, muttering something about not being a charity project. If adequacy is enough for the [student.GetManWoman], who am I to intervene?;;;;;;;;;;;;x
 EVTOPTA_HF_14004;That ungrateful...! I was going to bring my favorite [Root.GetTeachingMomentTool]!;;;;;;;;;;;;x
@@ -18347,7 +18347,7 @@ EVTDESC_HF_14008_patience;[teacher.GetTitledFirstName] forced me to sit and watc
 EVTDESC_HF_14008_diligence;[teacher.GetTitledFirstName] put me to cleaning [teacher.GetHerHis] armory. And everything I did was wrong...! The [teacher.GetManWoman] kept giving me counter-effective instructions and muttering under [teacher.GetHerHis] breath about "impossible", and "why do I even try". If there was a lesson in this, I do not think I understood it.;;;;;;;;;;;;x
 EVTOPTA_HF_14008;I don't know why I don't learn.;;;;;;;;;;;;x
 EVTOPTB_HF_14008;This is *[teacher.GetHerHis]* fault!;;;;;;;;;;;;x
-EVTDESC_HF_14009_bravery;My [student.GetRootRelation] and I are back from our camping trip. [teacher.GetTeachingMomentResult];;;;;;;;;;;;x
+EVTDESC_HF_14009_bravery;我的[student.GetRootRelation]和我已经从这次露营之旅回来了。[teacher.GetTeachingMomentResult];;;;;;;;;;;;x
 EVTDESC_HF_14009_ambition;My [student.GetRootRelation] and I are back from our final session with the scribes. [teacher.GetTeachingMomentResult];;;;;;;;;;;;x
 EVTDESC_HF_14009_patience;My [student.GetRootRelation] and I have retired from watching the games. [teacher.GetTeachingMomentResult];;;;;;;;;;;;x
 EVTDESC_HF_14009_diligence;My [student.GetRootRelation] and I are finally done organizing my armory. [teacher.GetTeachingMomentResult];;;;;;;;;;;;x
@@ -18358,23 +18358,23 @@ EVTOPTC_HF_14009_1;And they think it's *my* fault?!;;;;;;;;;;;;x
 EVTOPTC_HF_14009_2;They might need to keep working on this...!;;;;;;;;;;;;x
 opinion_spoiled_ingrate;Spoiled Ingrate;;;;;;;;;;;;x
 opinion_lousy_teacher;Lousy Teacher;;;;;;;;;;;;x
-String_bravery_lesson;we are to spend a few nights camping in the woods. Judging by the nervous laughter my proposal is met with, I suspect [student.GetSheHe] is aware of the many dangers the wilderness holds... "It is nothing for cowards", I conclude.;;;;;;;;;;;;x
+String_bravery_lesson;我们将会在森林的营地里度过好几个夜晚。从他听到我的提议后发出的紧张的笑声中，我可以判断[student.GetSheHe]已经意识到了荒野中那些潜在的危险……「懦夫最终什么都得不到」，我最后这样告诉他。;;;;;;;;;;;;x
 String_ambition_lesson;we are going to be educating ourselves on famous [Root.Culture.GetName] warriors, and their historical achievements. Surely, their tales are bound to inspire the [student.GetAgeAdjective] [student.GetManWoman].;;;;;;;;;;;;x
 String_patience_lesson;we are going to be observing some [Root.GetWarriorLodgeCompetitionType] games. I am hoping it will teach the [student.GetManWoman] that fortune comes and goes, and that your spirit is the only permanent thing in this world.;;;;;;;;;;;;x
 String_diligence_lesson;I have asked my quartermaster to let us spend some afternoons organizing the armory. I admit, this year's spring cleaning is overdue anyway!;;;;;;;;;;;;x
-String_bravery_tool;fire striker;;;;;;;;;;;;x
+String_bravery_tool;打火石;;;;;;;;;;;;x
 String_ambition_tool;collection of sigils;;;;;;;;;;;;x
 String_patience_tool;spinning top;;;;;;;;;;;;x
 String_diligence_tool;sharpening rock;;;;;;;;;;;;x
 String_teaching_moment_great;Any traces of [student.GetHerHis] initial reluctance are gone, and I'm proud to be able to compliment [student.GetHerHim] on how well [student.GetSheHe] handled the experience. "Thank you, for this opportunity, [Root.GetFirstName]", [student.GetSheHe] says, more heartfelt than expected.;;;;;;;;;;;;x
 String_teaching_moment_romance;To my amusement, [student.GetSheHe] keeps talking, gesturing excitedly about everything [student.GetSheHe] has learned. [Root.GetTeachingMomentRomanceReaction];;;;;;;;;;;;x
 String_teaching_moment_ok;[student.GetSheHeCap] did not seem to be overly enjoying [student.GetHerselfHimself], but I feel confident that [student.GetSheHe] picked up a thing or two anyway.;;;;;;;;;;;;x
-String_teaching_moment_bad;I... I am not sure it was what [student.GetSheHe] had in mind, and [student.GetSheHe] was clearly overwhelmed. Or perhaps I expected too much. [student.GetSheHeCap] mostly seemed agitated, in the end.;;;;;;;;;;;;x
+String_teaching_moment_bad;我……我真的不确定[student.GetSheHe]脑袋里究竟在想什么东西，但是很明显[student.GetSheHe]完全被吓趴下了。又或者说我对他的期望太高了。[student.GetSheHeCap]最后看上去还是和原来一样焦躁不安。;;;;;;;;;;;;x
 String_share_kiss_long;"I love your [Root.GetTeachingMomentFocus]", [student.GetSheHe] mumbles, before moving closer to kiss me.;;;;;;;;;;;;x
 String_share_kiss;"I would happily learn more about your [Root.GetTeachingMomentFocus]", [student.GetSheHe] smiles. Then [student.GetSheHe] moves closer, and I welcome [student.GetHerHis] embrace.;;;;;;;;;;;;x
 String_kissed_on_cheek;"Can I kiss you?" [student.GetSheHe] asks suddenly, and I can't stop myself from letting out a laugh. Then I shrug, but make myself clear: only on the cheek.;;;;;;;;;;;;x
 String_kissed_light;"I am so grateful. I could kiss you!" [student.GetSheHe] laughs. I blush, attempting to seem disinterested. [student.GetSheHeCap] lifts me up, and twirls me around, kissing me on the cheek. "Thank you", [student.GetSheHe] says again. Then the moment is gone.;;;;;;;;;;;;x
-teaching_moment_lack_of_focus_title;A Lack of [Root.GetTeachingMomentFocusCap];;;;;;;;;;;;x
+teaching_moment_lack_of_focus_title;缺乏[Root.GetTeachingMomentFocusCap];;;;;;;;;;;;x
 String_bravery;勇敢;;;;;;;;;;;;x
 String_ambition;野心;;;;;;;;;;;;x
 String_patience;耐心;;;;;;;;;;;;x
@@ -18693,8 +18693,8 @@ PROV1938;Iarmond;;;;;;;;;;;;x
 PROV1939;Iona;;;;;;;;;;;;x
 PROV1940;林迪斯法恩;;;;;;;;;;;;x
 PROV1941;Hull;;;;;;;;;;;;x
-PROV1942;Leeds;;;;;;;;;;;;x
-PROV1943;Yoredale;;;;;;;;;;;;x
+PROV1942;利兹;;;;;;;;;;;;x
+PROV1943;约代尔;;;;;;;;;;;;x
 PROV1944;Bath;;;;;;;;;;;;x
 PROV1945;Brycheiniog;;;;;;;;;;;;x
 PROV1946;Gower;;;;;;;;;;;;x
@@ -18770,13 +18770,13 @@ b_wyke;Wyke;;;;;;;;;;;;x
 b_guildhall;Guildhall;;;;;;;;;;;;x
 b_bridlington;Bridlington;;;;;;;;;;;;x
 b_hornsea;Hornsea;;;;;;;;;;;;x
-b_leeds;Leeds;;;;;;;;;;;;x
+b_leeds;利兹;;;;;;;;;;;;x
 b_doncaster;Doncaster;;;;;;;;;;;;x
 b_sherburn;Sherburn;;;;;;;;;;;;x
 b_selby;Selby;;;;;;;;;;;;x
 b_sheffield;Sheffield;;;;;;;;;;;;x
-b_yoredale;Yoredale;;;;;;;;;;;;x
-b_settle;Settle;;;;;;;;;;;;x
+b_yoredale;约代尔;;;;;;;;;;;;x
+b_settle;塞特尔;;;;;;;;;;;;x
 b_ilkley;Ilkley;;;;;;;;;;;;x
 b_bainbridge;Bainbridge;;;;;;;;;;;;x
 b_middleham;Middleham;;;;;;;;;;;;x
@@ -19455,7 +19455,7 @@ hellenic_pagan_reformed_opinion;Reformed [hellenic_pagan_reformed.GetName] Opini
 key_real_byz_crown_desc;The Byzantine Imperial insignia, a crown only fit for the true heirs of Rome.;;;;;;;;;;;;x
 tooltip_HF_A_51008;Take some time to rest and relax.;;;;;;;;;;;;x
 EVTDESCHF23777;In order to ensure the divine purity of their bloodline, [From.GetTitledFirstName] and [From.GetPossPronoun] [GetFromVsNewRelation] [New.GetTitledFirstName] have gotten married under the blessed auspices of [From.Religion.GetHighGodName], ensuring fullness and Order. We can collect a Royal Aid Duty to pay for the ceremonies.;;;;;;;;;;;;x
-RULE_BLOOD_SPLATTER;挂彩流血;;;;;;;;;;;;x
+RULE_BLOOD_SPLATTER;血溅肖像;;;;;;;;;;;;x
 RULE_BLOOD_SPLATTER_ON;人物肖像上时不时会沾上血液。;;;;;;;;;;;;x
 RULE_BLOOD_SPLATTER_OFF;人物肖像不会产生溅血效果。;;;;;;;;;;;;x
 EVTOPTB62300;[Root.Religion.GetHighGodName] forgive!;;;;;;;;;;;;x
@@ -19669,7 +19669,7 @@ ALT_HO_LOCATION;Knights of [coa_target.GetName];;;;;;;;;;;;x
 ALT_HO_LOCATION_ADJ;[coa_target.GetName];;;;;;;;;;;;x
 saxon_opinion;[saxon.GetName]好感;;;;;;;;;;;;x
 welsh_opinion;[welsh.GetName]好感;;;;;;;;;;;;x
-reconquest_decision_tt;When the time comes, I will join in [Root.GetFirstNameWithNick]'s reconquest war!;;;;;;;;;;;;x
+reconquest_decision_tt;当倒计时结束，我会加入[Root.GetFirstNameWithNick]的收复失地战争！;;;;;;;;;;;;x
 d_cherven_cities;红鲁塞尼亚;;;;;;;;;;;;x
 d_cherven_cities_adj;红鲁塞尼亚;;;;;;;;;;;;x
 alfonso_portugal_desc;Vanquisher of both Moors and Leonese in his campaigns for Portuguese independence, Alfonso cunningly battled many enemies to establish the roots of his own realm.;;;;;;;;;;;;x
