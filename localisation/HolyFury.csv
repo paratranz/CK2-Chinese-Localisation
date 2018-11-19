@@ -1473,18 +1473,18 @@ freckles;雀斑;;;;;;;;;;;;x
 freckles_desc;这个角色有雀斑。;;;;;;;;;;;;x
 sturdy;结实;;;;;;;;;;;;x
 sturdy_desc;这名角色身体十分结实。;;;;;;;;;;;;x
-is_malnourished;营养不良的;;;;;;;;;;;;x
+is_malnourished;营养不良;;;;;;;;;;;;x
 is_malnourished_desc;这名角色身体十分孱弱。;;;;;;;;;;;;x
 is_fat;肥胖;;;;;;;;;;;;x
-is_fat_desc;此人已严重超重。;;;;;;;;;;;;x
+is_fat_desc;这个角色已经严重超重。;;;;;;;;;;;;x
 INSULT_FATPIG;肥猪;;;;;;;;;;;;x
-INSULT_SOW;煽动;;;;;;;;;;;;x
+INSULT_SOW;母猪;;;;;;;;;;;;x
 INSULT_BLOATED;傲慢者;;;;;;;;;;;;x
 COMPL_MAGNIFICENT;华贵者;;;;;;;;;;;;x
 INSULT_WEAKLING;弱者;;;;;;;;;;;;x
 INSULT_CORPSE;死尸;;;;;;;;;;;;x
-INSULT_STARVED;饥饿的;;;;;;;;;;;;x
-COMPL_FRUGAL;节俭;;;;;;;;;;;;x
+INSULT_STARVED;饿鬼;;;;;;;;;;;;x
+COMPL_FRUGAL;节俭的;;;;;;;;;;;;x
 INSULT_CURSED;被诅咒的;;;;;;;;;;;;x
 flag_poisoning_mother;试着给[From.GetTitledFirstName]的酒水投毒。;;;;;;;;;;;;x
 flag_smothering_mother;试着在[From.GetTitledFirstName]睡梦中闷死她。;;;;;;;;;;;;x
@@ -1675,7 +1675,7 @@ string_spouse_comfort_525;\n§Y[Root.Spouse.GetFirstName]§! chides the servants
 string_mother_physician_helps_526;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§! places a damp cloth over your forehead, urging the servants to bring more water.;;;;;;;;;;;;x
 string_spouse_physician_helps_526;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§! helps you take a sip of water from a cup.;;;;;;;;;;;;x
 string_regent_physician_helps_526;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§!在你身旁坐下，开始检查起你的体温，并吩咐佣人给你换床单。;;;;;;;;;;;;x
-string_generic_physician_helps_526;\nYour §YPhysician§! places a damp cloth over your forehead, urging the servants to bring more water.;;;;;;;;;;;;x
+string_generic_physician_helps_526;\n你的§Y宫廷医师§!将一块湿布盖住你的额头，并吩咐你的仆人端更多水过来。;;;;;;;;;;;;x
 string_priest_comfort_526;\nYou hear the §YPriest's§! voice in the distance, reciting a familiar prayer.;;;;;;;;;;;;x
 string_shaman_comfort_526;\nYou hear the §YShaman's§! voice in the distance, reciting an obscure spell.;;;;;;;;;;;;x
 string_spouse_comfort_526;\nYou hear §Y[Root.Spouse.GetFirstName]'s§! voice in the distance, whispering you comforting words.;;;;;;;;;;;;x
@@ -1784,7 +1784,7 @@ mother_vow_charity_desc;This woman has vowed to the Holy Virgin that she will ca
 mother_vow_temperance;Pregnancy: Vow of Temperance;;;;;;;;;;;;x
 mother_vow_temperance_desc;This woman has vowed to the Holy Virgin that she will show restraint in her habits and forsake all excesses. In exchange, she hopes that the Mother of Christ will protect her and her child during the dangerous moments of her labor.;;;;;;;;;;;;x
 mother_exposed_to_elements;Exposed to Elements;;;;;;;;;;;;x
-mother_exposed_to_elements_desc;This woman is traveling alone in the wilderness, exposing both herself and the child that she is carrying to bad weather, predators and bandits.;;;;;;;;;;;;x
+mother_exposed_to_elements_desc;这个女人一个人孤独地在荒野上行走着，这使她和她肚中的孩子暴露在糟糕的天气、猛兽和强盗的威胁中。;;;;;;;;;;;;x
 mother_comforted;受到安慰;;;;;;;;;;;;x
 mother_comforted_desc;The comforting visit of a loved one has placated this woman, helping her putting her mind at ease in a delicate period of her pregnancy.;;;;;;;;;;;;x
 EVTOOLTIPAHFP20502;试图给§Y[From.GetTitledFirstName]§!下毒。;;;;;;;;;;;;x
@@ -1795,7 +1795,7 @@ EVTOPTBHFP20557;我需要休息，避开繁重的任务。;;;;;;;;;;;;x
 EVTOPTCHFP20557;我需要找些事情来从这份负担里转移自己的注意力。;;;;;;;;;;;;x
 EVTDESCHFPA20558;啊！当我轻抚肚子缓缓坐下时，我的脸上不禁露出了柔和的微笑。宝宝又在踢我了。我想知道他会不会成长为一名战士……;;;;;;;;;;;;x
 EVTOPTAHFP20558;我能肯定我正怀着一位勇猛的小士兵。;;;;;;;;;;;;x
-tooltip_hoping_child_warrior;The child's rowdiness inside your belly may be a sign of his future character.;;;;;;;;;;;;x
+tooltip_hoping_child_warrior;孩子在你肚中的玩闹可能是他未来性格的征兆。;;;;;;;;;;;;x
 EVTOPTBHFP20558;亲爱的[Root.Religion.GetHighGodName]，我需要休息。;;;;;;;;;;;;x
 EVTDESCHFPA20559;今天，当我轻抚着肚子躺下、看向卧室窗外时，我开始好奇我的下一个孩子将会是什么样子。在这一切之后最终生下一个男孩会让我很高兴，并确保我的家族有一个合适的继承人......;;;;;;;;;;;;x
 EVTDESCHFPB20559;今天，当我轻抚着肚子躺下、看向卧室窗外时，我开始好奇我的下一个孩子将会是什么样子。在这一切之后最终生下一个女孩会让我很高兴，并确保我的家族有一个合适的继承人......;;;;;;;;;;;;x
@@ -2026,10 +2026,10 @@ EVTOPTCHFP20606_F;谁在乎呢？我喜欢这个！;;;;;;;;;;;;x
 EVTOPTCHFP20606_G;我不在乎，唯一跟我有联系的只有我的家庭。;;;;;;;;;;;;x
 EVTOPTCHFP20606_H;唉！这甚至比性更好。;;;;;;;;;;;;x
 tooltip_warning_20606;一直吃并且可能变得§Y胖§!。;;;;;;;;;;;;x
-tooltip_physique_loses_stressed;Satisfying your cravings might help you becoming less §YStressed§!;;;;;;;;;;;;x
+tooltip_physique_loses_stressed;满足你的需求可能有助于你缓解§Y紧张不安§!;;;;;;;;;;;;x
 tooltip_physique_loses_depressed;Satisfying your cravings might help you becoming less §YDepressed§!;;;;;;;;;;;;x
 tooltip_physique_becomes_popular;Your jovial and welcoming attitude might earn you the friendship of your §YCourtiers§! and §YVassals§!.;;;;;;;;;;;;x
-tooltip_physique_becomes_beloved;Your caring and kind attitude might earn you the love of your §YRelatives§!;;;;;;;;;;;;x
+tooltip_physique_becomes_beloved;你关怀和和蔼的态度可能收获你§Y亲人§!的爱。;;;;;;;;;;;;x
 tooltip_physique_becomes_learned;Your pursuit for other interests might help you improve your §YLearning§!;;;;;;;;;;;;x
 EVTOPTDHFP20606;No, this is too much! I need a diet!;;;;;;;;;;;;x
 tooltip_physique_fat_resist;Force yourself to change your dieting habits and get back in shape.;;;;;;;;;;;;x
@@ -2209,7 +2209,7 @@ EVTDESCCHFP20647;No armor is large enough to fit me, no horse strong enough to c
 EVTDESCDHFP20647;Having a curvier body might have been fun at first, but now I have become the laughing stock of the whole court: no decent dress fits me and every child in [Root.Capital.GetName] sings songs about the thunderous thighs and gigantic belly of their [From.GetTitle].;;;;;;;;;;;;x
 EVTOPTAHFP20647;Enough! I must do some exercise!;;;;;;;;;;;;x
 tooltip_20647_A;Start to work hard to lose some weight. It might take longer, but it will be less traumatic than a hard diet.;;;;;;;;;;;;x
-EVTOPTBHFP20647;I need a diet!;;;;;;;;;;;;x
+EVTOPTBHFP20647;我需要节食！;;;;;;;;;;;;x
 tooltip_20647_B;Start dieting to lose some weight.;;;;;;;;;;;;x
 EVTOPTCHFP20647;Who cares? I am fine like this.;;;;;;;;;;;;x
 tooltip_20647_C;Continue overeating at the expenses of your §YHealth§!.;;;;;;;;;;;;x
@@ -14730,13 +14730,13 @@ EVTDESCAHF24070;[Root.GetTitledFirstName] has become notorious for [Root.GetHerH
 EVTOPTAHF24070;Our lands must be purified!;;;;;;;;;;;;x
 EVTTITLEHF24071;[Root.Capital.GetName]的铁腕[Root.GetTitle];;;;;;;;;;;;x
 EVTDESCHF24071;我最近注意到，有一些不那么具有前瞻思维的统治者发布的一些旧法律，直至今日依然在困扰着我们的司法系统，并且限制了我作为[Root.GetTitle]的权力。如果我依然对着这些法律抱残守缺，那我要怎么样才能做一些真正有意义的事呢？;;;;;;;;;;;;x
-EVTOPTAHF24071;I will revise the legal system myself.;;;;;;;;;;;;x
+EVTOPTAHF24071;我要试着自己去修订整个法律系统。;;;;;;;;;;;;x
 EVTOPTBHF24071;我会雇一些学者再好好研究下这些法规。;;;;;;;;;;;;x
-EVTOPTCHF24071;I will try to revise the legal system myself.;;;;;;;;;;;;x
+EVTOPTCHF24071;我要试着自己去研究整个法律系统。;;;;;;;;;;;;x
 EVTOPTDHF24071;我的议会会去管这些的。;;;;;;;;;;;;x
 EVTOPTEHF24071;这些法律之所以存在，肯定是有它的理由的……;;;;;;;;;;;;x
 EVTDESCHF24072;自从我开始法律改革之后，有一群小贵族和农民对我向法律做出的改变开始喋喋不休，声称我的这次改革是完全出于我自己的私利，是为了增强的我个人权威，从而能够对我的臣民施行暴政。;;;;;;;;;;;;x
-EVTOPTAHF24072;No matter, these dissenters will soon disappear...;;;;;;;;;;;;x
+EVTOPTAHF24072;无论如何，这些持不同政见者很快就会消失......;;;;;;;;;;;;x
 EVTOPTBHF24072;烧掉一些村子，好让他们知道什么该说，什么不该说。;;;;;;;;;;;;x
 EVTOPTCHF24072;我会去雇佣一些佣兵来主持公道。;;;;;;;;;;;;x
 EVTOPTDHF24072;闲言碎语是没法避免的。;;;;;;;;;;;;x
@@ -16906,8 +16906,8 @@ k_novgorod;大诺夫哥罗德;;;;;;;;;;;;x
 k_novgorod_adj;大诺夫哥罗德;;;;;;;;;;;;x
 k_vladimir;弗拉基米尔;;;;;;;;;;;;x
 k_vladimir_adj;弗拉基米尔;;;;;;;;;;;;x
-e_pontic_steppe;东欧大草原;;;;;;;;;;;;x
-e_pontic_steppe_adj;东欧大草原;;;;;;;;;;;;x
+e_pontic_steppe;Pontic Steppe;;;;;;;;;;;;x
+e_pontic_steppe_adj;Pontic;;;;;;;;;;;;x
 k_rus;诺夫哥罗德;;;;;;;;;;;;x
 e_kanem;加涅姆-博尔努;;;;;;;;;;;;x
 e_kanem_adj;加涅姆;;;;;;;;;;;;x
@@ -16935,8 +16935,8 @@ d_mali;Manding;;;;;;;;;;;;x
 d_mali_adj;Mandingian;;;;;;;;;;;;x
 d_tagant;Tagant;;;;;;;;;;;;x
 d_tagant_adj;Tagantian;;;;;;;;;;;;x
-d_bambuk;Bambuk;;;;;;;;;;;;x
-d_bambuk_adj;Bambukan;;;;;;;;;;;;x
+d_bambuk;班布克;;;;;;;;;;;;x
+d_bambuk_adj;班布克;;;;;;;;;;;;x
 d_yatenga;Yatenga;;;;;;;;;;;;x
 d_yatenga_adj;Yatengan;;;;;;;;;;;;x
 d_gurma;Gurma;;;;;;;;;;;;x
