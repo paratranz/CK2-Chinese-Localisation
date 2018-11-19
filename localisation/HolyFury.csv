@@ -1152,8 +1152,8 @@ baptism_sponsor_opinion;§Y[Root.GetTitledFirstName]§!对§Y[From.GetTitledFirs
 baptism_sponsor_distance;距§Y[Root.GetTitledFirstName]§!国土的距离;;;;;;;;;;;;x
 baptism_sponsor_size;Relative size of §Y[Root.GetTitledFirstName]'s§! realm;;;;;;;;;;;;x
 baptism_sponsor_power;Relative power of §Y[Root.GetTitledFirstName]'s§! realm;;;;;;;;;;;;x
-baptism_sponsor_patriarch;§Y[Root.GetTitledFirstName]§! rules over the §Y[Root.Religion.GetName]§! religious head;;;;;;;;;;;;x
-baptism_sponsor_tributary;§Y[Root.GetTitledFirstName]§! is a tributary of §Y[From.GetTitledFirstName]§!;;;;;;;;;;;;x
+baptism_sponsor_patriarch;§Y[Root.GetTitledFirstName]§!控制着§Y[Root.Religion.GetName]§!信仰的宗教领袖;;;;;;;;;;;;x
+baptism_sponsor_tributary;§Y[Root.GetTitledFirstName]§!是§Y[From.GetTitledFirstName]§!的朝贡者;;;;;;;;;;;;x
 nick_the_submissive;顺从者;;;;;;;;;;;;x
 nick_the_deliverer;被拯救者;;;;;;;;;;;;x
 nick_the_purified;被净化者;;;;;;;;;;;;x
@@ -1193,18 +1193,18 @@ TOOLTIP_SPONSOR_VISIT_WELCOME_1;Inform [From.GetTitledFirstName] that you are ha
 TOOLTIP_SPONSOR_VISIT_WELCOME_2;Inform [From.GetTitledFirstName] that you are quite disappointed by [From.GetHerHis] welcome.;;;;;;;;;;;;x
 TOOLTIP_SPONSOR_VISIT_FEAST_1;Inform [From.GetTitledFirstName] that you are satisfied with the accommodation [From.GetSheHe] prepared for you.;;;;;;;;;;;;x
 TOOLTIP_SPONSOR_VISIT_FEAST_2;Inform [From.GetTitledFirstName] that you are insulted by [From.GetHerHis] lack of care for [From.GetHerHis] esteemed guest.;;;;;;;;;;;;x
-DEATH_TROUBLED_PREGNANCY;died due to complications during her pregnancy;;;;;;;;;;;;x
+DEATH_TROUBLED_PREGNANCY;因怀孕期间的并发症而死亡。;;;;;;;;;;;;x
 lefthanded;左撇子;;;;;;;;;;;;x
-troubled_pregnancy;Troubled Pregnancy;;;;;;;;;;;;x
+troubled_pregnancy;意外怀孕;;;;;;;;;;;;x
 troubled_pregnancy_desc;这名女士正在经历或最近经历了一次特别麻烦的怀孕，使得卧床的她虚弱和发烧，无法做太多的事。;;;;;;;;;;;;x
 troubled_pregnancy_death;难产而死。;;;;;;;;;;;;x
 hard_pregnancy;艰难的妊娠;;;;;;;;;;;;x
-hard_pregnancy_desc;This woman is going through a particularly hard pregnancy. Actions that would normally be simple are now beyond her abilities.;;;;;;;;;;;;x
+hard_pregnancy_desc;这位女士正在经历一场特别艰难的怀孕。 在平时看来很简单的行动现在都超出了她的能力范围。;;;;;;;;;;;;x
 hard_pregnancy_death;难产而死。;;;;;;;;;;;;x
 pregnancy_finishing;最后几个月;;;;;;;;;;;;x
-pregnancy_finishing_desc;This woman has entered the last phase of her pregnancy. Her condition is preventing her from taking part of her public life, at least until the time her labor comes to term.;;;;;;;;;;;;x
+pregnancy_finishing_desc;这位女士已进入怀孕的最后阶段。 她目前的情况使她无法参与公共生活，至少在她孕期结束之前。;;;;;;;;;;;;x
 celibate_mom_dec;成为独身主义者;;;;;;;;;;;;x
-celibate_mom_dec_desc;I have faced a particularly troublesome pregnancy. The next one could be lethal. Maybe it would be best to abstain rather than risk death.;;;;;;;;;;;;x
+celibate_mom_dec_desc;你面临着一个特别麻烦的怀孕期。下一个可能是致命的。也许可以放弃，而不是冒险？;;;;;;;;;;;;x
 EVTDESCB316;My labor worsened the already precarious condition I was in. The midwives look worried, and I feel so terribly weak... I am bound to my bedroom, in a state halfway between nightmares and reality, struggling, on the brink of death.;;;;;;;;;;;;x
 EVTDESCA316; Despite my physicians' assurances to the contrary, giving birth only worsened my condition. The midwives look worried, and I feel so terribly weak... I am bound to my bedroom, in a state halfway between nightmares and reality, struggling, on the brink of death.;;;;;;;;;;;;x
 EVTDESCHFP20400;妊娠的过程伴随着显著的风险。既然我已身怀六甲，最好还是任命一位摄政，倘若我有个万一，也有人能接管大小事务。;;;;;;;;;;;;x
@@ -1224,8 +1224,8 @@ EVTOPTCHFP20406;废话，我觉得我好的不得了。;;;;;;;;;;;;x
 mother_keeps_ruling;告诉你的[GetFromRelation]，即使怀孕了你还是会继续统治。;;;;;;;;;;;;x
 EVTDESCHFPA20407;这次怀孕比我最初所想象的还要负担重重。我若是不注重自己的身体健康，不光是我，连腹中的孩子都会遇到生命危险。或许在剩下的孕期我应该休个假，在隐居生活中好好照顾自己。;;;;;;;;;;;;x
 EVTOPTAHFP20407;听起来像是个好主意！;;;;;;;;;;;;x
-mother_staying_court_2;Retire and let your Regent take charge while you spend the last months of your pregnancy in seclusion in your private chambers.;;;;;;;;;;;;x
-EVTOPTBHFP20407;I'd better leave the [Root.GetHouse] entirely then.;;;;;;;;;;;;x
+mother_staying_court_2;在你怀孕的最后几个月，你退居幕后并让你的摄政代替执政，并隐居在你的私人房间内。;;;;;;;;;;;;x
+EVTOPTBHFP20407;我最好离[Root.GetHouse]远点;;;;;;;;;;;;x
 mother_going_countryside_2;Retire and let your Regent take charge while you spend the last months of your pregnancy away from court.;;;;;;;;;;;;x
 EVTOPTCHFP20407;废话，我觉得我好的不得了。;;;;;;;;;;;;x
 mother_keeps_ruling_2;继续冒着生命危险来统治领地。;;;;;;;;;;;;x
@@ -1235,7 +1235,7 @@ EVTDESCHFP20409;谢天谢地，我的[GetFromRelation]真心实意的接受了�
 EVTOPTAHFP20409;棒极了。;;;;;;;;;;;;x
 EVTDESCHFP20410;很不幸，我的[GetFromRelation]决定无视我的建议。哪怕在岌岌可危的状态下，她还是会出现在公众面前。;;;;;;;;;;;;x
 EVTOPTAHFP20410;让人担心。;;;;;;;;;;;;x
-EVTDESCHFP20413;Curse them all! And the pox to this infernal piece of meat within me, stretching and destroying my body from the inside out! This is absolutely unbearable. I have snapped several times at my courtiers, even when I knew there was no good reason to do so, but I just cannot help it anymore! I want this to be over! Now!;;;;;;;;;;;;x
+EVTDESCHFP20413;诅咒他们所有人！ 而在我身体里的这块地狱的肉块，从里到外撑开并摧毁我的身体！ 我再也无法忍受这个了。 我曾多次向我的朝臣发火，即使我知道这火发的毫无道理，但我再也控制不住自己了！ 我要结束它！马上！;;;;;;;;;;;;x
 EVTOPTAHFP20413;该死！;;;;;;;;;;;;x
 EVTOPTBHFP20413;或许我该试着冷静下来。;;;;;;;;;;;;x
 EVTDESCHFP20414;直到上完第五道菜时，我才意识到这餐竟然吃了这么多。当隆起的腹部正怀着一个贪吃的小害虫时，我很难分辨吃多少才算足够。也许我不用感到忧心，觉得饿了就吃吧。;;;;;;;;;;;;x
@@ -1257,7 +1257,7 @@ EVTOPTCHFP20418;[Root.Spouse.GetFirstName]的宫廷医师会帮助我。;;;;;;;;
 EVTOPTDHFP20418;为什么这种事发生在我身上?;;;;;;;;;;;;x
 EVTDESCHFP20419;我原以为远离宫廷并享受乡间的清新空气能够帮助我缓解这次怀孕期间的紧张情绪，但[Root.Religion.GetRandomEvilGodName]另有所图。[Root.GetWildernessWeather];;;;;;;;;;;;x
 string_violent_sandstorm_paragraph;一场可怕的沙尘暴席卷大地，随行的马匹变得晕头转向，我们被困在了沙漠里。;;;;;;;;;;;;x
-string_violent_storm_paragraph;A terrible storm has caught my entourage, deafening us all night with thunders and leaving us sore and completely damp in the morning.;;;;;;;;;;;;x
+string_violent_storm_paragraph;一场可怕的风暴袭击了我们，带来整夜雷电交加和清晨起来后的酸痛与潮湿感。;;;;;;;;;;;;x
 EVTOPTAHFP20419;小小的风暴能奈我何！;;;;;;;;;;;;x
 EVTOPTBHFP20419;我再也受不了了！;;;;;;;;;;;;x
 EVTDESCHFP20420;我今天忽然意识到，即使孕期已经结束了，我仍然没有停止每天前往酒窖。虽然我应当适可而止，不过从另一方面来说，这*已经*成为我的某种传统了，许多朝臣也认为自从我开始这样做后，我的性格也更阳光了一些。;;;;;;;;;;;;x
@@ -1268,14 +1268,14 @@ EVTOPTAHFP20421;既然我怀孕期结束了，我应该试吃的适中点。;;;;
 EVTOPTBHFP20421;稍微放纵一点点有什么问题吗？;;;;;;;;;;;;x
 EVTDESCHFP20422;这是我这周训练的第九个仆人了。当卫兵鞭打那个可怜的男孩时，他甚至没有哭。现在，我甚至不记得我最初为什么生这个男孩的气了。这种想法让我震惊：我的脾气真的失控了，如果我把它发泄到我刚出生的孩子身上，该怎么办？;;;;;;;;;;;;x
 EVTOPTAHFP20422;I really have an anger issue...;;;;;;;;;;;;x
-EVTOPTBHFP20422;That will not be *my* problem!;;;;;;;;;;;;x
-EVTDESCHFP20423;I have spent the last two days secluded in my chambers, refusing any food, too tired to move and too ailing to answer to any plead. I have given all myself to bring forth a new life into the world and now I feel empty, useless, discarded, alone. What was even the point of all that sufferance and anguish?;;;;;;;;;;;;x
-EVTOPTAHFP20423;I cannot simply give up now. I have a child to look after.;;;;;;;;;;;;x
+EVTOPTBHFP20422;这不是*我*的问题！;;;;;;;;;;;;x
+EVTDESCHFP20423;过去两天我一直将自己锁在房间里，拒绝任何食物，我太累了，一点也不想动。也不想回答任何人的询问。我将我的所有都给了这个来到这个世界的新生命，现在我觉得自己空洞、无用、孤独。经历那些遭受和痛苦到底有什么意义？;;;;;;;;;;;;x
+EVTOPTAHFP20423;我不能现在就这么简单的放弃，我还有一个孩子等着我去照顾。;;;;;;;;;;;;x
 EVTOPTBHFP20423;继续下去没有意义了。;;;;;;;;;;;;x
 EVTDESCHFP20424;As days go by, I find harder and harder to ignore how my wife seems to have been letting herself go since her pregnancy, ravaging meal after meal.;;;;;;;;;;;;x
 EVTOPTAHFP20424;她可能需要节制一点了。;;;;;;;;;;;;x
 EVTOPTBHFP20424;她会照顾好自己的。;;;;;;;;;;;;x
-EVTDESCHFP20425;Outrageous! My spouse just had the nerve to tell me that I have put on too much weight and that I should start eating less, as if recovering from the pregnancy was not hard enough.;;;;;;;;;;;;x
+EVTDESCHFP20425;可恶！我的配偶刚刚鼓起勇气跟我说我的体重增加太多，需要少吃一些了，好像孕后的恢复一点也不难似的。;;;;;;;;;;;;x
 EVTOPTAHFP20425;毕竟他是对的。我应该努力的少吃一点。;;;;;;;;;;;;x
 EVTOPTBHFP20425;胖？我来告诉他什么是胖！;;;;;;;;;;;;x
 EVTDESCHFP20426;我的妻子每晚都会下酒窖，把自己喝个不省人事。在她怀孕期间这已经够糟了，但我多么希望她今后能戒掉这个坏嗜好。;;;;;;;;;;;;x
@@ -1283,7 +1283,7 @@ EVTOPTAHFP20426;也许她需要多一点的鼓励。;;;;;;;;;;;;x
 EVTOPTBHFP20426;偶尔一小杯也没什么问题。;;;;;;;;;;;;x
 EVTDESCHFP20427;我的丈夫看起来已经注意到了我每天晚上前往酒窖的事，这个早上他表达了自己对妻子酗酒的担心。他应该更温和一点的，毕竟我经历的这几个月……;;;;;;;;;;;;x
 EVTOPTAHFP20427;他是对的！这种行为与我并不相称。;;;;;;;;;;;;x
-EVTOPTBHFP20427;He should learn to enjoy himself a little and stop patronizing.;;;;;;;;;;;;x
+EVTOPTBHFP20427;他应该学会自得其乐一些，并且停止自视过高了。;;;;;;;;;;;;x
 EVTDESCHFP20428;我本希望当婴儿出来以后问题可自行解决，但是我妻子的脾气问题还是一如既往。我可以试着告诉她冷静一点……;;;;;;;;;;;;x
 EVTOPTAHFP20428;会有什么问题呢？;;;;;;;;;;;;x
 EVTOPTBHFP20428;不，我今天可不想找死。;;;;;;;;;;;;x
@@ -1298,17 +1298,17 @@ EVTOPTAHFP20431;我已经受够了，也许这是我重新开始生活的机会�
 EVTOPTBHFP20431;我什么都不想要！别管我！;;;;;;;;;;;;x
 EVTDESCHFP20432;我亲爱的妻子终于听进了我的建议。几个星期内，她可能就会恢复身材。;;;;;;;;;;;;x
 EVTOPTAHFP20432;这对她好，对我也是！;;;;;;;;;;;;x
-EVTDESCHFP20433;It seems my advice fell on deaf ears. Every day that passes by my wife keeps stuffing herself like a goose. So much for moderation...;;;;;;;;;;;;x
+EVTDESCHFP20433;看来我的建议被置若罔闻了，每天不断过去，你的妻子继续像喂猪一样喂饱自己。这远远超出节制的范围……;;;;;;;;;;;;x
 EVTOPTAHFP20433;呃，我们需要一张更大的床了。;;;;;;;;;;;;x
-EVTDESCHFP20434;I cannot remember the last time I saw my wife drunk. She has recovered from her bad habit quite nicely.;;;;;;;;;;;;x
+EVTDESCHFP20434;我已经记不得上次见到我妻子喝醉的时候了。 她已经很好地从她的坏习惯中恢复过来。;;;;;;;;;;;;x
 EVTOPTAHFP20434;棒极了。;;;;;;;;;;;;x
 EVTDESCHFP20435;我所有恳求都白费了：每天晚上我的妻子还是会偷偷跑出去借酒消愁。;;;;;;;;;;;;x
 EVTOPTAHFP20435;我不知道我还能做什么。;;;;;;;;;;;;x
-EVTDESCHFP20436;Surprisingly, even if she yelled at me when I talked about it, my wife seems to have finally resolved her anger issues. She is treating everybody better now.;;;;;;;;;;;;x
+EVTDESCHFP20436;令人惊讶的是，即使我的妻子在我说到此事时朝我大吼大叫的，她看起来似乎已经解决了她易怒的毛病。她对待每个人也更好了;;;;;;;;;;;;x
 EVTOPTAHFP20436;希望这还会持续。;;;;;;;;;;;;x
-EVTDESCHFP20437;Curses! I did not even manage to make my case: my wife just snapped at me and pushed me over the stairs. ...I think I broke something.;;;;;;;;;;;;x
+EVTDESCHFP20437;该死！我没能成功说服她，我妻子朝我大发雷霆并把我推下了楼梯。事实上，我可能断了几根骨头。;;;;;;;;;;;;x
 EVTOPTAHFP20437;At least I am out of reach, for now.;;;;;;;;;;;;x
-EVTDESCHFP20438;It is such a relief to see my wife alive again! I was really starting to worry, but she finally managed to recover from her depression.;;;;;;;;;;;;x
+EVTDESCHFP20438;看到我的妻子重新振作真是令人欣慰。我曾一度非常担心，但她总算成功地从沮丧期中恢复过来。;;;;;;;;;;;;x
 EVTOPTAHFP20438;现在，要是她能闭嘴就好了，哪怕只有几次……;;;;;;;;;;;;x
 EVTDESCHFP20439;我不知道该拿我的妻子怎么办了：我几乎认不出她了，她脸色阴沉而苍白，就像鬼一样。她对每件事物和每个人都完全没有反应。;;;;;;;;;;;;x
 EVTOPTAHFP20439;我还能做什么呢？;;;;;;;;;;;;x
@@ -1422,7 +1422,7 @@ EVTDESCHFP20538;鉴于我出生时的不详之象，我显然不是一个平凡�
 EVTOPTAHFP20538;Guh?;;;;;;;;;;;;x
 EVTDESCHFP20539;这次怀孕是地狱般的折磨，但它的结果至少看起来是一个强壮健康的婴儿。;;;;;;;;;;;;x
 EVTOPTAHFP20539;我的孩子……;;;;;;;;;;;;x
-EVTDESCHFP20540;As if the terrible pregnancy was not enough, there seems to be something wrong with my child as well.;;;;;;;;;;;;x
+EVTDESCHFP20540;好像这次可怕的怀孕还不够似的，就连我生出的孩子看上去也有些问题。;;;;;;;;;;;;x
 EVTOPTAHFP20540;我被诅咒了？;;;;;;;;;;;;x
 EVTDESCHFP20541;The pregnancy is over, but I have yet to leave my chambers, scourged by a steaming fever which is leaving me shivering and burning under my bedsheets.;;;;;;;;;;;;x
 EVTOPTAHFP20541;什么时候是个头啊？;;;;;;;;;;;;x
@@ -6015,16 +6015,16 @@ string_camaraderie;camaraderie;;;;;;;;;;;;x
 string_unconventional_tactics;unconventional tactics;;;;;;;;;;;;x
 string_consistency;consistency;;;;;;;;;;;;x
 String_weather_fallback;bad;;;;;;;;;;;;x
-string_forest;forest;;;;;;;;;;;;x
-string_hills;hills;;;;;;;;;;;;x
-string_mountains;mountains;;;;;;;;;;;;x
-string_plains;plains;;;;;;;;;;;;x
-string_farmlands;farmlands;;;;;;;;;;;;x
-string_steppe;steppe;;;;;;;;;;;;x
-string_desert;desert;;;;;;;;;;;;x
-string_jungle;jungle;;;;;;;;;;;;x
-string_arctic;arctic;;;;;;;;;;;;x
-string_terrain;terrain;;;;;;;;;;;;x
+string_forest;森林;;;;;;;;;;;;x
+string_hills;丘陵;;;;;;;;;;;;x
+string_mountains;山地;;;;;;;;;;;;x
+string_plains;平原;;;;;;;;;;;;x
+string_farmlands;农田;;;;;;;;;;;;x
+string_steppe;草原;;;;;;;;;;;;x
+string_desert;沙漠;;;;;;;;;;;;x
+string_jungle;丛林;;;;;;;;;;;;x
+string_arctic;极地;;;;;;;;;;;;x
+string_terrain;地形;;;;;;;;;;;;x
 string_Forest;森林;;;;;;;;;;;;x
 string_Hills;丘陵;;;;;;;;;;;;x
 string_Mountains;山地;;;;;;;;;;;;x
@@ -10716,59 +10716,59 @@ EVTDESC_HF_12201_B;"You must be lost!" I proclaim, drawing my weapon. I sway a l
 EVTDESC_HF_12201_C;"You want me to DUEL you?", the [other_combatant.GetManWoman] mocks, rolling [other_combatant.GetHerHis] eyes. The next thing I know, I am under a furious flurry of attacks, only barely keeping up with my opponent. A young girl screams as I collapse into the crowd, bloody and unable to stand any longer. "Inform [target_ruler.GetTitledFirstName], that the heathen troll is dead", is the last thing I hear.;;;;;;;;;;;;x
 EVTDESC_HF_12201_D;I hear birds. It must be dawn, I think to myself. Why does my face feel cold, my limbs frozen...? Tensing, I cannot move. What happened? We fought on a meadow, the moon was guiding me, and... I fell. That blasted scout skewered me, with [other_combatant.GetHerHis] sword. Oh [Root.Religion.GetHighGodName], welcome me to your side...;;;;;;;;;;;;x
 EVTDESC_HF_12201_E;[other_combatant.GetTitledFirstName] seems to be flying towards me, swinging [other_combatant.GetHerHis] weapon vigorously. [fellow_member.GetTitledFirstName] pulls a small child out of our way, and yells for the crowd to step back. My opponent's technique appears more focused on showmanship than actual swordplay, and I find myself drawn in by the spectacle. Then suddenly, [other_combatant.GetHerHis] weapon sinks into my chest.;;;;;;;;;;;;x
-good_progress_tt;You make progress on your legendary journey\n;;;;;;;;;;;;x
-great_progress_tt;You make §Ggreat§! progress on your legendary journey\n;;;;;;;;;;;;x
-string_the_forest;the forest;;;;;;;;;;;;x
-string_camp;our camp;;;;;;;;;;;;x
-string_village_streets;the village streets;;;;;;;;;;;;x
-string_moonlit_camp;the moonlit meadow;;;;;;;;;;;;x
-string_city_streets;the city streets;;;;;;;;;;;;x
-string_the_hills;the hills;;;;;;;;;;;;x
-rank_up_blocked_tt;Has NOT forfeited the rank before;;;;;;;;;;;;x
+good_progress_tt;你在你的传奇旅程中取得了进步\n;;;;;;;;;;;;x
+great_progress_tt;你在你的传奇旅程中取得了§G伟大§!的进步\n;;;;;;;;;;;;x
+string_the_forest;森林;;;;;;;;;;;;x
+string_camp;我们的营地;;;;;;;;;;;;x
+string_village_streets;村庄的街道;;;;;;;;;;;;x
+string_moonlit_camp;月下的草地;;;;;;;;;;;;x
+string_city_streets;城市的街道;;;;;;;;;;;;x
+string_the_hills;山丘;;;;;;;;;;;;x
+rank_up_blocked_tt;之前没有被取消等级;;;;;;;;;;;;x
 EVTTITLE_HF_12300;传说之血;;;;;;;;;;;;x
 EVTDESC_HF_12300;Upon your return to [Root.Capital.GetName], [Root.GetLegendaryReturnReception] The whole [Root.GetCapitalHolding] has been dressed in celebratory banners and your [my_beloved.GetRootRelation] [my_beloved.GetTitledFirstName] greets you with a smile. [Root.GetLegendaryAchievementSummary]\n\nFrom deeper in the [Root.GetCapitalHolding] [Root.Society.GetName] are singing a song of battle, its melody inviting you to celebration...;;;;;;;;;;;;x
-string_reception_1;everyone seems happy to have you back. A lot of them ask what you are going to do next. "Surely, you still have things to do?";;;;;;;;;;;;x
-string_reception_2;your servants and household members trip over themselves to greet you, the victorious warrior returned.;;;;;;;;;;;;x
-string_reception_3;warriors and commoners alike swoon when they see you - one [Root.GetManWomanOpp] actually faints as you ride by with your entourage.;;;;;;;;;;;;x
-string_summary_1;"I am just happy to have you home, my [Root.GetLordLady]".;;;;;;;;;;;;x
-string_summary_2;"I have the impression you have some rumors to explain, my [Root.GetLordLady]." [my_beloved.GetSheHeCap] smirks, adding: "Or to embellish, I suppose".;;;;;;;;;;;;x
+string_reception_1;每个人都很高兴你的回来。很多人问你下一步要做什么。「确定，你还有事情要做吗？」;;;;;;;;;;;;x
+string_reception_2;你的仆人和家庭成员都来迎接你—胜利的战士回来了。;;;;;;;;;;;;x
+string_reception_3;战士和平民们看到你时都快晕倒了，其中一个[Root.GetManWomanOpp]在你和随行人员骑马经过的时候真的晕倒了。;;;;;;;;;;;;x
+string_summary_1;「我很高兴你能够回来，我的[Root.GetLordLady]」;;;;;;;;;;;;x
+string_summary_2;「我觉得你有一些传言要解释，我的[Root.GetLordLady]。」[my_beloved.GetSheHeCap]傻笑着，补充道：「或者修饰一下，我想。」;;;;;;;;;;;;x
 string_summary_3;"The bards will sing of your accomplishments for generations to come! They say you took down an army of a hundred men and wild [target_ruler.Capital.GetRegionalBigAnimal]s?! We received news that some of you were taken captive and..." The [my_beloved.GetManWoman]'s words trail off, and [my_beloved.GetSheHe] composes [my_beloved.GetHerselfHimself].\n"My [Root.GetLordLady]: welcome home.";;;;;;;;;;;;x
-EVTOPTA_HF_12300;For every [Root.Culture.GetName]!;;;;;;;;;;;;x
+EVTOPTA_HF_12300;未来每一个[Root.Culture.GetName]！;;;;;;;;;;;;x
 EVTDESC_HF_12301;[From.GetTitledName], your [From.GetRootRelation], has left this earthly realm, but tales of [From.GetHerHis] adventures are all around us. The memory of the [From.GetChineseComplimentAdjective] warrior-[From.GetManWoman] is sure to live on, if not in the hearts of [From.GetHerHis] companions, so in the blood of [From.GetHerHis] family.\n\nA hero has left us.;;;;;;;;;;;;x
-EVTOPTA_HF_12301;We will remember you, [From.GetTitledFirstName].;;;;;;;;;;;;x
+EVTOPTA_HF_12301;我们会记住你的，[From.GetTitledFirstName]。;;;;;;;;;;;;x
 EVTDESC_HF_12302_A;They say that everyone in the [From.GetCapitalHolding] of [From.Capital.GetName] spent several moons preparing for the return of [From.GetTitledName]. The [From.GetManWoman] has been the main source of interest and fascinating rumor since even before [From.GetSheHe] left for [target_title.GetName], but reports all agree that the pomp is well deserved. As [From.Society.GetName] celebrate this warrior's victory, we pray that our young find this living legend an ideal worthy of emulating.;;;;;;;;;;;;x
-EVTOPTA_HF_12302;May we all share in [From.GetHerHis] glory.;;;;;;;;;;;;x
+EVTOPTA_HF_12302;愿我们共享[From.GetHerHis]荣耀;;;;;;;;;;;;x
 EVTDESC_HF_12303;Having wreaked havoc in the realm of [Root.PrimaryTitle.GetName], the warrior scoundrel [bloodline_founder.GetTitledName] has been carving a name for [bloodline_founder.GetHerselfHimself] in blood. Our records will remember that [bloodline_founder.GetSheHe] and [bloodline_founder.GetHerHis] band of warriors have taken great pleasure in cutting their way through our countryside, fighting any willing man or woman who dared stand in their way, leaving traumatized children and devastated villagers in their wake...;;;;;;;;;;;;x
-EVTOPTA_HF_12303;It is the way of barbarians.;;;;;;;;;;;;x
-society_legend_increases_tt;The §YLegend§! of §Y[Root.Society.GetNameCap]§! increases\n;;;;;;;;;;;;x
-string_legendary_duel;A Duel for the Legends;;;;;;;;;;;;x
-DEATH_LEGENDARY_FAIL_DUEL;died trying to best $KILLER$ in a legendary duel;;;;;;;;;;;;x
-DEATH_LEGENDARY_FAIL_DUEL_NO_KILLER;was slain in a legendary duel;;;;;;;;;;;;x
-DEATH_LEGENDARY_WIN_DUEL;was slain by $KILLER$ in a spectacular duel;;;;;;;;;;;;x
-DEATH_LEGENDARY_WIN_DUEL_NO_KILLER;was slain in a spectacular duel;;;;;;;;;;;;x
-String_slam_into_their_face;slam my [Root.GetDuelWeapon] into [other_combatant.GetHerHis] [other_combatant.GetBodyPartInjured], soaking [other_combatant.GetHerHim] in [other_combatant.GetHerHis] own blood;;;;;;;;;;;;x
-String_slam_into_my_face;slam [other_combatant.GetHerHis] [other_combatant.GetDuelWeapon] into my [Root.GetBodyPartInjured], soaking me in my own blood;;;;;;;;;;;;x
+EVTOPTA_HF_12303;这就是野蛮人的方式。;;;;;;;;;;;;x
+society_legend_increases_tt;§Y[Root.Society.GetNameCap]§!的§Y传说§!增加了\n;;;;;;;;;;;;x
+string_legendary_duel;一场为了传奇的决斗;;;;;;;;;;;;x
+DEATH_LEGENDARY_FAIL_DUEL;死于试图打败$KILLER$的传奇决斗;;;;;;;;;;;;x
+DEATH_LEGENDARY_FAIL_DUEL_NO_KILLER;被杀死于一场传奇决斗;;;;;;;;;;;;x
+DEATH_LEGENDARY_WIN_DUEL;被$KILLER$杀死于一场精彩决斗;;;;;;;;;;;;x
+DEATH_LEGENDARY_WIN_DUEL_NO_KILLER;被杀死于一场精彩决斗;;;;;;;;;;;;x
+String_slam_into_their_face;用我的[Root.GetDuelWeapon]猛击[other_combatant.GetHerHis][other_combatant.GetBodyPartInjured]，让[other_combatant.GetHerHim]沐浴在[other_combatant.GetHerHis]自己的鲜血之中。;;;;;;;;;;;;x
+String_slam_into_my_face;[other_combatant.GetHerHis]用[other_combatant.GetDuelWeapon]猛击我的[Root.GetBodyPartInjured]，让我沐浴在自己的鲜血之中。;;;;;;;;;;;;x
 legendary_gathering_tt;解锁社团内的§Y传奇§!进度条\n社团内的所有成员都会开始对§Y[Root.Society.GetNameCap]§!的§Y传奇值§!做出贡献。;;;;;;;;;;;;x
 warrior_lodge_legendary_gathering;传奇集结;;;;;;;;;;;;x
 warrior_lodge_legendary_gathering_desc;将[Root.Society.GetName]的战友们的功绩谱成传奇故事在世间传唱，永世流传。\n;;;;;;;;;;;;x
-legendary_gathering_cd_tt;Has NOT been done for one hundred years;;;;;;;;;;;;x
-EVTDESC_HF_12400;Wings brushing my shoulder, dark eyes trusting me. I... I must have been dreaming about hunting with my eagle. "My [Root.GetLordLady]! I tried to stop it, but it just flew in through the [Root.GetChamberOpening]!", an embarrassed servant blurts as I rub my eyes, realizing I can still hear the gentle cawing of a bird.;;;;;;;;;;;;x
-EVTOPTA_HF_12400;What do we have here? A new friend?;;;;;;;;;;;;x
-EVTOPTA_HF_12400_TT;You will care for the young bird.;;;;;;;;;;;;x
-EVTOPTB_HF_12400;By my [bloodline_founder.GetRootRelation]! A new friend?;;;;;;;;;;;;x
-EVTOPTB_HF_12400_TT;You get the feeling that §Y[bloodline_founder.GetTitledFirstName]§! would approve of you caring for the young bird.;;;;;;;;;;;;x
-EVTOPTC_HF_12400;Get that thing out of my chambers!;;;;;;;;;;;;x
-EVTOPTC_HF_12400_TT;You go back to sleep.;;;;;;;;;;;;x
-EVTDESC_HF_12401;Training with my soldiers, I find myself distracted by an excited barking from the barracks. "What *is* that noise?", I finally demand to know. My sparring partner lowers [Root.GetHerHis] weapon and clears [Root.GetHerHis] throat: "It was going to be a surprise, my [Root.GetLordLady], but we got a new puppy...";;;;;;;;;;;;x
-EVTOPTA_HF_12401;I... I *have* been missing a companion...;;;;;;;;;;;;x
-EVTOPTA_HF_12401_TT;You will care for the dog.;;;;;;;;;;;;x
-EVTOPTB_HF_12401;By my [bloodline_founder.GetRootRelation]! A dog, for *me*?;;;;;;;;;;;;x
-EVTOPTB_HF_12401_TT;You get the feeling that §Y[bloodline_founder.GetTitledFirstName]§! would approve of you caring for the dog.;;;;;;;;;;;;x
-EVTOPTC_HF_12401;Do I look like I have time to raise another dog? Come on, raise your weapon!;;;;;;;;;;;;x
-EVTOPTC_HF_12401_TT;Someone else will care for the animal.;;;;;;;;;;;;x
+legendary_gathering_cd_tt;一百年来没有完成;;;;;;;;;;;;x
+EVTDESC_HF_12400;翅膀拂过我的肩膀，深邃的眼睛信任着我。我......我可能是在幻想着用我的雄鹰狩猎。「我的[Root.GetLordLady]！我试图阻止它，但是它径直飞进了[Root.GetChamberOpening]！」，一个窘迫的仆人在我擦眼睛的时候说到，提示我仍然能只听到鸟儿轻轻的啼声。;;;;;;;;;;;;x
+EVTOPTA_HF_12400;我们这有什么？一个新朋友？;;;;;;;;;;;;x
+EVTOPTA_HF_12400_TT;你将照顾这只幼雏。;;;;;;;;;;;;x
+EVTOPTB_HF_12400;通过我的[bloodline_founder.GetRootRelation]！一个新朋友？;;;;;;;;;;;;x
+EVTOPTB_HF_12400_TT;你感觉到§Y[bloodline_founder.GetTitledFirstName]§!会赞成你照顾这只幼雏。;;;;;;;;;;;;x
+EVTOPTC_HF_12400;让那东西从我的房间里滚出去！;;;;;;;;;;;;x
+EVTOPTC_HF_12400_TT;你回去睡觉了。;;;;;;;;;;;;x
+EVTDESC_HF_12401;和我的士兵们一起训练，我发觉自己被营房里的兴奋叫声分散了注意力。「什么声音？」，我最后问道。和我对练的伙伴放下了[Root.GetHerHis]武器并清了清[Root.GetHerHis]嗓子说：「这本是一个惊喜，我的[Root.GetLordLady]，我们最近新得了一条小狗......」;;;;;;;;;;;;x
+EVTOPTA_HF_12401;我......我一直想要一个同伴......;;;;;;;;;;;;x
+EVTOPTA_HF_12401_TT;你来照顾这条狗。;;;;;;;;;;;;x
+EVTOPTB_HF_12401;通过我的[bloodline_founder.GetRootRelation]！一条狗，给我？;;;;;;;;;;;;x
+EVTOPTB_HF_12401_TT;你感觉到§Y[bloodline_founder.GetTitledFirstName]§!会赞成你照顾这条狗。;;;;;;;;;;;;x
+EVTOPTC_HF_12401;我看起来像是我有时间养另外一条狗吗？算了吧，举起你的武器！;;;;;;;;;;;;x
+EVTOPTC_HF_12401_TT;其他人会来照顾这个小动物。;;;;;;;;;;;;x
 EVTDESC_HF_12402;From playing its favorite games in the [Root.GetCapitalHolding], to warming my feet in the winter, my trusted war hound has taken its last breaths. "I will... Leave you alone with [Root.GetDogName], [Root.GetMasterMistress]" a servant says, wiping a tear from her face.;;;;;;;;;;;;x
 EVTOPTA_HF_12402;It was an honor to serve with you, friend.;;;;;;;;;;;;x
-EVTOPTA_HF_12402_TT;Perhaps you will get a new dog. One day.;;;;;;;;;;;;x
+EVTOPTA_HF_12402_TT;也许你会得到一条新的狗。某一天。;;;;;;;;;;;;x
 bloodline_effect_joining_warrior_lodge;角色能在一个更早的年龄加入§G战士公会§!;;;;;;;;;;;;x
 bloodline_effect_pet_eagle;角色更倾向于饲养猎鹰。;;;;;;;;;;;;x
 bloodline_effect_pet_dog;角色更倾向于饲养猎犬。;;;;;;;;;;;;x
@@ -10806,7 +10806,7 @@ bloodline_legendary_leader_A;[This.Founder.GetWarriorRoleCap]之血;;;;;;;;;;;;x
 bloodline_legendary_leader_B;[This.Founder.GetWarriorRoleCap]之血;;;;;;;;;;;;x
 bloodline_legendary_leader_C;元帅之血;;;;;;;;;;;;x
 bloodline_legendary_leader_D;[This.Founder.GetWarriorRoleCap]的热烈之血;;;;;;;;;;;;x
-bloodline_desc_legendary_warrior;This [This.Founder.GetComplimentAdjective] [This.Founder.GetEducationRole] made a name for [This.Founder.GetHerselfHimself] fighting for [This.Founder.Society.GetName] and spreading the way of the [This.Founder.GetWarriorRole] to all who would dare challenge [This.Founder.GetHerHim].;;;;;;;;;;;;x
+bloodline_desc_legendary_warrior;这个[This.Founder.GetComplimentAdjective][This.Founder.GetEducationRole]将[This.Founder.GetHerselfHimself]的名字与为[This.Founder.Society.GetName]而战紧密相连，在那些妄图挑战[This.Founder.GetHerHim]的[This.Founder.GetWarriorRole]杀出了一条血路。;;;;;;;;;;;;x
 bloodline_legendary_warrior_A;[This.Founder.Society.GetName]之傲血;;;;;;;;;;;;x
 bloodline_legendary_warrior_B;一位[This.Founder.GetWarriorRoleCap]之血;;;;;;;;;;;;x
 bloodline_legendary_warrior_C;[This.Founder.GetWarriorBattleNick]之血;;;;;;;;;;;;x
@@ -11601,16 +11601,16 @@ defense_pledge_crusade_target_TT_2;在外交范围内;;;;;;;;;;;;x
 crusade_no_antipope_TT;教宗是你的宗教领袖。;;;;;;;;;;;;x
 new_crusade_win_TT;十字军将获得§Y[From.GetTitledName]§!持有的目标头衔下的所有土地;;;;;;;;;;;;x
 forced_to_crusade_TT;如果教宗强迫你参加，则不能不宣誓参加十字军。;;;;;;;;;;;;x
-vassal_castrate_decision_desc;You may give the order to castrate §Y[Root.GetFirstName]§! and turn him into a eunuch. He will be unable to sire more spawn or be granted landed titles, a severe punishment.;;;;;;;;;;;;x
+vassal_castrate_decision_desc;你可以下令阉割§Y[Root.GetFirstName]§!，让他变成阉人。他不能再生育或被授予实地头衔，一种十分严厉的惩罚。;;;;;;;;;;;;x
 NOT_ANY_REALM_LORD_STARTS;领地中没有拥有土地的角色;;;;;;;;;;;;x
 knights_templar_loan_money_TT;§Y[d_knights_templar.Holder.GetTitledName]§!对§Y[Root.GetTitledName]§!有等于或高于§G25§!的好感度;;;;;;;;;;;;x
 bektashi_loan_money_TT;§Y[d_bektashi.Holder.GetTitledName]§!对§Y[Root.GetTitledName]§!有等于或高于§G25§!的好感度;;;;;;;;;;;;x
 haruriyyah_loan_money_TT;§Y[d_haruriyyah.Holder.GetTitledName]§!对§Y[Root.GetTitledName]§!有等于或高于§G25§!的好感度;;;;;;;;;;;;x
 hashshashin_loan_money_TT;§Y[d_hashshashin.Holder.GetTitledName]§!对§Y[Root.GetTitledName]§!有高于§G25§!的好感度;;;;;;;;;;;;x
-tp_saint_shrine;当地圣地;;;;;;;;;;;;x
-tp_saint_shrine_TT;There is a well kept Saintly burial site in §Y[Root.GetName]§!;;;;;;;;;;;;x
-tp_saint_shrine_TT_2;§Y[Root.GetName]§! is held by a §Y[christian.GetGroupName]§!;;;;;;;;;;;;x
-northern_crusade_decision_cooldown_TT;Can ask the Teutonics for help again after §Y[From.northern_crusade_targeted_decision_cooldown.GetExpiryDate]§!;;;;;;;;;;;;x
+tp_saint_shrine;当地圣墓;;;;;;;;;;;;x
+tp_saint_shrine_TT;§Y[Root.GetName]§!有一个保存完好的圣墓;;;;;;;;;;;;x
+tp_saint_shrine_TT_2;§Y[Root.GetName]§!被一个§Y[christian.GetGroupName]§!掌控;;;;;;;;;;;;x
+northern_crusade_decision_cooldown_TT;在§Y[From.northern_crusade_targeted_decision_cooldown.GetExpiryDate]§!之后可以再次请求条顿骑士团的帮助;;;;;;;;;;;;x
 string_crusade_christian_description;亵渎者;;;;;;;;;;;;x
 string_crusade_muslim_description;穆斯林;;;;;;;;;;;;x
 string_crusade_jewish_description;犹太教徒;;;;;;;;;;;;x
@@ -15898,7 +15898,7 @@ PROV1912;鄂特冈腾格里;;;;;;;;;;;;x
 PROV1913;苏布日嘎海尔汗;;;;;;;;;;;;x
 PROV1914;Tarvagatai;;;;;;;;;;;;x
 PROV1915;特尔欣查干;;;;;;;;;;;;x
-PROV1916;Burkhan Buudai;;;;;;;;;;;;x
+PROV1916;布尔汗布岱;;;;;;;;;;;;x
 PROV1917;古尔班赛罕;;;;;;;;;;;;x
 PROV1918;德勒格尔杭爱;;;;;;;;;;;;x
 PROV1919;居延;;;;;;;;;;;;x
@@ -16016,14 +16016,14 @@ b_bolnisi;Bolnisi;;;;;;;;;;;;x
 b_urbnisi;Urbnisi;;;;;;;;;;;;x
 b_samtavisi;Samtavisi;;;;;;;;;;;;x
 b_durdzukia;Durdzukia;;;;;;;;;;;;x
-b_terek;Terek;;;;;;;;;;;;x
-b_kalaus;Kalaus;;;;;;;;;;;;x
+b_terek;捷列克;;;;;;;;;;;;x
+b_kalaus;卡劳斯;;;;;;;;;;;;x
 b_uvek;Uvek;;;;;;;;;;;;x
 b_ryn;Ryn;;;;;;;;;;;;x
-b_yeruslan;Yeruslan;;;;;;;;;;;;x
+b_yeruslan;叶鲁斯兰;;;;;;;;;;;;x
 b_shali;Shali;;;;;;;;;;;;x
-b_argun;Argun;;;;;;;;;;;;x
-b_vedeno;Vedeno;;;;;;;;;;;;x
+b_argun;阿尔贡;;;;;;;;;;;;x
+b_vedeno;韦杰诺;;;;;;;;;;;;x
 b_shatoy;Shatoy;;;;;;;;;;;;x
 b_karata;Karata;;;;;;;;;;;;x
 b_kiri;Kiri;;;;;;;;;;;;x
@@ -16580,7 +16580,7 @@ b_otgontenger;鄂特冈腾格里;;;;;;;;;;;;x
 b_suvraga_khairkhan;苏布日嘎海尔汗;;;;;;;;;;;;x
 b_tarvagatai;Tarvagatai;;;;;;;;;;;;x
 b_terkhiin_tsagaan;特尔欣查干;;;;;;;;;;;;x
-b_burkhan_buudai;Burkhan Buudai;;;;;;;;;;;;x
+b_burkhan_buudai;布尔汗布岱;;;;;;;;;;;;x
 b_gurvan_saikhan;古尔班赛罕;;;;;;;;;;;;x
 b_juyan;居延;;;;;;;;;;;;x
 b_orkhon;嗢昆;;;;;;;;;;;;x
@@ -16694,11 +16694,11 @@ b_jargalant_suvraga;扎尔嘎朗特;;;;;;;;;;;;x
 b_khushuut_suvraga;Khushuut;;;;;;;;;;;;x
 b_mogod;毛高德;;;;;;;;;;;;x
 b_khorgo;霍尔戈;;;;;;;;;;;;x
-b_tariat;Tariat;;;;;;;;;;;;x
+b_tariat;塔里亚特;;;;;;;;;;;;x
 b_khunt;Khunt;;;;;;;;;;;;x
 b_avgaldai;阿布噶勒岱;;;;;;;;;;;;x
 b_khadat;Khadat;;;;;;;;;;;;x
-b_tsahir;Tsahir;;;;;;;;;;;;x
+b_tsahir;查黑尔;;;;;;;;;;;;x
 b_orkhontuul;鄂尔浑图勒;;;;;;;;;;;;x
 b_sant;桑特;;;;;;;;;;;;x
 b_baruunburen;巴伦布兰;;;;;;;;;;;;x
@@ -16736,9 +16736,9 @@ b_chudotvortsa;丘多特沃尔察;;;;;;;;;;;;x
 b_shergol_dzhin;舍尔戈利金;;;;;;;;;;;;x
 b_cheremkhovo;切列姆霍沃;;;;;;;;;;;;x
 b_biger;Biger;;;;;;;;;;;;x
-b_khaliun_burkhan;Khaliun;;;;;;;;;;;;x
+b_khaliun_burkhan;哈利温;;;;;;;;;;;;x
 b_tsogt;Tsogt;;;;;;;;;;;;x
-b_chandmani;Chandmani;;;;;;;;;;;;x
+b_chandmani;钱德曼;;;;;;;;;;;;x
 b_tseel;Tseel;;;;;;;;;;;;x
 b_erdene_burkhan;Erdene;;;;;;;;;;;;x
 b_delgerkhangai;德勒格尔杭爱;;;;;;;;;;;;x
@@ -17246,7 +17246,7 @@ c_otgontenger_adj;鄂特冈腾格里;;;;;;;;;;;;x
 c_suvraga_khairkhan_adj;Suvragi;;;;;;;;;;;;x
 c_tarvagatai_adj;Tarvagatani;;;;;;;;;;;;x
 c_terkhiin_tsagaan_adj;特尔欣;;;;;;;;;;;;x
-c_burkhan_buudai_adj;Burkhani;;;;;;;;;;;;x
+c_burkhan_buudai_adj;布尔汗;;;;;;;;;;;;x
 c_gurvan_saikhan_adj;古尔班;;;;;;;;;;;;x
 c_delgerkhangai_adj;德勒格尔杭爱;;;;;;;;;;;;x
 c_juyan_adj;居延;;;;;;;;;;;;x
