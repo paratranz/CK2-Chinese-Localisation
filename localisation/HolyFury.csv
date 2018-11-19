@@ -5508,8 +5508,8 @@ setting_title_names_random_tooltip;王国和帝国将被分配随机的名称。
 setting_title_names_random_including_duchies;随机（全部）;;;;;;;;;;;;x
 setting_title_names_random_including_duchies_tooltip;公爵领，王国和帝国将被分配随机的名称。\n请注意，此选项可能导致重复的名称。;;;;;;;;;;;;x
 the_assassins_desc;[GetAssassinsSocietyDesc];;;;;;;;;;;;x
-the_assassins_desc_random;The elusive Assassins consider themselves the true followers of [shiite.GetHighGodName], and will do anything to further the advances of the [shiite.GetName] faith and protect their fellow believers. Consisting of loyal warriors as well as competent spies, wielding manipulation and social skills as expertly as a dagger, they specialize in asymmetrical warfare, striking hard at the heart of their enemies.;;;;;;;;;;;;x
-the_assassins_desc_real;The elusive Assassins consider themselves the true followers of Allah, and will do anything to further the advances of Shia Islam and protect their fellow believers. Consisting of loyal warriors as well as competent spies, wielding manipulation and social skills as expertly as a dagger, they specialize in asymmetrical warfare, striking hard at the heart of their enemies.;;;;;;;;;;;;x
+the_assassins_desc_random;神出鬼没的刺客认为他们是[shiite.GetHighGodName]的真正追随者，会不惜一切促进[shiite.GetName]信仰进步并保护他们的教友。他们包括忠诚的勇士和优秀的间谍，玩弄手段和社交技巧像使用匕首一样熟练。他们擅长不对称战争，痛击敌人的心脏。;;;;;;;;;;;;x
+the_assassins_desc_real;难以捉摸的阿萨辛们认为自己是安拉的真正追随者，他们会为伊斯兰教什叶派的进步和保护他们的同胞信徒做任何事情。他们包括忠诚的战士和有能力的间谍，使用操纵、社交技能和匕首的能力堪称专业级别，擅长不对等的战争，重击敌人的心脏。;;;;;;;;;;;;x
 TRIBAL_RET_1;Tribal Warrior;;;;;;;;;;;;x
 TRIBAL_RET_2;Trapper;;;;;;;;;;;;x
 TRIBAL_RET_3;Hunting Party;;;;;;;;;;;;x
@@ -6039,7 +6039,7 @@ string_in;in;;;;;;;;;;;;x
 string_on;on;;;;;;;;;;;;x
 string_through;through;;;;;;;;;;;;x
 string_over;over;;;;;;;;;;;;x
-string_flailing_miserably;who was flailing miserably with [This.GetHerHis] [This.GetDuelWeapon]. I am told the poor [This.GetManWoman] soiled [This.GetHerselfHimself] as death came to claim [This.GetHerHim];;;;;;;;;;;;x
+string_flailing_miserably;而他正在拿着[This.GetHerHis][This.GetDuelWeapon]毫无章法的进攻。我被告知[This.GetManWoman]在[This.GetHerHim]死时全身上下都是[This.GetHerselfHimself]的内脏。;;;;;;;;;;;;x
 string_cut_down_with_ease;who was cut down with ease. The symbols of high rank on [This.GetHerHis] uniform apparently went unnoticed, until a soldier stumbled over [This.GetHerHis] corpse;;;;;;;;;;;;x
 string_resisted_bravely;who resisted bravely until [This.GetSheHe], according to reports, tripped on [This.GetHerHis] own [This.GetDuelWeapon];;;;;;;;;;;;x
 string_took_a_blow_to_the_head;who cut down several good men, before taking a mighty blow of an ax to [This.GetHerHis] head;;;;;;;;;;;;x
@@ -6219,7 +6219,7 @@ EVTDESC_HFP_11025_horse;My horse and I are of one mind and body. Having trained 
 EVTDESC_HFP_11025_owl;Some argued when my owl came with us on this campaign, but between the comforting presence it brings our strategic meetings and the distracting screeching it offers our enemies, protests have ceased. "Attack!" I yell [battlefield_location.GetThroughOver] the [battlefield_location.GetTerrain], and my owl swooshes above my head. Then I see the arrows.;;;;;;;;;;;;x
 EVTDESC_HFP_11025_eagle;Not everybody has a personal bodyguard in the shape of a majestic eagle at their side. More than once [Root.GetSheHe] has aided my attacks here [battlefield_location.GetInOn] the [battlefield_location.GetTerrain] and charging at my enemies, knocking them off their horses, into the [battlefield_location.GetGroundDesc]. There is a comfort in the screeching echoing above me. I am just concerned about-;;;;;;;;;;;;x
 EVTDESC_HFP_11025_falcons;Riding [battlefield_location.GetThroughOver] the [battlefield_location.GetTerrain] I am finding my strength draining from me. Sweat is mixing with dirt and blood down my face and I see an enemy knocking an arrow, taking aim at me. Then I see a bird, swooping down, picking at the rider's face!;;;;;;;;;;;;x
-EVTDESC_HFP_11025_fallback;Riding [battlefield_location.GetThroughOver] the [battlefield_location.GetTerrain], I see a group of [enemy_commander.GetEnemySoldierDesc] soldiers coming for my unit, weapons raised.\nWhen they are finished with us, all my men are dead. I sink to my knees in the [battlefield_location.GetGroundDesc], wondering why I am still here.;;;;;;;;;;;;x
+EVTDESC_HFP_11025_fallback;骑马[battlefield_location.GetThroughOver][battlefield_location.GetTerrain]，我看到了一群[enemy_commander.GetEnemySoldierDesc]正举着武器，向我的部队发起冲锋。\n当他们的冲锋结束时，我的手下几乎全死光了。我无法控制住我的双膝，径直的跪在了[battlefield_location.GetGroundDesc]上，想着为什么我一个人还苟活在这里。;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_dog;Noooo! My dog! You were too good for this world...!;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_TT_dog;Your dog takes an arrow for you.\n;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_cat;Was that an arrow?! KITTEN, NO!!!;;;;;;;;;;;;x
@@ -6232,9 +6232,9 @@ EVTOPTA_HFP_11025_eagle;Arrows!!! Nooo! My trusted companion, where are you?!;;;
 EVTOPTA_HFP_11025_TT_eagle;Your eagle dies in battle.\n;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_falcons;Is that a falcon?! What a strange sight!;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_TT_falcons;The bird probably saved your life.\n;;;;;;;;;;;;x
-EVTOPTA_HFP_11025_fallback;I... What happened? I don't belong here.;;;;;;;;;;;;x
+EVTOPTA_HFP_11025_fallback;我……发生了什么？我根本就不该在这……;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_TT_fallback;You will struggle in the future to overcome these events...\n;;;;;;;;;;;;x
-EVTOPTB_HFP_11025;Where is the enemy commander?! I'll kill [enemy_commander.GetHerHim] myself!;;;;;;;;;;;;x
+EVTOPTB_HFP_11025;敌人的指挥官在哪？！我要亲手杀了[enemy_commander.GetHerHim]！;;;;;;;;;;;;x
 EVTOPTB_HFP_11025_TT;You chase down the §Y[enemy_commander.GetTitledFirstName]§! for a personal duel, while your soldiers tend to your wounded animal.\n;;;;;;;;;;;;x
 chase_down_enemy_commander_tt;你对§Y[enemy_commander.GetTitledFirstName]§!紧追不舍，在战场上直接与他展开了一场决斗……！\n;;;;;;;;;;;;x
 string_Lightning;Lightning;;;;;;;;;;;;x
@@ -6369,8 +6369,8 @@ EVTOPTC50020;[captured_commander.GetSheHeCap]将成为我献给[Root.Religion.Ge
 EVTOPTC50020_TT;你将§Y[captured_commander.GetTitledFirstName]§!的生命献给了诸神，以求他们的眷顾。\n;;;;;;;;;;;;x
 sacrificed_prisoner;进行了一次战场献祭;;;;;;;;;;;;x
 sacrificed_prisoner_desc;This character ordered a captured enemy commander be ritualistically killed and sacrificed, to please the gods.;;;;;;;;;;;;x
-EVTDESC50021;That superstitious fool! [enemy_liege.GetTitledFirstName] took one look at me and had me dragged away from my cell. The next thing I know am propped up onto a pyre, soldiers shouting and chanting excitedly. "May [enemy_liege.Religion.GetHighGodName] accept this offering...." Then I smell smoke.;;;;;;;;;;;;x
-EVTOPTA50021;I cannot believe this is how it ends.;;;;;;;;;;;;x
+EVTDESC50021;这个迷信的愚人！[enemy_liege.GetTitledFirstName]看了我一眼，然后把我从牢笼中拖了出来。下一秒我发生我被绑在了一堆柴堆之上，周围的士兵都极其兴奋的看着我，叫着，吼着。「希望[enemy_liege.Religion.GetHighGodName]能够接受我的馈赠……」然后，火堆被点燃……;;;;;;;;;;;;x
+EVTOPTA50021;我无法相信我竟然会这样死去……;;;;;;;;;;;;x
 EVTOPTB50021;Noo...! My [enemy_liege.GetBrotherSister], for [Root.Society.GetName]... Why...?;;;;;;;;;;;;x
 HIGH_GOD;至高神：;;;;;;;;;;;;x
 GODS;神名：;;;;;;;;;;;;x
@@ -10039,8 +10039,8 @@ duel_experience_desc;This character has learned a thing or two from partaking in
 duelist_renown;Renowned Duelist;;;;;;;;;;;;x
 duelist_renown_desc;This character has built a lasting reputation fighting in many duels.;;;;;;;;;;;;x
 increase_duel_renown_tt;Your §YDuel Renown§! increases\n;;;;;;;;;;;;x
-increase_battlefield_exp_tt;Your §YBattlefield Experience§! increases\n;;;;;;;;;;;;x
-battlefield_experience;Battlefield Experience;;;;;;;;;;;;x
+increase_battlefield_exp_tt;你的§Y战场经验§!提高了\n;;;;;;;;;;;;x
+battlefield_experience;战场经验;;;;;;;;;;;;x
 battlefield_experience_desc;This character has learned a thing or two from partaking in battles.;;;;;;;;;;;;x
 strategic_understanding;Strategic Understanding;;;;;;;;;;;;x
 strategic_understanding_desc;It is one thing to know strategy from the comfort of the war room, having first-hand experience is another one entirely. This character has seen plenty of plans unfold on the battlefield.;;;;;;;;;;;;x
@@ -10501,8 +10501,8 @@ EVTDESC_HFP_11042_A;敌人指挥官[other_combatant.GetTitledFirstName]没有公
 EVTDESC_HFP_11042_B;敌人指挥官[other_combatant.GetTitledFirstName]越来越精准地挥舞[other_combatant.GetHerHis][other_combatant.GetDuelWeapon]，我开始觉得我会死在这，[battlefield_location.GetInOn][battlefield_location.GetTerrain]。;;;;;;;;;;;;x
 EVTDESC_HFP_11042_C;我不能相信正在发生的事，但是随着[other_combatant.GetHerHis]每一次挥动[other_combatant.GetDuelWeapon]，[other_combatant.GetTitledFirstName]越来越接近战斗的胜利。向后一跳来躲避有一个可怕的攻击，我发现我自己已经背靠着一堵[battlefield_location.GetTreeRockFence]。;;;;;;;;;;;;x
 EVTOPTA_HFP_11042;等……等等，我投降！俘虏我吧！;;;;;;;;;;;;x
-EVTOPTB_HFP_11042;带下[commander_cannon_fodder.GetTitledFirstName]……！我来帮你！;;;;;;;;;;;;x
-EVTOPTC_HFP_11042;看来这就是终结了……;;;;;;;;;;;;x
+EVTOPTB_HFP_11042;你把[commander_cannon_fodder.GetTitledFirstName]带走吧……！我来帮你！;;;;;;;;;;;;x
+EVTOPTC_HFP_11042;看来这就是我的结局了……;;;;;;;;;;;;x
 nick_the_traitor;背叛者;;;;;;;;;;;;x
 opinion_betrayed_me_in_battle;在战斗中背叛了我;;;;;;;;;;;;x
 battlefield_betrayal;战场叛徒;;;;;;;;;;;;x
@@ -12137,7 +12137,7 @@ capital_thrall_workers_05;Thrall Workers V;;;;;;;;;;;;x
 capital_thrall_workers_05_desc;A large amount of thralls have been recently shipped to this province after a raid to take care of menial labor.;;;;;;;;;;;;x
 capital_thrall_workers_06;Thrall Workers VI;;;;;;;;;;;;x
 capital_thrall_workers_06_desc;A large amount of thralls have been recently shipped to this province after a raid to take care of menial labor.;;;;;;;;;;;;x
-pillagers_morale;Shared Loot;;;;;;;;;;;;x
+pillagers_morale;分享战利品;;;;;;;;;;;;x
 pillagers_morale_desc;Sharing the loot from a recent raid has improved the morale of this character's troops.;;;;;;;;;;;;x
 great_sacrifice_positive;Great Sacrifice;;;;;;;;;;;;x
 great_sacrifice_negative;Great Heathen Sacrifice;;;;;;;;;;;;x
@@ -12148,10 +12148,10 @@ EVTOPTCHF23207;We will have them shipped back to [Root.Capital.GetName]...;;;;;;
 EVTDESCHF23208;The monstrous raiders led by [From.GetTitledFirstName] have slaughtered many of the people of [FromFrom.GetName], flooding the streets with blood in order to appease their wicked idols.;;;;;;;;;;;;x
 EVTOPTAHF23208;Damn them!;;;;;;;;;;;;x
 EVTOPTBHF23208;This does not concern me.;;;;;;;;;;;;x
-EVTDESCHF23209;[From.GetName] was filled with horses and cattle. Our raiders have rounded up a large flock in the main square so that I can decide which ones to pick for myself and what to do with them.;;;;;;;;;;;;x
-EVTOPTAHF23209;I will offer them to the gods. Burn them!;;;;;;;;;;;;x
-EVTOPTBHF23209;I will take the best specimens.;;;;;;;;;;;;x
-EVTOPTCHF23209;I will share the cattle with my best warriors.;;;;;;;;;;;;x
+EVTDESCHF23209;[From.GetName]城内全是马匹和牲畜。我手下的劫掠者们已经在中央广场上组织了一次大集会让我来挑选一批心仪的牲畜，并且决定其他牲畜的命运。;;;;;;;;;;;;x
+EVTOPTAHF23209;我会将它们献给诸神，全部烧光！;;;;;;;;;;;;x
+EVTOPTBHF23209;我会挑走最好的那一批。;;;;;;;;;;;;x
+EVTOPTCHF23209;我将与我最好的勇士们共享这些牲畜。;;;;;;;;;;;;x
 EVTDESCHF23210;My raiders have stormed the walls of [From.GetName] and overwhelmed the local garrison. With the defenders dead or forced to retreat, we have gained free access to the entire coast of this province. The many riches of [From.Location.County.GetName] are ours for the taking!;;;;;;;;;;;;x
 EVTOPTAHF23210;Burn it all to the ground! Leave nothing but bones and ashes!;;;;;;;;;;;;x
 TOOLTIP_EVTOPTAHF230210;§Y[From.GetName]§! will be ravaged and several of its buildings will be permanently destroyed.;;;;;;;;;;;;x
@@ -14685,7 +14685,7 @@ EVTDESCAHF24061;Thanks to the restless efforts of [Root.GetTitledFirstName], the
 EVTDESCBHF24061;Thanks to the restless efforts of [Root.GetTitledFirstName], the [Root.GetOnlyDynastyName] dynasty has risen to fame amongst their peers as paragons of nobility and class despite its small size.\n[Root.GetTitledFirstName] [Root.GetHerselfHimself] has become a symbol of parental responsibility and familial duty. A sophisticated [Root.GetManWoman] who has devoted [Root.GetHerHis] entire life to uphold the honor and virtue of [Root.GetHerHis] family's good name, [Root.GetSheHe] has become an example for all esteemed aristocrats to follow.;;;;;;;;;;;;x
 EVTOPTAHF24061;Family over all.;;;;;;;;;;;;x
 EVTTITLEHF24062;A realm of Heaven;;;;;;;;;;;;x
-EVTDESCAHF24062;In order to make [Root.Capital.GetName] a center of theological discussion, I must invest some resources to find notable scholars, acquire treaties of past theologians and build the infrastructure needed to host both. It will not be an easy or cheap endeavor, to be sure...;;;;;;;;;;;;x
+EVTDESCAHF24062;为了使[Root.Capital.GetName]成为一座神学辩论的中心，我必须耗费一些资源去寻求德高望重的学者、签订与过去那些神学家的契约，并且修建这两者都急需的基本设施。当然，这肯定不会是轻而易举或是廉价的事情。;;;;;;;;;;;;x
 EVTOPTAHF24062;I will lead the search myself!;;;;;;;;;;;;x
 EVTOPTBHF24062;No price is too big to accomplish this holy quest.;;;;;;;;;;;;x
 EVTOPTCHF24062;A few notable scholars will be enough...;;;;;;;;;;;;x
