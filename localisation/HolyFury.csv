@@ -1150,7 +1150,7 @@ baptism_sponsor_suzerain;§Y[Root.GetTitledFirstName]§!是你的§Y附庸§!;;;
 baptism_sponsor_enemy;§Y[Root.GetTitledFirstName]§!是你的§Y敌人§!;;;;;;;;;;;;x
 baptism_sponsor_opinion;§Y[Root.GetTitledFirstName]§!对§Y[From.GetTitledFirstName]§!的好感;;;;;;;;;;;;x
 baptism_sponsor_distance;距§Y[Root.GetTitledFirstName]§!国土的距离;;;;;;;;;;;;x
-baptism_sponsor_size;Relative size of §Y[Root.GetTitledFirstName]'s§! realm;;;;;;;;;;;;x
+baptism_sponsor_size;相对于§Y[Root.GetTitledFirstName]§!的范围;;;;;;;;;;;;x
 baptism_sponsor_power;Relative power of §Y[Root.GetTitledFirstName]'s§! realm;;;;;;;;;;;;x
 baptism_sponsor_patriarch;§Y[Root.GetTitledFirstName]§!控制着§Y[Root.Religion.GetName]§!信仰的宗教领袖;;;;;;;;;;;;x
 baptism_sponsor_tributary;§Y[Root.GetTitledFirstName]§!是§Y[From.GetTitledFirstName]§!的朝贡者;;;;;;;;;;;;x
@@ -1186,11 +1186,11 @@ EVTDESCHFA20093;我收到了[converting_king.PrimaryTitle.GetName]大规模改�
 EVTOPTAHF20093;[sponsoring_king.GetTitledFirstName]在教会的怀抱中得到了被接纳的权利。;;;;;;;;;;;;x
 EVTDESCHFA20094;To the Exalted [Root.GetTitledName],\nHaving taken into consideration your actions to convert the heathens of [converting_king.PrimaryTitle.GetName], We have decided to welcome you back in the warm and holy embrace of Our Mother Church.\n\nSigned,\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20094;我的善行终于被认可了！;;;;;;;;;;;;x
-EVTDESCHF20096;I have just received news that [From.GetTitledFirstName], the wise pagan ruler who petitioned me to help [From.GetHerHim] convert [From.GetHerHis] realm, has died. \nI can only hope that [From.GetHerHis] successor be as enlightened as [From.GetSheHe] was.;;;;;;;;;;;;x
-EVTDESCHFB20096;I have just received news that [From.GetTitledFirstName], the wise pagan ruler who petitioned me to help [From.GetHerHim] convert [From.GetHerHis] realm, has died. \nIt is very unfortunate that [From.GetHerHis] passing would happen just when I decided to visit [From.GetHerHim].;;;;;;;;;;;;x
-EVTOPTAHF20096;[From.GetTitledFirstName] walks with [Root.Religion.GetHighGodName] now.;;;;;;;;;;;;x
-TOOLTIP_SPONSOR_VISIT_WELCOME_1;Inform [From.GetTitledFirstName] that you are happy with [From.GetHerHis] welcome.;;;;;;;;;;;;x
-TOOLTIP_SPONSOR_VISIT_WELCOME_2;Inform [From.GetTitledFirstName] that you are quite disappointed by [From.GetHerHis] welcome.;;;;;;;;;;;;x
+EVTDESCHF20096;我收到消息说，曾向我发出请求，让我协助[From.GetHerHim]将[From.GetHerHis]臣民改信的明智异教领主[From.GetTitledFirstName]，去世了。\n我只能祈盼[From.GetHerHis]继任者能同[From.GetSheHe]一般开明。;;;;;;;;;;;;x
+EVTDESCHFB20096;我收到消息说，曾向我发出请求，让我协助[From.GetHerHim]将[From.GetHerHis]臣民改信的明智异教领主[From.GetTitledFirstName]，去世了。\n[From.GetHerHis]信使前来传达这个消息时，我正打算去拜访[From.GetHerHim]，这实在是太不幸了。;;;;;;;;;;;;x
+EVTOPTAHF20096;[From.GetTitledFirstName]如今与[Root.Religion.GetHighGodName]同行。;;;;;;;;;;;;x
+TOOLTIP_SPONSOR_VISIT_WELCOME_1;告知[From.GetTitledFirstName]你对[From.GetHerHis]感到高兴。;;;;;;;;;;;;x
+TOOLTIP_SPONSOR_VISIT_WELCOME_2;告知[From.GetTitledFirstName]你对[From.GetHerHis]欢迎感到极为失望。;;;;;;;;;;;;x
 TOOLTIP_SPONSOR_VISIT_FEAST_1;Inform [From.GetTitledFirstName] that you are satisfied with the accommodation [From.GetSheHe] prepared for you.;;;;;;;;;;;;x
 TOOLTIP_SPONSOR_VISIT_FEAST_2;Inform [From.GetTitledFirstName] that you are insulted by [From.GetHerHis] lack of care for [From.GetHerHis] esteemed guest.;;;;;;;;;;;;x
 DEATH_TROUBLED_PREGNANCY;因怀孕期间的并发症而死亡。;;;;;;;;;;;;x
@@ -1218,7 +1218,7 @@ EVTDESCHFPA20406;我亲爱的[GetFromRelation][From.GetFirstName]很担心我的
 EVTDESCHFPB20406;我的宫廷医师很担心我的近况。[From.GetSheHeCap]建议我最好还是在孕期远离公共事务。我可以把事情交给别人去处理，专心照顾自己。;;;;;;;;;;;;x
 EVTOPTAHFP20406;听起来像是个好主意。;;;;;;;;;;;;x
 mother_staying_court;Inform your [GetFromRelation] that you will take leave and remain confined in your private quarters for the duration of the pregnancy.;;;;;;;;;;;;x
-EVTOPTBHFP20406;I'd better leave the [Root.GetHouse] entirely then.;;;;;;;;;;;;x
+EVTOPTBHFP20406;我最好离[Root.GetHouse]远点;;;;;;;;;;;;x
 mother_going_countryside;告诉你的[GetFromRelation]，你要搬到乡村去休个产假。;;;;;;;;;;;;x
 EVTOPTCHFP20406;废话，我觉得我好的不得了。;;;;;;;;;;;;x
 mother_keeps_ruling;告诉你的[GetFromRelation]，即使怀孕了你还是会继续统治。;;;;;;;;;;;;x
@@ -1226,7 +1226,7 @@ EVTDESCHFPA20407;这次怀孕比我最初所想象的还要负担重重。我若
 EVTOPTAHFP20407;听起来像是个好主意！;;;;;;;;;;;;x
 mother_staying_court_2;在你怀孕的最后几个月，你退居幕后并让你的摄政代替执政，并隐居在你的私人房间内。;;;;;;;;;;;;x
 EVTOPTBHFP20407;我最好离[Root.GetHouse]远点;;;;;;;;;;;;x
-mother_going_countryside_2;Retire and let your Regent take charge while you spend the last months of your pregnancy away from court.;;;;;;;;;;;;x
+mother_going_countryside_2;在你怀孕的最后几个月你离开宫廷来度过最后的产假，你退居幕后并让你的摄政代替执政。;;;;;;;;;;;;x
 EVTOPTCHFP20407;废话，我觉得我好的不得了。;;;;;;;;;;;;x
 mother_keeps_ruling_2;继续冒着生命危险来统治领地。;;;;;;;;;;;;x
 EVTDESCHFP20408;谢天谢地，我的[GetFromRelation]真心实意的接受了我的意见，并决定隐居几个月来度过最后的产期。;;;;;;;;;;;;x
@@ -1267,12 +1267,12 @@ EVTDESCHFP20421;我原以为怀孕结束后我会回到之前的样子，但似�
 EVTOPTAHFP20421;既然我怀孕期结束了，我应该试吃的适中点。;;;;;;;;;;;;x
 EVTOPTBHFP20421;稍微放纵一点点有什么问题吗？;;;;;;;;;;;;x
 EVTDESCHFP20422;这是我这周训练的第九个仆人了。当卫兵鞭打那个可怜的男孩时，他甚至没有哭。现在，我甚至不记得我最初为什么生这个男孩的气了。这种想法让我震惊：我的脾气真的失控了，如果我把它发泄到我刚出生的孩子身上，该怎么办？;;;;;;;;;;;;x
-EVTOPTAHFP20422;I really have an anger issue...;;;;;;;;;;;;x
+EVTOPTAHFP20422;我真的有一点易怒了;;;;;;;;;;;;x
 EVTOPTBHFP20422;这不是*我*的问题！;;;;;;;;;;;;x
 EVTDESCHFP20423;过去两天我一直将自己锁在房间里，拒绝任何食物，我太累了，一点也不想动。也不想回答任何人的询问。我将我的所有都给了这个来到这个世界的新生命，现在我觉得自己空洞、无用、孤独。经历那些遭受和痛苦到底有什么意义？;;;;;;;;;;;;x
 EVTOPTAHFP20423;我不能现在就这么简单的放弃，我还有一个孩子等着我去照顾。;;;;;;;;;;;;x
 EVTOPTBHFP20423;继续下去没有意义了。;;;;;;;;;;;;x
-EVTDESCHFP20424;As days go by, I find harder and harder to ignore how my wife seems to have been letting herself go since her pregnancy, ravaging meal after meal.;;;;;;;;;;;;x
+EVTDESCHFP20424;随着日子过去，我越来越无法忽视我的妻子是如何放飞她自己的。她怀孕之后是一顿接着一顿的饕餮大餐。;;;;;;;;;;;;x
 EVTOPTAHFP20424;她可能需要节制一点了。;;;;;;;;;;;;x
 EVTOPTBHFP20424;她会照顾好自己的。;;;;;;;;;;;;x
 EVTDESCHFP20425;可恶！我的配偶刚刚鼓起勇气跟我说我的体重增加太多，需要少吃一些了，好像孕后的恢复一点也不难似的。;;;;;;;;;;;;x
@@ -1332,7 +1332,7 @@ EVTOPTAHFP20502;一副上等毒药就够了。;;;;;;;;;;;;x
 EVTOPTBHFP20502;我会简单地闷死她。;;;;;;;;;;;;x
 EVTOPTCHFP20502;不必担心：她可能会自行死掉。;;;;;;;;;;;;x
 EVTDESCHFPA20503;正当我在床上发烧发的死去活来时，我看见我的面前出现了一道道天堂的黄金之门。一个沐浴在光辉中的生物从门上飞过，他吹响了他的号角，召唤我通过大门。;;;;;;;;;;;;x
-EVTDESCHFPB20503;As I struggled in my bed, burned by the fever, I saw the heavenly palace of Asgard and the battling fields of Valhalla where heroes of old were fighting against each other and alongside the mighty Aesirs.;;;;;;;;;;;;x
+EVTDESCHFPB20503;正当我在床上发烧发的死去活来时，我看到了阿斯加德天宫和英灵殿的战场，在那里英雄们正在和强大的众神们并肩作战。;;;;;;;;;;;;x
 EVTDESCHFPC20503;正当我在床上发烧发的死去活来时，我发现我正坐在巨大的飞行器上。然后忽然之间，这飞行器开始离地而起并不断升空，它带着我一点点飞向天边那飘忽的云彩。;;;;;;;;;;;;x
 EVTOPTAHFP20503;帮我渡过这个难关，[Root.Religion.GetHighGodName]！;;;;;;;;;;;;x
 EVTOPTBHFP20503;我是命中注定要加入他们吗？;;;;;;;;;;;;x
@@ -1393,7 +1393,7 @@ EVTOPTAHFP20523;啊……这什么时候是个头啊？;;;;;;;;;;;;x
 EVTDESCHFPA20524;I tear off another bush of hair from my chest, trying to stop myself from scratching my arms and legs some more. Despite my best efforts to stop it, since a few days now dozens of rashes and spots of disgusting fur have started to dot my skin.;;;;;;;;;;;;x
 EVTOPTAHFP20524;这真是糟糕！;;;;;;;;;;;;x
 EVTDESCHFPA20525;I spit out the glass of water, and order one of my servants to try it again. As the pregnancy progressed, everything has started to taste progressively worse, to the point that now even the blandest of foods and beverages feel like rusted copper in my mouth.;;;;;;;;;;;;x
-EVTOPTAHFP20525;Utterly repulsive.;;;;;;;;;;;;x
+EVTOPTAHFP20525;丑死了。;;;;;;;;;;;;x
 EVTDESCHFPA20526;I feel the touch of the servants covering me yet another time as I stir under my bedsheets, sweating and shivering. I have long since lost the sense of time since this fever has started tormenting me. In fact, I can barely tell if I am awake or not most of the times.;;;;;;;;;;;;x
 EVTOPTAHFP20526;哪……？;;;;;;;;;;;;x
 EVTDESCHFPA20527;As I spend more days wasting away in my bedroom, tormented by this pregnancy, I am finding it a lot harder to focus on anything. Things that I thought obvious now slip away from my mind, and I can hardly remember the names of half the people I seen moving back and forth from my rooms.;;;;;;;;;;;;x
@@ -1417,9 +1417,9 @@ EVTOPTAHFP20535;谁……？你是谁？我在哪？;;;;;;;;;;;;x
 EVTDESCHFPA20536;Things seem to be finally improving. I have resumed to sleep and eat regularly and the cramps have subsided. I may be able to see this labor to its end after all...;;;;;;;;;;;;x
 EVTOPTAHFP20536;希望最糟糕的事情已经过去的。;;;;;;;;;;;;x
 EVTDESCHFPA20537;The servants are working tirelessly around me, changing bloodied bedsheets and brushing blood and sweat off of me, but there seems to be no end to it. The bleeding will not stop and I am too weak to endure any more pain and deprivation.;;;;;;;;;;;;x
-EVTOPTAHFP20537;I cannot-;;;;;;;;;;;;x
+EVTOPTAHFP20537;我不能-;;;;;;;;;;;;x
 EVTDESCHFP20538;鉴于我出生时的不详之象，我显然不是一个平凡的孩子。;;;;;;;;;;;;x
-EVTOPTAHFP20538;Guh?;;;;;;;;;;;;x
+EVTOPTAHFP20538;蛤？;;;;;;;;;;;;x
 EVTDESCHFP20539;这次怀孕是地狱般的折磨，但它的结果至少看起来是一个强壮健康的婴儿。;;;;;;;;;;;;x
 EVTOPTAHFP20539;我的孩子……;;;;;;;;;;;;x
 EVTDESCHFP20540;好像这次可怕的怀孕还不够似的，就连我生出的孩子看上去也有些问题。;;;;;;;;;;;;x
@@ -5275,9 +5275,9 @@ sympathy_zoroastrianism_desc;This character, though not a [zoroastrian.GetName],
 EVTDESCHFA20003;The conversion of [converting_king.Capital.GetName] starts on a cold morning.\nThe Bishop leading [sponsoring_king.GetTitledFirstName]'s embassy meets you at a river near the city. Your faithful vassals stand beside you, while the rest of your subjects wait their turn behind them, looking still visibly confused. The Bishop recites a few verses from [catholic.GetScriptureName] before you lead your vassals into the river. As you pass the [sponsoring_king.Religion.GetName] priests they baptize you, one after the other, in the cold water. It takes some prodding from the guards to convince the peasants to follow you into the water, but, after a while, the entire crowd stands soaked and shaking by the riverside, just in time to watch the priests and their helpers drop your old idols into the waves.\n"As the false visages are swallowed by the tides" the Bishop proclaims, "may their memory forever be banished from your soul.";;;;;;;;;;;;x
 TT_UNREFORMED_PAGAN;Is Unreformed [pagan_group.GetGroupName];;;;;;;;;;;;x
 key_old_pagan_reformation_desc;Reforming the [Player.Religion.GetName] faith will turn it into an organized religion with a religious head. Unless you control all of the Holy Sites, doing so requires §Y50§! Moral Authority and control of §Y3§! [Religion.GetName] holy sites. It will cost you §R750§! [Player.Religion.GetPietyName]. Rulers of a Reformed [pagan_group.GetGroupName] religion can use the Holy War Casus Belli, get access to most succession laws, no longer suffer Prestige loss while at peace, and will have less trouble with independent minded vassals. However, they also lose the defensive supply limit penalty for religious enemies in their territory and vassals will get upset if you have their levies raised for too long for no good reason.;;;;;;;;;;;;x
-TT_NOT_UNREFORMED_PAGAN;Is NOT Unreformed [pagan_group.GetGroupName]\n;;;;;;;;;;;;x
+TT_NOT_UNREFORMED_PAGAN;[pagan_group.GetGroupName]已宗教改革\n;;;;;;;;;;;;x
 MODIFIER_UNREFORMED_TRIBAL_OPINION;未改革[pagan_group.GetGroupName]部落封臣好感;;;;;;;;;;;;x
-UNREFORMED_TRIBAL_VIEW_ON_TRAIT;Unreformed [pagan_group.GetGroupName] Tribal view on $TRAIT$: $VALUE$;;;;;;;;;;;;x
+UNREFORMED_TRIBAL_VIEW_ON_TRAIT;未改革[pagan_group.GetGroupName]部落对$TRAIT$特质的好感：$VALUE$;;;;;;;;;;;;x
 TRAIT_OPINION_UNREFORMED_TRIBAL;未改革[pagan_group.GetGroupName]部落的好感：$VALUE$;;;;;;;;;;;;x
 UNREFORMED_TRIBAL_VASSAL_OPINION;未改革[pagan_group.GetGroupName]部落封臣的好感;;;;;;;;;;;;x
 obj_buddhist_stop_drinking_desc;[This.GetTitledFirstName], as a devoted [buddhist.GetName], is trying to learn to abandon [This.GetHerHis] harmful drinking habits.;;;;;;;;;;;;x
@@ -10080,8 +10080,8 @@ dharmic_good_trait_power_tt;Power: §Y[GetDharmic] Wisdom§!\nMakes you lose wic
 string_Dharmic;Dharmic;;;;;;;;;;;;x
 string_Dharmic_alt;[indian_group.GetGroupName];;;;;;;;;;;;x
 quest_monastic_order_penance_desc;为了让自己更接近[Root.Religion.GetHighGodName]并为自己的罪忏悔，你需要闭门苦修。花时间阅读[Root.Religion.GetScriptureName]，向[Root.Religion.GetHighGodName]祈祷，反思你的人生和行为。在此期间，您必须简朴地生活并与外部世界隔绝。;;;;;;;;;;;;x
-BLOODLINE_PATRILINEAL_INHERITANCE_DELAYED;This Bloodline is passed on through the male line. This means that only male characters can pass the bloodline on to their offspring.;;;;;;;;;;;;x
-BLOODLINE_MATRILINEAL_INHERITANCE_DELAYED;This Bloodline is passed on through the female line. This means that only female characters can pass the bloodline on to their offspring.;;;;;;;;;;;;x
+BLOODLINE_PATRILINEAL_INHERITANCE_DELAYED;该条血脉仅通过父系亲缘传播。这意味着只有男性角色才能将该条血脉传给后代。;;;;;;;;;;;;x
+BLOODLINE_MATRILINEAL_INHERITANCE_DELAYED;该条血脉仅通过母系亲缘传播。这意味着只有女性角色才能将该条血脉传给后代。;;;;;;;;;;;;x
 BLOODLINE_MATRILINEAL_INVERSION_DELAYED;除了正常的血脉继承，如果两个角色处于入赘婚姻，他们的子女将从母亲那里继承父系血脉，从父亲那里继承母系血脉。\n如果孩子没有父亲，而他们的母亲有父系血脉，孩子就会继承它。;;;;;;;;;;;;x
 tengri_pagan_reformed_opinion;改革[tengri_pagan_reformed.GetName]好感;;;;;;;;;;;;x
 tengri_pagan_opinion;[tengri_pagan.GetName]好感;;;;;;;;;;;;x
@@ -10738,7 +10738,7 @@ EVTDESC_HF_12301;[From.GetTitledName], your [From.GetRootRelation], has left thi
 EVTOPTA_HF_12301;我们会记住你的，[From.GetTitledFirstName]。;;;;;;;;;;;;x
 EVTDESC_HF_12302_A;They say that everyone in the [From.GetCapitalHolding] of [From.Capital.GetName] spent several moons preparing for the return of [From.GetTitledName]. The [From.GetManWoman] has been the main source of interest and fascinating rumor since even before [From.GetSheHe] left for [target_title.GetName], but reports all agree that the pomp is well deserved. As [From.Society.GetName] celebrate this warrior's victory, we pray that our young find this living legend an ideal worthy of emulating.;;;;;;;;;;;;x
 EVTOPTA_HF_12302;愿我们共享[From.GetHerHis]荣耀;;;;;;;;;;;;x
-EVTDESC_HF_12303;Having wreaked havoc in the realm of [Root.PrimaryTitle.GetName], the warrior scoundrel [bloodline_founder.GetTitledName] has been carving a name for [bloodline_founder.GetHerselfHimself] in blood. Our records will remember that [bloodline_founder.GetSheHe] and [bloodline_founder.GetHerHis] band of warriors have taken great pleasure in cutting their way through our countryside, fighting any willing man or woman who dared stand in their way, leaving traumatized children and devastated villagers in their wake...;;;;;;;;;;;;x
+EVTDESC_HF_12303;在对[Root.PrimaryTitle.GetName]的土地进行大肆破坏之后，卑劣的战士[bloodline_founder.GetTitledName]用鲜血刻上了[bloodline_founder.GetHerselfHimself]的名字。我们的历史将会牢记，[bloodline_founder.GetSheHe]和[bloodline_founder.GetHerHis]暴徒高歌着闯过我们的村庄，屠杀所有胆敢挡住他们去路的男男女女，只留下那些陷入恐惧的孩童和深深震惊的村民…;;;;;;;;;;;;x
 EVTOPTA_HF_12303;这就是野蛮人的方式。;;;;;;;;;;;;x
 society_legend_increases_tt;§Y[Root.Society.GetNameCap]§!的§Y传说§!增加了\n;;;;;;;;;;;;x
 string_legendary_duel;一场为了传奇的决斗;;;;;;;;;;;;x
