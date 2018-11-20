@@ -1708,14 +1708,14 @@ string_priest_comfort_530;\n§Y牧师§!大声向你呼喊，念诵着驱魔咒�
 string_shaman_comfort_530;\n§Y萨满§!大声向你呼喊，念诵着驱魔咒，试图把你从控制你身体的恶魔手中解救出来。;;;;;;;;;;;;x
 string_spouse_comfort_530;\n§Y[Root.Spouse.GetFirstName]§!吩咐你的仆人扶着你，然后不断地叫你的名字。;;;;;;;;;;;;x
 string_mother_physician_helps_531;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§!要来了更多的床单，并要求你保持镇定，慢慢呼吸。;;;;;;;;;;;;x
-string_spouse_physician_helps_531;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§! holds your hand, whispering to you to take long, deep breaths.;;;;;;;;;;;;x
-string_regent_physician_helps_531;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§! gently cleans the blood from your legs, ordering to your servants to hurry.;;;;;;;;;;;;x
+string_spouse_physician_helps_531;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§!握住了你的手，在你耳边轻声建议你慢而深地呼吸。;;;;;;;;;;;;x
+string_regent_physician_helps_531;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§!轻柔地清理了你腿上的血迹，并要求你的仆人们忙活起来。;;;;;;;;;;;;x
 string_generic_physician_helps_531;\n你的§Y医生§!要来了更多的床单，并要求你保持镇定，慢慢呼吸。;;;;;;;;;;;;x
-string_priest_comfort_531;\nThe §YPriest§! kneels by your bed, fervently praying for your good health.;;;;;;;;;;;;x
-string_shaman_comfort_531;\nThe §YShaman§! claps his cymbals, summoning [Root.Religion.GetRandomGodName] to protect you in your hour of need.;;;;;;;;;;;;x
+string_priest_comfort_531;\n§Y牧师§!跪在你的床边，激动地为你的健康祈祷。;;;;;;;;;;;;x
+string_shaman_comfort_531;\n§Y萨满§!敲打着他的一对钹，召唤[Root.Religion.GetRandomGodName]以在你需要时保护你。;;;;;;;;;;;;x
 string_spouse_comfort_531;\n§Y[Root.Spouse.GetFirstName]§!沮丧地看着你，尝试用话语安慰你。;;;;;;;;;;;;x
-string_mother_physician_helps_532;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§! orders your servants to prepare a tepid soup.;;;;;;;;;;;;x
-string_spouse_physician_helps_532;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§! prepares an unguent to rub over your gums.;;;;;;;;;;;;x
+string_mother_physician_helps_532;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§!命令你的仆人准备温水以供你入浴。;;;;;;;;;;;;x
+string_spouse_physician_helps_532;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§!准备了一份药膏用于涂抹你的牙龈。;;;;;;;;;;;;x
 string_regent_physician_helps_532;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§! offers you a cup of water and reassures you that the feeling will soon pass.;;;;;;;;;;;;x
 string_generic_physician_helps_532;\nYour §YPhysician§! orders your servants to prepare a tepid soup.;;;;;;;;;;;;x
 string_priest_comfort_532;\n§Y牧师§!建议你默默祈祷，并禁食两天。;;;;;;;;;;;;x
@@ -1839,7 +1839,7 @@ tooltip_mary_vow;定下对圣母所发的誓言。;;;;;;;;;;;;x
 EVTOPTBHFP20569;圣母不必操心我的烦恼。;;;;;;;;;;;;x
 EVTDESCHFPA20570;圣母的雕像矗立在教堂的壁龛上，怀中抱着圣子。我跪在雕像面前，抬头望向她忧郁的笑容。;;;;;;;;;;;;x
 EVTOPTAHFP20570;我发誓变得忠贞善良。;;;;;;;;;;;;x
-tooltip_vow_chastity;Be §YChaste§!, avoid the pleasures of the flesh, and the §YHoly Virgin§! may bless you with a strong and healthy child.;;;;;;;;;;;;x
+tooltip_vow_chastity;变得§Y忠贞§!，远离肉体欢愉，§Y圣母§!将赐予你一个强壮又健康的孩子。;;;;;;;;;;;;x
 EVTOPTBHFP20570;我发誓变得谦卑，远离轻佻。;;;;;;;;;;;;x
 tooltip_vow_humility;Be §YHumble§!, avoid trinkets and fine clothing, and the §YHoly Virgin§! may bless you with a strong and healthy child.;;;;;;;;;;;;x
 EVTOPTCHFP20570;我发誓变得慷慨，照顾有需要的人。;;;;;;;;;;;;x
@@ -1906,7 +1906,7 @@ EVTDESCHFPA20579;I was right to go to Mother. She was much happier after I talke
 EVTDESCHFPB20579;去探望我的[GetFromRelation]是对的。她现在感觉好多了。希望我所做的能帮助她更加轻松地度过这次怀孕。;;;;;;;;;;;;x
 EVTOPTAHFP20579;我希望你身体健康，母亲。;;;;;;;;;;;;x
 EVTDESCHFPA20580;When I discovered [From.GetFirstName] lurking in my chambers I barely managed to restrain myself from screaming and accidentally call the guards on [From.GetHerHim]. My lover told me that [From.GetSheHe] wished to comfort me in this stressful period of my life.;;;;;;;;;;;;x
-EVTOPTAHFP20580;I am so glad you came!;;;;;;;;;;;;x
+EVTOPTAHFP20580;我很高兴你来了;;;;;;;;;;;;x
 EVTDESCHFPA20581;孩子终于落地，我又能轻松入睡了。;;;;;;;;;;;;x
 EVTOPTAHFP20581;我感到解放了！;;;;;;;;;;;;x
 EVTDESCHFPA20582;我的小[From.GetFirstName]正在长成为一个非常健谈和令人愉快的[From.GetBoyGirl]。如果不是仅仅因为[From.GetHerHis]扭曲的脚……;;;;;;;;;;;;x
@@ -1933,13 +1933,13 @@ EVTDESCHFPB20590;Perhaps I was not virtuous enough to gain the favor of the Holy
 EVTDESCHFPC20590;The Holy Virgin has turned her gaze away from me. Why else would she let my poor innocent child die before [From.GetSheHe] could even be baptized?;;;;;;;;;;;;x
 EVTOPTAHFP20590;I must still keep true to my vow.;;;;;;;;;;;;x
 EVTOPTBHFP20590;I think it is time to turn my mind back to mundane concerns.;;;;;;;;;;;;x
-EVTOPTCHFP20590;What have I done to offend you, Mother?;;;;;;;;;;;;x
+EVTOPTCHFP20590;我做了什么冒犯你的事情吗，母亲？;;;;;;;;;;;;x
 EVTDESCHFPA20591;As soon as I broke my vow, my poor child's health started to drop. It is only because of my sins that [FromFrom.GetFirstName] now suffers.;;;;;;;;;;;;x
 EVTOPTAHFP20591;What have I done?!;;;;;;;;;;;;x
 EVTDESCHFPA20594;I never knew how terrible it was for my mother to give birth to me until a few years ago, and only now I am starting to truly understand the deadly danger she put herself through in order to bring me into this world.;;;;;;;;;;;;x
-EVTOPTAHFP20594;I must talk to her.;;;;;;;;;;;;x
+EVTOPTAHFP20594;我必须和她谈谈。;;;;;;;;;;;;x
 tooltip_troubled_child_talks;Talk to §Y[From.GetFirstName]§! and show your appreciation for her care and endurance.;;;;;;;;;;;;x
-EVTOPTBHFP20594;I think she already knows how I feel.;;;;;;;;;;;;x
+EVTOPTBHFP20594;我觉得她已经知道我的感受了。;;;;;;;;;;;;x
 EVTDESCHFPA20595;Today [From.GetFirstName] decided to talk to me about [From.GetHerHis] birth. [From.GetSheHeCap] told me that [From.GetSheHe] did not understand until very recently just how close I was to die when giving birth to [From.GetHerHim]. [From.GetSheHeCap] wished to openly show [From.GetHerHis] appreciation for my care and endurance, both during the labor and in the years following it.;;;;;;;;;;;;x
 EVTOPTBHFP20595;It is very kind of you to say so.;;;;;;;;;;;;x
 tooltip_recover_drunkard;Attempt to stop being a §YDrunkard§!.;;;;;;;;;;;;x
@@ -3052,8 +3052,8 @@ EVTDESCHFPA20060;My [GetFromRelation] [From.GetFirstName] has always been a frai
 EVTDESCHFPB20060;My [GetFromRelation] [From.GetFirstName] has always been a frail and quiet kid. [From.GetHerHisCap] body is not meant for manual labor, and is voice barely goes beyond a whisper, but [From.GetHerHis] mind is a boiling cauldron of ideas, restlessly working to explore the darkest subjects.;;;;;;;;;;;;x
 EVTDESCHFPC20060;My [GetFromRelation] [From.GetFirstName] has always been a frail and quiet kid. Unfortunately, it has long become apparent to me that beyond [From.GetHerHis] silence and [From.GetHerHis] scrawny body lays a vicious and ruthless spirit.;;;;;;;;;;;;x
 EVTOPTAHFP20060;令人担忧……;;;;;;;;;;;;x
-hollow_child_brave;Hollow Child;;;;;;;;;;;;x
-hollow_child_brave_desc;This character was born under ominous circumstances. Always sickly during [Root.GetHerHis] childhood, [Root.GetSheHe] has long since grown out of most fears plaguing common men.;;;;;;;;;;;;x
+hollow_child_brave;虚空之子;;;;;;;;;;;;x
+hollow_child_brave_desc;此人在不详中出生，[Root.GetHerHis]身体在童年时总是病得很重，[Root.GetSheHe]已经成为了人们长久以来恐惧的来源。;;;;;;;;;;;;x
 hollow_child_erudite;Hollow Child;;;;;;;;;;;;x
 hollow_child_erudite_desc;This character was born under ominous circumstances. Always sickly during [Root.GetHerHis] childhood, [Root.GetSheHe] has always eschewed manual labor in favor of literary study.;;;;;;;;;;;;x
 hollow_child_cruel;Hollow Child;;;;;;;;;;;;x
@@ -3619,7 +3619,7 @@ string_antagonized_desc_zealous;[From.GetTitledFirstName] is nothing more than a
 string_antagonized_desc_hunchback;[From.GetTitledFirstName]只不过是个畸形的怪胎，但[From.GetSheHe]仍然认为[From.GetSheHe]应该受到尊敬？也许我应该让[From.GetHerHim]明白[From.GetHerHis]处境是多么悲哀。;;;;;;;;;;;;x
 string_antagonized_desc_relative;[From.GetTitledFirstName]和我也许拥有着相同的血脉，但我们的想法向来截然不同。我绝不能忍受我[GetFromRelation]的视线，而且我觉得是时候再次提醒[From.GetHerHim]为什么了。;;;;;;;;;;;;x
 string_antagonized_desc_infidel;[From.GetTitledFirstName] is an infidel, worshiping false idols and forsaking the word of [Root.Religion.GetHighGodName]. What more is needed to disparage [From.GetHerHim]?;;;;;;;;;;;;x
-string_antagonized_desc_heretic;[From.GetTitledFirstName] is a heretic, perverting the worship of [Root.Religion.GetHighGodName] with twisted, unholy rituals. What more is needed to disparage [From.GetHerHim]?;;;;;;;;;;;;x
+string_antagonized_desc_heretic;[From.GetTitledFirstName]是一个异端，用扭曲、非圣的仪式歪曲了[Root.Religion.GetHighGodName]的崇拜。贬低[From.GetHerHim]还需要其他理由吗？;;;;;;;;;;;;x
 string_antagonized_reaction_kinslayer;[From.GetTitledFirstName] has sent [From.GetHerHis] sycophants to torment me once more, spreading vile rumors about me. They seem obsessed with making sure nobody forgets the unspeakable crime I committed against my own family.;;;;;;;;;;;;x
 string_antagonized_reaction_excommunicated;[From.GetTitledFirstName] has sent [From.GetHerHis] sycophants to torment me once more, spreading vile rumors about me. They seem obsessed with making nobody forgets that I am excommunicated from the Church and unworthy of even the most basic decency.;;;;;;;;;;;;x
 string_antagonized_reaction_eunuch;[From.GetTitledFirstName] has sent [From.GetHerHis] sycophants to torment me once more, spreading vile rumors about me. Everybody at court is whispering about my mutilation now, and on how it makes me less of a man and unfit to rule.;;;;;;;;;;;;x
@@ -3676,9 +3676,9 @@ string_antagonized_reaction_heretic;[From.GetTitledFirstName] has sent [From.Get
 combat_rating_tooltip_info;This option is available due to your high §YCombat Rating§!;;;;;;;;;;;;x
 swaying_target_key;Swaying;;;;;;;;;;;;x
 antagonizing_target_key;Antagonizing;;;;;;;;;;;;x
-crown_pahlavi_name;[pahlavi_creator.GetOnlyDynastyName] Crown;;;;;;;;;;;;x
-tooltip_forge_pahalavi_crown;Add the '§Y[Root.GetOnlyDynastyName] Crown§!' to the treasury of [Root.GetTitledFirstName];;;;;;;;;;;;x
-tooltip_antagonize_vassalize_claim;§Y[Root.GetTitledFirstName]§! has a rightful claim to rule over §Y[From.GetTitledFirstName]'s§! lands;;;;;;;;;;;;x
+crown_pahlavi_name;[pahlavi_creator.GetOnlyDynastyName]之冠;;;;;;;;;;;;x
+tooltip_forge_pahalavi_crown;添加“§Y[Root.GetOnlyDynastyName]之冠§!”至[Root.GetTitledFirstName]的宝库;;;;;;;;;;;;x
+tooltip_antagonize_vassalize_claim;§Y[Root.GetTitledFirstName]§!对§Y[From.GetTitledFirstName]的§!领地拥有正当的宣称;;;;;;;;;;;;x
 antagonize_slandering_vassals;De-legitimized Rule;;;;;;;;;;;;x
 antagonize_slandering_vassals_desc;Some recent events have put this ruler under a bad light, resulting in most of [Root.GetHerHis] vassals not entirely trusting [Root.GetHerHis] legitimacy as [Root.GetTitle].;;;;;;;;;;;;x
 antagonize_slandering_relatives;害群之马;;;;;;;;;;;;x
@@ -6228,8 +6228,8 @@ EVTOPTA_HFP_11025_horse;[Root.GetWarhorseName], no! Your sacrifice will not be f
 EVTOPTA_HFP_11025_TT_horse;Your horse dies in battle.\n;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_owl;Nooo! My trusted companion!;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_TT_owl;Your owl is added to the list of casualties.\n;;;;;;;;;;;;x
-EVTOPTA_HFP_11025_eagle;Arrows!!! Nooo! My trusted companion, where are you?!;;;;;;;;;;;;x
-EVTOPTA_HFP_11025_TT_eagle;Your eagle dies in battle.\n;;;;;;;;;;;;x
+EVTOPTA_HFP_11025_eagle;箭！！！不！我信任的同伴，你在哪里？！;;;;;;;;;;;;x
+EVTOPTA_HFP_11025_TT_eagle;你的鹰死于战斗。\n;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_falcons;Is that a falcon?! What a strange sight!;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_TT_falcons;The bird probably saved your life.\n;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_fallback;我……发生了什么？我根本就不该在这……;;;;;;;;;;;;x
@@ -6260,9 +6260,9 @@ string_Vinayaka;Vinayaka;;;;;;;;;;;;x
 string_Mara;Mara;;;;;;;;;;;;x
 string_Punisher;Punisher;;;;;;;;;;;;x
 string_sweetpea;Sweet-pea;;;;;;;;;;;;x
-string_duel_in_on_the_terrain;A Duel [battlefield_location.GetInOn] the [battlefield_location.GetTerrainCap];;;;;;;;;;;;x
+string_duel_in_on_the_terrain;一场[battlefield_location.GetTerrainCap][battlefield_location.GetInOn]的决斗;;;;;;;;;;;;x
 getDuelTitle;[Root.GetDuelTitle];;;;;;;;;;;;x
-you_will_get_away_with_it_tt;Everything is just, in a war...\n;;;;;;;;;;;;x
+you_will_get_away_with_it_tt;战争中一切都是合理的……\n;;;;;;;;;;;;x
 EVTDESC_HFP_10111_battlefield_duel;[other_combatant.GetTitledFirstName] has just managed to [Root.GetWeaponInjuringBlowOnMe], but [other_combatant.GetSheHe] does not seem finished with me. The last thing I hear is the panicked shouting of my fellow soldiers, followed by a soft thud, which can only be my head hitting the ground.;;;;;;;;;;;;x
 EVTDESC_HFP_10109_battlefield_duel;Just as I [other_combatant.GetWeaponInjuringBlow], [other_combatant.GetTitledFirstName] manages to [Root.GetWeaponInjuringBlowOnMe]. Then [other_combatant.GetSheHe] stumbles down into the [battlefield_location.GetGroundDesc]. I turn to the [battlefield_location.GetLocalWeatherAdjective] skies above me, sending a prayer of thanks to [Root.TrueReligion.GetHighGodName].;;;;;;;;;;;;x
 EVTDESC_HFP_10110_battlefield_duel;正当我[other_combatant.GetWeaponInjuringBlow]，[other_combatant.GetTitledFirstName]成功地[Root.GetWeaponInjuringBlowOnMe]。迷迷糊糊地，我摔倒在了[battlefield_location.GetGroundDesc]。那个吃人的[other_combatant.GetManWoman]赢得了决斗…;;;;;;;;;;;;x
@@ -6972,19 +6972,19 @@ EVTTOOLTIP_HF_42000_STEWARDSHIP;现在有一个帮助[sway_target.GetTitledFirst
 EVTTOOLTIP_HF_42000_INTRIGUE;A chance to help improve [sway_target.GetTitledFirstName]'s understanding of court intrigue, and §YSway§! [sway_target.GetHerHim] to my cause.;;;;;;;;;;;;x
 EVTTOOLTIP_HF_42000_LEARNING;A chance to help improve [sway_target.GetTitledFirstName]'s writing, and §YSway§! [sway_target.GetHerHim] to my cause.;;;;;;;;;;;;x
 EVTTOOLTIP_HF_42000_NO;I will refrain from offering my help.;;;;;;;;;;;;x
-EVTDESC_HF_42001_DIPLOMACY;I received a letter and a package from [From.GetTitledFirstName], where [From.GetSheHe] recommends me to take a look through the books [From.GetSheHe] sent me. They seem to be mostly focused around politics and negotiations.;;;;;;;;;;;;x
-EVTDESC_HF_42001_MARTIAL;A large burly man has been sent by [From.GetTitledFirstName] to help train my soldiers. For some reason they think they are better at exercising my men than I am.;;;;;;;;;;;;x
+EVTDESC_HF_42001_DIPLOMACY;我收到了来自[From.GetTitledFirstName]的一封信和包裹，[From.GetSheHe]在信中建议我看完[From.GetSheHe]送给我的书。书的内容似乎主要集中在政治和谈判。;;;;;;;;;;;;x
+EVTDESC_HF_42001_MARTIAL;一个魁梧的大汉被[From.GetTitledFirstName]派来帮助我训练士兵。因为一些原因他们认为他们比我更适于训练我的人。;;;;;;;;;;;;x
 EVTDESC_HF_42001_STEWARDSHIP;几个书记员被[From.GetTitledFirstName]派遣至我处。他们声称他们可以帮助我治理领地和处理商业事务。;;;;;;;;;;;;x
-EVTDESC_HF_42001_INTRIGUE;A short and concise letter has been sent by [From.GetTitledFirstName], where [From.GetSheHe] discusses the recent rumors which have been spread about me.;;;;;;;;;;;;x
-EVTDESC_HF_42001_LEARNING;[From.GetTitledFirstName] has sent me a long letter about how I could improve my writing, and get a better understanding of more difficult scientific subjects. ;;;;;;;;;;;;x
-EVTOPTA_HF_42001;If [From.GetSheHe] thinks [From.GetSheHe] can help, I am willing to give it a try.;;;;;;;;;;;;x
-EVTOPTB_HF_42001;Who does [From.GetSheHe] think [From.GetSheHe] is?;;;;;;;;;;;;x
-well_spoken;Well Spoken;;;;;;;;;;;;x
-confused_by_diplomacy;Confused by Diplomacy;;;;;;;;;;;;x
-jumbling_words;Jumbling Words;;;;;;;;;;;;x
-well_drilled;Drilled Soldiers;;;;;;;;;;;;x
-confused_by_warfare;Confused by Warfare;;;;;;;;;;;;x
-unrespected_general;Disregarded General;;;;;;;;;;;;x
+EVTDESC_HF_42001_INTRIGUE;[From.GetTitledFirstName]寄来了一封简洁的书信，[From.GetSheHe]在信中讨论了最近散布的关于我的传言。;;;;;;;;;;;;x
+EVTDESC_HF_42001_LEARNING;[From.GetTitledFirstName]送给我了一封长信，信中写了关于我如何能够提高我的写作，并更好地理解更难的科学问题。;;;;;;;;;;;;x
+EVTOPTA_HF_42001;如果[From.GetSheHe]认为[From.GetSheHe]能够提供帮助，我很愿意给这样一个机会。;;;;;;;;;;;;x
+EVTOPTB_HF_42001;[From.GetSheHe]认为[From.GetSheHe]是谁？;;;;;;;;;;;;x
+well_spoken;巧言令色;;;;;;;;;;;;x
+confused_by_diplomacy;对外交感到困惑;;;;;;;;;;;;x
+jumbling_words;胡言乱语;;;;;;;;;;;;x
+well_drilled;训练有素的士兵;;;;;;;;;;;;x
+confused_by_warfare;对军事感到困惑;;;;;;;;;;;;x
+unrespected_general;不被承认的将军;;;;;;;;;;;;x
 well_governed;巧言令色的官员;;;;;;;;;;;;x
 confused_by_governing;对统治感到困惑;;;;;;;;;;;;x
 good_image;好的画像;;;;;;;;;;;;x
@@ -6995,7 +6995,7 @@ terrible_writer;糟糕的作家;;;;;;;;;;;;x
 EVTTOOLTIP_HF_42001_GOOD;良好的发展;;;;;;;;;;;;x
 EVTTOOLTIP_HF_42001_BAD;不利的发展;;;;;;;;;;;;x
 EVTTOOLTIP_HF_42001_NEUTRAL;中性的发展;;;;;;;;;;;;x
-EVTDESC_HF_42002_DIPLOMACY;I have noted a difference in the day to day political life recently, as I have started to find it a lot easier to simply converse with my courtiers and political allies. ;;;;;;;;;;;;x
+EVTDESC_HF_42002_DIPLOMACY;最近，我注意到了日常政治生活中的不同，我开始发现，与我的廷臣和政治盟友进行简单对话要容易得多。;;;;;;;;;;;;x
 EVTDESC_HF_42002_MARTIAL;My men look sharper and more ready for war than ever, and I feel ready to lead them to war. I would not have expected anything akin to this, just a couple of weeks ago.;;;;;;;;;;;;x
 EVTDESC_HF_42002_STEWARDSHIP;Money has been flowing the last month as every business deal I do seem to go in my favor, and my people seem happier than ever.;;;;;;;;;;;;x
 EVTDESC_HF_42002_INTRIGUE;Whatever rumors might have been floating around, seem to have dissipated the last month, and my own rumormongers have effectively spread a better image of me.;;;;;;;;;;;;x
@@ -10126,7 +10126,7 @@ HF_227_OPTB;我有更重要的事要去注意。。;;;;;;;;;;;;x
 slain_legendary_beast;杀死传奇凶兽;;;;;;;;;;;;x
 slain_legendary_beast_desc;该角色杀死了一只恐吓大众的凶残野兽。;;;;;;;;;;;;x
 outsmarted_legendary_beast;智取传奇凶兽;;;;;;;;;;;;x
-outsmarted_legendary_beast_desc;该角色用[GetHerHis]才智与一只传奇凶兽展开搏斗，结果那只野兽在搏斗中摔死了。;;;;;;;;;;;;x
+outsmarted_legendary_beast_desc;该角色用[GetHerHis]才智与一只传奇凶兽展开搏斗，结果那只野兽在搏斗中被摔死了。;;;;;;;;;;;;x
 DEATH_ACCIDENT_GENERIC_BEAST;被野兽所杀;;;;;;;;;;;;x
 HF_228_DESC;In order to teach me how to hunt, [marshal_target.GetJobTitle] [marshal_target.GetFirstName] has brought me into the forest. We are silently moving through the shrubbery as I spot a [child_of_destiny.GetRegionalSmallGameAnimal]! I give chase, running until I manage to get a clear shot off – it is a kill! I turn around to face [marshal_target.GetFirstName] with a gleeful smile on my face, but in [marshal_target.GetHerHis] stead is a massive [child_of_destiny.GetRegionalFerociousAnimal]! I ready my spear, and then I...;;;;;;;;;;;;x
 HF_228_OPTA;... use a rock as leverage and puncture the neck of the [child_of_destiny.GetRegionalFerociousAnimal] as it attacks!;;;;;;;;;;;;x
@@ -10859,19 +10859,19 @@ String_brute;brute;;;;;;;;;;;;x
 String_Sky_Hunter;Sky Hunter;;;;;;;;;;;;x
 String_Hunter;Hunter;;;;;;;;;;;;x
 String_Strategist;Strategist;;;;;;;;;;;;x
-String_Fighter;Fighter;;;;;;;;;;;;x
-String_Champion;Champion;;;;;;;;;;;;x
-String_Soldier;Soldier;;;;;;;;;;;;x
-String_Duelist;Duelist;;;;;;;;;;;;x
-String_Brute;Brute;;;;;;;;;;;;x
-String_Warrior;Warrior;;;;;;;;;;;;x
-String_Commander;Commander;;;;;;;;;;;;x
-String_commander;commander;;;;;;;;;;;;x
+String_Fighter;战士;;;;;;;;;;;;x
+String_Champion;卫士;;;;;;;;;;;;x
+String_Soldier;士兵;;;;;;;;;;;;x
+String_Duelist;决斗者;;;;;;;;;;;;x
+String_Brute;禽兽;;;;;;;;;;;;x
+String_Warrior;战士;;;;;;;;;;;;x
+String_Commander;战士;;;;;;;;;;;;x
+String_commander;指挥官;;;;;;;;;;;;x
 String_Clever;聪慧;;;;;;;;;;;;x
 String_Eloquent;雄辩的;;;;;;;;;;;;x
 String_Thrifty;节俭的;;;;;;;;;;;;x
 String_Learned;饱学的;;;;;;;;;;;;x
-String_Sweet;Sweet;;;;;;;;;;;;x
+String_Sweet;真甜！;;;;;;;;;;;;x
 String_Sincere;诚挚的;;;;;;;;;;;;x
 String_Headstrong;刚愎自用的;;;;;;;;;;;;x
 String_Adamant;坚定的;;;;;;;;;;;;x
@@ -10883,9 +10883,9 @@ String_Eager;热心的;;;;;;;;;;;;x
 String_Dedicated;专注的;;;;;;;;;;;;x
 String_Enthusiastic;狂热的;;;;;;;;;;;;x
 EVTDESC_HF_12405;"My [Root.GetLordLady]!", the [Root.GetWarriorRole] struggling next to me shouts. "We have to do something about these [enemy_liege.Culture.GetName] soldiers! They are gaining on us!".\n"What do you expect me to do?" I shout back over the turmoil of battle.;;;;;;;;;;;;x
-EVTOPTA_HF_12405;Battle hymns! Of course! *clears throat*;;;;;;;;;;;;x
-EVTOPTB_HF_12405;Clang your swords together! To the rhythm of BLOOD!;;;;;;;;;;;;x
-inspired_singer;Battle Singer;;;;;;;;;;;;x
+EVTOPTA_HF_12405;战歌！当然！清清嗓子;;;;;;;;;;;;x
+EVTOPTB_HF_12405;刀剑争鸣！谱成血之旋律！;;;;;;;;;;;;x
+inspired_singer;战场歌手;;;;;;;;;;;;x
 inspired_singer_desc;This character is known to inspire [Root.GetHerHis] companions on the battlefield, singing songs of triumph even before the battle is won.;;;;;;;;;;;;x
 inspired_drummer;Battle Drummer;;;;;;;;;;;;x
 inspired_drummer_desc;This character is known to intimidate [Root.GetHerHis] enemies from a distance, rhythmically chanting threats of destruction upon entering a battle.;;;;;;;;;;;;x
@@ -10928,7 +10928,7 @@ warrior_lodge_west_african_random;The Rain Runners;;;;;;;;;;;;x
 warrior_lodge_west_african_desc_random;Occasionally spotted leaving offerings in the water, the Rain Runners fight and train in the name of [west_african_pagan.GetHighGodName]. When charging into battle, they wear blue and are known to carry small fetish symbols close to their heart.;;;;;;;;;;;;x
 warrior_lodge_zun;[GetZunWarriorSocietyName];;;;;;;;;;;;x
 warrior_lodge_zun_real;The Keepers of the Flame;;;;;;;;;;;;x
-warrior_lodge_zun_random;The Fire Dancers;;;;;;;;;;;;x
+warrior_lodge_zun_random;烈焰舞者;;;;;;;;;;;;x
 warrior_lodge_zun_desc;[GetZunWarriorSocietyDesc];;;;;;;;;;;;x
 warrior_lodge_zun_desc_real;The Zun always watching, the Keepers of the Flame vow to be a strong as their scorching god in the sky. Spending long hours training and practicing with each other, clad in the colors of flame, they are known for their cool determination on the battlefield.;;;;;;;;;;;;x
 warrior_lodge_zun_desc_random;The sun always watching, the Fire Dancers vow to be a strong as the scorching being in the sky. Spending long hours training and practicing with each other, they are often clad in the colors of flame. Many admire their usage of fire, during their ceremonial fights.;;;;;;;;;;;;x
@@ -10946,7 +10946,7 @@ a_commander_joins_your_court_tt;一位名叫§Y[invited_character.GetBestName]§
 quest_warrior_lodge_duel_honor;荣誉决斗;;;;;;;;;;;;x
 quest_warrior_lodge_duel_honor_desc;战士公会的成员经常互相切磋，既是练习，也是消遣。但如果没有他人的注意，就不必为其后果负责……;;;;;;;;;;;;x
 quest_warrior_lodge_duel_honor_tooltip;To complete this mission you need to §Gright-click§! on the portrait of your target and choose to §YDuel§! them. The winner will receive the most §Y[Root.Society.GetCurrency]§!.;;;;;;;;;;;;x
-quest_warrior_lodge_duel_deadly;Duel for Blood;;;;;;;;;;;;x
+quest_warrior_lodge_duel_deadly;嗜血决斗者;;;;;;;;;;;;x
 quest_warrior_lodge_duel_deadly_desc;It is important to occasionally test one's mettle and prove oneself as a warrior. A straight-forward way is to seek out enemies and deal with them, personally...;;;;;;;;;;;;x
 quest_warrior_lodge_duel_deadly_tooltip;要完成这项任务，你需要§G右键点击§!你目标的头像并且与他们§Y决斗§!。胜者将会得到大部分§Y[Root.Society.GetCurrency]§!。然而失败并屈辱活着将意味着失去§Y[Root.Society.GetCurrency]§!……;;;;;;;;;;;;x
 quest_warrior_lodge_war;发动战争;;;;;;;;;;;;x
@@ -13758,22 +13758,22 @@ EVTOPTBHF25413;As long as it's making [From.GetHerHim] stronger...;;;;;;;;;;;;x
 EVTDESCHF25414;Today, [From.GetFirstName] took some time to scold me about my training. [From.GetSheHeCap] claims that spending so much time with uncouth riffraff is making me lose my manners and forgo any care about my looks, an behavior unfitting for a [Root.GetTitle].;;;;;;;;;;;;x
 EVTOPTAHF25414;All this fuss for a bit of dirt...;;;;;;;;;;;;x
 EVTDESCHF25415;The past few months I have been focusing entirely on my training with [warrior_lodge_to_join.GetName], and the effects are showing. I cannot believe how strong I have become. I might be always reeking of sweat and blood, but I can scarcely argue with results.;;;;;;;;;;;;x
-EVTOPTAHF25415;Grooming is for courtesans.;;;;;;;;;;;;x
-EVTTITLEHF25400_CHILDS_BRAVERY;[new_recruit.GetFirstName]'s Courage;;;;;;;;;;;;x
-EVTDESCHF25416;[child_hero_mentor.GetBestName] told me that [child_hero_mentor.GetSheHe] is concerned about my [GetFromRelation], claiming that the child lacks the grit and bravery of a true member of [warrior_lodge_to_join.GetName]. [child_hero_mentor.GetFirstName] thinks that forcing my [GetFromRelation] to confront [From.GetHerHis] fears is the best way to help [From.GetHerHim] overcome them.;;;;;;;;;;;;x
+EVTOPTAHF25415;打扮是妓女才做的事。;;;;;;;;;;;;x
+EVTTITLEHF25400_CHILDS_BRAVERY;[new_recruit.GetFirstName]的勇气;;;;;;;;;;;;x
+EVTDESCHF25416;[child_hero_mentor.GetBestName]告诉我[child_hero_mentor.GetSheHe]正担心我的[GetFromRelation]，宣称这个孩子缺乏一个真正[warrior_lodge_to_join.GetName]成员该有的勇气和毅力。[child_hero_mentor.GetFirstName]认为强迫我的[GetFromRelation]面对[From.GetHerHis]的恐惧是帮助[From.GetHerHim]克服恐惧最好的方式。;;;;;;;;;;;;x
 EVTOPTAHF25416;我相信你的判断。;;;;;;;;;;;;x
 EVTOPTBHF25416;我不会让你把我[GetFromRelation]的生命置于危险之中！;;;;;;;;;;;;x
-EVTTITLEHF25400_MY_BRAVERY;A lesson in Bravery;;;;;;;;;;;;x
-EVTDESCHF25417;My [GetFromRelation] and [child_hero_mentor.GetBestName] have approached me today with a dangerous task to complete. They claim that the best way for me to overcome my fears is to leave [Root.Capital.GetName] and spend a few days in the wilds, learning how to survive on my own.;;;;;;;;;;;;x
+EVTTITLEHF25400_MY_BRAVERY;勇气的一课;;;;;;;;;;;;x
+EVTDESCHF25417;我的[GetFromRelation]和[child_hero_mentor.GetBestName]带来一项要完成该的危险任务走近我。他们声称克服我的恐惧的最好的方法是离开[Root.Capital.GetName]并在野外度过一段时间，以使我学习怎样生存。;;;;;;;;;;;;x
 EVTOPTAHF25417;我－我不太确定……;;;;;;;;;;;;x
-EVTTITLEHF25400_CHILDS_SHAPE;The problem with [new_recruit.GetFirstName];;;;;;;;;;;;x
-EVTDESCAHF25418;[child_hero_mentor.GetBestName] approached me today to talk about my [GetFromRelation]. [child_hero_mentor.GetSheHeCap] fears that the child is growing too fat to be a proper warrior, and we need to take drastic measures if we want to put [From.GetHerHim] on the right path.;;;;;;;;;;;;x
+EVTTITLEHF25400_CHILDS_SHAPE;[new_recruit.GetFirstName]的问题;;;;;;;;;;;;x
+EVTDESCAHF25418;[child_hero_mentor.GetBestName]走近我并开始谈论起我的[GetFromRelation]。[child_hero_mentor.GetSheHeCap]害怕这个孩子会长得太胖以至于无法成为一名合格的战士。如果我们想要让[From.GetHerHim]走上正轨，我们需要采取激进的措施。;;;;;;;;;;;;x
 EVTDESCBHF25418;[child_hero_mentor.GetBestName] approached me today to talk about my [GetFromRelation]. [child_hero_mentor.GetSheHeCap] fears that the child is growing too weak and sickly to be a proper warrior, and we need to take drastic measures if we want to put [From.GetHerHim] on the right path.;;;;;;;;;;;;x
-EVTOPTAHF25418;I agree, we must do what necessary.;;;;;;;;;;;;x
-TT_EVTOPTAHF25418;§Y[child_hero_mentor.GetFirstName]§! will put your [GetFromRelation] through an intensive training.;;;;;;;;;;;;x
+EVTOPTAHF25418;我同意，我们必须做必要的事情。;;;;;;;;;;;;x
+TT_EVTOPTAHF25418;§Y[child_hero_mentor.GetFirstName]§!会使你的[GetFromRelation]接受特别训练。;;;;;;;;;;;;x
 EVTOPTBHF25418;[From.GetSheHeCap] is fine as [From.GetSheHe] is.;;;;;;;;;;;;x
-EVTTITLEHF25400_MY_SHAPE;Training with [child_hero_mentor.GetBestName];;;;;;;;;;;;x
-EVTDESCAHF25419;[child_hero_mentor.GetTitledFirstName] claims that I need to eat less and train more if I wish to become a worthy member of [warrior_lodge_to_join.GetName]. [child_hero_mentor.GetSheHeCap] says that my [GetFromRelation] has given [child_hero_mentor.GetHerHim] permission to put me through an intensive training regiment to get me in better shape.;;;;;;;;;;;;x
+EVTTITLEHF25400_MY_SHAPE;和[child_hero_mentor.GetBestName]一起训练;;;;;;;;;;;;x
+EVTDESCAHF25419;[child_hero_mentor.GetTitledFirstName]声称我需要节食并训练更多，如果我想要成为[warrior_lodge_to_join.GetName]的更有价值的成员。[child_hero_mentor.GetSheHeCap]说我的[GetFromRelation]已经给予[child_hero_mentor.GetHerHim]允许以使我接受特别训练管控以提高我的身材。;;;;;;;;;;;;x
 EVTDESCBHF25419;[child_hero_mentor.GetTitledFirstName] claims that I need to eat and train more if I wish to become a worthy member of [warrior_lodge_to_join.GetName]. [child_hero_mentor.GetSheHeCap] says that my [GetFromRelation] has given [child_hero_mentor.GetHerHim] permission to put me through an intensive training regiment to get me in better shape.;;;;;;;;;;;;x
 EVTOPTAHF25419;I will not disappoint you!;;;;;;;;;;;;x
 EVTOPTBHF25419;But I like how I am!;;;;;;;;;;;;x
@@ -17417,9 +17417,9 @@ EVTOPTDHF24227;我不得不顾及下国家的稳定。;;;;;;;;;;;;x
 EVTOPTEHF24227;还是不足和一钵沙相提并论？;;;;;;;;;;;;x
 EVTOPTFHF24227;够了。我已经花了太多了。;;;;;;;;;;;;x
 EVTTITLEHF24228;阿育王的新化身;;;;;;;;;;;;x
-EVTDESCAHF24228;It was not an easy task to convince the Brahmins, but their final response was inevitable.\nIt was only a matter of time before my true nature was revealed for all the world to admire. \nI am the last incarnation of Ashoka, the great unifier of India.\nBy returning in the form of [Root.GetFullName] I have led the people of this great land to peace and prosperity just as I did in my past life, and just like my successors will do after I leave this body.;;;;;;;;;;;;x
-EVTDESCBHF24228;It was not an easy task to convince the Brahmins, but their final response was inevitable.\nIt was only a matter of time before my true nature was revealed for all the world to admire. \nI am the last incarnation of Ashoka, the great unifier of India.\nBy returning in the form of [Root.GetFullName] I will unify the people of this great land under a new Empire of Harmony and Virtue, just like I did in my past life and just like my successors will continue to do after I leave this body.;;;;;;;;;;;;x
-EVTOPTAHF24228;We are the same.;;;;;;;;;;;;x
+EVTDESCAHF24228;让婆罗门信服是一件并不容易完成的任务，但他们最终的答复是必然会有的。\n我的真实本性被昭示并为世人所敬仰只是时间问题。\n我就是印度伟大的统一者阿育王最后的化身。\n通过回归到[Root.GetFullName]的化身，我为这片伟大土地上的人民带了和平和繁荣，恰如我的前世所为，我的继任者在我离开这具躯壳后也将能做到。;;;;;;;;;;;;x
+EVTDESCBHF24228;让婆罗门信服是一件并不容易完成的任务，但他们最终的答复是必然会有的。\n我的真实本性被昭示并为世人所敬仰只是时间问题。\n我就是印度伟大的统一者阿育王最后的化身。\n通过回归到[Root.GetFullName]的化身，我将会把这片伟大土地上的人民统一于一个和谐与美德并举的新帝国之下，恰如我前世所为，我的继任者在我离开这具躯壳后也能继续做到。;;;;;;;;;;;;x
+EVTOPTAHF24228;我们是一样的。;;;;;;;;;;;;x
 EVTDESCAHF24229;After a long, laborious ordeal, [From.GetTitledFirstName] has been announced by a council of Brahmins as the new incarnation of Devanampiya Piyadassi.\nAfter having unified India once already in the form of Ashoka, this enlightened spirit has been reborn in the [From.GetOnlyDynastyName] and achieve this glorious feat a second time.\nUnder [From.GetHerHis] rule, India is sure to know peace, prosperity and harmony for centuries to come.;;;;;;;;;;;;x
 EVTDESCBHF24229;After a long, laborious ordeal, [From.GetTitledFirstName] has been announced by a council of Brahmins as the new incarnation of Devanampiya Piyadassi.\nAfter having unified India once already in the form of Ashoka, this enlightened spirit has been reborn in the [From.GetOnlyDynastyName] and [From.GetSheHe] is now set to achieve this glorious feat for the second time.\nUnder [From.GetHerHis] rule, India is sure to know peace, prosperity and harmony for centuries to come.;;;;;;;;;;;;x
 EVTOPTAHF24229;Who would have thought?;;;;;;;;;;;;x
