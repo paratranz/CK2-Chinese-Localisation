@@ -1526,9 +1526,9 @@ RULE_OPTION_EXCLAVE_PURGE_HARSH_DESC;作为一个和平的独立领主，一块�
 RULE_OPTION_TOTAL;全部;;;;;;;;;;;;x
 RULE_OPTION_EXCLAVE_PURGE_TOTAL_DESC;作为一个和平的独立领主，一块省份如果没有通过较短的海上通道（通常为3格以内）与其首都相连，那么该省份将在继承发生时独立。;;;;;;;;;;;;x
 EVTDESC_GR_19;由于[text_target.GetSheHe]统治的领地距离你的首都太远，§Y[text_target.GetBestName]§!已经从你的领地独立。;;;;;;;;;;;;x
-EVTDESC_GR_20;作为一块伯爵领，§Y[text_target.Capital.GetName]§!离你的首都太远。一个不知天高地厚的名叫§Y[text_target.GetBestName]§!的农民占据了这片土地！;;;;;;;;;;;;x
-EVTDESC_GR_21;As the Barony of §Y[text_target_barony.GetName]§! was too far from your capital, an uppity peasant named §Y[text_target.GetBestName]§! was able to seize it unopposed!;;;;;;;;;;;;x
-EVTDESC_GR_22;As your lands were too far from the capital of §Y[Root.TopLiege.GetBestName]§!, you have lost contact with [Root.TopLiege.GetHerHim] and become independent.;;;;;;;;;;;;x
+EVTDESC_GR_20;省份§Y[text_target.Capital.GetName]§!离你的首都太远，以至于一个不知天高地厚的、名叫§Y[text_target.GetBestName]§!的农民占据了这片土地！;;;;;;;;;;;;x
+EVTDESC_GR_21;领地§Y[text_target_barony.GetName]§!离你的首都太远，以至于一个不知天高地厚的、名叫§Y[text_target.GetBestName]§!的农民占据了这片土地！;;;;;;;;;;;;x
+EVTDESC_GR_22;由于你的领地距离§Y[Root.TopLiege.GetBestName]§!的首都太远， 你已经失去了与[Root.TopLiege.GetHerHim]的联系并获得独立。;;;;;;;;;;;;x
 giant;巨人症;;;;;;;;;;;;x
 giant_desc;这个角色生来就是个巨人。虽然让人印象深刻，但是这个角色有严重的健康问题，并且很可能英年早逝。;;;;;;;;;;;;x
 giant_death;无法承担他们自己庞大的躯体;;;;;;;;;;;;x
@@ -1662,9 +1662,9 @@ string_mother_physician_helps_524;\n§Y[pregnancy_mother_physician_per.GetTitled
 string_spouse_physician_helps_524;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§!清洗了你的头发并在你的头上抹上了一种奇怪的油。;;;;;;;;;;;;x
 string_regent_physician_helps_524;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§!给了你一种止痒的药膏。;;;;;;;;;;;;x
 string_generic_physician_helps_524;\n你的§Y医生§!在你的皮疹上涂上了一种难闻的混合物。;;;;;;;;;;;;x
-string_priest_comfort_524;\n§Y医生§!警告你切忌骚挠自己，并要求你把你的注意力集中在[Root.Religion.GetRandomGodName]上。;;;;;;;;;;;;x
-string_shaman_comfort_524;\n§Y萨满§!借给你一个护身符来擦皮疹。;;;;;;;;;;;;x
-string_spouse_comfort_524;\n§Y[Root.Spouse.GetFirstName]§! looks at you in anguish, offering words of comfort.;;;;;;;;;;;;x
+string_priest_comfort_524;\n§Y牧师§!警告你切忌骚挠自己，并要求你把你的注意力集中在[Root.Religion.GetRandomGodName]上。;;;;;;;;;;;;x
+string_shaman_comfort_524;\n§Y萨满§!借给你一个护身符来擦过皮疹。;;;;;;;;;;;;x
+string_spouse_comfort_524;\n§Y[Root.Spouse.GetFirstName]§!痛苦地看着你，试图用言语来安慰你。;;;;;;;;;;;;x
 string_mother_physician_helps_525;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§!给了你用来清洁口腔的药水。;;;;;;;;;;;;x
 string_spouse_physician_helps_525;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§!建议你捂住鼻子，并且忽视你的感官。;;;;;;;;;;;;x
 string_regent_physician_helps_525;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§!烧了一些香来解放你充斥着血腥味的喉咙。;;;;;;;;;;;;x
@@ -1676,21 +1676,21 @@ string_mother_physician_helps_526;\n§Y[pregnancy_mother_physician_per.GetTitled
 string_spouse_physician_helps_526;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§!帮助你喝了一口杯子里的水。;;;;;;;;;;;;x
 string_regent_physician_helps_526;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§!在你身旁坐下，开始检查起你的体温，并吩咐佣人给你换床单。;;;;;;;;;;;;x
 string_generic_physician_helps_526;\n你的§Y医生§!将一块湿布盖住你的额头，并吩咐你的仆人端更多水过来。;;;;;;;;;;;;x
-string_priest_comfort_526;\nYou hear the §YPriest's§! voice in the distance, reciting a familiar prayer.;;;;;;;;;;;;x
-string_shaman_comfort_526;\nYou hear the §YShaman's§! voice in the distance, reciting an obscure spell.;;;;;;;;;;;;x
-string_spouse_comfort_526;\nYou hear §Y[Root.Spouse.GetFirstName]'s§! voice in the distance, whispering you comforting words.;;;;;;;;;;;;x
-string_mother_physician_helps_527;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§! decides to make you breathe some healing fumes to help you restore your memory.;;;;;;;;;;;;x
-string_spouse_physician_helps_527;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§! sits near your bed, slowly reading through your daily correspondence.;;;;;;;;;;;;x
-string_regent_physician_helps_527;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§! helps you recall the names of your family members and your daily routine.;;;;;;;;;;;;x
-string_generic_physician_helps_527;\nYour §YPhysician§! decides to make you breathe some healing fumes to help you restore your memory.;;;;;;;;;;;;x
-string_priest_comfort_527;\nThe §YPriest§! recites old tales from the [Root.Religion.GetScriptureName], interrogating you on some of the things you have forgotten.;;;;;;;;;;;;x
-string_shaman_comfort_527;\nThe §YShaman§! prepares a ritual to track down the spirit who stole your memories.;;;;;;;;;;;;x
-string_spouse_comfort_527;\n§Y[Root.Spouse.GetFirstName]§! tells you stories about your life together, trying to help you remember what you have forgotten.;;;;;;;;;;;;x
-string_mother_physician_helps_528;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§! gently reassures you that everything is alright and you should go back to rest.;;;;;;;;;;;;x
-string_spouse_physician_helps_528;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§! quickly prepares a philter to calm your nerves.;;;;;;;;;;;;x
-string_regent_physician_helps_528;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§! dismisses the guards and helps you lay down on your bed.;;;;;;;;;;;;x
-string_generic_physician_helps_528;\nYour §YPhysician§! gently reassures you that everything is alright and you should go back to rest.;;;;;;;;;;;;x
-string_priest_comfort_528;\nThe §YPriest§! recites some comforting verses from the [Root.Religion.GetScriptureName] to calm you down.;;;;;;;;;;;;x
+string_priest_comfort_526;\n你在远处听见§Y牧师的§!声音，诵念着一段熟悉的祷文。;;;;;;;;;;;;x
+string_shaman_comfort_526;\n你在远处听见§Y萨满的§!声音，诵念着一段晦涩的咒语。;;;;;;;;;;;;x
+string_spouse_comfort_526;\n你在远处听见§Y[Root.Spouse.GetFirstName]§!声音，轻语着一些令你宽慰的话语。;;;;;;;;;;;;x
+string_mother_physician_helps_527;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§!决定使你吸入一些有治愈性质的烟气，以此来帮助你恢复记忆。;;;;;;;;;;;;x
+string_spouse_physician_helps_527;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§!在你的床边坐下，缓慢地通读你的日常信件。;;;;;;;;;;;;x
+string_regent_physician_helps_527;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§!帮助你回想家族成员的姓名，以及你的日常活动路线。;;;;;;;;;;;;x
+string_generic_physician_helps_527;\n你的§Y医生§!决定使你吸入一些有治愈性质的烟气，以此来帮助你恢复记忆。;;;;;;;;;;;;x
+string_priest_comfort_527;\n§Y牧师§!诵念了记载于[Root.Religion.GetScriptureName]之上的古老歌谣，询问你关于那些失去的记忆。;;;;;;;;;;;;x
+string_shaman_comfort_527;\n§Y萨满§!准备了一场仪式，以追查偷走了你记忆的灵体。;;;;;;;;;;;;x
+string_spouse_comfort_527;\n§Y[Root.Spouse.GetFirstName]§!向你讲述你们一同生活时的点点滴滴，以期帮助你召回那些失去的记忆。;;;;;;;;;;;;x
+string_mother_physician_helps_528;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§!温和地向你保证一切正常，并要求你回去休息。;;;;;;;;;;;;x
+string_spouse_physician_helps_528;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§!快速地准备好了药剂，以缓解你的紧张。;;;;;;;;;;;;x
+string_regent_physician_helps_528;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§!斥退了守卫，帮助你躺回到床上。;;;;;;;;;;;;x
+string_generic_physician_helps_528;\n你的§Y医生§!温和地向你保证一切正常，并要求你回去休息。;;;;;;;;;;;;x
+string_priest_comfort_528;\n§Y牧师§!诵念了一些[Root.Religion.GetScriptureName]上的舒缓人心的经文，以期让你平复下来。;;;;;;;;;;;;x
 string_shaman_comfort_528;\nThe §YShaman§! yells alongside you and beats his drum to scare off the evil spirits tormenting you.;;;;;;;;;;;;x
 string_spouse_comfort_528;\n§Y[Root.Spouse.GetFirstName]§! takes your hands within his and whispers comforting words in your ear to help you forget your nightmare.;;;;;;;;;;;;x
 string_mother_physician_helps_529;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§!给你准备了一次浸泡以期恢复你的食欲。;;;;;;;;;;;;x
@@ -1704,43 +1704,43 @@ string_mother_physician_helps_530;\n§Y[pregnancy_mother_physician_per.GetTitled
 string_spouse_physician_helps_530;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§! places a chunk of wood in your mouth as [pregnancy_spouse_physician_per.GetSheHe] holds you still.;;;;;;;;;;;;x
 string_regent_physician_helps_530;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§! whispers reassurances in your ear, hoping to calm you down, while holding you to your bed.;;;;;;;;;;;;x
 string_generic_physician_helps_530;\n你的§Y医生§!吩咐你的仆人扶住你，直到事情结束。;;;;;;;;;;;;x
-string_priest_comfort_530;\n§Y牧师§!大声向你呼喊，背诵着驱魔咒，把你从控制你身体的恶魔手中解救出来。;;;;;;;;;;;;x
-string_shaman_comfort_530;\nThe §YShaman§! shouts over you, reciting an exorcism to free you of the evil spirit that has taken hold of your body.;;;;;;;;;;;;x
-string_spouse_comfort_530;\n§Y[Root.Spouse.GetFirstName]§! calls for you as he urges your servants to hold you still.;;;;;;;;;;;;x
-string_mother_physician_helps_531;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§!要求更多的床单，并敦促你保持静止，慢慢呼吸。;;;;;;;;;;;;x
+string_priest_comfort_530;\n§Y牧师§!大声向你呼喊，念诵着驱魔咒，试图把你从控制你身体的恶魔手中解救出来。;;;;;;;;;;;;x
+string_shaman_comfort_530;\n§Y萨满§!大声向你呼喊，念诵着驱魔咒，试图把你从控制你身体的恶魔手中解救出来。;;;;;;;;;;;;x
+string_spouse_comfort_530;\n§Y[Root.Spouse.GetFirstName]§!吩咐你的仆人扶着你，然后不断地叫你的名字。;;;;;;;;;;;;x
+string_mother_physician_helps_531;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§!要来了更多的床单，并要求你保持镇定，慢慢呼吸。;;;;;;;;;;;;x
 string_spouse_physician_helps_531;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§! holds your hand, whispering to you to take long, deep breaths.;;;;;;;;;;;;x
 string_regent_physician_helps_531;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§! gently cleans the blood from your legs, ordering to your servants to hurry.;;;;;;;;;;;;x
-string_generic_physician_helps_531;\nYour §YPhysician§! calls for more bedsheets and urges you to hold still and breathe slowly.;;;;;;;;;;;;x
+string_generic_physician_helps_531;\n你的§Y医生§!要来了更多的床单，并要求你保持镇定，慢慢呼吸。;;;;;;;;;;;;x
 string_priest_comfort_531;\nThe §YPriest§! kneels by your bed, fervently praying for your good health.;;;;;;;;;;;;x
 string_shaman_comfort_531;\nThe §YShaman§! claps his cymbals, summoning [Root.Religion.GetRandomGodName] to protect you in your hour of need.;;;;;;;;;;;;x
-string_spouse_comfort_531;\n§Y[Root.Spouse.GetFirstName]§! looks at you in dismay, trying to comfort you with his words.;;;;;;;;;;;;x
+string_spouse_comfort_531;\n§Y[Root.Spouse.GetFirstName]§!沮丧地看着你，尝试用话语安慰你。;;;;;;;;;;;;x
 string_mother_physician_helps_532;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§! orders your servants to prepare a tepid soup.;;;;;;;;;;;;x
 string_spouse_physician_helps_532;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§! prepares an unguent to rub over your gums.;;;;;;;;;;;;x
 string_regent_physician_helps_532;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§! offers you a cup of water and reassures you that the feeling will soon pass.;;;;;;;;;;;;x
 string_generic_physician_helps_532;\nYour §YPhysician§! orders your servants to prepare a tepid soup.;;;;;;;;;;;;x
 string_priest_comfort_532;\n§Y牧师§!建议你默默祈祷，并禁食两天。;;;;;;;;;;;;x
-string_shaman_comfort_532;\nThe §YShaman§! urges you to drink a philter to strengthen your teeth.;;;;;;;;;;;;x
-string_spouse_comfort_532;\n§Y[Root.Spouse.GetFirstName]§! looks at you in dismay, trying to comfort you with his words.;;;;;;;;;;;;x
-string_mother_physician_helps_533;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§! prepares a potion to help you sleep.;;;;;;;;;;;;x
+string_shaman_comfort_532;\n§Y萨满§!让你通过喝下一瓶魔力药水来强化你的牙齿。;;;;;;;;;;;;x
+string_spouse_comfort_532;\n§Y[Root.Spouse.GetFirstName]§!沮丧地看着你，尝试用话语安慰你。;;;;;;;;;;;;x
+string_mother_physician_helps_533;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§!为你准备了安眠药。;;;;;;;;;;;;x
 string_spouse_physician_helps_533;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§! suggests to close your eyes and start counting.;;;;;;;;;;;;x
 string_regent_physician_helps_533;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§! sits beside you, reading from a book of old legends.;;;;;;;;;;;;x
-string_generic_physician_helps_533;\nYour §YPhysician§! prepares a potion to help you sleep.;;;;;;;;;;;;x
+string_generic_physician_helps_533;\n你的§Y医生§!为你准备了安眠药。;;;;;;;;;;;;x
 string_priest_comfort_533;\nThe §YPriest§! sits next to your bed, spending the night with you reading from the [Root.Religion.GetScriptureName].;;;;;;;;;;;;x
 string_shaman_comfort_533;\n§Y萨满§!在夜里和你讲了有关祖先的古老传说。;;;;;;;;;;;;x
 string_spouse_comfort_533;\n§Y[Root.Spouse.GetFirstName]§! sits awake next to you, trying to entertain you with polite conversation about what has been happening at court during your absence.;;;;;;;;;;;;x
-string_mother_physician_helps_534;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§! offers you a poultice, urging you to take it immediately.;;;;;;;;;;;;x
+string_mother_physician_helps_534;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§!给了你一剂药膏，要求你立即服用。;;;;;;;;;;;;x
 string_spouse_physician_helps_534;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§! shakes you gently, asking you who are you talking to.;;;;;;;;;;;;x
 string_regent_physician_helps_534;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§! explains that there is nobody else in the bedroom aside from you.;;;;;;;;;;;;x
-string_generic_physician_helps_534;\nYour §YPhysician§! offers you a poultice, urging you to take it immediately.;;;;;;;;;;;;x
+string_generic_physician_helps_534;\n你的§Y医生§!给了你一剂药膏，要求你立即服用。;;;;;;;;;;;;x
 string_priest_comfort_534;\nThe §YPriest§! starts reciting an exorcism, holding his holy symbol to your forehead.;;;;;;;;;;;;x
 string_shaman_comfort_534;\nThe §YShaman§! chides you for listening to the evil spirits that are trying to unravel your mind and kill your child.;;;;;;;;;;;;x
 string_spouse_comfort_534;\n§Y[Root.Spouse.GetFirstName]§! holds your hand, trying to explain that you are seeing things that are not here.;;;;;;;;;;;;x
-string_mother_physician_helps_535;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§! gently reassures you and helps you back to your chambers.;;;;;;;;;;;;x
+string_mother_physician_helps_535;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§!温柔地安抚你，并协助你回到你的房间。;;;;;;;;;;;;x
 string_spouse_physician_helps_535;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§! reminds you of who you are as [pregnancy_spouse_physician_per.GetSheHe] walks you to your bedroom.;;;;;;;;;;;;x
 string_regent_physician_helps_535;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§! reassures you that everything will be clearer next morning as [pregnancy_regent_physician_per.GetSheHe] lays you down in your bed.;;;;;;;;;;;;x
-string_generic_physician_helps_535;\nYour §YPhysician§! gently reassures you and helps you back to your chambers.;;;;;;;;;;;;x
-string_priest_comfort_535;\nThe §YPriest§! accompanies you back to your chambers.;;;;;;;;;;;;x
-string_shaman_comfort_535;\nThe §YShaman§! accompanies you back to your chambers.;;;;;;;;;;;;x
+string_generic_physician_helps_535;\n你的§Y医生§!温柔地安抚你，并协助你回到你的房间。;;;;;;;;;;;;x
+string_priest_comfort_535;\n§Y牧师§!陪你回到你的房间。;;;;;;;;;;;;x
+string_shaman_comfort_535;\n§Y萨满§!陪你回到你的房间。;;;;;;;;;;;;x
 string_spouse_comfort_535;\n§Y[Root.Spouse.GetFirstName]§! whispers words of reassurance in your ear as he walks you back to the bedroom.;;;;;;;;;;;;x
 string_mother_physician_helps_540;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§! places a damp cloth over your forehead, urging the servants to bring more water.;;;;;;;;;;;;x
 string_spouse_physician_helps_540;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§!帮助你喝了一口杯子里的水。;;;;;;;;;;;;x
@@ -1753,16 +1753,16 @@ string_mother_physician_helps_541;\n§Y[pregnancy_mother_physician_per.GetTitled
 string_spouse_physician_helps_541;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§! cleans your hair and applies a strange oil on your head.;;;;;;;;;;;;x
 string_regent_physician_helps_541;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§! gives you an ointment to reduce the itch.;;;;;;;;;;;;x
 string_generic_physician_helps_541;\nYour §YPhysician§! applies a smelly mixture over your head.;;;;;;;;;;;;x
-string_priest_comfort_541;\nThe §YPriest§! warns you to stop scratching yourself and turn your thoughts to [Root.Religion.GetRandomGodName].;;;;;;;;;;;;x
-string_shaman_comfort_541;\nThe §YShaman§! lends you one of his amulets to rub over your head.;;;;;;;;;;;;x
-string_spouse_comfort_541;\n§Y[Root.Spouse.GetFirstName]§! looks at you in anguish, offering words of comfort.;;;;;;;;;;;;x
-string_mother_physician_helps_542;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§! calls for more bedsheets and urges you to hold still and breathe slowly.;;;;;;;;;;;;x
+string_priest_comfort_541;\n§Y牧师§!警告你切忌骚挠自己，并要求你把你的注意力集中在[Root.Religion.GetRandomGodName]上。;;;;;;;;;;;;x
+string_shaman_comfort_541;\n§Y萨满§!借给你一个护身符来擦过你的头。;;;;;;;;;;;;x
+string_spouse_comfort_541;\n§Y[Root.Spouse.GetFirstName]§!痛苦地看着你，试图用言语来安慰你。;;;;;;;;;;;;x
+string_mother_physician_helps_542;\n§Y[pregnancy_mother_physician_per.GetTitledFirstName]§!要来了更多的床单，并要求你保持镇定，慢慢呼吸。;;;;;;;;;;;;x
 string_spouse_physician_helps_542;\n§Y[pregnancy_spouse_physician_per.GetTitledFirstName]§! holds your hand, whispering to you to take long, deep breaths.;;;;;;;;;;;;x
 string_regent_physician_helps_542;\n§Y[pregnancy_regent_physician_per.GetTitledFirstName]§! gently cleans the blood from your legs, ordering to your servants to hurry.;;;;;;;;;;;;x
-string_generic_physician_helps_542;\nYour §YPhysician§! calls for more bedsheets and urges you to hold still and breathe slowly.;;;;;;;;;;;;x
+string_generic_physician_helps_542;\n你的§Y医生§!要来了更多的床单，并要求你保持镇定，慢慢呼吸。;;;;;;;;;;;;x
 string_priest_comfort_542;\nThe §YPriest§! kneels by your bed, fervently praying for your good health.;;;;;;;;;;;;x
 string_shaman_comfort_542;\nThe §YShaman§! claps his cymbals, summoning [Root.Religion.GetRandomGodName] to protect you in your hour of need.;;;;;;;;;;;;x
-string_spouse_comfort_542;\n§Y[Root.Spouse.GetFirstName]§! looks at you in dismay, trying to comfort you with his words.;;;;;;;;;;;;x
+string_spouse_comfort_542;\n§Y[Root.Spouse.GetFirstName]§!沮丧地看着你，尝试用话语安慰你。;;;;;;;;;;;;x
 mother_praying_health;怀孕：祷告;;;;;;;;;;;;x
 mother_praying_health_desc;This woman is fervently praying for a safe labor and for the good health of the child she is carrying.;;;;;;;;;;;;x
 mother_resting_health;怀孕：卧床休息;;;;;;;;;;;;x
@@ -1775,16 +1775,16 @@ mother_good_omen;怀孕：吉兆;;;;;;;;;;;;x
 mother_good_omen_desc;The pregnancy of this woman is happening under auspicious signs and is likely to end positively for both mother and child.;;;;;;;;;;;;x
 mother_bad_omen;怀孕：凶兆;;;;;;;;;;;;x
 mother_bad_omen_desc;The pregnancy of this woman is not happening under auspicious signs and may be doomed to an unfortunate end.;;;;;;;;;;;;x
-mother_vow_chastity;Pregnancy: Vow of Chastity;;;;;;;;;;;;x
+mother_vow_chastity;怀孕：忠贞誓言;;;;;;;;;;;;x
 mother_vow_chastity_desc;This woman has vowed to the Holy Virgin that she will be chaste and avoid the temptations of the flesh. In exchange, she hopes that the Mother of Christ will protect her and her child during the dangerous moments of her labor.;;;;;;;;;;;;x
-mother_vow_humility;Pregnancy: Vow of Humility;;;;;;;;;;;;x
+mother_vow_humility;怀孕：谦卑誓言;;;;;;;;;;;;x
 mother_vow_humility_desc;This woman has vowed to the Holy Virgin that she will show humility and avoid dressing immodestly. In exchange, she hopes that the Mother of Christ will protect her and her child during the dangerous moments of her labor.;;;;;;;;;;;;x
-mother_vow_charity;Pregnancy: Vow of Charity;;;;;;;;;;;;x
+mother_vow_charity;怀孕：慷慨誓言;;;;;;;;;;;;x
 mother_vow_charity_desc;This woman has vowed to the Holy Virgin that she will care for the sick and the needy. In exchange, she hopes that the Mother of Christ will protect her and her child during the dangerous moments of her labor.;;;;;;;;;;;;x
-mother_vow_temperance;Pregnancy: Vow of Temperance;;;;;;;;;;;;x
+mother_vow_temperance;怀孕：节制誓言;;;;;;;;;;;;x
 mother_vow_temperance_desc;This woman has vowed to the Holy Virgin that she will show restraint in her habits and forsake all excesses. In exchange, she hopes that the Mother of Christ will protect her and her child during the dangerous moments of her labor.;;;;;;;;;;;;x
 mother_exposed_to_elements;Exposed to Elements;;;;;;;;;;;;x
-mother_exposed_to_elements_desc;这个女人一个人孤独地在荒野上行走着，这使她和她肚中的孩子暴露在糟糕的天气、猛兽和强盗的威胁中。;;;;;;;;;;;;x
+mother_exposed_to_elements_desc;这个女人在荒野上独自行走，这使她和她肚中的孩子暴露在糟糕的天气、猛兽和强盗的威胁中。;;;;;;;;;;;;x
 mother_comforted;受到安慰;;;;;;;;;;;;x
 mother_comforted_desc;The comforting visit of a loved one has placated this woman, helping her putting her mind at ease in a delicate period of her pregnancy.;;;;;;;;;;;;x
 EVTOOLTIPAHFP20502;试图给§Y[From.GetTitledFirstName]§!下毒。;;;;;;;;;;;;x
@@ -5253,7 +5253,7 @@ string_holywar_dharmic;Dharmic;;;;;;;;;;;;x
 string_holywar_random_name;[hindu.GetName], [buddhist.GetName] and [jain.GetName];;;;;;;;;;;;x
 EVTDESCHFPA20018;A month has passed since I gave birth to little [From.GetFirstName]. As is tradition, I should undergo my Churching, as any good [christian.GetGroupName] mother does, and rejoin the Holy Church now that my body has been cleansed of all impurities.;;;;;;;;;;;;x
 feudal_government_desc;封建制是由君主和封臣的契约架构而成的。封建君主只能直接控制极为有限的地产，因此他们必须依赖那些对他们或忠诚或叛逆的封臣…你有一些继承法可供选择—每一种继承法都互有优劣。你还可以通过变更你的中央集权法来调整你的直辖领地大小和直属封臣数量。如果你将你的宗教变更为[muslim.GetGroupName]宗教组，你的政体将变更为伊克塔制。;;;;;;;;;;;;x
-muslim_government_desc;[arabic.GetGroupName]的伊克塔制与封建制甚为相似—君主必须依靠那些或忠臣不二或野心勃勃的封臣来实现他的统治。你可以通过变更中央集权法来调整你直辖的地产数量。但是你只有一种继承法可供使用—土耳其继承法，在该继承法下，拥有最多地产的儿子将获得继承权。如果你改信了一种不是[muslim.GetGroupName]的宗教，你的政体将切换为封建制。;;;;;;;;;;;;x
+muslim_government_desc;[arabic.GetGroupName]的伊克塔制与封建制甚为相似—君主必须依靠那些或忠诚不二或野心勃勃的封臣来实现他的统治。你可以通过变更中央集权法来调整你直辖的地产数量。但是你只有土耳其继承法一种继承法可供使用，在该继承法下，拥有最多地产的儿子将获得继承权。如果你改信了一种不是[muslim.GetGroupName]的宗教，你的政体将切换为封建制。;;;;;;;;;;;;x
 TRAIT_OPINION_MUSLIM;[muslim.GetGroupName]好感：$VALUE$;;;;;;;;;;;;x
 TRAIT_OPINION_ZORO;[zoroastrian.GetName]好感：$VALUE$;;;;;;;;;;;;x
 TRAIT_OPINION_JEWISH;[jewish.GetName]好感：$VALUE$;;;;;;;;;;;;x
@@ -14538,7 +14538,7 @@ forging_legend_martial_law_2_desc;In an effort to root out dissidents from [From
 obj_forge_bloodline_title;Forge Bloodline;;;;;;;;;;;;x
 obj_forge_bloodline;Forge Bloodline;;;;;;;;;;;;x
 obj_forge_bloodline_desc;致力于使你的名字镌留青史，从而使你的子孙后代都能分享你的威名。;;;;;;;;;;;;x
-obj_forge_bloodline_condition_tooltip;为了完成这一野心，你需要执行以下任务之一，或通过其他方式建立一条§Y血脉§!：\n §Y*§!谋杀或处决§Y30§!个人。[Root.GetFoundBloodlineKillCounter]\n §Y*§!赢得 §Y15§!场对外战争。[Root.GetFoundBloodlineWarCounter]\n §Y*§!保持领土和平 §Y30§!年。[Root.GetFoundBloodlinePeaceCounter]\n §Y*§!修建§Y10§!座城市。[Root.GetFoundBloodlineCityCounter]\n §Y*§!修建§Y10§!座城堡。[Root.GetFoundBloodlineCastleCounter]\n §Y*§!修建§Y10§!座教堂。[Root.GetFoundBloodlineTempleCounter]\n\n注意，同时执行多个任务可能导致混合血脉的产生。;;;;;;;;;;;;x
+obj_forge_bloodline_condition_tooltip;为了完成这一野心，你需要执行以下任务之一，或通过其他方式建立一条§Y血脉§!：\n §Y*§!谋杀或处决§Y30§!个人。[Root.GetFoundBloodlineKillCounter]\n §Y*§!赢得§Y15§!场对外战争。[Root.GetFoundBloodlineWarCounter]\n §Y*§!保持领土和平 §Y30§!年。[Root.GetFoundBloodlinePeaceCounter]\n §Y*§!修建§Y10§!座城市。[Root.GetFoundBloodlineCityCounter]\n §Y*§!修建§Y10§!座城堡。[Root.GetFoundBloodlineCastleCounter]\n §Y*§!修建§Y10§!座教堂。[Root.GetFoundBloodlineTempleCounter]\n\n注意，同时执行多个任务可能导致混合血脉的产生。;;;;;;;;;;;;x
 string_found_bloodline_kill_counter;(§G[This.bloodline_murdered_people.GetValue]§!/§G30§!);;;;;;;;;;;;x
 string_found_bloodline_war_counter;(§G[This.bloodline_won_wars.GetValue]§!/§G15§!);;;;;;;;;;;;x
 string_found_bloodline_peace_counter;(§G[This.bloodline_peaceful_years.GetValue]§!/§G30§!);;;;;;;;;;;;x
@@ -17354,12 +17354,12 @@ EVTTITLEHF24210;亚历山大的继业者;;;;;;;;;;;;x
 EVTDESCAHF24210;There have been many rumors about [From.GetTitledFirstName] recently.\nUsing the help of charlatans, sorcerers and grave-robbers, the [From.GetTitle] of [From.PrimaryTitle.GetName] has fabricated a ludicrous claim to Alexander's the Great dynasty. Many rulers have made such ludicrous assertions in the past, trying to latch onto the glorious name of the ancient conqueror, yet none had been taken seriously, until now.\nBy associating [From.GetHerHis] family to Alexander, [From.GetTitledFirstName] has succeeded in increasing enormously the prestige of the [From.GetOnlyDynastyName] for centuries to come.;;;;;;;;;;;;x
 EVTOPTAHF24210;How can people fall for such a blatant fabrication?;;;;;;;;;;;;x
 EVTOPTBHF24210;And I could not be happier for us!;;;;;;;;;;;;x
-EVTTITLEHF24220;Ashoka's Form;;;;;;;;;;;;x
-EVTDESCAHF24220;阿育王因其英明睿智的文治与雄才大略的武功为后人所铭记。在他的领导下，印度实现了统一与和平。\n与那些对他的成就邯郸学步的王朝不同，我的功业离他的伟功最为接近。最近我深思熟虑，既然我的家族已经重新统一了印度，将整片次大陆纳入了光明和公正的秩序之下，我们可以证明正是阿育王光辉的精神通过我们的血统一路传承至我体内。;;;;;;;;;;;;x
-EVTDESCBHF24220;阿育王因其英明睿智的文治与雄才大略的武功为后人所铭记。在他的领导下，印度实现了统一与和平。\n与那些对他的成就邯郸学步的王朝不同，我的功业离他的伟功最为接近。最近我深思熟虑，作为[Root.PrimaryTitle.GetName]的[Root.GetTitle]，我们可以证明正是阿育王光辉的精神通过我们的血统一路传承至我体内。;;;;;;;;;;;;x
-EVTOPTAHF24220;We must get to the root of this question!;;;;;;;;;;;;x
-TT_EVTOPTAHF24220;Attempt to forge a claim to §YAshoka's Bloodline§!.;;;;;;;;;;;;x
-EVTOPTBHF24220;The very thought betrays my impurity.;;;;;;;;;;;;x
+EVTTITLEHF24220;阿育王的化身;;;;;;;;;;;;x
+EVTDESCAHF24220;阿育王因其英明睿智的文治与雄才大略的武功为后人所铭记。在他的领导下，印度实现了统一与和平。\n与那些对他的成就邯郸学步的王朝不同，我的功业离他的伟功最为接近。最近我一直在深思熟虑，我的家族已经重新统一了印度，将整片次大陆纳入了开明和公正的秩序之下，这份功业是否可以证明是阿育王光辉的精神通过我们的血统一路传承至我体内。;;;;;;;;;;;;x
+EVTDESCBHF24220;阿育王因其英明睿智的文治与雄才大略的武功为后人所铭记。在他的领导下，印度实现了统一与和平。\n与那些对他的成就邯郸学步的王朝不同，作为[Root.PrimaryTitle.GetName]的[Root.GetTitle]，我的功业远比大部分离他更近。我现在想明白，我家族的功绩是否可以证明正是阿育王光辉的精神通过我们的血统一路传承至我体内。;;;;;;;;;;;;x
+EVTOPTAHF24220;我们必须找到问题的根本！;;;;;;;;;;;;x
+TT_EVTOPTAHF24220;试图伪造一个§Y阿育王血脉§!的宣称。;;;;;;;;;;;;x
+EVTOPTBHF24220;这种想法暴露了我的不纯洁。;;;;;;;;;;;;x
 EVTDESCAHF24221;Being already responsible for the reunification of India, my family has a greater claim to Ashoka's legacy than any other [Root.Culture.GetName] ruler, yet, in order for me to be formally recognized as a reincarnation of the enlightened Devanampiya Piyadassi, I must submit myself to the judgment of the wisest amongst us.\nI will call for the oldest and most prestigious Brahmins in India and allow them to examine my life and judge my character, so that they can confirm to my peers and subjects what I already know is the truth.;;;;;;;;;;;;x
 EVTDESCBHF24221;As a celebrated [Root.GetTitle] of [Root.PrimaryTitle.GetName], I have already a greater claim to Ashoka's legacy than many other [Root.Culture.GetName] rulers, yet, in order for me to be formally recognized as a reincarnation of the enlightened Devanampiya Piyadassi, I must submit myself to the judgment of the wisest amongst us.\nI will call for the oldest and most prestigious Brahmins in India and allow them to examine my life and judge my character, so that they can confirm to my peers and subjects what I already know is the truth.;;;;;;;;;;;;x
 EVTOPTAHF24221;We will take all precautions when hosting the wise ones.;;;;;;;;;;;;x
@@ -17408,7 +17408,7 @@ EVTOPTBHF24226;可是所需的布施该如何估价呢？;;;;;;;;;;;;x
 EVTOPTCHF24226;让真金白银哗哗地流起来！;;;;;;;;;;;;x
 EVTOPTDHF24226;我想我可以搞个慈善秀……;;;;;;;;;;;;x
 EVTOPTEHF24226;我猜再给一捧沙恐怕不够？;;;;;;;;;;;;x
-EVTDESCAHF24227;The Brahmins are not satisfied with my show of charity.\nThey claim that merely giving some gold to the less fortunate is not enough to prove the true purity of intent that Jaya showed when he met Buddha. When Ashoka's past form had almost nothing, he was still driven to share what little he had to a complete stranger.\nThey say that my display is vacuous at best in comparison as the gifts that I am giving to my subjects I will take back in time as their [Root.GetTitle].;;;;;;;;;;;;x
+EVTDESCAHF24227;婆罗门们对我的慈善表演并不满意。\n他们宣称，仅仅把金钱施舍给穷人还不足以证明具有阇耶遇见佛徒时的纯真意图。虽然阿育王的前世几乎一无所有，他依然愿意与一个全然陌生的人分享自己仅有的所得。\n他们说，在我给臣民施舍的与作为他们的[Root.GetTitle]我最后讨回的相比之下，我的慈善表演显得极为空洞。;;;;;;;;;;;;x
 EVTOPTZHF24227;我会给得比他们能回报给我的更多！;;;;;;;;;;;;x
 EVTOPTAHF24227;可能需要我布施的其实是你？;;;;;;;;;;;;x
 EVTOPTBHF24227;我怎么才能把这钵填满呢，智者？;;;;;;;;;;;;x
@@ -17613,24 +17613,24 @@ tooltip_other_elders_displeased;All the other §YElders§! in §Y[Root.PrimaryTi
 EVTDESCHFP24005;After a long period of constant fights, [From.GetTitledFirstName] finally decided to leave me and my court in peace. Unfortunately, [From.GetSheHe] is now wandering through the realm, warning all the other esteemed Elders of [Root.PrimaryTitle.GetName] about my allegedly poor treatment of [From.GetHerHim].;;;;;;;;;;;;x
 EVTOPTAHFP24005;I assure you, [From.GetSheHe] has always been impossible to deal with.;;;;;;;;;;;;x
 tooltip_EVTOPTAHFP24005;Convince the other §YElders§! to ignore §Y[From.GetFirstName]§!'s rumors about you.;;;;;;;;;;;;x
-EVTOPTBHFP24005;At least we will have some quiet...;;;;;;;;;;;;x
-EVTDESCHFP24006;[scoped_ruler.GetTitledFirstName] might be a good and wise ruler, but [scoped_ruler.GetSheHe] often has a hard time when it comes to spotting talent amongst [scoped_ruler.GetHerHis] people. Luckily for [scoped_ruler.GetHerHim], I am here to help.;;;;;;;;;;;;x
-EVTOPTZHFP24006;There is but one person fit for this job...;;;;;;;;;;;;x
-tooltip_EVTOPTZHFP24006;Advice §Y[scoped_ruler.GetTitledFirstName]§! to grant one of [scoped_ruler.GetHerHis] §YCounties§! to you.;;;;;;;;;;;;x
-EVTOPTAHFP24006;You need only to look at [scoped_recipient_first.GetFirstName]!;;;;;;;;;;;;x
-tooltip_EVTOPTAHFP24006;Advice §Y[scoped_ruler.GetTitledFirstName]§! to grant one of [scoped_ruler.GetHerHis] §YCounties§! to §Y[scoped_recipient_first.GetFirstName]§!.;;;;;;;;;;;;x
-EVTOPTBHFP24006;[scoped_recipient_second.GetFirstName]'s reputation is impeccable.;;;;;;;;;;;;x
-tooltip_EVTOPTBHFP24006;Advice §Y[scoped_ruler.GetTitledFirstName]§! to grant one of [scoped_ruler.GetHerHis] §YCounties§! to §Y[scoped_recipient_second.GetFirstName]§!.;;;;;;;;;;;;x
-EVTOPTCHFP24006;[scoped_recipient_third.GetFirstName] is the most competent [scoped_recipient_third.GetManWoman] I can think of.;;;;;;;;;;;;x
-tooltip_EVTOPTCHFP24006;Advice §Y[scoped_ruler.GetTitledFirstName]§! to grant one of [scoped_ruler.GetHerHis] §YCounties§! to §Y[scoped_recipient_third.GetFirstName]§!.;;;;;;;;;;;;x
-EVTOPTDHFP24006;Then again, maybe there is a lack of talent around here...;;;;;;;;;;;;x
+EVTOPTBHFP24005;至少我们可以清静一会了…;;;;;;;;;;;;x
+EVTDESCHFP24006;[scoped_ruler.GetTitledFirstName]可能的确是个优秀睿智的统治者，但是[scoped_ruler.GetSheHe]常常在从[scoped_ruler.GetHerHis]子民中选贤任能上遇到困难。但[scoped_ruler.GetHerHim]是幸运的，我能够在此事上帮助他。;;;;;;;;;;;;x
+EVTOPTZHFP24006;能堪此任者唯一人而已…;;;;;;;;;;;;x
+tooltip_EVTOPTZHFP24006;建议§Y[scoped_ruler.GetTitledFirstName]§!将[scoped_ruler.GetHerHis]一个§Y伯爵领§!授予你。;;;;;;;;;;;;x
+EVTOPTAHFP24006;你只需要看着[scoped_recipient_first.GetFirstName]就够了！;;;;;;;;;;;;x
+tooltip_EVTOPTAHFP24006;建议§Y[scoped_ruler.GetTitledFirstName]§!将[scoped_ruler.GetHerHis]一个§Y伯爵领§!授予§Y[scoped_recipient_first.GetFirstName]§!。;;;;;;;;;;;;x
+EVTOPTBHFP24006;[scoped_recipient_second.GetFirstName]的品行无可挑剔。;;;;;;;;;;;;x
+tooltip_EVTOPTBHFP24006;建议§Y[scoped_ruler.GetTitledFirstName]§!将[scoped_ruler.GetHerHis]一个§Y伯爵领§!授予§Y[scoped_recipient_second.GetFirstName]§!。;;;;;;;;;;;;x
+EVTOPTCHFP24006;[scoped_recipient_third.GetFirstName]是我所见过最有才干的[scoped_recipient_third.GetManWoman]。;;;;;;;;;;;;x
+tooltip_EVTOPTCHFP24006;建议§Y[scoped_ruler.GetTitledFirstName]§!将[scoped_ruler.GetHerHis]一个§Y伯爵领§!授予§Y[scoped_recipient_third.GetFirstName]§!。;;;;;;;;;;;;x
+EVTOPTDHFP24006;可是话说回来，这儿似乎并没有什么能人…;;;;;;;;;;;;x
 EVTDESCAHFP24007;[From.GetTitledFirstName] has been pestering me from some time now about how [scoped_potential_count.GetFirstName] would be a model vassal if only I gave [scoped_potential_count.GetHerHim] a chance.;;;;;;;;;;;;x
 EVTDESCBHFP24007;[From.GetTitledFirstName] has been pestering me from some time now about how I should share some of my responsibilities with [From.GetHerHim] if I wish to see our people prosper, yet I cannot shake the feeling that [From.GetSheHe] just wishes to own more land...;;;;;;;;;;;;x
-EVTOPTAHFP24007;Fine! Whatever you say.;;;;;;;;;;;;x
-EVTOPTBHFP24007;I am the [Root.GetTitle], not you.;;;;;;;;;;;;x
+EVTOPTAHFP24007;行吧！不管你说什么。;;;;;;;;;;;;x
+EVTOPTBHFP24007;我才是[Root.GetTitle]，而非你是。;;;;;;;;;;;;x
 EVTDESCAHFP24008;It took me some time to convince [From.GetTitledFirstName] of [scoped_potential_count.GetFirstName]'s clear potential, but I was able to get my way in the end. I am certain my [GetFromRelation] will not have reason to regret [From.GetHerHis] decision.;;;;;;;;;;;;x
 EVTDESCBHFP24008;It took me some time to convince [From.GetTitledFirstName] that I am still perfectly capable of administering more land and that granting me a new title would be merely in the interest of a prosperous [From.PrimaryTitle.GetName], but I was able to get my way in the end.;;;;;;;;;;;;x
-EVTOPTAHFP24008;The words of a wise [Root.GetManWoman] are hard to dismiss.;;;;;;;;;;;;x
+EVTOPTAHFP24008;这位睿智的[Root.GetManWoman]难以反驳。;;;;;;;;;;;;x
 EVTDESCAHFP24009;Unfortunately, [From.GetTitledFirstName] has decided to ignore my words. I cannot believe that [From.GetSheHe] would so easily dismiss the council of one of the elders of [From.GetHerHis] realm. Such a shortsightedness should never be tolerated in leadership.;;;;;;;;;;;;x
 EVTOPTAHFP24009;What a foolish and impertinent child!;;;;;;;;;;;;x
 EVTDESCHFP24010;It is quite clear that [scoped_ruler.GetTitledFirstName] is too inexperienced and foolish to handle all [scoped_ruler.GetHerHis] responsibilities as [scoped_ruler.GetTitle]. Luckily for [scoped_ruler.GetHerHim], I am here to help [scoped_ruler.GetHerHim] find someone skilled enough to share [scoped_ruler.GetHerHis] responsibilities.;;;;;;;;;;;;x
@@ -17726,8 +17726,8 @@ roman_imperial_government;帝国制;;;;;;;;;;;;x
 roman_imperial_government_desc;帝国制不同于封建制之处在于其对城市地块的偏重，与此同时高度集权的中央朝廷将对全国政治产生极为深重的影响。内阁成员和指挥官根据其威望与能力拥有或大或小的影响力，从而支持或反对帝国的正统继承人。;;;;;;;;;;;;x
 gov_duchy_viceroy_roman;[Liege.PrimaryTitle.GetAdjective] Proconsulate;;;;;;;;;;;;x
 gov_king_viceroy_roman;[Liege.PrimaryTitle.GetAdjective]省;;;;;;;;;;;;x
-gov_roman_imperial_government;帝国军事独裁制;;;;;;;;;;;;x
-gov_roman_imperial_government_decayed;Vestigial Empire;;;;;;;;;;;;x
+gov_roman_imperial_government;帝国军政制;;;;;;;;;;;;x
+gov_roman_imperial_government_decayed;衰存帝国;;;;;;;;;;;;x
 INTERACTION_REPUBLICS_NEED_IMPRISON_REASON;Ruler has a valid imprisonment reason;;;;;;;;;;;;x
 succ_hre_elective;Princely Elective;;;;;;;;;;;;x
 succ_hre_elective_desc;The Emperor and the seven Prince-Electors can nominate a successor from among themselves, any legitimate children and siblings of the ruler, as well as any other major dejure vassal of the Empire, as long as they share the same religion. If an historical elector title is held by infidels or does not exist, another dejure vassal will take its place. If the Empire is run under §YPapal Investiture§! or by a §YDogmatic§! religion, the Prince-Bishops hold a greater sway over the election.;;;;;;;;;;;;x
