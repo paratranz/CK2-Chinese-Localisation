@@ -5216,7 +5216,7 @@ PROV1648;Medjybij;;;;;;;;;;;;x
 PROV1649;科罗斯坚;;;;;;;;;;;;x
 PROV1650;Vorotynsk;;;;;;;;;;;;x
 PROV1651;Vozviahel;;;;;;;;;;;;x
-PROV1652;Borovichi;;;;;;;;;;;;x
+PROV1652;博罗维奇;;;;;;;;;;;;x
 PROV1653;斯卢茨克;;;;;;;;;;;;x
 PROV1654;Novogrodek;;;;;;;;;;;;x
 PROV1655;Volkovysk;;;;;;;;;;;;x
@@ -5984,7 +5984,7 @@ EVTDESCRIP.15006_not_released;[From.GetTitledFirstName] has decided that to begi
 EVTDESC_HF_10052;Reports state that new recruits have been partaking in our initiation ritual, allowing [Root.Society.GetName] to be growing in numbers!;;;;;;;;;;;;x
 EVTDESC38320;Caution is often the wisest choice. I've lost the Brave trait.;;;;;;;;;;;;x
 EVTOPTA_HF_10010_TT;You will be unable to join §Y[warrior_lodge_to_join.GetName]§! for years to come.\n;;;;;;;;;;;;x
-String_middle_aged;middle-aged;;;;;;;;;;;;x
+String_middle_aged;中年;;;;;;;;;;;;x
 string_fallback_GetAgeAdjective;[GetCharacterLook];;;;;;;;;;;;x
 string_ugly;ugly;;;;;;;;;;;;x
 string_stunning;stunning;;;;;;;;;;;;x
@@ -8076,7 +8076,7 @@ key_infidel;infidel;;;;;;;;;;;;x
 key_infidel_cap;Infidel;;;;;;;;;;;;x
 SET_JIZYA_TAX_EFFECT;Religion now uses [GetJizyaName] tax;;;;;;;;;;;;x
 SET_NOT_JIZYA_TAX_EFFECT;Religion now does NOT use [GetJizyaName] tax;;;;;;;;;;;;x
-POLL_TAX_DESC;Population of other religion groups pay the [GetJizyaName] tax;;;;;;;;;;;;x
+POLL_TAX_DESC;其他宗教的民众上交[GetJizyaName]税;;;;;;;;;;;;x
 jizya_tax;[GetJizyaNameCap] Tax;;;;;;;;;;;;x
 desc_jizya_tax;[GetJizyaDesc];;;;;;;;;;;;x
 key_jizya_desc;A Tax on the non-Muslim population, this tax is larger than the Zakat tax paid by Muslims and therefore increases the total tax income;;;;;;;;;;;;x
@@ -8848,7 +8848,7 @@ c_karachev_adj;Karachevian;;;;;;;;;;;;x
 c_yelets_adj;叶列茨;;;;;;;;;;;;x
 c_vorotynsk_adj;Vorotynskian;;;;;;;;;;;;x
 c_gorodets_adj;Gorodetsian;;;;;;;;;;;;x
-c_tikhvine_adj;Tikhvinian;;;;;;;;;;;;x
+c_tikhvine_adj;季赫温;;;;;;;;;;;;x
 c_kirichi_adj;Kirichian;;;;;;;;;;;;x
 ALT_START_GENERIC_HERESY_DESC_10;[GetName]信仰的信徒毫不理会[GetPriestTitle]的话，拒绝接受被他们认为是来自[GetRandomEvilGodName]的传道、当听到有人朗诵来自[GetScriptureName]的任何文章时，他们立刻用欧芹塞进耳朵。为了纪念[GetHighGodName]，在宗教节日，每个信徒都会准备大量的欧芹。;;;;;;;;;;;;x
 ALT_START_GENERIC_HERESY_DESC_11;[GetName]的宗教信徒相信[GetScriptureName]每三段就有一段是[GetRandomEvilGodName]写的，这让正统宗教信徒非常惊讶。宗教狂热者通常会在石头上写下冒犯的语句，然后把这些石头扔向他们认为是异教徒的人或异教徒人的房子。;;;;;;;;;;;;x
@@ -10263,7 +10263,7 @@ CRUSADE_RECEIVER_STANCE;立场;;;;;;;;;;;;x
 CRUSADE_CHANGE_TARGET;更换;;;;;;;;;;;;x
 CRUSADE_CHOOSE_BENEFICIARY;选择;;;;;;;;;;;;x
 TARGET_I_GUESS;目标;;;;;;;;;;;;x
-RECIPIENT_TOOLTIP;§YCrusader Kingdom Recipient§!;;;;;;;;;;;;x
+RECIPIENT_TOOLTIP;§Y十字军王国的受益者§!;;;;;;;;;;;;x
 RECIPIENT_DELAYED_TOOLTIP;This is the character who the Pope wants to grant the Crusader Kingdom, should the Crusade be successful. If no character is chosen, it means the Pope has no preference and the Beneficiary of the top contributor will be chosen to rule the Crusader Kingdom.;;;;;;;;;;;;x
 CRUSADE_TARGET_TOOLTIP;§Y十字军目标§!;;;;;;;;;;;;x
 CRUSADE_TARGET_DELAYED_TOOLTIP;这是十字军的目标角色和王国。教宗根据对于信仰的重要性选择目标，而且会经常在进行遥远的冒险之前优先选择守护信仰故土。;;;;;;;;;;;;x
@@ -10293,7 +10293,7 @@ c_drutsk_adj;Drutskan;;;;;;;;;;;;x
 c_priluk_adj;Prilukan;;;;;;;;;;;;x
 c_starodub_adj;Staroduban;;;;;;;;;;;;x
 c_kromy_adj;Kromyan;;;;;;;;;;;;x
-c_borovichi_adj;Borovichian;;;;;;;;;;;;x
+c_borovichi_adj;博罗维奇;;;;;;;;;;;;x
 c_calarasi_adj;Calarasian;;;;;;;;;;;;x
 c_bacau_adj;Bacauian;;;;;;;;;;;;x
 owns_jerusalem_tt;Holds the §YCounty§! of §YJerusalem§!;;;;;;;;;;;;x
@@ -10960,20 +10960,20 @@ NOT_IS_IN_SAME_UNIT_TRIGGER;Is NOT in the same unit as $WHO|Y$;;;;;;;;;;;;x
 IS_IN_SAME_UNIT_TRIGGER;Is in the same unit as $WHO|Y$;;;;;;;;;;;;x
 NOT_LEADS_SUB_UNIT_TRIGGER;Is NOT leading a sub-unit;;;;;;;;;;;;x
 LEADS_SUB_UNIT_TRIGGER;Is leading a sub-unit;;;;;;;;;;;;x
-SET_CRUSADE_OFFICIAL_RECIPIENT_EFFECT;$WHO|Y$ will be the official recipient for the Crusade;;;;;;;;;;;;x
+SET_CRUSADE_OFFICIAL_RECIPIENT_EFFECT;$WHO|Y$将成为十字军的官方指定的受益者;;;;;;;;;;;;x
 SET_CRUSADE_POT_MULTIPLIER_EFFECT;For the purpose of the Crusade War Chest, they will be considered to have contributed $VALUE|%0Y$ of their actual contribution;;;;;;;;;;;;x
-ANY_CRUSADE_PARTICIPANT_STARTS;Any Crusade Participant;;;;;;;;;;;;x
+ANY_CRUSADE_PARTICIPANT_STARTS;任何的十字军受益者;;;;;;;;;;;;x
 ANY_CRUSADE_DEFENDER_STARTS;Any Crusade Defender;;;;;;;;;;;;x
 NOT_CRUSADE_WAR_STARTED_TRIGGER;This religion does NOT have a Crusade war ongoing;;;;;;;;;;;;x
 CRUSADE_WAR_STARTED_TRIGGER;This religion has a Crusade war ongoing;;;;;;;;;;;;x
-CRUSADE_CANCELLED_REASON;\nThe Crusade was canceled;;;;;;;;;;;;x
-CANCEL_CRUSADE_EFFECT;The Crusade will be canceled;;;;;;;;;;;;x
+CRUSADE_CANCELLED_REASON;\n十字军被取消了;;;;;;;;;;;;x
+CANCEL_CRUSADE_EFFECT;十字军被取消了;;;;;;;;;;;;x
 CRUSADE_NAME_WITH_SCORE;$NAME|Y$ ($SCORE|+0$%);;;;;;;;;;;;x
 CRUSADE_NAME_WITHOUT_SCORE;$NAME|Y$;;;;;;;;;;;;x
 CRUSADE_DESC_NOT_STARTED;His Holiness, §Y$POPE$§! has declared a $CRUSADE$ to reclaim all parts of the §Y$TITLE$§! held by §Y$ENEMY$§!;;;;;;;;;;;;x
 alert_beneficiary_needed_instant;§Y未选择十字军受益者§!;;;;;;;;;;;;x
 alert_beneficiary_needed_delayed;As a participant in the ongoing Crusade, a beneficiary should be selected so that when the inevitable victory occurs, our dynasty may share in the spoils.;;;;;;;;;;;;x
-CRUSADE_LAUNCH_DATE;The Crusade will launch on $DATE|Y$ (in $DAYS_LEFT|Y$ days);;;;;;;;;;;;x
+CRUSADE_LAUNCH_DATE;十字军将开始于$DATE|Y$（在$DAYS_LEFT|Y$天内）;;;;;;;;;;;;x
 CRUSADE_UNPLEDGE_TEXT;Leave;;;;;;;;;;;;x
 CRUSADE_PLEDGE_TEXT;Join;;;;;;;;;;;;x
 DEFENDER_CRUSADE_UNPLEDGE_TEXT;Leave;;;;;;;;;;;;x
@@ -10982,9 +10982,9 @@ CRUSADE_RELATIVE_STRENGTH;§LTotal Strength:§! $PERC|Y%0$;;;;;;;;;;;;x
 CRUSADE_DEFENDERS_STRENGTH;§LTotal Strength:§! $PERC|Y%0$;;;;;;;;;;;;x
 NO_LEGAL_CRUSADE_TARGET;§RNo valid targets to change to§!;;;;;;;;;;;;x
 NOT_ENOUGH_PIETY_FOR_CHANGE;§RNeed $PIETY|Y$ §RPiety§!;;;;;;;;;;;;x
-CRUSADE_TARGET_LOCKED;§RCrusade target is locked§!;;;;;;;;;;;;x
+CRUSADE_TARGET_LOCKED;§R十字军目标被锁定§!;;;;;;;;;;;;x
 CRUSADE_OPEN_BATTLES;§GClick to Toggle List of Battles§!;;;;;;;;;;;;x
-CRUSADE_CONTRIBUTORS_ATTACKER;§YCrusader war contributions:§!;;;;;;;;;;;;x
+CRUSADE_CONTRIBUTORS_ATTACKER;§Y十字军战争贡献：§!;;;;;;;;;;;;x
 CRUSADE_CONTRIBUTORS_DEFENDER;§YDefender war contributions:§!;;;;;;;;;;;;x
 CRUSADE_WAR_PARTICIPANT;$PARTICIPANT$: $PERC|%0Y$ ($SCORE|Y0$);;;;;;;;;;;;x
 WARSCORE_HEADER;战争分数;;;;;;;;;;;;x
@@ -11017,18 +11017,18 @@ CRUSADE_DISTRIBUTE_POT_WITH_TARGET;Distribute $FRACTION|%Y0$ of the Crusade War 
 CRUSADE_DISTRIBUTE_POT_WITH_TARGET_TYPED;Distribute $FRACTION|%Y0$ of the Crusade $TYPE|Y$ War Chest to $TARGET|Y$;;;;;;;;;;;;x
 CRUSADE_DISTRIBUTE_POT;Distribute $FRACTION|%Y0$ of the Crusade War Chest;;;;;;;;;;;;x
 CRUSADE_DISTRIBUTE_POT_TYPED;Distribute $FRACTION|%Y0$ of the Crusade $TYPE|Y$ War Chest;;;;;;;;;;;;x
-CRUSADE_KINGDOM_RECIPIENT;Crusade Kingdom recipient;;;;;;;;;;;;x
+CRUSADE_KINGDOM_RECIPIENT;十字军王国的受益者;;;;;;;;;;;;x
 ADD_DYNASTY_MODIFIER_EFFECT;The $DYNASTY|Y$ Dynasty gets $MODIFIER|Y$, giving the following effects:\n$EFFECT$;;;;;;;;;;;;x
 REMOVE_DYNASTY_MODIFIER_EFFECT;$MODIFIER|Y$ will be removed from the $DYNASTY|Y$ Dynasty;;;;;;;;;;;;x
 HAVE_THE_DYNASTY_MODIFIER;Has the Dynasty Modifier $MODIFIER|Y$;;;;;;;;;;;;x
 DONT_HAVE_THE_DYNASTY_MODIFIER;Does NOT have the Dynasty Modifier $MODIFIER|Y$;;;;;;;;;;;;x
 MODIFIERS_HEADER;This Dynasty provides its members with the Modifiers below.;;;;;;;;;;;;x
 DYNASTY_MODIFIER_ENTRY;$NAME|Y$:\n$EFFECT$;;;;;;;;;;;;x
-CRUSADER_KINGDOM_NAME;Crusader $NAME$;;;;;;;;;;;;x
-IS_CRUSADE_TARGET_TRIGGER;Is targeted by a Crusade;;;;;;;;;;;;x
-NOT_IS_CRUSADE_TARGET_TRIGGER;Is NOT targeted by a Crusade;;;;;;;;;;;;x
-IS_RELIGION_CRUSADE_TARGET_TRIGGER;Religion is targeted by a Crusade;;;;;;;;;;;;x
-NOT_IS_RELIGION_CRUSADE_TARGET_TRIGGER;Religion is NOT targeted by a Crusade;;;;;;;;;;;;x
+CRUSADER_KINGDOM_NAME;十字军战士$NAME$;;;;;;;;;;;;x
+IS_CRUSADE_TARGET_TRIGGER;是十字军的目标;;;;;;;;;;;;x
+NOT_IS_CRUSADE_TARGET_TRIGGER;不是十字军的目标;;;;;;;;;;;;x
+IS_RELIGION_CRUSADE_TARGET_TRIGGER;被十字军设为目标的宗教;;;;;;;;;;;;x
+NOT_IS_RELIGION_CRUSADE_TARGET_TRIGGER;不是被十字军设为目标的宗教;;;;;;;;;;;;x
 HAS_PLEDGED_CRUSADE_DEFENSE_TRIGGER;Has pledged to defend against the Crusade;;;;;;;;;;;;x
 NOT_HAS_PLEDGED_CRUSADE_DEFENSE_TRIGGER;Has NOT pledged to defend against the Crusade;;;;;;;;;;;;x
 CRUSADE_PREPARATION_STRENGTH_TRIGGER;Strength of the Crusaders is $COMPARISON|Y$ $VALUE|Y%$ of the defenders;;;;;;;;;;;;x
@@ -11042,7 +11042,7 @@ DEFENDER_UNPLEDGE_SUPPORT_TOOLTIP_DELAYED;我将撤回我抵御十字军的誓�
 alert_incoming_crusade_instant;§YCrusade Against Our Religion§!;;;;;;;;;;;;x
 alert_incoming_crusade_delayed;一场针对我们宗教的十字军即将爆发，我们最好做好准备反抗它;;;;;;;;;;;;x
 SET_PLAYER_CHARACTER_EFFECT;This Player will now control $WHO|Y$ instead;;;;;;;;;;;;x
-SELECT_CRUSADE_RECEIVER_STANCE;§YSelect Crusade Recipient Stance§!;;;;;;;;;;;;x
+SELECT_CRUSADE_RECEIVER_STANCE;§Y选择对十字军受益者的立场§!;;;;;;;;;;;;x
 SELECT_CRUSADE_RECEIVER_STANCE_DELAYED;[Root.GetCurrentCrusadeStance];;;;;;;;;;;;x
 string_crusade_receiver_stance;决定如果十字军取得成功且我们持有最大贡献度的处理方案。我们将遵从教皇的指示，或是把王国交给我们的受益人，还是将胜利果实独吞?;;;;;;;;;;;;x
 TROOPS_TRIBAL_VASSALS;Potential Vassal Ally Troops;;;;;;;;;;;;x
@@ -11278,12 +11278,12 @@ EVTTITLE_HFP_41004;虔诚备战;;;;;;;;;;;;x
 EVTDESC_HFP_41004;一个信差带着一封由梵蒂冈寄出的信找到了我们——这是由教宗阁下亲自写的。[From.GetSheHeCap]要求我们准备好我们的军队做好同异端分子和异教徒战斗的准备，来收复基督教世界沦陷的土地。\n\n教宗希望我们派遣我们忠诚的[Root.Religion.GetGroupName]战士向[crusade_title.GetBaseName]进军。这片土地目前被[crusade_character.GetCrusadeReligionDescription][crusade_character.GetTitledName]所占据着，是时候让她回到基督教的怀抱了。\n\n尽管教宗本人希望征服[crusade_title.GetBaseName]，但一位虔诚的[Root.Religion.GetGroupName]可以说服大家把目标放在一个对我们更有价值的地方。;;;;;;;;;;;;x
 EVTOPTA_HFP_41004;I should consider preparing my men.;;;;;;;;;;;;x
 EVTOPTB_HFP_41004;My men are ready! To [crusade_title.GetBaseName]!;;;;;;;;;;;;x
-EVTOPTA_HFP_41004_TT;The preparations for the next Crusade begins.;;;;;;;;;;;;x
+EVTOPTA_HFP_41004_TT;为了开始下次十字军而做准备。;;;;;;;;;;;;x
 EVTTITLE_HFP_41009;向[crusade_title.GetBaseName]发起十字军;;;;;;;;;;;;x
 EVTDESC_HFP_41009;随着一声令下，教皇对[crusade_title.GetBaseName]发起了[crusade_title.GetCrusadeLaunchAnother]十字军。[Root.GetCrusadeLaunchFirstPart]\n\n[Root.GetCrusadeLaunchSecondPart]\n\n[From.Religion.GetHighGodName]将会赦免所有参与这场正义战争的人的罪过。;;;;;;;;;;;;x
 EVTOPTA_HFP_41009;神的旨意！;;;;;;;;;;;;x
 EVTOPTB_HFP_41009;Those [From.Religion.GetGroupName] heathens!;;;;;;;;;;;;x
-EVTOPTA_HFP_41009_TT;The Crusade for [crusade_title.GetName] begins.;;;;;;;;;;;;x
+EVTOPTA_HFP_41009_TT;对[crusade_title.GetName]的十字军开始了。;;;;;;;;;;;;x
 EVTTITLE_HFP_41011;[Root.Religion.GetGroupName] Failure;;;;;;;;;;;;x
 EVTDESC_HFP_41011;The announcement about the grand Crusade was sent to every [From.Religion.GetName] realm, but apparently to no avail. The Pope has been trying to gather up support for the Crusade for months, but now the Vatican has gone quiet, as the Vicar of Christ has given up on his Crusade.\n\nThe [From.Religion.GetGroupName]s seem more interested with infighting than fighting the heathens or infidels outside their own borders. The Crusade was officially canceled, as the Pope held a large announcement denouncing the [From.Religion.GetGroupName] Lords and Ladies for their ineptitude in the matters of Faith. Now it is only a matter of time until [From.Religion.GetHighGodName] forsakes his faithless followers, and leaves them to be conquered by the sacrilegious infidels, blasphemers and heathens.;;;;;;;;;;;;x
 EVTOPTA_HFP_41011;A terrible day for all of us.;;;;;;;;;;;;x
@@ -11380,11 +11380,11 @@ EVTOPTB_HFP_41160;该死的异教徒！;;;;;;;;;;;;x
 EVTDESC_HFP_42000;My men storm the walls of [From.GetBaseName], and finally take the last proper bastion of [duchy_region.GetBaseName]. If I settled my men around the area they could probably support the ongoing Crusade and help us claim victory, but the Pope will not be pleased if I unrightfully take these lands for myself.;;;;;;;;;;;;x
 EVTOPTA_HFP_42000;[duchy_region.GetBaseName] sounds like an appropriate part of [Root.PrimaryTitle.GetName].;;;;;;;;;;;;x
 EVTOPTA_HFP_42000_TT_1;§Y[Root.GetTitledName]§! usurps all the titles in the §YDuchy of [duchy_region.GetBaseName]§!.;;;;;;;;;;;;x
-EVTOPTA_HFP_42000_TT_2;§YAll Pledged Crusaders§! opinion of §Y[Root.GetTitledName]§! changes by §R-20§! for §Y10§! years. §Y(Self-serving Crusader);;;;;;;;;;;;x
+EVTOPTA_HFP_42000_TT_2;§Y所有作出誓言的十字军战士§!对§Y[Root.GetTitledName]§!的好感在§Y10§!年内改变了§R-20§!。§Y（自私的十字军战士）;;;;;;;;;;;;x
 EVTOPTB_HFP_42000;我会为这片新土地找到一个合适的统治者。;;;;;;;;;;;;x
 EVTOPTB_HFP_42000_TT;§Y[current_crusade_beneficiary.GetTitledName]§!将会成为独立的§Y[duchy_region.GetBaseName][current_crusade_beneficiary.GetDukeDuchessCap]§!。;;;;;;;;;;;;x
 EVTOPTC_HFP_42000;I have no interest in these lands.;;;;;;;;;;;;x
-EVTTITLE_HFP_42001;Crusader [current_crusade_beneficiary.GetLordLady] of [duchy_region.GetBaseName];;;;;;;;;;;;x
+EVTTITLE_HFP_42001;[duchy_region.GetBaseName]的十字军战士[current_crusade_beneficiary.GetLordLady];;;;;;;;;;;;x
 EVTDESC_HFP_42001;[From.Religion.GetGroupName]的十字军战士已经拿下了[duchy_region.GetBaseName]并且在当地驻扎了大量的士兵。虽然本次[crusade_title.GetName]十字军依然在进行中，但是[duchy_region.GetBaseName]周遭地区已经毫无疑问的成为了[current_crusade_beneficiary.GetTitledName]的领地。\n\n被[duchy_region.GetBaseName]的新主人[current_crusade_beneficiary.GetLordLady]所鼓舞，十字军战士们开始对[crusade_title.GetName]展开更加猛烈的进攻。其余[crusade_target_ruler.Religion.GetGroupName]领地的陷落只是时间问题。;;;;;;;;;;;;x
 EVTOPTA_HFP_42001;Fight on, brothers and sisters!;;;;;;;;;;;;x
 EVTOPTB_HFP_42001;该死的[From.Religion.GetGroupName]！;;;;;;;;;;;;x
@@ -11394,7 +11394,7 @@ EVTOPTA_HFP_42002;I will legitimize it myself!;;;;;;;;;;;;x
 EVTOPTA_HFP_42002_TT;Legitimize [old_crusade_title.GetName] as the new rightful Duchy of the region. This will delegitimize the old Duchy of [duchy_title.GetName].;;;;;;;;;;;;x
 EVTOPTB_HFP_42002;The title has served us well. Rest, old friend.;;;;;;;;;;;;x
 EVTOPTC_HFP_42002;Legitimate or not, I will keep the title.;;;;;;;;;;;;x
-EVTTITLE_HFP_42003;Crusaders take [duchy_region.GetBaseName];;;;;;;;;;;;x
+EVTTITLE_HFP_42003;十字军夺得了[duchy_region.GetBaseName];;;;;;;;;;;;x
 EVTDESC_HFP_42003;[From.Religion.GetGroupName]的十字军战士已经拿下了[duchy_region.GetBaseName]并且在当地驻扎了大量的士兵。虽然本次十字军依然在进行中，但是[duchy_region.GetBaseName]周遭地区已经毫无疑问的成为了[From.GetTitledName]的领地。\n\n虽然[From.GetTitledName]一直在提供帮助，但是[From.GetSheHe]在十字军战士之间的口碑却并不良好，因为比起为信仰而战，[From.GetSheHe]更乐于为[From.GetHerselfHimself]谋取更多的领地。;;;;;;;;;;;;x
 EVTOPTA_HFP_42003;Disappointing that anyone can be so self-serving.;;;;;;;;;;;;x
 EVTOPTC_HFP_42003;It was my right.;;;;;;;;;;;;x
@@ -11547,13 +11547,13 @@ ask_teutonic_for_help_teutonic_desc;You can ask the §YTeutonic Order§! to targ
 northern_crusade_targeted_decision_TT;§Y[d_teutonic_order.Holder.GetTitledName]§! has §G10§! or higher opinion of §Y[This.GetTitledName]§!;;;;;;;;;;;;x
 ask_teutonic_for_help_pagan;Potential Target for Teutonic Order;;;;;;;;;;;;x
 ask_teutonic_for_help_pagan_desc;You can ask the §YTeutonic Order§! to target §Y[Root.GetTitledName]§! in their northern campaigns.;;;;;;;;;;;;x
-grand_crusader;Crusader Blood of [This.GetTitledFirstName];;;;;;;;;;;;x
+grand_crusader;十字军战士[This.GetTitledFirstName]的血脉;;;;;;;;;;;;x
 grand_crusader_desc;[This.GetSheHeCap] single handedly brought victory to the [This.Religion.GetGroupName]s in several Crusades, and there are numerous legends spun in [This.Founder.GetHerHis] honor.;;;;;;;;;;;;x
 bloodline_effect_grand_crusader;能够分享到更多§G十字军战争基金§!;;;;;;;;;;;;x
-crusader_commander;Crusader Blood of [This.GetTitledFirstName];;;;;;;;;;;;x
+crusader_commander;十字军战士[This.GetTitledFirstName]的血脉;;;;;;;;;;;;x
 crusader_commander_desc;[This.GetSheHeCap] is known for personally leading the charge of many battles, and it is said no heathen nor infidel could ever bring [This.GetHerHim] down.;;;;;;;;;;;;x
 bloodline_effect_battle_survivor;对§Y战斗负伤§!拥有§G抗性§!;;;;;;;;;;;;x
-crusade_lord;Crusader Blood of [This.GetTitledFirstName];;;;;;;;;;;;x
+crusade_lord;十字军战士[This.GetTitledFirstName]的血脉;;;;;;;;;;;;x
 crusade_lord_desc;[This.GetSheHeCap]因其作为第一个十字军王国[This.PrimaryTitle.GetBaseName]的[This.GetKingQueen]而闻名。[This.GetSheHeCap]是一位为了信仰浴血奋战的虔诚统治者。;;;;;;;;;;;;x
 bloodline_effect_crusade_lord;有§G更高§!几率建立一个§Y十字军王国§!;;;;;;;;;;;;x
 lord_of_outremer;[This.GetTitledFirstName]的血脉;;;;;;;;;;;;x
@@ -11567,7 +11567,7 @@ bloodline_effect_blinding;开启§Y致盲§!他人的机制;;;;;;;;;;;;x
 CHANGE_CRUSADE_TARGET_INTERACTION_TITLE;新的十字军目标;;;;;;;;;;;;x
 CHANGE_CRUSADE_TARGET_INTERACTION_DESC;§Y[Actor.GetTitledFirstName]§! requests a change to the destination for the upcoming Crusade, to focus on conquering the lands of §Y[ThirdPartyCharacter.GetTitledFirstName]§!.;;;;;;;;;;;;x
 CHANGE_CRUSADE_TARGET_INTERACTION_LONG_DESC;我们可以改变即将开始的十字军目的地。但是在东征开始之前一个角色改变战争目标越多，这一功能就越难实现。;;;;;;;;;;;;x
-IS_PREPARING_CRUSADE_TRIGGER;A Crusade is in the planning phase;;;;;;;;;;;;x
+IS_PREPARING_CRUSADE_TRIGGER;十字军处于计划阶段;;;;;;;;;;;;x
 NOT_IS_PREPARING_CRUSADE_TRIGGER;A Crusade is not currently being planned;;;;;;;;;;;;x
 HAS_PLEDGED_CRUSADE_PARTICIPATION_TRIGGER;[Root.GetTitledFirstName] has pledged to join the upcoming Crusade;;;;;;;;;;;;x
 NOT_HAS_PLEDGED_CRUSADE_PARTICIPATION_TRIGGER;[Root.GetTitledFirstName] has not pledged to join the upcoming Crusade;;;;;;;;;;;;x
@@ -11586,7 +11586,7 @@ UNPLEDGE_SUPPORT_TOOLTIP_DELAYED;我将撤回我支持本次十字军的誓约�
 SELECT_CRUSADE_BENEFICIARY;§YSet Beneficiary§!;;;;;;;;;;;;x
 SELECT_CRUSADE_BENEFICIARY_DESC;A beneficiary is the character assigned to receive all the titles of a Crusade, in the case of a victory.;;;;;;;;;;;;x
 SELECT_CRUSADE_BENEFICIARY_DELAYED;每一位战争贡献者可以选择一位十字军东征的受益人，来接受从战争中获取的头衔。以下是符合受益人资格的角色的要求:§Y\n *必须是一个[Root.Religion.GetName]\n *必须来自你的王朝\n *不能是一个领主\n *不能是某个头衔的继承人\n *年龄至少为12岁\n *不能是一个雇佣兵\n *不能是骑士团的一员\n *不能是修士或修女\n *不能身患重病或身负重伤§!;;;;;;;;;;;;x
-SELECT_CRUSADE_TARGET;§YChange the Target of the Crusade§!;;;;;;;;;;;;x
+SELECT_CRUSADE_TARGET;§Y改变十字军的目标§!;;;;;;;;;;;;x
 SELECT_CRUSADE_TARGET_DELAYED;一位虔诚的[Root.Religion.GetGroupName]可以花费些许虔诚来说服教皇和其他参战者，从而改变即将开始的十字军东征目的地。;;;;;;;;;;;;x
 defense_pledge_crusade_target_TT;Can not pledge if you are the Primary Crusade Target;;;;;;;;;;;;x
 unpledge_crusade_trigger_TT;没有参加十字军战争;;;;;;;;;;;;x
@@ -11649,7 +11649,7 @@ vassalize_knights_calatrava_opinion_TT;§Y[d_knights_calatrava.Holder.GetTitledN
 vassalize_knights_santiago_opinion_TT;§Y[d_knights_santiago.Holder.GetTitledName]§! have an opinion of §G25§! or higher of §Y[Root.GetTitledName]§!;;;;;;;;;;;;x
 vassalize_holy_sepulchre_TT;§Y[d_holy_sepulchre.Holder.GetTitledName]§! have an opinion of §G25§! or higher of §Y[Root.GetTitledName]§!;;;;;;;;;;;;x
 knights_hospitaler_island_rename;Knights of [potential_title.GetBaseName];;;;;;;;;;;;x
-crusade_invalidate_other_wars_TT;Cannot attack a fellow Crusader nor the Pope;;;;;;;;;;;;x
+crusade_invalidate_other_wars_TT;不能攻击十字军战士同僚或教宗;;;;;;;;;;;;x
 string_duke_duchess_male;duke;;;;;;;;;;;;x
 string_duke_duchess_female;duchess;;;;;;;;;;;;x
 string_duke_duchess_male_cap;公爵;;;;;;;;;;;;x
@@ -11703,13 +11703,13 @@ string_saint_joseph;圣若瑟;;;;;;;;;;;;x
 string_saint_cecilia;圣则济利亚;;;;;;;;;;;;x
 exploring_local_culture;Exploring Local Culture;;;;;;;;;;;;x
 well_versed_in_local_culture;Well Versed in Local Culture;;;;;;;;;;;;x
-ruling_in_crusader_kingdom;Crusade Recipient;;;;;;;;;;;;x
+ruling_in_crusader_kingdom;十字军的受益者;;;;;;;;;;;;x
 taskmaster;Taskmaster;;;;;;;;;;;;x
 tough_taskmaster;Taskmaster;;;;;;;;;;;;x
 inspirational_comet;Inspirational Comet;;;;;;;;;;;;x
 very_inspirational_comet;Inspirational Comet;;;;;;;;;;;;x
-settled_crusader_state;Settled Crusaders;;;;;;;;;;;;x
-left_for_shepherds_crusade;Soldiers joined Shepherds' Crusade;;;;;;;;;;;;x
+settled_crusader_state;十字军战士定居;;;;;;;;;;;;x
+left_for_shepherds_crusade;士兵们加入了牧羊人十字军;;;;;;;;;;;;x
 shepherds_chaos;In the wake of the Shepherds' Crusade;;;;;;;;;;;;x
 shepherds_settled;安置牧羊人;;;;;;;;;;;;x
 opinion_formed_order;建立骑士团;;;;;;;;;;;;x
@@ -11720,7 +11720,7 @@ custom_russia;Rus Region;;;;;;;;;;;;x
 EVTOPTB8405;I will join the cause.;;;;;;;;;;;;x
 EVTOPTB_HF_46010_TT;Preparations to pillage the burial site begins.;;;;;;;;;;;;x
 opinion_crusade_agreement;Approve of Crusade pledge;;;;;;;;;;;;x
-opinion_disapprove_of_crusade_unpledge;Traitor to the Crusade;;;;;;;;;;;;x
+opinion_disapprove_of_crusade_unpledge;十字军的叛徒;;;;;;;;;;;;x
 secretly_convert_to_bon_holy_site;秘密皈依苯教;;;;;;;;;;;;x
 secretly_convert_to_bon_holy_site_desc;聚集在圣地§Y[Root.Location.GetName]§!的§Y苯教§!朝圣者们对他们信仰的深度与热情打动了我。我被吸引着秘密改信……;;;;;;;;;;;;x
 secretly_convert_to_bon_reformed_holy_site;秘密皈依苯教;;;;;;;;;;;;x
@@ -17999,7 +17999,7 @@ cannot_expel_jews_during_blame_game_chain_TT;Cannot expel Jews during the worst 
 promoted_commander_TT;A soldier appears at the court of §Y[Root.GetTitledName]§!.;;;;;;;;;;;;x
 completely_control_near_east_TT;Completely controls the region of the §YNear East§!;;;;;;;;;;;;x
 alternate_crusade_artifact_distribution_effect_TT;Receive an §YArtifact§! from §Y[From.GetTitledFirstName]§!;;;;;;;;;;;;x
-select_crusade_beneficiary;Select as Crusade Beneficiary;;;;;;;;;;;;x
+select_crusade_beneficiary;选择十字军的受益者;;;;;;;;;;;;x
 select_crusade_beneficiary_desc;Every ruler participating in the Crusade can choose a §YBeneficiary§!, one that might inherit land in the new Crusader Kingdom if the Crusade is successful.;;;;;;;;;;;;x
 higher_tier_than_teutonic_knights_TT;Higher tier than the §YTeutonic Knights§!;;;;;;;;;;;;x
 teutonic_order_opinion_TT;§Y[d_teutonic_order.Holder.GetTitledName]§! have an opinion of §G25§! or higher of §Y[Root.GetTitledName]§!;;;;;;;;;;;;x
@@ -18038,14 +18038,14 @@ reconquista_wealthy_sponsor_TT;Increases §YMorale Defense§! and §YSiege Speed
 only_one_vassalized_holy_order_TT;Can only have one Holy Order vassalized at a time;;;;;;;;;;;;x
 romagna_TT;The title will be known as the §Y[k_romagna.GetFullBaseName]§!;;;;;;;;;;;;x
 ravenna_TT;The title will be known as the §YKingdom of Ravenna§!;;;;;;;;;;;;x
-no_fitting_ruler_TT;Any fitting target for a Northern Crusade;;;;;;;;;;;;x
+no_fitting_ruler_TT;任何合适的北方十字军的目标;;;;;;;;;;;;x
 northern_crusade_correct_kingdom_teutonic_order_TT;§Y[Root.GetTitledName]§! has land in §Y[d_teutonic_order.teutonic_target.GetFullName]§!;;;;;;;;;;;;x
 northern_crusade_fitting_title_TT;Has land in §Y[d_teutonic_order.teutonic_target.GetFullName]§!;;;;;;;;;;;;x
 northern_crusade_fitting_title_02_TT;Has land in §YNorthern Europe§!, §YEastern Baltic§! or §YRus Region§!;;;;;;;;;;;;x
 not_reverse_truce_TT;Does not have a truce with §Y[Root.GetTitledName]§!;;;;;;;;;;;;x
 higher_tier_than_count_TT;Higher tier than Count;;;;;;;;;;;;x
 alternate_crusade_artifact_name;[Root.GetAlternateCrusaderWeaponName];;;;;;;;;;;;x
-string_alternate_weapon;[Root.GetAlternateCrusadeNameForArtifacts] [Root.GetWeaponType];;;;;;;;;;;;x
+string_alternate_weapon;[Root.GetAlternateCrusadeNameForArtifacts][Root.GetWeaponType];;;;;;;;;;;;x
 string_alternate_teutonic_crusade;Teutonic;;;;;;;;;;;;x
 string_alternate_shepherds_crusade;Shepherds';;;;;;;;;;;;x
 string_alternate_reconquista_crusade;Reconquista;;;;;;;;;;;;x
@@ -18054,14 +18054,14 @@ string_blessed_ancestor;A Blessed Ancestor;;;;;;;;;;;;x
 ephemeral_knowledge;Ephemeral Knowledge;;;;;;;;;;;;x
 joyous_festivities;Fun Festivities;;;;;;;;;;;;x
 harvest_festival_believer;Harvest Festival Faith;;;;;;;;;;;;x
-fourth_crusade_crusader;Impious Crusader;;;;;;;;;;;;x
+fourth_crusade_crusader;不虔诚的十字军战士;;;;;;;;;;;;x
 crusade_organized_army;Organized Army;;;;;;;;;;;;x
 crusade_very_organized_army;Organized Army;;;;;;;;;;;;x
 crusade_inspired_army;Inspired Army;;;;;;;;;;;;x
 crusade_very_inspired_army;Inspired Army;;;;;;;;;;;;x
 crusade_great_general;Great General;;;;;;;;;;;;x
 devoted_to_highgod;Devoted;;;;;;;;;;;;x
-northern_crusade_won;Northern Crusade Victory;;;;;;;;;;;;x
+northern_crusade_won;北方十字军胜利;;;;;;;;;;;;x
 reconquista_won;Won Reconquest War;;;;;;;;;;;;x
 reconquista_lost;Lost Reconquest War;;;;;;;;;;;;x
 stopped_reconquista_war;Defended against Reconquest;;;;;;;;;;;;x
@@ -18319,9 +18319,9 @@ EVTOPTA_HF_14003_TT;你将会让你的学生看到你为了这次课程花了多
 EVTOPTB_HF_14003;我们就轻装上阵吧。;;;;;;;;;;;;x
 EVTOPTB_HF_14003_TT;你就这样简简单单的出发了。;;;;;;;;;;;;x
 EVTDESC_HF_14004_A;[student.GetTitledFirstName]礼貌地拒绝了我的邀请 。这位[student.GetManWoman]显然对目前的状况感觉满意。;;;;;;;;;;;;x
-EVTDESC_HF_14004_B;[student.GetTitledFirstName] refused my offer, muttering something about not being a charity project. If adequacy is enough for the [student.GetManWoman], who am I to intervene?;;;;;;;;;;;;x
-EVTOPTA_HF_14004;That ungrateful...! I was going to bring my favorite [Root.GetTeachingMomentTool]!;;;;;;;;;;;;x
-EVTOPTB_HF_14004;I'll leave [student.GetHerHim] alone.;;;;;;;;;;;;x
+EVTDESC_HF_14004_B;[student.GetTitledFirstName]拒绝了我的指导，嘴里咕哝着说这并不是一个慷慨的提议。要不是这个[student.GetManWoman]实在不行的话，我何苦去自讨没趣？;;;;;;;;;;;;x
+EVTOPTA_HF_14004;这个好心当成驴肝肺的王八蛋……！把我心爱的[Root.GetTeachingMomentTool]拿来！;;;;;;;;;;;;x
+EVTOPTB_HF_14004;我还是让[student.GetHerHim]自己呆会儿吧。;;;;;;;;;;;;x
 EVTDESC_HF_14005;[teacher.GetTitledFirstName] did not appreciate my response and has sworn to never aid me in any way, ever again.;;;;;;;;;;;;x
 EVTOPTA_HF_14005;Some people are rather sensitive, are they not?;;;;;;;;;;;;x
 EVTDESC_HF_14006_bravery;When [teacher.GetBestName] informed me that we were going to live in the woods for a few nights, I was tempted to refuse. We could be eaten by snakes! By [Root.GetRegionalFerociousAnimal]s! Or attacked by raiders! However, falling asleep in the wilderness, to the wind and rustling of the trees, my fears began to wane. Now, I do not know what it was that I was so afraid of.;;;;;;;;;;;;x
@@ -18464,8 +18464,8 @@ the_saintly_relative;The Virtues of a Saint;;;;;;;;;;;;x
 the_saintly_relative_1;The Virtues of [saintly_relative.GetFirstName];;;;;;;;;;;;x
 the_saintly_relative_desc;There is some discussion as to whether [Root.GetTitledFirstName] was truly related to [saintly_relative.GetBestName], but [Root.Religion.GetGroupName] scholars nonetheless admire the virtuous life described in this manuscript.;;;;;;;;;;;;x
 rowdy_desc;这个孩子又吵闹又活泼，比起追求安静的环境，他更喜欢粗犷的体力活动。可能发展成§Y强壮§!，§Y诚实§!，§Y笨拙§!或§Y粗野§!。;;;;;;;;;;;;x
-EVTOPTA_HF_10096;Now, to convene with my agents...;;;;;;;;;;;;x
-EVTOPTA_HF_10096_TT;You will use any means necessary to win this duel.;;;;;;;;;;;;x
+EVTOPTA_HF_10096;现在，让我来耍点小手段……;;;;;;;;;;;;x
+EVTOPTA_HF_10096_TT;你会用尽各种办法来赢得这次决斗。;;;;;;;;;;;;x
 EVTOPTB_HFP_10095_poison;Aah, an opportunity! I shall prepare my poisons...;;;;;;;;;;;;x
 EVTDESC_HF_10103_intrigue_A_attacker;My [other_combatant.GetRootRelation] seems unaware that the little scrape I inflicted is what is causing [other_combatant.GetHerHis] limbs to slowly go numb... "Valiant effort!" I proclaim, watching [other_combatant.GetHerHis] sluggish movements. When [other_combatant.GetSheHe] lunges at me, I carefully step aside, letting [other_combatant.GetHerHis] subsequent collapse look like a failed attack. The poison must have reached [other_combatant.GetHerHis] heart.;;;;;;;;;;;;x
 EVTDESC_HF_10103_intrigue_A_defender_spymaster;I'm not sure why my [Root.GetMySpymasterName] wants to inspect my equipment prior to the duel – surely, [job_spymaster.GetHerHis] comment about poison were in jest! Later, my performance in the fight is not my greatest accomplishment, but I honestly expected my [other_combatant.GetRootRelation] to put up more resistance. I barely have a scratch!;;;;;;;;;;;;x
@@ -18485,8 +18485,8 @@ EVTDESC_HFP_10105_default_C;The sun is beginning to set when I meet with [other_
 EVTDESC_HFP_10106_default_A;"Don't look so glum", [other_combatant.GetTitledName] offers. [other_combatant.GetSheHeCap] has me on the ground, *again*, and I losing any patience I ever had. "You oaf-" I begin, but I collapse from the pain. The [other_combatant.GetManWoman] has managed to [Root.GetWeaponInjuringBlowOnMe], and the clear scent of blood has me dizzy;;;;;;;;;;;;x
 EVTDESC_HFP_10106_default_B;I am not sure what is wrong with me, but nothing I do has any effect on [other_combatant.GetTitledFirstName]. "Come on, don't give up already!" [other_combatant.GetSheHe] commands, disgruntlement clear in [other_combatant.GetHerHis] voice. I try to rise, but I can't. My [Root.GetBodyPartInjured] hurts like it never has before. "I am just going to rest a little, here in the [Root.Capital.GetGroundDesc]", I mumble.;;;;;;;;;;;;x
 EVTDESC_HFP_10106_default_C;Pain is throbbing in my [GetBodyPartInjured], and I clench my jaw, trying not to cry. "It's not over!" I growl, but my opponent is lowering [other_combatant.GetHerHis] weapon. The last rays of the evening sun envelops [other_combatant.GetHerHim], and suddenly, [other_combatant.GetSheHe] looks like a warrior sent by the heavens themselves...! In an attempt to say something about it, I pass out.;;;;;;;;;;;;x
-so_much_for_poison_tt;Your sabotage had no effect.;;;;;;;;;;;;x
-poison_was_only_mildly_effective_tt;Your sabotage had little to no effect.;;;;;;;;;;;;x
+so_much_for_poison_tt;你所做的「小手脚」并没有起效。;;;;;;;;;;;;x
+poison_was_only_mildly_effective_tt;你所做的「小手脚」几乎没有什么用。;;;;;;;;;;;;x
 poison_was_very_effective_tt;Your sabotage probably helped...;;;;;;;;;;;;x
 EVTDESC_HFP_10109_B;My [GetBodyPartInjured] hurts, but it somehow doesn't seem as bad as what my opponent is suffering. "I'm not done!", [other_combatant.GetTitledFirstName] says, through gritted teeth, but then [other_combatant.GetSheHe] lies back down on the ground, throwing [other_combatant.GetHerHis] [other_combatant.GetDuelWeapon] to the side. When I step closer [other_combatant.GetSheHe] splutters: "No no, I'm done! I yield!".;;;;;;;;;;;;x
 EVTDESC_HFP_10109_C;[other_combatant.GetTitledFirstName] is taken aback when I [other_combatant.GetWeaponInjuringBlow]. "[Root.GetTitledFirstName] wins!" someone proclaims, and my opponent groans. I am ignoring the pain in my [GetBodyPartInjured], but I have a suspicion [GetSeverityOfInjury].;;;;;;;;;;;;x
@@ -18497,7 +18497,7 @@ EVTDESC_HFP_double_death_intrigue_poison_killed_me;It is with effort that I fina
 EVTDESC_HFP_double_death_intrigue_both_used_poison;There is something odd about the reluctance with which [other_combatant.GetTitledFirstName] is fighting. Perhaps the poison I had my agents prepare is working better than anticipated? My [GetBodyPartInjured] is stinging with pain, and inspecting my other wounds, I find myself feeling dizzy, my vision beginning to blur... No... No, no, no!;;;;;;;;;;;;x
 EVTDESC_HF_10103_intrigue_default;[other_combatant.GetTitledFirstName] is moving sluggishly. Perhaps it's due to the special breakfast I had my agents prepare for [other_combatant.GetHerHim], but it is clear that the [other_combatant.GetManWoman] is not in [other_combatant.GetHerHis] best form. Before anyone catches on, I attack with full force. It feels almost too easy.;;;;;;;;;;;;x
 EVTDESC_HF_10104_intrigue_default;[other_combatant.GetTitledFirstName] is moving [other_combatant.GetClumsilyElegantly], yet I can't even muster the strength to hold my [GetDuelWeapon] right. "You look tired, my [Root.GetLordLady]", [other_combatant.GetSheHe] says, stepping closer. I want to protest, but my head is swimming. Smirking, [other_combatant.GetSheHe] swings [other_combatant.GetHerHis] [other_combatant.GetDuelWeapon], and [Root.GetKillingBlowOnMeShort].;;;;;;;;;;;;x
-EVTDESC_HFP_10105_intrigue_default;For a moment I am worried that [other_combatant.GetHerHis] armor is going to simply fall off [other_combatant.GetHerHim], but [other_combatant.GetTitledFirstName] does not appear to notice my sabotage. All I need to do is land a blow in the right area and... There! The [other_combatant.GetManWoman] is spinning, clutching [other_combatant.GetHerHis] [other_combatant.GetBodyPartInjured], screaming in pain.;;;;;;;;;;;;x
+EVTDESC_HFP_10105_intrigue_default;有那么一瞬间我担心[other_combatant.GetHerHis]的铠甲会直接掉在[other_combatant.GetHerHim]的脚下，但是似乎[other_combatant.GetTitledFirstName]并没有注意到我在他装备上做的小手脚。我现在要做的，就是在「正确」的地方刺上一下……然后……就是那！我面前的[other_combatant.GetManWoman]被我的致命一击打的找不着北，紧紧握着[other_combatant.GetHerHis][other_combatant.GetBodyPartInjured]，发出痛苦的惨叫声。;;;;;;;;;;;;x
 EVTDESC_HFP_10106_intrigue_default;I instructed the squire to weaken my opponent's armor, but I am having trouble spotting the sabotage. "Are you making a wish?" [other_combatant.GetTitledFirstName] asks, impatiently – we have been at this for hours, and my scheming has lead nowhere. I back away, clutching my [GetBodyPartInjured]. [GetSeverityOfInjuryCap].;;;;;;;;;;;;x
 String_it_is_mild_A;it is not going to leave any lasting means;;;;;;;;;;;;x
 String_it_is_mild_B;it's going to hurt for a while;;;;;;;;;;;;x
@@ -18650,7 +18650,7 @@ RULE_GENERATE_FAMILIES_ON_DESC;如果一个有地角色不是显赫家族的一�
 RULE_GENERATE_FAMILIES_OFF_DESC;如果一个有地角色不是显赫家族的一员，他不会在游戏开始时获得一个随机生成的家族。这项设置增加了在游戏在早期突然结束的风险。;;;;;;;;;;;;x
 RULE_OPTION_AI_ONLY;启用（仅限AI）;;;;;;;;;;;;x
 RULE_GENERATE_FAMILIES_AI_ONLY_DESC;如果一个AI控制的有地角色不是显赫家族的一员，在游戏开始时他将有很大几率拥有一个配偶与四个子女。这项设置增加了在游戏在早期突然结束的风险。;;;;;;;;;;;;x
-string_rp_crusading;On a Crusade as ;;;;;;;;;;;;x
+string_rp_crusading;在一场十字军中作为;;;;;;;;;;;;x
 string_rp_ghw;On a Great Holy War as ;;;;;;;;;;;;x
 d_somerset;萨默塞特;;;;;;;;;;;;x
 d_hampshire;威塞克斯;;;;;;;;;;;;x
@@ -19296,9 +19296,9 @@ alert_reconquista_active_instant;Reconquest;;;;;;;;;;;;x
 alert_reconquista_active_delayed;There is currently an ongoing Reconquest war at the Iberian Peninsula;;;;;;;;;;;;x
 alert_reconquista_timer_instant;正在准备再征服战争;;;;;;;;;;;;x
 alert_reconquista_timer_delayed;你需在[Root.reconquista_preparation_left.GetExpiryDate]之前发动再征服战争;;;;;;;;;;;;x
-alert_northern_crusade_help_instant;Northern Crusade Target;;;;;;;;;;;;x
+alert_northern_crusade_help_instant;北方十字军的目标;;;;;;;;;;;;x
 alert_northern_crusade_help_delayed;You can ask the Teutons to target a pagan ruler for their northern campaigns;;;;;;;;;;;;x
-alert_northern_crusade_active_instant;Northern Crusade;;;;;;;;;;;;x
+alert_northern_crusade_active_instant;北方十字军;;;;;;;;;;;;x
 alert_northern_crusade_active_delayed;There is currently an ongoing war between the Teutons and the pagans;;;;;;;;;;;;x
 stem_duchy_of_saxony;成立萨克森大公国;;;;;;;;;;;;x
 stem_duchy_of_saxony_desc;随着萨克森被我统一，我应该得到一个和我地位相称的头衔。;;;;;;;;;;;;x
@@ -19855,10 +19855,10 @@ random_building_is_destroyed_tt;§Y[This.GetName]§!的一座随机建筑将被�
 OLD_ARTIFACT_DESTROYED_LOG;$ARTIFACT|Y$已被从$CHARACTER|Y$的宝库里移除。;;;;;;;;;;;;x
 OLD_ARTIFACT_DESTROYED_SETUP;宝物已移除;;;;;;;;;;;;x
 BAPTISM_SETUP;洗礼;;;;;;;;;;;;x
-EVTDESCHF10521;致敬，[Root.GetSocietyRank]!\n\n我们注意到您的[recruit_to_be.GetSonDaughter][recruit_to_be.GetFirstName]至今仍未加入我们的群体。我们诚挚地希望您与[recruit_to_be.GetHerHim]讨论关于成为[Root.Society.GetName]的一员的事宜，正如[recruit_to_be.GetHerHis][Root.GetFatherMother]曾经那样。\n\n此致，[From.GetTitledFirstName];;;;;;;;;;;;x
+EVTDESCHF10521;致敬，[Root.GetSocietyRank]!\n\n我们注意到您的[recruit_to_be.GetSonDaughter][recruit_to_be.GetFirstName]至今仍未加入我们的队伍当中。我们诚挚地希望您与[recruit_to_be.GetHerHim]讨论关于成为[Root.Society.GetName]的一员的事宜，正如[recruit_to_be.GetHerHis][Root.GetFatherMother]曾经那样。\n\n此致，[From.GetTitledFirstName];;;;;;;;;;;;x
 quest_warrior_lodge_recruit;招募你的孩子;;;;;;;;;;;;x
 quest_warrior_lodge_recruit_desc;我们的后代也许会追随我们的脚步，但激励我们的年轻人才是确保我们的战士公会能够传承下去的关键。;;;;;;;;;;;;x
-quest_warrior_lodge_recruit_tooltip;要完成这项任务，你需要§G右键点击§!你目标的头像并且§Y招募§!他们。如果入会仪式成功了，你会得到§Y[Root.Society.GetCurrency]§!。然而，如果你的孩子在入会决斗中败北了，这个任务就算失败。;;;;;;;;;;;;x
+quest_warrior_lodge_recruit_tooltip;要完成这项任务，你需要§G右键点击§!你目标的头像并且§Y招募§!他们。如果入会仪式成功了，你会得到§Y[Root.Society.GetCurrency]§!。然而，如果你的孩子没有在入会决斗中胜出，这个任务就将会失败。;;;;;;;;;;;;x
 has_mission_to_recruit_tt;§Y[From.GetTitledFirstName]§!有一个招募§Y[Root.GetTitledFirstName]§!的任务;;;;;;;;;;;;x
 EVTDESC_HF_10503_recruit;我的[From.GetRootRelation]§Y[From.GetTitledFirstName]§!过早的离世意味着我招募[From.GetHerHim]的任务失败了。[Root.Society.GetName]会另外布置任务给我。;;;;;;;;;;;;x
 scarred_high;怖人伤疤;;;;;;;;;;;;x
