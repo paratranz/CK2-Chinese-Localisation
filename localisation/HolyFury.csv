@@ -3955,7 +3955,7 @@ religion_feature_hellenic;文明化;;;;;;;;;;;;x
 religion_feature_hellenic_desc;我们必须记住，众神对凡人事务几乎没有任何兴趣，我们应该努力保持对信仰的超然态度。;;;;;;;;;;;;x
 religion_temporal_head;世俗化;;;;;;;;;;;;x
 religion_temporal_head_desc;世俗和精神的力量是不可分割的。将它们分成两个体系是毫无意义的。;;;;;;;;;;;;x
-religion_theocratic_head;神职统领;;;;;;;;;;;;x
+religion_theocratic_head;圣统制;;;;;;;;;;;;x
 religion_theocratic_head_desc;应该由一位高阶的神职人员掌管全权管理一切属灵的权力，这样神灵才能被恰当的宗教典礼取悦。;;;;;;;;;;;;x
 religion_autocephaly;地方自主;;;;;;;;;;;;x
 religion_autocephaly_desc;每个领地都应有自己的牧师，与其统治者一起工作，满足众神及其信徒的需求。;;;;;;;;;;;;x
@@ -8602,7 +8602,7 @@ tooltip_religion_feature_default_invasion_dynamic;[GetAltStartDefaultReformation
 tooltip_religion_feature_default_claim_dynamic;[GetAltStartDefaultReformationClaimDesc];;;;;;;;;;;;x
 religion_leader_unchanged;保持不变;;;;;;;;;;;;x
 religion_leader_unchanged_desc;Leadership can only be changed when reforming a Pagan religion.;;;;;;;;;;;;x
-tooltip_religion_feature_default_head_catholic;§GThe Pope is the Hierocratic Head of this religion§!;;;;;;;;;;;;x
+tooltip_religion_feature_default_head_catholic;§G此宗教的圣统制首领为教宗§!;;;;;;;;;;;;x
 tooltip_religion_feature_default_head_eastern;§Y不存在宗教领袖§!§\n§R不能进行大圣战§!;;;;;;;;;;;;x
 tooltip_religion_feature_default_head_eastern_pacifist;§Y不存在宗教领袖§!§\n§R不能进行大圣战§!\n§R统治者无法发动圣战§!;;;;;;;;;;;;x
 tooltip_religion_feature_default_head_muslim;§G哈里发是这个宗教的世俗领袖\n宗教领袖可以召唤吉哈德§!;;;;;;;;;;;;x
@@ -8616,7 +8616,7 @@ tooltip_religion_feature_default_divorce;§G宗教领袖可以同意离婚§!;;;
 tooltip_religion_feature_default_invasion;§GThe Religious Head can sponsor Invasions§!;;;;;;;;;;;;x
 tooltip_religion_feature_default_claim;§G宗教领袖现在可以批准入侵\n宗教领袖现在可以赐予宣称§!;;;;;;;;;;;;x
 obj_create_treasury_desc;[This.GetTitledFirstName]想得到一个宝物以放进[GetHerHis]空空如也的宝库里;;;;;;;;;;;;x
-tooltip_obj_create_treasure;To complete the ambition you need to amass three artifacts of sufficient quality for your treasury;;;;;;;;;;;;x
+tooltip_obj_create_treasure;为了完成这个野心，你需要为你的宝库积攒三件质量合适的宝物;;;;;;;;;;;;x
 create_treasury_condition_tooltip;有三件至少§Y等级2§!的宝物在你的宝库里;;;;;;;;;;;;x
 obj_make_friends_title;交朋友;;;;;;;;;;;;x
 obj_make_friends_desc;[This.GetTitledFirstName]想交朋友。;;;;;;;;;;;;x
@@ -10945,7 +10945,7 @@ warrior_lodge_hellenic_desc_random;The Mountain Guardians train hard and maintai
 a_commander_joins_your_court_tt;一位名叫§Y[invited_character.GetBestName]§!的指挥官加入了你的宫廷，准备为你服务。;;;;;;;;;;;;x
 quest_warrior_lodge_duel_honor;荣誉决斗;;;;;;;;;;;;x
 quest_warrior_lodge_duel_honor_desc;战士公会的成员经常互相切磋，既是练习，也是消遣。但如果没有他人的注意，就不必为其后果负责……;;;;;;;;;;;;x
-quest_warrior_lodge_duel_honor_tooltip;To complete this mission you need to §Gright-click§! on the portrait of your target and choose to §YDuel§! them. The winner will receive the most §Y[Root.Society.GetCurrency]§!.;;;;;;;;;;;;x
+quest_warrior_lodge_duel_honor_tooltip;为了完成这项任务，你需要§G右键点击§!你目标的头像并且与他们§Y决斗§!。胜者将会得到大部分§Y[Root.Society.GetCurrency]§!。;;;;;;;;;;;;x
 quest_warrior_lodge_duel_deadly;嗜血决斗者;;;;;;;;;;;;x
 quest_warrior_lodge_duel_deadly_desc;It is important to occasionally test one's mettle and prove oneself as a warrior. A straight-forward way is to seek out enemies and deal with them, personally...;;;;;;;;;;;;x
 quest_warrior_lodge_duel_deadly_tooltip;要完成这项任务，你需要§G右键点击§!你目标的头像并且与他们§Y决斗§!。胜者将会得到大部分§Y[Root.Society.GetCurrency]§!。然而失败并屈辱活着将意味着失去§Y[Root.Society.GetCurrency]§!……;;;;;;;;;;;;x
@@ -12084,7 +12084,7 @@ EVTDESCAHF25503;传言是真的！[From.GetName]城内真的全是金银财宝�
 EVTOPTAHF25503;是时候回家了！;;;;;;;;;;;;x
 quest_warrior_lodge_raid_and_loot;劫掠省份;;;;;;;;;;;;x
 quest_warrior_lodge_raid_and_loot_desc;你必须带着你的手下去掠夺[From.Location.GetName]，由此来证明你的价值，并且小赚一笔。;;;;;;;;;;;;x
-quest_warrior_lodge_raid_and_loot_tooltip;To complete this mission, personally lead your troops to loot §Y[FromFrom.GetName]§!.;;;;;;;;;;;;x
+quest_warrior_lodge_raid_and_loot_tooltip;为了完成这项任务，你需要亲自带领军队掠夺§Y[FromFrom.GetName]§!。;;;;;;;;;;;;x
 EVTDESCAHF25505;Hail, [Root.GetSocietyRank]! \n\nIt has come to our attention that you are eschewing your duties as a member of [Root.Society.GetName] as of recently. You should be focusing on training and improving your form if you wish to compete with the rest of us. \nI hope I made myself clear.\n\nSigned, [From.GetTitledFirstName];;;;;;;;;;;;x
 EVTDESCBHF25505;Hail, [Root.GetSocietyRank]! \n\nIt has come to our attention that you are eschewing your duties as a member of [Root.Society.GetName] as of recently. There is much that a [Root.GetManWoman] can learn by tracking down game in the wilderness.\nDo not forget to show me some of your best trophies.\n\nSigned, [From.GetTitledFirstName];;;;;;;;;;;;x
 EVTDESCCHF25505;Hail, [Root.GetSocietyRank]! \n\nWhile we [From.Society.GetName] always appreciate a good brawl, I think it is important that we always keep in mind what are we fighting for.\nYou should always keep in mind your responsibilities as a ruler.\nYou have a duty to lead and protect your subjects.\n\nSigned, [From.GetTitledFirstName];;;;;;;;;;;;x
@@ -18536,7 +18536,7 @@ nick_the_belligerent;the Belligerent;;;;;;;;;;;;x
 train_assassin_protege;Train Protégé;;;;;;;;;;;;x
 train_assassin_protege_desc;As a member of §Y[From.Society.GetName]§! you can choose to educate §Y[Root.GetTitledFirstName]§! in the shadowy arts of the brotherhood.;;;;;;;;;;;;x
 6252_CONVERT_APPRENTICE_TT_2;§Y[assassin_protege.GetTitledFirstName]§! will offer [assassin_protege.GetHerselfHimself] up to Allah and convert to the religion of Shia Islam, either publicly, or secretly.;;;;;;;;;;;;x
-quest_the_assassins_protege_tooltip;To complete this mission, the training of a protégé must be initiated and completed. To train a child, §Gright-click§! on their portrait and choose "Train Protégé".;;;;;;;;;;;;x
+quest_the_assassins_protege_tooltip;为了完成这项任务，你必须开始并完成对门徒的培养。为了训练一个儿童，§G右键点击§!他们的头像并选择「训练门徒」。;;;;;;;;;;;;x
 available_because_books_tt;This option is available because you have §Y[book_target.GetName]§! in your §YTreasury§!;;;;;;;;;;;;x
 EVTOPTD72003;I will see to it that we make use of existing recipes, for inspiration.;;;;;;;;;;;;x
 EVTOPTD72003_cheap;Let's make use of this little book, why don't we?;;;;;;;;;;;;x
@@ -19912,11 +19912,11 @@ EVTDESCLoR45_HF;你是[e_roman_empire.GetName]的现任统治者。愿你的治�
 string_vanilla_augustus_desc;此人是重生的罗马帝国的现任统治者，理应得到符合其身份的尊重。;;;;;;;;;;;;x
 string_altstart_augustus_desc;此人乃是[e_roman_empire.GetName]的现任统治者，理应得到符合其身份的尊重。;;;;;;;;;;;;x
 augustus_desc;[GetAltAugustusName];;;;;;;;;;;;x
-PONTIFEX_MAXIMA;Pontifex Maxima;;;;;;;;;;;;x
+PONTIFEX_MAXIMA;最高祭司长;;;;;;;;;;;;x
 HEAD_ZUN_PRIEST;大祭司;;;;;;;;;;;;x
-HEAD_ZUN_PRIESTESS;大祭司;;;;;;;;;;;;x
-HEAD_AFRICAN_PRIEST;Grand Saltigue;;;;;;;;;;;;x
-HEAD_AFRICAN_PRIESTESS;Grand Saltigue;;;;;;;;;;;;x
+HEAD_ZUN_PRIESTESS;女大祭司;;;;;;;;;;;;x
+HEAD_AFRICAN_PRIEST;大祭司;;;;;;;;;;;;x
+HEAD_AFRICAN_PRIESTESS;女大祭司;;;;;;;;;;;;x
 arberian;Arberian;;;;;;;;;;;;x
 setting_shattered_succession_all_primogeniture_tooltip;所有的头衔会被指定为长子继承法。\n-最年长的孩子继承所有头衔。\n-你的继承人会喜欢这个法律，但你的其他家族成员对其会有些反感。;;;;;;;;;;;;x
 setting_shattered_succession_all_gavelkind_tooltip;所有的头衔会被指定为均分继承法。\n-头衔会被分配给所有孩子，而长子继承主要头衔。\n-你不会因为无领地的儿子而受到威望惩罚。\n-你的直辖领地数量上限会增加§Y30%§!。\n-禁止摧毁头衔。\n-该继承法十分受到除长子以外所有孩子的欢迎。;;;;;;;;;;;;x
