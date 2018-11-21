@@ -2162,7 +2162,7 @@ tooltip_20640_A;Inform §Y[From.GetFirstName]§! that you are happy for [From.Ge
 EVTOPTBHFP20640;我要尽可能礼貌地告诫[From.GetHerHim]。;;;;;;;;;;;;x
 tooltip_20640_B;Use all your tact to inform §Y[From.GetFirstName]§! that [From.GetSheHe] has a problem and should try eating more.;;;;;;;;;;;;x
 EVTOPTCHFP20640;你到底怎么了？再不吃你就饿死了！;;;;;;;;;;;;x
-tooltip_20640_C;Bluntly inform §Y[From.GetFirstName]§! that [From.GetSheHe] is getting much too thin.;;;;;;;;;;;;x
+tooltip_20640_C;直接了当的告知§Y[From.GetFirstName]§![From.GetSheHe]现在太瘦了。;;;;;;;;;;;;x
 EVTOPTDHFP20640;这不关我的事。;;;;;;;;;;;;x
 EVTDESCHFP20641;就在今天我的[GetFromRelation][From.GetFirstName]公开称赞了我令人羡慕的体形，以及我在所有事情上克制且奉献的模范表现。;;;;;;;;;;;;x
 EVTOPTAHFP20641;很高兴你这么说。;;;;;;;;;;;;x
@@ -2240,7 +2240,7 @@ EVTDESCAHFP20651;I simply cannot bear the sight of my [GetFromRelation] [From.Ge
 EVTOPTAHFP20651;Are you sick, [From.GetFirstName]? You look bloated today...;;;;;;;;;;;;x
 tooltip_20651_A;Insinuate that §Y[From.GetFirstName]§! is getting fat.;;;;;;;;;;;;x
 EVTOPTBHFP20651;Dear [Root.Religion.GetHighGodName], [From.GetFirstName], I can see your bones sticking out!;;;;;;;;;;;;x
-tooltip_20651_B;Insinuate that §Y[From.GetFirstName]§! is getting too thin.;;;;;;;;;;;;x
+tooltip_20651_B;暗示§Y[From.GetFirstName]§!有点太瘦了;;;;;;;;;;;;x
 EVTOPTDHFP20651;This is too petty even for me.;;;;;;;;;;;;x
 EVTDESCHAFP20652;Today I was approached by my [GetFromRelation] [From.GetFirstName]. [From.GetSheHeCap] has told me that [From.GetSheHe] has grown increasingly concerned by my eating habits. [From.GetSheHeCap] thinks that I have gained quite a bit of weight in the last months, and now fears for my health.;;;;;;;;;;;;x
 EVTOPTAHFP20652;呸！屁话！我才不信你！;;;;;;;;;;;;x
@@ -4290,7 +4290,7 @@ EVTDESC_HFP_10111_default;[other_combatant.GetTitledName] has already managed to
 EVTOPTA_HFP_10111;Then there was nothing.;;;;;;;;;;;;x
 EVTDESC_HFP_10112_mock_duel;I know that there wasn't really anything at stake during the mock duel that took place between us, yet I find myself filling with rage whenever anyone mentions [other_combatant.GetTitledName], and it's making servants flinch. But does it matter? I am the [Root.GetTitle]! Am I not allowed to loathe that [other_combatant.GetManWoman]?!;;;;;;;;;;;;x
 EVTDESC_HFP_10115_default;I have recently found myself talking with [other_combatant.GetTitledFirstName] for hours, about [other_combatant.GetRootMatchingPersonalityStreak]. I have to laugh, however, when the [other_combatant.GetManWoman] attempts to compliment my fighting technique – we both know that I didn't do very well, last time we sparred.;;;;;;;;;;;;x
-EVTDESC_HFP_10115_mock_duel;在那场决斗之后，我一直在和[other_combatant.GetTitledFirstName]练习格斗。[other_combatant.GetManWoman]的确略胜于我，于是我很快请求点拨。[other_combatant.GetSheHeCap]起初感到很诧异，但是现在我骄傲地告诉[other_combatant.GetHerHim][other_combatant.GetSheHe]的确是一个好老师。「不光如此，我们现在还是挚友了」我补充道。;;;;;;;;;;;;x
+EVTDESC_HFP_10115_mock_duel;在那场决斗之后，我一直在和[other_combatant.GetTitledFirstName]练习格斗。这个[other_combatant.GetManWoman]的确略胜于我，于是很快我便请求点拨。[other_combatant.GetSheHeCap]起初感到很诧异，但是现在我骄傲地告诉[other_combatant.GetHerHim][other_combatant.GetSheHe]的确是一个好老师。「不光如此，我们现在还是挚友了」我补充道。;;;;;;;;;;;;x
 EVTDESC_HFP_10116_default;I have recently found myself becoming friendly with [From.GetTitledFirstName]. [From.GetSheHeCap] chuckles heartily, however, when I attempt to compliment the [From.GetManWoman] on [From.GetHerHis] fighting technique. "My [Root.GetLordLady], we both know that I did not do very well, last time we sparred", [From.GetSheHe] says.;;;;;;;;;;;;x
 EVTDESC_HFP_10116_mock_duel;After the duel, [From.GetTitledName] asked me for advice on fighting. A little taken aback, I happily offered to train with [From.GetHerHim], on occasion. Today, [From.GetSheHe] thanks me, for being a good teacher. "And friend," [From.GetSheHe] adds, dunking me on the back, before [From.GetSheHe] cocks [From.GetHerHis] head, in direction of the sparring grounds.;;;;;;;;;;;;x
 EVTOPTA_HFP_10116_mock_duel;Again? Why not, [From.GetSisterBrother]!;;;;;;;;;;;;x
@@ -4347,18 +4347,18 @@ EVTOPTA_HF_10004;我会摆上我最令人生畏的面孔。嗯哼。;;;;;;;;;;;;
 EVTOPTA_HF_10004_TT;You'll approach the [new_recruit.GetManWoman] to explain the initiation duel.;;;;;;;;;;;;x
 EVTDESC_HF_10005;[hero_character.GetTitledName] of [hero_character.Society.GetName] greets me with a brief nod. "Another recruit, huh? To join our ranks, you need to prove yourself, [Root.GetBoyGirl]", the [hero_character.GetManWoman] says gruffly, folding [hero_character.GetHerHis] arms across [hero_character.GetHerHis] chest. "You'd be fighting one of our own. Still interested, my [Root.GetLordLady]?";;;;;;;;;;;;x
 EVTOPTA_HF_10005;我很乐意为了证明自己而战。;;;;;;;;;;;;x
-EVTOPTA_HF_10005_TT;You agree to duel whoever it is that §Y[hero_character.Society.GetNameCap]§! has chosen for you.;;;;;;;;;;;;x
+EVTOPTA_HF_10005_TT;你同意与任何§Y[hero_character.Society.GetNameCap]§!为你挑选的人决斗;;;;;;;;;;;;x
 EVTOPTB_HF_10005;事实上，我并不想让我的拳头沾上鲜血。;;;;;;;;;;;;x
-EVTOPTB_HF_10005_TT;You will not be attempting to join §Y[hero_character.Society.GetNameCap]§!.;;;;;;;;;;;;x
+EVTOPTB_HF_10005_TT;你将放弃加入§Y[hero_character.Society.GetNameCap]§!。;;;;;;;;;;;;x
 EVTDESC_HF_10006_yes;[new_recruit.GetTitledFirstName] offered no protests when I explained our traditions, eyes all aglitter at the thought of an initiation duel. After some inquiry, [duel_target.GetTitledName] has kindly volunteered.;;;;;;;;;;;;x
 EVTOPTA_HF_10006_yes;Show [new_recruit.GetHerHim] the ropes, [duel_target.GetSisterBrother].;;;;;;;;;;;;x
 EVTOPTA_HF_10006_TT_1;A sparring duel will take place between §Y[new_recruit.GetTitledName]§! and §Y[duel_target.GetTitledName]§!;;;;;;;;;;;;x
 EVTDESC_HF_10006_no;[new_recruit.GetTitledFirstName] listened while I explained our tradition of one-on-one duels, but then rolled [new_recruit.GetHerHis] eyes and walked off. "I would rather not get involved with barbarians.";;;;;;;;;;;;x
 EVTOPTA_HF_10006_no;Why, that little-... The coward!;;;;;;;;;;;;x
 EVTDESC_HFP_10095_mock_duel;My [hero_character.GetSisterBrother] in [Root.Society.GetName], [hero_character.GetTitledName], informs me that [combatant_1.GetBestName] needs someone to partake in a [combatant_1.GetDuelType], in an attempt for the eager recruit to prove [combatant_1.GetHerselfHimself] to us. The only respectable response would be to agree to help out.;;;;;;;;;;;;x
-EVTDESC_HFP_10096_mock_duel;[hero_character.GetBestName] and [From.Society.GetName] have chosen [From.GetTitledName] as my opponent. The [From.GetAgeAdjective] [From.GetManWoman] eyes me up and down when we are introduced. "Fresh meat, eh?" [From.GetSheHe] offers mockingly, before shoving an elbow into my side, making everyone laugh.;;;;;;;;;;;;x
-EVTOPTA_HFP_10096;A [GetDuelType], huh?;;;;;;;;;;;;x
-EVTOPTA_HFP_10096_TT;The duel will take place within the next few days.\n;;;;;;;;;;;;x
+EVTDESC_HFP_10096_mock_duel;[hero_character.GetBestName]与[From.Society.GetName]决定选[From.GetTitledName]作为我的对手。在我们被介绍的时候，那个[From.GetAgeAdjective][From.GetManWoman]一直拿眼睛上下打量我。「一块小鲜肉？」[From.GetSheHe]嘲讽着用手肘戳我，围观的人都笑了起来。;;;;;;;;;;;;x
+EVTOPTA_HFP_10096;一场[GetDuelType]，是吧？;;;;;;;;;;;;x
+EVTOPTA_HFP_10096_TT;决斗将在未来几天内进行。\n;;;;;;;;;;;;x
 String_smack_hard_across_body_part;smack my [Root.GetDuelWeapon] down, hard, across [This.GetHerHis] [This.GetBodyPartInjured];;;;;;;;;;;;x
 String_smack_hard_across_my_body_part;smack [other_combatant.GetHerHis] [other_combatant.GetDuelWeapon] excruciatingly hard, across my [This.GetBodyPartInjured];;;;;;;;;;;;x
 String_wooden_sword;木剑;;;;;;;;;;;;x
@@ -4377,7 +4377,7 @@ EVTOPTA_HF_10008_surprised;Another member, eh? What do you know!;;;;;;;;;;;;x
 EVTOPTA_HF_10008_unimpressed;真是浪费时间！;;;;;;;;;;;;x
 EVTOPTA_HF_10008_TT;§Y[From.GetTitledFirstName]§! will be invited to join §Y[Root.Society.GetName]§!;;;;;;;;;;;;x
 EVTOPTB_HF_10008_TT;§Y[From.GetTitledFirstName]§! will be §Rbanned§! from joining §Y[Root.Society.GetName]§!, for 10 years;;;;;;;;;;;;x
-EVTOPTA_HF_10009;Finally.;;;;;;;;;;;;x
+EVTOPTA_HF_10009;终于。;;;;;;;;;;;;x
 EVTDESC_HF_10010;To the COWARD [Root.GetTitledFirstName],\nNeedless to say, we are unimpressed by your behavior, and hope you do not seek us anytime soon, lest this offense escalates.\n\nSigned,\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA_HF_10010;I am as disappointed as you are.;;;;;;;;;;;;x
 EVTOPTB_HF_10019_TT;You will be §Rbanned§! from joining §Y[Root.Society.GetName]§!, for 10 years;;;;;;;;;;;;x
@@ -6561,7 +6561,7 @@ EVTOPTA_HF_40055;Embarrassing, for all of us.;;;;;;;;;;;;x
 EVTOPTC_HF_40055;An embarrassment to the family.;;;;;;;;;;;;x
 EVTDESCB_HF_40055;[saint_person.GetTitledFirstName] passed on [saint_person.GetDeathDate], and even though [saint_person.GetSheHe] had [saint_person.GetHerHis] shortcomings in life, [bishopric_holder.GetTitledFirstName] has called together a celebration in [saint_person.GetHerHis] honor.\n\nMaking a compassionate inspiring speech about the pious life of [saint_person.GetTitledName], in spite of [saint_person.GetHerHis] faults in life. Like St. Augustine, [saint_person.GetSheHe] managed to move past [saint_person.GetHerHis] faults, and move on to become a better [saint_person.GetManWoman] living for the faith.\n\nIt is hard not to be moved by a tale filled with such hardship, a [saint_person.GetManWoman] like [saint_person.GetHerHim] is what we need to inspire the masses.;;;;;;;;;;;;x
 EVTOPTB_HF_40055;It is only right.;;;;;;;;;;;;x
-EVTOPTD_HF_40055;An honor for the family.;;;;;;;;;;;;x
+EVTOPTD_HF_40055;一个我家族的荣耀。;;;;;;;;;;;;x
 TITLEHF.40060;教廷震怒;;;;;;;;;;;;x
 EVTDESCA_HF_40060;梵蒂冈已经向整个[saint_person.Religion.GetName]世界送出了消息。教宗本人要求有罪之人不得接受宣福礼，并且收回了普通教士施行宣福礼的权力。\n\n从现在开始，只有教皇本人才可以施行宣福礼。梵蒂冈再也不能忍受这种令人蒙羞的错误，就像那位不该享福却依然受了宣福礼的[saint_person.GetDynName]。\n\n现在只有[GetJesus]的虔诚信徒才会被赋予信仰的威严。;;;;;;;;;;;;x
 EVTOPTA_HF_40060;闹剧终于要落幕了。;;;;;;;;;;;;x
@@ -7059,22 +7059,22 @@ EVTDESC_HF_42022_SCHOLAR;[sway_target.GetTitledFirstName] thanked me for the inv
 EVTDESC_HF_42022_STEWARD;[sway_target.GetTitledFirstName] thanked me for the invitation to the local festival, but sadly [sway_target.GetSheHe] cannot find them to join.;;;;;;;;;;;;x
 EVTDESC_HF_42022_TORTURE;[sway_target.GetTitledFirstName] thanked me for the invitation, but was not interested in joining right now. ;;;;;;;;;;;;x
 EVTOPTA_HF_42022;也许下次把。;;;;;;;;;;;;x
-EVTDESC_HF_42023_HUNT;[From.GetTitledFirstName] gives me a smile, as we start walking into the local forests around [Root.Capital.GetName]. I have been waiting for this for a while.;;;;;;;;;;;;x
-EVTDESC_HF_42023_DUEL;[From.GetTitledFirstName] looks excited as the first rounds of the tournament starts. I brandish my blade, and am ready as well.;;;;;;;;;;;;x
-EVTDESC_HF_42023_GAME;[From.GetTitledFirstName] inquires about the nature of the game we will play, as the other attendees readies the board. A game about warfare is fitting for rulers like us, no?;;;;;;;;;;;;x
-EVTDESC_HF_42023_SOCIAL;I receive [From.GetTitledFirstName] at the door, and help [From.GetHerHim] inside. [From.GetSheHeCap] look around the large room, and give me an approving nod of the size of the banquet.;;;;;;;;;;;;x
-EVTDESC_HF_42023_SCHOLAR;[From.GetFirstName] is the last one to arrive to the discussion. The conversation flows freely between everyone, jumping from topic to topic.;;;;;;;;;;;;x
-EVTDESC_HF_42023_STEWARD;All kinds of sights can be seen as we walk through the streets of [Root.Capital.GetName]. Masked jugglers and people having fun all around us. I decide to show [From.GetHerHim] the local hedge-maze, to top it off. ;;;;;;;;;;;;x
-EVTDESC_HF_42023_TORTURE;I happily guide [From.GetFirstName] down the stairs to the dungeon, as soon as [From.GetSheHe] gets to [Root.Capital.GetName]. We have a lot of fine specimen here in [Root.Capital.GetName], and this is a prime opportunity to test them out.;;;;;;;;;;;;x
+EVTDESC_HF_42023_HUNT;[From.GetTitledFirstName]冲我微笑，我们走进了[Root.Capital.GetName]本地的丛林。我已经等了好一会了。;;;;;;;;;;;;x
+EVTDESC_HF_42023_DUEL;[From.GetTitledFirstName]在第一轮比赛开始时显得很兴奋。我也挥舞着兵刃准备就绪。;;;;;;;;;;;;x
+EVTDESC_HF_42023_GAME;[From.GetTitledFirstName]问我们要玩的是什么游戏，其他与会者也准备一起玩。我们这种统治者就适合玩战争游戏，对吧？;;;;;;;;;;;;x
+EVTDESC_HF_42023_SOCIAL;我在门口迎接[From.GetTitledFirstName]，带[From.GetHerHim]入内。[From.GetSheHeCap]看了看这个大房间，然后像参加宴会一般对我满意地点头。;;;;;;;;;;;;x
+EVTDESC_HF_42023_SCHOLAR;[From.GetFirstName]是最后一个到场参加讨论的人。对话在大家之间自由进行，从一个话题转到另一个话题。;;;;;;;;;;;;x
+EVTDESC_HF_42023_STEWARD;当我们穿过[Root.Capital.GetName]的街道时，可以看到各种景色。我们周围戴面具的杂耍者和大家都很开心。我决定给[From.GetHerHim]看看本地最好玩的树篱迷宫。;;;;;;;;;;;;x
+EVTDESC_HF_42023_TORTURE;[From.GetSheHe]一来[Root.Capital.GetName]，我就带[From.GetFirstName]下到地牢里。我们在[Root.Capital.GetName]有很多不错的试验品，这是个检验他们的好机会。;;;;;;;;;;;;x
 EVTOPTA_HF_42023_HUNT;让狩猎开始吧！;;;;;;;;;;;;x
 EVTOPTA_HF_42023_DUEL;我们会赢的，必定如此。;;;;;;;;;;;;x
 EVTOPTA_HF_42023_GAME;希望[sway_target.GetSheHe]会玩的开心。;;;;;;;;;;;;x
-EVTOPTA_HF_42023_SOCIAL;Time to enjoy ourselves.;;;;;;;;;;;;x
+EVTOPTA_HF_42023_SOCIAL;我们该好好玩玩了。;;;;;;;;;;;;x
 EVTOPTA_HF_42023_SCHOLAR;让我们试着尽可能多学点。;;;;;;;;;;;;x
-EVTOPTA_HF_42023_STEWARD;I hope [From.GetSheHe] will have fun.;;;;;;;;;;;;x
+EVTOPTA_HF_42023_STEWARD;我希望[From.GetSheHe]玩得开心。;;;;;;;;;;;;x
 EVTOPTA_HF_42023_TORTURE;让我们找点乐子吧！;;;;;;;;;;;;x
-EVTDESC_HF_42024_HUNT;[From.GetTitledFirstName] expertly guides us through the forests. It is clear [From.GetSheHe] knows this area well. [From.GetFirstName] tells me we are looking for a wild boar that has been sighted in the area.;;;;;;;;;;;;x
-EVTDESC_HF_42024_DUEL;[From.GetTitledFirstName] expertly fences us through the first rounds of the tournament, it is clear [From.GetSheHe] has a lot of prior experience with fencing.;;;;;;;;;;;;x
+EVTDESC_HF_42024_HUNT;[From.GetTitledFirstName]熟练地带我们穿过森林。显然[From.GetSheHe]对这片很了解。[From.GetFirstName]说我们要找的是一头在这片现身过的野猪。;;;;;;;;;;;;x
+EVTDESC_HF_42024_DUEL;[From.GetTitledFirstName]熟练地击剑赢得比武大会第一轮。显然[From.GetSheHe]有着丰富的剑术经验。;;;;;;;;;;;;x
 EVTDESC_HF_42024_GAME;[From.GetTitledFirstName] helps me ready for the event, and explains the game to me. Though there is some details still unclear to me, [From.GetFirstName] promises to help me out.;;;;;;;;;;;;x
 EVTDESC_HF_42024_SOCIAL;[From.GetTitledFirstName] receives me at the door, and invites me inside. The banquet is larger than I originally expected, with nice looking lords and ladies all across the room.;;;;;;;;;;;;x
 EVTDESC_HF_42024_SCHOLAR;[From.GetTitledFirstName] receives me at the door, and helps me get seated in the tiny room. The discussion quickly switches between different and difficult topics, and I am just trying to keep up.;;;;;;;;;;;;x
@@ -7103,21 +7103,21 @@ EVTOPTA_HF_42025_STEWARD;坚定地选一条路，但愿这是正道。;;;;;;;;;;
 EVTOPTA_HF_42025_TORTURE;我们看看这人极限在哪。;;;;;;;;;;;;x
 EVTTOOLTIPA_HF_42025_HUNT;我朝那头野兽冲杀过去。受伤的可能很大，但只要§Y[From.GetTitledFirstName]§!能帮我，赢面也很大。;;;;;;;;;;;;x
 EVTTOOLTIPA_HF_42025_DUEL;我决定继续进攻。受伤的可能很大，但只要§Y[From.GetTitledFirstName]§!一同进攻，赢面也很大。;;;;;;;;;;;;x
-EVTTOOLTIPA_HF_42025_GAME;You decide to set yourself in a precarious situation. A higher chance of success, if §Y[From.GetTitledFirstName]§! sees what you are doing.;;;;;;;;;;;;x
-EVTTOOLTIPA_HF_42025_SOCIAL;I decide to try and help §Y[From.GetTitledFirstName]§! find someone to spend the night with.;;;;;;;;;;;;x
-EVTTOOLTIPA_HF_42025_SCHOLAR;I decide to be assertive in my reasoning.;;;;;;;;;;;;x
-EVTTOOLTIPA_HF_42025_STEWARD;I decide to try your luck. This has a lower chance of success, but §Y[From.GetFirstName]§! will not know that I have no idea where we are.;;;;;;;;;;;;x
-EVTTOOLTIPA_HF_42025_TORTURE;I decide to see how far I can push a specimen and still keep it alive. ;;;;;;;;;;;;x
-EVTOPTB_HF_42025_HUNT;Let us wait it out, and trap it.;;;;;;;;;;;;x
-EVTOPTB_HF_42025_DUEL;I will tire them out.;;;;;;;;;;;;x
-EVTOPTB_HF_42025_GAME;I will manipulate [From.GetTitledFirstName] into taking most of the losses.;;;;;;;;;;;;x
-EVTOPTB_HF_42025_SOCIAL;Let us just enjoy the evening for what it is worth, no need to stress.;;;;;;;;;;;;x
-EVTOPTB_HF_42025_SCHOLAR;Let us hold back, and disprove their arguments instead.;;;;;;;;;;;;x
-EVTOPTB_HF_42025_STEWARD;Be honest and try to reason our way out together.;;;;;;;;;;;;x
-EVTOPTB_HF_42025_TORTURE;Let us take it slow, and see how long they can withstand.;;;;;;;;;;;;x
-EVTTOOLTIPB_HF_42025_HUNT;I wait it out. A lower chance of getting wounded, but also a lower chance of success overall, unless §Y[From.GetTitledFirstName]§! decides to attack it on his own.;;;;;;;;;;;;x
-EVTTOOLTIPB_HF_42025_DUEL;I wait for them to tire out. A lower chance of getting wounded, but also a lower chance of success overall.;;;;;;;;;;;;x
-EVTTOOLTIPB_HF_42025_GAME;I decide to set §Y[From.GetTitledFirstName]§! in a precarious situation.;;;;;;;;;;;;x
+EVTTOOLTIPA_HF_42025_GAME;你决定将自己置于险境。只要§Y[From.GetTitledFirstName]§!明白你在做什么，赢面就很大了。;;;;;;;;;;;;x
+EVTTOOLTIPA_HF_42025_SOCIAL;我决定帮§Y[From.GetTitledFirstName]§!找个人一起过夜。;;;;;;;;;;;;x
+EVTTOOLTIPA_HF_42025_SCHOLAR;我决定坚持自己的主张。;;;;;;;;;;;;x
+EVTTOOLTIPA_HF_42025_STEWARD;我决定赌赌运气。成功几率不大，反正§Y[From.GetFirstName]§!也不知道我其实迷路了。;;;;;;;;;;;;x
+EVTTOOLTIPA_HF_42025_TORTURE;我决定看看这个试验品能被弄成什么样还死不了。;;;;;;;;;;;;x
+EVTOPTB_HF_42025_HUNT;我们等它出来，再把它抓住。;;;;;;;;;;;;x
+EVTOPTB_HF_42025_DUEL;我能拖垮他们。;;;;;;;;;;;;x
+EVTOPTB_HF_42025_GAME;我会让[From.GetTitledFirstName]承担大部分损失。;;;;;;;;;;;;x
+EVTOPTB_HF_42025_SOCIAL;我们好好享受这个美妙的夜晚吧，不必紧张。;;;;;;;;;;;;x
+EVTOPTB_HF_42025_SCHOLAR;我们冷静一下，反驳他们的观点。;;;;;;;;;;;;x
+EVTOPTB_HF_42025_STEWARD;实话实说，一起想办法找出去的路。;;;;;;;;;;;;x
+EVTOPTB_HF_42025_TORTURE;我们慢慢来，看他们能忍耐多久。;;;;;;;;;;;;x
+EVTTOOLTIPB_HF_42025_HUNT;我等到它出来。受伤的可能很小，但除非§Y[From.GetTitledFirstName]§!来帮我，否则赢面也很小。;;;;;;;;;;;;x
+EVTTOOLTIPB_HF_42025_DUEL;我要等他们疲惫。受伤的可能很小，但赢面也很小。;;;;;;;;;;;;x
+EVTTOOLTIPB_HF_42025_GAME;我决定让§Y[From.GetTitledFirstName]§!承受凶险。;;;;;;;;;;;;x
 EVTTOOLTIPB_HF_42025_SOCIAL;I decide to just enjoy the evening. ;;;;;;;;;;;;x
 EVTTOOLTIPB_HF_42025_SCHOLAR;I decide to let the other side have the first word.;;;;;;;;;;;;x
 EVTTOOLTIPB_HF_42025_STEWARD;I decide to be honest about being lost, and try to reason our way out together.;;;;;;;;;;;;x
@@ -9808,36 +9808,36 @@ b_gryaznoye;格里亚兹诺耶;;;;;;;;;;;;x
 b_pereyaslavl_ryazanski;Pereyaslavl Ryazanski;;;;;;;;;;;;x
 b_krasnoye;Krasonye;;;;;;;;;;;;x
 b_lukhovitsy;Lukhovitsy;;;;;;;;;;;;x
-b_rybnoye;Rybnoye;;;;;;;;;;;;x
+b_rybnoye;雷布诺耶;;;;;;;;;;;;x
 b_novoselki;Novoselki;;;;;;;;;;;;x
 b_turlatovo;Turlatovo;;;;;;;;;;;;x
-b_rostislavl;Rostislavl;;;;;;;;;;;;x
+b_rostislavl;罗斯蒂斯拉夫尔;;;;;;;;;;;;x
 b_veniov;Veniov;;;;;;;;;;;;x
 b_kochira;Kochira;;;;;;;;;;;;x
 b_laptevo;Laptevo;;;;;;;;;;;;x
 b_ozherelye;Ozherelye;;;;;;;;;;;;x
 b_konchinka;Konchinka;;;;;;;;;;;;x
 b_voronej;Voronej;;;;;;;;;;;;x
-b_zadonsk;Zadonsk;;;;;;;;;;;;x
+b_zadonsk;扎顿斯克;;;;;;;;;;;;x
 b_semiuki;Semiuki;;;;;;;;;;;;x
-b_khlevnoye;Khlevnoye;;;;;;;;;;;;x
+b_khlevnoye;赫列夫诺耶;;;;;;;;;;;;x
 b_dolgorukovo;多尔戈鲁科沃;;;;;;;;;;;;x
 b_terbuny;捷尔布内;;;;;;;;;;;;x
 b_novosil;Novosil;;;;;;;;;;;;x
 b_kolpna;Kolpna;;;;;;;;;;;;x
 b_strakhovka;Strakhovka;;;;;;;;;;;;x
-b_verkhovye;Verkhovye;;;;;;;;;;;;x
+b_verkhovye;韦尔霍夫耶;;;;;;;;;;;;x
 b_khomutovo;霍穆托沃;;;;;;;;;;;;x
 b_livny;利夫内;;;;;;;;;;;;x
 b_dugna;杜格纳;;;;;;;;;;;;x
 b_bogucharovo;博古恰罗沃;;;;;;;;;;;;x
 b_novogurovsky;Novogurovksy;;;;;;;;;;;;x
-b_zaokskiy;Zaokskiy;;;;;;;;;;;;x
-b_nenashevo;Nenashevo;;;;;;;;;;;;x
+b_zaokskiy;扎奥克斯基;;;;;;;;;;;;x
+b_nenashevo;涅纳舍沃;;;;;;;;;;;;x
 b_kolyupanovo;Kolyupanovo;;;;;;;;;;;;x
-b_vorotynsk;Vorotynsk;;;;;;;;;;;;x
+b_vorotynsk;沃罗滕斯克;;;;;;;;;;;;x
 b_mchensk;Mchensk;;;;;;;;;;;;x
-b_odoyev;Odoyev;;;;;;;;;;;;x
+b_odoyev;奥多耶夫;;;;;;;;;;;;x
 b_suvorova;苏沃罗瓦;;;;;;;;;;;;x
 b_plavsk;普拉夫斯克;;;;;;;;;;;;x
 b_chern;切尔尼;;;;;;;;;;;;x
@@ -9860,7 +9860,7 @@ b_lyskovo;雷斯科沃;;;;;;;;;;;;x
 b_pavlovo;巴甫洛沃;;;;;;;;;;;;x
 b_starodub_vladimirsky;Starodub Valdimirsky;;;;;;;;;;;;x
 b_rochdestvenskoye;罗日杰斯特文斯科耶;;;;;;;;;;;;x
-b_gorokhovets;Gorokhovets;;;;;;;;;;;;x
+b_gorokhovets;戈罗霍韦茨;;;;;;;;;;;;x
 b_viazniki;Viazniki;;;;;;;;;;;;x
 b_nikologory;尼科洛戈雷;;;;;;;;;;;;x
 b_sudalyvka;Sudalyvka;;;;;;;;;;;;x
@@ -10257,14 +10257,14 @@ EVTOPTA_MNM_9120_TT_AXE_EMPEROR;订购最高品质的[From.GetWeaponsmithWeapon]
 EVTOPTA_MNM_9120_TT_MACE_EMPEROR;订购最高品质的[From.GetWeaponsmithWeapon]。;;;;;;;;;;;;x
 EVTOPTA_MNM_9120_TT_BOW_EMPEROR;订购最高品质的[From.GetWeaponsmithWeapon]。;;;;;;;;;;;;x
 WAR_CHEST_HEADER;战争金库;;;;;;;;;;;;x
-RECIPIENT_I_GUESS;受益者;;;;;;;;;;;;x
+RECIPIENT_I_GUESS;钦点受益者;;;;;;;;;;;;x
 BENEFICIARY_I_GUESS;你的受益人;;;;;;;;;;;;x
 CRUSADE_RECEIVER_STANCE;立场;;;;;;;;;;;;x
 CRUSADE_CHANGE_TARGET;更换;;;;;;;;;;;;x
 CRUSADE_CHOOSE_BENEFICIARY;选择;;;;;;;;;;;;x
 TARGET_I_GUESS;目标;;;;;;;;;;;;x
-RECIPIENT_TOOLTIP;§Y十字军王国的受益者§!;;;;;;;;;;;;x
-RECIPIENT_DELAYED_TOOLTIP;如果十字军取得成功，教宗想要将十字军王国授予这个角色。如果没有被选中的角色，则意味着教宗没有意见，并且十字军的首要贡献者的受益人将会管理十字军王国。;;;;;;;;;;;;x
+RECIPIENT_TOOLTIP;§Y十字军王国的钦点受益者§!;;;;;;;;;;;;x
+RECIPIENT_DELAYED_TOOLTIP;这名角色被教宗钦点为战后十字军王国的统治者。如果没有教宗没有钦点任何人，则意味着教宗没有意见，那么十字军的首要贡献者的受益人将会接管十字军王国。;;;;;;;;;;;;x
 CRUSADE_TARGET_TOOLTIP;§Y十字军目标§!;;;;;;;;;;;;x
 CRUSADE_TARGET_DELAYED_TOOLTIP;这是十字军的目标角色和王国。教宗根据对于信仰的重要性选择目标，而且会经常在进行遥远的冒险之前优先选择守护信仰故土。;;;;;;;;;;;;x
 CRUSADE_POT_TOOLTIP;§Y战争金库§!;;;;;;;;;;;;x
@@ -10274,7 +10274,7 @@ CRUSADE_PLEDGED_DELAYED_TOOLTIP;These characters are pledged to participate in t
 CRUSADE_OTHER_TOOLTIP;§YShow Other Side§!;;;;;;;;;;;;x
 CRUSADE_OTHER_DELAYED_TOOLTIP;点击以查看本次十字军的另一方参战者。;;;;;;;;;;;;x
 CRUSADE_BENEFICIARY_TOOLTIP;§Y你的受益人§!;;;;;;;;;;;;x
-CRUSADE_BENEFICIARY_DELAYED_TOOLTIP;This is the character you have chosen as your beneficiary. A beneficiary might be made into a ruler in the Crusader Kingdom, should the war be successful. Having a beneficiary in a Crusader Kingdom will convey a piety bonus to your entire dynasty.;;;;;;;;;;;;x
+CRUSADE_BENEFICIARY_DELAYED_TOOLTIP;这名角色是你为自己选择的受益人。受益人在十字军胜利之后之后可能会成为十字军王国的统治者。如果你的受益人在十字军王国内统治，这将会给你的整个家族带来额外的虔诚加成。;;;;;;;;;;;;x
 CRUSADE_STRENGTH_TOOLTIP;§YTotal Comparative Strength§!;;;;;;;;;;;;x
 CRUSADE_STRENGTH_DELAYED_TOOLTIP;这里显示的是十字军这一方的双方对比军事力量。你这一方的军事力量更高，你赢得战争的几率也就越大。;;;;;;;;;;;;x
 CRUSADE_WARO_BATTLES;§LBattles:§!;;;;;;;;;;;;x
@@ -11042,9 +11042,9 @@ DEFENDER_UNPLEDGE_SUPPORT_TOOLTIP_DELAYED;我将撤回我抵御十字军的誓�
 alert_incoming_crusade_instant;§YCrusade Against Our Religion§!;;;;;;;;;;;;x
 alert_incoming_crusade_delayed;一场针对我们宗教的十字军即将爆发，我们最好做好准备反抗它;;;;;;;;;;;;x
 SET_PLAYER_CHARACTER_EFFECT;This Player will now control $WHO|Y$ instead;;;;;;;;;;;;x
-SELECT_CRUSADE_RECEIVER_STANCE;§Y选择对十字军受益者的立场§!;;;;;;;;;;;;x
+SELECT_CRUSADE_RECEIVER_STANCE;§Y选择对十字军钦点受益者的立场§!;;;;;;;;;;;;x
 SELECT_CRUSADE_RECEIVER_STANCE_DELAYED;[Root.GetCurrentCrusadeStance];;;;;;;;;;;;x
-string_crusade_receiver_stance;决定如果十字军取得成功且我们持有最大贡献度的处理方案。我们将遵从教皇的指示，或是把王国交给我们的受益人，还是将胜利果实独吞?;;;;;;;;;;;;x
+string_crusade_receiver_stance;决定如果十字军取得成功且我们持有最大贡献度的处理方案。我们是将遵从教皇的指示，或是把王国交给我们的受益人，还是将胜利果实独吞?;;;;;;;;;;;;x
 TROOPS_TRIBAL_VASSALS;Potential Vassal Ally Troops;;;;;;;;;;;;x
 warrior_lodge_inspire_warriors_named;Inspire Warriors in [Root.GetName];;;;;;;;;;;;x
 string_concubine_cap;侍妾;;;;;;;;;;;;x
@@ -11291,8 +11291,8 @@ EVTOPTA_HFP_41011_TT;十字军已经被取消了。;;;;;;;;;;;;x
 EVTDESC_HFP_41022;Dear [Root.GetTitledName]\nIt has come to my attention you have not yet put on the cross. I have decided that it is time for you to pay back the favor you owe me, and be part of this endeavor.\nSigned,\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA_HFP_41022;I guess I will go then...;;;;;;;;;;;;x
 EVTOPTC_HFP_41022;I will support the Crusade.;;;;;;;;;;;;x
-EVTDESC_HFP_41031;[pleased_courtier.GetFirstName] approaches me as I am on my way out, to tell me how happy [pleased_courtier.GetSheHe] was to hear I had pledged my men to the Crusade, and wish me luck in the upcoming war.;;;;;;;;;;;;x
-EVTOPTA_HFP_41031;Thanks, I appreciate it.;;;;;;;;;;;;x
+EVTDESC_HFP_41031;[pleased_courtier.GetFirstName]在我出门的时候叫住了我，告诉我[pleased_courtier.GetSheHe]为我加入十字军的决定感到高兴，并且祝我在将来的战争中好运。;;;;;;;;;;;;x
+EVTOPTA_HFP_41031;谢谢，我很感激。;;;;;;;;;;;;x
 EVTDESC_HFP_41032;I receive a letter from [pleased_participant.GetTitledName], with a well detailed approval of my decision to join the upcoming Crusade. Maybe this is a chance to get closer as we fight the the heathens together?;;;;;;;;;;;;x
 EVTOPTA_HFP_41032;I appreciate the gesture.;;;;;;;;;;;;x
 EVTOPTB_HFP_41032;Let us fight the heathens together!;;;;;;;;;;;;x
@@ -11337,7 +11337,7 @@ EVTOPTA_HFP_41061;No, [Root.PrimaryTitle.GetName] is my home.;;;;;;;;;;;;x
 EVTOPTB_HFP_41061;Maybe in another life, it could have been me.;;;;;;;;;;;;x
 EVTDESC_HFP_41075;Greetings, [Root.GetTitledName]\n\nI was informed the heathen Pope have declared a will to bring a Crusade to your doorsteps. As a fellow [From.Religion.GetName], I pledge to stand by your side when the unfaithful come to take your lands.\n\nSigned,\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA_HFP_41075;I thank you, [From.GetTitledFirstName].;;;;;;;;;;;;x
-EVTDESC_HFP_41088;你应该为十字军捐赠多少钱？;;;;;;;;;;;;x
+EVTDESC_HFP_41088;我应该为十字军捐赠多少钱？;;;;;;;;;;;;x
 EVTOPTA_HFP_41088;我希望教宗能欣赏这一举动。;;;;;;;;;;;;x
 EVTOPTB_HFP_41088;我恰恰知道该捐多少。;;;;;;;;;;;;x
 EVTOPTC_HFP_41088;一份符合我身份地位的豪华礼物！;;;;;;;;;;;;x
@@ -11348,7 +11348,7 @@ EVTOPTA_HFP_41091_TT;如果十字军胜利了，教宗将会把头衔授予§Y�
 EVTOPTB_HFP_41091;我的受益人将获得头衔。;;;;;;;;;;;;x
 EVTOPTB_HFP_41091_TT;如果十字军胜利了，同时我是战争最大的贡献者，十字军王国的头衔将会授予给我的§Y受益人§!。;;;;;;;;;;;;x
 EVTOPTC_HFP_41091;我为什么要把我的头衔拱手让人？;;;;;;;;;;;;x
-EVTOPTC_HFP_41091_TT;如果十字军胜利了，同时我是战争最大的贡献者，我会自己获得头衔。;;;;;;;;;;;;x
+EVTOPTC_HFP_41091_TT;如果十字军胜利了，同时我是战争最大的贡献者，我会自己拿下十字军王国的头衔。;;;;;;;;;;;;x
 EVTOPTD_HFP_41091;我坚持我之前的决定。;;;;;;;;;;;;x
 EVTDESC_HFP_41111;遗憾的是，我的受益人§Y[old_crusade_beneficiary.GetDynName]§!看来已经去世，我需要寻找一位新的受益人。;;;;;;;;;;;;x
 EVTDESC_HFP_41112;我的受益人§Y[old_crusade_beneficiary.GetDynName]§!看来已经获得了领地，不再是一位合适的受益人了。;;;;;;;;;;;;x
@@ -11719,7 +11719,7 @@ old_frankish_opinion;[old_frankish.GetName]好感;;;;;;;;;;;;x
 custom_russia;Rus Region;;;;;;;;;;;;x
 EVTOPTB8405;I will join the cause.;;;;;;;;;;;;x
 EVTOPTB_HF_46010_TT;Preparations to pillage the burial site begins.;;;;;;;;;;;;x
-opinion_crusade_agreement;Approve of Crusade pledge;;;;;;;;;;;;x
+opinion_crusade_agreement;支持十字军事业;;;;;;;;;;;;x
 opinion_disapprove_of_crusade_unpledge;十字军的叛徒;;;;;;;;;;;;x
 secretly_convert_to_bon_holy_site;秘密皈依苯教;;;;;;;;;;;;x
 secretly_convert_to_bon_holy_site_desc;聚集在圣地§Y[Root.Location.GetName]§!的§Y苯教§!朝圣者们对他们信仰的深度与热情打动了我。我被吸引着秘密改信……;;;;;;;;;;;;x
@@ -12449,17 +12449,17 @@ EVTDESCAHF23440;已经决定了。 几个星期后，我们将举行一场盛大
 EVTOPTAHF23440;着手准备吧！;;;;;;;;;;;;x
 EVTDESCAHF23441;尊敬的[Root.GetTitledFirstName]，\n您已被正式邀请协助[From.GetTitledFirstName]承办的下一次鲜血游戏。作为[Root.Religion.GetName]贵族的一员，我们希望您能让您牢中或廷中的勇士们为其主力。\n\n致以至诚敬意\n[From.GetFullName];;;;;;;;;;;;x
 EVTOPTAHF23441;太刺激了！我绝不会缺席的！;;;;;;;;;;;;x
-EVTOPTBHF23441;我空管这种闲事。;;;;;;;;;;;;x
+EVTOPTBHF23441;我没空管这种闲事。;;;;;;;;;;;;x
 EVTDESCAHF23442;领主大人，我很高兴能协力下一次的§Y鲜血游戏§!。;;;;;;;;;;;;x
 EVTOPTAHF23442;很好。;;;;;;;;;;;;x
-EVTDESCAHF23443;The gods are sure to show their appreciation to the patron of the warrior who will emerge victorious in the blood games. I should make sure to pick the best candidate to represent my dynasty in the arena...;;;;;;;;;;;;x
-EVTOPTAHF23443;Get me the toughest of our prisoners.;;;;;;;;;;;;x
-TOOLTIP_EVTOPTAHF23443;§Y[blood_contender_prisoner.GetTitledFirstName]§! will be forced to fight in your name during the §YBlood Games§!, either winning [blood_contender_prisoner.GetHerHis] freedom by winning, or dying in the process.;;;;;;;;;;;;x
-EVTOPTBHF23443;My most vicious Commander will do.;;;;;;;;;;;;x
-TOOLTIP_EVTOPTBHF23443;§Y[blood_contender_commander.GetTitledFirstName]§! will be ordered to fight in your name during the §YBlood Games§!, either winning eternal glory or dying in the process.;;;;;;;;;;;;x
-EVTOPTCHF23443;Is there nobody that wishes to fight for me?;;;;;;;;;;;;x
-TOOLTIP_EVTOPTCHF23443;§Y[blood_contender_courtier.GetTitledFirstName]§! will fight in your name during the §YBlood Games§!, either winning eternal glory or dying in the process.;;;;;;;;;;;;x
-EVTOPTDHF23443;Any servant will do.;;;;;;;;;;;;x
+EVTDESCAHF23443;诸神定会对提供战士们的各位领主赞赏有加。胜利者会从这批勇士间一场场鲜血游戏中脱颖而出。 我应该确保选出最为合适的人代表我的家族迈入竞技场……;;;;;;;;;;;;x
+EVTOPTAHF23443;把囚犯中最结实的那个带过来。;;;;;;;;;;;;x
+TOOLTIP_EVTOPTAHF23443;§Y[blood_contender_prisoner.GetTitledFirstName]§!被迫为你征战§Y鲜血游戏§!，摆在[blood_contender_prisoner.GetHerHis]面前只有两条路：要么凯旋而归、重获自由，要么技不如人、命丧黄泉。;;;;;;;;;;;;x
+EVTOPTBHF23443;派我最凶暴的指挥官去好了。;;;;;;;;;;;;x
+TOOLTIP_EVTOPTBHF23443;§Y[blood_contender_commander.GetTitledFirstName]§!将以你的名义被委派参加这次的§Y鲜血游戏§!，要么载誉而归，要么客死他乡。;;;;;;;;;;;;x
+EVTOPTCHF23443;还有没有其他人愿意为我而战？;;;;;;;;;;;;x
+TOOLTIP_EVTOPTCHF23443;§Y[blood_contender_courtier.GetTitledFirstName]§!将以你的名义被委派参加这次的§Y鲜血游戏§!，要么载誉而归，要么客死他乡。;;;;;;;;;;;;x
+EVTOPTDHF23443;随便找个仆从就好。;;;;;;;;;;;;x
 TOOLTIP_EVTOPTDHF23443;§Y[invited_character.GetTitledFirstName]§! will be ordered to fight in your name during the §YBlood Games§!, either winning eternal glory or dying in the process.;;;;;;;;;;;;x
 EVTDESCAHF23444;I have been picked to participate to the next Blood Games that are being organized by my jailers to honor the gods. I have no choice in the matter, but the guards assure me that, if I manage to survive, I will earn my freedom.;;;;;;;;;;;;x
 EVTOPTAHF23444;Finally!;;;;;;;;;;;;x
@@ -12654,10 +12654,10 @@ EVTDESCAHF23474;[From.GetTitledFirstName] has laid waste of the Great Pillar of 
 EVTOPTAHF23474;我们被遗忘了！;;;;;;;;;;;;x
 EVTTITLEHF23476;逝往神灵;;;;;;;;;;;;x
 EVTDESCAHF23476;For too long I have allowed this old, blasphemous relic to pollute my lands and cast its grotesque shadow upon the good people of [From.GetName]. The wailing of the few stubborn old believers fill the air as my soldiers tear down the pillar and scatter its remains to the open fields, never to be found ever again.;;;;;;;;;;;;x
-EVTOPTAHF23476;We can finally rest easy.;;;;;;;;;;;;x
+EVTOPTAHF23476;我们终于能好好放松休息一下了。;;;;;;;;;;;;x
 EVTTITLEHF23477;逝往神灵;;;;;;;;;;;;x
 EVTDESCAHF23477;It was only a matter of time before the [From.Religion.GetName] followers torn down the old idol of [FromFrom.GetName]. [From.GetTitledFirstName]'s guards have come today, in the early afternoon, announcing that the great pillar was a blasphemous remnant of a dead cult and needed to be removed forever.;;;;;;;;;;;;x
-EVTOPTAHF23477;No! You cannot do this!;;;;;;;;;;;;x
+EVTOPTAHF23477;不！你不能这么做！;;;;;;;;;;;;x
 tb_great_pillar_norse_empty;Old Tree;;;;;;;;;;;;x
 tp_great_pillar_norse_empty;Old Tree;;;;;;;;;;;;x
 tb_great_pillar_norse_empty_desc;A carved pillar bearing deep religious significance for the local pagan tribes.;;;;;;;;;;;;x
@@ -13876,10 +13876,10 @@ EVTOPTEHF25806_A;You are dead to me. Leave and never return!;;;;;;;;;;;;x
 EVTOPTEHF25806_B;Guards! Throw this blithering fools out!;;;;;;;;;;;;x
 EVTOPTFHF25806_A;If this is what you desire, I will not hold you.;;;;;;;;;;;;x
 EVTOPTFHF25806_B;Do whatever you wish, it is of no concern to me.;;;;;;;;;;;;x
-EVTDESCAHF25807;News have reached us that a [FromFrom.GetBoyGirl] from [FromFrom.Capital.GetName] has received a vision from the Holy Ghost, compelling [FromFrom.GetHerHim] to pick up arms, gather the true followers of Christ and lead a Crusade against the infidels who desecrate the sacred soil of Jerusalem.\nThe [FromFrom.GetBoyGirl] has gathered many followers amongst the peasantry and has embarked on great journey to reach the Holy Land, claiming that the sea itself will open at [FromFrom.GetHerHis] passage.;;;;;;;;;;;;x
+EVTDESCAHF25807;有消息称一个来自[FromFrom.Capital.GetName]的[FromFrom.GetBoyGirl]声称自己见到了神迹，并称圣灵让[FromFrom.GetHerHim]拿起武器，召集基督的追随者，向玷污圣地耶路撒冷的异教徒发动一场十字军战争。\n这个[FromFrom.GetBoyGirl]已经从农民中召集了一大批追随者，并且已经开始向圣地进发，声称大海会自动分开，为[FromFrom.GetHerHis]的伟大征服让路。;;;;;;;;;;;;x
 EVTOPTAHF25807;Such a wild imagination, even for a child...;;;;;;;;;;;;x
 EVTOPTBHF25807;May [Root.Religion.GetHighGodName] show [From.GetHerHim] the way to victory!;;;;;;;;;;;;x
-EVTOPTCHF25807;Could this child be a messenger of the Lord?;;;;;;;;;;;;x
+EVTOPTCHF25807;这个孩子会是主的使者吗？;;;;;;;;;;;;x
 EVTDESCAHF25810;[childrens_crusade_leader.GetFirstName]带着手下的散兵幼勇来到了[Root.Capital.GetName]。好像四处游荡的贱民和呜呜泱泱的小孩还不够给我添麻烦似的，他们毫无风范的头领要求和我会面，声称我应该为[childrens_crusade_leader.GetHerHis]神圣的战争提供补给和食宿。;;;;;;;;;;;;x
 EVTOPTAHF25810;Your words have moved me! I will support you.;;;;;;;;;;;;x
 EVTOPTBHF25810;Take some food and leave.;;;;;;;;;;;;x
@@ -13906,13 +13906,13 @@ EVTOPTAHF25814;I must follow them to protect my [GetFromRelation]!;;;;;;;;;;;;x
 EVTOPTAHF25814_A;Will I ever seem [From.GetHerHim] again?;;;;;;;;;;;;x
 EVTOPTAHF25814_B;How could [From.GetSheHe] do this to me!;;;;;;;;;;;;x
 EVTOPTAHF25814_C;I have a [GetFromRelation]?;;;;;;;;;;;;x
-EVTTITLEHF25815;The Unmoving Sea;;;;;;;;;;;;x
-EVTDESCAHF25815;[From.GetFirstName]宣称地中海的波涛会在[From.GetHerHis]抵达时自动分开，好让[From.GetHerHis]的战士们毫发无损地通过，并且一路行军到圣地。\n不幸的是，上帝并没有让这位年轻十字军的诺言应验，现在大批的农夫和孩童躲在热那亚奄奄一息，找不到前往亚洲的途径。一些摇摆不定的十字军成员已经丧失了信心，但是[From.GetFirstName]依然坚定着[From.GetHerHis]信念，每天都劝说鼓舞着那些不抱希望新兵。;;;;;;;;;;;;x
+EVTTITLEHF25815;不动之海;;;;;;;;;;;;x
+EVTDESCAHF25815;[From.GetFirstName]宣称地中海的波涛会在[From.GetHerHis]抵达时自动分开，好让[From.GetHerHis]的战士们毫发无损地通过，并且一路行军到圣地。\n\n不幸的是，上帝并没有让这位年轻十字军战士的诺言应验，现在大批的农夫和孩童躲在热那亚奄奄一息，找不到前往亚洲的途径。一些摇摆不定的十字军成员已经丧失了信心，但是[From.GetFirstName]依然坚定着[From.GetHerHis]信念，每天都劝说鼓舞着那些失去希望的新兵。;;;;;;;;;;;;x
 EVTOPTAHF25815;They could use more troops for protection.;;;;;;;;;;;;x
 EVTOPTBHF25815;I will allocate some resources to help them buy a passage.;;;;;;;;;;;;x
 EVTOPTCHF25815;I can spare some money to send them some food.;;;;;;;;;;;;x
 EVTOPTDHF25815;I will pray that they soon find a passage.;;;;;;;;;;;;x
-EVTOPTEHF25815;They are still in time to return home.;;;;;;;;;;;;x
+EVTOPTEHF25815;他们现在回家还来得及。;;;;;;;;;;;;x
 EVTTITLEHF25816;The Coasts of Achaia;;;;;;;;;;;;x
 EVTDESCAHF25816;为了抵达圣地，儿童十字军成功预订了一条穿越地中海的航路。然而因为一场可怕的暴风雨，他们的船队在亚该亚海岸倾覆，他们不得不绕道前往希腊。来自军中的消息很少，但有传言说许多人已经开始质疑[From.GetFirstName]的领导。\n\n到目前为止，这伙不靠谱的农夫和孩童还在向着耶路撒冷进军。;;;;;;;;;;;;x
 EVTOPTAHF25816;They are surely in need of more supplies!;;;;;;;;;;;;x
@@ -14313,7 +14313,7 @@ EVTOPTBHF25611;你最好现在就说，老东西!;;;;;;;;;;;;x
 EVTOPTDHF25611;也许我能说服他分享他的知识…;;;;;;;;;;;;x
 TT_EVTOPTDHF25611;用你的§Y外交能力§!来说服这位老先生说出野兽的情报。;;;;;;;;;;;;x
 EVTOPTEHF25611;也许他能和你好好谈谈，[scoped_WL_co_hunter.GetFirstName]。;;;;;;;;;;;;x
-TT_EVTOPTEHF25611;Use [scoped_WL_co_hunter.GetFirstName]'s §YDiplomacy§! to convince the old man to talk about the beast.;;;;;;;;;;;;x
+TT_EVTOPTEHF25611;用[scoped_WL_co_hunter.GetFirstName]高超的§Y外交§!能力说服老者透露野兽的消息。;;;;;;;;;;;;x
 EVTDESCAHF25612;The search for the great wolf has brought my expedition through a deep forest. The path ahead of us in unclear and unmapped, and I fear that, if we are not careful, we might end up losing ourselves in the wilderness, where we will be easy prey to the terrible creature that we are hunting.;;;;;;;;;;;;x
 EVTDESCBHF25612;The search for the great eagle has brought my expedition to the slopes of a barren hill. The path ahead of us in unclear and unmapped, and I fear that, if we are not careful, we might end up losing ourselves in the wilderness, where we will be easy prey to the terrible creature that we are hunting.;;;;;;;;;;;;x
 EVTDESCCHF25612;The search for the great bear has brought my expedition through a dead wood. The path ahead of us in unclear and unmapped, and I fear that, if we are not careful, we might end up losing ourselves in the wilderness, where we will be easy prey to the terrible creature that we are hunting.;;;;;;;;;;;;x
@@ -18429,7 +18429,7 @@ inspired_by_legends;Inspired by Legends;;;;;;;;;;;;x
 inspired_by_legends_desc;When it comes to the topic of military achievements, this character never fails to bring up the adventures of [Root.GetHerHis] brothers and sisters of [Root.Society.GetName].;;;;;;;;;;;;x
 annoyed_with_barbarians;Frustrated with Barbarians;;;;;;;;;;;;x
 annoyed_with_barbarians_desc;This character's realm has been targeted by warriors from afar, who have been fighting locals and spreading frustration throughout the ranks of nobles and commoners alike.;;;;;;;;;;;;x
-there_is_a_hero_available_to_duel_tt;There is a high-ranking member available for you to challenge;;;;;;;;;;;;x
+there_is_a_hero_available_to_duel_tt;有可供你挑战的高阶成员;;;;;;;;;;;;x
 String_DefaultLegendTooltip;成员们通过完成任务和各种事件能够填充进度条。\n当§Y传奇§!进度条到达§G100%§!时，社团内的高阶成员就要注意了……;;;;;;;;;;;;x
 String_LegendaryJourneyActiveTooltip;High-ranking members of the society are currently out on a raid into foreign territory!\nOther members will be alerted when the journey is over.;;;;;;;;;;;;x
 String_OneWarriorLeftTooltip;From the original group that set out, there is now only one high-ranking member left standing, dueling for their life in foreign territory!\nOther members will be alerted when the journey is over.;;;;;;;;;;;;x
