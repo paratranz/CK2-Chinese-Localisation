@@ -357,7 +357,7 @@ NOT_BEEN_ASKED_BAPTISM_RECENTLY;§Y[Root.GetTitledName]§!最近没有被请求�
 string_baptism_timer;- 到期：§Y[This.baptism_request_cooldown.GetExpiryDate]§!;;;;;;;;;;;;x
 NOT_ROOT_RELIGION_PLAYABLE;§Y[Root.GetTitledName]§!的宗教可玩;;;;;;;;;;;;x
 ALL_PROVINCES_CONVERT_TOOLTIP;所有§Y[Root.GetTitledFirstName]§!的直辖省份会变为§Y[sponsoring_king.Religion.GetName]§!。;;;;;;;;;;;;x
-EVTTOOLTIPHF20000;向§Y[Root.GetTitledName]§!写一封信，请求帮助§Y[From.PrimaryTitle.GetName]§!的大规模改信。;;;;;;;;;;;;x
+EVTTOOLTIPHF20000;向§Y[Root.GetTitledName]§!写一封信，请求担任§Y[From.PrimaryTitle.GetName]§!集体皈依的教父母。;;;;;;;;;;;;x
 EVTTOOLTIPHFA20005;大规模改信;;;;;;;;;;;;x
 EVTTOOLTIPHFB20005;大规模改信;;;;;;;;;;;;x
 ai_request_sponsored_baptism;请求大规模改信;;;;;;;;;;;;x
@@ -393,7 +393,7 @@ EVTDESCHFO20003;[sponsoring_king.Religion.GetName]的拉比们在一个清爽的
 EVTDESCHFP20003;十足奇怪，[sponsoring_king.Religion.GetName]的祭司们来到你首都的方式不怎么隆重。\n他们要求你在转教的日子之前和他们一起保持隐居，他们敬重地移除了你的神庙中的旧神，并指导你关于你作为一名[sponsoring_king.Religion.GetName]徒的新责任。当伟大的转教仪式那天来到时，你和你的封臣们在[converting_king.Capital.GetName]外会面，围绕着一群平民。在那里，你们取下自己所有的冠饰，围坐在圣火旁冥想，背景中回荡着祭司们柔和的吟诵。;;;;;;;;;;;;x
 EVTOPTAHF20003;这对我们的人民来说是一个新的开始。;;;;;;;;;;;;x
 EVTTITLE20004;[converting_king.PrimaryTitle.GetName]的皈依;;;;;;;;;;;;x
-EVTDESCHFA20004;就在[converting_king.Capital.GetName]的大规模洗礼的几天后，你收到了几位传教士发来的信件。虽然那些牧师还没有完全确信这些野蛮人皈依的诚意，但是整个仪式进行地非常顺利，现在[converting_king.PrimaryTitle.GetName]已经被承认为一名[sponsoring_king.Religion.GetName]徒。\n因为你襄助这群异教徒皈依唯一正信，你已经完成了使徒般的丰功伟绩。;;;;;;;;;;;;x
+EVTDESCHFA20004;就在[converting_king.Capital.GetName]举行了集体皈依的几天后，你收到了几位传教士发来的信件。虽然那些牧师还没有完全确信这些野蛮人皈依的诚意，但是整个仪式进行地非常顺利，现在[converting_king.PrimaryTitle.GetName]已经被正式承认为一个[sponsoring_king.Religion.GetName]国家。\n因为你襄助这群异教徒皈依唯一正信，你已经完成了与使徒相当的丰功伟绩。;;;;;;;;;;;;x
 EVTDESCHFB20004;虽然先知经常用剑来传播他的言语，但是仅仅通过语言就能使整个原始宗教群体皈依，对你来说是一个值得称赞的壮举。\n你毫不怀疑异教徒仍然藏在[converting_king.GetTitledFirstName]的疆域中，但是现在统治阶级已经在阳光之下公开信仰，在这个领土上的每一个人跟随这样的举动只是时间问题。在[converting_king.PrimaryTitle.GetTitle]向[sponsoring_king.Religion.GetName]的大规模皈依之中，你使伊斯兰教对整个世界的普世统治更趋于圆满。;;;;;;;;;;;;x
 EVTDESCHFC20004;祭司们被送回[converting_king.Capital.GetName]，充满了疲惫和满足。\n[converting_king.PrimaryTitle.GetName]的人民已经完全拥抱了他们的新神。他们的战士会必定会是奥丁英灵殿内军队的优秀增补，以待终结之战的来临。\n通过你的举动你赢得了可在永恒之战中对抗带来末日者的另一个盟友。;;;;;;;;;;;;x
 EVTDESCHFD20004;被派往[converting_king.PrimaryTitle.GetName]向那儿奇怪的人民介绍腾格里信仰的祭司带回来了好消息。\n[converting_king.GetTitledFirstName]已经向天神和你的先祖之灵宣誓[converting_king.GetHerHis]忠诚，如今[converting_king.GetHerHis]全体人民在他们的保护下策马奔腾。\n只要他们能遵从仪式并安抚那些灵魂，在长生天护佑下光明繁荣的未来之路就会为他们开启。;;;;;;;;;;;;x
@@ -1573,7 +1573,7 @@ b_alsenai;阿森奈;;;;;;;;;;;;x
 b_asmena;阿斯梅纳;;;;;;;;;;;;x
 b_eliskes;爱利斯克斯;;;;;;;;;;;;x
 b_medininkai;Medininkai;;;;;;;;;;;;x
-b_rudamina;Rudamina;;;;;;;;;;;;x
+b_rudamina;鲁达米纳;;;;;;;;;;;;x
 b_liskiava;Liskiava;;;;;;;;;;;;x
 b_darsuniskis;Darsuniskis;;;;;;;;;;;;x
 b_alytus;Alytus;;;;;;;;;;;;x
@@ -4647,10 +4647,10 @@ d_ratanpur_adj;Ratanpuri;;;;;;;;;;;;x
 d_vanga_adj;Vangan;;;;;;;;;;;;x
 d_varendra_adj;婆连陀罗;;;;;;;;;;;;x
 d_gauda_adj;Gaudan;;;;;;;;;;;;x
-d_nadia_adj;Nadian;;;;;;;;;;;;x
+d_nadia_adj;那地耶;;;;;;;;;;;;x
 d_suhma_adj;苏噏摩;;;;;;;;;;;;x
 d_kamarupanagara_adj;迦摩缕波城;;;;;;;;;;;;x
-d_para_lauhitya_adj;Para Lauhityan;;;;;;;;;;;;x
+d_para_lauhitya_adj;波罗劳希底耶;;;;;;;;;;;;x
 d_sutiya_adj;Sutiyan;;;;;;;;;;;;x
 d_daksina_kosala_adj;南憍萨罗;;;;;;;;;;;;x
 d_tosali_adj;Tosalian;;;;;;;;;;;;x
@@ -4664,7 +4664,7 @@ d_vidharba_adj;毗达婆;;;;;;;;;;;;x
 d_konkana_adj;恭建那;;;;;;;;;;;;x
 d_nasikya_adj;那私迦;;;;;;;;;;;;x
 d_devagiri_adj;提婆耆厘;;;;;;;;;;;;x
-d_rattapadi_adj;Rattapadian;;;;;;;;;;;;x
+d_rattapadi_adj;剌吒波地;;;;;;;;;;;;x
 d_kalyani_adj;Kalyanian;;;;;;;;;;;;x
 d_gangavadi_adj;Gangavadian;;;;;;;;;;;;x
 d_nulambavadi_adj;Nulambvadian;;;;;;;;;;;;x
@@ -4674,8 +4674,8 @@ d_pandya_nadu_adj;Pandya Naduan;;;;;;;;;;;;x
 d_chera_nadu_adj;Chera Naduan;;;;;;;;;;;;x
 d_tondai_nadu_adj;Tondai Naduan;;;;;;;;;;;;x
 d_vengi_adj;瓶耆;;;;;;;;;;;;x
-d_udayagiri_adj;Udyagirian;;;;;;;;;;;;x
-d_warangal_adj;Warangali;;;;;;;;;;;;x
+d_udayagiri_adj;优陀耶耆厘;;;;;;;;;;;;x
+d_warangal_adj;婆浪伽罗;;;;;;;;;;;;x
 d_racakonda_adj;Racacondan;;;;;;;;;;;;x
 d_lanka_adj;楞迦;;;;;;;;;;;;x
 d_sinhala_adj;僧伽罗;;;;;;;;;;;;x
@@ -5013,15 +5013,15 @@ b_schanis;Schänis;;;;;;;;;;;;x
 b_kussnacht;Küssnacht;;;;;;;;;;;;x
 b_aarau;Aarau;;;;;;;;;;;;x
 b_kappel;Kappel;;;;;;;;;;;;x
-b_toggenburg;Toggenburg;;;;;;;;;;;;x
-b_rapperswil;Rapperswil;;;;;;;;;;;;x
-b_fribourg;Fribourg;;;;;;;;;;;;x
+b_toggenburg;吐根堡;;;;;;;;;;;;x
+b_rapperswil;拉珀斯维尔;;;;;;;;;;;;x
+b_fribourg;弗里堡;;;;;;;;;;;;x
 b_erguel;Erguël;;;;;;;;;;;;x
 b_avenches;Avenches;;;;;;;;;;;;x
 b_colombier;Colombier;;;;;;;;;;;;x
 b_valangin;Valangin;;;;;;;;;;;;x
-b_lalocle;Le Locle;;;;;;;;;;;;x
-b_labonneville;La Bonneville;;;;;;;;;;;;x
+b_lalocle;勒洛克勒;;;;;;;;;;;;x
+b_labonneville;拉博讷维尔;;;;;;;;;;;;x
 b_neuveville;Neuville;;;;;;;;;;;;x
 b_unterseen;Unterseen;;;;;;;;;;;;x
 b_thun;Thun;;;;;;;;;;;;x
@@ -5055,7 +5055,7 @@ b_st_jacob;圣雅各伯;;;;;;;;;;;;x
 b_dolladitz;Dolladitz;;;;;;;;;;;;x
 b_cortina;Cortina;;;;;;;;;;;;x
 b_st_helena;St-Helena;;;;;;;;;;;;x
-b_florian;Florian;;;;;;;;;;;;x
+b_florian;弗洛里安;;;;;;;;;;;;x
 b_molven;Molven;;;;;;;;;;;;x
 b_marchaux;Marchaux;;;;;;;;;;;;x
 b_champvans;Champvans;;;;;;;;;;;;x
@@ -7553,7 +7553,7 @@ EVTOPTAHF21142;真是不可思议！;;;;;;;;;;;;x
 EVTDESCAHF21143;The messenger came in this morning to inform me that [From.GetTitledFirstName] has decided to accept my offer of peace. The war is over.;;;;;;;;;;;;x
 EVTOPTAHF21143;真是个好消息！;;;;;;;;;;;;x
 EVTDESCAHF21144;[From.GetTitledFirstName] has decided to trust me and accept my offer and meet me during a momentary truce. While it is unlikely that this meeting will result in a settlement of our dispute, it might help us to maintain a healthy relationship in spite of the war.;;;;;;;;;;;;x
-EVTOPTAHF21144;This is the perfect opportunity to capture [From.GetHerHim]!;;;;;;;;;;;;x
+EVTOPTAHF21144;这是抓住[From.GetHerHim]的完美机会！;;;;;;;;;;;;x
 tooltip_21144_ambush_succeeds;§Y[From.GetTitledFirstName]§! is captured.;;;;;;;;;;;;x
 tooltip_21144_ambush_fails;这场伏击失败了。;;;;;;;;;;;;x
 EVTOPTBHF21144;I will make my reasons clear.;;;;;;;;;;;;x
@@ -8239,10 +8239,10 @@ EVTOPTAHF24005;No! Not the brazen bull!;;;;;;;;;;;;x
 prisoner_brazen_bull;Throw in the Brazen Bull;;;;;;;;;;;;x
 prisoner_brazen_bull_desc;Lock [Root.GetTitledFirstName] into the Brazen Bull and let [Root.GetHerHim] cook inside the monstrous contraption.;;;;;;;;;;;;x
 tooltip_decision_brazen_bull;Your other §YVassals§! will be Intimidated (§G+10§! §YOpinion§!) by this action.;;;;;;;;;;;;x
-EVTOPTC50010;Let's try something more original this time...;;;;;;;;;;;;x
-EVTOPTD50010;Ugh, just throw them in the Brazen Bull...;;;;;;;;;;;;x
+EVTOPTC50010;让我们做些原始的事......;;;;;;;;;;;;x
+EVTOPTD50010;呃，把他们丢进铜牛里就好了......;;;;;;;;;;;;x
 EVTDESCHF24006;Foul rumors are spreading from Sicily. The once prosperous Mediterranean isle has been fallen into the hands of a cruel [From.GetManWoman], who claims to be a descendant of the [pagan_group.GetName] Tyrants of old. \n\nConsumed by paranoid delusions and sadistic fantasies, [From.GetSheHe] has killed hundreds of [From.GetHerHis] own subjects for the most trivial of slights. \nMost of [From.GetHerHis] victims have met their end in the fiery belly of [From.GetHerHis] brazen bull, symbol of [From.GetHerHis] degenerate dynasty.;;;;;;;;;;;;x
-EVTOPTAHF24006;How abhorrent!;;;;;;;;;;;;x
+EVTOPTAHF24006;真恶心！;;;;;;;;;;;;x
 roman_opinion;[roman.GetName]好感;;;;;;;;;;;;x
 bloodline_effect_teuta_ships;可以在战争期间召唤§Y船只§!;;;;;;;;;;;;x
 EVTTITLEHF24011;伊利里亚女王;;;;;;;;;;;;x
@@ -8250,13 +8250,13 @@ EVTDESCAHF24011;My recent victory over the Roman armies of [defeated_emperor.Get
 EVTDESCBHF24011;My recent victory over the Roman armies of [defeated_emperor.GetTitledFirstName] has resonated across [Root.PrimaryTitle.GetName]. Despite all odds, I was able to stand strong against all the legions and the formidable power of the Imperial fleet, laying waste upon the decadent rule of House [defeated_emperor.GetOnlyDynastyName]. \nSuch was my triumph that the people have started to compare me to Teuta, an ancient Queen who once stood against the ambitions of Rome, going even as far as to whisper that my prowess in this war is proof that I share some of my blood with her.;;;;;;;;;;;;x
 EVTOPTAHF24011;And why not? We have so much in common...;;;;;;;;;;;;x
 bloodline_desc_teuta;[Root.GetTitledFirstName]宣称[Root.GetHerHis]家族血统可追溯到伊利里亚的海盗女王提欧塔，后者领导了一次对古罗马帝国悲剧性的反抗运动。;;;;;;;;;;;;x
-teuta_female;Blood of Teuta;;;;;;;;;;;;x
-EVTOPTBHF24011;Nonsense! I have nothing in common with her.;;;;;;;;;;;;x
-EVTTITLEHF24012;Queen of Illyria;;;;;;;;;;;;x
+teuta_female;乌塔之血;;;;;;;;;;;;x
+EVTOPTBHF24011;扯淡！我和她完全就是两个人。;;;;;;;;;;;;x
+EVTTITLEHF24012;伊利里亚女王;;;;;;;;;;;;x
 EVTDESCAHF24012;As if the humiliation for our recent defeat at the hands of [From.GetTitledFirstName] was not a price steep enough to pay for the Empire, more barbarians are gathering around the banner of our enemy, emboldened by the recent success of their brethren. Their leader has started to spread ludicrous rumors about her ancestral ties to Queen Teuta, another rebellious Queen of Illyria of bygone times. \nWe must clean the stain of this failure from our reputation before it is too late...;;;;;;;;;;;;x
 EVTDESCBHF24012;The [defeated_emperor.PrimaryTitle.GetName] has recently suffered an ignominious defeat at the hands of [From.GetTitledFirstName]. Galvanized by their victory, the people of [From.PrimaryTitle.GetName] have started idolizing their [From.GetTitle], comparing [From.GetHerHim] to a ruler of their legends and claiming [From.GetHerHim] to have such a heroic ascendancy.\n Through her victory, the pagan tribes of old Illyria have discovered a new strength to stand against their Roman masters.;;;;;;;;;;;;x
 EVTOPTAHF24012;Enjoy your fleeting victory while you can!;;;;;;;;;;;;x
-EVTOPTBHF24012;Foolish savages...;;;;;;;;;;;;x
+EVTOPTBHF24012;一帮愚蠢的野蛮人......;;;;;;;;;;;;x
 EVTOPTCHF24012;明白了……;;;;;;;;;;;;x
 EVTDESCHFA24014;成群的船只在[Root.PrimaryTitle.GetName]的海岸集结，来头各不相同：有海盗、冒险家、佣兵，甚或渔民……他们没有忘记我在帝国之中曾为他们提供过的保护，而今决定效忠于我，为战事出一份力。;;;;;;;;;;;;x
 EVTDESCHFB24014;成群的船只在[Root.PrimaryTitle.GetName]的海岸集结，来头各不相同：有海盗、冒险家、佣兵，甚或渔民……他们没有忘记[pirate_bloodline_target.GetTitledFirstName]在帝国之中曾为他们提供过的保护，而今决定效忠于我，为战事出一份力。;;;;;;;;;;;;x
@@ -8266,7 +8266,7 @@ EVTDESCHFB24015;一些船只在[Root.PrimaryTitle.GetName]的海岸集结，来�
 EVTOPTAHF24015;欢迎你们！;;;;;;;;;;;;x
 EVTDESCHFA24016;A few pirate ships have gathered at the shores of [Root.PrimaryTitle.GetName]. Their owners have offered their services in the war to come, hoping to repay me for offering them haven from the tyranny of the Imperial fleet of the Romans.;;;;;;;;;;;;x
 EVTDESCHFB24016;A few pirate ships have gathered at the shores of [Root.PrimaryTitle.GetName]. Their owners have offered their services in the war to come, hoping to repay my family for offering them haven from the tyranny of the Imperial fleet of the Romans.;;;;;;;;;;;;x
-EVTOPTAHF24016;You are welcome.;;;;;;;;;;;;x
+EVTOPTAHF24016;不客气。;;;;;;;;;;;;x
 south_slavic_opinion;[south_slavic.GetGroupName]好感;;;;;;;;;;;;x
 EVTDESCHFA25000;A promising member of [invited_lodge_soldier.Society.GetName], [invited_lodge_soldier.GetFirstName], is eager to test [invited_lodge_soldier.GetHerHis] mettle in battle and prove [invited_lodge_soldier.GetHerHis] loyalty fighting by my side and leading my armies against the enemies of [Root.PrimaryTitle.GetName].;;;;;;;;;;;;x
 EVTOPTCHF25000;很好！我已经知道要换掉谁了…;;;;;;;;;;;;x
@@ -8307,9 +8307,9 @@ EVTOPTCHF25006;我想要激励我的战士建功立业！;;;;;;;;;;;;x
 EVTOPTDHF25006;仔细考虑一下的话，这也许是个坏主意……;;;;;;;;;;;;x
 lodge_zun_battle_trance_1;战斗专注：坚韧;;;;;;;;;;;;x
 lodge_zun_battle_trance_1_desc;这个角色曾经使用尊日神教的远古秘术来暂时地提升[Root.GetHerHis]的军事能力。;;;;;;;;;;;;x
-lodge_zun_battle_trance_2;Battle Trance: Indomitable;;;;;;;;;;;;x
+lodge_zun_battle_trance_2;战斗专注：不屈;;;;;;;;;;;;x
 lodge_zun_battle_trance_2_desc;This character has made use of the ancient mystical knowledge of the Sun-worshipers to temporarily increase [Root.GetHerHis] military prowess.;;;;;;;;;;;;x
-lodge_zun_battle_trance_3;Battle Trance: Inspiring;;;;;;;;;;;;x
+lodge_zun_battle_trance_3;战斗专注：激励;;;;;;;;;;;;x
 lodge_zun_battle_trance_3_desc;This character has made use of the ancient mystical knowledge of the Sun-worshipers to temporarily increase [Root.GetHerHis] military prowess.;;;;;;;;;;;;x
 warrior_lodge_slavic_stand_together;Stand Together;;;;;;;;;;;;x
 warrior_lodge_slavic_stand_together_desc;Ask for help from [Root.Society.GetName], hoping one of their warriors will assemble a band of mercenaries to aid you in your war.;;;;;;;;;;;;x
@@ -8318,17 +8318,17 @@ tooltip_has_not_already_stood_together_slavic;Has NOT already requested help fro
 tooltip_stand_together_candidate_exists;A member of the Lodge is willing to assist you;;;;;;;;;;;;x
 tooltip_slavic_stand_together;A member of §Y[Root.Society.GetName]§! will assemble an §YArmy§! at your capital.;;;;;;;;;;;;x
 EVTDESCHF25008;My brothers and sisters of [Root.Society.GetName] have heeded my call to action. [scoped_slavic_savior.GetTitledFirstName], a valiant follower of [scoped_slavic_savior.Religion.GetRandomGodName], has assembled a host of warriors to aid me in the ongoing war.;;;;;;;;;;;;x
-EVTOPTAHF25008;Welcome! I am glad to meet you!;;;;;;;;;;;;x
+EVTOPTAHF25008;欢迎！见到你我很高兴！;;;;;;;;;;;;x
 EVTDESCHF25009;[scoped_slavic_savior.GetFirstName] has been working restlessly to aid [Root.PrimaryTitle.GetName] win the war since [scoped_slavic_savior.GetHerHis] arrival. I must admit I have grown really fond of [scoped_slavic_savior.GetHerHim] in the past few days...;;;;;;;;;;;;x
 EVTOPTAHF25009;But does [scoped_slavic_savior.GetSheHe] love me back, I wonder?;;;;;;;;;;;;x
 EVTOPTBHF25009;I cannot distract [scoped_slavic_savior.GetHerHim] with this nonsense right now.;;;;;;;;;;;;x
 EVTDESCHF25010;[From.GetTitledFirstName] has grown really fond of me since I joined [From.GetHerHis] campaign. It has come to the point where [From.GetSheHe] flat out admitted [From.GetHerHis] love for me openly.;;;;;;;;;;;;x
-EVTOPTAHF25010;I love you too, [From.GetFirstName]!;;;;;;;;;;;;x
+EVTOPTAHF25010;[From.GetFirstName]，我也爱你！;;;;;;;;;;;;x
 EVTOPTBHF25010;You are not really my type.;;;;;;;;;;;;x
 EVTDESCHF25011;I was happy to discover that [From.GetFirstName] shares my feeling for [From.GetHerHim]. Now that we are together, nothing will be able to stop us!;;;;;;;;;;;;x
-EVTOPTAHF25011;To victory!;;;;;;;;;;;;x
+EVTOPTAHF25011;为了胜利！;;;;;;;;;;;;x
 EVTDESCHF25012;Unfortunately, [From.GetFirstName] admitted that [From.GetSheHe] does not shares my feelings for [From.GetHerHim].;;;;;;;;;;;;x
-EVTOPTAHF25012;I understand.;;;;;;;;;;;;x
+EVTOPTAHF25012;我懂了。;;;;;;;;;;;;x
 EVTDESCHF25013;[scoped_slavic_savior.GetFirstName] has been working restlessly to aid [Root.PrimaryTitle.GetName] win the war since [scoped_slavic_savior.GetHerHis] arrival. I could certainly use more fighters like [scoped_slavic_savior.GetHerHim] in my court...;;;;;;;;;;;;x
 EVTOPTAHF25013;[scoped_slavic_savior.GetSheHeCap] has earned my trust.;;;;;;;;;;;;x
 EVTOPTBHF25013;Still, I shouldn't be too careless trusting a stranger...;;;;;;;;;;;;x
@@ -8353,8 +8353,8 @@ tooltip_can_build_ca_wall_q_2;The local infrastructure supports the improvement 
 tooltip_can_build_ca_wall_q_3;The local infrastructure supports the improvement of the §YCastle Fortifications§!;;;;;;;;;;;;x
 tooltip_can_build_ca_wall_q_4;The local infrastructure supports the improvement of the §YCastle Fortifications§!;;;;;;;;;;;;x
 tooltip_can_build_ca_wall_q_5;The local infrastructure supports the improvement of the §YCastle Fortifications§!;;;;;;;;;;;;x
-scarred_mid;Grievously Scarred;;;;;;;;;;;;x
-scarred_mid_desc;Old wounds have left this character visibly scarred.;;;;;;;;;;;;x
+scarred_mid;伤痕累累;;;;;;;;;;;;x
+scarred_mid_desc;该角色身上有旧伤的伤疤。;;;;;;;;;;;;x
 scarred_high_desc;This character has seen [Root.GetHerHis] share of fights, as [Root.GetHerHis] face can attest.;;;;;;;;;;;;x
 EVTOPTZ_SOA_3020;Let my TRUE nature be revealed for all to see!;;;;;;;;;;;;x
 tooltip_EVTOPTZ_SOA_3020;The frightful appearance of the Antichrist will become apparent to all.;;;;;;;;;;;;x
@@ -8363,13 +8363,13 @@ demon_horns;恶魔之角;;;;;;;;;;;;x
 demon_horns_desc;这个角色放弃了[Root.GetHerHis]本性。;;;;;;;;;;;;x
 EVTDESCHFA20220;With the wicked ruler having been dealt with, the Pope has finally accepted to crown me [Root.GetTitle]. It is time to sheathe our weapons and let the celebrations begin.;;;;;;;;;;;;x
 lodge_war_sacrifice_1;战争祭祀;;;;;;;;;;;;x
-lodge_war_sacrifice_1_desc;This warrior has offered wealth and food to the gods, hoping to receive their divine favor in battle.;;;;;;;;;;;;x
-lodge_war_sacrifice_2;War Sacrifice;;;;;;;;;;;;x
+lodge_war_sacrifice_1_desc;这个勇士把财富和食物献给了神灵，祈求能在战斗中获得他们的帮助。;;;;;;;;;;;;x
+lodge_war_sacrifice_2;战争祭祀;;;;;;;;;;;;x
 lodge_war_sacrifice_2_desc;This warrior has offered a prized specimen from [Root.GetHerHis] livestock to the gods, hoping to receive their divine favor in battle.;;;;;;;;;;;;x
-lodge_war_sacrifice_3;War Sacrifice;;;;;;;;;;;;x
-lodge_war_sacrifice_3_desc;This warrior has offered the life of one of [Root.GetHerHis] servants to the gods, hoping to receive their divine favor in battle.;;;;;;;;;;;;x
-lodge_war_sacrifice_4;War Sacrifice;;;;;;;;;;;;x
-lodge_war_sacrifice_4_desc;This warrior has offered the life of one of [Root.GetHerHis] own family members to the gods, hoping to receive their divine favor in battle.;;;;;;;;;;;;x
+lodge_war_sacrifice_3;战争祭祀;;;;;;;;;;;;x
+lodge_war_sacrifice_3_desc;这个勇士把[Root.GetHerHis]一个仆人献祭给了神灵，祈求能在战斗中获得他们的帮助。;;;;;;;;;;;;x
+lodge_war_sacrifice_4;战争祭祀;;;;;;;;;;;;x
+lodge_war_sacrifice_4_desc;这个勇士把[Root.GetHerHis]一个家庭成员献祭给了神灵，祈求能在战斗中得到他们的帮助。;;;;;;;;;;;;x
 warrior_lodge_war_sacrifice;战争祭祀;;;;;;;;;;;;x
 warrior_lodge_war_sacrifice_desc;举行一场祭祀仪式以获得[Root.Society.GetName]之神的保佑，坚定你在战斗中的决心。;;;;;;;;;;;;x
 warrior_lodge_war_sacrifice_power_desc;§Y密谋§!菜单中的新决议已可用，献祭财富和血肉以换取洛基赐予的帮助，提高在战斗技能。;;;;;;;;;;;;x
@@ -8425,28 +8425,28 @@ EVTDESCHF25033;Reinforcements from [Root.Society.GetName] have been dwindling si
 tooltip_call_to_glory_resume_reinforcements;§YReinforcements§! will resume for a while longer.;;;;;;;;;;;;x
 tooltip_call_to_glory_end_reinforcements;You will no longer receive more §YReinforcements§! until the end of the war.;;;;;;;;;;;;x
 EVTOPTAHF25033;What kind of warriors are you?!;;;;;;;;;;;;x
-EVTOPTBHF25033;I will share my loot with any who wish to join me!;;;;;;;;;;;;x
-EVTOPTCHF25033;I need no cowards in my army.;;;;;;;;;;;;x
+EVTOPTBHF25033;我会把我的劫掠所得分给那些想入伙的人！;;;;;;;;;;;;x
+EVTOPTCHF25033;我的军队里不需要懦夫。;;;;;;;;;;;;x
 EVTDESCHF25034;Some of the more undisciplined elements within my new troops have started to complain that I do not share the loot from our battles equally. They are demanding for what they consider their rightful compensation, threatening to leave my army if their request is denied.;;;;;;;;;;;;x
 EVTOPTAHF25034;This is but a misunderstanding...;;;;;;;;;;;;x
 EVTOPTBHF25034;You shall have your money.;;;;;;;;;;;;x
 EVTOPTCHF25034;那就滚吧！我根本用不上你！;;;;;;;;;;;;x
 EVTDESCHF25037;The valor I have shown in battle has not inspired just seasoned warriors. Many of my subjects have traveled to [Root.Capital.GetName], hoping to prove their worth against my enemies.;;;;;;;;;;;;x
-EVTOPTAHF25037;I will have them trained in no time!;;;;;;;;;;;;x
+EVTOPTAHF25037;我会立刻让他们接受训练！;;;;;;;;;;;;x
 EVTOPTBHF25037;Your bravery moves me, but this is not your fight.;;;;;;;;;;;;x
 EVTOPTCHF25037;Wonderful! You will soon meet your opponents!;;;;;;;;;;;;x
 EVTOPTDHF25037;You can help with the supply lines.;;;;;;;;;;;;x
 tooltip_rowdy_troops_leave;Some of your new recruits will disband.;;;;;;;;;;;;x
 glorious_countercharge_tactic;Glorious Counter-Charge Tactic;;;;;;;;;;;;x
-glorious_norse_tactic;Winter's Maw Tactic;;;;;;;;;;;;x
-glorious_tengri_tactic;Wolf's Howling Tactic;;;;;;;;;;;;x
-glorious_slavic_tactic;Slavic Last Stand Tactic;;;;;;;;;;;;x
+glorious_norse_tactic;冬喉战术;;;;;;;;;;;;x
+glorious_tengri_tactic;狼嚎战术;;;;;;;;;;;;x
+glorious_slavic_tactic;斯拉夫的背水一战战术;;;;;;;;;;;;x
 glorious_baltic_tactic;Baltic Last Stand Tactic;;;;;;;;;;;;x
 glorious_finnish_tactic;Elk's Lament Tactic;;;;;;;;;;;;x
-glorious_west_african_tactic;Bull Horns Tactic;;;;;;;;;;;;x
+glorious_west_african_tactic;牛角战术;;;;;;;;;;;;x
 glorious_zun_tactic;Lightburst Tactic;;;;;;;;;;;;x
 glorious_bon_tactic;Balanced Charge Tactic;;;;;;;;;;;;x
-glorious_hellenic_tactic;Quincunx Tactic;;;;;;;;;;;;x
+glorious_hellenic_tactic;梅花战术;;;;;;;;;;;;x
 tooltip_is_excommunicated_for;is §YExcommunicated§! by the [Root.Religion.GetName] Church;;;;;;;;;;;;x
 REL_NO_MALE_TEMPLE_HOLDERS_DESC;Religion forbids men to hold Temple Holdings;;;;;;;;;;;;x
 EVTOPTEHF25021;Perhaps this was not a good idea...;;;;;;;;;;;;x
@@ -8736,7 +8736,7 @@ settle_iceland_tt;Settles Iceland with many proper [Root.Culture.GetName] famili
 settle_iceland;Settle Iceland;;;;;;;;;;;;x
 settle_iceland_desc;[Root.Culture.GetName] explorers have found a new land across the sea that they have dubbed 'Iceland'. Despite its name, it appears ripe for settlement. I should invest in ships to send settlers over there before another [Root.Religion.GetName] [Root.GetTitle] has the same idea!;;;;;;;;;;;;x
 EVTNAME_TOG_404;冰岛定居;;;;;;;;;;;;x
-EVTDESC_TOG_404;冰岛，虽然有着这样一个不祥的名字，却被证明有足够肥沃的土地。在此前，只有少数隐士居住在这个岛上，然而现在不再是这样了。许多[settler_of_iceland_target.Culture.GetName]定居者被[settler_of_iceland_target.GetFullName]赞助了船只和建材，成群来到冰岛海岸，以寻求一段新生活。[left_iceland_target.GetFullName]和[left_iceland_target.GetHerHis]追随者则厌恶地离开了此地，向南回到他们的老家去了。;;;;;;;;;;;;x
+EVTDESC_TOG_404;冰岛，尽管名字透露着不祥，却被证明有足够肥沃的土地。在此前，只有少数隐士居住在这个岛上，然而现在不再是这样了。许多[settler_of_iceland_target.Culture.GetName]定居者被[settler_of_iceland_target.GetFullName]赞助了船只和建材，成群来到冰岛海岸，以寻求一段新生活。[left_iceland_target.GetFullName]和[left_iceland_target.GetHerHis]追随者则厌恶地离开了此地，向南回到他们的老家去了。;;;;;;;;;;;;x
 EVTOPTA_TOG_404;一场难忘的旅行！;;;;;;;;;;;;x
 b_nattfaravik;Náttfaravik;;;;;;;;;;;;x
 b_alftafjordur;Álftafjörður;;;;;;;;;;;;x
@@ -12288,16 +12288,16 @@ EVTDESCDHF23401;We have just received news from [From.PrimaryTitle.GetName]. A m
 EVTDESCEHF23401;We have just received news from [From.PrimaryTitle.GetName]. A most revered congregation of diviners under the leadership of our [From.GetTitle] have analyzed the stars and many prodigious heavenly sightings happening all over the world in the past months, and have reached the conclusion that a period of terrible misfortune is upon us.\nnThe signs could not be clearer: long periods of sudden darkness have followed prodigious sightings of two-headed children and storms of fire. Rivers are drying up, crops are bleeding as clouds of blasphemous vermin encircle our lands, harbingers of our impending doom.;;;;;;;;;;;;x
 EVTOPTAHF23401;I will make a great offering to protect my realm!;;;;;;;;;;;;x
 EVTOPTBHF23401_A;Praise the heavens!;;;;;;;;;;;;x
-EVTOPTBHF23401_B;What a relief!;;;;;;;;;;;;x
-EVTOPTBHF23401_C;Hmm. This is worrying...;;;;;;;;;;;;x
-EVTOPTBHF23401_D;May the heavens protect us!;;;;;;;;;;;;x
+EVTOPTBHF23401_B;终于解脱了！;;;;;;;;;;;;x
+EVTOPTBHF23401_C;嗯，这确实令人担忧......;;;;;;;;;;;;x
+EVTOPTBHF23401_D;或许上帝会保护我们！;;;;;;;;;;;;x
 EVTOPTBHF23401_E;Is the end times near?;;;;;;;;;;;;x
 EVTDESCAHF23402;It looked like such a clear, sunny day... Yet, just as I stepped outside of my palace, a sudden flash of light enveloped me, sending shivers down my spine and filling my ears with an unsettling ringing.;;;;;;;;;;;;x
 EVTDESCBHF23402;The fire started during the night, just as I finished my last function. All the other priests had already left the building, leaving me alone and with no help. \nI clutch my holy symbol, languishing in a corner as the flames and smoke draw near.;;;;;;;;;;;;x
 EVTDESCCHF23402;It is such a hot day in [Root.Capital.GetName]. I can barely breathe. I am discussing some menial theological issue with one of my clerics, when the [Root.GetManWoman] suddenly shrieks and jumps away from me. I look down, suddenly realizing that I am on fire.;;;;;;;;;;;;x
 EVTDESCDHF23402;I shudder in my sleep and let out a muffled scream, seeing the [Root.GetRegionalBigAnimal] staring at me from the other side of the room. Before I can even stand up or call for help, the creature leaps forward, pouncing on me.;;;;;;;;;;;;x
 EVTDESCEHF23402;How could I not realize that the walls' edge was so close? At the very least, my shame will be very short-lived.;;;;;;;;;;;;x
-EVTOPTAHF23402;Gltch..!;;;;;;;;;;;;x
+EVTOPTAHF23402;有些小瑕疵.......;;;;;;;;;;;;x
 EVTDESCAHF23403;The most disturbing news is spreading through the realm. Our revered [From.GetTitledFirstName] has recently died, struck by lightning during a sunny day. \nPeople are clamoring that this is surely a sign of divine wrath towards [From.PrimaryTitle.GetName].;;;;;;;;;;;;x
 EVTDESCBHF23403;The most disturbing news is spreading through the realm. Our revered [From.GetTitledFirstName] has recently died, consumed by a fire that destroyed [From.GetHerHis] great temple. \nPeople are clamoring that this is surely a sign of divine wrath towards [From.PrimaryTitle.GetName].;;;;;;;;;;;;x
 EVTDESCCHF23403;The most disturbing news is spreading through the realm. Our revered [From.GetTitledFirstName] has recently spontaneously combusted during a theological debate. \nPeople are clamoring that this is surely a sign of divine wrath towards [From.PrimaryTitle.GetName].;;;;;;;;;;;;x
@@ -14007,8 +14007,8 @@ string_WL_flyting_character_insult_option_12;[From.GetFirstName] face is so grot
 string_WL_flyting_character_insult_option_13;What god did your mother offend to curse you with such a revolting look?;;;;;;;;;;;;x
 string_WL_flyting_character_insult_option_14;It is telling how often [From.GetFirstName] has to remind us that she a woman.;;;;;;;;;;;;x
 string_WL_flyting_character_insult_option_15;It is telling how much eager you are to play word games over proper fights.;;;;;;;;;;;;x
-string_WL_flyting_character_insult_option_16;I am still unsure what made you think a weakling like you can be one of us.;;;;;;;;;;;;x
-string_WL_flyting_character_insult_option_17;Was there ever a weaker fighter recruited to [From.Society.GetName]?;;;;;;;;;;;;x
+string_WL_flyting_character_insult_option_16;我仍然不确定是什么让你这样一个弱者认为能成为我们的一员。;;;;;;;;;;;;x
+string_WL_flyting_character_insult_option_17;[From.Society.GetName]招募过更弱的战士吗？;;;;;;;;;;;;x
 string_WL_flyting_character_insult_option_18;I am impressed you managed to get on this table without breaking a bone...;;;;;;;;;;;;x
 string_WL_flyting_character_insult_option_19;Does the little girl need her hand held before she faints?;;;;;;;;;;;;x
 string_WL_flyting_character_insult_option_20;I shall try to speak softly, lest my voice strikes you dead.;;;;;;;;;;;;x
@@ -14042,7 +14042,7 @@ string_WL_flyting_family_insult_option_7;急着想回到你称作妻子的那只
 string_WL_flyting_family_insult_option_8;急着想回到你称作丈夫的那只蠕虫身边了？;;;;;;;;;;;;x
 string_WL_flyting_family_insult_option_9;Tell me, how many times did you stomp on your kids' heads?;;;;;;;;;;;;x
 string_WL_flyting_family_insult_option_10;One can only hope your children sprung from a stronger seed than yours.;;;;;;;;;;;;x
-string_WL_flyting_family_insult_option_11;How does it feel to be the disgrace of your dynasty?;;;;;;;;;;;;x
+string_WL_flyting_family_insult_option_11;成为你家族的耻辱感觉如何？;;;;;;;;;;;;x
 string_WL_flyting_family_insult_option_12;You are truly the greatest example of your dynasty's mediocrity.;;;;;;;;;;;;x
 string_WL_flyting_family_insult_option_13;Claiming that you are the best that the [From.GetOnlyDynastyName] can offer is but meager praise.;;;;;;;;;;;;x
 string_WL_flyting_family_insult_option_14;To see what you have become, your ancestors must be rolling in their graves.;;;;;;;;;;;;x
@@ -14074,7 +14074,7 @@ string_WL_flyting_character_insult_desc_9;[From.GetFirstName] smugly asks me whe
 string_WL_flyting_character_insult_desc_10;[From.GetFirstName] teases me by claiming [From.GetSheHe] might need to yield to me since looking at my face is already too much of an offense for [From.GetHerHim] to bear.;;;;;;;;;;;;x
 string_WL_flyting_character_insult_desc_11;[From.GetFirstName] claims that my face is so repulsive that children of [Root.Capital.GetName] flee at my very sight, believing me to be a troll of some sort.;;;;;;;;;;;;x
 string_WL_flyting_character_insult_desc_12;[From.GetFirstName] addresses the crowd, claiming that my face is so grotesque that it scares wild wolves and cracks stone.;;;;;;;;;;;;x
-string_WL_flyting_character_insult_desc_13;[From.GetFirstName] asks me what god did my mother offend to be cursed with such an ugly [Root.GetSonDaughter].;;;;;;;;;;;;x
+string_WL_flyting_character_insult_desc_13;[From.GetFirstName]问我我的母亲是冒犯了哪位神明而受到诅咒，生下了一个如此丑陋的[Root.GetSonDaughter]。;;;;;;;;;;;;x
 string_WL_flyting_character_insult_desc_14;[From.GetFirstName] addresses the crowd, saying that it is very telling how often I need to remind everyone I know that I am woman, alluding to my rough looks.;;;;;;;;;;;;x
 string_WL_flyting_character_insult_desc_15;[From.GetFirstName] decides to focus the crowd's attention on how eager I am to join word games compared to actual fights.;;;;;;;;;;;;x
 string_WL_flyting_character_insult_desc_16;[From.GetFirstName] mocks me, saying that [From.GetSheHe] still wonders why a weakling like me would think [Root.GetSheHe] has a place amongst [Root.Society.GetName].;;;;;;;;;;;;x
@@ -15988,7 +15988,7 @@ b_nilka;尼勒克;;;;;;;;;;;;x
 b_zeketaizhen;则克台镇;;;;;;;;;;;;x
 b_taledzhen;塔勒德镇;;;;;;;;;;;;x
 b_nalatizhen;那拉提镇;;;;;;;;;;;;x
-b_kashi;Kashi;;;;;;;;;;;;x
+b_kashi;喀什;;;;;;;;;;;;x
 b_shubar;Shubar;;;;;;;;;;;;x
 b_shagan;Shagan;;;;;;;;;;;;x
 b_sayram_qayaliq;赛里木;;;;;;;;;;;;x
@@ -17926,7 +17926,7 @@ EVTOPTA_HF_49452;As it should be.;;;;;;;;;;;;x
 EVTDESC_HF_49462;一个小贵族已经开始召集部队，并发起了收复伊比利亚部分失地的运动。[From.GetTitledFirstName]请求我向[From.GetHerHim]提供帮助，并且加入到再征服运动当中。这是一个将异教徒驱逐出伊比利亚的绝好机会。;;;;;;;;;;;;x
 EVTOPTA_HF_49462;这是我的荣幸。;;;;;;;;;;;;x
 EVTOPTB_HF_49462;要我去帮一个小贵族？才不！;;;;;;;;;;;;x
-EVTDESC_HF_49463;作为即将开始的收复失地运动赞助者，我有一个绝佳的支援[FromFrom.GetDynName]的机会。但是我该用什么方式 帮助[FromFrom.GetHerHim]呢？;;;;;;;;;;;;x
+EVTDESC_HF_49463;作为即将开始的收复失地运动赞助者，我有一个绝佳的支援[FromFrom.GetDynName]的机会。但是我该用什么方式帮助[FromFrom.GetHerHim]呢？;;;;;;;;;;;;x
 EVTOPTA_HF_49463;我会用我的声望帮[FromFrom.GetHerHim]召集一大批部队。;;;;;;;;;;;;x
 EVTOPTB_HF_49463;我与教士们的关系此时显得无比重要;;;;;;;;;;;;x
 EVTOPTC_HF_49463;钱能打败任何敌人，也能保佑我们的友军。;;;;;;;;;;;;x
@@ -19465,7 +19465,7 @@ elephant_group;Proboscidea;;;;;;;;;;;;x
 elephant_culture;象;;;;;;;;;;;;x
 TT_EVTOPTAHF20211;§Y[From.GetTitledFirstName]§!将获得§Y独立§!。;;;;;;;;;;;;x
 String_Sakpata;Sakpata;;;;;;;;;;;;x
-PAGAN_BAPTISM_DISABLED;§R必须满足所有要求，且范围内必须有至少一个潜在的保证人§!;;;;;;;;;;;;x
+PAGAN_BAPTISM_DISABLED;§R必须满足所有要求，且范围内必须有至少一个潜在的教父母。§!;;;;;;;;;;;;x
 tooltip_evt_hf_24240;§Y[Root.GetTitledFirstName]§! will become the founder of a new §YBloodline§!;;;;;;;;;;;;x
 EVTTITLEHF24240;The Eternal [Root.GetTitle];;;;;;;;;;;;x
 EVTDESCHFA24240;Thanks to the tireless efforts of the glorious [Root.GetTitledFirstName], the lands of the [Root.PrimaryTitle.GetName] have been wrestled from the barbarity and the misery of its dark past, and have been dragged into a new era of clarity and order. \nA new urbanized bureaucratic caste has taken hold of the provinces once held by quarreling warlords, reinvigorating the Imperial Throne with legitimacy and power beyond all expectations.\n\nTen thousand years of peace and prosperity upon the great [Root.GetOnlyDynastyName] dynasty and its magnificent reformer!;;;;;;;;;;;;x
@@ -19675,7 +19675,7 @@ d_cherven_cities_adj;红鲁塞尼亚;;;;;;;;;;;;x
 alfonso_portugal_desc;Vanquisher of both Moors and Leonese in his campaigns for Portuguese independence, Alfonso cunningly battled many enemies to establish the roots of his own realm.;;;;;;;;;;;;x
 alfonso_spain_desc;Lord over half of Iberia, Alfonso claimed the title “Emperor of all Spain” and sought to unify the peninsula under his rule. He was also known as a patron of arts.;;;;;;;;;;;;x
 james_desc;Known as James the Conqueror, he established dominance over the Mediterranean Sea. He is also remembered as a sponsor of artists and a notorious lawmaker.;;;;;;;;;;;;x
-garcia_desc;巴斯克人的勇者王，同时也是收复失地运动的主要资助人，加西亚重新将长期被阿拉贡人统治的纳瓦拉地区纳入巴斯克人的统治;;;;;;;;;;;;x
+garcia_desc;巴斯克人的勇者王，同时也是收复失地运动的主要资助人，加西亚重新将长期被阿拉贡人统治的纳瓦拉地区纳入巴斯克人的统治。;;;;;;;;;;;;x
 muhammad_the_victorious_desc;Known as a champion of the faithful, diplomat and friend to Christians, Muhammad managed to keep alive the light of Al-Andalus despite the Castillian invasion.;;;;;;;;;;;;x
 mansa_musa_desc;A scholar and conqueror, Musa became a legend in the Islamic world for the vast wealth and majesty of his African kingdom. He also sponsored many construction projects.;;;;;;;;;;;;x
 bohemond_desc;A major leader of the First Crusade, Bohemond used his legendary martial skill and political cunning to capture Antioch and establish a kingdom for himself in the Levant.;;;;;;;;;;;;x
@@ -19917,7 +19917,7 @@ HEAD_ZUN_PRIEST;大祭司;;;;;;;;;;;;x
 HEAD_ZUN_PRIESTESS;女大祭司;;;;;;;;;;;;x
 HEAD_AFRICAN_PRIEST;大祭司;;;;;;;;;;;;x
 HEAD_AFRICAN_PRIESTESS;女大祭司;;;;;;;;;;;;x
-arberian;Arberian;;;;;;;;;;;;x
+arberian;阿尔巴尼亚;;;;;;;;;;;;x
 setting_shattered_succession_all_primogeniture_tooltip;所有的头衔会被指定为长子继承法。\n-最年长的孩子继承所有头衔。\n-你的继承人会喜欢这个法律，但你的其他家族成员对其会有些反感。;;;;;;;;;;;;x
 setting_shattered_succession_all_gavelkind_tooltip;所有的头衔会被指定为均分继承法。\n-头衔会被分配给所有孩子，而长子继承主要头衔。\n-你不会因为无领地的儿子而受到威望惩罚。\n-你的直辖领地数量上限会增加§Y30%§!。\n-禁止摧毁头衔。\n-该继承法十分受到除长子以外所有孩子的欢迎。;;;;;;;;;;;;x
 setting_shattered_succession_all_elective_gavelkind_tooltip;所有的头衔会被指定为选举均分继承法。\n-头衔会被候选人中第一继承人和其他人选所继承。\n-你不会因为无领地的儿子而受到威望惩罚。\n-你的直辖领地数量上限会增加§Y30%§!。\n-禁止摧毁头衔。\n-如果继承了帝国之下的王国，则在条件允许下，新王国会被创立以授予较年幼的孩子。\n-低级的候选继承人总能不经开战就宣告独立。;;;;;;;;;;;;x
