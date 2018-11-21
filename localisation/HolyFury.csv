@@ -3116,7 +3116,7 @@ tooltip_HF20396_A;§Y[From.GetTitledFirstName]§!被允许参观你的宫廷。;
 EVTDESCHFA20410;[FromFrom.GetTitledFirstName]跪下并向我保证[FromFrom.GetHerHis]忠诚的方式很容易让我忘记[FromFrom.GetSheHe]甚至不如我相信[Root.Religion.GetHighGodName]。尽管如此，对于像[FromFrom.GetHerHim]这样的不信者来说，以[Root.Religion.GetName]的方式向我致敬是一种恭敬的姿态。;;;;;;;;;;;;x
 EVTDESCHFB20410;这孩子跪下，机械地背诵[FromFrom.GetHerHis]封臣誓言。我从未想象[FromFrom.GetTitledFirstName]竞是如此年轻的一名[FromFrom.GetBoyGirl] ......;;;;;;;;;;;;x
 EVTDESCHFC20410;[FromFrom.GetTitledFirstName]在[FromFrom.GetHerHis]仆人之一的帮助下慢慢跪下。老人用微弱的声音背诵[FromFrom.GetHerHis]封臣誓言，并时不时停下来几次来回忆一些话。;;;;;;;;;;;;x
-EVTDESCHFD20410;[FromFrom.GetTitledFirstName]给了我一个迷人的微笑，[FromFrom.GetSheHe]鞠躬给我[FromFrom.GetHerHis]封臣誓言。我被[FromFrom.GetHerHis]轮廓分明的外表分散了注意力，我花了一些时间才意识到已经轮到我发言了。;;;;;;;;;;;;x
+EVTDESCHFD20410;[FromFrom.GetTitledFirstName]给了我一个迷人的微笑，[FromFrom.GetSheHe]鞠躬给我背诵[FromFrom.GetHerHis]封臣誓言。我被[FromFrom.GetHerHis]轮廓分明的外表分散了注意力，我花了一些时间才意识到已经轮到我发言了。;;;;;;;;;;;;x
 EVTDESCHFDD20410;[FromFrom.GetTitledFirstName]给了我一个迷人的微笑，[FromFrom.GetSheHe]鞠躬给我背诵[FromFrom.GetHerHis]封臣誓言，让我能清晰地看到[FromFrom.GetHerHis]胸部。我被[FromFrom.GetHerHis]诱人的外貌分散了注意力，我花了一些时间才意识到已经轮到我发言了。;;;;;;;;;;;;x
 EVTDESCHFF20410;It is not easy to suffer the sight of [FromFrom.GetTitledFirstName] for even as short a moment as the time that it takes [FromFrom.GetHerHim] to recite [FromFrom.GetHerHis] oath of vassalage. It has been a while since I saw a [FromFrom.GetManWoman] so repulsive...;;;;;;;;;;;;x
 EVTDESCHFG20410;[FromFrom.GetTitledFirstName] bows [FromFrom.GetHerHis] head courteously as [FromFrom.GetSheHe] kneels down and recites [FromFrom.GetHerHis] oath of vassalage, surrounded by a crowd of curious courtiers. It is so rare to see a [FromFrom.GetManWoman] like [FromFrom.GetHerHim] rise to the rank of [FromFrom.GetTitle]...;;;;;;;;;;;;x
@@ -3126,8 +3126,8 @@ EVTDESCHFL20410;[FromFrom.GetTitledFirstName] kneels down and recites [FromFrom.
 EVTOPTAHF20410;我们可以一起玩耍！;;;;;;;;;;;;x
 tooltip_HF20410_A;允许§Y[FromFrom.GetTitledFirstName]§!成为你的玩伴之一。;;;;;;;;;;;;x
 EVTOPTBHF20410;你无疑是这个宫廷中最漂亮的面孔......;;;;;;;;;;;;x
-tooltip_HF20410_B;Compliment §Y[FromFrom.GetTitledFirstName]§! on [FromFrom.GetHerHis] looks, hoping to endear [FromFrom.GetHerHim] to you.;;;;;;;;;;;;x
-EVTOPTCHF20410;Is this how you present yourself to your [Root.GetTitle]?;;;;;;;;;;;;x
+tooltip_HF20410_B;赞扬§Y[FromFrom.GetTitledFirstName]§!有关[FromFrom.GetHerHis]外貌，希望能得到[FromFrom.GetHerHim]的爱戴;;;;;;;;;;;;x
+EVTOPTCHF20410;这是你如何在[Root.GetTitle]前表现你自己的？;;;;;;;;;;;;x
 tooltip_HF20410_C;Mock §Y[FromFrom.GetTitledFirstName]§!, potentially shaming [FromFrom.GetHerHim] into submission.;;;;;;;;;;;;x
 EVTOPTDHF20410;We are glad for your visit.;;;;;;;;;;;;x
 tooltip_HF20410_D;Formally acknowledge §Y[FromFrom.GetTitledFirstName]'s§! oath, maintaining the proper formality dictated by your rank.;;;;;;;;;;;;x
@@ -10589,14 +10589,14 @@ norse_leader_desc;这个角色有一个可怕的名声，吸引了最强大的�
 trait_effect_capture_commanders;§G提高俘虏敌方指挥官的几率§!;;;;;;;;;;;;x
 String_sever_my_head_from_my_body;从我的身体上削下了我的脑袋;;;;;;;;;;;;x
 DEATH_MISSION_DUEL;在一场戏剧性的血脉决斗中被$KILLER$杀死;;;;;;;;;;;;x
-DEATH_MISSION_DUEL_NO_KILLER;was slain in a duel for blood;;;;;;;;;;;;x
-DEATH_BATTLE_DUEL;was slain by $KILLER$ in a chaotic battlefield duel;;;;;;;;;;;;x
-DEATH_BATTLE_DUEL_NO_KILLER;was slain in a chaotic battlefield duel;;;;;;;;;;;;x
+DEATH_MISSION_DUEL_NO_KILLER;被杀死于一场嗜血的决斗;;;;;;;;;;;;x
+DEATH_BATTLE_DUEL;被$KILLER$杀死于一场混乱的战场决斗;;;;;;;;;;;;x
+DEATH_BATTLE_DUEL_NO_KILLER;被杀死于一场混乱的战场决斗;;;;;;;;;;;;x
 EVTDESC_HFP_11050_A;我发誓我刚才真的听见了敌方指挥官[enemy_commander.GetTitledFirstName]发号施令的狗叫声，但是就在我搜索[battlefield_location.GetTerrain]时，却哪里也找不到[enemy_commander.GetSheHe]的身影。最后，经由我的一个手下提醒，[enemy_commander.GetSheHe]就躲在远方的[battlefield_location.GetTreeRockFence]后面瑟瑟发抖，而且最可耻的是，他抛下了[enemy_commander.GetHerHis]的士兵。;;;;;;;;;;;;x
 EVTDESC_HFP_11050_B;战事进行的很顺利，突然间，我听到了一声尴尬的怒吼。我旋转着手中的[Root.GetDuelWeapon]，蓄势待发，但却发现敌人的指挥官[enemy_commander.GetTitledFirstName]正艰难的试图爬上[battlefield_location.GetTreeRockFence]。「我觉得[enemy_commander.GetSheHe]正打算逃跑呢，我的[Root.GetLordLady]」，我旁边的士兵噗嗤的笑了出声。;;;;;;;;;;;;x
 EVTDESC_HFP_11050_C;这场战斗相当的轻松。挥舞着我的[Root.GetDuelWeapon][battlefield_location.GetThroughOver][battlefield_location.GetTerrain]是一件相当愉悦的事，我的手下也同样因为身上沾满了[enemy_liege.Culture.GetName]的鲜血和听到敌人的哀嚎而兴奋。突然有个人大喊，「看呐！敌人的指挥官[enemy_commander.GetTitledFirstName]正在藏起来！」，然后他指向了远方。;;;;;;;;;;;;x
 EVTOPTA_HFP_11050;哈！多么美妙的一刻啊！我要和这个指挥官单挑！;;;;;;;;;;;;x
-EVTOPTB_HFP_11050;Waiting for me, [enemy_commander.GetManWoman]? Let's fight!;;;;;;;;;;;;x
+EVTOPTB_HFP_11050;等着我，[enemy_commander.GetManWoman]？我们决斗吧！;;;;;;;;;;;;x
 EVTOPTC_HFP_11050;你在这儿啊！我的大斧早就饥渴难耐了！;;;;;;;;;;;;x
 EVTOPTD_HFP_11050;我会让所有人都知道[enemy_commander.GetTitledFirstName]的怯懦。;;;;;;;;;;;;x
 opinion_mocked_me_in_battle;在战斗中嘲笑了我;;;;;;;;;;;;x
@@ -15771,7 +15771,7 @@ PROV1784;坎塔布里亚海;;;;;;;;;;;;x
 PROV1785;阿基坦海岸;;;;;;;;;;;;x
 PROV1786;Lake Sariqamish;;;;;;;;;;;;x
 PROV1787;Buzachi;;;;;;;;;;;;x
-PROV1788;Kara Bogaz;;;;;;;;;;;;x
+PROV1788;卡拉博加兹;;;;;;;;;;;;x
 PROV1789;Kyzyl-Su;;;;;;;;;;;;x
 PROV1790;卡拉库姆沙漠;;;;;;;;;;;;x
 PROV1791;Urgench;;;;;;;;;;;;x
@@ -15842,12 +15842,12 @@ PROV1855;斋桑泊;;;;;;;;;;;;x
 PROV1856;乌巴甘;;;;;;;;;;;;x
 PROV1857;Miass;;;;;;;;;;;;x
 PROV1858;Tavda;;;;;;;;;;;;x
-PROV1859;Bolshoy Yugan;;;;;;;;;;;;x
-PROV1860;Vasyugan;;;;;;;;;;;;x
-PROV1861;Om;;;;;;;;;;;;x
-PROV1862;Tara;;;;;;;;;;;;x
-PROV1863;Vagay;;;;;;;;;;;;x
-PROV1864;Osha;;;;;;;;;;;;x
+PROV1859;大尤甘;;;;;;;;;;;;x
+PROV1860;瓦休甘;;;;;;;;;;;;x
+PROV1861;鄂木;;;;;;;;;;;;x
+PROV1862;塔拉;;;;;;;;;;;;x
+PROV1863;瓦盖;;;;;;;;;;;;x
+PROV1864;奥沙;;;;;;;;;;;;x
 PROV1865;Tui;;;;;;;;;;;;x
 PROV1866;Shish;;;;;;;;;;;;x
 PROV1867;别特帕克达拉;;;;;;;;;;;;x
@@ -15865,8 +15865,8 @@ PROV1878;谢列特捷尼兹;;;;;;;;;;;;x
 PROV1879;Qarazhyrya;;;;;;;;;;;;x
 PROV1881;Naupaktos;;;;;;;;;;;;x
 PROV1882;Serrae;;;;;;;;;;;;x
-PROV1883;Kastoria;;;;;;;;;;;;x
-PROV1884;Traianopolis;;;;;;;;;;;;x
+PROV1883;卡斯托里亚;;;;;;;;;;;;x
+PROV1884;图拉真波利斯;;;;;;;;;;;;x
 PROV1885;Maroneia;;;;;;;;;;;;x
 PROV1886;阿弗罗拉;;;;;;;;;;;;x
 PROV1887;Bitola;;;;;;;;;;;;x
@@ -17343,8 +17343,8 @@ EVTOPTAHF24207;Maybe I should focus my attention on Alexander's tomb.;;;;;;;;;;;
 EVTOPTBHF24207;We just need to look harder!;;;;;;;;;;;;x
 EVTOPTCHF24207;Enough, I give up!;;;;;;;;;;;;x
 EVTTITLEHF24208;亚历山大的后裔;;;;;;;;;;;;x
-EVTDESCAHF24208;After years of study, research and investment, I have finally achieved my goal and eternally bound my dynasty's name to one of the greatest conquerors of known history.\nLong after I am gone, people will look at my descendants in awe and tremble at the very thought of meeting them on the field of battle.\nWithin our veins flows the same strength that subjugated Egypt, the same genius that cracked Babylon, the same ambition that led one man to travel from the heart of civilization to the edge of the world.;;;;;;;;;;;;x
-EVTOPTAHF24208;Eternal glory awaits us!;;;;;;;;;;;;x
+EVTDESCAHF24208;经过数年的学习，研究和投资，最终我成功的达到了我的目标，将我的家族与人类历史上最伟大的征服者紧紧的联系在了一起。\n就算我百年之后，人们依然会以一种敬畏的姿态看待我的后代，尤其是在战场上遇见他们的时候。\n我们的血管里流淌着能够征服埃及的伟力，我们脑中继承着能够摧毁巴比伦的智慧，我们的野心驱使我们从文明的中心出发，一直走到世界的尽头。;;;;;;;;;;;;x
+EVTOPTAHF24208;永恒的荣耀在等着我！;;;;;;;;;;;;x
 EVTDESCAHF24209;Despite my best efforts, my peers have yet to recognize the legitimacy of my claim to Alexander's ancestry.\nEven worse, my own subjects have reacted with apathy and skepticism to the news about my dynasty's prestigious founder. My councilors believe that the people are simply too ignorant to understand the importance of my discovery, while my peers are merely envious of its implications.\nFor one reason or the other, my quest is not over yet. My claim will have no value for as long as it is not universally recognized.;;;;;;;;;;;;x
 EVTOPTAHF24209;We need more celebrations and exposure!;;;;;;;;;;;;x
 EVTOPTBHF24209;The voice of the [Root.GetTitle] of [Root.PrimaryTitle.GetName] will be heard!;;;;;;;;;;;;x
@@ -18739,9 +18739,9 @@ PROV1986;萨尔布吕肯;;;;;;;;;;;;x
 PROV1987;马尔堡;;;;;;;;;;;;x
 PROV1988;哈弗尔贝格;;;;;;;;;;;;x
 PROV1989;上艾瑟尔;;;;;;;;;;;;x
-PROV1990;Lough Neagh;;;;;;;;;;;;x
-PROV1991;Lough Erne;;;;;;;;;;;;x
-PROV1992;Lough Mask;;;;;;;;;;;;x
+PROV1990;内伊湖;;;;;;;;;;;;x
+PROV1991;厄恩湖;;;;;;;;;;;;x
+PROV1992;马斯克湖;;;;;;;;;;;;x
 b_concarneau;Concarneau;;;;;;;;;;;;x
 b_chateaulin;Chateaulin;;;;;;;;;;;;x
 b_douarnenez;Douarnenez;;;;;;;;;;;;x
