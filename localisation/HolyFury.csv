@@ -5361,14 +5361,14 @@ monastic_order_monophysite_desc;[GetSaintAnthonySocietyDesc];;;;;;;;;;;;x
 monastic_order_hindu_desc;[GetAdvaitaMathaSocietyDesc];;;;;;;;;;;;x
 monastic_order_buddhist_desc;[GetSavakaSanghaSocietyDesc];;;;;;;;;;;;x
 monastic_order_jain_desc;[GetSravakaSamghaSocietyDesc];;;;;;;;;;;;x
-monastic_order_dominican_desc_real;The Dominican Order are able to listen to the confessions of any Christian – dressed in white and black, they lead the holy inquisition, charged with a mission to identify heretics. As a lay member of their Order you are expected to not pursue material wealth, but strive to be a seeker of truth.;;;;;;;;;;;;x
+monastic_order_dominican_desc_real;道明会能够倾听任何基督徒的忏悔——身穿着黑白相间的修士服，他们领导着宗教裁判所，肩负着辨别异端的使命。作为他们修会的在俗会员，你不该再去追求物质的财富，而是要努力成为真理的探索者。;;;;;;;;;;;;x
 monastic_order_orthodox_desc_real;圣巴西略的追随者过着苦行的生活，他们在祈祷与工作寻找发展对象，通常以帮助他们的同胞的名义。教会的普通成员不需要过隐士的生活—相反，他们应该把注意力放在帮助结社的成员上。;;;;;;;;;;;;x
 monastic_order_nestorian_desc_real;The order of Abraham the Great follow the monastic rules set by Abraham of Kashkar. Members swear to observe to strict obedience and to spread the word of the three great Nestorian doctors, Nestorius, Diodore of Tarsus, and Theodore of Mopsuestia. Only the literate may join the order and strict celibacy is required. Study and proselytism are the corner pillars of the order and as a member you are expected to spread the Nestorian faith ever eastwards.;;;;;;;;;;;;x
 monastic_order_monophysite_desc_real;The Community of Saint Anthony follows the oldest of monastic rules, set originally by Saint Anthony of Egypt, Saint Paul of Thebes, Saint Macarius and Saint Pachomius. In the spirit of the Great Fathers of Egypt's deserts we value simplicity, submission and humility. It is the duty of Miaphysite monks to work to spread the word of Christ, building on the oldest Christian monastic tradition in the world.;;;;;;;;;;;;x
 monastic_order_hindu_desc_real;The Monks of the Hindu Mathas aim to be an integrative and supporting force in society. Monks can seek to achieve spiritual enlightenment through meditation and scriptural studies or through charity and participating in the local economy. The Mathas are honored and often patronized by the rulers of India.;;;;;;;;;;;;x
 monastic_order_buddhist_desc_real;佛教寺院的成员们希望遵循一套严格的规则，目的是通过简朴冥想的生活来达到涅槃。比丘们誓言放弃除生存必须外的全部物质财产，只依靠他人的施舍生活。;;;;;;;;;;;;x
 monastic_order_jain_desc_real;耆那教僧侣发誓遵守一些誓言、规章、基本职责和禁忌。他们弃绝所有的个人财产，寻求净化和自我实现。;;;;;;;;;;;;x
-monastic_order_dominican_desc_random;多明我会能够倾听任何[christian.GetGroupName]的忏悔——身穿着黑白相间的修士服，他们领导着宗教裁判所，肩负着辨别异端的使命。作为他们教派的在俗会员，你不该再去追求物质的财富，而是要努力成为真理的探索者。;;;;;;;;;;;;x
+monastic_order_dominican_desc_random;宗教裁判者们能够倾听任何[christian.GetGroupName]的忏悔——身穿着黑白相间的修士服，他们领导着宗教裁判所，肩负着辨别异端的使命。作为他们修会的在俗会员，你不该再去追求物质的财富，而是要努力成为真理的探索者。;;;;;;;;;;;;x
 monastic_order_orthodox_desc_random;The Faithful Ones lead an ascetic life, finding purpose in prayer as well as work, often in the name of aiding their fellow men and women. A lay member of the Order is not required to take on the life of a hermit – instead focus should be placed on helping the members of your community.;;;;;;;;;;;;x
 monastic_order_nestorian_desc_random;The Devout Worshipers follow the monastic rules set by the hallowed martyr. Members swear to observe to strict obedience and to spread the word of the three great [nestorian.GetName] doctors. Only the literate may join the order and strict celibacy is required. Study and proselytism are the corner pillars of the order and as a member you are expected to spread the [nestorian.GetName] faith.;;;;;;;;;;;;x
 monastic_order_monophysite_desc_random;The Pious Following follows the oldest of monastic rules, set originally by the hallowed martyr. In the spirit of the deserts we value simplicity, submission and humility. It is the duty of [miaphysite.GetName] monks to work to spread the word, building on the oldest [christian.GetName] monastic tradition in the world.;;;;;;;;;;;;x
@@ -10604,7 +10604,7 @@ EVTDESCHF10513;致敬，[Root.GetSocietyRank]！\n\n[my_war_target_holder.GetTit
 EVTDESCHF10513_B;致敬，[Root.GetSocietyRank]！\n\n我得承认，我一直在想您何时才会说出对侵略我的土地的真实意图。事实上，请允许我向您发起正式的挑战：倘若你妄想[my_war_target.PrimaryTitle.GetName]，尽管来拿吧！\n\n此致，[From.GetTitledFirstName];;;;;;;;;;;;x
 EVTDESC_HF_10503_war;My mission to wage war against §Y[defender_target.GetTitledName]§! is no longer applicable. [Root.Society.GetNameCap] will find something else for me to do.;;;;;;;;;;;;x
 EVTDESC_HF_10514_won;致敬，[Root.GetSocietyRank]！\n\n祝贺你成功征服了一片新土地！今夜，我们都举杯庆贺你的荣耀，为了[Root.GetTitledName]干杯！\n\n此致，[lodge_hero.GetTitledFirstName];;;;;;;;;;;;x
-EVTDESC_HF_10514_white_peace;致敬，[Root.GetSocietyRank]！\n\n你在[Root.Society.GetName]的同社成员已经接到消息说你未能完全取得对争议领地的控制权，但那并不是因为缺乏尝试。希望[Root.GetWarriorLodgeSymbol]未来能带给你更多好运。\n\n此致，[lodge_hero.GetTitledFirstName];;;;;;;;;;;;x
+EVTDESC_HF_10514_white_peace;致敬，[Root.GetSocietyRank]！\n\n你在[Root.Society.GetName]的同道已经接到消息说你未能完全取得对争议领地的控制权，但那并不是由于努力不够造成的。希望[Root.GetWarriorLodgeSymbol]未来能带给你更多好运。\n\n此致，[lodge_hero.GetTitledFirstName];;;;;;;;;;;;x
 EVTDESC_HF_10514_lost;致敬，[Root.GetSocietyRank]！\n\n每一场战斗都是一位良师。我们倒下的兄弟姐妹都会在今夜与[Root.Religion.GetHighGodName]共同进餐，希望你从中得到慰藉并且有朝一日为这次惨痛的失败复仇。\n\n此致，[lodge_hero.GetTitledFirstName];;;;;;;;;;;;x
 EVTOPTA_HF_10514_won;为了[Root.Society.GetName]！;;;;;;;;;;;;x
 EVTOPTA_HF_10514_white_peace;我将信靠[Root.GetWarriorLodgeSymbol]。;;;;;;;;;;;;x
@@ -14752,7 +14752,7 @@ pure_murder_bloodline_03_desc;作为一个冷酷无情的杀手，[This.GetFirst
 pure_murder_bloodline_04;[This.GetTitledFirstName]的邪念之血;;;;;;;;;;;;x
 pure_murder_bloodline_04_desc;[This.GetTitledFirstName]因为他肆无忌惮的虐杀而臭名昭著，他永远寻找着下一个要折磨的受害人。;;;;;;;;;;;;x
 pure_war_bloodline_01;[This.GetTitledFirstName]的勇士之血;;;;;;;;;;;;x
-pure_war_bloodline_01_desc;在[This.GetFirstName]还未成年的时候，[Root.GetHerHim]就已经通过取得数场胜利的战争证明了其堪称在[Root.GetHerHis]年龄最伟大的战略家。;;;;;;;;;;;;x
+pure_war_bloodline_01_desc;在[This.GetFirstName]还未成年的时候，就通过数场胜利证明了自己是[Root.GetHerHis]时代最伟大的战略家之一。;;;;;;;;;;;;x
 pure_war_bloodline_02;[This.GetTitledFirstName]的勇士之血;;;;;;;;;;;;x
 pure_war_bloodline_02_desc;作为骑士精神的楷模，[This.GetFirstName]被数不清的歌谣和传说传颂，成为英勇战胜邪恶的勇士的顶峰。;;;;;;;;;;;;x
 pure_war_bloodline_03;[This.GetTitledFirstName]的血脉;;;;;;;;;;;;x
