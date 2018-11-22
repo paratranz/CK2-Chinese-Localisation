@@ -1455,7 +1455,7 @@ BM_RISE_OF_THE_HANSA_DESC;德意志北部的帝国自由市吕贝克和汉堡的
 REGIMENT_OF_LEADER;$LEADER$的兵团;;;;;;;;;;;;x
 TITLE_ADJ_REGIMENT;$ADJ$兵团;;;;;;;;;;;;x
 catholic_DESC;天主教是基督教最古老的分支之一，其对欧洲历史的影响最大。该宗教的正式首领是罗马主教——教宗。;;;;;;;;;;;;x
-waldensian_DESC;瓦勒度派异端原本只是天主教会中的一股改革浪潮，他们反对教权，提倡回归安贫的誓言。他们反对死刑，认为普通教徒也能管理圣礼。这个异端没有正式的领袖和专门对应的的游戏机制。;;;;;;;;;;;;x
+waldensian_DESC;瓦勒度派异端原本只是天主教会中的一股改革浪潮，他们反对教权，提倡回归安贫的誓言。他们反对死刑，认为普通教徒也能施行圣事。这个异端没有正式的领袖和专门对应的的游戏机制。;;;;;;;;;;;;x
 lollard_DESC;罗拉德派异端反对天主教会的腐败。和许多天主教异端一样，他们憎恨生活奢华、拥有大量财富的教职人员，希望回归更原始更纯粹的基督教。这个异端没有正式的领袖和专门对应的的游戏机制。;;;;;;;;;;;;x
 orthodox_DESC;正教会是另外一个参加迦克墩会议的基督教主要分支，直到公元1054年还在形式上和天主教会合为一体。虽然两者政治上的分歧可以追溯到公元800年查理曼被教宗利奥三世加冕为罗马人的皇帝，这引起了君士坦丁堡的皇帝的不满。正教会的名义首领是君士坦丁堡普世牧首，但是他不干涉其他牧首的事务。;;;;;;;;;;;;x
 miaphysite_DESC;基督合性派包括科普特教会和亚美尼亚使徒教会。合性论强调基督只有一个性质，但又同时具有人性与神性。这种观点使他们在公元451年的迦克敦会议后与主流基督教派分道扬镳。虽然正教会和天主教基督徒没有认为它是完全的异端，但仍有很大分歧。合性论教会名义上的首领是亚历山大教宗。;;;;;;;;;;;;x
@@ -1609,16 +1609,16 @@ opinion_mutual_respect;不情愿的共识;;;;;;;;;;;;x
 GREAT_HOLY_WAR;大圣战;;;;;;;;;;;;x
 roman;罗马人;;;;;;;;;;;;x
 maghreb_arabic;柏柏尔人;;;;;;;;;;;;x
-EVTDESC39600;[From.GetTitledFirstName]，一个服侍[From.Liege.GetTitledName]的牧师，来到了[From.Location.GetName]传播他们的外国宗教。他毫不尊重我们的信仰，并宣称其罪孽深重，他还解释道除非我们改变信仰否则死后会遭受无穷的苦难。;;;;;;;;;;;;x
+EVTDESC39600;[From.GetTitledFirstName]，一个服侍[From.Liege.GetTitledName]的传教士，来到了[From.Location.GetName]传播他们的外国宗教。他毫不尊重我们的信仰，并宣称其罪孽深重，他还解释道除非我们改变信仰否则死后会遭受无穷的苦难。;;;;;;;;;;;;x
 EVTOPTA39600;今生也是会遭受苦难的，我的朋友……;;;;;;;;;;;;x
 EVTOPTB39600;多告诉我们一点[From.Religion.GetRandomGodName]的事。;;;;;;;;;;;;x
 EVTDESC39601;[From.GetTitledFirstName]继续在[From.Location.GetName]传教，他似乎拥有一大批簇拥者。在听完他布道后，你不得不承认这个新信仰有一些优点……;;;;;;;;;;;;x
 EVTOPTA39601;是时候接纳[From.Religion.GetRandomGodName]了。;;;;;;;;;;;;x
-EVTOPTB39601;不，现在的信仰是最好的！流放这个牧师！;;;;;;;;;;;;x
+EVTOPTB39601;不，现在的信仰是最好的！流放这个传教士！;;;;;;;;;;;;x
 EVTDESC39602;因为[FromFrom.GetTitledFirstName]的布道，[From.GetTitledFirstName]的信仰动摇了。听完[FromFrom.GetTitle]的布道后，[From.GetFirstName]彻底抛弃了旧信仰，现在只为[FromFrom.Religion.GetRandomGodName]祈祷。;;;;;;;;;;;;x
 EVTOPTA39602;那个传教士不能再继续荼毒这里了！;;;;;;;;;;;;x
 EVTOPTB39602;各人有各自的信仰。;;;;;;;;;;;;x
-EVTDESC39603;你看到[From.GetTitledFirstName]和[FromFrom.GetTitledFirstName]像孩子一样在地上互相打滚尖叫。看来这两个牧师有点分歧。看到你来了，他们停了下来并要求把对方驱逐。;;;;;;;;;;;;x
+EVTDESC39603;你看到[From.GetTitledFirstName]和[FromFrom.GetTitledFirstName]像孩子一样在地上互相打滚尖叫。看来这两个传教士有点分歧。看到你来了，他们停了下来并要求把对方驱逐。;;;;;;;;;;;;x
 EVTOPTA39603;支持[From.GetFirstName]。流放[FromFrom.GetFirstName]。;;;;;;;;;;;;x
 EVTOPTB39603;支持[FromFrom.GetFirstName]。流放[From.GetFirstName]。;;;;;;;;;;;;x
 EVTOPTC39603;我不想卷入这场小矛盾。;;;;;;;;;;;;x
@@ -1632,7 +1632,7 @@ EVTDESC39607;我的领主，有个坏消息。虽然我努力使[FromFrom.GetTit
 EVTOPTA39607;很遗憾。;;;;;;;;;;;;x
 EVTDESC39608;你收到消息说[From.GetTitledFirstName]被[FromFrom.GetTitledFirstName]囚禁了。看起来[FromFrom.GetTitle]觉得受到了冒犯，因为你的[Root.GetLordSpiritualName]在转化[FromFrom.GetHerHis]异教徒廷臣。;;;;;;;;;;;;x
 EVTOPTA39608;那个傻瓜应该充满感激！;;;;;;;;;;;;x
-EVTDESC39609;我的领主，那个卑鄙的野蛮人[FromFrom.GetTitledFirstName]把我从[FromFrom.GetHerHis]土地驱逐了！我和传播别的信仰的牧师发生了点小争吵，[FromFrom.GetFirstName]愚蠢地站在他那边。\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESC39609;我的领主，那个卑鄙的野蛮人[FromFrom.GetTitledFirstName]把我从[FromFrom.GetHerHis]土地驱逐了！我和传播别的信仰的传教士发生了点小争吵，[FromFrom.GetFirstName]愚蠢地站在他那边。\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA39609;[FromFrom.GetHerHim]会付出代价！;;;;;;;;;;;;x
 opinion_imprisoned_missionary;被囚禁的传教士;;;;;;;;;;;;x
 opinion_allowed_missionary;允许传教;;;;;;;;;;;;x
@@ -1642,8 +1642,8 @@ preacher_imprisoned;你把这个传教士关进了地牢。;;;;;;;;;;;;x
 preacher_allowed;你允许这个传教士继续传教。;;;;;;;;;;;;x
 preacher_banished;你把这个传教士从你的领地驱逐了。;;;;;;;;;;;;x
 preacher_convert;你和你最亲密的家人转变了信仰，一个新的宗教顾问来到了你的宫廷。;;;;;;;;;;;;x
-opinion_did_not_support_preacher;反对我的牧师;;;;;;;;;;;;x
-opinion_supported_preacher;赞成我的牧师;;;;;;;;;;;;x
+opinion_did_not_support_preacher;反对我的教士;;;;;;;;;;;;x
+opinion_supported_preacher;赞成我的教士;;;;;;;;;;;;x
 RELIGIOUS_TITLE_CREATION;创建$TITLE$;;;;;;;;;;;;x
 EVTDESC39650;你来到了[Root.Location.GetName]给民众带来真正的信仰。;;;;;;;;;;;;x
 EVTOPTA39650;皈依[Root.Religion.GetRandomGodName]吧，别太晚了异教徒！;;;;;;;;;;;;x
@@ -1655,7 +1655,7 @@ EVTOPTA39652;赞美[Root.Religion.GetRandomGodName]！;;;;;;;;;;;;x
 EVTDESC39653;你跟另一个到[Root.Location.GetName]传播他的信仰的神职人员打了起来！;;;;;;;;;;;;x
 EVTOPTA39653;别打脸！;;;;;;;;;;;;x
 EVTNAME_TOG_6000;救世主;;;;;;;;;;;;x
-EVTDESC_TOG_6000;自从萨珊帝国在阿拉伯的入侵灭亡后，波斯被穆斯林统治者戴上了镣铐。残余的祆教信徒撤退到了中亚的平原，但现在祆教的统治者终于夺回了波斯。\n\n这个奇迹归功于你明智的领导，许多牧师声称你是萨奥希扬特——祆教传说中的救世主。认可了这一身份后，你在琐罗亚斯德教的四处都备受崇敬。;;;;;;;;;;;;x
+EVTDESC_TOG_6000;自从萨珊帝国在阿拉伯的入侵灭亡后，波斯被穆斯林统治者戴上了镣铐。残余的祆教信徒撤退到了中亚的平原，但现在祆教的统治者终于夺回了波斯。\n\n这个奇迹归功于你明智的领导，许多神职人员声称你是萨奥希扬特——祆教传说中的救世主。认可了这一身份后，你在琐罗亚斯德教的四处都备受崇敬。;;;;;;;;;;;;x
 EVTOPTA_TOG_6000;我将造福人间。;;;;;;;;;;;;x
 nick_the_saoshyant;萨奥斯亚特;;;;;;;;;;;;x
 saoshyant;萨奥希扬特;;;;;;;;;;;;x
