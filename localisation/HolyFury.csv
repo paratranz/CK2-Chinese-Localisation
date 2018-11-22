@@ -44,7 +44,7 @@ warrior_lodge_choose_military_aspect;选择一个军事发展方向;;;;;;;;;;;;x
 warrior_lodge_choose_military_aspect_desc;选择专注于三种军事发展方向之一。这样做可以让你选择一种生活方式特质。;;;;;;;;;;;;x
 warrior_lodge_choose_military_aspect_power_desc;允许在你的角色头像上§G右键点击§!以选择三种不同的军事专长之一。;;;;;;;;;;;;x
 EVTDESC_HFP_10101_default;「一切都结束了！」我喊道，[combatant_2.GetTitledFirstName]晕眩着往后退，紧紧捂着[combatant_2.GetHerHis]肚子上清晰可见的致命伤。我转身面对人群。「投降！否则——」我的话只说了一半，血腥味就充满了我的口腔。我的对手扔下[combatant_2.GetHerHis]沾满鲜血的[combatant_2.GetDuelWeapon]，咕哝道：「现在——一切都结束了」。;;;;;;;;;;;;x
-EVTDESC_HFP_10101_clumsy;武器已经举起，我向[combatant_2.GetTitledFirstName]发起了冲锋，但是被什么东西绊倒了。我在对手面前就这样摔倒了，他一脸难以置信的看着我，因为我竟然自己凑到[combatant_2.GetHerHis]武器上去。我现在已经无计可施，所以用双手紧紧缠住[combatant_2.GetManWoman]的脖子，[combatant_2.GetHerHis]眼睛里瞬间被恐惧填满。;;;;;;;;;;;;x
+EVTDESC_HFP_10101_clumsy;武器已经举起，我向[combatant_2.GetTitledFirstName]发起了冲锋，但是被什么东西绊倒了！拼命挥动手臂，我还是摔倒在对手身上，他一脸难以置信的看着我自己被[combatant_2.GetHerHis]武器穿透。我现在已经无计可施，所以用双手紧紧缠住这个[combatant_2.GetManWoman]的脖子，[combatant_2.GetHerHis]双眼被恐惧填满。;;;;;;;;;;;;x
 EVTDESC_HFP_10101_elegant;我举起我的[combatant_1.GetDuelWeapon]向[combatant_2.GetTitledFirstName]发起了冲锋。我的对手轻松地模仿我的步伐，旁边的围观者已经在对着这场优雅的决斗窃窃私语，不，这已经变成一场舞蹈了。到最后，我已经承受不住身体里巨大的伤痛，直挺挺的倒在了地上，[combatant_2.GetTitledFirstName]那双恐怖的眼睛直勾勾的盯着我的后背。;;;;;;;;;;;;x
 EVTOPTA_HFP_10101_default;不……你都干了些什么……？！;;;;;;;;;;;;x
 EVTOPTA_HFP_10101_clumsy;我……我拒绝……就这样孤单的死去……！;;;;;;;;;;;;x
@@ -79,7 +79,7 @@ EVTOPTA_HFP_10106_mock_duel;你赢了，[other_combatant.GetFirstName]。;;;;;;;
 EVTDESC_HFP_10112_default;有时候，当我在看我的士兵们在校场上操练剑术时，[other_combatant.GetTitledFirstName]的脸会突然在我眼前重现，接着是我们的那场决斗。这一切都让我的心跳加快————当时我没有成功的捍卫我的荣耀。虽然已经过去很久了，但是这种羞耻的感觉伴我至今。;;;;;;;;;;;;x
 EVTOPTA_HFP_10112;终有一天，我要让[other_combatant.GetHerHim]为此付出代价。;;;;;;;;;;;;x
 EVTOPTB_HFP_10112;这些感受会过去的。;;;;;;;;;;;;x
-EVTOPTA_HFP_10115;有一个这样旗鼓相当的对手实乃三生有幸！;;;;;;;;;;;;x
+EVTOPTA_HFP_10115;承认对手比自己强并不丢人！;;;;;;;;;;;;x
 EVTOPTB_HFP_10115;我才不会忍受这些嘲弄。;;;;;;;;;;;;x
 EVTDESC_HFP_10116;最近我发现自己与[From.GetTitledFirstName]建立了友好的关系。然而，当我试图称赞[From.GetManWoman][From.GetHerHis]决斗技巧时，[From.GetSheHeCap]却轻声地笑了。「我的[Root.GetLordLady]，我们都知道我做得可不够好，上次我们对练过」，[From.GetSheHe]说到;;;;;;;;;;;;x
 EVTOPTA_HFP_10116_honest;诚实？这可真是新鲜了;;;;;;;;;;;;x
@@ -2315,7 +2315,7 @@ tireless_worker;工作狂;;;;;;;;;;;;x
 tireless_worker_desc;这个角色工作勤奋，所以[Root.GetSheHe]没什么时间吃饭睡觉。;;;;;;;;;;;;x
 TT_NOT_OTHERWISE_OCCUPIED;is NOT otherwise occupied;;;;;;;;;;;;x
 opinion_swayed_0;Swayed;;;;;;;;;;;;x
-opinion_swayed_1;Softened;;;;;;;;;;;;x
+opinion_swayed_1;态度软化;;;;;;;;;;;;x
 opinion_swayed_2;Touched;;;;;;;;;;;;x
 opinion_swayed_3;Good Acquaintance;;;;;;;;;;;;x
 tooltip_HFP20424_A;纠正§Y[From.GetFirstName]§!的饮食习惯，希望她能听进去。;;;;;;;;;;;;x
@@ -2391,12 +2391,12 @@ emptied_library;图书馆空虚;;;;;;;;;;;;x
 emptied_library_desc;这个角色的私人图书馆失去了一些重要书籍。这个角色需要一段时间才能获得它们的抄本。;;;;;;;;;;;;x
 EVTDESCHFP21003;[From.GetTitledFirstName] is far beyond my reach. I should stop attempting to sway [From.GetHerHim] to my cause.;;;;;;;;;;;;x
 EVTOPTAHFP21003;It would just be a waste of time.;;;;;;;;;;;;x
-tooltip_21003_A;Stop §YSwaying§! §Y[From.GetTitledFirstName]§!.;;;;;;;;;;;;x
+tooltip_21003_A;停止§Y拉拢§!§Y[From.GetTitledFirstName]§!。;;;;;;;;;;;;x
 EVTDESCHFP21005;[From.GetTitledFirstName] is rotting in a dungeon. I doubt I can do much to improve [From.GetHerHis] opinion of me right now.;;;;;;;;;;;;x
 EVTOPTAHFP21005;I could set [From.GetHerHim] free...;;;;;;;;;;;;x
 tooltip_21005_A;Free §Y[From.GetTitledFirstName]§! from your dungeon.;;;;;;;;;;;;x
 EVTOPTBHFP21005;毫无继续下去的必要了。;;;;;;;;;;;;x
-tooltip_21005_B;Stop §YSwaying§! §Y[From.GetTitledFirstName]§!.;;;;;;;;;;;;x
+tooltip_21005_B;停止§Y拉拢§!§Y[From.GetTitledFirstName]§!。;;;;;;;;;;;;x
 EVTOPTCHFP21005;[From.GetSheHeCap] might be freed soon...;;;;;;;;;;;;x
 tooltip_21005_C;Wait for §Y[From.GetTitledFirstName]§! to be free once more before attempting to §YSway§! [From.GetHerHim] again.;;;;;;;;;;;;x
 EVTDESCHFP21006;[From.GetTitledFirstName] decided to set me free, excusing [From.GetHerselfHimself] for ever keeping me in such poor conditions in the first place.;;;;;;;;;;;;x
@@ -2407,12 +2407,12 @@ EVTDESCHFP21010;[From.GetTitledFirstName] is already very fond of me. Perhaps I 
 EVTOPTAHFP21010;Yes, it is time to move my attention elsewhere.;;;;;;;;;;;;x
 EVTOPTBHFP21010;不，我还是想要维持和[From.GetFirstName]的友谊。;;;;;;;;;;;;x
 tooltip_21003_B;Continue to §YSway§! §Y[From.GetTitledFirstName]§!.;;;;;;;;;;;;x
-EVTDESCHFP21012;Maybe I should write a letter to [From.GetTitledFirstName] to try convince [From.GetHerHim] of my good intentions...;;;;;;;;;;;;x
+EVTDESCHFP21012;或者我应该给[From.GetTitledFirstName]写封信来告诉[From.GetHerHim]我对他的好意……;;;;;;;;;;;;x
 EVTOPTAHFP21012;我们之间的友谊让我们的王国也因此受益。;;;;;;;;;;;;x
 tooltip_21012_A;Write a highly detailed letter explaining the advantages of maintaining stronger and more amiable relations between your realm and §Y[From.GetTitledFirstName]'s§!.;;;;;;;;;;;;x
 EVTOPTBHFP21012;我要用我的书法艺术来吸引[From.GetHerHim]。;;;;;;;;;;;;x
 tooltip_21012_B;用你那丰富的文学知识去给§Y[From.GetTitledFirstName]§!写封非常拍马屁的信。;;;;;;;;;;;;x
-EVTOPTCHFP21012;给[From.GetSheHe]写封直白的信就够了！;;;;;;;;;;;;x
+EVTOPTCHFP21012;我得给[From.GetSheHe]写封直截了当的信！;;;;;;;;;;;;x
 tooltip_21012_C;给§Y[From.GetTitledFirstName]§!寄一封简短的信。;;;;;;;;;;;;x
 EVTOPTDHFP21012;这不是个好主意。;;;;;;;;;;;;x
 EVTDESCAHFP21013;我收到一封来自于[From.GetTitledFirstName]的信。在这封信里面，[From.GetSheHe]用真诚而又理性的形式论述了如果我们之间保持一个良好的关系，我们将会获得很多好处。;;;;;;;;;;;;x
@@ -3167,16 +3167,16 @@ opinion_antagonized_2;Angered;;;;;;;;;;;;x
 opinion_antagonized_3;Indignant;;;;;;;;;;;;x
 EVTDESCHFP21098;现在也许是邀请[From.GetTitledFirstName]与我共度些许时光了。这可能是使我获得[From.GetHerHis]信任的最好方式。;;;;;;;;;;;;x
 EVTOPTAHFP21098;我会询问[From.GetHerHim]。;;;;;;;;;;;;x
-tooltip_21098_A;Invite §Y[From.GetTitledFirstName]§! to come to your [Root.GetHouse] to spend some time with you, hoping it will §YSway§! [From.GetHerHim] to your cause.;;;;;;;;;;;;x
+tooltip_21098_A;邀请§Y[From.GetTitledFirstName]§!去你的[Root.GetHouse]花点时间待一会儿，希望这能够§Y拉拢§![From.GetHerHim]到你的事业中去。;;;;;;;;;;;;x
 EVTOPTBHFP21098;时机不对。;;;;;;;;;;;;x
 EVTDESCHFP21099;[From.GetTitledFirstName] has been very insistent about spending some time with me recently. [From.GetSheHeCap] hopes that we will be on better term if only we take a few days to know each other better.;;;;;;;;;;;;x
 EVTOPTAHFP21099;Sounds like a marvelous idea!;;;;;;;;;;;;x
 tooltip_21099_A;Spend a week with §Y[From.GetTitledFirstName]§!.;;;;;;;;;;;;x
 EVTOPTBHFP21099;我没时间做这件事。;;;;;;;;;;;;x
 tooltip_21099_B;Politely decline §Y[From.GetTitledFirstName]'s§! invitation.;;;;;;;;;;;;x
-EVTDESCHFP21100;[From.GetFirstName] was happy to oblige me. Now that I have some time to spend with [From.GetHerHim], I am confident that I can convince [From.GetHerHim] of how alike we are and that [From.GetSheHe] stands only to gain from our friendship.;;;;;;;;;;;;x
+EVTDESCHFP21100;[From.GetFirstName]很乐意和我呆在一起。现在我终于能和[From.GetHerHim]聊会儿天了，我很自信我能说服[From.GetHerHim]我们其实在很多地方都很相像，并且[From.GetSheHe]能从我们的友谊中获益。;;;;;;;;;;;;x
 EVTOPTAHFP21100;我们终于可以私下聊聊了！;;;;;;;;;;;;x
-tooltip_21100_A;Spend a few days with §Y[From.GetTitledFirstName]§! trying to convince your guest of your good intentions.;;;;;;;;;;;;x
+tooltip_21100_A;花上几天和§Y[From.GetTitledFirstName]§!聊聊，试图向他说明你的好意。;;;;;;;;;;;;x
 EVTDESCHFP21101;Unfortunately [From.GetTitledFirstName] was not interested in my proposal and politely declined my invitation to spend some time with me at my [Root.GetHouse].;;;;;;;;;;;;x
 EVTOPTAHFP21101;真扫兴。;;;;;;;;;;;;x
 EVTDESCAHFP21102;I am no stranger to [From.GetTitledFirstName]'s [From.GetHouse], but spending such a long period of time with my [GetFromRelation] is not something I am accustomed to.;;;;;;;;;;;;x
@@ -3189,7 +3189,7 @@ EVTDESCHFPD21104;[sway_target.GetTitledFirstName] and I spent countless hours tr
 EVTDESCHFPE21104;After a week of mingling, I have managed to introduce [sway_target.GetTitledFirstName] to every notable person at court. Each night we feasted together in the main hall, talking about the latest news and listening to the newest songs.;;;;;;;;;;;;x
 EVTDESCHFPF21104;I took the opportunity of [sway_target.GetFirstName]'s visit to show [sway_target.GetHerHim] my private study and some of my experiments. For hours I described [sway_target.GetHerHim] the fruits of my many years of labor, hoping to catch [sway_target.GetHerHis] attention.;;;;;;;;;;;;x
 EVTDESCHFPG21104;Having the opportunity to spend a few days with [sway_target.GetFirstName] allowed me to show [sway_target.GetHerHim] all the wondrous books I have gathered in my library. We have spent countless hours reading through ancient texts and talking about the most intriguing subjects.;;;;;;;;;;;;x
-EVTDESCHFPH21104;I think these days have really helped me getting [sway_target.GetFirstName] to know and appreciate me better. We have passed most of our time in my [Root.GetHouse], discussing of the most disparate topics.;;;;;;;;;;;;x
+EVTDESCHFPH21104;这几天的时光真的对我们帮助很大，[sway_target.GetFirstName]慢慢的开始了解我并欣赏我。我们大多数时间都呆在[Root.GetHouse]里，对不同的话题发表看法，畅所欲言。;;;;;;;;;;;;x
 EVTDESCHFPI21104;I have brought [sway_target.GetFirstName] to one of my famous, great hunts for the duration of [sway_target.GetHerHis] visit, hoping to impress my guest by sharing some of my experience with [sway_target.GetHerHim].;;;;;;;;;;;;x
 EVTDESCHFPII21104;I organized the visit to my aviary to be the climatic moment of [sway_target.GetFirstName]'s visit at my [Root.GetHouse]. I showed [sway_target.GetHerHim] some of my more impressive and prized hawks and even taught [sway_target.GetHerHim] a few tricks about falconry, hoping it would help me gain the trust of my guest.;;;;;;;;;;;;x
 EVTDESCHFPL21104;[sway_target.GetFirstName] and I spent most of our afternoons in [Root.Capital.GetName] walking through my beautiful garden. We talked of the most disparate subjects while exploring the little corner of paradise I have carefully crafted during my years of botanical care.;;;;;;;;;;;;x
@@ -3205,7 +3205,7 @@ EVTOPTCHFP21104_LUNATIC;I was honored to host an Ambassador from the Moon-King.;
 EVTOPTDHFP21104_POSSESSED;When Judgment comes, I promise I will not eat your soul.;;;;;;;;;;;;x
 EVTOPTEHFP21104_FAIR;It is rare to have such a charming host as myself.;;;;;;;;;;;;x
 EVTOPTFHFP21104_CHASTE;I just hope nobody thinks worse of you for your visit...;;;;;;;;;;;;x
-EVTOPTGHFP21104_TEMPERATE;I hope you enjoyed our frugal dinners.;;;;;;;;;;;;x
+EVTOPTGHFP21104_TEMPERATE;我希望你能享受这顿简餐。;;;;;;;;;;;;x
 EVTOPTHHFP21104_CHARITABLE;Please, allow me to give you something before leaving!;;;;;;;;;;;;x
 EVTOPTIHFP21104_DILIGENT;I hope I haven't taken you away from any important work.;;;;;;;;;;;;x
 EVTOPTLHFP21104_PATIENT;I was glad to host you.;;;;;;;;;;;;x
@@ -3222,7 +3222,7 @@ EVTOPTQHFP21104_AMBITIOUS;Planning your visit filled me with purpose.;;;;;;;;;;;
 EVTOPTQHFP21104_ARBITRARY;Surely you appreciated having such a liberal host...;;;;;;;;;;;;x
 EVTOPTQHFP21104_BRAVE;Only a few words need be exchanged between honorable rulers.;;;;;;;;;;;;x
 EVTOPTQHFP21104_CONTENT;I was happy to have you here.;;;;;;;;;;;;x
-EVTOPTQHFP21104_CRAVEN;I hope you felt safe enough in [Root.Capital.GetName].;;;;;;;;;;;;x
+EVTOPTQHFP21104_CRAVEN;我希望你在[Root.Capital.GetName]里还算待得舒心。;;;;;;;;;;;;x
 EVTOPTQHFP21104_CRUEL;I am sure you enjoyed the visit to my torture chamber.;;;;;;;;;;;;x
 EVTOPTQHFP21104_CYNICAL;Hopefully you enjoyed being far from preachers for once.;;;;;;;;;;;;x
 EVTOPTQHFP21104_DECEITFUL;I wonder if [From.GetSheHe] knows my true intentions...;;;;;;;;;;;;x
@@ -3235,7 +3235,7 @@ EVTOPTQHFP21104_SHY;...;;;;;;;;;;;;x
 EVTOPTQHFP21104_STUBBORN;And one last thing!;;;;;;;;;;;;x
 EVTOPTQHFP21104_TRUSTING;You really look like a trustworthy [From.GetTitle].;;;;;;;;;;;;x
 EVTOPTQHFP21104_ZEALOUS;I have truly been a model [Root.Religion.GetName] host.;;;;;;;;;;;;x
-EVTOPTZHFP21104_A;I hope you liked your time here.;;;;;;;;;;;;x
+EVTOPTZHFP21104_A;我希望你在这待得还算开心。;;;;;;;;;;;;x
 EVTDESCHFP21105;[Root.GetSwayVisitIntro] [Root.GetSwayVisitOutro];;;;;;;;;;;;x
 string_appease_visit_relative;My [GetFromRelation] was a very kind host, spending most of these past days trying to catch up with what has happened in my life in the past few years.;;;;;;;;;;;;x
 string_appease_visit_religion;[From.GetFirstName] and I found ourselves talking about religion for a surprising number of times during my stay, in the most respectable terms.;;;;;;;;;;;;x
@@ -3309,9 +3309,9 @@ EVTDESCHFP21123;[From.GetTitledFirstName] and I have grown too far apart. It is 
 EVTOPTAHFP21123;我应该不再尝试了。;;;;;;;;;;;;x
 tooltip_21123_A;Stop attempting to §YSway§! §Y[From.GetTitledFirstName]§! to your cause.;;;;;;;;;;;;x
 start_sway;Sway [Root.GetTitledFirstName];;;;;;;;;;;;x
-stop_sway;Stop Swaying [Root.GetTitledFirstName];;;;;;;;;;;;x
-start_antagonize;Antagonize [Root.GetTitledFirstName];;;;;;;;;;;;x
-stop_antagonize;Stop Antagonizing [Root.GetTitledFirstName];;;;;;;;;;;;x
+stop_sway;停止拉拢[Root.GetTitledFirstName];;;;;;;;;;;;x
+start_antagonize;对抗[Root.GetTitledFirstName];;;;;;;;;;;;x
+stop_antagonize;停止对抗[Root.GetTitledFirstName];;;;;;;;;;;;x
 EVTDESCAHFP21124_CHASTE;Talking so much with a chaste person such as [From.GetTitledFirstName] has started to make me question if I should put a stop to my libertine ways...;;;;;;;;;;;;x
 EVTDESCAHFP21124_TEMPERATE;Being forced to [From.GetTitledFirstName]'s frugal meals was a little unbearable at first, but now that I am back home I wonder if it wouldn't be best for my health to adopt [From.GetHerHis] diet...;;;;;;;;;;;;x
 EVTDESCAHFP21124_CHARITABLE;I was truly struck by [From.GetTitledFirstName]'s generosity during my visit, and by the joy and prestige it brought [From.GetHerHim]. Perhaps I should endeavor to be more charitable myself...;;;;;;;;;;;;x
@@ -3462,29 +3462,29 @@ EVTOPTBHFP20699;他看起来并不好笑……;;;;;;;;;;;;x
 opinion_amused;Amused Me;;;;;;;;;;;;x
 EVTDESCHF22003;[From.GetTitledFirstName] is well beyond my reach. There is no point in trying to antagonize [From.GetHerHim] anymore.;;;;;;;;;;;;x
 EVTOPTAHF22003;Does [From.GetSheHe] still think of me, I wonder?;;;;;;;;;;;;x
-tooltip_22003_A;Stop attempting to §YAntagonize [From.GetTitledFirstName]§!.;;;;;;;;;;;;x
+tooltip_22003_A;停止你§Y对抗[From.GetTitledFirstName]§!的尝试。;;;;;;;;;;;;x
 EVTDESCHF22005;With [From.GetTitledFirstName] already rotting in a dungeon, there is not much more I can do to harass [From.GetHerHim].;;;;;;;;;;;;x
 EVTOPTAHF22005;It was good while it lasted.;;;;;;;;;;;;x
-tooltip_22005_A;Stop attempting to §YAntagonize [From.GetTitledFirstName]§!.;;;;;;;;;;;;x
+tooltip_22005_A;停止你§Y对抗[From.GetTitledFirstName]§!的尝试。;;;;;;;;;;;;x
 EVTOPTBHF22005;[From.GetSheHeCap] will get out of there sooner or later...;;;;;;;;;;;;x
-tooltip_22005_B;Wait until §Y[From.GetTitledFirstName]§! is released before continuing to §YAntagonize§! [From.GetHerHim].;;;;;;;;;;;;x
+tooltip_22005_B;在开始§Y对抗§![From.GetHerHim]之前，你必须等待§Y[From.GetTitledFirstName]§!被释放出狱。;;;;;;;;;;;;x
 EVTDESCHF22008;[From.GetTitledFirstName] awaits [From.GetHerHis] imminent death lying senseless in [From.GetHerHis] bed. I do not think there is anything left that I can do to increase [From.GetHerHis] suffering.;;;;;;;;;;;;x
 EVTOPTAHF22008;It was good while it lasted.;;;;;;;;;;;;x
-tooltip_22008_A;Stop attempting to §YAntagonize [From.GetTitledFirstName]§!.;;;;;;;;;;;;x
-tooltip_21010_B;Stop attempting to §YAntagonize [From.GetTitledFirstName]§!.;;;;;;;;;;;;x
-tooltip_21010_A;Keep §YAntagonizing [From.GetTitledFirstName]§!.;;;;;;;;;;;;x
+tooltip_22008_A;停止你§Y对抗[From.GetTitledFirstName]§!的尝试。;;;;;;;;;;;;x
+tooltip_21010_B;停止你§Y对抗[From.GetTitledFirstName]§!的尝试。;;;;;;;;;;;;x
+tooltip_21010_A;继续§Y对抗[From.GetTitledFirstName]§!。;;;;;;;;;;;;x
 EVTDESCAHFP22123;我怎么可以一直骚扰我如此深爱的人呢？;;;;;;;;;;;;x
 EVTDESCBHFP22123;[From.GetFirstName]成了我最亲密的朋友。我不应该再这样激怒[From.GetHerHim]。;;;;;;;;;;;;x
 EVTDESCCHFP22123;[From.GetTitledFirstName]已经恨我入骨。没有必要尝试进一步激怒[From.GetHerHim]了。;;;;;;;;;;;;x
 EVTOPTAHFP22123;可以理解。;;;;;;;;;;;;x
-tooltip_22123_A;Stop attempting to §YAntagonize [From.GetTitledFirstName]§!.;;;;;;;;;;;;x
+tooltip_22123_A;停止你§Y对抗[From.GetTitledFirstName]§!的尝试。;;;;;;;;;;;;x
 EVTDESCHFP22012;No need for any convoluted plot - merely attacking [From.GetTitledFirstName]'s character should be enough to make it clear how much I despise [From.GetHerHim].;;;;;;;;;;;;x
 EVTOPTAHFP22012;Let everybody in [Root.PrimaryTitle.GetName] know!;;;;;;;;;;;;x
-tooltip_22012_A;Instruct all the town criers across your realm to mock and insult §Y[From.GetTitledFirstName]§! on your behalf, besmirching [From.GetHerHis] name and §YAntagonizing§! [From.GetHerHim] in the process.;;;;;;;;;;;;x
+tooltip_22012_A;命令你城内所有的街边小贩开始传播挖苦和侮辱§Y[From.GetTitledFirstName]§!的消息，弄臭[From.GetHerHis]名声并开始§Y对抗§![From.GetHerHim]。;;;;;;;;;;;;x
 EVTOPTBHFP22012;I will make my disdain clear!;;;;;;;;;;;;x
-tooltip_22012_B;Publicly denounce §Y[From.GetTitledFirstName]'s§! recent conduct, besmirching [From.GetHerHis] name and §YAntagonizing§! [From.GetHerHim] in the process.;;;;;;;;;;;;x
+tooltip_22012_B;公开谴责§Y[From.GetTitledFirstName]§!最近的行为，弄臭[From.GetHerHis]名声并开始§Y对抗§![From.GetHerHim]。;;;;;;;;;;;;x
 EVTOPTCHFP22012;A private message will be enough.;;;;;;;;;;;;x
-tooltip_22012_C;Send a private message to §Y[From.GetTitledFirstName]§!, insulting [From.GetHerHim] and §YAntagonizing§! [From.GetHerHim] in the process.;;;;;;;;;;;;x
+tooltip_22012_C;给§Y[From.GetTitledFirstName]§!寄一封私人信件，在信中侮辱[From.GetHerHim]并开始§Y对抗§![From.GetHerHim]。;;;;;;;;;;;;x
 EVTOPTDHFP22012;Better wait for something more concrete...;;;;;;;;;;;;x
 EVTDESCAHF22013;The entirety of [From.PrimaryTitle.GetName] is laughing at me, thanks to [From.GetTitledFirstName]'s damnable actions. I have received news from many travelers going through [From.GetHerHis] realm that the most absurd rumors about me are being spread by the [From.GetTitle]'s officials themselves.;;;;;;;;;;;;x
 EVTDESCBHF22013;I have received news that [From.GetTitledFirstName] has denounced me on several occasions recently, going to great lengths to besmirch my reputation, even at the expenses of [From.GetHerHis] own dignity as [From.GetTitle].;;;;;;;;;;;;x
@@ -3518,7 +3518,7 @@ tooltip_22021_A;Spread ill rumors about §Y[From.GetTitledFirstName]§! without 
 EVTOPTBHF22021;谁会爱上这么个怪咖？;;;;;;;;;;;;x
 tooltip_22021_B;Deride §Y[From.GetTitledFirstName]§! for [From.GetHerHis] deformity.;;;;;;;;;;;;x
 EVTOPTCHF22021;Such excesses are unacceptable for a [From.GetTitle]!;;;;;;;;;;;;x
-tooltip_22021_C;§YAntagonize [From.GetTitledFirstName]§! by moralizing about [From.GetHerHis] dissolute conduct.;;;;;;;;;;;;x
+tooltip_22021_C;通过谴责[From.GetHerHis]风流行径来§Y对抗[From.GetTitledFirstName]§!。;;;;;;;;;;;;x
 EVTOPTDHF22021;Infidels deserve no compassion!;;;;;;;;;;;;x
 tooltip_22021_D;通过挖苦[From.GetHerHis]信仰来§Y惹怒[From.GetTitledFirstName]§!;;;;;;;;;;;;x
 EVTOPTEHF22021;[From.GetSheHeCap]是个非常可耻的[From.GetTitle]！;;;;;;;;;;;;x
@@ -3674,8 +3674,8 @@ string_antagonized_reaction_relative;[From.GetTitledFirstName] has sent [From.Ge
 string_antagonized_reaction_infidel;[From.GetTitledFirstName] has sent [From.GetHerHis] sycophants to torment me once more, mocking me and my religion, spreading lies about how we worship demons and commit unspeakable acts to please [Root.Religion.GetHighGodName].;;;;;;;;;;;;x
 string_antagonized_reaction_heretic;[From.GetTitledFirstName] has sent [From.GetHerHis] sycophants to torment me once more, mocking me and my faith and describing the horrors awaiting me and my followers after we die for forsaking [From.Religion.GetHighGodName].;;;;;;;;;;;;x
 combat_rating_tooltip_info;This option is available due to your high §YCombat Rating§!;;;;;;;;;;;;x
-swaying_target_key;Swaying;;;;;;;;;;;;x
-antagonizing_target_key;Antagonizing;;;;;;;;;;;;x
+swaying_target_key;拉拢;;;;;;;;;;;;x
+antagonizing_target_key;对抗中;;;;;;;;;;;;x
 crown_pahlavi_name;[pahlavi_creator.GetOnlyDynastyName]之冠;;;;;;;;;;;;x
 tooltip_forge_pahalavi_crown;添加「§Y[Root.GetOnlyDynastyName]之冠§!」至[Root.GetTitledFirstName]的宝库;;;;;;;;;;;;x
 tooltip_antagonize_vassalize_claim;§Y[Root.GetTitledFirstName]§!对§Y[From.GetTitledFirstName]的§!领地拥有正当的宣称;;;;;;;;;;;;x
@@ -4895,17 +4895,17 @@ EVTDESC3476;一个[christian.GetGroupName]司祭来到我的宫廷谈论信仰�
 EVTOPTD38020;绝不！我那[christian.GetGroupName]的灵魂的救赎更重要！;;;;;;;;;;;;x
 setting_dejure_random;随机;;;;;;;;;;;;x
 setting_dejure_random_tooltip;法理王国/帝国在游戏开始时的法理层次将根据下面设置的参数动态生成（§Y法理王国数量§!和§Y法理帝国数量 §!）;;;;;;;;;;;;x
-start_sway_desc;Begin swaying §Y[Root.GetTitledFirstName]§! to your cause.\n\nWhile swaying another character you will be presented with opportunities to increase their §YOpinion§! of you. These opportunities can present themselves in many ways, with outcomes often being decided by how compatible you are with the character you are swaying. You can only sway one character at a time.;;;;;;;;;;;;x
+start_sway_desc;开始拉拢§Y[Root.GetTitledFirstName]§!。\n\n当你开始拉拢另外一名角色时，你将会有数个机会来增加他对你的§Y好感§!。这些机会有很多种，而这经常取决于你与你拉拢的那位角色的关系。你只能同时拉拢一名角色。;;;;;;;;;;;;x
 start_sway_charview_tooltip;§YSway [Root.GetTitledFirstName]§!;;;;;;;;;;;;x
-start_sway_charview_tooltip_delayed;Begin swaying §Y[Root.GetTitledFirstName]§! to your cause.\n\nWhile swaying another character you will be presented with opportunities to increase their §YOpinion§! of you. These opportunities can present themselves in many ways, with outcomes often being decided by how compatible you are with the character you are swaying. You can only sway one character at a time.;;;;;;;;;;;;x
-stop_sway_desc;Stop swaying §Y[Root.GetTitledFirstName]§!, ending your efforts to improve [Root.GetHerHis] opinion of you.;;;;;;;;;;;;x
-stop_sway_charview_tooltip;§YStop Swaying [Root.GetTitledFirstName]§!;;;;;;;;;;;;x
-stop_sway_charview_tooltip_delayed;Stop swaying §Y[Root.GetTitledFirstName]§!, ending your efforts to improve [Root.GetHerHis] opinion of you.;;;;;;;;;;;;x
-start_antagonize_desc;Begin antagonizing §Y[Root.GetTitledFirstName]§!, taunting and threatening [Root.GetHerHim].\n\nWhile antagonizing another character you will be presented with opportunities to make life miserable for them, lowering their §YOpinion§! of you. These opportunities commonly involve trickery, deception or outright slander and often improve the mood of characters with a cruel disposition. You can only antagonize one character at a time.;;;;;;;;;;;;x
-start_antagonize_charview_tooltip;§YAntagonize [Root.GetTitledFirstName]§!;;;;;;;;;;;;x
-start_antagonize_charview_tooltip_delayed;Begin antagonizing §Y[Root.GetTitledFirstName]§!, taunting and threatening [Root.GetHerHim].\n\nWhile antagonizing another character you will be presented with opportunities to make life miserable for them, lowering their §YOpinion§! of you. These opportunities commonly involve trickery, deception or outright slander and often improve the mood of characters with a cruel disposition. You can only antagonize one character at a time.;;;;;;;;;;;;x
+start_sway_charview_tooltip_delayed;开始拉拢§Y[Root.GetTitledFirstName]§!。\n\n当你开始拉拢另外一名角色时，你将会有数个机会来增加他对你的§Y好感§!。这些机会有很多种，而这经常取决于你与你拉拢的那位角色的关系。你只能同时拉拢一名角色。;;;;;;;;;;;;x
+stop_sway_desc;停止拉拢§Y[Root.GetTitledFirstName]§!，结束改善[Root.GetHerHis]看法。;;;;;;;;;;;;x
+stop_sway_charview_tooltip;§Y停止拉拢[Root.GetTitledFirstName]§!;;;;;;;;;;;;x
+stop_sway_charview_tooltip_delayed;停止拉拢§Y[Root.GetTitledFirstName]§!，结束改善[Root.GetHerHis]看法。;;;;;;;;;;;;x
+start_antagonize_desc;通过嘲讽和恐吓[Root.GetHerHim]的方式来开始对抗§Y[Root.GetTitledFirstName]§!。\n\n当你开始对抗另外一名角色时，你将会有数个机会来让他的生活变的一团糟，以此降低他们对你的§Y好感§!。这些机会一般包括诡计，欺诈和赤裸裸的诽谤，并且将这名角色的性情变的更加残暴。你只能同时对抗一名角色。;;;;;;;;;;;;x
+start_antagonize_charview_tooltip;§Y对抗[Root.GetTitledFirstName]§!;;;;;;;;;;;;x
+start_antagonize_charview_tooltip_delayed;通过嘲讽和恐吓[Root.GetHerHim]的方式来开始对抗§Y[Root.GetTitledFirstName]§!。\n\n当你开始对抗另外一名角色时，你将会有数个机会来让他的生活变的一团糟，以此降低他们对你的§Y好感§!。这些机会一般包括诡计，欺诈和赤裸裸的诽谤，并且将这名角色的性情变的更加残暴。你只能同时对抗一名角色。;;;;;;;;;;;;x
 stop_antagonize_desc;Stop antagonizing [Root.GetTitledFirstName], ending your efforts to provoke [Root.GetHerHim].;;;;;;;;;;;;x
-stop_antagonize_charview_tooltip;§YStop Antagonizing [Root.GetTitledFirstName]§!;;;;;;;;;;;;x
+stop_antagonize_charview_tooltip;§Y停止对抗[Root.GetTitledFirstName]§!;;;;;;;;;;;;x
 stop_antagonize_charview_tooltip_delayed;Stop antagonizing [Root.GetTitledFirstName], ending your efforts to provoke [Root.GetHerHim].;;;;;;;;;;;;x
 LIEGE_IS_JAIN;Liege is Pacifist;;;;;;;;;;;;x
 borrow_money_jews;向[jewish.GetName]商人借款 300¤;;;;;;;;;;;;x
@@ -7401,12 +7401,12 @@ EVTOPTAHF20241;很好。;;;;;;;;;;;;x
 EVTOPTBHF20241;This relic is part of my family's heritage!;;;;;;;;;;;;x
 EVTDESCHFB20408;Since I have forsaken the [From.Religion.GetName] faith, I must petition the [Root.Religion.GetName] Church's approval in order to be deemed worthy of my crown.;;;;;;;;;;;;x
 EVTOPTZHF22022;我肯定可以说服并阻止[From.GetHerHim]......;;;;;;;;;;;;x
-tooltip_22022_Z;Use your diplomatic skills to convince §Y[From.GetTitledFirstName]§! to stop trying to §YAntagonize§! you for some time.;;;;;;;;;;;;x
+tooltip_22022_Z;运用你的外交能力来说服§Y[From.GetTitledFirstName]§!暂时停止§Y对抗§!你。;;;;;;;;;;;;x
 EVTDESCHF22111;[From.GetTitledFirstName]'s response to my attempts to slander [From.GetHerHim] has been extremely polite and reasonable, so much so that it has put me in a difficult position. It would not be appropriate for me to continue harassing [From.GetHerHim] after such a kind and thoughtful response...;;;;;;;;;;;;x
 EVTOPTAHF22111;呸，我不在乎！;;;;;;;;;;;;x
 tooltip_EVTOPTAHF22111;Ignore §Y[From.GetTitledFirstName]§!'s call for peace.;;;;;;;;;;;;x
 EVTOPTBHF22111;Fine, I will leave [From.GetHerHim] be for a while.;;;;;;;;;;;;x
-tooltip_EVTOPTBHF22111;Stop §YAntagonizing [From.GetTitledFirstName]§! for a few years.;;;;;;;;;;;;x
+tooltip_EVTOPTBHF22111;几年内不再§Y对抗[From.GetTitledFirstName]§!。;;;;;;;;;;;;x
 EVTDESCHF22112;It appears my call for peace and unity fell on deaf ears. [From.GetTitledFirstName] is too inconstant and arbitrary to care for my words, even when it comes at the expenses of [From.GetHerHis] own reputation.;;;;;;;;;;;;x
 EVTOPTAHF22112;真倒霉。;;;;;;;;;;;;x
 antagonizer_good_mood;Good Mood;;;;;;;;;;;;x
@@ -7575,7 +7575,7 @@ EVTDESCAHF21151;Thankfully, the truce I called for allowed me and [From.GetTitle
 EVTOPTAHF21151;完美。;;;;;;;;;;;;x
 nogovernment;无地的;;;;;;;;;;;;x
 nogovernment_desc;这名角色不统治任何领土，也不在被任何政府管理。;;;;;;;;;;;;x
-tooltip_cannot_antagonize_sway_same_time;You cannot §YSway§! and §YAntagonize§! the same character at the same time.;;;;;;;;;;;;x
+tooltip_cannot_antagonize_sway_same_time;你不能同时§Y拉拢§!和§Y对抗§!同一名角色。;;;;;;;;;;;;x
 freckles_2;雀斑;;;;;;;;;;;;x
 freckles_2_desc;这个角色有雀斑。;;;;;;;;;;;;x
 freckles_3;雀斑;;;;;;;;;;;;x
@@ -10069,12 +10069,12 @@ EVTOPTB_RoI_111_ALT;金刚乘佛教;;;;;;;;;;;;x
 EVTOPTC_RoI_111_ALT;上座部佛教;;;;;;;;;;;;x
 EVTDESC_RoI_112_ALT;[jain.GetName]有两个主要分支：天衣派和白衣派。你皈依后，可以从中选择一个。;;;;;;;;;;;;x
 EVTOPTA_RoI_112_ALT;天衣派。;;;;;;;;;;;;x
-EVTOPTB_RoI_112_ALT;Svetambara.;;;;;;;;;;;;x
-EVTDESC_RoI_115_ALT;The four traditions of the [hindu.GetName] faith are Shaivism, Vaishnavism, Shaktism and Smartism. You have decided to choose a new way, but which one shall it be?;;;;;;;;;;;;x
-EVTDESC_RoI_116_ALT;The three great branches of the [buddhist.GetName] faith are Mahayana, Vajrayana and Theravada. You have decided to look for a new philosophy, but which one shall it be?;;;;;;;;;;;;x
-EVTDESC_RoI_117_ALT;The two traditions of the [jain.GetName] faith are Digambara and Svetambara. You have decided to shed the old and step onto a new path.;;;;;;;;;;;;x
-EVTOPTA_RoI_117_ALT;I am now a Digambara.;;;;;;;;;;;;x
-EVTOPTB_RoI_117_ALT;I am now a Svetambara.;;;;;;;;;;;;x
+EVTOPTB_RoI_112_ALT;白衣派。;;;;;;;;;;;;x
+EVTDESC_RoI_115_ALT;[hindu.GetName]的四个分支分别是湿婆派、毗湿奴派、性力派和师摩多派。你需要选择一种新的教派，你想选择哪一个？;;;;;;;;;;;;x
+EVTDESC_RoI_116_ALT;[buddhist.GetName]的三个主要分支为大乘佛教、金刚乘佛教和上座部佛教。你决定寻求一种新的处事哲学，你想选择哪一个？;;;;;;;;;;;;x
+EVTDESC_RoI_117_ALT;[jain.GetName]的两个主要分支是天衣派和白衣派。你已经决定去旧迎新。;;;;;;;;;;;;x
+EVTOPTA_RoI_117_ALT;我现在是个天衣派了。;;;;;;;;;;;;x
+EVTOPTB_RoI_117_ALT;我现在是个白衣派了。;;;;;;;;;;;;x
 society_leader_desc;The §YLeader§! of a society is responsible for its integrity and also often manages members of lower ranks. The leader regulates promotions between ranks, handles membership applications and hands out tasks to lower-ranking members. In certain cases there can exist more than one leader, in which case the most senior one is shown above.;;;;;;;;;;;;x
 dharmic_good_trait_power_tt;效果：§Y[GetDharmic]的智慧§!\n能让你随着时间的流逝失去那些不良特质或获得有益特质。;;;;;;;;;;;;x
 string_Dharmic;Dharmic;;;;;;;;;;;;x
@@ -19369,9 +19369,9 @@ EVTTOOLTIPLoR.20;[e_roman_empire.GetNameCap] is restored.;;;;;;;;;;;;x
 nick_the_knight_of_turnips;芜菁骑士;;;;;;;;;;;;x
 EVTOPTLUAHF22022;[From.GetSheHeCap] just needs a good beating, that is all!;;;;;;;;;;;;x
 EVTOPTLUBHF22022;Such poetry and wit, [From.GetFirstName]!;;;;;;;;;;;;x
-tooltip_22022_LUB;Compliment §Y[From.GetTitledFirstName]§! for [From.GetHerHis] vocabulary, preventing [From.GetHerHim] from §YAntagonizing§! you for some time.;;;;;;;;;;;;x
+tooltip_22022_LUB;称赞§Y[From.GetTitledFirstName]§![From.GetHerHis]词汇量，让[From.GetHerHim]在一段时间内停止§Y对抗§!你。;;;;;;;;;;;;x
 EVTOPTLUCHF22022;For your admirable honesty, I dub thee Sir [From.GetFirstName] of the Turnip!;;;;;;;;;;;;x
-tooltip_22022_LUC;Grant §Y[From.GetTitledFirstName]§! a knighthood for [From.GetHerHis] honesty, preventing [From.GetHerHim] from §YAntagonizing§! you for some time.;;;;;;;;;;;;x
+tooltip_22022_LUC;因为[From.GetHerHis]诚实而将§Y[From.GetTitledFirstName]§!封为骑士，以此来让[From.GetHerHim]停止§Y对抗§!你一段时间。;;;;;;;;;;;;x
 EVTDESCHF22131;[From.GetTitledFirstName] has entirely misunderstood my intent! Rather than being upset by my slanderous allegations, [From.GetSheHe] praised me for my refined vocabulary.;;;;;;;;;;;;x
 EVTOPTAHF22131;别担心，[From.GetFirstName]，我还有很多话要说！;;;;;;;;;;;;x
 tooltip_EVTOPTAHF22131;无视§Y[From.GetTitledFirstName]§!的恭维。;;;;;;;;;;;;x
@@ -19381,7 +19381,7 @@ EVTDESCHF22132;[From.GetFirstName] was ecstatic hearing my praise and assured me
 EVTOPTAHF22132;Hopefully they will all be as endearing!;;;;;;;;;;;;x
 EVTDESCHF22133;[From.GetTitledFirstName] has entirely misunderstood my intent! Rather than being upset by my slanderous allegations, [From.GetSheHe] praised me for my honesty, and even decided to knight me!;;;;;;;;;;;;x
 EVTOPTAHF22133;你总是期待我说出真相，我[From.GetTitle]！;;;;;;;;;;;;x
-tooltip_EVTOPTAHF22133;Continue to §YAntagonize§! §Y[From.GetTitledFirstName]§!;;;;;;;;;;;;x
+tooltip_EVTOPTAHF22133;继续§Y对抗§!§Y[From.GetTitledFirstName]§!;;;;;;;;;;;;x
 EVTOPTBHF22133;Just a knighthood?!;;;;;;;;;;;;x
 EVTDESCLoR20_HF;People of [Root.PrimaryTitle.GetName], lend me your ears! After the miraculous recovery of territory lost centuries ago, our mighty nation has been reborn! Our land has endured dark times since the imperial frontiers were stormed by barbarians and province after province burned at their touch, but now a bright new age has dawned for all of civilization.\n\nOur great Nation will no longer be referred to as [e_byzantium.GetName] by jealous pretenders, but recognized as the true heir to the legacy of its illustrious ancestors. [Root.GetTitledFirstName] rules a restored Imperium, but much work remains to be done. There is still territory to recover and ancient borders to reclaim. For the Senate and People of [Root.Capital.GetName]!;;;;;;;;;;;;x
 EVTDESCLoR21_HF;[From.Culture.GetName][From.GetTitle]已经设法收复了足够的失地，宣布重建[e_roman_empire.GetName]！不可置否，他们是旧帝国真正的继承者及其辉煌的遗产。他们声称一个新时代即将来临。;;;;;;;;;;;;x
