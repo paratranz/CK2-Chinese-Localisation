@@ -341,26 +341,26 @@ KILL_LIST_INTERFACE_LABEL;§Y杀人清单§!;;;;;;;;;;;;x
 HAS_NO_KILLS;该角色不是一位已知的谋杀者。;;;;;;;;;;;;x
 HolyFuryDLC;神圣之怒;;;;;;;;;;;;x
 send_baptism_request;联系[From.GetName]的领主并请求[From.GetHerHim]支持你的领土改信;;;;;;;;;;;;x
-baptism_request_cooldown;最近请求过大规模改信;;;;;;;;;;;;x
-opinion_baptism_sponsor_target;大规模改信请求;;;;;;;;;;;;x
+baptism_request_cooldown;最近请求过集体皈依;;;;;;;;;;;;x
+opinion_baptism_sponsor_target;集体皈依请求;;;;;;;;;;;;x
 truebelievers_bid_for_independence;旧信徒的叛乱;;;;;;;;;;;;x
 truebelievers_bid_for_independence_desc;§Y$CLAIMANT$§!可以宣布从§Y$TARGET$§!独立，因为他们放弃了旧信仰！;;;;;;;;;;;;x
 CB_NAME_TRIBAL_INDEPENDENCE;原始宗教叛乱;;;;;;;;;;;;x
 WAR_NAME_TRIBAL_INDEPENDENCE;$ORDER$对大$SECOND_ADJ$的改宗战争;;;;;;;;;;;;x
-request_sponsored_baptism;请求大规模改信;;;;;;;;;;;;x
+request_sponsored_baptism;请求集体皈依;;;;;;;;;;;;x
 request_sponsored_baptism_desc;拥抱一个更加文明的宗教可以帮助你在领地内集权并抛弃你的部落生活方式。\n\n你可以要求[Root.GetTitledName]赞助你的领地改信[Root.Religion.GetName]。在一个合法政权的帮助和支持下，转变将会变得更容易。\n[From.GetMassBaptismTribalAuthorityHint];;;;;;;;;;;;x
-PAGAN_BAPTISM_DESC;§Y请求大规模改信§!;;;;;;;;;;;;x
+PAGAN_BAPTISM_DESC;§Y请求集体皈依§!;;;;;;;;;;;;x
 NOT_TRUE_BELIEVER;不是真信徒;;;;;;;;;;;;x
 NOT_CURRENTLY_BAPTIZING;§Y[Root.GetTitledName]§!现在没有在支持一个领土的改信;;;;;;;;;;;;x
-NOT_ASKED_BAPTISM_RECENTLY;最近没有从[From.GetBaptismTimer]请求过大规模改信;;;;;;;;;;;;x
-NOT_BEEN_ASKED_BAPTISM_RECENTLY;§Y[Root.GetTitledName]§!最近没有被请求过大规模改信[Root.GetBaptismTimer];;;;;;;;;;;;x
+NOT_ASKED_BAPTISM_RECENTLY;最近没有从[From.GetBaptismTimer]请求过集体皈依;;;;;;;;;;;;x
+NOT_BEEN_ASKED_BAPTISM_RECENTLY;§Y[Root.GetTitledName]§!最近没有被请求过集体皈依[Root.GetBaptismTimer];;;;;;;;;;;;x
 string_baptism_timer;- 到期：§Y[This.baptism_request_cooldown.GetExpiryDate]§!;;;;;;;;;;;;x
 NOT_ROOT_RELIGION_PLAYABLE;§Y[Root.GetTitledName]§!的宗教可玩;;;;;;;;;;;;x
 ALL_PROVINCES_CONVERT_TOOLTIP;所有§Y[Root.GetTitledFirstName]§!的直辖省份会变为§Y[sponsoring_king.Religion.GetName]§!。;;;;;;;;;;;;x
-EVTTOOLTIPHF20000;向§Y[Root.GetTitledName]§!写一封信，请求担任§Y[From.PrimaryTitle.GetName]§!集体皈依的教父母。;;;;;;;;;;;;x
-EVTTOOLTIPHFA20005;大规模改信;;;;;;;;;;;;x
-EVTTOOLTIPHFB20005;大规模改信;;;;;;;;;;;;x
-ai_request_sponsored_baptism;请求大规模改信;;;;;;;;;;;;x
+EVTTOOLTIPHF20000;向§Y[Root.GetTitledName]§!写一封信，请求其帮助§Y[From.PrimaryTitle.GetName]§!集体皈依。;;;;;;;;;;;;x
+EVTTOOLTIPHFA20005;集体皈依;;;;;;;;;;;;x
+EVTTOOLTIPHFB20005;集体皈依;;;;;;;;;;;;x
+ai_request_sponsored_baptism;请求集体皈依;;;;;;;;;;;;x
 ai_request_sponsored_baptism_desc;拥抱一个更加文明的宗教可以帮助你在领地内集权并抛弃你的部落生活方式。;;;;;;;;;;;;x
 TT_SPONSOR_EXISTS;存在一个潜在的支持领地;;;;;;;;;;;;x
 CHRONICLE_MASS_CONVERSION_CONVERTER;在[sponsoring_king.GetTitle][sponsoring_king.PrimaryTitle.GetName]帮助下，[converting_king.GetTitledName]把[converting_king.Religion.GetName]信仰带到了[converting_king.GetHerHis]领地，监督[converting_king.GetHerHis]臣民的大规模改信。;;;;;;;;;;;;x
@@ -375,7 +375,7 @@ EVTDESCHF20001;[Root.GetTitledName]，\n我精神上支持你梦想成为一位[
 EVTOPTAHF20001;真倒霉。;;;;;;;;;;;;x
 EVTDESCHF20002;[Root.GetTitledName]，\n我很荣幸接受你的请求，帮助[Root.PrimaryTitle.GetName]的可怜人民看到光明并拥抱[From.Religion.GetName]信仰。\n我们会开始准备即将到来的伟大皈依。\n\n诚挚的，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20002;很好。;;;;;;;;;;;;x
-EVTTOOLTIPHF20003;§Y[From.GetTitledName]§!会派遣[From.Religion.GetName]僧侣们去为你臣民的伟大皈依准备一个盛大的仪式。;;;;;;;;;;;;x
+EVTTOOLTIPHF20003;§Y[From.GetTitledName]§!会派遣[From.Religion.GetName]教士去为你臣民的集体皈依准备一个盛大的仪式。;;;;;;;;;;;;x
 EVTTOOLTIPHF20005;§Y[Root.PrimaryTitle.GetName]§!的所有封臣都将被邀请出席即将到来的仪式。;;;;;;;;;;;;x
 EVTTITLE20003;[converting_king.PrimaryTitle.GetName]的皈依;;;;;;;;;;;;x
 EVTDESCHFB20003;你在[converting_king.Capital.GetName]的广场中心会见你的封臣们和[sponsoring_king.GetTitledFirstName]的伊玛目。\n你向围在周围的平民们演讲，斥责过去的神明并吐唾沫在它们虚伪的偶像上，示意你的封臣们去做同样的事。人群中发出些许抱怨声，但很快被平定下去。当伊玛目点燃偶像时，你宣布对安拉和他的先知的信仰。\n你们所有人都将伪神的柴堆抛之身后，向麦加鞠躬。;;;;;;;;;;;;x
@@ -388,13 +388,13 @@ EVTDESCHFH20003;在阿兹特克祭司的指导之下，你聚集了一群已被�
 EVTDESCHFI20003;来自[sponsoring_king.Capital.GetName]的萨满们排着漫长的队列抵达，携带着无穷无尽的神像。\n在[converting_king.Capital.GetName]的主广场中心，你与封臣们一起和他们会面，在那里你公开抛弃了旧神并欢迎新的神明来到你的领地。一个接一个，新的图腾搬进你的神庙，此时你向它们鞠躬并亲吻它们的脚，祭司们则解释着神明们对你的欢迎的反应并用响亮的鼓声平静任何愤怒的旧信仰灵魂。;;;;;;;;;;;;x
 EVTDESCHFL20003;[sponsoring_king.Religion.GetName]的祭司们随着一场奢华的游行抵达[converting_king.Capital.GetName]，将高大的、金光闪闪的太阳神雕像安置在了你首都的中央。\n你与你的封臣们在人群包围中会见了他们，公开宣布放弃旧的神灵，然后向金神像鞠躬。\n你下令将你的黄金和宝石祭礼一件接着一件献给新的神灵，并且用更加华贵的服装一点一点地慢慢将其覆盖。在你和你的封臣们完成献礼之后，人群中的一些人也来到了神像脚下，捐赠了他们可怜财产的一部分。随后，神像被运进了它的新家当中。;;;;;;;;;;;;x
 EVTDESCHFM20003;为了在新家安置新神的神像，在仪式开始前几天希腊祭司们就来到了[converting_king.Capital.GetName]。\n在皈依的前夜，你和你的封臣们都被召唤到神庙的花园里，在那里祭司们将你剥得精光并把你的整个身体剃毛洗净。第二天早晨，你带领大批人群在神庙外会见了祭司们，并观看他们在神庙大门前向主神们献祭了十二头公牛。之后祭司们将他们祭品的遗体搬进去，在很长一段时间之后，他们重新出现在圣所前并面向迷茫的人群宣告神明们已经接受了你的祭品并在今后会接受未来进一步的奉献。;;;;;;;;;;;;x
-EVTDESCHFN20003;在仪式的几天前，[sponsoring_king.Religion.GetName]的祭司们就早早抵达，在新的寺庙里安顿下来。\n在仪式之前剩余的数天里，你和你的封臣们发现自己得不停地听一串没完没了的规矩和仪轨，祭司们发誓，为了正确敬拜[sponsoring_king.Religion.GetHighGodName]你们必须完全了解它们。当大规模改信的日子来到时，你们感觉仪式本身与那官僚式的准备过程比起来反倒像是一个添头。祭司们迅速地公开清除掉所有旧的标志并允许你抛弃你的旧神们，之后他们藏回神庙，继续他们自己的仪式。;;;;;;;;;;;;x
+EVTDESCHFN20003;在仪式的几天前，[sponsoring_king.Religion.GetName]的祭司们就早早抵达，在新的神庙里安顿下来。\n在仪式之前剩余的数天里，你和你的封臣们发现自己得不停地听一串没完没了的规矩和仪轨，祭司们发誓，为了正确敬拜[sponsoring_king.Religion.GetHighGodName]你们必须完全了解它们。当集体皈依的日子来到时，你们感觉仪式本身与那官僚式的准备过程比起来反倒像是一个添头。祭司们迅速地公开清除掉所有旧的标志并允许你抛弃你的旧神们，之后他们藏回神庙，继续他们自己的仪式。;;;;;;;;;;;;x
 EVTDESCHFO20003;[sponsoring_king.Religion.GetName]的拉比们在一个清爽的早晨来到了[converting_king.Capital.GetName]。\n你和封臣们一起率领一大群人与他们在广场中央会面。根据他们的指示，三个巨大的台座已经为这些新来的人树立起来，他们其中三位被指派为教法官，走上台座。你第一个被传唤这宗教法院中，三位教法官开始测试你改信的诚意，过程虽短，但胜似已过千年。对你的检查结束之后，他们开始测试你的封臣们，一个接一个的对他们进行检查，而人群无声地注视着这一切。;;;;;;;;;;;;x
 EVTDESCHFP20003;十足奇怪，[sponsoring_king.Religion.GetName]的祭司们来到你首都的方式不怎么隆重。\n他们要求你在转教的日子之前和他们一起保持隐居，他们敬重地移除了你的神庙中的旧神，并指导你关于你作为一名[sponsoring_king.Religion.GetName]徒的新责任。当伟大的转教仪式那天来到时，你和你的封臣们在[converting_king.Capital.GetName]外会面，围绕着一群平民。在那里，你们取下自己所有的冠饰，围坐在圣火旁冥想，背景中回荡着祭司们柔和的吟诵。;;;;;;;;;;;;x
 EVTOPTAHF20003;这对我们的人民来说是一个新的开始。;;;;;;;;;;;;x
 EVTTITLE20004;[converting_king.PrimaryTitle.GetName]的皈依;;;;;;;;;;;;x
 EVTDESCHFA20004;就在[converting_king.Capital.GetName]举行了集体皈依的几天后，你收到了几位传教士发来的信件。虽然那些牧师还没有完全确信这些野蛮人皈依的诚意，但是整个仪式进行地非常顺利，现在[converting_king.PrimaryTitle.GetName]已经被正式承认为一个[sponsoring_king.Religion.GetName]国家。\n因为你襄助这群异教徒皈依唯一正信，你已经完成了与使徒相当的丰功伟绩。;;;;;;;;;;;;x
-EVTDESCHFB20004;虽然先知经常用剑来传播他的言语，但是仅仅通过语言就能使整个原始宗教群体皈依，对你来说是一个值得称赞的壮举。\n你毫不怀疑异教徒仍然藏在[converting_king.GetTitledFirstName]的疆域中，但是现在统治阶级已经在阳光之下公开信仰，在这个领土上的每一个人跟随这样的举动只是时间问题。在[converting_king.PrimaryTitle.GetTitle]向[sponsoring_king.Religion.GetName]的大规模皈依之中，你使伊斯兰教对整个世界的普世统治更趋于圆满。;;;;;;;;;;;;x
+EVTDESCHFB20004;虽然先知经常用剑来传播他的言语，但是仅仅通过语言就能使整个原始宗教群体皈依，对你来说是一个值得称赞的壮举。\n你毫不怀疑异教徒仍然藏在[converting_king.GetTitledFirstName]的疆域中，但是现在统治阶级已经在阳光之下公开信仰，在这个领土上的每一个人跟随这样的举动只是时间问题。在[converting_king.PrimaryTitle.GetTitle]向[sponsoring_king.Religion.GetName]的集体皈依之中，你使伊斯兰教对整个世界的普世统治更趋于圆满。;;;;;;;;;;;;x
 EVTDESCHFC20004;祭司们被送回[converting_king.Capital.GetName]，充满了疲惫和满足。\n[converting_king.PrimaryTitle.GetName]的人民已经完全拥抱了他们的新神。他们的战士会必定会是奥丁英灵殿内军队的优秀增补，以待终结之战的来临。\n通过你的举动你赢得了可在永恒之战中对抗带来末日者的另一个盟友。;;;;;;;;;;;;x
 EVTDESCHFD20004;被派往[converting_king.PrimaryTitle.GetName]向那儿奇怪的人民介绍腾格里信仰的祭司带回来了好消息。\n[converting_king.GetTitledFirstName]已经向天神和你的先祖之灵宣誓[converting_king.GetHerHis]忠诚，如今[converting_king.GetHerHis]全体人民在他们的保护下策马奔腾。\n只要他们能遵从仪式并安抚那些灵魂，在长生天护佑下光明繁荣的未来之路就会为他们开启。;;;;;;;;;;;;x
 EVTDESCHFE20004;你的祭司们已经尽力向[converting_king.GetTitledFirstName]的人民介绍你的诸神并教授他们怎么样去安抚他们周围游荡的荒野灵魂。\n你现在只能够希望他们能够遵守诺言并按照传统取悦神明，以免厄运降临。;;;;;;;;;;;;x
@@ -411,20 +411,20 @@ EVTOPTAHF20004;野蛮人终于看到了光明。;;;;;;;;;;;;x
 EVTDESCHFA20005;[Root.GetTitledName]，\n我已经决定抛弃我的旧信仰并接受[sponsoring_king.Religion.GetName]信仰。\n由于我很关心对我所有的臣民的救赎，我敦促你们到[From.Capital.GetName]来加入我，一同抛弃你们的旧信仰，和[From.PrimaryTitle.GetName]的所有人一样。\n\n你真诚的，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTDESCHFB20005;[Root.GetTitledName],\n我的[sponsoring_king.Religion.GetName]的臣民们不必再生活在停滞不前的[converting_king.Religion.GetName]领主们的治下恐惧。\n我已经联系了睿智的[sponsoring_king.GetTitledName]，在[sponsoring_king.GetHerHis]祭司们的帮助下我正在准备将整个[From.PrimaryTitle.GetName]转变为[sponsoring_king.Religion.GetName]信仰。\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20005;真是个好消息！;;;;;;;;;;;;x
-EVTTOOLTIPHFA20006;告知§Y[From.GetTitledName]§!你对[converting_king.GetHerHis]决定感到高兴。\n当大规模皈依发生时，你所有的封臣，廷臣和省份会转变为§Y[sponsoring_king.Religion.GetName]§!。;;;;;;;;;;;;x
+EVTTOOLTIPHFA20006;告知§Y[From.GetTitledName]§!你对[converting_king.GetHerHis]决定感到高兴。\n当集体皈依发生时，你所有的封臣，廷臣和省份会转变为§Y[sponsoring_king.Religion.GetName]§!。;;;;;;;;;;;;x
 EVTOPTBHF20005;我终于能够公开地崇拜[sponsoring_king.Religion.GetRandomGodName]了！;;;;;;;;;;;;x
-EVTTOOLTIPHFB20006;作为[sponsoring_king.Religion.GetName]徒出现。\n当大规模皈依发生时，你所有的封臣，廷臣和省份会转变为§Y[sponsoring_king.Religion.GetName]§!。;;;;;;;;;;;;x
+EVTTOOLTIPHFB20006;作为[sponsoring_king.Religion.GetName]徒出现。\n当集体皈依发生时，你所有的封臣，廷臣和省份会转变为§Y[sponsoring_king.Religion.GetName]§!。;;;;;;;;;;;;x
 EVTOPTCHF20005;我当然愿意改信。（撒谎）;;;;;;;;;;;;x
-EVTTOOLTIPHFC20006;前去§Y[converting_king.Capital.GetName]§!并假装转变为你领主的新信仰，但仍秘密地保持§Y[Root.Religion.GetName]§!信仰。\n当大规模皈依发生时你所有的封臣们都将秘密保持他们原有的信仰。你所有的省份都会变成§Y[sponsoring_king.Religion.GetName]§!，但是原始宗教的社团将会在你的直辖领内存活，在改宗者之中隐藏下来。;;;;;;;;;;;;x
+EVTTOOLTIPHFC20006;前去§Y[converting_king.Capital.GetName]§!并假装转变为你领主的新信仰，但仍秘密地保持§Y[Root.Religion.GetName]§!信仰。\n当集体皈依发生时你所有的封臣们都将秘密保持他们原有的信仰。你所有的省份都会变成§Y[sponsoring_king.Religion.GetName]§!，但是原始宗教的社团将会在你的直辖领内存活，在改宗者之中隐藏下来。;;;;;;;;;;;;x
 EVTOPTDHF20005;我当然愿意改信。;;;;;;;;;;;;x
-EVTTOOLTIPHFD20006;告知你的领主你将会加入[From.GetHerHim]并变为§Y[sponsoring_king.Religion.GetName]§!，并且你所有的臣民都将如此。\n当大规模皈依发生时你所有的封臣，廷臣和省份都将会变成§Y[sponsoring_king.Religion.GetName]§!。;;;;;;;;;;;;x
+EVTTOOLTIPHFD20006;告知你的领主你将会加入[From.GetHerHim]并变为§Y[sponsoring_king.Religion.GetName]§!，并且你所有的臣民都将如此。\n当集体皈依发生时你所有的封臣，廷臣和省份都将会变成§Y[sponsoring_king.Religion.GetName]§!。;;;;;;;;;;;;x
 EVTOPTEHF20005;我永远不会放弃旧的传统！;;;;;;;;;;;;x
 EVTTOOLTIPHFE20007;告知你的领主，你和你的臣民都不会参与[From.GetHerHis]皈依。;;;;;;;;;;;;x
 EVTDESCHFA20006;我的[Root.GetTitle]，\n我很高兴听到你改信了[From.Religion.GetName]。\n一直以来我都在祈祷你能见到光明。;;;;;;;;;;;;x
 EVTDESCHFB20006;我的[Root.GetTitle]，\n多年以来我都以同情的眼光看待[sponsoring_king.Religion.GetHighGodName]的追随者。你无法想象当我听到你改信的时候有多么欣慰。;;;;;;;;;;;;x
 EVTDESCHFC20006;我的[Root.GetTitle]，\n你所要求我做的并不简单，但是我不会拒绝你的要求。我会在[Root.Capital.GetName]加入你并和你一起皈依[sponsoring_king.Religion.GetName]信仰。;;;;;;;;;;;;x
 EVTOPTAHF20006;很好。;;;;;;;;;;;;x
-EVTDESCHF20007;我的[Root.GetTitle]，\n你对你的要求思虑良久，得出我不能背弃我们祖先的神明这个结论。我和我的任何封臣们都不会出席你的大规模皈依。;;;;;;;;;;;;x
+EVTDESCHF20007;我的[Root.GetTitle]，\n你对你的要求思虑良久，得出我不能背弃我们祖先的神明这个结论。我和我的任何封臣们都不会出席你的集体皈依。;;;;;;;;;;;;x
 EVTOPTAHF20007;这些迷信的蠢货！;;;;;;;;;;;;x
 EVTTITLE20008;[converting_king.PrimaryTitle.GetName]的皈依;;;;;;;;;;;;x
 EVTDESCHFA20008;[converting_king.Capital.GetName]的皈依仪式始于一个寒冷的早晨。\n主教带领[sponsoring_king.GetTitledFirstName]的使节于邻近城市的河畔会见你的主君。你站在[converting_king.GetTitledFirstName]身旁，而[converting_king.GetHerHis]臣民则在你身后等待着，显然看起来十分迷茫。主教背诵圣经中的几节经文。然后[converting_king.GetTitledFirstName]领着你们步入河中，而[sponsoring_king.Religion.GetName]的牧师们在你们经过其身侧时为你们施洗。为说服农民跟着你下水，卫队戳了好几下。过了一会儿，当整个人群都湿淋淋地站在河边浑身发抖时，正好看到牧师及其助手将你们信奉的旧神像扔进波涛之中。\n「当伪像被潮汐吞没时，」主教宣称道，「愿他们的记忆也永远地从你们的灵魂中消失。」;;;;;;;;;;;;x
@@ -438,7 +438,7 @@ EVTDESCHFH20008;听从阿兹特克祭司的指导，你的领主聚集了一群�
 EVTDESCHFI20008;来自[sponsoring_king.Capital.GetName]的萨满们排着漫长的队伍抵达，携带着各式各样的神像。\n在[converting_king.Capital.GetName]的广场中央，你、你的领主以及[converting_king.GetHerHis]其他诸侯一起会见祭司们，在那里你公开抛弃了旧神并欢迎新的神明来到你的领地。一个接一个，当新的图腾们被搬进你的神庙时你向它们鞠躬并亲吻它们的脚，于此同时祭司们诠释着诸神对你的欢迎的反应，并用响亮的鼓声安抚任何古信仰的愤怒灵魂。;;;;;;;;;;;;x
 EVTDESCHFL20008;[sponsoring_king.Religion.GetName]的祭司们随着一场奢华的游行抵达[converting_king.Capital.GetName]，将高大的、金光闪闪的太阳神雕像安置在了[converting_king.GetTitledFirstName]首都的中央。\n你与你的君主和其他[converting_king.GetHerHis]封臣在平民们的簇拥下会见了他们，公开宣布背弃旧神，并向黄金神像鞠躬。\n在[converting_king.GetTitledFirstName]的命令下，你们一个接一个的将黄金和宝石献给新的神灵，并且用更加华贵的服装一点点将其覆盖。在你完成献礼之后，人群中的一些人也来到了神像下面，捐赠了他们可怜财产的一部分。随后，神像被运进了它的新家当中。;;;;;;;;;;;;x
 EVTDESCHFM20008;为了给新诸神在新家安置神像，希腊的祭司们在仪式开始的几天前就来到[converting_king.Capital.GetName]。\n在皈依仪式的前夜，祭司们将你同你的领主召集到神庙的庭院中，并在那里将你剥得精光并把你的整个身体剃毛洗净。第二天一早，你便带领人群在神庙门前会见了祭司们。在向希腊诸主神们献祭了十二头公牛之后，祭司们将祭品的遗体搬进了神庙。又过了很长一段时间，祭司们才终于从他们的圣所中重新出现，并向不知所措的人群宣告：神明们已经接受了祭品，并在今后会接受未来进一步的奉献。;;;;;;;;;;;;x
-EVTDESCHFN20008;仪式正式开始的几天前，[sponsoring_king.Religion.GetName]祭司便抵达他们新的寺庙安定了下来。\n剩余的日子里，你和你的领主发现自己得不停地听一串没完没了的规矩和仪式流程，而祭司向你们保证这些都是为了为了正确敬拜[sponsoring_king.Religion.GetHighGodName]而必须要知晓和遵从的。当大规模皈依的日子终于到来时，与那繁琐的准备过程相比，你感到仪式本身反倒像是一个添头。祭司们迅速地公开处理掉所有旧神的雕像，承认你正式离开旧神的怀抱，之后转身藏进神庙，继续他们的私人仪式。;;;;;;;;;;;;x
+EVTDESCHFN20008;仪式正式开始的几天前，[sponsoring_king.Religion.GetName]祭司便抵达他们新的神庙安定了下来。\n剩余的日子里，你和你的领主发现自己得不停地听一串没完没了的规矩和仪式流程，而祭司向你们保证这些都是为了为了正确敬拜[sponsoring_king.Religion.GetHighGodName]而必须要知晓和遵从的。当集体皈依的日子终于到来时，与那繁琐的准备过程相比，你感到仪式本身反倒像是一个添头。祭司们迅速地公开处理掉所有旧神的雕像，承认你正式离开旧神的怀抱，之后转身藏进神庙，继续他们的私人仪式。;;;;;;;;;;;;x
 EVTDESCHFO20008;[sponsoring_king.Religion.GetName]拉比们在一个晴朗的早晨来到了[converting_king.Capital.GetName]。\n在大广场中央的一大群人的最前面，你和你的领主与他们见了面。在这群来客的指引下，三个高台座已为他们准备好，他们当中三位被指定的教法官现已在上面。你的领主第一个被叫至这个公开的宗教法庭，三位教法官详细地检查[converting_king.GetHerHis]改信的诚意，整个过程长得好像时间已经停滞了。在他们完成了[converting_king.GetHerHim]的考核之后，他们转向你以及其他封臣，一个一个地审核你们，与此同时整个人群都在静静地看着。;;;;;;;;;;;;x
 EVTDESCHFP20008;奇怪的是，[sponsoring_king.Religion.GetName]的祭司们并没有大摇大摆地来到[converting_king.GetTitledFirstName]首府。\n相反，他们要求你和你的所有臣属在转教仪式前的这些个日子里同他们一起隐居，他们庄重地移除了你神庙中的旧神圣像和图腾，指导你作为一位新的[sponsoring_king.Religion.GetName]归信者应负的责任。转教仪式正式来临的那天，在百姓的围观下，你在[converting_king.Capital.GetName]会见了臣属。在那里，你们取下所有的冠饰，围坐在圣火旁静静地冥想，周遭祭司们柔和的经文吟诵声萦绕不绝。;;;;;;;;;;;;x
 EVTDESCHFQ20008;[converting_king.GetTitledFirstName]和[converting_king.GetHerHis]那群懦弱的新皈依者已经聚集在[converting_king.Capital.GetName]，由[sponsoring_king.Religion.GetName]的一位教士领导完成了受洗。\n那亵渎的受洗仪式降临在他们身上的时候，[converting_king.PrimaryTitle.GetName]曾经骄傲的人民只能像牛群般被领过一条河流。\n至于那些异邦的教士对他们施加了何等的侮辱，恐怕你只得靠想象才能补全那些画面，但你现在可以肯定的是，如今，十字架的阴影笼罩[Root.Capital.GetName]只是时间问题。;;;;;;;;;;;;x
@@ -465,12 +465,12 @@ EVTDESCHF20010;[converting_king.GetTitledFirstName]不仅在拥抱奇怪的新�
 EVTOPTAHF20010;而且因为这些事，我会把对[converting_king.GetHerHim]的仇恨一直记在心间！;;;;;;;;;;;;x
 EVTDESCHF20011;[From.GetTitledFirstName]对于旧信仰的顽固执着已经不是简单的令人生厌的行径了。\n许多人报告，[From.GetHerHim]声称由于我向[sponsoring_king.GetTitledFirstName]出卖[Root.PrimaryTitle.GetName]，我是人民的叛徒。\n毫无疑问，[From.GetFirstName]已经成为了我的敌人。;;;;;;;;;;;;x
 EVTOPTAHF20011;我必须用某种方式处理[From.GetHerHim]。;;;;;;;;;;;;x
-EVTDESCHF20013;我刚收到消息，[From.GetTitledFirstName]背离了[From.GetHerHis]信仰！\n[From.GetSheHeCap]表示仍愿意支持[Root.PrimaryTitle.GetName]的大规模皈依，只不过这回皈依的是[From.Religion.GetName]的信仰。;;;;;;;;;;;;x
+EVTDESCHF20013;我刚收到消息，[From.GetTitledFirstName]背离了[From.GetHerHis]信仰！\n[From.GetSheHeCap]表示仍愿意支持[Root.PrimaryTitle.GetName]的集体皈依，只不过这回皈依的是[From.Religion.GetName]信仰。;;;;;;;;;;;;x
 EVTOPTAHF20013;这无法接受。仪式取消了。;;;;;;;;;;;;x
 EVTOPTBHF20013;嘛，听起来没什么差别。;;;;;;;;;;;;x
 EVTDESCHF20015;因为[From.GetTitledFirstName]的不幸离世，[Root.PrimaryTitle.GetName]的皈依也因此失去了[From.GetHerHis]领地的支持。\n我需要另找一人来帮我促成此事。;;;;;;;;;;;;x
 EVTOPTAHF20015;该死的。;;;;;;;;;;;;x
-EVTDESCHF20017;似乎[From.GetTitledFirstName]在身故之前，[From.GetSheHe]未能成功地挽救[From.GetHerselfHimself]以及[From.GetHerHis]民众的灵魂。\n[From.PrimaryTitle.GetName]大规模皈依的盛大仪式已被无限期推迟。;;;;;;;;;;;;x
+EVTDESCHF20017;似乎[From.GetTitledFirstName]在身故之前，[From.GetSheHe]未能成功地挽救[From.GetHerselfHimself]以及[From.GetHerHis]民众的灵魂。\n[From.PrimaryTitle.GetName]集体皈依的盛大仪式已被无限期推迟。;;;;;;;;;;;;x
 EVTOPTAHF20017;真可惜啊。;;;;;;;;;;;;x
 EVTDESCHF20019;看起来[From.GetTitledFirstName]的信念并不如同[From.GetSheHe]所说的那么坚定。\n我刚刚才知道[From.GetSheHe]已经抛弃了[Root.Religion.GetName]信仰，转而成为了一名[From.Religion.GetName]徒。;;;;;;;;;;;;x
 EVTOPTAHF20019;[From.GetHerHisCap]行为终止了我们之间的协议。;;;;;;;;;;;;x
@@ -487,7 +487,7 @@ EVTOPTBHF20025;很抱歉，但是我要遵从[converting_king.GetTitle]的意志
 EVTDESCHF20028;[Root.GetTitledName]，\n我们的[converting_king.GetTitle]已经下令，[converting_king.PrimaryTitle.GetName]全境都必须信仰[sponsoring_king.Religion.GetName]。\n我们不能公开违抗[converting_king.GetHerHis]命令，但是我认为，只要我们一起，依旧可以秘密地让我们对诸神的信仰保持活力。\n\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20028;只有这一个办法了。;;;;;;;;;;;;x
 EVTOPTBHF20028;很抱歉，但是我要尊从[converting_king.GetTitle]的意志。;;;;;;;;;;;;x
-EVTDESCHF20029;自大规模皈依以来已经过去一段时间了。\n显然，旧信仰的追随者在[converting_king.GetTitledFirstName]的新国家里已经不再有地位了。等待的越久，[converting_king.Religion.GetName]的神职人员对我国人民的影响就会越大。\n如果我们还想为古老诸神收回我们的土地并打破新宗教的镣铐，我们必须行动起来。;;;;;;;;;;;;x
+EVTDESCHF20029;自集体皈依以来已经过去一段时间了。\n显然，旧信仰的追随者在[converting_king.GetTitledFirstName]的新国家里已经不再有地位了。等待的越久，[converting_king.Religion.GetName]的神职人员对我国人民的影响就会越大。\n如果我们还想为古老诸神收回我们的土地并打破新宗教的镣铐，我们必须行动起来。;;;;;;;;;;;;x
 EVTOPTAHF20029;是时候重新夺回应当属于我们的东西了！;;;;;;;;;;;;x
 EVTOPTBHF20029;还不到时候。;;;;;;;;;;;;x
 EVTDESCHF20030;致所有[converting_king.PrimaryTitle.GetName]的真神追随者！\n我们的[converting_king.GetTitle]已经抛弃了以往的习俗并把[converting_king.GetHerHis]信仰卖给了一个外国的[sponsoring_king.GetTitle]。我们必须团结一致，打破走上邪路的[converting_king.Religion.GetName]信仰的枷锁！\n[From.GetTitledName];;;;;;;;;;;;x
@@ -495,11 +495,11 @@ EVTOPTAHF20030;[From.GetSisterBrother]，我将会同你站在一起！;;;;;;;;;
 EVTOPTBHF20030;我不能够背叛我的主君。;;;;;;;;;;;;x
 EVTDESCHF20031;[From.GetTitledFirstName]已经召集了[From.GetHerHis]部落并向[converting_king.PrimaryTitle.GetName]境内所有的[converting_king.Religion.GetHighGodName]追随者公开宣战。此举是保卫[From.GetHerHis]落后而将死信仰的最后一搏。;;;;;;;;;;;;x
 EVTOPTAHF20031;是时候永远摆脱这些[From.Religion.GetRandomGodName]的崇拜者了。;;;;;;;;;;;;x
-EVTDESCHF20032;[FromFrom.GetTitledFirstName]决定在[From.PrimaryTitle.GetName]大规模皈依的准备过程中放弃[From.GetHerHis]信仰！\n在这个意外事件之后，[From.GetTitledFirstName]除了取消整个仪式外别无选择。;;;;;;;;;;;;x
+EVTDESCHF20032;[FromFrom.GetTitledFirstName]在集体皈依的准备过程中决定[From.PrimaryTitle.GetName]放弃[From.GetHerHis]信仰！\n在这个意外事件之后，[From.GetTitledFirstName]除了取消整个仪式外别无选择。;;;;;;;;;;;;x
 EVTOPTAHF20032;真是奇怪。;;;;;;;;;;;;x
-EVTDESCHF20033;宫廷收到了关于[FromFrom.GetTitledName]去世的消息。\n没有[FromFrom.GetHerHis]支持，[From.GetTitledFirstName]别无选择只能推迟[From.PrimaryTitle.GetName]大规模皈依的仪式，直到[From.GetSheHe]找到另外一位令人尊敬的[FromFrom.Religion.GetName]统治者支持[From.GetHerHim]做此事。;;;;;;;;;;;;x
+EVTDESCHF20033;宫廷收到了关于[FromFrom.GetTitledName]去世的消息。\n没有[FromFrom.GetHerHis]支持，[From.GetTitledFirstName]别无选择只能推迟[From.PrimaryTitle.GetName]集体皈依的仪式，直到[From.GetSheHe]找到另外一位令人尊敬的[FromFrom.Religion.GetName]统治者支持[From.GetHerHim]做此事。;;;;;;;;;;;;x
 EVTOPTAHF20033;我明白了。;;;;;;;;;;;;x
-EVTDESCHF20035;在[From.GetHerHis]最后一息时，我的[GetFromRelation]反对我们领主放弃古老信仰的决定。由于离大规模改信开始只剩下几天时间，我必须决定是否要追随[From.GetTitledFirstName]的脚步，或者听从我领主的意愿。;;;;;;;;;;;;x
+EVTDESCHF20035;在[From.GetHerHis]最后一息时，我的[GetFromRelation]反对我们领主放弃古老信仰的决定。由于离集体皈依的日子只剩下几天时间，我必须决定是否要追随[From.GetTitledFirstName]的脚步，或者听从我领主的意愿。;;;;;;;;;;;;x
 EVTOPTAHF20035;我将追随我[GetFromRelation]的意愿。;;;;;;;;;;;;x
 EVTOPTBHF20035;[From.GetSheHeCap]总是一个顽固的蠢货。;;;;;;;;;;;;x
 EVTDESCHF20036;为了帮助我的臣民更好的理解他们作为皈依[sponsoring_king.Religion.GetName]者的新职责，[sponsoring_king.GetTitledFirstName]已经派出一名博学的牧师前往[Root.Capital.GetName]。他将对宫廷起到很大的帮助。;;;;;;;;;;;;x
@@ -507,27 +507,27 @@ EVTOPTAHF20036;欢迎来到[Root.PrimaryTitle.GetName]！;;;;;;;;;;;;x
 EVTDESCHF20039;自从那场盛大仪式开始已经过了一段时间。\n皈依[Root.Religion.GetName]信仰的经历令我眼界大开。抛弃旧神使我意识到在侍奉[Root.Religion.GetHighGodName]时，我的人生会有多大的目标。每一天我都惊讶于我的新[Root.Religion.GetName]带来的种种观点上的不同……;;;;;;;;;;;;x
 EVTOPTAHF20039;我一定要接纳这新获得的信仰。;;;;;;;;;;;;x
 EVTOPTBHF20039;但是我改信主要是为了政治理由。;;;;;;;;;;;;x
-EVTDESCHF20040;我愈思考那场大规模皈依，我的内心就愈发怀疑。[sponsoring_king.GetTitledFirstName]的教士们举办了一场不错的表演，但即使整个王国转信后，也没有任何神迹和神启来褒奖你的成就。农民仍旧在田间劳作，首领们仍旧彼此争吵不休。\n什么变化也没有。;;;;;;;;;;;;x
+EVTDESCHF20040;我愈思考那场集体皈依，我的内心就愈发怀疑。[sponsoring_king.GetTitledFirstName]的教士们举办了一场不错的表演，但即使整个王国转信后，也没有任何神迹和神启来褒奖你的成就。农民仍旧在田间劳作，首领们仍旧彼此争吵不休。\n什么变化也没有。;;;;;;;;;;;;x
 EVTOPTAHF20040;为何[Root.Religion.GetHighGodName]不曾与我交谈？;;;;;;;;;;;;x
 EVTOPTBHF20040;我绝对不能动摇，神迹将会出现。;;;;;;;;;;;;x
 EVTDESCHF20041;成为一名[Root.Religion.GetName]迫使我重新思考我人生中的诸多选择。\n如果我不致力于更好的侍奉[Root.Religion.GetHighGodName]和我[Root.Religion.GetName]的臣民，我的皈依将是徒劳的。;;;;;;;;;;;;x
 EVTOPTAHF20041;我应当对我的臣民们做更多的事。;;;;;;;;;;;;x
 EVTOPTBHF20041;[Root.Religion.GetHighGodName]不想要一个软弱的仆人。;;;;;;;;;;;;x
-EVTDESCHF20042;自集体改信那天起，我已经花了很多时间向[sponsoring_king.GetTitledFirstName]的教士学习更多关于我新接受的信仰的知识。\n这些老神职人员日夜不休的布道让我认识到我对[Root.Religion.GetRandomGodName]以及作为一个[Root.Religion.GetName]徒所背负的新职责所知甚少。;;;;;;;;;;;;x
+EVTDESCHF20042;自集体皈依那天起，我已经花了很多时间向[sponsoring_king.GetTitledFirstName]的教士学习更多关于我新接受的信仰的知识。\n这些老神职人员日夜不休的布道让我认识到我对[Root.Religion.GetRandomGodName]以及作为一个[Root.Religion.GetName]徒所背负的新职责所知甚少。;;;;;;;;;;;;x
 EVTOPTAHF20042;我真的什么都不懂。;;;;;;;;;;;;x
 EVTOPTBHF20042;我确信有很多事情教士们也不知道。;;;;;;;;;;;;x
 EVTDESCHF20043;自从我皈依以来，我有了更多时间去沉思有关[Root.Religion.GetHighGodName]的事情。\n在我的新庇护者使我充满神圣的决心去考验我对抗异教徒的勇毅之前，我意识到我仍要证明自己。;;;;;;;;;;;;x
 EVTOPTAHF20043;而且我必须完成考验！;;;;;;;;;;;;x
 EVTOPTBHF20043;倘若我死了，我该怎么为[Root.Religion.GetHighGodName]服务？;;;;;;;;;;;;x
-EVTDESCHF20044;从大规模皈依那天起，我已经花了很多时间向[sponsoring_king.GetTitledFirstName]的教士们学习更多关于我新接受的信仰的知识。如果说有一件事他们能达成共识，那就是定期地、慷慨地将我更多的物质财富投资在新确立的宗教中将多么有益于拯救我的灵魂。;;;;;;;;;;;;x
+EVTDESCHF20044;从集体皈依那天起，我已经花了很多时间向[sponsoring_king.GetTitledFirstName]的教士们学习更多关于我新接受的信仰的知识。如果说有一件事他们能达成共识，那就是定期地、慷慨地将我更多的物质财富投资在新确立的宗教中将多么有益于拯救我的灵魂。;;;;;;;;;;;;x
 EVTOPTAHF20044;也许我应该更加慷慨……;;;;;;;;;;;;x
 EVTOPTBHF20044;我怀疑我拥有的一切都配不上[Root.Religion.GetRandomGodName]。;;;;;;;;;;;;x
-EVTDESCHF20045;从大规模皈依那天起，我已经花了很多时间向[sponsoring_king.GetTitledFirstName]的教士们学习更多关于我新接受的信仰的知识。\n在[Root.GetHouse]度过的一直远离奢侈生活的日子让我限制自己每天只吃两顿很少的饭菜。;;;;;;;;;;;;x
+EVTDESCHF20045;从集体皈依那天起，我已经花了很多时间向[sponsoring_king.GetTitledFirstName]的教士们学习更多关于我新接受的信仰的知识。\n在[Root.GetHouse]度过的一直远离奢侈生活的日子让我限制自己每天只吃两顿很少的饭菜。;;;;;;;;;;;;x
 EVTOPTAHF20045;尽管如此，我必须忍受。;;;;;;;;;;;;x
 EVTOPTBHF20045;受够面包和水了！;;;;;;;;;;;;x
 EVTDESCHF20046;关于成为一名[Root.Religion.GetName]我还有许多东西要学习，但是，多亏了[sponsoring_king.GetTitledFirstName]的教士们的帮助，每天我都能更深一步的理解如何正确地侍奉[Root.Religion.GetHighGodName]。;;;;;;;;;;;;x
 EVTOPTAHF20046;我还有很多关于新宗教的知识要学……;;;;;;;;;;;;x
-EVTDESCHF20047;尽管[converting_king.PrimaryTitle.GetName]的大规模皈依已经成功了，但是我帮助那些[converting_king.GetTitledFirstName]的野蛮民众转变为合格的[Root.Religion.GetName]皈依者的工作还尚未完成。;;;;;;;;;;;;x
+EVTDESCHF20047;尽管[converting_king.PrimaryTitle.GetName]的集体皈依已经成功了，但是我帮助那些[converting_king.GetTitledFirstName]的野蛮民众转变为合格的[Root.Religion.GetName]皈依者的工作还尚未完成。;;;;;;;;;;;;x
 EVTOPTAHF20047;一座新的教堂正是他们所需要的。;;;;;;;;;;;;x
 EVTTOOLTIPAHF20047;联系§Y[converting_king.GetTitledFirstName]§!告知[converting_king.GetHerHim]你想在[converting_king.GetHerHis]的土地上投资兴建一座新的教堂.;;;;;;;;;;;;x
 EVTOPTBHF20047;钱总是有用的。;;;;;;;;;;;;x
@@ -575,7 +575,7 @@ EVTOPTAHF20064;我们将为[FromFrom.GetHerHim]大摆筵席，以示欢迎。;;;
 EVTOPTBHF20064;一场欢迎阅兵就足够了。;;;;;;;;;;;;x
 EVTOPTCHF20064;我们只能用一顿廉价的饭对付过去了。;;;;;;;;;;;;x
 EVTOPTDHF20064;我们付不起任何东西。;;;;;;;;;;;;x
-EVTDESCHF20065;对我来说，这趟去往[From.PrimaryTitle.GetName]部落领地的旅途着实是振奋人心的。只带了几名护卫，我离开了熟悉的故乡，前往未知世界的蛮荒地域，旨在帮助将[Root.Religion.GetHighGodName]的言语播撒在这片陌生的土地上。我已经迫不及待地想见证[From.GetTitledFirstName]同[From.GetHerHis]臣民大规模皈依的效果了。;;;;;;;;;;;;x
+EVTDESCHF20065;对我来说，这趟去往[From.PrimaryTitle.GetName]部落领地的旅途着实是振奋人心的。只带了几名护卫，我离开了熟悉的故乡，前往未知世界的蛮荒地域，旨在帮助将[Root.Religion.GetHighGodName]的言语播撒在这片陌生的土地上。我已经迫不及待地想见证[From.GetTitledFirstName]同[From.GetHerHis]臣民集体皈依的效果了。;;;;;;;;;;;;x
 EVTOPTAHF20065;向前！向前！向前！;;;;;;;;;;;;x
 EVTDESCHF20066;[From.GetTitledFirstName]的队伍最终被目击到出现在我的省份。 虽然[From.GetSheHe]知道通往[Root.Capital.GetName]的路途，派人与[From.GetHerHim]见面并正式欢迎[From.GetHerHim]到访[Root.PrimaryTitle.GetName]也许能帮助他们。;;;;;;;;;;;;x
 EVTOPTAHF20066;我应该亲自去，带上[convert_lord_spiritual.GetTitledName]同行。;;;;;;;;;;;;x
@@ -670,7 +670,7 @@ EVTDESCDHA20088;终于到了[From.PrimaryTitle.GetName]的[From.GetTitle]离开[
 EVTOPTAHF20088;只有时间才能够回答......;;;;;;;;;;;;x
 EVTDESCDHA20089;这一天终于到了，是时候离开[From.Capital.GetName]回到我自己的领地了。同[From.GetTitledFirstName]的部落一同生活是一段相当有趣的经历。我亲自来到这里，同这些新的皈依者会面，借此尽我所能地将这些往日的原始宗教徒引向了正确的道路。;;;;;;;;;;;;x
 EVTOPTAHF20089;我真是个虔诚的[Root.GetTitle]。;;;;;;;;;;;;x
-CHRONICLE_SPONSOR_VISIT;[sponsoring_king.GetTitledName]已经决定亲赴[converting_king.PrimaryTitle.GetName]以会见[converting_king.GetTitledFirstName]，并在那里见证[converting_king.GetHerHis]领地在盛大仪式中大规模皈依之后的蜕变。;;;;;;;;;;;;x
+CHRONICLE_SPONSOR_VISIT;[sponsoring_king.GetTitledName]已经决定亲赴[converting_king.PrimaryTitle.GetName]以会见[converting_king.GetTitledFirstName]，并在那里见证[converting_king.GetHerHis]领地在盛大仪式中集体皈依之后的蜕变。;;;;;;;;;;;;x
 EVTTITLE20090;[converting_king.PrimaryTitle.GetName]的皈依;;;;;;;;;;;;x
 EVTDESCHFA20090;[converting_king.PrimaryTitle.GetName]已经皈依了[sponsoring_king.Religion.GetName]信仰。[sponsoring_king.PrimaryTitle.GetName]的[sponsoring_king.GetTitle]派来的一队教士举行了一项盛大的仪式，在其中宣告所有[converting_king.PrimaryTitle.GetName]的百姓连同[converting_king.GetTitledFirstName]和[converting_king.GetHerHis]许多封臣已然改信。\n通过这项仪式，[converting_king.PrimaryTitle.GetName]的人民一劳永逸地抛弃了他们旧日原始宗教的神灵。;;;;;;;;;;;;x
 EVTOPTAHF20090;有趣......;;;;;;;;;;;;x
@@ -1165,7 +1165,7 @@ nick_the_sky_rider;天之骑士;;;;;;;;;;;;x
 nick_the_civilized;开化者;;;;;;;;;;;;x
 vassal_tooltip_deceitful_baptism;你将保留你的§Y真正信仰§!，同时旧信仰的§Y秘密社团§!会在你的省份中继续存在。;;;;;;;;;;;;x
 faction_true_belivers_title;真信者;;;;;;;;;;;;x
-faction_true_belivers_desc;联合反抗§Y[From.Liege.GetBestName]§!最近所强加的大规模改信。;;;;;;;;;;;;x
+faction_true_belivers_desc;联合反抗§Y[From.Liege.GetBestName]§!最近所强加的集体皈依。;;;;;;;;;;;;x
 faction_true_belivers_short;真信者;;;;;;;;;;;;x
 truebelievers_preparation_tooltip;召唤仍在领地内的真信者们加入战斗。;;;;;;;;;;;;x
 EVTDESCHF20092;我等得够久了。是时候澄清我的意图，打破新信仰的束缚了。;;;;;;;;;;;;x
@@ -1182,7 +1182,7 @@ nick_the_waking_teacher;觉醒导师;;;;;;;;;;;;x
 nick_the_whirling_spell;旋转之咒;;;;;;;;;;;;x
 nick_the_horse_shepherd;牧马人;;;;;;;;;;;;x
 nick_the_educator;教导者;;;;;;;;;;;;x
-EVTDESCHFA20093;我收到了[converting_king.PrimaryTitle.GetName]大规模皈依的消息。;;;;;;;;;;;;x
+EVTDESCHFA20093;我收到了[converting_king.PrimaryTitle.GetName]集体皈依的消息。;;;;;;;;;;;;x
 EVTOPTAHF20093;[sponsoring_king.GetTitledFirstName]赢得了回归教会怀抱的权利。;;;;;;;;;;;;x
 EVTDESCHFA20094;致高尚的[Root.GetTitledName]，\n考虑到你使[converting_king.PrimaryTitle.GetName]异教徒改信的行动，我已决定欢迎你重归我们慈母教会温暖神圣的怀抱。\n\n\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTAHF20094;我的善行终于被认可了！;;;;;;;;;;;;x
@@ -4003,7 +4003,7 @@ lustful_opinion_EXPLANATION; (effect on Lustful);;;;;;;;;;;;x
 opinion_of_lustful_EXPLANATION; (opinion of Lustful);;;;;;;;;;;;x
 lustful_opinion;Lustful character opinion;;;;;;;;;;;;x
 opinion_of_lustful;Opinion of Lustful;;;;;;;;;;;;x
-PAGAN_BAPTISM_DESC_DELAYED;选择一位信仰有组织宗教的统治者，请求他来担任[Root.PrimaryTitle.GetName]集体皈依的教父母。\n信奉一个更文明的宗教对你凝聚国家，促使部落定居大有帮助。\n[Root.GetMassBaptismTribalAuthorityHint];;;;;;;;;;;;x
+PAGAN_BAPTISM_DESC_DELAYED;选择一位信仰有组织宗教的统治者，请求他帮助[Root.PrimaryTitle.GetName]集体皈依。\n信奉一个更文明的宗教对你凝聚国家，摆脱部落的生活方式大有帮助。\n[Root.GetMassBaptismTribalAuthorityHint];;;;;;;;;;;;x
 CHARVIEW_COMBAT_RATING;§Y个人实战技能§!;;;;;;;;;;;;x
 ARTIFACT_MODIFIER_HEADER;§Y宝物效果§!;;;;;;;;;;;;x
 NUM_CULTURE_PROVINCES_TRIGGER;同文化省份数量为$COMPARISON$$VALUE|Y$;;;;;;;;;;;;x
@@ -6280,10 +6280,10 @@ available_because_duels_bad;[Root.GetDaringDuelOptionAvailable];;;;;;;;;;;;x
 string_available_due_to_duelist_skill_worse_than_enemy;此选项可用是因为你的决斗造诣要§R低于§!§Y[enemy_commander.GetTitledFirstName]§!;;;;;;;;;;;;x
 string_available_due_to_low_duelist_skill;This option is available because of your §Rlow§! §YPersonal Combat§! skill;;;;;;;;;;;;x
 available_because_duels;[Root.GetDuelOptionAvailable];;;;;;;;;;;;x
-EVTDESC_HF_11026;Each swing of my [Root.GetDuelWeapon] has sent me deeper into enemy territory. Before I know it, I am surrounded. With a burst of energy, I roar loudly, causing a few of them to hesitate and one unfortunate soldier to stagger backwards, tripping over a rock. I can't help but notice that [Root.GetSheHe] drops [Root.GetHerHis] weapon in the [battlefield_location.GetGroundDesc]!;;;;;;;;;;;;x
-EVTOPTA_HFP_11026;I'll take that blade and send you back to [enemy_liege.Religion.GetHighGodName] with it!;;;;;;;;;;;;x
-EVTOPTB_HFP_11026;I am not here for the discarded junk of my enemy.;;;;;;;;;;;;x
-EVTOPTB_HFP_11026_TT;You rely on your own weapons.;;;;;;;;;;;;x
+EVTDESC_HF_11026;每当我多挥舞一次我的[Root.GetDuelWeapon]，我就更深入敌人内部一点。在我意识到这点之前，我就早已经被包围了。随着体内的力量的突然迸发，我发出了一声震耳欲聋的战吼，几个敌人明显被震住了，其中一个倒霉的小兵被吓的往后走了几步，却刚好被一块石头绊倒了。我没法不去注意[Root.GetSheHe]把[Root.GetHerHis]武器掉在了[battlefield_location.GetGroundDesc]上！;;;;;;;;;;;;x
+EVTOPTA_HFP_11026;我会抄起这把刀，把你们都送去见[enemy_liege.Religion.GetHighGodName]！;;;;;;;;;;;;x
+EVTOPTB_HFP_11026;我可不打算用这个从敌人手上掉下来的垃圾。;;;;;;;;;;;;x
+EVTOPTB_HFP_11026_TT;你打算依靠自己的武器。;;;;;;;;;;;;x
 sword_1_battlefield;A Knife;;;;;;;;;;;;x
 sword_2_battlefield;A Heavy Blade;;;;;;;;;;;;x
 sword_3_battlefield;A Short-Sword;;;;;;;;;;;;x
@@ -12615,13 +12615,13 @@ tb_great_pillar_zun_desc;A sacred golden pillar bearing deep religious significa
 tb_great_pillar_hellenic;[GetZeusJupiterName] Column;;;;;;;;;;;;x
 tb_great_pillar_hellenic_desc;A sacred carved pillar bearing deep religious significance for the local pagan tribes.;;;;;;;;;;;;x
 tribal_build_great_pillar;建造大立柱;;;;;;;;;;;;x
-tribal_build_great_pillar_desc;在你的首都内树立一个神圣的纪念碑，这将成为萨满们向神献祭的聚会场所，并且提升你在§Y[Root.Location.Religion.GetName]§!信仰内部的§Y道德权威§!;;;;;;;;;;;;x
+tribal_build_great_pillar_desc;在你的首都内树立一个神圣的纪念碑，这将成为萨满们向神献祭的聚会场所，并且提升你所信仰的§Y[Root.Location.Religion.GetName]§!的§Y宗教权威§!;;;;;;;;;;;;x
 tooltip_province_already_has_great_pillar;§Y[Root.GetName]§!内部没有§Y大立柱§!;;;;;;;;;;;;x
 tooltip_celebrate_new_great_pillar;一根§Y大立柱§!将会在§Y[Root.GetName]§!的广场中央树起。;;;;;;;;;;;;x
 built_great_pillar;大立柱落成;;;;;;;;;;;;x
 destroyed_great_pillar;大立柱被毁;;;;;;;;;;;;x
 recently_built_great_pillar;立起大立柱;;;;;;;;;;;;x
-recently_built_great_pillar_desc;A great pillar celebrating the [Root.Religion.GetName] faith has been recently erected in [Root.GetFirstName]'s realm, igniting [Root.GetHerHis] religious fervor.;;;;;;;;;;;;x
+recently_built_great_pillar_desc;一根[Root.Religion.GetName]信仰的大立柱最近在[Root.GetFirstName]的领地内被立下，这将激起[Root.GetHerHis]宗教热情。;;;;;;;;;;;;x
 recently_destroyed_great_pillar_cooldown;遭焚的大立柱;;;;;;;;;;;;x
 recently_destroyed_great_pillar_cooldown_desc;One of the great symbols of the [Root.Religion.GetName] faith have been recently destroyed, breaking this [Root.GetManWoman]'s faith.;;;;;;;;;;;;x
 destroy_great_pillar;摧毁大立柱;;;;;;;;;;;;x
@@ -12636,12 +12636,12 @@ EVTDESCDHF23470;通过建造我们新的大立柱，[Root.Religion.GetName]信�
 EVTDESCEHF23470;By consecrating an Hisii Grove, the fires of the [Root.Religion.GetName] faith have been stoked, bringing a bit of life to the spirits of our old and mysterious gods. The first offerings are already being presented at the feet of the new sacred monument of [From.GetName].;;;;;;;;;;;;x
 EVTDESCFHF23470;By carving this Great Totem, the fires of the [Root.Religion.GetName] faith have been stoked, bringing upon our tribes the protection of many benevolent spirits. The first offerings are already being presented at the feet of the new sacred monument of [From.GetName].;;;;;;;;;;;;x
 EVTDESCGHF23470;By carving this imposing Totem with the remains of our sacrifices, we have provided the gods with a great offering, buying us some reprieve from their terrible thirst for blood. The first offerings are already being presented at the feet of the new sacred monument of [From.GetName].;;;;;;;;;;;;x
-EVTDESCHHF23470;By carving this great monument, the fires of the [Root.Religion.GetName] faith have been stoked, bringing a bit of life to the spirits of our old and benevolent gods. The first offerings are already being presented at the feet of the new sacred monument of [From.GetName].;;;;;;;;;;;;x
+EVTDESCHHF23470;通过建造我们新的大纪念碑，[Root.Religion.GetName]信仰的热情被点燃了，这给我们那虽然古老但是依然不屈的神灵带去了一点精神上的活力。第一批祭品早已在[From.GetName]的全新且神圣的大立柱脚下被献祭，直达神祇。;;;;;;;;;;;;x
 EVTDESCIHF23470;By carving this opulent shrine to the Sun, the fires of the [Root.Religion.GetName] faith have been stoked. The first offerings are already being presented at the feet of the new sacred monument of [From.GetName].;;;;;;;;;;;;x
 EVTDESCLHF23470;By carving this imposing [GetZeusJupiterName] Column, the fires of the [Root.Religion.GetName] faith have been stoked, bringing a bit of life to the spirits of our old and dignified gods. The first offerings are already being presented at the feet of the new sacred monument of [From.GetName].;;;;;;;;;;;;x
-EVTOPTAHF23470;Shield us from harm!;;;;;;;;;;;;x
+EVTOPTAHF23470;请保护我们不受伤害！;;;;;;;;;;;;x
 EVTTITLEHF23471;[From.PrimaryTitle.GetName]的大立柱;;;;;;;;;;;;x
-EVTDESCAHF23471;[From.GetTitledFirstName] has ordered the construction of a great monument to worship the old gods and garner their favor. This magnificent shrine has been erected in [From.Capital.GetName], where many shamans, fortunetellers and petitioners have already started to gather, hoping to receive a divine vision.;;;;;;;;;;;;x
+EVTDESCAHF23471;[From.GetTitledFirstName]已经下令建造一个全新的大纪念碑，以此来崇拜古神们并且赢得他们的青睐。这座雄伟的神坛已经在[From.Capital.GetName]里被建造起来，许多萨满，占卜师和求愿人已经聚集在一起，希望能够获得神圣的启示。;;;;;;;;;;;;x
 EVTOPTAHF23471;古老的神明依旧在保护我们！;;;;;;;;;;;;x
 EVTOPTBHF23471;我懂了…;;;;;;;;;;;;x
 EVTTITLEHF23473;[From.GetName]之柱;;;;;;;;;;;;x
@@ -12650,7 +12650,7 @@ EVTOPTAHF23473;毁掉它！;;;;;;;;;;;;x
 tooltip_destroy_great_pillar;通过毁掉这个圣迹，异教的§Y宗教权威§!将会被削弱。;;;;;;;;;;;;x
 EVTOPTBHF23473;别管这个。;;;;;;;;;;;;x
 EVTTITLEHF23474;巨柱倾塌;;;;;;;;;;;;x
-EVTDESCAHF23474;[From.GetTitledFirstName] has laid waste of the Great Pillar of [From.GetName]. [From.GetHerHisCap] soldiers have torn down this sacred monument to the old gods. Having proved unable to protect their holy shrine, we have proven ourselves unworthy of the favor of the gods, who have surely turned their backs on us after this ignominious event.;;;;;;;;;;;;x
+EVTDESCAHF23474;[From.GetTitledFirstName]已经摧毁了[From.GetName]的大立柱。[From.GetHerHisCap]士兵将这座古神的神圣纪念碑彻底推倒。这恰好证明了这些古神根本没有能力保护他们的圣所，而我们就是那批不被神眷顾的无用之人，我们很确信，在这次卑鄙下流的事件之后，诸神已经转身离开了我们。;;;;;;;;;;;;x
 EVTOPTAHF23474;我们被遗忘了！;;;;;;;;;;;;x
 EVTTITLEHF23476;逝往神灵;;;;;;;;;;;;x
 EVTDESCAHF23476;长久以来，我纵容着这个古老而亵渎神明的旧神遗物污染着我的土地，放任它将怪诞的阴影投在[From.GetName]善良的人们身上。 当我的士兵最终拆毁了这根柱子，并将其残骸撒落到空旷野中，再也找不回来时，那几个迂腐守旧的顽固信徒的哀号响彻了整片天际。;;;;;;;;;;;;x
@@ -13090,13 +13090,13 @@ EVTOPTAHF23911;荣耀归于[From.Religion.GetRandomGodName]！;;;;;;;;;;;;x
 opinion_held_great_festival;Held Great Festival;;;;;;;;;;;;x
 great_tribal_festival_1;Festivals Held;;;;;;;;;;;;x
 great_tribal_festival_2;Great Festivals Held;;;;;;;;;;;;x
-string_baptism_low_tribal_authority;Undergoing a §YMass Conversion§! while below §YAbsolute Tribal Authority§! will increase the chances of §YPagan Vassals§! rejecting the new religion.;;;;;;;;;;;;x
+string_baptism_low_tribal_authority;在低于§Y绝对部落权威§!的情况下经历§Y集体皈依§!将增加§Y原始宗教封臣§!拒绝新宗教的几率。;;;;;;;;;;;;x
 mass_baptism_capital_traders;外国商人;;;;;;;;;;;;x
-mass_baptism_capital_traders_desc;由于近期这个省份领主的改信，大批来自其他先进地区的商人被吸引到了当地，经济得到了振兴。;;;;;;;;;;;;x
+mass_baptism_capital_traders_desc;由于近期这个省份领主的集体皈依，大批来自其他更先进地区的商人被吸引到了当地，当地贸易得到了振兴。;;;;;;;;;;;;x
 mass_baptism_capital_missionaries;Charity Sermons;;;;;;;;;;;;x
 mass_baptism_capital_missionaries_desc;The new clergy of this realm is attempting to sway the remaining pagan converts to fully embrace the new faith.;;;;;;;;;;;;x
 mass_baptism_capital_builders;外国建筑师;;;;;;;;;;;;x
-mass_baptism_capital_builders_desc;由于近期这个省份领主的改信，大批来自其他先进地区的资深手工艺者来到当地，并向当地提供他们的生产技术。;;;;;;;;;;;;x
+mass_baptism_capital_builders_desc;由于近期这个省份领主的集体皈依，大批来自其他更先进地区的资深手工艺者来到当地，并向当地提供他们的技术。;;;;;;;;;;;;x
 EVTDESCAHF20112;[From.GetTitledFirstName] has been suggesting for a few days now that, as a [Root.Religion.GetName] ruler, I am no longer under any obligation to allow the other Chieftains to determine how to divide my own lands once I die. [From.GetSheHeCap] assures me that I am well within my right to pass down my titles directly to my children.;;;;;;;;;;;;x
 EVTOPTAHF20112;Sounds very convenient...;;;;;;;;;;;;x
 EVTOPTBHF20112;No, we must keep this tradition.;;;;;;;;;;;;x
@@ -14205,7 +14205,7 @@ employ_priestess;邀请女性神职人员前来宫廷;;;;;;;;;;;;x
 employ_priestess_desc;寻找女性神职人员加入我的宫廷，在宗教事务上给我建议。;;;;;;;;;;;;x
 employ_stewardess;邀请贵族前来宫廷;;;;;;;;;;;;x
 employ_stewardess_desc;邀请文武兼备的贵族加入我的宫廷，帮助我管理领地。;;;;;;;;;;;;x
-tooltip_mass_convert_during_crusade;Send a letter to §Y[This.GetTitledFirstName]§! to sponsor the mass conversion of your realm in exchange for the annulment of the §YCrusade§!.;;;;;;;;;;;;x
+tooltip_mass_convert_during_crusade;寄信给§Y[This.GetTitledFirstName]§!，请求其帮助你的领地集体皈依，以此作为取消§Y十字军§!的代价。;;;;;;;;;;;;x
 opinion_saved_me;救了我;;;;;;;;;;;;x
 opinion_left_me_to_die;Left me to die;;;;;;;;;;;;x
 opinion_hunted_with_me;Hunted with me;;;;;;;;;;;;x
@@ -14698,7 +14698,7 @@ EVTOPTCHF24063;I will divert some resources to reassure the opposition.;;;;;;;;;
 EVTOPTDHF24063;These people are simply envious of my achievements!;;;;;;;;;;;;x
 EVTOPTEHF24063;I dare not upset the clergy.;;;;;;;;;;;;x
 EVTOPTAHF24064;For a realm of integrity and virtue.;;;;;;;;;;;;x
-EVTTITLEHF24065;The Patron of the Arts;;;;;;;;;;;;x
+EVTTITLEHF24065;艺术赞助人;;;;;;;;;;;;x
 EVTDESCAHF24065;In order to attract artists and philosophers to [Root.Capital.GetName] I need to offer patronage and protection, as well as make sure that my court is an open space for free thinkers, one where they are able to express themselves and research new concepts without risk of punishment.;;;;;;;;;;;;x
 EVTOPTAHF24065;I will personally reorganize the court.;;;;;;;;;;;;x
 EVTOPTBHF24065;我们不会吝惜任何投资！;;;;;;;;;;;;x
