@@ -3308,7 +3308,7 @@ EVTOPTAHFP21121;这是耻辱！;;;;;;;;;;;;x
 EVTDESCHFP21123;[From.GetTitledFirstName] and I have grown too far apart. It is very unlikely [From.GetSheHe] will ever respond positively to my attempts to sway [From.GetHerHim] any longer.;;;;;;;;;;;;x
 EVTOPTAHFP21123;我应该不再尝试了。;;;;;;;;;;;;x
 tooltip_21123_A;Stop attempting to §YSway§! §Y[From.GetTitledFirstName]§! to your cause.;;;;;;;;;;;;x
-start_sway;Sway [Root.GetTitledFirstName];;;;;;;;;;;;x
+start_sway;拉拢[Root.GetTitledFirstName];;;;;;;;;;;;x
 stop_sway;停止拉拢[Root.GetTitledFirstName];;;;;;;;;;;;x
 start_antagonize;对抗[Root.GetTitledFirstName];;;;;;;;;;;;x
 stop_antagonize;停止对抗[Root.GetTitledFirstName];;;;;;;;;;;;x
@@ -3450,7 +3450,7 @@ EVTDESCAHFP20694;我没必要担心。我的吟游诗人演奏他的作品，[Fr
 EVTOPTAHFP20694;重要的是没人受伤。;;;;;;;;;;;;x
 EVTDESCAHFP20695;今晨，昨晚在我宫廷里演出的吟游诗人的主人[From.GetTitledFirstName]为那些不合时宜的歌曲道歉。当我告诉[From.GetHerHim]我很清楚那些歌曲的含义并赞赏这种表现手法的时候，[From.GetSheHeCap]如释重负。;;;;;;;;;;;;x
 EVTOPTAHFP20695;这只是一首歌罢了，[From.GetFirstName]！;;;;;;;;;;;;x
-EVTDESCAHFP20696;我担心的事情发生了：诗人的歌曲极大地激怒了[From.GetTitledFirstName]，我的大人把那吟游诗人鞭打了一顿并且毫不客气地赶出了宫廷。不幸的是，今晨我听到消息说，那个人仍未吸取教训，他在乡间漫步，继续表演那些可耻的作品。;;;;;;;;;;;;x
+EVTDESCAHFP20696;我担心的事情发生了：诗人的歌曲极大地激怒了[From.GetTitledFirstName]，我的主君把那吟游诗人鞭打了一顿并且毫不客气地赶出了宫廷。不幸的是，今晨我听到消息说，那个人仍未吸取教训，他在乡间漫步，继续表演那些可耻的作品。;;;;;;;;;;;;x
 EVTOPTAHFP20696;至少我不是他的目标……;;;;;;;;;;;;x
 EVTDESCAHFP20697;看起来我的公平宽大没有得到感激。我早该把这个吟游诗人鞭打一顿后逐出宫廷，可现在他仍然继续着他的无礼之举。我听说他正在乡下闲逛，逢人便诉说那些有损我形象的歌曲。;;;;;;;;;;;;x
 EVTOPTAHFP20697;我应该杀了他……;;;;;;;;;;;;x
@@ -4445,13 +4445,13 @@ EVTOPTD_HF_10021;不过，我还是喜欢现在的生活方式。;;;;;;;;;;;;x
 EVTOPTA_HF_10021_tt;这将导向§Y决斗大师§!特质\n;;;;;;;;;;;;x
 EVTOPTB_HF_10021_tt;这将导向§Y策略家§!特质\n;;;;;;;;;;;;x
 EVTOPTC_HF_10021_tt;这将导向§Y猎人§!特质\n;;;;;;;;;;;;x
-EVTDESC_HF_10022;我研究了我的士兵练习剑术的情况，我肯定他们中很大一批人并没有受到他们[Root.GetTitle]的好好监督…;;;;;;;;;;;;x
+EVTDESC_HF_10022;我研究了我的士兵练习剑术的情况，我肯定他们中很大一批人被他们的[Root.GetTitle]持续观摩而弄得心神不宁……也许是时候承认，当我在未来面对自己的决斗时这些指导技巧将派上用场。不出意外的话，我会加入他们的训练……;;;;;;;;;;;;x
 EVTOPTA_HF_10022;我会让[mentor_target.GetTitledFirstName]教我所有[mentor_target.GetSheHe]知道的。;;;;;;;;;;;;x
 EVTOPTB_HF_10022;我会谨慎地让一些人指导我。;;;;;;;;;;;;x
 EVTOPTC_HF_10022;我想我宁愿一个人去。;;;;;;;;;;;;x
 rigorous_practice;严格的训练;;;;;;;;;;;;x
 rigorous_practice_desc;这名角色据说遵循的是相当严格的训练方法。;;;;;;;;;;;;x
-EVTDESC_HF_10023;我的[From.GetRootRelation][From.GetTitledFirstName]联系我，要求进行一对一的个人战斗课程。信使说，「[From.GetTitle]会感谢我们所能提供的所有指导，我的[Root.GetLordLady]」。;;;;;;;;;;;;x
+EVTDESC_HF_10023;我的[From.GetRootRelation][From.GetTitledFirstName]联系我，要求进行一对一的个人战斗课程。信使说，「[From.GetTitle]会感谢我们所能提供的所有指导，我[Root.GetLordLady]」。;;;;;;;;;;;;x
 EVTOPTA_HF_10023;I'll of course personally set up [From.GetHerHis] training regime.;;;;;;;;;;;;x
 EVTOPTB_HF_10023;I will loan [From.GetHerHim] some of my best veterans to practice with.;;;;;;;;;;;;x
 duelist_mentor;Duelist Mentor;;;;;;;;;;;;x
@@ -4896,7 +4896,7 @@ EVTOPTD38020;绝不！我那[christian.GetGroupName]的灵魂的救赎更重要�
 setting_dejure_random;随机;;;;;;;;;;;;x
 setting_dejure_random_tooltip;法理王国/帝国在游戏开始时的法理层次将根据下面设置的参数动态生成（§Y法理王国数量§!和§Y法理帝国数量 §!）;;;;;;;;;;;;x
 start_sway_desc;开始拉拢§Y[Root.GetTitledFirstName]§!。\n\n当你开始拉拢另外一名角色时，你将会有数个机会来增加他对你的§Y好感§!。这些机会有很多种，而这经常取决于你与你拉拢的那位角色的关系。你只能同时拉拢一名角色。;;;;;;;;;;;;x
-start_sway_charview_tooltip;§YSway [Root.GetTitledFirstName]§!;;;;;;;;;;;;x
+start_sway_charview_tooltip;§Y拉拢[Root.GetTitledFirstName]§!;;;;;;;;;;;;x
 start_sway_charview_tooltip_delayed;开始拉拢§Y[Root.GetTitledFirstName]§!。\n\n当你开始拉拢另外一名角色时，你将会有数个机会来增加他对你的§Y好感§!。这些机会有很多种，而这经常取决于你与你拉拢的那位角色的关系。你只能同时拉拢一名角色。;;;;;;;;;;;;x
 stop_sway_desc;停止拉拢§Y[Root.GetTitledFirstName]§!，结束改善[Root.GetHerHis]看法。;;;;;;;;;;;;x
 stop_sway_charview_tooltip;§Y停止拉拢[Root.GetTitledFirstName]§!;;;;;;;;;;;;x
@@ -6215,14 +6215,14 @@ EVTOPTA_MNM_1214_other;Oh, my darling... Even knowing the future, I could not pr
 EVTOPTB_MNM_1214_other;Oh, my darling... I must strive to understand the visions better.;;;;;;;;;;;;x
 EVTDESC_HFP_11025_dog;Swinging my blade [Root.GetClumsilyElegantly] in front of me, while my trusted dog gnaws at the legs of my enemies, the battle rages on [battlefield_location.GetThroughOver] the [battlefield_location.GetTerrain]. Then there is a cry from a soldier nearby. "Incoming arrows! My [Root.GetLordLady], watch out! Wait, what is that dog-" *thwack*;;;;;;;;;;;;x
 EVTDESC_HFP_11025_cat;[battlefield_location.GetInOn][battlefield_location.GetTerrain]中，我的猫成为了真正的宝藏，因为它成为了任何伤兵的心灵慰藉。尽管当我第一次发现它睡在我的马鞍包里跟着我上战场的时候，我是有些生气的。不过现在我已经不这么想了——「咻」;;;;;;;;;;;;x
-EVTDESC_HFP_11025_horse;My horse and I are of one mind and body. Having trained together for long, the enemy has begun fearing us both. "Watch out, it's [Root.GetTitledFirstName] and [Root.GetWarhorseName]!" they tell each other. When I sleep, [Root.GetWarhorseName] sleeps. So when a blade cuts into [Root.GetHerHim], I feel like I bleed too...;;;;;;;;;;;;x
+EVTDESC_HFP_11025_horse;我的马与我同心共体。经过长时间的共同训练，任何敌人都惧怕我们。「小心，[Root.GetTitledFirstName]和[Root.GetWarhorseName]来了！」他们这样警告彼此。就连睡觉的时候，我和[Root.GetWarhorseName]也不曾分开。所以当刀刃插入[Root.GetHerHim]的时候，我感到我的心也在滴血……;;;;;;;;;;;;x
 EVTDESC_HFP_11025_owl;Some argued when my owl came with us on this campaign, but between the comforting presence it brings our strategic meetings and the distracting screeching it offers our enemies, protests have ceased. "Attack!" I yell [battlefield_location.GetThroughOver] the [battlefield_location.GetTerrain], and my owl swooshes above my head. Then I see the arrows.;;;;;;;;;;;;x
 EVTDESC_HFP_11025_eagle;Not everybody has a personal bodyguard in the shape of a majestic eagle at their side. More than once [Root.GetSheHe] has aided my attacks here [battlefield_location.GetInOn] the [battlefield_location.GetTerrain] and charging at my enemies, knocking them off their horses, into the [battlefield_location.GetGroundDesc]. There is a comfort in the screeching echoing above me. I am just concerned about-;;;;;;;;;;;;x
-EVTDESC_HFP_11025_falcons;Riding [battlefield_location.GetThroughOver] the [battlefield_location.GetTerrain] I am finding my strength draining from me. Sweat is mixing with dirt and blood down my face and I see an enemy knocking an arrow, taking aim at me. Then I see a bird, swooping down, picking at the rider's face!;;;;;;;;;;;;x
+EVTDESC_HFP_11025_falcons;当我骑着马[battlefield_location.GetThroughOver][battlefield_location.GetTerrain]，感受到我身上的力量正在慢慢消失。混合着泥土与血的汗液从我的脸淌下，我看到一个敌人正用弓箭瞄准着我。就在这时，我看到一只鸟俯冲而下，直扑着那个敌人的脸而去！;;;;;;;;;;;;x
 EVTDESC_HFP_11025_fallback;骑马[battlefield_location.GetThroughOver][battlefield_location.GetTerrain]，我看到了一群[enemy_commander.GetEnemySoldierDesc]正举着武器，向我的部队发起冲锋。\n当他们的冲锋结束时，我的手下几乎全死光了。我无法控制住我的双膝，径直的跪在了[battlefield_location.GetGroundDesc]上，想着为什么我一个人还苟活在这里。;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_dog;不！我的好狗！你明明对这个世界充满善意……！;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_TT_dog;你的狗为你挡了一箭。\n;;;;;;;;;;;;x
-EVTOPTA_HFP_11025_cat;哪里飞来的箭？！我的猫咪，不！！！;;;;;;;;;;;;x
+EVTOPTA_HFP_11025_cat;一支箭？！我的猫咪，不！！！;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_TT_cat;你的猫被列入了伤亡名单。\n;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_horse;[Root.GetWarhorseName]，不！你的牺牲不会被遗忘的……！;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_TT_horse;你的马死于战斗。\n;;;;;;;;;;;;x
@@ -6235,7 +6235,7 @@ EVTOPTA_HFP_11025_TT_falcons;那只鸟或许救了你的命。\n;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_fallback;我……发生了什么？我根本就不该在这……;;;;;;;;;;;;x
 EVTOPTA_HFP_11025_TT_fallback;在未来你将努力克服这些事件……\n;;;;;;;;;;;;x
 EVTOPTB_HFP_11025;敌人的指挥官在哪？！我要亲手杀了[enemy_commander.GetHerHim]！;;;;;;;;;;;;x
-EVTOPTB_HFP_11025_TT;You chase down the §Y[enemy_commander.GetTitledFirstName]§! for a personal duel, while your soldiers tend to your wounded animal.\n;;;;;;;;;;;;x
+EVTOPTB_HFP_11025_TT;你对§Y[enemy_commander.GetTitledFirstName]§!紧追不舍，要求与之决斗，尽管你的士兵可能会任人宰割。\n;;;;;;;;;;;;x
 chase_down_enemy_commander_tt;你对§Y[enemy_commander.GetTitledFirstName]§!紧追不舍，在战场上直接与他展开了一场决斗……！\n;;;;;;;;;;;;x
 string_Lightning;Lightning;;;;;;;;;;;;x
 string_Sky;Sky;;;;;;;;;;;;x
@@ -8180,13 +8180,13 @@ crowned_by_bishop_rd_desc;This ruler was anointed by a notable member of the cle
 crowned_by_pope_rd;由教宗加冕;;;;;;;;;;;;x
 crowned_by_pope_rd_desc;这位统治者由[GetChristName]在人间的代理人施行了涂油礼。\n这无可辩驳地证明了[Root.GetHerHis]神圣的统治权。;;;;;;;;;;;;x
 EVTDESCHFB20300;现在我找到了一位愿意为我加冕的[Root.Religion.GetName]教士，我现在必须决定我在这场加冕礼上究竟要花多少钱。;;;;;;;;;;;;x
-tooltip_EVTHF20356_A;All of your vassals' Opinion of you is lowered by §R-10§!.;;;;;;;;;;;;x
+tooltip_EVTHF20356_A;你的所有封臣对你的好感度§R-10§!。;;;;;;;;;;;;x
 tooltip_religion_feature_no_matrimarriage;§R不允许入赘婚姻 §!;;;;;;;;;;;;x
 inaccessible_tooltip;没有处在藏匿、被软禁、旅行状态，或在其他重要事务中脱不开身\n;;;;;;;;;;;;x
 is_inaccessible_tooltip;没有处在藏匿、被软禁、旅行状态，或在其他重要事务中脱不开身\n;;;;;;;;;;;;x
 EVTOPTBHF20202;On second thought, I think I will wait for now.;;;;;;;;;;;;x
 opinion_rebuked_appeaser_cooldown;Rejected Apology;;;;;;;;;;;;x
-EVTTTHFP21132_A;You will no longer be able to §YSway [From.GetTitledFirstName]§! for the next §Y10§! years.;;;;;;;;;;;;x
+EVTTTHFP21132_A;你无法在接下来的§Y10§!年里§Y拉拢[From.GetTitledFirstName]§!。;;;;;;;;;;;;x
 tooltip_rebuked_apology;§Y[Root.GetTitledFirstName]§! has recently rebuked §Y[From.GetTitledFirstName]§!'s attentions in clear terms.;;;;;;;;;;;;x
 feature_uncertain;未确定;;;;;;;;;;;;x
 feature_shamanic;萨满教;;;;;;;;;;;;x
@@ -10501,7 +10501,7 @@ EVTDESC_HFP_11042_A;敌人指挥官[other_combatant.GetTitledFirstName]没有公
 EVTDESC_HFP_11042_B;敌人指挥官[other_combatant.GetTitledFirstName]越来越精准地挥舞[other_combatant.GetHerHis][other_combatant.GetDuelWeapon]，我开始觉得我会死在这，[battlefield_location.GetInOn][battlefield_location.GetTerrain]。;;;;;;;;;;;;x
 EVTDESC_HFP_11042_C;我不能相信正在发生的事，但是随着[other_combatant.GetHerHis]每一次挥动[other_combatant.GetDuelWeapon]，[other_combatant.GetTitledFirstName]越来越接近战斗的胜利。向后一跳来躲避有一个可怕的攻击，我发现我自己已经背靠着一堵[battlefield_location.GetTreeRockFence]。;;;;;;;;;;;;x
 EVTOPTA_HFP_11042;等……等等，我投降！俘虏我吧！;;;;;;;;;;;;x
-EVTOPTB_HFP_11042;你把[commander_cannon_fodder.GetTitledFirstName]带走吧……！我来帮你！;;;;;;;;;;;;x
+EVTOPTB_HFP_11042;你把[commander_cannon_fodder.GetTitledFirstName]带走吧……！只要你放我走！;;;;;;;;;;;;x
 EVTOPTC_HFP_11042;看来这就是我的结局了……;;;;;;;;;;;;x
 nick_the_traitor;背叛者;;;;;;;;;;;;x
 opinion_betrayed_me_in_battle;在战斗中背叛了我;;;;;;;;;;;;x
@@ -10512,7 +10512,7 @@ EVTDESC_HFP_11043_B;我越来越精确地挥舞着我的[Root.GetDuelWeapon]，�
 EVTDESC_HFP_11043_C;这很令人惊讶，但我每次挥舞我的[Root.GetDuelWeapon]时，[other_combatant.GetTitledFirstName]都似乎更加难以控制[other_combatant.GetHerHis]站姿。总之，接近结束了，但我最后我对[other_combatant.GetHerHis]太阳穴使出了幸运的一击……;;;;;;;;;;;;x
 EVTOPTA_HFP_11043;他们都将学会畏惧我！;;;;;;;;;;;;x
 EVTOPTA_HFP_11043_TT;§Y[other_combatant.GetTitledFirstName]§!被杀害。\n;;;;;;;;;;;;x
-deceitful_opinion;狡诈的选择;;;;;;;;;;;;x
+deceitful_opinion;狡诈好感;;;;;;;;;;;;x
 EVTDESC_HFP_11046_A;「我投降！」[From.GetTitledFirstName]喊道。汗水滴在我的额头上，我高举着我的[Root.GetDuelWeapon]，即将对我的敌人展开致命一击。「你要干嘛？！」我问道。[From.GetManWoman]跪下[From.GetHerHis]膝盖。「我投降！我活着会对你有更大帮助」[From.GetSheHe]哭着说道。;;;;;;;;;;;;x
 EVTDESC_HFP_11046_B;「等……等等！我投降」[From.GetTitledFirstName]哭道。我的[Root.GetDuelWeapon]举的高高的，我减缓了即将对我的敌人的致命打击。[From.GetManWoman]向后退，差点被[From.GetHerselfHimself]绊倒「我会成为你的囚犯！饶了我吧！」[From.GetSheHe]啜泣道。;;;;;;;;;;;;x
 EVTOPTC_HFP_11046;我觉得你还是去死比较好。;;;;;;;;;;;;x
@@ -10781,7 +10781,7 @@ bloodline_effect_reaver;提升角色在攻陷敌方领地后掠夺§Y宝物§!�
 poet_opinion;诗人好感;;;;;;;;;;;;x
 falconer_opinion;驯鹰师好感;;;;;;;;;;;;x
 greedy_opinion;贪婪好感;;;;;;;;;;;;x
-just_opinion;Just Opinion;;;;;;;;;;;;x
+just_opinion;正直好感;;;;;;;;;;;;x
 opinion_legendary_commander;Blood of Legendary Commander;;;;;;;;;;;;x
 found_bloodline_tt;作为一条§Y血脉§!的建立者而闻名;;;;;;;;;;;;x
 renowned_hero;知名英雄;;;;;;;;;;;;x
@@ -16697,7 +16697,7 @@ b_khorgo;霍尔戈;;;;;;;;;;;;x
 b_tariat;塔里亚特;;;;;;;;;;;;x
 b_khunt;洪特;;;;;;;;;;;;x
 b_avgaldai;阿布噶勒岱;;;;;;;;;;;;x
-b_khadat;Khadat;;;;;;;;;;;;x
+b_khadat;哈达特;;;;;;;;;;;;x
 b_tsahir;查黑尔;;;;;;;;;;;;x
 b_orkhontuul;鄂尔浑图勒;;;;;;;;;;;;x
 b_sant;桑特;;;;;;;;;;;;x
@@ -16705,7 +16705,7 @@ b_baruunburen;巴伦布兰;;;;;;;;;;;;x
 b_khutul;呼图勒;;;;;;;;;;;;x
 b_khushaat;胡夏特;;;;;;;;;;;;x
 b_darkhan_orkhon;达尔汗;;;;;;;;;;;;x
-b_khustain;Khustain;;;;;;;;;;;;x
+b_khustain;呼斯坦;;;;;;;;;;;;x
 b_terelj;特勒尔吉;;;;;;;;;;;;x
 b_argalant;阿尔嘎朗特;;;;;;;;;;;;x
 b_lun_tuul;隆;;;;;;;;;;;;x
@@ -16718,11 +16718,11 @@ b_zeysky;Zeysky;;;;;;;;;;;;x
 b_torom;托罗姆;;;;;;;;;;;;x
 b_chumikan;丘米坎;;;;;;;;;;;;x
 b_merkit_khilok;篾儿乞;;;;;;;;;;;;x
-b_stolga;Stolga;;;;;;;;;;;;x
+b_stolga;斯托尔加;;;;;;;;;;;;x
 b_zakaznik;扎卡兹尼克;;;;;;;;;;;;x
 b_sharalday;沙喇勒岱;;;;;;;;;;;;x
 b_bilyutay;比柳泰;;;;;;;;;;;;x
-b_kareliya;Kareliya;;;;;;;;;;;;x
+b_kareliya;卡列利亚;;;;;;;;;;;;x
 b_borgoy;博尔戈伊;;;;;;;;;;;;x
 b_dzhida;者台;;;;;;;;;;;;x
 b_naushki;纳乌什基;;;;;;;;;;;;x
@@ -16745,7 +16745,7 @@ b_delgerkhangai;德勒格尔杭爱;;;;;;;;;;;;x
 b_luus;卢斯;;;;;;;;;;;;x
 b_saikhan;赛罕;;;;;;;;;;;;x
 b_sangiindalai;;;;;;;;;;;;;x
-b_tsant;Tsant;;;;;;;;;;;;x
+b_tsant;昌特;;;;;;;;;;;;x
 b_delgertsogt;德勒格尔朝格特;;;;;;;;;;;;x
 b_khuld_delgerkhangai;呼勒德;;;;;;;;;;;;x
 b_baruun_saikhany_nuruu;Baruun;;;;;;;;;;;;x
@@ -18380,7 +18380,7 @@ String_ambition;野心;;;;;;;;;;;;x
 String_patience;耐心;;;;;;;;;;;;x
 String_diligence;diligence;;;;;;;;;;;;x
 String_Bravery;Bravery;;;;;;;;;;;;x
-String_Ambition;Ambition;;;;;;;;;;;;x
+String_Ambition;野心;;;;;;;;;;;;x
 String_Patience;Patience;;;;;;;;;;;;x
 String_Diligence;Diligence;;;;;;;;;;;;x
 String_robust;robust;;;;;;;;;;;;x
@@ -19451,7 +19451,7 @@ religion_animistic_feature;角色成年后会举行成人仪式;;;;;;;;;;;;x
 tooltip_religion_feature_land_morale;§G来自国家信仰的伯爵领的部队会获得士气加成§!;;;;;;;;;;;;x
 tooltip_religion_feature_adulthood_rite;§G角色成年后举行成人仪式§!;;;;;;;;;;;;x
 opinion_placated_spirits;Placated Spirits;;;;;;;;;;;;x
-hellenic_pagan_reformed_opinion;Reformed [hellenic_pagan_reformed.GetName] Opinion;;;;;;;;;;;;x
+hellenic_pagan_reformed_opinion;改革[hellenic_pagan_reformed.GetName]好感;;;;;;;;;;;;x
 key_real_byz_crown_desc;The Byzantine Imperial insignia, a crown only fit for the true heirs of Rome.;;;;;;;;;;;;x
 tooltip_HF_A_51008;花点时间休息一下。;;;;;;;;;;;;x
 EVTDESCHF23777;为了保持其血统的神圣与纯洁性，[From.GetTitledFirstName]与[From.GetPossPronoun][GetFromVsNewRelation][New.GetTitledFirstName]在[From.Religion.GetHighGodName]的祝福下成婚了，造就了圆满与秩序。我们可以为这个仪式收取皇室份金。;;;;;;;;;;;;x
