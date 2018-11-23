@@ -7918,7 +7918,7 @@ religion_patriarchal_feature;女性被排除在任何有权利的地位之外;;;
 religion_astrology_feature;Characters are born under specific Zodiac signs;;;;;;;;;;;;x
 religion_haruspicy_feature;Army morale is determined by Haruspicy;;;;;;;;;;;;x
 religion_syncretic_feature;统治者能获得对另一个宗教组的宗教同情者特性;;;;;;;;;;;;x
-religion_stable_feature;Rulers do not receive Short Reign penalty;;;;;;;;;;;;x
+religion_stable_feature;统治者不受短暂统治好感惩罚。;;;;;;;;;;;;x
 religion_holy_family_feature;允许血亲圣婚;;;;;;;;;;;;x
 GetRelation_Consort;配偶;;;;;;;;;;;;x
 child_of_consort_male;Child of Consort;;;;;;;;;;;;x
@@ -12817,25 +12817,25 @@ EVTOPTAHF23814;我这儿还有几个铜板……;;;;;;;;;;;;x
 EVTOPTBHF23814;我没空搭理这些瞎扯的东西！;;;;;;;;;;;;x
 EVTDESCHFA23815;占卜师跟我说，好几个非凡的机遇将在不久的将来呈现在我的面前，而我所要做的只是密切关注这一切，并把握住自己的好运，这着实给了我一个惊喜。;;;;;;;;;;;;x
 EVTOPTAHF23815;我一直明白我生来就是个幸运儿！;;;;;;;;;;;;x
-EVTDESCHFA23816;The fortuneteller assures me that a period of good luck is just around the corner, and that I need only look for the right opportunities in order to change my life for the better.;;;;;;;;;;;;x
-EVTOPTAHF23816;Thanks, I guess?;;;;;;;;;;;;x
-EVTDESCHFA23817;After giving a thorough look to the signs, the fortuneteller warns me that my future looks grim and I should be very careful about my next choices to avoid any calamity befalling upon me and my family.;;;;;;;;;;;;x
+EVTDESCHFA23816;占卜师向我保证，好运就在眼前，我只需要寻找合适的机会，就能时来运转。;;;;;;;;;;;;x
+EVTOPTAHF23816;谢谢，这样吗？;;;;;;;;;;;;x
+EVTDESCHFA23817;占卜师仔细看了看星座之后，警告我，我的未来布满凶兆，我应该谨慎作出下一个选择，以避免任何灾难祸及家人。;;;;;;;;;;;;x
 EVTOPTAHF23817;该死！;;;;;;;;;;;;x
 EVTDESCHFA23818;正当我走在[great_tribal_festival_host.Capital.GetName]城内拥挤的街道时，一阵奇异的芳香吸引了我的注意，将我领到一个老炼金术师的旧铺子边上。发现我满脸好奇，这位老人向我展示了他的货物们，并一一介绍他们惊人的功效。;;;;;;;;;;;;x
-EVTOPTAHF23818;A love potion, uh?;;;;;;;;;;;;x
+EVTOPTAHF23818;爱情药水，嗯？;;;;;;;;;;;;x
 EVTOPTBHF23818;我请你喝一杯，你在我身上试试这个怎么样？;;;;;;;;;;;;x
-EVTOPTCHF23818;I will burn an offering for you, in exchange for this perfume.;;;;;;;;;;;;x
-EVTOPTDHF23818;Never mind, I am not interested in what you sell.;;;;;;;;;;;;x
+EVTOPTCHF23818;我会为你焚烧祭品，来换取这瓶香水。;;;;;;;;;;;;x
+EVTOPTDHF23818;没关系，我对你卖的东西不感兴趣。;;;;;;;;;;;;x
 EVTDESCHFA23819;正当我走在[great_tribal_festival_host.Capital.GetName]城内拥挤的街道时，一阵奇异的芳香吸引了我的注意，将我领到一个老炼金术师的旧铺子边上。发现我满脸好奇，这位老人向我展示了他的货物们，并一一介绍他们惊人的功效。;;;;;;;;;;;;x
 EVTOPTAHF23819;你说这是力量药水？;;;;;;;;;;;;x
 EVTOPTBHF23819;我请你喝一杯，你在我身上试试这个怎么样？;;;;;;;;;;;;x
 EVTOPTCHF23819;我会为你献上一个祭品，来换这个护身符。;;;;;;;;;;;;x
 EVTOPTDHF23819;我用不着这种巫术的东西。;;;;;;;;;;;;x
-EVTDESCHFA23820;An old merchant has set up a large stand in the middle of [great_tribal_festival_host.Capital.GetName] this year, selling all sorts of amulets and trinkets to use at the end of the festival as offerings to the gods of our ancestors. I wonder if I should buy something to burn myself...;;;;;;;;;;;;x
-EVTOPTAHF23820;The most expensive jewels are the least I can offer.;;;;;;;;;;;;x
-EVTOPTBHF23820;This amulet looks expensive enough...;;;;;;;;;;;;x
-EVTOPTCHF23820;If I really *have* to buy something...;;;;;;;;;;;;x
-EVTOPTDHF23820;I have no money to waste.;;;;;;;;;;;;x
+EVTDESCHFA23820;今年一位老商人在[great_tribal_festival_host.Capital.GetName]中心摆了一个大摊位，出售各种护身符和小饰品，用于在节日结束时用祭祀祖灵。我不知道我是否应该买点……;;;;;;;;;;;;x
+EVTOPTAHF23820;起码我能献上最贵的珠宝。;;;;;;;;;;;;x
+EVTOPTBHF23820;这个护身符就足够贵重了……;;;;;;;;;;;;x
+EVTOPTCHF23820;如果我真的“必须”买点啥……;;;;;;;;;;;;x
+EVTOPTDHF23820;我没钱买这个。;;;;;;;;;;;;x
 EVTDESCHFA23821;I stumbled on [tribal_festival_potential_friend_1.GetTitledFirstName] in the main hall with a group of other distinguished guests. I have heard quite a few good things about [tribal_festival_potential_friend_1.GetHerHim] in the past, and I wonder if this festival is the right occasion to earn [tribal_festival_potential_friend_1.GetHerHis] friendship.;;;;;;;;;;;;x
 EVTOPTAHF23821;Hail, [tribal_festival_potential_friend_1.GetFirstName]! How fare you?;;;;;;;;;;;;x
 TOOLTIP_EVTOPTAHF23821;Try to become §GFriends§! with §Y[tribal_festival_potential_friend_1.GetTitledFirstName]§!;;;;;;;;;;;;x
@@ -15016,11 +15016,11 @@ EVTDESCAHF24150;天真的统治者可能会宣称是领主和[Root.GetHerHis]封
 EVTOPTAHF24150;All that said, I should show them some compassion.;;;;;;;;;;;;x
 EVTOPTBHF24150;The more I squeeze, the tighter my grip over them.;;;;;;;;;;;;x
 EVTDESCAHF24151;It is my sworn duty to uphold the peace over [Root.PrimaryTitle.GetName]. In order to do so, I must crush any form of organized resistance coming from my rebellious subjects. Hardening my heart against their entitled demands is something that I do for their own good.;;;;;;;;;;;;x
-EVTOPTAHF24151;I am nothing if not just.;;;;;;;;;;;;x
-EVTOPTBHF24151;Not that I mind doing it, of course.;;;;;;;;;;;;x
+EVTOPTAHF24151;我可是相当正直的。;;;;;;;;;;;;x
+EVTOPTBHF24151;当然，我并不介意这样做。;;;;;;;;;;;;x
 bloodline_effect_blood_building;解锁特殊§Y城堡§!建筑;;;;;;;;;;;;x
 tooltip_has_murder_builder_bloodline;这个统治王朝对§Y工程建筑§!有偏执的兴趣;;;;;;;;;;;;x
-ca_oppressive_fortifications_1;Gloomy Monument;;;;;;;;;;;;x
+ca_oppressive_fortifications_1;致郁石碑;;;;;;;;;;;;x
 ca_oppressive_fortifications_1_desc;An austere and imposing statue, representing one of the esteemed members of the realm's ruling dynasty. Its cold, stern gaze overlooks the battlements, inspiring a lingering sense of dread amongst the masses.;;;;;;;;;;;;x
 ca_oppressive_fortifications_2;Connected Watchtowers;;;;;;;;;;;;x
 ca_oppressive_fortifications_2_desc;An intricate network of watchtowers ensures that the garrison of this fortress can maintain absolute control over anything happening within the castle.;;;;;;;;;;;;x
@@ -17334,14 +17334,14 @@ EVTOPTBHF24204;所有人都必须知道这个伟大的发现！;;;;;;;;;;;;x
 EVTOPTCHF24204;我应该让我所有的臣子都知道这件事。;;;;;;;;;;;;x
 EVTOPTDHF24204;一个公开的讲话应该就够了。;;;;;;;;;;;;x
 EVTDESCAHF24205;我派出探险的英勇的队员们最终回到了[Root.Capital.GetName]。\n不幸的是，他们并没有带回来什么东西，除了一堆生锈的珠宝和几块头骨的碎片。而这些东西在我的学者检查之后，马上下了判断：这些东西的年代太新了，不可能是属于那位伟大的征服者的东西。\n尽管我的手下为这次搜寻活动付出了极大的耐心和努力，但是他们最后还是没有成功，而我那宝贵的投资和时间就这样全部打水漂了。;;;;;;;;;;;;x
-EVTOPTAHF24205;We must try again! That tomb must be somewhere!;;;;;;;;;;;;x
-EVTOPTBHF24205;Forget the tomb, we will pursue another path.;;;;;;;;;;;;x
+EVTOPTAHF24205;我们必须再尝试一次！那座坟墓一定在某个地方！;;;;;;;;;;;;x
+EVTOPTBHF24205;忘掉那座坟墓，我们会寻求另一条道路。;;;;;;;;;;;;x
 EVTOPTCHF24205;I have been ruined enough by this foolish venture.;;;;;;;;;;;;x
 EVTDESCAHF24206;It took us countless sleepless nights spent reading ancient tomes and pursuing forgotten scrolls, but we have finally achieved our goal. Under my lead, my group of scholars has been able to trace a lineage from the earliest known members of the [Root.GetOnlyDynastyName] dynasty and the most plausible line of descendants of the glorious conqueror himself.\nThe only that is left now is to validate my claim in the eyes of my peers and subjects.\nMany envious upstarts are sure likely to dismiss my findings, jealous of my illustrious ascendancy. I will need to make sure that their voices are drowned out in the celebration for this momentous discovery.;;;;;;;;;;;;x
 EVTDESCAHF24207;Despite all the sleepless nights, hundreds of researched scrolls and learned scholars, my efforts to find a link between my dynasty and Alexander's unknown descendants has been fruitless.\nSurely, a man that has traveled so far and wide, that has achieved so much during his brief life and earned eternal glory would not allow his glorious line to die out.\nAnd a dynasty as powerful as mine, who has risen to hold the most esteemed throne of [Root.PrimaryTitle.GetName] must surely trace its ancestry to the great conqueror himself.\nWhy is it then so hard for me to find the link between us?;;;;;;;;;;;;x
 EVTOPTAHF24207;Maybe I should focus my attention on Alexander's tomb.;;;;;;;;;;;;x
-EVTOPTBHF24207;We just need to look harder!;;;;;;;;;;;;x
-EVTOPTCHF24207;Enough, I give up!;;;;;;;;;;;;x
+EVTOPTBHF24207;我们只需要更努力地寻找！;;;;;;;;;;;;x
+EVTOPTCHF24207;够了，我放弃！;;;;;;;;;;;;x
 EVTTITLEHF24208;亚历山大的后裔;;;;;;;;;;;;x
 EVTDESCAHF24208;经过数年的学习，研究和投资，最终我成功的达到了我的目标，将我的家族与人类历史上最伟大的征服者紧紧的联系在了一起。\n就算我百年之后，人们依然会以一种敬畏的姿态看待我的后代，尤其是在战场上遇见他们的时候。\n我们的血管里流淌着能够征服埃及的伟力，我们脑中继承着能够摧毁巴比伦的智慧，我们的野心驱使我们从文明的中心出发，一直走到世界的尽头。;;;;;;;;;;;;x
 EVTOPTAHF24208;永恒的荣耀在等着我！;;;;;;;;;;;;x
