@@ -2917,7 +2917,7 @@ mother_chatting_desc;The pregnancy has made this woman a lot more talkative and 
 mother_popular;Friendly Host;;;;;;;;;;;;x
 mother_popular_desc;This woman's cheerful and welcoming attitude has earned her the trust and friendship of many in her court.;;;;;;;;;;;;x
 mother_fertility_festival_1;生育仪式;;;;;;;;;;;;x
-mother_fertility_festival_1_desc;Proper offering were made to [Root.GetFertilityGoddess] in order to protect this woman during the time of her pregnancy.;;;;;;;;;;;;x
+mother_fertility_festival_1_desc;向[Root.GetFertilityGoddess]举办了适当的仪式，以求在其孕期内保护这个女人。;;;;;;;;;;;;x
 mother_fertility_festival_2;丰收女王;;;;;;;;;;;;x
 mother_fertility_festival_2_desc;This woman was given the honor of portraying the [Root.Religion.GetName] goddess of fertility during the time of her pregnancy, as part of a long period of festivity in her honor.;;;;;;;;;;;;x
 fertility_festival_province;Grandiose Harvest Festival;;;;;;;;;;;;x
@@ -2964,8 +2964,8 @@ string_goddess_akka;阿卡;;;;;;;;;;;;x
 EVTOPTAHFP20043;我将献给[From.GetFirstName]一个完整的典礼！;;;;;;;;;;;;x
 EVTOPTBHFP20043;我将以[Root.GetFertilityGoddess]之名，开始一次大献祭。;;;;;;;;;;;;x
 EVTOPTCHFP20043;没必要花钱在这些迷信的东西上……;;;;;;;;;;;;x
-EVTDESCHFPA20044;I was relieved to hear that [From.GetFirstName] decided to make a huge sacrifice during the seasonal festivity made to honor [Root.GetFertilityGoddess] this year, hoping it would help me deliver a strong child with little complications.;;;;;;;;;;;;x
-EVTOPTAHFP20044;I am sure the goddess will protect me!;;;;;;;;;;;;x
+EVTDESCHFPA20044;听说[From.GetFirstName]决定在今年的节庆上向[Root.GetFertilityGoddess]举办一场盛大的献祭，祈求能助我平安产下一名强壮的孩子。我感到非常宽慰。;;;;;;;;;;;;x
+EVTOPTAHFP20044;我相信神会保护我！;;;;;;;;;;;;x
 EVTDESCHFPA20045;[From.GetFirstName] has really gone out of his way to ensure that both our child and I receive the favor of the gods. He has personally organized this year's harvest festival, and elected me to portray [Root.GetFertilityGoddess] herself during the celebration, hoping it will help me deliver a strong, healthy child.;;;;;;;;;;;;x
 EVTOPTAHFP20045;我好兴奋！;;;;;;;;;;;;x
 EVTOPTBHFP20045;我真的感到非常荣幸。;;;;;;;;;;;;x
@@ -4515,7 +4515,7 @@ string_west_african_training;washing [fellow_member.GetHerHis] face. We have bee
 string_zun_training;challenging me to keep up with [fellow_member.GetHerHim]. We have been out chasing a [Root.GetRegionalBigAnimal] for hours, but I am starting to wonder whether the animal even exists, and if [fellow_member.GetFirstName] was not simply looking for company. "It's rare, you know", [fellow_member.GetSheHe] says. "Someone with talent, as well as wits.";;;;;;;;;;;;x
 string_bon_training;nodding approvingly at my lightly packed horse. We are returning from an exercise in the mountains, and we are well ahead of schedule. "It is an honor training with you, [Root.GetFirstName]", the [fellow_member.GetManWoman] says, squeezing my shoulder briefly.;;;;;;;;;;;;x
 string_hellenic_training;softly humming the tune I just finished singing, before clearing [fellow_member.GetHerHis] throat. "It's just something I made up, while we were marching" I say, dismissively. "You should keep it up, friend!", the [fellow_member.GetManWoman] argues. "It's good for morale, for the troops, you know".;;;;;;;;;;;;x
-MODIFIER_COMBAT_RATING_DESC;Personal Combat Skill is a measure on how well you perform in duels against other characters, where it is compared to the skill of your opponent in order to decide the outcome. A high skill will also help you survive when leading an army into battle.;;;;;;;;;;;;x
+MODIFIER_COMBAT_RATING_DESC;个人实战技能是你在同其他角色决斗时的表现的衡量，决斗双方的此项属性将被用于比较以确定决斗结果。高水平的实战技能也将助你在领导军队时取得胜利。;;;;;;;;;;;;x
 CLAIMS_TOOLTIP_DELAYED;这些是该角色拥有宣称的头衔。宣称有强弱之分，弱宣称只能在特定情况下使用。你可以通过战争或派系使用宣称。;;;;;;;;;;;;x
 TITLES_TOOLTIP_DELAYED;这些是该角色拥有的头衔。头衔分五个等级：帝国、王国、公爵领、伯爵领和男爵领。伯爵领和男爵领在地图上关联着实际位置（男爵领存在于伯爵领之下）。帝国、王国和公爵领代表对一片更大的地区的统治地位，但不以实际位置体现在地图上。;;;;;;;;;;;;x
 DIPLOMATIC_RELATIONS_TOOLTIP_DELAYED;这些是该角色当前拥有的外交关系。外交关系包括许多方面，比如停战期或者正进行的战争。;;;;;;;;;;;;x
@@ -5260,17 +5260,17 @@ TRAIT_OPINION_JEWISH;[jewish.GetName]好感：$VALUE$;;;;;;;;;;;;x
 TRAIT_OPINION_CHRISTIAN;[christian.GetGroupName]好感：$VALUE$;;;;;;;;;;;;x
 DECADENCE_DESC;All adult [muslim.GetGroupName] men below the rank of Count risk acquiring the §YDecadent§! trait, especially those of low character. The amount of Decadence these men incur on their dynasty depends on their own social status as well as the total amount of Holdings controlled by the Dynasty. Decadence affects the tax income from your demesne and the morale damage that demesne levies take in battle. Ways to halt or decrease Decadence include:\n§G*§! Granting landed titles to dynasty members\n§G*§! Successfully convincing decadent Dynasty members to abandon their sinful ways\n§G*§! Imprisoning, banishing or killing decadent Dynasty members\n§G(The Religion View contains a list of decadent dynasty members.)§!;;;;;;;;;;;;x
 theocratic_feudal_government_desc;僧侣封建制与普通封建制甚为相似，同样是由领主和封臣间的誓约架构而成。一名僧侣封建领主只能直接控制极为有限的地产，因此他们必须依赖那些对他们或忠诚或叛逆的封臣…僧侣封建制为信仰[buddhist.GetName]或[bon.GetName]的[tibetan_group.GetGroupName]独有，除城堡外，还允许持有寺庙。僧侣封建制统治者亦可于城堡地产中修建贡巴寺院建筑。;;;;;;;;;;;;x
-sympathy_indian;Sympathy for [indian_group.GetGroupName] religions;;;;;;;;;;;;x
+sympathy_indian;[indian_group.GetGroupName]宗教同情者;;;;;;;;;;;;x
 sympathy_indian_desc;This character, though neither [hindu.GetName], [buddhist.GetName], [jain.GetName] or [taoist.GetName], has a special sympathy and understanding for the [indian_group.GetGroupName] faiths and their practitioners.;;;;;;;;;;;;x
-sympathy_islam;Sympathy for [muslim.GetGroupName] religions;;;;;;;;;;;;x
+sympathy_islam;[muslim.GetGroupName]宗教同情者;;;;;;;;;;;;x
 sympathy_islam_desc;This character, though not a [muslim.GetGroupName], has a special sympathy and understanding for the [muslim.GetGroupName] faith and its practitioners.;;;;;;;;;;;;x
-sympathy_judaism;Sympathy for [jewish.GetName] religions;;;;;;;;;;;;x
+sympathy_judaism;[jewish.GetName]宗教同情者;;;;;;;;;;;;x
 sympathy_judaism_desc;This character, though not [jewish.GetName], has a special sympathy and understanding for the [jewish.GetName] faith and its practitioners.;;;;;;;;;;;;x
-sympathy_christendom;Sympathy for [christian.GetGroupName] religions;;;;;;;;;;;;x
+sympathy_christendom;[christian.GetGroupName]宗教同情者;;;;;;;;;;;;x
 sympathy_christendom_desc;This character, though not a [christian.GetGroupName], has a special sympathy and understanding for the [christian.GetGroupName] faith and its practitioners.;;;;;;;;;;;;x
-sympathy_pagans;Sympathy for [pagan_group.GetGroupName] religions;;;;;;;;;;;;x
+sympathy_pagans;[pagan_group.GetGroupName]宗教同情者;;;;;;;;;;;;x
 sympathy_pagans_desc;This character, though not a [pagan_group.GetGroupName], has a special sympathy and understanding for the [pagan_group.GetGroupName] faiths and their practitioners.;;;;;;;;;;;;x
-sympathy_zoroastrianism;Sympathy for [zoroastrian_group.GetGroupName] religions;;;;;;;;;;;;x
+sympathy_zoroastrianism;[zoroastrian_group.GetGroupName]宗教同情者;;;;;;;;;;;;x
 sympathy_zoroastrianism_desc;This character, though not a [zoroastrian.GetName], has a special sympathy and understanding for the [zoroastrian_group.GetGroupName] faith and its practitioners.;;;;;;;;;;;;x
 EVTDESCHFA20003;The conversion of [converting_king.Capital.GetName] starts on a cold morning.\nThe Bishop leading [sponsoring_king.GetTitledFirstName]'s embassy meets you at a river near the city. Your faithful vassals stand beside you, while the rest of your subjects wait their turn behind them, looking still visibly confused. The Bishop recites a few verses from [catholic.GetScriptureName] before you lead your vassals into the river. As you pass the [sponsoring_king.Religion.GetName] priests they baptize you, one after the other, in the cold water. It takes some prodding from the guards to convince the peasants to follow you into the water, but, after a while, the entire crowd stands soaked and shaking by the riverside, just in time to watch the priests and their helpers drop your old idols into the waves.\n"As the false visages are swallowed by the tides" the Bishop proclaims, "may their memory forever be banished from your soul.";;;;;;;;;;;;x
 TT_UNREFORMED_PAGAN;是未改革的[pagan_group.GetGroupName];;;;;;;;;;;;x
@@ -5455,9 +5455,9 @@ sassanid;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
 niall;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
 bloodline_effect_convert_zhangzhung_and_sumpa;加快从§Y[zhangzhung.GetName]§!和§Y[sumpa.GetName]§!转变至§G[bodpa.GetName]§!的文化转变速率;;;;;;;;;;;;x
 bloodline_effect_great_heroes_appear;定期吸引§G伟大战士§!为你效命（如果信仰§Y[From.Founder.Religion.GetName]§!）;;;;;;;;;;;;x
-HF_110_DESC;The blood of [target_bloodline_founder.GetFullName] flows through my veins. Since the days [target_bloodline_founder.GetSheHe] walked the earth we have abandoned our old [target_bloodline_founder.Religion.GetName] faith, though I do see merit in the ways that helped shape such a legend...;;;;;;;;;;;;x
-EVTOPTA_HF_110;We were once like them, we should not judge their ways.;;;;;;;;;;;;x
-EVTOPTB_HF_110;No, the ways of old belong in the past.;;;;;;;;;;;;x
+HF_110_DESC;[target_bloodline_founder.GetFullName]的血脉在我的血管中流淌。自[target_bloodline_founder.GetSheHe]弃世以来我们放弃了过去的[target_bloodline_founder.Religion.GetName]信仰，尽管我确实意识到这种方式对于塑造一个传奇的帮助……;;;;;;;;;;;;x
+EVTOPTA_HF_110;我们曾经和他们一样，故而我们不应武断地否定他们的路。;;;;;;;;;;;;x
+EVTOPTB_HF_110;不，旧的道路属于过去。;;;;;;;;;;;;x
 EVTOPTC_HF_110;[target_bloodline_founder.Religion.GetHighGodName] speaks directly through my blood! I repent!;;;;;;;;;;;;x
 ALT_HRE;[GetRandomHREPrefix][target_ruler.Culture.GetName]帝国;;;;;;;;;;;;x
 ALT_HRE_ADJ;[GetRandomHREPrefix][target_ruler.Culture.GetName];;;;;;;;;;;;x
@@ -5740,11 +5740,11 @@ SHATTERED_WORLD_SCENARIO_DESC;The world lies shattered and broken, with the glor
 RANDOM_WORLD_SCENARIO_DESC;The world as it never was – but could have been. The most minuscule change in history can have the most vast of consequences, especially if playful Gods are involved. This brand new world was forged in the furnace of history, albeit one much different from our own. Left until red-hot, the Gods then shaped the malleable planet into something befitting their whims.\n\nThey now leave its fate in your hands, to steer the direction of history towards its inevitable conclusion. Will this world triumph and enter ages of progress and splendor? Or will it be left to be overrun by darkness and stagnation? Only time will tell.;;;;;;;;;;;;x
 EVTDESC62320_alt;Large numbers of adventurous warriors have arrived from all corners of your realm, hoping to join your great expedition against [From.GetTitledName]!;;;;;;;;;;;;x
 EVTDESC62321_alt;A renowned hero has arrived at your court with his warriors and followers, hoping to partake in your glorious invasion of [From.GetTitledName]!;;;;;;;;;;;;x
-HF_120_DESC;There are many legends about the great [target_bloodline_founder.GetManWoman] whose blood I share. A particular story has been circulating at court lately. It focuses on an epic feat where [target_bloodline_founder.GetFirstName] proves [target_bloodline_founder.GetHerHis] strength of character. The more I hear, the more I wish to emulate [target_bloodline_founder.GetHerHim]...;;;;;;;;;;;;x
+HF_120_DESC;世上流传着许多关于那位我继承了其血脉的伟大[target_bloodline_founder.GetManWoman]的传奇。最近，就有一则特殊的故事在宫廷中流传。故事主要讲述了[target_bloodline_founder.GetFirstName]证明[target_bloodline_founder.GetHerHis]个人实力的史诗壮举。这故事我听得越多，我就越想要效仿[target_bloodline_founder.GetHerHim]……;;;;;;;;;;;;x
 EVTOPTA_HF_120;我会努力变得更像[target_bloodline_founder.GetHerHim]！;;;;;;;;;;;;x
-EVTOPTB_HF_120;No, I make my own fate.;;;;;;;;;;;;x
+EVTOPTB_HF_120;不，我有自己的命运。;;;;;;;;;;;;x
 EVTOPTC_HF_120;I know EXACTLY what they are referring to!;;;;;;;;;;;;x
-emulating_legend;Emulating a Legend;;;;;;;;;;;;x
+emulating_legend;效仿一位传奇;;;;;;;;;;;;x
 emulating_legend_desc;This character is emulating the personality of a Legendary Hero;;;;;;;;;;;;x
 zealous_opinion_EXPLANATION; (effect on Zealous);;;;;;;;;;;;x
 zealous_opinion;狂热特质好感;;;;;;;;;;;;x
@@ -6275,10 +6275,10 @@ this_is_better_than_prev_tt;§Y[This.GetTitledFirstName]§!是一个比§Y[Prev.
 evenly_matched_tt;§Y[This.GetTitledFirstName]§! is somewhat evenly matched to §Y[Prev.GetTitledFirstName]§!;;;;;;;;;;;;x
 this_is_worse_than_prev_tt;§Y[This.GetTitledFirstName]§!是一个比§Y[Prev.GetTitledFirstName]§!差很多的决斗者;;;;;;;;;;;;x
 string_available_due_to_duelist_skill_better_than_enemy;此选项可用是因为你比§Y[enemy_commander.GetTitledFirstName]§!在决斗造诣上§G更深§!;;;;;;;;;;;;x
-string_available_due_to_high_duelist_skill;This option is available because of your §Ghigh§! §YPersonal Combat§! skill;;;;;;;;;;;;x
+string_available_due_to_high_duelist_skill;这个选项是可用的因为你有§G高超的§!§Y个人实战§!技巧。;;;;;;;;;;;;x
 available_because_duels_bad;[Root.GetDaringDuelOptionAvailable];;;;;;;;;;;;x
 string_available_due_to_duelist_skill_worse_than_enemy;此选项可用是因为你的决斗造诣要§R低于§!§Y[enemy_commander.GetTitledFirstName]§!;;;;;;;;;;;;x
-string_available_due_to_low_duelist_skill;This option is available because of your §Rlow§! §YPersonal Combat§! skill;;;;;;;;;;;;x
+string_available_due_to_low_duelist_skill;这个选项是可用的因为你有§R低劣的§!§Y个人实战§!技巧。;;;;;;;;;;;;x
 available_because_duels;[Root.GetDuelOptionAvailable];;;;;;;;;;;;x
 EVTDESC_HF_11026;每当我多挥舞一次我的[Root.GetDuelWeapon]，我就更深入敌人内部一点。在我意识到这点之前，我就早已经被包围了。随着体内的力量的突然迸发，我发出了一声震耳欲聋的战吼，几个敌人明显被震住了，其中一个倒霉的小兵被吓的往后走了几步，却刚好被一块石头绊倒了。我没法不去注意[Root.GetSheHe]把[Root.GetHerHis]武器掉在了[battlefield_location.GetGroundDesc]上！;;;;;;;;;;;;x
 EVTOPTA_HFP_11026;我会抄起这把刀，把你们都送去见[enemy_liege.Religion.GetHighGodName]！;;;;;;;;;;;;x
@@ -6391,7 +6391,7 @@ CLEAR_BANISH_REASONS_EFFECT;No longer has a reason to banish $WHO|Y$;;;;;;;;;;;;
 CLEAR_REVOKE_REASONS_EFFECT;No longer has a reason to revoke titles from $WHO|Y$;;;;;;;;;;;;x
 CLEAR_EXECUTE_REASONS_EFFECT;No longer has a reason to execute $WHO|Y$;;;;;;;;;;;;x
 CANNOT_REFORM_TWICE;§RReligion has already been reformed§!;;;;;;;;;;;;x
-SPECIAL_EVENTOPTION_6;This option is available due to your high §YPersonal Combat§! skill;;;;;;;;;;;;x
+SPECIAL_EVENTOPTION_6;这个选项可用是因为你高超的§Y个人实战§!技能;;;;;;;;;;;;x
 NOT_RANDOM_WORLD_TRIGGER;不是一个随机世界;;;;;;;;;;;;x
 RANDOM_WORLD_TRIGGER;是一个随机世界;;;;;;;;;;;;x
 SHATTERED_WORLD;破碎世界;;;;;;;;;;;;x
@@ -6445,7 +6445,7 @@ IS_SOCIETY_TRIGGER;Society is $SOCIETY|Y$;;;;;;;;;;;;x
 OPEN_ARTIFACT_HISTORY;§YOpen Artifact History§!;;;;;;;;;;;;x
 OPEN_ARTIFACT_HISTORY_DELAYED;Shows who has owned this artifact since the start of the campaign.;;;;;;;;;;;;x
 REL_CONSORT_MALE;Consort;;;;;;;;;;;;x
-REL_WOMEN_CAN_TAKE_CONSORTS_DESC;$NAME$ women can take up to $NUM|Y$ Consorts;;;;;;;;;;;;x
+REL_WOMEN_CAN_TAKE_CONSORTS_DESC;$NAME$女性最多可以纳$NUM|Y$个侍夫;;;;;;;;;;;;x
 GOV_WOMEN_CAN_TAKE_CONSORTS_DESC;Female rulers can take up to $NUM|Y$ Consorts;;;;;;;;;;;;x
 CONSORT_DESC_FEMALE;$FIRST_CHAR|Y$ is $SECOND_CHAR|Y$'s concubine and not truly married. However, any children she bears him will be considered legitimate.;;;;;;;;;;;;x
 CONSORT_DESC_MALE;$FIRST_CHAR|Y$ is $SECOND_CHAR|Y$'s consort and not truly married. However, any children he's responsible for will be considered legitimate.;;;;;;;;;;;;x
@@ -7912,9 +7912,9 @@ religion_feature_tengri_feature;允许一夫多妻制，军队无视防御性消
 religion_feature_norse_feature;统治者遵从诺斯信仰冒险与航海的原则;;;;;;;;;;;;x
 religion_relentless_feature;Armies ignore defensive attrition;;;;;;;;;;;;x
 religion_seafaring_feature;Naval Maintenance is greatly reduced;;;;;;;;;;;;x
-religion_matriarchal_feature;Men are entirely excluded from all positions of power;;;;;;;;;;;;x
+religion_matriarchal_feature;男性被排除在任何有权利的地位之外;;;;;;;;;;;;x
 religion_equal_feature;Both men and women have equal access to all positions of power;;;;;;;;;;;;x
-religion_patriarchal_feature;Women are entirely excluded from all positions of power;;;;;;;;;;;;x
+religion_patriarchal_feature;女性被排除在任何有权利的地位之外;;;;;;;;;;;;x
 religion_astrology_feature;Characters are born under specific Zodiac signs;;;;;;;;;;;;x
 religion_haruspicy_feature;Army morale is determined by Haruspicy;;;;;;;;;;;;x
 religion_syncretic_feature;统治者能获得对另一个宗教组的宗教同情者特性;;;;;;;;;;;;x
@@ -8448,7 +8448,7 @@ glorious_zun_tactic;Lightburst Tactic;;;;;;;;;;;;x
 glorious_bon_tactic;Balanced Charge Tactic;;;;;;;;;;;;x
 glorious_hellenic_tactic;梅花战术;;;;;;;;;;;;x
 tooltip_is_excommunicated_for;is §YExcommunicated§! by the [Root.Religion.GetName] Church;;;;;;;;;;;;x
-REL_NO_MALE_TEMPLE_HOLDERS_DESC;Religion forbids men to hold Temple Holdings;;;;;;;;;;;;x
+REL_NO_MALE_TEMPLE_HOLDERS_DESC;宗教禁止男性持有神殿地产;;;;;;;;;;;;x
 EVTOPTEHF25021;Perhaps this was not a good idea...;;;;;;;;;;;;x
 opinion_savage_butcher;Savage Butcher;;;;;;;;;;;;x
 tooltip_EVTOPTBHF25021;Your §YSubjects§! might not react well to your actions.;;;;;;;;;;;;x
@@ -14158,7 +14158,7 @@ string_WL_flyting_accomplishments_insult_desc_14;[From.GetFirstName] starts teas
 string_WL_flyting_family_insult_desc_18;[From.GetFirstName] claims that [From.GetSheHe] has scarcely seen a family spawn as many clueless and ugly children as the [Root.GetOnlyDynastyName] line. [From.GetSheHeCap] longs for the days [From.GetSheHe] thought me to be an exception rather than the main example of this truth.;;;;;;;;;;;;x
 string_WL_flyting_family_insult_desc_19;[From.GetFirstName] claims that [From.GetSheHe] has scarcely seen a family spawn as many clueless and ugly children as the [Root.GetOnlyDynastyName] line, and [From.GetSheHe] cannot fathom what humiliating depths of ignominious incompetence may descendants will face, given my present state.;;;;;;;;;;;;x
 string_WL_flyting_family_insult_desc_20;[From.GetFirstName] claims that my dynasty has been a descending spiral of honor-less cowards and drooling idiots, of which I am the greatest example yet.;;;;;;;;;;;;x
-TOGGLE_LOOTER_DESC;Setting this Unit to be a Looter will allow it to raid the Counties and Holdings of other rulers for §YGold§!. This will cause the ruler in question to become temporarily §RHostile§! towards you, allowing them to attack your armies at will. Note that, if a ruler is held prisoner, they will not be able to Loot the lands of their captor.;;;;;;;;;;;;x
+TOGGLE_LOOTER_DESC;将此单位设为劫掠者可以使其从其他统治者的省份和地产中掠夺§Y金钱§!。此举会使受影响的统治者暂时与你§R敌对§! ，允许他们攻击你的军队。需要注意的是，如果一位统治者被囚禁，部队将被禁止劫掠囚禁者的领土。;;;;;;;;;;;;x
 nick_the_bull;the Bull;;;;;;;;;;;;x
 nick_the_butch;the Butch;;;;;;;;;;;;x
 MNM.6664.d;I have not called upon the powers of [Root.GetDWDevil] for some time, people have become less suspicious of my actions.;;;;;;;;;;;;x
@@ -15975,8 +15975,8 @@ b_akchulak;Akchulak;;;;;;;;;;;;x
 b_sheker;Sheker;;;;;;;;;;;;x
 b_myrzatay;Myrzatay;;;;;;;;;;;;x
 b_almaty_saryesik;阿拉木图;;;;;;;;;;;;x
-b_saryesik;Saryesik;;;;;;;;;;;;x
-b_karaoy_almaty;Karaoy;;;;;;;;;;;;x
+b_saryesik;萨雷耶西克;;;;;;;;;;;;x
+b_karaoy_almaty;卡拉奥伊;;;;;;;;;;;;x
 b_koktal_almaty;Koktal;;;;;;;;;;;;x
 b_akzhar_almaty;Akzhar;;;;;;;;;;;;x
 b_lepsy;Lepsy;;;;;;;;;;;;x
