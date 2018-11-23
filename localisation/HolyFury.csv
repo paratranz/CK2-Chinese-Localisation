@@ -4452,8 +4452,8 @@ EVTOPTC_HF_10022;我想我宁愿一个人去。;;;;;;;;;;;;x
 rigorous_practice;严格的训练;;;;;;;;;;;;x
 rigorous_practice_desc;这名角色据说遵循的是相当严格的训练方法。;;;;;;;;;;;;x
 EVTDESC_HF_10023;我的[From.GetRootRelation][From.GetTitledFirstName]联系我，要求进行一对一的个人战斗课程。信使说，「[From.GetTitle]会感谢我们所能提供的所有指导，我[Root.GetLordLady]」。;;;;;;;;;;;;x
-EVTOPTA_HF_10023;I'll of course personally set up [From.GetHerHis] training regime.;;;;;;;;;;;;x
-EVTOPTB_HF_10023;I will loan [From.GetHerHim] some of my best veterans to practice with.;;;;;;;;;;;;x
+EVTOPTA_HF_10023;我会亲自开始[From.GetHerHis]特训制度。;;;;;;;;;;;;x
+EVTOPTB_HF_10023;我会把一些最出色的老兵借用给[From.GetHerHim]陪练。;;;;;;;;;;;;x
 duelist_mentor;Duelist Mentor;;;;;;;;;;;;x
 duelist_mentor_desc;This character is taking time out of [GetHerHis] own schedule to help a fellow member of [Society.GetName].;;;;;;;;;;;;x
 EVTDESC_HF_10024_A;When we started practicing together, I had a hard time imagining displaying the kind of expert confidence that [mentor_target.GetTitledFirstName] exudes on the battlefield. However, bolstered by [mentor_target.GetHerHis] training, I think I have truly found my calling.;;;;;;;;;;;;x
@@ -4681,7 +4681,7 @@ d_lanka_adj;楞迦;;;;;;;;;;;;x
 d_sinhala_adj;僧伽罗;;;;;;;;;;;;x
 CB_NAME_SHATTERED_COUNTY_CONQUEST;兼并[Title.GetBaseName];;;;;;;;;;;;x
 WAR_NAME_SHATTERED_COUNTY_CONQUEST;$ORDER$$FIRST_ADJ$$SECOND_ADJ$对$OTHER_TITLE$兼并战争;;;;;;;;;;;;x
-shattered_world_county_conquest_desc;As this is a Shattered World you can choose to outright conquer any Counties that either border your realm or is no more than one sea zone away. [GetShatteredInfo] [GetShatteredJadeInfo];;;;;;;;;;;;x
+shattered_world_county_conquest_desc;在破碎世界中，你可以彻底征服一个与你相邻的省份或相距不超过一块海洋区块的省份。[GetShatteredInfo][GetShatteredJadeInfo];;;;;;;;;;;;x
 shattered_limited_info;This Casus Belli will become unavailable after §Y25 years§! have passed since the game started.;;;;;;;;;;;;x
 shattered_long_info;This Casus Belli will become unavailable after §Y100 years§! have passed since the game started.;;;;;;;;;;;;x
 shattered_jade_info;For as long as this Casus Belli is available, the §YBorder Dispute§! Casus Belli will be unavailable.;;;;;;;;;;;;x
@@ -6068,7 +6068,7 @@ EVTDESC_HF_10012_A_hero_is_parent;我那[new_recruit.GetAgeAdjective][new_recrui
 EVTDESC_HF_10012_B;My [new_recruit.GetAgeAdjective] [new_recruit.GetSonDaughter] rolls [new_recruit.GetHerHis] eyes at my attempted encouragement. "I will carve my own path, [Root.GetFatherMother]. Please, let me." When I do not respond, [new_recruit.GetSheHe] continues: "[hero_character.GetSocietyRank] [hero_character.GetTitledFirstName] is a bore, [Root.GetFatherMother].";;;;;;;;;;;;x
 EVTDESC_HF_10012_B_hero_is_parent;My [new_recruit.GetAgeAdjective] [new_recruit.GetSonDaughter] rolls [new_recruit.GetHerHis] eyes at my attempted encouragement. "I will carve my own path, [Root.GetFatherMother]. Please, let me." When I do not respond, [new_recruit.GetSheHe] continues: "War and combat is dreadfully boring, [Root.GetFatherMother].";;;;;;;;;;;;x
 EVTOPTA_HF_10012_1;我正等着你说这话呢！;;;;;;;;;;;;x
-EVTOPTA_HF_10012_2;We'll play this fair. You're a recruit, like anybody else!;;;;;;;;;;;;x
+EVTOPTA_HF_10012_2;我们要公平竞争。你是新兵，和其他人一样!;;;;;;;;;;;;x
 EVTOPTA_HF_10012_TT;§Y[new_recruit.GetTitledFirstName]§!在[new_recruit.GetHerHis]试炼结束之后就会向你报告。\n;;;;;;;;;;;;x
 EVTOPTB_HF_10012;为什么，你这个忘恩负义的..........;;;;;;;;;;;;x
 EVTOPTB_HF_10012_TT;§Y[new_recruit.GetTitledFirstName]§!明显没有准备好承担义务。\n;;;;;;;;;;;;x
@@ -11282,7 +11282,7 @@ EVTOPTA_HFP_41004_TT;为了开始下次十字军而做准备。;;;;;;;;;;;;x
 EVTTITLE_HFP_41009;向[crusade_title.GetBaseName]发起十字军;;;;;;;;;;;;x
 EVTDESC_HFP_41009;随着一声令下，教宗对[crusade_title.GetBaseName]发起了[crusade_title.GetCrusadeLaunchAnother]十字军。[Root.GetCrusadeLaunchFirstPart]\n\n[Root.GetCrusadeLaunchSecondPart]\n\n[From.Religion.GetHighGodName]将会赦免所有参与这场正义战争的人的罪过。;;;;;;;;;;;;x
 EVTOPTA_HFP_41009;神的旨意！;;;;;;;;;;;;x
-EVTOPTB_HFP_41009;Those [From.Religion.GetGroupName] heathens!;;;;;;;;;;;;x
+EVTOPTB_HFP_41009;那些[From.Religion.GetGroupName]异教徒！;;;;;;;;;;;;x
 EVTOPTA_HFP_41009_TT;对[crusade_title.GetName]的十字军开始了。;;;;;;;;;;;;x
 EVTTITLE_HFP_41011;[Root.Religion.GetGroupName]的挫败;;;;;;;;;;;;x
 EVTDESC_HFP_41011;尽管伟大的十字军的召集令已经被送到了每一个[From.Religion.GetName]国家，但是响应者寥寥无几。几个月来，教宗一直试图聚集十字军的支持者，但梵蒂冈如今已经趋于安静，因为基督之代表显然放弃了这场十字军。\n\n比起对抗境外的异教徒或不信者，[From.Religion.GetGroupName]徒似乎对内斗更感兴趣。教宗发表了一则长篇声明，宣布正式取消十字军，同时谴责了[From.Religion.GetGroupName]领主们在对待信仰事务上的碌碌无为。现在，[From.Religion.GetHighGodName]抛弃了不忠于祂的追随者们，而他们被渎神的不信者、亵渎者和异教徒征服只是早晚的问题。;;;;;;;;;;;;x
@@ -12625,7 +12625,7 @@ recently_built_great_pillar_desc;一根[Root.Religion.GetName]信仰的大立柱
 recently_destroyed_great_pillar_cooldown;遭焚的大立柱;;;;;;;;;;;;x
 recently_destroyed_great_pillar_cooldown_desc;One of the great symbols of the [Root.Religion.GetName] faith have been recently destroyed, breaking this [Root.GetManWoman]'s faith.;;;;;;;;;;;;x
 destroy_great_pillar;摧毁大立柱;;;;;;;;;;;;x
-destroy_great_pillar_desc;Destroying this decayed symbol of a dying faith is a necessary step we have to take in order to wash away the old rituals and superstitions.;;;;;;;;;;;;x
+destroy_great_pillar_desc;摧毁这种堕落信仰的腐朽象征是我们必须采取的重要措施，以荡涤旧的仪式和迷信。;;;;;;;;;;;;x
 tooltip_celebrate_destroyed_great_pillar;本地的§Y大立柱§!将会永远消失。;;;;;;;;;;;;x
 tooltip_ruler_recently_had_pillar_destroyed;§Y[From.Religion.GetName]的大立柱§!最近没有被摧毁。;;;;;;;;;;;;x
 EVTTITLEHF23470;[Root.PrimaryTitle.GetName]之柱;;;;;;;;;;;;x
@@ -12935,7 +12935,7 @@ EVTOPTCHF23850;也许之后再说吧...;;;;;;;;;;;;x
 EVTDESCHFA23851;看来[From.GetFirstName]真是个胆小鬼都不敢接受我的挑战。[From.GetSheHeCap]用[From.GetHerHis]两条腿夹着[From.GetHerHis]尾巴逃跑了，丢下一些蹩脚的借口来躲避比赛。;;;;;;;;;;;;x
 EVTOPTAHF23851;经典。;;;;;;;;;;;;x
 EVTDESCHFA23852;我们聚集了一些玩伴作为证人之后，[From.GetFirstName]和我在城里跑来跑去，将仆人吓到一旁躲避，吓跑农场里的动物，在田野里曲折地寻找最快路径。几分钟后，我第一个冲过终点线，被其他孩子的欢呼声所包围。;;;;;;;;;;;;x
-EVTDESCHFB23852;After we gather a few playmates to act as witnesses, [From.GetFirstName] and I are off running around town, dodging servants, scaring off farm animals, zigzagging through the fields for the quickest path. Unfortunately, just a few steps before the finishing line, I trip over a rock and fall to the ground, allowing [From.GetFirstName] to surpass me.;;;;;;;;;;;;x
+EVTDESCHFB23852;我们聚集了一些玩伴作为证人之后，[From.GetFirstName]和我在城里跑来跑去，将仆人吓到一旁躲避，吓跑农场里的动物，在田野里曲折地寻找最快路径。不幸的是，仅仅距离终点数步之遥，我被岩石绊倒摔在了地上，使得[From.GetFirstName]超过了我。;;;;;;;;;;;;x
 EVTOPTAHF23852;好啊！我赢了！;;;;;;;;;;;;x
 EVTOPTBHF23852;不！我输了！;;;;;;;;;;;;x
 EVTDESCHFA23854;There is an old tree at the edge of [great_tribal_festival_host.Capital.GetName]. Kids say it is more than one hundred years old, and that sometimes the ancestors use it as a ladder to get into our world, and nobody aside from the shamans ever gets close to it.;;;;;;;;;;;;x
@@ -17669,7 +17669,7 @@ elder_pleased;满意;;;;;;;;;;;;x
 elder_displeased;不满意;;;;;;;;;;;;x
 YOUR_CANDIDATE;你的候选人:;;;;;;;;;;;;x
 elder_murderer;杀害了一名长老;;;;;;;;;;;;x
-disrespectful_youngster;不尊重的年轻人;;;;;;;;;;;;x
+disrespectful_youngster;无礼的年轻人;;;;;;;;;;;;x
 EVTDESC_TOG_7200;There are many deities whom I can choose to follow. Will it be motherly Tsumburbura, Goddess of Fertility? Perhaps the moon spirit Ayyur, who knows how to guide me and help my negotiations? On the other hand, for wealth and prosperity, I could turn to the great snake Bida...;;;;;;;;;;;;x
 EVTOPTA_TOG_7200;I will dedicate my prayers to Ayyur to give me guidance and wisdom.;;;;;;;;;;;;x
 EVTOPTB_TOG_7200;Bida will bless me with riches beyond imagining.;;;;;;;;;;;;x
@@ -18285,11 +18285,11 @@ String_severely_injure_eye;让[This.GetHerHis]眼睛淌血，可能已经把[Thi
 String_severely_injure_my_eye;让我的眼睛淌血，我可能就这样瞎了。;;;;;;;;;;;;x
 make_shieldmaiden_custom_tooltip_1;Is either: §YBrave§!, §YProud§!, §YAmbitious§!, §YDiligent§!, §YJust§!, or §YGregarious§!\n;;;;;;;;;;;;x
 EVTDESC_HF_14001_bravery;最近好几次[Root.Society.GetName]的聚会里，我都见到了[student.GetBestName]，但是我根本不能不注意这位看上去十分容易被一些小事弄的担惊受怕[student.GetAgeAdjective][student.GetManWoman]。他会因为一些别人的嘲笑而被弄的畏畏缩缩，在争论当中总是落得下风……「[student.GetSheHeCap]需要我的指导」，我轻声告诉我自己。;;;;;;;;;;;;x
-EVTDESC_HF_14001_ambition;Upon returning from a small raid with my personal guard, I have been talking to [student.GetBestName]. The [student.GetManWoman] does not understand the urge for adventure, whatsoever. "What about the prosperity it brings your tribe?", I argue, showing off a new bracelet decorating my arm. [student.GetSheHeCap] sighs, seemingly unimpressed.;;;;;;;;;;;;x
+EVTDESC_HF_14001_ambition;在我与私人卫队进行的一次小规模掠夺后的归程中，我一直在和[student.GetBestName]聊天。这个[student.GetManWoman]无论如何都明白不了我对冒险的渴望。「想想这会给你的部落带来何等的繁荣？」我展示着我手腕上的新手镯，试图打动他。但[student.GetSheHeCap]叹了一口气，看起来不为所动。;;;;;;;;;;;;x
 EVTDESC_HF_14001_patience;Observing yet another game of [Root.GetWarriorLodgeCompetitionType], and [student.GetTitledFirstName] storming off with a sullen expression on [student.GetHerHis] face, it occurs to me how my [student.GetRootRelation] sorely lacks patience. "It is useful in battle as well", I mumble, scratching my chin, contemplating offering [student.GetHerHim] some guidance.;;;;;;;;;;;;x
 EVTDESC_HF_14001_diligence;Watching [student.GetBestName] in the training grounds is always interesting. There is something about [student.GetHerHis] fighting technique that comes off as half-hearted, and [student.GetHerHis] weapons, as well as armor, seem like they could use a little more caring for... "[student.GetFirstName], could I have a word?", I interrupt the sparring.;;;;;;;;;;;;x
-EVTOPTA_HF_14001_bravery;既然他是一位战士，[student.GetSheHe]就需要我。;;;;;;;;;;;;x
-EVTOPTA_HF_14001_ambition;噢，我可以帮你磨练出你的雄心，[student.GetFirstName]！;;;;;;;;;;;;x
+EVTOPTA_HF_14001_bravery;作为一位战士，[student.GetSheHe]需要我。;;;;;;;;;;;;x
+EVTOPTA_HF_14001_ambition;噢，我可以帮你磨练出你的野心，[student.GetFirstName]！;;;;;;;;;;;;x
 EVTOPTA_HF_14001_patience;[student.GetManWoman]需要有人向[student.GetHerHim]展示别的方法。;;;;;;;;;;;;x
 EVTOPTA_HF_14001_diligence;让我们来谈谈武器护理和礼仪，我的好[student.GetManWoman]。;;;;;;;;;;;;x
 EVTOPTA_HF_14001_TT;你开始给§Y[student.GetTitledFirstName]§!一些指导。;;;;;;;;;;;;x
@@ -18348,7 +18348,7 @@ EVTDESC_HF_14008_diligence;[teacher.GetTitledFirstName] put me to cleaning [teac
 EVTOPTA_HF_14008;I don't know why I don't learn.;;;;;;;;;;;;x
 EVTOPTB_HF_14008;This is *[teacher.GetHerHis]* fault!;;;;;;;;;;;;x
 EVTDESC_HF_14009_bravery;我的[student.GetRootRelation]和我已经从这次露营之旅回来了。[teacher.GetTeachingMomentResult];;;;;;;;;;;;x
-EVTDESC_HF_14009_ambition;My [student.GetRootRelation] and I are back from our final session with the scribes. [teacher.GetTeachingMomentResult];;;;;;;;;;;;x
+EVTDESC_HF_14009_ambition;我的[student.GetRootRelation]和我已经结束了最后一次与书吏的会谈。[teacher.GetTeachingMomentResult];;;;;;;;;;;;x
 EVTDESC_HF_14009_patience;My [student.GetRootRelation] and I have retired from watching the games. [teacher.GetTeachingMomentResult];;;;;;;;;;;;x
 EVTDESC_HF_14009_diligence;My [student.GetRootRelation] and I are finally done organizing my armory. [teacher.GetTeachingMomentResult];;;;;;;;;;;;x
 EVTOPTA_HF_14009;[student.GetSheHeCap] had this [Root.GetTeachingMomentFocus] in [student.GetHerHim] all along.;;;;;;;;;;;;x
@@ -18359,11 +18359,11 @@ EVTOPTC_HF_14009_2;They might need to keep working on this...!;;;;;;;;;;;;x
 opinion_spoiled_ingrate;Spoiled Ingrate;;;;;;;;;;;;x
 opinion_lousy_teacher;Lousy Teacher;;;;;;;;;;;;x
 String_bravery_lesson;我们将会在森林的营地里度过好几个夜晚。从他听到我的提议后发出的紧张的笑声中，我可以判断[student.GetSheHe]已经意识到了荒野中那些潜在的危险……「懦夫最终什么都得不到」，我最后这样告诉他。;;;;;;;;;;;;x
-String_ambition_lesson;we are going to be educating ourselves on famous [Root.Culture.GetName] warriors, and their historical achievements. Surely, their tales are bound to inspire the [student.GetAgeAdjective] [student.GetManWoman].;;;;;;;;;;;;x
+String_ambition_lesson;我们将通过了解著名的[Root.Culture.GetName]战士，及其历史功绩来进行自我教育。毫无疑问，他们的故事会激励这个[student.GetAgeAdjective][student.GetManWoman]。;;;;;;;;;;;;x
 String_patience_lesson;we are going to be observing some [Root.GetWarriorLodgeCompetitionType] games. I am hoping it will teach the [student.GetManWoman] that fortune comes and goes, and that your spirit is the only permanent thing in this world.;;;;;;;;;;;;x
 String_diligence_lesson;I have asked my quartermaster to let us spend some afternoons organizing the armory. I admit, this year's spring cleaning is overdue anyway!;;;;;;;;;;;;x
 String_bravery_tool;打火石;;;;;;;;;;;;x
-String_ambition_tool;collection of sigils;;;;;;;;;;;;x
+String_ambition_tool;收藏的印记;;;;;;;;;;;;x
 String_patience_tool;spinning top;;;;;;;;;;;;x
 String_diligence_tool;sharpening rock;;;;;;;;;;;;x
 String_teaching_moment_great;Any traces of [student.GetHerHis] initial reluctance are gone, and I'm proud to be able to compliment [student.GetHerHim] on how well [student.GetSheHe] handled the experience. "Thank you, for this opportunity, [Root.GetFirstName]", [student.GetSheHe] says, more heartfelt than expected.;;;;;;;;;;;;x
