@@ -1,0 +1,4100 @@
+[
+    {
+        "key": "CR_DIFF_LOWER_THAN",
+        "original": "Combat Rating Difference between §Y$FIRST$§! and §Y$SECOND$§! lower than §Y$VAL$§!",
+        "translation": "§Y$FIRST$§!和§Y$SECOND$§!的决斗等级差值低于§Y$VAL$§!",
+        "stage": 5
+    },
+    {
+        "key": "CR_DIFF_AT_LEAST",
+        "original": "Combat Rating Difference between §Y$FIRST$§! and §Y$SECOND$§! at least §Y$VAL$§!",
+        "translation": "§Y$FIRST$§!和§Y$SECOND$§!的决斗等级差值至少为§Y$VAL$§!",
+        "stage": 5
+    },
+    {
+        "key": "HAS_CR_AT_LEAST",
+        "original": "Combat Rating at least ",
+        "translation": "决斗等级至少为",
+        "stage": 5
+    },
+    {
+        "key": "HAS_LOWER_CR_THAN",
+        "original": "Combat Rating lower than ",
+        "translation": "决斗等级低于",
+        "stage": 5
+    },
+    {
+        "key": "MASTER",
+        "original": "master",
+        "translation": "主人",
+        "stage": 1
+    },
+    {
+        "key": "MISTRESS",
+        "original": "mistress",
+        "translation": "女主人",
+        "stage": 1
+    },
+    {
+        "key": "wol_schemer_1",
+        "original": "Amateur Schemer",
+        "translation": "业余的谋士",
+        "stage": 5
+    },
+    {
+        "key": "desc_wol_schemer_1",
+        "original": "This character is an aspiring schemer who seeks to manipulate others through deceit and subterfuge.",
+        "translation": "此人野心勃勃，是一位企图通过花言巧语来操控他人的阴谋家。",
+        "stage": 5
+    },
+    {
+        "key": "wol_schemer_2",
+        "original": "Schemer",
+        "translation": "谋士",
+        "stage": 5
+    },
+    {
+        "key": "desc_wol_schemer_2",
+        "original": "This character is an experienced schemer, plotter and shadowy puppetmaster.",
+        "translation": "该角色是一位经验老道的谋士，密谋策划者和暗中操控人。",
+        "stage": 5
+    },
+    {
+        "key": "wol_patriarch_1",
+        "original": "Family Man",
+        "translation": "居家男人",
+        "stage": 5
+    },
+    {
+        "key": "desc_wol_patriarch_1",
+        "original": "This man is devoted to the harmony and well-being of his family.",
+        "translation": "他甘愿为家庭的和睦幸福奉献一切。",
+        "stage": 5
+    },
+    {
+        "key": "wol_patriarch_2",
+        "original": "Family Patriarch",
+        "translation": "族长",
+        "stage": 5
+    },
+    {
+        "key": "desc_wol_patriarch_2",
+        "original": "This man is the undisputed head of the family, resolving conflicts and leading with a firm but gentle hand.",
+        "translation": "他是家族中无可争议的领导者，采用刚柔并济的手段解决冲突。",
+        "stage": 5
+    },
+    {
+        "key": "wol_matriarch_1",
+        "original": "Family Woman",
+        "translation": "居家女人",
+        "stage": 5
+    },
+    {
+        "key": "desc_wol_matriarch_1",
+        "original": "This woman is devoted to the harmony and well-being of her family.",
+        "translation": "她甘愿为家庭的和睦幸福奉献一切。",
+        "stage": 5
+    },
+    {
+        "key": "wol_matriarch_2",
+        "original": "Family Matriarch",
+        "translation": "女族长",
+        "stage": 5
+    },
+    {
+        "key": "desc_wol_matriarch_2",
+        "original": "This woman is the undisputed head of the family, resolving conflicts and leading with a firm but gentle hand.",
+        "translation": "她是家族中无可争议的领导者，采用刚柔并济的手段解决冲突。",
+        "stage": 5
+    },
+    {
+        "key": "schemer",
+        "original": "Master Schemer",
+        "translation": "密谋大师",
+        "stage": 5
+    },
+    {
+        "key": "break_up_with_lover",
+        "original": "Break Up",
+        "translation": "分手",
+        "stage": 5
+    },
+    {
+        "key": "break_up_with_lover_desc",
+        "original": "Your love affair with §Y[Root.GetTitledFirstNameNoRegnal]§! is ended.",
+        "translation": "你和 §Y[Root.GetTitledFirstNameNoRegnal]§! 的恋爱关系结束了。",
+        "stage": 5
+    },
+    {
+        "key": "opinion_whorespawn",
+        "original": "Whorespawn",
+        "translation": "娼妇所生",
+        "stage": 5
+    },
+    {
+        "key": "opinion_seduced_once",
+        "original": "Seduced",
+        "translation": "被勾引",
+        "stage": 5
+    },
+    {
+        "key": "opinion_seduced_lustful_worship",
+        "original": "Lustful Worship",
+        "translation": "色欲崇拜",
+        "stage": 5
+    },
+    {
+        "key": "opinion_seducing_concubine",
+        "original": "Seducing",
+        "translation": "诱惑",
+        "stage": 5
+    },
+    {
+        "key": "opinion_regicide_traitor",
+        "original": "Murderous Traitor",
+        "translation": "弑君叛徒",
+        "stage": 5
+    },
+    {
+        "key": "seduced_loyal_bodyguard",
+        "original": "Bodyguard Lover",
+        "translation": "保镖情人",
+        "stage": 5
+    },
+    {
+        "key": "desc_seduced_loyal_bodyguard",
+        "original": "Through seduction, this character has secured the most loyal bodyguard imaginable.",
+        "translation": "通过勾引，该角色得到了最忠诚的卫士。",
+        "stage": 5
+    },
+    {
+        "key": "seduced_loyal_spy_maid",
+        "original": "Maidservant Lover",
+        "translation": "侍女情人",
+        "stage": 5
+    },
+    {
+        "key": "desc_seduced_loyal_spy_maid",
+        "original": "This character has seduced a maid with a quick mind and an ample bosom, using her to spy and snoop around at court.",
+        "translation": "这个角色勾引了一位聪敏机巧又有丰满胸部的侍女，她会为情夫窥探宫廷。",
+        "stage": 5
+    },
+    {
+        "key": "minor_disease_herpes",
+        "original": "Lover's Pox",
+        "translation": "情人的疱疹",
+        "stage": 5
+    },
+    {
+        "key": "desc_minor_disease_herpes",
+        "original": "This character periodically suffers from embarrassing and unsightly blisters.",
+        "translation": "该角色时不时地被不堪入目和令人尴尬的水疱折磨",
+        "stage": 5
+    },
+    {
+        "key": "DAMNATION",
+        "original": "Damnation",
+        "translation": "诅咒",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC6031_ALL",
+        "original": "As the [Root.Religion.GetPriestTitle] slowly pulled me out of the holy spring, the water started boiling and frothing, paint running off the arcane runes smeared on my naked body. Filled with wonder, I realized that the gibbering voices in my head had finally fallen silent!",
+        "translation": "就在[Root.Religion.GetPriestTitle]缓慢地将我从圣泉中拖出来时，泉水开始沸腾起来，覆满全身的神秘符文开始消退。奇迹出现了！我脑中的低语和呢喃终于消失了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC38309",
+        "original": "The fog in my mind has lifted. I realize now that I used to be a Lunatic!",
+        "translation": "脑中之雾已经消散。我这才意识到之前自己疯了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC38310",
+        "original": "I have lost my absolute convictions and try to keep an open mind. I have lost the Zealous trait.",
+        "translation": "我现在试着用更开放的心态接纳事物，不再像过去那样坚守信仰了。我失去了狂热特质。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC38311",
+        "original": "My frank bluntness won't get me into trouble anymore - I have lost the Honest trait.",
+        "translation": "我的坦率直白再也不会令自己陷入麻烦了，我失去了诚实特质。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC38312",
+        "original": "I have learned to take pride in my actions and in my great family. I have lost the Humble trait.",
+        "translation": "我为自己的行为和家族感到骄傲。我失去了谦卑特质。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC64130",
+        "original": "Life is good!",
+        "translation": "生活真美妙！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_40",
+        "original": "This morning I woke up with a painful itch. It seems [Root.Religion.GetRandomGodName] has seen fit to blight me with a minor pox for my sinful activities.",
+        "translation": "早上起来的时候我痛痒难忍。似乎是[Root.Religion.GetRandomGodName]因我的罪恶行径降灾于我，让我长出了水痘。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_40_NC",
+        "original": "This morning I woke up with a painful itch... It seems I have contracted Lover's Pox.",
+        "translation": "早上起来的时候我痛痒难忍……我似乎感染上了情人的疱疹。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_500",
+        "original": "My confessor, [target_priest.GetTitledName] is such an attractive [target_priest.GetManWoman]! I've applied my ample charms and can tell [target_priest.GetSubjectPronoun] is thinking of other things than [target_priest.Religion.GetRandomGodName]!",
+        "translation": "我的告解者[target_priest.GetTitledName]是个魅力十足的[target_priest.GetManWoman]！通过运用自己那令人无法拒绝的魅力，我敢说[target_priest.GetSubjectPronoun]肯定在想着比[target_priest.Religion.GetRandomGodName]更重要的事！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_500",
+        "original": "Give [target_priest.GetObjectPronoun] a taste of what [target_priest.GetSubjectPronoun] is missing!",
+        "translation": "让[target_priest.GetObjectPronoun]得到[target_priest.GetSubjectPronoun]所想的东西！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_500",
+        "original": "I do so love teasing the dear [target_priest.GetManWoman]...",
+        "translation": "我真的很爱挑逗[target_priest.GetManWoman]……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_520",
+        "original": "Recently, I have amused myself with seducing a handsome young guard. He follows me around like a puppy now... a very big, muscular puppy!",
+        "translation": "最近我总是以勾引一位年轻的卫士为乐。他现在像狗一样的跟着我……一条又大又壮的狗！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_520",
+        "original": "Make him a squire and keep him as my lover...",
+        "translation": "给他个身份，让他成为我的情人……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_520",
+        "original": "Give him a tumble and I'll have the most loyal bodyguard ever!",
+        "translation": "给他点甜头，我就能得到最忠诚的卫士了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_520",
+        "original": "It's been fun, but I should aim higher.",
+        "translation": "确实很有趣，但我应该把目标放在更高远的地方。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_530",
+        "original": "I've had my eye on a feisty young scullery maid with huge... intellect for some time now. Though she skillfully dodges the attentions of every boy and greybeard at court, I have her blushing furiously whenever I gaze into her eyes. Seduced and wrapped around my finger, this sharp lass could be very useful...",
+        "translation": "我已关注一位活泼而有大……智慧的年轻洗碗女仆一段时间了。尽管她熟练地回避着宫廷内老少爷们的注意，但只要我一凝视着她的双眼，她的脸就飞快地红起来。通过勾引，我可以把她玩弄于鼓掌之间，没准这位敏锐的女孩可以派上大用场……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_530",
+        "original": "Make her a lady and keep her as my mistress...",
+        "translation": "给她个身份，让她成为我的情妇……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_530",
+        "original": "Bed her and make her mine. What a spy she'll make!",
+        "translation": "睡了她，交个炮友。她会成为一个很好的间谍！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_530",
+        "original": "A common wench? I can do better!",
+        "translation": "一个普通乡下妞？我可以上个更好的！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_560",
+        "original": "I see her flit past out of the corner of my eye, naked and red-haired, giggling - the nymph who lives in the garden. Always teasing me, never showing herself clearly. What must I do to win her heart?",
+        "translation": "我看见花仙子披着红色长发，赤身裸体从我的眼角掠过。她总是喜欢挑逗我，却不轻易示人，我该怎样赢得她的芳心呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_560",
+        "original": "The magnificent old rose bush! She must be its spirit.",
+        "translation": "高贵典雅的玫瑰花丛！那肯定就是她！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_560",
+        "original": "Wait... why am I out here in my smallclothes at this hour?",
+        "translation": "等等……我怎么在这个点穿着紧身衣出现在这里？",
+        "stage": 5
+    },
+    {
+        "key": "EVTTOOLTIP_WoL_561",
+        "original": "You enter the rose bush, professing your love.",
+        "translation": "你来到了玫瑰花丛，开始示爱。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_561",
+        "original": "When I staggered out of the rose bush hours had passed, my head filled with carnal but vague memories. I am bleeding all over from the cruel thorns. The voluptuous dryad has exacted her price...",
+        "translation": "当我终于蹒跚地走出玫瑰丛的时候，已经过去好几个小时了。我现在满脑子都是模糊的肉体记忆，全身都被刺扎出了血，看来要干这磨人的小妖精得付出点代价……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_561",
+        "original": "Will I ever see her again?",
+        "translation": "我还能再见到她吗？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_562",
+        "original": "Today the servants found a newborn baby in a basket under the magical rose bush of my dryad lover!",
+        "translation": "今天，仆人们在玫瑰花丛中的一个篮筐里，发现了个新生儿。那一定是我和仙女情人的种！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_562",
+        "original": "Proclaim that little [target_baby.GetFirstName] is my [target_baby.GetSonDaughter]!",
+        "translation": "向大家宣布小[target_baby.GetFirstName]是我的[target_baby.GetSonDaughter]！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_562",
+        "original": "[target_baby.GetFirstName] will be well cared for.",
+        "translation": "我会好生照顾[target_baby.GetFirstName]的。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_570",
+        "original": "The centaur beckons to me, massive muscles flexing. I have never seen anything more masculine in my life!",
+        "translation": "半人马靠近了我，弯曲的肌肉虬结有力。我从未见过这么有男人味的人！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_570",
+        "original": "I am overcome by his musky scent.",
+        "translation": "我被他的麝香味所征服。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_570",
+        "original": "Wait... a centaur? In our stables?!",
+        "translation": "等等……一头半人马？在我的马厩里？！",
+        "stage": 5
+    },
+    {
+        "key": "EVTTOOLTIP_WoL_571",
+        "original": "You succumb to your desires.",
+        "translation": "屈从于你的欲望。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_571",
+        "original": "I came to in a state of bliss, mind filled with foggy images of the stunningly handsome centaur and our night of passion.",
+        "translation": "我醒来时感觉幸福无比，满脑子都是那头帅呆了的半人马和我们那销魂的一夜。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_571",
+        "original": "Will I ever see him again?",
+        "translation": "我还能再碰见他吗？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_580",
+        "original": "The misery of my captivity is only broken when I get to apply my charms on the gaoler. I can tell the ugly lout desires me... perhaps I can exploit his weakness to escape?",
+        "translation": "如果想要摆脱被囚禁的悲惨命运，就得用自己的魅力征服狱卒。我敢说那个丑家伙肯定对我图谋不轨……也许可以利用这个弱点逃脱？",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_580",
+        "original": "Come here, handsome!'",
+        "translation": "来嘛~帅哥~",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_580",
+        "original": "It is too risky.",
+        "translation": "太冒险了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_581",
+        "original": "The gaoler unlocked the cell and entered, leering. As he started to fondle me, I suggested heading to a more romantic location. He burst out laughing, slapped me on the rump and left, snickering scornfully.",
+        "translation": "狱卒打开牢笼，淫笑着走了进来。就在他开始抚摸我的时候，我向他建议到一个更嗨的地方。他突然大笑起来，用力拍了下我的屁股，对我轻蔑的扫了一眼就离开了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_581",
+        "original": "I am sure his [Root.Host.GetMasterMistress], [Root.Host.GetTitledFirstNameNoRegnal], will hear of this...",
+        "translation": "我猜他的主人[Root.Host.GetMasterMistress]，[Root.Host.GetTitledFirstNameNoRegnal]，一定会知道这件事的……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_582",
+        "original": "My prisoner, [From.GetTitledName], attempted to use her female charms on the gaoler to escape. Fortunately, he did not fall for her wiles.",
+        "translation": "我的女囚，[From.GetTitledName]，尝试勾引狱卒逃跑。幸运的是，狱卒没上她的套。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_582",
+        "original": "Spunky! I say she has earned better quarters.",
+        "translation": "干得漂亮！我为她准备了个更好的去处。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_582",
+        "original": "Reward the gaoler for his integrity.",
+        "translation": "为狱卒的正直奖励他。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_582",
+        "original": "The [GetRootFromInsult]! Throw her in the oubliette.",
+        "translation": "[GetRootFromInsult]！把她打入密牢。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_583",
+        "original": "[From.GetTitledFirstNameNoRegnal] was so impressed by my initiative with the gaoler that [From.GetSubjectPronoun] personally escorted me out of the dungeon to better accomodations. It should be easier to escape from here...",
+        "translation": "我对狱卒的主动给[From.GetTitledFirstNameNoRegnal]留下了深刻的印象，[From.GetSubjectPronoun]亲自将我从地牢押解到待遇更好的地方。这样逃出去就更容易了……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_583",
+        "original": "I am grateful.",
+        "translation": "我感激涕零。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_584",
+        "original": "When my captor [From.GetTitledFirstNameNoRegnal] learned of my seduction attempt, [From.GetSubjectPronoun] had me thrown in the Oubliette!",
+        "translation": "当那个关着我的[From.GetTitledFirstNameNoRegnal]听说了我勾引狱卒的事后，[From.GetSubjectPronoun]把我打入了密牢！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_584",
+        "original": "The [GetRootFromInsult]! I will die in this hole...",
+        "translation": "[GetRootFromInsult]！我要死在这了！……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_585",
+        "original": "The gaoler unlocked the cell and entered, leering. As he started to fondle me, I suggested heading to a more romantic location. He eagerly snuck me past a few other guards to his own cot, where I had to do things I am not proud of... Then I bashed him on the head with a heavy jug, grabbed his keys and clothes and made my escape!",
+        "translation": "狱卒打开牢笼，淫笑着走了进来。就在他开始抚摸我的时候，我向他建议到一个更嗨的地方。狱卒立刻带着我骗过了数名守卫，溜到了他的小屋。在那，我不得不做些羞羞的事情，然后我用一个大罐猛砸了他的头，夺走了他的钥匙和行头，开始了逃亡之旅！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_585",
+        "original": "Freedom!",
+        "translation": "自由了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_586",
+        "original": "My chief gaoler was seduced by my prisoner, the wily [From.GetTitledName]. He took her to his cot where she bashed him on the head with a wine jug and managed to make her escape!",
+        "translation": "我的牢头被那个狡诈的小婊砸[From.GetTitledName]勾住了魂。他把她带到了自己的住处，还被那个囚犯用酒罐砸了头跑掉了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_586",
+        "original": "Throw the idiot in the Oubliette!",
+        "translation": "把那个蠢货扔进密牢！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_590",
+        "original": "My concubine, [target_consort.GetTitledFirstNameNoRegnal], does not love me. While love is not exactly necessary, I'd still like to see her beautiful face light up with smiles and laughter... so I've decided to romance her!",
+        "translation": "我的小妾[target_consort.GetTitledFirstNameNoRegnal]不大喜欢我。虽然我们之间并不一定需要爱，但还是想看到她的漂亮脸蛋上浮现出笑容……所以我决定跟她玩玩浪漫！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_590",
+        "original": "Turn on the charm",
+        "translation": "施展魅力",
+        "stage": 5
+    },
+    {
+        "key": "EVTTOOLTIP_WoL_591",
+        "original": "The seduction of [This.GetFirstName] begins",
+        "translation": "勾引[This.GetFirstName]的行动开始了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_592",
+        "original": "I did get my [GetFromRelation] [From.GetFirstName] to laugh today, as I told her a silly joke about two squirrels. I think she is warming up to me...",
+        "translation": "今天我给我的[GetFromRelation][From.GetFirstName]讲了关于两只松鼠的笑话，终于让她笑了出来。我想她开始对我产生好感了……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_592_B",
+        "original": "I can tell my [GetFromRelation] [From.GetFirstName] is finally falling in love with me. She snuggled up to me as we watched the sunset together from the roof of the great tower.",
+        "translation": "我敢说我的[GetFromRelation][From.GetFirstName]终于爱上我了。我们在高塔的屋顶上一起看夕阳西下，她依偎在我的怀里。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_592",
+        "original": "Good, that gladdens me!",
+        "translation": "这感觉真棒！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_593",
+        "original": "Thanks to my romantic efforts, sweet [From.GetFirstName], my [GetFromRelation], has also become my lover. It feels great to be rid of the cold awkwardness around her!",
+        "translation": "在一场浪漫过后，亲爱的[From.GetFirstName]，我的[GetFromRelation]，也同时成为了我的情人。让冰山美人解冻的感觉真是太好了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_593",
+        "original": "Finally!",
+        "translation": "终于！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_594",
+        "original": "Today, [From.GetFirstName], my [GetFromRelation], confessed that she has forgiven me for her abduction. She has grown to like her new life in [Root.Capital.Capital.GetName]... and me.",
+        "translation": "今天，[From.GetFirstName]，我的[GetFromRelation]，跟我说她不再记恨我绑架她了。她渐渐习惯了[Root.Capital.Capital.GetName]的生活……还有我。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_594",
+        "original": "I am relieved!",
+        "translation": "解脱了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_595",
+        "original": "My [GetFromRelation] [From.GetFirstName] is not warming up to me at all. She laughs at my jokes, true, but not because she finds them funny, but with scorn. She told me outright that she despises me!",
+        "translation": "我的[GetFromRelation][From.GetFirstName]对我并没有产生好感。对于我讲的笑话她确实是笑了，不过她并没觉得那多有意思，她发出的是轻蔑的笑声。她直言不讳地表达了对我的鄙视！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_595",
+        "original": "I'll just have to keep at it!",
+        "translation": "我会坚持下去的！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_595",
+        "original": "I give up. Perhaps I should put her aside...",
+        "translation": "我放弃。或许应该把她打入冷宫……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_1150",
+        "original": "Having many lovers is exciting and fulfilling. So much love, so much desire... but so little time! I feel like I'm burning the candle at both ends.",
+        "translation": "同时拥有众多情人让我感到既兴奋又满足。我的情人们个个如狼似虎，对爱充满欲望……但是我不可能面面俱到。感觉长此以往下去我很快就会油尽灯枯。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_1150",
+        "original": "I can make this work!",
+        "translation": "我吃得消！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_1150",
+        "original": "Break up with [first_lover.GetTitledFirstNameNoRegnal]",
+        "translation": "和[first_lover.GetTitledFirstNameNoRegnal]分手",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_1150",
+        "original": "Break up with [second_lover.GetTitledFirstNameNoRegnal]",
+        "translation": "和[second_lover.GetTitledFirstNameNoRegnal]分手",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTD_WOL_1150",
+        "original": "Break up with [third_lover.GetTitledFirstNameNoRegnal]",
+        "translation": "和[third_lover.GetTitledFirstNameNoRegnal]分手",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_1160",
+        "original": "My beloved [my_lover.GetTitledFirstNameNoRegnal] is suffering from [my_lover.GetPossPronoun] bad marriage with [my_lover.Spouse.GetTitledFirstName]. Perhaps I should suggest a romantic retreat to the countryside, just the two of us (and our most trusted retainers)?",
+        "translation": "我亲爱的[my_lover.GetTitledFirstNameNoRegnal]正遭受着[my_lover.GetPossPronoun]和[my_lover.Spouse.GetTitledFirstName]的失败婚姻之苦。也许我该建议我们俩（还有最忠诚的侍从）一起去乡下来一场浪漫的旅行？",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_1160",
+        "original": "I yearn for [my_lover.GetPossPronoun] embrace!",
+        "translation": "我渴望[my_lover.GetPossPronoun]拥抱！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_1160",
+        "original": "No. What if [my_lover.Spouse.GetFirstName] were to find out?",
+        "translation": "不。万一被[my_lover.Spouse.GetFirstName]发现了呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTTOOLTIP_WoL_1161",
+        "original": "The suggestion is made. [This.GetTitledFirstNameNoRegnal] gets to decide...",
+        "translation": "我提出了建议。就等[This.GetTitledFirstNameNoRegnal]回话了……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_1161",
+        "original": "Ripped pillows, broken furniture, shattered vases... My marriage to [Root.Spouse.GetFirstName] has devolved into an unending torment of bitter arguments and fiery rows. I would be depressed, but my lover, [From.GetTitledFirstNameNoRegnal], just suggested that we retire to the countryside for a few days of carefree romance and passion!",
+        "translation": "扯坏的枕头，破烂的家具，还有碎裂的瓦罐……我和[Root.Spouse.GetFirstName]的婚姻中只有无尽的折磨和激烈的争吵。我本打算就此消沉，然而我的情人，[From.GetTitledFirstNameNoRegnal]，向我建议去乡下来一场无忧无虑，浪漫而又富有激情的旅行！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_1161",
+        "original": "What a splendid idea!",
+        "translation": "说走就走！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_1161",
+        "original": "No... let's be together right here under [Root.Spouse.GetFirstName]'s nose!",
+        "translation": "不……让我们就在这里，在[Root.Spouse.GetFirstName]的眼皮底下！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_1161",
+        "original": "I wish... but we can't risk it.",
+        "translation": "我的确想……但不敢冒这个险。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTD_WOL_1161",
+        "original": "We can't! The Watcher... he sees all!",
+        "translation": "我们不能这样！有人……一直盯着我们！",
+        "stage": 5
+    },
+    {
+        "key": "EVTTOOLTIP_WoL_1162",
+        "original": "We risk discovery by [Root.Spouse.GetFirstName]",
+        "translation": "我们冒着被[Root.Spouse.GetFirstName]发现的风险。",
+        "stage": 5
+    },
+    {
+        "key": "EVTTOOLTIP_WoL_1163",
+        "original": "There is almost no risk of discovery by [Root.Spouse.GetFirstName]",
+        "translation": "[Root.Spouse.GetFirstName]根本发现不了我们。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_1162",
+        "original": "[From.GetFirstName] convinced me to stay in [From.Capital.Capital.GetName] so that we could be together right under [From.Spouse.GetTitledFirstNameNoRegnal]'s nose. We even made love in [From.Spouse.GetPossPronoun] bed!",
+        "translation": "[From.GetFirstName]说服我留在[From.Capital.Capital.GetName]。这样我们就能在[From.Spouse.GetTitledFirstNameNoRegnal]的眼皮底下同居了。我们甚至在[From.Spouse.GetPossPronoun]床上做爱！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_1162",
+        "original": "We are so naughty...",
+        "translation": "这招我喜欢……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_1163",
+        "original": "My [GetFromRelation] [From.GetFirstName] and I spent a few days of romance and passion in a country house far away from the prying eyes of [From.Spouse.GetTitledFirstNameNoRegnal]...",
+        "translation": "我的[GetFromRelation][From.GetFirstName]和我在远离[From.Spouse.GetTitledFirstNameNoRegnal]的眼线监视的乡村中度过了浪漫而又激情的几天……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_1163",
+        "original": "I am so happy! Exhausted too...",
+        "translation": "我好幸福！感觉不胜腰力……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_1164",
+        "original": "My [GetFromRelation] [From.GetFirstName] declined my suggestion that we spend some time together alone in a country house, for fear of upsetting [From.GetPossPronoun] [From.Spouse.GetHusbandWife].",
+        "translation": "我的[GetFromRelation][From.GetFirstName]拒绝了我提出的去乡村共度几日的建议，只因怕惹恼了[From.GetPossPronoun][From.Spouse.GetHusbandWife]。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_1164",
+        "original": "Such a wasted opportunity!",
+        "translation": "真是浪费机会！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_1164_MAD",
+        "original": "My [GetFromRelation] [From.GetFirstName] declined my suggestion that we spend some time together alone in a country house, mumbling about a Watcher with 'cruel eyes' who sees all...",
+        "translation": "我的[GetFromRelation][From.GetFirstName]拒绝了我提出的去乡村共度几日的建议，咕哝着说有人一直在盯着我们……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_1164_MAD",
+        "original": "My poor love, I fear [From.GetSubjectPronoun] is losing it!",
+        "translation": "我可怜的情人，我怀疑[From.GetSubjectPronoun]的脑子进水了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_1164_MAD_MAD",
+        "original": "Aagh! Not the Watcher! I must hide...",
+        "translation": "哦不！有人盯着我们！我得藏起来……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2002",
+        "original": "Life in the shadows is a risky affair - eavesdroppers can be discovered, plots can backfire, and vengeful victims come after you dagger in hand! I am not proud of what I do, but it is for the greater good.",
+        "translation": "阴影中的生活往往充斥着凶险——窃听可能被察觉，密谋可能被反噬，受害者的报复也可能接踵而至！我对自己的所作所为并不感到骄傲，但这的确能帮我获得更大的利益。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2003",
+        "original": "Even the mightiest army can be defeated by a single [Root.GetManWoman]. Cut off the head and the body falls. I am [Root.GetFirstName] - [Root.GetMasterMistress] of Shadows.",
+        "translation": "即使是最强大的军队也可能被区区一个[Root.GetManWoman]所打败，身首异处。我是[Root.GetFirstName]——暗影之[Root.GetMasterMistress]。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2003",
+        "original": "I shall rule from the shadows.",
+        "translation": "我将在阴影中统治。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_2003",
+        "original": "I shall strike terror into the hearts of my foes!",
+        "translation": "我会把恐惧深深扎进敌人的心里！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_2003",
+        "original": "And yet, I won't let the shadows define me...",
+        "translation": "然而，我不会让阴影限制我……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2050",
+        "original": "I - and my trusted snoops and sneaks - will keep a very close eye on the activities of [From.GetTitledName]... a close eye indeed.",
+        "translation": "我和我最出色的密探们会时刻留意[From.GetTitledName]的动向……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2050",
+        "original": "I wonder what secrets [From.GetSubjectPronoun] is hiding?",
+        "translation": "我想知道[From.GetSubjectPronoun]在藏着什么秘密？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2061",
+        "original": "There is no point spying on [FromFromFrom.GetTitledFirstName] anymore, considering [FromFromFrom.GetSubjectPronoun] is dead!",
+        "translation": "再侦查[FromFromFrom.GetTitledFirstName]已经毫无意义，因为[FromFromFrom.GetSubjectPronoun]已经死了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2061",
+        "original": "Time to turn my attention elsewhere.",
+        "translation": "该把注意力放到别人身上了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2062",
+        "original": "[FromFromFrom.GetTitledFirstName] has ended up in prison, so there's no point spying on [FromFromFrom.GetObjectPronoun] anymore.",
+        "translation": "[FromFromFrom.GetTitledFirstName]已经入狱，那么就没有必要再盯着[FromFromFrom.GetObjectPronoun]了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2063",
+        "original": "[FromFromFrom.GetTitledFirstName], the target of my current spy efforts, has tragically fallen comatose, making the endeavour pointless.",
+        "translation": "[FromFromFrom.GetTitledFirstName]，我的侦查目标，悲剧性的瘫在了床上，再查下去毫无意义。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2064",
+        "original": "[FromFromFrom.GetTitledFirstName] is no longer present in the realm, so there is no further point to my spying.",
+        "translation": "[FromFromFrom.GetTitledFirstName]已经离开了我们的国土，那么也没必要再查他了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2071",
+        "original": "My spying on [target_spy_on.GetTitledName] has revealed [target_spy_on.GetPossPronoun] complicity in a shadowy plot to [From.GetPlot]!",
+        "translation": "我通过调查[target_spy_on.GetTitledName]发现了[target_spy_on.GetPossPronoun]同党正在密谋[From.GetPlot]！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2071",
+        "original": "Knowledge is power!",
+        "translation": "知识就是力量！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2080",
+        "original": "My snoops overheard [FromFromFrom.GetTitledName] as [FromFromFrom.GetSubjectPronoun] told shocking lies about [FromFromFrom.GetPossPronoun] rightful liege! How should I use this information?",
+        "translation": "我的密探偶然听说了[FromFromFrom.GetTitledName]的消息。[FromFromFrom.GetSubjectPronoun]对[FromFromFrom.GetPossPronoun]直属领主撒了弥天大谎！我该怎样利用这个信息呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2080_BASTARD",
+        "original": "I have unearthed authentic love letters proving that [FromFromFrom.GetTitledName] is actually a bastard! [FromFromFrom.GetPossPronounCap] mother, [FromFromFrom.Mother.GetTitledFirstName] had a torrid love affair with [FromFromFrom.RealFather.GetTitledName]. How should I use this shocking information?",
+        "translation": "我发现了一封来源可靠的情书，证明[FromFromFrom.GetTitledName]是个实实在在的野种！ [FromFromFrom.GetPossPronounCap]母亲，[FromFromFrom.Mother.GetTitledFirstName]和[FromFromFrom.RealFather.GetTitledName]早已坠入爱河。我该怎样利用好这个信息呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2080_DEVIANT",
+        "original": "My eyes and ears have discovered the bizarre and repulsive truth about [FromFromFrom.GetTitledName]'s sexual preferences. How should I use this juicy information?",
+        "translation": "我的耳目发现了一个惊人的事实！[FromFromFrom.GetTitledName]居然是个死基佬！这么刺激的信息我该如何善加利用呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2080_HERETIC",
+        "original": "Thanks to my loyal spies, I have found out that [FromFromFrom.GetTitledName] is attempting to promote [FromFromFrom.GetPossPronoun] vile heresies. How should I use this information?",
+        "translation": "由于我忠诚的密探的辛勤努力，我发现了[FromFromFrom.GetTitledName]正在尝试传播[FromFromFrom.GetPossPronoun]肮脏的异端信仰。我该如何利用好这个信息呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2080_INFIDEL",
+        "original": "My trusted informants tell me that [FromFromFrom.GetTitledName] is preaching [FromFromFrom.GetPossPronoun] false religion in [FromFromFrom.Capital.GetName]. How should I use this information?",
+        "translation": "有可靠人士向我告密说[FromFromFrom.GetTitledName]正在[FromFromFrom.Capital.GetName]传播[FromFromFrom.GetPossPronoun]错误信仰。我该如何利用好这个信息呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2080_TRAITOR",
+        "original": "Though of somewhat dubious provenance, I have received information that [FromFromFrom.GetTitledName] is plotting treason against [FromFromFrom.GetPossPronoun] rightful liege! How should I use this explosive information?",
+        "translation": "尽管情报的来源可疑，我收到消息称[FromFromFrom.GetTitledName]正打算对[FromFromFrom.GetPossPronoun]直属领主谋反！这么劲爆的消息我该如何善加利用呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2080",
+        "original": "Inform [target_spy_on.GetPossPronoun] liege, [target_spy_on.Liege.GetTitledName].",
+        "translation": "通知[target_spy_on.GetPossPronoun]领主，[target_spy_on.Liege.GetTitledName]。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_2080",
+        "original": "Expose and denounce [target_spy_on.GetObjectPronoun] publicly, giving me a reason to arrest [target_spy_on.GetObjectPronoun]!",
+        "translation": "揭发并公开指责[target_spy_on.GetObjectPronoun]，这样我就有理由去逮捕[target_spy_on.GetObjectPronoun]！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_2080_HARSH",
+        "original": "Denounce [target_spy_on.GetObjectPronoun], giving me reasons for arrest and revokation!",
+        "translation": "公开指责[target_spy_on.GetObjectPronoun]，这样我就有理由去逮捕他并剥夺头衔了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_2080",
+        "original": "Threaten [target_spy_on.GetFirstName] with exposure unless [target_spy_on.GetSubjectPronoun] stays out of all factions.",
+        "translation": "威胁要揭发[target_spy_on.GetFirstName]除非[target_spy_on.GetSubjectPronoun]不参加任何派系。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTD_WOL_2080",
+        "original": "Threaten [target_spy_on.GetFirstName] with exposure unless [target_spy_on.GetSubjectPronoun] joins my factions.",
+        "translation": "威胁要揭发[target_spy_on.GetFirstName]除非[target_spy_on.GetSubjectPronoun]参加我的派系。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTE_WOL_2080",
+        "original": "Keep this information to myself.",
+        "translation": "把这事藏在心底。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2081",
+        "original": "[From.GetTitledName] claims to have proof that I have slandered [From.GetObjectPronoun] - just cause for arrest and imprisonment!",
+        "translation": "[From.GetTitledName]声称有证据证明我诽谤了[From.GetObjectPronoun]——这样他就能逮捕和囚禁我了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2081_BASTARD",
+        "original": "[From.GetTitledName] claims to have discovered proof that my real father is in fact [Root.RealFather.GetTitledName], making me a bastard! I could be arrested, or even have my titles revoked over this!",
+        "translation": "[From.GetTitledName]声称发现了确凿的证据证明我的亲生父亲其实是[Root.RealFather.GetTitledName]，这让我变成了野种！有了这证据我就会被逮捕并且被没收头衔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2081_TRAITOR",
+        "original": "[From.GetTitledName] is publicly denouncing me as a traitor, claiming to have witnesses that can testify against me. I could be arrested, or even have my titles revoked over this!",
+        "translation": "[From.GetTitledName]公开指责我是叛徒，声称他有目击证人可以和我当面对质。我可能会被抓起来，甚至被没收头衔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2081_HERETIC",
+        "original": "[From.GetTitledName] is claiming that I am promoting heresy! I could be arrested over this.",
+        "translation": "[From.GetTitledName]声称我正在传播异端信仰！我可能因此入狱！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2081_INFIDEL",
+        "original": "[From.GetTitledName] is claiming that I am attempting to spread my [Root.Religion.GetGroupName] faith! I could be arrested over this.",
+        "translation": "[From.GetTitledName]声称我正在传播我的[Root.Religion.GetGroupName]信仰！我可能因此入狱。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2081_DEVIANT",
+        "original": "[From.GetTitledName] claims to have unearthed shocking evidence of my criminal deviancy and low morals. I could be arrested over this slander.",
+        "translation": "[From.GetTitledName]声称发现了惊天的证据证明我品行不端并且性取向有问题。我可能因此入狱。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2081",
+        "original": "Foul lies!",
+        "translation": "一派胡言！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2082",
+        "original": "[From.GetTitledName] has provided me with proof that [target_spy_on.GetTitledName] has been viciously slandering me! How should I use this information?",
+        "translation": "[From.GetTitledName]为我提供了证据证明[target_spy_on.GetTitledName]正在对我采取敌对行动！我该如何利用这个信息呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2082_BASTARD",
+        "original": "[From.GetTitledName] has unearthed authentic love letters proving that [target_spy_on.GetTitledName] is actually a bastard! [target_spy_on.GetPossPronounCap] mother, [target_spy_on.Mother.GetTitledFirstName] had a torrid love affair with [target_spy_on.RealFather.GetTitledName]. How should I use this shocking information?",
+        "translation": "[From.GetTitledName]发现了一封来源可靠的情书，证明[target_spy_on.GetTitledName]是个实实在在的野种！[target_spy_on.GetPossPronounCap]母亲，[target_spy_on.Mother.GetTitledFirstName]早就与[target_spy_on.RealFather.GetTitledName]坠入了爱河。我该怎样利用好这个信息呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2082_DEVIANT",
+        "original": "[From.GetTitledName] has given me bizarre and repulsive evidence concerning [target_spy_on.GetTitledName]'s sexual preferences. How should I use this juicy information?",
+        "translation": "[From.GetTitledName]向我透露了一个惊人的事实！[target_spy_on.GetTitledName]是个死基佬！这么劲爆的消息我该如何善加利用呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2082_HERETIC",
+        "original": "[From.GetTitledName] claims that [target_spy_on.GetTitledName] is attempting to promote vile heresies. How should I use this information?",
+        "translation": "[From.GetTitledName]声称[target_spy_on.GetTitledName]正在尝试传播肮脏的异端信仰。我该如何利用好这个信息呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2082_INFIDEL",
+        "original": "[From.GetTitledName] tell me that [target_spy_on.GetTitledName] is preaching [target_spy_on.GetPossPronoun] false religion in [target_spy_on.Capital.Capital.GetName]. How should I respond to this?",
+        "translation": "[From.GetTitledName]跟我说[target_spy_on.GetTitledName]正在[target_spy_on.Capital.Capital.GetName]传播[target_spy_on.GetPossPronoun]错误信仰。我该如何应对呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2082_TRAITOR",
+        "original": "Though of somewhat dubious provenance, [From.GetTitledName] has presented me with evidence that [target_spy_on.GetTitledName] is plotting treason against me! How should I respond to this?",
+        "translation": "尽管消息的来源可疑，[From.GetTitledName]向我提供了证据证明[target_spy_on.GetTitledName]正在密谋反叛我！我该如何应对呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2083",
+        "original": "[From.GetTitledName] was grateful, and upset, about the evidence I provided against [target_spy_on.GetTitledName]. [target_spy_on.GetSubjectPronounCap] has been publicly denounced and humiliated!",
+        "translation": "[From.GetTitledName]对我带来的关于[target_spy_on.GetTitledName]的证据感到既庆幸又恼怒，[target_spy_on.GetSubjectPronounCap]已被公开指责并羞辱。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2083",
+        "original": "Muahaha!",
+        "translation": "木哈哈！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2084",
+        "original": "[From.GetTitledName] was grateful, and upset, about the evidence I provided against [target_spy_on.GetTitledName], and will use it to blackmail [target_spy_on.GetObjectPronoun] out of factionalism.",
+        "translation": "[From.GetTitledName]对我带来的关于[target_spy_on.GetTitledName]的证据感到既庆幸又恼怒，并会用它来胁迫[target_spy_on.GetObjectPronoun]离开派系。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2084",
+        "original": "The things I do for stability in the realm...",
+        "translation": "我所做的一切都是为了国家的稳定……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2085",
+        "original": "[From.GetTitledName] reacted with shock at the evidence I provided against [target_spy_on.GetTitledName], but will not take any action against [target_spy_on.GetObjectPronoun].",
+        "translation": "[From.GetTitledName]对我提供的关于[target_spy_on.GetTitledName]的证据感到大吃一惊，但表示不会对[target_spy_on.GetObjectPronoun]采取任何行动。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2085",
+        "original": "A wasted opportunity!",
+        "translation": "坐失良机！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2086",
+        "original": "[From.GetTitledName] claims to have proof that I have slandered [From.GetObjectPronoun]. [From.GetSubjectPronounCap] promises to keep this to [From.GetReflexivePronoun] if I promise to stay out of all factions...",
+        "translation": "[From.GetTitledName]声称有证据证明我诽谤了[From.GetObjectPronoun]。[From.GetSubjectPronounCap]保证只要我离开所有派系，[From.GetReflexivePronoun]就会守口如瓶……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2086_BASTARD",
+        "original": "[From.GetTitledName] claims to have discovered proof that my real father is in fact [Root.RealFather.GetTitledName], making me a bastard! [From.GetSubjectPronounCap] promises to keep this to [From.GetReflexivePronoun] if I promise to stay out of all factions...",
+        "translation": "[From.GetTitledName]声称发现了我的亲生父亲是[Root.RealFather.GetTitledName]的证据，证明我是个野种！[From.GetSubjectPronounCap]保证只要我离开所有派系，[From.GetReflexivePronoun]就会守口如瓶……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2086_TRAITOR",
+        "original": "[From.GetTitledName] is claiming to have witnesses that can testify to the fact that I'm a traitor! [From.GetSubjectPronounCap] promises to keep this to [From.GetReflexivePronoun] if I promise to stay out of all factions...",
+        "translation": "[From.GetTitledName]公开指责我为叛徒，声称有目击证人可以和我当面对质。[From.GetSubjectPronounCap]保证只要我离开所有派系，[From.GetReflexivePronoun]就不再追究……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2086_HERETIC",
+        "original": "[From.GetTitledName] is claiming to know that I am promoting heresy, but promises to keep this to [From.GetReflexivePronoun] if I promise to stay out of all factions...",
+        "translation": "[From.GetTitledName]声称他已经知道我正在传播异端信仰了，但他保证只要我离开所有派系，[From.GetReflexivePronoun]就会守口如瓶……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2086_INFIDEL",
+        "original": "[From.GetTitledName] is claiming to know about my attempts to spread my [Root.Religion.GetGroupName] faith! [From.GetSubjectPronounCap] promises to keep this to [From.GetReflexivePronoun] if I promise to stay out of all factions...",
+        "translation": "[From.GetTitledName]声称他已经知道我正在传播我的[Root.Religion.GetGroupName]信仰了！[From.GetSubjectPronounCap]保证只要我离开所有派系，[From.GetReflexivePronoun]就会守口如瓶……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2086_DEVIANT",
+        "original": "[From.GetTitledName] claims to have unearthed shocking evidence of my criminal deviancy and low morals. [From.GetSubjectPronounCap] promises to keep this to [From.GetReflexivePronoun] if I promise to stay out of all factions...",
+        "translation": "[From.GetTitledName]声称发现了惊天的证据证明我品行不端并且性取向有问题。[From.GetSubjectPronounCap]保证只要我离开所有派系，[From.GetReflexivePronoun]就会守口如瓶……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2086",
+        "original": "I have no choice but to agree.",
+        "translation": "我没有其他的选择……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_2086",
+        "original": "Never!",
+        "translation": "绝不！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2087",
+        "original": "When confronted with the evidence, [From.GetTitledFirstName] swore to stay out of all factions and be loyal.",
+        "translation": "面对铁证，[From.GetTitledFirstName]发誓会离开所有派系并保证对你忠心耿耿。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2088",
+        "original": "[From.GetTitledFirstName] just laughed at the evidence, flat out refusing to stop meddling in political factionalism.",
+        "translation": "[From.GetTitledFirstName]对证据满不在乎，直截了当地表示拒绝停止参与政治派系。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2088",
+        "original": "[From.GetSubjectPronounCap] will live to regret this!",
+        "translation": "[From.GetSubjectPronounCap]会后悔的！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2090",
+        "original": "When confronted with the evidence, [From.GetTitledFirstName] swore to join my factions.",
+        "translation": "面对铁证，[From.GetTitledFirstName]宣誓加入我的派系。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2091",
+        "original": "[From.GetTitledFirstName] just laughed at the evidence, flat out refusing to join my factions.",
+        "translation": "[From.GetTitledFirstName]对证据满不在乎，直截了当地表示拒绝加入我的派系。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2100",
+        "original": "I have found out nothing new and useful about [target_spy_on.GetTitledName], but, as my shady informant pointed out, there is nothing preventing me from making stuff up. The bigger the lie...",
+        "translation": "我找不到关于[target_spy_on.GetTitledName]的有价值的情报了，不过，情报员给我支了一招，我可以编啊！他解释就等于掩饰……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2100_1",
+        "original": "I have it! [target_spy_on.GetSubjectPronounCap] likes to dress up as a [target_spy_on.GetManWomanOpp]!",
+        "translation": "编出来了！[target_spy_on.GetSubjectPronounCap]喜欢扮成个[target_spy_on.GetManWomanOpp]！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2100_2",
+        "original": "How about a classic? [target_spy_on.GetSubjectPronounCap] takes little boys to bed!",
+        "translation": "这个够不够经典？[target_spy_on.GetSubjectPronounCap]喜欢猥亵男童！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2100_4",
+        "original": "[target_spy_on.GetSubjectPronounCap] likes to bathe in the blood of virgins. Brilliant!",
+        "translation": "[target_spy_on.GetSubjectPronounCap]喜欢用处女血洗澡！我简直是天才！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2100_7",
+        "original": "[target_spy_on.Religion.GetRandomEvilGodNameCap]! Yes, [target_spy_on.GetSubjectPronoun] is surely a willing slave to dark forces!",
+        "translation": "[target_spy_on.Religion.GetRandomEvilGodNameCap]！对呀，[target_spy_on.GetSubjectPronoun]肯定是邪神的奴仆！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_2100",
+        "original": "No, I need something real.",
+        "translation": "算了，我还是找点实际的吧。",
+        "stage": 5
+    },
+    {
+        "key": "EVTTOOLTIP_WOL_2101",
+        "original": "[This.GetTitledFirstName] finds out that I started the rumors.",
+        "translation": "[This.GetTitledFirstName]发觉是我散播的谣言了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2101",
+        "original": "Several vicious rumors have been circulating about me lately. With a lot of effort, I have finally managed to trace them back to [From.GetTitledName]!",
+        "translation": "最近我的身边流传着一些歹毒的流言。经过千辛万苦的努力，我终于发现这些流言是[From.GetTitledName]传播的了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2101",
+        "original": "The [GetRootFromInsult]!",
+        "translation": "[GetRootFromInsult]！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2110",
+        "original": "One of my informants, a young soldier with more vices than he can afford, has managed to gain the trust of [FromFromFrom.GetTitledFirstNameNoRegnal] and now often stands guard outside [FromFromFrom.GetPossPronoun] door. I don't understand how the fellow managed it, but who am I to look a gift horse in the mouth? For enough gold, he might be persuaded to get rid of [FromFromFrom.GetFirstName]... violently.",
+        "translation": "我的密探之一，一个恶贯满盈的战士，正努力得到[FromFromFrom.GetTitledFirstNameNoRegnal]的信任，还经常在[FromFromFrom.GetPossPronoun]的门外站岗。我不知道他是怎么做到的，但是他的价值毋庸置疑。只要给足了金子，他就可能帮我除掉[FromFromFrom.GetFirstName]。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2110",
+        "original": "Yes, that would be expedient.",
+        "translation": "没错，那肯定会行之有效。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_2110",
+        "original": "Murder is going too far!",
+        "translation": "杀人就过分了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTTOOLTIP_WOL_2111",
+        "original": "[This.GetTitledFirstNameNoRegnal] is attacked and hopefully slain...",
+        "translation": "[This.GetTitledFirstNameNoRegnal]受到了攻击，要是死了就好了……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2111_DEATH",
+        "original": "I try to sit up in bed, but someone is holding me down! It's the burly armsman with the trustworthy face I promoted to the guard last week. Another assailant is trying to force a rag into my mouth. Holding my nose too... can't breathe...",
+        "translation": "我尝试在床上坐起来，但是有人把我按住了！是那个上周因为一张忠诚的脸被我提拔为守卫的强壮武士！另一个袭击者把破布塞进了我的嘴里，捏上了我的鼻子，我感到……无法……呼……吸……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2111_WOUNDED",
+        "original": "I try to sit up in bed, but someone is holding me down! It's the burly armsman with the trustworthy face I promoted to the guard last week. There is a skinny little fellow with him, grinning viciously as he produces a dagger and stabs me! Screaming and thrashing about, I manage to kick the guard in the groin and break free. I punch the other one in the nose and rush from the room, trailing blood.",
+        "translation": "我尝试在床上坐起来，但是有人把我按住了！是那个上周因为一张忠诚的脸被我提拔为守卫的强壮武士！他旁边还有一个瘦小的同伙，他带着歹毒的笑容用匕首扎了我！我拼命呼救，奋力一搏，狠狠地踹了守卫的肚子一脚，挣脱了束缚。然后又给了小个子的鼻子一拳，拖着一路的血迹逃出了房间。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2111_LIVES",
+        "original": "I try to sit up in bed, but someone is holding me down! It's the burly armsman with the trustworthy face I promoted to the guard last week. There is a skinny little fellow with him, grinning viciously as he produces a dagger. Screaming and thrashing about, I manage to kick the guard in the groin and break free. I punch the other one in the nose and rush from the room!",
+        "translation": "我尝试在床上坐起来，但是有人把我按住了！是那个上周因为一张忠诚的脸被我提拔为守卫的强壮武士！他旁边还有一个瘦小的同伙，带着歹毒的笑容掏出了一把匕首。我拼命呼救，奋力一搏，狠狠地踹了守卫的肚子一脚，挣脱了束缚。然后又给了小个子的鼻子一拳，迅速逃离了房间！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPT_WOL_2111_DEATH",
+        "original": "I don't want to die like this!",
+        "translation": "我不想就这样死去！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPT_WOL_2111_DEATH_KNOWN",
+        "original": "[From.GetTitledName] sends [From.GetPossPronoun] regards!'",
+        "translation": "[From.GetTitledName]送来了[From.GetPossPronoun]问候！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPT_WOL_2111_UNKNOWN",
+        "original": "Unfortunately, the two assailants got away.",
+        "translation": "遗憾的是，两个袭击者跑掉了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPT_WOL_2111_KNOWN",
+        "original": "Under torture, the two men admitted that [From.GetTitledName] hired them!",
+        "translation": "经过严刑拷打，两人承认是[From.GetTitledName]雇佣的他们！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2112",
+        "original": "In disguise, I meet up with my friend, [From.GetTitledFirstNameNoRegnal]'s burly armsman and his shifty-looking associate at a run-down tavern. Grinning, he recounts how they stabbed [From.GetTitledName] to death in [From.GetPossPronoun] bed. I hand them a bag of coins and leave.",
+        "translation": "经过一番乔装打扮后，我和我的朋友[From.GetTitledFirstNameNoRegnal]的强壮武士和他的矮子同伙在一间破旧的旅店里碰了头。他笑嘻嘻地告诉了我他们是如何在[From.GetTitledName]的床上刺死[From.GetPossPronoun]。我给了他们一袋金币后就离开了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2112",
+        "original": "Outside, I order my guards to tie up the loose ends...",
+        "translation": "一出门，我就命令守卫完成封口工作……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2113",
+        "original": "My spy, [From.GetTitledFirstNameNoRegnal]'s burly armsman, managed to slay the [GetRootFromInsult] in [From.GetPossPronoun] bed. Unfortunately, he was captured trying to escape. My complicity is known!",
+        "translation": "我的间谍，[From.GetTitledFirstNameNoRegnal]的强壮武士，尝试在[From.GetPossPronoun]床上杀掉那[GetRootFromInsult]。遗憾的是让他给跑了。这下我的阴谋败露了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2113",
+        "original": "It was worth it!",
+        "translation": "那仍然值得！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2114",
+        "original": "In disguise, I meet up with my friend, [From.GetTitledFirstNameNoRegnal]'s burly armsman and his shifty-looking associate at a run-down tavern. Shamefacedly, he recounts how they stabbed [From.GetTitledFirstName] in [From.GetPossPronoun] bed, and how [From.GetSubjectPronoun] somehow managed to get away. I pat him on the shoulder and tell him it's alright.",
+        "translation": "经过一番乔装打扮后，我和我的朋友[From.GetTitledFirstNameNoRegnal]的强壮武士和他的矮子同伙在一间破旧的旅店里碰了头。他羞红着脸细数着他俩是如何在[From.GetTitledFirstName]的床上刺杀[From.GetPossPronoun]，[From.GetSubjectPronoun]又是如何跑掉了的。我拍了拍他的肩膀跟他说没事。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2115",
+        "original": "My spy, [From.GetTitledFirstNameNoRegnal]'s burly armsman, only managed to wound the [GetRootFromInsult]. Worse, he was captured trying to escape. My complicity is known!",
+        "translation": "我的间谍，[From.GetTitledFirstNameNoRegnal]的强壮武士，只是伤到了那[GetRootFromInsult]。更糟糕的是，他逃跑的时候还被抓到了！这下我的阴谋败露了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2115",
+        "original": "I hope [From.GetSubjectPronoun] dies from infection!",
+        "translation": "[From.GetSubjectPronoun]最好能死于伤口感染！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2116",
+        "original": "In disguise, I meet up with my friend, [From.GetTitledFirstNameNoRegnal]'s burly armsman and his shifty-looking associate at a run-down tavern. Shamefacedly, he recounts how they attacked [From.GetTitledFirstName] in [From.GetPossPronoun] bed, but how [From.GetSubjectPronoun] managed to break free and get away. I pat him on the shoulder and tell him it's alright.",
+        "translation": "经过一番乔装打扮后，我和我的朋友[From.GetTitledFirstNameNoRegnal]的强壮武士和他的矮子同伙在一间破旧的旅店里碰了头。他羞红着脸细数着他俩是如何在[From.GetTitledFirstName]的床上袭击[From.GetPossPronoun]，以及[From.GetSubjectPronoun]是如何毫发无损的跑掉的。我拍了拍他的肩膀跟他说没事。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2117",
+        "original": "My spy, [From.GetTitledFirstNameNoRegnal]'s burly armsman, completely botched the attack on the [GetRootFromInsult]. Worse, he was captured trying to escape. My complicity is known!",
+        "translation": "我的间谍，[From.GetTitledFirstNameNoRegnal]的强壮武士，在袭击那[GetRootFromInsult]的行动中彻底失败了。更糟糕的是，他在撤离的时候被抓住了！这下我的阴谋败露了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2117",
+        "original": "Incompetent bungler! I should have done it myself.",
+        "translation": "没用的废物！早知道我就自己动手了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2120",
+        "original": "I have learned from my little birds that [FromFromFrom.GetTitledFirstNameNoRegnal] plans to travel the realm incognito for a lark, mingling with the common folk. [FromFromFrom.GetSubjectPronounCap] will only be protected by two loyal friends during this little adventure - a great opportunity to have [FromFromFrom.GetObjectPronoun] abducted, if I so wished.",
+        "translation": "我的信鸽送来消息：[FromFromFrom.GetTitledFirstNameNoRegnal]计划和普通人一起在国内微服游玩。在这次小冒险中，[FromFromFrom.GetSubjectPronounCap]只有两个忠诚的朋友保护——只要我愿意，这就会是一次绑架[FromFromFrom.GetObjectPronoun]的大好机会。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2120",
+        "original": "Ah yes. It would suit my purposes marvellously!",
+        "translation": "就这么办！我会完美地达到自己的目的。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_2120",
+        "original": "No, I have no reason to do that.",
+        "translation": "不，我没理由那么做。",
+        "stage": 5
+    },
+    {
+        "key": "EVTTOOLTIP_WOL_2121",
+        "original": "Some thugs are hired, with orders to bring me [FromFromFrom.GetTitledFirstNameNoRegnal] alive.",
+        "translation": "我雇佣了一些暴徒，命令他们把[FromFromFrom.GetTitledFirstNameNoRegnal]活着带来。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2121",
+        "original": "On a lark, I decided to travel among the common folk incognito with but a friend, a servant and a bodyguard. As we ride through a forest, an arrow suddenly sprouts from the neck of my trusty guard! Shouting a warning, I ride like crazy to get away...",
+        "translation": "为了取乐，我决定乔装打扮到民间旅行。随行的只有一个朋友，一个仆人，和一个守卫。在我们骑马穿过树林的时候，一支箭突然扎进了守卫的脖子！我大声警告着其他人，然后疯了似的骑着马离开……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPT_WOL_2121_CAUGHT",
+        "original": "...but we are surrounded! No bandits, but the agents of [From.GetTitledName].",
+        "translation": "……但我们被包围了！这些人并非土匪强盗，而是受[From.GetTitledName]所雇。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPT_WOL_2121",
+        "original": "...and manage to outdistance the bandits! Amateurs.",
+        "translation": "……并且成功从强盗的手中突围！他们果然不成气候。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2122",
+        "original": "My hired thugs managed to waylay [From.GetTitledFirstNameNoRegnal] and brought [From.GetObjectPronoun] to me in a sack!",
+        "translation": "我雇佣的流氓们伏击了[From.GetTitledFirstNameNoRegnal]，并且把[From.GetObjectPronoun]装进袋子带给了我。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2123",
+        "original": "The thugs I hired failed to capture [From.GetTitledFirstNameNoRegnal], though apparently they slew a guard and a servant in the attempt.",
+        "translation": "我雇佣的流氓们虽然在抓捕过程中杀掉了守卫和仆人，但没能抓住[From.GetTitledFirstNameNoRegnal]。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2123",
+        "original": "Morons! You can't find good help these days...",
+        "translation": "蠢货！这几天你们别想要报酬了！……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2200",
+        "original": "I have decided to free [From.GetTitledName] from the dungeons of [From.Host.GetTitledName]. It will take time - and likely some gold - but [From.GetFirstName] deserves a better fate!",
+        "translation": "我决定将[From.GetTitledName]解放出[From.Host.GetTitledName]的囚牢。这要花些时间和金钱，但是[From.GetFirstName]理应过上更好的生活！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2200",
+        "original": "I'll probably need an agent in [From.Host.Capital.Capital.GetName]...",
+        "translation": "我需要在[From.Host.Capital.Capital.GetName]找个代理人……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2201",
+        "original": "I have decided to liberate my beloved [GetFromRelation] [From.GetFirstName] from the filthy paws of her abductor, [From.Employer.GetTitledName]. It will take time - and likely some gold - but [From.GetFirstName] deserves a better fate!",
+        "translation": "我决定让我亲爱的[GetFromRelation][From.GetFirstName]从她的绑架者[From.Employer.GetTitledName]那里获得自由。这要花些时间和金钱，但是[From.GetFirstName]理应过上更好的生活！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2211",
+        "original": "[target_captive.GetTitledFirstName] has tragically died in captivity before I had a chance to break [target_captive.GetObjectPronoun] out.",
+        "translation": "我还没找到机会把[target_captive.GetObjectPronoun]救出来，[target_captive.GetTitledFirstName]就悲剧性地死在了牢中。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2211",
+        "original": "Well, it was worth a shot!",
+        "translation": "好吧，至少我努力过了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2212",
+        "original": "[target_captive.GetTitledFirstName] has tragically fallen comatose, making my endeavour to free [target_captive.GetObjectPronoun] rather pointless.",
+        "translation": "[target_captive.GetTitledFirstName]悲剧性地不省人事了！那么我为把[target_captive.GetObjectPronoun]救出来的努力也就没什么意义了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2213",
+        "original": "[target_captive.GetTitledFirstName] is no longer a prisoner, so I can abort my plans to free [target_captive.GetObjectPronoun].",
+        "translation": "[target_captive.GetTitledFirstName]不再是囚犯了，所以我可以取消解放[target_captive.GetObjectPronoun]的计划了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2221",
+        "original": "I've approached [From.GetBestName] at the court of [From.Employer.GetTitledName] with my plan to liberate [target_captive.GetTitledFirstName]. [From.GetFirstName] is sympathetic and might be persuaded to take the risk...",
+        "translation": "为了让[target_captive.GetTitledFirstName]自由的计划，我接近了[From.Employer.GetTitledName]宫廷中的[From.GetBestName]。[From.GetFirstName]是个有同情心的人，很可能被我说服一起冒这个险……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2221",
+        "original": "Put the plan in motion!",
+        "translation": "是时候付诸行动了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_2221",
+        "original": "Bribe [From.GetFirstName] and go ahead with the plan.",
+        "translation": "贿赂[From.GetFirstName]然后继续执行计划。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_2221",
+        "original": "Seduce [From.GetFirstName] and go ahead with the plan.",
+        "translation": "勾引[From.GetFirstName]然后继续执行计划。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTD_WOL_2221",
+        "original": "I've changed my mind. Abort the whole scheme.",
+        "translation": "我改变主意了，取消所有计划。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2223",
+        "original": "I woke from my troubled sleep with a start. Was that a thud outside my cell? Keys rattle in the lock and the door opens to a thin beam of light. It's [From.GetBestName]! 'Come with me quickly [Root.GetLordLady]! [FromFrom.GetTitledFirstNameNoRegnal] has hired me to help you escape!'",
+        "translation": "我从睡梦中惊醒，刚才有东西撞了我的牢房门么？随着钥匙从锁中拔出的声音，门缝逐渐露出一束光进来。那是[From.GetBestName]！「快跟我来[Root.GetLordLady]！[FromFrom.GetTitledFirstNameNoRegnal]雇佣了我来助你逃跑！」",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2223",
+        "original": "Freedom!",
+        "translation": "自由了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2224",
+        "original": "I received some bad news this morning. My prisoner, [From.GetBestName] escaped from [From.GetPossPronoun] cell in the night. [From.GetSubjectPronounCap] had outside help - one of the guards might never wake from the blow to his head...",
+        "translation": "今早我收到了一些坏消息。我的囚犯，[From.GetBestName]夜里从[From.GetPossPronoun]牢房里逃走了！[From.GetSubjectPronounCap]有外援——有个守卫还因被敲破了头而死……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2224_CONSORT",
+        "original": "My concubine [From.GetBestName] has fled! She climbed out of her tower room window, probably with outside assistance, because my guards were completely unable to locate her before she escaped my realm.",
+        "translation": "我的小妾[From.GetBestName]跑了！她从窗户爬了出去，而且她一定有外援，因为在逃出我的地盘前守卫完全没发现她。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2224",
+        "original": "[FromFromFrom.GetTitledName] was surely behind this!",
+        "translation": "肯定是[FromFromFrom.GetTitledName]在搞鬼！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2225",
+        "original": "Good news! [From.GetBestName] was successfully sprung from captivity by the daring [FromFrom.GetBestName] and is safely back in [Root.Capital.Capital.GetName]!",
+        "translation": "好消息！勇敢的[FromFrom.GetBestName]把[From.GetBestName]从牢笼中救了出来，现在已经安全回到了[Root.Capital.Capital.GetName]！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2226",
+        "original": "I woke from my troubled sleep with a start. Was that a thud outside my cell? Keys rattle in the lock and the door opens to a bright light. It's that ogre of a gaoler. 'This blighter attempted your rescue', he growls, and holds up a comatose [From.GetManWoman] like a ragdoll. '[Root.Host.GetTitledFirstNameNoRegnal] won't be too pleased, now will [Root.Host.GetSubjectPronoun]!?'",
+        "translation": "我从睡梦中惊醒，刚才有东西撞了我的牢房门么？随着钥匙从锁中拔出的声音，牢房的门大开。是那个恐怖的牢头！「这个笨蛋想把你救出去」，他咆哮着，然后拎出了一个像布偶一样的不省人事的[From.GetManWoman]。「[Root.Host.GetTitledFirstNameNoRegnal]肯定不会高兴的，[Root.Host.GetSubjectPronoun]」会生气的！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2226",
+        "original": "Poor [From.GetManWoman]... was that [From.GetBestName]?",
+        "translation": "可怜的[From.GetManWoman]……那不是[From.GetBestName]吗？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2227",
+        "original": "The prison guards foiled an escape attempt last night. My treacherous [GetFromFromRelation] [FromFrom.GetBestName] was captured trying to free [From.GetTitledName] from [From.GetPossPronoun] cell!",
+        "translation": "狱卒昨晚挫败了一场企图逃跑的阴谋。我那奸诈的[GetFromFromRelation] [FromFrom.GetBestName]在协助[From.GetTitledName]从[From.GetPossPronoun]牢房中逃跑的时候被抓了现行！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2227_CONSORT",
+        "original": "My [GetFromRelation] [From.GetFirstName] was almost abducted last night. The treacherous [FromFrom.GetBestName] attempted to 'rescue' her by climbing in through the window, but slipped and fell! When questioned, the concussed [FromFrom.GetFirstName] admitted that [FromFromFrom.GetTitledName] was behind this chivalrous idiocy.",
+        "translation": "我[GetFromRelation][From.GetFirstName]昨晚差点被掳走。狡诈的[FromFrom.GetBestName]尝试爬进窗子来「解救」她，却失足摔了下来！当被讯问的时候，摔的不轻的[FromFrom.GetFirstName]承认[FromFromFrom.GetTitledName]是这次愚蠢事件的主谋。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2227",
+        "original": "The dungeon is not secure enough. Throw [From.GetFirstName] in the oubliette!",
+        "translation": "关在地牢里并不安全。把[From.GetFirstName]打入密牢！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_2227",
+        "original": "Tighten security!",
+        "translation": "加强安保！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2228",
+        "original": "The [GetRootFromInsult] [From.GetTitledFirstNameNoRegnal] had me thrown me in the oubliette to make sure I don't escape!",
+        "translation": "[GetRootFromInsult][From.GetTitledFirstNameNoRegnal]把我打入了密牢以确保我无法逃脱！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2228",
+        "original": "I will die here...",
+        "translation": "我会死在那的……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2229",
+        "original": "Bad news... [FromFrom.GetBestName] failed to free [From.GetBestName] from [From.GetPossPronoun] captivity and was imprisoned [FromFrom.GetReflexivePronoun]!",
+        "translation": "坏消息……[FromFrom.GetBestName]不但没把[From.GetBestName]从[From.GetPossPronoun]牢房中救出，[FromFrom.GetReflexivePronoun]反倒被关起来了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2229",
+        "original": "Damnation! Security will be too tight now.",
+        "translation": "该死！对面的防范肯定更加严密了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2300",
+        "original": "I watched from the shadows as my spymaster, [Root.job_spymaster.GetTitledFirstNameNoRegnal], surreptitiously marked a spot on the wall with a piece of chalk. This might just be [Root.job_spymaster.GetPossPronoun] normal skulduggery, but my intuition says not...",
+        "translation": "我从阴影中观察到我的间谍总管[Root.job_spymaster.GetTitledFirstNameNoRegnal]，用粉笔在墙上偷偷摸摸做了个标记。这可能只是[Root.job_spymaster.GetPossPronoun]通常的伎俩，但直觉告诉我没那么简单……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2300",
+        "original": "Time to spy on the spy",
+        "translation": "到了调查间谍的时候了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2302",
+        "original": "Eavesdropping from a secret passage in the walls, I overheard my faithless spymaster [Root.job_spymaster.GetFirstName] talking to another conspirator. They are plotting to [From.GetPlot]!",
+        "translation": "通过隔墙窃听，我发觉那个不忠的间谍总管[Root.job_spymaster.GetFirstName]正在和另一个阴谋家谈话。他们正密谋要[From.GetPlot]！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2302",
+        "original": "Arrest [Root.job_spymaster.GetTitledFirstNameNoRegnal] immediately!",
+        "translation": "马上逮捕[Root.job_spymaster.GetTitledFirstNameNoRegnal]！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_2302",
+        "original": "Hold off. I will deal with this later.",
+        "translation": "先等等。我过段时间再处理这事。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2303",
+        "original": "My snooping [GetFromRelation], [From.GetTitledFirstName], apparently overheard me plotting murder and did not take kindly to my plans. I have been arrested!",
+        "translation": "我那个爱管闲事的[GetFromRelation]，[From.GetTitledFirstName]，偶然间听说了我的谋杀计划，并表示了反对。现在我被抓起来了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2304",
+        "original": "Over the last week, I have observed my spymaster [Root.job_spymaster.GetFirstName] carefully and found nothing further to arouse my suspicion. Perhaps I'll just have to accept that odd behaviour goes with the job...",
+        "translation": "在过去的一周里，我一直在仔细观察着我的间谍总管[Root.job_spymaster.GetFirstName]，但并没有发觉什么可疑之处。也许行为古怪的人是我才对……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2304",
+        "original": "I have more important things to do",
+        "translation": "我还有更重要的事去做。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_2304",
+        "original": "I can't take any chances. Have [Root.job_spymaster.GetObjectPronoun] replaced.",
+        "translation": "我可不想心存侥幸。把[Root.job_spymaster.GetObjectPronoun]换掉。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_2305",
+        "original": "I have noticed my [GetFromRelation] [From.GetTitledFirstName] clumsily spying on me lately. It probably has something to do with [From.GetPossPronoun] unhealthy obsession with intrigue and an overly suspicious mind. I should be careful.",
+        "translation": "最近我发现我的[GetFromRelation][From.GetTitledFirstName]一直在笨拙地调查着我。这一定和[From.GetPossPronoun]对搞阴谋的病态的执着以及那颗过于多虑的脑子有关。我该小心应付。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_2305",
+        "original": "Lead [From.GetObjectPronoun] a merry chase!",
+        "translation": "让[From.GetObjectPronoun]高高兴兴地被牵着团团转吧！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3002",
+        "original": "I would do anything for the family, but it is hard work cultivating loyalty and devotion not just towards me, but between all the disparate members of our great House. When I'm gone, the harmony and stability I leave behind will be my greatest legacy.",
+        "translation": "我愿意为家族付出一切，但就培养忠诚和奉献来说，不仅仅是我，更需要我们伟大家族中每一位成员的努力。当我离开这个世界的时候，和谐和稳定将是我留给后人的最宝贵的财富！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_3002",
+        "original": "Hear me roar!",
+        "translation": "听我怒吼！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3003",
+        "original": "House [Root.GetOnlyDynastyName] stands firm on the rock of its proud [Root.GetPatriarchMatriarch] - [Root.GetTitledFirstNameNoRegnal]!",
+        "translation": "在荣耀的[Root.GetPatriarchMatriarch][Root.GetTitledFirstNameNoRegnal]的领导下，[Root.GetOnlyDynastyName]家族坚如磐石！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_3003",
+        "original": "No, I seek another lifestyle",
+        "translation": "算了，我还是寻求其他的生活方式吧",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3010",
+        "original": "I have been spending more time with my [target_spouse.GetHusbandWife] [target_spouse.GetFirstName] lately, and though of course we did not marry for love, I can tell it is growing between us.",
+        "translation": "最近我花了更多的时间来陪伴我的[target_spouse.GetHusbandWife][target_spouse.GetFirstName]，尽管我们不是因爱成婚，但我敢说我俩爱情的种子正在发芽。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_3010",
+        "original": "Ah, marital bliss!",
+        "translation": "啊！婚姻的幸福！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3022",
+        "original": "I have been making an effort to spend more time with my [GetFromRelation] [From.GetFirstName] lately. We have not always seen eye to eye, but as [From.GetPossPronoun] liege, it is especially important to foster loyalty and respect.",
+        "translation": "最近我努力花更多的时间来陪伴我的[GetFromRelation][From.GetFirstName]。我们的看法到现在还不大一致，但是作为[From.GetPossPronoun]领主，培养忠诚和尊重尤其重要。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3022_CHILD",
+        "original": "My little [GetFromRelation] [From.GetFirstName] adores me, and I love playing with [From.GetObjectPronoun]. It is important to lay the groundwork for our future relations...",
+        "translation": "我的小[GetFromRelation][From.GetFirstName]崇拜着我，我也喜欢跟[From.GetObjectPronoun]一起玩。为我们未来的关系打下基础是很重要的。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3022_ABROAD",
+        "original": "I have been corresponding regularly with my [GetFromRelation] [From.GetFirstName], and always make sure to see [From.GetObjectPronoun] whenever I get the chance. It's a harsh world and family must stick together.",
+        "translation": "我和我的[GetFromRelation][From.GetFirstName]一直保持着定期通信，并且保证一有机会就去看望[From.GetObjectPronoun]。这是一个残酷的世界，家人一定要团结一致。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_3022",
+        "original": "Family first!",
+        "translation": "家族为先！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3032",
+        "original": "My [GetFromRelation] [From.GetFirstName], the [GetRootFromCompliment] [From.GetManWoman], can always rely on me for aid. I try to help out whenever and however I can, out of respect, if not love.",
+        "translation": "我的[GetFromRelation][From.GetFirstName]，[GetRootFromCompliment][From.GetManWoman]，总是依赖我的救济。无论何时何种方式，我都会努力帮其摆脱困境，即便不是因为爱，也是出于尊重。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3042",
+        "original": "It is hard to find the time, but whenever I can, I try to spend some time with my [GetFromRelation] [From.GetFirstName]. [From.GetSubjectPronounCap] must be made to see how important family is, and to honor and love [From.GetPossPronoun] parents!",
+        "translation": "我很难腾出时间，但只要一有机会我就会去陪我的[GetFromRelation][From.GetFirstName]。必须让[From.GetSubjectPronounCap]知道家庭的重要性，并向[From.GetPossPronoun]父母表达爱与敬意！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3042_CHILD",
+        "original": "As a reigning [Root.PrimaryTitle.GetRulerTitle], I rarely have any spare time, but for my little [GetFromRelation] [From.GetFirstName] I would move heaven and earth!",
+        "translation": "作为一名[Root.PrimaryTitle.GetRulerTitle]，我很少能抽出时间，但一说到小[GetFromRelation][From.GetFirstName]我就会不遗余力！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3042_ABROAD",
+        "original": "I have been corresponding regularly with my [GetFromRelation] [From.GetFirstName], and always make sure to see [From.GetObjectPronoun] whenever I get the chance to give sage advice and remind [From.GetObjectPronoun] of [From.GetPossPronoun] duties.",
+        "translation": "一直以来我总是保持着和我的[GetFromRelation][From.GetFirstName]的固定通信，并总是保证会去看[From.GetObjectPronoun]。一有时间我就会给[From.GetObjectPronoun]一些明智的建议，并让其牢记[From.GetPossPronoun]责任。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3050",
+        "original": "I have noticed that [target_first.GetTitledFirstNameNoRegnal] and [target_second.GetTitledFirstNameNoRegnal] are not on the best of terms - a situation I hope to remedy! I have invited them both for some quality family time in [Root.Capital.Capital.GetName].",
+        "translation": "我注意到[target_first.GetTitledFirstNameNoRegnal]和[target_second.GetTitledFirstNameNoRegnal]两人不和，而我想能补救他们的关系。我已经邀请他们来[Root.Capital.Capital.GetName]度过一段美好的家庭时光。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3051",
+        "original": "My [GetFromRelation], [From.GetTitledFirstNameNoRegnal], has asked me to spend some quality family time in [From.Capital.Capital.GetName]. I am sure the idea is for me to become better friends with [target_second.GetTitledName].",
+        "translation": "我的[GetFromRelation]，[From.GetTitledFirstNameNoRegnal]，邀请我到[From.Capital.Capital.GetName]度过一段美好的家庭时光。我想这么做是为了让我和[target_second.GetTitledName]成为好朋友。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_3051",
+        "original": "That sounds nice!",
+        "translation": "听起来不错！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_3051",
+        "original": "What idiocy! I think not.",
+        "translation": "真蠢！还是算了吧。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3053",
+        "original": "My [GetFromRelation] [From.GetTitledFirstNameNoRegnal] refused my suggestion. There will be no reconciliation with [target_second.GetTitledName].",
+        "translation": "我的[GetFromRelation][From.GetTitledFirstNameNoRegnal]拒绝了我的建议。这样就不会跟[target_second.GetTitledName]和解了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_3053",
+        "original": "How foolish!",
+        "translation": "真是蠢货！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3054",
+        "original": "My [GetFromRelation] [From.GetTitledFirstNameNoRegnal] refused my suggestion. There will be no reconciliation with [target_first.GetTitledName].",
+        "translation": "我的[GetFromRelation][From.GetTitledFirstNameNoRegnal]拒绝了我的建议。这样就不会跟[target_first.GetTitledName]和解了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3055",
+        "original": "My [GetFromRelation] [From.GetTitledFirstNameNoRegnal] refused [target_initiator.GetTitledFirstNameNoRegnal]'s invitation for us all to spend some time together in [target_initiator.Capital.Capital.GetName]...",
+        "translation": "我的[GetFromRelation][From.GetTitledFirstNameNoRegnal]拒绝了[target_initiator.GetTitledFirstNameNoRegnal]的让我们一起在[target_initiator.Capital.Capital.GetName]度过一段美好家庭时光的邀请……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_3055",
+        "original": "How silly of [From.GetObjectPronoun]!",
+        "translation": "[From.GetObjectPronoun]真是太傻了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3056",
+        "original": "[From.GetTitledFirstNameNoRegnal], [target_initiator.GetFirstName] and I had a great time together! I feel we have really strengthened our family bonds.",
+        "translation": "[From.GetTitledFirstNameNoRegnal]，[target_initiator.GetFirstName]和我在一起度过了一段美好的时光！我感觉我们一起加强了家族的亲情。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_3056",
+        "original": "We should do it again some time.",
+        "translation": "过段时间咱们再来一次吧。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3057",
+        "original": "[From.GetFirstName], [FromFrom.GetFirstName] and I had the greatest time together! I am sure they like each other better now.",
+        "translation": "[From.GetFirstName]，[FromFrom.GetFirstName]和我在一起度过了一段美好的时光！我确定他们更加喜欢彼此了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WOL_3060",
+        "original": "Constant fights and vicious pranks - my two children [target_second.GetFirstName] and [target_first.GetFirstName] just could never seem to get along, but my efforts to instill mutual love and respect have finally born fruit. This friendship will serve them well when I'm gone...",
+        "translation": "不断的争斗和恶作剧——我的两个孩子[target_second.GetFirstName]和[target_first.GetFirstName]就是没办法和谐共处，但是我为了让他们彼此相敬相爱的努力终于结出了果实。当我离世的时候这份友谊将让他们受益匪浅……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_3060",
+        "original": "Who can you trust, if not your siblings?",
+        "translation": "除了你的兄弟姐妹，你还能信任谁呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC6020_PARA",
+        "original": "They are all watching me, conspiring... even my closest friends. Dark eyes, cold eyes... evil eyes.",
+        "translation": "他们都不约而同地盯着我，连我最好的朋友都是。黑暗的眼睛，冷酷的眼睛……邪恶的眼睛。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA6020_PARA",
+        "original": "What do they want?!",
+        "translation": "他们到底想干嘛？！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC6020_FEVER",
+        "original": "The fever has broken - perhaps only temporarily - but I can still see the shadowy figures lurking in the corners. Are they real?",
+        "translation": "我发烧了——也许只是暂时的——但我仍然可以看见角落里潜藏的阴影们的轮廓。他们是真实的吗？",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA6020_FEVER",
+        "original": "Who are they?!",
+        "translation": "他们是谁？！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC6020_ZEAL",
+        "original": "The dark stain of heresy has infected everyone around me. [Root.Religion.GetRandomEvilGodNameCap] is winning the war for humanity's souls. No one is pure... except me.",
+        "translation": "异端的黑暗污点感染了我周围的每一个人。[Root.Religion.GetRandomEvilGodNameCap]正在污染着人类的灵魂。没人是纯洁的……除了我。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA6020_ZEAL",
+        "original": "They must all be cleansed!",
+        "translation": "他们必须被净化！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC6020_PRISON",
+        "original": "There are things in the walls. Things... Not rats, oh no! Not vermin at all... but scratching, watching, trying to drive me insane!",
+        "translation": "墙里面有东西。东西……不是老鼠！噢不！也不是歹徒……他们只是在骚扰着我，注释着我，想让我陷入疯狂！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA6020_PRISON",
+        "original": "I must get out of this hellhole!",
+        "translation": "我必须远离这个鬼地方！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC6020_COMA",
+        "original": "I awoke from my unending nightmare screaming. I have been in the abyss, an indescribable darkness. How long have I been asleep? Weeks, years?!",
+        "translation": "我从噩梦的尖叫声中惊醒。我到过一个深渊，一个无法形容的黑暗之处。我睡了多久了？几周还是几年？！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA6020_COMA",
+        "original": "The darkness... it's still here!",
+        "translation": "那黑暗……还在这！",
+        "stage": 5
+    },
+    {
+        "key": "IS_PLOT_KNOWN_BY",
+        "original": "Plot is known",
+        "translation": "密谋被以下人发现",
+        "stage": 5
+    },
+    {
+        "key": "IS_NOT_PLOT_KNOWN_BY",
+        "original": "Plot is NOT known",
+        "translation": "密谋没被以下人发现",
+        "stage": 5
+    },
+    {
+        "key": "NOR_TRIGGER_STARTS",
+        "original": "None of these must be true",
+        "translation": "以下没有一个是真的",
+        "stage": 5
+    },
+    {
+        "key": "PATRIARCH",
+        "original": "patriarch",
+        "translation": "族长",
+        "stage": 5
+    },
+    {
+        "key": "MATRIARCH",
+        "original": "matriarch",
+        "translation": "女族长",
+        "stage": 5
+    },
+    {
+        "key": "decision_break_free",
+        "original": "Free from Captivity",
+        "translation": "从囚禁中释放",
+        "stage": 5
+    },
+    {
+        "key": "decision_break_free_desc",
+        "original": "Work to free §Y[This.GetTitledFirstName]§! from captivity through intrigue. Might take a long time. Requires the §YIntrigue Focus§!.",
+        "translation": "通过密谋将§Y[This.GetTitledFirstName]§!从笼中释放。可能需要很长的一段时间。需要§Y密谋生活重心§!。",
+        "stage": 5
+    },
+    {
+        "key": "decision_spy_on",
+        "original": "Spy On",
+        "translation": "跟踪调查",
+        "stage": 5
+    },
+    {
+        "key": "decision_spy_on_desc",
+        "original": "Keep an eye on §Y[This.GetTitledName]§! in the hopes of uncovering [This.GetPossPronoun] darkest secrets. Might allow you to blackmail, level treason charges against, or even murder [This.GetObjectPronoun]. Requires the §YIntrigue Focus§!.",
+        "translation": "盯紧§Y[This.GetTitledName]§!希望能发现[This.GetPossPronoun]最黑暗的秘密。可能允许你勒索，或以谋反罪控诉，甚至是杀掉[This.GetObjectPronoun]。要求§Y密谋生活重心§!。",
+        "stage": 5
+    },
+    {
+        "key": "opinion_declined_romance",
+        "original": "Declined Romance",
+        "translation": "拒绝浪漫",
+        "stage": 5
+    },
+    {
+        "key": "opinion_charge_heresiarch",
+        "original": "Charge: Heresiarch",
+        "translation": "指控：异端领袖",
+        "stage": 5
+    },
+    {
+        "key": "opinion_charge_infidel",
+        "original": "Charge: Infidel Preacher",
+        "translation": "指控：异教传播者",
+        "stage": 5
+    },
+    {
+        "key": "opinion_charge_deviant",
+        "original": "Charge: Deviant",
+        "translation": "指控：离经叛道",
+        "stage": 5
+    },
+    {
+        "key": "opinion_charge_traitor",
+        "original": "Charge: Traitor",
+        "translation": "指控：叛徒",
+        "stage": 5
+    },
+    {
+        "key": "opinion_charge_illegitimate",
+        "original": "Charge: Illegitimate",
+        "translation": "指控：私生子",
+        "stage": 5
+    },
+    {
+        "key": "opinion_charge_slanderer",
+        "original": "Charge: Slanderer",
+        "translation": "指控：诽谤者",
+        "stage": 5
+    },
+    {
+        "key": "opinion_slandered",
+        "original": "Slandered",
+        "translation": "造谣中伤",
+        "stage": 5
+    },
+    {
+        "key": "opinion_spy_blackmailed",
+        "original": "Blackmailed",
+        "translation": "勒索",
+        "stage": 5
+    },
+    {
+        "key": "opinion_dominated",
+        "original": "Dominated",
+        "translation": "支配",
+        "stage": 5
+    },
+    {
+        "key": "opinion_marital_love",
+        "original": "Love",
+        "translation": "相爱",
+        "stage": 5
+    },
+    {
+        "key": "opinion_family_love",
+        "original": "Love",
+        "translation": "亲情",
+        "stage": 5
+    },
+    {
+        "key": "failed_escape",
+        "original": "Failed Escape",
+        "translation": "逃跑失败",
+        "stage": 5
+    },
+    {
+        "key": "attempted_murder_of_parent",
+        "original": "Attempted Murder of Parent",
+        "translation": "试图谋杀父母",
+        "stage": 5
+    },
+    {
+        "key": "attempted_murder_of_sibling",
+        "original": "Attempted Murder of Sibling",
+        "translation": "试图谋杀兄弟姐妹",
+        "stage": 5
+    },
+    {
+        "key": "vicious_rumors",
+        "original": "Vicious Rumors",
+        "translation": "恶毒的谣言",
+        "stage": 5
+    },
+    {
+        "key": "desc_vicious_rumors",
+        "original": "There are all kinds of foul rumors about this character, most likely started by some rival or enemy.",
+        "translation": "关于该角色存在着数不胜数的虚假谣言，很可能是一些仇敌传播出来的。",
+        "stage": 5
+    },
+    {
+        "key": "known_murderer",
+        "original": "Known Murderer",
+        "translation": "人尽皆知的谋杀犯",
+        "stage": 5
+    },
+    {
+        "key": "desc_known_murderer",
+        "original": "This character has been exposed as a murderer, vehement denials notwithstanding.",
+        "translation": "该角色的谋杀行径昭然若揭，虽然其本人强烈否认。",
+        "stage": 5
+    },
+    {
+        "key": "focus_intrigue_desc",
+        "original": "[This.GetTitledFirstName] seeks to become a better schemer, spending most of [This.GetPossPronoun] time engrossed in court intrigue.\\nThis Focus unlocks the §YSpy On§! and §YFree from Captivity§! options vs suitable targets.",
+        "translation": "[This.GetTitledFirstName]寻求成为一名更好的谋士，花掉[This.GetPossPronoun]大量时间以专注于宫廷密谋。\\n该生活重心解锁对于合适目标的§Y跟踪调查§!和§Y从囚禁中释放§!选项。",
+        "stage": 5
+    },
+    {
+        "key": "opinion_spying_on",
+        "original": "Spying On",
+        "translation": "跟踪调查",
+        "stage": 5
+    },
+    {
+        "key": "opinion_breaking_out",
+        "original": "Breaking Out",
+        "translation": "逃脱",
+        "stage": 5
+    },
+    {
+        "key": "ANY_OPINION_TARGET_STARTS",
+        "original": "Any Opinion Target",
+        "translation": "任意好感目标",
+        "stage": 5
+    },
+    {
+        "key": "hunting_white_stag",
+        "original": "The White Stag Eludes Me...",
+        "translation": "白鹿从我的手中逃脱了……",
+        "stage": 5
+    },
+    {
+        "key": "hunting_white_bear",
+        "original": "The White Bear Eludes Me...",
+        "translation": "白熊从我的手中逃脱了……",
+        "stage": 5
+    },
+    {
+        "key": "hunting_white_tiger",
+        "original": "The White Tiger Eludes Me...",
+        "translation": "白虎从我的手中逃脱了……",
+        "stage": 5
+    },
+    {
+        "key": "hunting_white_lion",
+        "original": "The White Lion Eludes Me...",
+        "translation": "白狮从我的手中逃脱了……",
+        "stage": 5
+    },
+    {
+        "key": "potion_unforeseen_effects",
+        "original": "This might have unforeseen effects...",
+        "translation": "这样可能造成难以预测的影响……",
+        "stage": 5
+    },
+    {
+        "key": "cottage_person_dies",
+        "original": "You kill the treacherous vagrant!\\n",
+        "translation": "你杀掉了那个背信弃义的小人！\\n",
+        "stage": 5
+    },
+    {
+        "key": "nick_the_pilgrim",
+        "original": "the Pilgrim",
+        "translation": "朝觐者",
+        "stage": 5
+    },
+    {
+        "key": "nick_the_shadow",
+        "original": "the Shadow",
+        "translation": "诡影者",
+        "stage": 5
+    },
+    {
+        "key": "nick_the_whisperer",
+        "original": "the Whisperer",
+        "translation": "教唆者",
+        "stage": 5
+    },
+    {
+        "key": "nick_the_spider",
+        "original": "the Spider",
+        "translation": "八爪蜘蛛",
+        "stage": 5
+    },
+    {
+        "key": "nick_of_the_wilds",
+        "original": "of the Wilds",
+        "translation": "野人",
+        "stage": 5
+    },
+    {
+        "key": "nick_the_impaler",
+        "original": "the Impaler",
+        "translation": "穿刺者",
+        "stage": 5
+    },
+    {
+        "key": "nick_the_viking",
+        "original": "the Viking",
+        "translation": "维京",
+        "stage": 5
+    },
+    {
+        "key": "nick_the_decadent",
+        "original": "the Decadent",
+        "translation": "蛀虫",
+        "stage": 5
+    },
+    {
+        "key": "nick_bloodaxe",
+        "original": "Bloodaxe",
+        "translation": "血斧",
+        "stage": 5
+    },
+    {
+        "key": "nick_the_sword_of_god",
+        "original": "the Sword of [Root.Religion.GetRandomGodName]",
+        "translation": "[Root.Religion.GetRandomGodName]之剑",
+        "stage": 5
+    },
+    {
+        "key": "nick_the_culture",
+        "original": "the [Root.Culture.GetName]",
+        "translation": "[Root.Culture.GetName]",
+        "stage": 5
+    },
+    {
+        "key": "nick_the_rel_group",
+        "original": "the [Root.Religion.GetGroupName]",
+        "translation": "[Root.Religion.GetGroupName]",
+        "stage": 5
+    },
+    {
+        "key": "ARMY_LEVIES_DESC",
+        "original": "The total amount of levies in the realm.",
+        "translation": "领地内的征召兵总数。",
+        "stage": 5
+    },
+    {
+        "key": "RAISED",
+        "original": "Raised",
+        "translation": "已动员",
+        "stage": 5
+    },
+    {
+        "key": "UNRAISED",
+        "original": "Unraised",
+        "translation": "未动员",
+        "stage": 5
+    },
+    {
+        "key": "EVTTITLE_WoL_5001_stag",
+        "original": "The White Stag",
+        "translation": "白鹿",
+        "stage": 5
+    },
+    {
+        "key": "EVTTITLE_WoL_5001_bear",
+        "original": "The White Bear",
+        "translation": "白熊",
+        "stage": 5
+    },
+    {
+        "key": "EVTTITLE_WoL_5001_tiger",
+        "original": "The White Tiger",
+        "translation": "白虎",
+        "stage": 5
+    },
+    {
+        "key": "EVTTITLE_WoL_5001_lion",
+        "original": "The White Lion",
+        "translation": "白狮",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5001_stag",
+        "original": "Lately, you have heard persistent rumors from peasants and travellers in the wilds that a strange, mythical beast has been sighted in your realm. It's a white stag, powerful and elusive. The common folk claim it comes from another world and that the hunter who claims it will be imbued with divine power.",
+        "translation": "最近，你不断地从野外的农民和旅行者口中得到传言：一只陌生的神兽出现在了你的国家里。那是一头白鹿，强大而又难以寻找，坊间传闻它来自另外一个世界，而逮到它的猎手将会获得神圣的力量。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5001_bear",
+        "original": "Lately, you have heard persistent rumors from peasants and travellers in the wilds that a strange, mythical beast has been sighted in your realm. It's a white bear, powerful and elusive. The common folk claim it comes from another world and that the hunter who claims it will be imbued with divine power.",
+        "translation": "最近，你不断地从野外的农民和旅行者口中得到传言：一只陌生的神兽出现在了你的国家里。那是一头白熊，强大而又难以寻找，坊间传闻它来自另外一个世界，而逮到它的猎手将会获得神圣的力量。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5001_tiger",
+        "original": "Lately, you have heard persistent rumors from peasants and travellers in the wilds that a strange, mythical beast has been sighted in your realm. It's a white tiger, powerful and elusive. The common folk claim it comes from another world and that the hunter who claims it will be imbued with divine power.",
+        "translation": "最近，你不断地从野外的农民和旅行者口中得到传言：一只陌生的神兽出现在了你的国家里。那是一头白虎，强大而又难以寻找，坊间传闻它来自另外一个世界，而逮到它的猎手将会获得神圣的力量。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5001_lion",
+        "original": "Lately, you have heard persistent rumors from peasants and travellers in the wilds that a strange, mythical beast has been sighted in your realm. It's a white lion, powerful and elusive. The common folk claim it comes from another world and that the hunter who claims it will be imbued with divine power.",
+        "translation": "最近，你不断地从野外的农民和旅行者口中得到传言：一只陌生的神兽出现在了你的国家里。那是一头白狮，强大而又难以寻找，坊间传闻它来自另外一个世界，而逮到它的猎手将会获得神圣的力量。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5001",
+        "original": "I must send people out to find it!",
+        "translation": "我必须派出人手寻找它！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5001",
+        "original": "I have no time for dreams and rumors.",
+        "translation": "我没空处理这些谣言和梦话。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5004_stag",
+        "original": "Good news, my [Root.GetLordLady]! We have received credible reports of a recent sighting of the great white stag in the county of [From.GetName].",
+        "translation": "好消息，我的 [Root.GetLordLady]！我们收到了可靠的报告，最近有人在[From.GetName]看到了硕大的白鹿。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5004_bear",
+        "original": "Good news, my [Root.GetLordLady]! We have received credible reports of a recent sighting of the great white bear in the county of [From.GetName].",
+        "translation": "好消息，我的 [Root.GetLordLady]！我们收到了可靠的报告，最近有人在[From.GetName]看到了硕大的白熊。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5004_tiger",
+        "original": "Good news, my [Root.GetLordLady]! We have received credible reports of a recent sighting of the great white tiger in the county of [From.GetName].",
+        "translation": "好消息，我的 [Root.GetLordLady]！我们收到了可靠的报告，最近有人在[From.GetName]看到了硕大的白虎。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5004_lion",
+        "original": "Good news, my [Root.GetLordLady]! We have received credible reports of a recent sighting of the great white lion in the county of [From.GetName].",
+        "translation": "好消息，我的 [Root.GetLordLady]！我们收到了可靠的报告，最近有人在[From.GetName]看到了硕大的白狮。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5004",
+        "original": "Saddle my horse!",
+        "translation": "快备马！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5004",
+        "original": "I don't have the time now.",
+        "translation": "我现在没空。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5007_stag",
+        "original": "On the hunt, you get separated from your party in the wilderness. As you are roaming around and trying to find your bearings, you glimpse something strange in the distance... you ride closer and see a majestic great white stag! As you cautiously approach, it sees you and runs away. You try to follow but are unable to catch up in the difficult terrain.\\n\\nAs you get back to your party, you find you can't stop thinking about this strange animal.",
+        "translation": "狩猎开始后，你和大部队在野外走散了。当你正在四处寻找自己的方位时，你瞧见了远处有个陌生的东西……你策马靠近了一些，发现它是一头雄伟壮硕的白鹿！尽管你小心地靠近它，它仍然发现了你并逃走了。你试图去追它，但是因为地形复杂一直追不上。\\n\\n在你回到队伍之后，你发现自己一直对那个陌生的动物念念不忘。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5007_bear",
+        "original": "On the hunt, you get separated from your party in the wilderness. As you are roaming around and trying to find your bearings, you glimpse something strange in the distance... you ride closer and see a fearsome great white bear! As you cautiously approach, it sees you and runs away. You try to follow but are unable to catch up in the difficult terrain.\\n\\nAs you get back to your party, you find you can't stop thinking about this strange animal.",
+        "translation": "狩猎开始后，你和大部队在野外走散了。当你正在四处寻找自己的方位时，你瞧见了远处有个陌生的东西……你策马靠近了一些，发现它是一头雄伟壮硕的白熊！尽管你小心地靠近它，它仍然发现了你并逃走了。你试图去追它，但是因为地形复杂一直追不上。\\n\\n在你回到队伍之后，你发现自己一直对那个陌生的动物念念不忘。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5007_tiger",
+        "original": "On the hunt, you get separated from your party in the wilderness. As you are roaming around and trying to find your bearings, you glimpse something strange in the distance... you ride closer and see a fearsome great white tiger! As you cautiously approach, it sees you and runs away. You try to follow but are unable to catch up in the difficult terrain.\\n\\nAs you get back to your party, you find you can't stop thinking about this strange animal.",
+        "translation": "狩猎开始后，你和大部队在野外走散了。当你正在四处寻找自己的方位时，你瞧见了远处有个陌生的东西……你策马靠近了一些，发现它是一头雄伟壮硕的白虎！尽管你小心地靠近它，它仍然发现了你并逃走了。你试图去追它，但是因为地形复杂一直追不上。\\n\\n在你回到队伍之后，你发现自己一直对那个陌生的动物念念不忘。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5007_lion",
+        "original": "On the hunt, you get separated from your party in the wilderness. As you are roaming around and trying to find your bearings, you glimpse something strange in the distance... you ride closer and see a majestic great white lion! As you cautiously approach, it sees you and runs away. You try to follow but are unable to catch up in the difficult terrain.\\n\\nAs you get back to your party, you find you can't stop thinking about this strange animal.",
+        "translation": "狩猎开始后，你和大部队在野外走散了。当你正在四处寻找自己的方位时，你瞧见了远处有个陌生的东西……你策马靠近了一些，发现它是一头雄伟壮硕的白狮！尽管你小心地靠近它，它仍然发现了你并逃走了。你试图去追它，但是因为地形复杂一直追不上。\\n\\n在你回到队伍之后，你发现自己一直对那个陌生的动物念念不忘。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5010_stag",
+        "original": "You have gathered your followers and your hunting dogs, you have saddled your horse and prepared your weapons. You are ready to set out to hunt the great white stag.",
+        "translation": "你召集了自己的随从和猎狗，备好了马匹和武器。你准备好出发去狩猎大白鹿了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5010_bear",
+        "original": "You have gathered your followers and your hunting dogs, you have saddled your horse and prepared your weapons. You are ready to set out to hunt the great white bear.",
+        "translation": "你召集了自己的随从和猎狗，备好了马匹和武器。你准备好出发去狩猎大白熊了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5010_tiger",
+        "original": "You have gathered your followers and your hunting dogs, you have saddled your horse and prepared your weapons. You are ready to set out to hunt the great white tiger.",
+        "translation": "你召集了自己的随从和猎狗，备好了马匹和武器。你准备好出发去狩猎大白虎了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5010_lion",
+        "original": "You have gathered your followers and your hunting dogs, you have saddled your horse and prepared your weapons. You are ready to set out to hunt the great white lion.",
+        "translation": "你召集了自己的随从和猎狗，备好了马匹和武器。你准备好出发去狩猎大白狮了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5010",
+        "original": "An epic hunt it shall be!",
+        "translation": "这将是一场史诗般的狩猎！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5010",
+        "original": "This time it will not escape me!",
+        "translation": "这次它就别想再逃出我的手心了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5030_stag",
+        "original": "After many days of hard hunting and tracking, you have finally managed to trap the white stag in a cul-de-sac between two rocks. The great animal is at your mercy - it looks at you with intelligent eyes, and you are suddenly struck by its great beauty...",
+        "translation": "经过多日的艰难狩猎和追踪，你们终于把白鹿逼到了两块岩体间的死路中。那头巨兽请求你手下留情——它用睿智的眼光看着你，而你则突然被它的美丽所打动……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5030_bear",
+        "original": "After many days of hard hunting and tracking, you have finally managed to trap the white bear in a cul-de-sac between two rocks. The great animal is at your mercy - it looks at you with intelligent eyes, and you are suddenly struck by its great beauty...",
+        "translation": "经过多日的艰难狩猎和追踪，你们终于把白熊逼到了两块岩体间的死路中。那头巨兽请求你手下留情——它用睿智的眼光看着你，而你则突然被它的美丽所打动……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5030_tiger",
+        "original": "After many days of hard hunting and tracking, you have finally managed to trap the white tiger in a cul-de-sac between two rocks. The great animal is at your mercy - it looks at you with intelligent eyes, and you are suddenly struck by its great beauty...",
+        "translation": "经过多日的艰难狩猎和追踪，你们终于把白虎逼到了两块岩体间的死路中。那头巨兽请求你手下留情——它用睿智的眼光看着你，而你则突然被它的美丽所打动……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5030_lion",
+        "original": "After many days of hard hunting and tracking, you have finally managed to trap the white lion in a cul-de-sac between two rocks. The great animal is at your mercy - it looks at you with intelligent eyes, and you are suddenly struck by its great beauty...",
+        "translation": "经过多日的艰难狩猎和追踪，你们终于把白鹿逼到了两块岩体间的死路中。那头巨兽请求你手下留情——它用睿智的眼光看着你，而你则突然被它的美丽所打动……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5030",
+        "original": "Its head will adorn my wall!",
+        "translation": "用它的头来装饰我的墙！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5030",
+        "original": "I cannot slay such a noble animal.",
+        "translation": "我不能杀掉一头如此高贵的动物。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5035_stag",
+        "original": "During your hunt, you come to a deep gorge. Right on the other side is the white stag, staring at you! You are so close, yet cannot reach it. As it runs away, you realize that you must return home without a victory this time.",
+        "translation": "在狩猎中，你来到了一处深谷。而白鹿则恰恰在谷的另一边凝视着你！你们虽然离得很近，却无法够到它。当它逃离后，你意识到这次只能带着失败回家了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5035_bear",
+        "original": "During your hunt, you come to a deep gorge. Right on the other side is the white bear, staring at you! You are so close, yet cannot reach it. As it runs away, you realize that you must return home without a victory this time.",
+        "translation": "在狩猎中，你来到了一处深谷。而白熊则恰恰在谷的另一边凝视着你！你们虽然离得很近，却无法够到它。当它逃离后，你意识到这次只能带着失败回家了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5035_tiger",
+        "original": "During your hunt, you come to a deep gorge. Right on the other side is the white tiger, staring at you! You are so close, yet cannot reach it. As it runs away, you realize that you must return home without a victory this time.",
+        "translation": "在狩猎中，你来到了一处深谷。而白虎则恰恰在谷的另一边凝视着你！你们虽然离得很近，却无法够到它。当它逃离后，你意识到这次只能带着失败回家了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5035_lion",
+        "original": "During your hunt, you come to a deep gorge. Right on the other side is the white lion, staring at you! You are so close, yet cannot reach it. As it runs away, you realize that you must return home without a victory this time.",
+        "translation": "在狩猎中，你来到了一处深谷。而白狮则恰恰在谷的另一边凝视着你！你们虽然离得很近，却无法够到它。当它逃离后，你意识到这次只能带着失败回家了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5035",
+        "original": "Now I know my purpose in life!",
+        "translation": "如今我知道自己的人生目标了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5035",
+        "original": "I'm sure I'll catch it someday.",
+        "translation": "我一定会在将来的某一天抓住它的。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5040",
+        "original": "Scouring the countryside for your prey, you come upon a lone rider. As you strike up conversation, it turns out he also hunts the same great animal that you are after. His lack of success thus far seems to match yours, but he invites you to talk and share experiences.",
+        "translation": "走遍乡间寻找你的猎物，你遇到了一位独行的骑士。当你们开始交谈的时候，你发现他也是来抓那头野兽的，并且和你一样迄今为止也没成功，不过他邀请你来聊天一起分享经验。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5040",
+        "original": "Please join me at my court!",
+        "translation": "请加入我的宫廷吧！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5040",
+        "original": "It's better to hunt alone.",
+        "translation": "独自狩猎更好。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_5040",
+        "original": "A rival - he must die!",
+        "translation": "一个竞争者——他必须死！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5045",
+        "original": "You spend weeks in the wilderness searching for any trace of your prey, but to no avail. You find plenty of bugs, snakes and riding sores, however.",
+        "translation": "你在荒野花了数周的时间搜寻猎物的踪迹，却徒劳无功，只有数不清的虫蛇和无尽的疼痛。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5045",
+        "original": "This is pointless...",
+        "translation": "这简直毫无意义……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5050",
+        "original": "You spend weeks in the wilderness searching for any trace of your prey, but to no avail. However, you find that you rather enjoy being out in the wilds. All this daily physical activity, it makes you feel... stronger.",
+        "translation": "你在荒野花了数周的时间搜寻猎物的踪迹，却徒劳无功，不过你发现自己很喜欢在野外的时光。日复一日的体力活动让你感觉到……更强。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5050",
+        "original": "This is great!",
+        "translation": "这真是棒极了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5055",
+        "original": "You spend weeks in the wilderness searching for any trace of your prey, but are forced to return emptyhanded. You are sure that no one's impressed by your failed adventure.",
+        "translation": "你在荒野花了数周的时间搜寻猎物的踪迹，但却只好空手而归。你确信没人会在乎这次失败的探险。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5055",
+        "original": "It's my own failure.",
+        "translation": "这是我个人的失败。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5055",
+        "original": "It's because my retainers are useless!",
+        "translation": "都怪我那帮没用的侍从！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5060",
+        "original": "Fruitlessly scouring the countryside, you come upon a small cottage in the wilds. As you knock, an old crone opens. When she sees you and your hunting party, she cackles eerily and says that she has a powerful potion that will make you a stronger hunter, sure to catch any prey.",
+        "translation": "徒劳地搜寻着旷野，你来到一座茅屋之前。你上前敲门，一位枯瘦的老太太走了出来。当她看到你和你的狩猎队的时候，她诡异地咯咯笑了起来，称自己有一种强大的药水，可以让你成为能够抓住任何猎物的狩猎高手。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5060",
+        "original": "Sell it to me!",
+        "translation": "快把它卖给我！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5060",
+        "original": "No, let's go home, this is fruitless.",
+        "translation": "拉倒，咱们回家吧，这一切都是徒劳。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5061_good",
+        "original": "You drink the potion down. Soon, you start to feel all warm inside. The crone whispers: 'See? You know that this will make you stronger, I can see it in your eyes! Now go, great hunter!'.\\n\\nYou return home, certain in your belief that next time you will find your prey...",
+        "translation": "你喝下了药水。不久，你就感觉体内有一股暖流贯彻全身。老太太低语道：「看到没，你知道它会让你变得强大了吧？我已经从你的眼神里看出来了！现在前进吧，伟大的猎手！」。\\n\\n你回到家，坚信自己下次就会找到你的猎物了……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5061_bad",
+        "original": "You drink the potion down. Soon, you start to feel all queasy, and then you pass out. As you awake, you have a strong headache and no desire to continue your hunting expedition. The old crone has disappeared, your guards don't seem to know how or where to.",
+        "translation": "你喝下了药水。不久，你就感觉浑身不适，恶心想吐直至昏厥。等你醒来时，你感到剧烈的头痛，再也不想继续狩猎探险了。老太婆消失了，你的守卫也不知道她的去向。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5061",
+        "original": "I don't feel well...",
+        "translation": "我感觉不太好……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_5061",
+        "original": "This feels good...",
+        "translation": "这感觉不错……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5062",
+        "original": "You have returned to your court. The hunt for this elusive white beast seems fruitless, but there are many more things out there in the wilds. Maybe next time you will catch your prey...",
+        "translation": "你回到了自己的宫廷。狩猎这头狡猾的白色野兽看似毫无意义，但是野外有更多新奇的事物。也许下次你就能抓住猎物了……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5062",
+        "original": "I won't give up.",
+        "translation": "我不会放弃的。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5065_female_lover",
+        "original": "Fruitlessly scouring the countryside, you come upon a small cottage in the wilds. As you knock, a beautiful young woman opens. She pauses, then gives you a warm, inviting look and says: 'It's very lonely out here, I wonder if you will stay the night?'",
+        "translation": "徒劳地搜寻着旷野，你来到一座茅屋之前。你上前敲门，一位年轻漂亮的女士走了出来。她顿了顿，然后用温柔的眼神和语气邀请你说：「大老远来到这里一定很孤单吧，你是否愿意在这里过夜呢？」",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5065_male_lover",
+        "original": "Fruitlessly scouring the countryside, you come upon a small cottage in the wilds. As you knock, a handsome young man opens. He pauses, then gives you a warm, inviting look and says: 'It's very lonely out here, I wonder if you will stay the night?'",
+        "translation": "徒劳地搜寻着旷野，你来到一座茅屋之前。你上前敲门，一位年轻帅气的男士走了出来。他顿了顿，然后用温柔的眼神和语气邀请你说：「大老远来到这里一定很孤单吧，你是否愿意在这里过夜呢？」",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5065",
+        "original": "Of course...",
+        "translation": "当然愿意……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5065",
+        "original": "I really shouldn't.",
+        "translation": "我怎么能让这种事情发生呢。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_5065",
+        "original": "It's a trap! Attack!",
+        "translation": "这是个陷阱！进攻！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5066",
+        "original": "The next morning, you awake with a warm body next to you. You spent a long, pleasant night in the cabin but it's time to get back to the world outside. Your companion looks you in the eyes, caresses you and asks you to stay a little longer...",
+        "translation": "第二天早上，你在一个温软的躯体旁醒来。你们在小木屋中度过了漫长而又美妙的一晚，是时候回到外面的世界了。你的伴侣凝视着你的眼睛，轻抚着你的身体，请求你能多留一会儿……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5066",
+        "original": "This was nice, but I have to go.",
+        "translation": "在这挺爽，但我得走了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5066",
+        "original": "Come back to court with me!",
+        "translation": "跟我回宫吧！",
+        "stage": 5
+    },
+    {
+        "key": "CONFIRM_CANCEL_PLOT_TITLE",
+        "original": "Abandon Plot",
+        "translation": "放弃阴谋",
+        "stage": 5
+    },
+    {
+        "key": "CONFIRM_CANCEL_PLOT_DESC",
+        "original": "Abandon the plot to $PLOT$?",
+        "translation": "放弃$PLOT$的阴谋",
+        "stage": 5
+    },
+    {
+        "key": "CANCEL_PLOT",
+        "original": "Cancel Plot",
+        "translation": "取消阴谋",
+        "stage": 5
+    },
+    {
+        "key": "CANNOT_CANCEL_PLOT",
+        "original": "This plot cannot be cancelled.",
+        "translation": "该阴谋无法取消。",
+        "stage": 5
+    },
+    {
+        "key": "CONFIRM_CANCEL_FOCUS_TITLE",
+        "original": "Abandon Focus",
+        "translation": "放弃生活重心",
+        "stage": 5
+    },
+    {
+        "key": "CONFIRM_CANCEL_FOCUS_DESC",
+        "original": "Abandon the $PLOT$ focus?",
+        "translation": "放弃$PLOT$的生活重心？",
+        "stage": 5
+    },
+    {
+        "key": "CANCEL_FOCUS_EFFECT",
+        "original": "$CHAR$ loses the §Y$OBJECTIVE$§! focus",
+        "translation": "$CHAR$失去了§Y$OBJECTIVE$§!生活重心",
+        "stage": 5
+    },
+    {
+        "key": "CANCEL_FOCUS",
+        "original": "Cancel Focus",
+        "translation": "取消生活重心",
+        "stage": 5
+    },
+    {
+        "key": "CANNOT_CANCEL_FOCUS",
+        "original": "This focus cannot be cancelled.",
+        "translation": "该生活重心无法取消",
+        "stage": 5
+    },
+    {
+        "key": "NO_VALID_FOCUS",
+        "original": "No Valid Focus",
+        "translation": "没有有效的生活重心",
+        "stage": 5
+    },
+    {
+        "key": "CHOOSE_FOCUS",
+        "original": "§GClick to Choose a Focus§!",
+        "translation": "§G点击选择一个生活重心§!",
+        "stage": 5
+    },
+    {
+        "key": "VASSAL_LIMIT_NOT_USED_BY_TIER",
+        "original": "Characters of a tier this low do not use vassal limit.",
+        "translation": "如此低等级的角色无需封臣上限。",
+        "stage": 5
+    },
+    {
+        "key": "pet_hunting_dog",
+        "original": "Hunting Dog",
+        "translation": "猎狗",
+        "stage": 5
+    },
+    {
+        "key": "pet_hunting_dog_desc",
+        "original": "Your faithful hunting dog was given to you as a puppy and raised in your care. He is your most loyal servant and companion.",
+        "translation": "你忠诚的猎狗在很小的时候就被你收养，并在你的照顾下长大。他是你最忠实的仆人和伙伴。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5202",
+        "original": "Your [GetFromRelation], [From.GetTitledFirstName], has sent you a gift. It is a small puppy, but of the finest pedigree and destined to grow into a great hunting dog.",
+        "translation": "你的[GetFromRelation]，[From.GetTitledFirstName]，送给了你一份礼物。那是一条小狗，但它拥有最为高贵的血统，注定将成长为一条伟大的猎狗。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5202",
+        "original": "I will accept this gracious gift.",
+        "translation": "我将收下这份厚赠。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5202",
+        "original": "Send it back.",
+        "translation": "退回去。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_5202",
+        "original": "Pay someone to quietly dispose of it...",
+        "translation": "雇人悄悄处理了它……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5203",
+        "original": "Your new puppy has no name yet, my [Root.GetLordLady]. What will you call it?",
+        "translation": "您的小狗还没取名，我的[Root.GetLordLady]。您想怎么叫它？",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5203",
+        "original": "Faithful.",
+        "translation": "忠诚。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5203",
+        "original": "Hunter.",
+        "translation": "猎手。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_5203",
+        "original": "Tricky.",
+        "translation": "狡猾。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTD_WoL_5203",
+        "original": "Lucifer.",
+        "translation": "路西法。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTE_WoL_5203",
+        "original": "Shaytan.",
+        "translation": "撒伊旦。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTF_WoL_5203",
+        "original": "Fenrir.",
+        "translation": "芬里尔。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTG_WoL_5203",
+        "original": "Erlik.",
+        "translation": "尔力克。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTH_WoL_5203",
+        "original": "Velnias.",
+        "translation": "维尔尼阿斯。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTI_WoL_5203",
+        "original": "Tuoni.",
+        "translation": "图奥尼。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTJ_WoL_5203",
+        "original": "Xolotl.",
+        "translation": "梭罗堤。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTK_WoL_5203",
+        "original": "Veles.",
+        "translation": "维列斯。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTL_WoL_5203",
+        "original": "Guruhi.",
+        "translation": "古路希。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTM_WoL_5203",
+        "original": "Darkness.",
+        "translation": "黑暗。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTN_WoL_5203",
+        "original": "Ahriman.",
+        "translation": "阿里曼。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTO_WoL_5203",
+        "original": "Satan.",
+        "translation": "撒旦。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTP_WoL_5203",
+        "original": "Vinayaka.",
+        "translation": "毗那夜迦。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTQ_WoL_5203",
+        "original": "Mara.",
+        "translation": "魔罗。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTR_WoL_5203",
+        "original": "Punisher.",
+        "translation": "惩戒者。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5204_good",
+        "original": "Your dog is growing quickly and is no longer a little puppy. He runs fast and has a keen nose, and your dog handlers praise his good character.",
+        "translation": "你的狗长的很快，已经不再是一条小狗了。他奔跑迅速，嗅觉灵敏。你的训犬师也大大夸耀了自己一番。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5204_bad",
+        "original": "Your dog is growing quickly and is no longer a little puppy. He runs fast and has a keen nose. He bites hard too, as several of the dog handlers can testify.",
+        "translation": "你的狗长的很快，已经不再是一条小狗了。他奔跑迅速，嗅觉灵敏。他也经常咬人，有好几位训犬师可以作证。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5204",
+        "original": "Good dog!",
+        "translation": "好狗狗！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5204",
+        "original": "Hmm...",
+        "translation": "嗯……",
+        "stage": 5
+    },
+    {
+        "key": "opinion_nice_dog",
+        "original": "Nice Dog",
+        "translation": "不错的狗",
+        "stage": 5
+    },
+    {
+        "key": "opinion_nice_dog_children",
+        "original": "Nice Dog",
+        "translation": "不错的狗",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5210",
+        "original": "Your faithful hunting dog is always around, and always happy to see you. It is good to have such a faithful friend.",
+        "translation": "你忠诚的猎狗总是在你身边，用快乐的眼神看着你。有这么一个值得信赖的朋友真好。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5210",
+        "original": "If only people were as trustworthy.",
+        "translation": "要是人类之间也能有这样的相互信任该多好啊。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5211",
+        "original": "Everyone at court loves your dog. Especially the children find much joy in playing with him.",
+        "translation": "宫廷中的每个人都很喜欢你的狗。尤其是孩子们，在和他玩耍的过程中找到了许多乐趣。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5211",
+        "original": "And he loves them.",
+        "translation": "而且他也喜欢他们。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5220",
+        "original": "Your hunting dog needs proper training if he is to perform well during hunts. Perhaps you should take a hand in this yourself?",
+        "translation": "为了能够在狩猎过程中表现出色，你的猎狗需要适当的训练。也许这件事你该亲自操刀？",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5220",
+        "original": "Yes, I will train him personally.",
+        "translation": "没错，我会亲自训练他。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5220",
+        "original": "No, I have people employed for that.",
+        "translation": "不，我已经雇人来干这件事了。",
+        "stage": 5
+    },
+    {
+        "key": "trains_dog",
+        "original": "You will spend time outside training your dog.",
+        "translation": "你会在户外花些时间来训练你的狗。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5221",
+        "original": "In the past months you have been spending a lot of time outside, training your trusty hunting dog. You find that the combination of daily physical exercise and fresh air are doing wonders for your health and constitution.",
+        "translation": "在过去的数月时间里，你在户外耗费了大量时间来训练你信赖的猎狗。你发现结合日常体育锻炼及呼吸新鲜空气后，你的健康和体格得到了奇迹般的转变。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5221",
+        "original": "Faithful, catch!",
+        "translation": "忠诚，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5221",
+        "original": "Hunter, catch!",
+        "translation": "猎手，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_5221",
+        "original": "Tricky, catch!",
+        "translation": "狡猾，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTD_WoL_5221",
+        "original": "Lucifer, catch!",
+        "translation": "路西法，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTE_WoL_5221",
+        "original": "Shaytan, catch!",
+        "translation": "撒伊旦，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTF_WoL_5221",
+        "original": "Fenrir, catch!",
+        "translation": "芬里尔，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTG_WoL_5221",
+        "original": "Erlik, catch!",
+        "translation": "尔力克，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTH_WoL_5221",
+        "original": "Velnias, catch!",
+        "translation": "维尔尼阿斯，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTI_WoL_5221",
+        "original": "Tuoni, catch!",
+        "translation": "图奥尼，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTJ_WoL_5221",
+        "original": "Xolotl, catch!",
+        "translation": "梭罗堤，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTK_WoL_5221",
+        "original": "Veles, catch!",
+        "translation": "维列斯，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTL_WoL_5221",
+        "original": "Guruhi, catch!",
+        "translation": "古路希，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTM_WoL_5221",
+        "original": "Darkness, catch!",
+        "translation": "黑暗，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTN_WoL_5221",
+        "original": "Ahriman, catch!",
+        "translation": "阿里曼，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTO_WoL_5221",
+        "original": "Satan, catch!",
+        "translation": "撒旦，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTP_WoL_5221",
+        "original": "Vinayaka, catch!",
+        "translation": "毗那夜迦，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTQ_WoL_5221",
+        "original": "Mara, catch!",
+        "translation": "魔罗，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTR_WoL_5221",
+        "original": "Punisher, catch!",
+        "translation": "惩戒者，抓住他！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5230",
+        "original": "Your hunting dog ran away and went roaming the castle. He was very aggressive, chasing several servants and sending them fleeing in terror. He then came upon the favorite dog of one of your courtiers and attacked it and killed it.",
+        "translation": "你的猎狗跑到城堡中散步去了。他攻击性十足，追赶着几个仆人，让他们在恐惧之中跑掉了。然后他来到了你的某个廷臣的最喜爱的狗狗面前，攻击将其致死。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5231",
+        "original": "Today at court, your hunting dog suddenly flew into a rage, tore loose, and attacked one of your courtiers!",
+        "translation": "今天在宫廷，你的猎狗突然开始大发雷霆，四处撕扯还攻击了你的一个廷臣！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5231",
+        "original": "Heel!",
+        "translation": "跟过来！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5231",
+        "original": "Kill! Kill!",
+        "translation": "杀！杀！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_5290",
+        "original": "Your faithful and trusted hunting dog has finally taken his last breath. Long has he served you since you first received him as a puppy, but now it's time to bury your old friend.",
+        "translation": "你忠诚而又可信的猎犬终于咽下了最后一口气。从他还只是个小狗的时候就开始侍奉你了，现在是时候埋葬这位老朋友了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_5290",
+        "original": "I will bury him quietly in the castle garden.",
+        "translation": "我会在城堡的花园里默默地埋了他。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_5290",
+        "original": "He deserves a proper funeral.",
+        "translation": "他理应得到一场隆重的葬礼。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_5290",
+        "original": "A pyramid for Faithful!",
+        "translation": "为忠诚盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTD_WoL_5290",
+        "original": "A pyramid for Hunter!",
+        "translation": "为猎手盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTE_WoL_5290",
+        "original": "A pyramid for Tricky!",
+        "translation": "为狡猾盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTF_WoL_5290",
+        "original": "A pyramid for Lucifer!",
+        "translation": "为路西法盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTG_WoL_5290",
+        "original": "A pyramid for Shaytan!",
+        "translation": "为撒伊旦盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTH_WoL_5290",
+        "original": "A pyramid for Fenrir!",
+        "translation": "为芬里尔盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTI_WoL_5290",
+        "original": "A pyramid for Erlik!",
+        "translation": "为尔力克盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTJ_WoL_5290",
+        "original": "A pyramid for Velnias!",
+        "translation": "为维尔尼阿斯盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTK_WoL_5290",
+        "original": "A pyramid for Tuoni!",
+        "translation": "为图奥尼盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTL_WoL_5290",
+        "original": "A pyramid for Xolotl!",
+        "translation": "为梭罗堤盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTM_WoL_5290",
+        "original": "A pyramid for Veles!",
+        "translation": "为维列斯盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTN_WoL_5290",
+        "original": "A pyramid for Guruhi!",
+        "translation": "为古路希盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTO_WoL_5290",
+        "original": "A pyramid for Darkness!",
+        "translation": "为黑暗盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTP_WoL_5290",
+        "original": "A pyramid for Ahriman!",
+        "translation": "为阿里曼盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTQ_WoL_5290",
+        "original": "A pyramid for Satan!",
+        "translation": "为撒旦盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTR_WoL_5290",
+        "original": "A pyramid for Vinayaka!",
+        "translation": "为毗那夜迦盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTS_WoL_5290",
+        "original": "A pyramid for Mara!",
+        "translation": "为魔罗盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTT_WoL_5290",
+        "original": "A pyramid for Punisher!",
+        "translation": "为惩戒者盖一座金字塔！",
+        "stage": 5
+    },
+    {
+        "key": "CHARVIEW_DIPLOMATIC_RELATIONS",
+        "original": "§YDiplomacy§!",
+        "translation": "§Y外交关系§!",
+        "stage": 5
+    },
+    {
+        "key": "BUILDING_CHECKSUM",
+        "original": "Building Checksum...",
+        "translation": "建立校验和……",
+        "stage": 5
+    },
+    {
+        "key": "invite_to_party",
+        "original": "Invite to Carousing",
+        "translation": "邀请狂欢",
+        "stage": 5
+    },
+    {
+        "key": "invite_to_party_desc",
+        "original": "Invite [Root.GetTitledFirstName] to a private feast.",
+        "translation": "请[Root.GetTitledFirstName]吃一顿。",
+        "stage": 5
+    },
+    {
+        "key": "organizing_party",
+        "original": "Preparing a Small Feast",
+        "translation": "正准备小型宴会",
+        "stage": 5
+    },
+    {
+        "key": "organizing_party_desc",
+        "original": "This character is preparing a small feast. This is a private function as opposed to the public court feasts.",
+        "translation": "该角色正在为一个小型宴会做准备。这是一种对立于公众廷宴的私人机制。",
+        "stage": 5
+    },
+    {
+        "key": "opinion_declined_party",
+        "original": "Declined Invitation",
+        "translation": "拒绝邀请",
+        "stage": 5
+    },
+    {
+        "key": "opinion_carousing",
+        "original": "Carousing",
+        "translation": "正在聚餐",
+        "stage": 5
+    },
+    {
+        "key": "party_carousing",
+        "original": "Carousing!",
+        "translation": "聚餐中！",
+        "stage": 5
+    },
+    {
+        "key": "party_carousing_desc",
+        "original": "This character is holding a small feast with a few select companions. This is a private function as opposed to the public court feasts.",
+        "translation": "该角色正在和几位挑选的同伴一起聚饮。这是一种对立于公众廷宴的私人机制。",
+        "stage": 5
+    },
+    {
+        "key": "carouser",
+        "original": "Carouser",
+        "translation": "豪饮者",
+        "stage": 5
+    },
+    {
+        "key": "carouser_desc",
+        "original": "This character likes to throw parties and have a good time with friends.",
+        "translation": "该角色喜欢通过聚会和朋友度过美好时光。",
+        "stage": 5
+    },
+    {
+        "key": "dedicated_carouser",
+        "original": "Dedicated Carouser",
+        "translation": "狂欢者",
+        "stage": 5
+    },
+    {
+        "key": "dedidacted_carouser_desc",
+        "original": "This character loves to throw parties and have a good time with friends.",
+        "translation": "该角色非常喜欢通过聚会和朋友度过美好时光。",
+        "stage": 5
+    },
+    {
+        "key": "opinion_condemned_decadence",
+        "original": "Condemned Decadence",
+        "translation": "因颓废被责难",
+        "stage": 5
+    },
+    {
+        "key": "cannibal",
+        "original": "Cannibal",
+        "translation": "食人者",
+        "stage": 5
+    },
+    {
+        "key": "cannibal_desc",
+        "original": "This character likes people...",
+        "translation": "该角色喜欢吃人……",
+        "stage": 5
+    },
+    {
+        "key": "beaten_up",
+        "original": "Beaten Up",
+        "translation": "被痛扁",
+        "stage": 5
+    },
+    {
+        "key": "beaten_up_desc",
+        "original": "This character was in a fight and ended up quite badly bruised.",
+        "translation": "该角色曾参与打斗，被人家揍的鼻青脸肿。",
+        "stage": 5
+    },
+    {
+        "key": "vice_royalty_duke_female_byzantine",
+        "original": "Strategitissa",
+        "translation": "女将军",
+        "stage": 5
+    },
+    {
+        "key": "vice_royalty_king_female_byzantine",
+        "original": "Exarchessa",
+        "translation": "女总督",
+        "stage": 5
+    },
+    {
+        "key": "epic_hangover",
+        "original": "Epic Hangover",
+        "translation": "重度宿醉",
+        "stage": 5
+    },
+    {
+        "key": "epic_hangover_desc",
+        "original": "Sometimes you can take carousing and revelry too far. At such times, there is a price to pay.",
+        "translation": "有时你喝酒作乐会过了头，这时候就要付出代价。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_4000",
+        "original": "Dear [Root.GetFirstName],\\nI would like to invite you to join me for a small gathering of friends, to dine and drink and forget about the world outside for a little while. Please be prepared to reserve a few days for this, in case we get truly into the spirit of the proceedings.\\n\\nYours,\\n[FromFrom.GetTitledName]",
+        "translation": "亲爱的[Root.GetFirstName]，\\n我想邀请你参加我举办的一场朋友间的小聚会，在觥筹交错之中放下俗世的烦恼。希望你能多腾出几天时间，让我们尽情享受愉悦。\\n\\n此致\\n[FromFrom.GetTitledName]",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4000",
+        "original": "Of course I will come!",
+        "translation": "我当然会去！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_4000",
+        "original": "Unfortunately I can't.",
+        "translation": "很遗憾我去不了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_4000",
+        "original": "[FromFrom.GetHerHis] open decadence is shameful and I will tell [FromFrom.GetHerHim] so!",
+        "translation": "[FromFrom.GetHerHis]不加遮掩的颓废真令人感到羞耻，我会告诉[FromFrom.GetHerHim]！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_4001",
+        "original": "Dear [GetFromReverseRelation],\\n\\nOf course I will come feast with you. I will bring my best appetite for revelry!\\n\\nYours,\\n[From.GetTitledName]",
+        "translation": "亲爱的[GetFromReverseRelation]，\\n\\n很荣幸我能与你一起享受盛宴。相信这场宴会一定能让满足我的食欲！\\n\\n此致\\n[From.GetTitledName]",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4001",
+        "original": "This should be fun!",
+        "translation": "这肯定很有趣！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_4002",
+        "original": "Dear [GetFromReverseRelation],\\n\\nUnfortunately I cannot join you for merrymaking at this time. But thank you for your kind invitation.\\n\\nUntil next time,\\n[From.GetTitledName]",
+        "translation": "亲爱的[GetFromReverseRelation]，\\n\\n非常遗憾，我暂时没法参加这场狂欢。不过很感谢你真诚的邀请。\\n\\n后会有期，\\n[From.GetTitledName]",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4002",
+        "original": "Ah, [From.GetSheHe] doesn't know what [From.GetSheHe]'s missing.",
+        "translation": "啊，[From.GetSheHe]不知道[From.GetSheHe]到底错过了什么。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_4003",
+        "original": "Dear [GetFromReverseRelation],\\n\\nIt saddens me that you have turned into such a decadent wretch. Surely, [From.Religion.GetRandomEvilGodName] is laughing at your escapades but I for my part refuse to partake in them.\\n\\nIn hope of your eventual redemption,\\n[From.GetTitledName]",
+        "translation": "亲爱的[GetFromReverseRelation]，\\n\\n看到你变成这么一个颓废的可怜虫真令我痛心。无疑，[From.Religion.GetRandomEvilGodName]正在嘲笑你的愚蠢行径，而我却站在了你这一边。\\n\\n希望你能悬崖勒马，\\n[From.GetTitledName]",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4003",
+        "original": "What??",
+        "translation": "卧槽？？",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_4003",
+        "original": "At least [From.Religion.GetRandomEvilGodName] has a sense of humor.",
+        "translation": "至少[From.Religion.GetRandomEvilGodName]还是有点幽默感的。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_4011",
+        "original": "Unfortunate circumstances have forced me to cancel the bout of carousing that I had planned.",
+        "translation": "如此遗憾的情况使我只得取消聚餐的计划了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_4012",
+        "original": "Dear [GetFromReverseRelation],\\n\\nUnfortunate circumstances force me to cancel the bout of carousing and merrymaking that we had planned. We will have to make up for it when times are happier.\\n\\nUntil then,\\n[From.GetTitledName]",
+        "translation": "亲爱的[GetFromReverseRelation]，\\n\\n如此遗憾的情况使我只得取消我们原先计划好的聚餐和狂欢了。当时机成熟的时候我们会补上这一次的。\\n\\n后会有期，\\n[From.GetTitledName]",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_4015",
+        "original": "No one accepted my inviation to carousing. One person makes no feast, so I will have to postpone it for later.",
+        "translation": "没人接受聚餐的邀请。我一个人也办不了宴会，所以只好向后推延了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4015",
+        "original": "People are so boring!",
+        "translation": "这些人真不识趣！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4030",
+        "original": "Let's get it started!",
+        "translation": "让我们开始吧！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4031",
+        "original": "Let's get... it started!",
+        "translation": "让我们……开始吧！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4101",
+        "original": "How peaceful this is.",
+        "translation": "真平静啊。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_4101",
+        "original": "I think I will try some...",
+        "translation": "我想我该试试味道……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_4111",
+        "original": "Several days of feasting together, the attraction is growing, and I know we're thinking of the same thing here...",
+        "translation": "数日的开怀畅饮，让我们彼此增添了许多好感，我知道现在我们想的肯定是同一件事……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4111",
+        "original": "Let's do it!",
+        "translation": "来吧，不要因为我是娇花而怜惜我！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_4111",
+        "original": "No, we'd better not.",
+        "translation": "算了，最好别这样。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4112",
+        "original": "Yes!",
+        "translation": "我愿意！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_4112",
+        "original": "No!",
+        "translation": "我不愿意！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4113",
+        "original": "I hope I'm not too drunk to remember this later!",
+        "translation": "我希望这次的事不要因为喝的太醉给忘了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4114",
+        "original": "Cheers!",
+        "translation": "干杯！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4120",
+        "original": "You're my... best friend!",
+        "translation": "你是我……最好的朋友！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4131",
+        "original": "Put'em up!",
+        "translation": "把手举起来！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4132",
+        "original": "Well, if that's what you want!",
+        "translation": "好吧，这可是你自找的！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_4132",
+        "original": "Listen to me and calm down...",
+        "translation": "别动手好好说……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_4132",
+        "original": "I must escape and hide!",
+        "translation": "我得赶紧找地方藏起来！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4133",
+        "original": "Ooh, that hurts!",
+        "translation": "别碰那，疼！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_4133",
+        "original": "I honestly don't remember what I was so angry about.",
+        "translation": "我真不记得到底为啥生气了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_4133",
+        "original": "Maybe it's just as well. I'm not even angry anymore.",
+        "translation": "也许这样还好，我也不生气了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_4141",
+        "original": "This party needs some action! I'm going to get undressed. Then perhaps, yes, I'll bring some animals in here, and maybe, yes that spear. And, and... set fire to the table, roast the food over it, then... where are my pants? Oh, right, I took them off! What now, hahaha, there you are, oh, ouch!! I just sat on the spear, how... amusing. I don't know, why is everybody laughing - this is great!",
+        "translation": "派对需要活跃下气氛！我得把衣服脱了。然后也许，嗯对，我去弄点动物过来，然后可能，嗯没错，矛！然后，然后……把桌子点着，在上面烤肉吃，然后……卧槽我裤子呢？哦对了，我已经脱下来了！现在该干啥呢？哈哈，有了！噢！疼死我了！我刚才居然坐在了矛上，真……好玩。我不知道为什么大家都在笑——反正棒极了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4141",
+        "original": "Pass me the wine!",
+        "translation": "把酒递过来！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4142",
+        "original": "I must invite [From.GetHerHim] more often!",
+        "translation": "我得多邀请[From.GetHerHim]他几次！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_4151",
+        "original": "We're having a great time carousing. My comrades say I should slow down on the drink, but that's all nonsense.",
+        "translation": "我们在聚会的时候过得非常开心。同志们劝我该少喝点，但我根本不当回事。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4151",
+        "original": "I can handle it!",
+        "translation": "我没醉！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_4152_non_drunkard",
+        "original": "[From.GetTitledFirstName] is clearly going overboard with [From.GetHerHis] drinking.",
+        "translation": "显然[From.GetTitledFirstName]在[From.GetHerHis]酗酒爱好方面太过执着了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_4152_drunkard",
+        "original": "[From.GetTitledFirstName] is drinking like a champion!",
+        "translation": "[From.GetTitledFirstName]喝起酒来像个勇士！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4152",
+        "original": "[From.GetSheHeCap] should take it easier.",
+        "translation": "[From.GetSheHeCap]应该放松。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_4152",
+        "original": "Cheers!",
+        "translation": "干杯！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_4800",
+        "original": "The revelling and carousing is over... for now. Time to get back to real life.",
+        "translation": "现在饮酒作乐结束了，该回到现实世界了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_4800",
+        "original": "Well, it was fun.",
+        "translation": "那会真开心呀。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_4800",
+        "original": "This is the real life!",
+        "translation": "这才是真正的生活！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_4800",
+        "original": "Life is all about enjoying the company of others.",
+        "translation": "和他人一起享受快乐才是生活的真谛。",
+        "stage": 5
+    },
+    {
+        "key": "POSS_PRONOUN_FEM",
+        "original": "her",
+        "translation": "她的",
+        "stage": 5
+    },
+    {
+        "key": "OBJ_PRONOUN_FEM",
+        "original": "her",
+        "translation": "她",
+        "stage": 5
+    },
+    {
+        "key": "CURRENT_FOCUS",
+        "original": "This is your current focus.",
+        "translation": "这是你目前的生活重心。",
+        "stage": 5
+    },
+    {
+        "key": "CANNOT_CANCEL_CURRENT_FOCUS",
+        "original": "Your current focus cannot be cancelled.",
+        "translation": "你当前的生活重心不能被取消。",
+        "stage": 5
+    },
+    {
+        "key": "CHOOSE_NEW_FOCUS",
+        "original": "§GClick to Choose a new Focus§!",
+        "translation": "§G选择一个新生活重心§!",
+        "stage": 5
+    },
+    {
+        "key": "studying_the_stars",
+        "original": "Studying the Stars",
+        "translation": "学习星象",
+        "stage": 5
+    },
+    {
+        "key": "studying_the_stars_desc",
+        "original": "This character has built an observatory and spends any clear nights studying the stars above...",
+        "translation": "该角色建立了一个天文台，并在晴朗的夜晚观测星象……",
+        "stage": 5
+    },
+    {
+        "key": "heliocentrist_scholar",
+        "original": "Heliocentrist Scholar",
+        "translation": "日心说学者",
+        "stage": 5
+    },
+    {
+        "key": "heliocentrist_scholar_desc",
+        "original": "This character has done research to prove that the Earth revolves around the Sun.",
+        "translation": "该角色通过研究证实了地球是围绕着太阳运转的。",
+        "stage": 5
+    },
+    {
+        "key": "weird_scholar",
+        "original": "Weird Scholar",
+        "translation": "超自然学者",
+        "stage": 5
+    },
+    {
+        "key": "weird_scholar_desc",
+        "original": "This character has done research into the strange and mysterious...",
+        "translation": "该角色总是研究些奇奇怪怪的东西……",
+        "stage": 5
+    },
+    {
+        "key": "the_necronomicon",
+        "original": "The Necronomicon",
+        "translation": "通灵师",
+        "stage": 5
+    },
+    {
+        "key": "the_necronomicon_desc",
+        "original": "This character possesses a copy of the mysterious book known as The Necronomicon.",
+        "translation": "该角色拥有一本名为《死灵之书》的手抄本。",
+        "stage": 5
+    },
+    {
+        "key": "build_observatory",
+        "original": "Build Observatory",
+        "translation": "建立天文台",
+        "stage": 5
+    },
+    {
+        "key": "build_observatory_desc",
+        "original": "I can invest in building an observatory to start studying the stars and other celestial bodies. Who knows what I might learn?",
+        "translation": "我可以投资建个天文台来学习星象和其他天体。谁知道我能发现啥呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6000",
+        "original": "You have begun construction of an observatory. It will take some time to collect all the necessary materials and get everything in order.",
+        "translation": "你的天文台开始动工了。收集必要的材料及做好充足的准备需要花些时间。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6000",
+        "original": "I can't wait!",
+        "translation": "我等不及了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6010",
+        "original": "Your observatory is finally ready. It is with great anticipation that you prepare to make your first observations.",
+        "translation": "你的天文台终于完成了。带着巨大的期望你开始了自己的第一次观测。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6010",
+        "original": "I wonder what strange things I will discover.",
+        "translation": "不知道我能发现什么新奇的事物。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6020",
+        "original": "You have spent many nights looking at the stars in your observatory. It is truly fascinating, there are so many questions to ask...",
+        "translation": "你花了很多个夜晚观测星空。天空真令人着迷，令我产生了许多疑问……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6020",
+        "original": "How do the stars move?",
+        "translation": "星体是如何运动的呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_6020",
+        "original": "Is there something... strange out there?",
+        "translation": "那块是不是有什么……奇怪的东西？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6100",
+        "original": "Observing the movements of the stars at night, you have begun to see some regular patterns. These observations, however, have raised many new questions. You are starting to wonder, for example, if the Earth is really at the center of it all.",
+        "translation": "通过在夜间观察星体运动，你开始看到一些定期的轨迹。这些观测结果无疑让你产生了很多新的疑问。你开始怀疑，比如，地球是否真的是在群星的正中央呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6100",
+        "original": "Interesting...",
+        "translation": "真有趣……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6110",
+        "original": "The reasearch you conduct in your observatory at night is proving deeply fascinating. You could push your studies further, but you'd need to purchase more equipment for it to be meaningful.",
+        "translation": "夜晚的星象观测研究令你十分陶醉。你希望能更上一层楼，但前提是要购买更多的设备。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6110",
+        "original": "I must move forward!",
+        "translation": "我绝不会停滞不前！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_6110",
+        "original": "No, this is proving too expensive.",
+        "translation": "不，这太贵了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6122",
+        "original": "One morning, your [GetFromRelation] [From.GetTitledFirstName] comes to see you. [From.GetSheHeCap] says: 'I am worried. I have heard that you are spending late nights studying the sky and entertaining heretical notions about the cosmos. I would ask that you stop, for your own sake.'",
+        "translation": "一天早上，你的[GetFromRelation][From.GetTitledFirstName]来看你。[From.GetSheHeCap]说：「我很担心。我听说你经常花整晚的时间研究天空，并以你对宇宙的异端观点为乐。我是来劝你收手的，这是为了你好。」",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6122",
+        "original": "Don't worry, I'm fine...",
+        "translation": "别担心，我很好……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_6122",
+        "original": "Stay out of my business!",
+        "translation": "别来烦我！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_6122",
+        "original": "It is not what you think, I am only... writing poetry.",
+        "translation": "根本不是你想的那样，我只是在……写诗。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6130",
+        "original": "You nightly studies of the movements of the celestial bodies are increasing your knowledge of a great many things. You feel that you are getting closer to understanding the universe.",
+        "translation": "你对夜晚星体运动的研究使你的学识受益匪浅。你感觉自己越发了解宇宙了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6130",
+        "original": "I sense a harmony out there...",
+        "translation": "我在那感受到了和谐……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6140",
+        "original": "Working in your observatory, lately you are often frustrated by broken equipment, weeks on end of cloudy weather and frequent interruptions by curious intruders and even animals. It's very hard to maintain concentration and get anything done.",
+        "translation": "虽致力于你的观测事业，但不久你就因设备的损坏、数周的云雾遮盖以及好奇的闯入者甚至是动物的打扰而感到受挫。要持之以恒做出一番事业可真难啊。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6140",
+        "original": "I must persist, the truth is out there.",
+        "translation": "我必须坚持下去，真理就在眼前了！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_6140",
+        "original": "It's no use!",
+        "translation": "这没用！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6152",
+        "original": "Dear [Root.GetTitledName],\\nI have been told that you are pursuing studies in fields that deny the truths of [Root.Religion.GetRandomGodName]. I am certain that such rumors are only slander and that you would never do such a thing. If it were true, however, I would be most disappointed.\\n\\nIn the name of [Root.Religion.GetRandomGodName],\\n[From.GetTitledName]",
+        "translation": "亲爱的[Root.GetTitledName]，\\n有人跟我说你正在探寻研究违背[Root.Religion.GetRandomGodName]的真理的领域。我肯定那些传言都是对你的造谣中伤，你肯定不会做这种事的。但假如传言为真，我将是最失望的那个人。\\n\\n以[Root.Religion.GetRandomGodName]之名，\\n[From.GetTitledName]",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6152",
+        "original": "The [From.GetTitle] should stay out of my business!",
+        "translation": "[From.GetTitle]没资格管这事！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_6152",
+        "original": "The best answer to this is silence.",
+        "translation": "沉默是最好的回答。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_6152",
+        "original": "I must not challenge conventional wisdom.",
+        "translation": "我不该挑战祖先的智慧。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6160",
+        "original": "You studies of the celestial spheres are progressing well. You see movements and relationships that you had never dared guess at. It seems clear to you now that the laws that guide the movements of the stars must also be reflected on Earth in some way..",
+        "translation": "你对天体的研究进展顺利，你看到了自己从来不敢想到的运动和关系。你似乎很清楚，星体运动的规律某种意义上同样适用于地球……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6160",
+        "original": "And what is Earth?",
+        "translation": "那地球到底是什么呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6170",
+        "original": "You are sure you have made a breakthrough in your studies. Yes, it cannot be otherwise. The Earth is round, and it revolves around the Sun. How little we know of the Universe!",
+        "translation": "你很确信你的研究已经有了重大突破。是的，毋庸置疑。地球是圆的，它绕着太阳旋转。我们对宇宙的认识是多么肤浅啊！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6170",
+        "original": "I must publish my findings!",
+        "translation": "我要把自己的发现出版发行！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_6170",
+        "original": "I will continue my studies in secret.",
+        "translation": "我会秘密地继续自己的研究。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_6170",
+        "original": "I will stop with this achievement.",
+        "translation": "有此成就足矣，该停下来了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTD_WoL_6170",
+        "original": "No! This is [Root.Religion.GetRandomEvilGodName] speaking!",
+        "translation": "不！这一定是[Root.Religion.GetRandomEvilGodName]在搞鬼！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6300",
+        "original": "Observing the stars at night, you have begun to sense some irregular movements. You also notice that some stars seem to appear and disappear at odd times. You need to study this more...",
+        "translation": "晚间观测星象，你开始发现一些不规则的天体运动。你还发现一些星体时而出现时而消失。你需要对此进行深入研究……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6300",
+        "original": "That star there disappears when I look directly at it.",
+        "translation": "我正盯着那个星星的时候它消失了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6322",
+        "original": "One morning, your [GetFromRelation] [From.GetTitledFirstName] comes to see you. [From.GetSheHeCap] says: 'I am worried. I have heard that you are spending late nights staring at the sky, speaking in odd riddles and entertaining heretical notions about the cosmos. I would ask that you stop, for your own sake.'",
+        "translation": "一天早上，你的[GetFromRelation][From.GetTitledFirstName]来看你。[From.GetSheHeCap]说到：「我很担心。我听说你整晚都在盯着天空，说着古怪的迷一样的话，还以对宇宙的异端观念为乐。我是来劝你收手的，这是为了你好。」",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6322",
+        "original": "I am only admiring the beauty of the stars.",
+        "translation": "我只看得上美妙的星空。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_6322",
+        "original": "There are strange things out there and I need to see them!",
+        "translation": "那里有许多新奇的事物，我想看他们！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_6322",
+        "original": "What you heard are lies.",
+        "translation": "你听到的都是谎话。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6330",
+        "original": "The studies you have conducted in your observatory have convinced you that there are many strange things beyond the known cosmos. There are few sources and no one to share knowledge with you, however. But you have heard of a strange old scholar in the Arabian Desert who is rumored to possess vast knowledge of the weird.",
+        "translation": "你在天文台进行的研究已经使你确信，在已知的宇宙之外还存在着许多难以置信的事物。然而，对此既没有相关的资料亦没有人能与你进行讨论。但是你听说在阿拉伯沙漠中有一位古怪的老学者，据说他对这些怪诞的事物有着广泛的研究。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6330",
+        "original": "I will go and see him.",
+        "translation": "我要去找他。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_6330",
+        "original": "No, this frightens me. I should stop.",
+        "translation": "不，这太恐怖了。还是算了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTTITLE_WoL_6331",
+        "original": "The Necronomicon",
+        "translation": "死灵之书",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6331",
+        "original": "You arrive at the abode of the strange old scholar Ibrahim. After some persuasion, he invites you in. You speak at length, and he tells of you of the scholar Abdul the Mad, who knew many things of the strange spheres beyond and of talking beings that are not human. You find out that Abdul the Mad wrote a book called the Necronomicon, in which he recorded many strange and unholy truths. Ibrahim says that as he is impressed by your sincerity and desire for knowledge, he can sell you a copy of the book. He tells you to beware, however, as too much intense study of the Necronomicon is said to drive the reader insane...",
+        "translation": "你来到了奇怪的老学者易卜拉欣的住所前。在一通劝说后，他终于邀请进去了。你们促膝长谈，他告诉你有一位疯子学者阿卜杜拉，他了解很多陌生的天体和非人类的存在。你发现疯子阿卜杜尔曾写下一本《死灵之书》，上面记载了很多许多新奇的邪恶的真理。易卜拉欣说他被你的诚挚和对知识的渴求所打动，他可以把这本书的一个手抄本卖给你。他提醒你小心，据说如果对《死灵之书》研究过多会使读者发疯……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6331",
+        "original": "Yes, I must have it!",
+        "translation": "好，卖给我吧！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_6331",
+        "original": "No, thanks.",
+        "translation": "算啦。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6336",
+        "original": "Shortly after the death of your [GetFromRelation] [From.GetTitledFirstNameWithNick], you are brought a strange piece of news. It seems that [From.GetHerHis] library was raided, the only item stolen being a strange old book of Arabian origin. Two servants who were in the library at the time were found dead, though witnesses refused to describe the state of the bodies.",
+        "translation": "在你的[GetFromRelation] [From.GetTitledFirstNameWithNick]死后不久，你听到了一条奇怪的传闻。似乎[From.GetHerHis]图书馆曾遭入侵，唯一丢失的物件是一本用阿拉伯语书写的奇怪而破旧的书。当时待在图书馆的两个仆人在被发现时已经死亡，然而目击者拒绝描述尸体的模样。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6336",
+        "original": "Strange...",
+        "translation": "奇怪……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6340",
+        "original": "Working in your observatory, you are often disturbed by strange noises, uncannily large insects carrying away smaller pieces of equipment and odd human-like figures spying on you and then disappearing into the night before you can confront them. You really struggle to maintain concentration and get anything done.",
+        "translation": "在进行观测时，你经常被奇怪的噪音所打扰，恐怖的大型昆虫把设备的小件一块块搬走，还有古怪的人型生物总是窥探着你，然后在你发现他们之前消失在夜幕之中。你仍然奋力维持着全神贯注的状态，希望能完成些什么。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6340",
+        "original": "I must focus!",
+        "translation": "我一定要专注！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_6340",
+        "original": "It's no use, I should give this up.",
+        "translation": "没用的，我该放弃了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6350",
+        "original": "The book you bought from the strange desert scholar has proven quite useful for gaining new ideas and insights in your studies of the stars and what lies beyond. It does, however, contain some quite disturbing texts and images, things that lead towards a level of understanding that might make one... mad.",
+        "translation": "你从陌生的沙漠学者那买来的书相当好用，通过它你可以在星象研究中得到新鲜的灵感，并且领悟那背后的秘密。不过，书里面有一些令人不安的文章和图片，那些助你加深理解的东西很可能让人……发疯。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6350",
+        "original": "I should leave it on the shelf for now.",
+        "translation": "我现在得把它放回书架了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_6350",
+        "original": "I must delve deeper!",
+        "translation": "我必须深入发掘！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6360",
+        "original": "Great wisdom comes to those who study the world and learn from it. Your studies of the stars and other things beyond this world have taken you on very strange paths, and your learning has increased immeasurably since you started.",
+        "translation": "伟大的智慧来源于人们对世界的探索。你对星体和世界彼岸事物的研究把你带上了一条极为陌生的道路，而从研究伊始你的学识就在不可估量地增长着。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6360",
+        "original": "The stars are right!",
+        "translation": "星星从不说谎！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_6370",
+        "original": "You are finally certain, absolutely certain. There are things you understand now that lie beyond the ken of normal [Root.GetMenWomen]. If they knew, oh if they knew! But it is the task of scholars such as you to keep and preserve such things in secret, lest all humanity go insane with the knowledge of its own insignificance.",
+        "translation": "你终于肯定了这一切。目前你所了解的一些事物已经超出了一般[Root.GetMenWomen]的理解范围。如果他们能理解，哦如果他们能理解！但是像你这样的学者的任务是将这些秘密保存起来，免得全人类都因知识本身的毫无意义而发疯。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_6370",
+        "original": "I shall be a devoted keeper of elder secrets.",
+        "translation": "我应该成为一位古老秘密的守护者。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_6370",
+        "original": "I will hide this and dedicate myself to other things.",
+        "translation": "我会把这秘密藏起来，然后投身于其他事情。",
+        "stage": 5
+    },
+    {
+        "key": "IS_HOLY_SITE_OF",
+        "original": "Is holy site of $RELIGION$.",
+        "translation": "是$RELIGION$的圣地。",
+        "stage": 5
+    },
+    {
+        "key": "IS_NOT_HOLY_SITE_OF",
+        "original": "Is not holy site of $RELIGION$.",
+        "translation": "不是$RELIGION$的圣地。",
+        "stage": 5
+    },
+    {
+        "key": "theologian",
+        "original": "Theologian",
+        "translation": "神学家",
+        "stage": 5
+    },
+    {
+        "key": "theologian_desc",
+        "original": "This character is dedicating [GetHerHis] life to religious studies.",
+        "translation": "该角色将[GetHerHis]全身心投入到宗教研究当中",
+        "stage": 5
+    },
+    {
+        "key": "religious_studies",
+        "original": "Religious Studies",
+        "translation": "宗教研究",
+        "stage": 5
+    },
+    {
+        "key": "religious_studies_desc",
+        "original": "This character is a seeker of religious knowledge and insights.",
+        "translation": "该角色是宗教学识和领悟的追寻者。",
+        "stage": 5
+    },
+    {
+        "key": "religious_philosopher",
+        "original": "Religious Philosopher",
+        "translation": "宗教哲学家",
+        "stage": 5
+    },
+    {
+        "key": "religious_philosopher_desc",
+        "original": "This character is an experienced and dedicated seeker of religious knowledge and insights.",
+        "translation": "该角色是一位富有经验的宗教学识和领悟的追寻者。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_7000_non_unref_pagan",
+        "original": "There are many mysteries in the [Root.Religion.GetName] faith. It might be interesting to spend some time delving into the old texts of  [Root.Religion.GetScriptureName].",
+        "translation": "在[Root.Religion.GetName]信仰当中存在许多未解之谜。如果能花点时间来钻研[Root.Religion.GetScriptureName]的古老文本一定会很有趣。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_7000_unref_pagan",
+        "original": "There are many mysteries in the [Root.Religion.GetName] faith. It might be interesting to listen more to the ancient stories told by the [Root.Religion.GetPriestTitle]s.",
+        "translation": "在[Root.Religion.GetName]信仰当中存在许多未解之谜。如果能花些时间从[Root.Religion.GetPriestTitle]那里听些古老的故事一定会很有趣。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_7000",
+        "original": "I will dedicate more time to reading the scriptures.",
+        "translation": "我会多花些时间来认真阅读经典。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_7000",
+        "original": "I shall summon storytellers.",
+        "translation": "我该叫讲故事的来。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WoL_7000",
+        "original": "No, I have no time for this.",
+        "translation": "不，我没时间干这事。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_7001_non_unref_pagan",
+        "original": "In the past few months, you have been spending many nights reading [Root.Religion.GetScriptureName]. The texts contain many items of wisdom and also give hints to the most important mysteries of [Root.Religion.GetRandomGodName].",
+        "translation": "在过去的几个月中，你花了很多个夜晚阅读[Root.Religion.GetScriptureName]。文献包含了许多智慧的结晶并且也为围绕着[Root.Religion.GetRandomGodName]的最重要的谜题提供了线索。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_7001_unref_pagan",
+        "original": "In the past few months, you have spent many nights listening to the old myths and stories of the [Root.Religion.GetName] faith. The tales told of [Root.Religion.GetRandomGodName] are most inspiring and contain much wisdom that can help you in your daily life.",
+        "translation": "在过去的几个月中，你花了很多个夜晚听关于[Root.Religion.GetName]信仰的老神话故事。关于[Root.Religion.GetRandomGodName]的传说最是振奋人心，而且还包含了能用在日常生活中的大智慧。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_7001",
+        "original": "These sacred texts illuminate me.",
+        "translation": "神圣的经典指引着我。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_7001",
+        "original": "It is wise to listen and ponder.",
+        "translation": "边听边想能获得启迪。",
+        "stage": 5
+    },
+    {
+        "key": "ancient_wisdom",
+        "original": "Ancient Wisdom",
+        "translation": "古老的智慧",
+        "stage": 5
+    },
+    {
+        "key": "ancient_wisdom_desc",
+        "original": "The ancient myths and stories contain many words of wisdom.",
+        "translation": "古老的神话里蕴含着大智慧。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_7012",
+        "original": "Your dedication to religious pursuits has been noticed around the realm. Among others, it has quite impressed [From.GetTitledName]. You have maintained correspondence on various religious and philosophical matters for some time, and find that you are rapidly becoming good friends.",
+        "translation": "你对宗教的专注工作一事迅速传遍了全国。在他们中间尤其是[From.GetTitledName]对你留下了深刻的印象。在一段时间里，你们对于很多宗教和哲学问题上的观点保持着一致，并且建立了深刻的友谊。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_7012",
+        "original": "Our common interests bind us together.",
+        "translation": "我们因共同的兴趣走到了一起。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_7020",
+        "original": "The holy site of [holy_site_visiting.GetName] is an important center of the [Root.Religion.GetName] faith. Many great religious events are celebrated there, and the spirit of [Root.Religion.GetRandomGodName] is said to permeate the entire area.",
+        "translation": "[holy_site_visiting.GetName]圣地是[Root.Religion.GetName]信仰的重要中心。很多伟大的宗教事件在那庆祝，据说[Root.Religion.GetRandomGodName]的精神散布到了整个区域。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_7020",
+        "original": "I should go!",
+        "translation": "我该去那！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WoL_7020",
+        "original": "I can't.",
+        "translation": "我不能！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_WoL_7021",
+        "original": "Your visit to [holy_site_visiting.GetName] was certainly worth the time! You have wandered around in its sacred halls and pondered the atmosphere and the religious mysteries that lie hidden here.",
+        "translation": "通往[holy_site_visiting.GetName]的旅程绝对不虚此行！你在那神圣的大厅中自由漫步，并思考在那里留下的宗教之谜。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WoL_7021",
+        "original": "Praise [Root.Religion.GetRandomGodName]!",
+        "translation": "赞美[Root.Religion.GetRandomGodName]！",
+        "stage": 5
+    },
+    {
+        "key": "grievously_offended",
+        "original": "Grievously Offended",
+        "translation": "被严重侵犯",
+        "stage": 5
+    },
+    {
+        "key": "merciless",
+        "original": "Merciless",
+        "translation": "无情",
+        "stage": 5
+    },
+    {
+        "key": "merciless_desc",
+        "original": "This character is known to show no mercy.",
+        "translation": "该角色毫无怜悯之心。",
+        "stage": 5
+    }
+]

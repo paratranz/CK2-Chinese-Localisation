@@ -1,0 +1,3920 @@
+[
+    {
+        "key": "set_government_type",
+        "original": "Government is changed to §Y$GOVERNMENT$§!\\n",
+        "translation": "政体改变为§Y$GOVERNMENT$§!\\n",
+        "stage": 5
+    },
+    {
+        "key": "feudal_government",
+        "original": "Feudal",
+        "translation": "封建制",
+        "stage": 5
+    },
+    {
+        "key": "republic_government",
+        "original": "Republic",
+        "translation": "共和制",
+        "stage": 5
+    },
+    {
+        "key": "merchant_republic_government",
+        "original": "Merchant Republic",
+        "translation": "商业共和制",
+        "stage": 5
+    },
+    {
+        "key": "theocracy_government",
+        "original": "Theocracy",
+        "translation": "神权制",
+        "stage": 5
+    },
+    {
+        "key": "muslim_government",
+        "original": "Iqta",
+        "translation": "伊克塔制",
+        "stage": 5
+    },
+    {
+        "key": "tribal_government",
+        "original": "Tribal",
+        "translation": "部落制",
+        "stage": 5
+    },
+    {
+        "key": "RETCAP_FROM_GOVERNMENT",
+        "original": "From Government: $AMOUNT$\\n",
+        "translation": "由于政体：$AMOUNT$\\n",
+        "stage": 5
+    },
+    {
+        "key": "GOVERNMENT_CANNOT_CREATE_KINGDOMS",
+        "original": "Theocracies, Holy Orders and Mercenaries cannot create kingdoms!",
+        "translation": "神权国、圣战士和雇佣兵团无法成立王国！",
+        "stage": 5
+    },
+    {
+        "key": "GOVERNMENT_CANNOT_USURP_KINGDOMS_AND_EMPIRES",
+        "original": "Merchant Republics and Patricians cannot usurp kingdoms or empires",
+        "translation": "商业共和国和贵人无法篡夺王国或者帝国头衔",
+        "stage": 5
+    },
+    {
+        "key": "GAME_STATE_WAS_CORRUPTED",
+        "original": "Game State is corrupted. Please restart the game.",
+        "translation": "游戏状态已损坏。请重启游戏。",
+        "stage": 5
+    },
+    {
+        "key": "TRIBAL_TAX",
+        "original": "Tribal Tax",
+        "translation": "部落税",
+        "stage": 5
+    },
+    {
+        "key": "GOVERNMENT_CANT_BUILD_HOLDINGS",
+        "original": "§R$GOVERNMENT$ rulers Cannot Build new Holdings§!",
+        "translation": "§R$GOVERNMENT$统治者不能建造新的地产§!",
+        "stage": 5
+    },
+    {
+        "key": "GOVERNMENT_NO_LIEGE_LEVY",
+        "original": "Independent Tribal or Nomadic Rulers do not get liege levies from their vassal tribes",
+        "translation": "独立的部落或游牧领主不会从他们的附属部落那里得到征召兵",
+        "stage": 5
+    },
+    {
+        "key": "PLAYERS_IN_UNIT",
+        "original": "Player Characters in Unit",
+        "translation": "玩家角色在此部队",
+        "stage": 5
+    },
+    {
+        "key": "PLAYERS_IN_ATTACKERS",
+        "original": "Attacking Player Characters",
+        "translation": "正在进攻中的玩家角色",
+        "stage": 5
+    },
+    {
+        "key": "YOU_IN_ATTACKERS",
+        "original": "You are an attacker in this battle",
+        "translation": "你是这场战役的一个进攻者",
+        "stage": 5
+    },
+    {
+        "key": "PLAYERS_IN_DEFENDERS",
+        "original": "Defending Player Characters",
+        "translation": "正在防守中的玩家角色",
+        "stage": 5
+    },
+    {
+        "key": "YOU_IN_DEFENDERS",
+        "original": "You are a defender in this battle",
+        "translation": "你是这场战役的一个防御者",
+        "stage": 5
+    },
+    {
+        "key": "destroy_title_interaction_LONG_DESC",
+        "original": "Destroy this title.",
+        "translation": "销毁该头衔",
+        "stage": 5
+    },
+    {
+        "key": "usurp_title_interaction_TITLE",
+        "original": "Usurp Title",
+        "translation": "篡夺头衔",
+        "stage": 5
+    },
+    {
+        "key": "usurp_title_interaction_LONG_DESC",
+        "original": "Usurp this title.",
+        "translation": "篡夺该头衔",
+        "stage": 5
+    },
+    {
+        "key": "create_title_interaction_LONG_DESC",
+        "original": "Create this title.",
+        "translation": "创设该头衔",
+        "stage": 5
+    },
+    {
+        "key": "make_primary_title_interaction_LONG_DESC",
+        "original": "Make this your primary title.",
+        "translation": "设此头衔为你的主头衔。",
+        "stage": 5
+    },
+    {
+        "key": "make_capital_settlement_interaction_TITLE",
+        "original": "Make Capital",
+        "translation": "迁都",
+        "stage": 5
+    },
+    {
+        "key": "make_capital_settlement_interaction_DESC",
+        "original": "I can make this my capital.",
+        "translation": "我能设此地为首都",
+        "stage": 5
+    },
+    {
+        "key": "make_capital_settlement_interaction_LONG_DESC",
+        "original": "Make this Holding your capital.",
+        "translation": "设此地产为你的首都",
+        "stage": 5
+    },
+    {
+        "key": "WILL_CANCEL_OLD_PLOT",
+        "original": "You can only have one Plot active at a time. Choosing a new Plot will cancel your current one.",
+        "translation": "你同一时间只能激活一个密谋。选择一个新的密谋将会取消你现在的密谋。",
+        "stage": 5
+    },
+    {
+        "key": "WILL_CANCEL_OLD_AMBITION",
+        "original": "You can only have one Ambition active at a time. Choosing a new Ambition will cancel your current one.",
+        "translation": "你同一时间只能激活一个野心。选择一个新的野心将会取消你现在的野心。",
+        "stage": 5
+    },
+    {
+        "key": "WILL_CANCEL_OLD_FOCUS",
+        "original": "You can only have one Focus active at a time. Choosing a new Focus will cancel your current one.",
+        "translation": "你同一时间只能拥有一个生活重心。选择一个新的重心将会取消你现在的重心。",
+        "stage": 5
+    },
+    {
+        "key": "alert_available_targetted_decision_instant",
+        "original": "§YSpecial Character Actions Possible§!",
+        "translation": "§Y特殊角色行为可用§!",
+        "stage": 5
+    },
+    {
+        "key": "alert_available_targetted_decision_delayed",
+        "original": "The following Special Character Actions are available:\\n$LIST$",
+        "translation": "下列特殊角色行为可用：\\n$LIST$",
+        "stage": 5
+    },
+    {
+        "key": "alert_available_title_decision_instant",
+        "original": "§YSpecial Title Actions Possible§!",
+        "translation": "§Y特殊头衔行为可用§!",
+        "stage": 5
+    },
+    {
+        "key": "alert_available_title_decision_delayed",
+        "original": "The following Special Title Actions are available:\\n$LIST$",
+        "translation": "下述特殊头衔行为可用：\\n$LIST$",
+        "stage": 5
+    },
+    {
+        "key": "alert_available_settlement_decision_instant",
+        "original": "§YSpecial Holding Actions Possible§!",
+        "translation": "§Y特殊地产行为可用§!",
+        "stage": 5
+    },
+    {
+        "key": "alert_available_settlement_decision_delayed",
+        "original": "The following Special Holding Actions are available:\\n$LIST$",
+        "translation": "下述特殊地产行为可用：\\n$LIST$",
+        "stage": 5
+    },
+    {
+        "key": "FLANK_DAMAGE_FINAL",
+        "original": "Final Damage Values: §Y$DAMAGE$§! Damage (£1£), §Y$MORALE_DAMAGE$§! Morale Damage (£2£)",
+        "translation": "最终伤害值：§Y$DAMAGE$§! 伤害(£1£)，§Y$MORALE_DAMAGE$§! 士气伤害(£2£)",
+        "stage": 5
+    },
+    {
+        "key": "TACTICAL_DISADVANTAGE",
+        "original": "Penalty against §Y$TACTIC$§!: $PERC$",
+        "translation": "面对§Y$TACTIC$§!，受到惩罚：$PERC$",
+        "stage": 5
+    },
+    {
+        "key": "TOTAL_DEFENCE",
+        "original": "Total Defence: §Y$DEF$§!",
+        "translation": "防御合计：§Y$DEF$§!",
+        "stage": 5
+    },
+    {
+        "key": "COMBATVIEW_TOTALTROOPS",
+        "original": "Total Remaining Troops\\n§GClick to show composition of Flanks§!",
+        "translation": "剩余总兵力\\n§G点击显示侧翼的组成§!",
+        "stage": 5
+    },
+    {
+        "key": "COMBATVALUES",
+        "original": "$NAME$\\nDamage (£1£): §Y$DAMAGE$§!\\nMorale Damage (£2£): §Y$MORALEDMG$§!\\nDefence (£3£): §Y$DEFENCE$§!",
+        "translation": "$NAME$\\n伤害(£1£)：§Y$DAMAGE$§!\\n士气伤害(£2£)：§Y$MORALEDMG$§!\\n防御(£3£)：§Y$DEFENCE$§!",
+        "stage": 5
+    },
+    {
+        "key": "COMBATVALUES_SUBUNIT",
+        "original": "Damage per Soldier: §Y$DAMAGE$§!\\nDefence per Soldier: §Y$DEFENCE$§!\\n\\nTotal Damage: §Y$TOTAL_DAMAGE$§!\\nTotal Defence: §Y$TOTAL_DEFENCE$§!",
+        "translation": "单兵伤害：§Y$DAMAGE$§!\\n单兵防御：§Y$DEFENCE$§!\\n\\n总伤害：§Y$TOTAL_DAMAGE$§!\\n总防御：§Y$TOTAL_DEFENCE$§!",
+        "stage": 5
+    },
+    {
+        "key": "COMBATVIEW_FLANK_MORALE",
+        "original": "Average morale in this flank: $MORALE$ (§Y+$DELTA$§W / week)\\nTotal Morale: §Y$TOTAL_MORALE$§!",
+        "translation": "该侧翼平均士气：$MORALE$（§Y+$DELTA$§W/周）\\n总士气：§Y$TOTAL_MORALE$§!",
+        "stage": 5
+    },
+    {
+        "key": "COMBATVIEW_MORALE",
+        "original": "Average morale: §Y$MORALE$§W (§Y+$DELTA$§W / week)\\nTotal Morale: §Y$TOTAL_MORALE$§!",
+        "translation": "平均士气：§Y$MORALE$§!（§Y+$DELTA$§W/周）\\n总士气：§Y$TOTAL_MORALE$§!",
+        "stage": 5
+    },
+    {
+        "key": "FLANK_DESIGNER_SHOW_VALUES",
+        "original": "Show Values",
+        "translation": "显示数值",
+        "stage": 5
+    },
+    {
+        "key": "FLANK_DESIGNER_SHOW_TROOPS",
+        "original": "Show Troops",
+        "translation": "显示部队",
+        "stage": 5
+    },
+    {
+        "key": "convert_tribal_to_city",
+        "original": "Upgrade to City",
+        "translation": "升级为城市",
+        "stage": 5
+    },
+    {
+        "key": "convert_tribal_to_city_named",
+        "original": "Upgrade [Root.GetName] to a City",
+        "translation": "升级[Root.GetName]为一个城市",
+        "stage": 5
+    },
+    {
+        "key": "convert_tribal_to_castle",
+        "original": "Upgrade to Castle",
+        "translation": "升级为城堡",
+        "stage": 5
+    },
+    {
+        "key": "convert_tribal_to_castle_named",
+        "original": "Upgrade [Root.GetName] to a Castle",
+        "translation": "将[Root.GetName]升级为一个城堡",
+        "stage": 5
+    },
+    {
+        "key": "MODIFIER_TRIBAL_OPINION",
+        "original": "Tribal Vassal Opinion",
+        "translation": "部落封臣好感",
+        "stage": 5
+    },
+    {
+        "key": "TRIBAL_VASSAL_OPINION",
+        "original": "Tribal Vassal Opinion",
+        "translation": "部落封臣的好感",
+        "stage": 5
+    },
+    {
+        "key": "PROVINCE_HAS_NO_REGION",
+        "original": " This county does not belong to any region",
+        "translation": "此省份不属于任何一个区域",
+        "stage": 5
+    },
+    {
+        "key": "PROVINCE_HAS_REGION_SELECT",
+        "original": "Press §YLeft Click§W to select next region.",
+        "translation": "点击§Y鼠标左键§W以选取下一个区域。",
+        "stage": 5
+    },
+    {
+        "key": "PROVINCE_HAS_REGION_DESELECT",
+        "original": "Press §YRight Click§W to deselect region.",
+        "translation": "点击§Y鼠标右键§W以取消选择区域。",
+        "stage": 5
+    },
+    {
+        "key": "PROVINCE_HAS_REGION",
+        "original": "This county belongs to the following regions:",
+        "translation": "此省份属于以下区域：",
+        "stage": 5
+    },
+    {
+        "key": "FIND_PROVINCE",
+        "original": "Find Title or Region",
+        "translation": "查找头衔或区域",
+        "stage": 5
+    },
+    {
+        "key": "REGION_OF",
+        "original": "Region of",
+        "translation": "区域",
+        "stage": 5
+    },
+    {
+        "key": "HINT_DIPLO_VIEW_TITLE",
+        "original": "The Diplomacy Menu",
+        "translation": "外交界面",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC107104",
+        "original": "You currently have one unhappy Vassal. You can find this Vassal by clicking on your portrait and open the 'Vassals' tab. Try to increase the Opinion of this Vassal to a positive number. You can increase the Opinion of your Vassals towards you in several ways, for example by giving them more land (but do try to hold as much land as your Demesne Limit allows!). You can also give them an Honorary Title, or send them a gift. All this can be done in the Diplomacy Menu.",
+        "translation": "现在你有一个不喜欢你的封臣。你可以通过点击自己头像并选择「封臣」选项卡来查看。试着使他们的好感为正数。你可以通过数种办法增加封臣对你的好感，比如给他们更多土地（你自己最好拿满直辖上限！）。你也可以给予荣誉头衔或者直接送礼。所有这些均可在外交界面完成。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC107009",
+        "original": "When you have found a good character to marry, right-click on their portrait to open the Diplomacy Menu. Here you may ask the Liege of your intended about the possibility of arranging a marriage. The Diplomacy Menu is the main way to interact with other characters. Go ahead and arrange the marriage!",
+        "translation": "当你找到一个好的婚姻对象时，右击其头像以打开外交界面。这时你要询问你意中人的领主以得知与你婚姻对象结姻的可能性。外交印象是影响其他角色的主要方法。那么去协商婚姻吧！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC107300",
+        "original": "You now have a Claim and it's time to let slip the dogs of War! Click on Canarias province and right-click the Ruler Portrait in the County View. Select 'Declare War' in the Diplomacy Menu and the 'Claim Canarias' Casus Belli. Send the War Declaration.",
+        "translation": "你现在拥有了一个宣称权，那么现在就是开动战争机器的时候了！点击加那利并在省份界面中右键点击该省统治者头像。在选择外交界面的「宣战」选项及「宣称加那利」的宣战理由以发出宣战布告。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC107326",
+        "original": "You are now over your Vassal Limit, meaning you have more Vassals than you can control. Your Vassals will then give you reduced Taxes and Levies, and you might even lose some Vassals when you die and your Heir takes over. In the long term you can increase your Vassal Limit by increasing your Diplomacy, but in the short term you can Transfer Vassalage so that you have fewer Direct Vassals. You can do this by clicking on the character you want to give Vassals to, and open their Diplomacy Menu. The target character must be of a higher tier than the Vassal you wish to give away.",
+        "translation": "你超出了封臣上限，意味着你有超出你控制能力以外的过多封臣。你的封臣将会给你更少的税收和兵员，而在你死时，也有封臣独立的风险，长期来说，你可以通过增加自身外交能力增加封臣上限；但短期来说转封封臣是个好办法——选择一个你希望接受转封的封臣，打开外交界面。接受转封的目标需要比你希望转封的角色头衔等级更高。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC107334",
+        "original": "One of your children is now old enough to be Tutored by a Guardian. By opening your Diplomacy Menu you can select the 'Educate Child' option. A Guardian will be automatically suggested, but feel free to click on the suggested Guardian in order to choose another one if you wish. You will want a Guardian with good Traits and Attributes, or use this opportunity and let a Vassal that dislike you to get the honor of becoming the Guardian of your child.",
+        "translation": "当你的孩子年纪够大时，可以送去由监护人教育。点开外交界面你可以选择「教育儿童」选项，会自动推荐一名监护人，但只要你想，你完全可以点击推荐监护人的头像来选择另外一名监护人。你或许会希望监护人有优良的属性和特质，不过也可以利用这个机会让不喜欢你的封臣接受教育你孩子的荣誉，改变对你的态度。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC107325",
+        "original": "You are now over your Demesne Limit, meaning you have more Holdings than is seemly for you to rule personally. Your Vassals will dislike you for being over this limit, so you need to do something about it, and soon! In the long term, you can increase your demesne limit by increasing your Stewardship Attribute (and your wife's), but in the short term you need to give some of your Titles to your Vassals. You can do this by clicking on the character you want to give Titles to, and open their Diplomacy Menu. Look in the Character Finder or in the Court Tab in your Character View to find suitable characters.",
+        "translation": "你的直辖领超出了上限，这意味着你手握的领地超出了你能管理的数量。你的封臣对此会感到不悦，因此你得尽快采取措施！长期来说，你可以通过增强自身财政属性提升直辖领上限，配偶的属性同样也有一定作用。但短期来说分封一部分这些头衔给你的封臣才是最有效的。可以点击想要授予头衔的角色并开启他们的外交界面来完成。用角色查找功能或是你角色自身的宫廷界面也可以帮助你找到合适的人选。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC107310",
+        "original": "You are now ready to make Peace. To do this, click on the War icon in the bottom right of the screen. You can also right-click the portrait of the character you are fighting and open their Diplomacy Menu.",
+        "translation": "现在你准备议和了。要想议和，点击在屏幕右下方的战争标志。你也可以右击敌方君主头像以打开外交界面。",
+        "stage": 5
+    },
+    {
+        "key": "PART_OF_REGION",
+        "original": "Part of $REGION$ region",
+        "translation": "$REGION$地区的一部分",
+        "stage": 5
+    },
+    {
+        "key": "NOT_PART_OF_REGION",
+        "original": "Not part of $REGION$ region",
+        "translation": "不属于$REGION$区域的一部分",
+        "stage": 5
+    },
+    {
+        "key": "SPAWN_UNIT_EFFECT_REINFORCE_RATE",
+        "original": "Reinforce Speed: §Y$RATE$§!%",
+        "translation": "补充速度：§Y$RATE$§!%",
+        "stage": 5
+    },
+    {
+        "key": "SPAWN_UNIT_EFFECT_MAINTENANCE_FREE",
+        "original": "Maintenance Free",
+        "translation": "免维护费",
+        "stage": 5
+    },
+    {
+        "key": "SPAWN_UNIT_EFFECT_NON_REINFORCING",
+        "original": "Non Reinforcing",
+        "translation": "不补充兵员",
+        "stage": 5
+    },
+    {
+        "key": "SPAWN_UNIT_EFFECT_FORCED_LOOTING",
+        "original": "These troops will always be raiding.",
+        "translation": "这支部队将会一直劫掠。",
+        "stage": 5
+    },
+    {
+        "key": "HorseLordsDLC",
+        "original": "Horse Lords",
+        "translation": "马上诸王",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_TITLE",
+        "original": "Settle Adventurer",
+        "translation": "安置冒险者",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_DESC",
+        "original": "Grant a landed title and settle the adventurer",
+        "translation": "授予一个头衔并安置这个冒险者",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_LONG_DESC",
+        "original": "Grant one of your landed titles to settle an adventurer. This will significantly improve their opinion of you. Settling an adventurer will stop them from raiding you, and the adventurer will also prevent other raiders from attacking for a long time.",
+        "translation": "授予你名下的一个头衔以安置一个冒险者。这将极大地提高他们对你的好感。安置一个冒险者将使他们不再劫掠你，这个冒险者也将在一段很长的时间内阻止别的劫掠者继续攻击我们。",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_0",
+        "original": "Select a title to grant to §Y[Recipient.GetTitledFirstName]§W.",
+        "translation": "选择一个头衔以授予§Y[Recipient.GetTitledFirstName]§W。",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_1",
+        "original": "Grant the §Y[ThirdPartyTitle.GetFullName]§W to §Y[Recipient.GetTitledFirstName]§W, increasing [Recipient.GetPossPronoun] opinion of you by §G$OPINION$§W.",
+        "translation": "将§Y[ThirdPartyTitle.GetFullName]§W授予§Y[Recipient.GetTitledFirstName]§W，增加[Recipient.GetPossPronoun]对你的好感度 §G$OPINION$§W。",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_2",
+        "original": "The capital will change from §Y$CURRENT$§W to §Y$NEW$§W.",
+        "translation": "首都将由§Y$CURRENT$§W迁往§Y$NEW$§W。",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_3",
+        "original": "Vassals going with the grant: ",
+        "translation": "随着头衔授予，以下封臣将同时转移：",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_4",
+        "original": "[Player.Religion.GetPietyName] from temple grant: §G$PIETY$§!.",
+        "translation": "由于授予神殿，获得[Player.Religion.GetPietyName]：§G$PIETY$§!。",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_5",
+        "original": "§RMaking [Recipient.GetObjectPronoun] a $TITLE$ will disqualify [Recipient.GetObjectPronoun] from the succession!§!",
+        "translation": "§R让[Recipient.GetObjectPronoun]成为一个$TITLE$将使[Recipient.GetObjectPronoun]失去继承权！§!",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_ACCEPT_SETUP",
+        "original": "Offer to Settle Adventurer Accepted",
+        "translation": "接受了安置冒险者的提议。",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_ACCEPT_LOG",
+        "original": "§Y[Actor.GetBestName]§W settled the adventurer §Y[Recipient.GetBestName]§W by giving [Recipient.GetHerHim] the [ThirdPartyTitle.GetFullName].",
+        "translation": "§Y[Actor.GetBestName]§W通过授予[Recipient.GetHerHim][ThirdPartyTitle.GetFullName]，安置了冒险者§Y[Recipient.GetBestName]§W。",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_6",
+        "original": "Grant the §Y[ThirdPartyTitle.GetFullName]§W and all titles under it to §Y[Recipient.GetTitledFirstName]§W, increasing [Recipient.GetPossPronoun] opinion of you by §G$OPINION$§W.",
+        "translation": "将§Y[ThirdPartyTitle.GetFullName]§W头衔和其法理的所有下级头衔授予§Y[Recipient.GetTitledFirstName]§W，增加[Recipient.GetPossPronoun]对你 §G$OPINION$§! 好感。",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_7",
+        "original": "Decadence lost from grant to dynasty member: §G$DECADENCE$%§! (the effect is relative to the dynasty's current Decadence.)",
+        "translation": "由于授予家族成员土地，腐化度将减少：§G$DECADENCE$%§!（效果与该家族当前腐化度相关。）",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_9",
+        "original": "Settling an adventurer will significantly reduce the risk of further raid attempts against you for a long time.",
+        "translation": "安置一个冒险者将显著减少未来一段时间被劫掠的风险。",
+        "stage": 5
+    },
+    {
+        "key": "IS_ALLOWED_TO_LOOT",
+        "original": "Is allowed to raid",
+        "translation": "允许进行劫掠",
+        "stage": 5
+    },
+    {
+        "key": "CANNOT_DESTROY_DURING_WAR",
+        "original": "Cannot destroy contested title during war",
+        "translation": "无法在战争中销毁争议头衔",
+        "stage": 5
+    },
+    {
+        "key": "NOT_IS_ALLOWED_TO_LOOT",
+        "original": "Is NOT allowed to raid",
+        "translation": "不允许进行劫掠",
+        "stage": 5
+    },
+    {
+        "key": "settled_adventurer",
+        "original": "Settled Adventurer",
+        "translation": "安置冒险者",
+        "stage": 5
+    },
+    {
+        "key": "LOOTING_SETTLED_ADVENTURER",
+        "original": "This county has recently been settled by a raider adventurer.",
+        "translation": "最近一个劫掠冒险者定居在了这个省份。",
+        "stage": 5
+    },
+    {
+        "key": "TOGGLE_LOOTER_FAIL_FORCED_NOT_LOOT",
+        "original": " Unit is allowed to raid",
+        "translation": "部队允许进行劫掠",
+        "stage": 5
+    },
+    {
+        "key": "SPAWN_UNIT_EFFECT_FORCED_NOT_LOOTING",
+        "original": "These troops cannot raid.",
+        "translation": "该部队无法劫掠。",
+        "stage": 5
+    },
+    {
+        "key": "SPAWN_UNIT_EFFECT_LOOTING",
+        "original": "These troops will start off as raiders.",
+        "translation": "该部队将开始作为劫掠者行动。",
+        "stage": 5
+    },
+    {
+        "key": "tut_0a_6",
+        "original": "Click the portrait. All characters have a view like this. This is the King of Scotland, and here you can see that his parents and grandparents are dead. He has three children and three siblings.",
+        "translation": "点击头像。所有的角色都有一个类似的窗口。这是苏格兰国王，而你在这能看到他的父母、祖父母已故，他有三个孩子和三个兄弟姐妹。",
+        "stage": 5
+    },
+    {
+        "key": "REALM_LEVY_DIFF_LOWER_THAN",
+        "original": "Current realm levy difference between §Y$FIRST$§! and §Y$SECOND$§! lower than §Y$VAL$§!",
+        "translation": "§Y$FIRST$§!和§Y$SECOND$§!之间当前领地征召兵差异少于 §Y$VAL$§!",
+        "stage": 5
+    },
+    {
+        "key": "REALM_LEVY_DIFF_AT_LEAST",
+        "original": "Current realm levy difference between §Y$FIRST$§! and §Y$SECOND$§! at least §Y$VAL$§!",
+        "translation": "§Y$FIRST$§!和§Y$SECOND$§!之间当前领地征召兵的差异至少为 §Y$VAL$§!",
+        "stage": 5
+    },
+    {
+        "key": "MAX_REALM_LEVY_DIFF_LOWER_THAN",
+        "original": "Maximum realm levy difference between §Y$FIRST$§! and §Y$SECOND$§! lower than §Y$VAL$§!",
+        "translation": "§Y$FIRST$§!和§Y$SECOND$§!之间最大领地征召兵的差异少于 §Y$VAL$§!",
+        "stage": 5
+    },
+    {
+        "key": "MAX_REALM_LEVY_DIFF_AT_LEAST",
+        "original": "Maximum realm levy difference between §Y$FIRST$§! and §Y$SECOND$§! at least §Y$VAL$§!",
+        "translation": "§Y$FIRST$§!和§Y$SECOND$§!之间最大领地征召兵的差异至少为 §Y$VAL$§!",
+        "stage": 5
+    },
+    {
+        "key": "REALM_LEVY_LESS",
+        "original": "Current realm levies less than §Y$VAL$§!",
+        "translation": "当前领地征召兵少于 §Y$VAL$§!",
+        "stage": 5
+    },
+    {
+        "key": "REALM_LEVY_LEAST",
+        "original": "Current realm levies at least §Y$VAL$§!",
+        "translation": "当前领地征召兵至少 §Y$VAL$§!",
+        "stage": 5
+    },
+    {
+        "key": "MAX_TROOP_STRENGTH_LESS",
+        "original": "Maximum realm levies less than §Y$VAL$§!",
+        "translation": "最大领地征召兵少于 §Y$VAL$§!",
+        "stage": 5
+    },
+    {
+        "key": "MAX_TROOP_STRENGTH_LEAST",
+        "original": "Maximum realm levies at least §Y$VAL$§!",
+        "translation": "最大领地征召兵至少 §Y$VAL$§!",
+        "stage": 5
+    },
+    {
+        "key": "ANY_UNIT",
+        "original": "Any Unit",
+        "translation": "任意部队",
+        "stage": 5
+    },
+    {
+        "key": "ALL_UNITS",
+        "original": "All Units",
+        "translation": "所有部队",
+        "stage": 5
+    },
+    {
+        "key": "IS_SEAFARER",
+        "original": "Is seafarer",
+        "translation": "是船员",
+        "stage": 5
+    },
+    {
+        "key": "NOT_IS_SEAFARER",
+        "original": "Is NOT seafarer",
+        "translation": "不是船员",
+        "stage": 5
+    },
+    {
+        "key": "IS_ISLAND",
+        "original": "Is an island",
+        "translation": "是岛",
+        "stage": 5
+    },
+    {
+        "key": "NOT_IS_ISLAND",
+        "original": "Is NOT an island",
+        "translation": "不是岛",
+        "stage": 5
+    },
+    {
+        "key": "DYNAMIC_MERCENARY_COMPANY",
+        "original": "[Root.GetFirstName]'s [Root.Culture.GetName] Band",
+        "translation": "[Root.GetFirstName]的[Root.Culture.GetName]大队",
+        "stage": 5
+    },
+    {
+        "key": "create_mercenary_company",
+        "original": "Send Away as Mercenary",
+        "translation": "送去当雇佣兵",
+        "stage": 5
+    },
+    {
+        "key": "create_mercenary_company_desc",
+        "original": "Send §Y[Root.GetFirstName]§! away to seek experience, fame and fortune as a mercenary, taking some soldiers from your current levy with [Root.GetHerHim] as a starting force. You will be able to recall [Root.GetHerHim] to §Y[From.Capital.GetName]§! at any time, and hopefully by then [Root.GetSheHe] will have brought honor to your dynasty by amassing a suitably impressive amount of gold and prestige.",
+        "translation": "将§Y[Root.GetFirstName]§!送走，去作为雇佣兵寻求经验、名声和财富，从你当前征召兵中带走一部分作为[Root.GetHerHim]的启动兵力。你可以随时召唤[Root.GetHerHim]回到§Y[From.Capital.GetName]§!，并希望[Root.GetSheHe]到时将会积累起可观的金钱和威望，为你的家族带来荣誉。",
+        "stage": 5
+    },
+    {
+        "key": "maintaining_mercenary_band",
+        "original": "Maintaining Mercenary Band",
+        "translation": "维持雇佣兵大队",
+        "stage": 5
+    },
+    {
+        "key": "desc_maintaining_mercenary_band",
+        "original": "This holding is used to refill mercenary bands",
+        "translation": "这一地产被用来补充雇佣兵大队",
+        "stage": 5
+    },
+    {
+        "key": "ANY_MERCENARY_BAND_STARTS",
+        "original": "Any mercenary band",
+        "translation": "任意雇佣兵大队",
+        "stage": 5
+    },
+    {
+        "key": "TRIGGER_BAND_CREATOR",
+        "original": "Band creator",
+        "translation": "大队成立者",
+        "stage": 5
+    },
+    {
+        "key": "DEMESNE_GARRISON_MORE_THAN",
+        "original": "Garrison of entire demesne is more or equal to ",
+        "translation": "整个直辖领的要塞守军大于或等于",
+        "stage": 5
+    },
+    {
+        "key": "DEMESNE_GARRISON_LESS_THAN",
+        "original": "Garrison of entire demesne is less than ",
+        "translation": "整个直辖领的要塞守军少于",
+        "stage": 5
+    },
+    {
+        "key": "AIREASON_NOT_DUCHY",
+        "original": "Desires a duchy",
+        "translation": "渴求一个公国",
+        "stage": 5
+    },
+    {
+        "key": "AIREASON_NO_PORT",
+        "original": "Desires coastal counties",
+        "translation": "渴求沿海省份",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_LETTER",
+        "original": "We offer you the landed title of [ThirdPartyTitle.GetFullName] in exchange for your protection against future raids in this area.",
+        "translation": "我们提议给予你有地头衔[ThirdPartyTitle.GetFullName]，作为交换，你将要为此地区未来遭受的劫掠提供保护。",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_OFFER",
+        "original": "[Actor.GetBestName] wants to offer us the landed title of [ThirdPartyTitle.GetFullName] in exchange for our protection.",
+        "translation": "[Actor.GetBestName]提议给予我们有地头衔[ThirdPartyTitle.GetFullName]，作为交换，我们需提供保护。",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_DECLINE_SETUP",
+        "original": "Offer to Settle Adventurer Declined",
+        "translation": "拒绝了安置冒险者的提议",
+        "stage": 5
+    },
+    {
+        "key": "SETTLE_ADVENTURER_INTERACTION_DECLINE_LOG",
+        "original": "§Y[Recipient.GetBestName]§W refused §Y[Actor.GetBestName]§W's offer to settle in [Actor.GetHerHis] lands.",
+        "translation": "§Y[Recipient.GetBestName]§W拒绝§Y[Actor.GetBestName]§W的关于定居到[Actor.GetHerHis]土地的提议。",
+        "stage": 5
+    },
+    {
+        "key": "dissolve_mercenary_company",
+        "original": "Recall to Court",
+        "translation": "召回宫廷",
+        "stage": 5
+    },
+    {
+        "key": "dissolve_mercenary_company_desc",
+        "original": "Order [Root.GetFirstName] to disband [Root.GetHerHis] mercenary band and return home.",
+        "translation": "命令[Root.GetFirstName]解散[Root.GetHerHis]雇佣兵大队并回到家乡。",
+        "stage": 5
+    },
+    {
+        "key": "is_mercenary_leader_YEAR",
+        "original": "Has been leading the company for five years\\n",
+        "translation": "已经带领该雇佣兵团五年了\\n",
+        "stage": 5
+    },
+    {
+        "key": "HAS_NOT_RAISED_STANDING_TROOPS",
+        "original": "Has not raised standing troops",
+        "translation": "没有建立常备军",
+        "stage": 5
+    },
+    {
+        "key": "HAS_RAISED_STANDING_TROOPS",
+        "original": "Has raised standing troops",
+        "translation": "已建立常备军",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC288",
+        "original": "I accept your offer of settling down.",
+        "translation": "我接受你的提议，定居于此。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC289",
+        "original": "I refuse to accept your offer of settling down.",
+        "translation": "我拒绝你的提议，不定居于此。",
+        "stage": 5
+    },
+    {
+        "key": "INTERACTION_REQUIRES_NO_ACTOR_MERCENARY_TITLE",
+        "original": "§Y[Actor.GetTitledFirstName]§! must not be a Mercenary",
+        "translation": "§Y[Actor.GetTitledFirstName]§!不能是雇佣兵",
+        "stage": 5
+    },
+    {
+        "key": "INTERACTION_REQUIRES_NO_RECIPIENT_MERCENARY_TITLE",
+        "original": "§Y[Recipient.GetTitledFirstName]§! must not be a Mercenary",
+        "translation": "§Y[Recipient.GetTitledFirstName]§!不能是雇佣兵",
+        "stage": 5
+    },
+    {
+        "key": "started_mercenary_company",
+        "original": "Started Mercenary Company",
+        "translation": "已建立雇佣兵团",
+        "stage": 5
+    },
+    {
+        "key": "IS_ADVENTURER",
+        "original": "Is adventurer",
+        "translation": "是冒险者",
+        "stage": 5
+    },
+    {
+        "key": "IS_NOT_ADVENTURER",
+        "original": "Is not adventurer",
+        "translation": "不是冒险者",
+        "stage": 5
+    },
+    {
+        "key": "TRIGGER_MOST_PART_CRUSADER",
+        "original": "Most Contributing Crusader",
+        "translation": "最大贡献的十字军",
+        "stage": 5
+    },
+    {
+        "key": "INTERACTION_REQUIRES_RECIPIENT_FEUDAL",
+        "original": "§Y[Recipient.GetTitledFirstName]§! is feudal.",
+        "translation": "§Y[Recipient.GetTitledFirstName]§!是封建政体。",
+        "stage": 5
+    },
+    {
+        "key": "CHRONICLE_DIVORCED",
+        "original": "[New.GetTitledFirstName] announced the formal annulment of [From.GetTitledFirstName]s marriage with [Root.GetTitledName].",
+        "translation": "[New.GetTitledFirstName]宣布正式废止[From.GetTitledFirstName]与[Root.GetTitledName]的婚姻。",
+        "stage": 5
+    },
+    {
+        "key": "CHRONICLE_DIVORCED_NO_HEAD",
+        "original": "[From.GetTitledFirstName] divorced [Root.GetTitledName].",
+        "translation": "[From.GetTitledFirstName]与[Root.GetTitledName]离婚。",
+        "stage": 5
+    },
+    {
+        "key": "LAW_ALLOWED",
+        "original": "Can enact §Y$LAW$§! law",
+        "translation": "可以实行§Y$LAW$§!法",
+        "stage": 5
+    },
+    {
+        "key": "LAW_NOT_ALLOWED",
+        "original": "Can NOT enact §Y$LAW$§! law",
+        "translation": "不能实行§Y$LAW$§!法",
+        "stage": 5
+    },
+    {
+        "key": "LAW_POTENTIAL",
+        "original": "Eligible to enact §Y$LAW$§! law",
+        "translation": "满足条件实行§Y$LAW$§!法",
+        "stage": 5
+    },
+    {
+        "key": "LAW_NOT_POTENTIAL",
+        "original": "NOT eligible to enact §Y$LAW$§! law",
+        "translation": "不满足条件实行§Y$LAW$§!法",
+        "stage": 5
+    },
+    {
+        "key": "GOVERNMENT_ALLOWED",
+        "original": "Can enact §Y$GOVERNMENT$§! government",
+        "translation": "能使用§Y$GOVERNMENT$§!政体",
+        "stage": 5
+    },
+    {
+        "key": "GOVERNMENT_NOT_ALLOWED",
+        "original": "Can NOT enact §Y$GOVERNMENT$§! government",
+        "translation": "不能使用§Y$GOVERNMENT$§!政体",
+        "stage": 5
+    },
+    {
+        "key": "GOVERNMENT_POTENTIAL",
+        "original": "Eligible to enact §Y$GOVERNMENT$§! government",
+        "translation": "满足条件使用§Y$GOVERNMENT$§!政体",
+        "stage": 5
+    },
+    {
+        "key": "GOVERNMENT_NOT_POTENTIAL",
+        "original": "NOT eligible to enact §Y$GOVERNMENT$§! government",
+        "translation": "不满足条件使用§Y$GOVERNMENT$§!政体",
+        "stage": 5
+    },
+    {
+        "key": "DECISION_ALLOWED",
+        "original": "Can take §Y$DECISION$§! decision",
+        "translation": "能采用§Y$DECISION$§!决议",
+        "stage": 5
+    },
+    {
+        "key": "DECISION_NOT_ALLOWED",
+        "original": "Can NOT take §Y$DECISION$§! decision",
+        "translation": "不能采用§Y$DECISION$§!决议",
+        "stage": 5
+    },
+    {
+        "key": "DECISION_POTENTIAL",
+        "original": "Eligible to take §Y$DECISION$§! decision",
+        "translation": "满足条件采用§Y$DECISION$§!决议",
+        "stage": 5
+    },
+    {
+        "key": "DECISION_NOT_POTENTIAL",
+        "original": "NOT eligible to take §Y$DECISION$§! decision",
+        "translation": "不满足条件采用§Y$DECISION$§!决议",
+        "stage": 5
+    },
+    {
+        "key": "TARGETTED_DECISION_ALLOWED",
+        "original": "Can take §Y$DECISION$§! decision against §Y$CHARACTER$§!",
+        "translation": "能采用针对§Y$CHARACTER$§!的决议§Y$DECISION$§!",
+        "stage": 5
+    },
+    {
+        "key": "TARGETTED_DECISION_NOT_ALLOWED",
+        "original": "Can NOT take §Y$DECISION$§! decision against §Y$CHARACTER$§!",
+        "translation": "不能采用针对§Y$CHARACTER$§!的决议§Y$DECISION$§!",
+        "stage": 5
+    },
+    {
+        "key": "TARGETTED_DECISION_POTENTIAL",
+        "original": "Eligible to take §Y$DECISION$§! decision against §Y$CHARACTER$§!",
+        "translation": "满足条件采用针对§Y$CHARACTER$§!的决议§Y$DECISION$§!",
+        "stage": 5
+    },
+    {
+        "key": "TARGETTED_DECISION_NOT_POTENTIAL",
+        "original": "NOT eligible to take §Y$DECISION$§! decision against §Y$CHARACTER$§!",
+        "translation": "不满足条件采用针对§Y$CHARACTER$§!的决议§Y$DECISION$§!",
+        "stage": 5
+    },
+    {
+        "key": "TITLE_DECISION_ALLOWED",
+        "original": "Can take §Y$DECISION$§! decision for §Y$TITLE$§!",
+        "translation": "能采用对§Y$TITLE$§!的决议§Y$DECISION$§!",
+        "stage": 5
+    },
+    {
+        "key": "TITLE_DECISION_NOT_ALLOWED",
+        "original": "Can NOT take §Y$DECISION$§! decision for §Y$TITLE$§!",
+        "translation": "不能采用对§Y$TITLE$§!的决议§Y$DECISION$§!",
+        "stage": 5
+    },
+    {
+        "key": "TITLE_DECISION_POTENTIAL",
+        "original": "Eligible to take §Y$DECISION$§! decision for §Y$TITLE$§!",
+        "translation": "满足条件采用对§Y$TITLE$§!的决议§Y$DECISION$§!",
+        "stage": 5
+    },
+    {
+        "key": "TITLE_DECISION_NOT_POTENTIAL",
+        "original": "NOT eligible to take §Y$DECISION$§! decision for §Y$TITLE$§!",
+        "translation": "不满足条件采用对§Y$TITLE$§!的决议§Y$DECISION$§!",
+        "stage": 5
+    },
+    {
+        "key": "SETTLEMENT_DECISION_ALLOWED",
+        "original": "Can take §Y$DECISION$§! decision in §Y$SETTLEMENT$§!",
+        "translation": "能采用在§Y$SETTLEMENT$§!的决议§Y$DECISION$§!",
+        "stage": 5
+    },
+    {
+        "key": "SETTLEMENT_DECISION_NOT_ALLOWED",
+        "original": "Can NOT take §Y$DECISION$§! decision in §Y$SETTLEMENT$§!",
+        "translation": "不能采用在§Y$SETTLEMENT$§!的决议§Y$DECISION$§!",
+        "stage": 5
+    },
+    {
+        "key": "SETTLEMENT_DECISION_POTENTIAL",
+        "original": "Eligible to take §Y$DECISION$§! decision in §Y$SETTLEMENT$§!",
+        "translation": "满足条件采用在§Y$SETTLEMENT$§!的决议§Y$DECISION$§!",
+        "stage": 5
+    },
+    {
+        "key": "SETTLEMENT_DECISION_NOT_POTENTIAL",
+        "original": "NOT eligible to take §Y$DECISION$§! decision in §Y$SETTLEMENT$§!",
+        "translation": "不满足条件采用在§Y$SETTLEMENT$§!的决议§Y$DECISION$§!",
+        "stage": 5
+    },
+    {
+        "key": "PROV1293",
+        "original": "Gulf of Kutch",
+        "translation": "契吒湾",
+        "stage": 5
+    },
+    {
+        "key": "PROV1382",
+        "original": "Gulf of Suez",
+        "translation": "苏伊士湾",
+        "stage": 5
+    },
+    {
+        "key": "PROV1383",
+        "original": "Northern Red Sea",
+        "translation": "北红海",
+        "stage": 5
+    },
+    {
+        "key": "PROV1384",
+        "original": "Central Red Sea",
+        "translation": "中红海",
+        "stage": 5
+    },
+    {
+        "key": "PROV1385",
+        "original": "Southern Red Sea",
+        "translation": "南红海",
+        "stage": 5
+    },
+    {
+        "key": "PROV1386",
+        "original": "Strait of Mandeb",
+        "translation": "泪之门",
+        "stage": 5
+    },
+    {
+        "key": "PROV1387",
+        "original": "Gulf of Aden",
+        "translation": "亚丁湾",
+        "stage": 5
+    },
+    {
+        "key": "PROV1388",
+        "original": "Horn of Africa",
+        "translation": "非洲之角",
+        "stage": 5
+    },
+    {
+        "key": "PROV1389",
+        "original": "Coast of Dhofar",
+        "translation": "佐法尔海岸",
+        "stage": 5
+    },
+    {
+        "key": "PROV1390",
+        "original": "Southern Coast of Oman",
+        "translation": "阿曼南海岸",
+        "stage": 5
+    },
+    {
+        "key": "PROV1391",
+        "original": "Coast of Muscat",
+        "translation": "马斯喀特海岸",
+        "stage": 5
+    },
+    {
+        "key": "PROV1392",
+        "original": "Gulf of Oman",
+        "translation": "阿曼湾",
+        "stage": 5
+    },
+    {
+        "key": "PROV1393",
+        "original": "Strait of Hormuz",
+        "translation": "霍尔木兹海峡",
+        "stage": 5
+    },
+    {
+        "key": "PROV1394",
+        "original": "Eastern Persian Gulf",
+        "translation": "东波斯湾",
+        "stage": 5
+    },
+    {
+        "key": "PROV1395",
+        "original": "Western Persian Gulf",
+        "translation": "西波斯湾",
+        "stage": 5
+    },
+    {
+        "key": "PROV1396",
+        "original": "Coast of Makran",
+        "translation": "弥兰海岸",
+        "stage": 5
+    },
+    {
+        "key": "PROV1397",
+        "original": "Indus Delta",
+        "translation": "信度河口",
+        "stage": 5
+    },
+    {
+        "key": "PROV1398",
+        "original": "Coast of Gujarat",
+        "translation": "瞿折罗海岸",
+        "stage": 5
+    },
+    {
+        "key": "PROV1399",
+        "original": "Coast of Konkan",
+        "translation": "憍迦那海岸",
+        "stage": 5
+    },
+    {
+        "key": "PROV1400",
+        "original": "Coast of Malabar",
+        "translation": "马拉巴海岸",
+        "stage": 5
+    },
+    {
+        "key": "PROV1401",
+        "original": "Karnataka Coast",
+        "translation": "迦那多海岸",
+        "stage": 5
+    },
+    {
+        "key": "PROV1402",
+        "original": "Gulf of Mannar",
+        "translation": "曼那罗湾",
+        "stage": 5
+    },
+    {
+        "key": "PROV1403",
+        "original": "South Lanka Coast",
+        "translation": "南楞迦海岸",
+        "stage": 5
+    },
+    {
+        "key": "PROV1404",
+        "original": "Palk Strait",
+        "translation": "保克海峡",
+        "stage": 5
+    },
+    {
+        "key": "PROV1405",
+        "original": "North Lanka Coast",
+        "translation": "北楞迦海岸",
+        "stage": 5
+    },
+    {
+        "key": "PROV1406",
+        "original": "South Coromandel Coast",
+        "translation": "南科罗曼德尔海岸",
+        "stage": 5
+    },
+    {
+        "key": "PROV1407",
+        "original": "North Coromandel Coast",
+        "translation": "北科罗曼德尔海岸",
+        "stage": 5
+    },
+    {
+        "key": "PROV1409",
+        "original": "Coast of Orissa",
+        "translation": "奥里萨海岸",
+        "stage": 5
+    },
+    {
+        "key": "PROV1410",
+        "original": "Coast of Kataka",
+        "translation": "伽多迦海岸",
+        "stage": 5
+    },
+    {
+        "key": "PROV1411",
+        "original": "Ganges Delta",
+        "translation": "恒河口",
+        "stage": 5
+    },
+    {
+        "key": "PROV1412",
+        "original": "Arabian Sea",
+        "translation": "阿拉伯海",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_101",
+        "original": "[From.GetBestName] has gathered a band of warriors with the intention to raid foreign lands to create a fortune of [From.GetPossPronoun] own.",
+        "translation": "[From.GetBestName]已经聚集一队战士打算劫掠邻国的土地以创造[From.GetPossPronoun]自己的财富。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_112",
+        "original": "The [GetRootFromInsult] [From.GetBestName] has declared [From.GetHerHis] intentions of trying to seize land from your realm by force with [From.GetHerHis] band of thieves and robbers.",
+        "translation": "[GetRootFromInsult][From.GetBestName]公开宣布[From.GetHerHis]意图：通过[From.GetHerHis]那群不法之徒从你的国度攫取土地。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_112",
+        "original": "We must stop [From.GetHerHim].",
+        "translation": "我们必须要阻止[From.GetHerHim]。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_121",
+        "original": "Dear [GetFromReverseRelation],\\n[From.Religion.GetRandomGodNameCap] has smiled upon me the during my recent adventures. I now have so much wealth that I'm having trouble spending it all. However I would like to have a realm of my own fitting for a warrior of my rank, therefore I propose a small exchange.\\n\\nSigned,\\nyour [GetFromRelation] [From.GetFirstName]",
+        "translation": "「亲爱的[GetFromReverseRelation]，\\n[From.Religion.GetRandomGodNameCap]已经在我最近的冒险活动期间垂青于我。现在我已经拥有如此多的财富以至于我能毫无障碍地花掉它们。尽管如此，我还是希望能得到一片符合我这个级别的战士的自己的国度，因此，我提议我们做一个小交易。\\n\\n此致，\\n你的[GetFromRelation][From.GetFirstName]」",
+        "stage": 5
+    },
+    {
+        "key": "world_europe_west_brittania",
+        "original": "Britannia",
+        "translation": "不列颠尼亚",
+        "stage": 5
+    },
+    {
+        "key": "world_europe_west_germania",
+        "original": "Germania",
+        "translation": "日耳曼尼亚",
+        "stage": 5
+    },
+    {
+        "key": "world_europe_west_francia",
+        "original": "Francia",
+        "translation": "法兰克",
+        "stage": 5
+    },
+    {
+        "key": "world_europe_west_iberia",
+        "original": "Iberia",
+        "translation": "伊比利亚",
+        "stage": 5
+    },
+    {
+        "key": "world_europe_west",
+        "original": "Western Europe",
+        "translation": "西欧",
+        "stage": 5
+    },
+    {
+        "key": "world_europe_north",
+        "original": "Northern Europe",
+        "translation": "北欧",
+        "stage": 5
+    },
+    {
+        "key": "world_europe_south_east",
+        "original": "South-East Europe",
+        "translation": "东南欧",
+        "stage": 5
+    },
+    {
+        "key": "world_europe_south_italy",
+        "original": "Italia",
+        "translation": "意大利",
+        "stage": 5
+    },
+    {
+        "key": "world_europe_south",
+        "original": "Southern Europe",
+        "translation": "南欧",
+        "stage": 5
+    },
+    {
+        "key": "world_europe_east",
+        "original": "Eastern Europe",
+        "translation": "东欧",
+        "stage": 5
+    },
+    {
+        "key": "world_asia_minor",
+        "original": "Asia Minor",
+        "translation": "小亚细亚",
+        "stage": 5
+    },
+    {
+        "key": "world_middle_east_jerusalem",
+        "original": "Jerusalem",
+        "translation": "耶路撒冷",
+        "stage": 5
+    },
+    {
+        "key": "world_middle_east_arabia",
+        "original": "Arabian Peninsula",
+        "translation": "阿拉伯半岛",
+        "stage": 5
+    },
+    {
+        "key": "world_india_deccan",
+        "original": "Deccan",
+        "translation": "德干",
+        "stage": 5
+    },
+    {
+        "key": "world_india_bengal",
+        "original": "Bengal",
+        "translation": "旁伽罗",
+        "stage": 5
+    },
+    {
+        "key": "world_india_rajastan",
+        "original": "Rajastan",
+        "translation": "罗阇湿檀那",
+        "stage": 5
+    },
+    {
+        "key": "world_persia",
+        "original": "Persia",
+        "translation": "波斯",
+        "stage": 5
+    },
+    {
+        "key": "world_africa_north",
+        "original": "North Africa",
+        "translation": "北非",
+        "stage": 5
+    },
+    {
+        "key": "world_africa_west",
+        "original": "West Africa",
+        "translation": "西非",
+        "stage": 5
+    },
+    {
+        "key": "world_africa_east",
+        "original": "East Africa",
+        "translation": "东非",
+        "stage": 5
+    },
+    {
+        "key": "world_africa",
+        "original": "Africa",
+        "translation": "非洲",
+        "stage": 5
+    },
+    {
+        "key": "world_steppe_west",
+        "original": "Western Steppes",
+        "translation": "西大草原",
+        "stage": 5
+    },
+    {
+        "key": "world_steppe_east",
+        "original": "Eastern Steppes",
+        "translation": "东大草原",
+        "stage": 5
+    },
+    {
+        "key": "world_steppe",
+        "original": "Steppes",
+        "translation": "大草原",
+        "stage": 5
+    },
+    {
+        "key": "world_europe",
+        "original": "Europe",
+        "translation": "欧洲",
+        "stage": 5
+    },
+    {
+        "key": "world_middle_east",
+        "original": "Near East",
+        "translation": "近东",
+        "stage": 5
+    },
+    {
+        "key": "world_india",
+        "original": "India",
+        "translation": "印度",
+        "stage": 5
+    },
+    {
+        "key": "world_steppe_tarim",
+        "original": "Tarim Basin",
+        "translation": "塔里木盆地",
+        "stage": 5
+    },
+    {
+        "key": "custom_eastern_baltic",
+        "original": "Eastern Baltic",
+        "translation": "东波罗的海",
+        "stage": 5
+    },
+    {
+        "key": "custom_frisia",
+        "original": "Frisia",
+        "translation": "弗里西亚",
+        "stage": 5
+    },
+    {
+        "key": "custom_england",
+        "original": "England",
+        "translation": "英格兰",
+        "stage": 5
+    },
+    {
+        "key": "custom_castillian",
+        "original": "North Iberia",
+        "translation": "北伊比利亚",
+        "stage": 5
+    },
+    {
+        "key": "custom_catalan",
+        "original": "East Iberia",
+        "translation": "东伊比利亚",
+        "stage": 5
+    },
+    {
+        "key": "custom_andalusian",
+        "original": "South Iberia",
+        "translation": "南伊比利亚",
+        "stage": 5
+    },
+    {
+        "key": "custom_portuguese",
+        "original": "North-West Iberia",
+        "translation": "西北伊比利亚",
+        "stage": 5
+    },
+    {
+        "key": "custom_swedish",
+        "original": "Sweden",
+        "translation": "瑞典",
+        "stage": 5
+    },
+    {
+        "key": "custom_danish",
+        "original": "Denmark",
+        "translation": "丹麦",
+        "stage": 5
+    },
+    {
+        "key": "custom_norwegian",
+        "original": "Norway",
+        "translation": "挪威",
+        "stage": 5
+    },
+    {
+        "key": "custom_scotland",
+        "original": "Scotland",
+        "translation": "苏格兰",
+        "stage": 5
+    },
+    {
+        "key": "opinion_humiliated_rival",
+        "original": "Humiliated by rival",
+        "translation": "被宿敌羞辱",
+        "stage": 5
+    },
+    {
+        "key": "MAPMODE_REALM",
+        "original": "§YRealms§!",
+        "translation": "§Y独立领主§!",
+        "stage": 5
+    },
+    {
+        "key": "PROV1347",
+        "original": "Taklamakan Desert",
+        "translation": "塔克拉玛干沙漠",
+        "stage": 5
+    },
+    {
+        "key": "pyramid",
+        "original": "Pyramid",
+        "translation": "金字塔",
+        "stage": 5
+    },
+    {
+        "key": "k_mongolia",
+        "original": "Mongolia",
+        "translation": "蒙古",
+        "stage": 5
+    },
+    {
+        "key": "k_mongolia_adj",
+        "original": "Mongolian",
+        "translation": "蒙古",
+        "stage": 5
+    },
+    {
+        "key": "d_altay",
+        "original": "Altay",
+        "translation": "阿尔泰",
+        "stage": 5
+    },
+    {
+        "key": "d_otuken",
+        "original": "Ötüken",
+        "translation": "于都斤",
+        "stage": 5
+    },
+    {
+        "key": "d_khangai",
+        "original": "Khangai",
+        "translation": "杭海",
+        "stage": 1
+    },
+    {
+        "key": "d_ikh_bogd",
+        "original": "Ikh Bogd",
+        "translation": "伊赫博格多",
+        "stage": 1
+    },
+    {
+        "key": "k_khotan",
+        "original": "Khotan",
+        "translation": "于阗",
+        "stage": 5
+    },
+    {
+        "key": "d_kashgar",
+        "original": "Kashgar",
+        "translation": "喀什噶尔",
+        "stage": 5
+    },
+    {
+        "key": "d_khotan",
+        "original": "Khotan",
+        "translation": "于阗",
+        "stage": 5
+    },
+    {
+        "key": "d_karashar",
+        "original": "Karashar",
+        "translation": "喀喇沙尔",
+        "stage": 5
+    },
+    {
+        "key": "d_kumul",
+        "original": "Kumul",
+        "translation": "哈密",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_415",
+        "original": "I have butterflies in my stomach!",
+        "translation": "有蝴蝶在我的肚子里！",
+        "stage": 5
+    },
+    {
+        "key": "EVTTOOLTIP_CM_4332",
+        "original": "[This.GetTitledFirstName] becomes a member of the Haruriyyah Order",
+        "translation": "[This.GetTitledFirstName]成为了哈鲁里耶教团的一名成员。",
+        "stage": 5
+    },
+    {
+        "key": "tower_topples",
+        "original": "Tower topples.",
+        "translation": "塔楼坍塌。",
+        "stage": 5
+    },
+    {
+        "key": "tower_stands",
+        "original": "Tower stands.",
+        "translation": "塔楼矗立。",
+        "stage": 5
+    },
+    {
+        "key": "promised_to_clear_out_heresy",
+        "original": "Promised to clear out heresy",
+        "translation": "承诺清除异端",
+        "stage": 5
+    },
+    {
+        "key": "alert_can_tech_name",
+        "original": "You can invest in technology",
+        "translation": "你可以投资科技",
+        "stage": 5
+    },
+    {
+        "key": "MAPMODE_REALM_DESC",
+        "original": "This map mode shows all independent Realms and it's substructure.",
+        "translation": "该地图显示所有独立领地及其下属结构。",
+        "stage": 5
+    },
+    {
+        "key": "MAPMODE_REALM_ONMAP_TOOLTIP_DESC1",
+        "original": "Press §GControl + Left Click§! to show Sub-Realms of §Y$REALM$§!",
+        "translation": "按§GCtrl + 左键§!显示§Y$REALM$§!的下级领地",
+        "stage": 5
+    },
+    {
+        "key": "MAPMODE_REALM_ONMAP_TOOLTIP_DESC2",
+        "original": "Press §GControl + Right Click§! to hide Sub-Realms of §Y$REALM$§!",
+        "translation": "按§GCtrl + 右键§!隐藏§Y$REALM$§!的下级领地",
+        "stage": 5
+    },
+    {
+        "key": "MAPMODE_GOVERNMENTS",
+        "original": "§YGovernments§!",
+        "translation": "§Y政体§!",
+        "stage": 5
+    },
+    {
+        "key": "MAPMODE_GOVERNMENTS_DESC",
+        "original": "This map mode shows the different governments.",
+        "translation": "这个地图模式显示不同的政体。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_SoA_566",
+        "original": "It's time to rescind that old and absurd decree banning Jews from the realm.",
+        "translation": "是时候废除领地内的犹太人禁令这一陈旧而荒谬的法令了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_SoA_566",
+        "original": "Let such injustices be consigned to history.",
+        "translation": "把这些不公扔进历史的废纸堆里吧。",
+        "stage": 5
+    },
+    {
+        "key": "BARONY_DESTROYED",
+        "original": "This barony has been destroyed",
+        "translation": "这个男爵领已被摧毁。",
+        "stage": 5
+    },
+    {
+        "key": "DEJURE_LIEGE_STARTS",
+        "original": "De Jure Liege",
+        "translation": "法理领主",
+        "stage": 5
+    },
+    {
+        "key": "DEFACTO_LIEGE_STARTS",
+        "original": "De Facto Liege",
+        "translation": "实际领主",
+        "stage": 5
+    },
+    {
+        "key": "destroy_settlement",
+        "original": "§Y$SETTLEMENT$§! will be destroyed.",
+        "translation": "§Y$SETTLEMENT$§!会被摧毁。\\n",
+        "stage": 5
+    },
+    {
+        "key": "make_capital_holding",
+        "original": "§Y$SETTLEMENT$§! will become the primary settlement in §Y$COUNTY$§!.\\n",
+        "translation": "§Y$SETTLEMENT$§!将会成为§Y$COUNTY$§!内的首府。\\n",
+        "stage": 5
+    },
+    {
+        "key": "make_primary",
+        "original": "Make County Capital",
+        "translation": "设定首府",
+        "stage": 5
+    },
+    {
+        "key": "make_primary_desc",
+        "original": "I can make this holding the county capital of this county.",
+        "translation": "我可以让此地产成为这个省份的首府。",
+        "stage": 5
+    },
+    {
+        "key": "nomad_ARMY_OF",
+        "original": "Nomads of $CHARACTER$",
+        "translation": "$CHARACTER$的游牧民",
+        "stage": 5
+    },
+    {
+        "key": "nomad_ARMY",
+        "original": "$CULTURE$ Nomads",
+        "translation": "$CULTURE$的游牧民",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10101",
+        "original": "Warriors serving with your [GetFromRelation] [From.GetFirstName] have sent word to inform you that they have recently observed a marked improvement in [From.GetHerHis] military leadership abilities.",
+        "translation": "侍奉你的[GetFromRelation][From.GetFirstName]的战士送信通知你，他们最近注意到了[From.GetHerHis]军事领导能力突飞猛进。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10101",
+        "original": "There is no substitute for experience!",
+        "translation": "没有东西可以替代实战经验！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10201",
+        "original": "Rumors reach you regarding [GetFromRelation] [From.GetFirstName], the mercenary. You always knew him as a coward, but now the word is that [From.GetSheHe] has been cured of [From.GetHerHis] shameful fear of battle.",
+        "translation": "有关你的[GetFromRelation][From.GetFirstName]，那个佣兵的消息传到了你的耳中。你熟知的他是一个胆小鬼，然而消息表明[From.GetSheHe]已经治好了[From.GetHerHis]对那令人羞愧的对战场的恐惧。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10201",
+        "original": "Finally, my [GetFromRelation] is a real [From.GetManWoman]!",
+        "translation": "终于，我的[GetFromRelation]成为了一名真正的[From.GetManWoman]！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10211",
+        "original": "Life as a mercenary seems to have hardened your [GetFromRelation] [From.GetFirstName]. Words of [From.GetHerHis] courage in battle reach you every so often.",
+        "translation": "佣兵生活似乎在磨砺你的[GetFromRelation][From.GetFirstName]。有关[From.GetHerHis]战场上英勇的表现不时的传入你的耳中。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10211",
+        "original": "[From.GetHerHisCap] deeds honor the [Root.GetOnlyDynastyName] dynasty!",
+        "translation": "[From.GetHerHisCap]事迹让[Root.GetOnlyDynastyName]家族熠熠生辉！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10221",
+        "original": "It is said that your [GetFromRelation] [From.GetFirstName] has become known as a very energetic and tenacious mercenary leader.",
+        "translation": "据说，你的[GetFromRelation][From.GetFirstName]成为了一名精力充沛、靠谱的佣兵团团长。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10221",
+        "original": "A fine example to all!",
+        "translation": "所有人的典范！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10231",
+        "original": "People say that your [GetFromRelation] [From.GetFirstName] has changed since [From.GetSheHe] took up leadership of [From.GetHerHis] mercenary band. [From.GetSheHeCap] now rarely shows the kindness to others that [From.GetSheHe] used to be known for.",
+        "translation": "自从你的[GetFromRelation][From.GetFirstName]开始领导[From.GetHerHis]佣兵团以来，人们说[From.GetSheHe]已经改变了。[From.GetSheHeCap]很少像[From.GetSheHe]曾经那样对别人展露善心。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10231",
+        "original": "How this world changes [From.GetMenWomen].",
+        "translation": "世界能这样改变一个[From.GetMenWomen]。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10241",
+        "original": "It is said that [From.GetHerHis] time as a mercenary leader has changed the outlook of your [GetFromRelation] [From.GetFirstName]. [From.GetSheHeCap] no longer shows the same humble spirit as before.",
+        "translation": "据说，[From.GetHerHis]在佣兵团的那段时光彻底的改变了你的[GetFromRelation][From.GetFirstName]。[From.GetSheHeCap]不再像以前一样谦逊了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10241",
+        "original": "A predictable effect of [From.GetHerHis] station, surely.",
+        "translation": "对[From.GetHerHis]情况来说，这样的结果是意料之中的。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10251",
+        "original": "During [From.GetHerHis] time as a mercenary leader, your [GetFromRelation] [From.GetFirstName] has become quite famed for [From.GetHerHis] taste for lustful escapades.",
+        "translation": "在[From.GetHerHis]作为佣兵领袖的生涯中，你的[GetFromRelation][From.GetFirstName]变得颇为有名，因为[From.GetHerHis]对风流韵事的爱好。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10251",
+        "original": "Perhaps it was only to be expected.",
+        "translation": "大概这是命中注定的吧。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10261",
+        "original": "It is said that the mercenaries who serve in your [GetFromRelation] [From.GetFirstName]'s band all have come to fear [From.GetHerHis] frequent outbursts of rage.",
+        "translation": "据说，那些在你的[GetFromRelation][From.GetFirstName]的佣兵队中服役的人，对于[From.GetHerHis]经常爆发的愤怒感到恐惧。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10261",
+        "original": "I'm sure they deserve it.",
+        "translation": "我很确信他们会这么觉得。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10271",
+        "original": "Your [GetFromRelation] [From.GetFirstName] has gained a reputation as a very cruel mercenary leader.",
+        "translation": "你的[GetFromRelation][From.GetFirstName]，作为一名残暴的佣兵团团长已经遐迩闻名。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10271",
+        "original": "People had best not get in [From.GetHerHis] way.",
+        "translation": "那些人最好不要挡了[From.GetHerHis]道。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10301",
+        "original": "News reach you that your [GetFromRelation] [From.GetFirstName] has fought a glorious battle against [FromFrom.GetTitledName].",
+        "translation": "你收到了消息，你的[GetFromRelation][From.GetFirstName]在对抗[FromFrom.GetTitledName]的战争中打了一场漂亮的胜仗。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10301",
+        "original": "[From.GetSheHeCap] measures [From.GetHerselfHimself] against the great!",
+        "translation": "[From.GetSheHeCap]用伟大这一标准来要求[From.GetHerselfHimself]！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10401",
+        "original": "Mercenary leaders frequently have to deal with people of foreign cultures and religions. Now people are saying that your [GetFromRelation] [From.GetFirstName] has developed a particular interest in the [merc_location.Holder.Religion.GetName] ways.",
+        "translation": "佣兵团的团长时常要和外国人以及异教徒打交道。现在人们都说，你的[GetFromRelation][From.GetFirstName]对[merc_location.Holder.Religion.GetName]的生活方式表现出了特别的兴趣。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10401",
+        "original": "So [From.GetSheHe] finds [merc_location.Holder.Religion.GetName]s interesting?",
+        "translation": "所以[From.GetSheHe]觉得[merc_location.Holder.Religion.GetName]很有意思？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10411",
+        "original": "You receive news that your [GetFromRelation] [From.GetFirstName] has converted to the [merc_location.Holder.Religion.GetName] faith.",
+        "translation": "你得到了消息，你的[GetFromRelation][From.GetFirstName]已经皈依了[merc_location.Holder.Religion.GetName]信仰。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10411",
+        "original": "So [From.GetSheHe] worships [merc_location.Holder.Religion.GetRandomGodName] now?",
+        "translation": "那么[From.GetSheHe]现在开始崇拜[merc_location.Holder.Religion.GetRandomGodName]了？",
+        "stage": 5
+    },
+    {
+        "key": "INTERACTION_REQUIRES_RECIPIENT_NOT_SAME_COURT_AS_SPOUSE",
+        "original": "§Y[Recipient.GetTitledFirstName]§! is not in a lesser union and in the same court as [Recipient.GetHerHis] spouse",
+        "translation": "§Y[Recipient.GetTitledFirstName]§!在婚姻中不是从属地位，或不与[Recipient.GetHerHis]配偶在同一个宫廷里",
+        "stage": 5
+    },
+    {
+        "key": "nomadic_government",
+        "original": "Nomadic",
+        "translation": "游牧制",
+        "stage": 5
+    },
+    {
+        "key": "IS_NOMADIC",
+        "original": "Is Nomadic",
+        "translation": "是游牧制",
+        "stage": 5
+    },
+    {
+        "key": "ISNT_NOMDAIC",
+        "original": "Is NOT Nomadic",
+        "translation": "不是游牧制",
+        "stage": 5
+    },
+    {
+        "key": "HAVE_GOVERNMENT",
+        "original": "Has government §Y$GOVERNMENT$§!",
+        "translation": "政体是§Y$GOVERNMENT$§!",
+        "stage": 5
+    },
+    {
+        "key": "DONT_HAVE_GOVERNMENT",
+        "original": "Does NOT have government §Y$GOVERNMENT$§!",
+        "translation": "政体不是§Y$GOVERNMENT$§!",
+        "stage": 5
+    },
+    {
+        "key": "STAT_POPULATION",
+        "original": "Population",
+        "translation": "人口",
+        "stage": 5
+    },
+    {
+        "key": "STAT_MANPOWER",
+        "original": "Manpower",
+        "translation": "人力",
+        "stage": 5
+    },
+    {
+        "key": "STAT_CLAN_SATISFACTION",
+        "original": "Clan Satisfaction",
+        "translation": "部族满意度",
+        "stage": 5
+    },
+    {
+        "key": "STAT_CLAN_SATISFACTION_DESC",
+        "original": "This value represents the satisfaction of the clans in your realm. The clan satisfaction is determined by how equally the realm is split between the clans. Having low clan satisfaction will increase the risk of clan revolts. You can increase clan satisfaction by handing out provinces with empty holdings to your clan vassals.",
+        "translation": "这个值代表着你的领地内的部族的满意程度。部族的满意度取决于领地土地在部族之间平均分配的程度。低部族满意度会增加部族叛乱的风险。你可以通过将无建筑省份分给封臣部族来提高部族满意度。",
+        "stage": 5
+    },
+    {
+        "key": "INCOME_NOMADIC_TAX",
+        "original": "Nomadic Tax",
+        "translation": "游牧税",
+        "stage": 5
+    },
+    {
+        "key": "adventurer",
+        "original": "Adventurer",
+        "translation": "冒险者",
+        "stage": 5
+    },
+    {
+        "key": "adventurer_desc",
+        "original": "This character has a background as an adventurer, which means that they might be somewhat more ambitious than others.",
+        "translation": "这个角色曾经有作为冒险者的背景，这意味着他会比其他人更富有野心。",
+        "stage": 5
+    },
+    {
+        "key": "mercenary_traditions",
+        "original": "Mercenary Traditions",
+        "translation": "佣兵传统",
+        "stage": 5
+    },
+    {
+        "key": "mercenary_traditions_desc",
+        "original": "This character's family has a history of being mercenaries.",
+        "translation": "这个角色的家族有成为佣兵的传统。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10601",
+        "original": "It is said that your [GetFromRelation] [From.GetFirstName] has turned into a very experienced mercenary commander.",
+        "translation": "据传言，你的[GetFromRelation][From.GetFirstName]成为了一名经验丰富的佣兵指挥官。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10601",
+        "original": "That is good to hear.",
+        "translation": "听到这消息真是高兴。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10610",
+        "original": "You have heard interesting rumors at court about your father's past as a mercenary commander.",
+        "translation": "你在宫廷内听到了许多有关你父亲过去作为佣兵指挥官的轶事。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10610",
+        "original": "I should ask my guardian [Guardian.GetTitledFirstName] about it.",
+        "translation": "我应该问问我的监护人[Guardian.GetTitledFirstName]这件事。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10611",
+        "original": "My ward, [From.GetTitledFirstName], is asking me about [From.GetHerHis] father's past as a mercenary.",
+        "translation": "我的受监护人，[From.GetTitledFirstName]，向我询问[From.GetHerHis]父亲作为佣兵的往事。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10611",
+        "original": "Ah, do I have stories for [From.GetHerHim]...",
+        "translation": "噢，我确实有听说[From.GetHerHim]的一些事……",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_HL_10611",
+        "original": "[From.GetSheHeCap] is better off not knowing.",
+        "translation": "[From.GetSheHeCap]最好不要知道这些。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10612",
+        "original": "My [GetFromRelation] [From.GetFirstName] is asking me about my past as a mercenary.",
+        "translation": "我的[GetFromRelation][From.GetFirstName]正在问我一些过去作为佣兵的事迹。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10613",
+        "original": "[From.GetTitledFirstName] stayed up late into the night, and [From.GetSheHe] told me many stories of my father's past adventures.",
+        "translation": "[From.GetTitledFirstName]熬到了深夜，[From.GetSheHe]向我讲述许多我父亲过去的冒险故事。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10613",
+        "original": "Fascinating!",
+        "translation": "令人着迷！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10614",
+        "original": "[From.GetFirstName] refused to tell me anything.",
+        "translation": "[From.GetFirstName]拒绝告诉我任何事情。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10614",
+        "original": "But why?",
+        "translation": "为什么会这样呢？",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10515",
+        "original": "Apparently there was a fight between your son and the mercenary [From.GetDynName]. As luck would have it, no one came to harm.",
+        "translation": "显然你的儿子和佣兵[From.GetDynName]之间产生了争斗。所幸无人伤亡。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10515",
+        "original": "I am glad it ended well.",
+        "translation": "我非常高兴这件事情圆满结束。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10516",
+        "original": "Apparently your son was in a violent fight with his employer's son. It seems that no one came to harm, however.",
+        "translation": "显然你的儿子和他雇主的儿子产生了争斗。不过，无人伤亡。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10516",
+        "original": "I am not pleased.",
+        "translation": "我不是很满意。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10517",
+        "original": "Apparently there was a fight between your son and the mercenary [From.GetDynName]. Your son was wounded.",
+        "translation": "显然你的儿子和佣兵[From.GetDynName]之间产生了争斗。你的儿子受伤了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10517",
+        "original": "Woe!",
+        "translation": "喔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10518",
+        "original": "Apparently your son [From.GetFirstName] was in a violent fight with his employer's son, who was lightly injured.",
+        "translation": "显然你的儿子[From.GetFirstName]和他雇主的儿子产生了争斗，雇主的儿子受伤了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10518",
+        "original": "Better luck next time!",
+        "translation": "希望他下次运气好一点！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10519",
+        "original": "Apparently there was a fight between your son and the mercenary [From.GetDynName]. Your son was maimed in the fight.",
+        "translation": "显然你的儿子和佣兵[From.GetDynName]之间产生了争斗。你的儿子在这次争斗中残废了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10520",
+        "original": "Apparently your son [From.GetFirstName] was in a violent fight with his employer's son, who was maimed.",
+        "translation": "显然你的儿子[From.GetFirstName]和他雇主的儿子产生了争斗，雇主的儿子残废了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10520",
+        "original": "That's my boy!",
+        "translation": "果然虎父无犬子！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10521",
+        "original": "New reach you that your son has been killed in a fight with the mercenary [From.GetDynName].",
+        "translation": "你收到了消息，你的儿子在和雇佣兵[From.GetDynName]争斗时丧生了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10521",
+        "original": "I will have my revenge, I swear it!",
+        "translation": "我发誓，我一定要复仇！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10522",
+        "original": "Apparently your son [From.GetFirstName] was in a violent fight with his employer's son, who was killed.",
+        "translation": "很明显你的儿子[From.GetFirstName]和他雇主的儿子发生了十分严重的争斗，雇主的儿子在争斗中身亡了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10530",
+        "original": "That mercenary band that you hired a while back seems to still be in the region.... maybe you should invite the commander to a small feast?",
+        "translation": "之前你雇佣的佣兵团现在依然驻扎在你的领地内……或许你应该邀请指挥官小酌一杯？",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10530",
+        "original": "Yes, I think I will!",
+        "translation": "好主意！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_HL_10530",
+        "original": "No, mercenaries are best kept at a proper distance.",
+        "translation": "还是别了，佣兵还是离我远一点好。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10532",
+        "original": "[From.GetDynName] came to feast with you and you found that you have much in common.",
+        "translation": "[From.GetDynName]前来参加了你的宴会，你发现你们二人居然有如此多的共同之处。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10532",
+        "original": "A new friend, maybe I should give [From.GetHerHim] some land...",
+        "translation": "一位新朋友，或许我应该赐予[From.GetHerHim]一点土地……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_10533",
+        "original": "[From.GetTitledName] refused to come and feast with you.",
+        "translation": "[From.GetTitledName]拒绝来参加你的宴会。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_10533",
+        "original": "Who does [From.GetSheHe] think [From.GetSheHe] is?",
+        "translation": "[From.GetSheHe]以为[From.GetSheHe]是谁啊？",
+        "stage": 5
+    },
+    {
+        "key": "MUST_NOT_BE_EMPLOYED_MERCENARY",
+        "original": "Must not currently be employed",
+        "translation": "目前必须不受雇佣",
+        "stage": 5
+    },
+    {
+        "key": "IS_NOT_OVER_TRADEPOST_LIMIT",
+        "original": "Is not over Trade Post Limit (§Y$TRADE_POSTS$§!/§Y$MAX_TRADE_POSTS$§!)",
+        "translation": "没有超过贸易站上限（§Y$TRADE_POSTS$§!/§Y$MAX_TRADE_POSTS$§!）",
+        "stage": 5
+    },
+    {
+        "key": "CALL_ALL_NOT_INDEPENDENT",
+        "original": "Cannot Call Tribal or Nomadic Vassals since you are not an independent ruler.",
+        "translation": "由于你不是一个独立领主，你无法召唤部落或游牧封臣。",
+        "stage": 5
+    },
+    {
+        "key": "tribal_contract",
+        "original": "Tribal Levies",
+        "translation": "部落征召",
+        "stage": 5
+    },
+    {
+        "key": "tribal_contract_desc",
+        "original": "Tribal Levy Laws control the obligations of tribes to provide troops for their liege.",
+        "translation": "部落征召法律控制着部落为领主提供军队的义务。",
+        "stage": 5
+    },
+    {
+        "key": "tribal_contract_0",
+        "original": "Minimal Tribal Levies",
+        "translation": "最小部落征召",
+        "stage": 5
+    },
+    {
+        "key": "tribal_contract_0_desc",
+        "original": "The Tribes are expected to provide a small amount of troops for the defense of the realm.",
+        "translation": "部落领主只需要提供少量的士兵来守卫领地。",
+        "stage": 5
+    },
+    {
+        "key": "tribal_contract_1",
+        "original": "Normal Tribal Levies",
+        "translation": "正常部落征召",
+        "stage": 5
+    },
+    {
+        "key": "tribal_contract_1_desc",
+        "original": "The Tribes are expected to provide a moderate amount of troops for the defense of the realm.",
+        "translation": "部落领主需要提供适量的士兵来守卫领地。",
+        "stage": 5
+    },
+    {
+        "key": "tribal_contract_2",
+        "original": "Large Tribal Levies",
+        "translation": "大量部落征召",
+        "stage": 5
+    },
+    {
+        "key": "tribal_contract_2_desc",
+        "original": "The Tribes are expected to provide a substantial amount of troops for the defense of the realm.",
+        "translation": "部落领主需要提供大量的士兵来守卫领地。",
+        "stage": 5
+    },
+    {
+        "key": "tribal_contract_3",
+        "original": "Maximum Tribal Levies",
+        "translation": "最大部落征召",
+        "stage": 5
+    },
+    {
+        "key": "tribal_contract_3_desc",
+        "original": "The Tribes are expected to provide a large amount of troops for the defense of the realm.",
+        "translation": "部落领主需要提供尽可能多的士兵来守卫领地。",
+        "stage": 5
+    },
+    {
+        "key": "tribal_tax",
+        "original": "Tribal Taxation",
+        "translation": "部落税",
+        "stage": 5
+    },
+    {
+        "key": "tribal_tax_desc",
+        "original": "Tribes do not generate much gold, but their taxation can be adjusted by laws.",
+        "translation": "部落产生不了太多金钱，但是他们的税率可以通过法律来调节。",
+        "stage": 5
+    },
+    {
+        "key": "tribal_tax_0",
+        "original": "No Tribal Tax",
+        "translation": "无部落税",
+        "stage": 5
+    },
+    {
+        "key": "tribal_tax_0_desc",
+        "original": "Tribes are exempt from taxes.",
+        "translation": "部落领主免税。",
+        "stage": 5
+    },
+    {
+        "key": "tribal_tax_1",
+        "original": "Minimal Tribal Tax",
+        "translation": "最小部落税",
+        "stage": 5
+    },
+    {
+        "key": "tribal_tax_1_desc",
+        "original": "Tribes are expected to make a small financial contribution to the greater good of the realm.",
+        "translation": "为了领地的福祉，部落领主需要上交少量税金。",
+        "stage": 5
+    },
+    {
+        "key": "tribal_tax_2",
+        "original": "Medium Tribal Tax",
+        "translation": "中等部落税",
+        "stage": 5
+    },
+    {
+        "key": "tribal_tax_2_desc",
+        "original": "Tribes are expected to make a moderate financial contribution to the greater good of the realm.",
+        "translation": "为了领地的福祉，部落领主需要上交适量税金。",
+        "stage": 5
+    },
+    {
+        "key": "tribal_tax_3",
+        "original": "Large Tribal Tax",
+        "translation": "大量部落税",
+        "stage": 5
+    },
+    {
+        "key": "tribal_tax_3_desc",
+        "original": "Tribes are expected to make a substantial financial contribution to the greater good of the realm.",
+        "translation": "为了领地的福祉，部落领主需要上交大量税金。",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_CANNOT_BUY_RET_ROOM",
+        "original": "\\nYou cannot create this Horde, your §YMaximum Manpower§! size has been reached.",
+        "translation": "\\n你不能创建这个游牧军，你已经达到了§Y最大人力§!.。",
+        "stage": 5
+    },
+    {
+        "key": "CANNOT_BUY_RET_CURRENT_MANPOWER",
+        "original": "\\nYou cannot create this retinue, you do not have enough §YManpower§!.",
+        "translation": "\\n你不能创建这个近卫军，你没有足够的§Y人力§!。",
+        "stage": 5
+    },
+    {
+        "key": "INTERACTION_REQUIRES_COMMANDER",
+        "original": "§Y[Actor.GetTitledFirstName]§! must have an available commander slot that §Y[Recipient.GetTitledFirstName]§! can hold",
+        "translation": "§Y[Actor.GetTitledFirstName]§!必须还有能授予给§Y[Recipient.GetTitledFirstName]§!的空缺指挥官席位。",
+        "stage": 5
+    },
+    {
+        "key": "CLAN_FALLS_SETUP",
+        "original": "Clan Falls",
+        "translation": "部族覆灭",
+        "stage": 5
+    },
+    {
+        "key": "CLAN_FALLS_LOG",
+        "original": "With the death of §Y$CLAN$§!, the mighty clan §Y$DYNASTY$§! has become extinct.",
+        "translation": "随着§Y$CLAN$§!的死亡，强大的§Y$DYNASTY$§!部族最终走向了灭亡。",
+        "stage": 5
+    },
+    {
+        "key": "CLAN_RISES_SETUP",
+        "original": "Clan Rises",
+        "translation": "部族崛起",
+        "stage": 5
+    },
+    {
+        "key": "CLAN_RISES_LOG",
+        "original": "A new clan has risen in $TITLE_ADJ$, under §Y$CLAN$§!.",
+        "translation": "一个新的部族在$TITLE_ADJ$，§Y$CLAN$§!之下崛起。",
+        "stage": 5
+    },
+    {
+        "key": "opinion_spared_at_blot",
+        "original": "Spared at Blot",
+        "translation": "饶恕劣迹",
+        "stage": 5
+    },
+    {
+        "key": "nomad",
+        "original": "Nomad",
+        "translation": "游牧",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_91377",
+        "original": "My husband, [From.GetName], has in a sudden fit of religious piety gone off to join the [From.Liege.PrimaryTitle.GetName]. This effectively annuls our marriage...",
+        "translation": "我的丈夫，[From.GetName]，出于突如其来的宗教感召而加入了[From.Liege.PrimaryTitle.GetName]。这一行为宣告我们之间的婚姻无效……",
+        "stage": 5
+    },
+    {
+        "key": "GOOD_RIDDANCE",
+        "original": "Good riddance!",
+        "translation": "谢天谢地！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_SoA_2862",
+        "original": "My husband, [FromFromFrom.GetName], has gone off to join the [FromFromFrom.Liege.PrimaryTitle.GetName]. This effectively annuls our marriage...",
+        "translation": "我的丈夫，[FromFromFrom.GetName]，选择离开我去加入[FromFromFrom.Liege.PrimaryTitle.GetName]。这一行为宣告我们之间的婚姻无效……",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_SoA_2863",
+        "original": "My husband, [From.GetName], has gone off to join the [From.Liege.PrimaryTitle.GetName]. This effectively annuls our marriage...",
+        "translation": "我的丈夫，[From.GetName]，选择离开我去加入[From.Liege.PrimaryTitle.GetName]。这一行为宣告我们之间的婚姻无效……",
+        "stage": 5
+    },
+    {
+        "key": "LOOTING_ADVENTURER",
+        "original": "Is an adventurer.",
+        "translation": "是一位冒险者。",
+        "stage": 5
+    },
+    {
+        "key": "LOOTING_ADVENTURER_DESC",
+        "original": "Any gold this unit loots will be added to its owner's treasury directly, since it is a raiding adventurer.",
+        "translation": "由于这是一位劫掠冒险者，任何这支队伍掠夺到的金子都会直接送到其主人的财库中。",
+        "stage": 5
+    },
+    {
+        "key": "INTERACTION_GOVERNMENT_MUST_MARRY_REGULARLY",
+        "original": "$GOVERNMENT$ characters cannot marry Matrilineally",
+        "translation": "$GOVERNMENT$角色不能进行入赘婚姻",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_RETINUE_OF",
+        "original": "Horde of $CHARACTER$",
+        "translation": "$CHARACTER$的游牧军",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_RETINUES_NOT_REINFORCING",
+        "original": "§YHorde is set to not reinforce.§!",
+        "translation": "§Y游牧军现在不增援§!",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_RETINUES_HALF_REINFORCING",
+        "original": "§YHorde is set to reinforce at half speed.§!",
+        "translation": "§Y游牧军现在以半速增援。§!",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_RETINUES_FULL_REINFORCING",
+        "original": "§YHorde is set to reinforce at maximum speed.§!",
+        "translation": "§Y游牧军现在以全速增援§!",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_RETINUES_NOT_REINFORCING_BUTTON",
+        "original": "§YSet Horde to not reinforce.§!",
+        "translation": "§Y设置游牧军不进行增援。§!",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_RETINUES_HALF_REINFORCNIG_BUTTON",
+        "original": "§YSet Horde to reinforce at half speed.§!",
+        "translation": "§Y设置游牧军以半速增援§!",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_RETINUES_FULL_REINFORCING_BUTTON",
+        "original": "§YSet Horde to reinforce at maximum speed.§!",
+        "translation": "§Y设置游牧军以全速增援。§!",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_MIL_RETINUES",
+        "original": "Horde",
+        "translation": "游牧军",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_BUY_RETINUE",
+        "original": "Create a §Y$NAME$§! horde, this will start out almost empty but reinforce up to the specified size.",
+        "translation": "创建一支§Y$NAME$§!游牧军，这支部队初始为空但会逐渐增援到一定规模。",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_RETINUE_UPKEEP",
+        "original": "Horde Upkeep",
+        "translation": "游牧军维护费",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_CONFIRM_DISBAND_NO_RET",
+        "original": "\\nNo Horde will be disbanded.",
+        "translation": "\\n没有游牧军会被解散。",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_CONFIRM_DISBAND_RET",
+        "original": "\\n§RAll Horde troops will be disbanded!§!",
+        "translation": "\\n§R所有游牧军部队都将会解散！§!",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_CANNOT_BUY_RET_WEALTH",
+        "original": "\\nYou cannot create this Horde, you cannot afford it.",
+        "translation": "\\n你不能创建这支游牧军，你无法负担其费用。",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_CREATE_RETINUE_EFFECT",
+        "original": "$WHO$ gets a §Y$RETINUE$§! Horde",
+        "translation": "$WHO$得到了一支§Y$RETINUE$§!游牧军",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_CAN_BUY_RETINUE_TRIGGER_NOT",
+        "original": "$WHO$ does not have at least §Y$NEED$§! unused manpower",
+        "translation": "$WHO$没有至少 §Y$NEED$§! 的未使用人力",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_CAN_BUY_RETINUE_TRIGGER",
+        "original": "$WHO$ has at least §Y$NEED$§! unused manpower",
+        "translation": "$WHO$有至少 §Y$NEED$§! 的未使用人力",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_RETINUE_EXPL",
+        "original": "§YHorde§!\\nThese numbers are the current size of your Horde and the maintenance you pay for it.",
+        "translation": "§Y游牧军§!\\n这些数字是你现有的游牧军的规模以及为了维持它需要的花费。",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_RETINUE_EXPL_DEL",
+        "original": "Your Horde is your personal professional and standing army ready to do as you order at all times. Your Horde is always on the map and reinforce slowly. The maximum number of Horde regiments you can field depends on your §YMaximum Manpower§!, which is determined by your §YMaximum Population§!.",
+        "translation": "你的游牧军是你的私人专业且常设部队，随时整装待发接受你的命令。游牧军会一直出现在地图上，并会缓慢增援。你能够部署的最大游牧军团数量取决于你的§Y最大人力§!，这个值由你的§Y最大人口数§!决定。",
+        "stage": 5
+    },
+    {
+        "key": "RETINUE_EXPL_DEL",
+        "original": "Your Retinue is your personal professional and standing army ready to do as you order at all times. Unlike Army Levies, retinues are always on the map and reinforce slowly. The maximum number of retinue regiments you can field depends on your §YMilitary Organization§! technology and the size of all the levies in your realm.",
+        "translation": "你的近卫军是一支随时待命并仅服从于你命令的专业部队。不同于征召兵，近卫军将持续出现在地图上并缓慢补充兵力。近卫军军团的最大数目取决于你的§Y军事组织§!科技以及你领地内征召兵的总兵力。",
+        "stage": 5
+    },
+    {
+        "key": "HORDE_SPLIT_RETINUES_OPTION",
+        "original": "Split off Horde",
+        "translation": "分离游牧军",
+        "stage": 5
+    },
+    {
+        "key": "nomadic_king",
+        "original": "Khan",
+        "translation": "汗王",
+        "stage": 5
+    },
+    {
+        "key": "nomadic_emperor",
+        "original": "Khagan",
+        "translation": "可汗",
+        "stage": 5
+    },
+    {
+        "key": "nomadic_empire",
+        "original": "Khaganate",
+        "translation": "可汗国",
+        "stage": 5
+    },
+    {
+        "key": "nomadic_empire_of",
+        "original": "Khaganate of",
+        "translation": "可汗国",
+        "stage": 5
+    },
+    {
+        "key": "nomadic_kingdom",
+        "original": "Khanate",
+        "translation": "汗国",
+        "stage": 5
+    },
+    {
+        "key": "nomadic_kingdom_of",
+        "original": "Khanate of",
+        "translation": "汗国",
+        "stage": 5
+    },
+    {
+        "key": "REMOVE_TRIBUTARY_EFFECT",
+        "original": "§Y$TRIBUTARY$§! stops being a tributary of §Y$OVERLORD$§!.",
+        "translation": "§Y$TRIBUTARY$§!不再是§Y$OVERLORD$§!的朝贡国。",
+        "stage": 5
+    },
+    {
+        "key": "WAR_NAME_TRIBUTARY",
+        "original": "$ORDER$$FIRST_ADJ$ War to Make $DEFENDER$ Pay Tribute",
+        "translation": "$ORDER$$FIRST_ADJ$强迫$DEFENDER$朝贡的战争",
+        "stage": 5
+    },
+    {
+        "key": "CB_NAME_FREE_TRIBUTARY",
+        "original": "Free Tributary",
+        "translation": "脱离朝贡",
+        "stage": 5
+    },
+    {
+        "key": "CLAN_SATISFACTION_REASON",
+        "original": "$CLAN$ holds only §R$EMPTY_HOLDINGS$§! empty holdings compared to liege's §Y$LIEGE_EMPTY_HOLDINGS$§!.",
+        "translation": "$CLAN$仅持有 §R$EMPTY_HOLDINGS$§! 空地产，相比起领主的 §Y$LIEGE_EMPTY_HOLDINGS$§!。",
+        "stage": 5
+    },
+    {
+        "key": "EMPTY_HOLDINGS_LIEGE_CAPITAL",
+        "original": "Empty holdings in nomad capital are not included when calculating clan satisfaction.",
+        "translation": "游牧首都内的空地产在计算部族满意度时将不被包括在内。",
+        "stage": 5
+    },
+    {
+        "key": "EMPTY_HOLDINGS_BY_CLAN",
+        "original": "§YEmpty Holdings by Clan§!:",
+        "translation": "§Y空地产由部族§!：",
+        "stage": 5
+    },
+    {
+        "key": "TITLE_NOT_NOMAD",
+        "original": "Title is not a Clan title",
+        "translation": "不是一个部族头衔",
+        "stage": 5
+    },
+    {
+        "key": "CLAN_NAME",
+        "original": "$DYNASTY$ Clan",
+        "translation": "$DYNASTY$部族",
+        "stage": 5
+    },
+    {
+        "key": "INTERACTION_TITLE_NOT_NOMAD",
+        "original": "Title cannot be a clan title",
+        "translation": "不能是一个部族头衔",
+        "stage": 5
+    },
+    {
+        "key": "WAR_NAME_FREE_TRIBUTARY",
+        "original": "$ORDER$$FIRST_ADJ$ War to Free $ATTACKER$ from Suzerain",
+        "translation": "$ORDER$$FIRST_ADJ$从宗主国下解放$ATTACKER$的战争",
+        "stage": 5
+    },
+    {
+        "key": "REMOVE_PREVIOUS_SUZERAIN",
+        "original": "Remove any previous suzerain of §Y[This.GetTitledFirstName]§!\\n",
+        "translation": "移除§Y[This.GetTitledFirstName]§!之前的任何宗主国\\n",
+        "stage": 5
+    },
+    {
+        "key": "DISTANCE_FROM_REALM_LESS_THAN",
+        "original": "Distance from realm less than ",
+        "translation": "距离领地不到",
+        "stage": 5
+    },
+    {
+        "key": "DISTANCE_FROM_REALM_AT_LEAST",
+        "original": "Distance from realm at least ",
+        "translation": "距离领地至少",
+        "stage": 5
+    },
+    {
+        "key": "MAX_POPULATION_FORMULA",
+        "original": "Maximum Population Formula",
+        "translation": "最大人口公式",
+        "stage": 5
+    },
+    {
+        "key": "MAX_MANPOWER_FORMULA",
+        "original": "Maximum Manpower Formula",
+        "translation": "最大人力公式",
+        "stage": 5
+    },
+    {
+        "key": "EMPTY_HOLDINGS",
+        "original": "Empty Holdings",
+        "translation": "空地产",
+        "stage": 5
+    },
+    {
+        "key": "alert_decadence_instant",
+        "original": "§YDecadent Relatives§!",
+        "translation": "§Y腐化的亲戚§!",
+        "stage": 5
+    },
+    {
+        "key": "alert_decadence_delayed",
+        "original": "You have decadent relatives. You should ask them to straighten up or in other ways take care of them.",
+        "translation": "你有腐化的亲戚。你应该要求他们改正或者以其他方式处理他们。",
+        "stage": 5
+    },
+    {
+        "key": "HIGH_DECADENCE",
+        "original": "Your dynasty is seen as hopelessly decadent. There is a risk of a massive revolt.",
+        "translation": "你的家族被认为完全腐化了。有大规模叛乱的风险。",
+        "stage": 5
+    },
+    {
+        "key": "LOW_CLAN_SATISFACTION",
+        "original": "The Clans in your realm are deeply dissatisfied with the current distribution of land. There is a risk of a Clan revolt.",
+        "translation": "你领地的部族对当前的土地分配并不感到满意。有部族大规模反叛的风险。",
+        "stage": 5
+    },
+    {
+        "key": "silk_road",
+        "original": "Silk Road",
+        "translation": "丝绸之路",
+        "stage": 5
+    },
+    {
+        "key": "IS_ON_TRADE_ROUTE",
+        "original": "Province is located on a major trade route",
+        "translation": "省份位于一条主要贸易线路上",
+        "stage": 5
+    },
+    {
+        "key": "IS_PROVINCE_OWNER",
+        "original": "Directly Owns Province",
+        "translation": "直属省份",
+        "stage": 5
+    },
+    {
+        "key": "MODIFIER_TRADE_ROUTE_VALUE",
+        "original": "Trade Route Income",
+        "translation": "贸易线路收入",
+        "stage": 5
+    },
+    {
+        "key": "CB_NAME_CLAN_REVOLT",
+        "original": "Clan Revolt for [Title.GetBaseName]",
+        "translation": "[Title.GetBaseName]部族叛乱",
+        "stage": 5
+    },
+    {
+        "key": "WAR_NAME_CLAN_REVOLT",
+        "original": "$ORDER$$ATTACKER$ Clan Revolt for $OTHER_TITLE$",
+        "translation": "$ORDER$$ATTACKER$$OTHER_TITLE$部族叛乱",
+        "stage": 5
+    },
+    {
+        "key": "clan_revolt_desc",
+        "original": "Clan revolts can rise up if the clan satisfaction is too low, and will try to better distribute the lands in a nomadic realm.",
+        "translation": "部族满意度过低时，部族叛乱就会出现，将尽力在游牧领地内更好地重新分配土地。",
+        "stage": 5
+    },
+    {
+        "key": "CLAN_REVOLT",
+        "original": "[Root.County.GetAdjective] Clan Revolt",
+        "translation": "[Root.County.GetAdjective]部族叛乱",
+        "stage": 5
+    },
+    {
+        "key": "MODIFIER_TRADE_ROUTE_WEALTH",
+        "original": "Trade Route Wealth",
+        "translation": "贸易线路财富",
+        "stage": 5
+    },
+    {
+        "key": "tr_silk_road_1",
+        "original": "Silk Road Trade Post",
+        "translation": "丝路贸易站",
+        "stage": 5
+    },
+    {
+        "key": "tr_silk_road_1_desc",
+        "original": "This is a small but vibrant trading post on the Silk Road.",
+        "translation": "这是丝绸之路上的一个规模虽小但充满生机的贸易站。",
+        "stage": 5
+    },
+    {
+        "key": "tr_silk_road_2",
+        "original": "Silk Road Market",
+        "translation": "丝路集市",
+        "stage": 5
+    },
+    {
+        "key": "tr_silk_road_2_desc",
+        "original": "This Silk Road trading post has grown into a large town, offering more protection against raiders and brigands and thus attracting more merchants who prefer to stay here and trade.",
+        "translation": "这个丝绸之路贸易站已经发展成为一个大城镇，能够提供更多应对土匪强盗的保护，因此吸引了更多愿意留在这里贸易的商人。",
+        "stage": 5
+    },
+    {
+        "key": "tr_silk_road_3",
+        "original": "Major Silk Road City",
+        "translation": "丝路主城",
+        "stage": 5
+    },
+    {
+        "key": "tr_silk_road_3_desc",
+        "original": "This is a major trading hub on the Silk Road, where merchants come from all directions to trade their wares. All goods and services known to civilized man can be found here, and a myriad of languages echo through the many streets and alleys.",
+        "translation": "这是丝绸之路上主要的贸易中心，在这里，来自四面八方的商人们交易着他们的货物。一切你能喊得出名字的商品和服务都可以在这里找到，形形色色的语言回荡在大街小巷间。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_210",
+        "original": "Another clan has risen up in [From.GetName], reinforcing the ongoing revolt!",
+        "translation": "另一个部族在[From.GetName]反叛了，他们加入了当前的叛乱！",
+        "stage": 5
+    },
+    {
+        "key": "TRIBUTARY",
+        "original": "Tributary",
+        "translation": "朝贡国",
+        "stage": 5
+    },
+    {
+        "key": "UNUSED_MANPOWER",
+        "original": "Unused Manpower",
+        "translation": "未使用人力",
+        "stage": 5
+    },
+    {
+        "key": "RAISED_MANPOWER",
+        "original": "Raised Manpower",
+        "translation": "使用人力",
+        "stage": 5
+    },
+    {
+        "key": "MAXIMUM_MANPOWER",
+        "original": "Maximum Manpower",
+        "translation": "最大人力",
+        "stage": 5
+    },
+    {
+        "key": "MONTHLY_MANPOWER_GROWTH",
+        "original": "Monthly Manpower Growth",
+        "translation": "月度人力增长",
+        "stage": 5
+    },
+    {
+        "key": "MONTHLY_MANPOWER_DECLINE",
+        "original": "Monthly Manpower Decline",
+        "translation": "月度人力减少",
+        "stage": 5
+    },
+    {
+        "key": "TAXABLE",
+        "original": "Taxable",
+        "translation": "可征税",
+        "stage": 5
+    },
+    {
+        "key": "ERA_CHAR_INFO_30809",
+        "original": "Isabelle was born in 1212 in southern Italy as the only child of Maria de Montferrat, Queen of Jerusalem. Her mother died shortly after giving birth, and the newborn Isabelle was proclaimed Queen with her father Jean de Brienne acting as her regent. At the age of 13, Isabelle was wed to the Holy Roman Emperor Friedrich II, effectively being used as a pawn to encourage the Emperor to participate in the Fifth Crusade. The wedding saw the Emperor crowned King of Jerusalem and Isabelle’s father stripped of all his powers. Isabelle herself was kept in seclusion by her husband. She lost a baby daughter before herself dying while giving birth to her son Conrad in 1228. Shortly after her death, Friedrich finally embarked on the promised crusade.",
+        "translation": "伊莎贝拉，作为耶路撒冷女王蒙费拉的玛丽的独生女，于1212年出生于意大利南部。她的母亲在生产后不久便去世了，刚出生没多久的伊莎贝拉加冕为女王，由她的父亲约翰·德·布里昂摄政。在13岁时，伊莎贝拉嫁给了神圣罗马帝国皇帝腓特烈二世，作为有效促使皇帝参加第五次十字军远征的抵押。这次婚礼见证了腓特烈二世加冕成为耶路撒冷国王，而她的父亲被剥夺了所有权力。伊莎贝拉此后被丈夫软禁。她生前失去了一个女婴，但在1228年生下儿子康拉德。在她离世不久后，腓特烈终于发起了允诺的十字军。",
+        "stage": 5
+    },
+    {
+        "key": "ERA_CHAR_INFO_93052",
+        "original": "Inheriting the Khwarezmian Empire after the death of his father, Mohammed was immediately faced with an invasion by the Ghurids. Several chaotic years of intermittent war between the Khwarezmids, Ghurids and the Kara-Khitans ensued. Mohammed was at one point taken prisoner and held captive in the Kara-Khitan Khanate for a year, but changing fortunes would see him come out on top against his enemies, and he eventually managed to conquer Samarkand, Balochistan and Afghanistan and declare himself Shah. His reign came to an end sooner than expected, however, as Genghis Khan and the Mongols entered the scene in 1218. Within two short years, the Mongols had overrun his domain and he died a fugitive on a small island in the Caspian Sea in 1220.",
+        "translation": "在父亲去世后继承了花剌子模帝国后，摩诃末马上便遭遇了古尔王朝的入侵。接踵而至的是花剌子模与古尔王朝以及喀喇契丹的数年三方混战。摩诃末一度沦为阶下囚并被喀喇契丹汗国囚禁了一年，但是捉摸不透的命运将会引领他在面对他的敌人时再次重新占上风，最终他设法征服了撒玛尔罕，俾路支斯坦和阿富汗并自称为沙阿。然而，随着成吉思汗和蒙古1218年登上历史舞台，他的统治结束得比预想中的要早。只用了短短的两年，蒙古人践踏了他的土地，而他作为一个逃亡者于1220年在里海的一个小岛上去世。",
+        "stage": 5
+    },
+    {
+        "key": "ERA_CHAR_INFO_170193",
+        "original": "Mystery surrounds Iltutmish’s early years, though it is said he was named for an eclipse that occurred during his birth. He was sold into slavery at an early age, and eventually ended up being bought by Aibak, the ruler of Lahore. Aibak valued his new servant highly and kept giving Iltutmish increasing responsibilities and corresponding honors, eventually marrying him to his own daughter. When Aibak died in 1210, Iltutmish enjoyed strong support as he claimed the throne. Years of turmoil ensued as he fought off contenders and then strengthened his position. He subsequently managed to avoid open conflict with the Mongols, founding the Delhi Sultanate that was to last into the 16th century.",
+        "translation": "伊勒杜迷失苏丹的早年生活充斥着各种谜团，据传言他的名字源于他出生时的日蚀。幼年时，他被卖给奴隶贩子，最终被拉合尔的统治者艾伊拜克买下。艾伊拜克很赏识他的这位新仆人，给予伊勒杜迷失越来越高的职权与相应的荣耀，甚至将自己的亲女儿许配给他。当艾伊拜克于1210年去世后，伊勒杜迷失在宣称王位时得到了强力的拥护。在伊勒杜迷失与其他王位竞争者的斗争持续的数年时间，国家陷入混乱，直到其最终稳固了自己的地位。他接下来设法避免了与蒙古人的正面冲突，建立了持续到16世纪的德里苏丹国。",
+        "stage": 5
+    },
+    {
+        "key": "ERA_CHAR_INFO_125501",
+        "original": "Temujin was born in Mongolia, the son of the leader of the Borjigin clan. He was only a child when his father died, and he and his mother were ostracized from the clan due to his young age and competing pretenders. Once he reached maturity, however, Temujin began to forge his own destiny. Over several decades, he increased his reputation and prestige among his people, and eventually led them in the successful conquest of all Mongolia. After this, he went on to conquer northern China, all of Central Asia and parts of Persia and the western steppes. He became recognized as one of the greatest conquerors in the history of humanity, and the Mongols would continue expanding on these conquests after his death.",
+        "translation": "铁木真出生于蒙古，是孛儿只斤氏首领的儿子。他是他父亲去世时唯一的孩子，而他与他的母亲由于铁木真年纪尚轻而被竞争者放逐出部族。然而他一成年，铁木真便开始一手开创他自己的命运。在几十年间，铁木真在他的民众不断提升自己的名声和威望，最终带领着他们征服了整个蒙古。在此之后，他一举征服了中国北部，整个中亚，部分波斯和西部大草原。他被认为是人类历史上最伟大的一位征服者，蒙古人在他去世后也继续在这征服的基础上进行扩张。",
+        "stage": 5
+    },
+    {
+        "key": "HAS_LOWER_CLAN_SATISFACTION_THAN",
+        "original": "Have lower Clan Satisfaction than ",
+        "translation": "部族满意度低于",
+        "stage": 5
+    },
+    {
+        "key": "HAS_HIGHER_CLAN_SATISFACTION_THAN",
+        "original": "Have higher Clan Satisfaction than ",
+        "translation": "部族满意度高于",
+        "stage": 5
+    },
+    {
+        "key": "HAS_LOWER_MANPOWER_THAN",
+        "original": "Have lower Manpower than ",
+        "translation": "人力少于",
+        "stage": 5
+    },
+    {
+        "key": "HAS_HIGHER_MANPOWER_THAN",
+        "original": "Have higher Manpower than ",
+        "translation": "人力多于",
+        "stage": 5
+    },
+    {
+        "key": "HAS_LOWER_MAX_MANPOWER_THAN",
+        "original": "Have lower Max Manpower than ",
+        "translation": "最大人力少于",
+        "stage": 5
+    },
+    {
+        "key": "HAS_HIGHER_MAX_MANPOWER_THAN",
+        "original": "Have higher Max Manpower than ",
+        "translation": "最大人力多于",
+        "stage": 5
+    },
+    {
+        "key": "HAS_LOWER_MANPOWER_GROWTH_THAN",
+        "original": "Have lower Manpower Growth than ",
+        "translation": "人力增长低于",
+        "stage": 5
+    },
+    {
+        "key": "HAS_HIGHER_MANPOWER_GROWTH_THAN",
+        "original": "Have higher Manpower Growth than ",
+        "translation": "人力增长高于",
+        "stage": 5
+    },
+    {
+        "key": "HAS_LOWER_POPULATION_THAN",
+        "original": "Have lower Population than ",
+        "translation": "人口少于",
+        "stage": 5
+    },
+    {
+        "key": "HAS_HIGHER_POPULATION_THAN",
+        "original": "Have higher Population than ",
+        "translation": "人口多于",
+        "stage": 5
+    },
+    {
+        "key": "HAS_LOWER_MAX_POPULATION_THAN",
+        "original": "Have lower Max Population than ",
+        "translation": "最大人口少于",
+        "stage": 5
+    },
+    {
+        "key": "HAS_HIGHER_MAX_POPULATION_THAN",
+        "original": "Have higher Max Population than ",
+        "translation": "最大人口多于",
+        "stage": 5
+    },
+    {
+        "key": "HAS_LOWER_POPULATION_GROWTH_THAN",
+        "original": "Have lower Population Growth than ",
+        "translation": "人口增长低于",
+        "stage": 5
+    },
+    {
+        "key": "HAS_HIGHER_POPULATION_GROWTH_THAN",
+        "original": "Have higher Population Growth than ",
+        "translation": "人口增长高于",
+        "stage": 5
+    },
+    {
+        "key": "khalka",
+        "original": "Khalka",
+        "translation": "喀尔喀人",
+        "stage": 5
+    },
+    {
+        "key": "buryat",
+        "original": "Buryat",
+        "translation": "不里牙惕人",
+        "stage": 5
+    },
+    {
+        "key": "naiman",
+        "original": "Naiman",
+        "translation": "乃蛮人",
+        "stage": 5
+    },
+    {
+        "key": "oirat",
+        "original": "Oirat",
+        "translation": "斡亦剌惕人",
+        "stage": 5
+    },
+    {
+        "key": "uyghur",
+        "original": "Uyghur",
+        "translation": "回鹘人",
+        "stage": 5
+    },
+    {
+        "key": "basmyl",
+        "original": "Basmyl",
+        "translation": "拔悉密人",
+        "stage": 5
+    },
+    {
+        "key": "yagma",
+        "original": "Yagma",
+        "translation": "样磨人",
+        "stage": 5
+    },
+    {
+        "key": "chigil",
+        "original": "Chigil",
+        "translation": "炽俟",
+        "stage": 5
+    },
+    {
+        "key": "khitan",
+        "original": "Khitan",
+        "translation": "契丹人",
+        "stage": 5
+    },
+    {
+        "key": "sogdian",
+        "original": "Sogdian",
+        "translation": "粟特人",
+        "stage": 5
+    },
+    {
+        "key": "nomad_succession",
+        "original": "Nomad Succession",
+        "translation": "游牧继承法",
+        "stage": 5
+    },
+    {
+        "key": "succ_nomadic",
+        "original": "Nomad Succession",
+        "translation": "游牧继承法",
+        "stage": 5
+    },
+    {
+        "key": "TITLE_NEW_PRIMARY_IS_NOMADIC",
+        "original": "§RNomads cannot set Primary Title!§!",
+        "translation": "§R游牧部落不能设置主头衔！§!",
+        "stage": 5
+    },
+    {
+        "key": "CALL_ALL_TRIBAL_CONTROL",
+        "original": "Cannot Call Tribal or Nomadic Vassals as they give us Liege Levies instead",
+        "translation": "不能动员部落或游牧封臣，他们只向我们提供领主征召兵",
+        "stage": 5
+    },
+    {
+        "key": "CALL_ALL_NOT_TRIBAL",
+        "original": "Cannot Call Tribal or Nomadic Vassals since you are not Tribal",
+        "translation": "不能动员部落封臣，因为你不是部落",
+        "stage": 5
+    },
+    {
+        "key": "CALL_ALL_TRIBAL_VASSALS",
+        "original": "Call all Tribal and Nomadic Vassals to War",
+        "translation": "召唤所有部落封臣加入战争",
+        "stage": 5
+    },
+    {
+        "key": "NOMAD_CANT_BUILD_HOLDINGS_DESC",
+        "original": "Empty Holding slots actually provide more population and manpower for Nomads, which allows bigger armies and more taxes. To build proper Holdings you need to become either a Feudal state or a Republic (check your Decisions.)",
+        "translation": "空地产格其实为游牧民提供更多的人口和人力，也就是更庞大的军队和更多的税收。要建造真正的地产你需要成为一个封建国家或一个共和国（查看你的决议）。",
+        "stage": 5
+    },
+    {
+        "key": "enables_tribal_levy_laws",
+        "original": "Enables Tribal Levy Laws.\\n",
+        "translation": "启用部落征召兵法。\\n",
+        "stage": 5
+    },
+    {
+        "key": "disables_tribal_levy_laws",
+        "original": "Disables Tribal Levy Laws\\n",
+        "translation": "停用部落征召兵法\\n",
+        "stage": 5
+    },
+    {
+        "key": "enables_tribal_tax_laws",
+        "original": "Enables Tribal Tax Laws\\n",
+        "translation": "启用部落征税法\\n",
+        "stage": 5
+    },
+    {
+        "key": "disables_tribal_tax_laws",
+        "original": "Disables Tribal Tax Laws\\n",
+        "translation": "停用部落征税法\\n",
+        "stage": 5
+    },
+    {
+        "key": "CB_NAME_RIVALRY",
+        "original": "Rivalry",
+        "translation": "仇敌",
+        "stage": 5
+    },
+    {
+        "key": "rivalry_cb_desc",
+        "original": "§Y$TARGET$§! is your bitter rival and you can't imagine anything better than throwing the blighter into your dungeons.",
+        "translation": "§Y$TARGET$§!是你的憎恶的仇人，除了把这个坏蛋扔进你的地牢之外，你想不到更好的处置方法了。",
+        "stage": 5
+    },
+    {
+        "key": "WAR_NAME_RIVALRY",
+        "original": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Rivalry War",
+        "translation": "$ORDER$$FIRST_ADJ$ - $SECOND_ADJ$仇敌战争",
+        "stage": 5
+    },
+    {
+        "key": "AIREASON_TRIBUTARY_WAR_AGAINST_TRIBUTARY",
+        "original": "Tributary war against my Tributary",
+        "translation": "针对我朝贡国的朝贡战争",
+        "stage": 5
+    },
+    {
+        "key": "AIREASON_WAR_AGAINST_TRIBUTARY",
+        "original": "War against my Tributary",
+        "translation": "针对我朝贡国的战争",
+        "stage": 5
+    },
+    {
+        "key": "AIREASON_WAR_FROM_TRIBUTARY",
+        "original": "Interests in my Tributary",
+        "translation": "我朝贡国内的利益",
+        "stage": 5
+    },
+    {
+        "key": "AIREASON_ENEMY_IS_TRIBUTARY",
+        "original": "Enemy is my Tributary",
+        "translation": "敌人是我的朝贡国",
+        "stage": 5
+    },
+    {
+        "key": "NOT_USES_DECADENCE",
+        "original": "Does NOT use Decadence",
+        "translation": "不使用腐化",
+        "stage": 5
+    },
+    {
+        "key": "USES_DECADENCE",
+        "original": "Use Decadence",
+        "translation": "使用腐化",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_5000",
+        "original": "A traveller from the east reaches your court along with his personal bodyguard. Reading from a scroll, he states that the Great Emperor of China demands a tribute of a thousand 'heavenly horses' from your lands.",
+        "translation": "一个东方来的旅者带着他的护卫来到了你的宫廷。他读着一个卷轴，告诉我们中国至高无上的皇帝要求我们的土地进贡一千匹「天马」。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_5000",
+        "original": "These are the finest and strongest horses.",
+        "translation": "这些都是最精良强壮的马。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_HL_5000",
+        "original": "Your Emperor has no power here!",
+        "translation": "这是我们的地盘，你们的皇帝在这里没有权力！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_5001",
+        "original": "Another envoy from China arrives at your court. He tells you that he himself is a gift - a token of gratitude from the Emperor - and that he is an excellent governor of trade if you need his services.",
+        "translation": "中国的另一个使节来到了你的朝廷。他告诉你他自己就是中国的礼物——代表中国皇帝的感激，并且说他是一个优秀的财政总管，如果你需要的话他会为你服务。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_5001",
+        "original": "I'll let him govern the trade.",
+        "translation": "我会让他管理贸易。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_HL_5001",
+        "original": "He can muck the stables.",
+        "translation": "让他去打扫马厩。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_HL_5001",
+        "original": "Politely decline the offer.",
+        "translation": "礼貌地拒绝这份礼物。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_5005",
+        "original": "I've noticed an increase in traders coming from the east since I employed [chinese_envoy.GetBestName] as a trade governor.",
+        "translation": "我发现自从雇佣了[chinese_envoy.GetBestName]作为贸易总管后，东方商人到来的数量增加了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_5005",
+        "original": "Let the silk flow.",
+        "translation": "让丝绸流动起来。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_5006",
+        "original": "[chinese_envoy.GetBestName] has managed to acquire a collection of rare gemstones on your behalf.",
+        "translation": "[chinese_envoy.GetBestName]设法为你取得了一些稀有的宝石。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_5006",
+        "original": "Sell them for profit.",
+        "translation": "把他们卖了换钱。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_HL_5006",
+        "original": "These will fit great in a pendant.",
+        "translation": "它们镶在项链上肯定很合适。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_HL_5006",
+        "original": "I'll make some earrings for my [Root.Spouse.GetHusbandWife].",
+        "translation": "我会为我的[Root.Spouse.GetHusbandWife]做一些耳环。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_5007",
+        "original": "A couple of travelling merchants claim that their goods were stolen while they stayed on your premises.",
+        "translation": "几个旅行商人称他们的货物在你的土地内被偷了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_5007",
+        "original": "Apologize and reimburse them.",
+        "translation": "道歉并给他们补偿。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_HL_5007",
+        "original": "That's their loss.",
+        "translation": "这是他们自己的损失。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_5008",
+        "original": "Enthusiastic and blabbering [chinese_envoy.GetFirstName] pulls a large sack into the room. [chinese_envoy.GetSheHeCap] apparently found valuable goods laying on the premises and wants to share it with you.",
+        "translation": "无比激动又滔滔不绝的[chinese_envoy.GetFirstName]拉着一个大麻袋走进了房间，[chinese_envoy.GetSheHeCap]显然在领地内找到了什么宝贵的货物并且想和你分享。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_5008",
+        "original": "I wonder if this is just a coincidence?",
+        "translation": "我猜这只是一个巧合？",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_HL_5008",
+        "original": "Find the merchants and return their lost cargo.",
+        "translation": "找到商人并归还他们丢失的货物。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_5017",
+        "original": "[From.GetBestName] entered my chamber with [From.GetHerHis] newly acquired pet snake wrapped around [From.GetHerHis] neck. [From.GetSheHeCap] asks if I want to pet it.",
+        "translation": "[From.GetBestName]带着他[From.GetHerHis]最近刚得到的宠物蛇走进了我的会客室，他的宠物蛇环绕在[From.GetHerHis]脖子上。[From.GetSheHeCap]问我想不想摸摸它。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_5017",
+        "original": "I hope it doesn't bite.",
+        "translation": "希望它不会咬我。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_HL_5017",
+        "original": "It seems a bit dangerous.",
+        "translation": "看起来有点危险。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_HL_5017",
+        "original": "Forbid [chinese_envoy.GetHerHim] from keeping the snake.",
+        "translation": "禁止[chinese_envoy.GetHerHim]留着这条蛇。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_5011OTHER",
+        "original": "I hear a scream outside and rush out only to see [From.GetFirstName]'s snake swallowing the dog of [FromFrom.GetFirstName] in a single gulp.",
+        "translation": "我听到外面传来一声尖叫然后就马上冲了出去，只见[From.GetFirstName]的宠物蛇正在吞下[FromFrom.GetFirstName]的狗。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_WOL_5011",
+        "original": "That's the way of life.",
+        "translation": "这就是人生。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_WOL_5011",
+        "original": "Someone slay that beast before it does more harm!",
+        "translation": "来人把那野兽给宰了免得更多的伤亡！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_5011SELF",
+        "original": "I hear a dog barking outside and rush out only to see [From.GetFirstName]'s dastardly snake swallowing my beloved dog in a single gulp.",
+        "translation": "我听到一声狗吠声然后马上冲了出去，只见[From.GetFirstName]天杀的蛇正在吞咽我最爱的狗。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_FAITHFUL",
+        "original": "Poor Faithful!",
+        "translation": "可怜的忠诚！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_HUNTER",
+        "original": "Poor Hunter!",
+        "translation": "可怜的猎手！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_TRICKY",
+        "original": "Poor Tricky!",
+        "translation": "可怜的狡猾！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_LUCIFER",
+        "original": "Poor Lucifer!",
+        "translation": "可怜的路西法！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_SHAYTAN",
+        "original": "Poor Shaytan!",
+        "translation": "可怜的撒伊旦！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_FENRIR",
+        "original": "Poor Fenrir!",
+        "translation": "可怜的芬里尔！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_ERLIK",
+        "original": "Poor Erlik!",
+        "translation": "可怜的尔力克！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_VELNIAS",
+        "original": "Poor Velnias!",
+        "translation": "可怜的维尔尼阿斯！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_TUONI",
+        "original": "Poor Tuoni!",
+        "translation": "可怜的图奥尼！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_XOLOTL",
+        "original": "Poor Xolotl!",
+        "translation": "可怜的梭罗堤！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_VELES",
+        "original": "Poor Veles!",
+        "translation": "可怜的维列斯！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_GURUHI",
+        "original": "Poor Guruhi!",
+        "translation": "可怜的古路希！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_DARKNESS",
+        "original": "Poor Darkness!",
+        "translation": "可怜的黑暗！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_AHRIMAN",
+        "original": "Poor Ahriman!",
+        "translation": "可怜的阿里曼！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_SATAN",
+        "original": "Poor Satan!",
+        "translation": "可怜的撒旦！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_VINAYAKA",
+        "original": "Poor Vinayaka!",
+        "translation": "可怜的毗那夜迦！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_MARA",
+        "original": "Poor Mara!",
+        "translation": "可怜的魔罗！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_WOL_5011_PUNISHER",
+        "original": "Poor Punisher!",
+        "translation": "可怜的惩戒者！",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTD_WOL_5011",
+        "original": "I'll have [FromFrom.GetHerHis] head for this!",
+        "translation": "我要为此杀了[FromFrom.GetHerHis]头！",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_5014",
+        "original": "You are out taking a walk together with [FromFrom.GetFirstName] when [From.GetFirstName] approaches you with a concern. According to Chinese law [From.GetSheHe] is required to get a woman to continue his services more permanently.",
+        "translation": "当你在和[FromFrom.GetFirstName]一起散步的时候，[From.GetFirstName]一脸担忧地走向了你。根据中国的法律，[From.GetSheHe]需要找到一个女人来更长久地为你服务。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_5014",
+        "original": "Ahem.. We were just discussing that matter, [FromFrom.GetFirstName]. Right?",
+        "translation": "呃……我们等会再讨论这，[FromFrom.GetFirstName]。好吗？",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_HL_5014",
+        "original": "I guess I have no more need of your services then.",
+        "translation": "我想我不再需要你的服务了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_5016",
+        "original": "Dust rise in your wake as you head for the local tavern with heavy steps. As you enter, you instantly notice [From.GetFirstName], seemingly involved in a game of chance. You approach [From.GetHerHim] and realize that [From.GetSheHe] is betting your money on games of chance... and losing. [From.GetFirstName] looks up at you with a smile and says: 'Hey. Your drinksch are taschty'.",
+        "translation": "你迈着重重的步子前去当地的旅馆，尘土在你脚下飞扬。当你进去后，你马上注意到[From.GetFirstName]，似乎参与了某种赌博游戏。你靠近[From.GetHerHim]，然后意识到[From.GetSheHe]正在用你的钱赌博……而且还输了。[From.GetFirstName]抬头看着你，带着一丝微笑，说：「嘿，你的giu真好ho~」",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_5016",
+        "original": "Just stay away from these people.",
+        "translation": "离这群人远点。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_HL_5016",
+        "original": "Arrest this [From.GetManWoman].",
+        "translation": "逮捕这个[From.GetManWoman]。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_5045",
+        "original": "[Root.GetTitledFirstName],\\n\\nI hereby inform you that I'm leaving the position at your court because of the less than preferable way that you have treated me.\\n\\nSigned\\n[From.GetFirstName]",
+        "translation": "[Root.GetTitledFirstName]，\\n\\n我来这里是为了告诉你我要辞去我在你宫廷里的这个职位，因为你对我的待遇实在太糟糕了。\\n\\n此致，\\n[From.GetFirstName]",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_5045",
+        "original": "That's too bad.",
+        "translation": "太糟了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_5048",
+        "original": "[Root.GetTitledFirstName]\\n\\nYour insolence has not gone unnoticed. I will henceforth punish all travellers who are suspected of having have visited your city. \\n\\nSigned,\\nThe Emperor.",
+        "translation": "[Root.GetTitledFirstName]\\n\\n你的傲慢无礼已经被注意到了。从今以后我会惩罚每一个可能到过你城市的旅行者。\\n\\n此致，\\n皇帝。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_5048",
+        "original": "This could be bad for trade.",
+        "translation": "这对贸易来说真是太糟了。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC_HL_5050",
+        "original": "Reports have reached us that traders and travellers are being harassed by raiders in your lands of [Root.GetName].",
+        "translation": "最近的报告指出商人和旅行者正受到你领土[Root.GetName]上的强盗侵扰。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTA_HL_5050",
+        "original": "I'll let them continue if they share the loot.",
+        "translation": "我会睁一只眼闭一只眼，如果他们愿意分我一杯羹。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTB_HL_5050",
+        "original": "Send my marshal to hunt them down.",
+        "translation": "派出我的军事总管把他们都拿下。",
+        "stage": 5
+    },
+    {
+        "key": "EVTOPTC_HL_5050",
+        "original": "Ready my horse. I'll get rid of the scoundrel.",
+        "translation": "备好我的马，我亲自去除掉那些混蛋。",
+        "stage": 5
+    },
+    {
+        "key": "LOST_CONTROL_PROVINCE",
+        "original": "Lost control of §Y$PROVINCE$§W",
+        "translation": "失去对§Y$PROVINCE$§W的控制",
+        "stage": 5
+    },
+    {
+        "key": "HAS_CONTROL_PROVINCE",
+        "original": "Occupation of §Y$PROVINCE$§W",
+        "translation": "§Y$PROVINCE$§W被占领",
+        "stage": 5
+    },
+    {
+        "key": "NOMAD_TECH_POINTS",
+        "original": "Nomads do not generate technology points.",
+        "translation": "游牧民不会产出科技点数。",
+        "stage": 5
+    },
+    {
+        "key": "fort",
+        "original": "Fort",
+        "translation": "堡垒",
+        "stage": 5
+    },
+    {
+        "key": "convert_fort_to_city",
+        "original": "Upgrade to City",
+        "translation": "升级成城市",
+        "stage": 5
+    },
+    {
+        "key": "convert_fort_to_castle",
+        "original": "Upgrade to Castle",
+        "translation": "升级成城堡",
+        "stage": 5
+    },
+    {
+        "key": "convert_fort_to_temple",
+        "original": "Upgrade to Temple",
+        "translation": "升级成神殿",
+        "stage": 5
+    },
+    {
+        "key": "convert_fort_to_tribal",
+        "original": "Upgrade to Tribal",
+        "translation": "升级成部落",
+        "stage": 5
+    },
+    {
+        "key": "HOLY_SITE_NO_SETTLEMENT",
+        "original": "(not settled)",
+        "translation": "（未定居）",
+        "stage": 5
+    },
+    {
+        "key": "CANNOT_BUILD",
+        "original": "Your government doesn't allow you to build this.",
+        "translation": "你的政体不允许建造这个。",
+        "stage": 5
+    },
+    {
+        "key": "b_argh",
+        "original": "Argh",
+        "translation": "阿尔赫",
+        "stage": 5
+    },
+    {
+        "key": "b_anthrachs",
+        "original": "Anthrachs",
+        "translation": "安施拉克斯",
+        "stage": 5
+    },
+    {
+        "key": "b_dunkheger",
+        "original": "Dünkheger",
+        "translation": "冬和格尔",
+        "stage": 5
+    },
+    {
+        "key": "b_muztau",
+        "original": "Muztau",
+        "translation": "木斯岛",
+        "stage": 5
+    },
+    {
+        "key": "b_kyzyl",
+        "original": "Kyzyl",
+        "translation": "克孜勒",
+        "stage": 5
+    },
+    {
+        "key": "b_otuken",
+        "original": "Ötüken",
+        "translation": "于都斤",
+        "stage": 5
+    },
+    {
+        "key": "b_erchis",
+        "original": "Erchis",
+        "translation": "曳咥",
+        "stage": 5
+    },
+    {
+        "key": "b_gorgol",
+        "original": "Gorgol",
+        "translation": "戈尔戈勒",
+        "stage": 5
+    },
+    {
+        "key": "b_khangai",
+        "original": "Khangai",
+        "translation": "杭海",
+        "stage": 1
+    },
+    {
+        "key": "b_kara_khorum",
+        "original": "Kara Khorum",
+        "translation": "哈剌和林",
+        "stage": 5
+    },
+    {
+        "key": "b_baygal",
+        "original": "Baygal",
+        "translation": "贝加尔",
+        "stage": 5
+    },
+    {
+        "key": "b_aj_bogd",
+        "original": "Aj Bogd",
+        "translation": "阿吉博格多",
+        "stage": 1
+    },
+    {
+        "key": "b_ikh_bogd",
+        "original": "Ikh Bogd",
+        "translation": "伊赫博格多",
+        "stage": 1
+    },
+    {
+        "key": "b_tsagaannuur",
+        "original": "Tsagaanuur",
+        "translation": "查干诺尔",
+        "stage": 5
+    },
+    {
+        "key": "b_yarkand",
+        "original": "Yarkand",
+        "translation": "叶尔羌",
+        "stage": 5
+    },
+    {
+        "key": "b_kashgar",
+        "original": "Kashgar",
+        "translation": "喀什噶尔",
+        "stage": 5
+    },
+    {
+        "key": "b_aksu_mongolia",
+        "original": "Aksu",
+        "translation": "阿克苏",
+        "stage": 5
+    },
+    {
+        "key": "b_tumshuk",
+        "original": "Tumshuk",
+        "translation": "图木舒克",
+        "stage": 5
+    },
+    {
+        "key": "b_khotan",
+        "original": "Khotan",
+        "translation": "于阗",
+        "stage": 5
+    },
+    {
+        "key": "b_keriya",
+        "original": "Keriya",
+        "translation": "克里雅",
+        "stage": 5
+    },
+    {
+        "key": "b_niya",
+        "original": "Niya",
+        "translation": "尼雅",
+        "stage": 5
+    },
+    {
+        "key": "b_cherchen",
+        "original": "Cherchen",
+        "translation": "车尔臣",
+        "stage": 5
+    },
+    {
+        "key": "b_charkliq",
+        "original": "Charkliq",
+        "translation": "若羌",
+        "stage": 5
+    },
+    {
+        "key": "b_miran",
+        "original": "Miran",
+        "translation": "米兰",
+        "stage": 5
+    },
+    {
+        "key": "b_karashar",
+        "original": "Karashar",
+        "translation": "喀喇沙尔",
+        "stage": 5
+    },
+    {
+        "key": "b_kucha",
+        "original": "Kucha",
+        "translation": "苦叉",
+        "stage": 5
+    },
+    {
+        "key": "b_kara_khoja",
+        "original": "Kara Khoja",
+        "translation": "哈剌火者",
+        "stage": 1
+    },
+    {
+        "key": "b_luntai",
+        "original": "Luntai",
+        "translation": "轮台",
+        "stage": 5
+    },
+    {
+        "key": "b_dunhuang",
+        "original": "Dunhuang",
+        "translation": "敦煌",
+        "stage": 5
+    },
+    {
+        "key": "b_anxi",
+        "original": "Anxi",
+        "translation": "安西",
+        "stage": 5
+    },
+    {
+        "key": "b_kumul",
+        "original": "Kumul",
+        "translation": "哈密",
+        "stage": 5
+    },
+    {
+        "key": "b_gobi",
+        "original": "Gobi",
+        "translation": "戈壁",
+        "stage": 5
+    },
+    {
+        "key": "d_trondelag",
+        "original": "Nidaros",
+        "translation": "尼达罗斯",
+        "stage": 5
+    },
+    {
+        "key": "c_trondelag",
+        "original": "Nidaros",
+        "translation": "尼达罗斯",
+        "stage": 5
+    },
+    {
+        "key": "c_trondelag_adj",
+        "original": "Trondish",
+        "translation": "特伦德拉格",
+        "stage": 5
+    },
+    {
+        "key": "PROV275",
+        "original": "Nidaros",
+        "translation": "尼达罗斯",
+        "stage": 5
+    },
+    {
+        "key": "PROV1438",
+        "original": "Yarkand",
+        "translation": "叶尔羌",
+        "stage": 5
+    },
+    {
+        "key": "PROV1439",
+        "original": "Kashgar",
+        "translation": "喀什噶尔",
+        "stage": 5
+    },
+    {
+        "key": "PROV1440",
+        "original": "Khotan",
+        "translation": "于阗",
+        "stage": 5
+    },
+    {
+        "key": "PROV1441",
+        "original": "Cherchen",
+        "translation": "车尔臣",
+        "stage": 5
+    },
+    {
+        "key": "PROV1442",
+        "original": "Charkliq",
+        "translation": "若羌",
+        "stage": 5
+    },
+    {
+        "key": "PROV1443",
+        "original": "Karashar",
+        "translation": "喀喇沙尔",
+        "stage": 5
+    },
+    {
+        "key": "PROV1444",
+        "original": "Kucha",
+        "translation": "苦叉",
+        "stage": 5
+    },
+    {
+        "key": "PROV1445",
+        "original": "Aksu",
+        "translation": "阿克苏",
+        "stage": 5
+    },
+    {
+        "key": "PROV1446",
+        "original": "Kara Khoja",
+        "translation": "哈剌火者",
+        "stage": 1
+    },
+    {
+        "key": "PROV1447",
+        "original": "Loulan",
+        "translation": "楼兰",
+        "stage": 5
+    },
+    {
+        "key": "PROV1448",
+        "original": "Dunhuang",
+        "translation": "敦煌",
+        "stage": 5
+    },
+    {
+        "key": "PROV1449",
+        "original": "Luntai",
+        "translation": "轮台",
+        "stage": 5
+    },
+    {
+        "key": "PROV1450",
+        "original": "Kumul",
+        "translation": "哈密",
+        "stage": 5
+    },
+    {
+        "key": "PROV1453",
+        "original": "Aj Bogd",
+        "translation": "阿吉博格多",
+        "stage": 1
+    },
+    {
+        "key": "PROV1456",
+        "original": "Ikh Bogd",
+        "translation": "伊赫博格多",
+        "stage": 1
+    },
+    {
+        "key": "PROV1457",
+        "original": "Kara Khorum",
+        "translation": "哈剌和林",
+        "stage": 5
+    },
+    {
+        "key": "PROV1458",
+        "original": "Khangai",
+        "translation": "杭海",
+        "stage": 1
+    },
+    {
+        "key": "PROV1460",
+        "original": "Baygal",
+        "translation": "贝加尔",
+        "stage": 5
+    },
+    {
+        "key": "PROV1461",
+        "original": "Ötüken",
+        "translation": "于都斤",
+        "stage": 5
+    },
+    {
+        "key": "PROV1408",
+        "original": "Anxi",
+        "translation": "安西",
+        "stage": 5
+    },
+    {
+        "key": "empire_of_altaic",
+        "original": "Empire of",
+        "translation": "帝国",
+        "stage": 5
+    },
+    {
+        "key": "duke_sogdian",
+        "original": "Ikhshid",
+        "translation": "医囋",
+        "stage": 5
+    },
+    {
+        "key": "create_title_interaction_TITLE",
+        "original": "Create Title",
+        "translation": "创建头衔",
+        "stage": 5
+    },
+    {
+        "key": "destroy_title_interaction_TITLE",
+        "original": "Destroy",
+        "translation": "摧毁",
+        "stage": 5
+    },
+    {
+        "key": "make_primary_title_interaction_TITLE",
+        "original": "Make Primary Title",
+        "translation": "设为主头衔",
+        "stage": 5
+    },
+    {
+        "key": "make_primary_title_interaction_DESC",
+        "original": "I can declare this my primary title.",
+        "translation": "我可宣告此为我的主头衔。",
+        "stage": 5
+    },
+    {
+        "key": "EVTDESC8031",
+        "original": "For too long, you have restricted our rights. The time has come to Lower Tribal Organization! With your regent, [Root.Regent.GetTitledName], among my supporters you have no other choice than to accept.\\n\\nSigned,\\n[From.GetTitledName]",
+        "translation": "你已限制我们的权利太久。是时候降低部落组织度了！你的摄政[Root.Regent.GetTitledName]也在我的支持者之中，你除了接受已经没有别的选择。\\n\\n此致，\\n[From.GetTitledName]",
+        "stage": 5
+    },
+    {
+        "key": "tribal_contract_0_option",
+        "original": "Min",
+        "translation": "小",
+        "stage": 5
+    },
+    {
+        "key": "tribal_contract_1_option",
+        "original": "Normal",
+        "translation": "普通",
+        "stage": 5
+    },
+    {
+        "key": "tribal_contract_2_option",
+        "original": "Large",
+        "translation": "大",
+        "stage": 5
+    },
+    {
+        "key": "tribal_contract_3_option",
+        "original": "Max",
+        "translation": "最大",
+        "stage": 5
+    },
+    {
+        "key": "tribal_tax_0_option",
+        "original": "None",
+        "translation": "无",
+        "stage": 5
+    },
+    {
+        "key": "tribal_tax_1_option",
+        "original": "Min",
+        "translation": "小",
+        "stage": 5
+    },
+    {
+        "key": "tribal_tax_2_option",
+        "original": "Medium",
+        "translation": "中等",
+        "stage": 5
+    },
+    {
+        "key": "tribal_tax_3_option",
+        "original": "Large",
+        "translation": "大",
+        "stage": 5
+    },
+    {
+        "key": "TRIBAL_CANT_BUILD_HOLDINGS_DESC",
+        "original": "Empty Holding slots actually provide more troops for Tribes. To build proper Holdings you need to become either a Feudal state or a Republic (check your Decisions.)",
+        "translation": "空地产格其实为部落提供更多部队。如要建造真正的地产，你需要先成为一个封建国家或共和国（查看你的决议）。",
+        "stage": 5
+    },
+    {
+        "key": "GREAT",
+        "original": "Great!",
+        "translation": "好极了！",
+        "stage": 5
+    },
+    {
+        "key": "GLORY",
+        "original": "Glory!",
+        "translation": "荣耀！",
+        "stage": 5
+    },
+    {
+        "key": "alert_powerful_factions_name",
+        "original": "Dangerous Factions",
+        "translation": "危险派系",
+        "stage": 5
+    },
+    {
+        "key": "has_fewer_trade_post_than",
+        "original": "Has fewer than §Y$NUM$§! Trade Posts",
+        "translation": "有少于 §Y$NUM$§! 个贸易站",
+        "stage": 5
+    },
+    {
+        "key": "has_more_trade_post_than",
+        "original": "Has at least §Y$NUM$§! Trade Posts",
+        "translation": "有至少 §Y$NUM$§! 个贸易站",
+        "stage": 5
+    },
+    {
+        "key": "num_trade_post_diff_lower_than",
+        "original": "Difference between §Y$FIRST$§! and §Y$SECOND$§!'s Trade Posts lower than §Y$VAL$§!",
+        "translation": "§Y$FIRST$§!与§Y$SECOND$§!的贸易站相差少于 §Y$VAL$§!",
+        "stage": 5
+    },
+    {
+        "key": "num_trade_post_diff_at_least",
+        "original": "Difference between §Y$FIRST$§! and §Y$SECOND$§!'s Trade Posts at least §Y$VAL$§!",
+        "translation": "§Y$FIRST$§!与§Y$SECOND$§!的贸易站相差至少 §Y$VAL$§!",
+        "stage": 5
+    }
+]
