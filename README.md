@@ -12,7 +12,7 @@ Please visit https://paratranz.com/projects/1 if you want to edit.
 UTF8-BOM
 
 ## Sync Interval
-Every Hour
+Every 6 hours after major version release
 
 ## License
 ![CC BY-NC-SA 4.0](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
