@@ -4714,7 +4714,7 @@ HINT_HOLDING_VIEW_TEXT_2;一个角色的地产的集合称为领地。你可以�
 HINT_HOLDING_VIEW_TEXT_3;一些建筑物只有在省份存在某个科技时才能建造。有些还可能需要另外一个建筑物做为前置条件。;;;;;;;;;;;;x
 HINT_HOLDING_VIEW_TEXT_4;地产的拥有者，或他的直接领主以及更高级领主，可以通过点击编辑改变男爵领的名字。;;;;;;;;;;;;x
 HINT_UNIT_VIEW_TITLE;单位界面;;;;;;;;;;;;x
-HINT_UNIT_VIEW_TEXT_1;单位是军团或船只的集合，他们可以在男爵领里征召或者由雇佣兵或圣战士提供。;;;;;;;;;;;;x
+HINT_UNIT_VIEW_TEXT_1;单位是军团或船只的集合，他们可以在男爵领中征召，也可以由雇佣兵或骑士团提供。;;;;;;;;;;;;x
 HINT_UNIT_VIEW_TEXT_2;军队被组织成三个部分，左翼、中央和右翼。每一部分由一位军团指挥官指挥。中央军团的指挥官被认为是整个军队的指挥官。;;;;;;;;;;;;x
 HINT_UNIT_VIEW_TEXT_3;军队在无法补给他们的省份上会受到损耗，在省份界面里查看补给上限。;;;;;;;;;;;;x
 HINT_COMBAT_VIEW_TITLE;战斗界面;;;;;;;;;;;;x
@@ -4783,7 +4783,7 @@ INTERACTION_REQUIRES_CB_SELECTED;我们必须选择一个有效的§Y宣战理�
 INTERACTION_REQUIRES_BOTH_INDEPENDENT;§Y[Recipient.GetTitledFirstName]§!是独立的;;;;;;;;;;;;x
 INTERACTION_REQUIRES_NO_HOSTAGES;§Y[Recipient.GetTitledFirstName]§!没有你的近亲人质$WHO$;;;;;;;;;;;;x
 INTERACTION_REQUIRES_SAME_LIEGE;§Y[Recipient.GetTitledFirstName]§!必须是我们的领主或者我们领主的封臣;;;;;;;;;;;;x
-INTERACTION_NO_INVASION_OF_LANDLESS;不能夺取雇佣兵、圣战士或宗教领袖头衔;;;;;;;;;;;;x
+INTERACTION_NO_INVASION_OF_LANDLESS;不能夺取雇佣兵、骑士团或宗教领袖的头衔;;;;;;;;;;;;x
 INTERACTION_CANNOT_CALL_LIEGE;我们不能召唤我们的领主（或者更高级别的领主）参战;;;;;;;;;;;;x
 INTERACTION_CANNOT_CALL_VASSAL;我们不能召唤封臣参战;;;;;;;;;;;;x
 INTERACTION_REQUIRES_RECIPIENT_IS_ADULT;§Y[Recipient.GetTitledFirstName]§!必须成年;;;;;;;;;;;;x
@@ -5285,7 +5285,7 @@ EVTDESC20171;[From.GetTitledName]对我对[From.Location.GetName]的极其单纯
 EVTOPTA20171;我的下场会是怎样？;;;;;;;;;;;;x
 EVTDESC20173;我的领主：\n    我发现[FromFrom.Liege.GetTitledName]的[Root.GetChancellorName]在[From.Location.GetName]造谣生事，试图煽动当地贵族反抗您的统治。请放心，他的毒计影响不了我。为避免再次带来损失，我已将其囚禁。\n\n微臣[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA20173;此事将传到[FromFrom.Liege.GetTitledName]耳边！;;;;;;;;;;;;x
-EVTDESC20174;我的领主：\n    我发现[FromFrom.Liege.GetTitledName]的[Root.GetChancellorName]在[From.Location.GetName]造谣生事，试图煽动当地贵族反抗您的统治。请放心，他的毒计影响不了我。\n\n微臣[From.GetTitledName];;;;;;;;;;;;x
+EVTDESC20174;我的领主：\n我发现[FromFrom.Liege.GetTitledName]的[Root.GetChancellorName]在[From.Location.GetName]造谣生事，试图煽动当地贵族反抗您的统治。请放心，他的毒计影响不了我。\n\n微臣[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA20174;此事将传到[FromFrom.Liege.GetTitledName]耳边！;;;;;;;;;;;;x
 EVTOPTA20175;这不太好……;;;;;;;;;;;;x
 EVTDESC20176;我听到消息称你的[Root.GetChancellorName]企图在[FromFrom.Location.GetName]散布有关我的谎言、煽动贵族叛乱！我向你保证我是不能容忍这种暴行的！\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
@@ -5752,7 +5752,7 @@ b_haymana;哈伊玛纳;;;;;;;;;;;;x
 c_nikaea_adj;尼西亚;;;;;;;;;;;;x
 b_nikaea;尼西亚;;;;;;;;;;;;x
 b_kios;吉奥斯;;;;;;;;;;;;x
-b_optimatum;最强军镇;;;;;;;;;;;;x
+b_optimatum;俄普提马同;;;;;;;;;;;;x
 b_petobriga;派特布里格;;;;;;;;;;;;x
 b_kotyaion;科泰严;;;;;;;;;;;;x
 b_palaeokastron;普莱欧卡斯特朗;;;;;;;;;;;;x
@@ -8127,7 +8127,7 @@ b_bandja;班卓琴;;;;;;;;;;;;x
 b_kinel;基涅利;;;;;;;;;;;;x
 b_syzran;塞兹兰;;;;;;;;;;;;x
 b_tashia;达西亚;;;;;;;;;;;;x
-b_sarbay;萨兰加尼;;;;;;;;;;;;x
+b_sarbay;萨尔拜;;;;;;;;;;;;x
 b_osinki;奥辛基;;;;;;;;;;;;x
 b_shungut;苏古特;;;;;;;;;;;;x
 b_boro;比尔斯克;;;;;;;;;;;;x
@@ -8512,7 +8512,7 @@ b_kalachinsk;卡拉钦斯克;;;;;;;;;;;;x
 b_tyukalinsk;秋卡林斯克;;;;;;;;;;;;x
 b_cherlak;切尔拉克;;;;;;;;;;;;x
 b_sargatka;萨尔加特卡;;;;;;;;;;;;x
-b_krasnyyar;卡拉斯亚尔;;;;;;;;;;;;x
+b_krasnyyar;克拉斯内亚尔;;;;;;;;;;;;x
 b_akmechet;阿克梅切特;;;;;;;;;;;;x
 b_kyzylorda;克孜勒奥尔达;;;;;;;;;;;;x
 b_kazaly;卡扎雷;;;;;;;;;;;;x
@@ -8976,7 +8976,7 @@ b_balkh;巴尔赫;;;;;;;;;;;;x
 b_termez;呾蜜;;;;;;;;;;;;x
 b_tiliatepe;提力阿特匹;;;;;;;;;;;;x
 b_takhtisangin;塔克赫特依萨吉;;;;;;;;;;;;x
-b_alkhanoum;Ai-Khanoum;;;;;;;;;;;;x
+b_alkhanoum;阿哈诺姆;;;;;;;;;;;;x
 b_kunduz;昆都士;;;;;;;;;;;;x
 b_surkhkotal;苏克科塔拉;;;;;;;;;;;;x
 b_dalverzintepe;达维津特匹;;;;;;;;;;;;x
@@ -9662,9 +9662,9 @@ b_kuli;库利;;;;;;;;;;;;x
 b_tayus;塔乌斯;;;;;;;;;;;;x
 b_humraj;胡拉贾;;;;;;;;;;;;x
 b_datuna;达图那;;;;;;;;;;;;x
-c_semender_adj;瑟蒙德日安;;;;;;;;;;;;x
+c_semender_adj;谢缅杰尔;;;;;;;;;;;;x
 b_kumukh;库穆赫;;;;;;;;;;;;x
-b_semender;瑟门德尔;;;;;;;;;;;;x
+b_semender;谢缅杰尔;;;;;;;;;;;;x
 b_khattibaku;卡哈提巴库;;;;;;;;;;;;x
 b_khannalkala;卡哈纳拉卡拉;;;;;;;;;;;;x
 b_balanjar;巴兰贾尔;;;;;;;;;;;;x
@@ -13496,9 +13496,9 @@ b_buckfast;巴克法斯特;;;;;;;;;;;;x
 b_dartmouth;达特默斯;;;;;;;;;;;;x
 k_wales;威尔士;;;;;;;;;;;;x
 k_wales_adj;威尔士;;;;;;;;;;;;x
-d_gwynedd;格温内斯;;;;;;;;;;;;x
-d_gwynedd_adj;格温内斯;;;;;;;;;;;;x
-c_gwynedd_adj;格温内斯;;;;;;;;;;;;x
+d_gwynedd;圭内思;;;;;;;;;;;;x
+d_gwynedd_adj;圭内思;;;;;;;;;;;;x
+c_gwynedd_adj;圭内思;;;;;;;;;;;;x
 b_caernarfon;卡那芬;;;;;;;;;;;;x
 b_degannwy;迪加努伊;;;;;;;;;;;;x
 b_bangor_fawr;班戈;;;;;;;;;;;;x
@@ -16548,7 +16548,7 @@ PROV60;佩菲杜拉德;;;;;;;;;;;;x
 PROV61;林肯;;;;;;;;;;;;x
 PROV62;莱斯特;;;;;;;;;;;;x
 PROV63;德比;;;;;;;;;;;;x
-PROV64;格温内思;;;;;;;;;;;;x
+PROV64;圭内思;;;;;;;;;;;;x
 PROV65;波伊斯;;;;;;;;;;;;x
 PROV66;舒兹伯利;;;;;;;;;;;;x
 PROV67;沃里克;;;;;;;;;;;;x
@@ -17079,7 +17079,7 @@ PROV671;苏尼古拉;;;;;;;;;;;;x
 PROV672;德维;;;;;;;;;;;;x
 PROV673;高加索阿尔巴尼亚;;;;;;;;;;;;x
 PROV674;杰尔宾特;;;;;;;;;;;;x
-PROV675;瑟门德尔;;;;;;;;;;;;x
+PROV675;谢缅杰尔;;;;;;;;;;;;x
 PROV676;卡赫季;;;;;;;;;;;;x
 PROV677;古里安;;;;;;;;;;;;x
 PROV678;特拉布宗;;;;;;;;;;;;x
@@ -17946,7 +17946,7 @@ MIL_ARMIES;陆军;;;;;;;;;;;;x
 MIL_NAVIES;海军;;;;;;;;;;;;x
 MIL_VASSALS;封臣;;;;;;;;;;;;x
 MIL_MERCANARIES;佣兵;;;;;;;;;;;;x
-MIL_HOLY_ORDERS;圣战士;;;;;;;;;;;;x
+MIL_HOLY_ORDERS;骑士团;;;;;;;;;;;;x
 MIL_REPUBLICS;共和国;;;;;;;;;;;;x
 MIL_MONTHLY_COST;每月花费：;;;;;;;;;;;;x
 RAISE_DEMESNE;动员私人部队;;;;;;;;;;;;x
@@ -18515,7 +18515,7 @@ title_regent;摄政;;;;;;;;;;;;x
 title_queen_mother;王太后;;;;;;;;;;;;x
 emperor_title_queen_mother_female;皇太后;;;;;;;;;;;;x
 emperor_title_queen_mother_female_german;凯撒琳;;;;;;;;;;;;x
-title_prince;公子;;;;;;;;;;;;x
+title_prince;王子;;;;;;;;;;;;x
 title_prince_iranian;沙赫扎得;;;;;;;;;;;;x
 title_prince_female;公主;;;;;;;;;;;;x
 title_prince_female_iranian;沙赫朵卡;;;;;;;;;;;;x
@@ -19366,9 +19366,9 @@ tut_5b_7;城市能够提供船只、弓箭手和大量的轻步兵。;;;;;;;;;;;
 tut_5b_8;修道院能够提供船只，以及弓箭手、轻步兵和重步兵。;;;;;;;;;;;;x
 tut_5b_9;究竟能征集到什么兵还取决于其他的一些东西，比如这是谁的封臣。由于城堡能提供较多的军队，所以只能提供较少的金钱，而城市正相反。点击继续以结束本节。;;;;;;;;;;;;x
 tut_5c_1;军事 - 高级;;;;;;;;;;;;x
-tut_5c_2;我们在王国风云里有一些新的设置和概念。打开军事窗口以了解雇佣兵、圣战士和侧翼的概念。;;;;;;;;;;;;x
+tut_5c_2;我们在王国风云里有一些新的设置和概念。打开军事窗口以了解雇佣兵、骑士团和侧翼的概念。;;;;;;;;;;;;x
 tut_5c_3;佣兵;;;;;;;;;;;;x
-tut_5c_4;雇佣兵是由你雇佣并直接控制的军队。单击雇佣兵选项以了解你可以雇佣什么样的雇佣兵。在这里可以看到，当你需要雇佣他们时，需要支付巨额的资金，而且之后每个月还要支付一笔数额相对小一点但仍非乐观的雇佣金。当你无力支付这笔钱的时候，他们可能会开始攻击你，并占领你的领地，他们只忠诚于黄金。点击圣战士标签以继续。;;;;;;;;;;;;x
+tut_5c_4;雇佣兵是由你雇佣并直接控制的军队。单击雇佣兵选项以了解你可以雇佣什么样的雇佣兵。在这里可以看到，当你需要雇佣他们时，需要支付巨额的资金，而且之后每个月还要支付一笔数额相对小一点但仍非乐观的雇佣金。当你无力支付这笔钱的时候，他们可能会开始攻击你，并占领你的领地，他们只忠诚于黄金。点击骑士团标签以继续。;;;;;;;;;;;;x
 tut_5c_5;圣骑士;;;;;;;;;;;;x
 tut_5c_6;你现在还无法雇佣他们。当你能使用时，他们的存在类似于这样：;;;;;;;;;;;;x
 tut_5c_8;侧翼;;;;;;;;;;;;x
