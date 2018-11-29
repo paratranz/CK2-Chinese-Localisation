@@ -695,7 +695,7 @@ disorganised_swarm_tactic;无组织人海战术;;;;;;;;;;;;x
 disorganised_harass_tactic;无组织骚扰战术;;;;;;;;;;;;x
 STEAL_POPULATION_SCALED_EFFECT;从$FROM|Y$夺取$PERCENTAGE|Y%$§Y人口§!到$TO|Y$\n;;;;;;;;;;;;x
 CB_NAME_HUMILIATE;羞辱;;;;;;;;;;;;x
-WAR_NAME_HUMILIATE;$ORDER$$FIRST_ADJ$羞辱$DEFENDER$战争;;;;;;;;;;;;x
+WAR_NAME_HUMILIATE;第$ORDER$$FIRST_ADJ$羞辱$DEFENDER$战争;;;;;;;;;;;;x
 nomad_humiliate_cb_desc;羞辱敌人并且夺取他们的人民来强化自己的部族。;;;;;;;;;;;;x
 DECLINE_LAW;否决;;;;;;;;;;;;x
 EVTOPTC290;否决;;;;;;;;;;;;x
@@ -888,7 +888,7 @@ EVTOPTB_ZE_2120;确认[target_child.GetSheHe]了解[target_child.GetHerHis]自�
 EVTDESC_ZE_2121;[From.GetFirstName]因为我学习当地的语言而满意，并为我买了一本关于[From.Culture.GetName]血统的书。;;;;;;;;;;;;x
 EVTOPTA_ZE_2121;多么令人着迷。;;;;;;;;;;;;x
 EVTOPTB_ZE_2121;我宁愿学习我自己家庭的传统。;;;;;;;;;;;;x
-EVTDESC_ZE_2122;据说你的[GetFromRelation][From.GetFirstName]已受到[From.GetHerHis]监护人感化。据说[From.GetFirstName]现在可以被视为真正的[From.Culture.GetName]。;;;;;;;;;;;;x
+EVTDESC_ZE_2122;据说你的[GetFromRelation][From.GetFirstName]已受到[From.GetHerHis]监护人感化。据说[From.GetFirstName]现在可以被视为真正的[From.Culture.GetName]人。;;;;;;;;;;;;x
 EVTOPTA_ZE_2122;希望那是一个有益的影响。;;;;;;;;;;;;x
 EVTDESC_ZE_2130;致[GetFromFromRootCompliment][Root.GetTitledNameWithNick]，\n\n我写信给你，是希望我能以[FromFrom.Religion.GetName][FromFrom.Culture.GetName]的方式教育[From.GetFirstName]。\n\n[FromFrom.GetTitledFirstName]。;;;;;;;;;;;;x
 EVTOPTA_ZE_2130;听起来不错。;;;;;;;;;;;;x
@@ -1397,7 +1397,7 @@ extort_subjects;敲诈臣属;;;;;;;;;;;;x
 extort_subjects_desc;向你的臣属敲诈一笔钱是一个可以快速给你的战争小金库筹集资金的绝佳方法——不过要小心，这个行为在你的臣属看来非常暴虐。那些在意自己臣属的领主会因为这种行为损害到自己的心理健康。;;;;;;;;;;;;x
 obj_build_a_war_chest_title;建立战争金库;;;;;;;;;;;;x
 obj_build_a_war_chest_desc;[This.GetTitledFirstName]想要建立一个战争金库，并且在[This.GetHerHis]领土做战争准备！;;;;;;;;;;;;x
-obj_build_a_war_chest_success_custom_tooltip;已经在[This.GetHerHis]领地聚敛了一笔数额可观的金钱：如统治一个伯爵领，需要 300¤；统治一个公爵领，需要 500¤；统治一个王国，需要 700¤；统治一个帝国，需要 1000¤。;;;;;;;;;;;;x
+obj_build_a_war_chest_success_custom_tooltip;已经在[This.GetHerHis]领地聚敛了一笔数额可观的金钱：如统治一个伯爵领，需要 300¤；统治一个公国，需要 500¤；统治一个王国，需要 700¤；统治一个帝国，需要 1000¤。;;;;;;;;;;;;x
 extort_consequences_custom_tooltip;看看你手头有什么选项。;;;;;;;;;;;;x
 extort_cooldown_custom_tooltip;不可在最近六个月内敲诈过你的臣属;;;;;;;;;;;;x
 EVTTOOLTIP_ZE_21100;对[extra_tax_target.GetName]的农民开征一项「额外」税;;;;;;;;;;;;x
@@ -1698,7 +1698,7 @@ REVOKE_TITLE_DISCONTENT_REASON;[Actor.GetBestName]剥夺了[Recipient.GetBestNam
 GRANT_TITLE_DISCONTENT_REASON;[Actor.GetBestName]授予了[Recipient.GetBestName][ThirdPartyTitle.GetFullName]的头衔，尽管内阁投票反对。;;;;;;;;;;;;x
 EXILE_IMPRISONED_DISCONTENT_REASON;[Actor.GetBestName]驱逐了[Recipient.GetBestName]，尽管内阁投票反对。;;;;;;;;;;;;x
 CB_NAME_INCREASE_COUNCIL_POWER;增加内阁权力;;;;;;;;;;;;x
-WAR_NAME_INCREASE_COUNCIL_POWER;$ORDER$$SECOND_ADJ$增加内阁权力内战;;;;;;;;;;;;x
+WAR_NAME_INCREASE_COUNCIL_POWER;第$ORDER$$SECOND_ADJ$增加内阁权力内战;;;;;;;;;;;;x
 council_off_custom;不能使用§Y全境和平§!;;;;;;;;;;;;x
 council_on_custom;解锁额外内阁权力法律\n允许使用§Y全境和平§!;;;;;;;;;;;;x
 EVTDESC8215;很长时间以来，你一直限制着封臣的政治影响。但这一切都将结束，是时候给[Root.GetCouncilName]更多权力了！要么和平地服从这项要求，要么面对这将带来的后果。放心吧，我已经把那些感到不安的人集中了起来……\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x

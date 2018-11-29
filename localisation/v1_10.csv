@@ -281,7 +281,7 @@ opinion_evil_tyrant;邪恶的暴君;;;;;;;;;;;;x
 d_zoroastrian;祆教教会;;;;;;;;;;;;x
 d_zoroastrian_adj;祆教;;;;;;;;;;;;x
 HEAD_MOABADAN_MOABAD;穆贝旦—穆贝德;;;;;;;;;;;;x
-norse;诺斯人;;;;;;;;;;;;x
+norse;诺斯;;;;;;;;;;;;x
 won_viking_invasion;准备入侵胜利;;;;;;;;;;;;x
 lost_viking_invasion;准备入侵失败;;;;;;;;;;;;x
 won_county_conquest;省份征服成功;;;;;;;;;;;;x
@@ -390,9 +390,9 @@ EVTDESC_TOG_1021;在一群武装起来的狂信者带领下，异端[From.Religi
 EVTDESC_TOG_1030;又一群胡言乱语的异端暴民在[Root.GetName]爆发叛乱，对如火如荼的叛乱火上添油！;;;;;;;;;;;;x
 EVTOPTA_TOG_1030;谨防异端！;;;;;;;;;;;;x
 EVTDESC_TOG_1031;又一群胡言乱语的异端暴民在 [From.GetName]爆发叛乱，对如火如荼的叛乱火上添油！;;;;;;;;;;;;x
-EVTDESC_TOG_1040;一场危险的叛乱已经在 [Root.GetName]爆发。许多 [Root.Culture.GetName]有权势的地主已经组织起了一支支由农民组成的军队，经过训练后就由一队职业士兵领导。他们企图恢复 [Root.Kingdom.GetFullBaseName]！;;;;;;;;;;;;x
+EVTDESC_TOG_1040;一场危险的叛乱已经在[Root.GetName]爆发。许多有权势的[Root.Culture.GetName]地主已经组织起了一支支由农民组成的军队，经过训练后就由一队职业士兵领导。他们企图恢复[Root.Kingdom.GetFullBaseName]！;;;;;;;;;;;;x
 EVTOPTA_TOG_1040;令人担忧……;;;;;;;;;;;;x
-EVTDESC_TOG_1041;一场危险的暴动已经在 [From.GetName]爆发。许多有权势的[From.Culture.GetName]地主已经组织起了一支由农民组成的军队，经过训练后就由一队职业士兵领导。他们企图恢复[From.Kingdom.GetFullBaseName]！;;;;;;;;;;;;x
+EVTDESC_TOG_1041;一场危险的暴动已经在[From.GetName]爆发。许多有权势的[From.Culture.GetName]地主已经组织起了一支由农民组成的军队，经过训练后就由一队职业士兵领导。他们企图恢复[From.Kingdom.GetFullBaseName]！;;;;;;;;;;;;x
 EVTDESC_TOG_1050;更多的[Root.Culture.GetName]叛乱者已经在[Root.GetName]拿起武器，加入到[Root.Kingdom.GetFullBaseName]的独立运动！;;;;;;;;;;;;x
 EVTDESC_TOG_1051;更多的[From.Culture.GetName]叛乱者已经在[From.GetName]拿起武器，加入到[From.Kingdom.GetFullBaseName]的独立运动！;;;;;;;;;;;;x
 EVTDESC_TOG_1201;消息已经到达宫中，我的头衔的一位宣称者，[From.GetTitledFirstName]正在聘请别人攻击我！;;;;;;;;;;;;x
@@ -439,7 +439,7 @@ duchy_of_iranian;省;;;;;;;;;;;;x
 county_iranian;郡;;;;;;;;;;;;x
 duchy_iranian;省;;;;;;;;;;;;x
 kingdom_iranian;沙阿国;;;;;;;;;;;;x
-avar;阿瓦尔人;;;;;;;;;;;;x
+avar;阿瓦尔;;;;;;;;;;;;x
 ZOROASTRIAN_CLOSE_KIN_UNION;既然§Y[ActorExtra.GetFirstName]§!是§Y[RecipientExtra.GetFirstName]的§!$RELATION$，这将是神圣的§Y徽多达赫§!（血亲圣婚）结合，受到祆教封臣们欢迎。;;;;;;;;;;;;x
 opinion_religious_divine_blood_marriage;圣婚;;;;;;;;;;;;x
 opinion_priest_religious_divine_blood_marriage;圣婚;;;;;;;;;;;;x
@@ -566,13 +566,13 @@ ISNT_PREPARING_INVASION;没在准备入侵;;;;;;;;;;;;x
 IS_TEMPORARY_TITLE;是临时头衔;;;;;;;;;;;;x
 ISNT_TEMPORARY_TITLE;不是临时头衔;;;;;;;;;;;;x
 CB_NAME_VIKING_INVASION;[Title.GetBaseName]的准备入侵;;;;;;;;;;;;x
-WAR_NAME_VIKING_INVASION;$ORDER$$FIRST_ADJ$有准备的入侵$OTHER_TITLE$;;;;;;;;;;;;x
+WAR_NAME_VIKING_INVASION;第$ORDER$$FIRST_ADJ$有准备的入侵$OTHER_TITLE$;;;;;;;;;;;;x
 CB_NAME_PEASANT_CONQUEST;[Title.GetBaseName]的农民叛乱;;;;;;;;;;;;x
 WAR_NAME_PEASANT_CONQUEST;$OTHER_TITLE$农民叛乱;;;;;;;;;;;;x
 peasant_revolt_desc;农民领袖有时会反叛并试图将他们的省份从压迫中「解放」出来。;;;;;;;;;;;;x
 PEASANT_REVOLT;[Root.County.GetAdjective]的农民叛乱;;;;;;;;;;;;x
 CB_NAME_HERETIC_UPRISING;[Actor.Religion.GetName]的叛乱;;;;;;;;;;;;x
-WAR_NAME_HERETIC_UPRISING;$ORDER$$SECOND_ADJ$[Actor.Religion.GetName]叛乱;;;;;;;;;;;;x
+WAR_NAME_HERETIC_UPRISING;第$ORDER$$SECOND_ADJ$[Actor.Religion.GetName]叛乱;;;;;;;;;;;;x
 heretic_revolt_desc;在正统宗教的宗教权威低下时，异端头目会发动叛乱并以火与剑来传播他们的歪理邪说。;;;;;;;;;;;;x
 HERETIC_REVOLT;[Root.Religion.GetName]的叛乱;;;;;;;;;;;;x
 heresiarch;异端头目;;;;;;;;;;;;x
@@ -584,14 +584,14 @@ opinion_rebel_traitor;叛乱者;;;;;;;;;;;;x
 rise_of_the_shia_caliphate;什叶派哈里发的崛起;;;;;;;;;;;;x
 SHIA_CALIPHATE_REVOLT;什叶派哈里发王位觊觎者;;;;;;;;;;;;x
 CB_NAME_SHIA_CALIPHATE_RISING;什叶派哈里发在[Title.GetBaseName]起事;;;;;;;;;;;;x
-WAR_NAME_SHIA_CALIPHATE_RISING;$ORDER$什叶派哈里发在[Title.GetBaseName]起事;;;;;;;;;;;;x
+WAR_NAME_SHIA_CALIPHATE_RISING;第$ORDER$什叶派哈里发在[Title.GetBaseName]起事;;;;;;;;;;;;x
 ANY_PREVIOUS_HOLDER_STARTS;所有前拥有者;;;;;;;;;;;;x
-duchy_adventure_desc;拥有野心的贵族后人可以出走并在一群投机冒险之徒的支持下试图在异国土地上攫取数个公爵领。;;;;;;;;;;;;x
+duchy_adventure_desc;拥有野心的贵族后人可以出走并在一群投机冒险之徒的支持下试图在异国土地上攫取数个公国。;;;;;;;;;;;;x
 CB_NAME_DUCHY_ADVENTURE;冒险者远征 [Title.GetBaseName];;;;;;;;;;;;x
 WAR_DUCHY_ADVENTURE;[Actor.GetTitledFirstName]的 $OTHER_TITLE$远征;;;;;;;;;;;;x
 CLAIMANT_ADVENTURE;[Root.GetTitledFirstName]之军;;;;;;;;;;;;x
 CB_NAME_LIBERATION_REVOLT;解放 [Title.GetBaseName];;;;;;;;;;;;x
-WAR_NAME_LIBERATION_REVOLT;$ORDER$解放[Title.GetBaseName];;;;;;;;;;;;x
+WAR_NAME_LIBERATION_REVOLT;第$ORDER$解放[Title.GetBaseName];;;;;;;;;;;;x
 liberation_revolt_desc;外国君主统治下的臣民会试图起义重建旧王国;;;;;;;;;;;;x
 NATIONALIST_REVOLT;[Root.Kingdom.GetAdjective] 复国叛乱;;;;;;;;;;;;x
 DECADENCE_REVOLT;[Root.PrimaryTitle.GetAdjective]腐化叛乱;;;;;;;;;;;;x
@@ -900,8 +900,8 @@ d_meryas;梅尔雅人;;;;;;;;;;;;x
 d_meryas_adj;梅尔雅;;;;;;;;;;;;x
 d_veps;韦普斯人;;;;;;;;;;;;x
 d_veps_adj;韦普斯;;;;;;;;;;;;x
-d_meshcheras;梅希切尔人;;;;;;;;;;;;x
-d_meshcheras_adj;梅希切尔;;;;;;;;;;;;x
+d_meshcheras;梅晓拉;;;;;;;;;;;;x
+d_meshcheras_adj;梅晓拉;;;;;;;;;;;;x
 d_muromians;穆罗姆;;;;;;;;;;;;x
 d_muromians_adj;穆罗姆;;;;;;;;;;;;x
 PROV588;马里;;;;;;;;;;;;x
@@ -921,10 +921,10 @@ c_thomond_adj_north_germanic;利默里克;;;;;;;;;;;;x
 c_ormond_adj_north_germanic;维德拉夫约德尔;;;;;;;;;;;;x
 c_ulster_adj_north_germanic;斯特朗夫约德尔;;;;;;;;;;;;x
 d_ulster_adj_north_germanic;斯特朗夫约德尔;;;;;;;;;;;;x
-samoyed;涅涅茨人;;;;;;;;;;;;x
-mordvin;莫尔多瓦人;;;;;;;;;;;;x
-khazar;可萨人;;;;;;;;;;;;x
-bolghar;保加尔人;;;;;;;;;;;;x
+samoyed;涅涅茨;;;;;;;;;;;;x
+mordvin;莫尔多瓦;;;;;;;;;;;;x
+khazar;可萨;;;;;;;;;;;;x
+bolghar;保加尔;;;;;;;;;;;;x
 OFF_RELIGION;进攻型宗教;;;;;;;;;;;;x
 DEF_RELIGION;防御型宗教;;;;;;;;;;;;x
 DEF_RELIGION_HOME_TERRITORY;防御型宗教在家园土地内;;;;;;;;;;;;x
@@ -1607,8 +1607,8 @@ EVTDESC325;[Root.GetTitledFirstName]受到来自[Root.Religion.GetRandomGodName]
 EVTDESC326;清晰的预兆——[Root.GetTitledFirstName]对[New.GetTitledName]和[From.GetFullBaseName]内[New.Religion.GetRandomGodName]的追随者们发动[Root.Religion.GetCrusadeName]！所有自由的[Root.Religion.GetName]人都被鼓励在对他们圣地的征服中提供帮助！\n\n [Root.Religion.GetRandomGodNameCap]将击败他们的[New.Religion.GetRandomGodName]！;;;;;;;;;;;;x
 opinion_mutual_respect;不情愿的共识;;;;;;;;;;;;x
 GREAT_HOLY_WAR;大圣战;;;;;;;;;;;;x
-roman;罗马人;;;;;;;;;;;;x
-maghreb_arabic;柏柏尔人;;;;;;;;;;;;x
+roman;罗马;;;;;;;;;;;;x
+maghreb_arabic;柏柏尔;;;;;;;;;;;;x
 EVTDESC39600;[From.GetTitledFirstName]，一个服侍[From.Liege.GetTitledName]的传教士，来到了[From.Location.GetName]传播他们的外国宗教。他毫不尊重我们的信仰，并宣称其罪孽深重，他还解释道除非我们改变信仰否则死后会遭受无穷的苦难。;;;;;;;;;;;;x
 EVTOPTA39600;今生也是会遭受苦难的，我的朋友……;;;;;;;;;;;;x
 EVTOPTB39600;多告诉我们一点[From.Religion.GetRandomGodName]的事。;;;;;;;;;;;;x

@@ -8,16 +8,16 @@ LOTHARINGIA_ADJ;洛塔林吉亚;;;;;;;;;;;;x
 form_the_hre_early_tooltip_1;是意大利王国的 [Root.GetKingQueen] 或意大利亚帝国的 [Root.GetEmperorEmpress]\n;;;;;;;;;;;;x
 form_the_hre_early_tooltip_2;至少在法兰克帝国、日耳曼尼亚帝国、西班牙帝国或不列颠尼亚帝国法理领土内拥有一个王国或帝国头衔\n;;;;;;;;;;;;x
 form_the_hre_early_tooltip_3;意大利亚帝国，法兰克帝国，日耳曼尼亚帝国，西班牙帝国和不列颠尼亚帝国均无基督教所有者\n;;;;;;;;;;;;x
-frankish;法兰西人;;;;;;;;;;;;x
-old_frankish;法兰克人;;;;;;;;;;;;x
-old_saxon;撒克逊人;;;;;;;;;;;;x
-lombard;伦巴第人;;;;;;;;;;;;x
-visigothic;西哥特人;;;;;;;;;;;;x
-somali;索马里人;;;;;;;;;;;;x
-suebi;苏维汇人;;;;;;;;;;;;x
-ilmenian;伊尔门人;;;;;;;;;;;;x
-severian;西维利亚人;;;;;;;;;;;;x
-volhynian;沃里尼亚人;;;;;;;;;;;;x
+frankish;法兰西;;;;;;;;;;;;x
+old_frankish;法兰克;;;;;;;;;;;;x
+old_saxon;撒克逊;;;;;;;;;;;;x
+lombard;伦巴第;;;;;;;;;;;;x
+visigothic;西哥特;;;;;;;;;;;;x
+somali;索马里;;;;;;;;;;;;x
+suebi;苏维汇;;;;;;;;;;;;x
+ilmenian;伊尔门;;;;;;;;;;;;x
+severian;西维利亚;;;;;;;;;;;;x
+volhynian;沃里尼亚;;;;;;;;;;;;x
 d_powys;波伊斯;;;;;;;;;;;;x
 d_powys_adj;波伊斯;;;;;;;;;;;;x
 BM_CHARLEMAGNE;查理曼;;;;;;;;;;;;x
@@ -188,7 +188,7 @@ MARCH_FRIULI;弗留利;;;;;;;;;;;;x
 MARCH_FRIULI_ADJ;弗留利;;;;;;;;;;;;x
 DUCHY_IVREA;伊夫雷亚;;;;;;;;;;;;x
 DUCHY_IVREA_ADJ;伊夫雷亚;;;;;;;;;;;;x
-pictish;皮克特人;;;;;;;;;;;;x
+pictish;皮克特;;;;;;;;;;;;x
 count_pictish;厄尔;;;;;;;;;;;;x
 NOT_VARIABLE;§Y$VAR$§!少于 §Y$VALUE$§!;;;;;;;;;;;;x
 VARIABLE;§Y$VAR$§!至少 §Y$VALUE$§!;;;;;;;;;;;;x
@@ -209,7 +209,7 @@ EVTDESC_CM_1;在外国统治者的影响之下，[Root.GetName]省份已经发�
 EVTOPTA_CM_1;他们现在是苏格兰人！;;;;;;;;;;;;x
 EVTDESC_CM_2;几个世纪以来，远离着他们祖先所生活的北方之地，伦巴第人缓慢却稳步地吸收着越来越多的拉丁文化和罗马文化的传统。在[Root.GetName]省份，人们甚至开始认同自己为意大利人了。;;;;;;;;;;;;x
 EVTOPTA_CM_2;新时代树新风。;;;;;;;;;;;;x
-EVTDESC_CM_3;靠近莱茵河口的低地地区长期以来便是帝国和文化交汇的十字路口。[Root.GetName]省份似乎产生了一种新的文化认同。他们不再是[Root.Culture.GetName]，而是荷兰人了。;;;;;;;;;;;;x
+EVTDESC_CM_3;靠近莱茵河口的低地地区长期以来便是帝国和文化交汇的十字路口。[Root.GetName]省份似乎产生了一种新的文化认同。他们不再是[Root.Culture.GetName]人，而是荷兰人了。;;;;;;;;;;;;x
 EVTOPTA_CM_3;荷兰人？有意思。;;;;;;;;;;;;x
 EVTDESC_CM_4;长期以来，[Root.GetName]省份的传统萨克森民众在外国人的统治下与他们的日耳曼表亲愈发相像了。;;;;;;;;;;;;x
 EVTOPTA_CM_4;他们现在是日耳曼人。;;;;;;;;;;;;x
@@ -493,7 +493,7 @@ OPEN_CHRONICLE;开启编年史;;;;;;;;;;;;x
 GIVE_WRONG_TYPE_TITLE_TOOLTIP;将错误统治类型的头衔分封出去;;;;;;;;;;;;x
 GIVE_BARONIES_TITLE_TOOLTIP;将男爵领封给贵族;;;;;;;;;;;;x
 GIVE_COUNTIES_TITLE_TOOLTIP;将伯爵领封给贵族;;;;;;;;;;;;x
-GIVE_DUCHIES_TITLE_TOOLTIP;将公爵领封给贵族;;;;;;;;;;;;x
+GIVE_DUCHIES_TITLE_TOOLTIP;将公国封给贵族;;;;;;;;;;;;x
 OVER_MAX_DEMESNE_SIZE_BY_AT_LEAST;超出直辖上限至少;;;;;;;;;;;;x
 help_liege_manage_titles;提出帮助你的领主管理头衔;;;;;;;;;;;;x
 help_liege_manage_titles_desc;帮助你的领主管理管理他最近取得的头衔，并把这些头衔封给国内其他人。;;;;;;;;;;;;x
@@ -546,7 +546,7 @@ CHRONICLE_DEATH_OF_RELIGION_HEAD;[Root.GetBestName]，[Root.Religion.GetName]忠
 CHRONICLE_BIRTH_FATHER;[Root.GetFirstName]，[Root.Father.GetTitledName]的第一个[Root.GetSonDaughter]出生了。;;;;;;;;;;;;x
 CHRONICLE_BIRTH_MOTHER;[Root.GetFirstName]，[Root.Mother.GetTitledName]的第一个[Root.GetSonDaughter]出生了。;;;;;;;;;;;;x
 CHRONICLE_WAR_DECLARED_ATTACKER;[From.GetTitledName]征伐[Prev.GetTitledName]。;;;;;;;;;;;;x
-CHRONICLE_WAR_DECLARED_DEFENDER;[Prev.PrimaryTitle.GetName]被[From.Culture.GetName]国家[From.PrimaryTitle.GetName]进攻，进攻方的统治者为 [From.GetTitledFirstNameWithNick]。;;;;;;;;;;;;x
+CHRONICLE_WAR_DECLARED_DEFENDER;[Prev.PrimaryTitle.GetName]被[From.Culture.GetName]国家[From.PrimaryTitle.GetName]进攻，进攻方的统治者为[From.GetTitledFirstNameWithNick]。;;;;;;;;;;;;x
 CHRONICLE_FRIENDLY_CRUSADE_STARTED;[Root.GetTitledName]发起了一次[Root.Religion.GetCrusadeName]，其中所有虔诚的[Root.Religion.GetName]们受到感召而前来将[From.GetName]从[New.Religion.GetName]掌控下征服。;;;;;;;;;;;;x
 CHRONICLE_UNFRIENDLY_CRUSADE_STARTED;[Root.GetTitledName]发起了一次[Root.Religion.GetCrusadeName]，一众亵渎神灵的[Root.Religion.GetName]受到络绎不绝的号召，前去从[New.Religion.GetName]的手中征服[From.GetName]。;;;;;;;;;;;;x
 CHRONICLE_CRUSADE_WON;[From.RelHead.GetDynName]发动的[From.Religion.GetCrusadeName]结束。成功地从[New.Religion.GetName]手中占领了[Root.GetName]。;;;;;;;;;;;;x
@@ -596,7 +596,7 @@ CHRONICLE_RELIGION_HEAD_RELEASED;[Root.GetTitledName]被[From.GetTitledName]释�
 CHRONICLE_PLAYER_CONVERTED_RELIGION;[Root.GetTitledName]从[From.Religion.GetName]转向皈依[Root.Religion.GetName]。;;;;;;;;;;;;x
 CHRONICLE_LIEGE_CONVERTED_RELIGION;[Root.GetTitledName]从[From.Religion.GetName]转向皈依[Root.Religion.GetName]。;;;;;;;;;;;;x
 CHRONICLE_MAJOR_VASSAL_CONVERTED_RELIGION;[Root.GetTitledName]，[Root.Liege.GetTitledName]的大领主，从[From.Religion.GetName]转向皈依[Root.Religion.GetName]。;;;;;;;;;;;;x
-CHRONICLE_PLAYER_CONVERTED_CULTURE;[Root.GetTitledName]将新的习俗融入[Root.Culture.GetName]文化之中，不再受[Root.GetHerselfHimself][From.Culture.GetName]的影响。;;;;;;;;;;;;x
+CHRONICLE_PLAYER_CONVERTED_CULTURE;[Root.GetTitledName]将新的习俗融入[Root.Culture.GetName]文化之中，不再认为[Root.GetHerselfHimself]是[From.Culture.GetName]人。;;;;;;;;;;;;x
 CHRONICLE_HERESY_TAKEOVER_PLAYER_IS_NEW;谈论有关[From.GetName]信仰的话题变得十分流行而广泛，因此[FromFrom.GetName]不得不被视为异端。;;;;;;;;;;;;x
 CHRONICLE_HERESY_TAKEOVER_PLAYER_IS_OLD;谈论有关[From.GetName]信仰的话题变得十分流行而广泛，因此[FromFrom.GetName]不得不被视为异端。;;;;;;;;;;;;x
 CHRONICLE_PLAYER_REFORMED_RELIGION;[Root.GetTitledName]领导了[Root.Religion.GetName]的改革，使得[Root.Religion.GetScriptureName]的抄本传遍各地，让[Root.Religion.GetRandomGodName]的光辉遍布世界。;;;;;;;;;;;;x
@@ -1063,7 +1063,7 @@ EVTDESC8028;迫于强大派系的压力，[From.GetTitledName]被迫同意降低
 EVTDESC8071;为了避免内战分裂国土的危险，我决定同意你的请求并降低部落组织度。但是我永远不会忘记这种背信弃义的讹诈行为……\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
 lower_tribal_organization_law_desc;§Y$CLAIMANT$§!能在§Y$TITLE$§!发动降低部落组织度等级的战争;;;;;;;;;;;;x
 CB_NAME_LOWER_TRIBAL_ORGANIZATION_LAW;降低部落组织度;;;;;;;;;;;;x
-WAR_NAME_LOWER_TRIBAL_ORGANIZATION_LAW;$ORDER$$SECOND_ADJ$降低部落组织度内战;;;;;;;;;;;;x
+WAR_NAME_LOWER_TRIBAL_ORGANIZATION_LAW;第$ORDER$$SECOND_ADJ$降低部落组织度内战;;;;;;;;;;;;x
 faction_lower_tribal_organization_short;要求降低部落组织度;;;;;;;;;;;;x
 faction_lower_tribal_organization_title;要求降低[This.GetName]部落组织度;;;;;;;;;;;;x
 faction_lower_tribal_organization_desc;派系成员们谋求在[This.GetName]之下降低部落组织度。当影响力足够强大，§Y[From.GetBestName]§!会向§Y[From.Liege.GetBestName]§!发送最后通牒。;;;;;;;;;;;;x

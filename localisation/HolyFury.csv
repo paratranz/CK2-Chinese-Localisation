@@ -211,7 +211,7 @@ setting_tier_counts;伯爵;;;;;;;;;;;;x
 setting_tier_counts_tooltip;每个伯爵领都会生成一个独立的伯爵;;;;;;;;;;;;x
 setting_tier_dukes;公爵;;;;;;;;;;;;x
 setting_tier_dukes_tooltip;每个法理公国内随机一名伯爵会获得公爵头衔，其余所有的伯爵会变为封臣;;;;;;;;;;;;x
-setting_tier_dukes_consolidated;统一公爵领;;;;;;;;;;;;x
+setting_tier_dukes_consolidated;统一公国;;;;;;;;;;;;x
 setting_tier_dukes_consolidated_tooltip;每个法理公国会生成一位统治者;;;;;;;;;;;;x
 ALTERNATE_START;另类开局;;;;;;;;;;;;x
 ALT_GENERATE;生成;;;;;;;;;;;;x
@@ -346,7 +346,7 @@ opinion_baptism_sponsor_target;集体皈依请求;;;;;;;;;;;;x
 truebelievers_bid_for_independence;旧信徒的叛乱;;;;;;;;;;;;x
 truebelievers_bid_for_independence_desc;§Y$CLAIMANT$§!可以宣布从§Y$TARGET$§!独立，因为他们放弃了旧信仰！;;;;;;;;;;;;x
 CB_NAME_TRIBAL_INDEPENDENCE;原始宗教叛乱;;;;;;;;;;;;x
-WAR_NAME_TRIBAL_INDEPENDENCE;$ORDER$对大$SECOND_ADJ$的改宗战争;;;;;;;;;;;;x
+WAR_NAME_TRIBAL_INDEPENDENCE;第$ORDER$反抗$SECOND_ADJ$集体改宗之战;;;;;;;;;;;;x
 request_sponsored_baptism;要求集体皈依;;;;;;;;;;;;x
 request_sponsored_baptism_desc;拥抱一个更加文明的宗教可以帮助你在领地内集权并抛弃你的部落生活方式。\n\n你可以要求[Root.GetTitledName]赞助你的领地改信[Root.Religion.GetName]。在一个合法政权的帮助和支持下，转变将会变得更容易。\n[From.GetMassBaptismTribalAuthorityHint];;;;;;;;;;;;x
 PAGAN_BAPTISM_DESC;§Y请求集体皈依§!;;;;;;;;;;;;x
@@ -703,7 +703,7 @@ crown_fylkir;英雄王之冠;;;;;;;;;;;;x
 crown_fylkir_desc;一顶为好战的诺斯信仰改革者所锻造的铁之冠。;;;;;;;;;;;;x
 pepin_religious;丕平献土;;;;;;;;;;;;x
 CB_NAME_PAPAL_RELIGIOUS;教宗对[Title.GetBaseName]战争;;;;;;;;;;;;x
-WAR_NAME_PAPAL_RELIGIOUS;$ORDER$$FIRST_ADJ$教宗对$OTHER_TITLE$战争;;;;;;;;;;;;x
+WAR_NAME_PAPAL_RELIGIOUS;第$ORDER$$FIRST_ADJ$为教宗夺取$OTHER_TITLE$战争;;;;;;;;;;;;x
 pepin_religious_cb_succ_tip;教廷将会宣称所有异教徒治下的争议领土，并将那些[Root.Religion.GetName]统治者收为附庸。;;;;;;;;;;;;x
 opinion_requested_papal_investiture;要求教宗神职叙任权;;;;;;;;;;;;x
 opinion_requested_papal_land;要求教宗赐予土地;;;;;;;;;;;;x
@@ -3732,7 +3732,7 @@ EVTDESCHF22061;我的阴谋诡计开始见效了。那个我雇去的男人成�
 EVTOPTAHF22061;完美。;;;;;;;;;;;;x
 EVTDESCHF22062;[From.GetTitledFirstName]'s machinations have antagonized me with most of my vassals. I am unsure how, but that [From.GetManWoman] has managed to convince a lot of my subjects that I am not deserving of their trust and loyalty.;;;;;;;;;;;;x
 EVTOPTAHF22062;[From.GetSheHe]怎么能这样？;;;;;;;;;;;;x
-EVTDESCHF22063;The man I hired did not disappoint me. He managed to sow the seeds of dissent within [FromFromFrom.GetTitledFirstName]'s very family. Many of [FromFromFrom.GetHerHis] kinsmen despite [FromFromFrom.GetHerHim] now.;;;;;;;;;;;;x
+EVTDESCHF22063;我雇佣的那人没有让我失望。他成功在[FromFromFrom.GetTitledFirstName]的家庭内部播下了分歧的种子。[FromFromFrom.GetHerHis]许多亲属现在和[FromFromFrom.GetHerHim]反目成仇。;;;;;;;;;;;;x
 EVTOPTAHF22063;很好。;;;;;;;;;;;;x
 EVTDESCHF22064;In some way, [From.GetTitledFirstName] has been able to estrange me from my own family. [FromFromFrom.GetHerHisCap] machinations have caused many of my relatives to distance themselves from me out of the misplaced fear that associating with me will stain their reputation.;;;;;;;;;;;;x
 EVTOPTAHF22064;[From.GetSheHe]怎么能这样？;;;;;;;;;;;;x
@@ -3765,17 +3765,17 @@ EVTDESCHF22076;[From.GetTitledFirstName]以[From.GetHerHis]饥饿的奴隶而臭
 EVTOPTAHF22076;我很明白该怎么做...;;;;;;;;;;;;x
 tooltip_HF22076_A;为§Y[From.GetTitledFirstName]§!准备一场下毒的宴会。;;;;;;;;;;;;x
 EVTOPTBHF22076;这是在小瞧我。;;;;;;;;;;;;x
-EVTDESCHFA22077;I have just received the biggest boar I have ever seen from [From.GetTitledFirstName], who sent it to me as a sign of friendship. The beast looks marvelous, and I cannot wait to have it cooked for my next dinner. If only it weren't for the message coming with it mockingly implying I would eat it all by myself...;;;;;;;;;;;;x
-EVTOPTAHF22077;If that's the case, I will eat none of it!;;;;;;;;;;;;x
+EVTDESCHFA22077;我刚刚收到[From.GetTitledFirstName]寄给我的一头我见过的最大的野猪，它是友谊的象征。这只野兽看起来很不可思议，我迫不及待地想把它当下次晚餐。只要它不是寄来讽刺我饭量特别大的……;;;;;;;;;;;;x
+EVTOPTAHF22077;要是这样，我不会吃它一点东西！;;;;;;;;;;;;x
 tooltip_HF22077_A;拒绝§Y[From.GetTitledFirstName]的§!礼物。;;;;;;;;;;;;x
-EVTOPTBHF22077;But I *will* eat it all myself!;;;;;;;;;;;;x
+EVTOPTBHF22077;真香！;;;;;;;;;;;;x
 tooltip_HF22077_B;吃§Y[From.GetTitledFirstName]的§!野猪。;;;;;;;;;;;;x
 EVTDESCHF22078;也许我给[From.GetTitledFirstName]的消息措辞不当。[From.GetSheHeCap]出于某种原因被我的礼物激怒并拒绝了它。;;;;;;;;;;;;x
 EVTOPTAHF22078;我得试试别的办法……;;;;;;;;;;;;x
 EVTDESCHFA22079;我也许不应该一个人吃掉了整只野猪。我现在觉得非常不舒服，以至于几乎不能站立。;;;;;;;;;;;;x
 EVTOPTAHF22079;这都是[FromFrom.GetTitledFirstName]的错！;;;;;;;;;;;;x
 EVTDESCHF22080;不出所料，[From.GetTitledFirstName]没能抵制将我的礼物大快朵颐。根据最新的传闻，[From.GetSheHe]现在患上了一场严重的疾病，躺在[From.GetHerHis]床上。;;;;;;;;;;;;x
-EVTOPTAHF22080;How predictable.;;;;;;;;;;;;x
+EVTOPTAHF22080;怎能预料。;;;;;;;;;;;;x
 EVTDESCHF22082;[From.GetTitledFirstName]以[From.GetHerHis]贪婪而臭名昭著。我确定我在某种程度上可以利用[From.GetHerHis]对金钱的热爱为我自己谋利。;;;;;;;;;;;;x
 EVTOPTAHF22082;A good old forgery will teach [From.GetHerHim] [From.GetHerHis] place.;;;;;;;;;;;;x
 tooltip_HF22082_A;送给§Y[From.GetTitledFirstName]§!一份伪造的礼物，希望[From.GetSheHe]会在不经意间因它使[From.GetHerselfHimself]难堪。;;;;;;;;;;;;x
@@ -4517,7 +4517,7 @@ string_bon_training;nodding approvingly at my lightly packed horse. We are retur
 string_hellenic_training;softly humming the tune I just finished singing, before clearing [fellow_member.GetHerHis] throat. "It's just something I made up, while we were marching" I say, dismissively. "You should keep it up, friend!", the [fellow_member.GetManWoman] argues. "It's good for morale, for the troops, you know".;;;;;;;;;;;;x
 MODIFIER_COMBAT_RATING_DESC;个人实战技能是你在同其他角色决斗时的表现的衡量，决斗双方的此项属性将被用于比较以确定决斗结果。高水平的实战技能也将助你在领导军队时取得胜利。;;;;;;;;;;;;x
 CLAIMS_TOOLTIP_DELAYED;这些是该角色拥有宣称的头衔。宣称有强弱之分，弱宣称只能在特定情况下使用。你可以通过战争或派系使用宣称。;;;;;;;;;;;;x
-TITLES_TOOLTIP_DELAYED;这些是该角色拥有的头衔。头衔分五个等级：帝国、王国、公爵领、伯爵领和男爵领。伯爵领及男爵领与地图上的实际位置一一对应（男爵领存在于伯爵领内）。帝国、王国和公爵领代表对一片更大的地区的统治地位，但不以实际位置体现在地图上。;;;;;;;;;;;;x
+TITLES_TOOLTIP_DELAYED;这些是该角色拥有的头衔。头衔分五个等级：帝国、王国、公国、伯爵领和男爵领。伯爵领及男爵领与地图上的实际位置一一对应（男爵领存在于伯爵领内）。帝国、王国和公国指代对于更大地区的统治地位，但不一定代表地图上的实际位置。;;;;;;;;;;;;x
 DIPLOMATIC_RELATIONS_TOOLTIP_DELAYED;这些是该角色当前拥有的外交关系。外交关系包括许多方面，比如停战期或者正进行的战争。;;;;;;;;;;;;x
 TRAITS_TOOLTIP_DELAYED;这些是该角色的特质。特质定义了每个角色的特征，代表了他们的能力、状况和性格。;;;;;;;;;;;;x
 MODIFIERS_TOOLTIP_DELAYED;这些是该角色的修正。虽然类似于特质，修正更多是临时的，有固定的失效日期。修正不影响角色的性格。;;;;;;;;;;;;x
@@ -4680,7 +4680,7 @@ d_racakonda_adj;罗遮憍陀;;;;;;;;;;;;x
 d_lanka_adj;楞迦;;;;;;;;;;;;x
 d_sinhala_adj;僧伽罗;;;;;;;;;;;;x
 CB_NAME_SHATTERED_COUNTY_CONQUEST;兼并[Title.GetBaseName];;;;;;;;;;;;x
-WAR_NAME_SHATTERED_COUNTY_CONQUEST;$ORDER$$FIRST_ADJ$$SECOND_ADJ$对$OTHER_TITLE$兼并战争;;;;;;;;;;;;x
+WAR_NAME_SHATTERED_COUNTY_CONQUEST;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$对$OTHER_TITLE$兼并战争;;;;;;;;;;;;x
 shattered_world_county_conquest_desc;在破碎世界中，你可以彻底征服一个与你相邻的省份或相距不超过一块海洋区块的省份。[GetShatteredInfo][GetShatteredJadeInfo];;;;;;;;;;;;x
 shattered_limited_info;该宣战理由会在游戏开始§Y25年§!后失效。;;;;;;;;;;;;x
 shattered_long_info;该宣战理由会在游戏开始§Y100年§!后失效。;;;;;;;;;;;;x
@@ -4715,27 +4715,27 @@ conqueror_sword_desc;这是伟大的征服者[great_conqueror.GetFullName]在[gr
 sword_great_conqueror;伟大征服者之剑;;;;;;;;;;;;x
 sword_great_conqueror_desc;This sword used to be carried by a Great Conqueror.;;;;;;;;;;;;x
 catholic_opinion;[catholic.GetName]好感;;;;;;;;;;;;x
-turkish_opinion;[turkish.GetName]好感;;;;;;;;;;;;x
-norse_opinion;[norse.GetName]好感;;;;;;;;;;;;x
-persian_opinion;[persian.GetName]好感;;;;;;;;;;;;x
-norman_opinion;[norman.GetName]好感;;;;;;;;;;;;x
-english_opinion;[english.GetName]好感;;;;;;;;;;;;x
-mongol_opinion;[mongol.GetName]好感;;;;;;;;;;;;x
-iberian_opinion;[iberian.GetGroupName]好感;;;;;;;;;;;;x
-afghan_opinion;[afghan.GetName]好感;;;;;;;;;;;;x
-indo_aryan_group_opinion;[indo_aryan_group.GetGroupName]好感;;;;;;;;;;;;x
-east_slavic_opinion;[east_slavic.GetGroupName]好感;;;;;;;;;;;;x
-polish_opinion;[polish.GetName]好感;;;;;;;;;;;;x
-russian_opinion;[russian.GetName]好感;;;;;;;;;;;;x
-scottish_opinion;[scottish.GetName]好感;;;;;;;;;;;;x
-norwegian_opinion;[norwegian.GetName]好感;;;;;;;;;;;;x
-hungarian_opinion;[hungarian.GetName]好感;;;;;;;;;;;;x
-greek_opinion;[greek.GetName]好感;;;;;;;;;;;;x
-german_opinion;[german.GetName]好感;;;;;;;;;;;;x
+turkish_opinion;[turkish.GetName]文化好感;;;;;;;;;;;;x
+norse_opinion;[norse.GetName]文化好感;;;;;;;;;;;;x
+persian_opinion;[persian.GetName]文化好感;;;;;;;;;;;;x
+norman_opinion;[norman.GetName]文化好感;;;;;;;;;;;;x
+english_opinion;[english.GetName]文化好感;;;;;;;;;;;;x
+mongol_opinion;[mongol.GetName]文化好感;;;;;;;;;;;;x
+iberian_opinion;[iberian.GetGroupName]文化组好感;;;;;;;;;;;;x
+afghan_opinion;[afghan.GetName]文化好感;;;;;;;;;;;;x
+indo_aryan_group_opinion;[indo_aryan_group.GetGroupName]文化组好感;;;;;;;;;;;;x
+east_slavic_opinion;[east_slavic.GetGroupName]文化组好感;;;;;;;;;;;;x
+polish_opinion;[polish.GetName]文化好感;;;;;;;;;;;;x
+russian_opinion;[russian.GetName]文化好感;;;;;;;;;;;;x
+scottish_opinion;[scottish.GetName]文化好感;;;;;;;;;;;;x
+norwegian_opinion;[norwegian.GetName]文化好感;;;;;;;;;;;;x
+hungarian_opinion;[hungarian.GetName]文化好感;;;;;;;;;;;;x
+greek_opinion;[greek.GetName]文化好感;;;;;;;;;;;;x
+german_opinion;[german.GetName]文化好感;;;;;;;;;;;;x
 slavic_pagan_opinion;[slavic_pagan.GetName]好感;;;;;;;;;;;;x
 slavic_pagan_reformed_opinion;改革[slavic_pagan_reformed.GetName]好感;;;;;;;;;;;;x
-croatian_opinion;[croatian.GetName]好感;;;;;;;;;;;;x
-irish_opinion;[irish.GetName]好感;;;;;;;;;;;;x
+croatian_opinion;[croatian.GetName]文化好感;;;;;;;;;;;;x
+irish_opinion;[irish.GetName]文化好感;;;;;;;;;;;;x
 viking_opinion_EXPLANATION; (effect on Viking);;;;;;;;;;;;x
 viking_opinion;维京好感;;;;;;;;;;;;x
 ravager_opinion_EXPLANATION; (effect on Ravager);;;;;;;;;;;;x
@@ -4818,7 +4818,7 @@ string_germanic_like;日耳曼;;;;;;;;;;;;x
 string_germanic_random_like;[north_germanic.GetGroupName]，[central_germanic.GetGroupName]和[west_germanic.GetGroupName];;;;;;;;;;;;x
 string_finnomagyar_like;芬兰-马扎尔;;;;;;;;;;;;x
 string_finnomagyar_random_like;[finno_ugric.GetGroupName]和[magyar.GetGroupName];;;;;;;;;;;;x
-string_baltoslavic_like;波罗的-斯拉夫;;;;;;;;;;;;x
+string_baltoslavic_like;波罗的海-斯拉夫;;;;;;;;;;;;x
 string_baltoslavic_random_like;[baltic.GetGroupName]，[east_slavic.GetGroupName]，[west_slavic.GetGroupName]和[south_slavic.GetGroupName];;;;;;;;;;;;x
 string_african_like;非洲;;;;;;;;;;;;x
 string_african_random_like;[east_african.GetGroupName]和[west_african.GetGroupName];;;;;;;;;;;;x
@@ -4826,20 +4826,20 @@ string_zun_like;尊日神教;;;;;;;;;;;;x
 string_zun_random_like;[zun_pagan_reformed.GetName];;;;;;;;;;;;x
 string_jew_like;犹太教;;;;;;;;;;;;x
 string_jew_random_like;[jewish_group.GetGroupName];;;;;;;;;;;;x
-likes_indians;[indo_aryan_group.GetGroupName]文化;;;;;;;;;;;;x
-likes_dravidians;[dravidian_group.GetGroupName]文化;;;;;;;;;;;;x
-likes_tibetans;[tibetan_group.GetGroupName]文化;;;;;;;;;;;;x
-likes_germanics;[GetChinaGermanic]文化;;;;;;;;;;;;x
-likes_latino_iberians;[latin.GetGroupName]-[iberian.GetGroupName]文化;;;;;;;;;;;;x
-likes_byzantines;[byzantine.GetGroupName]文化;;;;;;;;;;;;x
-likes_celts;[celtic.GetGroupName]文化;;;;;;;;;;;;x
-likes_finno_ugrics;[GetChinaFinnoMagyar]文化;;;;;;;;;;;;x
-likes_altaics;[altaic.GetGroupName]文化;;;;;;;;;;;;x
-likes_balto_slavics;[GetChinaBaltoSlavic]文化;;;;;;;;;;;;x
-likes_arabs;[arabic.GetGroupName]文化;;;;;;;;;;;;x
-likes_iranians;[iranian.GetGroupName]文化;;;;;;;;;;;;x
-likes_africans;[GetChinaAfrican]文化;;;;;;;;;;;;x
-likes_mesoamericans;[mesoamerican.GetGroupName]文化;;;;;;;;;;;;x
+likes_indians;[indo_aryan_group.GetGroupName]文化组;;;;;;;;;;;;x
+likes_dravidians;[dravidian_group.GetGroupName]文化组;;;;;;;;;;;;x
+likes_tibetans;[tibetan_group.GetGroupName]文化组;;;;;;;;;;;;x
+likes_germanics;[GetChinaGermanic]文化组;;;;;;;;;;;;x
+likes_latino_iberians;[latin.GetGroupName]-[iberian.GetGroupName]文化组;;;;;;;;;;;;x
+likes_byzantines;[byzantine.GetGroupName]文化组;;;;;;;;;;;;x
+likes_celts;[celtic.GetGroupName]文化组;;;;;;;;;;;;x
+likes_finno_ugrics;[GetChinaFinnoMagyar]文化组;;;;;;;;;;;;x
+likes_altaics;[altaic.GetGroupName]文化组;;;;;;;;;;;;x
+likes_balto_slavics;[GetChinaBaltoSlavic]文化组;;;;;;;;;;;;x
+likes_arabs;[arabic.GetGroupName]文化组;;;;;;;;;;;;x
+likes_iranians;[iranian.GetGroupName]文化组;;;;;;;;;;;;x
+likes_africans;[GetChinaAfrican]文化组;;;;;;;;;;;;x
+likes_mesoamericans;[mesoamerican.GetGroupName]文化组;;;;;;;;;;;;x
 likes_muslims;[muslim.GetGroupName]徒;;;;;;;;;;;;x
 likes_christians;[christian.GetGroupName]徒;;;;;;;;;;;;x
 likes_mazdans;[zoroastrian_group.GetGroupName]教;;;;;;;;;;;;x
@@ -5432,19 +5432,19 @@ THREE_HOLY_SITES_TT;控制三处圣地;;;;;;;;;;;;x
 FANTASTIC;太棒了！;;;;;;;;;;;;x
 EVTOPTB_HF_100;谁请[invited_character.GetHerHim]来的？滚蛋！;;;;;;;;;;;;x
 HF_100_DESC;一个游荡的战士前来谋求一席之地。看起来整个宫廷都流传着关于[invited_character.GetHerHis]功勋的故事，这个[invited_character.GetFirstNameWithNick]看起来名气不小，[invited_character.GetSheHeCap]向我宣誓，只因听说了我同传奇的[target_bloodline_founder.GetFullName]的关系！看来我确实被我的血脉祝福。;;;;;;;;;;;;x
-tibetan_group_opinion;[tibetan_group.GetGroupName]好感;;;;;;;;;;;;x
-bodpa_opinion;[bodpa.GetName]好感;;;;;;;;;;;;x
-east_african_opinion;[east_african.GetGroupName]好感;;;;;;;;;;;;x
-frankish_opinion;[frankish.GetName]好感;;;;;;;;;;;;x
+tibetan_group_opinion;[tibetan_group.GetGroupName]文化组好感;;;;;;;;;;;;x
+bodpa_opinion;[bodpa.GetName]文化好感;;;;;;;;;;;;x
+east_african_opinion;[east_african.GetGroupName]文化组好感;;;;;;;;;;;;x
+frankish_opinion;[frankish.GetName]文化好感;;;;;;;;;;;;x
 jewish_group_opinion;[jewish_group.GetGroupName]好感;;;;;;;;;;;;x
 miaphysite_opinion;[miaphysite.GetName]好感;;;;;;;;;;;;x
-bolghar_opinion;[bolghar.GetName]好感;;;;;;;;;;;;x
-bulgarian_opinion;[bulgarian.GetName]好感;;;;;;;;;;;;x
-khazar_opinion;[khazar.GetName]好感;;;;;;;;;;;;x
-armenian_opinion;[armenian.GetName]好感;;;;;;;;;;;;x
-georgian_opinion;[georgian.GetName]好感;;;;;;;;;;;;x
-iranian_opinion;[iranian.GetGroupName]好感;;;;;;;;;;;;x
-altaic_opinion;[altaic.GetGroupName]好感;;;;;;;;;;;;x
+bolghar_opinion;[bolghar.GetName]文化好感;;;;;;;;;;;;x
+bulgarian_opinion;[bulgarian.GetName]文化好感;;;;;;;;;;;;x
+khazar_opinion;[khazar.GetName]文化好感;;;;;;;;;;;;x
+armenian_opinion;[armenian.GetName]文化好感;;;;;;;;;;;;x
+georgian_opinion;[georgian.GetName]文化好感;;;;;;;;;;;;x
+iranian_opinion;[iranian.GetGroupName]文化组好感;;;;;;;;;;;;x
+altaic_opinion;[altaic.GetGroupName]文化组好感;;;;;;;;;;;;x
 songtsen_gampo;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
 merovingian;墨洛温血脉;;;;;;;;;;;;x
 solomon;所罗门血脉;;;;;;;;;;;;x
@@ -5473,13 +5473,13 @@ setting_random_scenario_hre;神圣罗马帝国;;;;;;;;;;;;x
 setting_random_scenario_hre_tooltip;在世界某处以神圣罗马帝国为原型生成一个国家。这个国家将拥有广阔的疆域、统一的宗教、高度的地方自治和选举继承法。\n\n- 需要将§Y法理王国/帝国§!设定为「随机」。;;;;;;;;;;;;x
 setting_random_scenario_byz;拜占庭帝国;;;;;;;;;;;;x
 setting_random_scenario_byz_tooltip;在世界某处以拜占庭帝国为原型生成一个国家。这个国家将有广阔的疆域、高度的集权与公国总督制。开局时皇帝将拥有所有法理公国头衔，并将这些头衔以总督制分封出去。\n\n - 需要将§Y法理王国/帝国§!设定为「随机」。;;;;;;;;;;;;x
-setting_dejure_kingdom_size_tooltip;决定随机生成法理王国时王国将会拥有的疆域大小。滑块设置每个王国将拥有的最小和最大法理公爵领数量。在很小的概率下某些地方的王国将会超过或低于设定的限制。;;;;;;;;;;;;x
+setting_dejure_kingdom_size_tooltip;决定随机生成法理王国时王国将会拥有的疆域大小。滑块设置每个王国将拥有的最小和最大法理公国数量。在很小的概率下某些地方的王国将会超过或低于设定的限制。;;;;;;;;;;;;x
 setting_num_emperors_none;无;;;;;;;;;;;;x
 setting_num_emperors_none_tooltip;将不会生成帝国。;;;;;;;;;;;;x
 setting_num_kings_none;无;;;;;;;;;;;;x
 setting_num_kings_none_tooltip;将不会生成王国。;;;;;;;;;;;;x
 setting_num_dukes_none;无;;;;;;;;;;;;x
-setting_num_dukes_none_tooltip;将不会生成公爵领。;;;;;;;;;;;;x
+setting_num_dukes_none_tooltip;将不会生成公国。;;;;;;;;;;;;x
 setting_random_scenario_more_pagans;更多原始宗教信徒;;;;;;;;;;;;x
 setting_random_scenario_more_pagans_tooltip;增加游戏内原始宗教信徒的数量。在某些特殊情况下原始宗教信徒获得土地的过程会被中断。;;;;;;;;;;;;x
 setting_random_scenario_merchant_republics;商业共和国;;;;;;;;;;;;x
@@ -5502,11 +5502,11 @@ svetambara_jain_desc;此人信奉[jain.GetName]的白衣派。;;;;;;;;;;;;x
 setting_title_names;头衔名称;;;;;;;;;;;;x
 setting_title_names_tooltip;决定头衔的名称随机与否。;;;;;;;;;;;;x
 setting_title_names_historical;默认;;;;;;;;;;;;x
-setting_title_names_historical_tooltip;头衔名称将与历史保持一致。如果使用非史实的法理设定，则王国与帝国头衔都会以其一个下级头衔的名称（伯爵领或公爵领）命名。;;;;;;;;;;;;x
-setting_title_names_random;随机（除公爵领外）;;;;;;;;;;;;x
+setting_title_names_historical_tooltip;头衔名称将与历史保持一致。如果使用非史实的法理设定，则王国与帝国头衔都会以其一个下级头衔的名称（伯爵领或公国）命名。;;;;;;;;;;;;x
+setting_title_names_random;随机（公国除外）;;;;;;;;;;;;x
 setting_title_names_random_tooltip;王国和帝国将被分配随机的名称。;;;;;;;;;;;;x
 setting_title_names_random_including_duchies;随机（全部）;;;;;;;;;;;;x
-setting_title_names_random_including_duchies_tooltip;公爵领，王国和帝国将被分配随机的名称。\n请注意，此选项可能导致重复的名称。;;;;;;;;;;;;x
+setting_title_names_random_including_duchies_tooltip;公国，王国和帝国将被分配随机的名称。\n请注意，此选项可能导致重复的名称。;;;;;;;;;;;;x
 the_assassins_desc;[GetAssassinsSocietyDesc];;;;;;;;;;;;x
 the_assassins_desc_random;神出鬼没的刺客认为他们是[shiite.GetHighGodName]的真正追随者，会不惜一切促进[shiite.GetName]信仰进步并保护他们的教友。他们包括忠诚的勇士和优秀的间谍，玩弄手段和社交技巧像使用匕首一样熟练。他们擅长不对称战争，痛击敌人的心脏。;;;;;;;;;;;;x
 the_assassins_desc_real;难以捉摸的阿萨辛们认为自己是安拉的真正追随者，他们会为伊斯兰教什叶派的进步和保护他们的同胞信徒做任何事情。他们包括忠诚的战士和有能力的间谍，使用操纵、社交技能和匕首的能力堪称专业级别，擅长不对等的战争，重击敌人的心脏。;;;;;;;;;;;;x
@@ -5698,7 +5698,7 @@ RETTYPE_CUL_FRA;[old_frankish.GetName]重装步兵;;;;;;;;;;;;x
 RETTYPE_CUL_LOM;[lombard.GetName]重装步兵;;;;;;;;;;;;x
 RETTYPE_CUL_PICTISH;[pictish.GetName]劫掠者;;;;;;;;;;;;x
 RETTYPE_CUL_ANDALUSIAN;[andalusian_arabic.GetName]骑兵;;;;;;;;;;;;x
-setting_religion_features_tooltip;决定宗教特征遵照历史或是采用随机特征。;;;;;;;;;;;;x
+setting_religion_features_tooltip;决定宗教特性遵照历史或是采用随机特性。;;;;;;;;;;;;x
 setting_religion_features_random_tooltip;宗教特性将被随机分配。\n\n- 需要将§Y文化和宗教名称§!设置为「随机」。否则宗教的描述和它们的特性可能不会产生关联。;;;;;;;;;;;;x
 pacifist_alt_tooltip;这种行为违反了你宗教信仰中的非暴力主义\n;;;;;;;;;;;;x
 setting_culture_animal_kingdoms;动物世界;;;;;;;;;;;;x
@@ -5888,7 +5888,7 @@ vaishya_desc_real;这个角色属于吠舍种姓。这是印度商人和工匠�
 brahmin_desc_random;这个角色属于婆罗门种姓。这是[hindu.GetName]祭司和学者的种姓，是种姓等级的最高一级。;;;;;;;;;;;;x
 kshatriya_desc_random;这个角色属于刹帝利种姓。这是[hindu.GetName]战士和君主的种姓，在种姓等级中排第二位。;;;;;;;;;;;;x
 vaishya_desc_random;这个角色属于吠舍种姓。这是[hindu.GetName]商人和工匠的种姓，在种姓等级中排第三位。;;;;;;;;;;;;x
-ALT_MERC_BAND;[renaming_target.Culture.GetName]大队;;;;;;;;;;;;x
+ALT_MERC_BAND;[renaming_target.Culture.GetName]人大队;;;;;;;;;;;;x
 ALT_MERC_BAND_ADJ;[renaming_target.Culture.GetName];;;;;;;;;;;;x
 ALT_MERC_COMPANY;[renaming_target.Religion.GetName][renaming_target.Culture.GetName]佣兵团;;;;;;;;;;;;x
 ALT_MERC_COMPANY_ADJ;[renaming_target.Religion.GetName][renaming_target.Culture.GetName]佣兵团;;;;;;;;;;;;x
@@ -6127,7 +6127,7 @@ EVTOPT_HFP_11010_B_2;他们得先抓到我！;;;;;;;;;;;;x
 EVTOPT_HFP_11010_B_3;你没必要说两遍！我这就乖乖趴下。;;;;;;;;;;;;x
 EVTOPT_HFP_11010_C;嘿，别碰我的[Root.GetBodyPartInjured]！;;;;;;;;;;;;x
 EVTDESC_HFP_11011_A;[battlefield_location.GetName]周围的风景还不错。真希望我不是来打仗的。等到和平到来，或许我可以和[my_beloved.GetFirstName]来这里玩玩……？\n就在这时我的[GetDuelWeapon]被击飞出手，一个衣衫破烂的士兵声如恶魔地喊道：「你的[GetBodyPartInjured]是我的了！」;;;;;;;;;;;;x
-EVTDESC_HFP_11011_B;「你这[GetRootFromInsult]！」敌方[enemy_liege.Culture.GetName]叫骂道，他的表情像个野兽而不是人类。僵持片刻后，我看到一把闪着寒光的剑朝我[GetBodyPartInjured]砍来。;;;;;;;;;;;;x
+EVTDESC_HFP_11011_B;「你这[GetRootFromInsult]！」敌方[enemy_liege.Culture.GetName]士兵叫骂道，他的表情像个野兽而不是人类。僵持片刻后，我看到一把闪着寒光的剑朝我[GetBodyPartInjured]砍来。;;;;;;;;;;;;x
 EVTDESC_HFP_11011_C;我想深呼吸，但是在[battlefield_location.GetLocalTemperature]这种天想缓口气也很难。「看，那是[Root.GetTitle][Root.GetHerselfHimself]！」有人喊道。我转身，只看到我一群[enemy_liege.GetTitledFirstName]的[enemy_liege.GetEnemySoldierDesc]士兵涌上来。;;;;;;;;;;;;x
 EVTOPT_HFP_11011_A;你占不到上风的——我还想留着我的[Root.GetBodyPartInjured]哪！;;;;;;;;;;;;x
 EVTOPT_HFP_11011_B;且慢！你带走这个[equipped_artifact.GetName]，饶我一命如何？;;;;;;;;;;;;x
@@ -6294,7 +6294,7 @@ sword_1_battlefield_desc;原本属于敌兵，[OriginalOwner.GetTitledFirstName]
 sword_2_battlefield_desc;敌军遗失的武器，[OriginalOwner.GetTitledFirstName]从战场上带回来之后，就将此武器放在展示架上。“战利品”，有人说。“废话”，其他人说。;;;;;;;;;;;;x
 sword_3_battlefield_desc;传说中，是从一名受惊的敌军军官那里偷来的，[Root.GetTitledFirstName]很珍视这漂亮的武器，[Root.GetHerHim]无论上战场还是出席宴会都带着它。;;;;;;;;;;;;x
 weapon_battlefield_desc_rename_1;虽然质量欠佳，[Root.GetTitledFirstName]从[battlefield_location.GetName]战场上带回来之后，还是将此武器放在展示架上。有人说这是[Root.GetHerHis]战斗技艺的小小象征，也有人说这是给[Root.GetHerHim]所有敌人的警告。;;;;;;;;;;;;x
-weapon_battlefield_desc_rename_2;[enemy_liege.Culture.GetName]敌军遗失的武器，[Root.GetTitledFirstName]从[battlefield_location.GetName]战场上带回来之后，就将此武器放在展示架上。“战利品”，有人说。“废话”，其他人说。;;;;;;;;;;;;x
+weapon_battlefield_desc_rename_2;[enemy_liege.Culture.GetName]敌军遗失的武器，[Root.GetTitledFirstName]从[battlefield_location.GetName]战场上带回来之后，就将此武器放在展示架上。「战利品，」有人说。「废话。」其他人说。;;;;;;;;;;;;x
 weapon_battlefield_desc_rename_3;传说中，是从一名受惊的[enemy_liege.Culture.GetName]军官那里偷来的，[Root.GetTitledFirstName]很珍视这漂亮的武器，[Root.GetHerHim]无论上战场还是出席宴会都带着它。;;;;;;;;;;;;x
 nick_the_great_beast;巨[Root.GetRegionalBigAnimalCap];;;;;;;;;;;;x
 nick_the_great_eagle;巨鹰;;;;;;;;;;;;x
@@ -6402,12 +6402,12 @@ RANDOM_WORLD_TOOLTIP;§Y随机世界§!;;;;;;;;;;;;x
 RANDOM_WORLD_TOOLTIP_DELAYED;§G点击打开随机世界界面§!\n随机世界模拟了历史的另一种进程——而不是它原本的样子。从弱小的伯爵到强大的皇帝，不同的统治者被复杂的动态法理结构联系在一起。包括文化、宗教、名字、头衔在内的任何内容都可以被动态地随机化——这确保了每次创造的世界都是独一无二的。;;;;;;;;;;;;x
 setting_num_counties;最大省份数量;;;;;;;;;;;;x
 setting_num_counties_tooltip;决定大多数统治者所能拥有的最大省份数量。即使该数字被设置得很高，大多数统治者仍然只会拥有较少省份。;;;;;;;;;;;;x
-setting_num_dukes;公爵领的数量;;;;;;;;;;;;x
-setting_num_dukes_tooltip;决定生成公爵领的数量。;;;;;;;;;;;;x
+setting_num_dukes;公国的数量;;;;;;;;;;;;x
+setting_num_dukes_tooltip;决定生成公国的数量。;;;;;;;;;;;;x
 setting_num_dukes_few;少量;;;;;;;;;;;;x
-setting_num_dukes_few_tooltip;将生成少量的公爵领。;;;;;;;;;;;;x
+setting_num_dukes_few_tooltip;将生成少量的公国。;;;;;;;;;;;;x
 setting_num_dukes_normal;一般;;;;;;;;;;;;x
-setting_num_dukes_normal_tooltip;将生成数量适中的公爵领。;;;;;;;;;;;;x
+setting_num_dukes_normal_tooltip;将生成数量适中的公国。;;;;;;;;;;;;x
 setting_num_dukes_many;大量;;;;;;;;;;;;x
 setting_num_dukes_many_tooltip;将生成庞大的公爵数量。;;;;;;;;;;;;x
 setting_num_kings;王国的数量;;;;;;;;;;;;x
@@ -6951,7 +6951,7 @@ string_not_jesus_christ;先知;;;;;;;;;;;;x
 crusader_king;十字军之王;;;;;;;;;;;;x
 crusader_queen;十字军女王;;;;;;;;;;;;x
 crusader_king_desc;一位富有战士风范的伟大国王，他在异教徒的土地上创建了自己的王国，并将一生献身于与异教徒的战斗之中。;;;;;;;;;;;;x
-crusader_queen_desc;一位富有战士风范的伟大女王，他在异教徒的土地上创建了自己的王国，并将一生献身于与异教徒的战斗之中。;;;;;;;;;;;;x
+crusader_queen_desc;一位富有战士风范的伟大女王，她在异教徒的土地上创建了自己的王国，并将一生献身于与异教徒的战斗之中。;;;;;;;;;;;;x
 d_papal_guards;教皇卫队;;;;;;;;;;;;x
 vassalize_papal_guards;组建教宗卫队;;;;;;;;;;;;x
 vassalize_papal_guards_desc;组建一支私人卫兵单位以保护教宗国;;;;;;;;;;;;x
@@ -7298,17 +7298,17 @@ EVTOPTZHF23011;Why don't we "read" the signs again?;;;;;;;;;;;;x
 EVTOPTAHF23011;怎么会这样子？！;;;;;;;;;;;;x
 tooltip_HF23014_A;全领地强行锁定§Y女性继承法§!和§Y完整女性地位§!法律;;;;;;;;;;;;x
 tooltip_HF23015_A;§YAgnatic Law§! and §YTraditional Status of Women§! are enforced throughout the realm.;;;;;;;;;;;;x
-pagan_branch_decision;决定原始宗教的分支数量;;;;;;;;;;;;x
+pagan_branch_decision;决定原始宗教支派;;;;;;;;;;;;x
 pagan_branch_decision_desc;[Root.Religion.GetName]信仰允许自由解释它的诸部经典。;;;;;;;;;;;;x
-change_pagan_branch_decision;Change Pagan Branch;;;;;;;;;;;;x
-change_pagan_branch_decision_desc;The [Root.Religion.GetName] faith allows free interpretation of the scriptures. Note that a character can change [Root.GetHerHis] branch only once in their lifetime.;;;;;;;;;;;;x
-pagan_branch_1;调和论者;;;;;;;;;;;;x
-pagan_branch_1_desc;This character believes in adapting some of the features of the newer religions to [Root.GetHerHis] own worship of the old gods.;;;;;;;;;;;;x
-pagan_branch_2;Spiritualist;;;;;;;;;;;;x
-pagan_branch_2_desc;This character believes in detaching [Root.GetHerselfHimself] from worldly affairs in the pursuit for true enlightenment.;;;;;;;;;;;;x
-pagan_branch_3;Militant;;;;;;;;;;;;x
-pagan_branch_3_desc;This character has interpreted [Root.GetHerHis] scriptures as a call to action against all the infidels threatening the survival of [Root.GetHerHis] faith.;;;;;;;;;;;;x
-pagan_branch_4;Tribalist;;;;;;;;;;;;x
+change_pagan_branch_decision;改变原始宗教支派;;;;;;;;;;;;x
+change_pagan_branch_decision_desc;[Root.Religion.GetName]信仰允许自由解释它的诸部经典。注意，一个角色一生中只有一次机会去改变[Root.GetHerHis]支派。;;;;;;;;;;;;x
+pagan_branch_1;调和派;;;;;;;;;;;;x
+pagan_branch_1_desc;这名角色相信[Root.GetSheHe]自己对旧神的崇拜应当采纳诸新兴宗教的部分特性。;;;;;;;;;;;;x
+pagan_branch_2;唯灵派;;;;;;;;;;;;x
+pagan_branch_2_desc;这名角色相信为了追求真正的启迪，应当把[Root.GetHerselfHimself]从世俗事物中分离出来。;;;;;;;;;;;;x
+pagan_branch_3;尚武派;;;;;;;;;;;;x
+pagan_branch_3_desc;这名角色已经把[Root.GetHerHis]经典解释为：奋起反抗一切威胁到[Root.GetSheHe]信仰存亡的异教徒的号召。;;;;;;;;;;;;x
+pagan_branch_4;部族派;;;;;;;;;;;;x
 pagan_branch_4_desc;这名角色相信一个[Root.GetManWoman]对[Root.GetHerHis]家庭的关心仍然是真正崇拜旧神的最佳例证。;;;;;;;;;;;;x
 EVTDESCHF23016;The [Root.Religion.GetName] faith allows free interpretation of the scriptures. I must decide which of the main branches of beliefs I ascribe to the most.;;;;;;;;;;;;x
 EVTOPTAHF23016;我是个调和论者!;;;;;;;;;;;;x
@@ -7732,14 +7732,14 @@ roman_christian_revolt;罗马叛乱;;;;;;;;;;;;x
 roman_christian_revolt_desc;罗马公民们在他们的新皇帝对教堂和他们的家园造成无情的破坏之后奋起反抗。;;;;;;;;;;;;x
 ROMAN_CHRISTIAN_REVOLT;罗马农民起义;;;;;;;;;;;;x
 insane_heathen;疯狂的异教徒;;;;;;;;;;;;x
-pagan_branch_timer;§Y[Root.GetTitledFirstName]§!最近没有选择宗教分支。;;;;;;;;;;;;x
+pagan_branch_timer;§Y[Root.GetTitledFirstName]§!最近没有选择宗教支派。;;;;;;;;;;;;x
 faction_abrahamic_revolters;亚伯拉罕后裔的不同政见者;;;;;;;;;;;;x
 faction_abrahamic_revolters_title;亚伯拉罕后裔的不同政见者;;;;;;;;;;;;x
 faction_abrahamic_revolters_desc;恢复一个死去的异教邪教来代替对亚伯拉罕神的崇拜的决定使整个帝国的许多封臣们感到不安。;;;;;;;;;;;;x
 abrahamic_antihellenic_revolt;希腊多神教内战;;;;;;;;;;;;x
 abrahamic_antihellenic_revolt_desc;恢复对死去的异教的崇拜，以取代对亚伯拉罕神的崇拜的决定，已经把新改革的帝国拖入内战。;;;;;;;;;;;;x
 CB_ANTIHELLENIC_WAR;希腊多神教内战;;;;;;;;;;;;x
-WAR_NAME_ANTIHELLENIC_WAR;$ORDER$$SECOND_ADJ$希腊多神教内战;;;;;;;;;;;;x
+WAR_NAME_ANTIHELLENIC_WAR;第$ORDER$$SECOND_ADJ$希腊多神教内战;;;;;;;;;;;;x
 EVTDESCAHF23101;几个世纪以来，教会一直统治着罗马，我的帝国的古都。教皇的影响仍然笼罩着城市，因为许多教堂可以证明这一点。也许现在是时候以无可质疑的方式重申帝国对教会的权威了……;;;;;;;;;;;;x
 EVTDESCBHF23101;即使现在基督徒被赶出了罗马这个伟大而古老的城市，他们的上帝的纪念碑仍然存在，挑战了我作为[Root.GetTitle]的权威。我只有一个选择，如果我想真正声称罗马为我所有…;;;;;;;;;;;;x
 EVTDESCCHF23101;几个世纪以前，加利利人为了掩饰他们的罪行，虚伪地指控我的一位先帝把罗马烧成灰烬。也许是时候我回报他们了，把帝国旧都七山之上的神庙打扫干净……;;;;;;;;;;;;x
@@ -7891,8 +7891,8 @@ EVTOPTA_MNM_20021_B;Until next time, [FromFrom.GetFirstName].;;;;;;;;;;;;x
 EVTDESC_MNM_7002_C;Meeting with [satanists_recruit.GetTitledFirstName], I made sure to only cautiously mention the most extreme and unsavory practices of our rituals... Thankfully, it seems that my carefully chosen words had the desired effect on [satanists_recruit.GetHerHim]. From [satanists_recruit.GetHerHis] glittering eyes I got the distinct impression that [satanists_recruit.GetSheHe] enjoyed the promise of titillating experiences within our congregation.;;;;;;;;;;;;x
 EVTDESC_MNM_7002_D;Meeting with [satanists_recruit.GetTitledFirstName], I made sure to only cautiously mention the most extreme and unsavory practices of our congregation... Regretfully, it seems that my words only irritated my [satanists_recruit.GetRootRelation] – from the steely look [satanists_recruit.GetSheHe] finally gave me, I should probably steer clear of [satanists_recruit.GetHerHim] for now.;;;;;;;;;;;;x
 REFORMATION_RESET_BUTTON;清除;;;;;;;;;;;;x
-tooltip_pick_pagan_branch;决定你所归属的§Y原始宗教分支§!。;;;;;;;;;;;;x
-tooltip_change_pagan_branch;Abandon the §YPagan Branch§! you currently ascribe to and choose another one.;;;;;;;;;;;;x
+tooltip_pick_pagan_branch;决定你所归属的§Y原始宗教支派§!。;;;;;;;;;;;;x
+tooltip_change_pagan_branch;放弃你目前归属的§Y原始宗教支派§!并选择另一个。;;;;;;;;;;;;x
 EVTDESC670_HF_B;古老的[Root.Religion.GetName]宗教已经被证明无法抵御十字架与月亮的冲击。比起完全放弃老路，[Root.GetTitledName]与[Root.GetHerHim]最有实力的祭司们已经决定改革[Root.Religion.GetName]信仰，从而使他们古老的习俗能得到葆存。\n随着官方神职人员的就任和钦定经文的颁发，这个新宗教已经开始在旧[Root.Religion.GetName]的信徒中传播。;;;;;;;;;;;;x
 EVTDESCHFPA20067;我的情人[From.GetFirstName]刚刚告诉我，她有了我的孩子。;;;;;;;;;;;;x
 EVTDESCHFPB20067;我已经得知我的情人[From.GetFirstName]有了孩子。希望她能让她丈夫相信是他的孩子。;;;;;;;;;;;;x
@@ -8136,7 +8136,7 @@ king_female_roman;女王;;;;;;;;;;;;x
 kingdom_of_roman;王国;;;;;;;;;;;;x
 duke_roman;公爵;;;;;;;;;;;;x
 duke_female_roman;女公爵;;;;;;;;;;;;x
-duchy_of_roman;公爵领;;;;;;;;;;;;x
+duchy_of_roman;公国;;;;;;;;;;;;x
 count_roman;Comes;;;;;;;;;;;;x
 count_female_roman;Countess;;;;;;;;;;;;x
 county_of_roman;伯爵领;;;;;;;;;;;;x
@@ -8243,7 +8243,7 @@ EVTOPTC50010;让我们做些原始的事……;;;;;;;;;;;;x
 EVTOPTD50010;呃，把他们丢进铜牛里就好了……;;;;;;;;;;;;x
 EVTDESCHF24006;无耻谣言在西西里传播着。谣言说这座一度繁华的地中海岛屿已经落入一个残酷的[From.GetManWoman]之手，此人宣称自己是当年的暴君[pagan_group.GetName]之后。\n\n[From.GetSheHe]已被偏执的妄诞和施虐的幻想吞噬，杀死了[From.GetHerHis]最无关紧要的数百臣民。\n[From.GetHerHis]大部分受害者最终在[From.GetHerHis]铜牛腹中死去，这铜牛正是[From.GetHerHis]堕落王朝的象征。;;;;;;;;;;;;x
 EVTOPTAHF24006;真恶心！;;;;;;;;;;;;x
-roman_opinion;[roman.GetName]好感;;;;;;;;;;;;x
+roman_opinion;[roman.GetName]文化好感;;;;;;;;;;;;x
 bloodline_effect_teuta_ships;可以在战争期间召唤§Y船只§!;;;;;;;;;;;;x
 EVTTITLEHF24011;伊利里亚女王;;;;;;;;;;;;x
 EVTDESCAHF24011;My recent victory over the Roman armies of [defeated_emperor.GetTitledFirstName] has resonated across [Root.PrimaryTitle.GetName]. Despite all odds, I was able to lead my people against all the legions and the formidable power of the Imperial fleet, laying waste upon the decadent rule of House [defeated_emperor.GetOnlyDynastyName]. \nSuch was my triumph that the people have started to compare me to Teuta, an ancient [pagan_group.GetName] Queen who once stood against the ambitions of Rome, going even as far as to whisper that my prowess in this war is proof that I share some of my blood with her.;;;;;;;;;;;;x
@@ -8267,7 +8267,7 @@ EVTOPTAHF24015;欢迎你们！;;;;;;;;;;;;x
 EVTDESCHFA24016;A few pirate ships have gathered at the shores of [Root.PrimaryTitle.GetName]. Their owners have offered their services in the war to come, hoping to repay me for offering them haven from the tyranny of the Imperial fleet of the Romans.;;;;;;;;;;;;x
 EVTDESCHFB24016;A few pirate ships have gathered at the shores of [Root.PrimaryTitle.GetName]. Their owners have offered their services in the war to come, hoping to repay my family for offering them haven from the tyranny of the Imperial fleet of the Romans.;;;;;;;;;;;;x
 EVTOPTAHF24016;不客气。;;;;;;;;;;;;x
-south_slavic_opinion;[south_slavic.GetGroupName]好感;;;;;;;;;;;;x
+south_slavic_opinion;[south_slavic.GetGroupName]文化组好感;;;;;;;;;;;;x
 EVTDESCHFA25000;A promising member of [invited_lodge_soldier.Society.GetName], [invited_lodge_soldier.GetFirstName], is eager to test [invited_lodge_soldier.GetHerHis] mettle in battle and prove [invited_lodge_soldier.GetHerHis] loyalty fighting by my side and leading my armies against the enemies of [Root.PrimaryTitle.GetName].;;;;;;;;;;;;x
 EVTOPTCHF25000;很好！我已经知道要换掉谁了…;;;;;;;;;;;;x
 EVTOPTAHF25000;我期待着你带来的好东西，[invited_lodge_soldier.GetFirstName]。;;;;;;;;;;;;x
@@ -8853,7 +8853,7 @@ c_kirichi_adj;基里希;;;;;;;;;;;;x
 ALT_START_GENERIC_HERESY_DESC_10;[GetName]信仰的信徒毫不理会[GetPriestTitle]的话，拒绝接受被他们认为是来自[GetRandomEvilGodName]的传道、当听到有人朗诵来自[GetScriptureName]的任何文章时，他们立刻用欧芹塞进耳朵。为了纪念[GetHighGodName]，在宗教节日，每个信徒都会准备大量的欧芹。;;;;;;;;;;;;x
 ALT_START_GENERIC_HERESY_DESC_11;[GetName]的宗教信徒相信[GetScriptureName]每三段就有一段是[GetRandomEvilGodName]写的，这让正统宗教信徒非常惊讶。宗教狂热者通常会在石头上写下冒犯的语句，然后把这些石头扔向他们认为是异教徒的人或异教徒人的房子。;;;;;;;;;;;;x
 ALT_START_GENERIC_HERESY_DESC_12;[GetName]宗教的信徒喜爱寒冷的夜晚，他们相信[GetHighGodName]触摸就像最冷的冬天一样冰冷。因为[GetScriptureName]没有提过这一点，正统信仰的[GetPriestTitle]认为这些仪式是异端行为，是受了[GetRandomEvilGodName]的蛊惑。;;;;;;;;;;;;x
-ALT_START_GENERIC_HERESY_DESC_13;[GetName]信仰的[GetPriestTitle]认为，他们的礼拜方式不仅是正确的，而且比更传统的信徒要古老得多。几千年来，[GetName]信仰蓬勃发展。直到其中一个极小的宗教派别分裂形成了宗教的新分支–这大约是[GetName][GetPriestTitle]们的说法。信仰的一个决定性特征是[GetPriestTitle]的私生活必须完全保密，当他们不处理教团事务时，常常会看到他们穿着伪装。;;;;;;;;;;;;x
+ALT_START_GENERIC_HERESY_DESC_13;[GetName]信仰的[GetPriestTitle]认为，他们的礼拜方式不仅是正确的，而且比更传统的信徒要古老得多。几千年来，[GetName]信仰蓬勃发展。直到其中一个极小的宗教派别分裂形成了宗教的新分支–这大约是[GetName][GetPriestTitle]们的说法。信仰的一个决定性特性是[GetPriestTitle]的私生活必须完全保密，当他们不处理教团事务时，常常会看到他们穿着伪装。;;;;;;;;;;;;x
 ALT_START_GENERIC_HERESY_DESC_14;[GetName]信仰的信徒认为每个人都能读[GetScriptureName]，而不仅仅由[GetPriestTitle]们来解读。因此他们制造了许多[GetScriptureName]的抄本，本地化成几种语言。许多抄本被不严谨的[GetPriestTitle]改写了，这也是[GetName]信徒被视为异端的一个原因。;;;;;;;;;;;;x
 ALT_START_GENERIC_HERESY_DESC_15;[GetName]信徒自己的信仰和正统信仰之间有许多相似之处。事实上双方的[GetPriestTitle]都无法在两个教派之间找到一个实际的区别 – 他们都，对[GetScriptureName]抱有崇高尊敬，用正确的方式赞美[GetHighGodName]，害怕[GetRandomEvilGodName]的报复。尽管如此，[GetName]信仰的追随者仍然声称自己是异教徒，并对宣扬此事十分热情。;;;;;;;;;;;;x
 ALT_START_GENERIC_HERESY_DESC_16;[GetName]信仰的[GetPriestTitle]们常常在大街上和公共建筑中公开布道，他们也常常嘲笑与唾弃那些不相信他们对于[GetScriptureName]作出的荒谬解释的人。[GetName]信徒认为[GetScriptureName]的内容应该被简化到哪怕是一个孩子也能够完全理解的程度，他们还经常改写各个章节，以便最愚钝的人也能理解——而这显然引起了强硬派信徒的不满。;;;;;;;;;;;;x
@@ -9876,23 +9876,23 @@ b_kolchugino;科利丘吉诺;;;;;;;;;;;;x
 b_varvarino;Varvarino;;;;;;;;;;;;x
 b_bavleny;巴夫列内;;;;;;;;;;;;x
 b_berezhok;Berezhok;;;;;;;;;;;;x
-b_lotoshino;Lotoshino;;;;;;;;;;;;x
-b_puchka;Puchka;;;;;;;;;;;;x
+b_lotoshino;洛托希诺;;;;;;;;;;;;x
+b_puchka;普奇卡;;;;;;;;;;;;x
 b_turayevo;图拉耶沃;;;;;;;;;;;;x
-b_burashevo;Burashevo;;;;;;;;;;;;x
+b_burashevo;布拉舍沃;;;;;;;;;;;;x
 b_rzheva;勒热瓦;;;;;;;;;;;;x
-b_gorodok;Gorodok;;;;;;;;;;;;x
+b_gorodok;戈罗多克;;;;;;;;;;;;x
 b_vysokoye;维索科耶;;;;;;;;;;;;x
 b_mednoye;梅德诺耶;;;;;;;;;;;;x
-b_pleshki;Pleshki;;;;;;;;;;;;x
+b_pleshki;普列什基;;;;;;;;;;;;x
 b_deshevki;Deshevki;;;;;;;;;;;;x
 b_zoubtsov;祖布佐夫;;;;;;;;;;;;x
-b_yesinka;Yesinka;;;;;;;;;;;;x
-b_verigino;Verigino;;;;;;;;;;;;x
-b_batakovo;Batakovo;;;;;;;;;;;;x
-b_papino;Papino;;;;;;;;;;;;x
-b_vysokino;Vysokino;;;;;;;;;;;;x
-b_ulyankovo;乌里扬科沃;;;;;;;;;;;;x
+b_yesinka;叶辛卡;;;;;;;;;;;;x
+b_verigino;韦里吉诺;;;;;;;;;;;;x
+b_batakovo;巴塔科沃;;;;;;;;;;;;x
+b_papino;帕皮诺;;;;;;;;;;;;x
+b_vysokino;维索基诺;;;;;;;;;;;;x
+b_ulyankovo;乌良科沃;;;;;;;;;;;;x
 b_kaliazin;卡利亚津;;;;;;;;;;;;x
 b_kimry;基姆雷;;;;;;;;;;;;x
 b_likhoslavl;利霍斯拉夫尔;;;;;;;;;;;;x
@@ -9900,10 +9900,10 @@ b_kesova_gora;克索瓦戈拉;;;;;;;;;;;;x
 b_goritsy;戈里齐;;;;;;;;;;;;x
 b_ustinovo;乌斯季诺沃;;;;;;;;;;;;x
 b_molvotitsy;莫尔沃季齐;;;;;;;;;;;;x
-b_zelenyy;Zelenyy;;;;;;;;;;;;x
+b_zelenyy;泽廖内;;;;;;;;;;;;x
 b_lvy;Lvy;;;;;;;;;;;;x
-b_yepikharka;Yepikharka;;;;;;;;;;;;x
-b_rezanka;Rezanka;;;;;;;;;;;;x
+b_yepikharka;叶皮哈尔卡;;;;;;;;;;;;x
+b_rezanka;列赞卡;;;;;;;;;;;;x
 b_kondakovo;孔达科沃;;;;;;;;;;;;x
 b_ustyuzhna;乌斯秋日纳;;;;;;;;;;;;x
 b_ugliche_pole;乌格里奇波列;;;;;;;;;;;;x
@@ -9913,7 +9913,7 @@ b_koprino;科普里诺;;;;;;;;;;;;x
 b_breytovo;布列伊托沃;;;;;;;;;;;;x
 b_rybinsk;雷宾斯克;;;;;;;;;;;;x
 b_petropavlovsky;彼得罗巴甫洛夫斯基;;;;;;;;;;;;x
-b_spaso-preobrazhensky;Spaso-Preobrazhensky;;;;;;;;;;;;x
+b_spaso-preobrazhensky;斯帕索普列奥布拉任斯基;;;;;;;;;;;;x
 b_cherepovets;切列波韦茨;;;;;;;;;;;;x
 b_ferapontov;费拉蓬托夫;;;;;;;;;;;;x
 b_vytegra;维捷格拉;;;;;;;;;;;;x
@@ -10281,7 +10281,7 @@ CRUSADE_WARO_BATTLES;§L战斗：§!;;;;;;;;;;;;x
 CRUSADE_WARO_OCCUPATION;§L占领：§!;;;;;;;;;;;;x
 holy_order_donate_cooldown_tt;过去一年中没有捐款给[Root.GetHolyOrderDonationCD];;;;;;;;;;;;x
 donate_to_holy_order_cd;- 你下次可以捐款给骑士团的时间：§Y[This.donate_to_holy_order_cooldown.GetExpiryDate]§!;;;;;;;;;;;;x
-d_tioharad_adj;Värender;;;;;;;;;;;;x
+d_tioharad_adj;维伦德;;;;;;;;;;;;x
 d_papal_guards_adj;教皇卫队;;;;;;;;;;;;x
 c_leoben_adj;莱奥本;;;;;;;;;;;;x
 c_graz_adj;格拉茨;;;;;;;;;;;;x
@@ -10366,7 +10366,7 @@ EVTOPTA_HFP_11028;哈哈！我会把你的头挂在我[Root.GetCapitalHolding]�
 EVTOPTB_HFP_11028;安息吧，[enemy_commander.GetBrotherSister]。;;;;;;;;;;;;x
 enemy_skull;敌人的头骨;;;;;;;;;;;;x
 enemy_skull_named;[enemy_commander.GetFirstName]的头骨;;;;;;;;;;;;x
-enemy_skull_named_culture;[enemy_commander.Culture.GetName]头骨;;;;;;;;;;;;x
+enemy_skull_named_culture;[enemy_commander.Culture.GetName]人头骨;;;;;;;;;;;;x
 enemy_skull_barbarian;野蛮人的头骨;;;;;;;;;;;;x
 enemy_skull_desc;这个头骨上有一些褪色的斑点，提醒所有人头骨主人遭受到的酷刑。他们说在[Root.GetTitledFirstName]决定把它从[battlefield_location.GetName]之战后带回家之前，[enemy_commander.GetBestName]被完整地切下了[enemy_commander.GetHerHis]的头。;;;;;;;;;;;;x
 skull_cup;骷髅杯;;;;;;;;;;;;x
@@ -10733,7 +10733,7 @@ string_reception_3;战士和平民们看到你时都快晕倒了，其中一个[
 string_summary_1;「我很高兴你能够回来，我的[Root.GetLordLady]」;;;;;;;;;;;;x
 string_summary_2;「我觉得你有一些传言要解释，我的[Root.GetLordLady]。」[my_beloved.GetSheHeCap]傻笑着，补充道：「或者修饰一下，我想。」;;;;;;;;;;;;x
 string_summary_3;「吟游诗人们将会代代传唱您的伟业！他们声称您击溃了一支由百位战士和野生[target_ruler.Capital.GetRegionalBigAnimal]组成的军队？我们还收到一些消息，您队伍中的一些人已经被俘虏或是……」[my_beloved.GetManWoman]的声调降了下来，随后[my_beloved.GetSheHe]又使[my_beloved.GetHerselfHimself]恢复镇定。\n「我[Root.GetLordLady]：欢迎回家。」;;;;;;;;;;;;x
-EVTOPTA_HF_12300;为了每一个[Root.Culture.GetName]！;;;;;;;;;;;;x
+EVTOPTA_HF_12300;为了每一个[Root.Culture.GetName]人！;;;;;;;;;;;;x
 EVTDESC_HF_12301;[From.GetTitledName], your [From.GetRootRelation], has left this earthly realm, but tales of [From.GetHerHis] adventures are all around us. The memory of the [From.GetChineseComplimentAdjective] warrior-[From.GetManWoman] is sure to live on, if not in the hearts of [From.GetHerHis] companions, so in the blood of [From.GetHerHis] family.\n\nA hero has left us.;;;;;;;;;;;;x
 EVTOPTA_HF_12301;我们会记住你的，[From.GetTitledFirstName]。;;;;;;;;;;;;x
 EVTDESC_HF_12302_A;他们说，在[From.Capital.GetName]的[From.GetCapitalHolding]中的每个人都花了几个月的时间来准备庆祝[From.GetTitledName]的回归。在[From.GetSheHe]离开[target_title.GetName]之前，这个[From.GetManWoman]一直是种种有趣且迷人的传言的主要来源，但是所有的这些都一致认同这名传奇完全值得这些盛况。当[From.Society.GetName]为这位战士的胜利而庆祝时，我们也祈祷年轻人们找到值得效仿的活的传奇。;;;;;;;;;;;;x
@@ -10890,7 +10890,7 @@ inspired_singer_desc;这个角色以高唱凯歌激励[Root.GetHerHis]战场上�
 inspired_drummer;战场鼓手;;;;;;;;;;;;x
 inspired_drummer_desc;这个角色以在远远进入战场前奏响破坏之声恐吓[Root.GetHerHis]敌人而出名。;;;;;;;;;;;;x
 EVTOPT_HFP_11010_Bard_1;我必须活下去，我能够谱写一首考验我的歌谣！;;;;;;;;;;;;x
-EVTOPT_HFP_11010_Bard_2;让我为你唱一首关于愚蠢的[enemy_liege.Culture.GetName]……!;;;;;;;;;;;;x
+EVTOPT_HFP_11010_Bard_2;让我为你唱一首关于愚蠢的[enemy_liege.Culture.GetName]人……!;;;;;;;;;;;;x
 EVTOPT_HFP_11010_Bard_3;哦，侮辱？我知道一首歌，嘲笑[enemy_liege.GetTitledFirstName]。;;;;;;;;;;;;x
 EVTOPT_HFP_11010_Bard_3_TT;你咬紧牙关开始哼唱熟悉的曲调，彻底摆脱了敌人……！\n;;;;;;;;;;;;x
 EVTOPT_HFP_11011_Bard_1;哈！我会记住的，作我下一次的战歌！;;;;;;;;;;;;x
@@ -11153,7 +11153,7 @@ d_livonian_order_adj;利沃尼亚骑士团;;;;;;;;;;;;x
 d_livonian_order;利沃尼亚骑士团;;;;;;;;;;;;x
 EVTDESC107006;在同一窗口下，你可以查看你的属性和特质，它们代表了你的能力和个性。\n\n此外，角色还可拥有一个代表短期目标的野心。角色达成野心后会获得奖励，比如一些威望或虔诚。点击「选择野心」按钮，检视你的所有野心并从中挑选一个吧。;;;;;;;;;;;;x
 EVTOPTB_WOL_2071_TT;阴谋败露了，我应该停止监视§Y[target_spy_on.GetTitledName]§!;;;;;;;;;;;;x
-EVTOPTA_ZE_2120_TT;§Y[target_child.GetTitledName]§!成为§Y[Root.Culture.GetName]§!;;;;;;;;;;;;x
+EVTOPTA_ZE_2120_TT;§Y[target_child.GetTitledName]§!成为§Y[Root.Culture.GetName]人§!;;;;;;;;;;;;x
 EVTDESC534_converted;目标[Root.GetBaseName]的[From.Religion.GetCrusadeName]目标[New.GetTitledName]的战争由于[New.GetTitledName]皈依[From.Religion.GetGroupName]信仰而结束。[From.Religion.GetRandomGodNameCap]必然无比满意！;;;;;;;;;;;;x
 EVTDESC_JD_60403;来自东方的小道消息声称，近来[offmap_china.Ruler.GetLongChineseEmperorName]龙颜大悦，因为[From.PrimaryTitle.GetAdjective]的宣称者[invasion_of_china_claimant.GetBestName]已经死了。\n[invasion_of_china_claimant.GetHerHisCap]死动摇了[From.Culture.GetName]军队的军心，现在他们已经撤回[From.PrimaryTitle.GetName]本地。\n正如[invasion_of_china_claimant.GetBestName]一样，对[offmap_china.GetShortName]的入侵现在已经偃旗息鼓了。;;;;;;;;;;;;x
 EVT_OPTB_JD_60403;我真是赔了[invasion_of_china_claimant.GetFirstName]又折兵！;;;;;;;;;;;;x
@@ -11379,7 +11379,7 @@ EVTOPTA_HFP_41160;赞美[From.Religion.GetHighGodName]！;;;;;;;;;;;;x
 EVTOPTB_HFP_41160;该死的异教徒！;;;;;;;;;;;;x
 EVTDESC_HFP_42000;我的军队冲向[From.GetBaseName]的城墙，终于占据了[duchy_region.GetBaseName]的最后一个堡垒。如果我在周围地区驻扎我的军队，他们就能支持正在进行的十字军并帮助我们取得胜利，但如果我不合法地为自己取得这些土地，教宗会感到不满。;;;;;;;;;;;;x
 EVTOPTA_HFP_42000;[duchy_region.GetBaseName]成为[Root.PrimaryTitle.GetName]的一部分听上去很合适。;;;;;;;;;;;;x
-EVTOPTA_HFP_42000_TT_1;§Y[Root.GetTitledName]§!篡夺了§Y[duchy_region.GetBaseName]公爵领§!内的所有头衔。;;;;;;;;;;;;x
+EVTOPTA_HFP_42000_TT_1;§Y[Root.GetTitledName]§!篡夺了§Y[duchy_region.GetBaseName]公国§!内的所有头衔。;;;;;;;;;;;;x
 EVTOPTA_HFP_42000_TT_2;§Y所有作出誓言的十字军战士§!对§Y[Root.GetTitledName]§!的好感在§Y10§!年内改变了§R-20§!。§Y（自私的十字军战士）;;;;;;;;;;;;x
 EVTOPTB_HFP_42000;我会为这片新土地找到一个合适的统治者。;;;;;;;;;;;;x
 EVTOPTB_HFP_42000_TT;§Y[current_crusade_beneficiary.GetTitledName]§!将会成为独立的§Y[duchy_region.GetBaseName][current_crusade_beneficiary.GetDukeDuchessCap]§!。;;;;;;;;;;;;x
@@ -11391,7 +11391,7 @@ EVTOPTB_HFP_42001;该死的[From.Religion.GetGroupName]！;;;;;;;;;;;;x
 EVTOPTC_HFP_42001;我想知道[duchy_region.GetBaseName]的生活会是什么样的。;;;;;;;;;;;;x
 EVTDESC_HFP_42002;[old_crusade_title.GetName]的旧头衔常被其他人认为有些不太合法。既然我已经取得了新头衔，也许是时候抛弃旧头衔，接受一个更加适合的合法头衔了。;;;;;;;;;;;;x
 EVTOPTA_HFP_42002;我会亲自把它合法化！;;;;;;;;;;;;x
-EVTOPTA_HFP_42002_TT;将[old_crusade_title.GetName]合法化为境内新的合法公爵领。这将使旧的[duchy_title.GetName]公爵领非法化。;;;;;;;;;;;;x
+EVTOPTA_HFP_42002_TT;将[old_crusade_title.GetName]合法化为境内新的合法公国。这将使旧的[duchy_title.GetName]公国非法化。;;;;;;;;;;;;x
 EVTOPTB_HFP_42002;这头衔跟着我们够久了。安息吧，老朋友。;;;;;;;;;;;;x
 EVTOPTC_HFP_42002;无论合法化与否我都会留着它。;;;;;;;;;;;;x
 EVTTITLE_HFP_42003;十字军夺得了[duchy_region.GetBaseName];;;;;;;;;;;;x
@@ -11405,7 +11405,7 @@ EVTDESC_HFP_42202;[current_location.GetName]这里的最后几天是段有趣的
 EVTOPTA_HFP_42202;趁着还有时间，我应该尽量多学一些这些地方的知识！;;;;;;;;;;;;x
 EVTOPTB_HFP_42202;我会尝试与一位当地人交朋友。;;;;;;;;;;;;x
 EVTOPTC_HFP_42202;放弃这些渎神的想法！;;;;;;;;;;;;x
-EVTOPTD_HFP_42202;我觉得自己比起[Root.Culture.GetName]更像是[current_location.Culture.GetName]。;;;;;;;;;;;;x
+EVTOPTD_HFP_42202;我觉得自己比起[Root.Culture.GetName]人更像是[current_location.Culture.GetName]人。;;;;;;;;;;;;x
 EVTDESC_HFP_42203;这里看上去是一个被废弃的战场，举目望去尽是七零八落的战死者。显然基督的战士们在[current_location.GetName]遭遇了不小的抵抗。;;;;;;;;;;;;x
 EVTOPTA_HFP_42203;我将安葬这些基督的战士。;;;;;;;;;;;;x
 EVTOPTB_HFP_42203;我将安葬所有人。;;;;;;;;;;;;x
@@ -11638,9 +11638,9 @@ destroy_muslim_leadership;§Y穆斯林哈里发国§!被§Y摧毁§!了;;;;;;;;;
 INSULT_UNBELIEVER;亵渎者;;;;;;;;;;;;x
 THE_SHEPHERDS_CRUSADE;牧羊人十字军;;;;;;;;;;;;x
 CB_NAME_SHEPHERDS_CRUSADE;对[Title.GetBaseName]的牧羊人十字军;;;;;;;;;;;;x
-WAR_NAME_SHEPHERDS_CRUSADE;$ORDER$[Title.GetBaseName]之牧羊人十字军;;;;;;;;;;;;x
+WAR_NAME_SHEPHERDS_CRUSADE;第$ORDER$[Title.GetBaseName]之牧羊人十字军;;;;;;;;;;;;x
 CB_NAME_NORTHERN_CRUSADE;对[Title.GetBaseName]的条顿战争;;;;;;;;;;;;x
-WAR_NAME_NORTHERN_CRUSADE;$ORDER$$OTHER_TITLE$条顿战争;;;;;;;;;;;;x
+WAR_NAME_NORTHERN_CRUSADE;第$ORDER$条顿骑士团夺取$OTHER_TITLE$战争;;;;;;;;;;;;x
 northern_crusade_war_desc;§Y[Root.GetTitledName]§!可以使用这个宣战接口攻击§Y$TITLE$§!上的§Y$TARGET$§!，作为使北方异教徒转信的北方十字军的一部分。;;;;;;;;;;;;x
 KINGDOM_OF_THE_SHEPHERDS;[shepherds_kingdom.GetBaseName];;;;;;;;;;;;x
 vassalize_knights_templar_opinion_TT;§Y[d_knights_templar.Holder.GetTitledName]§!对§Y[Root.GetTitledName]§!有高于§G25§!的好感度;;;;;;;;;;;;x
@@ -11715,7 +11715,7 @@ shepherds_settled;安置牧羊人;;;;;;;;;;;;x
 opinion_formed_order;建立骑士团;;;;;;;;;;;;x
 saintly_bloodline_same_religion_TT;[From.Founder.Religion.GetName];;;;;;;;;;;;x
 saintly_bloodline_same_culture_TT;[From.Founder.Culture.GetName];;;;;;;;;;;;x
-old_frankish_opinion;[old_frankish.GetName]好感;;;;;;;;;;;;x
+old_frankish_opinion;[old_frankish.GetName]文化好感;;;;;;;;;;;;x
 custom_russia;Rus Region;;;;;;;;;;;;x
 EVTOPTB8405;I will join the cause.;;;;;;;;;;;;x
 EVTOPTB_HF_46010_TT;Preparations to pillage the burial site begins.;;;;;;;;;;;;x
@@ -11761,10 +11761,10 @@ fourth_crusade_greek_empire_name;[From.Capital.GetName];;;;;;;;;;;;x
 kingdom_of_styria_name;施蒂里亚;;;;;;;;;;;;x
 kingdom_of_bavaria_name;巴伐利亚;;;;;;;;;;;;x
 kingdom_of_carinthia_name;卡林西亚;;;;;;;;;;;;x
-byzantine_opinion;[byzantine.GetGroupName]好感;;;;;;;;;;;;x
-latin_opinion;[latin.GetGroupName]好感;;;;;;;;;;;;x
-central_germanic_opinion;[central_germanic.GetGroupName]好感;;;;;;;;;;;;x
-west_germanic_opinion;[west_germanic.GetGroupName]好感;;;;;;;;;;;;x
+byzantine_opinion;[byzantine.GetGroupName]文化组好感;;;;;;;;;;;;x
+latin_opinion;[latin.GetGroupName]文化组好感;;;;;;;;;;;;x
+central_germanic_opinion;[central_germanic.GetGroupName]文化组好感;;;;;;;;;;;;x
+west_germanic_opinion;[west_germanic.GetGroupName]文化组好感;;;;;;;;;;;;x
 opinion_unfit_ruler;不称职的领袖;;;;;;;;;;;;x
 saintly_bloodline_name;圣徒[saint_person.GetDynName]之血;;;;;;;;;;;;x
 BLESSED_TITLE_FEMALE;神眷者;;;;;;;;;;;;x
@@ -11823,7 +11823,7 @@ tooltip_feudal_elector_vote_child;[From.GetSheHeCap]只是个孩子;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_youngster;[From.GetSheHeCap]太年轻了;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_oldtimer;[From.GetSheHeCap]已经错过了[From.GetHerHis]全盛时期;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_decrepit;[From.GetSheHeCap]太老了;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_fellow_culture;[From.GetSheHeCap]是§Y[From.Culture.GetName]§!;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_fellow_culture;[From.GetSheHeCap]是§Y[From.Culture.GetName]人§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_stranger;[From.GetSheHeCap]与我的习俗格格不入;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_foreigner;[From.GetSheHeCap]是个外国人;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_strangers_pet;[From.GetSheHeCap]是外国人的宠物;;;;;;;;;;;;x
@@ -12544,7 +12544,7 @@ bloodthirsty_flower_war_province_desc;很多守护这片领地的士兵都在最
 flower_war_cb;荣冠战争;;;;;;;;;;;;x
 flower_war_cb_desc;To prove our eternal devotion to the gods we can wage war not for land, but to conquer worthy offerings for our altars.;;;;;;;;;;;;x
 CB_NAME_FLOWER_WAR;荣冠战争;;;;;;;;;;;;x
-WAR_NAME_FLOWER_WAR;$ORDER$$FIRST_ADJ$$SECOND_ADJ$鲜花战争;;;;;;;;;;;;x
+WAR_NAME_FLOWER_WAR;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$荣冠战争;;;;;;;;;;;;x
 flower_war_cb_tooltip;胜利后所有被俘虏的敌军都将被献祭给神明，使[This.GetTitledFirstName]的土地在几年内无人守御。;;;;;;;;;;;;x
 opinion_abducted_peasants;附庸被劫持;;;;;;;;;;;;x
 won_flower_war;赢得荣冠战争;;;;;;;;;;;;x
@@ -12623,20 +12623,20 @@ destroyed_great_pillar;大立柱被毁;;;;;;;;;;;;x
 recently_built_great_pillar;立起大立柱;;;;;;;;;;;;x
 recently_built_great_pillar_desc;一根[Root.Religion.GetName]信仰的大立柱最近在[Root.GetFirstName]的领地内被立下，这将激起[Root.GetHerHis]宗教热情。;;;;;;;;;;;;x
 recently_destroyed_great_pillar_cooldown;遭焚的大立柱;;;;;;;;;;;;x
-recently_destroyed_great_pillar_cooldown_desc;One of the great symbols of the [Root.Religion.GetName] faith have been recently destroyed, breaking this [Root.GetManWoman]'s faith.;;;;;;;;;;;;x
+recently_destroyed_great_pillar_cooldown_desc;[Root.Religion.GetName]信仰最伟大的标志之一刚刚被摧毁，伤害了[Root.GetManWoman]的信仰……;;;;;;;;;;;;x
 destroy_great_pillar;摧毁大立柱;;;;;;;;;;;;x
 destroy_great_pillar_desc;摧毁这种堕落信仰的腐朽象征是我们必须采取的重要措施，以荡涤旧的仪式和迷信。;;;;;;;;;;;;x
 tooltip_celebrate_destroyed_great_pillar;本地的§Y大立柱§!将会永远消失。;;;;;;;;;;;;x
 tooltip_ruler_recently_had_pillar_destroyed;§Y[From.Religion.GetName]的大立柱§!最近没有被摧毁。;;;;;;;;;;;;x
 EVTTITLEHF23470;[Root.PrimaryTitle.GetName]之柱;;;;;;;;;;;;x
-EVTDESCAHF23470;By carving this imposing Irminsul Tree, the fires of the [Root.Religion.GetName] faith have been stoked, bringing a bit of life to the spirits of our old and fierce gods. The first offerings are already being presented at the feet of the new sacred monument of [From.GetName].;;;;;;;;;;;;x
+EVTDESCAHF23470;通过雕刻这棵气势宏伟的伊尔明苏尔圣树，[Root.Religion.GetName]信仰之火已被点燃，这给我们那虽然古老但是依然不屈的神灵带去了一点精神上的活力。第一批祭品早已在[From.GetName]的全新且神圣的纪念碑脚下被献祭，直达神祇。;;;;;;;;;;;;x
 EVTDESCBHF23470;By the construction of this sacred Ovoo Shrine, the fires of the [Root.Religion.GetName] faith have been stoked, bringing a bit of life to the spirits of our old and wild gods. The first offerings are already being presented at the feet of the new sacred monument of [From.GetName].;;;;;;;;;;;;x
 EVTDESCCHF23470;通过建造我们新的大立柱，[Root.Religion.GetName]信仰的热情被点燃了，这给我们那虽然古老但是依然不屈的神灵带去了一点精神上的活力。第一批祭品早已在[From.GetName]的全新且神圣的大立柱脚下被献祭，直达神祇。;;;;;;;;;;;;x
 EVTDESCDHF23470;通过建造我们新的大立柱，[Root.Religion.GetName]信仰的热情被点燃了，这给我们那虽然古老但是依然不屈的神灵带去了一点精神上的活力。第一批祭品早已在[From.GetName]的全新且神圣的大立柱脚下被献祭，直达神祇。;;;;;;;;;;;;x
 EVTDESCEHF23470;By consecrating an Hisii Grove, the fires of the [Root.Religion.GetName] faith have been stoked, bringing a bit of life to the spirits of our old and mysterious gods. The first offerings are already being presented at the feet of the new sacred monument of [From.GetName].;;;;;;;;;;;;x
 EVTDESCFHF23470;By carving this Great Totem, the fires of the [Root.Religion.GetName] faith have been stoked, bringing upon our tribes the protection of many benevolent spirits. The first offerings are already being presented at the feet of the new sacred monument of [From.GetName].;;;;;;;;;;;;x
 EVTDESCGHF23470;By carving this imposing Totem with the remains of our sacrifices, we have provided the gods with a great offering, buying us some reprieve from their terrible thirst for blood. The first offerings are already being presented at the feet of the new sacred monument of [From.GetName].;;;;;;;;;;;;x
-EVTDESCHHF23470;通过建造我们新的大纪念碑，[Root.Religion.GetName]信仰的热情被点燃了，这给我们那虽然古老但是依然不屈的神灵带去了一点精神上的活力。第一批祭品早已在[From.GetName]的全新且神圣的大立柱脚下被献祭，直达神祇。;;;;;;;;;;;;x
+EVTDESCHHF23470;通过建造我们新的大纪念碑，[Root.Religion.GetName]信仰的热情被点燃了，这给我们那虽然古老但是依然不屈的神灵带去了一点精神上的活力。第一批祭品早已在[From.GetName]的全新且神圣的大纪念碑脚下被献祭，直达神祇。;;;;;;;;;;;;x
 EVTDESCIHF23470;By carving this opulent shrine to the Sun, the fires of the [Root.Religion.GetName] faith have been stoked. The first offerings are already being presented at the feet of the new sacred monument of [From.GetName].;;;;;;;;;;;;x
 EVTDESCLHF23470;By carving this imposing [GetZeusJupiterName] Column, the fires of the [Root.Religion.GetName] faith have been stoked, bringing a bit of life to the spirits of our old and dignified gods. The first offerings are already being presented at the feet of the new sacred monument of [From.GetName].;;;;;;;;;;;;x
 EVTOPTAHF23470;请保护我们不受伤害！;;;;;;;;;;;;x
@@ -12645,7 +12645,7 @@ EVTDESCAHF23471;[From.GetTitledFirstName]已经下令建造一个全新的大纪
 EVTOPTAHF23471;古老的神明依旧在保护我们！;;;;;;;;;;;;x
 EVTOPTBHF23471;我懂了…;;;;;;;;;;;;x
 EVTTITLEHF23473;[From.GetName]之柱;;;;;;;;;;;;x
-EVTDESCAHF23473;As my soldiers overrun the province, I receive a report regarding a curious shrine built at the center of [From.GetName]. Apparently, the local tribes have erected it to garner the favor of their gods, and consider it to be a most sacred symbol.;;;;;;;;;;;;x
+EVTDESCAHF23473;当我的士兵穿过这个省份时，我收到了一份关于[From.GetName]中心建造的奇特圣地的报告。显然，当地部落已经建造圣地来取悦他们的神，并将其作为最神圣的象征。;;;;;;;;;;;;x
 EVTOPTAHF23473;毁掉它！;;;;;;;;;;;;x
 tooltip_destroy_great_pillar;通过毁掉这个圣迹，异教的§Y宗教权威§!将会被削弱。;;;;;;;;;;;;x
 EVTOPTBHF23473;别管这个。;;;;;;;;;;;;x
@@ -12663,11 +12663,11 @@ tp_great_pillar_norse_empty;古树;;;;;;;;;;;;x
 tb_great_pillar_norse_empty_desc;一根对当地的原始部落具有深刻宗教意义的雕刻柱。;;;;;;;;;;;;x
 tp_great_pillar_norse_empty_desc;一根对当地的原始部落具有深刻宗教意义的雕刻柱。;;;;;;;;;;;;x
 tb_great_pillar_tengri_empty;土著神社;;;;;;;;;;;;x
-tb_great_pillar_tengri_empty_desc;A heap of banners and sacred stones bearing deep religious significance for the local pagan tribes.;;;;;;;;;;;;x
+tb_great_pillar_tengri_empty_desc;一堆对当地的原始宗教部落具有深刻宗教意义的旗帜和圣石。;;;;;;;;;;;;x
 tb_great_pillar_slavic_empty;宏伟的[slavic_pagan.GetName]神像;;;;;;;;;;;;x
-tb_great_pillar_slavic_empty_desc;A sacred carved pillar bearing deep religious significance for the local pagan tribes.;;;;;;;;;;;;x
-tb_great_pillar_baltic_empty;Great [baltic_pagan.GetName] Idol;;;;;;;;;;;;x
-tb_great_pillar_baltic_empty_desc;A sacred carved pillar bearing deep religious significance for the local pagan tribes.;;;;;;;;;;;;x
+tb_great_pillar_slavic_empty_desc;一根对当地的原始宗教部落具有深刻宗教意义的雕刻柱。;;;;;;;;;;;;x
+tb_great_pillar_baltic_empty;宏伟的[baltic_pagan.GetName]神像;;;;;;;;;;;;x
+tb_great_pillar_baltic_empty_desc;一根对当地的原始宗教部落具有深刻宗教意义的雕刻柱。;;;;;;;;;;;;x
 tb_great_pillar_finnish_empty;诅咒之森;;;;;;;;;;;;x
 tb_great_pillar_finnish_empty_desc;一片对当地的原始宗教部落具有深刻宗教意义的隐藏森林。;;;;;;;;;;;;x
 tb_great_pillar_west_african_empty;伟大图腾;;;;;;;;;;;;x
@@ -12846,52 +12846,52 @@ EVTDESCHFA23822;[From.GetTitledFirstName] and I spent the evening telling old ta
 EVTOPTAHF23822;但是[From.GetSheHe]真正想要从我这得到什么？;;;;;;;;;;;;x
 EVTOPTBHF23822;让我们成为朋友吧！;;;;;;;;;;;;x
 EVTOPTCHF23822;我们应该再做这事一次，找个什么时间。;;;;;;;;;;;;x
-EVTDESCHFA23823;For some reason, [tribal_festival_potential_friend_1.GetFirstName] has entirely rejected my offer of friendship. I think [tribal_festival_potential_friend_1.GetHerHis] paranoid nature might have gotten the best of [tribal_festival_potential_friend_1.GetHerHim]...;;;;;;;;;;;;x
+EVTDESCHFA23823;出于某些原因，[tribal_festival_potential_friend_1.GetFirstName]完全拒绝了我的友谊。我认为[tribal_festival_potential_friend_1.GetHerHis]偏执本性可能会让[tribal_festival_potential_friend_1.GetHerHim]受益匪浅……;;;;;;;;;;;;x
 EVTOPTAHF23823;好吧……;;;;;;;;;;;;x
-EVTDESCHFA23824;[tribal_festival_potential_friend_1.GetFirstName] spent a great evening in the long-house, telling old legends and drinking with the other tribesmen. When finally leaving, right before dawn, we swore an oath of friendship.;;;;;;;;;;;;x
+EVTDESCHFA23824;[tribal_festival_potential_friend_1.GetFirstName]在长屋里度过了一个美好的夜晚，讲着古老的传说，和部落里其他人一起喝酒。当黎明前离开时，我们立结下了友谊的誓言。;;;;;;;;;;;;x
 EVTOPTAHF23824;我们应该经常这么干。;;;;;;;;;;;;x
-EVTDESCHFA23825;[tribal_festival_potential_friend_1.GetFirstName] and I spent a very pleasant evening in the long-house, telling old legends and drinking with the other tribesmen. We left the hall at dawn, both glad to have had this opportunity to strengthen our relation.;;;;;;;;;;;;x
+EVTDESCHFA23825;[tribal_festival_potential_friend_1.GetFirstName]和我在长屋里度过了一个开心的夜晚，讲着古老的传说，和部落其他人一起喝酒。我们在天明时离开大厅，双方都很高兴能有机会拉近关系。;;;;;;;;;;;;x
 EVTOPTAHF23825;我们应该经常这么干。;;;;;;;;;;;;x
 EVTDESCHFA23826;我正忙于和其他部落成员闲谈，这时[From.GetTitledFirstName]走到我身边给我一个微笑，递给我一杯饮料，声称[From.GetSheHe]希望向新朋友们敬一杯酒。;;;;;;;;;;;;x
 EVTOPTAHF23826;什么？！你想干什么？这是不是下毒了？;;;;;;;;;;;;x
 EVTOPTBHF23826;当然，为什么不呢？;;;;;;;;;;;;x
-EVTDESCHFA23828;Seeing [tribal_festival_potential_enemy_1.GetTitledFirstName] having such a good time with the other tribesmen, laughing and drinking in the long-house, is an unbearable sight. I wish I could do something to bring [tribal_festival_potential_enemy_1.GetHerHis] insufferable merriment to an end.;;;;;;;;;;;;x
+EVTDESCHFA23828;看到[tribal_festival_potential_enemy_1.GetTitledFirstName]和其他部落民玩得这么开心，在长屋里又喝又笑，真让人难以忍受。我希望自己能做点什么来结束[tribal_festival_potential_enemy_1.GetHerHis]让人受不了的欢乐。;;;;;;;;;;;;x
 EVTOPTAHF23828;这需要一点计划……;;;;;;;;;;;;x
 TOOLTIP_EVTOPTAHF23828;试图灌醉§Y[tribal_festival_potential_enemy_1.GetTitledFirstName]§!以羞辱[tribal_festival_potential_enemy_1.GetHerHim]。;;;;;;;;;;;;x
 EVTOPTBHF23828;够了！;;;;;;;;;;;;x
-TOOLTIP_EVTOPTBHF23828;Openly insult §Y[tribal_festival_potential_enemy_1.GetTitledFirstName]§! in front of all the guests.;;;;;;;;;;;;x
+TOOLTIP_EVTOPTBHF23828;在所有客人面前公开侮辱§Y[tribal_festival_potential_enemy_1.GetTitledFirstName]§!。;;;;;;;;;;;;x
 EVTOPTCHF23828;算了，我只能把[tribal_festival_potential_enemy_1.GetHerHim]无视了。;;;;;;;;;;;;x
-EVTDESCHFA23830;It looks like [tribal_festival_potential_enemy_1.GetFirstName] is smarter than [tribal_festival_potential_enemy_1.GetSheHe] looks. [tribal_festival_potential_enemy_1.GetSheHeCap] was able to see through my deception and reject my false offer of friendship.;;;;;;;;;;;;x
-EVTOPTAHF23830;Oh well... I guess that's it for tonight then.;;;;;;;;;;;;x
-EVTDESCHFA23831;Just as I hoped, I was able to get [tribal_festival_potential_enemy_1.GetTitledFirstName] completely drunk and isolate [tribal_festival_potential_enemy_1.GetHerHim] from [tribal_festival_potential_enemy_1.GetHerHis] friends. Now is the time to reveal my true intentions...;;;;;;;;;;;;x
+EVTDESCHFA23830;看来[tribal_festival_potential_enemy_1.GetFirstName]比[tribal_festival_potential_enemy_1.GetSheHe]看上去要聪明。[tribal_festival_potential_enemy_1.GetSheHeCap]识破了我的欺谎言，拒绝了我对虚假的善意。;;;;;;;;;;;;x
+EVTOPTAHF23830;哦好吧……我想今晚就这样吧。;;;;;;;;;;;;x
+EVTDESCHFA23831;正如我所希望的那样，我成功灌醉了[tribal_festival_potential_enemy_1.GetTitledFirstName]并把[tribal_festival_potential_enemy_1.GetHerHim]和[tribal_festival_potential_enemy_1.GetHerHis]朋友隔离开来。现在是时候显露出我真正的意图了……;;;;;;;;;;;;x
 EVTOPTAHF23831;没有人在找我们......;;;;;;;;;;;;x
-TOOLTIP_EVTOPTAHF23831;Lead §Y[tribal_festival_potential_enemy_1.GetTitledFirstName]§! into the wilderness and abandon [tribal_festival_potential_enemy_1.GetHerHim] there.;;;;;;;;;;;;x
-EVTOPTBHF23831;Shame on you! What sort of [tribal_festival_potential_enemy_1.GetManWoman] are you?;;;;;;;;;;;;x
-TOOLTIP_EVTOPTBHF23831;Humiliate §Y[tribal_festival_potential_enemy_1.GetTitledFirstName]§! in front of everyone.;;;;;;;;;;;;x
+TOOLTIP_EVTOPTAHF23831;把§Y[tribal_festival_potential_enemy_1.GetTitledFirstName]§!带至荒野并把[tribal_festival_potential_enemy_1.GetHerHim]丢在那儿。;;;;;;;;;;;;x
+EVTOPTBHF23831;丢人！你是个什么[tribal_festival_potential_enemy_1.GetManWoman]？;;;;;;;;;;;;x
+TOOLTIP_EVTOPTBHF23831;在所有人面前羞辱§Y[tribal_festival_potential_enemy_1.GetTitledFirstName]§!。;;;;;;;;;;;;x
 EVTDESCHFA23832;[From.GetTitledFirstName]欺骗了我！把我灌醉之后，[From.GetSheHe]在夜深人静的时候于旷野之中将我抛下。我疲惫不堪，迷茫地寻找回部落的路，我还听到附近有隐约的嘶吼声……;;;;;;;;;;;;x
 EVTOPTAHF23832;来者何人？！;;;;;;;;;;;;x
-EVTDESCHFA23833;I do not understand. One moment [From.GetTitledFirstName] and I are having fun, drinking and exchanging tales, and the moment after [From.GetSheHe] is insulting me, shaming me for being nothing but a drunken fool in front of everybody.;;;;;;;;;;;;x
+EVTDESCHFA23833;我不理解。[From.GetTitledFirstName]刚才还在一起玩闹、喝酒、讲故事，但下一刻[From.GetSheHe]就侮辱了我，骂我是个在大家面前喝醉了的傻瓜。;;;;;;;;;;;;x
 EVTOPTAHF23833;你太过分了！;;;;;;;;;;;;x
 EVTOPTBHF23833;为什么—？我以为我们是朋友……;;;;;;;;;;;;x
-EVTDESCHFA23834;We were all happily celebrating our good fortune in [great_tribal_festival_host.GetTitledFirstName]'s long-house, when [From.GetTitledFirstName] decided to ruin the mood of the feast by yelling my name and showering me with insults, clearly trying to upset me.;;;;;;;;;;;;x
+EVTDESCHFA23834;我们都很高兴来[great_tribal_festival_host.GetTitledFirstName]的长屋庆祝我们的好运，当[From.GetTitledFirstName]决定喊着我的名字骂我来毁掉宴会气氛时，明显是要惹我生气。;;;;;;;;;;;;x
 EVTOPTAHF23834;这是挑衅之语！;;;;;;;;;;;;x
 EVTOPTBHF23834;你这个可恶的[From.GetManWoman]！;;;;;;;;;;;;x
-EVTDESCHFA23835;I have received several complaints from my guests in the last days regarding [warrior_lodge_guest.GetTitledFirstName]. Apparently, [warrior_lodge_guest.GetSheHe] has been going around town, picking fights, bragging about [warrior_lodge_guest.GetHerHis] great feats and shaming my own tribesmen for lacking in strength and courage.;;;;;;;;;;;;x
+EVTDESCHFA23835;这几天我收到了客人们对[warrior_lodge_guest.GetTitledFirstName]的投诉。显然[warrior_lodge_guest.GetSheHe]一直在城里到处打架，吹嘘[warrior_lodge_guest.GetHerHis]伟大功绩，羞辱我的部落，说我们缺乏力量和勇气。;;;;;;;;;;;;x
 EVTOPTAHF23835;我确定我们可以解决这一系列的误解……;;;;;;;;;;;;x
 EVTOPTBHF23835;好吧，[warrior_lodge_guest.GetSheHe]是对的！;;;;;;;;;;;;x
 EVTOPTCHF23835;我会跟[warrior_lodge_guest.GetHerHim]谈谈。;;;;;;;;;;;;x
 TOOLTIP_FESTIVAL_LODGE_HERO_DISAPPROVES;§Y[warrior_lodge_guest.GetTitledFirstName]§!§R不同意§!你的选择;;;;;;;;;;;;x
-EVTDESCHFA23836;The priests are preparing a large feast to offer to our ancestors tonight. I have been spying at the servants bringing in the offerings in the great hall for some time. Some of my friends have dared me to see if I can sneak in and out under the priests' noses without being spotted.;;;;;;;;;;;;x
+EVTDESCHFA23836;今晚，祭司们正准备为我们的祖先准备一个盛大的宴会。我暗中观察仆人们把供物带进大厅已经有一段时间了。我的一些朋友怂恿我，看我能否在祭司的鼻子底下偷偷地进出而不被发现。;;;;;;;;;;;;x
 EVTOPTAHF23836;我会证明给你看的！;;;;;;;;;;;;x
-TOOLTIP_EVTOPTAHF23836;Sneak inside the main hall.;;;;;;;;;;;;x
+TOOLTIP_EVTOPTAHF23836;潜入主厅。;;;;;;;;;;;;x
 EVTOPTBHF23836;不，那是不对的。;;;;;;;;;;;;x
-EVTDESCHFA23837;I am only a few step into the main hall when I hear somebody call for me. One of the priests has spotted me! With my face growing red, I manage to run away just in time to avoid being caught. My playmates welcome me with a shower of chuckles.;;;;;;;;;;;;x
+EVTDESCHFA23837;当我离大厅只剩几步时听到有人叫我。有一位祭司发现了我！我红着脸设法及时逃跑以免被抓住。我的玩伴们哄笑着来迎接我。;;;;;;;;;;;;x
 EVTOPTAHF23837;哦，闭嘴！;;;;;;;;;;;;x
-EVTDESCHFA23838;With just a bit of care, I manage to sneak past the servants and get into the main hall. The weird statues of the ancestors are all assembled near the long table, decorated with trinkets and surrounded by food.;;;;;;;;;;;;x
-EVTOPTAHF23838;*Mess up the statues' placement*;;;;;;;;;;;;x
+EVTDESCHFA23838;我小心翼翼地躲过仆人们溜进大厅。这些祖先雕像都排列在长桌旁，用小饰品装饰，环绕着食物。;;;;;;;;;;;;x
+EVTOPTAHF23838;弄乱雕像的位置;;;;;;;;;;;;x
 EVTOPTBHF23838;偷走吃的;;;;;;;;;;;;x
-EVTDESCHFA23839;I was surprised to hear that the statues in the temple of [great_tribal_festival_host.Capital.GetName] have moved to a nefarious position. The priests wander around town informing everyone of the prodigious event for several hour before news comes out that the misplacement was just the result of [From.GetFirstName] sneaking into the temple and rearranging them.;;;;;;;;;;;;x
-EVTDESCHFB23839;[From.GetFirstName] managed to sneak into the temple and rearrange the positions of the ancestors' statues! Even better, the old priests thought that the statues had moved by themselves and went screaming around town that a terrible calamity was about to strike all of us before they learned the truth and became the laughing stock of town.;;;;;;;;;;;;x
+EVTDESCHFA23839;我惊奇地听说[great_tribal_festival_host.Capital.GetName]神庙的雕像被移到了错误的位置。祭司们在镇上四处走动，几个小时就把这个神奇的事件告诉了每个人。然后消息传出，这只是[From.GetFirstName]偷偷溜进神庙挪动了它们。;;;;;;;;;;;;x
+EVTDESCHFB23839;[From.GetFirstName]潜入寺庙，重新挪动了祖先雕像的位置！更好玩的是，老祭司们认为那些雕像都是自己移动的，他们在镇里大呼小叫，说一场可怕的灾难即将袭击我们所有人，然后他们才知道真相，成为城镇的笑柄。;;;;;;;;;;;;x
 EVTOPTAHF23839;这小子！;;;;;;;;;;;;x
 TOOLTIP_EVTOPTAHF23839;神明一定失望了。;;;;;;;;;;;;x
 EVTOPTBHF23839;啊！酷毙了！;;;;;;;;;;;;x
@@ -13116,7 +13116,7 @@ EVTOPTBHF20115;帮助改良我们的财政。;;;;;;;;;;;;x
 EVTOPTCHF20115;帮我改良我们的法律。;;;;;;;;;;;;x
 EVTOPTDHF20115;算了，这是我们的传统。;;;;;;;;;;;;x
 EVTDESCHFA20116;I have heard [From.GetTitledFirstName] talking about the customs of other [From.Religion.GetName] [From.Culture.GetName] rulers for quite some time now since [From.GetHerHis] arrival, to the point that I have started to feel allured by some of the customs of the [From.Culture.GetName] people, just as much as I was of their religion...;;;;;;;;;;;;x
-EVTOPTAHF20116;我也想成为[From.Culture.GetName]！;;;;;;;;;;;;x
+EVTOPTAHF20116;我也想成为[From.Culture.GetName]人！;;;;;;;;;;;;x
 EVTOPTBHF20116;不，我必须坚持我们那古老的传统。;;;;;;;;;;;;x
 EVTDESCHFA20117;一个激进的虔信者团体被[From.GetTitledFirstName]的步道所吸引，来到了[Root.Capital.GetName]。虽然是外国人，这些战士似乎有意加入我的军队，助我传播[Root.Religion.GetName]。;;;;;;;;;;;;x
 EVTOPTAHF20117;欢迎你们！;;;;;;;;;;;;x
@@ -13362,7 +13362,7 @@ ASK_FOR_DIVORCE_HEADER;§Y请求离婚§!;;;;;;;;;;;;x
 ASK_FOR_MONEY_HEADER;§Y要求资助§!;;;;;;;;;;;;x
 ASK_FOR_EXCOMMUNICATION_TT_DESC;消耗一定量的§Y虔诚§!，请求[Root.RelHead.GetTitle]对一位[Root.Religion.GetName]领主施以§Y绝罚§!。\n[Root.RelHead.GetTitle]不会去绝罚那些行为正当的领主。;;;;;;;;;;;;x
 ASK_FOR_MONEY_TT_DESC;消耗一定量的§Y虔诚§!，向[Root.RelHead.GetTitle]请求一大笔资金。\n[Root.RelHead.GetTitle]不会答应那些他负担不起的请求，也不会给最近请求过资助的人拨款。;;;;;;;;;;;;x
-ASK_FOR_CLAIM_TT_DESC;消耗一定量的§Y虔诚§!，请求[Root.RelHead.GetTitle]授予一个同为[Root.Religion.GetName]的统治者持有头衔的§Y宣称§!。\n[Root.RelHead.GetTitle]只会考虑授予你§Y公爵领§!和§Y伯爵领§!的宣称。;;;;;;;;;;;;x
+ASK_FOR_CLAIM_TT_DESC;消耗一定量的§Y虔诚§!，请求[Root.RelHead.GetTitle]授予一个同为[Root.Religion.GetName]的统治者持有头衔的§Y宣称§!。\n[Root.RelHead.GetTitle]只会考虑授予你§Y公国§!和§Y伯爵领§!的宣称。;;;;;;;;;;;;x
 ASK_FOR_INVASION_TT_DESC;消耗一定量的§Y虔诚§!，请求[Root.RelHead.GetTitle]支持你§Y入侵§!另一个[Root.Religion.GetName]统治者的领地的。\n[Root.RelHead.GetTitle]不会同意那些以大吞小的请求，同样也不会支持你入侵其他弱小的领主。;;;;;;;;;;;;x
 ASK_FOR_DIVORCE_TT_DESC;消耗一定量的§Y虔诚§!和§Y威望§!，要求[Root.RelHead.GetTitle]宣布你和你的配偶离婚。;;;;;;;;;;;;x
 POPE_AIREASON_MODIFIER_RULER_IS_KINSLAYER;[Root.GetTitledFirstName]是个§Y弑亲者§!;;;;;;;;;;;;x
@@ -14023,7 +14023,7 @@ string_WL_flyting_character_insult_option_28;你真的不愿放弃，然后找�
 string_WL_flyting_character_insult_option_29;[From.GetFirstName]真是个让人不置可否的无名之辈。;;;;;;;;;;;;x
 string_WL_flyting_character_insult_option_30;说你是我见过的最蠢的[From.GetManWoman]都是对你过誉了。;;;;;;;;;;;;x
 string_character_insult_option_default;你有趣得就像块木头。;;;;;;;;;;;;x
-string_WL_flyting_accomplishments_insult_option_1;像你这样容易满足的[From.Culture.GetName]可真是少见……;;;;;;;;;;;;x
+string_WL_flyting_accomplishments_insult_option_1;像你这样容易满足的[From.Culture.GetName]人可真是少见……;;;;;;;;;;;;x
 string_WL_flyting_accomplishments_insult_option_2;我寻思着，这等生来无能之辈想必甘于平庸？;;;;;;;;;;;;x
 string_WL_flyting_accomplishments_insult_option_3;小心点，别出门的时候把你的那堆理想摔碎了。;;;;;;;;;;;;x
 string_WL_flyting_accomplishments_insult_option_4;作为你家族的败家子究竟是一种什么样的感受呢？;;;;;;;;;;;;x
@@ -14093,7 +14093,7 @@ string_WL_flyting_character_insult_desc_28;[From.GetFirstName] taunts me, asking
 string_WL_flyting_character_insult_desc_29;[From.GetFirstName]向人群高声宣布说我根本没有什么好骂的，因为我只是一个又无趣又会被世人遗忘的[Root.GetTitle]。;;;;;;;;;;;;x
 string_WL_flyting_character_insult_desc_30;[From.GetFirstName] tells me that [From.GetSheHe] would give me too much credit if [From.GetSheHe] claimed that I am the dullest [Root.GetManWoman] alive.;;;;;;;;;;;;x
 string_character_insult_desc_default;[From.GetFirstName] decides to focus on my character, entertaining the crowd by listing some of my less flattering habits and mannerisms that [From.GetSheHe] has learned about by watching me.;;;;;;;;;;;;x
-string_WL_flyting_accomplishments_insult_desc_1;[From.GetFirstName]嘲笑我缺乏抱负，声称没有其他[Root.Culture.GetName]会因为我取得如此小的成就而满足。;;;;;;;;;;;;x
+string_WL_flyting_accomplishments_insult_desc_1;[From.GetFirstName]嘲笑我缺乏抱负，声称没有其他[Root.Culture.GetName]人会因为我取得如此小的成就而满足。;;;;;;;;;;;;x
 string_WL_flyting_accomplishments_insult_desc_2;[From.GetFirstName][From.GetSheHe]笑着问我是否生来无能因此甘于平庸。;;;;;;;;;;;;x
 string_WL_flyting_accomplishments_insult_desc_3;[From.GetFirstName]在[From.GetSheHe]击败我之后警告我说，让我捂紧我的那些小梦想，可别在走出大厅的时候一把摔个粉碎。;;;;;;;;;;;;x
 string_WL_flyting_accomplishments_insult_desc_4;[From.GetFirstName]问我作为一个没人爱也没人记得的败家子是什么感受。;;;;;;;;;;;;x
@@ -14181,7 +14181,7 @@ matriarchal_deposition_war;Matriarchal Deposition War;;;;;;;;;;;;x
 matriarchal_deposition_war_desc;No [Root.GetOppositeManWoman] should be allowed to hold as much authority as $TARGET$ does. We are well within our rights to force this vile tyrant to abdicate his throne, leaving his realm in the capable hands of a [Root.GetManWoman].;;;;;;;;;;;;x
 CB_NAME_MATRIARCHAL_DEPOSITION;Matriarchal Deposition War;;;;;;;;;;;;x
 CB_NAME_PATRIARCHAL_DEPOSITION;Patriarchal Deposition War;;;;;;;;;;;;x
-WAR_NAME_SEX_DEPOSITION;$ORDER$$FIRST_ADJ$$SECOND_ADJ$废黜$DEFENDER$战争;;;;;;;;;;;;x
+WAR_NAME_SEX_DEPOSITION;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$废黜$DEFENDER$战争;;;;;;;;;;;;x
 string_Matriarchal;Matriarchal;;;;;;;;;;;;x
 string_Patriarchal;Patriarchal;;;;;;;;;;;;x
 crown_crusader_king;圣战冠;;;;;;;;;;;;x
@@ -15052,8 +15052,8 @@ EVTOPTBHF24153_C;[meddling_target.GetSheHeCap]应该再努力一些！;;;;;;;;;;
 EVTOPTCHF24153_A;[meddling_target.GetSheHeCap]不能再这么放荡了。;;;;;;;;;;;;x
 EVTOPTCHF24153_B;[meddling_target.GetSheHeCap]得在[meddling_target.GetHerHis]婚姻上多花些心思。;;;;;;;;;;;;x
 EVTOPTCHF24153_C;[meddling_target.GetSheHeCap]得去认真地履行[meddling_target.GetHerHis]婚姻责任。;;;;;;;;;;;;x
-EVTOPTDHF24153;[From.GetSheHeCap]得表现得开始像个真正的[scoped_founder.Culture.GetName]。;;;;;;;;;;;;x
-TT_EVTOPTDHF24153;尝试着帮助§Y[meddling_target.GetTitledFirstName]§!拥抱§Y[scoped_founder.Culture.GetName]§!的习俗。;;;;;;;;;;;;x
+EVTOPTDHF24153;[From.GetSheHeCap]得表现得开始像个真正的[scoped_founder.Culture.GetName]人。;;;;;;;;;;;;x
+TT_EVTOPTDHF24153;尝试着帮助§Y[meddling_target.GetTitledFirstName]§!拥抱§Y[scoped_founder.Culture.GetName]人§!的习俗。;;;;;;;;;;;;x
 EVTOPTAHF24154;[meddling_target.GetSheHeCap]应该把心思更多放在[meddling_target.GetHerHis]责任而不是[meddling_target.GetHerHis]那张皮囊上。;;;;;;;;;;;;x
 EVTOPTBHF24154;[meddling_target.GetHerHim]多梳梳[meddling_target.GetHerHis]头发会死么？;;;;;;;;;;;;x
 EVTOPTCHF24154;[meddling_target.GetSheHeCap]看起来总是焉不拉几的！[meddling_target.GetSheHe]是喝西北风长大的么？;;;;;;;;;;;;x
@@ -15114,7 +15114,7 @@ EVTDESCDHF24171;Ever since [From.GetFirstName] decided to follow my advice, we h
 EVTDESCAHF24172;Yet again, I meet my [GetFromRelation]'s gaze with scornful disdain across the dinner table, seeing [From.GetHerHim] demand another course for [From.GetHerselfHimself]. [From.GetFirstName] has completely ignored my advice.;;;;;;;;;;;;x
 infiltration_tactics;渗透战术;;;;;;;;;;;;x
 infiltration_tactics_desc;This commander is focusing the training of [Root.GetHerHis] soldiers on stealth and espionage, making them more adept at seeping through the defenses of foreign armies.;;;;;;;;;;;;x
-polished_formation;Polished Formation;;;;;;;;;;;;x
+polished_formation;整理过的阵型;;;;;;;;;;;;x
 polished_formation_desc;By refining coordination between [Root.GetHerHis] troops, this commander has reduced the time required to mobilize [Root.GetHerHis] army.;;;;;;;;;;;;x
 advanced_supply_lines;先进的补给线;;;;;;;;;;;;x
 advanced_supply_lines_desc;By strengthening of communications and exploration efforts, this commander has increased the autonomy of [Root.GetHerHis] armies while in enemy territory.;;;;;;;;;;;;x
@@ -16112,7 +16112,7 @@ b_urdoma;乌尔多马;;;;;;;;;;;;x
 b_sorovo;索罗沃;;;;;;;;;;;;x
 b_litvino;利特维诺;;;;;;;;;;;;x
 b_lena_bolshaya;Lena;;;;;;;;;;;;x
-b_tyva;Tyva;;;;;;;;;;;;x
+b_tyva;特瓦;;;;;;;;;;;;x
 b_kazakovo;卡扎科沃;;;;;;;;;;;;x
 b_lacha;拉恰;;;;;;;;;;;;x
 b_pesok;佩索克;;;;;;;;;;;;x
@@ -16189,7 +16189,7 @@ b_dutovo;杜托沃;;;;;;;;;;;;x
 b_vuktyl_vel;武克特尔;;;;;;;;;;;;x
 b_kyrta;克尔塔;;;;;;;;;;;;x
 b_ust_ilych;乌斯季伊雷奇;;;;;;;;;;;;x
-b_sevkcha;Sevkcha;;;;;;;;;;;;x
+b_sevkcha;谢夫克恰;;;;;;;;;;;;x
 b_andeg;安杰格;;;;;;;;;;;;x
 b_kuya;库亚;;;;;;;;;;;;x
 b_makarovo;马卡罗沃;;;;;;;;;;;;x
@@ -16204,7 +16204,7 @@ b_gubistaya;古比斯塔亚;;;;;;;;;;;;x
 b_gusinaya;古西纳亚;;;;;;;;;;;;x
 b_volonga;沃隆加;;;;;;;;;;;;x
 b_indiga;因迪加;;;;;;;;;;;;x
-b_korgoveye;Korgoveye;;;;;;;;;;;;x
+b_korgoveye;科尔戈韦耶;;;;;;;;;;;;x
 b_timan_ridge;季曼岭;;;;;;;;;;;;x
 b_chosha;切沙;;;;;;;;;;;;x
 b_ust_usa;乌斯季乌萨;;;;;;;;;;;;x
@@ -17271,7 +17271,7 @@ ACTIVE_TRADE_ROUTE_MODIFIER;\n商路将会带来以下效果：\n$MODIFIER$\n\n�
 INACTIVE_TRADE_ROUTE_MODIFIER;\n如果生效，商路会产生以下效果：\n$MODIFIER$\n\n在商路省份上建造贸易站能增强商路对所有省份的修正.如果一些商路省份被阻塞（被围攻或占据），其他商路省份会因贸易流方向改变而临时获得更高的收益.;;;;;;;;;;;;x
 BUILD_TRADE_POST_DESC;贸易站可以由商业共和国内的贵人家族在海岸边花费 §Y$COST$§!¤ 建造——即使是在外国疆域上.但如果有商路经过，任何本地统治者也可以在其经过的省份建造贸易站.（请查看§Y贸易区§!地图模式.）;;;;;;;;;;;;x
 BUILD_PRESTIGE_OR_PIETY_TRADE_POST_DESC;贸易站可以由商业共和国内的贵人家族在海岸边花费 §Y$COST$§! 建造——即使是在外国疆域上.但如果有商路经过，任何本地统治者也可以在其经过的省份建造贸易站.（请查看§Y贸易区§!地图模式.）;;;;;;;;;;;;x
-coptic;科普特人;;;;;;;;;;;;x
+coptic;科普特;;;;;;;;;;;;x
 RETTYPE_CUL_COPTIC;[coptic.GetName] Matoei;;;;;;;;;;;;x
 ca_culture_coptic_1;[coptic.GetName]枪兵;;;;;;;;;;;;x
 ca_culture_coptic_2;[coptic.GetName]枪兵;;;;;;;;;;;;x
@@ -17288,13 +17288,13 @@ ca_culture_assyrian_2;[assyrian.GetName]步兵;;;;;;;;;;;;x
 ca_culture_assyrian_3;[assyrian.GetName]步兵;;;;;;;;;;;;x
 ca_culture_assyrian_4;[assyrian.GetName]步兵;;;;;;;;;;;;x
 ca_culture_assyrian_1_desc;These barracks provide [assyrian.GetName] ruler with a strong force of infantry, capable of both offensive and defensive battles.;;;;;;;;;;;;x
-central_african;中非人;;;;;;;;;;;;x
-kanuri;卡努里人;;;;;;;;;;;;x
-hausa;豪萨人;;;;;;;;;;;;x
-zaghawa;扎加瓦人;;;;;;;;;;;;x
-daju;达朱人;;;;;;;;;;;;x
-soninke;索宁凯人;;;;;;;;;;;;x
-songhay;桑海人;;;;;;;;;;;;x
+central_african;中非;;;;;;;;;;;;x
+kanuri;卡努里;;;;;;;;;;;;x
+hausa;豪萨;;;;;;;;;;;;x
+zaghawa;扎加瓦;;;;;;;;;;;;x
+daju;达朱;;;;;;;;;;;;x
+soninke;索宁凯;;;;;;;;;;;;x
+songhay;桑海;;;;;;;;;;;;x
 alexander_bloodline_01;亚历山大不朽的血脉;;;;;;;;;;;;x
 alexander_bloodline_01_desc;多亏了[This.GetTitledFirstName]的努力，[This.GetOnlyDynastyName]家族被普遍认为是亚历山大大帝的直系后裔。;;;;;;;;;;;;x
 ashoka_bloodline_01;阿育王转世;;;;;;;;;;;;x
@@ -17578,7 +17578,7 @@ string_fallback_consort;男妾;;;;;;;;;;;;x
 EVTDESC537;I accept your gracious offer. [Root.GetTitledFirstName] will make a fine [Root.GetConsortSexCap]!;;;;;;;;;;;;x
 tooltip_feminist_liege_vanilla_religion;角色和§Y领主§!公开信仰§Y清洁派§!、§Y门萨里安派§!、§Y波格米勒派§!或§Y马兹达克派§!宗教;;;;;;;;;;;;x
 tooltip_feminist_liege_religion_feature;角色和§Y领主§!公开信仰§Y男女平等§!或§Y女性氏族§!宗教;;;;;;;;;;;;x
-tooltip_not_matriarchal_liege_religion_feature;角色和§Y领主§!的宗教必须没有§Y女性氏族§!特色;;;;;;;;;;;;x
+tooltip_not_matriarchal_liege_religion_feature;角色和§Y领主§!的宗教必须没有§Y女性氏族§!特性;;;;;;;;;;;;x
 tooltip_sway_into_personality_trait;尝试影响§Y[sway_target.GetFirstName]§!使其接受你个人的一个§Y特质§!;;;;;;;;;;;;x
 baptized_king_to;成功令王国皈依;;;;;;;;;;;;x
 baptized_emperor_to;成功令帝国皈依;;;;;;;;;;;;x
@@ -17699,8 +17699,8 @@ EVTDESCHFP23027;那些持经人对许多[Root.Religion.GetName]统治者很有�
 african_sympathy_abrahamic;One of your neighbors or lieges must follow a §YChristian§!, §YIslamic§! or §YJudaic§! religion;;;;;;;;;;;;x
 tooltip_african_picking_syncretism;Develop §YSympathy§! from a neighboring §YAbrahamic§! religion group.;;;;;;;;;;;;x
 EVTDESC_TOG_7503_ANANSI;You have toiled devoutly in your endeavor to follow the path of Anansi. In his name you have plotted and spied, orchestrated wild schemes and manipulated friends and family. As a result, your skills of intrigue have been improving.;;;;;;;;;;;;x
-EVTOPTA_TOG_7526_ANANSI;I shall erect a monument in the honor of Anansi.;;;;;;;;;;;;x
-EVTOPTA_TOG_7526_DAN;I shall erect a monument in the honor of Dan.;;;;;;;;;;;;x
+EVTOPTA_TOG_7526_ANANSI;我将竖起纪念碑，纪念阿南西。;;;;;;;;;;;;x
+EVTOPTA_TOG_7526_DAN;我将竖起纪念碑，纪念达。;;;;;;;;;;;;x
 EVTDESC_TOG_7527_ANANSI;终于，纪念碑建成了。整个纪念碑设计的就跟你所预想的一样，或者说甚至超出了预期。为了庆祝它的完工，人们举办了一场盛大的庆典来纪念阿南西，真是一场盛事！只要纪念碑依然耸立并俯瞰着[Root.Capital.GetName]整座城市，这个故事就将被代代传颂。;;;;;;;;;;;;x
 EVTDESC_TOG_7527_DAN;终于，纪念碑建成了。整个纪念碑设计的就跟你所预想的一样，或者说甚至超出了预期。为了庆祝它的完工，人们举办了一场盛大的庆典来纪念彩虹蛇，真是一场盛事！只要纪念碑依然耸立并俯瞰着[Root.Capital.GetName]整座城市，这个故事就将被代代传颂。;;;;;;;;;;;;x
 EVTOPTD_TOG_7200_B;还有别的选择……;;;;;;;;;;;;x
@@ -17711,10 +17711,10 @@ EVTOPTG_TOG_7205;或许另一位神灵更适合我……;;;;;;;;;;;;x
 EVTDESC_TOG_7207;伟大的阿南西，我请求您与我分享您的秘密，我势必将守口如瓶。蜘蛛神将引导我穿过繁荣世间背后那由谎言交织成的错综复杂的密网。;;;;;;;;;;;;x
 EVTDESC_TOG_7208;荣耀归于彩虹蛇！我们那控制着世间平衡，秩序，和平与世界各地的交流，沟通人间与灵界的神圣使者。;;;;;;;;;;;;x
 EVTOPTDHFP23027;也许下次吧……;;;;;;;;;;;;x
-TOOLTIP_EVTOPTAHF23854_SUCCESS;successfully climbing the tree.;;;;;;;;;;;;x
+TOOLTIP_EVTOPTAHF23854_SUCCESS;成功爬上了那棵树。;;;;;;;;;;;;x
 TOOLTIP_EVTOPTAHF23854_FAILURE;a horrible fall.;;;;;;;;;;;;x
 eldership_rules;长老选举继承法;;;;;;;;;;;;x
-gov_romuva_tribe;[Religion.GetName] Tribe;;;;;;;;;;;;x
+gov_romuva_tribe;[Religion.GetName]部落;;;;;;;;;;;;x
 gov_noble_romuva_eldership;[Religion.GetName]贵族酋邦;;;;;;;;;;;;x
 tooltip_religion_feature_eldership;§G解锁长老选举继承法§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_rome_child;罗马不应由孩子统治;;;;;;;;;;;;x
@@ -17733,7 +17733,7 @@ succ_hre_elective;帝国选候制;;;;;;;;;;;;x
 succ_hre_elective_desc;皇帝，连同由其任命的七位选帝侯可以从他们自己、自己的合法子女、兄弟姐妹以及帝国的主要法理诸侯中提名一位继承人，这名继承人需要与他们有共同的信仰。如果历史上的选帝侯头衔持有者为异教徒或不存在，另一个法理上的封臣将取而代之。如果帝国拥有§Y教宗神职叙任制§!或主流信仰有§Y「教条」§!性质，采邑主教将会在选举中有更大权重。;;;;;;;;;;;;x
 hre_feudal_elective;帝国选候制;;;;;;;;;;;;x
 tooltip_hre_vote_strength_theocracy;授权主教候;;;;;;;;;;;;x
-tooltip_imperial_vote_strength_emperor_influence;[Root.GetFirstName] is §YPrestigious§!;;;;;;;;;;;;x
+tooltip_imperial_vote_strength_emperor_influence;[Root.GetFirstName]§Y负有盛名§!;;;;;;;;;;;;x
 tooltip_imperial_vote_strength_emperor_unpurpled;[Root.GetFirstName] was NOT §YBorn in the Purple§!;;;;;;;;;;;;x
 tooltip_imperial_vote_strength_emperor_deformed;The [Root.GetTitle]'s body should NOT be twisted or disfigured;;;;;;;;;;;;x
 tooltip_imperial_vote_strength_emperor_child;A child's word is worth little;;;;;;;;;;;;x
@@ -17744,9 +17744,9 @@ tooltip_imperial_vote_strength_elector_tier;[Root.GetFirstName]是一名§Y封�
 tooltip_imperial_vote_strength_elector_high_tier;[Root.GetFirstName]是一名显著的§Y封臣§!;;;;;;;;;;;;x
 tooltip_imperial_vote_strength_elector_despot;[Root.GetFirstName]是§Y专制公§!;;;;;;;;;;;;x
 tooltip_imperial_vote_strength_elector_sebastokrator;[Root.GetFirstName]是§Y至尊者§!;;;;;;;;;;;;x
-tooltip_imperial_vote_strength_elector_caesar;[Root.GetFirstName] is §YCaesar§!;;;;;;;;;;;;x
-tooltip_imperial_vote_strength_elector_kouropalates;[Root.GetFirstName] is §YKouropalates§!;;;;;;;;;;;;x
-tooltip_imperial_vote_strength_elector_anthypatos;[Root.GetFirstName] is §YAnthypatos§!;;;;;;;;;;;;x
+tooltip_imperial_vote_strength_elector_caesar;[Root.GetFirstName]是§Y凯撒§!;;;;;;;;;;;;x
+tooltip_imperial_vote_strength_elector_kouropalates;[Root.GetFirstName]是§Y宫廷负责人§!;;;;;;;;;;;;x
+tooltip_imperial_vote_strength_elector_anthypatos;[Root.GetFirstName]是§Y总督§!;;;;;;;;;;;;x
 tooltip_imperial_vote_strength_no_competition;[Root.GetFirstName]是几位显著的§Y指挥官§!之一;;;;;;;;;;;;x
 tooltip_imperial_vote_strength_commander_martial;[Root.GetFirstName]是一名才华横溢的§Y将军§!;;;;;;;;;;;;x
 tooltip_imperial_vote_strength_chancellor_diplomacy;[Root.GetFirstName]是一名充满魅力的§Y[Root.GetJobTitle]§!;;;;;;;;;;;;x
@@ -17882,7 +17882,7 @@ EVTOPTA_HF_49221;Forward, brethren!;;;;;;;;;;;;x
 EVTDESC_HF_49230;[Root.GetTitledName]\n\nI have heard about your struggles against the other [FromFrom.Religion.GetGroupName]s, and I would like to assure you I do not share their animosity towards the [Root.Religion.GetName]s. For a small donation, I will be willing to help you out.\n\nSigned,\n[FromFrom.GetTitledName];;;;;;;;;;;;x
 EVTOPTA_HF_49230;Any help is needed.;;;;;;;;;;;;x
 EVTOPTB_HF_49230;我不这么认为！;;;;;;;;;;;;x
-EVTDESC_HF_49231;To the magnanimous [Root.GetTitledName]\n\nI appreciate and accept your offer. I hope to be seeing you at the battlefield shortly.\n\nSigned,\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESC_HF_49231;致宽宏大量的[Root.GetTitledName]\n\n我很感激并接受你的提议。我希望不久之后能在战场上与你相遇。\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA_HF_49231;Raise your swords, men!;;;;;;;;;;;;x
 EVTDESC_HF_49232;To the greedy [Root.GetTitledName]\n\nYour despicable offer disgusts me. I hope to see you at the battlefield next, so I can cut you down together with the rest of the infidels.\n\nSigned,\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA_HF_49232;The insults were unnecessary!;;;;;;;;;;;;x
@@ -17904,7 +17904,7 @@ EVTOPTB_HF_49242;我需要一大笔资助！;;;;;;;;;;;;x
 EVTOPTC_HF_49242;不不不，这件事是不对的，我不要任何帮助……;;;;;;;;;;;;x
 EVTDESC_HF_49243;一个块头巨大的[new_commander.GetManWoman]被带到我面前，据说[new_commander.GetSheHe]是一个极富声望的指挥官。在观看了[new_commander.GetSheHe]和我部下的一些演练以后，我很确信[new_commander.GetSheHe]很精通[new_commander.GetHerHis]战斗技巧。;;;;;;;;;;;;x
 EVTOPTA_HF_49243;我很确信你就是正确的人选！;;;;;;;;;;;;x
-EVTOPTB_HF_49243;I got just the job for you!;;;;;;;;;;;;x
+EVTOPTB_HF_49243;我正好有份工作交给你！;;;;;;;;;;;;x
 EVTOPTC_HF_49243;其实我们根本用不上这么多指挥官。;;;;;;;;;;;;x
 EVTDESC_HF_49244;一支小型舰队的首领来到了我的宫廷，想要在即将到来的战争中受雇于我。我的一些指挥官质疑我们是否需要这些船只，但我确信我能把它们派上用场。;;;;;;;;;;;;x
 EVTOPTA_HF_49244;我很乐意接受你们的提议。;;;;;;;;;;;;x
@@ -18083,8 +18083,8 @@ blessed_ancestor;Blessed Ancestor;;;;;;;;;;;;x
 blessed_ancestor_desc;A blessed ancestor of old, venerated by [GetHerHis] descendants.;;;;;;;;;;;;x
 reconquista_duchy_name;[Root.GetOnlyDynastyName][This.GetBaseName];;;;;;;;;;;;x
 RECONQUISTA_ADVENTURE_TITLE_NAME;失地收复军;;;;;;;;;;;;x
-crimean_gothic;哥特人;;;;;;;;;;;;x
-dalmatian;达尔马提亚人;;;;;;;;;;;;x
+crimean_gothic;哥特;;;;;;;;;;;;x
+dalmatian;达尔马提亚;;;;;;;;;;;;x
 ca_culture_italian_1_desc;Well-disciplined pike formations are raised here, specializing in the defense.;;;;;;;;;;;;x
 northern_crusade_bloodline;[Root.GetFirstName]条顿之血;;;;;;;;;;;;x
 northern_crusade_bloodline_desc;在帮助条顿骑士团征服北方之后，[Root.GetHerHis]王朝被认为是条顿人的亲密盟友。;;;;;;;;;;;;x
@@ -18117,34 +18117,34 @@ RULE_FOURTH_CRUSADE;§B神圣之怒：§!第四次十字军东征;;;;;;;;;;;;x
 RULE_CHILDRENS_CRUSADE;§B神圣之怒：§!儿童十字军;;;;;;;;;;;;x
 RULE_NORTHERN_CRUSADE;§B神圣之怒：§!北方十字军;;;;;;;;;;;;x
 CB_NAME_RECONQUISTA_LEON;莱昂的再征服;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_LEON;$ORDER$莱昂再征服战争;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_LEON;第$ORDER$莱昂收复失地战争;;;;;;;;;;;;x
 reconquista_leon_desc;§Y[Root.GetTitledName]§!在§Y[k_leon.GetBaseName]§!发动一场驱逐异教徒的宗教战争，这将会夺走§Y$TARGET$§!手上所有的§Y[d_leon.GetFullName]§!地区和§Y[d_asturias.GetFullName]§!地区的省份。;;;;;;;;;;;;x
 CB_NAME_RECONQUISTA_CASTILLE;卡斯提尔的再征服运动;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_CASTILLE;$ORDER$卡斯提尔再征服战争;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_CASTILLE;第$ORDER$卡斯提尔收复失地战争;;;;;;;;;;;;x
 reconquista_castille_desc;§Y[Root.GetTitledName]§!在§Y[k_castille.GetBaseName]§!发动一场驱逐异教徒的宗教战争，这将会夺走§Y$TARGET$§!手上所有的§Y[d_castilla.GetFullName]§!地区和§Y[d_toledo.GetFullName]§!地区的省份。;;;;;;;;;;;;x
 CB_NAME_RECONQUISTA_ARAGON;阿拉贡的再征服运动;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_ARAGON;$ORDER$阿拉贡再征服战争;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_ARAGON;第$ORDER$阿拉贡收复失地战争;;;;;;;;;;;;x
 reconquista_aragon_desc;§Y[Root.GetTitledName]§!在§Y[k_aragon.GetBaseName]§!发动一场驱逐异教徒的宗教战争，这将会夺走§Y$TARGET$§!手上所有的§Y[d_aragon.GetFullName]§!地区和§Y[d_barcelona.GetFullName]§!地区的省份。;;;;;;;;;;;;x
 CB_NAME_RECONQUISTA_GALICIA;加利西亚的再征服运动;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_GALICIA;$ORDER$加利西亚再征服战争;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_GALICIA;第$ORDER$加利西亚收复失地战争;;;;;;;;;;;;x
 reconquista_galicia_desc;§Y[Root.GetTitledName]§!在§Y[k_spanish_galicia.GetBaseName]§!发动一场驱逐异教徒的宗教战争，这将会夺走§Y$TARGET$§!手上所有的§Y[d_galicia.GetFullName]§!地区和§Y[d_porto.GetFullName]§!地区的省份。;;;;;;;;;;;;x
 CB_NAME_RECONQUISTA_BEJA;西海岸的再征服运动;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_BEJA;$ORDER$西海岸再征服战争;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_BEJA;第$ORDER$西海岸收复失地战争;;;;;;;;;;;;x
 reconquista_beja_desc;§Y[Root.GetTitledName]§!在§Y利比里亚半岛的西海岸§!发动一场驱逐异教徒的宗教战争，这将会夺走§Y$TARGET$§!手上所有的§Y[d_beja.GetFullName]§!地区和§Y[d_algarve.GetFullName]§!地区的省份。;;;;;;;;;;;;x
 CB_NAME_RECONQUISTA_GRANADA;南伊比利亚的再征服运动;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_GRANADA;$ORDER$南伊比利亚再征服战争;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_GRANADA;第$ORDER$南伊比利亚收复失地战争;;;;;;;;;;;;x
 reconquista_granada_desc;§Y[Root.GetTitledName]§!在§Y伊比利亚半岛南部§!发动一场驱逐异教徒的宗教战争，这将会夺走§Y$TARGET$§!手上所有的§Y[d_granada.GetFullName]§!地区和§Y[d_sevilla.GetFullName]§!地区的省份。;;;;;;;;;;;;x
 CB_NAME_RECONQUISTA_CORDOBA;中伊比利亚的再征服运动;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_CORDOBA;$ORDER$中伊比利亚再征服战争;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_CORDOBA;第$ORDER$中伊比利亚收复失地战争;;;;;;;;;;;;x
 reconquista_cordoba_desc;§Y[Root.GetTitledName]§!在§Y利比里亚半岛中部§!发动一场驱逐异教徒的宗教战争，这将会夺走§Y$TARGET$§!手上所有的§Y[d_cordoba.GetFullName]§!地区和§Y[d_badajoz.GetFullName]§!地区的省份。;;;;;;;;;;;;x
 CB_NAME_RECONQUISTA_VALENCIA;东海岸的再征服运动;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_VALENCIA;$ORDER$东海岸再征服战争;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_VALENCIA;第$ORDER$东海岸收复失地战争;;;;;;;;;;;;x
 reconquista_valencia_desc;§Y[Root.GetTitledName]§!在§Y利比里亚半岛的东海岸§!发动一场驱逐异教徒的宗教战争，这将会夺走§Y$TARGET$§!手上所有的§Y[d_valencia.GetFullName]§!地区和§Y[d_murcia.GetFullName]§!地区的省份。;;;;;;;;;;;;x
 CB_NAME_RECONQUISTA_NAVARRA;纳瓦拉的再征服运动;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_NAVARRA;$ORDER$纳瓦拉再征服战争;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_NAVARRA;第$ORDER$纳瓦拉收复失地战争;;;;;;;;;;;;x
 reconquista_navarra_desc;§Y[Root.GetTitledName]§!在§Y纳瓦拉地区§!发动一场驱逐异教徒的宗教战争，这将会夺走§Y$TARGET$§!手上所有的§Y[d_navarra.GetFullName]§!地区的省份。;;;;;;;;;;;;x
 CB_NAME_RECONQUISTA_BALEARIC;巴利阿里群岛的再征服运动;;;;;;;;;;;;x
-WAR_NAME_RECONQUISTA_BALEARIC;$ORDER$巴利阿里再征服战争;;;;;;;;;;;;x
+WAR_NAME_RECONQUISTA_BALEARIC;第$ORDER$巴利阿里群岛收复失地战争;;;;;;;;;;;;x
 reconquista_balearic_desc;§Y[Root.GetTitledName]§!在§Y巴利阿里群岛§!发动一场驱逐异教徒的宗教战争，这将会夺走§Y$TARGET$§!手上所有的§Y[d_mallorca.GetFullName]§!地区的省份。;;;;;;;;;;;;x
 custom_leon;莱昂;;;;;;;;;;;;x
 custom_galicia;加利西亚;;;;;;;;;;;;x
@@ -18156,7 +18156,7 @@ custom_cordoba;中伊比利亚;;;;;;;;;;;;x
 custom_valencia;伊比利亚东海岸;;;;;;;;;;;;x
 custom_navarra;纳瓦拉;;;;;;;;;;;;x
 custom_balearic;巴利阿里群岛;;;;;;;;;;;;x
-andalusian_arabic_opinion;[andalusian_arabic.GetName]好感;;;;;;;;;;;;x
+andalusian_arabic_opinion;[andalusian_arabic.GetName]文化好感;;;;;;;;;;;;x
 NOT_HAS_SAME_ELECTOR_STANCE_AS_TRIGGER;Does NOT share succession election views with $CHAR|Y$;;;;;;;;;;;;x
 HAS_SAME_ELECTOR_STANCE_AS_TRIGGER;Shares sucession election views with $CHAR|Y$;;;;;;;;;;;;x
 NOT_HAS_ELECTOR_STANCE_TRIGGER;Does NOT have the succession election view $STANCE|Y$;;;;;;;;;;;;x
@@ -19274,7 +19274,7 @@ c_palencia_adj;帕伦西亚;;;;;;;;;;;;x
 c_lugo_adj;卢戈;;;;;;;;;;;;x
 c_jaen_adj;哈恩;;;;;;;;;;;;x
 c_alcala_adj;Alcalan;;;;;;;;;;;;x
-carantanian;Carantanian;;;;;;;;;;;;x
+carantanian;卡拉塔尼亚;;;;;;;;;;;;x
 KAISERSWERTH;Kaiserswerth;;;;;;;;;;;;x
 BERNICIA;Bernicia;;;;;;;;;;;;x
 BERNICIA_ADJ;Bernician;;;;;;;;;;;;x
@@ -19310,7 +19310,7 @@ EVTTITLE_HFP_40038;[From.PrimaryTitle.GetName]大公国;;;;;;;;;;;;x
 EVTDESC_HFP_40038;在将[From.PrimaryTitle.GetName]的土地收归[From.GetHerHis]统治下后，[From.GetDynName]在一场注定流传后世的盛大仪式中称[From.GetHerselfHimself]为[From.PrimaryTitle.GetName]的大[From.GetDukeDuchessCap]。\n\n帝国的其他诸侯嫉妒地望向[From.PrimaryTitle.GetName]，因为[From.GetTitledFirstName]注定要用[From.GetHerHis]新创爵位在帝国内扮演重要的角色。;;;;;;;;;;;;x
 EVTOPTA_HFP_40038;有意思……;;;;;;;;;;;;x
 EVTOPTB_HFP_40038;我的权利本该如此。;;;;;;;;;;;;x
-celtic_opinion;[celtic.GetGroupName]好感;;;;;;;;;;;;x
+celtic_opinion;[celtic.GetGroupName]文化组好感;;;;;;;;;;;;x
 crown_winged_helmet;Winged Helmet;;;;;;;;;;;;x
 crown_winged_helmet_desc;A knightly helmet bearing the prestigious crest of the Teutonic Order.;;;;;;;;;;;;x
 crown_wrapped_helmet;Shrouded Helmet;;;;;;;;;;;;x
@@ -19531,7 +19531,7 @@ outremer;海外;;;;;;;;;;;;x
 convert_to_outremer;接受海外文化;;;;;;;;;;;;x
 convert_to_outremer_desc;欧洲人对黎凡特地区的入侵使得多种对抗尖锐的文化融合在一起。从这些冲突中，一个新的「海外」身份认知渐渐出现了。;;;;;;;;;;;;x
 tooltip_courtiers_embrace_outremer;所有属于你家族的§Y廷臣§!都会变成§Y海外§!文化;;;;;;;;;;;;x
-tooltip_provinces_embrace_outremer;你直辖领中的所有§Y[latin.GetGroupName]§!省份都会变成§Y海外§!文化;;;;;;;;;;;;x
+tooltip_provinces_embrace_outremer;你直辖领中的所有§Y[latin.GetGroupName]文化组§!省份都会变成§Y海外§!文化;;;;;;;;;;;;x
 tooltip_capital_embrace_outremer;§Y[Root.Capital.GetName]§!变成§Y海外§!文化;;;;;;;;;;;;x
 EVTDESCAHF25827;经历了一路上的千难万险，儿童十字军在世人皆不看好的情况下，终于成功抵达圣地，并成功光复耶路撒冷！\n据称，一群手持火焰之剑，身着闪耀之甲的大天使征服圣地的最后一战发生时降临在城头，给了异教徒重重一击，并把他们守城武器全部化为灰烬，他们的眼睛被全部炙瞎。\n现在地上的天国由一位孩子所统治，所有人都认为是神令[From.GetSheHe]走到这一步的。;;;;;;;;;;;;x
 EVTDESCAHF25828;经历了一路上的千难万险，儿童十字军在世人皆不看好的情况下，终于成功抵达圣地，并成功光复耶路撒冷！\n据称，一群手持火焰之剑，身着闪耀之甲的大天使征服圣地的最后一战发生时降临在城头，给了异教徒重重一击，并把他们守城武器全部化为灰烬，他们的眼睛被全部炙瞎。\n现在地上的天国由[From.GetFirstName]所统治，所有人都认为是神令[From.GetSheHe]走到这一步的。;;;;;;;;;;;;x
@@ -19630,7 +19630,7 @@ COMPL_KAILASH_GUARDIAN_FEMALE;Guardian;;;;;;;;;;;;x
 kailash_guardian;鸡罗娑守护者;;;;;;;;;;;;x
 kailash_guardian_desc;鸡罗娑守护者坚定地守卫着圣山鸡罗娑。他们为苯教信仰而战。;;;;;;;;;;;;x
 religion_patriarchal;男性氏族;;;;;;;;;;;;x
-west_slavic_opinion;[west_slavic.GetGroupName]好感;;;;;;;;;;;;x
+west_slavic_opinion;[west_slavic.GetGroupName]文化组好感;;;;;;;;;;;;x
 lcr_male;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
 lcr_male_desc;[This.Founder.GetTitledFirstName]设法将曾经分裂的东西斯拉夫人民团结在[This.Founder.GetHerHis]统治下;;;;;;;;;;;;x
 lcr_female;[This.GetFirstNameWithNick]的血脉;;;;;;;;;;;;x
@@ -19657,7 +19657,7 @@ string_rp_rome;光复罗马的荣耀;;;;;;;;;;;;x
 string_rp_immortal;长治久安;;;;;;;;;;;;x
 string_rp_kinslayer;满门抄斩;;;;;;;;;;;;x
 nick_the_bellower;咆哮者;;;;;;;;;;;;x
-hausa_opinion;[hausa.GetName]好感;;;;;;;;;;;;x
+hausa_opinion;[hausa.GetName]文化好感;;;;;;;;;;;;x
 bloodline_effect_enatic_cognatic;解锁§G女性优先继承法§!;;;;;;;;;;;;x
 bayajidda_and_magajiva;巴亚吉达和玛迦吉瓦的血脉;;;;;;;;;;;;x
 bayajidda_and_magajiva_desc;达乌拉声称自己是屠蛇勇士巴亚吉达和第二位建立了豪萨人母系氏族社会的女王玛迦吉瓦的后代。;;;;;;;;;;;;x
@@ -19667,8 +19667,8 @@ ALT_ORTHODOX;The [orthodox.GetName] Temple;;;;;;;;;;;;x
 ALT_ORTHODOX_ADJ;[orthodox.GetName]神殿;;;;;;;;;;;;x
 ALT_HO_LOCATION;[coa_target.GetName]骑士团;;;;;;;;;;;;x
 ALT_HO_LOCATION_ADJ;[coa_target.GetName];;;;;;;;;;;;x
-saxon_opinion;[saxon.GetName]好感;;;;;;;;;;;;x
-welsh_opinion;[welsh.GetName]好感;;;;;;;;;;;;x
+saxon_opinion;[saxon.GetName]文化好感;;;;;;;;;;;;x
+welsh_opinion;[welsh.GetName]文化好感;;;;;;;;;;;;x
 reconquest_decision_tt;当倒计时结束，我会加入[Root.GetFirstNameWithNick]的收复失地战争！;;;;;;;;;;;;x
 d_cherven_cities;红鲁塞尼亚;;;;;;;;;;;;x
 d_cherven_cities_adj;红鲁塞尼亚;;;;;;;;;;;;x

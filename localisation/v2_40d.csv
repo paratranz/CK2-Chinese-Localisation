@@ -78,13 +78,13 @@ AN_UNKNOWN_LOCATION;一处不明地点;;;;;;;;;;;;x
 cb_liberate_nomad_duchy_desc;§Y$CLAIMANT$§!能够使用此宣战理由夺取§Y$TITLE$§!法理内野蛮的§Y$TARGET$§!的所有头衔。;;;;;;;;;;;;x
 nomad_dispute_desc;世仇部族能对彼此宣战抢夺一块单独的省份。;;;;;;;;;;;;x
 CB_NAME_LIBERATE_NOMAD;解放[Title.GetBaseName];;;;;;;;;;;;x
-WAR_NAME_LIBERATE_NOMAD;$ORDER$$FIRST_ADJ$解放$OTHER_TITLE$;;;;;;;;;;;;x
+WAR_NAME_LIBERATE_NOMAD;第$ORDER$$FIRST_ADJ$解放$OTHER_TITLE$;;;;;;;;;;;;x
 liberate_nomad_cb_succ_tip;§Y[Root.GetTitledFirstName]§!附庸非游牧领主，夺取§Y[This.GetFullBaseName]§!内的其他所有头衔。\n;;;;;;;;;;;;x
 pagan_county_conquest_desc;原始宗教和游牧可以不用任何理由来征服单个边境省份。诺斯原始宗教还可以获得任意沿海省份。;;;;;;;;;;;;x
 nomad_subjugation_desc;游牧一生中可以对非游牧领主发起一次征服。;;;;;;;;;;;;x
 nomad_invasion_desc;如果我们的人口太多，我们可以入侵任何领地以抢夺他们的牧场！如果成功，全部被占领的疆土都将被我们攫取，并且全部的封臣都将成为我们的封臣。;;;;;;;;;;;;x
 CB_NAME_PAGAN_SUBJUGATION;征服;;;;;;;;;;;;x
-WAR_NAME_PAGAN_SUBJUGATION;$ORDER$$FIRST_ADJ$ - $SECOND_ADJ$征服战争;;;;;;;;;;;;x
+WAR_NAME_PAGAN_SUBJUGATION;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$征服战争;;;;;;;;;;;;x
 tribal_subjugation_tip;§Y[Root.GetTitledFirstName]§!征服§Y[This.GetTitledName]§!\n;;;;;;;;;;;;x
 POPULATION_FACTOR_LOWER_THAN;人口少于最大值的 §Y$PERC$%§!;;;;;;;;;;;;x
 POPULATION_FACTOR_AT_LEAST;人口至少是最大值的 §Y$PERC$%§!;;;;;;;;;;;;x
@@ -203,7 +203,7 @@ GOV_CONCUBINAGE_DESC;男性统治者最多可以纳 §Y$NUM$§! 个侍妾;;;;;;;
 CUL_RAIDING_DESC;统治者可以劫掠邻近的异教徒;;;;;;;;;;;;x
 CUL_OVERSEAS_RAIDER_DESC;能够乘船跨海劫掠;;;;;;;;;;;;x
 CUL_BLINDING_DISINHERITS_DESC;失明角色无法继承头衔;;;;;;;;;;;;x
-NO_SPECIAL_FEATURES;无特殊特征;;;;;;;;;;;;x
+NO_SPECIAL_FEATURES;无特殊特性;;;;;;;;;;;;x
 nomad_ruling_clan_too_powerful;次级部族正在壮大;;;;;;;;;;;;x
 cb_minor_clan_revolt_desc;强大的「次级」部族会向上级部族发起反叛索取更多土地。;;;;;;;;;;;;x
 CB_NAME_MINOR_CLAN_REVOLT;次级部族反叛;;;;;;;;;;;;x
@@ -503,7 +503,7 @@ HOLDING_DIFF_AT_LEAST;$FIRST_LOCATION$内的§Y$FIRST_TYPE$§!至少比$SECOND_L
 SUB_REALM;次级领地;;;;;;;;;;;;x
 EVTNAMEHL1;新领地;;;;;;;;;;;;x
 EVTNAMEHL2;游牧定居;;;;;;;;;;;;x
-EVTDESCHL2;[FromFrom.Culture.GetName]们的王，[FromFrom.GetBestName]，决定在[FromFrom.PrimaryTitle.GetName]定居，成为[FromFrom.GetHerHis]新部落家园。;;;;;;;;;;;;x
+EVTDESCHL2;[FromFrom.Culture.GetName]人的王，[FromFrom.GetBestName]，决定在[FromFrom.PrimaryTitle.GetName]定居，使之成为[FromFrom.GetHerHis]新部落家园。;;;;;;;;;;;;x
 APPOINT_COMMANDER_INTERACTION_LETTER;我们决定任命你为指挥官，是否接受？;;;;;;;;;;;;x
 RESIGN_COMMANDER_INTERACTION_LETTER;我们决定撤销你指挥官之职。;;;;;;;;;;;;x
 IS_NOT_MARSHAL;§Y$RECIPIENT$§W不能已经是$MARSHAL$。;;;;;;;;;;;;x
