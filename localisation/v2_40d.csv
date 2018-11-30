@@ -80,8 +80,8 @@ nomad_dispute_desc;世仇部族能对彼此宣战抢夺一块单独的省份。;
 CB_NAME_LIBERATE_NOMAD;解放[Title.GetBaseName];;;;;;;;;;;;x
 WAR_NAME_LIBERATE_NOMAD;第$ORDER$$FIRST_ADJ$解放$OTHER_TITLE$;;;;;;;;;;;;x
 liberate_nomad_cb_succ_tip;§Y[Root.GetTitledFirstName]§!附庸非游牧领主，夺取§Y[This.GetFullBaseName]§!内的其他所有头衔。\n;;;;;;;;;;;;x
-pagan_county_conquest_desc;原始宗教和游牧可以不用任何理由来征服单个边境省份。诺斯原始宗教还可以获得任意沿海省份。;;;;;;;;;;;;x
-nomad_subjugation_desc;游牧一生中可以对非游牧领主发起一次征服。;;;;;;;;;;;;x
+pagan_county_conquest_desc;原始宗教信徒和游牧领主可以无需任何理由征服单个边境省份。诺斯原始宗教信徒还可以征服任意沿海省份。;;;;;;;;;;;;x
+nomad_subjugation_desc;游牧统治者一生中有一次机会征服非游牧领主的领地。;;;;;;;;;;;;x
 nomad_invasion_desc;如果我们的人口太多，我们可以入侵任何领地以抢夺他们的牧场！如果成功，全部被占领的疆土都将被我们攫取，并且全部的封臣都将成为我们的封臣。;;;;;;;;;;;;x
 CB_NAME_PAGAN_SUBJUGATION;征服;;;;;;;;;;;;x
 WAR_NAME_PAGAN_SUBJUGATION;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$征服战争;;;;;;;;;;;;x
@@ -188,7 +188,7 @@ REL_CASTE_OPINIONS_DESC;种姓特质对好感影响巨大;;;;;;;;;;;;x
 REL_PACIFIST_DESC;大幅降低省份叛乱几率\n§Y*§! 大幅提高所有封臣好感\n§Y*§! 统治者能够直辖更多土地\n§Y*§! 统治者不能发起圣战;;;;;;;;;;;;x
 REL_HEIR_DESIGNATION_DESC;可以指定任何合法后代为继承人;;;;;;;;;;;;x
 cathar_FEATURES;§Y*§! 女性可以担任所有内阁职务\n§Y*§! 女性可以带领军队;;;;;;;;;;;;x
-nomadic_government_desc;游牧对拥有地产不感兴趣，只喜欢更多的牧场养更多的羊和马。游玩围绕部落的人口及其提供的人力。开阔地形下的空地产格会增加最大人口。游牧也能拥有普通封臣，但他们更注重管理部落中强大的部族。;;;;;;;;;;;;x
+nomadic_government_desc;游牧统治者对拥有地产不感兴趣，只喜欢更多的牧场养更多的羊和马。游牧统治者的游玩方式围绕部落的人口及其提供的人力。开阔地形下的空地产格会增加最大人口。游牧也能拥有普通封臣，但他们更注重管理部落中强大的部族。;;;;;;;;;;;;x
 republic_government_desc;普通的共和国领袖从市民中随机抽选产生。这种共和国不能玩，因为每代统治者之间没有家族连续性。;;;;;;;;;;;;x
 theocracy_government_desc;神权政体和次级共和国一样不能玩。统治者通过任命或从神职人员中选举产生，每代统治者之间没有家族连续性。;;;;;;;;;;;;x
 GOV_DECADENCE_DESC;若宗教允许，$NAME$家族会逐渐腐化;;;;;;;;;;;;x
@@ -502,7 +502,7 @@ HOLDING_DIFF_LOWER_THAN;$FIRST_LOCATION$内的§Y$FIRST_TYPE$§!与$SECOND_LOCAT
 HOLDING_DIFF_AT_LEAST;$FIRST_LOCATION$内的§Y$FIRST_TYPE$§!至少比$SECOND_LOCATION$内的§Y$SECOND_TYPE$§!多 §Y$VAL$§!%（现有$FIRST_VAL$/$SECOND_VAL$§Y$FIRST_TYPE$§!）;;;;;;;;;;;;x
 SUB_REALM;次级领地;;;;;;;;;;;;x
 EVTNAMEHL1;新领地;;;;;;;;;;;;x
-EVTNAMEHL2;游牧定居;;;;;;;;;;;;x
+EVTNAMEHL2;游牧民定居;;;;;;;;;;;;x
 EVTDESCHL2;[FromFrom.Culture.GetName]人的王，[FromFrom.GetBestName]，决定在[FromFrom.PrimaryTitle.GetName]定居，使之成为[FromFrom.GetHerHis]新部落家园。;;;;;;;;;;;;x
 APPOINT_COMMANDER_INTERACTION_LETTER;我们决定任命你为指挥官，是否接受？;;;;;;;;;;;;x
 RESIGN_COMMANDER_INTERACTION_LETTER;我们决定撤销你指挥官之职。;;;;;;;;;;;;x
@@ -645,7 +645,7 @@ convert_fort_to_city_desc;我可以将[Root.County.GetBaseName]的要塞升级�
 convert_fort_to_castle_desc;我可以将[Root.County.GetBaseName]的要塞升级为一座光荣的城堡。;;;;;;;;;;;;x
 convert_fort_to_temple_desc;我可以将[Root.County.GetBaseName]的要塞升级为一座神圣的庙宇。;;;;;;;;;;;;x
 convert_fort_to_tribal_desc;我可以将[Root.County.GetBaseName]的要塞升级为一个部落地产。;;;;;;;;;;;;x
-NOMAD_CANNOT_MOVE_CAPITAL_TO_HOLDING;游牧只能将他们的首都迁至主地产格为空的省份。;;;;;;;;;;;;x
+NOMAD_CANNOT_MOVE_CAPITAL_TO_HOLDING;游牧统治者只能将他们的首都迁至主地产格为空的省份。;;;;;;;;;;;;x
 INTERACTION_REQUIRES_RECIPIENT_NO_OCCUPIED_PROVINCES;§Y[Recipient.GetTitledFirstName]§!没有被占领的省份;;;;;;;;;;;;x
 MAPMODE_TRADE_ZONES;§Y贸易区§!;;;;;;;;;;;;x
 TRADEZONE_OWNER_REPUBLIC;这个贸易区的所有者是§Y$REPUBLIC$§!的§Y$FAMILY$§!家族;;;;;;;;;;;;x
