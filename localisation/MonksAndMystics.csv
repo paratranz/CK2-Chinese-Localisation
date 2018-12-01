@@ -1025,9 +1025,9 @@ CHANGE_PLOT_POWER_EFFECT;阴谋力量改变 $VALUE|Y$;;;;;;;;;;;;x
 WAR_INVALID_NO_LONGER_HOLDS_TITLE_NO_DEFENDER;\n（防御方不再控制$TITLE$）;;;;;;;;;;;;x
 SAME_SOCIETY_AS_TRIGGER_NOT;与$TARGET$不在相同的社团\n;;;;;;;;;;;;x
 SAME_SOCIETY_AS_TRIGGER;与$TARGET$在相同的社团\n;;;;;;;;;;;;x
-IS_GRANDMASTER_TRIGGER;是社团的大团长;;;;;;;;;;;;x
-IS_GRANDMASTER_TRIGGER_NOT;不是社团的大团长;;;;;;;;;;;;x
-SET_SOCIETY_GRANDMASTER_EFFECT;成为社团的大团长;;;;;;;;;;;;x
+IS_GRANDMASTER_TRIGGER;是社团的领导者;;;;;;;;;;;;x
+IS_GRANDMASTER_TRIGGER_NOT;不是社团的领导者;;;;;;;;;;;;x
+SET_SOCIETY_GRANDMASTER_EFFECT;成为社团的领导者;;;;;;;;;;;;x
 action_statecraft_desc;致力于同封臣、临近的领主及封君提升关系并降低威胁。;;;;;;;;;;;;x
 action_administer_realm;管理国家;;;;;;;;;;;;x
 action_administer_realm_desc;[GetMyTreasurerName]会致力于改善我们的领地，提高文化同化和繁荣度提升的几率。;;;;;;;;;;;;x
@@ -1561,8 +1561,8 @@ MASS_EXECUTE_NO_TYRANNY;这并不会降低你的封臣对你的好感。;;;;;;;;
 MASS_EXECUTE_TYRANNY;这样做将使你的封臣对你的好感降低 $TYRANNY|Y$。;;;;;;;;;;;;x
 MASS_ACTION_EXCLUDE;从批量释放/赎回/处决中剔除;;;;;;;;;;;;x
 MASS_ACTION_COUNCIL_TYRANNY;内阁将这些行为视为暴政！;;;;;;;;;;;;x
-ASK_TO_JOIN_AMBITION_INTERACTION_TITLE;邀请加入阴谋;;;;;;;;;;;;x
-ASK_TO_JOIN_AMBITION_INTERACTION_DESC;请求某个角色加入他们[Recipient.GetPlot]的阴谋。;;;;;;;;;;;;x
+ASK_TO_JOIN_AMBITION_INTERACTION_TITLE;请求加入阴谋;;;;;;;;;;;;x
+ASK_TO_JOIN_AMBITION_INTERACTION_DESC;请求加入某个角色[Recipient.GetPlot]的阴谋。;;;;;;;;;;;;x
 ASK_TO_JOIN_AMBITION_INTERACTION_LONG_DESC;阴谋发起者可以召唤参与阴谋的角色参战。你可以帮助阴谋发起者达成目的，这将触发事件，推动你们的阴谋更进一步。;;;;;;;;;;;;x
 ASK_TO_JOIN_AMBITION_INTERACTION_ACCEPT_SETUP;已接受加入阴谋的请求;;;;;;;;;;;;x
 ASK_TO_JOIN_AMBITION_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W加入了§Y[Recipient.GetBestName]§W的[Recipient.GetPlot]阴谋。;;;;;;;;;;;;x
@@ -5507,7 +5507,7 @@ MNM.6662.d;可能是由于我太过频繁地使用[Root.Society.GetName]的力�
 MNM.6662.a;但是我就喜欢他们这样。;;;;;;;;;;;;x
 THE_ANGAS_SUTRAS;安伽经;;;;;;;;;;;;x
 evoke_sympathy_of_tt;有任务§Y唤起[Root.GetTitledFirstName]的同情§!\n;;;;;;;;;;;;x
-secret_religions_induct_child;教导儿童信仰[From.TrueReligion.GetName]。;;;;;;;;;;;;x
+secret_religions_induct_child;引导儿童信仰[From.TrueReligion.GetName];;;;;;;;;;;;x
 EVTDESC_MNM_3930;我的一位[Root.TrueReligion.GetName]同道，[society_character.GetTitledFirstName]，担心我隐藏真实信仰会让我感到紧张不安。[society_character.GetSheHeCap]提议，在当地小酒馆的隐匿夜晚会让我感觉很好，远离宫廷的窥视。;;;;;;;;;;;;x
 EVTDESC_MNM_3932;[society_character.GetSocietyRank][society_character.GetFirstName]是对的，我必须离开宫廷，然而我们在酒馆无疑是太过得意忘形了。当我们对[Root.TrueReligion.GetName]的信仰太过明显时，一个当地暴徒突然从座位上站了起来，惊惧地冲[society_character.GetFirstName]举起拳头。「异端！你将为你的言行付出代价！」;;;;;;;;;;;;x
 EVTDESC_MNM_9112;我雇佣的铁匠在完成我的订单前不幸死了。想要找到有相近水平的铁匠不太容易……不过好在付给铁匠的钱没被全部花掉，所以我收回了相当一部分投资。;;;;;;;;;;;;x
