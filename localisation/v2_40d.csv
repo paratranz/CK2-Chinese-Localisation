@@ -65,7 +65,7 @@ REL_COUSIN_HUSBAND;丈夫;;;;;;;;;;;;x
 REL_COUSIN_WIFE;妻子;;;;;;;;;;;;x
 REL_AUNT_WIFE;妻子;;;;;;;;;;;;x
 REL_NIECE_WIFE;妻子;;;;;;;;;;;;x
-MINOR_CLAN_REVOLT;[Root.County.GetAdjective]次级部族叛乱;;;;;;;;;;;;x
+MINOR_CLAN_REVOLT;[Root.County.GetAdjective]次级部族起事;;;;;;;;;;;;x
 succ_nomadic_desc;在草原的人民中，威望即可决定继承的顺序。合法的子女和当前统治者的兄弟姐妹都拥有资格。但是，不同于其他继承形式，只有正确文化的成年人能够继承。;;;;;;;;;;;;x
 STAT_CULTURE_PROV_DESC;这是此省份的主流文化。;;;;;;;;;;;;x
 STAT_RELIGION_PROV_DESC;这是此省份的主流宗教。;;;;;;;;;;;;x
@@ -148,8 +148,8 @@ EVTDESC328_CHRIST;伟大的[Root.GetTitledFirstName]对[New.GetTitledName]和在
 EVTOPTA328;为了神和以色列！;;;;;;;;;;;;x
 temple_desc;神殿同时提供可观的收入和良好的征召兵。神殿也提供虔诚给其持有者，以及持有者的领主。;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_DESC;与最合适的潜在配偶安排订婚。;;;;;;;;;;;;x
-HINT_SPLASH_TEXT;在王国风云II中，您将扮演一系列来自同一家族的中世纪统治者。\n游戏中没有预定目标，但这个世界满是野心勃勃的竞争者……夺取更多的土地以增强你的力量并保护你的家族。;;;;;;;;;;;;x
-HINT_SPLASH_START;作为一个统治者，您的首要任务是确保有一位继承人。如果您扮演的角色去世时没有一个合法的继承人的话，游戏就将结束。其他需要您注意的事务都会以警告的形式出现在屏幕上方。;;;;;;;;;;;;x
+HINT_SPLASH_TEXT;在《王国风云 II》中，你将扮演一系列来自同一家族的中世纪统治者。\n游戏中没有预定目标，但这个世界满是野心勃勃的竞争者……夺取更多的土地以增强你的力量并保护你的家族。;;;;;;;;;;;;x
+HINT_SPLASH_START;作为一个统治者，你的首要任务是确保有一位继承人。如果你扮演的角色去世时没有一个合法的继承人的话，游戏就将结束。其他需要你注意的事务都会以警告的形式出现在屏幕上方。;;;;;;;;;;;;x
 HINT_SPLASH_VICTORY;你不能亲自持有无限量的土地。想要扩张，你将需要依赖封臣统治者。使用头衔和礼物让他们开心，以免他们决定叛乱！游戏将在1452年结束，当然你的血脉也得能在那么长的时间内保住权力……;;;;;;;;;;;;x
 HINT_SPLASH_2_TITLE;[Culture.GetName][Religion.GetName][Government.GetName];;;;;;;;;;;;x
 HINT_SPLASH_2_CUL_DESC;[Culture.GetName]文化效果：;;;;;;;;;;;;x
@@ -207,7 +207,7 @@ NO_SPECIAL_FEATURES;无特殊特性;;;;;;;;;;;;x
 nomad_ruling_clan_too_powerful;次级部族正在壮大;;;;;;;;;;;;x
 cb_minor_clan_revolt_desc;强大的「次级」部族会向上级部族发起反叛索取更多土地。;;;;;;;;;;;;x
 CB_NAME_MINOR_CLAN_REVOLT;次级部族反叛;;;;;;;;;;;;x
-WAR_NAME_MINOR_CLAN_REVOLT;次级部族叛乱;;;;;;;;;;;;x
+WAR_NAME_MINOR_CLAN_REVOLT;次级部族起事;;;;;;;;;;;;x
 ISNT_CLOSE_RELATIVE;不是近亲;;;;;;;;;;;;x
 IS_CLOSE_RELATIVE;是近亲;;;;;;;;;;;;x
 HOLYSITE_LOCATION_COUNTY;§Y$SITENAME$§! 拥有圣地;;;;;;;;;;;;x
@@ -237,8 +237,8 @@ EVTDESC62926;小小的阿拉贡伯爵领，多年前由法兰克人创立，如�
 EVTDESC_HL_2000;一个强力的次级部族已经在[Root.GetName]崛起，由他们魅力非凡的首领带领。他们想要在主要部族中获取他们的位置！;;;;;;;;;;;;x
 EVTOPTA_HL_2000;我们来看看谁更强！;;;;;;;;;;;;x
 EVTDESC_HL_2001;一个强力的次级部族已经在[From.GetName]崛起，由他们魅力非凡的首领带领。他们想要在主要部族中获取他们的位置！;;;;;;;;;;;;x
-EVTDESC_HL_2010;次级部族叛乱在[Root.GetName]得到了更多支援，叛乱正在壮大！;;;;;;;;;;;;x
-EVTDESC_HL_2011;次级部族叛乱在[Root.GetName]得到了更多支援，叛乱正在壮大！;;;;;;;;;;;;x
+EVTDESC_HL_2010;次级部族起事在[Root.GetName]得到了更多支援，叛乱正在壮大！;;;;;;;;;;;;x
+EVTDESC_HL_2011;次级部族起事在[From.GetName]得到了更多支援，叛乱正在壮大！;;;;;;;;;;;;x
 title_behi;别吉;;;;;;;;;;;;x
 title_behi_desc;这个头衔赐予蒙古贵族世家中的妇女。;;;;;;;;;;;;x
 title_master_of_the_eagle;训鹰大师;;;;;;;;;;;;x
@@ -501,7 +501,7 @@ EMPTY_PROVINCE;空省份;;;;;;;;;;;;x
 HOLDING_DIFF_LOWER_THAN;$FIRST_LOCATION$内的§Y$FIRST_TYPE$§!与$SECOND_LOCATION$内的§Y$SECOND_TYPE$§!之比值少于 §Y$VAL$§!（现有$FIRST_VAL$/$SECOND_VAL$§Y$FIRST_TYPE$§!）;;;;;;;;;;;;x
 HOLDING_DIFF_AT_LEAST;$FIRST_LOCATION$内的§Y$FIRST_TYPE$§!至少比$SECOND_LOCATION$内的§Y$SECOND_TYPE$§!多 §Y$VAL$§!%（现有$FIRST_VAL$/$SECOND_VAL$§Y$FIRST_TYPE$§!）;;;;;;;;;;;;x
 SUB_REALM;次级领地;;;;;;;;;;;;x
-EVTNAMEHL1;新领地;;;;;;;;;;;;x
+EVTNAMEHL1;新国家;;;;;;;;;;;;x
 EVTNAMEHL2;游牧民定居;;;;;;;;;;;;x
 EVTDESCHL2;[FromFrom.Culture.GetName]人的王，[FromFrom.GetBestName]，决定在[FromFrom.PrimaryTitle.GetName]定居，使之成为[FromFrom.GetHerHis]新部落家园。;;;;;;;;;;;;x
 APPOINT_COMMANDER_INTERACTION_LETTER;我们决定任命你为指挥官，是否接受？;;;;;;;;;;;;x
@@ -620,7 +620,7 @@ alert_over_clan_limit_delayed;你有 §R$NUM$§!/§Y$MAX$§! 个部族，导致�
 alert_over_clan_limit_name;超过部族上限;;;;;;;;;;;;x
 TOTAL_POPULATION_DESC;§Y领地内总人口§!;;;;;;;;;;;;x
 alert_too_few_clans_instant;§Y部族渴望更多的土地§!;;;;;;;;;;;;x
-alert_too_few_clans_delayed;和其他部族比起来你的土地太多了。交出 §Y$NUM$§! 个省份，否则你可能面临现有部族的反叛，因为这已负面影响他们的§Y部族观感§!。你还可能面对一场§Y次级部族崛起§!叛乱，试图获取在主流部族中的正当地位……;;;;;;;;;;;;x
+alert_too_few_clans_delayed;和其他部族比起来你的土地太多了。交出 §Y$NUM$§! 个省份，否则你可能面临现有部族的反叛，因为这已负面影响他们的§Y部族观感§!。你还可能面对一场§Y次级部族起事§!叛乱，以图获取在主流部族中的正当地位……;;;;;;;;;;;;x
 alert_too_few_clans_name;部族渴望更多的土地;;;;;;;;;;;;x
 MAX_CLAN_LIMIT;部族数量上限;;;;;;;;;;;;x
 SPLIT_CLAN_INTERACTION_LETTER;我已经决定收回[ThirdPartyTitle.GetFullName]的土地并交给一个新部族。如果移交过程不能和平解决将导致一场战争。;;;;;;;;;;;;x

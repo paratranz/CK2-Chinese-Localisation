@@ -12,8 +12,8 @@ cb_install_khan_desc;各部族可以武力废黜可汗并用更有实力的人�
 elephant_trample_tactic;战象践踏战术;;;;;;;;;;;;x
 INTERACTION_NOT_ALREADY_ENEMIES;不是敌人;;;;;;;;;;;;x
 CLAN_SAME_FAITH;相同的信仰;;;;;;;;;;;;x
-DOES_NOT_RISK_MINOR_CLAN_RISING;次级部族无叛乱风险;;;;;;;;;;;;x
-RISKS_MINOR_CLAN_RISING;次级部族有叛乱风险;;;;;;;;;;;;x
+DOES_NOT_RISK_MINOR_CLAN_RISING;无次级部族起事风险;;;;;;;;;;;;x
+RISKS_MINOR_CLAN_RISING;有次级部族起事风险;;;;;;;;;;;;x
 nomad_expansion_desc;如果我们拥有足够威望，就能够在一场战争中征服大片外国土地。;;;;;;;;;;;;x
 CB_NAME_NOMAD_EXPANSION;[Title.GetBaseName]的臣服;;;;;;;;;;;;x
 WAR_NAME_NOMAD_EXPANSION;第$ORDER$$FIRST_ADJ$夺取$OTHER_TITLE$战争;;;;;;;;;;;;x
@@ -29,7 +29,7 @@ prisoner_to_suite;软禁;;;;;;;;;;;;x
 prisoner_to_suite_desc;把§Y[Root.GetTitledFirstName]§!转移到卫兵把守的套间中。这会提升逃跑的几率，但[Root.GetSubjectPronoun]不会提要求并且可以活得很久。;;;;;;;;;;;;x
 MODIFIER_ADDED_NO_END;§Y$WHERE$§!获得了「§Y$WHAT$§!」，拥有以下效果：\n$EFFECT$\n\n;;;;;;;;;;;;x
 NOMAD_LAND_OVERRUN;§Y部族渴望土地§!;;;;;;;;;;;;x
-NOMAD_LAND_OVERRUN_DESC;可汗拥有土地的远超其他部族。他必须交出§Y$NUM$§!块土地，否则可能面临现有部族的叛乱，甚至面临次级部族叛乱，以试图获取在主流部族中的正当地位……;;;;;;;;;;;;x
+NOMAD_LAND_OVERRUN_DESC;可汗拥有土地的远超其他部族。他必须交出§Y$NUM$§!块土地，否则可能面临现有部族的叛乱，甚至面临次级部族起事，以试图获取在主流部族中的正当地位……;;;;;;;;;;;;x
 SENTIMENT_VS_CLAN;对§Y$CLAN$§!部族的观感：;;;;;;;;;;;;x
 EMPTY_PROVINCES_IN_REALM;领土内的游牧省份;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_1N;收回§Y[ThirdPartyTitle.GetFullName]§!会消耗 §R$PRESTIGE$§! 威望。这会使§Y[Recipient.GetTitledFirstName]§!对你的好感降低 §R$OPINION$§!，其他非游牧封臣好感降低 §R$OPINION2$§!。;;;;;;;;;;;;x

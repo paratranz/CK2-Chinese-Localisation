@@ -745,17 +745,17 @@ WELCOME_PLAY_NORMAL_GAME;不，谢谢;;;;;;;;;;;;x
 opinion_poor_accommodations;糟糕的住宿;;;;;;;;;;;;x
 custom_tooltip_choose_patron_diety;选择一个守护神;;;;;;;;;;;;x
 CB_NAME_FORCE_VASSALIZATION;强制附庸;;;;;;;;;;;;x
-WAR_NAME_FORCE_VASSALIZATION;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$附庸战争;;;;;;;;;;;;x
+WAR_NAME_FORCE_VASSALIZATION;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$附庸战争;;;;;;;;;;;;x
 force_vassalization_desc;§Y$TARGET$§!现在实力弱小且需要保护，在你的治下他们会生活得更好！通过花费大量的§Y威望§!，只要他们的§Y头衔阶层§!低于你，领土面积小于或等于 §Y30§!，并且此地的统治者属于与你相同的§Y宗教组§!或相同的§Y文化组§!，你就可以发动战争强令他们成为你的附庸。;;;;;;;;;;;;x
 dejure_duchy_claim_desc;§Y$TITLE$§!是§Y$CLAIMANT$§!的一个法理封臣。我们可以消耗一大笔§Y威望§!来发动战争夺取整块公国！;;;;;;;;;;;;x
 CB_NAME_GREATREALMCONFLICT;对[Title.GetBaseName]的伟大征服;;;;;;;;;;;;x
-WAR_NAME_GREATREALMCONFLICT;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$争夺$OTHER_TITLE$的伟大征服;;;;;;;;;;;;x
+WAR_NAME_GREATREALMCONFLICT;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$争夺$OTHER_TITLE$的伟大征服;;;;;;;;;;;;x
 great_realm_conflict_desc;你国力雄厚，§Y$TARGET$§!也是如此——是时候向他们展示谁才是最强之人！通过消耗一大笔§Y威望§!和§Y虔诚§!，你可以以一整个王国为目标而宣战，只要他们不比你弱小。;;;;;;;;;;;;x
 CB_NAME_DUCALCOUNTYCONQUEST;[Title.GetBaseName]公国征服;;;;;;;;;;;;x
-WAR_NAME_DUCALCOUNTYCONQUEST;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$征服公国$OTHER_TITLE$的战争;;;;;;;;;;;;x
+WAR_NAME_DUCALCOUNTYCONQUEST;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$征服公国$OTHER_TITLE$的战争;;;;;;;;;;;;x
 ducal_county_conquest_desc;你拥有§Y$TARGET$§!公国的宣称。只要这个公国无人持有，你就可以花费§Y虔诚§!和§Y金钱§!，发起获取该公国下属土地的战争。这宣战理由只提供给伯爵或公爵级的角色。;;;;;;;;;;;;x
 CB_NAME_LIBERATE_RELIGION;对[Title.GetBaseName]的宗教解放战争;;;;;;;;;;;;x
-WAR_NAME_LIBERATE_RELIGION;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$宗教解放[Title.GetBaseName]战争;;;;;;;;;;;;x
+WAR_NAME_LIBERATE_RELIGION;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$宗教解放[Title.GetBaseName]战争;;;;;;;;;;;;x
 liberate_religion_desc;§Y$TARGET$§! 是个异教徒，但是他领地里的人民却尊崇真正的信仰。我们应当让那些受压迫的人得到解放！;;;;;;;;;;;;x
 religious_liberation_cb_succ_tip;§Y[This.GetFullBaseName]§!将会被来自§Y[Root.Religion.GetName]§!信仰的新领主所解放！这位领主将会成为您的§Y朝贡国§!;;;;;;;;;;;;x
 EVTDESC_JD_2100;当我听说[liberate_target.GetBestName]领地内的[Root.Religion.GetName]信徒们的灵魂受到压迫时，心中顿时充满了火热与痛苦。虽然[Root.Religion.GetHighGodName]定意要让他所有真信徒能自由地决定自己的命运，但如果[Root.Religion.GetHighGodName]专注神圣的事业，那我是否应该执行[Root.Religion.GetHighGodName]的旨意？;;;;;;;;;;;;x
@@ -764,7 +764,7 @@ EVTOPTB_JD_2100;我有更好的事情做……;;;;;;;;;;;;x
 cb_opportunity_liberate;获得一个§Y宗教解放§!宣战理由，可用于你选择的任何有效目标。;;;;;;;;;;;;x
 cb_opportunity_liberate_deny;因为你决定把时间花在别的地方，所以不再会有这种机会。;;;;;;;;;;;;x
 CB_NAME_HOSTAGES;解救俘虏;;;;;;;;;;;;x
-WAR_NAME_HOSTAGES;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$解救俘虏战争;;;;;;;;;;;;x
+WAR_NAME_HOSTAGES;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$解救俘虏战争;;;;;;;;;;;;x
 EVTDESC_JD_2000;那个[GetRootFromInsult][From.GetBestName]已经以解救人质这个未经考虑的借口对我悍然发动战争，而那些人本是被合法扣押的！这恰好给了我处决他们的理由，如果我愿意的话……;;;;;;;;;;;;x
 EVTOPTA_JD_2000;这场战争必须结束，提议放他们回国。;;;;;;;;;;;;x
 EVTOPTB_JD_2000;我必须杀鸡儆猴，处死[chosen_captive.GetFirstName]。;;;;;;;;;;;;x
@@ -788,14 +788,14 @@ obj_strengthen_religion_desc;[This.GetTitledFirstName]想要看到§Y[Root.Relig
 tooltip_obj_strengthen_religion;为了完成这个野心你必须完成以下任务中的 §Y3§! 项：\n§Y*§! 赢得一场圣战\n§Y*§! 防御一场圣战\n§Y*§! 建筑一座神殿\n§Y*§! 让某个省份转教成[This.Religion.GetName]\n§Y*§! 完成一次特殊机遇\n注意同一个任务可以多次完成。\n\n目前完成的任务数：§G[This.strengthen_religion.GetValue]§!;;;;;;;;;;;;x
 strengthen_religion_ambition;宗教捍卫者;;;;;;;;;;;;x
 CB_NAME_UNJUST_COUNTY_CONQUEST;[Title.GetBaseName]边界争端;;;;;;;;;;;;x
-WAR_NAME_UNJUST_COUNTY_CONQUEST;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$争夺$OTHER_TITLE$的边界争端;;;;;;;;;;;;x
-unjust_conquest_desc;你可以选择去入侵任何与你接壤的伯爵领。但是要注意在没有宣称的情况下发动侵略将要付出沉重的代价——当你攻击同宗教的领主时所付出的代价是最高的，其次是攻击与你在同一宗教组的，最次但代价依然沉重的是攻击其他宗教的领主。;;;;;;;;;;;;x
+WAR_NAME_UNJUST_COUNTY_CONQUEST;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$争夺$OTHER_TITLE$的边界争端;;;;;;;;;;;;x
+unjust_conquest_desc;你可以选择去入侵任何与你接壤的伯爵领。但是要注意在没有宣称的情况下发动侵略将要付出沉重的代价——当你攻击同宗教的领主时所付出的代价是最高的，其次是攻击与你在同一宗教组的，最次但代价依然沉重的是攻击其他宗教组的领主。;;;;;;;;;;;;x
 opinion_declared_unjust_conquest;发动了非正义战争;;;;;;;;;;;;x
 custom_opinion_hit_tooltip;所有在你§Y境内§!属于你的§Y宗教组§!的§Y有地角色§!以及§Y[From.GetTitledFirstName]§!境内对你的看法将改变 §R-15§! 持续 §Y10§! 年。§Y（发动不义战争）§!;;;;;;;;;;;;x
 custom_opinion_hit_tooltip_enemy;所有在你§Y境内§!信奉§Y[From.Religion.GetName]§!的§Y有地角色§!以及§Y[From.GetTitledFirstName]§!境内对你的看法将改变 §R-15§! 持续 §Y10§! 年。§Y（发动不义战争）§!;;;;;;;;;;;;x
 offmap_submission_desc;天朝可以通过战争迫使他国屈从。;;;;;;;;;;;;x
 CB_NAME_OFFMAP_SUBMISSION;服从;;;;;;;;;;;;x
-WAR_NAME_OFFMAP_SUBMISSION;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$归顺战争;;;;;;;;;;;;x
+WAR_NAME_OFFMAP_SUBMISSION;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$归顺战争;;;;;;;;;;;;x
 tributary_offmap_cb_desc;天朝可以通过战争迫使他国朝贡。;;;;;;;;;;;;x
 TRIBUTARY_OFFMAP_NAME;帝国朝贡国;;;;;;;;;;;;x
 TRIBUTARY_OFFMAP_PLURAL;帝国朝贡国;;;;;;;;;;;;x
@@ -806,11 +806,11 @@ SUZERAIN_NOMADIC_NAME;游牧宗主国;;;;;;;;;;;;x
 offmap_submission_tip;§Y[Root.GetTitledFirstName]§!用武力强制§Y[This.GetTitledName]§!臣服并成为他们的境内之民。\n§Y[Root.GetTitledFirstName]§!将篡夺§Y伯爵领§!直到[Root.GetHerHis]§Y直辖领§!达到上限！\n;;;;;;;;;;;;x
 CB_NAME_TRIBUTARY;逼迫纳贡;;;;;;;;;;;;x
 CB_NAME_PERMANENT_TRIBUTARY;建立朝贡国;;;;;;;;;;;;x
-WAR_NAME_PERMANENT_TRIBUTARY;第$ORDER$$FIRST_ADJ$令$DEFENDER$朝贡战争;;;;;;;;;;;;x
+WAR_NAME_PERMANENT_TRIBUTARY;$ORDER$ $FIRST_ADJ$令$DEFENDER$朝贡战争;;;;;;;;;;;;x
 tributary_permanent_cb_desc;§Y$TARGET$§!十分虚弱，但是如果他们用金钱和士兵向你交付贡税，你就会提供保护！\n\n你可以通过战争强迫任何你或你§Y朝贡国§!的邻国缴纳 §Y20%§! 收入和 §Y15%§! 的征召兵增援力量以作为贡赋。\n只有在§Y宗主国§!拥有§R负§!§Y威望§!、§R不是§!§Y独立领主§!、§Y领土规模§!§R小于§!§Y朝贡国§!，或者是§R拒绝防御性§!§Y朝贡国§!的§Y战争召唤§!的时候才会脱离朝贡。\n这种类型的§Y朝贡国§!§R不可以§!被召入战争。;;;;;;;;;;;;x
 tributary_cb_desc;§Y$TARGET$§!很富裕因此应当向你朝贡！\n\n你可以通过战争强迫任何位于你边界的邻国缴纳 §Y40%§! 收入以作为贡赋。\n这种类型的§Y朝贡国§!在§Y宗主§!死亡时会§R脱离朝贡§!。\n这种类型的§Y朝贡国§!可以被召入战争。;;;;;;;;;;;;x
 CB_NAME_NOMAD_TRIBUTARY;建立朝贡关系;;;;;;;;;;;;x
-WAR_NAME_NOMAD_TRIBUTARY;第$ORDER$$FIRST_ADJ$令$DEFENDER$朝贡战争;;;;;;;;;;;;x
+WAR_NAME_NOMAD_TRIBUTARY;$ORDER$ $FIRST_ADJ$令$DEFENDER$朝贡战争;;;;;;;;;;;;x
 tributary_nomad_cb_desc;§Y$TARGET$§!的领地如此虚弱，根本不是我的对手，是时候让他们朝贡了，否则我游牧民的雷霆铁蹄将会碾碎他们！\n\n你可以通过战争强迫任何你或你§Y朝贡国§!的邻国缴纳 §Y50%§! 收入以作为贡赋。\n只有在§Y宗主§!拥有§R负§!§Y威望§!的情况下才会脱离朝贡。\n这种类型的§Y朝贡国§!可以被召唤加入战争。\n这种类型的§Y朝贡国§!会召唤你加入他们的战争，不过你并不一定要响应他们的§Y战争召唤§!。;;;;;;;;;;;;x
 tributary_independence_normal;停止进贡;;;;;;;;;;;;x
 tributary_independence_normal_desc;我的§Y宗主§!软弱无力，无法阻止我不向他们进贡;;;;;;;;;;;;x
@@ -890,15 +890,15 @@ levy_coordinator_desc;这个角色深谙虎韬，主要注重速度、机动性�
 sapper;豹韬;;;;;;;;;;;;x
 sapper_desc;这个角色非常熟悉豹韬，专注于如何最好地利用地形，以及如何使用新奇的攻城武器来击败坚不可摧的敌人。;;;;;;;;;;;;x
 MODIFIER_DAYS_OF_SUPPLY;补给天数;;;;;;;;;;;;x
-create_followers_arjuna;创设阿周那军众;;;;;;;;;;;;x
+create_followers_arjuna;成立阿周那军众;;;;;;;;;;;;x
 create_followers_arjuna_desc;创建阿周那军众，所有[Root.Religion.GetName]的统治者将有权雇佣他们并投入对那些对我们有害的宗教的战争！;;;;;;;;;;;;x
-create_followers_arjuna_tooltip;骑士团§Y阿周那军众§!已经建立。;;;;;;;;;;;;x
-create_ashokas_chosen;创设无忧王精兵;;;;;;;;;;;;x
+create_followers_arjuna_tooltip;骑士团§Y阿周那军众§!已经成立。;;;;;;;;;;;;x
+create_ashokas_chosen;成立无忧王精兵;;;;;;;;;;;;x
 create_ashokas_chosen_desc;创建无忧王精兵，所有[Root.Religion.GetName]的统治者都将有权雇佣他们并投入对那些对我们有害的宗教的战争！;;;;;;;;;;;;x
-create_ashokas_chosen_tooltip;§Y无忧王精兵§!已经建立。;;;;;;;;;;;;x
-create_bulls_rishabha;创设勒舍波神牛军;;;;;;;;;;;;x
+create_ashokas_chosen_tooltip;骑士团§Y无忧王精兵§!已经成立。;;;;;;;;;;;;x
+create_bulls_rishabha;成立勒舍波神牛军;;;;;;;;;;;;x
 create_bulls_rishabha_desc;创建勒舍波神牛军，所有[Root.Religion.GetName]的统治者都将有权雇佣他们并投入对那些对我们有害的宗教的战争！;;;;;;;;;;;;x
-create_bulls_rishabha_tooltip;§Y勒舍波神牛军§!已经建立。;;;;;;;;;;;;x
+create_bulls_rishabha_tooltip;骑士团§Y勒舍波神牛军§!已经成立。;;;;;;;;;;;;x
 EVTDESC_HO_110;虽然[leader_of_arjuna.Religion.GetName]信仰是世界上最古老的宗教之一，但若无人守护它就不能万古长存。为此，一个新的骑士团在万般努力后成立了。他们自称[leader_of_arjuna.PrimaryTitle.GetName]。\n\n在一位名为[leader_of_arjuna.GetFirstName]的无畏战士的带领下，他们发誓回应所有[leader_of_arjuna.Religion.GetHighGodName]的追随者的召唤，帮助他们对抗异教徒并证明自己配得上阿周那的名号。;;;;;;;;;;;;x
 EVTOPTA_HO_100;赞美[Root.Religion.GetRandomGodName]！他们将带领我们取得胜利！;;;;;;;;;;;;x
 EVTOPTB_HO_100;我们需要他们捍卫我们的信仰。;;;;;;;;;;;;x
@@ -1547,7 +1547,7 @@ manichean_DESC;摩尼教是由所谓的先知摩尼所创立的诺斯底主义�
 d_manichean;摩尼教教会;;;;;;;;;;;;x
 YAMAG;阎默;;;;;;;;;;;;x
 job_spiritual_manichean;导师;;;;;;;;;;;;x
-organize_army_light;创立光明军;;;;;;;;;;;;x
+organize_army_light;成立光明军;;;;;;;;;;;;x
 organize_army_light_desc;随着十字军远征和新吉哈德时代到来，你有责任召集勇士们守卫摩尼教信仰。;;;;;;;;;;;;x
 celebrate_bema_desc;举办庇麻节来纪念先知摩尼的生平。;;;;;;;;;;;;x
 bema_celebrations;举办庇麻节;;;;;;;;;;;;x
@@ -1934,7 +1934,7 @@ EVTDESC_JD_10102_A;[From.Offmap.GetFullName]试图让我们成为朝贡国，[Fr
 EVTDESC_JD_10102_B;[From.GetTitledName]对[chinese_invasion_target.GetFullName]宣战以逼迫其成为[From.Offmap.GetFullName]的朝贡国，[From.Offmap.Ruler.Culture.GetName]的军队已经开始朝[chinese_invasion_target.GetTitledFirstName]境内集结，这可能会是[chinese_invasion_target.PrimaryTitle.GetAdjective]作为独立国家的终结。;;;;;;;;;;;;x
 EVTOPTA_JD_10102_A_pious;愿[Root.Religion.GetHighGodName]保佑我们度过这一关。;;;;;;;;;;;;x
 EVTOPTA_JD_10102_A_brave;证明我们的机会到了。放他们过来！;;;;;;;;;;;;x
-EVTOPTA_JD_10102_A_craven;[Root.Religion.GetHighGodName]，求您垂怜！;;;;;;;;;;;;x
+EVTOPTA_JD_10102_A_craven;[Root.Religion.GetHighGodName]，垂怜我等！;;;;;;;;;;;;x
 EVTOPTA_JD_10102_A_neutral;这可能会变得难看……;;;;;;;;;;;;x
 EVTOPTA_JD_10102_B_same_religion;愿[Root.Religion.GetHighGodName]保佑他们……！;;;;;;;;;;;;x
 EVTOPTA_JD_10102_B_other_religion;愿这些人们的神明护佑他们。;;;;;;;;;;;;x
@@ -2379,7 +2379,7 @@ chinese_request_invasion_desc;请求§Y[Root.Offmap.GetFullName]§!向另一个�
 sui_china;隋;;;;;;;;;;;;x
 destabilization_china_cb_desc;中国可以通过战争来粉碎他们认为过大因而无益的王国。;;;;;;;;;;;;x
 CB_NAME_DESTABILIZATION_CHINA;粉碎领土;;;;;;;;;;;;x
-WAR_NAME_DESTABILIZATION_CHINA;第$ORDER$$FIRST_ADJ$粉碎$DEFENDER$战争;;;;;;;;;;;;x
+WAR_NAME_DESTABILIZATION_CHINA;$ORDER$ $FIRST_ADJ$粉碎$DEFENDER$战争;;;;;;;;;;;;x
 destabilization_china_success_tt;持有的全部王国和帝国都被摧毁。;;;;;;;;;;;;x
 EVTDESC_JD_3021;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n神圣的[From.Offmap.Ruler.GetLongChineseEmperorName]同意你明智的判断，[chinese_invasion_target.GetFullName]威胁到世界的稳定。[From.Offmap.GetFullName]的将士已经准备出师。;;;;;;;;;;;;x
 EVTDESC_JD_3022_A;听信了[chinese_invasion_instigator.GetBestName]的小人谗言，[From.Offmap.GetName]宣战并意图摧毁我们光荣的家园！[From.Offmap.Ruler.Culture.GetName]军已经发兵[chinese_invasion_target.PrimaryTitle.GetName]，我们必须准备一场长久血腥的抗争的准备。;;;;;;;;;;;;x
@@ -2535,7 +2535,7 @@ EVT_DESC_JD_60207;商人们传来消息：[rebel_general.GetTitledFirstName]被[
 EVT_OPTA_JD_60207;[rebel_general.GetTitledFirstName]的威胁真是太多了。;;;;;;;;;;;;x
 dismantle_pretender_china_cb_desc;中国将毫不犹豫地向觊觎者证明中华帝国的统一和唯一性;;;;;;;;;;;;x
 CB_NAME_DISMANTLE_PRETENDER_CHINA;消灭伪朝;;;;;;;;;;;;x
-WAR_NAME_DISMANTLE_PRETENDER_CHINA;第$ORDER$[offmap_china.GetFullName]消灭伪朝[Recipient.PrimaryTitle.GetFullName]之战;;;;;;;;;;;;x
+WAR_NAME_DISMANTLE_PRETENDER_CHINA;$ORDER$ [offmap_china.GetFullName]消灭伪朝[Recipient.PrimaryTitle.GetFullName]之战;;;;;;;;;;;;x
 dismantle_pretender_china_success_tt;[This.GetTitledName]将会发现[This.GetHerHis]帝国被真正的天子——[offmap_china.Ruler.GetMediumChineseEmperorName]——所毁灭。;;;;;;;;;;;;x
 EVTDESC_JD_60208_A;从东方传来消息，[offmap_china.Ruler.GetShortChineseEmperorName]已经命令[offmap_china.Governor.GetTitledFirstName]调集[offmap_china.Governor.GetHerHis]军队，准备迫使我们承认那个冒牌[offmap_china.Ruler.GetEmperorEmpress]。天无二日，我们将会证明[offmap_china.GetShortName]才是真正的[chinese_invasion_target.GetTitledName]。;;;;;;;;;;;;x
 EVTDESC_JD_60208_B;从东方传来消息，[offmap_china.Ruler.GetShortChineseEmperorName]已经命令[offmap_china.Governor.GetTitledFirstName]调集[offmap_china.Governor.GetHerHis]部队，准备荡平自命不凡的觊觎者。天无二日，[offmap_china.Ruler.GetLongChineseEmperorName]准备用武力证明，[offmap_china.Ruler.GetHerHim]才是真正的天命所归。;;;;;;;;;;;;x
@@ -2630,7 +2630,7 @@ String_Indians;东方人;;;;;;;;;;;;x
 war_with_other_tributary_tt;你并没有在防御另一个[offmap_china.GetShortName]的朝贡国;;;;;;;;;;;;x
 force_open_china_cb_desc;[offmap_china.GetShortName]关闭了国境，迫使丝绸之路上的贸易中断。这是不可接受的！贸易必须流通！;;;;;;;;;;;;x
 CB_NAME_FORCE_OPEN_CHINA;强迫[offmap_china.GetShortName]开放;;;;;;;;;;;;x
-WAR_NAME_FORCE_OPEN_CHINA;第$ORDER$$FIRST_ADJ$强迫[offmap_china.GetFullName]开放战争;;;;;;;;;;;;x
+WAR_NAME_FORCE_OPEN_CHINA;$ORDER$ $FIRST_ADJ$强迫[offmap_china.GetFullName]开放战争;;;;;;;;;;;;x
 china_force_to_open_desc;§Y[offmap_china.GetFullName]§!闭关锁国，把自己隔绝在世界之外。他们关闭了丝绸之路的贸易，拒绝同一切外人打交道。只有通过谈判或者必要的武力才可能让§Y[offmap_china.Ruler.GetMediumChineseEmperorName]§!被迫重新开放国境。;;;;;;;;;;;;x
 force_open_china_start_tt;你必须选择一种方式使§Y[offmap_china.GetFullName]§!打开国门：用§Y战争§!打败他们，控制一个丝绸之路§Y起点§!和§Y25%§!的财富或者通过§Y谈判§!签订一个条约。;;;;;;;;;;;;x
 EVT_DESC_JD_60301;[offmap_china.Ruler.GetMediumChineseEmperorName]已经决定闭关并将取缔丝绸之路上的所有贸易，而这是不可接受的。[offmap_china.Ruler.GetSheHeCap]不仅会损害[offmap_china.GetShortName]的贸易收入，更会影响到我们自己领地。不论如何，我们必须让[offmap_china.Ruler.GetEmperorEmpress]重新打开边界。;;;;;;;;;;;;x
@@ -4550,7 +4550,7 @@ EVTDESC86320;老人开始告诉你，卡尔布·伊本·马利克报告说，安
 uninspired;无灵感;;;;;;;;;;;;x
 uninspired_desc;这个角色现在并没有进行创作性追求的心情。;;;;;;;;;;;;x
 not_awaiting_your_spouse_tt;目前不在等待你从[offmap_china.GetFullName]来的配偶;;;;;;;;;;;;x
-adopt_chinese_imperialism_tt;受到[offmap_china.GetFullName]的辉煌文化的鼓舞，你将在西方成立一个新的帝国。;;;;;;;;;;;;x
+adopt_chinese_imperialism_tt;受到[offmap_china.GetFullName]的辉煌文化的鼓舞，你将在西方建立一个新的帝国。\n;;;;;;;;;;;;x
 chinese_imperial_government_desc;中华帝国制与普通封建制甚为相同，皆是围绕着领主和封臣之间的誓言。该政体受到了[offmap_china.GetFullName]本土高效的行政机关的启发，并促进了不同宗教间的和平对话。;;;;;;;;;;;;x
 king_tangut;宁令;;;;;;;;;;;;x
 king_female_tangut;女宁令;;;;;;;;;;;;x

@@ -203,11 +203,11 @@ GREAT_DUKE;大公;;;;;;;;;;;;x
 city_king;王爵市长;;;;;;;;;;;;x
 city_duke;大市长;;;;;;;;;;;;x
 CB_NAME_EMBARGO;禁运;;;;;;;;;;;;x
-WAR_NAME_EMBARGO;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$禁运战争;;;;;;;;;;;;x
+WAR_NAME_EMBARGO;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$禁运战争;;;;;;;;;;;;x
 CB_NAME_COASTAL_REPUBLIC;夺取[Title.GetBaseName]城市;;;;;;;;;;;;x
-WAR_NAME_COASTAL_REPUBLIC;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$夺取城市$OTHER_TITLE$战争;;;;;;;;;;;;x
+WAR_NAME_COASTAL_REPUBLIC;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$夺取城市$OTHER_TITLE$战争;;;;;;;;;;;;x
 CB_NAME_COASTAL_COUNTY_REPUBLIC;夺取[Title.GetBaseName];;;;;;;;;;;;x
-WAR_NAME_COASTAL_COUNTY_REPUBLIC;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$夺取$OTHER_TITLE$海岸战争;;;;;;;;;;;;x
+WAR_NAME_COASTAL_COUNTY_REPUBLIC;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$夺取$OTHER_TITLE$海岸战争;;;;;;;;;;;;x
 IS_EMBARGOING;正在禁运§Y$OTHER$§!;;;;;;;;;;;;x
 REPUBLICAN;共和国商人;;;;;;;;;;;;x
 IS_NOT_EMBARGOING;没有禁运§Y$OTHER$§!;;;;;;;;;;;;x
@@ -311,7 +311,7 @@ tp_town_4_desc_muslim;曾经围绕在清真寺周围的村庄已经发展成为�
 tp_town_5_desc_muslim;曾经围绕在清真寺周围的村庄已经发展成为了一座繁华的大都会，里面住着上千视之为桑梓的居民。;;;;;;;;;;;;x
 FC_FIND_CHARACTERS;找到角色;;;;;;;;;;;;x
 CB_NAME_SEIZE_TRADE_POST;夺取[Title.GetBaseName]贸易站;;;;;;;;;;;;x
-WAR_NAME_SEIZE_TRADE_POST;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$夺取$OTHER_TITLE$贸易战争;;;;;;;;;;;;x
+WAR_NAME_SEIZE_TRADE_POST;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$夺取$OTHER_TITLE$贸易战争;;;;;;;;;;;;x
 TRIGGER_SEA_ZONE;贸易站主人;;;;;;;;;;;;x
 SEIZE_TRADE_POST_EFFECT;§Y$TAKER$§!夺取了位于§Y$PROV$§!的贸易站;;;;;;;;;;;;x
 opinion_feuding_family;世仇家族;;;;;;;;;;;;x
@@ -455,7 +455,7 @@ EVTOPTA_REP_206;是他们挑起的！;;;;;;;;;;;;x
 HINT_FACTIONS_VIEW_TITLE;派系界面;;;;;;;;;;;;x
 HINT_FACTIONS_VIEW_TEXT_1;这里你能够看到在你的国境内活动的派系的概况。封臣会因为其希望达到的目的创建派系对抗领主，比如降低王权或觊觎王位，其他封臣如同认同该派系的目标则会加入这个派系。;;;;;;;;;;;;x
 HINT_FACTIONS_VIEW_TEXT_2;当一个派系足够强大的时候，它的成员会向领主发出最后通牒。如果领主拒绝了，那么将会爆发一场内战。;;;;;;;;;;;;x
-HINT_FACTIONS_VIEW_TEXT_3;有以下数种方法可以让你的封臣离开一个派系：你可以派遣的你的间谍总管去他们的领地上密谋，你也可以贿赂他们使他们更倾向你，或者你也可以祈祷他们被暗杀。 注意只要派系中还有别的成员存在，派系中任何一个成员都可能成为新的派系领袖，如果前任领袖因为一些原因离开的话。;;;;;;;;;;;;x
+HINT_FACTIONS_VIEW_TEXT_3;有以下数种方法可以让你的封臣离开一个派系：你可以派遣的你的间谍总管去他们的领地上密谋，你也可以贿赂他们使他们更倾向你，或者你也可以祈祷他们被暗杀。 注意，前任领袖因为一些原因离开派系时，只要派系中还有别的成员存在，派系中任何一个成员都可能成为新的派系领袖。;;;;;;;;;;;;x
 HINT_FACTIONS_VIEW_TEXT_4;这个界面的上部分列出的是你的封臣形成对抗你的派系。如果你自己还有领主的话，界面下部分会显示你或你的同僚形成的派系。;;;;;;;;;;;;x
 HINT_REPUBLIC_VIEW_TITLE;共和国界面;;;;;;;;;;;;x
 HINT_REPUBLIC_VIEW_TEXT_1;这个界面仅商业共和国可见，可以让你对共和国的五大望族有一个直观的了解.。共和国的领导者通过选举产生，并且终身担任，但是他的继承人并不一定能够继承他在共和国的位置。;;;;;;;;;;;;x
@@ -464,7 +464,7 @@ HINT_REPUBLIC_VIEW_TEXT_3;家族宅邸直到家族灭亡才会消失。由于家
 HINT_REPUBLIC_VIEW_TEXT_4;家族宅邸下面列出的是你的家族所拥有的贸易站以及它们带来的收入。贸易站可以在国内或国外省份建立，这是你构建商业帝国的重要部分。;;;;;;;;;;;;x
 HINT_PLOT_VIEW_TEXT_2;这些决议是否可用将取决于多种因素，比如你角色的宗教。这些决议涵盖各个方面，从邀请新贵族到举办盛大的赛事等。;;;;;;;;;;;;x
 HINT_PLOT_VIEW_TEXT_1;这个界面下你可以发动阴谋，以及其他各种各样的决议。这个界面还可以方便你查看各种已知阴谋，可能会叛乱的封臣，以及你的囚犯。;;;;;;;;;;;;x
-HINT_CHAR_VIEW_TEXT_1;点击任何头像都会把您带到该角色的界面。这个界面包含这个角色的详细信息——技能、特征、头衔以及关系。您还可以在这里为您的角色选择一个野心。;;;;;;;;;;;;x
+HINT_CHAR_VIEW_TEXT_1;点击任何头像都会把你带到该角色的界面。这个界面包含这个角色的详细信息——能力、特质、头衔以及关系。你还可以在这里为你的角色选择一个野心。;;;;;;;;;;;;x
 plot_seize_trade_post_title;夺取位于[This.GetName]的贸易站;;;;;;;;;;;;x
 plot_seize_trade_post_desc;通过篡夺[This.GetName]贸易站的控制权争取各地的自由。;;;;;;;;;;;;x
 EVTDESC_REP_45;你收到了几个来自汉堡的有影响力的市民家族的提议。他们为成立汉萨同盟一事寻求你的祝福，这将是一个在帝国北方沿岸运转的贸易联盟。批准这项提议并把汉堡变成帝国自由市，你就可以在他们的贸易中坐地收钱……;;;;;;;;;;;;x
