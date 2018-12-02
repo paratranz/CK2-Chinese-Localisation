@@ -152,7 +152,7 @@ north_germanic = {
       "堤克"  # Tyke
       "乌尔夫_乌尔夫"  # Ulfr_Ulf
       "瓦格恩"  # Vagn
-      "瓦尔德马尔_弗拉基米尔"  # Valdemar_Vladimir
+      "瓦尔德马尔_弗拉迪米尔"  # Valdemar_Vladimir
       "奥克"  # Åke
       "英格瓦尔_英瓦尔"  # Yngvar_Ingvar
       "奥瓦尔_奥瓦尔"  # Örvar_Orvar
@@ -6279,9 +6279,9 @@ byzantine = {
       "赫斯第"  # Hesdy
       "伊利亚斯_以利亚"  # Ilyas_Elijah
       "伊沙阿克_以撒"  # Ishaaq_Isaac
-      "耶尔耶尔_格雷戈里"  # Jerjer_Gregory
+      "杰尔杰尔_格雷戈里"  # Jerjer_Gregory
       "金提"  # Jinti
-      "约里"  # Jori
+      "乔里"  # Jori
       "凯洛杰"  # Keloj
       "克里斯托弗_克里斯托弗"  # Krystafer_Christopher
       "基里洛斯_西里尔"  # Kyrillos_Cyril
@@ -6320,14 +6320,14 @@ byzantine = {
       "帕约姆"  # Payom
       "菲洛提奥斯"  # Philotheos
       "皮吉米"  # Pijimi
-      "Pijoul"
+      "皮朱尔"  # Pijoul
       "皮基特"  # Pikhit
-      "Pimen"
-      "Pimoue"
-      "Pimoui"
-      "Pishai"
-      "Pisha-eneh"
-      "Pishoui"
+      "皮门"  # Pimen
+      "皮穆埃"  # Pimoue
+      "皮穆伊"  # Pimoui
+      "皮沙伊"  # Pishai
+      "皮沙-埃内赫"  # Pisha-eneh
+      "皮舒伊"  # Pishoui
       "普索特"  # Psote
       "拉米"  # Rami
       "拉沙德"  # Rashad
@@ -6355,36 +6355,36 @@ byzantine = {
       "阿穆内特"  # Amunet
       "阿思敏"  # Asmin
       "德米亚纳"  # Demiana
-      "厄尔碧丝_藿普"  # Elpis_Hope
-      "Eratee"
+      "埃尔皮斯_藿普"  # Elpis_Hope
+      "埃拉泰"  # Eratee
       "埃瑟"  # Ese
-      "Ester_Esther"
+      "埃丝特尔_埃丝特"  # Ester_Esther
       "法娜"  # Fana
       "哈娜_安娜"  # Hana_Anna
-      "Hawwa_Eve"
+      "哈瓦_爱娃"  # Hawwa_Eve
       "海特"  # Heit
       "藿埃特"  # Hoeite
       "伊利沙比斯_伊丽莎白"  # Ilizabith_Elizabeth
       "卡斯琳_凯瑟琳"  # Kasrin_Catherine
-      "Khnau"
-      "Khreere"
+      "克娜乌"  # Khnau
+      "克蕾蕾"  # Khreere
       "克里斯蒂娜_克里斯蒂娜"  # Kristina_Christine
-      "丽洛"  # Lelou
+      "蕾卢"  # Lelou
       "玛丽亚姆_玛利亚"  # Mariam_Maria
       "玛尔塔_玛莎"  # Marta_Martha
       "梅颂_梅颂"  # Maysoon_Maysoon
-      "Meriam_Mary"
-      "Nefret"
+      "梅丽亚姆_玛丽"  # Meriam_Mary
+      "内夫蕾特"  # Nefret
       "派西"  # Paisi
-      "Pernoufe"
-      "Piama"
-      "Piamun"
-      "Potamina"
-      "Raune"
-      "Ro'oune"
+      "佩尔努费"  # Pernoufe
+      "皮亚玛"  # Piama
+      "皮亚蒙"  # Piamun
+      "波塔米娜"  # Potamina
+      "拉乌内"  # Raune
+      "罗乌内"  # Ro'oune
       "赛乌"  # Sai'ou
       "萨米娅_萨米拉"  # Samia_Samira
-      "Sawsan"
+      "萨乌桑"  # Sawsan
       "舒蕾"  # Shouree
       "舒舒"  # Shoushou
       "索菲娅_索菲娅"  # Sofia_Sofia
@@ -6554,7 +6554,7 @@ byzantine = {
       "瓦勒莉亚_瓦莱莉娅"  # Valeria_Valeria
       "薇薇亚娜_薇薇亚娜"  # Viviana_Viviana
     }
-    from_dynasty_prefix = "of "
+    from_dynasty_prefix = ""  # of 
     modifier = default_culture_modifier
     disinherit_from_blinding = yes
   }
@@ -8954,7 +8954,7 @@ finno_ugric = {
       "尼格拉斯"  # Niglas
       "奥赫托维"  # Ohetõiv
       "奥赫瓦德"  # Ohevald
-      "Olev_Olaf"
+      "奥莱夫_奥拉夫"  # Olev_Olaf
       "奥尼"  # Onni
       "奥特勒布"  # Otelemb
       "奥托"  # Ott
@@ -9835,7 +9835,7 @@ finno_ugric = {
       "马托拉瓦"  # Mastorava
       "诺罗瓦"  # Noroava
     }
-    from_dynasty_prefix = "of "
+    from_dynasty_prefix = ""  # of 
     founder_named_dynasties = yes
     modifier = default_culture_modifier
   }
@@ -10392,14 +10392,14 @@ altaic = {
       "苏鲁"  # Suru
       "塔图斯"  # Tatus
       "特贝尔"  # Teber
-      "Temir_Timur"
+      "铁米尔_帖木儿"  # Temir_Timur
       "提拉奇"  # Tyrach
       "亚夫迪"  # Yavdi
       "雅兹"  # Yazi
       "叶克"  # Yeke
     }
     female_names = {
-      "Çiçek_Çiçek"
+      "奇切克_奇切克"  # Çiçek_Çiçek
       "其伦"  # Çilen
       "其尔塔尼斯"  # Çiltanesi
       "奥兹古尔"  # Özgul
@@ -10500,7 +10500,7 @@ altaic = {
       "乌祖尔"  # Uzur
     }
     female_names = {
-      "Çiçek_Çiçek"
+      "奇切克_奇切克"  # Çiçek_Çiçek
       "其伦"  # Çilen
       "其尔塔尼斯"  # Çiltanesi
       "奥兹古尔"  # Özgul
@@ -11178,7 +11178,7 @@ altaic = {
       "Agut"
       "Alïp"
       "Alïpqutlugh"
-      "Alïpshalçi"
+      "乙毗沙勒支"  # Alïpshalçi
       "Alïpshul"
       "Alïptegin"
       "Anar"
@@ -11200,11 +11200,11 @@ altaic = {
       "Bazir"
       "毗伽"  # Bilge
       "Bilgä"
-      "Bilgätegin"
+      "毗伽特勤"  # Bilgätegin
       "裴罗"  # Boyla
       "Bughra"
       "Bughraçuq"
-      "Bumin"
+      "布民"  # Bumin
       "Bumïn"
       "不花"  # Buqa
       "Buqaçuq"
@@ -11260,7 +11260,7 @@ altaic = {
       "Keçig"
       "Kutsha"
       "Kïlïç"
-      "Kökmish"
+      "曲密施"  # Kökmish
       "Köksagun"
       "Köpek"
       "Körtile"
@@ -11288,7 +11288,7 @@ altaic = {
       "王都督"  # Ontutuq
       "Ozmush"
       "Pülüñ"
-      "Qapaghan"
+      "夹毕汗"  # Qapaghan
       "Qarabarïs"
       "Qazghaq"
       "Qumash"
@@ -11302,7 +11302,7 @@ altaic = {
       "Sebük"
       "Sebüktegin"
       "Señram"
-      "Shalçi"
+      "沙勒支"  # Shalçi
       "Shughur"
       "Shöñüz"
       "Shümül"
@@ -11324,8 +11324,8 @@ altaic = {
       "特勤"  # Tegin
       "Tekesh"
       "Tersin"
-      "Teñirikän"
-      "Tinsi"
+      "登利汗"  # Teñirikän
+      "天子"  # Tinsi
       "Tirig"
       "Toghan"
       "Toghrïl"
@@ -11352,23 +11352,23 @@ altaic = {
       "Ushlik"
       "Yaghïzçor"
       "Yaghïçi"
-      "Yamtar"
+      "奄达"  # Yamtar
       "Yaraq"
       "轧荦"  # Yaruq
       "轧荦特勤"  # Yaruqtegin
       "Yarïsh"
       "乙干啜"  # Yigençur
       "Yola"
-      "药利特勤"  # Yollughtegin
-      "Yolluq"
+      "夜落纥特勤"  # Yollughtegin
+      "夜落纥"  # Yolluq
       "Yorçïn"
       "Yïlqï"
       "Çaghrï"
       "沙吒"  # Çaça
-      "Çañ"
+      "张"  # Çañ
       "Çeküñ"
       "Çeçem"
-      "Çigshi"
+      "刺史"  # Çigshi
       "Çigsü"
       "啜"  # Çor
       "Çuçi"
@@ -11446,7 +11446,7 @@ altaic = {
       "Alas"
       "Alcibay"
       "Alïp"
-      "Alïpshalçi"
+      "乙毗沙勒支"  # Alïpshalçi
       "Alïpshul"
       "Amas"
       "Anar"
@@ -11478,7 +11478,7 @@ altaic = {
       "Bilgä"
       "裴罗"  # Boyla
       "Bughra"
-      "Bumin"
+      "布民"  # Bumin
       "Bumïn"
       "不花"  # Buqa
       "Buqaçuq"
@@ -11514,7 +11514,7 @@ altaic = {
       "伊难珠"  # Inançu
       "Inek"
       "移涅"  # Inel
-      "Isbar"
+      "沙钵略"  # Isbar
       "室点密"  # Istämi
       "贾格拉恰尔"  # Jaglaqar
       "Jegen"
@@ -11535,7 +11535,7 @@ altaic = {
       "Keçig"
       "Kokan"
       "阔阔托依"  # Kokotoy
-      "Kökmish"
+      "曲密施"  # Kökmish
       "Köpek"
       "Körtile"
       "Kügir"
@@ -11566,7 +11566,7 @@ altaic = {
       "Oçan"
       "Parush"
       "Pülüñ"
-      "Qapaghan"
+      "夹毕汗"  # Qapaghan
       "Qarabarïs"
       "Qazghaq"
       "Qumash"
@@ -11580,7 +11580,7 @@ altaic = {
       "赛麦台依"  # Semetei
       "Señram"
       "Shadrash"
-      "Shalçi"
+      "沙勒支"  # Shalçi
       "Shapkay"
       "Sheltrek"
       "Shughur"
@@ -11601,8 +11601,8 @@ altaic = {
       "特勤"  # Tegin
       "Tekesh"
       "Tersin"
-      "Teñirikän"
-      "Tinsi"
+      "登利汗"  # Teñirikän
+      "天子"  # Tinsi
       "Tirig"
       "Toghan"
       "Toghrïl"
@@ -11631,7 +11631,7 @@ altaic = {
       "Uruñ"
       "Yaghïzçor"
       "Yaghïçi"
-      "Yamtar"
+      "奄达"  # Yamtar
       "Yapïq"
       "Yaraq"
       "轧荦"  # Yaruq
@@ -11639,8 +11639,8 @@ altaic = {
       "Yarïsh"
       "乙干啜"  # Yigençur
       "Yola"
-      "药利特勤"  # Yollughtegin
-      "Yolluq"
+      "夜落纥特勤"  # Yollughtegin
+      "夜落纥"  # Yolluq
       "Yorçïn"
       "Yïlqï"
       "Çabas"
@@ -11649,10 +11649,10 @@ altaic = {
       "Çarkop"
       "Çayah"
       "沙吒"  # Çaça
-      "Çañ"
+      "张"  # Çañ
       "Çeküñ"
       "Çeçem"
-      "Çigshi"
+      "刺史"  # Çigshi
       "Çigsü"
       "Çiis"
       "Çola"
@@ -11771,7 +11771,7 @@ altaic = {
       "Agut"
       "Alïp"
       "Alïpqutlugh"
-      "Alïpshalçi"
+      "乙毗沙勒支"  # Alïpshalçi
       "Alïpshul"
       "Anar"
       "阿波特勤"  # Apategin
@@ -11802,7 +11802,7 @@ altaic = {
       "Bilgä"
       "裴罗"  # Boyla
       "Bughra"
-      "Bumin"
+      "布民"  # Bumin
       "Bumïn"
       "不花"  # Buqa
       "Buqaçuq"
@@ -11862,7 +11862,7 @@ altaic = {
       "吃剌失思"  # Kiräsiz
       "忽滩"  # Kutan
       "Känçiq"
-      "Kökmish"
+      "曲密施"  # Kökmish
       "宽彻"  # Könçög
       "Köpek"
       "Körtile"
@@ -11893,7 +11893,7 @@ altaic = {
       "Ormuz"
       "Ozmush"
       "Pülüñ"
-      "Qapaghan"
+      "夹毕汗"  # Qapaghan
       "Qarabarïs"
       "Qaya"
       "Qazghaq"
@@ -11909,7 +11909,7 @@ altaic = {
       "Salïndï"
       "篯吉"  # Señgi
       "Señram"
-      "Shalçi"
+      "沙勒支"  # Shalçi
       "Shughur"
       "Shöñüz"
       "Shümül"
@@ -11931,10 +11931,10 @@ altaic = {
       "Tekesh"
       "Tersin"
       "登利牟羽"  # Teñribögü
-      "Teñirikän"
+      "登利汗"  # Teñirikän
       "的斤"  # Tigin
       "Timür"
-      "Tinsi"
+      "天子"  # Tinsi
       "Tirig"
       "Toghan"
       "Toghrïl"
@@ -11960,7 +11960,7 @@ altaic = {
       "Uruñ"
       "Yaghïzçor"
       "Yaghïçi"
-      "Yamtar"
+      "奄达"  # Yamtar
       "Yapïq"
       "Yaraq"
       "Yargat"
@@ -11970,15 +11970,15 @@ altaic = {
       "Yasu"
       "乙干啜"  # Yigençur
       "Yola"
-      "药利特勤"  # Yollughtegin
-      "Yolluq"
+      "夜落纥特勤"  # Yollughtegin
+      "夜落纥"  # Yolluq
       "Yorçïn"
       "Yïlqï"
       "沙吒"  # Çaça
-      "Çañ"
+      "张"  # Çañ
       "Çeküñ"
       "Çeçem"
-      "Çigshi"
+      "刺史"  # Çigshi
       "Çigsü"
       "Çiñtimür"
       "啜"  # Çor
@@ -15085,8 +15085,8 @@ south_slavic = {
       "阿尔迪米尔"  # Aldimir
       "阿森"  # Asen
       "贝尔巴特"  # Berbat
-      "布莱兹_布莱斯"  # Blaz_Blaise
-      "博列斯拉夫"  # Boleslav
+      "布拉日_布莱斯"  # Blaz_Blaise
+      "博莱斯拉夫"  # Boleslav
       "博尔纳"  # Borna
       "布拉尼米尔"  # Branimir
       "布迪米尔"  # Budimir
@@ -15097,15 +15097,15 @@ south_slavic = {
       "多布罗斯拉夫"  # Dobroslav
       "德拉吉亚"  # Dragija
       "德拉戈斯"  # Dragos
-      "德拉古丁"  # Dragutin
-      "加夫里罗_加布里埃尔"  # Gavrilo_Gabriel
+      "德拉古廷"  # Dragutin
+      "加夫里洛_加布里埃尔"  # Gavrilo_Gabriel
       "戈迪米尔"  # Godimir
-      "戈伦"  # Goran
+      "戈兰"  # Goran
       "格古尔_格雷戈里"  # Grgur_Gregory
       "伊利亚_以利亚"  # Ilija_Elijah
       "伊凡_约翰"  # Ivan_John
-      "约瑟夫_约瑟夫"  # Josif_Joseph
-      "约瑟普_约瑟夫"  # Josip_Joseph
+      "约西夫_约瑟夫"  # Josif_Joseph
+      "约西普_约瑟夫"  # Josip_Joseph
       "约万_约翰"  # Jovan_John
       "卡西扬"  # Kasjan
       "君士坦丁_君士坦丁"  # Konstantin_Constantine
@@ -15124,7 +15124,7 @@ south_slavic = {
       "米罗斯拉夫_米罗斯拉夫"  # Miroslav_Miroslav
       "米斯拉夫"  # Mislav
       "内纳德"  # Nenad
-      "尼科季姆_尼哥底慕斯"  # Nikodim_Nicodemus
+      "尼科迪姆_尼科德穆斯"  # Nikodim_Nicodemus
       "尼古拉_尼古拉斯"  # Nikola_Nicholas
       "尼诺斯拉夫"  # Ninoslav
       "佩塔尔_彼得"  # Petar_Peter
@@ -15164,7 +15164,7 @@ south_slavic = {
       "西塞拉"  # Hicela
       "叶莲娜"  # Jelena
       "卡萝莉娜_卡罗琳"  # Karolina_Caroline
-      "克拉塔"  # Keratza
+      "克拉察"  # Keratza
       "洛沃尔卡"  # Lovorka
       "玛利亚_玛利亚"  # Marija_Maria
       "米尔卡"  # Milka
@@ -16031,7 +16031,7 @@ south_slavic = {
       "沃尔基妮娅"  # Volkinja
       "沃尔科妮娅"  # Volkonja
       "沃尔科塔"  # Volkota
-      "弗拉尼查"  # Vranica
+      "弗拉尼察"  # Vranica
       "泽米德拉加"  # Zemidraga
       "泽尼斯拉娃"  # Zenislava
       "兹拉"  # Zla
@@ -16133,7 +16133,7 @@ south_slavic = {
       "兹韦兹丹娜"  # Zvezdana
       "日夫科娃"  # Živkoka
     }
-    from_dynasty_prefix = "od "
+    from_dynasty_prefix = ""  # od 
     male_patronym = "ic"
     prefix = no
     modifier = default_culture_modifier
