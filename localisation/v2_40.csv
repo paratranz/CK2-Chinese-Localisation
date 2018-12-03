@@ -413,7 +413,7 @@ nomadic_empire_of;可汗国;;;;;;;;;;;;x
 nomadic_kingdom;汗国;;;;;;;;;;;;x
 nomadic_kingdom_of;汗国;;;;;;;;;;;;x
 REMOVE_TRIBUTARY_EFFECT;§Y$TRIBUTARY$§!不再是§Y$OVERLORD$§!的朝贡国。;;;;;;;;;;;;x
-WAR_NAME_TRIBUTARY;第$ORDER$$FIRST_ADJ$强迫$DEFENDER$朝贡的战争;;;;;;;;;;;;x
+WAR_NAME_TRIBUTARY;$ORDER$ $FIRST_ADJ$强迫$DEFENDER$朝贡的战争;;;;;;;;;;;;x
 CB_NAME_FREE_TRIBUTARY;脱离朝贡;;;;;;;;;;;;x
 CLAN_SATISFACTION_REASON;$CLAN$仅持有 §R$EMPTY_HOLDINGS$§! 空地产，相比起领主的 §Y$LIEGE_EMPTY_HOLDINGS$§!。;;;;;;;;;;;;x
 EMPTY_HOLDINGS_LIEGE_CAPITAL;游牧首都内的空地产在计算部族满意度时将不被包括在内。;;;;;;;;;;;;x
@@ -421,7 +421,7 @@ EMPTY_HOLDINGS_BY_CLAN;§Y空地产由部族§!：;;;;;;;;;;;;x
 TITLE_NOT_NOMAD;不是一个部族头衔;;;;;;;;;;;;x
 CLAN_NAME;$DYNASTY$部族;;;;;;;;;;;;x
 INTERACTION_TITLE_NOT_NOMAD;不能是一个部族头衔;;;;;;;;;;;;x
-WAR_NAME_FREE_TRIBUTARY;第$ORDER$$FIRST_ADJ$从宗主国下解放$ATTACKER$的战争;;;;;;;;;;;;x
+WAR_NAME_FREE_TRIBUTARY;$ORDER$ $FIRST_ADJ$从宗主国下解放$ATTACKER$的战争;;;;;;;;;;;;x
 REMOVE_PREVIOUS_SUZERAIN;移除§Y[This.GetTitledFirstName]§!之前的任何宗主国\n;;;;;;;;;;;;x
 DISTANCE_FROM_REALM_LESS_THAN;距离领地不到;;;;;;;;;;;;x
 DISTANCE_FROM_REALM_AT_LEAST;距离领地至少;;;;;;;;;;;;x
@@ -437,7 +437,7 @@ IS_ON_TRADE_ROUTE;省份位于一条主要贸易线路上;;;;;;;;;;;;x
 IS_PROVINCE_OWNER;直属省份;;;;;;;;;;;;x
 MODIFIER_TRADE_ROUTE_VALUE;贸易线路收入;;;;;;;;;;;;x
 CB_NAME_CLAN_REVOLT;[Title.GetBaseName]部族叛乱;;;;;;;;;;;;x
-WAR_NAME_CLAN_REVOLT;第$ORDER$$ATTACKER$夺取$OTHER_TITLE$的部族叛乱;;;;;;;;;;;;x
+WAR_NAME_CLAN_REVOLT;$ORDER$ $ATTACKER$夺取$OTHER_TITLE$的部族叛乱;;;;;;;;;;;;x
 clan_revolt_desc;部族满意度过低时，部族叛乱就会出现，将尽力在游牧领地内更好地重新分配土地。;;;;;;;;;;;;x
 CLAN_REVOLT;[Root.County.GetAdjective]部族叛乱;;;;;;;;;;;;x
 MODIFIER_TRADE_ROUTE_WEALTH;贸易线路财富;;;;;;;;;;;;x
@@ -496,7 +496,7 @@ enables_tribal_tax_laws;启用部落征税法\n;;;;;;;;;;;;x
 disables_tribal_tax_laws;停用部落征税法\n;;;;;;;;;;;;x
 CB_NAME_RIVALRY;仇敌;;;;;;;;;;;;x
 rivalry_cb_desc;§Y$TARGET$§!是你的憎恶的仇人，除了把这个坏蛋扔进你的地牢之外，你想不到更好的处置方法了。;;;;;;;;;;;;x
-WAR_NAME_RIVALRY;第$ORDER$$FIRST_ADJ$-$SECOND_ADJ$仇敌战争;;;;;;;;;;;;x
+WAR_NAME_RIVALRY;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$仇敌战争;;;;;;;;;;;;x
 AIREASON_TRIBUTARY_WAR_AGAINST_TRIBUTARY;针对我朝贡国的朝贡战争;;;;;;;;;;;;x
 AIREASON_WAR_AGAINST_TRIBUTARY;针对我朝贡国的战争;;;;;;;;;;;;x
 AIREASON_WAR_FROM_TRIBUTARY;我朝贡国内的利益;;;;;;;;;;;;x
