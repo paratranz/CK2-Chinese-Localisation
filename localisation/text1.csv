@@ -2693,7 +2693,7 @@ EVTOPTA38100;问问我的监护人有关[Root.Guardian.Religion.GetRandomGodName
 EVTTOOLTIP38101;[Root.Guardian.GetTitledFirstName]被问有关上帝的问题。;;;;;;;;;;;;x
 EVTOPTB38100;去找我的朋友们玩。;;;;;;;;;;;;x
 EVTDESC38101;[From.GetFirstName]，我年轻的[GetFromRelation]，非常喜欢问问题，他向我询问为什么人生活在这个世界里？;;;;;;;;;;;;x
-EVTOPTA38101;让 [From.GetObjectPronoun]成为一名合格的[Root.Religion.GetName][Root.Religion.GetGroupName];;;;;;;;;;;;x
+EVTOPTA38101;让[From.GetObjectPronoun]成为一名合格的[Root.Religion.GetName][Root.Religion.GetGroupName]信徒;;;;;;;;;;;;x
 EVTTOOLTIP38102;[This.GetTitledFirstName]成为了[Root.Religion.GetName];;;;;;;;;;;;x
 EVTOPTB38101;让[From.GetObjectPronoun]去寻找这个问题的答案，当然是要靠[From.GetPossPronoun]自己……;;;;;;;;;;;;x
 EVTDESC38102;我的[GetFromRelation]回答了我所有的关于自身存在的问题。;;;;;;;;;;;;x
@@ -4831,7 +4831,7 @@ EXECUTE_IMPRISONED_INTERACTION_DESC;处决§Y[Recipient.GetBestName]§!。\n这�
 EXECUTE_IMPRISONED_INTERACTION_LONG_DESC;砍掉某个人的头是摆脱他的最有效的方法。不过，这必然会使很多人感到失望，而且不像驱逐一样可以没收头衔和财产。;;;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_0;处决§Y[Recipient.GetBestName]§!。;;;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_2;由于§Y[Recipient.GetTitledFirstName]§W被绝罚，没有人会关心。;;;;;;;;;;;;x
-EXECUTE_IMPRISONED_INTERACTION_3;这会激怒§Y[Recipient.TopLiege.PrimaryTitle.GetFullName]§!领主们，他们对你的好感度将会降低§R$OPINION$§!。;;;;;;;;;;;;x
+EXECUTE_IMPRISONED_INTERACTION_3;这会激怒§Y[Recipient.TopLiege.PrimaryTitle.GetFullName]§!的领主们，他们对你的好感度将会降低 §R$OPINION$§!。;;;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_4;由于§Y[Recipient.GetTitledFirstName]§W来自敌国，没有人会反对。;;;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_ACCEPT_SETUP;囚犯已处决;;;;;;;;;;;;x
 EXECUTE_IMPRISONED_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W决定处决[Recipient.GetDynName];;;;;;;;;;;;x
@@ -15810,7 +15810,7 @@ NO_GOVS_IN_CAP;不能给首都任命总督;;;;;;;;;;;;x
 NO_CONTROL;这个省份不在我们治下;;;;;;;;;;;;x
 NO_GOVERNOR;没有选择总督;;;;;;;;;;;;x
 QUIT_TITLE;退出游戏;;;;;;;;;;;;x
-QUIT_DESC;你确定要退出游戏回到桌面吗;;;;;;;;;;;;x
+QUIT_DESC;你确定要退出游戏回到桌面吗？;;;;;;;;;;;;x
 WON;胜利;;;;;;;;;;;;x
 LOST;失败;;;;;;;;;;;;x
 CH_RULER;成为$WHERE$。;;;;;;;;;;;;x
@@ -15997,7 +15997,7 @@ WEWAR;我们正处于战争状态;;;;;;;;;;;;x
 ISATWAR;当你处于战争时，不能要求军事通行权.;;;;;;;;;;;;x
 CONFIRM_REPLACE_IDEA;替换国家理念;;;;;;;;;;;;x
 CONFIRM_NEW_IDEA;选择新的国家理念;;;;;;;;;;;;x
-CONFIRM_NEW_IDEA_DESC;你确定要选择$IDEA$国家理念吗以后改变理念会导致稳定度下降.;;;;;;;;;;;;x
+CONFIRM_NEW_IDEA_DESC;你确定要选择$IDEA$国家理念吗？以后改变理念会导致稳定度下降。;;;;;;;;;;;;x
 LOAD_GAME_FAILED;读取游戏失败;;;;;;;;;;;;x
 MP_FEW_PLAYERS;你需要至少两个玩家进行游戏。;;;;;;;;;;;;x
 VASALLACCEPTOTHER_BTN3;转到;;;;;;;;;;;;x
@@ -17397,7 +17397,7 @@ nestorian;聂斯脱里派;;;;;;;;;;;;x
 zikri;诵经派;;;;;;;;;;;;x
 yazidi;雅兹迪派;;;;;;;;;;;;x
 ibadi;伊巴迪派;;;;;;;;;;;;x
-bektashi;拜克塔什教团;;;;;;;;;;;;x
+bektashi;拜克塔什派;;;;;;;;;;;;x
 druze;德鲁兹派;;;;;;;;;;;;x
 hurufi;胡儒非派;;;;;;;;;;;;x
 tengri_pagan;长生天;;;;;;;;;;;;x
