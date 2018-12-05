@@ -359,10 +359,10 @@ temple_barony_druze;哈勒瓦特;;;;;;;;;;;;x
 temple_barony_of_druze;哈勒瓦特;;;;;;;;;;;;x
 temple_barony_yazidi;圣殿;;;;;;;;;;;;x
 temple_barony_of_yazidi;圣殿;;;;;;;;;;;;x
-d_fraticelli;小兄弟会教廷;;;;;;;;;;;;x
-d_fraticelli_adj;小兄弟会教廷;;;;;;;;;;;;x
-d_iconoclast;圣像破坏派牧首属邦;;;;;;;;;;;;x
-d_iconoclast_adj;圣像破坏派牧首;;;;;;;;;;;;x
+d_fraticelli;小兄弟会宗座;;;;;;;;;;;;x
+d_fraticelli_adj;小兄弟会宗座;;;;;;;;;;;;x
+d_iconoclast;圣像破坏派牧首教座;;;;;;;;;;;;x
+d_iconoclast_adj;圣像破坏派牧首教座;;;;;;;;;;;;x
 d_yazidi;雅兹迪派谢赫国;;;;;;;;;;;;x
 d_yazidi_adj;雅兹迪派谢赫国;;;;;;;;;;;;x
 d_ibadi;伊巴迪派哈里发国;;;;;;;;;;;;x
@@ -374,9 +374,9 @@ SHEIKHA;谢哈;;;;;;;;;;;;x
 VASSAL_RETRACTION_SETUP;收回一名封臣;;;;;;;;;;;;x
 papacy_instituted;教廷被创立;;;;;;;;;;;;x
 patriarchy_instituted;牧首属邦被创立;;;;;;;;;;;;x
-create_fraticelli_papacy;创建小兄弟会教廷;;;;;;;;;;;;x
+create_fraticelli_papacy;创建小兄弟会宗座;;;;;;;;;;;;x
 create_fraticelli_papacy_desc;如果我足够虔诚并且控制罗马，我就能创建小兄弟会教宗作为我们的宗教领袖，来对抗卑鄙的天主教会教宗。;;;;;;;;;;;;x
-create_iconoclast_patriarchy;创建圣像破坏派牧首属邦;;;;;;;;;;;;x
+create_iconoclast_patriarchy;创建圣像破坏派牧首教座;;;;;;;;;;;;x
 create_iconoclast_patriarchy_desc;如果我足够虔诚并且控制君士坦丁堡，我就能创建圣像破坏教会普世牧首作为我们的宗教领袖，来对抗迷恋圣像崇拜的牧首。;;;;;;;;;;;;x
 EVTOPTA_SoA_105;它们都该进我的金库。;;;;;;;;;;;;x
 EVTDESC_SoA_106;犹太人被驱逐出你的国土已经有一阵子了。但是看起来饥荒、疫病这些被看做是犹太人带来的坏事却没有减少。如今许多犹太人已经原谅了你对他们的冒犯，你也决定张开双臂迎接他们回到你的国土。;;;;;;;;;;;;x
@@ -631,7 +631,7 @@ EVTOPTA_SoA_5096;我的旅途开始了！;;;;;;;;;;;;x
 EVTDESC_SoA_5026;倾盆大雨连续数日，这天气几乎没可能出行。为什么我主要如此惩罚他虔诚的朝圣者呢？;;;;;;;;;;;;x
 EVTOPTA_SoA_5026;能承受试炼的人才会收到祝福！;;;;;;;;;;;;x
 EVTOPTB_SoA_5026;岂有此理，我就该呆在家里！;;;;;;;;;;;;x
-EVTDESC_SoA_5027;你看了一眼横亘在面前了一道道山谷。虽然风景优美，但是你的内心却高兴不起来。这里本不应该有这些山谷的啊。所以你现在是一名迷路的朝圣者了，你完全不知道自己在哪里。;;;;;;;;;;;;x
+EVTDESC_SoA_5027;一条美丽的山谷横亘在你面前。尽管风景优美，但是你的内心却高兴不起来。这里本不应该有山谷的啊。总之现在你是一名迷路的朝圣者了，你完全不知道自己在哪里。;;;;;;;;;;;;x
 EVTOPTA_SoA_5027;我要是没听那群没用的农民给我指的路就好了。;;;;;;;;;;;;x
 EVTOPTB_SoA_5027;我要是有听那些农民给我指的路就好了。;;;;;;;;;;;;x
 EVTNAME_SoA_5028;夜深了……;;;;;;;;;;;;x
@@ -768,7 +768,7 @@ ASK_FOR_MONEY_INTERACTION_OFFER;[Actor.GetBestName]向我们提出请求 §Y$COS
 ASK_FOR_MONEY_INTERACTION_LETTER;请同意我请求 §Y$COST$§! 资助的请求。;;;;;;;;;;;;x
 EVTDESC_SOA_3100;我当然会资助你在领地的布道。§Y[GetDiploGiftSize]§!¤ 够不够？;;;;;;;;;;;;x
 EVTDESC_SOA_3101;你要求的 §Y[GetDiploGiftSize]§!¤ 已被拒绝。我们怀疑你不会把这笔钱用在资助信仰上。;;;;;;;;;;;;x
-asked_for_money;要过了钱;;;;;;;;;;;;x
+asked_for_money;请求了资助;;;;;;;;;;;;x
 AIREASON_FREE_VS_PAPAL_INVEST_ASK_FOR_MONEY;你施行了自主神职叙任权;;;;;;;;;;;;x
 AIREASON_SUPPORTED_ELECTION;你襄助了这位教宗的选举;;;;;;;;;;;;x
 ASK_FOR_CRUSADE_INTERACTION_TITLE;请求发动十字军;;;;;;;;;;;;x
@@ -807,7 +807,7 @@ EVTDESC_SOA_3103;我拒绝了你所提名的的主教人选。;;;;;;;;;;;;x
 asked_to_nominate_bishop;曾要求提名主教;;;;;;;;;;;;x
 SHOW_COLLEGE_OF_CARDINALS;枢机团;;;;;;;;;;;;x
 BACK_TO_RELIGION_VIEW;回到宗教界面;;;;;;;;;;;;x
-CAMPAIGN_FUND_CARDINALS_DESC;选举基金里钱的多少决定着你在教会影响力的大小，还关乎你支持的候选人当选下任$RULER_TITLE$可能性。你可以在下任$RULER_TITLE$的选举结果公布之前随意调整数量。届时，不管成功与否，花掉的选举基金覆水难收。;;;;;;;;;;;;x
+CAMPAIGN_FUND_CARDINALS_DESC;竞选资金里的财富会提升你对教廷的影响力，并让你的候选人更有可能被选为下一位$RULER_TITLE$。你可以在下一位$RULER_TITLE$的选举结果公布之前随意调整数量。届时，这笔资金将被全部用于竞选活动。;;;;;;;;;;;;x
 EVTDESC_SoA_107;你的领主，[From.GetTitledFirstName]，颁布法令驱逐境内所有无封地的犹太人，他们藐视王权并造成诸般怨忿。;;;;;;;;;;;;x
 EVTOPTA_SoA_107;我明白了。;;;;;;;;;;;;x
 EVTOPTB_SoA_107;哎呀，就是说我的贷款不用还了吗……;;;;;;;;;;;;x
