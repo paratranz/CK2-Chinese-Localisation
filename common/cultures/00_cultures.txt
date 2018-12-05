@@ -2,6 +2,14 @@ north_germanic = {
   graphical_cultures = {
     westerngfx
   }
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   norse = {
     graphical_cultures = {
       norsegfx
@@ -760,6 +768,14 @@ north_germanic = {
   }
 }
 central_germanic = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     germangfx
   }
@@ -1884,6 +1900,14 @@ central_germanic = {
   }
 }
 west_germanic = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     westerngfx
   }
@@ -2004,8 +2028,8 @@ west_germanic = {
   }
   saxon = {
     graphical_cultures = {
-      englishgfx
       saxongfx
+      englishgfx
     }
     color = {
       0.8
@@ -2280,8 +2304,8 @@ west_germanic = {
   }
   old_saxon = {
     graphical_cultures = {
-      englishgfx
       saxongfx
+      englishgfx
     }
     color = {
       0.5
@@ -2965,6 +2989,14 @@ west_germanic = {
   }
 }
 latin = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     westerngfx
   }
@@ -4664,6 +4696,14 @@ latin = {
   }
 }
 iberian = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     occitangfx
   }
@@ -5140,6 +5180,14 @@ iberian = {
   }
 }
 byzantine = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     easterngfx
   }
@@ -6560,6 +6608,14 @@ byzantine = {
   }
 }
 celtic = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     westerngfx
   }
@@ -8631,6 +8687,14 @@ celtic = {
   }
 }
 finno_ugric = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     easterngfx
   }
@@ -9841,6 +9905,14 @@ finno_ugric = {
   }
 }
 baltic = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     easterngfx
   }
@@ -10128,6 +10200,14 @@ baltic = {
   }
 }
 altaic = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     turkishgfx
     mongolgfx
@@ -11193,7 +11273,7 @@ altaic = {
       "Baghïr"
       "八儿出"  # Barçuq
       "Barïs"
-      "末斯匐"  # Barïsbek
+      "拔塞匐"  # Barïsbek
       "Baytash"
       "贝洽"  # Bayça
       "拔野古"  # Bayïrqu
@@ -11240,15 +11320,15 @@ altaic = {
       "Iltughun"
       "伊利啜"  # Ilçur
       "伊难珠"  # Inançu
-      "Inek"
+      "移溺"  # Inek
       "移涅"  # Inel
       "沙钵略"  # Isbar
       "室点密"  # Istämi
-      "Jegen"
+      "乙干"  # Jegen
       "Jegin"
       "折里麦"  # Jelme
-      "Jükün"
-      "Jüküntirig"
+      "羽恭"  # Jükün
+      "羽恭的力"  # Jüküntirig
       "Jürküñ"
       "Jürüküm"
       "Jüz"
@@ -11274,7 +11354,7 @@ altaic = {
       "具泥"  # Küni
       "掘罗勿"  # Kürebir
       "Kürtel"
-      "Küçarslan"
+      "屈车厮兰"  # Küçarslan
       "屈出律"  # Küçlüg
       "Küçurï"
       "摩诃罗支"  # Maqaraç
@@ -11296,11 +11376,11 @@ altaic = {
       "骨咄禄"  # Qutlugh
       "Saghunaq"
       "Saghçïq"
-      "沙衮"  # Sagun
+      "相温"  # Sagun
       "萨图克"  # Satuq
       "Satuqbughra"
-      "Sebük"
-      "Sebüktegin"
+      "娑匐"  # Sebük
+      "娑匐的斤"  # Sebüktegin
       "Señram"
       "沙勒支"  # Shalçi
       "Shughur"
@@ -11313,7 +11393,7 @@ altaic = {
       "Tadqïsh"
       "Tadqïshçor"
       "Tafaç"
-      "Tamgaç"
+      "坦哈赤"  # Tamgaç
       "贪汗"  # Tamghan
       "贪汗啜"  # Tamghançur
       "多婆"  # Tapa
@@ -11343,7 +11423,7 @@ altaic = {
       "都督"  # Tutuq
       "突利"  # Töles
       "帖木儿"  # Tömür
-      "Tüzmish"
+      "吐苏米施"  # Tüzmish
       "Udun"
       "Udur"
       "Umaç"
@@ -11399,7 +11479,7 @@ altaic = {
       "Ilbeslik"
       "颉毗伽"  # Ilbilgä
       "Kadïñ"
-      "Katun"
+      "可敦"  # Katun
       "Otqan"
       "Qaraqaz"
       "Sarïgha"
@@ -11453,7 +11533,7 @@ altaic = {
       "Anis"
       "Apït"
       "Aqunçï"
-      "Arslan"
+      "阿厮兰"  # Arslan
       "Aruk"
       "Aruq"
       "Astaançï"
@@ -11471,7 +11551,7 @@ altaic = {
       "拔塞匐"  # Barsbeg
       "八儿出"  # Barçuq
       "Barïs"
-      "末斯匐"  # Barïsbek
+      "拔塞匐"  # Barïsbek
       "Bayça"
       "拔野古"  # Bayïrqu
       "毗伽"  # Bilge
@@ -11512,16 +11592,16 @@ altaic = {
       "Iltughun"
       "伊利啜"  # Ilçur
       "伊难珠"  # Inançu
-      "Inek"
+      "移溺"  # Inek
       "移涅"  # Inel
       "沙钵略"  # Isbar
       "室点密"  # Istämi
       "药罗葛"  # Jaglaqar
-      "Jegen"
+      "乙干"  # Jegen
       "Jegin"
       "折里麦"  # Jelme
-      "Jükün"
-      "Jüküntirig"
+      "羽恭"  # Jükün
+      "羽恭的力"  # Jüküntirig
       "Jürküñ"
       "Jürüküm"
       "Jüz"
@@ -11621,7 +11701,7 @@ altaic = {
       "突利"  # Töles
       "Tömür"
       "Tülgü"
-      "Tüzmish"
+      "吐苏米施"  # Tüzmish
       "Udun"
       "Udur"
       "Ulug"
@@ -11704,7 +11784,7 @@ altaic = {
       "吉别克"  # Jibek
       "Kadïñ"
       "Karlïgash"
-      "Katun"
+      "可敦"  # Katun
       "Manu"
       "Otqan"
       "Pekash"
@@ -11792,7 +11872,7 @@ altaic = {
       "八儿朮"  # Barçuk
       "八儿出"  # Barçuq
       "Barïs"
-      "末斯匐"  # Barïsbek
+      "拔塞匐"  # Barïsbek
       "拔悉密"  # Basmil
       "磨延"  # Bayan
       "磨延啜"  # Bayançur
@@ -11839,16 +11919,16 @@ altaic = {
       "Iltughun"
       "Ilçur"
       "伊难珠"  # Inançu
-      "Inek"
+      "移溺"  # Inek
       "移涅"  # Inel
       "俟斤"  # Irkin
       "沙钵略"  # Isbar
       "室点密"  # Istämi
-      "Jegen"
+      "乙干"  # Jegen
       "Jegin"
       "折里麦"  # Jelme
-      "Jükün"
-      "Jüküntirig"
+      "羽恭"  # Jükün
+      "羽恭的力"  # Jüküntirig
       "Jürküñ"
       "Jürüküm"
       "Jüz"
@@ -11871,7 +11951,7 @@ altaic = {
       "阙特勤"  # Kültegin
       "阙吐屯"  # Kültudun
       "阙啜"  # Külçur
-      "Külüg"
+      "俱录"  # Külüg
       "Küni"
       "掘罗勿"  # Kürebir
       "Kürtel"
@@ -11952,7 +12032,7 @@ altaic = {
       "帖木儿补化"  # Tämirbuqa
       "突利"  # Töles
       "帖木儿"  # Tömür
-      "Tüzmish"
+      "吐苏米施"  # Tüzmish
       "Udun"
       "Udur"
       "Umaç"
@@ -12012,7 +12092,7 @@ altaic = {
       "Ilbeslik"
       "颉毗伽"  # Ilbilgä
       "Kadïñ"
-      "Katun"
+      "可敦"  # Katun
       "Lahpçïq"
       "马儿毡"  # Marjan
       "那音太"  # Nayiñtay
@@ -12834,6 +12914,14 @@ altaic = {
   }
 }
 arabic = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     muslimgfx
   }
@@ -12889,7 +12977,7 @@ arabic = {
       "Mubarak_Barak"
       "穆罕默德_穆罕默德"  # Muhammad_Muhammad
       "穆克塔尔"  # Mukhtar
-      "Murad_Morad"
+      "穆拉德_穆拉德"  # Murad_Morad
       "穆萨_摩西"  # Musa_Moses
       "穆斯里西丁"  # Muslihiddin
       "穆扎法拉丁"  # Muzaffaraddin
@@ -13885,6 +13973,14 @@ arabic = {
   }
 }
 east_slavic = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     easterngfx
   }
@@ -14397,6 +14493,14 @@ east_slavic = {
   }
 }
 west_slavic = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     easterngfx
   }
@@ -14546,7 +14650,7 @@ west_slavic = {
       "格拉齐娜"  # Grazyna
       "哈丽娜"  # Halina
       "汉娜"  # Hanna
-      "Irena_Irene"
+      "伊雷娜_艾琳"  # Irena_Irene
       "伊莎贝拉_伊丽莎白"  # Izabela_Elizabeth
       "Jadwiga_Hedwig"
       "雅乐卡"  # Jarka
@@ -14935,6 +15039,14 @@ west_slavic = {
   }
 }
 south_slavic = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     easterngfx
   }
@@ -16140,6 +16252,14 @@ south_slavic = {
   }
 }
 magyar = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     easterngfx
   }
@@ -16328,6 +16448,14 @@ magyar = {
   }
 }
 iranian = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     muslimgfx
   }
@@ -16347,7 +16475,7 @@ iranian = {
       "阿夫沙尔"  # Afshar_Afshar
       "艾哈迈德_艾哈迈德"  # Ahmad_Ahmad
       "阿克巴_阿克巴"  # Akbar_Akbar
-      "Ali_Ali"
+      "阿里_阿里"  # Ali_Ali
       "安拉亚尔"  # Allahyar
       "阿明"  # Amin
       "阿努什尔万_阿努什尔万"  # Anushirvan_Anushirvan
@@ -18141,6 +18269,14 @@ iranian = {
   }
 }
 east_african = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     muslimgfx
   }
@@ -18739,6 +18875,14 @@ east_african = {
   }
 }
 central_african = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     muslimgfx
   }
@@ -19242,6 +19386,14 @@ central_african = {
   }
 }
 west_african = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     muslimgfx
   }
@@ -19457,7 +19609,7 @@ west_african = {
       "马里-贾塔"  # Mari-Djata
       "穆萨_摩西"  # Musa_Moses
       "Niakhaté"
-      NintasanayWague
+      "NintasanayWague"
       "瓦利"  # Wali
       "瓦蒂"  # Wati
       "雷伊贾"  # Reidja
@@ -19710,6 +19862,14 @@ west_african = {
   }
 }
 mesoamerican = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     mesoamericangfx
     muslimgfx
@@ -19903,6 +20063,14 @@ mesoamerican = {
   }
 }
 israelite = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     easterngfx
   }
@@ -20246,6 +20414,14 @@ israelite = {
   }
 }
 indo_aryan_group = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     indiangfx
     muslimgfx
@@ -22404,6 +22580,14 @@ indo_aryan_group = {
   }
 }
 dravidian_group = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     southindiangfx
     indiangfx
@@ -22952,6 +23136,14 @@ dravidian_group = {
   }
 }
 tibetan_group = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     bodpagfx
     mongolgfx
@@ -24085,6 +24277,14 @@ tibetan_group = {
   }
 }
 chinese_group = {
+  alternate_start = {
+    NOT = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
+    }
+  }
   graphical_cultures = {
     chinesegfx
     mongolgfx

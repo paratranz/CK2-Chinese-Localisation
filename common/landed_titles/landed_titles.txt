@@ -247,7 +247,7 @@ k_orthodox = {
     "阿纳斯塔西"  # Anastasios
     "阿尔塞尼"  # Arsenios
     "阿塔纳西"  # Athanasios
-    AntoniosBasileios
+    "AntoniosBasileios"
     "多西德奥"  # Dositheos
     "艾弗斯塔提"  # Eustathios
     "艾弗斯特拉提"  # Eustratios
@@ -2120,6 +2120,7 @@ d_varangian_guard = {
   mercenary = yes
   title = "CAPTAIN"
   foa = "CAPTAIN_FOA"
+  title_female = "CAPTAIN_FEMALE"
   landless = yes
   primary = yes
   strength_growth_per_century = 0.10
@@ -5954,6 +5955,7 @@ e_byzantium = {
       236
     }
     capital = 757
+    hellenic_pagan_reformed = 500
     allow = {
       conditional_tooltip = {
         trigger = {
@@ -5987,10 +5989,27 @@ e_byzantium = {
       232
       247
     }
+    capital = 340
     allow = {
       OR = {
         religion = catholic
         is_heresy_of = catholic
+      }
+      conditional_tooltip = {
+        trigger = {
+          FROM = {
+            NOT = {
+              any_previous_holder = {
+                always = yes
+              }
+            }
+          }
+        }
+        FROM = {
+          any_previous_holder = {
+            always = yes
+          }
+        }
       }
     }
   }
@@ -6072,6 +6091,7 @@ e_byzantium = {
     capital = 678
     culture = greek
     orthodox = 1000
+    hellenic_pagan_reformed = 5000
     d_trebizond = {
       color = {
         125
@@ -6295,6 +6315,7 @@ e_byzantium = {
     }
     orthodox = 5000
     catholic = 2000
+    hellenic_pagan_reformed = 5000
     d_optimatoi = {
       color = {
         225
@@ -6658,6 +6679,7 @@ e_byzantium = {
     }
     orthodox = 5000
     catholic = 2000
+    hellenic_pagan_reformed = 5000
     d_thessalonika = {
       color = {
         189
@@ -7086,6 +7108,7 @@ e_byzantium = {
       20
     }
     capital = 472
+    hellenic_pagan_reformed = 2000
     d_ohrid = {
       color = {
         150
@@ -7097,6 +7120,7 @@ e_byzantium = {
         255
         20
       }
+      capital = 471
       greek = "吕克尼多斯"  # Lychnidos
       arberian = "奥赫里"  # Ohri
       c_ochrid = {
@@ -7319,6 +7343,7 @@ e_byzantium = {
         255
         20
       }
+      capital = 474
       c_cephalonia = {
         color = {
           146
@@ -7912,6 +7937,7 @@ e_byzantium = {
         255
         20
       }
+      capital = 760
       c_tyana = {
         color = {
           246
@@ -7965,6 +7991,7 @@ e_byzantium = {
         255
         20
       }
+      capital = 753
       greek = "部刻拉里翁"  # Boukellarion
       turkish = "安卡拉"  # Ankara
       c_ankyra = {
@@ -8810,6 +8837,7 @@ e_byzantium = {
         255
         255
       }
+      capital = 492
       c_strymon = {
         color = {
           139
@@ -9587,11 +9615,12 @@ e_byzantium = {
       255
       255
     }
-    capital = 334
+    capital = 340
     culture = italian
     catholic = 500
     orthodox = 50
     muslim = 10
+    hellenic_pagan_reformed = 5000
     allow = {
       conditional_tooltip = {
         trigger = {
@@ -10748,9 +10777,20 @@ e_italy = {
     }
     capital = 334
     allow = {
-      FROM = {
-        any_previous_holder = {
-          always = yes
+      conditional_tooltip = {
+        trigger = {
+          FROM = {
+            NOT = {
+              any_previous_holder = {
+                always = yes
+              }
+            }
+          }
+        }
+        FROM = {
+          any_previous_holder = {
+            always = yes
+          }
         }
       }
     }
@@ -10816,6 +10856,7 @@ e_italy = {
     capital = 333
     short_name = yes
     christian = 10000
+    hellenic_pagan_reformed = 5000
     allow = {
       conditional_tooltip = {
         trigger = {
@@ -11216,6 +11257,7 @@ e_italy = {
       }
     }
     christian = 10000
+    hellenic_pagan_reformed = 5000
     d_verona = {
       color = {
         170
@@ -13975,6 +14017,17 @@ e_scandinavia = {
       }
     }
     d_oppland = {
+      color = {
+        100
+        125
+        220
+      }
+      color2 = {
+        255
+        255
+        255
+      }
+      capital = 273
       c_oppland = {
         color = {
           94
@@ -24403,6 +24456,7 @@ e_idel_ural = {
         255
         255
       }
+      capital = 615
       c_bashkirs = {
         color = {
           209
@@ -24835,6 +24889,7 @@ e_idel_ural = {
         255
         255
       }
+      capital = 397
       c_samoyeds = {
         color = {
           100
@@ -32414,10 +32469,10 @@ e_france = {
           frankish = "卢塞恩"  # Lucerne
         }
         b_biel = {
-          frankish = "Bienne"
+          frankish = "比尔"  # Bienne
         }
         b_thun = {
-          frankish = "Thoune"
+          frankish = "图恩"  # Thoune
         }
         b_murten = {
           frankish = "莫拉特"  # Morat
@@ -32439,7 +32494,7 @@ e_france = {
         b_aarau_augstgau = {}
         b_st_ursanne = {}
         b_porrentruy = {
-          german = "Pruntrut"
+          german = "波朗特"  # Pruntrut
         }
         b_delemont = {
           german = "德尔斯贝格"  # Delsberg
@@ -35475,6 +35530,7 @@ e_arabia = {
     zoroastrian_group = 100
     zun_pagan_reformed = 100
     jewish_group = 500
+    hellenic_pagan_reformed = 1000
     coptic = "科密特"  # Kemet
     d_alexandria = {
       color = {
@@ -45038,6 +45094,54 @@ d_obotrites = {
   title = "HIGH_CHIEF"
   foa = "HIGH_CHIEF_FOA"
 }
+d_thessalia = {
+  color = {
+    198
+    28
+    139
+  }
+  color2 = {
+    255
+    255
+    20
+  }
+  allow = {
+    conditional_tooltip = {
+      trigger = {
+        d_thessalia = {
+          is_titular = yes
+        }
+      }
+      d_thessalia = {
+        is_titular = no
+      }
+    }
+  }
+}
+d_peloponnese = {
+  color = {
+    196
+    35
+    140
+  }
+  color2 = {
+    255
+    255
+    20
+  }
+  allow = {
+    conditional_tooltip = {
+      trigger = {
+        d_peloponnese = {
+          is_titular = yes
+        }
+      }
+      d_peloponnese = {
+        is_titular = no
+      }
+    }
+  }
+}
 k_pechenegs = {
   color = {
     173
@@ -45215,6 +45319,7 @@ d_ragusa = {
     255
     255
   }
+  capital = 468
   title = "RECTOR_TITLE"
   title_female = "RECTOR_TITLE_FEMALE"
   dignity = 10
@@ -46566,8 +46671,8 @@ d_slavic_pagan_reformed = {
     0
   }
   capital = 515
-  title = "CHERNOBAN"
-  title_female = "CHERNOBAN"
+  title = "VELKY_VOLHV"
+  title_female = "VELKY_VOLHV"
   foa = "HEAD_PRIEST_FOA"
   short_name = yes
   landless = yes
