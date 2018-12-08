@@ -306,7 +306,7 @@ latin;拉丁;;;;;;;;;;;;x
 iberian;伊比利亚;;;;;;;;;;;;x
 byzantine;拜占庭;;;;;;;;;;;;x
 celtic;凯尔特;;;;;;;;;;;;x
-finno_ugric;芬兰-乌戈尔;;;;;;;;;;;;x
+finno_ugric;芬兰－乌戈尔;;;;;;;;;;;;x
 baltic;波罗的;;;;;;;;;;;;x
 altaic;阿尔泰;;;;;;;;;;;;x
 arabic;阿拉伯;;;;;;;;;;;;x
@@ -4754,7 +4754,7 @@ INTERACTION_REQUIRES_ABLE_TO_MARRY_DAUGHTER;§Y[Recipient.GetTitledFirstName]§!
 INTERACTION_REQUIRES_HAS_DAUGHTER_THAT_CAN_MARRY;§Y[Actor.GetTitledFirstName]§!有一个可以嫁给[Recipient.GetDynName]的女儿;;;;;;;;;;;;x
 INTERACTION_REQUIRES_NO_GUARDIAN;§Y[Recipient.GetTitledFirstName]§!没有监护人;;;;;;;;;;;;x
 INTERACTION_REQUIRES_SAME_RELIGION_AS_A_CHILD;§Y[Recipient.GetTitledFirstName]§!做为[Actor.GetDynName]的孩子必须拥有相同的宗教信仰;;;;;;;;;;;;x
-INTERACTION_REQUIRES_HAS_LANDED_TITLE;§Y[Recipient.GetTitledFirstName]§!必须拥有一个可宣称的领地头衔;;;;;;;;;;;;x
+INTERACTION_REQUIRES_HAS_LANDED_TITLE;§Y[Recipient.GetTitledFirstName]§!必须拥有一个可宣称的实地头衔;;;;;;;;;;;;x
 INTERACTION_REQUIRES_NOT_A_VASSAL;§Y[Recipient.GetTitledFirstName]§!不能是你的封臣;;;;;;;;;;;;x
 INTERACTION_REQUIRES_MUST_BE_VASSAL;§Y[Recipient.GetTitledFirstName]§!必须是你的直属封臣;;;;;;;;;;;;x
 INTERACTION_REQUIRES_VALID_CB;§Y[Actor.GetTitledFirstName]§!必须有一个有效的宣战理由才能宣战;;;;;;;;;;;;x
@@ -4764,7 +4764,7 @@ INTERACTION_REQUIRES_PLOT;§Y[Actor.GetTitledFirstName]§!必须有一个进行�
 INTERACTION_REQUIRES_KNOWN_PLOT;§Y[Recipient.GetTitledFirstName]§!必须有一个已知阴谋;;;;;;;;;;;;x
 INTERACTION_REQUIRES_NOT_PART_OF_PLOT;§Y[Recipient.GetTitledFirstName]§!不能正在参加进行中的密谋;;;;;;;;;;;;x
 INTERACTION_REQUIRES_NOT_TARGET_OF_PLOT;§Y[Recipient.GetTitledFirstName]§!不能成为进行中的密谋的目标;;;;;;;;;;;;x
-INTERACTION_REQUIRES_LANDED_TITLE;§Y[Actor.GetTitledFirstName]§!必须拥有§Y[Recipient.GetTitledFirstName]§!可以持有的头衔;;;;;;;;;;;;x
+INTERACTION_REQUIRES_LANDED_TITLE;§Y[Actor.GetTitledFirstName]§!必须拥有§Y[Recipient.GetTitledFirstName]§!可以持有的实地头衔;;;;;;;;;;;;x
 INTERACTION_REQUIRES_JOB_TITLE;§Y[Actor.GetTitledFirstName]§!必须拥有§Y[Recipient.GetTitledFirstName]§!可以持有的职位头衔;;;;;;;;;;;;x
 INTERACTION_REQUIRES_DIFFERENT_RELIGION;§Y[Recipient.GetTitledFirstName]§!与§Y[Actor.GetTitledFirstName]§!信仰着不同的宗教;;;;;;;;;;;;x
 INTERACTION_REQUIRES_THIRDPARTY_SAME_RELIGION;§Y[ThirdPartyCharacter.GetTitledFirstName]§!与§Y[Actor.GetTitledFirstName]§!信仰着相同的宗教;;;;;;;;;;;;x
@@ -4872,7 +4872,7 @@ CLAIM_TITLE_INTERACTION_1;宣称§Y[ThirdPartyTitle.GetFullName]§!，消耗§R$
 CLAIM_TITLE_INTERACTION_ACCEPT_SETUP;已宣称头衔;;;;;;;;;;;;x
 CLAIM_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 宣称 §Y[ThirdPartyTitle.GetFullName]§!，被 §Y[Recipient.GetBestName]§! 持有;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_TITLE;剥夺头衔;;;;;;;;;;;;x
-REVOKE_TITLE_INTERACTION_DESC;剥夺一个角色的头衔;;;;;;;;;;;;x
+REVOKE_TITLE_INTERACTION_DESC;剥夺一个角色的实地头衔;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_LONG_DESC;剥夺一个封臣的头衔。这将激怒封臣，而且除非你对这个头衔有宣称权，还将损害你的威望并激怒其他封臣。;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_0;选择剥夺的头衔。剥夺头衔将降低§Y[Recipient.GetTitledFirstName]§!对你的好感。如果你没有这个头衔的宣称权，或者王权法不够高，还将损害你的威望并激怒其他封臣。;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_1;剥夺§Y[ThirdPartyTitle.GetFullName]§W，损耗 §R$PRESTIGE$§W 威望。这将降低§Y[Recipient.GetTitledFirstName]§W对你的好感度 §R$OPINION$§W，降低其他封臣对你的好感度 §R$OPINION2$§W。;;;;;;;;;;;;x
@@ -5025,7 +5025,7 @@ GRANT_LANDED_TITLE_INTERACTION_4;分封神殿而获得的[Player.Religion.GetPie
 GRANT_LANDED_TITLE_INTERACTION_5;§R封[Recipient.GetObjectPronoun]为$TITLE$将剥夺[Recipient.GetObjectPronoun]的继承权！§!;;;;;;;;;;;;x
 GRANT_LANDED_TITLE_INTERACTION_ACCEPT_SETUP;已授予实地头衔;;;;;;;;;;;;x
 GRANT_LANDED_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 授予了 [ThirdPartyTitle.GetFullName]给 §Y[Recipient.GetBestName]§!;;;;;;;;;;;;x
-GRANT_LANDED_TITLE_INTERACTION_LETTER;我们授予你[ThirdPartyTitle.GetFullName]的实地头衔;;;;;;;;;;;;x
+GRANT_LANDED_TITLE_INTERACTION_LETTER;本座授予你[ThirdPartyTitle.GetFullName]的实地头衔;;;;;;;;;;;;x
 APPOINT_TO_OFFICE_INTERACTION_TITLE;任命为内阁;;;;;;;;;;;;x
 APPOINT_TO_OFFICE_INTERACTION_DESC;任命一个人担任内阁大臣;;;;;;;;;;;;x
 APPOINT_TO_OFFICE_INTERACTION_ACCEPT_SETUP;已接受内阁任命;;;;;;;;;;;;x
@@ -6858,8 +6858,8 @@ b_luneville;吕内维尔;;;;;;;;;;;;x
 b_charpeigne;康拉德;;;;;;;;;;;;x
 b_mortagnedevosges;莫尔塔涅;;;;;;;;;;;;x
 b_saintavoid;圣阿沃尔德;;;;;;;;;;;;x
-c_saintois_adj;山图瓦;;;;;;;;;;;;x
-b_saintois;山图瓦;;;;;;;;;;;;x
+c_saintois_adj;桑图瓦;;;;;;;;;;;;x
+b_saintois;桑图瓦;;;;;;;;;;;;x
 b_vaudemont;沃代蒙;;;;;;;;;;;;x
 b_brixey;彭柯西;;;;;;;;;;;;x
 b_sorcystmartin;索尔西圣马丹;;;;;;;;;;;;x
@@ -6898,7 +6898,7 @@ b_erstein;埃尔斯坦;;;;;;;;;;;;x
 b_molsheim;莫尔塞姆;;;;;;;;;;;;x
 b_brumath;布吕马特;;;;;;;;;;;;x
 b_schlettstadt;塞莱斯塔;;;;;;;;;;;;x
-c_sundgau_adj;苏德高;;;;;;;;;;;;x
+c_sundgau_adj;松德高;;;;;;;;;;;;x
 b_ensisheim;昂西塞姆;;;;;;;;;;;;x
 b_kolmar;科尔马;;;;;;;;;;;;x
 b_murbach;穆尔巴赫;;;;;;;;;;;;x
@@ -11624,7 +11624,7 @@ b_lucena;卢塞纳;;;;;;;;;;;;x
 b_martos;马尔托斯;;;;;;;;;;;;x
 b_belalcazar;贝拉尔卡萨;;;;;;;;;;;;x
 b_canetedelastorres;卡涅特德拉斯托雷斯;;;;;;;;;;;;x
-c_la_mancha_adj;拉曼恰;;;;;;;;;;;;x
+c_la_mancha_adj;拉曼查;;;;;;;;;;;;x
 b_alarcon;阿拉扎;;;;;;;;;;;;x
 b_laroda;拉罗达;;;;;;;;;;;;x
 b_tarazona;塔拉索纳;;;;;;;;;;;;x
@@ -11751,9 +11751,9 @@ b_cangasdelnarcea;坎加斯;;;;;;;;;;;;x
 b_villaviciosa;比利亚维西奥萨;;;;;;;;;;;;x
 b_luarca;卢阿萨;;;;;;;;;;;;x
 b_norena;诺雷尼亚;;;;;;;;;;;;x
-c_asturias_de_santillana_adj;阿斯图里亚斯的桑蒂拉纳;;;;;;;;;;;;x
+c_asturias_de_santillana_adj;阿斯图里亚斯 德 桑蒂利亚纳;;;;;;;;;;;;x
 b_santander;桑坦德;;;;;;;;;;;;x
-b_santillanadelmar;滨海散提亚拿;;;;;;;;;;;;x
+b_santillanadelmar;滨海桑蒂利亚纳;;;;;;;;;;;;x
 b_laredo;拉雷多;;;;;;;;;;;;x
 b_castrourdiales;乌迪亚莱斯堡;;;;;;;;;;;;x
 b_santona;桑托尼亚;;;;;;;;;;;;x
@@ -11762,7 +11762,7 @@ b_suances;苏安塞斯;;;;;;;;;;;;x
 b_camargo;察摩戈;;;;;;;;;;;;x
 d_galicia;加利西亚;;;;;;;;;;;;x
 d_galicia_adj;加里西亚;;;;;;;;;;;;x
-c_coruna_adj;拉科鲁尼亚;;;;;;;;;;;;x
+c_coruna_adj;科鲁尼亚;;;;;;;;;;;;x
 b_corunna;拉科鲁尼亚;;;;;;;;;;;;x
 b_mondonedo;蒙多涅多;;;;;;;;;;;;x
 b_lugo;卢戈;;;;;;;;;;;;x
@@ -11916,8 +11916,8 @@ b_castelodevide;韦德堡;;;;;;;;;;;;x
 b_crato;克拉图;;;;;;;;;;;;x
 b_monforte;蒙福特;;;;;;;;;;;;x
 b_ouguela;欧圭拉;;;;;;;;;;;;x
-c_alcacer_do_sal_adj;萨尔亚卡塞;;;;;;;;;;;;x
-b_alcacerdosal;萨尔亚卡塞;;;;;;;;;;;;x
+c_alcacer_do_sal_adj;萨尔堡;;;;;;;;;;;;x
+b_alcacerdosal;萨尔堡;;;;;;;;;;;;x
 b_alcacovas;亚卡塞瓦什;;;;;;;;;;;;x
 b_espinheiro;伊斯平爱庐;;;;;;;;;;;;x
 b_montemoronovo;新蒙特莫尔;;;;;;;;;;;;x
@@ -11936,9 +11936,9 @@ b_serpa;瑟帕;;;;;;;;;;;;x
 b_mourao;缪劳;;;;;;;;;;;;x
 d_algarve;阿尔加维;;;;;;;;;;;;x
 d_algarve_adj;阿尔加维;;;;;;;;;;;;x
-c_silves_adj;锡拉维什;;;;;;;;;;;;x
+c_silves_adj;锡尔维什;;;;;;;;;;;;x
 b_aljustrel;阿尔朱斯特尔;;;;;;;;;;;;x
-b_silves;锡拉维什;;;;;;;;;;;;x
+b_silves;锡尔维什;;;;;;;;;;;;x
 b_lagos;拉各斯;;;;;;;;;;;;x
 b_castroverde;维德堡;;;;;;;;;;;;x
 b_odemira;奥德米拉;;;;;;;;;;;;x
@@ -16612,8 +16612,8 @@ PROV129;凡尔登;;;;;;;;;;;;x
 PROV130;特鲁瓦;;;;;;;;;;;;x
 PROV131;桑斯;;;;;;;;;;;;x
 PROV132;欧塞尔;;;;;;;;;;;;x
-PROV133;山图瓦;;;;;;;;;;;;x
-PROV134;苏德高;;;;;;;;;;;;x
+PROV133;桑图瓦;;;;;;;;;;;;x
+PROV134;松德高;;;;;;;;;;;;x
 PROV136;第戎;;;;;;;;;;;;x
 PROV137;讷韦尔;;;;;;;;;;;;x
 PROV138;奥尔良;;;;;;;;;;;;x
@@ -16632,14 +16632,14 @@ PROV150;马桑;;;;;;;;;;;;x
 PROV151;达克斯;;;;;;;;;;;;x
 PROV152;纳瓦拉;;;;;;;;;;;;x
 PROV153;比斯开;;;;;;;;;;;;x
-PROV154;桑蒂拉纳;;;;;;;;;;;;x
+PROV154;阿斯图里亚斯 德 桑蒂利亚纳;;;;;;;;;;;;x
 PROV155;阿斯图里亚斯 德 奥维耶多;;;;;;;;;;;;x
-PROV156;拉科鲁尼亚;;;;;;;;;;;;x
+PROV156;科鲁尼亚;;;;;;;;;;;;x
 PROV157;圣地亚哥;;;;;;;;;;;;x
 PROV158;波尔图;;;;;;;;;;;;x
 PROV159;科英布拉;;;;;;;;;;;;x
 PROV160;里斯本;;;;;;;;;;;;x
-PROV161;萨尔亚卡塞;;;;;;;;;;;;x
+PROV161;萨尔堡;;;;;;;;;;;;x
 PROV162;锡尔维什;;;;;;;;;;;;x
 PROV163;法鲁;;;;;;;;;;;;x
 PROV164;内贝拉;;;;;;;;;;;;x
@@ -16656,7 +16656,7 @@ PROV174;阿尔巴拉辛;;;;;;;;;;;;x
 PROV175;卡拉塔尤德;;;;;;;;;;;;x
 PROV176;莫利纳;;;;;;;;;;;;x
 PROV177;昆卡;;;;;;;;;;;;x
-PROV178;拉曼恰;;;;;;;;;;;;x
+PROV178;拉曼查;;;;;;;;;;;;x
 PROV179;阿尔曼萨;;;;;;;;;;;;x
 PROV180;格拉纳达;;;;;;;;;;;;x
 PROV181;科尔多瓦;;;;;;;;;;;;x

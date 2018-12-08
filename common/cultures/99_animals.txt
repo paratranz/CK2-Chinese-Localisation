@@ -3,9 +3,15 @@ horse_group = {
     horsegfx
   }
   alternate_start = {
-    has_alternate_start_parameter = {
-      key = special_culture
-      value = animal_kingdoms
+    OR = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_kingdoms
+      }
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
     }
   }
   horse = {
@@ -192,6 +198,10 @@ horse_group = {
     used_for_random = no
     allow_in_ruler_designer = no
     modifier = default_culture_modifier
+    character_modifier = {
+      clan_sentiment = 10
+      mongol_opinion = 20
+    }
     nomadic_in_alt_start = yes
   }
 }
@@ -200,9 +210,15 @@ cat_group = {
     catgfx
   }
   alternate_start = {
-    has_alternate_start_parameter = {
-      key = special_culture
-      value = animal_kingdoms
+    OR = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_kingdoms
+      }
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
     }
   }
   cat = {
@@ -303,9 +319,11 @@ cat_group = {
       "哆啦A梦"  # Zylyn
       "蓝猫"  # Snooka
       "哆啦尼可夫"  # Maat
+      "Keso"
       "狗 德川家康 薛定谔"  # Lord-Admiral-Edward-Hawke-First-Baron-Hawke-First-Lord-of-the-Admiralty
       "尼米兹"  # Nimitz
       "卡兹"  # Katz
+      "Milo"
     }
     female_names = {
       "咪西"  # Missy
@@ -395,6 +413,8 @@ cat_group = {
       "恶作剧"  # Mischief
       "云母"  # Smilla
       "瑟蕾奴"  # Aggi
+      "Keso"
+      "Milla"
     }
     prefix = no
     pat_grf_name_chance = 50
@@ -406,6 +426,11 @@ cat_group = {
     used_for_random = no
     allow_in_ruler_designer = no
     modifier = default_culture_modifier
+    character_modifier = {
+      murder_plot_power_modifier = 0.2
+      vassal_opinion = -5
+      fertility = 0.25
+    }
   }
 }
 bear_group = {
@@ -413,9 +438,15 @@ bear_group = {
     beargfx
   }
   alternate_start = {
-    has_alternate_start_parameter = {
-      key = special_culture
-      value = animal_kingdoms
+    OR = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_kingdoms
+      }
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
     }
   }
   bear = {
@@ -520,6 +551,10 @@ bear_group = {
     used_for_random = no
     allow_in_ruler_designer = no
     modifier = default_culture_modifier
+    character_modifier = {
+      land_morale = 0.15
+      combat_rating = 10
+    }
   }
 }
 hedgehog_group = {
@@ -527,9 +562,15 @@ hedgehog_group = {
     hedgehoggfx
   }
   alternate_start = {
-    has_alternate_start_parameter = {
-      key = special_culture
-      value = animal_kingdoms
+    OR = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_kingdoms
+      }
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
     }
   }
   hedgehog_culture = {
@@ -635,6 +676,10 @@ hedgehog_group = {
     used_for_random = no
     allow_in_ruler_designer = no
     modifier = default_culture_modifier
+    character_modifier = {
+      defensive_plot_power_modifier = 0.2
+      fertility = 0.25
+    }
     allow_looting = yes
     seafarer = yes
   }
@@ -644,9 +689,15 @@ duck_group = {
     duckgfx
   }
   alternate_start = {
-    has_alternate_start_parameter = {
-      key = special_culture
-      value = animal_kingdoms
+    OR = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_kingdoms
+      }
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
     }
   }
   duck_culture = {
@@ -764,6 +815,10 @@ duck_group = {
     used_for_random = no
     allow_in_ruler_designer = no
     modifier = default_culture_modifier
+    character_modifier = {
+      siege_speed = 0.2
+      fertility = 0.25
+    }
     allow_looting = yes
     seafarer = yes
   }
@@ -773,9 +828,15 @@ dog_group = {
     doggfx
   }
   alternate_start = {
-    has_alternate_start_parameter = {
-      key = special_culture
-      value = animal_kingdoms
+    OR = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_kingdoms
+      }
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
     }
   }
   dog_culture = {
@@ -919,6 +980,10 @@ dog_group = {
       "彻格温"  # Chirgwin
       "蒸笼"  # Steamer
       "吴飞"  # Wuffler
+      "Myggen"
+      "皮特"  # Petter
+      "Mischa"
+      "三木"  # Mikki
     }
     female_names = {
       "卡门"  # Carmen
@@ -1028,6 +1093,7 @@ dog_group = {
       "莎莉"  # Sally
       "诗人"  # Songster
       "吴菲"  # Wuffler
+      "Maybe"
     }
     prefix = no
     pat_grf_name_chance = 50
@@ -1039,6 +1105,10 @@ dog_group = {
     used_for_random = no
     allow_in_ruler_designer = no
     modifier = default_culture_modifier
+    character_modifier = {
+      general_opinion = 5
+      fertility = 0.25
+    }
   }
 }
 elephant_group = {
@@ -1046,9 +1116,15 @@ elephant_group = {
     elephantgfx
   }
   alternate_start = {
-    has_alternate_start_parameter = {
-      key = special_culture
-      value = animal_kingdoms
+    OR = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_kingdoms
+      }
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
     }
   }
   elephant_culture = {
@@ -1153,6 +1229,13 @@ elephant_group = {
     used_for_random = no
     allow_in_ruler_designer = no
     modifier = default_culture_modifier
+    character_modifier = {
+      health = 2
+      learning = 2
+      defensive_plot_power_modifier = -0.2
+      fertility = -0.25
+      combat_rating = 10
+    }
   }
 }
 dragon_group = {
@@ -1160,9 +1243,15 @@ dragon_group = {
     dragongfx
   }
   alternate_start = {
-    has_alternate_start_parameter = {
-      key = special_culture
-      value = animal_kingdoms
+    OR = {
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_kingdoms
+      }
+      has_alternate_start_parameter = {
+        key = special_culture
+        value = animal_world
+      }
     }
   }
   dragon_culture = {
@@ -1287,6 +1376,13 @@ dragon_group = {
     used_for_random = no
     allow_in_ruler_designer = no
     modifier = default_culture_modifier
+    character_modifier = {
+      health = 4
+      fertility = -0.5
+      global_tax_modifier = 0.1
+      general_opinion = -10
+      combat_rating = 30
+    }
     allow_looting = yes
   }
 }
