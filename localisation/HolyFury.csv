@@ -7321,7 +7321,7 @@ k_hellenic_pagan_adj;最高祭司团;;;;;;;;;;;;x
 PONTIFEX_MAXIMUS;最高祭司长;;;;;;;;;;;;x
 d_bon_reformed;苯教圣阶;;;;;;;;;;;;x
 d_bon_reformed_adj;苯教;;;;;;;;;;;;x
-HEAD_DALAI_LAMA;饶弥沃;;;;;;;;;;;;x
+HEAD_DALAI_LAMA;无上法王;;;;;;;;;;;;x
 d_dralhas_children;扎拉神子孙;;;;;;;;;;;;x
 d_dralhas_children_adj;扎拉;;;;;;;;;;;;x
 create_dralhas_children;成立扎拉神子孙;;;;;;;;;;;;x
@@ -14159,9 +14159,9 @@ tooltip_religion_feature_matriarchal_negatives;§R不允许男性角色进入内
 sex_deposition_cb_succ_tip;§Y[From.GetTitledFirstName]§!会放弃[From.GetHerHis]王位，代以一个更有才能的[Root.GetManWoman]。;;;;;;;;;;;;x
 sex_deposition_cb_succ_tip_2;§Y[From.PrimaryTitle.GetName]§!新的统治者会成为你的§Y朝贡国§!。;;;;;;;;;;;;x
 patriarchal_deposition_war;父系废黜战争;;;;;;;;;;;;x
-patriarchal_deposition_war_desc;作为[Root.GetOppositeManWoman]，$TARGET$不被允许获得如此的权力，我们有充分的权利强迫这个邪恶的暴君逊位，把她的王国交至一位有能力的[Root.GetManWoman]之手。;;;;;;;;;;;;x
+patriarchal_deposition_war_desc;$TARGET$作为[Root.GetOppositeManWoman]，却拥有如此的权力，这简直不可理喻。我们有充分的权利强迫这个邪恶的暴君逊位，把她的王国交至一位有能力的[Root.GetManWoman]之手。;;;;;;;;;;;;x
 matriarchal_deposition_war;母系废黜战争;;;;;;;;;;;;x
-matriarchal_deposition_war_desc;作为[Root.GetOppositeManWoman]，$TARGET$不被允许获得如此的权力，我们有充分的权利强迫这个邪恶的暴君逊位，把他的王国交至一位有能力的[Root.GetManWoman]之手。;;;;;;;;;;;;x
+matriarchal_deposition_war_desc;$TARGET$作为[Root.GetOppositeManWoman]，却拥有如此的权力，这简直不可理喻。我们有充分的权利强迫这个邪恶的暴君逊位，把他的王国交至一位有能力的[Root.GetManWoman]之手。;;;;;;;;;;;;x
 CB_NAME_MATRIARCHAL_DEPOSITION;母系废黜战争;;;;;;;;;;;;x
 CB_NAME_PATRIARCHAL_DEPOSITION;父系废黜战争;;;;;;;;;;;;x
 WAR_NAME_SEX_DEPOSITION;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$废黜$DEFENDER$战争;;;;;;;;;;;;x
@@ -14172,7 +14172,7 @@ crown_crusader_king_desc;某位代表慈母圣教会对抗异教徒的十字军�
 crown_crusader_king_random_1;[Root.PrimaryTitle.GetName]的战争王冠;;;;;;;;;;;;x
 crown_crusader_king_random_2;圣[Root.PrimaryTitle.GetName]之盔;;;;;;;;;;;;x
 crown_crusader_king_random_3;圣乔治的铁面具;;;;;;;;;;;;x
-crown_crusader_king_random_4;圣德米特里的战争王冠;;;;;;;;;;;;x
+crown_crusader_king_random_4;圣德米特里的千军王冠;;;;;;;;;;;;x
 crown_crusader_king_random_5;圣尤斯塔斯的铁王冠;;;;;;;;;;;;x
 crown_crusader_king_random_6;圣凯瑟琳的处子王冠;;;;;;;;;;;;x
 crown_crusader_king_random_7;圣朱迪斯的神圣血冠;;;;;;;;;;;;x
@@ -18259,8 +18259,8 @@ merciful_attacker;冷静的侵攻者;;;;;;;;;;;;x
 merciful_attacker_desc;这名角色利用精妙的话术和[This.GetHerHis][This.GetDuelWeapon]，成功的使其他人放弃了对[This.GetHerHis]领地的宣称。;;;;;;;;;;;;x
 String_severely_tear_body_part;在[This.GetHerHis][This.GetBodyPartInjured]撕裂了一道严重的伤口;;;;;;;;;;;;x
 String_severely_tear_my_body_part;在我的[This.GetBodyPartInjured]撕裂了一道严重的伤口;;;;;;;;;;;;x
-String_severely_break_body_part;bruise, if not break, something deep in [This.GetHerHis] [This.GetBodyPartInjured];;;;;;;;;;;;x
-String_severely_break_my_body_part;bruise, if not break, something deep in my [This.GetBodyPartInjured];;;;;;;;;;;;x
+String_severely_break_body_part;就算[This.GetHerHis][This.GetBodyPartInjured]深处的某些东西没断，它至少也会被擦伤;;;;;;;;;;;;x
+String_severely_break_my_body_part;我[This.GetBodyPartInjured]深处的某些部位不是断了，就是被擦伤了;;;;;;;;;;;;x
 String_severely_injure_eye;让[This.GetHerHis]眼睛淌血，可能已经把[This.GetHerHim]弄瞎了。;;;;;;;;;;;;x
 String_severely_injure_my_eye;让我的眼睛淌血，我可能就这样瞎了。;;;;;;;;;;;;x
 make_shieldmaiden_custom_tooltip_1;是以下任一：§Y勇敢§!、§Y骄傲§!、§Y野心勃勃§!、§Y勤奋§!、§Y正直§!或§Y合群§!\n;;;;;;;;;;;;x
@@ -18276,7 +18276,7 @@ EVTOPTA_HF_14001_TT;你开始给§Y[student.GetTitledFirstName]§!一些指导�
 EVTOPTB_HF_14001;这根本不是我该管的事。;;;;;;;;;;;;x
 EVTOPTB_HF_14001_TT;还有更重要的事情等着你去做。;;;;;;;;;;;;x
 EVTDESC_HF_14002_bravery;"I hear you are turning down duels", a [teacher.GetManWoman] sounds behind me. Spinning around, I find myself talking to my [teacher.GetRootRelation], [teacher.GetTitledFirstName]. "[Root.Society.GetNameCap] are aware, of course", [teacher.GetSheHe] says. Putting an arm over my shoulder, [teacher.GetSheHe] continues: "I could help you! You just need a little guidance, my good [Root.GetManWoman]!";;;;;;;;;;;;x
-EVTDESC_HF_14002_ambition;[teacher.GetTitledFirstName] has returned from a raid in foreign lands. My [teacher.GetRootRelation] is showing off the bounty brought back, when I let out a sigh, causing [teacher.GetHerHim] to pause. "You know, you always seem so content with what you have, [Root.GetFirstName]" [teacher.GetSheHe] says. "I could help you hone your ambition", [teacher.GetSheHe] presses.;;;;;;;;;;;;x
+EVTDESC_HF_14002_ambition;[teacher.GetTitledFirstName]从异国劫掠归来了。当我的[teacher.GetRootRelation]炫耀自己带回来的战利品时，我不由得发出一阵叹息，[teacher.GetHerHim]暂停下来。【[Root.GetFirstName]，你也知道的，你对于自己拥有的东西似乎总是很满足】[teacher.GetSheHe]说。【我可以帮你磨练出你的野心。】[teacher.GetSheHe]这样要求。;;;;;;;;;;;;x
 EVTDESC_HF_14002_patience;最近我在一场[Root.GetWarriorLodgeCompetitionType]比赛中失败了，[teacher.GetTitledFirstName]因此找到我，想要聊一聊我的性子。「耐心是从内而外的」，我的[teacher.GetRootRelation]解释道。我握紧了拳头，却被这个[teacher.GetManWoman]注意到了。最后，[teacher.GetSheHe]说：「你只是需要一些指引」;;;;;;;;;;;;x
 EVTDESC_HF_14002_diligence;[teacher.GetBestName] is watching me in the training grounds. There is something inquisitive about it, and I am not surprised when [teacher.GetSheHe] comes over, asking about the routines I keep, "maintenance-wise, for your weapons and armor". When I fail to come up with a clear answer, [teacher.GetSheHe] continues, unapologetically: "I could teach you how to care for your sword".;;;;;;;;;;;;x
 EVTOPTA_HF_14002;我愿意接受建议。你有什么想法吗？;;;;;;;;;;;;x
@@ -18329,7 +18329,7 @@ EVTOPTA_HF_14008;我不知道为什么我不学习。;;;;;;;;;;;;x
 EVTOPTB_HF_14008;这是[teacher.GetHerHis]错！;;;;;;;;;;;;x
 EVTDESC_HF_14009_bravery;我的[student.GetRootRelation]和我已经从这次露营之旅回来了。[teacher.GetTeachingMomentResult];;;;;;;;;;;;x
 EVTDESC_HF_14009_ambition;我的[student.GetRootRelation]和我已经结束了最后一次与书吏的会谈。[teacher.GetTeachingMomentResult];;;;;;;;;;;;x
-EVTDESC_HF_14009_patience;My [student.GetRootRelation] and I have retired from watching the games. [teacher.GetTeachingMomentResult];;;;;;;;;;;;x
+EVTDESC_HF_14009_patience;我和我的[student.GetRootRelation]从比赛的观众席上下来了。[teacher.GetTeachingMomentResult];;;;;;;;;;;;x
 EVTDESC_HF_14009_diligence;我和我的[student.GetRootRelation]最终收拾好了军械库。[teacher.GetTeachingMomentResult];;;;;;;;;;;;x
 EVTOPTA_HF_14009;[student.GetSheHeCap] had this [Root.GetTeachingMomentFocus] in [student.GetHerHim] all along.;;;;;;;;;;;;x
 EVTOPTA_HF_14009_romance;我很高兴能帮上忙。;;;;;;;;;;;;x
@@ -18558,7 +18558,7 @@ string_negative_war_letter;[warrior_lodge_war_side.GetFirstName]向我寄来一�
 EVTOPTC_HF_50104;这个不要脸的神经病！;;;;;;;;;;;;x
 EVTOPTD_HF_50104;或许我本该做点别的……？;;;;;;;;;;;;x
 EVTOPTE_HF_50104;他逆耳的话是对的。我必须放弃我懦弱的方式。;;;;;;;;;;;;x
-EVTDESC_HF_50105;Another letter from [warrior_lodge_war_side.GetFirstName] arrived today. [warrior_lodge_war_side.GetSheHeCap] shares the news of people's reactions after he regaled them the grand tales of my deeds. Along with the stories is also an invitation to join [warrior_lodge_war_side.GetHerHim] in [GetSuggestedActivity]...;;;;;;;;;;;;x
+EVTDESC_HF_50105;今天我又收到了[warrior_lodge_war_side.GetFirstName]的一封来信。[warrior_lodge_war_side.GetSheHeCap]在信中讲述了，当他讲述有关我行动的故事来使听众们大饱耳福之后他们做出的反应。同时，[warrior_lodge_war_side.GetHerHim]还邀请我一起去[GetSuggestedActivity]……;;;;;;;;;;;;x
 string_suggested_post_war_hunting;狩猎;;;;;;;;;;;;x
 string_suggested_post_war_games;玩军事策略游戏;;;;;;;;;;;;x
 string_suggested_post_war_knowledge;在其他方面交换战争的知识;;;;;;;;;;;;x
@@ -19893,8 +19893,8 @@ string_vanilla_augustus_desc;此人是重生的罗马帝国的现任统治者，
 string_altstart_augustus_desc;此人乃是[e_roman_empire.GetName]的现任统治者，理应得到符合其身份的尊重。;;;;;;;;;;;;x
 augustus_desc;[GetAltAugustusName];;;;;;;;;;;;x
 PONTIFEX_MAXIMA;最高祭司长;;;;;;;;;;;;x
-HEAD_ZUN_PRIEST;大祭司;;;;;;;;;;;;x
-HEAD_ZUN_PRIESTESS;女大祭司;;;;;;;;;;;;x
+HEAD_ZUN_PRIEST;光明使者;;;;;;;;;;;;x
+HEAD_ZUN_PRIESTESS;光明圣女;;;;;;;;;;;;x
 HEAD_AFRICAN_PRIEST;大祭司;;;;;;;;;;;;x
 HEAD_AFRICAN_PRIESTESS;女大祭司;;;;;;;;;;;;x
 arberian;阿尔巴尼亚;;;;;;;;;;;;x
