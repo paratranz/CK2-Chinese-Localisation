@@ -58,7 +58,7 @@ RETTYPE_CUL_HORSE;马;;;;;;;;;;;;x
 RETTYPE_CUL_CAT;无畏猫;;;;;;;;;;;;x
 RETTYPE_CUL_BEAR;熊;;;;;;;;;;;;x
 RETTYPE_CUL_HEDGEHOG;刚毛卫士;;;;;;;;;;;;x
-RETTYPE_CUL_DUCK;战鸭;;;;;;;;;;;;x
+RETTYPE_CUL_DUCK;冲鸭;;;;;;;;;;;;x
 RETTYPE_CUL_DOG;良犬;;;;;;;;;;;;x
 RETTYPE_CUL_ELEPHANT;象;;;;;;;;;;;;x
 RETTYPE_CUL_DRAGON;龙;;;;;;;;;;;;x
@@ -81,8 +81,8 @@ setting_names_random_religion;随机宗教名称;;;;;;;;;;;;x
 setting_names_random_religion_tooltip;宗教采用随机名称。;;;;;;;;;;;;x
 setting_names_random_culture;随机文化名称;;;;;;;;;;;;x
 setting_names_random_culture_tooltip;文化采用随机名称。;;;;;;;;;;;;x
-RENAME_TITLE_SHORT_NAME_CHECKBOX;§Y切换短名称§!;;;;;;;;;;;;x
-RENAME_TITLE_SHORT_NAME_CHECKBOX_DELAYED;允许遵照遵照短名称命名法命名头衔，去掉「tier of」字样。;;;;;;;;;;;;x
+RENAME_TITLE_SHORT_NAME_CHECKBOX;§Y切换为短名称§!;;;;;;;;;;;;x
+RENAME_TITLE_SHORT_NAME_CHECKBOX_DELAYED;允许遵照短名称命名法命名头衔，不显示头衔等级。;;;;;;;;;;;;x
 GOV_MARRIAGE_IGNORE_RELIGION;安排婚姻与纳妾时忽视宗教差异;;;;;;;;;;;;x
 ADD_AGE_EFFECT_NEGATIVE;$CHARACTER|Y$年轻了 $AGE|Y$ 岁;;;;;;;;;;;;x
 ADD_AGE_EFFECT;$CHARACTER|Y$年长了 $AGE|Y$ 岁;;;;;;;;;;;;x
@@ -158,9 +158,9 @@ bloodline_effect_crusade_lord;§Y十字军王国§!§G花费更少§!;;;;;;;;;;;
 String_get_root_relation;[This.GetRootRelation];;;;;;;;;;;;x
 String_title_rank;[This.GetTitle];;;;;;;;;;;;x
 String_mild_insult;你这[This.GetEnemySoldierDesc]的畜牲;;;;;;;;;;;;x
-EVTDESCHFP21002_A;在病魔徘徊在领地的乡村之际，[sway_target.GetTitledFirstName]已将[sway_target.GetHerselfHimself]和[sway_target.Location.GetName]宫廷中其他人隔离等待时机。「这段时间不可能联系得到[sway_target.GetHerHim]了。」我的内阁告诉我。;;;;;;;;;;;;x
-EVTDESCHFP21002_B;由于我已经与我的宫廷隔离，我必须停止拉拢[sway_target.GetTitledFirstName]的努力。;;;;;;;;;;;;x
-EVTDESCHFP21002_A_B;由于[sway_target.GetTitledFirstName]和我现在都在等待挨过肆虐外面乡村的病魔，拉拢[sway_target.GetHerHis]好感的努力将被搁置……;;;;;;;;;;;;x
+EVTDESCHFP21002_A;在病魔徘徊在领地的乡村之际，[sway_target.GetTitledFirstName][sway_target.GetHerselfHimself]已经和[sway_target.Location.GetName]宫廷中其他人一起进入隔离等待时机。「这段时间不可能联系得到[sway_target.GetHerHim]了。」我的内阁告诉我。;;;;;;;;;;;;x
+EVTDESCHFP21002_B;由于我已经与我的宫廷一同进入隔离，我必须停止拉拢[sway_target.GetTitledFirstName]的努力。;;;;;;;;;;;;x
+EVTDESCHFP21002_A_B;由于[sway_target.GetTitledFirstName]和我现在都在等待肆虐外面乡村的病魔消退，我拉拢[sway_target.GetHerHis]好感的努力将不得不搁置……;;;;;;;;;;;;x
 tooltip_stop_swaying;停止§Y拉拢§!§Y[sway_target.GetTitledFirstName]§!;;;;;;;;;;;;x
 EVTOPTAHFP21002;要是有信鸽就好了……;;;;;;;;;;;;x
 EVTDESC_RIP_12007_sway_version;[target_courtier.GetBestName]也许不是我见过的[target_courtier.GetManWoman]里最吸引我的，但随着[Root.GetCapitalHolding]里的日子一天天过去，我绞尽脑汁想让[target_courtier.GetHerHim]相信我的善意。现在我发现那个[target_courtier.GetManWoman]经常占据我的脑海。;;;;;;;;;;;;x
