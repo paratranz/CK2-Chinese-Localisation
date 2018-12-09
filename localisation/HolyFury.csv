@@ -3890,7 +3890,7 @@ tooltip_religion_feature_autocephaly;§G自治的祭司各自负责每个领地�
 tooltip_religion_feature_no_leader;§Y这个宗教永远不会有宗教领袖§!;;;;;;;;;;;;x
 tooltip_religion_feature_martial;§G这一宗教的信徒能获得2点基础军事能力§!;;;;;;;;;;;;x
 tooltip_religion_feature_diplomacy;§G这一宗教的信徒能获得2点基础外交能力§!;;;;;;;;;;;;x
-tooltip_religion_feature_stewardship;§G这一宗教的信徒能获得2点基础行政能力§!;;;;;;;;;;;;x
+tooltip_religion_feature_stewardship;§G这一宗教的信徒能获得2点基础财政能力§!;;;;;;;;;;;;x
 tooltip_religion_feature_intrigue;§G这一宗教的信徒能获得2点基础密谋能力§!;;;;;;;;;;;;x
 tooltip_religion_feature_learning;§G这一宗教的信徒能获得2点基础学习能力§!;;;;;;;;;;;;x
 religion_peaceful;和平;;;;;;;;;;;;x
@@ -3985,13 +3985,13 @@ EVTOPTBHF23003;先知的话语令我着迷……;;;;;;;;;;;;x
 EVTOPTCHF23003;我对亚伯拉罕的神感到好奇……;;;;;;;;;;;;x
 EVTOPTDHF23003;东方宗教更合我意。;;;;;;;;;;;;x
 EVTDESCHF23004;[Root.Religion.GetName]信仰并不禁止其信众在追求知识的过程中研究其它的信仰。;;;;;;;;;;;;x
-EVTOPTAHF23004;琐罗亚斯德教的二元论非常奇妙。;;;;;;;;;;;;x
+EVTOPTAHF23004;祆教的二元论非常奇妙。;;;;;;;;;;;;x
 EVTOPTBHF23004;我希望效仿印度教的戒律。;;;;;;;;;;;;x
 EVTOPTDHF23004;我对亚伯拉罕宗教更感兴趣。;;;;;;;;;;;;x
 ELECTOR_VOTE;投票：;;;;;;;;;;;;x
-SUPPORTING_YOUR_CANDIDATE;$ELECTOR|Y$在选举中支持你提名的候选人$CANDIDATE|Y$;;;;;;;;;;;;x
-SUPPORTING_OTHER_CANDIDATE;$ELECTOR|Y$没有在选举中支持你提名的候选人，而是投票给了$CANDIDATE|Y$;;;;;;;;;;;;x
-INTERACTION_REQUIRES_COMMON_ELECTED_TITLE;这两个角色必须是一个共同头衔的候选人;;;;;;;;;;;;x
+SUPPORTING_YOUR_CANDIDATE;$ELECTOR|Y$在选举中支持你提名的候选人$CANDIDATE|Y$。;;;;;;;;;;;;x
+SUPPORTING_OTHER_CANDIDATE;$ELECTOR|Y$没有在选举中支持你提名的候选人，而是投票给了$CANDIDATE|Y$。;;;;;;;;;;;;x
+INTERACTION_REQUIRES_COMMON_ELECTED_TITLE;这两个角色必须至少是一个头衔的共同选举人。;;;;;;;;;;;;x
 RETURNING_SUCCESSION_VOTE_FAVOR;这个角色正在回报$FAVOR_HOLDER|Y$的人情，因此将会在继承投票上与其一致。;;;;;;;;;;;;x
 CALL_IN_FAVOR_SUCCESSION_VOTE_LONG_DESC;要求兑现[Recipient.GetBestName]欠你的人情。;;;;;;;;;;;;x
 CALL_IN_FAVOR_SUCCESSION_VOTE_DESC;要求兑现[Recipient.GetBestName]欠你的人情。;;;;;;;;;;;;x
@@ -5297,12 +5297,12 @@ radhanite_favor_big_desc;该商路是拉特纳[jewish.GetName]商人使用的主
 become_kshatriya_desc;改变种姓按传统是不可能的。然而，对一个已经下定决心要改变种姓的统治者来说，无论什么代价，哪怕触怒[hindu.GetName]社会也不在乎的话，没有什么不可能。到了下一代人或者更久之后，人们就会忘记[Root.GetHerHis]本来不是刹帝利……\n\n高学识的角色在这个过程中更有优势且代价更低。;;;;;;;;;;;;x
 become_vaishya_desc;改变种姓按传统是不可能的。然而，对一个已经下定决心要改变种姓的统治者来说，无论什么代价，哪怕触怒[hindu.GetName]社会也不在乎的话，没有什么不可能。到了下一代人或者更久之后，人们就会忘记[Root.GetHerHis]本来不是吠舍……\n\n高学识的角色在这个过程中更有优势且代价更低。;;;;;;;;;;;;x
 EVTDESCHFA20305;现在离我在[Root.Religion.GetHighGodName]和我的臣民面前加冕为[Root.GetTitle]的时刻只剩下几天时间了。我的宫廷里现在满是显贵的宾客，这些封臣和外国高官都是来这里目睹我统治生涯的决定性瞬间。这种奢华的仪式，就算和别国的王室相比，也是独一档的。;;;;;;;;;;;;x
-EVTDESCHFA20366;重要的时刻到了，我在[coronation_priest.GetTitledFirstName]前跪下，选帝侯和封臣们鸦雀无声的围绕在我身边。教宗祝福我并将皇冠放在我的头上，同时以[Root.Religion.GetHighGodName]之名正式宣告我加冕为[roman.GetName]的[coronation_ruler.GetTitle]，和整个[GetChristendomOrRandom]的保护者。;;;;;;;;;;;;x
+EVTDESCHFA20366;重要的时刻到了，我在[coronation_priest.GetTitledFirstName]前跪下，选帝侯和封臣们鸦雀无声的围绕在我身边。教宗祝福我并将皇冠放在我的头上，宣告我加冕为蒙[Root.Religion.GetHighGodName]宏福之[roman.GetName]人的[coronation_ruler.GetTitle]，和整个[GetChristendomOrRandom]的保护者。;;;;;;;;;;;;x
 EVTDESCHFB20366;重要的时刻到了，我在[coronation_priest.GetTitledFirstName]前跪下，身边围绕着的各位封臣们鸦雀无声。教宗祝福我并将皇冠放在我的头上，同时以[Root.Religion.GetHighGodName]之名正式宣告我加冕为[coronation_ruler.PrimaryTitle.GetName]的[coronation_ruler.GetTitle]。;;;;;;;;;;;;x
 EVTDESCHFD20366;重要的时刻到了，我在[coronation_priest.GetTitledFirstName]前跪下，身边围绕着的各位封臣们鸦雀无声。教宗祝福我并将王冠放在我的头上，同时以[Root.Religion.GetHighGodName]之名正式宣告我加冕为[coronation_ruler.PrimaryTitle.GetName]的[coronation_ruler.GetTitle]。;;;;;;;;;;;;x
 EVTDESCHFF20366;重要的时刻到了，我在[coronation_priest.GetTitledFirstName]前跪下，身边围绕着的各位封臣们鸦雀无声。[coronation_priest.GetTitle]祝福我并将王冠放在我的头上，同时以[Root.Religion.GetHighGodName]之名正式宣告我加冕为[coronation_ruler.PrimaryTitle.GetName]的[coronation_ruler.GetTitle]。;;;;;;;;;;;;x
 EVTDESCHFL20366;重要的时刻到了，空无一人的大堂内，我在[coronation_priest.GetTitledFirstName]前跪下。[coronation_priest.GetTitle]简单的祝福了我并将王冠放在我的头上，同时以[Root.Religion.GetHighGodName]之名正式宣告我加冕为[coronation_ruler.PrimaryTitle.GetName]的[coronation_ruler.GetTitle]。;;;;;;;;;;;;x
-EVTDESCHFA20367;[coronation_ruler.GetTitledFirstName]在[coronation_priest.GetTitledFirstName]前跪下，选侯和封臣们鸦雀无声的围绕在[coronation_ruler.GetHerHis]身边。教宗祝福[coronation_ruler.GetHerHim]并将皇冠放在[coronation_ruler.GetFirstName]的头上，同时以[Root.Religion.GetHighGodName]之名正式宣告[coronation_ruler.GetHerHim]加冕为罗马人的[coronation_ruler.GetTitle]，和全[GetChristendomOrRandom]的保护者。;;;;;;;;;;;;x
+EVTDESCHFA20367;[coronation_ruler.GetTitledFirstName]在[coronation_priest.GetTitledFirstName]前跪下，选侯和封臣们鸦雀无声的围绕在[coronation_ruler.GetHerHis]身边。教宗祝福[coronation_ruler.GetHerHim]并将皇冠放在[coronation_ruler.GetFirstName]的头上，宣告[coronation_ruler.GetHerHim]加冕为蒙[Root.Religion.GetHighGodName]宏福的[coronation_ruler.GetTitle]，和整个[GetChristendomOrRandom]的保护者。;;;;;;;;;;;;x
 EVTDESCHFB20367;[coronation_ruler.GetTitledFirstName]在[coronation_priest.GetTitledFirstName]面前跪下，封臣们鸦雀无声地围绕在[coronation_ruler.GetHerHis]身边。教宗祝福了[coronation_ruler.GetHerHim]并将皇冠戴在[coronation_ruler.GetFirstName]的头上，同时以[Root.Religion.GetHighGodName]之名宣告[coronation_ruler.GetHerHim]加冕为[coronation_ruler.PrimaryTitle.GetName]的[coronation_ruler.GetTitle]。;;;;;;;;;;;;x
 EVTDESCHFC20367;[coronation_ruler.GetTitledFirstName]在[coronation_priest.GetTitledFirstName]面前跪下，封臣们鸦雀无声地围绕在[coronation_ruler.GetHerHis]身边。教宗给了这孩子一个鼓励的微笑，[coronation_priest.GetSheHe]祝福了[coronation_ruler.GetHerHim]，并将皇冠戴在[coronation_ruler.GetHerHis]头上，同时以[Root.Religion.GetHighGodName]之名宣告[coronation_ruler.GetHerHim]加冕为[coronation_ruler.PrimaryTitle.GetName]的[coronation_ruler.GetTitle]。;;;;;;;;;;;;x
 EVTDESCHFD20367;[coronation_ruler.GetTitledFirstName]在[coronation_priest.GetTitledFirstName]面前跪下，封臣们鸦雀无声地围绕在[coronation_ruler.GetHerHis]身边，教宗祝福了[coronation_ruler.GetHerHim]并将王冠戴在[coronation_ruler.GetHerHis]头上，宣告以[Root.Religion.GetHighGodName]之名加冕[coronation_ruler.GetHerHim]为[coronation_ruler.PrimaryTitle.GetName]的[coronation_ruler.GetTitle]。;;;;;;;;;;;;x
@@ -5470,7 +5470,7 @@ hre_sacrosanct;至圣;;;;;;;;;;;;x
 hre_blessed;圣召;;;;;;;;;;;;x
 GENERIC_REPUBLIC_NAME;[target_merchant_republic.GetFirstName]共和国;;;;;;;;;;;;x
 setting_random_scenario_hre;神圣罗马帝国;;;;;;;;;;;;x
-setting_random_scenario_hre_tooltip;在世界某处以神圣罗马帝国为原型生成一个国家。这个国家将拥有广阔的疆域、统一的宗教、高度的地方自治和选举继承法。\n\n- 需要将§Y法理王国/帝国§!设定为「随机」。;;;;;;;;;;;;x
+setting_random_scenario_hre_tooltip;在世界某处以神圣罗马帝国为原型生成一个国家。这个国家将拥有广阔的疆域、统一的宗教、高度的地方自治和帝国选候制。\n\n- 需要将§Y法理王国/帝国§!设定为「随机」。;;;;;;;;;;;;x
 setting_random_scenario_byz;拜占庭帝国;;;;;;;;;;;;x
 setting_random_scenario_byz_tooltip;在世界某处以拜占庭帝国为原型生成一个国家。这个国家将有广阔的疆域、高度的集权与公国总督制。开局时皇帝将拥有所有法理公国头衔，并将这些头衔以总督制分封出去。\n\n - 需要将§Y法理王国/帝国§!设定为「随机」。;;;;;;;;;;;;x
 setting_dejure_kingdom_size_tooltip;决定随机生成法理王国时王国将会拥有的疆域大小。滑块设置每个王国将拥有的最小和最大法理公国数量。在很小的概率下某些地方的王国将会超过或低于设定的限制。;;;;;;;;;;;;x
@@ -5782,11 +5782,11 @@ attila_desc;库布拉特宣称自己的家族血统可追溯到阿提拉——�
 ashina_desc;阿史那氏在反叛柔然可汗国后崭露头角。其氏族成员在大草原上的人民眼中非神即圣。;;;;;;;;;;;;x
 bagratid_desc;巴格拉特开创了世界上最古老的基督教王朝之一。他的子子孙孙几百年来使格鲁吉亚兴旺发达。;;;;;;;;;;;;x
 parthian_desc;萨珊王朝统治下帕提亚七大氏族之一的后裔。七大氏族或七大家族，在波斯历史上扮演着至关重要的角色。;;;;;;;;;;;;x
-sassanid_desc;萨珊王朝的创始人。被称为伟大的战士，猎人和琐罗亚斯德教的大祭司。;;;;;;;;;;;;x
+sassanid_desc;萨珊王朝的创始人。被称为伟大的战士，猎人和祆教的大祭司。;;;;;;;;;;;;x
 niall_desc;一位传说中的爱尔兰至高王，也是「伊·内伊尔」王朝的创建者。在其统治期间，他赢得了数场对抗撒克逊人、苏格兰人、高卢人甚至罗马人的战斗。;;;;;;;;;;;;x
 bloodline_desc_samrat_chakravartin;传奇的转轮圣王，全印度的统一者;;;;;;;;;;;;x
 bloodline_desc_great_conqueror;这是一名极负盛名和传说色彩的伟大征服者。长剑在手，无人可当！;;;;;;;;;;;;x
-bloodline_desc_saoshyant;琐罗亚斯德信条中的萨奥希扬特，即是世界的救主与神圣的偶像。;;;;;;;;;;;;x
+bloodline_desc_saoshyant;祆教信仰中的萨奥希扬特，即是世界的救主与神圣的偶像。;;;;;;;;;;;;x
 bloodline_desc_israel;这个[This.Founder.GetManWoman]重建了大卫王的王国，即是犹太人所称的以色列。;;;;;;;;;;;;x
 saoshyant_male;萨奥斯亚特的血脉;;;;;;;;;;;;x
 saoshyant_female;萨奥斯亚特的血脉;;;;;;;;;;;;x
@@ -6897,7 +6897,7 @@ d_grisons_adj;格劳宾登;;;;;;;;;;;;x
 EVTDESC_HFP_40010;已经有很长一段时间，阿尔卑斯山脉中部周围的城市们遭受着帝国内其他存在的威胁。所有我们的城市都对身为帝国直辖市深感荣幸，我们都同意共同保卫彼此。我们不再会单独面对这些威胁，而是要联合起来成为一个更为强大的派别。\n\n我已经被选为了这个联邦的首领，也就是我们新的瑞士联邦所有州的挂名首脑。我们不再会遭受外来者的威胁，而是会成为帝国内强大独立的一员。;;;;;;;;;;;;x
 TITLE_HFP_40010;瑞士邦联;;;;;;;;;;;;x
 EVTOPTA_HFP_40010;团结则存，分裂则亡。;;;;;;;;;;;;x
-EVTDESC_HFP_40012;一个名为瑞士邦联的新实体在帝国中崛起。他们是一群阿尔卑斯山中部地区周围的帝国直辖市，通过建立防御同盟保护自己免受周围其他选侯的侵害。\n\n作为一支不可忽视的独立力量，他们已经摆脱了对其土地的优先声索权，无论这些优先权是来自西部的旧勃艮第人，还是来自北方的德意志领主\n\n我应该留意帝国这种新的潜在威胁。;;;;;;;;;;;;x
+EVTDESC_HFP_40012;一个名为瑞士邦联的新实体在帝国中崛起。他们是一群阿尔卑斯山中部地区周围的帝国直辖市，通过建立防御同盟保护自己免受周围其他选侯的侵害。\n\n作为一支不可忽视的独立力量，他们已经摆脱了先前对其土地的任何宣称权，无论这些优先权是来自西部的古老的勃艮第人，还是来自北方的德意志领主\n\n我应该留意帝国内这一新的潜在威胁。;;;;;;;;;;;;x
 TITLE_HFP_40012;瑞士邦联;;;;;;;;;;;;x
 EVTOPTA_HFP_40012;有趣……;;;;;;;;;;;;x
 custom_create_switzerland_tooltip;将中央高原的身份并入新建立的联合瑞士邦联。;;;;;;;;;;;;x
@@ -7377,13 +7377,13 @@ GOD_DIANA;狄安娜;;;;;;;;;;;;x
 GOD_BACCHUS;巴克斯;;;;;;;;;;;;x
 crown_tengri_fylkir;撑犁孤涂冠;;;;;;;;;;;;x
 crown_tengri_fylkir_desc;这是[tengri_pagan_reformed.GetHighGodName]在人间的化身所戴的装点着神圣羽毛的头饰。;;;;;;;;;;;;x
-crown_finnish_fylkir;智者之冠;;;;;;;;;;;;x
+crown_finnish_fylkir;万智冠;;;;;;;;;;;;x
 crown_finnish_fylkir_desc;[finnish_pagan_reformed.GetHighGodName]在人间的使者佩戴过的王冠。;;;;;;;;;;;;x
 TENGRIKUT;撑犁孤涂;;;;;;;;;;;;x
 TENGRIKIZ;撑犁居次;;;;;;;;;;;;x
-FIRST_VAIDILA;最高瓦伊迪拉;;;;;;;;;;;;x
-FIRST_VAIDILUTE;最高瓦伊迪卢特;;;;;;;;;;;;x
-TIETAJA;智者;;;;;;;;;;;;x
+FIRST_VAIDILA;首席瓦伊迪拉;;;;;;;;;;;;x
+FIRST_VAIDILUTE;首席瓦伊迪卢特;;;;;;;;;;;;x
+TIETAJA;万智真贤;;;;;;;;;;;;x
 CHERNOBAN;黑神行者;;;;;;;;;;;;x
 TLATOANI;特拉托阿尼;;;;;;;;;;;;x
 CIHUATLATOANI;西瓦特拉托阿尼;;;;;;;;;;;;x
@@ -11206,7 +11206,7 @@ EVTDESC_HF_49108;[Root.GetTitledName]\n\n我也觉得[northern_crusade_potential
 EVTOPTA_HF_49108;前进，士兵！;;;;;;;;;;;;x
 EVTOPTB_HF_49108;等等，我需要再考虑一下。;;;;;;;;;;;;x
 EVTTITLE_HF_49110;北方十字军;;;;;;;;;;;;x
-EVTDESC_HF_49110;为了让这片土地投入基督的怀抱，条顿骑士团向[northern_crusade_kingdom_title.GetAdjective]展开了进军。那些毙死在刀剑下的异教徒应该后悔没有及时和平地皈依。\n\n他们的首要目标是讨伐[northern_crusade_target_character.PrimaryTitle.GetBaseName]的酋首[northern_crusade_target_character.GetTitledFirstName]。如果他们成功攻取[northern_crusade_target_character.PrimaryTitle.GetBaseName]，他们会将其当作桥头堡，平定[northern_crusade_kingdom_title.GetAdjective]余下的土地。\n\n北邦人之鲜血将泻满北地的江河，而必不蒙怜恤。;;;;;;;;;;;;x
+EVTDESC_HF_49110;为了让这片土地投入基督的怀抱，条顿骑士团向[northern_crusade_kingdom_title.GetAdjective]展开了进军。那些毙死在刀剑下的异教徒应该后悔没有及时和平地皈依。\n\n他们的首要目标是讨伐[northern_crusade_target_character.PrimaryTitle.GetBaseName]的首领[northern_crusade_target_character.GetTitledFirstName]。如果他们成功攻取[northern_crusade_target_character.PrimaryTitle.GetBaseName]，他们会将其当作桥头堡，平定[northern_crusade_kingdom_title.GetAdjective]余下的土地。\n\n北邦人之鲜血将泻满北地的江河，而必不蒙怜恤。;;;;;;;;;;;;x
 EVTOPTA_HF_49110;前进，神的仆人们！;;;;;;;;;;;;x
 EVTOPTB_HF_49110;因此那些异教徒仍在前进……;;;;;;;;;;;;x
 EVTOPTC_HF_49110;[From.Religion.GetName]信徒接着还会想出些什么？;;;;;;;;;;;;x
@@ -11220,7 +11220,7 @@ EVTTITLE_HFP_40015;[Root.PrimaryTitle.GetName]共和国;;;;;;;;;;;;x
 EVTDESC_HFP_40015;[Root.Capital.GetName]城已经繁荣了很久。我们的控制力遍及整个地中海，我们的商人财富殷实，权倾一方。\n\n我们欧洲的封建统治者们被蔑视了数个世纪，但这一切终于要结束了，因为我们的伟大前程已无可争议。旧贵族的时代即将过去，商业时代将随着我们商人阶级的崛起拉开大幕。\n\n看吧，我的朋友，我的对手，我的同胞，看我向世界展现[Root.PrimaryTitle.GetName]的真正实力。;;;;;;;;;;;;x
 EVTOPTA_HFP_40015;向我们低头吧。;;;;;;;;;;;;x
 EVTTITLE_HFP_40022;[k_austria.GetName][From.GetArchdukeArchduchessCap];;;;;;;;;;;;x
-EVTDESC_HFP_40022;[d_osterreich.GetName]的[From.GetFirstName][From.GetDukeDuchessCap]开始称[From.GetHerselfHimself][k_austria.GetName][From.GetArchdukeArchduchessCap]，随着时间推移，人们理所当然地接受[From.GetHerHis]超过其他诸侯的优越地位。在[From.Capital.GetName]的一场盛大仪式中，这个头衔变成了正式的官方头衔。\n\n作为帝国的选侯之一，[From.GetTitledName]无可辩驳地证明了[From.GetHerHis]优越地位。帝国的其他王公贵人们嫉妒地望向[From.Capital.GetName]，不情不愿地接受这个现实。他们会寻找扳倒[From.GetHerHim]的机会取而代之。;;;;;;;;;;;;x
+EVTDESC_HFP_40022;[d_osterreich.GetName]的[From.GetFirstName][From.GetDukeDuchessCap]开始称[From.GetHerselfHimself]为[k_austria.GetName][From.GetArchdukeArchduchessCap]，随着时间推移，人们开始惯于接受[From.GetHerHis]超过其他诸侯的优越地位。在[From.Capital.GetName]的一场盛大仪式中，这个头衔变成了正式的官方头衔。\n\n作为帝国的主要选侯之一，[From.GetTitledName]无可辩驳地证明了[From.GetHerHis]优越地位。帝国的其他王公贵人们嫉妒地望向[From.Capital.GetName]，不情不愿地接受这个现实。他们会寻找扳倒[From.GetHerHim]的机会取而代之。;;;;;;;;;;;;x
 EVTDESC_HFP_40022_2;[d_osterreich.GetName]的[From.GetFirstName][From.GetDukeDuchessCap]开始称[From.GetHerselfHimself][k_austria.GetName][From.GetArchdukeArchduchessCap]，随着时间推移，人们理所当然地接受[From.GetHerHis]超过其他诸侯的优越地位。在[From.Capital.GetName]的一场盛大仪式中，这个头衔变成了正式的官方头衔。\n\n作为帝国的[From.GetLadiesLords]之一，[From.GetTitledName]无可辩驳地证明了[From.GetHerHis]优越地位。帝国的其他下层成员们嫉妒地望向[From.Capital.GetName]，不情不愿地接受这个现实。他们会寻找扳倒[From.GetHerHim]的机会取而代之。;;;;;;;;;;;;x
 EVTOPTA_HFP_40022;这是我应得的。;;;;;;;;;;;;x
 EVTOPTB_HFP_40022;[From.GetArchdukeArchduchessCap]？真是个荒谬的头衔。;;;;;;;;;;;;x
@@ -11765,8 +11765,8 @@ RULE_CHILDRENS_CRUSADE_ON;儿童十字军已启用。;;;;;;;;;;;;x
 RULE_CHILDRENS_CRUSADE_OFF;儿童十字军未启用。;;;;;;;;;;;;x
 RULE_NORTHERN_CRUSADE_ON;北方十字军已启用。;;;;;;;;;;;;x
 RULE_NORTHERN_CRUSADE_OFF;北方十字军未启用。;;;;;;;;;;;;x
-order_government;军事修会制;;;;;;;;;;;;x
-order_government_desc;为了从外界的威胁中捍卫他们的信仰，那些信徒中最为狂热的最随者可能会加入军事修会。他们为保护那些可能被异教徒侵略的领主而来，是虔诚信徒们坚实的保护者。这些组织有森严的秩序，团长的头衔将在组织内部传承下去。;;;;;;;;;;;;x
+order_government;骑士团制;;;;;;;;;;;;x
+order_government_desc;为了从外界的威胁中捍卫他们的信仰，那些信徒中最为狂热的最随者可能会加入骑士团。他们为保护那些可能被异教徒侵略的领主而来，是虔诚信徒们坚实的保护者。这些骑士团有森严的上下秩序，团长的头衔将在组织内部传承下去。;;;;;;;;;;;;x
 order_emperor;亲王;;;;;;;;;;;;x
 order_emperor_female;女亲王;;;;;;;;;;;;x
 order_king;大团长;;;;;;;;;;;;x
@@ -14664,8 +14664,8 @@ EVTOPTBHF24060;我将全身心投入这项事业。;;;;;;;;;;;;x
 EVTOPTCHF24060;我们必须尽力让我们声名不朽。;;;;;;;;;;;;x
 EVTOPTDHF24060;我会多花些时间在仪容上……;;;;;;;;;;;;x
 EVTOPTEHF24060;我有更大的责任要履行。;;;;;;;;;;;;x
-EVTDESCAHF24061;Thanks to the restless efforts of [Root.GetTitledFirstName], the [Root.GetOnlyDynastyName] dynasty has risen to fame amongst their peers as paragons of nobility and class.\n[Root.GetTitledFirstName] [Root.GetHerselfHimself] has become a symbol of parental responsibility and familial duty. A sophisticated [Root.GetManWoman] who has devoted [Root.GetHerHis] entire life to uphold the honor and virtue of [Root.GetHerHis] family's good name, [Root.GetSheHe] has become an example for all esteemed aristocrats to follow.;;;;;;;;;;;;x
-EVTDESCBHF24061;Thanks to the restless efforts of [Root.GetTitledFirstName], the [Root.GetOnlyDynastyName] dynasty has risen to fame amongst their peers as paragons of nobility and class despite its small size.\n[Root.GetTitledFirstName] [Root.GetHerselfHimself] has become a symbol of parental responsibility and familial duty. A sophisticated [Root.GetManWoman] who has devoted [Root.GetHerHis] entire life to uphold the honor and virtue of [Root.GetHerHis] family's good name, [Root.GetSheHe] has become an example for all esteemed aristocrats to follow.;;;;;;;;;;;;x
+EVTDESCAHF24061;由于[Root.GetTitledFirstName]的不懈努力，[Root.GetOnlyDynastyName]家族在同辈中名声大噪，成为贵族和阶级的典范。\n[Root.GetTitledFirstName][Root.GetHerselfHimself]成为了家长责任与家庭责任的象征。这个精致的[Root.GetManWoman]将[Root.GetHerHis]一生致力于维护[Root.GetHerHis]家族美名的荣耀与美德，[Root.GetSheHe]已成为所有受人尊敬的贵族学习的榜样。;;;;;;;;;;;;x
+EVTDESCBHF24061;由于[Root.GetTitledFirstName]的不懈努力，[Root.GetOnlyDynastyName]家族虽然人丁不多，却在同辈中名声大噪，成为贵族和阶级的典范。\n[Root.GetTitledFirstName][Root.GetHerselfHimself]成为了家长责任与家庭责任的象征。这个精致的[Root.GetManWoman]将[Root.GetHerHis]一生致力于维护[Root.GetHerHis]家族美名的荣耀与美德，[Root.GetSheHe]已成为所有受人尊敬的贵族学习的榜样。;;;;;;;;;;;;x
 EVTOPTAHF24061;家族第一。;;;;;;;;;;;;x
 EVTTITLEHF24062;地上天国;;;;;;;;;;;;x
 EVTDESCAHF24062;为了使[Root.Capital.GetName]成为一座神学辩论的中心，我必须耗费一些资源去寻求德高望重的学者、签订与过去那些神学家的契约，并且修建这两者都急需的基本设施。当然，这肯定不会是轻而易举或是廉价的事情。;;;;;;;;;;;;x
@@ -14674,7 +14674,7 @@ EVTOPTBHF24062;不惜一切代价完成这项神圣的任务。;;;;;;;;;;;;x
 EVTOPTCHF24062;少数重要学者就够了……;;;;;;;;;;;;x
 EVTOPTDHF24062;我会试着亲自主导搜寻工作。;;;;;;;;;;;;x
 EVTOPTEHF24062;我认为这项任务不应花费甚多。;;;;;;;;;;;;x
-EVTDESCAHF24063;Since I have started recruiting scholars and expanding the religious significance of my court, there has been a growing concern from the more conservative elements of the realm's clergy about the possibility that my research might undermine pre-existing religious practices.;;;;;;;;;;;;x
+EVTDESCAHF24063;自从我开始招募学者、扩大宫廷的宗教影响以来，国内偏保守的教士们越来越担心我的研究可能会破坏已有的宗教习俗。;;;;;;;;;;;;x
 EVTOPTAHF24063;我应当对这些人保持怀疑。;;;;;;;;;;;;x
 EVTOPTBHF24063;学者们的发现会证明他们自己。;;;;;;;;;;;;x
 EVTOPTCHF24063;我会转移一些资金安抚反对派。;;;;;;;;;;;;x
@@ -14821,10 +14821,10 @@ prisoner_macabre_banquet;木乃伊囚徒;;;;;;;;;;;;x
 prisoner_macabre_banquet_desc;将[Root.GetTitledFirstName]制成木乃伊并加入你的收藏，这样[Root.GetHerHis]这副景象可以用来威慑你所有的敌人。;;;;;;;;;;;;x
 EVTDESCHF24105;就在[From.GetHerHis]不幸死亡后仅仅几小时，[From.GetFirstName]也在大厅里加入了[From.GetHerHis]叛徒同伙。穿戴时髦，被架在一个布满灰尘的长桌上，[From.GetHerHis]尸体空洞无神地凝视着[From.GetHerHim]前面的空盘子。;;;;;;;;;;;;x
 EVTOPTAHF24105;多么迷人的新客人啊！;;;;;;;;;;;;x
-EVTDESCHF24106;It appears that my jailer has a particularly terrible fate in store for me. [FromFrom.GetSheHeCap] will have my body embalmed after my death and prop it in [From.GetHerHis] own palace like a macabre puppet to scare off [FromFrom.GetHerHis] enemies.;;;;;;;;;;;;x
+EVTDESCHF24106;看来我的狱卒为我准备了一个特别可怕的命运。[FromFrom.GetSheHeCap]将在我死后对我的尸体进行防腐处理，并把它搭在[From.GetHerHis]宫殿里，像个可怕的傀儡一样吓跑[FromFrom.GetHerHis]敌人。;;;;;;;;;;;;x
 EVTOPTAHF24106;什么！？！何其荒唐！;;;;;;;;;;;;x
-bloodline_effect_murder_deflection;Can restore reputation through §YObfuscation§!.;;;;;;;;;;;;x
-murder_deflection_decision;混乱;;;;;;;;;;;;x
+bloodline_effect_murder_deflection;可以通过§Y混淆视听§!来恢复名誉。;;;;;;;;;;;;x
+murder_deflection_decision;混淆视听;;;;;;;;;;;;x
 murder_deflection_decision_desc;花费§Y威望§!来开脱你最近所犯下的罪行。;;;;;;;;;;;;x
 tooltip_murder_deflection_decision;开始混淆视听。;;;;;;;;;;;;x
 tooltip_deflection_cooldown;在过去的§Y10年§!中没有执行过这个决议;;;;;;;;;;;;x
@@ -14855,11 +14855,11 @@ EVTDESCHF24115;客人用热烈的拥抱笑着欢迎我。有什么东西刺中�
 EVTOPTAHF24115;咕噜！;;;;;;;;;;;;x
 EVTDESCHF24116;我在晚宴后跟踪着[From.GetFirstName]。我跟在目标身后，看着[From.GetSheHe]酒后蹒跚穿过宫殿走廊，用冰冷的怀抱抓住[From.GetHerHim]，将我的刀刺入[From.GetHerHis]身体。在[From.GetSheHe]转身要求救时，我割开了[From.GetHerHis]喉咙。;;;;;;;;;;;;x
 EVTOPTAHF24116;嘘，好好睡吧，亲爱的孩子。;;;;;;;;;;;;x
-EVTDESCHF24118;The guest chuckles and welcomes me in a forceful embrace. Something stings me and I instinctively push [assassin_plot_owner.GetHerHim] away, seeing a stream of blood wetting my clothes already. Looking at my assailant's smile, I finally recognize [assassin_plot_owner.GetHerHim] as [assassin_plot_owner.GetTitledFirstName] and scream [assassin_plot_owner.GetHerHis] name.;;;;;;;;;;;;x
+EVTDESCHF24118;客人用热烈的拥抱笑着欢迎我。有什么东西刺中了我，我本能地推开[assassin_plot_owner.GetHerHim]，看到自己的衣服已被血流沾湿。我看着刺客的微笑，终于认出了[assassin_plot_owner.GetHerHim]就是[assassin_plot_owner.GetTitledFirstName]，于是叫出了[assassin_plot_owner.GetHerHis]名字。;;;;;;;;;;;;x
 EVTOPTAHF24118;救救我！[assassin_plot_owner.GetFirstName]要杀我！;;;;;;;;;;;;x
 EVTDESCHF24119;我在晚宴后跟踪着[From.GetFirstName]。我跟在目标身后，看着[From.GetSheHe]酒后蹒跚穿过宫殿走廊，用冰冷的怀抱抓住[From.GetHerHim]，将我的刀刺入[From.GetHerHis]身体。不幸的是，这个[From.GetManWoman]认出了我并在我结果[From.GetHerHim]之前尖叫着我的名字。;;;;;;;;;;;;x
 EVTOPTAHF24119;真是扫兴。;;;;;;;;;;;;x
-EVTDESCHF24121;My sudden moment of panic passes as quickly as it arrived when one of my courtiers call me from the other side of the corridor. I turn back to invite the strange guest to join us in the hall once again, but [assassin_plot_owner.GetSheHe] has vanished without leaving a trace.;;;;;;;;;;;;x
+EVTDESCHF24121;一位廷臣在走廊的另一边呼唤我，于是我的恐慌转瞬即逝。我转过身来邀请这位陌生的客人再次加入我们的大厅，但是[assassin_plot_owner.GetSheHe]已经消失无踪。;;;;;;;;;;;;x
 EVTOPTAHF24121;真是古怪。;;;;;;;;;;;;x
 EVTDESCHF24122;就在我认为已经孤立了[From.GetFirstName]并打算悄悄下手时，[From.GetHerHis]一个酒友在[Root.Capital.GetName]的走廊上偶然发现了我们，这迫使我改变计划。;;;;;;;;;;;;x
 EVTOPTAHF24122;就像那样，我兴致全无。;;;;;;;;;;;;x
@@ -17698,18 +17698,18 @@ TOOLTIP_EVTOPTAHF23854_SUCCESS;成功爬上了那棵树。;;;;;;;;;;;;x
 TOOLTIP_EVTOPTAHF23854_FAILURE;一场可怕的坠落。;;;;;;;;;;;;x
 eldership_rules;长老选举继承法;;;;;;;;;;;;x
 gov_romuva_tribe;[Religion.GetName]部落;;;;;;;;;;;;x
-gov_noble_romuva_eldership;[Religion.GetName]贵族酋邦;;;;;;;;;;;;x
+gov_noble_romuva_eldership;[Religion.GetName]贵族部落;;;;;;;;;;;;x
 tooltip_religion_feature_eldership;§G解锁长老选举继承法§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_rome_child;罗马不应由孩子统治;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_despot;[From.GetSheHeCap]是§Y专制公§!;;;;;;;;;;;;x
 succ_byzantine_elective;帝国选举制;;;;;;;;;;;;x
-succ_byzantine_elective_desc;帝国的内阁成员和帝国军队的将领可以影响新皇帝的选择。与封建制的选举者不同，帝国内阁的每个成员的投票权重并不一致，投票权重基于选举者的声望，荣誉头衔和个人属性，这使得一些选举者比其他选举者更具影响力。除非候选人毁容，残疾或未成年，否则皇帝的选举权重将是最大的。当前皇帝的近亲，将领，元帅和宣称者的近亲都是可行候选人。;;;;;;;;;;;;x
+succ_byzantine_elective_desc;帝国内阁和帝国军队的将领可以影响新皇帝的选拔。与封建制的选举者不同，帝国内阁的每个成员的投票权重并不一致，投票权重基于选举者的声望、荣誉头衔和个人属性，这使得一些选举者比其他选举者更具影响力。除非皇帝毁容，残疾或未成年，否则皇帝的选举权重将是最大的。在位皇帝的近亲、将领、军事统帅和宣称者都是可行候选人。;;;;;;;;;;;;x
 byzantine_elective;帝国选举制;;;;;;;;;;;;x
 roman_imperial_government;帝国制;;;;;;;;;;;;x
-roman_imperial_government_desc;帝国制不同于封建制之处在于其对城市地块的偏重，与此同时高度集权的中央朝廷将对全国政治产生极为深重的影响。内阁成员和指挥官根据其威望与能力拥有或大或小的影响力，从而支持或反对帝国的正统继承人。;;;;;;;;;;;;x
-gov_duchy_viceroy_roman;[Liege.PrimaryTitle.GetAdjective]资深执政官;;;;;;;;;;;;x
-gov_king_viceroy_roman;[Liege.PrimaryTitle.GetAdjective]省;;;;;;;;;;;;x
-gov_roman_imperial_government;帝国军政制;;;;;;;;;;;;x
+roman_imperial_government_desc;帝国制不同于封建制之处在于其偏重城市区域，与此同时高度集权的中央朝廷将对全国政治产生极为深重的影响。内阁成员和指挥官根据其威望与能力拥有或大或小的影响力，从而支持或反对帝国的正统继承人……;;;;;;;;;;;;x
+gov_duchy_viceroy_roman;[Liege.PrimaryTitle.GetAdjective]资深执政官领;;;;;;;;;;;;x
+gov_king_viceroy_roman;[Liege.PrimaryTitle.GetAdjective]行省;;;;;;;;;;;;x
+gov_roman_imperial_government;帝国军政独裁制;;;;;;;;;;;;x
 gov_roman_imperial_government_decayed;衰存帝国;;;;;;;;;;;;x
 INTERACTION_REPUBLICS_NEED_IMPRISON_REASON;统治者有一个有效的囚禁理由;;;;;;;;;;;;x
 succ_hre_elective;帝国选候制;;;;;;;;;;;;x
@@ -18206,7 +18206,7 @@ EVTDESC_HF_10104_D;[other_combatant.GetPoisonForgiveness] "[GetClaimDuelDemand]"
 String_spymaster_saw_through_it;"My [This.GetMySpymasterName] tells me that you were seen coating your weapons", [other_combatant.GetTitledFirstName] says, disappointment tinging [other_combatant.GetHerHis] words. I protest, but my [other_combatant.GetRootRelation] has me seized by [other_combatant.GetHerHis] guards.;;;;;;;;;;;;x
 String_they_saw_through_it_themselves;We have not even started, when my [other_combatant.GetRootRelation] waves a hand in dismissal. "I have eyes and ears everywhere, [Root.GetFirstName]. Poison, truly?", [other_combatant.GetSheHe] sighs. I can feel the eyes of the crowd on me, burning with contempt at the idea.;;;;;;;;;;;;x
 String_you_messed_up;The poison should have worked by now, I think to myself, frantically dodging another attack. Am I caught? Did I bungle the ratio? Soon, my opponent has [other_combatant.GetHerHis] blade pointed at my throat.;;;;;;;;;;;;x
-EVTOPTA_HF_10104;I... I will walk away while I can, [other_combatant.GetRootRelation]...;;;;;;;;;;;;x
+EVTOPTA_HF_10104;[other_combatant.GetRootRelation]，我......我会在我该离开的时候离开......;;;;;;;;;;;;x
 EVTOPTB_HF_10104;吾宁可直立而死，休得屈膝而活！;;;;;;;;;;;;x
 EVTOPTC_HF_10104;把我砍翻，我会活在你的心中，[From.GetRootRelation]……！;;;;;;;;;;;;x
 EVTDESC_HFP_10104_D;我[GetClumsilyElegantly]挥舞着我的[GetDuelWeapon]，[GetButAndYet][other_combatant.GetTitledFirstName]一直回避着我的攻击。我的对手似乎毫无疲倦！[other_combatant.GetSheHeCap]抱住了我。我们摔向[Root.GetGroundDesc]。我们在地上扭打着，直到我的[other_combatant.GetRootRelation]举起石头猛击我的太阳穴……;;;;;;;;;;;;x
@@ -18307,7 +18307,7 @@ EVTOPTA_HF_14005;有些人更为敏感，不是吗？;;;;;;;;;;;;x
 EVTDESC_HF_14006_bravery;When [teacher.GetBestName] informed me that we were going to live in the woods for a few nights, I was tempted to refuse. We could be eaten by snakes! By [Root.GetRegionalFerociousAnimal]s! Or attacked by raiders! However, falling asleep in the wilderness, to the wind and rustling of the trees, my fears began to wane. Now, I do not know what it was that I was so afraid of.;;;;;;;;;;;;x
 EVTDESC_HF_14006_ambition;When [teacher.GetTitledFirstName] said we were going to spend several days in a library, my heart sank. "The scribes know details about all the famous warriors" [teacher.GetSheHe] beamed. Thankfully, it only takes a few hours before I find myself enthralled by the stories. "I knew you had it in you", [teacher.GetSheHe] says cheerfully.;;;;;;;;;;;;x
 EVTDESC_HF_14006_patience;I was not excited to watch others play games of [Root.GetWarriorLodgeCompetitionType], and I think [teacher.GetTitledFirstName] could tell. Yet, the patience with which my [teacher.GetRootRelation] narrated the matches to me, explaining each subtle move, was eye-opening. Even seeing fighters who lost one day, return for revenge the next, was inspiring!;;;;;;;;;;;;x
-EVTDESC_HF_14006_diligence;When my [teacher.GetRootRelation] suggested we spend a few afternoons reorganizing [teacher.GetHerHis] armory, I expected to be bored within moments. Yet [teacher.GetTitledFirstName] has managed to keep my interest for several days, and I find myself asking questions I have never even thought of before. I am almost embarrassed by my former attitude.;;;;;;;;;;;;x
+EVTDESC_HF_14006_diligence;当我的[teacher.GetRootRelation]建议我花几个下午整理[teacher.GetHerHis]他的军械库时，我原以为我过不了多久就会打退堂鼓。但[teacher.GetTitledFirstName]几天来一直让我兴致勃勃，而我时常发问一些我从前从未想过的问题。在收获了这么多之后，我想起当初那样抵触的态度不禁感到不好意思。;;;;;;;;;;;;x
 EVTOPTA_HF_14006;谢谢你给我的机会，朋友。;;;;;;;;;;;;x
 EVTOPTB_HF_14006;我无法表达我的感激之情。我能……我能亲吻你吗？;;;;;;;;;;;;x
 EVTOPTB_HF_14006_TT_romance;§Y[teacher.GetTitledFirstName]§!和你一样高兴。;;;;;;;;;;;;x
@@ -18318,13 +18318,13 @@ EVTDESC_HF_14007_ambition;「你想让我们自愿待在图书馆里？」[teach
 EVTDESC_HF_14007_patience;「我们要去看 *别人 *进行[Root.GetWarriorLodgeCompetitionType]？」[teacher.GetTitledFirstName]打消了我的不情愿，示意我坐下。不久，[teacher.GetSheHe]向我讲述了这个游戏，指出了我通常会错过的一些微妙之处和细节。「我……开始明白暴躁脾气会有什么妨碍……」我承认道;;;;;;;;;;;;x
 EVTDESC_HF_14007_diligence;"Surely, your armory must already be in order?" I offer, but [teacher.GetTitledFirstName] shakes [teacher.GetHerHis] head. "This is more about mastering the principles behind the organizing, than the organizing itself" the [teacher.GetManWoman] explains. A few days later, I admit, I have learned some valuable techniques and practices...!;;;;;;;;;;;;x
 EVTOPTA_HF_14007_bravery;这里没什么东西好怕的，是吗？;;;;;;;;;;;;x
-EVTOPTA_HF_14007_ambition;Perhaps I simply never knew of all the things I *could* achieve?;;;;;;;;;;;;x
+EVTOPTA_HF_14007_ambition;也许我根本不知道我「能力」的极限在那？;;;;;;;;;;;;x
 EVTOPTA_HF_14007_patience;我下次会磨练我的耐心，[teacher.GetFirstName]。;;;;;;;;;;;;x
 EVTOPTA_HF_14007_diligence;以后我会努力变得更加勤奋的，[teacher.GetFirstName]。;;;;;;;;;;;;x
 EVTDESC_HF_14008_bravery;[teacher.GetTitledFirstName]把我带进了树林里，而在这里，我们将度过接下来的几个夜晚。「体验下野外生活吧！」[teacher.GetSheHe]对我说。而我则回应道：「我本来是[Root.GetCapitalHolding]的[Root.GetTitle]，好好的过着我的日子，弄成现在这样全得感谢你！ 」。而接下来的几天绝对是我这辈子最不安的经历，不仅有树木间时不时传出来的窸窣响动声，饥寒交迫和食物中毒也是这几天的常态。;;;;;;;;;;;;x
 EVTDESC_HF_14008_ambition;[teacher.GetTitledFirstName] and I spent several days couped up in a dusty old library. Apparently it was supposed to "inspire" me, whatever that means. I am sorry to say it had the opposite effect. "Perhaps we are not that alike, after all", the [teacher.GetManWoman] sighs in disappointment.;;;;;;;;;;;;x
 EVTDESC_HF_14008_patience;[teacher.GetTitledFirstName] forced me to sit and watch all our friends playing games of [Root.GetWarriorLodgeCompetitionType]. And throughout the whole experience, the [teacher.GetManWoman] talked, and talked, trying to explain the game to me. Eventually I had enough and walked out.;;;;;;;;;;;;x
-EVTDESC_HF_14008_diligence;[teacher.GetTitledFirstName] put me to cleaning [teacher.GetHerHis] armory. And everything I did was wrong...! The [teacher.GetManWoman] kept giving me counter-effective instructions and muttering under [teacher.GetHerHis] breath about "impossible", and "why do I even try". If there was a lesson in this, I do not think I understood it.;;;;;;;;;;;;x
+EVTDESC_HF_14008_diligence;[teacher.GetTitledFirstName]让我清理[teacher.GetHerHis]军械库。但我做的事没有一件是不出岔子的……！那个[teacher.GetManWoman]始终给我一些起反效果的指示，又喃喃道「不可能成功的」或是「我为什么要抱希望呢」。即便这其中有什么我能学到的，我想我也不能领会它。;;;;;;;;;;;;x
 EVTOPTA_HF_14008;我不知道为什么我不学习。;;;;;;;;;;;;x
 EVTOPTB_HF_14008;这是[teacher.GetHerHis]错！;;;;;;;;;;;;x
 EVTDESC_HF_14009_bravery;我的[student.GetRootRelation]和我已经从这次露营之旅回来了。[teacher.GetTeachingMomentResult];;;;;;;;;;;;x
@@ -19901,7 +19901,7 @@ arberian;阿尔巴尼亚;;;;;;;;;;;;x
 setting_shattered_succession_all_primogeniture_tooltip;所有的头衔会被指定为长子继承法。\n-最年长的孩子继承所有头衔。\n-你的继承人会喜欢这个法律，但你的其他家族成员对其会有些反感。;;;;;;;;;;;;x
 setting_shattered_succession_all_gavelkind_tooltip;所有的头衔会被指定为均分继承法。\n-头衔会被分配给所有孩子，而长子继承主头衔。\n-你不会因为无领地的儿子而受到威望惩罚。\n-你的直辖领地数量上限会增加§Y30%§!。\n-禁止销毁头衔。\n-该继承法十分受到除长子以外所有孩子的欢迎。;;;;;;;;;;;;x
 setting_shattered_succession_all_elective_gavelkind_tooltip;所有的头衔会被指定为选举均分继承法。\n-头衔会被候选人中第一继承人和其他人选所继承。\n-你不会因为无领地的儿子而受到威望惩罚。\n-你的直辖领地数量上限会增加§Y30%§!。\n-禁止销毁头衔。\n-如果继承了帝国之下的王国，则在条件允许下，新王国会被创立以授予较年幼的孩子。\n-低级的候选继承人总能不经开战就宣告独立。;;;;;;;;;;;;x
-setting_shattered_succession_all_elective_tooltip;所有的头衔会被指定为选举继承法。\n-你和每个更低级的封臣（如果统治者是国王，那么就是公爵）能从他们自己以及统治者合法的孩子或兄弟姐妹当中提名一位作为继承人。\n-公爵在王国和帝国中都可以参选。\n-封臣们喜欢选举继承法，但如果领主自己持有太多选侯头衔，他们将不会赞成选举继承法。;;;;;;;;;;;;x
+setting_shattered_succession_all_elective_tooltip;所有的头衔会被指定为选举继承法。\n - 你和每个更低级的封臣（如果统治者是国王，那么就是公爵）能从他们自己以及统治者合法的孩子或兄弟姐妹当中提名一位作为继承人。\n - 公爵在王国和帝国中都可以选举。\n - 封臣们喜欢选举继承法，但如果领主自己持有太多选侯头衔，他们将不会赞成选举继承法。;;;;;;;;;;;;x
 setting_shattered_succession_all_seniority_tooltip;所有的头衔会被指定为年长者继承法。\n-你家族中最年长的成员会继承所有头衔。\n-你最年长的孩子会非常讨厌这个法律，但其他的家族成员会喜欢。;;;;;;;;;;;;x
 setting_shattered_succession_all_ultimogeniture_tooltip;所有的头衔会被指定为幼子继承法。\n-最小的孩子继承所有头衔。\n-与更为常见的长子继承法相对。;;;;;;;;;;;;x
 setting_shattered_succession_all_tanistry_tooltip;所有的头衔会被指定为凯尔特选任继承法。\n- 你，以及比你低一至二等级的封臣皆可提名继承人——即储副——储副是从你的家族成员中选出来的。\n- 封臣们更愿意从家族的其他支系中选择年长者，尤其是宣称者。;;;;;;;;;;;;x
