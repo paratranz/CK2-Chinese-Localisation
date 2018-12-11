@@ -20,7 +20,7 @@ EVTOPTA_ZE_22520;还不如一个异教徒……;;;;;;;;;;;;x
 EVTDESC_ZE_22600;你听到传言说在国外有一位[target_foreign_voter.GetJobTitle]，有超凡才能并且处理[target_foreign_voter.GetHerHis]事务游刃有余。鉴于你本身的能力经常被同僚质疑，或许你该写封信给这位「[target_foreign_voter.GetBestName]」，向其寻求[target_foreign_voter.GetHerHis]建议？;;;;;;;;;;;;x
 EVTOPTA_ZE_22600;好，我会写信给[target_foreign_voter.GetHerHim]的！;;;;;;;;;;;;x
 EVTOPTB_ZE_22600;不，何必呢……;;;;;;;;;;;;x
-EVTDESC_ZE_22610;致超凡的 [Root.GetTitledFirstName]，\n我是 [From.GetTitledFirstName]，[From.Liege.GetTitledFirstName]的[From.GetJobTitle]。\n作为 [Root.Liege.GetTitledFirstName]内阁中的[Root.GetJobTitle]，你的才能被深远流传。我恳求你给我一些政治方面的建议，使我可以像你一样令人钦佩地为我的领主效劳。\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESC_ZE_22610;致超凡的[Root.GetTitledFirstName]，\n我是[From.GetTitledFirstName]，[From.Liege.GetTitledFirstName]的[From.GetJobTitle]。\n作为[Root.Liege.GetTitledFirstName]内阁中的[Root.GetJobTitle]，你的才能被深远流传。我恳求你给我一些政治方面的建议，使我可以像你一样令人钦佩地为我的领主效劳。\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA_ZE_22610;真是感人至深的请求，我会帮助你的！;;;;;;;;;;;;x
 EVTOPTB_ZE_22610;跟敌人称兄道弟？我看还是算了吧！;;;;;;;;;;;;x
 EVTDESC_ZE_22620;致[GetFromRootCompliment][Root.GetFirstName]，\n\n我愿意给你些建议，使你如何更有效的在内阁中效劳。随信附上一本书，讲述了我自己作为一位[From.GetJobTitle]的经验，希望里面的内容可以帮到你！\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
@@ -177,7 +177,7 @@ EVTOPTY_ZE_6021;[From.GetSheHeCap]应当成为我的顾问。;;;;;;;;;;;;x
 well_mannered;有风度;;;;;;;;;;;;x
 ask_for_pardon;请求原谅;;;;;;;;;;;;x
 ask_for_pardon_desc;以§Y人情§!为交换，使你的领主可能拥有的驱逐、处决、逮捕或剥夺头衔的借口失效。;;;;;;;;;;;;x
-EVTDESC_ZE_8120;阴险的 [pardon_target.GetBestName]以你欠 [pardon_target.GetHerHim] 的人情为理由，强迫你原谅 [pardon_target.GetHerHis] 见不得人的罪恶！你不再可以对 [pardon_target.GetHerHim] 实施敌对行为，除非你想被全国当成暴君。;;;;;;;;;;;;x
+EVTDESC_ZE_8120;阴险的[pardon_target.GetBestName]以你欠[pardon_target.GetHerHim]的人情为理由，强迫你原谅[pardon_target.GetHerHis]见不得人的罪恶！你不再可以对[pardon_target.GetHerHim]实施敌对行为，除非你想被全国当成暴君。;;;;;;;;;;;;x
 EVTOPTA_ZE_8120;原谅它，忘掉它。;;;;;;;;;;;;x
 faction_powerful_vassal_takeover_title;推翻[From.Liege.GetBestName];;;;;;;;;;;;x
 opinion_abdicated;应要求退位;;;;;;;;;;;;x
@@ -246,12 +246,12 @@ EVTDESC_ZE_13624;[From.GetSheHe]在逐渐长大，我觉得可以在学识领域
 EVTDESC_ZE_22800;很显然，[Root.Liege.GetTitledFirstName]的指挥官们有就是一群莽夫，不比暴民强到哪去。另一方面，你恰恰是一个出色的战术家，也是一个好老师！也许你应该提出训练[Root.Liege.GetFirstName]的指挥官们，以换取[Root.Liege.GetHerHis]一份人情？;;;;;;;;;;;;x
 EVTOPTA_ZE_22800;我马上给[Root.Liege.GetHerHim]写封信以提议！;;;;;;;;;;;;x
 EVTOPTB_ZE_22800;不值得我这样做。;;;;;;;;;;;;x
-EVTDESC_ZE_22801;致我的领主，[GetFromRootCompliment] [Root.GetFirstName]，\n我有个念头挥之不去。您的指挥官们缺少一些正规的战术训练。我提议由我来教给 [commander_one.GetFirstName]、[commander_two.GetFirstName]和 [commander_three.GetFirstName]一些优秀的战场策略！\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESC_ZE_22801;致我的领主，[GetFromRootCompliment][Root.GetFirstName]，\n我有个念头挥之不去。您的指挥官们缺少一些正规的战术训练。我提议由我来教给[commander_one.GetFirstName]、[commander_two.GetFirstName]和[commander_three.GetFirstName]一些优秀的战场策略！\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA_ZE_22801;这是一个非常慷慨的提议，我会因此欠下[From.GetHerHim]一份人情！;;;;;;;;;;;;x
 EVTOPTB_ZE_22801;不！[From.GetSheHeCap]只是想要占我的便宜！;;;;;;;;;;;;x
 EVTDESC_ZE_22802;致我忠诚的臣子，[GetFromRootCompliment][Root.GetFirstName]，\n\n您的提议非常慷慨！我欣然接受您的提议，在将来我会记住您这份功绩。\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA_ZE_22802;棒极了！现在我可以利用[From.GetHerHim]了……;;;;;;;;;;;;x
-EVTDESC_ZE_22803;致我的臣子，[GetFromRootInsult] [Root.GetFirstName]，\n\n你的提议是赤裸裸的欺诈。你竟然认为我的指挥官们不称职！这是对他们的无耻污蔑。\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESC_ZE_22803;致我的臣子，[GetFromRootInsult][Root.GetFirstName]，\n\n你的提议是赤裸裸的欺诈。你竟然认为我的指挥官们不称职！这是对他们的无耻污蔑。\n\n此致，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA_ZE_22803;这不是我想要的结果！;;;;;;;;;;;;x
 EVTOPTA_ZE_13620;保持诚实，如果可以的话。;;;;;;;;;;;;x
 EVTOPTB_ZE_13620;善于交际是关键。;;;;;;;;;;;;x

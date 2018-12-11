@@ -38,7 +38,7 @@ DIVORCE_INTERACTION_2;与§Y[Recipient.GetTitledFirstName]§!离婚因为[Recipi
 EVTOPTA301_DESC;§Y[From.GetFirstName]§!被宣告为拥有完全继承权的合法[From.GetSonDaughter]。\n;;;;;;;;;;;;x
 EVTOPTB301_DESC;§Y[From.GetFirstName]§!仍然是不合法的私生子，但被承认为我的[From.GetSonDaughter]并能与别的贵族联姻结盟。一旦[From.GetSubjectPronoun]有了自己的孩子，一个新的家族将会从这一支系中开创出来。\n;;;;;;;;;;;;x
 EVTOPTC301_DESC;§Y[From.GetFirstName]§!被指控是一个不知其父的野种，与我毫无半点正式关系。\n;;;;;;;;;;;;x
-EVTDESC404_KF;我的 [GetFromRelation] [From.GetFirstName]怀孕了，然而我不可能是孩子的父亲！全国都在传这个八卦——所有人都知道 [From.FatherOfUnborn.GetTitledName]才是孩子真正的父亲。;;;;;;;;;;;;x
+EVTDESC404_KF;我的[GetFromRelation][From.GetFirstName]怀孕了，然而我不可能是孩子的父亲！全国都在传这个八卦——所有人都知道[From.FatherOfUnborn.GetTitledName]才是孩子真正的父亲。;;;;;;;;;;;;x
 EVTDESC404_2;我的[GetFromRelation][From.GetFirstName]告诉我她怀孕了，但那是不可能的，难道不是吗？;;;;;;;;;;;;x
 EVTOPTB404;谴责他们两个为叛徒！;;;;;;;;;;;;x
 EVTDESC21001;我已经仔细考虑过这件事了，我不可能是我的[GetFromRelation][From.GetFirstName]肚子里的孩子的父亲。一想到它在她的肚子里一天一天地长大，我就无法安然入睡。我必须要把这件事平息掉！;;;;;;;;;;;;x
@@ -180,7 +180,7 @@ EVTDESC_WOL_55_F_HOMO;就在前几天——我如常地潜伏了起来——我�
 EVTDESC_WOL_55_PRIEST;就在前几天——我如常地潜伏了起来——我把[FromFrom.GetTitledName]和我的[GetFromRelation][From.GetFirstName]抓个现行！一名神的仆人！他们并没有注意到我，但我依然感到非常震惊！;;;;;;;;;;;;x
 EVTDESC_WOL_55_AGE_YOUNG;就在前几天——我如常地潜伏了起来——我把[FromFrom.GetTitledName]和我的[GetFromRelation][From.GetFirstName]抓个现行！真不害臊，[From.GetSubjectPronoun]都能当[FromFrom.GetPossPronoun][From.GetSonDaughter]了！他们并没有注意到我，但我依然感到非常震惊！;;;;;;;;;;;;x
 EVTDESC_WOL_55_AGE_OLD;就在前几天——我如常地潜伏了起来——我把[FromFrom.GetTitledName]和我的[GetFromRelation][From.GetFirstName]抓个现行！真不害臊，[From.GetSubjectPronoun]都能当[FromFrom.GetPossPronoun][From.GetFatherMother]了！他们并没有注意到我，但我依然感到非常震惊！;;;;;;;;;;;;x
-EVTDESC_WOL_55_F_MARRIED;就在前几天，我像以往一样潜伏了起来。我将 [FromFrom.GetTitledName]和我的 [GetFromRelation] [From.GetFirstName]抓了个现行！他们并没有注意到我，但是我仍然感到非常震惊！ [Root.Religion.GetRandomGodName]在上，[From.GetSubjectPronounCap] 可是个已婚的 [From.GetManWoman] ！;;;;;;;;;;;;x
+EVTDESC_WOL_55_F_MARRIED;就在前几天，我像以往一样潜伏了起来。我将[FromFrom.GetTitledName]和我的[GetFromRelation][From.GetFirstName]抓了个现行！他们并没有注意到我，但是我仍然感到非常震惊！ [Root.Religion.GetRandomGodName]在上，[From.GetSubjectPronounCap]可是个已婚的[From.GetManWoman] ！;;;;;;;;;;;;x
 EVTOPTA_WOL_55;真不要脸！他们必须被曝光！;;;;;;;;;;;;x
 EVTOPTA_WOL_55_UNHOLY;邪恶的罪人！他们必须被曝光！;;;;;;;;;;;;x
 EVTOPTB_WOL_55;血肉之躯是脆弱的。既往不咎。;;;;;;;;;;;;x
@@ -195,7 +195,7 @@ EVTOPTB_WOL_56;我宁愿忍受流言蜚语！;;;;;;;;;;;;x
 EVTTOOLTIP_WoL_57;钱被送到了[This.GetBestName];;;;;;;;;;;;x
 EVTDESC_WOL_57;致你这个[GetFromRootInsult][Root.GetFirstName]！给你，拿着我的钱。如果你不学会闭上你的嘴，我将会对你做你想都不敢想的事情！\n\n[From.GetFirstName];;;;;;;;;;;;x
 EVTOPTA_WOL_57;窥探别人也能获得如此奖励！;;;;;;;;;;;;x
-EVTDESC_WOL_59;致[GetFromFromRootInsult] [Root.GetFirstName]。这算什么变态玩笑？[From.GetFirstName]的品德没人能够质疑！你就为所欲为吧，反正无论如何都没人会相信你的谎言。\n\n[FromFrom.GetFirstName];;;;;;;;;;;;x
+EVTDESC_WOL_59;致[GetFromFromRootInsult][Root.GetFirstName]。这算什么变态玩笑？[From.GetFirstName]的品德没人能够质疑！你就为所欲为吧，反正无论如何都没人会相信你的谎言。\n\n[FromFrom.GetFirstName];;;;;;;;;;;;x
 EVTOPTA_WOL_59;很好。我喜欢这样！;;;;;;;;;;;;x
 EVTOPTB_WOL_59;虽然这值得一试，但我没有那么残忍。;;;;;;;;;;;;x
 EVTTITLE_WOL_60;通奸丑闻;;;;;;;;;;;;x
@@ -374,7 +374,7 @@ EVTOPTB_WOL_352_LEWD;多么无礼！我难以想象有这样猥亵的词语存�
 EVTOPTB_WOL_352_LOVE;爱的表白？多么幼稚的废话！;;;;;;;;;;;;x
 EVTOPTB_WOL_352_BREATH;欲望淹没了我，但我必须要坚强！;;;;;;;;;;;;x
 EVTDESC_WOL_353;[From.GetFirstName]离开了我，在离开之前一边红着脸一边结结巴巴地说抱歉。;;;;;;;;;;;;x
-EVTDESC_WOL_353_CR;[From.GetFirstName]带着震惊和厌恶的表情猛地离开我，并惊呼道「看在 [From.Religion.GetRandomGodName]的份上，[Root.GetFirstName]，我可是你的 [GetFromRelation]！」;;;;;;;;;;;;x
+EVTDESC_WOL_353_CR;[From.GetFirstName]带着震惊和厌恶的表情猛地离开我，并惊呼道「看在[From.Religion.GetRandomGodName]的份上，[Root.GetFirstName]，我可是你的[GetFromRelation]！」;;;;;;;;;;;;x
 EVTDESC_WOL_353_OLD_M;[From.GetFirstName]猛地远离我并露出了吃惊的表情，感叹道「[Root.GetTitledFirstNameNoRegnal]！你老的足以做我的父亲！」然后[From.GetSubjectPronoun]咯咯地笑着跑开了。;;;;;;;;;;;;x
 EVTDESC_WOL_353_OLD_F;[From.GetFirstName]猛地远离我并露出了吃惊的表情，感叹道「抱歉 [Root.PrimaryTitle.GetRulerTitle]，但你对我而言太老了！」然后匆匆离开了。;;;;;;;;;;;;x
 EVTDESC_WOL_353_YOUNG;[From.GetFirstName]慢慢地摇了摇[From.GetPossPronoun]脑袋，[From.GetSubjectPronoun]笑嘻嘻地轻轻把我推开。「抱歉[Root.GetLadLass]，关于[From.GetMenWomen]你仍然有很多东西需要学习！」;;;;;;;;;;;;x
@@ -458,7 +458,7 @@ EVTTOOLTIP_WoL_1006;[This.GetFirstName]感到不快;;;;;;;;;;;;x
 EVTTOOLTIP_WoL_1009;[This.GetFirstName]感到不快而且可能有些反应过度……;;;;;;;;;;;;x
 EVTTOOLTIP_WoL_1022;[This.GetFirstName]回应了我的谎言……;;;;;;;;;;;;x
 EVTTOOLTIP_WoL_1010;[This.GetFirstName]被操纵了;;;;;;;;;;;;x
-EVTDESC_WOL_1006;我的 [GetFromRelation][From.GetFirstName]含泪承认[From.GetPossPronoun]与[FromFromFrom.GetTitledFirstNameNoRegnal]有染并下跪乞求我原谅[From.GetPossPronoun]行为……;;;;;;;;;;;;x
+EVTDESC_WOL_1006;我的[GetFromRelation][From.GetFirstName]含泪承认[From.GetPossPronoun]与[FromFromFrom.GetTitledFirstNameNoRegnal]有染并下跪乞求我原谅[From.GetPossPronoun]行为……;;;;;;;;;;;;x
 EVTOPTA_WOL_1006;果然如此，我感到非常失望。;;;;;;;;;;;;x
 EVTOPTB_WOL_1006;绝不原谅！公开谴责他们！;;;;;;;;;;;;x
 EVTDESC_WOL_1007;我情人[FromFrom.GetTitledFirstNameNoRegnal]善妒的[GetFromFromVsFromRelation]公开谴责我们的通奸行为！;;;;;;;;;;;;x
@@ -542,7 +542,7 @@ EVTOPTA_WOL_1038;[Root.Religion.GetRandomGodNameCap]公正地评判了我们。�
 EVTOPTB_WOL_1038;诅咒[FromFrom.GetObjectPronoun]！我一定会复仇的！;;;;;;;;;;;;x
 EVTOPTC_WOL_1038;[From.GetFirstName]，我羞辱了你……;;;;;;;;;;;;x
 EVTDESC_WOL_1039;经过几次试探交手，我意识到[From.GetTitledFirstNameNoRegnal]不精通武器。我轻松地打败了[From.GetObjectPronoun]，证明了我和我的[GetFromFromFromFromRelation][FromFromFromFrom.GetFirstName]的清白。;;;;;;;;;;;;x
-EVTDESC_WOL_1039_WOUND;和[From.GetTitledFirstNameNoRegnal]的决斗是场苦战，但最后我证明了我是个更强的[Root.GetManWoman]。尽管[From.GetSubjectPronoun]砍伤了我，但最后我依然证明了我和我的[GetFromFromFromFromRelation] [FromFromFromFrom.GetFirstName]的清白。;;;;;;;;;;;;x
+EVTDESC_WOL_1039_WOUND;和[From.GetTitledFirstNameNoRegnal]的决斗是场苦战，但最后我证明了我是个更强的[Root.GetManWoman]。尽管[From.GetSubjectPronoun]砍伤了我，但最后我依然证明了我和我的[GetFromFromFromFromRelation][FromFromFromFrom.GetFirstName]的清白。;;;;;;;;;;;;x
 EVTDESC_WOL_1039_MAIM;[From.GetTitledFirstNameNoRegnal]证明自己是一个强大的对手。虽然我最后获得了胜利，但我失去了三根手指同时受了一些伤。但我最终证明了我和我的[GetFromFromFromFromRelation][FromFromFromFrom.GetFirstName]的清白！;;;;;;;;;;;;x
 EVTDESC_WOL_1040;我英勇的[GetFromRelation][From.GetTitledFirstNameNoRegnal]在决斗中击败了[GetFromFromRelation][FromFrom.GetFirstName]，从而证明了我们的清白。;;;;;;;;;;;;x
 EVTDESC_WOL_1040_WOUND;我英勇的[GetFromRelation][From.GetTitledFirstNameNoRegnal]在决斗中击败了[GetFromFromRelation][FromFrom.GetFirstName]，从而证明了我们的清白。;;;;;;;;;;;;x
