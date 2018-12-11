@@ -117,11 +117,15 @@
 }
 248748 = {
   name = "Hummay"
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 1000228558
+  disallow_random_traits = yes
   trait = ambitious
+  trait = brave
+  trait = zealous
+  trait = holy_warrior
   trait = scholarly_theologian
   1050.1.1 = {
     birth = yes
@@ -134,57 +138,57 @@
         owner = ROOT
         troops = {
           light_infantry = {
-            300
-            300
+            600
+            600
           }
           light_cavalry = {
-            100
-            100
+            200
+            200
           }
           archers = {
-            200
-            200
+            400
+            400
           }
         }
-        attrition = 1.0
+        attrition = 0.25
       }
       spawn_unit = {
         province = 1735
         owner = ROOT
         troops = {
           light_infantry = {
-            300
-            300
+            600
+            600
           }
           light_cavalry = {
-            100
-            100
+            200
+            200
           }
           archers = {
-            200
-            200
+            400
+            400
           }
         }
-        attrition = 1.0
+        attrition = 0.25
       }
       spawn_unit = {
         province = 1735
         owner = ROOT
         troops = {
           light_infantry = {
-            300
-            300
+            600
+            600
           }
           light_cavalry = {
-            100
-            100
+            200
+            200
           }
           archers = {
-            200
-            200
+            400
+            400
           }
         }
-        attrition = 1.0
+        attrition = 0.25
       }
     }
   }
@@ -199,7 +203,7 @@
 }
 248749 = {
   name = "杜纳马"  # Dunama
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248748
@@ -212,7 +216,7 @@
 }
 248750 = {
   name = "阿卜杜拉"  # Abdallah
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248749
@@ -225,7 +229,7 @@
 }
 248751 = {
   name = "Bir"
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248750
@@ -238,7 +242,7 @@
 }
 248752 = {
   name = "Bikorom"
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248751
@@ -251,7 +255,7 @@
 }
 248753 = {
   name = "Salmama"
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248752
@@ -264,7 +268,7 @@
 }
 248754 = {
   name = "杜纳马"  # Dunama
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248753
@@ -277,7 +281,7 @@
 }
 248755 = {
   name = "Kaday"
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248754
@@ -290,7 +294,7 @@
 }
 248756 = {
   name = "Kashim Biri"
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248755
@@ -303,7 +307,7 @@
 }
 248757 = {
   name = "易卜拉欣"  # Ibrahim
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248756
@@ -316,7 +320,7 @@
 }
 248758 = {
   name = "阿卜杜拉"  # Abdallah
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248757
@@ -329,7 +333,7 @@
 }
 248759 = {
   name = "Salmama"
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248758
@@ -342,7 +346,7 @@
 }
 248760 = {
   name = "Kuri Ghana"
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248758
@@ -355,7 +359,7 @@
 }
 248761 = {
   name = "Kuri Kura"
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248758
@@ -368,7 +372,7 @@
 }
 248762 = {
   name = "穆罕默德"  # Muhammad
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248758
@@ -381,7 +385,7 @@
 }
 248763 = {
   name = "Idris Nigalemi"
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248764
@@ -394,7 +398,7 @@
 }
 248764 = {
   name = "Ibrahim Nigale"
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248756
@@ -407,7 +411,7 @@
 }
 248765 = {
   name = "Dawud Nigalemi"
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248764
@@ -420,7 +424,7 @@
 }
 248766 = {
   name = "Uthman"
-  dynasty = 1059973
+  dynasty = 1959974
   religion = "sunni"
   culture = "kanuri"
   father = 248765
@@ -640,7 +644,7 @@
   }
 }
 248834 = {
-  name = "Adam"
+  name = "亚当"  # Adam
   dynasty = 1059957
   religion = "sunni"
   culture = "kanuri"
