@@ -745,17 +745,17 @@ WELCOME_PLAY_NORMAL_GAME;不，谢谢;;;;;;;;;;;;x
 opinion_poor_accommodations;糟糕的住宿;;;;;;;;;;;;x
 custom_tooltip_choose_patron_diety;选择一个守护神;;;;;;;;;;;;x
 CB_NAME_FORCE_VASSALIZATION;强制附庸;;;;;;;;;;;;x
-WAR_NAME_FORCE_VASSALIZATION;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$附庸战争;;;;;;;;;;;;x
+WAR_NAME_FORCE_VASSALIZATION;$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$附庸战争;;;;;;;;;;;;x
 force_vassalization_desc;§Y$TARGET$§!现在实力弱小且需要保护，在你的治下他们会生活得更好！通过花费大量的§Y威望§!，只要他们的§Y头衔阶层§!低于你，领土面积小于或等于 §Y30§!，并且此地的统治者属于与你相同的§Y宗教组§!或相同的§Y文化组§!，你就可以发动战争强令他们成为你的附庸。;;;;;;;;;;;;x
 dejure_duchy_claim_desc;§Y$TITLE$§!是§Y$CLAIMANT$§!的一个法理封臣。我们可以消耗一大笔§Y威望§!来发动战争夺取整块公国！;;;;;;;;;;;;x
 CB_NAME_GREATREALMCONFLICT;对[Title.GetBaseName]的伟大征服;;;;;;;;;;;;x
-WAR_NAME_GREATREALMCONFLICT;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$争夺$OTHER_TITLE$的伟大征服;;;;;;;;;;;;x
+WAR_NAME_GREATREALMCONFLICT;$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$争夺$OTHER_TITLE$的伟大征服;;;;;;;;;;;;x
 great_realm_conflict_desc;你国力雄厚，§Y$TARGET$§!也是如此——是时候向他们展示谁才是最强之人！通过消耗一大笔§Y威望§!和§Y虔诚§!，你可以以一整个王国为目标而宣战，只要他们不比你弱小。;;;;;;;;;;;;x
 CB_NAME_DUCALCOUNTYCONQUEST;[Title.GetBaseName]公国征服;;;;;;;;;;;;x
-WAR_NAME_DUCALCOUNTYCONQUEST;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$征服公国$OTHER_TITLE$的战争;;;;;;;;;;;;x
+WAR_NAME_DUCALCOUNTYCONQUEST;$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$征服公国$OTHER_TITLE$的战争;;;;;;;;;;;;x
 ducal_county_conquest_desc;你拥有§Y$TARGET$§!公国的宣称。只要这个公国无人持有，你就可以花费§Y虔诚§!和§Y金钱§!，发起获取该公国下属土地的战争。这宣战理由只提供给伯爵或公爵级的角色。;;;;;;;;;;;;x
 CB_NAME_LIBERATE_RELIGION;对[Title.GetBaseName]的宗教解放战争;;;;;;;;;;;;x
-WAR_NAME_LIBERATE_RELIGION;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$宗教解放[Title.GetBaseName]战争;;;;;;;;;;;;x
+WAR_NAME_LIBERATE_RELIGION;$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$宗教解放[Title.GetBaseName]战争;;;;;;;;;;;;x
 liberate_religion_desc;§Y$TARGET$§! 是个异教徒，但是他领地里的人民却尊崇真正的信仰。我们应当让那些受压迫的人得到解放！;;;;;;;;;;;;x
 religious_liberation_cb_succ_tip;§Y[This.GetFullBaseName]§!将会被来自§Y[Root.Religion.GetName]§!信仰的新领主所解放！这位领主将会成为您的§Y朝贡国§!;;;;;;;;;;;;x
 EVTDESC_JD_2100;当我听说[liberate_target.GetBestName]领地内的[Root.Religion.GetName]信徒们的灵魂受到压迫时，心中顿时充满了火热与痛苦。虽然[Root.Religion.GetHighGodName]定意要让他所有真信徒能自由地决定自己的命运，但如果[Root.Religion.GetHighGodName]专注神圣的事业，那我是否应该执行[Root.Religion.GetHighGodName]的旨意？;;;;;;;;;;;;x
@@ -764,7 +764,7 @@ EVTOPTB_JD_2100;我有更好的事情做……;;;;;;;;;;;;x
 cb_opportunity_liberate;获得一个§Y宗教解放§!宣战理由，可用于你选择的任何有效目标。;;;;;;;;;;;;x
 cb_opportunity_liberate_deny;因为你决定把时间花在别的地方，所以不再会有这种机会。;;;;;;;;;;;;x
 CB_NAME_HOSTAGES;解救俘虏;;;;;;;;;;;;x
-WAR_NAME_HOSTAGES;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$解救俘虏战争;;;;;;;;;;;;x
+WAR_NAME_HOSTAGES;$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$解救俘虏战争;;;;;;;;;;;;x
 EVTDESC_JD_2000;那个[GetRootFromInsult][From.GetBestName]已经以解救人质这个未经考虑的借口对我悍然发动战争，而那些人本是被合法扣押的！这恰好给了我处决他们的理由，如果我愿意的话……;;;;;;;;;;;;x
 EVTOPTA_JD_2000;这场战争必须结束，提议放他们回国。;;;;;;;;;;;;x
 EVTOPTB_JD_2000;我必须杀鸡儆猴，处死[chosen_captive.GetFirstName]。;;;;;;;;;;;;x
@@ -788,14 +788,14 @@ obj_strengthen_religion_desc;[This.GetTitledFirstName]想要看到§Y[Root.Relig
 tooltip_obj_strengthen_religion;为了完成这个野心你必须完成以下任务中的 §Y3§! 项：\n§Y*§! 赢得一场圣战\n§Y*§! 防御一场圣战\n§Y*§! 建筑一座神殿\n§Y*§! 让某个省份转教成[This.Religion.GetName]\n§Y*§! 完成一次特殊机遇\n注意同一个任务可以多次完成。\n\n目前完成的任务数：§G[This.strengthen_religion.GetValue]§!;;;;;;;;;;;;x
 strengthen_religion_ambition;宗教捍卫者;;;;;;;;;;;;x
 CB_NAME_UNJUST_COUNTY_CONQUEST;[Title.GetBaseName]边界争端;;;;;;;;;;;;x
-WAR_NAME_UNJUST_COUNTY_CONQUEST;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$争夺$OTHER_TITLE$的边界争端;;;;;;;;;;;;x
+WAR_NAME_UNJUST_COUNTY_CONQUEST;$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$争夺$OTHER_TITLE$的边界争端;;;;;;;;;;;;x
 unjust_conquest_desc;你可以选择去入侵任何与你接壤的伯爵领。但是要注意在没有宣称的情况下发动侵略将要付出沉重的代价——当你攻击同宗教的领主时所付出的代价是最高的，其次是攻击与你在同一宗教组的，最次但代价依然沉重的是攻击其他宗教组的领主。;;;;;;;;;;;;x
 opinion_declared_unjust_conquest;发动了非正义战争;;;;;;;;;;;;x
 custom_opinion_hit_tooltip;所有在你§Y境内§!属于你的§Y宗教组§!的§Y有地角色§!以及§Y[From.GetTitledFirstName]§!境内对你的看法将改变 §R-15§! 持续 §Y10§! 年。§Y（发动不义战争）§!;;;;;;;;;;;;x
 custom_opinion_hit_tooltip_enemy;所有在你§Y境内§!信奉§Y[From.Religion.GetName]§!的§Y有地角色§!以及§Y[From.GetTitledFirstName]§!境内对你的看法将改变 §R-15§! 持续 §Y10§! 年。§Y（发动不义战争）§!;;;;;;;;;;;;x
 offmap_submission_desc;天朝可以通过战争迫使他国屈从。;;;;;;;;;;;;x
 CB_NAME_OFFMAP_SUBMISSION;服从;;;;;;;;;;;;x
-WAR_NAME_OFFMAP_SUBMISSION;$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$归顺战争;;;;;;;;;;;;x
+WAR_NAME_OFFMAP_SUBMISSION;$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$归顺战争;;;;;;;;;;;;x
 tributary_offmap_cb_desc;天朝可以通过战争迫使他国朝贡。;;;;;;;;;;;;x
 TRIBUTARY_OFFMAP_NAME;帝国朝贡国;;;;;;;;;;;;x
 TRIBUTARY_OFFMAP_PLURAL;帝国朝贡国;;;;;;;;;;;;x
@@ -2229,7 +2229,7 @@ silk_shroud;丝制寿衣;;;;;;;;;;;;x
 water_clock;漏刻;;;;;;;;;;;;x
 water_clock_desc;漏刻是在中国古代发展起来的，它是一种通过水的运动来监测时间的方法。;;;;;;;;;;;;x
 jian_sword;剑;;;;;;;;;;;;x
-jian_sword_desc;剑是中国常用的双刃剑，对于任何有抱负的战士来说，剑都是一种有力而可靠的武器。;;;;;;;;;;;;x
+jian_sword_desc;中国常用的双刃剑，对于任何有抱负的战士来说，剑都是一种有力而可靠的武器。;;;;;;;;;;;;x
 classic_of_poetry;诗经;;;;;;;;;;;;x
 classic_of_poetry_desc;《诗经》是五经之一，据说是孔子自己编撰的，是现存最古老的中国诗歌集。;;;;;;;;;;;;x
 EVT_DESC_JD_60002_A;一天早晨，当我醒来的时候，我发现一位来自[offmap_china.GetFullName]的使者抵达了我的宫廷，并有一些话想要像我传达。「向[GetChineseComplimentAdjective][Root.GetTitledFirstName]问好。我是[From.GetFullName]，我以[offmap_china.Ruler.GetTitledFirstName]的名义，携带来自中原的珍贵之物前来进行贸易与交换，你对这些感兴趣吗？」;;;;;;;;;;;;x
@@ -2290,7 +2290,7 @@ EVTOPTB_MNM_6995;[satanists_recruiter.GetDWDevil]的力量是多么强大啊…�
 title_court_jester_desc;宫廷小丑被留在领主左右以娱乐廷中大众。在宫廷里也被视作丑角，总之不是什么德高望重的臣属。;;;;;;;;;;;;x
 monastic_order_education_power_tt;能力：§Y[From.GetMOSaint]的智慧§!\n你的被监护人在教育中有机会增加属性点，在成人时，还有机会失去恶劣的特质并获得美德。;;;;;;;;;;;;x
 EVT_DESCB_MNM_4301;我决定今天独自与[From.GetFirstName]相处，因为我向人们传达了[GetMOGod]以及他们应该如何根据[GetMOCode]尝试过自己的生活。[From.GetFirstName]始终都很专心，我相信[From.GetSheHe]今天已经学到了一些关于[GetMOGod]和[Root.Society.GetName]的宝贵经验。;;;;;;;;;;;;x
-EVT_DESCC_MNM_4301;我今天把[From.GetFirstName]带到当地的[GetMOBuilding]，在那里[From.GetSheHe]见到了我许多做[GetMOPenanceMeditation]的兄弟姐妹，他们礼貌地迎接[From.GetHerHim]。当我们离开[GetMOBuilding]我的[From.GetRootRelation]对今天遇到的所有[From.GetSheHe]说了「[GetMOFarewell]」。我对[FromGetHerHis]对待[GetGOSaint]道路的态度感到非常自豪。;;;;;;;;;;;;x
+EVT_DESCC_MNM_4301;我今天把[From.GetFirstName]带到当地的[GetMOBuilding]，在那里[From.GetSheHe]见到了我许多做[GetMOPenanceMeditation]的兄弟姐妹，他们礼貌地迎接了[From.GetHerHim]。当我们离开[GetMOBuilding]时，我的[From.GetRootRelation]对[From.GetSheHe]今天遇到的所有人说「[GetMOFarewell]」。我对[From.GetHerHis]对待[GetMOSaint]道路的态度感到非常自豪。;;;;;;;;;;;;x
 EVT_OPTA_MNM_4301;[From.GetSheHeCap]是个极好的学生！;;;;;;;;;;;;x
 EVT_DESC_MNM_4303;我的前被监护人[From.GetTitledFirstName]完成了[From.GetHerHis]学业，在我们最后的谈话里提到了遵从[GetMOCode]并在[GetMOGod]的庇佑下提升自己。我曾激励[From.GetHerHim]为了[From.GetHerselfHimself]而做这件事，[From.GetSheHe]接受了我的建议，我在想[From.GetSheHe]是否有什么进展。;;;;;;;;;;;;x
 EVT_OPTA_MNM_43003;我将询问[From.GetHerHim]进展如何。;;;;;;;;;;;;x
