@@ -287,7 +287,7 @@ RULE_MOVEMENT_LOCK;移动锁定;;;;;;;;;;;;x
 RULE_MOVEMENT_LOCK_ON_DESC;一旦军队走完前往下一省份路程的一半，行动便无法中止了。不过，你仍可以取消或者更改之后的行军路线。;;;;;;;;;;;;x
 RULE_MOVEMENT_LOCK_OFF_DESC;无行动锁定;;;;;;;;;;;;x
 MTTH_GAIN_WITH_LOC;$NAME$：$VAL|+=0$;;;;;;;;;;;;x
-DECAYS_ON;衰败$DATE|Y$;;;;;;;;;;;;x
+DECAYS_ON;$DATE|Y$失效;;;;;;;;;;;;x
 STACKING_MODIFIER_COUNT;(x$COUNT$);;;;;;;;;;;;x
 STACKING_TOTAL_EFFECT;§Y综合效果：§!;;;;;;;;;;;;x
 alert_coronation_needed_instant;§Y统治者尚未加冕§!;;;;;;;;;;;;x
@@ -6553,7 +6553,7 @@ beatified_desc;这位角色作为虔诚的典范被教会列入真福。;;;;;;;;
 TITLEHF.40025;天堂里的圣人;;;;;;;;;;;;x
 EVTDESC_HF_40025;[saint_person.GetTitledFirstName]活过了虔诚而节制的一生，不愧为[saint_person.Religion.GetGroupName]的真正楷模。[canonizer_person.GetBestName]隆重地宣布将封[saint_person.GetFirstNameWithNick]为圣人。人们细数着这位圣人一生中所作的壮举，传颂着[saint_person.GetSheHe]伟大的传说。\n\n[RandomSaintMiracle]\n\n对于他的家族而言，这无疑是莫大的荣耀，我们都备受鼓舞，来成为同[saint_person.GetHerHim]一样的虔信者。愿[saint_person.GetHerHis]姓名永世蒙福。;;;;;;;;;;;;x
 EVTOPTA_HF_40025;这对我们所有人而言是一个真正的榜样。;;;;;;;;;;;;x
-TT_CANONIZATION_FAMILY;[saint_person.GetFirstName]已经成为了一名圣者，所有拥有[saint_person.GetHerHis]§Y血脉§!的人都会受益。;;;;;;;;;;;;x
+TT_CANONIZATION_FAMILY;[saint_person.GetFirstName]已经成为了一名人尽皆知的圣人，所有拥有[saint_person.GetHerHis]§Y血脉§!的人都会受益。;;;;;;;;;;;;x
 TITLEHF.40055;一位……圣人？;;;;;;;;;;;;x
 EVTDESCA_HF_40055;[saint_person.GetTitledFirstName]死于[saint_person.GetDeathDate]，对于其他[saint_person.Religion.GetGroupName]的人来说[saint_person.GetHerHis]一生自始至终并没有多少鼓舞人心的事情。尽管如此[bishopric_holder.GetTitledFirstName]还是将他们召集在一起颂扬[saint_person.GetHerHis]荣光。\n\n谈及关于[saint_person.GetFirstName]的虔诚生活尽管有[saint_person.GetHerHis]不足之处，[bishopric_holder.GetTitledFirstName]还是把[saint_person.GetHerHis]名字写进了以前的善男信女之中。\n\n整场闹剧对所有与会者来说都令人难堪，他们甚至敢把[saint_person.GetDynName]比作圣伯多禄和圣奥思定。教会将会怎么说呢？;;;;;;;;;;;;x
 EVTOPTA_HF_40055;这让我们所有人都感到难堪。;;;;;;;;;;;;x
@@ -11760,8 +11760,8 @@ RULE_DYNAMIC_CRUSADER_STATES_LIMITED;只有玩家可以创建动态十字军国�
 RULE_DYNAMIC_CRUSADER_STATES_OFF;玩家和AI都不可以创建动态十字军国家。;;;;;;;;;;;;x
 RULE_SHEPHERDS_CRUSADE_ON;牧羊人十字军已启用。;;;;;;;;;;;;x
 RULE_SHEPHERDS_CRUSADE_OFF;牧羊人十字军未启用。;;;;;;;;;;;;x
-RULE_FOURTH_CRUSADE_ON;第四次十字军东征已启用。;;;;;;;;;;;;x
-RULE_FOURTH_CRUSADE_OFF;第四次十字军东征未启用。;;;;;;;;;;;;x
+RULE_FOURTH_CRUSADE_ON;第四次十字军事件已启用。;;;;;;;;;;;;x
+RULE_FOURTH_CRUSADE_OFF;第四次十字军事件未启用。;;;;;;;;;;;;x
 RULE_CHILDRENS_CRUSADE_ON;儿童十字军已启用。;;;;;;;;;;;;x
 RULE_CHILDRENS_CRUSADE_OFF;儿童十字军未启用。;;;;;;;;;;;;x
 RULE_NORTHERN_CRUSADE_ON;北方十字军已启用。;;;;;;;;;;;;x
@@ -17991,9 +17991,9 @@ hire_teutonic_honor_guard_cooldown_TT;最近雇佣了一支条顿荣耀亲卫队
 northern_crusade_correct_kingdom_TT;王国内部有领土是条顿骑士团的目标;;;;;;;;;;;;x
 teutonic_order_at_peace_TT;§Y[d_teutonic_order.Holder.GetTitledName]§!不在战争中;;;;;;;;;;;;x
 teutonic_state_at_peace_TT;§Y[k_teutonic_state.Holder.GetTitledName]§!不在战争中;;;;;;;;;;;;x
-TT_PAGAN_CANONIZATION_FAMILY;[saint_person.GetFirstName]已经成为了一位受到祝福的祖先，[saint_person.GetHerHis]每一个§Y血脉§!后裔都会得到好处。;;;;;;;;;;;;x
+TT_PAGAN_CANONIZATION_FAMILY;[saint_person.GetFirstName]已经成为了一位广为人知的往圣祖灵，所有拥有[saint_person.GetHerHis]§Y血脉§!的人都会受益。;;;;;;;;;;;;x
 pope_cannonize_choice_TT;[saint_person.GetTitledName]会被封为一个宗教信仰的§Y圣人§!。[saint_person.GetHerHisCap]家族显然会感激这样的姿态。;;;;;;;;;;;;x
-pagan_pope_cannonize_choice_TT;[saint_person.GetTitledName]会被封为一个宗教信仰的§Y往圣祖灵§!。[saint_person.GetHerHisCap]§Y家族§!显然会感激这样的姿态。;;;;;;;;;;;;x
+pagan_pope_cannonize_choice_TT;[saint_person.GetTitledName]会被封为一个宗教信仰的§Y往圣祖灵§!。[saint_person.GetHerHisCap]§Y家族§!显然会感激此举。;;;;;;;;;;;;x
 emperor_has_hre;§Y[e_hre.Holder.GetTitledName]§!的的直属封臣;;;;;;;;;;;;x
 hellenic_hermetic_join_tooltip;公开信仰§Y希腊多神教§!;;;;;;;;;;;;x
 zunist_hermetic_join_tooltip;公开信仰§Y尊日神教§!;;;;;;;;;;;;x
@@ -18060,7 +18060,7 @@ gov_order;宗教骑士团;;;;;;;;;;;;x
 gov_order_shia;阿萨辛教团;;;;;;;;;;;;x
 blessed_bloodline_name;[saint_person.GetDynName]的蒙眷之血;;;;;;;;;;;;x
 blessed_bloodline_description;[saint_person.GetSheHeCap]被誉为信仰的典范，并将在未来许多年激励我们所有人民。;;;;;;;;;;;;x
-blessed_ancestor;Blessed Ancestor;;;;;;;;;;;;x
+blessed_ancestor;往圣祖灵;;;;;;;;;;;;x
 blessed_ancestor_desc;一个受祝福的古老祖先，被[GetHerHis]后裔崇拜。;;;;;;;;;;;;x
 reconquista_duchy_name;[Root.GetOnlyDynastyName][This.GetBaseName];;;;;;;;;;;;x
 RECONQUISTA_ADVENTURE_TITLE_NAME;失地收复军;;;;;;;;;;;;x
