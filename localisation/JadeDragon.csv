@@ -790,7 +790,7 @@ tooltip_obj_strengthen_religion;为了完成这个野心你必须完成以下任
 strengthen_religion_ambition;宗教捍卫者;;;;;;;;;;;;x
 CB_NAME_UNJUST_COUNTY_CONQUEST;[Title.GetBaseName]边界争端;;;;;;;;;;;;x
 WAR_NAME_UNJUST_COUNTY_CONQUEST;$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$争夺$OTHER_TITLE$的边界争端;;;;;;;;;;;;x
-unjust_conquest_desc;你可以选择去入侵任何与你接壤的伯爵领。但是要注意在没有宣称的情况下发动侵略将要付出沉重的代价——当你攻击同宗教的领主时所付出的代价是最高的，其次是攻击与你在同一宗教组的，最次但代价依然沉重的是攻击其他宗教组的领主。;;;;;;;;;;;;x
+unjust_conquest_desc;你可以选择去入侵任何与你接壤的伯爵领。但是要注意在没有宣称的情况下发动侵略将要付出沉重的代价——当你攻击同宗教的领主时所付出的代价是最高的，其次是攻击与你在同一宗教组的，最次的是攻击其他宗教组的领主，但代价依然沉重。;;;;;;;;;;;;x
 opinion_declared_unjust_conquest;发动了非正义战争;;;;;;;;;;;;x
 custom_opinion_hit_tooltip;所有在你§Y境内§!属于你的§Y宗教组§!的§Y有地角色§!以及§Y[From.GetTitledFirstName]§!境内对你的看法将改变 §R-15§! 持续 §Y10§! 年。§Y（发动不义战争）§!;;;;;;;;;;;;x
 custom_opinion_hit_tooltip_enemy;所有在你§Y境内§!信奉§Y[From.Religion.GetName]§!的§Y有地角色§!以及§Y[From.GetTitledFirstName]§!境内对你的看法将改变 §R-15§! 持续 §Y10§! 年。§Y（发动不义战争）§!;;;;;;;;;;;;x
@@ -828,8 +828,8 @@ d_han_large;朱雀佣兵团;;;;;;;;;;;;x
 d_han_mid;麒麟佣兵团;;;;;;;;;;;;x
 d_han_mid_low;玄武佣兵团;;;;;;;;;;;;x
 d_han_low;仙鹤大队;;;;;;;;;;;;x
-d_tangut_low;党项人大队;;;;;;;;;;;;x
-d_bodpa_low;吐蕃人大队;;;;;;;;;;;;x
+d_tangut_low;党项大队;;;;;;;;;;;;x
+d_bodpa_low;吐蕃大队;;;;;;;;;;;;x
 school_tao;选择一个道家学派;;;;;;;;;;;;x
 school_tao_desc;这里有几个著名的道家学派。哪一个能让我成为一个更好的统治者？;;;;;;;;;;;;x
 school_tao_1_desc;上清派、全真派和正一道都是十分显赫的学派，为了成为一个更好的[Root.GetManWoman]，我又该追随哪一派呢？;;;;;;;;;;;;x
@@ -2468,16 +2468,16 @@ d_han_large_adj;朱雀佣兵团;;;;;;;;;;;;x
 d_han_mid_adj;麒麟佣兵团;;;;;;;;;;;;x
 d_han_mid_low_adj;玄武佣兵团;;;;;;;;;;;;x
 d_han_low_adj;仙鹤大队;;;;;;;;;;;;x
-d_tangut_low_adj;党项人大队;;;;;;;;;;;;x
-d_bodpa_low_adj;吐蕃人大队;;;;;;;;;;;;x
+d_tangut_low_adj;党项大队;;;;;;;;;;;;x
+d_bodpa_low_adj;吐蕃大队;;;;;;;;;;;;x
 d_treasure_fleet;宝船舰队;;;;;;;;;;;;x
 d_treasure_fleet_adj;宝船舰队;;;;;;;;;;;;x
 d_han_junks;汉家风帆;;;;;;;;;;;;x
 d_han_junks_adj;汉家风帆;;;;;;;;;;;;x
 d_jurchen_corsairs;女真水寇;;;;;;;;;;;;x
 d_jurchen_corsairs_adj;女真水寇;;;;;;;;;;;;x
-d_jurchen_band;女真人大队;;;;;;;;;;;;x
-d_jurchen_band_adj;女真人大队;;;;;;;;;;;;x
+d_jurchen_band;女真大队;;;;;;;;;;;;x
+d_jurchen_band_adj;女真大队;;;;;;;;;;;;x
 EVTDESC_JD_10032_A;一名神色慌张的外国人出现在了你的宫廷。这个[chinese_refugee.GetManWoman]面对任何靠近[chinese_refugee.GetHerHim]的人都畏缩不已，也不愿离开。[chinese_refugee.GetSheHe]坚持自己可以作为一名训练有素的[chinese_refugee.GetChineseProfession]为你效劳。「求求你别把我送回去，我不能回去。」[chinese_refugee.GetSheHe]哀求着，下颚紧咬。;;;;;;;;;;;;x
 EVTDESC_JD_10032_B;我的卫兵把一个中国小偷拖到我面前。「[chinese_refugee.GetSheHeCap]声称与您有约，要面见您，我的[Root.GetLordLady]」，他们报告。「请原谅我的这点小伎俩」，[chinese_refugee.GetManWoman]用浓重的口音激动地恳求道，「我是一个[chinese_refugee.GetChineseProfession]，中国朝廷疯狂地想要抓到我！可怜可怜我吧，[Root.GetMasterMistress]。」;;;;;;;;;;;;x
 EVTDESC_JD_10032_C;今晚，一个疑似间谍的家伙在试图进入[Root.Capital.Capital.GetName]时被守卫拦下，他们发现了[chinese_refugee.GetHerHis]斗篷下武器的反光。在双方对峙时，这个外国人自称自己是一名[chinese_refugee.GetChineseProfession]，正在逃离[offmap_china.GetFullName]的追捕。在搜身时，我注意到[chinese_refugee.GetHerHis]衣着破旧，而且武器上也不止沾染了尘土，还有已经干涸的斑斑血迹。;;;;;;;;;;;;x
@@ -3165,7 +3165,7 @@ is_not_from_china_tt;不是来自中国;;;;;;;;;;;;x
 is_close_relative_tt;是你的近亲;;;;;;;;;;;;x
 is_close_relative_or_same_dynasty_tt;是你的近亲，或你的家族成员;;;;;;;;;;;;x
 is_adult_under_45_tt;是小于 §Y45§! 岁的成年人;;;;;;;;;;;;x
-is_not_ascetic_or_celibate_tt;没有§Y苦行者§!或 §Y独身§!特质;;;;;;;;;;;;x
+is_not_ascetic_or_celibate_tt;没有§Y苦行者§!或§Y独身主义者§!特质;;;;;;;;;;;;x
 MARTIAL_TRIGGER;§Y军事§!$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
 DIPLOMACY_TRIGGER;§Y外交§!$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
 INTRIGUE_TRIGGER;§Y密谋§!$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
@@ -3774,9 +3774,9 @@ d_nyingchi;尼池;;;;;;;;;;;;x
 d_nyingchi_adj;林芝;;;;;;;;;;;;x
 d_qamdo;察木多;;;;;;;;;;;;x
 d_qamdo_adj;察木多;;;;;;;;;;;;x
-d_sardinian_band;撒丁人大队;;;;;;;;;;;;x
-d_sardinian_band_adj;撒丁人大队;;;;;;;;;;;;x
-d_sardinian_company;撒丁人佣兵团;;;;;;;;;;;;x
+d_sardinian_band;撒丁大队;;;;;;;;;;;;x
+d_sardinian_band_adj;撒丁大队;;;;;;;;;;;;x
+d_sardinian_company;撒丁佣兵团;;;;;;;;;;;;x
 d_sardinian_company_adj;撒丁人;;;;;;;;;;;;x
 d_shigatse;日喀则;;;;;;;;;;;;x
 d_shigatse_adj;日喀则;;;;;;;;;;;;x
