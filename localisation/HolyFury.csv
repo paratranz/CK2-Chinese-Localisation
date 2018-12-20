@@ -4747,8 +4747,8 @@ sea_queen_opinion_EXPLANATION;（对海盗女王的影响）;;;;;;;;;;;;x
 sea_queen_opinion;海盗女王好感;;;;;;;;;;;;x
 bastard_opinion_EXPLANATION;（对私生子的影响）;;;;;;;;;;;;x
 bastard_opinion;私生子好感;;;;;;;;;;;;x
-legit_bastard_opinion_EXPLANATION;（对合法化的私生子的影响）;;;;;;;;;;;;x
-legit_bastard_opinion;合法化的私生子好感;;;;;;;;;;;;x
+legit_bastard_opinion_EXPLANATION;（对合法私生子的影响）;;;;;;;;;;;;x
+legit_bastard_opinion;合法私生子好感;;;;;;;;;;;;x
 brave_opinion_EXPLANATION;（对勇敢的影响）;;;;;;;;;;;;x
 brave_opinion;勇敢好感;;;;;;;;;;;;x
 clubfooted_opinion_EXPLANATION;（对足内翻的影响）;;;;;;;;;;;;x
@@ -4762,7 +4762,7 @@ strategist_opinion;策略家好感;;;;;;;;;;;;x
 ambitious_opinion_EXPLANATION;（对野心勃勃的影响）;;;;;;;;;;;;x
 ambitious_opinion;野心勃勃好感;;;;;;;;;;;;x
 library;图书馆;;;;;;;;;;;;x
-alt_start_community_desc;即使在压迫之下，真正的信仰依然存在。 像我们一样秘密崇拜的人越来越多地被我们的正义方式所吸引，加入我们的事业。 很快我们就会在阳光下起义，重新夺回我们的位置！;;;;;;;;;;;;x
+alt_start_community_desc;压迫之下，正信仍存。我们在暗中崇拜，越来越多的人被我们正义的道路所吸引，加入我们的事业。很快我们就会起义，重新夺回我们阳光下的位置！;;;;;;;;;;;;x
 alt_start_community_name_catholic;[catholic.GetName]虔信者;;;;;;;;;;;;x
 alt_start_community_name_cathar;[cathar.GetName]虔信者;;;;;;;;;;;;x
 alt_start_community_name_fraticelli;[fraticelli.GetName]虔信者;;;;;;;;;;;;x
@@ -4843,7 +4843,7 @@ likes_africans;[GetChinaAfrican]文化组;;;;;;;;;;;;x
 likes_mesoamericans;[mesoamerican.GetGroupName]文化组;;;;;;;;;;;;x
 likes_muslims;[muslim.GetGroupName]徒;;;;;;;;;;;;x
 likes_christians;[christian.GetGroupName]徒;;;;;;;;;;;;x
-likes_mazdans;[zoroastrian_group.GetGroupName]教;;;;;;;;;;;;x
+likes_mazdans;[zoroastrian_group.GetGroupName]宗教组;;;;;;;;;;;;x
 likes_zoroastrians;[zoroastrian.GetName]徒;;;;;;;;;;;;x
 likes_mazdakis;[mazdaki.GetName]信徒;;;;;;;;;;;;x
 likes_manicheans;[manichean.GetName]徒;;;;;;;;;;;;x
@@ -4854,21 +4854,21 @@ likes_jains;[jain.GetName]徒;;;;;;;;;;;;x
 likes_tengris;[tengri_pagan_reformed.GetName]信徒;;;;;;;;;;;;x
 likes_zunists;[GetChinaZunist];;;;;;;;;;;;x
 likes_jews;[GetChinaJews]徒;;;;;;;;;;;;x
-likes_bon;[bon.GetName]教;;;;;;;;;;;;x
+likes_bon;[bon.GetName];;;;;;;;;;;;x
 string_christ_random;[catholic.GetHighGodName];;;;;;;;;;;;x
 string_christ;基督;;;;;;;;;;;;x
 string_god_random;[This.Religion.GetHighGodName];;;;;;;;;;;;x
 string_saint_generic;我们的殉道圣人;;;;;;;;;;;;x
 string_the_code;我们的神圣殉道者法典;;;;;;;;;;;;x
-String_Go_with_God_random;与[Root.Religion.GetHighGodName]同行吧;;;;;;;;;;;;x
+String_Go_with_God_random;与[Root.Religion.GetHighGodName]同行;;;;;;;;;;;;x
 String_god_symbol;[Root.TrueReligion.GetHighGodName]的象征;;;;;;;;;;;;x
 string_relgroup_random;[This.TrueReligion.GetGroupName]徒;;;;;;;;;;;;x
 String_adherent_random;[Root.TrueReligion.GetName];;;;;;;;;;;;x
 monastic_order_dominican_leader_desc;[GetSocietyLeaderDesc];;;;;;;;;;;;x
-crowned_by_priest_desc;这位统治者由一位主教加冕。\n对于任何一位正统[christian.GetGroupName][Root.GetTitle]来说，一个正式的加冕礼是证明其统治合法性不可或缺的一部分。;;;;;;;;;;;;x
-crowned_by_bishop_desc;这位统治者由[Root.GetCrownedByDesc]施行了涂油礼。\n对于任何一位正统[christian.GetGroupName][Root.GetTitle]来说，一个正式的加冕礼是证明其统治合法性不可或缺的一部分。;;;;;;;;;;;;x
-crowned_by_pope_desc;这位统治者由[GetChristName]在人间的代理人施行了涂油礼。\n这无可辩驳地证明了[Root.GetHerHis]神圣的统治权。;;;;;;;;;;;;x
-pepin_religious_desc;§Y$CLAIMANT$§!可以用此宣战理由效仿矮子丕平，通过战争来恢复§Y$TITLE$§!的合法统治的教宗领地。这个宣战理由只对在意大利中部拥有土地的任何异教徒或不虔诚的[christian.GetGroupName]有效。教宗一定会感谢§Y$CLAIMANT$§!帮助归还理应在教会控制之下的教廷省份。;;;;;;;;;;;;x
+crowned_by_priest_desc;这位统治者由一位低阶教士加冕。\n对于任何一位正统[christian.GetGroupName][Root.GetTitle]来说，一场正式的加冕礼是证明其统治合法性不可或缺的一部分。;;;;;;;;;;;;x
+crowned_by_bishop_desc;这位统治者由[Root.GetCrownedByDesc]施行了涂油礼。\n对于任何一位正统[christian.GetGroupName][Root.GetTitle]来说，一场正式的加冕礼是证明其统治合法性不可或缺的一部分。;;;;;;;;;;;;x
+crowned_by_pope_desc;这位统治者由[GetChristName]之代表施行了涂油礼。\n这无可辩驳地证明了[Root.GetHerHis]神圣统治权。;;;;;;;;;;;;x
+pepin_religious_desc;§Y$CLAIMANT$§!可以用此宣战理由效仿矮子丕平，通过战争将教宗领土§Y$TITLE$§!交还给其正当统治者。这个宣战理由只能针对在意大利中部拥有土地的任何异教徒或不虔诚的[christian.GetGroupName]徒。教宗一定会感谢§Y$CLAIMANT$§!帮助归还理应在教会控制之下的教宗省份。;;;;;;;;;;;;x
 EVTDESCHFA20211;致[Root.GetTitledName]，\n只要你承认教会不是任何国王或皇帝的仆人，而是所有[christian.GetGroupName]徒灵魂救赎的看护者，我便乐于合法化你神圣的统治权。\n\n诚挚的，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTDESCHFA20222;[christian.GetGroupName]教宗已经决定叫上他的一条走狗来对付我，以图收回我治下的一部分意大利领土。[From.GetTitledName]刚刚以教宗的名义向我宣战。;;;;;;;;;;;;x
 EVTDESCHFA20306;组织一场如此具有里程碑意义的庆典让我有充分的机会见到邻近[Root.PrimaryTitle.GetName]领地的统治者们。与我[christian.GetGroupName]同侪保持良好关系对于确保我领地未来的和平与繁荣至关重要。而[potential_friend.GetTitledFirstName]尤其看上去是一位可以信赖的[potential_friend.GetManWoman]。;;;;;;;;;;;;x
@@ -15672,7 +15672,7 @@ d_turkestan;阿拉尔;;;;;;;;;;;;x
 d_chuy;垂河;;;;;;;;;;;;x
 d_ili;伊丽;;;;;;;;;;;;x
 d_kakheti;卡赫季;;;;;;;;;;;;x
-d_tao;苏梅;;;;;;;;;;;;x
+d_tao;陶;;;;;;;;;;;;x
 d_caspian_steppe;里海草原;;;;;;;;;;;;x
 d_atyrau;阿特劳;;;;;;;;;;;;x
 d_bandja;班贾;;;;;;;;;;;;x
@@ -17040,7 +17040,7 @@ d_turkestan_adj;阿拉尔;;;;;;;;;;;;x
 d_chuy_adj;垂河;;;;;;;;;;;;x
 d_ili_adj;伊丽;;;;;;;;;;;;x
 d_kakheti_adj;卡赫季;;;;;;;;;;;;x
-d_tao_adj;苏梅;;;;;;;;;;;;x
+d_tao_adj;陶;;;;;;;;;;;;x
 d_caspian_steppe_adj;里海草原;;;;;;;;;;;;x
 d_atyrau_adj;阿特劳;;;;;;;;;;;;x
 d_bandja_adj;班贾;;;;;;;;;;;;x
