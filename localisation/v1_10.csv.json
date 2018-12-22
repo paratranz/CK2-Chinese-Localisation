@@ -236,13 +236,13 @@
     {
         "key": "HOLYSITE_CONTROL_PARTIAL",
         "original": "The Holy Site of §Y$SITENAME$§! is held by a member of §Y$RELIGION$§!, but is a vassal of another religion",
-        "translation": "§Y$SITENAME$§!的圣地由§Y$RELIGION$§!的成员持有，但其又是另一个宗教的封臣",
+        "translation": "§Y$SITENAME$§!的圣地由§Y$RELIGION$§!的信徒掌控，但其领主信仰另一个宗教",
         "stage": 5
     },
     {
         "key": "HOLYSITE_CONTROL_NOT",
         "original": "The Holy Site of §Y$SITENAME$§! is not held by a member of §Y$RELIGION$§!",
-        "translation": "§Y$SITENAME$§!的圣地并不在§Y$RELIGION$§!的掌控中",
+        "translation": "§Y$SITENAME$§!的圣地的持有者不信仰§Y$RELIGION$§!",
         "stage": 5
     },
     {
@@ -632,13 +632,13 @@
     {
         "key": "IS_HOLY_ORDER",
         "original": "Is Holy Order",
-        "translation": "是圣战士",
+        "translation": "是骑士团",
         "stage": 5
     },
     {
         "key": "IS_NOT_HOLY_ORDER",
         "original": "Is NOT Holy Order",
-        "translation": "不是圣战士",
+        "translation": "不是骑士团",
         "stage": 5
     },
     {
@@ -819,7 +819,7 @@
         "key": "d_baltic_pagan_reformed_adj",
         "original": "Romuva",
         "translation": "洛姆瓦教",
-        "stage": 5
+        "stage": 1
     },
     {
         "key": "d_slavic_pagan_reformed_adj",
@@ -1076,7 +1076,7 @@
     {
         "key": "FYLKIR_FOA",
         "original": "Your Holiness",
-        "translation": "冕下",
+        "translation": "陛下",
         "stage": 5
     },
     {
@@ -1094,7 +1094,7 @@
     {
         "key": "HEAD_PRIEST_FOA",
         "original": "Your Holiness",
-        "translation": "冕下",
+        "translation": "陛下",
         "stage": 5
     },
     {
@@ -1232,14 +1232,14 @@
     {
         "key": "d_dregovichi",
         "original": "Dregovichi",
-        "translation": "德列戈维奇人",
-        "stage": 5
+        "translation": "德列戈维奇",
+        "stage": 1
     },
     {
         "key": "d_radimichi",
         "original": "Radimichi",
-        "translation": "拉迪米奇人",
-        "stage": 5
+        "translation": "拉迪米奇",
+        "stage": 1
     },
     {
         "key": "c_viken_adj_norse",
@@ -1262,8 +1262,8 @@
     {
         "key": "DEMESNE_TITLE_STARTS",
         "original": "Any Held Title",
-        "translation": "任意持有头衔",
-        "stage": 5
+        "translation": "持有以下任意头衔",
+        "stage": 1
     },
     {
         "key": "truce_breaker",
@@ -1472,7 +1472,7 @@
     {
         "key": "REMOVECONSORTEFFECT",
         "original": "§Y$CONSORT$§! will no longer be a concubine of §Y$WHO$§!.\\n",
-        "translation": "§Y$CONSORT$§! 不再是 §Y$WHO$§!的侍妾.\\n",
+        "translation": "§Y$CONSORT$§!不再是§Y$WHO$§!的侍妾。\\n",
         "stage": 5
     },
     {
@@ -1622,8 +1622,8 @@
     {
         "key": "INTERACTION_REQUIRES_RECIPIENT_NOT_DE_JURE_VASSAL",
         "original": "§Y[Recipient.GetTitledFirstName]§! is not a [Actor.Religion.GetName] de jure vassal",
-        "translation": "§Y[Recipient.GetTitledFirstName]§! 不是 [Actor.Religion.GetName]一个法理上的封臣",
-        "stage": 5
+        "translation": "§Y[Recipient.GetTitledFirstName]§! 不能是一个在你法理领土内的[Actor.Religion.GetName]封臣",
+        "stage": 2
     },
     {
         "key": "INTERACTION_PREP_INV_REQ_PRESTIGE",
@@ -1664,7 +1664,7 @@
     {
         "key": "opinion_set_aside",
         "original": "Set Aside",
-        "translation": "搁置",
+        "translation": "弃置",
         "stage": 5
     },
     {
@@ -1694,8 +1694,8 @@
     {
         "key": "norse",
         "original": "Norse",
-        "translation": "诺斯人",
-        "stage": 5
+        "translation": "诺斯",
+        "stage": 1
     },
     {
         "key": "won_viking_invasion",
@@ -2024,8 +2024,8 @@
     {
         "key": "TRIGGER_NEW_TITLE",
         "original": "New Landed Title",
-        "translation": "新的有土地头衔",
-        "stage": 5
+        "translation": "新的实地头衔",
+        "stage": 1
     },
     {
         "key": "HAS_LOWER_DYN_REALM_POWER",
@@ -2348,7 +2348,7 @@
     {
         "key": "EVTDESC_TOG_1040",
         "original": "A dangerous revolt has broken out in [Root.GetName]. Many prominent [Root.Culture.GetName] landholders have raised an army of peasants, trained and led by a core of proper soldiers. They seek to restore the [Root.Kingdom.GetFullBaseName]!",
-        "translation": "一场危险的叛乱已经在 [Root.GetName]爆发。许多 [Root.Culture.GetName]有权势的地主已经组织起了一支支由农民组成的军队，经过训练后就由一队职业士兵领导。他们企图恢复 [Root.Kingdom.GetFullBaseName]！",
+        "translation": "一场危险的叛乱已经在[Root.GetName]爆发。许多有权势的[Root.Culture.GetName]地主已经组织起了一支支由农民组成的军队，经过训练后就由一队职业士兵领导。他们企图恢复[Root.Kingdom.GetFullBaseName]！",
         "stage": 5
     },
     {
@@ -2360,7 +2360,7 @@
     {
         "key": "EVTDESC_TOG_1041",
         "original": "A dangerous revolt has broken out in [From.GetName]. Many prominent [From.Culture.GetName] landholders have raised an army of peasants, trained and led by a core of proper soldiers. They seek to restore the [From.Kingdom.GetFullBaseName]!",
-        "translation": "一场危险的暴动已经在 [From.GetName]爆发。许多有权势的[From.Culture.GetName]地主已经组织起了一支由农民组成的军队，经过训练后就由一队职业士兵领导。他们企图恢复[From.Kingdom.GetFullBaseName]！",
+        "translation": "一场危险的暴动已经在[From.GetName]爆发。许多有权势的[From.Culture.GetName]地主已经组织起了一支由农民组成的军队，经过训练后就由一队职业士兵领导。他们企图恢复[From.Kingdom.GetFullBaseName]！",
         "stage": 5
     },
     {
@@ -2642,7 +2642,7 @@
     {
         "key": "avar",
         "original": "Avar",
-        "translation": "阿瓦尔人",
+        "translation": "阿瓦尔",
         "stage": 5
     },
     {
@@ -3404,7 +3404,7 @@
     {
         "key": "WAR_NAME_VIKING_INVASION",
         "original": "$ORDER$$FIRST_ADJ$ Prepared Invasion of $OTHER_TITLE$",
-        "translation": "$ORDER$$FIRST_ADJ$有准备的入侵$OTHER_TITLE$",
+        "translation": "$ORDER$ $FIRST_ADJ$有准备的入侵$OTHER_TITLE$",
         "stage": 5
     },
     {
@@ -3440,8 +3440,8 @@
     {
         "key": "WAR_NAME_HERETIC_UPRISING",
         "original": "$ORDER$$SECOND_ADJ$ [Actor.Religion.GetName] Revolt",
-        "translation": "$ORDER$$SECOND_ADJ$[Actor.Religion.GetName]叛乱",
-        "stage": 5
+        "translation": "$ORDER$ $SECOND_ADJ$[Actor.Religion.GetName]叛乱",
+        "stage": 1
     },
     {
         "key": "heretic_revolt_desc",
@@ -3512,8 +3512,8 @@
     {
         "key": "WAR_NAME_SHIA_CALIPHATE_RISING",
         "original": "$ORDER$Shi'a Caliphate Rising in [Title.GetBaseName]",
-        "translation": "$ORDER$什叶派哈里发在[Title.GetBaseName]起事",
-        "stage": 5
+        "translation": "$ORDER$ 什叶派哈里发在[Title.GetBaseName]起事",
+        "stage": 1
     },
     {
         "key": "ANY_PREVIOUS_HOLDER_STARTS",
@@ -3524,7 +3524,7 @@
     {
         "key": "duchy_adventure_desc",
         "original": "Ambitious characters of noble descent can go off and attempt to seize duchies in foreign lands with a band of adventurers.",
-        "translation": "拥有野心的贵族后人可以出走并在一群投机冒险之徒的支持下试图在异国土地上攫取数个公爵领。",
+        "translation": "拥有野心的贵族后人可以出走并在一群投机冒险之徒的支持下试图在异国土地上攫取数个公国。",
         "stage": 5
     },
     {
@@ -3548,14 +3548,14 @@
     {
         "key": "CB_NAME_LIBERATION_REVOLT",
         "original": "Liberation of [Title.GetBaseName]",
-        "translation": "解放 [Title.GetBaseName]",
+        "translation": "解放[Title.GetBaseName]",
         "stage": 5
     },
     {
         "key": "WAR_NAME_LIBERATION_REVOLT",
         "original": "$ORDER$Liberation of [Title.GetBaseName]",
-        "translation": "$ORDER$解放[Title.GetBaseName]",
-        "stage": 5
+        "translation": "$ORDER$ 解放[Title.GetBaseName]",
+        "stage": 1
     },
     {
         "key": "liberation_revolt_desc",
@@ -3608,8 +3608,8 @@
     {
         "key": "pagan_holy_war_desc",
         "original": "Reformed Pagans can use this Casus Belli to seize all titles held by an infidel within a de jure Duchy at the cost of §Y100§! $PIETYNAME$.",
-        "translation": "改革原始宗教信徒可以花费 §Y100§! $PIETYNAME$，用这个宣战理由来夺取一个法理公国内一名异教徒持有的全部头衔。",
-        "stage": 5
+        "translation": "改革原始宗教信徒可以花费 §Y100§! $PIETYNAME$来夺取一名异教徒在一个法理公国内持有的全部头衔。",
+        "stage": 1
     },
     {
         "key": "CANNOT_PLAY_PAGAN_WITHOUT_DLC",
@@ -3657,12 +3657,6 @@
         "key": "PREPARE_INVASION_INTERACTION_LETTER",
         "original": "In the name of the Allfather, the Hanged One, the Flaming Eye, I declare my intention to invade your lands and subjugate your people. Richly shall the ravens feast!\\n\\n[From.GetTitledName]",
         "translation": "以众神之父、倒吊之神、燃烧之眼的名义，我宣布我将入侵你的土地、征服你的人民。渡鸦的盛宴！\\n\\n[From.GetTitledName]",
-        "stage": 5
-    },
-    {
-        "key": "PREPARE_INVASION_INTERACTION_0",
-        "original": "As a Norse Pagan, you can declare your intention to invade §Y[Recipient.GetTitledName]§!. You have two years to declare war, during which many adventurers will flock to your banner.",
-        "translation": "根据诺斯教义，你可以宣布有意向入侵§Y[Recipient.GetTitledName]§!。你有两年的时间来准备宣战，其间将会有大量的冒险之徒加入你的麾下。",
         "stage": 5
     },
     {
@@ -3884,7 +3878,7 @@
     {
         "key": "PARTIALLY_FILLED",
         "original": "Partially Filled",
-        "translation": "落后于时代",
+        "translation": "已有的进度",
         "stage": 1
     },
     {
@@ -4388,14 +4382,14 @@
     {
         "key": "HINT_MIL_VIEW_TEXT_4",
         "original": "The 'Holy Orders' tab lists the great religious knighthoods. They can be employed like mercenaries, but instead of gold, it will cost you [Player.Religion.GetPietyName] to raise them. However, you will still have to pay for their maintenance. The Holy Orders appear on their historical foundation dates, and will only fight against heretics and infidels.",
-        "translation": "「圣战士」标签页列出了伟大的宗教圣战士。他们能够像雇佣军那样雇佣，不过召集它将花费[Player.Religion.GetPietyName]而不是金钱，同时还要支付他们的维护费。圣战士的出现以他们历史上的时间为基准。",
-        "stage": 5
+        "translation": "「骑士团」标签页列出了伟大的宗教战士。他们能够像雇佣军那样雇佣，不过征召他们需要花费[Player.Religion.GetPietyName]而不是金钱。尽管如此你依然要支付他们的维护费。骑士团的出现以他们历史上的时间为基准。",
+        "stage": 1
     },
     {
         "key": "LOADING_TIP_12",
         "original": "Holy orders will only fight against heretics and infidels. Be careful when using them in battle!",
-        "translation": "圣战士只能与异端和异教徒战斗。请在战斗中小心地使用他们",
-        "stage": 5
+        "translation": "骑士团只能与异端和异教徒战斗。请在战斗中小心地使用他们",
+        "stage": 1
     },
     {
         "key": "EVTDESC62300",
@@ -4418,7 +4412,7 @@
     {
         "key": "EVTOPTA62310",
         "original": "Raven God have mercy!",
-        "translation": "乌鸦之神宽恕！",
+        "translation": "乌鸦之神求祢垂怜！",
         "stage": 5
     },
     {
@@ -4580,7 +4574,7 @@
     {
         "key": "EVTDESC_TOG_006",
         "original": "Not even the sea has proved a formidable enough barrier to halt the Mongol advance. London has fallen to the Mongol vanguard and the city is now the scene of a slaughter on a scale unrivaled since the days of Queen Boudica and her rebellion.",
-        "translation": "即使海洋也算不上是能阻止蒙古人推进的屏障。伦敦已落入蒙古兵锋之下。 城内上演着自布迪卡女王的起义以来都未曾见过的屠杀。",
+        "translation": "即使海洋也算不上是能阻止蒙古人推进的屏障。伦敦已落入蒙古兵锋之下。 城内上演着自布狄卡女王的起义以来都未曾见过的屠杀。",
         "stage": 5
     },
     {
@@ -4724,8 +4718,8 @@
     {
         "key": "EVTDESC_TOG_018",
         "original": "Damascus, the ancient City of Jasmine, has been sacked by the advancing Mongols. Our warriors have gathered a colossal pile of severed heads on a field just outside the city walls, now renamed burj al-ru'us by the massacre's few survivors - the Tower of Heads.",
-        "translation": "大马士革，茉莉古城，被推进的蒙古人洗劫。我们的战士已经在城墙外的空地上用斩下的头颅堆积起一座巨大的小山，现在大屠杀为数不多的幸存者称之为burj　al-ru'us——断头之塔。",
-        "stage": 5
+        "translation": "大马士革，这座茉莉古城，被推进的蒙古人洗劫。我们的战士已经在城墙外的空地上用斩下的头颅堆积起一座巨大的小山，现在大屠杀为数不多的幸存者称之为burj al-ru'us——断头之塔。",
+        "stage": 1
     },
     {
         "key": "EVTNAME_TOG_019",
@@ -5408,13 +5402,13 @@
     {
         "key": "d_meshcheras",
         "original": "Meshcheras",
-        "translation": "梅希切尔人",
+        "translation": "梅晓拉",
         "stage": 5
     },
     {
         "key": "d_meshcheras_adj",
         "original": "Meshcheran",
-        "translation": "梅希切尔",
+        "translation": "梅晓拉",
         "stage": 5
     },
     {
@@ -5534,25 +5528,25 @@
     {
         "key": "samoyed",
         "original": "Nenets",
-        "translation": "涅涅茨人",
+        "translation": "涅涅茨",
         "stage": 5
     },
     {
         "key": "mordvin",
         "original": "Mordvin",
-        "translation": "莫尔多瓦人",
+        "translation": "莫尔多瓦",
         "stage": 5
     },
     {
         "key": "khazar",
         "original": "Khazar",
-        "translation": "可萨人",
+        "translation": "可萨",
         "stage": 5
     },
     {
         "key": "bolghar",
         "original": "Bolghar",
-        "translation": "保加尔人",
+        "translation": "保加尔",
         "stage": 5
     },
     {
@@ -6008,8 +6002,8 @@
     {
         "key": "EVTDESC_TOG_163",
         "original": "Some visiting foreign dignitaries who have come to offer tribute to you, the great [Root.GetTitle], have become very impressed with your pet albino bear. They claim never to have seen such a magnificent beast, and that you must be a powerful leader indeed to have enslaved it.",
-        "translation": "一些来向你——伟大的 [Root.GetTitle]——进贡的外国贵族为你的宠物白熊而惊叹。他们说他们从未见过如此珍奇的猛兽，而能驯服如此珍兽的您必然是一位强大的君王。",
-        "stage": 5
+        "translation": "一些来向你——伟大的[Root.GetTitle]——进贡的外国贵族为你的宠物白熊而惊叹。他们说他们从未见过如此珍奇的猛兽，而能驯服如此珍兽的您必然是一位强大的君王。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_TOG_163",
@@ -7434,21 +7428,9 @@
         "stage": 5
     },
     {
-        "key": "EVTDESC_TOG_3101",
-        "original": "[From.GetFirstName], the great king of the Greeks, is distraught over the poor mettle of his countrymen. Knowing well our skill in battle, he has decided to form a bodyguard consisting solely of Norse warriors.\\n\\nThose who serve him in the great city of Miklagård are generously rewarded, and even now many of our young men, eager for riches and adventure, have departed for Greece to pick up his banner.",
-        "translation": "[From.GetFirstName]，希腊人的大王，非常担忧他的子民们糟糕的勇气。他熟知我们的战斗能力，已决定组建一支只由诺斯战士组成的护卫队。\\n\\n在「伟大之城」米克拉加尔德向他效忠的人们获得了很高的报酬，现在我们中的很多向往财富和冒险的年轻人，已经在前往希腊的途中，梦想着举起他们的旗帜了。",
-        "stage": 5
-    },
-    {
         "key": "EVTOPTA_TOG_3101",
         "original": "May they find the excitement they yearn.",
         "translation": "愿他们能够得到渴求的刺激。",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC_TOG_3110",
-        "original": "Your son, [From.GetTitledFirstName], has decided to enlist with the Varangian Guard in Miklagård and seek his fortune there! Although he will no doubt gain both riches and valuable battle experience in service of the Greek king, there will be many perils that could well cost him his life.",
-        "translation": "你的儿子[From.GetTitledFirstName]已经决定试试运气，响应「伟大之城」米克拉加尔德的募兵参加瓦良吉卫队了！毫无疑问他能够通过效忠于希腊的国王得到财富和战场上的宝贵经验，但这也是一种冒险，一不小心就会把命搭进去。",
         "stage": 5
     },
     {
@@ -7458,39 +7440,9 @@
         "stage": 5
     },
     {
-        "key": "EVTOPTB_TOG_3110",
-        "original": "Go to Miklagård and make me proud, son.",
-        "translation": "去「伟大之城」米克拉加德吧，儿子，让我为你骄傲。",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC_TOG_3112",
-        "original": "A grizzled old warrior having just returned from Greece arrived with a message from [From.GetTitledFirstName] today. Though he has left the Varangian Guard, your son has apparently found himself a Greek wife and decided to remain in Miklagård and build a new life there. It is doubtful whether you will ever see him again...",
-        "translation": "今天一个头发花白的老兵带着[From.GetTitledFirstName]的信息回来了。尽管已经离开了瓦兰吉卫队，但你的儿子已经找了一个希腊人妻子，决定留在「伟大之城」米克拉加尔德开始新生活。不知道你们以后还能不能再见面了。",
-        "stage": 5
-    },
-    {
-        "key": "EVTOPTA_TOG_3112",
-        "original": "My boy...",
-        "translation": "我的孩子……",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC_TOG_3113",
-        "original": "After finishing his service with the Varangian Guard, [From.GetTitledFirstName] has married a local woman and decided to remain in Constantinople instead of returning home to the barbaric frozen wasteland he once came from. He has pledged his continued service to you.",
-        "translation": "完成了瓦兰吉卫队的服役之后，[From.GetTitledFirstName]和一个当地的妇女结了婚，决定不再回到遥远，冰冷而野蛮的北国故土，而是留在君士坦丁堡。他希望继续为你效劳。",
-        "stage": 5
-    },
-    {
         "key": "EVTOPTA_TOG_3113",
         "original": "Very well.",
         "translation": "非常好。",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC_TOG_3115",
-        "original": "A heavily scarred warrior clad in strange armor approaches your throne, and before he can be disarmed, the stranger relieves your guard of his spear in a swift, fluid motion and tosses it aside. Other guards hurry forward, but you raise your hand to stop them. The stranger is [From.GetTitledFirstName], at last returned from Greece!",
-        "translation": "一个满身伤痕的带甲战士缓缓地接近在王座上的你。在他卸下装备之前，这个陌生人极其熟练地将你的护卫手上的长矛夺了过来，并丢在一边。其他护卫匆忙赶了上来，但是你伸出手制止了他们。这个人是[From.GetTitledFirstName]，他终于从希腊回来了！",
         "stage": 5
     },
     {
@@ -7500,33 +7452,9 @@
         "stage": 5
     },
     {
-        "key": "EVTDESC_TOG_3117",
-        "original": "Your son, [From.GetTitledFirstName], has finally returned home from Greece and his service with the Varangian Guard! Although you can't quite put your finger on it, he seems different somehow... and what is this Greek love he speaks of?",
-        "translation": "你的儿子[From.GetTitledFirstName]完成了他在瓦兰吉卫队的服役，已经归来！ 尽管你还没有完全弄明白究竟是怎么回事，但他看起来变了很多……他刚才提到的这个希腊词是什么意思？",
-        "stage": 5
-    },
-    {
-        "key": "EVTOPTA_TOG_3117",
-        "original": "No matter, I'm just glad he made it home!",
-        "translation": "不管怎样，我很高兴他回家了！",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC_TOG_3119",
-        "original": "A frail, robed man is led into your throne room, and your guards explain that he just arrived on a ship coming from Miklagård. The man would only speak your name over and over again, and so he was brought to you. To your horror, you recognize him at last as [From.GetTitledFirstName]!",
-        "translation": "一个憔悴的，穿着长袍的人被带到了你的房间。护卫说他刚乘船从「伟大之城」米克拉加尔德回来。他只是一遍又一遍重复着你的名字，所以他被送回来了。你惊讶地发现，他居然是[From.GetTitledFirstName]！",
-        "stage": 5
-    },
-    {
         "key": "EVTOPTA_TOG_3119",
         "original": "[From.GetFirstName], what have they done to you?!",
         "translation": "[From.GetFirstName]，他们对你做了什么？！",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC_TOG_3121",
-        "original": "[From.GetTitledFirstName] has finally returned home after a long and successful career in the Varangian Guard! He fought in several battles, and learned much from the clever strategies and tactics favored by both the Greeks and their enemies in Serkland.",
-        "translation": "[From.GetTitledFirstName]在漫长而成功的瓦兰吉卫队生活之后光荣回家了！他参加了好几场战斗，从希腊人和他们的敌人「长袍国度」塞尔克兰那里学到了大量的战略和战术技巧。",
         "stage": 5
     },
     {
@@ -7536,21 +7464,9 @@
         "stage": 5
     },
     {
-        "key": "EVTDESC_TOG_3123",
-        "original": "[From.GetTitledFirstName] has returned from Greece and the Varangian Guard, but he refuses to speak of his experiences there. You know he took part in several battles and killed many foes, but instead of reveling in the glory of his accomplishments, [From.GetFirstName] is plagued by nightmares and jumps at sudden sounds.",
-        "translation": "[From.GetTitledFirstName]从希腊的瓦兰吉卫队回来了，但他不愿意提及他过去的经历。你知道他参加过好几次战斗，杀了不少敌军，但他并没有陶醉于他所取得的成就，相反，[From.GetFirstName]被噩梦缠绕，会被突然的声响吓一跳。",
-        "stage": 5
-    },
-    {
         "key": "EVTOPTA_TOG_3123",
         "original": "Strange...",
         "translation": "奇怪……",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC_TOG_3125",
-        "original": "[From.GetTitledFirstName] has come home from Miklagård and his service with the Varangian Guard, but he is not alone. He has found a Greek wife and brought her with him. She is not familiar with our customs or language, and the climate does not seem to agree with her, but she seems willing to make the best of her new home.",
-        "translation": "[From.GetTitledFirstName]结束了瓦兰吉卫队的生活，从「伟大之城」米克拉加尔德回来了，但他不是一个人，他把他的希腊人妻子也带回来了。她并不熟悉我们的习俗和语言，而且似乎也很不适应这边的气候，但她似乎很愿意适应这个新家。",
         "stage": 5
     },
     {
@@ -7560,21 +7476,9 @@
         "stage": 5
     },
     {
-        "key": "EVTDESC_TOG_3127",
-        "original": "After many years in Greece, [From.GetTitledFirstName] has finally been released from his service to the Varangian Guard and returned home. Your son is a changed man, however. The old gods no longer hold any interest for him, and he instead speaks incessantly of Christendom and the horrors that await those who refuse to convert...",
-        "translation": "在希腊呆了许多年之后，[From.GetTitledFirstName]结束了在瓦兰吉卫队的服役，回到了家。但他完全变了，不再相信我们的神灵，而是转信基督教，而且不断的提及不信基督教的人所要受到的惩罚……",
-        "stage": 5
-    },
-    {
         "key": "EVTOPTA_TOG_3127",
         "original": "I knew those Greeks would be a bad influence.",
         "translation": "我就知道这些希腊人不是什么好东西。",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC_TOG_3129",
-        "original": "[From.GetTitledFirstName] has returned from Miklagård and the Varangian Guard as a changed man. He is wiser, more confident in his own abilities and more knowledgeable in matters of war. It seems the time spent in Greece did him good.",
-        "translation": "[From.GetTitledFirstName]从「伟大之城」米克拉加尔德的瓦兰吉卫队回来了，整个人都变了。他变得更聪明，更自信，而且对于战争显得更加博学。似乎在希腊的这几年真的很值得。",
         "stage": 5
     },
     {
@@ -7584,33 +7488,9 @@
         "stage": 5
     },
     {
-        "key": "EVTDESC_TOG_3131",
-        "original": "Several former Varangian Guardsmen have recently returned home after serving the Greek king, and they bring news most grave. Your son, [From.GetTitledFirstName], fell in battle while campaigning in Serkland. They assure you that he faced his enemy with bravery and slew many before their numbers overwhelmed him.",
-        "translation": "几名前瓦兰吉卫队的成员在为希腊人的国王服务后最近回来了，并给你带来了噩耗。你的儿子，[From.GetTitledFirstName]，在同「长袍国度」塞尔克兰的战斗中牺牲了。他们向你保证，你的儿子战斗地非常英勇，在敌人如潮水般淹没他之前杀了好多人……",
-        "stage": 5
-    },
-    {
-        "key": "EVTOPTA_TOG_3131",
-        "original": "He died a hero...",
-        "translation": "他死得像个英雄……",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC_TOG_3133",
-        "original": "[From.GetTitledFirstName] has at last returned from Greece on a longship filled with the spoils of war! Apparently the great king of the Greeks is generous to those who serve him well, and there is gold here from all over the Greek realm, Serkland and beyond. Your son insists on sharing these riches with you, his loving father.",
-        "translation": "[From.GetTitledFirstName]带着满满一长船的战利品从希腊回来了！据说希腊的大王对于他勇敢的手下们非常慷慨，于是他获得了许多来自整个希腊和「长袍国度」塞尔克兰甚至更远国度的黄金。你的儿子决定将这些财富和他敬爱的父亲共享。",
-        "stage": 5
-    },
-    {
         "key": "EVTOPTA_TOG_3133",
         "original": "[From.GetFirstName], you make me proud!",
         "translation": "[From.GetFirstName]，我真为你骄傲！",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC_TOG_3134",
-        "original": "Upon learning of the death of your father, you left the Varangian Guard and departed Miklagård for home on a longship filled with loot from your campaigns in Serkland. It was a long and perilous journey back, but your feet are now firmly planted on the soil of the land that is your birthright. The throne is yours.",
-        "translation": "听说了你父亲的死讯之后，你带着一大堆战利品离开了瓦兰吉卫队，离开了「伟大之城」米克拉加尔德，乘船回家，长船里装满了来自「长袍国度」塞尔克兰战斗中获得的战利品。这是一次漫长又危险的旅程，但是你的双脚已经站上了这片生你养你的土地。王位是你的了。",
         "stage": 5
     },
     {
@@ -8594,7 +8474,7 @@
     {
         "key": "EVTDESC_TOG_3256",
         "original": "The incantations from the grove suddenly stop, and several maidens, their white gowns red with someone else's blood, run past screaming. Fearing the worst you hurry back, but when you reach the platform you find only the butchered remains of [From.GetFirstName]... and [FromFrom.GetFirstName] standing smiling next to them.",
-        "translation": "树林中的吟唱声突然停止了，几名少女尖叫着跑了出来，身上的白色长袍带着其他人的血。你害怕最坏的情况发生，急忙赶了回去，但是当你抵达平台的时候你只看见[From.GetFirstName]的残骸..，以及[FromFrom.GetFirstName]微笑着站在它们旁边。",
+        "translation": "树林中的吟唱声突然停止了，几名少女尖叫着跑了出来，身上的白色长袍带着其他人的血。你害怕最坏的情况发生，急忙赶了回去，但是当你抵达平台的时候你只看见[From.GetFirstName]的残骸……以及[FromFrom.GetFirstName]微笑着站在它们旁边。",
         "stage": 5
     },
     {
@@ -8786,8 +8666,8 @@
     {
         "key": "shiite_DESC",
         "original": "Shi'a is the short form of Shi'atul Ali, or the Party of Ali, which rejected the first Caliph Abu Bakr in favor of Ali. Shi'a Islam is the less orthodox of the two main branches of Islam and accepts the idea of intercession by dead Imams on behalf of the living. The formal head of Shi'a Islam is the (Shiite) Caliph.",
-        "translation": "什叶派Shi'a是Shi'atul Ali的缩写，又称为阿里派，他们拒绝承认第一个哈里发艾布·伯克尔而拥护阿里。在伊斯兰两大派系中什叶派较少坚持正统，并且接受死去的伊玛目为生者代祷的理念。伊斯兰什叶派的正式首领是（什叶派）哈里发。",
-        "stage": 5
+        "translation": "什叶派 Shi'a 是 Shi'atul Ali 的缩写，又称为阿里派，他们拒绝承认第一个哈里发阿布·伯克尔而拥护阿里。在伊斯兰两大派系中什叶派较少坚持正统，并且接受死去的伊玛目为生者代祷的理念。伊斯兰什叶派的正式首领是（什叶派）哈里发。",
+        "stage": 1
     },
     {
         "key": "bektashi_DESC",
@@ -8810,7 +8690,7 @@
     {
         "key": "baltic_pagan_DESC",
         "original": "Baltic paganism is polytheistic, with a pantheon of gods led by Dievs, god of the sky. Other main gods include Perkunas, god of thunder and lightning, very similar to the Germanic god Thor and the Slavic Perun. Other important deities include Saule, goddess of the sun and fertility, Daugava and Meness.",
-        "translation": "波罗的海原始宗教是一种多神信仰，主神是天神季耶瓦斯。其他主神包括雷电之神佩尔库纳斯，和日耳曼人的雷神索尔以及斯拉夫人的雷神佩龙十分类似，其他重要神明包括太阳和繁殖女神绍莱，道加瓦和墨涅斯。",
+        "translation": "波罗的原始宗教是一种多神信仰，主神是天神季耶瓦斯。其他主神包括雷电之神佩尔库纳斯，和日耳曼人的雷神索尔以及斯拉夫人的雷神佩龙十分类似，其他重要神明包括太阳和繁殖女神绍莱，道加瓦和墨涅斯。",
         "stage": 5
     },
     {
@@ -8828,8 +8708,8 @@
     {
         "key": "slavic_pagan_DESC",
         "original": "Slavic heathenry is polytheistic, the chief god being Perun, god of thunder and lightning, quite similar to the Germanic god Thor. Other important deities include Veles, god of the underworld, Svarog, Jarilo and Svantevit. In addition, many tribes revere local gods.",
-        "translation": "斯拉夫异教信仰是一种多神信仰，主神是雷电之神佩龙，类似日耳曼人的雷神索尔。其他重要的神灵包括大地水和冥界之神维列斯，火神斯瓦洛格，繁衍植物生长战争与丰收之神亚利洛以及斯维托维德。此外许多部落崇拜当地的神灵。",
-        "stage": 5
+        "translation": "斯拉夫异教信仰是一种多神信仰，主神是雷电之神佩龙，类似日耳曼人的雷神索尔。其他重要的神灵包括大地、水和冥界之神维列斯，火神斯瓦洛格，繁衍植物生长战争与丰收之神亚利洛以及斯维托维德。此外许多部落崇拜当地的神灵。",
+        "stage": 1
     },
     {
         "key": "west_african_pagan_DESC",
@@ -9086,7 +8966,7 @@
     {
         "key": "EVTDESC_TOG_4003",
         "original": "A band of fierce Vikings have established a warrior brotherhood in [From.Location.GetName] along the Baltic coast. Based in a castle known as Jomsborg, these Jomsvikings are devoted to Thor, Odin and the other Norse gods. They brook no quarter on the battlefield and will permit only the strongest and ablest warriors amongst their number.\\n\\nThough there are those who would dismiss them as simple brigands, the Jomsvikings have vowed to defend all Norse lands being encroached by Christendom or other foreign religions.",
-        "translation": "一群凶猛的维京人在[From.Location.GetName]建立了城堡。扎根于那个被称作约姆斯堡的城堡，约姆斯维京人崇拜索尔和奥丁以及其他的北欧诸神。他们在战场上毫不迟疑，只允许最强壮和最能干的勇士加入。\\n\\n虽然有人视为山贼一样清除它们，但约姆斯维京人誓要捍卫北欧的土地。",
+        "translation": "一群凶猛的维京人在位于波罗的海沿岸的[From.Location.GetName]建立了城堡。扎根于那个被称作约姆斯堡的城堡，约姆斯维京人崇拜索尔和奥丁以及其他的北欧诸神。他们在战场上毫不迟疑，只允许最强壮和最能干的勇士加入。\\n\\n虽然有人视为山贼一样清除它们，但约姆斯维京人誓要捍卫北欧的土地。",
         "stage": 5
     },
     {
@@ -9543,18 +9423,18 @@
         "key": "EVTDESC200",
         "original": "His Holiness, [Root.GetTitledFirstName], has been swayed by the cries for help from the Christian population in the [From.GetFullName]. He urges all able-bodied men of Europe to take up arms against the evil [New.GetTitledName] in order to secure [From.GetName] from the clutches of the Mahommedan infidels.\\n\\n God will grant the pilgrims remission of sins in Heaven!",
         "translation": "[Root.GetTitledFirstName]陛下被[From.GetFullName]的基督徒的恸哭打动了。他号召全欧洲的健壮青年拿起武器去对抗邪恶的[New.GetTitledName]，旨在从伊斯兰异教徒的手中拯救[From.GetName]。\\n\\n上帝将在天堂宽恕朝圣者的罪！",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "EVTDESC201",
         "original": "His Holiness, [Root.GetTitledFirstName], is worried about the state of the souls in the [From.GetFullBaseName]. The heathens under [New.GetTitledName] have no hope for salvation and will suffer the eternal fires unless they can be brought to Christ in this life. Any Christian so willing is offered complete absolution of sins in the armed mission against the [New.Religion.GetName] barbarians!",
         "translation": "[Root.GetTitledFirstName]陛下担忧[From.GetFullBaseName]里灵魂们的状态。[New.GetTitledName]的异教徒毫无救赎的希望，除非他们今生能信仰基督，否则将遭到永火的灼烧。所有基督徒在对抗[New.Religion.GetName]野蛮人的武装传教中都将获得完全免除罪孽的奖赏！",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "EVTDESC321",
         "original": "The [From.GetFullBaseName] is afflicted with the scourge of Heresy. His Holiness, [Root.GetTitledFirstName], has decided that the impure [New.GetTitledName] and [New.GetPossPronoun] fallen followers must be Cleansed before this black stain spreads any further!",
-        "translation": "[From.GetFullBaseName]正遭到异端的荼毒。[Root.GetTitledFirstName]陛下认为肮脏的[New.GetTitledName]和[New.GetPossPronoun]的堕落的追随者们必须被净化，吾辈须赶在这些黑暗的蚀迹扩散之前！",
+        "translation": "[From.GetFullBaseName]正遭到异端的荼毒。[Root.GetTitledFirstName]陛下认为肮脏的[New.GetTitledName]和[New.GetPossPronoun]堕落的追随者们必须被净化，吾辈须赶在这些黑暗的蚀迹扩散之前！",
         "stage": 1
     },
     {
@@ -9650,13 +9530,13 @@
     {
         "key": "roman",
         "original": "Roman",
-        "translation": "罗马人",
+        "translation": "罗马",
         "stage": 5
     },
     {
         "key": "maghreb_arabic",
         "original": "Berber",
-        "translation": "柏柏尔人",
+        "translation": "柏柏尔",
         "stage": 5
     },
     {
@@ -9938,8 +9818,8 @@
     {
         "key": "EVTDESC_TOG_6000",
         "original": "Ever since the Sassanid Empire succumbed to the Arab invasions, Persia has suffered under the yoke of Mohammedan rulers. The last remnants of the old Zoroastrian order retreated north into the plains of Central Asia, but now, at long last, Zoroastrian rule over Persia has been restored.\\n\\nThis miraculous recovery can be attributed to your brilliant leadership, and there are many amongst the clergy who have decreed you to be the Saoshyant – the savior of the world that Zoroaster himself spoke of thousands of years ago. After embracing this role, you are now revered as a holy icon by Zoroastrians everywhere.",
-        "translation": "自从萨珊帝国在阿拉伯的入侵灭亡后，波斯被穆斯林统治者戴上了镣铐。残余的祆教信徒撤退到了中亚的平原，但现在祆教的统治者终于夺回了波斯。\\n\\n这个奇迹归功于你明智的领导，许多神职人员声称你是萨奥希扬特——祆教传说中的救世主。认可了这一身份后，你在琐罗亚斯德教的四处都备受崇敬。",
-        "stage": 1
+        "translation": "自从萨珊帝国在阿拉伯的入侵灭亡后，波斯被穆斯林统治者戴上了镣铐。残余的祆教信徒撤退到了中亚的平原，但现在祆教的统治者终于夺回了波斯。\\n\\n这个奇迹归功于你明智的领导，许多神职人员声称你是萨奥希扬特——祆教传说中的救世主。认可了这一身份后，你在祆教各处都备受崇敬。",
+        "stage": 5
     },
     {
         "key": "EVTOPTA_TOG_6000",
@@ -10100,13 +9980,13 @@
     {
         "key": "job_chancellor_greek",
         "original": "Magistros",
-        "translation": "马哲司推劳",
+        "translation": "总理大臣",
         "stage": 5
     },
     {
         "key": "job_treasurer_greek",
         "original": "Sakellarios",
-        "translation": "萨克拉里奥斯",
+        "translation": "财政大臣",
         "stage": 5
     },
     {
@@ -10118,7 +9998,7 @@
     {
         "key": "job_spiritual_orthodox",
         "original": "Ecclesiarch",
-        "translation": "教堂司事",
+        "translation": "教会牧长",
         "stage": 5
     },
     {
@@ -10280,8 +10160,8 @@
     {
         "key": "EVTDESC266",
         "original": "Your commanding presence on the battlefield was felt during the recent victory, by friends and foes alike. You bolstered the spirits of the men when it was needed most, and you personally led the final charge that broke the back of the enemy army.",
-        "translation": "你在最近胜利中的指挥，让朋友和敌人都感到敬佩。你鼓舞着士兵们的精神，你的领导最终摧毁了敌人。",
-        "stage": 5
+        "translation": "你在最近胜利中的指挥，让朋友和敌人都感到敬佩。你在士兵们最需要的时候鼓舞了他们的精神，你身先士卒领导的最后冲锋沉重地摧毁了敌军。",
+        "stage": 1
     },
     {
         "key": "EVTDESC267",
@@ -10424,7 +10304,7 @@
     {
         "key": "viking_desc",
         "original": "This character has earned a reputation as a fearsome Viking raider.",
-        "translation": "这个角色获得了维京海盗这一令人惧怕的称号",
+        "translation": "这个角色获得了维京海盗这一令人惧怕的称号。",
         "stage": 5
     },
     {

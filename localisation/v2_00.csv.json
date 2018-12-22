@@ -627,7 +627,7 @@
         "key": "EVTDESC39660",
         "original": "Christian Pilgrims to the the Holy Land suffer all manner of abuse and the routes are not safe. In order to protect the pilgrims and secure Jerusalem for Christ and the faithful, His Holiness, [Root.GetTitledName], has accepted the possibility of an outright invasion by joint Christian forces. This signals a new era of large scale Christian holy wars - the Crusades.",
         "translation": "去圣地朝圣的基督徒常常遭受各种侮辱和迫害，朝圣之路并不安全。为了保护朝圣者，也为了替基督和信徒们夺取耶路撒冷，[Root.GetTitledName]陛下认为可以集结基督徒的力量对异教徒进行一次彻底的入侵。这预示着大规模基督教圣战的时代开始了——十字军。",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "EVTOPTA39660",
@@ -645,19 +645,19 @@
         "key": "EVTDESC39661",
         "original": "The Roman Empire in the East. Byzantium - Christianity's firm bulwark against the Mohammedan infidels of the Orient - is failing. The dire situation has convinced His Holiness, [Root.GetTitledName], to accept the possibility of an outright invasion by joint Christian forces. This signals a new era of large scale Christian holy wars - the Crusades.",
         "translation": "东方的罗马帝国，基督教对抗东方穆罕默德异教徒的坚实壁垒——拜占庭正在陷落。可怕的现状让[Root.GetTitledName]陛下开始思考集结基督徒的力量对异教徒进行彻底入侵的可能性。大规模的基督教圣战开始了——这就是十字军。",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "EVTDESC39662",
         "original": "Rome, the city of Saint Peter and the very seat of the Papacy itself, has fallen to infidels. In response, the Pope-in-exile, His Holiness, [Root.GetTitledName], has declared his intention to forge a great alliance of Christian lords in order to reclaim the eternal city. This signals a new era of large scale Christian holy wars - the Crusades.",
         "translation": "罗马，圣伯多禄的城市，教宗的圣座，被异教徒占领了。作为回应，流亡的教宗，[Root.GetTitledName]陛下宣布要集结基督教领主的力量夺回永恒之城。大规模的基督教圣战开始了——这就是十字军。",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "EVTDESC39663",
         "original": "The very heartlands of Western Christianity are under siege by infidels! Desperate Christian lords have persuaded His Holiness, [Root.GetTitledName], to declare his intention of forging a great and righteous alliance to expel the heathens in the name of God. This signals a new era of large scale Christian holy wars - the Crusades.",
         "translation": "西方基督教的腹地被异教徒攻陷了！绝望的基督教领主们说服了[Root.GetTitledName]陛下在神的名义下联合基督教领主们，用强大的力量驱逐异教徒。大规模的基督教圣战开始了——这就是十字军。",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "EVTNAME39670",
@@ -1064,14 +1064,14 @@
     {
         "key": "DYNASTY_CONTROLS_HOLY_ORDER",
         "original": "Dynasty controls $ORDER$: §G+$VALUE$§!",
-        "translation": "家族成员控制$ORDER$：§G+$VALUE$§!",
-        "stage": 5
+        "translation": "家族成员是$ORDER$领导人：§G+$VALUE$§!",
+        "stage": 1
     },
     {
         "key": "DYNASTY_CONTROLS_RELIGIOUS_HEAD",
         "original": "Dynasty controls $RELIGION$: §G+$VALUE$§!",
-        "translation": "家族成员控制$RELIGION$：§G+$VALUE$§!",
-        "stage": 5
+        "translation": "家族成员是$RELIGION$宗教领袖：§G+$VALUE$§!",
+        "stage": 1
     },
     {
         "key": "opinion_generous_donation",
@@ -1946,7 +1946,7 @@
     {
         "key": "EVTDESC_SOA_4123",
         "original": "His Holiness the [From.PrimaryTitle.GetRulerTitle] has gifted me with 100¤ in gratitude for my eradication of the heretics in [FromFrom.GetName].",
-        "translation": "圣座[From.PrimaryTitle.GetRulerTitle]送给我 100¤ 为表扬我清除[FromFrom.GetName]的异端做出的工作。",
+        "translation": "[From.PrimaryTitle.GetRulerTitle]陛下送给我 100¤ 以表扬我清除[FromFrom.GetName]的异端做出的工作。",
         "stage": 5
     },
     {
@@ -2024,8 +2024,8 @@
     {
         "key": "EVTDESC_SOA_4200",
         "original": "The adherents of the [FromFrom.GetName] faith have steadily dwindled to the point where [From.GetName] believers are in the majority. This new state of affairs has reduced the [FromFrom.GetName] faith to a de facto heresy! All former [FromFrom.GetName] Holy Orders are now [From.GetName].",
-        "translation": "[FromFrom.GetName]信仰的拥护者正在慢慢减少，[From.GetName]的信徒已成为主流。这一情况使得[FromFrom.GetName]成为了事实上的异端！所有之前信仰[FromFrom.GetName]的圣战士，如今都会为[From.GetName]而战。",
-        "stage": 5
+        "translation": "[FromFrom.GetName]信仰的拥护者正在慢慢减少，[From.GetName]的信徒已成为主流。这一情况使得[FromFrom.GetName]成为了事实上的异端！所有之前信仰[FromFrom.GetName]的骑士团，如今都会为[From.GetName]而战。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_SOA_4200",
@@ -2084,8 +2084,8 @@
     {
         "key": "opinion_refused_request_holy_order",
         "original": "Forbidden to Join Holy Order",
-        "translation": "不允许加入圣战士",
-        "stage": 5
+        "translation": "不允许加入骑士团",
+        "stage": 1
     },
     {
         "key": "BANISH_ALL_OF_RELIGION_EFFECT",
@@ -2162,25 +2162,25 @@
     {
         "key": "d_fraticelli",
         "original": "The Fraticelli Papacy",
-        "translation": "小兄弟会教廷",
+        "translation": "小兄弟会宗座",
         "stage": 5
     },
     {
         "key": "d_fraticelli_adj",
         "original": "Fraticelli Papal",
-        "translation": "小兄弟会教廷",
+        "translation": "小兄弟会宗座",
         "stage": 5
     },
     {
         "key": "d_iconoclast",
         "original": "The Iconoclast Patriarchate",
-        "translation": "圣像破坏派牧首属邦",
+        "translation": "圣像破坏派牧首教座",
         "stage": 5
     },
     {
         "key": "d_iconoclast_adj",
         "original": "Iconoclast Patriarchal",
-        "translation": "圣像破坏派牧首",
+        "translation": "圣像破坏派牧首教座",
         "stage": 5
     },
     {
@@ -2246,13 +2246,13 @@
     {
         "key": "patriarchy_instituted",
         "original": "Patriarchate Instituted",
-        "translation": "牧首属邦被创立",
+        "translation": "牧首教座被创立",
         "stage": 5
     },
     {
         "key": "create_fraticelli_papacy",
         "original": "Create the Fraticelli Papacy",
-        "translation": "创建小兄弟会教廷",
+        "translation": "创建小兄弟会宗座",
         "stage": 5
     },
     {
@@ -2264,7 +2264,7 @@
     {
         "key": "create_iconoclast_patriarchy",
         "original": "Create the Iconoclast Patriarchate",
-        "translation": "创建圣像破坏派牧首属邦",
+        "translation": "创建圣像破坏派牧首教座",
         "stage": 5
     },
     {
@@ -2330,19 +2330,19 @@
     {
         "key": "israelite",
         "original": "Israelite",
-        "translation": "以色列文化",
+        "translation": "以色列",
         "stage": 5
     },
     {
         "key": "ashkenazi",
         "original": "Ashkenazi",
-        "translation": "阿什肯纳兹犹太人",
+        "translation": "阿什肯纳兹",
         "stage": 5
     },
     {
         "key": "sephardi",
         "original": "Sephardi",
-        "translation": "塞法迪犹太人",
+        "translation": "塞法迪",
         "stage": 5
     },
     {
@@ -2576,7 +2576,7 @@
     {
         "key": "EVTDESC_SOA_1609",
         "original": "The Brotherhood has worked tirelessly to protect Christian holy sites and relics in the Holy Land ever since it was first founded in 313, when the Edict of Milan legalized Christendom throughout the Roman Empire. Until recently, the Brotherhood consisted of ordained clergy who maintained and safeguarded these religious sites through largely peaceful means.\\n\\nAs the winds of change sweep across the world, this holy order has now become increasingly militarized and their ranks have grown dramatically to include professional soldiers as well. They have reaffirmed their dedication to protect the Holy Land from heathen invaders, but this pledge has now extended to include the defense of all of Orthodox Christendom.",
-        "translation": "313年，米兰敕令发布，承认了基督教的合法地位，圣墓兄弟会也在当年成立。自那以后，兄弟会一直不知疲倦的辛劳工作，保护圣墓中的基督教圣地和圣遗物。直到前不久，兄弟会还是由神职人员通过和平的手段来保护这些宗教圣地的。\\n\\n但是到了最近，一切都变得不同了。兄弟会的组织正越发军事化，人数疯狂地增长，并招收了许多职业的军人。他们重申了他们会为保护圣地而奉献一切，但这条誓言如今不仅只包括圣墓，还包括了保护整个东正教信仰。",
+        "translation": "313年，米兰敕令发布，承认了基督教的合法地位，圣墓兄弟会也在当年成立。自那以后，兄弟会一直不知疲倦的辛劳工作，保护圣墓中的基督教圣地和圣物。直到前不久，兄弟会还是由神职人员通过和平的手段来保护这些宗教圣地的。\\n\\n但是到了最近，一切都变得不同了。兄弟会的组织正越发军事化，人数疯狂地增长，并招收了许多职业的军人。他们重申了他们会为保护圣地而奉献一切，但这条誓言如今不仅只包括圣墓，还包括了保护整个东正教信仰。",
         "stage": 1
     },
     {
@@ -2786,8 +2786,8 @@
     {
         "key": "EVTDESC_SOA_1909",
         "original": "The Third Temple now stands tall on Temple Mount in Jerusalem, and several pious Jews have formed a new holy order modelled after the ancient Zealots to protect Judaism against its enemies. Just like the Jewish sect that is their namesake, these new Zealots will not shy away from violence against those they feel are deserving.\\n\\nSome within the Jewish religious community have accused the Zealots of taking their faith to extreme levels, but the ranks of this new order continue to swell as Jewish exiles returning to the Promised Land flock to their banner. Their numbers now include everyone from uneducated peasants to veteran soldiers from distant European wars.",
-        "translation": "第三圣殿如今屹立在耶路撒冷的圣殿山上，一些虔诚的犹太教徒效仿古老的奋锐党组建了一队新的圣战士。就如与他们同名的犹太教派一样，新的奋锐党不会羞于对他们的敌人使用暴力。\\n\\n犹太教团里有些人指责奋锐党的信念太过极端，但是不断有犹太教的流浪者们返回应许之地加入奋锐党，军团的人数不断增长。军团的成员现在包括从未受过教育的农民到在欧洲打过仗的老兵。",
-        "stage": 5
+        "translation": "第三圣殿如今屹立在耶路撒冷的圣殿山上，一些虔诚的犹太教徒效仿古老的奋锐党组建了一个新的骑士团。就如与他们同名的犹太教派一样，新的奋锐党不会羞于对他们的敌人使用暴力。\\n\\n犹太教团里有些人指责奋锐党的信念太过极端，但是不断有犹太教的流浪者们返回应许之地加入奋锐党，军团的人数不断增长。军团的成员现在包括从未受过教育的农民到在欧洲打过仗的老兵。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_SOA_1909",
@@ -2816,7 +2816,7 @@
     {
         "key": "EVTDESC_SOA_1953",
         "original": "Most righteous [Root.GetTitledFirstName], the Zealots need more castles in order to train troops and generate a supporting income. It has come to my attention that there is a suitable location in your demesne - in [FromFrom.GetName] to be specific. I am willing to pay you 100 gold in exchange for the right to construct a fortress there.\\n\\nRemember Masada!\\nGrand Master [From.GetFirstName]",
-        "translation": "最正直的[Root.GetTitledFirstName]，奋锐党需要更多的城堡来训练部队兵维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出 100 金币换取您对我们在此地建筑要塞的许可。\\n勿忘马萨达！\\n\\n大团长 [From.GetFirstName]谨上",
+        "translation": "最正直的[Root.GetTitledFirstName]，奋锐党需要更多的城堡来训练部队兵维持开销。我注意到，在您的直辖领地中，[FromFrom.GetName]是一个非常适合地方。我愿意出 100 金币换取您对我们在此地建筑要塞的许可。\\n勿忘马萨达！\\n\\n大团长[From.GetFirstName]谨上",
         "stage": 5
     },
     {
@@ -2864,8 +2864,8 @@
     {
         "key": "EVTDESC_SOA_2009",
         "original": "The mighty Sky-Father of the Tengri faith is all-seeing, but still has need of human instruments on the ground. The Lords of the Sky, a new holy order that has been founded in the wake of the Tengri Reformation, ride to do battle against infidels and to spread the will of the Sky-Father to all corners of the world. The deafening sound of these knights approaching on their mounts is like thunder in the sky, and the noise alone is rumored to have made some convert to the Tengri religion on the spot.",
-        "translation": "全能的天父腾格里无所不知，但是在地上仍旧需要有人来支持。在长生天改革之后，一队名为天之骄子的圣战士已经准备好与异教徒作战，将天父的意志传到世界的每个角落。骑士们到来时震耳欲聋的马蹄声如霹雳般撕裂天际，传说有些人仅仅听到他们的声响就已经当场皈依长生天了。",
-        "stage": 5
+        "translation": "全能的天父腾格里无所不知，但是在地上仍旧需要有人来支持。在长生天改革之后，一队名为天之骄子的骑士团已经准备好与异教徒作战，将天父的意志传到世界的每个角落。骑士们到来时震耳欲聋的马蹄声如霹雳般撕裂天际，传说有些人仅仅听到他们的声响就已经当场皈依长生天了。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_SOA_2009",
@@ -2954,8 +2954,8 @@
     {
         "key": "EVTDESC_SOA_2109",
         "original": "With the reformation of the many African pagan belief systems into a single coherent whole, several tribes have agreed to pool together their best warriors into a single holy order. They claim to be the Guardians of the Spirits and they have vowed to defend the spirits and those who believe in them from all who would do them harm.",
-        "translation": "随着非洲信仰的改革，过去众多的非洲原始宗教被系统的整合为了一个整体。部落们同意派出他们最精锐的战士组成一队圣战士。圣战士们自称灵魂守卫，宣誓会守护灵魂以及任何灵魂的信仰者。",
-        "stage": 5
+        "translation": "随着非洲信仰的改革，过去众多的非洲原始宗教被系统的整合为了一个整体。部落们同意派出他们最精锐的战士组成一个骑士团。这个骑士团自称「灵魂守卫」，宣誓会守护灵魂以及任何灵魂的信仰者。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_SOA_2109",
@@ -3038,8 +3038,8 @@
     {
         "key": "EVTDESC_SOA_2209",
         "original": "The Slavic faith has been reformed and this has led to a religious fervor throughout the lands of the Slavs the likes of which has never been seen before. Many of the greatest champions have come together to form a new Slavic holy order. They call themselves the Warriors of Perun, the god of thunder, and have all taken vows to defend the Slavic faith and its believers to their dying breaths.",
-        "translation": "斯拉夫信仰的改革在斯拉夫人的土地上掀起了从未有过的宗教狂热。许许多多伟大的战士聚到一起，组成了一支圣战士。他们自称为雷电之神佩龙的勇士，誓死守卫斯拉夫信仰。",
-        "stage": 5
+        "translation": "斯拉夫信仰的改革在斯拉夫人的土地上掀起了从未有过的宗教狂热。许许多多伟大的战士聚到一起，组成了一个骑士团。他们自称为雷电之神「佩龙的勇士」，誓死守卫斯拉夫信仰。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_SOA_2209",
@@ -3206,8 +3206,8 @@
     {
         "key": "EVTDESC_SOA_2409",
         "original": "A new Finnish holy order has surfaced dedicated to the preservation and defense of the new reformed Suomenusko religion. These warriors call themselves the 'Sons of Kaleva' and they are prepared to march into battle against all those who would deny the truth of their faith. Many Finns look upon them as the heroes of their ancient myths, and they seem to have no shortage of recruits.",
-        "translation": "一支新的芬兰圣战士投身于守卫改革后的索米信仰。这些战士称呼自己为「卡勒瓦之子」，准备着与任何不信他们信仰的人开战。许多芬兰人将他们视为古老神话中的英雄，看来圣战士们不会缺少新鲜的血液。",
-        "stage": 5
+        "translation": "一个新的芬兰骑士团投身于守卫改革后的索米信仰。这些战士称呼自己为「卡勒瓦之子」，准备着与任何不信他们信仰的人开战。许多芬兰人将他们视为古老神话中的英雄，看来这些战士们不会缺少新鲜的血液。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_SOA_2409",
@@ -3548,8 +3548,8 @@
     {
         "key": "owns_relic",
         "original": "Owns a Holy Relic",
-        "translation": "拥有一份圣遗物",
-        "stage": 5
+        "translation": "拥有一份圣物",
+        "stage": 1
     },
     {
         "key": "EVTDESC_SoA_5000",
@@ -3650,8 +3650,8 @@
     {
         "key": "EVTOPTB_SoA_5019",
         "original": "I will visit Köln to see the relics of the Three Kings.",
-        "translation": "我应当去科隆参观东方三博士的圣遗物。",
-        "stage": 5
+        "translation": "我应当去科隆参观三王的圣物。",
+        "stage": 1
     },
     {
         "key": "EVTOPTC_SoA_5019",
@@ -3794,8 +3794,8 @@
     {
         "key": "EVTDESC_SoA_5027",
         "original": "You look out across the beautiful valley stretching out before you. It would be a wonderful moment, if not for the fact that there should be no valley here. You are a pilgrim in an unfamiliar land and you have no idea where you are.",
-        "translation": "你小心翼翼的穿过一条横躺在你面前的溪流。如果不是因为在这里不该有这条溪流的话，这会是个美妙的时刻。你在人生地不熟的地方迷了路。",
-        "stage": 5
+        "translation": "一条美丽的山谷横亘在你面前。尽管风景优美，但是你的内心却高兴不起来。这里本不应该有山谷的啊。总之现在你是一名迷路的朝圣者了，你完全不知道自己在哪里。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_SoA_5027",
@@ -4310,8 +4310,8 @@
     {
         "key": "EVTDESC_SoA_5057",
         "original": "The saints, this holy ground, how it all moves my soul! I realize now that all my life up to this point has only been a preparation for this journey. How wondrous that the light of the Lord truly shines in me, a poor sinner. From now on I shall always do His work.",
-        "translation": "圣徒、圣地，它们根植入我的灵魂！我意识到往昔的种种不过为今日而铺垫，主的荣光已照耀我的罪身，我愿永颂他的名。",
-        "stage": 5
+        "translation": "圣人、圣地，它们根植入我的灵魂！我意识到往昔的种种不过为今日而铺垫，主的荣光已照耀我的罪身，从此我愿永远承行他的旨意。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_SoA_5057",
@@ -4616,8 +4616,8 @@
     {
         "key": "asked_for_money",
         "original": "Asked for Money",
-        "translation": "要过了钱",
-        "stage": 5
+        "translation": "请求了资助",
+        "stage": 1
     },
     {
         "key": "AIREASON_FREE_VS_PAPAL_INVEST_ASK_FOR_MONEY",
@@ -4850,7 +4850,7 @@
     {
         "key": "CAMPAIGN_FUND_CARDINALS_DESC",
         "original": "Money in the Campaign Fund will increase your influence with the Papacy and make your candidate more likely to be elected the next $RULER_TITLE$. You can freely adjust the amount until the next $RULER_TITLE$ is elected, when the Fund will be used up in the election campaign.",
-        "translation": "选举基金里钱的多少决定着你在教会影响力的大小，还关乎你支持的候选人当选下任$RULER_TITLE$可能性。你可以在下任$RULER_TITLE$的选举结果公布之前随意调整数量。届时，不管成功与否，花掉的选举基金覆水难收。",
+        "translation": "竞选资金里的财富会提升你对教廷的影响力，并让你的候选人更有可能被选为下一位$RULER_TITLE$。你可以在下一位$RULER_TITLE$的选举结果公布之前随意调整数量。届时，这笔资金将被全部用于竞选活动。",
         "stage": 5
     },
     {
@@ -5204,8 +5204,8 @@
     {
         "key": "EVTDESC_SoA_5201",
         "original": "One day at the market, a strange man comes up to you and offers to sell to you what he swears is a finger of Saint John the Baptist. You look at it carefully, and it does indeed seem to be a set of old human bones.",
-        "translation": "某天，市场上有一个神秘人走近你，极力兜售一段指骨——他坚称其属于「施洗者」圣约翰。你仔细地看了看，这确实像一段老人的骨头。",
-        "stage": 5
+        "translation": "某天，市场上有一个神秘人走近你，极力兜售一段指骨——他坚称其属于洗者若翰。你仔细地看了看，这确实像一段老人的骨头。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_SoA_5201",
@@ -5264,7 +5264,7 @@
     {
         "key": "EVTOPTA_SoA_5205",
         "original": "Curses! My ancestors will be turning in their graves.",
-        "translation": "天杀的！ 我的先祖会在坟墓中辗转反侧的。",
+        "translation": "天杀的！ 我的先祖会在坟墓中气的打滚的。",
         "stage": 5
     },
     {
@@ -5318,8 +5318,8 @@
     {
         "key": "EVTDESC_SoA_5208",
         "original": "Fingers of Saint John the Baptist, discount price for boxes of ten!\\nA bishop brings to your attention that false relics are being sold at the market at great profits. They do of course generate a lot of commerce and taxes, but still, it's rather immoral and blasphemous.",
-        "translation": "谎称装有「施洗者」圣约翰的指骨，一个盒子能卖出十倍的价格！\\n一名主教向你指出，假圣物的买卖利润很大，确实能繁荣市场并增加税收，但无法掩盖这一行为的不道德，这也是对神明的大不敬。",
-        "stage": 5
+        "translation": "谎称装有洗者圣若翰的指骨，一个盒子能卖出十倍的价格！\\n一名主教向你指出，假圣髑的买卖利润很大，确实能繁荣市场并增加税收，但无法掩盖这一行为的不道德，这也是对神明的大不敬。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_SoA_5208",
@@ -5576,7 +5576,7 @@
     {
         "key": "EVTOPTA_SoA_5242",
         "original": "I have been blessed like the Virgin Mary!",
-        "translation": "如同圣母玛丽亚，这是神宠！",
+        "translation": "我如童贞玛利亚般充满圣宠！",
         "stage": 5
     },
     {
@@ -5726,7 +5726,7 @@
     {
         "key": "CAPITAL_DUCHY",
         "original": "Capital Duchy",
-        "translation": "首都所在公爵领",
+        "translation": "首都所在公国",
         "stage": 5
     },
     {
@@ -6038,8 +6038,8 @@
     {
         "key": "EVTDESC_SOA_3009",
         "original": "My [Root.GetLordSpiritualName] [FromFrom.GetFirstName] believes that little [From.GetFirstName] is the spawn of [Root.Religion.GetRandomEvilGodName]! Even worse, [FromFrom.GetSubjectPronoun] believes that [From.GetPossPronoun] mother, [From.Mother.GetTitledFirstName], is a witch who has had congress with demons!",
-        "translation": "我的[Root.GetLordSpiritualName][FromFrom.GetFirstName]确信小[From.GetFirstName]是[Root.Religion.GetRandomEvilGodName]的产物！更糟糕的是，[FromFrom.GetSubjectPronoun]认为[From.GetPossPronoun]的母亲，[From.Mother.GetTitledFirstName]是一个与恶魔交媾的女巫！",
-        "stage": 5
+        "translation": "我的[Root.GetLordSpiritualName][FromFrom.GetFirstName]确信小[From.GetFirstName]是[Root.Religion.GetRandomEvilGodName]的产物！更糟糕的是，[FromFrom.GetSubjectPronoun]认为[From.GetPossPronoun]母亲，[From.Mother.GetTitledFirstName]是一个与恶魔交媾的女巫！",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_SOA_3009",
@@ -6260,8 +6260,8 @@
     {
         "key": "EVTDESC_SOA_3041",
         "original": "My dear [GetFromRelation] [From.GetFirstName] must have suffered a stroke in [From.GetPossPronoun] sleep last night. [From.GetSubjectPronounCap] was found drooling in bed, one eye bloodshot, mumbling about a small monster that stabbed [From.GetObjectPronoun] in the eye before it ran off. There are dark rumours about the so called 'demon child', my [GetFromFromRelation] [FromFrom.GetFirstName], again... As always when something terrible happens, [FromFrom.GetSubjectPronoun] does seem inordinately happy.",
-        "translation": "我亲爱的[GetFromRelation] [From.GetFirstName]在昨晚[From.GetPossPronoun]睡梦中受到了袭击。仆人发现[From.GetSubjectPronounCap]在床上流着口涎，一只眼睛充血红肿，嘴里含糊不清地说着，似乎一只小怪物刺伤了[From.GetObjectPronoun]眼睛，然后跑掉了。有种关于「恶魔之子」的可怕传闻，想到我的[GetFromFromRelation][FromFrom.GetFirstName]，一言难尽……每当身边有可怕的事情发生，[FromFrom.GetSubjectPronoun]就会异常地开心。",
-        "stage": 5
+        "translation": "我亲爱的[GetFromRelation][From.GetFirstName]在昨晚[From.GetPossPronoun]睡梦中受到了袭击。仆人发现[From.GetSubjectPronounCap]在床上流着口涎，一只眼睛充血红肿，嘴里含糊不清地说着，似乎一只小怪物刺伤了[From.GetObjectPronoun]眼睛，然后跑掉了。有种关于「恶魔之子」的可怕传闻，想到我的[GetFromFromRelation][FromFrom.GetFirstName]，一言难尽……每当身边有可怕的事情发生，[FromFrom.GetSubjectPronoun]就会异常地开心。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_SOA_3041",
@@ -6446,7 +6446,7 @@
     {
         "key": "EVTDESC_SoA_5307",
         "original": "You have received strange news from Rome. The former Pope, [From.GetTitledFirstName], did by his actions and lifestyle so defile the Holy See that the current authorities in Rome decided to put his corpse on trial!\\nThe corpse of [From.GetTitledFirstName] was removed from its tomb and brought to the papal court for judgement. It was propped up on a throne, and a deacon was chosen to speak for it as its legal representative.\\nPerhaps unsurprisingly, the accused was found guilty on all accounts and subjected to a punishment most dire. The corpse was stripped of its papal vestments, three fingers on the right hand (those used to give blessings) were cut off, and then it was interred in a graveyard normally reserved for foreigners of low status. The punishment still not being deemed severe enough, the corpse was then exhumed again, tied to weights and cast into the river Tiber.",
-        "translation": "你听到一则发生在罗马的荒唐闹剧。前教宗，[From.GetTitledFirstName]，曾因生活方式和其他行为和罗马教廷发生过冲突。教宗过世后，教廷掌握了罗马的实权，他们决定对他的尸体进行审判！\\n[From.GetTitledFirstName]的遗体被人从坟墓中掘出，押到宫廷以待审判。尸体被靠在王座上，一名助祭被选出给它做辩护人。\\n毫无疑问，所有的控罪都被宣布成立，并当庭判决施以酷刑。教宗的法衣被剥下，右手（用以赐福的）三根手指被切掉，接着尸体被草葬在通常埋葬身份卑微的外乡人的公墓。尔后，他们似乎认为这样的定罪还远远不够，尸体再次被扒出来，绑上石头扔进了台伯河。",
+        "translation": "你听到一则发生在罗马的荒唐闹剧。前教宗，[From.GetTitledFirstName]，因生活方式和其他行为严重玷污了圣座，现任当局决定对他的尸体进行审判！\\n[From.GetTitledFirstName]的遗体被人从坟墓中掘出，押到教宗宫廷以待审判。尸体被架在宝座上，另选出一名执事作为其辩护人。\\n不足为奇，所有的控罪都宣布成立，并应施以酷刑。教宗的法衣被剥下，右手（用以赐福的）三根手指被切掉，接着尸体被草葬在通常埋葬身份卑微的外乡人的公墓。尔后，他们似乎认为这样的定罪还远远不够，尸体再次被扒出来，绑上石头扔进了台伯河。",
         "stage": 5
     },
     {
@@ -6536,7 +6536,7 @@
     {
         "key": "EVTOPTA_SoA_5301",
         "original": "May [Root.Religion.GetRandomGodName] have mercy on me.",
-        "translation": "愿[Root.Religion.GetRandomGodName]宽恕我。",
+        "translation": "望[Root.Religion.GetRandomGodName]垂怜我。",
         "stage": 5
     },
     {
@@ -6950,8 +6950,8 @@
     {
         "key": "EVTDESC_SoA_5370",
         "original": "These are unusual times. [From.GetFirstName]'s influence is felt all around, wherever you go. There is a surge in religiosity among the commoners, who see her as a national saviour and almost a Christ-figure. Among the nobles many are charmed by her pious innocence and energetic zeal, in spite of most of them also viewing her as a dangerous upstart. Meanwhile, the clergy is divided, some seeing a heretic and others a saint.",
-        "translation": "最近很不寻常，无论你走到哪里，[From.GetFirstName]的影响力似乎无处不在。平民狂热的崇拜她，他们视她为救世主——甚至神的化身。尽管大部分贵族把她视作威胁，但他们好多人打心里敬重她异乎寻常的虔诚和热切的真诚。同时，教会也分裂成两派，一些人说她是异端，另外的把她视作圣徒。",
-        "stage": 5
+        "translation": "最近很不寻常，无论你走到哪里，[From.GetFirstName]的影响力似乎无处不在。平民狂热的崇拜她，他们视她为救世主——甚至神的化身。尽管大部分贵族把她视作威胁，但他们好多人打心里敬重她异乎寻常的虔诚和热切的真诚。同时，教会也分裂成两派，一些人说她是异端，另外的把她视作圣人。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_SoA_5370",
@@ -7088,13 +7088,13 @@
     {
         "key": "EVTDESC_SoA_5394",
         "original": "The flames leap higher and higher, crackling as they begin to eat at the wood. Slowly, [From.GetFirstName] starts to twist as they begin to lick her legs. The gathered crowd stares in stunned silence - some hungry for her death, others overcome by horror at what they see. The life of this woman is coming to an end, she who captured the attention of the entire realm during these months. Saint or devil – the eyes of the onlookers hold different views, but it seems certain that she will remembered for many many years. Perhaps she shall have her restitution in time, perhaps not.\\nAs the flames climb higher and take hold of [From.GetFirstName]'s body, she twitches violently but still does not cry out. Her gaze is fixed on the heavens, tears streaming from her face. Many onlookers turn away now, but others are fixed to the spot, unable to avert their eyes. Slowly, [From.GetFirstName] disappears from view as the flames rise around her.",
-        "translation": "火舌越蹿越高，它噼啪作响，开始撕咬柱子的底部。渐渐的，当火苗舔过双腿，[From.GetFirstName]的身体变得扭曲。周围的人群一言不发地盯着看——一些人迫不及待她的死亡，其他人则因眼前所见而感到恐惧。这个女孩快断气了，虽然她几个月以来都是万众瞩目的焦点。圣徒还是恶棍？看法因人而异，毋庸置疑的是她将青史留名。随时光流逝，以后她能平冤昭雪也说不定，谁知道。\\n火苗飘得更高，[From.GetFirstName]的全身已被火焰吞噬，她开始剧烈抽搐却依然一声不吭。她凝望天空，泪流满面。许多人心中不忍，或转身，或遮面，也有人目不转睛的死死盯着。火越来越大，[From.GetFirstName]的身形渐渐消失在烈火中。",
-        "stage": 5
+        "translation": "火舌越蹿越高，它噼啪作响，开始撕咬柱子的底部。渐渐的，当火苗舔过双腿，[From.GetFirstName]的身体变得扭曲。周围的人群一言不发地盯着看——一些人迫不及待她的死亡，其他人则因眼前所见而感到恐惧。这个女孩快断气了，虽然她几个月以来都是万众瞩目的焦点。圣人还是恶棍？看法因人而异，毋庸置疑的是她将青史留名。随时光流逝，以后她能平冤昭雪也说不定，谁知道。\\n火苗飘得更高，[From.GetFirstName]的全身已被火焰吞噬，她开始剧烈抽搐却依然一声不吭。她凝望天空，泪流满面。许多人心中不忍，或转身，或遮面，也有人目不转睛的死死盯着。火越来越大，[From.GetFirstName]的身形渐渐消失在烈火中。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_SoA_5394",
         "original": "May the Lord have mercy on her soul.",
-        "translation": "愿主宽恕她的灵魂。",
+        "translation": "望主垂怜她的灵魂。",
         "stage": 5
     },
     {
@@ -7292,8 +7292,8 @@
     {
         "key": "ALL_SUBUNITS_EITHER_MERC_OR_HOLY",
         "original": "Cannot select a leader for a flank which consists of only mercenaries and holy order companies.",
-        "translation": "无法为只有雇佣军和圣战士的侧翼选择指挥者。",
-        "stage": 5
+        "translation": "无法为只有雇佣军和骑士团的侧翼选择指挥者。",
+        "stage": 1
     },
     {
         "key": "SM_AUTOSAVETOCLOUD",
@@ -7328,8 +7328,8 @@
     {
         "key": "SPLIT_HOLY_ORDERS_OPTION",
         "original": "Split off Holy Orders",
-        "translation": "分离圣战士",
-        "stage": 5
+        "translation": "分离骑士团",
+        "stage": 1
     },
     {
         "key": "SPLIT_RETINUES_OPTION",
@@ -7388,13 +7388,13 @@
     {
         "key": "IRONMAN_MODE_ENABLED",
         "original": "Ironman Mode: §GEnabled§!",
-        "translation": "铁人模式：§G可用§!",
+        "translation": "铁人模式：§G启用§!",
         "stage": 5
     },
     {
         "key": "IRONMAN_MODE_DISABLED",
         "original": "Ironman Mode: §RDisabled§!",
-        "translation": "铁人模式：§R不可用§!",
+        "translation": "铁人模式：§R禁用§!",
         "stage": 5
     },
     {
@@ -7508,8 +7508,8 @@
     {
         "key": "HINT_CARDINAL_VIEW_TEXT_3",
         "original": "Each cardinal has a single vote he can cast for who he wants to become the next Holy Father of the Catholic Church. The one with the most support is known as the Preferatus and is most likely to become the new Pope.",
-        "translation": "每个枢机都有一票，他可以投票选举公教会的下任圣父。支持者最多的被称为预选者，是最有可能成为新教宗的候选者。",
-        "stage": 5
+        "translation": "每个枢机都有一票，他可以投票选举公教会的下任圣父教宗。支持者最多的被称为预选者，是最有可能成为新教宗的候选者。",
+        "stage": 1
     },
     {
         "key": "EVTNAME_SoA_5400",

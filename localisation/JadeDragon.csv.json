@@ -1496,7 +1496,7 @@
     {
         "key": "EVTOPTA_JD_20024",
         "original": "Anything to please the [From.Offmap.Ruler.GetTitle].",
-        "translation": "任何可以取悦[From.Offmap.Ruler.GetTitle]的东西。",
+        "translation": "只要能取悦[From.Offmap.Ruler.GetTitle]。",
         "stage": 5
     },
     {
@@ -2228,7 +2228,7 @@
     {
         "key": "indian_group",
         "original": "Eastern",
-        "translation": "东方宗教组",
+        "translation": "东方宗教",
         "stage": 5
     },
     {
@@ -2264,8 +2264,8 @@
     {
         "key": "title_canjun_desc",
         "original": "The Staff Officer of an army, the position of Canjun is granted to trustworthy deputies in a military body or sometimes a political arm, and is a prestigious title to hold.",
-        "translation": "参军即军队的参谋官，被授予给值得信赖的副手，该官职不仅限于军队也存在于政府系统中，是一个享有声望的头衔。",
-        "stage": 5
+        "translation": "参军即军队的参谋官，被授予给值得信赖的副手，该官职不仅限于军队也存在于政府系统中，是一个享有盛名的头衔。",
+        "stage": 1
     },
     {
         "key": "title_yuhou",
@@ -2330,19 +2330,19 @@
     {
         "key": "han",
         "original": "Han",
-        "translation": "汉人",
+        "translation": "汉",
         "stage": 5
     },
     {
         "key": "chinese_group",
         "original": "Chinese",
-        "translation": "中华文化",
+        "translation": "中华",
         "stage": 5
     },
     {
         "key": "jurchen",
         "original": "Jurchen",
-        "translation": "女真人",
+        "translation": "女真",
         "stage": 5
     },
     {
@@ -4166,7 +4166,7 @@
     {
         "key": "gov_confucian",
         "original": "Chinese Protectorate",
-        "translation": "天朝保护国",
+        "translation": "天朝都护府",
         "stage": 5
     },
     {
@@ -4478,8 +4478,8 @@
     {
         "key": "WAR_NAME_FORCE_VASSALIZATION",
         "original": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Vassalization War",
-        "translation": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$附庸战争",
-        "stage": 5
+        "translation": "$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$附庸战争",
+        "stage": 1
     },
     {
         "key": "force_vassalization_desc",
@@ -4490,7 +4490,7 @@
     {
         "key": "dejure_duchy_claim_desc",
         "original": "The §Y$TITLE$§! is, de jure, a vassal of §Y$CLAIMANT$§!. By spending a significant amount of §YPrestige§!, we can go to war for the entire duchy.",
-        "translation": "§Y$TITLE$§!是§Y$CLAIMANT$§!的一个法理封臣。我们可以消耗一大笔§Y威望§!来发动战争夺取整块公爵领！",
+        "translation": "§Y$TITLE$§!是§Y$CLAIMANT$§!的一个法理封臣。我们可以消耗一大笔§Y威望§!来发动战争夺取整块公国！",
         "stage": 5
     },
     {
@@ -4502,8 +4502,8 @@
     {
         "key": "WAR_NAME_GREATREALMCONFLICT",
         "original": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Great Conquest of $OTHER_TITLE$",
-        "translation": "$ORDER$$FIRST_ADJ$——$SECOND_ADJ$$OTHER_TITLE$的伟大征服",
-        "stage": 5
+        "translation": "$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$争夺$OTHER_TITLE$的伟大征服",
+        "stage": 1
     },
     {
         "key": "great_realm_conflict_desc",
@@ -4514,19 +4514,19 @@
     {
         "key": "CB_NAME_DUCALCOUNTYCONQUEST",
         "original": "Ducal Conquest of [Title.GetBaseName]",
-        "translation": "[Title.GetBaseName]公爵领征服",
+        "translation": "[Title.GetBaseName]公国征服",
         "stage": 5
     },
     {
         "key": "WAR_NAME_DUCALCOUNTYCONQUEST",
         "original": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Ducal Conquest of $OTHER_TITLE$",
-        "translation": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$征服公爵领$OTHER_TITLE$战争",
-        "stage": 5
+        "translation": "$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$征服公国$OTHER_TITLE$的战争",
+        "stage": 1
     },
     {
         "key": "ducal_county_conquest_desc",
         "original": "§Y$TARGET$§! holds land in a Duchy you are pretender to. By spending §YPiety§! and §YGold§! you can go to war over any County that is part of a Duchy you hold land in, as long as the Duchy has no holder. This Casus Belli is only available to characters of Count or Duke tier.",
-        "translation": "你拥有§Y$TARGET$§!公国的宣称。通过花费§Y虔诚§!和§Y金钱§!，你就可以发起获取该公国下属土地的战争。这宣战理由只提供给伯爵或公爵级的角色。",
+        "translation": "你拥有§Y$TARGET$§!公国的宣称。只要这个公国无人持有，你就可以花费§Y虔诚§!和§Y金钱§!，发起获取该公国下属土地的战争。这宣战理由只提供给伯爵或公爵级的角色。",
         "stage": 5
     },
     {
@@ -4538,8 +4538,8 @@
     {
         "key": "WAR_NAME_LIBERATE_RELIGION",
         "original": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ War to Religiously Liberate [Title.GetBaseName]",
-        "translation": "$ORDER$$FIRST_ADJ$——$SECOND_ADJ$宗教解放[Title.GetBaseName]战争",
-        "stage": 5
+        "translation": "$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$宗教解放[Title.GetBaseName]战争",
+        "stage": 1
     },
     {
         "key": "liberate_religion_desc",
@@ -4592,8 +4592,8 @@
     {
         "key": "WAR_NAME_HOSTAGES",
         "original": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ War to Free Captives",
-        "translation": "$ORDER$$FIRST_ADJ$——$SECOND_ADJ$解救俘虏战争",
-        "stage": 5
+        "translation": "$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$解救俘虏战争",
+        "stage": 1
     },
     {
         "key": "EVTDESC_JD_2000",
@@ -4736,13 +4736,13 @@
     {
         "key": "WAR_NAME_UNJUST_COUNTY_CONQUEST",
         "original": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Border Dispute over $OTHER_TITLE$",
-        "translation": "$ORDER$$FIRST_ADJ$——$SECOND_ADJ$在$OTHER_TITLE$边界争端",
-        "stage": 5
+        "translation": "$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$争夺$OTHER_TITLE$的边界争端",
+        "stage": 1
     },
     {
         "key": "unjust_conquest_desc",
         "original": "You can choose to dispute any County that borders you. Beware that choosing to wage a conquest not backed by a Claim carries hefty penalties - the penalties are the highest when attacking someone following your religion, fairly high while attacking someone of your religious group and still significant when attacking someone of another religious group.",
-        "translation": "你可以选择去入侵任何与你接壤的伯爵领。但是要注意在没有宣称的情况下发动侵略将要付出沉重的代价——当你攻击同宗教的领主时所付出的代价是最高的，其次是攻击与你在同一宗教组的，最次但代价依然沉重的是攻击其他宗教的领主。",
+        "translation": "你可以选择去入侵任何与你接壤的伯爵领。但是要注意在没有宣称的情况下发动侵略将要付出沉重的代价——当你攻击同宗教的领主时所付出的代价是最高的，其次是攻击与你在同一宗教组的，最次的是攻击其他宗教组的领主，但代价依然沉重。",
         "stage": 1
     },
     {
@@ -4778,8 +4778,8 @@
     {
         "key": "WAR_NAME_OFFMAP_SUBMISSION",
         "original": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Submission War",
-        "translation": "$ORDER$$FIRST_ADJ$——$SECOND_ADJ$附庸战争",
-        "stage": 5
+        "translation": "$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$归顺战争",
+        "stage": 1
     },
     {
         "key": "tributary_offmap_cb_desc",
@@ -4844,7 +4844,7 @@
     {
         "key": "WAR_NAME_PERMANENT_TRIBUTARY",
         "original": "$ORDER$$FIRST_ADJ$ War to Make $DEFENDER$ a Tributary State",
-        "translation": "$ORDER$$FIRST_ADJ$令$DEFENDER$朝贡战争",
+        "translation": "$ORDER$ $FIRST_ADJ$令$DEFENDER$朝贡战争",
         "stage": 5
     },
     {
@@ -4868,7 +4868,7 @@
     {
         "key": "WAR_NAME_NOMAD_TRIBUTARY",
         "original": "$ORDER$$FIRST_ADJ$ War to Make $DEFENDER$ a Tributary State",
-        "translation": "$ORDER$$FIRST_ADJ$令$DEFENDER$朝贡战争",
+        "translation": "$ORDER$ $FIRST_ADJ$令$DEFENDER$朝贡战争",
         "stage": 5
     },
     {
@@ -4940,8 +4940,8 @@
     {
         "key": "d_han_massive",
         "original": "Dragon Army",
-        "translation": "青龙军",
-        "stage": 5
+        "translation": "青龙佣兵团",
+        "stage": 1
     },
     {
         "key": "d_han_large",
@@ -4970,13 +4970,13 @@
     {
         "key": "d_tangut_low",
         "original": "Tangut Band",
-        "translation": "党项人大队",
+        "translation": "党项大队",
         "stage": 5
     },
     {
         "key": "d_bodpa_low",
         "original": "Bödpa Band",
-        "translation": "蕃人大队",
+        "translation": "吐蕃大队",
         "stage": 5
     },
     {
@@ -5060,8 +5060,8 @@
     {
         "key": "EVTDESC_ADV_5_B",
         "original": "To the clever [Root.GetTitledFirstName],\\nI have considered your offer together with my closest advisors, and I am afraid to say I cannot accept these terms. [selling_province.GetName] is a fine county, but I think you will agree that the benefits of granting it to me peacefully far outweigh the sum of gold you request.\\n\\nSigned,\\n[From.GetTitledName]",
-        "translation": "睿智的[Root.GetTitledFirstName]：\\n我与我亲密的顾问考虑了你的提议，恕我不能接受。[selling_province.GetName]是块宝地，你应当明白将它和平转交给我的好处远远大于你所要求的黄金。\\n\\n此致，\\n[From.GetTitledName]",
-        "stage": 5
+        "translation": "致睿智的[Root.GetTitledFirstName]：\\n我与我亲密的顾问考虑了你的提议，恕我不能接受。[selling_province.GetName]是块宝地，你应当明白将它和平转交给我的好处远远大于你所要求的黄金。\\n\\n此致，\\n[From.GetTitledName]",
+        "stage": 1
     },
     {
         "key": "String_witches",
@@ -5348,7 +5348,7 @@
     {
         "key": "create_followers_arjuna",
         "original": "Form the Followers of Arjuna",
-        "translation": "创设阿周那军众",
+        "translation": "成立阿周那军众",
         "stage": 5
     },
     {
@@ -5360,13 +5360,13 @@
     {
         "key": "create_followers_arjuna_tooltip",
         "original": "The Holy Order §YFollowers of Arjuna§! is established.",
-        "translation": "圣战士§Y阿周那军众§!已经建立。",
+        "translation": "骑士团§Y阿周那军众§!已经成立。",
         "stage": 5
     },
     {
         "key": "create_ashokas_chosen",
         "original": "Form the Chosen of Ashoka",
-        "translation": "创设无忧王精兵",
+        "translation": "成立无忧王精兵",
         "stage": 5
     },
     {
@@ -5378,13 +5378,13 @@
     {
         "key": "create_ashokas_chosen_tooltip",
         "original": "The Holy Order §YChosen of Ashoka§! is established.",
-        "translation": "圣战士§Y无忧王精兵§!已经建立。",
+        "translation": "骑士团§Y无忧王精兵§!已经成立。",
         "stage": 5
     },
     {
         "key": "create_bulls_rishabha",
         "original": "Form the Bulls of Rishabha",
-        "translation": "创设勒舍波神牛军",
+        "translation": "成立勒舍波神牛军",
         "stage": 5
     },
     {
@@ -5396,14 +5396,14 @@
     {
         "key": "create_bulls_rishabha_tooltip",
         "original": "The Holy Order §YBulls of Rishabha§! is established.",
-        "translation": "圣战士§Y勒舍波神牛军§!已经建立。",
+        "translation": "骑士团§Y勒舍波神牛军§!已经成立。",
         "stage": 5
     },
     {
         "key": "EVTDESC_HO_110",
         "original": "The [leader_of_arjuna.Religion.GetName] faith is one of the oldest religions in the world, yet nothing will last forever unless it is defended. Therefore, a great effort has been made to establish a new holy order. They call themselves the [leader_of_arjuna.PrimaryTitle.GetName].\\n\\nLead by a fearless warrior named [leader_of_arjuna.GetFirstName], they swear to answer the call of all devoted followers of [leader_of_arjuna.Religion.GetHighGodName]. To help them in their wars against the infidels and prove themselves worthy of the name Arjuna.",
-        "translation": "虽然[leader_of_arjuna.Religion.GetName]信仰是世界上最古老的宗教之一，但是没有守护它就不能万古长存。为此，一个新的圣战士团体在万般努力后成立了。他们自称[leader_of_arjuna.PrimaryTitle.GetName]。\\n\\n在一位名为[leader_of_arjuna.GetFirstName]的无畏战士的带领下，他们发誓回应所有[leader_of_arjuna.Religion.GetHighGodName]追随者的召唤，帮助召唤者对抗异教徒以证明自己配得上阿周那的名号。",
-        "stage": 5
+        "translation": "虽然[leader_of_arjuna.Religion.GetName]信仰是世界上最古老的宗教之一，但若无人守护它就不能万古长存。为此，一个新的骑士团在万般努力后成立了。他们自称[leader_of_arjuna.PrimaryTitle.GetName]。\\n\\n在一位名为[leader_of_arjuna.GetFirstName]的无畏战士的带领下，他们发誓回应所有[leader_of_arjuna.Religion.GetHighGodName]的追随者的召唤，帮助他们对抗异教徒并证明自己配得上阿周那的名号。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_HO_100",
@@ -5426,13 +5426,13 @@
     {
         "key": "EVTDESC_HO_120",
         "original": "To safeguard the teachings of Buddha, many have banded together to form a new holy order. They have named themselves the [leader_of_ashokas.PrimaryTitle.GetName], after the great emperor of the same name.\\n\\nGuided by the leadersip of a cunning warrior known as [leader_of_ashokas.GetFirstName], the order vow to be the sword of any [leader_of_ashokas.Religion.GetName] ruler struggling against foreign conquerors and turn the tide of battle.",
-        "translation": "为了守护佛陀留下的教义，很多信徒团结在一起组建了新的圣战士团体，他们自称[leader_of_ashokas.PrimaryTitle.GetName]，以伟大的皇帝的名字来命名。\\n\\n在一位狡猾的战士[leader_of_ashokas.GetFirstName]领导下，这个教团发誓成为[leader_of_ashokas.Religion.GetName]统治者抵御外来侵略者的利剑，从而扭转战局。",
-        "stage": 5
+        "translation": "为了守护佛陀留下的教义，很多信徒团结在一起组建了新的骑士团，他们自称[leader_of_ashokas.PrimaryTitle.GetName]，以伟大的皇帝的名字来命名。\\n\\n在一位狡猾的战士[leader_of_ashokas.GetFirstName]领导下，这个教团发誓成为[leader_of_ashokas.Religion.GetName]统治者抵御外来侵略者的利剑，从而扭转战局。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_HO_130",
         "original": "Followers of the [leader_of_rishabha.Religion.GetName] faith have always followed the central tenet of showing respect to all living creatures and to refrain from violence. But even the most peaceful of men must occasionally go to war.\\n\\nAs such, a new order has been founded, named the [leader_of_rishabha.PrimaryTitle.GetName]. They swear loyalty to all [leader_of_rishabha.Religion.GetName] rulers against those who would do them harm. A most devout [leader_of_rishabha.GetManWoman], named [leader_of_rishabha.GetFirstName], has pledged [leader_of_rishabha.GetHerselfHimself] to undertake the leadership of the order to preserve their way of life.",
-        "translation": "[leader_of_rishabha.Religion.GetName]宗教的信徒一直遵循着对所有生物的尊重和克制的中心原则，但即使是最和平的人也必须为自己的权利斗争。\\n\\n因此，一个新圣战士团被建立，名曰[leader_of_rishabha.PrimaryTitle.GetName]。他们向所有的[leader_of_rishabha.Religion.GetName]统治者宣誓效忠并进攻所有想要伤害他们的人。一个最虔诚的[leader_of_rishabha.GetManWoman][leader_of_rishabha.GetFirstName]已承诺，[leader_of_rishabha.GetHerselfHimself]将会为了维护教派的生存之道承担起领导的责任。",
+        "translation": "[leader_of_rishabha.Religion.GetName]的信徒一直遵循着对所有生物的尊重和克制的中心原则，但即使是最和平的人也必须为自己的权利斗争。\\n\\n因此，一个新的骑士团已经建立，名曰[leader_of_rishabha.PrimaryTitle.GetName]。他们向所有的[leader_of_rishabha.Religion.GetName]统治者宣誓效忠并进攻所有想要伤害他们的人。一位最虔诚的[leader_of_rishabha.GetManWoman][leader_of_rishabha.GetFirstName]已承诺，[leader_of_rishabha.GetHerselfHimself]将会为了维护他们的生存之道承担起领导的责任。",
         "stage": 5
     },
     {
@@ -5744,7 +5744,7 @@
     {
         "key": "ARTIFACT_DESTRUCTION_CONFIRMATION",
         "original": "Are you sure you want to §Rdestroy§! §Y[From.GetName]§!? It will be forever lost, and removed from §Y[This.GetBestName]§!'s §YTreasury§!",
-        "translation": "你确定要§R摧毁§!§Y[From.GetName]§!吗？它将永远消失，并从§Y[This.GetBestName]§!的§Y宝库§!中移除！",
+        "translation": "你确定要§R摧毁§!§Y[From.GetName]§!吗？它将永远消失，并从§Y[This.GetBestName]§!的§Y宝库§!中移除。",
         "stage": 5
     },
     {
@@ -5942,25 +5942,25 @@
     {
         "key": "tangut",
         "original": "Tangut",
-        "translation": "党项人",
+        "translation": "党项",
         "stage": 5
     },
     {
         "key": "bodpa",
         "original": "Bödpa",
-        "translation": "蕃人",
+        "translation": "吐蕃",
         "stage": 5
     },
     {
         "key": "nepali",
         "original": "Nepali",
-        "translation": "泥婆罗人",
+        "translation": "泥婆罗",
         "stage": 5
     },
     {
         "key": "tibetan_group",
         "original": "Tibeto-Burman",
-        "translation": "藏缅文化",
+        "translation": "藏缅",
         "stage": 5
     },
     {
@@ -6002,8 +6002,8 @@
     {
         "key": "PROV1469",
         "original": "Kangra",
-        "translation": "甘格",
-        "stage": 5
+        "translation": "建伽罗",
+        "stage": 1
     },
     {
         "key": "PROV1470",
@@ -7022,7 +7022,7 @@
     {
         "key": "d_uttaranchal",
         "original": "Uttaranchal",
-        "translation": "北安查尔",
+        "translation": "北安遮罗",
         "stage": 5
     },
     {
@@ -7034,14 +7034,14 @@
     {
         "key": "c_kangra",
         "original": "Kangra",
-        "translation": "甘格",
-        "stage": 5
+        "translation": "建伽罗",
+        "stage": 1
     },
     {
         "key": "c_kangra_adj",
         "original": "Kangran",
-        "translation": "甘格",
-        "stage": 5
+        "translation": "建伽罗",
+        "stage": 1
     },
     {
         "key": "c_garhwal",
@@ -9230,7 +9230,7 @@
     {
         "key": "assyrian",
         "original": "Assyrian",
-        "translation": "亚述人",
+        "translation": "亚述",
         "stage": 5
     },
     {
@@ -9290,7 +9290,7 @@
     {
         "key": "organize_army_light",
         "original": "Form the Army of Light",
-        "translation": "创立光明军",
+        "translation": "成立光明军",
         "stage": 5
     },
     {
@@ -9632,7 +9632,7 @@
     {
         "key": "RULE_EDU_FOCUSES",
         "original": "§BConclave:§! Childhood Focus Alerts",
-        "translation": "§B御前会议：§!童年焦点提醒",
+        "translation": "§B「御前会议」：§!童年焦点提醒",
         "stage": 5
     },
     {
@@ -10052,26 +10052,26 @@
     {
         "key": "EVTDESC_JD_50001_NEW_DYN",
         "original": "A new Dynasty has risen in China as the House of [FromFrom.GetOnlyDynastyName] has been supplanted by the House of [From.GetOnlyDynastyName]. However, the new [From.GetEmperorEmpress], [From.GetDynName], apparently seeks to pursue the same [From.Offmap.GetPolicy] Policy as [From.GetPossPronoun] predecessor. [From.GetDynName] likes [From.Offmap.GetLike] and dislikes [From.Offmap.GetDislike].",
-        "translation": "随着[FromFrom.GetOnlyDynastyName]朝被[From.GetOnlyDynastyName]朝取代，一个崭新的王朝在中国兴起。而这位[From.GetDynName]王朝的[From.GetEmperorEmpress]显然与前朝的[From.GetPossPronoun]有着同样的[From.Offmap.GetPolicy]追求。[From.GetDynName]偏好[From.Offmap.GetLike]，厌恶[From.Offmap.GetDislike]。",
-        "stage": 5
+        "translation": "随着[FromFrom.GetOnlyDynastyName]朝被[From.GetOnlyDynastyName]朝取代，一个崭新的王朝在中国兴起。而这位[From.GetDynName]王朝的[From.GetEmperorEmpress]显然与[From.GetPossPronoun]前任有着同样的[From.Offmap.GetPolicy]追求。[From.GetDynName]偏好[From.Offmap.GetLike]，厌恶[From.Offmap.GetDislike]。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_JD_50001_NEW_DYN_NEW_POLICY",
         "original": "A new Dynasty has risen in China as the House of [FromFrom.GetOnlyDynastyName] has been supplanted by the House of [From.GetOnlyDynastyName]. The new [From.GetEmperorEmpress], [From.GetDynName], favors an [From.Offmap.GetPolicy] China, and is abandoning the [From.Offmap.GetPrevPolicy] Policy of [From.GetPossPronoun] predecessor. [From.GetDynName] likes [From.Offmap.GetLike] and dislikes [From.Offmap.GetDislike].",
-        "translation": "一个新的中国王朝建立起来了，[FromFrom.GetOnlyDynastyName]朝失去的天命被[From.GetOnlyDynastyName]家获得。新的[From.GetEmperorEmpress]，[From.GetDynName]更推崇[From.Offmap.GetPolicy]中国政策，因此放弃了[From.GetPossPronoun]的[From.Offmap.GetPrevPolicy]政策。[From.GetDynName]本人更喜欢[From.Offmap.GetLike]而讨厌[From.Offmap.GetDislike]。",
-        "stage": 5
+        "translation": "一个新的中国王朝建立起来了，[FromFrom.GetOnlyDynastyName]朝失去的天命被[From.GetOnlyDynastyName]家获得。新的[From.GetEmperorEmpress]，[From.GetDynName]更推崇[From.Offmap.GetPolicy]中国政策，因此放弃了[From.GetPossPronoun][From.Offmap.GetPrevPolicy]政策。[From.GetDynName]本人更喜欢[From.Offmap.GetLike]而讨厌[From.Offmap.GetDislike]。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_JD_50001",
         "original": "[FromFrom.GetEmperorEmpress] [FromFrom.GetDynName], the Chinese '[FromFrom.GetSonDaughterCap] of Heaven', has died and been succeeded by [From.GetDynName]. Like [From.GetPossPronoun] predecessor, the new [From.GetEmperorEmpress] is known to believe in an [From.Offmap.GetPolicy] China. Apparently, [From.GetSubjectPronoun] takes a special interest in [From.Offmap.GetLike] but frowns on [From.Offmap.GetDislike].",
-        "translation": "[FromFrom.GetEmperorEmpress][FromFrom.GetDynName]，上天的[FromFrom.GetSonDaughterCap]，驾崩了，[From.GetDynName]继承了皇位。而这位[From.GetEmperorEmpress]像前朝的[From.GetPossPronoun]一样信奉一个[From.Offmap.GetPolicy]的中国。据说[From.GetSubjectPronoun]对[From.Offmap.GetLike]有着特殊的兴趣，但对[From.Offmap.GetDislike]蹙眉不悦。",
-        "stage": 5
+        "translation": "[FromFrom.GetEmperorEmpress][FromFrom.GetDynName]，上天的[FromFrom.GetSonDaughterCap]，驾崩了，[From.GetDynName]继承了皇位。而这位[From.GetEmperorEmpress]像[From.GetPossPronoun]前任一样信奉一个[From.Offmap.GetPolicy]的中国。据说[From.GetSubjectPronoun]对[From.Offmap.GetLike]有着特殊的兴趣，但对[From.Offmap.GetDislike]蹙眉不悦。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_JD_50001_NEW_POLICY",
         "original": "[FromFrom.GetEmperorEmpress] [FromFrom.GetDynName], known for [FromFrom.GetPossPronoun] [From.Offmap.GetPrevPolicy] Policy, has died and [From.GetDynName] now sits upon the Dragon Throne. It is said that [From.GetSubjectPronoun] especially appreciates [From.Offmap.GetLike] but despises [From.Offmap.GetDislike]. Unlike [From.GetPossPronoun] predecessor, the new [From.GetEmperorEmpress] is known to favor the idea of an [From.Offmap.GetPolicy] China.",
-        "translation": "以[FromFrom.GetPossPronoun][From.Offmap.GetPrevPolicy]政策闻名的[FromFrom.GetEmperorEmpress][FromFrom.GetDynName]业已驾崩，由[From.GetDynName]继承大统。据说[From.GetSubjectPronoun]十分欣赏[From.Offmap.GetLike]，但厌恶[From.Offmap.GetDislike]。不同于 [From.GetPossPronoun]前任，这位新[From.GetEmperorEmpress]以其[From.Offmap.GetPolicy]的治国方针而闻名。",
-        "stage": 5
+        "translation": "以[FromFrom.GetPossPronoun][From.Offmap.GetPrevPolicy]政策闻名的[FromFrom.GetEmperorEmpress][FromFrom.GetDynName]业已驾崩，由[From.GetDynName]继承大统。据说[From.GetSubjectPronoun]十分欣赏[From.Offmap.GetLike]，但厌恶[From.Offmap.GetDislike]。不同于[From.GetPossPronoun]前任，这位新[From.GetEmperorEmpress]以其[From.Offmap.GetPolicy]的治国方针而闻名。",
+        "stage": 1
     },
     {
         "key": "EVTOPT_JD_50001_OPEN",
@@ -10724,8 +10724,8 @@
     {
         "key": "RULE_JD_CBS_OFF_DESC",
         "original": "The following Casus Bellis can NOT be used: De Jure Duchy Claim, Ducal County Conquest, Force Vassalization, Great Realm Conflict, Liberate Religion and Permanent Tributary.",
-        "translation": "无法使用以下的宣战理由：收复法理公爵领地，统一公爵领，强制附庸，伟大征服，宗教解放，永久朝贡。",
-        "stage": 5
+        "translation": "无法使用以下的宣战理由：收复法理公国，统一公国，强制附庸，伟大征服，宗教解放，永久朝贡。",
+        "stage": 1
     },
     {
         "key": "raise_chinese_regiment",
@@ -10851,7 +10851,7 @@
         "key": "PROV1527",
         "original": "Uchturpan",
         "translation": "乌什吐鲁番",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "PROV1528",
@@ -10911,7 +10911,7 @@
         "key": "b_luohu",
         "original": "Luohu",
         "translation": "罗护",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "b_qiepantuo",
@@ -11175,7 +11175,7 @@
         "key": "b_nieercun",
         "original": "Nieercun",
         "translation": "聂耳村",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "b_pochao",
@@ -11205,19 +11205,19 @@
         "key": "b_laofutian",
         "original": "Laofutian",
         "translation": "老付田",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "b_gaochetian",
         "original": "Gaochetian",
         "translation": "镐车田",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "b_tunglingching",
         "original": "Tunglingching",
         "translation": "东凌井",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "b_yuyu",
@@ -11408,7 +11408,7 @@
     {
         "key": "b_baizhangzi",
         "original": "Baizhangzi",
-        "translation": "百丈淄",
+        "translation": "柏杖子",
         "stage": 1
     },
     {
@@ -11612,7 +11612,7 @@
     {
         "key": "EVTOPTA_JD_10102_A_craven",
         "original": "[Root.Religion.GetHighGodName], have mercy upon us!",
-        "translation": "[Root.Religion.GetHighGodName]，求您垂怜！",
+        "translation": "[Root.Religion.GetHighGodName]，垂怜我等！",
         "stage": 5
     },
     {
@@ -12800,14 +12800,14 @@
     {
         "key": "REVOKE_TITLE_INTERACTION_VOTE",
         "original": "§Y[Actor.GetTitledName]§! revoked a landed title from §Y[Recipient.GetTitledName]§!",
-        "translation": "§Y[Actor.GetTitledName]§!收回了§Y[Recipient.GetTitledName]§!的头衔",
-        "stage": 5
+        "translation": "§Y[Actor.GetTitledName]§!收回了§Y[Recipient.GetTitledName]§!的一个实地头衔",
+        "stage": 1
     },
     {
         "key": "GRANT_LANDED_TITLE_INTERACTION_VOTE",
         "original": "§Y[Actor.GetTitledName]§! granted a landed title to §Y[Recipient.GetTitledName]§!",
-        "translation": "§Y[Actor.GetTitledName]§!授予了§Y[Recipient.GetTitledName]§!头衔",
-        "stage": 5
+        "translation": "§Y[Actor.GetTitledName]§!授予了§Y[Recipient.GetTitledName]§!一个实地头衔",
+        "stage": 1
     },
     {
         "key": "IMPRISON_INTERACTION_VOTE",
@@ -13052,7 +13052,7 @@
     {
         "key": "EVTOPTB_JD_70003",
         "original": "I'm not scared of the Emperor!",
-        "translation": "我可不怕皇帝！",
+        "translation": "他是中华天子，但我可不怕他！",
         "stage": 5
     },
     {
@@ -13376,14 +13376,14 @@
     {
         "key": "jian_sword",
         "original": "Jian",
-        "translation": "剑",
-        "stage": 5
+        "translation": "中式剑",
+        "stage": 1
     },
     {
         "key": "jian_sword_desc",
         "original": "A twin-edged straight sword commonly used in China, the Jian is a strong and reliable weapon for any aspiring fighter.",
-        "translation": "剑是中国常用的双刃剑，对于任何有抱负的战士来说，剑都是一种有力而可靠的武器。",
-        "stage": 5
+        "translation": "中国常用的双刃剑，对于任何有抱负的战士来说，中式剑都是一种有力而可靠的武器。",
+        "stage": 1
     },
     {
         "key": "classic_of_poetry",
@@ -13700,8 +13700,8 @@
     {
         "key": "confess_faith_already_has_secret_rel_tt",
         "original": "[Root.GetTitledName] continues to secretly practice the [Root.SecretReligion.GetName] religion.",
-        "translation": "[Root.GetTitledName]继续秘密修习[Root.SecretReligion.GetName]。",
-        "stage": 5
+        "translation": "[Root.GetTitledName]继续秘密奉行[Root.SecretReligion.GetName]。",
+        "stage": 1
     },
     {
         "key": "EVTDESCB_MNM_6993",
@@ -13748,8 +13748,8 @@
     {
         "key": "EVT_DESCC_MNM_4301",
         "original": "I am bringing [From.GetFirstName] to the local [GetMOBuilding] today, there [From.GetSheHe] meets with many of my Brothers and Sisters [GetMOPenanceMeditation] who greet [From.GetHerHim] politely. As we leave the [GetMOBuilding] my [From.GetRootRelation] says \"[GetMOFarewell]\" to all those [From.GetSheHe] met today. I am very proud of [From.GetHerHis] attitude to the ways of [GetMOSaint].",
-        "translation": "我今天把[From.GetFirstName]带到当地的[GetMOBuilding]，在那里[From.GetSheHe]见到了我许多做[GetMOPenanceMeditation]的兄弟姐妹，他们礼貌地迎接[From.GetHerHim]。当我们离开[GetMOBuilding]我的[From.GetRootRelation]对今天遇到的所有[From.GetSheHe]说了「[GetMOFarewell]」。我对[FromGetHerHis]对待[GetGOSaint]道路的态度感到非常自豪。",
-        "stage": 5
+        "translation": "我今天把[From.GetFirstName]带到当地的[GetMOBuilding]，在那里[From.GetSheHe]见到了我许多做[GetMOPenanceMeditation]的兄弟姐妹，他们礼貌地迎接了[From.GetHerHim]。当我们离开[GetMOBuilding]时，我的[From.GetRootRelation]对[From.GetSheHe]今天遇到的所有人说「[GetMOFarewell]」。我对[From.GetHerHis]对待[GetMOSaint]道路的态度感到非常自豪。",
+        "stage": 1
     },
     {
         "key": "EVT_OPTA_MNM_4301",
@@ -13772,8 +13772,8 @@
     {
         "key": "EVT_DESC_MNM_4304",
         "original": "My former tutor [From.GetTitledFirstName] has come to ask me how well my attempts to follow the [From.GetMOCode] and improve myself in the eyes of [From.GetMOGod]. [From.GetSheHeCap] wants to know if I have had any success.",
-        "translation": "我以前的导师[From.GetTitledFirstName]已经开始询问我如何很好的尝试遵循[From.GetMOCode]和在[From.GetMOGod]的眼中进步。[From.GetSheHeCap]想知道我是否获得成功。",
-        "stage": 5
+        "translation": "我的前监护人[From.GetTitledFirstName]询问我是否有很好地遵循[From.GetMOCode]并在[From.GetMOGod]的庇佑下提升自己。[From.GetSheHeCap]想知道我是否有所收获。",
+        "stage": 1
     },
     {
         "key": "EVT_OPTA_MNM_4304",
@@ -13802,8 +13802,8 @@
     {
         "key": "EVT_DESC_MNM_4306",
         "original": "[From.GetFirstName] quickly changes the topic and no matter what I say [From.GetSheHe] refuses to talk about the matter... It seems [From.GetSheHe] has found \"better\" things to do... I am disappointed at [From.GetHerHis] lack of dedication to [GetMOGod] and [GetMOCode] and I hang my head in shame as I bid [From.GetHerHim] farewell. I failed [From.GetHerHim] as a tutor and must spend time [GetMOPenanceMeditation] to clear my mind.",
-        "translation": "[From.GetFirstName]很快转移了话题，无论我怎么说[From.GetSheHe]都拒绝讨论这件事……看上去[From.GetSheHe]已经找到的「更好」的事情去做……我对[From.GetHerHis]缺乏对[GetMOGod]和[GetMOCode]的奉献精神很是失望，我在羞耻中向[From.GetSheHe]告别。作为[From.GetHerHim]导师我很失败，我需要在[GetMOPenanceMeditation]中更下功夫好让我让我平静一下。",
-        "stage": 5
+        "translation": "[From.GetFirstName]很快转移了话题，无论我怎么说[From.GetSheHe]都拒绝讨论这件事……看上去[From.GetSheHe]已经找到的「更好」的事情去做……我对[From.GetHerHim]缺乏对[GetMOGod]和[GetMOCode]的奉献精神很是失望，我在羞耻中向[From.GetHerHim]告别。作为[From.GetHerHis]导师我很失败，我需要在[GetMOPenanceMeditation]中更下功夫好让我让我平静一下。",
+        "stage": 1
     },
     {
         "key": "EVT_OPTA_MNM_4306",
@@ -13814,7 +13814,7 @@
     {
         "key": "surrender_tributary_tt",
         "original": "§Y[This.GetTitledFirstName]§! will have the opportunity offer a peaceful resolution by agreeing to become the tributary of §Y[Root.GetTitledName]§!.",
-        "translation": "§Y[This.GetTitledFirstName]§!将会同意这个和平解决问题的方案：成为§Y[Root.GetTitledName]§!的朝贡国。",
+        "translation": "§Y[This.GetTitledFirstName]§!将有机会提出一个和平解决问题的提议：同意成为§Y[Root.GetTitledName]§!的朝贡国。",
         "stage": 1
     },
     {
@@ -14282,7 +14282,7 @@
     {
         "key": "WAR_NAME_DESTABILIZATION_CHINA",
         "original": "$ORDER$$FIRST_ADJ$ War to Shatter the Realm of $DEFENDER$",
-        "translation": "$ORDER$$FIRST_ADJ$分裂$DEFENDER$战争",
+        "translation": "$ORDER$ $FIRST_ADJ$粉碎$DEFENDER$战争",
         "stage": 5
     },
     {
@@ -14780,8 +14780,8 @@
     {
         "key": "d_han_massive_adj",
         "original": "Dragon Army",
-        "translation": "青龙军",
-        "stage": 5
+        "translation": "青龙佣兵团",
+        "stage": 1
     },
     {
         "key": "d_han_large_adj",
@@ -14810,13 +14810,13 @@
     {
         "key": "d_tangut_low_adj",
         "original": "Tangut Band",
-        "translation": "党项人大队",
+        "translation": "党项大队",
         "stage": 5
     },
     {
         "key": "d_bodpa_low_adj",
         "original": "Bödpa Band",
-        "translation": "蕃人大队",
+        "translation": "吐蕃大队",
         "stage": 5
     },
     {
@@ -14858,13 +14858,13 @@
     {
         "key": "d_jurchen_band",
         "original": "Jurchen Band",
-        "translation": "女真人大队",
+        "translation": "女真大队",
         "stage": 5
     },
     {
         "key": "d_jurchen_band_adj",
         "original": "Jurchen Band",
-        "translation": "女真人大队",
+        "translation": "女真大队",
         "stage": 5
     },
     {
@@ -15014,7 +15014,7 @@
     {
         "key": "EVTDESC_JD_10106_A",
         "original": "[offmap_china.Ruler.Culture.GetName] armies are finally retreating, after a bloody war with [the_winner.PrimaryTitle.GetName]. [the_winner.GetTitledName] has shown the whole world that [the_winner.GetHerHis] leadership is one to be reckoned with! This defeat will live on in our memory, and certainly in the mind of the [offmap_china.Ruler.GetChineseComplimentAdjective] [offmap_china.Ruler.GetEmpressEmperorCap] [offmap_china.Ruler.GetHerselfHimself].",
-        "translation": "[offmap_china.Ruler.Culture.GetName]的军队在与[the_winner.PrimaryTitle.GetName]的血腥战斗后最终败退。[the_winner.GetTitledName]向全世界宣示了[the_winner.GetHerHis]领导力是值得注意的！ 这次失败将会留在我们的记忆中，当然还有[offmap_china.Ruler.GetChineseComplimentAdjective] [offmap_china.Ruler.GetEmpressEmperorCap][offmap_china.Ruler.GetHerselfHimself]的记忆中。",
+        "translation": "[offmap_china.Ruler.Culture.GetName]的军队在与[the_winner.PrimaryTitle.GetName]的血腥战斗后最终败退。[the_winner.GetTitledName]向全世界宣示了[the_winner.GetHerHis]领导力是值得注意的！这次失败将会留在我们的记忆中，当然还有[offmap_china.Ruler.GetChineseComplimentAdjective][offmap_china.Ruler.GetEmpressEmperorCap][offmap_china.Ruler.GetHerselfHimself]的记忆中。",
         "stage": 5
     },
     {
@@ -15050,8 +15050,8 @@
     {
         "key": "EVTDESC_JD_10107_B",
         "original": "The people of [the_loser.PrimaryTitle.GetName] probably never knew why the [offmap_china.Ruler.GetChineseComplimentAdjective] [offmap_china.Ruler.GetEmpressEmperorCap] chose to attack [the_loser.GetTitledFirstName]. Regardless, they have suffered a crushing defeat and [offmap_china.Ruler.Culture.GetName] armies are journeying home to celebrate, as their victory has finally been declared.",
-        "translation": "[the_loser.PrimaryTitle.GetName]的人民或许永远不会知道为什么[offmap_china.Ruler.GetChineseComplimentAdjective]的[offmap_china.Ruler.GetEmpressEmperorCap]陛下会选择讨伐[the_loser.GetTitledFirstName]。无论如何，他们已经经历了一场一边倒的惨败。[offmap_china.Ruler.Culture.GetName]的军队胜利凯旋，向世人宣布他们的胜利。",
-        "stage": 5
+        "translation": "[the_loser.PrimaryTitle.GetName]的人民或许永远不会知道为什么[offmap_china.Ruler.GetChineseComplimentAdjective]的[offmap_china.Ruler.GetEmpressEmperorCap]陛下会选择讨伐[the_loser.GetTitledFirstName]。无论如何，他们已经经历了一场一边倒的惨败。[offmap_china.Ruler.Culture.GetName]人的军队胜利凯旋，向世人宣布他们的胜利。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_JD_10107",
@@ -15218,7 +15218,7 @@
     {
         "key": "WAR_NAME_DISMANTLE_PRETENDER_CHINA",
         "original": "The $ORDER$[offmap_china.GetFullName] War to Dismantle the Pretender [Recipient.PrimaryTitle.GetFullName]",
-        "translation": "[From.Offmap.Ruler.Culture.GetName]$ORDER$消灭伪朝[Recipient.PrimaryTitle.GetFullName]之战",
+        "translation": "$ORDER$ [offmap_china.GetFullName]消灭伪朝[Recipient.PrimaryTitle.GetFullName]之战",
         "stage": 5
     },
     {
@@ -15530,26 +15530,26 @@
     {
         "key": "EVTOPTG_MNM_9118_TT",
         "original": "Armor provides a bonus to §YMorale Offense§!, as well as §YMartial§!, §YPersonal Combat Skill§! and §YMonthly Prestige§!.",
-        "translation": "护甲将增强在进攻中的§Y士气打击§!，§Y军事§!，§Y个人实战技能§!及§Y每月威望§!。",
-        "stage": 5
+        "translation": "护甲将增强在进攻中的§Y士气打击§!，§Y军事§!，§Y个人实战能力§!及§Y每月威望§!。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_9120_TT_ARMOR",
         "original": "Order a [From.GetWeaponsmithWeapon] of the highest quality. This armor will give you §G+10%§! to §YMorale Offense§!, §G+0.75§! §YMonthly Prestige§!, §G+1§! §YMartial§! and §G+2§! §YPersonal Combat Skill§!.",
-        "translation": "订制最优质的[From.GetWeaponsmithWeapon]。这件盔甲会为你提供 §G+10%§! §Y士气打击§!，§G+0.75§! §Y每月威望§!，§G+1§! §Y军事§!和 §G+2§! §Y个人实战技能§!。",
-        "stage": 5
+        "translation": "订制最优质的[From.GetWeaponsmithWeapon]。这件盔甲会为你提供 §G+10%§! §Y士气打击§!，§G+0.75§! §Y每月威望§!，§G+1§! §Y军事§!和 §G+2§! §Y个人实战能力§!。",
+        "stage": 1
     },
     {
         "key": "EVTOPTB_MNM_9120_TT_ARMOR",
         "original": "Order a good quality [From.GetWeaponsmithWeapon]. This armor will give you §G+5%§! to §YMorale Offense§!, §G+0.5§! §YMonthly Prestige§!, §G+1§! §YMartial§! and §G+1§! §YPersonal Combat Skill§!.",
-        "translation": "订制优质的[From.GetWeaponsmithWeapon]。这件盔甲会为你提供 §G+5%§! §Y士气打击§!，§G+0.5§! §Y每月威望§!，§G+1§! §Y军事§!和 §G+1§! §Y个人实战技能§!。",
-        "stage": 5
+        "translation": "订制优质的[From.GetWeaponsmithWeapon]。这件盔甲会为你提供 §G+5%§! §Y士气打击§!，§G+0.5§! §Y每月威望§!，§G+1§! §Y军事§!和 §G+1§! §Y个人实战能力§!。",
+        "stage": 1
     },
     {
         "key": "EVTOPTC_MNM_9120_TT_ARMOR",
         "original": "Order the cheapest [From.GetWeaponsmithWeapon]. This armor will give you §G+0.25§! §YMonthly Prestige§!, §G+1§! §YMartial§! and §G+1§! §YPersonal Combat Skill§!.",
-        "translation": "订制最便宜的[From.GetWeaponsmithWeapon]。这件盔甲会为你提供 §G+0.25§! §Y每月威望§!，§G+1§! §Y军事§!和 §G+1§! §Y个人实战技能§!。",
-        "stage": 5
+        "translation": "订制最便宜的[From.GetWeaponsmithWeapon]。这件盔甲会为你提供 §G+0.25§! §Y每月威望§!，§G+1§! §Y军事§!和 §G+1§! §Y个人实战能力§!。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_9122_ARMOR",
@@ -15788,7 +15788,7 @@
     {
         "key": "WAR_NAME_FORCE_OPEN_CHINA",
         "original": "The $ORDER$$FIRST_ADJ$ War to Force Open the [offmap_china.GetFullName]",
-        "translation": "$ORDER$$FIRST_ADJ$强迫[offmap_china.GetFullName]开放战争",
+        "translation": "$ORDER$ $FIRST_ADJ$强迫[offmap_china.GetFullName]开放战争",
         "stage": 5
     },
     {
@@ -18254,14 +18254,14 @@
     {
         "key": "k_baluchistan",
         "original": "Sistan",
-        "translation": "锡斯坦",
-        "stage": 5
+        "translation": "昔思丹",
+        "stage": 1
     },
     {
         "key": "k_baluchistan_adj",
         "original": "Sistani",
-        "translation": "锡斯坦",
-        "stage": 5
+        "translation": "昔思丹",
+        "stage": 1
     },
     {
         "key": "d_baluchistan",
@@ -18890,7 +18890,7 @@
     {
         "key": "string_negotiate_cd",
         "original": " - you can negotiate again on: §Y[This.adventurer_negotiate_cd.GetExpiryDate]§!",
-        "translation": "- 你可以再次进行协商：§Y[This.adventurer_negotiate_cd.GetExpiryDate]§!",
+        "translation": "－你可以再次进行协商：§Y[This.adventurer_negotiate_cd.GetExpiryDate]§!",
         "stage": 5
     },
     {
@@ -18992,8 +18992,8 @@
     {
         "key": "is_not_ascetic_or_celibate_tt",
         "original": "Does NOT have an §YAscetic§! or §YCelibate§! trait",
-        "translation": "没有§Y苦行者§!或 §Y独身§!特质",
-        "stage": 5
+        "translation": "没有§Y苦行者§!或§Y独身主义者§!特质",
+        "stage": 1
     },
     {
         "key": "MARTIAL_TRIGGER",
@@ -19298,8 +19298,8 @@
     {
         "key": "ENABLE_MARRIAGE_AI_DESC",
         "original": "§YYou currently decide who this character can marry!§!\\nUnrestricting Marriages means that this character will be able to once again decide for themselves who to marry.",
-        "translation": "§Y你现在可以决定这个角色可以结婚的人是谁！§!\\n无拘无束的婚姻意味着这个角色将能够再次决定与谁结婚。",
-        "stage": 5
+        "translation": "§Y你现在可以决定这个角色可以结婚的人是谁！§!\\n无限制的婚姻意味着这个角色将能够再次决定与谁结婚。",
+        "stage": 1
     },
     {
         "key": "MARRIAGE_AI_RULER_TOO_LONG",
@@ -19322,7 +19322,7 @@
     {
         "key": "LEFT_TO_PAN_TO_CHARACTER",
         "original": "§GLeft-click to Pan to Location§!",
-        "translation": "§G单击左键前往所在位置§!",
+        "translation": "§G点击左键前往所在位置§!",
         "stage": 1
     },
     {
@@ -19599,7 +19599,7 @@
         "key": "b_baxoi",
         "original": "Baxoi",
         "translation": "八宿",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "b_beba",
@@ -22646,19 +22646,19 @@
     {
         "key": "d_sardinian_band",
         "original": "Sardinian Band",
-        "translation": "撒丁人大队",
+        "translation": "撒丁大队",
         "stage": 5
     },
     {
         "key": "d_sardinian_band_adj",
         "original": "Sardinian",
-        "translation": "撒丁人大队",
+        "translation": "撒丁大队",
         "stage": 5
     },
     {
         "key": "d_sardinian_company",
         "original": "Sardinian Company",
-        "translation": "撒丁人佣兵团",
+        "translation": "撒丁佣兵团",
         "stage": 5
     },
     {
@@ -22898,13 +22898,13 @@
     {
         "key": "sumpa",
         "original": "Sumpa",
-        "translation": "苏毗人",
+        "translation": "苏毗",
         "stage": 5
     },
     {
         "key": "zhangzhung",
         "original": "Zhangzhung",
-        "translation": "象雄人",
+        "translation": "象雄",
         "stage": 5
     },
     {
@@ -23486,7 +23486,7 @@
     {
         "key": "string_smith_cd",
         "original": " - you can employ a smith again on: §Y[This.employ_a_smith_cd.GetExpiryDate]§!",
-        "translation": "- 你可以再次雇佣一个铁匠在：§Y[This.employ_a_smith_cd.GetExpiryDate]§!",
+        "translation": "－你可以再次雇佣一个铁匠在：§Y[This.employ_a_smith_cd.GetExpiryDate]§!",
         "stage": 5
     },
     {
@@ -23546,7 +23546,7 @@
     {
         "key": "saka",
         "original": "Saka",
-        "translation": "塞人",
+        "translation": "塞种",
         "stage": 5
     },
     {
@@ -23774,7 +23774,7 @@
     {
         "key": "string_raid_cd",
         "original": " - expires on: §Y[This.china_raid_grace_cd.GetExpiryDate]§!",
-        "translation": "- 到期：§Y[This.china_raid_grace_cd.GetExpiryDate]§!",
+        "translation": "－到期：§Y[This.china_raid_grace_cd.GetExpiryDate]§!",
         "stage": 5
     },
     {
@@ -24092,8 +24092,8 @@
     {
         "key": "EVTOPTA_JD_32200",
         "original": "Let us walk lest I forget about the reason for the journey.",
-        "translation": "让我们走吧，以免忘记了此行的目的。",
-        "stage": 5
+        "translation": "让我们进去吧，别忘记了此行的目的。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_JD_32211",
@@ -25430,8 +25430,8 @@
     {
         "key": "lessons_taught_to_me_by_rival_3",
         "original": "Lessons Taught Me By My Enemy, by [From.OriginalOwner.GetTitledFirstName]",
-        "translation": "仇敌给我[From.OriginalOwner.GetTitledFirstName]的经验教训",
-        "stage": 5
+        "translation": "仇敌给我的经验教训，[From.OriginalOwner.GetTitledFirstName]著",
+        "stage": 1
     },
     {
         "key": "lessons_taught_to_me_by_rival_3_desc",
@@ -26258,43 +26258,43 @@
     {
         "key": "learning_languages_1",
         "original": "The [From.OriginalOwner.Culture.GetName] Language, Volume I",
-        "translation": "[From.OriginalOwner.Culture.GetName]语言，卷一",
+        "translation": "[From.OriginalOwner.Culture.GetName]语，卷一",
         "stage": 5
     },
     {
         "key": "learning_languages_1_desc",
         "original": "A beginner's manuscript in learning the language spoken by the [From.OriginalOwner.Culture.GetName], containing exercises for all ages.",
-        "translation": "初学者学习[From.OriginalOwner.Culture.GetName]语言的手稿，包含适合全年龄的练习。",
+        "translation": "初学者学习[From.OriginalOwner.Culture.GetName]语的手稿，包含适合全年龄的练习。",
         "stage": 5
     },
     {
         "key": "learning_languages_2",
         "original": "The [From.OriginalOwner.Culture.GetName] Language, Volume II",
-        "translation": "[From.OriginalOwner.Culture.GetName]语言，卷二",
+        "translation": "[From.OriginalOwner.Culture.GetName]语，卷二",
         "stage": 5
     },
     {
         "key": "learning_languages_2_desc",
         "original": "Based on the previous book in the series, this manuscript is a solid continuation for anyone invested in learning the [From.OriginalOwner.Culture.GetName] language.",
-        "translation": "这份手稿基于本系列的前作，是一本给所有投入精力学习[From.OriginalOwner.Culture.GetName]语言的人的实用续篇。",
+        "translation": "这份手稿基于本系列的前作，是一本给所有投入精力学习[From.OriginalOwner.Culture.GetName]语的人的实用续篇。",
         "stage": 5
     },
     {
         "key": "learning_languages_3",
         "original": "The [From.OriginalOwner.Culture.GetName] Language, Volume III",
-        "translation": "[From.OriginalOwner.Culture.GetName]语言，卷三",
+        "translation": "[From.OriginalOwner.Culture.GetName]语，卷三",
         "stage": 5
     },
     {
         "key": "learning_languages_3_desc",
         "original": "Focused less on exercises than the previous manuscripts in the series, the [From.OriginalOwner.Culture.GetName] language get a close examination, in this treatise by [From.OriginalOwner.GetTitledFirstName]. The section on dialects is particularly well composed.",
-        "translation": "比起之前更注重练习的系列前作，[From.OriginalOwner.GetTitledFirstName]的这部论著，对[From.OriginalOwner.Culture.GetName]语言的研究更为深入。方言部分写得尤其精彩。",
+        "translation": "比起之前更注重练习的系列前作，[From.OriginalOwner.GetTitledFirstName]的这部论著，对[From.OriginalOwner.Culture.GetName]语的研究更为深入。方言部分写得尤其精彩。",
         "stage": 5
     },
     {
         "key": "learning_languages_4",
         "original": "The [From.OriginalOwner.Culture.GetName] Language, Volume IV",
-        "translation": "[From.OriginalOwner.Culture.GetName]语言，卷四",
+        "translation": "[From.OriginalOwner.Culture.GetName]语，卷四",
         "stage": 5
     },
     {
@@ -26864,8 +26864,8 @@
     {
         "key": "has_stewardship_education_tt",
         "original": "Has a §YStewardship§! education",
-        "translation": "拥有 §Y财政§! 教育特质",
-        "stage": 5
+        "translation": "拥有 §Y管理§! 教育特质",
+        "stage": 1
     },
     {
         "key": "has_intrigue_education_tt",
@@ -26876,8 +26876,8 @@
     {
         "key": "has_learning_education_tt",
         "original": "Has a §YLearning§! education",
-        "translation": "拥有 §Y学习§! 教育特质",
-        "stage": 5
+        "translation": "拥有 §Y学问§! 教育特质",
+        "stage": 1
     },
     {
         "key": "EVTDESC_JD_15002",
@@ -27056,8 +27056,8 @@
     {
         "key": "EVTOPTF_JD_15010",
         "original": "No, my retinue needs their [Root.GetTitle] riding, alongside them.",
-        "translation": "不，我的随从们需要[Root.GetTitle]的陪伴。",
-        "stage": 5
+        "translation": "不，我的随从们需要他们的[Root.GetTitle]与他们齐头并进。",
+        "stage": 1
     },
     {
         "key": "will_receive_a_letter",
@@ -27308,7 +27308,7 @@
     {
         "key": "adopt_chinese_imperialism_tt",
         "original": "You will found a new Empire in the West, inspired by the splendor of the [offmap_china.GetFullName].\\n",
-        "translation": "受到[offmap_china.GetFullName]的辉煌文化的鼓舞，你将在西方成立一个新的帝国。",
+        "translation": "受到[offmap_china.GetFullName]的辉煌文化的鼓舞，你将在西方建立一个新的帝国。\\n",
         "stage": 5
     },
     {
@@ -27332,13 +27332,13 @@
     {
         "key": "emperor_female_tangut",
         "original": "Thu Ghu",
-        "translation": "图古",
+        "translation": "帝胡",
         "stage": 5
     },
     {
         "key": "emperor_tangut",
         "original": "Thu Ghu",
-        "translation": "图古",
+        "translation": "帝胡",
         "stage": 5
     },
     {

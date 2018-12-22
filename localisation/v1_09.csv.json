@@ -830,8 +830,8 @@
     {
         "key": "succ_patrician_elective_desc",
         "original": "This is the succession type in the great naval Merchant Republics. The next Doge is determined from among the heads of the five grand Patrician families depending on Age, Prestige, and invested Campaign Funds.",
-        "translation": "这是伟大航海商业共和国的继承法，下一任共和国总督将在五大贵人家族的族长中选举得出，选举取决于年龄、声望和已投入的竞选经费。",
-        "stage": 5
+        "translation": "这是伟大海洋商业共和国的继承法，下一任共和国总督将在五大贵人家族的族长中选举得出，选举取决于年龄、威望和已投入的竞选经费。",
+        "stage": 1
     },
     {
         "key": "IN_FAVOR_OF",
@@ -1100,7 +1100,7 @@
     {
         "key": "region_baltic",
         "original": "Baltic Trade Region",
-        "translation": "波罗的海贸易区",
+        "translation": "波罗的贸易区",
         "stage": 5
     },
     {
@@ -1226,7 +1226,7 @@
     {
         "key": "WAR_NAME_EMBARGO",
         "original": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Embargo War",
-        "translation": "$ORDER$$FIRST_ADJ$ - $SECOND_ADJ$禁运战争",
+        "translation": "$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$禁运战争",
         "stage": 5
     },
     {
@@ -1238,7 +1238,7 @@
     {
         "key": "WAR_NAME_COASTAL_REPUBLIC",
         "original": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ War for the City of $OTHER_TITLE$",
-        "translation": "$ORDER$$FIRST_ADJ$ - $SECOND_ADJ$夺取城市$OTHER_TITLE$战争",
+        "translation": "$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$夺取城市$OTHER_TITLE$战争",
         "stage": 5
     },
     {
@@ -1250,7 +1250,7 @@
     {
         "key": "WAR_NAME_COASTAL_COUNTY_REPUBLIC",
         "original": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ War for the Coast of $OTHER_TITLE$",
-        "translation": "$ORDER$$FIRST_ADJ$ - $SECOND_ADJ$夺取$OTHER_TITLE$海岸战争",
+        "translation": "$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$夺取$OTHER_TITLE$海岸战争",
         "stage": 5
     },
     {
@@ -1262,8 +1262,8 @@
     {
         "key": "REPUBLICAN",
         "original": "Republican",
-        "translation": "共和国商人",
-        "stage": 5
+        "translation": "商业共和国",
+        "stage": 1
     },
     {
         "key": "IS_NOT_EMBARGOING",
@@ -1514,7 +1514,7 @@
     {
         "key": "ca_warrior_cult_desc",
         "original": "Pagan warriors from all nearby tribes gather here and work themselves into a blood frenzy before they set out for battle.",
-        "translation": "周围部落的异教战士们聚集于此，他们将在战前化为一群嗜血的虎狼之师。",
+        "translation": "周围部落的原始宗教战士们聚集于此，他们将在战前化为一群嗜血的虎狼之师。",
         "stage": 5
     },
     {
@@ -1874,7 +1874,7 @@
     {
         "key": "WAR_NAME_SEIZE_TRADE_POST",
         "original": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Trade War over $OTHER_TITLE$",
-        "translation": "$ORDER$$FIRST_ADJ$ - $SECOND_ADJ$$OTHER_TITLE$贸易战争",
+        "translation": "$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$夺取$OTHER_TITLE$贸易战争",
         "stage": 5
     },
     {
@@ -2246,7 +2246,7 @@
     {
         "key": "EVTDESC_REP_152",
         "original": "[FromFrom.GetTitledFirstName] has decided to unveil the new [FromFrom.GetOnlyDynastyName] flagship today, at the annual Marriage of the Sea ceremony where the maritime dominance of Venice is celebrated. [FromFrom.GetFirstName] has invited [Root.RelHead.GetTitledFirstName] himself to oversee the ceremony from the great ship. As a long procession of ships sail through the city canals, the Pope drops one of his rings into the water and proclaims, \"We wed thee, sea, in the sign of...\" \\n\\nBefore he can finish the sentance, the galley lurches and begins to tip over! Both the Pope and [FromFrom.GetFirstName] are thrown overboard, but they are soon fished out of the water by some nearby gondoliers. The Supreme Pontiff of the Universal Church wrings out his drenched robes while launching a long tirade of profanity directed at [FromFrom.GetFirstName], who has turned red with embarassment.",
-        "translation": "[FromFrom.GetTitledFirstName]决定在今天为[FromFrom.GetOnlyDynastyName]家族新的旗舰举行下水仪式，今天恰好是一年一度的庆祝威尼斯海上霸权的海亲节。[FromFrom.GetFirstName]邀请了[Root.RelHead.GetTitledFirstName]本人到巨舰上观礼。在长长的船队驶过城市运河的时候，教宗把他的一枚戒指扔进水里，并宣布，「我们和她，海洋，举行婚礼，以象征……」\\n\\n在他说完这句话之前，大船突然倾斜并开始倾覆！教宗和[FromFrom.GetFirstName]都掉到了水里，但他们很快就被附近的小船救了起来。普世教会的首席教长一边拧着他湿透的长袍，一边喋喋不休的用亵渎的言语骂着因为尴尬脸红得像猴屁股一样的[FromFrom.GetFirstName]。",
+        "translation": "[FromFrom.GetTitledFirstName]决定在今天为[FromFrom.GetOnlyDynastyName]家族新的旗舰举行下水仪式，今天恰好是一年一度的庆祝威尼斯海上霸权的海亲节。[FromFrom.GetFirstName]邀请了[Root.RelHead.GetTitledFirstName]本人到巨舰上观礼。在长长的船队驶过城市运河的时候，教宗把他的一枚戒指扔进水里，并宣布，「我们和她，海洋，举行婚礼，以象征……」\\n\\n在他说完这句话之前，大船突然倾斜并开始倾覆！教宗和[FromFrom.GetFirstName]都掉到了水里，但他们很快就被附近的小船救了起来。普世教会的最高教长一边拧着他湿透的长袍，一边喋喋不休的用亵渎的言语骂着因为尴尬脸红得像猴屁股一样的[FromFrom.GetFirstName]。",
         "stage": 5
     },
     {
@@ -2738,7 +2738,7 @@
     {
         "key": "HINT_FACTIONS_VIEW_TEXT_3",
         "original": "There are a number of ways to make Vassals leave their Faction: you can dispatch your Spymaster to Scheme in their territory, you can increase their opinion of you with bribes, or you can simply hope for the best and have them assassinated. Note that if there are several Members in a faction, one of them will always take the Faction Leader's place if he or she leaves the Faction for any reason.",
-        "translation": "有以下数种方法可以让你的封臣离开一个派系：你可以派遣的你的间谍总管去他们的领地上密谋，你也可以贿赂他们使他们更倾向你，或者你也可以祈祷他们被暗杀。 注意只要派系中还有别的成员存在，派系中任何一个成员都可能成为新的派系领袖，如果前任领袖因为一些原因离开的话。",
+        "translation": "有以下数种方法可以让你的封臣离开一个派系：你可以派遣的你的间谍总管去他们的领地上密谋，你也可以贿赂他们使他们更倾向你，或者你也可以祈祷他们被暗杀。 注意，前任领袖因为一些原因离开派系时，只要派系中还有别的成员存在，派系中任何一个成员都可能成为新的派系领袖。",
         "stage": 5
     },
     {
@@ -2792,7 +2792,7 @@
     {
         "key": "HINT_CHAR_VIEW_TEXT_1",
         "original": "Clicking any portrait will take you to the Character View. This screen contains detailed information about a character - skills, traits, titles and close relations. You can also select an Ambition for your own character.",
-        "translation": "点击任何头像都会把您带到该角色的界面。这个界面包含这个角色的详细信息——技能、特征、头衔以及关系。您还可以在这里为您的角色选择一个野心。",
+        "translation": "点击任何头像都会把你带到该角色的界面。这个界面包含这个角色的详细信息——能力、特质、头衔以及关系。你还可以在这里为你的角色选择一个野心。",
         "stage": 5
     },
     {

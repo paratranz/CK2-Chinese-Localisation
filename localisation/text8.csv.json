@@ -86,14 +86,14 @@
     {
         "key": "TITLE_RATING_LOWER_THAN",
         "original": "Held Title Rating less than ",
-        "translation": "持有头衔低于",
-        "stage": 5
+        "translation": "持有头衔等级低于",
+        "stage": 1
     },
     {
         "key": "TITLE_RATING_AT_LEAST",
         "original": "Held Title Rating at least ",
-        "translation": "持有头衔至少是",
-        "stage": 5
+        "translation": "持有头衔等级高于",
+        "stage": 1
     },
     {
         "key": "LOADING_TIP_48",
@@ -158,8 +158,8 @@
     {
         "key": "SEND_GIFT_INTERACTION_LONG_DESC",
         "original": "Sending an expensive gift to characters will improve their opinion of you by an amount depending on your State Diplomacy and their greed. Characters in your realm will not be quite as appreciative of gifts as outsiders.",
-        "translation": "送礼给他人会提高他人对你的好感，提高值基于国家外交能力和收礼者的贪婪程度。别国人收到您的礼物后会比您领地中的角色收到您的礼物后感到更加高兴。",
-        "stage": 5
+        "translation": "送礼给他人会提高他人对你的好感，提高值基于国家外交能力和收礼者的贪婪程度。在你领地外的角色收到你的礼物后会比你领地中的角色收到你的礼物后感到更加高兴。",
+        "stage": 1
     },
     {
         "key": "JOIN_ATTACKER_WARS_EFFECT",
@@ -440,8 +440,8 @@
     {
         "key": "CRUSADE_DESC_IRO",
         "original": "His Holiness, §Y$POPE$§! has declared a $CRUSADE$ to reclaim all parts of the §Y$TITLE$§! held by §Y$ENEMY$§!.",
-        "translation": "§Y$POPE$§!陛下已经向§Y$ENEMY$§!发起了$CRUSADE$，以收复§Y$TITLE$§!被占据的每片领土。",
-        "stage": 1
+        "translation": "§Y$POPE$§!陛下已发起了$CRUSADE$，以收复§Y$TITLE$§!被§Y$ENEMY$§!占据的每片领土。",
+        "stage": 5
     },
     {
         "key": "CRUSADE_DESC_DRO_1",
@@ -530,7 +530,7 @@
     {
         "key": "WAR_NAME_CRUSADE",
         "original": "$ORDER$$RELIGION$ $HOLY_WAR$ for $OTHER_TITLE$",
-        "translation": "$ORDER$$RELIGION$夺取$OTHER_TITLE$$HOLY_WAR$",
+        "translation": "$ORDER$ $RELIGION$夺取$OTHER_TITLE$$HOLY_WAR$",
         "stage": 5
     },
     {
@@ -698,7 +698,7 @@
     {
         "key": "WAR_NAME_CLAIM_ALL",
         "original": "$ORDER$$FIRST_ADJ$ War for the $CLAIMS$",
-        "translation": "$ORDER$$FIRST_ADJ$夺取$CLAIMS$战争",
+        "translation": "$ORDER$ $FIRST_ADJ$夺取$CLAIMS$战争",
         "stage": 5
     },
     {
@@ -926,7 +926,7 @@
     {
         "key": "DE_JURE_LIEGE_CHANGED_SETUP",
         "original": "Landed title changes de jure liege",
-        "translation": "有地头衔改变了法理领主",
+        "translation": "实地头衔的法理领主改变了",
         "stage": 5
     },
     {
@@ -1070,7 +1070,7 @@
     {
         "key": "WAR_NAME_DEJURECLAIM",
         "original": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ De Jure War over $OTHER_TITLE$",
-        "translation": "$ORDER$$FIRST_ADJ$——$SECOND_ADJ$$OTHER_TITLE$法理战争",
+        "translation": "$ORDER$ $FIRST_ADJ$-$SECOND_ADJ$争夺$OTHER_TITLE$法理战争",
         "stage": 5
     },
     {
@@ -1370,8 +1370,8 @@
     {
         "key": "EVTDESC61110",
         "original": "The administration of your realm has improved significantly since [Root.Regent.GetTitledFirstName] became your regent. If only you had [Root.Regent.GetHerHis] skills!",
-        "translation": "自从[Root.Regent.GetTitledFirstName]成为了您的摄政，您领地的管理水平显著上升了。如果您拥有[Root.Regent.GetHerHis]那样的能力就好了！",
-        "stage": 5
+        "translation": "自从[Root.Regent.GetTitledFirstName]成为了你的摄政，您领地的管理水平显著上升了。如果你的能力和[Root.Regent.GetHerHis]能力比就好了！",
+        "stage": 1
     },
     {
         "key": "EVTOPTA61110",
@@ -2564,7 +2564,7 @@
     {
         "key": "WAR_NAME_CLAIM_VASSAL",
         "original": "$ATTACKER$'s $ORDER$War to Revoke $OTHER_TITLE$",
-        "translation": "$ATTACKER$$ORDER$剥夺$OTHER_TITLE$战争",
+        "translation": "$ORDER$ $ATTACKER$剥夺$OTHER_TITLE$战争",
         "stage": 5
     },
     {
@@ -5948,7 +5948,7 @@
     {
         "key": "EVTTOOLTIP100352",
         "original": "Will [Root.GetTitledFirstName] and [This.GetTitledFirstName] still be friends despite their differences?",
-        "translation": "即便[Root.GetTitledFirstName]与[This.GetTitledFirstName]有这么多的差别，他们也能继续做朋友，？",
+        "translation": "即便[Root.GetTitledFirstName]与[This.GetTitledFirstName]有这么多的差别，也能继续做朋友吗？",
         "stage": 5
     },
     {
@@ -6518,7 +6518,7 @@
     {
         "key": "EVTDESC100441",
         "original": "It is with sorrow in my heart that I must tell you that an errant subject has chosen to become a heretic. I trust that Your Holiness will see to it that no one else is tempted to follow the same heretical way...'\\n[From.GetTitledFirstName] warned us of a subject lead astray.",
-        "translation": "「心怀着悲痛之情，我必须向您报告：一个犯错的人选择变成一名异端信徒。我相信圣父陛下将希望看到没有其他人被这种异端所诱惑。」\\n[From.GetTitledFirstName]向我们警告一个人走向了堕落之道。",
+        "translation": "「心怀着悲痛之情，我必须向您报告：一个犯错的人选择变成一名异端信徒。我相信圣父教宗陛下将希望看到没有其他人被这种异端所诱惑。」\\n[From.GetTitledFirstName]向我们警告一个人走向了堕落之道。",
         "stage": 1
     },
     {
@@ -6566,7 +6566,7 @@
     {
         "key": "EVTDESC100443",
         "original": "On the behest of [FromFrom.GetTitledFirstName] we, [From.GetTitledFirstName], agree that you should be denied communion and be excommunicated! May God have mercy on your soul.\\n\\n[From.GetTitledFirstName]",
-        "translation": "根据[FromFrom.GetTitledFirstName]的命令，我们——[From.GetTitledFirstName]——一致赞成你应该被拒绝授予圣餐并被绝罚！愿上帝怜悯你的灵魂。\\n\\n[From.GetTitledFirstName]",
+        "translation": "应[FromFrom.GetTitledFirstName]的要求，本座[From.GetTitledFirstName]决定你将被禁止领受圣体圣事并被绝罚！愿主垂怜你的灵魂。\\n\\n[From.GetTitledFirstName]",
         "stage": 5
     },
     {

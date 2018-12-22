@@ -6,12 +6,6 @@
         "stage": 5
     },
     {
-        "key": "INTERACTION_CANNOT_INVITE_CONSORT",
-        "original": "[Recipient.GetTitledFirstName] must not be a concubine",
-        "translation": "[Recipient.GetTitledFirstName]不能是侍妾",
-        "stage": 5
-    },
-    {
         "key": "AIREASON_LOVER",
         "original": "§Y[GetTitledFirstName]§! is my Lover",
         "translation": "§Y[GetTitledFirstName]§!是我的情人",
@@ -398,7 +392,7 @@
     {
         "key": "MINOR_CLAN_REVOLT",
         "original": "[Root.County.GetAdjective] Minor Clan Rising",
-        "translation": "[Root.County.GetAdjective]次级部族叛乱",
+        "translation": "[Root.County.GetAdjective]次级部族起事",
         "stage": 5
     },
     {
@@ -476,8 +470,8 @@
     {
         "key": "WAR_NAME_LIBERATE_NOMAD",
         "original": "$ORDER$$FIRST_ADJ$ Liberation of $OTHER_TITLE$",
-        "translation": "$ORDER$$FIRST_ADJ$解放$OTHER_TITLE$",
-        "stage": 5
+        "translation": "$ORDER$ $FIRST_ADJ$解放$OTHER_TITLE$",
+        "stage": 1
     },
     {
         "key": "liberate_nomad_cb_succ_tip",
@@ -488,13 +482,13 @@
     {
         "key": "pagan_county_conquest_desc",
         "original": "Pagans and Nomads can conquer single border counties without specific reasons. Norse Pagans can also take any coastal county.",
-        "translation": "原始宗教和游牧可以不用任何理由来征服单个边境省份。诺斯原始宗教还可以获得任意沿海省份。",
+        "translation": "原始宗教信徒和游牧领主可以无需任何理由征服单个边境省份。诺斯原始宗教信徒还可以征服任意沿海省份。",
         "stage": 5
     },
     {
         "key": "nomad_subjugation_desc",
         "original": "Nomads can subjugate non-Nomadic realms once in their lifetime.",
-        "translation": "游牧一生中可以对非游牧领主发起一次征服。",
+        "translation": "游牧统治者一生中有一次机会征服非游牧领主的领地。",
         "stage": 5
     },
     {
@@ -512,8 +506,8 @@
     {
         "key": "WAR_NAME_PAGAN_SUBJUGATION",
         "original": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Subjugation War",
-        "translation": "$ORDER$$FIRST_ADJ$ - $SECOND_ADJ$征服战争",
-        "stage": 5
+        "translation": "$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$征服战争",
+        "stage": 1
     },
     {
         "key": "tribal_subjugation_tip",
@@ -836,7 +830,7 @@
     {
         "key": "DESIGNATE_HEIR_PROGENY",
         "original": "You can only Designate your Children",
-        "translation": "你只能钦定你的子女",
+        "translation": "你只能指定你的子女",
         "stage": 5
     },
     {
@@ -896,20 +890,20 @@
     {
         "key": "HINT_SPLASH_TEXT",
         "original": "In Crusader Kings II, you play as a succession of medieval rulers from a single dynasty.\\nThere is no set goal, but the world is filled with ambitious rivals... Secure more land to increase your power and protect your family.",
-        "translation": "在王国风云II中，您将扮演一系列来自同一家族的中世纪统治者。\\n游戏中没有预定目标，但这个世界满是野心勃勃的竞争者……夺取更多的土地以增强你的力量并保护你的家族。",
+        "translation": "在《王国风云 II》中，你将扮演一系列来自同一家族的中世纪统治者。\\n游戏中没有预定目标，但这个世界满是野心勃勃的竞争者……夺取更多的土地以增强你的力量并保护你的家族。",
         "stage": 1
     },
     {
         "key": "HINT_SPLASH_START",
         "original": "As a ruler, your first priority is to secure an heir. If you do not have a legitimate heir when your character dies, the game will end. Other pressing matters appear as Alerts along the top of the screen!",
-        "translation": "作为一个统治者，您的首要任务是确保有一位继承人。如果您扮演的角色去世时没有一个合法的继承人的话，游戏就将结束。其他需要您注意的事务都会以警告的形式出现在屏幕上方。",
-        "stage": 5
+        "translation": "作为一个统治者，你的首要任务是确保有一位继承人。如果你扮演的角色去世时没有一个合法的继承人的话，游戏就将结束。其他需要你注意的事务都会以警告的形式出现在屏幕上方。",
+        "stage": 1
     },
     {
         "key": "HINT_SPLASH_VICTORY",
         "original": "You cannot hold infinite amounts of land yourself. To expand, you will need to rely on vassal rulers. Keep them happy with titles and gifts lest they decide to revolt! The game will end in 1452, if your line can stay in power that long...",
-        "translation": "你不能亲自持有无限量的土地。想要扩张，你将需要依赖封臣统治者。使用头衔和礼物让他们开心，以免他们决定叛乱！游戏将在1452年结束，当然你的血脉也得能在那么长的时间内保住权力……",
-        "stage": 5
+        "translation": "你能够亲自持有的土地数量有限。想要扩张，你将需要依赖封臣统治者。使用头衔和礼物让他们开心，以免他们决定叛乱！游戏将在1452年结束，当然你的血脉也得能在那么长的时间内保住权力……",
+        "stage": 1
     },
     {
         "key": "HINT_SPLASH_2_TITLE",
@@ -1136,7 +1130,7 @@
     {
         "key": "nomadic_government_desc",
         "original": "Nomads are not very interested in owning Holdings, only in more grazing land for their sheep and horses. Gameplay centers around the Population of the tribe and the Manpower it provides. Empty Holdings slots in open terrain increases the maximum population. While Nomads can have normal vassals, they are mostly concerned with managing the other, few but powerful, major Clans of the tribe.",
-        "translation": "游牧对拥有地产不感兴趣，只喜欢更多的牧场养更多的羊和马。游玩围绕部落的人口及其提供的人力。开阔地形下的空地产格会增加最大人口。游牧也能拥有普通封臣，但他们更注重管理部落中强大的部族。",
+        "translation": "游牧统治者对拥有地产不感兴趣，只喜欢更多的牧场养更多的羊和马。游牧统治者的游玩方式围绕部落的人口及其提供的人力。开阔地形下的空地产格会增加最大人口。游牧也能拥有普通封臣，但他们更注重管理部落中强大的部族。",
         "stage": 5
     },
     {
@@ -1226,7 +1220,7 @@
     {
         "key": "NO_SPECIAL_FEATURES",
         "original": "No special features",
-        "translation": "无特殊特征",
+        "translation": "无特殊特性",
         "stage": 5
     },
     {
@@ -1250,7 +1244,7 @@
     {
         "key": "WAR_NAME_MINOR_CLAN_REVOLT",
         "original": "Minor Clan Rising",
-        "translation": "次级部族叛乱",
+        "translation": "次级部族起事",
         "stage": 5
     },
     {
@@ -1346,20 +1340,20 @@
     {
         "key": "EVTTOOLTIP62922",
         "original": "I'm crowned King of Castille",
-        "translation": "我加冕为卡斯提尔国王",
-        "stage": 5
+        "translation": "我加冕为卡斯蒂利亚国王",
+        "stage": 1
     },
     {
         "key": "EVTNAME62922",
         "original": "The [Root.PrimaryTitle.GetTier] of Castille",
-        "translation": "卡斯提尔之[Root.PrimaryTitle.GetTier]",
-        "stage": 5
+        "translation": "卡斯蒂利亚[Root.PrimaryTitle.GetTier]",
+        "stage": 1
     },
     {
         "key": "EVTDESC62922",
         "original": "After centuries of subjugation, Castille has grown in power and autonomy. The time has come to be recognized as an equal by the other rulers in our region!",
-        "translation": "历经数百年的征战，卡斯提尔已经迅速壮大并独立自主。是时候要求本地区其他统治者认同我为平等的一员！",
-        "stage": 5
+        "translation": "历经数百年的征战，卡斯蒂利亚已经迅速壮大并独立自主。是时候要求本地区其他统治者认同我为平等的一员！",
+        "stage": 1
     },
     {
         "key": "EVTOPTA62922",
@@ -1430,13 +1424,13 @@
     {
         "key": "EVTDESC_HL_2010",
         "original": "The minor Clan rising has gained more support in [Root.GetName], reinforcing the ongoing revolt!",
-        "translation": "次级部族叛乱在[Root.GetName]得到了更多支援，叛乱正在壮大！",
+        "translation": "次级部族起事在[Root.GetName]得到了更多支援，叛乱正在壮大！",
         "stage": 5
     },
     {
         "key": "EVTDESC_HL_2011",
         "original": "The minor Clan rising has gained more support in [From.GetName], reinforcing the ongoing revolt!",
-        "translation": "次级部族叛乱在[Root.GetName]得到了更多支援，叛乱正在壮大！",
+        "translation": "次级部族起事在[From.GetName]得到了更多支援，叛乱正在壮大！",
         "stage": 5
     },
     {
@@ -3014,19 +3008,19 @@
     {
         "key": "EVTNAMEHL1",
         "original": "A New Realm",
-        "translation": "新领地",
-        "stage": 5
+        "translation": "新国家",
+        "stage": 1
     },
     {
         "key": "EVTNAMEHL2",
         "original": "Nomads Settled",
-        "translation": "游牧定居",
+        "translation": "游牧民定居",
         "stage": 5
     },
     {
         "key": "EVTDESCHL2",
         "original": "The King of the [FromFrom.Culture.GetName]s, [FromFrom.GetBestName], has decided to settle down in [FromFrom.PrimaryTitle.GetName], making it [FromFrom.GetHerHis] new tribal homeland.",
-        "translation": "[FromFrom.Culture.GetName]们的王，[FromFrom.GetBestName]，决定在[FromFrom.PrimaryTitle.GetName]定居，成为[FromFrom.GetHerHis]新部落家园。",
+        "translation": "[FromFrom.Culture.GetName]人的王，[FromFrom.GetBestName]，决定在[FromFrom.PrimaryTitle.GetName]定居，使之成为[FromFrom.GetHerHis]新部落家园。",
         "stage": 5
     },
     {
@@ -3728,7 +3722,7 @@
     {
         "key": "alert_too_few_clans_delayed",
         "original": "You hold too much land compared to the other Clans. Hand out §Y$NUM$§! counties or you might face revolts from the existing Clans as it negatively affects their §YClan Sentiment§! of you. You can also face a §YMinor Clan Rising§! revolt to seize its rightful position among the major Clans...",
-        "translation": "和其他部族比起来你的土地太多了。交出 §Y$NUM$§! 个省份，否则你可能面临现有部族的反叛，因为这已负面影响他们的§Y部族观感§!。你还可能面对一场§Y次级部族崛起§!叛乱，试图获取在主流部族中的正当地位……",
+        "translation": "和其他部族比起来你的土地太多了。交出 §Y$NUM$§! 个省份，否则你可能面临现有部族的反叛，因为这已负面影响他们的§Y部族观感§!。你还可能面对一场§Y次级部族起事§!叛乱，以图获取在主流部族中的正当地位……",
         "stage": 5
     },
     {
@@ -3878,7 +3872,7 @@
     {
         "key": "NOMAD_CANNOT_MOVE_CAPITAL_TO_HOLDING",
         "original": "Nomads can only move their Capital to counties with an empty primary holding slot.",
-        "translation": "游牧只能将他们的首都迁至主地产格为空的省份。",
+        "translation": "游牧统治者只能将他们的首都迁至主地产格为空的省份。",
         "stage": 5
     },
     {
@@ -3890,7 +3884,7 @@
     {
         "key": "MAPMODE_TRADE_ZONES",
         "original": "§YTrade Zones§!",
-        "translation": "§Y贸易区§!",
+        "translation": "§Y贸易区地图§!",
         "stage": 5
     },
     {

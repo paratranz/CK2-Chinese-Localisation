@@ -116,7 +116,7 @@
     {
         "key": "ASK_FOR_DIVORCE_INTERACTION_0",
         "original": "Ask §Y[Actor.RelHead.GetTitledFirstName]§W for a divorce from §Y[Actor.Spouse.GetFirstName]§W. This will cost you §R$COST$§W [Player.Religion.GetPietyName] and, if granted, will be viewed as an insult by [Actor.Spouse.GetPossPronoun] relatives.",
-        "translation": "向§Y[Actor.RelHead.GetTitledFirstName]§!请求准许你与§Y[Actor.Spouse.GetFirstName]§!离婚。这将花费§R$COST$§![Player.Religion.GetPietyName]，并被[Actor.Spouse.GetPossPronoun]的亲属视为侮辱。",
+        "translation": "向§Y[Actor.RelHead.GetTitledFirstName]§W请求准许你与§Y[Actor.Spouse.GetFirstName]§W离婚。这将花费 §R$COST$§W [Player.Religion.GetPietyName]，并被[Actor.Spouse.GetPossPronoun]亲属视为侮辱。",
         "stage": 5
     },
     {
@@ -236,7 +236,7 @@
     {
         "key": "WAR_NAME_DEPOSE_LIEGE",
         "original": "$ORDER$$FIRST_ADJ$ War to depose $DEFENDER$",
-        "translation": "$ORDER$$FIRST_ADJ$废黜$DEFENDER$战争",
+        "translation": "$ORDER$ $FIRST_ADJ$废黜$DEFENDER$战争",
         "stage": 5
     },
     {
@@ -254,8 +254,8 @@
     {
         "key": "repentance_ask",
         "original": "The Holy Father will hear our plea for salvation.",
-        "translation": "圣父会聆听我们赎罪的恳求。",
-        "stage": 5
+        "translation": "圣父教宗会聆听我们赎罪的恳求。",
+        "stage": 1
     },
     {
         "key": "made_repentance",
@@ -290,8 +290,8 @@
     {
         "key": "EVTDESC39253",
         "original": "The Holy Father has agreed to lift the excommunication against me!",
-        "translation": "圣父同意撤销我的绝罚！",
-        "stage": 5
+        "translation": "圣父教宗同意撤销我的绝罚！",
+        "stage": 1
     },
     {
         "key": "EVTOPTA39253",
@@ -512,13 +512,13 @@
     {
         "key": "EVTOPTB60010",
         "original": "Allah have mercy on us!",
-        "translation": "安拉保佑我！",
+        "translation": "安拉，垂怜我们！",
         "stage": 5
     },
     {
         "key": "EVTOPTC60010",
         "original": "God have mercy on us!",
-        "translation": "上帝保佑我！",
+        "translation": "上主垂怜我等！",
         "stage": 5
     },
     {
@@ -536,7 +536,7 @@
     {
         "key": "EVTDESC8720",
         "original": "The Teutonic Order wishes to expand into the Baltics in order to better fight the heathens. To show my support, perhaps I should offer them a county of mine?",
-        "translation": "条顿骑士团希望在波罗的海沿岸得到领地以更好地对抗异教徒。或许我应赠送他们一个伯爵领以示支持？",
+        "translation": "条顿骑士团希望在波罗的地区得到领地以更好地对抗异教徒。或许我应赠送他们一个伯爵领以示支持？",
         "stage": 5
     },
     {
@@ -620,7 +620,7 @@
     {
         "key": "EVTDESC8725",
         "original": "To the Great [Root.GetTitledFirstName],\\nYour bravery is legendary. I wish to support you in your valiant struggle against the heathens, and hereby offer to transfer a County to the order.\\n\\nSigned,\\n[From.GetTitledName]",
-        "translation": "伟大的 [Root.GetTitledFirstName]，\\n您的胆识有若传奇。我希望能够为您抗击异教徒的英勇战斗尽一份绵力，特此向骑士团赠与一个伯爵领。\\n\\n此致，\\n[From.GetTitledName]",
+        "translation": "伟大的[Root.GetTitledFirstName]，\\n您的胆识宛若传奇。我希望能为您抗击异教徒的英勇战斗略尽绵力，特此将一个伯爵领转与骑士团。\\n\\n此致，\\n[From.GetTitledName]",
         "stage": 5
     },
     {
@@ -668,7 +668,7 @@
     {
         "key": "DYN14_DESC",
         "original": "With a score of $SCORE$ you$FAILED$ beat the House of Godwin. On January 5th, 1066, Harold Godwinson became King of England. His father had spent much of the reign of King Canute building up the family power base and with the death of Edward the Confessor he was able to assume the throne. However, he wasn’t the only claimant... Harald of Norway and William of Normandy both also claimed the title and invaded. Harald was defeated and killed at the battle of Stamford Bridge, but Harold would later be defeated and killed (along with two of his brothers) by William at the battle of Hastings. With his death, the power of the House of Godwin collapsed and its lands were divided amongst the victorious Norman Lords who followed William.",
-        "translation": "结束分数：$SCORE$。你$FAILED$超越戈德温家族的成就。在1066年1月5日，哈罗德·戈德温森登基为英格兰国王。其父在克努特二世统治时期处心积虑积累家族实力，最终于忏悔者爱德华死后夺取了英格兰王位。然而他并非唯一的王位觊觎者……挪威国王哈拉尔三世和诺曼底公爵威廉都宣称自己是英格兰国王并入侵英格兰。在斯坦福桥一役中哈拉尔三世兵败身亡，但是哈罗德也在之后的黑斯廷斯战役中被威廉击败，与他的两个兄弟一起命丧沙场。其死后戈德温家族的权势土崩瓦解，领地被胜利者威廉分封给其诺曼贵族。",
+        "translation": "最终分数：$SCORE$。你$FAILED$超越戈德温家族的成就。在1066年1月5日，哈罗德·戈德温森登基为英格兰国王。其父在克努特二世统治时期处心积虑积累家族实力，最终于忏悔者爱德华死后夺取了英格兰王位。然而他并非唯一的王位觊觎者……挪威国王哈拉尔三世和诺曼底公爵威廉都宣称自己是英格兰国王并入侵英格兰。在斯坦福桥一役中哈拉尔三世兵败身亡，但是哈罗德也在之后的黑斯廷斯战役中被威廉击败，与他的两个兄弟一起命丧沙场。其死后戈德温家族的权势土崩瓦解，领地被胜利者威廉分封给其诺曼贵族。",
         "stage": 5
     },
     {
@@ -680,7 +680,7 @@
     {
         "key": "TOURNAMENTTITLE",
         "original": "Grand Tournament",
-        "translation": "骑术大会",
+        "translation": "比武大会",
         "stage": 5
     },
     {
@@ -866,7 +866,7 @@
     {
         "key": "MAPMODE_RELIGION_DESC",
         "original": "This map mode shows the spread of all religions.",
-        "translation": "本地图模式展示了所有宗教的传播。",
+        "translation": "该地图模式展示了所有宗教的分布。",
         "stage": 5
     },
     {

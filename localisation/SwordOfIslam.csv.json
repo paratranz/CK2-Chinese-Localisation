@@ -128,8 +128,8 @@
     {
         "key": "EVTDESC86011",
         "original": "My beloved [Root.GetTitle]!\\n I am preparing to go to Mecca on a Hajj. Sadly, rumors tell me that you have not gone on a pilgrimage yourself. Would you like to travel with me, your faithful servant?\\nYour humble [From.GetTitledName]",
-        "translation": "我亲爱的[Root.GetTitle]！\\n我正准备去麦加朝圣。不幸的是留言告诉我你没有自己的朝圣之旅，你是否愿意和你忠诚的仆人一起前往？\\n你卑微的 [From.GetTitledName]",
-        "stage": 5
+        "translation": "我亲爱的[Root.GetTitle]！\\n我正准备去麦加朝圣。不幸的是留言告诉我你没有自己的朝圣之旅，你是否愿意和你忠诚的仆人一起前往？\\n你卑微的[From.GetTitledName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA86011",
@@ -218,8 +218,8 @@
     {
         "key": "EVTDESC86100",
         "original": "I am now fully prepared for my travel to Mecca! There will be a regent ruling [Root.PrimaryTitle.GetName] while I am away.",
-        "translation": "我已经做好了去麦加的准备！摄政[Root.PrimaryTitle.GetName]将在我离开的时候帮助我管理我的国家。",
-        "stage": 5
+        "translation": "我已经做好了去麦加的准备！在我离开的时候摄政将会帮助我管理[Root.PrimaryTitle.GetName]。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA86100",
@@ -626,7 +626,7 @@
     {
         "key": "EVTDESC86380",
         "original": "The old man starts telling you, that Abu Bakr as-Siddiq said.. \"I heard the Messenger of Allah, may Allah bless him and grant him peace, say, 'If people see an unjust person, and do not restrain [Root.GetHerHim], Allah is very likely to seize them with retribution from Him.'\"",
-        "translation": "老人告诉你，据阿布·伯克尔传述……「我听到安拉的使者（愿主福安之）说道『如果人们看到不公平的人，却不阻止[Root.GetHerHim]，安拉将会让他惩罚他们。』」",
+        "translation": "老人告诉你，据阿布·贝克尔传述……「我听到安拉的使者（愿主福安之）说道『如果人们看到不公平的人，却不阻止[Root.GetHerHim]，安拉将会让他惩罚他们。』」",
         "stage": 5
     },
     {
@@ -1358,7 +1358,7 @@
     {
         "key": "EVTTOOLTIPB3413",
         "original": "is pleased [Root.GetTitledFirstName] agrees with [This.GetHerHis] judgement",
-        "translation": "很高兴[Root.GetTitledFirstName]同意[This.GetHerHis]判决",
+        "translation": "很高兴[Root.GetTitledFirstName]赞同[This.GetHerHis]判决",
         "stage": 1
     },
     {
@@ -1586,7 +1586,7 @@
     {
         "key": "EVTOPTA6082",
         "original": "May [Root.Religion.GetRandomGodName] have mercy on us!",
-        "translation": "愿[Root.Religion.GetRandomGodName]怜悯我们！",
+        "translation": "伏望[Root.Religion.GetRandomGodName]垂怜我等！",
         "stage": 5
     },
     {
@@ -1664,7 +1664,7 @@
     {
         "key": "EVTDESC20032",
         "original": "My [Root.GetTitle], word has reached me that your [Root.GetMyLordSpiritualName] has accused me of heresy! I implore you, as a devout [Root.Religion.GetName] to another devout [Root.Religion.GetName] to believe me when I tell you I am not a heretic!\\n\\nYour humble [From.GetTitle],\\n[From.GetTitledName]",
-        "translation": "我的[Root.GetTitle]，我听说你的[Root.GetMyLordSpiritualName]指控我为异端！我恳求你，作为一个虔诚的[Root.Religion.GetName]对另一个虔诚的[Root.Religion.GetName]的信任，相信我说的我不是一个异端的话！\\n\\n你谦卑的[From.GetTitle]，\\n[From.GetTitledName]",
+        "translation": "我的[Root.GetTitle]，我听说你的[Root.GetMyLordSpiritualName]指控我为异端！我恳求你，作为一位虔诚的[Root.Religion.GetName]徒对另一位虔诚的[Root.Religion.GetName]徒的信任，相信我说的，我不是一个异端！\\n\\n你谦卑的[From.GetTitle]，\\n[From.GetTitledName]",
         "stage": 5
     },
     {
@@ -1760,7 +1760,7 @@
     {
         "key": "EVTOPTC3126",
         "original": "May Allah have mercy on my soul",
-        "translation": "愿安拉赦免我的灵魂",
+        "translation": "愿安拉垂怜我的灵魂",
         "stage": 5
     },
     {
@@ -1826,8 +1826,8 @@
     {
         "key": "DECLARE_WAR_INTERACTION_5",
         "original": "§RWhile attacking a fellow [Recipient.Religion.GetName] [Recipient.Religion.GetGroupName], we will lose §Y$PIETY$§R Piety per month!§!",
-        "translation": "§R因为攻击同样信仰[Recipient.Religion.GetName]的同道[Recipient.Religion.GetGroupName]，我们每个月会失去 §Y$PIETY$§R 虔诚！§!",
-        "stage": 5
+        "translation": "§R因为攻击同样信仰[Recipient.Religion.GetName]的[Recipient.Religion.GetGroupName]同胞，我们每个月会失去 §Y$PIETY$§R 虔诚！§!",
+        "stage": 1
     },
     {
         "key": "go_on_hajj",
@@ -2786,8 +2786,8 @@
     {
         "key": "EVTDESC105012",
         "original": "I had no idea [FromFrom.GetTitledFirstName] would suggest me as [From.GetTitledFirstName]'s new Chief Qadi! The letter congratulating me to my new position and the order to appear before [From.GetTitledFirstName] as soon as possible was bewildering, I almost did not believe it at first.",
-        "translation": "人呐就都不知道，自己不可以预料，[FromFrom.GetTitledFirstName]怎么会提名我当[From.GetTitledFirstName]的新首席教法执行官！任职信恭贺我的高升，并要求我立即觐见 [From.GetTitledFirstName]，这真是让人意外，刚开始我压根都没信。",
-        "stage": 5
+        "translation": "人呐就都不知道，自己不可以预料，[FromFrom.GetTitledFirstName]怎么就提名我当[From.GetTitledFirstName]的新任首席教法执行官了呢！任职信恭贺我的高升，并要求我立即觐见[From.GetTitledFirstName]，这真是让人意外，刚开始我压根都没信。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA105012",
@@ -5942,8 +5942,8 @@
     {
         "key": "EVTDESC91233",
         "original": "You have proven your devotion to Allah (may He be glorified and exalted) by making war against the enemies of Islam. As one of the mujahideen, you are acknowledged to have fought in a Jihad.",
-        "translation": "你已经通过向伊斯兰的敌人开战证明了你对安拉（愿主荣耀尊贵）的献身。作为圣战士的一员，你得到了曾经参与吉哈德的承认。",
-        "stage": 5
+        "translation": "你已经通过向伊斯兰的敌人开战证明了你对安拉（愿主荣耀尊贵）的献身。作为骑士团的一员，你得到了参与过吉哈德的认可。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA91233",
@@ -6326,7 +6326,7 @@
     {
         "key": "EVTDESC106045",
         "original": "Avempace or Abu-Bakr Muhammad ibn Yahya ibn al-Sayigh, an astronomer, logician, musician, philosopher, physician, physicist, psychologist, botanist, poet and scientist in [Root.GetName] has caught [Root.Holder.TopLiege.GetTitledFirstName] attention with his book 'Kitab al-Nabat' or 'The Book of Plants' and his other works.",
-        "translation": "阿芬帕斯，本名阿布·巴克尔·穆罕默德·伊本·叶海亚·伊本·萨伊格·图吉比·伊本·巴哲·图吉比，一位出身于[Root.GetName]的天文学家，逻辑学家，音乐家，哲学家，医学家，心理学家，植物学家，诗人和科学家，由于他的著作《植物之书》和其他作品，引起了[Root.Holder.TopLiege.GetTitledFirstName]的注意。",
+        "translation": "阿芬帕斯，本名阿布·贝克尔·穆罕默德·伊本·叶海亚·伊本·萨伊格·图吉比·伊本·巴哲·图吉比，一位出身于[Root.GetName]的天文学家，逻辑学家，音乐家，哲学家，医学家，心理学家，植物学家，诗人和科学家，由于他的著作《植物之书》和其他作品，引起了[Root.Holder.TopLiege.GetTitledFirstName]的注意。",
         "stage": 5
     },
     {

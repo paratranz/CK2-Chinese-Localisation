@@ -50,8 +50,8 @@
     {
         "key": "GOVERNMENT_CANNOT_CREATE_KINGDOMS",
         "original": "Theocracies, Holy Orders and Mercenaries cannot create kingdoms!",
-        "translation": "神权国、圣战士和雇佣兵团无法成立王国！",
-        "stage": 5
+        "translation": "神权国、骑士团和雇佣兵团无法建立王国！",
+        "stage": 1
     },
     {
         "key": "GOVERNMENT_CANNOT_USURP_KINGDOMS_AND_EMPIRES",
@@ -446,14 +446,14 @@
     {
         "key": "SETTLE_ADVENTURER_INTERACTION_DESC",
         "original": "Grant a landed title and settle the adventurer",
-        "translation": "授予一个头衔并安置这个冒险者",
-        "stage": 5
+        "translation": "授予一个实地头衔以安置这个冒险者",
+        "stage": 1
     },
     {
         "key": "SETTLE_ADVENTURER_INTERACTION_LONG_DESC",
         "original": "Grant one of your landed titles to settle an adventurer. This will significantly improve their opinion of you. Settling an adventurer will stop them from raiding you, and the adventurer will also prevent other raiders from attacking for a long time.",
-        "translation": "授予你名下的一个头衔以安置一个冒险者。这将极大地提高他们对你的好感。安置一个冒险者将使他们不再劫掠你，这个冒险者也将在一段很长的时间内阻止别的劫掠者继续攻击我们。",
-        "stage": 5
+        "translation": "授予你名下的一个实地头衔以安置一个冒险者。这将极大地提高他们对你的好感。安置一个冒险者将使他们不再劫掠你，这个冒险者也将在一段很长的时间内阻止别的劫掠者继续攻击我们。",
+        "stage": 1
     },
     {
         "key": "SETTLE_ADVENTURER_INTERACTION_0",
@@ -728,14 +728,14 @@
     {
         "key": "SETTLE_ADVENTURER_INTERACTION_LETTER",
         "original": "We offer you the landed title of [ThirdPartyTitle.GetFullName] in exchange for your protection against future raids in this area.",
-        "translation": "我们提议给予你有地头衔[ThirdPartyTitle.GetFullName]，作为交换，你将要为此地区未来遭受的劫掠提供保护。",
-        "stage": 5
+        "translation": "本座提议给予你实地头衔[ThirdPartyTitle.GetFullName]，作为交换，你要在未来保护此地区免遭劫掠。",
+        "stage": 1
     },
     {
         "key": "SETTLE_ADVENTURER_INTERACTION_OFFER",
         "original": "[Actor.GetBestName] wants to offer us the landed title of [ThirdPartyTitle.GetFullName] in exchange for our protection.",
-        "translation": "[Actor.GetBestName]提议给予我们有地头衔[ThirdPartyTitle.GetFullName]，作为交换，我们需提供保护。",
-        "stage": 5
+        "translation": "[Actor.GetBestName]提议给予我们实地头衔[ThirdPartyTitle.GetFullName]，作为交换，我们需提供保护。",
+        "stage": 1
     },
     {
         "key": "SETTLE_ADVENTURER_INTERACTION_DECLINE_SETUP",
@@ -1142,14 +1142,14 @@
     {
         "key": "PROV1406",
         "original": "South Coromandel Coast",
-        "translation": "南科罗曼德尔海岸",
-        "stage": 5
+        "translation": "南朱罗曼陀罗摩海岸",
+        "stage": 1
     },
     {
         "key": "PROV1407",
         "original": "North Coromandel Coast",
-        "translation": "北科罗曼德尔海岸",
-        "stage": 5
+        "translation": "北朱罗曼陀罗摩海岸",
+        "stage": 1
     },
     {
         "key": "PROV1409",
@@ -1292,7 +1292,7 @@
     {
         "key": "world_india_rajastan",
         "original": "Rajastan",
-        "translation": "罗阇湿檀那",
+        "translation": "罗阇萨傥那",
         "stage": 5
     },
     {
@@ -1370,7 +1370,7 @@
     {
         "key": "custom_eastern_baltic",
         "original": "Eastern Baltic",
-        "translation": "东波罗的海",
+        "translation": "东波罗的",
         "stage": 5
     },
     {
@@ -1442,7 +1442,7 @@
     {
         "key": "MAPMODE_REALM",
         "original": "§YRealms§!",
-        "translation": "§Y独立领主§!",
+        "translation": "§Y独立领主地图§!",
         "stage": 5
     },
     {
@@ -1485,13 +1485,13 @@
         "key": "d_khangai",
         "original": "Khangai",
         "translation": "杭海",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "d_ikh_bogd",
         "original": "Ikh Bogd",
-        "translation": "伊赫博格多",
-        "stage": 1
+        "translation": "也客孛黑答",
+        "stage": 5
     },
     {
         "key": "k_khotan",
@@ -1502,8 +1502,8 @@
     {
         "key": "d_kashgar",
         "original": "Kashgar",
-        "translation": "喀什噶尔",
-        "stage": 5
+        "translation": "可失合儿",
+        "stage": 1
     },
     {
         "key": "d_khotan",
@@ -1580,13 +1580,13 @@
     {
         "key": "MAPMODE_GOVERNMENTS",
         "original": "§YGovernments§!",
-        "translation": "§Y政体§!",
+        "translation": "§Y政体地图§!",
         "stage": 5
     },
     {
         "key": "MAPMODE_GOVERNMENTS_DESC",
         "original": "This map mode shows the different governments.",
-        "translation": "这个地图模式显示不同的政体。",
+        "translation": "该地图模式显示不同的政体。",
         "stage": 5
     },
     {
@@ -2264,7 +2264,7 @@
     {
         "key": "CLAN_RISES_LOG",
         "original": "A new clan has risen in $TITLE_ADJ$, under §Y$CLAN$§!.",
-        "translation": "一个新的部族在$TITLE_ADJ$，§Y$CLAN$§!之下崛起。",
+        "translation": "一个新的部族在§Y$CLAN$§!的领导下于$TITLE_ADJ$崛起。",
         "stage": 5
     },
     {
@@ -2486,8 +2486,8 @@
     {
         "key": "WAR_NAME_TRIBUTARY",
         "original": "$ORDER$$FIRST_ADJ$ War to Make $DEFENDER$ Pay Tribute",
-        "translation": "$ORDER$$FIRST_ADJ$强迫$DEFENDER$朝贡的战争",
-        "stage": 5
+        "translation": "$ORDER$ $FIRST_ADJ$强迫$DEFENDER$朝贡的战争",
+        "stage": 1
     },
     {
         "key": "CB_NAME_FREE_TRIBUTARY",
@@ -2534,8 +2534,8 @@
     {
         "key": "WAR_NAME_FREE_TRIBUTARY",
         "original": "$ORDER$$FIRST_ADJ$ War to Free $ATTACKER$ from Suzerain",
-        "translation": "$ORDER$$FIRST_ADJ$从宗主国下解放$ATTACKER$的战争",
-        "stage": 5
+        "translation": "$ORDER$ $FIRST_ADJ$从宗主国下解放$ATTACKER$的战争",
+        "stage": 1
     },
     {
         "key": "REMOVE_PREVIOUS_SUZERAIN",
@@ -2630,8 +2630,8 @@
     {
         "key": "WAR_NAME_CLAN_REVOLT",
         "original": "$ORDER$$ATTACKER$ Clan Revolt for $OTHER_TITLE$",
-        "translation": "$ORDER$$ATTACKER$$OTHER_TITLE$部族叛乱",
-        "stage": 5
+        "translation": "$ORDER$ $ATTACKER$夺取$OTHER_TITLE$的部族叛乱",
+        "stage": 1
     },
     {
         "key": "clan_revolt_desc",
@@ -2870,7 +2870,7 @@
     {
         "key": "uyghur",
         "original": "Uyghur",
-        "translation": "回鹘人",
+        "translation": "回鹘",
         "stage": 5
     },
     {
@@ -2894,13 +2894,13 @@
     {
         "key": "khitan",
         "original": "Khitan",
-        "translation": "契丹人",
+        "translation": "契丹",
         "stage": 5
     },
     {
         "key": "sogdian",
         "original": "Sogdian",
-        "translation": "粟特人",
+        "translation": "粟特",
         "stage": 5
     },
     {
@@ -2918,7 +2918,7 @@
     {
         "key": "TITLE_NEW_PRIMARY_IS_NOMADIC",
         "original": "§RNomads cannot set Primary Title!§!",
-        "translation": "§R游牧部落不能设置主头衔！§!",
+        "translation": "§R游牧制不能设置主头衔！§!",
         "stage": 5
     },
     {
@@ -2984,8 +2984,8 @@
     {
         "key": "WAR_NAME_RIVALRY",
         "original": "$ORDER$$FIRST_ADJ$-$SECOND_ADJ$ Rivalry War",
-        "translation": "$ORDER$$FIRST_ADJ$ - $SECOND_ADJ$仇敌战争",
-        "stage": 5
+        "translation": "$ORDER$ $FIRST_ADJ$—$SECOND_ADJ$仇敌战争",
+        "stage": 1
     },
     {
         "key": "AIREASON_TRIBUTARY_WAR_AGAINST_TRIBUTARY",
@@ -3398,7 +3398,7 @@
     {
         "key": "NOMAD_TECH_POINTS",
         "original": "Nomads do not generate technology points.",
-        "translation": "游牧民不会产出科技点数。",
+        "translation": "游牧制不会产出科技点数。",
         "stage": 5
     },
     {
@@ -3495,7 +3495,7 @@
         "key": "b_khangai",
         "original": "Khangai",
         "translation": "杭海",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "b_kara_khorum",
@@ -3512,14 +3512,14 @@
     {
         "key": "b_aj_bogd",
         "original": "Aj Bogd",
-        "translation": "阿吉博格多",
-        "stage": 1
+        "translation": "阿主孛黑答",
+        "stage": 5
     },
     {
         "key": "b_ikh_bogd",
         "original": "Ikh Bogd",
-        "translation": "伊赫博格多",
-        "stage": 1
+        "translation": "也客孛黑答",
+        "stage": 5
     },
     {
         "key": "b_tsagaannuur",
@@ -3536,8 +3536,8 @@
     {
         "key": "b_kashgar",
         "original": "Kashgar",
-        "translation": "喀什噶尔",
-        "stage": 5
+        "translation": "可失合儿",
+        "stage": 1
     },
     {
         "key": "b_aksu_mongolia",
@@ -3668,8 +3668,8 @@
     {
         "key": "PROV1439",
         "original": "Kashgar",
-        "translation": "喀什噶尔",
-        "stage": 5
+        "translation": "可失合儿",
+        "stage": 1
     },
     {
         "key": "PROV1440",
@@ -3740,14 +3740,14 @@
     {
         "key": "PROV1453",
         "original": "Aj Bogd",
-        "translation": "阿吉博格多",
-        "stage": 1
+        "translation": "阿主孛黑答",
+        "stage": 5
     },
     {
         "key": "PROV1456",
         "original": "Ikh Bogd",
-        "translation": "伊赫博格多",
-        "stage": 1
+        "translation": "也客孛黑答",
+        "stage": 5
     },
     {
         "key": "PROV1457",
