@@ -5822,13 +5822,13 @@ HOLY_ORDER_CONSTRUCTION_COMPLETE_ALT;骑士团在[Root.GetName]建起了一座�
 PAGAN_HOLY_ORDER_FORMED_ALT;在最近的改革之后，一个新的骑士团诞生了。数以百计的狂热者已成群结队地集结在它的旗帜下，准备为保卫他们的信仰而战。;;;;;;;;;;;;x
 satanists_recruit_block_tooltip;[GetLucifersOwnRecruitBlockDesc];;;;;;;;;;;;x
 satanists_recruit_block_tooltip_real;之前没有接触过路西法仆从\n;;;;;;;;;;;;x
-devil_worshipers_recruit_block_tooltip_random;之前没有受你的社团接触\n;;;;;;;;;;;;x
+devil_worshipers_recruit_block_tooltip_random;之前没有接触过你的社团\n;;;;;;;;;;;;x
 the_satanists;[GetLucifersOwnSocietyName];;;;;;;;;;;;x
 the_satanists_real;路西法仆从;;;;;;;;;;;;x
 the_satanists_random;[catholic.GetRandomEvilGodNameCap]仆从;;;;;;;;;;;;x
 the_satanists_desc;[GetLucifersOwnSocietyDesc];;;;;;;;;;;;x
-the_satanists_desc_real;那些服侍魔鬼的人就躲在我们中间，把他们的堕落和背叛奉献给他们的主人撒旦。每一次罪过都是一首赞美诗，每一次谋杀都是对[Root.Religion.GetHighGodName]的蔑视咆哮。路西法奖励这些黑暗的仪式——女巫被赋予了非自然的长寿和各种恶魔般的能力。;;;;;;;;;;;;x
-devil_worshiper_desc_random;那些服侍[Root.Religion.GetRandomEvilGodNameCap]的人就躲在我们中间，把他们的堕落和背叛奉献给邪恶的神灵。每一次罪过都是一首赞美诗，每一次谋杀都是对[Root.Religion.GetHighGodName]的蔑视咆哮——女巫被赋予了非自然的长寿和各种恶魔般的能力。;;;;;;;;;;;;x
+the_satanists_desc_real;那些服侍魔鬼的人就躲在我们中间，把他们的堕落和背叛奉献给他们的主人撒旦。每一次罪过都是一首赞美诗，每一次谋杀都是对[Root.Religion.GetHighGodName]的蔑视咆哮。路西法奖励这些黑暗的仪式——巫师被赋予了非自然的长寿和各种恶魔般的能力。;;;;;;;;;;;;x
+devil_worshiper_desc_random;那些服侍[Root.Religion.GetRandomEvilGodNameCap]的人就躲在我们中间，把他们的堕落和背叛奉献给邪恶的神灵。每一次罪过都是一首赞美诗，每一次谋杀都是对[Root.Religion.GetHighGodName]的蔑视咆哮——巫师被赋予了非自然的长寿和各种恶魔般的能力。;;;;;;;;;;;;x
 satanists_recruit;[GetLucifersOwnRecruit];;;;;;;;;;;;x
 satanists_recruit_desc;[GetLucifersOwnRecruitDesc];;;;;;;;;;;;x
 satanists_recruit_real;招入撒旦教团;;;;;;;;;;;;x
@@ -5859,7 +5859,7 @@ cult_of_kali_recruit_block_tooltip;[GetKaliRecruitBlockDesc];;;;;;;;;;;;x
 cult_of_kali_recruit_block_tooltip_real;之前没有接触过恶神哥利教派。;;;;;;;;;;;;x
 the_plaguebringers;[GetPlaguebringersSocietyName];;;;;;;;;;;;x
 the_plaguebringers_real;瘟疫使者;;;;;;;;;;;;x
-the_plaguebringers_random;[tengri_pagan.GetRandomEvilGodNameCap]的恋人;;;;;;;;;;;;x
+the_plaguebringers_random;[tengri_pagan.GetRandomEvilGodNameCap]的情人;;;;;;;;;;;;x
 the_plaguebringers_desc;[GetPlaguebringersSocietyDesc];;;;;;;;;;;;x
 the_plaguebringers_desc_real;瘟疫使者崇拜传统信徒口中的邪灵，他们诅咒他们的敌人死于恶疾，并向死亡之神尔力克寻求帮助来达成他们的个人目的。而最令人不安的是有传言说他们会为了黑暗的恩惠而无所不用其极……;;;;;;;;;;;;x
 plaguebringers_recruit;[GetPlaguebringersRecruit];;;;;;;;;;;;x
@@ -5894,22 +5894,22 @@ ALT_MERC_COMPANY;[renaming_target.Religion.GetName][renaming_target.Culture.GetN
 ALT_MERC_COMPANY_ADJ;[renaming_target.Religion.GetName][renaming_target.Culture.GetName]佣兵团;;;;;;;;;;;;x
 ALT_MERC_BROTHERS;[renaming_target.Location.County.GetAdjective][renaming_target.Culture.GetName]兄弟会;;;;;;;;;;;;x
 ALT_MERC_BROTHERS_ADJ;[renaming_target.Location.County.GetAdjective][renaming_target.Culture.GetName]兄弟会;;;;;;;;;;;;x
-ALT_MERC_NAVY;[renaming_target.Culture.GetName][renaming_target.Location.County.GetAdjective]海军;;;;;;;;;;;;x
-ALT_MERC_NAVY_ADJ;[renaming_target.Culture.GetName][renaming_target.Location.County.GetAdjective]海军;;;;;;;;;;;;x
+ALT_MERC_NAVY;[renaming_target.Culture.GetName]－[renaming_target.Location.County.GetAdjective]舰队;;;;;;;;;;;;x
+ALT_MERC_NAVY_ADJ;[renaming_target.Culture.GetName]－[renaming_target.Location.County.GetAdjective]舰队;;;;;;;;;;;;x
 ALT_MERC_COMPANY_ALT;[renaming_target.Location.County.GetAdjective]佣兵团;;;;;;;;;;;;x
 ALT_MERC_COMPANY_ALT_ADJ;[renaming_target.Location.County.GetAdjective];;;;;;;;;;;;x
 ALT_MERC_ARMY;[renaming_target.Culture.GetName]军;;;;;;;;;;;;x
 ALT_MERC_ARMY_ADJ;[renaming_target.Culture.GetName];;;;;;;;;;;;x
-EVTDESC_MNM_6028_ALT;我睁着眼睛，却只能看见黑暗。在第一个念头穿过睡眠的阴霾之前我的大脑一片空白。为什么我要起床？一个低沉的[Root.GetManWoman]的声音打破了沉寂，惊醒了我。「是时候向[shiite.GetHighGodName]献上你的虔诚了。」;;;;;;;;;;;;x
+EVTDESC_MNM_6028_ALT;我睁开眼睛，却只能看见黑暗。在第一个念头穿过睡眠的阴霾之前我的大脑一片空白。为什么我醒了？一个低沉的[Root.GetManWoman]的声音刺破寂静，惊醒了我。「是时候向[shiite.GetHighGodName]献上你的虔诚了。」;;;;;;;;;;;;x
 EVTOPTA_6028_ALT;荣耀归于[shiite.GetHighGodName]！;;;;;;;;;;;;x
 EVTOPTB_6028_ALT;我要让他们的名字传遍天下！;;;;;;;;;;;;x
 EVTOPTC_6028_ALT;我会秘密执行[shiite.GetHighGodName]的意志，不管有多少危险。;;;;;;;;;;;;x
 PROV1619;冰岛西海岸;;;;;;;;;;;;x
 HF_201_TITLE;天选之子;;;;;;;;;;;;x
-HF_201_DESC;你怀中抱着小[child_of_destiny.GetFirstName]，从[child_of_destiny.GetHerHis]小眼睛里感受到一丝不祥。这双眼睛中充斥的不是新生婴儿的喜悦，而是战士的雄心……你觉得这没什么，但是接生[child_of_destiny.GetHerHim]的[Root.Religion.GetPriestTitle]却说[child_of_destiny.GetHerHis]出生之夜非同寻常，可能受到了祝福？虽然有人说这很蠢，但你还记得那天晚上的预言。\n\n你将[child_of_destiny.GetFirstName]送回床上时，背后打了个颤——你在脑海中看到了一副世界变幻的景象，诸王向你的[child_of_destiny.GetDaughterSon]屈膝下跪。\n\n也许你也该上床睡觉了。;;;;;;;;;;;;x
+HF_201_DESC;你怀中抱着小[child_of_destiny.GetFirstName]，从[child_of_destiny.GetHerHis]小眼睛里感受到一丝征兆。这双眼睛中充斥的不是新生婴儿的喜悦，而是战士的雄心……你觉得这没什么，但是接生[child_of_destiny.GetHerHim]的[Root.Religion.GetPriestTitle]却说[child_of_destiny.GetHerHis]出生之夜非同寻常，可能受到了祝福？虽然有人说这很蠢，但你还记得那天晚上的预言。\n\n你将[child_of_destiny.GetFirstName]送回床上时，背后打了个颤——你在脑海中看到了一副世界变幻的景象，伟大的列王向你的[child_of_destiny.GetDaughterSon]屈膝下跪。\n\n也许你也该上床睡觉了。;;;;;;;;;;;;x
 HF_201_OPTA;可能世道要变了？;;;;;;;;;;;;x
 strangled_snake;掐死了一条蛇;;;;;;;;;;;;x
-strangled_snake_desc;这个角色还是婴儿时，就曾将一条钻进[GetHerHis]婴儿床的毒蛇掐死。;;;;;;;;;;;;x
+strangled_snake_desc;这个角色还是婴儿时，就成功将一条钻进[GetHerHis]婴儿床的毒蛇掐死。;;;;;;;;;;;;x
 friend_of_snakes;蛇之友;;;;;;;;;;;;x
 friend_of_snakes_desc;这个角色还是婴儿时，曾有一条毒蛇钻进[GetHerHis]婴儿床。[GetSheHe]并没有害怕，而是与毒蛇成了朋友。;;;;;;;;;;;;x
 HF_211_DESC;躺在婴儿床里，我听到越来越近的滑行声……这是什么，是敌是友？不久，一个发出嘶嘶声的脑袋在边上窥伺。它瞪着眼吐着信子朝我过来了……;;;;;;;;;;;;x
