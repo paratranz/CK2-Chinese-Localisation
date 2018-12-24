@@ -26,7 +26,7 @@ RulerDesignerDLC;角色设计器;;;;;;;;;;;;x
 PLOT_CONDITION_FOR_YOU;对你而言一定如此;;;;;;;;;;;;x
 PLOT_CONDITION_FOR_TARGET;对$TARGET$而言一定如此;;;;;;;;;;;;x
 ALREADY_HAVE_AMBITION;已经在努力$PLOT$;;;;;;;;;;;;x
-SEND_GIFT_INTERACTION_LONG_DESC;送礼给他人会提高他人对你的好感，提高值基于国家外交能力和收礼者的贪婪程度。在你领地外的角色收到你的礼物后会比你领地中的角色收到你的礼物后感到更加高兴。;;;;;;;;;;;;x
+SEND_GIFT_INTERACTION_LONG_DESC;送礼给他人会提高他人对你的好感，提高值基于国家外交能力和收礼者的贪婪程度。在你领地外的角色收到礼物会比领地中的角色收到礼物感到更加高兴。;;;;;;;;;;;;x
 JOIN_ATTACKER_WARS_EFFECT;将加入[GetTitledName][GetPossPronoun]进攻战争\n;;;;;;;;;;;;x
 JOIN_DEFENDER_WARS_EFFECT;将加入[GetTitledName][GetPossPronoun]防御战争\n;;;;;;;;;;;;x
 IS_NOT_PRIMARY_WAR_ATTACKER;不是一场战争中的主要进攻者;;;;;;;;;;;;x
@@ -213,7 +213,7 @@ EVTOPTA65155;我都胖成什么样了？别再给我烤乳猪了。;;;;;;;;;;;;x
 EVTOPTB65155;这座塔楼是给小孩子设计的吗？给我把所有的门都砸开！;;;;;;;;;;;;x
 EVTDESC65160;我穿过[Root.Location.GetName]纵横交错的街头时，遇上了当地的「钱包搜查官」，他说看我形迹可疑，要检查检查我的钱包，于是我老实听从了。;;;;;;;;;;;;x
 EVTOPTA65160;等下…… 那不是什么钱包搜查官……;;;;;;;;;;;;x
-EVTDESC3460;一位神职人员今天来到了宫廷，谈论信仰的问题，但他很快就露出了非正统基督信徒的真实面目。作为任何时候、任何地点的坚定的卫教者，我相信我做了正确的事情——把这个胆敢亵渎我的信仰和我的教堂的异教徒关进监狱。;;;;;;;;;;;;x
+EVTDESC3460;一位神职人员今天到宫廷谈论宗教信仰问题，但他很快就暴露出了自己异端的宗教观点。作为一以贯之的坚定卫教者，我相信我做了正确的事情——把这个胆敢诬蔑我的信仰和教会的异教徒关进监狱。;;;;;;;;;;;;x
 EVTOPTA3460;主的旨意！;;;;;;;;;;;;x
 EVTDESC61100;作为[Root.Liege.GetTitledFirstName]的摄政，我的职责是捍卫这个国家。我感觉[Root.Liege.GetHerHis]某块领土在我的直接管理下会更加繁荣。;;;;;;;;;;;;x
 EVTOPTA61100;[Root.Liege.GetTitledFirstName]愿意如此！;;;;;;;;;;;;x
@@ -228,7 +228,7 @@ EVTOPTB61105;诱人的建议，但这些金子不应该由我来花。;;;;;;;;;;
 EVTTOOLTIP61106;以[Root.Liege.GetTitledFirstName]的名义，你给了穷人们一些捐赠。;;;;;;;;;;;;x
 EVTDESC61106;你的摄政[Root.Regent.GetTitledName]似乎向[Root.Regent.GetHerHis]慈善的本性所屈服，从您的库房中支取了一些金子捐赠给了穷人。最糟糕的是，[Root.Regent.GetSheHe]是以您的名义做了这些事情！;;;;;;;;;;;;x
 EVTOPTA61106;呃呃呃……不——不……！;;;;;;;;;;;;x
-EVTDESC61110;自从[Root.Regent.GetTitledFirstName]成为了你的摄政，您领地的管理水平显著上升了。如果你的能力和[Root.Regent.GetHerHis]能力比就好了！;;;;;;;;;;;;x
+EVTDESC61110;自从[Root.Regent.GetTitledFirstName]成为你的摄政，你领地的管理水平显著上升了。如果你的能力和[Root.Regent.GetHerHis]能力比就好了！;;;;;;;;;;;;x
 EVTOPTA61110;*口齿不清地发出咕噜声*;;;;;;;;;;;;x
 EVTDESC61120;[Root.Liege.GetTitledFirstName]是一个衰老的蠢货和[Root.Liege.GetManWoman]的一个可悲的空壳。作为[Root.Liege.GetHerHis]指定的摄政，我想宫廷中需要一个新的小丑……;;;;;;;;;;;;x
 EVTOPTA61120;在廷臣面前羞辱[Root.Liege.GetHerHim]。;;;;;;;;;;;;x
@@ -1086,7 +1086,7 @@ EVTOPTA100440;[Root.Religion.GetRandomGodName]肯定需要坚定的捍卫者与�
 EVTTOOLTIP100441;[Root.GetTitledFirstName]向[Root.RelHead.GetTitledFirstName]寻求[Root.GetHerHis]帮助以对抗像[Root.GetHerHis]仇敌那样的异端;;;;;;;;;;;;x
 EVTOPTB100440;我对他的怨恨是完全与宗教无关的世俗之事;;;;;;;;;;;;x
 EVTOPTC100440;在他的看法中也可能存在某些真实的东西;;;;;;;;;;;;x
-EVTDESC100441;「心怀着悲痛之情，我必须向您报告：一个犯错的人选择变成一名异端信徒。我相信圣父教宗陛下将希望看到没有其他人被这种异端所诱惑。」\n[From.GetTitledFirstName]向我们警告一个人走向了堕落之道。;;;;;;;;;;;;x
+EVTDESC100441;「我必须怀着悲痛之心向您报告：有个迷途羔羊选择信奉异端。我相信圣父教宗陛下不希望看到其他人被这种异端所诱惑。」\n[From.GetTitledFirstName]向我们警告有人走向了堕落之道。;;;;;;;;;;;;x
 EVTOPTA100441;对这个可怜的灵魂，我们除了绝罚已经没有什么可以做的了;;;;;;;;;;;;x
 EVTTOOLTIP100443;收到一封来信告知[This.GetTitledFirstName]：[From.GetSheHe]已经被[Root.GetTitledFirstName]绝罚;;;;;;;;;;;;x
 EVTTOOLTIP100444;收到一封来信：[Root.GetTitledFirstName]保证会收拾你们这群异端信众;;;;;;;;;;;;x
@@ -1221,7 +1221,7 @@ EVTOTPA100527;因为毒害宾客，[From.GetTitledFirstName]把我扔进大牢�
 EVTOTPB100527;因为毒害宾客，[From.GetTitledFirstName]把我驱逐出境;;;;;;;;;;;;x
 EVTDESC72038;我听说[From.GetTitledFirstName]挑战我的其中一位宾客进行决斗，但在我有机会出面干涉时，那两个决斗者早已走到外面……;;;;;;;;;;;;x
 EVTOPTA72038;我要试着在为时已晚之前赶上他们……;;;;;;;;;;;;x
-opinion_revoked_lord_spiritual_title;剥夺宫廷司祭职位;;;;;;;;;;;;x
+opinion_revoked_lord_spiritual_title;收回宫廷司祭职位;;;;;;;;;;;;x
 action_inquisition_desc;将你的[GetMyLordSpiritualName]派到那群迷失的羔羊所在的省份，转化异端和异教徒。;;;;;;;;;;;;x
 action_advance_cul_tech_desc;将你的[GetMyLordSpiritualName]派到一个省份工作以发展文化科技。;;;;;;;;;;;;x
 action_improve_rel_relations_desc;让你的[GetMyLordSpiritualName]带领一个修士代表团去与当地的神职人员（尤其对宗教领袖有用）进行宗教辩论。;;;;;;;;;;;;x

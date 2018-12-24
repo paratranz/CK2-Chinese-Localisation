@@ -4671,7 +4671,7 @@ HINT_CHAR_VIEW_TEXT_4;角色的家族在界面的右上部分显示。一个有�
 HINT_CHAR_VIEW_TEXT_5;有些角色头像上有小图标，一个五角星表示这是你正在扮演的角色，一个皇冠凸显出你的继承人，一个小血滴则意味着这个角色来自你的家族。;;;;;;;;;;;;x
 HINT_COUNCIL_VIEW_TITLE;内阁界面;;;;;;;;;;;;x
 HINT_COUNCIL_VIEW_TEXT_1;每个统治者都有一个内阁来协助治理领地。内阁里的五个职位都有一个主要的属性——外交，军事，财政，密谋和学习。这些内阁成员的技能值将在统治者处理国家事务时直接增加到统治者的能力上。;;;;;;;;;;;;x
-HINT_COUNCIL_VIEW_TEXT_2;内阁成员可以被派遣到地图上的某个地区去执行各种任务。例如，宫廷牧师可以被派遣去把某个省份和其中的角色转换为你的宗教。;;;;;;;;;;;;x
+HINT_COUNCIL_VIEW_TEXT_2;内阁成员可以被派遣到地图上的某个地区去执行各种任务。例如，宫廷司祭可以被派遣去把某个省份和其中的角色转换为你的宗教。;;;;;;;;;;;;x
 HINT_COUNCIL_VIEW_TEXT_3;被指派为内阁成员的角色会更喜欢你，但是他们也会在被解职时觉得不满。;;;;;;;;;;;;x
 HINT_LAW_VIEW_TITLE;法律界面;;;;;;;;;;;;x
 HINT_LAW_VIEW_TEXT_1;你可以在这个界面改变你领地的法律。有两种主要类型的法律——继承法和正式法律。继承法决定了谁是合法的继承人，而正式法律则关注与统治相关的一些事务。;;;;;;;;;;;;x
@@ -15896,7 +15896,7 @@ LEDGER_DEFENDER;防御方;;;;;;;;;;;;x
 LEDGER_SCORE;得分;;;;;;;;;;;;x
 LEDGER_HOME;省份;;;;;;;;;;;;x
 LEDGER_TECH_GROUP;科技组;;;;;;;;;;;;x
-LEDGER_SKILL;技能;;;;;;;;;;;;x
+LEDGER_SKILL;能力;;;;;;;;;;;;x
 LEDGER_TYPE;类型;;;;;;;;;;;;x
 LEDGER_UNIT;单位;;;;;;;;;;;;x
 LEDGER_SHIPS;舰船;;;;;;;;;;;;x
@@ -16168,7 +16168,7 @@ DIPRELCH_DEPENDENCY;朝贡关系;;;;;;;;;;;;x
 DIPRELCH_WAR;交战;;;;;;;;;;;;x
 DIPRELCH_NBOR_PEACE;和平的邻国;;;;;;;;;;;;x
 DIPRELCH_DIFF_RELIGION;不同宗教;;;;;;;;;;;;x
-DIPRELCH_DIP_SKILL;外交技能;;;;;;;;;;;;x
+DIPRELCH_DIP_SKILL;外交能力;;;;;;;;;;;;x
 DIPRELCH_GUARANTEE;保障独立;;;;;;;;;;;;x
 DIPRELCH_CULTURE;相同文化;;;;;;;;;;;;x
 TERM_OF_OFFICE;任期;;;;;;;;;;;;x
@@ -17296,7 +17296,7 @@ PROV1038;奥特朗托海峡;;;;;;;;;;;;x
 PROV1109;亚得里亚海;;;;;;;;;;;;x
 PROV1110;威尼斯湾;;;;;;;;;;;;x
 PROV1111;爱琴海;;;;;;;;;;;;x
-PROV936;基克拉泽斯;;;;;;;;;;;;x
+PROV936;基克拉泽斯群岛;;;;;;;;;;;;x
 PROV937;克里特海;;;;;;;;;;;;x
 PROV938;埃及海岸;;;;;;;;;;;;x
 PROV939;尼罗河三角洲;;;;;;;;;;;;x
@@ -17543,18 +17543,18 @@ CH_LEARNING_CHANGE;$DIRECTION$  $CHANGE$ 学识;;;;;;;;;;;;x
 CH_HEALTH_CHANGE;$DIRECTION$  $CHANGE$ 健康;;;;;;;;;;;;x
 CH_PRESTIGE_CHANGE;$DIRECTION$  $CHANGE$ 威望;;;;;;;;;;;;x
 CH_PIETY_CHANGE;[Player.Religion.GetPietyName]$DIRECTION$  $CHANGE$;;;;;;;;;;;;x
-STAT_MARTIAL;国家军事能力;;;;;;;;;;;;x
+STAT_MARTIAL;§Y国家军事能力§!;;;;;;;;;;;;x
 STAT_MARTIAL_DESC;军事能力对将军至关重要，也会影响军事总管执行任务的结果。;;;;;;;;;;;;x
 STAT_MARTIAL_CHAR_DESC;军事能力为§Y$VALUE$§W的§Y[GetTitledFirstName]§W被认为是$DESC$将领。;;;;;;;;;;;;x
-STAT_DIPLOMACY;国家外交能力;;;;;;;;;;;;x
+STAT_DIPLOMACY;§Y国家外交能力§!;;;;;;;;;;;;x
 STAT_DIPLOMACY_DESC;外交能力影响其他角色对你的好感，也会影响外交总管执行任务的结果。;;;;;;;;;;;;x
 STAT_DIPLOMACY_CHAR_DESC;外交能力为§Y$VALUE$§W的§Y[GetTitledFirstName]§W被认为是$DESC$外交家。;;;;;;;;;;;;x
-STAT_INTRIGUE;国家密谋能力;;;;;;;;;;;;x
-STAT_INTRIGUE_CHAR_DESC;密谋能力为§Y$VALUE$§W的§Y[GetTitledFirstName]§W被认为是$DESC$阴谋家。;;;;;;;;;;;;x
-STAT_STEWARDSHIP;国家财政能力;;;;;;;;;;;;x
+STAT_INTRIGUE;§Y国家密谋能力§!;;;;;;;;;;;;x
+STAT_INTRIGUE_CHAR_DESC;密谋能力为 §Y$VALUE$§W 的§Y[GetTitledFirstName]§W被认为是$DESC$阴谋家。;;;;;;;;;;;;x
+STAT_STEWARDSHIP;§Y国家财政能力§!;;;;;;;;;;;;x
 STAT_STEWARDSHIP_DESC;财政能力决定税收数额，是你的财政总管的主要属性。;;;;;;;;;;;;x
-STAT_LEARNING;国家学习能力;;;;;;;;;;;;x
-STAT_LEARNING_DESC;学习能力是宫廷牧师的主要属性，并且影响科技创新速度。;;;;;;;;;;;;x
+STAT_LEARNING;§Y国家学习能力§!;;;;;;;;;;;;x
+STAT_LEARNING_DESC;学习能力是宫廷司祭的主要属性，并且影响科技创新速度。;;;;;;;;;;;;x
 STAT_LEARNING_CHAR_DESC;学习能力为§Y$VALUE$§W的§Y[GetTitledFirstName]§W被认为是$DESC$学者。;;;;;;;;;;;;x
 STAT_DESC_1;不称职的;;;;;;;;;;;;x
 STAT_DESC_2;差劲的;;;;;;;;;;;;x
@@ -17902,11 +17902,11 @@ VASSAL_RAISE_DEMESNE_DESC;动员私人部队;;;;;;;;;;;;x
 VASSAL_RAISE_ALL_DESC;动员全国部队;;;;;;;;;;;;x
 VASSAL_RAISE_SHIPS_DESC;动员私人船只;;;;;;;;;;;;x
 VASSAL_RAISE_ALL_SHIPS_DESC;动员全国船只;;;;;;;;;;;;x
-static_diplomacy_mod;外交技能;;;;;;;;;;;;x
-static_intrigue_mod;密谋技能;;;;;;;;;;;;x
+static_diplomacy_mod;外交能力;;;;;;;;;;;;x
+static_intrigue_mod;密谋能力;;;;;;;;;;;;x
 static_learning_mod;学习能力;;;;;;;;;;;;x
-static_stewardship_mod;财政技能;;;;;;;;;;;;x
-static_martial_mod;军事技能;;;;;;;;;;;;x
+static_stewardship_mod;财政能力;;;;;;;;;;;;x
+static_martial_mod;军事能力;;;;;;;;;;;;x
 STAT_CULTURE;文化;;;;;;;;;;;;x
 STAT_CULTURE_DESC;角色的文化决定了他的臣民和其他人是否将其看作外国人。;;;;;;;;;;;;x
 STAT_RELIGION;宗教;;;;;;;;;;;;x
@@ -19292,7 +19292,7 @@ tut_2b_5;外交总管。你的外交顾问，尽量选一个外交能力高的�
 tut_2b_6;军事总管。你的军事顾问，他将指挥你的军队，所以请尽量选择一个军事能力分值高的。;;;;;;;;;;;;x
 tut_2b_7;财政总管。您的财务主管，选择一个财务能力出色的，能够增加你的税收收入。;;;;;;;;;;;;x
 tut_2b_8;间谍总管。这是一个官面上不存在的位置，作为一个隐藏在阴影中的顾问，拥有很高的阴谋技能是很重要的。即便你没有任何暗杀计划，他也能帮你发现叛乱以便更好地应对。;;;;;;;;;;;;x
-tut_2b_9;宫廷司祭。你的个人信仰顾问，这个顾问的重要特点是学习能力，更高的价值也表现在有助于你的技术研究方面。;;;;;;;;;;;;x
+tut_2b_9;宫廷司祭。你的个人信仰顾问，这个顾问的重要特点是学习能力，高学习能力值有助于技术研究。;;;;;;;;;;;;x
 tut_2c_1;政治 - 高级;;;;;;;;;;;;x
 tut_2c_2;每个顾问都有三个特有的任务可以完成。当然，同一时间他们只能干其中的一件事。这期间内你仍然可以获得他们带来的能力加成。;;;;;;;;;;;;x
 tut_2c_3;让我们去看看吧，点击顾问按钮继续。;;;;;;;;;;;;x
