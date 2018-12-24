@@ -6057,10 +6057,10 @@ province_mourning_warrior_death_desc;这个社区在哀悼§Y[local_dead_command
 grieving_over_warrior_lover;悲伤的战士恋人;;;;;;;;;;;;x
 grieving_over_warrior_lover_desc;这名角色正沉浸在战争中失去[GetHerHis]恋人的悲伤之中。;;;;;;;;;;;;x
 province_team_spirit;我们的英雄;;;;;;;;;;;;x
-province_team_spirit_desc;这个社团被指挥官§Y[local_inspiring_commander_target.GetTitledName]§!激励人心的领袖故事所鼓舞。;;;;;;;;;;;;x
+province_team_spirit_desc;这个社区到处都流传着指挥官§Y[local_inspiring_commander_target.GetTitledName]§!激励人心的领导故事。;;;;;;;;;;;;x
 EVTDESC_HF_10016;我的[recruiting_parent.GetRootRelation]今晚晚饭时说了些含糊其辞的话，评论了我的剑术，并问我对军事战略有多大兴趣。「老实说，[Root.GetFirstName]……你什么时候才能成为[recruiting_parent.Society.GetName]的一员？」;;;;;;;;;;;;x
 EVTOPTA_HF_10016;我一直在等你问这句话。;;;;;;;;;;;;x
-EVTOPTA_HF_10016_TT;会联系到[warrior_lodge_to_join.GetName]的§Y[hero_character.GetTitledFirstName]§!。\n;;;;;;;;;;;;x
+EVTOPTA_HF_10016_TT;[warrior_lodge_to_join.GetName]的§Y[hero_character.GetTitledFirstName]§!会收到联络。\n;;;;;;;;;;;;x
 EVTOPTB_HF_10016;[recruiting_parent.GetFatherMotherCap]，我将开辟自己的道路。;;;;;;;;;;;;x
 EVTOPTB_HF_10016_TT;你的[recruiting_parent.GetFatherMother]感到失望。\n;;;;;;;;;;;;x
 EVTDESC_HF_10012_A;我那[new_recruit.GetAgeAdjective][new_recruit.GetSonDaughter]听完我的提议后开始大笑。「我以为你根本不会来问我呢！我现在就去联系[hero_character.GetTitledFirstName]，[Root.GetFatherMother]。」;;;;;;;;;;;;x
@@ -6088,9 +6088,9 @@ EVTOPTA_HF_10014_TT;§Y[new_recruit.GetTitledFirstName]§!将会从[new_recruit.
 EVTOPTB_HF_10014;老实说，我期待更多。;;;;;;;;;;;;x
 EVTOPTB_HF_10014_TT;§Y[new_recruit.GetTitledFirstName]§!的泪水闪闪发光。\n;;;;;;;;;;;;x
 recruit_child_decision;招募到战士公会;;;;;;;;;;;;x
-recruit_child_decision_desc;由于§Y[Root.GetTitledFirstName]§!是你的[Root.GetSonDaughter]，你可以请他们参加入会仪式，借此加入[From.Society.GetName]。\n;;;;;;;;;;;;x
-already_attempted_recruitment_tt;最近没有请求加入[From.Society.GetName]\n;;;;;;;;;;;;x
-recruit_tooltip_busy;新人未担负任务，也不处于战争中\n;;;;;;;;;;;;x
+recruit_child_decision_desc;由于§Y[Root.GetTitledFirstName]§!是你的[Root.GetSonDaughter]，你可以请他们经历入会仪式，借此加入[From.Society.GetName]。\n;;;;;;;;;;;;x
+already_attempted_recruitment_tt;最近没有被请求加入[From.Society.GetName]\n;;;;;;;;;;;;x
+recruit_tooltip_busy;被招募者不忙碌，也不处于战争中\n;;;;;;;;;;;;x
 EVTDESC_HF_10017_A;我[From.GetFatherMother]告诉我：「未来你的人生走哪条路并不重要，不管你是选择用剑来开拓疆土，还是选择用笔来让自己名垂青史，你永远是我的[Root.GetSonDaughter]。」整晚我们都在讨论我未来所要走的路，每每我想到[From.GetHerHis]支持，我便发自内心的微笑。;;;;;;;;;;;;x
 EVTOPTA_HF_10017_1;毕竟，家庭是更为重要的。;;;;;;;;;;;;x
 EVTOPTA_HF_10017_2;生命中能拥有[From.GetHerHim]真的很幸运。;;;;;;;;;;;;x
@@ -6133,7 +6133,7 @@ EVTOPT_HFP_11011_B;且慢！你带走这个[equipped_artifact.GetName]，饶我�
 EVTOPT_HFP_11011_B_TT_weapon;你把自己的武器扔到地上。然后跑了。\n;;;;;;;;;;;;x
 EVTOPT_HFP_11011_B_TT_armor;你把自己的铠甲扔在[battlefield_location.GetGroundDesc]。然后跑了。\n;;;;;;;;;;;;x
 EVTOPT_HFP_11011_B_TT_fallback;你把§Y[equipped_artifact.GetName]§!扔到地上。然后跑了。\n;;;;;;;;;;;;x
-reason_has_equipped_artifact;这个选项可用是因为你拥有§Y[equipped_artifact.GetName]§!装备。;;;;;;;;;;;;x
+reason_has_equipped_artifact;这个选项可用是因为你装备着§Y[equipped_artifact.GetName]§!。;;;;;;;;;;;;x
 artifact_is_removed_tt;§Y[equipped_artifact.GetName]§!将从你的宝库中移除。\n;;;;;;;;;;;;x
 EVTOPT_HFP_11011_C;我不这么想——我要亲自和[enemy_commander.GetFirstName]指挥官决斗！;;;;;;;;;;;;x
 opinion_injured_me_in_battle;在战斗中打伤了我;;;;;;;;;;;;x
