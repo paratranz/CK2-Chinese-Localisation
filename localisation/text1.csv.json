@@ -12116,8 +12116,8 @@
     {
         "key": "EVTOPTA6051",
         "original": "I feel better now",
-        "translation": "我觉得现在好多了",
-        "stage": 5
+        "translation": "我现在感觉好多了",
+        "stage": 1
     },
     {
         "key": "EVTDESC6060",
@@ -15350,8 +15350,8 @@
     {
         "key": "EVTDESC284",
         "original": "I will gladly lift the excommunication of [Root.GetTitledFirstName] and allow [Root.GetObjectPronoun] back into the Church!",
-        "translation": "我很乐意收回对[Root.GetTitledFirstName]的绝罚并允许 [Root.GetObjectPronoun]回到教会的怀抱中！",
-        "stage": 5
+        "translation": "我很乐意免除对[Root.GetTitledFirstName]的绝罚并允许[Root.GetObjectPronoun]回到教会的怀抱中！",
+        "stage": 1
     },
     {
         "key": "EVTDESC285",
@@ -29270,19 +29270,19 @@
     {
         "key": "REVOKE_TITLE_INTERACTION_3",
         "original": "There is a §R$RISK$%§W chance that [Recipient.GetSubjectPronoun]§W will revolt!",
-        "translation": "有 §R$RISK$%§! 几率 [Recipient.GetSubjectPronoun]§! 将揭竿而起！",
-        "stage": 5
+        "translation": "有 §R$RISK$%§W 几率 [Recipient.GetSubjectPronoun]§W 将揭竿而起！",
+        "stage": 1
     },
     {
         "key": "REVOKE_TITLE_INTERACTION_ACCEPT_SETUP",
         "original": "Title Revoked",
-        "translation": "剥夺头衔",
-        "stage": 5
+        "translation": "头衔被剥夺",
+        "stage": 1
     },
     {
         "key": "REVOKE_TITLE_INTERACTION_ACCEPT_LOG",
         "original": "§Y[Actor.GetBestName]§W revoked the §Y[ThirdPartyTitle.GetFullName]§W from §Y[Recipient.GetBestName]§W",
-        "translation": "§Y[Actor.GetBestName]§W从§Y[Recipient.GetBestName]§W手中剥夺了§Y[ThirdPartyTitle.GetFullName]头衔§W",
+        "translation": "§Y[Actor.GetBestName]§W从§Y[Recipient.GetBestName]§W手中剥夺了§Y[ThirdPartyTitle.GetFullName]§W",
         "stage": 1
     },
     {
@@ -29300,8 +29300,8 @@
     {
         "key": "AWARD_HONORARY_TITLE_INTERACTION_LONG_DESC",
         "original": "You can hand out honorary titles to your courtiers, which will raise their opinion of you. Some honorary titles also come with minor estates (a source of income) and monthly prestige gain.",
-        "translation": "你可以授予荣誉头衔给你的臣民，这将提高他们对你的好感度。部分荣誉头衔附带次级产权（一种经济收入来源）和每月的威望收入。",
-        "stage": 5
+        "translation": "你可以授予荣誉头衔给你的廷臣，这将提高他们对你的好感度。部分荣誉头衔附带次级产权（一种经济收入来源）和每月的威望收入。",
+        "stage": 1
     },
     {
         "key": "AWARD_HONORARY_TITLE_INTERACTION_0",
@@ -29342,14 +29342,14 @@
     {
         "key": "SEND_ASSASSIN_INTERACTION_ACCEPT_SETUP",
         "original": "Assassination Attempted",
-        "translation": "已尝试暗杀",
-        "stage": 5
+        "translation": "暗杀未遂",
+        "stage": 1
     },
     {
         "key": "SEND_ASSASSIN_INTERACTION_ACCEPT_LOG",
         "original": "§Y[Actor.GetBestName]§W is rumored to be involved in an assassination attempt on §Y[Recipient.GetBestName]§W",
-        "translation": "§Y[Actor.GetBestName]§! 据传言卷入了针对 §Y[Recipient.GetBestName]§!的一场谋杀企图",
-        "stage": 5
+        "translation": "§Y[Actor.GetBestName]§W据传言卷入了针对§Y[Recipient.GetBestName]§W的一场谋杀企图",
+        "stage": 1
     },
     {
         "key": "DECLARE_WAR_INTERACTION_TITLE",
@@ -30488,8 +30488,8 @@
     {
         "key": "ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_DESC",
         "original": "Ask §Y[Actor.RelHead.GetTitledFirstName]§W to lift the excommunication of §Y[ThirdPartyCharacter.GetBestName]§W.",
-        "translation": "向§Y[Actor.RelHead.GetTitledFirstName]§!请求解除对 §Y[ThirdPartyCharacter.GetBestName]§!的绝罚。",
-        "stage": 5
+        "translation": "向§Y[Actor.RelHead.GetTitledFirstName]§W请求免除对§Y[ThirdPartyCharacter.GetBestName]§W的绝罚。",
+        "stage": 1
     },
     {
         "key": "ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_LONG_DESC",
@@ -30506,8 +30506,8 @@
     {
         "key": "ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_ACCEPT_LOG",
         "original": "§Y[Recipient.GetBestName]§W granted the request by §Y[Actor.GetBestName]§W to lift the excommunication of §Y[ThirdPartyCharacter.GetBestName]§W",
-        "translation": "§Y[Recipient.GetBestName]§!同意§Y[Actor.GetBestName]§!的提议，撤销§Y[ThirdPartyCharacter.GetBestName]§!的绝罚",
-        "stage": 5
+        "translation": "§Y[Recipient.GetBestName]§W同意了§Y[Actor.GetBestName]§W免除对§Y[ThirdPartyCharacter.GetBestName]§W的绝罚的提议",
+        "stage": 1
     },
     {
         "key": "ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_DECLINE_SETUP",
@@ -30518,14 +30518,14 @@
     {
         "key": "ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_DECLINE_LOG",
         "original": "§Y[Recipient.GetBestName]§W refused the request by §Y[Actor.GetBestName]§W to lift the excommunication of §Y[ThirdPartyCharacter.GetBestName]§W",
-        "translation": "§Y[Recipient.GetBestName]§!拒绝§Y[Actor.GetBestName]§!撤销§Y[ThirdPartyCharacter.GetBestName]§!的绝罚的提议",
-        "stage": 5
+        "translation": "§Y[Recipient.GetBestName]§W拒绝了§Y[Actor.GetBestName]§W免除对§Y[ThirdPartyCharacter.GetBestName]§W的绝罚的提议",
+        "stage": 1
     },
     {
         "key": "ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_OFFER",
         "original": "[Actor.GetBestName] wants us to lift the excommunication of [ThirdPartyCharacter.GetBestName]",
-        "translation": "[Actor.GetBestName]希望撤销[ThirdPartyCharacter.GetBestName]的绝罚",
-        "stage": 5
+        "translation": "[Actor.GetBestName]希望免除对[ThirdPartyCharacter.GetBestName]的绝罚",
+        "stage": 1
     },
     {
         "key": "ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_LETTER",
@@ -92702,13 +92702,13 @@
     {
         "key": "OFFERALLIANCEDESC",
         "original": "If a country accepts our Alliance offer it may come to our come to our assistance during wars.",
-        "translation": "如果一个国家接受了我们的军事同盟提议，那么该国在战争时期就会援助我们.",
+        "translation": "如果一个国家接受了我们的军事同盟提议，那么该国在战争时期就会援助我们。",
         "stage": 1
     },
     {
         "key": "CANCELALLIANCEDESC",
         "original": "Dissolving the current Alliance will, of course, end the current Alliance you have with this country, and will adversely affect relations.",
-        "translation": "撕毁与这个国家现有的盟约，并破坏双方的关系",
+        "translation": "撕毁与这个国家现有的盟约，这会破坏双方的关系。",
         "stage": 1
     },
     {
@@ -92720,7 +92720,7 @@
     {
         "key": "MILACCNEWDESC",
         "original": "Do you wish to request Military Access from $COUNTRY$ thereby allowing our ships and armies access to their territories?",
-        "translation": "你要让$COUNTRY$允许我们的舰队和陆军通过他们的领土吗",
+        "translation": "你想要要求$COUNTRY$的军事通行权，即允许我们的船只和军队进入他们境内吗？",
         "stage": 1
     },
     {
@@ -92732,13 +92732,13 @@
     {
         "key": "MILACCREQDESC",
         "original": "$COUNTRY$ is requesting Military Access from us. Accepting will allow them to move ships and armies into our territory.",
-        "translation": "$COUNTRY$ 要求我们提供军事通行.接受的话，将允许他们将船只和部队移动到我国领土内.",
+        "translation": "$COUNTRY$要求我国给予军事通行权。接受后他们的船只和军队将被允许进入我们境内。",
         "stage": 1
     },
     {
         "key": "CANCELMILACCDESC",
         "original": "Cancel our Military Access to their country.",
-        "translation": "取消我们向他们提供的军事通行",
+        "translation": "取消他们给与我们的军事通行权。",
         "stage": 1
     },
     {
@@ -92756,25 +92756,25 @@
     {
         "key": "OFFERMILACCNEWDESC",
         "original": "Do you wish to give Military Access to $COUNTRY$? This will enable them to station troops in our territories and ports.",
-        "translation": "你要向$COUNTRY$提供军事通行吗这将使他们的部队能够驻扎在我们的领土及港口内.",
+        "translation": "你想要给予$COUNTRY$军事通行权吗？这将会允许他们在我们境内驻军。",
         "stage": 1
     },
     {
         "key": "OFFERMILACCDESC",
         "original": "Enable them to station troops and ships in our country.",
-        "translation": "使他们的部队和船只能够在我国驻扎.",
+        "translation": "使他们的部队和船只能够在我国驻扎。",
         "stage": 1
     },
     {
         "key": "REVOKEMILACCTITLE",
         "original": "Revoke Military Access.",
-        "translation": "取消军事通行。",
-        "stage": 5
+        "translation": "收回军事通行权。",
+        "stage": 1
     },
     {
         "key": "REVOKEMILACCNEWDESC",
         "original": "Do you wish to revoke the Military Access given to $COUNTRY$? Doing so will prevent their troops from accessing our country and ports.",
-        "translation": "你要取消给予$COUNTRY$的军事通行吗这样将阻止他们的部队通过我国领土和港口.",
+        "translation": "你想要收回给予$COUNTRY$的军事通行权吗？这样做会使他们的军队无法通过我国领土和港口。",
         "stage": 1
     },
     {
@@ -92786,13 +92786,13 @@
     {
         "key": "CANCELMILACCNEWDESC",
         "original": "Do you wish to cancel the military access given to us by $COUNTRY$? Doing so will prevent our troops from accessing their country and ports.",
-        "translation": "你是否想要终止与$COUNTRY$签订的军事通行条约？如此，他们的领土和港口将不再对我军开放。",
+        "translation": "你是否想要取消$COUNTRY$给予我国的军事通行权？如此，他们的领土和港口将不再对我军开放。",
         "stage": 1
     },
     {
         "key": "CANCELMILACCINFORM",
         "original": "$COUNTRY$ is canceling the military access they gave us. Our soldiers are no longer allowed on their lands",
-        "translation": "$COUNTRY$终止了与本人的签订的军事通行条约。本人的军队不再被准入他们那儿了。",
+        "translation": "$COUNTRY$收回了给予我国的军事通行权。我国的军队不再允许进入他们境内了。",
         "stage": 1
     },
     {
@@ -92828,13 +92828,13 @@
     {
         "key": "OFFERMILACCREQDESC",
         "original": "$COUNTRY$ is offering us military access to their country. This would mean that our troops gain free access to their lands, however it also means we cannot declare war on them.",
-        "translation": "$COUNTRY$打算给予我们军事通行.这将使我们的部队能够通过他们的领土，但同时也意味着我们不能向他们宣战.",
+        "translation": "$COUNTRY$打算给予我国军事通行权。这将使我国军队能够通过他们的领土，但同时也意味着我们不能向他们宣战。",
         "stage": 1
     },
     {
         "key": "CANCELOFFERMILACCINFORM",
         "original": "$COUNTRY$ has declared that their troops are leaving our lands and will not return, at least not as friends...",
-        "translation": "$COUNTRY$宣布他们的军队将会离开我们的领土，而且下次回来的时候将不会是有好的……",
+        "translation": "$COUNTRY$宣布他们的军队将会离开我们的领土，而且将不会以友好的姿态回来……",
         "stage": 1
     },
     {
@@ -108878,7 +108878,7 @@
     {
         "key": "REVOKE",
         "original": "Revoke",
-        "translation": "收回",
+        "translation": "剥夺",
         "stage": 1
     },
     {

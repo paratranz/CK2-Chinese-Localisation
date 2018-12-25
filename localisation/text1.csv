@@ -2019,7 +2019,7 @@ EVTDESC6041;世界不会再让我难受了，新的春天走入的了我生活�
 EVTOPTA6041;生活不是太糟糕;;;;;;;;;;;;x
 EVTOPTA6050;是的;;;;;;;;;;;;x
 EVTDESC6051;我花一些时间做我喜欢的事，狩猎，阅读，访友，生活并不像以前那样灰暗。;;;;;;;;;;;;x
-EVTOPTA6051;我觉得现在好多了;;;;;;;;;;;;x
+EVTOPTA6051;我现在感觉好多了;;;;;;;;;;;;x
 EVTDESC6060;我觉得我不太清醒，一定有什么不对劲。我不断流鼻涕，发烧就像身上着了火，我的头感觉就好像被人在用力敲打一样。;;;;;;;;;;;;x
 EVTOPTA6060;杀了我吧！;;;;;;;;;;;;x
 EVTOPTA6061;活过来了！;;;;;;;;;;;;x
@@ -2558,7 +2558,7 @@ EVTDESC280;我接受您那光荣的邀请，并立即前往您的宫廷任职！
 EVTDESC281;我不能背弃我现在的领主去您那任职。;;;;;;;;;;;;x
 EVTDESC282;我接受你的臣服，从今天起，你将作为我的封臣而受到保护。;;;;;;;;;;;;x
 EVTDESC283;你的请求很诱人，但我还是不能接受你的臣服。;;;;;;;;;;;;x
-EVTDESC284;我很乐意收回对[Root.GetTitledFirstName]的绝罚并允许 [Root.GetObjectPronoun]回到教会的怀抱中！;;;;;;;;;;;;x
+EVTDESC284;我很乐意免除对[Root.GetTitledFirstName]的绝罚并允许[Root.GetObjectPronoun]回到教会的怀抱中！;;;;;;;;;;;;x
 EVTDESC285;恐怕[Root.GetTitledFirstName]的劣行依然是他回归圣母怀抱中的障碍。;;;;;;;;;;;;x
 EVTDESC286;我当然会接受这么一大笔赎金。[Root.GetTitledFirstName]自由了！;;;;;;;;;;;;x
 EVTDESC287;我恐怕无法接受你的请求。[Root.GetTitledFirstName]被我关着更好。;;;;;;;;;;;;x
@@ -4878,20 +4878,20 @@ REVOKE_TITLE_INTERACTION_LONG_DESC;剥夺一个封臣的头衔。这将激怒封
 REVOKE_TITLE_INTERACTION_0;选择剥夺的头衔。剥夺头衔将降低§Y[Recipient.GetTitledFirstName]§!对你的好感。如果你没有这个头衔的宣称权，或者王权法不够高，还将损害你的威望并激怒其他封臣。;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_1;剥夺§Y[ThirdPartyTitle.GetFullName]§W，损耗 §R$PRESTIGE$§W 威望。这将降低§Y[Recipient.GetTitledFirstName]§W对你的好感度 §R$OPINION$§W，降低其他封臣对你的好感度 §R$OPINION2$§W。;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_2;剥夺§Y[ThirdPartyTitle.GetFullName]§W。这将降低§Y[Recipient.GetTitledFirstName]§W对你的好感度 §R$OPINION$§W。;;;;;;;;;;;;x
-REVOKE_TITLE_INTERACTION_3;有 §R$RISK$%§! 几率 [Recipient.GetSubjectPronoun]§! 将揭竿而起！;;;;;;;;;;;;x
-REVOKE_TITLE_INTERACTION_ACCEPT_SETUP;剥夺头衔;;;;;;;;;;;;x
-REVOKE_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W从§Y[Recipient.GetBestName]§W手中剥夺了§Y[ThirdPartyTitle.GetFullName]头衔§W;;;;;;;;;;;;x
+REVOKE_TITLE_INTERACTION_3;有 §R$RISK$%§W 几率 [Recipient.GetSubjectPronoun]§W 将揭竿而起！;;;;;;;;;;;;x
+REVOKE_TITLE_INTERACTION_ACCEPT_SETUP;头衔被剥夺;;;;;;;;;;;;x
+REVOKE_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W从§Y[Recipient.GetBestName]§W手中剥夺了§Y[ThirdPartyTitle.GetFullName]§W;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_TITLE;授予荣誉头衔;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_DESC;授予一个角色荣誉头衔;;;;;;;;;;;;x
-AWARD_HONORARY_TITLE_INTERACTION_LONG_DESC;你可以授予荣誉头衔给你的臣民，这将提高他们对你的好感度。部分荣誉头衔附带次级产权（一种经济收入来源）和每月的威望收入。;;;;;;;;;;;;x
+AWARD_HONORARY_TITLE_INTERACTION_LONG_DESC;你可以授予荣誉头衔给你的廷臣，这将提高他们对你的好感度。部分荣誉头衔附带次级产权（一种经济收入来源）和每月的威望收入。;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_0;选择一个荣誉头衔授予 §Y[Recipient.GetTitledFirstName]§!。;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_1;将 §Y[ThirdPartyTitle.GetFullName]§! 授予 §Y[Recipient.GetTitledFirstName]§!。这将提高[Recipient.GetPossPronoun]对你的好感度$OPINION$。;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_ACCEPT_SETUP;已授予荣誉头衔;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!授予§Y[Recipient.GetBestName]§!§Y[ThirdPartyTitle.GetFullName]§!;;;;;;;;;;;;x
 SEND_ASSASSIN_INTERACTION_TITLE;暗杀;;;;;;;;;;;;x
 SEND_ASSASSIN_INTERACTION_LONG_DESC;暗杀的好处是能方便地去掉麻烦角色。然而，应当慎重权衡利弊风险——一旦暴露，这污名将被铭记……;;;;;;;;;;;;x
-SEND_ASSASSIN_INTERACTION_ACCEPT_SETUP;已尝试暗杀;;;;;;;;;;;;x
-SEND_ASSASSIN_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§! 据传言卷入了针对 §Y[Recipient.GetBestName]§!的一场谋杀企图;;;;;;;;;;;;x
+SEND_ASSASSIN_INTERACTION_ACCEPT_SETUP;暗杀未遂;;;;;;;;;;;;x
+SEND_ASSASSIN_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W据传言卷入了针对§Y[Recipient.GetBestName]§W的一场谋杀企图;;;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_TITLE;宣战;;;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_DESC;对此人宣战。;;;;;;;;;;;;x
 DECLARE_WAR_INTERACTION_LONG_DESC;战争是证明勇气的场所！只要你做好了充分准备……;;;;;;;;;;;;x
@@ -5081,13 +5081,13 @@ CALL_ALLY_INTERACTION_LETTER;本座请求你遵从义务，响应战争召唤对
 ATTACKING_SOMEONE_ATTACKING_CRUSADE_TARGET;§R对正在参与十字军的人宣战会额外花费§Y$PIETY$虔诚§W;;;;;;;;;;;;x
 ATTACKING_SOMEONE_DEFENDING_AGAINST_OTHER_RELIGIOUS_GROUP;§R对正在抵抗异教徒的人宣战会额外消耗§Y$PIETY$[Player.Religion.GetPietyName]§!;;;;;;;;;;;;x
 ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_TITLE;撤销绝罚;;;;;;;;;;;;x
-ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_DESC;向§Y[Actor.RelHead.GetTitledFirstName]§!请求解除对 §Y[ThirdPartyCharacter.GetBestName]§!的绝罚。;;;;;;;;;;;;x
+ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_DESC;向§Y[Actor.RelHead.GetTitledFirstName]§W请求免除对§Y[ThirdPartyCharacter.GetBestName]§W的绝罚。;;;;;;;;;;;;x
 ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_LONG_DESC;撤销绝罚要求宗教领袖足够喜欢你，或者是你的封臣。;;;;;;;;;;;;x
 ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_ACCEPT_SETUP;同意免除其绝罚;;;;;;;;;;;;x
-ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§!同意§Y[Actor.GetBestName]§!的提议，撤销§Y[ThirdPartyCharacter.GetBestName]§!的绝罚;;;;;;;;;;;;x
+ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§W同意了§Y[Actor.GetBestName]§W免除对§Y[ThirdPartyCharacter.GetBestName]§W的绝罚的提议;;;;;;;;;;;;x
 ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_DECLINE_SETUP;拒绝撤销绝罚;;;;;;;;;;;;x
-ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§!拒绝§Y[Actor.GetBestName]§!撤销§Y[ThirdPartyCharacter.GetBestName]§!的绝罚的提议;;;;;;;;;;;;x
-ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_OFFER;[Actor.GetBestName]希望撤销[ThirdPartyCharacter.GetBestName]的绝罚;;;;;;;;;;;;x
+ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§W拒绝了§Y[Actor.GetBestName]§W免除对§Y[ThirdPartyCharacter.GetBestName]§W的绝罚的提议;;;;;;;;;;;;x
+ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_OFFER;[Actor.GetBestName]希望免除对[ThirdPartyCharacter.GetBestName]的绝罚;;;;;;;;;;;;x
 ASK_TO_LIFT_EXCOMMUNICATION_INTERACTION_LETTER;显然是时候准许纯洁的[ThirdPartyCharacter.GetBestName]再次领受圣体圣事了。我可以为[ThirdPartyCharacter.GetPossPronoun]担保。;;;;;;;;;;;;x
 ASK_TO_RANSOM_CHARACTER_INTERACTION_TITLE;请求将囚犯赎身;;;;;;;;;;;;x
 ASK_TO_RANSOM_CHARACTER_INTERACTION_DESC;请求§Y[Recipient.GetTitledFirstName]§!接受我们的赎金并释放§Y[ThirdPartyCharacter.GetBestName]§!。;;;;;;;;;;;;x
@@ -15450,29 +15450,29 @@ DIP_NO_ROUTE_DELAYED;商路可以是陆路也可以走海路。\n要让商路穿
 CANCEL_TRADEROUTE_DESC;取消从$FROM$($FROM_GOODS$)到$TO$($TO_GOODS$)的商路;;;;;;;;;;;;x
 ENROUTE_REMOVED;我们有一个大使在路上;;;;;;;;;;;;x
 CANCELTRADEROUTEDESC;撤销商路会让从中受益的省份失去那些加成。这也可能惹怒我们的外国贸易伙伴们。;;;;;;;;;;;;x
-OFFERALLIANCEDESC;如果一个国家接受了我们的军事同盟提议，那么该国在战争时期就会援助我们.;;;;;;;;;;;;x
-CANCELALLIANCEDESC;撕毁与这个国家现有的盟约，并破坏双方的关系;;;;;;;;;;;;x
+OFFERALLIANCEDESC;如果一个国家接受了我们的军事同盟提议，那么该国在战争时期就会援助我们。;;;;;;;;;;;;x
+CANCELALLIANCEDESC;撕毁与这个国家现有的盟约，这会破坏双方的关系。;;;;;;;;;;;;x
 MILACCTITLE;要求军事通行;;;;;;;;;;;;x
-MILACCNEWDESC;你要让$COUNTRY$允许我们的舰队和陆军通过他们的领土吗;;;;;;;;;;;;x
+MILACCNEWDESC;你想要要求$COUNTRY$的军事通行权，即允许我们的船只和军队进入他们境内吗？;;;;;;;;;;;;x
 MILACCDESC;要求他们领土的通行权;;;;;;;;;;;;x
-MILACCREQDESC;$COUNTRY$ 要求我们提供军事通行.接受的话，将允许他们将船只和部队移动到我国领土内.;;;;;;;;;;;;x
-CANCELMILACCDESC;取消我们向他们提供的军事通行;;;;;;;;;;;;x
+MILACCREQDESC;$COUNTRY$要求我国给予军事通行权。接受后他们的船只和军队将被允许进入我们境内。;;;;;;;;;;;;x
+CANCELMILACCDESC;取消他们给与我们的军事通行权。;;;;;;;;;;;;x
 CANCELMILACCTITLE;取消军事通行;;;;;;;;;;;;x
 OFFERMILACCTITLE;提供军事通行;;;;;;;;;;;;x
-OFFERMILACCNEWDESC;你要向$COUNTRY$提供军事通行吗这将使他们的部队能够驻扎在我们的领土及港口内.;;;;;;;;;;;;x
-OFFERMILACCDESC;使他们的部队和船只能够在我国驻扎.;;;;;;;;;;;;x
-REVOKEMILACCTITLE;取消军事通行。;;;;;;;;;;;;x
-REVOKEMILACCNEWDESC;你要取消给予$COUNTRY$的军事通行吗这样将阻止他们的部队通过我国领土和港口.;;;;;;;;;;;;x
+OFFERMILACCNEWDESC;你想要给予$COUNTRY$军事通行权吗？这将会允许他们在我们境内驻军。;;;;;;;;;;;;x
+OFFERMILACCDESC;使他们的部队和船只能够在我国驻扎。;;;;;;;;;;;;x
+REVOKEMILACCTITLE;收回军事通行权。;;;;;;;;;;;;x
+REVOKEMILACCNEWDESC;你想要收回给予$COUNTRY$的军事通行权吗？这样做会使他们的军队无法通过我国领土和港口。;;;;;;;;;;;;x
 REVOKEMILACCDESC;取消他们在我国境内驻扎部队及船只的权力。;;;;;;;;;;;;x
-CANCELMILACCNEWDESC;你是否想要终止与$COUNTRY$签订的军事通行条约？如此，他们的领土和港口将不再对我军开放。;;;;;;;;;;;;x
-CANCELMILACCINFORM;$COUNTRY$终止了与本人的签订的军事通行条约。本人的军队不再被准入他们那儿了。;;;;;;;;;;;;x
+CANCELMILACCNEWDESC;你是否想要取消$COUNTRY$给予我国的军事通行权？如此，他们的领土和港口将不再对我军开放。;;;;;;;;;;;;x
+CANCELMILACCINFORM;$COUNTRY$收回了给予我国的军事通行权。我国的军队不再允许进入他们境内了。;;;;;;;;;;;;x
 DIP_ACCEPT;接受请求;;;;;;;;;;;;x
 DIP_DECLINE;拒绝请求;;;;;;;;;;;;x
 DIP_DECLINE_IMPRISON;把他关进监狱！;;;;;;;;;;;;x
 DIP_DECLINE_KILL;砍了他！;;;;;;;;;;;;x
 DIP_IGNORE;这样啊……;;;;;;;;;;;;x
-OFFERMILACCREQDESC;$COUNTRY$打算给予我们军事通行.这将使我们的部队能够通过他们的领土，但同时也意味着我们不能向他们宣战.;;;;;;;;;;;;x
-CANCELOFFERMILACCINFORM;$COUNTRY$宣布他们的军队将会离开我们的领土，而且下次回来的时候将不会是有好的……;;;;;;;;;;;;x
+OFFERMILACCREQDESC;$COUNTRY$打算给予我国军事通行权。这将使我国军队能够通过他们的领土，但同时也意味着我们不能向他们宣战。;;;;;;;;;;;;x
+CANCELOFFERMILACCINFORM;$COUNTRY$宣布他们的军队将会离开我们的领土，而且将不会以友好的姿态回来……;;;;;;;;;;;;x
 DECWARINFORM;$MONARCHTITLE$，$COUNTRY$的大使带来了宣战声明.他说我们的首都一周之内就会化为焦土！;;;;;;;;;;;;x
 VASSALTITLE;索要贡金;;;;;;;;;;;;x
 VASSALNEWDESC;你想要强迫$COUNTRY$每个月进贡 $CASH$¤ 来换取我们的「保护」吗？;;;;;;;;;;;;x
@@ -18146,7 +18146,7 @@ UNKNOWN_LOCATION;地点未知。;;;;;;;;;;;;x
 LIEGE_LONG_REIGN;长期统治;;;;;;;;;;;;x
 LIEGE_SHORT_REIGN;短暂统治;;;;;;;;;;;;x
 CLAIM;宣称;;;;;;;;;;;;x
-REVOKE;收回;;;;;;;;;;;;x
+REVOKE;剥夺;;;;;;;;;;;;x
 THREATS_LABEL;叛乱威胁;;;;;;;;;;;;x
 PRISONERS_LABEL;囚徒;;;;;;;;;;;;x
 GENERATING_COAS;正在处理盾徽;;;;;;;;;;;;x
