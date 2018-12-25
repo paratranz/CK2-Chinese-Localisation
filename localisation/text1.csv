@@ -176,7 +176,7 @@ invasion_desc;§Y$CLAIMANT$§!有权利入侵§Y$TITLE$§!。如果成功，所�
 excommunicated_ruler_desc;§Y$TARGET$§!已被绝罚，这是个很难得的战争理由！;;;;;;;;;;;;x
 bid_for_independence_desc;§Y$CLAIMANT$§!可以试图从§Y$TARGET$§!的统治下独立;;;;;;;;;;;;x
 overthrow_ruler_desc;§Y$TARGET$§!未能成功拘禁§Y$CLAIMANT$§!，引发了一场武装冲突;;;;;;;;;;;;x
-dejure_county_claim_desc;这个§Y$TITLE$§!是§Y$CLAIMANT$§!的法理封臣，有足够理由发动战争。;;;;;;;;;;;;x
+dejure_county_claim_desc;§Y$TITLE$§!是§Y$CLAIMANT$§!的法理封臣，这给了我们发动战争的充足理由。;;;;;;;;;;;;x
 change_seniority_succession_law_desc;§Y$CLAIMANT$§!可以发动战争以将§Y$TITLE$§!的继承法改为年长者继承！;;;;;;;;;;;;x
 change_primogeniture_succession_law_desc;§Y$CLAIMANT$§!可以发动战争以将§Y$TITLE$§!的继承法改为长子继承！;;;;;;;;;;;;x
 change_feudal_elective_succession_law_desc;§Y$CLAIMANT$§!可以发动战争以将§Y$TITLE$§!的继承法改为选举继承！;;;;;;;;;;;;x
@@ -4946,7 +4946,7 @@ ARRANGE_BETROTHAL_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§!接受§Y[
 ARRANGE_BETROTHAL_INTERACTION_DECLINE_SETUP;已拒绝订婚提议;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§!拒绝§Y[Actor.GetBestName]§!的提议，§Y[ActorExtra.GetBestName]§!和§Y[RecipientExtra.GetBestName]§!将不订立婚约。;;;;;;;;;;;;x
 ARRANGE_BETROTHAL_INTERACTION_OFFER;[Actor.GetBestName]提议[ActorExtra.GetBestName]和[RecipientExtra.GetBestName]订婚;;;;;;;;;;;;x
-ARRANGE_BETROTHAL_INTERACTION_LETTER;我们提议[ActorExtra.GetBestName]和[RecipientExtra.GetBestName]订婚。;;;;;;;;;;;;x
+ARRANGE_BETROTHAL_INTERACTION_LETTER;本座提议[ActorExtra.GetBestName]和[RecipientExtra.GetBestName]订婚。;;;;;;;;;;;;x
 BREAK_BETROTHAL_INTERACTION_TITLE;撕毁婚约;;;;;;;;;;;;x
 BREAK_BETROTHAL_INTERACTION_DESC;撕毁与一个角色所订立的婚约;;;;;;;;;;;;x
 BREAK_BETROTHAL_INTERACTION_LONG_DESC;婚约随时都可以被撕毁，不过另一方会不高兴……;;;;;;;;;;;;x
@@ -4965,7 +4965,7 @@ OFFER_SUCCESSION_MARRIGE_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! �
 OFFER_SUCCESSION_MARRIGE_INTERACTION_DECLINE_SETUP;已拒绝入赘婚姻提议;;;;;;;;;;;;x
 OFFER_SUCCESSION_MARRIGE_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝 §Y[Actor.GetBestName]§! 的提议，§Y[ActorExtra.GetBestName]§! 和 §Y[RecipientExtra.GetBestName]§! 不会缔结入赘婚姻;;;;;;;;;;;;x
 OFFER_SUCCESSION_MARRIGE_INTERACTION_OFFER;[Actor.GetBestName]提议 [ActorExtra.GetBestName]和 [RecipientExtra.GetBestName]缔结入赘婚姻;;;;;;;;;;;;x
-OFFER_SUCCESSION_MARRIGE_INTERACTION_LETTER;我们提议 [ActorExtra.GetBestName] 和 [RecipientExtra.GetBestName] 缔结入赘婚姻。;;;;;;;;;;;;x
+OFFER_SUCCESSION_MARRIGE_INTERACTION_LETTER;本座提议 [ActorExtra.GetBestName] 和 [RecipientExtra.GetBestName] 缔结入赘婚姻。;;;;;;;;;;;;x
 OFFER_MARRIGE_INTERACTION_TITLE;安排婚姻;;;;;;;;;;;;x
 OFFER_MARRIGE_INTERACTION_DESC;为两个人物安排婚姻;;;;;;;;;;;;x
 OFFER_MARRIGE_INTERACTION_LONG_DESC;婚姻和配偶的选择非常重要，因为：\n－你需要继承人以防止血脉断绝。\n－配偶能力的一半将加到你的能力上。\n－你可以召唤你的姻亲在战争中支援你（包括你孩子和兄弟姐妹的姻亲）。\n－与等级更高的贵族联姻可以获得威望。\n－与声名显赫的家族联姻可以获得威望。;;;;;;;;;;;;x
@@ -4976,7 +4976,7 @@ OFFER_MARRIGE_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetBestName]§! 接受 §Y[Ac
 OFFER_MARRIGE_INTERACTION_DECLINE_SETUP;已拒绝婚姻提议;;;;;;;;;;;;x
 OFFER_MARRIGE_INTERACTION_DECLINE_LOG;§Y[Recipient.GetBestName]§! 拒绝 §Y[Actor.GetBestName]§! 的提议，§Y[ActorExtra.GetBestName]§! 和 §Y[RecipientExtra.GetBestName]§! 不会结为夫妻;;;;;;;;;;;;x
 OFFER_MARRIGE_INTERACTION_OFFER;[Actor.GetBestName]提议 [ActorExtra.GetBestName]和 [RecipientExtra.GetBestName]结婚;;;;;;;;;;;;x
-OFFER_MARRIGE_INTERACTION_LETTER;我们提议 [ActorExtra.GetBestName]和 [RecipientExtra.GetBestName]结婚;;;;;;;;;;;;x
+OFFER_MARRIGE_INTERACTION_LETTER;本座提议 [ActorExtra.GetBestName]和 [RecipientExtra.GetBestName]结婚;;;;;;;;;;;;x
 RANSOM_CHARACTER_INTERACTION_TITLE;囚犯赎身;;;;;;;;;;;;x
 RANSOM_CHARACTER_INTERACTION_DESC;向囚犯敲诈一笔赎金;;;;;;;;;;;;x
 RANSOM_CHARACTER_INTERACTION_LONG_DESC;可以从来自其他宫廷的囚犯身上敲诈出一笔可观的赎金……;;;;;;;;;;;;x
@@ -5130,12 +5130,12 @@ EVTDESC903;[Root.Location.GetName]的一名贵族居然信仰异教！;;;;;;;;;;
 EVTOPTA903;必须终止这种异端！;;;;;;;;;;;;x
 EVTOPTB903;我还是别管这事了……;;;;;;;;;;;;x
 EVTTOOLTIP20030;向[Root.Liege.GetHerHim]我的领主写一封信报告异端！;;;;;;;;;;;;x
-EVTDESC20030;[From.Host.PrimaryTitle.GetName]的[From.GetJobTitle]，[From.GetTitledName]，用异端问题指责我，而且还公开宣称我是异教徒！;;;;;;;;;;;;x
+EVTDESC20030;[From.Host.PrimaryTitle.GetName]的[From.GetJobTitle]，[From.GetTitledName]，用异端问题指责我，而且还公开宣称我是异端！;;;;;;;;;;;;x
 EVTOPTA20030;我是一个虔诚的[Root.GetManWoman]，我不能容忍这种指控！;;;;;;;;;;;;x
-EVTOPTA20032;我可以肯定 [From.GetTitledFirstName]不是异教徒;;;;;;;;;;;;x
+EVTOPTA20032;我可以肯定 [From.GetTitledFirstName]不是异端;;;;;;;;;;;;x
 EVTTOOLTIP20033;给[This.GetTitledName]寄道歉信;;;;;;;;;;;;x
-EVTOPTB20032;[From.GetSheHe]毫无疑问是异教徒！;;;;;;;;;;;;x
-EVTTOOLTIP20035;[This.GetTitledName]异教徒的身份流传开来;;;;;;;;;;;;x
+EVTOPTB20032;[From.GetSheHe]毫无疑问是异端！;;;;;;;;;;;;x
+EVTTOOLTIP20035;[This.GetTitledName]异端的身份流传开来;;;;;;;;;;;;x
 EVTOPTA20033;感谢神;;;;;;;;;;;;x
 EVTOPTA20034;如你所愿……;;;;;;;;;;;;x
 EVTDESC20035;[Root.GetTitledName]，有很多对你不利的证据，足以证明你沉浸于异教信仰中难以自拔！你应当皈依 [From.Religion.GetName]并且祈祷你的罪行会被宽恕。\n\n虔诚的[From.GetTitle]，\n[From.GetTitledName];;;;;;;;;;;;x
@@ -14302,7 +14302,7 @@ k_seljuk_turks_adj;塞尔柱突厥;;;;;;;;;;;;x
 k_papal_state;教廷;;;;;;;;;;;;x
 k_papal_state_adj;教廷;;;;;;;;;;;;x
 k_orthodox;普世牧首教座;;;;;;;;;;;;x
-k_orthodox_adj;普世牧首教座;;;;;;;;;;;;x
+k_orthodox_adj;普世牧首;;;;;;;;;;;;x
 e_sunni;逊尼派哈里发国;;;;;;;;;;;;x
 e_sunni_adj;哈里发;;;;;;;;;;;;x
 e_shiite;什叶派哈里发国;;;;;;;;;;;;x
@@ -19139,8 +19139,8 @@ DOES_NOT_HAVE_GUARDIAN;没有监护人;;;;;;;;;;;;x
 HAS_GUARDIAN;有监护人;;;;;;;;;;;;x
 ISNT_PREGNANT;未怀孕;;;;;;;;;;;;x
 IS_PREGNANT;已怀孕;;;;;;;;;;;;x
-ISNT_HERETIC;非异教徒;;;;;;;;;;;;x
-IS_HERETIC;是异教徒;;;;;;;;;;;;x
+ISNT_HERETIC;不是异端;;;;;;;;;;;;x
+IS_HERETIC;是异端;;;;;;;;;;;;x
 ANY_REALM_LORD_STARTS;任何国家领主;;;;;;;;;;;;x
 ANY_REALM_CHAR_STARTS;任何领地角色;;;;;;;;;;;;x
 ANY_VASSAL_STARTS;有封臣;;;;;;;;;;;;x
