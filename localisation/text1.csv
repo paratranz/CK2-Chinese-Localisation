@@ -561,7 +561,7 @@ DISEASE_DECREASED;患病时间减少了 $VAL$ 月。\n;;;;;;;;;;;;x
 COMBATEND_SURVIVORS;幸存者;;;;;;;;;;;;x
 COMBATEND_CASUALTIES;人员伤亡;;;;;;;;;;;;x
 COMBATEND_INITIAL;初始;;;;;;;;;;;;x
-COMBATEND_GARRISON;卫戍部队;;;;;;;;;;;;x
+COMBATEND_GARRISON;守备部队;;;;;;;;;;;;x
 COMBATEND_WARSCORE;§Y战争分数改变§!;;;;;;;;;;;;x
 COMBATEND_CHAR_DEAD;$CHAR$在战斗中阵亡;;;;;;;;;;;;x
 COMBATEND_CHAR_IMPR;$CHAR$在战斗中被俘;;;;;;;;;;;;x
@@ -4880,7 +4880,7 @@ REVOKE_TITLE_INTERACTION_1;剥夺§Y[ThirdPartyTitle.GetFullName]§W，损耗 §
 REVOKE_TITLE_INTERACTION_2;剥夺§Y[ThirdPartyTitle.GetFullName]§W。这将降低§Y[Recipient.GetTitledFirstName]§W对你的好感度 §R$OPINION$§W。;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_3;有 §R$RISK$%§! 几率 [Recipient.GetSubjectPronoun]§! 将揭竿而起！;;;;;;;;;;;;x
 REVOKE_TITLE_INTERACTION_ACCEPT_SETUP;剥夺头衔;;;;;;;;;;;;x
-REVOKE_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§!从§Y[Recipient.GetBestName]§!手中收回§Y[ThirdPartyTitle.GetFullName]§!。;;;;;;;;;;;;x
+REVOKE_TITLE_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W从§Y[Recipient.GetBestName]§W手中剥夺了§Y[ThirdPartyTitle.GetFullName]头衔§W;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_TITLE;授予荣誉头衔;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_DESC;授予一个角色荣誉头衔;;;;;;;;;;;;x
 AWARD_HONORARY_TITLE_INTERACTION_LONG_DESC;你可以授予荣誉头衔给你的臣民，这将提高他们对你的好感度。部分荣誉头衔附带次级产权（一种经济收入来源）和每月的威望收入。;;;;;;;;;;;;x
@@ -14744,7 +14744,7 @@ MAX_WAR_EXHAUSTION;最大厌战;;;;;;;;;;;;x
 SHIP_RECRUIT_SPEED;舰船建造时间;;;;;;;;;;;;x
 REGIMENT_RECRUIT_SPEED;军团补充速度;;;;;;;;;;;;x
 FORT_LEVEL;要塞等级;;;;;;;;;;;;x
-GARRISON_GROWTH;要塞守军补充速度;;;;;;;;;;;;x
+GARRISON_GROWTH;守备部队补充速度;;;;;;;;;;;;x
 coastal;沿海;;;;;;;;;;;;x
 non_coastal;内陆;;;;;;;;;;;;x
 coastal_sea;近海;;;;;;;;;;;;x
@@ -15036,7 +15036,7 @@ opinion_generous_relative;慷慨的亲戚;;;;;;;;;;;;x
 opinion_fulfilled_marriage_wish;完成结婚愿望;;;;;;;;;;;;x
 opinion_secret_marriage;秘密结婚;;;;;;;;;;;;x
 opinion_yearly_raised_levies;征召兵被调用;;;;;;;;;;;;x
-MODIFIER_GARRISON_SIZE;要塞守军数量;;;;;;;;;;;;x
+MODIFIER_GARRISON_SIZE;守备部队规模;;;;;;;;;;;;x
 offended_moneylenders;被激怒的放贷者;;;;;;;;;;;;x
 desc_offended_moneylenders;严重激怒了放贷者，导致整个经济遭到重创.;;;;;;;;;;;;x
 negative_money;缺少资金;;;;;;;;;;;;x
@@ -15187,7 +15187,7 @@ the_dour_duellist;冷酷决斗者;;;;;;;;;;;;x
 opinion_angry;生气;;;;;;;;;;;;x
 wild_hunter;野外猎人;;;;;;;;;;;;x
 opinion_betrothal_broken;背弃婚约;;;;;;;;;;;;x
-GARRISON_SIZE;卫戍兵规模;;;;;;;;;;;;x
+GARRISON_SIZE;守备部队规模;;;;;;;;;;;;x
 opinion_traitor;叛徒;;;;;;;;;;;;x
 tortured;被折磨;;;;;;;;;;;;x
 opinion_paragon;美德典范;;;;;;;;;;;;x
@@ -16056,7 +16056,7 @@ IRO_SHIPS;只战舰;;;;;;;;;;;;x
 CHARACTER_DEAD;死亡年龄：;;;;;;;;;;;;x
 CHAR_IS_DEAD;死亡;;;;;;;;;;;;x
 ABANDON_GAME;放弃游戏;;;;;;;;;;;;x
-GARRISON;要塞守军;;;;;;;;;;;;x
+GARRISON;守备部队;;;;;;;;;;;;x
 TRANSERING_SAVE;游戏存档传输开始;;;;;;;;;;;;x
 SAVE_LOAD;读取存储的游戏;;;;;;;;;;;;x
 LOST_PLR;丢失玩家;;;;;;;;;;;;x
@@ -18163,7 +18163,7 @@ FLEET_NAME;$NAME$舰队;;;;;;;;;;;;x
 LEVY_PERC_WE_OWNER;$TITLE$受$US$控制比例：$PERC$;;;;;;;;;;;;x
 LEVY_PERC_OPINION;$THEM$：对$US$的好感：$PERC$;;;;;;;;;;;;x
 LEVY_PERC_WRONG_TAX_LIEGE;$THEM$：对$TAX_LIEGE$的忠诚度：$PERC$;;;;;;;;;;;;x
-SETTLEMENT_GARRISON;卫戍部队：$NUM$/§G$TOTAL$§!;;;;;;;;;;;;x
+SETTLEMENT_GARRISON;守备部队：$NUM$/§G$TOTAL$§!;;;;;;;;;;;;x
 EXPIRES_ON;失效日期 §Y$DATE$§!;;;;;;;;;;;;x
 LEVY_CURRENT_PERC;征召兵数量$PERC$;;;;;;;;;;;;x
 LEVY_CURRENT_WE_CAN_RAISE;我们现在可以动员$NUM$名士兵;;;;;;;;;;;;x
