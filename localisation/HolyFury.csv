@@ -6400,7 +6400,7 @@ RANDOM_WORLD;随机世界;;;;;;;;;;;;x
 RANDOM_WORLD_TOOLTIP;§Y随机世界§!;;;;;;;;;;;;x
 RANDOM_WORLD_TOOLTIP_DELAYED;§G点击打开随机世界界面§!\n随机世界模拟了历史的另一种进程——而不是它原本的样子。从弱小的伯爵到强大的皇帝，不同的统治者被复杂的动态法理结构联系在一起。包括文化、宗教、名字、头衔在内的任何内容都可以被动态地随机化——这确保了每次创造的世界都是独一无二的。;;;;;;;;;;;;x
 setting_num_counties;最大省份数量;;;;;;;;;;;;x
-setting_num_counties_tooltip;决定大多数统治者所能拥有的最大省份数量。即使该数字被设置得很高，大多数统治者仍然只会拥有较少省份。;;;;;;;;;;;;x
+setting_num_counties_tooltip;决定每位统治者所能拥有的最大省份数量。即使该数字被设置得很高，大多数统治者仍然只会拥有较少省份。;;;;;;;;;;;;x
 setting_num_dukes;公国的数量;;;;;;;;;;;;x
 setting_num_dukes_tooltip;决定生成公国的数量。;;;;;;;;;;;;x
 setting_num_dukes_few;少量;;;;;;;;;;;;x
@@ -6410,7 +6410,7 @@ setting_num_dukes_normal_tooltip;将生成数量适中的公国。;;;;;;;;;;;;x
 setting_num_dukes_many;大量;;;;;;;;;;;;x
 setting_num_dukes_many_tooltip;将生成数量庞大的公国。;;;;;;;;;;;;x
 setting_num_kings;王国的数量;;;;;;;;;;;;x
-setting_num_kings_tooltip;决定生成王国的数量。\n\n如果§Y法理王国疆域§!和§Y法理帝国疆域§!被设置得太高，该项设置将会导致不同结果。;;;;;;;;;;;;x
+setting_num_kings_tooltip;决定生成王国的数量。\n\n－如果§Y「法理王国大小」§!和§Y「法理帝国大小」§!被设置得太高，结果可能会有变化。;;;;;;;;;;;;x
 setting_num_kings_few;少量;;;;;;;;;;;;x
 setting_num_kings_few_tooltip;生成了少量的王国。;;;;;;;;;;;;x
 setting_num_kings_normal;一般;;;;;;;;;;;;x
@@ -6418,7 +6418,7 @@ setting_num_kings_normal_tooltip;生成了数量适中的王国。;;;;;;;;;;;;x
 setting_num_kings_many;大量;;;;;;;;;;;;x
 setting_num_kings_many_tooltip;生成了大量的王国。;;;;;;;;;;;;x
 setting_num_emperors;帝国的数量;;;;;;;;;;;;x
-setting_num_emperors_tooltip;决定生成帝国的数量。\n\n－如果§Y法理王国疆域§!和§Y法理帝国疆域§!被设置得太高，该项设置将会导致不同结果。;;;;;;;;;;;;x
+setting_num_emperors_tooltip;决定生成帝国的数量。\n\n－如果§Y「法理王国大小」§!和§Y「法理帝国大小」§!被设置得太高，结果可能会有变化。;;;;;;;;;;;;x
 setting_num_emperors_few;少量;;;;;;;;;;;;x
 setting_num_emperors_few_tooltip;几乎不生成帝国。;;;;;;;;;;;;x
 setting_num_emperors_normal;一般;;;;;;;;;;;;x
@@ -6429,7 +6429,7 @@ setting_random_holdings;地产类型;;;;;;;;;;;;x
 setting_random_holdings_tooltip;决定游戏中地产的类型。;;;;;;;;;;;;x
 setting_random_holdings_feudal_heavy;倾向封建;;;;;;;;;;;;x
 setting_random_holdings_feudal_heavy_tooltip;世界上大部分将是封建国家，只有少数的部落国家和游牧国家。;;;;;;;;;;;;x
-setting_random_holdings_balanced;平衡的;;;;;;;;;;;;x
+setting_random_holdings_balanced;平衡;;;;;;;;;;;;x
 setting_random_holdings_balanced_tooltip;部落国家与游牧国家的数量之和将大致等于封建国家的数量。;;;;;;;;;;;;x
 setting_random_holdings_tribal_heavy;倾向部落;;;;;;;;;;;;x
 setting_random_holdings_tribal_heavy_tooltip;世界上大部分将是部落国家和游牧国家，只有少数的封建国家。;;;;;;;;;;;;x
@@ -6437,8 +6437,8 @@ RANDOM_WORLD_SAVE_TOOLTIP;这个存档创建时随机世界处于开启状态。
 RANDOM_WORLD_REQUIRES_HOLY_FURY;§R这个存档基于随机世界创建，需要「神圣之怒」DLC来继续游戏。§!;;;;;;;;;;;;x
 NOT_SOCIETY_HAS_MEMBERS_TRIGGER;社团没有成员;;;;;;;;;;;;x
 SOCIETY_HAS_MEMBERS_TRIGGER;社团拥有成员;;;;;;;;;;;;x
-NOT_SOCIETY_IS_ACTIVE_TRIGGER;社团不存在;;;;;;;;;;;;x
-SOCIETY_IS_ACTIVE_TRIGGER;社团存在;;;;;;;;;;;;x
+NOT_SOCIETY_IS_ACTIVE_TRIGGER;社团不活跃;;;;;;;;;;;;x
+SOCIETY_IS_ACTIVE_TRIGGER;社团活跃;;;;;;;;;;;;x
 NOT_IS_SOCIETY_TRIGGER;社团非$SOCIETY|Y$;;;;;;;;;;;;x
 IS_SOCIETY_TRIGGER;社团为$SOCIETY|Y$;;;;;;;;;;;;x
 OPEN_ARTIFACT_HISTORY;§Y检视宝物历史§!;;;;;;;;;;;;x
@@ -6446,7 +6446,7 @@ OPEN_ARTIFACT_HISTORY_DELAYED;显示自游戏开始之后曾拥有过该宝物�
 REL_CONSORT_MALE;庶夫;;;;;;;;;;;;x
 REL_WOMEN_CAN_TAKE_CONSORTS_DESC;$NAME$女性最多可以纳 $NUM|Y$ 个庶夫;;;;;;;;;;;;x
 GOV_WOMEN_CAN_TAKE_CONSORTS_DESC;女性统治者最多可以纳 $NUM|Y$ 个庶夫;;;;;;;;;;;;x
-CONSORT_DESC_FEMALE;$FIRST_CHAR|Y$是$SECOND_CHAR|Y$的侍妾，并没有真正的结婚，但她生下来的孩子也有合法继承权。;;;;;;;;;;;;x
+CONSORT_DESC_FEMALE;$FIRST_CHAR|Y$是$SECOND_CHAR|Y$的侍妾，并没有真正的结婚，但她为他生下的孩子也有合法继承权。;;;;;;;;;;;;x
 CONSORT_DESC_MALE;$FIRST_CHAR|Y$是$SECOND_CHAR|Y$的庶夫，并没有真正的结婚，但与他生下孩子也有合法继承权。;;;;;;;;;;;;x
 CONCUBINAGE_MALE;庶夫制度;;;;;;;;;;;;x
 CONCUBINAGE_MALE_DESC;这是庶夫制度。与庶夫生的孩子尽管社会地位较低，但是仍有正常的继承权并且属于母亲的家族。;;;;;;;;;;;;x
@@ -6463,19 +6463,19 @@ SET_MEN_CAN_TAKE_CONSORTS_EFFECT;宗教现在允许男性取妾;;;;;;;;;;;;x
 SET_NOT_MEN_CAN_TAKE_CONSORTS_EFFECT;宗教现在不允许男性取妾;;;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_ACCEPT_SETUP;已接受纳庶夫的请求;;;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_DECLINE_SETUP;已拒绝纳庶夫的请求;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_2;因为他们是你的囚徒，他们无法拒绝。;;;;;;;;;;;;x
+MAKE_CONSORT_INTERACTION_2;因为这是你的囚徒，其无法拒绝。;;;;;;;;;;;;x
 DISMISS_CONSORT_INTERACTION_ACCEPT_SETUP;弃置庶夫;;;;;;;;;;;;x
 DISMISS_CONSORT_INTERACTION_LETTER;[Recipient.GetFirstName]，你在旁边实在让我心烦，收拾包袱马上滚蛋吧。\n\n[Actor.GetFirstName];;;;;;;;;;;;x
-REFORM_RELIGION_PREVIEW;§Y提前查看$RELIGION$信仰的改革条例§!\n虽然你现在无法实行改革，但你可以查看你可用于进行宗教改革的信条;;;;;;;;;;;;x
+REFORM_RELIGION_PREVIEW;§Y提前查看$RELIGION$信仰的改革§!\n虽然你现在无法实行改革，但你可以查看你可用于改革信仰的教义;;;;;;;;;;;;x
 ALT_START_RANDOMIZE_WORLD;正在生成随机世界;;;;;;;;;;;;x
 TRIGGER_ARTIFACT_PREVIOUS_OWNER;前任宝物所有者;;;;;;;;;;;;x
 ANY_ARTIFACT_OWNER_STARTS;任何过去或现在的宝物所有者;;;;;;;;;;;;x
 BLOODLINE_SHOW_DESCENDANTS;§G点击查看血脉后裔§!;;;;;;;;;;;;x
 BLOODLINES_HEADER;§L血脉§!;;;;;;;;;;;;x
 BLOODLINE_PATRILINEAL_INHERITANCE;§Y父系继承§!;;;;;;;;;;;;x
-BLOODLINE_MATRILINEAL_INHERITANCE;§Y入赘婚姻继承§!;;;;;;;;;;;;x
+BLOODLINE_MATRILINEAL_INHERITANCE;§Y母系继承§!;;;;;;;;;;;;x
 BLOODLINE_NO_BASTARDS_INHERITANCE;§Y私生子无法继承§!;;;;;;;;;;;;x
-BLOODLINE_NO_BASTARDS_INHERITANCE_DELAYED;这条血脉绝不会传给一个私生子。;;;;;;;;;;;;x
+BLOODLINE_NO_BASTARDS_INHERITANCE_DELAYED;这条血脉绝不会传给私生子。;;;;;;;;;;;;x
 BLOODLINE_ACTIVE;§G血脉激活§!;;;;;;;;;;;;x
 BLOODLINE_ACTIVE_DELAYED;血脉效果已经在这个角色身上启用，提供它的加成。;;;;;;;;;;;;x
 BLOODLINE_INACTIVE;§R血脉未激活§!;;;;;;;;;;;;x
@@ -6483,7 +6483,7 @@ BLOODLINE_INACTIVE_DELAYED;血脉效果并没有在这个角色身上启用，�
 CONDITIONS_HEADER;§Y条件：§!;;;;;;;;;;;;x
 CHARVIEW_SUZERAIN;宗主;;;;;;;;;;;;x
 TRIGGER_NEW_BLOODLINE;新血脉;;;;;;;;;;;;x
-OPEN_EVENT_DEBUG;§GCTRL+右键点击开启事件文本编辑器§!;;;;;;;;;;;;x
+OPEN_EVENT_DEBUG;§GCTRL+右键点击在文本编辑器中打开事件§!;;;;;;;;;;;;x
 TRIGGER_PARENT_RELIGION;正统宗教;;;;;;;;;;;;x
 GARRISON_SIZE_MODIFIERS_HEADER;§Y卫戍兵规模修正：§!;;;;;;;;;;;;x
 SET_MATRILINEAL_MARRIAGE_EFFECT;宗教目前允许入赘婚姻;;;;;;;;;;;;x
