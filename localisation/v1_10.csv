@@ -6,7 +6,7 @@ EVTOPTB6350;只是一个梦，别多想;;;;;;;;;;;;x
 EVTDESC6351;我叫去打水的仆人再也没有回来，当我想去看一下发生了啥事的时候，我注意到了一束从井里传上来的奇怪的光。我往井里看去，发现了一种我从来没见过的色彩。它就像烟一样，而且又湿又冷，但却好似灼烧着我的皮肤。;;;;;;;;;;;;x
 EVTOPTA6351;那颜色并不存在于这个世界！;;;;;;;;;;;;x
 EVTOPTB6351;那口井肯定有问题;;;;;;;;;;;;x
-EVTDESC6352;我曾一次次的询问我的仆人，询问他那个在城堡下锁着的陵墓的事情，但一直到今天我才找到了那把藏在一座腐烂的城堡塔里面的钥匙。在那座陵墓里布满灰尘的通道中，我发现了一副空的石棺材，上面刻着「[Root.GetFirstName] [Root.GetOnlyDynastyName]」。;;;;;;;;;;;;x
+EVTDESC6352;我曾一次次的询问我的仆人，询问他那个在城堡下锁着的陵墓的事情，但一直到今天我才找到了那把藏在一座腐烂的城堡塔里面的钥匙。在那座陵墓里布满灰尘的通道中，我发现了一副空的石棺材，上面刻着「[Root.GetFirstName]·[Root.GetOnlyDynastyName]」。;;;;;;;;;;;;x
 EVTOPTA6352;这棺材看上去睡里面会很舒服;;;;;;;;;;;;x
 EVTOPTB6352;呃，这真让人不适……封上棺材！;;;;;;;;;;;;x
 EVTDESC6353;一个众所周知对猫很残忍的老佃农和他的妻子今天早上被发现死在他们家里，尸体只剩下骨头，一点肉都没有。我的管家告诉我当地人发现他们的猫前些天都失踪了，但所有失踪的猫今天都回来了，而且它们看上去都胖了，而且很高兴……;;;;;;;;;;;;x
@@ -309,7 +309,7 @@ alert_enemy_invasion_planned_instant;§Y敌人准备入侵§!;;;;;;;;;;;;x
 alert_enemy_invasion_planned_delayed;敌方统治者正准备入侵我国：\n$LIST$;;;;;;;;;;;;x
 EVTDESC62100;敌军已经攻进来了，我别无选择，只能投降，我只能任[New.GetTitledName]随便摆布。;;;;;;;;;;;;x
 EVTOPTA62100;诅咒你！;;;;;;;;;;;;x
-EVTDESC62800;[From.Religion.GetRandomGodNameCap] 原谅我，我已经决定改信[Root.Religion.GetName]，从 [Root.Religion.GetRandomGodName]中寻找救赎。我希望我们可以马上放下成见\n\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESC62800;[From.Religion.GetRandomGodNameCap]原谅我，我已经决定改信[Root.Religion.GetName]，从[Root.Religion.GetRandomGodName]中寻找救赎！我希望我们可以放下这些不愉快。\n\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA62800;可能是个明智之举……;;;;;;;;;;;;x
 d_novgorod_adj_norse;霍尔姆加德;;;;;;;;;;;;x
 d_novgorod_adj_swedish;霍尔姆加德;;;;;;;;;;;;x
@@ -594,7 +594,7 @@ CLAIMANT_ADVENTURE;[Root.GetTitledFirstName]之军;;;;;;;;;;;;x
 CB_NAME_LIBERATION_REVOLT;解放[Title.GetBaseName];;;;;;;;;;;;x
 WAR_NAME_LIBERATION_REVOLT;$ORDER$ 解放[Title.GetBaseName]战争;;;;;;;;;;;;x
 liberation_revolt_desc;外国君主统治下的臣民会试图起义重建旧王国;;;;;;;;;;;;x
-NATIONALIST_REVOLT;[Root.Kingdom.GetAdjective] 复国叛乱;;;;;;;;;;;;x
+NATIONALIST_REVOLT;解放[Root.Kingdom.GetAdjective]叛乱;;;;;;;;;;;;x
 DECADENCE_REVOLT;[Root.PrimaryTitle.GetAdjective]腐化叛乱;;;;;;;;;;;;x
 CANNOT_CANCEL_AMBITION;不能打消这个野心。;;;;;;;;;;;;x
 pagan_subjugation_tip;§Y[Root.GetTitledFirstName]§! 夺取了 §Y[From.GetTitledFirstName]§! 在 §Y[This.GetFullBaseName]§!的所有头衔。\n;;;;;;;;;;;;x
@@ -981,7 +981,7 @@ EVTDESC_TOG_116;英明的[Root.Liege.GetTitle]决定，鉴于你和你的部队�
 EVTOPTA_TOG_116;让我们以此结束这件事吧……;;;;;;;;;;;;x
 EVTDESC_TOG_117;你与你的人在捏儿格围猎中推进，你突然看见一头体格巨大的雄鹿站在一小片空地里，你想都没想就拈弓搭箭，朝它射了出去。雄鹿应声倒地，但正因为如此，你遇上大麻烦了，因为在驱赶猎物阶段是不允许射杀任何猎物的。;;;;;;;;;;;;x
 EVTOPTA_TOG_117;糟了。;;;;;;;;;;;;x
-EVTDESC_TOG_118;[From.GetTitledFirstName] 在率军行进途中射死了一头雄鹿。这是不能容忍的。依照传统，在捏儿格的包围圈彻底完成之前不能射杀任何动物。这种严重违纪行为必须受到惩罚。;;;;;;;;;;;;x
+EVTDESC_TOG_118;[From.GetTitledFirstName]在率军行进途中射死了一头雄鹿。这是不能容忍的。依照传统，在捏儿格的包围圈彻底完成之前不能射杀任何动物。这种严重违纪行为必须受到惩罚。;;;;;;;;;;;;x
 EVTOPTA_TOG_118;惩罚那个笨蛋！;;;;;;;;;;;;x
 EVTOPTB_TOG_118;训诫就足够了。;;;;;;;;;;;;x
 EVTDESC_TOG_150;成群惊恐的猎物被你的部队赶入了指定的区域并被包围了起来，作为[Root.GetTitle]，你和你的侍从们将首先参与进这场围猎之中。只有你的围猎结束后，你的臣属们才有权开始他们的狩猎。;;;;;;;;;;;;x
@@ -1049,10 +1049,10 @@ EVTOPTA_TOG_606;不！不要这样！;;;;;;;;;;;;x
 EVTDESC_TOG_610;[From.GetTitledFirstName]已经从你的地牢里押往圣殿。绞索已经套到了[From.GetHerHis]脖子上，绳子则已经摆到了附近的一颗结实的橡树的旁边。此时[From.GetFirstName]脚下出现一个黄色的小水泡（尿了）。;;;;;;;;;;;;x
 EVTOPTA_TOG_610;万物之主，我们在此为您献上牺牲……;;;;;;;;;;;;x
 EVTOPTB_TOG_610;不，我已经改变主意了。;;;;;;;;;;;;x
-EVTDESC_TOG_611;[From.GetTitledFirstName] 已经从你的地牢里押往圣殿。绞索已经套到了[From.GetHerHis]脖子上，[From.GetSheHe]控制住了[From.GetHerselfHimself]，并默念几句话，你知道那是几句他们基督徒圣经中的篇章。;;;;;;;;;;;;x
+EVTDESC_TOG_611;[From.GetTitledFirstName]已经从你的地牢里押往圣殿。绞索已经套到了[From.GetHerHis]脖子上，[From.GetSheHe]控制住了[From.GetHerselfHimself]，并默念几句话，你知道那是几句他们基督徒圣经中的篇章。;;;;;;;;;;;;x
 EVTOPTA_TOG_611;现在你那万福童贞玛利亚在哪呢，[From.GetFirstName]？;;;;;;;;;;;;x
 EVTOPTB_TOG_611;哦，这也许不是个好主意……;;;;;;;;;;;;x
-EVTDESC_TOG_612;[From.GetTitledFirstName] 已经从你的地牢里押往圣殿。你的卫兵已经绞索已经套到了[From.GetHerHis]脖子上，这时[From.GetSheHe]闭眼默念了几句伊斯兰教经书中的篇章。;;;;;;;;;;;;x
+EVTDESC_TOG_612;[From.GetTitledFirstName]已经从你的地牢里押往圣殿。你的卫兵已经绞索已经套到了[From.GetHerHis]脖子上，这时[From.GetSheHe]闭眼默念了几句伊斯兰教经书中的篇章。;;;;;;;;;;;;x
 EVTOPTA_TOG_612;兄弟，你马上就要去见你的先知啦。;;;;;;;;;;;;x
 EVTOPTB_TOG_612;哦，这也许不是个好主意……;;;;;;;;;;;;x
 EVTDESC_TOG_613;你的兄弟[From.GetTitledFirstName]已经从他的地牢里押往圣殿。绞索已经套到了他的脖子上，他以乞求的眼光看着你。别这么做，[Root.GetFirstName]，也许我们还有其他的方法可以来商量……;;;;;;;;;;;;x
@@ -1094,7 +1094,7 @@ EVTDESC_TOG_629;[From.GetTitledFirstName]将[From.GetTitledHerHis]儿子[FromFro
 EVTDESC_TOG_630;当[From.GetTitledFirstName]的女儿[FromFrom.GetTitledFirstName]为了下一次献祭被带到龙门架下时，聚集在献祭仪式前的人群都很惊讶。她向她的[From.GetFatherMother]请求宽恕，但是并没有人站出来。;;;;;;;;;;;;x
 EVTDESC_TOG_631;[FromFrom.GetTitledFirstName]，一位[From.GetFirstName]的远亲被从地牢押送到了神庙，即便有，或正是因为有血缘关系，[From.GetFirstName]仍然依照计划无情的牺牲了那亲戚。;;;;;;;;;;;;x
 EVTDESC_TOG_632;[From.GetTitledFirstName]已经决定要将[From.GetHerHis]配偶[FromFrom.GetTitledFirstName]献祭给神灵。[FromFrom.GetSheHe]被人用锁链带到庙中。尽管配偶声称[FromFrom.GetHerHis]感情并没有消失，但[From.GetFirstName]仍然决定继续祭祀。;;;;;;;;;;;;x
-EVTDESC_TOG_633;为了这次祭祀，你的领主从[From.GetHerHis] 的地牢中带出了一个美洲原住民。[FromFrom.GetTitledFirstName]被带到神庙中献祭，大家都认为这次的祭品非常的有价值。;;;;;;;;;;;;x
+EVTDESC_TOG_633;为了这次祭祀，你的领主从[From.GetHerHis]地牢中带出了一个「着皮者」。[FromFrom.GetTitledFirstName]被带到神庙中献祭，大家都认为这次的祭品非常的有价值。;;;;;;;;;;;;x
 EVTDESC_TOG_634;你的地牢里已经空空如也，没有适合献祭的犯人，于是你必须从购买的奴隶们之中选出几位，把他们带到神庙外的橡树旁。不久，他们的遗体就歪歪斜斜地吊在大树的枝桠上面了。;;;;;;;;;;;;x
 EVTOPTA_TOG_634;总比什么都没有强。;;;;;;;;;;;;x
 EVTDESC_TOG_635;因为[From.GetTitledFirstName]在[From.GetHerHis]地牢没有合适的祭品，你的领主必须从买到的奴隶中随机挑选出来一些来作为代替品。他们被带到神庙外的橡树旁。不久，他们的遗体就歪歪斜斜地吊在大树的枝桠上面了。;;;;;;;;;;;;x
@@ -1111,7 +1111,7 @@ EVTDESC_TOG_643;宴会结束了，下次参加至少要等到九年后。当你�
 EVTDESC_TOG_650;宴会提供了上好的蜂蜜酒和烈酒，最对你的口味。你这次也想要顶住诱惑，尽了最大的力量让自己远离这些酒，可是吸引力实在是太大了……;;;;;;;;;;;;x
 EVTOPTA_TOG_650;嗝儿……债……再来一杯儿……;;;;;;;;;;;;x
 EVTDESC_TOG_651;自从宴会开始以来，[From.GetTitledFirstName]越喝越起劲，[From.GetSheHe]现在已经喝高了，站不起来了。[From.GetFirstName]身边全是空酒杯，并用[From.GetHerHis]最大音量唱歌，还躺在摆满食物的桌上。;;;;;;;;;;;;x
-EVTOPTA_TOG_651;我认为[From.GetSheHe] 喝得差不多了…;;;;;;;;;;;;x
+EVTOPTA_TOG_651;我认为[From.GetSheHe]喝得差不多了。;;;;;;;;;;;;x
 EVTOPTB_TOG_651;嗝儿……我听……听过这首儿歌儿！;;;;;;;;;;;;x
 EVTDESC_TOG_653;侍者们一碟接着一碟上菜，你的嘴巴也一直没有停。其他的客人一直在聊天，而你这边传出来的声音却只有吞咽的咕噜声和饱嗝。你突然感到一阵恶心，于是匆匆忙忙想离开，但是只爬到了[From.GetTitledFirstName]的腿旁……;;;;;;;;;;;;x
 EVTOPTA_TOG_653;唔唔呕呕呕呕……;;;;;;;;;;;;x
