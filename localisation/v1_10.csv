@@ -140,7 +140,7 @@ d_baltic_pagan_reformed_adj;洛姆瓦教;;;;;;;;;;;;x
 d_slavic_pagan_reformed_adj;斯拉夫多神教;;;;;;;;;;;;x
 d_tengri_pagan_reformed_adj;长生天;;;;;;;;;;;;x
 d_finnish_pagan_reformed_adj;索米多神教;;;;;;;;;;;;x
-d_aztec_pagan_reformed_adj;阿兹特克多神教;;;;;;;;;;;;x
+d_aztec_pagan_reformed_adj;阿兹特克教团;;;;;;;;;;;;x
 d_west_african_pagan_reformed_adj;非洲泛灵教;;;;;;;;;;;;x
 e_wendish_empire;文德帝国;;;;;;;;;;;;x
 e_wendish_empire_adj;文德;;;;;;;;;;;;x
@@ -1450,7 +1450,7 @@ druze_DESC;德鲁兹派源自伊斯兰什叶派的伊斯玛仪教派，但是在
 tengri_pagan_DESC;长生天信仰是欧亚大草原上的游牧族群，特别是突厥和蒙古游牧民信奉的宗教。主神是创世天神腾格里大神。这一宗教具有鲜明的萨满教和泛灵教特征。;;;;;;;;;;;;x
 baltic_pagan_DESC;波罗的原始宗教是一种多神信仰，主神是天神季耶瓦斯。其他主神包括雷电之神佩尔库纳斯，和日耳曼人的雷神索尔以及斯拉夫人的雷神佩龙十分类似，其他重要神明包括太阳和繁殖女神绍莱，道加瓦和墨涅斯。;;;;;;;;;;;;x
 finnish_pagan_DESC;芬兰原始宗教多种多样，不同部落和地区变化很大。它具有萨满教和泛灵论的特征，崇拜很多神灵，包括乌戈/佩尔凯莱、库乌、以及东部信仰的大地女神马斯托尔-阿瓦。;;;;;;;;;;;;x
-aztec_DESC;阿兹特克信仰的创世神话里充满着献祭——为了让太阳保持运转甚至诸神也要被献祭。这反映在许多该宗教的节日和仪式里的大规模人祭上。主神包括战神人祭之神维齐洛波奇特利，雷神雨神特拉洛克，火神修提库特里，剥皮之主西佩托堤克，以及智慧之神羽蛇神凯扎尔科亚特尔。;;;;;;;;;;;;x
+aztec_DESC;阿兹特克信仰的创世神话里充满着献祭——为了让太阳保持运转甚至诸神也要被献祭。这反映在许多该宗教的节日和仪式里的大规模人祭上。主神包括战神人祭之神维齐洛波奇特利，雷雨神特拉洛克，火神修提库特里，剥皮之主西佩托堤克，以及智慧之神羽蛇神魁札尔科亚特尔。;;;;;;;;;;;;x
 slavic_pagan_DESC;斯拉夫异教信仰是一种多神信仰，主神是雷电之神佩龙，类似日耳曼人的雷神索尔。其他重要的神灵包括大地、水和冥界之神韦列斯，火神斯瓦罗格，繁衍植物生长战争与丰收之神亚里洛以及斯维托维德。此外许多部落崇拜当地的神灵。;;;;;;;;;;;;x
 west_african_pagan_DESC;非洲泛灵教是对撒哈拉沙漠以南的非洲部落各种原始宗教的泛称。以祖先崇拜、泛灵论、图腾崇拜以及萨满教为主，除此还有很多很多的神。;;;;;;;;;;;;x
 zoroastrian_DESC;祆教崇拜阿胡拉·马兹达，不受造之神，由古伊朗先知琐罗亚斯德启示。直到公元651年穆斯林征服萨珊王朝为止，它是所有波斯帝国的国教（除了希腊化的塞琉古帝国）。古老的宗教礼仪包括圣山顶上的圣火、天葬以及效仿阿胡拉·马兹达和琐罗亚斯德的近亲结婚。;;;;;;;;;;;;x
@@ -1595,11 +1595,11 @@ EVTOPTA39600;今生也是会遭受苦难的，我的朋友……;;;;;;;;;;;;x
 EVTOPTB39600;多告诉我们一点[From.Religion.GetRandomGodName]的事。;;;;;;;;;;;;x
 EVTDESC39601;[From.GetTitledFirstName]继续在[From.Location.GetName]传教，他似乎拥有一大批簇拥者。在听完他布道后，你不得不承认这个新信仰有一些优点……;;;;;;;;;;;;x
 EVTOPTA39601;是时候接纳[From.Religion.GetRandomGodName]了。;;;;;;;;;;;;x
-EVTOPTB39601;不，现在的信仰是最好的！流放这个传教士！;;;;;;;;;;;;x
+EVTOPTB39601;不，现在的信仰是最好的！驱逐这个传教士！;;;;;;;;;;;;x
 EVTDESC39602;因为[FromFrom.GetTitledFirstName]的布道，[From.GetTitledFirstName]的信仰动摇了。听完[FromFrom.GetTitle]的布道后，[From.GetFirstName]彻底抛弃了旧信仰，现在只为[FromFrom.Religion.GetRandomGodName]祈祷。;;;;;;;;;;;;x
 EVTOPTA39602;那个传教士不能再继续荼毒这里了！;;;;;;;;;;;;x
 EVTOPTB39602;各人有各自的信仰。;;;;;;;;;;;;x
-EVTDESC39603;你看到[From.GetTitledFirstName]和[FromFrom.GetTitledFirstName]像孩子一样在地上互相打滚尖叫。看来这两个传教士有点分歧。看到你来了，他们停了下来并要求把对方驱逐。;;;;;;;;;;;;x
+EVTDESC39603;你看到[From.GetTitledFirstName]和[FromFrom.GetTitledFirstName]像孩子一样互相叫骂着在地上打滚。看来这两个传教士有点分歧。看到你来了，他们停了下来并要求把对方驱逐。;;;;;;;;;;;;x
 EVTOPTA39603;支持[From.GetFirstName]。流放[FromFrom.GetFirstName]。;;;;;;;;;;;;x
 EVTOPTB39603;支持[FromFrom.GetFirstName]。流放[From.GetFirstName]。;;;;;;;;;;;;x
 EVTOPTC39603;我不想卷入这场小矛盾。;;;;;;;;;;;;x
@@ -1623,8 +1623,8 @@ preacher_imprisoned;你把这个传教士关进了地牢。;;;;;;;;;;;;x
 preacher_allowed;你允许这个传教士继续传教。;;;;;;;;;;;;x
 preacher_banished;你把这个传教士从你的领地驱逐了。;;;;;;;;;;;;x
 preacher_convert;你和你最亲密的家人转变了信仰，一个新的宗教顾问来到了你的宫廷。;;;;;;;;;;;;x
-opinion_did_not_support_preacher;反对我的教士;;;;;;;;;;;;x
-opinion_supported_preacher;赞成我的教士;;;;;;;;;;;;x
+opinion_did_not_support_preacher;反对我方教士;;;;;;;;;;;;x
+opinion_supported_preacher;赞成我方教士;;;;;;;;;;;;x
 RELIGIOUS_TITLE_CREATION;创建$TITLE$;;;;;;;;;;;;x
 EVTDESC39650;你来到了[Root.Location.GetName]给民众带来真正的信仰。;;;;;;;;;;;;x
 EVTOPTA39650;皈依[Root.Religion.GetRandomGodName]吧，别太晚了异教徒！;;;;;;;;;;;;x
