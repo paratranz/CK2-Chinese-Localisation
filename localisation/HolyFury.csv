@@ -7900,7 +7900,7 @@ religion_feature_hellenic_feature;统治者们遵从希腊多神教宗教融合�
 religion_feature_aztec_feature;统治者遵从阿兹特克宗教人祭、航海和无情的原则;;;;;;;;;;;;x
 religion_feature_bon_feature;禁止近亲结婚，允许指定继承人;;;;;;;;;;;;x
 religion_feature_zun_feature;允许一夫多妻制与血亲圣婚;;;;;;;;;;;;x
-religion_feature_west_african_feature;强制执行宗教税和修道会传统;;;;;;;;;;;;x
+religion_feature_west_african_feature;强制执行宗教税和修行传统;;;;;;;;;;;;x
 religion_feature_finnish_feature;统治者不受短暂统治好感惩罚，难以被传教;;;;;;;;;;;;x
 religion_feature_slavic_feature;统治者可以沿河航行，且不受短暂统治好感惩罚;;;;;;;;;;;;x
 religion_feature_baltic_feature;统治者可以指定继承人，难以被传教;;;;;;;;;;;;x
@@ -7915,7 +7915,7 @@ religion_astrology_feature;人物出生在特定的黄道星座下;;;;;;;;;;;;x
 religion_haruspicy_feature;军队士气由内脏占卜决定;;;;;;;;;;;;x
 religion_syncretic_feature;统治者能获得对另一个宗教组的同情者特质;;;;;;;;;;;;x
 religion_stable_feature;统治者不受短暂统治好感惩罚;;;;;;;;;;;;x
-religion_holy_family_feature;允许血亲圣婚;;;;;;;;;;;;x
+religion_holy_family_feature;允许近亲结婚;;;;;;;;;;;;x
 GetRelation_Consort;庶夫;;;;;;;;;;;;x
 child_of_consort_male;庶子;;;;;;;;;;;;x
 child_of_consort_male_desc;这名角色是统治者的庶子。庶子有继承权但是被他人轻视。;;;;;;;;;;;;x
@@ -7937,11 +7937,11 @@ string_from_baptized_by_pope_aliveop;[From.baptizing_pope_per.GetTitledFirstName
 string_from_baptized_by_bishop_aliveop;[From.baptizing_bishop_per.GetTitledFirstName];;;;;;;;;;;;x
 string_from_baptized_by_satan_male_aliveop;大祭司[From.baptizing_satanist_per.GetFirstName];;;;;;;;;;;;x
 string_from_baptized_by_satan_female_aliveop;女大祭司[From.baptizing_satanist_per.GetFirstName];;;;;;;;;;;;x
-monastic_order_stoics;斯多葛学派学者;;;;;;;;;;;;x
-monastic_order_stoics_desc;源自希腊的斯多葛学派立足与对冲动与狂热的克制，以求得一种平衡、理性的生活方式，伴随着睿智、勇气、温和以及正直。大多数门人相信学习哲学能带来快乐，并指引他们过上合乎美德的生活。;;;;;;;;;;;;x
+monastic_order_stoics;斯多葛学者;;;;;;;;;;;;x
+monastic_order_stoics_desc;源自希腊的斯多葛学派立足于对冲动与狂热的克制，以求得一种平衡、理性的生活方式，关注睿智、勇气、温和以及正直的美德。大多数门人相信学习哲学与合乎美德的生活能带来幸福。;;;;;;;;;;;;x
 currency_name_monastic_order_stoics;无欲心境;;;;;;;;;;;;x
 stoic_order_culture_convert_county;开化省份;;;;;;;;;;;;x
-stoic_order_culture_convert_county_desc;颁布一系列社会法令，温和地引领本地人民接受先进的[From.Culture.GetName]文化。;;;;;;;;;;;;x
+stoic_order_culture_convert_county_desc;颁布一系列社会法令，温和地引领本地人民接受更先进的[From.Culture.GetName]文化。;;;;;;;;;;;;x
 monastic_order_stoics_rank_1_female;学生;;;;;;;;;;;;x
 monastic_order_stoics_rank_2_female;思考者;;;;;;;;;;;;x
 monastic_order_stoics_rank_3_female;哲人;;;;;;;;;;;;x
@@ -7953,18 +7953,18 @@ monastic_order_stoics_rank_4_male;大道;;;;;;;;;;;;x
 stoic_order_culture_convert_county_power_desc;允许§G右击§!一个伯爵领头衔的盾徽，使当地居民转变为你的文化。;;;;;;;;;;;;x
 String_the_Stoics;斯多葛学派;;;;;;;;;;;;x
 String_Zeno;芝诺;;;;;;;;;;;;x
-String_agora;阿果拉;;;;;;;;;;;;x
-String_the_Aretai;阿瑞忒;;;;;;;;;;;;x
+String_agora;阿哥拉;;;;;;;;;;;;x
+String_the_Aretai;美德;;;;;;;;;;;;x
 String_Go_in_peace;一路平安;;;;;;;;;;;;x
-EVTDESC_4402_DIALOGUE;[Root.GetMOGreeting]，[Root.GetSocietyRank][Root.GetFirstName]\n\n处理繁重的领地事务让你极难有时间去沉思，我要求你隐居反思自己的人生和行为，以此增进对世界的理解。\n\n[Root.GetMOFarewell]，\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;;;x
-create_stoics;重建斯多葛学派;;;;;;;;;;;;x
-create_stoics_desc;在古罗马时期，斯多葛学派是希腊哲学的先进分支之一，倡导对美德以及自制的追求。;;;;;;;;;;;;x
-create_stoics_tooltip;社团§Y斯多葛学派§!将被建立。;;;;;;;;;;;;x
+EVTDESC_4402_DIALOGUE;[Root.GetMOGreeting]，[Root.GetSocietyRank][Root.GetFirstName]\n\n处理繁重的领地事务让你极难有足够的时间去沉思，我要求你隐居反思自己的人生和行为，以此增进对世界的理解。\n\n[Root.GetMOFarewell]，\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;;;x
+create_stoics;组建斯多葛学者;;;;;;;;;;;;x
+create_stoics_desc;在古罗马时期，斯多葛学派是希腊哲学的主流分支之一，倡导对美德以及自制的追求。;;;;;;;;;;;;x
+create_stoics_tooltip;社团§Y斯多葛学者§!将被建立。;;;;;;;;;;;;x
 EVTTITLEHF23123;斯多葛复苏;;;;;;;;;;;;x
-EVTDESCHF23123;[From.GetTitledFirstName]决定重建斯多葛学派的古典学院。基于对理性与自制的追求，斯多葛学派相信，回避一切的冲动与狂热有助于塑造一种平衡、理性的生活方式，伴随着睿智、勇气、温和以及正直。\n尽管学派成员并未被其他宗教排除在外，但这门哲学一直以来都与希腊文化紧密结合。;;;;;;;;;;;;x
+EVTDESCHF23123;[From.GetTitledFirstName]决定重建古老的斯多葛学派。基于对理性与自制的追求，斯多葛学派相信，回避一切的过度与激情有助于塑造一种平衡、理性的生活方式，关注睿智、勇气、温和以及正直的美德。\n尽管学派成员并未被其他宗教排除在外，但这门哲学一直以来都与希腊多神教紧密结合。;;;;;;;;;;;;x
 EVTOPTAHF23123;他们将成为文明社会的一座堡垒！;;;;;;;;;;;;x
 EVTOPTBHF23123;异教诡辩徒越来越多了……;;;;;;;;;;;;x
-EVTDESCHF23124;[From.GetName]的大部分人拥抱了[Root.Culture.GetName]文化。;;;;;;;;;;;;x
+EVTDESCHF23124;[From.GetName]的主流人口拥抱了[Root.Culture.GetName]文化。;;;;;;;;;;;;x
 EVTDESCHF23125;信使给我带来消息，告诉我说[FromFrom.GetTitledFirstName]在[From.GetName]实行了严酷的社会改革，以引导人们接受[FromFrom.Culture.GetName]习俗。;;;;;;;;;;;;x
 tooltip_religion_feature_disables_ghws;§R不能进行大圣战§!;;;;;;;;;;;;x
 String_ascetic;苦行者;;;;;;;;;;;;x
@@ -7977,11 +7977,11 @@ crown_slavic_fylkir_desc;[slavic_pagan_reformed.GetHighGodName]在人间的使�
 crown_romuva_fylkir;神秘之冠;;;;;;;;;;;;x
 crown_romuva_fylkir_desc;[baltic_pagan_reformed.GetHighGodName]在人间的使者曾佩戴过的冠冕。;;;;;;;;;;;;x
 crown_aztec_fylkir;特拉托阿尼冠;;;;;;;;;;;;x
-crown_aztec_fylkir_desc;[aztec_reformed.GetHighGodName]信仰的神明皇帝所佩戴的神圣羽毛头饰。;;;;;;;;;;;;x
+crown_aztec_fylkir_desc;[aztec_reformed.GetHighGodName]虔信者的圣皇所佩戴的神圣羽毛头饰。;;;;;;;;;;;;x
 scepter_bon_fylkir;安宁权杖;;;;;;;;;;;;x
-scepter_bon_fylkir_desc;这件法器代表了[bon_reformed.GetName]神圣领袖的权威与启示。;;;;;;;;;;;;x
+scepter_bon_fylkir_desc;这件礼器代表着[bon_reformed.GetName]神圣领袖的权威与启示。;;;;;;;;;;;;x
 scepter_hellenic_fylkir;至高祭司权杖;;;;;;;;;;;;x
-scepter_hellenic_fylkir_desc;这件法器代表了希腊神圣皇帝的尊严与权力。;;;;;;;;;;;;x
+scepter_hellenic_fylkir_desc;这件礼器代表着希腊圣皇的尊严与权力。;;;;;;;;;;;;x
 hellenic_dedicate_temple;供奉寺庙;;;;;;;;;;;;x
 hellenic_dedicate_temple_desc;你可以在一座神庙中供奉[From.Religion.GetName]万神殿内一位特定的神明，以确保你能得到祂的祝福。;;;;;;;;;;;;x
 tooltip_temple_must_have_priest;庙宇必须被§Y[From.Religion.GetName]§!信仰的祭司持有。;;;;;;;;;;;;x
