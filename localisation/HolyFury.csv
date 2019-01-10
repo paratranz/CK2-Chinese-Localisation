@@ -88,9 +88,9 @@ EVTOPTA_HFP_10116_default;喔，不要对自己太苛刻了，朋友！;;;;;;;;;
 is_member_of_roots_warrior_lodge_tt;§Y[Root.GetTitledName]§!和§Y[From.GetTitledName]§!是同一个战士公会的成员。\n;;;;;;;;;;;;x
 is_member_of_any_warrior_lodge_tt;是一个战士公会的成员\n;;;;;;;;;;;;x
 String_age;年老;;;;;;;;;;;;x
-String_venerable_age;可敬的长者;;;;;;;;;;;;x
-String_young_age;青年;;;;;;;;;;;;x
-String_very_young_age;幼年;;;;;;;;;;;;x
+String_venerable_age;年高德卲;;;;;;;;;;;;x
+String_young_age;年轻;;;;;;;;;;;;x
+String_very_young_age;年幼;;;;;;;;;;;;x
 String_physical_condition;身体状况;;;;;;;;;;;;x
 String_unfortunate_physical_condition;不良身体状况;;;;;;;;;;;;x
 String_poor_health;健康不佳;;;;;;;;;;;;x
@@ -101,11 +101,11 @@ String_fight_for_glory;为荣耀而战;;;;;;;;;;;;x
 String_duel_to_the_death;生死决斗;;;;;;;;;;;;x
 String_demonstration_duel;演示决斗;;;;;;;;;;;;x
 String_duel;决斗;;;;;;;;;;;;x
-String_blood_is_drawn;见血即止;;;;;;;;;;;;x
+String_blood_is_drawn;见血;;;;;;;;;;;;x
 String_one_of_us_lay_dead;你死我活;;;;;;;;;;;;x
 String_one_of_us_yields_from_injury;我们中的一人屈服于伤痛;;;;;;;;;;;;x
 String_only_one_of_us_remain_standing;我们只有一个人还站着;;;;;;;;;;;;x
-String_the_heavens_are_satisfied;上天很满意;;;;;;;;;;;;x
+String_the_heavens_are_satisfied;上天满意;;;;;;;;;;;;x
 dishonorable_duel_minor_tooltip;考虑到§Y[This.GetTitledFirstName]§!的[This.GetDuelWeakness]，某些角色可能认为这一挑战并不得体。;;;;;;;;;;;;x
 dishonorable_duel_medium_tooltip;考虑到§Y[This.GetTitledFirstName]§!的[This.GetDuelWeakness]，某些角色可能被认为在这一挑战中不如你。;;;;;;;;;;;;x
 dishonorable_duel_major_tooltip;考虑到§Y[This.GetTitledFirstName]§!的[This.GetDuelWeakness]，某些角色可能认为这一挑战没有荣耀;;;;;;;;;;;;x
@@ -6146,7 +6146,7 @@ EVTOPTA_HFP_11012;这场战争将会继续……只是我已不能再战斗…�
 EVTOPTA_HFP_11012_tt;§Y[Root.GetBestName]§!的头受到了一记重击，看上去再也醒不过来了。;;;;;;;;;;;;x
 EVTOPTB_HFP_11012;我的头怎么受伤了？;;;;;;;;;;;;x
 EVTOPTB_HFP_11012_tt;你小心翼翼地从你的脸上拔出枪头。这可不是个小伤口……\n;;;;;;;;;;;;x
-EVTDESC_HFP_11013_A;已经有好多年没有在战场上感受到这样的活力了。「每一天，我们的部队在行军时，整齐的就像在冥冥之中被一种说不出来的羁绊连系在一起。」，我激情的喊道：「又或者说，那其实是一种更高深的东西！」\n「啊！我觉得其实都是您的功劳，我的[Root.GetLordLady]」，我的一位士兵满脸惊奇的说道。;;;;;;;;;;;;x
+EVTDESC_HFP_11013_A;已经有好多年没有在战场上感受到这样的活力了。「每一天，我们的部队在行军时，整齐的就像在冥冥之中被一种说不出来的羁绊连系在一起。」，我激情的喊道：「又或者说，那其实是一种更高深的东西！」\n「啊！我觉得其实都是您的功劳，我的[Root.GetLordLady]」，我的一位士兵满脸惊奇地说道。;;;;;;;;;;;;x
 EVTOPTA_HFP_11013;这是团队协作的功劳，士兵。;;;;;;;;;;;;x
 EVTOPTB_HFP_11013;说的对极了！谦虚对我毫无益处。;;;;;;;;;;;;x
 EVTDESC_HFP_11014_A;当我介绍我们穿越[battlefield_location.GetTerrain]的行动计划时，我的军官们专心聆听，然后他们便回到部队传达指令。近来士气如虹，团队里也没有内讧，我们以[Root.GetMilitarySquadPride]闻名。;;;;;;;;;;;;x
@@ -10434,7 +10434,7 @@ EVTDESC_HFP_11037_B_2;我记得在[home_capital_province.GetName]时听到的关
 EVTOPTB_HFP_11037_1;你是说*我*是你成为一个士兵的原因……？;;;;;;;;;;;;x
 EVTOPTB_HFP_11037_2;现在他们都看着我。;;;;;;;;;;;;x
 EVTDESC_HFP_11037_C_1;「不，我不把敌人的头盖骨当酒杯使。」我笑道，当我在战场上斩下一个敌人的头颅时，一个好奇的新兵问了我这个问题。[GetSkullTrophyComment];;;;;;;;;;;;x
-EVTDESC_HFP_11037_C_2;[target.GetTitledFirstName]会不会把[target.GetHerHis]敌人的头盖骨当碗使？我问道。一个新兵激动地点起了头，我大笑起来，把手挽在[Root.GetHerHim]的肩上，不怀好意的说道：「当然，他在首都[home_capital_province.Capital.GetName]的家中有一个密室，在那里面[target.GetSheHe]都用敌人的鲜血洗澡」。新兵听完脸色煞白。;;;;;;;;;;;;x
+EVTDESC_HFP_11037_C_2;[target.GetTitledFirstName]会不会把[target.GetHerHis]敌人的头盖骨当碗使？我问道。一个新兵激动地点起了头，我大笑起来，把手挽在[Root.GetHerHim]的肩上，不怀好意地说道：「当然，他在首都[home_capital_province.Capital.GetName]的家中有一个密室，在那里面[target.GetSheHe]都用敌人的鲜血洗澡」。新兵听完脸色煞白。;;;;;;;;;;;;x
 EVTOPTC_HFP_11037_1;你永远不会让这个故事消失，是吗？;;;;;;;;;;;;x
 EVTOPTC_HFP_11037_2;那你有听说过那件[target.GetFirstName]和马的事情吗……？;;;;;;;;;;;;x
 string_took_skull;「但这不是一个坏主意！我喜欢你的谦逊，[Root.GetBoyGirl]」我说道，拍了拍[Root.GetHerHim]的背。;;;;;;;;;;;;x
@@ -18450,7 +18450,7 @@ EVTOPTA_HF_10096_TT;你会用尽各种办法来赢得这次决斗。;;;;;;;;;;;;
 EVTOPTB_HFP_10095_poison;哈！机会来了！我要准备好毒药……;;;;;;;;;;;;x
 EVTDESC_HF_10103_intrigue_A_attacker;我的[other_combatant.GetRootRelation]看上去并没有意识到我所造成的小擦伤正是让[other_combatant.GetHerHis]四肢慢慢麻木的原因……「勇敢的努力！」我称赞道，并观察着[other_combatant.GetHerHis]迟缓的动作。当[other_combatant.GetSheHe]向我猛攻时，我谨慎的让到一旁，让[other_combatant.GetHerHis]随后的倒下就像一次失败的攻击。毒药一定已经到达[other_combatant.GetHerHis]心脏部位。;;;;;;;;;;;;x
 EVTDESC_HF_10103_intrigue_A_defender_spymaster;我不确定我的[Root.GetMySpymasterName]为什么想要在决斗之前检查我的装备——当然了，[job_spymaster.GetHerHis]关于毒药的说法是开玩笑的！在那之后，我在战斗中的表现并非我最好的成绩，不过我真诚地希望我的[other_combatant.GetRootRelation]能够抵抗的更久一些。我几乎连擦伤都没有！;;;;;;;;;;;;x
-EVTDESC_HF_10103_intrigue_A_defender_self;「了不得！」在[other_combatant.GetHerHis]跪倒在[Root.Capital.GetGroundDesc]脚下时，[other_combatant.GetTitledFirstName]气急败坏的说道。最终，我让怒气充满我的全身。「我把你的武器换掉了，」我充满怒意的低语着，并将匕首抵在[other_combatant.GetHerHis]喉咙上。「我的耳目众多，无处不在，」我向不知所措的[other_combatant.GetManWoman]解释道。「你以为我可能会让你毒死我吗？」;;;;;;;;;;;;x
+EVTDESC_HF_10103_intrigue_A_defender_self;「了不得！」在[other_combatant.GetHerHis]跪倒在[Root.Capital.GetGroundDesc]脚下时，[other_combatant.GetTitledFirstName]气急败坏地说道。最终，我让怒气充满我的全身。「我把你的武器换掉了，」我充满怒意地低语着，并将匕首抵在[other_combatant.GetHerHis]喉咙上。「我的耳目众多，无处不在，」我向不知所措的[other_combatant.GetManWoman]解释道。「你以为我可能会让你毒死我吗？」;;;;;;;;;;;;x
 EVTDESC_HF_10104_intrigue_A_attacker;[other_combatant.GetTitledFirstName]的动作很优雅，令我印象深刻——[other_combatant.GetManWoman]现在应当看起来更加虚弱了……[other_combatant.GetPoisonDefense];;;;;;;;;;;;x
 EVTDESC_HF_10104_intrigue_A_defender;[other_combatant.GetTitledFirstName]只是在我身上留下一些擦痕，但我能感觉我的力量正在流失，有些不太对劲。我想知道……[Root.GetPoisonSpeculation];;;;;;;;;;;;x
 String_imbecile_speculation;为什么这些树突然这么多彩缤纷……？我……握不住[Root.GetDuelWeapon]了……噢，[Root.Capital.GetGroundDesc]看起来如此舒适……;;;;;;;;;;;;x
@@ -19595,7 +19595,7 @@ string_rp_rivals;正在树敌的;;;;;;;;;;;;x
 EVTDESC6050;我发现自己整天躺在床上，起床几乎和统治国家一样困难。食不甘味，和朋友在一起的时光无法带来以往的快乐。我真的不明白为什么，但是我讨厌我的生活。;;;;;;;;;;;;x
 EVT_OPTB_MNM_9132;噢，我可不这样想。;;;;;;;;;;;;x
 EVT_OPTB_MNM_9132_TT;这个铁匠永远无法到达他的目的地，你的财宝会被追回。;;;;;;;;;;;;x
-MNM_9999_DESC;城堡里的铁匠献给你一个脏兮兮的旧盒子，看上去他们更习惯于锤制马鞍和头盔，而不是造王室想要的东西。「当当当当！」他紧张的说道，「这就是您想要的宝剑吧？」;;;;;;;;;;;;x
+MNM_9999_DESC;城堡里的铁匠献给你一个脏兮兮的旧盒子，看上去他们更习惯于锤制马鞍和头盔，而不是造王室想要的东西。「当当当当！」他紧张地说道，「这就是您想要的宝剑吧？」;;;;;;;;;;;;x
 EVTOPTA_MNM_9999;哦天呐。;;;;;;;;;;;;x
 terrible_sword;制作拙劣的剑;;;;;;;;;;;;x
 terrible_sword_desc;制作这把剑的铁匠很可能在打造它的时候喝醉了。;;;;;;;;;;;;x
