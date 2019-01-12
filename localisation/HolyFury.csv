@@ -59,7 +59,7 @@ EVTOPTA_HFP_10102_elegant;一个可敬的对手，直到最后也是如此……
 no_one_wins_the_duel_tt;没人赢了这场决斗。\n;;;;;;;;;;;;x
 you_win_the_duel_tt;你赢了这场决斗。\n;;;;;;;;;;;;x
 you_lose_the_duel_tt;你输了这场决斗。\n;;;;;;;;;;;;x
-EVTDESC_HFP_10105_default_E;我狂乱地挥舞着自己的武器，突然间，[other_combatant.GetTitledFirstName]发出痛苦的尖叫。我扔下了我的[Root.GetDuelWeapon]，直勾勾地盯着这副我亲手制造的血腥场景。看上去我好像成功[other_combatant.GetWeaponInjuringBlow]。;;;;;;;;;;;;x
+EVTDESC_HFP_10105_default_E;我狂乱地挥舞着自己的武器，突然间，[other_combatant.GetTitledFirstName]发出痛苦的尖叫。我扔下了我的[Root.GetDuelWeapon]，直勾勾地盯着这副我亲手制造的血腥场景。看上去我好像[other_combatant.GetWeaponInjuringBlow]。;;;;;;;;;;;;x
 EVTDESC_HFP_10105_mock_duel_A;这场战斗好像已经进行了数个小时——我开战前的豪情壮志已经开始消退，我的步伐变的缓慢。然后，正当我的双膝将要支撑不住时，我[other_combatant.GetWeaponInjuringBlow]。;;;;;;;;;;;;x
 EVTDESC_HFP_10105_mock_duel_B;决斗开始了，[other_combatant.GetTitledName]开始慢慢靠近我。而我给了[other_combatant.GetHerHim]一个嘲讽味十足的微笑，然后没花多久时间就[other_combatant.GetWeaponInjuringBlow]。;;;;;;;;;;;;x
 EVTDESC_HFP_10105_mock_duel_C;听着观众的欢呼，我越发激情地挥舞着我的[Root.GetDuelWeapon]。当决斗结束时，[other_combatant.GetTitledName]躺倒在地上，[other_combatant.GetHerHis]脸因为羞愧而变的通红。我耸了耸肩，然后对着人群微笑，也对着我的对手微笑。;;;;;;;;;;;;x
@@ -70,9 +70,9 @@ EVTOPTA_HFP_10105_kind;莫……莫非这场战斗我赢了？;;;;;;;;;;;;x
 EVTOPTB_HFP_10105_default;我绝不留情。;;;;;;;;;;;;x
 EVTOPTB_HFP_10105_lunatic;你为什么不跪下来向我求饶？！;;;;;;;;;;;;x
 EVTOPTB_HFP_10105_rival;这一刻我已经等了很久了，你这条无耻阴险的毒蛇！;;;;;;;;;;;;x
-EVTDESC_HFP_10106_default_E;[other_combatant.GetTitledName]狂乱地挥舞着[other_combatant.GetHerHis][other_combatant.GetDuelWeapon]，一声尖锐的惨叫划破了天际。我摇晃欲倒，发现那是我自己的声音——我的对手成功[Root.GetWeaponInjuringBlowOnMe]。;;;;;;;;;;;;x
-EVTDESC_HFP_10106_mock_duel_A;不管[other_combatant.GetTitledFirstName]是不是仅仅一个[combatant_1.GetDuelType]，[other_combatant.GetHerHim]浑身上下都散发着一股毋庸置疑的自信。当我冲锋的时候，[other_combatant.GetSheHe]居然暗自笑起来！我的对手确保[Root.GetWeaponInjuringBlowOnMe]后，一切都结束了，我僵卧在地面上，一动不动。;;;;;;;;;;;;x
-EVTDESC_HFP_10106_mock_duel_B;[other_combatant.GetTitledFirstName]向我发起冲锋，不过一会儿就成功[Root.GetWeaponInjuringBlowOnMe]。人群似乎没有被我的努力所打动。;;;;;;;;;;;;x
+EVTDESC_HFP_10106_default_E;[other_combatant.GetTitledName]狂乱地挥舞着[other_combatant.GetHerHis][other_combatant.GetDuelWeapon]，一声尖锐的惨叫划破了天际。我摇晃欲倒，发现那是我自己的声音——我的对手[Root.GetWeaponInjuringBlowOnMe]。;;;;;;;;;;;;x
+EVTDESC_HFP_10106_mock_duel_A;不管[other_combatant.GetTitledFirstName]是不是仅仅一个[combatant_1.GetDuelType]，[other_combatant.GetHerHim]浑身上下都散发着一股毋庸置疑的自信。当我冲锋的时候，[other_combatant.GetSheHe]居然暗自笑起来！我的对手[Root.GetWeaponInjuringBlowOnMe]，一切都结束了，我僵卧在地面上，一动不动。;;;;;;;;;;;;x
+EVTDESC_HFP_10106_mock_duel_B;[other_combatant.GetTitledFirstName]向我发起冲锋，不一会儿就[Root.GetWeaponInjuringBlowOnMe]。人群似乎没有被我的努力所打动。;;;;;;;;;;;;x
 EVTDESC_HFP_10106_mock_duel_C;人群正在为了[other_combatant.GetTitledName]欢呼，[other_combatant.GetSheHe]以越发激动的姿态挥舞着[other_combatant.GetHerHis][other_combatant.GetDuelWeapon]。当一切结束时，这[other_combatant.GetManWoman]满怀怜悯的看着我。;;;;;;;;;;;;x
 EVTOPTA_HFP_10106;我感觉不太好……;;;;;;;;;;;;x
 EVTOPTA_HFP_10106_stubborn;为什么，你这个—！我下次会给你点颜色看看的，[other_combatant.GetFirstName]！;;;;;;;;;;;;x
@@ -4250,14 +4250,14 @@ warrior_lodge_hellenic_rank_1_male;新手;;;;;;;;;;;;x
 warrior_lodge_hellenic_rank_2_male;战士;;;;;;;;;;;;x
 warrior_lodge_hellenic_rank_3_male;老兵;;;;;;;;;;;;x
 warrior_lodge_hellenic_rank_4_male;英雄;;;;;;;;;;;;x
-EVTDESC_HFP_10103_A;我紧紧握住我的[Root.GetDuelWeapon]，虎口微裂。我的敌人[other_combatant.GetTitledFirstName]正准备发起另一次攻击。接下来的一刻我没有看的太清，因为一瞬间血溅的到处都是，而我只听到有人在大叫「好像[Root.GetTitledFirstName]刚刚[other_combatant.GetWeaponInjuringBlow]！」;;;;;;;;;;;;x
+EVTDESC_HFP_10103_A;我紧紧握住我的[Root.GetDuelWeapon]，虎口微裂。我的敌人[other_combatant.GetTitledFirstName]正准备发起另一次攻击。接下来的一刻我没有看得太清，因为一瞬间血溅得到处都是，而我只听到有人在大叫「好像[Root.GetTitledFirstName]刚刚[other_combatant.GetWeaponInjuringBlow]！」;;;;;;;;;;;;x
 EVTDESC_HFP_10103_B;[other_combatant.GetTitledFirstName][other_combatant.GetClumsilyElegantly]挥舞着[other_combatant.GetHerHis][other_combatant.GetDuelWeapon]。这是一场持久战，对双方来说都像过了几个世纪，以至于我全身的肌肉都开始酸痛了。全身上下还仅存一丝丝力气，我[Root.GetKillingBlow]。;;;;;;;;;;;;x
 EVTDESC_HFP_10103_C;我的对手看上去已经开始力不从心，[other_combatant.GetHerHis]步伐开始变慢。围观人群的欢呼声将我的力量唤起，我[Root.GetKillingBlow]。;;;;;;;;;;;;x
 EVTOPTA_HFP_10103_default;我……是的，我就是故意的！;;;;;;;;;;;;x
 EVTOPTA_HFP_10103_duelist;我大获全胜。;;;;;;;;;;;;x
 EVTOPTA_HFP_10103_sad;如此收场我很遗憾。;;;;;;;;;;;;x
 EVTOPTA_HFP_10103_mean;你的唯一归宿只有死亡，[other_combatant.GetSisterBrother]。;;;;;;;;;;;;x
-EVTDESC_HFP_10104_A;就在我开始以为对手被我耗得筋疲力竭的时候，[other_combatant.GetTitledFirstName]以至今从未展现的力量箭步向我冲来。汗水从我的额头滴落，我猛然间听到有人难以置信地大叫着描述这个场景。[other_combatant.GetSheHeCap]成功[Root.GetWeaponInjuringBlowOnMe]。;;;;;;;;;;;;x
+EVTDESC_HFP_10104_A;就在我开始以为对手被我耗得筋疲力竭的时候，[other_combatant.GetTitledFirstName]以至今从未展现的力量箭步向我冲来。汗水从我的额头滴落，我猛然间听到有人难以置信地大叫着描述这个场景。[other_combatant.GetSheHeCap][Root.GetWeaponInjuringBlowOnMe]。;;;;;;;;;;;;x
 EVTDESC_HFP_10104_B;战斗已经持续了一段时间，我仍旧努力[Root.GetClumsilyElegantly]挥舞着我的[Root.GetDuelWeapon]。[other_combatant.GetTitledFirstName]看起来同样很累，可突然间[other_combatant.GetSheHe][Root.GetKillingBlowOnMe]。;;;;;;;;;;;;x
 EVTDESC_HFP_10104_C;尽管武器的每一击都变得愈发沉重，我仍然艰难地专注于我的对手，这时围观人群开始为[other_combatant.GetHerHim]加油。我的视野一片模糊，这时，[other_combatant.GetSheHe][other_combatant.GetKillingBlowOnMe]。;;;;;;;;;;;;x
 EVTOPTA_HFP_10104;结束……了。;;;;;;;;;;;;x
@@ -4282,9 +4282,9 @@ EVTOPTA_HFP_10108;我应该留下来战斗！;;;;;;;;;;;;x
 EVTOPTA_HFP_10108_craven;我只是想证明我并不害怕。;;;;;;;;;;;;x
 EVTOPTA_HFP_10108_shy;太过分了，他们怎么就……都看着我。;;;;;;;;;;;;x
 EVTOPTA_HFP_10108_wroth;[Root.GetFirstName]，你到底怎么了？;;;;;;;;;;;;x
-EVTDESC_HFP_10109;正当我[other_combatant.GetWeaponInjuringBlow]时，[other_combatant.GetTitledFirstName]也成功[Root.GetWeaponInjuringBlowOnMe]。不过，最后人群欢呼的是*我*的名字！;;;;;;;;;;;;x
+EVTDESC_HFP_10109;正当我[other_combatant.GetWeaponInjuringBlow]时，[other_combatant.GetTitledFirstName]也[Root.GetWeaponInjuringBlowOnMe]。不过，最后人群欢呼的是*我*的名字！;;;;;;;;;;;;x
 EVTOPTA_HFP_10109;这都是值得的。;;;;;;;;;;;;x
-EVTDESC_HFP_10110;正当我[other_combatant.GetWeaponInjuringBlow]，[other_combatant.GetTitledFirstName]成功地[Root.GetWeaponInjuringBlowOnMe]。迷迷糊糊地，我几乎能分辨出人群的声音：他们欢呼的不是我的名字。;;;;;;;;;;;;x
+EVTDESC_HFP_10110;正当我[other_combatant.GetWeaponInjuringBlow]时，[other_combatant.GetTitledFirstName]也[Root.GetWeaponInjuringBlowOnMe]。迷迷糊糊地，我几乎能分辨出人群的声音：他们欢呼的不是我的名字。;;;;;;;;;;;;x
 EVTOPTA_HFP_10110;我错在哪里了……？;;;;;;;;;;;;x
 EVTDESC_HFP_10111_intrigue;[other_combatant.GetTitledName]已经成功[Root.GetWeaponInjuringBlowOnMe]，这时[other_combatant.GetHerHis]脸上闪过扭曲的神色。我勉强注意到[other_combatant.GetHerHis]手中有金属物品的光泽，随后我的喉咙就被隔开，血溅了[other_combatant.GetHerHis]一脸。我试图问一句为什么，但已说不出话。;;;;;;;;;;;;x
 EVTDESC_HFP_10111_default;[other_combatant.GetTitledName]已经成功[Root.GetWeaponInjuringBlowOnMe]，这时[other_combatant.GetSheHe]发出了巨大的哼叫声。我不知不觉中开始求饶，但[other_combatant.GetSheHe]丝毫不讲道理。我最后听到的是人群震惊的喘息声，之后则是一记轻响，那只可能是我人头落地的声音。;;;;;;;;;;;;x
@@ -10417,7 +10417,7 @@ EVTOPTA_HFP_11035;终于！让我们对这块石头做点什么。;;;;;;;;;;;;x
 EVTDESC_HFP_11036;[my_fellow_commander.GetTitledFirstName]是一个好战的指挥官，擅长以[GetRandomMythologicalCreature]般的力量与敌人战斗。虽然没有仔细数过，但是我很好奇[my_fellow_commander.GetSheHe]到底已经单枪匹马的干掉了多少个敌人……「为我留几个，好么？」我穿过[battlefield_location.GetTerrain]向他大喊道。;;;;;;;;;;;;x
 EVTOPTA_HFP_11036;[my_fellow_commander.GetSheHeCap]一个人就是一支军队……！;;;;;;;;;;;;x
 EVTOPTB_HFP_11036;嗤，真是爱显摆！这也没多难！;;;;;;;;;;;;x
-EVTDESC_HFP_11039;当我在敌阵左[GetWeaponSwinging]右冲时，指挥官[From.GetTitledFirstName]一直越过[battlefield_location.GetTerrain]扫视着我。当我对这种监视感到不舒服的时候，[From.GetSheHe]对我大喊道：「给我留几个，好么？」;;;;;;;;;;;;x
+EVTDESC_HFP_11039;当我在敌阵左[GetWeaponSwinging]右冲时，指挥官[From.GetTitledFirstName]一直越过[battlefield_location.GetTerrain]扫视着我。我开始对这种监视感到不舒服，这时[From.GetSheHe]对我大喊道：「给我留几个，好么？」;;;;;;;;;;;;x
 EVTOPTA_HFP_11039_default;哦，是你！;;;;;;;;;;;;x
 EVTOPTA_HFP_11039_lunatic;过来打倒他们！*咔*;;;;;;;;;;;;x
 EVTOPTA_HFP_11039_evil;没什么比早晨流点血更好的了！;;;;;;;;;;;;x
@@ -10445,7 +10445,7 @@ proud_role_model;自豪榜样;;;;;;;;;;;;x
 proud_role_model_desc;这个角色充满自豪感和责任感。;;;;;;;;;;;;x
 center_of_attention;全场焦点;;;;;;;;;;;;x
 center_of_attention_desc;这位角色享受成为全场焦点的感觉。;;;;;;;;;;;;x
-EVTDESC_HFP_11038;「我是[GetWarriorLodgeSymbol]的一员」，我发现我自己挥舞着[GetDuelWeapon]吟唱起来。「为了[Root.PrimaryTitle.GetName]！」我咆哮道，我的武器[GetWeaponSwinging]死任何敢挡在我征途之人。尸体和鲜血充满了[battlefield_location.GetTerrain]，我不断地发出我的战嚎，淹没在一条死亡之河中。;;;;;;;;;;;;x
+EVTDESC_HFP_11038;「我是[GetWarriorLodgeSymbol]的一员」，我挥舞着[GetDuelWeapon]呼喊起来。「为了[Root.PrimaryTitle.GetName]！」我咆哮着用武器[GetWeaponSwinging]死任何敢阻挡我的人。尸体和鲜血充满了[battlefield_location.GetTerrain]，我不断地发出战嚎，淹没在一条死亡之河中。;;;;;;;;;;;;x
 EVTOPTA_HFP_11038_default;我找到了我的目标！;;;;;;;;;;;;x
 EVTOPTA_HFP_11038_lunatic;出来，出来，你在哪里！;;;;;;;;;;;;x
 EVTOPTA_HFP_11038_evil;啊，我面前的骨头和意志破裂的声音……振奋精神！;;;;;;;;;;;;x
@@ -18258,12 +18258,12 @@ merciful_defender;仁慈的防御者;;;;;;;;;;;;x
 merciful_defender_desc;这名角色在面临别人挑战[This.GetHerHis]统治时，选择了忍耐。;;;;;;;;;;;;x
 merciful_attacker;冷静的侵攻者;;;;;;;;;;;;x
 merciful_attacker_desc;这名角色利用精妙的话术和[This.GetHerHis][This.GetDuelWeapon]，成功地使其他人放弃了对[This.GetHerHis]领地的宣称。;;;;;;;;;;;;x
-String_severely_tear_body_part;在[This.GetHerHis][This.GetBodyPartInjured]上撕裂出了一道骇人的伤口;;;;;;;;;;;;x
+String_severely_tear_body_part;在[This.GetHerHis][This.GetBodyPartInjured]上撕开了一道骇人的伤口;;;;;;;;;;;;x
 String_severely_tear_my_body_part;在我的[This.GetBodyPartInjured]上撕开了一道骇人的伤口;;;;;;;;;;;;x
-String_severely_break_body_part;就算[This.GetHerHis][This.GetBodyPartInjured]深处的某些东西没断，它至少也会被擦伤;;;;;;;;;;;;x
-String_severely_break_my_body_part;我[This.GetBodyPartInjured]深处的某些部位不是断了，就是被擦伤了;;;;;;;;;;;;x
-String_severely_injure_eye;让[This.GetHerHis]眼睛淌血，可能已经把[This.GetHerHim]弄瞎了。;;;;;;;;;;;;x
-String_severely_injure_my_eye;让我的眼睛淌血，我可能就这样瞎了。;;;;;;;;;;;;x
+String_severely_break_body_part;挫伤甚至折断了[This.GetHerHis][This.GetBodyPartInjured]深处;;;;;;;;;;;;x
+String_severely_break_my_body_part;挫伤甚至折断了我的[This.GetBodyPartInjured]深处;;;;;;;;;;;;x
+String_severely_injure_eye;把[This.GetHerHis]眼睛打出了血，可能把[This.GetHerHim]弄瞎了;;;;;;;;;;;;x
+String_severely_injure_my_eye;把我的眼睛打出了血，可能把我弄瞎了;;;;;;;;;;;;x
 make_shieldmaiden_custom_tooltip_1;是以下任一：§Y勇敢§!、§Y骄傲§!、§Y野心勃勃§!、§Y勤奋§!、§Y正直§!或§Y合群§!\n;;;;;;;;;;;;x
 EVTDESC_HF_14001_bravery;最近好几次[Root.Society.GetName]的聚会里，我都见到了[student.GetBestName]，但是我根本不能不注意这位看上去十分容易被一些小事弄的担惊受怕[student.GetAgeAdjective][student.GetManWoman]。他会因为一些别人的嘲笑而被弄的畏畏缩缩，在争论当中总是落得下风……「[student.GetSheHeCap]需要我的指导」，我轻声告诉我自己。;;;;;;;;;;;;x
 EVTDESC_HF_14001_ambition;在我与私人卫队进行的一次小规模掠夺后的归程中，我一直在和[student.GetBestName]聊天。这个[student.GetManWoman]无论如何都明白不了我对冒险的渴望。「想想这会给你的部落带来何等的繁荣？」我展示着我手腕上的新手镯，试图打动他。但[student.GetSheHeCap]叹了一口气，看起来不为所动。;;;;;;;;;;;;x
@@ -18459,11 +18459,11 @@ String_gardener_speculation;这不是使人联想到当龙葵使人中毒时，�
 String_default_speculation;我今天都吃了些什么……？我的试毒者确实在场啊……天哪，[This.Religion.GetHighGodName]，这不是我想要的死法。;;;;;;;;;;;;x
 String_spymaster_averted_it;我感到浑身虚弱，我第一次意识到，原来呼吸也可以如此困难，我感觉仿佛有一座大山压在我的胸口。「怎么会……」我咕哝道，并倒在了地上，我看到那个[other_combatant.GetMySpymasterName][other_combatant.job_spymaster.GetTitledFirstName]咧嘴笑着站在人群之中。;;;;;;;;;;;;x
 String_they_averted_it_themselves;\n一瞬间，我感受到鲜血涌上我的口中。「你居然打算下毒害我？！」[other_combatant.GetSheHe]发出了如猫捕猎般的嘶嘶声，并向我的胸口扔出了第二把匕首。;;;;;;;;;;;;x
-String_they_lucked_out;我会不会搞错了配方……？「等等！」我急切的喊道。一定有那里不对，我疯狂的尝试回忆，但是已经太晚了，[other_combatant.GetManWoman][other_combatant.GetKillingBlowOnMeShort]。;;;;;;;;;;;;x
+String_they_lucked_out;我会不会搞错了配方……？「等等！」我急切的喊道。一定有那里不对，我疯狂的尝试回忆，但是已经太晚了，那个[other_combatant.GetManWoman][other_combatant.GetKillingBlowOnMeShort]。;;;;;;;;;;;;x
 EVTDESC_HFP_10105_default_A;「这是个决斗的好日子！」，我笑着，举起我的[Root.GetDuelWeapon]。「闲聊够了」，我的对手咆哮着。很快，[other_combatant.GetTitledFirstName]脸朝下倒在了[Root.Capital.GetGroundDesc]中，看来我[other_combatant.GetWeaponInjuringBlow]。;;;;;;;;;;;;x
 EVTDESC_HFP_10105_default_B;我的对手看上去有点紧张，因为[other_combatant.GetHerHis]盔甲好像有一点不合身，我开始想要不要问[other_combatant.GetSheHe]是否要改天再战……在一阵沉寂过后，我突然大喊一声，让清晨的新鲜空气完全唤醒我的感官。那个[other_combatant.GetCharacterLook][other_combatant.GetManWoman]不久就躺在了地上，痛苦的呻吟着。;;;;;;;;;;;;x
 EVTDESC_HFP_10105_default_C;碰见[other_combatant.GetTitledFirstName]时，太阳已经开始落山了，而我的[GetDuelWeapon]则已经准备好。在[other_combatant.GetSheHe][other_combatant.GetClumsilyElegantly]避开一次进攻后，我的下一次攻击取得了完美的成效。疯狂的是，这个[other_combatant.GetManWoman]企图捂住[other_combatant.GetHerHis]受伤的[other_combatant.GetBodyPartInjured]，但我很少见到这么多血……！;;;;;;;;;;;;x
-EVTDESC_HFP_10106_default_A;「别板着个脸啊！」，[other_combatant.GetTitledName]对我说。[other_combatant.GetSheHeCap]又一次把我击倒在地，又一次！所以我失去了所有的耐心，开始向他吼道「你他妈——」，但是还没说完，疼痛就彻底击倒了我。对面那个[other_combatant.GetManWoman]试着[Root.GetWeaponInjuringBlowOnMe]，接着满场的血腥味就开始令我头晕目眩。;;;;;;;;;;;;x
+EVTDESC_HFP_10106_default_A;「别板着个脸啊！」，[other_combatant.GetTitledName]对我说。[other_combatant.GetSheHeCap]又一次把我击倒在地，又一次！所以我失去了所有的耐心，开始向他吼道「你他妈——」，但是还没说完，疼痛就彻底击倒了我。对面那个[other_combatant.GetManWoman][Root.GetWeaponInjuringBlowOnMe]，接着满场的血腥味就开始令我头晕目眩。;;;;;;;;;;;;x
 EVTDESC_HFP_10106_default_B;我不知道是哪出了差错，但是我所做的显然对[other_combatant.GetTitledFirstName]根本没任何影响。「来啊！别还没开打就投降啊！」[other_combatant.GetSheHe]向我叫嚣，[other_combatant.GetHerHis]声音中显然充满了不满。我试着站起来，但是根本没办法。我的[Root.GetBodyPartInjured]从来没受过这样重的伤。「我就是想在[Root.Capital.GetGroundDesc]这休息一会儿！」我咕哝道。;;;;;;;;;;;;x
 EVTDESC_HFP_10106_default_C;一阵阵的剧痛从我的[GetBodyPartInjured]袭来，我只能咬紧牙关，努力不疼的哭出来。「这还不算完！」我向我的对手吼道，但是他却慢慢地放下了[other_combatant.GetHerHis]武器。霎时间，我只看见天边的最后一道晚霞将[other_combatant.GetHerHim]整个笼罩，[other_combatant.GetSheHe]看上去就像是一个天降的勇士……！在还没来得及说些什么时，我就整个人昏过去了。;;;;;;;;;;;;x
 so_much_for_poison_tt;你所做的「小手脚」并没有起效。;;;;;;;;;;;;x
@@ -19163,7 +19163,7 @@ k_franconia_adj;法兰克尼亚;;;;;;;;;;;;x
 k_swabia_adj;施瓦本;;;;;;;;;;;;x
 d_somerset_adj;萨默塞特;;;;;;;;;;;;x
 d_hampshire_adj;威塞克斯;;;;;;;;;;;;x
-d_penthievre_adj;庞蒂埃弗尔;;;;;;;;;;;;x
+d_penthievre_adj;庞蒂耶夫尔;;;;;;;;;;;;x
 d_cumbria_adj;坎布里亚;;;;;;;;;;;;x
 d_gwent_adj;格温特;;;;;;;;;;;;x
 d_picardie_adj;皮卡第;;;;;;;;;;;;x
@@ -19861,17 +19861,17 @@ String_priest_woman;女人和一位[This.Religion.GetPriestTitle];;;;;;;;;;;;x
 RULE_DUELING_UNRESTRICTED_DESC;几乎可向每个人挑起决斗。关于性别和宗教的惩罚将不再有效。;;;;;;;;;;;;x
 String_gun;火枪;;;;;;;;;;;;x
 String_shooting;射;;;;;;;;;;;;x
-String_severely_shot;跳弹了一发，擦破了[This.GetHerHis][This.GetBodyPartInjured]。;;;;;;;;;;;;x
-String_severely_shot_eyes;用我的[Root.GetDuelWeapon]猛击[This.GetHerHis][This.GetBodyPartInjured]。;;;;;;;;;;;;x
+String_severely_shot;跳弹了一发，擦破了[This.GetHerHis][This.GetBodyPartInjured];;;;;;;;;;;;x
+String_severely_shot_eyes;用我的[Root.GetDuelWeapon]猛击[This.GetHerHis][This.GetBodyPartInjured];;;;;;;;;;;;x
 String_shot_not_lethal;用我的[Root.GetDuelWeapon]向[This.GetHerHis][This.GetBodyPartInjured]开火，巨大的响声甚至惊到了我自己;;;;;;;;;;;;x
 String_shot_not_lethal_eyes;向对手的脑袋开火，[This.GetHerHis]脸浸在血中;;;;;;;;;;;;x
-String_shoot_mild;一枪在地上打个大坑，把[This.GetHerselfHimself]吓得绊倒了自己。;;;;;;;;;;;;x
+String_shoot_mild;一枪在地上打个大坑，吓得对手绊倒了[This.GetHerselfHimself];;;;;;;;;;;;x
 String_shoot_them_actually_dead;在[This.GetHerHis]胸膛上开了一个洞;;;;;;;;;;;;x
-String_shoot_me_mild;[other_combatant.GetHerHis]用[other_combatant.GetDuelWeapon]一枪打在地上，吓得我绊倒了自己。;;;;;;;;;;;;x
-String_shoot_me_actually_dead;[other_combatant.GetHerHis]用[other_combatant.GetDuelWeapon]一枪打在了我的胸膛上。;;;;;;;;;;;;x
-String_shoot_my_gun;扣下扳机，射出我的最后一发子弹，打入了[other_combatant.GetHerHis]太阳穴。;;;;;;;;;;;;x
-String_shoot_their_gun;扣下扳机，射出了[other_combatant.GetHerHis]最后一发子弹，我耳晕目眩摔倒在地上。;;;;;;;;;;;;x
-String_shoot_my_gun_short;向我开枪;;;;;;;;;;;;x
+String_shoot_me_mild;用[other_combatant.GetHerHis][other_combatant.GetDuelWeapon]一枪打在地上，吓得我绊倒了自己;;;;;;;;;;;;x
+String_shoot_me_actually_dead;用[other_combatant.GetHerHis][other_combatant.GetDuelWeapon]打进了我的胸膛;;;;;;;;;;;;x
+String_shoot_my_gun;扣下扳机，射出我的最后一发子弹，打入了[other_combatant.GetHerHis]太阳穴;;;;;;;;;;;;x
+String_shoot_their_gun;扣下扳机，射出了[other_combatant.GetHerHis]最后一发子弹，我耳中嗡嗡作响，随后摔倒在地上;;;;;;;;;;;;x
+String_shoot_my_gun_short;射倒了我;;;;;;;;;;;;x
 String_shoot_them_short;把[This.GetHerHim]射倒了;;;;;;;;;;;;x
 RHOS;罗斯;;;;;;;;;;;;x
 RHOS_ADJ;罗斯;;;;;;;;;;;;x
