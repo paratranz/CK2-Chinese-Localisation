@@ -4108,7 +4108,7 @@ SET_NOT_ALLOW_LOOTING_EFFECT;宗教现在不允许劫掠;;;;;;;;;;;;x
 SET_ALLOW_RIVER_MOVEMENT_EFFECT;宗教现在允许进入河流;;;;;;;;;;;;x
 SET_NOT_ALLOW_RIVER_MOVEMENT_EFFECT;宗教现在不允许进入河流;;;;;;;;;;;;x
 EVTOPTE30051;你已经有我了！;;;;;;;;;;;;x
-REASON_IS_A_HORSE;此选项是可用的，因为你是一匹§Y马§!;;;;;;;;;;;;x
+REASON_IS_A_HORSE;这个选项可用是因为你是一匹§Y马§!;;;;;;;;;;;;x
 HAS_PENTARCHY_TRIGGER;拥有五大牧首区;;;;;;;;;;;;x
 HAS_NOT_PENTARCHY_TRIGGER;不拥有五大牧首区;;;;;;;;;;;;x
 SET_AUTOCEPHALY_EFFECT;宗教现在是地方自主的;;;;;;;;;;;;x
@@ -6208,7 +6208,7 @@ EVTOPTC_HFP_11019_1_TT;你选择了一种结束自己负罪感的方法，一劳
 EVTOPTC_HFP_11019_2;有些人总想让我死。;;;;;;;;;;;;x
 EVTOPTD_HFP_11019;我受够了这种多愁善感了！[Root.Religion.GetHighGodName]啊，我现在只想找个人狠狠打一顿！;;;;;;;;;;;;x
 EVTOPTE_HFP_11019;我想，我应该去和弟兄们打猎。新鲜的空气，多好啊。;;;;;;;;;;;;x
-available_due_to_warrior_lodge;此选项可用，因为你是§Y[Root.Society.GetName]§!的成员。;;;;;;;;;;;;x
+available_due_to_warrior_lodge;这个选项可用是因为你是§Y[Root.Society.GetName]§!的成员。;;;;;;;;;;;;x
 EVTOPTF_HFP_11019;我永远都不会再接近任何人了。;;;;;;;;;;;;x
 EVTOPTA_MNM_1214_other;哦，我亲爱的……即便我能预见未来，我也无法阻止它。;;;;;;;;;;;;x
 EVTOPTB_MNM_1214_other;哦，我亲爱的……必须更好地努力去理解这些幻象。;;;;;;;;;;;;x
@@ -6273,11 +6273,11 @@ String_they_were_my_enemy;[From.GetSheHe]曾经在[battlefield_location.GetName]
 this_is_better_than_prev_tt;§Y[This.GetTitledFirstName]§!是一个比§Y[Prev.GetTitledFirstName]§!更好的决斗者;;;;;;;;;;;;x
 evenly_matched_tt;§Y[This.GetTitledFirstName]§!与§Y[Prev.GetTitledFirstName]§!不相上下;;;;;;;;;;;;x
 this_is_worse_than_prev_tt;§Y[This.GetTitledFirstName]§!是一个比§Y[Prev.GetTitledFirstName]§!差很多的决斗者;;;;;;;;;;;;x
-string_available_due_to_duelist_skill_better_than_enemy;此选项可用是因为你比§Y[enemy_commander.GetTitledFirstName]§!在决斗造诣上§G更深§!;;;;;;;;;;;;x
-string_available_due_to_high_duelist_skill;这个选项是可用的因为你有§G高超的§!§Y个人实战§!技能。;;;;;;;;;;;;x
+string_available_due_to_duelist_skill_better_than_enemy;这个选项可用是因为你比§Y[enemy_commander.GetTitledFirstName]§!在决斗上造诣§G更深§!;;;;;;;;;;;;x
+string_available_due_to_high_duelist_skill;这个选项可用是因为你有§G高超§!的§Y个人实战§!能力。;;;;;;;;;;;;x
 available_because_duels_bad;[Root.GetDaringDuelOptionAvailable];;;;;;;;;;;;x
-string_available_due_to_duelist_skill_worse_than_enemy;此选项可用是因为你的决斗造诣要§R低于§!§Y[enemy_commander.GetTitledFirstName]§!;;;;;;;;;;;;x
-string_available_due_to_low_duelist_skill;这个选项是可用的因为你有§R低劣的§!§Y个人实战§!技能。;;;;;;;;;;;;x
+string_available_due_to_duelist_skill_worse_than_enemy;这个选项可用是因为你比§Y[enemy_commander.GetTitledFirstName]§!在决斗上造诣§R更浅§!;;;;;;;;;;;;x
+string_available_due_to_low_duelist_skill;这个选项可用是因为你有§R低劣的§!§Y个人实战§!能力。;;;;;;;;;;;;x
 available_because_duels;[Root.GetDuelOptionAvailable];;;;;;;;;;;;x
 EVTDESC_HF_11026;每当我多挥舞一次我的[Root.GetDuelWeapon]，我就更深入敌人内部一点。在我意识到这点之前，我就早已经被包围了。随着体内的力量的突然迸发，我发出了一声震耳欲聋的战吼，几个敌人明显被震住了，其中一个倒霉的小兵被吓的往后走了几步，却刚好被一块石头绊倒了。我没法不去注意[Root.GetSheHe]把[Root.GetHerHis]武器掉在了[battlefield_location.GetGroundDesc]上！;;;;;;;;;;;;x
 EVTOPTA_HFP_11026;我会抄起这把刀，把你们都送去见[enemy_liege.Religion.GetHighGodName]！;;;;;;;;;;;;x
@@ -10886,7 +10886,7 @@ EVTOPT_HFP_11011_Bard_2;*咕*等等！你听说过[enemy_liege.Culture.GetName][
 EVTOPT_HFP_11011_Bard_2_TT;你试图用谈话寻求出路。这不总是有效。\n;;;;;;;;;;;;x
 EVTOPT_HFP_11011_Bard_3;来听我唱歌吧，你听过吗？;;;;;;;;;;;;x
 EVTOPT_HFP_11011_Bard_3_TT;你开始高唱战歌，士兵们紧接着跟上了节奏，就像你们训练的那样……！\n;;;;;;;;;;;;x
-because_bloodline_tt;因为你的§Y血脉§!该选项是可行的;;;;;;;;;;;;x
+because_bloodline_tt;这个选项可用是因为你的§Y血脉§!;;;;;;;;;;;;x
 legendary_warrior_bloodline_trigger_tt;拥有一条§Y传奇血脉§!将会在§Y战士公会§!中倍受欢迎;;;;;;;;;;;;x
 characters_are_not_busy_tt;角色未担负任务或处于战斗中;;;;;;;;;;;;x
 warrior_lodge_norse;[GetNorseWarriorSocietyName];;;;;;;;;;;;x
@@ -13105,8 +13105,8 @@ EVTOPTBHF20116;不，我必须坚守我们古老的传统。;;;;;;;;;;;;x
 EVTDESCHFA20117;一个激进的虔信者团体被[From.GetTitledFirstName]的步道所吸引，来到了[Root.Capital.GetName]。虽然是外国人，这些战士似乎有意加入我的军队，助我传播[Root.Religion.GetName]。;;;;;;;;;;;;x
 EVTOPTAHF20117;欢迎你们！;;;;;;;;;;;;x
 EVTOPTBHF20117;我不会允许外国军队留在我的领地！;;;;;;;;;;;;x
-available_because_pretty;此选项是可用的，因为你有§Y魅力非凡§!的特质;;;;;;;;;;;;x
-available_because_dumb;这个选项是可用的，因为你是哑巴。;;;;;;;;;;;;x
+available_because_pretty;这个选项可用是因为你拥有§Y魅力非凡§!特质;;;;;;;;;;;;x
+available_because_dumb;这个选项可用是因为你是哑巴。;;;;;;;;;;;;x
 opinion_lousy_winner;糟糕的赢家;;;;;;;;;;;;x
 opinion_kind_winner;英勇的获胜者;;;;;;;;;;;;x
 opinion_loser;失败者;;;;;;;;;;;;x
@@ -13509,9 +13509,9 @@ tooltip_betting_50_gold;赌 §G50.0§! 金。;;;;;;;;;;;;x
 tooltip_betting_25_gold;赌 §G25.0§! 金。;;;;;;;;;;;;x
 tooltip_betting_20_gold;赌 §G20.0§! 金。;;;;;;;;;;;;x
 tooltip_betting_10_gold;赌 §G10.0§! 金。;;;;;;;;;;;;x
-available_because_relative;此选项是可用的，因为§Y[From.GetFirstName]§!是你的§Y[GetFromRelation]§!;;;;;;;;;;;;x
-available_because_better;此选项是可用的，因为你是§Y[From.GetFirstName]§!的长辈;;;;;;;;;;;;x
-available_because_loves_family;此选项是可用的，因为你爱你的§Y家人§!;;;;;;;;;;;;x
+available_because_relative;这个选项可用是因为§Y[From.GetFirstName]§!是你的§Y[GetFromRelation]§!;;;;;;;;;;;;x
+available_because_better;这个选项可用是因为你是§Y[From.GetFirstName]§!的上级;;;;;;;;;;;;x
+available_because_loves_family;这个选项可用是因为你爱你的§Y家人§!;;;;;;;;;;;;x
 nick_the_sharp_tongue;毒舌;;;;;;;;;;;;x
 nick_the_trickster;鬼才;;;;;;;;;;;;x
 nick_the_merciless;无情者;;;;;;;;;;;;x
@@ -14355,7 +14355,7 @@ EVTDESCBHF25619;那只巨鹰蜷缩在巢里，翅膀底下几乎看不到可怕�
 EVTDESCCHF25619;那只巨熊正在它的洞穴旁休息，那是一座被血污浸透的褐毛肉山。找到野兽的弱点会让我们更好对付它，但我们也得小心，不要低估这个强大的对手，特别是我们就快成功了。;;;;;;;;;;;;x
 EVTDESCDHF25619;那只巨狮正在一棵树下休息，静静望着远方。找到野兽的弱点会让我们更好对付它，但我们也得小心，不要低估这个强大的对手，特别是我们就快成功了。;;;;;;;;;;;;x
 EVTOPTAHF25619;我知道该怎么对付它。;;;;;;;;;;;;x
-available_because_good_hunter;这个选项可用，因为你有§Y狩猎§!技能。;;;;;;;;;;;;x
+available_because_good_hunter;这个选项可用是因为你有§Y狩猎§!技能。;;;;;;;;;;;;x
 EVTOPTBHF25619;现在我们可以包围这怪物，给它开膛破肚。;;;;;;;;;;;;x
 EVTOPTCHF25619;终于！受死吧你这邪恶的怪物！;;;;;;;;;;;;x
 EVTOPTDHF25619;这我不太确定……;;;;;;;;;;;;x
@@ -14916,7 +14916,7 @@ EVTDESCAHF24139;过去几周，[From.GetTitledFirstName]把[From.GetHerHis]大�
 EVTDESCBHF24139;过去几周，[From.GetTitledFirstName]把[From.GetHerHis]大量时间花费在举办几场宴会和更好地了解我们每一个人，来确保[From.PrimaryTitle.GetName]的邻居们能知道[From.GetHerHis]威严与慷慨。[From.GetSheHeCap]毫无疑问是个迷人的[From.GetManWoman]……;;;;;;;;;;;;x
 EVTOPTAHF24139;显然，[From.GetSheHe]一定是别有用心！;;;;;;;;;;;;x
 EVTOPTCHF24139;我绝不会喜欢上[From.GetHerHis]污秽的宫廷！;;;;;;;;;;;;x
-available_because_religious_doctrine;因为你的宗教§Y教义§!该选项是可用的;;;;;;;;;;;;x
+available_because_religious_doctrine;这个选项可用是因为你的宗教§Y教义§!;;;;;;;;;;;;x
 EVTOPTDHF24139;一场令人印象深刻的表演，当然……;;;;;;;;;;;;x
 EVTOPTEHF24139;我从未见过像[From.GetHerHim]这样的人。;;;;;;;;;;;;x
 EVTOPTFHF24139;这种慷慨必须得到回报！;;;;;;;;;;;;x
@@ -17321,7 +17321,7 @@ EVTDESCAHF24205;我派出探险的英勇的队员们最终回到了[Root.Capital
 EVTOPTAHF24205;我们必须再尝试一次！那座坟墓一定在某个地方！;;;;;;;;;;;;x
 EVTOPTBHF24205;忘掉那座坟墓，我们会寻求另一条道路。;;;;;;;;;;;;x
 EVTOPTCHF24205;我已经被这个愚蠢的冒险给毁了。;;;;;;;;;;;;x
-EVTDESCAHF24206;在无数个夜晚里，我一遍遍的翻阅古老的文献，找出那些被遗忘在角落里的卷轴，而最终我们也的确有所回报。在我的领导之下，一群学者已经能够追踪到[Root.GetOnlyDynastyName]王朝中最早的那位已知成员，同时也找到了那位伟大的征服者目前最可信的直系后裔。\n剩下要做的事情，就是在我的同僚和臣民的面前证明我自己的宣称的真实性。\n许多自命不凡者必定会无视我的伟大发现，嫉妒我的显赫家世。因此，我必须确保在庆祝这次伟大发现的庆典举办的同时，掩盖住这些人的反对声音。;;;;;;;;;;;;x
+EVTDESCAHF24206;在无数个夜晚里，我一遍遍地翻阅古老的文献，找出那些被遗忘在角落里的卷轴，而最终我们也的确有所回报。在我的领导下，一群学者已经能够追踪到[Root.GetOnlyDynastyName]王朝中最早的那位已知成员，同时也找到了那位伟大的征服者目前最可信的直系后裔。\n接下来就只剩下在我的同僚和臣民面前证明我宣称的真实性了。\n许多自命不凡者必定会无视我的伟大发现，嫉妒我的显赫家世。因此，我必须确保在庆祝这次伟大发现的庆典举办的同时，掩盖住这些人的反对声音。;;;;;;;;;;;;x
 EVTDESCAHF24207;尽管有无数个不眠之夜，数百次地书卷研究和博学的学者，我在我的家族和亚历山大之间寻找某种未知的联系的努力仍收效甚微。\n显然，一个走遍天下，在短暂的一生中取得了很多成就并达成了永恒的荣耀的男人是不会允许其光荣血脉消亡的。\n而一个像我的家族这般强大且拥有最尊贵地[Root.PrimaryTitle.GetName]王位的家族，其祖先肯定可以追溯到伟大的征服者本人。\n为什么我这么难找到我们之间的联系？;;;;;;;;;;;;x
 EVTOPTAHF24207;也许我应该把注意力集中在亚历山大的坟墓上。;;;;;;;;;;;;x
 EVTOPTBHF24207;我们只需要更努力地寻找！;;;;;;;;;;;;x
@@ -18218,11 +18218,11 @@ String_killing_blow_piercing_on_me;刺穿我的胸腔;;;;;;;;;;;;x
 String_killing_blow_sharp_on_them;把[This.GetHerHis]喉咙切开;;;;;;;;;;;;x
 String_killing_blow_blunt_on_them;把[This.GetHerHis]胸撕开;;;;;;;;;;;;x
 String_killing_blow_piercing_on_them;把[This.GetHerHis]胸部刺穿;;;;;;;;;;;;x
-String_and;与;;;;;;;;;;;;x
+String_and;然后;;;;;;;;;;;;x
 String_but;但是;;;;;;;;;;;;x
 String_yet;然而;;;;;;;;;;;;x
-available_because_benevolent_tt;此选项是可用的，因为你有§Y[Root.GetBenevolentTrait]§!的特质;;;;;;;;;;;;x
-available_because_malevolent_tt;此选项是可用的，因为你有§Y[Root.GetMalevolentTrait]§!的特质;;;;;;;;;;;;x
+available_because_benevolent_tt;这个选项可用是因为你拥有§Y[Root.GetBenevolentTrait]§!特质;;;;;;;;;;;;x
+available_because_malevolent_tt;这个选项可用是因为你拥有§Y[Root.GetMalevolentTrait]§!特质;;;;;;;;;;;;x
 tribal_kinslayer;部落弑亲者;;;;;;;;;;;;x
 tribal_kinslayer_desc;这名角色因杀害其家族成员而人尽皆知——[This.GetHerHim]周围的人对[This.GetHerHim]既是敬慕，又是害怕。;;;;;;;;;;;;x
 EVTDESCD38287;我杀死了一位家族成员！我获得了部落弑亲者特质。;;;;;;;;;;;;x
@@ -19785,7 +19785,7 @@ EVTDESC_HF_15121;[flooded_province.GetName]正遭受暴雨的侵袭。现在一�
 EVTOPTA_HF_15121;我们必须设法拯救人民。;;;;;;;;;;;;x
 EVTOPTB_HF_15121_rival;我们能不能……只救其中一部分？;;;;;;;;;;;;x
 EVTOPTB_HF_15121_TT;你的间谍将确保让你的仇敌被山体滑坡压死……;;;;;;;;;;;;x
-available_because_rivals_tt;此选项是可用的，因为你的仇敌处于危险之中。;;;;;;;;;;;;x
+available_because_rivals_tt;这个选项可用是因为你的仇敌处于危险之中。;;;;;;;;;;;;x
 EVTOPTB_HF_15121;我们无法承受这些建筑损失。;;;;;;;;;;;;x
 EVTOPTC_HF_15121;这简直是个悲剧。;;;;;;;;;;;;x
 EVTTITLE_HF_15122;[starved_province.GetName]疾病预警;;;;;;;;;;;;x
