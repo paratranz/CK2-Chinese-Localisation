@@ -10942,11 +10942,11 @@ quest_warrior_lodge_war_tooltip;为了完成这个任务，你需要在你目标
 EVTDESC_HF_10005_bloodline;[hero_character.Society.GetName]的[hero_character.GetTitledName]刚开始怀疑地打量着我，但随后[hero_character.GetHerHis]态度放松了下来。「说吧，我[Root.GetLordLady]……你是[founder_target.GetTitledFirstName]的亲戚吗？」，我微笑着点点头。「那个[founder_target.GetManWoman]是个传奇！」[hero_character.GetSheHe]笑道。「我期待着你的表现」，[hero_character.GetSheHe]说道，还拍了拍我的肩。;;;;;;;;;;;;x
 EVTOPTA_HF_10005_bloodline;无论传奇与否，我正期待着一场决斗，我的[hero_character.GetLordLady]。;;;;;;;;;;;;x
 EVTDESC_HFP_10096_bloodline;[From.GetTitledName]志愿做我的对手。我不确定[From.GetSheHe]会怎么看待我的血统，从我们握手时周围人的耳语判断，[From.GetSheHe]也是一样的……「祝你们俩好运！」[hero_character.GetBestName]说着，给了[From.GetFirstName]安慰的一瞥。我松开了这个[From.GetManWoman]的手，发现[From.GetHerHis]手中有汗水。;;;;;;;;;;;;x
-ANY_UNIT_LEADERS_STARTS;任意指挥官;;;;;;;;;;;;x
-NOT_IS_IN_SAME_UNIT_TRIGGER;和$WHO|Y$不是同样的部队;;;;;;;;;;;;x
-IS_IN_SAME_UNIT_TRIGGER;和$WHO|Y$是同样的部队;;;;;;;;;;;;x
-NOT_LEADS_SUB_UNIT_TRIGGER;现在没有领导一支次级部队;;;;;;;;;;;;x
-LEADS_SUB_UNIT_TRIGGER;正在领导一支次级部队;;;;;;;;;;;;x
+ANY_UNIT_LEADERS_STARTS;任意单位指挥官;;;;;;;;;;;;x
+NOT_IS_IN_SAME_UNIT_TRIGGER;和$WHO|Y$不在同一单位;;;;;;;;;;;;x
+IS_IN_SAME_UNIT_TRIGGER;和$WHO|Y$在同一单位;;;;;;;;;;;;x
+NOT_LEADS_SUB_UNIT_TRIGGER;现在没有领导一支次级单位;;;;;;;;;;;;x
+LEADS_SUB_UNIT_TRIGGER;正在领导一支次级单位;;;;;;;;;;;;x
 SET_CRUSADE_OFFICIAL_RECIPIENT_EFFECT;$WHO|Y$将成为十字军的官方钦点的受益人;;;;;;;;;;;;x
 SET_CRUSADE_POT_MULTIPLIER_EFFECT;出于十字军战争金库的考虑，他们将被认为贡献了他们实际贡献的$VALUE|%0Y$。;;;;;;;;;;;;x
 ANY_CRUSADE_PARTICIPANT_STARTS;任何十字军参与者;;;;;;;;;;;;x
@@ -10959,7 +10959,7 @@ CRUSADE_NAME_WITH_SCORE;$NAME|Y$（$SCORE|+0$%）;;;;;;;;;;;;x
 CRUSADE_NAME_WITHOUT_SCORE;$NAME|Y$;;;;;;;;;;;;x
 CRUSADE_DESC_NOT_STARTED;§Y$POPE$§!陛下已发起了$CRUSADE$，以收复§Y$TITLE$§!被§Y$ENEMY$§!占据的每片领土。;;;;;;;;;;;;x
 alert_beneficiary_needed_instant;§Y未选择十字军受益人§!;;;;;;;;;;;;x
-alert_beneficiary_needed_delayed;作为即将爆发的十字军参与者，你应该选择一名战争受益人，从而确保当我们取得完全胜利的时候我们的家族成员可以分享胜利成果。;;;;;;;;;;;;x
+alert_beneficiary_needed_delayed;作为正在进行的十字军的参与者，应该选择一名受益人，从而确保必然的胜利到来之时，我们家族可以分享胜利成果。;;;;;;;;;;;;x
 CRUSADE_LAUNCH_DATE;十字军将开始于$DATE|Y$（在$DAYS_LEFT|Y$天内）;;;;;;;;;;;;x
 CRUSADE_UNPLEDGE_TEXT;离开;;;;;;;;;;;;x
 CRUSADE_PLEDGE_TEXT;加入;;;;;;;;;;;;x
@@ -10972,8 +10972,8 @@ NOT_ENOUGH_PIETY_FOR_CHANGE;§R需要 $PIETY|Y$§R 虔诚§!;;;;;;;;;;;;x
 CRUSADE_TARGET_LOCKED;§R十字军目标被锁定§!;;;;;;;;;;;;x
 CRUSADE_OPEN_BATTLES;§G点击切换战斗列表§!;;;;;;;;;;;;x
 CRUSADE_CONTRIBUTORS_ATTACKER;§Y十字军战争贡献：§!;;;;;;;;;;;;x
-CRUSADE_CONTRIBUTORS_DEFENDER;§Y防御战争贡献：§!;;;;;;;;;;;;x
-CRUSADE_WAR_PARTICIPANT;$PARTICIPANT$：$PERC|%0Y$ ($SCORE|Y0$);;;;;;;;;;;;x
+CRUSADE_CONTRIBUTORS_DEFENDER;§Y防御方战争贡献：§!;;;;;;;;;;;;x
+CRUSADE_WAR_PARTICIPANT;$PARTICIPANT$：$PERC|%0Y$（$SCORE|Y0$）;;;;;;;;;;;;x
 WARSCORE_HEADER;战争分数;;;;;;;;;;;;x
 CRUSADE_SHOW_OTHER_SIDE;另一方;;;;;;;;;;;;x
 CRUSADE_PARTICIPANTS_HEADER;进攻方;;;;;;;;;;;;x
