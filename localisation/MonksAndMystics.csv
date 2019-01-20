@@ -112,7 +112,7 @@ EVTDESC_MNM_7002_B;在面见[satanists_recruit.GetTitledFirstName]时，我克�
 EVTOPTA_7002;一个通情达理的[satanists_recruit.GetManWoman]，[satanists_recruit.GetFirstName]。;;;;;;;;;;;;x
 EVTOPTA_7002_TT;继续尝试招募§Y[From.GetTitledFirstName]§!进入[Root.Society.GetName]。\n;;;;;;;;;;;;x
 EVTOPTB_7002;我不能确定[satanists_recruit.GetHerHis]态度是否出于真挚……;;;;;;;;;;;;x
-EVTOPTB_7002_TT;你不再为[Root.Society.GetName]招募§Y[From.GetTitledFirstName]§! 。\n;;;;;;;;;;;;x
+EVTOPTB_7002_TT;你不再为[Root.Society.GetName]招募§Y[From.GetTitledFirstName]§!。\n;;;;;;;;;;;;x
 EVTOPTC_7002;令人失望。;;;;;;;;;;;;x
 EVTDESC_MNM_7003_A;当我沿着[Root.GetCapitalHolding]的栅栏散步的时候，[satanists_recruiter.GetTitledFirstName]加入了我。我发现自己同意[satanists_recruiter.GetSheHe]陈述的很多概念——尤其是祈祷的无用引起了我的共鸣。突然间，[satanists_recruiter.GetSheHe]转过身来，将一个小皮袋塞进我的手中。「我的[Root.GetLordLady]，你会带着这个护身符吗？」;;;;;;;;;;;;x
 EVTOPTA_7003;我会把它藏起来，谢谢你，[satanists_recruiter.GetFirstName]。;;;;;;;;;;;;x
@@ -520,7 +520,7 @@ EVTDESC_MNM_6100_B;即使[plot_target.Host.GetTitledFirstName]的监狱厚重的
 EVTDESC_MNM_6100_C;懦弱的[plot_target.GetTitledFirstName]已经藏匿起来了。但在安拉的怒火下，没有任何墙壁或伪装可以保护[plot_target.GetHerHim]。我已经确定了给[plot_target.GetHerHim]传递消息的仆人，并且昨晚我跟踪着[Root.GetHerHim]一直到了[plot_target.GetFirstName]的藏身处。;;;;;;;;;;;;x
 EVTDESC_MNM_6100_D;[plot_target.Location.Capital.GetName]厚厚的[plot_target.Host.Capital.GetHolding]城墙也许可以给[plot_target.GetHerHim]提供一个庇护所避开流行病，但愤怒的刺客并不将此视为阻碍。花了许多个晚上观察卫兵轮换，从各个角度研究[plot_target.Location.GetHolding]之后，我想我找到了缺口……;;;;;;;;;;;;x
 EVTDESC_MNM_6100_F;我的目标，[plot_target.GetTitledName]将在[plot_target.Location.Capital.GetName]中举办盛宴，我已经成功渗透了[plot_target.GetHerHis]厨房中的工作人员。到时场面一定很壮观……;;;;;;;;;;;;x
-EVTDESC_MNM_6100_E;[plot_target.Location.Capital.GetName]厚重的[plot_target.Host.Capital.GetHolding]城墙也许能给[plot_target.GetHerHim]一个安全点的避难所，但是对于阿萨辛的愤怒来说这点障碍毫无意义，在花费了数个晚上侦查守卫轮班，全面观察[plot_target.Location.GetHolding]之后 ，我想我找到切入点了……;;;;;;;;;;;;x
+EVTDESC_MNM_6100_E;[plot_target.Location.Capital.GetName]厚重的[plot_target.Host.Capital.GetHolding]城墙也许能给[plot_target.GetHerHim]一个安全点的避难所，但是对于阿萨辛的愤怒来说这点障碍毫无意义，在花费了数个晚上侦查守卫轮班，全面观察[plot_target.Location.GetHolding]之后，我想我找到切入点了……;;;;;;;;;;;;x
 EVTOPTA_MNM_6100;机会来了。;;;;;;;;;;;;x
 EVTOPTA_MNM_6100_TOOLTIP;执行你刺杀§Y[plot_target.GetTitledFirstName]§!的计划。\n;;;;;;;;;;;;x
 EVTOPTB_MNM_6100;恐怕时机未到。;;;;;;;;;;;;x
@@ -3720,7 +3720,7 @@ MNM.70021.o;干得漂亮！;;;;;;;;;;;;x
 action_organize_spies_mystics;建立间谍网;;;;;;;;;;;;x
 action_uncover_plots_offmap;密谋;;;;;;;;;;;;x
 ARTIFACT_DISPLAY_DATE;创建：$CREATED$\n获得：$OBTAINED$;;;;;;;;;;;;x
-EVTDESC_MNM_4022;有福的[Root.GetSocietyRank][Root.GetFirstName]。\n\n我们很高兴听到您已经安全地从您的朝圣中归来 ，并相信这对您而言是一次鼓舞人心的经历。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;;;x
+EVTDESC_MNM_4022;有福的[Root.GetSocietyRank][Root.GetFirstName]。\n\n我们很高兴听到您已经安全地从您的朝圣中归来，并相信这对您而言是一次鼓舞人心的经历。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;;;x
 EVTOPT_MNM_4022;赞美[Root.Religion.GetHighGodNameCap]！;;;;;;;;;;;;x
 EVTDESC_MNM_4026;有福的[Root.GetSocietyRank][Root.GetFirstName]。\n\n我们很高兴地听到你在[FromFromFromFrom.GetName]完成了一个新[FromFromFromFrom.GetHolding]的修建。它将进一步传播[Root.Religion.GetHighGodNameCap]的话语！ \n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;;;x
 EVTOPT_MNM_4026;一切以[Root.Religion.GetHighGodNameCap]之名！;;;;;;;;;;;;x
@@ -3962,7 +3962,7 @@ best_laboratory;著名的实验室;;;;;;;;;;;;x
 best_laboratory_desc;广博的才华、深厚的财力和严格的纪律使得这个角色能够建造炼金术艺术的宫殿。这个实验室不仅规模很大，还开创了许多新技术来操纵和组合世界上的许多物质。;;;;;;;;;;;;x
 quest_hermetics_build_laboratory;建造实验室;;;;;;;;;;;;x
 quest_hermetics_build_laboratory_desc;你必须建造一个实验室。通过这个实验室，你可以去探索蕴藏在星空之中的奥秘。;;;;;;;;;;;;x
-quest_hermetics_build_laboratory_tooltip;要完成这项任务，在密谋界面启动决议§Y「建设实验室」§! ，成功完成实验室的建设。;;;;;;;;;;;;x
+quest_hermetics_build_laboratory_tooltip;要完成这项任务，在密谋界面启动决议§Y「建设实验室」§!，成功完成实验室的建设。;;;;;;;;;;;;x
 EVTDESC_MNM_1121;致[Root.GetSocietyRank][Root.GetFirstName]，\n\n您仍然缺乏一间正式的炼金室的事引起了我的注意！没有合适的工具和成员您怎么能够揭示[Root.GetHermesThriceBlessed]的奥秘呢？您应该建一座炼金室，要不你的工作将默默无闻。\n\n上如同下，下如同上。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;;;x
 EVTDESC_MNM_1121_apprentice;致[Root.GetSocietyRank][Root.GetFirstName]，\n\n大师，我感觉我们因为缺乏一座正式的炼金室而推迟了进展。如果我们想揭开[Root.GetHermesThriceBlessed]的奥秘，我们就需要合适的工具和炼金场所。除非您建了一座实验室，否则我们的工作将默默无闻。\n\n上如同下，下如同上。\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;;;x
 EVTDESC_MNM_1122_normal;有了我自己的实验室，我就可以进行比以前更大的工作了。如果没有一个专用的工作空间和正确的工具，我将永远无法理解。[Root.GetHermesThriceBlessed]的秘密，将是我的。;;;;;;;;;;;;x
@@ -4175,7 +4175,7 @@ EVTOPTA_MNM_1401;我很愿意试一试，[From.GetFirstName]。;;;;;;;;;;;;x
 EVTOPTA_MNM_1401_TT;服下药剂。§Y[From.GetTitledFirstName]§! 向你保证不会有副作用。;;;;;;;;;;;;x
 EVTOPTB_MNM_1401;这是什么糟糕的混合物？魔法？只有 [Root.Religion.GetHighGodName]才能治好我！;;;;;;;;;;;;x
 EVTOPTB_MNM_1401_TT;拒绝喝下药水。;;;;;;;;;;;;x
-EVTDESC_MNM_1402;我的药水是用密码般的配方调制而成的。[From.GetTitledFirstName]感激的接受了我的帮助，一旦 [From.GetSheHe]喝下了我的混合物 ，我就能观察[From.GetHerHim]的变化。现在光亮返回了[From.GetHerHis]眼睛。;;;;;;;;;;;;x
+EVTDESC_MNM_1402;我的药水是用密码般的配方调制而成的。[From.GetTitledFirstName]感激的接受了我的帮助，一旦 [From.GetSheHe]喝下了我的混合物，我就能观察[From.GetHerHim]的变化。现在光亮返回了[From.GetHerHis]眼睛。;;;;;;;;;;;;x
 EVTOPTA_MNM_1402;我很高兴我能帮上忙，[From.GetFirstName]。;;;;;;;;;;;;x
 EVTDESC_MNM_1403;有一段时间，我觉得没有什么能熄灭我在喝完药水后获得的快乐和目标感。现在看来我好像弄错了。生活和责任使人疲惫不堪，我也不例外。没有什么更多的更大的秘密要揭开。每天辛苦工作，直到最后一天。;;;;;;;;;;;;x
 EVTOPTA_MNM_1403;好得让人无法相信是真的……;;;;;;;;;;;;x
@@ -4710,7 +4710,7 @@ EVTOPTD_MNM_5207;我应该装作我不在这里的……;;;;;;;;;;;;x
 opinion_mediator;和事佬;;;;;;;;;;;;x
 opinion_meddler;好事者;;;;;;;;;;;;x
 EVTOPTA_MNM_5208;这将是值得的。;;;;;;;;;;;;x
-EVTOPTA_MNM_5208_TT;你破坏了§Y[fellow_member_target.GetTitledName]§!在大辩论中留下好印象的机会 。\n;;;;;;;;;;;;x
+EVTOPTA_MNM_5208_TT;你破坏了§Y[fellow_member_target.GetTitledName]§!在大辩论中留下好印象的机会。\n;;;;;;;;;;;;x
 EVTOPTB_MNM_5208;这很愚蠢，我敬重我的同僚学者们。;;;;;;;;;;;;x
 EVTOPTB_MNM_5208_TT;无论多么华而不实。\n;;;;;;;;;;;;x
 childish_prankster;幼稚的捣蛋鬼;;;;;;;;;;;;x
@@ -4857,7 +4857,7 @@ EVTOPTA_MNM_1471;听我说，朋友们，你们之间的龃龉显然是一个误
 EVTOPTA_MNM_1471_TT;你尝试去帮助§Y[arguer_1.GetTitledFirstName]§!和§Y[arguer_2.GetTitledFirstName]§!达成和解。\n;;;;;;;;;;;;x
 EVTOPTA_MNM_1471_SUCCESS_TT;你的努力获得成功。\n;;;;;;;;;;;;x
 EVTOPTA_MNM_1471_FAIL_TT;你的努力使得问题更糟了。\n;;;;;;;;;;;;x
-EVTOPTB_MNM_1471;够了！ [arguer_1.GetFirstName]，装好你的东西给我滚！;;;;;;;;;;;;x
+EVTOPTB_MNM_1471;够了！[arguer_1.GetFirstName]，装好你的东西给我滚！;;;;;;;;;;;;x
 EVTOPTB_MNM_1471_TT;决定§Y[arguer_1.GetTitledFirstName]§!必须离开。虽然破坏性的争论将成为过去，但每个人都会牢记这一失败。\n;;;;;;;;;;;;x
 EVTOPTC_MNM_1471;消失吧！你已然无有理由存在，[arguer_2.GetFirstName]！;;;;;;;;;;;;x
 EVTOPTC_MNM_1471_TT;决定§Y[arguer_2.GetTitledFirstName]§!必须离开。虽然破坏性的争论将成为过去，但每个人都会牢记这一失败。\n;;;;;;;;;;;;x
@@ -4874,7 +4874,7 @@ EVTOPTA_MNM_1476;尤里卡！;;;;;;;;;;;;x
 EVTOPTA_MNM_1476_TT;你忽然顿悟了，这将对这个项目有极大的贡献。\n;;;;;;;;;;;;x
 EVTDESC_MNM_1478_A;这项发明，我们伟大合作的顶峰，终于完成了！我们的成就是双重的，我们不仅完善了爆炸粉末的配方，我们还设计并生产了一种能够以致命速度发射小金属球的装置。这把「手铳」一定会彻底改变战争！;;;;;;;;;;;;x
 EVTOPTA_MNM_1478;敌人会因在战场上遇到我而畏惧！;;;;;;;;;;;;x
-EVTDESC_MNM_1478_B;这项发明，我们伟大合作的顶点，终于完成了！ 我们发明了一种装置，总是指向北方的磁石，即使当天体被云遮蔽时也能导航。这肯定会给我们的商人带来好处。;;;;;;;;;;;;x
+EVTDESC_MNM_1478_B;这项发明，我们伟大合作的顶点，终于完成了！我们发明了一种装置，总是指向北方的磁石，即使当天体被云遮蔽时也能导航。这肯定会给我们的商人带来好处。;;;;;;;;;;;;x
 EVTOPTB_MNM_1478;太阳和星星能告知我们很多，但是我们的罗盘也可以！;;;;;;;;;;;;x
 EVTDESC_MNM_1478_C;这项发明，我们伟大合作的顶峰，终于完成了！我们设计并建造了一个测量天空角度的巧妙装置。我们称之为「直角照准仪」。多亏了我们的发明，我的星图会变得越来越好，更容易维护。;;;;;;;;;;;;x
 EVTOPTC_MNM_1478;天空的秘密必须被揭开！;;;;;;;;;;;;x
@@ -5246,7 +5246,7 @@ EVTDESC_MNM_1944;我觉得[stargazing_guest.GetTitledFirstName]一有机会就�
 EVTOPTA_MNM_1944;我猜是因为舟车劳顿？;;;;;;;;;;;;x
 EVTDESC_MNM_1945;时近夜晚，暮星在外面的天空中隐约可见。我应该告诉[stargazing_guest.GetTitledFirstName]现在是时候了。现在看看我们能否发现新的秘密。;;;;;;;;;;;;x
 EVTOPTA_MNM_1945;我们应该做好准备。;;;;;;;;;;;;x
-EVTDESC_MNM_1947;我和[stargazing_guest.GetTitledFirstName]已经看了几个小时的星星了。突然，我想到了。星星按照不同的图案排列，呈现出不同的形状。但它们并没有真正的移动，不是吗？ 相对于彼此而言，它们看起来处在不变的位置上。;;;;;;;;;;;;x
+EVTDESC_MNM_1947;我和[stargazing_guest.GetTitledFirstName]已经看了几个小时的星星了。突然，我想到了。星星按照不同的图案排列，呈现出不同的形状。但它们并没有真正的移动，不是吗？相对于彼此而言，它们看起来处在不变的位置上。;;;;;;;;;;;;x
 EVTOPTA_MNM_1947;[stargazing_guest.GetFirstName]！记笔记！;;;;;;;;;;;;x
 EVTDESC_MNM_1948;当[stargazing_host.GetTitledFirstName]突然对我大声喊叫时，我正在通读我们的笔记。「[stargazing_guest.GetFirstName]！我想到了！」然后[stargazing_host.GetSheHeCap]继续解释[stargazing_host.GetHerHis]关于恒星如何不动以及它们如何相互关联的理论。;;;;;;;;;;;;x
 EVTOPTA_MNM_1948;[stargazing_host.GetSheHeCap]可能意识到了什么！;;;;;;;;;;;;x
@@ -5542,7 +5542,7 @@ hermeticsCap;赫耳墨斯学会;;;;;;;;;;;;x
 openly_adopt_faith_currency_tooltip;拥有不少于 §Y300§! [Root.Society.GetCurrencyName];;;;;;;;;;;;x
 prepare_grounds_allow_tooltip;目前不在该省份发展信徒团体;;;;;;;;;;;;x
 MODIFIER_ADDED_NO_END_NO_EFFECT;§Y$WHERE$§!得到「§Y$WHAT$§!」。;;;;;;;;;;;;x
-MODIFIER_ADDED_NO_EFFECT;§Y$WHERE$§! 获得 「§Y$WHAT$§!」直到 §Y$DATE$§!。;;;;;;;;;;;;x
+MODIFIER_ADDED_NO_EFFECT;§Y$WHERE$§!获得「§Y$WHAT$§!」直到 §Y$DATE$§!。;;;;;;;;;;;;x
 _rank_-1_male;社团成员;;;;;;;;;;;;x
 _rank_-1_female;社团成员;;;;;;;;;;;;x
 EVTDESC_MNM_3950;为了确保对[Root.TrueReligion.GetName]追随者的压迫终结，我决定采取行动。我会集中力量组织我的信徒以壮大声势，形成不容忽视的力量，当我们表达我们的信仰时不用担心后果！;;;;;;;;;;;;x
