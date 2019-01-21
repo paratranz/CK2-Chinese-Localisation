@@ -10994,22 +10994,22 @@ POT_PRESTIGE_DESC;威望值在十字军胜利后会根据贡献度分给各位�
 POT_ARTIFACTS_DESC;本次十字军贡献度最高的两位领主将每人得到两件宝物。剩下的宝物会根据贡献度分给剩下的领主。;;;;;;;;;;;;x
 POT_DISTRIBUTION_ENTRY;$WHO$：$SHARE|+0$;;;;;;;;;;;;x
 CRUSADE_CONTRIBUTE_TO_POT;§Y捐献给战争金库§!;;;;;;;;;;;;x
-CHANGE_CRUSADE_POT_EFFECT;$TYPE|Y$的十字军战争金库改变了$AMOUNT|+0$;;;;;;;;;;;;x
-CRUSADE_POT_TRIGGER;十字军$TYPE|Y$战争金库是$COMPARISON|Y$$VALUE|Y0$;;;;;;;;;;;;x
+CHANGE_CRUSADE_POT_EFFECT;$TYPE|Y$的十字军战争金库改变了 $AMOUNT|+0$;;;;;;;;;;;;x
+CRUSADE_POT_TRIGGER;十字军$TYPE|Y$战争金库$COMPARISON|Y$$VALUE|Y0$;;;;;;;;;;;;x
 POT_GOLD;金钱;;;;;;;;;;;;x
 POT_PIETY;虔诚;;;;;;;;;;;;x
 POT_PRESTIGE;威望;;;;;;;;;;;;x
 POT_ARTIFACTS;宝物;;;;;;;;;;;;x
-CRUSADE_DISTRIBUTE_POT_WITH_TARGET;分配了$FRACTION|%Y0$的十字军战争金库给$TARGET|Y$;;;;;;;;;;;;x
-CRUSADE_DISTRIBUTE_POT_WITH_TARGET_TYPED;分配了$FRACTION|%Y0$的十字军$TYPE|Y$战争金库给$TARGET|Y$;;;;;;;;;;;;x
-CRUSADE_DISTRIBUTE_POT;分配了$FRACTION|%Y0$的十字军战争金库;;;;;;;;;;;;x
-CRUSADE_DISTRIBUTE_POT_TYPED;分配了$FRACTION|%Y0$的十字军$TYPE|Y$战争金库;;;;;;;;;;;;x
+CRUSADE_DISTRIBUTE_POT_WITH_TARGET;$FRACTION|%Y0$ 的十字军战争金库分配给$TARGET|Y$;;;;;;;;;;;;x
+CRUSADE_DISTRIBUTE_POT_WITH_TARGET_TYPED;$FRACTION|%Y0$ 的十字军$TYPE|Y$战争金库分配给$TARGET|Y$;;;;;;;;;;;;x
+CRUSADE_DISTRIBUTE_POT;分配$FRACTION|%Y0$的十字军战争金库;;;;;;;;;;;;x
+CRUSADE_DISTRIBUTE_POT_TYPED;分配$FRACTION|%Y0$的十字军$TYPE|Y$战争金库;;;;;;;;;;;;x
 CRUSADE_KINGDOM_RECIPIENT;十字军王国的钦点受益人;;;;;;;;;;;;x
 ADD_DYNASTY_MODIFIER_EFFECT;$DYNASTY|Y$家族获得$MODIFIER|Y$，获得以下效果：\n$EFFECT$;;;;;;;;;;;;x
 REMOVE_DYNASTY_MODIFIER_EFFECT;$MODIFIER|Y$将从$DYNASTY|Y$家族移除;;;;;;;;;;;;x
 HAVE_THE_DYNASTY_MODIFIER;拥有家族修正$MODIFIER|Y$;;;;;;;;;;;;x
 DONT_HAVE_THE_DYNASTY_MODIFIER;没有家族修正$MODIFIER|Y$;;;;;;;;;;;;x
-MODIFIERS_HEADER;这个家族为他的家族成员提供以下修正。;;;;;;;;;;;;x
+MODIFIERS_HEADER;这个家族为家族成员提供以下修正。;;;;;;;;;;;;x
 DYNASTY_MODIFIER_ENTRY;$NAME|Y$：\n$EFFECT$;;;;;;;;;;;;x
 CRUSADER_KINGDOM_NAME;十字军 $NAME$;;;;;;;;;;;;x
 IS_CRUSADE_TARGET_TRIGGER;是十字军的目标;;;;;;;;;;;;x
@@ -11018,8 +11018,8 @@ IS_RELIGION_CRUSADE_TARGET_TRIGGER;被十字军设为目标的宗教;;;;;;;;;;;;
 NOT_IS_RELIGION_CRUSADE_TARGET_TRIGGER;不是被十字军设为目标的宗教;;;;;;;;;;;;x
 HAS_PLEDGED_CRUSADE_DEFENSE_TRIGGER;已许诺抵御十字军;;;;;;;;;;;;x
 NOT_HAS_PLEDGED_CRUSADE_DEFENSE_TRIGGER;未许诺抵御十字军;;;;;;;;;;;;x
-CRUSADE_PREPARATION_STRENGTH_TRIGGER;十字军的力量是防御方的$COMPARISON|Y$ $VALUE|Y%$;;;;;;;;;;;;x
-CRUSADE_DEFENSE_STRENGTH_TRIGGER;防御方的力量是十字军的$COMPARISON|Y$ $VALUE|Y%$;;;;;;;;;;;;x
+CRUSADE_PREPARATION_STRENGTH_TRIGGER;十字军的力量$COMPARISON|Y$防御方的 $VALUE|Y%$;;;;;;;;;;;;x
+CRUSADE_DEFENSE_STRENGTH_TRIGGER;防御方实力$COMPARISON|Y$十字军的 $VALUE|Y%$;;;;;;;;;;;;x
 PLEDGE_CRUSADE_DEFENSE_EFFECT;§Y[Root.GetTitledFirstName]§!已经承诺带领[Root.GetHerHis]部队对抗十字军。;;;;;;;;;;;;x
 UNPLEDGE_CRUSADE_DEFENSE_EFFECT;§Y[Root.GetTitledFirstName]§!收回了[Root.GetHerHis]对抗十字军的承诺。;;;;;;;;;;;;x
 DEFENDER_PLEDGE_SUPPORT_TOOLTIP;§Y许诺参与§!;;;;;;;;;;;;x
