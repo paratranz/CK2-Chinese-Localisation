@@ -236,7 +236,7 @@
     {
         "key": "ANY_TRADE_POST_STARTS",
         "original": "Any Trade Post",
-        "translation": "任意贸易节点",
+        "translation": "任意贸易站",
         "stage": 5
     },
     {
@@ -356,26 +356,26 @@
     {
         "key": "usurp_tp",
         "original": "Usurp Trade Posts from Patrician",
-        "translation": "侵夺贵人的贸易节点",
+        "translation": "篡夺贵人的贸易站",
         "stage": 5
     },
     {
         "key": "usurp_tp_desc",
         "original": "As [Root.GetTitle], use the powers of your office to usurp Trade Posts from a rival family.",
-        "translation": "作为[Root.GetTitle]，用你职位的权力侵夺敌对家族的贸易节点。",
+        "translation": "作为[Root.GetTitle]，用你职位的权力篡夺敌对家族的贸易站。",
         "stage": 5
     },
     {
         "key": "petition_doge_for_tp",
         "original": "Petition [Root.Liege.GetTitle] for Trade Posts",
-        "translation": "向[Root.Liege.GetTitle]请求贸易节点",
+        "translation": "向[Root.Liege.GetTitle]请求贸易站",
         "stage": 5
     },
     {
         "key": "petition_doge_for_tp_desc",
         "original": "Petition the [Root.Liege.GetTitle] for some Trade Posts in the name of equity.",
-        "translation": "以公平的名义向[Root.Liege.GetTitle]请求贸易节点。",
-        "stage": 5
+        "translation": "以公平的名义向[Root.Liege.GetTitle]请求贸易站。",
+        "stage": 1
     },
     {
         "key": "forbid_daughter_tooltip",
@@ -392,7 +392,7 @@
     {
         "key": "EVTDESC_REP_500",
         "original": "The [From.GetOnlyDynastyName] family has so little, while the wealth of the other patrician families grows ever larger. Surely this unfair distribution of wealth cannot be in the Republic's best interest. Would you consider transferring some Trade Posts from another family into our capable hands?\\n\\nSigned,\\n[From.GetTitledName]",
-        "translation": "[From.GetOnlyDynastyName]家族现在已一贫如洗，然而其他贵人家族却财源滚滚。毋庸置疑，这种不公平的财富分配不符合共和国的最大利益。你能考虑一下在你力所能及的范围内转移贸易节点吗？\\n\\n此致，\\n[From.GetTitledName]",
+        "translation": "[From.GetOnlyDynastyName]家族现在已一贫如洗，然而其他贵人家族却财源滚滚。毋庸置疑，这种不公平的财富分配不符合共和国的最大利益。你能考虑一下将其他家族的贸易站转移给我们吗？\\n\\n此致，\\n[From.GetTitledName]",
         "stage": 5
     },
     {
@@ -410,7 +410,7 @@
     {
         "key": "EVTDESC_REP_501",
         "original": "Your petition is denied. If you want more Trade Posts, you will have to build them yourself. I won't let you steal the spoils of other people's hard work.\\n\\nSigned,\\n[From.GetTitledName]",
-        "translation": "你的请求已被拒绝。你只能自己建造贸易节点。\\n\\n此致，\\n[From.GetTitledName]",
+        "translation": "你的请求已被拒绝。如果你想要更多贸易站，就自己建造吧。我不会让你窃取别人辛勤工作的成果。\\n\\n此致，\\n[From.GetTitledName]",
         "stage": 5
     },
     {
@@ -422,14 +422,14 @@
     {
         "key": "EVTTOOLTIP_REP_502",
         "original": "You inform the Patrician that he will have to part with some of his Trade Posts.",
-        "translation": "你告知该贵人，他得割舍一些贸易节点了。",
+        "translation": "你告知该贵人，他得割舍一些贸易站了。",
         "stage": 5
     },
     {
         "key": "EVTDESC_REP_502",
         "original": "The [FromFrom.GetOnlyDynastyName] family is not doing well, to the detriment of the Republic as a whole. As such, I consider it my duty as [From.GetTitle] to get them back on their feet. Regretfully, this means granting them a few of your many Trade Posts. I am sure you understand the necessity of these measures.\\n\\nSigned,\\n[From.GetTitledName]",
-        "translation": "整体而言，[FromFrom.GetOnlyDynastyName]家族在处理对共和国不利的事务方面做的不尽如人意。因此，我认为我该履行我作为[From.GetTitle]的职责，让他们滚回去。遗憾的是，这意味着您要把您众多贸易节点中的一部分授予他们。我相信您能理解这么做的必要性吧。\\n\\n此致，\\n[From.GetTitledName]",
-        "stage": 5
+        "translation": "[FromFrom.GetOnlyDynastyName]家族的经营不善，在整体上对共和国产生了不利影响。因此，我认为我该履行我作为[From.GetTitle]的职责，让他们能够重整旗鼓。遗憾的是，这意味着您要把您众多贸易站中的一部分授予他们。我相信您能理解这么做的必要性吧。\\n\\n此致，\\n[From.GetTitledName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_REP_502",
@@ -446,8 +446,8 @@
     {
         "key": "EVTDESC_REP_503",
         "original": "It seems I am left with little choice. I am sure the Trade Posts will suffer under their incompetent rule, but if you think this is best, I will transfer them over to this family of paupers and malcontents.\\n\\nSigned,\\n[From.GetTitledName]",
-        "translation": "似乎我已别无选择。我相信，在他们昏庸的统治下，贸易节点将会处于水深火热之中。如果你认为这是最好的选择，那么我会把这些贸易节点转手给这个贫民和反叛者的家族。\\n\\n此致，\\n[From.GetTitledName]",
-        "stage": 5
+        "translation": "似乎我已别无选择。我相信在他们昏庸的统治下，贸易站将会陷入水深火热之中。不过如果你认为这是最好的选择，我会把这些贸易站转手给这个贫穷而满腹牢骚的家族。\\n\\n此致，\\n[From.GetTitledName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_REP_503",
@@ -464,8 +464,8 @@
     {
         "key": "EVTDESC_REP_504",
         "original": "Your petition has some merit, and I have decided to grant you several Trade Posts that previously belonged to the [FromFrom.GetOnlyDynastyName] family. Use them well.\\n\\nSigned,\\n[From.GetTitledName]",
-        "translation": "你的请求值得称赞。我决定授予你以前属于[FromFrom.GetOnlyDynastyName]家族的贸易节点。好好使用它们吧！\\n\\n此致，\\n[From.GetTitledName]",
-        "stage": 5
+        "translation": "你的请求有几分道理。我决定授予你本属于[FromFrom.GetOnlyDynastyName]家族的贸易站。愿你能善加利用！\\n\\n此致，\\n[From.GetTitledName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_REP_504",
@@ -482,8 +482,8 @@
     {
         "key": "EVTDESC_REP_508",
         "original": "While I don't deny that your request has some merit, it seems there just aren't any Trade Posts available for transfer to your family. I forwarded a request on your behalf to another patrician, but he wasn't entirely... cooperative. Nevertheless, I wish you the best of luck in any future endeavors, old friend.\\n\\nSigned,\\n[From.GetTitledName]",
-        "translation": "无可否认，你的请求值得称赞，但我似乎已没有能够转手给你家族的贸易节点了。尽管我代表你向一个贵人提出请求，但他并不是很愿意合作。尽管如此，我还是祝福你，我的老朋友，祝你将来能够通过努力，得偿所愿。\\n\\n此致，\\n[From.GetTitledName]",
-        "stage": 5
+        "translation": "无可否认，你的请求有几分道理，但我似乎已没有能够转手给你家族的贸易站了。尽管我代表你向一个贵人提出请求，但他并不是很愿意合作。尽管如此，我还是祝福你，我的老朋友，祝你将来能够通过努力得偿所愿。\\n\\n此致，\\n[From.GetTitledName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_REP_508",
@@ -500,14 +500,14 @@
     {
         "key": "EVTTOOLTIP_REP_510",
         "original": "You present your demand for several Trade Posts.",
-        "translation": "你提出了几个贸易节点的要求。",
-        "stage": 5
+        "translation": "你提出了获得一系列贸易站的请求。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_REP_510",
         "original": "In my continuing efforts to safeguard the security of the Republic, I think it best if my family assumed direct control over several strategic Trade Posts currently owned by House [Root.GetOnlyDynastyName]. Thank you for your understanding.\\n\\nSigned,\\n[From.GetTitledName]",
-        "translation": "我为保卫共和国而不懈奋斗，我认为如果能让我的家族直接控制现在被[Root.GetOnlyDynastyName]家族控制的几个具有战略意义的贸易节点就再好不过了。谢谢你能理解。\\n\\n此致，\\n[From.GetTitledName]",
-        "stage": 5
+        "translation": "我为保卫共和国而不懈奋斗，如果能让我的家族直接控制现在被[Root.GetOnlyDynastyName]家族控制的几个具有战略意义的贸易站就再好不过了。谢谢你能理解。\\n\\n此致，\\n[From.GetTitledName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_REP_510",
@@ -536,8 +536,8 @@
     {
         "key": "EVTDESC_REP_511",
         "original": "Very well. Take the Trade Posts and be damned, but know this: one day the boot will be on the other foot. Enjoy this while it lasts, my dear [Root.GetTitle].\\n\\nSigned,\\n[From.GetTitledName]",
-        "translation": "好得很！拿走这些贸易节点吧！可恶！你可要知道，风水轮流转！且行且珍惜吧，我亲爱的[Root.GetTitle]。\\n\\n此致，\\n[From.GetTitledName]",
-        "stage": 5
+        "translation": "很好！这些贸易站是你的了，不过你给我记住，风水轮流转！且行且珍惜吧，我亲爱的[Root.GetTitle]。\\n\\n此致，\\n[From.GetTitledName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_REP_511",
@@ -548,14 +548,14 @@
     {
         "key": "EVTTOOLTIP_REP_512",
         "original": "With your high level of stewardship, you can easily prove that the Trade Posts will do far better under your continued rule.",
-        "translation": "你继续管理这些贸易节点，相信在你精心经营下，它们将会远比现在繁荣，这是毋庸置疑的。",
-        "stage": 5
+        "translation": "在你精心经营下，这些贸易站将会远比现在繁荣。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_REP_512",
         "original": "As much as I would like to comply with your demand, these Trade Posts will serve the Republic far better under my enlightened stewardship. If you wish, I can provide ample evidence of how I have improved their management. I cannot in good conscience transfer them away from my control.\\n\\nSigned,\\n[From.GetTitledName]",
-        "translation": "我尽量遵照你的要求。这些贸易节点在我开明的经营下将会更好地服务于共和国。我改善管理方式的例证可以说不胜枚举。把它们转手出去我难以做到问心无愧。\\n\\n此致，\\n[From.GetTitledName]",
-        "stage": 5
+        "translation": "我尽量遵照你的要求。这些贸易站在我开明的经营下将会更好地服务于共和国。我改善管理方式的例证可以说不胜枚举。把它们转手出去我难以做到问心无愧。\\n\\n此致，\\n[From.GetTitledName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_REP_512",
@@ -578,14 +578,14 @@
     {
         "key": "EVTTOOLTIP_REP_514",
         "original": "With your skill at intrigue, you have already taken steps to ensure the continued loyalty of the men serving at these Trade Posts.",
-        "translation": "在你精心布局下，你已步步为营，稳扎稳打地确保了那些供职于贸易节点的臣属们对你忠贞不渝。",
-        "stage": 5
+        "translation": "在你精心布局下，你步步为营，稳扎稳打地确保了那些供职于贸易站的臣属们对你忠贞不渝。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_REP_514",
         "original": "I'm afraid those Trade Posts will do you little good, [Root.GetTitle]. Through various means of intrigue, I have ensured the complete loyalty of all men stationed within them. They have orders to burn them to the ground if [Root.GetOnlyDynastyName] rule over them is ever threatened...\\n\\nSigned,\\n[From.GetTitledName]",
-        "translation": "我担心您很难从这些贸易节点中获益，[Root.GetTitle]。在我的精心布局之下，我能确保那些供职于贸易节点的人忠贞不二。我给他们下了命令，如果统治他们的[Root.GetOnlyDynastyName]收到威胁，他们就会把这些贸易节点夷为平地……\\n\\n此致，\\n[From.GetTitledName]",
-        "stage": 5
+        "translation": "[Root.GetTitle]，很不幸，我觉得您很难从这些贸易站中获益。在我的精心布局之下，在贸易站中工作的人已经对我宣誓效忠。他们已经收到指令，如果统治他们的[Root.GetOnlyDynastyName]受到威胁，就把这个贸易站夷为平地……\\n\\n此致，\\n[From.GetTitledName]",
+        "stage": 1
     },
     {
         "key": "SongsOfProsperityDLC",
