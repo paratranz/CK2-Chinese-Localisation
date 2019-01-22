@@ -16,7 +16,7 @@ AIREASON_PRIMARY_IN_WARS;主要参战方;;;;;;;;;;;;x
 AIREASON_MINOR_IN_WARS;次要参战方;;;;;;;;;;;;x
 ASK_TO_EMBARGO_INTERACTION_TITLE;要求下达封港令;;;;;;;;;;;;x
 ASK_TO_EMBARGO_INTERACTION_DESC;要求§Y[Recipient.GetBestName]§!宣布对敌对商业共和国发动禁运战争。;;;;;;;;;;;;x
-ASK_TO_EMBARGO_INTERACTION_LONG_DESC;你可以说服一个领主对敌对商业共和国下达贸易禁运，以达到削弱对手，并为你的贸易站开放沿海省份的目的。通常来说用金钱可以帮你办到这件事。然而，如果在战争中铩羽而归，§Y你需要支付战争赔款§!。;;;;;;;;;;;;x
+ASK_TO_EMBARGO_INTERACTION_LONG_DESC;你可以说服一个领主对敌对商业共和国下达贸易禁运，以达到削弱对手，并为你的贸易站开放沿海省份的目的。通常来说用金钱可以帮你办到这件事。然而，如果在战争中铩羽而归，§Y你§!需要支付战争赔款。;;;;;;;;;;;;x
 ASK_TO_EMBARGO_INTERACTION_0;选择一个敌对的商业共和国以对其下达封港令。;;;;;;;;;;;;x
 ASK_TO_EMBARGO_INTERACTION_1;让§Y[Recipient.GetTitledFirstName]§!一起和你宣布禁运战争，目标：§Y[ThirdPartyCharacter.GetTitledFirstName]§!和§Y[ThirdPartyCharacter.TopLiege.PrimaryTitle.GetName]§!。给他们 §Y$GOLD$§!¤ 来促进达成交易。§R输掉战争将要支付战败赔款§!;;;;;;;;;;;;x
 ASK_TO_EMBARGO_INTERACTION_ACCEPT_SETUP;封港令请求已获通过;;;;;;;;;;;;x
@@ -35,10 +35,10 @@ k_hansa_adj;汉萨同盟;;;;;;;;;;;;x
 called_into_war;诉诸战争;;;;;;;;;;;;x
 city_kingdom_of_german;商业联盟;;;;;;;;;;;;x
 city_kingdom_german;商业联盟;;;;;;;;;;;;x
-opinion_bribed_tp;贿赂贸易站;;;;;;;;;;;;x
-opinion_thwarted_tp_destruction;阻扰对贸易站的破坏;;;;;;;;;;;;x
+opinion_bribed_tp;为贸易站行贿;;;;;;;;;;;;x
+opinion_thwarted_tp_destruction;阻挠对贸易站的破坏;;;;;;;;;;;;x
 TRADEPOST_COST_OP_EFFECT;§Y$LIEGE$§!对你的好感度：$EFFECT$;;;;;;;;;;;;x
-EVTDESC_REP_601;金钱持续流经[From.GetName]的贸易站，不过你与拥有这个贸易站的家族的关系却持续恶化。为了不大动干戈而又能给他们点颜色，你可以策划一起暴动，把该贸易站夷为平地。;;;;;;;;;;;;x
+EVTDESC_REP_601;金钱持续流经[From.GetName]的贸易站，不过你与拥有这个贸易站的家族的关系却持续恶化。为了不大动干戈而又能给他们点颜色，你可以策划一起暴动，把该贸易站夷为平地……;;;;;;;;;;;;x
 EVTOPTA_REP_601;所言甚是！纠众行暴！;;;;;;;;;;;;x
 EVTOPTB_REP_601;不！局面会演变到难以控制……;;;;;;;;;;;;x
 tp_spare;你决定不对该贸易站采取行动。;;;;;;;;;;;;x
@@ -50,16 +50,16 @@ EVTOPTC_REP_602;指出贸易站带给[FromFrom.GetName]的财富。;;;;;;;;;;;;x
 EVTOPTD_REP_602;运用高超的外交技巧以驱散暴民。;;;;;;;;;;;;x
 EVTDESC_REP_603;你纠集的暴民洗劫了贸易站并使之夷为平地。;;;;;;;;;;;;x
 EVTOPTA_REP_603;一切正如我所预料的那样进展着。;;;;;;;;;;;;x
-EVTTOOLTIP_REP_604;已对其行贿;;;;;;;;;;;;x
+EVTTOOLTIP_REP_604;已对其行贿。;;;;;;;;;;;;x
 EVTDESC_REP_604;来自[FromFrom.GetTitledName]的使节以大笔金额贿赂你，希望你能动用你的影响力来拯救[FromFrom.GetSheHe]位于[From.GetName]的贸易站。;;;;;;;;;;;;x
 EVTOPTA_REP_604;好吧！驱散这些民众吧！;;;;;;;;;;;;x
 EVTOPTB_REP_604;哈哈！那白痴不仅会损失一笔钱财，也会失去他的贸易站！;;;;;;;;;;;;x
 EVTTOOLTIP_REP_605;暴民散去。;;;;;;;;;;;;x
-EVTDESC_REP_605;[From.GetTitledName]非常善于经营。有赖于此，[From.GetSheHe]以贸易站为省份带来财富为由，安抚了那些暴民。群众们产生了动摇，贸易站也没有遭到任何破坏。;;;;;;;;;;;;x
+EVTDESC_REP_605;[From.GetTitledName]非常善于经营。有赖于此，[From.GetSheHe]以贸易站为省份带来财富为由，安抚了那些暴民。群众们被疏散了，贸易站也没有遭到任何破坏。;;;;;;;;;;;;x
 EVTOPTA_REP_605;唉！成事不足……;;;;;;;;;;;;x
-EVTDESC_REP_606;[From.GetTitledName]运用高超的外交手段想方设法让那些暴民做出了让步！人群散开，贸易节点也未遭受任何破坏！;;;;;;;;;;;;x
-EVTTOOLTIP_REP_607;贸易节点被摧毁了。;;;;;;;;;;;;x
-EVTDESC_REP_607;[From.GetTitledFirstName][From.GetSheHe]这个衣冠禽兽，[From.GetHerHim]收了你给的贿赂，却没放过你的贸易节点。暴民们以风卷残云之势歼灭了守备部队。几个幸存者逃回[Root.MercRepCapital.GetName]痛斥他们的暴行。;;;;;;;;;;;;x
+EVTDESC_REP_606;[From.GetTitledName]运用高超的外交手段想方设法让那些暴民做出了让步！群众被疏散开了，贸易站也未遭受任何破坏。;;;;;;;;;;;;x
+EVTTOOLTIP_REP_607;贸易站被摧毁了。;;;;;;;;;;;;x
+EVTDESC_REP_607;[From.GetTitledFirstName][From.GetSheHe]这个衣冠禽兽，[From.GetHerHim]收了你给的贿赂，却没放过你的贸易站。暴民们以风卷残云之势歼灭了守备部队。几个幸存者逃回[Root.MercRepCapital.GetName]痛斥他们的暴行。;;;;;;;;;;;;x
 EVTOPTA_REP_607;蛮族！人渣！原始人！;;;;;;;;;;;;x
-opinion_burned_tp;烧毁贸易节点;;;;;;;;;;;;x
-opinion_burned_tp_despite_bribe;收了贿金还烧毁贸易节点;;;;;;;;;;;;x
+opinion_burned_tp;烧毁贸易站;;;;;;;;;;;;x
+opinion_burned_tp_despite_bribe;收了贿金还烧毁贸易站;;;;;;;;;;;;x
