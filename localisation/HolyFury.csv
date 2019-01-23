@@ -11040,17 +11040,17 @@ MAKE_CONSORT_INTERACTION_TITLE;纳娶[Actor.GetOppositeConsortSexCap];;;;;;;;;;;
 MAKE_CONSORT_INTERACTION_DESC;将某人纳为你的[Actor.GetOppositeConsortSex]。;;;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_ACCEPT_LOG;§Y[Recipient.GetTitledName]§!已经同意让§Y[ThirdPartyCharacter.GetTitledName]§!成为§Y[Actor.GetTitledName]§!的[ThirdPartyCharacter.GetConsortSex]。;;;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_DECLINE_LOG;§Y[Recipient.GetTitledName]§!已经拒绝让§Y[ThirdPartyCharacter.GetTitledName]§!成为§Y[Actor.GetTitledName]§!的[Actor.GetOppositeConsortSex]的请求。;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_OFFER;§Y[Actor.GetTitledName]§!提议，纳§Y[Recipient.GetTitledName]§!为他们的[Actor.GetOppositeConsortSex];;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_LETTER;\n\n§Y[ThirdPartyCharacter.GetBestName]§!的美丽与优雅在大陆上广为人知。本座提议，赐予[ThirdPartyCharacter.GetHerHim]成为我[ThirdPartyCharacter.GetConsortSex]的荣誉。;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_0;在§Y[Recipient.GetTitledName]§!的宫廷里选择一位角色作为你的[Actor.GetOppositeConsortSex]。;;;;;;;;;;;;x
+MAKE_CONSORT_INTERACTION_OFFER;§Y[Actor.GetTitledName]§!提议，纳§Y[Recipient.GetTitledName]§!为其的[Actor.GetOppositeConsortSex];;;;;;;;;;;;x
+MAKE_CONSORT_INTERACTION_LETTER;\n\n§Y[ThirdPartyCharacter.GetBestName]§!的美丽与优雅在全地上广为人知。本座提议，赐予[ThirdPartyCharacter.GetHerHim]成为我[ThirdPartyCharacter.GetConsortSex]的荣誉。;;;;;;;;;;;;x
+MAKE_CONSORT_INTERACTION_0;在§Y[Recipient.GetTitledName]§!的宫廷里选择一位角色纳为你的[Actor.GetOppositeConsortSex]。;;;;;;;;;;;;x
 MAKE_CONSORT_INTERACTION_1;将[ThirdPartyCharacter.GetBestName]纳为你的[Actor.GetOppositeConsortSex]。;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_3;§Y[Actor.GetBestName]§!会得到 §G$PRESTIGE$§! 威望，通过纳一个贵族§Y[ThirdPartyCharacter.GetBestName]§!作为[Actor.GetOppositeConsortSex]。;;;;;;;;;;;;x
+MAKE_CONSORT_INTERACTION_3;§Y[Actor.GetBestName]§!会得到 §G$PRESTIGE$§! 威望，来自纳一名贵族§Y[ThirdPartyCharacter.GetBestName]§!作为[Actor.GetOppositeConsortSex]。;;;;;;;;;;;;x
 DISMISS_CONSORT_INTERACTION_TITLE;弃置[Actor.GetOppositeConsortSexCap];;;;;;;;;;;;x
 DISMISS_CONSORT_INTERACTION_DESC;弃置你的[Actor.GetOppositeConsortSexCap];;;;;;;;;;;;x
 DISMISS_CONSORT_INTERACTION_LONG_DESC;[Actor.GetOppositeConsortSexCap]们没有任何特权，当你玩腻了就可以直接弃置他们。;;;;;;;;;;;;x
 DISMISS_CONSORT_INTERACTION_ACCEPT_LOG;§Y[Actor.GetBestName]§W将其[Actor.GetOppositeConsortSex]§Y[Recipient.GetBestName]§W弃置了;;;;;;;;;;;;x
-DISMISS_CONSORT_INTERACTION_OFFER;[Actor.GetBestName]已经把你弃置了，你不再是他的[Actor.GetOppositeConsortSex]！;;;;;;;;;;;;x
-MAKE_CONSORT_INTERACTION_LONG_DESC;你除了配偶以外，可以拥有三个[Actor.GetOppositeConsortSex]。[Actor.GetOppositeConsortSexCap]并不算真正地结婚，但因之产下的孩子都是合法的。君主可以强制性的要求一名囚犯成为他的[Actor.GetOppositeConsortSex]，即使这名囚犯已经成婚。;;;;;;;;;;;;x
+DISMISS_CONSORT_INTERACTION_OFFER;[Actor.GetBestName]已经把你弃置了，你不再是其[Actor.GetOppositeConsortSex]！;;;;;;;;;;;;x
+MAKE_CONSORT_INTERACTION_LONG_DESC;你除了配偶以外，可以拥有三个[Actor.GetOppositeConsortSex]。[Actor.GetOppositeConsortSexCap]并不算真正地结婚，但因之产下的孩子都是合法的。君主可以强迫囚犯成为其[Actor.GetOppositeConsortSex]，即使囚犯已经成婚。;;;;;;;;;;;;x
 NOT_ALLOWED_BON;没有「逝往神灵」、「神圣之怒」或者「碧玉之龙」DLC，那么将不能扮演§Y苯教§!角色！;;;;;;;;;;;;x
 NOT_ALLOWED_BON_MP;§Y$PLAYER$§!没有「逝往神灵」、「神圣之怒」或者「碧玉之龙」DLC，不能扮演§Y苯教§!角色！;;;;;;;;;;;;x
 NOT_ALLOWED_PAGAN;没有「逝往神灵」或「神圣之怒」DLC，你不能扮演§Y原始宗教§!角色！;;;;;;;;;;;;x
@@ -11061,7 +11061,7 @@ RD_BON_NOT_PLAYABLE;§Y苯教§!角色在没有「逝往神灵」、「神圣之
 RD_NOT_PLAYABLE_WITHOUT_PAGAN_DLC;没有安装「逝往神灵」或「神圣之怒」DLC，则不能扮演原始宗教角色;;;;;;;;;;;;x
 RD_ZOROASTRIAN_NOT_PLAYABLE;没有安装「逝往神灵」DLC，则不能扮演祆教角色;;;;;;;;;;;;x
 ANTIPOPE_COUNT_OR_ABOVE;§R低于伯爵等级的角色不能被扶持为对立教宗§!;;;;;;;;;;;;x
-DECLARE_WAR_INTERACTION_REL_HEAD_DEFENSE;§R附近的[Recipient.Religion.GetName]地区的统治者可能会要求加入[Recipient.GetTitledName]以保卫他们的宗教领袖。§!;;;;;;;;;;;;x
+DECLARE_WAR_INTERACTION_REL_HEAD_DEFENSE;§R附近的[Recipient.Religion.GetName]统治者可能会请求与[Recipient.GetTitledName]一同保卫他们的宗教领袖。§!;;;;;;;;;;;;x
 SET_REL_HEAD_DEFENSE_EFFECT;宗教信徒可能会在不同宗教的人宣战时捍卫他们的宗教领袖;;;;;;;;;;;;x
 SET_NOT_REL_HEAD_DEFENSE_EFFECT;宗教信徒不再会在不同宗教的人宣战时捍卫他们的宗教领袖;;;;;;;;;;;;x
 RENAME_ARTIFACT_MESSAGE_LOG;重命名[This.GetName];;;;;;;;;;;;x
