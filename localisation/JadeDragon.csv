@@ -343,7 +343,7 @@ EVTOPTA_JD_20049_TT;§Y[imperial_marriage_spouse_1.GetTitledFirstName]§!和§Y[
 EVTDESC_JD_20049;我的[GetFromRelation]，[From.GetTitledFirstName]，已经与帝国的[imperial_marriage_spouse_2.GetPrincessPrince][imperial_marriage_spouse_2.GetDynName]成婚。宏大的典礼和这位异国[imperial_marriage_spouse_2.GetPrincessPrince]将在未来许多年里成为境内人民谈论的话题。;;;;;;;;;;;;x
 EVTOPTA_JD_20049;我祝愿他们幸福美满，早生贵子。;;;;;;;;;;;;x
 taoist;道教;;;;;;;;;;;;x
-taoist_DESC;道教是一种发源于中国的多神教。虽然传统上被认为是由太上老君老子在公元前四世纪建立的，但一些元素和实践可以追溯到遍布中原的史前民间宗教。其追随者尊崇「道」——宇宙的内在自然秩序；而其主观表现形式则是「德」——个人内在的德性。比起死后的世界，道教信徒更注重现世，他们相信通过包括精神修习和炼丹术在内的各种方法可以求得长生。在游戏中，对道教社会内善治的强烈关注体现为所有道教角色都得到了财政能力的奖励。;;;;;;;;;;;;x
+taoist_DESC;道教是一种发源于中国的多神教。虽然传统上被认为是由太上老君老子在公元前四世纪建立的，但一些元素和实践可以追溯到遍布中原的史前民间宗教。其追随者尊崇「道」——宇宙的内在自然秩序；而其主观表现形式则是「德」——个人内在的德性。比起死后的世界，道教信徒更注重现世，他们相信通过包括精神修习和炼丹术在内的各种方法可以求得长生。在游戏中，对道教社会内善治的强烈关注体现为所有道教角色都得到了管理能力的奖励。;;;;;;;;;;;;x
 GOD_HEAVENLY_ORDER;天命;;;;;;;;;;;;x
 GOD_YANSHIH_TIENTSUN;元始天尊;;;;;;;;;;;;x
 THE_ANCESTORS;祖先;;;;;;;;;;;;x
@@ -2599,7 +2599,7 @@ EVTDESC_MNM_9115;我的[Root.job_marshal.GetJobTitle][Root.job_marshal.GetDynNam
 EVTOPTA_MNM_9115_TT;邀请[GetWeaponArmorSmith]到你的宫廷。;;;;;;;;;;;;x
 EVTOPTB_MNM_9115_TT;不邀请[GetWeaponArmorSmith]到你的宫廷。;;;;;;;;;;;;x
 employ_a_smith_master_smith_tt;这个选项可用是因为[From.GetFirstName]大师是一位技艺高超的铁匠。;;;;;;;;;;;;x
-employ_a_smith_stewardship_tt;匠人的§Y特质§!和§Y财政能力§!会影响成品。技艺高超的匠人可以为你制成大师之作。;;;;;;;;;;;;x
+employ_a_smith_stewardship_tt;匠人的§Y特质§!和§Y管理能力§!会影响成品。技艺高超的匠人可以为你制成大师之作。;;;;;;;;;;;;x
 EVTDESC_MNM_9123;[From.GetWeaponsmithWeapon]终于打造完成了！[From.GetFirstName]大师呈上了一个盛有此物件的箱子。我的手在打开它沉重的的盖子时不住的颤抖……;;;;;;;;;;;;x
 EVTOPTD_MNM_9120_TT;什么都不要;;;;;;;;;;;;x
 EVTDESC_MNM_9129;「实在非常抱歉，我的[Root.GetTitle]」，[From.GetFirstName]满怀歉意。[GetWeaponArmorSmith]告诉我，打造我要求的[From.GetWeaponsmithWeapon]，需要珍贵的金属和特殊的工具，可我的领地内根本找不到这些东西。「我可以派一个人不远千里收集这些材料，尽管这可能要多花点钱」。;;;;;;;;;;;;x
@@ -3170,12 +3170,12 @@ MARTIAL_TRIGGER;§Y军事§!$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
 DIPLOMACY_TRIGGER;§Y外交§!$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
 INTRIGUE_TRIGGER;§Y密谋§!$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
 LEARNING_TRIGGER;§Y学习§!$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
-STEWARDSHIP_TRIGGER;§Y财政§!$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
+STEWARDSHIP_TRIGGER;§Y管理§!$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
 REALM_MARTIAL_TRIGGER;国家§Y军事§!能力$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
 REALM_DIPLOMACY_TRIGGER;国家§Y外交§!能力$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
 REALM_INTRIGUE_TRIGGER;国家§Y密谋§!能力$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
 REALM_LEARNING_TRIGGER;国家§Y学习§!能力$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
-REALM_STEWARDSHIP_TRIGGER;国家§Y财政§!能力$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
+REALM_STEWARDSHIP_TRIGGER;国家§Y管理§!能力$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
 EVTDESC_WOL_10202;在领地里，你的著名建筑项目的消息已经传开了。虽然有些人可能对此持怀疑态度，但你的大多数封臣都对计划中的塔楼规模印象深刻。;;;;;;;;;;;;x
 chinese_grace_offer_eunuch_third_party;§Y宦官要求§!：;;;;;;;;;;;;x
 chinese_grace_offer_commander_third_party;§Y指挥官要求§!：;;;;;;;;;;;;x
@@ -4139,7 +4139,7 @@ EVTOPTA_JD_10060_TT;你选择了一个§Y军事§!主题。\n;;;;;;;;;;;;x
 EVTOPTB_JD_10060;这本书应该用来记录错综复杂的人际关系。;;;;;;;;;;;;x
 EVTOPTB_JD_10060_TT;你选择了一个§Y外交§!或§Y密谋§!主题。\n;;;;;;;;;;;;x
 EVTOPTC_JD_10060;我想写一些管理领地的心得……;;;;;;;;;;;;x
-EVTOPTC_JD_10060_TT;你选择了一个§Y财政§!主题。\n;;;;;;;;;;;;x
+EVTOPTC_JD_10060_TT;你选择了一个§Y管理§!主题。\n;;;;;;;;;;;;x
 EVTOPTD_JD_10060;对[Root.Religion.GetHighGodName]的尊敬，或者……说教的内容？;;;;;;;;;;;;x
 EVTOPTD_JD_10060_TT;你选择了一个§Y学习§!主题。\n;;;;;;;;;;;;x
 EVTOPTG_JD_10060;我只是想打动我的读者。;;;;;;;;;;;;x
@@ -4477,7 +4477,7 @@ not_currently_working_on_a_book_tt;仍有书吏处于空闲;;;;;;;;;;;;x
 has_an_education_or_related_attribute_above_ten_tt;拥有一个教育特质，或者对应能力大于 §Y10§!;;;;;;;;;;;;x
 has_diplomacy_education_tt;拥有 §Y外交§! 教育特质;;;;;;;;;;;;x
 has_martial_education_tt;拥有 §Y军事§! 教育特质;;;;;;;;;;;;x
-has_stewardship_education_tt;拥有 §Y管理§! 教育特质;;;;;;;;;;;;x
+has_stewardship_education_tt;拥有§Y管理§!教育特质;;;;;;;;;;;;x
 has_intrigue_education_tt;拥有§Y密谋§!教育背景;;;;;;;;;;;;x
 has_learning_education_tt;拥有 §Y学问§! 教育特质;;;;;;;;;;;;x
 EVTDESC_JD_15002;「站住！」，我们快走到桥上时一个尖锐的声音说。\n「我是[other_ruler.GetTitledName]。我们正在守卫这条通往[offmap_china.GetFullName]的路……您，尊贵的[Root.GetLordLady]，需要付一点过桥费。」那个[other_ruler.GetManWoman]脸上的诡笑让我犹豫了。;;;;;;;;;;;;x

@@ -235,7 +235,7 @@ CHAR_DIPLOMACY;外交：§Y[GetDiplomacy]§W;;;;;;;;;;;;x
 CHAR_DIPLOMACY_BREAKDOWN;[GetDiplomacyBreakdown];;;;;;;;;;;;x
 CHAR_MARTIAL;军事：§Y[GetMartial]§W;;;;;;;;;;;;x
 CHAR_MARTIAL_BREAKDOWN;[GetMartialBreakdown];;;;;;;;;;;;x
-CHAR_STEWARDSHIP;财政：§Y[GetStewardship]§W;;;;;;;;;;;;x
+CHAR_STEWARDSHIP;管理：§Y[GetStewardship]§W;;;;;;;;;;;;x
 CHAR_STEWARDSHIP_BREAKDOWN;[GetStewardshipBreakdown];;;;;;;;;;;;x
 CHAR_INTRIGUE;密谋：§Y[GetIntrigue]§W;;;;;;;;;;;;x
 CHAR_INTRIGUE_BREAKDOWN;[GetIntrigueBreakdown];;;;;;;;;;;;x
@@ -476,7 +476,7 @@ MODIFIER_ADDED;§Y$WHERE$§!获得「§Y$WHAT$§!」直到§Y$DATE$§!，效果�
 MODIFIER_REMOVED;§Y$WHAT$§!将从§Y$WHERE$§!移除\n;;;;;;;;;;;;x
 DIPLOMACYEFFECT;$DIRECTION$ $VALUE$ 外交\n;;;;;;;;;;;;x
 INTRIGUEEFFECT;$DIRECTION$ $VALUE$ 密谋\n;;;;;;;;;;;;x
-STEWARDSHIPEFFECT;$DIRECTION$ $VALUE$ 财政\n;;;;;;;;;;;;x
+STEWARDSHIPEFFECT;$DIRECTION$ $VALUE$ 管理\n;;;;;;;;;;;;x
 LEARNINGEFFECT;$DIRECTION$ $VALUE$ 学习\n;;;;;;;;;;;;x
 MARTIALEFFECT;$DIRECTION$ $VALUE$ 军事\n;;;;;;;;;;;;x
 SET_TITLE_HOLDER_GAIN_EFFECT;§Y$CHAR$§!得到头衔§Y$TITLE$§!\n;;;;;;;;;;;;x
@@ -4670,7 +4670,7 @@ HINT_CHAR_VIEW_TEXT_3;游戏里的每个角色都有对其他人的好感度。�
 HINT_CHAR_VIEW_TEXT_4;角色的家族在界面的右上部分显示。一个有效继承人必须来自你自己的家族。你应该尽力扩展您的家族并确保他们获得尽可能多的头衔。;;;;;;;;;;;;x
 HINT_CHAR_VIEW_TEXT_5;有些角色头像上有小图标，一个五角星表示这是你正在扮演的角色，一个皇冠凸显出你的继承人，一个小血滴则意味着这个角色来自你的家族。;;;;;;;;;;;;x
 HINT_COUNCIL_VIEW_TITLE;内阁界面;;;;;;;;;;;;x
-HINT_COUNCIL_VIEW_TEXT_1;每个统治者都有一个内阁来协助治理领地。内阁里的五个职位都有一个主要的属性——外交，军事，财政，密谋和学习。这些内阁成员的技能值将在统治者处理国家事务时直接增加到统治者的能力上。;;;;;;;;;;;;x
+HINT_COUNCIL_VIEW_TEXT_1;每个统治者都有一个内阁来协助治理领地。内阁里的五个职位都有一个主要的属性——外交，军事，管理，密谋和学习。这些内阁成员的技能值将在统治者处理国家事务时直接增加到统治者的能力上。;;;;;;;;;;;;x
 HINT_COUNCIL_VIEW_TEXT_2;内阁成员可以被派遣到地图上的某个地区去执行各种任务。例如，宫廷司祭可以被派遣去把某个省份和其中的角色转换为你的宗教。;;;;;;;;;;;;x
 HINT_COUNCIL_VIEW_TEXT_3;被指派为内阁成员的角色会更喜欢你，但是他们也会在被解职时觉得不满。;;;;;;;;;;;;x
 HINT_LAW_VIEW_TITLE;法律界面;;;;;;;;;;;;x
@@ -5411,7 +5411,7 @@ EVTOPTB20390;我自己知道就好……;;;;;;;;;;;;x
 EVTDESC20391;一个傍晚我离开[Root.Location.GetName]的士兵，感到精疲力尽又厌世，此时一位当地贵族，[From.GetTitledName]，靠近我并告诉我他最近实现的军事进展。我向[From.GetHerHim]承诺明智地利用这消息并不向领地之外传播。;;;;;;;;;;;;x
 EVTOPTA20391;这么一个重大发现必须同我的领主分享！;;;;;;;;;;;;x
 EVTTOOLTIP20393;送一封信给[Root.Liege.GetTitledName];;;;;;;;;;;;x
-EVTDESC20392;我的领主，好消息！我在[From.Location.GetName]执行任务的时候遇到了高尚的[FromFrom.GetTitledName]。在向[FromFrom.GetHerHim]保证绝不向外国泄露消息之后，[FromFrom.GetSheHe]决定将[FromFrom.GetSheHe]去年实现的军事技术进展和我分享。信后附有的文档就是关于这个的详细内容。\n\nn你忠诚的军事总管，\n[From.GetTitledName];;;;;;;;;;;;x
+EVTDESC20392;我的领主，好消息！我在[From.Location.GetName]执行任务的时候遇到了高尚的[FromFrom.GetTitledName]。在向[FromFrom.GetHerHim]保证绝不向外国泄露消息之后，[FromFrom.GetSheHe]决定将[FromFrom.GetSheHe]去年实现的军事技术进展和我分享。信后附有的文档就是关于这个的详细内容。\n\n你忠诚的军事总管，\n[From.GetTitledName];;;;;;;;;;;;x
 EVTOPTA20392;很好！;;;;;;;;;;;;x
 EVTNAME941;部队补充能力提高;;;;;;;;;;;;x
 EVTDESC941;自从我来到[Root.Location.GetName]，我们军队的兵源从没出现短缺。;;;;;;;;;;;;x
@@ -14804,7 +14804,7 @@ MARTIAL_MOD;军事;;;;;;;;;;;;x
 INTRIGUE_MOD;密谋;;;;;;;;;;;;x
 LEARNING_MOD;学习;;;;;;;;;;;;x
 DIPLOMACY_MOD;外交;;;;;;;;;;;;x
-STEWARDSHIP_MOD;财政;;;;;;;;;;;;x
+STEWARDSHIP_MOD;管理;;;;;;;;;;;;x
 ALLOW_UNIT_TYPE;允许$WHICH$。;;;;;;;;;;;;x
 START_EXPERIENCE;初始经验;;;;;;;;;;;;x
 MODIFIER_RELATIONS;关系;;;;;;;;;;;;x
@@ -15211,7 +15211,7 @@ opinion_coward;怯懦;;;;;;;;;;;;x
 opinion_corrupt;被怀疑腐败;;;;;;;;;;;;x
 diplomacy_advice;外交建议;;;;;;;;;;;;x
 martial_advice;军事建议;;;;;;;;;;;;x
-stewardship_advice;财政建议;;;;;;;;;;;;x
+stewardship_advice;管理建议;;;;;;;;;;;;x
 intrigue_advice;密谋建议;;;;;;;;;;;;x
 learning_advice;学识建议;;;;;;;;;;;;x
 opinion_revoked_chancellor_title;收回外交总管职位;;;;;;;;;;;;x
@@ -17535,7 +17535,7 @@ TECH_DEMESNE;领主;;;;;;;;;;;;x
 TECH_REALM;领地;;;;;;;;;;;;x
 INDEPENDENT;独立君主;;;;;;;;;;;;x
 VASSAL_SUBJECT;$LORD$的封臣;;;;;;;;;;;;x
-CH_STEWARDSHIP_CHANGE;$DIRECTION$  $CHANGE$ 财政;;;;;;;;;;;;x
+CH_STEWARDSHIP_CHANGE;$DIRECTION$  $CHANGE$ 管理;;;;;;;;;;;;x
 CH_INTRIGUE_CHANGE;$DIRECTION$  $CHANGE$ 密谋;;;;;;;;;;;;x
 CH_DIPLOMACY_CHANGE;$DIRECTION$  $CHANGE$ 外交;;;;;;;;;;;;x
 CH_MARTIAL_CHANGE;$DIRECTION$  $CHANGE$ 军事;;;;;;;;;;;;x
@@ -17551,8 +17551,8 @@ STAT_DIPLOMACY_DESC;外交能力影响其他角色对你的好感，也会影响
 STAT_DIPLOMACY_CHAR_DESC;外交能力为§Y$VALUE$§W的§Y[GetTitledFirstName]§W被认为是$DESC$外交家。;;;;;;;;;;;;x
 STAT_INTRIGUE;§Y国家密谋能力§!;;;;;;;;;;;;x
 STAT_INTRIGUE_CHAR_DESC;密谋能力为 §Y$VALUE$§W 的§Y[GetTitledFirstName]§W被认为是$DESC$阴谋家。;;;;;;;;;;;;x
-STAT_STEWARDSHIP;§Y国家财政能力§!;;;;;;;;;;;;x
-STAT_STEWARDSHIP_DESC;财政能力决定税收数额，是你的财政总管的主要属性。;;;;;;;;;;;;x
+STAT_STEWARDSHIP;§Y国家管理能力§!;;;;;;;;;;;;x
+STAT_STEWARDSHIP_DESC;管理能力决定税收数额，是你的财政总管的主要属性。;;;;;;;;;;;;x
 STAT_LEARNING;§Y国家学习能力§!;;;;;;;;;;;;x
 STAT_LEARNING_DESC;学习能力是宫廷司祭的主要属性，并且影响科技创新速度。;;;;;;;;;;;;x
 STAT_LEARNING_CHAR_DESC;学习能力为§Y$VALUE$§W的§Y[GetTitledFirstName]§W被认为是$DESC$学者。;;;;;;;;;;;;x
@@ -17905,7 +17905,7 @@ VASSAL_RAISE_ALL_SHIPS_DESC;动员全国船只;;;;;;;;;;;;x
 static_diplomacy_mod;外交能力;;;;;;;;;;;;x
 static_intrigue_mod;密谋能力;;;;;;;;;;;;x
 static_learning_mod;学习能力;;;;;;;;;;;;x
-static_stewardship_mod;财政能力;;;;;;;;;;;;x
+static_stewardship_mod;管理能力;;;;;;;;;;;;x
 static_martial_mod;军事能力;;;;;;;;;;;;x
 STAT_CULTURE;文化;;;;;;;;;;;;x
 STAT_CULTURE_DESC;角色的文化决定了他的臣民和其他人是否将其看作外国人。;;;;;;;;;;;;x
@@ -18981,10 +18981,10 @@ HAS_LOWER_DIPLOMACY_THAN;外交低于;;;;;;;;;;;;x
 HAS_HIGHER_DIPLOMACY_THAN;外交至少;;;;;;;;;;;;x
 HAS_LOWER_REALM_DIPLOMACY_THAN;国家外交低于;;;;;;;;;;;;x
 HAS_HIGHER_REALM_DIPLOMACY_THAN;国家外交至少;;;;;;;;;;;;x
-HAS_LOWER_STEWARDSHIP_THAN;财政低于;;;;;;;;;;;;x
-HAS_HIGHER_STEWARDSHIP_THAN;财政至少;;;;;;;;;;;;x
-HAS_LOWER_REALM_STEWARDSHIP_THAN;国家财政低于;;;;;;;;;;;;x
-HAS_HIGHER_REALM_STEWARDSHIP_THAN;国家财政至少;;;;;;;;;;;;x
+HAS_LOWER_STEWARDSHIP_THAN;管理低于;;;;;;;;;;;;x
+HAS_HIGHER_STEWARDSHIP_THAN;管理至少;;;;;;;;;;;;x
+HAS_LOWER_REALM_STEWARDSHIP_THAN;国家管理低于;;;;;;;;;;;;x
+HAS_HIGHER_REALM_STEWARDSHIP_THAN;国家管理至少;;;;;;;;;;;;x
 HAS_LOWER_INTRIGUE_THAN;密谋低于;;;;;;;;;;;;x
 HAS_HIGHER_INTRIGUE_THAN;密谋至少;;;;;;;;;;;;x
 HAS_LOWER_REALM_INTRIGUE_THAN;国家密谋低于;;;;;;;;;;;;x
@@ -19290,7 +19290,7 @@ tut_2b_3;顾问类型;;;;;;;;;;;;x
 tut_2b_4;不同的类型包括：;;;;;;;;;;;;x
 tut_2b_5;外交总管。你的外交顾问，尽量选一个外交能力高的，他的外交能力，加上你自己的，以及你妻子的一半，就是整个国家的外交能力值。影响着除你手下之外，所有人对你的看法。;;;;;;;;;;;;x
 tut_2b_6;军事总管。你的军事顾问，他将指挥你的军队，所以请尽量选择一个军事能力分值高的。;;;;;;;;;;;;x
-tut_2b_7;财政总管。您的财务主管，选择一个财务能力出色的，能够增加你的税收收入。;;;;;;;;;;;;x
+tut_2b_7;财政总管。您的财务主管，选择一个管理能力出色的，能够增加你的税收收入。;;;;;;;;;;;;x
 tut_2b_8;间谍总管。这是一个官面上不存在的位置，作为一个隐藏在阴影中的顾问，拥有很高的阴谋技能是很重要的。即便你没有任何暗杀计划，他也能帮你发现叛乱以便更好地应对。;;;;;;;;;;;;x
 tut_2b_9;宫廷司祭。你的个人信仰顾问，这个顾问的重要特点是学习能力，高学习能力值有助于技术研究。;;;;;;;;;;;;x
 tut_2c_1;政治 - 高级;;;;;;;;;;;;x

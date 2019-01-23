@@ -1412,7 +1412,7 @@
     {
         "key": "CHAR_STEWARDSHIP",
         "original": "Stewardship: §Y[GetStewardship]§W",
-        "translation": "财政：§Y[GetStewardship]§W",
+        "translation": "管理：§Y[GetStewardship]§W",
         "stage": 5
     },
     {
@@ -2858,7 +2858,7 @@
     {
         "key": "STEWARDSHIPEFFECT",
         "original": "$DIRECTION$ $VALUE$ Stewardship\\n",
-        "translation": "$DIRECTION$ $VALUE$ 财政\\n",
+        "translation": "$DIRECTION$ $VALUE$ 管理\\n",
         "stage": 5
     },
     {
@@ -28022,7 +28022,7 @@
     {
         "key": "HINT_COUNCIL_VIEW_TEXT_1",
         "original": "Every ruler has a Council to help administer the realm. Each of the five positions on the Council has a primary attribute - Diplomacy, Martial, Stewardship, Intrigue and Learning. The councillor's skill value is added to the ruler's for all matters of state.",
-        "translation": "每个统治者都有一个内阁来协助治理领地。内阁里的五个职位都有一个主要的属性——外交，军事，财政，密谋和学习。这些内阁成员的技能值将在统治者处理国家事务时直接增加到统治者的能力上。",
+        "translation": "每个统治者都有一个内阁来协助治理领地。内阁里的五个职位都有一个主要的属性——外交，军事，管理，密谋和学习。这些内阁成员的技能值将在统治者处理国家事务时直接增加到统治者的能力上。",
         "stage": 5
     },
     {
@@ -32468,8 +32468,8 @@
     {
         "key": "EVTDESC20392",
         "original": "My liege, good news! During my mission to [From.Location.GetName] I happened to meet the noble [FromFrom.GetTitledName]. After promising [FromFrom.GetHerHim] not to divulge any of the information outside the realm, [FromFrom.GetSheHe] decided to share with me some of the military advancements [FromFrom.GetSheHe] had implemented in the last year. Enclosed with this letter is a document describing them in more detail.\\n\\nYour humble Marshal,\\n[From.GetTitledName]",
-        "translation": "我的领主，好消息！我在[From.Location.GetName]执行任务的时候遇到了高尚的[FromFrom.GetTitledName]。在向[FromFrom.GetHerHim]保证绝不向外国泄露消息之后，[FromFrom.GetSheHe]决定将[FromFrom.GetSheHe]去年实现的军事技术进展和我分享。信后附有的文档就是关于这个的详细内容。\\n\\nn你忠诚的军事总管，\\n[From.GetTitledName]",
-        "stage": 5
+        "translation": "我的领主，好消息！我在[From.Location.GetName]执行任务的时候遇到了高尚的[FromFrom.GetTitledName]。在向[FromFrom.GetHerHim]保证绝不向外国泄露消息之后，[FromFrom.GetSheHe]决定将[FromFrom.GetSheHe]去年实现的军事技术进展和我分享。信后附有的文档就是关于这个的详细内容。\\n\\n你忠诚的军事总管，\\n[From.GetTitledName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA20392",
@@ -88826,7 +88826,7 @@
     {
         "key": "STEWARDSHIP_MOD",
         "original": "Stewardship",
-        "translation": "财政",
+        "translation": "管理",
         "stage": 1
     },
     {
@@ -91268,7 +91268,7 @@
     {
         "key": "stewardship_advice",
         "original": "Stewardship Advice",
-        "translation": "财政建议",
+        "translation": "管理建议",
         "stage": 1
     },
     {
@@ -105212,7 +105212,7 @@
     {
         "key": "CH_STEWARDSHIP_CHANGE",
         "original": "Stewardship $DIRECTION$ by $CHANGE$",
-        "translation": "$DIRECTION$  $CHANGE$ 财政",
+        "translation": "$DIRECTION$  $CHANGE$ 管理",
         "stage": 5
     },
     {
@@ -105308,13 +105308,13 @@
     {
         "key": "STAT_STEWARDSHIP",
         "original": "§YState Stewardship§!",
-        "translation": "§Y国家财政能力§!",
+        "translation": "§Y国家管理能力§!",
         "stage": 5
     },
     {
         "key": "STAT_STEWARDSHIP_DESC",
         "original": "Stewardship skill controls your tax income and is the primary attribute of your Steward.",
-        "translation": "财政能力决定税收数额，是你的财政总管的主要属性。",
+        "translation": "管理能力决定税收数额，是你的财政总管的主要属性。",
         "stage": 5
     },
     {
@@ -107432,7 +107432,7 @@
     {
         "key": "static_stewardship_mod",
         "original": "Stewardship Skill",
-        "translation": "财政能力",
+        "translation": "管理能力",
         "stage": 5
     },
     {
@@ -113888,25 +113888,25 @@
     {
         "key": "HAS_LOWER_STEWARDSHIP_THAN",
         "original": "Stewardship lower than ",
-        "translation": "财政低于",
+        "translation": "管理低于",
         "stage": 5
     },
     {
         "key": "HAS_HIGHER_STEWARDSHIP_THAN",
         "original": "Stewardship at least ",
-        "translation": "财政至少",
+        "translation": "管理至少",
         "stage": 5
     },
     {
         "key": "HAS_LOWER_REALM_STEWARDSHIP_THAN",
         "original": "State Stewardship lower than ",
-        "translation": "国家财政低于",
+        "translation": "国家管理低于",
         "stage": 5
     },
     {
         "key": "HAS_HIGHER_REALM_STEWARDSHIP_THAN",
         "original": "State Stewardship at least ",
-        "translation": "国家财政至少",
+        "translation": "国家管理至少",
         "stage": 5
     },
     {
@@ -115742,7 +115742,7 @@
     {
         "key": "tut_2b_7",
         "original": "Steward. Your treasurer. Choose one with high value for stewardship, and you will increase your tax income.",
-        "translation": "财政总管。您的财务主管，选择一个财务能力出色的，能够增加你的税收收入。",
+        "translation": "财政总管。您的财务主管，选择一个管理能力出色的，能够增加你的税收收入。",
         "stage": 5
     },
     {
