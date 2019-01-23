@@ -477,7 +477,7 @@ MODIFIER_REMOVED;§Y$WHAT$§!将从§Y$WHERE$§!移除\n;;;;;;;;;;;;x
 DIPLOMACYEFFECT;$DIRECTION$ $VALUE$ 外交\n;;;;;;;;;;;;x
 INTRIGUEEFFECT;$DIRECTION$ $VALUE$ 密谋\n;;;;;;;;;;;;x
 STEWARDSHIPEFFECT;$DIRECTION$ $VALUE$ 管理\n;;;;;;;;;;;;x
-LEARNINGEFFECT;$DIRECTION$ $VALUE$ 学习\n;;;;;;;;;;;;x
+LEARNINGEFFECT;$DIRECTION$ $VALUE$ 学识\n;;;;;;;;;;;;x
 MARTIALEFFECT;$DIRECTION$ $VALUE$ 军事\n;;;;;;;;;;;;x
 SET_TITLE_HOLDER_GAIN_EFFECT;§Y$CHAR$§!得到头衔§Y$TITLE$§!\n;;;;;;;;;;;;x
 SET_TITLE_HOLDER_INHERIT_EFFECT;§Y$CHAR$§!继承头衔§Y$TITLE$§!\n;;;;;;;;;;;;x
@@ -14802,7 +14802,7 @@ FERTILITY_MOD;生育能力;;;;;;;;;;;;x
 HEALTH_MOD;健康;;;;;;;;;;;;x
 MARTIAL_MOD;军事;;;;;;;;;;;;x
 INTRIGUE_MOD;密谋;;;;;;;;;;;;x
-LEARNING_MOD;学习;;;;;;;;;;;;x
+LEARNING_MOD;学识;;;;;;;;;;;;x
 DIPLOMACY_MOD;外交;;;;;;;;;;;;x
 STEWARDSHIP_MOD;管理;;;;;;;;;;;;x
 ALLOW_UNIT_TYPE;允许$WHICH$。;;;;;;;;;;;;x
@@ -17553,9 +17553,9 @@ STAT_INTRIGUE;§Y国家密谋能力§!;;;;;;;;;;;;x
 STAT_INTRIGUE_CHAR_DESC;密谋能力为 §Y$VALUE$§W 的§Y[GetTitledFirstName]§W被认为是$DESC$阴谋家。;;;;;;;;;;;;x
 STAT_STEWARDSHIP;§Y国家管理能力§!;;;;;;;;;;;;x
 STAT_STEWARDSHIP_DESC;管理能力决定税收数额，是你的财政总管的主要属性。;;;;;;;;;;;;x
-STAT_LEARNING;§Y国家学习能力§!;;;;;;;;;;;;x
-STAT_LEARNING_DESC;学习能力是宫廷司祭的主要属性，并且影响科技创新速度。;;;;;;;;;;;;x
-STAT_LEARNING_CHAR_DESC;学习能力为§Y$VALUE$§W的§Y[GetTitledFirstName]§W被认为是$DESC$学者。;;;;;;;;;;;;x
+STAT_LEARNING;§Y国家学识能力§!;;;;;;;;;;;;x
+STAT_LEARNING_DESC;学识能力是宫廷司祭的主要属性，并且影响科技创新速度。;;;;;;;;;;;;x
+STAT_LEARNING_CHAR_DESC;学识能力为 §Y$VALUE$§W 的§Y[GetTitledFirstName]§W被认为是$DESC$学者。;;;;;;;;;;;;x
 STAT_DESC_1;不称职的;;;;;;;;;;;;x
 STAT_DESC_2;差劲的;;;;;;;;;;;;x
 STAT_DESC_3;像样的;;;;;;;;;;;;x
@@ -17904,7 +17904,7 @@ VASSAL_RAISE_SHIPS_DESC;动员私人船只;;;;;;;;;;;;x
 VASSAL_RAISE_ALL_SHIPS_DESC;动员全国船只;;;;;;;;;;;;x
 static_diplomacy_mod;外交能力;;;;;;;;;;;;x
 static_intrigue_mod;密谋能力;;;;;;;;;;;;x
-static_learning_mod;学习能力;;;;;;;;;;;;x
+static_learning_mod;学识能力;;;;;;;;;;;;x
 static_stewardship_mod;管理能力;;;;;;;;;;;;x
 static_martial_mod;军事能力;;;;;;;;;;;;x
 STAT_CULTURE;文化;;;;;;;;;;;;x
@@ -18989,10 +18989,10 @@ HAS_LOWER_INTRIGUE_THAN;密谋低于;;;;;;;;;;;;x
 HAS_HIGHER_INTRIGUE_THAN;密谋至少;;;;;;;;;;;;x
 HAS_LOWER_REALM_INTRIGUE_THAN;国家密谋低于;;;;;;;;;;;;x
 HAS_HIGHER_REALM_INTRIGUE_THAN;国家密谋至少;;;;;;;;;;;;x
-HAS_LOWER_LEARNING_THAN;学习低于;;;;;;;;;;;;x
-HAS_HIGHER_LEARNING_THAN;学习至少;;;;;;;;;;;;x
-HAS_LOWER_REALM_LEARNING_THAN;国家学习低于;;;;;;;;;;;;x
-HAS_HIGHER_REALM_LEARNING_THAN;国家学习至少;;;;;;;;;;;;x
+HAS_LOWER_LEARNING_THAN;学识低于;;;;;;;;;;;;x
+HAS_HIGHER_LEARNING_THAN;学识至少;;;;;;;;;;;;x
+HAS_LOWER_REALM_LEARNING_THAN;国家学识低于;;;;;;;;;;;;x
+HAS_HIGHER_REALM_LEARNING_THAN;国家学识至少;;;;;;;;;;;;x
 NOT_SAME_FAMILY_AS;与$DYNASTY|Y$为不同家族;;;;;;;;;;;;x
 SAME_FAMILY_AS;与$DYNASTY|Y$同家族;;;;;;;;;;;;x
 IS_WEALTHIER_THAN_RULER;比领主富裕;;;;;;;;;;;;x
@@ -19292,7 +19292,7 @@ tut_2b_5;外交总管。你的外交顾问，尽量选一个外交能力高的�
 tut_2b_6;军事总管。你的军事顾问，他将指挥你的军队，所以请尽量选择一个军事能力分值高的。;;;;;;;;;;;;x
 tut_2b_7;财政总管。您的财务主管，选择一个管理能力出色的，能够增加你的税收收入。;;;;;;;;;;;;x
 tut_2b_8;间谍总管。这是一个官面上不存在的位置，作为一个隐藏在阴影中的顾问，拥有很高的阴谋技能是很重要的。即便你没有任何暗杀计划，他也能帮你发现叛乱以便更好地应对。;;;;;;;;;;;;x
-tut_2b_9;宫廷司祭。你的个人信仰顾问，这个顾问的重要特点是学习能力，高学习能力值有助于技术研究。;;;;;;;;;;;;x
+tut_2b_9;宫廷司祭。你的个人信仰顾问，这个顾问的重要特点是学识能力，高学识能力值有助于技术研究。;;;;;;;;;;;;x
 tut_2c_1;政治 - 高级;;;;;;;;;;;;x
 tut_2c_2;每个顾问都有三个特有的任务可以完成。当然，同一时间他们只能干其中的一件事。这期间内你仍然可以获得他们带来的能力加成。;;;;;;;;;;;;x
 tut_2c_3;让我们去看看吧，点击顾问按钮继续。;;;;;;;;;;;;x
