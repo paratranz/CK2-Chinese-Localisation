@@ -330,14 +330,14 @@ coalition_group;§Y成员：§!$MEMBERS$;;;;;;;;;;;;x
 gov_bad_pope;教廷;;;;;;;;;;;;x
 gov_pope;[Religion.GetName]教廷;;;;;;;;;;;;x
 gov_patriarchate;[Religion.GetName]牧首区;;;;;;;;;;;;x
-gov_theocracy;[Religion.GetName]神权制;;;;;;;;;;;;x
+gov_theocracy;[Religion.GetName]神权国;;;;;;;;;;;;x
 gov_republic;共和国;;;;;;;;;;;;x
 gov_elective_muslim_aristocratic_monarchy;选举贵族制[PrimaryTitle.GetTier];;;;;;;;;;;;x
 gov_elective_muslim_despotic_monarchy;选举专制[PrimaryTitle.GetTier];;;;;;;;;;;;x
-gov_elective_muslim_absolute_monarchy;选举绝对君主制[PrimaryTitle.GetTier];;;;;;;;;;;;x
-gov_elective_muslim_absolute_autocracy;选举绝对皇权独裁;;;;;;;;;;;;x
+gov_elective_muslim_absolute_monarchy;选举绝对制[PrimaryTitle.GetTier];;;;;;;;;;;;x
+gov_elective_muslim_absolute_autocracy;选举绝对制皇权独裁;;;;;;;;;;;;x
 gov_elective_muslim_despotic_autocracy;选举专制皇权独裁;;;;;;;;;;;;x
-gov_elective_muslim_aristocratic_autocracy;选举贵族皇权独裁;;;;;;;;;;;;x
+gov_elective_muslim_aristocratic_autocracy;选举贵族制皇权独裁;;;;;;;;;;;;x
 INTERACTION_COALITION_RANGE;对我们的威胁近在眼前;;;;;;;;;;;;x
 GAME_SETUP_COALITIONS_TARGET_ICON;是一个或多个§Y共同防御协定§!的针对目标，总共有$NUM_MEMBERS|Y$位成员。;;;;;;;;;;;;x
 GAME_SETUP_COALITIONS_MEMBER_ICON;处于针对$TARGET|Y$的§Y共同防御协定§!中。总共$NUM_MEMBERS|Y$角色已加入§Y共同防御协定§!以对抗同一目标。;;;;;;;;;;;;x
@@ -347,7 +347,7 @@ COUNCIL_ELECTIVE;内阁选举法;;;;;;;;;;;;x
 WANTS_PARDON;我不想坐牢;;;;;;;;;;;;x
 COUNCIL_ELECTIVE_DESC;内阁选举法是一种独特的继承法，仅可通过颁布特定法律而实现。领主和每名内阁成员均可从直属封臣、婚生子女、以及领主的配偶中选择并提名一位继承人。每位内阁成员拥有一票，不管他们是否拥有领地。这种选举继承法将不考虑投票者的头衔，无论领主还是内阁成员每人都只有一票。内阁选举法非常受封臣的欢迎。;;;;;;;;;;;;x
 IS_POWERFUL_VASSAL_TRIGGER;$CHAR$是一位强力封臣。\n;;;;;;;;;;;;x
-IS_NOT_POWERFUL_VASSAL_TRIGGER;$CHAR$ 不是一位强力封臣。\n;;;;;;;;;;;;x
+IS_NOT_POWERFUL_VASSAL_TRIGGER;$CHAR$不是一位强力封臣。\n;;;;;;;;;;;;x
 CANNOT_JOIN_FACTION_COUNCIL_CONTENT;§R你是内阁成员并且内阁投票决定宣战与否，你只能在内阁不满的时候创建或者加入派系。§!;;;;;;;;;;;;x
 INTERACTION_REQUIRES_NOT_IS_IN_PRISON;§Y[Recipient.GetTitledFirstName]§!未被囚禁;;;;;;;;;;;;x
 INTERACTION_REQUIRES_RECIPIENT_NOT_INCAPABLE;§Y[Recipient.GetTitledFirstName]§!不是无能;;;;;;;;;;;;x
