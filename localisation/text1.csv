@@ -570,9 +570,9 @@ COMBATEND_TOTAL;总计：;;;;;;;;;;;;x
 COMBATEND_REST;其他指挥官：;;;;;;;;;;;;x
 COMBATEND_PIETY;§Y[Player.Religion.GetPietyName]战斗中获得的虔诚§!;;;;;;;;;;;;x
 COMBATEND_WEALTH_STOLEN;§Y围攻中劫掠的金钱§!;;;;;;;;;;;;x
-COMBATVIEW_TOTALTROOPS_FLANK;这一翼的剩余部队：;;;;;;;;;;;;x
-COMBATVIEW_PHASE_NAME;这一翼正在 §Y$PHASE$阶段§W;;;;;;;;;;;;x
-COMBATVIEW_PHASE_DAMAGE;在 $PHASE$阶段时这一翼每天每名士兵将平均造成§Y$AVERAGE$§W伤害;;;;;;;;;;;;x
+COMBATVIEW_TOTALTROOPS_FLANK;此路军队剩余部队：;;;;;;;;;;;;x
+COMBATVIEW_PHASE_NAME;此路军队正处于§Y$PHASE$阶段§W;;;;;;;;;;;;x
+COMBATVIEW_PHASE_DAMAGE;在$PHASE$阶段时此路军队每天每名士兵将平均造成§Y$AVERAGE$§W伤害;;;;;;;;;;;;x
 COMBATVIEW_PHASE_DESC_SKIRMISH;在射击阶段两军将保持距离\n§Y弓箭手§!，§Y弓骑兵§!和§Y轻骑兵§!擅长§Y遭遇阶段§!;;;;;;;;;;;;x
 COMBATVIEW_PHASE_DESC_MELEE;在肉搏阶段两军面对面厮杀\n§Y重步兵§W，§Y长枪兵§W和§Y骑士§W擅长§Y肉搏阶段§W;;;;;;;;;;;;x
 COMBATVIEW_PHASE_DESC_PURSUE;在追击阶段败军溃散，胜者追亡逐北\n§Y骑士§!，§Y轻骑兵§!和§Y弓骑兵§!擅长§Y追击阶段§!;;;;;;;;;;;;x
@@ -4716,7 +4716,7 @@ HINT_HOLDING_VIEW_TEXT_3;一些建筑物只有在省份存在某个科技时才�
 HINT_HOLDING_VIEW_TEXT_4;地产的拥有者，或他的直接领主以及更高级领主，可以通过点击编辑改变男爵领的名字。;;;;;;;;;;;;x
 HINT_UNIT_VIEW_TITLE;单位界面;;;;;;;;;;;;x
 HINT_UNIT_VIEW_TEXT_1;单位是军团或船只的集合，他们可以在男爵领中征召，也可以由雇佣兵或骑士团提供。;;;;;;;;;;;;x
-HINT_UNIT_VIEW_TEXT_2;军队被组织成三个部分，左翼、中央和右翼。每一部分由一位军团指挥官指挥。中央军团的指挥官被认为是整个军队的指挥官。;;;;;;;;;;;;x
+HINT_UNIT_VIEW_TEXT_2;军队被组织成三个部分，左翼、中军和右翼。每一部分由一位军团指挥官指挥。中军的指挥官被认为是整支军队的指挥官。;;;;;;;;;;;;x
 HINT_UNIT_VIEW_TEXT_3;军队在无法补给他们的省份上会受到损耗，在省份界面里查看补给上限。;;;;;;;;;;;;x
 HINT_COMBAT_VIEW_TITLE;战斗界面;;;;;;;;;;;;x
 HINT_COMBAT_VIEW_TEXT_1;在战斗中，军队的三个部分面对面交锋——左翼面对右翼，中央对抗中央，右翼面对左翼。;;;;;;;;;;;;x
@@ -18446,7 +18446,7 @@ LAG_DECREASE_SPEED;$PLAYER$ 处于延迟，正在减速。;;;;;;;;;;;;x
 CLICK_TO_APPOINT_LEADER;点击任命将领;;;;;;;;;;;;x
 LEADER_APP_NEEDS_LAW;§Y$TITLE$§!的贵族有权利拒绝更换将领。\n（王权等级太低）;;;;;;;;;;;;x
 WRONG_GOVERNMENT_TYPE;§R错误的首府地产类型！§!;;;;;;;;;;;;x
-COMBAT_TACTICS_AVAILABLE;这一翼可以用下列战术：;;;;;;;;;;;;x
+COMBAT_TACTICS_AVAILABLE;此路军队可以用下列战术：;;;;;;;;;;;;x
 COMBAT_DEFENDERS;防御方;;;;;;;;;;;;x
 COMBAT_ATTACKERS;进攻方;;;;;;;;;;;;x
 PLOT_PLOT_POWER;阴谋力量;;;;;;;;;;;;x
@@ -19076,16 +19076,16 @@ TACTIC_IS_NOT;作战战术不是;;;;;;;;;;;;x
 TACTIC_IS;作战战术是;;;;;;;;;;;;x
 COMBAT_DAYS_LESS_THAN;战斗持续少于 §Y$DAYS$§! 天;;;;;;;;;;;;x
 COMBAT_DAY_AT_LEAST;战斗持续至少 §Y$DAYS$§! 天;;;;;;;;;;;;x
-TROOP_LESS_THAN;侧翼部队少于 §Y$PERCENT$% $TROOP$§!;;;;;;;;;;;;x
-TROOP_AT_LEAST;侧翼部队至少§Y$PERCENT$% $TROOP$§!;;;;;;;;;;;;x
+TROOP_LESS_THAN;此路军队少于 §Y$PERCENT$% $TROOP$§!;;;;;;;;;;;;x
+TROOP_AT_LEAST;此路军队至少 §Y$PERCENT$% $TROOP$§!;;;;;;;;;;;;x
 LIGHT_TROOPS;轻型部队;;;;;;;;;;;;x
 HEAVY_TROOPS;重型部队;;;;;;;;;;;;x
 ATTACKING_IS_NOT;不是进攻者;;;;;;;;;;;;x
 ATTACKING_IS;是进攻者;;;;;;;;;;;;x
 IS_NOT_LEADING_ARMY;未率领军队;;;;;;;;;;;;x
 IS_LEADING_ARMY;正在率领军队;;;;;;;;;;;;x
-IS_NOT_LEADING_FLANK;未率领一翼部队;;;;;;;;;;;;x
-IS_LEADING_FLANK;正在领导一翼部队;;;;;;;;;;;;x
+IS_NOT_LEADING_FLANK;未率领一路军队;;;;;;;;;;;;x
+IS_LEADING_FLANK;正在率领一路军队;;;;;;;;;;;;x
 IS_PLAYABLE;可扮演;;;;;;;;;;;;x
 IS_NOT_PLAYABLE;不可扮演;;;;;;;;;;;;x
 HAS_HOLDER;头衔有一个持有者;;;;;;;;;;;;x
@@ -19366,15 +19366,15 @@ tut_5b_7;城市能够提供船只、弓箭手和大量的轻步兵。;;;;;;;;;;;
 tut_5b_8;修道院能够提供船只，以及弓箭手、轻步兵和重步兵。;;;;;;;;;;;;x
 tut_5b_9;究竟能征集到什么兵还取决于其他的一些东西，比如这是谁的封臣。由于城堡能提供较多的军队，所以只能提供较少的金钱，而城市正相反。点击继续以结束本节。;;;;;;;;;;;;x
 tut_5c_1;军事 - 高级;;;;;;;;;;;;x
-tut_5c_2;我们在王国风云里有一些新的设置和概念。打开军事窗口以了解雇佣兵、骑士团和侧翼的概念。;;;;;;;;;;;;x
+tut_5c_2;我们在王国风云里有一些新的设置和概念。打开军事窗口以了解雇佣兵、骑士团和三军的概念。;;;;;;;;;;;;x
 tut_5c_3;佣兵;;;;;;;;;;;;x
 tut_5c_4;雇佣兵是由你雇佣并直接控制的军队。点击「雇佣兵」选项卡以了解你可以雇佣什么样的雇佣兵。在这里可以看到，当你需要雇佣他们时，需要支付巨额的资金，而且之后每个月还要支付一笔数额相对小一点但仍非乐观的雇佣金。当你无力支付这笔钱的时候，他们可能会开始攻击你，并占领你的领地，他们只忠诚于黄金。点击「骑士团」选项卡以继续。;;;;;;;;;;;;x
 tut_5c_5;圣骑士;;;;;;;;;;;;x
 tut_5c_6;你现在还无法雇佣他们。当你能使用时，他们的存在类似于这样：;;;;;;;;;;;;x
-tut_5c_8;侧翼;;;;;;;;;;;;x
-tut_5c_9;军队划分为三部分，每部分都拥有将领和自己的战术。当一侧赢了，它可以加入到其它两个之一，以加强他们。请点击继续。;;;;;;;;;;;;x
+tut_5c_8;三军;;;;;;;;;;;;x
+tut_5c_9;军队划分为三部分，每部分都拥有将领和自己的战术。当一路军队赢了，它可以加入到其它两路，以加强他们。请点击继续。;;;;;;;;;;;;x
 tut_5c_10;战术;;;;;;;;;;;;x
-tut_5c_11;每个翼都有一个指挥官，会选择使用的战术。决定这一点时，他会考虑军队的构成，敌人的军队种类，并作出改变。他做的好不好取决于他的军事技能。点击下一步以结束本节。;;;;;;;;;;;;x
+tut_5c_11;每路军队都有一个指挥官，会选择使用的战术。决定这一点时，他会考虑军队的构成，敌人的军队种类，并作出改变。他做的好不好取决于他的军事技能。点击下一步以结束本节。;;;;;;;;;;;;x
 tut_6a_1;战争 - 基础;;;;;;;;;;;;x
 tut_6a_2;在游戏中，战争是外交的延续。这是一个用以增长领土和保护领土的重要工具。请点击继续。;;;;;;;;;;;;x
 tut_6a_3;宣称权和宣战理由;;;;;;;;;;;;x
@@ -19493,7 +19493,7 @@ REORGANISE_UNITS;重组这两个单位;;;;;;;;;;;;x
 NO_REORGANISE_UNITS;在重组时，你只能同时选中两个单位。;;;;;;;;;;;;x
 REORGANISE_UNITS_DRO;重组时将允许你自由移动这两个单位中的小队;;;;;;;;;;;;x
 LEADER_MARTIAL_VALUE;将领技能;;;;;;;;;;;;x
-NUM_SUBUNITS;此翼中次级单位的数量;;;;;;;;;;;;x
+NUM_SUBUNITS;此路军队中次级单位的数量;;;;;;;;;;;;x
 NUM_SHIPS_IN_SUBUNIT;此舰队的船舶数量;;;;;;;;;;;;x
 TOTAL_TROOPS;军队的总数;;;;;;;;;;;;x
 SELECT_UNIT;选择单位;;;;;;;;;;;;x

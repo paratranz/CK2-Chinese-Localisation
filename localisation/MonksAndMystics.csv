@@ -2870,13 +2870,13 @@ ANY_CHARACTER_STARTS;任何角色;;;;;;;;;;;;x
 ANY_CONTROLLED_UNIT_STARTS;任何控制的军队;;;;;;;;;;;;x
 SOCIETY_TRIGGER_NOT;和$SOCIETY|Y$不是同一个社团;;;;;;;;;;;;x
 SOCIETY_TRIGGER;和$SOCIETY|Y$是同一个社团;;;;;;;;;;;;x
-FLANK_HAS_TACTIC_NOT;侧翼没有利用战术$TACTIC|Y$;;;;;;;;;;;;x
-FLANK_HAS_TACTIC;侧翼利用战术$TACTIC|Y$;;;;;;;;;;;;x
+FLANK_HAS_TACTIC_NOT;此路军队没有使用战术$TACTIC|Y$;;;;;;;;;;;;x
+FLANK_HAS_TACTIC;此路军队使用战术$TACTIC|Y$;;;;;;;;;;;;x
 DAMAGE_UNIT_EFFECT;军队遭受了 $AMOUNT|Y$ 伤亡;;;;;;;;;;;;x
 DAMAGE_UNIT_EFFECT_PERCENTAGE;部队承受 $PERCENTAGE|Y%$ 的人员伤亡;;;;;;;;;;;;x
 DAMAGE_UNIT_MORALE_EFFECT;军队士气减成 $VALUE|+$;;;;;;;;;;;;x
 DAMAGE_UNIT_MORALE_EFFECT_NEGATIVE;军队士气加成 $VALUE|+$;;;;;;;;;;;;x
-SET_FLANK_TACTIC_EFFECT;侧翼战术改变为$TACTIC|$;;;;;;;;;;;;x
+SET_FLANK_TACTIC_EFFECT;此路军队战术改变为$TACTIC|$;;;;;;;;;;;;x
 secret_religions_found_secret_religious_society;建立秘信社团;;;;;;;;;;;;x
 secret_religions_found_secret_religious_society_desc;创建一个拥护你的社团，使你能在黑暗中播下真正信仰的种子，一旦你有了足够多的追随者，它会从阴影里破土而出。;;;;;;;;;;;;x
 secret_religions_falsely_confess_faith;假意改信;;;;;;;;;;;;x
@@ -4140,8 +4140,8 @@ NUDGE_ROTATION_TITLE;Rotation:;;;;;;;;;;;;x
 NUDGE_HEIGHT_TITLE;Height:;;;;;;;;;;;;x
 NUDGE_CHECK;Check;;;;;;;;;;;;x
 NUDGE_MAPMODE;Mapmode;;;;;;;;;;;;x
-flank_retreat_odds;侧翼撤退概率;;;;;;;;;;;;x
-flank_pursue_odds;侧翼追击概率;;;;;;;;;;;;x
+flank_retreat_odds;一路军队的撤退概率;;;;;;;;;;;;x
+flank_pursue_odds;一路军队的追击概率;;;;;;;;;;;;x
 default_siege_defense_tactic;默认战术;;;;;;;;;;;;x
 default_siege_offense_tactic;默认战术;;;;;;;;;;;;x
 NullDisease;无效的疾病;;;;;;;;;;;;x
