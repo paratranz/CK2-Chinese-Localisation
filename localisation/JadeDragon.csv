@@ -808,7 +808,7 @@ offmap_submission_tip;§Y[Root.GetTitledFirstName]§!用武力强制§Y[This.Get
 CB_NAME_TRIBUTARY;逼迫纳贡;;;;;;;;;;;;x
 CB_NAME_PERMANENT_TRIBUTARY;建立朝贡国;;;;;;;;;;;;x
 WAR_NAME_PERMANENT_TRIBUTARY;$ORDER$ $FIRST_ADJ$令$DEFENDER$朝贡战争;;;;;;;;;;;;x
-tributary_permanent_cb_desc;§Y$TARGET$§!十分虚弱，但是如果他们用金钱和士兵向你交付贡税，你就会提供保护！\n\n你可以通过战争强迫任何你或你§Y朝贡国§!的邻国缴纳 §Y20%§! 收入和 §Y15%§! 的征召兵增援力量以作为贡赋。\n只有在§Y宗主国§!拥有§R负§!§Y威望§!、§R不是§!§Y独立领主§!、§Y领土规模§!§R小于§!§Y朝贡国§!，或者是§R拒绝防御性§!§Y朝贡国§!的§Y战争召唤§!的时候才会脱离朝贡。\n这种类型的§Y朝贡国§!§R不可以§!被召入战争。;;;;;;;;;;;;x
+tributary_permanent_cb_desc;§Y$TARGET$§!十分虚弱，但是如果他们以金钱和士兵的形式向你交付贡税，你就会提供保护！\n\n你可以通过战争强迫任何你或你§Y朝贡国§!的邻国缴纳 §Y20%§! 收入和 §Y15%§! 的征召兵增援力量以作为贡赋。\n只有在§Y宗主国§!拥有§R负§!§Y威望§!、§R不是§!§Y独立领主§!、§Y领土规模§!§R小于§!§Y朝贡国§!，或者是§R拒绝防御性§!§Y朝贡国§!的§Y战争召唤§!的时候才会脱离朝贡。\n这种类型的§Y朝贡国§!§R不可以§!被召入战争。;;;;;;;;;;;;x
 tributary_cb_desc;§Y$TARGET$§!很富裕因此应当向你朝贡！\n\n你可以通过战争强迫任何位于你边界的邻国缴纳 §Y40%§! 收入以作为贡赋。\n这种类型的§Y朝贡国§!在§Y宗主§!死亡时会§R脱离朝贡§!。\n这种类型的§Y朝贡国§!可以被召入战争。;;;;;;;;;;;;x
 CB_NAME_NOMAD_TRIBUTARY;建立朝贡关系;;;;;;;;;;;;x
 WAR_NAME_NOMAD_TRIBUTARY;$ORDER$ $FIRST_ADJ$令$DEFENDER$朝贡战争;;;;;;;;;;;;x
@@ -1662,7 +1662,7 @@ EVTOPT39831_HEDONIST;我想我会混入平民中的……;;;;;;;;;;;;x
 EVTOPT39831_CYNIC;这简直是在耽误我的时间……;;;;;;;;;;;;x
 EVTOPT39831_GREG;一个与其他领主交谈的绝佳机会！;;;;;;;;;;;;x
 EVTOPT39831_STRESSED;这种节日相当放松……;;;;;;;;;;;;x
-LOOT_PROVINCE_DESC;§Y省份内的战利品§!\n税收修正：$PERC$\n被堡垒等级保护数额：§Y$FORT_PROT$¤§!\n最大劫掠数额：§Y$MAX_LOOT$¤§!\n潜在的劫掠数额：§Y$LOOT$¤§!;;;;;;;;;;;;x
+LOOT_PROVINCE_DESC;§Y省份内的战利品§!\n税收修正：$PERC$\n因堡垒等级被保护的数额：§Y$FORT_PROT$¤§!\n最大劫掠数额：§Y$MAX_LOOT$¤§!\n潜在的劫掠数额：§Y$LOOT$¤§!;;;;;;;;;;;;x
 COUNTY_LOOT_DESC;§L这个数值表示基于省份人口提供的可掠夺财富的金额，遭受掠夺时将会被洗劫一空，并降低该省份税收，直到从创伤中完全恢复。§!;;;;;;;;;;;;x
 TAX_VALUE;§Y税收价值§!;;;;;;;;;;;;x
 TOGGLE_LOOTER_FAIL_AT_WAR;单位所有者处于和平;;;;;;;;;;;;x
@@ -2193,8 +2193,8 @@ EVTDESC_MNM_9031_A;我得到了[relic_hunter.GetJobTitle][relic_hunter.GetFirstN
 EVTDESC_MNM_9031_B;我从[relic_hunter.GetJobTitle][relic_hunter.GetFirstName]处得知，[relic_hunter.GetSheHe]搜索宝物的工作正在稳步进行。;;;;;;;;;;;;x
 EVTDESC_MNM_9032;我刚刚收到了一个令人惋惜的报告，[relic_hunter.GetJobTitle][relic_hunter.GetFirstName]在[relic_hunter.GetHerHis]寻找古文物的任务中遇到重大挫折，耗费了大量的时间去追踪一个错误的线索。[relic_hunter.GetSheHeCap]向我保证[relic_hunter.GetSheHe]将会加大努力。;;;;;;;;;;;;x
 EVTDESC_4409_GREEDY;我让我最信任的仆人从我私人小金库里拿走了一笔数量可观的钱，给了当地的[Root.GetMOBuilding]。但在[Root.GetSheHe]离开后，我后悔了。当仆人回来时，我无法控制自己，然后我立刻让[Root.GetSheHe]把这笔钱要回去。现在所有人都知道我是个小气鬼了！;;;;;;;;;;;;x
-TOGGLE_LOOTER_0_MAINT_DESC;处于战争时，劫掠军只消耗维护费;;;;;;;;;;;;x
-TOGGLE_LOOTER_GR0_MAINT_DESC;如果你处于和平，劫掠军只消耗 §G$PERC$%§! 维护费。;;;;;;;;;;;;x
+TOGGLE_LOOTER_0_MAINT_DESC;处于战争时，劫掠军只消耗维护费。;;;;;;;;;;;;x
+TOGGLE_LOOTER_GR0_MAINT_DESC;处于和平时，劫掠军只消耗 §G$PERC$%§! 维护费。;;;;;;;;;;;;x
 kingdom_adventure_desc;某些极度雄心勃勃又魅力十足的角色可以获得足够的支持，并且试图在一大群冒险的战士的帮助下在国外开始夺取王国。;;;;;;;;;;;;x
 title_teacher;宫廷教师;;;;;;;;;;;;x
 title_teacher_desc;宫廷教师将担任宫廷中所有没有指定监护人的孩子的默认教育者。;;;;;;;;;;;;x
