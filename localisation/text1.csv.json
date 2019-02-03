@@ -29624,14 +29624,14 @@
     {
         "key": "ARRANGE_BETROTHAL_INTERACTION_DESC",
         "original": "Arrange a Betrothal between two characters",
-        "translation": "安排两个角色的订婚",
-        "stage": 5
+        "translation": "为两个角色安排订婚",
+        "stage": 1
     },
     {
         "key": "ARRANGE_BETROTHAL_INTERACTION_LONG_DESC",
         "original": "While children are not allowed to marry, they can get betrothed. The betrothal will last until the characters get married, one of them should die, or it is explicitly broken.",
-        "translation": "儿童不得结婚，但他们可以订立婚约。所订立的婚约有效至双方成婚，一方去世，或显著违约。",
-        "stage": 5
+        "translation": "儿童不得结婚，但他们可以订立婚约。所订立的婚约有效至双方成婚，一方去世，或是婚约被撕毁。",
+        "stage": 1
     },
     {
         "key": "ARRANGE_BETROTHAL_INTERACTION_0",
@@ -29642,8 +29642,8 @@
     {
         "key": "ARRANGE_BETROTHAL_INTERACTION_1",
         "original": "Select a character from the court of §Y$CHAR$§W.",
-        "translation": "选择一位 §Y$CHAR$§!宫廷里的角色。",
-        "stage": 5
+        "translation": "选择一位§Y$CHAR$§W宫廷里的角色。",
+        "stage": 1
     },
     {
         "key": "ARRANGE_BETROTHAL_INTERACTION_ACCEPT_SETUP",
@@ -29666,19 +29666,19 @@
     {
         "key": "ARRANGE_BETROTHAL_INTERACTION_DECLINE_LOG",
         "original": "§Y[Recipient.GetBestName]§W declines the suggestion by §Y[Actor.GetBestName]§W that §Y[ActorExtra.GetBestName]§W and §Y[RecipientExtra.GetBestName]§W should get betrothed",
-        "translation": "§Y[Recipient.GetBestName]§!拒绝§Y[Actor.GetBestName]§!的提议，§Y[ActorExtra.GetBestName]§!和§Y[RecipientExtra.GetBestName]§!将不订立婚约。",
-        "stage": 5
+        "translation": "§Y[Recipient.GetBestName]§W拒绝了§Y[Actor.GetBestName]§W提出的关于让§Y[ActorExtra.GetBestName]§W和§Y[RecipientExtra.GetBestName]§W缔结婚约的提议",
+        "stage": 1
     },
     {
         "key": "ARRANGE_BETROTHAL_INTERACTION_OFFER",
         "original": "[Actor.GetBestName] proposes that [ActorExtra.GetBestName] and [RecipientExtra.GetBestName] should get betrothed",
-        "translation": "[Actor.GetBestName]提议[ActorExtra.GetBestName]和[RecipientExtra.GetBestName]订婚",
-        "stage": 5
+        "translation": "[Actor.GetBestName]提议[ActorExtra.GetBestName]和[RecipientExtra.GetBestName]缔结婚约",
+        "stage": 1
     },
     {
         "key": "ARRANGE_BETROTHAL_INTERACTION_LETTER",
         "original": "We propose that [ActorExtra.GetBestName] and [RecipientExtra.GetBestName] should get betrothed.",
-        "translation": "本座提议[ActorExtra.GetBestName]和[RecipientExtra.GetBestName]订婚。",
+        "translation": "本座提议[ActorExtra.GetBestName]和[RecipientExtra.GetBestName]缔结婚约。",
         "stage": 1
     },
     {
@@ -29702,14 +29702,14 @@
     {
         "key": "BREAK_BETROTHAL_INTERACTION_0",
         "original": "Break the Betrothal between §Y[Recipient.GetBestName]§W and §Y[Recipient.Betrothed.GetBestName]§W.",
-        "translation": "撕毁 §Y[Recipient.GetBestName]§! 和 §Y[Recipient.Betrothed.GetBestName]§!的婚约。",
-        "stage": 5
+        "translation": "撕毁§Y[Recipient.GetBestName]§W和§Y[Recipient.Betrothed.GetBestName]§W的婚约。",
+        "stage": 1
     },
     {
         "key": "BREAK_BETROTHAL_INTERACTION_1",
         "original": "This will lower §Y$OTHER$§W's opinion of you by §R$VALUE$§W.",
-        "translation": "这将使 §Y$OTHER$§!对你的好感下降 §R$VALUE$§!。",
-        "stage": 5
+        "translation": "这将使§Y$OTHER$§W对你的好感下降 §R$VALUE$§W。",
+        "stage": 1
     },
     {
         "key": "BREAK_BETROTHAL_INTERACTION_ACCEPT_SETUP",
@@ -29720,8 +29720,8 @@
     {
         "key": "BREAK_BETROTHAL_INTERACTION_ACCEPT_LOG",
         "original": "§Y[Actor.GetBestName]§W has broken the betrothal between §Y[Recipient.GetBestName]§W and §Y[Recipient.Betrothed.GetBestName]§W.",
-        "translation": "§Y[Actor.GetBestName]§!撕毁了§Y[Recipient.GetBestName]§!和§Y[Recipient.Betrothed.GetBestName]§!的婚约。",
-        "stage": 5
+        "translation": "§Y[Actor.GetBestName]§W撕毁了§Y[Recipient.GetBestName]§W和§Y[Recipient.Betrothed.GetBestName]§W的婚约。",
+        "stage": 1
     },
     {
         "key": "BREAK_BETROTHAL_INTERACTION_LETTER",
@@ -29738,8 +29738,8 @@
     {
         "key": "OFFER_SUCCESSION_MARRIGE_INTERACTION_DESC",
         "original": "Arrange a Matrilineal Marriage between two characters",
-        "translation": "为两个人物安排入赘婚姻",
-        "stage": 5
+        "translation": "为两个角色安排入赘婚姻",
+        "stage": 1
     },
     {
         "key": "OFFER_SUCCESSION_MARRIGE_INTERACTION_LONG_DESC",
@@ -29756,8 +29756,8 @@
     {
         "key": "OFFER_SUCCESSION_MARRIGE_INTERACTION_1",
         "original": "Select a character from the court of §Y$CHAR$§W.",
-        "translation": "选择一位 §Y$CHAR$§!宫廷里的人物。",
-        "stage": 5
+        "translation": "选择一位§Y$CHAR$§W宫廷里的角色。",
+        "stage": 1
     },
     {
         "key": "OFFER_SUCCESSION_MARRIGE_INTERACTION_ACCEPT_SETUP",
@@ -29768,8 +29768,8 @@
     {
         "key": "OFFER_SUCCESSION_MARRIGE_INTERACTION_ACCEPT_LOG",
         "original": "§Y[Recipient.GetBestName]§W accepts the suggestion by §Y[Actor.GetBestName]§W that §Y[ActorExtra.GetBestName]§W and §Y[RecipientExtra.GetBestName]§W should marry matrilineally",
-        "translation": "§Y[Recipient.GetBestName]§! 接受 §Y[Actor.GetBestName]§! 的提议，§Y[ActorExtra.GetBestName]§! 和 §Y[RecipientExtra.GetBestName]§! 缔结入赘婚姻",
-        "stage": 5
+        "translation": "§Y[Recipient.GetBestName]§W接受§Y[Actor.GetBestName]§W的提议，§Y[ActorExtra.GetBestName]§W和§Y[RecipientExtra.GetBestName]§W缔结入赘婚姻",
+        "stage": 1
     },
     {
         "key": "OFFER_SUCCESSION_MARRIGE_INTERACTION_DECLINE_SETUP",
@@ -29780,8 +29780,8 @@
     {
         "key": "OFFER_SUCCESSION_MARRIGE_INTERACTION_DECLINE_LOG",
         "original": "§Y[Recipient.GetBestName]§W declines the suggestion by §Y[Actor.GetBestName]§W that §Y[ActorExtra.GetBestName]§W and §Y[RecipientExtra.GetBestName]§W should marry matrilineally",
-        "translation": "§Y[Recipient.GetBestName]§! 拒绝 §Y[Actor.GetBestName]§! 的提议，§Y[ActorExtra.GetBestName]§! 和 §Y[RecipientExtra.GetBestName]§! 不会缔结入赘婚姻",
-        "stage": 5
+        "translation": "§Y[Recipient.GetBestName]§W拒绝§Y[Actor.GetBestName]§W的提议，§Y[ActorExtra.GetBestName]§W和 §Y[RecipientExtra.GetBestName]§W不会缔结入赘婚姻",
+        "stage": 1
     },
     {
         "key": "OFFER_SUCCESSION_MARRIGE_INTERACTION_OFFER",
@@ -29804,8 +29804,8 @@
     {
         "key": "OFFER_MARRIGE_INTERACTION_DESC",
         "original": "Arrange a Marriage between two characters",
-        "translation": "为两个人物安排婚姻",
-        "stage": 5
+        "translation": "为两个角色安排婚姻",
+        "stage": 1
     },
     {
         "key": "OFFER_MARRIGE_INTERACTION_LONG_DESC",
@@ -29816,14 +29816,14 @@
     {
         "key": "OFFER_MARRIGE_INTERACTION_0",
         "original": "Select the potential bride and groom.",
-        "translation": "挑选潜在的新娘和新郎。",
-        "stage": 5
+        "translation": "选择潜在的新娘和新郎。",
+        "stage": 1
     },
     {
         "key": "OFFER_MARRIGE_INTERACTION_1",
         "original": "Select a character from the court of §Y$CHAR$§W.",
-        "translation": "选择一位 §Y$CHAR$§!宫廷里的人物。",
-        "stage": 5
+        "translation": "选择一位§Y$CHAR$§W宫廷里的角色。",
+        "stage": 1
     },
     {
         "key": "OFFER_MARRIGE_INTERACTION_ACCEPT_SETUP",
@@ -29834,8 +29834,8 @@
     {
         "key": "OFFER_MARRIGE_INTERACTION_ACCEPT_LOG",
         "original": "§Y[Recipient.GetBestName]§W accepts the suggestion by §Y[Actor.GetBestName]§W that §Y[ActorExtra.GetBestName]§W and §Y[RecipientExtra.GetBestName]§W should marry",
-        "translation": "§Y[Recipient.GetBestName]§! 接受 §Y[Actor.GetBestName]§! 的提议，§Y[ActorExtra.GetBestName]§! 和 §Y[RecipientExtra.GetBestName]§! 结为夫妻",
-        "stage": 5
+        "translation": "§Y[Recipient.GetBestName]§W接受§Y[Actor.GetBestName]§W的提议，§Y[ActorExtra.GetBestName]§W和§Y[RecipientExtra.GetBestName]§W结为夫妻",
+        "stage": 1
     },
     {
         "key": "OFFER_MARRIGE_INTERACTION_DECLINE_SETUP",
@@ -29846,8 +29846,8 @@
     {
         "key": "OFFER_MARRIGE_INTERACTION_DECLINE_LOG",
         "original": "§Y[Recipient.GetBestName]§W declines the suggestion by §Y[Actor.GetBestName]§W that §Y[ActorExtra.GetBestName]§W and §Y[RecipientExtra.GetBestName]§W should marry",
-        "translation": "§Y[Recipient.GetBestName]§! 拒绝 §Y[Actor.GetBestName]§! 的提议，§Y[ActorExtra.GetBestName]§! 和 §Y[RecipientExtra.GetBestName]§! 不会结为夫妻",
-        "stage": 5
+        "translation": "§Y[Recipient.GetBestName]§W拒绝§Y[Actor.GetBestName]§W的提议，§Y[ActorExtra.GetBestName]§W和§Y[RecipientExtra.GetBestName]§W不会结为夫妻",
+        "stage": 1
     },
     {
         "key": "OFFER_MARRIGE_INTERACTION_OFFER",
@@ -29888,8 +29888,8 @@
     {
         "key": "RANSOM_CHARACTER_INTERACTION_1",
         "original": "Offer to ransom [ThirdPartyCharacter.GetTitledFirstName] to [Recipient.GetBestName] for §Y$GOLD$§W gold.",
-        "translation": "向[Recipient.GetBestName]提议以§Y$GOLD$§!黄金赎回[ThirdPartyCharacter.GetTitledFirstName]",
-        "stage": 5
+        "translation": "向[Recipient.GetBestName]提议以§Y$GOLD$§W金币赎回[ThirdPartyCharacter.GetTitledFirstName]",
+        "stage": 1
     },
     {
         "key": "RANSOM_CHARACTER_INTERACTION_ACCEPT_SETUP",
@@ -29900,8 +29900,8 @@
     {
         "key": "RANSOM_CHARACTER_INTERACTION_ACCEPT_LOG",
         "original": "§Y[Recipient.GetBestName]§W ransomed §Y[ThirdPartyCharacter.GetTitledFirstName]§W from the clutches of §Y[Actor.GetBestName]§W",
-        "translation": "§Y[Recipient.GetBestName]§! 将 §Y[ThirdPartyCharacter.GetTitledFirstName]§! 赎出 §Y[Actor.GetBestName]§!的地牢",
-        "stage": 5
+        "translation": "§Y[Recipient.GetBestName]§W将§Y[ThirdPartyCharacter.GetTitledFirstName]§W从§Y[Actor.GetBestName]§W的地牢中赎出",
+        "stage": 1
     },
     {
         "key": "RANSOM_CHARACTER_INTERACTION_DECLINE_SETUP",
@@ -29912,8 +29912,8 @@
     {
         "key": "RANSOM_CHARACTER_INTERACTION_DECLINE_LOG",
         "original": "§Y[Recipient.GetBestName]§W declined to ransom §Y[ThirdPartyCharacter.GetTitledFirstName]§W from §Y[Actor.GetBestName]§W",
-        "translation": "§Y[Recipient.GetBestName]§! 拒绝将 §Y[ThirdPartyCharacter.GetTitledFirstName]§!  赎出 §Y[Actor.GetBestName]§!的地牢",
-        "stage": 5
+        "translation": "§Y[Recipient.GetBestName]§W拒绝将§Y[ThirdPartyCharacter.GetTitledFirstName]§W从§Y[Actor.GetBestName]§W的地牢中赎出",
+        "stage": 1
     },
     {
         "key": "RANSOM_CHARACTER_INTERACTION_OFFER",
