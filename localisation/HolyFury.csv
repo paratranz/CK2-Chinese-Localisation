@@ -6833,7 +6833,7 @@ ShortMiracle06;驱[saint_person.Religion.GetRandomEvilGodNameCap]之邪物;;;;;;
 ShortMiracle07;与[saint_person.Religion.GetHighGodName]造物对话;;;;;;;;;;;;x
 ShortMiracle08;履水救人;;;;;;;;;;;;x
 ShortMiracle09;[saint_person.GetHerHis]遗声可闻;;;;;;;;;;;;x
-ShortMiracle10;炙手可热;;;;;;;;;;;;x
+ShortMiracle10;双手暖人;;;;;;;;;;;;x
 ShortMiracle11;祈祷移重;;;;;;;;;;;;x
 ShortMiracle12;死后携头而行;;;;;;;;;;;;x
 ShortMiracle13;以爱祝泉;;;;;;;;;;;;x
@@ -11625,13 +11625,13 @@ CB_NAME_SHEPHERDS_CRUSADE;对[Title.GetBaseName]的牧羊人十字军;;;;;;;;;;;
 WAR_NAME_SHEPHERDS_CRUSADE;$ORDER$ [Title.GetBaseName]之牧羊人十字军;;;;;;;;;;;;x
 CB_NAME_NORTHERN_CRUSADE;对[Title.GetBaseName]的条顿战争;;;;;;;;;;;;x
 WAR_NAME_NORTHERN_CRUSADE;$ORDER$ 条顿骑士团夺取$OTHER_TITLE$战争;;;;;;;;;;;;x
-northern_crusade_war_desc;§Y[Root.GetTitledName]§!可以使用这个宣战接口攻击§Y$TITLE$§!上的§Y$TARGET$§!，作为使北方异教徒转信的北方十字军的一部分。;;;;;;;;;;;;x
+northern_crusade_war_desc;§Y[Root.GetTitledName]§!可以使用这个宣战接口攻击§Y$TITLE$§!夺取§Y$TARGET$§!，作为使北方异教徒转信的北方十字军的一部分。;;;;;;;;;;;;x
 KINGDOM_OF_THE_SHEPHERDS;[shepherds_kingdom.GetBaseName];;;;;;;;;;;;x
-vassalize_knights_templar_opinion_TT;§Y[d_knights_templar.Holder.GetTitledName]§!对§Y[Root.GetTitledName]§!有高于§G25§!的好感度;;;;;;;;;;;;x
-vassalize_knights_hospitaller_opinion_TT;§Y[d_knights_hospitaler.Holder.GetTitledName]§!对§Y[Root.GetTitledName]§!有高于§G25§!的好感度;;;;;;;;;;;;x
-vassalize_knights_calatrava_opinion_TT;§Y[d_knights_calatrava.Holder.GetTitledName]§!对§Y[Root.GetTitledName]§!有高于§G25§!的好感度;;;;;;;;;;;;x
-vassalize_knights_santiago_opinion_TT;§Y[d_knights_santiago.Holder.GetTitledName]§!对§Y[Root.GetTitledName]§!有高于§G25§!的好感度;;;;;;;;;;;;x
-vassalize_holy_sepulchre_TT;§Y[d_holy_sepulchre.Holder.GetTitledName]§!对§Y[Root.GetTitledName]§!有高于§G25§!的好感度;;;;;;;;;;;;x
+vassalize_knights_templar_opinion_TT;§Y[d_knights_templar.Holder.GetTitledName]§!对§Y[Root.GetTitledName]§!有大于等于§G25§!的好感度;;;;;;;;;;;;x
+vassalize_knights_hospitaller_opinion_TT;§Y[d_knights_hospitaler.Holder.GetTitledName]§!对§Y[Root.GetTitledName]§!有大于等于§G25§!的好感度;;;;;;;;;;;;x
+vassalize_knights_calatrava_opinion_TT;§Y[d_knights_calatrava.Holder.GetTitledName]§!对§Y[Root.GetTitledName]§!有大于等于§G25§!的好感度;;;;;;;;;;;;x
+vassalize_knights_santiago_opinion_TT;§Y[d_knights_santiago.Holder.GetTitledName]§!对§Y[Root.GetTitledName]§!有大于等于§G25§!的好感度;;;;;;;;;;;;x
+vassalize_holy_sepulchre_TT;§Y[d_holy_sepulchre.Holder.GetTitledName]§!对§Y[Root.GetTitledName]§!有大于等于§G25§!的好感度;;;;;;;;;;;;x
 knights_hospitaler_island_rename;[potential_title.GetBaseName]骑士团;;;;;;;;;;;;x
 crusade_invalidate_other_wars_TT;不能攻击十字军战士同僚或教宗;;;;;;;;;;;;x
 string_duke_duchess_male;公爵;;;;;;;;;;;;x
@@ -11648,7 +11648,7 @@ form_teutonic_order_TT;你组建了§Y[d_teutonic_order.GetName]§!;;;;;;;;;;;;x
 form_teutonic_order_jerusalem_TT;§Y[k_jerusalem.GetName]§!现在在一名§Y[Root.Religion.GetName]§!统治者手中;;;;;;;;;;;;x
 form_holy_sepulchre_TT;成立§Y[d_holy_sepulchre.GetName]§!;;;;;;;;;;;;x
 form_vassalize_holy_sepulchre_TT;附庸§Y[d_holy_sepulchre.GetName]§!;;;;;;;;;;;;x
-form_holy_sepulchre_jerusalem_TT;§Y耶路撒冷伯爵领§!被§Y[Root.GetTitledName]§!或领内其他领主占据;;;;;;;;;;;;x
+form_holy_sepulchre_jerusalem_TT;§Y耶路撒冷伯爵领§!被§Y[Root.GetTitledName]§!或领内其他领主持有;;;;;;;;;;;;x
 string_armor;铠甲;;;;;;;;;;;;x
 crusade_artifact_name;[Root.GetCrusaderWeaponName];;;;;;;;;;;;x
 string_crusader_culture_weapon_cross;[Root.Culture.GetName]圣十字[Root.GetWeaponType];;;;;;;;;;;;x
@@ -11657,17 +11657,17 @@ string_crusader_culture_weapon_crusader;[Root.Culture.GetName]十字军[Root.Get
 string_crusader_positive_weapon_crusader;[Root.GetPositiveWeaponAttribute]十字军[Root.GetWeaponType];;;;;;;;;;;;x
 string_crusader_culture_weapon_cross_pope;[ThePope.Culture.GetName]圣十字[Root.GetWeaponType];;;;;;;;;;;;x
 string_crusader_culture_weapon_crusader_pope;[ThePope.Culture.GetName]十字军[Root.GetWeaponType];;;;;;;;;;;;x
-crusade_artifact_description_sword;这把剑由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]的十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
-crusade_artifact_description_ax;这柄斧由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]的十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
-crusade_artifact_description_lance;这根长枪由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]的十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
-crusade_artifact_description_mace;这柄锤由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]的十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
-crusade_artifact_description_armor;这副盔甲由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]的十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
+crusade_artifact_description_sword;这把剑由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
+crusade_artifact_description_ax;这柄斧由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
+crusade_artifact_description_lance;这根长枪由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
+crusade_artifact_description_mace;这柄锤由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
+crusade_artifact_description_armor;这副盔甲由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
 crusade_saint_finger_name;[found_saint.GetTitledName]的指骨;;;;;;;;;;;;x
-crusade_saint_finger_description;这是[found_saint.GetTitledName]的指骨，由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]的十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
+crusade_saint_finger_description;这是[found_saint.GetTitledName]的指骨，由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
 crusade_saint_bone_name;[found_saint.GetTitledName]的骨头;;;;;;;;;;;;x
-crusade_saint_bone_description;这是[found_saint.GetTitledName]的圣骨，由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]的十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
+crusade_saint_bone_description;这是[found_saint.GetTitledName]的圣骨，由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
 crusade_skull_name;[found_saint.GetTitledName]的头骨;;;;;;;;;;;;x
-crusade_skull_description;这是[found_saint.GetTitledName]的头骨，由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]的十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
+crusade_skull_description;这是[found_saint.GetTitledName]的头骨，由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
 crusade_tongue_name;[found_saint.GetTitledName]的舌头;;;;;;;;;;;;x
 crusade_tongue_description;这是[found_saint.GetTitledName]的舌头，由[ThePope.GetTitledName]赐予[Root.GetTitledName]，以表彰在[crusade_title.GetName]的十字军中[Root.GetHerHis]积极表现。;;;;;;;;;;;;x
 crusade_saintly_finger_name_placeholder;[Root.GetRandomSaintName]的指骨;;;;;;;;;;;;x
@@ -11701,9 +11701,9 @@ saintly_bloodline_same_religion_TT;[From.Founder.Religion.GetName];;;;;;;;;;;;x
 saintly_bloodline_same_culture_TT;[From.Founder.Culture.GetName];;;;;;;;;;;;x
 old_frankish_opinion;[old_frankish.GetName]文化好感;;;;;;;;;;;;x
 custom_russia;罗斯地区;;;;;;;;;;;;x
-EVTOPTB8405;这活加我一个。;;;;;;;;;;;;x
+EVTOPTB8405;我会加入这项事业。;;;;;;;;;;;;x
 EVTOPTB_HF_46010_TT;掠夺墓地的准备工作开始了。;;;;;;;;;;;;x
-opinion_crusade_agreement;支持十字军事业;;;;;;;;;;;;x
+opinion_crusade_agreement;赞许加入十字军;;;;;;;;;;;;x
 opinion_disapprove_of_crusade_unpledge;十字军的叛徒;;;;;;;;;;;;x
 secretly_convert_to_bon_holy_site;秘密皈依苯教;;;;;;;;;;;;x
 secretly_convert_to_bon_holy_site_desc;聚集在圣地§Y[Root.Location.GetName]§!的§Y苯教§!朝圣者们对他们信仰的深度与热情打动了我。我被吸引着秘密改信……;;;;;;;;;;;;x
@@ -11715,10 +11715,10 @@ impious_beatification;不虔的宣福礼;;;;;;;;;;;;x
 impious_beatification_tooltip;最近的教会分歧导致大众对教会§R权威§!缺乏信心;;;;;;;;;;;;x
 impious_canonization;不虔的封圣;;;;;;;;;;;;x
 impious_canonization_tooltip;对§Y[saint_person.GetTitledName]§!的封圣导致大众对教会§R权威§!缺乏信心;;;;;;;;;;;;x
-CB_NAME_DEPOSE_IMPIOUS_POPE;废黜不虔诚的教宗;;;;;;;;;;;;x
+CB_NAME_DEPOSE_IMPIOUS_POPE;废黜渎圣教宗;;;;;;;;;;;;x
 WAR_NAME_DEPOSE_IMPIOUS_POPE;$FIRST_ADJ$圣座战争;;;;;;;;;;;;x
-depose_impious_pope_desc;一场圣座战争，什么才是信仰的正义之路。;;;;;;;;;;;;x
-join_war_to_despose_pope_TT;我会响应§Y[papal_attacker.GetTitledFirstName]§!在[papal_attacker.GetHerHis]驱逐不虔诚§Y[From.GetTitledName]§!的战争中。;;;;;;;;;;;;x
+depose_impious_pope_desc;一场争夺圣座的战争，什么才是信仰的正义之路。;;;;;;;;;;;;x
+join_war_to_despose_pope_TT;我会响应§Y[papal_attacker.GetTitledFirstName]§!加入[papal_attacker.GetHerHis]废黜渎圣§Y[From.GetTitledName]§!的战争中。;;;;;;;;;;;;x
 join_war_to_defend_pope_TT;我会响应§Y[From.GetTitledFirstName]§!在[From.GetHerHis]对抗邪恶§Y[papal_attacker.GetTitledName]§!的防御战中。;;;;;;;;;;;;x
 EVTOPTC_HF_40093_TT;你会在§Y[From.GetTitledName]§!和§Y[FromFrom.GetTitledName]§!的冲突中保持中立。;;;;;;;;;;;;x
 depose_impious_pope_cb_win_TT;§Y[Root.GetTitledName]§!和[Root.GetHerHis]盟友们：\n	获得§G100.00§!虔诚。;;;;;;;;;;;;x
