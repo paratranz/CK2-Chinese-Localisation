@@ -11719,18 +11719,18 @@ CB_NAME_DEPOSE_IMPIOUS_POPE;废黜渎圣教宗;;;;;;;;;;;;x
 WAR_NAME_DEPOSE_IMPIOUS_POPE;$FIRST_ADJ$圣座战争;;;;;;;;;;;;x
 depose_impious_pope_desc;一场争夺圣座的战争，什么才是信仰的正义之路。;;;;;;;;;;;;x
 join_war_to_despose_pope_TT;我会响应§Y[papal_attacker.GetTitledFirstName]§!加入[papal_attacker.GetHerHis]废黜渎圣§Y[From.GetTitledName]§!的战争中。;;;;;;;;;;;;x
-join_war_to_defend_pope_TT;我会响应§Y[From.GetTitledFirstName]§!在[From.GetHerHis]对抗邪恶§Y[papal_attacker.GetTitledName]§!的防御战中。;;;;;;;;;;;;x
+join_war_to_defend_pope_TT;我会响应§Y[From.GetTitledFirstName]§!加入[From.GetHerHis]防御战争，对抗邪恶的§Y[papal_attacker.GetTitledName]§!。;;;;;;;;;;;;x
 EVTOPTC_HF_40093_TT;你会在§Y[From.GetTitledName]§!和§Y[FromFrom.GetTitledName]§!的冲突中保持中立。;;;;;;;;;;;;x
-depose_impious_pope_cb_win_TT;§Y[Root.GetTitledName]§!和[Root.GetHerHis]盟友们：\n	获得§G100.00§!虔诚。;;;;;;;;;;;;x
+depose_impious_pope_cb_win_TT;§Y[Root.GetTitledName]§!和[Root.GetHerHis]盟友们：\n	获得 §G100.00§! 虔诚。;;;;;;;;;;;;x
 depose_impious_pope_cb_lose_TT;§Y[Root.GetTitledName]§!和[Root.GetHerHis]盟友们：\n	获得特质「§Y绝罚§!」\n 	失去 §R100§! 虔诚。;;;;;;;;;;;;x
-depose_impious_pope_modifier;推翻堕落的教宗;;;;;;;;;;;;x
-failed_to_depose_impious_pope_modifier;堕落教宗赢得了圣座;;;;;;;;;;;;x
+depose_impious_pope_modifier;推翻邪恶教宗;;;;;;;;;;;;x
+failed_to_depose_impious_pope_modifier;渎圣教宗赢得了圣座战争;;;;;;;;;;;;x
 CHRONICLE_BECAME_RULER_OF_CRUSADER_KINGDOM;[Root.GetTitledName]成为了新十字军国家[Root.PrimaryTitle.GetName]的统治者。[From.GetTitledName]授予[Root.GetSheHeCap]一份家族编年史的副本让[Root.GetHerHim]一同带往新王国。;;;;;;;;;;;;x
 CHRONICLE_BECAME_LORD_OF_CRUSADER_KINGDOM;[Root.GetTitledName]成为了新十字军国家的一位[Root.GetLordLady]。[From.GetTitledName]授予[Root.GetSheHeCap]一份家族编年史的副本让[Root.GetHerHim]一同带往新国家。;;;;;;;;;;;;x
 nick_the_protector;保卫者;;;;;;;;;;;;x
 nick_the_guardian;守护者;;;;;;;;;;;;x
 opinion_beneficiary;受益人;;;;;;;;;;;;x
-opinion_granted_crusader_kingdom;授予十字军王国;;;;;;;;;;;;x
+opinion_granted_crusader_kingdom;获授予十字军王国;;;;;;;;;;;;x
 opinion_selfish_crusader;自私的十字军战士;;;;;;;;;;;;x
 opinion_very_grateful_donation;非常感激;;;;;;;;;;;;x
 opinion_deeply_insulted;被严重侮辱;;;;;;;;;;;;x
@@ -11812,12 +11812,12 @@ tooltip_feudal_elector_vote_stranger;[From.GetSheHeCap]与我的习俗格格不�
 tooltip_feudal_elector_vote_foreigner;[From.GetSheHeCap]是个外国人;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_strangers_pet;[From.GetSheHeCap]是外国人的宠物;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_foreigners_pet;[From.GetSheHeCap]是外国人的傀儡;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_political_concerns;如果当选，[From.GetSheHe]可能会从国外统治;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_encroaching_foreigner;[From.GetSheHeCap]是个外国入侵者;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_political_concerns;如果当选，[From.GetSheHe]可能会在国外统治;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_encroaching_foreigner;[From.GetSheHeCap]是个蚕食我们的外国入侵者;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_infidel;[From.GetSheHeCap]是异端;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_heathen;[From.GetSheHeCap]是个异教徒;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_heretic;[From.GetSheHeCap]是异端;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_heathen_dogmatic;[From.GetSheHeCap]是个肮脏的异教徒;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_heathen_dogmatic;[From.GetSheHeCap]是个肮脏的不信者;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_uncivilized;[From.GetSheHeCap]是个未开化的野蛮人;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_settled;[From.GetSheHeCap]是个懒惰的定居者;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_dynasty;[From.GetSheHeCap]与我同一家族;;;;;;;;;;;;x
@@ -11828,7 +11828,7 @@ tooltip_feudal_elector_vote_prestige_positive;[From.GetSheHeCap]是位颇负盛�
 tooltip_feudal_elector_vote_piety_negative;[From.GetSheHeCap]是个邪恶的[From.GetManWoman];;;;;;;;;;;;x
 tooltip_feudal_elector_vote_piety_positive;[From.GetSheHeCap]是个虔诚的[From.GetManWoman];;;;;;;;;;;;x
 tooltip_feudal_elector_vote_martial_education;[From.GetSheHeCap]是位战士;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_diplomatic_education;[From.GetSheHeCap]是个外交家;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_diplomatic_education;[From.GetSheHeCap]是位外交家;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_spiritual_education;[From.GetSheHeCap]是位学者;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_strong_claimant;[From.GetSheHeCap]是这个头衔的§Y宣称者§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_weak_claimant;[From.GetSheHeCap]是这个头衔的§Y宣称者§!;;;;;;;;;;;;x
@@ -11838,21 +11838,21 @@ tooltip_feudal_elector_vote_haughty;[From.GetSheHeCap]因为§Y自大§!的特�
 tooltip_feudal_elector_vote_conscientious;[From.GetSheHeCap]因为§Y尽责§!的特质而前途光明;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_curious;[From.GetSheHeCap]因为§Y好奇§!的特质而前途光明;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_idolizer;[From.GetSheHeCap]是一名§Y狂信者§!;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_depressed;[From.GetSheHeCap]有§Y沮丧消沉§!特质;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_drunkard;[From.GetSheHeCap]有§Y醉鬼§!特质;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_depressed;[From.GetSheHeCap]§Y沮丧消沉§!;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_drunkard;[From.GetSheHeCap]是个§Y醉鬼§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_drunkard_muslim;[From.GetSheHeCap]是个邪恶的§Y醉鬼§!;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_immortal;如果[From.GetSheHe]当选，鉴于他是一名永生者，选举将不会再举行;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_immortal;如果[From.GetSheHe]当选，不会再有下一场选举了;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_incapable;[From.GetSheHeCap]没有能力进行统治;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_incapable_warrior;[From.GetSheHeCap]是垂死之躯;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_infirm;[From.GetSheHeCap]有§Y体弱多病§!特质;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_infirm;[From.GetSheHeCap]§Y体弱多病§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_infirm_diplomat;[From.GetHerHisCap]思维混乱;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_lunatic;[From.GetSheHeCap]是个胡言乱语的§Y疯子§!;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_maimed;[From.GetSheHeCap]有§Y残废§!特质;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_maimed;[From.GetSheHeCap]§Y残废§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_maimed_warrior;[From.GetSheHeCap]是个§Y残废§!的废物;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_possessed;[From.GetSheHeCap]不太稳定;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_possessed;[From.GetSheHeCap]太不稳定;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_possessed_vs_zealous;[From.GetSheHeCap]已被§Y恶魔附身§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_physician;[From.GetSheHeCap]是位饱学的§Y医师§!;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_scarred;[From.GetSheHeCap]有§Y伤疤§!特质;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_scarred;[From.GetSheHeCap]有§Y伤疤§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_scarred_mid;[From.GetSheHeCap]§Y伤痕累累§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_scarred_high;[From.GetSheHeCap]身经百战，身上已经布满§Y怖人伤疤§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_stressed;[From.GetSheHeCap]过于§Y紧张不安§!;;;;;;;;;;;;x
@@ -11876,7 +11876,7 @@ tooltip_feudal_elector_vote_rabies;[From.GetSheHeCap]是个可怜的§Y狂犬病
 tooltip_feudal_elector_vote_scurvy;[From.GetSheHeCap]正受§Y坏血病§!折磨;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_sickly;[From.GetSheHeCap]天生§Y多病§!并可能就会死去;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_has_small_pox;[From.GetSheHeCap]感染了§Y天花§!;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_has_bubonic_plague;[From.GetSheHeCap]即将因§Y瘟疫§!而死;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_has_bubonic_plague;[From.GetSheHeCap]即将因§Y大瘟疫§!而死;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_disfigured;[From.GetSheHeCap]已经§Y毁容§!得面目全非;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_disfigured_byzantine;[From.GetSheHeCap]已经§Y毁容§!得面目全非;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_disfigured_warrior;[From.GetSheHeCap]已经§Y毁容§!得面目全非;;;;;;;;;;;;x
@@ -11889,14 +11889,14 @@ tooltip_feudal_elector_vote_severely_injured;[From.GetSheHeCap]§Y身受重伤§
 tooltip_feudal_elector_vote_bastard;[From.GetSheHeCap]是个§Y私生子§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_born_in_the_purple;[From.GetSheHeCap]§Y生于紫室§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_child_of_consort;[From.GetSheHeCap]并非嫡出;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_attractive;[From.GetSheHeCap]是个§Y魅力非凡§!的[From.GetManWoman];;;;;;;;;;;;x
+tooltip_feudal_elector_vote_attractive;[From.GetSheHeCap]是位§Y魅力非凡§!的[From.GetManWoman];;;;;;;;;;;;x
 tooltip_feudal_elector_vote_ugly;[From.GetSheHeCap]§Y丑陋不堪§!;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_genius_diplomat;[From.GetSheHeCap]是个才华横溢的[From.GetManWoman];;;;;;;;;;;;x
-tooltip_feudal_elector_vote_genius;[From.GetSheHeCap]是个才华横溢的[From.GetManWoman];;;;;;;;;;;;x
-tooltip_feudal_elector_vote_quick_diplomat;[From.GetSheHeCap]是个非常聪明的[From.GetManWoman];;;;;;;;;;;;x
-tooltip_feudal_elector_vote_quick;[From.GetSheHeCap]是个非常聪明的[From.GetManWoman];;;;;;;;;;;;x
-tooltip_feudal_elector_vote_strong;[From.GetSheHeCap]是个§Y强壮§!的[From.GetManWoman];;;;;;;;;;;;x
-tooltip_feudal_elector_vote_strong_warrior;[From.GetSheHeCap]是个§Y强壮§!的[From.GetManWoman];;;;;;;;;;;;x
+tooltip_feudal_elector_vote_genius_diplomat;[From.GetSheHeCap]是位才华横溢的[From.GetManWoman];;;;;;;;;;;;x
+tooltip_feudal_elector_vote_genius;[From.GetSheHeCap]是位才华横溢的[From.GetManWoman];;;;;;;;;;;;x
+tooltip_feudal_elector_vote_quick_diplomat;[From.GetSheHeCap]是位非常聪明的[From.GetManWoman];;;;;;;;;;;;x
+tooltip_feudal_elector_vote_quick;[From.GetSheHeCap]是位非常聪明的[From.GetManWoman];;;;;;;;;;;;x
+tooltip_feudal_elector_vote_strong;[From.GetSheHeCap]是位§Y强壮§!的[From.GetManWoman];;;;;;;;;;;;x
+tooltip_feudal_elector_vote_strong_warrior;[From.GetSheHeCap]是位§Y强壮§!的[From.GetManWoman];;;;;;;;;;;;x
 tooltip_feudal_elector_vote_clubfooted;[From.GetSheHeCap]§Y足内翻§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_dwarf;[From.GetSheHeCap]是个§Y侏儒§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_dwarf_warrior;[From.GetSheHeCap]只是个§Y侏儒§!;;;;;;;;;;;;x
@@ -11906,11 +11906,11 @@ tooltip_feudal_elector_vote_hunchback_warrior;[From.GetSheHeCap]是个畸形的�
 tooltip_feudal_elector_vote_imbecile;[From.GetSheHeCap]是个§Y痴呆§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_imbecile_diplomat;[From.GetSheHeCap]是个不适任的白痴;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_inbred;[From.GetSheHeCap]是个有§Y近亲缺陷§!的怪胎;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_lisp;[From.GetSheHeCap]有§Y口齿不清§!特质;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_lisp;[From.GetSheHeCap]§Y口齿不清§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_slow;[From.GetSheHeCap]思维§Y迟钝§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_slow_diplomat;[From.GetSheHeCap]意志薄弱;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_stutter;[From.GetSheHeCap]§Y口吃§!;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_weak;[From.GetSheHeCap]有§Y虚弱§!特质;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_weak;[From.GetSheHeCap]§Y虚弱§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_weak_warrior;[From.GetSheHeCap]是个弱者;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_robust;[From.GetSheHeCap]有§Y健壮§!特质;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_robust_warrior;[From.GetSheHeCap]是个健康且结实的[From.GetManWoman];;;;;;;;;;;;x
@@ -11919,22 +11919,22 @@ tooltip_feudal_elector_vote_dull;[From.GetSheHeCap]有§Y笨拙§!特质;;;;;;;;
 tooltip_feudal_elector_vote_feeble;[From.GetSheHeCap]有§Y脆弱§!特质;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_feeble_warrior;[From.GetSheHeCap]是个§Y脆弱§!的弱者;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_chaste_positive;[From.GetSheHeCap]有§Y忠贞§!特质;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_chaste_negative;[From.GetSheHeCap]是个假正经;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_chaste_negative;[From.GetSheHeCap]是个老古板;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_temperate_positive;[From.GetSheHeCap]有§Y温和§!特质;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_temperate_negative;[From.GetSheHeCap]过于严厉;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_charitable_positive;[From.GetSheHeCap]有§Y慷慨§!特质;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_charitable_negative;[From.GetSheHeCap]是个浪费的人;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_diligent_positive;[From.GetSheHeCap]有§Y勤奋§!特质;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_diligent_negative;[From.GetSheHeCap]是个劳碌的人;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_diligent_negative;[From.GetSheHeCap]是个劳碌命;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_patient_positive;[From.GetSheHeCap]有§Y耐心§!特质;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_patient_negative;[From.GetSheHeCap]是个软骨头;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_patient_negative;[From.GetSheHeCap]优柔寡断;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_kind_positive;[From.GetSheHeCap]品德高尚;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_kind_negative;[From.GetSheHeCap]是个温顺的家伙;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_humble_positive;[From.GetSheHeCap]有§Y谦卑§!特质;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_humble_negative;[From.GetSheHeCap]没有骨气;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_lustful_positive;[From.GetSheHeCap]是个有魅力的人;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_lustful_negative;[From.GetSheHeCap]有§Y色欲§!特质;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_gluttonous_positive;[From.GetSheHeCap]是个慷慨的东道主;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_gluttonous_positive;[From.GetSheHeCap]是位豪爽的东道主;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_gluttonous_negative;[From.GetSheHeCap]有§Y暴食§!特质;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_greedy_positive;[From.GetSheHeCap]很吝啬;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_greedy_negative;[From.GetSheHeCap]有§Y贪婪§!特质;;;;;;;;;;;;x
@@ -11945,17 +11945,17 @@ tooltip_feudal_elector_vote_wroth_negative;[From.GetSheHeCap]有§Y易怒§!特�
 tooltip_feudal_elector_vote_evil_negative;[From.GetSheHeCap]太专断;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_proud_positive;[From.GetSheHeCap]有§Y骄傲§!特质;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_proud_negative;[From.GetSheHeCap]有§Y骄傲§!特质;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_ambitious_positive;[From.GetSheHeCap]有§Y野心勃勃§!特质;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_ambitious_negative;[From.GetSheHeCap]有§Y野心勃勃§!特质;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_ambitious_positive;[From.GetSheHeCap]§Y野心勃勃§!;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_ambitious_negative;[From.GetSheHeCap]§Y野心勃勃§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_arbitrary_negative;[From.GetSheHeCap]有§Y专断§!特质;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_brave_positive;[From.GetSheHeCap]有§Y勇敢§!特质;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_brave_positive_warrior;[From.GetSheHeCap]有§Y勇敢§!特质;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_brave_negative;[From.GetSheHeCap]太鲁莽;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_content_positive;[From.GetSheHeCap]有§Y安于现状§!特质;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_content_negative;[From.GetSheHeCap]有§Y安于现状§!特质;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_content_positive;[From.GetSheHeCap]§Y安于现状§!;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_content_negative;[From.GetSheHeCap]§Y安于现状§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_craven_negative;[From.GetSheHeCap]有§Y怯懦§!特质;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_craven_negative_warrior;[From.GetSheHeCap]是个卑劣的懦夫;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_cynical_positive;[From.GetSheHeCap]是个有正义感的人;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_cynical_positive;[From.GetSheHeCap]思考有深度;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_cynical_negative;[From.GetSheHeCap]有§Y愤世嫉俗§!特质;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_cynical_negative_dogmatic;[From.GetSheHeCap]是个亵渎者;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_deceitful_negative;[From.GetSheHeCap]有§Y狡诈§!特质;;;;;;;;;;;;x
@@ -11978,7 +11978,7 @@ tooltip_feudal_elector_vote_shieldmaiden_negative_patriarchal;[From.GetSheHeCap]
 tooltip_feudal_elector_vote_saoshyant_descendant_positive;[From.GetSheHeCap]是神圣§Y萨奥希扬特§!的后裔;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_adventurer_positive;[From.GetSheHeCap]是一位勇敢的§Y冒险者§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_adventurer_negative;[From.GetSheHeCap]是一个投机取巧的§Y冒险者§!;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_berserker_positive;[From.GetSheHeCap]是一个§Y狂战士§!;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_berserker_positive;[From.GetSheHeCap]是一位§Y狂战士§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_berserker_negative;[From.GetSheHeCap]是一个野蛮的疯[From.GetManWoman];;;;;;;;;;;;x
 tooltip_feudal_elector_vote_blinded_negative;[From.GetSheHeCap]被§Y致盲§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_blinded_negative_warrior;[From.GetSheHeCap]被§Y致盲§!;;;;;;;;;;;;x
@@ -12003,8 +12003,8 @@ tooltip_feudal_elector_vote_baptized_by_bishop;[From.GetSheHeCap]§Y受洗§!自
 tooltip_feudal_elector_vote_baptized_by_pope;[From.GetSheHeCap]由§Y教宗施洗§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_baptized_by_patriarch;[From.GetSheHeCap]由§Y牧首施洗§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_pagan_branch_negative;[From.GetSheHeCap]曲解[Root.Religion.GetScriptureName];;;;;;;;;;;;x
-tooltip_feudal_elector_vote_spoiled_courtier;[From.GetSheHeCap]是个未受检验的，被宠坏的[From.GetManWoman];;;;;;;;;;;;x
-tooltip_feudal_elector_anti_vote_ruler_lunatic;我不信任一个§Y精神错乱§!的统治者的判断;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_spoiled_courtier;[From.GetSheHeCap]未证明过自己，是个被宠坏的[From.GetManWoman];;;;;;;;;;;;x
+tooltip_feudal_elector_anti_vote_ruler_lunatic;我不信任一个§Y精神错乱§!统治者的判断;;;;;;;;;;;;x
 tooltip_feudal_elector_anti_vote_ruler_possessed;我不信任一个§Y恶魔附身§!的统治者的判断;;;;;;;;;;;;x
 tooltip_feudal_elector_pro_vote_ruler_just;我信任一位§Y正直§!的统治者的判断;;;;;;;;;;;;x
 tooltip_feudal_elector_anti_vote_ruler_tyrant;我不会支持一个§Y暴君§!的候选人;;;;;;;;;;;;x
@@ -12013,7 +12013,7 @@ tooltip_feudal_elector_vote_opinion_positive;我喜欢[From.GetHerHim];;;;;;;;;;
 tooltip_feudal_elector_anti_vote_ruler_opinion_negative;我不信任一个我不喜欢的统治者的判断;;;;;;;;;;;;x
 tooltip_feudal_elector_pro_vote_ruler_opinion_positive;我信任一位我喜欢的统治者的判断;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_tribalism;[From.GetSheHeCap]是个傲慢的贵族;;;;;;;;;;;;x
-tooltip_feudal_elector_vote_anti_tanist;家族关怀;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_anti_tanist;家族忧虑;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_prime_age;[From.GetSheHeCap]正处于[From.GetHerHis]全盛期;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_martial_score;[From.GetSheHeCap]是一名有经验的§Y指挥官§!;;;;;;;;;;;;x
 tooltip_feudal_elector_vote_martial_score_negative;[From.GetSheHeCap]是一名没有经验的§Y指挥官§!;;;;;;;;;;;;x
@@ -12037,13 +12037,13 @@ tooltip_elder_elector_vote_displeased_low_diplomacy;[From.GetSheHeCap]是一位�
 tooltip_elder_elector_vote_displeased_low_stewardship;[From.GetSheHeCap]是一位慷慨的财政总管;;;;;;;;;;;;x
 tooltip_elder_elector_vote_displeased_low_intrigue;[From.GetSheHeCap]是一个诚实的[From.GetManWoman];;;;;;;;;;;;x
 tooltip_elder_elector_vote_displeased_low_learning;[From.GetSheHeCap]是一位直率的演说家;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_reckless;[From.GetSheHeCap]是个鲁莽的暴君;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_devious;[From.GetSheHeCap]像条狡猾的蛇;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_reckless;[From.GetSheHeCap]是个鲁莽的畜生;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_devious;[From.GetSheHeCap]是条狡猾的蛇;;;;;;;;;;;;x
 tooltip_elder_elector_vote_displeased_high_martial;[From.GetSheHeCap]是个好战的暴徒;;;;;;;;;;;;x
 tooltip_elder_elector_vote_displeased_high_diplomacy;[From.GetSheHeCap]是个双面的谄媚者;;;;;;;;;;;;x
 tooltip_elder_elector_vote_displeased_high_stewardship;[From.GetSheHeCap]是个贪婪的恶棍;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_high_intrigue;[From.GetSheHeCap]像条奸诈的毒蛇;;;;;;;;;;;;x
-tooltip_elder_elector_vote_displeased_high_learning;[From.GetSheHeCap]是个脱节的狂人;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_high_intrigue;[From.GetSheHeCap]是条奸诈的毒蛇;;;;;;;;;;;;x
+tooltip_elder_elector_vote_displeased_high_learning;[From.GetSheHeCap]是个脱节的怪人;;;;;;;;;;;;x
 EVTDESCZHF23008;[Root.GetHaruspexName]把囚犯切开。当这[potential_victim.GetManWoman]的头被砍掉后，占卜师开始翻[potential_victim.GetHerHis]内脏。最终的结果是非常明显的：诸神会在接下来的战争中眷顾我们！军队既然确信我们的胜利是上天注定的，现在就会重新振作起来战斗。;;;;;;;;;;;;x
 EVTDESCZHF23009;[Root.GetHaruspexName]将囚犯切开，当这个[potential_victim.GetManWoman]的头被砍掉后，占卜师开始翻[potential_victim.GetHerHis]内脏。最终的结果不是非常的明显，但是占卜师向我保证绝对没有任何迹象显示诸神反对我们这场战争。我们的军队现在十分满足，因为他们知道他们现在并不会与诸神的旨意对抗。;;;;;;;;;;;;x
 EVTDESCZHF23010;[Root.GetHaruspexName]将囚犯切开，当这个[potential_victim.GetManWoman]的头被砍掉后，占卜师开始翻[potential_victim.GetHerHis]内脏。不幸的是，占卜师的结果并不是我期待的那种。很明显，诸神不愿意我们发动这场战争。这对我们的士气可不是什么好消息……;;;;;;;;;;;;x
