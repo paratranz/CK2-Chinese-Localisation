@@ -296,7 +296,7 @@ HAS_ANY_SYMPTOM_NOT;$VICTIM|Y$没有任何病症;;;;;;;;;;;;x
 PROVINCE_INFECTED_WITH;正在肆虐的瘟疫：;;;;;;;;;;;;x
 PROVINCE_PROTECTED_BY;有$VALUE|G$%的瘟疫抗性;;;;;;;;;;;;x
 PROVINCE_MIGHT_GET;可能感染下列疾病：;;;;;;;;;;;;x
-PROVINCE_MIGHT_GET_LINE;感染$DISEASE|Y$的几率 - $VALUE|Y$;;;;;;;;;;;;x
+PROVINCE_MIGHT_GET_LINE;－$VALUE|Y$的几率感染$DISEASE|Y$;;;;;;;;;;;;x
 EPIDEMICS_TOOLTIP_TITLE;§Y瘟疫§!;;;;;;;;;;;;x
 EPIDEMICS_TOOLTIP_TOTAL;世界正受到$VALUE|Y$个瘟疫肆虐，包括$MAJOR|R$主要瘟疫。;;;;;;;;;;;;x
 EPIDEMICS_TOOLTIP_TOTAL_MAJOR_ONLY;世界正受$MAJOR|R$主要瘟疫肆虐。;;;;;;;;;;;;x
@@ -305,7 +305,7 @@ EPIDEMICS_TOOLTIP_PLAYER_MAJOR_MINOR;你的领地正受$MAJOR|R$主要瘟疫和$
 EPIDEMICS_TOOLTIP_PLAYER_MAJOR_ONLY;你的领地正受$MAJOR|R$主要瘟疫肆虐;;;;;;;;;;;;x
 EPIDEMICS_TOOLTIP_PLAYER_MINOR_ONLY;你的领地正受$MINOR|Y$瘟疫肆虐;;;;;;;;;;;;x
 EPIDEMICS_TOOLTIP_DELAYED_PLAYER;现在在你领地内的瘟疫：;;;;;;;;;;;;x
-EPIDEMICS_TOOLTIP_DELAYED_VALUE;- $DISEASE$开始于$PROVINCE|Y$，$START_DATE|Y$;;;;;;;;;;;;x
+EPIDEMICS_TOOLTIP_DELAYED_VALUE;－$DISEASE$开始于$PROVINCE|Y$，$START_DATE|Y$;;;;;;;;;;;;x
 EPIDEMICS_TOOLTIP_DELAYED_OTHERS;世界其他瘟疫：;;;;;;;;;;;;x
 EPIDEMICS_TOOLTIP_DELAYED_OTHERS_NOPLAYER;全世界正在肆虐的瘟疫：;;;;;;;;;;;;x
 HAS_LESS_THAN_SYMPTOMS;$VICTIM|Y$有少于$VALUE$个病症;;;;;;;;;;;;x
@@ -1925,7 +1925,7 @@ opinion_sought_mystic_knowledge;寻求我的知识;;;;;;;;;;;;x
 opinion_finished_mystic_task_1;有前途的学生;;;;;;;;;;;;x
 opinion_finished_mystic_task_2;出色的学生;;;;;;;;;;;;x
 opinion_finished_mystic_task_3;惊人的学生;;;;;;;;;;;;x
-EVTDESC_RIP_12050;你的[Root.GetTreasurerName][Root.job_treasurer.GetTitledFirstName]想要谈谈那个城堡下的旧隧道。关键是隧道应当得到更好的维护，因为世道不太平 - 你不会知道你什么时候需要通过隧道快速离开。;;;;;;;;;;;;x
+EVTDESC_RIP_12050;你的[Root.GetTreasurerName][Root.job_treasurer.GetTitledFirstName]想要谈谈那个城堡下的旧隧道。关键是隧道应当得到更好的维护，因为世道不太平——你不会知道你什么时候需要通过隧道快速离开。;;;;;;;;;;;;x
 EVTOPTA_RIP_12050;多么优秀的想法，[Root.job_treasurer.GetFirstName]！;;;;;;;;;;;;x
 EVTOPTA_RIP_12050_TOOLTIP;你在你的物品里翻找一通，然后递给§Y[secluded_steward.GetFirstName]§!一个褪色的隧道地图\n;;;;;;;;;;;;x
 EVTOPTB_RIP_12050;这很聪明！我会……考虑一下。;;;;;;;;;;;;x
@@ -3473,7 +3473,7 @@ convert_to_spouse_religion;改信宗教;;;;;;;;;;;;x
 convert_to_spouse_religion_named;皈依[Root.GetPossPronoun][Root.Religion.GetName]信仰;;;;;;;;;;;;x
 convert_to_spouse_religion_desc;配偶或妾室的枕边风非常具有说服力。我会皈依§Y[Root.GetFirstName]§!的信仰并成为一名§Y[Root.Religion.GetName][Root.Religion.GetGroupName]信徒§!……;;;;;;;;;;;;x
 opinion_built_building;资助直辖领的建筑;;;;;;;;;;;;x
-PROVINCE_TOOLTIP_DISEASE_WEIGHT;- $DISEASE|Y$，感染率为 $VALUE|R$（$UNDEFENDED$）;;;;;;;;;;;;x
+PROVINCE_TOOLTIP_DISEASE_WEIGHT;－$DISEASE|Y$，感染率为 $VALUE|R$（$UNDEFENDED$）;;;;;;;;;;;;x
 PROVINCE_TOOLTIP_DISEASE_WEIGHT_UNDEFENDED;$VALUE$ 在 $DISEASE_RESISTANCE$ 的§Y防疫能力§!之前;;;;;;;;;;;;x
 IS_PROVINCE_OWNER_OR_LIEGE;省份由你或你的封臣拥有;;;;;;;;;;;;x
 GAME_STARTED_IN;游戏开始于 $DATE|Y$;;;;;;;;;;;;x
