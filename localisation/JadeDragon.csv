@@ -862,7 +862,7 @@ china_civil_war_desc;[Root.GetName]爆发了一场内乱，导致东方贸易受
 china_mongol_invasion_desc;北方的蒙古部族侵入了中国，强大的中国军队正殊死防御着帝国，这场战争极大地扰乱了贸易秩序，同时导致了大量的难民流离失所。当战况恶劣时，正统王朝的后裔可能向西流亡。;;;;;;;;;;;;x
 china_plague_desc;一场可怕的大瘟疫在[Root.GetName]爆发了，它首次出现就带走了成千上万的人命。中国的经济已经陷入崩溃，贸易也停滞了，甚至就连帝国的军队也遭受了毁灭性的打击，无力对抗全盛时期的敌人了。;;;;;;;;;;;;x
 china_golden_age_desc;[Root.GetName]已经得到了无穷无尽的力量和财富。随着中国的繁荣昌盛，东方的贸易路线不止带来了前所未闻的珍贵商品，还带来了富有和充裕的华夏文明的例证。在这个黄金时代中国皇帝会更加认为[Root.Ruler.GetHerselfHimself]是这个已知世界的[Root.Ruler.GetMasterMistress]。;;;;;;;;;;;;x
-raise_chinese_honor_guard;召集天朝近卫军;;;;;;;;;;;;x
+raise_chinese_honor_guard;召集天朝荣誉卫队;;;;;;;;;;;;x
 EVTDESC_JD_40001_A;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n[From.Offmap.Ruler.GetChineseComplimentAdjective][From.Offmap.Ruler.GetTitle][From.Offmap.Ruler.GetFullName]已经降下旨意，在西方贸易路线上建立一座富有活力的新城市，于[offmap_china.GetName]大有裨益。立此大功可以换得有利的的贸易协定，当然还有[offmap_china.Ruler.GetHerHisCap]垂青。;;;;;;;;;;;;x
 EVTDESC_JD_40001_C;[Root.GetGovernorLetterGreeting]。[Root.GetChineseLetterBlessing]。\n\n[From.Offmap.Ruler.GetChineseComplimentAdjective][From.Offmap.Ruler.GetTitle][From.Offmap.Ruler.GetFullName]已经降下旨意，赐给[Root.GetTitle]有利的贸易协定。能得到[offmap_china.Ruler.GetHerHisCap]青睐，他们也会感激涕零。;;;;;;;;;;;;x
 EVTOPTA_JD_40001;我怀疑失败也是一种选择……;;;;;;;;;;;;x
@@ -2393,7 +2393,7 @@ chinese_strategist_desc;在过去的几个世纪里，§Y[Root.Offmap.GetFullNam
 chinese_administrator_desc;通过严格的科举，§Y[Root.Offmap.GetFullName]§!造就了一批受过良好教育的士大夫阶级。您可以请求其中一员作为大臣为你服务。雇佣一个§Y士大夫§!会减少§G建造花费§!和§G建设时间§!。;;;;;;;;;;;;x
 chinese_master_engineer_desc;§Y[Root.Offmap.GetFullName]§!是无数奇妙技术的发源地。你可以邀请一位中国的将作大匠加入你的宫廷。一位§Y将作大匠§!会为你的领地提供强力的§G省份加成§!。;;;;;;;;;;;;x
 chinese_silk_road_favored_status_desc;如果能请到盖上玉玺的勘合，我们的贸易站就能招徕五湖四海的商贾，贩卖异国商品。拥有§Y互市商约§!能增加你§Y丝绸之路贸易站§!§G100%§!的价值，持续§Y25年§!。;;;;;;;;;;;;x
-chinese_imperial_marriage_desc;受§Y[Root.Offmap.Ruler.GetMediumChineseEmperorName]§!青睐的人可以替他们自己或者他们的近亲，请求与皇帝的亲属联姻。举行一场§Y皇室联姻§!将增加你 §G500§! §Y威望§!，同时与天朝签订§G和平协议§!。与公主或皇子和亲的配偶可以在战争时招募§G天朝近卫军§!。;;;;;;;;;;;;x
+chinese_imperial_marriage_desc;受§Y[Root.Offmap.Ruler.GetMediumChineseEmperorName]§!青睐的人可以替他们自己或者他们的近亲，请求与皇帝的亲属联姻。举行一场§Y皇室联姻§!将增加你 §G500§! §Y威望§!，同时与天朝签订§G和平协议§!。与公主或皇子和亲的配偶可以在战争时召集§G天朝荣誉卫队§!。;;;;;;;;;;;;x
 opinion_forced_tributary;让我们成为朝贡国;;;;;;;;;;;;x
 recently_made_tributary_tt;§Y15年§!以内没有成为过朝贡国，或者原宗主已死;;;;;;;;;;;;x
 EVTOPTA_JD_3021;我们愿为陛下效犬马之劳！;;;;;;;;;;;;x
@@ -3095,7 +3095,7 @@ d_han_tiny_2;兰花大队;;;;;;;;;;;;x
 d_han_tiny_2_adj;兰花大队;;;;;;;;;;;;x
 d_outlaws_of_the_marsh;梁山好汉;;;;;;;;;;;;x
 d_outlaws_of_the_marsh_adj;梁山好汉;;;;;;;;;;;;x
-raise_chinese_honor_guard_desc;如果你或一位你宫廷中的无地家族成员与一名天朝皇子或公主结婚，那么你就可以召集他们的近卫军加入到你当前的战争中。;;;;;;;;;;;;x
+raise_chinese_honor_guard_desc;如果你或一位你宫廷中的无地家族成员与一名天朝皇子或公主结婚，那么你就可以召集他们的荣誉卫队加入到你当前的战争中。;;;;;;;;;;;;x
 china_force_to_open;强迫[offmap_china.GetFullName]开放;;;;;;;;;;;;x
 china_invade_dragon_throne;入侵[offmap_china.GetFullName];;;;;;;;;;;;x
 offmap_likes_tributaries;喜欢朝贡国;;;;;;;;;;;;x
@@ -3116,13 +3116,13 @@ EVTOPTE_ADV_5;一个侮辱性的提议——没有协议达成！;;;;;;;;;;;;x
 has_valid_province_tt;有一个§Y[Root.GetFullName]§!感兴趣的头衔;;;;;;;;;;;;x
 china_boon_cd;§Y最近请求了恩赐§!;;;;;;;;;;;;x
 china_boon_cd_desc;你最近已经向中国求取过赏赐了，你将能在：§Y[Root.jd_china_boon_cd.GetExpiryDate]§! 后再次求取赏赐。;;;;;;;;;;;;x
-raise_chinese_honor_guard_TT;过去一年中没有召集过近卫军;;;;;;;;;;;;x
+raise_chinese_honor_guard_TT;过去一年中没有召集过荣誉卫队;;;;;;;;;;;;x
 EVTOPTA_JD_20006;我要花一整晚来学习华丽的辞藻，我要让人印象深刻！;;;;;;;;;;;;x
 EVTOPTB_JD_20006;花一两个小时准备一场简单的迎接足矣。;;;;;;;;;;;;x
 EVTOPTC_ZE_8012;呸！你在撒谎——但我不会采取其他行动。;;;;;;;;;;;;x
 defeated_decadence_revolt;打败腐化入侵;;;;;;;;;;;;x
 defeated_decadence_revolt_desc;这个角色已经击败了腐化的侵蚀——只要他们统治家族中最大的领地，他们就不会被视为腐化。;;;;;;;;;;;;x
-earmarked_regiments_tt;没有召集过近卫军;;;;;;;;;;;;x
+earmarked_regiments_tt;尚未召集荣誉卫队;;;;;;;;;;;;x
 not_forced_tt;没有被领主强迫变更继承法;;;;;;;;;;;;x
 forced_elective_tt;没有被法律要求选举继承法;;;;;;;;;;;;x
 not_swapping_tt;当前不在调动内阁成员中;;;;;;;;;;;;x
