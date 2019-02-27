@@ -74,8 +74,8 @@
     {
         "key": "TITLE_CANNOT_USURP_PRIMARY_OFF_OTHER_REL",
         "original": "§RCannot Usurp the sole primary title off a ruler of another religion who still holds land within it.§!",
-        "translation": "§R当异教角色仍拥有头衔法理下领地时无法篡夺。§!",
-        "stage": 5
+        "translation": "§R当异教角色仍拥有头衔法理领地，且该头衔是其唯一的主头衔时无法篡夺。§!",
+        "stage": 1
     },
     {
         "key": "age_child",
@@ -1761,7 +1761,7 @@
         "key": "EVTDESC_SOA_2809",
         "original": "The imperative to protect the Holy Places for Nestorian Christianity has caused the Catholicos, [Root.RelHead.GetTitledName], to declare the creation of a holy brotherhood of warrior monks - the Order of Saint Addai, named after the apostle who spread Christianity to Syria and Mesopotamia. They stand ready to smite heathens and infidels and protect the righteous in the name of any [Root.Religion.GetName] ruler who is willing to provide for their upkeep.",
         "translation": "为了保护聂斯脱里派的圣地，大牧首[Root.RelHead.GetTitledName]宣布成立武装修士组成的神圣兄弟会——圣亚戴骑士团，以在叙利亚及美索不达米亚传道的圣人命名。骑士团愿以任何提供补给的[Root.Religion.GetName]领主之名，痛击异教徒与不信者，保卫信徒，申张正义。",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "EVTOPTA_SOA_2809",
@@ -3945,7 +3945,7 @@
         "key": "EVTDESC_RoI_2107",
         "original": "You had an excellent run at the card game, and won a significant amount of money.",
         "translation": "你在纸牌游戏中表现出色，赢了一大笔钱。",
-        "stage": 1
+        "stage": 5
     },
     {
         "key": "EVTOPTA_RoI_2107",
