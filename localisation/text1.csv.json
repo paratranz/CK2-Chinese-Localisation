@@ -28100,8 +28100,8 @@
     {
         "key": "HINT_MIL_VIEW_TEXT_2",
         "original": "The 'Vassals' tab lists all your direct vassals and their opinions of you. The less they like you, the smaller the part of their levies they will send when you raise them. Vassals will pay for the maintenance of their troops even when under your command. Therefore, vassals will dislike you more for every year you keep their levies raised.",
-        "translation": "「封臣」标签列出了你所有的直属封臣和他们对你的态度。他们越不喜欢你，在你征召时他们派遣来的部队就会越少。受你指挥的封臣征召兵的维护费依然由封臣支付，因此在你征召他们的部队持续一年后，他们会越来越不喜欢你。",
-        "stage": 5
+        "translation": "「封臣」标签列出了你所有的直属封臣和他们对你的态度。他们越不喜欢你，在你调集时他们派遣来的部队就会越少。受你指挥的封臣征召兵的维护费依然由封臣支付，因此在你调集他们的部队持续一年后，他们会越来越不喜欢你。",
+        "stage": 1
     },
     {
         "key": "HINT_MIL_VIEW_TEXT_3",
@@ -28670,8 +28670,8 @@
     {
         "key": "INTERACTION_REQUIRES_NO_RAISED_UNITS",
         "original": "We cannot declare war if we have raised any army levies",
-        "translation": "征召兵已动员时不能宣战",
-        "stage": 5
+        "translation": "征召兵已调集时不能宣战",
+        "stage": 1
     },
     {
         "key": "INTERACTION_REQUIRES_RANSOM",
@@ -32534,7 +32534,7 @@
     {
         "key": "EVTDESC20420",
         "original": "[From.Liege.GetTitledName]'s Marshal, [From.GetTitledName], have been trying to raise more and more levies in [From.Location.GetName]. I can't stand [From.GetHerHim]! Perhaps I should pull some strings and see to it that no more peasants show up for his recruiting meetings?",
-        "translation": "[From.Liege.GetTitledName]的军事总管，[From.GetTitledName]，努力在[From.Location.GetName]招募越来越多的征召兵.我无法忍受[From.GetHerHim]！也许我应该幕后操纵，留心不再使农夫出席他的征兵大会",
+        "translation": "[From.Liege.GetTitledName]的军事总管，[From.GetTitledName]，努力在[From.Location.GetName]招募越来越多的征召兵。我无法忍受[From.GetHerHim]！也许我应该幕后操纵，留心不再使农夫出席他的征兵大会？",
         "stage": 1
     },
     {
@@ -87878,8 +87878,8 @@
     {
         "key": "OTHER_RAISE_OUR_TROOPS_SETUP",
         "original": "Liege Raises County Levy",
-        "translation": "领主召集省份征召兵",
-        "stage": 5
+        "translation": "领主调集省份征召兵",
+        "stage": 1
     },
     {
         "key": "OTHER_RAISE_OUR_TROOPS_LOG",
@@ -87896,8 +87896,8 @@
     {
         "key": "OTHER_RAISE_OUR_TROOPS_ALL_SETUP",
         "original": "Liege Raises our Levies",
-        "translation": "领主召集我们的征召兵",
-        "stage": 5
+        "translation": "领主调集我们的征召兵",
+        "stage": 1
     },
     {
         "key": "OTHER_RAISE_OUR_TROOPS_ALL_LOG",
@@ -87914,8 +87914,8 @@
     {
         "key": "OTHER_RAISE_OUR_TROOPS_AND_VASSALS_SETUP",
         "original": "Liege Raises all our Levies",
-        "translation": "领主召集我们全部的征召兵",
-        "stage": 5
+        "translation": "领主调集我们全部的征召兵",
+        "stage": 1
     },
     {
         "key": "OTHER_RAISE_OUR_TROOPS_AND_VASSALS_LOG",
@@ -106898,7 +106898,7 @@
     {
         "key": "RAISE_PROVINCE_LEVIES",
         "original": "Raise County Levies",
-        "translation": "动员征召兵",
+        "translation": "调集省份征召兵",
         "stage": 1
     },
     {
@@ -107024,7 +107024,7 @@
     {
         "key": "PROV_RAISE_FLEET",
         "original": "Raise Fleet",
-        "translation": "征召船只",
+        "translation": "调集舰队",
         "stage": 1
     },
     {
@@ -107390,25 +107390,25 @@
     {
         "key": "VASSAL_RAISE_DEMESNE_DESC",
         "original": "Raise Personal Levies",
-        "translation": "动员私人部队",
+        "translation": "调集私人征召兵",
         "stage": 1
     },
     {
         "key": "VASSAL_RAISE_ALL_DESC",
         "original": "Raise Realm Levies",
-        "translation": "动员全国部队",
+        "translation": "调集全领地征召兵",
         "stage": 1
     },
     {
         "key": "VASSAL_RAISE_SHIPS_DESC",
         "original": "Raise Personal Fleet",
-        "translation": "动员私人船只",
+        "translation": "调集私人舰队",
         "stage": 1
     },
     {
         "key": "VASSAL_RAISE_ALL_SHIPS_DESC",
         "original": "Raise Realm Fleets",
-        "translation": "动员全国船只",
+        "translation": "调集全国舰队",
         "stage": 1
     },
     {
@@ -107696,32 +107696,32 @@
     {
         "key": "RAISE_DEMESNE",
         "original": "Raise Personal Levies",
-        "translation": "动员私人部队",
-        "stage": 5
+        "translation": "调集私人征召兵",
+        "stage": 1
     },
     {
         "key": "DISMISS_DEMESNE",
         "original": "Dismiss Personal Levies",
-        "translation": "解散私人部队",
-        "stage": 5
+        "translation": "解散私人征召兵",
+        "stage": 1
     },
     {
         "key": "ASK_ALL_VASSALS",
         "original": "Raise Vassal Levies",
-        "translation": "动员封臣部队",
-        "stage": 5
+        "translation": "调集封臣征召兵",
+        "stage": 1
     },
     {
         "key": "ASK_ALL_VASSALS_FOR_ALL",
         "original": "Raise Realm Levies",
-        "translation": "动员全国部队",
-        "stage": 5
+        "translation": "调集全领地征召兵",
+        "stage": 1
     },
     {
         "key": "DISMISS_VASSALS",
         "original": "Dismiss Realm Levies",
-        "translation": "解散全国部队",
-        "stage": 5
+        "translation": "解散全领地征召兵",
+        "stage": 1
     },
     {
         "key": "DISMISS_HIRED",
@@ -107732,38 +107732,38 @@
     {
         "key": "RAISE_DEMESNE_SHIPS",
         "original": "Raise Personal Fleet",
-        "translation": "动员私人船只",
-        "stage": 5
+        "translation": "调集私人舰队",
+        "stage": 1
     },
     {
         "key": "DISMISS_DEMESNE_SHIPS",
         "original": "Dismiss Personal Fleet",
-        "translation": "解散私人船只",
-        "stage": 5
+        "translation": "解散私人舰队",
+        "stage": 1
     },
     {
         "key": "ASK_ALL_VASSALS_SHIPS",
         "original": "Raise Vassal Fleets",
-        "translation": "动员封臣船只",
-        "stage": 5
+        "translation": "调集封臣舰队",
+        "stage": 1
     },
     {
         "key": "ASK_ALL_VASSALS_FOR_ALL_SHIPS",
         "original": "Raise Realm Fleets",
-        "translation": "动员全国船只",
-        "stage": 5
+        "translation": "调集全国舰队",
+        "stage": 1
     },
     {
         "key": "DISMISS_VASSALS_SHIPS",
         "original": "Dismiss Realm Fleets",
-        "translation": "解散全国船只",
-        "stage": 5
+        "translation": "解散全领地舰队",
+        "stage": 1
     },
     {
         "key": "DISMISS_HIRED_SHIPS",
         "original": "Dismiss Hired Fleets",
-        "translation": "解散雇佣船只",
-        "stage": 5
+        "translation": "解散雇佣舰队",
+        "stage": 1
     },
     {
         "key": "STRAITS",
@@ -108920,8 +108920,8 @@
     {
         "key": "RAISE_LEVY",
         "original": "§YRaise Levy§!",
-        "translation": "§Y召集征召兵§!",
-        "stage": 5
+        "translation": "§Y调集征召兵§!",
+        "stage": 1
     },
     {
         "key": "RAISE_SHIP_LEVY",
@@ -108932,7 +108932,7 @@
     {
         "key": "DISMISS_LEVY",
         "original": "§YDismiss Levy§!",
-        "translation": "§Y解雇部队§!",
+        "translation": "§Y解散征召兵§!",
         "stage": 1
     },
     {
@@ -109922,8 +109922,8 @@
     {
         "key": "RAISE_NO_PROVINCE_LEVIES",
         "original": "You have already raised all levies from this county.",
-        "translation": "你已经动员了这个省份的所有征召兵。",
-        "stage": 5
+        "translation": "你已经调集了这个省份的所有征召兵。",
+        "stage": 1
     },
     {
         "key": "RAISE_NO_SETTLEMENTS",
@@ -109940,8 +109940,8 @@
     {
         "key": "DISMISS_NO_PROVINCE_LEVIES",
         "original": "You have not raised any levies from this county",
-        "translation": "你没有动员这个省份的士兵",
-        "stage": 5
+        "translation": "你尚未调集这个省份的征召兵",
+        "stage": 1
     },
     {
         "key": "DISMISS_NO_PROVINCE_SHIPS",
@@ -117314,8 +117314,8 @@
     {
         "key": "LEVY_OTHER_OCCUPIED",
         "original": "We cannot raise our levy while §Y$SETTLEMENT$§R is occupied",
-        "translation": "当§Y$SETTLEMENT$§R被占领时，我们无法动员征召兵",
-        "stage": 5
+        "translation": "当§Y$SETTLEMENT$§R被占领时，我们无法调集征召兵",
+        "stage": 1
     },
     {
         "key": "SIEGE_TO_FEW_MEN",

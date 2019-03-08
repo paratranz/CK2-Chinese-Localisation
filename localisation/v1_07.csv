@@ -224,7 +224,7 @@ LIEGE_LEVY_DESC_COULD_SUPPLY;§Y$VASSAL$§!能够提供最多 §Y$NUM$§! $TYPE$
 LIEGE_LEVY_DESC_LIEGE_TOTAL;你最多能够征集 $PERC$（§Y$NUM$§!）由于：\n;;;;;;;;;;;;x
 LIEGE_LEVY_DESC_TAXLIEGE;$VASSAL$效忠于$TAX_LIEGE$：$VALUE$;;;;;;;;;;;;x
 LIEGE_LEVY_DESC_CROWN;王权法设定最低值为为：$VALUE$;;;;;;;;;;;;x
-LIEGE_LEVY_DESC_DEPLETION;由于征召兵已经耗尽目前只有 §Y$NUM$§! $TYPE$能够被征召;;;;;;;;;;;;x
+LIEGE_LEVY_DESC_DEPLETION;由于征召兵已经耗尽目前只有 §Y$NUM$§! $TYPE$能够被调集;;;;;;;;;;;;x
 TROOPS;部队;;;;;;;;;;;;x
 LIEGE_COSTS;领主征召兵维护费：§Y$LEVY$§!\n领主税收：§Y$TAX$§!;;;;;;;;;;;;x
 LIEGE_EXPENSE;领主;;;;;;;;;;;;x
@@ -646,14 +646,14 @@ EVTOPTA6317;闪蹄，我任命你为王国的[Root.GetChancellorName]。;;;;;;;;
 EVTDESC6318;你疯狂的[Root.Liege.GetTitle]基于[Root.Liege.GetHerHis]无尽的智慧已经决定解除你[Root.Liege.GetChancellorName]的职位。闪蹄，[Root.Liege.GetHerHis]最爱的马，将会接替你的位置。;;;;;;;;;;;;x
 horse_chancellor;你被迫经受这个耻辱，注视着闪蹄被牵进内阁大厅并被任命为[Root.Liege.GetChancellorName]。;;;;;;;;;;;;x
 EVTOPTA6318;这次这个疯子做得太过分了……;;;;;;;;;;;;x
-RAISE_PROVINCE_OWNLEVIES;调集当地领地征召兵（§Y$SIZE$§! 部队）\n;;;;;;;;;;;;x
-RAISE_PROVINCE_OWNFLEET;调集当地领地征召舰队（§Y$SIZE$§! 船只）\n;;;;;;;;;;;;x
-RAISE_PROVINCE_LIEGELEVIES;调集当地领主征召兵;;;;;;;;;;;;x
-RAISE_PROVINCE_LIEGEFLEET;调集当地领主征召舰队;;;;;;;;;;;;x
-RAISE_LIEGELEVY;调集领主征召兵;;;;;;;;;;;;x
-RAISE_LIEGEFLEET;调集领主征召舰队;;;;;;;;;;;;x
+RAISE_PROVINCE_OWNLEVIES;调集当地直辖地产的征召兵（§Y$SIZE$§! 部队）\n;;;;;;;;;;;;x
+RAISE_PROVINCE_OWNFLEET;调集当地直辖地产的舰队（§Y$SIZE$§! 船只）\n;;;;;;;;;;;;x
+RAISE_PROVINCE_LIEGELEVIES;调集当地领主的征召兵;;;;;;;;;;;;x
+RAISE_PROVINCE_LIEGEFLEET;调集当地领主的征召舰队;;;;;;;;;;;;x
+RAISE_LIEGELEVY;调集该领主的征召兵;;;;;;;;;;;;x
+RAISE_LIEGEFLEET;调集该领主的征召舰队;;;;;;;;;;;;x
 RAISE_LIEGELEVY_LONG;属于§Y$VASSAL$§!（§Y$SIZE$§! $TYPE$）\n;;;;;;;;;;;;x
-DISMISS_LIEGELEVY;解散领主征召兵;;;;;;;;;;;;x
+DISMISS_LIEGELEVY;解散该领主的征召兵;;;;;;;;;;;;x
 CANNOT_BUY_RET_ROOM;\n你不能创建这支近卫军，你已经达到了最大的近卫军数量。;;;;;;;;;;;;x
 CANNOT_BUY_RET_WEALTH;\n你不能创建这支近卫军，你不能负担它的费用。;;;;;;;;;;;;x
 COST_TO_CREATE;创建花费：§Y$COST$§!\n;;;;;;;;;;;;x
@@ -679,13 +679,13 @@ RETTYPE_CUL_SOUTH_SLA;古萨尔;;;;;;;;;;;;x
 RETTYPE_CUL_DUTCH;古腾塔克民兵;;;;;;;;;;;;x
 MAKE_CAPITAL_EFFECT;迁都至§Y$CAPITAL$§!\n;;;;;;;;;;;;x
 MAKE_PROVINCE_CAPITAL_EFFECT;把§Y$CAPITAL$§!作为§Y$PROVINCE$§!的首府\n;;;;;;;;;;;;x
-ARMY_LEVIES;军队征募;;;;;;;;;;;;x
-FLEET_LEVIES;舰队征募;;;;;;;;;;;;x
-CREATE_RETINUE_EFFECT;$WHO$得到了一个§Y$RETINUE$§!近卫军;;;;;;;;;;;;x
+ARMY_LEVIES;征召兵;;;;;;;;;;;;x
+FLEET_LEVIES;征召舰队;;;;;;;;;;;;x
+CREATE_RETINUE_EFFECT;$WHO$得到了一支§Y$RETINUE$§!近卫军;;;;;;;;;;;;x
 CAN_BUY_RETINUE_TRIGGER_NOT;$WHO$没有至少§Y$NEED$§!近卫军空余;;;;;;;;;;;;x
 CAN_BUY_RETINUE_TRIGGER;$WHO$有至少§Y$NEED$§!近卫军空余;;;;;;;;;;;;x
 TROOPTYPE_RETCOST_ENTRY;$TYPE$：§Y$COST$§!（§Y$EACH$§! 块每名士兵）\n;;;;;;;;;;;;x
-TECH_RECRUIT_DESC;§Y$BONUS$§! 近卫军§!;;;;;;;;;;;;x
+TECH_RECRUIT_DESC;§Y$BONUS$§! 近卫军;;;;;;;;;;;;x
 TECH_RECRUIT_DESC2;§Y$BONUS$§! 征召兵;;;;;;;;;;;;x
 TECH_CAPITAL;§Y$CAPITAL$§!科技奖励：$BONUS$;;;;;;;;;;;;x
 MODIFIER_GLOBAL_SUPPLY_LIMIT;全局补给上限;;;;;;;;;;;;x
@@ -693,9 +693,9 @@ REINF_UNIT_SOL;补员：§Y$AMOUNT$§! 名士兵/月;;;;;;;;;;;;x
 REINF_UNIT_SHP;补员：§Y$AMOUNT$§! 艘战船/月;;;;;;;;;;;;x
 GAME_USES;这款游戏现在正在运行 §Y$DLC$§! DLC;;;;;;;;;;;;x
 RETINUE_EXPL;§Y近卫军§!\n这些数字是你目前的近卫军数量以及你为他们支付的维护费。;;;;;;;;;;;;x
-ARMY_EXPL;§Y征召兵§!\n这些数字显示你目前已调集了多少征召兵以及需要支付的维护费用。;;;;;;;;;;;;x
+ARMY_EXPL;§Y征召兵§!\n这些数字显示你目前已调集的征召兵数量以及需要支付的维护费用。;;;;;;;;;;;;x
 NAVY_EXPL;§Y征召舰队§!\n这些数字显示你目前已调集了多少舰队以及需要支付的维护费用。;;;;;;;;;;;;x
-NAVY_EXPL_DEL;你可以从你的领地以及你的直属封臣那里征召舰队。\n你需要为从你的直属领地调集的征召舰队支付维护费用，但你的封臣将会为他们向你提供的征召舰队支付费用（这会让他们不高兴）。;;;;;;;;;;;;x
+NAVY_EXPL_DEL;你可以从你的领地以及你的直属封臣那里调集征召舰队。\n你需要为从你的直属地产调集的征召舰队支付维护费用，但你的封臣将会为他们向你提供的征召舰队支付费用（这会让他们不高兴）。;;;;;;;;;;;;x
 charge_on_undefended_tactic;向无防备的一路军队冲锋;;;;;;;;;;;;x
 action_improve_relations_desc;派出你的[GetChancellorName]从事一项外交使命来改善你和你的封臣们或者你和一个国家的统治者的关系。;;;;;;;;;;;;x
 action_uncover_plots_desc;派出你的[GetSpymasterName]去打消封臣们与派系联合的念头，或者为你的派系争取更多的支持者。这还会增加发现当地贵族的阴谋的可能性。;;;;;;;;;;;;x

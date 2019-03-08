@@ -2126,8 +2126,8 @@ ARTIFACT_CAN_BE_GIVEN_TO_TRIGGER_NOT;不能给予$WHO|Y$;;;;;;;;;;;;x
 TOTAL_SETTLEMENT_INCOME;总收入：$INCOME|Y$;;;;;;;;;;;;x
 RALLY_POINTS_ARMY;陆军集结点;;;;;;;;;;;;x
 RALLY_POINTS_NAVY;海军集结点;;;;;;;;;;;;x
-RALLY_POINTS_ARMY_DESC;征召兵将自动向以下最近的省份移动：;;;;;;;;;;;;x
-RALLY_POINTS_NAVY_DESC;征召船只将自动向以下最近的省份移动：;;;;;;;;;;;;x
+RALLY_POINTS_ARMY_DESC;调集的征召兵将自动向以下最近的省份移动：;;;;;;;;;;;;x
+RALLY_POINTS_NAVY_DESC;调集的征召船只将自动向以下最近的省份移动：;;;;;;;;;;;;x
 REMOVE_RALLY_POINT;§Y删除集结点§!;;;;;;;;;;;;x
 ADD_RALLY_POINT;§Y添加集结点§!;;;;;;;;;;;;x
 RALLY_POINT_INCOMING;收入：$NUM|Y$;;;;;;;;;;;;x
@@ -2349,7 +2349,7 @@ religious_cb_succ_muslim_tip;§Y[Root.GetTitledFirstName]§!附庸了§Y[This.Ge
 theocratic_feudal_government;僧侣封建制;;;;;;;;;;;;x
 custom_eastern_edge_of_map;东部边缘;;;;;;;;;;;;x
 custom_chinese_invasion_target_region;受中国影响的地区;;;;;;;;;;;;x
-ADD_RALLY_POINT_INFO;§Y打开集结点视图§!\n\n集结点功能让单位自动聚集在之前决定的省份。陆军集结点在陆军征召界面激活，海军则在海军界面激活。;;;;;;;;;;;;x
+ADD_RALLY_POINT_INFO;§Y打开集结点视图§!\n\n集结点功能让单位自动聚集在之前决定的省份。陆军集结点在征召兵界面激活，海军则在征召舰队界面激活。;;;;;;;;;;;;x
 ca_government_monastery_1;贡巴寺院;;;;;;;;;;;;x
 ca_government_monastery_2;贡巴寺院;;;;;;;;;;;;x
 ca_government_monastery_3;贡巴寺院;;;;;;;;;;;;x
@@ -2708,7 +2708,7 @@ failed_invasion_of_china;对中国的入侵失败了;;;;;;;;;;;;x
 china_offmap_decisions_failed_invasion_tt;对§Y[offmap_china.GetFullName]§!的入侵没有失败;;;;;;;;;;;;x
 invasion_of_china_cb_fail_tt;你无法和§Y[offmap_china.GetFullName]§!互动;;;;;;;;;;;;x
 NOT_ANY_VASSAL_STARTS;无封臣;;;;;;;;;;;;x
-china_invade_dragon_throne_levies_tt;没有召集任何封臣的军队;;;;;;;;;;;;x
+china_invade_dragon_throne_levies_tt;没有调集任何封臣的征召兵;;;;;;;;;;;;x
 china_invade_dragon_throne_war_tt;目前没有被入侵;;;;;;;;;;;;x
 invasion_of_china_success_tt;你的[invasion_of_china_claimant.GetRootRelation]，§Y[invasion_of_china_claimant.GetBestName]§!，将会成为新的§Y中国[invasion_of_china_claimant.GetEmperorEmpress]§!。他们的所有直系亲属和继承人都会跟随他去往中原。\n而西域都护府的所有领土也都将由你接管。;;;;;;;;;;;;x
 OFFMAP_HOSTILE;§Y采取敌对行动§!;;;;;;;;;;;;x
@@ -2820,8 +2820,8 @@ IS_VASSAL_OR_BELOW;是$VASSAL|Y$的领主或更高;;;;;;;;;;;;x
 IS_NOT_VASSAL_OR_BELOW;不是$VASSAL|Y$的领主或更高;;;;;;;;;;;;x
 IS_LIEGE_OR_ABOVE;是$LIEGE|Y$的封臣或更低;;;;;;;;;;;;x
 IS_NOT_LIEGE_OR_ABOVE;不是$LIEGE|Y$的封臣或更低;;;;;;;;;;;;x
-HAS_NOT_RAISED_LEVIES_OF;未征召$VASSAL|Y$的兵力;;;;;;;;;;;;x
-HAS_RAISED_LEVIES_OF;已征召$VASSAL|Y$的兵力;;;;;;;;;;;;x
+HAS_NOT_RAISED_LEVIES_OF;未调集$VASSAL|Y$的征召兵;;;;;;;;;;;;x
+HAS_RAISED_LEVIES_OF;已调集$VASSAL|Y$的征召兵;;;;;;;;;;;;x
 ARTIFACT_IS_NOT;宝物不是;;;;;;;;;;;;x
 ARTIFACT_IS;宝物;;;;;;;;;;;;x
 CLIMATE_IS_NOT;此地气候不是「$CLIMATE|Y$」;;;;;;;;;;;;x

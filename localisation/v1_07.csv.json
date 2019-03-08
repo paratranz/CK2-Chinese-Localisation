@@ -1346,8 +1346,8 @@
     {
         "key": "LIEGE_LEVY_DESC_DEPLETION",
         "original": "Currently only §Y$NUM$§! $TYPE$ can be raised due to the levy being depleted",
-        "translation": "由于征召兵已经耗尽目前只有 §Y$NUM$§! $TYPE$能够被征召",
-        "stage": 5
+        "translation": "由于征召兵已经耗尽目前只有 §Y$NUM$§! $TYPE$能够被调集",
+        "stage": 1
     },
     {
         "key": "TROOPS",
@@ -3878,38 +3878,38 @@
     {
         "key": "RAISE_PROVINCE_OWNLEVIES",
         "original": "Raise Own Local Holding Levies ( §Y$SIZE$§! Troops )\\n",
-        "translation": "调集当地领地征召兵（§Y$SIZE$§! 部队）\\n",
-        "stage": 5
+        "translation": "调集当地直辖地产的征召兵（§Y$SIZE$§! 部队）\\n",
+        "stage": 1
     },
     {
         "key": "RAISE_PROVINCE_OWNFLEET",
         "original": "Raise Own Local Holding Fleets ( §Y$SIZE$§! Ships )\\n",
-        "translation": "调集当地领地征召舰队（§Y$SIZE$§! 船只）\\n",
-        "stage": 5
+        "translation": "调集当地直辖地产的舰队（§Y$SIZE$§! 船只）\\n",
+        "stage": 1
     },
     {
         "key": "RAISE_PROVINCE_LIEGELEVIES",
         "original": "Raise Local Liege Levies",
-        "translation": "调集当地领主征召兵",
-        "stage": 5
+        "translation": "调集当地领主的征召兵",
+        "stage": 1
     },
     {
         "key": "RAISE_PROVINCE_LIEGEFLEET",
         "original": "Raise Local Liege Levy Fleets",
-        "translation": "调集当地领主征召舰队",
-        "stage": 5
+        "translation": "调集当地领主的征召舰队",
+        "stage": 1
     },
     {
         "key": "RAISE_LIEGELEVY",
         "original": "Raise the Liege Levy",
-        "translation": "调集领主征召兵",
-        "stage": 5
+        "translation": "调集该领主的征召兵",
+        "stage": 1
     },
     {
         "key": "RAISE_LIEGEFLEET",
         "original": "Raise the Liege Levy Fleet",
-        "translation": "调集领主征召舰队",
-        "stage": 5
+        "translation": "调集该领主的征召舰队",
+        "stage": 1
     },
     {
         "key": "RAISE_LIEGELEVY_LONG",
@@ -3920,8 +3920,8 @@
     {
         "key": "DISMISS_LIEGELEVY",
         "original": "Dismiss the Liege Levy",
-        "translation": "解散领主征召兵",
-        "stage": 5
+        "translation": "解散该领主的征召兵",
+        "stage": 1
     },
     {
         "key": "CANNOT_BUY_RET_ROOM",
@@ -4076,20 +4076,20 @@
     {
         "key": "ARMY_LEVIES",
         "original": "Army Levies",
-        "translation": "军队征募",
-        "stage": 5
+        "translation": "征召兵",
+        "stage": 1
     },
     {
         "key": "FLEET_LEVIES",
         "original": "Fleet Levies",
-        "translation": "舰队征募",
-        "stage": 5
+        "translation": "征召舰队",
+        "stage": 1
     },
     {
         "key": "CREATE_RETINUE_EFFECT",
         "original": "$WHO$ gets a §Y$RETINUE$§! retinue",
-        "translation": "$WHO$得到了一个§Y$RETINUE$§!近卫军",
-        "stage": 5
+        "translation": "$WHO$得到了一支§Y$RETINUE$§!近卫军",
+        "stage": 1
     },
     {
         "key": "CAN_BUY_RETINUE_TRIGGER_NOT",
@@ -4112,7 +4112,7 @@
     {
         "key": "TECH_RECRUIT_DESC",
         "original": "§Y$BONUS$ Retinues",
-        "translation": "§Y$BONUS$§! 近卫军§!",
+        "translation": "§Y$BONUS$§! 近卫军",
         "stage": 5
     },
     {
@@ -4160,8 +4160,8 @@
     {
         "key": "ARMY_EXPL",
         "original": "§YArmy Levies§!\\nThese numbers are the current size of all raised levies and the maintenance you pay for them.",
-        "translation": "§Y征召兵§!\\n这些数字显示你目前已调集了多少征召兵以及需要支付的维护费用。",
-        "stage": 5
+        "translation": "§Y征召兵§!\\n这些数字显示你目前已调集的征召兵数量以及需要支付的维护费用。",
+        "stage": 1
     },
     {
         "key": "NAVY_EXPL",
@@ -4172,8 +4172,8 @@
     {
         "key": "NAVY_EXPL_DEL",
         "original": "Your Fleet Levies can be raised from your Demesne holdings and your direct vassals.\\nYou pay maintenance for levies from your own holdings, but your vassals will pay for the levies they provide you (which does not make them happy).",
-        "translation": "你可以从你的领地以及你的直属封臣那里征召舰队。\\n你需要为从你的直属领地调集的征召舰队支付维护费用，但你的封臣将会为他们向你提供的征召舰队支付费用（这会让他们不高兴）。",
-        "stage": 5
+        "translation": "你可以从你的领地以及你的直属封臣那里调集征召舰队。\\n你需要为从你的直属地产调集的征召舰队支付维护费用，但你的封臣将会为他们向你提供的征召舰队支付费用（这会让他们不高兴）。",
+        "stage": 1
     },
     {
         "key": "charge_on_undefended_tactic",
