@@ -746,14 +746,14 @@
     {
         "key": "MODIFIER_ARMY_REINFORCE_RATE",
         "original": "Levy Reinforcement Rate",
-        "translation": "征召兵补充速度",
-        "stage": 5
+        "translation": "征召兵补员速度",
+        "stage": 1
     },
     {
         "key": "UNIT_LEADER_REINFORCE_RATE",
         "original": "Reinforcement rate changed by $REINFORCE$ by $LEADER|Y$",
-        "translation": "兵力补充速度被$LEADER|Y$改变为$REINFORCE$",
-        "stage": 5
+        "translation": "补员速度被$LEADER|Y$改变为$REINFORCE$",
+        "stage": 1
     },
     {
         "key": "SKIRMISH_ATTACK",
@@ -4850,7 +4850,7 @@
     {
         "key": "tributary_permanent_cb_desc",
         "original": "§Y$TARGET$§! is weak, but if they would just pay you tribute in the form of gold and soldiers you could protect them!\\n\\nThrough war you can force any realm that you or one of your §YTributary States§! border to pay you §Y20%§! of their income and §Y15%§! of their levy reinforcements as tribute.\\nWill only break free if the §YSuzerain§! has §Rnegative§! §YPrestige§!, is §RNOT§! §YIndependent§!, has §Rless§! §YRealm Size§! than the §YTributary State§! or §Rdeclines a defensive§! §YCall to Arms§! from the §YTributary State§!.\\nThis type of §YTributary§! can §RNOT§! be called to war.",
-        "translation": "§Y$TARGET$§!十分虚弱，但是如果他们以金钱和士兵的形式向你交付贡税，你就会提供保护！\\n\\n你可以通过战争强迫任何你或你§Y朝贡国§!的邻国缴纳 §Y20%§! 收入和 §Y15%§! 的征召兵增援力量以作为贡赋。\\n只有在§Y宗主国§!拥有§R负§!§Y威望§!、§R不是§!§Y独立领主§!、§Y领土规模§!§R小于§!§Y朝贡国§!，或者是§R拒绝防御性§!§Y朝贡国§!的§Y战争召唤§!的时候才会脱离朝贡。\\n这种类型的§Y朝贡国§!§R不可以§!被召入战争。",
+        "translation": "§Y$TARGET$§!十分虚弱，但是如果他们以金钱和士兵的形式向你交付贡税，你就会提供保护！\\n\\n你可以通过战争强迫任何你或你§Y朝贡国§!的邻国缴纳 §Y20%§! 收入和 §Y15%§! 的征召兵补员以作为贡赋。\\n只有在§Y宗主国§!拥有§R负§!§Y威望§!、§R不是§!§Y独立领主§!、§Y领土规模§!§R小于§!§Y朝贡国§!，或者是§R拒绝防御性§!§Y朝贡国§!的§Y战争召唤§!的时候才会脱离朝贡。\\n这种类型的§Y朝贡国§!§R不可以§!被召入战争。",
         "stage": 1
     },
     {
@@ -11864,14 +11864,14 @@
     {
         "key": "SETTLEMENT_MAX_REINFORCEMENT_RATE",
         "original": "Max reinforcement: $AMOUNT|Y$/month",
-        "translation": "最大增援速度：$AMOUNT|Y$/月",
-        "stage": 5
+        "translation": "最大补员速度：$AMOUNT|Y$/月",
+        "stage": 1
     },
     {
         "key": "REINFORCEMENT_BASE_RATE",
         "original": "Base reinforcement rate: $RATE|Y$%",
-        "translation": "基础增援速度：$RATE|Y$%",
-        "stage": 5
+        "translation": "基础补员速度：$RATE|Y$%",
+        "stage": 1
     },
     {
         "key": "REINFORCEMENT_RATE_FROM_HOLDING",
@@ -12842,8 +12842,8 @@
     {
         "key": "TRIBUTARY_REINFORCEMENT_DESC",
         "original": "* Tributary provides $VALUE|Y$% of their reinforcements to their suzerain",
-        "translation": "* 朝贡国提供$VALUE|Y$%的军队增援给他们的宗主国",
-        "stage": 5
+        "translation": "* 朝贡国提供$VALUE|Y$%的军队补员给他们的宗主国",
+        "stage": 1
     },
     {
         "key": "TRIBUTARY_PRESTIGE_SUZERAIN_DESC",
@@ -19154,8 +19154,8 @@
     {
         "key": "china_invade_dragon_throne_desc",
         "original": "The §Y[offmap_china.GetFullName]§! is stable and prospering, with the arrogant [offmap_china.Ruler.GetEmperorEmpress] convinced of their invincibility - you will prove them wrong!\\n\\nInvading China is no easy task - you will face the full might of their armies, while suffering a §R75%§! penalty to your §YLevy Reinforcement Rate§!. Winning means placing your §YDynasty§! on the Dragon Throne, and you will also receive vast spoils of war. If you lose your realm will be §Rshattered§!!",
-        "translation": "§Y[offmap_china.GetFullName]§!稳定且繁荣，[offmap_china.Ruler.GetEmperorEmpress]相信他们天下无敌——你会证明他们是错的！\\n\\n入侵中国并非易事——你将面对他们的全部军队，同时你的§Y征召兵补充速度§!面临 §R75%§! 的惩罚。胜利意味着你的§Y家族§!登基龙椅，你获得丰厚的战利品。如果你输了你的领土将§R四分五裂§!！",
-        "stage": 5
+        "translation": "§Y[offmap_china.GetFullName]§!稳定且繁荣，[offmap_china.Ruler.GetEmperorEmpress]相信他们天下无敌——你会证明他们是错的！\\n\\n入侵中国并非易事——你将面对他们的全部军队，同时你的§Y征召兵补员速度§!面临 §R75%§! 的惩罚。胜利意味着你的§Y家族§!登基龙椅，你获得丰厚的战利品。如果你输了你的领土将§R四分五裂§!！",
+        "stage": 1
     },
     {
         "key": "String_End_Unrest_Worsened",

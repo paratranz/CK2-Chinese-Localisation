@@ -124,8 +124,8 @@ OUT_OF_SUPPLIES_ATTRITION;来自缺乏补给的损耗：$VALUE|R$%;;;;;;;;;;;;x
 ABOVE_SUPPLY_LIMIT_ATTRITION;来自补给上限的损耗：$VALUE|R$%;;;;;;;;;;;;x
 ATTRITION_COMMANDER_EFFECT;$LEADER|Y$：$VALUE$;;;;;;;;;;;;x
 ATTRITION_CURRENT;每月损耗总量：§Y$VALUE$%§!;;;;;;;;;;;;x
-MODIFIER_ARMY_REINFORCE_RATE;征召兵补充速度;;;;;;;;;;;;x
-UNIT_LEADER_REINFORCE_RATE;兵力补充速度被$LEADER|Y$改变为$REINFORCE$;;;;;;;;;;;;x
+MODIFIER_ARMY_REINFORCE_RATE;征召兵补员速度;;;;;;;;;;;;x
+UNIT_LEADER_REINFORCE_RATE;补员速度被$LEADER|Y$改变为$REINFORCE$;;;;;;;;;;;;x
 SKIRMISH_ATTACK;冲击伤害;;;;;;;;;;;;x
 SKIRMISH_DEFENCE;冲击防御;;;;;;;;;;;;x
 MELEE_ATTACK;近战伤害;;;;;;;;;;;;x
@@ -808,7 +808,7 @@ offmap_submission_tip;§Y[Root.GetTitledFirstName]§!用武力强制§Y[This.Get
 CB_NAME_TRIBUTARY;逼迫纳贡;;;;;;;;;;;;x
 CB_NAME_PERMANENT_TRIBUTARY;建立朝贡国;;;;;;;;;;;;x
 WAR_NAME_PERMANENT_TRIBUTARY;$ORDER$ $FIRST_ADJ$令$DEFENDER$朝贡战争;;;;;;;;;;;;x
-tributary_permanent_cb_desc;§Y$TARGET$§!十分虚弱，但是如果他们以金钱和士兵的形式向你交付贡税，你就会提供保护！\n\n你可以通过战争强迫任何你或你§Y朝贡国§!的邻国缴纳 §Y20%§! 收入和 §Y15%§! 的征召兵增援力量以作为贡赋。\n只有在§Y宗主国§!拥有§R负§!§Y威望§!、§R不是§!§Y独立领主§!、§Y领土规模§!§R小于§!§Y朝贡国§!，或者是§R拒绝防御性§!§Y朝贡国§!的§Y战争召唤§!的时候才会脱离朝贡。\n这种类型的§Y朝贡国§!§R不可以§!被召入战争。;;;;;;;;;;;;x
+tributary_permanent_cb_desc;§Y$TARGET$§!十分虚弱，但是如果他们以金钱和士兵的形式向你交付贡税，你就会提供保护！\n\n你可以通过战争强迫任何你或你§Y朝贡国§!的邻国缴纳 §Y20%§! 收入和 §Y15%§! 的征召兵补员以作为贡赋。\n只有在§Y宗主国§!拥有§R负§!§Y威望§!、§R不是§!§Y独立领主§!、§Y领土规模§!§R小于§!§Y朝贡国§!，或者是§R拒绝防御性§!§Y朝贡国§!的§Y战争召唤§!的时候才会脱离朝贡。\n这种类型的§Y朝贡国§!§R不可以§!被召入战争。;;;;;;;;;;;;x
 tributary_cb_desc;§Y$TARGET$§!很富裕因此应当向你朝贡！\n\n你可以通过战争强迫任何位于你边界的邻国缴纳 §Y40%§! 收入以作为贡赋。\n这种类型的§Y朝贡国§!在§Y宗主§!死亡时会§R脱离朝贡§!。\n这种类型的§Y朝贡国§!可以被召入战争。;;;;;;;;;;;;x
 CB_NAME_NOMAD_TRIBUTARY;建立朝贡关系;;;;;;;;;;;;x
 WAR_NAME_NOMAD_TRIBUTARY;$ORDER$ $FIRST_ADJ$令$DEFENDER$朝贡战争;;;;;;;;;;;;x
@@ -1977,8 +1977,8 @@ HAVE_THE_HOLDING_MODIFIER;拥有地产修正$MODIFIER|Y$$EXPIRY$;;;;;;;;;;;;x
 DONT_HAVE_THE_CHARACTER_MODIFIER;没有角色修正$MODIFIER|Y$$EXPIRY$;;;;;;;;;;;;x
 HAVE_THE_CHARACTER_MODIFIER;拥有角色修正$MODIFIER|Y$$EXPIRY$;;;;;;;;;;;;x
 GOV_RELIGION_NO_DEMANDING_CONVERSION_DESC;无法要求皈依;;;;;;;;;;;;x
-SETTLEMENT_MAX_REINFORCEMENT_RATE;最大增援速度：$AMOUNT|Y$/月;;;;;;;;;;;;x
-REINFORCEMENT_BASE_RATE;基础增援速度：$RATE|Y$%;;;;;;;;;;;;x
+SETTLEMENT_MAX_REINFORCEMENT_RATE;最大补员速度：$AMOUNT|Y$/月;;;;;;;;;;;;x
+REINFORCEMENT_BASE_RATE;基础补员速度：$RATE|Y$%;;;;;;;;;;;;x
 REINFORCEMENT_RATE_FROM_HOLDING;聚居地修正效果：;;;;;;;;;;;;x
 REINFORCEMENT_RATE_FROM_CONTROLLER;控制者修正效果：;;;;;;;;;;;;x
 REINFORCEMENT_RATE_FROM_COUNCILOR;内阁成员$COUNCILOR|Y$：$MODIFIER$;;;;;;;;;;;;x
@@ -2140,7 +2140,7 @@ EXILE_IMPRISONED_VOTE;§Y[Actor.GetTitledName]§! 驱逐了 §Y[Recipient.GetTit
 EXECUTE_IMPRISONED_VOTE;§Y[Actor.GetTitledName]§! 处决了 §Y[Recipient.GetTitledName]§!;;;;;;;;;;;;x
 WAR_INVALID_CHARACTER_VASSALIZED;\n（$CHARACTER$被附庸了）;;;;;;;;;;;;x
 TRIBUTARY_INCOME_DESC;* 朝贡国向宗主交纳 $VALUE|Y$% 的月入;;;;;;;;;;;;x
-TRIBUTARY_REINFORCEMENT_DESC;* 朝贡国提供$VALUE|Y$%的军队增援给他们的宗主国;;;;;;;;;;;;x
+TRIBUTARY_REINFORCEMENT_DESC;* 朝贡国提供$VALUE|Y$%的军队补员给他们的宗主国;;;;;;;;;;;;x
 TRIBUTARY_PRESTIGE_SUZERAIN_DESC;* 宗主威望每月改变 $VALUE|Y$;;;;;;;;;;;;x
 TRIBUTARY_PRESTIGE_TRIBUTARY_DESC;* 朝贡者威望每月改变 $VALUE|Y$;;;;;;;;;;;;x
 TRIBUTARY_PIETY_SUZERAIN_DESC;* 宗主的虔诚每月改变 $VALUE|Y$;;;;;;;;;;;;x
@@ -3192,7 +3192,7 @@ EVTTOOLTIPA_JD_30045;中华帝国的部队已抵达§Y河西§!走廊，靠近§
 EVTTOOLTIPB_JD_30045;中华帝国的舰队载着军队穿越印度洋，抵达了§Y三摩呾吒§!省附近！;;;;;;;;;;;;x
 EVTDESC_JD_30047;通过多年的精心战略规划，一次次的战术胜利，和运气的衡量，让我们所有人都相信了，我们已经成功削弱了敌人的军队！我几乎开始梦想着取得胜利，这时我的将军告诉我中国皇帝[offmap_china.Ruler.GetTitle]向西方派遣了更多的军队。;;;;;;;;;;;;x
 chinese_imperial_government;中华帝国制;;;;;;;;;;;;x
-china_invade_dragon_throne_desc;§Y[offmap_china.GetFullName]§!稳定且繁荣，[offmap_china.Ruler.GetEmperorEmpress]相信他们天下无敌——你会证明他们是错的！\n\n入侵中国并非易事——你将面对他们的全部军队，同时你的§Y征召兵补充速度§!面临 §R75%§! 的惩罚。胜利意味着你的§Y家族§!登基龙椅，你获得丰厚的战利品。如果你输了你的领土将§R四分五裂§!！;;;;;;;;;;;;x
+china_invade_dragon_throne_desc;§Y[offmap_china.GetFullName]§!稳定且繁荣，[offmap_china.Ruler.GetEmperorEmpress]相信他们天下无敌——你会证明他们是错的！\n\n入侵中国并非易事——你将面对他们的全部军队，同时你的§Y征召兵补员速度§!面临 §R75%§! 的惩罚。胜利意味着你的§Y家族§!登基龙椅，你获得丰厚的战利品。如果你输了你的领土将§R四分五裂§!！;;;;;;;;;;;;x
 String_End_Unrest_Worsened;中国的动荡时代正在急剧恶化;;;;;;;;;;;;x
 String_End_Civil_War_to_Invasion;中国内战已经结束，最后一个叛军堡垒也被攻破，但[offmap_china.GetFullName]的混乱还没有完全平息;;;;;;;;;;;;x
 EVTDESC_JD_50031_FAMINE;[FromFrom.GetChinaPreviousStatusEnd]。中国正在被旱灾侵袭。一场巨大的饥荒带来的无数饥民正在打破这片神州的安定。丝绸之路上的商旅和船队几乎绝迹，就连那些中国最优秀的能工巧匠也仅仅只能勉强维持生计。中国已经不再能够对它的朝贡国提供协助了。;;;;;;;;;;;;x
