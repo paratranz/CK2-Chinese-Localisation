@@ -134,8 +134,8 @@ character_event = {
         }
         log = "-------------------------------------"
         log = "China Logging:"
-        log = "China declared dismantle pretender on {chinese_invasion_target.GetBestName}"
-        log = "Current status: {From.Offmap.GetStatus}. Current policy: [From.Offmap.GetPolicy]."
+        log = "China declared dismantle pretender on [chinese_invasion_target.GetBestName]"
+        log = "Current status: [From.Offmap.GetStatus]. Current policy: [From.Offmap.GetPolicy]."
         log = "-------------------------------------"
         clr_offmap_tmp_flag = pretender_chinese_empire_exists
         clr_offmap_tmp_flag = pretender_chinese_empire_war_cooldown
@@ -1241,7 +1241,7 @@ character_event = {
               log = "China Logging:"
               log = "Non-expansionist China didn't find a suitable submission target"
               log = "No invasions happened this year - clearing all flags. Better luck next year!"
-              log = "Current status: {From.Offmap.GetStatus}. Current policy: [From.Offmap.GetPolicy]."
+              log = "Current status: [From.Offmap.GetStatus]. Current policy: [From.Offmap.GetPolicy]."
               log = "-------------------------------------"
               offmap_china = {
                 clr_offmap_tmp_flag = WP_is_on_map
@@ -1272,7 +1272,7 @@ character_event = {
         log = "-------------------------------------"
         log = "China Logging:"
         log = "No invasions happened this year - clearing all flags. Better luck next year!"
-        log = "Current status: {From.Offmap.GetStatus}. Current policy: [From.Offmap.GetPolicy]."
+        log = "Current status: [From.Offmap.GetStatus]. Current policy: [From.Offmap.GetPolicy]."
         log = "-------------------------------------"
         offmap_china = {
           clr_offmap_tmp_flag = WP_is_on_map
@@ -1468,15 +1468,15 @@ character_event = {
       }
       log = "-------------------------------------"
       log = "China Logging:"
-      log = "China declared MINOR tributary war on {chinese_invasion_target.GetBestName}"
-      log = "Current status: {FromFrom.Offmap.GetStatus}. Current policy: [FromFrom.Offmap.GetPolicy]."
+      log = "China declared MINOR tributary war on [chinese_invasion_target.GetBestName]"
+      log = "Current status: [FromFrom.Offmap.GetStatus]. Current policy: [FromFrom.Offmap.GetPolicy]."
       log = "-------------------------------------"
     }
     else = {
       log = "-------------------------------------"
       log = "China Logging:"
-      log = "China declared MEDIUM tributary war on {chinese_invasion_target.GetBestName}"
-      log = "Current status: {FromFrom.Offmap.GetStatus}. Current policy: [FromFrom.Offmap.GetPolicy]."
+      log = "China declared MEDIUM tributary war on [chinese_invasion_target.GetBestName]"
+      log = "Current status: [FromFrom.Offmap.GetStatus]. Current policy: [FromFrom.Offmap.GetPolicy]."
       log = "-------------------------------------"
     }
     any_player = {
@@ -1735,8 +1735,8 @@ character_event = {
     }
     log = "-------------------------------------"
     log = "China Logging:"
-    log = "China declared submission/claim war on {chinese_invasion_target.GetBestName}"
-    log = "Current status: {From.Offmap.GetStatus}. Current policy: [From.Offmap.GetPolicy]."
+    log = "China declared submission/claim war on [chinese_invasion_target.GetBestName]"
+    log = "Current status: [From.Offmap.GetStatus]. Current policy: [From.Offmap.GetPolicy]."
     log = "-------------------------------------"
     if = {
       limit = {
@@ -1752,15 +1752,15 @@ character_event = {
         }
         log = "-------------------------------------"
         log = "China War Logging:"
-        log = "China declared MINOR submission war on {chinese_invasion_target.GetBestName}"
-        log = "Current status: {FromFrom.Offmap.GetStatus}. Current policy: [FromFrom.Offmap.GetPolicy]."
+        log = "China declared MINOR submission war on [chinese_invasion_target.GetBestName]"
+        log = "Current status: [FromFrom.Offmap.GetStatus]. Current policy: [FromFrom.Offmap.GetPolicy]."
         log = "-------------------------------------"
       }
       else = {
         log = "-------------------------------------"
         log = "China War Logging:"
-        log = "China declared MAJOR submission war on {chinese_invasion_target.GetBestName}"
-        log = "Current status: {FromFrom.Offmap.GetStatus}. Current policy: [FromFrom.Offmap.GetPolicy]."
+        log = "China declared MAJOR submission war on [chinese_invasion_target.GetBestName]"
+        log = "Current status: [FromFrom.Offmap.GetStatus]. Current policy: [FromFrom.Offmap.GetPolicy]."
         log = "-------------------------------------"
       }
     }
@@ -1778,15 +1778,15 @@ character_event = {
         }
         log = "-------------------------------------"
         log = "China War Logging:"
-        log = "China declared MINOR claim war on {chinese_invasion_target.GetBestName}"
-        log = "Current status: {FromFrom.Offmap.GetStatus}. Current policy: [FromFrom.Offmap.GetPolicy]."
+        log = "China declared MINOR claim war on [chinese_invasion_target.GetBestName]"
+        log = "Current status: [FromFrom.Offmap.GetStatus]. Current policy: [FromFrom.Offmap.GetPolicy]."
         log = "-------------------------------------"
       }
       else = {
         log = "-------------------------------------"
         log = "China War Logging:"
-        log = "China declared MEDIUM claim war on {chinese_invasion_target.GetBestName}"
-        log = "Current status: {FromFrom.Offmap.GetStatus}. Current policy: [FromFrom.Offmap.GetPolicy]."
+        log = "China declared MEDIUM claim war on [chinese_invasion_target.GetBestName]"
+        log = "Current status: [FromFrom.Offmap.GetStatus]. Current policy: [FromFrom.Offmap.GetPolicy]."
         log = "-------------------------------------"
       }
     }
@@ -2134,7 +2134,7 @@ character_event = {
             id = JD.10110
           }
           log = "China Logging:"
-          log = "{This.GetFullName} ID [This.GetID] is the Jurchen Invader"
+          log = "[This.GetFullName] ID [This.GetID] is the Jurchen Invader"
         }
       }
       50 = {
@@ -2159,7 +2159,7 @@ character_event = {
             id = JD.10110
           }
           log = "China Logging:"
-          log = "{This.GetFullName} ID [This.GetID] is the Jurchen Invader"
+          log = "[This.GetFullName] ID [This.GetID] is the Jurchen Invader"
         }
       }
     }
@@ -2308,7 +2308,7 @@ character_event = {
         id = JD.10110
       }
       log = "China Logging:"
-      log = "{This.GetFullName} ID [This.GetID] is the Displaced Prince"
+      log = "[This.GetFullName] ID [This.GetID] is the Displaced Prince"
     }
     any_player = {
       limit = {
@@ -2574,7 +2574,7 @@ character_event = {
     }
   }
   immediate = {
-    log = "Event JD.10111 for raiding altaic adventurer: {Root.GetBestName} - approach someone or continue raiding?"
+    log = "Event JD.10111 for raiding altaic adventurer: [Root.GetBestName] - approach someone or continue raiding?"
     if = {
       limit = {
         OR = {
@@ -2608,7 +2608,7 @@ character_event = {
             trait = ambitious
             factor = 2
           }
-          log = "{Root.GetBestName} prepares to settle."
+          log = "[Root.GetBestName] prepares to settle."
           character_event = {
             id = JD.10112
           }
@@ -2642,7 +2642,7 @@ character_event = {
             }
             factor = 0
           }
-          log = "{Root.GetBestName} continues raiding."
+          log = "[Root.GetBestName] continues raiding."
           repeat_event = {
             id = JD.10111
             days = 365
@@ -2663,7 +2663,7 @@ character_event = {
       break = yes
     }
     else = {
-      log = "{Root.GetBestName} continues raiding."
+      log = "[Root.GetBestName] continues raiding."
       repeat_event = {
         id = JD.10111
         days = 365
@@ -2776,7 +2776,7 @@ character_event = {
       }
     }
     clr_character_flag = raiding_adventurer
-    log = "{SERIOUS} [Root.GetTitledFirstName] failed to find a target after trying to end his raiding adventure."
+    log = "[SERIOUS] [Root.GetTitledFirstName] failed to find a target after trying to end his raiding adventure."
     character_event = {
       id = HL.199
     }
@@ -2917,7 +2917,7 @@ character_event = {
   immediate = {
     log = "-------------------------------------"
     log = "China Logging:"
-    log = "The Western Protectorate has gained {Root.WP_nomad_provinces.GetValue} nomad provinces from the war."
+    log = "The Western Protectorate has gained [Root.WP_nomad_provinces.GetValue] nomad provinces from the war."
     log = "The amount of gold that shall recieved is 200 per nomad province modified by the current status of China"
     set_variable = {
       which = "WP_nomad_gold_from_china"
@@ -2954,13 +2954,13 @@ character_event = {
           value = 2500
         }
       }
-      log = "The amount of gold being sent is {Root.WP_nomad_gold_from_china.GetValue}, the cap of what can be sent is 2500 so the amount has been set to 2500"
+      log = "The amount of gold being sent is [Root.WP_nomad_gold_from_china.GetValue], the cap of what can be sent is 2500 so the amount has been set to 2500"
       set_variable = {
         which = "WP_nomad_gold_from_china"
         value = 2500
       }
     }
-    log = "China has sent {Root.WP_nomad_gold_from_china.GetValue} gold to aid with building holdings."
+    log = "China has sent [Root.WP_nomad_gold_from_china.GetValue] gold to aid with building holdings."
     wealth = WP_nomad_gold_from_china
     log = "-------------------------------------"
   }
@@ -3066,7 +3066,7 @@ character_event = {
       save_event_target_as = the_chinese_invader
       wealth = 200
       log = "China Logging:"
-      log = "{This.GetFullName} ID [This.GetID] is the Rebel General"
+      log = "[This.GetFullName] ID [This.GetID] is the Rebel General"
       character_event = {
         id = JD.60201
       }
@@ -3110,7 +3110,7 @@ character_event = {
         higher_tier_than = BARON
       }
       save_event_target_as = rebel_general_target
-      log = "{rebel_general_target.GetFullName} ID [rebel_general_target.GetID] is the Rebel General's Worst Case Target."
+      log = "[rebel_general_target.GetFullName] ID [rebel_general_target.GetID] is the Rebel General's Worst Case Target."
     }
     random_independent_ruler = {
       limit = {
@@ -3127,7 +3127,7 @@ character_event = {
         higher_tier_than = BARON
       }
       save_event_target_as = rebel_general_target
-      log = "{rebel_general_target.GetFullName} ID [rebel_general_target.GetID] is the Rebel General's Non China Worst Case Target."
+      log = "[rebel_general_target.GetFullName] ID [rebel_general_target.GetID] is the Rebel General's Non China Worst Case Target."
     }
     random_independent_ruler = {
       limit = {
@@ -3145,7 +3145,7 @@ character_event = {
         num_of_count_titles_in_realm = 5
       }
       save_event_target_as = rebel_general_target
-      log = "{rebel_general_target.GetFullName} ID [rebel_general_target.GetID] is the Rebel General's Duke Target."
+      log = "[rebel_general_target.GetFullName] ID [rebel_general_target.GetID] is the Rebel General's Duke Target."
     }
     random_independent_ruler = {
       limit = {
@@ -3163,7 +3163,7 @@ character_event = {
         num_of_count_titles_in_realm = 15
       }
       save_event_target_as = rebel_general_target
-      log = "{rebel_general_target.GetFullName} ID [rebel_general_target.GetID] is the Rebel General's King Target."
+      log = "[rebel_general_target.GetFullName] ID [rebel_general_target.GetID] is the Rebel General's King Target."
     }
     random_independent_ruler = {
       limit = {
@@ -3181,7 +3181,7 @@ character_event = {
         num_of_count_titles_in_realm = 30
       }
       save_event_target_as = rebel_general_target
-      log = "{rebel_general_target.GetFullName} ID [rebel_general_target.GetID] is the Rebel General's Emperor Target."
+      log = "[rebel_general_target.GetFullName] ID [rebel_general_target.GetID] is the Rebel General's Emperor Target."
     }
     if = {
       limit = {
@@ -3194,10 +3194,10 @@ character_event = {
       death = {
         death_reason = death_went_back_to_china
       }
-      log = "{This.GetFullName} ID [This.GetID] is the Rebel General and could not find a target therefore he is getting removed."
+      log = "[This.GetFullName] ID [This.GetID] is the Rebel General and could not find a target therefore he is getting removed."
       break = yes
     }
-    log = "{rebel_general_target.GetFullName} ID [rebel_general_target.GetID] is the Rebel General's Final Target."
+    log = "[rebel_general_target.GetFullName] ID [rebel_general_target.GetID] is the Rebel General's Final Target."
     create_title = {
       tier = EMPEROR
       temporary = no
@@ -5442,7 +5442,7 @@ character_event = {
           clr_title_flag = uses_temple_names_by_script
           clear_flags_with_prefix = temple_name_
           clear_flags_with_prefix = china_name_
-          set_name = "{Root.Capital.GetName} Empire"
+          set_name = "[Root.Capital.GetName] Empire"
         }
       }
     }
@@ -5501,7 +5501,7 @@ character_event = {
       clr_title_flag = uses_temple_names_by_script
       clear_flags_with_prefix = temple_name_
       clear_flags_with_prefix = china_name_
-      set_name = "{Root.Capital.GetName} Empire"
+      set_name = "[Root.Capital.GetName] Empire"
     }
     if = {
       limit = {
