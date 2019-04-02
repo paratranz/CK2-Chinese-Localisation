@@ -926,7 +926,7 @@
     {
         "key": "EVTOPTD_LT_20101_TT",
         "original": "This option is available because you have either a high Learning, or the traits Erudite or Architect.\\n",
-        "translation": "这个选项可用是因为你拥有高学识或者博学和建筑师特质。\\n",
+        "translation": "这个选项可用是因为你拥有高学识或者是博学与建筑师特质。\\n",
         "stage": 1
     },
     {
@@ -1052,14 +1052,14 @@
     {
         "key": "use_scary_upgrade",
         "original": "Try to Intimidate",
-        "translation": "",
-        "stage": 0
+        "translation": "试图恐吓",
+        "stage": 1
     },
     {
         "key": "use_scary_upgrade_desc",
         "original": "Having a conversation with §Y[Root.GetFirstNameWithNick]§! in an appropriate place might convince [Root.GetHerHim] to be more supportive.",
-        "translation": "",
-        "stage": 0
+        "translation": "与§Y[Root.GetFirstNameWithNick]§!在一个合适的地点进行对话也许会使[Root.GetHerHim]更加支持我。",
+        "stage": 1
     },
     {
         "key": "use_scary_upgrade_tt",
@@ -1070,14 +1070,14 @@
     {
         "key": "use_scary_upgrade_cooldown_tt",
         "original": "Has NOT attempted to intimidate a character in the past 2 years[From.GetScaryCD]",
-        "translation": "",
-        "stage": 0
+        "translation": "过去的2年里没有威胁一名角色[From.GetScaryCD]",
+        "stage": 1
     },
     {
         "key": "string_scary_cd",
         "original": " - you can try to intimidate a character again on: §Y[This.used_scary_upgrade_cd.GetExpiryDate]§!",
-        "translation": "",
-        "stage": 0
+        "translation": "- 你可以再次威胁一名角色：§Y[This.used_scary_upgrade_cd.GetExpiryDate]§!",
+        "stage": 1
     },
     {
         "key": "EVTDESC_LT_20301",
@@ -1100,8 +1100,8 @@
     {
         "key": "EVTOPTA_LT_20301_TT",
         "original": "the attempt to intimidate §Y[target_character.GetFirstNameWithNick]§! fails",
-        "translation": "",
-        "stage": 0
+        "translation": "威胁§Y[target_character.GetFirstNameWithNick]§!的企图失败了",
+        "stage": 1
     },
     {
         "key": "EVTOPTB_LT_20301",
@@ -1136,20 +1136,20 @@
     {
         "key": "EVTOPTA_LT_20310",
         "original": "Oh no!",
-        "translation": "",
-        "stage": 0
+        "translation": "哦不！",
+        "stage": 1
     },
     {
         "key": "use_secluded_upgrade",
         "original": "Private Conversation",
-        "translation": "",
-        "stage": 0
+        "translation": "私密谈话",
+        "stage": 1
     },
     {
         "key": "use_secluded_upgrade_desc",
         "original": "Meeting §Y[Root.GetFirstNameWithNick]§! in a secluded place might be interesting.",
-        "translation": "",
-        "stage": 0
+        "translation": "与§Y[Root.GetFirstNameWithNick]§!在一个隐蔽的地方会面会很有趣。",
+        "stage": 1
     },
     {
         "key": "use_secluded_upgrade_tt",
@@ -1172,14 +1172,14 @@
     {
         "key": "EVTOPTA_LT_20405",
         "original": "I will accept.",
-        "translation": "",
-        "stage": 0
+        "translation": "我接受。",
+        "stage": 1
     },
     {
         "key": "EVTOPTB_LT_20405",
         "original": "I will refuse.",
-        "translation": "",
-        "stage": 0
+        "translation": "我拒绝。",
+        "stage": 1
     },
     {
         "key": "EVTOPTC_LT_20405",
@@ -5102,20 +5102,20 @@
     {
         "key": "String_the_evil_god_names_workshop",
         "original": "[Root.Religion.GetRandomEvilGodNameCap]'s Workshop",
-        "translation": "",
-        "stage": 0
+        "translation": "[Root.Religion.GetRandomEvilGodNameCap]工坊",
+        "stage": 1
     },
     {
         "key": "String_Statue_Ruler",
         "original": "Statue of [wonder_owner_original.GetTitledFirstName]",
-        "translation": "",
-        "stage": 0
+        "translation": "[wonder_owner_original.GetTitledFirstName]像",
+        "stage": 1
     },
     {
         "key": "String_statue_ruler",
         "original": "Statue of [wonder_owner_original.GetTitledFirstName]",
-        "translation": "",
-        "stage": 0
+        "translation": "[wonder_owner_original.GetTitledFirstName]像",
+        "stage": 1
     },
     {
         "key": "String_statue_wonder_type",
@@ -5126,14 +5126,14 @@
     {
         "key": "String_adj_statue_wonder_type",
         "original": "[This.GetWonderTypeShortCap] in [target_province.GetName]",
-        "translation": "",
-        "stage": 0
+        "translation": "[target_province.GetName][This.GetWonderTypeShortCap]",
+        "stage": 1
     },
     {
         "key": "String_adj_statue_wonder_type_in_location",
         "original": "[This.GetWonderAdjCap] [This.GetWonderTypeShortCap] in [target_province.GetName]",
-        "translation": "",
-        "stage": 0
+        "translation": "[target_province.GetName]的[This.GetWonderAdjCap][This.GetWonderTypeShortCap]",
+        "stage": 1
     },
     {
         "key": "String_Death",
@@ -5216,8 +5216,8 @@
     {
         "key": "String_lighthouse",
         "original": "lighthouse",
-        "translation": "",
-        "stage": 0
+        "translation": "灯塔",
+        "stage": 1
     },
     {
         "key": "String_soaring",
@@ -5312,20 +5312,20 @@
     {
         "key": "upgrade_skull_throne",
         "original": "Throne of Skulls",
-        "translation": "",
-        "stage": 0
+        "translation": "颅骨王座",
+        "stage": 1
     },
     {
         "key": "upgrade_torture_chamber_desc",
         "original": "Best not to ask too many questions, lest you end up here.",
-        "translation": "",
-        "stage": 0
+        "translation": "不想死的话就别问太多问题",
+        "stage": 1
     },
     {
         "key": "upgrade_skull_throne_desc",
         "original": "A throne made of skulls and bones, supported by a frame of iron.",
-        "translation": "",
-        "stage": 0
+        "translation": "用骷髅与白骨堆砌成的王座，以铁架支撑",
+        "stage": 1
     },
     {
         "key": "upgrade_golden_throne",
@@ -5354,50 +5354,50 @@
     {
         "key": "upgrade_brewery_desc",
         "original": "A brewery to create your own alcohol. While unlikely to turn a profit, it might make you popular.",
-        "translation": "",
-        "stage": 0
+        "translation": "一间能让你自行生产酒的酿酒厂。尽管它不太可能赢利，却可以使你变得受欢迎。",
+        "stage": 1
     },
     {
         "key": "alcohol_gift_decision",
         "original": "Give [GetAlcoholContainerType] of [GetAlcoholType] gift",
-        "translation": "",
-        "stage": 0
+        "translation": "赠送一[GetAlcoholContainerType][GetAlcoholType]做礼物",
+        "stage": 1
     },
     {
         "key": "alcohol_gift_decision_desc",
         "original": "Send [Root.GetTitledFirstName] a [GetAlcoholContainerType] of [GetAlcoholType] brewed in your own brewery",
-        "translation": "",
-        "stage": 0
+        "translation": "将你酿酒厂里生产的一[GetAlcoholContainerType][GetAlcoholType]赠予[Root.GetTitledFirstName]作为礼物",
+        "stage": 1
     },
     {
         "key": "not_recently_sent_alcohol_tooltip",
         "original": "[From.GetTitledFirstName] has not recently sent a gift of alcohol.",
-        "translation": "",
-        "stage": 0
+        "translation": "[From.GetTitledFirstName]最近并没有送过酒水类礼物",
+        "stage": 1
     },
     {
         "key": "String_Bottle",
         "original": "Bottle",
-        "translation": "",
-        "stage": 0
+        "translation": "瓶",
+        "stage": 1
     },
     {
         "key": "String_Case",
         "original": "Case",
-        "translation": "",
-        "stage": 0
+        "translation": "箱",
+        "stage": 1
     },
     {
         "key": "String_Cask",
         "original": "Cask",
-        "translation": "",
-        "stage": 0
+        "translation": "桶",
+        "stage": 1
     },
     {
         "key": "String_Barrel",
         "original": "Barrel",
-        "translation": "",
-        "stage": 0
+        "translation": "木桶",
+        "stage": 1
     },
     {
         "key": "String_Beer",
@@ -5438,38 +5438,38 @@
     {
         "key": "opinion_gifted_alcohol",
         "original": "Was Given Brewery Gift",
-        "translation": "",
-        "stage": 0
+        "translation": "收到酒水礼物",
+        "stage": 1
     },
     {
         "key": "opinion_gifted_alcohol_drunkard",
         "original": "Was Given Brewery Gift",
-        "translation": "",
-        "stage": 0
+        "translation": "收到酒水礼物",
+        "stage": 1
     },
     {
         "key": "upgrade_vineyard",
         "original": "Vineyard",
-        "translation": "",
-        "stage": 0
+        "translation": "葡萄园",
+        "stage": 1
     },
     {
         "key": "upgrade_vineyard_desc",
         "original": "A place to grow grapes and make them into wine.",
-        "translation": "",
-        "stage": 0
+        "translation": "种葡萄并用葡萄酿酒的地方",
+        "stage": 1
     },
     {
         "key": "String_Vineyard",
         "original": "Vineyard",
-        "translation": "",
-        "stage": 0
+        "translation": "葡萄园",
+        "stage": 1
     },
     {
         "key": "String_Brewery",
         "original": "Brewery",
-        "translation": "",
-        "stage": 0
+        "translation": "酿酒厂",
+        "stage": 1
     },
     {
         "key": "upgrade_royal_bedchamber_desc",
@@ -5480,14 +5480,14 @@
     {
         "key": "upgrade_historical_mural",
         "original": "Historical Mural",
-        "translation": "",
-        "stage": 0
+        "translation": "历史壁画",
+        "stage": 1
     },
     {
         "key": "upgrade_historical_mural_desc",
         "original": "A beautiful mural depicting a scene from the history of your dynasty.",
-        "translation": "",
-        "stage": 0
+        "translation": "描绘着你家族历史中一幕的壁画",
+        "stage": 1
     },
     {
         "key": "upgrade_eternal_flame",
@@ -5504,14 +5504,14 @@
     {
         "key": "upgrade_unmarked_tombs",
         "original": "Unmarked Tombs",
-        "translation": "",
-        "stage": 0
+        "translation": "无名墓地",
+        "stage": 1
     },
     {
         "key": "upgrade_unmarked_tombs_desc",
         "original": "It is unclear who these tombs were made for, but rumor has it you can sometimes hear voices from within.",
-        "translation": "",
-        "stage": 0
+        "translation": "我们不清楚这是谁的墓地，但据传言，你有时能听见声音从里面传出。",
+        "stage": 1
     },
     {
         "key": "zunist_pagan_opinion",
@@ -5570,56 +5570,56 @@
     {
         "key": "upgrade_school_buddhist",
         "original": "Buddhist School",
-        "translation": "",
-        "stage": 0
+        "translation": "佛学院",
+        "stage": 1
     },
     {
         "key": "upgrade_relic_stupa",
         "original": "Relic Stupa",
-        "translation": "遗塔",
+        "translation": "舍利塔",
         "stage": 1
     },
     {
         "key": "upgrade_object_stupa",
         "original": "Object Stupa",
-        "translation": "",
-        "stage": 0
+        "translation": "衣钵塔",
+        "stage": 1
     },
     {
         "key": "upgrade_commerative_stupa",
         "original": "Commerative Stupa",
-        "translation": "",
-        "stage": 0
+        "translation": "显迹塔",
+        "stage": 1
     },
     {
         "key": "upgrade_symbolic_stupa",
         "original": "Symbolic Stupa",
-        "translation": "",
-        "stage": 0
+        "translation": "法身塔",
+        "stage": 1
     },
     {
         "key": "upgrade_votive_stupa",
         "original": "Votive Stupa",
-        "translation": "",
-        "stage": 0
+        "translation": "报恩塔",
+        "stage": 1
     },
     {
         "key": "upgrade_chaitya-grihas_desc",
         "original": "A prayer hall that surrounds the stupas.",
-        "translation": "",
-        "stage": 0
+        "translation": "环绕佛塔的巡礼大厅。",
+        "stage": 1
     },
     {
         "key": "upgrade_gompa_desc",
         "original": "A fortification surrounding the temple.",
-        "translation": "",
-        "stage": 0
+        "translation": "环绕寺庙的堡垒。",
+        "stage": 1
     },
     {
         "key": "upgrade_bodhi_tree_desc",
         "original": "A descendant of the sacred tree in under which Siddhartha Gautama, the spiritual teacher who became known as the Buddha, attained enlightenment.",
-        "translation": "",
-        "stage": 0
+        "translation": "乔达摩·悉达多在这棵圣树的祖先的树荫下悟道，他是以佛陀之名为世人所知的精神导师。",
+        "stage": 1
     },
     {
         "key": "upgrade_cave_complex_desc",
@@ -5630,32 +5630,32 @@
     {
         "key": "upgrade_vihara_desc",
         "original": "The shelter and living quarters for the Buddhist Monks who live here.",
-        "translation": "",
-        "stage": 0
+        "translation": "佛教僧侣栖身立命之所。",
+        "stage": 1
     },
     {
         "key": "upgrade_school_buddhist_desc",
         "original": "A school where Buddhist teachings are taught.",
-        "translation": "",
-        "stage": 0
+        "translation": "教授佛教学说的学校",
+        "stage": 1
     },
     {
         "key": "upgrade_relic_stupa_desc",
         "original": "This is where the remains of Buddha and his disciples are interred.",
-        "translation": "",
-        "stage": 0
+        "translation": "这是佛陀及其弟子的遗物埋葬的地方。",
+        "stage": 1
     },
     {
         "key": "upgrade_object_stupa_desc",
         "original": "This is where the objects belonging to Buddha and his disciples are interred.",
-        "translation": "",
-        "stage": 0
+        "translation": "这是佛陀及其弟子的遗物埋葬的地方。",
+        "stage": 1
     },
     {
         "key": "upgrade_commerative_stupa_desc",
         "original": "Built to commemorative events in lives of Buddha and his disciples.",
-        "translation": "",
-        "stage": 0
+        "translation": "为纪念佛陀及其弟子的生平事迹而建造。",
+        "stage": 1
     },
     {
         "key": "wonder_temple_buddhist",
@@ -5810,8 +5810,8 @@
     {
         "key": "wonder_temple_hindu",
         "original": "Hindu Temple",
-        "translation": "",
-        "stage": 0
+        "translation": "印度教神庙",
+        "stage": 1
     },
     {
         "key": "wonder_temple_hindu_desc",
@@ -5828,8 +5828,8 @@
     {
         "key": "upgrade_high_gopura",
         "original": "Gopuram",
-        "translation": "",
-        "stage": 0
+        "translation": "瞿布罗",
+        "stage": 1
     },
     {
         "key": "upgrade_high_gopura_desc",
@@ -7268,8 +7268,8 @@
     {
         "key": "EVT_TITLE_LT_60701",
         "original": "Herbs in the [target_province.GetName]",
-        "translation": "",
-        "stage": 0
+        "translation": "[target_province.GetName]的草药",
+        "stage": 1
     },
     {
         "key": "EVTDESC_LT_60701",
@@ -7298,14 +7298,14 @@
     {
         "key": "upgrade_symbolic_stupa_desc",
         "original": "Built to symbolize different aspects of Buddhist theology.",
-        "translation": "",
-        "stage": 0
+        "translation": "为象征佛教理论的不同方面而建造。",
+        "stage": 1
     },
     {
         "key": "upgrade_votive_stupa_desc",
         "original": "Built to gain spiritual benefits, or to commemorate visits.",
-        "translation": "",
-        "stage": 0
+        "translation": "为获得精神上的裨益或纪行而建造。",
+        "stage": 1
     },
     {
         "key": "hidden_passageways_modifier_tt",
@@ -7610,26 +7610,26 @@
     {
         "key": "CHARACTER_OWNS_WONDER",
         "original": "§Y$CHARACTER$§! is the owner of §Y[FromFrom.GetName]§!",
-        "translation": "",
-        "stage": 0
+        "translation": "§Y$CHARACTER$§!是§Y[FromFrom.GetName]§!的拥有者",
+        "stage": 1
     },
     {
         "key": "LOOT",
         "original": "Loot",
-        "translation": "",
-        "stage": 0
+        "translation": "劫掠",
+        "stage": 1
     },
     {
         "key": "WONDER_LOOT_DELAYED_TT",
         "original": "Start looting the §Y[FromFrom.GetWonderTypeShort]§!.\\nThis can yield treasures but will also cause damage and render the §Y[FromFrom.GetWonderTypeShort]§! unusable until it has been restored.",
-        "translation": "",
-        "stage": 0
+        "translation": "开始劫掠§Y[FromFrom.GetWonderTypeShort]§!。\\n这样做可以获得财宝，但直到§Y[FromFrom.GetWonderTypeShort]§!被重建他都将无法发挥作用。",
+        "stage": 1
     },
     {
         "key": "STOP_LOOT",
         "original": "Stop looting",
-        "translation": "",
-        "stage": 0
+        "translation": "停止劫掠",
+        "stage": 1
     },
     {
         "key": "WONDER_STOP_LOOT_DELAYED_TT",
@@ -7694,50 +7694,50 @@
     {
         "key": "IS_WONDER_DAMAGED_TRIGGER",
         "original": "Is damaged",
-        "translation": "",
-        "stage": 0
+        "translation": "受损",
+        "stage": 1
     },
     {
         "key": "NOT_IS_WONDER_DAMAGED_TRIGGER",
         "original": "Is NOT damaged",
-        "translation": "",
-        "stage": 0
+        "translation": "未受损",
+        "stage": 1
     },
     {
         "key": "IS_WONDER_BEING_LOOTED_TRIGGER",
         "original": "Is being looted",
-        "translation": "",
-        "stage": 0
+        "translation": "正被劫掠",
+        "stage": 1
     },
     {
         "key": "NOT_IS_WONDER_BEING_LOOTED_TRIGGER",
         "original": "Is NOT being looted",
-        "translation": "",
-        "stage": 0
+        "translation": "未被劫掠",
+        "stage": 1
     },
     {
         "key": "IS_WONDER_BEING_RESTORED_TRIGGER",
         "original": "Is being restored",
-        "translation": "",
-        "stage": 0
+        "translation": "正在被重建",
+        "stage": 1
     },
     {
         "key": "NOT_IS_WONDER_BEING_RESTORED_TRIGGER",
         "original": "Is NOT being restored",
-        "translation": "",
-        "stage": 0
+        "translation": "未处于被重建状态",
+        "stage": 1
     },
     {
         "key": "WONDER_RESTORE_PAUSE_TT",
         "original": "Pause restoration",
-        "translation": "",
-        "stage": 0
+        "translation": "暂停重建",
+        "stage": 1
     },
     {
         "key": "WONDER_RESTORE_PAUSE_TT_DELAYED",
         "original": "While restoration is paused there is no restoration upkeep.",
-        "translation": "",
-        "stage": 0
+        "translation": "暂停重建时不消耗每月重建费用",
+        "stage": 1
     },
     {
         "key": "WONDER_STAGE_PAUSE_TT_DELAYED",
@@ -7748,44 +7748,44 @@
     {
         "key": "WONDER_RESTORE_RESUME_TT",
         "original": "Resume restoration",
-        "translation": "",
-        "stage": 0
+        "translation": "重新开始重建",
+        "stage": 1
     },
     {
         "key": "WONDER_RESTORE_RESUME_TT_DELAYED_DISABLED",
         "original": "§RYou can not resume restoration if you are bankrupt§!",
-        "translation": "",
-        "stage": 0
+        "translation": "§R如果你破产了你就不能重新开始重建§!",
+        "stage": 1
     },
     {
         "key": "HAS_CUSTOM_NAME",
         "original": "Has custom name",
-        "translation": "",
-        "stage": 0
+        "translation": "有自定义名字",
+        "stage": 1
     },
     {
         "key": "NOT_HAS_CUSTOM_NAME",
         "original": "Does NOT have custom name",
-        "translation": "",
-        "stage": 0
+        "translation": "没有自定义名字",
+        "stage": 1
     },
     {
         "key": "HAS_CUSTOM_DESCRIPTION",
         "original": "Has custom description",
-        "translation": "",
-        "stage": 0
+        "translation": "有自定义的描述",
+        "stage": 1
     },
     {
         "key": "NOT_HAS_CUSTOM_DESCRIPTION",
         "original": "Does NOT have custom description",
-        "translation": "",
-        "stage": 0
+        "translation": "没有自定义的描述",
+        "stage": 1
     },
     {
         "key": "OUTLINER_RESTORING_WONDER",
         "original": "Currently restoring the §Y[FromFrom.GetWonderTypeShort]§!",
-        "translation": "",
-        "stage": 0
+        "translation": "正在重建§Y[FromFrom.GetWonderTypeShort]§!",
+        "stage": 1
     },
     {
         "key": "WONDER_LOOTING_FINISHED_SETUP",
@@ -7862,14 +7862,14 @@
     {
         "key": "WONDER_IS_AT_MAX_STAGE",
         "original": "The Great Work is at its final stage",
-        "translation": "",
-        "stage": 0
+        "translation": "奇观处于最高等级",
+        "stage": 1
     },
     {
         "key": "NOT_WONDER_IS_AT_MAX_STAGE",
         "original": "The Great Work is NOT at its final stage",
-        "translation": "",
-        "stage": 0
+        "translation": "奇观并非最高等级",
+        "stage": 1
     },
     {
         "key": "String_time_immemorial_cap",
@@ -7880,44 +7880,44 @@
     {
         "key": "recruit_wonder_guard",
         "original": "Recruit an Honor Guard",
-        "translation": "",
-        "stage": 0
+        "translation": "招募荣誉卫队",
+        "stage": 1
     },
     {
         "key": "recruit_wonder_guard_desc",
         "original": " A Great Work should not be without protection. Let us recruit a force to protect it, and maybe it can be useful also for other missions.",
-        "translation": "",
-        "stage": 0
+        "translation": "奇观不能没人保护。我们应该招点人来守护它，或许他们还能在别的任务中发挥作用……",
+        "stage": 1
     },
     {
         "key": "String_Great_work",
         "original": "Great work",
-        "translation": "",
-        "stage": 0
+        "translation": "奇观",
+        "stage": 1
     },
     {
         "key": "String_great_work",
         "original": "great work",
-        "translation": "",
-        "stage": 0
+        "translation": "奇观",
+        "stage": 1
     },
     {
         "key": "ANY_WONDER_STARTS",
         "original": "Any Great Work",
-        "translation": "",
-        "stage": 0
+        "translation": "任意奇观",
+        "stage": 1
     },
     {
         "key": "ANY_OWNED_WONDER_STARTS",
         "original": "Any Demesne Great Work",
-        "translation": "",
-        "stage": 0
+        "translation": "直辖领内的任意奇观",
+        "stage": 1
     },
     {
         "key": "ANY_REALM_WONDER_STARTS",
         "original": "Any Great Work in Realm",
-        "translation": "",
-        "stage": 0
+        "translation": "国家内的任意奇观",
+        "stage": 1
     },
     {
         "key": "ANY_WONDER_UPGRADE_STARTS",
@@ -7946,20 +7946,20 @@
     {
         "key": "WONDERS_ALL",
         "original": "All Great Works",
-        "translation": "",
-        "stage": 0
+        "translation": "所有奇观",
+        "stage": 1
     },
     {
         "key": "WONDERS_ALL_OWNED",
         "original": "All Demesne Great Work",
-        "translation": "",
-        "stage": 0
+        "translation": "直辖领内的所有奇观",
+        "stage": 1
     },
     {
         "key": "WONDERS_ALL_REALM",
         "original": "All Realm Great Work",
-        "translation": "",
-        "stage": 0
+        "translation": "国家内的所有奇观",
+        "stage": 1
     },
     {
         "key": "WONDER_UPGRADES_ALL",
@@ -8012,14 +8012,14 @@
     {
         "key": "WONDER_BEING_BUILT_IN_PROVINCE",
         "original": "A great work is being built in §Y[This.GetName]§!",
-        "translation": "",
-        "stage": 0
+        "translation": "§Y[This.GetName]§!正在建造奇观",
+        "stage": 1
     },
     {
         "key": "WONDER_BEING_BUILT_BY_CHARACTER",
         "original": "A great work is being built by §Y[This.GetFirstName]§!",
-        "translation": "",
-        "stage": 0
+        "translation": "§Y[This.GetFirstName]§!正在建造奇观",
+        "stage": 1
     },
     {
         "key": "WONDER_NOT_BEING_BUILT_IN_PROVINCE",
@@ -8186,14 +8186,14 @@
     {
         "key": "WONDER_BUILD_COST_MODIFIER",
         "original": "Great Work Build Cost",
-        "translation": "",
-        "stage": 0
+        "translation": "奇观建造花费",
+        "stage": 1
     },
     {
         "key": "WONDER_BUILD_TIME_MODIFIER",
         "original": "Great Work Build Time",
-        "translation": "",
-        "stage": 0
+        "translation": "奇观建造时间",
+        "stage": 1
     },
     {
         "key": "WONDER_IS_NOT",
@@ -8396,8 +8396,8 @@
     {
         "key": "obj_create_wonder_title",
         "original": "Build a Great Work",
-        "translation": "",
-        "stage": 0
+        "translation": "建一座奇观",
+        "stage": 1
     },
     {
         "key": "create_wonder_effect_tooltip",
@@ -8408,8 +8408,8 @@
     {
         "key": "create_wonder_condition_tooltip",
         "original": "Build a Great Work to at least stage two.",
-        "translation": "",
-        "stage": 0
+        "translation": "建造一座至少二级的奇观",
+        "stage": 1
     },
     {
         "key": "WONDER_CONSTRUCTION_VIEW_FLAVOR_TEXT",
@@ -8654,20 +8654,20 @@
     {
         "key": "religion_feature_pyramids",
         "original": "Pyramid Creation",
-        "translation": "",
-        "stage": 0
+        "translation": "创造金字塔",
+        "stage": 1
     },
     {
         "key": "religion_feature_pyramids_desc",
         "original": "Pyramids were built many years ago by the ancients, we too should aspire to such lofty heights.",
-        "translation": "",
-        "stage": 0
+        "translation": "金字塔很久很久以前由古人所建，我们也应当追求如它一般的高度。",
+        "stage": 1
     },
     {
         "key": "tooltip_religion_feature_pyramids",
         "original": "§GIndependent lieges of this religion can construct pyramids§!",
-        "translation": "",
-        "stage": 0
+        "translation": "§G此宗教的独立领主可以建造金字塔§!",
+        "stage": 1
     },
     {
         "key": "upgrade_automata_throne",

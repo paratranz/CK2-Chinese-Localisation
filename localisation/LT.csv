@@ -154,7 +154,7 @@ EVTOPTB_LT_20101;别管它，继续工作。;;;;;;;;;;;;x
 EVTOPTC_LT_20101;别再让我为这种细枝末节的东西操心！;;;;;;;;;;;;x
 EVTOPTC_LT_20101_TT;你不会再受到与奇观建筑过程中的发现有关的消息打扰。\n;;;;;;;;;;;;x
 EVTOPTD_LT_20101;可能是座古墓。小心探索。;;;;;;;;;;;;x
-EVTOPTD_LT_20101_TT;这个选项可用是因为你拥有高学识或者博学和建筑师特质。\n;;;;;;;;;;;;x
+EVTOPTD_LT_20101_TT;这个选项可用是因为你拥有高学识或者是博学与建筑师特质。\n;;;;;;;;;;;;x
 EVTDESC_LT_20110_accident;工人们试图挖掘的时候发生了塌方，几个人被埋进了废墟里。现在我们得把所有东西清理干净。;;;;;;;;;;;;x
 EVTDESC_LT_20110_found_nothing;挖了几天之后，找到的只有古人的遗骨与破碎的瓶瓶罐罐。我们的时间和金钱全部白费了。;;;;;;;;;;;;x
 EVTDESC_LT_20110_found_valuables_1;经过一些挖掘，一块阻挡着入口的大石头出现了。当工人们移开石头时，他们发现了一座古墓，里面有少量的黄白之物。;;;;;;;;;;;;x
@@ -175,28 +175,28 @@ MNM_9999_DESC_armor;The castle blacksmith, more used to horseshoes and helmets t
 EVTDESC_LT_20201;My master [GetWeaponArmorSmith] came to see me in the throne room. [smith.GetSheHeCap] gestured towards [smith.GetHerHis] numerous assistants, who all carried examples of [smith.GetHerHis] work. 'Does my [Root.GetTitle] have anything special in mind?';;;;;;;;;;;;x
 EVTOPTA_zweihanded_LT_20201;我想要一把双手剑。;;;;;;;;;;;;x
 EVTOPTA_MNM_LT_20201_TT;This sword can only be handled by a strong warrior, but is sure to impress friend and foe alike.;;;;;;;;;;;;x
-use_scary_upgrade;Try to Intimidate;;;;;;;;;;;;x
-use_scary_upgrade_desc;Having a conversation with §Y[Root.GetFirstNameWithNick]§! in an appropriate place might convince [Root.GetHerHim] to be more supportive.;;;;;;;;;;;;x
+use_scary_upgrade;试图恐吓;;;;;;;;;;;;x
+use_scary_upgrade_desc;与§Y[Root.GetFirstNameWithNick]§!在一个合适的地点进行对话也许会使[Root.GetHerHim]更加支持我。;;;;;;;;;;;;x
 use_scary_upgrade_tt;You will take §Y[target_character.GetFirstNameWithNick]§! near the §Y[target_upgrade.GetName]§! in your §Y[target_wonder.GetName]§! and have a talk with [target_character.GetHerHim] about the importance of cooperation.;;;;;;;;;;;;x
-use_scary_upgrade_cooldown_tt;Has NOT attempted to intimidate a character in the past 2 years[From.GetScaryCD];;;;;;;;;;;;x
-string_scary_cd; - you can try to intimidate a character again on: §Y[This.used_scary_upgrade_cd.GetExpiryDate]§!;;;;;;;;;;;;x
+use_scary_upgrade_cooldown_tt;过去的2年里没有威胁一名角色[From.GetScaryCD];;;;;;;;;;;;x
+string_scary_cd;- 你可以再次威胁一名角色：§Y[This.used_scary_upgrade_cd.GetExpiryDate]§!;;;;;;;;;;;;x
 EVTDESC_LT_20301;I invited [target_character.GetBestName] for a stroll today, saying I had something to show [target_character.GetHerHim]. Eventually we came to stop near my [target_upgrade.GetName]. I waited there in silence for several minutes, while [target_character.GetBestName] grew more and more uncomfortable, before I leaned in to say...;;;;;;;;;;;;x
 EVTDESC_LT_20301_evil_reaction;I invited [target_character.GetBestName] on a stroll today, saying I had something to show [target_character.GetHerHim]. Eventually we came to stop near my [target_upgrade.GetName]. I waited there in silence for several minutes, but [target_character.GetSheHe] seemed to be enjoying the view. Then I said...;;;;;;;;;;;;x
 EVTOPTA_LT_20301;...'I hope my meaning is clear'.;;;;;;;;;;;;x
-EVTOPTA_LT_20301_TT;the attempt to intimidate §Y[target_character.GetFirstNameWithNick]§! fails;;;;;;;;;;;;x
+EVTOPTA_LT_20301_TT;威胁§Y[target_character.GetFirstNameWithNick]§!的企图失败了;;;;;;;;;;;;x
 EVTOPTB_LT_20301;...'I hope you understand how important this favor is'.;;;;;;;;;;;;x
 EVTOPTB_LT_20301_TT;the attempt to coerce a favor fails;;;;;;;;;;;;x
 EVTOPTC_LT_20301;...'What do you think of my toy?'.;;;;;;;;;;;;x
 EVTOPTD_LT_20301;... 'This bloody thing also scares me!'.;;;;;;;;;;;;x
 EVTDESC_LT_20310;[target_character.GetBestName] just laughed at me! Laughed really hard. I can still hear his laughs in my dreams.;;;;;;;;;;;;x
-EVTOPTA_LT_20310;Oh no!;;;;;;;;;;;;x
-use_secluded_upgrade;Private Conversation;;;;;;;;;;;;x
-use_secluded_upgrade_desc;Meeting §Y[Root.GetFirstNameWithNick]§! in a secluded place might be interesting.;;;;;;;;;;;;x
+EVTOPTA_LT_20310;哦不！;;;;;;;;;;;;x
+use_secluded_upgrade;私密谈话;;;;;;;;;;;;x
+use_secluded_upgrade_desc;与§Y[Root.GetFirstNameWithNick]§!在一个隐蔽的地方会面会很有趣。;;;;;;;;;;;;x
 use_secluded_upgrade_tt;You will invite §Y[target_character.GetFirstNameWithNick]§! to meet you in the §Y[target_upgrade.GetName]§! of the §Y[target_wonder.GetName]§! and have a private conversation with [target_character.GetHerHim].;;;;;;;;;;;;x
 use_secluded_upgrade_cooldown_tt;Has NOT invited a character for a private talk in the past §Y6§! months[From.GetSecludedCD];;;;;;;;;;;;x
 EVTDESC_LT_20405;[From.GetBestName] invited me to meet [From.GetHerHim] in the [target_upgrade.GetName] of the [target_wonder.GetName].;;;;;;;;;;;;x
-EVTOPTA_LT_20405;I will accept.;;;;;;;;;;;;x
-EVTOPTB_LT_20405;I will refuse.;;;;;;;;;;;;x
+EVTOPTA_LT_20405;我接受。;;;;;;;;;;;;x
+EVTOPTB_LT_20405;我拒绝。;;;;;;;;;;;;x
 EVTOPTC_LT_20405;I will politely invent an excuse and refuse.;;;;;;;;;;;;x
 EVTDESC_LT_20410;[target_character.GetBestName] accepted my invitation to meet in the seclusion of the [target_upgrade.GetName] in the [target_wonder.GetName]. After some time talking...;;;;;;;;;;;;x
 EVTOPTA_LT_20410;...we will know each other a little better.;;;;;;;;;;;;x
@@ -850,12 +850,12 @@ String_iron;iron;;;;;;;;;;;;x
 String_Iron;Iron;;;;;;;;;;;;x
 String_towering;towering;;;;;;;;;;;;x
 String_Towering;Towering;;;;;;;;;;;;x
-String_the_evil_god_names_workshop;[Root.Religion.GetRandomEvilGodNameCap]'s Workshop;;;;;;;;;;;;x
-String_Statue_Ruler;Statue of [wonder_owner_original.GetTitledFirstName];;;;;;;;;;;;x
-String_statue_ruler;Statue of [wonder_owner_original.GetTitledFirstName];;;;;;;;;;;;x
+String_the_evil_god_names_workshop;[Root.Religion.GetRandomEvilGodNameCap]工坊;;;;;;;;;;;;x
+String_Statue_Ruler;[wonder_owner_original.GetTitledFirstName]像;;;;;;;;;;;;x
+String_statue_ruler;[wonder_owner_original.GetTitledFirstName]像;;;;;;;;;;;;x
 String_statue_wonder_type;[This.GetWonderTypeShortCap];;;;;;;;;;;;x
-String_adj_statue_wonder_type;[This.GetWonderTypeShortCap] in [target_province.GetName];;;;;;;;;;;;x
-String_adj_statue_wonder_type_in_location;[This.GetWonderAdjCap] [This.GetWonderTypeShortCap] in [target_province.GetName];;;;;;;;;;;;x
+String_adj_statue_wonder_type;[target_province.GetName][This.GetWonderTypeShortCap];;;;;;;;;;;;x
+String_adj_statue_wonder_type_in_location;[target_province.GetName]的[This.GetWonderAdjCap][This.GetWonderTypeShortCap];;;;;;;;;;;;x
 String_Death;Death;;;;;;;;;;;;x
 String_Pain;Pain;;;;;;;;;;;;x
 upgrade_royal_bedchamber;Royal Bedchamber;;;;;;;;;;;;x
@@ -869,7 +869,7 @@ String_Verdant;Verdant;;;;;;;;;;;;x
 String_verdant;verdant;;;;;;;;;;;;x
 String_ancient;ancient;;;;;;;;;;;;x
 String_Ancient;Ancient;;;;;;;;;;;;x
-String_lighthouse;lighthouse;;;;;;;;;;;;x
+String_lighthouse;灯塔;;;;;;;;;;;;x
 String_soaring;soaring;;;;;;;;;;;;x
 String_Soaring;Soaring;;;;;;;;;;;;x
 String_Hallowed;Hallowed;;;;;;;;;;;;x
@@ -885,40 +885,40 @@ String_Woods;Woods;;;;;;;;;;;;x
 upgrade_torture_chamber;Torture Chamber;;;;;;;;;;;;x
 String_looming;looming;;;;;;;;;;;;x
 String_Looming;Looming;;;;;;;;;;;;x
-upgrade_skull_throne;Throne of Skulls;;;;;;;;;;;;x
-upgrade_torture_chamber_desc;Best not to ask too many questions, lest you end up here.;;;;;;;;;;;;x
-upgrade_skull_throne_desc;A throne made of skulls and bones, supported by a frame of iron.;;;;;;;;;;;;x
+upgrade_skull_throne;颅骨王座;;;;;;;;;;;;x
+upgrade_torture_chamber_desc;不想死的话就别问太多问题;;;;;;;;;;;;x
+upgrade_skull_throne_desc;用骷髅与白骨堆砌成的王座，以铁架支撑;;;;;;;;;;;;x
 upgrade_golden_throne;黄金宝座;;;;;;;;;;;;x
 upgrade_golden_throne_desc;通体由黄金打造的宝座，甚至没有镀金，就是纯金打造。真是浪费啊。;;;;;;;;;;;;x
 drunkard_opinion;酒鬼好感;;;;;;;;;;;;x
 upgrade_brewery;啤酒厂;;;;;;;;;;;;x
-upgrade_brewery_desc;A brewery to create your own alcohol. While unlikely to turn a profit, it might make you popular.;;;;;;;;;;;;x
-alcohol_gift_decision;Give [GetAlcoholContainerType] of [GetAlcoholType] gift;;;;;;;;;;;;x
-alcohol_gift_decision_desc;Send [Root.GetTitledFirstName] a [GetAlcoholContainerType] of [GetAlcoholType] brewed in your own brewery;;;;;;;;;;;;x
-not_recently_sent_alcohol_tooltip;[From.GetTitledFirstName] has not recently sent a gift of alcohol.;;;;;;;;;;;;x
-String_Bottle;Bottle;;;;;;;;;;;;x
-String_Case;Case;;;;;;;;;;;;x
-String_Cask;Cask;;;;;;;;;;;;x
-String_Barrel;Barrel;;;;;;;;;;;;x
+upgrade_brewery_desc;一间能让你自行生产酒的酿酒厂。尽管它不太可能赢利，却可以使你变得受欢迎。;;;;;;;;;;;;x
+alcohol_gift_decision;赠送一[GetAlcoholContainerType][GetAlcoholType]做礼物;;;;;;;;;;;;x
+alcohol_gift_decision_desc;将你酿酒厂里生产的一[GetAlcoholContainerType][GetAlcoholType]赠予[Root.GetTitledFirstName]作为礼物;;;;;;;;;;;;x
+not_recently_sent_alcohol_tooltip;[From.GetTitledFirstName]最近并没有送过酒水类礼物;;;;;;;;;;;;x
+String_Bottle;瓶;;;;;;;;;;;;x
+String_Case;箱;;;;;;;;;;;;x
+String_Cask;桶;;;;;;;;;;;;x
+String_Barrel;木桶;;;;;;;;;;;;x
 String_Beer;啤酒;;;;;;;;;;;;x
 String_Ale;麦芽酒;;;;;;;;;;;;x
 String_Wine;葡萄酒;;;;;;;;;;;;x
 String_Cider;果酒;;;;;;;;;;;;x
 String_Mead;蜂蜜酒;;;;;;;;;;;;x
 String_Whiskey;威士忌;;;;;;;;;;;;x
-opinion_gifted_alcohol;Was Given Brewery Gift;;;;;;;;;;;;x
-opinion_gifted_alcohol_drunkard;Was Given Brewery Gift;;;;;;;;;;;;x
-upgrade_vineyard;Vineyard;;;;;;;;;;;;x
-upgrade_vineyard_desc;A place to grow grapes and make them into wine.;;;;;;;;;;;;x
-String_Vineyard;Vineyard;;;;;;;;;;;;x
-String_Brewery;Brewery;;;;;;;;;;;;x
+opinion_gifted_alcohol;收到酒水礼物;;;;;;;;;;;;x
+opinion_gifted_alcohol_drunkard;收到酒水礼物;;;;;;;;;;;;x
+upgrade_vineyard;葡萄园;;;;;;;;;;;;x
+upgrade_vineyard_desc;种葡萄并用葡萄酿酒的地方;;;;;;;;;;;;x
+String_Vineyard;葡萄园;;;;;;;;;;;;x
+String_Brewery;酿酒厂;;;;;;;;;;;;x
 upgrade_royal_bedchamber_desc;An incredibly ostentatious bedroom, fit for nobility.;;;;;;;;;;;;x
-upgrade_historical_mural;Historical Mural;;;;;;;;;;;;x
-upgrade_historical_mural_desc;A beautiful mural depicting a scene from the history of your dynasty.;;;;;;;;;;;;x
+upgrade_historical_mural;历史壁画;;;;;;;;;;;;x
+upgrade_historical_mural_desc;描绘着你家族历史中一幕的壁画;;;;;;;;;;;;x
 upgrade_eternal_flame;Eternal Flame;;;;;;;;;;;;x
 upgrade_eternal_flame_desc;The Eternal Flame is constantly tended, to ensure it never goes out.;;;;;;;;;;;;x
-upgrade_unmarked_tombs;Unmarked Tombs;;;;;;;;;;;;x
-upgrade_unmarked_tombs_desc;It is unclear who these tombs were made for, but rumor has it you can sometimes hear voices from within.;;;;;;;;;;;;x
+upgrade_unmarked_tombs;无名墓地;;;;;;;;;;;;x
+upgrade_unmarked_tombs_desc;我们不清楚这是谁的墓地，但据传言，你有时能听见声音从里面传出。;;;;;;;;;;;;x
 zunist_pagan_opinion;尊日神教信徒好感;;;;;;;;;;;;x
 zunist_pagan_reformed_opinion;改革尊日神教信徒好感;;;;;;;;;;;;x
 upgrade_quadriga_statue;驷马战车像;;;;;;;;;;;;x
@@ -928,21 +928,21 @@ upgrade_gompa;贡巴;;;;;;;;;;;;x
 upgrade_bodhi_tree;菩提树;;;;;;;;;;;;x
 upgrade_cave_complex;Cave Complex;;;;;;;;;;;;x
 upgrade_vihara;精舍;;;;;;;;;;;;x
-upgrade_school_buddhist;Buddhist School;;;;;;;;;;;;x
-upgrade_relic_stupa;遗塔;;;;;;;;;;;;x
-upgrade_object_stupa;Object Stupa;;;;;;;;;;;;x
-upgrade_commerative_stupa;Commerative Stupa;;;;;;;;;;;;x
-upgrade_symbolic_stupa;Symbolic Stupa;;;;;;;;;;;;x
-upgrade_votive_stupa;Votive Stupa;;;;;;;;;;;;x
-upgrade_chaitya-grihas_desc;A prayer hall that surrounds the stupas.;;;;;;;;;;;;x
-upgrade_gompa_desc;A fortification surrounding the temple.;;;;;;;;;;;;x
-upgrade_bodhi_tree_desc;A descendant of the sacred tree in under which Siddhartha Gautama, the spiritual teacher who became known as the Buddha, attained enlightenment.;;;;;;;;;;;;x
+upgrade_school_buddhist;佛学院;;;;;;;;;;;;x
+upgrade_relic_stupa;舍利塔;;;;;;;;;;;;x
+upgrade_object_stupa;衣钵塔;;;;;;;;;;;;x
+upgrade_commerative_stupa;显迹塔;;;;;;;;;;;;x
+upgrade_symbolic_stupa;法身塔;;;;;;;;;;;;x
+upgrade_votive_stupa;报恩塔;;;;;;;;;;;;x
+upgrade_chaitya-grihas_desc;环绕佛塔的巡礼大厅。;;;;;;;;;;;;x
+upgrade_gompa_desc;环绕寺庙的堡垒。;;;;;;;;;;;;x
+upgrade_bodhi_tree_desc;乔达摩·悉达多在这棵圣树的祖先的树荫下悟道，他是以佛陀之名为世人所知的精神导师。;;;;;;;;;;;;x
 upgrade_cave_complex_desc;A complex of caves.;;;;;;;;;;;;x
-upgrade_vihara_desc;The shelter and living quarters for the Buddhist Monks who live here.;;;;;;;;;;;;x
-upgrade_school_buddhist_desc;A school where Buddhist teachings are taught.;;;;;;;;;;;;x
-upgrade_relic_stupa_desc;This is where the remains of Buddha and his disciples are interred.;;;;;;;;;;;;x
-upgrade_object_stupa_desc;This is where the objects belonging to Buddha and his disciples are interred.;;;;;;;;;;;;x
-upgrade_commerative_stupa_desc;Built to commemorative events in lives of Buddha and his disciples.;;;;;;;;;;;;x
+upgrade_vihara_desc;佛教僧侣栖身立命之所。;;;;;;;;;;;;x
+upgrade_school_buddhist_desc;教授佛教学说的学校;;;;;;;;;;;;x
+upgrade_relic_stupa_desc;这是佛陀及其弟子的遗物埋葬的地方。;;;;;;;;;;;;x
+upgrade_object_stupa_desc;这是佛陀及其弟子的遗物埋葬的地方。;;;;;;;;;;;;x
+upgrade_commerative_stupa_desc;为纪念佛陀及其弟子的生平事迹而建造。;;;;;;;;;;;;x
 wonder_temple_buddhist;Temple;;;;;;;;;;;;x
 upgrade_walls_sea;Sea Walls;;;;;;;;;;;;x
 upgrade_walls_sea_desc;Walls specifically added to defend from sea attacks.;;;;;;;;;;;;x
@@ -968,10 +968,10 @@ armoury_modifier_tt;Allows more options when §YFinding a Smith§!.;;;;;;;;;;;;x
 String_unfinished;unfinished ;;;;;;;;;;;;x
 wonder_artifact_bells;Cathedral Bells;;;;;;;;;;;;x
 wonder_artifact_bells_desc;Bells that once stood on a Christian Cathedral.;;;;;;;;;;;;x
-wonder_temple_hindu;Hindu Temple;;;;;;;;;;;;x
+wonder_temple_hindu;印度教神庙;;;;;;;;;;;;x
 wonder_temple_hindu_desc;A temple that symbolizes the house, seat and body of a God.;;;;;;;;;;;;x
 wonder_temple_hindu_construction_desc;A temple that symbolizes the house, seat and body of a God. It is a sign of its builder §YKarma§! and §YPrestige§!, and can also influence the opinion of some of your subjects.;;;;;;;;;;;;x
-upgrade_high_gopura;Gopuram;;;;;;;;;;;;x
+upgrade_high_gopura;瞿布罗;;;;;;;;;;;;x
 upgrade_high_gopura_desc;An richly ornate high tower that serves as an entrance to the temple.;;;;;;;;;;;;x
 upgrade_shikhara;Shikhara;;;;;;;;;;;;x
 upgrade_shikhara_desc;The main temple tower.;;;;;;;;;;;;x
@@ -1211,13 +1211,13 @@ scholar_opinion;Scholar Opinion;;;;;;;;;;;;x
 religious_spread_custom_modifier_tt;§Y[Root.job_spiritual.GetTitledName]§! convert §YCounties§! faster;;;;;;;;;;;;x
 culture_convertion_custom_modifier_tt;§GConvert Counties§! to your §GCulture§! faster;;;;;;;;;;;;x
 herb_event_modifier_tt;Will periodically give you §YHerbs§!;;;;;;;;;;;;x
-EVT_TITLE_LT_60701;Herbs in the [target_province.GetName];;;;;;;;;;;;x
+EVT_TITLE_LT_60701;[target_province.GetName]的草药;;;;;;;;;;;;x
 EVTDESC_LT_60701;The soothing sounds of the [target_wonder.GetName] embrace me as I walk through the greenery. Reportedly some local herbs have sprouted in the garden, but a secluded patch of grass present an alternative end to this excursion.;;;;;;;;;;;;x
 EVTOPTA_LT_60701;I will get the herbs.;;;;;;;;;;;;x
 EVTOPTB_LT_60701;A restful nap is exactly what I need!;;;;;;;;;;;;x
 wonder_temple_buddhist_desc;The temple is a holy building, a place of devotion and reflection.;;;;;;;;;;;;x
-upgrade_symbolic_stupa_desc;Built to symbolize different aspects of Buddhist theology.;;;;;;;;;;;;x
-upgrade_votive_stupa_desc;Built to gain spiritual benefits, or to commemorate visits.;;;;;;;;;;;;x
+upgrade_symbolic_stupa_desc;为象征佛教理论的不同方面而建造。;;;;;;;;;;;;x
+upgrade_votive_stupa_desc;为获得精神上的裨益或纪行而建造。;;;;;;;;;;;;x
 hidden_passageways_modifier_tt;A higher chance of escaping capture after battle;;;;;;;;;;;;x
 NUDGE_5;Great Work;;;;;;;;;;;;x
 NUDGE_6;Great Work in water;;;;;;;;;;;;x
@@ -1268,10 +1268,10 @@ WONDER_NOT_DAMAGED;§Y[FromFrom.GetName]§! is not damaged;;;;;;;;;;;;x
 WONDER_ALREADY_LOOTING;The §Y[FromFrom.GetWonderTypeShort]§! is already being looted;;;;;;;;;;;;x
 WONDER_ALREADY_RESTORING;The §Y[FromFrom.GetWonderTypeShort]§! is already being restored;;;;;;;;;;;;x
 CHARACTER_NOT_PARTICIPATED_IN_WONDER_CONSTRUCTION;§Y$CHARACTER$§! participated in the construction of the §Y[FromFrom.GetName]§!;;;;;;;;;;;;x
-CHARACTER_OWNS_WONDER;§Y$CHARACTER$§! is the owner of §Y[FromFrom.GetName]§!;;;;;;;;;;;;x
-LOOT;Loot;;;;;;;;;;;;x
-WONDER_LOOT_DELAYED_TT;Start looting the §Y[FromFrom.GetWonderTypeShort]§!.\nThis can yield treasures but will also cause damage and render the §Y[FromFrom.GetWonderTypeShort]§! unusable until it has been restored.;;;;;;;;;;;;x
-STOP_LOOT;Stop looting;;;;;;;;;;;;x
+CHARACTER_OWNS_WONDER;§Y$CHARACTER$§!是§Y[FromFrom.GetName]§!的拥有者;;;;;;;;;;;;x
+LOOT;劫掠;;;;;;;;;;;;x
+WONDER_LOOT_DELAYED_TT;开始劫掠§Y[FromFrom.GetWonderTypeShort]§!。\n这样做可以获得财宝，但直到§Y[FromFrom.GetWonderTypeShort]§!被重建他都将无法发挥作用。;;;;;;;;;;;;x
+STOP_LOOT;停止劫掠;;;;;;;;;;;;x
 WONDER_STOP_LOOT_DELAYED_TT;Abandon all looting progress and cause no further damage to the §Y[FromFrom.GetWonderTypeShort]§!.;;;;;;;;;;;;x
 RESTORE;修复;;;;;;;;;;;;x
 STOP_RESTORE;停止修复;;;;;;;;;;;;x
@@ -1282,22 +1282,22 @@ WONDER_HISTORY_RESTORED;Restored to its former glory!;;;;;;;;;;;;x
 WONDER_HISTORY_UPGRADE_DESTROYED;The $UPGRADE_NAME$ was destroyed.;;;;;;;;;;;;x
 WONDER_STAGE_LOOT_PROGRESS_TT;Stage §Y[FromFrom.GetCurrentStageNumber]§! is §Y$NUM$%§! looted.;;;;;;;;;;;;x
 WONDER_RESTORE_PROGRESS_TT;The damages are $NUM$% repaired.;;;;;;;;;;;;x
-IS_WONDER_DAMAGED_TRIGGER;Is damaged;;;;;;;;;;;;x
-NOT_IS_WONDER_DAMAGED_TRIGGER;Is NOT damaged;;;;;;;;;;;;x
-IS_WONDER_BEING_LOOTED_TRIGGER;Is being looted;;;;;;;;;;;;x
-NOT_IS_WONDER_BEING_LOOTED_TRIGGER;Is NOT being looted;;;;;;;;;;;;x
-IS_WONDER_BEING_RESTORED_TRIGGER;Is being restored;;;;;;;;;;;;x
-NOT_IS_WONDER_BEING_RESTORED_TRIGGER;Is NOT being restored;;;;;;;;;;;;x
-WONDER_RESTORE_PAUSE_TT;Pause restoration;;;;;;;;;;;;x
-WONDER_RESTORE_PAUSE_TT_DELAYED;While restoration is paused there is no restoration upkeep.;;;;;;;;;;;;x
+IS_WONDER_DAMAGED_TRIGGER;受损;;;;;;;;;;;;x
+NOT_IS_WONDER_DAMAGED_TRIGGER;未受损;;;;;;;;;;;;x
+IS_WONDER_BEING_LOOTED_TRIGGER;正被劫掠;;;;;;;;;;;;x
+NOT_IS_WONDER_BEING_LOOTED_TRIGGER;未被劫掠;;;;;;;;;;;;x
+IS_WONDER_BEING_RESTORED_TRIGGER;正在被重建;;;;;;;;;;;;x
+NOT_IS_WONDER_BEING_RESTORED_TRIGGER;未处于被重建状态;;;;;;;;;;;;x
+WONDER_RESTORE_PAUSE_TT;暂停重建;;;;;;;;;;;;x
+WONDER_RESTORE_PAUSE_TT_DELAYED;暂停重建时不消耗每月重建费用;;;;;;;;;;;;x
 WONDER_STAGE_PAUSE_TT_DELAYED;While stage construction is paused there is no stage construction upkeep.;;;;;;;;;;;;x
-WONDER_RESTORE_RESUME_TT;Resume restoration;;;;;;;;;;;;x
-WONDER_RESTORE_RESUME_TT_DELAYED_DISABLED;§RYou can not resume restoration if you are bankrupt§!;;;;;;;;;;;;x
-HAS_CUSTOM_NAME;Has custom name;;;;;;;;;;;;x
-NOT_HAS_CUSTOM_NAME;Does NOT have custom name;;;;;;;;;;;;x
-HAS_CUSTOM_DESCRIPTION;Has custom description;;;;;;;;;;;;x
-NOT_HAS_CUSTOM_DESCRIPTION;Does NOT have custom description;;;;;;;;;;;;x
-OUTLINER_RESTORING_WONDER;Currently restoring the §Y[FromFrom.GetWonderTypeShort]§!;;;;;;;;;;;;x
+WONDER_RESTORE_RESUME_TT;重新开始重建;;;;;;;;;;;;x
+WONDER_RESTORE_RESUME_TT_DELAYED_DISABLED;§R如果你破产了你就不能重新开始重建§!;;;;;;;;;;;;x
+HAS_CUSTOM_NAME;有自定义名字;;;;;;;;;;;;x
+NOT_HAS_CUSTOM_NAME;没有自定义名字;;;;;;;;;;;;x
+HAS_CUSTOM_DESCRIPTION;有自定义的描述;;;;;;;;;;;;x
+NOT_HAS_CUSTOM_DESCRIPTION;没有自定义的描述;;;;;;;;;;;;x
+OUTLINER_RESTORING_WONDER;正在重建§Y[FromFrom.GetWonderTypeShort]§!;;;;;;;;;;;;x
 WONDER_LOOTING_FINISHED_SETUP;Great Work looted;;;;;;;;;;;;x
 WONDER_LOOTING_FINISHED_LOG;The looting of stage $STAGE|Y$ has been completed for $WONDER|Y$;;;;;;;;;;;;x
 WONDER_RESTORATION_FINISHED_SETUP;Great Work restored;;;;;;;;;;;;x
@@ -1310,23 +1310,23 @@ CHAR_IS_INDEPENDENT;§Y[This.GetTitledFirstName]§! is independent;;;;;;;;;;;;x
 NOT_CHAR_IS_INDEPENDENT;§Y[This.GetTitledFirstName]§! is not independent;;;;;;;;;;;;x
 CURRENT_WONDER_STAGE_LOOTABLE;The current stage is lootable;;;;;;;;;;;;x
 NOT_CURRENT_WONDER_STAGE_LOOTABLE;The current stage is NOT lootable;;;;;;;;;;;;x
-WONDER_IS_AT_MAX_STAGE;The Great Work is at its final stage;;;;;;;;;;;;x
-NOT_WONDER_IS_AT_MAX_STAGE;The Great Work is NOT at its final stage;;;;;;;;;;;;x
+WONDER_IS_AT_MAX_STAGE;奇观处于最高等级;;;;;;;;;;;;x
+NOT_WONDER_IS_AT_MAX_STAGE;奇观并非最高等级;;;;;;;;;;;;x
 String_time_immemorial_cap;太古;;;;;;;;;;;;x
-recruit_wonder_guard;Recruit an Honor Guard;;;;;;;;;;;;x
-recruit_wonder_guard_desc; A Great Work should not be without protection. Let us recruit a force to protect it, and maybe it can be useful also for other missions.;;;;;;;;;;;;x
-String_Great_work;Great work;;;;;;;;;;;;x
-String_great_work;great work;;;;;;;;;;;;x
-ANY_WONDER_STARTS;Any Great Work;;;;;;;;;;;;x
-ANY_OWNED_WONDER_STARTS;Any Demesne Great Work;;;;;;;;;;;;x
-ANY_REALM_WONDER_STARTS;Any Great Work in Realm;;;;;;;;;;;;x
+recruit_wonder_guard;招募荣誉卫队;;;;;;;;;;;;x
+recruit_wonder_guard_desc;奇观不能没人保护。我们应该招点人来守护它，或许他们还能在别的任务中发挥作用……;;;;;;;;;;;;x
+String_Great_work;奇观;;;;;;;;;;;;x
+String_great_work;奇观;;;;;;;;;;;;x
+ANY_WONDER_STARTS;任意奇观;;;;;;;;;;;;x
+ANY_OWNED_WONDER_STARTS;直辖领内的任意奇观;;;;;;;;;;;;x
+ANY_REALM_WONDER_STARTS;国家内的任意奇观;;;;;;;;;;;;x
 ANY_WONDER_UPGRADE_STARTS;Any Great Work Feature;;;;;;;;;;;;x
 ANY_OWNED_WONDER_UPGRADE_STARTS;Any Demesne Great Work Feature;;;;;;;;;;;;x
 ANY_REALM_WONDER_UPGRADE_STARTS;Any Great Work Feature in Realm;;;;;;;;;;;;x
 ANY_UPGRADE_ON_WONDER;Any Feature on Great Work;;;;;;;;;;;;x
-WONDERS_ALL;All Great Works;;;;;;;;;;;;x
-WONDERS_ALL_OWNED;All Demesne Great Work;;;;;;;;;;;;x
-WONDERS_ALL_REALM;All Realm Great Work;;;;;;;;;;;;x
+WONDERS_ALL;所有奇观;;;;;;;;;;;;x
+WONDERS_ALL_OWNED;直辖领内的所有奇观;;;;;;;;;;;;x
+WONDERS_ALL_REALM;国家内的所有奇观;;;;;;;;;;;;x
 WONDER_UPGRADES_ALL;All Great Work Features;;;;;;;;;;;;x
 WONDER_UPGRADES_ALL_OWNED;All Demesne Great Work Features;;;;;;;;;;;;x
 WONDER_UPGRADES_ALL_REALM;All Realm Great Work Features;;;;;;;;;;;;x
@@ -1335,8 +1335,8 @@ WONDERS_ALL_UPGRADES_ON;All Features on Great Work;;;;;;;;;;;;x
 WONDER_ALL_PREVIOUS_WONDER_OWNERS;All Previous Owners of Great Work;;;;;;;;;;;;x
 ANY_WONDER_OWNER_STARTS;Any Great Work Owner;;;;;;;;;;;;x
 ANY_PREVIOUS_WONDER_OWNER_STARTS;Any Previous Owner of Great Work;;;;;;;;;;;;x
-WONDER_BEING_BUILT_IN_PROVINCE;A great work is being built in §Y[This.GetName]§!;;;;;;;;;;;;x
-WONDER_BEING_BUILT_BY_CHARACTER;A great work is being built by §Y[This.GetFirstName]§!;;;;;;;;;;;;x
+WONDER_BEING_BUILT_IN_PROVINCE;§Y[This.GetName]§!正在建造奇观;;;;;;;;;;;;x
+WONDER_BEING_BUILT_BY_CHARACTER;§Y[This.GetFirstName]§!正在建造奇观;;;;;;;;;;;;x
 WONDER_NOT_BEING_BUILT_IN_PROVINCE;A great work is not being built in §Y[This.GetName]§!;;;;;;;;;;;;x
 WONDER_NOT_BEING_BUILT_BY_CHARACTER;A great work is not being built by §Y[This.GetFirstName]§!;;;;;;;;;;;;x
 WONDER_UPGRADE_BEING_BUILT_IN_PROVINCE;A great work feature is being built in §Y[This.GetName]§!;;;;;;;;;;;;x
@@ -1364,8 +1364,8 @@ WONDERS_MODIFIER_STRING;Great Works;;;;;;;;;;;;x
 WONDER_UPGRADE_IS_NOT;Great Work feature is NOT;;;;;;;;;;;;x
 WONDER_UPGRADE_IS;Great Work feature is;;;;;;;;;;;;x
 WONDER_UPGRADE_EXISTS;Great Work feature exists;;;;;;;;;;;;x
-WONDER_BUILD_COST_MODIFIER;Great Work Build Cost;;;;;;;;;;;;x
-WONDER_BUILD_TIME_MODIFIER;Great Work Build Time;;;;;;;;;;;;x
+WONDER_BUILD_COST_MODIFIER;奇观建造花费;;;;;;;;;;;;x
+WONDER_BUILD_TIME_MODIFIER;奇观建造时间;;;;;;;;;;;;x
 WONDER_IS_NOT;Great Work is NOT;;;;;;;;;;;;x
 WONDER_IS;Great Work is;;;;;;;;;;;;x
 WONDER_EXISTS;Great Work exists;;;;;;;;;;;;x
@@ -1399,9 +1399,9 @@ WONDER_UPGRADE_CONSTRUCTION_STARTED_IN_PROVINCE;Construction of a great work fea
 WONDER_UPGRADE_CONSTRUCTION_STARTED_BY_CHARACTER;§Y[This.GetFirstName]§! has started constructing a great work feature;;;;;;;;;;;;x
 WONDER_UPGRADE_CONSTRUCTION_NOT_STARTED_IN_PROVINCE;Construction of a great work feature has not started in §Y[This.GetName]§!;;;;;;;;;;;;x
 WONDER_UPGRADE_CONSTRUCTION_NOT_STARTED_BY_CHARACTER;§Y[This.GetFirstName]§! has not started constructing a great work feature;;;;;;;;;;;;x
-obj_create_wonder_title;Build a Great Work;;;;;;;;;;;;x
+obj_create_wonder_title;建一座奇观;;;;;;;;;;;;x
 create_wonder_effect_tooltip;Completing this ambition will result in an extra Feature being built on your Great Work.;;;;;;;;;;;;x
-create_wonder_condition_tooltip;Build a Great Work to at least stage two.;;;;;;;;;;;;x
+create_wonder_condition_tooltip;建造一座至少二级的奇观;;;;;;;;;;;;x
 WONDER_CONSTRUCTION_VIEW_FLAVOR_TEXT;These constructions are not for the faint of heart. Decades will pass, and heaps of gold will be spent, but at the end of it all you might be left with one of the greatest buildings in the world...;;;;;;;;;;;;x
 WONDER_UPGRADE_BUILT_FOR_WONDER;A feature has been built for §Y[This.GetName]§!;;;;;;;;;;;;x
 WONDER_UPGRADE_BUILT;Feature has been built;;;;;;;;;;;;x
@@ -1442,9 +1442,9 @@ WONDER_SPECIFIC_UPGRADE_CONSTRUCTION_NOT_STARTED_BY_CHARACTER;§Y[This.GetFirstN
 intimidation_possible_modifier_tt;Enables §YIntimidation§! attempts;;;;;;;;;;;;x
 recruit_gladiator_modifier_tt;Enables the recruitment of §YGladiators§!;;;;;;;;;;;;x
 produces_alcohol_modifier_tt;Enables the §YSend Alcohol Gift§! Decision;;;;;;;;;;;;x
-religion_feature_pyramids;Pyramid Creation;;;;;;;;;;;;x
-religion_feature_pyramids_desc;Pyramids were built many years ago by the ancients, we too should aspire to such lofty heights.;;;;;;;;;;;;x
-tooltip_religion_feature_pyramids;§GIndependent lieges of this religion can construct pyramids§!;;;;;;;;;;;;x
+religion_feature_pyramids;创造金字塔;;;;;;;;;;;;x
+religion_feature_pyramids_desc;金字塔很久很久以前由古人所建，我们也应当追求如它一般的高度。;;;;;;;;;;;;x
+tooltip_religion_feature_pyramids;§G此宗教的独立领主可以建造金字塔§!;;;;;;;;;;;;x
 upgrade_automata_throne;Automata Throne;;;;;;;;;;;;x
 upgrade_automata_throne_desc;By some complex machinery this throne can raise itself up and down at will.;;;;;;;;;;;;x
 upgrade_ballroom;舞厅;;;;;;;;;;;;x
