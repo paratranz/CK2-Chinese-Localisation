@@ -1,6 +1,6 @@
 ### ParaTranz ###
 #CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
-EVTDESC38321;Giving to others what I may need in the future is not always the best choice. I've lost the §YCharitable§! trait.;;;;;;;;;;;;x
+EVTDESC38321;把我将来可能用得上的东西送给别人并不总是最好的选择。我失去了§Y慷慨§!特质。;;;;;;;;;;;;x
 EVTDESC38322;与人分享是一种快乐。我失去了§Y贪婪§!特质。;;;;;;;;;;;;x
 wonder_library;大图书馆;;;;;;;;;;;;x
 wonder_library_desc;书籍是宝贵的，有关古往今来事物的知识写在它们的字里行间。这座知识的宝库将具备储存数以千计的书籍的能力，还配有配套的阅读设备。;;;;;;;;;;;;x
@@ -38,7 +38,7 @@ String_roman;罗马;;;;;;;;;;;;x
 String_Euripedes;欧里庇得斯;;;;;;;;;;;;x
 String_Sophocles;索福克勒斯;;;;;;;;;;;;x
 String_Aristophanes;阿里斯托芬;;;;;;;;;;;;x
-String_Philemon;腓勒蒙;;;;;;;;;;;;x
+String_Philemon;菲勒蒙;;;;;;;;;;;;x
 String_Aeschylus;埃斯库罗斯;;;;;;;;;;;;x
 String_Archilochus;阿尔基洛科斯;;;;;;;;;;;;x
 String_Alcman_of_Sparta;斯巴达的阿尔克曼;;;;;;;;;;;;x
@@ -56,7 +56,7 @@ String_Thales_of_Mileto;米利都的泰勒斯;;;;;;;;;;;;x
 String_Zeno_of_Elea;埃利亚的芝诺;;;;;;;;;;;;x
 String_Herodotus;希罗多德;;;;;;;;;;;;x
 String_Thucydides;修昔底德;;;;;;;;;;;;x
-String_Polybius;波利比乌斯;;;;;;;;;;;;x
+String_Polybius;波里比阿;;;;;;;;;;;;x
 String_Strabo;斯特拉波;;;;;;;;;;;;x
 String_Hypatia_of_Alexandria;亚历山大的希帕蒂娅;;;;;;;;;;;;x
 String_Ptolemy;托勒密;;;;;;;;;;;;x
@@ -75,13 +75,13 @@ antiquity_book_astronomy;Lost Astronomy Book;;;;;;;;;;;;x
 antiquity_book_fake;Clever Forgery;;;;;;;;;;;;x
 lost_masterpiece_book_desc;[Root.GetBookThemeCap] by the famous [Root.GetAuthorNationAdj] [Root.GetAuthorTitle] [Root.GetAuthorName], that was thought to be lost forever, but was found and acquired by [Root.GetTitledNameWithNick] for his Great Library.;;;;;;;;;;;;x
 fake_masterpiece_book_desc;Initially thought to be [Root.GetBookThemeWithArticle] by the famous [Root.GetAuthorNationAdj] [Root.GetAuthorTitle] [Root.GetAuthorName], it is now considered a clever forgery.;;;;;;;;;;;;x
-tomb_armor_desc;An ancient knight's armor found on a mysterious tomb.;;;;;;;;;;;;x
-tomb_sword_desc;An ancient knight's sword found on a mysterious tomb.;;;;;;;;;;;;x
-tomb_scepter_desc;An ancient scepter, adorned with many emeralds, which was found on an old king's tomb.;;;;;;;;;;;;x
-terrible_armor;Poorly Crafted Armor;;;;;;;;;;;;x
-terrible_armor_desc;Mostly a waste of good metal, the blacksmith who made this suit of armor was probably drunk when they did so.;;;;;;;;;;;;x
+tomb_armor_desc;在一座神秘墓穴中发现的一位古代骑士的护甲。;;;;;;;;;;;;x
+tomb_sword_desc;在一座神秘墓穴中发现的一位古代骑士的佩剑。;;;;;;;;;;;;x
+tomb_scepter_desc;在一位古代君王的陵墓中发现的古老权杖，上面装饰着许多绿宝石。;;;;;;;;;;;;x
+terrible_armor;制作拙劣的盔甲;;;;;;;;;;;;x
+terrible_armor_desc;基本上是对优良金属的浪费，打造它的铁匠当时很可能喝醉了。;;;;;;;;;;;;x
 zweihander_sword;[GetZweihanderSwordName];;;;;;;;;;;;x
-zweihander_sword_desc;A two-handed powerful but heavy sword, that can only be properly handled by a strong warrior.;;;;;;;;;;;;x
+zweihander_sword_desc;一把强力但是沉重的双手剑，只有强壮的战士才能得当地使用它。;;;;;;;;;;;;x
 String_ZweihanderSword;日耳曼双手剑;;;;;;;;;;;;x
 String_TwoHandedSword;双手剑;;;;;;;;;;;;x
 caught_with_forgery;Forgery Discovered;;;;;;;;;;;;x
@@ -160,7 +160,7 @@ EVTDESC_LT_20110_found_nothing;挖了几天之后，找到的只有古人的遗�
 EVTDESC_LT_20110_found_valuables_1;经过一些挖掘，一块阻挡着入口的大石头出现了。当工人们移开石头时，他们发现了一座古墓，里面有少量的黄白之物。;;;;;;;;;;;;x
 EVTDESC_LT_20110_found_valuables_2;工人们在[wonder_or_upgrade.GetName]施工现场地下找到了几间相连的墓室，里面有些被埋葬的古人的残余，还有数目可观的黄白之物！;;;;;;;;;;;;x
 EVTDESC_LT_20110_found_artifact;工人们一路掘进一座巨大的墓室，里面安息着某位古代的领主。他们在里面找到了一些黄金制品，还有[found_artifact.GetName]。;;;;;;;;;;;;x
-EVTOPT_LT_20110_TT;You gain the [found_artifact.GetName] as an artifact.\n;;;;;;;;;;;;x
+EVTOPT_LT_20110_TT;你得到了宝物：[found_artifact.GetName]\n;;;;;;;;;;;;x
 EVTOPTA_LT_20110;继续建造！;;;;;;;;;;;;x
 EVTOPTA_LT_20110_TT_unhappy;不去给失去的工人留下的寡妇孤儿些许赔偿的话，可能会在将来给我们造成麻烦。\n;;;;;;;;;;;;x
 EVTOPTB_LT_20110;全归我了！;;;;;;;;;;;;x
@@ -246,7 +246,7 @@ EVTOPTA_HFP_16001;All shall bow to [Root.GetBestName]...!;;;;;;;;;;;;x
 EVT_TITLE_HFP_16002;A New Russia;;;;;;;;;;;;x
 EVTDESC_HFP_16002;After many years of preparation, [From.GetBestName] has chosen to declare complete sovereignty over [From.GetHerHis] vast territories by founding the Tsardom of Russia.;;;;;;;;;;;;x
 EVTOPTA_HFP_16002;That hardly sounds necessary.;;;;;;;;;;;;x
-create_russian_empire;Create the Empire of Russia;;;;;;;;;;;;x
+create_russian_empire;创建俄罗斯帝国;;;;;;;;;;;;x
 create_russian_empire_desc;Holding the Empire of Rus is not enough – some are starting to think that 'the Empire of Russia' has a better ring to it...;;;;;;;;;;;;x
 e_russian_empire;俄罗斯;;;;;;;;;;;;x
 e_russian_empire_adj;俄罗斯;;;;;;;;;;;;x
@@ -262,7 +262,7 @@ EVTOPTA_HFP_16006_1_A;I suppose it could be worth something, one day...;;;;;;;;;
 EVTOPTA_HFP_16006_1_B;For sentimental reasons, I could have someone look it over.;;;;;;;;;;;;x
 EVTOPTA_HFP_16006_2_A;I'll pay to maintain it.;;;;;;;;;;;;x
 EVTOPTA_HFP_16006_2_B;Maintenance is to be expected, I guess.;;;;;;;;;;;;x
-EVTOPTA_HFP_16006_3;Money is not an issue.;;;;;;;;;;;;x
+EVTOPTA_HFP_16006_3;钱不是问题。;;;;;;;;;;;;x
 EVTOPTA_HFP_16006_4;We cannot put a price on heirlooms like this. Spare no expense!;;;;;;;;;;;;x
 EVTOPTB_HFP_16006_1;Looks rather useless to me.;;;;;;;;;;;;x
 EVTOPTB_HFP_16006_2;We cannot afford to maintain all the old junk thrown our way.;;;;;;;;;;;;x
@@ -293,7 +293,7 @@ wonder_wall;Great Walls;;;;;;;;;;;;x
 wonder_wall_desc;A mega-project, this is a construction of massive city walls.;;;;;;;;;;;;x
 wonder_harbor;Great Harbor;;;;;;;;;;;;x
 wonder_harbor_desc;Heavily trafficked, the magnificent Harbor is bringing both trade and tourism to the area.;;;;;;;;;;;;x
-wonder_lighthouse;Great Lighthouse;;;;;;;;;;;;x
+wonder_lighthouse;大灯塔;;;;;;;;;;;;x
 wonder_lighthouse_desc;A tall and visible landmark, the building lends a helping hand to sailors, guiding their ships into port at night.;;;;;;;;;;;;x
 wonder_amphitheater;Grand Amphitheater;;;;;;;;;;;;x
 wonder_amphitheater_desc;The epitome of high culture, the amphitheater is a unique attraction in the realm.;;;;;;;;;;;;x
@@ -317,9 +317,9 @@ wonder_cathedral_hagia_sophia;圣索菲亚大教堂;;;;;;;;;;;;x
 wonder_cathedral_hagia_sophia_desc;One of the most beautiful cathedrals on this part of the map.;;;;;;;;;;;;x
 wonder_pagan_stones_stonehenge;Stonehenge;;;;;;;;;;;;x
 wonder_pagan_stones_stonehenge_desc;Some think the rocks were placed by gods. Others say it's pagan superstition, but refuse to go near them.;;;;;;;;;;;;x
-wonder_mausoleum_halicarnassus;Mausoleum at Halicarnassus;;;;;;;;;;;;x
-wonder_mausoleum_halicarnassus_desc;A giant above-ground tomb, constructed by Mausolus, a satrap in the Persian Empire, for himself and Artemisia II of Caria.;;;;;;;;;;;;x
-wonder_temple_solomon;Temple of Solomon;;;;;;;;;;;;x
+wonder_mausoleum_halicarnassus;哈利卡那索斯的摩索拉斯陵墓;;;;;;;;;;;;x
+wonder_mausoleum_halicarnassus_desc;一座巨大的地上坟墓，由波斯帝国的一位总督摩索拉斯，为自己和卡里亚的阿尔特米西亚二世修建。;;;;;;;;;;;;x
+wonder_temple_solomon;所罗门圣殿;;;;;;;;;;;;x
 wonder_temple_solomon_desc;A hill, deeply sacred to Jewish worshipers, as it is said to be the location of the ancient Temple of Solomon.;;;;;;;;;;;;x
 wonder_lighthouse_alexandria;亚历山大灯塔;;;;;;;;;;;;x
 wonder_lighthouse_alexandria_desc;For a long time the tallest building in the world, the lighthouse is an impressive construction visible from far away, while also serving its purpose, guiding ships into port.;;;;;;;;;;;;x
@@ -338,8 +338,8 @@ upgrade_heating_pipes;Heating Pipes;;;;;;;;;;;;x
 upgrade_heating_pipes_desc;A complex system of pipes and hot water keeps the floor of the building warm.;;;;;;;;;;;;x
 upgrade_retinue;[FromFrom.GetWonderTypeShortCap] Retinue;;;;;;;;;;;;x
 upgrade_retinue_desc;A special unit of guards are stationed in the province, heightening security around the [FromFrom.GetWonderTypeShortCap].;;;;;;;;;;;;x
-upgrade_gargoyles;Gargoyles;;;;;;;;;;;;x
-upgrade_gargoyles_desc;The ugly creatures sticking out from the facade of the [FromFrom.GetWonderTypeShortCap] have an ominous air to them.;;;;;;;;;;;;x
+upgrade_gargoyles;滴水嘴兽;;;;;;;;;;;;x
+upgrade_gargoyles_desc;这些从[FromFrom.GetWonderTypeShortCap]正面探出头的丑陋怪物看起来很不吉利。;;;;;;;;;;;;x
 upgrade_bells;Bells;;;;;;;;;;;;x
 upgrade_bells_desc;While intended for ceremony, the bells can also be rung in times of danger, a warning which would be heard all over the province.;;;;;;;;;;;;x
 upgrade_stained_glass_window;Stained Glass Window;;;;;;;;;;;;x
@@ -348,7 +348,7 @@ upgrade_relic_tomb;Relic Tomb;;;;;;;;;;;;x
 upgrade_relic_tomb_desc;A place for storing artifacts.;;;;;;;;;;;;x
 upgrade_grand_basilica;Grand Basilica;;;;;;;;;;;;x
 upgrade_grand_basilica_desc;The arch-headed windows extend to several floors, bestowing the [FromFrom.GetWonderTypeShortCap] with an unparalleled level of grandeur.;;;;;;;;;;;;x
-upgrade_catacombs;Catacombs;;;;;;;;;;;;x
+upgrade_catacombs;地下墓穴;;;;;;;;;;;;x
 upgrade_catacombs_desc;While subterranean passageways are a source of fascination, they are primarily a sacred space for religious practice.;;;;;;;;;;;;x
 upgrade_giant_cross;Giant Cross;;;;;;;;;;;;x
 upgrade_giant_cross_desc;On top of the [FromFrom.GetWonderTypeShortCap] is a big cross, embellishing the silhouette of the building.;;;;;;;;;;;;x
@@ -367,11 +367,11 @@ upgrade_prophecy_rooms_desc;A secluded series of rooms the Priests and Priestess
 upgrade_temple_precinct;Temple Precinct;;;;;;;;;;;;x
 upgrade_temple_precinct_desc;An area surrounding the [FromFrom.GetWonderTypeShortCap] has been dedicated to the [FromFrom.GetWonderTypeShortCap], and contains smaller buildings and open spaces specifically designed to invite a larger number of worshipers.;;;;;;;;;;;;x
 upgrade_inner_sanctuary;Inner Sanctuary;;;;;;;;;;;;x
-upgrade_minaret;Minaret;;;;;;;;;;;;x
-upgrade_minaret_desc;A tower attached to the [FromFrom.GetWonderTypeShortCap], to announce the call to prayer.;;;;;;;;;;;;x
-upgrade_open_courtyard;Sahn;;;;;;;;;;;;x
-upgrade_open_courtyard_desc;An open courtyard with a fountain, for performing ablutions and refreshing the faithful.;;;;;;;;;;;;x
-upgrade_dome;Qubba;;;;;;;;;;;;x
+upgrade_minaret;宣礼塔;;;;;;;;;;;;x
+upgrade_minaret_desc;一座[FromFrom.GetWonderTypeShortCap]附带的高塔，用以召唤信众礼拜。;;;;;;;;;;;;x
+upgrade_open_courtyard;庭院;;;;;;;;;;;;x
+upgrade_open_courtyard_desc;一个带喷泉的开放庭院，以供信众沐浴净身和透气。;;;;;;;;;;;;x
+upgrade_dome;拱北;;;;;;;;;;;;x
 upgrade_dome_desc;A symbolic representation of the vault of Heaven, the dome surmounts the Qibla wall.;;;;;;;;;;;;x
 upgrade_lamps_hanging;Magnificent Hanging Lamps;;;;;;;;;;;;x
 upgrade_lamps_hanging_desc;Illumination is essential in a [FromFrom.GetWonderTypeShortCap], as many prayers happen during the night. Hundreds of decorated lamps create a dazzling effect, with a soft light emanating from each one.;;;;;;;;;;;;x
@@ -379,14 +379,14 @@ upgrade_soup_kitchen;Soup Kitchen;;;;;;;;;;;;x
 upgrade_soup_kitchen_desc;Not only for prayer, the [FromFrom.GetWonderTypeShortCap] is a civic center, caring for those in need.;;;;;;;;;;;;x
 upgrade_school_mosque;School;;;;;;;;;;;;x
 upgrade_school_mosque_desc;The [FromFrom.GetWonderTypeShortCap] is also a place of learning.;;;;;;;;;;;;x
-upgrade_hostel;Caravanserai;;;;;;;;;;;;x
+upgrade_hostel;商队旅馆;;;;;;;;;;;;x
 upgrade_hostel_desc;A hostel, instilling gratitude in many a tired traveler.;;;;;;;;;;;;x
 upgrade_tallest_building;Tallest Building;;;;;;;;;;;;x
 upgrade_tallest_building_desc;The Talmud instructs that the Synagogue should be taller than the other buildings.;;;;;;;;;;;;x
 upgrade_garden_outer;Outer Wall and Open Garden;;;;;;;;;;;;x
 upgrade_garden_outer_desc;By building an outer garden, the faithful can relax before and after the prayers.;;;;;;;;;;;;x
-upgrade_holy_ark;Holy Ark;;;;;;;;;;;;x
-upgrade_holy_ark_desc;The Torah Ark, where the sacred Torah scrolls are stored, are here given the proper importance.;;;;;;;;;;;;x
+upgrade_holy_ark;圣柜;;;;;;;;;;;;x
+upgrade_holy_ark_desc;妥拉柜是存放神圣的妥拉经卷的柜子，意义重大。;;;;;;;;;;;;x
 upgrade_decorations;Elaborate Decorations;;;;;;;;;;;;x
 upgrade_decorations_desc;Elaborate decorations will help elevate the spirit of the faithful to the heavens.;;;;;;;;;;;;x
 upgrade_choir_rooms;Choir Rooms;;;;;;;;;;;;x
@@ -420,7 +420,7 @@ upgrade_piers;Piers;;;;;;;;;;;;x
 upgrade_piers_desc;The piers expand the harbor and how much trade that can be conducted there.;;;;;;;;;;;;x
 upgrade_office_harbor;Harbor Office;;;;;;;;;;;;x
 upgrade_office_harbor_desc;The installation of a proper Harbor office has led to better control of the trade coming and going through the [FromFrom.GetWonderTypeShortCap].;;;;;;;;;;;;x
-upgrade_lighthouse;Lighthouse;;;;;;;;;;;;x
+upgrade_lighthouse;灯塔;;;;;;;;;;;;x
 upgrade_lighthouse_desc;For guiding ships in and out of the harbor.;;;;;;;;;;;;x
 upgrade_military_wharf;Military Wharf;;;;;;;;;;;;x
 upgrade_military_wharf_desc;An area set aside for construction of the navy.;;;;;;;;;;;;x
@@ -440,9 +440,9 @@ upgrade_theater_stage;Theater Stage;;;;;;;;;;;;x
 upgrade_theater_stage_desc;A stage, specifically designed for dramatic readings of poetry and acting.;;;;;;;;;;;;x
 upgrade_fountains;Fountains;;;;;;;;;;;;x
 upgrade_fountains_desc;Beautiful fountains, attracting small birds, adding to the atmosphere.;;;;;;;;;;;;x
-upgrade_fountain_of_youth;Fountain of Youth;;;;;;;;;;;;x
+upgrade_fountain_of_youth;青春之泉;;;;;;;;;;;;x
 upgrade_fountain_of_youth_desc;There is an eerie sheen to the water in this well...;;;;;;;;;;;;x
-upgrade_hanging_gardens;Hanging Gardens;;;;;;;;;;;;x
+upgrade_hanging_gardens;空中花园;;;;;;;;;;;;x
 upgrade_hanging_gardens_desc;A marvelous terraced solution to one section of the garden.;;;;;;;;;;;;x
 upgrade_secluded_groves;Secluded Groves;;;;;;;;;;;;x
 upgrade_secluded_groves_desc;A place for hiding. Or romance.;;;;;;;;;;;;x
@@ -486,7 +486,7 @@ upgrade_locals_angry;Angry Locals;;;;;;;;;;;;x
 upgrade_locals_angry_desc;Reckless expansion of crown privileges continues to infuriate the people who actually live on the land, giving more severe negative events.;;;;;;;;;;;;x
 upgrade_locals_treasonous;Treasonous Locals;;;;;;;;;;;;x
 upgrade_locals_treasonous_desc;With the most recent advance of the royal forest, the crown's powers are unprecedented. Peasants, clergy, and barons alike all chafe sorely against the start of the perceived-birth of an absolutist monarchy, and a dramatic revolt is sure to follow.;;;;;;;;;;;;x
-upgrade_magna_carta;Magna Carta;;;;;;;;;;;;x
+upgrade_magna_carta;大宪章;;;;;;;;;;;;x
 upgrade_magna_carta_desc;The dramatic revolts of the past are surely over with the signing of this Great Charter.;;;;;;;;;;;;x
 upgrade_armory;Armory;;;;;;;;;;;;x
 upgrade_armory_desc;An expansion to the [FromFrom.GetWonderTypeShortCap], providing ample storage for armor and weaponry.;;;;;;;;;;;;x
@@ -733,9 +733,9 @@ WONDER_SPECIFIC_UPGRADE_NOT_BEING_BUILT_IN_PROVINCE;§Y$WONDER_UPGRADE_TYPE$§! 
 WONDER_SPECIFIC_UPGRADE_NOT_BEING_BUILT_BY_CHARACTER;§Y$WONDER_UPGRADE_TYPE$§!正被§Y[This.GetFirstName]§!建造;;;;;;;;;;;;x
 WONDER_SPECIFIC_UPGRADE_NOT_BEING_BUILT;§Y$WONDER_UPGRADE_TYPE$§! is not being built for §Y[This.GetName]§!;;;;;;;;;;;;x
 WONDER_BUILT;§Y[This.GetName]§!已被建造;;;;;;;;;;;;x
-WONDER_NOT_BUILT;§Y[This.GetName]§! has not been built;;;;;;;;;;;;x
-WONDER_SPECIFIC_BUILT_IN_PROVINCE;§Y$WONDER_TYPE$§! has been built in §Y[This.GetName]§!;;;;;;;;;;;;x
-WONDER_SPECIFIC_BUILT_BY_CHARACTER;§Y$WONDER_TYPE$§! has been built by §Y[This.GetFirstName]§!;;;;;;;;;;;;x
+WONDER_NOT_BUILT;§Y[This.GetName]§!未被建造;;;;;;;;;;;;x
+WONDER_SPECIFIC_BUILT_IN_PROVINCE;§Y$WONDER_TYPE$§!已被建造于§Y[This.GetName]§!;;;;;;;;;;;;x
+WONDER_SPECIFIC_BUILT_BY_CHARACTER;§Y$WONDER_TYPE$§!已被§Y[This.GetFirstName]§!建造;;;;;;;;;;;;x
 WONDER_SPECIFIC_BUILT;§Y[This.GetName]§! has been built and is of type §Y$WONDER_TYPE$§!;;;;;;;;;;;;x
 WONDER_SPECIFIC_NOT_BUILT_IN_PROVINCE;§Y$WONDER_TYPE$§! has not been built in §Y[This.GetName]§!;;;;;;;;;;;;x
 WONDER_SPECIFIC_NOT_BUILT_BY_CHARACTER;§Y$WONDER_TYPE$§! has not been built by §Y[This.GetFirstName]§!;;;;;;;;;;;;x
@@ -875,7 +875,7 @@ String_Soaring;Soaring;;;;;;;;;;;;x
 String_Hallowed;Hallowed;;;;;;;;;;;;x
 String_hallowed;hallowed;;;;;;;;;;;;x
 String_old;old;;;;;;;;;;;;x
-String_Colossus;Colossus;;;;;;;;;;;;x
+String_Colossus;巨像;;;;;;;;;;;;x
 String_Stallion;Stallion;;;;;;;;;;;;x
 String_Mare;Mare;;;;;;;;;;;;x
 String_Keep;Keep;;;;;;;;;;;;x
@@ -888,10 +888,10 @@ String_Looming;Looming;;;;;;;;;;;;x
 upgrade_skull_throne;Throne of Skulls;;;;;;;;;;;;x
 upgrade_torture_chamber_desc;Best not to ask too many questions, lest you end up here.;;;;;;;;;;;;x
 upgrade_skull_throne_desc;A throne made of skulls and bones, supported by a frame of iron.;;;;;;;;;;;;x
-upgrade_golden_throne;Golden Throne;;;;;;;;;;;;x
-upgrade_golden_throne_desc;A throne made entirely of gold, not even gilded, just completely gold. What a waste.;;;;;;;;;;;;x
-drunkard_opinion;Drunkard Opinion;;;;;;;;;;;;x
-upgrade_brewery;Brewery;;;;;;;;;;;;x
+upgrade_golden_throne;黄金宝座;;;;;;;;;;;;x
+upgrade_golden_throne_desc;通体由黄金打造的宝座，甚至没有镀金，就是纯金打造。真是浪费啊。;;;;;;;;;;;;x
+drunkard_opinion;酒鬼好感;;;;;;;;;;;;x
+upgrade_brewery;啤酒厂;;;;;;;;;;;;x
 upgrade_brewery_desc;A brewery to create your own alcohol. While unlikely to turn a profit, it might make you popular.;;;;;;;;;;;;x
 alcohol_gift_decision;Give [GetAlcoholContainerType] of [GetAlcoholType] gift;;;;;;;;;;;;x
 alcohol_gift_decision_desc;Send [Root.GetTitledFirstName] a [GetAlcoholContainerType] of [GetAlcoholType] brewed in your own brewery;;;;;;;;;;;;x
@@ -900,12 +900,12 @@ String_Bottle;Bottle;;;;;;;;;;;;x
 String_Case;Case;;;;;;;;;;;;x
 String_Cask;Cask;;;;;;;;;;;;x
 String_Barrel;Barrel;;;;;;;;;;;;x
-String_Beer;Beer;;;;;;;;;;;;x
-String_Ale;Ale;;;;;;;;;;;;x
-String_Wine;Wine;;;;;;;;;;;;x
-String_Cider;Cider;;;;;;;;;;;;x
-String_Mead;Mead;;;;;;;;;;;;x
-String_Whiskey;Whiskey;;;;;;;;;;;;x
+String_Beer;啤酒;;;;;;;;;;;;x
+String_Ale;麦芽酒;;;;;;;;;;;;x
+String_Wine;葡萄酒;;;;;;;;;;;;x
+String_Cider;果酒;;;;;;;;;;;;x
+String_Mead;蜂蜜酒;;;;;;;;;;;;x
+String_Whiskey;威士忌;;;;;;;;;;;;x
 opinion_gifted_alcohol;Was Given Brewery Gift;;;;;;;;;;;;x
 opinion_gifted_alcohol_drunkard;Was Given Brewery Gift;;;;;;;;;;;;x
 upgrade_vineyard;Vineyard;;;;;;;;;;;;x
@@ -919,8 +919,8 @@ upgrade_eternal_flame;Eternal Flame;;;;;;;;;;;;x
 upgrade_eternal_flame_desc;The Eternal Flame is constantly tended, to ensure it never goes out.;;;;;;;;;;;;x
 upgrade_unmarked_tombs;Unmarked Tombs;;;;;;;;;;;;x
 upgrade_unmarked_tombs_desc;It is unclear who these tombs were made for, but rumor has it you can sometimes hear voices from within.;;;;;;;;;;;;x
-zunist_pagan_opinion;Zunist Opinion;;;;;;;;;;;;x
-zunist_pagan_reformed_opinion;Reformed Zunist Opinion;;;;;;;;;;;;x
+zunist_pagan_opinion;尊日神教信徒好感;;;;;;;;;;;;x
+zunist_pagan_reformed_opinion;改革尊日神教信徒好感;;;;;;;;;;;;x
 upgrade_quadriga_statue;Quadriga Statue;;;;;;;;;;;;x
 upgrade_quadriga_statue_desc;This statue depicts four horses pulling a chariot.;;;;;;;;;;;;x
 upgrade_chaitya-grihas;Chaitya-Grihas;;;;;;;;;;;;x
@@ -1071,7 +1071,7 @@ String_Great_Work;Great Work;;;;;;;;;;;;x
 String_castle;castle;;;;;;;;;;;;x
 String_keep;keep;;;;;;;;;;;;x
 String_stone_formation;stone formation;;;;;;;;;;;;x
-String_Lighthouse;Lighthouse;;;;;;;;;;;;x
+String_Lighthouse;灯塔;;;;;;;;;;;;x
 String_hot_spot_for_gossip;been a hot spot for court intrigue and gossip;;;;;;;;;;;;x
 String_house_of_envy;been a house of envy and admiration;;;;;;;;;;;;x
 String_safe_haven_for_lost_souls;been a safe haven for lost souls;;;;;;;;;;;;x
@@ -1102,7 +1102,7 @@ String_rumored_to_be_the_best;[This.GetName] is rumored to be the best in the re
 String_bring_in_cash;[This.GetName] are bringing in extra finances from the area;;;;;;;;;;;;x
 String_offers_relaxation;[This.GetName] offer[This.GetSingularS] respite for weary travelers;;;;;;;;;;;;x
 String_inspires_awe;[This.GetName] inspire[This.GetSingularS] solemn awe;;;;;;;;;;;;x
-ruins_of_wonder_name;Ruins of [This.GetName];;;;;;;;;;;;x
+ruins_of_wonder_name;[This.GetName]的废墟;;;;;;;;;;;;x
 ruined_wonder_type;Ruined [This.GetWonderTypeShortCap];;;;;;;;;;;;x
 destroyed_wonder_type;Destroyed [This.GetWonderTypeShortCap];;;;;;;;;;;;x
 ruined_wonder_desc_1;This construction has been severely damaged by pillaging, and would require labor to be restored.;;;;;;;;;;;;x
@@ -1199,7 +1199,7 @@ EVTDESC_LT_60502;My liege, the [target_wonder.GetName] is bringing prosperity an
 EVTOPTA_LT_60502;I am glad!;;;;;;;;;;;;x
 EVT_TITLE_LT_60601;Crumbling Masterwork;;;;;;;;;;;;x
 EVTDESC_LT_60601;A piece of the [target_wonder.GetName] has fallen off – almost hitting a bystander in the head! Certain areas of the magnificent structure seem to be in dire need of upkeep.;;;;;;;;;;;;x
-EVTOPTA_LT_60601;Repairs will be started at once!;;;;;;;;;;;;x
+EVTOPTA_LT_60601;修缮工作马上开始！;;;;;;;;;;;;x
 EVTOPTB_LT_60601;Hm, I bet these pieces would fetch a decent price...;;;;;;;;;;;;x
 title_castellan;Castellan;;;;;;;;;;;;x
 title_castellan_desc;This honorific is awarded to a vassal that is held in high regard by their liege. As Castellan they are responsible for the maintenance and daily ongoings of the Fortress.;;;;;;;;;;;;x
@@ -1273,8 +1273,8 @@ LOOT;Loot;;;;;;;;;;;;x
 WONDER_LOOT_DELAYED_TT;Start looting the §Y[FromFrom.GetWonderTypeShort]§!.\nThis can yield treasures but will also cause damage and render the §Y[FromFrom.GetWonderTypeShort]§! unusable until it has been restored.;;;;;;;;;;;;x
 STOP_LOOT;Stop looting;;;;;;;;;;;;x
 WONDER_STOP_LOOT_DELAYED_TT;Abandon all looting progress and cause no further damage to the §Y[FromFrom.GetWonderTypeShort]§!.;;;;;;;;;;;;x
-RESTORE;Restore;;;;;;;;;;;;x
-STOP_RESTORE;Stop restoring;;;;;;;;;;;;x
+RESTORE;修复;;;;;;;;;;;;x
+STOP_RESTORE;停止修复;;;;;;;;;;;;x
 WONDER_RESTORE_DELAYED_TT;Start restoring the §Y[FromFrom.GetWonderTypeShort]§! to its former glory!\nRestoration will cost §R$FLAT_COST$§!¤to initiate and $TICKING_COST|R$¤per month until it is completed.\nIt will take $TIME_TO_BUILD|Y$ to finish restoration and once completed, the §Y[FromFrom.GetWonderTypeShort]§! will be at stage §Y[FromFrom.GetCurrentStageNumber]§!.;;;;;;;;;;;;x
 WONDER_STOP_RESTORE_DELAYED_TT;Abandon all restoration progress for the §Y[FromFrom.GetWonderTypeShort]§!.;;;;;;;;;;;;x
 WONDER_HISTORY_STAGE_LOOTED;Stage $STAGE_NUMBER$ was looted;;;;;;;;;;;;x
@@ -1461,10 +1461,10 @@ upgrade_earthquake_damage_medium_desc;This great work has taken damage from an e
 upgrade_earthquake_damage_large;Earthquake Damage;;;;;;;;;;;;x
 upgrade_earthquake_damage_large_desc;This great work has taken damage from an earthquake and has not been repaired.;;;;;;;;;;;;x
 wonder_aztec_pyramid;阿兹特克金字塔;;;;;;;;;;;;x
-repair_wonder_decision;Repair Lighthouse;;;;;;;;;;;;x
+repair_wonder_decision;修复灯塔;;;;;;;;;;;;x
 repair_wonder_decision_desc;You will set aside funds to repair the damage on the lighthouse removing the negative features.;;;;;;;;;;;;x
-wonder_temple_hindu_konark;Konark Sun Temple;;;;;;;;;;;;x
-wonder_temple_hindu_konark_desc;This temple was built in the form of a giant ornamented chariot dedicated to the Sun God, Surya.;;;;;;;;;;;;x
+wonder_temple_hindu_konark;拘捺迦太阳神庙;;;;;;;;;;;;x
+wonder_temple_hindu_konark_desc;这座神庙被设计成太阳神苏利耶战车的形状。;;;;;;;;;;;;x
 wonder_underground_city_petra;佩特拉;;;;;;;;;;;;x
 wonder_underground_city_petra_desc;佩特拉沙漠古城已经存在了数个世纪之久。;;;;;;;;;;;;x
 wonder_house_of_wisdom;智慧宫;;;;;;;;;;;;x
@@ -1488,7 +1488,7 @@ NOT_WONDER_ACTIVE;§Y[FromFrom.GetName]§! is NOT active;;;;;;;;;;;;x
 PROVINCE_IS_IN_REALM;§Y[FromFromFrom.GetName]§! is part of your §Y[Root.PrimaryTitle.GetTier]§!;;;;;;;;;;;;x
 NOT_PROVINCE_IS_IN_REALM;§Y[FromFromFrom.GetName]§! is NOT part of your §Y[Root.PrimaryTitle.GetTier]§!;;;;;;;;;;;;x
 LEDGER_TIER;Stage;;;;;;;;;;;;x
-String_Sphinx;吉萨斯芬克斯像;;;;;;;;;;;;x
+String_Sphinx;吉萨狮身人面像;;;;;;;;;;;;x
 String_MythologicalBeast;Mythological Beast Statue;;;;;;;;;;;;x
 upgrade_inner_sanctuary_desc;A sacred and reserved space inside the temple where only the high ranking priests can enter.;;;;;;;;;;;;x
 upgrade_vestibule_desc;Two pillars of bronze frame the entrance to the temple, bidding all worshipers welcome.;;;;;;;;;;;;x
@@ -1501,7 +1501,7 @@ upgrade_wing_of_martial_desc;Here the classic works on history and ancient wars 
 upgrade_wing_of_stewardship_desc;The principles of accounting, finance, and economics are taught here.;;;;;;;;;;;;x
 upgrade_wing_of_intrigue_desc;From what plants to use for making deadly concoctions to the art of cipher, all that a budding spy needs to know is taught here.;;;;;;;;;;;;x
 upgrade_wing_of_learning_desc;Here the foundations of logic and mathematics are taught, as well as physics, metaphysics, and the scriptures.;;;;;;;;;;;;x
-gardener_opinion;Gardener Opinion;;;;;;;;;;;;x
-EVTDESC50022;[enemy_liege.GetTitledFirstName] sacrificed [sacrificed.GetTitledFirstName] in the name of [enemy_liege.Religion.GetHighGodName].;;;;;;;;;;;;x
+gardener_opinion;园丁好感;;;;;;;;;;;;x
+EVTDESC50022;[enemy_liege.GetTitledFirstName]以[enemy_liege.Religion.GetHighGodName]的名义献祭了[sacrificed.GetTitledFirstName]。;;;;;;;;;;;;x
 String_most_recently_added;splendid [This.GetName] draw[This.GetSingularS] a lot of attention;;;;;;;;;;;;x
 recently_sent_alcohol_gift;Recently Sent Alcoholic Gift;;;;;;;;;;;;x
