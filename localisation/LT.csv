@@ -64,7 +64,7 @@ String_Aristarchus_of_Samos;萨摩斯的阿利斯塔克;;;;;;;;;;;;x
 String_Hippocrates_of_Kos;科斯的希波克拉底;;;;;;;;;;;;x
 String_Virgil;维吉尔;;;;;;;;;;;;x
 String_s;s;;;;;;;;;;;;x
-String_politely;politely;;;;;;;;;;;;x
+String_politely;礼貌地;;;;;;;;;;;;x
 antiquity_book_poetry;Lost Poetry Masterpiece;;;;;;;;;;;;x
 antiquity_book_play;Lost Play;;;;;;;;;;;;x
 antiquity_book_medicine;Lost Book of Medicine;;;;;;;;;;;;x
@@ -124,7 +124,7 @@ EVT_TITLE_LT_20036;The Lost Book;;;;;;;;;;;;x
 EVTDESC_LT_20036_DEAD;The traitor [emissary.GetTitledNameWithNick] is no longer alive. And nobody will be able to trace [emissary.GetHerHis] death to me.;;;;;;;;;;;;x
 EVTDESC_LT_20036_ALIVE;Curses! The attempt on the life of the traitor [emissary.GetTitledNameWithNick] failed, and my involvement was discovered.;;;;;;;;;;;;x
 EVTOPTA_LT_20036;Nobody betrays me and gets away with it.;;;;;;;;;;;;x
-EVTOPTB_LT_20036;Maybe it was not such a good idea.;;;;;;;;;;;;x
+EVTOPTB_LT_20036;也许这不是个好主意。;;;;;;;;;;;;x
 EVT_TITLE_LT_20040;失落的书籍！;;;;;;;;;;;;x
 EVTDESC_LT_20040;[emissary.GetTitledNameWithNick]带着被认为是由[Root.GetAuthorName]所著的[Root.GetBookTheme]回来了！\n或许我应该邀请几位饱读诗书的学者来讨论这本珍贵的书籍？;;;;;;;;;;;;x
 EVTOPTA_LT_20040;I will read the book and see by myself.;;;;;;;;;;;;x
@@ -137,8 +137,8 @@ EVTOPTA_LT_20050;How dare [the_whistleblower.GetSheHe]? Imprison that imbecile [
 EVTOPTB_LT_20050;I will reward [the_whistleblower.GetHerHim] for speaking the truth!;;;;;;;;;;;;x
 EVT_TITLE_LT_20055;This book seems to be a forgery!;;;;;;;;;;;;x
 EVTDESC_LT_20055;After a careful reading of the [Root.GetBookTheme] that was supposedly written by [Root.GetAuthorName] I believe it is a forgery. Nevertheless, the contents of the book are actually not bad.;;;;;;;;;;;;x
-EVTOPTA_LT_20055;I actually learned something from the book.;;;;;;;;;;;;x
-EVTOPTB_LT_20055;Burn the damned book!;;;;;;;;;;;;x
+EVTOPTA_LT_20055;事实上我从这本书里学到了一些东西。;;;;;;;;;;;;x
+EVTOPTB_LT_20055;烧了这本该死的书！;;;;;;;;;;;;x
 EVT_TITLE_LT_20060;The Lost Book;;;;;;;;;;;;x
 EVTDESC_LT_20060_real_book;Many scholars accepted my invitation and gathered for several days discussing not only the book by [Root.GetAuthorName], but also other ancient knowledge. The book was considered as a lost masterpiece and my court is famous now as a center of culture, scholarly debate and knowledge.;;;;;;;;;;;;x
 EVTDESC_LT_20060_fake_book;Many scholars accepted my invitation and gathered for several days discussing not only the book by [Root.GetAuthorName], but also other ancient knowledge. Unfortunately, after much discussion, the book was considered as a forgery, but my court is famous now as a center for scholarly debate, culture and knowledge.;;;;;;;;;;;;x
@@ -154,7 +154,7 @@ EVTOPTB_LT_20101;别管它，继续工作。;;;;;;;;;;;;x
 EVTOPTC_LT_20101;别再让我为这种细枝末节的东西操心！;;;;;;;;;;;;x
 EVTOPTC_LT_20101_TT;你不会再受到与奇观建筑过程中的发现有关的消息打扰。\n;;;;;;;;;;;;x
 EVTOPTD_LT_20101;可能是座古墓。小心探索。;;;;;;;;;;;;x
-EVTOPTD_LT_20101_TT;This option is available because you have either a high Learning, or the traits Erudite or Architect.\n;;;;;;;;;;;;x
+EVTOPTD_LT_20101_TT;这个选项可用是因为你拥有高学识或者博学和建筑师特质。\n;;;;;;;;;;;;x
 EVTDESC_LT_20110_accident;工人们试图挖掘的时候发生了塌方，几个人被埋进了废墟里。现在我们得把所有东西清理干净。;;;;;;;;;;;;x
 EVTDESC_LT_20110_found_nothing;挖了几天之后，找到的只有古人的遗骨与破碎的瓶瓶罐罐。我们的时间和金钱全部白费了。;;;;;;;;;;;;x
 EVTDESC_LT_20110_found_valuables_1;经过一些挖掘，一块阻挡着入口的大石头出现了。当工人们移开石头时，他们发现了一座古墓，里面有少量的黄白之物。;;;;;;;;;;;;x
@@ -173,7 +173,7 @@ EVTOPTC_MNM_9115;我们自己[the_armory.GetName]里的工匠已经足够了！;
 EVTOPTC_MNM_9115_TT;这个选项可用是因为你拥有包括§Y[the_armory.GetName]§!的§Y[the_wonder.GetWonderTypeShortCap]§!;;;;;;;;;;;;x
 MNM_9999_DESC_armor;The castle blacksmith, more used to horseshoes and helmets than work fit for royalty, presented you with a dirty old box. "Ta da" he says, nervously, "It was an armor you wanted right?" he adds.;;;;;;;;;;;;x
 EVTDESC_LT_20201;My master [GetWeaponArmorSmith] came to see me in the throne room. [smith.GetSheHeCap] gestured towards [smith.GetHerHis] numerous assistants, who all carried examples of [smith.GetHerHis] work. 'Does my [Root.GetTitle] have anything special in mind?';;;;;;;;;;;;x
-EVTOPTA_zweihanded_LT_20201;I want a heavy two-handed sword.;;;;;;;;;;;;x
+EVTOPTA_zweihanded_LT_20201;我想要一把双手剑。;;;;;;;;;;;;x
 EVTOPTA_MNM_LT_20201_TT;This sword can only be handled by a strong warrior, but is sure to impress friend and foe alike.;;;;;;;;;;;;x
 use_scary_upgrade;Try to Intimidate;;;;;;;;;;;;x
 use_scary_upgrade_desc;Having a conversation with §Y[Root.GetFirstNameWithNick]§! in an appropriate place might convince [Root.GetHerHim] to be more supportive.;;;;;;;;;;;;x
@@ -372,15 +372,15 @@ upgrade_minaret_desc;一座[FromFrom.GetWonderTypeShortCap]附带的高塔，用
 upgrade_open_courtyard;庭院;;;;;;;;;;;;x
 upgrade_open_courtyard_desc;一个带喷泉的开放庭院，以供信众沐浴净身和透气。;;;;;;;;;;;;x
 upgrade_dome;拱北;;;;;;;;;;;;x
-upgrade_dome_desc;A symbolic representation of the vault of Heaven, the dome surmounts the Qibla wall.;;;;;;;;;;;;x
+upgrade_dome_desc;礼拜墙顶端的圆顶，是苍穹的具象化。;;;;;;;;;;;;x
 upgrade_lamps_hanging;Magnificent Hanging Lamps;;;;;;;;;;;;x
 upgrade_lamps_hanging_desc;Illumination is essential in a [FromFrom.GetWonderTypeShortCap], as many prayers happen during the night. Hundreds of decorated lamps create a dazzling effect, with a soft light emanating from each one.;;;;;;;;;;;;x
-upgrade_soup_kitchen;Soup Kitchen;;;;;;;;;;;;x
-upgrade_soup_kitchen_desc;Not only for prayer, the [FromFrom.GetWonderTypeShortCap] is a civic center, caring for those in need.;;;;;;;;;;;;x
+upgrade_soup_kitchen;粥厂;;;;;;;;;;;;x
+upgrade_soup_kitchen_desc;[FromFrom.GetWonderTypeShortCap]不仅可以进行礼拜，同时也是照顾穷困的人的市民中心。;;;;;;;;;;;;x
 upgrade_school_mosque;School;;;;;;;;;;;;x
 upgrade_school_mosque_desc;The [FromFrom.GetWonderTypeShortCap] is also a place of learning.;;;;;;;;;;;;x
 upgrade_hostel;商队旅馆;;;;;;;;;;;;x
-upgrade_hostel_desc;A hostel, instilling gratitude in many a tired traveler.;;;;;;;;;;;;x
+upgrade_hostel_desc;一座在疲惫的旅人间渐渐获得口碑的客栈。;;;;;;;;;;;;x
 upgrade_tallest_building;Tallest Building;;;;;;;;;;;;x
 upgrade_tallest_building_desc;The Talmud instructs that the Synagogue should be taller than the other buildings.;;;;;;;;;;;;x
 upgrade_garden_outer;Outer Wall and Open Garden;;;;;;;;;;;;x
@@ -415,7 +415,7 @@ upgrade_stable_desc;A stable containing horses, but most importantly, the ones d
 upgrade_statues_animals;Additional Animal Statues;;;;;;;;;;;;x
 upgrade_statues_animals_desc;The original statue is surrounded by smaller statues, depicting critters of various kinds.;;;;;;;;;;;;x
 upgrade_cothon;Cothon;;;;;;;;;;;;x
-upgrade_cothon_desc;An inner harbor.;;;;;;;;;;;;x
+upgrade_cothon_desc;一个内港。;;;;;;;;;;;;x
 upgrade_piers;Piers;;;;;;;;;;;;x
 upgrade_piers_desc;The piers expand the harbor and how much trade that can be conducted there.;;;;;;;;;;;;x
 upgrade_office_harbor;Harbor Office;;;;;;;;;;;;x
@@ -430,8 +430,8 @@ upgrade_naval_spectacle;Naval Spectacle;;;;;;;;;;;;x
 upgrade_naval_spectacle_desc;A massive undertaking allowing the stage to be filled with water for mock naval battles.;;;;;;;;;;;;x
 upgrade_animal_cages;Animal Cages;;;;;;;;;;;;x
 upgrade_animal_cages_desc;Allows for battles with exotic beasts, imported from distant lands.;;;;;;;;;;;;x
-upgrade_hippodrome;Hippodrome;;;;;;;;;;;;x
-upgrade_hippodrome_desc;An attachment to the Amphitheater, for races.;;;;;;;;;;;;x
+upgrade_hippodrome;赛马场;;;;;;;;;;;;x
+upgrade_hippodrome_desc;圆形剧场的附带建筑，用于赛马。;;;;;;;;;;;;x
 upgrade_training_academy;Training Academy;;;;;;;;;;;;x
 upgrade_training_academy_desc;An academy to train the fighters who fight in the amphitheater;;;;;;;;;;;;x
 upgrade_chariot_race_course;Chariot Race Course;;;;;;;;;;;;x
@@ -441,7 +441,7 @@ upgrade_theater_stage_desc;A stage, specifically designed for dramatic readings 
 upgrade_fountains;Fountains;;;;;;;;;;;;x
 upgrade_fountains_desc;Beautiful fountains, attracting small birds, adding to the atmosphere.;;;;;;;;;;;;x
 upgrade_fountain_of_youth;青春之泉;;;;;;;;;;;;x
-upgrade_fountain_of_youth_desc;There is an eerie sheen to the water in this well...;;;;;;;;;;;;x
+upgrade_fountain_of_youth_desc;这个井中的水闪烁着怪异的光泽......;;;;;;;;;;;;x
 upgrade_hanging_gardens;空中花园;;;;;;;;;;;;x
 upgrade_hanging_gardens_desc;A marvelous terraced solution to one section of the garden.;;;;;;;;;;;;x
 upgrade_secluded_groves;Secluded Groves;;;;;;;;;;;;x
@@ -466,9 +466,9 @@ upgrade_hunting_grounds;Cleared Hunting Grounds;;;;;;;;;;;;x
 upgrade_hunting_grounds_desc;Like the new forest, a huge area is designated a kingswood and cleared of the local peasantry.;;;;;;;;;;;;x
 upgrade_forest_laws;Codified Forest Laws;;;;;;;;;;;;x
 upgrade_forest_laws_desc;A separate legal system for the royal forests that, where necessary, supersedes the common law of the land.;;;;;;;;;;;;x
-upgrade_verderer_courts;Verderer Courts;;;;;;;;;;;;x
+upgrade_verderer_courts;森林巡回法庭;;;;;;;;;;;;x
 upgrade_verderer_courts_desc;Law is only as good as the system that backs it up, and now the royal forests have an entire system of courts, wardens, and clerks, backed up by trained magistrates, all ready to enforce the diktats of the crown.;;;;;;;;;;;;x
-upgrade_freeminer_charters;Freeminer Charters;;;;;;;;;;;;x
+upgrade_freeminer_charters;自由矿工许可;;;;;;;;;;;;x
 upgrade_freeminer_charters_desc;Residents of the royal forest have the rights to local mineral deposits, in exchange for their services in war-time.;;;;;;;;;;;;x
 upgrade_crown_industries;Crown Industries;;;;;;;;;;;;x
 upgrade_crown_industries_desc;Royal metalworks, royal armories, royal shipwrights, royal carpentries. If it's skilled and in the kingwoods, it belongs to the crown.;;;;;;;;;;;;x
@@ -551,7 +551,7 @@ upgrade_mythological_beast;[Root.GetMythologicalBeast];;;;;;;;;;;;x
 upgrade_mythological_beast_desc;Perhaps a monument to [Root.GetTitledName] [Root.GetHerselfHimself], the statue is mostly reminiscent of a famous beast.;;;;;;;;;;;;x
 upgrade_hidden_room;Hidden Room;;;;;;;;;;;;x
 upgrade_hidden_room_desc;These rooms do not appear to be a part of the original plans for the [FromFrom.GetWonderTypeShortCap]...;;;;;;;;;;;;x
-upgrade_necropolis;Necropolis;;;;;;;;;;;;x
+upgrade_necropolis;大墓地;;;;;;;;;;;;x
 upgrade_necropolis_desc;Within the [FromFrom.GetWonderTypeShortCap], surrounded by silence and the passing of time, there is a whole underground city for the dead.;;;;;;;;;;;;x
 upgrade_traps;Traps;;;;;;;;;;;;x
 upgrade_traps_desc;Considering the pyramid is a lot like a giant sign proclaiming where to find valuables, [Root.GetTitledFirstName] is rumored to have designed a number of intricate traps to scare off grave-robbers.;;;;;;;;;;;;x
@@ -559,7 +559,7 @@ upgrade_lime_stone_casing;Lime Stone Casing;;;;;;;;;;;;x
 upgrade_lime_stone_casing_desc;The surface of this pyramid is exceptionally smooth, and when it reflects the sun, it sometimes looks like it is emitting a light of its own.;;;;;;;;;;;;x
 upgrade_vestibule;Vestibule;;;;;;;;;;;;x
 upgrade_holy_place;Holy Place;;;;;;;;;;;;x
-upgrade_holy_of_holies;Holy of Holies;;;;;;;;;;;;x
+upgrade_holy_of_holies;至圣所;;;;;;;;;;;;x
 upgrade_cherubim;Cherubim;;;;;;;;;;;;x
 upgrade_cherubim_desc;Two gigantic Cherubim made out of cedar wood, their outstretched wings touching in the middle of the Holy Place.;;;;;;;;;;;;x
 upgrade_great_court;Great Court;;;;;;;;;;;;x
@@ -625,8 +625,8 @@ String_Walls;Walls;;;;;;;;;;;;x
 String_walls;walls;;;;;;;;;;;;x
 String_Harbor;港口;;;;;;;;;;;;x
 String_harbor;港口;;;;;;;;;;;;x
-String_Amphitheater;剧场;;;;;;;;;;;;x
-String_amphitheater;剧场;;;;;;;;;;;;x
+String_Amphitheater;圆形剧场;;;;;;;;;;;;x
+String_amphitheater;圆形剧场;;;;;;;;;;;;x
 String_Palace;Palace;;;;;;;;;;;;x
 String_palace;palace;;;;;;;;;;;;x
 String_Garden;花园;;;;;;;;;;;;x
@@ -652,7 +652,7 @@ String_more_than_a_hundred_years;more than a hundred years;;;;;;;;;;;;x
 String_hundreds_of_years;hundreds of years;;;;;;;;;;;;x
 String_as_long_as_anyone_can_remember;as long as anyone can remember;;;;;;;;;;;;x
 String_centuries;centuries;;;;;;;;;;;;x
-String_time_immemorial;time immemorial;;;;;;;;;;;;x
+String_time_immemorial;太古;;;;;;;;;;;;x
 String_a_long_time;a long time;;;;;;;;;;;;x
 String_Wonder_Desc00;[target_wonder.GetDesc]. The [upgrade_00.GetRandomUpgradeDesc].;;;;;;;;;;;;x
 String_Wonder_Desc01;[target_province.GetInOnWonderTerrainCap] the [target_province.GetWonderTerrain] of [target_province.GetName], the [target_wonder.GetWonderAdj] [target_wonder.GetWonderTypeShort] has, for [target_wonder.GetWonderAgeDesc], [target_wonder.GetWonderPurpose].;;;;;;;;;;;;x
@@ -921,15 +921,15 @@ upgrade_unmarked_tombs;Unmarked Tombs;;;;;;;;;;;;x
 upgrade_unmarked_tombs_desc;It is unclear who these tombs were made for, but rumor has it you can sometimes hear voices from within.;;;;;;;;;;;;x
 zunist_pagan_opinion;尊日神教信徒好感;;;;;;;;;;;;x
 zunist_pagan_reformed_opinion;改革尊日神教信徒好感;;;;;;;;;;;;x
-upgrade_quadriga_statue;Quadriga Statue;;;;;;;;;;;;x
-upgrade_quadriga_statue_desc;This statue depicts four horses pulling a chariot.;;;;;;;;;;;;x
-upgrade_chaitya-grihas;Chaitya-Grihas;;;;;;;;;;;;x
-upgrade_gompa;Gompa;;;;;;;;;;;;x
-upgrade_bodhi_tree;Bodhi Tree;;;;;;;;;;;;x
+upgrade_quadriga_statue;驷马战车像;;;;;;;;;;;;x
+upgrade_quadriga_statue_desc;这座雕像表现了四匹马拉着一辆战车。;;;;;;;;;;;;x
+upgrade_chaitya-grihas;支提窟;;;;;;;;;;;;x
+upgrade_gompa;贡巴;;;;;;;;;;;;x
+upgrade_bodhi_tree;菩提树;;;;;;;;;;;;x
 upgrade_cave_complex;Cave Complex;;;;;;;;;;;;x
-upgrade_vihara;Vihara;;;;;;;;;;;;x
+upgrade_vihara;精舍;;;;;;;;;;;;x
 upgrade_school_buddhist;Buddhist School;;;;;;;;;;;;x
-upgrade_relic_stupa;Relic Stupa;;;;;;;;;;;;x
+upgrade_relic_stupa;遗塔;;;;;;;;;;;;x
 upgrade_object_stupa;Object Stupa;;;;;;;;;;;;x
 upgrade_commerative_stupa;Commerative Stupa;;;;;;;;;;;;x
 upgrade_symbolic_stupa;Symbolic Stupa;;;;;;;;;;;;x
@@ -1312,7 +1312,7 @@ CURRENT_WONDER_STAGE_LOOTABLE;The current stage is lootable;;;;;;;;;;;;x
 NOT_CURRENT_WONDER_STAGE_LOOTABLE;The current stage is NOT lootable;;;;;;;;;;;;x
 WONDER_IS_AT_MAX_STAGE;The Great Work is at its final stage;;;;;;;;;;;;x
 NOT_WONDER_IS_AT_MAX_STAGE;The Great Work is NOT at its final stage;;;;;;;;;;;;x
-String_time_immemorial_cap;Time immemorial;;;;;;;;;;;;x
+String_time_immemorial_cap;太古;;;;;;;;;;;;x
 recruit_wonder_guard;Recruit an Honor Guard;;;;;;;;;;;;x
 recruit_wonder_guard_desc; A Great Work should not be without protection. Let us recruit a force to protect it, and maybe it can be useful also for other missions.;;;;;;;;;;;;x
 String_Great_work;Great work;;;;;;;;;;;;x
