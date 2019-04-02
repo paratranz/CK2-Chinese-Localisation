@@ -162,7 +162,7 @@ EVTDESC_LT_20110_found_valuables_2;工人们在[wonder_or_upgrade.GetName]施工
 EVTDESC_LT_20110_found_artifact;工人们一路掘进一座巨大的墓室，里面安息着某位古代的领主。他们在里面找到了一些黄金制品，还有[found_artifact.GetName]。;;;;;;;;;;;;x
 EVTOPT_LT_20110_TT;你得到了宝物：[found_artifact.GetName]\n;;;;;;;;;;;;x
 EVTOPTA_LT_20110;继续建造！;;;;;;;;;;;;x
-EVTOPTA_LT_20110_TT_unhappy;不去给失去的工人留下的寡妇孤儿些许赔偿的话，可能会在将来给我们造成麻烦。\n;;;;;;;;;;;;x
+EVTOPTA_LT_20110_TT_unhappy;如果不去给失去的工人留下的寡妇孤儿些许赔偿的话，我们将来有可能面临麻烦。\n;;;;;;;;;;;;x
 EVTOPTB_LT_20110;全归我了！;;;;;;;;;;;;x
 EVTOPTB_LT_20110_TT_unhappy;如果工人们什么都得不到的话。他们会很沮丧。\n;;;;;;;;;;;;x
 EVTOPTC_LT_20110;给工人分一份钱。;;;;;;;;;;;;x
@@ -315,14 +315,14 @@ wonder_amphitheater_colosseum;Colosseum;;;;;;;;;;;;x
 wonder_amphitheater_colosseum_desc;The amphitheater has seen many uses throughout the centuries, including gladiatorial and animal fights, and later even serving as market stalls for city merchants.;;;;;;;;;;;;x
 wonder_cathedral_hagia_sophia;圣索菲亚大教堂;;;;;;;;;;;;x
 wonder_cathedral_hagia_sophia_desc;One of the most beautiful cathedrals on this part of the map.;;;;;;;;;;;;x
-wonder_pagan_stones_stonehenge;Stonehenge;;;;;;;;;;;;x
+wonder_pagan_stones_stonehenge;巨石阵;;;;;;;;;;;;x
 wonder_pagan_stones_stonehenge_desc;Some think the rocks were placed by gods. Others say it's pagan superstition, but refuse to go near them.;;;;;;;;;;;;x
 wonder_mausoleum_halicarnassus;哈利卡那索斯的摩索拉斯陵墓;;;;;;;;;;;;x
 wonder_mausoleum_halicarnassus_desc;一座巨大的地上坟墓，由波斯帝国的一位总督摩索拉斯，为自己和卡里亚的阿尔特米西亚二世修建。;;;;;;;;;;;;x
-wonder_temple_solomon;所罗门圣殿;;;;;;;;;;;;x
-wonder_temple_solomon_desc;A hill, deeply sacred to Jewish worshipers, as it is said to be the location of the ancient Temple of Solomon.;;;;;;;;;;;;x
+wonder_temple_solomon;所罗门圣殿山;;;;;;;;;;;;x
+wonder_temple_solomon_desc;一座对犹太教徒而言及其神圣的山丘，据说是古代所罗门圣殿之所在。;;;;;;;;;;;;x
 wonder_lighthouse_alexandria;亚历山大灯塔;;;;;;;;;;;;x
-wonder_lighthouse_alexandria_desc;For a long time the tallest building in the world, the lighthouse is an impressive construction visible from far away, while also serving its purpose, guiding ships into port.;;;;;;;;;;;;x
+wonder_lighthouse_alexandria_desc;这个灯塔很长一段时间里都是世界上最高的建筑，处在很远的地方也能见其高高耸立，同时它还一直保有着引船入港的功能。;;;;;;;;;;;;x
 upgrade_roads;Great Roads;;;;;;;;;;;;x
 upgrade_roads_desc;The grand construction in the province has led to many well-connected roads being made in the realm.;;;;;;;;;;;;x
 upgrade_watchtower_network;Watchtower Network;;;;;;;;;;;;x
@@ -460,16 +460,16 @@ upgrade_estates_expansive;Expansive Estates;;;;;;;;;;;;x
 upgrade_estates_expansive_desc;More than mere hunting preserves, these lands are the private playground of the monarch, and include valuable economic areas.;;;;;;;;;;;;x
 upgrade_estates_vast;Vast Estates;;;;;;;;;;;;x
 upgrade_estates_vast_desc;Entire towns are subsumed by this kingdom-within-a-kingdom, and prosperous villages often find that the monarch's men have "discovered" maps placing their settlements firmly inside the nearest royal forest.;;;;;;;;;;;;x
-upgrade_estate_fourth;Fourth Estate;;;;;;;;;;;;x
+upgrade_estate_fourth;第四等级;;;;;;;;;;;;x
 upgrade_estate_fourth_desc;The royal forests now cover over a third of the country, more than the lords, burghers, or clergy individually, and more than the rest of the monarchs' domains in their entirety. It is truly the fourth estate of the realm.;;;;;;;;;;;;x
 upgrade_hunting_grounds;Cleared Hunting Grounds;;;;;;;;;;;;x
 upgrade_hunting_grounds_desc;Like the new forest, a huge area is designated a kingswood and cleared of the local peasantry.;;;;;;;;;;;;x
-upgrade_forest_laws;Codified Forest Laws;;;;;;;;;;;;x
+upgrade_forest_laws;王室猎场法典;;;;;;;;;;;;x
 upgrade_forest_laws_desc;A separate legal system for the royal forests that, where necessary, supersedes the common law of the land.;;;;;;;;;;;;x
 upgrade_verderer_courts;森林巡回法庭;;;;;;;;;;;;x
-upgrade_verderer_courts_desc;Law is only as good as the system that backs it up, and now the royal forests have an entire system of courts, wardens, and clerks, backed up by trained magistrates, all ready to enforce the diktats of the crown.;;;;;;;;;;;;x
+upgrade_verderer_courts_desc;法律只有通过制度的保证才能生效，现在皇家狩猎场拥有了一整套包括法院、看守、书记的制度，在训练有素的治安法官的支持下，他们随时准备着执行王室的法令。;;;;;;;;;;;;x
 upgrade_freeminer_charters;自由矿工许可;;;;;;;;;;;;x
-upgrade_freeminer_charters_desc;Residents of the royal forest have the rights to local mineral deposits, in exchange for their services in war-time.;;;;;;;;;;;;x
+upgrade_freeminer_charters_desc;皇家狩猎场内的居民对当地的矿藏有权开采，他们可以此免于服役。;;;;;;;;;;;;x
 upgrade_crown_industries;Crown Industries;;;;;;;;;;;;x
 upgrade_crown_industries_desc;Royal metalworks, royal armories, royal shipwrights, royal carpentries. If it's skilled and in the kingwoods, it belongs to the crown.;;;;;;;;;;;;x
 upgrade_timber_reserves;Ancient Timber Reserves;;;;;;;;;;;;x
@@ -555,9 +555,9 @@ upgrade_necropolis;大墓地;;;;;;;;;;;;x
 upgrade_necropolis_desc;Within the [FromFrom.GetWonderTypeShortCap], surrounded by silence and the passing of time, there is a whole underground city for the dead.;;;;;;;;;;;;x
 upgrade_traps;Traps;;;;;;;;;;;;x
 upgrade_traps_desc;Considering the pyramid is a lot like a giant sign proclaiming where to find valuables, [Root.GetTitledFirstName] is rumored to have designed a number of intricate traps to scare off grave-robbers.;;;;;;;;;;;;x
-upgrade_lime_stone_casing;Lime Stone Casing;;;;;;;;;;;;x
+upgrade_lime_stone_casing;石灰岩外壳;;;;;;;;;;;;x
 upgrade_lime_stone_casing_desc;The surface of this pyramid is exceptionally smooth, and when it reflects the sun, it sometimes looks like it is emitting a light of its own.;;;;;;;;;;;;x
-upgrade_vestibule;Vestibule;;;;;;;;;;;;x
+upgrade_vestibule;前厅;;;;;;;;;;;;x
 upgrade_holy_place;Holy Place;;;;;;;;;;;;x
 upgrade_holy_of_holies;至圣所;;;;;;;;;;;;x
 upgrade_cherubim;Cherubim;;;;;;;;;;;;x
@@ -641,8 +641,8 @@ String_Pyramid;金字塔;;;;;;;;;;;;x
 String_pyramid;金字塔;;;;;;;;;;;;x
 String_Monolith;Monolith;;;;;;;;;;;;x
 String_monolith;monolith;;;;;;;;;;;;x
-String_Stonehenge;Stonehenge;;;;;;;;;;;;x
-String_stonehenge;stonehenge;;;;;;;;;;;;x
+String_Stonehenge;巨石阵;;;;;;;;;;;;x
+String_stonehenge;巨石阵;;;;;;;;;;;;x
 String_months;months;;;;;;;;;;;;x
 String_years;years;;;;;;;;;;;;x
 String_decades;decades;;;;;;;;;;;;x
@@ -797,7 +797,7 @@ PROPAGATE_BLOODLINE_FROM_EFFECT;$MEMBER$ and their offspring are now considered 
 HOLY_ORDER_EXPELLED_TOOLTIP;$TITLE|Y$ refuses to raise their troops under your command due to previously being expelled from your realm.;;;;;;;;;;;;x
 OUTLINER_NEXT_WONDER_STAGE;Currently constructing the next stage of the $WONDER$;;;;;;;;;;;;x
 panda_group;Ailuridae;;;;;;;;;;;;x
-red_panda;Red Panda;;;;;;;;;;;;x
+red_panda;小熊猫;;;;;;;;;;;;x
 MODIFIERS_PLAIN;Modifiers;;;;;;;;;;;;x
 CONFIRM_ABORT_WONDER_CONSTRUCTION_TITLE;Abort construction?;;;;;;;;;;;;x
 COMPLETED_CAP;Completed;;;;;;;;;;;;x
@@ -887,7 +887,7 @@ String_looming;looming;;;;;;;;;;;;x
 String_Looming;Looming;;;;;;;;;;;;x
 upgrade_skull_throne;颅骨王座;;;;;;;;;;;;x
 upgrade_torture_chamber_desc;不想死的话就别问太多问题;;;;;;;;;;;;x
-upgrade_skull_throne_desc;用骷髅与白骨堆砌成的王座，以铁架支撑;;;;;;;;;;;;x
+upgrade_skull_throne_desc;用骷髅与白骨堆砌成的王座，以铁架支撑。;;;;;;;;;;;;x
 upgrade_golden_throne;黄金宝座;;;;;;;;;;;;x
 upgrade_golden_throne_desc;通体由黄金打造的宝座，甚至没有镀金，就是纯金打造。真是浪费啊。;;;;;;;;;;;;x
 drunkard_opinion;酒鬼好感;;;;;;;;;;;;x
@@ -918,7 +918,7 @@ upgrade_historical_mural_desc;描绘着你家族历史中一幕的壁画;;;;;;;;
 upgrade_eternal_flame;Eternal Flame;;;;;;;;;;;;x
 upgrade_eternal_flame_desc;The Eternal Flame is constantly tended, to ensure it never goes out.;;;;;;;;;;;;x
 upgrade_unmarked_tombs;无名墓地;;;;;;;;;;;;x
-upgrade_unmarked_tombs_desc;我们不清楚这是谁的墓地，但据传言，你有时能听见声音从里面传出。;;;;;;;;;;;;x
+upgrade_unmarked_tombs_desc;我们不清楚这是谁的墓地，但据传言，你有时能听见从里面传出声音。;;;;;;;;;;;;x
 zunist_pagan_opinion;尊日神教信徒好感;;;;;;;;;;;;x
 zunist_pagan_reformed_opinion;改革尊日神教信徒好感;;;;;;;;;;;;x
 upgrade_quadriga_statue;驷马战车像;;;;;;;;;;;;x
@@ -973,7 +973,7 @@ wonder_temple_hindu_desc;A temple that symbolizes the house, seat and body of a 
 wonder_temple_hindu_construction_desc;A temple that symbolizes the house, seat and body of a God. It is a sign of its builder §YKarma§! and §YPrestige§!, and can also influence the opinion of some of your subjects.;;;;;;;;;;;;x
 upgrade_high_gopura;瞿布罗;;;;;;;;;;;;x
 upgrade_high_gopura_desc;An richly ornate high tower that serves as an entrance to the temple.;;;;;;;;;;;;x
-upgrade_shikhara;Shikhara;;;;;;;;;;;;x
+upgrade_shikhara;宝顶;;;;;;;;;;;;x
 upgrade_shikhara_desc;The main temple tower.;;;;;;;;;;;;x
 upgrade_mandapa;Maha Mandapa;;;;;;;;;;;;x
 upgrade_mandapa_desc;A great pillared hall serving as the waiting room for pilgrims and devotees.;;;;;;;;;;;;x
@@ -1026,9 +1026,9 @@ EVTOPTD_LT_20510_TT;Those who liked §Y[target_dead_ruler.GetBestName]§! are up
 EVTDESC_LT_20520_pagan;It was a great Feast in the honor of [target_dead_ruler.GetTitledName] and the Gods. [target_dead_ruler.GetHerHisCap] body now rests in peace in the [target_wonder.GetName]. Everybody will remember how I honored [target_dead_ruler.GetHerHim].;;;;;;;;;;;;x
 EVTDESC_LT_20520_monoteist;It was a memorable funeral and procession full of honors for [target_dead_ruler.GetTitledName]. [target_dead_ruler.GetHerHisCap] body now rests in peace in the [target_wonder.GetName]. Everybody will remember how I honored [target_dead_ruler.GetHerHim].;;;;;;;;;;;;x
 EVTDESC_LT_20520_indian;It was a memorable funeral and procession full of honors for [target_dead_ruler.GetTitledName]. Everybody will remember how I honored [target_dead_ruler.GetHerHim].;;;;;;;;;;;;x
-EVTOPTA_LT_20520_polyteist;Praise the Gods!;;;;;;;;;;;;x
-EVTOPTA_LT_20520_monoteist;Praise the Lord!;;;;;;;;;;;;x
-EVTOPTA_LT_20520_muslim;Allah be praised!;;;;;;;;;;;;x
+EVTOPTA_LT_20520_polyteist;赞美诸神！;;;;;;;;;;;;x
+EVTOPTA_LT_20520_monoteist;赞美神！;;;;;;;;;;;;x
+EVTOPTA_LT_20520_muslim;赞美安拉！;;;;;;;;;;;;x
 EVTOPTA_LT_20520_TT;Those who liked §Y[target_dead_ruler.GetBestName]§! improve their opinion of you.[Root.GetBigBurialHaterSentence];;;;;;;;;;;;x
 big_burial_hater_Sentence; Those who hated [target_dead_ruler.GetHerHim] might not be pleased.;;;;;;;;;;;;x
 must_be_storing_a_relic_TT;Must be storing a Relic.;;;;;;;;;;;;x
@@ -1201,9 +1201,9 @@ EVT_TITLE_LT_60601;Crumbling Masterwork;;;;;;;;;;;;x
 EVTDESC_LT_60601;A piece of the [target_wonder.GetName] has fallen off – almost hitting a bystander in the head! Certain areas of the magnificent structure seem to be in dire need of upkeep.;;;;;;;;;;;;x
 EVTOPTA_LT_60601;修缮工作马上开始！;;;;;;;;;;;;x
 EVTOPTB_LT_60601;Hm, I bet these pieces would fetch a decent price...;;;;;;;;;;;;x
-title_castellan;Castellan;;;;;;;;;;;;x
-title_castellan_desc;This honorific is awarded to a vassal that is held in high regard by their liege. As Castellan they are responsible for the maintenance and daily ongoings of the Fortress.;;;;;;;;;;;;x
-castellan_custom_modifier_tt;Unlocks the §YCastellan§! minor title;;;;;;;;;;;;x
+title_castellan;堡主;;;;;;;;;;;;x
+title_castellan_desc;这个尊号被授予领主所敬重的封臣。堡主负责城堡的维护和日常运转。;;;;;;;;;;;;x
+castellan_custom_modifier_tt;解锁§Y堡主§!的荣誉头衔;;;;;;;;;;;;x
 CHAR_COURTIER_FEMALE;A courtier named §Y$NAME$§! appears at the court of §Y$EMPLOYER$§!.;;;;;;;;;;;;x
 CHAR_COURTIER_MALE;A courtier named §Y$NAME$§! appears at the court of §Y$EMPLOYER$§!.;;;;;;;;;;;;x
 diligent_opinion;Diligent Opinion;;;;;;;;;;;;x
@@ -1270,7 +1270,7 @@ WONDER_ALREADY_RESTORING;The §Y[FromFrom.GetWonderTypeShort]§! is already bein
 CHARACTER_NOT_PARTICIPATED_IN_WONDER_CONSTRUCTION;§Y$CHARACTER$§! participated in the construction of the §Y[FromFrom.GetName]§!;;;;;;;;;;;;x
 CHARACTER_OWNS_WONDER;§Y$CHARACTER$§!是§Y[FromFrom.GetName]§!的拥有者;;;;;;;;;;;;x
 LOOT;劫掠;;;;;;;;;;;;x
-WONDER_LOOT_DELAYED_TT;开始劫掠§Y[FromFrom.GetWonderTypeShort]§!。\n这样做可以获得财宝，但直到§Y[FromFrom.GetWonderTypeShort]§!被重建他都将无法发挥作用。;;;;;;;;;;;;x
+WONDER_LOOT_DELAYED_TT;开始劫掠§Y[FromFrom.GetWonderTypeShort]§!。\n这样做可以获得财宝，但直到§Y[FromFrom.GetWonderTypeShort]§!被重建它都将无法发挥作用。;;;;;;;;;;;;x
 STOP_LOOT;停止劫掠;;;;;;;;;;;;x
 WONDER_STOP_LOOT_DELAYED_TT;Abandon all looting progress and cause no further damage to the §Y[FromFrom.GetWonderTypeShort]§!.;;;;;;;;;;;;x
 RESTORE;修复;;;;;;;;;;;;x
