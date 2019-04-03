@@ -250,7 +250,7 @@ create_russian_empire;创建俄罗斯帝国;;;;;;;;;;;;x
 create_russian_empire_desc;Holding the Empire of Rus is not enough – some are starting to think that 'the Empire of Russia' has a better ring to it...;;;;;;;;;;;;x
 e_russian_empire;俄罗斯;;;;;;;;;;;;x
 e_russian_empire_adj;俄罗斯;;;;;;;;;;;;x
-russian_empire_cheaper_tribal_upgrades;Lowers the requirements for upgrading Tribal Holdings to Castles;;;;;;;;;;;;x
+russian_empire_cheaper_tribal_upgrades;降低从部落地产升级到城堡的需求;;;;;;;;;;;;x
 EVTDESC_HFP_16006_book;"My [Root.GetLordLady], something has been found in the [inherited_artifact.GetArtifactStorage]" a scribe catches up with me. "An old book, from [previous_owner.GetTitledFirstName]?" When I join [Root.GetHerHim] for a closer inspection, I have to agree with the assessment. "Old indeed", I sneeze. "We should have someone care for it", the scribe suggests.;;;;;;;;;;;;x
 EVTDESC_HFP_16006_combat_weapon;Upon inspecting the [inherited_artifact.GetArtifactStorage], my guards have found [inherited_artifact.GetName], an old weapon. "It must have belonged to [previous_owner.GetTitledFirstName]", they inform me. "Shame it's not in better shape", they mutter.;;;;;;;;;;;;x
 EVTDESC_HFP_16006_armor;I have recently inherited [inherited_artifact.GetName], a piece of armor, from [previous_owner.GetTitledFirstName]. "I am not sure it's in any wearable condition, my [Root.GetLordLady]" the quartermaster informs me, as I trace the pattern on it with one hand.;;;;;;;;;;;;x
@@ -796,7 +796,7 @@ LEDGER_HEADER_WONDER;Wonders of the World;;;;;;;;;;;;x
 PROPAGATE_BLOODLINE_FROM_EFFECT;$MEMBER$ and their offspring are now considered part of the $BLOODLINE$;;;;;;;;;;;;x
 HOLY_ORDER_EXPELLED_TOOLTIP;$TITLE|Y$ refuses to raise their troops under your command due to previously being expelled from your realm.;;;;;;;;;;;;x
 OUTLINER_NEXT_WONDER_STAGE;Currently constructing the next stage of the $WONDER$;;;;;;;;;;;;x
-panda_group;Ailuridae;;;;;;;;;;;;x
+panda_group;熊猫科;;;;;;;;;;;;x
 red_panda;小熊猫;;;;;;;;;;;;x
 MODIFIERS_PLAIN;Modifiers;;;;;;;;;;;;x
 CONFIRM_ABORT_WONDER_CONSTRUCTION_TITLE;Abort construction?;;;;;;;;;;;;x
@@ -812,8 +812,8 @@ MONTH_COUNT;$MONTH$ month;;;;;;;;;;;;x
 EVENT_CANCEL_DISALLOWED;该事件不能被取消;;;;;;;;;;;;x
 COMPLETED;Completed;;;;;;;;;;;;x
 IN_PROGRESS_CAP;In Progress;;;;;;;;;;;;x
-RENAME_WONDER_BUTTON;§YRename [FromFrom.GetName]§!;;;;;;;;;;;;x
-RENAME_WONDER_MESSAGE_LOG;Rename [FromFrom.GetName];;;;;;;;;;;;x
+RENAME_WONDER_BUTTON;§Y重命名[FromFrom.GetName]§!;;;;;;;;;;;;x
+RENAME_WONDER_MESSAGE_LOG;重命名[FromFrom.GetName];;;;;;;;;;;;x
 WONDER_NAME;§Y[FromFrom.GetName]§!;;;;;;;;;;;;x
 UNKNOWN_OWNER;Unknown owner;;;;;;;;;;;;x
 CHARACTER_TOOK_OWNERSHIP;§G$CHARACTER_NAME$§! took over as owner;;;;;;;;;;;;x
@@ -860,10 +860,10 @@ String_Death;Death;;;;;;;;;;;;x
 String_Pain;Pain;;;;;;;;;;;;x
 upgrade_royal_bedchamber;Royal Bedchamber;;;;;;;;;;;;x
 String_Screams;Screams;;;;;;;;;;;;x
-String_divine;divine;;;;;;;;;;;;x
-String_Divine;Divine;;;;;;;;;;;;x
-String_jewel_of_the_province;The Jewel of [target_province.GetName];;;;;;;;;;;;x
-String_Romance;Romance;;;;;;;;;;;;x
+String_divine;神圣的;;;;;;;;;;;;x
+String_Divine;神圣的;;;;;;;;;;;;x
+String_jewel_of_the_province;[target_province.GetName]之珠;;;;;;;;;;;;x
+String_Romance;浪漫的;;;;;;;;;;;;x
 String_Treasures;Treasures;;;;;;;;;;;;x
 String_Verdant;Verdant;;;;;;;;;;;;x
 String_verdant;verdant;;;;;;;;;;;;x
@@ -882,7 +882,7 @@ String_Keep;Keep;;;;;;;;;;;;x
 String_Castle;Castle;;;;;;;;;;;;x
 String_Shield;Shield;;;;;;;;;;;;x
 String_Woods;Woods;;;;;;;;;;;;x
-upgrade_torture_chamber;Torture Chamber;;;;;;;;;;;;x
+upgrade_torture_chamber;行刑室;;;;;;;;;;;;x
 String_looming;looming;;;;;;;;;;;;x
 String_Looming;Looming;;;;;;;;;;;;x
 upgrade_skull_throne;颅骨王座;;;;;;;;;;;;x
@@ -1108,11 +1108,11 @@ destroyed_wonder_type;Destroyed [This.GetWonderTypeShortCap];;;;;;;;;;;;x
 ruined_wonder_desc_1;This construction has been severely damaged by pillaging, and would require labor to be restored.;;;;;;;;;;;;x
 ruined_wonder_desc_2;This construction has been almost completely destroyed, looted for anything of value, and is now but a shadow of its former glory.;;;;;;;;;;;;x
 upgrade_tavern;酒馆;;;;;;;;;;;;x
-upgrade_tavern_desc;这里有充满活力的对话，有本留德饮品，还有一团温暖的火——想在漫长的一天过后休息，没有比这更好的地方了！;;;;;;;;;;;;x
+upgrade_tavern_desc;这里有充满活力的对话，供人畅饮的饮品，还有一团温暖的火——想在漫长的一天过后休息，没有比这更好的地方了！;;;;;;;;;;;;x
 tavern_custom_modifier_tt;可能会使你缓解§Y紧张不安§!;;;;;;;;;;;;x
 EVT_TITLE_LT_60301;Evening at the Tavern;;;;;;;;;;;;x
 EVTDESC_LT_60301;Warm light, accompanied by the lively murmur of conversation, spills out of the tavern close to the [target_wonder.GetName] as [drinking_buddy.GetTitledName] and I walk past.\n\n"What do you say about a cup of something soothing?";;;;;;;;;;;;x
-EVTOPTA_LT_60301;Lead the way!;;;;;;;;;;;;x
+EVTOPTA_LT_60301;带路！;;;;;;;;;;;;x
 EVTOPTA_LT_60301_TT;There might be consequences to this;;;;;;;;;;;;x
 EVTOPTB_LT_60301;I am more interested in continuing our discussion.;;;;;;;;;;;;x
 EVT_TITLE_LT_60302;Another!;;;;;;;;;;;;x
@@ -1196,7 +1196,7 @@ EVTDESC_LT_60501;[target_vassal.GetTitledName], I want to express my admiration 
 EVTOPTA_LT_60501;It's all due to your guidance, my liege.;;;;;;;;;;;;x
 EVTOPTB_LT_60501;I have done good, haven't I!;;;;;;;;;;;;x
 EVTDESC_LT_60502;My liege, the [target_wonder.GetName] is bringing prosperity and fame to the area, and I am grateful that you entrusted such a magnificent structure to my province.\n\nSincerely,\n[target_vassal.GetBestName];;;;;;;;;;;;x
-EVTOPTA_LT_60502;I am glad!;;;;;;;;;;;;x
+EVTOPTA_LT_60502;我很欣慰！;;;;;;;;;;;;x
 EVT_TITLE_LT_60601;Crumbling Masterwork;;;;;;;;;;;;x
 EVTDESC_LT_60601;A piece of the [target_wonder.GetName] has fallen off – almost hitting a bystander in the head! Certain areas of the magnificent structure seem to be in dire need of upkeep.;;;;;;;;;;;;x
 EVTOPTA_LT_60601;修缮工作马上开始！;;;;;;;;;;;;x
