@@ -88,9 +88,9 @@ caught_with_forgery;Forgery Discovered;;;;;;;;;;;;x
 ate_beating_heart;食心者;;;;;;;;;;;;x
 opinion_liked_a_good_joke;Liked a Good Joke;;;;;;;;;;;;x
 opinion_refused_invitation_to_meet;拒绝了我的邀请;;;;;;;;;;;;x
-recruit_academy_hero;Recruit Academy Hero;;;;;;;;;;;;x
-recruit_academy_hero_desc;The §YTraining Academy§! in my §YAmphitheater§! possesses many well-trained young warriors. Maybe the best one out of them will make a good military commander.;;;;;;;;;;;;x
-has_not_recruited_in_5_years_TT;再过去的5年里没有招募过学界领袖。;;;;;;;;;;;;x
+recruit_academy_hero;招募学院英雄;;;;;;;;;;;;x
+recruit_academy_hero_desc;我§Y圆形剧场§!里的§Y锻炼学院§!拥有许多训练有素的年轻勇士。或许他们当中最出色的那位可以成为一名优秀的军事指挥官。;;;;;;;;;;;;x
+has_not_recruited_in_5_years_TT;在过去的5年内没有招募过学院英雄。;;;;;;;;;;;;x
 gladiator_commander_TT;一名受过训练的角斗士出现在§Y[Root.GetTitledName]§!的宫廷里。;;;;;;;;;;;;x
 gladiator;角斗士;;;;;;;;;;;;x
 gladiator_desc;这个角色被训练成为了一名角斗士。;;;;;;;;;;;;x
@@ -295,7 +295,7 @@ wonder_harbor;Great Harbor;;;;;;;;;;;;x
 wonder_harbor_desc;Heavily trafficked, the magnificent Harbor is bringing both trade and tourism to the area.;;;;;;;;;;;;x
 wonder_lighthouse;大灯塔;;;;;;;;;;;;x
 wonder_lighthouse_desc;A tall and visible landmark, the building lends a helping hand to sailors, guiding their ships into port at night.;;;;;;;;;;;;x
-wonder_amphitheater;Grand Amphitheater;;;;;;;;;;;;x
+wonder_amphitheater;大圆形剧场;;;;;;;;;;;;x
 wonder_amphitheater_desc;The epitome of high culture, the amphitheater is a unique attraction in the realm.;;;;;;;;;;;;x
 wonder_palace;Royal Palace;;;;;;;;;;;;x
 wonder_palace_desc;A regal symbol of the prestigious lineage of its builder, this palace is one of its kind.;;;;;;;;;;;;x
@@ -432,7 +432,7 @@ upgrade_animal_cages;兽笼;;;;;;;;;;;;x
 upgrade_animal_cages_desc;Allows for battles with exotic beasts, imported from distant lands.;;;;;;;;;;;;x
 upgrade_hippodrome;赛马场;;;;;;;;;;;;x
 upgrade_hippodrome_desc;圆形剧场的附带建筑，用于赛马。;;;;;;;;;;;;x
-upgrade_training_academy;Training Academy;;;;;;;;;;;;x
+upgrade_training_academy;锻炼学院;;;;;;;;;;;;x
 upgrade_training_academy_desc;An academy to train the fighters who fight in the amphitheater;;;;;;;;;;;;x
 upgrade_chariot_race_course;Chariot Race Course;;;;;;;;;;;;x
 upgrade_chariot_race_course_desc;A place for chariots to practice and race each other.;;;;;;;;;;;;x
@@ -516,7 +516,7 @@ upgrade_giant_banners;Giant Banners;;;;;;;;;;;;x
 upgrade_giant_banners_desc;There can be no doubt as to who is the owner of this building.;;;;;;;;;;;;x
 upgrade_improved_signal_fire;Improved Signal Fire;;;;;;;;;;;;x
 upgrade_improved_signal_fire_desc;A marvel of engineering, this flame is bigger and lasts longer than others.;;;;;;;;;;;;x
-upgrade_lighthouse_custodian;Custodian of the Lighthouse;;;;;;;;;;;;x
+upgrade_lighthouse_custodian;灯塔托管人;;;;;;;;;;;;x
 upgrade_lighthouse_custodian_desc;There is one person who is ultimately in charge of the lighthouse maintenance. At least on paper.;;;;;;;;;;;;x
 upgrade_royal_apartments;Royal Apartments;;;;;;;;;;;;x
 upgrade_royal_apartments_desc;In case of an important guest, the Royal Apartments will provide the level of comfort expected by any sophisticated ruler.;;;;;;;;;;;;x
@@ -692,8 +692,8 @@ drink_from_fountain_of_youth_desc;这泉水据说有给予饮用的人生命，�
 has_not_chugged_in_10_years_TT;Drank too recently — cannot drink it again until §Y[Root.drank_from_fountain_cooldown.GetExpiryDate]§!;;;;;;;;;;;;x
 fountain_of_youth_custom_modifier_tt;Unlocks the §YDrink from the Fountain of Youth§! decision;;;;;;;;;;;;x
 EVT_TITLE_LT_60201;青春之泉;;;;;;;;;;;;x
-EVTDESC_LT_60201_2;I jump into the [target_wonder.GetName], laughing with glee, and I am soon choking on the life-giving water as I swallow mouthful after mouthful. As I drag myself up onto the ledge with shaking arms I soon stop smiling...;;;;;;;;;;;;x
-EVTOPTA_LT_60201;The years fall off me as I drink.;;;;;;;;;;;;x
+EVTDESC_LT_60201_2;我欢笑着纵身跃入[target_wonder.GetName]，我一口接一口地咽下这长生之水，差点没把我呛着。当我用颤抖的双臂爬上岸边的岩石时，我的笑意很快消失了......;;;;;;;;;;;;x
+EVTOPTA_LT_60201;年华被我从身上喝走了。;;;;;;;;;;;;x
 EVTOPTB_LT_60201;我以前从没觉得自己有这么老！;;;;;;;;;;;;x
 title_lighthouse_custodian;Lighthouse Custodian;;;;;;;;;;;;x
 title_lighthouse_custodian_desc;This honorific is awarded to a person who has shown themselves responsible and can be entrusted with the care of your lighthouse – keeping it both lit and functioning.;;;;;;;;;;;;x
@@ -1152,11 +1152,11 @@ upgrade_master_of_tides_desc;Ultimately responsible for all things marine – ev
 master_of_tides_custom_modifier_tt;Unlocks the §YMaster of the Tides§! minor title;;;;;;;;;;;;x
 title_master_of_tides;Master of the Tides;;;;;;;;;;;;x
 title_master_of_tides_desc;This honorific is awarded to a person who has shown aptitude for all things marine, and the overarching responsibility of the §YHarbor§! rests on their shoulders.;;;;;;;;;;;;x
-upgrade_master_of_the_games;Master of the Games;;;;;;;;;;;;x
-upgrade_master_of_the_games_desc;With a booming voice the Master of the Games can tease forth both cheers and tears, the whole §YAmphitheater§! is their stage and responsibility.;;;;;;;;;;;;x
-game_master_custom_modifier_tt;Unlocks the §YMaster of the Games§! minor title;;;;;;;;;;;;x
-title_master_of_games;Master of the Games;;;;;;;;;;;;x
-title_master_of_games_desc;This honorific is awarded to a person with a strong personality and presence, capable of bending a whole crowd to their will.;;;;;;;;;;;;x
+upgrade_master_of_the_games;竞技大师;;;;;;;;;;;;x
+upgrade_master_of_the_games_desc;伴随着震耳的声音，竞技大师可以挑动出欢呼和眼泪，整个§Y圆形剧场§!都是他们的舞台和责任所在。;;;;;;;;;;;;x
+game_master_custom_modifier_tt;解锁§Y竞技大师§!的荣誉头衔;;;;;;;;;;;;x
+title_master_of_games;竞技大师;;;;;;;;;;;;x
+title_master_of_games_desc;这个称号被授予一位拥有强大人格和存在感，有能力使整个人群服从他们意志的人物。;;;;;;;;;;;;x
 upgrade_royal_custodian;Royal Custodian;;;;;;;;;;;;x
 upgrade_royal_custodian_desc;With nerves of steel and a will of iron the custodian maintains and develops the §YRoyal Palace§!.;;;;;;;;;;;;x
 royal_custodian_custom_modifier_tt;Unlocks the §YRoyal Custodian§! minor title;;;;;;;;;;;;x
@@ -1202,7 +1202,7 @@ EVTDESC_LT_60601;A piece of the [target_wonder.GetName] has fallen off – almos
 EVTOPTA_LT_60601;修缮工作马上开始！;;;;;;;;;;;;x
 EVTOPTB_LT_60601;Hm, I bet these pieces would fetch a decent price...;;;;;;;;;;;;x
 title_castellan;堡主;;;;;;;;;;;;x
-title_castellan_desc;这个尊号被授予领主所敬重的封臣。堡主负责城堡的维护和日常运转。;;;;;;;;;;;;x
+title_castellan_desc;这个称号被授予领主所敬重的封臣。堡主负责城堡的维护和日常运转。;;;;;;;;;;;;x
 castellan_custom_modifier_tt;解锁§Y堡主§!的荣誉头衔;;;;;;;;;;;;x
 CHAR_COURTIER_FEMALE;A courtier named §Y$NAME$§! appears at the court of §Y$EMPLOYER$§!.;;;;;;;;;;;;x
 CHAR_COURTIER_MALE;A courtier named §Y$NAME$§! appears at the court of §Y$EMPLOYER$§!.;;;;;;;;;;;;x
@@ -1450,7 +1450,7 @@ upgrade_automata_throne_desc;通过一些复杂的机械装置，这个宝座现
 upgrade_ballroom;舞厅;;;;;;;;;;;;x
 upgrade_ballroom_desc;贵族们会面、跳舞和密谋的地方;;;;;;;;;;;;x
 EVTOPTBHF23440;We should hold it in the Grand Amphitheater!;;;;;;;;;;;;x
-EVTOPTBHF23440_tt;This option is available as you own a §YGrand Amphitheater§!.;;;;;;;;;;;;x
+EVTOPTBHF23440_tt;这个选项可用是因为你拥有一座§Y圆形剧场§!。;;;;;;;;;;;;x
 EVTOPTEHF23445;来一些狮子怎么样？;;;;;;;;;;;;x
 EVTOPTEHF23445_tt;This option is available as you own the §YAnimal Cages§! feature;;;;;;;;;;;;x
 animal_cages_modifier_tt;Enables the use of §YDangerous Animals§Y in the Arena;;;;;;;;;;;;x
