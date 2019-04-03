@@ -12,14 +12,14 @@ String_Philosophy;哲学书;;;;;;;;;;;;x
 String_History;史籍;;;;;;;;;;;;x
 String_Astronomy;天文学书籍;;;;;;;;;;;;x
 String_Medical;解剖学书籍;;;;;;;;;;;;x
-String_aDrama;一场喜剧;;;;;;;;;;;;x
+String_aDrama;一本戏剧;;;;;;;;;;;;x
 String_aPoetry;一册诗集;;;;;;;;;;;;x
 String_anArchitecture;一本建筑学书籍;;;;;;;;;;;;x
 String_aPhilosophy;一本哲学书籍;;;;;;;;;;;;x
 String_aHistory;一本史籍;;;;;;;;;;;;x
 String_anAstronomy;一本天文学书籍;;;;;;;;;;;;x
 String_aMedical;一本解剖学书籍;;;;;;;;;;;;x
-String_ADrama;一册喜剧;;;;;;;;;;;;x
+String_ADrama;一本戏剧;;;;;;;;;;;;x
 String_APoetry;一册诗集;;;;;;;;;;;;x
 String_AnArchitecture;建筑学书籍;;;;;;;;;;;;x
 String_APhilosophy;哲学书籍;;;;;;;;;;;;x
@@ -45,9 +45,9 @@ String_Alcman_of_Sparta;斯巴达的阿尔克曼;;;;;;;;;;;;x
 String_Theocritus;忒奥克里托斯;;;;;;;;;;;;x
 String_Sappho;萨福;;;;;;;;;;;;x
 String_Asclepiades_of_Samos;萨摩斯的阿斯克勒庇阿得斯;;;;;;;;;;;;x
-String_Hermodorus_of_Salamis;Hermodorus of Salamis;;;;;;;;;;;;x
+String_Hermodorus_of_Salamis;萨拉米斯的赫尔谟德鲁斯;;;;;;;;;;;;x
 String_Vitruvius;维特鲁威;;;;;;;;;;;;x
-String_Rabirius;Rabirius;;;;;;;;;;;;x
+String_Rabirius;拉比鲁斯;;;;;;;;;;;;x
 String_Cocceius_Auctus;Cocceius Auctus;;;;;;;;;;;;x
 String_Plato;柏拉图;;;;;;;;;;;;x
 String_Aristotle;亚里士多德;;;;;;;;;;;;x
@@ -65,13 +65,13 @@ String_Hippocrates_of_Kos;科斯的希波克拉底;;;;;;;;;;;;x
 String_Virgil;维吉尔;;;;;;;;;;;;x
 String_s;s;;;;;;;;;;;;x
 String_politely;礼貌地;;;;;;;;;;;;x
-antiquity_book_poetry;Lost Poetry Masterpiece;;;;;;;;;;;;x
-antiquity_book_play;Lost Play;;;;;;;;;;;;x
-antiquity_book_medicine;Lost Book of Medicine;;;;;;;;;;;;x
-antiquity_book_philosophy;Lost Philosophy Book;;;;;;;;;;;;x
-antiquity_book_architecture;Lost Architecture Book;;;;;;;;;;;;x
-antiquity_book_history;Book on ancient History;;;;;;;;;;;;x
-antiquity_book_astronomy;Lost Astronomy Book;;;;;;;;;;;;x
+antiquity_book_poetry;失落的诗集;;;;;;;;;;;;x
+antiquity_book_play;失落的戏剧;;;;;;;;;;;;x
+antiquity_book_medicine;失落的医学书籍;;;;;;;;;;;;x
+antiquity_book_philosophy;失落的哲学书籍;;;;;;;;;;;;x
+antiquity_book_architecture;失落的建筑学书籍;;;;;;;;;;;;x
+antiquity_book_history;古代史书;;;;;;;;;;;;x
+antiquity_book_astronomy;失落的天文学书籍;;;;;;;;;;;;x
 antiquity_book_fake;Clever Forgery;;;;;;;;;;;;x
 lost_masterpiece_book_desc;[Root.GetBookThemeCap] by the famous [Root.GetAuthorNationAdj] [Root.GetAuthorTitle] [Root.GetAuthorName], that was thought to be lost forever, but was found and acquired by [Root.GetTitledNameWithNick] for his Great Library.;;;;;;;;;;;;x
 fake_masterpiece_book_desc;Initially thought to be [Root.GetBookThemeWithArticle] by the famous [Root.GetAuthorNationAdj] [Root.GetAuthorTitle] [Root.GetAuthorName], it is now considered a clever forgery.;;;;;;;;;;;;x
@@ -102,7 +102,7 @@ EVT_TITLE_LT_20010;失落之书;;;;;;;;;;;;x
 EVTDESC_LT_20010.1;A visitor to my court told me that in [book_province.GetName], in the [book_province_realm.GetFullBaseName] he heard rumors that a rich merchant had acquired an unheard of [Root.GetBookTheme] by the famous [Root.GetAuthorNationAdj] [Root.GetAuthorTitle] [Root.GetAuthorName].;;;;;;;;;;;;x
 EVTDESC_LT_20010.2;I received a letter from someone in [book_province.GetName], in the [book_province_realm.GetFullBaseName], claiming that he has in his possession a copy of [Root.GetBookThemeWithArticle] by the famous [Root.GetAuthorNationAdj] [Root.GetAuthorTitle] [Root.GetAuthorName]. But that work was unknown until now!;;;;;;;;;;;;x
 EVTOPTA_LT_20010;I shall ask [possible_emissary1.GetFirstName] to go and try to acquire the book!;;;;;;;;;;;;x
-EVTOPTA_LT_20010_TT;[possible_emissary1.GetFirstName] will be sent to [book_province.GetName].;;;;;;;;;;;;x
+EVTOPTA_LT_20010_TT;[possible_emissary1.GetFirstName]将被送往[book_province.GetName];;;;;;;;;;;;x
 EVTOPTB_LT_20010;Or maybe [possible_emissary2.GetFirstName] should go instead.;;;;;;;;;;;;x
 EVTOPTB_LT_20010_TT;[possible_emissary2.GetFirstName] will be sent to [book_province.GetName].;;;;;;;;;;;;x
 EVTOPTC_LT_20010;这是个有趣的消息，但现在我有更要紧的事情处理。;;;;;;;;;;;;x
@@ -305,7 +305,7 @@ wonder_university;Grand University;;;;;;;;;;;;x
 wonder_university_desc;A high seat of learning, famous throughout the realm.;;;;;;;;;;;;x
 wonder_mausoleum;Grand Mausoleum;;;;;;;;;;;;x
 wonder_mausoleum_desc;A simple tomb is not enough for some rulers.;;;;;;;;;;;;x
-wonder_pyramid;Great Pyramid;;;;;;;;;;;;x
+wonder_pyramid;大金字塔;;;;;;;;;;;;x
 wonder_pyramid_desc;"Build it taller!", was apparently the last words of its architect.;;;;;;;;;;;;x
 wonder_pagan_stones;Great Stone Circle;;;;;;;;;;;;x
 wonder_pagan_stones_desc;Huge standing rocks are placed in a grand circle, with an opening towards the east, where the sun rises.;;;;;;;;;;;;x
@@ -809,7 +809,7 @@ YEARS_COUNT;$YEAR$ years;;;;;;;;;;;;x
 YEAR_COUNT;$YEAR$ year;;;;;;;;;;;;x
 MONTHS_COUNT;$MONTH$ months;;;;;;;;;;;;x
 MONTH_COUNT;$MONTH$ month;;;;;;;;;;;;x
-EVENT_CANCEL_DISALLOWED;Cancel is not allowed for this event;;;;;;;;;;;;x
+EVENT_CANCEL_DISALLOWED;该事件不能被取消;;;;;;;;;;;;x
 COMPLETED;Completed;;;;;;;;;;;;x
 IN_PROGRESS_CAP;In Progress;;;;;;;;;;;;x
 RENAME_WONDER_BUTTON;§YRename [FromFrom.GetName]§!;;;;;;;;;;;;x
@@ -969,18 +969,18 @@ String_unfinished;unfinished ;;;;;;;;;;;;x
 wonder_artifact_bells;Cathedral Bells;;;;;;;;;;;;x
 wonder_artifact_bells_desc;Bells that once stood on a Christian Cathedral.;;;;;;;;;;;;x
 wonder_temple_hindu;印度教神庙;;;;;;;;;;;;x
-wonder_temple_hindu_desc;A temple that symbolizes the house, seat and body of a God.;;;;;;;;;;;;x
-wonder_temple_hindu_construction_desc;A temple that symbolizes the house, seat and body of a God. It is a sign of its builder §YKarma§! and §YPrestige§!, and can also influence the opinion of some of your subjects.;;;;;;;;;;;;x
-upgrade_high_gopura;瞿布罗;;;;;;;;;;;;x
-upgrade_high_gopura_desc;An richly ornate high tower that serves as an entrance to the temple.;;;;;;;;;;;;x
+wonder_temple_hindu_desc;一座象征神体、神座和神之居所的神庙。;;;;;;;;;;;;x
+wonder_temple_hindu_construction_desc;一座象征神体、神座和神之居所的神庙，是其建造者§Y善业§!和§Y威望§!的体现，也会影响到臣民对你的好感。;;;;;;;;;;;;x
+upgrade_high_gopura;塔门;;;;;;;;;;;;x
+upgrade_high_gopura_desc;一座富丽堂皇的高塔，是通向神庙的入口。;;;;;;;;;;;;x
 upgrade_shikhara;宝顶;;;;;;;;;;;;x
-upgrade_shikhara_desc;The main temple tower.;;;;;;;;;;;;x
-upgrade_mandapa;Maha Mandapa;;;;;;;;;;;;x
-upgrade_mandapa_desc;A great pillared hall serving as the waiting room for pilgrims and devotees.;;;;;;;;;;;;x
-upgrade_temple_complex;Temple Complex;;;;;;;;;;;;x
-upgrade_temple_complex_desc;A complex of smaller temples, surrounding the main temple.;;;;;;;;;;;;x
+upgrade_shikhara_desc;神庙的主塔。;;;;;;;;;;;;x
+upgrade_mandapa;大柱廊;;;;;;;;;;;;x
+upgrade_mandapa_desc;一座带廊柱的大厅，以供朝圣者和信徒休息等候。;;;;;;;;;;;;x
+upgrade_temple_complex;神庙群;;;;;;;;;;;;x
+upgrade_temple_complex_desc;环绕主神庙的小型神庙建筑群。;;;;;;;;;;;;x
 upgrade_school_hindu;Calai;;;;;;;;;;;;x
-upgrade_school_hindu_desc;A school, that also provides lodging for students and scholars.;;;;;;;;;;;;x
+upgrade_school_hindu_desc;一座学校，同时也为学生和学者提供住宿。;;;;;;;;;;;;x
 upgrade_hospital_hindu;Hospital;;;;;;;;;;;;x
 upgrade_hospital_hindu_desc;A hospital attached to the temple.;;;;;;;;;;;;x
 wonder_cathedral_construction_desc;A testament to the §YPiety§! and §YPrestige§! of its builder, it can be used to store relics, and in times of trouble its bells can even warn the people of danger.;;;;;;;;;;;;x
