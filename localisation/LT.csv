@@ -90,21 +90,21 @@ opinion_liked_a_good_joke;Liked a Good Joke;;;;;;;;;;;;x
 opinion_refused_invitation_to_meet;拒绝了我的邀请;;;;;;;;;;;;x
 recruit_academy_hero;Recruit Academy Hero;;;;;;;;;;;;x
 recruit_academy_hero_desc;The §YTraining Academy§! in my §YAmphitheater§! possesses many well-trained young warriors. Maybe the best one out of them will make a good military commander.;;;;;;;;;;;;x
-has_not_recruited_in_5_years_TT; Has not recruited an Academy Hero in the last 5 years.;;;;;;;;;;;;x
-gladiator_commander_TT;A gladiator-trained warrior appears at the court of §Y[Root.GetTitledName]§!.;;;;;;;;;;;;x
+has_not_recruited_in_5_years_TT;再过去的5年里没有招募过学界领袖。;;;;;;;;;;;;x
+gladiator_commander_TT;一名受过训练的角斗士出现在§Y[Root.GetTitledName]§!的宫廷里。;;;;;;;;;;;;x
 gladiator;角斗士;;;;;;;;;;;;x
 gladiator_desc;这个角色被训练成为了一名角斗士。;;;;;;;;;;;;x
 EVTDESCHF23002_C;The priests drag [From.GetTitledFirstName] screaming to the [the_temple.GetName], they place [From.GetHerHim] on the [the_sacrificial_altar.GetName] on top of the temple, and slice [From.GetHerHim] open with a ceremonial dagger. They then tear out [From.GetHerHis] still beating heart to the cheers of the assembled crowd.;;;;;;;;;;;;x
 EVTDESCHF23002_D;The priests drag [From.GetTitledFirstName] screaming to the top of the [the_temple.GetName] and they keep [From.GetHerHim] steady on the [the_sacrificial_altar.GetName] that stands there while I slice [From.GetHerHim] open with a ceremonial dagger. I then tear out [From.GetHerHis] still beating heart to the cheers of the assembled crowd.;;;;;;;;;;;;x
-EVTOPTBHF23002;I eat the beating heart!;;;;;;;;;;;;x
+EVTOPTBHF23002;我食用跳动的心脏！;;;;;;;;;;;;x
 EVTOPTBHF23002_TT;这个选项可用是因为你拥有§Y[the_sacrificial_altar.GetName]§!特质;;;;;;;;;;;;x
 EVT_TITLE_LT_20010;失落之书;;;;;;;;;;;;x
 EVTDESC_LT_20010.1;A visitor to my court told me that in [book_province.GetName], in the [book_province_realm.GetFullBaseName] he heard rumors that a rich merchant had acquired an unheard of [Root.GetBookTheme] by the famous [Root.GetAuthorNationAdj] [Root.GetAuthorTitle] [Root.GetAuthorName].;;;;;;;;;;;;x
 EVTDESC_LT_20010.2;I received a letter from someone in [book_province.GetName], in the [book_province_realm.GetFullBaseName], claiming that he has in his possession a copy of [Root.GetBookThemeWithArticle] by the famous [Root.GetAuthorNationAdj] [Root.GetAuthorTitle] [Root.GetAuthorName]. But that work was unknown until now!;;;;;;;;;;;;x
-EVTOPTA_LT_20010;I shall ask [possible_emissary1.GetFirstName] to go and try to acquire the book!;;;;;;;;;;;;x
+EVTOPTA_LT_20010;我应该让[possible_emissary1.GetFirstName]去那并且试着拿到那本书！;;;;;;;;;;;;x
 EVTOPTA_LT_20010_TT;[possible_emissary1.GetFirstName]将被送往[book_province.GetName];;;;;;;;;;;;x
-EVTOPTB_LT_20010;Or maybe [possible_emissary2.GetFirstName] should go instead.;;;;;;;;;;;;x
-EVTOPTB_LT_20010_TT;[possible_emissary2.GetFirstName] will be sent to [book_province.GetName].;;;;;;;;;;;;x
+EVTOPTB_LT_20010;或许应该让[possible_emissary2.GetFirstName]去。;;;;;;;;;;;;x
+EVTOPTB_LT_20010_TT;[possible_emissary2.GetFirstName]将会到达[book_province.GetName]。;;;;;;;;;;;;x
 EVTOPTC_LT_20010;这是个有趣的消息，但现在我有更要紧的事情处理。;;;;;;;;;;;;x
 EVTOPTD_LT_20010;我一点儿都不在乎失踪的书籍。我的收藏品已经够多了。;;;;;;;;;;;;x
 EVTOPTD_LT_20010_TT;你再也不会因失落之书的消息而烦恼了。;;;;;;;;;;;;x
@@ -133,8 +133,8 @@ EVTOPTC_LT_20040;仅仅公布发现并把书储存在我的图书馆里;;;;;;;;;
 EVTOPT_LT_20040_TT;你获得了宝物：[the_book.GetName];;;;;;;;;;;;x
 EVT_TITLE_LT_20050;这本失落之书是假的！;;;;;;;;;;;;x
 EVTDESC_LT_20050;A scholar working in my library, [the_whistleblower.GetTitledNameWithNick] is saying that my precious [Root.GetBookTheme] that was supposedly written by [Root.GetAuthorName] is falsification!\n  I can imprison [the_whistleblower.GetHerHim], but on the other hand a courtier who speaks the truth might be a good person to have around me.;;;;;;;;;;;;x
-EVTOPTA_LT_20050;How dare [the_whistleblower.GetSheHe]? Imprison that imbecile [the_whistleblower.GetManWoman]!;;;;;;;;;;;;x
-EVTOPTB_LT_20050;I will reward [the_whistleblower.GetHerHim] for speaking the truth!;;;;;;;;;;;;x
+EVTOPTA_LT_20050;谁给[the_whistleblower.GetSheHe]的胆子？把那个白痴[the_whistleblower.GetManWoman]抓起来！;;;;;;;;;;;;x
+EVTOPTB_LT_20050;我会奖励[the_whistleblower.GetHerHim]说了真话！;;;;;;;;;;;;x
 EVT_TITLE_LT_20055;这本书似乎是伪造的！;;;;;;;;;;;;x
 EVTDESC_LT_20055;After a careful reading of the [Root.GetBookTheme] that was supposedly written by [Root.GetAuthorName] I believe it is a forgery. Nevertheless, the contents of the book are actually not bad.;;;;;;;;;;;;x
 EVTOPTA_LT_20055;事实上我从这本书里学到了一些东西。;;;;;;;;;;;;x
@@ -171,7 +171,7 @@ EVTOPTE_LT_20110;把黄金发给工人当作报酬吧！;;;;;;;;;;;;x
 EVTOPTF_LT_20110;我们会给遇难者的家人一些钱。;;;;;;;;;;;;x
 EVTOPTC_MNM_9115;我们自己[the_armory.GetName]里的工匠已经足够了！;;;;;;;;;;;;x
 EVTOPTC_MNM_9115_TT;这个选项可用是因为你拥有包括§Y[the_armory.GetName]§!的§Y[the_wonder.GetWonderTypeShortCap]§!;;;;;;;;;;;;x
-MNM_9999_DESC_armor;The castle blacksmith, more used to horseshoes and helmets than work fit for royalty, presented you with a dirty old box. "Ta da" he says, nervously, "It was an armor you wanted right?" he adds.;;;;;;;;;;;;x
+MNM_9999_DESC_armor;城堡里的铁匠献给你一个脏兮兮的旧盒子，看上去他们更习惯于锤制马鞍和头盔，而不是造王室想要的东西。「当当当当！」他紧张地说道，「这就是您想要的盔甲吧？」;;;;;;;;;;;;x
 EVTDESC_LT_20201;My master [GetWeaponArmorSmith] came to see me in the throne room. [smith.GetSheHeCap] gestured towards [smith.GetHerHis] numerous assistants, who all carried examples of [smith.GetHerHis] work. 'Does my [Root.GetTitle] have anything special in mind?';;;;;;;;;;;;x
 EVTOPTA_zweihanded_LT_20201;我想要一把双手剑。;;;;;;;;;;;;x
 EVTOPTA_MNM_LT_20201_TT;This sword can only be handled by a strong warrior, but is sure to impress friend and foe alike.;;;;;;;;;;;;x
@@ -199,11 +199,11 @@ EVTOPTA_LT_20405;我接受。;;;;;;;;;;;;x
 EVTOPTB_LT_20405;我拒绝。;;;;;;;;;;;;x
 EVTOPTC_LT_20405;I will politely invent an excuse and refuse.;;;;;;;;;;;;x
 EVTDESC_LT_20410;[target_character.GetBestName] accepted my invitation to meet in the seclusion of the [target_upgrade.GetName] in the [target_wonder.GetName]. After some time talking...;;;;;;;;;;;;x
-EVTOPTA_LT_20410;...we will know each other a little better.;;;;;;;;;;;;x
-EVTOPTB_LT_20410;...I try to seduce [target_character.GetHerHim].;;;;;;;;;;;;x
-EVTOPTB_LT_20410_TT;I do not know how §Y[target_character.GetTitledFirstName]§! will react if I try to kiss [target_character.GetHerHim], but we might become lovers.;;;;;;;;;;;;x
-EVTOPTC_LT_20410;...I get my dagger out and try to stab [target_character.GetHerHim] in the heart.;;;;;;;;;;;;x
-EVTOPTC_LT_20410_TT;This option is available because you have either a high §YIntrigue§! or related traits.\n;;;;;;;;;;;;x
+EVTOPTA_LT_20410;……我们会更了解彼此的。;;;;;;;;;;;;x
+EVTOPTB_LT_20410;……我试图勾引[target_character.GetHerHim]。;;;;;;;;;;;;x
+EVTOPTB_LT_20410_TT;我不清楚如果我试着去亲吻§Y[target_character.GetTitledFirstName]§!的话[target_character.GetHerHim]会如何回应，说不定我们就会成为恋人。;;;;;;;;;;;;x
+EVTOPTC_LT_20410;……我抽出匕首，试图直刺[target_character.GetHerHim]的心脏！;;;;;;;;;;;;x
+EVTOPTC_LT_20410_TT;这个选项可用是因为你高超的§Y阴谋§!技能或相关的特质。\n;;;;;;;;;;;;x
 EVTOPTC_LT_20410_TT_murder;I better be good at fighting because §Y[From.GetTitledFirstName]§! might resist my murder attempt.;;;;;;;;;;;;x
 EVTDESC_LT_20412;[target_character.GetBestName] [target_character.GetPoliteRefuse] declined my invitation me to meet in the seclusion of the [target_upgrade.GetName] in the [target_wonder.GetName].;;;;;;;;;;;;x
 EVTOPTA_LT_20412;Too bad.;;;;;;;;;;;;x
@@ -303,7 +303,7 @@ wonder_garden;Magnificent Garden;;;;;;;;;;;;x
 wonder_garden_desc;The garden is a marvel of both science and beauty.;;;;;;;;;;;;x
 wonder_university;Grand University;;;;;;;;;;;;x
 wonder_university_desc;A high seat of learning, famous throughout the realm.;;;;;;;;;;;;x
-wonder_mausoleum;Grand Mausoleum;;;;;;;;;;;;x
+wonder_mausoleum;巨陵;;;;;;;;;;;;x
 wonder_mausoleum_desc;A simple tomb is not enough for some rulers.;;;;;;;;;;;;x
 wonder_pyramid;大金字塔;;;;;;;;;;;;x
 wonder_pyramid_desc;"Build it taller!", was apparently the last words of its architect.;;;;;;;;;;;;x
@@ -556,7 +556,7 @@ upgrade_necropolis_desc;Within the [FromFrom.GetWonderTypeShortCap], surrounded 
 upgrade_traps;Traps;;;;;;;;;;;;x
 upgrade_traps_desc;Considering the pyramid is a lot like a giant sign proclaiming where to find valuables, [Root.GetTitledFirstName] is rumored to have designed a number of intricate traps to scare off grave-robbers.;;;;;;;;;;;;x
 upgrade_lime_stone_casing;石灰岩外壳;;;;;;;;;;;;x
-upgrade_lime_stone_casing_desc;The surface of this pyramid is exceptionally smooth, and when it reflects the sun, it sometimes looks like it is emitting a light of its own.;;;;;;;;;;;;x
+upgrade_lime_stone_casing_desc;金字塔的表面罕见地光滑，能直接反射日光，有时看起来仿佛是金字塔自己在发光。;;;;;;;;;;;;x
 upgrade_vestibule;前厅;;;;;;;;;;;;x
 upgrade_holy_place;Holy Place;;;;;;;;;;;;x
 upgrade_holy_of_holies;至圣所;;;;;;;;;;;;x
@@ -926,7 +926,7 @@ upgrade_quadriga_statue_desc;这座雕像表现了四匹马拉着一辆战车。
 upgrade_chaitya-grihas;支提窟;;;;;;;;;;;;x
 upgrade_gompa;贡巴;;;;;;;;;;;;x
 upgrade_bodhi_tree;菩提树;;;;;;;;;;;;x
-upgrade_cave_complex;Cave Complex;;;;;;;;;;;;x
+upgrade_cave_complex;石窟群;;;;;;;;;;;;x
 upgrade_vihara;精舍;;;;;;;;;;;;x
 upgrade_school_buddhist;佛学院;;;;;;;;;;;;x
 upgrade_relic_stupa;舍利塔;;;;;;;;;;;;x
@@ -937,7 +937,7 @@ upgrade_votive_stupa;报恩塔;;;;;;;;;;;;x
 upgrade_chaitya-grihas_desc;环绕佛塔的巡礼大厅。;;;;;;;;;;;;x
 upgrade_gompa_desc;环绕寺庙的堡垒。;;;;;;;;;;;;x
 upgrade_bodhi_tree_desc;乔达摩·悉达多在这棵圣树的祖先的树荫下悟道，他是以佛陀之名为世人所知的精神导师。;;;;;;;;;;;;x
-upgrade_cave_complex_desc;A complex of caves.;;;;;;;;;;;;x
+upgrade_cave_complex_desc;石窟建筑群。;;;;;;;;;;;;x
 upgrade_vihara_desc;佛教僧侣栖身立命之所。;;;;;;;;;;;;x
 upgrade_school_buddhist_desc;教授佛教学说的学校;;;;;;;;;;;;x
 upgrade_relic_stupa_desc;这是佛陀及其弟子的遗物埋葬的地方。;;;;;;;;;;;;x
@@ -979,10 +979,10 @@ upgrade_mandapa;大柱廊;;;;;;;;;;;;x
 upgrade_mandapa_desc;一座带廊柱的大厅，以供朝圣者和信徒休息等候。;;;;;;;;;;;;x
 upgrade_temple_complex;神庙群;;;;;;;;;;;;x
 upgrade_temple_complex_desc;环绕主神庙的小型神庙建筑群。;;;;;;;;;;;;x
-upgrade_school_hindu;Calai;;;;;;;;;;;;x
+upgrade_school_hindu;讲堂;;;;;;;;;;;;x
 upgrade_school_hindu_desc;一座学校，同时也为学生和学者提供住宿。;;;;;;;;;;;;x
-upgrade_hospital_hindu;Hospital;;;;;;;;;;;;x
-upgrade_hospital_hindu_desc;A hospital attached to the temple.;;;;;;;;;;;;x
+upgrade_hospital_hindu;医室;;;;;;;;;;;;x
+upgrade_hospital_hindu_desc;神庙附带的医室。;;;;;;;;;;;;x
 wonder_cathedral_construction_desc;A testament to the §YPiety§! and §YPrestige§! of its builder, it can be used to store relics, and in times of trouble its bells can even warn the people of danger.;;;;;;;;;;;;x
 wonder_mosque_construction_desc;A testament to the §YPiety§! and §YPrestige§! of its builder, it can help convert the infidels to the true faith, improve opinion, or even help protect the population from diseases.;;;;;;;;;;;;x
 wonder_synagogue_construction_desc;A testament to the §YPiety§! and §YPrestige§! of its builder, it can also help improve opinion of you, the morale of the military forces, and reduce revolt risk.;;;;;;;;;;;;x
@@ -1027,7 +1027,7 @@ EVTDESC_LT_20520_pagan;It was a great Feast in the honor of [target_dead_ruler.G
 EVTDESC_LT_20520_monoteist;It was a memorable funeral and procession full of honors for [target_dead_ruler.GetTitledName]. [target_dead_ruler.GetHerHisCap] body now rests in peace in the [target_wonder.GetName]. Everybody will remember how I honored [target_dead_ruler.GetHerHim].;;;;;;;;;;;;x
 EVTDESC_LT_20520_indian;It was a memorable funeral and procession full of honors for [target_dead_ruler.GetTitledName]. Everybody will remember how I honored [target_dead_ruler.GetHerHim].;;;;;;;;;;;;x
 EVTOPTA_LT_20520_polyteist;赞美诸神！;;;;;;;;;;;;x
-EVTOPTA_LT_20520_monoteist;赞美神！;;;;;;;;;;;;x
+EVTOPTA_LT_20520_monoteist;赞美主！;;;;;;;;;;;;x
 EVTOPTA_LT_20520_muslim;赞美安拉！;;;;;;;;;;;;x
 EVTOPTA_LT_20520_TT;Those who liked §Y[target_dead_ruler.GetBestName]§! improve their opinion of you.[Root.GetBigBurialHaterSentence];;;;;;;;;;;;x
 big_burial_hater_Sentence; Those who hated [target_dead_ruler.GetHerHim] might not be pleased.;;;;;;;;;;;;x
@@ -1491,7 +1491,7 @@ LEDGER_TIER;Stage;;;;;;;;;;;;x
 String_Sphinx;吉萨狮身人面像;;;;;;;;;;;;x
 String_MythologicalBeast;Mythological Beast Statue;;;;;;;;;;;;x
 upgrade_inner_sanctuary_desc;A sacred and reserved space inside the temple where only the high ranking priests can enter.;;;;;;;;;;;;x
-upgrade_vestibule_desc;Two pillars of bronze frame the entrance to the temple, bidding all worshipers welcome.;;;;;;;;;;;;x
+upgrade_vestibule_desc;用两根青铜柱作门框的神殿入口，招徕信众的朝拜。;;;;;;;;;;;;x
 upgrade_holy_place_desc;Cherubim, palm trees, and open flowers, all overlaid with gold, are carved into the cedar-lined walls. The floor is of cypress overlaid with gold. The door posts, of olive wood, support folding doors of cypress.;;;;;;;;;;;;x
 upgrade_holy_of_holies_desc;The inner sanctuary within the temple. It is located in the westernmost end of the temple building, a perfect cube, prepared to contain the Ark of the Covenant.;;;;;;;;;;;;x
 upgrade_inner_court_desc;The Inner Court, or Court of the Priests, is separated from the space beyond by a wall of three courses of hewn stone, surmounted by cedar beams. It contains the Altar of burnt-offering, the Brazen Sea laver, and ten other lavers.;;;;;;;;;;;;x
