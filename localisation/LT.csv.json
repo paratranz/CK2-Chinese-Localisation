@@ -578,7 +578,7 @@
     {
         "key": "EVTOPTBHF23002",
         "original": "I eat the beating heart!",
-        "translation": "我食用跳动的心脏！",
+        "translation": "我要吃跳动着的心脏！",
         "stage": 1
     },
     {
@@ -656,8 +656,8 @@
     {
         "key": "EVTDESC_LT_20020",
         "original": "My courtier [emissary.GetTitledNameWithNick] returned today with the sad news that [emissary.GetHeShe] could not obtain the [Root.GetBookTheme] by the famous [Root.GetAuthorNationAdj] [Root.GetAuthorTitle] [Root.GetAuthorName], and is even not sure it really exists. [emissary.GetFirstName] returned the money that remained after the Journey expenses.",
-        "translation": "",
-        "stage": 0
+        "translation": "我的廷臣[emissary.GetTitledNameWithNick]今天带着不幸的消息回来了。[emissary.GetHeShe]没有得到著名的[Root.GetAuthorNationAdj][Root.GetAuthorTitle][Root.GetAuthorName]的著作[Root.GetBookTheme]，甚至无法确定它是否真的存在。[emissary.GetFirstName]退还了路上花剩下的钱。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_LT_20020",
@@ -1130,8 +1130,8 @@
     {
         "key": "EVTDESC_LT_20310",
         "original": "[target_character.GetBestName] just laughed at me! Laughed really hard. I can still hear his laughs in my dreams.",
-        "translation": "",
-        "stage": 0
+        "translation": "[target_character.GetBestName]只是在嘲笑我！笑得很过分。我甚至在梦中还能听到他的笑声。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_LT_20310",
@@ -1184,8 +1184,8 @@
     {
         "key": "EVTOPTC_LT_20405",
         "original": "I will politely invent an excuse and refuse.",
-        "translation": "",
-        "stage": 0
+        "translation": "我会礼貌地婉拒。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_LT_20410",
@@ -1238,8 +1238,8 @@
     {
         "key": "EVTOPTA_LT_20412",
         "original": "Too bad.",
-        "translation": "",
-        "stage": 0
+        "translation": "这太糟了。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_LT_20421",
@@ -1562,8 +1562,8 @@
     {
         "key": "EVTOPTA_HFP_16006_2_A",
         "original": "I'll pay to maintain it.",
-        "translation": "",
-        "stage": 0
+        "translation": "我会留意的。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_HFP_16006_2_B",
@@ -2042,26 +2042,26 @@
     {
         "key": "upgrade_bells",
         "original": "Bells",
-        "translation": "",
-        "stage": 0
+        "translation": "钟",
+        "stage": 1
     },
     {
         "key": "upgrade_bells_desc",
         "original": "While intended for ceremony, the bells can also be rung in times of danger, a warning which would be heard all over the province.",
-        "translation": "",
-        "stage": 0
+        "translation": "钟不仅可以用于仪式，在发生危险的时候，也能借由它响彻整个省份的响声来发出警告。",
+        "stage": 1
     },
     {
         "key": "upgrade_stained_glass_window",
         "original": "Stained Glass Window",
-        "translation": "",
-        "stage": 0
+        "translation": "彩色玻璃窗",
+        "stage": 1
     },
     {
         "key": "upgrade_stained_glass_window_desc",
         "original": "A beautiful piece of art reflecting a biblical scene.",
-        "translation": "",
-        "stage": 0
+        "translation": "描绘着《圣经》中画面的美丽艺术品",
+        "stage": 1
     },
     {
         "key": "upgrade_relic_tomb",
@@ -2114,20 +2114,20 @@
     {
         "key": "upgrade_bells_golden",
         "original": "Golden Bells",
-        "translation": "",
-        "stage": 0
+        "translation": "金钟",
+        "stage": 1
     },
     {
         "key": "upgrade_bells_golden_desc",
         "original": "The bells of the [FromFrom.GetWonderTypeShortCap] have been coated with a thin layer of gold.",
-        "translation": "",
-        "stage": 0
+        "translation": "[FromFrom.GetWonderTypeShortCap]的钟镀上了薄薄的一层黄金",
+        "stage": 1
     },
     {
         "key": "upgrade_statue_god",
         "original": "Statue of a God",
-        "translation": "",
-        "stage": 0
+        "translation": "神像",
+        "stage": 1
     },
     {
         "key": "upgrade_statue_god_desc",
@@ -2150,14 +2150,14 @@
     {
         "key": "upgrade_sacrificial_altar",
         "original": "Sacrificial Altar",
-        "translation": "",
-        "stage": 0
+        "translation": "祭坛",
+        "stage": 1
     },
     {
         "key": "upgrade_sacrificial_altar_desc",
         "original": "The people of [Root.PrimaryTitle.GetName] show their devotion to the gods by sacrificing living beings.",
-        "translation": "",
-        "stage": 0
+        "translation": "[Root.PrimaryTitle.GetName]的子民向神明献祭活物来展现他们对上帝的奉献。",
+        "stage": 1
     },
     {
         "key": "upgrade_sacred_grove",
@@ -2264,14 +2264,14 @@
     {
         "key": "upgrade_school_mosque",
         "original": "School",
-        "translation": "",
-        "stage": 0
+        "translation": "学校",
+        "stage": 1
     },
     {
         "key": "upgrade_school_mosque_desc",
         "original": "The [FromFrom.GetWonderTypeShortCap] is also a place of learning.",
-        "translation": "",
-        "stage": 0
+        "translation": "[FromFrom.GetWonderTypeShortCap]也是学习的场所。",
+        "stage": 1
     },
     {
         "key": "upgrade_hostel",
@@ -2288,14 +2288,14 @@
     {
         "key": "upgrade_tallest_building",
         "original": "Tallest Building",
-        "translation": "",
-        "stage": 0
+        "translation": "至高建筑",
+        "stage": 1
     },
     {
         "key": "upgrade_tallest_building_desc",
         "original": "The Talmud instructs that the Synagogue should be taller than the other buildings.",
-        "translation": "",
-        "stage": 0
+        "translation": "根据《塔木德》，犹太会堂应当比其他建筑物高。",
+        "stage": 1
     },
     {
         "key": "upgrade_garden_outer",
@@ -2348,14 +2348,14 @@
     {
         "key": "upgrade_school_synagogue",
         "original": "School",
-        "translation": "",
-        "stage": 0
+        "translation": "学校",
+        "stage": 1
     },
     {
         "key": "upgrade_school_synagogue_desc",
         "original": "The [FromFrom.GetWonderTypeShortCap] is also a place of learning.",
-        "translation": "",
-        "stage": 0
+        "translation": "[FromFrom.GetWonderTypeShortCap]也是学习的场所。",
+        "stage": 1
     },
     {
         "key": "upgrade_great_seminars",
@@ -2366,8 +2366,8 @@
     {
         "key": "upgrade_library",
         "original": "Grand Library",
-        "translation": "",
-        "stage": 0
+        "translation": "大图书馆",
+        "stage": 1
     },
     {
         "key": "upgrade_library_desc",
@@ -2480,8 +2480,8 @@
     {
         "key": "upgrade_statues_animals_desc",
         "original": "The original statue is surrounded by smaller statues, depicting critters of various kinds.",
-        "translation": "",
-        "stage": 0
+        "translation": "原本的雕塑由描绘着多种动物的稍小一些的雕像围绕着",
+        "stage": 1
     },
     {
         "key": "upgrade_cothon",
@@ -2498,8 +2498,8 @@
     {
         "key": "upgrade_piers",
         "original": "Piers",
-        "translation": "",
-        "stage": 0
+        "translation": "码头",
+        "stage": 1
     },
     {
         "key": "upgrade_piers_desc",
@@ -2570,8 +2570,8 @@
     {
         "key": "upgrade_animal_cages",
         "original": "Animal Cages",
-        "translation": "",
-        "stage": 0
+        "translation": "兽笼",
+        "stage": 1
     },
     {
         "key": "upgrade_animal_cages_desc",
@@ -2618,26 +2618,26 @@
     {
         "key": "upgrade_theater_stage",
         "original": "Theater Stage",
-        "translation": "",
-        "stage": 0
+        "translation": "舞台",
+        "stage": 1
     },
     {
         "key": "upgrade_theater_stage_desc",
         "original": "A stage, specifically designed for dramatic readings of poetry and acting.",
-        "translation": "",
-        "stage": 0
+        "translation": "为诗朗诵和表演特意设计的舞台",
+        "stage": 1
     },
     {
         "key": "upgrade_fountains",
         "original": "Fountains",
-        "translation": "",
-        "stage": 0
+        "translation": "喷泉",
+        "stage": 1
     },
     {
         "key": "upgrade_fountains_desc",
         "original": "Beautiful fountains, attracting small birds, adding to the atmosphere.",
-        "translation": "",
-        "stage": 0
+        "translation": "美丽的喷泉，可以吸引小鸟，增添情调",
+        "stage": 1
     },
     {
         "key": "upgrade_fountain_of_youth",
@@ -2678,26 +2678,26 @@
     {
         "key": "upgrade_hidden_burial",
         "original": "Hidden Burial Spot",
-        "translation": "",
-        "stage": 0
+        "translation": "秘密埋葬地",
+        "stage": 2
     },
     {
         "key": "upgrade_hidden_burial_desc",
         "original": "The sweet smell of flowers and thick undergrowth can hide the darkest of secrets...",
-        "translation": "",
-        "stage": 0
+        "translation": "芬芳的花朵与茂盛的灌木足以隐藏最黑暗的秘密……",
+        "stage": 1
     },
     {
         "key": "upgrade_poisonous_flowers",
         "original": "Poisonous Flowers",
-        "translation": "",
-        "stage": 0
+        "translation": "有毒花朵",
+        "stage": 1
     },
     {
         "key": "upgrade_poisonous_flowers_desc",
         "original": "Delightful, but deadly, the flowers in this garden carry some powerful properties.",
-        "translation": "",
-        "stage": 0
+        "translation": "花园里的花朵具备一些强大的毒性，这使它们美丽而致命，",
+        "stage": 2
     },
     {
         "key": "upgrade_herb_garden",
@@ -2708,14 +2708,14 @@
     {
         "key": "upgrade_herb_garden_desc",
         "original": "A well-organized patch of land, showing the dedication of its carer.",
-        "translation": "",
-        "stage": 0
+        "translation": "这块土地井井有条，体现了它园丁的辛勤奉献。",
+        "stage": 1
     },
     {
         "key": "upgrade_statues_garden",
         "original": "Garden Statues",
-        "translation": "",
-        "stage": 0
+        "translation": "园中雕塑",
+        "stage": 1
     },
     {
         "key": "upgrade_statues_garden_desc",
@@ -2966,68 +2966,68 @@
     {
         "key": "upgrade_moat_pit",
         "original": "Pit Moat",
-        "translation": "",
-        "stage": 0
+        "translation": "护城壕",
+        "stage": 1
     },
     {
         "key": "upgrade_moat_pit_desc",
         "original": "A deep trench surrounds this fortress.",
-        "translation": "",
-        "stage": 0
+        "translation": "要塞周围环绕着深深的壕沟",
+        "stage": 1
     },
     {
         "key": "upgrade_moat_spike",
         "original": "Spike Moat",
-        "translation": "",
-        "stage": 0
+        "translation": "护城尖刺",
+        "stage": 1
     },
     {
         "key": "upgrade_moat_spike_desc",
         "original": "At least one craftsman died in the making of this moat.",
-        "translation": "",
-        "stage": 0
+        "translation": "至少有一名工匠在制造这些尖刺时不幸去世",
+        "stage": 1
     },
     {
         "key": "upgrade_moat_water",
         "original": "Water Moat",
-        "translation": "",
-        "stage": 0
+        "translation": "护城河",
+        "stage": 1
     },
     {
         "key": "upgrade_moat_water_desc",
         "original": "Water keeps people at bay. Unless they can swim.",
-        "translation": "",
-        "stage": 0
+        "translation": "水能使人陷入困境，除非他们会游泳。",
+        "stage": 1
     },
     {
         "key": "upgrade_moat_bones",
         "original": "Moat of Bones",
-        "translation": "",
-        "stage": 0
+        "translation": "骸骨护城河",
+        "stage": 1
     },
     {
         "key": "upgrade_moat_bones_desc",
         "original": "A frightening sight, the moat is said to contain all that remains of those who have personally slighted [Root.GetTitledFirstName].",
-        "translation": "",
-        "stage": 0
+        "translation": "这景象令人恐惧。据说这条「护城河」里面是所有那些胆敢怠慢[Root.GetTitledFirstName]之人的遗体",
+        "stage": 1
     },
     {
         "key": "upgrade_hidden_passageways",
         "original": "Hidden Passageways",
-        "translation": "",
-        "stage": 0
+        "translation": "密道",
+        "stage": 1
     },
     {
         "key": "upgrade_hidden_passageways_desc",
         "original": "A labyrinthine network of tunnels and passageways are said to exist within and under the walls of [FromFrom.GetName].",
-        "translation": "",
-        "stage": 0
+        "translation": "据说[FromFrom.GetName]的墙壁里与地下隐藏着一座由地道与走廊交织而成的迷宫",
+        "stage": 1
     },
     {
         "key": "upgrade_garden_inner",
         "original": "Inner Garden",
-        "translation": "",
-        "stage": 0
+        "translation": "内部的花园",
+        "stage": 1
     },
     {
         "key": "upgrade_garden_inner_desc",
@@ -3038,26 +3038,26 @@
     {
         "key": "upgrade_dueling_room",
         "original": "Dueling Room",
-        "translation": "",
-        "stage": 0
+        "translation": "决斗室",
+        "stage": 1
     },
     {
         "key": "upgrade_dueling_room_desc",
         "original": "A room dedicated to the practice of one-on-one combat.",
-        "translation": "",
-        "stage": 0
+        "translation": "用于一对一决斗训练的房间",
+        "stage": 1
     },
     {
         "key": "upgrade_treasure_chamber",
         "original": "Treasure Chamber",
-        "translation": "",
-        "stage": 0
+        "translation": "藏宝室",
+        "stage": 1
     },
     {
         "key": "upgrade_treasure_chamber_desc",
         "original": "A secret vault, for storing particularly valuable merchandise.",
-        "translation": "",
-        "stage": 0
+        "translation": "秘密地窖，用于储存那些尤为宝贵的商品。",
+        "stage": 1
     },
     {
         "key": "upgrade_extra_supports",
@@ -4124,8 +4124,8 @@
     {
         "key": "drink_from_fountain_of_youth",
         "original": "Drink from the Fountain of Youth",
-        "translation": "",
-        "stage": 0
+        "translation": "饮用青春之泉",
+        "stage": 1
     },
     {
         "key": "drink_from_fountain_of_youth_desc",
@@ -4148,8 +4148,8 @@
     {
         "key": "EVT_TITLE_LT_60201",
         "original": "Fountain of Youth",
-        "translation": "",
-        "stage": 0
+        "translation": "青春之泉",
+        "stage": 1
     },
     {
         "key": "EVTDESC_LT_60201_2",
@@ -8798,7 +8798,7 @@
     {
         "key": "wonder_underground_city_petra_desc",
         "original": "The great desert city of Petra has existed for hundreds of years",
-        "translation": "佩特拉沙漠古城已经存在了数个世纪之久。",
+        "translation": "佩特拉沙漠古城已经存在了数个世纪之久",
         "stage": 1
     },
     {
@@ -8960,8 +8960,8 @@
     {
         "key": "upgrade_holy_of_holies_desc",
         "original": "The inner sanctuary within the temple. It is located in the westernmost end of the temple building, a perfect cube, prepared to contain the Ark of the Covenant.",
-        "translation": "",
-        "stage": 0
+        "translation": "圣殿内部的圣所，位于圣殿的最西端，构造呈完美的立方形，其中存放着约柜。",
+        "stage": 1
     },
     {
         "key": "upgrade_inner_court_desc",

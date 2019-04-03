@@ -96,7 +96,7 @@ gladiator;角斗士;;;;;;;;;;;;x
 gladiator_desc;这个角色被训练成为了一名角斗士。;;;;;;;;;;;;x
 EVTDESCHF23002_C;The priests drag [From.GetTitledFirstName] screaming to the [the_temple.GetName], they place [From.GetHerHim] on the [the_sacrificial_altar.GetName] on top of the temple, and slice [From.GetHerHim] open with a ceremonial dagger. They then tear out [From.GetHerHis] still beating heart to the cheers of the assembled crowd.;;;;;;;;;;;;x
 EVTDESCHF23002_D;The priests drag [From.GetTitledFirstName] screaming to the top of the [the_temple.GetName] and they keep [From.GetHerHim] steady on the [the_sacrificial_altar.GetName] that stands there while I slice [From.GetHerHim] open with a ceremonial dagger. I then tear out [From.GetHerHis] still beating heart to the cheers of the assembled crowd.;;;;;;;;;;;;x
-EVTOPTBHF23002;我食用跳动的心脏！;;;;;;;;;;;;x
+EVTOPTBHF23002;我要吃跳动着的心脏！;;;;;;;;;;;;x
 EVTOPTBHF23002_TT;这个选项可用是因为你拥有§Y[the_sacrificial_altar.GetName]§!特质;;;;;;;;;;;;x
 EVT_TITLE_LT_20010;失落之书;;;;;;;;;;;;x
 EVTDESC_LT_20010.1;A visitor to my court told me that in [book_province.GetName], in the [book_province_realm.GetFullBaseName] he heard rumors that a rich merchant had acquired an unheard of [Root.GetBookTheme] by the famous [Root.GetAuthorNationAdj] [Root.GetAuthorTitle] [Root.GetAuthorName].;;;;;;;;;;;;x
@@ -109,7 +109,7 @@ EVTOPTC_LT_20010;这是个有趣的消息，但现在我有更要紧的事情处
 EVTOPTD_LT_20010;我一点儿都不在乎失踪的书籍。我的收藏品已经够多了。;;;;;;;;;;;;x
 EVTOPTD_LT_20010_TT;你再也不会因失落之书的消息而烦恼了。;;;;;;;;;;;;x
 EVT_TITLE_LT_20020;失落之书;;;;;;;;;;;;x
-EVTDESC_LT_20020;My courtier [emissary.GetTitledNameWithNick] returned today with the sad news that [emissary.GetHeShe] could not obtain the [Root.GetBookTheme] by the famous [Root.GetAuthorNationAdj] [Root.GetAuthorTitle] [Root.GetAuthorName], and is even not sure it really exists. [emissary.GetFirstName] returned the money that remained after the Journey expenses.;;;;;;;;;;;;x
+EVTDESC_LT_20020;我的廷臣[emissary.GetTitledNameWithNick]今天带着不幸的消息回来了。[emissary.GetHeShe]没有得到著名的[Root.GetAuthorNationAdj][Root.GetAuthorTitle][Root.GetAuthorName]的著作[Root.GetBookTheme]，甚至无法确定它是否真的存在。[emissary.GetFirstName]退还了路上花剩下的钱。;;;;;;;;;;;;x
 EVTOPTA_LT_20020;真遗憾。;;;;;;;;;;;;x
 EVT_TITLE_LT_20030;一本失落且珍贵的书;;;;;;;;;;;;x
 EVTDESC_LT_20030;My Lord [Root.GetTitle]\n I [emissary.GetTitledNameWithNick], your humble servant, am still trying to obtain the [Root.GetBookTheme] by the famous [Root.GetAuthorNationAdj] [Root.GetAuthorTitle] [Root.GetAuthorName]. \n Unfortunately I have run out of funds. Would your grace be so generous as to send me some extra money, I am almost sure to be able to find and acquire the book you seek.;;;;;;;;;;;;x
@@ -188,7 +188,7 @@ EVTOPTB_LT_20301;...'I hope you understand how important this favor is'.;;;;;;;;
 EVTOPTB_LT_20301_TT;the attempt to coerce a favor fails;;;;;;;;;;;;x
 EVTOPTC_LT_20301;...'What do you think of my toy?'.;;;;;;;;;;;;x
 EVTOPTD_LT_20301;... 'This bloody thing also scares me!'.;;;;;;;;;;;;x
-EVTDESC_LT_20310;[target_character.GetBestName] just laughed at me! Laughed really hard. I can still hear his laughs in my dreams.;;;;;;;;;;;;x
+EVTDESC_LT_20310;[target_character.GetBestName]只是在嘲笑我！笑得很过分。我甚至在梦中还能听到他的笑声。;;;;;;;;;;;;x
 EVTOPTA_LT_20310;哦不！;;;;;;;;;;;;x
 use_secluded_upgrade;私密谈话;;;;;;;;;;;;x
 use_secluded_upgrade_desc;与§Y[Root.GetFirstNameWithNick]§!在一个隐蔽的地方会面会很有趣。;;;;;;;;;;;;x
@@ -197,7 +197,7 @@ use_secluded_upgrade_cooldown_tt;Has NOT invited a character for a private talk 
 EVTDESC_LT_20405;[From.GetBestName] invited me to meet [From.GetHerHim] in the [target_upgrade.GetName] of the [target_wonder.GetName].;;;;;;;;;;;;x
 EVTOPTA_LT_20405;我接受。;;;;;;;;;;;;x
 EVTOPTB_LT_20405;我拒绝。;;;;;;;;;;;;x
-EVTOPTC_LT_20405;I will politely invent an excuse and refuse.;;;;;;;;;;;;x
+EVTOPTC_LT_20405;我会礼貌地婉拒。;;;;;;;;;;;;x
 EVTDESC_LT_20410;[target_character.GetBestName] accepted my invitation to meet in the seclusion of the [target_upgrade.GetName] in the [target_wonder.GetName]. After some time talking...;;;;;;;;;;;;x
 EVTOPTA_LT_20410;……我们会更了解彼此的。;;;;;;;;;;;;x
 EVTOPTB_LT_20410;……我试图勾引[target_character.GetHerHim]。;;;;;;;;;;;;x
@@ -206,7 +206,7 @@ EVTOPTC_LT_20410;……我抽出匕首，试图直刺[target_character.GetHerHim
 EVTOPTC_LT_20410_TT;这个选项可用是因为你高超的§Y阴谋§!技能或相关的特质。\n;;;;;;;;;;;;x
 EVTOPTC_LT_20410_TT_murder;I better be good at fighting because §Y[From.GetTitledFirstName]§! might resist my murder attempt.;;;;;;;;;;;;x
 EVTDESC_LT_20412;[target_character.GetBestName] [target_character.GetPoliteRefuse] declined my invitation me to meet in the seclusion of the [target_upgrade.GetName] in the [target_wonder.GetName].;;;;;;;;;;;;x
-EVTOPTA_LT_20412;Too bad.;;;;;;;;;;;;x
+EVTOPTA_LT_20412;这太糟了。;;;;;;;;;;;;x
 EVTDESC_LT_20421;I went to meet [From.GetBestName] in the seclusion of the [target_upgrade.GetName], in the [target_wonder.GetName]. We are having a pleasant conversation.;;;;;;;;;;;;x
 EVTOPTA_LT_20421;I am thoroughly impressed with [From.GetTitledFirstName]!;;;;;;;;;;;;x
 EVTOPTB_LT_20421;I am impressed with [From.GetTitledFirstName]!;;;;;;;;;;;;x
@@ -260,7 +260,7 @@ EVTDESC_HFP_16006_quality_3;The [inherited_artifact.GetArtifactStorage] currentl
 EVTDESC_HFP_16006_child;"What is it?" I ask the guards. "You have inherited this... [inherited_artifact.GetName]", one of them explains. "From [previous_owner.GetTitledFirstName]", [Root.GetSheHe] continues. "If you want to keep it, we'll store it for you, [Root.GetMasterMistress]. It might need some maintenance though.";;;;;;;;;;;;x
 EVTOPTA_HFP_16006_1_A;I suppose it could be worth something, one day...;;;;;;;;;;;;x
 EVTOPTA_HFP_16006_1_B;For sentimental reasons, I could have someone look it over.;;;;;;;;;;;;x
-EVTOPTA_HFP_16006_2_A;I'll pay to maintain it.;;;;;;;;;;;;x
+EVTOPTA_HFP_16006_2_A;我会留意的。;;;;;;;;;;;;x
 EVTOPTA_HFP_16006_2_B;Maintenance is to be expected, I guess.;;;;;;;;;;;;x
 EVTOPTA_HFP_16006_3;钱不是问题。;;;;;;;;;;;;x
 EVTOPTA_HFP_16006_4;We cannot put a price on heirlooms like this. Spare no expense!;;;;;;;;;;;;x
@@ -340,10 +340,10 @@ upgrade_retinue;[FromFrom.GetWonderTypeShortCap] Retinue;;;;;;;;;;;;x
 upgrade_retinue_desc;A special unit of guards are stationed in the province, heightening security around the [FromFrom.GetWonderTypeShortCap].;;;;;;;;;;;;x
 upgrade_gargoyles;滴水嘴兽;;;;;;;;;;;;x
 upgrade_gargoyles_desc;这些从[FromFrom.GetWonderTypeShortCap]正面探出头的丑陋怪物看起来很不吉利。;;;;;;;;;;;;x
-upgrade_bells;Bells;;;;;;;;;;;;x
-upgrade_bells_desc;While intended for ceremony, the bells can also be rung in times of danger, a warning which would be heard all over the province.;;;;;;;;;;;;x
-upgrade_stained_glass_window;Stained Glass Window;;;;;;;;;;;;x
-upgrade_stained_glass_window_desc;A beautiful piece of art reflecting a biblical scene.;;;;;;;;;;;;x
+upgrade_bells;钟;;;;;;;;;;;;x
+upgrade_bells_desc;钟不仅可以用于仪式，在发生危险的时候，也能借由它响彻整个省份的响声来发出警告。;;;;;;;;;;;;x
+upgrade_stained_glass_window;彩色玻璃窗;;;;;;;;;;;;x
+upgrade_stained_glass_window_desc;描绘着《圣经》中画面的美丽艺术品;;;;;;;;;;;;x
 upgrade_relic_tomb;Relic Tomb;;;;;;;;;;;;x
 upgrade_relic_tomb_desc;A place for storing artifacts.;;;;;;;;;;;;x
 upgrade_grand_basilica;Grand Basilica;;;;;;;;;;;;x
@@ -352,14 +352,14 @@ upgrade_catacombs;地下墓穴;;;;;;;;;;;;x
 upgrade_catacombs_desc;While subterranean passageways are a source of fascination, they are primarily a sacred space for religious practice.;;;;;;;;;;;;x
 upgrade_giant_cross;Giant Cross;;;;;;;;;;;;x
 upgrade_giant_cross_desc;On top of the [FromFrom.GetWonderTypeShortCap] is a big cross, embellishing the silhouette of the building.;;;;;;;;;;;;x
-upgrade_bells_golden;Golden Bells;;;;;;;;;;;;x
-upgrade_bells_golden_desc;The bells of the [FromFrom.GetWonderTypeShortCap] have been coated with a thin layer of gold.;;;;;;;;;;;;x
-upgrade_statue_god;Statue of a God;;;;;;;;;;;;x
+upgrade_bells_golden;金钟;;;;;;;;;;;;x
+upgrade_bells_golden_desc;[FromFrom.GetWonderTypeShortCap]的钟镀上了薄薄的一层黄金;;;;;;;;;;;;x
+upgrade_statue_god;神像;;;;;;;;;;;;x
 upgrade_statue_god_desc;The grand statue of [Root.Religion.GetRandomGodName] impresses both faithful and those foreign to the faith of [Root.PrimaryTitle.GetName].;;;;;;;;;;;;x
 upgrade_temple_guards;[FromFrom.GetWonderTypeShortCap] Guards;;;;;;;;;;;;x
 upgrade_temple_guards_desc;The [FromFrom.GetWonderTypeShortCap] guards are especially dedicated to the protection of the [FromFrom.GetWonderTypeShortCap].;;;;;;;;;;;;x
-upgrade_sacrificial_altar;Sacrificial Altar;;;;;;;;;;;;x
-upgrade_sacrificial_altar_desc;The people of [Root.PrimaryTitle.GetName] show their devotion to the gods by sacrificing living beings.;;;;;;;;;;;;x
+upgrade_sacrificial_altar;祭坛;;;;;;;;;;;;x
+upgrade_sacrificial_altar_desc;[Root.PrimaryTitle.GetName]的子民向神明献祭活物来展现他们对上帝的奉献。;;;;;;;;;;;;x
 upgrade_sacred_grove;Sacred Grove;;;;;;;;;;;;x
 upgrade_sacred_grove_desc;In the middle of the grove, a tree is planted. As time passes, its branches will reach as tall as its roots, representing the connection between worlds.;;;;;;;;;;;;x
 upgrade_prophecy_rooms;Prophecy Rooms;;;;;;;;;;;;x
@@ -377,12 +377,12 @@ upgrade_lamps_hanging;Magnificent Hanging Lamps;;;;;;;;;;;;x
 upgrade_lamps_hanging_desc;Illumination is essential in a [FromFrom.GetWonderTypeShortCap], as many prayers happen during the night. Hundreds of decorated lamps create a dazzling effect, with a soft light emanating from each one.;;;;;;;;;;;;x
 upgrade_soup_kitchen;粥厂;;;;;;;;;;;;x
 upgrade_soup_kitchen_desc;[FromFrom.GetWonderTypeShortCap]不仅可以进行礼拜，同时也是照顾穷困的人的市民中心。;;;;;;;;;;;;x
-upgrade_school_mosque;School;;;;;;;;;;;;x
-upgrade_school_mosque_desc;The [FromFrom.GetWonderTypeShortCap] is also a place of learning.;;;;;;;;;;;;x
+upgrade_school_mosque;学校;;;;;;;;;;;;x
+upgrade_school_mosque_desc;[FromFrom.GetWonderTypeShortCap]也是学习的场所。;;;;;;;;;;;;x
 upgrade_hostel;商队旅馆;;;;;;;;;;;;x
 upgrade_hostel_desc;一座在疲惫的旅人间渐渐获得口碑的客栈。;;;;;;;;;;;;x
-upgrade_tallest_building;Tallest Building;;;;;;;;;;;;x
-upgrade_tallest_building_desc;The Talmud instructs that the Synagogue should be taller than the other buildings.;;;;;;;;;;;;x
+upgrade_tallest_building;至高建筑;;;;;;;;;;;;x
+upgrade_tallest_building_desc;根据《塔木德》，犹太会堂应当比其他建筑物高。;;;;;;;;;;;;x
 upgrade_garden_outer;Outer Wall and Open Garden;;;;;;;;;;;;x
 upgrade_garden_outer_desc;By building an outer garden, the faithful can relax before and after the prayers.;;;;;;;;;;;;x
 upgrade_holy_ark;圣柜;;;;;;;;;;;;x
@@ -391,10 +391,10 @@ upgrade_decorations;Elaborate Decorations;;;;;;;;;;;;x
 upgrade_decorations_desc;Elaborate decorations will help elevate the spirit of the faithful to the heavens.;;;;;;;;;;;;x
 upgrade_choir_rooms;Choir Rooms;;;;;;;;;;;;x
 upgrade_choir_rooms_desc;The acoustics of these rooms make them suited for practice singing.;;;;;;;;;;;;x
-upgrade_school_synagogue;School;;;;;;;;;;;;x
-upgrade_school_synagogue_desc;The [FromFrom.GetWonderTypeShortCap] is also a place of learning.;;;;;;;;;;;;x
+upgrade_school_synagogue;学校;;;;;;;;;;;;x
+upgrade_school_synagogue_desc;[FromFrom.GetWonderTypeShortCap]也是学习的场所。;;;;;;;;;;;;x
 upgrade_great_seminars;Great Seminars;;;;;;;;;;;;x
-upgrade_library;Grand Library;;;;;;;;;;;;x
+upgrade_library;大图书馆;;;;;;;;;;;;x
 upgrade_library_desc;An extensive library, for housing relevant manuscripts while also providing a quiet study area for the scholar in need of it.;;;;;;;;;;;;x
 upgrade_wing_of_diplomacy;Wing of Diplomacy;;;;;;;;;;;;x
 upgrade_wing_of_martial;Wing of Strategy;;;;;;;;;;;;x
@@ -413,10 +413,10 @@ upgrade_statues_family_desc;These beautiful statues are said to resemble the imm
 upgrade_stable;Grand Stable;;;;;;;;;;;;x
 upgrade_stable_desc;A stable containing horses, but most importantly, the ones descending from the original chosen creature depicted in the grand monument rising above the roof of this building.;;;;;;;;;;;;x
 upgrade_statues_animals;Additional Animal Statues;;;;;;;;;;;;x
-upgrade_statues_animals_desc;The original statue is surrounded by smaller statues, depicting critters of various kinds.;;;;;;;;;;;;x
+upgrade_statues_animals_desc;原本的雕塑由描绘着多种动物的稍小一些的雕像围绕着;;;;;;;;;;;;x
 upgrade_cothon;Cothon;;;;;;;;;;;;x
 upgrade_cothon_desc;一个内港。;;;;;;;;;;;;x
-upgrade_piers;Piers;;;;;;;;;;;;x
+upgrade_piers;码头;;;;;;;;;;;;x
 upgrade_piers_desc;The piers expand the harbor and how much trade that can be conducted there.;;;;;;;;;;;;x
 upgrade_office_harbor;Harbor Office;;;;;;;;;;;;x
 upgrade_office_harbor_desc;The installation of a proper Harbor office has led to better control of the trade coming and going through the [FromFrom.GetWonderTypeShortCap].;;;;;;;;;;;;x
@@ -428,7 +428,7 @@ upgrade_statues_dead;Statues of the Dead;;;;;;;;;;;;x
 upgrade_statues_dead_desc;The long-gone relatives of [Root.GetTitledFirstName] can be found standing witness to the passing of time, in the dark corridors of the [FromFrom.GetWonderTypeShortCap].;;;;;;;;;;;;x
 upgrade_naval_spectacle;Naval Spectacle;;;;;;;;;;;;x
 upgrade_naval_spectacle_desc;A massive undertaking allowing the stage to be filled with water for mock naval battles.;;;;;;;;;;;;x
-upgrade_animal_cages;Animal Cages;;;;;;;;;;;;x
+upgrade_animal_cages;兽笼;;;;;;;;;;;;x
 upgrade_animal_cages_desc;Allows for battles with exotic beasts, imported from distant lands.;;;;;;;;;;;;x
 upgrade_hippodrome;赛马场;;;;;;;;;;;;x
 upgrade_hippodrome_desc;圆形剧场的附带建筑，用于赛马。;;;;;;;;;;;;x
@@ -436,23 +436,23 @@ upgrade_training_academy;Training Academy;;;;;;;;;;;;x
 upgrade_training_academy_desc;An academy to train the fighters who fight in the amphitheater;;;;;;;;;;;;x
 upgrade_chariot_race_course;Chariot Race Course;;;;;;;;;;;;x
 upgrade_chariot_race_course_desc;A place for chariots to practice and race each other.;;;;;;;;;;;;x
-upgrade_theater_stage;Theater Stage;;;;;;;;;;;;x
-upgrade_theater_stage_desc;A stage, specifically designed for dramatic readings of poetry and acting.;;;;;;;;;;;;x
-upgrade_fountains;Fountains;;;;;;;;;;;;x
-upgrade_fountains_desc;Beautiful fountains, attracting small birds, adding to the atmosphere.;;;;;;;;;;;;x
+upgrade_theater_stage;舞台;;;;;;;;;;;;x
+upgrade_theater_stage_desc;为诗朗诵和表演特意设计的舞台;;;;;;;;;;;;x
+upgrade_fountains;喷泉;;;;;;;;;;;;x
+upgrade_fountains_desc;美丽的喷泉，可以吸引小鸟，增添情调;;;;;;;;;;;;x
 upgrade_fountain_of_youth;青春之泉;;;;;;;;;;;;x
 upgrade_fountain_of_youth_desc;这个井中的水闪烁着怪异的光泽......;;;;;;;;;;;;x
 upgrade_hanging_gardens;空中花园;;;;;;;;;;;;x
 upgrade_hanging_gardens_desc;A marvelous terraced solution to one section of the garden.;;;;;;;;;;;;x
 upgrade_secluded_groves;Secluded Groves;;;;;;;;;;;;x
 upgrade_secluded_groves_desc;A place for hiding. Or romance.;;;;;;;;;;;;x
-upgrade_hidden_burial;Hidden Burial Spot;;;;;;;;;;;;x
-upgrade_hidden_burial_desc;The sweet smell of flowers and thick undergrowth can hide the darkest of secrets...;;;;;;;;;;;;x
-upgrade_poisonous_flowers;Poisonous Flowers;;;;;;;;;;;;x
-upgrade_poisonous_flowers_desc;Delightful, but deadly, the flowers in this garden carry some powerful properties.;;;;;;;;;;;;x
+upgrade_hidden_burial;秘密埋葬地;;;;;;;;;;;;x
+upgrade_hidden_burial_desc;芬芳的花朵与茂盛的灌木足以隐藏最黑暗的秘密……;;;;;;;;;;;;x
+upgrade_poisonous_flowers;有毒花朵;;;;;;;;;;;;x
+upgrade_poisonous_flowers_desc;花园里的花朵具备一些强大的毒性，这使它们美丽而致命，;;;;;;;;;;;;x
 upgrade_herb_garden;Herb Garden;;;;;;;;;;;;x
-upgrade_herb_garden_desc;A well-organized patch of land, showing the dedication of its carer.;;;;;;;;;;;;x
-upgrade_statues_garden;Garden Statues;;;;;;;;;;;;x
+upgrade_herb_garden_desc;这块土地井井有条，体现了它园丁的辛勤奉献。;;;;;;;;;;;;x
+upgrade_statues_garden;园中雕塑;;;;;;;;;;;;x
 upgrade_statues_garden_desc;These elegant statues depict people relaxing, presumably to inspire calm in anyone visiting the garden.;;;;;;;;;;;;x
 upgrade_estates_choice;精选的地产;;;;;;;;;;;;x
 upgrade_estates_choice_desc;王室开始占据优质的地块和上好的林地，用以王室狩猎活动。虽然有些许的人会发牢骚，但这被广泛视为君主应有的权利。;;;;;;;;;;;;x
@@ -494,22 +494,22 @@ upgrade_watch_tower;Watch Tower;;;;;;;;;;;;x
 upgrade_watch_tower_desc;A tower increasing the line of sight, and safety, for the entire province.;;;;;;;;;;;;x
 upgrade_vault;Vault;;;;;;;;;;;;x
 upgrade_vault_desc;A special vault, deep in the heart of the fortress, for storage and safe-keeping.;;;;;;;;;;;;x
-upgrade_moat_pit;Pit Moat;;;;;;;;;;;;x
-upgrade_moat_pit_desc;A deep trench surrounds this fortress.;;;;;;;;;;;;x
-upgrade_moat_spike;Spike Moat;;;;;;;;;;;;x
-upgrade_moat_spike_desc;At least one craftsman died in the making of this moat.;;;;;;;;;;;;x
-upgrade_moat_water;Water Moat;;;;;;;;;;;;x
-upgrade_moat_water_desc;Water keeps people at bay. Unless they can swim.;;;;;;;;;;;;x
-upgrade_moat_bones;Moat of Bones;;;;;;;;;;;;x
-upgrade_moat_bones_desc;A frightening sight, the moat is said to contain all that remains of those who have personally slighted [Root.GetTitledFirstName].;;;;;;;;;;;;x
-upgrade_hidden_passageways;Hidden Passageways;;;;;;;;;;;;x
-upgrade_hidden_passageways_desc;A labyrinthine network of tunnels and passageways are said to exist within and under the walls of [FromFrom.GetName].;;;;;;;;;;;;x
-upgrade_garden_inner;Inner Garden;;;;;;;;;;;;x
+upgrade_moat_pit;护城壕;;;;;;;;;;;;x
+upgrade_moat_pit_desc;要塞周围环绕着深深的壕沟;;;;;;;;;;;;x
+upgrade_moat_spike;护城尖刺;;;;;;;;;;;;x
+upgrade_moat_spike_desc;至少有一名工匠在制造这些尖刺时不幸去世;;;;;;;;;;;;x
+upgrade_moat_water;护城河;;;;;;;;;;;;x
+upgrade_moat_water_desc;水能使人陷入困境，除非他们会游泳。;;;;;;;;;;;;x
+upgrade_moat_bones;骸骨护城河;;;;;;;;;;;;x
+upgrade_moat_bones_desc;这景象令人恐惧。据说这条「护城河」里面是所有那些胆敢怠慢[Root.GetTitledFirstName]之人的遗体;;;;;;;;;;;;x
+upgrade_hidden_passageways;密道;;;;;;;;;;;;x
+upgrade_hidden_passageways_desc;据说[FromFrom.GetName]的墙壁里与地下隐藏着一座由地道与走廊交织而成的迷宫;;;;;;;;;;;;x
+upgrade_garden_inner;内部的花园;;;;;;;;;;;;x
 upgrade_garden_inner_desc;Within the walls of the fortress is a small and tranquil garden, serving as a place for the world-weary warrior to recharge his energy.;;;;;;;;;;;;x
-upgrade_dueling_room;Dueling Room;;;;;;;;;;;;x
-upgrade_dueling_room_desc;A room dedicated to the practice of one-on-one combat.;;;;;;;;;;;;x
-upgrade_treasure_chamber;Treasure Chamber;;;;;;;;;;;;x
-upgrade_treasure_chamber_desc;A secret vault, for storing particularly valuable merchandise.;;;;;;;;;;;;x
+upgrade_dueling_room;决斗室;;;;;;;;;;;;x
+upgrade_dueling_room_desc;用于一对一决斗训练的房间;;;;;;;;;;;;x
+upgrade_treasure_chamber;藏宝室;;;;;;;;;;;;x
+upgrade_treasure_chamber_desc;秘密地窖，用于储存那些尤为宝贵的商品。;;;;;;;;;;;;x
 upgrade_extra_supports;Extra Support;;;;;;;;;;;;x
 upgrade_extra_supports_desc;A reinforced building structure, designed to prevent damage from earthquakes.;;;;;;;;;;;;x
 upgrade_giant_banners;Giant Banners;;;;;;;;;;;;x
@@ -687,11 +687,11 @@ EVT_TITLE_LT_60101;[target_wonder.GetName];;;;;;;;;;;;x
 EVTDESC_LT_60101;My scribes have been frequenting the [target_wonder.GetName] during their toil to finish my book. As they present me with a new extract it is clear that it has been a great help – the quality of the text is beyond reproach!;;;;;;;;;;;;x
 EVTOPTA_LT_60101;My scribes will shine with this [target_wonder.GetWonderAdj] construction's help!;;;;;;;;;;;;x
 EVTOPTA_TT_LT_60101;You encourage your scribes to use the [target_wonder.GetName], guaranteeing a better quality of work;;;;;;;;;;;;x
-drink_from_fountain_of_youth;Drink from the Fountain of Youth;;;;;;;;;;;;x
+drink_from_fountain_of_youth;饮用青春之泉;;;;;;;;;;;;x
 drink_from_fountain_of_youth_desc;The life-giving waters of the fountain is said to be able to wash away the effects of aging in anyone who drinks it.;;;;;;;;;;;;x
 has_not_chugged_in_10_years_TT;Drank too recently — cannot drink it again until §Y[Root.drank_from_fountain_cooldown.GetExpiryDate]§!;;;;;;;;;;;;x
 fountain_of_youth_custom_modifier_tt;Unlocks the §YDrink from the Fountain of Youth§! decision;;;;;;;;;;;;x
-EVT_TITLE_LT_60201;Fountain of Youth;;;;;;;;;;;;x
+EVT_TITLE_LT_60201;青春之泉;;;;;;;;;;;;x
 EVTDESC_LT_60201_2;I jump into the [target_wonder.GetName], laughing with glee, and I am soon choking on the life-giving water as I swallow mouthful after mouthful. As I drag myself up onto the ledge with shaking arms I soon stop smiling...;;;;;;;;;;;;x
 EVTOPTA_LT_60201;The years fall off me as I drink.;;;;;;;;;;;;x
 EVTOPTB_LT_60201;I've never felt this old before!;;;;;;;;;;;;x
@@ -1466,7 +1466,7 @@ repair_wonder_decision_desc;You will set aside funds to repair the damage on the
 wonder_temple_hindu_konark;拘捺迦太阳神庙;;;;;;;;;;;;x
 wonder_temple_hindu_konark_desc;这座神庙被设计成太阳神苏利耶战车的形状。;;;;;;;;;;;;x
 wonder_underground_city_petra;佩特拉;;;;;;;;;;;;x
-wonder_underground_city_petra_desc;佩特拉沙漠古城已经存在了数个世纪之久。;;;;;;;;;;;;x
+wonder_underground_city_petra_desc;佩特拉沙漠古城已经存在了数个世纪之久;;;;;;;;;;;;x
 wonder_house_of_wisdom;智慧宫;;;;;;;;;;;;x
 wonder_house_of_wisdom_desc;一座大图书馆，世间万物之理皆藏于馆中。;;;;;;;;;;;;x
 wonder_apostolic_palace;宗座宫;;;;;;;;;;;;x
@@ -1493,7 +1493,7 @@ String_MythologicalBeast;Mythological Beast Statue;;;;;;;;;;;;x
 upgrade_inner_sanctuary_desc;A sacred and reserved space inside the temple where only the high ranking priests can enter.;;;;;;;;;;;;x
 upgrade_vestibule_desc;用两根青铜柱作门框的神殿入口，招徕信众的朝拜。;;;;;;;;;;;;x
 upgrade_holy_place_desc;Cherubim, palm trees, and open flowers, all overlaid with gold, are carved into the cedar-lined walls. The floor is of cypress overlaid with gold. The door posts, of olive wood, support folding doors of cypress.;;;;;;;;;;;;x
-upgrade_holy_of_holies_desc;The inner sanctuary within the temple. It is located in the westernmost end of the temple building, a perfect cube, prepared to contain the Ark of the Covenant.;;;;;;;;;;;;x
+upgrade_holy_of_holies_desc;圣殿内部的圣所，位于圣殿的最西端，构造呈完美的立方形，其中存放着约柜。;;;;;;;;;;;;x
 upgrade_inner_court_desc;The Inner Court, or Court of the Priests, is separated from the space beyond by a wall of three courses of hewn stone, surmounted by cedar beams. It contains the Altar of burnt-offering, the Brazen Sea laver, and ten other lavers.;;;;;;;;;;;;x
 upgrade_great_seminars_desc;A large hall where famous scholars can give public lectures, attracting many attendees.;;;;;;;;;;;;x
 upgrade_wing_of_diplomacy_desc;The intricate arts of negotiation, rhetoric, and ultimately convincing others of where their best interests lie are taught and practiced here.;;;;;;;;;;;;x
