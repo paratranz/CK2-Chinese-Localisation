@@ -349,9 +349,9 @@ upgrade_relic_tomb_desc;A place for storing artifacts.;;;;;;;;;;;;x
 upgrade_grand_basilica;Grand Basilica;;;;;;;;;;;;x
 upgrade_grand_basilica_desc;The arch-headed windows extend to several floors, bestowing the [FromFrom.GetWonderTypeShortCap] with an unparalleled level of grandeur.;;;;;;;;;;;;x
 upgrade_catacombs;地下墓穴;;;;;;;;;;;;x
-upgrade_catacombs_desc;While subterranean passageways are a source of fascination, they are primarily a sacred space for religious practice.;;;;;;;;;;;;x
-upgrade_giant_cross;Giant Cross;;;;;;;;;;;;x
-upgrade_giant_cross_desc;On top of the [FromFrom.GetWonderTypeShortCap] is a big cross, embellishing the silhouette of the building.;;;;;;;;;;;;x
+upgrade_catacombs_desc;虽然地底的通道是使人着魔的源头，但这里主要还是用作举行宗教仪式的圣地。;;;;;;;;;;;;x
+upgrade_giant_cross;巨十字架;;;;;;;;;;;;x
+upgrade_giant_cross_desc;一个在[FromFrom.GetWonderTypeShortCap]顶端的巨大十字架，装点了这座建筑的轮廓。;;;;;;;;;;;;x
 upgrade_bells_golden;金钟;;;;;;;;;;;;x
 upgrade_bells_golden_desc;[FromFrom.GetWonderTypeShortCap]的钟镀上了薄薄的一层黄金;;;;;;;;;;;;x
 upgrade_statue_god;神像;;;;;;;;;;;;x
@@ -434,8 +434,8 @@ upgrade_hippodrome;赛马场;;;;;;;;;;;;x
 upgrade_hippodrome_desc;圆形剧场的附带建筑，用于赛马。;;;;;;;;;;;;x
 upgrade_training_academy;锻炼学院;;;;;;;;;;;;x
 upgrade_training_academy_desc;An academy to train the fighters who fight in the amphitheater;;;;;;;;;;;;x
-upgrade_chariot_race_course;Chariot Race Course;;;;;;;;;;;;x
-upgrade_chariot_race_course_desc;A place for chariots to practice and race each other.;;;;;;;;;;;;x
+upgrade_chariot_race_course;战车赛道;;;;;;;;;;;;x
+upgrade_chariot_race_course_desc;一个用来练习战车和互相切磋的场地。;;;;;;;;;;;;x
 upgrade_theater_stage;舞台;;;;;;;;;;;;x
 upgrade_theater_stage_desc;为诗朗诵和表演特意设计的舞台;;;;;;;;;;;;x
 upgrade_fountains;喷泉;;;;;;;;;;;;x
@@ -514,19 +514,19 @@ upgrade_extra_supports;Extra Support;;;;;;;;;;;;x
 upgrade_extra_supports_desc;A reinforced building structure, designed to prevent damage from earthquakes.;;;;;;;;;;;;x
 upgrade_giant_banners;Giant Banners;;;;;;;;;;;;x
 upgrade_giant_banners_desc;There can be no doubt as to who is the owner of this building.;;;;;;;;;;;;x
-upgrade_improved_signal_fire;Improved Signal Fire;;;;;;;;;;;;x
-upgrade_improved_signal_fire_desc;A marvel of engineering, this flame is bigger and lasts longer than others.;;;;;;;;;;;;x
+upgrade_improved_signal_fire;改进的烽燧;;;;;;;;;;;;x
+upgrade_improved_signal_fire_desc;一个工程学的奇迹，火焰比别处更大，燃烧也更持久。;;;;;;;;;;;;x
 upgrade_lighthouse_custodian;灯塔托管人;;;;;;;;;;;;x
 upgrade_lighthouse_custodian_desc;有一个人掌管灯塔的维护工作。至少在纸面上。;;;;;;;;;;;;x
 upgrade_royal_apartments;Royal Apartments;;;;;;;;;;;;x
 upgrade_royal_apartments_desc;In case of an important guest, the Royal Apartments will provide the level of comfort expected by any sophisticated ruler.;;;;;;;;;;;;x
 upgrade_dungeon;地牢;;;;;;;;;;;;x
-upgrade_dungeon_desc;It's a dungeon, but bigger.;;;;;;;;;;;;x
+upgrade_dungeon_desc;这是个地牢，但是更大。;;;;;;;;;;;;x
 upgrade_caves_natural;Natural Caves;;;;;;;;;;;;x
 upgrade_caves_natural_desc;A series of impressive natural hollows, these rooms are only partially improved upon by human engineering.;;;;;;;;;;;;x
 upgrade_tunnels_travel;Travel Tunnels;;;;;;;;;;;;x
 upgrade_tunnels_travel_desc;These tunnels are hard to navigate, but those with the necessary maps are high-ranking soldiers in need of expedient travel.;;;;;;;;;;;;x
-upgrade_metal_mine_precious;Precious Metal Mines;;;;;;;;;;;;x
+upgrade_metal_mine_precious;贵金属矿;;;;;;;;;;;;x
 upgrade_metal_mine_precious_desc;In the depths of the underground complex, workers have encountered valuable ore, which is now being carefully excavated.;;;;;;;;;;;;x
 upgrade_throne_fancy;Fancy Throne Room;;;;;;;;;;;;x
 upgrade_trap_door;Trap Door;;;;;;;;;;;;x
@@ -689,7 +689,7 @@ EVTOPTA_LT_60101;My scribes will shine with this [target_wonder.GetWonderAdj] co
 EVTOPTA_TT_LT_60101;You encourage your scribes to use the [target_wonder.GetName], guaranteeing a better quality of work;;;;;;;;;;;;x
 drink_from_fountain_of_youth;饮用青春之泉;;;;;;;;;;;;x
 drink_from_fountain_of_youth_desc;这泉水据说有给予饮用的人生命，洗净衰老的功效。;;;;;;;;;;;;x
-has_not_chugged_in_10_years_TT;Drank too recently — cannot drink it again until §Y[Root.drank_from_fountain_cooldown.GetExpiryDate]§!;;;;;;;;;;;;x
+has_not_chugged_in_10_years_TT;最近才饮用——在§Y[Root.drank_from_fountain_cooldown.GetExpiryDate]§!之前无法再饮用;;;;;;;;;;;;x
 fountain_of_youth_custom_modifier_tt;解锁§Y饮用青春之泉§!的决议;;;;;;;;;;;;x
 EVT_TITLE_LT_60201;青春之泉;;;;;;;;;;;;x
 EVTDESC_LT_60201_2;我欢笑着纵身跃入[target_wonder.GetName]，我一口接一口地咽下这长生之水，差点没把我呛着。当我用颤抖的双臂爬上岸边的岩石时，我的笑意很快消失了......;;;;;;;;;;;;x
@@ -1067,10 +1067,10 @@ looted_wonder_artifact_bells_rename;The Bells from the [target_wonder.GetName].;
 looted_wonder_artifact_bells_desc;These bells were taken during the looting of the [target_wonder.GetName].;;;;;;;;;;;;x
 less_likely_to_be_looted_modifier_tt;§YArtifacts§! are less likely to be stolen;;;;;;;;;;;;x
 String_Old;Old;;;;;;;;;;;;x
-String_Great_Work;Great Work;;;;;;;;;;;;x
-String_castle;castle;;;;;;;;;;;;x
-String_keep;keep;;;;;;;;;;;;x
-String_stone_formation;stone formation;;;;;;;;;;;;x
+String_Great_Work;奇观;;;;;;;;;;;;x
+String_castle;城堡;;;;;;;;;;;;x
+String_keep;主楼;;;;;;;;;;;;x
+String_stone_formation;石垒;;;;;;;;;;;;x
 String_Lighthouse;灯塔;;;;;;;;;;;;x
 String_hot_spot_for_gossip;been a hot spot for court intrigue and gossip;;;;;;;;;;;;x
 String_house_of_envy;been a house of envy and admiration;;;;;;;;;;;;x
@@ -1124,7 +1124,7 @@ EVTDESC68031_FALLBACK;Due to the [target_wonder.GetName], and my great Martial a
 EVTDESC68021_RETINUE;Thanks to the retinue stationed in the [target_wonder.GetName], and my great diplomatic skill, the Smugglers' Ring in §Y[Root.GetName]§! has been destroyed. The head of the last smuggler is now rotting on a pike.;;;;;;;;;;;;x
 EVTDESC68021_TEMPLE_GUARDS;Thanks to the temple guards of [target_wonder.GetName], and my great diplomatic skill, the Smugglers' Ring in §Y[Root.GetName]§! has been destroyed. The head of the last smuggler is now rotting on a pike.;;;;;;;;;;;;x
 EVTDESC68021_FALLBACK;Thanks to the [target_wonder.GetName], and my great diplomatic skill, the Smugglers' Ring in §Y[Root.GetName]§! has been destroyed. The head of the last smuggler is now rotting on a pike.;;;;;;;;;;;;x
-EVTDESC_LT_60201_1;I kneel beside a fountain in the [target_wonder.GetName] and lower a cup into the water. As I drink deeply a tingling sensation spreads in my whole body, and I am left with energy and vigor I haven't felt in years!;;;;;;;;;;;;x
+EVTDESC_LT_60201_1;我跪倒在[target_wonder.GetName]的水边，伏身舀了一杯水。我一口饮下，一阵颤栗传遍周身，我浑身充满了久违多年的激情和活力。;;;;;;;;;;;;x
 DEATH_ACCIDENT_TRAPS;was killed by traps;;;;;;;;;;;;x
 traps_custom_modifier_tt;May kill anyone who tries to conquer the [FromFrom.GetName];;;;;;;;;;;;x
 EVT_TITLE_LT_60401;Deadly Traps;;;;;;;;;;;;x
@@ -1366,9 +1366,9 @@ WONDER_UPGRADE_IS;Great Work feature is;;;;;;;;;;;;x
 WONDER_UPGRADE_EXISTS;Great Work feature exists;;;;;;;;;;;;x
 WONDER_BUILD_COST_MODIFIER;奇观建造花费;;;;;;;;;;;;x
 WONDER_BUILD_TIME_MODIFIER;奇观建造时间;;;;;;;;;;;;x
-WONDER_IS_NOT;Great Work is NOT;;;;;;;;;;;;x
-WONDER_IS;Great Work is;;;;;;;;;;;;x
-WONDER_EXISTS;Great Work exists;;;;;;;;;;;;x
+WONDER_IS_NOT;奇观不是;;;;;;;;;;;;x
+WONDER_IS;奇观是;;;;;;;;;;;;x
+WONDER_EXISTS;奇观存在;;;;;;;;;;;;x
 EXPENSE_WONDER_CONSTRUCTION;Great Work construction;;;;;;;;;;;;x
 CONFIRM_ABORT_WONDER_STAGE_CONSTRUCTION_TEXT;Are you sure you want to abort construction of the §Y[FromFrom.GetWonderTypeShort]§!\n\nNo gold will be refunded for this action;;;;;;;;;;;;x
 CONFIRM_ABORT_WONDER_UPGRADE_CONSTRUCTION_TEXT;Are you sure you want to abort construction of the feature?\n\nNo gold will be refunded for this action;;;;;;;;;;;;x
@@ -1448,7 +1448,7 @@ tooltip_religion_feature_pyramids;§G此宗教的独立领主可以建造金字�
 upgrade_automata_throne;自行宝座;;;;;;;;;;;;x
 upgrade_automata_throne_desc;通过一些复杂的机械装置，这个宝座现在可以自如的上下移动。;;;;;;;;;;;;x
 upgrade_ballroom;舞厅;;;;;;;;;;;;x
-upgrade_ballroom_desc;贵族们会面、跳舞和密谋的地方;;;;;;;;;;;;x
+upgrade_ballroom_desc;贵族们在宴会中会面、跳舞和密谋的地方;;;;;;;;;;;;x
 EVTOPTBHF23440;We should hold it in the Grand Amphitheater!;;;;;;;;;;;;x
 EVTOPTBHF23440_tt;这个选项可用是因为你拥有一座§Y圆形剧场§!。;;;;;;;;;;;;x
 EVTOPTEHF23445;来一些狮子怎么样？;;;;;;;;;;;;x
@@ -1498,9 +1498,9 @@ upgrade_inner_court_desc;The Inner Court, or Court of the Priests, is separated 
 upgrade_great_seminars_desc;A large hall where famous scholars can give public lectures, attracting many attendees.;;;;;;;;;;;;x
 upgrade_wing_of_diplomacy_desc;The intricate arts of negotiation, rhetoric, and ultimately convincing others of where their best interests lie are taught and practiced here.;;;;;;;;;;;;x
 upgrade_wing_of_martial_desc;Here the classic works on history and ancient wars are taught and discussed, as well as old and new treatises on the art of warfare.;;;;;;;;;;;;x
-upgrade_wing_of_stewardship_desc;The principles of accounting, finance, and economics are taught here.;;;;;;;;;;;;x
-upgrade_wing_of_intrigue_desc;From what plants to use for making deadly concoctions to the art of cipher, all that a budding spy needs to know is taught here.;;;;;;;;;;;;x
-upgrade_wing_of_learning_desc;Here the foundations of logic and mathematics are taught, as well as physics, metaphysics, and the scriptures.;;;;;;;;;;;;x
+upgrade_wing_of_stewardship_desc;这里教授会计、财务和经济学的原理。;;;;;;;;;;;;x
+upgrade_wing_of_intrigue_desc;这里教授一个初出茅庐的间谍必备的知识，从使用植物制作致死药剂到密码的技艺。;;;;;;;;;;;;x
+upgrade_wing_of_learning_desc;这里教授逻辑和数学的基础，同时也教授物理学、形而上学以及宗教经典。;;;;;;;;;;;;x
 gardener_opinion;园丁好感;;;;;;;;;;;;x
 EVTDESC50022;[enemy_liege.GetTitledFirstName]以[enemy_liege.Religion.GetHighGodName]的名义献祭了[sacrificed.GetTitledFirstName]。;;;;;;;;;;;;x
 String_most_recently_added;splendid [This.GetName] draw[This.GetSingularS] a lot of attention;;;;;;;;;;;;x
