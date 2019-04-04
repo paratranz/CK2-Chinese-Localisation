@@ -186,19 +186,19 @@ EVTOPTA_LT_20301;...'I hope my meaning is clear'.;;;;;;;;;;;;x
 EVTOPTA_LT_20301_TT;威胁§Y[target_character.GetFirstNameWithNick]§!的企图失败了;;;;;;;;;;;;x
 EVTOPTB_LT_20301;...'I hope you understand how important this favor is'.;;;;;;;;;;;;x
 EVTOPTB_LT_20301_TT;the attempt to coerce a favor fails;;;;;;;;;;;;x
-EVTOPTC_LT_20301;...'What do you think of my toy?'.;;;;;;;;;;;;x
-EVTOPTD_LT_20301;... 'This bloody thing also scares me!'.;;;;;;;;;;;;x
+EVTOPTC_LT_20301;……「你感觉我的『小玩具』怎么样啊？」;;;;;;;;;;;;x
+EVTOPTD_LT_20301;……「这个血淋淋的东西也吓到我了！」;;;;;;;;;;;;x
 EVTDESC_LT_20310;[target_character.GetBestName]只是在嘲笑我！笑得很过分。我甚至在梦中还能听到他的笑声。;;;;;;;;;;;;x
 EVTOPTA_LT_20310;哦不！;;;;;;;;;;;;x
 use_secluded_upgrade;私密谈话;;;;;;;;;;;;x
 use_secluded_upgrade_desc;与§Y[Root.GetFirstNameWithNick]§!在一个隐蔽的地方会面会很有趣。;;;;;;;;;;;;x
-use_secluded_upgrade_tt;You will invite §Y[target_character.GetFirstNameWithNick]§! to meet you in the §Y[target_upgrade.GetName]§! of the §Y[target_wonder.GetName]§! and have a private conversation with [target_character.GetHerHim].;;;;;;;;;;;;x
-use_secluded_upgrade_cooldown_tt;Has NOT invited a character for a private talk in the past §Y6§! months[From.GetSecludedCD];;;;;;;;;;;;x
-EVTDESC_LT_20405;[From.GetBestName] invited me to meet [From.GetHerHim] in the [target_upgrade.GetName] of the [target_wonder.GetName].;;;;;;;;;;;;x
+use_secluded_upgrade_tt;你将邀请§Y[target_character.GetFirstNameWithNick]§!来到§Y[target_wonder.GetName]§!的§Y[target_upgrade.GetName]§!，你和[target_character.GetHerHim]将在那里展开一场私人对话。;;;;;;;;;;;;x
+use_secluded_upgrade_cooldown_tt;过去的§Y6§!个月内没有邀请一名角色进行私人谈话[From.GetSecludedCD];;;;;;;;;;;;x
+EVTDESC_LT_20405;[From.GetBestName]邀请我在[target_wonder.GetName]的[target_upgrade.GetName]与[From.GetHerHim]会面。;;;;;;;;;;;;x
 EVTOPTA_LT_20405;我接受。;;;;;;;;;;;;x
 EVTOPTB_LT_20405;我拒绝。;;;;;;;;;;;;x
 EVTOPTC_LT_20405;我会礼貌地婉拒。;;;;;;;;;;;;x
-EVTDESC_LT_20410;[target_character.GetBestName] accepted my invitation to meet in the seclusion of the [target_upgrade.GetName] in the [target_wonder.GetName]. After some time talking...;;;;;;;;;;;;x
+EVTDESC_LT_20410;[target_character.GetBestName]接受了我在[target_wonder.GetName]的[target_upgrade.GetName]会面的邀请，经过一番交谈……;;;;;;;;;;;;x
 EVTOPTA_LT_20410;……我们会更了解彼此的。;;;;;;;;;;;;x
 EVTOPTB_LT_20410;……我试图勾引[target_character.GetHerHim]。;;;;;;;;;;;;x
 EVTOPTB_LT_20410_TT;我不清楚如果我试着去亲吻§Y[target_character.GetTitledFirstName]§!的话[target_character.GetHerHim]会如何回应，说不定我们就会成为恋人。;;;;;;;;;;;;x
@@ -211,7 +211,7 @@ EVTDESC_LT_20421;I went to meet [From.GetBestName] in the seclusion of the [targ
 EVTOPTA_LT_20421;[From.GetTitledFirstName]给我留下了深刻的印象！;;;;;;;;;;;;x
 EVTOPTB_LT_20421;[From.GetTitledFirstName]让我留下了印象！;;;;;;;;;;;;x
 EVTOPTC_LT_20421;令人愉快，但不是很实际。;;;;;;;;;;;;x
-EVTDESC_LT_20422;I think [From.GetBestName] was impressed with our conversation.;;;;;;;;;;;;x
+EVTDESC_LT_20422;我感觉[From.GetBestName]对我们的谈话印象颇深。;;;;;;;;;;;;x
 EVTDESC_LT_20431;I went to meet [From.GetBestName] in the seclusion of the [target_upgrade.GetName], in the [target_wonder.GetName]. After some pleasantries, [From.GetSheHe] grabs me and tries to kiss my mouth.;;;;;;;;;;;;x
 EVTOPTA_LT_20431;我也亲吻[From.GetHerHim]。;;;;;;;;;;;;x
 EVTOPTB_LT_20431;我拒绝了[From.GetHerHim]并且退缩了。;;;;;;;;;;;;x
@@ -286,7 +286,7 @@ wonder_temple_pagan_desc;The site of the temple is rumored to be the holiest gro
 wonder_statue_ruler;统治者雕像;;;;;;;;;;;;x
 wonder_statue_ruler_desc;A ruler is immortalized in this grand statue.;;;;;;;;;;;;x
 wonder_fortress;大要塞;;;;;;;;;;;;x
-wonder_fortress_desc;The fortress is a safe-haven, a home away from home for many warriors.;;;;;;;;;;;;x
+wonder_fortress_desc;要塞是做安全的避风港，对于许多战士们来说，这是他们的第二个家。;;;;;;;;;;;;x
 wonder_underground_city;Great Underground City;;;;;;;;;;;;x
 wonder_underground_city_desc;Partially carved from the very rock it sits on, only its owner knows exactly how far these tunnels sprawl.;;;;;;;;;;;;x
 wonder_wall;长城;;;;;;;;;;;;x
@@ -304,15 +304,15 @@ wonder_garden_desc;The garden is a marvel of both science and beauty.;;;;;;;;;;;
 wonder_university;Grand University;;;;;;;;;;;;x
 wonder_university_desc;A high seat of learning, famous throughout the realm.;;;;;;;;;;;;x
 wonder_mausoleum;巨陵;;;;;;;;;;;;x
-wonder_mausoleum_desc;A simple tomb is not enough for some rulers.;;;;;;;;;;;;x
+wonder_mausoleum_desc;用一方简简单单的坟墓来纪念某些统治者显然是不够的。;;;;;;;;;;;;x
 wonder_pyramid;大金字塔;;;;;;;;;;;;x
 wonder_pyramid_desc;「再建高点！」这显然是其建筑师最后的遗言。;;;;;;;;;;;;x
 wonder_pagan_stones;巨石阵;;;;;;;;;;;;x
-wonder_pagan_stones_desc;Huge standing rocks are placed in a grand circle, with an opening towards the east, where the sun rises.;;;;;;;;;;;;x
+wonder_pagan_stones_desc;巨型立石排列成一个庞大的圆阵，圆阵有一个开口朝向太阳升起的东方;;;;;;;;;;;;x
 wonder_pyramid_giza;胡夫大金字塔;;;;;;;;;;;;x
-wonder_pyramid_giza_desc;The strangely shaped pyramids have always been there.;;;;;;;;;;;;x
+wonder_pyramid_giza_desc;奇形怪状的金字塔一直以来就矗立在那里。;;;;;;;;;;;;x
 wonder_amphitheater_colosseum;斗兽场;;;;;;;;;;;;x
-wonder_amphitheater_colosseum_desc;The amphitheater has seen many uses throughout the centuries, including gladiatorial and animal fights, and later even serving as market stalls for city merchants.;;;;;;;;;;;;x
+wonder_amphitheater_colosseum_desc;圆形剧场在数个世纪间被用作多种用途，不仅作为角斗士表演和斗兽表演的场所，在晚期甚至被当做商人摆摊的集市使用。;;;;;;;;;;;;x
 wonder_cathedral_hagia_sophia;圣索菲亚大教堂;;;;;;;;;;;;x
 wonder_cathedral_hagia_sophia_desc;在这部分地图上最美丽的大教堂之一。;;;;;;;;;;;;x
 wonder_pagan_stones_stonehenge;巨石阵;;;;;;;;;;;;x
@@ -325,9 +325,9 @@ wonder_lighthouse_alexandria;亚历山大灯塔;;;;;;;;;;;;x
 wonder_lighthouse_alexandria_desc;这个灯塔很长一段时间里都是世界上最高的建筑，处在很远的地方也能见其高高耸立，同时它还一直保有着引船入港的功能。;;;;;;;;;;;;x
 upgrade_roads;大道;;;;;;;;;;;;x
 upgrade_roads_desc;The grand construction in the province has led to many well-connected roads being made in the realm.;;;;;;;;;;;;x
-upgrade_watchtower_network;Watchtower Network;;;;;;;;;;;;x
+upgrade_watchtower_network;瞭望塔网络;;;;;;;;;;;;x
 upgrade_watchtower_network_desc;A network of watchtowers and garrisons has been founded across the realm.;;;;;;;;;;;;x
-upgrade_spikes;Spikes;;;;;;;;;;;;x
+upgrade_spikes;尖刺;;;;;;;;;;;;x
 upgrade_spikes_desc;The armaments surrounding the grand construction display a collection of heads on spikes.;;;;;;;;;;;;x
 chance_to_spread_cruel_tt;Tends to inspire characters to become §YCruel§!;;;;;;;;;;;;x
 upgrade_tower;Tower;;;;;;;;;;;;x
@@ -401,16 +401,16 @@ upgrade_wing_of_martial;Wing of Strategy;;;;;;;;;;;;x
 upgrade_wing_of_stewardship;Wing of Finance;;;;;;;;;;;;x
 upgrade_wing_of_intrigue;Wing of Secrets;;;;;;;;;;;;x
 upgrade_wing_of_learning;Wing of Theology;;;;;;;;;;;;x
-no_other_plating_tt;Has no plating;;;;;;;;;;;;x
-upgrade_plating_gold;Gold Plating;;;;;;;;;;;;x
-upgrade_plating_gold_desc;The sun reflects most brilliantly in the surface of this statue.;;;;;;;;;;;;x
-upgrade_plating_silver;Silver Plating;;;;;;;;;;;;x
-upgrade_plating_silver_desc;The moon reflects beautifully in the surface of this statue.;;;;;;;;;;;;x
-upgrade_plating_bronze;Bronze Plating;;;;;;;;;;;;x
-upgrade_plating_bronze_desc;This statue is shiny.;;;;;;;;;;;;x
+no_other_plating_tt;无镀层;;;;;;;;;;;;x
+upgrade_plating_gold;镀金;;;;;;;;;;;;x
+upgrade_plating_gold_desc;阳光照到这座雕像上时，会反射出美丽的颜色。;;;;;;;;;;;;x
+upgrade_plating_silver;镀银;;;;;;;;;;;;x
+upgrade_plating_silver_desc;月光照到这座雕像上时，会反射出美丽的颜色。;;;;;;;;;;;;x
+upgrade_plating_bronze;镀铜;;;;;;;;;;;;x
+upgrade_plating_bronze_desc;这座雕像闪闪发光。;;;;;;;;;;;;x
 upgrade_statues_family;Additional Statues;;;;;;;;;;;;x
 upgrade_statues_family_desc;These beautiful statues are said to resemble the immediate family of [Root.GetTitledName].;;;;;;;;;;;;x
-upgrade_stable;Grand Stable;;;;;;;;;;;;x
+upgrade_stable;大马厩;;;;;;;;;;;;x
 upgrade_stable_desc;A stable containing horses, but most importantly, the ones descending from the original chosen creature depicted in the grand monument rising above the roof of this building.;;;;;;;;;;;;x
 upgrade_statues_animals;Additional Animal Statues;;;;;;;;;;;;x
 upgrade_statues_animals_desc;原本的雕塑由描绘着多种动物的稍小一些的雕像围绕着;;;;;;;;;;;;x
@@ -960,10 +960,10 @@ upgrade_killing_fields;Staged Killing Fields;;;;;;;;;;;;x
 upgrade_killing_fields_desc;Planned routes through the defenses that are simple, clear, devoid of cover, and looked over by the maximum possible number of defenses, always with a difficult fortress guarding the next killing ground along.;;;;;;;;;;;;x
 upgrade_deep_defense_architecture;Deep Defense Architecture;;;;;;;;;;;;x
 upgrade_deep_defense_architecture_desc;Adapt and reshape areas of the defenses to be especially vulnerable to attack from the next layer, turning losses for the defenders into massacres for the attackers.;;;;;;;;;;;;x
-upgrade_artificial_islands;Artificial Islands;;;;;;;;;;;;x
+upgrade_artificial_islands;人工岛;;;;;;;;;;;;x
 upgrade_artificial_islands_desc;Redirect local rivers and channel defensive islands out of the sea itself, adding a naval element to any siege that few attackers are equipped to deal with.;;;;;;;;;;;;x
 execution_possible_modifier_tt;可以§Y处决§!囚犯;;;;;;;;;;;;x
-intimidate_possible_modifier_tt;Unlocks the §YIntimidate§! decision.;;;;;;;;;;;;x
+intimidate_possible_modifier_tt;解锁§Y威胁§!的决议;;;;;;;;;;;;x
 armoury_modifier_tt;Allows more options when §YFinding a Smith§!.;;;;;;;;;;;;x
 String_unfinished;unfinished ;;;;;;;;;;;;x
 wonder_artifact_bells;Cathedral Bells;;;;;;;;;;;;x
@@ -1125,9 +1125,9 @@ EVTDESC68021_RETINUE;Thanks to the retinue stationed in the [target_wonder.GetNa
 EVTDESC68021_TEMPLE_GUARDS;Thanks to the temple guards of [target_wonder.GetName], and my great diplomatic skill, the Smugglers' Ring in §Y[Root.GetName]§! has been destroyed. The head of the last smuggler is now rotting on a pike.;;;;;;;;;;;;x
 EVTDESC68021_FALLBACK;Thanks to the [target_wonder.GetName], and my great diplomatic skill, the Smugglers' Ring in §Y[Root.GetName]§! has been destroyed. The head of the last smuggler is now rotting on a pike.;;;;;;;;;;;;x
 EVTDESC_LT_60201_1;我跪倒在[target_wonder.GetName]的水边，伏身舀了一杯水。我一口饮下，一阵颤栗传遍周身，我浑身充满了久违多年的激情和活力。;;;;;;;;;;;;x
-DEATH_ACCIDENT_TRAPS;was killed by traps;;;;;;;;;;;;x
-traps_custom_modifier_tt;May kill anyone who tries to conquer the [FromFrom.GetName];;;;;;;;;;;;x
-EVT_TITLE_LT_60401;Deadly Traps;;;;;;;;;;;;x
+DEATH_ACCIDENT_TRAPS;被陷阱所杀;;;;;;;;;;;;x
+traps_custom_modifier_tt;可能杀死试图征服[FromFrom.GetName]的人;;;;;;;;;;;;x
+EVT_TITLE_LT_60401;致命陷阱;;;;;;;;;;;;x
 EVTDESC_LT_60401;While exploring the depths of the [target_wonder.GetName], both [target_courtier.GetTitledName] and [target_courtier_2.GetTitledName] were caught in one of the deadly traps spread within the structure. What we recovered was barely enough to recognize them by...;;;;;;;;;;;;x
 EVTOPTA_LT_60401;我诅咒你，[old_owner.GetFirstName]！;;;;;;;;;;;;x
 EVTDESC_LT_60402;Word has reached me that the traps I installed in the depths of the [target_wonder.GetName] have claimed [target_courtier.GetTitledName] and [target_courtier_2.GetTitledName] as victims! Apparently they were both mangled almost past recognition.;;;;;;;;;;;;x
@@ -1157,7 +1157,7 @@ upgrade_master_of_the_games_desc;伴随着震耳的声音，竞技大师可以�
 game_master_custom_modifier_tt;解锁§Y竞技大师§!的荣誉头衔;;;;;;;;;;;;x
 title_master_of_games;竞技大师;;;;;;;;;;;;x
 title_master_of_games_desc;这个称号被授予一位拥有强大人格和存在感，有能力使整个人群服从他们意志的人物。;;;;;;;;;;;;x
-upgrade_royal_custodian;Royal Custodian;;;;;;;;;;;;x
+upgrade_royal_custodian;王宫管理人;;;;;;;;;;;;x
 upgrade_royal_custodian_desc;With nerves of steel and a will of iron the custodian maintains and develops the §YRoyal Palace§!.;;;;;;;;;;;;x
 royal_custodian_custom_modifier_tt;Unlocks the §YRoyal Custodian§! minor title;;;;;;;;;;;;x
 title_royal_custodian;王宫管理人;;;;;;;;;;;;x
@@ -1210,19 +1210,19 @@ diligent_opinion;Diligent Opinion;;;;;;;;;;;;x
 scholar_opinion;Scholar Opinion;;;;;;;;;;;;x
 religious_spread_custom_modifier_tt;§Y[Root.job_spiritual.GetTitledName]§! convert §YCounties§! faster;;;;;;;;;;;;x
 culture_convertion_custom_modifier_tt;§GConvert Counties§! to your §GCulture§! faster;;;;;;;;;;;;x
-herb_event_modifier_tt;Will periodically give you §YHerbs§!;;;;;;;;;;;;x
+herb_event_modifier_tt;偶尔为你产出§Y药草§!;;;;;;;;;;;;x
 EVT_TITLE_LT_60701;[target_province.GetName]的草药;;;;;;;;;;;;x
 EVTDESC_LT_60701;The soothing sounds of the [target_wonder.GetName] embrace me as I walk through the greenery. Reportedly some local herbs have sprouted in the garden, but a secluded patch of grass present an alternative end to this excursion.;;;;;;;;;;;;x
-EVTOPTA_LT_60701;I will get the herbs.;;;;;;;;;;;;x
+EVTOPTA_LT_60701;我会采些草药。;;;;;;;;;;;;x
 EVTOPTB_LT_60701;A restful nap is exactly what I need!;;;;;;;;;;;;x
-wonder_temple_buddhist_desc;The temple is a holy building, a place of devotion and reflection.;;;;;;;;;;;;x
+wonder_temple_buddhist_desc;寺庙是神圣的场所，是敬拜神明之处，是沉思之处。;;;;;;;;;;;;x
 upgrade_symbolic_stupa_desc;为象征佛教理论的不同方面而建造。;;;;;;;;;;;;x
 upgrade_votive_stupa_desc;为获得精神上的裨益或纪行而建造。;;;;;;;;;;;;x
-hidden_passageways_modifier_tt;A higher chance of escaping capture after battle;;;;;;;;;;;;x
+hidden_passageways_modifier_tt;一场战役后有更高的机会逃离抓捕;;;;;;;;;;;;x
 NUDGE_5;Great Work;;;;;;;;;;;;x
 NUDGE_6;Great Work in water;;;;;;;;;;;;x
-WONDER_REALM_PAUSED_SETUP;Great Works construction halted;;;;;;;;;;;;x
-WONDER_REALM_PAUSED_LOG;The construction of all Great Works within the realm of $OWNER|Y$ has been halted.;;;;;;;;;;;;x
+WONDER_REALM_PAUSED_SETUP;奇观的建设暂停;;;;;;;;;;;;x
+WONDER_REALM_PAUSED_LOG;$OWNER|Y$领土内所有奇观的建造工作都暂停了。;;;;;;;;;;;;x
 WONDER_STAGE_FINISHED_SETUP;Great Work stage finished;;;;;;;;;;;;x
 WONDER_STAGE_FINISHED_LOG;The construction of stage $STAGE|Y$ has finished for the $WONDER|Y$;;;;;;;;;;;;x
 WONDER_UPGRADE_FINISHED_SETUP;Great Work Feature finished;;;;;;;;;;;;x
