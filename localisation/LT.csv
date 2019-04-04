@@ -143,7 +143,7 @@ EVT_TITLE_LT_20060;失落之书;;;;;;;;;;;;x
 EVTDESC_LT_20060_real_book;许多学者都接受了我的邀请，他们聚在我这里进行了几天研讨，他们不仅探讨了[Root.GetAuthorName]的书，也涉及其他的古代知识。这部书籍被认为是一部失落的杰作，我的宫廷现在因为成了文化、学术辩论和知识的中心而著称。;;;;;;;;;;;;x
 EVTDESC_LT_20060_fake_book;许多学者都接受了我的邀请，他们聚在我这里进行了几天研讨，他们不仅探讨了[Root.GetAuthorName]的书，也涉及其他的古代知识。很不幸，经过了充分的讨论，这部书籍被认为是一部伪作，不过我的宫廷现在还是因为成了文化、学术辩论和知识的中心而著称。;;;;;;;;;;;;x
 EVTOPTA_LT_20060_real_book;文化中心，听起来不错。;;;;;;;;;;;;x
-EVTOPTA_LT_20060_fake_book;结果不错，也许下次我真的能获得一部杰作呢。;;;;;;;;;;;;x
+EVTOPTA_LT_20060_fake_book;结果还行，说不定下次我就真的能获得一部杰作了。;;;;;;;;;;;;x
 CHRONICLE_FOUND_REAL_BOOK;A book containing the lost [Root.GetBookTheme] by the famous [Root.GetAuthorNationAdj] [Root.GetAuthorTitle] [Root.GetAuthorName] was acquired and on this date a great meeting of scholars confirmed its authenticity. In those times, [wonder_province.GetName] was known as a place of culture, visited by scholars from afar. ;;;;;;;;;;;;x
 EVT_TITLE_LT_20101;发现;;;;;;;;;;;;x
 EVTDESC_LT_20101.1;建筑[wonder_or_upgrade.GetName]的工人在挖掘过程中偶然发现了某种门，看起来似乎有一间密室。;;;;;;;;;;;;x
@@ -267,11 +267,11 @@ EVTOPTA_HFP_16006_4;We cannot put a price on heirlooms like this. Spare no expen
 EVTOPTB_HFP_16006_1;Looks rather useless to me.;;;;;;;;;;;;x
 EVTOPTB_HFP_16006_2;We cannot afford to maintain all the old junk thrown our way.;;;;;;;;;;;;x
 title_HFP_16006;Old Treasures;;;;;;;;;;;;x
-String_armory;armory;;;;;;;;;;;;x
+String_armory;军械库;;;;;;;;;;;;x
 String_old_armory;old armory;;;;;;;;;;;;x
-String_library;library;;;;;;;;;;;;x
-String_treasury;treasury;;;;;;;;;;;;x
-String_house_of_worship;chapel;;;;;;;;;;;;x
+String_library;图书馆;;;;;;;;;;;;x
+String_treasury;宝库;;;;;;;;;;;;x
+String_house_of_worship;礼拜堂;;;;;;;;;;;;x
 GetRelation_enemy;enemy;;;;;;;;;;;;x
 GetRelation_sway_target;target of diplomatic efforts;;;;;;;;;;;;x
 GetRelation_antagonist;antagonist;;;;;;;;;;;;x
@@ -294,7 +294,7 @@ wonder_wall_desc;A mega-project, this is a construction of massive city walls.;;
 wonder_harbor;Great Harbor;;;;;;;;;;;;x
 wonder_harbor_desc;Heavily trafficked, the magnificent Harbor is bringing both trade and tourism to the area.;;;;;;;;;;;;x
 wonder_lighthouse;大灯塔;;;;;;;;;;;;x
-wonder_lighthouse_desc;A tall and visible landmark, the building lends a helping hand to sailors, guiding their ships into port at night.;;;;;;;;;;;;x
+wonder_lighthouse_desc;一个高大醒目的地标，这个建筑对水手多有帮助，引导他们的船只在夜间入港。;;;;;;;;;;;;x
 wonder_amphitheater;大圆形剧场;;;;;;;;;;;;x
 wonder_amphitheater_desc;The epitome of high culture, the amphitheater is a unique attraction in the realm.;;;;;;;;;;;;x
 wonder_palace;Royal Palace;;;;;;;;;;;;x
@@ -306,7 +306,7 @@ wonder_university_desc;A high seat of learning, famous throughout the realm.;;;;
 wonder_mausoleum;巨陵;;;;;;;;;;;;x
 wonder_mausoleum_desc;A simple tomb is not enough for some rulers.;;;;;;;;;;;;x
 wonder_pyramid;大金字塔;;;;;;;;;;;;x
-wonder_pyramid_desc;"Build it taller!", was apparently the last words of its architect.;;;;;;;;;;;;x
+wonder_pyramid_desc;「再建高点！」这显然是其建筑师最后的遗言。;;;;;;;;;;;;x
 wonder_pagan_stones;Great Stone Circle;;;;;;;;;;;;x
 wonder_pagan_stones_desc;Huge standing rocks are placed in a grand circle, with an opening towards the east, where the sun rises.;;;;;;;;;;;;x
 wonder_pyramid_giza;胡夫大金字塔;;;;;;;;;;;;x
@@ -314,7 +314,7 @@ wonder_pyramid_giza_desc;The strangely shaped pyramids have always been there.;;
 wonder_amphitheater_colosseum;Colosseum;;;;;;;;;;;;x
 wonder_amphitheater_colosseum_desc;The amphitheater has seen many uses throughout the centuries, including gladiatorial and animal fights, and later even serving as market stalls for city merchants.;;;;;;;;;;;;x
 wonder_cathedral_hagia_sophia;圣索菲亚大教堂;;;;;;;;;;;;x
-wonder_cathedral_hagia_sophia_desc;One of the most beautiful cathedrals on this part of the map.;;;;;;;;;;;;x
+wonder_cathedral_hagia_sophia_desc;在这部分地图上最美丽的大教堂之一。;;;;;;;;;;;;x
 wonder_pagan_stones_stonehenge;巨石阵;;;;;;;;;;;;x
 wonder_pagan_stones_stonehenge_desc;一些人觉得这些巨石是由诸神置于此处的，另一些人却说这是原始宗教的迷信，拒绝靠近。;;;;;;;;;;;;x
 wonder_mausoleum_halicarnassus;哈利卡那索斯的摩索拉斯陵墓;;;;;;;;;;;;x
@@ -1475,18 +1475,18 @@ wonder_statue_horse;Statue of a Horse;;;;;;;;;;;;x
 wonder_statue_horse_desc;A grand statue of a majestic stallion!;;;;;;;;;;;;x
 upgrade_throne_fancy_desc;A magnificent throne, much grander than any simple metal chair.;;;;;;;;;;;;x
 CHARACTER_NOT_PARTICIPATED_IN_WONDER_LOOTING;§Y$CHARACTER$§! participated in the looting of §Y[FromFrom.GetName]§!;;;;;;;;;;;;x
-WONDER_IS_BEING_LOOTED;Great Work is being looted;;;;;;;;;;;;x
-NOT_WONDER_IS_BEING_LOOTED;Great Work is NOT being looted;;;;;;;;;;;;x
+WONDER_IS_BEING_LOOTED;奇观正被劫掠;;;;;;;;;;;;x
+NOT_WONDER_IS_BEING_LOOTED;奇观未被劫掠;;;;;;;;;;;;x
 WONDER_LOOT_INDEPENDENT_REALM_RULER_REQUIREMENT;Only the independent ruler of the realm is allowed to loot Great Works;;;;;;;;;;;;x
 WONDER_MIN_LOOTABLE_STAGE_REQUIREMENT;Only Great Works that has completed stage $STAGE_NUMBER|Y$ can be looted;;;;;;;;;;;;x
 WONDER_RESTORE_INDEPENDENT_REALM_RULER_REQUIREMENT;Only the independent ruler of the realm is allowed to restore Great Works;;;;;;;;;;;;x
 WONDER_RESTORE_GOLD_COST_REQUIREMENT;The up front cost of $COST$¤cannot be paid;;;;;;;;;;;;x
 AVAILABLE_WONDER_UPGRADES;Available features;;;;;;;;;;;;x
-WONDER_BEING_LOOTED;§Y[FromFrom.GetName]§! is being looted;;;;;;;;;;;;x
-NOT_WONDER_BEING_LOOTED;§Y[FromFrom.GetName]§! is NOT being looted;;;;;;;;;;;;x
-NOT_WONDER_ACTIVE;§Y[FromFrom.GetName]§! is NOT active;;;;;;;;;;;;x
-PROVINCE_IS_IN_REALM;§Y[FromFromFrom.GetName]§! is part of your §Y[Root.PrimaryTitle.GetTier]§!;;;;;;;;;;;;x
-NOT_PROVINCE_IS_IN_REALM;§Y[FromFromFrom.GetName]§! is NOT part of your §Y[Root.PrimaryTitle.GetTier]§!;;;;;;;;;;;;x
+WONDER_BEING_LOOTED;§Y[FromFrom.GetName]§!正被劫掠;;;;;;;;;;;;x
+NOT_WONDER_BEING_LOOTED;§Y[FromFrom.GetName]§!未被劫掠;;;;;;;;;;;;x
+NOT_WONDER_ACTIVE;§Y[FromFrom.GetName]§!未激活;;;;;;;;;;;;x
+PROVINCE_IS_IN_REALM;§Y[FromFromFrom.GetName]§!是你的§Y[Root.PrimaryTitle.GetTier]§!的一部分;;;;;;;;;;;;x
+NOT_PROVINCE_IS_IN_REALM;§Y[FromFromFrom.GetName]§!不是你的§Y[Root.PrimaryTitle.GetTier]§!的一部分;;;;;;;;;;;;x
 LEDGER_TIER;Stage;;;;;;;;;;;;x
 String_Sphinx;吉萨狮身人面像;;;;;;;;;;;;x
 String_MythologicalBeast;Mythological Beast Statue;;;;;;;;;;;;x
