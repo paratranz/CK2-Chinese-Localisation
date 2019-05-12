@@ -2355,7 +2355,7 @@
   culture = "frankish"
 }
 341 = {
-  name = "de St. Hilary"
+  name = "德 圣 依拉略"  # de St. Hilary
   culture = "frankish"
   religion = "catholic"
 }
@@ -14269,7 +14269,7 @@
   religion = "catholic"
 }
 8713 = {
-  name = "迪 蓬佐尼"  # di Ponzone
+  name = "迪 蓬佐内"  # di Ponzone
   culture = "italian"
   religion = "catholic"
 }
@@ -31987,7 +31987,7 @@
   religion = "orthodox"
 }
 200060 = {
-  name = "St. Genes"
+  name = "圣热内"  # St. Genes
   culture = "frankish"
   religion = "catholic"
 }
@@ -35007,7 +35007,7 @@
   religion = "catholic"
 }
 1042017 = {
-  name = "del Monte S. Maria"
+  name = "圣母山"  # del Monte S. Maria
   culture = "italian"
   religion = "catholic"
 }
@@ -35111,7 +35111,7 @@
   religion = "catholic"
 }
 1042032 = {
-  name = "S. Cassiano"
+  name = "圣卡西亚诺"  # S. Cassiano
   culture = "italian"
   religion = "catholic"
 }
@@ -40500,7 +40500,7 @@
   religion = "catholic"
 }
 1044083 = {
-  name = "法罗亚尔德"  # Faroaldingi
+  name = "法罗亚尔丁"  # Faroaldingi
   culture = "lombard"
   religion = "catholic"
 }
@@ -44372,6 +44372,18 @@
   name = "哈那亚"  # Hanaya
   culture = "bedouin_arabic"
   religion = "sunni"
+  coat_of_arms = {
+    data = {
+      0
+      1
+      0
+      34
+      7
+      5
+      1
+    }
+    religion = "sunni"
+  }
   used_for_random = no
 }
 1051147 = {
@@ -45947,6 +45959,48 @@
   name = "夏朗"  # Skjæran
   culture = "norwegian"
   religion = "cathar"
+  used_for_random = no
+}
+1051899 = {
+  name = "蒂姆伦"  # Thimrén
+  culture = "swedish"
+  religion = "catholic"
+  coat_of_arms = {
+    data = {
+      4
+      0
+      46
+      13
+      4
+      7
+      0
+      0
+      32
+      13
+      4
+      7
+      0
+      0
+      12
+      1
+      4
+      7
+      0
+      0
+      46
+      1
+      0
+      0
+      0
+    }
+    religion = "catholic"
+  }
+  used_for_random = no
+}
+1051900 = {
+  name = "诺尔兹"  # Norð
+  culture = "saxon"
+  religion = "catholic"
   used_for_random = no
 }
 1040066 = {
@@ -50248,7 +50302,7 @@
   culture = "outremer"
 }
 1900029 = {
-  name = "de St. Hilary"
+  name = "德 圣 依拉略"  # de St. Hilary
   culture = "outremer"
   religion = "catholic"
 }
@@ -50302,4 +50356,8 @@
 1900040 = {
   name = "德 蒂莉"  # de Tilly
   culture = "outremer"
+}
+1062594 = {
+  name = "法罗亚尔丁"  # Faroaldingi
+  culture = lombard
 }

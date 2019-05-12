@@ -2144,6 +2144,11 @@
   religion = "catholic"
   culture = "castillan"
   trait = "amateurish_plotter"
+  trait = "proud"
+  trait = "kind"
+  trait = "content"
+  trait = "honest"
+  disallow_random_traits = yes
   father = 70233
   mother = 7623
   1136.7.29 = {
@@ -3195,7 +3200,9 @@
     birth = "1201.8.5"
   }
   1219.11.30 = {
-    add_spouse = 30200
+    effect = {
+      add_betrothal = 30200
+    }
   }
   1252.5.30 = {
     death = "1252.5.30"
@@ -15741,10 +15748,10 @@
   1002.1.1 = {
     birth = yes
   }
-  1038.1.1 = {
+  1047.1.1 = {
     add_spouse = 73045
   }
-  1042.1.1 = {
+  1052.1.1 = {
     death = yes
   }
 }
@@ -15885,11 +15892,11 @@
   female = yes
   religion = "catholic"
   culture = "castillan"
-  1049.1.1 = {
-    birth = "1049.1.1"
+  1031.1.1 = {
+    birth = yes
   }
-  1101.1.1 = {
-    death = "1101.1.1"
+  1091.1.1 = {
+    death = yes
   }
 }
 73046 = {

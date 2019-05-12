@@ -8217,14 +8217,19 @@ narrative_event = {
         }
       }
     }
-    if = {
+    any_playable_ruler = {
       limit = {
-        OR = {
-          has_power_omen_modifier_trigger = yes
-          has_battle_omen_modifier_trigger = yes
-        }
+        ai = no
       }
-      set_character_flag = negative_event_flag
+      if = {
+        limit = {
+          OR = {
+            has_power_omen_modifier_trigger = yes
+            has_battle_omen_modifier_trigger = yes
+          }
+        }
+        set_character_flag = negative_event_flag
+      }
     }
   }
   option = {
@@ -8271,6 +8276,15 @@ narrative_event = {
   }
   option = {
     name = "EVTOPTA60500"
+    if = {
+      limit = {
+        OR = {
+          has_power_omen_modifier_trigger = yes
+          has_battle_omen_modifier_trigger = yes
+        }
+      }
+      set_character_flag = negative_event_flag
+    }
     calculate_scrying_outcome_effect = yes
     remove_scrying_omen_modifiers_effect = yes
     tooltip_info = yes
@@ -8291,6 +8305,15 @@ narrative_event = {
   }
   option = {
     name = "EVTOPTB60500"
+    if = {
+      limit = {
+        OR = {
+          has_power_omen_modifier_trigger = yes
+          has_battle_omen_modifier_trigger = yes
+        }
+      }
+      set_character_flag = negative_event_flag
+    }
     calculate_scrying_outcome_effect = yes
     remove_scrying_omen_modifiers_effect = yes
     tooltip_info = yes
@@ -8315,6 +8338,15 @@ narrative_event = {
   }
   option = {
     name = "EVTOPTC60500"
+    if = {
+      limit = {
+        OR = {
+          has_power_omen_modifier_trigger = yes
+          has_battle_omen_modifier_trigger = yes
+        }
+      }
+      set_character_flag = negative_event_flag
+    }
     calculate_scrying_outcome_effect = yes
     remove_scrying_omen_modifiers_effect = yes
     tooltip_info = yes
