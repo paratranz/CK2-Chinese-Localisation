@@ -126,7 +126,7 @@ EVTDESC_LT_20036_ALIVE;该死！谋杀叛徒[emissary.GetTitledNameWithNick]的�
 EVTOPTA_LT_20036;没有人在背叛我以后还能活下来的。;;;;;;;;;;;;x
 EVTOPTB_LT_20036;也许这不是个好主意。;;;;;;;;;;;;x
 EVT_TITLE_LT_20040;失落之书！;;;;;;;;;;;;x
-EVTDESC_LT_20040;[emissary.GetTitledNameWithNick]带着被认为是由[Root.GetAuthorName]所著的[Root.GetBookTheme]回来了！\n或许我应该邀请几位饱读诗书的学者来讨论这本珍贵的书籍？;;;;;;;;;;;;x
+EVTDESC_LT_20040;[emissary.GetTitledNameWithNick]带着被认为是由[Root.GetAuthorName]所著的[Root.GetBookTheme]回来了！或许我应该邀请几位饱读诗书的学者来讨论这本珍贵的书籍？;;;;;;;;;;;;x
 EVTOPTA_LT_20040;我要独自一人阅读这些书。;;;;;;;;;;;;x
 EVTOPTB_LT_20040;写信邀来几位学者吧;;;;;;;;;;;;x
 EVTOPTC_LT_20040;仅仅公布发现并把书储存在我的图书馆里;;;;;;;;;;;;x
@@ -188,8 +188,8 @@ EVTOPTB_LT_20301;……「希望你能记住，你欠我的这个人情有多『
 EVTOPTB_LT_20301_TT;通过威胁获取人情的企图失败;;;;;;;;;;;;x
 EVTOPTC_LT_20301;……「你感觉我的『小玩具』怎么样啊？」;;;;;;;;;;;;x
 EVTOPTD_LT_20301;……「这个血淋淋的东西也吓到我了！」;;;;;;;;;;;;x
-EVTDESC_LT_20310;[target_character.GetBestName]只是在嘲笑我！笑得很过分。我甚至在梦中还能听到他的笑声。;;;;;;;;;;;;x
-EVTOPTA_LT_20310;哦不！;;;;;;;;;;;;x
+EVTDESC_LT_20310;[target_character.GetBestName]刚刚嘲笑我了！还很过分！[target_character.GetSheHe]怎么敢？！为此我甚至呵斥了一位在早上咯咯笑着把我吵醒了的侍女。我……我甚至在梦中还能听到[target_character.GetTitledFirstName]大笑着，嘲讽着我。;;;;;;;;;;;;x
+EVTOPTA_LT_20310;我本不该带他来[target_upgrade.GetName]的。;;;;;;;;;;;;x
 use_secluded_upgrade;私密谈话;;;;;;;;;;;;x
 use_secluded_upgrade_desc;与§Y[Root.GetFirstNameWithNick]§!在一个隐蔽的地方会面会很有趣。;;;;;;;;;;;;x
 use_secluded_upgrade_tt;你将邀请§Y[target_character.GetFirstNameWithNick]§!来到§Y[target_wonder.GetName]§!的§Y[target_upgrade.GetName]§!，你和[target_character.GetHerHim]将在那里展开一场私人对话。;;;;;;;;;;;;x
@@ -201,10 +201,10 @@ EVTOPTC_LT_20405;我会礼貌地婉拒。;;;;;;;;;;;;x
 EVTDESC_LT_20410;[target_character.GetBestName]接受了我在[target_wonder.GetName]的[target_upgrade.GetName]会面的邀请，经过一番交谈……;;;;;;;;;;;;x
 EVTOPTA_LT_20410;……我们会更了解彼此的。;;;;;;;;;;;;x
 EVTOPTB_LT_20410;……我试图勾引[target_character.GetHerHim]。;;;;;;;;;;;;x
-EVTOPTB_LT_20410_TT;我不清楚如果我试着去亲吻§Y[target_character.GetTitledFirstName]§!的话[target_character.GetHerHim]会如何回应，说不定我们就会成为恋人。;;;;;;;;;;;;x
+EVTOPTB_LT_20410_TT;你不清楚如果你试着去亲吻§Y[target_character.GetTitledFirstName]§!的话[target_character.GetHerHim]会如何回应，说不定你们就会成为恋人。;;;;;;;;;;;;x
 EVTOPTC_LT_20410;……我抽出匕首，试图直刺[target_character.GetHerHim]的心脏！;;;;;;;;;;;;x
-EVTOPTC_LT_20410_TT;这个选项可用是因为你有高超的§Y阴谋§!技能或其他相关的特质。\n;;;;;;;;;;;;x
-EVTOPTC_LT_20410_TT_murder;我最好精于搏斗因为§Y[From.GetTitledFirstName]§!也许会反抗我的谋杀企图。;;;;;;;;;;;;x
+EVTOPTC_LT_20410_TT;这个选项可用是因为你有高超的§Y阴谋§!技能或其他相关的特质\n;;;;;;;;;;;;x
+EVTOPTC_LT_20410_TT_murder;The outcome of this will depend on your §YPersonal Combat Skill§!, as §Y[From.GetTitledFirstName]§! might resist your murder attempt...;;;;;;;;;;;;x
 EVTDESC_LT_20412;[target_character.GetBestName][target_character.GetPoliteRefuse]拒绝了我发出的邀请我去[target_wonder.GetName]的[target_upgrade.GetName]的隐蔽处会面的提议。;;;;;;;;;;;;x
 EVTOPTA_LT_20412;这太糟了。;;;;;;;;;;;;x
 EVTDESC_LT_20421;我前往[target_wonder.GetName]的[target_upgrade.GetName]，我与[From.GetBestName]在隐蔽处会面。我们进行了愉快的交谈。;;;;;;;;;;;;x
@@ -212,32 +212,30 @@ EVTOPTA_LT_20421;[From.GetTitledFirstName]给我留下了深刻的印象！;;;;;
 EVTOPTB_LT_20421;[From.GetTitledFirstName]让我留下了印象！;;;;;;;;;;;;x
 EVTOPTC_LT_20421;令人愉快，但不是很实际。;;;;;;;;;;;;x
 EVTDESC_LT_20422;我感觉[From.GetBestName]对我们的谈话印象颇深。;;;;;;;;;;;;x
-EVTDESC_LT_20431;我前往[target_wonder.GetName]的[target_upgrade.GetName]，我与[From.GetBestName]在隐蔽处会面。一番玩笑后，[From.GetSheHe]抓住我并试图亲吻我的嘴。;;;;;;;;;;;;x
-EVTOPTA_LT_20431;我回应了[From.GetHerHim]的吻。;;;;;;;;;;;;x
+EVTDESC_LT_20431;I'm meeting [From.GetTitledFirstName] in [target_wonder.Location.GetName], in the seclusion of the [target_upgrade.GetName]. After the usual pleasantries, [From.GetSheHe] pauses. "[Root.GetFirstName], there is something I have wanted to do for a long time", [From.GetSheHe] says, [From.GetHerHis] eyes wandering.;;;;;;;;;;;;x
+EVTOPTA_LT_20431;我也想你，[From.GetFirstName]······;;;;;;;;;;;;x
 EVTOPTB_LT_20431;我拒绝了[From.GetHerHim]并且退缩了。;;;;;;;;;;;;x
 EVTOPTC_LT_20431;我抽出匕首，试图直刺[From.GetHerHim]的心脏！;;;;;;;;;;;;x
-EVTDESC_LT_20432;[target_character.GetFirstName]更加热烈地回应了我的吻。我们成为了恋人。;;;;;;;;;;;;x
-EVTOPTA_LT_20432;生活真美好！;;;;;;;;;;;;x
 EVTDESC_LT_20434;我试图亲吻[target_character.GetHerHim]，但[target_character.GetSheHe]厌恶地退缩了，在[target_character.GetHerHis]的脸上只有畏惧。;;;;;;;;;;;;x
 EVTOPTA_LT_20434;该死！;;;;;;;;;;;;x
 EVTDESC_LT_20441;我前往[target_wonder.GetName]的[target_upgrade.GetName]，我与[From.GetBestName]在隐蔽处会面。一番玩笑后，[From.GetSheHe]从[From.GetHerHis]衣服下掏出一把匕首并试图刺向我！;;;;;;;;;;;;x
-EVTDESC_LT_20441_murderer_target;当我把脸颊凑上去的时候，[From.GetTitledFirstName]突然从[From.GetHerHis]衣服里掏出一把匕首刺向我！;;;;;;;;;;;;x
-EVTOPTA_LT_20441;我试图逃跑。;;;;;;;;;;;;x
+EVTDESC_LT_20441_murderer_target;[From.GetTitledFirstName] blinks in surprise as I step closer to [From.GetHerHim]. But when I move to caress [From.GetHerHis] cheek, I catch the glint of steel in the [From.GetManWoman]'s hand! "You.. You were going to use that on ME?!";;;;;;;;;;;;x
+EVTOPTA_LT_20441;你得先逮住我！;;;;;;;;;;;;x
 EVTOPTA_LT_20441_TT_escape;你成功逃离了。;;;;;;;;;;;;x
 EVTOPTA_LT_20441_TT_wounded;你成功逃离了，但受了伤。;;;;;;;;;;;;x
 EVTOPTA_LT_20441_TT_dead;你在逃离时被杀害了。;;;;;;;;;;;;x
-EVTOPTB_LT_20441;我要和[From.GetHerHim]搏斗！;;;;;;;;;;;;x
+EVTOPTB_LT_20441;我不会不战而降！！;;;;;;;;;;;;x
 EVTOPTB_LT_20441_TT_win;你赢了。;;;;;;;;;;;;x
 EVTOPTB_LT_20441_TT_lose;你输了。;;;;;;;;;;;;x
 EVTDESC_LT_20450;与[From.GetTitledFirstName]在[target_upgrade.GetName]的隐蔽处会面实在是糟透了。我好不容易才死里逃生。每当我回想时我的手仍然止不住颤抖。;;;;;;;;;;;;x
 EVTDESC_LT_20450_wounded;幸运的是，[From.GetTitledFirstName]的匕首偏离了我的心脏，我成功逃生了。我的医生说我会活下来的。我们走着瞧。;;;;;;;;;;;;x
-EVTOPTA_LT_20450;该死！;;;;;;;;;;;;x
+EVTOPTA_LT_20450;这可不是意料之中的······;;;;;;;;;;;;x
 EVTDESC_LT_20455;当我看着血从我的身体中慢慢流淌，在地上形成血泊，死亡之手已向我伸出，我在想，如果早知道今天会发生这样的事我应该做些什么。;;;;;;;;;;;;x
 EVTOPTA_LT_20455;啊啊啊……;;;;;;;;;;;;x
 EVTDESC_LT_20460;正当我的匕首刺向[From.GetHerHis]心脏，[From.GetTitledFirstName]举起手臂，让我扑了空。接着[From.GetSheHe]立刻逃之夭夭。现在我不得不去面对这一后果。;;;;;;;;;;;;x
 EVTDESC_LT_20460_wounded;正当我的匕首刺向[From.GetHerHis]心脏，[From.GetTitledFirstName]举起手臂，让我扑了空。我弄伤了[From.GetHerHim]，但[From.GetSheHe]成功逃跑了，只留下了一滩血迹。现在我不得不面对这一后果了。;;;;;;;;;;;;x
-EVTDESC_LT_20465;在[From.GetSheHe]试图逃跑前，我把匕首插入了[From.GetHerHis]胸膛！我让[From.GetTitledFirstName]躺在地上，血泊环绕了[From.GetHerHim]的周身。因为背叛，[From.GetHerHisCap]的表情变得僵硬。;;;;;;;;;;;;x
-EVTDESC_LT_20465_fight;我们互相搏斗，但最终我占了上风，我把匕首插入了[From.GetHerHis]胸膛！我让[From.GetTitledFirstName]躺在地上，血泊环绕了[From.GetHerHim]的周身。;;;;;;;;;;;;x
+EVTDESC_LT_20465;在[murderer.GetSheHe]试图逃跑前，我把匕首插入了[murderer.GetHerHis]胸膛！我让[murderer.GetTitledFirstName]躺在地上，血泊环绕了[murderer.GetHerHim]的周身。因为背叛，[murderer.GetHerHisCap]的表情变得僵硬。;;;;;;;;;;;;x
+EVTDESC_LT_20465_fight;我们互相搏斗，但最终我占了上风，我把匕首插入了[murderer.GetHerHis]胸膛！我让[murderer.GetTitledFirstName]躺在地上，血泊环绕了[murderer.GetHerHim]的周身。;;;;;;;;;;;;x
 EVTOPTA_LT_20465;就这样吧！;;;;;;;;;;;;x
 CLOUD_SAVE;云存档;;;;;;;;;;;;x
 EVT_TITLE_HFP_16001;俄罗斯的成立;;;;;;;;;;;;x
@@ -314,7 +312,7 @@ wonder_pyramid_giza_desc;奇形怪状的金字塔一直以来就矗立在那里�
 wonder_amphitheater_colosseum;斗兽场;;;;;;;;;;;;x
 wonder_amphitheater_colosseum_desc;圆形剧场在数个世纪间被用作多种用途，不仅作为角斗士表演和斗兽表演的场所，在晚期甚至被当做商人摆摊的集市使用。;;;;;;;;;;;;x
 wonder_cathedral_hagia_sophia;圣索菲亚大教堂;;;;;;;;;;;;x
-wonder_cathedral_hagia_sophia_desc;在这部分地图上最美丽的大教堂之一。;;;;;;;;;;;;x
+wonder_cathedral_hagia_sophia_desc;This great church, the Shrine of the Holy Wisdom of God, it is one of the world's largest buildings. It was finished in AD 562[FromFrom.GetHagiaSophiaUse].;;;;;;;;;;;;x
 wonder_pagan_stones_stonehenge;巨石阵;;;;;;;;;;;;x
 wonder_pagan_stones_stonehenge_desc;一些人觉得这些巨石是由诸神置于此处的，另一些人却说这是原始宗教的迷信，拒绝靠近。;;;;;;;;;;;;x
 wonder_mausoleum_halicarnassus;哈利卡那索斯的摩索拉斯陵墓;;;;;;;;;;;;x
@@ -778,7 +776,7 @@ WONDER_UPGRADE_RESUME_DISABLED_TT_DELAYED;§R如果你破产了你就不能重�
 WONDER_UPGRADE_AVAILABLE_NAME_TT;$NAME$;;;;;;;;;;;;x
 WONDER_UPGRADE_OWNED_NAME_TT;[From.GetName];;;;;;;;;;;;x
 WONDER_UPGRADE_OWNED_NAME_COMPLETE_TT_DELAYED;[From.GetDesc];;;;;;;;;;;;x
-WONDER_UPGRADE_OWNED_NAME_IN_PROGRESS_TT_DELAYED;[From.GetDesc]\n[From.GetActiveTriggerDescription];;;;;;;;;;;;x
+WONDER_UPGRADE_OWNED_NAME_IN_PROGRESS_TT_DELAYED;[From.GetDesc];;;;;;;;;;;;x
 WONDER_UPGRADE_TICKING_COST_TT_DELAYED;建造成本将是每月$TICKING_COST|R$¤，持续$TIME_TO_BUILD|Y$，预计总成本$ESTIMATED_TOTAL|R$¤。;;;;;;;;;;;;x
 WONDER_UPGRADE_TIME_COST_OWNED_TT;完工前剩余时间;;;;;;;;;;;;x
 WONDER_UPGRADE_TIME_COST_OWNED_TT_DELAYED;预计于§Y[From.GetEstimatedFinishDate]§!完成;;;;;;;;;;;;x
@@ -893,8 +891,8 @@ upgrade_golden_throne_desc;通体由黄金打造的宝座，甚至没有镀金�
 drunkard_opinion;酒鬼好感;;;;;;;;;;;;x
 upgrade_brewery;啤酒厂;;;;;;;;;;;;x
 upgrade_brewery_desc;一间能让你自行产酒的酿酒厂，尽管不太可能赢利，却可以使你变得受欢迎。;;;;;;;;;;;;x
-alcohol_gift_decision;赠送一[GetAlcoholContainerType][GetAlcoholType]做礼物;;;;;;;;;;;;x
-alcohol_gift_decision_desc;将你酿酒厂里生产的一[GetAlcoholContainerType][GetAlcoholType]赠予[Root.GetTitledFirstName]作为礼物;;;;;;;;;;;;x
+alcohol_gift_decision;送出酒类礼物;;;;;;;;;;;;x
+alcohol_gift_decision_desc;As you have a §YBrewery§!, you can send [Root.GetTitledFirstName] a [Root.GetAlcoholContainerType] of [Root.GetAlcohol].;;;;;;;;;;;;x
 not_recently_sent_alcohol_tooltip;[From.GetTitledFirstName]最近并没有送过酒水类礼物;;;;;;;;;;;;x
 String_Bottle;瓶;;;;;;;;;;;;x
 String_Case;箱;;;;;;;;;;;;x
@@ -919,8 +917,6 @@ upgrade_eternal_flame;永恒烈焰;;;;;;;;;;;;x
 upgrade_eternal_flame_desc;永恒烈焰被不断地照料以保证它永不熄灭。;;;;;;;;;;;;x
 upgrade_unmarked_tombs;无名墓地;;;;;;;;;;;;x
 upgrade_unmarked_tombs_desc;我们不清楚这是谁的墓地，但据传言，你有时能听见从里面传出声音。;;;;;;;;;;;;x
-zunist_pagan_opinion;尊日神教信徒好感;;;;;;;;;;;;x
-zunist_pagan_reformed_opinion;改革尊日神教信徒好感;;;;;;;;;;;;x
 upgrade_quadriga_statue;驷马战车像;;;;;;;;;;;;x
 upgrade_quadriga_statue_desc;这座雕像表现了四匹马拉着一辆战车。;;;;;;;;;;;;x
 upgrade_chaitya-grihas;支提窟;;;;;;;;;;;;x
@@ -1008,8 +1004,8 @@ opinion_did_not_honor_the_dead;没有纪念死者;;;;;;;;;;;;x
 opinion_did_honor_the_dead;纪念一位优秀的统治者;;;;;;;;;;;;x
 opinion_did_not_honor_hated_ruler;拒绝纪念一位受憎恨的统治者;;;;;;;;;;;;x
 opinion_did_honor_hated_ruler;纪念一位受憎恨的统治者;;;;;;;;;;;;x
-EVTOPTD_LT_20410;......我深情地吻上[target_character.GetHerHim]，开始脱[target_character.GetHerHis]衣服。;;;;;;;;;;;;x
-EVTDESC_LT_20433;我到[target_wonder.GetName]僻静的[target_upgrade.GetName]里与[From.GetFirstName]见面。[From.GetSheHe]热情地亲吻我，我们进行了一场深入的交流。;;;;;;;;;;;;x
+EVTOPTD_LT_20410;... I take [target_character.GetHerHis] hand, and kiss [target_character.GetHerHim] passionately.;;;;;;;;;;;;x
+EVTDESC_LT_20433;I went to the [target_wonder.GetName], to meet [From.GetFirstName] in the seclusion of the [target_upgrade.GetName]. I didn't have to wait long for the [From.GetManWoman] to pull me towards [From.GetHerHim], eager to demonstrate how much [From.GetSheHe] has missed me.;;;;;;;;;;;;x
 EVT_TITLE_LT_20510;纪念死者;;;;;;;;;;;;x
 EVTDESC_LT_20510_pagan;伟大的[target_dead_ruler.GetTitledName]去世了。他现在或许已与[Root.Religion.GetHighGodNameCap]作伴，又或许是与[Root.Religion.GetRandomEvilGodNameCap]为伍。但在此时此地，我必须选定如何纪念[target_dead_ruler.GetHerHim]。多亏了有[target_wonder.GetName]，我才能妥善安葬[target_dead_ruler.GetHerHim]。;;;;;;;;;;;;x
 EVTDESC_LT_20510_christian;伟大的[target_dead_ruler.GetTitledName]去世了。他现在或许已身在天堂，与圣人和[Root.Religion.GetHighGodNameCap]作伴；又或许是身处地狱，与[Root.Religion.GetRandomEvilGodNameCap]为伍。但在此时此地，我必须选定如何纪念[target_dead_ruler.GetHerHim]。[target_dead_ruler.GetHerHisCap]遗体可以长眠于[target_wonder.GetName]之中。;;;;;;;;;;;;x
@@ -1031,7 +1027,7 @@ EVTOPTA_LT_20520_monoteist;赞美主！;;;;;;;;;;;;x
 EVTOPTA_LT_20520_muslim;赞美安拉！;;;;;;;;;;;;x
 EVTOPTA_LT_20520_TT;那些爱戴§Y[target_dead_ruler.GetBestName]§!的人改善了他们对你的好感。[Root.GetBigBurialHaterSentence];;;;;;;;;;;;x
 big_burial_hater_Sentence;那些憎恶[target_dead_ruler.GetHerHim]的人或许会不满意。;;;;;;;;;;;;x
-must_be_storing_a_relic_TT;必须保存了一件圣物。;;;;;;;;;;;;x
+must_be_storing_a_relic_TT;必须保存了一件圣物;;;;;;;;;;;;x
 store_relic_in_wonder;保存一件圣物;;;;;;;;;;;;x
 store_relic_in_wonder_desc;你能在一座你的奇观里保存§Y圣物§!。;;;;;;;;;;;;x
 store_relic_TT;你可以把像§Y[target_artifact_1.GetName]§!这样的一件圣物，保存在§Y[target_wonder.GetName]§!的§Y[target_upgrade.GetName]§!里。;;;;;;;;;;;;x
@@ -1050,7 +1046,7 @@ EVTOPTA_LT_20610;希望我的继承人别犯同样的错误。;;;;;;;;;;;;x
 holdings_walls_upgrade_custom_modifier_tt;该省份所有地产的城墙将会被升级至最高等级。;;;;;;;;;;;;x
 better_chance_of_defender_siege_events_custom_modifier_tt;防御者将有更多机会积极抵抗围攻。;;;;;;;;;;;;x
 EVT_TITLE_LT_20700;[target_upgrade.GetName]建设完成！;;;;;;;;;;;;x
-EVTDESC_LT_20700;在我的[target_wonder.GetName]中，历时已久的防御工事[target_upgrade.GetName]终于建设完成。现在，即使是[target_province.GetName]的一处小小乡镇，都处于这些伟大防御工事的严密保护之下！;;;;;;;;;;;;x
+EVTDESC_LT_20700;The last fortifications of the [target_upgrade.GetName] for my [target_wonder.GetName] have been finally finished. Now, even the small townships in the province of [target_province.GetName] are protected by these great defensive works!;;;;;;;;;;;;x
 EVTOPTA_LT_20700;我总喜欢有更多的保护。;;;;;;;;;;;;x
 EVTOPTA_LT_20700_TT;[target_province.GetName]省份所有地产的城墙将会被升级至最高等级。;;;;;;;;;;;;x
 EVTDESC_LT_20805;你的廷臣[target_courtier.GetBestName]来告诉你，[target_courtier.GetSheHe]从对[target_wonder.GetWonderTypeShort]的劫掠中获得了[looted_artifact.GetName]。[target_courtier.GetSheHeCap]想作为礼物献给你。;;;;;;;;;;;;x
@@ -1075,7 +1071,7 @@ String_Lighthouse;灯塔;;;;;;;;;;;;x
 String_hot_spot_for_gossip;成为了一个宫廷密谋和流言传播的热门地点;;;;;;;;;;;;x
 String_house_of_envy;成为了一座羡慕嫉妒集于一身的房子;;;;;;;;;;;;x
 String_safe_haven_for_lost_souls;成为了迷失的灵魂安全的避风港;;;;;;;;;;;;x
-String_a_place_of_comfort_for_believers;成为了使[Wonder.Owner.Religion.GetName]信众得到安慰的地方;;;;;;;;;;;;x
+String_a_place_of_comfort_for_believers;been a place of comfort for all [Root.Religion.GetName] followers;;;;;;;;;;;;x
 String_lent_its_protection;为需要帮助的人提供了保护;;;;;;;;;;;;x
 String_shielded_its_people;保卫了人民不为敌扰;;;;;;;;;;;;x
 String_been_impressive_curiosity;成为了一个壮丽的奇景;;;;;;;;;;;;x
@@ -1116,7 +1112,7 @@ EVTOPTA_LT_60301;带路！;;;;;;;;;;;;x
 EVTOPTA_LT_60301_TT;这恐怕会有什么不好的后果吧;;;;;;;;;;;;x
 EVTOPTB_LT_60301;我对继续我们刚才的谈话更感兴趣。;;;;;;;;;;;;x
 EVT_TITLE_LT_60302;再来一杯！;;;;;;;;;;;;x
-EVTDESC_LT_60302;自从第一次进了[target_wonder.GetName]旁的酒馆后，我便再难脱身。我往往发觉自己终日都在寻求大杯[GetAlcoholType]带来的慰藉。;;;;;;;;;;;;x
+EVTDESC_LT_60302;After my initial visit to the tavern close to the [target_wonder.GetName] I have not been able to keep away. More often than not I find myself seeking the comfort of a big cup of [Root.GetAlcohol] after a long day.;;;;;;;;;;;;x
 EVTOPTA_LT_60302;再给我满上一杯！;;;;;;;;;;;;x
 EVTDESC68031_RETINUE;驻扎在[target_wonder.GetName]的近卫军帮助我围剿并处决了在§Y[Root.GetName]§!为祸一方的强盗团伙。;;;;;;;;;;;;x
 EVTDESC68031_TEMPLE_GUARDS;[target_wonder.GetName]的神庙守卫帮助我围剿并处决了在§Y[Root.GetName]§!为祸一方的强盗团伙。;;;;;;;;;;;;x
@@ -1208,7 +1204,7 @@ CHAR_COURTIER_FEMALE;一位名为§Y$NAME$§!的廷臣出现在§Y$EMPLOYER$§!�
 CHAR_COURTIER_MALE;一位名为§Y$NAME$§!的廷臣出现在§Y$EMPLOYER$§!的宫廷。;;;;;;;;;;;;x
 diligent_opinion;勤奋好感;;;;;;;;;;;;x
 scholar_opinion;学者好感;;;;;;;;;;;;x
-religious_spread_custom_modifier_tt;§Y[Root.job_spiritual.GetTitledName]§!能更快地§Y传教§!;;;;;;;;;;;;x
+religious_spread_custom_modifier_tt;§Y[Root.job_spiritual.GetJobTitle]§!能更快地§Y传教§!;;;;;;;;;;;;x
 culture_convertion_custom_modifier_tt;更快地将§G省份§!转变为你的§G文化§!;;;;;;;;;;;;x
 herb_event_modifier_tt;定期为你产出§Y药草§!;;;;;;;;;;;;x
 EVT_TITLE_LT_60701;[target_province.GetName]的草药;;;;;;;;;;;;x
@@ -1259,11 +1255,11 @@ WONDER_STAGE_NEXT_BUILD_DISABLED_TT_DELAYED;$MODIFIER_TEXT$$ACTIVE_TRIGGER_TEXT$
 WONDER_STAGE_RESUME_DISABLED_TT_DELAYED;§R如果你破产了你就不能重新开始建造§!;;;;;;;;;;;;x
 WONDER_ACTIVE;§Y[FromFrom.GetName]§!已激活;;;;;;;;;;;;x
 RULE_WONDERS;奇观;;;;;;;;;;;;x
-RULE_WONDERS_ON;将存在史实奇观且统治者可以建造新的奇观。;;;;;;;;;;;;x
-RULE_WONDERS_OFF;不会存在史实奇观且统治者无法建造新的奇观。;;;;;;;;;;;;x
-RULE_WONDERS_HISTORICAL;将存在史实奇观且统治者可以改造它们，但无法建造任何新的奇观。;;;;;;;;;;;;x
+RULE_WONDERS_ON;统治者可以建造奇观。;;;;;;;;;;;;x
+RULE_WONDERS_OFF;统治者无法建造奇观。;;;;;;;;;;;;x
+RULE_WONDERS_HISTORICAL;史实奇观;;;;;;;;;;;;x
 RULE_OPTION_HISTORICAL_RESTRICTIVE;史实受限;;;;;;;;;;;;x
-RULE_WONDERS_HISTORICAL_RESTRICTIVE;将存在史实奇观，但是统治者无法以各种方式改造它们，也无法建造新的奇观。;;;;;;;;;;;;x
+RULE_WONDERS_HISTORICAL_RESTRICTIVE;将存在史实奇观，但是统治者无法以各种方式改造它们。;;;;;;;;;;;;x
 WONDER_NOT_DAMAGED;§Y[FromFrom.GetName]§!未受损伤;;;;;;;;;;;;x
 WONDER_ALREADY_LOOTING;§Y[FromFrom.GetWonderTypeShort]§!已被劫掠;;;;;;;;;;;;x
 WONDER_ALREADY_RESTORING;§Y[FromFrom.GetWonderTypeShort]§!已被修复;;;;;;;;;;;;x
@@ -1355,7 +1351,7 @@ WONDER_NUM_OF_CHARACTER;§Y[This.GetFirstName]§!已投资建成$COMPARISON$$VAL
 WONDER_NUM_IN_PROVINCE;$COMPARISON$$VALUE|Y$个奇观已在§Y[This.GetName]§!建成;;;;;;;;;;;;x
 WONDER_UPGRADE_NUM_OF_CHARACTER;§Y[This.GetFirstName]§!已投资建成$COMPARISON$$VALUE|Y$个奇观附属建筑;;;;;;;;;;;;x
 WONDER_UPGRADE_NUM_IN_PROVINCE;$COMPARISON$$VALUE|Y$个奇观附属建筑已在§Y[This.GetName]§!建成;;;;;;;;;;;;x
-WONDER_UPGRADE_COMPLETE;奇观附属建筑建设完成;;;;;;;;;;;;x
+WONDER_UPGRADE_COMPLETE;附属建筑建设完成;;;;;;;;;;;;x
 WONDER_ALREADY_HAS_UPGRADE;奇观尚未建成同类型附属建筑;;;;;;;;;;;;x
 WONDER_OWNER_CHANGE_SETUP;奇观拥有者变更;;;;;;;;;;;;x
 WONDER_STAGE_ABORT_TT_DELAYED;中止建设将会从该省份§R移除§!奇观;;;;;;;;;;;;x
@@ -1473,7 +1469,7 @@ wonder_apostolic_palace;宗座宫;;;;;;;;;;;;x
 wonder_apostolic_palace_desc;教宗本人的宫殿，坐落于罗马的心脏地带。;;;;;;;;;;;;x
 wonder_statue_horse;马像;;;;;;;;;;;;x
 wonder_statue_horse_desc;一匹雄伟种马的大雕像;;;;;;;;;;;;x
-upgrade_throne_fancy_desc;一尊华丽的王座，比任何金属椅子都要壮观地多。;;;;;;;;;;;;x
+upgrade_throne_fancy_desc;To some a simple metal chair, but to this ruler so much more.;;;;;;;;;;;;x
 CHARACTER_NOT_PARTICIPATED_IN_WONDER_LOOTING;§Y$CHARACTER$§!参与了对§Y[FromFrom.GetName]§!的劫掠;;;;;;;;;;;;x
 WONDER_IS_BEING_LOOTED;奇观正被劫掠;;;;;;;;;;;;x
 NOT_WONDER_IS_BEING_LOOTED;奇观未被劫掠;;;;;;;;;;;;x
@@ -1505,3 +1501,194 @@ gardener_opinion;园丁好感;;;;;;;;;;;;x
 EVTDESC50022;[enemy_liege.GetTitledFirstName]以[enemy_liege.Religion.GetHighGodName]的名义献祭了[sacrificed.GetTitledFirstName]。;;;;;;;;;;;;x
 String_most_recently_added;壮丽的[This.GetName]吸引了很多人的注意;;;;;;;;;;;;x
 recently_sent_alcohol_gift;最近被送过酒水类礼物;;;;;;;;;;;;x
+EVTOPTA_LT_20432_B;生活真美妙！;;;;;;;;;;;;x
+zun_pagan_opinion;尊日神教信徒好感;;;;;;;;;;;;x
+zun_pagan_reformed_opinion;改革尊日神教信徒好感;;;;;;;;;;;;x
+TECH_CITY_CONSTRUCTION;城市与教堂;;;;;;;;;;;;x
+TECH_CITY_CONSTRUCTION_DESC;改进城市与教堂建筑;;;;;;;;;;;;x
+TECH_INFANTRY;步兵;;;;;;;;;;;;x
+TECH_INFANTRY_DESC;给步兵提供更好的装备和训练。;;;;;;;;;;;;x
+TECH_CAVALRY_DESC;给骑兵提供更好的装备和训练。;;;;;;;;;;;;x
+TECH_SKIRMISH;Skirmish Techniques;;;;;;;;;;;;x
+TECH_SKIRMISH_DESC;提高遭遇战的训练水平;;;;;;;;;;;;x
+TECH_MELEE;Melee Techniques;;;;;;;;;;;;x
+TECH_MELEE_DESC;提高肉搏战的训练水平;;;;;;;;;;;;x
+better_skirmisher_tactics_custom_modifier_tt;提升侧翼将领触发更好的遭遇战战术的几率;;;;;;;;;;;;x
+better_melee_tactics_custom_modifier_tt;提升侧翼将领触发更好的肉搏战战术的几率;;;;;;;;;;;;x
+religious_tolerance;宗教宽容;;;;;;;;;;;;x
+religious_tolerance_desc;The Ruler has given signs of Religious Tolerance to the population.;;;;;;;;;;;;x
+weak_leader_modifier;弱势的将领;;;;;;;;;;;;x
+weak_leader_modifier_desc;Could not control the own troops.;;;;;;;;;;;;x
+strong_leader_modifier;强势的将领;;;;;;;;;;;;x
+strong_leader_modifier_desc;Does not tolerate indiscipline in the army.;;;;;;;;;;;;x
+plundering_leader_modifier;劫掠的将领;;;;;;;;;;;;x
+plundering_leader_modifier_desc;更倾向于烧杀掳掠;;;;;;;;;;;;x
+string_Hagia_Sophia_Orthodox;同时也是普世牧首的所在地;;;;;;;;;;;;x
+string_Hagia_Sophia_Latin;并在君士坦丁堡遭受征服后，改信了拉丁宗派;;;;;;;;;;;;x
+string_Hagia_Sophia_Muslim; and was converted to be the Imperial Mosque, after the conquest of Constantinople;;;;;;;;;;;;x
+string_pride_of_constantinople; and is the pride of Constantinople;;;;;;;;;;;;x
+EVTDESC_LT_20900_chaplain;My [target_chaplain.GetJobTitle] [target_chaplain.GetFirstName] wants to convert [target_wonder.GetName] to the true faith as soon as possible, so that our people can worship in the grandiose building.;;;;;;;;;;;;x
+EVTDESC_LT_20900;Some of my followers are clamoring for the conversion of [target_wonder.GetName] to the true faith as soon as possible, so that our people can worship in the grandiose building.;;;;;;;;;;;;x
+EVTOPTA_LT_20900;Yes, we should convert it to the true [Root.Religion.GetName] faith.;;;;;;;;;;;;x
+EVTOPTB_LT_20900;No, we should let it be.;;;;;;;;;;;;x
+EVTDESC_LT_21000.1;Things quickly get out of control as my soldiers storm the gates of [From.GetName]. Killing indiscriminately and sacking every building they come across, they seem to have lost all sense of discipline.;;;;;;;;;;;;x
+EVTDESC_LT_21000.2;After the army enters [From.GetName], any sense of discipline is lost and the men start to rob, burn and pillage.;;;;;;;;;;;;x
+EVTOPTA_LT_21000;Let them have their fun. This is war after all.;;;;;;;;;;;;x
+EVTOPTB_LT_21000;嘿，等等我！;;;;;;;;;;;;x
+EVTOPTC_LT_21000;我会立即了结此事，绞死罪犯！;;;;;;;;;;;;x
+EVTOPTA_LT_21000_DISHONORABLE_TT;这个行为为很多人所不齿。;;;;;;;;;;;;x
+EVTOPTC_LT_21000_CONTROL_TT;你设法重新执掌军队。;;;;;;;;;;;;x
+EVTOPTC_LT_21000_NO_CONTROL_TT;你无法阻止杀戮和破坏。;;;;;;;;;;;;x
+private_talk_possible_modifier_tt;Enables §YPrivate Conversation§! with characters;;;;;;;;;;;;x
+storing_a_relic_possible_modifier_tt;Can be used to store a §YRelic§!;;;;;;;;;;;;x
+wonder_aztec_pyramid_desc;阿兹特克金字塔是一座神庙，一处圣地。人们在里面斩下信使的头颅，这样他就能被送到神明那里去。;;;;;;;;;;;;x
+EVTTITLE_LT_21110;King Henry of England is Dead!;;;;;;;;;;;;x
+EVTDESC_LT_21110;Henry I just died without a male heir. You, together with the other nobles of the realm promised to accept his daughter Matilda as queen. But not all are happy with having a woman sitting on the English Throne. As a nephew of the late king, if you depart immediately to London you can claim the throne for yourself. Or, you can let Matilda know that she has your support.;;;;;;;;;;;;x
+EVTOPTA_LT_21110;Let Matilda know that [Root.GetTitledName] is a man of his word.;;;;;;;;;;;;x
+EVTOPTB_LT_21110;Only a fool would let this opportunity pass. I want to be King!;;;;;;;;;;;;x
+EVTDESC_LT_21120;Your father, [FromFrom.GetTitledName], just died without a male heir. A few years prior, he made his nobles promise to support you and your oldest son as his only living legitimate heirs. Granted, not all are happy having a woman sitting on the English Throne, but your cousin, the powerful [From.GetTitledName], announced [From.GetHerHis] support to your claim, followed by most of the nobility.;;;;;;;;;;;;x
+EVTOPTA_LT_21120;因此，我将继承我父亲的衣钵。;;;;;;;;;;;;x
+EVTDESC_LT_21121;[FromFromFrom.GetTitledName]刚刚去世，他没有留下一位男性继承人。国内的贵族们遵守他们对国王发的誓言，接受了他在世的唯一一位合法继承人，[From.GetName]，为女王。这可能也会增强她丈夫[matilda_spouse.GetTitledName]的实力，并且破坏法国的权力平衡。;;;;;;;;;;;;x
+EVTOPTA_LT_21121;有趣的消息。;;;;;;;;;;;;x
+EVTDESC_LT_21130;你的父亲，[FromFrom.GetTitledName]刚刚去世，没有留下一位男性继承人。几年前，他让手下的贵族们许诺，支持他在世的唯一的合法继承人，你与你的长子。然而，并不是所有人都乐于见到一个女人坐在英格兰的王位上。——你的表兄弟，强有力的[From.GetTitledName]，启程前往英格兰，为他自己宣称这个王国，篡夺了你的继承权，并且在此过程中赢得了多数贵族的支持。;;;;;;;;;;;;x
+EVTOPTA_LT_21130;我将为我父亲的王位而战;;;;;;;;;;;;x
+EVTDESC_LT_21131;你的岳父，[FromFrom.GetTitledName]刚刚去世，没有留下一位男性继承人。几年前，他让手下的贵族们许诺，支持他在世的唯一的合法继承人，你的妻子[matilda.GetFirstName]与你的长子。然而，并不是所有人都乐于见到一个女人坐在英格兰的王位上。[FromFrom.GetFirstName]的外甥[From.GetFirstName]，一启程前往英格兰，为他自己宣称这个王国，并在此过程中篡夺了你们的继承权。大多数英格兰贵族似乎已准备好承认他非法的宣称，然而，或许一个决定性的行为将使这发生改变。;;;;;;;;;;;;x
+EVTOPTA_LT_21131;我将为妻子的权利而战！;;;;;;;;;;;;x
+EVTOPTB_LT_21131;时机还不成熟。我们走着瞧。;;;;;;;;;;;;x
+String_disease;疾病;;;;;;;;;;;;x
+EVTDSC_RIP_5060_PRISON;一个一直在看押我[GetFromRelation]，[From.GetFirstName]的狱卒向我来报。那个[From.GetGirlWomanBoyMan]不仅被锁在昏暗无光的牢笼里——[From.GetSheHe]现在还饱受着[From.GetScriptedDiseaseName]的病痛。;;;;;;;;;;;;x
+EVTOPTE_RIP_5060_release_prisoner;卫兵！该把我可怜的[GetFromRelation]从牢里放出来了，;;;;;;;;;;;;x
+COURT_LIMITED_TAB_DRO;宫廷主要由各色无地的贵族组成，但也包括内阁成员（他们可能是有地的封臣）与接受廷臣教育的孩子。\n\n统治者能在宫廷中养的人的数量是有上限的，这个人数取决于他头衔的级别。如果超出那个人数上限，§Y宫廷维护费用§!将会上升。;;;;;;;;;;;;x
+string_coast;coast;;;;;;;;;;;;x
+COURT_TAB_DRO;宫廷主要由各色无地的贵族组成，但也包括内阁成员（他们可能是有地的封臣）与接受廷臣教育的孩子。\n\n统治者能在宫廷中养的人的数量是有上限的，这个人数取决于他头衔的级别。如果超出那个人数上限，§Y宫廷维护费用§!将会上升。;;;;;;;;;;;;x
+String_bottle;bottle;;;;;;;;;;;;x
+String_case;case;;;;;;;;;;;;x
+String_cask;cask;;;;;;;;;;;;x
+String_barrel;barrel;;;;;;;;;;;;x
+opinion_was_ordered_to_leave_crowded_court;Was Sent Away From Crowded Court;;;;;;;;;;;;x
+is_regent_commander_or_physician_tt;Is a §YRegent§!, §YDesignated Regent§!, §YCommander§!, or §YCourt Physician§!;;;;;;;;;;;;x
+is_spouse_consort_or_of_your_dynasty;Is your spouse, close family, or your consort;;;;;;;;;;;;x
+is_a_child_tt;Is a child;;;;;;;;;;;;x
+is_character_in_important_chain_of_events_tt;Is an important character in an ongoing chain of events;;;;;;;;;;;;x
+is_inaccessible_tt;Is in Hiding, out traveling, or otherwise occupied with important business\n;;;;;;;;;;;;x
+their_spouse_must_be_allow_to_leave_tt;The spouse of [Prev.GetTitledFirstName] must also be allowed to leave;;;;;;;;;;;;x
+String_remains_a_rumor;[This.GetName] remain[This.GetSingularS] a strange rumor;;;;;;;;;;;;x
+EVTDESC_NE_1_debutant;[invited_character.GetFullName] has arrived at your court, ready for service.;;;;;;;;;;;;x
+EVTOPTD_LT_20410_TT;The [target_upgrade.GetName] prove[target_upgrade.GetSingularS] a perfect hide away for lovers like you...;;;;;;;;;;;;x
+EVTOPTC_LT_20431_TT;The [target_upgrade.GetName] prove[target_upgrade.GetSingularS] a perfect hide away for new lovers.;;;;;;;;;;;;x
+EVTOPTC_LT_20431_TT_not_serious_romance;You leave §Y[From.GetTitledFirstName]§! wanting more.;;;;;;;;;;;;x
+EVTOPTB_LT_20410_TT_unlikely;Your [target_character.GetRootRelation] will probably not take this well.;;;;;;;;;;;;x
+EVTOPTA_LT_20431_no_love;I am not looking for anything 'serious', my [From.GetLordLady].;;;;;;;;;;;;x
+EVTDESC_LT_20432_A;[target_character.GetFirstName] returned my kiss, and more. "When will I see you again?" I asked, as we were parting. The [From.GetManWoman] chuckled, and said that this was fun, but that is all it was.;;;;;;;;;;;;x
+EVTDESC_LT_20432_B;[target_character.GetFirstName] returned my kiss, and more. Afterwards, we talked for hours, and I found myself fascinated by [From.GetHerHis] [From.GetLoverEnjoyableQuirk]. As we part, my heart is singing with [From.GetHerHis] name and I cannot wait until I can see [From.GetHerHim] again. I must learn everything about [From.GetHerHim]!;;;;;;;;;;;;x
+EVTOPTA_LT_20432_A;Wait... That's it? But I...!;;;;;;;;;;;;x
+String_boldness;boldness;;;;;;;;;;;;x
+String_love_of_life;love of life;;;;;;;;;;;;x
+String_honesty;honesty;;;;;;;;;;;;x
+String_seeing_the_best_in_people;always way of seeing the best in people;;;;;;;;;;;;x
+String_optimism;optimism;;;;;;;;;;;;x
+String_sense_of_humor;幽默感;;;;;;;;;;;;x
+String_jaded_view_on_romance;jaded views on romance;;;;;;;;;;;;x
+EVTDESC_MNM_4090;I have decided to show my devotion to [Root.Religion.GetHighGodNameCap] and the order by taking a vow of celibacy.;;;;;;;;;;;;x
+RELATION_TRIBUTARY;Tributary;;;;;;;;;;;;x
+>>>>>>> live_team/develop;;;;;;;;;;;;;x
+quest_the_assassins_convert_province_desc;[GetAssassinsConversionDesc];;;;;;;;;;;;x
+assassins_conversion_desc_random;The most essential goals of the Assassins is to protect the believers of the True Faith and spread the words of [shiite.GetHighGodName] to every corner of the Earth. While even the most remote lands shall be converted one day, first we must turn to places closer to home — your mission is to convert the county [FromFrom.GetName].;;;;;;;;;;;;x
+EVTDESC_MNM_6204_c;As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\n\nThe time is nigh for the people in [conversion_province.GetName] to adopt the true religion. When a majority of the population in the county has converted to the [Root.Religion.GetName] faith, your mission is complete.\n\nPraised be [Root.Religion.GetHighGodNameCap]!\nSigned, [From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;;;x
+EVTDESC_MNM_6205_B;The people of the county [conversion_province.GetName] has now fully embraced [Root.Religion.GetName] as their religion. From [conversion_province.Capital.GetHolding] to countryside, the names of [Root.Religion.GetHighGodNameCap] and the [Root.Religion.GetPriestTitle]s are honored and cherished. Your mission is complete.;;;;;;;;;;;;x
+EVTOPTA_MNM_6205_B;Praised be [Root.Religion.GetHighGodNameCap]!;;;;;;;;;;;;x
+EVTDESC100550_B;The [Root.Religion.GetName] [Root.Religion.GetPriestTitle]s are constantly pestering me about religion and [Root.Religion.GetRandomGodName]. No matter what I do, promise to pray more or read the [Root.Religion.GetScriptureName] more thoroughly, they won't leave me alone!;;;;;;;;;;;;x
+EVTOPTC100550;[Root.Religion.GetHighGodNameCap], help me be a better [Root.GetManWoman]!;;;;;;;;;;;;x
+EVTDESC_MNM_6021_c;Last night I approached [From.GetTitledFirstName] during a feast, intending to figure out whether [From.GetSheHe] might be persuaded to convert to the true faith. Unfortunately, as soon I steered the conversation towards the topics of the [Root.Religion.GetRandomGodName] and the [Root.Religion.GetScriptureName], the narrow-minded [From.GetManWoman] became quite disagreeable...;;;;;;;;;;;;x
+EVTDESC_MNM_6024_B;We are quiet for a moment, both seemingly contemplating these devoted souls. Then [From.GetFirstName] looks up at me, a curious intensity in [From.GetHerHis] gaze. "That is not an impossible wish, [Root.GetFirstName]. Are you ready to kill and, if They will it, get killed to defend the words of [Root.Religion.GetRandomGodName] and the [Root.Religion.GetScriptureName]?";;;;;;;;;;;;x
+EVTDESC_MNM_6027_B;"I do, [Root.GetFirstName]," says [From.GetTitledFirstName] with a solemn, almost ceremonial, voice. "There is an Order devoted to [Root.Religion.GetHighGodNameCap]. One that defends those true of faith and bring vengeance to their persecutors. The Assassins are always in need of champions. Think it over, and someone might reach out...";;;;;;;;;;;;x
+EVTDESC_MNM_6202_PERSECUTED_SHIITES;As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\n\nFor far too long, the gentle people of [shiite_province.GetName] has suffered under the cruel rule of [assassins_target.GetTitledFirstName]. It is your sacred duty to end [assassins_target.GetHerHim] and liberate our people. Turn [assassins_target.GetHerHim] into an example to fill our enemies' hearts with dread.\n\nSigned, [From.GetSocietyRank] [From.GetFirstName];;;;;;;;;;;;x
+EVTOPTA_6028_B;Glory to [Root.Religion.GetHighGodNameCap]!;;;;;;;;;;;;x
+6252_CONVERT_APPRENTICE_TT;§Y[assassin_protege.GetTitledFirstName]§! will offer [assassin_protege.GetHerselfHimself] up to [Root.Religion.GetHighGodNameCap] and convert to the religion of [Root.Religion.GetName].;;;;;;;;;;;;x
+nick_the_festive;开宴者;;;;;;;;;;;;x
+nick_the_burden;the Burden;;;;;;;;;;;;x
+nick_the_snake;毒蛇;;;;;;;;;;;;x
+EVT_TITLE_LT_61006;By Any Other Name;;;;;;;;;;;;x
+EVTDESC1_LT_61006;"My [Root.GetLordLady]!" [courtier.GetTitledFirstName] approaches me with excitement in [courtier.GetHerHis] eyes. "Would you do me the honor of bestowing a nickname upon me, my [Root.GetLordLady]?";;;;;;;;;;;;x
+EVTDESC2_LT_61006;"My [Root.GetLordLady]!" [courtier.GetTitledFirstName] approaches me with an armful of scrolls. "Would you do me the honor of bestowing a nickname upon me, my [Root.GetLordLady]?";;;;;;;;;;;;x
+EVTDESC3_LT_61006;"My [Root.GetLordLady]!" [courtier.GetTitledFirstName] approaches me with clothes stained with dirt and fire in [courtier.GetHerHis] eyes. "Would you do me the honor of bestowing a nickname upon me, my [Root.GetLordLady]?";;;;;;;;;;;;x
+EVTDESC4_LT_61006;"My [Root.GetLordLady]!" [courtier.GetTitledFirstName] emerges from a gathering of courtiers and makes [courtier.GetHerHis] way over to me. "Would you do me the honor of bestowing a nickname upon me, my [Root.GetLordLady]?";;;;;;;;;;;;x
+EVTDESC5_LT_61006;"My [Root.GetLordLady]!" [courtier.GetTitledFirstName] approaches me with a large ledger clutched in [courtier.GetHerHis] ink-stained hands. "Would you do me the honor of bestowing a nickname upon me, my [Root.GetLordLady]?";;;;;;;;;;;;x
+EVTDESC6_LT_61006;"My [Root.GetLordLady]!" [courtier.GetTitledFirstName] steps out of the shadows beside me with a sharp smile. "Would you do me the honor of bestowing a nickname upon me, my [Root.GetLordLady]?";;;;;;;;;;;;x
+EVTOPTA_LT_61006;You deserve a good name!;;;;;;;;;;;;x
+EVTOPTB_LT_61006;Hm, what about...;;;;;;;;;;;;x
+EVTOPTC_LT_61006;Oh, you'll get a nickname alright!;;;;;;;;;;;;x
+EVTOPTD_LT_61006;I have more important things to do.;;;;;;;;;;;;x
+opinion_happy_with_nickname;Flattering Nickname;;;;;;;;;;;;x
+opinion_dislikes_nickname;Unflattering Nickname;;;;;;;;;;;;x
+nick_the_mule;the Mule;;;;;;;;;;;;x
+courtiers_leaving_effect;Left Court;;;;;;;;;;;;x
+opinion_left_court;Left With Blessings;;;;;;;;;;;;x
+EVT_TITLE_LT_61008;Time to Go;;;;;;;;;;;;x
+EVTDESC_LT_61008;A group of courtiers approach me, most of whom I barely even recognize.\n\n"We are taking our leave, my [Root.GetLordLady]. Do we go with your blessing?";;;;;;;;;;;;x
+EVTOPTA_LT_61008;Yes. May you find luck elsewhere!;;;;;;;;;;;;x
+EVTOPTB_LT_61008;No, I have changed my mind.;;;;;;;;;;;;x
+EVTDESC30040;My husband [Root.Spouse.GetTitledFirstName] has hired an incredibly annoying [annoying_courtier.GetManWoman] to serve us. [annoying_courtier.GetHerHisCap] rudeness knows no limits, and I have no idea how to handle [annoying_courtier.GetHerHim]. [annoying_courtier.GetSheHeCap] does not know [annoying_courtier.GetHerHis] place.;;;;;;;;;;;;x
+EVTDESC30041;My wife [Root.Spouse.GetTitledFirstName] has asked me to get rid of one of my courtiers whom she finds mighty annoying. On one hand, [Root.Spouse.GetFirstName] might not be happy if I refuse her request, but if I fire 'the annoying [annoying_courtier.GetManWoman]' maybe people will feel my wife has too much influence over my actions.;;;;;;;;;;;;x
+EVTDESC30042;Apparently, one of the courtiers has been annoying my wife [Root.Spouse.GetFirstName], and instead of asking me for help she took the matter in her own hands and made sure the courtier would never annoy her again or [annoying_courtier.GetSheHe] would know the consequences.;;;;;;;;;;;;x
+EVTOPTA30040;I'll do my best to ignore [annoying_courtier.GetHerHim] and trust my husbands decision.;;;;;;;;;;;;x
+EVTOPTB30040;If possible I'll have [annoying_courtier.GetHerHim] fired.;;;;;;;;;;;;x
+EVTTOOLTIP30040;I ask my [Root.Spouse.GetFirstName] to fire the annoying [annoying_courtier.GetManWoman].;;;;;;;;;;;;x
+EVTOPTC30040;I have the [annoying_courtier.GetManWoman] punished for [annoying_courtier.GetHerHis] insolence.;;;;;;;;;;;;x
+EVTOPTA30045;... jokingly push [annoying_courtier.GetHerHim] into the river.;;;;;;;;;;;;x
+EVTOPTB30045;... order [annoying_courtier.GetHerHim] to be quiet.;;;;;;;;;;;;x
+EVTOPTC30045;... ignore [annoying_courtier.GetHerHis] annoying comments.;;;;;;;;;;;;x
+EVTDESC30046;The young [annoying_courtier.GetManWoman] I pushed into the river ended up drowning. Although it was an accident rumors of my deed spread quickly.;;;;;;;;;;;;x
+EVTDESC30047;Wet, but otherwise unharmed, the courtier blasted me with foul words and angry but empty threats. Seeing [annoying_courtier.GetHerHim] standing before me dripping mud and with algae entwined into [annoying_courtier.GetHerHis] hair, I could not stop the laughter pouring out of me.;;;;;;;;;;;;x
+exodus_court_allow_tooltip;§Y[Root.GetTitledFirstName]§! must have a full court;;;;;;;;;;;;x
+already_exodus_tooltip;Has NOT asked courtiers to leave recently;;;;;;;;;;;;x
+court_exodus;Ask Courtiers to Leave Court;;;;;;;;;;;;x
+court_exodus_desc;Your court is feeling very crowded. With a small monetary encouragement some of the less influential courtiers could be encouraged to leave court.;;;;;;;;;;;;x
+COURT_SIZE_TOOLTIP;Court Size $SIZE$/$LIMIT$;;;;;;;;;;;;x
+EXPENSE_OVERSIZED_COURT;Court Expenses;;;;;;;;;;;;x
+EXPENSE_OVERSIZED_COURT_TT;Expenses for $OVERFLOW|Y$ extra accommodations: $COST|R$;;;;;;;;;;;;x
+HAS_NOT_FULL_COURT_TRIGGER;Has a full court;;;;;;;;;;;;x
+HAS_FULL_COURT_TRIGGER;Does NOT have a full court;;;;;;;;;;;;x
+NUM_OF_COURTIERS_TRIGGER;Number of Courtiers;;;;;;;;;;;;x
+FREE_COURT_SLOTS_TRIGGER;Free Court Slots;;;;;;;;;;;;x
+COURT_SIZE_MODIFIER;Court Size;;;;;;;;;;;;x
+COURT_SIZE_MAINTENANCE_COST_MODIFIER;Court Size Cost;;;;;;;;;;;;x
+SET_WONDER_DAMAGED_EFFECT_TRUE;The Great Work is damaged and becomes unusable.\n;;;;;;;;;;;;x
+SET_WONDER_DAMAGED_EFFECT_FALSE;The Great Work is restored to its former glory.\n;;;;;;;;;;;;x
+wonder_cathedral_notre_dame;Notre Dame;;;;;;;;;;;;x
+wonder_cathedral_notre_dame_desc;By many deemed integral to the silhouette of Paris, this grand Cathedral reminds the proud metropolitans of their heritage and accomplishments, while also inspiring hope for future endeavors.;;;;;;;;;;;;x
+ADD_WONDER_EFFECT;$TYPE|Y$ is constructed.\n;;;;;;;;;;;;x
+IS_HISTORICAL;Is an important character or a character in an ongoing chain of events;;;;;;;;;;;;x
+IS_NOT_HISTORICAL;Is NOT an important character or a character in an ongoing chain of events;;;;;;;;;;;;x
+IS_NOT_IMPORTANT_CHARACTER_TO;Is NOT an important character to $CHAR|Y$;;;;;;;;;;;;x
+IS_IMPORTANT_CHARACTER_TO;Is an important character to $CHAR|Y$;;;;;;;;;;;;x
+EVTDESCHFP22006_A;[antagonize_target.GetTitledFirstName] has secluded [antagonize_target.GetHerselfHimself] with the rest of the court in [antagonize_target.Location.GetName], presumably biding their time while disease lingers in the countryside of the realm. "It will not be possible to reach [antagonize_target.GetHerHim] for some time", my council informs me.;;;;;;;;;;;;x
+EVTDESCHFP22006_B;As I have gone into seclusion with my court, my efforts to antagonize [antagonize_target.GetTitledFirstName] will have to be halted.;;;;;;;;;;;;x
+EVTDESCHFP22006_A_B;As both [antagonize_target.GetTitledFirstName] and I are both currently weathering the disease ravaging the countryside outside, my efforts to antagonize [antagonize_target.GetHerHim] will have to be put on hold...;;;;;;;;;;;;x
+tooltip_stop_antagonizing;Stop §YAntagonizing§! §Y[antagonize_target.GetTitledFirstName]§!;;;;;;;;;;;;x
+EVTOPTAHFP22006;If only we had pigeons...;;;;;;;;;;;;x
+NUDGE_4;Port/Trade post;;;;;;;;;;;;x
+RULE_WONDERS_HISTORICAL_ON;Historical Great Works will exist.;;;;;;;;;;;;x
+RULE_WONDERS_HISTORICAL_OFF;No historical Great Works will exist.;;;;;;;;;;;;x
+WONDER_UPGRADE_INACTIVE;§R[From.GetName] is NOT active§!\n[From.GetActiveTriggerDescription];;;;;;;;;;;;x
+EVTDESC_LT_10103_A;After a long council meeting, my head is filled with the latest expense reports. I let out a sigh, a small feeling of defeat building in me, but [upbeat_courtier.GetFirstName] interrupts my thoughts: "I don't know if it matters to you, my [Root.GetLordLady], but many are grateful for the way you are handling the surplus of men and women here in the [Root.GetCapitalHolding].";;;;;;;;;;;;x
+EVTDESC_LT_10103_B;At the end of supper, [upbeat_courtier.GetTitledFirstName] calls me over to [upbeat_courtier.GetHerHis] table, pointing at a tall glass of [Root.GetAlcohol]. "There are many of us who want to personally thank you for your hospitality, my [Root.GetLordLady]. I know space is hard to come by inside the [Root.GetCapitalHolding]." The [upbeat_courtier.GetManWoman] presses my hand and smiles in gratitude.;;;;;;;;;;;;x
+EVTDESC_LT_10103_C;During supper, my [upbeat_courtier.GetRootRelation] [upbeat_courtier.GetTitledFirstName] stands up and clears [upbeat_courtier.GetHerHis] throat. "My [Root.GetLordLady], there are many of us who want to thank you for your hospitality, in these trying times. It is not all who would find lodgings for as many as you have managed to, [Root.GetMasterMistress].";;;;;;;;;;;;x
+EVTOPTA_LT_10103;Aaw, but I actually like sleeping out in the stables sometimes!;;;;;;;;;;;;x
+EVTOPTB_LT_10103;Aaah, but there is strength in numbers, my [upbeat_courtier.GetRootRelation].;;;;;;;;;;;;x
+EVTOPTC_LT_10103;I simply enjoy everyone's company, dear [upbeat_courtier.GetFirstName]!;;;;;;;;;;;;x
+EVTOPTC_LT_10103_cruel;More people means more resources for... Anything we might require.;;;;;;;;;;;;x
+EVTOPTD_LT_10103_A;A toast to you, my good [upbeat_courtier.GetManWoman]! You are all important to me.;;;;;;;;;;;;x
+EVTOPTD_LT_10103_B;Oh, [upbeat_courtier.GetRootRelation]. You are all important to me, is all.;;;;;;;;;;;;x
+generous_host;Generous Host;;;;;;;;;;;;x
+generous_host_desc;This character is known for [Root.GetHerHis] hospitality.;;;;;;;;;;;;x
+calculating_host;Calculating Host;;;;;;;;;;;;x
+calculating_host_desc;This character is known for inspiring loyalty amongst [Root.GetHerHis] courtiers.;;;;;;;;;;;;x
+ruthless_host;Ruthless Host;;;;;;;;;;;;x
+ruthless_host_desc;This character is known for [Root.GetHerHis] pragmatic approach to human resources.;;;;;;;;;;;;x
+naive_host;Trusting Host;;;;;;;;;;;;x
+naive_host_desc;This character is known for being the most welcoming host in the realm.;;;;;;;;;;;;x
+charitable_opinion;Charitable Opinion;;;;;;;;;;;;x
+RULE_COURT_LIMIT;Court Size Limit;;;;;;;;;;;;x
+RULE_COURT_LIMIT_ON;The number of courtiers allowed in each court is limited.;;;;;;;;;;;;x
+RULE_COURT_LIMIT_OFF;The number of courtiers allowed in each court is unlimited, and events tied to the mechanic are disabled.;;;;;;;;;;;;x
