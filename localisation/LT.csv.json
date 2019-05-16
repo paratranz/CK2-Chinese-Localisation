@@ -1226,8 +1226,8 @@
     {
         "key": "EVTOPTC_LT_20410_TT_murder",
         "original": "The outcome of this will depend on your §YPersonal Combat Skill§!, as §Y[From.GetTitledFirstName]§! might resist your murder attempt...",
-        "translation": "我最好精于搏斗因为§Y[From.GetTitledFirstName]§!也许会反抗我的谋杀企图。",
-        "stage": 0
+        "translation": "结果取决于你的§Y个人实战能力§!，§Y[From.GetTitledFirstName]§!也许会反抗你的谋杀企图……",
+        "stage": 1
     },
     {
         "key": "EVTDESC_LT_20412",
@@ -1874,8 +1874,8 @@
     {
         "key": "wonder_cathedral_hagia_sophia_desc",
         "original": "This great church, the Shrine of the Holy Wisdom of God, it is one of the world's largest buildings. It was finished in AD 562[FromFrom.GetHagiaSophiaUse].",
-        "translation": "在这部分地图上最美丽的大教堂之一。",
-        "stage": 0
+        "translation": "这座大教堂，上帝神圣智慧的神殿，是世界上最大的建筑物之一，它于562年完工[FromFrom.GetHagiaSophiaUse]。",
+        "stage": 1
     },
     {
         "key": "wonder_pagan_stones_stonehenge",
@@ -5348,14 +5348,14 @@
     {
         "key": "alcohol_gift_decision",
         "original": "Send Alcohol Gift",
-        "translation": "送出酒类礼物",
+        "translation": "送出酒水类礼物",
         "stage": 1
     },
     {
         "key": "alcohol_gift_decision_desc",
         "original": "As you have a §YBrewery§!, you can send [Root.GetTitledFirstName] a [Root.GetAlcoholContainerType] of [Root.GetAlcohol].",
-        "translation": "将你酿酒厂里生产的一[GetAlcoholContainerType][GetAlcoholType]赠予[Root.GetTitledFirstName]作为礼物",
-        "stage": 0
+        "translation": "由于你有一座§Y酿酒厂§!，你可以把[Root.GetAlcoholContainerType][Root.GetAlcohol]送给[Root.GetTitledFirstName]。",
+        "stage": 1
     },
     {
         "key": "not_recently_sent_alcohol_tooltip",
@@ -6279,7 +6279,7 @@
         "key": "EVTDESC_LT_20700",
         "original": "The last fortifications of the [target_upgrade.GetName] for my [target_wonder.GetName] have been finally finished. Now, even the small townships in the province of [target_province.GetName] are protected by these great defensive works!",
         "translation": "在我的[target_wonder.GetName]中，历时已久的防御工事[target_upgrade.GetName]终于建设完成。现在，即使是[target_province.GetName]的一处小小乡镇，都处于这些伟大防御工事的严密保护之下！",
-        "stage": 0
+        "stage": 1
     },
     {
         "key": "EVTOPTA_LT_20700",
@@ -6428,8 +6428,8 @@
     {
         "key": "String_a_place_of_comfort_for_believers",
         "original": "been a place of comfort for all [Root.Religion.GetName] followers",
-        "translation": "成为了使[Wonder.Owner.Religion.GetName]信众得到安慰的地方",
-        "stage": 0
+        "translation": "成为了使[Root.Religion.GetName]信众得到安慰的地方",
+        "stage": 1
     },
     {
         "key": "String_lent_its_protection",
@@ -6674,8 +6674,8 @@
     {
         "key": "EVTDESC_LT_60302",
         "original": "After my initial visit to the tavern close to the [target_wonder.GetName] I have not been able to keep away. More often than not I find myself seeking the comfort of a big cup of [Root.GetAlcohol] after a long day.",
-        "translation": "自从第一次进了[target_wonder.GetName]旁的酒馆后，我便再难脱身。我往往发觉自己终日都在寻求大杯[GetAlcoholType]带来的慰藉。",
-        "stage": 0
+        "translation": "自从第一次进了[target_wonder.GetName]旁的酒馆后，我便再难脱身。我往往发觉自己终日都在寻求大杯[Root.GetAlcohol]]带来的慰藉。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_LT_60302",
@@ -8816,8 +8816,8 @@
     {
         "key": "upgrade_throne_fancy_desc",
         "original": "To some a simple metal chair, but to this ruler so much more.",
-        "translation": "一尊华丽的王座，比任何金属椅子都要壮观地多。",
-        "stage": 0
+        "translation": "对某些人来说这是一把普通的金属椅子，但对这位统治者来说它具有深刻含义。",
+        "stage": 1
     },
     {
         "key": "CHARACTER_NOT_PARTICIPATED_IN_WONDER_LOOTING",
@@ -9056,31 +9056,31 @@
     {
         "key": "TECH_SKIRMISH",
         "original": "Skirmish Techniques",
-        "translation": "",
-        "stage": 0
+        "translation": "散兵部队",
+        "stage": 1
     },
     {
         "key": "TECH_SKIRMISH_DESC",
         "original": "Better Training in Skirmish Techniques",
-        "translation": "提高遭遇战的训练水平",
+        "translation": "提高散兵战部队的训练水平",
         "stage": 1
     },
     {
         "key": "TECH_MELEE",
         "original": "Melee Techniques",
-        "translation": "",
-        "stage": 0
+        "translation": "肉搏部队",
+        "stage": 1
     },
     {
         "key": "TECH_MELEE_DESC",
         "original": "Better Training in Melee Techniques",
-        "translation": "提高肉搏战的训练水平",
+        "translation": "提高肉搏战部队的训练水平",
         "stage": 1
     },
     {
         "key": "better_skirmisher_tactics_custom_modifier_tt",
         "original": "The chance of Flank leaders choosing better skirmisher tactics increases",
-        "translation": "提升侧翼将领触发更好的遭遇战战术的几率",
+        "translation": "提升侧翼将领触发更好的散兵战战术的几率",
         "stage": 1
     },
     {
@@ -9146,62 +9146,62 @@
     {
         "key": "string_Hagia_Sophia_Latin",
         "original": " and was converted to the Latin cult, after the conquest of Constantinople",
-        "translation": "并在君士坦丁堡遭受征服后，改信了拉丁宗派",
+        "translation": "在君士坦丁堡被征服后被改建拉丁宗派教堂",
         "stage": 1
     },
     {
         "key": "string_Hagia_Sophia_Muslim",
         "original": " and was converted to be the Imperial Mosque, after the conquest of Constantinople",
-        "translation": "",
-        "stage": 0
+        "translation": "在君士坦丁堡被征服后被改建为帝国清真寺",
+        "stage": 1
     },
     {
         "key": "string_pride_of_constantinople",
         "original": " and is the pride of Constantinople",
-        "translation": "",
-        "stage": 0
+        "translation": "是君士坦丁堡的骄傲",
+        "stage": 1
     },
     {
         "key": "EVTDESC_LT_20900_chaplain",
         "original": "My [target_chaplain.GetJobTitle] [target_chaplain.GetFirstName] wants to convert [target_wonder.GetName] to the true faith as soon as possible, so that our people can worship in the grandiose building.",
-        "translation": "",
-        "stage": 0
+        "translation": "我的[target_chaplain.GetJobTitle][target_chaplain.GetFirstName]希望能尽快改建[target_wonder.GetName]，使它适应真信，这样我们的人民就能在这座浮夸的建筑物中做礼拜。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_LT_20900",
         "original": "Some of my followers are clamoring for the conversion of [target_wonder.GetName] to the true faith as soon as possible, so that our people can worship in the grandiose building.",
-        "translation": "",
-        "stage": 0
+        "translation": "我的一些追随者们大声嚷着应该尽快改建[target_wonder.GetName]，使它适应真信，这样我们的人民就能在这座浮夸的建筑中做礼拜。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_LT_20900",
         "original": "Yes, we should convert it to the true [Root.Religion.GetName] faith.",
-        "translation": "",
-        "stage": 0
+        "translation": "是的，我们应该改建它，使它为真信[Root.Religion.GetName]服务。",
+        "stage": 1
     },
     {
         "key": "EVTOPTB_LT_20900",
         "original": "No, we should let it be.",
-        "translation": "",
-        "stage": 0
+        "translation": "不，我们让它就这么保持原样。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_LT_21000.1",
         "original": "Things quickly get out of control as my soldiers storm the gates of [From.GetName]. Killing indiscriminately and sacking every building they come across, they seem to have lost all sense of discipline.",
-        "translation": "",
-        "stage": 0
+        "translation": "当我的士兵攻入[From.GetName]的大门时，事态迅速变得失控了。他们肆意杀戮，洗劫每一座碰见的建筑，他们似乎丧失所有纪律。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_LT_21000.2",
         "original": "After the army enters [From.GetName], any sense of discipline is lost and the men start to rob, burn and pillage.",
-        "translation": "",
-        "stage": 0
+        "translation": "在大军进入[From.GetName]后，纪律荡然无存，士兵们开始了烧杀抢掠。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_LT_21000",
         "original": "Let them have their fun. This is war after all.",
-        "translation": "",
-        "stage": 0
+        "translation": "让他们乐一下吧。毕竟这就是战争。",
+        "stage": 1
     },
     {
         "key": "EVTOPTB_LT_21000",
@@ -9212,19 +9212,19 @@
     {
         "key": "EVTOPTC_LT_21000",
         "original": "I will stop this immediately and hang the culprits!",
-        "translation": "我会立即了结此事，绞死罪犯！",
+        "translation": "我会立即阻止此事，绞死罪犯！",
         "stage": 1
     },
     {
         "key": "EVTOPTA_LT_21000_DISHONORABLE_TT",
         "original": "This action will be considered dishonorable by many people.",
-        "translation": "这个行为为很多人所不齿。",
+        "translation": "这个行为让很多人不齿。",
         "stage": 1
     },
     {
         "key": "EVTOPTC_LT_21000_CONTROL_TT",
         "original": "You manage to regain control of the army.",
-        "translation": "你设法重新执掌军队。",
+        "translation": "你设法重新控制了军队。",
         "stage": 1
     },
     {
@@ -9254,32 +9254,32 @@
     {
         "key": "EVTTITLE_LT_21110",
         "original": "King Henry of England is Dead!",
-        "translation": "",
-        "stage": 0
+        "translation": "英国的亨利王去世了！",
+        "stage": 1
     },
     {
         "key": "EVTDESC_LT_21110",
         "original": "Henry I just died without a male heir. You, together with the other nobles of the realm promised to accept his daughter Matilda as queen. But not all are happy with having a woman sitting on the English Throne. As a nephew of the late king, if you depart immediately to London you can claim the throne for yourself. Or, you can let Matilda know that she has your support.",
-        "translation": "",
-        "stage": 0
+        "translation": "亨利一世去世了，他没有留下一位男性继承人，你和国内的其他贵族许诺接受他的女儿·玛蒂尔达，让她成为女王。然而，并不是所有人都乐于见到一个女人坐在英格兰的王位上。作为那位已至晚年的国王的外甥，如果你立刻启程前往伦敦，你就能为自己宣称这个王位。或者，你也可以让玛蒂尔达知道，你支持她。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_LT_21110",
         "original": "Let Matilda know that [Root.GetTitledName] is a man of his word.",
-        "translation": "",
-        "stage": 0
+        "translation": "告诉玛蒂尔达，[Root.GetTitledName]说话算数。",
+        "stage": 1
     },
     {
         "key": "EVTOPTB_LT_21110",
         "original": "Only a fool would let this opportunity pass. I want to be King!",
-        "translation": "",
-        "stage": 0
+        "translation": "只有蠢材才会让机会白白溜走。我想做国王！",
+        "stage": 1
     },
     {
         "key": "EVTDESC_LT_21120",
         "original": "Your father, [FromFrom.GetTitledName], just died without a male heir. A few years prior, he made his nobles promise to support you and your oldest son as his only living legitimate heirs. Granted, not all are happy having a woman sitting on the English Throne, but your cousin, the powerful [From.GetTitledName], announced [From.GetHerHis] support to your claim, followed by most of the nobility.",
-        "translation": "",
-        "stage": 0
+        "translation": "你的父亲，[FromFrom.GetTitledName]刚刚去世，没有留下一位男性继承人。几年前，他让手下的贵族们许诺，支持他在世的唯一的合法继承人，你与你的长子。自然，并不是所有人都乐于见到一个女人坐在英格兰的王位上。然而，你强有力的表哥，[From.GetTitledName]宣布[From.GetHeShe]将效忠于你，多数贵族也持同样的意见。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_LT_21120",
@@ -9302,7 +9302,7 @@
     {
         "key": "EVTDESC_LT_21130",
         "original": "Your father, [FromFrom.GetTitledName] just died without a male heir. A few years prior, he made his nobles promise to support you and your oldest son, as his only living legitimate heirs. However, not all were happy to have a woman sit on the English Throne – your cousin, the powerful [From.GetTitledName], took to England and in claiming the Kingdom for himself, usurped your rights, and was accepted by most of the nobility in the process.",
-        "translation": "你的父亲，[FromFrom.GetTitledName]刚刚去世，没有留下一位男性继承人。几年前，他让手下的贵族们许诺，支持他在世的唯一的合法继承人，你与你的长子。然而，并不是所有人都乐于见到一个女人坐在英格兰的王位上。——你的表兄弟，强有力的[From.GetTitledName]，启程前往英格兰，为他自己宣称这个王国，篡夺了你的继承权，并且在此过程中赢得了多数贵族的支持。",
+        "translation": "你的父亲，[FromFrom.GetTitledName]刚刚去世，没有留下一位男性继承人。几年前，他让手下的贵族们许诺，支持他在世的唯一的合法继承人，你与你的长子。然而，并不是所有人都乐于见到一个女人坐在英格兰的王位上。——你的表哥，强有力的[From.GetTitledName]，启程前往英格兰，为他自己宣称这个王国，篡夺了你的继承权，并且在此过程中赢得了多数贵族的支持。",
         "stage": 1
     },
     {
@@ -9392,8 +9392,8 @@
     {
         "key": "opinion_was_ordered_to_leave_crowded_court",
         "original": "Was Sent Away From Crowded Court",
-        "translation": "",
-        "stage": 0
+        "translation": "被从人数过多的宫廷中「请」走",
+        "stage": 1
     },
     {
         "key": "is_regent_commander_or_physician_tt",
@@ -9404,8 +9404,8 @@
     {
         "key": "is_spouse_consort_or_of_your_dynasty",
         "original": "Is your spouse, close family, or your consort",
-        "translation": "",
-        "stage": 0
+        "translation": "是你的爱人, 近亲, 或者配偶",
+        "stage": 1
     },
     {
         "key": "is_a_child_tt",
@@ -9416,14 +9416,14 @@
     {
         "key": "is_character_in_important_chain_of_events_tt",
         "original": "Is an important character in an ongoing chain of events",
-        "translation": "",
-        "stage": 0
+        "translation": "是一个正在进行的事件链中的重要角色",
+        "stage": 1
     },
     {
         "key": "is_inaccessible_tt",
         "original": "Is in Hiding, out traveling, or otherwise occupied with important business\\n",
-        "translation": "",
-        "stage": 0
+        "translation": "正在藏匿、外出旅行，或在其他重要事务中脱不开身\\n",
+        "stage": 1
     },
     {
         "key": "their_spouse_must_be_allow_to_leave_tt",
@@ -9440,8 +9440,8 @@
     {
         "key": "EVTDESC_NE_1_debutant",
         "original": "[invited_character.GetFullName] has arrived at your court, ready for service.",
-        "translation": "",
-        "stage": 0
+        "translation": "[invited_character.GetFullName]已经抵达您的宫廷，为您服务。",
+        "stage": 1
     },
     {
         "key": "EVTOPTD_LT_20410_TT",
@@ -9488,8 +9488,8 @@
     {
         "key": "EVTOPTA_LT_20432_A",
         "original": "Wait... That's it? But I...!",
-        "translation": "",
-        "stage": 0
+        "translation": "等等......这就完了？但是我......！",
+        "stage": 1
     },
     {
         "key": "String_boldness",
@@ -9710,20 +9710,20 @@
     {
         "key": "EVTOPTD_LT_61006",
         "original": "I have more important things to do.",
-        "translation": "",
-        "stage": 0
+        "translation": "我还有更重要的事去做。",
+        "stage": 1
     },
     {
         "key": "opinion_happy_with_nickname",
         "original": "Flattering Nickname",
-        "translation": "",
-        "stage": 0
+        "translation": "讨喜的称号",
+        "stage": 1
     },
     {
         "key": "opinion_dislikes_nickname",
         "original": "Unflattering Nickname",
-        "translation": "",
-        "stage": 0
+        "translation": "讨厌的称号",
+        "stage": 1
     },
     {
         "key": "nick_the_mule",
@@ -9734,38 +9734,38 @@
     {
         "key": "courtiers_leaving_effect",
         "original": "Left Court",
-        "translation": "",
-        "stage": 0
+        "translation": "离开宫廷",
+        "stage": 1
     },
     {
         "key": "opinion_left_court",
         "original": "Left With Blessings",
-        "translation": "",
-        "stage": 0
+        "translation": "带着祝福离开",
+        "stage": 1
     },
     {
         "key": "EVT_TITLE_LT_61008",
         "original": "Time to Go",
-        "translation": "",
-        "stage": 0
+        "translation": "是时候远走了",
+        "stage": 1
     },
     {
         "key": "EVTDESC_LT_61008",
         "original": "A group of courtiers approach me, most of whom I barely even recognize.\\n\\n\"We are taking our leave, my [Root.GetLordLady]. Do we go with your blessing?\"",
-        "translation": "",
-        "stage": 0
+        "translation": "一伙廷臣找到了我，他们中大多数我几乎都认不出名。\\n\\n“[Root.GetLordLady]，我们已经准备离开您的宫廷了，您能为我们许下祝愿吗？”",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_LT_61008",
         "original": "Yes. May you find luck elsewhere!",
-        "translation": "",
-        "stage": 0
+        "translation": "当然，祝你们另觅高就，一路顺风！",
+        "stage": 1
     },
     {
         "key": "EVTOPTB_LT_61008",
         "original": "No, I have changed my mind.",
-        "translation": "",
-        "stage": 0
+        "translation": "不，我改主意了。",
+        "stage": 1
     },
     {
         "key": "EVTDESC30040",
@@ -9848,14 +9848,14 @@
     {
         "key": "already_exodus_tooltip",
         "original": "Has NOT asked courtiers to leave recently",
-        "translation": "",
-        "stage": 0
+        "translation": "最近没有要求廷臣离开",
+        "stage": 1
     },
     {
         "key": "court_exodus",
         "original": "Ask Courtiers to Leave Court",
-        "translation": "",
-        "stage": 0
+        "translation": "要求廷臣离开宫廷",
+        "stage": 1
     },
     {
         "key": "court_exodus_desc",
@@ -9884,56 +9884,56 @@
     {
         "key": "HAS_NOT_FULL_COURT_TRIGGER",
         "original": "Has a full court",
-        "translation": "",
-        "stage": 0
+        "translation": "宫廷已满",
+        "stage": 1
     },
     {
         "key": "HAS_FULL_COURT_TRIGGER",
         "original": "Does NOT have a full court",
-        "translation": "",
-        "stage": 0
+        "translation": "宫廷未满",
+        "stage": 1
     },
     {
         "key": "NUM_OF_COURTIERS_TRIGGER",
         "original": "Number of Courtiers",
-        "translation": "",
-        "stage": 0
+        "translation": "廷臣数量",
+        "stage": 1
     },
     {
         "key": "FREE_COURT_SLOTS_TRIGGER",
         "original": "Free Court Slots",
-        "translation": "",
-        "stage": 0
+        "translation": "空闲的廷臣槽位",
+        "stage": 1
     },
     {
         "key": "COURT_SIZE_MODIFIER",
         "original": "Court Size",
-        "translation": "",
-        "stage": 0
+        "translation": "宫廷规模",
+        "stage": 1
     },
     {
         "key": "COURT_SIZE_MAINTENANCE_COST_MODIFIER",
         "original": "Court Size Cost",
-        "translation": "",
-        "stage": 0
+        "translation": "宫廷规模开销",
+        "stage": 1
     },
     {
         "key": "SET_WONDER_DAMAGED_EFFECT_TRUE",
         "original": "The Great Work is damaged and becomes unusable.\\n",
-        "translation": "",
-        "stage": 0
+        "translation": "奇观被毁，无法使用。\\n",
+        "stage": 1
     },
     {
         "key": "SET_WONDER_DAMAGED_EFFECT_FALSE",
         "original": "The Great Work is restored to its former glory.\\n",
-        "translation": "",
-        "stage": 0
+        "translation": "奇观重建，再现往日荣光。\\n",
+        "stage": 1
     },
     {
         "key": "wonder_cathedral_notre_dame",
         "original": "Notre Dame",
-        "translation": "",
-        "stage": 0
+        "translation": "巴黎圣母院",
+        "stage": 1
     },
     {
         "key": "wonder_cathedral_notre_dame_desc",
@@ -9944,32 +9944,32 @@
     {
         "key": "ADD_WONDER_EFFECT",
         "original": "$TYPE|Y$ is constructed.\\n",
-        "translation": "",
-        "stage": 0
+        "translation": "$TYPE|Y$已经建成。\\n",
+        "stage": 1
     },
     {
         "key": "IS_HISTORICAL",
         "original": "Is an important character or a character in an ongoing chain of events",
-        "translation": "",
-        "stage": 0
+        "translation": "是一个重要角色或处于正在进行的事件链中的角色",
+        "stage": 1
     },
     {
         "key": "IS_NOT_HISTORICAL",
         "original": "Is NOT an important character or a character in an ongoing chain of events",
-        "translation": "",
-        "stage": 0
+        "translation": "不是一个重要角色或处于正在进行的事件链中的角色",
+        "stage": 1
     },
     {
         "key": "IS_NOT_IMPORTANT_CHARACTER_TO",
         "original": "Is NOT an important character to $CHAR|Y$",
-        "translation": "",
-        "stage": 0
+        "translation": "对于$CHAR|Y$不是一个重要角色",
+        "stage": 1
     },
     {
         "key": "IS_IMPORTANT_CHARACTER_TO",
         "original": "Is an important character to $CHAR|Y$",
-        "translation": "",
-        "stage": 0
+        "translation": "对于$CHAR|Y$是一个重要角色",
+        "stage": 1
     },
     {
         "key": "EVTDESCHFP22006_A",
@@ -9998,32 +9998,32 @@
     {
         "key": "EVTOPTAHFP22006",
         "original": "If only we had pigeons...",
-        "translation": "",
-        "stage": 0
+        "translation": "要是有信鸽就好了……",
+        "stage": 1
     },
     {
         "key": "NUDGE_4",
         "original": "Port/Trade post",
-        "translation": "",
-        "stage": 0
+        "translation": "港口/贸易站",
+        "stage": 1
     },
     {
         "key": "RULE_WONDERS_HISTORICAL_ON",
         "original": "Historical Great Works will exist.",
-        "translation": "",
-        "stage": 0
+        "translation": "史实奇观将会存在。",
+        "stage": 1
     },
     {
         "key": "RULE_WONDERS_HISTORICAL_OFF",
         "original": "No historical Great Works will exist.",
-        "translation": "",
-        "stage": 0
+        "translation": "史实奇观将不会存在。",
+        "stage": 1
     },
     {
         "key": "WONDER_UPGRADE_INACTIVE",
         "original": "§R[From.GetName] is NOT active§!\\n[From.GetActiveTriggerDescription]",
-        "translation": "",
-        "stage": 0
+        "translation": "§R[From.GetName]未激活§!\\n[From.GetActiveTriggerDescription]",
+        "stage": 1
     },
     {
         "key": "EVTDESC_LT_10103_A",
@@ -10046,26 +10046,26 @@
     {
         "key": "EVTOPTA_LT_10103",
         "original": "Aaw, but I actually like sleeping out in the stables sometimes!",
-        "translation": "",
-        "stage": 0
+        "translation": "哦，不过有时候我真的喜欢睡在马厩里!",
+        "stage": 1
     },
     {
         "key": "EVTOPTB_LT_10103",
         "original": "Aaah, but there is strength in numbers, my [upbeat_courtier.GetRootRelation].",
-        "translation": "",
-        "stage": 0
+        "translation": "啊，但是人多力量大，我的[upbeat_courtier.GetRootRelation]。",
+        "stage": 1
     },
     {
         "key": "EVTOPTC_LT_10103",
         "original": "I simply enjoy everyone's company, dear [upbeat_courtier.GetFirstName]!",
-        "translation": "",
-        "stage": 0
+        "translation": "我只是喜欢和大家在一起，亲爱的[upbeat_courtier.GetFirstName]！",
+        "stage": 1
     },
     {
         "key": "EVTOPTC_LT_10103_cruel",
         "original": "More people means more resources for... Anything we might require.",
-        "translation": "",
-        "stage": 0
+        "translation": "更多的人意味着更多的资源用于……我们可能需要的任何东西。",
+        "stage": 1
     },
     {
         "key": "EVTOPTD_LT_10103_A",
@@ -10082,32 +10082,32 @@
     {
         "key": "generous_host",
         "original": "Generous Host",
-        "translation": "",
-        "stage": 0
+        "translation": "慷慨的主人",
+        "stage": 1
     },
     {
         "key": "generous_host_desc",
         "original": "This character is known for [Root.GetHerHis] hospitality.",
-        "translation": "",
-        "stage": 0
+        "translation": "该角色以[Root.GetHerHis]热情好客闻名于世",
+        "stage": 1
     },
     {
         "key": "calculating_host",
         "original": "Calculating Host",
-        "translation": "",
-        "stage": 0
+        "translation": "精明的主人",
+        "stage": 1
     },
     {
         "key": "calculating_host_desc",
         "original": "This character is known for inspiring loyalty amongst [Root.GetHerHis] courtiers.",
-        "translation": "",
-        "stage": 0
+        "translation": "该角色以激起[Root.GetHerHis]廷臣的忠诚心闻名于世。",
+        "stage": 1
     },
     {
         "key": "ruthless_host",
         "original": "Ruthless Host",
-        "translation": "",
-        "stage": 0
+        "translation": "无情的主人",
+        "stage": 1
     },
     {
         "key": "ruthless_host_desc",
@@ -10118,8 +10118,8 @@
     {
         "key": "naive_host",
         "original": "Trusting Host",
-        "translation": "",
-        "stage": 0
+        "translation": "值得信赖的主人",
+        "stage": 1
     },
     {
         "key": "naive_host_desc",
@@ -10136,19 +10136,19 @@
     {
         "key": "RULE_COURT_LIMIT",
         "original": "Court Size Limit",
-        "translation": "",
-        "stage": 0
+        "translation": "宫廷规模限制",
+        "stage": 1
     },
     {
         "key": "RULE_COURT_LIMIT_ON",
         "original": "The number of courtiers allowed in each court is limited.",
-        "translation": "",
-        "stage": 0
+        "translation": "每个宫廷的廷臣数量将受到限制。",
+        "stage": 1
     },
     {
         "key": "RULE_COURT_LIMIT_OFF",
         "original": "The number of courtiers allowed in each court is unlimited, and events tied to the mechanic are disabled.",
-        "translation": "",
-        "stage": 0
+        "translation": "每个宫廷的廷臣数量将不会受到限制，同时禁用与该系统绑定的事件。",
+        "stage": 1
     }
 ]

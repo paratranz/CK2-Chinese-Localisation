@@ -3115,9 +3115,9 @@
     },
     {
         "key": "CHARACTER_CREATED",
-        "original": "A $TYPE$ appears at the court of §Y$EMPLOYER$§!.\\n",
+        "original": "$TYPE$ appears at the court of §Y$EMPLOYER$§!.\\n",
         "translation": "$TYPE$出现在§Y$EMPLOYER$§!的宫廷。\\n",
-        "stage": 5
+        "stage": 0
     },
     {
         "key": "HEALTH_EFFECT",
@@ -3440,8 +3440,8 @@
     {
         "key": "COMBATVIEW_PHASE_DESC_SKIRMISH",
         "original": "In the Skirmish phase the armies will stay at a distance\\n§YArchers§W, §YHorse Archers§W and §YLight Cavalry§W excel in the §YSkirmish Phase§W",
-        "translation": "在射击阶段两军将保持距离\\n§Y弓箭手§!，§Y弓骑兵§!和§Y轻骑兵§!擅长§Y遭遇阶段§!",
-        "stage": 5
+        "translation": "在散兵战阶段两军将保持距离\\n§Y弓箭手§W，§Y弓骑兵§W和§Y轻骑兵§W擅长§Y散兵战阶段§W",
+        "stage": 1
     },
     {
         "key": "COMBATVIEW_PHASE_DESC_MELEE",
@@ -6271,9 +6271,9 @@
     },
     {
         "key": "EVTDESC3208",
-        "original": "I spent the night alone in the chapel, praying hard for the salvation of [From.GetTitledFirstName]. [From.GetSheHe] never showed up.",
-        "translation": "一整夜我独自一人呆在礼拜堂里，为拯救[From.GetTitledFirstName]的灵魂而努力祈祷.[From.GetSheHe]却一直没有来。",
-        "stage": 5
+        "original": "I spent the night alone in the chapel, praying hard for the salvation of [From.GetTitledFirstName]. [From.GetSheHeCap] never showed up.",
+        "translation": "一整夜我独自一人呆在礼拜堂里，为拯救[From.GetTitledFirstName]的灵魂而努力祈祷。[From.GetSheHeCap]却一直没有来。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA3208",
@@ -13704,45 +13704,9 @@
         "stage": 5
     },
     {
-        "key": "EVTDESC30040",
-        "original": "My husband [Root.Spouse.GetTitledFirstName] has hired an incredibly annoying man to serve us. His rudeness knows no limits, and I have no idea how to handle him. He does not know his place.",
-        "translation": "我丈夫[Root.Spouse.GetTitledFirstName]聘请了一个令人难以置信的烦人的家伙来为我们服务。他的粗鲁永无止境，我不知道如何与他相处。他的举止很不得体。",
-        "stage": 5
-    },
-    {
-        "key": "EVTOPTA30040",
-        "original": "I'll do my best to ignore him and trust my husbands decision",
-        "translation": "我会尽可能不理他，我相信我丈夫的决定",
-        "stage": 5
-    },
-    {
-        "key": "EVTOPTB30040",
-        "original": "If possible I'll have him fired",
-        "translation": "如果可能的话，我会让他被解雇",
-        "stage": 5
-    },
-    {
-        "key": "EVTTOOLTIP30040",
-        "original": "I ask my [Root.Spouse.GetFirstName] to fire the annoying man",
-        "translation": "我要求我的[Root.Spouse.GetFirstName]炒了这个烦人的家伙",
-        "stage": 5
-    },
-    {
-        "key": "EVTOPTC30040",
-        "original": "I have the man punished for his insolence",
-        "translation": "我让这个人因为他的傲慢而受罚",
-        "stage": 5
-    },
-    {
         "key": "EVTTOOLTIP30042",
         "original": "[Root.Spouse.GetTitledFirstName] becomes aware of [Root.GetTitledFirstName]'s distaste for the courtier",
         "translation": "[Root.Spouse.GetTitledFirstName]开始意识到[Root.GetTitledFirstName]对廷臣的厌恶。",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC30041",
-        "original": "My wife [Root.Spouse.GetTitledFirstName] has asked me to get rid of one of my courtiers whom she finds mighty annoying. On one hand, [Root.Spouse.GetFirstName] might not be happy if I refuse her request, but if I fire 'the annoying man' maybe people will feel my wife has too much influence over my actions.",
-        "translation": "我的妻子[Root.Spouse.GetTitledFirstName]要求我开除我的一个廷臣，她觉得这家伙无比烦人。一方面，如果我拒绝了她的请求，[Root.Spouse.GetFirstName]可能会不高兴，但如果我炒了这个「恼人」的家伙，人们也许会觉得我的妻子对我的行为影响太大了。",
         "stage": 5
     },
     {
@@ -13755,12 +13719,6 @@
         "key": "EVTOPTB30041",
         "original": "She should stay out of this!",
         "translation": "她不应该管这事！",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC30042",
-        "original": "Apparently, one of the courtiers has been annoying my wife [Root.Spouse.GetFirstName], and instead of asking me for help she took the matter in her own hands and made sure the courtier would never annoy her again or he'd know the consequences.",
-        "translation": "显然，一个廷臣已经惹恼了我的妻子[Root.Spouse.GetFirstName]，她决定自己动手处理此事，确保廷臣永远不会惹恼她，否则他将知道后果。",
         "stage": 5
     },
     {
@@ -13782,12 +13740,6 @@
         "stage": 5
     },
     {
-        "key": "EVTOPTA30045",
-        "original": "...jokingly push him into the river",
-        "translation": "……玩笑般地推他入河",
-        "stage": 5
-    },
-    {
         "key": "EVTTOOLTIP30046",
         "original": " drowns",
         "translation": "淹死",
@@ -13797,30 +13749,6 @@
         "key": "EVTTOOLTIP30047",
         "original": " survives",
         "translation": "幸存",
-        "stage": 5
-    },
-    {
-        "key": "EVTOPTB30045",
-        "original": "...order him to be quiet",
-        "translation": "……责令他安静",
-        "stage": 5
-    },
-    {
-        "key": "EVTOPTC30045",
-        "original": "...ignore his annoying comments",
-        "translation": "……忽略他的恼人的意见",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC30046",
-        "original": "The young man I pushed into the river ended up drowning. Although it was an accident rumors of my deed spread quickly.",
-        "translation": "我推入河中的年轻人最终淹死了。虽然这是个意外，我是故意的谣言迅速蔓延。",
-        "stage": 5
-    },
-    {
-        "key": "EVTOPTA30046",
-        "original": "I'll send gifts to his family",
-        "translation": "我会送礼物给他的家人",
         "stage": 5
     },
     {
@@ -13839,12 +13767,6 @@
         "key": "EVTOPTD30046",
         "original": "Anyone speaking of the event will be punished",
         "translation": "任何谈论这个事件的人将被处罚",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC30047",
-        "original": "Wet, but otherwise unharmed, the courtier blasted me with foul words and angry but empty threats. Seeing him standing before me dripping mud and with algae entwined into his hair, I couldn't stop the laughter pouring out of me.",
-        "translation": "他全身湿透，但是没有受伤。那个人用脏话和愤怒责骂我，但对我来说是空洞的威胁。看到他站在我面前满身泥沙，头发缠绕着藻类，我忍不住笑出了声。",
         "stage": 5
     },
     {
@@ -28322,8 +28244,8 @@
     {
         "key": "HINT_COMBAT_VIEW_TEXT_2",
         "original": "Combat starts in Skirmish Phase, when archers and horse archers are paramount unit types. Eventually, the flanks will close with each other and enter Melee phase, where heavy infantry and knights shine. When a flank flees, its opponent will be in Pursue phase, trying to run down as many enemies as possible. Here, light cavalry is best.",
-        "translation": "战斗在遭遇战阶段开始，这时弓箭手和弓骑兵是主要的兵种。最终，军队将互相接近并进入肉搏阶段，这时重步兵和骑士将闪耀光芒。当一支军队撤退时，他的对手将进入追击阶段，试图消灭尽可能多的敌人，这时，轻骑兵将是最好的。",
-        "stage": 5
+        "translation": "战斗在散兵战阶段开始，这时弓箭手和弓骑兵是主要的兵种。最终，军队将互相接近并进入肉搏战阶段，这时重步兵和骑士将闪耀光芒。当一支军队撤退时，他的对手将进入追击战阶段，试图消灭尽可能多的敌人，这时，轻骑兵将是最好的。",
+        "stage": 1
     },
     {
         "key": "HINT_COMBAT_VIEW_TEXT_3",
@@ -61195,9 +61117,9 @@
     },
     {
         "key": "b_friuli",
-        "original": "Friuli",
+        "original": "Tarcento",
         "translation": "弗留利",
-        "stage": 5
+        "stage": 0
     },
     {
         "key": "b_motta",
@@ -61213,15 +61135,15 @@
     },
     {
         "key": "b_ciridale",
-        "original": "Ciridale",
+        "original": "Cividale",
         "translation": "奇维达莱",
-        "stage": 5
+        "stage": 0
     },
     {
         "key": "b_portoguaro",
-        "original": "Portoguaro",
+        "original": "Portogruaro",
         "translation": "格鲁阿罗港",
-        "stage": 5
+        "stage": 0
     },
     {
         "key": "b_sacile",
@@ -105000,18 +104922,6 @@
         "stage": 5
     },
     {
-        "key": "TECH_CITY_CONSTRUCTION",
-        "original": "Town Infrastructure",
-        "translation": "城市设施",
-        "stage": 5
-    },
-    {
-        "key": "TECH_CITY_CONSTRUCTION_DESC",
-        "original": "Improved buildings for City holdings.",
-        "translation": "改进城市建筑",
-        "stage": 1
-    },
-    {
         "key": "TECH_TEMPLE_CONSTRUCTION",
         "original": "Church Infrastructure",
         "translation": "教堂设施",
@@ -108844,12 +108754,6 @@
         "original": "Occupation of §Y$TOWN$§W in §Y$PROVINCE$§W",
         "translation": "占领§Y$TOWN$§!在§Y$PROVINCE$§!",
         "stage": 1
-    },
-    {
-        "key": "NUDGE_4",
-        "original": "Port",
-        "translation": "Port",
-        "stage": 5
     },
     {
         "key": "UNKNOWN_LOCATION",
@@ -117248,8 +117152,8 @@
     {
         "key": "PHASE_SKIRMISH",
         "original": "Skirmish",
-        "translation": "遭遇战",
-        "stage": 5
+        "translation": "散兵战",
+        "stage": 1
     },
     {
         "key": "PHASE_MELEE",
@@ -117266,8 +117170,8 @@
     {
         "key": "COMBATVALUE_ATTVAL_DESC",
         "original": "Values in phases: Skirmish/Melee/Pursue",
-        "translation": "阶段：遭遇战/肉搏战/追击战",
-        "stage": 5
+        "translation": "阶段：散兵战/肉搏战/追击战",
+        "stage": 1
     },
     {
         "key": "COMBATVALUE_ATTVAL",

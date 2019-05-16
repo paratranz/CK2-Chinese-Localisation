@@ -519,7 +519,7 @@ SET_GUARDIAN_EFFECT;$GUARDIAN$成为了$WHO$的监护人。\n;;;;;;;;;;;;x
 BECOME_HERETIC_EFFECT;接受§Y$HERESY$§!的异端信仰。\n;;;;;;;;;;;;x
 ABANDON_HERESY_EFFECT;放弃§Y$HERESY$§!的异端信仰。\n;;;;;;;;;;;;x
 INFANT_CREATED;一个叫做§Y$NAME$§!的孩子出现在§Y$EMPLOYER$§!的宫廷。\n;;;;;;;;;;;;x
-CHARACTER_CREATED;$TYPE$出现在§Y$EMPLOYER$§!的宫廷。\n;;;;;;;;;;;;x
+CHARACTER_CREATED;$TYPE$ appears at the court of §Y$EMPLOYER$§!.\n;;;;;;;;;;;;x
 HEALTH_EFFECT;§Y$WHO$§W $DIRECTION$ $VALUE$ 健康。\n;;;;;;;;;;;;x
 FERTILITY_EFFECT;§Y$WHO$§W $DIRECTION$ $PERC$ 生育能力。\n;;;;;;;;;;;;x
 CHANGECULTUREEFFECT;§Y$WHERE$§!成为了§Y$NAME$人§!。\n;;;;;;;;;;;;x
@@ -573,7 +573,7 @@ COMBATEND_WEALTH_STOLEN;§Y围攻中劫掠的金钱§!;;;;;;;;;;;;x
 COMBATVIEW_TOTALTROOPS_FLANK;此路军队剩余部队：;;;;;;;;;;;;x
 COMBATVIEW_PHASE_NAME;此路军队正处于§Y$PHASE$阶段§W;;;;;;;;;;;;x
 COMBATVIEW_PHASE_DAMAGE;在$PHASE$阶段时此路军队每天每名士兵将平均造成§Y$AVERAGE$§W伤害;;;;;;;;;;;;x
-COMBATVIEW_PHASE_DESC_SKIRMISH;在射击阶段两军将保持距离\n§Y弓箭手§!，§Y弓骑兵§!和§Y轻骑兵§!擅长§Y遭遇阶段§!;;;;;;;;;;;;x
+COMBATVIEW_PHASE_DESC_SKIRMISH;在散兵战阶段两军将保持距离\n§Y弓箭手§W，§Y弓骑兵§W和§Y轻骑兵§W擅长§Y散兵战阶段§W;;;;;;;;;;;;x
 COMBATVIEW_PHASE_DESC_MELEE;在肉搏阶段两军面对面厮杀\n§Y重步兵§W，§Y长枪兵§W和§Y骑士§W擅长§Y肉搏阶段§W;;;;;;;;;;;;x
 COMBATVIEW_PHASE_DESC_PURSUE;在追击阶段败军溃散，胜者追亡逐北\n§Y骑士§!，§Y轻骑兵§!和§Y弓骑兵§!擅长§Y追击阶段§!;;;;;;;;;;;;x
 COMBATVIEW_TROOP_DEFENCE;（本阶段的平均防御力：§Y$DEF$§W）;;;;;;;;;;;;x
@@ -1045,7 +1045,7 @@ EVTOPTB3206;拒绝[From.GetHerHis]邀请.;;;;;;;;;;;;x
 EVTTOOLTIP3208;对你感到失望.;;;;;;;;;;;;x
 EVTDESC3207;[From.GetTitledFirstName]来到礼拜堂，[From.GetHerHis]眼中噙着泪花。我们祈祷了一整夜，直到太阳升起，努力祈求主的宽恕……;;;;;;;;;;;;x
 EVTOPTA3207;光荣不要归于我们……;;;;;;;;;;;;x
-EVTDESC3208;一整夜我独自一人呆在礼拜堂里，为拯救[From.GetTitledFirstName]的灵魂而努力祈祷.[From.GetSheHe]却一直没有来。;;;;;;;;;;;;x
+EVTDESC3208;一整夜我独自一人呆在礼拜堂里，为拯救[From.GetTitledFirstName]的灵魂而努力祈祷。[From.GetSheHeCap]却一直没有来。;;;;;;;;;;;;x
 EVTOPTA3208;我主请垂怜[From.GetHerHis]灵魂。;;;;;;;;;;;;x
 EVTDESC3220;我相信我有做大事的才能，因此我尽心尽力的去实现我的想法.;;;;;;;;;;;;x
 EVTOPTA3220;傲慢不是罪;;;;;;;;;;;;x
@@ -2284,30 +2284,17 @@ EVTDESC30037;尽管我去信警告[outside_spouse.GetTitledFirstName]放弃[outs
 EVTOPTA30037;我已经厌倦此事了。来，把你的[prisoner_spouse.GetManWoman]带回去吧。;;;;;;;;;;;;x
 EVTOPTB30037;卫兵！确保囚犯不会逃走;;;;;;;;;;;;x
 EVTOPTC30037;我确实警告过[outside_spouse.GetHerHim]，不是吗？;;;;;;;;;;;;x
-EVTDESC30040;我丈夫[Root.Spouse.GetTitledFirstName]聘请了一个令人难以置信的烦人的家伙来为我们服务。他的粗鲁永无止境，我不知道如何与他相处。他的举止很不得体。;;;;;;;;;;;;x
-EVTOPTA30040;我会尽可能不理他，我相信我丈夫的决定;;;;;;;;;;;;x
-EVTOPTB30040;如果可能的话，我会让他被解雇;;;;;;;;;;;;x
-EVTTOOLTIP30040;我要求我的[Root.Spouse.GetFirstName]炒了这个烦人的家伙;;;;;;;;;;;;x
-EVTOPTC30040;我让这个人因为他的傲慢而受罚;;;;;;;;;;;;x
 EVTTOOLTIP30042;[Root.Spouse.GetTitledFirstName]开始意识到[Root.GetTitledFirstName]对廷臣的厌恶。;;;;;;;;;;;;x
-EVTDESC30041;我的妻子[Root.Spouse.GetTitledFirstName]要求我开除我的一个廷臣，她觉得这家伙无比烦人。一方面，如果我拒绝了她的请求，[Root.Spouse.GetFirstName]可能会不高兴，但如果我炒了这个「恼人」的家伙，人们也许会觉得我的妻子对我的行为影响太大了。;;;;;;;;;;;;x
 EVTOPTA30041;我的[Root.Spouse.GetFirstName]的幸福对我更重要;;;;;;;;;;;;x
 EVTOPTB30041;她不应该管这事！;;;;;;;;;;;;x
-EVTDESC30042;显然，一个廷臣已经惹恼了我的妻子[Root.Spouse.GetFirstName]，她决定自己动手处理此事，确保廷臣永远不会惹恼她，否则他将知道后果。;;;;;;;;;;;;x
 EVTOPTA30042;到底她在想什么？！;;;;;;;;;;;;x
 EVTOPTB30042;她做的事是对的！;;;;;;;;;;;;x
 EVTDESC30045;我与几个人宫廷里的人一道沿河漫步，其中一个朝臣一直让我很恼火，所以我决定……;;;;;;;;;;;;x
-EVTOPTA30045;……玩笑般地推他入河;;;;;;;;;;;;x
 EVTTOOLTIP30046;淹死;;;;;;;;;;;;x
 EVTTOOLTIP30047;幸存;;;;;;;;;;;;x
-EVTOPTB30045;……责令他安静;;;;;;;;;;;;x
-EVTOPTC30045;……忽略他的恼人的意见;;;;;;;;;;;;x
-EVTDESC30046;我推入河中的年轻人最终淹死了。虽然这是个意外，我是故意的谣言迅速蔓延。;;;;;;;;;;;;x
-EVTOPTA30046;我会送礼物给他的家人;;;;;;;;;;;;x
 EVTOPTB30046;我要告诉公众发生了什么事;;;;;;;;;;;;x
 EVTOPTC30046;我从未想过要这么做！;;;;;;;;;;;;x
 EVTOPTD30046;任何谈论这个事件的人将被处罚;;;;;;;;;;;;x
-EVTDESC30047;他全身湿透，但是没有受伤。那个人用脏话和愤怒责骂我，但对我来说是空洞的威胁。看到他站在我面前满身泥沙，头发缠绕着藻类，我忍不住笑出了声。;;;;;;;;;;;;x
 EVTOPTA30047;对-对-对不起……哈哈哈哈！;;;;;;;;;;;;x
 EVTDESC30050;我的妻子[Root.Spouse.GetFirstName]一直抱怨我缺席如此频繁，所以当我发现我有一些额外的黄金，我决定给她买些不错的东西。也许是某些珠宝首饰？;;;;;;;;;;;;x
 EVTOPTA30050;这手镯真配……她眼睛的颜色;;;;;;;;;;;;x
@@ -4720,7 +4707,7 @@ HINT_UNIT_VIEW_TEXT_2;军队被组织成三个部分，左翼、中军和右翼�
 HINT_UNIT_VIEW_TEXT_3;军队在无法补给他们的省份上会受到损耗，在省份界面里查看补给上限。;;;;;;;;;;;;x
 HINT_COMBAT_VIEW_TITLE;战斗界面;;;;;;;;;;;;x
 HINT_COMBAT_VIEW_TEXT_1;在战斗中，军队的三个部分面对面交锋——左翼面对右翼，中央对抗中央，右翼面对左翼。;;;;;;;;;;;;x
-HINT_COMBAT_VIEW_TEXT_2;战斗在遭遇战阶段开始，这时弓箭手和弓骑兵是主要的兵种。最终，军队将互相接近并进入肉搏阶段，这时重步兵和骑士将闪耀光芒。当一支军队撤退时，他的对手将进入追击阶段，试图消灭尽可能多的敌人，这时，轻骑兵将是最好的。;;;;;;;;;;;;x
+HINT_COMBAT_VIEW_TEXT_2;战斗在散兵战阶段开始，这时弓箭手和弓骑兵是主要的兵种。最终，军队将互相接近并进入肉搏战阶段，这时重步兵和骑士将闪耀光芒。当一支军队撤退时，他的对手将进入追击战阶段，试图消灭尽可能多的敌人，这时，轻骑兵将是最好的。;;;;;;;;;;;;x
 HINT_COMBAT_VIEW_TEXT_3;在每个战斗阶段，各个部分的指挥官会根据他们的军事能力选定一个战术，这将很大程度上决定他们军队战斗的效率。;;;;;;;;;;;;x
 HINT_SIEGE_VIEW_TITLE;攻城界面;;;;;;;;;;;;x
 HINT_SIEGE_VIEW_TEXT_1;一次围攻的时长主要取决于地产的堡垒等级、守军的数量和围攻军队的数量。;;;;;;;;;;;;x
@@ -10199,11 +10186,11 @@ d_venice_adj;威尼斯;;;;;;;;;;;;x
 c_aquileia_adj;阿奎莱亚;;;;;;;;;;;;x
 b_aquileia;阿奎莱亚;;;;;;;;;;;;x
 b_udine;乌迪内;;;;;;;;;;;;x
-b_friuli;弗留利;;;;;;;;;;;;x
+b_friuli;Tarcento;;;;;;;;;;;;x
 b_motta;莫塔;;;;;;;;;;;;x
 b_concordia;康科迪亚;;;;;;;;;;;;x
-b_ciridale;奇维达莱;;;;;;;;;;;;x
-b_portoguaro;格鲁阿罗港;;;;;;;;;;;;x
+b_ciridale;Cividale;;;;;;;;;;;;x
+b_portoguaro;Portogruaro;;;;;;;;;;;;x
 b_sacile;萨奇莱;;;;;;;;;;;;x
 c_venezia_adj;威尼斯;;;;;;;;;;;;x
 b_venezia;威尼斯;;;;;;;;;;;;x
@@ -17500,8 +17487,6 @@ TECH_TEMPLE_TAXES;教会税;;;;;;;;;;;;x
 TECH_TEMPLE_TAXES_DESC;研究压榨当地牧师们的新方法;;;;;;;;;;;;x
 TECH_CASTLE_CONSTRUCTION;城堡设施;;;;;;;;;;;;x
 TECH_CASTLE_CONSTRUCTION_DESC;建造各种训练场和营地来提高征兵品质和规模。;;;;;;;;;;;;x
-TECH_CITY_CONSTRUCTION;城市设施;;;;;;;;;;;;x
-TECH_CITY_CONSTRUCTION_DESC;改进城市建筑;;;;;;;;;;;;x
 TECH_TEMPLE_CONSTRUCTION;教堂设施;;;;;;;;;;;;x
 TECH_TEMPLE_CONSTRUCTION_DESC;改进教堂建筑。;;;;;;;;;;;;x
 TECH_FORTIFICATIONS_CONSTRUCTION;防御工事;;;;;;;;;;;;x
@@ -18141,7 +18126,6 @@ TITLE_PRESTIGE;每月威望;;;;;;;;;;;;x
 TITLE_PIETY;每月[Player.Religion.GetPietyName];;;;;;;;;;;;x
 LOST_CONTROL;失去 §Y$TOWN$§!在§Y$PROVINCE$§!;;;;;;;;;;;;x
 HAS_CONTROL;占领§Y$TOWN$§!在§Y$PROVINCE$§!;;;;;;;;;;;;x
-NUDGE_4;Port;;;;;;;;;;;;x
 UNKNOWN_LOCATION;地点未知。;;;;;;;;;;;;x
 LIEGE_LONG_REIGN;长期统治;;;;;;;;;;;;x
 LIEGE_SHORT_REIGN;短暂统治;;;;;;;;;;;;x
@@ -19541,10 +19525,10 @@ GALLEYS_DISCIPLINE;船只训练度;;;;;;;;;;;;x
 GALLEYS_OFFENSIVE_FIRE;船只攻击;;;;;;;;;;;;x
 GALLEYS_DEFENSIVE_FIRE;船只防御;;;;;;;;;;;;x
 ESTIMATE_ARIVAL;将在§Y$DATE$§W抵达§Y$PROV$§W;;;;;;;;;;;;x
-PHASE_SKIRMISH;遭遇战;;;;;;;;;;;;x
+PHASE_SKIRMISH;散兵战;;;;;;;;;;;;x
 PHASE_MELEE;肉搏战;;;;;;;;;;;;x
 PHASE_PURSUE;追击战;;;;;;;;;;;;x
-COMBATVALUE_ATTVAL_DESC;阶段：遭遇战/肉搏战/追击战;;;;;;;;;;;;x
+COMBATVALUE_ATTVAL_DESC;阶段：散兵战/肉搏战/追击战;;;;;;;;;;;;x
 COMBATVALUE_ATTVAL;攻击值：§Y$S_VAL$§W/§Y$M_VAL$§W/§Y$P_VAL$§W;;;;;;;;;;;;x
 COMBATVALUE_DEFVAL;防御值：§Y$S_VAL$§W/§Y$M_VAL$§W/§Y$P_VAL$§W;;;;;;;;;;;;x
 COMBATVALUE_MODIFIER;修正：;;;;;;;;;;;;x
