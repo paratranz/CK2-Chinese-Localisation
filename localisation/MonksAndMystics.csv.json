@@ -511,9 +511,9 @@
     },
     {
         "key": "EVTOPTA_MNM_6259",
-        "original": "Allah is with us.",
-        "translation": "安拉与我们同在。",
-        "stage": 5
+        "original": "[Root.Religion.GetHighGodNameCap] is with us.",
+        "translation": "[Root.Religion.GetHighGodNameCap]与我们同在。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_6259_TT",
@@ -523,9 +523,9 @@
     },
     {
         "key": "EVTOPTB_MNM_6259",
-        "original": "Praise Allah!",
-        "translation": "赞美安拉！",
-        "stage": 5
+        "original": "Praise [Root.Religion.GetHighGodNameCap]!",
+        "translation": "赞美[Root.Religion.GetHighGodNameCap]！",
+        "stage": 1
     },
     {
         "key": "EVTOPTB_MNM_6259_TT",
@@ -579,12 +579,6 @@
         "key": "EVTOPTF_MNM_6259_TT",
         "original": "You fail your mission to train an apprentice.\\n",
         "translation": "你培养学徒的任务失败了。\\n",
-        "stage": 5
-    },
-    {
-        "key": "6252_CONVERT_APPRENTICE_TT",
-        "original": "§Y[assassin_protege.GetTitledFirstName]§! will offer [assassin_protege.GetHerselfHimself] up to Allah and convert to the religion of Shia Islam.",
-        "translation": "§Y[assassin_protege.GetTitledFirstName]§!将把[assassin_protege.GetHerselfHimself]献给安拉并且改信伊斯兰教什叶派。",
         "stage": 5
     },
     {
@@ -1759,9 +1753,9 @@
     },
     {
         "key": "EVTDESC_MNM_6005",
-        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nYour generous gift to the Order shall not be forgotten. The money will come to good use in the defense against those who threaten the true faith. \\n\\nPraise be to Allah!\\nSigned, Grand Master [From.GetFirstName]",
-        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n你慷慨献给组织的礼物永远不会被忘记。这些钱将在抵抗威胁真信的不义之徒中被妥善利用。\\n\\n赞美安拉！\\n此致，大长老[From.GetFirstName]",
-        "stage": 5
+        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nYour generous gift to the Order shall not be forgotten. The money will come to good use in the defense against those who threaten the true faith. \\n\\nPraise be to [Root.Religion.GetHighGodNameCap]!\\nSigned, Grand Master [From.GetFirstName]",
+        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n你慷慨献给组织的礼物永远不会被忘记。这些钱将在抵抗威胁真信的不义之徒中被妥善利用。\\n\\n赞美[Root.Religion.GetHighGodNameCap]！\\n此致，大长老[From.GetFirstName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_6005",
@@ -1771,21 +1765,21 @@
     },
     {
         "key": "EVTDESC_MNM_6006_A",
-        "original": "As-salaam alaykum, [Root.GetTitledFirstName],\\n\\nThe time has come for you to repay your debt to the Order. I trust you send me the [Root.assassins_debt.GetValue] gold as soon as you receive this letter.\\n\\nPraise be to Allah!\\nSigned, Grand Master [From.GetFirstName]",
-        "translation": "愿平安常伴你，[Root.GetTitledFirstName]，\\n\\n现在是你偿还组织债务的时候了，我相信你一收到信就会寄给我[Root.assassins_debt.GetValue]，不是吗？\\n\\n赞美安拉！\\n此致，大长老[From.GetFirstName]",
-        "stage": 5
+        "original": "As-salaam alaykum, [Root.GetTitledFirstName],\\n\\nThe time has come for you to repay your debt to the Order. I trust you send me the [Root.assassins_debt.GetValue] gold as soon as you receive this letter.\\n\\nPraise be to [Root.Religion.GetHighGodNameCap]!\\nSigned, Grand Master [From.GetFirstName]",
+        "translation": "愿平安常伴你，[Root.GetTitledFirstName]，\\n\\n现在是你偿还组织债务的时候了，我相信你一收到信就会寄给我[Root.assassins_debt.GetValue]，不是吗？\\n\\n赞美[Root.Religion.GetHighGodNameCap]！\\n此致，大长老[From.GetFirstName]",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6006_B",
-        "original": "As-salaam alaykum, [Root.GetTitledFirstName],\\n\\nThe time has come for you to repay your debt to the Order. If you cannot spare the [Root.assassins_debt.GetValue] gold, I have another suggestion. The order is in unending need of champions and your [child_offer.GetRootRelation] [child_offer.GetFirstName] would make an excellent addition to our ranks.\\n\\nPraise be to Allah!\\nSigned, Grand Master [From.GetFirstName]",
-        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n现在是你偿还组织债务的时候了，如果你付不起[Root.assassins_debt.GetValue]，那你还有另一条路可走。组织需要大批优秀人才，而你的儿子[child_offer.GetRootRelation][child_offer.GetFirstName]是一个不错的人选。\\n\\n赞美安拉！\\n此致，大长老[From.GetFirstName]",
-        "stage": 5
+        "original": "As-salaam alaykum, [Root.GetTitledFirstName],\\n\\nThe time has come for you to repay your debt to the Order. If you cannot spare the [Root.assassins_debt.GetValue] gold, I have another suggestion. The order is in unending need of champions and your [child_offer.GetRootRelation] [child_offer.GetFirstName] would make an excellent addition to our ranks.\\n\\nPraise be to [Root.Religion.GetHighGodNameCap]!\\nSigned, Grand Master [From.GetFirstName]",
+        "translation": "愿平安常伴你，[Root.GetTitledFirstName]，\\n\\n现在是你偿还组织债务的时候了，如果你付不起[Root.assassins_debt.GetValue]，那你还有另一条路可走。组织需要大批优秀人才，而你的儿子[child_offer.GetRootRelation][child_offer.GetFirstName]是一个不错的人选。\\n\\n赞美[Root.Religion.GetHighGodNameCap]！\\n此致，大长老[From.GetFirstName]",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6006_C",
-        "original": "As-salaam alaykum, [Root.GetTitledFirstName],\\n\\nThe time has come for you to repay your debt to the Order. If you cannot spare the [Root.assassins_debt.GetValue] gold, I have another suggestion. If you allow us to build a castle in [castle_offer.GetName] and aid us in its construction, your debt shall be forgotten.\\n\\nPraise be to Allah!\\nSigned, Grand Master [From.GetFirstName]",
-        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n现在是你偿还组织债务的时候了，如果你付不起[Root.assassins_debt.GetValue]，那你还有另一条路可走。如果你允许我们在[castle_offer.GetName]修建一个城堡并且在修建过程中施以援手，那我们之间的帐就一笔勾销了。\\n\\n赞美安拉！\\n此致，大长老[From.GetFirstName]",
-        "stage": 5
+        "original": "As-salaam alaykum, [Root.GetTitledFirstName],\\n\\nThe time has come for you to repay your debt to the Order. If you cannot spare the [Root.assassins_debt.GetValue] gold, I have another suggestion. If you allow us to build a castle in [castle_offer.GetName] and aid us in its construction, your debt shall be forgotten.\\n\\nPraise be to [Root.Religion.GetHighGodNameCap]!\\nSigned, Grand Master [From.GetFirstName]",
+        "translation": "愿平安常伴你，[Root.GetTitledFirstName]，\\n\\n现在是你偿还组织债务的时候了，如果你付不起[Root.assassins_debt.GetValue]，那你还有另一条路可走。如果你允许我们在[castle_offer.GetName]修建一个城堡并且在修建过程中施以援手，那我们之间的帐就一笔勾销了。\\n\\n赞美[Root.Religion.GetHighGodNameCap]！\\n此致，大长老[From.GetFirstName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_6006",
@@ -2497,9 +2491,9 @@
     },
     {
         "key": "EVTDESC_MNM_6020_B",
-        "original": "Most guests have departed and evening has turned into early morning, yet I [assassins_recruiter.GetTitledFirstName] and are still deep in conversation. We are discussing a hadith [assassins_recruiter.GetFirstName] just read. [assassins_recruiter.GetSheHeCap] suggest that its narrator, Abu Hurairah, might be unreliable and asks if the hadiths recorded by Ali are not preferable.",
+        "original": "Most guests have departed and evening has turned into early morning, yet I and [assassins_recruiter.GetTitledFirstName] are still deep in conversation. We are discussing a hadith [assassins_recruiter.GetFirstName] just read. [assassins_recruiter.GetSheHeCap] suggest that its narrator, Abu Hurairah, might be unreliable and asks if the hadiths recorded by Ali are not preferable.",
         "translation": "夜去晨来，大多数的来宾已经离去，但我与[assassins_recruiter.GetTitledFirstName]仍旧沉浸于谈话之中。我们正在讨论[assassins_recruiter.GetFirstName]最近读过的圣训。[assassins_recruiter.GetSheHeCap]暗示圣训的传述者，艾布·胡莱伊勒可能不可靠，并疑惑阿里记录的圣训会不会更好。",
-        "stage": 5
+        "stage": 0
     },
     {
         "key": "EVTOPTA_6020_NOTMUSLIM",
@@ -2521,9 +2515,9 @@
     },
     {
         "key": "EVTOPTB_6020_MUSLIM",
-        "original": "[assassins_recruiter.GetFirstName], you sound like a mindless Shiite!",
+        "original": "[assassins_recruiter.GetFirstName], you sound like a mindless [shiite.GetName]!",
         "translation": "[assassins_recruiter.GetFirstName]，你仿佛一个愚蠢的什叶派教徒！",
-        "stage": 5
+        "stage": 0
     },
     {
         "key": "opinion_agreed_with_opinion",
@@ -2652,12 +2646,6 @@
         "stage": 5
     },
     {
-        "key": "EVTDESC_MNM_6024",
-        "original": "We are quiet for a moment, both seemingly contemplating these devoted souls. Then [From.GetFirstName] looks up at me, a curious intensity in [From.GetHerHis] gaze. \"That is not an impossible wish, [Root.GetFirstName]. Are you ready to kill and, if He wills it, get killed to defend the words of His Prophet and the rightful heir?\"",
-        "translation": "我们沉默了片刻，似乎都在考量这些忠诚的灵魂。然后[From.GetFirstName]抬头看着我，[From.GetHerHis]眼神中充满了好奇。「那倒不是一个不可能的愿望，[Root.GetFirstName]。你是否做好杀人的准备，或者依照祂的旨意，为了捍卫祂的先知和继承人的话语而牺牲？」",
-        "stage": 5
-    },
-    {
         "key": "EVTOPTA_6024",
         "original": "I am, [From.GetFirstName]. And you say there is a way?",
         "translation": "我愿意，[From.GetFirstName]。你说你有办法？",
@@ -2712,12 +2700,6 @@
         "stage": 5
     },
     {
-        "key": "EVTDESC_MNM_6027",
-        "original": "\"I do, [Root.GetFirstName],\" says [From.GetTitledFirstName] with a solemn, almost ceremonial, voice. \"There is an Order devoted to Allah and the rightful Caliph. One that defends those true of faith and bring vengeance to their persecutors. The Assassins are always in need of champions. Think it over, and someone might reach out...\"",
-        "translation": "「是的，[Root.GetFirstName]，」[From.GetTitledFirstName]用庄严，几乎是仪式性的语气说。「有一个为安拉和正统哈里发效力的教团。他们保护真正的信徒，并向迫害者复仇。阿萨辛需要人才。好好考虑一下，有人会联系你的……」",
-        "stage": 5
-    },
-    {
         "key": "EVTOPTA_6027",
         "original": "Me, an Assassin? Perhaps this is my destiny...",
         "translation": "我将成为一名刺客？或许这就是我的宿命……",
@@ -2733,12 +2715,6 @@
         "key": "EVTDESC_MNM_6028",
         "original": "My eyes open, seeing only darkness. For a moment, my mind is blank, before the first thoughts get through the haze of sleep. Why did I wake up? A deep [Root.GetManWoman]'s voice cuts through the silence, startling me. \"The time has come for you to profess your devoutness to Allah and the rightful imam Ali.\"",
         "translation": "我睁着眼睛，却只能看见黑暗。在第一个念头穿过睡眠的阴霾之前我的大脑一片空白。为什么我醒了？一个低沉的[Root.GetManWoman]的声音刺破寂静，惊醒了我。「是时候向安拉和正统伊玛目阿里献上你的虔诚了。」",
-        "stage": 5
-    },
-    {
-        "key": "EVTOPTA_6028",
-        "original": "Allahu akbar! Glory to Ali!",
-        "translation": "安拉至大！荣耀归于阿里！",
         "stage": 5
     },
     {
@@ -2833,9 +2809,9 @@
     },
     {
         "key": "EVTDESC_MNM_6033",
-        "original": "As-salaam alaykum, [Root.GetTitledFirstName]\\nYou are hereby invited to the Assassins stronghold in [inductor_rendezvous.County.GetName]. Arrive at the [inductor_rendezvous.GetHolding] of [inductor_rendezvous.GetName] in a fortnight's time. One of our people will collect you there. Until then, keep safe, and breath not a word of this meeting to any living soul.\\n\\nPraise be to Allah!\\nSigned, [From.GetSocietyRank] [From.GetFirstName]",
-        "translation": "愿平安常伴你，[Root.GetTitledFirstName]\\n您被邀请参加[inductor_rendezvous.County.GetName]中的刺客据点。请在两周的时间内抵达[inductor_rendezvous.GetName]的[inductor_rendezvous.GetHolding]。我们的一位成员将在那里接您。在此之前，请保持安全，并且不要给任何活人透露这次会面的消息。\\n\\n赞美安拉！\\n此致，[From.GetSocietyRank][From.GetFirstName]",
-        "stage": 5
+        "original": "As-salaam alaykum, [Root.GetTitledFirstName]\\nYou are hereby invited to the Assassins stronghold in [inductor_rendezvous.County.GetName]. Arrive at the [inductor_rendezvous.GetHolding] of [inductor_rendezvous.GetName] in a fortnight's time. One of our people will collect you there. Until then, keep safe, and breath not a word of this meeting to any living soul.\\n\\nPraise be to [Root.Religion.GetHighGodNameCap]!\\nSigned, [From.GetSocietyRank] [From.GetFirstName]",
+        "translation": "愿平安常伴你，[Root.GetTitledFirstName]\\n您被邀请参加[inductor_rendezvous.County.GetName]中的刺客据点。请在两周的时间内抵达[inductor_rendezvous.GetName]的[inductor_rendezvous.GetHolding]。我们的一位成员将在那里接您。在此之前，请保持安全，并且不要给任何活人透露这次会面的消息。\\n\\n赞美[Root.Religion.GetHighGodNameCap]！\\n此致，[From.GetSocietyRank][From.GetFirstName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_6033",
@@ -2881,9 +2857,9 @@
     },
     {
         "key": "EVTDESC_MNM_6036_B",
-        "original": "\"This,\" [From.GetSocietyRank] [From.GetFirstName] says solemnly as I enter, \"is your test\". With these words, [From.GetSheHe] pulls the hood from the [Root.GetManWoman]'s head. It is one of my servants! The chock in [Root.GetHerHis] eyes must be mirroring my own. \"This [Root.GetManWoman] is an enemy of our faith. End [Root.GetHerHim].\" The [From.GetSocietyRank] offers me a dagger.",
+        "original": "\"This,\" [From.GetSocietyRank] [From.GetFirstName] says solemnly as I enter, \"is your test\". With these words, [From.GetSheHe] pulls the hood from the [Root.GetManWoman]'s head. It is one of my servants! The shock in [Root.GetHerHis] eyes must be mirroring my own. \"This [Root.GetManWoman] is an enemy of our faith. End [Root.GetHerHim].\" The [From.GetSocietyRank] offers me a dagger.",
         "translation": "「这，」当我进来之后，[From.GetSocietyRank][From.GetFirstName]严肃地说道，「是你的考验。」说着，[From.GetSheHe]从这[Root.GetManWoman]头上拉下了兜帽。这是我的一个仆人！[Root.GetHerHis]眼中所映出的应该是我自己。「这个[Root.GetManWoman]是我们信仰的敌人。杀了[Root.GetHerHim]。」[From.GetSocietyRank]给了我一把匕首。",
-        "stage": 5
+        "stage": 0
     },
     {
         "key": "EVTOPTA_6036",
@@ -2929,9 +2905,9 @@
     },
     {
         "key": "EVTOPTA_6037",
-        "original": "My life for Allah! Praised be the Assassins!",
-        "translation": "我命归于安拉！阿萨辛万岁！",
-        "stage": 5
+        "original": "My life for [Root.Religion.GetHighGodNameCap]! Praised be the Assassins!",
+        "translation": "我命归于[Root.Religion.GetHighGodNameCap]！阿萨辛万岁！",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6038_A",
@@ -3001,9 +2977,9 @@
     },
     {
         "key": "EVTDESC_MNM_6041_A",
-        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nThe recruit you sent us, [assassins_recruitee.GetTitledFirstName], has now completed [assassins_recruitee.GetHerHis] induction into the order. I thank you for this contribution – it will not be forgotten.\\n\\nPraise be to Allah!\\nSigned, Grand Master [From.GetFirstName]",
-        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n你送来的新成员，[assassins_recruitee.GetTitledFirstName]已经完成了[assassins_recruitee.GetHerHis]入门仪式。感谢你的贡献——这不会被遗忘。\\n\\n赞美安拉！\\n此致，大长老[From.GetFirstName]",
-        "stage": 5
+        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nThe recruit you sent us, [assassins_recruitee.GetTitledFirstName], has now completed [assassins_recruitee.GetHerHis] induction into the order. I thank you for this contribution – it will not be forgotten.\\n\\nPraise be to [Root.Religion.GetHighGodNameCap]!\\nSigned, Grand Master [From.GetFirstName]",
+        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n你送来的新成员，[assassins_recruitee.GetTitledFirstName]已经完成了[assassins_recruitee.GetHerHis]入门仪式。感谢你的贡献——这不会被遗忘。\\n\\n赞美[Root.Religion.GetHighGodNameCap]！\\n此致，大长老[From.GetFirstName]",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6041_B",
@@ -3045,12 +3021,6 @@
         "key": "EVTDESC_MNM_6202_MARKED_FOR_DEATH",
         "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nI call upon you to take a life in the name of the Order. [assassins_target.GetTitledName] is a wicked [assassins_target.GetManWoman], an enemy of all that which we hold dear. End [assassins_target.GetHerHim], [Root.GetSocietyRank], and make sure [assassins_target.GetSheHe] suffers.\\n\\nSigned, [From.GetSocietyRank] [From.GetFirstName]",
         "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n我号召你以教团之名取人性命。[assassins_target.GetTitledName]是个邪恶的[assassins_target.GetManWoman]，是所有我们所珍重事物的敌人。了结[assassins_target.GetHerHim]，[Root.GetSocietyRank]，确保[assassins_target.GetSheHe]遭受痛苦。\\n\\n此致，[From.GetSocietyRank][From.GetFirstName]",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC_MNM_6202_PERSECUTED_SHIITES",
-        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nFor far too long, the gentle Shi'a of [shiite_province.GetName] has suffered under the cruel rule of [assassins_target.GetTitledFirstName]. It is your sacred duty to end [assassins_target.GetHerHim] and liberate our people. Turn [assassins_target.GetHerHim] into an example to fill our enemies' hearts with dread.\\n\\nSigned, [From.GetSocietyRank] [From.GetFirstName]",
-        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n很久以来，[shiite_province.GetName]的温和的什叶派信徒饱受[assassins_target.GetTitledFirstName]的残暴统治。你的神圣使命就是铲除[assassins_target.GetHerHim]，解放我们的人民。让[assassins_target.GetHerHim]的死给敌人一个教训，使他们心中充满恐惧。.\\n\\n此致，[From.GetSocietyRank][From.GetFirstName]",
         "stage": 5
     },
     {
@@ -3235,9 +3205,9 @@
     },
     {
         "key": "EVTDESC_MNM_6105_B",
-        "original": "\"No one escapes Allah's judgment, or the Assassins.\" There is nowhere to run. Nothing within reach to use as a weapon. [assassin.GetSheHeCap] points the dagger at me, and says solemnly: \"[Root.GetAssassinsCrimeOutcry], [Root.GetFirstName].\"",
-        "translation": "「没人能逃过安拉的审判，也没人逃得过阿萨辛。」我已经无处可逃了，也没有可以拿来防身的武器。[assassin.GetSheHeCap]用他的匕首指着我，继续严肃地说：「[Root.GetAssassinsCrimeOutcry]，[Root.GetFirstName]。」",
-        "stage": 5
+        "original": "\"No one escapes [Root.Religion.GetHighGodNameCap]'s judgment, or the Assassins.\" There is nowhere to run. Nothing within reach to use as a weapon. [assassin.GetSheHeCap] points the dagger at me, and says solemnly: \"[Root.GetAssassinsCrimeOutcry], [Root.GetFirstName].\"",
+        "translation": "「没人能逃过[Root.Religion.GetHighGodNameCap]的审判，也没人逃得过阿萨辛。」我已经无处可逃了，也没有可以拿来防身的武器。[assassin.GetSheHeCap]用他的匕首指着我，继续严肃地说：「[Root.GetAssassinsCrimeOutcry]，[Root.GetFirstName]。」",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6105_C",
@@ -3247,15 +3217,15 @@
     },
     {
         "key": "EVTDESC_MNM_6105_D",
-        "original": "\"The time has come for the judgment of Allah!\" The guests fall silent as the [assassin.GetManWoman]'s shout echoes through the hall. A flash of gleaming metal, and then blood, pouring from between my fingers. A soft whisper as the world grows dim: \"[Root.GetAssassinsCrimeOutcry], [Root.GetFirstName].\"",
-        "translation": "「迎接安拉的审判吧！」[assassin.GetManWoman]的叫喊回荡在山谷间，让客人们都说不出话来。寒光一闪而过，鲜血随之从我的指间流出。在我眼前世界陷入昏暗前，我听到了一阵低语：「[Root.GetAssassinsCrimeOutcry]，[Root.GetFirstName]。」",
-        "stage": 5
+        "original": "\"The time has come for the judgment of [Root.Religion.GetHighGodNameCap]!\" The guests fall silent as the [assassin.GetManWoman]'s shout echoes through the hall. A flash of gleaming metal, and then blood, pouring from between my fingers. A soft whisper as the world grows dim: \"[Root.GetAssassinsCrimeOutcry], [Root.GetFirstName].\"",
+        "translation": "「迎接[Root.Religion.GetHighGodNameCap]的审判吧！」[assassin.GetManWoman]的叫喊回荡在山谷间，让客人们都说不出话来。寒光一闪而过，鲜血随之从我的指间流出。在我眼前世界陷入昏暗前，我听到了一阵低语：「[Root.GetAssassinsCrimeOutcry]，[Root.GetFirstName]。」",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6105_E",
-        "original": "\"No one escapes Allah's judgment, or the Assassins.\" The [assassin.GetManWoman]'s voice is deep, solemn. \"[Root.GetAssassinsCrimeOutcry], [Root.GetFirstName].\" The moonlight reflects in the dagger as [assassin.GetSheHe] raises it over her head. I close my eyes.",
-        "translation": "「没人能逃过安拉的审判，也没人逃得过阿萨辛。」[assassin.GetManWoman]的声音低沉而严肃，「[Root.GetAssassinsCrimeOutcry]，[Root.GetFirstName]。」月光从[assassin.GetSheHe]举过头顶的匕首上反射出来，我闭上了眼睛。",
-        "stage": 5
+        "original": "\"No one escapes [Root.Religion.GetHighGodNameCap]'s judgment, or the Assassins.\" The [assassin.GetManWoman]'s voice is deep, solemn. \"[Root.GetAssassinsCrimeOutcry], [Root.GetFirstName].\" The moonlight reflects in the dagger as [assassin.GetSheHe] raises it over her head. I close my eyes.",
+        "translation": "「没人能逃过[Root.Religion.GetHighGodNameCap]的审判，也没人逃得过阿萨辛。」[assassin.GetManWoman]的声音低沉而严肃，「[Root.GetAssassinsCrimeOutcry]，[Root.GetFirstName]。」月光从[assassin.GetSheHe]举过头顶的匕首上反射出来，我闭上了眼睛。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_6105",
@@ -3307,15 +3277,15 @@
     },
     {
         "key": "EVTDESC_MNM_6108_A",
-        "original": "\"I am here to carry out Allah's judgment, [Root.GetFirstName].\" The [assassin.GetManWoman]'s voice rises to a loud shout, \"[Root.GetAssassinsCrimeOutcry]!\" As I attempt to deflect the dagger, I manage to tear off [assassin.GetHerHis] mask, revealing a [assassin.GetFaceDescription] face. It is the last thing I see.",
-        "translation": "「我来这是为了执行安拉的审判，[Root.GetFirstName]。」[assassin.GetManWoman]的声音越来越高，终于吼叫了出来，「[Root.GetAssassinsCrimeOutcry]！」当我试图挡住匕首时，我扯下了[assassin.GetHerHis]兜帽，露出了一张[assassin.GetFaceDescription]脸，那是我能看见的最后的东西。",
-        "stage": 5
+        "original": "\"I am here to carry out [Root.Religion.GetHighGodNameCap]'s judgment, [Root.GetFirstName].\" The [assassin.GetManWoman]'s voice rises to a loud shout, \"[Root.GetAssassinsCrimeOutcry]!\" As I attempt to deflect the dagger, I manage to tear off [assassin.GetHerHis] mask, revealing a [assassin.GetFaceDescription] face. It is the last thing I see.",
+        "translation": "「我来这是为了执行[Root.Religion.GetHighGodNameCap]的审判，[Root.GetFirstName]。」[assassin.GetManWoman]的声音越来越高，终于吼叫了出来，「[Root.GetAssassinsCrimeOutcry]！」当我试图挡住匕首时，我扯下了[assassin.GetHerHis]兜帽，露出了一张[assassin.GetFaceDescription]脸，那是我能看见的最后的东西。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6108_B",
-        "original": "\"No one escapes Allah's judgment, or the Assassins.\" There is no where to run. Nothing within reach to use as a weapon. So I shout. As [assassin.GetManWoman] launches [assassin.GetHerselfHimself] at me and in my attempt to defend myself I tear [assassin.GetHerHis] mask off, revealing a [assassin.GetFaceDescription] face. It is the last thing I see.",
-        "translation": "「没人能逃过安拉的审判，也没人逃得过阿萨辛。」无路可逃，没有任何触及到的东西可以当做武器。所以我大声呼救。当[assassin.GetManWoman]将[assassin.GetHerselfHimself]朝我冲过来时，我试图保护我自己。我扯下了[assassin.GetHerHis]面具，看到了一张[assassin.GetFaceDescription]脸。这是我死前看到的最后的事物。",
-        "stage": 5
+        "original": "\"No one escapes [Root.Religion.GetHighGodNameCap]'s judgment, or the Assassins.\" There is no where to run. Nothing within reach to use as a weapon. So I shout. As [assassin.GetManWoman] launches [assassin.GetHerselfHimself] at me and in my attempt to defend myself I tear [assassin.GetHerHis] mask off, revealing a [assassin.GetFaceDescription] face. It is the last thing I see.",
+        "translation": "「没人能逃过[Root.Religion.GetHighGodNameCap]的审判，也没人逃得过阿萨辛。」无路可逃，没有任何触及到的东西可以当做武器。所以我大声呼救。当[assassin.GetManWoman]将[assassin.GetHerselfHimself]朝我冲过来时，我试图保护我自己。我扯下了[assassin.GetHerHis]面具，看到了一张[assassin.GetFaceDescription]脸。这是我死前看到的最后的事物。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6108_C",
@@ -3331,9 +3301,9 @@
     },
     {
         "key": "EVTDESC_MNM_6108_E",
-        "original": "My feeble cries seems to have alerted the guards, but they are too slow. \"No one escapes Allah's judgment, or the Assassins. [Root.GetAssassinsCrimeOutcry], [Root.GetFirstName].\" As [assassin.GetSheHe] raises the dagger, I struggle and manage to tear off the assassin's mask, revealing a [assassin.GetFaceDescription] face. It is the last thing I see.",
-        "translation": "我微弱的喊声似乎已经惊动了卫兵，但他们太慢了。「没人能逃的过安拉的审判，也没人逃得过阿萨辛。[Root.GetAssassinsCrimeOutcry]，[Root.GetFirstName]。」当[assassin.GetSheHe]举起匕首，我挣扎着撕开了刺客的面具，看到一张[assassin.GetFaceDescription]脸。这是我看到的最后一件事。",
-        "stage": 5
+        "original": "My feeble cries seems to have alerted the guards, but they are too slow. \"No one escapes [Root.Religion.GetHighGodNameCap]'s judgment, or the Assassins. [Root.GetAssassinsCrimeOutcry], [Root.GetFirstName].\" As [assassin.GetSheHe] raises the dagger, I struggle and manage to tear off the assassin's mask, revealing a [assassin.GetFaceDescription] face. It is the last thing I see.",
+        "translation": "我微弱的喊声似乎已经惊动了卫兵，但他们太慢了。「没人能逃的过[Root.Religion.GetHighGodNameCap]的审判，也没人逃得过阿萨辛。[Root.GetAssassinsCrimeOutcry]，[Root.GetFirstName]。」当[assassin.GetSheHe]举起匕首，我挣扎着撕开了刺客的面具，看到一张[assassin.GetFaceDescription]脸。这是我看到的最后一件事。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6109_A",
@@ -3379,9 +3349,9 @@
     },
     {
         "key": "EVTDESC_MNM_6110",
-        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nYour wish has been fulfilled – the despicable [plot_target.GetTitledName] is dead. Unfortunately, however, there was an incident. My identity was discovered and I fear they can track the killing back to you, [Root.GetSocietyRank]. I am most sorry.\\n\\nPraised be Allah,\\nSigned, [assassin.GetSocietyRank] [assassin.GetFirstName]",
-        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n你的愿望已经实现——卑鄙的[plot_target.GetTitledName]已经死了。不幸的是，有点儿意外，我的身份被发现了，我担心他们会追查到你的头上，[Root.GetSocietyRank]。万分抱歉。\\n\\n赞美安拉，\\n此致，[assassin.GetSocietyRank][assassin.GetFirstName]",
-        "stage": 5
+        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nYour wish has been fulfilled – the despicable [plot_target.GetTitledName] is dead. Unfortunately, however, there was an incident. My identity was discovered and I fear they can track the killing back to you, [Root.GetSocietyRank]. I am most sorry.\\n\\nPraised be [Root.Religion.GetHighGodNameCap],\\nSigned, [assassin.GetSocietyRank] [assassin.GetFirstName]",
+        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n你的愿望已经实现——卑鄙的[plot_target.GetTitledName]已经死了。不幸的是，有点儿意外，我的身份被发现了，我担心他们会追查到你的头上，[Root.GetSocietyRank]。万分抱歉。\\n\\n赞美[Root.Religion.GetHighGodNameCap]，\\n此致，[assassin.GetSocietyRank][assassin.GetFirstName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_6110",
@@ -3397,15 +3367,15 @@
     },
     {
         "key": "EVTDESC_MNM_6111_A",
-        "original": "\"I am here to carry out Allah's judgment, [Root.GetFirstName]. [Root.GetAssassinsCrimeOutcry]!\" The [assassin.GetManWoman] on top of me pulls a dagger from [assassin.GetHerHis] robes. I lunge for it, hitting it out of [assassin.GetHerHis] hand. I shout, drawing the attention of the crowd, and within heartbeats my assailant and I are separated.",
-        "translation": "「我来这是为了执行安拉的审判，[Root.GetFirstName]。[Root.GetAssassinsCrimeOutcry]！」那个在我上方的[assassin.GetManWoman]从[assassin.GetHerHis]法袍中掏出一把匕首。我扑了上去，将匕首从[assassin.GetHerHis]手中击落。我大声呼喊，吸引附近人的注意，转瞬之间那个攻击我的人就被拉开了。",
-        "stage": 5
+        "original": "\"I am here to carry out [Root.Religion.GetHighGodNameCap]'s judgment, [Root.GetFirstName]. [Root.GetAssassinsCrimeOutcry]!\" The [assassin.GetManWoman] on top of me pulls a dagger from [assassin.GetHerHis] robes. I lunge for it, hitting it out of [assassin.GetHerHis] hand. I shout, drawing the attention of the crowd, and within heartbeats my assailant and I are separated.",
+        "translation": "「我来这是为了执行[Root.Religion.GetHighGodNameCap]的审判，[Root.GetFirstName]。[Root.GetAssassinsCrimeOutcry]！」那个在我上方的[assassin.GetManWoman]从[assassin.GetHerHis]法袍中掏出一把匕首。我扑了上去，将匕首从[assassin.GetHerHis]手中击落。我大声呼喊，吸引附近人的注意，转瞬之间那个攻击我的人就被拉开了。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6111_B",
-        "original": "\"No one escapes Allah's judgment, or the Assassins.\" As the [assassin.GetManWoman] raises [assassin.GetHerHis] dagger, I do the only thing I can think of. I tackle [assassin.GetHerHim] to the filthy cell floor and run. I wake the snoring jailer as I sprint past. [Host.GetSheHeCap] catches me within a few heartbeats, but at least the assassin is gone.",
-        "translation": "「没人能逃过安拉的审判，也没人逃得过阿萨辛。」当[assassin.GetManWoman]举起了[assassin.GetHerHis]匕首，我做了我脑子里唯一能想到的事。我把[assassin.GetHerHim]摔在肮脏的地板上，转身就跑。我逃跑时吵醒了正在打呼的狱卒。[Host.GetSheHeCap]马上就抓住了我，但至少刺客离开了。",
-        "stage": 5
+        "original": "\"No one escapes [Root.Religion.GetHighGodNameCap]'s judgment, or the Assassins.\" As the [assassin.GetManWoman] raises [assassin.GetHerHis] dagger, I do the only thing I can think of. I tackle [assassin.GetHerHim] to the filthy cell floor and run. I wake the snoring jailer as I sprint past. [Host.GetSheHeCap] catches me within a few heartbeats, but at least the assassin is gone.",
+        "translation": "「没人能逃过[Root.Religion.GetHighGodNameCap]的审判，也没人逃得过阿萨辛。」当[assassin.GetManWoman]举起了[assassin.GetHerHis]匕首，我做了我脑子里唯一能想到的事。我把[assassin.GetHerHim]摔在肮脏的地板上，转身就跑。我逃跑时吵醒了正在打呼的狱卒。[Host.GetSheHeCap]马上就抓住了我，但至少刺客离开了。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6111_C",
@@ -3415,15 +3385,15 @@
     },
     {
         "key": "EVTDESC_MNM_6111_D",
-        "original": "\"The time has come for the judgment of Allah!\" The [assassin.GetManWoman] reaches for something inside [assassin.GetHerHis] robes, but then someone grabs me from behind, pulling me back. One of the guards tackle the assassin to the floor. There is blood, but it is not my assailant's. A moment later, [assassin.GetSheHe] is gone.",
-        "translation": "「迎接安拉的审判吧！」说着，[assassin.GetManWoman]将手伸进[assassin.GetHerHis]长袍里掏出了武器。然后我被一个人拉到身后。我的一个卫兵将刺客撞倒。我看到了血，但不是刺客的。过了一会儿，[assassin.GetSheHe]不见了。",
-        "stage": 5
+        "original": "\"The time has come for the judgment of [Root.Religion.GetHighGodNameCap]!\" The [assassin.GetManWoman] reaches for something inside [assassin.GetHerHis] robes, but then someone grabs me from behind, pulling me back. One of the guards tackle the assassin to the floor. There is blood, but it is not my assailant's. A moment later, [assassin.GetSheHe] is gone.",
+        "translation": "「迎接[Root.Religion.GetHighGodNameCap]的审判吧！」说着，[assassin.GetManWoman]将手伸进[assassin.GetHerHis]长袍里掏出了武器。然后我被一个人拉到身后。我的一个卫兵将刺客撞倒。我看到了血，但不是刺客的。过了一会儿，[assassin.GetSheHe]不见了。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6111_E",
-        "original": "\"No one escapes Allah's judgment, or the Assassins.\" There is nothing I can do but scream, so I do. Impressively so. There are echoes of footsteps and clashing metal from outside. Before my assailant can finish the deed, four guards burst through the [Root.GetChamberOpening]. The strange [assassin.GetManWoman] gives me one look and then [assassin.GetSheHe] is gone.",
-        "translation": "「没人能逃过安拉的审判，也没人逃得过阿萨辛。」我什么都做不了，只能尖叫，所以我尖叫了，十分大声。外面回荡着脚步声和金属碰撞的声音。在行刺者得以成功前，四个守卫穿[Root.GetChamberOpening]而入。陌生的[assassin.GetManWoman]看了我一眼，然后[assassin.GetSheHe]离开了。",
-        "stage": 5
+        "original": "\"No one escapes [Root.Religion.GetHighGodNameCap]'s judgment, or the Assassins.\" There is nothing I can do but scream, so I do. Impressively so. There are echoes of footsteps and clashing metal from outside. Before my assailant can finish the deed, four guards burst through the [Root.GetChamberOpening]. The strange [assassin.GetManWoman] gives me one look and then [assassin.GetSheHe] is gone.",
+        "translation": "「没人能逃过[Root.Religion.GetHighGodNameCap]的审判，也没人逃得过阿萨辛。」我什么都做不了，只能尖叫，所以我尖叫了，十分大声。外面回荡着脚步声和金属碰撞的声音。在行刺者得以成功前，四个守卫穿[Root.GetChamberOpening]而入。陌生的[assassin.GetManWoman]看了我一眼，然后[assassin.GetSheHe]离开了。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_6111",
@@ -3457,15 +3427,15 @@
     },
     {
         "key": "EVTDESC_MNM_6112_D",
-        "original": "\"The time has come for the judgment of Allah!\" I raised my dagger, ready to strike, but then someone tackled me from behind. I stabbed, blade tearing flesh, hot blood running down my arm. When I got to my feet, [plot_target.GetFirstName] was outside of my reach. There were too many people, and weapons, between us. I turned around and ran.",
-        "translation": "「迎接安拉的审判吧！」我高高扬起了我的匕首，准备狠狠捅下去，但什么人从后面架住了我。我乱戳乱刺，刀刃划伤了自己，鲜血从我的手臂上流下。当我挣扎着站起时，我已经够不着[plot_target.GetFirstName]了。有太多的人拿着武器挡在我们中间，我转过头就逃开了。",
-        "stage": 5
+        "original": "\"The time has come for the judgment of [Root.Religion.GetHighGodNameCap]!\" I raised my dagger, ready to strike, but then someone tackled me from behind. I stabbed, blade tearing flesh, hot blood running down my arm. When I got to my feet, [plot_target.GetFirstName] was outside of my reach. There were too many people, and weapons, between us. I turned around and ran.",
+        "translation": "「迎接[Root.Religion.GetHighGodNameCap]的审判吧！」我高高扬起了我的匕首，准备狠狠捅下去，但什么人从后面架住了我。我乱戳乱刺，刀刃划伤了自己，鲜血从我的手臂上流下。当我挣扎着站起时，我已经够不着[plot_target.GetFirstName]了。有太多的人拿着武器挡在我们中间，我转过头就逃开了。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6112_E",
-        "original": "\"No one escapes Allah's judgment, or the Assassins,\" I whispered as I bent over [plot_target.GetFirstName]'s sleeping figure. [plot_target.GetSheHeCap] woke with a start, and before I could bury the dagger in [plot_target.GetHerHim], [plot_target.GetSheHe] screamed. The next moment, guards burst through the door. There was no more time.",
-        "translation": "「没人能逃过安拉的审判，也没人逃得过阿萨辛。」我低语着俯身弯向[plot_target.GetFirstName]熟睡的身姿。但是[plot_target.GetSheHeCap]并没有睡着，并且在我用小刀刺向[plot_target.GetHerHim]时，[plot_target.GetSheHe]出声惊叫。下一刻，守卫已冲进大门。我再也没有机会了。",
-        "stage": 5
+        "original": "\"No one escapes [Root.Religion.GetHighGodNameCap]'s judgment, or the Assassins,\" I whispered as I bent over [plot_target.GetFirstName]'s sleeping figure. [plot_target.GetSheHeCap] woke with a start, and before I could bury the dagger in [plot_target.GetHerHim], [plot_target.GetSheHe] screamed. The next moment, guards burst through the door. There was no more time.",
+        "translation": "「没人能逃过[Root.Religion.GetHighGodNameCap]的审判，也没人逃得过阿萨辛。」我低语着俯身弯向[plot_target.GetFirstName]熟睡的身姿。但是[plot_target.GetSheHeCap]并没有睡着，并且在我用小刀刺向[plot_target.GetHerHim]时，[plot_target.GetSheHe]出声惊叫。下一刻，守卫已冲进大门。我再也没有机会了。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_6112",
@@ -3481,9 +3451,9 @@
     },
     {
         "key": "EVTDESC_MNM_6113",
-        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nI am sorry to inform you my attempt to end the [plot_target.GetInsultAdjective] [plot_target.GetTitledFirstName] failed. Fortunately my identity was not discovered and the attempt will not be tracked back to you. We will bide our time.\\n\\nPraised be Allah,\\nSigned, [assassin.GetSocietyRank] [assassin.GetFirstName]",
-        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n很遗憾的告诉您，我针对[plot_target.GetInsultAdjective][plot_target.GetTitledFirstName]的刺杀行动失败了。幸运的是，我的身份没有被发现，并且没人知道您是主谋。我们还有机会。\\n\\n赞美安拉，\\n此致，[assassin.GetSocietyRank][assassin.GetFirstName]",
-        "stage": 5
+        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nI am sorry to inform you my attempt to end the [plot_target.GetInsultAdjective] [plot_target.GetTitledFirstName] failed. Fortunately my identity was not discovered and the attempt will not be tracked back to you. We will bide our time.\\n\\nPraised be [Root.Religion.GetHighGodNameCap],\\nSigned, [assassin.GetSocietyRank] [assassin.GetFirstName]",
+        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n很遗憾的告诉您，我针对[plot_target.GetInsultAdjective][plot_target.GetTitledFirstName]的刺杀行动失败了。幸运的是，我的身份没有被发现，并且没人知道您是主谋。我们还有机会。\\n\\n赞美[Root.Religion.GetHighGodNameCap]，\\n此致，[assassin.GetSocietyRank][assassin.GetFirstName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_6113",
@@ -3499,21 +3469,21 @@
     },
     {
         "key": "EVTDESC_MNM_6114_A",
-        "original": "\"I am here to carry out Allah's judgment, [Root.GetFirstName]. [Root.GetAssassinsCrimeOutcry]!\" I launch myself at the assassin and we fall to the ground, a tangle of limbs and curses. [assassin.GetHerHisCap] mask falls off in the struggle, revealing a [assassin.GetFaceDescription] face. By some miracle, I also manage to wound [assassin.GetHerHim] before [assassin.GetSheHe] escaped.",
-        "translation": "「我来这是为了执行安拉的审判，[Root.GetFirstName]。[Root.GetAssassinsCrimeOutcry]！」随即我叫骂着与刺客扭打在一起，滚倒在地面上。[assassin.GetHerHisCap]兜帽掉落了下来，露出了[assassin.GetFaceDescription]脸。奇迹般的，我在[assassin.GetHerHim]逃跑之前打伤了[assassin.GetSheHe]。",
-        "stage": 5
+        "original": "\"I am here to carry out [Root.Religion.GetHighGodNameCap]'s judgment, [Root.GetFirstName]. [Root.GetAssassinsCrimeOutcry]!\" I launch myself at the assassin and we fall to the ground, a tangle of limbs and curses. [assassin.GetHerHisCap] mask falls off in the struggle, revealing a [assassin.GetFaceDescription] face. By some miracle, I also manage to wound [assassin.GetHerHim] before [assassin.GetSheHe] escaped.",
+        "translation": "「我来这是为了执行[Root.Religion.GetHighGodNameCap]的审判，[Root.GetFirstName]。[Root.GetAssassinsCrimeOutcry]！」随即我叫骂着与刺客扭打在一起，滚倒在地面上。[assassin.GetHerHisCap]兜帽掉落了下来，露出了[assassin.GetFaceDescription]脸。奇迹般的，我在[assassin.GetHerHim]逃跑之前打伤了[assassin.GetSheHe]。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6114_B",
-        "original": "\"No one escapes Allah's judgment, or the Assassins. [Root.GetAssassinsCrimeOutcry]!\" I launch myself at the assassin and we fall to the floor, a tangle of limbs and curses. [assassin.GetHerHisCap] mask falls off in the struggle, revealing a [assassin.GetFaceDescription] face. By some miracle, I also manage to wound [assassin.GetHerHim] before [assassin.GetSheHe] escaped.",
-        "translation": "「没人能逃过安拉的审判，也没人逃得过阿萨辛。[Root.GetAssassinsCrimeOutcry]！」我把刺客扑在地上，在一顿充斥着诅咒声的争斗后，[assassin.GetHerHisCap]面具掉落了，露出一张[assassin.GetFaceDescription]脸庞。我还奇迹般地在[assassin.GetSheHe]逃走前打伤了[assassin.GetHerHim]。",
-        "stage": 5
+        "original": "\"No one escapes [Root.Religion.GetHighGodNameCap]'s judgment, or the Assassins. [Root.GetAssassinsCrimeOutcry]!\" I launch myself at the assassin and we fall to the floor, a tangle of limbs and curses. [assassin.GetHerHisCap] mask falls off in the struggle, revealing a [assassin.GetFaceDescription] face. By some miracle, I also manage to wound [assassin.GetHerHim] before [assassin.GetSheHe] escaped.",
+        "translation": "「没人能逃过[Root.Religion.GetHighGodNameCap]的审判，也没人逃得过阿萨辛。[Root.GetAssassinsCrimeOutcry]！」我把刺客扑在地上，在一顿充斥着诅咒声的争斗后，[assassin.GetHerHisCap]面具掉落了，露出一张[assassin.GetFaceDescription]脸庞。我还奇迹般地在[assassin.GetSheHe]逃走前打伤了[assassin.GetHerHim]。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6114_E",
-        "original": "\"No one escapes Allah's judgment, or the Assassins. [Root.GetAssassinsCrimeOutcry], [Root.GetFirstName].\" And then, the guards burst through the door. My assailant hesitates for one second too many and my protectors get hold off [assassin.GetHerHim]. There is struggle, curses, and blood. The assassin manages to escape, but all of us saw [assassin.GetHerHis] [assassin.GetFaceDescription] face.",
-        "translation": "「没人能逃过安拉的审判，也没人逃得过阿萨辛。[Root.GetAssassinsCrimeOutcry]，[Root.GetFirstName]。」然后，卫兵从门外冲进来。袭击者迟疑了一秒，但是已经太迟了，我的卫兵挡住了[assassin.GetHerHim]。在这里爆发了战斗、诅咒和流血之后，暗杀者设法逃跑了，但是我们所有人都看见了暗杀者[assassin.GetHerHis][assassin.GetFaceDescription]脸。",
-        "stage": 5
+        "original": "\"No one escapes [Root.Religion.GetHighGodNameCap]'s judgment, or the Assassins. [Root.GetAssassinsCrimeOutcry], [Root.GetFirstName].\" And then, the guards burst through the door. My assailant hesitates for one second too many and my protectors get hold off [assassin.GetHerHim]. There is struggle, curses, and blood. The assassin manages to escape, but all of us saw [assassin.GetHerHis] [assassin.GetFaceDescription] face.",
+        "translation": "「没人能逃过[Root.Religion.GetHighGodNameCap]的审判，也没人逃得过阿萨辛。[Root.GetAssassinsCrimeOutcry]，[Root.GetFirstName]。」然后，卫兵从门外冲进来。袭击者迟疑了一秒，但是已经太迟了，我的卫兵挡住了[assassin.GetHerHim]。在这里爆发了战斗、诅咒和流血之后，暗杀者设法逃跑了，但是我们所有人都看见了暗杀者[assassin.GetHerHis][assassin.GetFaceDescription]脸。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_6114",
@@ -3541,9 +3511,9 @@
     },
     {
         "key": "EVTDESC_MNM_6115_D",
-        "original": "\"The time has come for the judgment of Allah!\" I raised my dagger, ready to strike, but then someone tackled me from behind. In the struggle my mask fell off and I was wounded by my own weapon. By some miracle, I managed to escape.",
-        "translation": "「迎接安拉的审判吧！」我举起匕首，准备狠狠一刺，就在那时，有人从后面架住了我。在挣扎中，我的兜帽脱落了，我也被自己的武器刺伤。万幸的是我成功地逃跑了。",
-        "stage": 5
+        "original": "\"The time has come for the judgment of [Root.Religion.GetHighGodNameCap]!\" I raised my dagger, ready to strike, but then someone tackled me from behind. In the struggle my mask fell off and I was wounded by my own weapon. By some miracle, I managed to escape.",
+        "translation": "「迎接[Root.Religion.GetHighGodNameCap]的审判吧！」我举起匕首，准备狠狠一刺，就在那时，有人从后面架住了我。在挣扎中，我的兜帽脱落了，我也被自己的武器刺伤。万幸的是我成功地逃跑了。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6115_E",
@@ -3553,9 +3523,9 @@
     },
     {
         "key": "EVTDESC_MNM_6116",
-        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nI am sorry to inform you my attempt to end the [plot_target.GetInsultAdjective] [plot_target.GetTitledFirstName] failed. My identity was discovered and I fear they can track the killing back to you, [Root.GetSocietyRank]. I am most sorry.\\n\\nPraised be Allah,\\nSigned, [assassin.GetSocietyRank] [assassin.GetFirstName]",
-        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n很遗憾地告诉你，我谋杀[plot_target.GetInsultAdjective][plot_target.GetTitledFirstName]的计划失败了。我的真实身份被发现了，我担心他们顺藤摸瓜找到你，[Root.GetSocietyRank]。很遗憾。\\n\\n赞美安拉！\\n此致，[assassin.GetSocietyRank][assassin.GetFirstName]",
-        "stage": 5
+        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nI am sorry to inform you my attempt to end the [plot_target.GetInsultAdjective] [plot_target.GetTitledFirstName] failed. My identity was discovered and I fear they can track the killing back to you, [Root.GetSocietyRank]. I am most sorry.\\n\\nPraised be [Root.Religion.GetHighGodNameCap],\\nSigned, [assassin.GetSocietyRank] [assassin.GetFirstName]",
+        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n很遗憾地告诉你，我谋杀[plot_target.GetInsultAdjective][plot_target.GetTitledFirstName]的计划失败了。我的真实身份被发现了，我担心他们顺藤摸瓜找到你，[Root.GetSocietyRank]。很遗憾。\\n\\n赞美[Root.Religion.GetHighGodNameCap]！\\n此致，[assassin.GetSocietyRank][assassin.GetFirstName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_6116",
@@ -3571,21 +3541,21 @@
     },
     {
         "key": "EVTDESC_MNM_6117_A",
-        "original": "\"I am here to carry out Allah's judgment, [Root.GetFirstName]. [Root.GetAssassinsCrimeOutcry]!\" I launch myself at the assassin and we fall to the ground, a tangle of limbs and curses. By some miracle, I manage to wrestle the dagger from [assassin.GetHerHis] hand and slay [assassin.GetHerHim]!",
-        "translation": "「我来这是为了执行安拉的审判，[Root.GetFirstName]。[Root.GetAssassinsCrimeOutcry]！」我扑向刺客，我们在地上扑成一团，相互咒骂。奇迹发生了，我从[assassin.GetHerHis]手中夺过匕首反杀了[assassin.GetHerHim]！",
-        "stage": 5
+        "original": "\"I am here to carry out [Root.Religion.GetHighGodNameCap]'s judgment, [Root.GetFirstName]. [Root.GetAssassinsCrimeOutcry]!\" I launch myself at the assassin and we fall to the ground, a tangle of limbs and curses. By some miracle, I manage to wrestle the dagger from [assassin.GetHerHis] hand and slay [assassin.GetHerHim]!",
+        "translation": "「我来这是为了执行[Root.Religion.GetHighGodNameCap]的审判，[Root.GetFirstName]。[Root.GetAssassinsCrimeOutcry]！」我扑向刺客，我们在地上扑成一团，相互咒骂。奇迹发生了，我从[assassin.GetHerHis]手中夺过匕首反杀了[assassin.GetHerHim]！",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6117_B",
-        "original": "\"No one escapes Allah's judgment, or the Assassins. [Root.GetAssassinsCrimeOutcry]!\" I launch myself at the assassin and we fall to the floor, a tangle of limbs and curses. By some miracle, I manage to wrestle the dagger from [assassin.GetHerHis] hand and slay [assassin.GetHerHim]!",
-        "translation": "「没人能逃过安拉的审判，也没人逃得过阿萨辛。[Root.GetAssassinsCrimeOutcry]！」我扑向刺客，两人在地上扭打作一团。安拉保佑，我成功从[assassin.GetHerHis]手上夺下匕首，了结了[assassin.GetHerHim]！",
-        "stage": 5
+        "original": "\"No one escapes [Root.Religion.GetHighGodNameCap]'s judgment, or the Assassins. [Root.GetAssassinsCrimeOutcry]!\" I launch myself at the assassin and we fall to the floor, a tangle of limbs and curses. By some miracle, I manage to wrestle the dagger from [assassin.GetHerHis] hand and slay [assassin.GetHerHim]!",
+        "translation": "「没人能逃过[Root.Religion.GetHighGodNameCap]的审判，也没人逃得过阿萨辛。[Root.GetAssassinsCrimeOutcry]！」我扑向刺客，两人在地上扭打作一团。安拉保佑，我成功从[assassin.GetHerHis]手上夺下匕首，了结了[assassin.GetHerHim]！",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6117_E",
-        "original": "\"No one escapes Allah's judgment, or the Assassins. [Root.GetAssassinsCrimeOutcry], [Root.GetFirstName].\" And then, the guards burst through the door. My assailant hesitates for one second too many and my protectors get hold off [assassin.GetHerHim]. There is struggle, curses, and blood. Within moments, the assassin lay dead on the floor.",
-        "translation": "「没人能逃过安拉的审判，也没人逃得过阿萨辛。[Root.GetAssassinsCrimeOutcry]，[Root.GetFirstName]。」紧接着，卫兵冲了进来，刺客犹豫了一瞬，使得我的保护者得以阻止[assassin.GetHerHim]。打斗、咒骂与鲜血充满房间，短短时间之后，刺客倒在了地上。",
-        "stage": 5
+        "original": "\"No one escapes [Root.Religion.GetHighGodNameCap]'s judgment, or the Assassins. [Root.GetAssassinsCrimeOutcry], [Root.GetFirstName].\" And then, the guards burst through the door. My assailant hesitates for one second too many and my protectors get hold off [assassin.GetHerHim]. There is struggle, curses, and blood. Within moments, the assassin lay dead on the floor.",
+        "translation": "「没人能逃过[Root.Religion.GetHighGodNameCap]的审判，也没人逃得过阿萨辛。[Root.GetAssassinsCrimeOutcry]，[Root.GetFirstName]。」紧接着，卫兵冲了进来，刺客犹豫了一瞬，使得我的保护者得以阻止[assassin.GetHerHim]。打斗、咒骂与鲜血充满房间，短短时间之后，刺客倒在了地上。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_6117",
@@ -3613,9 +3583,9 @@
     },
     {
         "key": "EVTDESC_MNM_6118_D",
-        "original": "\"The time has come for the judgment of Allah!\" I raised my dagger, ready to strike, but then someone tackled me from behind. We fell to the floor, a tangle of limbs, curses, and blood. A sharp pain, and then there was nothing.",
-        "translation": "「迎接安拉的审判吧！」我举起我的匕首准备挥下，但随后有人从背后攻击我。我们相互咒骂着倒在血泊之中，身子压着身子。一阵剧烈的疼痛传来，然后什么都消失了。",
-        "stage": 5
+        "original": "\"The time has come for the judgment of [Root.Religion.GetHighGodNameCap]!\" I raised my dagger, ready to strike, but then someone tackled me from behind. We fell to the floor, a tangle of limbs, curses, and blood. A sharp pain, and then there was nothing.",
+        "translation": "「迎接[Root.Religion.GetHighGodNameCap]的审判吧！」我举起我的匕首准备挥下，但随后有人从背后攻击我。我们相互咒骂着倒在血泊之中，身子压着身子。一阵剧烈的疼痛传来，然后什么都消失了。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6118_E",
@@ -3631,9 +3601,9 @@
     },
     {
         "key": "EVTDESC_MNM_6204_A",
-        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nThe time is nigh for your subjects in [conversion_province.GetName] to adopt the true religion. Teach them about Allah's greatness and the rightful heir of Muhammad, Ali. When a majority of the population in the county has converted to the Shia faith, your mission is complete.\\n\\nPraised be Allah!\\nSigned, [From.GetSocietyRank] [From.GetFirstName]",
-        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n是时候让[conversion_province.GetName]中的臣民接受正信了。教导他们安拉的伟大和阿里作为穆罕默德合法继承人的正统性。当省份中大多数人已经转换为什叶派信仰时，你的任务就完成了。\\n\\n赞美安拉！\\n此致，[From.GetSocietyRank][From.GetFirstName]",
-        "stage": 5
+        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nThe time is nigh for your subjects in [conversion_province.GetName] to adopt the true religion. Teach them about Allah's greatness and the rightful heir of Muhammad, Ali. When a majority of the population in the county has converted to the Shia faith, your mission is complete.\\n\\nPraised be [Root.Religion.GetHighGodNameCap]!\\nSigned, [From.GetSocietyRank] [From.GetFirstName]",
+        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n是时候让[conversion_province.GetName]中的臣民接受正信了。教导他们安拉的伟大和阿里作为穆罕默德合法继承人的正统性。当省份中大多数人皈依什叶派信仰时，你的任务就完成了。\\n\\n赞美[Root.Religion.GetHighGodNameCap]！\\n此致，[From.GetSocietyRank][From.GetFirstName]",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6204_B",
@@ -3651,18 +3621,6 @@
         "key": "EVTOPTB_MNM_6204",
         "original": "I cannot fulfill your request at this time.",
         "translation": "我现在不能满足你的要求。",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC_MNM_6205",
-        "original": "The people of the county [conversion_province.GetName] has now fully embraced Shia Islam as their religion. From [conversion_province.Capital.GetHolding] to countryside, the names of Allah, his prophets and the Imams are honored and cherished. Your mission is complete.",
-        "translation": "[conversion_province.GetName]的人民已经接受了什叶派为他们的信仰。从[conversion_province.Capital.GetHolding]到乡村，安拉、他的先知和伊玛目们的名字被纪念和爱护。你的任务完成了。",
-        "stage": 5
-    },
-    {
-        "key": "EVTOPTA_MNM_6205",
-        "original": "Allahu Akbar!",
-        "translation": "安拉至大！",
         "stage": 5
     },
     {
@@ -3697,9 +3655,9 @@
     },
     {
         "key": "EVTDESC_MNM_6207",
-        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\n[owes_the_assassins.GetTitledFirstName] has refused to pay back what [owes_the_assassins.GetSheHe] owes us. We are in need of that money, and it is up to you to collect the debt. I fear the [owes_the_assassins.GetSocietyRank] need some \"encouragement\" to part with [owes_the_assassins.GetHerHis] gold. I am sure you can think of something.\\n\\nPraised be Allah!\\nSigned, [From.GetSocietyRank] [From.GetFirstName]",
-        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n[owes_the_assassins.GetTitledFirstName]拒绝偿还[owes_the_assassins.GetSheHe]欠我们的钱。我们需要这笔钱，由你来收回债务。我担心[owes_the_assassins.GetSocietyRank]需要一些「鼓励」来割舍[owes_the_assassins.GetHerHis]黄金。我相信你可以想到怎么做。\\n\\n赞美安拉！\\n此致，[From.GetSocietyRank][From.GetFirstName]",
-        "stage": 5
+        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\n[owes_the_assassins.GetTitledFirstName] has refused to pay back what [owes_the_assassins.GetSheHe] owes us. We are in need of that money, and it is up to you to collect the debt. I fear the [owes_the_assassins.GetSocietyRank] need some \"encouragement\" to part with [owes_the_assassins.GetHerHis] gold. I am sure you can think of something.\\n\\nPraised be [Root.Religion.GetHighGodNameCap]!\\nSigned, [From.GetSocietyRank] [From.GetFirstName]",
+        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n[owes_the_assassins.GetTitledFirstName]拒绝偿还[owes_the_assassins.GetSheHe]欠我们的钱。我们需要这笔钱，由你来收回债务。我担心[owes_the_assassins.GetSocietyRank]需要一些「鼓励」来割舍[owes_the_assassins.GetHerHis]黄金。我相信你可以想到怎么做。\\n\\n赞美[Root.Religion.GetHighGodNameCap]！\\n此致，[From.GetSocietyRank][From.GetFirstName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_6207_TOOLTIP",
@@ -3829,9 +3787,9 @@
     },
     {
         "key": "EVTDESC_MNM_6221",
-        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nIt is time to strike against the infidel [infidel_holding_owner.GetTitledName]. Your mission is to raise your armies and occupy the [infidel_holding.GetHolding] [infidel_holding.GetName] in [infidel_holding_owner.GetHerHis] county [infidel_holding_province.GetName].\\n\\nMay Allah be with you, [Root.GetSocietyRank]!\\nSigned, [From.GetSocietyRank] [From.GetFirstName]",
-        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n是时候对付异教徒[infidel_holding_owner.GetTitledName]了。你的任务是召集你的军队并占据[infidel_holding_owner.GetHerHis]省份[infidel_holding_province.GetName]中的[infidel_holding.GetHolding][infidel_holding.GetName]。\\n\\n愿安拉与你同在，[Root.GetSocietyRank]！\\n此致，[From.GetSocietyRank][From.GetFirstName]",
-        "stage": 5
+        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nIt is time to strike against the infidel [infidel_holding_owner.GetTitledName]. Your mission is to raise your armies and occupy the [infidel_holding.GetHolding] [infidel_holding.GetName] in [infidel_holding_owner.GetHerHis] county [infidel_holding_province.GetName].\\n\\nMay [Root.Religion.GetHighGodNameCap] be with you, [Root.GetSocietyRank]!\\nSigned, [From.GetSocietyRank] [From.GetFirstName]",
+        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n是时候对付异教徒[infidel_holding_owner.GetTitledName]了。你的任务是召集你的军队并占据[infidel_holding_owner.GetHerHis]省份[infidel_holding_province.GetName]中的[infidel_holding.GetHolding][infidel_holding.GetName]。\\n\\n愿[Root.Religion.GetHighGodNameCap]与你同在，[Root.GetSocietyRank]！\\n此致，[From.GetSocietyRank][From.GetFirstName]",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6222",
@@ -3937,9 +3895,9 @@
     },
     {
         "key": "EVTDESC_MNM_6249",
-        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nWhile our members are devout believers, many lack the practical skills, bodily stamina, and rigorous education needed by an expert assassin. Therefore I give you this mission, [Root.GetSocietyRank]: take on a protégé and turn them into a weapon of Allah's fury.\\n\\nPraised be Allah!\\nSigned, [From.GetSocietyRank] [From.GetFirstName]",
-        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n虽然我们的成员是虔诚的信徒，但许多人缺乏专业刺客所需的实践技能，身体耐力和严格的教育。因此，我向你传达这个使命，[Root.GetSocietyRank]：接受一个门徒，把他们教导成安拉愤怒的武器。\\n\\n赞美安拉！\\n此致，[From.GetSocietyRank][From.GetFirstName]",
-        "stage": 5
+        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nWhile our members are devout believers, many lack the practical skills, bodily stamina, and rigorous education needed by an expert assassin. Therefore I give you this mission, [Root.GetSocietyRank]: take on a protégé and turn them into a weapon of [Root.Religion.GetHighGodNameCap]'s fury.\\n\\nPraised be [Root.Religion.GetHighGodNameCap]!\\nSigned, [From.GetSocietyRank] [From.GetFirstName]",
+        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n虽然我们的成员是虔诚的信徒，但许多人缺乏专业刺客所需的实践技能，身体耐力和严格的教育。因此，我向你传达这个使命，[Root.GetSocietyRank]：接受一个门徒，把他们教导成[Root.Religion.GetHighGodNameCap]愤怒的武器。\\n\\n赞美[Root.Religion.GetHighGodNameCap]！\\n此致，[From.GetSocietyRank][From.GetFirstName]",
+        "stage": 1
     },
     {
         "key": "quest_the_assassins_protege",
@@ -4447,9 +4405,9 @@
     },
     {
         "key": "MNM.7506.d",
-        "original": "You struggle against the bonds holding you to the altar, but there is no give in them. As the unholy chanting rises to a frantic crescendo, you see [From.GetTitledFirstName] walking towards you holding a dagger. You redouble your efforts to escape, but [From.GetTitledFirstName] is already raising [From.GetHerHis] dagger over [From.GetHerHis] head in a two-handed grip. You have time to realize the rope around your right hand is starting to loosen just before [From.GetTitledFirstName] blade slams into your heart.",
-        "translation": "你与把你绑在祭坛上的束缚奋力搏斗，但桎梏没有任何松懈。当邪恶的颂歌越来越响时，你看到[From.GetTitledFirstName]拿着匕首渐渐走近。你加倍努力想要逃跑，但是[From.GetTitledFirstName]已经双手将匕首越过[From.GetHerHis]头顶高高举起。你刚觉得自己右手的绳索开始松动，[From.GetTitledFirstName]就把刀刃刺进了你的心脏。",
-        "stage": 5
+        "original": "You struggle against the bonds holding you to the altar, but there is no give in them. As the unholy chanting rises to a frantic crescendo, you see [satanist.GetTitledFirstName] walking towards you holding a dagger. You redouble your efforts to escape, but [satanist.GetTitledFirstName] is already raising [satanist.GetHerHis] dagger over [satanist.GetHerHis] head in a two-handed grip. You have time to realize the rope around your right hand is starting to loosen just before [satanist.GetTitledFirstName] blade slams into your heart.",
+        "translation": "你与把你绑在祭坛上的束缚奋力搏斗，但桎梏没有任何松懈。当邪恶的颂歌越来越响时，你看到[satanist.GetTitledFirstName]拿着匕首渐渐走近。你加倍努力想要逃跑，但是[satanist.GetTitledFirstName]已经双手将[satanist.GetHerHis]匕首越过[satanist.GetHerHis]头顶高高举起。你刚觉得自己右手的绳索开始松动，[satanist.GetTitledFirstName]就把刀刃刺进了你的心脏。",
+        "stage": 1
     },
     {
         "key": "MNM.7506.a",
@@ -5521,9 +5479,9 @@
     },
     {
         "key": "EVTOPTA_MNM_6806",
-        "original": "Praise be Allah!",
-        "translation": "赞美安拉！",
-        "stage": 5
+        "original": "Praise be [Root.Religion.GetHighGodNameCap]!",
+        "translation": "赞美[Root.Religion.GetHighGodNameCap]！",
+        "stage": 1
     },
     {
         "key": "EVTOPTB_MNM_6810",
@@ -5533,27 +5491,27 @@
     },
     {
         "key": "EVTDESCD_MNM_6810",
-        "original": "By Allah, they are everywhere. Hiding in every corner, nook and cranny. Flapping their wings and staring at us, trying to fool us that they are only around at night. I must tell my people what is going on!",
-        "translation": "安拉保佑，他们无处不在。他们隐藏在每个角落，阴暗处与裂缝，煽动着他们的翅膀，紧盯着我们，试图欺骗我们让我们以为他们只在晚上出现。我必须告诉人们发生了什么！",
-        "stage": 5
+        "original": "By [Root.Religion.GetHighGodNameCap], they are everywhere. Hiding in every corner, nook and cranny. Flapping their wings and staring at us, trying to fool us that they are only around at night. I must tell my people what is going on!",
+        "translation": "[Root.Religion.GetHighGodNameCap]保佑，他们无处不在。他们隐藏在每个角落，阴暗处与裂缝，煽动着他们的翅膀，紧盯着我们，试图欺骗我们让我们以为他们只在晚上出现。我必须告诉人们发生了什么！",
+        "stage": 1
     },
     {
         "key": "EVTDESCA_MNM_68112",
-        "original": "Praise be Allah for opening my vision, it is so obvious to me now that [drug_plotter_reveal.GetTitledName] is trying to kill me!",
-        "translation": "赞美安拉使我明目，显然[drug_plotter_reveal.GetTitledName]正试图谋杀我！",
-        "stage": 5
+        "original": "Praise be [Root.Religion.GetHighGodNameCap] for opening my vision, it is so obvious to me now that [drug_plotter_reveal.GetTitledName] is trying to kill me!",
+        "translation": "赞美[Root.Religion.GetHighGodNameCap]使我明目，显然[drug_plotter_reveal.GetTitledName]正试图谋杀我！",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_68112",
-        "original": "Allah protect me!",
-        "translation": "安拉护佑着我！",
-        "stage": 5
+        "original": "[Root.Religion.GetHighGodNameCap] protect me!",
+        "translation": "[Root.Religion.GetHighGodNameCap]护佑着我！",
+        "stage": 1
     },
     {
         "key": "EVTDESCB_MNM_68112",
-        "original": "Praise be Allah for opening my vision, it is so obvious to me now that [drug_plotter_reveal.GetTitledName] is having designs on my [drug_plotter_reveal.PlotTargetTitle.GetFullName]!",
-        "translation": "赞美安拉使我明目，现在很显然[drug_plotter_reveal.GetTitledName]正在计划对我的[drug_plotter_reveal.PlotTargetTitle.GetFullName]实施阴谋！",
-        "stage": 5
+        "original": "Praise be [Root.Religion.GetHighGodNameCap] for opening my vision, it is so obvious to me now that [drug_plotter_reveal.GetTitledName] is having designs on my [drug_plotter_reveal.PlotTargetTitle.GetFullName]!",
+        "translation": "赞美[Root.Religion.GetHighGodNameCap]使我明目，现在很显然[drug_plotter_reveal.GetTitledName]正在计划对我的[drug_plotter_reveal.PlotTargetTitle.GetFullName]实施阴谋！",
+        "stage": 1
     },
     {
         "key": "EVTOPTB_MNM_68112",
@@ -5569,9 +5527,9 @@
     },
     {
         "key": "EVTOPTC_MNM_68112",
-        "original": "Thank Allah that it is not me they're after.",
-        "translation": "感谢安拉，他们的目标不是我。",
-        "stage": 5
+        "original": "Thank [Root.Religion.GetHighGodNameCap] that it is not me they're after.",
+        "translation": "感谢[Root.Religion.GetHighGodNameCap]，他们的目标不是我。",
+        "stage": 1
     },
     {
         "key": "EVTDESCD_MNM_68112",
@@ -6279,12 +6237,6 @@
         "key": "recent_induction_attempt_desc",
         "original": "Someone has recently tried having this character join a society",
         "translation": "最近有人试图将此角色拉入秘密社团",
-        "stage": 5
-    },
-    {
-        "key": "EVTDESC_MNM_4090",
-        "original": "I have decided to show my devotion to God and the order by taking a vow of celibacy.",
-        "translation": "我立誓独身以向上帝和修会展现我的奉献精神。",
         "stage": 5
     },
     {
@@ -11664,12 +11616,6 @@
         "stage": 5
     },
     {
-        "key": "quest_the_assassins_convert_province_desc",
-        "original": "The most essential goals of the Assassins is to protect the believers of the True Faith and spread the words of Allah, Muhammad and Ali to every corner of the Earth. While even the most remote lands shall be converted one day, first we must turn to places closer to home. Your mission is to convert the county [FromFrom.GetName] to Shi'ism.",
-        "translation": "对于阿萨辛来说最重要的目标就是保护拥有真正信仰的信徒，并将安拉、穆罕默德和阿里的话传遍世界上的每一个角落。总有一天即使是最偏远的土地也会皈依，但首先我们必须从距离我们较近的目标开始，你的任务是让[FromFrom.GetName]皈依什叶派。",
-        "stage": 5
-    },
-    {
         "key": "quest_the_assassins_convert_province_tooltip",
         "original": "To complete this mission, the religion of the county [FromFrom.GetName] must become Shia. To convert [FromFrom.GetName], send your court Mullah to §Y'Proselytize'§! there.",
         "translation": "要完成这个任务，必须把[FromFrom.GetName]伯爵领的信仰变为什叶派。派遣你的宫廷毛拉在那里§Y「传教」§!，使[FromFrom.GetName]皈依。",
@@ -16363,9 +16309,9 @@
     },
     {
         "key": "EVTDESC_MNM_6904_B",
-        "original": "We were evenly matched, [From.GetTitledFirstName] and I. We had been at it for... hours? I knew I would not last for much longer, and as a last desperate measure, I fearlessly lunged at [From.GetHerHim]. We fell to the ground and I managed to nick [From.GetHerHis] arm. [From.GetFirstName] cursed me loudly as [From.GetSheHe] pushed my body of [From.GetHerHis].",
+        "original": "We were evenly matched, [From.GetTitledFirstName] and I. We had been at it for... hours? I knew I would not last for much longer, and as a last desperate measure, I fearlessly lunged at [From.GetHerHim]. We fell to the ground and I managed to nick [From.GetHerHis] arm. [From.GetFirstName] cursed me loudly as [From.GetSheHe] pushed my body off [From.GetHerHis].",
         "translation": "我与[From.GetTitledFirstName]势均力敌，我们已经进行了……几个小时了？我知道我撑不了多久了，作为最后一项手段，我无畏地向[From.GetHerHim]扑过去。我们摔倒在地，我成功划破了[From.GetHerHis]手臂。[From.GetFirstName]大声地诅咒我，[From.GetSheHe]把我的身体从[From.GetHerHis]身上推开。",
-        "stage": 5
+        "stage": 0
     },
     {
         "key": "EVTOPTA_MNM_6904",
@@ -27907,9 +27853,9 @@
     },
     {
         "key": "EVTDESC_MNM_6802_GOOD",
-        "original": "The visions have revealed much to me. I understand so much more now, even a hint of my own place in the great mosaic of God's plan.",
+        "original": "The visions have revealed much to me. I understand so much more now, even a hint of my own place in the great mosaic of [Root.Religion.GetHighGodNameCap]'s plan.",
         "translation": "这些幻象向我透露了很多天机。我现在懂得更多了，它们甚至暗示了我在上帝伟业的宏大拼图中的位置。",
-        "stage": 5
+        "stage": 0
     },
     {
         "key": "EVTDESC_MNM_6802_BAD",
@@ -28447,9 +28393,9 @@
     },
     {
         "key": "tooltip_info_omen_tt",
-        "original": "This option is available due to you having the §Y[Root.GetOmenModifierName]§! modifier.\\n[Root.GetOmenResultReaction].\\n",
+        "original": "This option is available due to you having the §Y[This.GetOmenModifierName]§! modifier.\\n[This.GetOmenResultReaction].\\n",
         "translation": "这个选项可用是因为你有§Y[Root.GetOmenModifierName]§!的修正。\\n[Root.GetOmenResultReaction]。\\n",
-        "stage": 5
+        "stage": 0
     },
     {
         "key": "String_good_battle_omen",
@@ -33367,9 +33313,9 @@
     },
     {
         "key": "EVTDESC_MNM_6001",
-        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nI have decided to grant your request for a loan. I trust that you pay the sum back within a reasonable time and as soon as you are able.\\n\\nPraise be to Allah!\\nSigned, Grand Master [grand_master.GetFirstName]",
-        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n我决定批准你的贷款请求。我相信你会在合理的时间内尽快支付这笔款项。\\n\\n赞美安拉！\\n此致，大长老[grand_master.GetFirstName]",
-        "stage": 5
+        "original": "As-salaam alaykum, [Root.GetSocietyRank] [Root.GetFirstName],\\n\\nI have decided to grant your request for a loan. I trust that you pay the sum back within a reasonable time and as soon as you are able.\\n\\nPraise be to [Root.Religion.GetHighGodNameCap]!\\nSigned, Grand Master [grand_master.GetFirstName]",
+        "translation": "愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\\n\\n我决定批准你的贷款请求。我相信你会在合理的时间内尽快支付这笔款项。\\n\\n赞美[Root.Religion.GetHighGodNameCap]！\\n此致，大长老[grand_master.GetFirstName]",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_1441_steal_text",
@@ -34114,5 +34060,41 @@
         "original": "spahis",
         "translation": "骑兵",
         "stage": 5
+    },
+    {
+        "key": "EVTDESC_MNM_6024_A",
+        "original": "We are quiet for a moment, both seemingly contemplating these devoted souls. Then [From.GetFirstName] looks up at me, a curious intensity in [From.GetHerHis] gaze. \"That is not an impossible wish, [Root.GetFirstName]. Are you ready to kill and, if He wills it, get killed to defend the words of His Prophet and the rightful heir?\"",
+        "translation": "",
+        "stage": 0
+    },
+    {
+        "key": "EVTDESC_MNM_6027_A",
+        "original": "\"I do, [Root.GetFirstName],\" says [From.GetTitledFirstName] with a solemn, almost ceremonial, voice. \"There is an Order devoted to Allah and the rightful Caliph. One that defends those true of faith and bring vengeance to their persecutors. The Assassins are always in need of champions. Think it over, and someone might reach out...\"",
+        "translation": "",
+        "stage": 0
+    },
+    {
+        "key": "EVTOPTA_6028_A",
+        "original": "Allahu akbar! Glory to Ali!",
+        "translation": "安拉至大！荣耀归于阿里！",
+        "stage": 1
+    },
+    {
+        "key": "EVTDESC_MNM_6205_A",
+        "original": "The people of the county [conversion_province.GetName] has now fully embraced Shia Islam as their religion. From [conversion_province.Capital.GetHolding] to countryside, the names of Allah, his prophets and the Imams are honored and cherished. Your mission is complete.",
+        "translation": "",
+        "stage": 0
+    },
+    {
+        "key": "EVTOPTA_MNM_6205_A",
+        "original": "Allahu Akbar!",
+        "translation": "安拉至大！",
+        "stage": 1
+    },
+    {
+        "key": "assassins_conversion_desc_real",
+        "original": "The most essential goals of the Assassins is to protect the believers of the True Faith and spread the words of Allah, Muhammad and Ali to every corner of the Earth. While even the most remote lands shall be converted one day, first we must turn to places closer to home. Your mission is to convert the county [FromFrom.GetName] to Shi'ism.",
+        "translation": "",
+        "stage": 0
     }
 ]
