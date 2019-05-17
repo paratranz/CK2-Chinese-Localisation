@@ -1360,9 +1360,9 @@ renewed_faith;重拾信念;;;;;;;;;;;;x
 peasant_pleased_witch_hunt;农民对猎巫行动很满意;;;;;;;;;;;;x
 EVTDSC_RIP_13200;你的[Root.GetLordSpiritualName][From.GetFirstName]带来了糟糕的消息。有流言说[Root.Religion.GetRandomEvilGodName]的崇拜者是国内瘟疫横行的罪魁祸首。[From.GetTitledFirstName]建议调查这个流言。;;;;;;;;;;;;x
 EVTOPTA_RIP_13200;真是可怕的消息！调查这件事，[From.GetFirstName]。;;;;;;;;;;;;x
-EVTOPTA_RIP_13200_TOOLTIP;你派出了你的[Root.GetLordSpiritualName]去调查巫师和女巫的流言。\n\n你的全部直辖领获得 10 年的§Y「农民骚乱」§!，有以下效果：\n本地叛乱风险：§R+10.0%§!\n本地税收修正：§R-50.0%§!\n\n;;;;;;;;;;;;x
+EVTOPTA_RIP_13200_TOOLTIP;你派出了你的[Root.GetLordSpiritualName]去调查巫师和女巫的流言。\n\n你的所有直辖领获得 10 年的§Y「农民骚乱」§!，有以下效果：\n本地叛乱风险：§R+10.0%§!\n本地税收修正：§R-50.0%§!\n\n;;;;;;;;;;;;x
 EVTOPTC_RIP_13200;一派胡言！根本没有什么巫师啊女巫的！;;;;;;;;;;;;x
-EVTOPTC_RIP_13200_TOOLTIP;你无视了谣言和[Root.GetLordSpiritualName]的担忧。\n\n你的全部直辖领获得 10 年的§Y「农民危机」§!，有以下效果：\n本地叛乱风险：§R+15.0%§!\n本地税收修正：§R-75.0%§!\n\n;;;;;;;;;;;;x
+EVTOPTC_RIP_13200_TOOLTIP;你无视了谣言和[Root.GetLordSpiritualName]的担忧。\n\n你的所有直辖领获得 10 年的§Y「农民危机」§!，有以下效果：\n本地叛乱风险：§R+15.0%§!\n本地税收修正：§R-75.0%§!\n\n;;;;;;;;;;;;x
 EVTDSC_RIP_13201;[FromFrom.GetTitledFirstName]带来了数量惊人的声称目击了可憎的巫术活动的目击者。如果你相信他们的证词，[Root.Religion.GetRandomEvilGodName]的盟友们已经多到足以威胁你的国度。;;;;;;;;;;;;x
 EVTOPTA_RIP_13201;[FromFrom.GetFirstName]，在一切都太迟之前，你必须赶紧找到这些罪人！;;;;;;;;;;;;x
 EVTOPTA_RIP_13201_TOOLTIP;你让你的[Root.GetLordSpiritualName]把你宫廷中的所有巫师和女巫揪出来。\n;;;;;;;;;;;;x
@@ -1463,10 +1463,10 @@ EVTOPTA_RIP_22005_TOOLTIP;给这个女人一笔钱并公开道歉，希望这足
 EVTOPTB_RIP_22005;[end_peasant_leader.GetFirstName]是这些法外狂徒背后的煽动者。;;;;;;;;;;;;x
 EVTOPTB_RIP_22005_TOOLTIP;把责任推给[end_peasant_leader.GetFirstName]并叫停对「活死人」的迫害。\n;;;;;;;;;;;;x
 EVTOPTC_RIP_22005;这是你自找的。当初是你们那么多人要求保护！;;;;;;;;;;;;x
-EVTOPTC_RIP_22005_TOOLTIP;无视这个母亲和愤怒的农民。\n\n你的全部直辖领获得3年的§Y「农民危机」§!，有以下效果：\n本地叛乱风险：§R+15.0%§!\n本地税收修正：§R-75.0%§!\n\n;;;;;;;;;;;;x
+EVTOPTC_RIP_22005_TOOLTIP;无视这个母亲和愤怒的农民。\n\n你的所有直辖领获得3年的§Y「农民危机」§!，有以下效果：\n本地叛乱风险：§R+15.0%§!\n本地税收修正：§R-75.0%§!\n\n;;;;;;;;;;;;x
 EVTDSC_RIP_22006;我听说[From.GetFirstName]正在宣传如何帮助感染者，过去几个月间已经聚起了不少追随者。对活死人的恐惧还在扩散，但在另一些方向上情况则相反，许多人依然乐于和病人互动。;;;;;;;;;;;;x
 EVTOPTA_RIP_22006;他是我的子民的潜在威胁。逮捕他！;;;;;;;;;;;;x
-EVTOPTA_RIP_22006_TOOLTIP;将§Y[From.GetFirstName]§!逮捕，可能招致他的追随者的怒火。你的全部直辖领获得10年的§Y「农民危机」§!，有以下效果：\n本地叛乱风险：§R+15.0%§!\n本地税收修正：§R-75.0%§!\n\n;;;;;;;;;;;;x
+EVTOPTA_RIP_22006_TOOLTIP;将§Y[From.GetFirstName]§!逮捕，可能招致他的追随者的怒火。\n\n你的所有直辖领获得10年的§Y「农民危机」§!，有以下效果：\n本地叛乱风险：§R+15.0%§!\n本地税收修正：§R-75.0%§!\n\n;;;;;;;;;;;;x
 EVTOPTB_RIP_22006;把这个蠢蛋处理掉。小心点。;;;;;;;;;;;;x
 EVTOPTB_RIP_22006_TOOLTIP;试图刺杀§Y[From.GetFirstName]§!。;;;;;;;;;;;;x
 EVTOPTC_RIP_22006;现在插手已经太迟了，现在只能听天由命吧。;;;;;;;;;;;;x
@@ -1475,7 +1475,7 @@ EVTDSC_RIP_22007;一切都照计划进行。我的手下干掉了[end_peasant_le
 EVTOPTA_RIP_22007;好极了。;;;;;;;;;;;;x
 EVTDSC_RIP_22008;我派去处理[end_peasant_leader.GetFirstName]的手下当然得手了，但是他们同时也把这件事闹大了。现在他所有的追随者都知道我是真凶，尽管我们极力控制，言论还是如野火一样传播开来。现在他们都把我当成小人……;;;;;;;;;;;;x
 EVTOPTA_RIP_22008;此事无法善了……;;;;;;;;;;;;x
-EVTOPTA_RIP_22008_TOOLTIP;你的全部直辖领获得10年的§Y「农民危机」§!，有以下效果：\n本地叛乱风险：§R+15.0%§!\n本地税收修正：§R-75.0%§!\n\n;;;;;;;;;;;;x
+EVTOPTA_RIP_22008_TOOLTIP;你的所有直辖领获得10年的§Y「农民危机」§!，有以下效果：\n本地叛乱风险：§R+15.0%§!\n本地税收修正：§R-75.0%§!\n\n;;;;;;;;;;;;x
 EVTNAME_RIP_22009;燃烧的世界;;;;;;;;;;;;x
 EVTDSC_RIP_22009;尽管你努力控制局面——或者说正是因为你的努力——国内的情况毫无疑问地脱离了掌控。如今你已经无法继续在民众的恐惧和怒火下继续统治。他们已经开始自相残杀，邻里互相杀戮，朋友互相背叛。有时仅仅一声咳嗽或者一个小伤口就会招来杀身之祸。\n\n很明显关于活死人的流言全是假的，但是这已经不重要了。许多无辜的人失去了生命，他们死于迫害而不是疾病。未来许多年内街道上都会冷冷清清。你的臣民心中的伤痕则会遗留更长时间……;;;;;;;;;;;;x
 EVTOPTA_RIP_22009;这是[Root.Religion.GetHighGodName]的惩罚吗？;;;;;;;;;;;;x
@@ -1530,7 +1530,7 @@ EVTOPTD_TOG_7001_TOOLTIP;你用一个小雕像祭献祖先。\n;;;;;;;;;;;;x
 EVTOPTE_TOG_7001;愿这个灵魂在来世为你服务！;;;;;;;;;;;;x
 EVTOPTE_TOG_7001_TOOLTIP;你祭献给祖先一个廷臣的生命。\n;;;;;;;;;;;;x
 EVTDESC_TOG_7002_limb;你躺在祭献石台上，用你自己作为祭献品。还好[Root.Religion.GetPriestTitle]的刀子足够锋利，石台很快沾满了你暗红色的鲜血。你的惨叫一定可以取悦你的祖先。现在你能做的就是等待和期待。;;;;;;;;;;;;x
-EVTDESC_TOG_7002_human;[Root.Religion.GetPriestTitle]和她的手下把祭品按倒在祭献石台上。祭品还在剧烈的挣扎，祖先一定会满意于这样元气满满的仆人。现在你能做的就是等待和期待。;;;;;;;;;;;;x
+EVTDESC_TOG_7002_human;当[Root.Religion.GetPriestTitle]和她的手下把祭品按倒在祭献石台上，祭品还在剧烈的挣扎。祖先一定会满意于这样元气满满的仆人。现在你能做的就是等待和期待。;;;;;;;;;;;;x
 EVTDESC_TOG_7002_feast;和[Root.Religion.GetPriestTitle]以及她的手下们一起，你在祭献石台上布置了大量的食物和美酒。你一整夜都在欢饮高歌，赞颂你祖先的荣光。现在你能做的就是等待和期待。;;;;;;;;;;;;x
 EVTDESC_TOG_7002_carving;你把精巧的小人偶放在了祭献石台上以表你对祖先的崇敬。现在你能做的就是等待和期待。;;;;;;;;;;;;x
 EVTOPTA_TOG_7002;愿祖先赐予我祝福。;;;;;;;;;;;;x
@@ -1699,7 +1699,7 @@ prisoner_humiliation_desc;因为§Y[Root.GetTitledFirstName]§!是你的囚犯�
 opinion_humiliated_me;羞辱了我;;;;;;;;;;;;x
 EVTDESCRIP.15001;你命令把焦油泼到[From.GetTitledFirstName]身上，然后把[From.GetSheHe]在羽毛堆里翻滚。你的卫兵们一边笑着一边把[From.GetHerHim]在城市里巡回展览。平民们和贵族们都难以置信地盯着[From.GetTitledFirstName]。多么有趣的展览！;;;;;;;;;;;;x
 EVTOPTARIP.15001;这件衣服很适合[From.GetHerHim]。;;;;;;;;;;;;x
-EVTDESCRIP.15002;你的[From.GetTitledFirstName]决定要仁慈点，所以你免于上绞刑架。不过在你被释放前，你要被裹上焦油然后在羽毛堆里翻滚。然后你会被放进牢笼里然后全城巡回展览。护送你去行刑的卫兵偷偷地嘲笑着你的窘境。;;;;;;;;;;;;x
+EVTDESCRIP.15002;你的[FromFrom.GetTitledFirstName]决定要仁慈点，所以你免于上绞刑架。不过在你被释放前，你要被裹上焦油然后在羽毛堆里翻滚。然后你会被放进牢笼里然后全城巡回展览。护送你去行刑的卫兵偷偷地嘲笑着你的窘境。;;;;;;;;;;;;x
 EVTOPTARIP.15002;我不应该受到这种羞辱！;;;;;;;;;;;;x
 EVTDESCRIP.15003;在经过一番挣扎后，[From.GetTitledFirstName]从[From.GetHerHis]牢房里被拖到城市的广场上并且铐上手足枷。[From.GetSheHeCap]将会学会如何尊重你。;;;;;;;;;;;;x
 EVTOPTARIP.15003;让他们看！[From.GetHerHim]活该。;;;;;;;;;;;;x
@@ -1733,7 +1733,7 @@ EVTDESC_RIP_11040_8;[FromFrom.GetTitledFirstName]拿着一把小刀接近了你�
 EVTDESC_RIP_11040_9;[FromFrom.GetTitledFirstName]给了你一个装上了灰色粉状物的盘子。明显是一个比你状况还要糟糕的人的结痂磨成的粉末。接着[FromFrom.GetSheHe]命令你用鼻子凑近然后尽可能的吸进体内，[FromFrom.GetTitledFirstName]一点都不像是在开玩笑。;;;;;;;;;;;;x
 EVTDESC_RIP_11041_10;红色粉末看起来色泽诱人。一个仆人犯了错误，偷尝了一口纯粉末——他的舌头肿胀得厉害，而[FromFrom.GetTitledFirstName]因此严厉地惩罚了他。[FromFrom.GetTitledFirstName]将粉末倒入一杯水并且细心地搅拌好，然后喂了你一勺。;;;;;;;;;;;;x
 EVTDESC_RIP_11041_11;当你看见[FromFrom.GetTitledFirstName]领着一只山羊进入你的房间，你的眼睛睁得老大。山羊胃肠胀气产生的恶臭使你们两个都遮住了鼻子，但是医师把你的手拉开。「抱歉，我的[Root.GetLordLady]，这就是治疗方法。」[FromFrom.GetSheHeCap]建议你深呼吸。;;;;;;;;;;;;x
-EVTDESC_RIP_11042_5;「放缓你的呼吸」，[FromFrom.GetTitledFirstName]嘱咐你。[FromFrom.GetHerHis]手里的羽毛看起来如同隐形一般，[FromFrom.GetSheHe]开始轻轻地在你鼻子下方刷动。「恶魔退散！」[FromFrom.GetSheHe]命令道，与此同时你开始打喷嚏。;;;;;;;;;;;;x
+EVTDESC_RIP_11042_5;放缓你的呼吸，[FromFrom.GetTitledFirstName]嘱咐你。[FromFrom.GetHerHis]手里的羽毛看起来如同隐形一般，[FromFrom.GetSheHe]开始轻轻地在你鼻子下方刷动。「恶魔退散！」[FromFrom.GetSheHe]命令道，与此同时你开始打喷嚏。;;;;;;;;;;;;x
 EVTDESC_RIP_11042_6;[FromFrom.GetTitledFirstName]以你的名义举办了一个小型仪式。当你的所有家庭和密友都在大堂里聚集好的时候，[From.Religion.GetPriestTitle]在讲道的时候着重描述你的美德和仁厚。他们联合起来的祷告一定会加快你的恢复。;;;;;;;;;;;;x
 EVTDESC_RIP_11042_7;你和[FromFrom.GetTitledFirstName]共同度过了许多夜晚。[FromFrom.GetSheHe]会讲述来自[Root.Religion.GetScriptureName]的故事，直到你陷入沉睡。这个生活习惯让痛苦缓和。;;;;;;;;;;;;x
 EVTDESC_RIP_11042_8;[FromFrom.GetTitledFirstName]请求[From.Religion.GetPriestTitle]把宫廷里最好的歌手找来，歌手居然是个男高音的小孩。接下来的几天，你在这个小孩的歌声中入眠。多么令人宽心。;;;;;;;;;;;;x
@@ -1751,7 +1751,7 @@ CURED_RIP_TOOLTIP;你的病将会得到治愈！\n\n;;;;;;;;;;;;x
 EVTDESC_RIP_11047_1;[FromFrom.GetFirstName]让坐在你在一个高大的镜子前，点燃你身边的一圈蜡烛。「我们需要联系另一个你」，[FromFrom.GetSheHe]随意说道。你对[FromFrom.GetHerHim]大皱眉头，而[FromFrom.GetSheHe]把手放在你的肩膀。「这将……改变你。」;;;;;;;;;;;;x
 EVTDESC_RIP_11047_2;你被固定在自己的床上，佣人告诉你，柴堆冒出的烟能从数英里外看到。在这场盛大的牺牲中，超过两打的动物在夜里死去。按照[FromFrom.GetTitledFirstName]的命令，两星期来你一直在用灰烬擦拭你的皮肤。;;;;;;;;;;;;x
 EVTDESC_RIP_11047_3;房间只被烛光照亮。面对着西窗，[FromFrom.GetTitledFirstName]用油滴涂抹你的指甲。你觉得自己的皮肤很热，因为[FromFrom.GetSheHe]将你的手移向火焰。「不要担心，我的[Root.GetLordLady]。通过[Root.Religion.GetRandomGodName]的智慧，你将得到净化。」;;;;;;;;;;;;x
-EVTDESC_RIP_11047_4;「月亮需要你的奉献」[FromFrom.GetTitledFirstName]说，然后交给你一些带香气的东西。你吸了一口，看着天空的月亮即兴作了世界上最好的诗。接着，那些词汇离你远去……;;;;;;;;;;;;x
+EVTDESC_RIP_11047_4;月亮需要你的奉献，[FromFrom.GetTitledFirstName]说，然后交给你一些带香气的东西。你吸了一口，看着天空的月亮即兴作了世界上最好的诗。接着，那些词汇离你远去……;;;;;;;;;;;;x
 EVTDESC_RIP_11047_5;[FromFrom.GetTitledFirstName]示意你踏入木桶，让你一个人脱衣服。[FromFrom.GetFirstName]返回时带着一声响亮的「咩！」作为伴奏。[FromFrom.GetSheHeCap]身后跟着仆人和半打山羊。[FromFrom.GetFirstName]用灵巧的双手抓住羊，在木桶上方一个接着一个地割破它们的喉咙。地板上的污渍不会消失。;;;;;;;;;;;;x
 EVTDESC_RIP_11047_6;[FromFrom.GetTitledFirstName]让你在每天晚上睡前喝一种重酿的酒。「这能松开你的构造，使灵魂进入你的身体」，[FromFrom.GetSheHe]向你保证。「但这也能令人……放轻松」，[FromFrom.GetSheHe]承认，朝你咧嘴笑。;;;;;;;;;;;;x
 EVTDESC_RIP_11047_7;[FromFrom.GetFirstName]告诉你解读[Root.Religion.GetScriptureName]的任务是困难的工作，但用火净化是一种和世界本身同样古老的技艺。当时你还不知道[FromFrom.GetSheHe]会让你走过燃烧的煤炭。;;;;;;;;;;;;x
@@ -1807,7 +1807,7 @@ EVTOPTA_RIP_21008_TOOLTIP;§Y[From.GetTitledFirstName]§!会好好用这笔钱�
 EVTOPTB_RIP_21008;你觉得我是在运营一个慈善机构？用好你的三寸不烂之舌。;;;;;;;;;;;;x
 EVTOPTB_RIP_21008_TOOLTIP;§Y[From.GetTitledFirstName]§!看起来有点沮丧。\n;;;;;;;;;;;;x
 EVTNAME_RIP_21009;为你的信息渠道付款;;;;;;;;;;;;x
-EVTDSC_RIP_21009;「我不会说我相信这些故事，但我们已经找到了一些可能的情报，我的[Root.GetLordLady]」[Root.job_marshal.GetTitledFirstName]说道。「然而，如果我们想要把这件事更加深入下去，就需要更多资金。实际上，我可能需要雇佣一些远方的探子，如果我们还想要跟进线索并继续这个……任务。」[From.GetSheHeCap]在门口停下，[From.GetHerHis]身子立得笔直。「当然了，也有其他获得永生的方法，」[From.GetSheHe]轻叹一声。你正准备开口回应，[From.GetSheHe]很不礼貌地打断了你：「我接到这工作就是这种态度了，[Root.GetMasterMistress]。我很抱歉。」\n\n你的[Root.GetMarshalName]离开了房间，[From.GetHerHis]脚步声越来越轻，而你在思考可能的选择。;;;;;;;;;;;;x
+EVTDSC_RIP_21009;我不会说我相信这些故事，但我们已经找到了一些可能的情报，我的[Root.GetLordLady]，[Root.job_marshal.GetTitledFirstName]说道。「然而，如果我们想要把这件事更加深入下去，就需要更多资金。实际上，我可能需要雇佣一些远方的探子，如果我们还想要跟进线索并继续这个……任务。」[From.GetSheHeCap]在门口停下，[From.GetHerHis]身子立得笔直。「当然了，也有其他获得永生的方法，」[From.GetSheHe]轻叹一声。你正准备开口回应，[From.GetSheHe]很不礼貌地打断了你：「我接到这工作就是这种态度了，[Root.GetMasterMistress]。我很抱歉。」\n\n你的[Root.GetMarshalName]离开了房间，[From.GetHerHis]脚步声越来越轻，而你在思考可能的选择。;;;;;;;;;;;;x
 EVTOPTA_RIP_21009;我将通告世界，如果必须如此。;;;;;;;;;;;;x
 EVTOPTA_RIP_21009_TOOLTIP;§Y[From.GetTitledFirstName]§!和[From.GetHerHis]队伍必会感谢你的慷慨！\n;;;;;;;;;;;;x
 EVTOPTB_RIP_21009;好的！我会改善军械。;;;;;;;;;;;;x
@@ -1932,7 +1932,7 @@ EVTOPTB_RIP_12050;这很聪明！我会……考虑一下。;;;;;;;;;;;;x
 EVTOPTB_RIP_12050_TOOLTIP;你不信任§Y[secluded_steward.GetFirstName]的§!意图，决定给[secluded_steward.GetHerHim]一些错误的隧道地图……\n;;;;;;;;;;;;x
 EVTOPTC_RIP_12050;哦，我知道你要做什么。我不会告诉你任何事！;;;;;;;;;;;;x
 EVTOPTC_RIP_12050_TOOLTIP;你决定不信任§Y[secluded_steward.GetFirstName]§!\n;;;;;;;;;;;;x
-EVTDESC_RIP_12052;「我的领主！」[secluded_steward.GetTitledFirstName]在你于大厅里闲逛时匆匆赶上你。[secluded_steward.GetSheHeCap]看起来忧心忡忡，而你命令[secluded_steward.GetHerHim]直说，无论消息是什么。「那个隧道，我的[Root.GetLordLady]」，[secluded_steward.GetSheHe]喘了一整子才告诉你似乎有人在使用隧道——卫兵意外发现了工具和火把，从外表看来，最近才被用过。;;;;;;;;;;;;x
+EVTDESC_RIP_12052;我的领主！[secluded_steward.GetTitledFirstName]在你于大厅里闲逛时匆匆赶上你。[secluded_steward.GetSheHeCap]看起来忧心忡忡，而你命令[secluded_steward.GetHerHim]直说，无论消息是什么。「那个隧道，我的[Root.GetLordLady]」，[secluded_steward.GetSheHe]喘了一整子才告诉你似乎有人在使用隧道——卫兵意外发现了工具和火把，从外表看来，最近才被用过。;;;;;;;;;;;;x
 EVTOPTA_RIP_12052;这是一个埋伏的好机会！;;;;;;;;;;;;x
 EVTOPTA_RIP_12052_TOOLTIP;你命令更多人守卫隧道，期望抓住想要溜进溜出的任何人\n\n;;;;;;;;;;;;x
 EVTOPTB_RIP_12052;这是一场灾难！封闭隧道！;;;;;;;;;;;;x
@@ -3152,7 +3152,6 @@ nick_the_plaguebearer;瘟疫传染者;;;;;;;;;;;;x
 nick_the_persevering;百折不挠者;;;;;;;;;;;;x
 nick_the_repulsive;恶心之人;;;;;;;;;;;;x
 nick_the_frog;青蛙;;;;;;;;;;;;x
-nick_the_mule;倔驴;;;;;;;;;;;;x
 nick_the_wealthy;富人;;;;;;;;;;;;x
 nick_the_lord_of_realm;[Root.PrimaryTitle.GetName]的[Root.GetLordLady];;;;;;;;;;;;x
 nick_twistedbeard;歪胡子;;;;;;;;;;;;x
@@ -3992,3 +3991,4 @@ INSULT_WITHERING;难堪的;;;;;;;;;;;;x
 INSULT_POX_RIDDEN;瘟疫缠身的;;;;;;;;;;;;x
 DEATH_EXECUTION_EATEN_UNKNOWN;被吞食;;;;;;;;;;;;x
 DEATH_EXECUTION_EATEN_UNKNOWN_NO_KILLER;被吞食;;;;;;;;;;;;x
+nick_the_tenacious;不屈者;;;;;;;;;;;;x

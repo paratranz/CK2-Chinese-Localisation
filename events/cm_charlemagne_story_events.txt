@@ -2716,7 +2716,7 @@ character_event = {
     }
   }
   immediate = {
-    random_courtier = {
+    any_courtier = {
       limit = {
         is_councillor = yes
         NOT = {
@@ -2733,6 +2733,10 @@ character_event = {
           is_smart_trigger = yes
           trait = diligent
         }
+      }
+      score_value = {
+        value = 10
+        interesting_courtier_selection_score = yes
       }
       set_character_flag = meddling_mother_conflict
       character_event = {

@@ -210,7 +210,7 @@ narrative_event = {
       }
     }
     name = {
-      text = EVTOPTA_6028
+      text = EVTOPTA_6028_B
       trigger = {
         society_member_of = the_assassins
       }
@@ -291,7 +291,7 @@ narrative_event = {
       }
     }
     name = {
-      text = EVTOPTA_6028
+      text = EVTOPTA_6028_B
       trigger = {
         society_member_of = the_assassins
       }
@@ -584,7 +584,7 @@ narrative_event = {
       }
     }
     name = {
-      text = EVTOPTA_6028
+      text = EVTOPTA_6028_B
       trigger = {
         society_member_of = the_assassins
       }
@@ -655,7 +655,7 @@ narrative_event = {
       }
     }
     name = {
-      text = EVTOPTA_6028
+      text = EVTOPTA_6028_B
       trigger = {
         society_member_of = the_assassins
       }
@@ -900,6 +900,9 @@ character_event = {
       }
       is_primary_heir = no
       in_command = no
+      NOT = {
+        society_member_of = the_assassins
+      }
     }
     OR = {
       NOT = {
@@ -922,6 +925,9 @@ character_event = {
         }
         is_primary_heir = no
         in_command = no
+        NOT = {
+          society_member_of = the_assassins
+        }
       }
       save_event_target_as = assassin_target
     }
@@ -954,6 +960,9 @@ character_event = {
   trigger = {
     uses_decadence = yes
     decadence = 90
+    NOT = {
+      society_member_of = the_assassins
+    }
     OR = {
       NOT = {
         has_global_flag = assassins_scatter
@@ -987,6 +996,9 @@ character_event = {
   has_global_flag = assassins_founded
   trigger = {
     is_ruler = no
+    NOT = {
+      society_member_of = the_assassins
+    }
     employer = {
       war = yes
       is_playable = yes
@@ -997,6 +1009,9 @@ character_event = {
         spouse = {
           character = ROOT
         }
+      }
+      NOT = {
+        society_member_of = the_assassins
       }
       d_hashshashin = {
         holder_scope = {
@@ -1231,6 +1246,11 @@ character_event = {
     host = {
       character = liege
       prisoner = no
+    }
+    liege = {
+      NOT = {
+        society_member_of = the_assassins
+      }
     }
     OR = {
       NOT = {

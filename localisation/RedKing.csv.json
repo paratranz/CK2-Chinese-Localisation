@@ -4183,8 +4183,8 @@
     },
     {
         "key": "RULES_FEATS_REQUIRE_BRONZEMAN",
-        "original": "Game must be played in §YBronzeman§! mode",
-        "translation": "游戏必须运行在§Y铜人§!模式里",
+        "original": "Game must be played in §YBronzeman§! or §YIronman§! mode",
+        "translation": "游戏必须运行在§Y铜人§!或§Y铁人§!模式里",
         "stage": 1
     },
     {
@@ -4329,6 +4329,72 @@
         "key": "FEAT_CURRENT_TT",
         "original": "Current score: $SCORE|Y$",
         "translation": "当前得分：$SCORE|Y$",
+        "stage": 1
+    },
+    {
+        "key": "ROMAN_NUMERAL_I",
+        "original": "I",
+        "translation": "Ⅰ",
+        "stage": 1
+    },
+    {
+        "key": "ROMAN_NUMERAL_II",
+        "original": "II",
+        "translation": "Ⅱ",
+        "stage": 1
+    },
+    {
+        "key": "ROMAN_NUMERAL_III",
+        "original": "III",
+        "translation": "Ⅲ",
+        "stage": 1
+    },
+    {
+        "key": "HIGHLIGHTED_RULER_RULER_TAB_NAME",
+        "original": "§YFeatured Ruler§!",
+        "translation": "§Y特色统治者§!",
+        "stage": 1
+    },
+    {
+        "key": "HIGHLIGHTED_RULER_FEAT_TAB_NAME",
+        "original": "§YChallenges§!",
+        "translation": "§Y挑战§!",
+        "stage": 1
+    },
+    {
+        "key": "HIGHLIGHTED_RULER_SOCIAL_TAB_NAME",
+        "original": "§YLeaderboards§!",
+        "translation": "§Y排行榜§!",
+        "stage": 1
+    },
+    {
+        "key": "HIGHLIGHTED_RULER_SOCIAL_TITLE",
+        "original": "Leaderboard\\n$FEAT$",
+        "translation": "排行榜\\n$FEAT$",
+        "stage": 1
+    },
+    {
+        "key": "HIGHLIGHTED_RULER_SOCIAL_FEAT_TOOLTIP_DELAYED",
+        "original": "§GClick to view leaderboard§!",
+        "translation": "§G点击查看排行榜§!",
+        "stage": 1
+    },
+    {
+        "key": "TOP_X_PLAYERS",
+        "original": "Top $NUM$ Players",
+        "translation": "排名前$NUM$的玩家",
+        "stage": 1
+    },
+    {
+        "key": "TOP_X_PLAYERS_TOOLTIP",
+        "original": "Reach a highscore of $SCORE|Y$ or higher\\nto be one of the top $NUM_PLAYERS|Y$ players\\nin the $FEAT|Y$ challenge.",
+        "translation": "取得$SCORE|Y$及以上的高分\\n成为排名前$NUM_PLAYERS|Y$的玩家之一\\n在$FEAT|Y$挑战中。",
+        "stage": 1
+    },
+    {
+        "key": "BRONZEMAN",
+        "original": "Bronzeman",
+        "translation": "铜人",
         "stage": 1
     }
 ]

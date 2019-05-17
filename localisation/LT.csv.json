@@ -1154,7 +1154,7 @@
     {
         "key": "use_secluded_upgrade_tt",
         "original": "You will invite §Y[target_character.GetFirstNameWithNick]§! to meet you in the §Y[target_upgrade.GetName]§! of the §Y[target_wonder.GetName]§! and have a private conversation with [target_character.GetHerHim].",
-        "translation": "你将邀请§Y[target_character.GetFirstNameWithNick]§!来到§Y[target_wonder.GetName]§!的§Y[target_upgrade.GetName]§!，你和[target_character.GetHerHim]将在那里展开一场私人对话。",
+        "translation": "你将邀请§Y[target_character.GetFirstNameWithNick]§!来到§Y[target_wonder.GetName]§!的§Y[target_upgrade.GetName]§!，你和[target_character.GetHerHim]将在那里展开一场私密谈话。",
         "stage": 1
     },
     {
@@ -1274,8 +1274,8 @@
     {
         "key": "EVTDESC_LT_20431",
         "original": "I'm meeting [From.GetTitledFirstName] in [target_wonder.Location.GetName], in the seclusion of the [target_upgrade.GetName]. After the usual pleasantries, [From.GetSheHe] pauses. \"[Root.GetFirstName], there is something I have wanted to do for a long time\", [From.GetSheHe] says, [From.GetHerHis] eyes wandering.",
-        "translation": "我前往[target_wonder.GetName]的[target_upgrade.GetName]，我与[From.GetBestName]在隐蔽处会面。一番玩笑后，[From.GetSheHe]抓住我并试图亲吻我的嘴。",
-        "stage": 0
+        "translation": "我前往[target_wonder.Location.GetName]，与[From.GetTitledFirstName]在僻静的[target_upgrade.GetName]会面。在一番日常的客套后，[From.GetSheHe]顿了顿。「[Root.GetFirstName]，有件事情我想做有很长一段时间了，」[From.GetSheHe]接着说道，[From.GetHerHis]神色游移着。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_LT_20431",
@@ -1316,8 +1316,8 @@
     {
         "key": "EVTDESC_LT_20441_murderer_target",
         "original": "[From.GetTitledFirstName] blinks in surprise as I step closer to [From.GetHerHim]. But when I move to caress [From.GetHerHis] cheek, I catch the glint of steel in the [From.GetManWoman]'s hand! \"You.. You were going to use that on ME?!\"",
-        "translation": "当我把脸颊凑上去的时候，[From.GetTitledFirstName]突然从[From.GetHerHis]衣服里掏出一把匕首刺向我！",
-        "stage": 0
+        "translation": "当我走近[From.GetTitledFirstName]的时候，[From.GetHerHim]的眼中闪烁着惊讶。但当我用手抚摸[From.GetHerHis]脸颊时，我瞥见这个[From.GetManWoman]的手中有一丝精钢的寒光！「你......你要把那个用在我身上？！」",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_LT_20441",
@@ -6026,14 +6026,14 @@
     {
         "key": "EVTOPTD_LT_20410",
         "original": "... I take [target_character.GetHerHis] hand, and kiss [target_character.GetHerHim] passionately.",
-        "translation": "......我深情地吻上[target_character.GetHerHim]，开始脱[target_character.GetHerHis]衣服。",
-        "stage": 0
+        "translation": "......我紧握[target_character.GetHerHis]手，与[target_character.GetHerHim]热吻。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_LT_20433",
         "original": "I went to the [target_wonder.GetName], to meet [From.GetFirstName] in the seclusion of the [target_upgrade.GetName]. I didn't have to wait long for the [From.GetManWoman] to pull me towards [From.GetHerHim], eager to demonstrate how much [From.GetSheHe] has missed me.",
-        "translation": "我到[target_wonder.GetName]僻静的[target_upgrade.GetName]里与[From.GetFirstName]见面。[From.GetSheHe]热情地亲吻我，我们进行了一场深入的交流。",
-        "stage": 0
+        "translation": "我到[target_wonder.GetName]僻静的[target_upgrade.GetName]里与[From.GetFirstName]见面。没等多久这个[From.GetManWoman]就把我拉进[From.GetHerHim]怀里，急不可耐地想证明[From.GetSheHe]到底有多想我。",
+        "stage": 1
     },
     {
         "key": "EVT_TITLE_LT_20510",
@@ -9110,8 +9110,8 @@
     {
         "key": "weak_leader_modifier_desc",
         "original": "Could not control the own troops.",
-        "translation": "",
-        "stage": 0
+        "translation": "无法控制自己的军队",
+        "stage": 1
     },
     {
         "key": "strong_leader_modifier",
@@ -9122,8 +9122,8 @@
     {
         "key": "strong_leader_modifier_desc",
         "original": "Does not tolerate indiscipline in the army.",
-        "translation": "",
-        "stage": 0
+        "translation": "不能容忍军队的无纪律。",
+        "stage": 1
     },
     {
         "key": "plundering_leader_modifier",
@@ -9236,14 +9236,14 @@
     {
         "key": "private_talk_possible_modifier_tt",
         "original": "Enables §YPrivate Conversation§! with characters",
-        "translation": "",
-        "stage": 0
+        "translation": "启用角色间的§Y私密谈话§!",
+        "stage": 1
     },
     {
         "key": "storing_a_relic_possible_modifier_tt",
         "original": "Can be used to store a §YRelic§!",
-        "translation": "",
-        "stage": 0
+        "translation": "可以用于保存一件§Y圣物§!",
+        "stage": 1
     },
     {
         "key": "wonder_aztec_pyramid_desc",
@@ -9398,8 +9398,8 @@
     {
         "key": "is_regent_commander_or_physician_tt",
         "original": "Is a §YRegent§!, §YDesignated Regent§!, §YCommander§!, or §YCourt Physician§!",
-        "translation": "",
-        "stage": 0
+        "translation": "是一名§Y摄政§!，§Y指定摄政§!，§Y指挥官§!，或§Y宫廷医师§!",
+        "stage": 1
     },
     {
         "key": "is_spouse_consort_or_of_your_dynasty",
@@ -9410,8 +9410,8 @@
     {
         "key": "is_a_child_tt",
         "original": "Is a child",
-        "translation": "",
-        "stage": 0
+        "translation": "是儿童",
+        "stage": 1
     },
     {
         "key": "is_character_in_important_chain_of_events_tt",
@@ -9434,8 +9434,8 @@
     {
         "key": "String_remains_a_rumor",
         "original": "[This.GetName] remain[This.GetSingularS] a strange rumor",
-        "translation": "",
-        "stage": 0
+        "translation": "[This.GetName]依然是一个奇异的传言",
+        "stage": 1
     },
     {
         "key": "EVTDESC_NE_1_debutant",
@@ -9530,20 +9530,20 @@
     {
         "key": "String_jaded_view_on_romance",
         "original": "jaded views on romance",
-        "translation": "",
-        "stage": 0
+        "translation": "对浪漫的钝感",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_4090",
         "original": "I have decided to show my devotion to [Root.Religion.GetHighGodNameCap] and the order by taking a vow of celibacy.",
-        "translation": "",
-        "stage": 0
+        "translation": "我立誓独身以向[Root.Religion.GetHighGodNameCap]和修会展现我的奉献精神。",
+        "stage": 1
     },
     {
         "key": "RELATION_TRIBUTARY",
         "original": "Tributary",
-        "translation": "",
-        "stage": 0
+        "translation": "朝贡国",
+        "stage": 1
     },
     {
         "key": ">>>>>>> live_team/develop",
@@ -9560,8 +9560,8 @@
     {
         "key": "assassins_conversion_desc_random",
         "original": "The most essential goals of the Assassins is to protect the believers of the True Faith and spread the words of [shiite.GetHighGodName] to every corner of the Earth. While even the most remote lands shall be converted one day, first we must turn to places closer to home — your mission is to convert the county [FromFrom.GetName].",
-        "translation": "",
-        "stage": 0
+        "translation": "对于阿萨辛来说最重要的目标就是保护拥有正信的信徒，并将[shiite.GetHighGodName]的话传遍世界上的每一个角落。总有一天即使是最偏远的土地也会皈依，但首先我们必须从距离我们较近的目标开始——你的任务是让[FromFrom.GetName]皈依。",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6204_c",
@@ -9572,44 +9572,44 @@
     {
         "key": "EVTDESC_MNM_6205_B",
         "original": "The people of the county [conversion_province.GetName] has now fully embraced [Root.Religion.GetName] as their religion. From [conversion_province.Capital.GetHolding] to countryside, the names of [Root.Religion.GetHighGodNameCap] and the [Root.Religion.GetPriestTitle]s are honored and cherished. Your mission is complete.",
-        "translation": "",
-        "stage": 0
+        "translation": "[conversion_province.GetName]的人民已经接受了[Root.Religion.GetName]作为他们的信仰。从[conversion_province.Capital.GetHolding]到乡村，[Root.Religion.GetHighGodNameCap]和[Root.Religion.GetPriestTitle]们的名字被纪念和爱戴。你的任务完成了。",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_MNM_6205_B",
         "original": "Praised be [Root.Religion.GetHighGodNameCap]!",
-        "translation": "",
-        "stage": 0
+        "translation": "赞美[Root.Religion.GetHighGodNameCap]！",
+        "stage": 1
     },
     {
         "key": "EVTDESC100550_B",
         "original": "The [Root.Religion.GetName] [Root.Religion.GetPriestTitle]s are constantly pestering me about religion and [Root.Religion.GetRandomGodName]. No matter what I do, promise to pray more or read the [Root.Religion.GetScriptureName] more thoroughly, they won't leave me alone!",
-        "translation": "",
-        "stage": 0
+        "translation": "[Root.Religion.GetName]的[Root.Religion.GetPriestTitle]经常因为宗教和[Root.Religion.GetRandomGodName]等问题纠缠我。无论我做什么，即便我答应更多地祈祷或更彻底地阅读[Root.Religion.GetScriptureName]，他们也不肯轻易放过我！",
+        "stage": 1
     },
     {
         "key": "EVTOPTC100550",
         "original": "[Root.Religion.GetHighGodNameCap], help me be a better [Root.GetManWoman]!",
-        "translation": "",
-        "stage": 0
+        "translation": "[Root.Religion.GetHighGodNameCap]，帮我变成一个更好地[Root.GetManWoman]吧！",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6021_c",
         "original": "Last night I approached [From.GetTitledFirstName] during a feast, intending to figure out whether [From.GetSheHe] might be persuaded to convert to the true faith. Unfortunately, as soon I steered the conversation towards the topics of the [Root.Religion.GetRandomGodName] and the [Root.Religion.GetScriptureName], the narrow-minded [From.GetManWoman] became quite disagreeable...",
-        "translation": "",
-        "stage": 0
+        "translation": "昨晚我在一场宴会上找了个机会和[From.GetTitledFirstName]攀谈起来，以此了解[From.GetSheHe]有多大的可能会被说服而皈依正信。不幸的是，当我聊起[Root.Religion.GetRandomGodName]和[Root.Religion.GetScriptureName]时，这个偏执的[From.GetManWoman]变得相当暴躁……",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6024_B",
         "original": "We are quiet for a moment, both seemingly contemplating these devoted souls. Then [From.GetFirstName] looks up at me, a curious intensity in [From.GetHerHis] gaze. \"That is not an impossible wish, [Root.GetFirstName]. Are you ready to kill and, if They will it, get killed to defend the words of [Root.Religion.GetRandomGodName] and the [Root.Religion.GetScriptureName]?\"",
-        "translation": "",
-        "stage": 0
+        "translation": "我们沉默了片刻，似乎都在考量这些忠诚的灵魂。然后[From.GetFirstName]抬头看着我，[From.GetHerHis]眼神中充满了好奇。「那倒不是一个不可能的愿望，[Root.GetFirstName]。你是否做好杀人的准备，或者依照祂们的旨意，为了捍卫[Root.Religion.GetRandomGodName]和[Root.Religion.GetScriptureName]的话语而牺牲？」",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6027_B",
         "original": "\"I do, [Root.GetFirstName],\" says [From.GetTitledFirstName] with a solemn, almost ceremonial, voice. \"There is an Order devoted to [Root.Religion.GetHighGodNameCap]. One that defends those true of faith and bring vengeance to their persecutors. The Assassins are always in need of champions. Think it over, and someone might reach out...\"",
-        "translation": "",
-        "stage": 0
+        "translation": "「是的，[Root.GetFirstName]，」[From.GetTitledFirstName]用庄严，几乎是仪式性的语气说。「有一个为[Root.Religion.GetHighGodNameCap]效力的教团。他们保护真正的信徒，并向迫害者复仇。阿萨辛需要人才。好好考虑一下，有人会联系你的……」",
+        "stage": 1
     },
     {
         "key": "EVTDESC_MNM_6202_PERSECUTED_SHIITES",
@@ -9620,14 +9620,14 @@
     {
         "key": "EVTOPTA_6028_B",
         "original": "Glory to [Root.Religion.GetHighGodNameCap]!",
-        "translation": "",
-        "stage": 0
+        "translation": "荣耀归于[Root.Religion.GetHighGodNameCap]！",
+        "stage": 1
     },
     {
         "key": "6252_CONVERT_APPRENTICE_TT",
         "original": "§Y[assassin_protege.GetTitledFirstName]§! will offer [assassin_protege.GetHerselfHimself] up to [Root.Religion.GetHighGodNameCap] and convert to the religion of [Root.Religion.GetName].",
-        "translation": "",
-        "stage": 0
+        "translation": "§Y[assassin_protege.GetTitledFirstName]§!将把[assassin_protege.GetHerselfHimself]献给[Root.Religion.GetHighGodNameCap]并且皈依[Root.Religion.GetName]。",
+        "stage": 1
     },
     {
         "key": "nick_the_festive",
@@ -9638,8 +9638,8 @@
     {
         "key": "nick_the_burden",
         "original": "the Burden",
-        "translation": "",
-        "stage": 0
+        "translation": "任重者",
+        "stage": 1
     },
     {
         "key": "nick_the_snake",
@@ -9656,56 +9656,56 @@
     {
         "key": "EVTDESC1_LT_61006",
         "original": "\"My [Root.GetLordLady]!\" [courtier.GetTitledFirstName] approaches me with excitement in [courtier.GetHerHis] eyes. \"Would you do me the honor of bestowing a nickname upon me, my [Root.GetLordLady]?\"",
-        "translation": "",
-        "stage": 0
+        "translation": "「我的[Root.GetLordLady]！」[courtier.GetTitledFirstName]靠近我说道，[courtier.GetHerHis]眼中带着兴奋。「您能赏光授予我一个称号吗，我的[Root.GetLordLady]？」",
+        "stage": 1
     },
     {
         "key": "EVTDESC2_LT_61006",
         "original": "\"My [Root.GetLordLady]!\" [courtier.GetTitledFirstName] approaches me with an armful of scrolls. \"Would you do me the honor of bestowing a nickname upon me, my [Root.GetLordLady]?\"",
-        "translation": "",
-        "stage": 0
+        "translation": "「我的[Root.GetLordLady]！」[courtier.GetTitledFirstName]抱着一捆卷轴靠近我说道。「您能赏光授予我一个称号吗，我的[Root.GetLordLady]？」",
+        "stage": 1
     },
     {
         "key": "EVTDESC3_LT_61006",
         "original": "\"My [Root.GetLordLady]!\" [courtier.GetTitledFirstName] approaches me with clothes stained with dirt and fire in [courtier.GetHerHis] eyes. \"Would you do me the honor of bestowing a nickname upon me, my [Root.GetLordLady]?\"",
-        "translation": "",
-        "stage": 0
+        "translation": "「我的[Root.GetLordLady]！」[courtier.GetTitledFirstName]穿着满身污渍的衣服，[courtier.GetHerHis]眼里冒着火，靠近我说道。「您能赏光授予我一个称号吗，我的[Root.GetLordLady]？」",
+        "stage": 1
     },
     {
         "key": "EVTDESC4_LT_61006",
         "original": "\"My [Root.GetLordLady]!\" [courtier.GetTitledFirstName] emerges from a gathering of courtiers and makes [courtier.GetHerHis] way over to me. \"Would you do me the honor of bestowing a nickname upon me, my [Root.GetLordLady]?\"",
-        "translation": "",
-        "stage": 0
+        "translation": "「我的[Root.GetLordLady]！」[courtier.GetTitledFirstName]从一堆廷臣中挤出一条[courtier.GetHerHis]路来走向我。「您能赏光授予我一个称号吗，我的[Root.GetLordLady]？」",
+        "stage": 1
     },
     {
         "key": "EVTDESC5_LT_61006",
         "original": "\"My [Root.GetLordLady]!\" [courtier.GetTitledFirstName] approaches me with a large ledger clutched in [courtier.GetHerHis] ink-stained hands. \"Would you do me the honor of bestowing a nickname upon me, my [Root.GetLordLady]?\"",
-        "translation": "",
-        "stage": 0
+        "translation": "「我的[Root.GetLordLady]！」[courtier.GetTitledFirstName]用[courtier.GetHerHis]沾满墨迹的手紧握着一本大帐本，靠近我说道。「您能赏光授予我一个称号吗，我的[Root.GetLordLady]？」",
+        "stage": 1
     },
     {
         "key": "EVTDESC6_LT_61006",
         "original": "\"My [Root.GetLordLady]!\" [courtier.GetTitledFirstName] steps out of the shadows beside me with a sharp smile. \"Would you do me the honor of bestowing a nickname upon me, my [Root.GetLordLady]?\"",
-        "translation": "",
-        "stage": 0
+        "translation": "「我的[Root.GetLordLady]！」[courtier.GetTitledFirstName]从我身边的阴影中走出，笑容尖刻地说道。「您能赏光授予我一个称号吗，我的[Root.GetLordLady]？」",
+        "stage": 1
     },
     {
         "key": "EVTOPTA_LT_61006",
         "original": "You deserve a good name!",
-        "translation": "",
-        "stage": 0
+        "translation": "你配得上一个好称号！",
+        "stage": 1
     },
     {
         "key": "EVTOPTB_LT_61006",
         "original": "Hm, what about...",
-        "translation": "",
-        "stage": 0
+        "translation": "嗯，不如叫......",
+        "stage": 1
     },
     {
         "key": "EVTOPTC_LT_61006",
         "original": "Oh, you'll get a nickname alright!",
-        "translation": "",
-        "stage": 0
+        "translation": "噢，你很快就会有个称号了！",
+        "stage": 1
     },
     {
         "key": "EVTOPTD_LT_61006",
@@ -9728,8 +9728,8 @@
     {
         "key": "nick_the_mule",
         "original": "the Mule",
-        "translation": "",
-        "stage": 0
+        "translation": "蠢驴",
+        "stage": 1
     },
     {
         "key": "courtiers_leaving_effect",
@@ -9788,56 +9788,56 @@
     {
         "key": "EVTOPTA30040",
         "original": "I'll do my best to ignore [annoying_courtier.GetHerHim] and trust my husbands decision.",
-        "translation": "",
-        "stage": 0
+        "translation": "我会尽可能地无视[annoying_courtier.GetHerHim]并且相信我丈夫的决定。",
+        "stage": 1
     },
     {
         "key": "EVTOPTB30040",
         "original": "If possible I'll have [annoying_courtier.GetHerHim] fired.",
-        "translation": "",
-        "stage": 0
+        "translation": "如果可能的话，我会解雇[annoying_courtier.GetHerHim]。",
+        "stage": 1
     },
     {
         "key": "EVTTOOLTIP30040",
         "original": "I ask my [Root.Spouse.GetFirstName] to fire the annoying [annoying_courtier.GetManWoman].",
-        "translation": "",
-        "stage": 0
+        "translation": "我要求我的[Root.Spouse.GetFirstName]赶走这个恼人的[annoying_courtier.GetManWoman]。",
+        "stage": 1
     },
     {
         "key": "EVTOPTC30040",
         "original": "I have the [annoying_courtier.GetManWoman] punished for [annoying_courtier.GetHerHis] insolence.",
-        "translation": "",
-        "stage": 0
+        "translation": "我让这个[annoying_courtier.GetManWoman]因为[annoying_courtier.GetHerHis]傲慢无礼而受到惩罚",
+        "stage": 1
     },
     {
         "key": "EVTOPTA30045",
         "original": "... jokingly push [annoying_courtier.GetHerHim] into the river.",
-        "translation": "",
-        "stage": 0
+        "translation": "...开玩笑地把[annoying_courtier.GetHerHim]推入河里。",
+        "stage": 1
     },
     {
         "key": "EVTOPTB30045",
         "original": "... order [annoying_courtier.GetHerHim] to be quiet.",
-        "translation": "",
-        "stage": 0
+        "translation": "...命令[annoying_courtier.GetHerHim]保持安静。",
+        "stage": 1
     },
     {
         "key": "EVTOPTC30045",
         "original": "... ignore [annoying_courtier.GetHerHis] annoying comments.",
-        "translation": "",
-        "stage": 0
+        "translation": "……忽略[annoying_courtier.GetHerHis]恼人的意见",
+        "stage": 1
     },
     {
         "key": "EVTDESC30046",
         "original": "The young [annoying_courtier.GetManWoman] I pushed into the river ended up drowning. Although it was an accident rumors of my deed spread quickly.",
-        "translation": "",
-        "stage": 0
+        "translation": "我推入河中的年轻[annoying_courtier.GetManWoman]最终淹死了。虽然这是个意外，但说我是故意的谣言迅速蔓延。",
+        "stage": 1
     },
     {
         "key": "EVTDESC30047",
         "original": "Wet, but otherwise unharmed, the courtier blasted me with foul words and angry but empty threats. Seeing [annoying_courtier.GetHerHim] standing before me dripping mud and with algae entwined into [annoying_courtier.GetHerHis] hair, I could not stop the laughter pouring out of me.",
-        "translation": "",
-        "stage": 0
+        "translation": "这个廷臣全身湿透，但是没有受伤，还用脏话骂我，但对我来说都是愤怒而空洞的威胁。看到[annoying_courtier.GetHerHim]站在我面前满身泥沙，[annoying_courtier.GetHerHis]头发缠绕着海藻，我忍不住笑出了声。",
+        "stage": 1
     },
     {
         "key": "exodus_court_allow_tooltip",
@@ -9872,8 +9872,8 @@
     {
         "key": "EXPENSE_OVERSIZED_COURT",
         "original": "Court Expenses",
-        "translation": "",
-        "stage": 0
+        "translation": "宫廷开销",
+        "stage": 1
     },
     {
         "key": "EXPENSE_OVERSIZED_COURT_TT",
@@ -9938,8 +9938,8 @@
     {
         "key": "wonder_cathedral_notre_dame_desc",
         "original": "By many deemed integral to the silhouette of Paris, this grand Cathedral reminds the proud metropolitans of their heritage and accomplishments, while also inspiring hope for future endeavors.",
-        "translation": "",
-        "stage": 0
+        "translation": "这座大教堂被许多人视为巴黎的轮廓中不可或缺的一部分，让自豪的都市人回想起了他们的文化遗产和文化成就，同时也激发了人们对将来奋斗的期望。",
+        "stage": 1
     },
     {
         "key": "ADD_WONDER_EFFECT",
@@ -9974,26 +9974,26 @@
     {
         "key": "EVTDESCHFP22006_A",
         "original": "[antagonize_target.GetTitledFirstName] has secluded [antagonize_target.GetHerselfHimself] with the rest of the court in [antagonize_target.Location.GetName], presumably biding their time while disease lingers in the countryside of the realm. \"It will not be possible to reach [antagonize_target.GetHerHim] for some time\", my council informs me.",
-        "translation": "",
-        "stage": 0
+        "translation": "在病魔徘徊在领地的乡村之际，[antagonize_target.GetTitledFirstName][antagonize_target.GetHerselfHimself]已经和[antagonize_target.Location.GetName]宫廷中其他人一起进入隔离等待时机。「这段时间不可能联系得到[antagonize_target.GetHerHim]了。」我的内阁告诉我。",
+        "stage": 1
     },
     {
         "key": "EVTDESCHFP22006_B",
         "original": "As I have gone into seclusion with my court, my efforts to antagonize [antagonize_target.GetTitledFirstName] will have to be halted.",
-        "translation": "",
-        "stage": 0
+        "translation": "由于我已经与我的宫廷一同进入隔离，我必须停止激怒[antagonize_target.GetTitledFirstName]的努力。",
+        "stage": 1
     },
     {
         "key": "EVTDESCHFP22006_A_B",
         "original": "As both [antagonize_target.GetTitledFirstName] and I are both currently weathering the disease ravaging the countryside outside, my efforts to antagonize [antagonize_target.GetHerHim] will have to be put on hold...",
-        "translation": "",
-        "stage": 0
+        "translation": "由于[antagonize_target.GetTitledFirstName]和我现在都在等待肆虐外面乡村的病魔消退，我激怒[antagonize_target.GetHerHim]的努力将不得不搁置……",
+        "stage": 1
     },
     {
         "key": "tooltip_stop_antagonizing",
         "original": "Stop §YAntagonizing§! §Y[antagonize_target.GetTitledFirstName]§!",
-        "translation": "",
-        "stage": 0
+        "translation": "停止§Y激怒§!§Y[antagonize_target.GetTitledFirstName]§!",
+        "stage": 1
     },
     {
         "key": "EVTOPTAHFP22006",
@@ -10028,8 +10028,8 @@
     {
         "key": "EVTDESC_LT_10103_A",
         "original": "After a long council meeting, my head is filled with the latest expense reports. I let out a sigh, a small feeling of defeat building in me, but [upbeat_courtier.GetFirstName] interrupts my thoughts: \"I don't know if it matters to you, my [Root.GetLordLady], but many are grateful for the way you are handling the surplus of men and women here in the [Root.GetCapitalHolding].\"",
-        "translation": "",
-        "stage": 0
+        "translation": "一次漫长的议会会议后，我满脑子都是最新的开支报告。我叹了口气，心里有一种小小的挫败感，但[upbeat_courtier.GetFirstName]打断了我的思绪：「我不知道你是否在乎，我的[Root.GetLordLady]，但很多人都很感激你处理[Root.GetCapitalHolding]过剩的人员的方式。」",
+        "stage": 1
     },
     {
         "key": "EVTDESC_LT_10103_B",
@@ -10112,8 +10112,8 @@
     {
         "key": "ruthless_host_desc",
         "original": "This character is known for [Root.GetHerHis] pragmatic approach to human resources.",
-        "translation": "",
-        "stage": 0
+        "translation": "该角色以[Root.GetHerHis]对人力资源的务实态度闻名于世。",
+        "stage": 1
     },
     {
         "key": "naive_host",
@@ -10148,7 +10148,7 @@
     {
         "key": "RULE_COURT_LIMIT_OFF",
         "original": "The number of courtiers allowed in each court is unlimited, and events tied to the mechanic are disabled.",
-        "translation": "每个宫廷的廷臣数量将不会受到限制，同时禁用与该系统绑定的事件。",
+        "translation": "每个宫廷的廷臣数量将不会受到限制，同时禁用与这项机制绑定的事件。",
         "stage": 1
     }
 ]
