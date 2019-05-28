@@ -2841,6 +2841,7 @@ character_event = {
         days = 1400
         random = 730
       }
+      set_character_flag = is_special_character
       set_character_flag = seljuk_himself
       set_character_flag = do_not_disturb
     }
@@ -3902,6 +3903,7 @@ character_event = {
       trait = adventurer
     }
     new_character = {
+      set_character_flag = is_special_character
       set_character_flag = timur_himself
       if = {
         limit = {

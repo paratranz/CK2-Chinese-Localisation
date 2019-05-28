@@ -2749,6 +2749,10 @@
   914.1.2 = {
     birth = "914.1.2"
   }
+  936.1.1 = {
+    give_nickname = "nick_longsword"
+    add_spouse = 411
+  }
   942.12.17 = {
     death = "942.12.17"
   }
@@ -7807,6 +7811,36 @@
     birth = yes
   }
   1125.1.1 = {
+    death = yes
+  }
+}
+260555 = {
+  name = "Bernard"
+  dynasty = 710
+  religion = catholic
+  culture = norman
+  trait = skilled_tactician
+  trait = viking
+  875.1.1 = {
+    birth = yes
+  }
+  930.1.1 = {
+    give_nickname = nick_the_dane
+  }
+  951.1.1 = {
+    death = yes
+  }
+}
+260556 = {
+  name = "Torf"
+  dynasty = 710
+  religion = catholic
+  culture = norman
+  father = 260555
+  905.1.1 = {
+    birth = yes
+  }
+  973.1.1 = {
     death = yes
   }
 }

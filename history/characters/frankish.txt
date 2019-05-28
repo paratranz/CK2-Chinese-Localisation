@@ -1919,6 +1919,9 @@
   870.1.1 = {
     birth = "870.1.1"
   }
+  929.1.1 = {
+    give_nickname = nick_the_red
+  }
   942.1.1 = {
     death = "942.1.1"
   }
@@ -10916,9 +10919,8 @@
   culture = "frankish"
   trait = "deceitful"
   trait = "thrifty_clerk"
-  mother = 6447
-  915.1.2 = {
-    birth = "915.1.2"
+  913.1.2 = {
+    birth = yes
   }
   948.1.2 = {
     add_spouse = 411
@@ -11231,26 +11233,6 @@
   }
   1100.1.1 = {
     death = "1100.1.1"
-  }
-}
-400 = {
-  name = "罗伯勒"  # Rotbold
-  dynasty = 7052
-  martial = 5
-  diplomacy = 5
-  intrigue = 8
-  stewardship = 6
-  religion = "catholic"
-  culture = "frankish"
-  trait = "gluttonous"
-  trait = "craven"
-  trait = "flamboyant_schemer"
-  father = 7980
-  900.1.2 = {
-    birth = "900.1.2"
-  }
-  948.1.2 = {
-    death = "948.1.2"
   }
 }
 40060 = {
@@ -12692,8 +12674,8 @@
   religion = "catholic"
   culture = "frankish"
   father = 40399
-  923.1.1 = {
-    birth = "923.1.1"
+  928.1.1 = {
+    birth = yes
   }
   992.1.1 = {
     death = "992.1.1"
@@ -20805,8 +20787,21 @@
   culture = "frankish"
   father = 6442
   mother = 6401
+  disallow_random_traits = yes
+  trait = ambitious
+  trait = midas_touched
+  trait = cynical
+  trait = temperate
+  martial = 7
+  diplomacy = 9
+  stewardship = 7
+  intrigue = 8
+  learning = 5
   900.1.1 = {
     birth = "900.1.1"
+  }
+  926.1.1 = {
+    add_spouse = 261390
   }
   936.7.25 = {
     give_nickname = nick_the_great
@@ -24104,6 +24099,9 @@
   860.1.1 = {
     birth = "860.1.1"
   }
+  879.1.1 = {
+    culture = occitan
+  }
   880.1.1 = {
     add_spouse = 7920
   }
@@ -24118,33 +24116,11 @@
   religion = "catholic"
   culture = "frankish"
   father = 1166
-  920.1.1 = {
-    birth = "920.1.1"
+  930.1.1 = {
+    birth = yes
   }
   966.1.1 = {
     death = "966.1.1"
-  }
-}
-7923 = {
-  name = "于格"  # Hugues
-  dynasty = 7052
-  martial = 6
-  diplomacy = 7
-  intrigue = 8
-  stewardship = 8
-  religion = "catholic"
-  culture = "frankish"
-  trait = "diligent"
-  trait = "patient"
-  trait = "zealous"
-  trait = "charismatic_negotiator"
-  father = 7921
-  mother = 7920
-  885.1.1 = {
-    birth = "885.1.1"
-  }
-  948.4.10 = {
-    death = "948.4.10"
   }
 }
 7940 = {
@@ -37243,7 +37219,7 @@
   890.1.1 = {
     birth = "890.1.1"
   }
-  920.1.1 = {
+  917.1.1 = {
     add_spouse = 168046
   }
   931.3.26 = {
@@ -38853,8 +38829,8 @@
   religion = "catholic"
   culture = "frankish"
   father = 71908
-  871.1.1 = {
-    birth = "871.1.1"
+  857.1.1 = {
+    birth = "857.1.1"
   }
   883.1.1 = {
     death = "883.1.1"
@@ -39678,22 +39654,6 @@
   }
   1115.1.1 = {
     death = "1115.1.1"
-  }
-}
-167000 = {
-  name = "洛泰尔"  # Lothaire
-  dynasty = 7052
-  religion = "catholic"
-  culture = "frankish"
-  father = 7923
-  928.1.1 = {
-    birth = "928.1.1"
-  }
-  946.1.1 = {
-    add_spouse = 1159
-  }
-  950.11.22 = {
-    death = "950.11.22"
   }
 }
 167001 = {
@@ -42352,8 +42312,8 @@
   culture = "frankish"
   father = 1164
   mother = 1701
-  911.1.1 = {
-    birth = "911.1.1"
+  915.1.1 = {
+    birth = yes
   }
   929.3.19 = {
     death = "929.3.19"
@@ -43016,5 +42976,88 @@
   }
   1106.5.19 = {
     death = "1106.5.19"
+  }
+}
+260596 = {
+  name = "Richer"
+  religion = catholic
+  culture = frankish
+  890.1.1 = {
+    birth = yes
+  }
+  945.1.1 = {
+    death = yes
+  }
+}
+260598 = {
+  name = "Adrien"
+  religion = catholic
+  culture = frankish
+  901.1.1 = {
+    birth = yes
+  }
+  949.1.1 = {
+    death = yes
+  }
+}
+262155 = {
+  name = "Itta"
+  female = yes
+  dynasty = 7389
+  religion = catholic
+  culture = frankish
+  father = 71909
+  868.1.1 = {
+    birth = yes
+  }
+  880.1.1 = {
+    add_spouse = 145215
+  }
+  928.1.1 = {
+    death = yes
+  }
+}
+261391 = {
+  name = "Melisende"
+  dynasty = 660
+  female = yes
+  religion = catholic
+  culture = frankish
+  father = 144952
+  mother = 168046
+  917.1.1 = {
+    birth = yes
+  }
+  963.1.1 = {
+    death = yes
+  }
+}
+261392 = {
+  name = "Hervé"
+  dynasty = 1062608
+  religion = catholic
+  culture = frankish
+  915.1.1 = {
+    birth = yes
+  }
+  934.1.1 = {
+    add_spouse = 261391
+  }
+  955.1.1 = {
+    death = yes
+  }
+}
+261393 = {
+  name = "Hervé"
+  dynasty = 1062608
+  religion = catholic
+  culture = frankish
+  father = 261392
+  mother = 261391
+  935.1.1 = {
+    birth = yes
+  }
+  980.1.1 = {
+    death = yes
   }
 }

@@ -1593,6 +1593,12 @@
   922.1.1 = {
     add_spouse = 7958
   }
+  933.1.1 = {
+    create_bloodline = {
+      type = rudolph
+      has_dlc = "Holy Fury"
+    }
+  }
   937.12.1 = {
     death = "937.12.1"
   }
@@ -1890,39 +1896,59 @@
   culture = "german"
   trait = "scholarly_theologian"
   father = 33331
-  879.1.2 = {
-    birth = "879.1.2"
+  894.1.2 = {
+    birth = yes
   }
-  936.1.2 = {
-    death = "936.1.2"
+  968.3.14 = {
+    death = yes
   }
 }
 1282 = {
   name = "奥托"  # Otto
+  dna = rcrfdblvsvv
+  prp = aj000a00000000000000000000000000000000
   dynasty = 669
-  martial = 7
+  martial = 8
   diplomacy = 7
   intrigue = 8
   stewardship = 6
   religion = "catholic"
   culture = "german"
+  disallow_random_traits = yes
   trait = "greedy"
+  trait = ambitious
   trait = "diligent"
   trait = "envious"
   trait = "skilled_tactician"
+  trait = inspiring_leader
   father = 1280
   mother = 1281
   912.11.23 = {
     birth = "912.11.23"
+    effect = {
+      set_character_flag = is_otto
+      set_character_flag = is_special_character
+    }
   }
   929.1.1 = {
     add_spouse = 101
+  }
+  936.1.1 = {
+    effect = {
+      add_weak_pressed_claim = k_italy
+      add_weak_pressed_claim = d_upper_lorraine
+      add_weak_pressed_claim = d_lower_lorraine
+    }
   }
   951.1.1 = {
     add_spouse = 1159
   }
   962.2.9 = {
     give_nickname = nick_the_great
+    create_bloodline = {
+      type = otto
+      has_dlc = "Holy Fury"
+    }
   }
   973.5.7 = {
     death = "973.5.7"
@@ -2088,7 +2114,7 @@
   918.1.2 = {
     birth = "918.1.2"
   }
-  937.1.1 = {
+  925.1.1 = {
     add_spouse = 10096
   }
   955.1.2 = {
@@ -2691,8 +2717,8 @@
   culture = "german"
   father = 1326
   mother = 1327
-  925.1.1 = {
-    birth = "925.1.1"
+  918.1.1 = {
+    birth = yes
   }
   941.1.1 = {
     add_spouse = 1329
@@ -41901,6 +41927,9 @@
   father = 1282
   929.1.1 = {
     birth = "929.1.1"
+    effect = {
+      set_government_type = feudal_government
+    }
   }
   968.3.2 = {
     death = "968.3.2"
@@ -42499,8 +42528,8 @@
   culture = "german"
   father = 1326
   mother = 1327
-  927.1.1 = {
-    birth = "927.1.1"
+  920.1.1 = {
+    birth = yes
   }
   973.8.9 = {
     death = "973.8.9"
@@ -42678,8 +42707,8 @@
   922.1.1 = {
     add_spouse = 161551
   }
-  935.1.1 = {
-    death = "935.1.1"
+  937.1.1 = {
+    death = yes
   }
 }
 161553 = {
@@ -46144,6 +46173,9 @@
   809.1.1 = {
     birth = "809.1.1"
   }
+  830.1.1 = {
+    add_spouse = 263003
+  }
   855.11.10 = {
     death = "855.11.10"
   }
@@ -46219,12 +46251,16 @@
 }
 167775 = {
   name = "迈因哈德"  # Meginhard
-  dynasty = 656
+  dynasty = 1064000
   religion = "catholic"
   culture = "german"
   father = 167769
+  mother = 263003
   842.1.1 = {
     birth = "842.1.1"
+  }
+  860.1.1 = {
+    add_spouse = 263004
   }
   882.1.1 = {
     death = "882.1.1"
@@ -47244,7 +47280,10 @@
     birth = "895.1.1"
   }
   936.1.1 = {
-    death = "936.1.1"
+    employer = 1144
+  }
+  940.1.1 = {
+    death = "940.1.1"
   }
 }
 168006 = {
@@ -50844,7 +50883,7 @@
   834.1.1 = {
     birth = yes
   }
-  871.1.1 = {
+  891.1.1 = {
     death = yes
   }
 }
@@ -52410,6 +52449,459 @@
     birth = yes
   }
   1381.1.1 = {
+    death = yes
+  }
+}
+260572 = {
+  name = "Adam"
+  religion = catholic
+  culture = german
+  912.1.1 = {
+    birth = yes
+  }
+  940.1.1 = {
+    death = yes
+  }
+}
+260573 = {
+  name = "Adaldag"
+  religion = catholic
+  culture = german
+  900.1.1 = {
+    birth = yes
+  }
+  988.4.28 = {
+    death = yes
+  }
+}
+260574 = {
+  name = "Dodo"
+  religion = catholic
+  culture = german
+  880.1.1 = {
+    birth = yes
+  }
+  949.1.1 = {
+    death = yes
+  }
+}
+260575 = {
+  name = "Odo"
+  dynasty = 1053
+  religion = catholic
+  culture = german
+  father = 7961
+  895.1.1 = {
+    birth = yes
+  }
+  913.1.1 = {
+    add_spouse = 6403
+  }
+  949.1.1 = {
+    death = yes
+  }
+}
+260576 = {
+  name = "Emich"
+  dynasty = 1062247
+  religion = catholic
+  culture = german
+  915.1.1 = {
+    birth = yes
+  }
+  976.1.1 = {
+    death = yes
+  }
+}
+260577 = {
+  name = "Humbert"
+  dynasty = 1062248
+  religion = catholic
+  culture = german
+  908.1.1 = {
+    birth = yes
+  }
+  956.1.1 = {
+    death = yes
+  }
+}
+260579 = {
+  name = "Waldo"
+  religion = catholic
+  culture = german
+  889.1.1 = {
+    birth = yes
+  }
+  949.1.1 = {
+    death = yes
+  }
+}
+260582 = {
+  name = "Ulrich"
+  religion = catholic
+  culture = german
+  893.1.1 = {
+    birth = yes
+  }
+  973.1.1 = {
+    death = yes
+  }
+}
+260583 = {
+  name = "Erich"
+  dynasty = 1062252
+  religion = catholic
+  culture = german
+  904.1.1 = {
+    birth = yes
+  }
+  949.1.1 = {
+    death = yes
+  }
+}
+260584 = {
+  name = "Egilholf"
+  religion = catholic
+  culture = german
+  874.1.1 = {
+    birth = yes
+  }
+  939.1.1 = {
+    death = yes
+  }
+}
+260585 = {
+  name = "Berthold"
+  dynasty = 653
+  religion = catholic
+  culture = german
+  905.1.1 = {
+    birth = yes
+  }
+  980.2.15 = {
+    death = yes
+  }
+}
+260586 = {
+  name = "Baldur"
+  religion = catholic
+  culture = german
+  869.1.1 = {
+    birth = yes
+  }
+  940.1.1 = {
+    death = yes
+  }
+}
+260587 = {
+  name = "Dietwin"
+  dynasty = 1062253
+  religion = catholic
+  culture = german
+  901.1.1 = {
+    birth = yes
+  }
+  956.1.1 = {
+    death = yes
+  }
+}
+260588 = {
+  name = "Andreas"
+  religion = catholic
+  culture = german
+  910.1.1 = {
+    birth = yes
+  }
+  940.1.1 = {
+    death = yes
+  }
+}
+260589 = {
+  name = "Berengar"
+  dynasty = 1062014
+  religion = catholic
+  culture = german
+  father = 260024
+  867.1.1 = {
+    birth = yes
+  }
+  940.1.1 = {
+    death = yes
+  }
+}
+260590 = {
+  name = "Rotbert"
+  religion = catholic
+  culture = german
+  904.1.1 = {
+    birth = yes
+  }
+  956.1.1 = {
+    death = yes
+  }
+}
+260591 = {
+  name = "Rumhold"
+  religion = catholic
+  culture = german
+  880.1.1 = {
+    birth = yes
+  }
+  941.1.1 = {
+    death = yes
+  }
+}
+260592 = {
+  name = "Amadeus"
+  dynasty = 1062254
+  religion = catholic
+  culture = german
+  899.1.1 = {
+    birth = yes
+  }
+  938.1.1 = {
+    death = yes
+  }
+}
+260593 = {
+  name = "Balderic"
+  dynasty = 1062255
+  religion = catholic
+  culture = german
+  897.1.1 = {
+    birth = yes
+  }
+  975.1.1 = {
+    death = yes
+  }
+}
+260594 = {
+  name = "Lupold"
+  dynasty = 1062256
+  religion = catholic
+  culture = german
+  trait = brilliant_strategist
+  trait = inspiring_leader
+  trait = brave
+  trait = patient
+  trait = diligent
+  trait = kind
+  disallow_random_traits = yes
+  860.1.1 = {
+    birth = yes
+  }
+  935.1.1 = {
+    death = yes
+  }
+}
+260595 = {
+  name = "Lupold"
+  dynasty = 1062256
+  religion = catholic
+  culture = german
+  father = 260594
+  899.1.1 = {
+    birth = yes
+  }
+  978.1.1 = {
+    death = yes
+  }
+}
+260597 = {
+  name = "Asmundus"
+  religion = catholic
+  culture = german
+  905.1.1 = {
+    birth = yes
+  }
+  940.1.1 = {
+    death = yes
+  }
+}
+190532 = {
+  name = "Hilda"
+  female = yes
+  religion = "catholic"
+  culture = "german"
+  907.1.1 = {
+    birth = yes
+  }
+  931.1.1 = {
+    death = yes
+  }
+}
+263000 = {
+  name = "Brunhari"
+  dynasty = 1064000
+  religion = "catholic"
+  culture = "german"
+  725.1.1 = {
+    birth = yes
+  }
+  795.1.1 = {
+    death = yes
+  }
+}
+263001 = {
+  name = "Wrachari"
+  dynasty = 1064000
+  religion = "catholic"
+  culture = "german"
+  father = 263000
+  751.1.1 = {
+    birth = yes
+  }
+  820.1.1 = {
+    death = yes
+  }
+}
+263002 = {
+  name = "Meginhard"
+  dynasty = 1064000
+  religion = "catholic"
+  culture = "german"
+  father = 263001
+  775.1.1 = {
+    birth = yes
+  }
+  848.1.1 = {
+    death = yes
+  }
+}
+263004 = {
+  name = "Evesa"
+  female = yes
+  religion = "catholic"
+  culture = "german"
+  father = 7988
+  mother = 161485
+  dynasty = 650
+  837.1.1 = {
+    birth = yes
+  }
+  860.1.1 = {
+    add_spouse = 167775
+  }
+  885.1.1 = {
+    death = yes
+  }
+}
+263012 = {
+  name = "Kunigunde"
+  religion = "catholic"
+  culture = "german"
+  female = yes
+  father = 40705
+  mother = 90113
+  dynasty = 22007
+  914.1.1 = {
+    birth = yes
+  }
+  930.1.2 = {
+    add_spouse = 263009
+  }
+  970.1.1 = {
+    death = yes
+  }
+}
+261345 = {
+  name = "Gebhard"
+  dynasty = 1053
+  religion = catholic
+  culture = german
+  father = 260575
+  mother = 6403
+  918.1.1 = {
+    birth = yes
+  }
+  938.1.1 = {
+    death = yes
+  }
+}
+261346 = {
+  name = "Herbert"
+  dynasty = 1053
+  religion = catholic
+  culture = german
+  father = 260575
+  mother = 6403
+  928.1.1 = {
+    birth = yes
+  }
+  992.1.1 = {
+    death = yes
+  }
+}
+261347 = {
+  name = "Otto"
+  dynasty = 1053
+  religion = catholic
+  culture = german
+  father = 260575
+  mother = 6403
+  925.1.1 = {
+    birth = yes
+  }
+  960.1.1 = {
+    death = yes
+  }
+}
+261348 = {
+  name = "Odo"
+  dynasty = 1053
+  religion = catholic
+  culture = german
+  father = 260575
+  mother = 6403
+  930.1.1 = {
+    birth = yes
+  }
+  965.1.1 = {
+    death = yes
+  }
+}
+261349 = {
+  name = "Jutta"
+  dynasty = 1053
+  religion = catholic
+  culture = german
+  female = yes
+  father = 260575
+  mother = 6403
+  932.1.1 = {
+    birth = yes
+  }
+  970.1.1 = {
+    death = yes
+  }
+}
+261394 = {
+  name = "Thankmar"
+  dna = "jymrxtenihu"
+  prp = "0e0gak00000000000000000000000000000000"
+  disallow_random_traits = yes
+  trait = skilled_tactician
+  trait = ambitious
+  trait = patient
+  trait = greedy
+  trait = envious
+  diplomacy = 4
+  martial = 7
+  stewardship = 6
+  intrigue = 5
+  learning = 4
+  dynasty = 669
+  religion = catholic
+  culture = german
+  trait = bastard
+  father = 1280
+  908.1.1 = {
+    birth = yes
+    effect = {
+      set_character_flag = is_thankmar
+    }
+  }
+  938.7.28 = {
     death = yes
   }
 }

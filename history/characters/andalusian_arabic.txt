@@ -3132,8 +3132,109 @@
   religion = "sunni"
   culture = "maghreb_arabic"
   father = 159526
-  860.1.1 = {
-    birth = "860.1.1"
+  864.1.1 = {
+    birth = "864.1.1"
+  }
+  936.1.1 = {
+    prestige = 500
+    wealth = 250
+    effect = {
+      spawn_unit = {
+        province = 480
+        owner = ROOT
+        troops = {
+          light_infantry = {
+            230
+            230
+          }
+          heavy_infantry = {
+            160
+            160
+          }
+          archers = {
+            200
+            200
+          }
+        }
+        attrition = 1.0
+      }
+      create_character = {
+        random_traits = yes
+        dynasty = random
+        religion = ROOT
+        culture = ROOT
+        female = no
+        age = 29
+        attributes = {
+          martial = 5
+        }
+        trait = tough_soldier
+      }
+      new_character = {
+        spawn_unit = {
+          province = 480
+          owner = PREV
+          troops = {
+            light_infantry = {
+              230
+              230
+            }
+            heavy_infantry = {
+              160
+              160
+            }
+            archers = {
+              200
+              200
+            }
+          }
+          attrition = 1.0
+        }
+      }
+      create_character = {
+        random_traits = yes
+        religion = ROOT
+        culture = ROOT
+        female = no
+        age = 25
+        attributes = {
+          martial = 5
+        }
+        trait = tough_soldier
+      }
+      new_character = {
+        spawn_unit = {
+          province = 480
+          owner = PREV
+          troops = {
+            light_infantry = {
+              230
+              230
+            }
+            heavy_infantry = {
+              160
+              160
+            }
+            archers = {
+              200
+              200
+            }
+          }
+          attrition = 1.0
+        }
+      }
+      spawn_fleet = {
+        province = closest
+        owner = ROOT
+        cannot_inherit = yes
+        troops = {
+          galleys = {
+            50
+            50
+          }
+        }
+      }
+    }
   }
   940.1.1 = {
     death = "940.1.1"
@@ -3206,5 +3307,69 @@
   }
   971.1.1 = {
     death = "971.1.1"
+  }
+}
+261375 = {
+  name = "Ahmad"
+  dynasty = 1062605
+  culture = andalusian_arabic
+  religion = sunni
+  father = 261376
+  866.1.1 = {
+    birth = yes
+  }
+  925.1.1 = {
+    death = yes
+  }
+}
+261376 = {
+  name = "Hashas"
+  dynasty = 1062605
+  culture = andalusian_arabic
+  religion = sunni
+  father = 261377
+  830.1.1 = {
+    birth = yes
+  }
+  911.1.1 = {
+    death = yes
+  }
+}
+261377 = {
+  name = "Said"
+  dynasty = 1062605
+  culture = bedouin_arabic
+  religion = sunni
+  805.1.1 = {
+    birth = yes
+  }
+  867.1.1 = {
+    death = yes
+  }
+}
+261378 = {
+  name = "Muyahid"
+  dynasty = 1062605
+  culture = andalusian_arabic
+  religion = sunni
+  father = 261375
+  905.1.1 = {
+    birth = yes
+  }
+  951.1.1 = {
+    death = yes
+  }
+}
+261379 = {
+  name = "Tariq"
+  dynasty = 1062605
+  culture = andalusian_arabic
+  religion = sunni
+  father = 261375
+  914.1.1 = {
+    birth = yes
+  }
+  967.1.1 = {
+    death = yes
   }
 }

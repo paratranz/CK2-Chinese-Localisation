@@ -1496,12 +1496,38 @@
 }
 33350 = {
   name = "埃塞尔斯唐"  # Æthelstan
+  dna = dwuqrcylhrw
+  prp = amq00b00000000000000000000000000000000
+  disallow_random_traits = yes
+  diplomacy = 9
+  martial = 8
+  intrigue = 5
+  stewardship = 6
+  learning = 5
+  trait = scholarly_theologian
+  trait = erudite
+  trait = ambitious
+  trait = chaste
+  trait = diligent
+  trait = proud
   dynasty = 100072
   religion = "catholic"
   culture = "saxon"
   father = 100
   893.1.1 = {
     birth = "893.1.1"
+  }
+  927.1.1 = {
+    create_bloodline = {
+      type = athelstan
+      has_dlc = "Holy Fury"
+    }
+  }
+  936.1.1 = {
+    capital = c_winchester
+  }
+  937.1.1 = {
+    capital = c_winchester
   }
   939.10.27 = {
     death = "939.10.27"
@@ -7564,7 +7590,243 @@
   888.1.1 = {
     birth = yes
   }
+  919.1.1 = {
+    add_claim = d_hereford
+  }
   950.1.1 = {
+    death = yes
+  }
+}
+260524 = {
+  name = "Cenfus"
+  dynasty = 1062208
+  religion = catholic
+  culture = saxon
+  901.1.1 = {
+    birth = yes
+  }
+  968.1.1 = {
+    death = yes
+  }
+}
+260525 = {
+  name = "Beorhtnoth"
+  dynasty = 1062209
+  religion = catholic
+  culture = saxon
+  895.1.1 = {
+    birth = yes
+  }
+  941.1.1 = {
+    death = yes
+  }
+}
+260526 = {
+  name = "Æthelfrith"
+  dynasty = 1062210
+  religion = catholic
+  culture = saxon
+  846.1.1 = {
+    birth = yes
+  }
+  904.1.1 = {
+    death = yes
+  }
+}
+260527 = {
+  name = "Æthelstan"
+  dynasty = 1062210
+  religion = catholic
+  culture = saxon
+  father = 260526
+  mother = 260529
+  885.1.1 = {
+    birth = yes
+  }
+  961.1.1 = {
+    death = yes
+  }
+}
+260528 = {
+  name = "Ælfstan"
+  dynasty = 1062210
+  religion = catholic
+  culture = saxon
+  father = 260526
+  mother = 260529
+  886.1.1 = {
+    birth = yes
+  }
+  958.1.1 = {
+    death = yes
+  }
+}
+260529 = {
+  name = "Æthelgyth"
+  female = yes
+  dynasty = 100072
+  religion = catholic
+  culture = saxon
+  father = 33355
+  mother = 252210
+  852.1.1 = {
+    birth = yes
+  }
+  915.1.1 = {
+    death = yes
+  }
+}
+260530 = {
+  name = "Æthelwald"
+  dynasty = 1062210
+  religion = catholic
+  culture = saxon
+  father = 260526
+  mother = 260529
+  888.1.1 = {
+    birth = yes
+  }
+  946.1.1 = {
+    death = yes
+  }
+}
+260531 = {
+  name = "Eadric"
+  dynasty = 1062210
+  religion = catholic
+  culture = saxon
+  father = 260526
+  mother = 260529
+  890.1.1 = {
+    birth = yes
+  }
+  952.1.1 = {
+    death = yes
+  }
+}
+260534 = {
+  name = "Wulfgar"
+  dynasty = 1062213
+  religion = catholic
+  culture = saxon
+  911.1.1 = {
+    birth = yes
+  }
+  934.1.1 = {
+    add_spouse = 260535
+  }
+  945.1.1 = {
+    death = yes
+  }
+}
+260535 = {
+  name = "Aeffe"
+  female = yes
+  dynasty = 1062214
+  religion = catholic
+  culture = saxon
+  914.1.1 = {
+    birth = yes
+  }
+  938.1.1 = {
+    death = yes
+  }
+}
+260536 = {
+  name = "Alpsius"
+  dynasty = 1062215
+  religion = catholic
+  culture = saxon
+  889.1.1 = {
+    birth = yes
+  }
+  943.1.1 = {
+    death = yes
+  }
+}
+260537 = {
+  name = "Eastmund"
+  dynasty = 1062216
+  religion = catholic
+  culture = saxon
+  905.1.1 = {
+    birth = yes
+  }
+  974.1.1 = {
+    death = yes
+  }
+}
+260538 = {
+  name = "Ælfric"
+  dynasty = 1062217
+  religion = catholic
+  culture = saxon
+  908.1.1 = {
+    birth = yes
+  }
+  953.1.1 = {
+    death = yes
+  }
+}
+260539 = {
+  name = "Oswfulf"
+  dynasty = 744
+  religion = catholic
+  culture = saxon
+  903.1.1 = {
+    birth = yes
+  }
+  959.1.1 = {
+    death = yes
+  }
+}
+260540 = {
+  name = "Balthere"
+  dynasty = 1062219
+  religion = catholic
+  culture = saxon
+  913.1.1 = {
+    birth = yes
+  }
+  964.1.1 = {
+    death = yes
+  }
+}
+260541 = {
+  name = "Sæbert"
+  dynasty = 1062220
+  religion = catholic
+  culture = saxon
+  904.1.1 = {
+    birth = yes
+  }
+  948.1.1 = {
+    death = yes
+  }
+}
+260542 = {
+  name = "Reinhold"
+  dynasty = 1062221
+  religion = catholic
+  culture = saxon
+  899.1.1 = {
+    birth = yes
+  }
+  938.1.1 = {
+    death = yes
+  }
+}
+261390 = {
+  name = "Eadhild"
+  female = yes
+  dynasty = 100072
+  religion = catholic
+  culture = saxon
+  father = 100
+  904.1.1 = {
+    birth = yes
+  }
+  937.1.1 = {
     death = yes
   }
 }

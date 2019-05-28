@@ -459,7 +459,7 @@
   culture = "irish"
   trait = "tough_soldier"
   father = 131503
-  mother = 166058
+  mother = 166055
   911.1.2 = {
     birth = "911.1.2"
   }
@@ -10022,6 +10022,9 @@
   929.1.1 = {
     add_spouse = 166064
   }
+  933.1.1 = {
+    remove_spouse = 166064
+  }
   956.7.1 = {
     death = "956.7.1"
   }
@@ -13304,8 +13307,8 @@
   849.1.1 = {
     birth = "849.1.1"
   }
-  876.1.1 = {
-    death = "876.1.1"
+  880.1.1 = {
+    death = yes
   }
 }
 165001 = {
@@ -14220,7 +14223,7 @@
   dynasty = 1040001
   religion = "catholic"
   culture = "irish"
-  father = 166023
+  father = 166033
   870.1.1 = {
     birth = "870.1.1"
   }
@@ -23484,6 +23487,67 @@
     birth = yes
   }
   743.1.1 = {
+    death = yes
+  }
+}
+260543 = {
+  name = "Fogarthach"
+  dynasty = 1062222
+  religion = catholic
+  culture = irish
+  902.1.1 = {
+    birth = yes
+  }
+  947.1.1 = {
+    death = yes
+  }
+}
+260544 = {
+  name = "Crichan"
+  dynasty = 1062223
+  religion = catholic
+  culture = irish
+  880.1.1 = {
+    birth = yes
+  }
+  937.1.1 = {
+    death = yes
+  }
+}
+260545 = {
+  name = "Murchadh"
+  dynasty = 1062224
+  religion = catholic
+  culture = irish
+  901.1.1 = {
+    birth = yes
+  }
+  936.12.12 = {
+    death = yes
+  }
+}
+260546 = {
+  name = "Faelan"
+  dynasty = 1062225
+  religion = catholic
+  culture = irish
+  883.1.1 = {
+    birth = yes
+  }
+  942.1.1 = {
+    death = yes
+  }
+}
+260547 = {
+  name = "Lorcán"
+  dynasty = 1062225
+  religion = catholic
+  culture = irish
+  father = 260546
+  905.1.1 = {
+    birth = yes
+  }
+  943.1.1 = {
     death = yes
   }
 }
