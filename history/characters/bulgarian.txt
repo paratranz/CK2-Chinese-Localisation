@@ -1414,8 +1414,7 @@
   trait = "ambitious"
   trait = "proud"
   trait = "tough_soldier"
-  mother = 70385
-  938.1.1 = {
+  915.1.1 = {
     birth = "938.1.1"
   }
   976.1.1 = {
@@ -1506,7 +1505,7 @@
   trait = "bastard"
   trait = "underhanded_rogue"
   father = 70382
-  920.1.1 = {
+  906.1.1 = {
     birth = "920.1.1"
   }
   973.1.1 = {
@@ -1542,17 +1541,22 @@
 714 = {
   name = "佩塔尔"  # Petar
   dynasty = 8636
-  martial = 7
-  diplomacy = 4
-  intrigue = 5
-  stewardship = 5
+  learning = 3
+  martial = 5
+  diplomacy = 6
+  intrigue = 4
+  stewardship = 8
   religion = "orthodox"
   culture = "bulgarian"
-  trait = "wroth"
-  trait = "honest"
-  trait = "flamboyant_schemer"
+  trait = "content"
+  trait = "charitable"
+  trait = "kind"
+  trait = "deceitful"
+  trait = "proud"
+  trait = "fortune_builder"
   father = 712
-  912.1.1 = {
+  mother = 262335
+  910.1.1 = {
     birth = "912.1.1"
   }
   969.1.30 = {
@@ -1571,8 +1575,9 @@
   trait = "deceitful"
   trait = "amateurish_plotter"
   father = 714
-  940.1.1 = {
-    birth = "940.1.1"
+  mother = 262237
+  931.1.1 = {
+    birth = yes
   }
   986.1.1 = {
     death = "986.1.1"
@@ -1587,12 +1592,12 @@
   stewardship = 6
   religion = "orthodox"
   culture = "bulgarian"
-  trait = "celibate"
   trait = "gluttonous"
   trait = "skilled_tactician"
   father = 714
-  945.1.1 = {
-    birth = "945.1.1"
+  mother = 262237
+  934.1.1 = {
+    birth = yes
   }
   998.1.1 = {
     death = "998.1.1"
@@ -2073,5 +2078,310 @@
   }
   889.1.1 = {
     death = "889.1.1"
+  }
+}
+260669 = {
+  name = "Ivan"
+  dynasty = 8636
+  religion = orthodox
+  culture = bulgarian
+  father = 712
+  mother = 262335
+  915.1.1 = {
+    birth = yes
+  }
+  951.1.30 = {
+    death = yes
+  }
+}
+260670 = {
+  name = "Benjamin"
+  dynasty = 8636
+  religion = orthodox
+  culture = bulgarian
+  father = 712
+  mother = 262335
+  917.1.1 = {
+    birth = yes
+  }
+  962.1.1 = {
+    death = yes
+  }
+}
+262323 = {
+  name = "Mihail"
+  dynasty = 8636
+  religion = orthodox
+  culture = bulgarian
+  father = 712
+  897.1.1 = {
+    birth = yes
+  }
+  928.1.1 = {
+    death = yes
+  }
+}
+262333 = {
+  name = "Presian"
+  dynasty = 1063569
+  religion = orthodox
+  culture = bulgarian
+  848.1.1 = {
+    birth = yes
+  }
+  908.2.1 = {
+    death = yes
+  }
+}
+262334 = {
+  name = "George"
+  dynasty = 1063569
+  father = 262333
+  religion = orthodox
+  culture = bulgarian
+  father = 262333
+  trait = shrewd
+  874.1.1 = {
+    birth = yes
+  }
+  950.1.1 = {
+    death = yes
+  }
+}
+262335 = {
+  name = "Maria"
+  dynasty = 1063569
+  female = yes
+  father = 262333
+  religion = orthodox
+  culture = bulgarian
+  886.1.1 = {
+    birth = yes
+  }
+  906.1.1 = {
+    add_spouse = 712
+  }
+  951.1.1 = {
+    death = yes
+  }
+}
+262336 = {
+  name = "Anna"
+  dynasty = 8636
+  female = yes
+  religion = orthodox
+  culture = bulgarian
+  father = 712
+  904.1.1 = {
+    birth = yes
+  }
+  958.1.1 = {
+    death = yes
+  }
+}
+260671 = {
+  name = "Dan"
+  dynasty = 1062299
+  religion = orthodox
+  culture = bulgarian
+  911.1.1 = {
+    birth = yes
+  }
+  975.1.1 = {
+    death = yes
+  }
+}
+260672 = {
+  name = "Aleksii"
+  dynasty = 1062300
+  religion = orthodox
+  culture = bulgarian
+  891.1.1 = {
+    birth = yes
+  }
+  934.1.1 = {
+    death = yes
+  }
+}
+260673 = {
+  name = "Balin"
+  dynasty = 1062300
+  religion = orthodox
+  culture = bulgarian
+  father = 260672
+  919.1.1 = {
+    birth = yes
+  }
+  967.1.1 = {
+    death = yes
+  }
+}
+260674 = {
+  name = "多米尼克"  # Dominik
+  dynasty = 1062300
+  religion = orthodox
+  culture = bulgarian
+  father = 260672
+  920.1.1 = {
+    birth = yes
+  }
+  951.1.1 = {
+    death = yes
+  }
+}
+260676 = {
+  name = "格古尔"  # Grgur
+  dynasty = 1062302
+  religion = orthodox
+  culture = bulgarian
+  915.1.1 = {
+    birth = yes
+  }
+  968.1.1 = {
+    death = yes
+  }
+}
+260677 = {
+  name = "赫拉尼米尔"  # Hranimir
+  dynasty = 1062303
+  religion = orthodox
+  culture = bulgarian
+  909.1.1 = {
+    birth = yes
+  }
+  958.1.1 = {
+    death = yes
+  }
+}
+260678 = {
+  name = "耶罗利姆"  # Jerolim
+  dynasty = 1062304
+  religion = orthodox
+  culture = bulgarian
+  904.1.1 = {
+    birth = yes
+  }
+  956.1.1 = {
+    death = yes
+  }
+}
+260679 = {
+  name = "奥格年"  # Ognen
+  dynasty = 1062305
+  religion = orthodox
+  culture = bulgarian
+  898.1.1 = {
+    birth = yes
+  }
+  941.1.1 = {
+    death = yes
+  }
+}
+260682 = {
+  name = "斯拉瓦茨"  # Slavac
+  dynasty = 1062308
+  religion = orthodox
+  culture = bulgarian
+  892.1.1 = {
+    birth = yes
+  }
+  947.1.1 = {
+    death = yes
+  }
+}
+260683 = {
+  name = "Dionisii"
+  dynasty = 1062309
+  religion = orthodox
+  culture = bulgarian
+  907.1.1 = {
+    birth = yes
+  }
+  967.1.1 = {
+    death = yes
+  }
+}
+260684 = {
+  name = "Bozidar"
+  dynasty = 1062310
+  religion = orthodox
+  culture = bulgarian
+  914.1.1 = {
+    birth = yes
+  }
+  956.1.1 = {
+    death = yes
+  }
+}
+260685 = {
+  name = "Bogoris"
+  dynasty = 1062311
+  religion = orthodox
+  culture = bulgarian
+  918.1.1 = {
+    birth = yes
+  }
+  963.1.1 = {
+    death = yes
+  }
+}
+260686 = {
+  name = "科兹马"  # Kozma
+  dynasty = 1062312
+  religion = orthodox
+  culture = bulgarian
+  904.1.1 = {
+    birth = yes
+  }
+  939.1.1 = {
+    death = yes
+  }
+}
+260687 = {
+  name = "Radu"
+  dynasty = 1062313
+  religion = orthodox
+  culture = bulgarian
+  910.1.1 = {
+    birth = yes
+  }
+  947.1.1 = {
+    death = yes
+  }
+}
+260689 = {
+  name = "贝尔纳丁"  # Bernardin
+  dynasty = 1062315
+  religion = orthodox
+  culture = bulgarian
+  915.1.1 = {
+    birth = yes
+  }
+  956.1.1 = {
+    death = yes
+  }
+}
+260690 = {
+  name = "普里耶兹达"  # Prijezda
+  dynasty = 1062316
+  religion = orthodox
+  culture = bulgarian
+  905.1.1 = {
+    birth = yes
+  }
+  948.1.1 = {
+    death = yes
+  }
+}
+260693 = {
+  name = "克雷西米尔"  # Kresimir
+  dynasty = 1062319
+  religion = orthodox
+  culture = bulgarian
+  893.1.1 = {
+    birth = yes
+  }
+  954.1.1 = {
+    death = yes
   }
 }
