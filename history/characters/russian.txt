@@ -9131,10 +9131,18 @@
 601 = {
   name = "奥尔加"  # Olga
   female = yes
-  religion = "orthodox"
+  religion = "slavic_pagan"
   culture = "russian"
   890.1.2 = {
     birth = "890.1.2"
+    effect = {
+      set_character_flag = is_olga
+    }
+  }
+  950.1.1 = {
+    effect = {
+      religion = orthodox
+    }
   }
   969.1.2 = {
     death = "969.1.2"
@@ -12086,6 +12094,519 @@
     birth = yes
   }
   1103.1.1 = {
+    death = yes
+  }
+}
+260708 = {
+  name = "费多特"  # Fedot
+  dynasty = 1062334
+  religion = slavic_pagan
+  culture = russian
+  903.1.1 = {
+    birth = yes
+  }
+  965.1.1 = {
+    death = yes
+  }
+}
+260709 = {
+  name = "普佳塔"  # Putiata
+  dynasty = 1062335
+  religion = slavic_pagan
+  culture = russian
+  907.1.1 = {
+    birth = yes
+  }
+  957.1.1 = {
+    death = yes
+  }
+}
+260710 = {
+  name = "罗季斯拉夫"  # Rodislav
+  dynasty = 1062336
+  religion = slavic_pagan
+  culture = russian
+  904.1.1 = {
+    birth = yes
+  }
+  970.1.1 = {
+    death = yes
+  }
+}
+260711 = {
+  name = "西梅翁"  # Simeon
+  dynasty = 1062337
+  religion = slavic_pagan
+  culture = russian
+  902.1.1 = {
+    birth = yes
+  }
+  951.1.1 = {
+    death = yes
+  }
+}
+260712 = {
+  name = "奥列格"  # Oleg
+  dynasty = 1062338
+  religion = slavic_pagan
+  culture = russian
+  889.1.1 = {
+    birth = yes
+  }
+  943.1.1 = {
+    death = yes
+  }
+}
+260713 = {
+  name = "伊贾斯拉夫"  # Iziaslav
+  dynasty = 1062339
+  religion = slavic_pagan
+  culture = russian
+  898.1.1 = {
+    birth = yes
+  }
+  939.1.1 = {
+    death = yes
+  }
+}
+260714 = {
+  name = "米特罗凡"  # Mitrofan
+  dynasty = 1062340
+  religion = slavic_pagan
+  culture = russian
+  910.1.1 = {
+    birth = yes
+  }
+  976.1.1 = {
+    death = yes
+  }
+}
+260715 = {
+  name = "帕韦尔"  # Pavel
+  dynasty = 1062341
+  religion = slavic_pagan
+  culture = russian
+  father = 260758
+  903.1.1 = {
+    birth = yes
+  }
+  967.1.1 = {
+    death = yes
+  }
+}
+260716 = {
+  name = "列夫"  # Lev
+  dynasty = 1062341
+  religion = slavic_pagan
+  culture = russian
+  father = 260758
+  905.1.1 = {
+    birth = yes
+  }
+  972.1.1 = {
+    death = yes
+  }
+}
+260758 = {
+  name = "帕韦尔"  # Pavel
+  dynasty = 1062341
+  religion = slavic_pagan
+  culture = russian
+  868.1.1 = {
+    birth = yes
+  }
+  934.1.1 = {
+    death = yes
+  }
+}
+260717 = {
+  name = "布里亚奇斯拉夫"  # Briachislav
+  dynasty = 1062342
+  religion = slavic_pagan
+  culture = russian
+  909.1.1 = {
+    birth = yes
+  }
+  976.1.1 = {
+    death = yes
+  }
+}
+260718 = {
+  name = "加夫里尔"  # Gavriil
+  dynasty = 1062343
+  religion = slavic_pagan
+  culture = russian
+  874.1.1 = {
+    birth = yes
+  }
+  923.1.1 = {
+    death = yes
+  }
+}
+260719 = {
+  name = "斯维亚托斯拉夫"  # Sviatoslav
+  dynasty = 1062343
+  religion = slavic_pagan
+  culture = russian
+  father = 260718
+  905.1.1 = {
+    birth = yes
+  }
+  968.1.1 = {
+    death = yes
+  }
+}
+260720 = {
+  name = "斯维亚托波尔克"  # Sviatopolk
+  dynasty = 1062343
+  religion = slavic_pagan
+  culture = russian
+  father = 260718
+  909.1.1 = {
+    birth = yes
+  }
+  956.1.1 = {
+    death = yes
+  }
+}
+260721 = {
+  name = "普佳塔"  # Putiata
+  dynasty = 1062344
+  religion = slavic_pagan
+  culture = russian
+  915.1.1 = {
+    birth = yes
+  }
+  963.1.1 = {
+    death = yes
+  }
+}
+260722 = {
+  name = "尼基塔"  # Nikita
+  dynasty = 1062345
+  religion = slavic_pagan
+  culture = russian
+  918.1.1 = {
+    birth = yes
+  }
+  978.1.1 = {
+    death = yes
+  }
+}
+260723 = {
+  name = "格里戈里"  # Grigoriy
+  dynasty = 1062346
+  religion = slavic_pagan
+  culture = russian
+  873.1.1 = {
+    birth = yes
+  }
+  929.1.1 = {
+    death = yes
+  }
+}
+260724 = {
+  name = "费奥多尔"  # Feodor
+  dynasty = 1062346
+  religion = slavic_pagan
+  culture = russian
+  father = 260723
+  905.1.1 = {
+    birth = yes
+  }
+  967.1.1 = {
+    death = yes
+  }
+}
+260725 = {
+  name = "格里戈里"  # Grigoriy
+  dynasty = 1062346
+  religion = slavic_pagan
+  culture = russian
+  father = 260723
+  907.1.1 = {
+    birth = yes
+  }
+  954.1.1 = {
+    death = yes
+  }
+}
+260726 = {
+  name = "维沙塔"  # Vyshata
+  dynasty = 1062347
+  religion = slavic_pagan
+  culture = russian
+  914.1.1 = {
+    birth = yes
+  }
+  983.1.1 = {
+    death = yes
+  }
+}
+260727 = {
+  name = "弗拉季斯拉夫"  # Vladislav
+  dynasty = 1062348
+  religion = slavic_pagan
+  culture = russian
+  899.1.1 = {
+    birth = yes
+  }
+  949.1.1 = {
+    death = yes
+  }
+}
+260728 = {
+  name = "鲁斯兰"  # Ruslan
+  dynasty = 1062349
+  religion = slavic_pagan
+  culture = russian
+  914.1.1 = {
+    birth = yes
+  }
+  973.1.1 = {
+    death = yes
+  }
+}
+260729 = {
+  name = "弗谢沃洛德"  # Vesvolod
+  dynasty = 1062350
+  religion = slavic_pagan
+  culture = russian
+  904.1.1 = {
+    birth = yes
+  }
+  957.1.1 = {
+    death = yes
+  }
+}
+260730 = {
+  name = "沃伊斯拉夫"  # Voislav
+  dynasty = 1062351
+  religion = slavic_pagan
+  culture = russian
+  908.1.1 = {
+    birth = yes
+  }
+  964.1.1 = {
+    death = yes
+  }
+}
+260732 = {
+  name = "丹尼尔"  # Daniil
+  dynasty = 1062353
+  religion = slavic_pagan
+  culture = russian
+  904.1.1 = {
+    birth = yes
+  }
+  945.1.1 = {
+    death = yes
+  }
+}
+260733 = {
+  name = "斯韦托扎尔"  # Svetozar
+  dynasty = 1062354
+  religion = slavic_pagan
+  culture = russian
+  899.1.1 = {
+    birth = yes
+  }
+  961.1.1 = {
+    death = yes
+  }
+}
+260734 = {
+  name = "弗谢沃洛德"  # Vsevolod
+  dynasty = 1062355
+  religion = slavic_pagan
+  culture = russian
+  907.1.1 = {
+    birth = yes
+  }
+  956.1.1 = {
+    death = yes
+  }
+}
+260735 = {
+  name = "捷连季"  # Terentiy
+  dynasty = 1062356
+  religion = slavic_pagan
+  culture = russian
+  918.1.1 = {
+    birth = yes
+  }
+  967.1.1 = {
+    death = yes
+  }
+}
+260736 = {
+  name = "普拉斯科维亚"  # Praskovya
+  female = yes
+  dynasty = 1062357
+  religion = slavic_pagan
+  culture = russian
+  915.1.1 = {
+    birth = yes
+  }
+  961.1.1 = {
+    death = yes
+  }
+}
+260737 = {
+  name = "沃洛达里"  # Volodar
+  dynasty = 1062358
+  religion = slavic_pagan
+  culture = russian
+  893.1.1 = {
+    birth = yes
+  }
+  945.1.1 = {
+    death = yes
+  }
+}
+260738 = {
+  name = "叶菲米"  # Yefimiy
+  dynasty = 1062359
+  religion = slavic_pagan
+  culture = russian
+  871.1.1 = {
+    birth = yes
+  }
+  939.1.1 = {
+    death = yes
+  }
+}
+260739 = {
+  name = "尤里"  # Yuriy
+  dynasty = 1062360
+  religion = slavic_pagan
+  culture = russian
+  913.1.1 = {
+    birth = yes
+  }
+  975.1.1 = {
+    death = yes
+  }
+}
+260740 = {
+  name = "叶利谢"  # Yelisey
+  dynasty = 1062361
+  religion = slavic_pagan
+  culture = russian
+  904.1.1 = {
+    birth = yes
+  }
+  965.1.1 = {
+    death = yes
+  }
+}
+260741 = {
+  name = "斯捷潘"  # Stepan
+  dynasty = 1062362
+  religion = slavic_pagan
+  culture = russian
+  897.1.1 = {
+    birth = yes
+  }
+  959.1.1 = {
+    death = yes
+  }
+}
+260745 = {
+  name = "亚历山大"  # Alexandr
+  dynasty = 1062366
+  religion = slavic_pagan
+  culture = russian
+  868.1.1 = {
+    birth = yes
+  }
+  915.1.1 = {
+    death = yes
+  }
+}
+260746 = {
+  name = "亚历山大"  # Alexandr
+  dynasty = 1062366
+  religion = slavic_pagan
+  culture = russian
+  father = 260745
+  899.1.1 = {
+    birth = yes
+  }
+  948.1.1 = {
+    death = yes
+  }
+}
+260747 = {
+  name = "达维德"  # Davyd
+  dynasty = 1062366
+  religion = slavic_pagan
+  culture = russian
+  father = 260745
+  902.1.1 = {
+    birth = yes
+  }
+  957.1.1 = {
+    death = yes
+  }
+}
+260748 = {
+  name = "维沙塔"  # Vyshata
+  dynasty = 1062367
+  religion = slavic_pagan
+  culture = russian
+  909.1.1 = {
+    birth = yes
+  }
+  946.1.1 = {
+    death = yes
+  }
+}
+260749 = {
+  name = "罗格沃洛德"  # Rogvolod
+  dynasty = 1062368
+  religion = slavic_pagan
+  culture = russian
+  908.1.1 = {
+    birth = yes
+  }
+  938.1.1 = {
+    death = yes
+  }
+}
+260750 = {
+  name = "瓦西里"  # Vasiliy
+  dynasty = 1062369
+  religion = slavic_pagan
+  culture = russian
+  912.1.1 = {
+    birth = yes
+  }
+  956.1.1 = {
+    death = yes
+  }
+}
+260751 = {
+  name = "格里戈里"  # Grigoriy
+  dynasty = 1062370
+  religion = slavic_pagan
+  culture = russian
+  914.1.1 = {
+    birth = yes
+  }
+  962.1.1 = {
+    death = yes
+  }
+}
+260770 = {
+  name = "瓦罗波尔克"  # Varopolk
+  dynasty = 1062381
+  religion = slavic_pagan
+  culture = russian
+  912.1.1 = {
+    birth = yes
+  }
+  959.1.1 = {
     death = yes
   }
 }
