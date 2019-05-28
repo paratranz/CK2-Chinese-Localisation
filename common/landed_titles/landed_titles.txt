@@ -125,6 +125,32 @@ e_lechczechrus = {
     }
   }
 }
+e_bulgaria = {
+  color = {
+    108
+    78
+    110
+  }
+  color2 = {
+    255
+    255
+    255
+  }
+  culture = bulgarian
+  capital = 499
+  allow = {
+    conditional_tooltip = {
+      trigger = {
+        e_bulgaria = {
+          is_titular = yes
+        }
+      }
+      e_bulgaria = {
+        is_titular = no
+      }
+    }
+  }
+}
 k_papal_state = {
   color = {
     255
@@ -576,6 +602,27 @@ d_sunni = {
     religion = sunni
   }
 }
+e_cordoba = {
+  color = {
+    255
+    218
+    185
+  }
+  color2 = {
+    255
+    255
+    255
+  }
+  capital = 181
+  title = "CALIPH"
+  title_female = "CALIPHA"
+  foa = "CALIPH_FOA"
+  religion = sunni
+  allow = {
+    always = no
+  }
+  caliphate = yes
+}
 d_shiite = {
   color = {
     60
@@ -606,6 +653,7 @@ d_shiite = {
           }
         }
       }
+      religion = shiite
       custom_tooltip = {
         text = shia_creation_independent
         hidden_tooltip = {
@@ -629,6 +677,13 @@ d_shiite = {
         trait = mirza
         trait = sayyid
         piety = 1000
+        custom_tooltip = {
+          text = shiite_bloodline_TT
+          any_owned_bloodline = {
+            has_bloodline_flag = bloodline_shiite_leader
+            bloodline_is_active_for = PREV
+          }
+        }
       }
       custom_tooltip = {
         text = not_shia_caliphate_revolt_ongoing
@@ -642,6 +697,16 @@ d_shiite = {
         AND = {
           trait = sayyid
           piety = 1000
+        }
+        AND = {
+          custom_tooltip = {
+            text = shiite_bloodline_TT
+            any_owned_bloodline = {
+              has_bloodline_flag = bloodline_shiite_leader
+              bloodline_is_active_for = PREV
+            }
+          }
+          piety = 500
         }
         conditional_tooltip = {
           trigger = {
@@ -729,24 +794,35 @@ d_shiite = {
       trigger = {
         has_global_flag = destroyed_caliphates
       }
-      custom_tooltip = {
-        text = controls_mecca_medina
-        hidden_tooltip = {
-          719 = {
-            owner = {
-              OR = {
-                is_liege_or_above = ROOT
-                character = ROOT
+      religion = shiite
+      OR = {
+        piety = 500
+        custom_tooltip = {
+          text = controls_mecca_medina
+          hidden_tooltip = {
+            719 = {
+              owner = {
+                OR = {
+                  is_liege_or_above = ROOT
+                  character = ROOT
+                }
+              }
+            }
+            718 = {
+              owner = {
+                OR = {
+                  is_liege_or_above = ROOT
+                  character = ROOT
+                }
               }
             }
           }
-          718 = {
-            owner = {
-              OR = {
-                is_liege_or_above = ROOT
-                character = ROOT
-              }
-            }
+        }
+        custom_tooltip = {
+          text = shiite_bloodline_TT
+          any_owned_bloodline = {
+            has_bloodline_flag = bloodline_shiite_leader
+            bloodline_is_active_for = PREV
           }
         }
       }
@@ -764,6 +840,74 @@ d_shiite = {
       7
     }
     religion = shiite
+  }
+}
+d_qarmatian = {
+  color = {
+    60
+    190
+    60
+  }
+  color2 = {
+    220
+    220
+    0
+  }
+  capital = 652
+  creation_requires_capital = no
+  dignity = 100
+  title = "CALIPH"
+  title_female = "CALIPHA"
+  foa = "CALIPH_FOA"
+  short_name = yes
+  religion = qarmatian
+  controls_religion = qarmatian
+  allow = {
+    religion = qarmatian
+    piety = 500
+    OR = {
+      trait = mirza
+      trait = sayyid
+      piety = 1000
+      custom_tooltip = {
+        text = qarmatian_bloodline_TT
+        any_owned_bloodline = {
+          has_bloodline_flag = bloodline_qarmatian_leader
+          bloodline_is_active_for = PREV
+        }
+      }
+    }
+    OR = {
+      custom_tooltip = {
+        text = THREE_HOLY_SITES_TT
+        hidden_tooltip = {
+          any_realm_title = {
+            count = 3
+            is_holy_site = ROOT
+          }
+        }
+      }
+      custom_tooltip = {
+        text = qarmatian_bloodline_TT
+        any_owned_bloodline = {
+          has_bloodline_flag = bloodline_qarmatian_leader
+          bloodline_is_active_for = PREV
+        }
+      }
+    }
+  }
+  caliphate = yes
+  coat_of_arms = {
+    data = {
+      0
+      0
+      0
+      9
+      1
+      7
+      7
+    }
+    religion = qarmatian
   }
 }
 e_golden_horde = {
@@ -2124,7 +2268,7 @@ d_varangian_guard = {
   title_female = "CAPTAIN_FEMALE"
   landless = yes
   primary = yes
-  strength_growth_per_century = 0.10
+  strength_growth_per_century = 1.00
   mercenary_type = varangian_guard_composition
 }
 d_cuman_company = {
@@ -3900,6 +4044,17 @@ e_germany = {
     }
     culture = frankish
     capital = 115
+    allow = {
+      hidden_tooltip = {
+        OR = {
+          ai = no
+          NAND = {
+            has_landed_title = k_germany
+            start_date = 936.8.7
+          }
+        }
+      }
+    }
     catholic = 5000
     dignity = 17
     d_brabant = {
@@ -4356,6 +4511,17 @@ e_germany = {
     culture = german
     roman = "雷蒂安"  # Raetia
     capital = 1700
+    allow = {
+      hidden_tooltip = {
+        OR = {
+          ai = no
+          NAND = {
+            has_landed_title = k_germany
+            start_date = 936.8.7
+          }
+        }
+      }
+    }
     catholic = 2000
     d_bavaria = {
       color = {
@@ -4910,13 +5076,6 @@ e_germany = {
         OR = {
           ai = no
           culture_group = south_slavic
-          k_carinthia = {
-            any_direct_de_jure_vassal_title = {
-              owner = {
-                character = ROOT
-              }
-            }
-          }
         }
       }
     }
@@ -5865,6 +6024,45 @@ e_germany = {
       }
     }
   }
+  k_franconia_otto = {
+    color = {
+      105
+      135
+      105
+    }
+    color2 = {
+      255
+      255
+      255
+    }
+    capital = 254
+  }
+  k_thuringia_otto = {
+    color = {
+      212
+      211
+      231
+    }
+    color2 = {
+      255
+      255
+      255
+    }
+    capital = 255
+  }
+  k_swabia_otto = {
+    color = {
+      173
+      186
+      255
+    }
+    color2 = {
+      255
+      255
+      255
+    }
+    capital = 249
+  }
 }
 e_roman_empire = {
   color = {
@@ -5898,6 +6096,9 @@ e_byzantium = {
   }
   capital = 496
   short_name = yes
+  title = "BASILEUS_TITLE"
+  title_female = "BASILEUS_TITLE_FEMALE"
+  dignity = 10
   culture = greek
   has_top_de_jure_capital = yes
   purple_born_heirs = yes
@@ -17746,7 +17947,7 @@ e_wendish_empire = {
           255
           255
         }
-        bohemian = "伊日尼切希"  # Jizni Cechy
+        bohemian = "Jižní Cechy"
         pommeranian = "伊日尼切希"  # Jizni Cechy
         polish = "伊日尼切希"  # Jizni Cechy
         croatian = "伊日尼切希"  # Jizni Cechy
@@ -17766,20 +17967,28 @@ e_wendish_empire = {
         old_saxon = "南波希米亚"  # Sudböhmen
         saxon = "南波希米亚"  # Sudböhmen
         suebi = "南波希米亚"  # Sudböhmen
+        slovieni = "Jižní Cechy"
         b_prachen = {}
         b_doudleby = {}
         b_chynov = {}
         b_hohenfurth = {
-          bohemian = "上布罗德"  # Vyssi Brod
+          bohemian = "Vyšší Brod"
+          slovieni = "Vyšší Brod"
         }
         b_rosenberg = {
-          bohemian = "罗日姆贝克"  # Rozmberk
+          bohemian = "Rožmberk"
+          slovieni = "Rožmberk"
         }
-        b_budejovice = {}
+        b_budejovice = {
+          german = "Budweis"
+        }
         b_pisek = {}
-        b_krumlov = {}
+        b_krumlov = {
+          german = "Krumau"
+        }
         b_goldenkron = {
-          bohemian = "兹拉塔科鲁纳"  # Zlata Koruna
+          bohemian = "Zlatá Koruna"
+          slovieni = "Zlatá Koruna"
         }
         b_resenberg = {}
       }
@@ -17806,6 +18015,7 @@ e_wendish_empire = {
         old_saxon = "布拉格"  # Prag
         pommeranian = "布拉哈"  # Praha
         bohemian = "布拉哈"  # Praha
+        slovieni = "Praha"
         polish = "布拉哈"  # Praha
         croatian = "布拉哈"  # Praha
         serbian = "布拉哈"  # Praha
@@ -17828,6 +18038,7 @@ e_wendish_empire = {
           old_saxon = "布拉格"  # Prag
           pommeranian = "布拉哈"  # Praha
           bohemian = "布拉哈"  # Praha
+          slovieni = "Praha"
           polish = "布拉哈"  # Praha
           croatian = "布拉哈"  # Praha
           serbian = "布拉哈"  # Praha
@@ -17847,13 +18058,16 @@ e_wendish_empire = {
           saxon = "库滕贝格"  # Kuttenberg
           old_saxon = "库滕贝格"  # Kuttenberg
           bohemian = "库特纳霍拉"  # Kutna Hora
+          slovieni = "Kutná Hora"
         }
         b_vysehrad = {}
         b_kourim = {}
         b_kolin = {}
         b_stare_mesto = {}
         b_zbraslav = {}
-        b_sazava = {}
+        b_sazava = {
+          german = "Sassau"
+        }
       }
       c_litomerice = {
         color = {
@@ -17898,8 +18112,14 @@ e_wendish_empire = {
           255
           255
         }
-        b_hradeckralove = {}
-        b_kladsko = {}
+        german = "Grätz"
+        b_hradeckralove = {
+          german = "Grätz"
+        }
+        b_kladsko = {
+          german = "Glatz"
+          polish = "Klodzko"
+        }
         b_zleby = {}
         b_chrudim = {}
         b_caslav = {}
@@ -17947,7 +18167,10 @@ e_wendish_empire = {
           255
           255
         }
-        b_zatec = {}
+        german = "萨茨"  # Saaz
+        b_zatec = {
+          german = "萨茨"  # Saaz
+        }
         b_osek = {}
         b_louny = {}
         b_bilina = {}
@@ -17979,16 +18202,24 @@ e_wendish_empire = {
           255
           255
         }
-        b_znojmo = {}
+        german = "茨纳伊姆"  # Znaim
+        b_znojmo = {
+          german = "茨纳伊姆"  # Znaim
+        }
         b_mikulov = {}
         b_trebic = {}
         b_pohansko = {}
-        b_jihlava = {}
+        b_jihlava = {
+          german = "伊格劳"  # Iglau
+        }
         b_bitov = {}
         b_vranov = {}
         b_telc = {}
         b_louka = {}
-        b_eibenshitz = {}
+        b_eibenshitz = {
+          bohemian = "Ivancice"
+          slovieni = "Ivancice"
+        }
       }
       c_olomouc = {
         color = {
@@ -18001,7 +18232,12 @@ e_wendish_empire = {
           255
           255
         }
-        b_olomouc = {}
+        german = "Olmütz"
+        polish = "Olomuniec"
+        b_olomouc = {
+          german = "Olmütz"
+          polish = "Olomuniec"
+        }
         b_velehrad = {}
         b_hradiste = {}
         b_svaty_kopecek = {}
@@ -18021,8 +18257,13 @@ e_wendish_empire = {
           255
           255
         }
-        b_veligrad = {}
-        b_brno = {}
+        german = "Brünn"
+        b_veligrad = {
+          slovieni = "Velehrad"
+        }
+        b_brno = {
+          german = "Brünn"
+        }
         b_mikulcice = {}
         b_zdar = {}
         b_svitavy = {}
@@ -18042,7 +18283,12 @@ e_wendish_empire = {
           255
           255
         }
-        b_opava = {}
+        german = "Troppau"
+        polish = "Opawa"
+        b_opava = {
+          german = "Troppau"
+          polish = "Opawa"
+        }
         b_krnov = {}
         b_bruntal = {}
         b_hradec_nad_moravici = {}
@@ -20557,7 +20803,6 @@ e_pontic_steppe = {
       70
     }
     culture = hungarian
-    capital = 522
     allow = {
       ai = no
     }
@@ -26939,6 +27184,7 @@ e_persia = {
         }
         holy_site = zoroastrian
         holy_site = yazidi
+        holy_site = qarmatian
         b_perozabad = {}
         b_kakhesasan = {}
         b_darab = {}
@@ -28065,6 +28311,7 @@ e_persia = {
           255
         }
         holy_site = shiite
+        holy_site = qarmatian
         b_nadjaf = {}
         b_kufah = {}
         b_taqtaqanah = {}
@@ -28732,6 +28979,7 @@ e_persia = {
         holy_site = yazidi
         holy_site = zun_pagan
         holy_site = zun_pagan_reformed
+        holy_site = qarmatian
         b_nishapur = {}
         b_jajarm = {}
         b_sabzevar = {}
@@ -29420,6 +29668,21 @@ e_carpathia = {
       255
     }
     capital = 444
+    slovieni = "潘诺尼亚"  # Pannonia
+    frankish = "潘诺尼亚"  # Pannonia
+    bulgarian = "潘诺尼亚"  # Pannonia
+    bohemian = "潘诺尼亚"  # Pannonia
+    german = "潘诺尼亚"  # Pannonia
+    carantanian = "潘诺尼亚"  # Pannonia
+    avar = "Avaria"
+    croatian = "潘诺尼亚"  # Pannonia
+    polish = "潘诺尼亚"  # Pannonia
+    russian = "潘诺尼亚"  # Pannonia
+    romanian = "潘诺尼亚"  # Pannonia
+    serbian = "潘诺尼亚"  # Pannonia
+    greek = "潘诺尼亚"  # Pannonia
+    roman = "潘诺尼亚"  # Pannonia
+    bosnian = "潘诺尼亚"  # Pannonia
     allow = {
       OR = {
         culture_group = magyar
@@ -29440,8 +29703,10 @@ e_carpathia = {
         255
       }
       capital = 452
-      bohemian = "巴拉顿"  # Balaton
-      carantanian = "巴拉顿"  # Balaton
+      bohemian = "Blatno"
+      carantanian = "Blatno"
+      slovieni = "Blatno"
+      hungarian = "Balaton"
       c_pecs = {
         color = {
           182
@@ -29457,17 +29722,55 @@ e_carpathia = {
         serbian = "佩库伊"  # Pecuj
         bosnian = "佩库"  # Pecuh
         german = "七教堂"  # Fünfkirchen
-        bohemian = "巴拉顿"  # Balaton
-        carantanian = "巴拉顿"  # Balaton
-        carantanian = "巴拉顿"  # Balaton
-        b_pecs = {}
-        b_kalocsa = {}
-        b_mohacs = {}
-        b_sasd = {}
-        b_pecsvarad = {}
-        b_siklos = {}
-        b_szentlorinc = {}
-        b_darda = {}
+        bohemian = "Petikostelí"
+        carantanian = "Patkostolie"
+        slovieni = "Patkostolie"
+        b_pecs = {
+          slovieni = "Patkostolie"
+          bohemian = "Petikostelí"
+          german = "Funfkirchen"
+          croatian = "Pecuh"
+        }
+        b_kalocsa = {
+          slovieni = "Kaloca"
+          bohemian = "Kaloca"
+          german = "Kollotschau"
+        }
+        b_mohacs = {
+          slovieni = "Mohác"
+          bohemian = "Mohác"
+          german = "Mohatsch"
+          croatian = "Mohác"
+        }
+        b_sasd = {
+          slovieni = "Šašd"
+          bohemian = "Šašd"
+          german = "Schaschd"
+          croatian = "Šardin"
+        }
+        b_pecsvarad = {
+          slovieni = "Pecvar"
+          bohemian = "Pecvar"
+          german = "Petschwar"
+          croatian = "Pecvar"
+        }
+        b_siklos = {
+          slovieni = "Šikloš"
+          bohemian = "Šikloš"
+          croatian = "Šikloš"
+          german = "Sieglos"
+        }
+        b_szentlorinc = {
+          slovieni = "Svatý Vavrinec"
+          bohemian = "Svatý Vavrinec"
+          croatian = "Selurinac"
+          german = "Sankt Laurenz"
+        }
+        b_darda = {
+          slovieni = "Darda"
+          bohemian = "Darda"
+          german = "Lanzenau"
+        }
       }
       c_szekezfehervar = {
         color = {
@@ -29480,13 +29783,45 @@ e_carpathia = {
           255
           255
         }
-        german = "施图魏森堡"  # Stuhlweissenburg
-        b_szekezfehervar = {}
-        b_csurgo = {}
-        b_kaposvar = {}
-        b_szigetvar = {}
-        b_barcs = {}
-        b_marcali = {}
+        croatian = "Šomod"
+        german = "Schomodei"
+        bohemian = "Šomod"
+        slovieni = "Šomod"
+        hungarian = "Somogy"
+        b_szekezfehervar = {
+          croatian = "Šomod"
+          german = "Schomodei"
+          bohemian = "Šomod"
+          slovieni = "Šomod"
+          hungarian = "Somogy"
+        }
+        b_csurgo = {
+          slovieni = "Curgov"
+          bohemian = "Curgov"
+        }
+        b_kaposvar = {
+          slovieni = "Kapošvár"
+          bohemian = "Kapošvár"
+          german = "Kopisch"
+        }
+        b_szigetvar = {
+          slovieni = "Sihot"
+          bohemian = "Sihot"
+          croatian = "Siget"
+          german = "Inselburg"
+        }
+        b_barcs = {
+          slovieni = "Barc"
+          bohemian = "Barc"
+          croatian = "Barca"
+          german = "Bartsch"
+        }
+        b_marcali = {
+          german = "Martzal"
+          croatian = "Marcalin"
+          slovieni = "Marcalin"
+          bohemian = "Marcalin"
+        }
         b_nagyatad = {}
         b_lengyeltoti = {}
       }
@@ -29505,14 +29840,44 @@ e_carpathia = {
         croatian = "热莱日纳"  # Zelezna
         bosnian = "热莱兹纳"  # Zelezna
         carantanian = "热莱兹纳"  # Zelezna
-        b_szombathely = {}
-        b_szentgotthard = {}
-        b_vasvar = {}
-        b_sarvar = {}
-        b_celldomolk = {}
-        b_kormend = {}
-        b_koszeg = {}
-        b_nemetujvar = {}
+        bohemian = "Železna"
+        slovieni = "Železna"
+        hungarian = "Vas"
+        b_szombathely = {
+          slovieni = "Kamenec"
+          german = "Steinamanger"
+        }
+        b_szentgotthard = {
+          slovieni = "Svatý Gothard"
+          bohemian = "Svatý Gothard"
+          carantanian = "Monošter"
+          german = "Sankt Gotthard"
+        }
+        b_vasvar = {
+          slovieni = "Železný hrad"
+          bohemian = "Železný hrad"
+          german = "Eisenburg"
+          carantanian = "Železnograd"
+        }
+        b_sarvar = {
+          german = "Kotenburg"
+        }
+        b_celldomolk = {
+          german = "Kleinmariazell"
+        }
+        b_kormend = {
+          german = "Kirment"
+        }
+        b_koszeg = {
+          slovieni = "Kysek"
+          bohemian = "Kysek"
+          german = "Güns"
+          croatian = "Kiseg"
+        }
+        b_nemetujvar = {
+          german = "Güssing"
+          croatian = "Novigrad"
+        }
       }
       c_fejer = {
         color = {
@@ -29526,17 +29891,33 @@ e_carpathia = {
           255
         }
         german = "施图魏斯"  # Stuhlweiss
-        croatian = "比拉"  # Bila
-        bosnian = "比拉"  # Bila
-        carantanian = "比拉"  # Bila
-        b_sarbogard = {}
-        b_adony = {}
-        b_mor = {}
+        croatian = "Stolni Belegrad"
+        bosnian = "Stolni Belegrad"
+        carantanian = "Stolni Belegrad"
+        bohemian = "Stolicný Belehrad"
+        slovieni = "Stolicný Belehrad"
+        b_sarbogard = {
+          german = "Bochart"
+        }
+        b_adony = {
+          german = "Adam"
+        }
+        b_mor = {
+          german = "Moor"
+        }
         b_val = {}
-        b_szekszard = {}
-        b_dombovar = {}
-        b_tamasi = {}
-        b_bonyhad = {}
+        b_szekszard = {
+          german = "Sechshard"
+        }
+        b_dombovar = {
+          german = "Dombowa"
+        }
+        b_tamasi = {
+          german = "Tammasching"
+        }
+        b_bonyhad = {
+          german = "Bonnhard"
+        }
       }
     }
     d_esztergom = {
@@ -29553,9 +29934,12 @@ e_carpathia = {
       capital = 444
       german = "格兰"  # Gran
       bohemian = "奥斯特里霍姆"  # Ostrihom
+      slovieni = "Ostrihom"
+      hungarian = "Esztergom"
       croatian = "奥斯特罗贡"  # Ostrogon
       bosnian = "奥斯特罗贡"  # Ostrogon
       carantanian = "奥斯特罗贡"  # Ostrogon
+      polish = "Ostrzyhom"
       c_sopron = {
         color = {
           211
@@ -29568,14 +29952,42 @@ e_carpathia = {
           255
         }
         german = "厄登堡"  # Ödenburg
-        b_sopron = {}
-        b_gyor = {}
-        b_csorna = {}
-        b_borsmonostor = {}
-        b_csepreg = {}
-        b_kapuvar = {}
-        b_kismarton = {}
-        b_nagymarton = {}
+        slovieni = "Šopron"
+        bohemian = "Šopron"
+        b_sopron = {
+          slovieni = "Šopron"
+          bohemian = "Šopron"
+          german = "Ödenburg"
+        }
+        b_gyor = {
+          slovieni = "Ráb"
+          german = "Raab"
+          bohemian = "Ráb"
+        }
+        b_csorna = {
+          german = "Gschirnau"
+        }
+        b_borsmonostor = {
+          german = "Klostermarienberg"
+        }
+        b_csepreg = {
+          german = "Schapring"
+        }
+        b_kapuvar = {
+          slovieni = "Kapuvár"
+          bohemian = "Kapuvár"
+          german = "Kobrunn"
+        }
+        b_kismarton = {
+          slovieni = "Železno"
+          bohemian = "Železno"
+          german = "Eisenstadt"
+          croatian = "Željezno"
+        }
+        b_nagymarton = {
+          german = "Mattersburg"
+          croatian = "Materštof"
+        }
       }
       c_esztergom = {
         color = {
@@ -29590,16 +30002,46 @@ e_carpathia = {
         }
         german = "格兰"  # Gran
         bohemian = "欧斯崔霍姆"  # Ostrihom
+        slovieni = "Ostrihom"
+        hungarian = "Esztergom"
         croatian = "欧斯托贡"  # Ostrogon
         bosnian = "奥斯特罗贡"  # Ostrogon
         carantanian = "奥斯特罗贡"  # Ostrogon
-        b_esztergom = {}
-        b_komarom = {}
-        b_kakath = {}
-        b_tatabanya = {}
+        polish = "Ostrzyhom"
+        b_esztergom = {
+          german = "Gran"
+          bohemian = "Ostrihom"
+          slovieni = "Ostrihom"
+          hungarian = "Esztergom"
+          croatian = "Ostrogon"
+          bosnian = "Ostrogon"
+          carantanian = "Ostrogon"
+          polish = "Ostrzyhom"
+        }
+        b_komarom = {
+          slovieni = "Komárno"
+          bohemian = "Komárno"
+          hungarian = "Komárom"
+          german = "Komorn"
+        }
+        b_kakath = {
+          slovieni = "Kokot"
+          bohemian = "Kokot"
+        }
+        b_tatabanya = {
+          german = "Totiserkolonie"
+        }
         b_nagyigmand = {}
-        b_nemesocsa = {}
-        b_ogylla = {}
+        b_nemesocsa = {
+          slovieni = "Zemianska Olca"
+          bohemian = "Zemianska Olca"
+        }
+        b_ogylla = {
+          slovieni = "Stará Dala"
+          bohemian = "Stará Dala"
+          german = "Altdala"
+          hungarian = "Ogyalla"
+        }
       }
       c_pressburg = {
         color = {
@@ -29612,16 +30054,52 @@ e_carpathia = {
           255
           255
         }
+        german = "Pressburg"
         hungarian = "博索尼"  # Pozsony
-        bohemian = "普雷斯波洛克"  # Presporok
-        b_pressburg = {}
-        b_nagyszombat = {}
-        b_bazin = {}
-        b_modor = {}
-        b_szentgyorgy = {}
-        b_dunaszerdahely = {}
-        b_galanta = {}
-        b_somorja = {}
+        bohemian = "Prešpurk"
+        slovieni = "Prešporok"
+        b_pressburg = {
+          german = "Pressburg"
+          hungarian = "Pozsony"
+          bohemian = "Prešpurk"
+          slovieni = "Prešporok"
+        }
+        b_nagyszombat = {
+          slovieni = "Trnava"
+          bohemian = "Trnava"
+          german = "Tyrnau"
+        }
+        b_bazin = {
+          slovieni = "Devín"
+          bohemian = "Devin"
+          hungarian = "Dévény"
+          german = "Theben"
+        }
+        b_modor = {
+          slovieni = "Modra"
+          bohemian = "Modra"
+          german = "Modern"
+        }
+        b_szentgyorgy = {
+          slovieni = "Svatý Jur"
+          bohemian = "Svatý Jur"
+          german = "Sankt Georgen"
+        }
+        b_dunaszerdahely = {
+          slovieni = "Dunajská Streda"
+          bohemian = "Dunajská Streda"
+          german = "Niedermarkt"
+        }
+        b_galanta = {
+          slovieni = "Galanta"
+          bohemian = "Galanta"
+          german = "Gallandau"
+        }
+        b_somorja = {
+          slovieni = "Šamorín"
+          bohemian = "Šamorín"
+          german = "Sommerein"
+        }
       }
     }
     d_nyitra = {
@@ -29638,6 +30116,9 @@ e_carpathia = {
       capital = 443
       german = "诺伊特拉"  # Neutra
       bohemian = "尼特拉"  # Nitra
+      slovieni = "Nitra"
+      hungarian = "Nyitra"
+      polish = "Nitra"
       c_nitra = {
         color = {
           194
@@ -29651,14 +30132,51 @@ e_carpathia = {
         }
         german = "诺伊特拉"  # Neutra
         bohemian = "尼特拉"  # Nitra
-        b_nyitra = {}
-        b_nagytapolcsany = {}
-        b_stbenedek = {}
-        b_nagysurany = {}
-        b_galgoc = {}
-        b_zabokreky = {}
-        b_postyen = {}
-        b_preuigan = {}
+        slovieni = "Nitra"
+        hungarian = "Nyitra"
+        polish = "Nitra"
+        b_nyitra = {
+          german = "Neutra"
+          bohemian = "Nitra"
+          slovieni = "Nitra"
+          hungarian = "Nyitra"
+          polish = "Nitra"
+        }
+        b_nagytapolcsany = {
+          slovieni = "Topolcany"
+          bohemian = "Topolcany"
+          german = "Topoltschan"
+        }
+        b_stbenedek = {
+          slovieni = "Hronský Benadik"
+          bohemian = "Hronský Benadik"
+          german = "Sankt Benedikt"
+        }
+        b_nagysurany = {
+          slovieni = "Velké Šurany"
+          bohemian = "Velké Šurany"
+          german = "Schuran"
+        }
+        b_galgoc = {
+          slovieni = "Hlohovec"
+          bohemian = "Hlohovec"
+          german = "Freistadt"
+        }
+        b_zabokreky = {
+          slovieni = "Žabokreky"
+          bohemian = "Žabokreky"
+          hungarian = "Zsámbokrét"
+        }
+        b_postyen = {
+          slovieni = "Pieštany"
+          bohemian = "Pieštany"
+          german = "Pistyan"
+        }
+        b_preuigan = {
+          slovieni = "Prievidza"
+          bohemian = "Prievidza"
+          german = "Priwitz"
+        }
       }
       c_trencin = {
         color = {
@@ -29671,14 +30189,57 @@ e_carpathia = {
           255
           255
         }
-        b_trencsen = {}
-        b_zilina = {}
-        b_turoc = {}
-        b_ban = {}
-        b_illava = {}
-        b_povazskabystrica = {}
-        b_congsberg = {}
-        b_puho = {}
+        german = "Trentschin"
+        bohemian = "Trencín"
+        slovieni = "Trencín"
+        hungarian = "Trencsen"
+        polish = "Trenczyn"
+        b_trencsen = {
+          german = "Trentschin"
+          bohemian = "Trencín"
+          slovieni = "Trencín"
+          hungarian = "Trencsen"
+          polish = "Trenczyn"
+        }
+        b_zilina = {
+          slovieni = "Žilina"
+          bohemian = "Žilina"
+          german = "Sillein"
+          hungarian = "Zsolna"
+        }
+        b_turoc = {
+          slovieni = "Turiec"
+          bohemian = "Turiec"
+          german = "Turz"
+        }
+        b_ban = {
+          slovieni = "Vyšehrad"
+          bohemian = "Vyšehrad"
+          german = "Plintenburg"
+          hungarian = "Visegrád"
+        }
+        b_illava = {
+          slovieni = "Ilava"
+          bohemian = "Ilava"
+          german = "Illau"
+        }
+        b_povazskabystrica = {
+          slovieni = "Považská Bystrica"
+          bohemian = "Považská Bystrica"
+          german = "Waagbistritz"
+          hungarian = "Vágbeszterce"
+        }
+        b_congsberg = {
+          slovieni = "Beckov"
+          bohemian = "Beckov"
+          german = "Beckow"
+          hungarian = "Becko"
+        }
+        b_puho = {
+          slovieni = "Puchov"
+          bohemian = "Puchov"
+          german = "Puchau"
+        }
       }
       c_gemer = {
         color = {
@@ -29691,15 +30252,54 @@ e_carpathia = {
           255
           255
         }
+        german = "Gemer"
+        bohemian = "Gemer"
+        slovieni = "Gemer"
         hungarian = "格默尔"  # Gömör
-        b_gomor = {}
-        b_losonc = {}
-        b_dobsina = {}
-        b_rozsnyo = {}
-        b_balassagyarmat = {}
-        b_jolsva = {}
-        b_nagyroce = {}
-        b_nyustya = {}
+        polish = "Gemer"
+        b_gomor = {
+          german = "Gemer"
+          bohemian = "Gemer"
+          slovieni = "Gemer"
+          hungarian = "Gömör"
+          polish = "Gemer"
+        }
+        b_losonc = {
+          slovieni = "Lucenec"
+          bohemian = "Lucenec"
+          german = "Lizenz"
+        }
+        b_dobsina = {
+          slovieni = "Dobšiná"
+          bohemian = "Dobšiná"
+          german = "Dobschau"
+        }
+        b_rozsnyo = {
+          slovieni = "Rožnava"
+          bohemian = "Rožnava"
+          german = "Rosenau"
+        }
+        b_balassagyarmat = {
+          slovieni = "Balážske Darmoty"
+          bohemian = "Balážske Darmoty"
+          german = "Jahrmarkt"
+        }
+        b_jolsva = {
+          slovieni = "Jelšava"
+          bohemian = "Jelšava"
+          german = "Eltsch"
+        }
+        b_nagyroce = {
+          slovieni = "Velká Revúca"
+          bohemian = "Velká Revúca"
+          german = "Grossrauschenbach"
+        }
+        b_nyustya = {
+          slovieni = "Zvolen"
+          bohemian = "Zvolen"
+          hungarian = "Zólyom"
+          german = "Altsohl"
+        }
       }
       c_orava = {
         color = {
@@ -29713,15 +30313,63 @@ e_carpathia = {
           255
         }
         german = "阿尔瓦"  # Arwa
-        hungarian = "阿尔沃"  # Árva
-        b_arvavara = {}
-        b_nameszto = {}
-        b_liptovskymikulas = {}
-        b_zolyom = {}
-        b_trsztena = {}
-        b_turdossin = {}
-        b_nemetlipcse = {}
-        b_rozsahegy = {}
+        bohemian = "Orava"
+        slovieni = "Orava"
+        hungarian = "Arva"
+        polish = "Orawa"
+        b_arvavara = {
+          german = "Arwa"
+          bohemian = "Orava"
+          slovieni = "Orava"
+          hungarian = "Arva"
+          polish = "Orawa"
+        }
+        b_nameszto = {
+          slovieni = "Námestovo"
+          bohemian = "Námestovo"
+          polish = "Namiestowo"
+          hungarian = "Námeszto"
+        }
+        b_liptovskymikulas = {
+          slovieni = "Liptovský Mikuláš"
+          bohemian = "Liptovský Mikuláš"
+          polish = "Liptowski Mikulasz"
+          german = "Liptau Nikolaus"
+          hungarian = "Liptoszentmiklos"
+        }
+        b_zolyom = {
+          slovieni = "Dolný Kubín"
+          bohemian = "Dolný Kubín"
+          hungarian = "Alsókubin"
+          german = "Unterkubin"
+        }
+        b_trsztena = {
+          slovieni = "Trstená"
+          bohemian = "Trstená"
+          polish = "Trzciana"
+          hungarian = "Trsztena"
+          german = "Bingenstadt"
+        }
+        b_turdossin = {
+          slovieni = "Tvrdošín"
+          bohemian = "Tvrdošín"
+          hungarian = "Turdossin"
+          german = "Turdoschin"
+          polish = "Twardoszyn"
+        }
+        b_nemetlipcse = {
+          slovieni = "Nemecká Lupca"
+          bohemian = "Nemecká Lupca"
+          german = "Deutschliptsch"
+          hungarian = "Németlipcse"
+        }
+        b_rozsahegy = {
+          slovieni = "Ružomberok"
+          bohemian = "Ružomberok"
+          german = "Rosenberg"
+          hungarian = "Rozsahegy"
+          polish = "Ruzomberk"
+        }
       }
     }
     d_ungvar = {
@@ -29736,8 +30384,12 @@ e_carpathia = {
         255
       }
       capital = 538
-      croatian = "霍洛巴提亚"  # Chrobatia
-      bohemian = "乌若罗德"  # Uzhorod
+      croatian = "Užgorod"
+      german = "Ungwar"
+      bohemian = "Užhorod"
+      slovieni = "Užhorod"
+      hungarian = "Ungvár"
+      polish = "Uzhorod"
       c_saris = {
         color = {
           158
@@ -29749,15 +30401,60 @@ e_carpathia = {
           255
           255
         }
-        german = "沙洛什"  # Scharosch
-        b_saris = {}
-        b_bartfa = {}
-        b_kisszeben = {}
-        b_eperjes = {}
-        b_scyuidnyk = {}
-        b_giralth = {}
-        b_hethars = {}
-        b_lemesany = {}
+        german = "Zips"
+        bohemian = "Spiš"
+        slovieni = "Spiš"
+        hungarian = "Szepes"
+        polish = "Spisz"
+        b_saris = {
+          german = "Zips"
+          bohemian = "Spiš"
+          slovieni = "Spiš"
+          hungarian = "Szepes"
+          polish = "Spisz"
+        }
+        b_bartfa = {
+          slovieni = "Bardejov"
+          bohemian = "Bardejov"
+          polish = "Bardejów"
+          german = "Bartfeld"
+          hungarian = "Bártfa"
+        }
+        b_kisszeben = {
+          slovieni = "Sabinov"
+          bohemian = "Sabinov"
+          german = "Zeben"
+          hungarian = "Kisszeben"
+        }
+        b_eperjes = {
+          slovieni = "Prešov"
+          bohemian = "Prešov"
+          german = "Eperies"
+          hungarian = "Eperjes"
+          polish = "Preszów"
+        }
+        b_scyuidnyk = {
+          slovieni = "Svidník"
+          bohemian = "Svidník"
+          german = "Oberswidnik"
+          hungarian = "Felsovízkoz"
+        }
+        b_giralth = {
+          slovieni = "Giraltovce"
+          bohemian = "Giraltovce"
+          hungarian = "Girált"
+        }
+        b_hethars = {
+          slovieni = "Lipany"
+          bohemian = "Lipany"
+          hungarian = "Héthárs"
+          german = "Siebenlinden"
+        }
+        b_lemesany = {
+          slovieni = "Lemešany"
+          bohemian = "Lemešany"
+          hungarian = "Lemes"
+        }
       }
       c_bereg = {
         color = {
@@ -29771,14 +30468,38 @@ e_carpathia = {
           255
         }
         german = "贝格"  # Berg
-        b_beregszasz = {}
-        b_perecseny = {}
-        b_munkacs = {}
-        b_ungvar = {}
-        b_ilosva = {}
-        b_szolyva = {}
-        b_szobranc = {}
-        b_kapos = {}
+        bohemian = "Berehovo"
+        slovieni = "Berehovo"
+        hungarian = "Bereg"
+        b_beregszasz = {
+          german = "Berg"
+          bohemian = "Berehovo"
+          slovieni = "Berehovo"
+          hungarian = "Bereg"
+        }
+        b_perecseny = {
+          slovieni = "Perecín"
+        }
+        b_munkacs = {
+          slovieni = "Mukacevo"
+          german = "Munkatsch"
+        }
+        b_ungvar = {
+          slovieni = "Užhorod"
+          german = "Ungwar"
+        }
+        b_ilosva = {
+          slovieni = "Iršava"
+        }
+        b_szolyva = {
+          slovieni = "Svalava"
+        }
+        b_szobranc = {
+          slovieni = "Sobrance"
+        }
+        b_kapos = {
+          slovieni = "Kapoš"
+        }
       }
       c_abauj = {
         color = {
@@ -29793,14 +30514,52 @@ e_carpathia = {
         }
         german = "诺伊堡"  # Neuburg
         bohemian = "阿博夫"  # Abov
-        b_abauj = {}
-        b_satoraljaujhely = {}
-        b_kassa = {}
-        b_szikszo = {}
-        b_turna = {}
-        b_szepsi = {}
-        b_sarospatak = {}
-        b_tokaj = {}
+        slovieni = "Abov"
+        hungarian = "Abauj"
+        b_abauj = {
+          german = "Neuburg"
+          bohemian = "Abov"
+          slovieni = "Abov"
+          hungarian = "Abauj"
+        }
+        b_satoraljaujhely = {
+          slovieni = "Nové Mesto pod Šiatrom"
+          bohemian = "Nové Mesto pod Šiatrom"
+        }
+        b_kassa = {
+          slovieni = "Košice"
+          bohemian = "Košice"
+          polish = "Koszyce"
+          hungarian = "Kassa"
+          german = "Kaschau"
+          croatian = "Kašava"
+        }
+        b_szikszo = {
+          slovieni = "Siksov"
+          bohemian = "Siksov"
+        }
+        b_turna = {
+          slovieni = "Turna"
+          bohemian = "Turna"
+          german = "Tornau"
+          hungarian = "Torna"
+        }
+        b_szepsi = {
+          slovieni = "Moldava"
+          bohemian = "Moldava"
+          hungarian = "Szepsi"
+          german = "Sepschi"
+        }
+        b_sarospatak = {
+          slovieni = "Trebišov"
+          bohemian = "Trebišov"
+          german = "Trebischau"
+          hungarian = "Toketerebes"
+        }
+        b_tokaj = {
+          slovieni = "Tokaj"
+          bohemian = "Tokaj"
+        }
       }
       c_marmaros = {
         color = {
@@ -29814,13 +30573,28 @@ e_carpathia = {
           255
         }
         german = "马拉穆雷施"  # Maramuresch
-        b_maramarossziget = {}
-        b_nagybanya = {}
-        b_nagykaroly = {}
-        b_huszt = {}
+        bohemian = "Marmaroš"
+        slovieni = "Marmaroš"
+        hungarian = "Máramaros"
+        b_maramarossziget = {
+          slovieni = "Marmarošská Sihot"
+          german = "Marmaroschsiget"
+        }
+        b_nagybanya = {
+          slovieni = "Velká Bana"
+          german = "Neustadt"
+        }
+        b_nagykaroly = {
+          slovieni = "Carei"
+        }
+        b_huszt = {
+          slovieni = "Chust"
+        }
         b_aknasugatag = {}
         b_tecso = {}
-        b_raho = {}
+        b_raho = {
+          slovieni = "Rachiv"
+        }
         b_felsoviso = {}
       }
     }
@@ -29836,6 +30610,11 @@ e_carpathia = {
         255
       }
       capital = 522
+      polish = "Peszt"
+      slovieni = "Pešt"
+      bohemian = "Pešt"
+      serbian = "Pešta"
+      german = "Pest"
       c_heves = {
         color = {
           173
@@ -29847,10 +30626,27 @@ e_carpathia = {
           255
           255
         }
-        b_heves = {}
-        b_eger = {}
-        b_gyongyos = {}
-        b_miskolc = {}
+        german = "Hewesch"
+        slovieni = "Heveš"
+        bohemian = "Heveš"
+        hungarian = "Heves"
+        b_heves = {
+          german = "Hewesch"
+          slovieni = "Heveš"
+          bohemian = "Heveš"
+          hungarian = "Heves"
+        }
+        b_eger = {
+          slovieni = "Jáger"
+          german = "Erlau"
+        }
+        b_gyongyos = {
+          german = "Gengess"
+        }
+        b_miskolc = {
+          slovieni = "Miškovec"
+          german = "Mischkolz"
+        }
         b_petervasara = {}
         b_hatvan = {}
         b_tiszafured = {}
@@ -29867,7 +30663,18 @@ e_carpathia = {
           255
           255
         }
-        b_pest = {}
+        german = "Pest"
+        slovieni = "Pešt"
+        bohemian = "Pešt"
+        hungarian = "Pest"
+        serbian = "Pešta"
+        b_pest = {
+          german = "Pest"
+          slovieni = "Pešt"
+          bohemian = "Pešt"
+          hungarian = "Pest"
+          serbian = "Pešta"
+        }
         b_vac = {}
         b_kecskemet = {}
         b_kiskunhalas = {}
@@ -29887,6 +30694,10 @@ e_carpathia = {
           255
           255
         }
+        german = "Tschanad"
+        slovieni = "Canád"
+        bohemian = "Canád"
+        hungarian = "Csanád"
         b_csanad = {}
         b_szeged = {}
         b_mako = {}
@@ -29921,6 +30732,9 @@ e_carpathia = {
           255
         }
         german = "泽克勒兰"  # Szeklerland
+        bohemian = "Sikulsko"
+        slovieni = "Sikulsko"
+        hungarian = "Székelyfold"
         b_csik = {}
         b_aranyos = {}
         b_haromszek = {}
@@ -29942,6 +30756,9 @@ e_carpathia = {
           255
         }
         romanian = "比荷尔"  # Bihor
+        german = "Bihar"
+        bohemian = "Biharsko"
+        slovieni = "Biharsko"
         b_bihar = {}
         b_nagyvarad = {}
         b_debrecen = {}
@@ -29967,10 +30784,13 @@ e_carpathia = {
         b_arad = {}
         b_gyulafehervar = {
           romanian = "贝尔格莱德"  # Balgrad
+          german = "Karlsburg"
         }
         b_elek = {}
         b_abrudbanya = {}
-        b_nagyenyed = {}
+        b_nagyenyed = {
+          romanian = "Aiud"
+        }
         b_vizakna = {}
         b_tovis = {}
       }
@@ -29987,8 +30807,11 @@ e_carpathia = {
         255
       }
       capital = 517
+      german = "Temesch"
       romanian = "蒂米什"  # Timis
       serbian = "塔米什"  # Tamis
+      slovieni = "Tamiš"
+      bohemian = "Tamiš"
       c_temes = {
         color = {
           153
@@ -30022,7 +30845,13 @@ e_carpathia = {
           255
           255
         }
-        b_bacs = {}
+        hungarian = "Bács"
+        german = "Batsch"
+        bohemian = "Bac"
+        slovieni = "Bac"
+        b_bacs = {
+          slovieni = "Bac"
+        }
         b_apatin = {}
         b_szintarev = {}
         b_baja = {}
@@ -31671,6 +32500,10 @@ e_france = {
       }
       capital = 106
       culture = breton
+      norse = "Namsborg"
+      norwegian = "Namsborg"
+      swedish = "Namsborg"
+      danish = "Namsborg"
       c_nantes = {
         color = {
           170
@@ -31683,6 +32516,10 @@ e_france = {
           255
         }
         breton = "瑙内特"  # Naoned
+        norse = "Namsborg"
+        norwegian = "Namsborg"
+        swedish = "Namsborg"
+        danish = "Namsborg"
         b_nantes = {
           breton = "瑙内特"  # Naoned
         }
@@ -32513,6 +33350,7 @@ e_france = {
         b_laufenberg = {
           frankish = "洛丰"  # Laufond
         }
+        b_habsburg = {}
       }
       c_vaud = {
         b_lausanne = {
@@ -32770,38 +33608,7 @@ e_spain = {
         255
         255
       }
-      capital = 160
-      c_lisboa = {
-        color = {
-          182
-          88
-          5
-        }
-        color2 = {
-          255
-          255
-          255
-        }
-        bedouin_arabic = "里什布纳"  # Lishbuna
-        maghreb_arabic = "里什布纳"  # Lishbuna
-        levantine_arabic = "里什布纳"  # Lishbuna
-        egyptian_arabic = "里什布纳"  # Lishbuna
-        andalusian_arabic = "里什布纳"  # Lishbuna
-        b_lisboa = {
-          bedouin_arabic = "里什布纳"  # Lishbuna
-          maghreb_arabic = "里什布纳"  # Lishbuna
-          levantine_arabic = "里什布纳"  # Lishbuna
-          egyptian_arabic = "里什布纳"  # Lishbuna
-          andalusian_arabic = "里什布纳"  # Lishbuna
-        }
-        b_alcobaca = {}
-        b_setubal = {}
-        b_batalha = {}
-        b_alenquer = {}
-        b_santarem = {}
-        b_atouguia = {}
-        b_tomar = {}
-      }
+      capital = 185
       c_evora = {
         color = {
           182
@@ -32834,13 +33641,12 @@ e_spain = {
           255
         }
         b_alcacerdosal = {}
-        b_alcacovas = {}
-        b_espinheiro = {}
-        b_montemoronovo = {}
-        b_alvito = {}
         b_santiagodocacem = {}
-        b_sines = {}
-        b_grandola = {}
+        b_aljustrel = {}
+        b_castroverde = {}
+        b_ourique = {}
+        b_odemira = {}
+        b_alvalade = {}
       }
       c_mertola = {
         color = {
@@ -32854,13 +33660,32 @@ e_spain = {
           255
         }
         b_mertola = {}
-        b_beja = {}
         b_monsaraz = {}
-        b_noudal = {}
-        b_moura = {}
-        b_portel = {}
+        b_beja = {}
         b_serpa = {}
+        b_noudal = {}
         b_mourao = {}
+        b_portel = {}
+        b_moura = {}
+      }
+      c_egitanea = {
+        color = {
+          175
+          105
+          5
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        b_rodao = {}
+        b_idanha = {}
+        b_covilha = {}
+        b_castelobranco = {}
+        b_alcains = {}
+        b_penha = {}
+        b_belver = {}
       }
     }
     d_algarve = {
@@ -32891,7 +33716,6 @@ e_spain = {
         levantine_arabic = "什利卜"  # Shlib
         egyptian_arabic = "什利卜"  # Shlib
         andalusian_arabic = "什利卜"  # Shlib
-        b_aljustrel = {}
         b_silves = {
           bedouin_arabic = "什利卜"  # Shlib
           maghreb_arabic = "什利卜"  # Shlib
@@ -32900,9 +33724,9 @@ e_spain = {
           andalusian_arabic = "什利卜"  # Shlib
         }
         b_lagos = {}
-        b_castroverde = {}
-        b_odemira = {}
-        b_ourique = {}
+        b_alvor = {}
+        b_aljezur = {}
+        b_arrifana = {}
         b_monchique = {}
         b_almodovar = {}
       }
@@ -32929,13 +33753,80 @@ e_spain = {
           egyptian_arabic = "哈伦"  # Harun
           andalusian_arabic = "哈伦"  # Harun
         }
-        b_loule = {}
         b_tavira = {}
+        b_loule = {}
         b_castromarim = {}
         b_alcoutim = {}
-        b_aljezur = {}
         b_saobrasdealportel = {}
         b_olhao = {}
+      }
+    }
+    d_balata = {
+      color = {
+        193
+        81
+        5
+      }
+      color2 = {
+        255
+        255
+        255
+      }
+      capital = 160
+      bedouin_arabic = "Balata"
+      maghreb_arabic = "Balata"
+      levantine_arabic = "Balata"
+      egyptian_arabic = "Balata"
+      andalusian_arabic = "Balata"
+      c_lisboa = {
+        color = {
+          182
+          88
+          5
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        bedouin_arabic = "里什布纳"  # Lishbuna
+        maghreb_arabic = "里什布纳"  # Lishbuna
+        levantine_arabic = "里什布纳"  # Lishbuna
+        egyptian_arabic = "里什布纳"  # Lishbuna
+        andalusian_arabic = "里什布纳"  # Lishbuna
+        b_lisboa = {
+          bedouin_arabic = "里什布纳"  # Lishbuna
+          maghreb_arabic = "里什布纳"  # Lishbuna
+          levantine_arabic = "里什布纳"  # Lishbuna
+          egyptian_arabic = "里什布纳"  # Lishbuna
+          andalusian_arabic = "里什布纳"  # Lishbuna
+        }
+        b_santarem = {}
+        b_alcobaca = {}
+        b_sintra = {}
+        b_alenquer = {}
+        b_atouguia = {}
+        b_tomar = {}
+        b_batalha = {}
+      }
+      c_almada = {
+        color = {
+          185
+          90
+          5
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        b_almada = {}
+        b_palmela = {}
+        b_setubal = {}
+        b_sesimbra = {}
+        b_alcochete = {}
+        b_pegoes = {}
+        b_montijo = {}
       }
     }
   }
@@ -34113,14 +35004,13 @@ e_spain = {
           255
           255
         }
-        b_castelobranco = {}
         b_guarda = {}
-        b_covilha = {}
-        b_acores = {}
+        b_lamego = {}
         b_trancoso = {}
         b_sabugal = {}
         b_pinhel = {}
         b_almeida = {}
+        b_acores = {}
       }
       c_coimbra = {
         color = {
@@ -34466,14 +35356,32 @@ e_spain = {
           255
           255
         }
-        b_huelva = {}
         b_niebla = {}
-        b_lepe = {}
-        b_gibraleon = {}
         b_nerva = {}
-        b_moguer = {}
         b_almonte = {}
+        b_lascrocinas = {}
+        b_pilas = {}
+        b_ostilia = {}
+        b_aroche = {}
+      }
+      c_huelva = {
+        color = {
+          205
+          98
+          5
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        b_huelva = {}
+        b_lepe = {}
+        b_ayamonte = {}
+        b_gibraleon = {}
+        b_moguer = {}
         b_aljaraque = {}
+        b_portichuelo = {}
       }
     }
     d_toledo = {
@@ -35163,6 +36071,7 @@ e_arabia = {
           255
           255
         }
+        holy_site = qarmatian
         b_alhasa = {}
         b_holuf = {}
         b_foda = {}
@@ -35564,8 +36473,19 @@ e_arabia = {
         holy_site = hellenic_pagan
         holy_site = hellenic_pagan_reformed
         coptic = "拉科泰"  # Rakote
+        egyptian_arabic = "al-Iskandariyya"
+        bedouin_arabic = "al-Iskandariyya"
+        maghreb_arabic = "al-Iskandariyya"
+        levantine_arabic = "al-Iskandariyya"
+        andalusian_arabic = "al-Iskandariyya"
         b_alexandria = {
           pentarchy = yes
+          coptic = "Rakote"
+          egyptian_arabic = "al-Iskandariyya"
+          bedouin_arabic = "al-Iskandariyya"
+          maghreb_arabic = "al-Iskandariyya"
+          levantine_arabic = "al-Iskandariyya"
+          andalusian_arabic = "al-Iskandariyya"
         }
         b_abukir = {}
         b_damanhur = {}
@@ -35575,67 +36495,118 @@ e_arabia = {
         b_marabout = {}
         b_elkanoun = {}
       }
-      c_al_alamayn = {
+      c_gabiyaha = {
         color = {
-          104
-          223
-          138
+          6
+          255
+          77
         }
         color2 = {
           255
           255
           255
         }
-        coptic = "马特鲁赫"  # Matrouh
-        b_elalamein = {}
-        b_mersamatruh = {}
-        b_sidibarrani = {}
-        b_fuka = {}
-        b_katabathmos = {}
-        b_ghazal = {}
-        b_paraitonion = {}
-        b_shammas = {}
+        coptic = "Rashit"
+        egyptian_arabic = "al-Mallidis"
+        bedouin_arabic = "al-Mallidis"
+        maghreb_arabic = "al-Mallidis"
+        levantine_arabic = "al-Mallidis"
+        andalusian_arabic = "al-Mallidis"
+        b_rosetta = {
+          coptic = "Rashit"
+        }
+        b_fuwa = {}
+        b_hermopolis = {
+          egyptian_arabic = "Damanhur"
+          bedouin_arabic = "Damanhur"
+          maghreb_arabic = "Damanhur"
+          levantine_arabic = "Damanhur"
+          andalusian_arabic = "Damanhur"
+        }
+        b_buto = {}
+        b_disuq = {}
+        b_mutubis = {}
+        b_edkhou = {}
       }
-      c_quattara = {
+      c_gizeh = {
         color = {
-          106
-          225
-          140
+          110
+          229
+          144
         }
         color2 = {
           255
           255
           255
         }
-        coptic = "阿塔拉"  # Attara
-        b_siwa = {}
-        b_quattara = {}
-        b_caraoasis = {}
-        b_qaretagnes = {}
-        b_abdannabi = {}
-        b_dayr = {}
-        b_alamelshwawish = {}
-        b_ziwaelbahari = {}
+        egyptian_arabic = "al-Giziya"
+        bedouin_arabic = "al-Giziya"
+        maghreb_arabic = "al-Giziya"
+        levantine_arabic = "al-Giziya"
+        andalusian_arabic = "al-Giziya"
+        coptic = "Tiperses"
+        b_gizeh = {
+          egyptian_arabic = "al-Giziya"
+          bedouin_arabic = "al-Giziya"
+          maghreb_arabic = "al-Giziya"
+          levantine_arabic = "al-Giziya"
+          andalusian_arabic = "al-Giziya"
+          coptic = "Tiperses"
+        }
+        b_aburowash = {}
+        b_dashur = {}
+        b_zawyetalayran = {}
+        b_abughorob = {}
+        b_abusir = {}
+        b_saqqara = {}
+        b_ellisht = {}
       }
-      c_buhairya = {
+      c_kharibta = {
         color = {
-          108
-          227
-          142
+          95
+          228
+          115
         }
         color2 = {
           255
           255
           255
         }
-        coptic = "蒂门胡尔"  # Ptimenhour
-        b_buhairya = {}
-        b_qasrfarfra = {}
-        b_mut = {}
-        b_budhkula = {}
-        b_abuminqar = {}
-        b_ibshawai = {}
-        b_sineita = {}
+        egyptian_arabic = "al-Badaqun"
+        bedouin_arabic = "al-Badaqun"
+        maghreb_arabic = "al-Badaqun"
+        levantine_arabic = "al-Badaqun"
+        andalusian_arabic = "al-Badaqun"
+        coptic = "Arbat"
+        b_kharibta = {
+          egyptian_arabic = "Khiribta"
+          bedouin_arabic = "Khiribta"
+          maghreb_arabic = "Khiribta"
+          levantine_arabic = "Khiribta"
+          andalusian_arabic = "Khiribta"
+          coptic = "Arbat"
+        }
+        b_scetis = {
+          egyptian_arabic = "Wadi El Natrun"
+          bedouin_arabic = "Wadi El Natrun"
+          maghreb_arabic = "Wadi El Natrun"
+          levantine_arabic = "Wadi El Natrun"
+          andalusian_arabic = "Wadi El Natrun"
+          coptic = "Sihet"
+        }
+        b_naucratis_egypt = {
+          egyptian_arabic = "Piemro"
+          bedouin_arabic = "Piemro"
+          maghreb_arabic = "Piemro"
+          levantine_arabic = "Piemro"
+          andalusian_arabic = "Piemro"
+        }
+        b_atfih = {
+          coptic = "Petpeh"
+        }
+        b_nikiou = {}
+        b_merimda = {}
+        b_shatnuf = {}
       }
     }
     d_damietta = {
@@ -35651,27 +36622,7 @@ e_arabia = {
       }
       capital = 798
       coptic = "塔米亚特"  # Tamiat
-      c_gabiyaha = {
-        color = {
-          6
-          255
-          77
-        }
-        color2 = {
-          255
-          255
-          255
-        }
-        coptic = "赛"  # Sai
-        b_rosetta = {}
-        b_sais = {}
-        b_fuwa = {}
-        b_xois = {}
-        b_hermopolis = {}
-        b_buto = {}
-        b_disuq = {}
-        b_mutubis = {}
-      }
+      greek = "Tamiathis"
       c_delta = {
         color = {
           9
@@ -35684,7 +36635,16 @@ e_arabia = {
           255
         }
         coptic = "塔米亚特"  # Tamiat
-        b_damietta = {}
+        greek = "Tamiathis"
+        egyptian_arabic = "ad-Dingawiya"
+        bedouin_arabic = "ad-Dingawiya"
+        maghreb_arabic = "ad-Dingawiya"
+        levantine_arabic = "ad-Dingawiya"
+        andalusian_arabic = "ad-Dingawiya"
+        b_damietta = {
+          coptic = "Tamiat"
+          greek = "Tamiathis"
+        }
         b_burlus = {}
         b_saramsah = {}
         b_burah = {}
@@ -35692,6 +36652,7 @@ e_arabia = {
         b_baramun = {}
         b_tanis = {}
         b_shirbin = {}
+        b_xois = {}
       }
       c_pelusia = {
         color = {
@@ -35705,8 +36666,12 @@ e_arabia = {
           255
         }
         coptic = "雅尼"  # Jani
+        egyptian_arabic = "ad-Daqahliya"
+        bedouin_arabic = "ad-Daqahliya"
+        maghreb_arabic = "ad-Daqahliya"
+        levantine_arabic = "ad-Daqahliya"
+        andalusian_arabic = "ad-Daqahliya"
         b_pelusia = {}
-        b_tinis = {}
         b_alsalihiyah = {}
         b_sile = {}
         b_ismaillia = {}
@@ -35725,15 +36690,21 @@ e_arabia = {
           255
           255
         }
-        coptic = "普巴斯特"  # Poubast
-        b_manusura = {}
-        b_almahallah = {}
-        b_bilbays = {}
-        b_zagazig = {}
+        coptic = "Dishairi"
+        egyptian_arabic = "al-Garbiya"
+        bedouin_arabic = "al-Garbiya"
+        maghreb_arabic = "al-Garbiya"
+        levantine_arabic = "al-Garbiya"
+        andalusian_arabic = "al-Garbiya"
+        b_malhalla = {
+          coptic = "Dishairi"
+        }
         b_athribis = {}
-        b_bubastis = {}
-        b_qantir = {}
         b_busiris = {}
+        b_mansoura = {}
+        b_tanta = {}
+        b_sais = {}
+        b_samannud = {}
       }
     }
     d_cairo = {
@@ -35764,7 +36735,9 @@ e_arabia = {
         holy_site = zun_pagan
         holy_site = zun_pagan_reformed
         coptic = "卡希雷"  # Kahiree
-        b_cairo = {}
+        b_cairo = {
+          coptic = "Kahiree"
+        }
         b_fustat = {}
         b_memphis = {}
         b_helwan = {}
@@ -35784,36 +36757,93 @@ e_arabia = {
           255
           255
         }
-        coptic = "佩图姆"  # Petoum
-        b_sarqinya = {}
-        b_clysma = {}
-        b_atfih = {}
-        b_taufiq = {}
+        coptic = "Phelbes"
+        egyptian_arabic = "al-Sarqiya"
+        bedouin_arabic = "al-Sarqiya"
+        maghreb_arabic = "al-Sarqiya"
+        levantine_arabic = "al-Sarqiya"
+        andalusian_arabic = "al-Sarqiya"
+        b_sarqinya = {
+          coptic = "Phelbes"
+        }
+        b_bubastis = {}
+        b_zagazig = {}
+        b_qantir = {}
         b_agruda = {}
-        b_shallufa = {}
         b_alhaifar = {}
-        b_suez = {}
+        b_minya = {}
       }
-      c_gizeh = {
+      c_akhmim = {
         color = {
-          110
-          229
-          144
+          32
+          244
+          105
         }
         color2 = {
           255
           255
           255
         }
-        coptic = "吉萨"  # Giza
-        b_gizeh = {}
-        b_aburowash = {}
-        b_dashur = {}
-        b_zawyetalayran = {}
-        b_abughorob = {}
-        b_abusir = {}
-        b_saqqara = {}
-        b_ellisht = {}
+        coptic = "Khmin"
+        egyptian_arabic = "al-Ihmimiya"
+        bedouin_arabic = "al-Ihmimiya"
+        maghreb_arabic = "al-Ihmimiya"
+        levantine_arabic = "al-Ihmimiya"
+        andalusian_arabic = "al-Ihmimiya"
+        b_akhmim = {
+          coptic = "Khmin"
+          egyptian_arabic = "al-Ihmimiya"
+          bedouin_arabic = "al-Ihmimiya"
+          maghreb_arabic = "al-Ihmimiya"
+          levantine_arabic = "al-Ihmimiya"
+          andalusian_arabic = "al-Ihmimiya"
+        }
+        b_al_minya = {}
+        b_cynopolis = {
+          egyptian_arabic = "El Kays"
+          bedouin_arabic = "El Kays"
+          maghreb_arabic = "El Kays"
+          levantine_arabic = "El Kays"
+          andalusian_arabic = "El Kays"
+        }
+        b_antinoe = {
+          coptic = "Antinow"
+        }
+        b_hibeh = {
+          coptic = "Teudjo"
+        }
+        b_besa = {}
+        b_sharuna = {}
+      }
+      c_kolzum = {
+        color = {
+          40
+          220
+          100
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        egyptian_arabic = "al-Kulzum"
+        bedouin_arabic = "al-Kulzum"
+        maghreb_arabic = "al-Kulzum"
+        levantine_arabic = "al-Kulzum"
+        andalusian_arabic = "al-Kulzum"
+        b_kolzum = {
+          egyptian_arabic = "al-Kulzum"
+          bedouin_arabic = "al-Kulzum"
+          maghreb_arabic = "al-Kulzum"
+          levantine_arabic = "al-Kulzum"
+          andalusian_arabic = "al-Kulzum"
+        }
+        b_sokhna = {}
+        b_taufiq = {}
+        b_shallufa = {}
+        b_suez = {}
+        b_clysma = {}
+        b_mount_anthony = {}
       }
     }
     d_aswan = {
@@ -35841,14 +36871,15 @@ e_arabia = {
           255
         }
         coptic = "索万"  # Sowan
-        b_aswan = {}
+        b_aswan = {
+          coptic = "Sowan"
+        }
         b_elefantina = {}
         b_shellal = {}
         b_bigeh = {}
         b_veset = {}
         b_philae = {}
         b_kalabsha = {}
-        b_edfu = {}
       }
       c_quena = {
         color = {
@@ -35862,34 +36893,20 @@ e_arabia = {
           255
         }
         coptic = "埃纳"  # Ena
-        b_quena = {}
+        egyptian_arabic = "al-Qusiya"
+        bedouin_arabic = "al-Qusiya"
+        maghreb_arabic = "al-Qusiya"
+        levantine_arabic = "al-Qusiya"
+        andalusian_arabic = "al-Qusiya"
+        b_quena = {
+          coptic = "Ena"
+        }
         b_qus = {}
         b_qift = {}
         b_luxor = {}
         b_shiblanjah = {}
         b_khalaf = {}
         b_bilbeis = {}
-      }
-      c_asyut = {
-        color = {
-          36
-          248
-          131
-        }
-        color2 = {
-          255
-          255
-          255
-        }
-        coptic = "西奥特"  # Sioout
-        b_asyut = {}
-        b_kusai = {}
-        b_durunka = {}
-        b_egypthebes = {}
-        b_egypabydos = {}
-        b_wannina = {}
-        b_beitkhallaf = {}
-        b_meir = {}
       }
       c_alqusair = {
         color = {
@@ -35902,6 +36919,8 @@ e_arabia = {
           255
           255
         }
+        greek = "Leucus Limen"
+        coptic = "Leucus Limen"
         b_kosseir = {}
         b_safaga = {}
         b_abughusun = {}
@@ -35909,25 +36928,6 @@ e_arabia = {
         b_asfoun = {}
         b_bureid = {}
         b_jamsah = {}
-      }
-      c_kharga = {
-        color = {
-          108
-          227
-          142
-        }
-        color2 = {
-          255
-          255
-          255
-        }
-        b_elkharga = {}
-        b_baris = {}
-        b_ismant = {}
-        b_zuhrah = {}
-        b_gahdam = {}
-        b_banja = {}
-        b_panopolis = {}
       }
     }
     d_sinai = {
@@ -35955,7 +36955,23 @@ e_arabia = {
           255
         }
         coptic = "佩雷蒙"  # Peremoun
-        b_farama = {}
+        egyptian_arabic = "al-Farama"
+        maghreb_arabic = "al-Farama"
+        levantine_arabic = "al-Farama"
+        bedouin_arabic = "al-Farama"
+        andalusian_arabic = "al-Farama"
+        ashkenazi = "Sin"
+        sephardi = "Sin"
+        greek = "Pelousion"
+        b_farama = {
+          coptic = "Peremoun"
+          egyptian_arabic = "al-Farama"
+          maghreb_arabic = "al-Farama"
+          levantine_arabic = "al-Farama"
+          bedouin_arabic = "al-Farama"
+          andalusian_arabic = "al-Farama"
+          greek = "Pelousion"
+        }
         b_sin = {}
         b_seyan = {}
         b_romani = {}
@@ -36029,6 +37045,334 @@ e_arabia = {
         b_mitmatna = {}
         b_abuaweigila = {}
         b_zuwayid = {}
+      }
+    }
+    d_faiyum = {
+      color = {
+        110
+        240
+        145
+      }
+      color2 = {
+        255
+        255
+        255
+      }
+      capital = 2001
+      coptic = "Phiom"
+      roman = "Arsinoe"
+      c_faiyum = {
+        color = {
+          115
+          224
+          142
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        coptic = "Phiom"
+        roman = "Arsinoe"
+        egyptian_arabic = "al-Fayyumiya"
+        bedouin_arabic = "al-Fayyumiya"
+        maghreb_arabic = "al-Fayyumiya"
+        levantine_arabic = "al-Fayyumiya"
+        andalusian_arabic = "al-Fayyumiya"
+        b_faiyum = {
+          coptic = "Phiom"
+          egyptian_arabic = "al-Fayyumiya"
+          bedouin_arabic = "al-Fayyumiya"
+          maghreb_arabic = "al-Fayyumiya"
+          levantine_arabic = "al-Fayyumiya"
+          andalusian_arabic = "al-Fayyumiya"
+        }
+        b_ahnas = {
+          coptic = "Ahnes"
+        }
+        b_bahnasa = {
+          egyptian_arabic = "al-Bahnasa"
+          bedouin_arabic = "al-Bahnasa"
+          maghreb_arabic = "al-Bahnasa"
+          levantine_arabic = "al-Bahnasa"
+          andalusian_arabic = "al-Bahnasa"
+          coptic = "Pemdje"
+        }
+        b_beni_suef = {
+          coptic = "Panisof"
+        }
+        b_heracleus = {}
+        b_arsinoe_faiyum = {}
+        b_wadi_el_rayan = {}
+      }
+      c_buhairya = {
+        color = {
+          108
+          227
+          142
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        coptic = "Ptimenhour"
+        b_buhairya = {
+          coptic = "Ptimenhour"
+        }
+        b_budhkula = {}
+        b_abuminqar = {}
+        b_el_harrah = {}
+        b_ain_et_tibniya = {}
+        b_ibshawai = {}
+        b_sineita = {}
+      }
+      c_farafra = {
+        color = {
+          104
+          234
+          148
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        coptic = "Trinitheos"
+        b_farafra = {
+          coptic = "Trinitheos"
+        }
+        b_mut = {}
+        b_ain_della = {}
+        b_wadi_hinnis = {}
+        b_white_desert = {
+          egyptian_arabic = "Sahara El Beyda"
+        }
+        b_ain_bishay = {}
+        b_qasrfarfra = {}
+      }
+    }
+    d_asyut = {
+      color = {
+        30
+        250
+        124
+      }
+      color2 = {
+        255
+        255
+        255
+      }
+      coptic = "Sioout"
+      greek = "Lycopolis"
+      roman = "Oasis Magna"
+      c_asyut = {
+        color = {
+          36
+          248
+          131
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        coptic = "Sioout"
+        greek = "Lycopolis"
+        roman = "Lycopolis"
+        egyptian_arabic = "al-Asyutiya"
+        bedouin_arabic = "al-Asyutiya"
+        maghreb_arabic = "al-Asyutiya"
+        levantine_arabic = "al-Asyutiya"
+        andalusian_arabic = "al-Asyutiya"
+        b_asyut = {
+          coptic = "Sioout"
+          greek = "Lycopolis"
+          roman = "Lycopolis"
+          egyptian_arabic = "al-Asyutiya"
+          bedouin_arabic = "al-Asyutiya"
+          maghreb_arabic = "al-Asyutiya"
+          levantine_arabic = "al-Asyutiya"
+          andalusian_arabic = "al-Asyutiya"
+        }
+        b_kusai = {}
+        b_durunka = {}
+        b_wannina = {}
+        b_beitkhallaf = {}
+        b_meir = {}
+        b_suhaj = {}
+      }
+      c_kharga = {
+        color = {
+          108
+          227
+          142
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        coptic = "Wah Empsoy"
+        roman = "Oasis Magna"
+        b_elkharga = {
+          coptic = "Wah Empsoy"
+          roman = "Oasis Magna"
+        }
+        b_baris = {}
+        b_ismant = {}
+        b_zuhrah = {}
+        b_gahdam = {}
+        b_banja = {}
+        b_panopolis = {}
+      }
+      c_esna = {
+        color = {
+          33
+          242
+          122
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        coptic = "Sne"
+        greek = "Latopolis"
+        roman = "Latopolis"
+        egyptian_arabic = "Isna"
+        bedouin_arabic = "Isna"
+        maghreb_arabic = "Isna"
+        levantine_arabic = "Isna"
+        andalusian_arabic = "Isna"
+        b_esna = {
+          coptic = "Sne"
+          greek = "Latopolis"
+          roman = "Latopolis"
+          egyptian_arabic = "Isna"
+          bedouin_arabic = "Isna"
+          maghreb_arabic = "Isna"
+          levantine_arabic = "Isna"
+          andalusian_arabic = "Isna"
+        }
+        b_armant = {
+          greek = "Hermonthis"
+        }
+        b_edfu = {}
+        b_hiw = {}
+        b_egypthebes = {}
+        b_egypabydos = {
+          coptic = "Ebot"
+        }
+        b_khnum = {}
+      }
+    }
+    d_paraetonium = {
+      color = {
+        40
+        240
+        40
+      }
+      color2 = {
+        255
+        255
+        255
+      }
+      capital = 2005
+      egyptian_arabic = "al-Baretoun"
+      bedouin_arabic = "al-Baretoun"
+      maghreb_arabic = "al-Baretoun"
+      levantine_arabic = "al-Baretoun"
+      andalusian_arabic = "al-Baretoun"
+      greek = "Paraitonion"
+      coptic = "Paraitonion"
+      c_paraetonium = {
+        color = {
+          40
+          240
+          40
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        egyptian_arabic = "al-Baretoun"
+        bedouin_arabic = "al-Baretoun"
+        maghreb_arabic = "al-Baretoun"
+        levantine_arabic = "al-Baretoun"
+        andalusian_arabic = "al-Baretoun"
+        greek = "Paraitonion"
+        coptic = "Paraitonion"
+        b_paraetonium = {
+          egyptian_arabic = "al-Baretoun"
+          bedouin_arabic = "al-Baretoun"
+          maghreb_arabic = "al-Baretoun"
+          levantine_arabic = "al-Baretoun"
+          andalusian_arabic = "al-Baretoun"
+          greek = "Paraitonion"
+          coptic = "Paraitonion"
+        }
+        b_apis = {}
+        b_zygis = {}
+        b_phocusa = {}
+        b_selinais = {}
+        b_leuce = {}
+        b_al_hadid = {}
+      }
+      c_al_alamayn = {
+        color = {
+          104
+          223
+          138
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        b_zygra = {}
+        b_elalamein = {}
+        b_sidibarrani = {}
+        b_fuka = {}
+        b_katabathmos = {}
+        b_ghazal = {}
+        b_shammas = {}
+      }
+      c_quattara = {
+        color = {
+          106
+          225
+          140
+        }
+        color2 = {
+          255
+          255
+          255
+        }
+        egyptian_arabic = "Siwah"
+        bedouin_arabic = "Siwah"
+        maghreb_arabic = "Isiwan"
+        levantine_arabic = "Siwah"
+        andalusian_arabic = "Siwah"
+        coptic = "Sesamu"
+        b_siwa = {
+          egyptian_arabic = "Siwah"
+          bedouin_arabic = "Siwah"
+          maghreb_arabic = "Isiwan"
+          levantine_arabic = "Siwah"
+          andalusian_arabic = "Siwah"
+          coptic = "Sesamu"
+        }
+        b_quattara = {
+          coptic = "Attara"
+        }
+        b_caraoasis = {}
+        b_qaretagnes = {}
+        b_abdannabi = {}
+        b_dayr = {}
+        b_alamelshwawish = {}
+        b_ziwaelbahari = {}
       }
     }
   }
@@ -36882,6 +38226,7 @@ e_arabia = {
         holy_site = jewish
         holy_site = samaritan
         holy_site = karaite
+        holy_site = qarmatian
         b_qsarbardawil = {}
         b_damascus = {}
         b_daraa = {}
@@ -37920,6 +39265,11 @@ e_maghreb = {
     muslim = 200
     west_african_pagan_reformed = 50
     zoroastrian_group = 50
+    bedouin_arabic = "Ifriqiya"
+    maghreb_arabic = "Ifriqiya"
+    egyptian_arabic = "Ifriqiya"
+    levantine_arabic = "Ifriqiya"
+    andalusian_arabic = "Ifriqiya"
     d_tunis = {
       color = {
         45
@@ -38296,6 +39646,11 @@ e_maghreb = {
         255
       }
       capital = 806
+      egyptian_arabic = "Barqa"
+      bedouin_arabic = "Barqa"
+      maghreb_arabic = "Barqa"
+      levantine_arabic = "Barqa"
+      andalusian_arabic = "Barqa"
       c_cyrenaica = {
         color = {
           34
@@ -38347,6 +39702,11 @@ e_maghreb = {
           255
           255
         }
+        egyptian_arabic = "Barqa"
+        bedouin_arabic = "Barqa"
+        maghreb_arabic = "Barqa"
+        levantine_arabic = "Barqa"
+        andalusian_arabic = "Barqa"
         b_benghazi = {}
         b_barca = {}
         b_oriana = {}
@@ -45311,6 +46671,22 @@ d_amalfi = {
     is_republic = yes
   }
 }
+d_pechina = {
+  color = {
+    230
+    135
+    10
+  }
+  color2 = {
+    255
+    255
+    255
+  }
+  capital = 168
+  allow = {
+    is_republic = yes
+  }
+}
 d_ragusa = {
   color = {
     133
@@ -46562,11 +47938,43 @@ b_scarponnois = {
 }
 b_babalio = {
   culture = dalmatian
-  religion = orthodox
+  religion = catholic
 }
 b_benessa = {
   culture = dalmatian
-  religion = orthodox
+  religion = catholic
+}
+b_salvius = {
+  culture = dalmatian
+  religion = catholic
+}
+b_pius = {
+  culture = dalmatian
+  religion = catholic
+}
+b_bonda = {
+  culture = dalmatian
+  religion = catholic
+}
+b_al_gassani = {
+  culture = bedouin_arabic
+  religion = sunni
+}
+b_ruayn = {
+  culture = bedouin_arabic
+  religion = sunni
+}
+b_banu_sarray = {
+  culture = maghreb_arabic
+  religion = sunni
+}
+b_aswadid = {
+  culture = andalusian_arabic
+  religion = sunni
+}
+b_yeshayahu = {
+  culture = sephardi
+  religion = jewish
 }
 d_norse_pagan_reformed = {
   color = {
@@ -55614,6 +57022,31 @@ d_african_tiny = {
   strength_growth_per_century = 1.0
   mercenary_type = african_tiny_composition_1
 }
+d_scholae_palatinae = {
+  color = {
+    178
+    34
+    34
+  }
+  color2 = {
+    255
+    215
+    0
+  }
+  graphical_culture = orthodoxholygfx
+  capital = 496
+  religion = orthodox
+  culture = greek
+  mercenary = yes
+  title = "domestic"
+  foa = "domestic_FOA"
+  title_female = "domestic_female"
+  landless = yes
+  primary = yes
+  replace_captain_on_death = yes
+  strength_growth_per_century = 0.10
+  mercenary_type = Scholae_Palatinae_composition
+}
 d_hamadan = {
   color = {
     184
@@ -55704,6 +57137,36 @@ e_russian_empire = {
   }
   capital = 582
   culture = russian
+  allow = {
+    always = no
+  }
+}
+k_liao = {
+  color = {
+    33
+    202
+    156
+  }
+  color2 = {
+    255
+    255
+    255
+  }
+  culture = khitan
+}
+d_guiyi = {
+  color = {
+    202
+    26
+    26
+  }
+  color2 = {
+    255
+    255
+    255
+  }
+  capital = 1448
+  dignity = 200
   allow = {
     always = no
   }
