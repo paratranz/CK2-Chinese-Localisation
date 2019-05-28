@@ -312,7 +312,7 @@ wonder_pyramid_giza_desc;奇形怪状的金字塔一直以来就矗立在那里�
 wonder_amphitheater_colosseum;斗兽场;;;;;;;;;;;;x
 wonder_amphitheater_colosseum_desc;圆形剧场在数个世纪间被用作多种用途，不仅作为角斗士表演和斗兽表演的场所，在晚期甚至被当做商人摆摊的集市使用。;;;;;;;;;;;;x
 wonder_cathedral_hagia_sophia;圣索菲亚大教堂;;;;;;;;;;;;x
-wonder_cathedral_hagia_sophia_desc;这座大教堂，上帝神圣智慧的神殿，是世界上最大的建筑物之一，它于562年完工[FromFrom.GetHagiaSophiaUse]。;;;;;;;;;;;;x
+wonder_cathedral_hagia_sophia_desc;这座大教堂，上帝神圣智慧的神殿，是世界上最大的建筑物之一，它于公元562年完工[FromFrom.GetHagiaSophiaUse]。;;;;;;;;;;;;x
 wonder_pagan_stones_stonehenge;巨石阵;;;;;;;;;;;;x
 wonder_pagan_stones_stonehenge_desc;一些人觉得这些巨石是由诸神置于此处的，另一些人却说这是原始宗教的迷信，拒绝靠近。;;;;;;;;;;;;x
 wonder_mausoleum_halicarnassus;哈利卡那索斯的摩索拉斯陵墓;;;;;;;;;;;;x
@@ -1059,7 +1059,7 @@ EVTOPTB_LT_20810;我会开放[From.GetWonderTypeShort]，让所有人都能分�
 EVT_TITLE_LT_20820;奇观被劫掠;;;;;;;;;;;;x
 EVTDESC_LT_20820_the_end;§Y[From.GetName]§!现在除了一堆瓦砾什么都没有了，往日的辉煌消失得无影无踪。我从劫掠中获得了[global_loot.GetValue]金币。;;;;;;;;;;;;x
 EVTDESC_LT_20820;对§Y[From.GetName]§!的劫掠给我带来了[global_loot.GetValue]金币。将来还有更多收益等着我！;;;;;;;;;;;;x
-looted_wonder_artifact_bells_rename;[target_wonder.GetName]的钟。;;;;;;;;;;;;x
+looted_wonder_artifact_bells_rename;[target_wonder.GetName]的钟;;;;;;;;;;;;x
 looted_wonder_artifact_bells_desc;这些钟是从对[target_wonder.GetName]的劫掠中缴获的。;;;;;;;;;;;;x
 less_likely_to_be_looted_modifier_tt;§Y宝物§!更难失窃;;;;;;;;;;;;x
 String_Old;古老;;;;;;;;;;;;x
@@ -1524,7 +1524,7 @@ strong_leader_modifier_desc;不能容忍军队的无纪律。;;;;;;;;;;;;x
 plundering_leader_modifier;劫掠的将领;;;;;;;;;;;;x
 plundering_leader_modifier_desc;更倾向于烧杀掳掠;;;;;;;;;;;;x
 string_Hagia_Sophia_Orthodox;同时也是普世牧首的所在地;;;;;;;;;;;;x
-string_Hagia_Sophia_Latin;在君士坦丁堡被征服后被改建拉丁宗派教堂;;;;;;;;;;;;x
+string_Hagia_Sophia_Latin;在君士坦丁堡被征服后被改建为拉丁宗派教堂;;;;;;;;;;;;x
 string_Hagia_Sophia_Muslim;在君士坦丁堡被征服后被改建为帝国清真寺;;;;;;;;;;;;x
 string_pride_of_constantinople;是君士坦丁堡的骄傲;;;;;;;;;;;;x
 EVTDESC_LT_20900_chaplain;我的[target_chaplain.GetJobTitle][target_chaplain.GetFirstName]希望能尽快改建[target_wonder.GetName]，使它适应真信，这样我们的人民就能在这座浮夸的建筑物中做礼拜。;;;;;;;;;;;;x
@@ -1558,9 +1558,7 @@ EVTOPTB_LT_21131;时机还不成熟。我们走着瞧。;;;;;;;;;;;;x
 String_disease;疾病;;;;;;;;;;;;x
 EVTDSC_RIP_5060_PRISON;一个一直在看押我[GetFromRelation]，[From.GetFirstName]的狱卒向我来报。那个[From.GetGirlWomanBoyMan]不仅被锁在昏暗无光的牢笼里——[From.GetSheHe]现在还饱受着[From.GetScriptedDiseaseName]的病痛。;;;;;;;;;;;;x
 EVTOPTE_RIP_5060_release_prisoner;卫兵！该把我可怜的[GetFromRelation]从牢里放出来了，;;;;;;;;;;;;x
-COURT_LIMITED_TAB_DRO;宫廷主要由各色无地的贵族组成，但也包括内阁成员（他们可能是有地的封臣）与接受廷臣教育的孩子。\n\n统治者能在宫廷中养的人的数量是有上限的，这个人数取决于他头衔的级别。如果超出那个人数上限，§Y宫廷维护费用§!将会上升。;;;;;;;;;;;;x
 string_coast;海岸;;;;;;;;;;;;x
-COURT_TAB_DRO;宫廷主要由各色无地的贵族组成，但也包括内阁成员（他们可能是有地的封臣）与接受廷臣教育的孩子。\n\n统治者能在宫廷中养的人的数量是有上限的，这个人数取决于他头衔的级别。如果超出那个人数上限，§Y宫廷维护费用§!将会上升。;;;;;;;;;;;;x
 String_bottle;瓶;;;;;;;;;;;;x
 String_case;箱;;;;;;;;;;;;x
 String_cask;桶;;;;;;;;;;;;x
@@ -1591,7 +1589,6 @@ String_sense_of_humor;幽默感;;;;;;;;;;;;x
 String_jaded_view_on_romance;对浪漫的钝感;;;;;;;;;;;;x
 EVTDESC_MNM_4090;我立誓独身以向[Root.Religion.GetHighGodNameCap]和修会展现我的奉献精神。;;;;;;;;;;;;x
 RELATION_TRIBUTARY;朝贡国;;;;;;;;;;;;x
->>>>>>> live_team/develop;;;;;;;;;;;;;x
 quest_the_assassins_convert_province_desc;[GetAssassinsConversionDesc];;;;;;;;;;;;x
 assassins_conversion_desc_random;对于阿萨辛来说最重要的目标就是保护拥有正信的信徒，并将[shiite.GetHighGodName]的话传遍世界上的每一个角落。总有一天即使是最偏远的土地也会皈依，但首先我们必须从距离我们较近的目标开始——你的任务是让[FromFrom.GetName]皈依。;;;;;;;;;;;;x
 EVTDESC_MNM_6204_c;愿平安常伴你，[Root.GetSocietyRank][Root.GetFirstName]，\n\n是时候让[conversion_province.GetName]的百姓接受正信了。当省份中大多数人皈依[Root.Religion.GetName]信仰时，你的任务就完成了。\n\n赞美[Root.Religion.GetHighGodNameCap]！\n此致，[From.GetSocietyRank][From.GetFirstName];;;;;;;;;;;;x
@@ -1692,3 +1689,385 @@ charitable_opinion;慷慨好感;;;;;;;;;;;;x
 RULE_COURT_LIMIT;宫廷规模限制;;;;;;;;;;;;x
 RULE_COURT_LIMIT_ON;每个宫廷的廷臣数量将受到限制。;;;;;;;;;;;;x
 RULE_COURT_LIMIT_OFF;每个宫廷的廷臣数量将不会受到限制，同时禁用与这项机制绑定的事件。;;;;;;;;;;;;x
+tooltip_gain_baptized_by_patriach;gains the trait '§YBaptized by the Patriarch§!';;;;;;;;;;;;x
+EVTNAME_RIP_21099;路的尽头;;;;;;;;;;;;x
+EVTDSC_RIP_21099_YOU_MURDERED;在不依赖[eternal_life_mystic.GetBestName]的帮助之下，我尝试在她为我指引的永生之路上艰难前行，但缺乏她的引导使我进退维谷。我无能为力，唯有哑然失笑，在我亲手造成的死亡之下，永恒之道也已断绝——何其讽刺！;;;;;;;;;;;;x
+EVTDSC_RIP_21099_OTHER_DEATH;好像命运给我开了一残忍的玩笑，我的永生向导[eternal_life_mystic.GetBestName]已经去世了。我尝试着独自走在她为我指引的路上，然而离开了她的帮助我仅能在黑暗中摸索前行………永恒之道是否已经永远对我关上大门？;;;;;;;;;;;;x
+EVTOPTA_RIP_21099;快想想我从前学到的东西！;;;;;;;;;;;;x
+PIETY_EFFECT_CHARACTER;§Y$WHO$§! $DIRECTION$ $VALUE$ $PIETYNAME$.\n;;;;;;;;;;;;x
+LARGE_COURT_PRESTIGE_GAIN;Large Court ($AMOUNT|Y$): §G+$VALUE$§!;;;;;;;;;;;;x
+COUNTY_KLEVE;Kleve;;;;;;;;;;;;x
+COUNTY_KLEVE_ADJ;Klevian;;;;;;;;;;;;x
+PROV525;Orava;;;;;;;;;;;;x
+slovieni;Slovien;;;;;;;;;;;;x
+c_orava_adj;Oravan;;;;;;;;;;;;x
+PROV187;Guarda;;;;;;;;;;;;x
+PROV789;Tinnis;;;;;;;;;;;;x
+PROV790;Bilbays;;;;;;;;;;;;x
+PROV797;El-Malhalla;;;;;;;;;;;;x
+PROV799;Rasheed;;;;;;;;;;;;x
+PROV800;Giza;;;;;;;;;;;;x
+PROV801;Bahariya;;;;;;;;;;;;x
+PROV803;Siwa;;;;;;;;;;;;x
+PROV804;Zygra;;;;;;;;;;;;x
+PROV1382;Sea of Calm;;;;;;;;;;;;x
+PROV1995;Nile;;;;;;;;;;;;x
+PROV1996;Nile;;;;;;;;;;;;x
+PROV1997;Nile;;;;;;;;;;;;x
+PROV1998;Nile;;;;;;;;;;;;x
+PROV1999;Nile;;;;;;;;;;;;x
+PROV2000;Nile;;;;;;;;;;;;x
+PROV2001;Faiyum;;;;;;;;;;;;x
+PROV2002;Ikhmim;;;;;;;;;;;;x
+PROV2003;Esna;;;;;;;;;;;;x
+PROV2004;Kharibta;;;;;;;;;;;;x
+PROV2005;Paraetonium;;;;;;;;;;;;x
+PROV2006;Kolzum;;;;;;;;;;;;x
+PROV2007;Farafra;;;;;;;;;;;;x
+PROV2008;Tago;;;;;;;;;;;;x
+PROV2009;Tago;;;;;;;;;;;;x
+PROV2010;al-Wadi al-Kabir;;;;;;;;;;;;x
+PROV2011;al-Wadi al-Kabir;;;;;;;;;;;;x
+PROV2012;Egitanea;;;;;;;;;;;;x
+PROV2013;Almada;;;;;;;;;;;;x
+PROV2014;Huelva;;;;;;;;;;;;x
+b_faiyum;Faiyum;;;;;;;;;;;;x
+b_akhmim;Ikhmim;;;;;;;;;;;;x
+b_esna;Esna;;;;;;;;;;;;x
+b_paraetonium;Paraetonium;;;;;;;;;;;;x
+b_kharibta;Kharibta;;;;;;;;;;;;x
+b_kolzum;Kolzum;;;;;;;;;;;;x
+b_sarqinya;Bilbays;;;;;;;;;;;;x
+b_malhalla;al-Malhalla;;;;;;;;;;;;x
+b_mansoura;Mansoura;;;;;;;;;;;;x
+b_tanta;Tanta;;;;;;;;;;;;x
+b_samannud;Samannud;;;;;;;;;;;;x
+b_edkhou;Edkhou;;;;;;;;;;;;x
+b_scetis;Scetis;;;;;;;;;;;;x
+b_naucratis_egypt;Naucratis;;;;;;;;;;;;x
+b_shatnuf;Shatnuf;;;;;;;;;;;;x
+b_nikiou;Nikiou;;;;;;;;;;;;x
+b_minya;Minya;;;;;;;;;;;;x
+b_wadi_el_rayan;Wadi el Rayan;;;;;;;;;;;;x
+b_ahnas;Ahnas;;;;;;;;;;;;x
+b_bahnasa;Bahnasa;;;;;;;;;;;;x
+b_heracleus;Heracleus;;;;;;;;;;;;x
+b_arsinoe_faiyum;Arsinoe;;;;;;;;;;;;x
+b_mount_anthony;Mount Anthony;;;;;;;;;;;;x
+b_suhaj;Suhaj;;;;;;;;;;;;x
+b_hiw;Hiw;;;;;;;;;;;;x
+b_khnum;Khnum;;;;;;;;;;;;x
+b_armant;Armant;;;;;;;;;;;;x
+b_edfu;Edfu;;;;;;;;;;;;x
+b_al_minya;Al Minya;;;;;;;;;;;;x
+b_antinoe;Antinoe;;;;;;;;;;;;x
+b_besa;Besa;;;;;;;;;;;;x
+b_hibeh;Hibeh;;;;;;;;;;;;x
+b_sharuna;Sharuna;;;;;;;;;;;;x
+b_merimda;Merimda;;;;;;;;;;;;x
+b_cynopolis;Cynopolis;;;;;;;;;;;;x
+b_sokhna;Sokhna;;;;;;;;;;;;x
+b_beni_suef;Beni Suef;;;;;;;;;;;;x
+b_rosetta;Rasheed;;;;;;;;;;;;x
+b_pelusia;Tinnis;;;;;;;;;;;;x
+b_zygra;Zygra;;;;;;;;;;;;x
+b_al_hadid;al-Hadid;;;;;;;;;;;;x
+b_apis;Apis;;;;;;;;;;;;x
+b_zygis;Zygis;;;;;;;;;;;;x
+b_phocusa;Phocusa;;;;;;;;;;;;x
+b_selinais;Selinais;;;;;;;;;;;;x
+b_leuce;Leuce;;;;;;;;;;;;x
+b_farama;Pelusia;;;;;;;;;;;;x
+b_gizeh;Giza;;;;;;;;;;;;x
+b_buhairya;Bahariya;;;;;;;;;;;;x
+b_farafra;Farafra;;;;;;;;;;;;x
+b_wadi_hinnis;Wadi Hinnis;;;;;;;;;;;;x
+b_ain_della;Ain Della;;;;;;;;;;;;x
+b_white_desert;White Desert;;;;;;;;;;;;x
+b_ain_bishay;Ain Bishay;;;;;;;;;;;;x
+b_el_harrah;El Harrah;;;;;;;;;;;;x
+b_ain_et_tibniya;Ain et-Tibniya;;;;;;;;;;;;x
+b_salvius;Salvius;;;;;;;;;;;;x
+b_pius;Pius;;;;;;;;;;;;x
+b_bonda;Bonda;;;;;;;;;;;;x
+b_habsburg;Habsburg;;;;;;;;;;;;x
+b_alvalade;Alvalade;;;;;;;;;;;;x
+b_rodao;Rodao;;;;;;;;;;;;x
+b_idanha;Idanha;;;;;;;;;;;;x
+b_alcains;Alcains;;;;;;;;;;;;x
+b_penha;Penha;;;;;;;;;;;;x
+b_belver;Belver;;;;;;;;;;;;x
+b_alvor;Alvor;;;;;;;;;;;;x
+b_arrifana;Arrifana;;;;;;;;;;;;x
+b_ayamonte;Ayamonte;;;;;;;;;;;;x
+b_portichuelo;Portichuelo;;;;;;;;;;;;x
+b_sintra;Sintra;;;;;;;;;;;;x
+b_almada;Almada;;;;;;;;;;;;x
+b_palmela;Palmela;;;;;;;;;;;;x
+b_sesimbra;Sesimbra;;;;;;;;;;;;x
+b_alcochete;Alcochete;;;;;;;;;;;;x
+b_pegoes;Pegoes;;;;;;;;;;;;x
+b_montijo;Montijo;;;;;;;;;;;;x
+b_lamego;Lamego;;;;;;;;;;;;x
+b_lascrocinas;Las Crocinas;;;;;;;;;;;;x
+b_pilas;Pilas;;;;;;;;;;;;x
+b_ostilia;Ostilia;;;;;;;;;;;;x
+b_aroche;Aroche;;;;;;;;;;;;x
+BASILEUS_TITLE;Basileus;;;;;;;;;;;;x
+BASILEUS_TITLE_FEMALE;Basilissa;;;;;;;;;;;;x
+title_hypatos;Hypatos;;;;;;;;;;;;x
+title_augusta;Augusta;;;;;;;;;;;;x
+county_of_sardinian;Giudicato of;;;;;;;;;;;;x
+count_sardinian;Giudice;;;;;;;;;;;;x
+count_female_sardinian;Giudessa;;;;;;;;;;;;x
+DUCHY_HOLLAND;Holland;;;;;;;;;;;;x
+DUCHY_HOLLAND_ADJ;Hollander;;;;;;;;;;;;x
+COUNTY_HOLLAND;Holland;;;;;;;;;;;;x
+COUNTY_HOLLAND_ADJ;Hollander;;;;;;;;;;;;x
+COUNTY_WESTFRIESLAND;Westfriesland;;;;;;;;;;;;x
+COUNTY_WESTFRIESLAND_ADJ;Westfrieslander;;;;;;;;;;;;x
+COUNTY_GELRE;Gelre;;;;;;;;;;;;x
+COUNTY_GELRE_ADJ;Gelrian;;;;;;;;;;;;x
+DUCHY_GELRE;Gelre;;;;;;;;;;;;x
+DUCHY_GELRE_ADJ;Gelrian;;;;;;;;;;;;x
+COUNTY_BREDA;Breda;;;;;;;;;;;;x
+COUNTY_BREDA_ADJ;Bredian;;;;;;;;;;;;x
+EVTDESC7830;My co-conspirator, [From.GetTitledFirstName], has procured a venomous viper, and sends word that it will soon dig its fangs into [Root.PlotTarget.GetTitledFirstName].;;;;;;;;;;;;x
+IS_LOCAL_HUMAN_OBSERVER;The local player is an observer.;;;;;;;;;;;;x
+IS_NOT_LOCAL_HUMAN_OBSERVER;The local player is NOT an observer.;;;;;;;;;;;;x
+DESTROY_WONDER_EFFECT;The Great Work is destroyed.\n;;;;;;;;;;;;x
+OTTO_THE_FIRST_ERA;The Iron Century;;;;;;;;;;;;x
+OTTO_THE_FIRST_ERA_INFO;On the 7th of August 936, Otto I was crowned King of the Germans. He initiated his arduous campaign to crush his rivals and reconquer the lost territory in Italy to reform the Holy Roman Empire. The Magyars settled down in the Carpathian Basin and began to make their mark on the world as they conquered and pillaged their neighbors, becoming feared across Europe. In the north the Christians were trying to push into the Scandinavian Peninsula to start converting the pagan kings, but the Germanic faith still stood strong among the vikings. In Baghdad far to the south-east, the ancient Abbasid Caliphate that once ruled an empire stretching from Persia to Hispania finally fell to infighting, left only with the heartland of their former empire. And on the shores of Africa a new rival rose up in the form of the Fatimid Caliphate, ready to fill the vacant regions left behind by their adversary.;;;;;;;;;;;;x
+ARLES;Arles;;;;;;;;;;;;x
+ARLES_ADJ;Arletian;;;;;;;;;;;;x
+e_bulgaria;Bulgaria;;;;;;;;;;;;x
+e_bulgaria_adj;Bulgarian;;;;;;;;;;;;x
+k_liao;辽;;;;;;;;;;;;x
+k_liao_adj;契丹;;;;;;;;;;;;x
+d_qarmatian;The Qarmatian Caliphate;;;;;;;;;;;;x
+d_qarmatian_adj;Caliphal;;;;;;;;;;;;x
+d_guiyi;归义;;;;;;;;;;;;x
+d_guiyi_adj;归义;;;;;;;;;;;;x
+HAMALAND;Hamaland;;;;;;;;;;;;x
+HAMALAND_ADJ;Hamalander;;;;;;;;;;;;x
+TEISTERBANT;Teisterbant;;;;;;;;;;;;x
+TEISTERBANT_ADJ;Teisterbanter;;;;;;;;;;;;x
+KENNEMERLAND;Kennemerland;;;;;;;;;;;;x
+KENNEMERLAND_ADJ;Kennemerlander;;;;;;;;;;;;x
+WEST_FRISIA;West-Frisia;;;;;;;;;;;;x
+WEST_FRISIA_ADJ;West-Frisian;;;;;;;;;;;;x
+d_scholae_palatinae;Scholae Palatinae;;;;;;;;;;;;x
+domestic;Domestic;;;;;;;;;;;;x
+domestic_female;Domestic;;;;;;;;;;;;x
+domestic_byzantine;Domestikos;;;;;;;;;;;;x
+domestic_latin;Domesticus;;;;;;;;;;;;x
+domestic_FOA;Domestic;;;;;;;;;;;;x
+d_pechina;Pechina;;;;;;;;;;;;x
+d_pechina_adj;Pechinan;;;;;;;;;;;;x
+b_al_gassani;al-Gassani;;;;;;;;;;;;x
+b_ruayn;Ru'ayn;;;;;;;;;;;;x
+b_banu_sarray;Banu Sarray;;;;;;;;;;;;x
+b_aswadid;Aswadid;;;;;;;;;;;;x
+b_yeshayahu;Yeshayahu;;;;;;;;;;;;x
+e_cordoba;Cordoba;;;;;;;;;;;;x
+e_cordoba_adj;Cordoban;;;;;;;;;;;;x
+k_franconia_otto;Franconia;;;;;;;;;;;;x
+k_franconia_otto_adj;Franconian;;;;;;;;;;;;x
+k_thuringia_otto;Thuringia;;;;;;;;;;;;x
+k_thuringia_otto_adj;Thuringian;;;;;;;;;;;;x
+k_swabia_otto;Swabia;;;;;;;;;;;;x
+k_swabia_otto_adj;Swabian;;;;;;;;;;;;x
+title_hypatos_female;Hypatissa;;;;;;;;;;;;x
+title_hypatos_desc;Consul: Though only honorary now, it denotes the wearer as an important servant of the Empire.;;;;;;;;;;;;x
+title_patrikios;Patrikios;;;;;;;;;;;;x
+title_patrikios_female;Patrikia;;;;;;;;;;;;x
+title_patrikios_desc;Patrician: Recognizes the wearer as an elite member of Roman Society and is reserved for only the most influential servants of the Empire.;;;;;;;;;;;;x
+title_sebastos;Sebastos;;;;;;;;;;;;x
+title_sebastos_female;Sebaste;;;;;;;;;;;;x
+title_sebastos_desc;Venerable one: Only important members of the imperial family and those related to them by marriage or blood may bear this venerable title.;;;;;;;;;;;;x
+title_augusta_desc;Most Pious Augusta: Unlike the male counterpart the Augusta continues to be the most important woman of the empire. Wielding great power and authority, she is second only to the Basileus.;;;;;;;;;;;;x
+sardinian;Sardinian;;;;;;;;;;;;x
+emperor_bulgarian;沙皇;;;;;;;;;;;;x
+emperor_female_bulgarian;女沙皇;;;;;;;;;;;;x
+qarmatian;Qarmatian;;;;;;;;;;;;x
+qarmatian_DESC;The Qarmatians were a heterodox branch of Shi’a Islam that combined elements of Zoroastrianism. They rejected the mainstream succession of the Shi’ite rulers, and instead established a theocratic republic in eastern Arabia in the 10th Century. They are remembered for their brutal sacking of Mecca and rejection of the Hajj pilgrimage.;;;;;;;;;;;;x
+athelstan;Blood of [This.GetFirstNameWithNick];;;;;;;;;;;;x
+athelstan_desc;Famed and respected as the ruler who pushed the vikings out of the British Isles, and the first King of England.;;;;;;;;;;;;x
+rudolph;Blood of [This.GetFirstNameWithNick];;;;;;;;;;;;x
+rudolph_desc;Known for combining the two separate parts of Burgundy to form the new Kingdom of Arles.;;;;;;;;;;;;x
+fatimid;Blood of [This.GetFirstNameWithNick];;;;;;;;;;;;x
+fatimid_desc;During the tumultuous years of the Abbasid caliphate, the Fatimids rose up in Ifriqiya and established their own Caliphate under [This.GetFullName].;;;;;;;;;;;;x
+otto;Blood of [This.GetFirstNameWithNick];;;;;;;;;;;;x
+otto_desc;Conquered Italy, regained the old lands of the Holy Roman Empire and raised its banners once more.;;;;;;;;;;;;x
+jannabid;Blood of [This.GetFirstNameWithNick];;;;;;;;;;;;x
+jannabid_desc;He is famed for conquering Bahrein and establishing the Qarmatian Republic. They would go on to haunt their neighbors for many years to come.;;;;;;;;;;;;x
+mardavij;Blood of [This.GetFirstNameWithNick];;;;;;;;;;;;x
+mardavij_desc;He was the last Zoroastrian ruler who fought back against the Muslims in Persia, trying to reestablish the Sasanian Empire;;;;;;;;;;;;x
+bloodline_effect_princely_elective_boon;§YPrincely Elective§! §GBoon§!;;;;;;;;;;;;x
+bloodline_effect_shiite_leader;§Y[shiite.GetName] Leadership§!;;;;;;;;;;;;x
+bloodline_effect_qarmatian_leader;§Y[qarmatian.GetName] Leadership§!;;;;;;;;;;;;x
+shiite_opinion;[shiite.GetName] Opinion;;;;;;;;;;;;x
+qarmatian_opinion;[qarmatian.GetName] Opinion;;;;;;;;;;;;x
+vushmgir_brothers_legacy;Mardavij's Legacy;;;;;;;;;;;;x
+vushmgir_brothers_legacy_desc;My brother Mardavij tried to repel the Muslim faith and restore the Sasanian Empire in Persia. Though he failed, maybe it is time for me to pick up his legacy and reestablish the empire myself?;;;;;;;;;;;;x
+kievan_rus_local_traditions;Local Traditions;;;;;;;;;;;;x
+kievan_rus_local_traditions_desc;Though I am respected as the ruler of Kiev, I often have a certain distance to some of my courtiers and vassals. Maybe it is time for me to adopt their culture and faith?;;;;;;;;;;;;x
+empire_of_bulgaria_decision;Form the Empire of [e_bulgaria.GetName];;;;;;;;;;;;x
+empire_of_bulgaria_decision_desc;Our realm stretches far beyond the capabilities and strength of normal kingdoms. It is time for our realm to be known as the Empire of [e_bulgaria.GetName].;;;;;;;;;;;;x
+shiite_caliphate_cairo_decision;Establish Cairo;;;;;;;;;;;;x
+shiite_caliphate_cairo_decision_desc;It is time to establish a new capital for our Caliphate in the bountiful delta of Lower [k_egypt.GetName].;;;;;;;;;;;;x
+cairo_decision_TT;Make §Y[c_cairo.GetName]§! the new capital;;;;;;;;;;;;x
+establishing_habsburg;Establish Castle Habsburg;;;;;;;;;;;;x
+establishing_habsburg_desc;We know just the location where we could raise a new castle, in the province of [c_aargau.GetName]. It will be the pride of our family, and we will name ourselves after it and be known as the von Habsburg dynasty.;;;;;;;;;;;;x
+establishing_habsburg_family;§Y[Root.GetTitledName]§! and [Root.GetHerHis] close relatives will become members of the §Yvon Habsburg§! family.;;;;;;;;;;;;x
+nick_the_dane;the Dane;;;;;;;;;;;;x
+nick_longsword;Longsword;;;;;;;;;;;;x
+era_char_name_1282;奥托一世;;;;;;;;;;;;x
+ERA_CHAR_INFO_1282;Otto was crowned King of the Germans after the death of his father Henry I. Early in his reign he had to push back a rebellion by Duke Eberhard of Bavaria, as well as fight a war against Louis IV of West-Francia and Duke Gilbert of Lorraine. After securing peace in the war, Otto went on to fight for the Italian throne as well as push back the Hungarian threat in the east. In his later years, after his coronation as the Emperor of the Holy Roman Empire, he had to continue his struggles in Italy to keep his newfound empire under control. The Ottonian dynasty went on to control the empire for almost half a century after his death, until it finally ended with the demise of Henry II in 1024.;;;;;;;;;;;;x
+era_char_name_32901;Caliph al-Qaim;;;;;;;;;;;;x
+ERA_CHAR_INFO_32901;Al-Qaim followed his father, Caliph al-Mahdi, as he settled down in Ifriqiya and established the Fatimid Caliphate. In direct opposition to the Abbasid Caliphate in Baghdad, they filled the room left behind as the Abbasids had lost control of their peripheral regions. Early in al-Qaim's reign, a large rebellion rose up in the west led by Abu Yazid. For several years the Fatimid armies were pushed back, as the rebellion grew ever closer to their capital in Mahdia. After al-Qaim's death, his son and successor al-Mansur finally managed to beat the rebellion back and take control of their lands once again. The dynasty would later go on to invade Ikhshidid Egypt and establish Cairo as the new capital of their Caliphate.;;;;;;;;;;;;x
+era_char_name_33350;Æthelstan;;;;;;;;;;;;x
+ERA_CHAR_INFO_33350;As the son of Edward the Elder, he gained the Kingdom of Mercia after the death of his father, and Wessex after the death of his brother only weeks afterwards. Waging war against the Norsemen in York, Æthelstan pushed northwards and took the city in 927, becoming the first king of a truly united England. Ten years later, in 937, a coalition led by the Kings of Scotland, Strathclyde, and Dublin waged war against Æthelstan, which ended with the Battle of Brunanburh. With a decisive victory it seemed Æthelstan had finally secured his rule in England, but only two years later he died and was succeeded by his half-brother Edmund.;;;;;;;;;;;;x
+era_char_name_260976;Abu Tahir al-Jannabi;;;;;;;;;;;;x
+ERA_CHAR_INFO_260976;Abu'l-Qasim Sa'id started the Qarmatian faith centered around his capital in al-Bahrein when the Fatimid Caliphate rose in the west. After his father's demise, Abu Tahir continued as the new leader and became infamous throughout the Arabian Peninsula for his raids into Egyptian and Abbasid lands. In 930 he pillaged Mecca, murdered the many pilgrims who had travelled there and stole the Black Stone. After this sacrilege the Qarmatians became even more hated throughout the whole Muslim world, but that did not deter Abu Tahir as he continued the raids and assaults on his neighbours, until he finally died a decade later.;;;;;;;;;;;;x
+era_char_name_159135;Árpád Zolta;;;;;;;;;;;;x
+ERA_CHAR_INFO_159135;As the third grand prince of the Hungarians and the successor to the legendary Árpád, Zolta led their people for several decades in the early 10th century. Throughout this period the Hungarians were feared raiders who travelled across all of Europe, from Byzantium to Córdoba. After his death in the year 950, only a few years passed until Otto I beat back the Hungarian raiders in the Battle of Lechfeld, putting an end to their tyranny.;;;;;;;;;;;;x
+era_char_name_144001;Hakon I;;;;;;;;;;;;x
+ERA_CHAR_INFO_144001;Hakon was one of the many many sons of Harald Fairhair, legendary king of Norway. When his brother Eirik took control of Norway, not many years passed until his despotic rule made him unpopular to the point of rebellion. Hakon who had been raised by King Æthelstan of England was sent back home to Norway to take over the rule of the kingdom. As a christian in a very pagan country, he had a long and tenuous rule over the many norwegian tribes. Throughout his rule he was threatened by the Danish king who supported the claims of his grandsons, the sons of his half-brother Eirik. In the end Hakon fell as he repelled the Danes at the Battle of Fitjar, and was succeeded by his nephew Harald II Greycloak.;;;;;;;;;;;;x
+RETTYPE_CUL_SAR;[sardinian.GetName] Birrudo;;;;;;;;;;;;x
+ca_culture_sardinian_1;[sardinian.GetName] Garrison;;;;;;;;;;;;x
+ca_culture_sardinian_2;[sardinian.GetName] Garrison;;;;;;;;;;;;x
+ca_culture_sardinian_3;[sardinian.GetName] Garrison;;;;;;;;;;;;x
+ca_culture_sardinian_4;[sardinian.GetName] Garrison;;;;;;;;;;;;x
+tb_culture_sardinian_1;[sardinian.GetName] Garrison;;;;;;;;;;;;x
+tb_culture_sardinian_2;[sardinian.GetName] Garrison;;;;;;;;;;;;x
+tb_culture_sardinian_3;[sardinian.GetName] Garrison;;;;;;;;;;;;x
+tb_culture_sardinian_4;[sardinian.GetName] Garrison;;;;;;;;;;;;x
+ca_culture_sardinian_1_desc;These garrisons are commonplace in [sardinian.GetName] lands, with the most elite of troops ready to protect the region.;;;;;;;;;;;;x
+CB_NAME_THANKMARS_REBELLION;Thankmar's Rebellion;;;;;;;;;;;;x
+WAR_NAME_THANKMARS_REBELLION;Thankmar's Rebellion;;;;;;;;;;;;x
+THANKMARS_REBELLION_VICTORY_TT;§YThankmar§! will become the new king of the §YKingdom of Germany§!;;;;;;;;;;;;x
+RULE_OTTO_STORY;§BThe Iron Century:§! Story Events;;;;;;;;;;;;x
+RULE_OTTO_STORY_ON_DESC;The various story events surrounding 'The Iron Century' bookmark will be enabled.;;;;;;;;;;;;x
+RULE_OTTO_STORY_OFF_DESC;The various story events surrounding 'The Iron Century' bookmark will be disabled.;;;;;;;;;;;;x
+tooltip_feudal_elector_vote_bloodline;[From.GetSheHeCap] is the heir to a famous bloodline.;;;;;;;;;;;;x
+shiite_bloodline_TT;Has the bloodline of a §Y[shiite.GetName]§! leader.;;;;;;;;;;;;x
+qarmatian_bloodline_TT;Has the bloodline of a §Y[qarmatian.GetName]§! leader.;;;;;;;;;;;;x
+shia_creation_independent;Either independent or all lieges publicly follow the §Y[shiite.GetName]§! religion\n;;;;;;;;;;;;x
+sunni_creation_independent;Either independent or all lieges publicly follow the §Y[sunni.GetName]§! religion\n;;;;;;;;;;;;x
+not_shia_caliphate_revolt_ongoing;No ongoing revolt to create the §YShia Caliphate§!;;;;;;;;;;;;x
+empire_bulgaria_TT;Hold a King title besides §Y[k_bulgaria.GetName]§!;;;;;;;;;;;;x
+THANKMAR_REBELLION_01_TT;Thankmar is alive;;;;;;;;;;;;x
+THANKMAR_REBELLION_02_TT;Otto is alive;;;;;;;;;;;;x
+EVTTITLE_LT_40003;The Traitor in Lorraine;;;;;;;;;;;;x
+EVTDESC_LT_40003;The traitorous Duke Giselbert of Lorraine left our service after the death of our esteemed father King Henry. Now they have turned to the protection of the Karlings in West Francia, asking them for aid against us.\n\nNot only have they forsaken their ancient service to our rule, but our spies tells us Gilbert has been conspiring with traitorous lords of the realm. The insult is too much to bear at this point, and it is about time we took back what is rightfully ours.;;;;;;;;;;;;x
+EVTOPTA_LT_40003;Lorraine is not to be held by the Karlings nor their vassals.;;;;;;;;;;;;x
+EVTOPTB_LT_40003;We will honor our part of the pact.;;;;;;;;;;;;x
+EVTOPTA_LT_40004_TT;Giselbert and Lorraine will be left alone.;;;;;;;;;;;;x
+EVTTITLE_LT_40004;Attacking Germans;;;;;;;;;;;;x
+EVTDESC_LT_40004;Reports from our scouts in the east confirms our suspicions, Otto is preparing for an attack on our lands. Long has the king of the Germans sought for a justifiable reason to try and force Lorraine back under his sovereignty, but now it seems he has thrown caution to the wind.\n\nIt is time to gather our men and protect ourselves. Lorraine is ours, and we will make sure the Germans pay dearly for every step they take into it.;;;;;;;;;;;;x
+EVTOPTA_LT_40004;They will not pass into our lands unopposed.;;;;;;;;;;;;x
+EVTTITLE_LT_40005;A Rebellious Brother;;;;;;;;;;;;x
+EVTDESC_LT_40005;My younger brother Otto has been a thorn in my side from a young age, and it only escalated after he was made primary heir to our father Heinrich. He has repeatedly withheld titles that should be rightfully mine, and given them away to others instead.\n\nFrom my correspondence with the other lords of the realm, it is clear I am not the only one who feels slighted by my tyrannical sibling. Particularly the lords of Franconia and East Frisia are sure to join me, if I am to make a declaration of war upon Otto.;;;;;;;;;;;;x
+EVTOPTA_LT_40005;Time to take my rightful place as the heir of Heinrich.;;;;;;;;;;;;x
+EVTOPTB_LT_40005;I do not have the men or followers for such a war.;;;;;;;;;;;;x
+EVTTITLE_LT_40006;Thankmar's Rebellion;;;;;;;;;;;;x
+EVTDESC_LT_40006;The elder bastard of Heinrich, Thankmar, have declared war upon our liege, his younger brother Otto. It has been obvious to most that the man has felt slighted by his sibling for quite a while now, and it comes as no surprise when one of his messengers arrive in [Root.Capital.GetName].\n\nAfter a long and tiring speech, the messenger finally asks if we can bring word back to his lord that we will join the rebellion. Though we have never particularly cared for Otto either, it all seems a bit much. Though it is a good chance to lessen the authority of the Saxon Kings.;;;;;;;;;;;;x
+EVTOPTA_LT_40006;Yes, bring back word we will march upon Otto immediately.;;;;;;;;;;;;x
+EVTOPTB_LT_40006;No, we have no interest in your petty little war.;;;;;;;;;;;;x
+EVTTITLE_LT_40007;Thankmar's Rebellion;;;;;;;;;;;;x
+EVTDESC_LT_40007;It seems my beloved older brother Thankmar has raised an army to topple my rule over the Germans. Though a surprise to everyone at court, the man has always had an ambitious streak.\n\nAfter a couple of minutes to process all of it, I give the order to prepare our troops to fight our fellow Saxons. It is a tragedy that it has come to this, but it seems like there is no other choice.\n\nLet us just hope there will not be more lords flocking to his cause.;;;;;;;;;;;;x
+EVTOPTA_LT_40007;You too, Thankmar?;;;;;;;;;;;;x
+EVTTITLE_LT_40009;Thankmar's Victory;;;;;;;;;;;;x
+EVTDESC_LT_40009;After a long and tiresome war, our victory has finally been ensured, as Otto is brought to me in chains. He looks tired and saddened by all of it, but I will not let him spoil the celebrations.\n\nThe lords now look to me for guidance, as the new king of the Germans. Lately, however, I have felt like it might be time to put an end to the Saxon rule over foreign lands. Maybe it is time to return to time of old, before the Carolingians and Merohingians gathered all the Germans under one rule.;;;;;;;;;;;;x
+EVTOPTA_LT_40009;I will continue my father's legacy.;;;;;;;;;;;;x
+EVTOPTB_LT_40009;It is time to return to the old ways.;;;;;;;;;;;;x
+EVTOPTB_LT_40009_TT;The greater dukes of the realm will be granted independence, and the §YKingdom of Germany§! will be shattered into:\n* §YKingdom of Saxony§!\n* §YKingdom of Thuringia§!\n* §YKingdom of Franconia§!\n* §YKingdom of Swabia§!\n\nThe §YHoly Roman Empire§! will be turned into a defunct title which can no longer be obtained.;;;;;;;;;;;;x
+EVTTITLE_LT_40010;A Return to the Old Ways;;;;;;;;;;;;x
+EVTDESC_LT_40010;After crushing the armies of his brother Otto, King Thankmar of the Germans has declared that the tribes of old will once more be ruled by their own. No longer will a Saxon King rule over foreign people.\n\nUnmaking the centuries of authority built up by the Carolingians, Merohingians and even those of his own family, he has simply let go off the old bonds binding the dukes of the southern lands to himself.\n\nFranconia, Swabia, Thuringia and Bavaria now look to their own lords to rule them in these uncertain times. It is said the legacy of Charlemagne has been buried for good.;;;;;;;;;;;;x
+EVTOPTA_LT_40010;Interesting...;;;;;;;;;;;;x
+EVTTITLE_LT_40011;Otto's Victory;;;;;;;;;;;;x
+EVTDESC_LT_40011;I look at Thankmar, as he is brought to me in chains. My once great older brother looks haggard and tired as he stands in front of me. I finally ask the guards to take him away, for now.\n\nNo celebrations will be had, as this has been nothing but a tragedy for all of us. Though it was an appalling end, it was most likely the only conclusion we could have to this conflict.\n\nWith the problematic lords of the realm quelled, it is time to look towards the future.;;;;;;;;;;;;x
+EVTOPTA_LT_40011;There is still a lot to be done.;;;;;;;;;;;;x
+EVTTITLE_LT_40012;The Kingdom of Italy;;;;;;;;;;;;x
+EVTDESC_LT_40012;Under the horrendous leadership of [italian_king.GetTitledFirstName], Italy has become a shadow of what it once was. The great legacy of the Romans and their descendants have been shattered by the civil wars and the chaos of the last decades.\n\nNow many of the minor Italian lords under his leadership have sent us emissaries asking for aid. They supposedly miss the days when they were under our distant rule. If we want to raise the banners of Charlemagne once more, the Kingdom of Italy will be essential in securing our recognition as true descendants of his empire.;;;;;;;;;;;;x
+EVTOPTA_LT_40012;Prepare our men, Italy will be secured for the good of all.;;;;;;;;;;;;x
+EVTOPTB_LT_40012;We have no interest in this region, leave them to their petty infighting.;;;;;;;;;;;;x
+EVTTITLE_LT_40013;Invasion of Otto;;;;;;;;;;;;x
+EVTDESC_LT_40013;The King of the Germans to our north, Otto, have declared war upon us. He loudly claim it is for the best of the Italian people, and pretends that he is liberating Italy from the rule of [italian_king.GetTitledName].\n\nThe Germans are preparing to pass through the Alps, and put an end to the chaos that has embroiled Italy once and for all. Who will stand against them and treat them like invaders, and who will embrace them like old neighbors and friends?;;;;;;;;;;;;x
+EVTOPTA_LT_40013;Let them come!;;;;;;;;;;;;x
+EVTOPTB_LT_40013;Interesting...;;;;;;;;;;;;x
+EVTTITLE_LT_40014;A Holy Roman Empire;;;;;;;;;;;;x
+EVTDESC_LT_40014;As the King of the Germans and with the Kingdom of Italy in our hands, few dispute our potential claim to Charlemagne's fame and empire. All that is missing, is our official proclamation of such a thing. Our advisors and friends are looking for us to give the word. Our chamberlain has hinted that he is ready to prepare a coronation any day now.\n\nIs it time to truly grasp our long-awaited fate? Will we raise the banners of Charlemagne once more, and declare ourselves the Emperor of the Holy Roman Empire?;;;;;;;;;;;;x
+EVTOPTA_LT_40014;Charlemagne's legacy is ours.;;;;;;;;;;;;x
+EVTOPTB_LT_40014;We are not quite ready yet.;;;;;;;;;;;;x
+EVTTITLE_LT_40015;Coronation of Otto the Great;;;;;;;;;;;;x
+EVTDESC_LT_40015;In a beautiful ceremony in [From.Capital.GetName], Otto has invited friends, allies and enemies from near and far to take part as he is crowned the Emperor of the West. After quelling the lords who tried to oppose him early in his rule, and taking back the lands of his father piece by piece, few are left to oppose the king at this point.\n\nWith the banners of Charlemagne raised once more, and the authority of the long-lost empire at his back, Otto has done what nobody expected of him when he started his tumultuous rule. Now what is he planning to do next?;;;;;;;;;;;;x
+EVTOPTA_LT_40015;It is time.;;;;;;;;;;;;x
+EVTOPTB_LT_40015;He must have been blessed.;;;;;;;;;;;;x
+EVTTITLE_LT_40016;Egypt Calls for Aid;;;;;;;;;;;;x
+EVTDESC_LT_40016;The Shias under the rule of [sultan_egypt.GetTitledName] have long suffered from being treated different to their Sunni neighbors, and lately it has gotten even worse. Stories of families being run out of or murdered in their homes have been told back to us, and now they are looking for someone to help them out.\n\nSeveral messengers, traders and merchants have come to [Root.Capital.GetName] to seek our aid, begging us to intervene. Egypt has long been an area that we have wished to influence, and this could be an opportunity to do just that.;;;;;;;;;;;;x
+EVTOPTA_LT_40016;And [Root.PrimaryTitle.GetName] will answer!;;;;;;;;;;;;x
+EVTOPTB_LT_40016;Sadly, we do not have the resources to help them.;;;;;;;;;;;;x
+EVTDESC_LT_41000;The name 'West-Frisia' is a relic of times past, when the Frisians had presence in these lands. With them driven out and replaced by mighty Dutch, people have begun calling our realm 'Holland' instead, after the forested lands that form the center of the duchy. Perhaps it is time for us to embrace the change and use the new name in our records?;;;;;;;;;;;;x
+EVTOPTA_LT_41000;Yes, progress is progress!;;;;;;;;;;;;x
+EVTOPTB_LT_41000;No, we must honor our legacy.;;;;;;;;;;;;x
+EVTTITLE_LT_41001;A Land Renamed;;;;;;;;;;;;x
+EVTDESC_LT_41001;The lands north of the Rhine delta were once ruled by a mighty Frisian kingdom, but with their presence a distant memory, 'Holland' has become the accepted term for their duchy. [From.GetBestName] has encouraged the transition, and will be using it in [From.GetHerHis] official records from this moment forward.;;;;;;;;;;;;x
+EVTOPTA_LT_41001;How we have fallen...;;;;;;;;;;;;x
+EVTOPTB_LT_41001;A newer, mightier culture rules Holland now!;;;;;;;;;;;;x
+EVTOPTC_LT_41001;Good for them!;;;;;;;;;;;;x
+EVTOPTD_LT_41001;A weed by any other name...;;;;;;;;;;;;x
+EVTDESC_LT_41002;After the failed revolt of [From.GetBestName] has finally been put down, [geldern_holder.GetTitledName] has brought forward a petition to your court to be installed as the ruler of Hamaland in the traitor's stead. [geldern_holder.GetSheHeCap], a claimant to Hamaland, seems a skilled and trustworthy fellow, and would no doubt be an asset to the realm.;;;;;;;;;;;;x
+EVTOPTA_LT_41002;Welcome to my court, [geldern_holder.GetFirstName]!;;;;;;;;;;;;x
+EVTOPTB_LT_41002;For that low baron? I think not.;;;;;;;;;;;;x
+EVTDESC_LT_41003;After the failed rebellion of [FromFrom.GetBestName], a baron from Geldern has won the favor of [From.GetBestName], and [geldern_holder.GetSheHe] has been elevated to higher nobility. [geldern_holder.GetSheHeCap] now rules in the land formerly known as Chamavia.;;;;;;;;;;;;x
+EVTOPTA_LT_41003;[FromFrom.GetTitledFirstName] brought this upon [FromFrom.GetHerselfHimself].;;;;;;;;;;;;x
+EVTOPTB_LT_41003;How short-sighted of [From.GetTitledFirstName].;;;;;;;;;;;;x
+EVTOPTC_LT_41003;That traitor! Those are my lands!;;;;;;;;;;;;x
+DUCHY_CHAMAVIA;Chamavia;;;;;;;;;;;;x
+DUCHY_CHAMAVIA_ADJ;Chamavian;;;;;;;;;;;;x
+EVTDESC_LT_41004;A representative of the newly expanded city of Breda is making demands of you. They want their status as the main population center of the county of Toxandria to be recognized. The Toxandri were a tribe as mighty as any other, but the people have been extinct for centuries. Perhaps it is time to do away with this relic of a name, and honor Breda instead?;;;;;;;;;;;;x
+EVTOPTA_LT_41004;If it will appease the city, it could bring diplomatic benefits.;;;;;;;;;;;;x
+EVTOPTB_LT_41004;No, we must honor our legacy.;;;;;;;;;;;;x
+EVTDESC_LT_41005;[From.GetBestName] has elected to refer to [From.GetHerHis] county of Toxandria by the name of its most populous city, Breda, from this moment onwards. The burghers are much pleased by the recognition and have held a feast in the honor of [From.GetTitledFirstName].;;;;;;;;;;;;x
+EVTOPTA_LT_41005;Good for them!;;;;;;;;;;;;x
+EVTOPTB_LT_41005;A weed by any other name...;;;;;;;;;;;;x
+burghers_appeased;Burghers Appeased;;;;;;;;;;;;x
+burghers_appeased_desc;This ruler respects the third estate, and has won their favor.;;;;;;;;;;;;x
+TOXANDRIA;Toxandria;;;;;;;;;;;;x
+TOXANDRIA_ADJ;Toxandrian;;;;;;;;;;;;x
+EVTDESC_LT_41006;A representative of the newly expanded city of Kleve is making demands of you. They want their status as the main population center of the county of Hattuaria to be recognized. The Chattuarii were a tribe as mighty as any other, but the people have been extinct for centuries. Perhaps it is time to do away with this relic of a name, and honor Kleve instead?;;;;;;;;;;;;x
+EVTOPTA_LT_41006;If it will appease the city, it could bring diplomatic benefits.;;;;;;;;;;;;x
+EVTOPTB_LT_41006;No, we must honor our legacy.;;;;;;;;;;;;x
+EVTDESC_LT_41007;[From.GetBestName] has elected to refer to [From.GetHerHis] county of Hattuaria by the name of its most populous city, Kleve, from this moment onwards. The burghers are much pleased by the recognition and have held a feast in the honor of [From.GetTitledFirstName].;;;;;;;;;;;;x
+EVTOPTA_LT_41007;Good for them!;;;;;;;;;;;;x
+EVTOPTB_LT_41007;A weed by any other name...;;;;;;;;;;;;x
+HATTUARIA;Hattuaria;;;;;;;;;;;;x
+HATTUARIA_ADJ;Hattuarian;;;;;;;;;;;;x
+d_faiyum;Faiyum;;;;;;;;;;;;x
+d_asyut;Asyut;;;;;;;;;;;;x
+d_paraetonium;Paraetonium;;;;;;;;;;;;x
+d_balata;Lisboa;;;;;;;;;;;;x
+d_faiyum_adj;Faiyan;;;;;;;;;;;;x
+d_asyut_adj;Asyutian;;;;;;;;;;;;x
+d_paraetonium_adj;Paratoini;;;;;;;;;;;;x
+d_balata_adj;Lisboa;;;;;;;;;;;;x
+c_faiyum_adj;Faiyan;;;;;;;;;;;;x
+c_akhmim_adj;Ikhmian;;;;;;;;;;;;x
+c_esna_adj;Esnian;;;;;;;;;;;;x
+c_paraetonium_adj;Paraetoni;;;;;;;;;;;;x
+c_kharibta_adj;Kharibti;;;;;;;;;;;;x
+c_kolzum_adj;Kolzumer;;;;;;;;;;;;x
+c_sarqihya_adj;Bilbayen;;;;;;;;;;;;x
+c_gabiyaha_adj;Rasheedi;;;;;;;;;;;;x
+c_manupura_adj;Malhallan;;;;;;;;;;;;x
+c_pelusia_adj;Tinnian;;;;;;;;;;;;x
+c_al_alamayn_adj;Zygran;;;;;;;;;;;;x
+c_farama_adj;Pelusian;;;;;;;;;;;;x
+c_bahariya_adj;Bahariyan;;;;;;;;;;;;x
+c_castelo_branco_adj;Guardan;;;;;;;;;;;;x
+c_almada_adj;Almadan;;;;;;;;;;;;x
+tribal_king_hungarian;Grand Prince;;;;;;;;;;;;x
+tribal_kingdom_of_hungarian;Principality of;;;;;;;;;;;;x
+tribal_king_female_hungarian;Grand Princess;;;;;;;;;;;;x
