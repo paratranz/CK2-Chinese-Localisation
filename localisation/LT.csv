@@ -1565,7 +1565,7 @@ String_cask;桶;;;;;;;;;;;;x
 String_barrel;木桶;;;;;;;;;;;;x
 opinion_was_ordered_to_leave_crowded_court;被从人数过多的宫廷中「请」走;;;;;;;;;;;;x
 is_regent_commander_or_physician_tt;是一名§Y摄政§!，§Y指定摄政§!，§Y指挥官§!，或§Y宫廷医师§!;;;;;;;;;;;;x
-is_spouse_consort_or_of_your_dynasty;是你的爱人, 近亲, 或者配偶;;;;;;;;;;;;x
+is_spouse_consort_or_of_your_dynasty;是你的配偶, 近亲, 或者妾侍/庶夫;;;;;;;;;;;;x
 is_a_child_tt;是儿童;;;;;;;;;;;;x
 is_character_in_important_chain_of_events_tt;是一个正在进行的事件链中的重要角色;;;;;;;;;;;;x
 is_inaccessible_tt;正在藏匿、外出旅行，或在其他重要事务中脱不开身\n;;;;;;;;;;;;x
@@ -1677,14 +1677,14 @@ EVTOPTC_LT_10103;我只是喜欢和大家在一起，亲爱的[upbeat_courtier.G
 EVTOPTC_LT_10103_cruel;更多的人意味着消耗更多的资源……这些都是我们可能需要的东西。;;;;;;;;;;;;x
 EVTOPTD_LT_10103_A;敬你们一杯，我的好[upbeat_courtier.GetManWoman]！你们对我都很重要。;;;;;;;;;;;;x
 EVTOPTD_LT_10103_B;哦，[upbeat_courtier.GetRootRelation]。你们对我都很重要，就是这样。;;;;;;;;;;;;x
-generous_host;慷慨的主人;;;;;;;;;;;;x
-generous_host_desc;该角色以[Root.GetHerHis]热情好客闻名于世;;;;;;;;;;;;x
-calculating_host;精明的主人;;;;;;;;;;;;x
+generous_host;慷慨的东道主;;;;;;;;;;;;x
+generous_host_desc;该角色以[Root.GetHerHis]热情好客闻名于世。;;;;;;;;;;;;x
+calculating_host;精明的东道主;;;;;;;;;;;;x
 calculating_host_desc;该角色因鼓舞了[Root.GetHerHis]廷臣的忠诚闻名于世。;;;;;;;;;;;;x
-ruthless_host;无情的主人;;;;;;;;;;;;x
+ruthless_host;无情的东道主;;;;;;;;;;;;x
 ruthless_host_desc;该角色以[Root.GetHerHis]对人力资源的务实态度闻名于世。;;;;;;;;;;;;x
-naive_host;值得信赖的主人;;;;;;;;;;;;x
-naive_host_desc;该角色被认为是国内最受欢迎的主人。;;;;;;;;;;;;x
+naive_host;轻信他人的东道主;;;;;;;;;;;;x
+naive_host_desc;该角色被认为是国内最好客的东道主。;;;;;;;;;;;;x
 charitable_opinion;慷慨好感;;;;;;;;;;;;x
 RULE_COURT_LIMIT;宫廷规模限制;;;;;;;;;;;;x
 RULE_COURT_LIMIT_ON;每个宫廷的廷臣数量将受到限制。;;;;;;;;;;;;x
@@ -1693,9 +1693,9 @@ tooltip_gain_baptized_by_patriach;获得「§Y由牧首施洗§!」特质;;;;;;;
 EVTNAME_RIP_21099;路的尽头;;;;;;;;;;;;x
 EVTDSC_RIP_21099_YOU_MURDERED;在不依赖[eternal_life_mystic.GetBestName]的帮助之下，我尝试在她为我指引的永生之路上艰难前行，但缺乏她的引导使我进退维谷。我无能为力，唯有哑然失笑，在我亲手造成的死亡之下，永恒之道也已断绝——何其讽刺！;;;;;;;;;;;;x
 EVTDSC_RIP_21099_OTHER_DEATH;好像命运给我开了一残忍的玩笑，我的永生向导[eternal_life_mystic.GetBestName]已经去世了。我尝试着独自走在她为我指引的路上，然而离开了她的帮助我仅能在黑暗中摸索前行………永恒之道是否已经永远对我关上大门？;;;;;;;;;;;;x
-EVTOPTA_RIP_21099;快想想我从前学到的东西！;;;;;;;;;;;;x
+EVTOPTA_RIP_21099;用想象补全我本来要学到的东西！;;;;;;;;;;;;x
 PIETY_EFFECT_CHARACTER;§Y$WHO$§!$DIRECTION$$VALUE$$PIETYNAME$。\n;;;;;;;;;;;;x
-LARGE_COURT_PRESTIGE_GAIN;宫廷扩大（$AMOUNT|Y$）：+§G$VALUE$§!人;;;;;;;;;;;;x
+LARGE_COURT_PRESTIGE_GAIN;大宫廷（$AMOUNT|Y$）：+§G$VALUE$§!;;;;;;;;;;;;x
 COUNTY_KLEVE;克莱沃;;;;;;;;;;;;x
 COUNTY_KLEVE_ADJ;克莱沃;;;;;;;;;;;;x
 PROV525;奥拉瓦;;;;;;;;;;;;x
@@ -1958,7 +1958,7 @@ sunni_creation_independent;Either independent or all lieges publicly follow the 
 not_shia_caliphate_revolt_ongoing;没有爆发拥立§Y什叶派哈里发§!的叛乱;;;;;;;;;;;;x
 empire_bulgaria_TT;持有一个王国头衔，且此头衔并非§Y[k_bulgaria.GetName]§!;;;;;;;;;;;;x
 THANKMAR_REBELLION_01_TT;Thankmar is alive;;;;;;;;;;;;x
-THANKMAR_REBELLION_02_TT;Otto is alive;;;;;;;;;;;;x
+THANKMAR_REBELLION_02_TT;奥托仍然在世;;;;;;;;;;;;x
 EVTTITLE_LT_40003;洛林的叛徒;;;;;;;;;;;;x
 EVTDESC_LT_40003;The traitorous Duke Giselbert of Lorraine left our service after the death of our esteemed father King Henry. Now they have turned to the protection of the Karlings in West Francia, asking them for aid against us.\n\nNot only have they forsaken their ancient service to our rule, but our spies tells us Gilbert has been conspiring with traitorous lords of the realm. The insult is too much to bear at this point, and it is about time we took back what is rightfully ours.;;;;;;;;;;;;x
 EVTOPTA_LT_40003;Lorraine is not to be held by the Karlings nor their vassals.;;;;;;;;;;;;x
@@ -2023,23 +2023,23 @@ EVTOPTA_LT_41002;欢迎来到我的宫廷，[geldern_holder.GetFirstName]！;;;;
 EVTOPTB_LT_41002;为那个小小的男爵？我不那么想。;;;;;;;;;;;;x
 EVTDESC_LT_41003;After the failed rebellion of [FromFrom.GetBestName], a baron from Geldern has won the favor of [From.GetBestName], and [geldern_holder.GetSheHe] has been elevated to higher nobility. [geldern_holder.GetSheHeCap] now rules in the land formerly known as Chamavia.;;;;;;;;;;;;x
 EVTOPTA_LT_41003;[FromFrom.GetTitledFirstName] brought this upon [FromFrom.GetHerselfHimself].;;;;;;;;;;;;x
-EVTOPTB_LT_41003;How short-sighted of [From.GetTitledFirstName].;;;;;;;;;;;;x
+EVTOPTB_LT_41003;何其短视的[From.GetTitledFirstName]啊。;;;;;;;;;;;;x
 EVTOPTC_LT_41003;那个叛徒！那是我的领地！;;;;;;;;;;;;x
 DUCHY_CHAMAVIA;Chamavia;;;;;;;;;;;;x
 DUCHY_CHAMAVIA_ADJ;Chamavian;;;;;;;;;;;;x
-EVTDESC_LT_41004;A representative of the newly expanded city of Breda is making demands of you. They want their status as the main population center of the county of Toxandria to be recognized. The Toxandri were a tribe as mighty as any other, but the people have been extinct for centuries. Perhaps it is time to do away with this relic of a name, and honor Breda instead?;;;;;;;;;;;;x
-EVTOPTA_LT_41004;If it will appease the city, it could bring diplomatic benefits.;;;;;;;;;;;;x
-EVTOPTB_LT_41004;No, we must honor our legacy.;;;;;;;;;;;;x
+EVTDESC_LT_41004;新建的布雷达市的一名代表向你提出了请求。他们希望自己作为托山德里亚郡的人流中心地位得到承认。托山德里亚作为一个部落曾经与其他部落一样强大，但他们早已经灭亡数个世纪了。也许是时候抛弃这个陈旧的名字，转而采用「布雷达」的新称呼了？;;;;;;;;;;;;x
+EVTOPTA_LT_41004;如果这能安抚这个城市，那也能带来外交上的好处。;;;;;;;;;;;;x
+EVTOPTB_LT_41004;不，我们必须尊重我们先人的遗产。;;;;;;;;;;;;x
 EVTDESC_LT_41005;[From.GetBestName] has elected to refer to [From.GetHerHis] county of Toxandria by the name of its most populous city, Breda, from this moment onwards. The burghers are much pleased by the recognition and have held a feast in the honor of [From.GetTitledFirstName].;;;;;;;;;;;;x
 EVTOPTA_LT_41005;祝他们好运！;;;;;;;;;;;;x
 EVTOPTB_LT_41005;不管叫什么，都不过是些杂草······;;;;;;;;;;;;x
-burghers_appeased;Burghers Appeased;;;;;;;;;;;;x
-burghers_appeased_desc;This ruler respects the third estate, and has won their favor.;;;;;;;;;;;;x
+burghers_appeased;市民被安抚了;;;;;;;;;;;;x
+burghers_appeased_desc;统治者尊重第三阶层，并赢取了他们的好感。;;;;;;;;;;;;x
 TOXANDRIA;Toxandria;;;;;;;;;;;;x
 TOXANDRIA_ADJ;Toxandrian;;;;;;;;;;;;x
 EVTDESC_LT_41006;A representative of the newly expanded city of Kleve is making demands of you. They want their status as the main population center of the county of Hattuaria to be recognized. The Chattuarii were a tribe as mighty as any other, but the people have been extinct for centuries. Perhaps it is time to do away with this relic of a name, and honor Kleve instead?;;;;;;;;;;;;x
-EVTOPTA_LT_41006;If it will appease the city, it could bring diplomatic benefits.;;;;;;;;;;;;x
-EVTOPTB_LT_41006;No, we must honor our legacy.;;;;;;;;;;;;x
+EVTOPTA_LT_41006;如果这能安抚这个城市，那也能带来外交上的好处。;;;;;;;;;;;;x
+EVTOPTB_LT_41006;不，我们必须尊重我们先人的遗产。;;;;;;;;;;;;x
 EVTDESC_LT_41007;[From.GetBestName] has elected to refer to [From.GetHerHis] county of Hattuaria by the name of its most populous city, Kleve, from this moment onwards. The burghers are much pleased by the recognition and have held a feast in the honor of [From.GetTitledFirstName].;;;;;;;;;;;;x
 EVTOPTA_LT_41007;祝他们好运！;;;;;;;;;;;;x
 EVTOPTB_LT_41007;不管叫什么，都不过是些杂草······;;;;;;;;;;;;x
