@@ -807,6 +807,7 @@ muslim = {
     intermarry = shiite
     intermarry = druze
     intermarry = hurufi
+    intermarry = qarmatian
   }
   zikri = {
     graphical_culture = muslimgfx
@@ -840,6 +841,7 @@ muslim = {
     intermarry = shiite
     intermarry = druze
     intermarry = hurufi
+    intermarry = qarmatian
   }
   yazidi = {
     graphical_culture = muslimgfx
@@ -885,6 +887,7 @@ muslim = {
     intermarry = shiite
     intermarry = druze
     intermarry = hurufi
+    intermarry = qarmatian
   }
   ibadi = {
     graphical_culture = muslimgfx
@@ -923,6 +926,7 @@ muslim = {
     intermarry = shiite
     intermarry = druze
     intermarry = hurufi
+    intermarry = qarmatian
   }
   kharijite = {
     graphical_culture = muslimgfx
@@ -957,6 +961,7 @@ muslim = {
     intermarry = shiite
     intermarry = druze
     intermarry = hurufi
+    intermarry = qarmatian
   }
   shiite = {
     graphical_culture = muslimgfx
@@ -995,6 +1000,7 @@ muslim = {
     intermarry = kharijite
     intermarry = druze
     intermarry = hurufi
+    intermarry = qarmatian
   }
   druze = {
     graphical_culture = muslimgfx
@@ -1029,6 +1035,7 @@ muslim = {
     intermarry = kharijite
     intermarry = shiite
     intermarry = hurufi
+    intermarry = qarmatian
   }
   hurufi = {
     graphical_culture = muslimgfx
@@ -1063,6 +1070,41 @@ muslim = {
     intermarry = kharijite
     intermarry = shiite
     intermarry = druze
+    intermarry = qarmatian
+  }
+  qarmatian = {
+    graphical_culture = muslimgfx
+    alternate_start = {
+      has_alternate_start_parameter = {
+        key = religion
+        value = full_random
+      }
+    }
+    icon = 4
+    heresy_icon = 9
+    color = {
+      0.2
+      0.7
+      0.1
+    }
+    parent = shiite
+    crusade_name = JIHAD
+    priests_can_marry = yes
+    psc_marriage = no
+    can_call_crusade = yes
+    max_wives = 4
+    matrilineal_marriages = no
+    allow_looting = yes
+    landed_kin_prestige_bonus = no
+    attacking_same_religion_piety_loss = yes
+    uses_decadence = yes
+    uses_jizya_tax = no
+    peace_prestige_loss = yes
+    raised_vassal_opinion_loss = no
+    intermarry = zoroastrian_group
+    intermarry = shiite
+    intermarry = druze
+    intermarry = hurufi
   }
 }
 pagan_group = {
@@ -1471,6 +1513,7 @@ pagan_group = {
     intermarry = norse_pagan
     intermarry = slavic_pagan
     intermarry = baltic_pagan_reformed
+    intermarry = finnish_pagan
   }
   finnish_pagan_reformed = {
     graphical_culture = pagangfx
@@ -1516,6 +1559,7 @@ pagan_group = {
     religious_clothing_head = 14
     religious_clothing_priest = 3
     allow_in_ruler_designer = no
+    intermarry = finnish_pagan
   }
   finnish_pagan = {
     graphical_culture = pagangfx
@@ -1585,6 +1629,10 @@ pagan_group = {
     religious_clothing_priest = 3
     dislike_tribal_organization = yes
     can_demand_religious_conversion = no
+    intermarry = norse_pagan
+    intermarry = slavic_pagan
+    intermarry = baltic_pagan
+    intermarry = finnish_pagan_reformed
   }
   aztec_reformed = {
     graphical_culture = mesoamericangfx
@@ -1785,6 +1833,7 @@ pagan_group = {
     can_demand_religious_conversion = no
     intermarry = baltic_pagan
     intermarry = norse_pagan
+    intermarry = finnish_pagan
   }
   west_african_pagan_reformed = {
     graphical_culture = africangfx
@@ -2021,6 +2070,7 @@ pagan_group = {
       GOD_BACCHUS
       GOD_PLUTO
       GOD_MERCURY
+      GOD_TYPHON
     }
     crusade_name = GREAT_HOLY_WAR
     scripture_name = THE_LEGENDS
@@ -2073,6 +2123,7 @@ pagan_group = {
       GOD_BACCHUS
       GOD_PLUTO
       GOD_MERCURY
+      GOD_TYPHON
     }
     crusade_name = GREAT_HOLY_WAR
     scripture_name = THE_LEGENDS
