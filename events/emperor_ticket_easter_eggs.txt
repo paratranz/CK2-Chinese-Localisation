@@ -1,0 +1,1065 @@
+character_event = {
+  id = 1337
+  is_triggered_only = yes
+  hide_window = yes
+  ai = no
+  only_playable = yes
+  trigger = {
+    is_multiplayer_host_character = yes
+    is_alternate_start = no
+    is_save_game = no
+  }
+  immediate = {
+    if = {
+      limit = {
+        start_date = 1081.4.1
+      }
+      c_munster = {
+        holder_scope = {
+          create_character = {
+            name = "施巴士坦"  # Sebastian
+            dynasty = 906
+            dna = cclddvhebcc
+            properties = ac0ab0000000000000
+            religion = waldensian
+            culture = german
+            age = 43
+            random_traits = no
+            trait = charismatic_negotiator
+            trait = genius
+            trait = stubborn
+            trait = just
+            trait = stressed
+          }
+        }
+      }
+      c_saray = {
+        holder_scope = {
+          create_character = {
+            name = "Hen Shay"
+            dynasty = 907
+            dna = bgfgcobccay
+            properties = hkrbed0b0000000000
+            religion = jewish
+            culture = ashkenazi
+            age = 18
+            random_traits = no
+            trait = skilled_tactician
+            trait = strong
+            trait = duelist
+            trait = brave
+            trait = cynical
+            trait = gluttonous
+            trait = cruel
+            trait = stubborn
+            trait = wounded
+          }
+        }
+      }
+      c_koln = {
+        holder_scope = {
+          create_character = {
+            name = "斯温"  # Sven
+            dynasty = 909
+            dna = bgbjcqgckcu
+            properties = el0af0000000000000
+            religion = orthodox
+            culture = german
+            age = 33
+            random_traits = no
+            trait = amateurish_plotter
+            trait = scholar
+            trait = lustful
+            trait = temperate
+          }
+        }
+      }
+      c_braunschweig = {
+        holder_scope = {
+          create_character = {
+            name = "尼尔斯"  # Nils
+            dynasty = 910
+            dna = aaddiujabem
+            properties = eg0d0d000000000000
+            religion = norse_pagan
+            culture = old_saxon
+            age = 30
+            random_traits = no
+            trait = scholarly_theologian
+            trait = homosexual
+            trait = quick
+            trait = dwarf
+            trait = hedonist
+            trait = administrator
+            trait = gluttonous
+            trait = slothful
+            trait = gregarious
+            trait = honest
+            trait = cynical
+            trait = just
+            trait = lunatic
+          }
+        }
+      }
+      c_jaffa = {
+        holder_scope = {
+          create_character = {
+            name = "Hallel"
+            dynasty = 912
+            dna = daigadbbdag
+            properties = cj0jgj000000000000
+            religion = jewish
+            culture = ashkenazi
+            age = 20
+            random_traits = no
+            trait = skilled_tactician
+            trait = kinslayer
+            trait = genius
+            trait = poet
+            trait = scholar
+            trait = gluttonous
+            trait = diligent
+            trait = proud
+            trait = cynical
+            trait = erudite
+          }
+        }
+      }
+      c_poznanskie = {
+        holder_scope = {
+          create_character = {
+            name = "雅各布"  # Jakub
+            dynasty = 914
+            dna = akafiaajfba
+            properties = ee0dhd000000000000
+            religion = catholic
+            culture = polish
+            age = 16
+            random_traits = no
+            trait = naive_appeaser
+            trait = quick
+            trait = strategist
+            trait = lustful
+            trait = gluttonous
+            trait = kind
+            trait = shy
+            trait = trusting
+            trait = cynical
+            trait = stressed
+          }
+        }
+      }
+      c_sjaelland = {
+        holder_scope = {
+          create_character = {
+            name = "纳坦"  # Nathan
+            dynasty = 915
+            dna = begddqaegcv
+            properties = ca0djd0a0000000000
+            religion = catholic
+            culture = irish
+            age = 20
+            random_traits = no
+            trait = skilled_tactician
+            trait = strong
+            trait = robust
+            trait = gluttonous
+            trait = brave
+            trait = cynical
+            trait = shy
+            trait = arbitrary
+            trait = wounded
+          }
+          new_character = {
+            culture = danish
+          }
+        }
+      }
+      c_koln = {
+        holder_scope = {
+          create_character = {
+            name = "亚塞尔"  # Axel
+            dynasty = 916
+            dna = cgbdaricedh
+            properties = cm0d0d0c0000000000
+            religion = catholic
+            culture = german
+            age = 20
+            random_traits = no
+            trait = midas_touched
+            trait = homosexual
+            trait = shrewd
+            trait = scarred
+            trait = kinslayer
+            trait = quick
+            trait = cynical
+            trait = ambitious
+            trait = greedy
+          }
+        }
+      }
+      c_julich = {
+        holder_scope = {
+          create_character = {
+            name = "施巴士坦"  # Sebastian
+            dynasty = 917
+            dna = cmidesmjdan
+            properties = el0dhk0d0000000000
+            religion = catholic
+            culture = german
+            age = 34
+            random_traits = no
+            trait = thrifty_clerk
+            trait = legit_bastard
+            trait = charitable
+            trait = lustful
+            trait = shy
+            trait = stubborn
+            trait = wounded
+          }
+        }
+      }
+      c_schwyz = {
+        holder_scope = {
+          create_character = {
+            name = "勒内"  # René
+            dynasty = 918
+            dna = daceeacadcm
+            properties = el0dhk000000000000
+            religion = catholic
+            culture = prussian
+            age = 38
+            random_traits = no
+            trait = midas_touched
+            trait = administrator
+            trait = shy
+            trait = gluttonous
+            trait = lustful
+          }
+        }
+      }
+      c_vestisland = {
+        holder_scope = {
+          create_character = {
+            name = "Bjarki"
+            dynasty = 919
+            dna = aeafbrjfacd
+            properties = ge0dek000000000000
+            religion = norse_pagan
+            culture = norse
+            age = 23
+            random_traits = no
+            trait = fortune_builder
+            trait = poet
+            trait = architect
+            trait = greedy
+            trait = just
+            trait = slothful
+            trait = stubborn
+            trait = stressed
+            trait = depressed
+          }
+        }
+      }
+      c_gudbrandsdal = {
+        holder_scope = {
+          create_character = {
+            name = "乔纳斯"  # Jonas
+            dynasty = 920
+            dna = adgiengdacm
+            properties = eb0acb000000000000
+            religion = norse_pagan
+            culture = norwegian
+            age = 48
+            random_traits = no
+            trait = skilled_tactician
+            trait = legit_bastard
+            trait = viking
+            trait = dynastic_kinslayer
+            trait = hedonist
+            trait = lunatic
+          }
+        }
+      }
+      c_northumberland = {
+        holder_scope = {
+          create_character = {
+            name = "詹姆斯"  # James
+            dynasty = 921
+            dna = dfjchyjaaaf
+            properties = fl0cjd000000000000
+            religion = catholic
+            culture = scottish
+            age = 29
+            random_traits = no
+            trait = scholarly_theologian
+            trait = scholar
+            trait = gamer
+            trait = chaste
+            trait = charitable
+            trait = just
+            trait = depressed
+          }
+        }
+      }
+      c_gelre = {
+        holder_scope = {
+          create_character = {
+            name = "克里斯蒂安"  # Christiaan
+            dynasty = 922
+            dna = cjieaphcddj
+            properties = ae0ag0000000000000
+            religion = catholic
+            culture = dutch
+            age = 43
+            random_traits = no
+            trait = misguided_warrior
+            trait = dynastic_kinslayer
+            trait = duelist
+            trait = seducer
+            trait = gamer
+            trait = deceitful
+            trait = craven
+          }
+        }
+      }
+      c_sjaelland = {
+        holder_scope = {
+          create_character = {
+            name = "芙蕾雅"  # Freja
+            female = yes
+            dynasty = 924
+            dna = diecfqaeccx
+            properties = ae0aic0000000000c0
+            religion = catholic
+            culture = danish
+            age = 19
+            random_traits = no
+            trait = scholarly_theologian
+            trait = quick
+            trait = patient
+            trait = just
+            trait = trusting
+            trait = shy
+            trait = stubborn
+            trait = stressed
+          }
+        }
+      }
+      c_jiuquan = {
+        holder_scope = {
+          create_character = {
+            name = "Chan Vinh"
+            dynasty = 925
+            dna = cadclyfdaaz
+            properties = mc0ccd00000000cb00
+            religion = taoist
+            culture = han
+            age = 35
+            random_traits = no
+            trait = thrifty_clerk
+            trait = quick
+          }
+        }
+      }
+    }
+    if = {
+      limit = {
+        start_date = 1187.1.1
+      }
+      c_gowrie = {
+        holder_scope = {
+          create_character = {
+            name = "奥拉夫"  # Olaf
+            dynasty = 931
+            dna = ddihfbgaacd
+            properties = ah0acb000000000000
+            religion = catholic
+            culture = norse
+            age = 38
+            random_traits = no
+            trait = misguided_warrior
+            trait = weak
+            trait = crusader
+            trait = greedy
+            trait = proud
+            trait = craven
+            trait = paranoid
+          }
+        }
+      }
+      c_coruna = {
+        holder_scope = {
+          create_character = {
+            name = "塞尔焦"  # Sergio
+            dynasty = 945
+            dna = bcgbbfaaddc
+            properties = ai00jc000000000000
+            religion = catholic
+            culture = portuguese
+            age = 27
+            random_traits = no
+            trait = midas_touched
+            trait = quick
+            trait = gluttonous
+            trait = slothful
+            trait = honest
+            trait = shy
+            trait = just
+            trait = paranoid
+            trait = cynical
+            trait = stubborn
+          }
+        }
+      }
+      c_akershus = {
+        holder_scope = {
+          create_character = {
+            name = "亚历山大"  # Alexander
+            dynasty = 946
+            dna = bgdeceicacz
+            properties = aa0agb000000000000
+            religion = norse_pagan
+            culture = norse
+            age = 35
+            random_traits = no
+            trait = grey_eminence
+            trait = genius
+            trait = stubborn
+            trait = cynical
+            trait = stressed
+            trait = lunatic
+            trait = possessed
+          }
+        }
+      }
+      c_apulia = {
+        holder_scope = {
+          create_character = {
+            name = "达尼尔"  # Daniel
+            dynasty = 947
+            dna = adbhccccbam
+            properties = en0dgd000000000000
+            religion = catholic
+            culture = greek
+            age = 33
+            random_traits = no
+            trait = grey_eminence
+            trait = poet
+            trait = shrewd
+            trait = legit_bastard
+            trait = stubborn
+            trait = patient
+            trait = lustful
+            trait = cynical
+          }
+          new_character = {
+            culture = norman
+          }
+        }
+      }
+      c_santiago = {
+        holder_scope = {
+          create_character = {
+            name = "埃米略"  # Emilio
+            dynasty = 948
+            dna = bjbgerfacbw
+            properties = ah0ahb000000000000
+            religion = catholic
+            culture = portuguese
+            age = 23
+            random_traits = no
+            trait = charismatic_negotiator
+            trait = slothful
+            trait = patient
+            trait = kind
+            trait = gregarious
+            trait = trusting
+          }
+        }
+      }
+      c_telemark = {
+        holder_scope = {
+          create_character = {
+            name = "约翰尼斯"  # Johannes
+            dynasty = 949
+            dna = decaarccacm
+            properties = cd0dak000000000000
+            religion = norse_pagan
+            culture = norwegian
+            age = 36
+            random_traits = no
+            trait = scholarly_theologian
+            trait = shrewd
+            trait = harelip
+            trait = scholar
+            trait = gamer
+            trait = kind
+            trait = proud
+            trait = cynical
+            trait = trusting
+            trait = stressed
+          }
+        }
+      }
+      c_sodermanland = {
+        holder_scope = {
+          create_character = {
+            name = "亚瑟"  # Arthur
+            dynasty = 950
+            dna = cebjjkjcgbm
+            properties = cj0ccd000000000000
+            religion = norse_pagan
+            culture = norse
+            age = 29
+            random_traits = no
+            trait = skilled_tactician
+            trait = viking
+            trait = gluttonous
+            trait = cynical
+            trait = honest
+          }
+        }
+      }
+      c_napoli = {
+        holder_scope = {
+          create_character = {
+            name = "Joseppe"
+            dynasty = 951
+            dna = dccfbdcdbag
+            properties = ca0dgk000000000000
+            religion = catholic
+            culture = italian
+            age = 22
+            random_traits = no
+            trait = mastermind_theologian
+            trait = hunchback
+            trait = theologian
+            trait = zealous
+            trait = craven
+            trait = lunatic
+            trait = possessed
+          }
+        }
+      }
+      c_york = {
+        holder_scope = {
+          create_character = {
+            name = "西蒙"  # Simon
+            dynasty = 952
+            dna = cjiijuidfad
+            properties = ch0ced000000000000
+            religion = norse_pagan
+            culture = norse
+            age = 26
+            random_traits = no
+            trait = fortune_builder
+            trait = shrewd
+            trait = quick
+            trait = gluttonous
+            trait = kind
+            trait = diligent
+            trait = stubborn
+            trait = shy
+            trait = craven
+            trait = cynical
+          }
+        }
+      }
+      c_ostergotland = {
+        holder_scope = {
+          create_character = {
+            name = "埃里克"  # Erik
+            dynasty = 953
+            dna = defeeijddaw
+            properties = eb0ebk000000000000
+            religion = norse_pagan
+            culture = norse
+            age = 30
+            random_traits = no
+            trait = charismatic_negotiator
+            trait = stutter
+            trait = legit_bastard
+            trait = quick
+            trait = honest
+            trait = lustful
+            trait = shy
+            trait = ambitious
+            trait = just
+            trait = cynical
+            trait = stressed
+          }
+        }
+      }
+    }
+    if = {
+      limit = {
+        start_date = 1220.2.1
+      }
+      c_shrewsbury = {
+        holder_scope = {
+          create_character = {
+            name = "马丁"  # Martin
+            dynasty = 923
+            dna = dcafazedbce
+            properties = ck0dek000000000000
+            religion = catholic
+            culture = finnish
+            age = 38
+            random_traits = no
+            trait = scholarly_theologian
+            trait = gamer
+            trait = scholar
+            trait = gluttonous
+            trait = slothful
+            trait = honest
+            trait = just
+          }
+          new_character = {
+            culture = saxon
+          }
+        }
+      }
+      c_esztergom = {
+        holder_scope = {
+          create_character = {
+            name = "埃丽卡"  # Erika
+            female = yes
+            dynasty = 911
+            dna = ddjdizckecd
+            properties = ak0bda0000000000c0
+            religion = catholic
+            culture = hungarian
+            age = 24
+            random_traits = no
+            trait = elusive_shadow
+            trait = strong
+            trait = legit_bastard
+            trait = brave
+            trait = stubborn
+            trait = deceitful
+            trait = cynical
+            trait = stressed
+          }
+        }
+      }
+      c_altmark = {
+        holder_scope = {
+          create_character = {
+            name = "肯尼思"  # Kenneth
+            dynasty = 926
+            dna = acafbdkfbcf
+            properties = ge0dhk000000000000
+            religion = norse_pagan
+            culture = old_saxon
+            age = 26
+            random_traits = no
+            trait = grey_eminence
+            trait = falconer
+            trait = scholar
+            trait = cynical
+            trait = gluttonous
+            trait = erudite
+            trait = kind
+            trait = shy
+            trait = trusting
+          }
+        }
+      }
+      c_jylland = {
+        holder_scope = {
+          create_character = {
+            name = "亚历克斯"  # Alex
+            dynasty = 927
+            dna = ajedcweabbs
+            properties = ea0djd000000000000
+            religion = catholic
+            culture = danish
+            age = 38
+            random_traits = no
+            trait = fortune_builder
+            trait = mystic
+            trait = lustful
+            trait = proud
+          }
+        }
+      }
+      c_teviotdale = {
+        holder_scope = {
+          create_character = {
+            name = "Dubhglass"
+            dynasty = 928
+            dna = bbeiguiahco
+            properties = ch0dck000000000000
+            religion = catholic
+            culture = saxon
+            age = 35
+            random_traits = no
+            trait = thrifty_clerk
+            trait = shrewd
+            trait = erudite
+            trait = stubborn
+          }
+        }
+      }
+      c_zagreb = {
+        holder_scope = {
+          create_character = {
+            name = "Gaj"
+            dynasty = 929
+            dna = balagmegcbd
+            properties = 0a0chd000000000000
+            religion = catholic
+            culture = croatian
+            age = 28
+            random_traits = no
+            trait = grey_eminence
+            trait = celibate
+            trait = honest
+            trait = charitable
+            trait = erudite
+            trait = just
+            trait = shy
+          }
+        }
+      }
+      c_burgos = {
+        holder_scope = {
+          create_character = {
+            name = "亚历杭德罗"  # Alejandro
+            dynasty = 933
+            dna = diejekgdbdv
+            properties = ah000b000000000000
+            religion = catholic
+            culture = castillan
+            age = 23
+            random_traits = no
+            trait = fortune_builder
+            trait = administrator
+            trait = craven
+            trait = erudite
+          }
+        }
+      }
+      c_trondelag = {
+        holder_scope = {
+          create_character = {
+            name = "弗若得"  # Frode
+            dynasty = 935
+            dna = bdebaradaby
+            properties = ag0agb000000000000
+            religion = finnish_pagan
+            culture = norwegian
+            age = 33
+            random_traits = no
+            trait = amateurish_plotter
+            trait = administrator
+            trait = stubborn
+          }
+        }
+      }
+      c_venezia = {
+        holder_scope = {
+          create_character = {
+            name = "施巴士坦"  # Sebastian
+            dynasty = 936
+            dna = ajhfdpibbab
+            properties = ec0dhd000000000000
+            religion = catholic
+            culture = visigothic
+            age = 26
+            random_traits = no
+            trait = amateurish_plotter
+            trait = legit_bastard
+            trait = deceitful
+            trait = envious
+            trait = proud
+            trait = shy
+          }
+          new_character = {
+            culture = german
+          }
+        }
+      }
+      c_krakowskie = {
+        holder_scope = {
+          create_character = {
+            name = "约翰娜"  # Johanna
+            female = yes
+            dynasty = 938
+            dna = dgdfiflbeca
+            properties = ab00gb0000000000b0
+            religion = catholic
+            culture = polish
+            age = 29
+            random_traits = no
+            trait = scholarly_theologian
+            trait = shrewd
+            trait = scholar
+            trait = erudite
+            trait = kind
+            trait = cynical
+            trait = stubborn
+            trait = trusting
+          }
+        }
+      }
+      c_leiningen = {
+        holder_scope = {
+          create_character = {
+            name = "伯恩哈德"  # Bernhard
+            dynasty = 939
+            dna = decidqijfck
+            properties = ej00c0000000000000
+            religion = catholic
+            culture = german
+            age = 30
+            random_traits = no
+            trait = grey_eminence
+            trait = lustful
+            trait = cynical
+            trait = kind
+          }
+        }
+      }
+      c_rama = {
+        holder_scope = {
+          create_character = {
+            name = "德米尔"  # Demir
+            dynasty = 940
+            dna = djbbeqmebbc
+            properties = ek0dhk000000000000
+            religion = orthodox
+            culture = serbian
+            age = 30
+            random_traits = no
+            trait = underhanded_rogue
+            trait = scholar
+            trait = honest
+            trait = cynical
+            trait = lustful
+            trait = drunkard
+          }
+        }
+      }
+      c_rashka = {
+        holder_scope = {
+          create_character = {
+            name = "内纳德"  # Nenad
+            dynasty = 941
+            dna = beccfcicaax
+            properties = ge0dbd000000000000
+            religion = slavic_pagan
+            culture = serbian
+            age = 30
+            random_traits = no
+            trait = charismatic_negotiator
+            trait = quick
+            trait = gluttonous
+            trait = cynical
+            trait = craven
+            trait = kind
+          }
+        }
+      }
+      c_skane = {
+        holder_scope = {
+          create_character = {
+            name = "安德斯"  # Anders
+            dynasty = 942
+            dna = cieghcjcabx
+            properties = ca0cad000000000000
+            religion = norse_pagan
+            culture = norse
+            age = 29
+            random_traits = no
+            trait = flamboyant_schemer
+            trait = slow
+            trait = proud
+            trait = ambitious
+            trait = diligent
+            trait = paranoid
+            trait = stubborn
+            trait = lunatic
+            trait = possessed
+          }
+        }
+      }
+      c_limbuwan = {
+        holder_scope = {
+          create_character = {
+            name = "Pasang Kaji"
+            dynasty = 943
+            dna = dgajdxcdcca
+            properties = en0ah0000000000000
+            religion = buddhist
+            culture = nepali
+            age = 30
+            random_traits = no
+            trait = skilled_tactician
+            trait = kshatriya
+            trait = quick
+            trait = vajrayana_buddhist
+            trait = lustful
+            trait = gluttonous
+            trait = slothful
+            trait = just
+            trait = trusting
+            trait = cynical
+            trait = ambitious
+            trait = stubborn
+            trait = honest
+            trait = wroth
+          }
+        }
+      }
+      c_leicester = {
+        holder_scope = {
+          create_character = {
+            name = "大卫"  # David
+            dynasty = 944
+            dna = cbaechecacz
+            properties = 0e0dcd000000000000
+            religion = catholic
+            culture = norse
+            age = 25
+            random_traits = no
+            trait = thrifty_clerk
+            trait = quick
+            trait = strategist
+            trait = shy
+            trait = gluttonous
+            trait = erudite
+            trait = wroth
+            trait = cynical
+            trait = depressed
+          }
+          new_character = {
+            culture = saxon
+          }
+        }
+      }
+    }
+    if = {
+      limit = {
+        start_date = 1241.5.1
+      }
+      c_moskva = {
+        holder_scope = {
+          create_character = {
+            name = "保罗"  # Pavel
+            dynasty = 908
+            dna = aambfggafco
+            properties = cc0cbd000000000000
+            religion = slavic_pagan
+            culture = russian
+            age = 18
+            random_traits = no
+            trait = brilliant_strategist
+            trait = quick
+            trait = strong
+            trait = kinslayer
+            trait = gluttonous
+            trait = slothful
+            trait = wroth
+            trait = ambitious
+            trait = cynical
+          }
+        }
+      }
+      c_birlad = {
+        holder_scope = {
+          create_character = {
+            name = "德鲁"  # Drew
+            dynasty = 932
+            dna = ddbgcvcjbck
+            properties = eh0jbj000000000000
+            religion = tengri_pagan
+            culture = hungarian
+            age = 24
+            random_traits = no
+            trait = fortune_builder
+            trait = homosexual
+            trait = genius
+            trait = dynastic_kinslayer
+            trait = lustful
+            trait = diligent
+            trait = honest
+            trait = craven
+            trait = paranoid
+            trait = ambitious
+            trait = cynical
+            trait = kind
+          }
+        }
+      }
+      c_itil = {
+        holder_scope = {
+          create_character = {
+            name = "可敦"  # Khatun
+            female = yes
+            dynasty = 930
+            dna = djeehubdedv
+            properties = eb0bed0000000000c0
+            religion = zun_pagan
+            culture = khazar
+            age = 28
+            random_traits = no
+            trait = elusive_shadow
+            trait = legit_bastard
+            trait = dwarf
+            trait = fair
+            trait = schemer
+            trait = cynical
+            trait = paranoid
+            trait = lustful
+          }
+        }
+      }
+      c_lincoln = {
+        holder_scope = {
+          create_character = {
+            name = "布兰德利"  # Bradley
+            dynasty = 934
+            dna = djiihkfbgba
+            properties = ee0ddd000000000000
+            religion = catholic
+            culture = saxon
+            age = 16
+            random_traits = no
+            trait = intricate_webweaver
+            trait = legit_bastard
+            trait = kinslayer
+            trait = fair
+            trait = genius
+            trait = impaler
+            trait = lustful
+            trait = cynical
+            trait = arbitrary
+            trait = cruel
+            trait = lunatic
+          }
+        }
+      }
+      c_brabant = {
+        holder_scope = {
+          create_character = {
+            name = "所罗门"  # Solomon
+            dynasty = 913
+            dna = aijcewiddbi
+            properties = 0h0dek000000000000
+            religion = catholic
+            culture = old_frankish
+            age = 25
+            random_traits = no
+            trait = mastermind_theologian
+            trait = celibate
+            trait = mystic
+            trait = scholar
+            trait = lunatic
+          }
+        }
+      }
+    }
+  }
+}
