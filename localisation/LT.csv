@@ -89,7 +89,7 @@ ate_beating_heart;食心者;;;;;;;;;;;;x
 opinion_liked_a_good_joke;喜欢优秀的笑话;;;;;;;;;;;;x
 opinion_refused_invitation_to_meet;拒绝了我的邀请;;;;;;;;;;;;x
 recruit_academy_hero;招募学院英雄;;;;;;;;;;;;x
-recruit_academy_hero_desc;我§Y圆形剧场§!里的§Y锻炼学院§!拥有许多训练有素的年轻勇士。或许他们当中最出色的那位可以成为一名优秀的军事指挥官。;;;;;;;;;;;;x
+recruit_academy_hero_desc;我§Y圆形剧场§!里的§Y锻炼学院§!拥有许多训练有素的年轻勇士。或许他们当中最出色的那位将会成为优秀的军事指挥官。;;;;;;;;;;;;x
 has_not_recruited_in_5_years_TT;在过去的5年内没有招募过学院英雄。;;;;;;;;;;;;x
 gladiator_commander_TT;一名受过训练的角斗士出现在§Y[Root.GetTitledName]§!的宫廷里。;;;;;;;;;;;;x
 gladiator;角斗士;;;;;;;;;;;;x
@@ -1439,9 +1439,9 @@ recruit_gladiator_modifier_tt;允许招募§Y角斗士§!;;;;;;;;;;;;x
 produces_alcohol_modifier_tt;§Y赠送酒品§!决议可用;;;;;;;;;;;;x
 religion_feature_pyramids;创造金字塔;;;;;;;;;;;;x
 religion_feature_pyramids_desc;金字塔很久很久以前由古人所建，我们也应当追求如它一般的高度。;;;;;;;;;;;;x
-tooltip_religion_feature_pyramids;§G此宗教的独立领主可以建造金字塔§!;;;;;;;;;;;;x
-upgrade_automata_throne;自行宝座;;;;;;;;;;;;x
-upgrade_automata_throne_desc;通过一些复杂的机械装置，这个宝座现在可以自如的上下移动。;;;;;;;;;;;;x
+tooltip_religion_feature_pyramids;§G该宗教的独立领主可以建造金字塔§!;;;;;;;;;;;;x
+upgrade_automata_throne;自动机宝座;;;;;;;;;;;;x
+upgrade_automata_throne_desc;通过一些复杂的机械装置，这个宝座现在可以自如地上下移动。;;;;;;;;;;;;x
 upgrade_ballroom;舞厅;;;;;;;;;;;;x
 upgrade_ballroom_desc;贵族们在宴会中会面、跳舞和密谋的地方;;;;;;;;;;;;x
 EVTOPTBHF23440;我们应该把它放在大圆形剧场里！;;;;;;;;;;;;x
@@ -1909,7 +1909,7 @@ shiite_opinion;[shiite.GetName]好感;;;;;;;;;;;;x
 qarmatian_opinion;[qarmatian.GetName]好感;;;;;;;;;;;;x
 vushmgir_brothers_legacy;马尔达维季的遗产;;;;;;;;;;;;x
 vushmgir_brothers_legacy_desc;我的兄弟马尔达维季试图在波斯境内驱逐伊斯兰信仰并恢复萨珊帝国。虽然他失败了，但也许是时候由我来继承他的遗志并重建帝国？;;;;;;;;;;;;x
-kievan_rus_local_traditions;当地传统;;;;;;;;;;;;x
+kievan_rus_local_traditions;接纳当地传统;;;;;;;;;;;;x
 kievan_rus_local_traditions_desc;虽然我是受尊敬的基辅统治者，但我和我的某些廷臣和附庸们一直保持着一段距离。也许是时候接受他们的文化和信仰了？;;;;;;;;;;;;x
 empire_of_bulgaria_decision;成立[e_bulgaria.GetName]帝国;;;;;;;;;;;;x
 empire_of_bulgaria_decision_desc;我们疆域远超普通王国的能力和实力。是时候改国号为[e_bulgaria.GetName]帝国了。;;;;;;;;;;;;x
@@ -2070,5 +2070,79 @@ c_almada_adj;阿尔马达;;;;;;;;;;;;x
 tribal_king_hungarian;大公;;;;;;;;;;;;x
 tribal_kingdom_of_hungarian;大公国;;;;;;;;;;;;x
 tribal_king_female_hungarian;女大公;;;;;;;;;;;;x
-CHAR_COURTIER_FEMALE;一个女人;;;;;;;;;;;;x
 CHAR_COURTIER_FEMALE;一位名为§Y$NAME$§!的廷臣出现在§Y$EMPLOYER$§!的宫廷。;;;;;;;;;;;;x
+COURT_LIMITED_TAB_DRO;宫廷主要由各种没有土地的贵族组成，但也有内阁成员(他们可以是有土地的封臣)。\n\n统治者在他们的宫廷上只能容纳一定数量的成年人，这取决于他们头衔的等级。一旦超过这个数字，§Y宫廷开销§!就将增加。;;;;;;;;;;;;x
+COURT_TAB_DRO;宫廷主要由各种没有土地的贵族组成，但也有内阁成员(他们可以是有土地的封臣)。;;;;;;;;;;;;x
+death_text_evil_wonder;因为[GetHerHis]恶行，许多人尖叫着不要把[GetFirstName]和我们土地上的其他统治者一起埋葬，而是把[GetHerHim]扔进一个没有墓碑的坟墓里，留作枯冢荒坟。 愿[GetFirstName]在来世为[GetHerHis]罪孽付出代价;;;;;;;;;;;;x
+death_text_started_wonder;[GetFirstName]始终没能为[GetHerselfHimself]赢得名誉，其最卓越的功绩莫过于参与这些伟大奇观的建设，但[GetSheHe]永远也看不到完成的那一天;;;;;;;;;;;;x
+death_text_architect_wonder;[GetFirstName]是建筑师的赞助者，献出[GetHerHis]财富以建立更好的国度。每当人们看见[GetHerHis]劳动果实，都将回忆起[GetHerHisCap]统治;;;;;;;;;;;;x
+death_text_child;虽然很多人都想知道，为什么[Religion.GetHighGodName]要把一个小孩从我们身边带走，但我们希望[GetFirstName]能在来世找到平静;;;;;;;;;;;;x
+EVTDESC64065;和一个已婚[lover.GetManWoman]的纠结关系真的变得令人厌烦。 我希望我可以公开地爱[lover.GetHerHim]，而不用害怕每个人的嘲笑……;;;;;;;;;;;;x
+EVTDESC64070;在伴侣的背后看到另一个[lover.GetManWoman]，对我来说是一件很糟糕的事情，谎言撕毁了我的灵魂，我强烈地渴望同我的爱人在一起。;;;;;;;;;;;;x
+EVTDESC64085;我爱[lover.GetHerHim]，[lover.GetSheHe]也爱我，我们都是成年人了，没有什么能组织我们结婚！;;;;;;;;;;;;x
+EVTDESC64115;我的情人指责我爱我的伴侣[Root.Spouse.GetTitledFirstName]，胜过爱[target_lover.GetHerHim]。;;;;;;;;;;;;x
+EVTOPTA64115;给[target_lover.GetHerHim]买一件昂贵的礼物来证明我的爱;;;;;;;;;;;;x
+EVTOPTB64115;带[target_lover.GetHerHim]去我乡下的领地享受一段时光;;;;;;;;;;;;x
+EVTOPTC64115;用花言巧语向[target_lover.GetHerHim]证明[target_lover.GetHerHis]重要性;;;;;;;;;;;;x
+EVTOPTD64115;告诉[target_lover.GetHerHim]，[target_lover.GetSheHe]说得完全正确;;;;;;;;;;;;x
+EVTDESC64135;我想给我的爱人一个特别的惊喜，会是什么呢？是一首诗，诉说我对[lover.GetHerHim]的深深爱意，还是在森林里寻找最美丽的花朵以证明我的情感，或者在市场上找到一件小饰品让[lover.GetHerHim]永远珍藏？;;;;;;;;;;;;x
+EVTOPTA64045;我不再爱[lover.GetHerHim]了;;;;;;;;;;;;x
+EVTDESC64045;我不知道最近发生了什么，不管我的爱人做了什么，我都感到烦恼。事实上，我已经开始回避[lover.GetHerHim]。我们的关系给我带来的只有苦恼，就好像我们已经分开了……;;;;;;;;;;;;x
+EVTDESC64035;无论我做什么，我的爱人似乎从来不快乐，抱怨我们从来没有做任何令人兴奋的事情在一起，而且在我告诉[lover.GetHerHim]，我有太多的事情要做，没法一直招待[lover.GetHerHim]的时候生气。 拥有一个爱人比我想象的还要难！;;;;;;;;;;;;x
+EVTOPTA64035;举办一场盛大的宴会来招待[lover.GetHerHim];;;;;;;;;;;;x
+EVTOPTB64035;带[lover.GetHerHim]做些危险的事情，比如打猎;;;;;;;;;;;;x
+EVTOPTC64035;[lover.GetSheHeCap]将得到[lover.GetSheHe]应得的;;;;;;;;;;;;x
+EVTDESC64030;我总算得到了一个机会，去为我那特别的人做些特别的事，然而这里有太多的选项！我应该试着在宫廷中取悦[lover.GetHerHim]，还是去我与世隔绝的乡村别墅共度时光？;;;;;;;;;;;;x
+EVTDESC64010;[lover.GetSheHeCap]真有趣，最重要的是，还如此美丽！我觉得我已为[lover.GetHerHim]着迷……;;;;;;;;;;;;x
+EVTOPTA64010;我要试着和[lover.GetHerHim]聊聊……;;;;;;;;;;;;x
+EVTOPTB64010;[lover.GetSheHeCap]的容颜不复往昔……;;;;;;;;;;;;x
+in_meditation_cooldown_tt;没有开始冥想;;;;;;;;;;;;x
+EVT_TITLE_LT_20011;搜寻中止;;;;;;;;;;;;x
+EVTDESC_LT_20011;我的廷臣[emissary.GetTitledNameWithNick]在[emissary.GetHerHis]搜寻完成前离世了。现在我担心自己是否还能见到这位著名[Root.GetAuthorNationAdj][Root.GetAuthorTitle][Root.GetAuthorName]的[Root.GetBookTheme]专著……至少，我得到了投资回报的剩余资金。;;;;;;;;;;;;x
+EVTOPTA_LT_20011;愿[emissary.GetHeShe]得享安息。;;;;;;;;;;;;x
+EVTOPTB72008;让我的孩子去;;;;;;;;;;;;x
+RULER_FEAT_a_ruler_harder_than_steel_DESC;拥有挪威和英格兰国王的头衔，并完全控制它们各自的法理伯爵领。;;;;;;;;;;;;x
+SAVEGAME_ERROR_WRITING_INVALID;存档失败。\n\n错误原因：存档文件无效;;;;;;;;;;;;x
+SAVEGAME_ERROR_WRITING_NOSPACE;存档失败\n\n错误原因：磁盘空间不足;;;;;;;;;;;;x
+SAVEGAME_ERROR_WRITING_TOOBIG;存档失败\n\n错误原因：存档文件过大;;;;;;;;;;;;x
+REWARD_SCORE_LEFT;$SCORE_LEFT$指向此奖励;;;;;;;;;;;;x
+LOG_IN_TO_EARN_REWARDS;登录到您的Paradox帐户，以扮演特色统治者并获得奖励！;;;;;;;;;;;;x
+LOG_IN_TO_PLAY_FEATURED_RULER;登录到您的Paradox帐户，以扮演特色统治者！;;;;;;;;;;;;x
+AVAILABE_FEAT_SCORE;可用分数;;;;;;;;;;;;x
+SCORE_VALUE;$SCORE$分;;;;;;;;;;;;x
+HIGHLIGHTED_RULER_TITLE_TOOLTIP;特色统治者是我们提前为您选好的扮演对象。完成与他们相关的挑战将提升你的积分，积分用于兑换奖励！;;;;;;;;;;;;x
+LOG_IN_TO_CONTINUE_FEATURED_RULER_SAVE;你需要登录paradox账户来继续进行特色统治者游戏;;;;;;;;;;;;x
+FEATURED_RULER_NOT_SUPPORTED_LINUX;特色统治者存档在Linux系统不可用;;;;;;;;;;;;x
+LOG_IN_TO_PLAY;登录你的Paradox账号;;;;;;;;;;;;x
+PREORDER_NOW;了解更多;;;;;;;;;;;;x
+REWARD_NAME_1;巫师胡;;;;;;;;;;;;x
+REWARD_DESC_1;精研神秘，无闲剃须;;;;;;;;;;;;x
+REWARD_NAME_2;The Pageboy;;;;;;;;;;;;x
+REWARD_DESC_2;全宇宙最强发型;;;;;;;;;;;;x
+REWARD_NAME_3;Chaperon;;;;;;;;;;;;x
+REWARD_DESC_3;中世纪最流行的帽子;;;;;;;;;;;;x
+REWARD_NAME_4;系铃帽;;;;;;;;;;;;x
+REWARD_DESC_4;为了最大程度的笑料而被完美地设计出来;;;;;;;;;;;;x
+REWARD_NAME_5;锥形的埃宁帽;;;;;;;;;;;;x
+REWARD_DESC_5;适合公主的帽子;;;;;;;;;;;;x
+REWARD_NAME_6;中世纪鲻鱼;;;;;;;;;;;;x
+REWARD_DESC_6;这种发型永远不会过时。;;;;;;;;;;;;x
+REWARD_NAME_7;染坊主;;;;;;;;;;;;x
+REWARD_DESC_7;这个时代最多彩的头发。;;;;;;;;;;;;x
+REWARD_NAME_8;圣女贞德;;;;;;;;;;;;x
+REWARD_DESC_8;The hottest hairstyle around.;;;;;;;;;;;;x
+DLC_dlc077_TOOLTIP_INSTANT;§Y埃及肖像§!;;;;;;;;;;;;x
+DLC_dlc077_TOOLTIP_DELAYED;埃及文化角色的独特面部组合;;;;;;;;;;;;x
+REWARD_UNLOCKED;奖励解锁;;;;;;;;;;;;x
+HIGHLIGHTED_RULER_TITLE;王道征途;;;;;;;;;;;;x
+FEATURED_RULER_REWARD_TOOLTIP;解锁的物品将在《十字军之王三》中可用;;;;;;;;;;;;x
+RTT_SPLASH_MESSAGE_1;Welcome to Crusader Kings II. We see that you are a newcomer to the game, so we hope you have fun exploring all the strategic and dynastic challenges that await you. The Monarch's Journey is a new way of exploring the world of Crusader Kings and will help you earn cosmetic add-ons for Crusader Kings III. Crusader Kings is a very open ended game, but these Ruler Challenges give you specific goals to aim for. Ruler Challenges encourage you to focus your efforts, and may, in some cases, help you learn some parts of the game more quickly. But CK2 is an open game - don't feel bound by our rules!;;;;;;;;;;;;x
+RTT_SPLASH_MESSAGE_2;Welcome back to Crusader Kings II! You have fought many wars and led many dynasties to greatness. With The Monarch's Journey, we have some new challenges for you to play. The Ruler Challenges present you with a new realm with a specific objective to achieve. Completing the challenges will earn special cosmetic rewards to dress up your Crusader Kings III experience. Here is your chance to try new worlds and new ways of play in our infinite medieval sandbox.;;;;;;;;;;;;x
+DLC_dlc078_TOOLTIP_INSTANT;§YPagan Fury Warrior Queen Music Pack§!;;;;;;;;;;;;x
+DLC_dlc078_TOOLTIP_DELAYED;The official band of Crusader Kings returns with a new music pack to help set the mood for your medieval conquests.;;;;;;;;;;;;x
+LANDING_DLC078_TEXT;Main Features: \n- Pagan Fury, The folk metal band led by Arven Labour has composed four new energetic tracks that get the blood moving as rally your vassals around your banner. Pagan Fury has contributed music to Paradox Development Studio games since 2018, and their passion for thematic music now continues into the next generation of grand strategy games.\n\nSong Tracks: \n- Broken Heroes \n- Sacred Heart \n- Flood of Fire \n- Nuria;;;;;;;;;;;;x
+LANDING_HEADER_DLC078;Pagan Fury Warrior Queen Music Pack;;;;;;;;;;;;x
+FEAT_CURRENT_TT;当前成绩：$SCORE|Y$;;;;;;;;;;;;x
+FEAT_HIGHSCORE_TT;最佳成绩：$HIGH_SCORE|G$;;;;;;;;;;;;x
+RULER_FEAT_long_live_the_queen_DESC;阿尔瓦治下，也门兴盛繁荣。\n*持有也门苏丹国的头衔，完全控制也门全部直辖领土。\n*只要扮演特色统治者的家族，进度就会继续累积;;;;;;;;;;;;x
+RULER_FEAT_a_christian_king_DESC;被教皇加冕为立陶宛国王！\n*你需要持有立陶宛国王的头衔\n*你必须达成对立陶宛法理领地的完全控制\n*你的宗教必须是天主教\n*持有「由教皇加冕」特质\n*只要扮演特色统治者的家族，进度就会继续累积;;;;;;;;;;;;x
