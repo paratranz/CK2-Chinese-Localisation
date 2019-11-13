@@ -85,7 +85,7 @@ alert_can_call_vassals_to_arms_delayed;以下封臣可以被召唤来对抗我�
 CLICK_TO_ROTATE;§G点击以循环检阅列表§!;;;;;;;;;;;;x
 ALERT_RIGHTCLICK;§G右键点击显示关闭按钮§!;;;;;;;;;;;;x
 ALERT_DISMISS;暂时关闭;;;;;;;;;;;;x
-ALERT_DISMISS_ALWAYS;关闭;;;;;;;;;;;;x
+ALERT_DISMISS_ALWAYS;禁用;;;;;;;;;;;;x
 alert_available_decision_instant;§Y有新的重要决议可以执行§!;;;;;;;;;;;;x
 alert_available_decision_delayed;以下重要决议可以执行：\n$LIST$;;;;;;;;;;;;x
 alert_available_plot_instant;§Y新的密谋可以策划§!;;;;;;;;;;;;x
@@ -4712,8 +4712,8 @@ HINT_SIEGE_VIEW_TITLE;攻城界面;;;;;;;;;;;;x
 HINT_SIEGE_VIEW_TEXT_1;一次围攻的时长主要取决于地产的堡垒等级、守军的数量和围攻军队的数量。;;;;;;;;;;;;x
 HINT_SIEGE_VIEW_TEXT_2;如果围城军队的数量比守军要少，围城将不是很有效。;;;;;;;;;;;;x
 HINT_SIEGE_VIEW_TEXT_3;当防守者的士气为零（或者攻击者离去或被赶走），围攻就会结束。;;;;;;;;;;;;x
-HINT_CONFIRM_DISABLE_TITLE;确定要关闭提示？;;;;;;;;;;;;x
-HINT_CONFIRM_DISABALE_DESC;你确定要永远关闭提示吗？\n（你可以在设置面板里重新打开提示）;;;;;;;;;;;;x
+HINT_CONFIRM_DISABLE_TITLE;确定要禁用提示？;;;;;;;;;;;;x
+HINT_CONFIRM_DISABALE_DESC;你确定要永远禁用提示吗？\n（你可以在设置面板里重新激活提示。）;;;;;;;;;;;;x
 INTERACTION_MESSAGE_ACTOR_PORTRAIT;来自[Actor.GetBestName]的消息;;;;;;;;;;;;x
 INTERACTION_REQUIRES_RECIPIENT_IN_COURT;§Y[Recipient.GetTitledFirstName]§!现在§Y[Actor.GetTitledFirstName]§!的宫廷里;;;;;;;;;;;;x
 INTERACTION_REQUIRES_AT_PEACE;§Y[Recipient.GetTitledFirstName]§!没有与§Y[Actor.GetTitledFirstName]§!处于战争状态;;;;;;;;;;;;x
@@ -14648,7 +14648,7 @@ MESSAGE_IS_PRIO1;优先度1的消息会弹出提示窗口。;;;;;;;;;;;;x
 MESSAGE_IS_PRIO2;优先度2的消息会显示在高优先度提示栏里。;;;;;;;;;;;;x
 MESSAGE_IS_PRIO3;优先度2的消息会显示在低优先度提示栏里。;;;;;;;;;;;;x
 MESSAGE_IS_PRIO4;优先度4的消息只会显示在记录里。;;;;;;;;;;;;x
-MESSAGE_IS_PRIO5;优先度5的消息会不会提示。;;;;;;;;;;;;x
+MESSAGE_IS_PRIO5;优先度5的消息已禁用。;;;;;;;;;;;;x
 MESSAGE_IS_PAUSE;此处打钩的消息显示时会暂停游戏。;;;;;;;;;;;;x
 MESSCAT_COMBAT;战斗;;;;;;;;;;;;x
 MESSCAT_DIPLOMACY;外交;;;;;;;;;;;;x
@@ -15734,8 +15734,8 @@ SM_ALERT;提醒;;;;;;;;;;;;x
 SM_RESTART;你需要重新启动以使设定生效;;;;;;;;;;;;x
 SM_WP;写入设定文件出错.确定该文件没有被保护然后再尝试;;;;;;;;;;;;x
 SM_MULTISAMPLE;多重采样抗锯齿等级;;;;;;;;;;;;x
-SM_DISABLEWIKIPEDIA;关闭维基百科链接;;;;;;;;;;;;x
-SM_DISABLEHINTS;关闭所有提示;;;;;;;;;;;;x
+SM_DISABLEWIKIPEDIA;禁用维基百科链接;;;;;;;;;;;;x
+SM_DISABLEHINTS;禁用所有提示;;;;;;;;;;;;x
 RESTART_REQ;需要重新启动;;;;;;;;;;;;x
 RESTART_REQ_DESC;必须重新启动游戏以使改变生效。;;;;;;;;;;;;x
 CORE_MP_PAUSED_NAME;$PLAYER$选择暂停。;;;;;;;;;;;;x
@@ -18386,8 +18386,8 @@ BISHOP_LOYALTY_DESC;[catholic.GetName]的地区主教们并没有义务向他们
 OPINION_OF_POPE;对教宗的好感;;;;;;;;;;;;x
 OPINION_OF_SEC_LIEGE;对领主的好感;;;;;;;;;;;;x
 HINTS_CLOSE;关闭;;;;;;;;;;;;x
-HINTS_DISABLE_ALL_HINTS;关闭所有提示;;;;;;;;;;;;x
-HINTS_DISABLE_HINT;不再显示本提示;;;;;;;;;;;;x
+HINTS_DISABLE_ALL_HINTS;禁用所有提示;;;;;;;;;;;;x
+HINTS_DISABLE_HINT;禁用提示;;;;;;;;;;;;x
 NO_HEAD;没有领导;;;;;;;;;;;;x
 MIL_NUM_ARMIES;$NUM$军队;;;;;;;;;;;;x
 MIL_NUM_NAVIES;$NUM$舰队;;;;;;;;;;;;x

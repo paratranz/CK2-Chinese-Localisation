@@ -361,7 +361,7 @@ RULE_REGENCIES;摄政;;;;;;;;;;;;x
 RULE_DEJURE;动态法理转移;;;;;;;;;;;;x
 RULE_DYNAMIC_REALMS;§B「查理曼」：§!自定义国家;;;;;;;;;;;;x
 RULE_DIPLO_RANGE;外交范围;;;;;;;;;;;;x
-RULE_ACHIEVEMENTS_WARNINGS;§R此项设置将导致成就无效！§!;;;;;;;;;;;;x
+RULE_ACHIEVEMENTS_WARNINGS;§R此项设置将会禁用成就！§!;;;;;;;;;;;;x
 RULE_SHATTERED_RETREAT_ON_DESC;军队将尽力撤退至友方或其他安全的地区。正在撤退的军队将不会与敌军交战。撤退中的军队移动速度和士气回复速率会增加。;;;;;;;;;;;;x
 RULE_SHATTERED_RETREAT_OFF_DESC;撤退中的军队会移动至相邻的省份，这一般会使得游戏变得更简单。;;;;;;;;;;;;x
 RULE_AZTEC_INVASION_HISTORICAL_DESC;阿兹特克入侵最早会在十三世纪发生。;;;;;;;;;;;;x
@@ -2941,7 +2941,7 @@ MODIFIER_TECHPOINTS_ECONOMY;经济科技点;;;;;;;;;;;;x
 MODIFIER_TECHPOINTS_CULTURE;文化科技点;;;;;;;;;;;;x
 CHAR_STATUS_IN_SECLUSION;§Y$NAME$§!及其宫廷正处于隔离中;;;;;;;;;;;;x
 RULES_ACHIEVEMENT_REQUIRE_IRONMAN;游戏必须运行在§Y铁人§!模式里;;;;;;;;;;;;x
-RULES_ACHIEVEMENT_REQUIRE_RULES;没有§Y游戏规则§!禁止成就;;;;;;;;;;;;x
+RULES_ACHIEVEMENT_REQUIRE_RULES;没有§Y游戏规则§!必须禁用成就;;;;;;;;;;;;x
 RULES_ACHIEVEMENT_REQUIRE_NOMOD;没有影响游戏文件校验的§Y用户修改§!正在生效;;;;;;;;;;;;x
 RULES_ACHIEVEMENT_REQUIRE_STEAM;§YSteam§!必需运行中;;;;;;;;;;;;x
 ACHIEVEMENT_RULE_OPTION_SEPARATOR;$RULE$：$OPTION$;;;;;;;;;;;;x
@@ -3930,8 +3930,8 @@ NET_MONTHLY_POPULATION_DECLINE;每月人口净衰减;;;;;;;;;;;;x
 CANNOT_CHANGE_ANOTHER_DEJURE_LAW;$RULER$不能在 $DATE$ 之前再次变更$TITLE$的王权法;;;;;;;;;;;;x
 POPULATION_TO_MANPOWER;人口转化为人力;;;;;;;;;;;;x
 CRUSADE_COOLDOWN_UNTIL;下一次$HOLY_WAR|Y$的可号召时间：$DATE|Y$;;;;;;;;;;;;x
-HAS_DLC;$DLC|Y$生效;;;;;;;;;;;;x
-HAS_NOT_DLC;$DLC|Y$未生效;;;;;;;;;;;;x
+HAS_DLC;$DLC|Y$已启用;;;;;;;;;;;;x
+HAS_NOT_DLC;$DLC|Y$已禁用;;;;;;;;;;;;x
 CONTINUE_FAILED_TITLE;无法继续！;;;;;;;;;;;;x
 CONTINUE_FAILED_DESC;无法载入最新的存档。这可能是如下原因造成的：\n* 存档损坏\n* 存档所需的DLC未被激活\n* 存档与当前版本不兼容\n* 你正在玩一个mod，该mod使用自己设定的文件地址。\n* 存档是铁人模式存档，而你的游戏已经改过了，无法获取成就。\n\n如果原因是铁人模式，你依然可以通过加载游戏菜单加载游戏。;;;;;;;;;;;;x
 ANTIPOPE_POPE_VASSAL;§R当教宗是你的封臣时不能创建对立教宗§!;;;;;;;;;;;;x
