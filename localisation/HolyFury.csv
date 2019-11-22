@@ -17953,7 +17953,7 @@ vassalize_teutonic_knights_desc;作为条顿骑士团的长期盟友，如果他
 hire_teutonic_honor_guard;雇佣条顿荣誉卫队;;;;;;;;;;;;x
 hire_teutonic_honor_guard_desc;作为条顿骑士团的长期盟友，我们可以暂时雇用骑士团部分部队作为荣誉卫队。;;;;;;;;;;;;x
 prepare_reconquista;准备收复失地战争;;;;;;;;;;;;x
-prepare_reconquista_desc;开始筹备一场肃清伊比利亚半岛上异教徒的宗教战争，从而使半岛重新回归基督教世界的怀抱。这样的重大决策一生只能发动一次。;;;;;;;;;;;;x
+prepare_reconquista_desc;开始筹备一场肃清伊比利亚半岛上异教徒的宗教战争，为基督教征服一部分伊比利亚半岛。这样的重大决策一生只能发动一次。;;;;;;;;;;;;x
 reconquista_beneficiary_self;设置收复失地战争受益人;;;;;;;;;;;;x
 reconquista_beneficiary_self_desc;设置一位合适的王朝成员来作为我伊比利亚半岛收复失地运动的受益人。;;;;;;;;;;;;x
 reconquista_beneficiary_other;设置收复失地受益人;;;;;;;;;;;;x
@@ -17974,7 +17974,7 @@ muslim_mercenary_for_reconquista_attacker_side;请求协助收复失地战争;;;
 muslim_mercenary_for_reconquista_attacker_side_desc;我出一笔钱可以要求§Y[Root.GetTitledName]§!帮助我对抗其他的[Root.Religion.GetGroupName]防卫者。;;;;;;;;;;;;x
 recreate_the_papal_guards;征召宗座近卫队;;;;;;;;;;;;x
 recreate_the_papal_guards_desc;最高教长必须要有保护他自己的荣誉近卫队。;;;;;;;;;;;;x
-pledge_crusade_alternate_crusades;最近没有参加另一场十字军。;;;;;;;;;;;;x
+pledge_crusade_alternate_crusades;没有参加另一场十字军。;;;;;;;;;;;;x
 cannot_expel_jews_during_blame_game_chain_TT;在黑死病最严重的时候无法驱逐[GetJewsName];;;;;;;;;;;;x
 promoted_commander_TT;一位士兵出现在§Y[Root.GetTitledName]§!的宫廷之中。;;;;;;;;;;;;x
 completely_control_near_east_TT;完全控制§Y近东§!地区;;;;;;;;;;;;x
@@ -17987,13 +17987,13 @@ teutonic_state_opinion_TT;§Y[k_teutonic_state.Holder.GetTitledName]§!对§Y[Ro
 vassalize_teutonic_knights_TT;附庸§Y条顿骑士团§!;;;;;;;;;;;;x
 assassins_raise_troops_cooldown_TT;最近招募了一支刺客军队——不能招募更多部队直到§Y[Root.assassins_raise_troops_cooldown.GetExpiryDate]§!;;;;;;;;;;;;x
 hire_teutonic_honor_guard_cooldown_TT;最近雇佣了一支条顿荣誉卫队——在§Y[Root.hire_teutonic_honor_guard_cooldown.GetExpiryDate]§!前不能再次雇佣。;;;;;;;;;;;;x
-northern_crusade_correct_kingdom_TT;王国内部有领土是条顿骑士团的目标;;;;;;;;;;;;x
+northern_crusade_correct_kingdom_TT;条顿骑士团的目标王国内有领土;;;;;;;;;;;;x
 teutonic_order_at_peace_TT;§Y[d_teutonic_order.Holder.GetTitledName]§!不在战争中;;;;;;;;;;;;x
 teutonic_state_at_peace_TT;§Y[k_teutonic_state.Holder.GetTitledName]§!不在战争中;;;;;;;;;;;;x
 TT_PAGAN_CANONIZATION_FAMILY;[saint_person.GetFirstName]已经成为了一位广为人知的往圣祖灵，所有拥有[saint_person.GetHerHis]§Y血脉§!的人都会受益。;;;;;;;;;;;;x
 pope_cannonize_choice_TT;[saint_person.GetTitledName]会被封为一个宗教信仰的§Y圣人§!。[saint_person.GetHerHisCap]家族显然会感激这样的姿态。;;;;;;;;;;;;x
 pagan_pope_cannonize_choice_TT;[saint_person.GetTitledName]会被封为一个宗教信仰的§Y往圣祖灵§!。[saint_person.GetHerHisCap]§Y家族§!显然会感激此举。;;;;;;;;;;;;x
-emperor_has_hre;§Y[e_hre.Holder.GetTitledName]§!的的直属封臣;;;;;;;;;;;;x
+emperor_has_hre;§Y[e_hre.Holder.GetTitledName]§!的直属封臣;;;;;;;;;;;;x
 hellenic_hermetic_join_tooltip;公开信仰§Y希腊多神教§!;;;;;;;;;;;;x
 zunist_hermetic_join_tooltip;公开信仰§Y尊日神教§!;;;;;;;;;;;;x
 e_spain_allow_TT;没有法理王国头衔被非[Root.Religion.GetGroupName]信徒持有。;;;;;;;;;;;;x
@@ -18009,8 +18009,8 @@ reconquista_mercenary_cooldown_TT;最近没有为你提供给服务——可以�
 reconquista_mercenary_cooldown_other_TT;最近没有被要求提供[Root.GetHerHis]服务——可以被要求对抗§Y[Root.reconquista_mercenary_other_cooldown.GetExpiryDate]§!;;;;;;;;;;;;x
 poorly_trained_troops_TT;一群缺乏训练的士兵会在§Y[Root.Capital.GetName]§!出现;;;;;;;;;;;;x
 trained_troops_TT;一群受训过的士兵会在§Y[Root.Capital.GetName]§!出现;;;;;;;;;;;;x
-well_trained_troops_TT;一群训练有素，装备精良的部队将会在§Y[Root.Capital.GetName]§!出现;;;;;;;;;;;;x
-peasant_rabble_TT;一群毫无组织可言的农民会在§Y[Root.Capital.GetName]§!出现;;;;;;;;;;;;x
+well_trained_troops_TT;一群训练有素的部队将会在§Y[Root.Capital.GetName]§!出现;;;;;;;;;;;;x
+peasant_rabble_TT;一群农民乌合之众会在§Y[Root.Capital.GetName]§!出现;;;;;;;;;;;;x
 start_preparing_reconquista_TT;开始为§Y收复失地战争§!备战;;;;;;;;;;;;x
 reconquista_renowned_sponsor_TT;提升§Y[FromFrom.GetDynName]所指挥的部队的§Y士气打击§!和部队§Y进军速度§!。;;;;;;;;;;;;x
 reconquista_pious_sponsor_TT;提升§Y[FromFrom.GetDynName]所指挥的部队§Y对抗异教徒所造成的伤害§!。;;;;;;;;;;;;x
@@ -18030,7 +18030,7 @@ string_alternate_teutonic_crusade;条顿;;;;;;;;;;;;x
 string_alternate_shepherds_crusade;牧羊人;;;;;;;;;;;;x
 string_alternate_reconquista_crusade;收复失地运动;;;;;;;;;;;;x
 string_saint_in_heaven;在天国的圣人;;;;;;;;;;;;x
-string_blessed_ancestor;一位往圣祖灵;;;;;;;;;;;;x
+string_blessed_ancestor;往圣祖灵;;;;;;;;;;;;x
 ephemeral_knowledge;蜉蝣学说;;;;;;;;;;;;x
 joyous_festivities;有意思的祭典;;;;;;;;;;;;x
 harvest_festival_believer;丰收节信仰;;;;;;;;;;;;x
