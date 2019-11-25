@@ -191,6 +191,12 @@ character_event = {
           character_event = {
             id = TOG.4000
           }
+          if = {
+            limit = {
+              has_global_flag = norse_reformation
+            }
+            unsafe_religion = norse_pagan_reformed
+          }
         }
       }
     }
@@ -250,7 +256,6 @@ letter_event = {
         set_global_flag = jomsvikings_founded
         FROM = {
           wealth = 300
-          religion = ROOT
           set_government_type = feudal_government
         }
         if = {
@@ -397,6 +402,12 @@ character_event = {
           character_event = {
             id = TOG.4005
           }
+          if = {
+            limit = {
+              has_global_flag = norse_reformation
+            }
+            unsafe_religion = norse_pagan_reformed
+          }
         }
       }
     }
@@ -456,7 +467,6 @@ letter_event = {
         set_global_flag = jomsvikings_founded
         FROM = {
           wealth = 300
-          religion = ROOT
           set_government_type = feudal_government
         }
         if = {
@@ -465,6 +475,9 @@ letter_event = {
           }
           d_jomsvikings = {
             religion = norse_pagan_reformed
+          }
+          FROM = {
+            unsafe_religion = norse_pagan_reformed
           }
         }
       }
@@ -603,6 +616,12 @@ character_event = {
           character_event = {
             id = TOG.4015
           }
+          if = {
+            limit = {
+              has_global_flag = norse_reformation
+            }
+            unsafe_religion = norse_pagan_reformed
+          }
         }
       }
     }
@@ -662,7 +681,6 @@ letter_event = {
         set_global_flag = jomsvikings_founded
         FROM = {
           wealth = 300
-          religion = ROOT
           set_government_type = feudal_government
         }
         if = {
@@ -806,6 +824,12 @@ character_event = {
           trait = berserker
         }
         new_character = {
+          if = {
+            limit = {
+              has_global_flag = norse_reformation
+            }
+            unsafe_religion = norse_pagan_reformed
+          }
           character_event = {
             id = TOG.4025
           }
@@ -868,7 +892,6 @@ letter_event = {
         set_global_flag = jomsvikings_founded
         FROM = {
           wealth = 300
-          religion = ROOT
           set_government_type = feudal_government
         }
         if = {
@@ -979,7 +1002,7 @@ character_event = {
     d_jomsvikings = {
       religion = norse_pagan_reformed
       holder_scope = {
-        religion = norse_pagan_reformed
+        unsafe_religion = norse_pagan_reformed
       }
     }
     set_global_flag = jomsvikings_reformed
