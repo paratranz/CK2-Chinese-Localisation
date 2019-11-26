@@ -682,8 +682,8 @@ EVTDESC_LT_60001;[target_wonder.GetName]已经成为游客和商贸的中心，�
 EVTOPTA_LT_60001;欢迎他们留在[target_province.GetName]！;;;;;;;;;;;;x
 EVTOPTB_LT_60001;撵走这些暴民，把他们的财产充公！;;;;;;;;;;;;x
 EVT_TITLE_LT_60101;[target_wonder.GetName];;;;;;;;;;;;x
-EVTDESC_LT_60101;我的书吏在为我辛苦抄写书籍时，一直常去[target_wonder.GetName]。他们向我呈上新的节录本，无疑这本书会非常有用——文章质量也无可指摘。;;;;;;;;;;;;x
-EVTOPTA_LT_60101;在这座[target_wonder.GetWonderAdj]建筑的助益下，我的书吏会大放异彩。;;;;;;;;;;;;x
+EVTDESC_LT_60101;我的书吏在为我辛苦抄写书籍时，一直常去[target_wonder.GetName]。他们向我呈上新的节录本，无疑这本书会非常有用——文章质量也无可指摘！;;;;;;;;;;;;x
+EVTOPTA_LT_60101;在这座[target_wonder.GetWonderAdj]建筑的助益下，我的书吏会大放异彩！;;;;;;;;;;;;x
 EVTOPTA_TT_LT_60101;你鼓励你的书吏使用[target_wonder.GetName]，以保障更好的作品质量。;;;;;;;;;;;;x
 drink_from_fountain_of_youth;饮用青春之泉;;;;;;;;;;;;x
 drink_from_fountain_of_youth_desc;这泉水据说有给予人生命，洗净衰老的功效。;;;;;;;;;;;;x
@@ -694,18 +694,18 @@ EVTDESC_LT_60201_2;我欢笑着纵身跃入[target_wonder.GetName]，我一口�
 EVTOPTA_LT_60201;年华被我从身上喝走了。;;;;;;;;;;;;x
 EVTOPTB_LT_60201;我以前从没觉得自己有这么老！;;;;;;;;;;;;x
 title_lighthouse_custodian;灯塔托管人;;;;;;;;;;;;x
-title_lighthouse_custodian_desc;这个称号被授予一位已经展现出责任心，并可以被委托照看灯塔的人物——责任包括保持它的燃烧以及正常运转。;;;;;;;;;;;;x
+title_lighthouse_custodian_desc;这个尊称被授予一位已经展现出责任心，并可以被委托照看灯塔的人物——责任包括保持它的燃烧以及正常运转。;;;;;;;;;;;;x
 lighthouse_custodian_custom_modifier_tt;解锁§Y灯塔托管人§!的荣誉头衔;;;;;;;;;;;;x
 upgrade_stone_custodian;磐石守卫;;;;;;;;;;;;x
 upgrade_stone_custodian_desc;看守人严守纪律，意志坚如磐石，负责照管巨石。;;;;;;;;;;;;x
 stone_custodian_custom_modifier_tt;解锁§Y磐石守卫§!的荣誉头衔;;;;;;;;;;;;x
 title_stone_custodian;磐石守卫;;;;;;;;;;;;x
-title_stone_custodian_desc;这个称号被授予一位已经展现出忠贞不渝、严于律己的人物。;;;;;;;;;;;;x
+title_stone_custodian_desc;这个尊称授予一位已经展现出忠贞不渝、严于律己的人物。;;;;;;;;;;;;x
 upgrade_more_stones;更多石头;;;;;;;;;;;;x
 upgrade_more_stones_desc;这座建筑的巨石让人既敬畏又钦佩——想象一下有更多巨石会有怎样的效果！;;;;;;;;;;;;x
 upgrade_golden_crown;金冠;;;;;;;;;;;;x
 upgrade_golden_crown_desc;一顶纯金做成的王冠环绕着雕像宏伟的头部。;;;;;;;;;;;;x
-upgrade_road_tolls;收费站;;;;;;;;;;;;x
+upgrade_road_tolls;道路收费站;;;;;;;;;;;;x
 upgrade_road_tolls_desc;任何想要通过这个区域的人都会被要求向国王捐一小笔钱。;;;;;;;;;;;;x
 upgrade_horse_graveyard;马墓;;;;;;;;;;;;x
 upgrade_horse_graveyard_desc;一个供你的爱马永远安息的地方。;;;;;;;;;;;;x
@@ -716,7 +716,7 @@ WONDER_NAME_TEMPLATE;[FromFromFrom.GetName]的$TYPE_NAME$;;;;;;;;;;;;x
 WONDER_UPGRADE_NAME_TEMPLATE;[FromFromFrom.GetName]的[From.GetTypeName];;;;;;;;;;;;x
 WONDER_BEING_BUILT;§Y[This.GetName]§!正被建造;;;;;;;;;;;;x
 WONDER_NOT_BEING_BUILT;§Y[This.GetName]§!未被建造;;;;;;;;;;;;x
-WONDER_SPECIFIC_BEING_BUILT_IN_PROVINCE;§Y$WONDER_TYPE$§!正被建造于§Y[This.GetName]§!;;;;;;;;;;;;x
+WONDER_SPECIFIC_BEING_BUILT_IN_PROVINCE;§Y$WONDER_TYPE$§!正在§Y[This.GetName]§!中建造;;;;;;;;;;;;x
 WONDER_SPECIFIC_BEING_BUILT_BY_CHARACTER;§Y$WONDER_TYPE$§!正被§Y[This.GetFirstName]§!建造;;;;;;;;;;;;x
 WONDER_SPECIFIC_BEING_BUILT;§Y[This.GetName]§!正被建造，是§Y$WONDER_TYPE$§!类型;;;;;;;;;;;;x
 WONDER_SPECIFIC_NOT_BEING_BUILT_IN_PROVINCE;§Y$WONDER_TYPE$§!没有被建造于§Y[This.GetName]§!;;;;;;;;;;;;x
@@ -746,9 +746,9 @@ WONDER_SPECIFIC_UPGRADE_NOT_BUILT_IN_PROVINCE;§Y$WONDER_UPGRADE_TYPE$§!还未�
 WONDER_SPECIFIC_UPGRADE_NOT_BUILT_BY_CHARACTER;§Y$WONDER_UPGRADE_TYPE$§!还未被§Y[This.GetFirstName]§!建成;;;;;;;;;;;;x
 WONDER_SPECIFIC_UPGRADE_NOT_BUILT_FOR_WONDER;§Y$WONDER_UPGRADE_TYPE$§!还没有为§Y[This.GetName]§!建成;;;;;;;;;;;;x
 WONDER_SPECIFIC_UPGRADE_NOT_BUILT;§Y$WONDER_UPGRADE_TYPE$§!还未建成;;;;;;;;;;;;x
-WONDER_STAGE_TRIGGER;当前阶段是$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
-WONDER_AGE_TRIGGER;§Y[This.GetName]§!有$COMPARISON$ $VALUE|Y$年了;;;;;;;;;;;;x
-WONDER_STAGE_AGE_TRIGGER;当前阶段有$COMPARISON$ $VALUE|Y$年了;;;;;;;;;;;;x
+WONDER_STAGE_TRIGGER;当前阶段$COMPARISON$ $VALUE|Y$;;;;;;;;;;;;x
+WONDER_AGE_TRIGGER;§Y[This.GetName]§!$COMPARISON$ $VALUE|Y$年了;;;;;;;;;;;;x
+WONDER_STAGE_AGE_TRIGGER;当前阶段$COMPARISON$ $VALUE|Y$年了;;;;;;;;;;;;x
 HAS_NOT_WONDER_FLAG;没有$FLAG|Y$旗标;;;;;;;;;;;;x
 HAS_WONDER_FLAG;拥有$FLAG|Y$旗标;;;;;;;;;;;;x
 HAS_NOT_WONDER_UPGRADE_FLAG;没有$FLAG|Y$旗标;;;;;;;;;;;;x
@@ -758,21 +758,21 @@ WONDER_EFFECT_FINISH_UPGRADE;§Y[This.GetName]§!结束;;;;;;;;;;;;x
 WONDER_EFFECT_COMPLETE_STAGE;完成阶段$NUM|Y$;;;;;;;;;;;;x
 WONDER_OWNER_CHANGE_LOG;$WONDER_NAME|Y$的所有权由$OLD_OWNER|Y$转移给了$NEW_OWNER|Y$;;;;;;;;;;;;x
 WONDER_STAGE_RESUME_TT;恢复阶段建设;;;;;;;;;;;;x
-WONDER_STAGE_RESUME_TT_DELAYED_DISABLED;§R如果你破产了你就不能重新开始建造§!;;;;;;;;;;;;x
+WONDER_STAGE_RESUME_TT_DELAYED_DISABLED;§R如果你破产了你就不能恢复建造§!;;;;;;;;;;;;x
 WONDER_STAGE_PAUSE_TT;暂停阶段建设;;;;;;;;;;;;x
 WONDER_STAGE_ABORT_TT;中止阶段建造;;;;;;;;;;;;x
 WONDER_OWNER_MODIFIER_TT;§Y[Root.GetBestName]§!：\n$MODIFIER_DESCRIPTION$\n;;;;;;;;;;;;x
 WONDER_LOCAL_MODIFIER_TT;§Y[FromFromFrom.GetName]§!：\n$MODIFIER_DESCRIPTION$\n;;;;;;;;;;;;x
 WONDER_STAGE_MODIFIER_TT;$OWNER_MODIFIER_TEXT$$LOCAL_MODIFIER_TEXT$;;;;;;;;;;;;x
-WONDER_STAGE_NEXT_TT;下一等级（$NUM|Y$）;;;;;;;;;;;;x
+WONDER_STAGE_NEXT_TT;下一阶段（$NUM|Y$）;;;;;;;;;;;;x
 WONDER_STAGE_NEXT_TT_DELAYED;$MODIFIER_TEXT$$ALLOW_TRIGGER_TEXT$;;;;;;;;;;;;x
-WONDER_STAGE_NEXT_BUILD_TT;建造下一等级（$NUM|Y$）;;;;;;;;;;;;x
+WONDER_STAGE_NEXT_BUILD_TT;建造下一阶段（$NUM|Y$）;;;;;;;;;;;;x
 WONDER_STAGE_NEXT_BUILD_TT_DELAYED;$MODIFIER_TEXT$$ALLOW_TRIGGER_TEXT$;;;;;;;;;;;;x
-WONDER_STAGE_CURRENT_TT;当前等级（$NUM|Y$）;;;;;;;;;;;;x
+WONDER_STAGE_CURRENT_TT;当前阶段（$NUM|Y$）;;;;;;;;;;;;x
 WONDER_STAGE_CURRENT_TT_DELAYED;$MODIFIER_TEXT$$ALLOW_TRIGGER_TEXT$;;;;;;;;;;;;x
-WONDER_STAGE_NUMBERED_TT;第$NUM|Y$级;;;;;;;;;;;;x
+WONDER_STAGE_NUMBERED_TT;第$NUM|Y$阶段;;;;;;;;;;;;x
 WONDER_STAGE_PROGRESS_TT;阶段§Y[FromFrom.GetNextStageNumber]§!已完成§Y$NUM$%§!;;;;;;;;;;;;x
-WONDER_UPGRADE_RESUME_DISABLED_TT_DELAYED;§R如果你破产了你就不能重新开始建造§!;;;;;;;;;;;;x
+WONDER_UPGRADE_RESUME_DISABLED_TT_DELAYED;§R如果你破产了你就不能恢复建造§!;;;;;;;;;;;;x
 WONDER_UPGRADE_AVAILABLE_NAME_TT;$NAME$;;;;;;;;;;;;x
 WONDER_UPGRADE_OWNED_NAME_TT;[From.GetName];;;;;;;;;;;;x
 WONDER_UPGRADE_OWNED_NAME_COMPLETE_TT_DELAYED;[From.GetDesc];;;;;;;;;;;;x

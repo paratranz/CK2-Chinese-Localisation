@@ -5458,7 +5458,7 @@
     {
         "key": "EVTDESC_LT_60101",
         "original": "My scribes have been frequenting the [target_wonder.GetName] during their toil to finish my book. As they present me with a new extract it is clear that it has been a great help – the quality of the text is beyond reproach!",
-        "translation": "我的书吏在为我辛苦抄写书籍时，一直常去[target_wonder.GetName]。他们向我呈上新的节录本，无疑这本书会非常有用——文章质量也无可指摘。",
+        "translation": "我的书吏在为我辛苦抄写书籍时，一直常去[target_wonder.GetName]。他们向我呈上新的节录本，无疑这本书会非常有用——文章质量也无可指摘！",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -5466,7 +5466,7 @@
     {
         "key": "EVTOPTA_LT_60101",
         "original": "My scribes will shine with this [target_wonder.GetWonderAdj] construction's help!",
-        "translation": "在这座[target_wonder.GetWonderAdj]建筑的助益下，我的书吏会大放异彩。",
+        "translation": "在这座[target_wonder.GetWonderAdj]建筑的助益下，我的书吏会大放异彩！",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -5483,7 +5483,7 @@
         "key": "drink_from_fountain_of_youth",
         "original": "Drink from the Fountain of Youth",
         "translation": "饮用青春之泉",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5491,7 +5491,7 @@
         "key": "drink_from_fountain_of_youth_desc",
         "original": "The life-giving waters of the fountain is said to be able to wash away the effects of aging in anyone who drinks it.",
         "translation": "这泉水据说有给予人生命，洗净衰老的功效。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5499,7 +5499,7 @@
         "key": "has_not_chugged_in_10_years_TT",
         "original": "Drank too recently — cannot drink it again until §Y[Root.drank_from_fountain_cooldown.GetExpiryDate]§!",
         "translation": "最近才饮用——在§Y[Root.drank_from_fountain_cooldown.GetExpiryDate]§!之前无法再饮用",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5507,7 +5507,7 @@
         "key": "fountain_of_youth_custom_modifier_tt",
         "original": "Unlocks the §YDrink from the Fountain of Youth§! decision",
         "translation": "解锁§Y饮用青春之泉§!的决议",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5515,7 +5515,7 @@
         "key": "EVT_TITLE_LT_60201",
         "original": "Fountain of Youth",
         "translation": "青春之泉",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5523,7 +5523,7 @@
         "key": "EVTDESC_LT_60201_2",
         "original": "I jump into the [target_wonder.GetName], laughing with glee, and I am soon choking on the life-giving water as I swallow mouthful after mouthful. As I drag myself up onto the ledge with shaking arms I soon stop smiling...",
         "translation": "我欢笑着纵身跃入[target_wonder.GetName]，我一口接一口地咽下这长生之水，差点没把我呛着。当我用颤抖的双臂爬上岸边的岩石时，我的笑意很快消失了……",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5531,7 +5531,7 @@
         "key": "EVTOPTA_LT_60201",
         "original": "The years fall off me as I drink.",
         "translation": "年华被我从身上喝走了。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5539,7 +5539,7 @@
         "key": "EVTOPTB_LT_60201",
         "original": "I've never felt this old before!",
         "translation": "我以前从没觉得自己有这么老！",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5554,7 +5554,7 @@
     {
         "key": "title_lighthouse_custodian_desc",
         "original": "This honorific is awarded to a person who has shown themselves responsible and can be entrusted with the care of your lighthouse – keeping it both lit and functioning.",
-        "translation": "这个称号被授予一位已经展现出责任心，并可以被委托照看灯塔的人物——责任包括保持它的燃烧以及正常运转。",
+        "translation": "这个尊称被授予一位已经展现出责任心，并可以被委托照看灯塔的人物——责任包括保持它的燃烧以及正常运转。",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -5571,7 +5571,7 @@
         "key": "upgrade_stone_custodian",
         "original": "Custodian of the Stone",
         "translation": "磐石守卫",
-        "stage": 2,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5579,7 +5579,7 @@
         "key": "upgrade_stone_custodian_desc",
         "original": "Steady as a rock, and with immovable discipline, the custodian is responsible for the care of the stones.",
         "translation": "看守人严守纪律，意志坚如磐石，负责照管巨石。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5587,7 +5587,7 @@
         "key": "stone_custodian_custom_modifier_tt",
         "original": "Unlocks the §YCustodian of the Stone§! minor title",
         "translation": "解锁§Y磐石守卫§!的荣誉头衔",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5595,14 +5595,14 @@
         "key": "title_stone_custodian",
         "original": "Custodian of the Stone",
         "translation": "磐石守卫",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "title_stone_custodian_desc",
         "original": "This honorific is awarded to a person who has shown themselves steadfast in their loyalty and discipline.",
-        "translation": "这个称号被授予一位已经展现出忠贞不渝、严于律己的人物。",
+        "translation": "这个尊称授予一位已经展现出忠贞不渝、严于律己的人物。",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -5611,7 +5611,7 @@
         "key": "upgrade_more_stones",
         "original": "More Stones",
         "translation": "更多石头",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5619,7 +5619,7 @@
         "key": "upgrade_more_stones_desc",
         "original": "The colossal monoliths of this construction already inspire both awe and admiration – imagine the impact of even more stones!",
         "translation": "这座建筑的巨石让人既敬畏又钦佩——想象一下有更多巨石会有怎样的效果！",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5627,7 +5627,7 @@
         "key": "upgrade_golden_crown",
         "original": "Golden Crown",
         "translation": "金冠",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5635,15 +5635,15 @@
         "key": "upgrade_golden_crown_desc",
         "original": "A crown made of pure gold encircles the magnificent head of the statue.",
         "translation": "一顶纯金做成的王冠环绕着雕像宏伟的头部。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "upgrade_road_tolls",
         "original": "Road Tolls",
-        "translation": "收费站",
-        "stage": 1,
+        "translation": "道路收费站",
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5651,7 +5651,7 @@
         "key": "upgrade_road_tolls_desc",
         "original": "Anyone seeking passage through this area will be sternly encouraged to donate a small sum to the crown.",
         "translation": "任何想要通过这个区域的人都会被要求向国王捐一小笔钱。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5659,7 +5659,7 @@
         "key": "upgrade_horse_graveyard",
         "original": "Horse Graveyard",
         "translation": "马墓",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5667,7 +5667,7 @@
         "key": "upgrade_horse_graveyard_desc",
         "original": "A dedicated place for your beloved horses to rest forever more.",
         "translation": "一个供你的爱马永远安息的地方。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5675,7 +5675,7 @@
         "key": "upgrade_pet_graveyard",
         "original": "Pet Graveyard",
         "translation": "宠物墓地",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5683,7 +5683,7 @@
         "key": "upgrade_pet_graveyard_desc",
         "original": "A quiet and serene place for all pets to find eternal rest.",
         "translation": "一个宁静安谧的地方，宠物可以长眠于此。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5691,7 +5691,7 @@
         "key": "OFFMAP_MAP_MODE_DESC_DELAYED",
         "original": "Blue indicates realms that are within diplomatic range of the §Y[offmap_china.GetName]§!.\\nGreen indicates realms that have a peace treaty with the §Y[offmap_china.GetName]§!.\\nPurple indicates realms that are paying tribute to the §Y[offmap_china.GetName]§!.\\nRed indicates the realm of the §Y[offmap_china.Governor.GetTitle]§!.",
         "translation": "蓝色表示该领地处在§Y[offmap_china.GetName]§!的外交范围内。\\n绿色表示该领地与§Y[offmap_china.GetName]§!有和平条约。\\n紫色表示该领地正在向§Y[offmap_china.GetName]§!朝贡。\\n红色表示该领地属于§Y[offmap_china.Governor.GetTitle]§!。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5699,7 +5699,7 @@
         "key": "WONDER_NAME_TEMPLATE",
         "original": "$TYPE_NAME$ of [FromFromFrom.GetName]",
         "translation": "[FromFromFrom.GetName]的$TYPE_NAME$",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5707,7 +5707,7 @@
         "key": "WONDER_UPGRADE_NAME_TEMPLATE",
         "original": "[From.GetTypeName] of [FromFromFrom.GetName]",
         "translation": "[FromFromFrom.GetName]的[From.GetTypeName]",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5715,7 +5715,7 @@
         "key": "WONDER_BEING_BUILT",
         "original": "§Y[This.GetName]§! is being built",
         "translation": "§Y[This.GetName]§!正被建造",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5723,14 +5723,14 @@
         "key": "WONDER_NOT_BEING_BUILT",
         "original": "§Y[This.GetName]§! is not being built",
         "translation": "§Y[This.GetName]§!未被建造",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_SPECIFIC_BEING_BUILT_IN_PROVINCE",
         "original": "§Y$WONDER_TYPE$§! is being built in §Y[This.GetName]§!",
-        "translation": "§Y$WONDER_TYPE$§!正被建造于§Y[This.GetName]§!",
+        "translation": "§Y$WONDER_TYPE$§!正在§Y[This.GetName]§!中建造",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -5739,7 +5739,7 @@
         "key": "WONDER_SPECIFIC_BEING_BUILT_BY_CHARACTER",
         "original": "§Y$WONDER_TYPE$§! is being built by §Y[This.GetFirstName]§!",
         "translation": "§Y$WONDER_TYPE$§!正被§Y[This.GetFirstName]§!建造",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5747,7 +5747,7 @@
         "key": "WONDER_SPECIFIC_BEING_BUILT",
         "original": "§Y[This.GetName]§! is being built and is of type §Y$WONDER_TYPE$§!",
         "translation": "§Y[This.GetName]§!正被建造，是§Y$WONDER_TYPE$§!类型",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5755,7 +5755,7 @@
         "key": "WONDER_SPECIFIC_NOT_BEING_BUILT_IN_PROVINCE",
         "original": "§Y$WONDER_TYPE$§! is not being built in §Y[This.GetName]§!",
         "translation": "§Y$WONDER_TYPE$§!没有被建造于§Y[This.GetName]§!",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5763,7 +5763,7 @@
         "key": "WONDER_SPECIFIC_NOT_BEING_BUILT_BY_CHARACTER",
         "original": "§Y$WONDER_TYPE$§! is not being built by §Y[This.GetFirstName]§!",
         "translation": "§Y$WONDER_TYPE$§!没有被§Y[This.GetFirstName]§!建造",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5771,7 +5771,7 @@
         "key": "WONDER_SPECIFIC_NOT_BEING_BUILT",
         "original": "§Y[This.GetName]§! is not being built or is not of type §Y$WONDER_TYPE$§!",
         "translation": "§Y[This.GetName]§!没有被建造或不是§Y$WONDER_TYPE$§!类型",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5779,7 +5779,7 @@
         "key": "WONDER_UPGRADE_BEING_BUILT",
         "original": "A feature is being built for §Y[This.GetName]§!",
         "translation": "正在为§Y[This.GetName]§!修建附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5787,7 +5787,7 @@
         "key": "WONDER_UPGRADE_NOT_BEING_BUILT",
         "original": "A feature is not being built for §Y[This.GetName]§!",
         "translation": "没有正在为§Y[This.GetName]§!修建附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5795,7 +5795,7 @@
         "key": "WONDER_SPECIFIC_UPGRADE_BEING_BUILT_IN_PROVINCE",
         "original": "§Y$WONDER_UPGRADE_TYPE$§! is being built in §Y[This.GetName]§!",
         "translation": "§Y$WONDER_UPGRADE_TYPE$§!正被建造于§Y[This.GetName]§!",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5803,7 +5803,7 @@
         "key": "WONDER_SPECIFIC_UPGRADE_BEING_BUILT_BY_CHARACTER",
         "original": "§Y$WONDER_UPGRADE_TYPE$§! is being built by §Y[This.GetFirstName]§!",
         "translation": "§Y$WONDER_UPGRADE_TYPE$§!正被§Y[This.GetFirstName]§!建造",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5811,7 +5811,7 @@
         "key": "WONDER_SPECIFIC_UPGRADE_BEING_BUILT",
         "original": "§Y$WONDER_UPGRADE_TYPE$§! is being built for §Y[This.GetName]§!",
         "translation": "§Y$WONDER_UPGRADE_TYPE$§!正在为§Y[This.GetName]§!建造",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5819,7 +5819,7 @@
         "key": "WONDER_SPECIFIC_UPGRADE_NOT_BEING_BUILT_IN_PROVINCE",
         "original": "§Y$WONDER_UPGRADE_TYPE$§! is not being built in §Y[This.GetName]§!",
         "translation": "§Y$WONDER_UPGRADE_TYPE$§!没有在§Y[This.GetName]§!建造",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5827,7 +5827,7 @@
         "key": "WONDER_SPECIFIC_UPGRADE_NOT_BEING_BUILT_BY_CHARACTER",
         "original": "§Y$WONDER_UPGRADE_TYPE$§! is not being built by §Y[This.GetFirstName]§!",
         "translation": "§Y$WONDER_UPGRADE_TYPE$§!现在未被§Y[This.GetFirstName]§!建造",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5835,7 +5835,7 @@
         "key": "WONDER_SPECIFIC_UPGRADE_NOT_BEING_BUILT",
         "original": "§Y$WONDER_UPGRADE_TYPE$§! is not being built for §Y[This.GetName]§!",
         "translation": "§Y$WONDER_UPGRADE_TYPE$§!不是为§Y[This.GetName]§!建造",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5843,7 +5843,7 @@
         "key": "WONDER_BUILT",
         "original": "§Y[This.GetName]§! has been built",
         "translation": "§Y[This.GetName]§!已被建造",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5851,7 +5851,7 @@
         "key": "WONDER_NOT_BUILT",
         "original": "§Y[This.GetName]§! has not been built",
         "translation": "§Y[This.GetName]§!未被建造",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5859,7 +5859,7 @@
         "key": "WONDER_SPECIFIC_BUILT_IN_PROVINCE",
         "original": "§Y$WONDER_TYPE$§! has been built in §Y[This.GetName]§!",
         "translation": "§Y$WONDER_TYPE$§!已被建造于§Y[This.GetName]§!",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5867,7 +5867,7 @@
         "key": "WONDER_SPECIFIC_BUILT_BY_CHARACTER",
         "original": "§Y$WONDER_TYPE$§! has been built by §Y[This.GetFirstName]§!",
         "translation": "§Y$WONDER_TYPE$§!已被§Y[This.GetFirstName]§!建造",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5875,7 +5875,7 @@
         "key": "WONDER_SPECIFIC_BUILT",
         "original": "§Y[This.GetName]§! has been built and is of type §Y$WONDER_TYPE$§!",
         "translation": "§Y[This.GetName]§!已经建成，是§Y$WONDER_TYPE$§!类型",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5883,7 +5883,7 @@
         "key": "WONDER_SPECIFIC_NOT_BUILT_IN_PROVINCE",
         "original": "§Y$WONDER_TYPE$§! has not been built in §Y[This.GetName]§!",
         "translation": "§Y$WONDER_TYPE$§!还未在§Y[This.GetName]§!建成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5891,7 +5891,7 @@
         "key": "WONDER_SPECIFIC_NOT_BUILT_BY_CHARACTER",
         "original": "§Y$WONDER_TYPE$§! has not been built by §Y[This.GetFirstName]§!",
         "translation": "§Y$WONDER_TYPE$§!没有被§Y[This.GetFirstName]§!建成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5899,7 +5899,7 @@
         "key": "WONDER_SPECIFIC_NOT_BUILT",
         "original": "§Y[This.GetName]§! has not been built or is not of type §Y$WONDER_TYPE$§!",
         "translation": "§Y[This.GetName]§!还未建成或不是§Y$WONDER_TYPE$§!类型",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5907,7 +5907,7 @@
         "key": "WONDER_SPECIFIC_UPGRADE_BUILT_IN_PROVINCE",
         "original": "§Y$WONDER_UPGRADE_TYPE$§! has been built in §Y[This.GetName]§!",
         "translation": "§Y$WONDER_UPGRADE_TYPE$§!已经在§Y[This.GetName]§!建成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5915,7 +5915,7 @@
         "key": "WONDER_SPECIFIC_UPGRADE_BUILT_BY_CHARACTER",
         "original": "§Y$WONDER_UPGRADE_TYPE$§! has been built by §Y[This.GetFirstName]§!",
         "translation": "§Y$WONDER_UPGRADE_TYPE$§!已被§Y[This.GetFirstName]§!建造",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5923,7 +5923,7 @@
         "key": "WONDER_SPECIFIC_UPGRADE_BUILT_FOR_WONDER",
         "original": "§Y$WONDER_UPGRADE_TYPE$§! has been built for §Y[This.GetName]§!",
         "translation": "§Y$WONDER_UPGRADE_TYPE$§!已经为§Y[This.GetName]§!建成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5931,7 +5931,7 @@
         "key": "WONDER_SPECIFIC_UPGRADE_BUILT",
         "original": "§Y$WONDER_UPGRADE_TYPE$§! has been built",
         "translation": "§Y$WONDER_UPGRADE_TYPE$§!已被建造",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5939,7 +5939,7 @@
         "key": "WONDER_SPECIFIC_UPGRADE_NOT_BUILT_IN_PROVINCE",
         "original": "§Y$WONDER_UPGRADE_TYPE$§! has not been built in §Y[This.GetName]§!",
         "translation": "§Y$WONDER_UPGRADE_TYPE$§!还未在§Y[This.GetName]§!建成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5947,7 +5947,7 @@
         "key": "WONDER_SPECIFIC_UPGRADE_NOT_BUILT_BY_CHARACTER",
         "original": "§Y$WONDER_UPGRADE_TYPE$§! has not been built by §Y[This.GetFirstName]§!",
         "translation": "§Y$WONDER_UPGRADE_TYPE$§!还未被§Y[This.GetFirstName]§!建成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5955,7 +5955,7 @@
         "key": "WONDER_SPECIFIC_UPGRADE_NOT_BUILT_FOR_WONDER",
         "original": "§Y$WONDER_UPGRADE_TYPE$§! has not been built for §Y[This.GetName]§!",
         "translation": "§Y$WONDER_UPGRADE_TYPE$§!还没有为§Y[This.GetName]§!建成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -5963,22 +5963,22 @@
         "key": "WONDER_SPECIFIC_UPGRADE_NOT_BUILT",
         "original": "§Y$WONDER_UPGRADE_TYPE$§! has not been built",
         "translation": "§Y$WONDER_UPGRADE_TYPE$§!还未建成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_STAGE_TRIGGER",
         "original": "Current stage is $COMPARISON$ $VALUE|Y$",
-        "translation": "当前阶段是$COMPARISON$ $VALUE|Y$",
-        "stage": 1,
+        "translation": "当前阶段$COMPARISON$ $VALUE|Y$",
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_AGE_TRIGGER",
         "original": "§Y[This.GetName]§! is $COMPARISON$ $VALUE|Y$ years old",
-        "translation": "§Y[This.GetName]§!有$COMPARISON$ $VALUE|Y$年了",
+        "translation": "§Y[This.GetName]§!$COMPARISON$ $VALUE|Y$年了",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -5986,7 +5986,7 @@
     {
         "key": "WONDER_STAGE_AGE_TRIGGER",
         "original": "The current stage is $COMPARISON$ $VALUE|Y$ years old",
-        "translation": "当前阶段有$COMPARISON$ $VALUE|Y$年了",
+        "translation": "当前阶段$COMPARISON$ $VALUE|Y$年了",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -5995,7 +5995,7 @@
         "key": "HAS_NOT_WONDER_FLAG",
         "original": "Does NOT have the $FLAG|Y$ flag",
         "translation": "没有$FLAG|Y$旗标",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -6003,7 +6003,7 @@
         "key": "HAS_WONDER_FLAG",
         "original": "Does have the $FLAG|Y$ flag",
         "translation": "拥有$FLAG|Y$旗标",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -6011,7 +6011,7 @@
         "key": "HAS_NOT_WONDER_UPGRADE_FLAG",
         "original": "Does NOT have the $FLAG|Y$ flag",
         "translation": "没有$FLAG|Y$旗标",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -6019,7 +6019,7 @@
         "key": "HAS_WONDER_UPGRADE_FLAG",
         "original": "Does have the $FLAG|Y$ flag",
         "translation": "拥有$FLAG|Y$旗标",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -6027,7 +6027,7 @@
         "key": "WONDER_EFFECT_ADD_SPECIFIC_UPGRADE",
         "original": "Add $WONDER_UPGRADE_TYPE|Y$ feature",
         "translation": "增加附属建筑$WONDER_UPGRADE_TYPE|Y$",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -6035,7 +6035,7 @@
         "key": "WONDER_EFFECT_FINISH_UPGRADE",
         "original": "Finish §Y[This.GetName]§!",
         "translation": "§Y[This.GetName]§!结束",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -6043,7 +6043,7 @@
         "key": "WONDER_EFFECT_COMPLETE_STAGE",
         "original": "Complete stage $NUM|Y$",
         "translation": "完成阶段$NUM|Y$",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -6051,7 +6051,7 @@
         "key": "WONDER_OWNER_CHANGE_LOG",
         "original": "Ownership of $WONDER_NAME|Y$ was transferred from $OLD_OWNER|Y$ to $NEW_OWNER|Y$",
         "translation": "$WONDER_NAME|Y$的所有权由$OLD_OWNER|Y$转移给了$NEW_OWNER|Y$",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -6059,14 +6059,14 @@
         "key": "WONDER_STAGE_RESUME_TT",
         "original": "Resume stage construction",
         "translation": "恢复阶段建设",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_STAGE_RESUME_TT_DELAYED_DISABLED",
         "original": "§RYou can not resume construction if you are bankrupt§!",
-        "translation": "§R如果你破产了你就不能重新开始建造§!",
+        "translation": "§R如果你破产了你就不能恢复建造§!",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -6075,7 +6075,7 @@
         "key": "WONDER_STAGE_PAUSE_TT",
         "original": "Pause stage construction",
         "translation": "暂停阶段建设",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -6083,7 +6083,7 @@
         "key": "WONDER_STAGE_ABORT_TT",
         "original": "Abort stage construction",
         "translation": "中止阶段建造",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -6091,7 +6091,7 @@
         "key": "WONDER_OWNER_MODIFIER_TT",
         "original": "§Y[Root.GetBestName]§!:\\n$MODIFIER_DESCRIPTION$\\n",
         "translation": "§Y[Root.GetBestName]§!：\\n$MODIFIER_DESCRIPTION$\\n",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -6099,7 +6099,7 @@
         "key": "WONDER_LOCAL_MODIFIER_TT",
         "original": "§Y[FromFromFrom.GetName]§!:\\n$MODIFIER_DESCRIPTION$\\n",
         "translation": "§Y[FromFromFrom.GetName]§!：\\n$MODIFIER_DESCRIPTION$\\n",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -6114,8 +6114,8 @@
     {
         "key": "WONDER_STAGE_NEXT_TT",
         "original": "Next stage ($NUM|Y$)",
-        "translation": "下一等级（$NUM|Y$）",
-        "stage": 1,
+        "translation": "下一阶段（$NUM|Y$）",
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -6130,8 +6130,8 @@
     {
         "key": "WONDER_STAGE_NEXT_BUILD_TT",
         "original": "Build next stage ($NUM|Y$)",
-        "translation": "建造下一等级（$NUM|Y$）",
-        "stage": 1,
+        "translation": "建造下一阶段（$NUM|Y$）",
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -6146,8 +6146,8 @@
     {
         "key": "WONDER_STAGE_CURRENT_TT",
         "original": "Current stage ($NUM|Y$)",
-        "translation": "当前等级（$NUM|Y$）",
-        "stage": 1,
+        "translation": "当前阶段（$NUM|Y$）",
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -6162,8 +6162,8 @@
     {
         "key": "WONDER_STAGE_NUMBERED_TT",
         "original": "Stage $NUM|Y$",
-        "translation": "第$NUM|Y$级",
-        "stage": 1,
+        "translation": "第$NUM|Y$阶段",
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -6171,14 +6171,14 @@
         "key": "WONDER_STAGE_PROGRESS_TT",
         "original": "Stage §Y[FromFrom.GetNextStageNumber]§! is §Y$NUM$%§! done",
         "translation": "阶段§Y[FromFrom.GetNextStageNumber]§!已完成§Y$NUM$%§!",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_UPGRADE_RESUME_DISABLED_TT_DELAYED",
         "original": "§RYou can not resume construction if you are bankrupt§!",
-        "translation": "§R如果你破产了你就不能重新开始建造§!",
+        "translation": "§R如果你破产了你就不能恢复建造§!",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
