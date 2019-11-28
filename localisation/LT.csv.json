@@ -10123,7 +10123,7 @@
         "key": "WONDER_LOOT_DELAYED_TT",
         "original": "Start looting the §Y[FromFrom.GetWonderTypeShort]§!.\\nThis can yield treasures but will also cause damage and render the §Y[FromFrom.GetWonderTypeShort]§! unusable until it has been restored.",
         "translation": "开始劫掠§Y[FromFrom.GetWonderTypeShort]§!。\\n这样做可以获得财宝，但也会造成损坏，使得§Y[FromFrom.GetWonderTypeShort]§!被修复前都将无法发挥作用。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10131,7 +10131,7 @@
         "key": "STOP_LOOT",
         "original": "Stop looting",
         "translation": "停止劫掠",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10139,7 +10139,7 @@
         "key": "WONDER_STOP_LOOT_DELAYED_TT",
         "original": "Abandon all looting progress and cause no further damage to the §Y[FromFrom.GetWonderTypeShort]§!.",
         "translation": "放弃所有劫掠进度，不再对§Y[FromFrom.GetWonderTypeShort]§!造成进一步的损害。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10147,7 +10147,7 @@
         "key": "RESTORE",
         "original": "Restore",
         "translation": "修复",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10155,7 +10155,7 @@
         "key": "STOP_RESTORE",
         "original": "Stop restoring",
         "translation": "停止修复",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10163,7 +10163,7 @@
         "key": "WONDER_RESTORE_DELAYED_TT",
         "original": "Start restoring the §Y[FromFrom.GetWonderTypeShort]§! to its former glory!\\nRestoration will cost §R$FLAT_COST$§!¤to initiate and $TICKING_COST|R$¤per month until it is completed.\\nIt will take $TIME_TO_BUILD|Y$ to finish restoration and once completed, the §Y[FromFrom.GetWonderTypeShort]§! will be at stage §Y[FromFrom.GetCurrentStageNumber]§!.",
         "translation": "开始修复§Y[FromFrom.GetWonderTypeShort]§!，让其焕发往日的荣光！\\n发起修复需要花费§R$FLAT_COST$§!¤，直到完成每月还需投入$TICKING_COST|R$¤。\\n完成修复需要$TIME_TO_BUILD|Y$，一旦完成，§Y[FromFrom.GetWonderTypeShort]§!将会处于第§Y[FromFrom.GetCurrentStageNumber]§!阶段。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10171,7 +10171,7 @@
         "key": "WONDER_STOP_RESTORE_DELAYED_TT",
         "original": "Abandon all restoration progress for the §Y[FromFrom.GetWonderTypeShort]§!.",
         "translation": "放弃所有对§Y[FromFrom.GetWonderTypeShort]§!的修复进度。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10179,7 +10179,7 @@
         "key": "WONDER_HISTORY_STAGE_LOOTED",
         "original": "Stage $STAGE_NUMBER$ was looted",
         "translation": "$STAGE_NUMBER$阶段被劫掠",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10187,7 +10187,7 @@
         "key": "WONDER_HISTORY_RESTORED",
         "original": "Restored to its former glory!",
         "translation": "恢复了往日的荣光！",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10195,15 +10195,15 @@
         "key": "WONDER_HISTORY_UPGRADE_DESTROYED",
         "original": "The $UPGRADE_NAME$ was destroyed.",
         "translation": "$UPGRADE_NAME$被摧毁了。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_STAGE_LOOT_PROGRESS_TT",
         "original": "Stage §Y[FromFrom.GetCurrentStageNumber]§! is §Y$NUM$%§! looted.",
-        "translation": "阶段§Y[FromFrom.GetCurrentStageNumber]§!被劫掠了§Y$NUM$§!个阶段",
-        "stage": 1,
+        "translation": "阶段§Y[FromFrom.GetCurrentStageNumber]§!被劫掠了§Y$NUM$%§!。",
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10211,7 +10211,7 @@
         "key": "WONDER_RESTORE_PROGRESS_TT",
         "original": "The damages are $NUM$% repaired.",
         "translation": "损坏被修复$NUM$%。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10219,7 +10219,7 @@
         "key": "IS_WONDER_DAMAGED_TRIGGER",
         "original": "Is damaged",
         "translation": "受损",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10227,7 +10227,7 @@
         "key": "NOT_IS_WONDER_DAMAGED_TRIGGER",
         "original": "Is NOT damaged",
         "translation": "未受损",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10235,7 +10235,7 @@
         "key": "IS_WONDER_BEING_LOOTED_TRIGGER",
         "original": "Is being looted",
         "translation": "正被劫掠",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10243,7 +10243,7 @@
         "key": "NOT_IS_WONDER_BEING_LOOTED_TRIGGER",
         "original": "Is NOT being looted",
         "translation": "未被劫掠",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10251,7 +10251,7 @@
         "key": "IS_WONDER_BEING_RESTORED_TRIGGER",
         "original": "Is being restored",
         "translation": "正在被修复",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10259,7 +10259,7 @@
         "key": "NOT_IS_WONDER_BEING_RESTORED_TRIGGER",
         "original": "Is NOT being restored",
         "translation": "未处于被修复状态",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10267,7 +10267,7 @@
         "key": "WONDER_RESTORE_PAUSE_TT",
         "original": "Pause restoration",
         "translation": "暂停修复",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10275,7 +10275,7 @@
         "key": "WONDER_RESTORE_PAUSE_TT_DELAYED",
         "original": "While restoration is paused there is no restoration upkeep.",
         "translation": "暂停修复时不消耗每月修复费用",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10283,7 +10283,7 @@
         "key": "WONDER_STAGE_PAUSE_TT_DELAYED",
         "original": "While stage construction is paused there is no stage construction upkeep.",
         "translation": "暂停阶段建设时不消耗每月建设费用。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10291,14 +10291,14 @@
         "key": "WONDER_RESTORE_RESUME_TT",
         "original": "Resume restoration",
         "translation": "重新开始修复",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_RESTORE_RESUME_TT_DELAYED_DISABLED",
         "original": "§RYou can not resume restoration if you are bankrupt§!",
-        "translation": "§R如果你破产了你就不能重新开始修复§!",
+        "translation": "§R如果你破产了你就不能继续修复§!",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -10307,7 +10307,7 @@
         "key": "HAS_CUSTOM_NAME",
         "original": "Has custom name",
         "translation": "有自定义名字",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10315,7 +10315,7 @@
         "key": "NOT_HAS_CUSTOM_NAME",
         "original": "Does NOT have custom name",
         "translation": "没有自定义名字",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10323,7 +10323,7 @@
         "key": "HAS_CUSTOM_DESCRIPTION",
         "original": "Has custom description",
         "translation": "有自定义的描述",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10331,7 +10331,7 @@
         "key": "NOT_HAS_CUSTOM_DESCRIPTION",
         "original": "Does NOT have custom description",
         "translation": "没有自定义的描述",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10339,7 +10339,7 @@
         "key": "OUTLINER_RESTORING_WONDER",
         "original": "Currently restoring the §Y[FromFrom.GetWonderTypeShort]§!",
         "translation": "正在修复§Y[FromFrom.GetWonderTypeShort]§!",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10347,7 +10347,7 @@
         "key": "WONDER_LOOTING_FINISHED_SETUP",
         "original": "Great Work looted",
         "translation": "奇观被劫掠",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10355,7 +10355,7 @@
         "key": "WONDER_LOOTING_FINISHED_LOG",
         "original": "The looting of stage $STAGE|Y$ has been completed for $WONDER|Y$",
         "translation": "对第$STAGE|Y$阶段$WONDER|Y$的劫掠已完成了",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10363,7 +10363,7 @@
         "key": "WONDER_RESTORATION_FINISHED_SETUP",
         "original": "Great Work restored",
         "translation": "奇观被修复",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10371,7 +10371,7 @@
         "key": "WONDER_RESTORATION_FINISHED_LOG",
         "original": "$WONDER|Y$ has been restored to its former glory!",
         "translation": "$WONDER|Y$恢复了往日的荣光！",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10379,7 +10379,7 @@
         "key": "WONDER_STAGE_GREATER",
         "original": "Stage is greater than $STAGE_NUMBER|Y$",
         "translation": "阶段大于$STAGE_NUMBER|Y$",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10387,7 +10387,7 @@
         "key": "NOT_WONDER_STAGE_GREATER",
         "original": "Stage is NOT greater than $STAGE_NUMBER|Y$",
         "translation": "阶段不大于$STAGE_NUMBER|Y$",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10395,7 +10395,7 @@
         "key": "CONFIRM_ABORT_WONDER_RESTORATION_TITLE",
         "original": "Abort restoration?",
         "translation": "中止修复？",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10403,7 +10403,7 @@
         "key": "CONFIRM_ABORT_WONDER_RESTORATION_CONSTRUCTION_TEXT",
         "original": "Are you sure you want to abort restoration of the §Y[FromFrom.GetWonderTypeShort]§!?\\n\\nNo gold will be refunded for this action",
         "translation": "你是否确定想中止对§Y[FromFrom.GetWonderTypeShort]§!的修复？\\n\\n已花费的金钱将不予退还。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10411,7 +10411,7 @@
         "key": "CHAR_IS_INDEPENDENT",
         "original": "§Y[This.GetTitledFirstName]§! is independent",
         "translation": "§Y[This.GetTitledFirstName]§!是独立的",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10419,7 +10419,7 @@
         "key": "NOT_CHAR_IS_INDEPENDENT",
         "original": "§Y[This.GetTitledFirstName]§! is not independent",
         "translation": "§Y[This.GetTitledFirstName]§!不是独立的",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10427,7 +10427,7 @@
         "key": "CURRENT_WONDER_STAGE_LOOTABLE",
         "original": "The current stage is lootable",
         "translation": "当下状态可供劫掠",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10435,7 +10435,7 @@
         "key": "NOT_CURRENT_WONDER_STAGE_LOOTABLE",
         "original": "The current stage is NOT lootable",
         "translation": "当下状态不能劫掠",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10443,7 +10443,7 @@
         "key": "WONDER_IS_AT_MAX_STAGE",
         "original": "The Great Work is at its final stage",
         "translation": "奇观处于最高等级",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10451,7 +10451,7 @@
         "key": "NOT_WONDER_IS_AT_MAX_STAGE",
         "original": "The Great Work is NOT at its final stage",
         "translation": "奇观并非最高等级",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10459,7 +10459,7 @@
         "key": "String_time_immemorial_cap",
         "original": "Time immemorial",
         "translation": "太古以来",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10467,15 +10467,15 @@
         "key": "recruit_wonder_guard",
         "original": "Recruit an Honor Guard",
         "translation": "招募荣誉卫队",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "recruit_wonder_guard_desc",
         "original": " A Great Work should not be without protection. Let us recruit a force to protect it, and maybe it can be useful also for other missions.",
-        "translation": "奇观不能没人保护。我们应该招点人来守护它，或许他们还能在别的任务中发挥作用……",
-        "stage": 1,
+        "translation": "奇观不能没人保护。我们应该招点人来守护它，或许他们还能在别的任务中发挥作用。",
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10483,7 +10483,7 @@
         "key": "String_Great_work",
         "original": "Great work",
         "translation": "奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10491,7 +10491,7 @@
         "key": "String_great_work",
         "original": "great work",
         "translation": "奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10499,7 +10499,7 @@
         "key": "ANY_WONDER_STARTS",
         "original": "Any Great Work",
         "translation": "任意奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10507,7 +10507,7 @@
         "key": "ANY_OWNED_WONDER_STARTS",
         "original": "Any Demesne Great Work",
         "translation": "直辖领内的任意奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10515,7 +10515,7 @@
         "key": "ANY_REALM_WONDER_STARTS",
         "original": "Any Great Work in Realm",
         "translation": "国家内的任意奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10523,7 +10523,7 @@
         "key": "ANY_WONDER_UPGRADE_STARTS",
         "original": "Any Great Work Feature",
         "translation": "任意奇观附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10531,14 +10531,14 @@
         "key": "ANY_OWNED_WONDER_UPGRADE_STARTS",
         "original": "Any Demesne Great Work Feature",
         "translation": "直辖内任意奇观附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "ANY_REALM_WONDER_UPGRADE_STARTS",
         "original": "Any Great Work Feature in Realm",
-        "translation": "国度内任意奇观附属建筑",
+        "translation": "国内任意奇观附属建筑",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -10547,7 +10547,7 @@
         "key": "ANY_UPGRADE_ON_WONDER",
         "original": "Any Feature on Great Work",
         "translation": "奇观上任意附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10555,7 +10555,7 @@
         "key": "WONDERS_ALL",
         "original": "All Great Works",
         "translation": "所有奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10563,7 +10563,7 @@
         "key": "WONDERS_ALL_OWNED",
         "original": "All Demesne Great Work",
         "translation": "直辖领内的所有奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10571,7 +10571,7 @@
         "key": "WONDERS_ALL_REALM",
         "original": "All Realm Great Work",
         "translation": "国家内的所有奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10579,7 +10579,7 @@
         "key": "WONDER_UPGRADES_ALL",
         "original": "All Great Work Features",
         "translation": "所有的奇观附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10587,15 +10587,15 @@
         "key": "WONDER_UPGRADES_ALL_OWNED",
         "original": "All Demesne Great Work Features",
         "translation": "直辖领内所有奇观附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_UPGRADES_ALL_REALM",
         "original": "All Realm Great Work Features",
-        "translation": "国度内所有奇观附属建筑",
-        "stage": 1,
+        "translation": "国家内所有奇观附属建筑",
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10603,7 +10603,7 @@
         "key": "WONDERS_ALL_OWNERS",
         "original": "All Great Work Owners",
         "translation": "所有奇观的拥有者",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10611,7 +10611,7 @@
         "key": "WONDERS_ALL_UPGRADES_ON",
         "original": "All Features on Great Work",
         "translation": "奇观的所有附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10619,7 +10619,7 @@
         "key": "WONDER_ALL_PREVIOUS_WONDER_OWNERS",
         "original": "All Previous Owners of Great Work",
         "translation": "所有奇观的前任拥有者",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10627,7 +10627,7 @@
         "key": "ANY_WONDER_OWNER_STARTS",
         "original": "Any Great Work Owner",
         "translation": "任意奇观的拥有者",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10635,7 +10635,7 @@
         "key": "ANY_PREVIOUS_WONDER_OWNER_STARTS",
         "original": "Any Previous Owner of Great Work",
         "translation": "任意奇观的前任拥有者",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10643,7 +10643,7 @@
         "key": "WONDER_BEING_BUILT_IN_PROVINCE",
         "original": "A great work is being built in §Y[This.GetName]§!",
         "translation": "§Y[This.GetName]§!正在建造奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10651,7 +10651,7 @@
         "key": "WONDER_BEING_BUILT_BY_CHARACTER",
         "original": "A great work is being built by §Y[This.GetFirstName]§!",
         "translation": "§Y[This.GetFirstName]§!正在建造奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10659,14 +10659,14 @@
         "key": "WONDER_NOT_BEING_BUILT_IN_PROVINCE",
         "original": "A great work is not being built in §Y[This.GetName]§!",
         "translation": "§Y[This.GetName]§!的奇观未开始建设",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_NOT_BEING_BUILT_BY_CHARACTER",
         "original": "A great work is not being built by §Y[This.GetFirstName]§!",
-        "translation": "§Y[This.GetFirstName]§!未投资建设奇观",
+        "translation": "§Y[This.GetFirstName]§!未正在建设奇观",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -10675,7 +10675,7 @@
         "key": "WONDER_UPGRADE_BEING_BUILT_IN_PROVINCE",
         "original": "A great work feature is being built in §Y[This.GetName]§!",
         "translation": "奇观附属建筑未在§Y[This.GetName]§!投建",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10683,7 +10683,7 @@
         "key": "WONDER_UPGRADE_BEING_BUILT_BY_CHARACTER",
         "original": "A great work feature is being built by §Y[This.GetFirstName]§!",
         "translation": "§Y[This.GetFirstName]§!正在建设一个附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10691,14 +10691,14 @@
         "key": "WONDER_UPGRADE_NOT_BEING_BUILT_IN_PROVINCE",
         "original": "A great work feature is not being built in §Y[This.GetName]§!",
         "translation": "§Y[This.GetName]§!不在建设附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_UPGRADE_NOT_BEING_BUILT_BY_CHARACTER",
         "original": "A great work feature is not being built by §Y[This.GetFirstName]§!",
-        "translation": "§Y[This.GetFirstName]§!不在投资建设一个奇观附属建筑",
+        "translation": "§Y[This.GetFirstName]§!不在建设一个奇观附属建筑",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -10707,7 +10707,7 @@
         "key": "WONDER_BUILT_IN_PROVINCE",
         "original": "A great work has been built in §Y[This.GetName]§!",
         "translation": "一个奇观已在§Y[This.GetName]§!建成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10715,7 +10715,7 @@
         "key": "WONDER_BUILT_BY_CHARACTER",
         "original": "A great work has been built by §Y[This.GetFirstName]§!",
         "translation": "§Y[This.GetFirstName]§!已建成一个奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10723,7 +10723,7 @@
         "key": "WONDER_NOT_BUILT_IN_PROVINCE",
         "original": "A great work has not been built in §Y[This.GetName]§!",
         "translation": "尚无奇观在§Y[This.GetName]§!建成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10731,7 +10731,7 @@
         "key": "WONDER_NOT_BUILT_BY_CHARACTER",
         "original": "A great work has not been built by §Y[This.GetFirstName]§!",
         "translation": "§Y[This.GetFirstName]§!未投资建设奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10739,15 +10739,15 @@
         "key": "WONDER_UPGRADE_BUILT_IN_PROVINCE",
         "original": "A great work feature has been built in §Y[This.GetName]§!",
         "translation": "一个奇观附属建筑已在§Y[This.GetName]§!建成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_UPGRADE_BUILT_BY_CHARACTER",
         "original": "A great work feature has been built by §Y[This.GetFirstName]§!",
-        "translation": "§Y[This.GetFirstName]§!已投资建成一个奇观附属建筑",
-        "stage": 1,
+        "translation": "§Y[This.GetFirstName]§!已建成一个奇观附属建筑",
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10755,7 +10755,7 @@
         "key": "WONDER_UPGRADE_NOT_BUILT_IN_PROVINCE",
         "original": "A great work feature has not been built in §Y[This.GetName]§!",
         "translation": "尚无奇观附属建筑在§Y[This.GetName]§!建成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10763,14 +10763,14 @@
         "key": "WONDER_UPGRADE_NOT_BUILT_BY_CHARACTER",
         "original": "A great work feature has not been built by §Y[This.GetFirstName]§!",
         "translation": "§Y[This.GetFirstName]§!尚未投资建设奇观附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_NUM_OF_CHARACTER",
         "original": "§Y[This.GetFirstName]§! has $COMPARISON$ $VALUE|Y$ great works",
-        "translation": "§Y[This.GetFirstName]§!已投资建成$COMPARISON$$VALUE|Y$个奇观",
+        "translation": "§Y[This.GetFirstName]§!已建成$COMPARISON$$VALUE|Y$个奇观",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -10778,7 +10778,7 @@
     {
         "key": "WONDER_NUM_IN_PROVINCE",
         "original": "§Y[This.GetName]§! has $COMPARISON$ $VALUE|Y$ great works",
-        "translation": "$COMPARISON$$VALUE|Y$个奇观已在§Y[This.GetName]§!建成",
+        "translation": "§Y[This.GetName]§!有$COMPARISON$$VALUE|Y$个奇观",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -10786,7 +10786,7 @@
     {
         "key": "WONDER_UPGRADE_NUM_OF_CHARACTER",
         "original": "§Y[This.GetFirstName]§! has $COMPARISON$ $VALUE|Y$ great work features",
-        "translation": "§Y[This.GetFirstName]§!已投资建成$COMPARISON$$VALUE|Y$个奇观附属建筑",
+        "translation": "§Y[This.GetFirstName]§!有$COMPARISON$$VALUE|Y$个奇观附属建筑",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -10794,7 +10794,7 @@
     {
         "key": "WONDER_UPGRADE_NUM_IN_PROVINCE",
         "original": "§Y[This.GetName]§! has $COMPARISON$ $VALUE|Y$ great work features",
-        "translation": "$COMPARISON$$VALUE|Y$个奇观附属建筑已在§Y[This.GetName]§!建成",
+        "translation": "§Y[This.GetName]§!有$COMPARISON$$VALUE|Y$个奇观附属建筑",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -10803,7 +10803,7 @@
         "key": "WONDER_UPGRADE_COMPLETE",
         "original": "Feature is complete",
         "translation": "附属建筑建设完成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10811,7 +10811,7 @@
         "key": "WONDER_ALREADY_HAS_UPGRADE",
         "original": "Great Work does not already have a feature of this type",
         "translation": "奇观尚未建成同类型附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10819,7 +10819,7 @@
         "key": "WONDER_OWNER_CHANGE_SETUP",
         "original": "Great Work Owner Change",
         "translation": "奇观拥有者变更",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10827,7 +10827,7 @@
         "key": "WONDER_STAGE_ABORT_TT_DELAYED",
         "original": "Aborting stage construction will §Rremove§! the Great Work from the province!",
         "translation": "中止建设将会从该省份§R移除§!奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10835,7 +10835,7 @@
         "key": "WONDER_UPGRADE_ABORT_TT_DELAYED",
         "original": "Aborting feature construction will §Rremove§! the feature from the Great Work!",
         "translation": "中止建设附属建筑将会从奇观中§R移除§!对应附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10843,14 +10843,14 @@
         "key": "WONDERS_MODIFIER_STRING",
         "original": "Great Works",
         "translation": "奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_UPGRADE_IS_NOT",
         "original": "Great Work feature is NOT",
-        "translation": "奇观附属建筑未",
+        "translation": "奇观附属建筑不",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -10859,7 +10859,7 @@
         "key": "WONDER_UPGRADE_IS",
         "original": "Great Work feature is",
         "translation": "奇观附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10867,7 +10867,7 @@
         "key": "WONDER_UPGRADE_EXISTS",
         "original": "Great Work feature exists",
         "translation": "奇观附属建筑存在",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10875,7 +10875,7 @@
         "key": "WONDER_BUILD_COST_MODIFIER",
         "original": "Great Work Build Cost",
         "translation": "奇观建造花费",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10883,14 +10883,14 @@
         "key": "WONDER_BUILD_TIME_MODIFIER",
         "original": "Great Work Build Time",
         "translation": "奇观建造时间",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_IS_NOT",
         "original": "Great Work is NOT",
-        "translation": "奇观不是",
+        "translation": "奇观不",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -10898,7 +10898,7 @@
     {
         "key": "WONDER_IS",
         "original": "Great Work is",
-        "translation": "奇观是",
+        "translation": "奇观",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -10907,7 +10907,7 @@
         "key": "WONDER_EXISTS",
         "original": "Great Work exists",
         "translation": "奇观存在",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10915,7 +10915,7 @@
         "key": "EXPENSE_WONDER_CONSTRUCTION",
         "original": "Great Work construction",
         "translation": "奇观建设",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10923,7 +10923,7 @@
         "key": "CONFIRM_ABORT_WONDER_STAGE_CONSTRUCTION_TEXT",
         "original": "Are you sure you want to abort construction of the §Y[FromFrom.GetWonderTypeShort]§!\\n\\nNo gold will be refunded for this action",
         "translation": "你确定你想中止§Y[FromFrom.GetWonderTypeShort]§!的建设么？\\n\\n这一举动不能收回任何投入的财富",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10931,7 +10931,7 @@
         "key": "CONFIRM_ABORT_WONDER_UPGRADE_CONSTRUCTION_TEXT",
         "original": "Are you sure you want to abort construction of the feature?\\n\\nNo gold will be refunded for this action",
         "translation": "你确定你想中止奇观的建设么？\\n\\n这一举动不能收回任何投入的财富",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10939,7 +10939,7 @@
         "key": "WONDER_UPGRADES_TITLE_LABEL",
         "original": "Great Work Features",
         "translation": "奇观附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10947,14 +10947,14 @@
         "key": "WONDER_CONSTRUCTION_VIEW_TITLE",
         "original": "Construct Great Work",
         "translation": "建设奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "rename_wonder_desc",
         "original": "Change the name of §Y'[FromFrom.GetName]'§! to whatever you desire.",
-        "translation": "将§Y[FromFrom.GetName]§!重新更改为你想要的名字。",
+        "translation": "将§Y[FromFrom.GetName]§!更改为你想要的名字。",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -10963,7 +10963,7 @@
         "key": "WONDERS_CAP",
         "original": "Great Works",
         "translation": "奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10971,7 +10971,7 @@
         "key": "SHOW_CYCLE_WONDERS",
         "original": "Show great works that are owned by this character.\\nPress again to cycle between all owned great works.",
         "translation": "显示这个角色拥有的奇观。\\n再次点击以循环显示全部拥有的奇观。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10979,7 +10979,7 @@
         "key": "HAS_NO_WONDERS",
         "original": "This character owns no Great Works",
         "translation": "这个角色未拥有奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10987,7 +10987,7 @@
         "key": "WONDER_EXTEND_DESC",
         "original": "§YOpen the Great Work View§!",
         "translation": "§Y打开奇观界面§!",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -10995,7 +10995,7 @@
         "key": "WONDER_EXTEND_DESC_LONG",
         "original": "Extend the interface to show the state of the great work in this province",
         "translation": "拓展界面以显示这个省份奇观的状态",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11003,7 +11003,7 @@
         "key": "WONDER_IMAGE_DESC",
         "original": "[FromFrom.GetDesc]\\n\\n§GLeft-click to open the great work view§!",
         "translation": "[FromFrom.GetDesc]\\n\\n§G点击左键打开奇观界面§!",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11011,7 +11011,7 @@
         "key": "CONSTRUCT_WONDER",
         "original": "Construct a great work in this province",
         "translation": "在这个省份建设一座奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11019,14 +11019,14 @@
         "key": "VIEW_BUILDABLE_WONDERS",
         "original": "View great work construction",
         "translation": "查看奇观建设",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "VIEW_BUILDABLE_WONDERS_LONG",
         "original": "See which great works could be built in this province, if it was under your control",
-        "translation": "查看在你控制之下的这个省份，可以建造何种奇观",
+        "translation": "查看如果这个省份在你控制之下，可以建造何种奇观",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11035,7 +11035,7 @@
         "key": "NO_BUILDABLE_WONDERS_OWNED",
         "original": "You are currently not eligible to build any great works in this province",
         "translation": "当前你不能在这个省份建设任何奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11043,7 +11043,7 @@
         "key": "NO_BUILDABLE_WONDERS_NOT_OWNED",
         "original": "You would not currently be eligible to build any great works in this province, even if it was under your control",
         "translation": "当前你不能在这个省份建设任何奇观，即使它在你控制之下",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11051,7 +11051,7 @@
         "key": "WONDER_VIEW_BUTTON_DESC",
         "original": "Show great work",
         "translation": "显示奇观界面",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11059,7 +11059,7 @@
         "key": "WONDER_VIEW_BUTTON_DESC_LONG",
         "original": "Open the great work view to see a detailed breakdown of the §Y[FromFrom.GetName]§!",
         "translation": "打开奇观界面以浏览§Y[FromFrom.GetName]§!的详细信息",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11067,7 +11067,7 @@
         "key": "alert_wonder_construction_paused_instant",
         "original": "§YGreat Work Construction Paused§!",
         "translation": "§Y奇观建设暂停§!",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11075,7 +11075,7 @@
         "key": "alert_wonder_construction_paused_delayed",
         "original": "The following great works have paused construction:\\n\\n$LIST$",
         "translation": "以下几处奇观暂停了建造：\\n\\n$LIST$",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11083,7 +11083,7 @@
         "key": "alert_wonder_construction_paused_name",
         "original": "Paused great work construction",
         "translation": "暂停的奇观建设",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11091,14 +11091,14 @@
         "key": "WONDER_CONSTRUCTION_STARTED_IN_PROVINCE",
         "original": "Construction of a great work stage has started in §Y[This.GetName]§!",
         "translation": "§Y[This.GetName]§!已开始兴建一座奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_CONSTRUCTION_STARTED_BY_CHARACTER",
         "original": "§Y[This.GetFirstName]§! has started constructing a great work stage",
-        "translation": "§Y[This.GetFirstName]§!投资兴建一座奇观的新期工程",
+        "translation": "§Y[This.GetFirstName]§!兴建一座奇观的下一阶段",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11106,7 +11106,7 @@
     {
         "key": "WONDER_CONSTRUCTION_NOT_STARTED_IN_PROVINCE",
         "original": "Construction of a great work stage has not started in §Y[This.GetName]§!",
-        "translation": "§Y[This.GetName]§!的奇观并未投建",
+        "translation": "§Y[This.GetName]§!的奇观的阶段并未兴建",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11114,7 +11114,7 @@
     {
         "key": "WONDER_CONSTRUCTION_NOT_STARTED_BY_CHARACTER",
         "original": "§Y[This.GetFirstName]§! has not started constructing a great work stage",
-        "translation": "§Y[This.GetFirstName]§!未投资建设奇观的新期工程",
+        "translation": "§Y[This.GetFirstName]§!未兴建奇观的阶段",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11123,14 +11123,14 @@
         "key": "WONDER_UPGRADE_CONSTRUCTION_STARTED_IN_PROVINCE",
         "original": "Construction of a great work feature has started in §Y[This.GetName]§!",
         "translation": "§Y[This.GetName]§!的一个奇观附属建筑已兴建",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_UPGRADE_CONSTRUCTION_STARTED_BY_CHARACTER",
         "original": "§Y[This.GetFirstName]§! has started constructing a great work feature",
-        "translation": "§Y[This.GetFirstName]§!已投资兴建一个奇观附属建筑",
+        "translation": "§Y[This.GetFirstName]§!已兴建一个奇观附属建筑",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11138,7 +11138,7 @@
     {
         "key": "WONDER_UPGRADE_CONSTRUCTION_NOT_STARTED_IN_PROVINCE",
         "original": "Construction of a great work feature has not started in §Y[This.GetName]§!",
-        "translation": "§Y[This.GetName]§!的奇观附属建筑并未投建",
+        "translation": "§Y[This.GetName]§!的奇观附属建筑并未兴建",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11146,7 +11146,7 @@
     {
         "key": "WONDER_UPGRADE_CONSTRUCTION_NOT_STARTED_BY_CHARACTER",
         "original": "§Y[This.GetFirstName]§! has not started constructing a great work feature",
-        "translation": "§Y[This.GetFirstName]§!未开始投建一个奇观附属建筑",
+        "translation": "§Y[This.GetFirstName]§!未兴建一个奇观附属建筑",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11155,14 +11155,14 @@
         "key": "obj_create_wonder_title",
         "original": "Build a Great Work",
         "translation": "建一座奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "create_wonder_effect_tooltip",
         "original": "Completing this ambition will result in an extra Feature being built on your Great Work.",
-        "translation": "完成这项野心将会在你的奇观上投建一个新的奇观附属建筑",
+        "translation": "完成这项野心将会在你的奇观上建设一个新的附属建筑",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11171,7 +11171,7 @@
         "key": "create_wonder_condition_tooltip",
         "original": "Build a Great Work to at least stage two.",
         "translation": "建造一座至少二级的奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11179,7 +11179,7 @@
         "key": "WONDER_CONSTRUCTION_VIEW_FLAVOR_TEXT",
         "original": "These constructions are not for the faint of heart. Decades will pass, and heaps of gold will be spent, but at the end of it all you might be left with one of the greatest buildings in the world...",
         "translation": "这些工程并不是为胸无大志之人准备。它们将消耗数十年的光阴以及成堆的黄金，但是最终，你将收获世界上最伟大的建筑之一……",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11187,7 +11187,7 @@
         "key": "WONDER_UPGRADE_BUILT_FOR_WONDER",
         "original": "A feature has been built for §Y[This.GetName]§!",
         "translation": "§Y[This.GetName]§!的一个附属建筑已建设完成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11195,14 +11195,14 @@
         "key": "WONDER_UPGRADE_BUILT",
         "original": "Feature has been built",
         "translation": "奇观附属建筑建设完成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_UPGRADE_NOT_BUILT_FOR_WONDER",
         "original": "A feature has not been built for §Y[This.GetName]§!",
-        "translation": "§Y[This.GetName]§!已建成一个奇观附属建筑",
+        "translation": "§Y[This.GetName]§!未建成一个奇观附属建筑",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11211,14 +11211,14 @@
         "key": "WONDER_UPGRADE_NOT_BUILT",
         "original": "A feature has not been built",
         "translation": "奇观附属建筑尚未建成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_UPGRADE_NUM_IN_WONDER",
         "original": "§Y[This.GetName]§! has $COMPARISON$ $VALUE|Y$ features",
-        "translation": "$COMPARISON$$VALUE|Y$个附属建筑已在§Y[This.GetName]§!建成",
+        "translation": "§Y[This.GetName]§!有$COMPARISON$$VALUE|Y$个附属建筑",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11227,14 +11227,14 @@
         "key": "WONDER_UPGRADE_AGE_TRIGGER",
         "original": "Feature is $COMPARISON$ $VALUE|Y$ years old",
         "translation": "附属建筑已建成$COMPARISON$$VALUE|Y$年了",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "HAS_WONDER_UPGRADE_FLAG_ON_WONDER",
         "original": "Does have the $FLAG|Y$ flag on any feature",
-        "translation": "已在任意附属建筑拥有$FLAG|Y$",
+        "translation": "已在任意附属建筑拥有$FLAG|Y$旗标",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11242,7 +11242,7 @@
     {
         "key": "HAS_NOT_WONDER_UPGRADE_FLAG_ON_WONDER",
         "original": "Does not have the $FLAG|Y$ flag on any feature",
-        "translation": "尚无奇观附属建筑拥有$FLAG|Y$",
+        "translation": "尚无奇观附属建筑拥有$FLAG|Y$旗标",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11251,7 +11251,7 @@
         "key": "WONDER_EFFECT_FINISH_UPGRADE_ANY",
         "original": "Finish any features",
         "translation": "完成任何附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
