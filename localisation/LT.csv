@@ -1198,7 +1198,7 @@ EVTDESC_LT_60601;[target_wonder.GetName]的一块碎片坠落了下来——几�
 EVTOPTA_LT_60601;修缮工作马上开始！;;;;;;;;;;;;x
 EVTOPTB_LT_60601;嗯，这些碎片八成能卖个好价钱……;;;;;;;;;;;;x
 title_castellan;堡主;;;;;;;;;;;;x
-title_castellan_desc;这个称号被授予领主所敬重的封臣。堡主负责城堡的维护和日常运转。;;;;;;;;;;;;x
+title_castellan_desc;这个称号授予领主所敬重的封臣。堡主负责城堡的维护和日常运转。;;;;;;;;;;;;x
 castellan_custom_modifier_tt;解锁§Y堡主§!的荣誉头衔;;;;;;;;;;;;x
 CHAR_COURTIER_MALE;一位名为§Y$NAME$§!的廷臣出现在§Y$EMPLOYER$§!的宫廷。;;;;;;;;;;;;x
 diligent_opinion;勤奋好感;;;;;;;;;;;;x
@@ -1210,7 +1210,7 @@ EVT_TITLE_LT_60701;[target_province.GetName]的草药;;;;;;;;;;;;x
 EVTDESC_LT_60701;我走过[target_wonder.GetName]的温室，令人镇静的声音环绕着我。据报花园里栽种的本地药草已经发芽，而一处与世隔绝的草丛则给我这次游览的结果提供了一种不同的可能性……;;;;;;;;;;;;x
 EVTOPTA_LT_60701;我会采些草药。;;;;;;;;;;;;x
 EVTOPTB_LT_60701;我要好好打个盹休息休息！;;;;;;;;;;;;x
-wonder_temple_buddhist_desc;寺庙是神圣的场所，是敬拜神明之处，是沉思之处。;;;;;;;;;;;;x
+wonder_temple_buddhist_desc;寺庙是神圣的场所，是虔敬与沉思之处。;;;;;;;;;;;;x
 upgrade_symbolic_stupa_desc;为象征佛教理论的不同方面而建造。;;;;;;;;;;;;x
 upgrade_votive_stupa_desc;为获得精神上的裨益或纪行而建造。;;;;;;;;;;;;x
 hidden_passageways_modifier_tt;一场战役后有更高的机会逃离抓捕;;;;;;;;;;;;x
@@ -1233,7 +1233,7 @@ OPEN_WONDER_HISTORY;§Y打开奇观历史§!;;;;;;;;;;;;x
 OPEN_WONDER_HISTORY_DELAYED;显示自建成以来，这座奇观经历的历史。;;;;;;;;;;;;x
 WONDER_HISTORY_RENAME;§G$OLD_NAME$§!被改名作§G$NEW_NAME$§!;;;;;;;;;;;;x
 WONDER_STAGE_PROGRESS_NO_CONSTRUCTION_TT;没有正在进行的建筑项目;;;;;;;;;;;;x
-EVTDESC_MNM_3409;当我回到我的[secret_religion_inductee.GetChamber]，我惊奇地发现一份[secret_religion_inductor.TrueReligion.GetName]信仰的[secret_religion_inductor.SecretReligion.GetScriptureName]躺在我的床上！一开始，我以为是什么人留在那里准备用来诬陷我的，但之后我注意到有一张小便条留在这本打开的大部头书上。「我觉得你会在其中发现有趣的东西的。请给这本书一个机会。落款：一位朋友。」;;;;;;;;;;;;x
+EVTDESC_MNM_3409;当我回到我的[secret_religion_inductee.GetChamber]，我惊奇地发现我床上有一份[secret_religion_inductor.TrueReligion.GetName]信仰的[secret_religion_inductor.SecretReligion.GetScriptureName]！一开始，我以为是什么人留在那里准备用来诬陷我的，但之后我注意到有一张小便条留在这本打开的大部头书上。「我觉得你会在其中发现有趣的东西的。请给这本书一个机会。落款：一位朋友。」;;;;;;;;;;;;x
 WONDER_TYPE_NAME;$NAME$;;;;;;;;;;;;x
 WONDER_TYPE_DESC;$DESC$;;;;;;;;;;;;x
 WONDER_STAGE_TIME_COST_TT;建造时间;;;;;;;;;;;;x
@@ -1242,16 +1242,16 @@ WONDER_UPGRADE_TIME_COST_AVAILABLE_TT_DELAYED;建造这个附属建筑将花费$
 WONDER_STAGE_TIME_COST_TT_DELAYED;该奇观的第一期工程将耗费$TIME|Y$。如果现在开始建设，预计将于$ESTIMATED_FINISH_DATE|Y$完成建设。;;;;;;;;;;;;x
 WONDER_UPGRADE_TICKING_COST_TT;每月花费;;;;;;;;;;;;x
 WONDER_STAGE_TICKING_COST_TT;每月花费;;;;;;;;;;;;x
-WONDER_STAGE_TICKING_COST_TT_DELAYED;奇观建设历时$TIME_TO_BUILD|Y$，每月将会耗费$TICKING_COST|R$¤，统共$ESTIMATED_TOTAL|R$¤。;;;;;;;;;;;;x
+WONDER_STAGE_TICKING_COST_TT_DELAYED;建造成本将是每月$TICKING_COST|R$¤，持续$TIME_TO_BUILD|Y$，预计总成本$ESTIMATED_TOTAL|R$¤。;;;;;;;;;;;;x
 WONDER_STAGE_FLAT_COST_TT;预付费;;;;;;;;;;;;x
 WONDER_STAGE_FLAT_COST_TT_DELAYED;奇观建设开始后将会扣除$OWNER|Y$$FLAT_COST|R$¤;;;;;;;;;;;;x
 NEUTRAL_MODIFIER_TT;该省份没有主要修正。;;;;;;;;;;;;x
 CLICK_CENTER_CAMERA;§G点击左键使省份在屏幕上居中§!;;;;;;;;;;;;x
 WONDER_STAGE_CONSTRUCT_TT;建造奇观;;;;;;;;;;;;x
 WONDER_STAGE_CONSTRUCT_TT_DELAYED;建造奇观需要一次性投入$FLAT_COST|R$¤，在建造期间每月还需花费$TICKING_COST|R$¤。建设需要$TIME_TO_BUILD|Y$。\n$ALLOW_TRIGGER$;;;;;;;;;;;;x
-WONDER_CONSTRUCTION_IMAGE_TTDELAYED;阶段$STAGE_NUMBER$\n特征槽位：\n§Y$STAGE_UPGRADE_COUNT$§!/§Y$UPGRADE_COUNT_MAX$§!\n修正：\n$MODIFIERS$;;;;;;;;;;;;x
+WONDER_CONSTRUCTION_IMAGE_TTDELAYED;阶段$STAGE_NUMBER$\n附属建筑槽位：§Y$STAGE_UPGRADE_COUNT$§!/§Y$UPGRADE_COUNT_MAX$§!\n\n修正：\n$MODIFIERS$;;;;;;;;;;;;x
 WONDER_STAGE_NEXT_BUILD_DISABLED_TT_DELAYED;$MODIFIER_TEXT$$ACTIVE_TRIGGER_TEXT$;;;;;;;;;;;;x
-WONDER_STAGE_RESUME_DISABLED_TT_DELAYED;§R如果你破产了你就不能重新开始建造§!;;;;;;;;;;;;x
+WONDER_STAGE_RESUME_DISABLED_TT_DELAYED;§R如果你破产了你就不能恢复建造§!;;;;;;;;;;;;x
 WONDER_ACTIVE;§Y[FromFrom.GetName]§!已激活;;;;;;;;;;;;x
 RULE_WONDERS;奇观;;;;;;;;;;;;x
 RULE_WONDERS_ON;统治者可以建造奇观。;;;;;;;;;;;;x
