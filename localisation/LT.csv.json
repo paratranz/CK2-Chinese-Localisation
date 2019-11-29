@@ -4466,16 +4466,16 @@
     {
         "key": "upgrade_cherubim",
         "original": "Cherubim",
-        "translation": "普智天使像",
-        "stage": 5,
+        "translation": "基路伯像",
+        "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "upgrade_cherubim_desc",
         "original": "Two gigantic Cherubim made out of cedar wood, their outstretched wings touching in the middle of the Holy Place.",
-        "translation": "两个香柏木做的巨大的普智天使像，他们张开的翅膀在圣地中央相接。",
-        "stage": 5,
+        "translation": "两个香柏木做的巨大的基路伯像，他们张开的翅膀在圣殿中央相接。",
+        "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11291,7 +11291,7 @@
         "key": "WONDER_ALREADY_BUILDING",
         "original": "A feature is not already being built",
         "translation": "附属建筑未建成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11299,7 +11299,7 @@
         "key": "WONDER_ADD_UPGRADE_SLOT",
         "original": "Add $NUM|Y$ feature slot",
         "translation": "增加$NUM|Y$个附属建筑槽位",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11307,7 +11307,7 @@
         "key": "WONDER_ADD_UPGRADE_SLOTS",
         "original": "Add $NUM|Y$ feature slots",
         "translation": "增加$NUM|Y$个附属建筑槽位",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11315,7 +11315,7 @@
         "key": "WONDER_REMOVE_UPGRADE_SLOT",
         "original": "Remove $NUM|Y$ feature slot",
         "translation": "减少$NUM|Y$个附属建筑槽位",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11323,14 +11323,14 @@
         "key": "WONDER_REMOVE_UPGRADE_SLOTS",
         "original": "Remove $NUM|Y$ feature slots",
         "translation": "移除$NUM|Y$个附属建筑槽位",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_STAGE_NUMBERED_TT_DELAYED_COMPLETE",
         "original": "Feature slots unlocked: $UNLOCKED_UPGRADE_SLOTS|Y$\\nCompleted by: $COMPLETED_BY|Y$ on $COMPLETED_ON|Y$\\nAge: $AGE|Y$\\n\\n$MODIFIER_TEXT$$ALLOW_TRIGGER_TEXT$",
-        "translation": "特征槽位解锁：$UNLOCKED_UPGRADE_SLOTS|Y$\\n建造者：$COMPLETED_BY|Y$于$COMPLETED_ON|Y$\\n存在时长：$AGE|Y$\\n\\n$MODIFIER_TEXT$$ALLOW_TRIGGER_TEXT$",
+        "translation": "附属建筑槽位解锁：$UNLOCKED_UPGRADE_SLOTS|Y$\\n由$COMPLETED_BY|Y$于$COMPLETED_ON|Y$完成\\n存在时长：$AGE|Y$\\n\\n$MODIFIER_TEXT$$ALLOW_TRIGGER_TEXT$",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11338,7 +11338,7 @@
     {
         "key": "WONDER_STAGE_NUMBERED_TT_DELAYED_NOT_COMPLETE",
         "original": "Cost per month: $TICKING_COST|R$¤\\nFlat cost: $FLAT_COST|R$¤\\nFeature slots unlocked: $UNLOCKED_UPGRADE_SLOTS|Y$\\nEstimated time to complete: $BUILD_TIME|Y$\\n\\n$MODIFIER_TEXT$$ALLOW_TRIGGER_TEXT$",
-        "translation": "每月花费：$TICKING_COST|R$¤\\n固定成本：$FLAT_COST|R$¤\\n特征槽位解锁：$UNLOCKED_UPGRADE_SLOTS|Y$\\n预计完成时间：$BUILD_TIME|Y$\\n\\n$MODIFIER_TEXT$$ALLOW_TRIGGER_TEXT$",
+        "translation": "每月花费：$TICKING_COST|R$¤\\n固定成本：$FLAT_COST|R$¤\\n附属建筑槽位解锁：$UNLOCKED_UPGRADE_SLOTS|Y$\\n预计完成时间：$BUILD_TIME|Y$\\n\\n$MODIFIER_TEXT$$ALLOW_TRIGGER_TEXT$",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11347,7 +11347,7 @@
         "key": "WONDER_UPGRADE_COUNTER_TT",
         "original": "$NUM_USED|Y$ feature slots used of $NUM_TOTAL|Y$ total",
         "translation": "$NUM_TOTAL|Y$个附属建筑槽位中，有$NUM_USED|Y$已被使用",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11355,7 +11355,7 @@
         "key": "WONDER_UPGRADE_COUNTER_USED_SINGULAR_TT",
         "original": "$NUM_USED|Y$ feature slot used of $NUM_TOTAL|Y$ total",
         "translation": "统共$NUM_TOTAL|Y$个附属建筑槽位中已有$NUM_USED|Y$个被占用",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11363,7 +11363,7 @@
         "key": "WONDER_UPGRADE_PAUSE_TT",
         "original": "Pause feature construction",
         "translation": "暂停附属建筑建设",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11371,7 +11371,7 @@
         "key": "WONDER_UPGRADE_PAUSE_TT_DELAYED",
         "original": "If you pause construction of a feature you pay no feature construction upkeep",
         "translation": "暂停附属建筑建设后你将无需支付对应的维护费",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11379,7 +11379,7 @@
         "key": "WONDER_UPGRADE_RESUME_TT",
         "original": "Resume feature construction",
         "translation": "重开附属建筑建设",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11387,7 +11387,7 @@
         "key": "WONDER_UPGRADE_RESUME_TT_DELAYED",
         "original": "Resuming feature construction will cost §R[From.GetTickingCost]§!¤per month",
         "translation": "重开附属建筑建设将会每月花费§R[From.GetTickingCost]§!¤",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11395,7 +11395,7 @@
         "key": "WONDER_UPGRADE_ABORT_TT",
         "original": "Abort feature construction",
         "translation": "中止附属建筑建设",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11403,7 +11403,7 @@
         "key": "WONDER_UPGRADE_CONSTRUCT_TT",
         "original": "Build feature",
         "translation": "建造附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11411,7 +11411,7 @@
         "key": "WONDER_UPGRADE_CONSTRUCT_TT_DELAYED",
         "original": "Feature will cost $FLAT_COST|R$¤to build and $TICKING_COST|R$¤per month during construction. It will take $TIME_TO_BUILD|Y$ to build.\\n$ALLOW_TRIGGER$",
         "translation": "建造附属建筑需要一次性投入$FLAT_COST|R$¤，在建造期间每月还需花费$TICKING_COST|R$¤。建设需要$TIME_TO_BUILD|Y$。\\n$ALLOW_TRIGGER$",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11419,7 +11419,7 @@
         "key": "WONDER_UPGRADE_AVAILABLE_NAME_TT_DELAYED",
         "original": "$DESCRIPTION$\\nFeature will cost $FLAT_COST|R$¤to build and $TICKING_COST|R$¤per month during construction.\\n$ALLOW_TRIGGER$",
         "translation": "$DESCRIPTION$\\n建造附属建筑需要一次性投入$FLAT_COST|R$¤，在建造期间每月还需花费$TICKING_COST|R$¤。\\n$ALLOW_TRIGGER$",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11427,7 +11427,7 @@
         "key": "WONDER_UPGRADE_FLAT_COST_TT_DELAYED",
         "original": "$FLAT_COST|R$¤will be deducted from $OWNER|Y$ upon feature construction start.",
         "translation": "$FLAT_COST|R$¤会在附属建筑建设开始时从$OWNER|Y$扣除。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11435,7 +11435,7 @@
         "key": "WONDER_HISTORY_UPGRADE_CONSTRUCTION_STARTED",
         "original": "Construction of the §G$UPGRADE_NAME$§! feature started",
         "translation": "§G$UPGRADE_NAME$§!附属建筑建设开始",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11443,14 +11443,14 @@
         "key": "WONDER_HISTORY_UPGRADE_CONSTRUCTION_FINISHED",
         "original": "Construction of the §G$UPGRADE_NAME$§! feature was completed",
         "translation": "§G$UPGRADE_NAME$§!附属建筑建设已完成",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "WONDER_UPGRADE_CONSTRUCTION_NOT_STARTED",
         "original": "Construction of a feature has not started for §Y[This.GetName]§!",
-        "translation": "§Y[This.GetName]§!的附属建筑建设并未投产",
+        "translation": "§Y[This.GetName]§!的附属建筑建设并未开始",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11459,7 +11459,7 @@
         "key": "WONDER_SPECIFIC_UPGRADE_CONSTRUCTION_STARTED_BY_CHARACTER",
         "original": "§Y[This.GetFirstName]§! has started constructing a feature of type §Y$WONDER_UPGRADE_TYPE$§!",
         "translation": "§Y[This.GetFirstName]§!已经开始建设一个§Y$WONDER_UPGRADE_TYPE$§!类型的附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11467,7 +11467,7 @@
         "key": "WONDER_SPECIFIC_UPGRADE_CONSTRUCTION_NOT_STARTED_BY_CHARACTER",
         "original": "§Y[This.GetFirstName]§! has not started constructing a feature of type §Y$WONDER_UPGRADE_TYPE$§!",
         "translation": "§Y[This.GetFirstName]§!还未投资兴建§Y$WONDER_UPGRADE_TYPE$§!类型的附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11475,7 +11475,7 @@
         "key": "intimidation_possible_modifier_tt",
         "original": "Enables §YIntimidation§! attempts",
         "translation": "启用§Y恐吓§!行动",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11483,14 +11483,14 @@
         "key": "recruit_gladiator_modifier_tt",
         "original": "Enables the recruitment of §YGladiators§!",
         "translation": "允许招募§Y角斗士§!",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "produces_alcohol_modifier_tt",
         "original": "Enables the §YSend Alcohol Gift§! decision",
-        "translation": "启用§Y赠送酒品§!决议",
+        "translation": "启用§Y赠送酒类礼物§!决议",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11499,7 +11499,7 @@
         "key": "religion_feature_pyramids",
         "original": "Pyramid Creation",
         "translation": "创造金字塔",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11507,7 +11507,7 @@
         "key": "religion_feature_pyramids_desc",
         "original": "Pyramids were built many years ago by the ancients, we too should aspire to such lofty heights.",
         "translation": "金字塔很久很久以前由古人所建，我们也应当追求如它一般的高度。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11515,7 +11515,7 @@
         "key": "tooltip_religion_feature_pyramids",
         "original": "§GIndependent lieges of this religion can construct pyramids§!",
         "translation": "§G该宗教的独立领主可以建造金字塔§!",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11523,7 +11523,7 @@
         "key": "upgrade_automata_throne",
         "original": "Automata Throne",
         "translation": "自动机宝座",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11531,7 +11531,7 @@
         "key": "upgrade_automata_throne_desc",
         "original": "By some complex machinery this throne can raise itself up and down at will.",
         "translation": "通过一些复杂的机械装置，这个宝座现在可以自如地上下移动。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11539,7 +11539,7 @@
         "key": "upgrade_ballroom",
         "original": "Ballroom",
         "translation": "舞厅",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11547,7 +11547,7 @@
         "key": "upgrade_ballroom_desc",
         "original": "A place for the nobility to meet, dance and scheme at feasts",
         "translation": "贵族们在宴会中会面、跳舞和密谋的地方",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11555,7 +11555,7 @@
         "key": "EVTOPTBHF23440",
         "original": "We should hold it in the Grand Amphitheater!",
         "translation": "我们应该把它放在大圆形剧场里！",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11563,7 +11563,7 @@
         "key": "EVTOPTBHF23440_tt",
         "original": "This option is available as you own a §YGrand Amphitheater§!.",
         "translation": "这个选项可用是因为你拥有一座§Y大圆形剧场§!。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11571,7 +11571,7 @@
         "key": "EVTOPTEHF23445",
         "original": "How about some lions?",
         "translation": "来一些狮子怎么样？",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11579,7 +11579,7 @@
         "key": "EVTOPTEHF23445_tt",
         "original": "This option is available as you own the §YAnimal Cages§! feature",
         "translation": "这个选项可用是因为你拥有一座§Y兽笼§!。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11587,7 +11587,7 @@
         "key": "animal_cages_modifier_tt",
         "original": "Enables the use of §YDangerous Animals§Y in the Arena",
         "translation": "允许在竞技场中使用§Y危险的动物§Y",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11595,7 +11595,7 @@
         "key": "upgrade_earthquake_damage_small",
         "original": "Earthquake Damage",
         "translation": "地震的破坏",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11603,7 +11603,7 @@
         "key": "upgrade_earthquake_damage_small_desc",
         "original": "This great work has taken damage from an earthquake and has not been repaired.",
         "translation": "奇观在一场地震中受损，目前还未被修复。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11611,7 +11611,7 @@
         "key": "upgrade_earthquake_damage_medium",
         "original": "Earthquake Damage",
         "translation": "地震的破坏",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11619,7 +11619,7 @@
         "key": "upgrade_earthquake_damage_medium_desc",
         "original": "This great work has taken damage from an earthquake and has not been repaired.",
         "translation": "奇观在一场地震中受损，目前还未被修复。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11627,7 +11627,7 @@
         "key": "upgrade_earthquake_damage_large",
         "original": "Earthquake Damage",
         "translation": "地震的破坏",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11635,7 +11635,7 @@
         "key": "upgrade_earthquake_damage_large_desc",
         "original": "This great work has taken damage from an earthquake and has not been repaired.",
         "translation": "奇观在一场地震中受损，目前还未被修复。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11643,7 +11643,7 @@
         "key": "wonder_aztec_pyramid",
         "original": "Aztec Pyramid",
         "translation": "阿兹特克金字塔",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11651,7 +11651,7 @@
         "key": "repair_wonder_decision",
         "original": "Repair Lighthouse",
         "translation": "修复灯塔",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11659,7 +11659,7 @@
         "key": "repair_wonder_decision_desc",
         "original": "You will set aside funds to repair the damage on the lighthouse removing the negative features.",
         "translation": "你会拨款修复灯塔的损坏，去除负面特征。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11667,7 +11667,7 @@
         "key": "wonder_temple_hindu_konark",
         "original": "Konark Sun Temple",
         "translation": "拘捺迦太阳神庙",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11675,7 +11675,7 @@
         "key": "wonder_temple_hindu_konark_desc",
         "original": "This temple was built in the form of a giant ornamented chariot dedicated to the Sun God, Surya.",
         "translation": "这座神庙被设计成太阳神苏利耶战车的形状。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11683,7 +11683,7 @@
         "key": "wonder_underground_city_petra",
         "original": "Petra",
         "translation": "佩特拉",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11691,7 +11691,7 @@
         "key": "wonder_underground_city_petra_desc",
         "original": "The great desert city of Petra has existed for hundreds of years",
         "translation": "佩特拉沙漠古城已经存在了数个世纪之久",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11699,7 +11699,7 @@
         "key": "wonder_house_of_wisdom",
         "original": "House of Wisdom",
         "translation": "智慧宫",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11707,7 +11707,7 @@
         "key": "wonder_house_of_wisdom_desc",
         "original": "A grand library, housing much of the world's knowledge.",
         "translation": "一座大图书馆，世间万物之理皆藏于馆中。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11715,7 +11715,7 @@
         "key": "wonder_apostolic_palace",
         "original": "Apostolic Palace",
         "translation": "宗座宫",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11723,7 +11723,7 @@
         "key": "wonder_apostolic_palace_desc",
         "original": "The palace of the Pope himself, sitting at the heart of Rome.",
         "translation": "教宗本人的宫殿，坐落于罗马的心脏地带。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11731,15 +11731,15 @@
         "key": "wonder_statue_horse",
         "original": "Statue of a Horse",
         "translation": "马像",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "wonder_statue_horse_desc",
         "original": "A grand statue of a majestic stallion!",
-        "translation": "一匹雄伟种马的大雕像",
-        "stage": 1,
+        "translation": "一匹雄伟种马的大雕像！",
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11747,7 +11747,7 @@
         "key": "upgrade_throne_fancy_desc",
         "original": "To some a simple metal chair, but to this ruler so much more.",
         "translation": "对某些人来说这是一把普通的金属椅子，但对这位统治者来说它具有深刻含义。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11755,7 +11755,7 @@
         "key": "CHARACTER_NOT_PARTICIPATED_IN_WONDER_LOOTING",
         "original": "§Y$CHARACTER$§! participated in the looting of §Y[FromFrom.GetName]§!",
         "translation": "§Y$CHARACTER$§!参与了对§Y[FromFrom.GetName]§!的劫掠",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11763,14 +11763,14 @@
         "key": "WONDER_IS_BEING_LOOTED",
         "original": "Great Work is being looted",
         "translation": "奇观正被劫掠",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "NOT_WONDER_IS_BEING_LOOTED",
         "original": "Great Work is NOT being looted",
-        "translation": "奇观未被劫掠",
+        "translation": "奇观不正在被劫掠",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11779,7 +11779,7 @@
         "key": "WONDER_LOOT_INDEPENDENT_REALM_RULER_REQUIREMENT",
         "original": "Only the independent ruler of the realm is allowed to loot Great Works",
         "translation": "只有国内的独立统治者才能劫掠奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11787,7 +11787,7 @@
         "key": "WONDER_MIN_LOOTABLE_STAGE_REQUIREMENT",
         "original": "Only Great Works that has completed stage $STAGE_NUMBER|Y$ can be looted",
         "translation": "只有已经完成了阶段$STAGE_NUMBER|Y$的奇观才能被劫掠。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11795,7 +11795,7 @@
         "key": "WONDER_RESTORE_INDEPENDENT_REALM_RULER_REQUIREMENT",
         "original": "Only the independent ruler of the realm is allowed to restore Great Works",
         "translation": "只有国内的独立统治者才能修复奇观",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11803,7 +11803,7 @@
         "key": "WONDER_RESTORE_GOLD_COST_REQUIREMENT",
         "original": "The up front cost of $COST$¤cannot be paid",
         "translation": "支付不起预付费$COST$¤",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11811,7 +11811,7 @@
         "key": "AVAILABLE_WONDER_UPGRADES",
         "original": "Available features",
         "translation": "可用附属建筑",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11819,7 +11819,7 @@
         "key": "WONDER_BEING_LOOTED",
         "original": "§Y[FromFrom.GetName]§! is being looted",
         "translation": "§Y[FromFrom.GetName]§!正被劫掠",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11827,7 +11827,7 @@
         "key": "NOT_WONDER_BEING_LOOTED",
         "original": "§Y[FromFrom.GetName]§! is NOT being looted",
         "translation": "§Y[FromFrom.GetName]§!未被劫掠",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11835,7 +11835,7 @@
         "key": "NOT_WONDER_ACTIVE",
         "original": "§Y[FromFrom.GetName]§! is NOT active",
         "translation": "§Y[FromFrom.GetName]§!未激活",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11843,7 +11843,7 @@
         "key": "PROVINCE_IS_IN_REALM",
         "original": "§Y[FromFromFrom.GetName]§! is part of your §Y[Root.PrimaryTitle.GetTier]§!",
         "translation": "§Y[FromFromFrom.GetName]§!是你的§Y[Root.PrimaryTitle.GetTier]§!的一部分",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11851,7 +11851,7 @@
         "key": "NOT_PROVINCE_IS_IN_REALM",
         "original": "§Y[FromFromFrom.GetName]§! is NOT part of your §Y[Root.PrimaryTitle.GetTier]§!",
         "translation": "§Y[FromFromFrom.GetName]§!不是你的§Y[Root.PrimaryTitle.GetTier]§!的一部分",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11859,7 +11859,7 @@
         "key": "LEDGER_TIER",
         "original": "Stage",
         "translation": "阶段",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11867,7 +11867,7 @@
         "key": "String_Sphinx",
         "original": "Great Sphinx of Giza",
         "translation": "吉萨狮身人面像",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11875,7 +11875,7 @@
         "key": "String_MythologicalBeast",
         "original": "Mythological Beast Statue",
         "translation": "神兽雕像",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11883,7 +11883,7 @@
         "key": "upgrade_inner_sanctuary_desc",
         "original": "A sacred and reserved space inside the temple where only the high ranking priests can enter.",
         "translation": "神庙内预留出的神圣空间，唯有高阶祭司方能涉足。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11891,7 +11891,7 @@
         "key": "upgrade_vestibule_desc",
         "original": "Two pillars of bronze frame the entrance to the temple, bidding all worshipers welcome.",
         "translation": "用两根青铜柱作门框的神殿入口，招徕信众的朝拜。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11899,14 +11899,14 @@
         "key": "upgrade_holy_place_desc",
         "original": "Cherubim, palm trees, and open flowers, all overlaid with gold, are carved into the cedar-lined walls. The floor is of cypress overlaid with gold. The door posts, of olive wood, support folding doors of cypress.",
         "translation": "铺上香柏木的殿墙上刻画着基路伯、棕树和初开的花，都贴上了金子。柏木地板也帖上了金子。橄榄木做的门柱支撑着柏木做的折叠门。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
     {
         "key": "upgrade_holy_of_holies_desc",
         "original": "The inner sanctuary within the temple. It is located in the westernmost end of the temple building, a perfect cube, prepared to contain the Ark of the Covenant.",
-        "translation": "圣殿内部的圣所，位于圣殿的最西端，构造呈完美的立方形，其中存放着约柜。",
+        "translation": "圣殿内部的圣所，位于圣殿的最西端，构造呈完美的立方形，准备用于存放约柜。",
         "stage": 1,
         "context": null,
         "file": "localisation/LT.csv"
@@ -11915,7 +11915,7 @@
         "key": "upgrade_inner_court_desc",
         "original": "The Inner Court, or Court of the Priests, is separated from the space beyond by a wall of three courses of hewn stone, surmounted by cedar beams. It contains the Altar of burnt-offering, the Brazen Sea laver, and ten other lavers.",
         "translation": "内殿，又称祭司殿，与外间以三层凿出的石壁隔开，其上架着香柏木托梁。殿内有燔祭祭坛、铜海大盆和其他十个铜盆。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
@@ -11923,7 +11923,7 @@
         "key": "upgrade_great_seminars_desc",
         "original": "A large hall where famous scholars can give public lectures, attracting many attendees.",
         "translation": "一间大厅，著名学者在此进行公开演讲，吸引了大量的参与者。",
-        "stage": 1,
+        "stage": 5,
         "context": null,
         "file": "localisation/LT.csv"
     },
