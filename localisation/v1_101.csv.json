@@ -4,375 +4,328 @@
         "original": "$TITLE$ $NAME$ '$NICK$'",
         "translation": "$TITLE$ $NAME$「$NICK$」",
         "stage": 9,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "VASSAL_RETRACTION_LOG",
         "original": "$TOP_LIEGE$ has retracted the vassalage of $VASSAL$ from $OLD_LIEGE$",
         "translation": "$TOP_LIEGE$已收回了$OLD_LIEGE$的封臣$VASSAL$",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "opinion_retracted_my_vassal",
         "original": "Retracted my Vassal",
         "translation": "收回我的封臣",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "opinion_retracted_my_de_jure_vassal",
         "original": "Retracted my de jure Vassal",
         "translation": "收回我的法理封臣",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "opinion_retracted_a_vassal",
         "original": "Retracted a Vassal",
         "translation": "收回一名封臣",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "opinion_retracted_a_de_jure_vassal",
         "original": "Retracted a de jure Vassal",
         "translation": "收回一名法理封臣",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "RETRACT_VASSAL_INTERACTION_TITLE",
         "original": "Retract Vassalage",
         "translation": "收回封臣",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "RETRACT_VASSAL_INTERACTION_DESC",
         "original": "Retract a vassal from §Y[Recipient.GetBestName]§!.",
         "translation": "从§Y[Recipient.GetBestName]§!那里收回一名封臣。",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "RETRACT_VASSAL_INTERACTION_LONG_DESC",
         "original": "You can retract a vassal from one of your direct vassals. They will not be happy about this, especially if it is their de jure vassal.",
         "translation": "你可以收回你一个直属封臣的封臣。他们会对此感到不悦，特别是当被收回的封臣是他们的法理封臣的时候。",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "RETRACT_VASSAL_INTERACTION_0",
         "original": "Select a vassal to retract from §Y[Recipient.GetTitledFirstName]§W.",
         "translation": "选择要从§Y[Recipient.GetTitledFirstName]§!那里收回的封臣。",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "RETRACT_VASSAL_INTERACTION_1",
         "original": "Make §Y[ThirdPartyCharacter.GetBestName]§W your direct vassal, decreasing §Y[Recipient.GetTitledFirstName]§W's opinion of you by §R$OPINION$§W.",
         "translation": "让§Y[ThirdPartyCharacter.GetBestName]§!成为你的直属封臣。§Y[Recipient.GetTitledFirstName]§!对你的好感会降低§R$OPINION$§!。",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "RETRACT_VASSAL_INTERACTION_2",
         "original": "Thanks to the crown authority in the §Y$CROWN_TITLE$§!, our vassals cannot object.",
         "translation": "多亏有§Y$CROWN_TITLE$§!的王权权威，我们的封臣无法拒绝。",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "RETRACT_VASSAL_INTERACTION_2B",
         "original": "Since §Y[Recipient.GetTitledFirstName]§! is a traitor, our vassals will not object.",
         "translation": "因为§Y[Recipient.GetTitledFirstName]§!是个叛徒，所以我们的封臣不会反对。",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "RETRACT_VASSAL_INTERACTION_2C",
         "original": "Since §Y[Recipient.GetTitledFirstName]§! is an infidel, only §Y[Recipient.Religion.GetName]§! vassals will object (§R$OPINION$§!).",
         "translation": "因为§Y[Recipient.GetTitledFirstName]§!是个异教徒，只有信仰§Y[Recipient.Religion.GetName]§!的封臣会反对（§R$OPINION$§!）。",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "RETRACT_VASSAL_INTERACTION_2D",
         "original": "This is a breach of the feudal contract and will upset your other vassals (§R$OPINION$§!).",
         "translation": "这么做会违背封建契约，并会使你其他的封臣失望（§R$OPINION$§!）。",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "RETRACT_VASSAL_INTERACTION_2N",
         "original": "This is a breach of the feudal contract and will upset your other non-Nomadic vassals (§R$OPINION$§!).",
         "translation": "这是对封建法的违背，将会使你的非游牧封臣感到不悦（§R$OPINION$§!）。",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "RETRACT_VASSAL_INTERACTION_2E",
         "original": "Our Imperial administration allows us to retract vassals without objections from the aristocracy.",
         "translation": "我们的帝国行政体制可让我们收回封臣而不引起贵族的反对。",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "RETRACT_VASSAL_INTERACTION_ACCEPT_SETUP",
         "original": "Vassal Retracted",
         "translation": "封臣已收回",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "RETRACT_VASSAL_INTERACTION_ACCEPT_LOG",
         "original": "§Y[Actor.GetBestName]§W has transferred the vassalage of §Y[ThirdPartyCharacter.GetBestName]§W from §Y[Recipient.GetBestName]§W",
         "translation": "§Y[Actor.GetBestName]§W已将§Y[ThirdPartyCharacter.GetBestName]§W的封臣地位从§Y[Recipient.GetBestName]§W处转移走。",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "RETRACT_VASSAL_INTERACTION_LETTER",
         "original": "We have decided to retract the vassalage of [ThirdPartyCharacter.GetBestName]. Failure to accept will lead to war.",
         "translation": "我们已经决定收回[ThirdPartyCharacter.GetBestName]的头衔。拒绝接受将引发战争。",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "RETRACT_VASSAL_INTERACTION_DECLINE_SETUP",
         "original": "Vassal Retraction Refused",
         "translation": "收回封臣遭拒",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "RETRACT_VASSAL_INTERACTION_DECLINE_LOG",
         "original": "§Y[Recipient.GetBestName]§W refused the retraction of the vassal §Y[ThirdPartyCharacter.GetBestName]§W, demanded by §Y[Actor.GetBestName]§W",
         "translation": "§Y[Recipient.GetBestName]§!拒绝按§Y[Actor.GetBestName]§!的要求收回封臣§Y[ThirdPartyCharacter.GetBestName]§!。",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "EVTDESC274",
         "original": "My liege, I accept your decision to retract my vassal, [Root.GetBestName], though it grieves me deeply.",
         "translation": "我的领主，我接受您收回我的封臣[Root.GetBestName]的决定，尽管这会让我悲痛万分。",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "EVTDESC275",
         "original": "Your breach of the feudal contract is unacceptable, I will not give up my vassals without a fight!",
         "translation": "你对于封建契约的背弃不可接受！我不惜一战也要捍卫我的封臣！",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "CANNOT_DESTROY_GAVELKIND_TITLE",
         "original": "Cannot destroy titles under Gavelkind succession",
         "translation": "不能在均分继承法下销毁头衔",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "INTERACTION_REQUIRES_PIETY",
         "original": "§Y[Actor.GetTitledFirstName]§! can afford to lose §Y$COST$§W [Player.Religion.GetPietyName]",
         "translation": "§Y[Actor.GetTitledFirstName]§!可以负担§Y$COST$§![Player.Religion.GetPietyName]",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "INTERACTION_REQUIRES_MONEY",
         "original": "§Y[Actor.GetTitledFirstName]§! can pay §Y$COST$§W¤",
         "translation": "§Y[Actor.GetTitledFirstName]§!可以支付 §Y$COST$§W¤",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "INTERACTION_REQUIRES_PRESTIGE",
         "original": "§Y[Actor.GetTitledFirstName]§! can afford to lose §Y$COST$§W Prestige",
         "translation": "§Y[Actor.GetTitledFirstName]§!可以承受§Y$COST$§!点威望的损失",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "CelticUnitPackDLC",
         "original": "Celtic Unit Pack",
         "translation": "凯尔特单位包",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "CelticPortraitsDLC",
         "original": "Celtic Portraits",
         "translation": "凯尔特肖像",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "broken_spirit",
         "original": "Broken Spirit",
         "translation": "意志消沉",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "opinion_subjugated_other_rel",
         "original": "Subjugated",
         "translation": "征服其他宗教",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "d_meath_adj_irish",
         "original": "Taran",
         "translation": "塔兰",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "d_ghanan_band",
         "original": "Ghanan Band",
         "translation": "加纳大队",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "d_ghanan_band_adj",
         "original": "Ghanan",
         "translation": "加纳大队",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "AIREASON_CONSORT_CLAIMANT",
         "original": "Is Claimant",
         "translation": "是宣称者",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "hellenic_pagan",
         "original": "Hellenic",
         "translation": "希腊多神教",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "hellenic_pagan_DESC",
         "original": "The Hellenistic religion is polytheistic, with a pantheon of twelve major gods including Jupiter, Mars, Mercury, Venus, Minerva and Vesta. It originated in ancient Greece and with the conquests of Alexander the Great and the Roman Empire, it would go on to become the dominant religion in the Mediterranean world until the rise of Christendom.",
         "translation": "希腊多神教信奉朱庇特、马尔斯、墨丘利、维纳斯、密涅瓦和维斯塔等十二主神。它发源于古希腊，并伴随亚历山大大帝和罗马帝国的征服成为了地中海世界的主要宗教，直到基督教崛起。",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "GOD_JUPITER",
         "original": "Jupiter",
         "translation": "朱庇特",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "GOD_MERCURY",
         "original": "Mercury",
         "translation": "墨丘利",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "GOD_MARS",
         "original": "Mars",
         "translation": "马尔斯",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "GOD_VENUS",
         "original": "Venus",
         "translation": "维纳斯",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "GOD_MINERVA",
         "original": "Minerva",
         "translation": "密涅瓦",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "GOD_VESTA",
         "original": "Vesta",
         "translation": "维斯塔",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "pagan_DESC",
         "original": "Since the dawn of history, both Europe and the Middle East has been home to countless Pagan religions and cults unrelated to the Abrahamic faiths.",
         "translation": "有史以来，欧洲和中东都诞生了无数不属于亚伯拉罕宗教的异教信仰。",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "d_aztec_reformed",
         "original": "The Aztec Church",
         "translation": "阿兹特克教团",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     },
     {
         "key": "job_spiritual_pagan",
         "original": "Diviner",
         "translation": "祭司",
         "stage": 5,
-        "context": null,
-        "file": "localisation/v1_101.csv"
+        "context": null
     }
 ]
